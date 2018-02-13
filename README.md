@@ -3,4 +3,4 @@
 
 ## contributors
 * teknoraver.net thanks to @Cia91
-* LoDt thanks to @mattosem
+* LoD thanks to @mattosem
