@@ -1,0 +1,1385 @@
+    *****   Vol.  1   *****      Pag.  1      *****   Numero   6   *****
+
+    ====================================================================
+
+    @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+      @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+      @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+      @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+      @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+    ====================================================================
+
+                                 Giugno 1991
+
+    ====================================================================
+
+      Bollettino telematico mensile a cura del network 2:334 - Fidonet 
+
+                 Editor terremotatus:   Maurizio Codogno
+                 Editor smanettans:     Massimo Gentilini
+                 Editor televideans:    Roberto Piola
+                 Editor reporter:       Franco Carcillo
+                 Editor basicus:        Renato Rolando
+                 Editor novellus:       Elio Fenoglio
+                 Editor (ita)pacchianus:Alfredo Berlusconi
+                 Collaboratori:         Tutti voi :-)
+
+    --------------------------------------------------------------------
+
+                            IN   QUESTO   NUMERO :
+
+    Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .  pag.  2
+    Come si riduce il cluster, di Massimo Gentilini   .   .   .  pag.  3
+    Il Telesoftware, di Roberto Piola .   .   .   .   .   .   .  pag.  7
+    Itapac, parte 1, di Alfredo Berlusconi    .   .   .   .   .  pag. 10
+    Le message bases, di Elio Fenoglio    .   .   .   .   .   .  pag. 12
+    Feedback utenti   .   .   .   .   .   .   .   .   .   .   .  pag. 14
+    Il programmino, a cura di Renato Rolando  .   .   .   .   .  pag. 16
+    Curiosita': Il Gergo Hacker - parte 4 .   .   .   .   .   .  pag. 19
+    I Point del net 334, di Franco Carcillo   .   .   .   .   .  pag. 21
+    Notizie Fidonet, a cura di Franco Carcillo    .   .   .   .  pag. 23
+    Notizie dal net 334   .   .   .   .   .   .   .   .   .   .  pag. 24
+    I nostri bbs  .   .   .   .   .   .   .   .   .   .   .   .  pag. 25
+
+    ====================================================================
+
+         Il materiale presente in Telematicus e' (C) dei singoli autori.
+    E' espressamente  consentita  la  distribuzione  e il riutilizzo del
+    bollettino  in  tutto  o in  parte,  purche' non  a fini di  lucro e
+    citando sempre la fonte di provenienza. 
+    *****   Vol.  1   *****      Pag.  2      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                       -----> EDITORIALE 
+                                                              ==========
+
+         Mi scuso innanzitutto con tutti voi 70 lettori (non si parla di 
+    manzonianismo,  e' la "tiratura" presunta) per la qualita'  scadente 
+    di  questo  numero:  sto scrivendo su un  8088  di  fortuna  (grazie 
+    Enzo!)  e parte degli articoli che avrebbero dovuto comparire 
+    sono  rimasti  su un altro hard disk... In ogni  caso  nel  prossimo 
+    numero - doppio, perche' ad agosto vorrei andarmene un po' in  ferie 
+    anch'io - ricompariranno!
+         Prima  di lasciarvi alla lettura "a sorpresa" del numero,  giro 
+    il  dito nella piaga e vi rammento le nuove tariffe telefoniche  che 
+    dovremmo  pagare dal primo luglio prossimo venturo. La TUT sara'  in 
+    quattro fasce come per le interurbane, con la seguente frequenza:
+         - ore di punta (lun-ven  8.30-13): 1 scatto ogni 4 minuti.
+         - standard (lun-ven 8-8.30, 13-18.30;
+                                 sab 8-13): 1 scatto ogni 5 minuti.
+         - serali/festive (lun-ven 18.30-22; 
+                      sab 13-22; dom 8-22): 1 scatto ogni 6'40".
+         - notturne (22-8):                 1 scatto ogni 10 minuti.
+
+         Sono anche cambiate le tariffe interurbane settoriali, ma  sono 
+    relativamente  piu'  rare (ad esempio da Torino non  se  ne  possono 
+    fare: Ivrea invece ha il settore diviso in piu' reti urbane).
+         Si avvicinano tempi duri.... :-(
+                                            .mau.
+    *****   Vol.  1   *****      Pag.  3      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+                    
+        
+                                          ---> COME SI RIDUCE IL CLUSTER
+                                               =========================
+
+         Scritto,  diretto, ed interpretato da Massimo Gentilini,  Sysop 
+    del nodo 2:332/401, 051/6343719, 2400 24H, 660 mega online.
+
+         Nota introduttiva:
+         ------------------
+         Quanto  descritto nel seguito e' potenzialmente pericoloso  per 
+    l'integrita'  fisica dei dati su disco (nulla che una  formattazione 
+    non sistemi) e per quella mentale di chi procede nell'operazione, io 
+    vi  dico  come  si  fa,  se poi  sbagliate  qualcosa  e  perdete  la 
+    contabilita' degli ultimi 2 anni della quale non avete un backup.... 
+    sono tutti fatti vostri, io non mi assumo responsabilita' alcuna.
+
+         L'origine del problema:
+         -----------------------
+         Uno  dei  problemi grossi della gestione dei Point  e  dei  BBS 
+    basati  su  di un software di tipo Opus o compatibile, e  cioe'  con 
+    quei soft che, confidenzialmente, usano la base messaggi "fido",  e' 
+    quello  generato  dalla gestione dei  messaggi  MOLTO  inefficiente. 
+    Infatti  la  struttura  1 messaggio = 1  file  occupa  molto  spazio 
+    inutile su disco.
+         Questo e' causato dall'architettura stessa del Dos, che  lavora 
+    con il concetto di CLUSTER. Il disco e' diviso in SETTORI, che  sono 
+    di  512 byte (o almeno tutti i Dos che ho visto hanno i  settori  di 
+    queste  dimensioni),  a sua volta un certo numero  di  settori  sono 
+    uniti  per  formare un CLUSTER. Ad esempio con il Dos  3.31  ed  una 
+    dimensione  del  disco di circa 40 mega il cluster e' formato  da  4 
+    settori, occupando quindi 2048 byte.
+         Il  Dos  non permette ad un file di essere piu' piccolo  di  un 
+    cluster,  con  il  risultato che un file che sia  piu'  corto  della 
+    dimensione  del cluster lo occupa sempre per intero. Per restare  al 
+    nostro esempio se creiamo un file lungo 1 byte lo spazio che  questo 
+    sottrae al nostro disco sara' di 2048 byte. Prova molto semplice  da 
+    fare,  provate a dare "dir" e segnare i byte liberi che  il  comando 
+    riporta,  poi  battete il comando "echo . > prova" e  battete  "dir" 
+    nuovamente.  Vedrete che il file prova sara' di 4 byte ma lo  spazio 
+    rimasto  su disco sara' 2048 byte in meno rispetto a  prima,  almeno 
+    sul mio disco, da voi puo' essere ovviamente diverso (incidentamente 
+    questo  e'  anche un sistema rapido per vedere quanto e'  grosso  il 
+    cluster del vostro disco fisso). Attenzione perche' un file lungo  0 
+    byte non occupa neppure un cluster su disco.
+         Questa situazione e' particolarmente sfavorevole sui BBS o  sui 
+    Point  basati  sulla base messaggi fido, dove  ogni  messaggio  (che 
+    normalmente  e' PIU' piccolo di 2048 byte, da una  statistica  fatta 
+    sul  mio BBS circa il 70% dei messaggi e' piu' corto) occupa  almeno 
+    un cluster.
+         In  ogni caso lo spreco di spazio (detto "slack") c'e'  sempre, 
+    perche'  se  un messaggio e' di, ipotesi, 2049  byte  occupera'  due 
+    cluster, buttando via spazio.
+    *****   Vol.  1   *****      Pag.  4      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+          La cura e' possibile:
+          ---------------------
+         Il Dos pero' ci permette, anche se non esplicitamente, di  fare 
+    i cluster grandi o piccoli quanto vogliamo (piu' o meno), e'  quindi 
+    possibile  fare dei cluster composti al limite da un  solo  settore, 
+    lunghi  quindi  solo 512 byte. Le dimensioni del  cluster  dipendono 
+    usualmente  dalla  dimensione  del disco e dalla  versione  del  Dos 
+    usata,  nella  seguente  tabella riporto le  dimensioni  minime  del 
+    cluster per la massima grandezza:
+
+         Dimensione cluster (settori) ! Massima dimensione disco
+         --------------------------------------------------------
+         512   (1)                    ! 32 mega
+         1024  (2)                    ! 64 mega
+         2048  (4)                    ! 128 mega
+         4096  (8)                    ! 256 mega
+         8192  (16)                   ! 512 mega
+         --------------------------------------------------------
+
+         Questi dati sono ovviamente validi per Dos 3.31 o superiori che 
+    permettono di fare anche partizioni maggiori di 32 mega.
+
+         Medicine necessarie:
+         --------------------
+         E'  necessario: Una utility di formattazione  intelligente  (il 
+    format del Dos non sempre va bene, il format del dos 4.01 che uso io 
+    ad  esempio  va  bene, quello del dos 3.30 originale  Ibm  no),  che 
+    riformatti il disco secondo i parametri gia' scritti nel boot  block 
+    ed  un  programma per editare direttamente i settori  su  disco  che 
+    permetta di lavorare anche sul settore 0, il boot block. Io ho usato 
+    l'accoppiata    Norton  Ultilities/Safe  format  di  Peter   Norton, 
+    versione 4.5, ma anche  l'accoppiata PcTools/PcFormat della  Central 
+    Point va altrettanto bene.
+         Sono consigliati anche:
+         - Una calcolatrice con possibilita' di conversione decimale/esa
+         - Una  lattina di beveraggio a vostro piacere (per far  passare 
+    il tempo intanto che il disco formatta)
+         - Una radio sintonizzata su Italia Network
+         - Occhiali da sole
+         - Specchio
+         - Telo da spiaggia
+
+         Operiamo a cuore aperto:
+         ------------------------
+         Procedete innanzitutto ad effettuare un backup del vostro disco 
+    fisso,  dato  che sara' necessario riformattarlo ed i dati  in  esso 
+    contenuti saranno perduti.
+         A  questo  punto, se e' possibile, e' meglio  usare  Fdisk  per 
+    ricreare su disco le partizioni e riformattarle senza label o altro, 
+    in  modo  da poter lavorare su un disco il  piu'  pulito  possibile, 
+    questo non e' fondamentale ma aiuta. Se cio' non fosse possibile  e' 
+    sufficiente  formattare  la partizione da modificare  (ed  a  questo 
+    punto  i vostri dati sono gia' belli che persi, spero che il  backup 
+    vi funzioni!!!!!!!!!).
+    *****   Vol.  1   *****      Pag.  5      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         A  questo  punto usare il sector editor e  leggere  il  settore 
+    logico 0 del disco da mofificare. Questo e' il Boot Sector e contie-
+    ne  il BPB (Bios Parameter block) che e' quello su cui si  basano  i 
+    formattatori tipo SF o PcFormat per riformattare il disco e scrivere 
+    correttamente l'area di sistema.
+         Il BPB inizia dal Byte 0BH (prima c'e' un Jump all'inizio della 
+    routine  di Boot ed il nome dell'OEM che ha fatto il Dos)  e'  cosi' 
+    fatto  (l'asterisco indica quali sono  i byte da cambiare). TUTTI  i 
+    valori indicati, sia qui che in seguito, sono esadecimali:
+
+    Byte    Significato          Esa     Spiegazione
+    ====================================================================
+    0B-0C   Byte per settore     00 02   200H=512 Byte x settore
+    0D    * Settori per cluster  08      8 settori x cluster = 4096 byte
+    0E-0F   Settori riservati    01 00   Settori riservati dal DOS, NON
+                                         indica quelli usati da Fat e 
+                                         Root, lasciateci quel che c'e'.
+    10      Numero di Fat        02      Normalmente ci sono due Fat
+    11-12   Entrate nella Root   00 02   200H=512 file nella root al
+                                         massimo
+    13-14   Numero totale dei    FE C8   I settori del disco, e' una 
+            Settori nel volume           misura indipendente dal
+                                         Cluster, non toccare
+    15      Media Desc. Byte     F8      Numero che indica che device
+                                         e', F8=Hard Disk
+    16-17 * Settori per ogni Fat 05 00   5 settori per Fat
+
+         Per procedere alla modifica e' sufficiente modificare i Byte 0D 
+    e 16-17.
+         Per prima cosa e' necessario indicare nel byte 0D quanti setto-
+    ri  per  cluster utilizzare, secondo la tabella esposta  poc'anzi  e 
+    relativamente alla dimensione del disco fisso. Il numero DEVE essere 
+    una  potenza di Due, NON e' possibile, ad esempio, fare dei  cluster 
+    lunghi 3072 byte.
+         Supponiamo  ad  esempio di vole modificare il valore  sopra  in 
+    modo da fare dei cluster da 1024 byte, ci andra' scritto 02. A  que-
+    sto  punto e' anche necessario modificare anche i byte 16 e 17  per-
+    che', essendoci piu' cluster sul disco, la Fat non sara' piu' suffi-
+    ciente a contenere le informazioni su tutto il disco. Questa  opera-
+    zione  e' quella piu' critica, dato che dipende da che tipo  di  Fat 
+    avete  sul disco. Innanzitutto salvate il settore modificato con  il 
+    numero  di  cluster cambiato (oppure non salvatelo e fate  tutte  le 
+    modifiche dopo) e andate ad esaminare il settore successivo,  questo 
+    e'  il primo settore della FAT e contiene il tipo di Fat che  avete. 
+    La fat puo' essere a 12 o a 16 bit e riconoscere il tipo e'  sempli-
+    ce. I primi byte della Fat sono infatti
+                              F8 FF FF
+    per la Fat a 12 bit e
+                              F8 FF FF FF
+         per quella a 16 (in pratica c'e' un FF in piu'. Per la  cronaca 
+    il  primo F8 e' la copia dell'analogo valore alla locazione  15  del 
+    BPB).  Se la vostra Fat e' gia' a 16 bit nessun problema, se  invece 
+    e'  a  12 dovrete aggiungere il terzo FF sia nella prima  che  nella 
+    seconda Fat (che si trova poco dopo).
+    *****   Vol.  1   *****      Pag.  6      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         A questo punto (dopo cioe' aver normalizzato la Fat se cio' era 
+    necessario) tornate sul settore 0 e dovrete cambiare i byte 16 e  17 
+    per cambiare le dimensioni della Fat.
+         Se la Fat era a 16 bit e' sufficiente prendere nota dei  valori 
+    originari  e moltiplicare per 2, 4 o 8 a seconda del  nuovo  valore, 
+    dato  che  ora, avendo calato il numero di settori per  cluster,  ci 
+    sono piu' cluster su disco. Ad esempio se prima il cluster era  for-
+    mato da 8 settori ed ora e' formato da un solo cluster ci saranno  8 
+    volte i cluster originali e la Fat dovra' essere 8 volte piu' lunga.
+         Altro esempio: se prima il cluster erano formati da 4 settori e 
+    voi  avete modificato il tutto per fare si' che siano formati da  un 
+    solo settore e' sufficiente moltiplicare per 4 il valore  originale, 
+    se invece avete settato il tutto per due settori per cluster dovrete 
+    raddoppiare il valore originale.
+         Attenzione  che TUTTI i calcoli vanno fatti in  esadecimale.  I 
+    valori ottenuti andranno poi arrotondati in modo da aggiungere 1 o 2 
+    cluster per avere un numero pari come misura precauzionale  (infatti 
+    se  la  Fat e' troppo lunga non ci sono problemi, ce ne sono  se  e' 
+    troppo corta, il numero pari e' un semplice estetismo).
+         Se  invece avevate la Fat a 12 bit e l'avete moltiplicata  por-
+    tandola  a 16 dovrete fare un conto per vedere che  valore  mettere. 
+    Detto conto si fa tenendo presente che ogni settore messo a disposi-
+    zione  della Fat (nel caso della Fat a 16 bit) contiene le  informa-
+    zioni  relative a 256 cluster. E' percio' necessario  sapere  quanti 
+    settori sono su disco (informazione che si trova ai byte 14 e 15 del 
+    BPB) e fare la seguente operazione:
+            (Numero di settori del disco/settori per cluster)/256
+    e come al solito aggiungere 1 o 2 per sicurezza.
+         Ad esempio se io ho 32000 settori sul disco (cioe' un disco  di 
+    16  mega) ed ho settato il cluster in modo da avere due settori  per 
+    cluster (cluster da 1024 byte) otterro':
+                        (32000/2)/256=62.5
+         che  arrotondero'  a 64 per sicurezza. Questi  valori  decimali 
+    vanno poi, come sempre, inseriti come valori esadecimali.
+         Un  altro  conto approssimativo e', sapendo la  dimensione  del 
+    disco,
+             ((dimensione del disco/512)/settori per cluster)/256
+         A questo punto salviamo il settore modificato ed effettuiamo un 
+    Boot,  in modo che il Dos legga il nuovo BPB del disco.  Ricordatevi 
+    di fare il Boot se no non funziona nulla.
+         Ora  e' sufficiente lanciare il Safe Format di Norton (o il  Pc 
+    Format  o  il format del Dos, ma non c'e' garanzia  in  quest'ultimo 
+    caso)  e questi formattatori andranno a leggere il BPB esistente  su 
+    disco e riformatteranno tutto di conseguenza, scrivendo correttamen-
+    te la nuova Fat e la Root al posto giusto. Formattate il disco e  se 
+    va tutto bene avrete un disco con un cluster piccolo. 
+         A questo punto lanciate CHKDSK /F e controllate che vada  tutto 
+    bene  (anche il Norton Disk Doctor o il DiskFix sono utili)  e,  per 
+    controllare che non ci siano problemi di fat riempite  completamente 
+    il  disco  fino a lasciare 0 byte free e lanciate i  diagnostici  di 
+    nuovo. Se, con il disco completamente pieno, non accadono errori  e' 
+    altamente  improbabile  che questi avvengano in seguito  (se  questo 
+    passo vi pare noioso pensate che io l'ho fatto con un volume da  512 
+    mega  per controllare....). Questo test e' necessario perche' se  la 
+    *****   Vol.  1   *****      Pag.  7      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    Fat e' troppo piccola il dos scrive gli ultimi byte della Fat  sulla 
+    root  directory  ed il disco si rovina, se e' giusta  (o  al  limite 
+    troppo grande) non succede nulla.
+         Altra  cosa da fare e', se il disco aveva dei  settori  marcati 
+    come difettosi, lanciare una utility per testare il disco e  marcare 
+    i  settori difettosi dato che si sara' probabilmente persa la  rela-
+    zione settore difettoso/settore marcato che c'era in precedenza.
+
+         Prima e dopo la cura:
+         ---------------------
+         Per  invogliarvi nell'operazione vi riporto due o tre  dati  di 
+    prima e dopo la cura, relativi alla directory del mio point,  conte-
+    nente circa 1200 messaggi.
+
+                                          Cluster 2048      Cluster 512
+         Spazio Effettivamente occupato   2.804.629           2.804.629
+         Spazio usato Cluster compresi    4.640.768           3.225.088
+         Percentuale di disco sprecato    39%                 13%'
+
+         Come  potete vedere 1 mega e mezzo abbondante guadagnato  senza 
+    sforzo alcuno.
+
+         Note finali:
+         ------------
+         Ci sono alcune note che vorrei fare.
+         La  prima e' che le Norton Utilities, a partire dalla  versione 
+    5.0, rilevano, tramite il Norton Disk Doctor, che e' stato fatto  il 
+    cambiamento  (sto tentando di capire come lo rilevano per  rimediare 
+    ma non lo capisco) e vi dicono che il disco e' diverso da quello che 
+    il  Dos pensa che sia. Voi NON lasciategli sistemare nulla e non  vi 
+    preoccupate.  Io e' due anni che ho il BBS cosi' e non  e'  successo 
+    nulla.
+         La  seconda  e' che, sempre nelle NU a partire  dalla  5.0,  il 
+    nuovo  Disk Edit vi permette di modificare il disco senza  andare  a 
+    lavorare  direttamente sul settore 0 ma indicando direttamente  cosa 
+    cambiare. Cio' rende il lavoro piu' facile ma meno divertente.
+         La terza e' che alcuni controller e dischi fissi (ad esempio il 
+    Perstor, i dischi IDE, probabilmente gli SCSI) NON vi lasciano  fare 
+    questa  modifica nel disco da cui avviene il boot. Probabilmente  e' 
+    dovuto alla loro "troppa" intelligenza.
+
+          Ciao e buon lavoro....
+
+
+                                                    ---> IL TELESOFTWARE
+                                                         ===============
+
+         [NdE:  sembra  che la RAI detenga il copyright  su  alcuni  dei 
+    programmi  trasmessi  via TeleSoftware... non dite poi  che  non  vi 
+    avevo avvertiti! .mau.]
+
+         Non so se ve ne rendete conto, ma noi siamo immersi per sei ore 
+    al  di' in un mare di files che aspettano solo di  essere  ciucciati 
+    senza spendere uno scatto di telefono.
+    *****   Vol.  1   *****      Pag.  8      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Se  il vostro televisore dispone di Televideo, avrete di  certo 
+    notato la pagina 750: Telesoftware e quindi saprete che la RAI  tra-
+    smette,  tra  le 12 e le 18, frammiste alle  pagine  del  televideo, 
+    anche  barche di programmi, che possono essere catturati  dall'etere 
+    con  la famosa scheda (o, quando il servizio era solo  sperimentale, 
+    con l'apposito televisore Seleco collegato al computer).
+         Venerdi' scorso mi e' arrivato (finalmente!) il decodificatore. 
+    Un bustone  immenso e ben imbottito, stile Postal Market (nel  "pac-
+    chettino"  ci sarebbe potuto stare anche un Amiga 500, senza  l'ali-
+    mentatore).
+         Apertolo avidamente, ne sono usciti:
+         - 1 scheda per PC, che occupa 2 slots lunghi (e' quasi  intera-
+    mente occupata dal sintonizzatore PLL, schermato e piuttosto spesso)
+         -  1 coperchietto per il pannello posteriore del PC,  con  foro 
+    per  farci passare il cavo, con due viti e due rondelle  (tutto  la-
+    sciava  pensare che il pannellino fosse da montare sulla scheda  con 
+    le  due viti, ma non e' cosi': montandolo correttamente,  il  blocco 
+    non si infila nel PC: ho dovuto montare una vite sola, con un  certo 
+    gioco). Il coperchietto era stato separato dalla scheda per  rispar-
+    miare spazio nell'imballaggio (!).
+         - Una busta di cartone pesante, dimensione circa 40 cm per  25, 
+    che  conteneva UN dischetto con il software di gestione. Scopro  con 
+    disappunto  che si tratta del set Seleco: E' in commercio (ma  costa 
+    50  carte di piu') anche la soluzione Colby Video,  decisamente  mi-
+    gliore.
+         - Una busta di carta con un modulo da ritornare al mittente per 
+    informare  che la scheda era arrivata ed un foglio di  adesivi  "RAI 
+    Televideo" da piazzare sul computer, sulla macchina (se ce l'avete), 
+    sulla moto (idem), sulla bici, eccetera...
+         - Qualche paginetta, emessa su modulo continuo da una stampante 
+    ad  aghi, che NON diceva come installare la scheda, ne'  cos'era  il 
+    televideo, ne' il telesoftware, ne' a quale dei due jack e' da  col-
+    legare l'antenna e a quale attaccare il monitor....inoltre le istru-
+    zioni per l'installazione del software sono palesemente errate...
+
+         Fase  successiva:  mi sono impadronito di un cacciavite  ed  ho 
+    aperto il PC (mi scuso con gli utenti che hanno cercato di collegar-
+    si quella sera.... e' abbastanza difficile che il BBS risponda  men-
+    tre subisce un'operazione a cuore aperto...). Infilata in un modo  o 
+    nell'altro la scheda, richiudo, ricollego, aggiungo al groviglio  di 
+    cavi  che normalmente risiedono dietro al PC anche il cavo  dell'an-
+    tenna, accendo....
+         Tutto  bene: non si sente puzza di bruciato mentre sul  monitor 
+    appaiono i messaggi del boot.
+         Inserisco il dischetto e lancio A: INSTALL... OK
+         Lancio il programma....
+         Compare uno splendido menu: prima opzione: Sintonia Automatica: 
+    vaiiiii.... Una manciata di secondi e mi compare in una  finestrella 
+    la prima riga di una pagina del televideo RAI, nonche' l'ora  prele-
+    vata dall'orologio atomico del Galileo Ferraris (altro che la D'bri-
+    dge net che distribuira', bug permettendo, l'ora atomica di Washing-
+    ton!). Sintonizzato! Seconda opzione: memorizza canale; OK.
+         Menu  successivo;  Visualizza Pagina. Il tutto avviene  piu'  o 
+    meno  come in Televideo: si da' il numero... si aspetta....  compare 
+    *****   Vol.  1   *****      Pag.  9      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    la  pagina (a risoluzione 320x200; se avete EGA o VGA c'e' anche  il 
+    colore...)
+         Premo  un tasto. Mi chiede se voglio memorizzarla...  il  testo 
+    viene  salvato  su file in un formato che non  e'  esattamente  puro 
+    ASCII, ma sono allo studio programmini di conversione....
+         E adesso: il Telesoftware!
+         Prima  nota:  la velocita' e' PAUROSAMENTE  lenta  (cronomentro 
+    alla mano, stimo una velocita' effettiva di 666 bauds). La Seleco ha 
+    annunciato una prossima release del software che dovrebbe migliorare 
+    alquanto le cose catturando quattro programmi contemporaneamente  (e 
+    raggiungendo cosi' la folle velocita' di 2400 bauds).
+         Seconda nota: non e' possibile il download in modalita' comple-
+    tamente automatica (cioe': pensavo di mettere un evento nel BBS  che 
+    ad una certa ora faceva iniziare il download. Anche con KeyStack  et 
+    similia non c'e' nulla da fare perche' se si preme un tasto qualsia-
+    si  durante  il download, questo viene abortito di brutto  (e  senza 
+    crash recovery). 
+
+         Vediamo  di approfondire successivamente il lato tecnico  della 
+    trasmissione dei files.
+         L'immagine  sul video si forma con un pennellino che  scandisce 
+    tutto lo schermo riga per riga. Tra l'ultima riga e la prima c'e' un 
+    certo  tempo,  in cui il prennellino deve  riattraversare  tutto  il 
+    video. In questo piccolo periodo l'emittente televisiva pompa infor-
+    mazioni  in  digitale, che vengono interpretati  come  schermate  di 
+    televideo e/o files.
+         In  ogni ciclo di circa 40 secondi la RAI trasmette  circa  600 
+    pagine,  in maniera sequenziale, alcune delle quali non sono  visua-
+    lizzabili,  ma contengono (adeguatamente compattati) blocchi di  fi-
+    les. In un primo ciclo di 60 pagine, una ventina sono  dedicate  ai 
+    primi  blocchi di altrettanti files. in un secondo ciclo  sono  tra-
+    smessi tutti i secondi blocchi e cosi' via....
+         Quando  si  e' terminato di trasmettere  un  file,  l'emissione 
+    viene ripresa dall'inizio.
+         In  tal modo, se c'e' stato un errore di ricezione  alla  prima 
+    passata,  si  riprendera' il blocco alla  successiva  passata  dello 
+    stesso (ogni blocco e' adeguatamente condito con sistemi di  identi-
+    ficazione degli errori).
+         E'  da  notare anche che, qualora si inizi il download  con  la 
+    ricezione  di un blocco IN MEZZO al file stesso, e  non  all'inizio, 
+    questo viene comunque catturato, e l'archivio sara' ricomposto  dopo 
+    che  si saranno collezionati tutti i blocchi  (altrimenti,  dovreste 
+    attendere ogni volta che rispunti il primo blocco).
+
+         Solo  un'annuncio  diciamo "pubblicitario": tutti i  files  che 
+    catturo  li metto a disposizione sul mio BBS: Tecnosoft,  2:334/306, 
+    0121-500663. 
+         Quelli arrivati finora sono:
+         - Economia e ricchezza del lessico
+         - Isomorfismi
+         - Master Mind
+         - PC Write
+         - Avatara (romanzo)
+         - Esattamente 50/100 anni fa avvenne....
+    *****   Vol.  1   *****      Pag. 10      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Inseriro'  automaticamente in area NEWS.ITA messaggi sulla  si-
+    tuazione dei miei downloads dall'etere.
+         @   @
+                   Ciao              Roberto Piola, 2:334/306.1
+         \___/
+
+
+                                                             ---> ITAPAC 
+                                                                  ======
+
+         Comincia in questo numero una trattazione di Itapac da parte di 
+    "Alfredo Berlusconi", nome d'arte di un noto frequentatore dei  bbs. 
+    Buona lettura! .mau.
+
+         Inizio  con questo primo articolo, una serie di  relazioni  ri-
+    guardo  le  reti a commutazione di pacchetto mondiali.  Il  problema 
+    piu'  grosso  e' lo stabilire da cosa partire e  parlando  di  quali 
+    argomenti. Dopo innumerevoli sofferenze mentali O:-), mi sono deciso 
+    a raccogliere dati a partire dalla rete a pacchetto italiana. Questa 
+    veramente  sofferta decisione e' stata causata dal persistere  dell' 
+    atteggiamneto  monopolistico  di Padron Sip.  Tutti  quanti  abbiamo 
+    avuto  a  che fare con coi lati peggiori di  questo  sistema  (leggi 
+    bollette salate inappellabili nonche' pagamento di tasse  nonostante 
+    siano  gia'state fatte decadere dal governo).  Rimane  comunque  mia 
+    intenzione quella di divulgare al massimo le possibilita' (poche  ma 
+    buone, e soprattutto legali!) di by-passare il monopolio Sip. Oramai 
+    tutti sanno che le maggiori reti americane hanno aperto delle  porte 
+    commutate in numerosi capoluoghiitaliani e questo, ne sono fortemen-
+    te  convinto,  portera' il servizio pubblico ad  essere  in  diretta 
+    concorrenza  con chi, forte di esperienze quasi trentennali, ha  del 
+    settore  una  forte conoscenza e cultura e, soprattutto,  un  grosso 
+    rispetto  per gli Utenti.  Il materiale che riporto nella parte  de-
+    scrittiva e' stato prelevato in varie bbs e rappresentano l'ossatura 
+    del testo.  Lo stesso materiale e' stato da me medesimo modificato e 
+    variato  cosi' da raccogliere le ultime novita'. I  testi  originali 
+    comunque, rimangono conservati nella "dialettica", e questi  rappre-
+    sentano circa il 30 per cento del totale dattiloscritto. 
+
+                      QUESTO NUMERO:
+    Parte prima  :generalita' sulla rete a commutazione di pacchetto:
+                  X25 e X28.
+
+                      PROSSIMI NUMERI:
+    Parte seconda:NUI NUA DNIC: generalita' e struttura.
+    Parte terza  :Elenco dei DNIC mondiali
+    Parte quarta :Il collegamento via Itapac:segnali di rete, profili
+                  e parametri.
+    Parte quinta :Parametri del PAD:dettagli sui settaggi I
+    Parte sesta  :Parametri del PAD:dettagli sui settaggi II
+    Parte quinta :Parametri del PAD:dettagli sui settaggi III
+    Parte ottava :Segnali di errore e profili standard.
+    Parte nona   :Le deficienze di Itapac I
+    Parte decima :Le deficienze di Itapac II:Chi e' Gino Pacchetto?
+    Parte undic. :I costi di Itapac
+    *****   Vol.  1   *****      Pag. 11      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+             ITAPAC
+          ------------
+         Itapac  e'  la rete italiana a commutazione  di  pacchetto.  Il 
+    protocollo di trasmissione "a pacchetto" e' cosi' chiamato in quanto 
+    i  dati in viaggio nella rete sono di volta in volta  assemblati  in 
+    gruppi  di  255 bytes (pacchetti), dotati di un  indirizzo  di  rete 
+    fisico verso cui vengono letteralmente spediti. I pacchetti  possono 
+    contenere  dati di diversi proprietari, dividendo in questo modo  il 
+    costo  della  trasmissione e ottimizzando il  traffico  nella  rete. 
+    Tutto  questo  e' pero' del tutto trasparente  all'utente,  che  non 
+    dovrebbe accorgersi della commutazione e lavorare a tutti gli effet-
+    ti in un apparente "real time". In realta' spesso capita di osserva-
+    re intervalli di attesa enormi che costringono gli assidui utilizza-
+    tori  come  me a procedere ad una sconnesione forzata  (Hunh-up  ;-{ 
+    ).Come tutti i protocolli, anche la commutazione di pacchetto neces-
+    sita di un software di gestione.  Per definizione, tutti i terminali 
+    in  grado  di supportare la commutazione vengono detti  PAD  (packet 
+    assembler  -  disassembler) e operano secondo le  definizioni  CCITT 
+    X25.  Il costo di un PAD e' per forza di cose molto elevato. A parte 
+    l'hardware,  quello che richiede maggior sforzo di installazione  e' 
+    il  software:  un PAD locale necessita di un'opera  di  manutenzione 
+    costante  e di una supervisione efficiente. Normalmente, la  maggior 
+    parte  degli utilizzatori preferisce delegare la commutazione ad  un 
+    ACP Server cui si collega e che provvede a trasformare il protocollo 
+    a pacchetto X25 in uno X28 asincrono o pseudo asincrono, compatibile 
+    con  i  normali MODEM a disposizione.  L'utente  diviene  cosi'  DTE 
+    (Data Terminal Equipment), si collega ad un ACP  (Adattatore-concen-
+    tratore  di Pacchetto) e puo' operare in trasparenza senza  problemi 
+    di sorta.
+         Il collegamento al PAD puo' avvenire in due modi:
+         1) DIRETTO - Ossia via cavo, dedicato, installato apposta  dal-
+    l'Italcable.  Il  costo e' notevole, ma garantisce  una  pulizia  di 
+    trasmissione ineguagliabile.
+         2)  COMMUTATO  - Ossia per telefono (linea  commutata,  da  non 
+    confondere  con  l'ACP); il costo e' assai ridotto,  ma  i  disturbi 
+    della linea rendono a volte le trasmissioni inaccettabili :-(.  L'u-
+    tente  X28 DIRETTO e' anche dotato di un indirizzo di  rete  proprio 
+    (NUA)  che  e' possibile chiamare come tante altre NUAs.  Se  questo 
+    X28D e' fatto per ricevere chiamate, puo' tranquillamente avere piu' 
+    di una NUA e spesso queste NUAs sono similari nei primi 7  caratteri 
+    (attualmente  le  NUAs hanno 8 caratteri) e  contengono  numerazioni 
+    aggiuntive  oltre  l'ottava cifra,  fino ad un massimo di  10  cifre 
+    totali di NUA effettiva ( esclusa del DNIC).  L'utente X28 COMMUTATO 
+    puo' solo chiamare altri DTE, ma non puo' ricevere chiamate, essendo 
+    privo  di  indirizzo fisico reale ( una NUA in  effetti,  gli  viene 
+    comunque  attribuita).   In effetti l'unico indirizzo fisico  a  cui 
+    corrisponde  e' quello del PAD a cui si e' collegato.  Dato  che  il 
+    DTE considerato chiama da un numero di telefono qualunque, se potes-
+    se  anche  ricevere  chiamate da un altro  DTE  significherebbe  che 
+    l'Hardware e' in grado di tracciare la chiamata, e gli  utilizzatori 
+    a sbafo di Itapac sarebbero tutti nei guai. A parte la qualita' del-
+    la trasmissione, non c'e' alcuna differenza tra i due tipi  di  X28: 
+    entrambi  necessitano di un modem, il primo collegato alla linea te-
+    lefonica, il secondo a quella dedicata. D'ora in avanti ci riferire- 
+    *****   Vol.  1   *****      Pag. 12      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    mo sempre a terminali X28 commutati, in quanto chi legge Telematicus 
+    di solito e' commutato. [io no... :-) .mau.]  Gli ACP a  loro  volta 
+    fanno capo agli NCP (Nodi di Commutazione di Pacchetto) con funzioni 
+    di  transito  o di accesso per i DTE X25 e di  commutazione  locale.  
+    Gli  NCP  sono collegati tra loro ad elevata  velocita'  (64Kbit/s), 
+    mentre gli ACP sono collegati ai nodi NCP a 9600 bit/s.
+
+    +------------+---------------+-----------+--------+-------------+
+    | CLASSE DI  | MODALITA' DI  | VELOCITA' | PROTO- | RETE DI     |
+    | UTENTI     | TRASMISSIONE  | AMMESSE   | COLLO  | ACCESSO     |
+    +------------+---------------+-----------+--------+-------------+
+    |Terminali a | Start-Stop    | 300/1200  | X28    | telefono o  |
+    | carattere  | full/half dupl|   baud    |        | dedicata    |
+    |            |               |MNP4(4/90) |        |             |
+    |            |               |2400(7/91) |        |             |
+    +------------+---------------+-----------+--------+-------------+
+    |Terminali a | HDLC          | 2400/9600 | X25    |   linea     |
+    | pacchetto  | full duplex   | baud      |        | dedicata    |
+    +------------+---------------+-----------+--------+-------------+
+
+         Lo standard CCITT rende possibile l'interallacciamento di  Ita-
+    pac agli altri Networks esistenti nel mondo. In pratica gli NCP sono 
+    collegati  come  lo sono le grandi  centrali  telefoniche.  Comunque 
+    tutto il traffico europeo in transito per gli USA o per altri  paesi 
+    quali  Australia,  Argentina, Giappone ecc.  passa  per  Barcellona- 
+    Spagna poi via satellite.
+
+                                                   ---> LE MESSAGE BASES
+                                                        ================
+
+         Nell'ambiente fidonet e' problema interessante quello  dell'ar-
+    chivio della messaggistica ricevuta e scritta; sono stati sviluppati 
+    ed  implementati soprattutto due formati, il formato IFNA  e  quello 
+    QUICKBBS.
+
+         Il formato IFNA
+
+         Si  basa sull'archivio della messaggistica in  files  separati, 
+    terminati  da un'estensione .MSG e aventi come nome un  numero  pro-
+    gressivo:  1.MSG, 2.MSG, ecc...; detti files vengono memorizzati  in 
+    directories differenti, a seconda della conferenza cui appartengono. 
+    Molti echomail processors (cioe' quei programmi che si occupano  del 
+    trattamento  e  dello smistamento della  posta  in  arrivo/partenza) 
+    supportano  un file abbastanza standard, detto AREAS.BBS; in  questo 
+    caso,  se  volessimo associare alla conferenza TURBO_P.ITA  una  ben 
+    precisa directory, dovremmo scrivere per esempio:
+             \COMM\AREAS\TURBOP      TURBO_P.ITA       334/306
+             ....
+    dove nell'ordine il primo campo indica la directory di arrivo  della 
+    conferenza,  il secondo il suo nome specifico (o TAG) e il terzo  il 
+    nodo  di arrivo (o di partenza, dipende da come lo vogliamo  usare); 
+    se vogliamo spedire posta per piu' nodi, bastera' aggiungere i  loro 
+    indirizzi matrix.
+    *****   Vol.  1   *****      Pag. 13      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Non  dilunghiamoci  pero' sulle specifiche fidonet  e  passiamo 
+    oltre.  Il  vantaggio della base messaggi IFNA e'  quello  di  poter 
+    manipolare con estrema facilita' i messaggi, che sono organizzati in 
+    files  separati;  un RENUM di messaggi e/o una  cancellazione  degli 
+    stessi diventano normale routine. Lo svantaggio? normalmente  questi 
+    messaggi vengono memorizzati su Hard Disk, e questi sono partiziona-
+    ti  in clusters, che come scrive sopra il Gentilini sono  la  dimen-
+    sione minima del file che il DOS vede.
+         Di qui si capisce come un elenco di messaggi .MSG (che di soli-
+    to non superano di molto il K) comportino sprechi di spazio conside-
+    revoli;  inoltre la ricerca di nomi o parole nella intera base  mes-
+    saggi si fa piuttosto ardua e lenta.
+         Si puo' risolvere il problema con una piu' recente base messag-
+    gi, la base QUICKBBS.
+
+          La base QUICKBBS
+
+         In  questa base, a differenza della base IFNA, i messaggi  sono 
+    organizzati in una maniera molto piu' compatta. Mi spiego meglio: si 
+    puo'  distinguere  un messaggio come formato da due parti:  una,  di 
+    dimensione  FISSA,  costituente il cosiddetto HEADER,  che  contiene 
+    mittente,  destinatario, soggetto e altre informazioni tecniche;  la 
+    seconda, il TESTO, variabile ovviamente, il cui contenuto e' ovvio.
+         Bene, nella base messaggi QUICKBBS i vari HEADERS vengono memo-
+    rizzati  in un file, il cui nome e' MSGHDR.BBS; detto file  contiene 
+    le informazioni gia' dette, piu' un numero che indica la  posizione, 
+    in un secondo file, del testo corrispondente. Questo secondo file e' 
+    MSGTXT, e contiene in sequenza tutti i testi dei messaggi.
+         Questa e' l'ossatura della Quick message base; in realta'  esi-
+    stono files di appoggio per velocizzare le ricerche, ma e' una  que-
+    stione piu' sottile che potrei approfondire in seguito.
+         Come vengono individuate le conferenze?
+         Questa volta non c'e' piu' la directory, ma esistono le BOARDS: 
+    numeri (da 1 a 200, in genere), memorizzati in MSGHDR.BBS, che iden-
+    tificano  la  conferenza di appartenenza del messaggio  e  che,  nel 
+    nostro AREAS.BBS, verrebbero cosi' indicati:
+               15       TURBO_P.ITA       334/306
+               .....
+         Per ora limitiamoci ad un giudizio su questa base messaggi;  la 
+    QUICKBBS  elimina il problema dello spreco (e ve lo dice uno che  e' 
+    passato dalla IFNA alla QUICKBBS!) e velocizza di molto ricerche per 
+    nome/argomento,  ecc... Svantaggi: puo' succedere che  per  inconve-
+    nienti vari si corrompa il file MSGHDR.BBS; in questo caso  verranno 
+    persi quasi sicuramente una buona quantita' di messaggi. Inoltre  il 
+    RENUM/PACK della QUICKBBS risulta piu' lento, dato che il  programma 
+    deve  riscrivere completamente un file la cui dimensione puo'  anche 
+    essere cospicua.
+         Esistono  tra  l'altro echomail processors che  supportano  en-
+    trambe  le basi messaggi; uno di questi e' WMAIL, prodotto  qui  nel 
+    334/100 da Silvan Calarco. Inoltre esistono editors, come FM, l'edi-
+    tor  di  Front-Door, che supporta in  lettura/scrittura  entrambi  i 
+    sistemi.
+         A tutti coloro che intendono sviluppare una base messaggi  come 
+    points,  ad esempio, consiglio l'uso dell'accoppiata FD + WMAIL;  io 
+    *****   Vol.  1   *****      Pag. 14      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    ad esempio uso FD, con la sola MATRIX come IFNA e le restanti confe-
+    renze come QUICKBBS; personalmente mi e' sembrata la soluzione  piu' 
+    conveniente e meno dispendiosa in termini di spazio.
+
+                         Elio Fenoglio
+                         334/306.4
+
+                                                    ---> FEEDBACK UTENTI
+                                                         ===============
+
+         Come direbbero i Grandi Direttori, riceviamo e volentieri  pub-
+    blichiamo:
+
+               <Mode Letter On>
+
+         Ai sysops del Progetto Telematicus
+
+         Caro sysop, siamo due giovani astucci (abitanti di Asti :-)) e, 
+    leggendo Telematicus (la splendida tele-rivista edita dal net 334 ed 
+    oltre...) siamo stati come folgorati da un'idea $-) Infatti vorremmo 
+    proporvi  di,  per cosi' dire, "allargare gli orizzonti"  di  questa 
+    rivista.
+         Che  ne direste, innanzi tutto, di utilizzare altri due  canali 
+    di distribuzione? Per spiegarci, si potrebbe continuare a mettere on 
+    line per il download la rivista, ma si potrebbe anche:
+         - distribuirla via posta, gia' bella e stampata
+         - distribuirla via dischetti (questa soluzione si aprirebbe  su 
+    varie strade:il mondo DOS, quello AMIGA, ATARI ed altri),  inserendo 
+    magari in ogni dischetto qualche Kb di software PD.
+         Qui,  finalmente diciamo noi, si arriva anche alla  spiegazione 
+    della  faccina dollarosa di cui sopra: queste nuove (e  sinceramente 
+    piu'  comode)  forme di distribuzione verrebbero infatti  a  costare 
+    qualche cosa all'utente finale, e cosi' eccovi il "listino prezzi":
+         -  3.000 lire per ogni copia stampata di Telematicus, piu'  500 
+    lire per le varie spese postali (totale 3.500 ;-)), o  l'abbonamento 
+    annuale di 30.000 lire
+         -  5.000 per ogni dischetto 5.25" (360k) o 8.000 per  quelli  a 
+    3.25" (720k), piu' un'aggiunta di 5.000 lire per i rispettivi forma-
+    ti  a alta densita'. Ci sarebbe anche la possibilita' di un  abbona-
+    mento  annuale,  al prezzo del singolo  dischetto  moltiplicato  per 
+    dieci.
+         Sembreranno prezzi un po' elevati, ma non dobbiamo  dimenticare 
+    la  praticita' di questi nuovi canali di distribuzione e,  nel  caso 
+    dei  dischetti, la quantita' di software P.D. disponibile nelle  vo-
+    stre  (splendide!)  BBS. Infatti, col primo  numero,  si  invierebbe 
+    (oltre  ovviamente  al Telematicus) la lista completa  di  tutto  il 
+    software  presente sulle BBS facenti parte del Progetto  Telematicus 
+    (bel  nome,  vero ?), piu', come "regalino",  qualche  programma  di 
+    quelli che bisogna avere, come il Pkzip, l'LHArc, o qualche  utility 
+    e  giochi.  Poi, dal numero successivo, si continuerebbe  sempre  ad 
+    inviare la lista aggiornata di fresco piu' i files scelti dall'uten-
+    te  attraverso un apposito modulo da uploadare o inviare  per  posta 
+    alla redazione.
+    *****   Vol.  1   *****      Pag. 15      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Il ricavato da tutta questa faccenda, andrebbe poi cosi' ripar-
+    tito:  il 60% alla "Cassa Telematicus" (ne parliamo fra  un attimo), 
+    il  40% ai sottoscritti (che si accollano le spese )  Vi  spieghiamo 
+    un'attimo  cos'e' questa Cassa Telematicus: e' un fondo in cui  con-
+    fluisce, appunto, il 60% del ricavato dalla vendita di  Telematicus, 
+    piu'  altri  eventuali versamenti, e che puo' servire  per  svariate 
+    iniziative. Fra queste, la piu' importante potrebbe essere il "paga-
+    mento  dei  lettori": questo non voul dire che,  per  farci  leggere 
+    dobbiamo pagare qualcuno (!!!), non ne ha bisogno, la rivista;  que-
+    sto infatti non e' che un incentivo alla partecipazione attiva degli 
+    utenti:  e'  gia' allettante di per se' vedere il  proprio  articolo 
+    pubblicato su un giornale come Telematicus, ma se si riceve anche un 
+    compenso, l'invito diventa irresistibile. 
+         Telematicus potrebbe quindi assumere l' aspetto della  "rivista 
+    scritta  dai lettori", un qualita' molto importante e utile a  farla 
+    crescere.  Questo incentivo economico, consisterebbe in 2.500  lire, 
+    da  inviare a mezzo di vaglia o da sfruttare come sconto  (meglio!!) 
+    su eventuali abbonamenti o acquisti.
+         Questa, in poche parole (non sparateci!) e' la nostra idea:  se 
+    ha  suscitato  anche in voi interesse, lasciateci  un  messaggio  (a 
+    Silvio Porcellana o ad Andrea Rodolico).
+
+               <Mode Letter Off>
+
+         Occhei,  anche se non sono un sysop :-) sfrutto la mia idea  di 
+    Editor Princeps per dare la mia risposta per primo.
+         Quando  nel novembre scorso ho fatto uscire il numero  zero  di 
+    Telematicus, le motivazioni che mi hanno spinto a passarci delle ore 
+    sopra con un ritorno monetario ovviamente nullo sono state la volon-
+    ta'  di  spezzare l'immobilismo presente nel net 334  (non  solo  in 
+    questo,  anzi, ma non ho mai intenzione di fare il passo piu'  lungo 
+    della  gamba) e soprattutto il potere fare conoscere un po' di  piu' 
+    il  vero valore della telematica ai cosiddetti "puppasoftware"  uti-
+    lizzando lo stesso loro modo di comunicazione: il downloadaggio.  Ho 
+    sempre detto esplicitamente a tutti i sysop interessati che potevano 
+    lasciarlo  leggibile on line come rubrica, messo su teletext o  come 
+    bollettino, ma doveva sempre esserci la possibilita' di prelevare la 
+    copia.  Non avrei percio' nessuna difficolta' a fare si' che  in  un 
+    dischetto di programmi PD e shareware in vendita sia anche  presente 
+    una  copia di Telematicus, ma non sono assolutamente  d'accordo  sul 
+    chiamare il risultato Telematicus.
+         Stampare  la  rivista  non ha senso: Telematicus  e'  nato  per 
+    essere visto principalmente a video (risparmiamo sulla carta!), e la 
+    qualita'  che si potrebbe ottenere anche su una laser non  e'  certo 
+    delle piu' eccelse. Certo, si potrebbe benissimo impaginarla con  un 
+    qualche  pacchetto  DTP - ho un esempio di rivista  elettronica  che 
+    funziona in tale modo - ma a parte la perdita dell'immediatezza  che 
+    questa  newsletter  possiede  (spero  :-)  )  a  mio  parere  ci  si 
+    avvierebbe verso una ben difficile strada, in concorrenza con  gente 
+    ben piu' agguerrita.
+         Quello che non capisco proprio e' invece l'idea della  "rivista 
+    scritta  dai  lettori".  Quando sento frasi di questo  tipo,  mi  si 
+    rizzano sempre le antennine populistiche. Quello che si spaccia  per 
+    "partecipazione della gente" e' nel 95 per cento dei casi un sistema 
+    *****   Vol.  1   *****      Pag. 16      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    per  perpetuare  il dominio di pochi facendo credere agli  altri  di 
+    essere anche loro protagonisti. Se qualcuno pensa di avere  qualcosa 
+    da dire che riguarda la telematica e' sempre stato il benvenuto,  ma 
+    se  non  vuole  spedircelo perche' non pensa sia  giusto  darlo  via 
+    gratis, ha tante altre possibilita' a questo mondo... faccia pure.
+
+         Bene,  io la mia l'ho detta. Aspetto un'accesa  discussione.... 
+    con i punti salienti che trattero' a luglio. Scrivete a Telematicus, 
+    matrix 2:334/100.5 ! .mau.
+ 
+                                                     ---> IL PROGRAMMINO
+                                                          ==============
+
+         [NdE: Il nostro amighista Renato Rolando lascia per questo mese 
+    la  rubrica  VIVAMIGA  e  presenta  un  programma  che  sfrutta   la 
+    REQ.LIBRARY.  .mau.]
+
+         Innanzitutto le scuse per un articolo cosi' breve e misero,  ma 
+    il sottoscritto ha avuto la pessima idea di comprare un 2000 e  que-
+    sto non gli sta procurando che grattacapi (perche' usato 8-) ).
+         Comunque imperterrito continuero' a sfornare castronate fintan-
+    to  che avro' una tastiera su cui poggiare i miei avidi  polpastrel-
+    li...
+         OK vi lascio al listato :
+
+    ***[ CUT HERE ]******[ CUT HERE ]******[ CUT HERE ]***
+
+    'V 1.2 By RRE of TTH on 1991
+    'Compilato con HI-SOFT BASIC 1.05 ( e la REQ.BMAP )
+    'RRE, a member of TTH. FIDO -=> 2:334/100.9
+    'grazie a Commodore Gazette ed ai suoi interessanti articoli.
+    'Presenti : Richiesta $/Long,Gadget Booleani/$ con REQ.library
+
+            REM $OPTION W+          'Altrimenti mi segnala l'exec
+
+            DEFINT a-z
+
+            LIBRARY "libs:req.library","libs:exec.library"
+            LIBRARY "libs:intuition.library"
+            DECLARE FUNCTION TextRequest& LIBRARY
+            DECLARE FUNCTION GetString& LIBRARY
+            DECLARE FUNCTION GetLong& LIBRARY
+
+            DIM SHARED TRS&(100)            'struct TextRequest
+            DIM SHARED GTL&(100)            'struct GetLongRequest
+
+    FUNCTION GetStr%(Buffer$,Title$,nchar)
+    '******************************************************************'
+    ' IN :
+    ' MAX
+    ' 500   Buffer$ = Il testo da fare apparire (500 e' arbitrario)
+    '       Title$  = Testo della Window
+    ' OUT :
+    '       0/1 a seconda se ha avuto esito positivo o no
+    '       con 1 riporta in Buffer$ il scelto
+    '
+    '*******************************************************************'
+    LOCAL SCELTA&,A$,X
+
+            X = 1
+            Buffer$ = Buffer$ + CHR$(0) + SPACE$(500-LEN(Buffer$))
+            Title$ = Title$ + CHR$(0)
+
+            SCELTA& = GetString&(SADD(Buffer$),SADD(Title$),0,
+                         nchar,LEN(Buffer$))
+            IF SCELTA& = 0 THEN
+                    GetStr% = 0
+            ELSE
+                    GetStr% = 1
+                    WHILE MID$(Buffer$,X,1)<> CHR$(0)
+                        A$ = A$ + MID$(Buffer$,X,1)
+                        X = X + 1
+                    WEND
+                    Buffer$ = A$
+            END IF
+    END FUNCTION
+
+    FUNCTION GetLng&(Title$,default,min,max)
+    '******************************************************************'
+    ' IN :
+    '       Title$ = Titolo
+    '       default= se 0 non mostra nulla
+    '       min/max= massimo e minimo valore ammesso
+    ' OUT:
+    '       0        se non si e' selezionato nulla
+    '       X        il numero selezionato
+    '******************************************************************'
+    LOCAL GTL&,SCEGLI&
+
+            GTL& = VARPTR(GTL&(0))
+            ' ** STRUCT DEL GetLongStructure **
+            POKEL GTL&,SADD(Title$+CHR$(0)) 'Il testo
+            IF default <> 0 THEN
+                    POKEL GTL&+4,default    'Il numero
+            ELSE
+                    POKEL GTL&+26,&b0       'Non mostro
+            END IF
+            POKEL GTL&+8,min
+            POKEL GTL&+12,max
+    '             GTL&+16,result
+    '       POKEL GTL&+20,0                 'Window
+    '       POKEW GTL&+24,0                 'Version
+
+            SCEGLI& = GetLong&(VARPTR(GTL&(0)))
+            IF SCEGLI& = 0 THEN
+                    GetLng& = 0
+            ELSE
+                    GetLng& = PEEKL(GTL&+16)
+            END IF
+    END FUNCTION
+
+    FUNCTION TextReq%(Title$,Txt$,Gadg1$,Gadg2$,Gadg0$)
+    '******************************************************************'
+    ' IN :
+    ' MAX
+    '       Title$ = Nome da dare alla Window
+    ' 5000  Text$  = Testo
+    '       Gadgn  = Nome dei 3 gadget possibili
+    '
+    ' OUT :
+    '       1      = premuto gadg sx
+    '       2      =              centrale
+    '       0      =              dx
+    '******************************************************************'
+    LOCAL BFR&,SCEGLI&
+
+        BFR& = VARPTR(TRS&(0))
+        ' ** STRUCT DEL TRStructure **
+        POKEL BFR&,SADD(Txt$+CHR$(0))           'Il testo
+        '...
+        IF Gadg1$<>"" THEN
+                POKEL BFR&+16,SADD(Gadg1$+CHR$(0))
+        ELSE
+                POKEL BFR&+16,0
+        END IF
+        IF Gadg2$<>"" THEN
+                POKEL BFR&+12,SADD(Gadg2$+CHR$(0))
+        ELSE
+                POKEL BFR&+12,0
+        END IF
+        IF Gadg0$<>"" THEN
+                POKEL BFR&+20,SADD(Gadg0$+CHR$(0))
+        ELSE
+                POKEL BFR&+20,0
+        END IF
+        POKEL BFR&+24,SADD(Title$+CHR$(0))
+        POKEW BFR&+28,&HFFFF                    'Attiva tasti
+        'Un po' di casini 8-)
+    '       POKEW BFR&+30,3                         'Colore Testo
+    '       POKEW BFR&+32,3                         'Colore Detail
+    '       POKEW BFR&+34,3                         'Colore Block
+
+        SCEGLI& = TextRequest&(VARPTR(TRS&(0)))
+        TextReq% = SCEGLI&
+    END FUNCTION
+
+    MAIN:
+          A$ = "Trovi la req.library interessante ?"
+          Worked = TextReq(" SCEGLI",A$," SI "," FORSE "," NO ")
+          SELECT CASE Worked
+                  CASE 1
+                      Worked = TextReq("","EVVIVA !",""," OK ","")
+                  CASE 2
+                      A$ = "Prova con gli altri esempi"
+                      Worked = TextReq("",A$,""," OK ","")
+                  CASE 0
+                      Worked = TextReq(""," MI DISPIACE ","","","")
+          END SELECT
+
+          W& = GetLng&(" DIMMI UN NUMERO ",20,5,50)
+
+          A$ = SPACE$(3) + "Hai scelto : " + STR$(W&) + SPACE$(3)
+          Worked = TextReq(" NUMERO SCELTO ",A$,"",""," OK ")
+
+          Buffer$ = ""
+          Worked = GetStr(Buffer$,"PROVA",30)
+          IF Worked = 1 THEN
+                A$ = "Hai scritto  : " + CHR$(10) + Buffer$
+                Worked = TextReq(" STRINGA SCELTA ",A$,""," OK ","")
+          END IF
+
+    FINE:
+        LIBRARY CLOSE
+    END
+    
+    ***[ CUT HERE ]******[ CUT HERE ]******[ CUT HERE ]***
+
+         Arrivederci alla prossima con i gadget della REQ.LIBRARY !
+
+                                                A member of TTH
+                                                2:334/100.9
+
+
+                                                         ---> CURIOSITA'
+                                                              ==========
+
+         Il gergo Hacker - parte 4
+         -------------------------
+
+         <BBS>: [acronimo, Bulletin Board System = sistema a bacheca] s. 
+    Una bacheca elettronica; cioe' una base dati di messaggi dove ci  si 
+    puo'  collegare e lasciare messaggi pubblici per altre persone  rag-
+    gruppati (tipicamente) in aree di argomento diverso. Ci sono miglia-
+    ia  di  BBS locali in tutti gli States [e un paio  di  centinaia  in 
+    Italia...],  gestite tipicamente da amatori per divertimento  e  con 
+    una sola linea. Gli utenti appassionati di USENET, Internet, o delle 
+    grandi  bboard  commerciali come CompuServe, Genie o Bix  tendono  a 
+    considerare  i BBS locali come 'i quartieri popolari' dalla  cultura 
+    hacker, ma essi rendono un grande servizio nel legare assieme utenti 
+    e hackers che altrimenti non avrebbero mai la possibilita' di  scam-
+    biarsi i rispettivi punti di vista.
+
+         <beep>: s.,v. Sinonimo di <feep>  (il rumore che fa un calcola- 
+    tore quando  si preme il tasto ^G).  Questo termine sembra essere il
+    preferito dagli hobbisti.
+
+         <beige toaster> [tostapane beige]: s. Un Macintosh.  Vedi anche
+    <Macintrash>, <maggotbox>.
+
+         <bells and whistles> [campanelli e fischietti, per analogia con
+    le  macchine  a  vapore]: s. Features aggiunte a un programma o a un
+    sistema per renderlo piu' <flavorful> da un punto di  vista  hacker,
+    senza essere necessariamente utili per la sua funzione primaria. Di-
+    stinto  da  <chrome>, che e' inteso come attiratore di utenti.  "Ora
+    che il programma base funziona, ricominciamo da capo  e  aggiungiamo
+    un  po'  di  b&w.".  Pero' nessuno sembra sapere come distinguere un
+    campanello da un fischietto.
+
+         <bells, whistles and gongs>: s. Una  elaborazione  standard  di
+    <bells and whistles>;  pronunciata tipicamente con  un forte accento
+    sui "gongs".
+
+         <benchmark> [tecn.]: s. Una misura  inaccurata  di  performance
+    per i calcolatori. "Nell'industria dei computer, ci sono tre tipi di
+    *****   Vol.  1   *****      Pag. 20      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    bugie: bugie semplici, dannate bugie e benchmarks". Tra i piu' noti,
+    ci  sono  Whetstone, Dhrystone, i Gabriel LISP benchmarks (vedi <Ga-
+    briel>), Rhealstone (vedi <h>) e LINPACK.  Vedi anche  <machoflops>,
+    <MIPS>.
+
+         <Berkeley Quality Software>: agg. (spesso abbreviato BQS)  Ter-
+    mine usato in senso peggiorativo per riferirsi a software che sembra
+    essere  stato prodotto da hacker un po' fuori di testa a tarda notte
+    per risolvere qualche problema particolare.  Solitamente ha documen-
+    tazione inesistente,  incompleta o non corretta, e' stato testato su
+    al massimo due esempi, e manda in crash la macchina se una qualunque
+    altra persona tenta di usarlo. Questo termine e' stato spesso appli-
+    cato per le prime verioni del debugger dbx(1). Vedi anche <Berzerke-
+    ley>.
+
+         <berklix>: s., agg. [contraz. di "Berkeley UNIX"]  Vedi  <BSD>.
+    Non e' usato a Berkeley, e in genere e' piu' comune tra la gente che
+    crede di fare il tosto piuttosto che tra i veri hacker, che in gene-
+    re dicono semplicemente "BSD".
+
+         <berserking>: v.i.. Un termine <MUD> che significa potere  gua-
+    dagnare  punti *unicamente* uccidendo altri giocatori  e  personaggi
+    non  giocatori. Dunque un Berserker-wizard e' un personaggio che  ha
+    raggiunto abbastanza punti da diventare un Wizard, ma solo ammazzan-
+    do  altri  giocatori. Il b. e' mal visto a causa  della  sua  natura
+    inerentemente  antisociale, ma alcuni MUD hanno un "b. mode" in  cui
+    un giocatore diventa *permanentemente* b., non puo' mai sottrarsi  a
+    un  combattimento, non puo' usare magie, non guadagna punteggio  per
+    scoprire tesori, ma ottiene *doppi* punti per combattimento.
+
+         <Berserkeley>:  [da  "berserk"] s. Distorsione  di  "Berkeley",
+    usata  spec.  per  riferirsi ai prodotti degli  hacker  <BSD>.  Vedi
+    <software bloat>, <Missed'em-five>, <Berkeley Quality Software>.
+
+         <beta>:  /be't@/, /bay't@/ o (Commonwealth) /bee't@/ s. 1.  Nel
+    <Real World>, il software passa generalmente attraverso due fasi  di
+    test:  alfa  (in casa) e b. (fuori?). 2. Tutto cio' che e'  nuovo  e
+    sperimentale: "La sua ragazza e' in beta". 3. Il software in beta e'
+    notoriamente bacato, percio' "in beta" denota facile a piantarsi.
+         Nota  storica: Formalmente, beta-testare significa provare  una
+    pre-release (potenzialmente inaffidabile) di un software  rendendolo
+    disponibile  a un grupo selezionato di acquirenti e utenti. Il  ter-
+    mine deriva dalla terminologia dei primi anni '60 per i controlli di
+    qualita',  usata  inizialmente in IBM ma diffusasi  presto.  L'"alfa
+    test"  era quello della unita', modulo o componente; il "beta  test"
+    quello del sistema completo. Questi termini stessi derivano da  pre-
+    cedenti  A- e B-test per l'hardware: l'A-test era di fattibilita'  e
+    manifatturabilita',  prima di cominciare lo sviluppo, il B-test  una
+    dimostrazione che il modello funzionava come specificato. Il  C-test
+    (corrispondente  al  nostro beta) era il B-test eseguito  sui  primi
+    esemplari prodotti.
+
+         <BFI>:  s. Vedi <brute force and ignorance>.  Incontrato  anche
+    nella forma <BFMI>, "bruta forza e *massiccia* (massive) ignoranza".
+    *****   Vol.  1   *****      Pag. 21      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         <bible> (bibbia): s. 1. Un libro appartenente al piccolo gruppo
+    di testi fondamentali come il <Knuth> o il <K&R>.  2. Il riferimento
+    piu'  autoritario  e  dettagliato  per  un  particolare  linguaggio,
+    sistema operativo, o altro software complesso.
+
+         <BiCapitalization>:  agg.  L'atto utilizzato  nei  marchi  come
+    NeXT, <NeWS>, VisiCalc, FrameMaker, TKsolver, EasyWriter e altri che
+    sono stati innalzati sopra il volgo del comune coniare di parole  da
+    un uso non standard delle maiuscole. Troppi <marketroid> pensano che
+    questo sistema sia realmente carino, anche la 2317-sima volta che lo
+    fanno. Compara <studlycaps>.
+
+         <BIFF>:  [USENET]  s. Il piu' famoso <pseudo>,  e  il  <newbie>
+    prototipale.  Gli  articoli  di BIFF sono  caratterizzati  da  tutte
+    maiuscole, letteramente innaffiate di esclamativi, errori di  stampa
+    "carini"  (EVRY BUDY LUVS GOOD OLD BIFF CUZ HE"S A K00L DOOD  AN  HE
+    RITES  REEL AWESUM THINGZ IN CAPITULL LETTRS LIKE THIS!!!),  usa  (e
+    spesso misusa) frammenti di abbreviazioni di <talk mode>, una  lunga
+    <sig  block> (a volte anche un <double sig>), e  schiocchezze  senza
+    limiti. BIFF scrive usando il VIC-20 del suo fratello maggiore. Dove
+    viva e' un mistero, dato che i suoi messaggi sembrano venire da  una
+    varieta'  di  posti.  Pero', la sua origine  piu'  frequente  sembra
+    essere  BITNET.  La  teoria  che BIFF  faccia  parte  di  BITNET  e'
+    supportata dal suo (sfortunatamente invalido) indirizzo elettronico:
+    BIFF@BIT.NET.
+
+         <biff>:   vt.   Avvisare  qualcuno  che  e'   arrivata   posta;
+    dall'utilita'  BSD "biff(1)", denominata a sua volta cosi' dal  cane
+    dell'implementatore,  che  abbaiava tutte le volte che  arrivava  il
+    postino.
+
+         <Big Grey Wall> (il grande muro grigio): s. Cio' che saluta  un
+    utente <VMS> che cerca documentazione. Il kit completo di documenta-
+    zione VMS richiede circa 5 metri di scaffaleria, senza contare quel-
+    le  dei prodotti in aggiunta tipo compilatori, basi  dati,  utilita'
+    varie  di rete, strumenti di programmazione, ecc. L'ultima  versione 
+    (dal  VMS V5) arriva con copertine grige; col VMS 4.x  le  copertine
+    erano  arancioni  ("Big orange wall") e con il 3.x erano  blu.  Vedi
+    <VMS>.
+
+                                                ---> I POINT DEL NET 334
+                                                     ===================
+ 
+         Come gli attenti lettori di Telematicus certo gia' sapranno,  i 
+    Point sono utenti 'molto speciali'. Si collegano al loro BBS  prefe-
+    rito  con un apposito programma per prelevare i messaggi delle  aree 
+    di loro interesse e leggerli poi tranquilli senza l'affanno di  "es-
+    sere in linea ". I Point possono inoltre ricevere (ed inviare)  mes-
+    saggi  privati (la cosiddetta matrix o netmail) sia ad  altri  point 
+    sia ad altri sysop. Indirizzare un messaggio matrix e' molto sempli-
+    ce *una volta conosciuto* l'indirizzo FidoNet del proprio corrispon-
+    dente (sia esso point o sysop): il FidoNet address infatti e' univo-
+    co in tutta la rete.
+    *****   Vol.  1   *****      Pag.  22     *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Ecco  dunque  che torna utile avere a  disposizione  anche  una 
+    lista di Point; i SysOp, gia' di per se' rintracciabili con  l'indi-
+    rizzo primario del loro BBS, hanno spesso, per motivi "di servizio", 
+    un  proprio  point. Quando vedete, accanto al nome di  un  BBS,  una 
+    strana serie di numeri, c'e' da giurarci si tratti del suo indirizzo 
+    di  rete:  cosi' 2:334/1 indica il nodo 1 del net 334 della  zona  2 
+    (Europa), guarda caso Fido Torino.
+         I  point  assumono l'indirizzo principale del bbs a  cui  fanno 
+    riferimento  e  vi aggiungono un  proprio  identificativo  numerico: 
+    cosi' 2:334/1.101 e' il point 101 del nodo 1 del net 334 della  zona 
+    2, ancora una volta si tratta di Fido Torino :-) .
+         La lista che qui pubblichiamo riporta, per i nodi del net  334, 
+    la  lista aggiornata dei point: sara' utile dunque ai  point  stessi 
+    per inviare messaggi a point di altri nodi; a tutti gli altri letto-
+    ri potra' forse suscitare curiosita' e magari la voglia di chiedere, 
+    al  proprio SysOp di fiducia, maggiori ragguagli di come  "diventare 
+    Point": come certo sapete Point si diventa (non si nasce ! :-) ) per 
+    taumaturgica volonta' del proprio, venerato, SysOp. E di uno solo.
+         [NdE: beh, su questo avrei da ridire. A parte il famoso esempio 
+    del  MultiPoint Stefano Costa aka Shiva, ci sono  parecchie  persone 
+    che hanno il doppio point... non ultimo il Vostro Editor di  fiducia 
+    che puo' essere raggiunto anche al 2:332/407.909 su nonsolosoftware, 
+    il famosissimo BBS point-oriented.]
+ 
+    ; a Fido Torino  (2:334/1)
+    2:334/1.100   Franco Carcillo
+    2:334/1.101   Marco Mellia
+    2:334/1.105   Lorenzo Travaglio
+    2:334/1.110   Marco Russo
+    2.334/1.111   Andrea Actis
+    ;
+    ; a Charlie's Puppies (2:334/100)
+    2:334/100.1   Stefania Falleni
+    2:334/100.2   Silvan Calarco - Grugliasco (To)
+    2:334/100.5   Maurizio Codogno
+    2:334/100.6   Sergio Fusero
+    2:334/100.7   Angelo Verdone
+    2:334/100.8   Paolo Sobrito
+    2:334/100.9   Renato Rolando - Fiano (To)
+    2:334/100.10  Peter Ugone
+    2:334/100.11  Enzo Ciaiolo - S. Maurizio Canavese (To)
+    2:334/100.12  Alberto Emprin
+    2:334/100.13  Lorenzo Cavassa
+    2:334/100.15  Federico Fontana - Ivrea (To)
+    2:334/100.16  Alessandro Peralma - Ivrea (To)
+    ;
+    ; a Italia Network  (2:334/20x)
+    2:334/205.1   Ivan Pavesio
+    2:334/201.2   Paolo Sasso
+    ;
+    ; ad EUreka! (2:334/300)
+    2:334/300.1   PaoloGiulio Gialli
+    2:334/300.102 Sandro Vergallo - Moncalieri (To)
+    2:334/300.103 Gianfranco Padovan
+    *****   Vol.  1   *****      Pag. 23      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    2:334/300.106 Enrico Frascari
+    2:334/300.107 Rino Rizzo
+    2:334/300.190 Nicola Calderini Ivrea (To)
+    ;
+    ; a Infotel2 (2:334/19)
+    2:334/19.2    Sergio Lorenzetti
+    ;
+    ; a Tecnosoft in San Secondo di Pinerolo, (TO) 2:334/306
+    334/306.1     The Gobbler
+    334/306.3     Matteo Calorio, Canale (CN)
+    334/306.4     Elio Fenoglio, Pinerolo (TO)
+    334/306.5     Massimo Nuvoli
+    334/306.6     Renato Avanzini, Monza (MI)
+    334/306.7     Marco Musso, Piobesi (TO)
+    334/306.9     Gianni Bragante, Valdengo (VC)
+    334/306.42    Stefano Costa, Savona
+
+ 
+                                                    ---> NOTIZIE FIDONET
+                                                         ===============
+ 
+         Dimissioni RC europei
+         ---------------------
+         Il  coordinatore europeo della Rete FidoNet, l'austriaco  Franz 
+    Kaska, ha dimesso, d'autorita', tutti i coordinatori nazionali.  Dal 
+    primo giugno, dunque, si apre un lungo periodo dedicato a candidatu-
+    re e votazioni in ogni singola 'region' della rete.
+ 
+         FidoNet Italia?
+         ---------------
+         In Italia, intanto, e' stata in votazione una proposta di modi-
+    fica  dell'attuale  modalita' di accesso alla rete,  attualmente  il 
+    solo vincolo e' il poter ricevere e trasmettere messaggi in  modali-
+    ta' FidoNet, a cui si vuole aggiungere l'adesione ad una associazio-
+    ne formalmente costituita da denomiare, appunto, FidoNet Italia.  Al 
+    momento  non sono ancora noti i risultati definitivi, ma  dai  primi 
+    dati risulterebbe che,a dispetto di quanto evidenziato dai risultati 
+    di  un  sondaggio fatto ad aprile (95% favorevoli),  il  numero  dei 
+    contrari  sarebbe  notevolmente aumentato.  Telematicus  assicurera' 
+    un'ampia informazione al riguardo nel prossimo numero, stante  l'im-
+    portanza che riveste, per la rete italiana amatoriale, sia l'una che 
+    l'altra soluzione.
+
+         Schignano, domenica 26 Maggio 91.
+         --------------------------------- 
+         L'alba del mitico incontro tra RC NC REC NEC EL EW e' arrivata, 
+    alfine.  Vengo svegliato, di soprassalto, dal Franco Mulato.  Mi  ha 
+    ospitato in questa sua casa rusticissima, immersa tra i boschi della 
+    collina  pratese, gia' dal sabato. Non sospettavamo questo  malefico 
+    agguato di Murphy! L'appuntamento, in Prato, per raccogliere gli  *C 
+    era  per le 9 circa: il Melilli arrivava in treno da  Pordenone,  il 
+    Pasquini  e  Signora erano attesi dall'EL Giammarco  Giovannelli  in 
+    quel  di Firenze SMN, gli altri in ordine sparso con  mezzi  propri. 
+    "Non parte, non parte!".....era l'urlo famelico del Mulato che mi ha 
+    *****   Vol.  1   *****      Pag. 24      *****   Numero   6   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    fatto sobbalzare....e poi...toc toc...un timido.. "Franco...vieni ad 
+    aiutarmi a ..spingere..la macchina non parte... " ...mi alzo, ondeg-
+    giando.  1)  ho dovuto spingere, sul prato scivoloso  e  in  salita, 
+    insieme  alla  Patrizia  2)  idem, in  discesa  (piu'  facile,  eh?) 
+    Nulla...bloccati,  in  mezzo al verde, senza  telefono.  Il  Mulato, 
+    imprecando contro Murphy, si e' avviato, a piedi, verso  Prato...(ha 
+    poi trovato un passaggio...) Alle 12, in perfetto ritardo, ci  siamo 
+    alfine tutti: il Gervasini, il Melilli, Pasquini e Signora,  Boarino 
+    con Signora e bimba biondissima in visita di cortesia, il Franz  con 
+    il guardone ufficiale della FidoNet, echoWatcher, Paolo Bussola,  il 
+    Favilli  di Livorno, il Dieni, il Besangelo (versione ZIP di  Besani 
+    Angelo, l'LHA e' Bangelo, l'ARJ Bo!), oltre a Giovannelli e Bigagli. 
+    Assente,  ma  rappresentato, l'ormai EX RC (ma  per  poco!)  Giorgio 
+    Rutigliano.  Tutti in smania piu' di mangiare che  di  chiaccherare! 
+    Argomenti? un sacco.....ma che buona l'insalata di riso, i  crostini 
+    al  fegato, i biscotti con i Corn flakes (uhmmmm Patrizia..che  bra-
+    va!), i paninazzi, le tartine a mascarpone e noci, torta e tiramisu! 
+    Questi si' che sono argomenti che ci trovano tutti d'accordo!
+
+ 
+                                            ---> NOTIZIE DAL NETWORK 334
+                                                 =======================
+
+         TamTam a RadioExpo 
+         ------------------
+         A  Torino  il 22 e 23 giugno si tiene  RadioExpo,  interessante 
+    momento di incontro tra appassioanti di apparati rice-trasmittenti e 
+    piu' in generale di comunicazione elettronica. L'associazione cultu-
+    rale  per la telematica amatoriale TamTam dovrebbe  essere  ospitata 
+    nello  spazio  espositivo occupato dall'AIR  (Associazione  Italiana 
+    Radioascolto): fateci un salto!
+ 
+    *****   Vol.  1   *****      Pag. 25      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                       ---> I NOSTRI BBS
+                                                            ============
+
+         (BBS)              (numero)    (orario)(vel.) (SysOp)
+         Fido_Torino........011-5765565....24h..2400   F.Carcillo 
+         SDN-Italy!.........011-5765568....24h..9600   F.Carcillo 
+         Charlie's_Puppies..011-3299706....24h..9600   F.Schinco
+         EUreka!............011-6924400....24h..9600   P.G.Gialli
+         TorinoNet..........011-3100485/70.24h..2400   E.Arman
+         Infotel2...........011-2162212....24h..2400   G.Di Martino
+         Infotel1...........011-2238389....24h..2400   T.Moreno
+         LordDrake..........011-710408.....24h..9600   F.Croce
+         Travelmatic........011-502423.....24h..9600   M.Cristofaro
+         Sintagma...........011-596274/48..24h..2400   M.Civra
+         Italia Network.....011-8180069....24h..9600   L.Ravina
+         I.N.#2 ............011-304840.....24h..2400   M.Sinesi
+         I.N.#3 ............011-8126756....24h..2400   L.Vay
+         I.N.#4 ............011-8981304....24h..2400   S.Magni
+         I.N.#5 ............011-3174440....24h..2400   F.Bogli
+         ONline.............011-9988154....24h..2400   S.Devia'
+         EGO................0161-319585....24h..2400   G.Amosso
+         PrimulaRossa.......0131-42467..serale..2400   A.Bonzano
+         Tecnosoft..........0121-500663....24h..2400   R.Piola

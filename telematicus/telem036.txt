@@ -1,0 +1,2120 @@
+ #### TELEM036 - Telematicus - Volume 04 - Numero 01 - Anno 1994 - 97 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                 Gennaio 1994
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematicus   e`  (C)  dei  singoli  autori.   E`
+ espressamente consentita la distribuzione e il riutilizzo  del  bollettino  in
+ tutto  o in parte, purche` non a fini di lucro e citando sempre autore e fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 97  *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+
+ [ 1]  Editoriale  .   .   .   .   .   .   .   .   .   .   .   (RRE)    pag.  4
+ [ 2]  Lettere aperte  .   .   .   .   .   .   .   .   .   .  (AAVV)    pag.  6
+ [ 3]  Gaia (FIDO si evolve)   .   .    - parte I (Marino Marinelli)    pag.  9
+ [ 4]  Correct .   .   .   .   .   .   .   .   .   . (Roberto Piola)    pag. 22
+ [ 5]  On The Line clona Telematicus!  .   .   .   . (Fabio Filippi)    pag. 27
+ [ 6]  Un'applicazione REXX su OS/2.   .- parte VII.(Giuliano Lotta)    pag. 36
+ [ 7]  Oberon  .   .   .   .   .   .    - parte II . (Roberto Piola)    pag. 40
+ [ 8]  La biografia di RRE .   .   .   .   .   .   .   .   .   (RRE)    pag. 44
+ [ 9]  Curiosita`: Il gergo hacker .   .- parte 30 .   .   .  (AAVV)    pag. 48
+ [10]  L'arte della programmazione .   .- parte V  .(Guido Michetti)    pag. 59
+ [11]  Errata corrige (precisazione)   .   .   .   .   (Cicci Serra)    pag. 69
+ [12]  News dal mondo telematico   .   .   .   .   .   .   .  (AAVV)    pag. 73
+ [13]  Notizie Fidonet region 33   .   .   .   .   .   .   .  (AAVV)    pag. 76
+ [14]  Indice 1993 .   .   .   .   .   .   .   .   .  (La Direzione)    pag. 90
+
+
+
+                  Questo Telematicus e' nato con l'aiuto di...
+
+                                          | * I collaboratori dai network: *
+ Editor  Aeternus   :  Maurizio Codogno   |
+ Editor  HyperFidus :  Marino Marinelli   | Roberto Orsini   (2:332/425)
+ Editor  Rexxilinius:  Giuliano Lotta     | Giovanni Lopes   (2:332/114.2)
+ Editor Spettegulans:  Fabio Filippi      | Adolfo Melilli   (2:333/1.1)
+ Editor  Oberatus&C :  Roberto Piola      | Herve Miozzo     (2:333/511.20000)
+ Editor  Variegatus :  Cicci Serra        | Francesco Pittoni(2:333/511.40)
+ Editor  Fantax     :  Guido Michetti     | Enrico Franceschetti(2:335/212)
+ Editor  Corrigens  :  Cicci Serra        | Angelo Verdone   (2:334/21)
+ Editor mittens : Stefano Costa2, Raffaello Valesio
+ Editor citatus  :  Carlo  di  Benedetto,  Alessandro  Benvenuti,  Mario Mure',
+  Battacchi, Fabio Muzzi,  Sinigaglia,  Massimo  Pezone,  NonSoloDati,  Cledori
+  Aillard,  Giampaolo  Muraro,  Fabio  Costa,  Franco C buarbucicchio, Maurizio
+  Biondi, Franz Antolini, Fabio Violino, Stefano Pasquini, Paolo Polce, etc.
+  ... e del "saccheggiato"
+  Eric S. Raymond <esr@snark.thyrsus.com>
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO)
+                           al 011-9235565
+ ############								    ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+ Signore & signori non dite che la direzione di  Telematicus  non  mantiene  le
+ promesse: questo numero e' uscito con un ritardo *mostruoso*!
+
+ E' stato l'Indice a rovinarmi l'esistenza.
+
+ Comunque ora siamo fuori.  "Anche questo e' fatto" come disse la tal marchesa,
+ e innanzi a lei un sacco di altra gente.
+
+ Permettetemi due meditazioni sull'indice: intanto la lista degli argomenti non
+ e'  malaccio  (a  mio giudizio s'intende.  Bisognerebbe sapere pero' cosa ne
+ pensano  i  lettori).   Poi  vorrei  straringraziare gli agguerriti editor che
+ hanno contribuito a mantenere in vita ed interessevole Telematicus.
+
+ Ho riportato anche una lista degli  Editor in fondo all'indice.  (Spero di non
+ aver tralasciato niuno.  In caso contrario avvisatemi e metteremo il poverello
+ in una splendida cornice nel prox number)...
+
+ Grazie di cuore.
+
+ Mentre le nuove leve, i nuovi virgulti ancora tacciono: Roberto Ferrara non si
+ e' fatto vivo, ne' Alesio del Ben (333/1).  Mentre Gabriele Favrin (333/324.7)
+ ha giurato di  riportare  l'area  Amiga  ai  suoi  vecchi  fasti...  (cosa non
+ difficile invero).
+
+ Bene: che questo nuovo anno porti a voi tutti tanti soldi  e  successi  quanti
+ sono i lettori di Telem!  :)
+
+
+ Buon gioco.
+
+
+                                                                            RRE
+
+
+
+
+
+
+
+
+ ############                                               LETTERE APERTE  ###
+ ###   2  ###                                               AAVV            ###
+ ############                                                               ###
+
+ Riassunto:
+        Ecco due auguri di buone feste che mi hanno commosso; e  quindi  ve  le
+        sorbite.   (Il  .mau.   e'  stato  laconico  e  quindi non vale la pena
+        riportarlo...)
+
+ ------------------------------------------------------------------------------
+
+ *From : Stefano Costa2                      2:331/306      21 Dec 93  15:35:06
+ *Subj : Varie
+
+ Ce lo regaliamo un bello spelling  checker in italiano per Natale?????  Quando
+ scrivi le lettere  d'amore  che  schifezze  ci  metti??????   E  per  tutti  i
+ poveracci  di  Telematicus  che  debbono  sorbirsi  le tue dite annodate sulla
+ tastiera???  Rileggere zero meno????  [NdE: leggiti l'articolao segg.]
+
+                               \
+                 |              \
+                 |               \
+                 |                \
+                 +-----------      \
+                 |                 /
+                 |                /
+                 |               /
+                                /
+
+ Buon Natale, che se te un bel  fiou (= sei un bravo ragazzo) nonostante tutto.
+ Non sbafare troppo!
+
+                                                                        Stefano
+ ___
+  X SLMR 2.0 X Wow,funziona a 19200@#^(<*5$!:*..  NO CARRIER
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ *From : Raffaello Valesio                   2:334/21.42     19 Dec 93 10:54:22
+ *Subj : Anatemi
+
+ Buongiorno , anzi pessimo , brutto spilorcio arpagone d'un editor , grassatore
+ delle masse operaie e sporco plutocrate.
+
+ Che ti possa andar di traverso il tacchino , inacidire lo champagne e  puzzare
+ il  salmone  ,  incendiarsi  l'albero  e  allagarsi il presepe, e la cometa ti
+ piombi sulla casa e i tre re  magi  incazzati te le suonino di 'santa' ragione
+ dopo aver letto l'ultimo Telematicus , e le renne di Babbo Natale ti  bruchino
+ e devastino l'orto e il giardino , e con gli zoccoli ti sconquassino le tegole
+ ,  e  Babbo Natale ti ostruisca il camino e ti si spenga la caldaia e il Santo
+ Bambino strilli e faccia i capricci tutta la notte e non ti lasci dormire e la
+ soldataglia di Erode ti invada la casa , divori le tue provviste , saccheggi i
+ tuoi averi e violenti le tue  donne  ,  e Craxi ammetta di aver avuto tangenti
+ anche da te......
+
+ Bastano come auguri per le imminenti festivita'?  :-)))).
+
+
+ Un abbraccio e una mano che stringe un affilato pugnale.;)
+
+     _     _
+    (_)ld |_)
+          | \affa   >> 2:334/21.42 <<
+
+
+
+ ############                                                               ###
+ ###   3  ###                                              GAIA - parte I   ###
+ ############                                              Marino Marinelli ###
+
+ Riassunto:
+        Questo  e'  *VERAMENTE*  molto  interessante.  Come specifica lo stesso
+        Marino non e' detto  che  possa  diventare  il futuro standard FIDO [si
+        parla anche di ZERBERUS],  comunque  apre  prospettive  sull'evoluzione
+        della rete veramente interessanti.
+
+        Si  apre  con  questo  una  serie  di  articoli  che  ne  illustrano le
+        caratteristiche salienti.  Ma lascio la parola a Marino:
+
+ Hi Renato,
+        non so se  puo'  interessare,  anche  perche'  il  progetto  gaia si e'
+ rivelato difficile proprio dal lato della programmazione.  Ma forse si possono
+ adattare altre tecnologie simil-fido come ZERBERUS appena esce un  manuale  in
+ inglese :-(
+
+  Il tutto e' preso dalla conferenza CYBERPUNK che gira sui nodi CYBERNET, PNET
+ ed ECN.  Peter Paper ha cambiato nome.
+
+                                                                    bye, MARINO
+
+ ------------------------------------------------------------------------------
+
+             Generazione Automatica di Interfacce Autoorganizzanti
+                                   Ver 3.00
+
+                                    INDICE
+
+ 1) Indice
+
+ 2) Introduzione
+    Terminologia
+    Il Software esistente
+
+ 3) Certificazione delle identita' di rete
+       C-spazio vs Spazio Reale
+
+ 4) Cosa si intende per Risorse
+       La SuperClasse Resource
+       Le Classi derivate da Resource, ovvero stati funzionali del nodo
+
+ 5) Topologia Autoorganizzante
+       Files sulla struttura
+           NetBase
+           HyperBase
+           FileBase
+           MailBase
+           EventBase
+       Rerouting
+           Crash-Recovery
+           L'algoritmo di controllo per il rerouting delle Pub-Res
+           Ottimizzazione di spesa
+           Ottimizzazione di traffico
+       File Requests
+           Ottimizzazione dei percorsi
+           Richieste periodiche
+
+ 6) Soluzioni Tecniche
+       HandShaking
+       Addressing
+       Non-GAIA systems
+       Scambio netmail di controllo
+
+ 7) E-mail
+       Univocita' e rintracciabilita'
+       System Mail
+       Il messaggio
+       L'albero ipertestuale
+       La GIF echo
+
+ 8) GAIA come organismo digitale
+       Struttura ecologica
+       La Add-Res: DNA di GAIA
+
+ 9) Tempi e criteri di implementazione
+       Object-wrapper
+       Linguaggio di sviluppo
+       Modularita'
+
+                                   Premessa
+
+  Il lavoro  mi  lascia  pochissimo  spazio  per  le  attivita', diciamo cosi',
+ creative...  e quindi sono costretto a chiedere scusa per l'enormita' di tempo
+ che mi e' occorsa per produrre questi piccoli philes...  a parte le scuse,  il
+ fatto  suona  come  avvertimento...  e' necessario che il lavoro di produzione
+ del codice sia spezzato in  tasks  di dimensioni affrontabili, in quanto credo
+ il problema-tempo sia comune a quasi tutti noi.
+
+ Questo documento, appena riconosciuto come esaustivo degli argomenti trattati,
+ sara' mantenuto aggiornato ed espanso via  via  che  proseguiamo  nel  lavoro,
+ finendo per costituire una sorta di "GAIA reference guide".
+
+
+                                 Introduzione
+
+  Il progetto GAIA e' nato per risolvere un problema frequente  nelle  reti  ad
+ organizzazione  gerarchica:  la paralisi della distribuzione postale dovuta al
+ crash di un nodo.
+
+ Il dibattito in rete ha apportato  tali  e tante variazioni al timido concetto
+ originale che non ha ormai piu' senso cercarne un autore specifico,  l'analisi
+ e'  stata  svolta  da  CyberNet  osservando  se  stessa.   E  la  firma  e' da
+ considerarsi a tutti gli effetti collettiva.
+
+ Due prime versioni si sono  condensate  nella relazione che state leggendo, in
+ modo che e' apparso sensato reiniziare una  nuova  numerazione  nel  dare  una
+ prima  esposizione sistematica.  Il senso del versioning e' dunque soprattutto
+ quello di fissare un contesto per il dibattito.
+
+
+                                 Terminologia
+
+                       Notazione Insiemistica di minima:
+
+ Ž = Qualsiasi sia [NdE: e' un A con due pallini sopra: i comesichiamano.]
+ / = Tale che
+
+                              Analisi ad Oggetti:
+
+ I termini sono cosi' prefissati:
+
+ O_xxxxxx : classe di riferimento
+ AXxxxx,
+ AnXxxx   : istanza della classe;
+
+ Ove  per  classe si intende la definizione generale di un tipo di oggetto (Es.
+ prodotto,  marca,  sapore,  etc.)  e   per  istanza  si  intende  il  concreto
+ verificarsi un oggetto in particolare (Es.  quei biscotti del Mulino Bianco al
+ gusto di mela che stanno sul tavolo ).
+
+
+                            Il Software esistente
+
+ La proposta 3.00 si e' stabilizzata in un superset dello standard Fido,  verso
+ cui  mantiene  compatibilita'.   Viene  posta  grande attenzione a compiere il
+ minor numero di sostituzioni di  pacchetti, orientandoci piuttosto ad ottenere
+ un comportamento conforme allo standard che stiamo  disegnando  attraverso  la
+ riconfigurazione   dei   pacchetti  gia'  esistenti.   Cio'  puo'  aiutarci  a
+ minimizzare sia il tempo di scrittura del codice che quello di Beta-testing.
+
+ A  questo  comportamento  si  fa  riferimento  ogni  volta  che  si  parla  di
+ "programmazione ad alto livello".  Alto si  riferisce al fatto che ci si trova
+ separati dall'hardware da un layer multistrato  di  softwares  che  assicurano
+ vasta compatibilita'.
+
+ Via via che si raggiungono nuovi accordi sulle richieste tutti sono pregati di
+ segnalare  i pacchetti gia' esistenti su cui e' possibile implementare i nuovi
+ standard attraverso una semplice variazione di parametri.
+
+
+                    Certificazione delle Identita' di Rete
+
+ Tramite l'inclusione di PGP ver  2.3  nel  software di GAIA e' stato possibile
+ pensare ad un meccanismo di certificazione delle Identita' di Network che  non
+ violi la privacy degli utenti.
+
+ All'ingresso in GAIA il nodo genera il proprio paio di chiavi PGP ed estrae il
+ Public  Key Block da inviare agli altri nodi.  Cio' costituisce la base per la
+ certificazione della sua  identita'.   Non  e'  necessaria  la criptazione dei
+ messaggi, in quanto PGP e' in grado di  valutarne  la  provenienza  a  partire
+ dalla  semplice  signature.   Cio'  si riferisce ai messaggi di sistema, fermo
+ restando il diritto alla criptazione della posta personale.
+
+
+                           C-Spazio vs Spazio Reale
+
+ Una delle FAQ apparse nel  dibattito  e' all'incirca riconducibile alla forma:
+ "ma se nessuno esercita controlli su chi ha diritto di  stare  in  rete,  come
+ faccio ad evitare di essere coperto da messaggi a me sgradevoli?"
+
+ Il  problema  e'  stato finora considerato in modo improprio.  Nel mondo reale
+ noi  abbiamo  scarso  accesso  alla  nostra  interfaccia  percettiva, possiamo
+ decidere di ignorare una persona, ma questo, oltre ad essere scortese, non  ci
+ evita di percepirla.
+
+ Nel  C-spazio  la  situazione  e'  diversa:  noi  abbiamo  accesso alla nostra
+ struttura percettiva  e  quindi  la  possiamo  programmare.   Molti gia' usano
+ filtri e keywords per selezionare la posta, non c'e' ragione  alcuna  per  cui
+ questi filtri non possano essere attivati per selezionare anche le persone.
+
+ In  questo  modo ognuno puo' strutturare una propria mappa del C-Spazio in cui
+ si trova, ammettendo  nella  propria  realta'  solo  chi  vuole ammettere.  Il
+ problema degli alias falsi viene eliminato  dalla  certificazione  emessa  via
+ PGP,  ed  e' anche possibile pensare a strutture di *presentazione* tramite lo
+ stesso meccanismo.
+
+ All'atto di ricevere una nuova  chiave  l'utente  puo' valutare da chi essa e'
+ certificata e decidere di conseguenza.  Generalmente  il  nuovo  utente  sara'
+ presentato  solo  da se stesso, avendo ricevuto il software da una connessione
+ piu' o meno casuale con un  nodo  di  GAIA,  e la sua chiave sara' certificata
+ dalla User_Id "GAIA".
+
+ Ma e' possibile che il nuovo utente sia presentato  da  un  introduttore  gia'
+ noto agli utenti, che garantisce per lui/lei.  In questo caso l'accettazione o
+ il rifiuto espresso da ogni singolo nodo verso l'introduttore si trasnmettera'
+ al  nuovo  utente.   Cio' consente di strutturare gruppi chiusi all'interno di
+ GAIA, per coloro che amassero tale genere di socialita'.
+
+ Su questo punto rimando alla  necessita' di studiare attentamente l'impiego di
+ PGP e la/le forme di msgbase da adottare.  Infatti  la  possibilita'  di  aree
+ chiuse,  ovvero invisibili, presume che si possano criptare interi pkt postali
+ con una specifica  chiave  di  gruppo,  che  sara'  necessariamente diversa da
+ quella di default ('GAIA').
+
+ Chi e' fuori da un gruppo chiuso non puo' leggerne la posta  ne'  inviarne  al
+ gruppo,  di  cui semplicemente non percepisce l'esistenza.  Si permette in tal
+ modo la presenza di un infinito numero di reti parallele che possono evolversi
+ nello  stesso   spazio   funzionale   trattando   contenuti  anche  totalmente
+ incompatibili tra loro.
+
+ Questo aspetto garantisce  la  sicurezza  di  eventuali  aree  "tecniche"  che
+ volessero evolversi verso dibattiti troppo pericolosi da svolgere in pubblico,
+ cfr  h/p,  ma  anche  quella  di  chiunque, QUALSIASI siano le sue attivita' o
+ intenzioni.  GAIA processa strutture, non contenuti.
+
+ La posta pubblica e' invece inviata  alla User_Id generica "GAIA", che e' nota
+ in  qualsiasi  nodo  di  rete.   In  questo  modo  si  possono  strutturare  e
+ destrutturare i gruppi privati con la massima dinamicita'.
+
+ Veniamo ad esempi pratici:
+
+    a) Nuovo utente auto introdotto
+
+       L'utente Peter Paper entra in rete per la prima volta in modo del  tutto
+       autonomo.   Invia  posta  solo  alla  User_Id  "GAIA"  firmandola con la
+       User_Id "Peter Paper".
+
+       Chi lo trova sgradevole  puo'  flaggare  questa  User_Id fuori dalla sua
+       lista di ammissione e scartarne la posta a priori, in una, piu' o  tutte
+       le aree.
+
+       Da  quel  momento  cessa  di percepirne l'esistenza.  Se cio' avviene il
+       nodo "Peter Paper" ne viene informato.
+
+       La collaborazione  tecnica  tra  le  macchine  che  costituiscono i nodi
+       fisici non ne viene minimamente intaccata, garantendo sia il diritto  ad
+       ammettere in casa propria solo ospiti graditi che la necessita' di ampia
+       collaborazione nel gestire la struttura.
+
+
+    b) Nuovo utente presentato.
+
+       L'utente  "Paper  Peter"  entra  in rete presentato dalla User_Id "Peter
+       Paper", gia' nota  alla  rete.   La  nuova User_Id viene automaticamente
+       associata a quella di "Peter Paper", il che fa si' che egli possa essere
+       sia automaticamente ammesso nei gruppi chiusi di cui  "Peter  Paper"  fa
+       parte che escluso da quelli di cui "Peter Paper" non fa parte.
+
+       Ogni  nodo  sceglie  fino  a che punto questo automatismo debba "fare di
+       ogni erba un fascio", lasciando  totale liberta' di impiego o esclusione
+       dello stesso come stabilito dalle regole di presentazione per PGP.
+
+       A questo proposito vi invito a leggervi la documentazione del pacchetto.
+
+
+    c) Creazione di gruppo chiuso.
+
+       Almeno due nodi si  accordano  sulla  necessita'  di  istituire  un'area
+       invisibile.   A  questo  punto  il  pacchetto  la istituisce creando una
+       Public Key di default per l'area,  per  la signature, e quindi una lista
+       di partecipanti.
+
+       La Public di default  viene  usata  per  una  prima  signature  del  pkt
+       postale,  che  verra'  poi  rifirmato  con  la 'GAIA' signature.  La net
+       intera si occupa di distribuire la posta, senza neppure saperlo.
+
+       Ogni pkt viene inviato  come  -sea  (parametri  PGP) all'intera lista di
+       partecipanti, con -u <mittente>.  Occorrono quindi inserzioni  di  batch
+       files per criptare e decriptare la posta dei gruppi invisibili.
+
+       L'eventuale  chiusura  di  queste  aree avviene, una volta che divengono
+       deserte, in modo automatico.   Non  avendo  esse lasciato traccia di se'
+       nei nodes che non ne facevano parte, il cambiamento, per la net  intera,
+       si limita ad una diminuzione di traffico.
+
+
+
+                                                                    Peter Paper
+                                                                    45:1917/2
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                                                       Correct ###
+ ############                                                 Roberto Piola ###
+
+ Riassunto:
+        Una  delle critiche piu' frequenti - ed a parer mio piu' ingiustificate
+        - rivoltami da Voi  illustri  lettori  e' stata l'eccessiva presenza di
+        errori di stampa (meglio sarebbe di battitura).
+
+        Non che io me ne stia rimasto con le mani  in  mano  senza  tentare  di
+        soddisfare  sempre  piu'  la vostra insaziabile sete di perfezione.  Ho
+        cominciato  a  cercare  un   correttore  ortografico  degno  di  questo
+        appellativo.
+
+        Uno che ha tentato (e tenta) di soddisfare al max le mie  richieste  e'
+        ninentemeno che lo *stramitico* Piola.  Gia' a settembre mi ha proposta
+        una  versione  di  "CORRIGE"  il mega-pacchetto in grado di segnalre la
+        presenza di parole scorrette.  Cosi' si esprimeva a settembre il Piola:
+
+ ..............................................................................
+
+ Gia' che ci sono, beccati anche questo  e  mettilo in coda per un altro numero
+ di Telematicus (se non erro hai gia' un art.  per telem.  di settembre; questo
+ tienilo in serbo per ottobre...)
+
+ ..............................................................................
+
+        L'esubero di articoli  (hem,  questo  forse  non dovrei dirlo, potrebbe
+        portare male *:) ) e - diciamocelo - la relativa utilita'  del  prg  mi
+        hanno  costretto  a  shiftare  l'articolo (ricordo che nel frattempo il
+        piola ha presentato  il  mailer  Fido  sotto  Windows  e sta tenendo un
+        interessante corso su Oberon).  Ora e' in arrivo una nuova versione che
+        sembra promettere mooolto.  E' quindi con  trepidanza  che  comincio  a
+        proporvi l'articolo sulla vecchia versione...
+
+ ------------------------------------------------------------------------------
+
+                                    CORRECT
+                    by Roberto Piola, fidonet 2:334/108.57
+
+  L'editor magnificus vuole articoli, ed allora non me ne vogliate se scrivo le
+ prime  cose  che  mi vengono sulla punta delle dita; anche se la cosa potrebbe
+ sembrare  volgare  pubblicita'  per  i   miei  programmi,  in  realta'  e'  la
+ segnalazione di un utilissimo programma shareware.
+
+  Uno dei problemi di cui lui, ed altri editori, si sono lamentati e' spesso la
+ presenza di refusi negli articoli.
+
+  Per ovviare a questi inconvenienti, ho rispolverato un programmino realizzato
+ da me molto tempo fa, e chiamato CORRECT.  A  dire  il  vero  e'  lui  che  e'
+ tornato a galla durante un backup dell'hard disk, da una directory dimenticata
+ da tutti, comunque benvenga.
+
+  Che fa questo programmino?
+
+  CORRECT  e'  un semplicissimo correttore ortografico: prende in input un file
+ di testo e va a controllare se ogni parola e' presente nel suo vocabolario; se
+ non c'e', i casi sono  due:  o  il  vocabolario  e' incompleto, ed in tal caso
+ permette di ampliarlo "al volo", o lo scrittore ha sbagliato a digitare, ed in
+ tal caso viene evidenziato il punto, nel testo, dove si e' arrivati, affinche'
+ poi si possa correggere il refuso [NdE: dici giusto, "poi", e questo e' un po'
+ macchinoso :(].
+
+  Si nota che Correct e' un programma  in  vecchio  stile  perche',  nonostante
+ qualche  concessione  alle finestre, e' lungo ben 16K scarsi.  A questi 16K si
+ deve aggiungere poi il vocabolario, che comunque non e' immenso.
+
+  Insieme al programma  viene  fornito  anche  un  piccolo  vocabolario, che e'
+ quello usato dal sottoscritto e da suo fratello.  Non e' molto, ma basta  gia'
+ per iniziare senza che Correct vi rompa le scatole ogni parola.
+
+  Il  tutto  e'  stato  spedito  a sua eccellenza Luigi Rosa, coordinatore ISN,
+ affinche' lo distribuisca tramite la rete  ISN.  Il file si chiama CORRECT.ZIP
+ ed e' lungo lo sproposito di 53K (ricordate che ci sono anche il  vocabolario,
+ i .doc ed anche un altro paio di utilities per aggiornare il dizionario).
+
+  Costo?   E'  shareware.   Se proprio volete stimolarmi a far uscire una nuova
+ release,  con  algoritmi  molto  piu'   efficienti  (ho  gia'  in  mente  come
+ velocizzarlo di una decina di volte, ma ho altri progetti  piu'  urgenti),  vi
+ costa  la  solita  inezia,  che  vi  dara'  per  sempre  un  posto  tra i miei
+ benefattori, ricordati perennemente  tra  i  sostenitori  dello shareware.  Il
+ programma comunque non ha alcuna limitazione nell'uso.
+
+
+
+
+
+                                  @    @    Ciao
+
+                                  \____/    Roberto Piola, fidonet 2:334/108.57
+
+
+
+ P.S.: dopo aver terminato l'articolo, attendevo che si liberasse la linea  per
+ fare  un  filerequest e cosi', a tempo perso, ho iniziato a preparare la nuova
+ versione: e' "solo" 15 volte piu' veloce...  [NdE: potenza del Piola!]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                  SPETTEGULESS ###
+ ###   5  ###                                 On The Line clona Telematicus ###
+ ############                                                 Fabio Filippi ###
+
+ Riassunto:
+        Ed eccoci a Fabio Filippi  (2:335/602.14),  una  new entry!  A parte la
+        "clonazione" di OTL (a cui non posso dire altro che un "sono  commosso"
+        per  avere  cosi' confermato il fatto che LA rivista Fido debba seguire
+        lo standard Telematicus (ISO12356)  -  tra l'altro retaggio del .mau.),
+        clonazione a parte vi prego di osservare il linguaggio del tipo.
+
+        Ho preso mio fratello di peso ed ho provato a leggergli l'articolo: non
+        ha compreso una sola frase.  Questo, signori,  e'  slang!!   Finalmente
+        anche  a  livello  lessicale  l'Italia  comincia  a  distaccarsi  dalla
+        terminologia inglese - e spero che tali articoli possano essere fertile
+        campo di studio da parte di .mau.  - Finalmente anche noi possiamo fare
+        un  po'  di  sano sciovinismo alla francese.  E se nessuno ci puppa una
+        mazza di bit ha solo da affinare il suo protocollo.
+
+ ------------------------------------------------------------------------------
+
+                     !!! ON THE LINE clona Telematicus !!!
+
+   Incredibile, mi ricordo quanto  abbiamo  parlato in Musica.Ita della fanzine
+ musicale telematica, tutti interessati, tutti  esaltati,  maree  di  adesioni,
+ alla  fine  si  discute sui titolo che si poteva dare alla rivista, si cercano
+ una buona copertina, e poi come per magia la gente interessata scompare.
+
+   Da una buona 15ina di persone, sono scesi a 6 o 7. Io in prima persona avevo
+ deciso di collabolare alla rivista  recensendo  i  mitici .MOD[1] il tutto con
+ l'aiuto di LUCA NONATO, ci si mette d'accordo, poi alla fine il tal signore mi
+ scompare nella nebbia piu' fitta...  gli era andato DOWN il Computer da quanto
+ ho saputo, tra l'altro doveva addirittura venire a casa mia a copiarsi tutti i
+ .MOD e poi doveva andare in giro per il mondo a distribuire i  .MOD.   Non  e'
+ neanche mai venuto e non mi ha neanche mai telefonato a casa.
+
+   Come  si  fa  ad  essere cosi' `infami`????  :-) Comunque non ho saputo piu'
+ nulla, non avevo neanche piu' i msg  con il suo indirizzo Fidonet e non avendo
+ ancora capito come  TRAPLISTare  la  POINTLIST  assieme  alle  varie  NODELIST
+ l'unico contatto era appunto Scordamaglia.
+
+   Poi  ad  un  tratto BOOM, il 15 ott 93 parte il mio povero 1200 (Seguira mio
+ sfogo a riguardo per l'assistenza  da  cioccolatai)  e  fino  al 15 Nov 93 non
+ rientro in possesso della posta, ero disperato perche' mi  avevano  detto  che
+ BBS2000  nel frattempo aveva traslocato e gli si era bruciato un HD!.  Pensavo
+ a tutta la mia posta e alle  mie  MATRIX perse....  fortuna ha voluto che alla
+ prima chiamata, ma dai mi pare logico farvi vedere il grandioso CALLERSLOG del
+ TRAPDOOR:
+
+
+
+ + 16-Nov-93 01:45:59  TrapDoor 1.83 opened
+ + 16-Nov-93 01:46:03  Calling 781147
+ : 16-Nov-93 01:46:26   Name: BBS2000 - The Hub of Milan (HST) (2:331/301.0)
+ : 16-Nov-93 01:46:27  Sysop: Vertigo
+ | 16-Nov-93 01:46:29  Sending 2a977392.sa0 (7521 bytes)
+ | 16-Nov-93 01:46:42  Took 0:08, Cps: 874, Efficiency: 91%
+ | 16-Nov-93 01:46:42  Sending 2a977416.tu0 (19113 bytes)
+ | 16-Nov-93 01:47:07  Took 0:24, Cps: 786, Efficiency: 81%
+ | 16-Nov-93 01:47:12  Receiving 0000ffed.sa0 (418009 bytes)
+ | 16-Nov-93 01:51:26  Took 4:13, Cps: 1647, Efficiency: 171%
+ | 16-Nov-93 01:51:27  Receiving 0000ffed.su0 (633756 bytes)
+ | 16-Nov-93 01:57:47  Took 6:19, Cps: 1669, Efficiency: 173%
+ | 16-Nov-93 01:57:48  Receiving bauds102.lha (12288 bytes)
+ | 16-Nov-93 01:57:58  Took 0:09, Cps: 1280, Efficiency: 133%
+ | 16-Nov-93 01:57:59  Receiving 0000ffed.mo0 (1214679 bytes)
+ | 16-Nov-93 02:10:07  Took 12:07, Cps: 1670, Efficiency: 173%
+ | 16-Nov-93 02:10:08  Receiving 0000ffed.tu0 (754956 bytes)
+ | 16-Nov-93 02:17:48  Took 7:40, Cps: 1640, Efficiency: 170%
+ | 16-Nov-93 02:17:50  Receiving 0000ffed.we0 (498857 bytes)
+ | 16-Nov-93 02:23:10  Took 5:20, Cps: 1558, Efficiency: 162%
+ | 16-Nov-93 02:23:11  Receiving 0000ffed.th0 (284822 bytes)
+ | 16-Nov-93 02:26:12  Took 3:00, Cps: 1578, Efficiency: 164%
+ | 16-Nov-93 02:26:13  Receiving 0000ffed.fr0 (1543757 bytes)
+ | 16-Nov-93 02:42:05  Took 15:51, Cps: 1622, Efficiency: 168%
+ = 16-Nov-93 02:42:07  Session connect time 55:48
+ + 16-Nov-93 02:42:14  TrapDoor 1.83 closed
+
+
+
+     All'inizio ho pensato che fosse l'unico pacco...  purtroppo non  e'  stato
+ cosi',  non  vi dico quanto tempo e quanto spazio mi ha occupato la lettura di
+ tutta la posta  arretrata...   eppure  non  era  finita  qua perche' mancavano
+ ancora altri 2 Boss, MAUI e VIKING.
+
+     Le mie speranze quindi di rivedere LUCA NONATO e altre persone  che  avevo
+ contattato  per  MODULONET  (Spiego  poi  dopo cos'e') si erano fatte realta',
+ purtroppo devo dire che di NONATO e  di SCORDAMAGLIA una mazza di bit manco ho
+ letto.  Le uniche Matrix importanti erano di un essere ANFIBIO che risponde al
+ nome CICCI SERRA (ben 4 copie!) dove mi chiedeva dov'ero finito, intanto nella
+ CHATTER.335 venivano fuori le teorie piu' assurde (non ho i msg e non  ricordo
+ i mittenti ma ricordo il tema dei msg):
+
+  Teoria  del  CICCI  SERRA  (l'unica  che  ricordo)  che  mi  era arrivata una
+ megabolletta per via  della  mia  mania  di  APPOINTARMI  dove nessuno era mai
+ arrivato e la SIP mi aveva mandato DOWN per sempre.  Poi seguono altre  teorie
+ dove  si  diceva  che avevo abbandonato l'area, oppure quella piu' assurda del
+ RICCIARDI che  avevo  fatto  un  salto  SPAZIOTEMPORALE  avanti  per sapere in
+ anticipo  tutti  i  msg  della  CHATTER.335  tra  una  cosa  e  l'altra  nella
+ CHATTER.335 sono arrivate i primi casi di TANGENTI e di  MODERATORI  CORROTTI,
+ il MOD si era esaltato e aveva cominciato a riempire l'area di ANNUNCI dove il
+ suo gruppo DYLEX (nota marca di collant femminili norvegesi) avrebbe suonato e
+ a quali manifestazioni partecipava...  per poi concludersi in tragedia.....
+
+  Poi  c'era  LUIGI  TROVATO che portava avanti la sua FEDE sui FACOCERI, tutto
+ uno stile di vita che non ho  ancora compreso, ma ci sono gia' molti ADORATORI
+ del DIO FACOCERO sia in CHATTER.335 che in CHATTER.ITA.
+
+  Alcuni utenti erano tornati a scrivere e alcuni nuovi erano arrivati....   si
+ vedeva che erano nuovi perche' quatavano il 3450% dei messaggi.....  ho notato
+ pero' che SERGIO D.GUARDIA era sparito dall'area...  forse era stato soppresso
+ dal MOD tirannico di JURASSIC STAT????
+
+  Comunque  vi  sarete  chiesti  cosa  c'entra tutto questo con ON THE LINE che
+ copia TELEMATICUS vero???   Me  lo  sto  chiedendo  anch'io!.  [NdE: quindi il
+ brain non te lo sei bevuto del tutto, ci hai giusto dato una leccata]
+
+  Tornando al ROOT discorso, dicevo, scompattata la posta non  trovo  nulla  di
+ NONATO  ne  di  SCORDAMAGLIA,  trovo 3 msg di RRE dove mi dice di scrivere dei
+ pezzi per TELEMATICUS, arriva anche  un  F'Attach  con dei SOLDI UUENCODATI da
+ RRE che non ho ancora capito come stampare...  [NdE: seguira' presto un numero
+ monolitico a riguardo] comunque sia downlodo con impazienza TELEM034 cge  OTL1
+ da  BBS2000, e scopro che OTL e' scritta nello stesso modo di TELEMATICUS, gli
+ stessi pattern, la  stessa  presentazione  e  tutto  il  resto.....  eppure mi
+ ricordo che doveva essere una cosa originale e non copiata da altre cose.
+
+  Forse non si dovrebbe dire GATTO se non c'e' l'hai nel SACCO, non  ho  ancora
+ avuto  modo  di leggere a fondo OTL perche' alle 3.30 di notte trovo un'attimo
+ palloso leggere sia OTL che TELEM [NdE:  IO  sono commosso.  Non so il tipo di
+ OTL], sono anche mezzo incavolato perche' oggi BBS2000 appena mi manda l'EMSI,
+ il TRAPDOOR decide di gurare e quindi sono rimasto DOWN ancora da FIDONET.
+
+  Fortuna che mi rimane il SATELLITE MAUI, che con le 2 aree che prelevo, ho  a
+ disposizione la MATRIX.
+
+  Dunque  adesso  parliamo  di MODULONET.  RRE sa gia' di cosa si tratta, [NdE:
+ credo di si.  Sei quello che  continua  a stressarmi perche' ti faccia un'area
+ nazionale...  *:) ] comunque Voi non lo  sapete.   Dovete  sapere  che  io  ho
+ sempre  scritto nelle MUSICA.xxx i vari .MOD che prelevavo, ma il problema era
+ poi farli avere  a  chi  gli  chiedeva,  quindi  l'idea!, creare un'area FILES
+ MODULONET dove Inserivo i MOD piu' belli, tale area doveva  essere  poi  fatta
+ girare  almeno  in  2  o  3  bbs  dei 33x per facilitare il tutto...  [NdE: ti
+ ricordo che c'e' un'*ottima* rivista, SBDIMM,  che pubblica un MOD al mese...]
+ alla fine ricordo che alcuni non erano d'accordo, altri mi  hanno  detto  piu'
+ avanti  e  sono  rimasto  con solo 2 SYSOP convinti....  Speriamo che adesso i
+ SYSOP aumentino....  dopotutto si trattava  di  1.5Mb/2MB al mese...  inezie a
+ 14.4K o a 16.8K.  In quel modo potevo iniziare a  recensire  i  .MOD  per  OTL
+ (oramai  NONATO  sara'  perso nei meandri di GORTEK AND THE MICROCHIPS) e fare
+ avere i .MOD facilmente a tutti.
+
+  Poi m'arriva l'idea di cominciare a  scrivere qualcosa per TELEM, il problema
+ e' cosa scrivere!, allora grazie a RRE LA MENTE [NdE: sono commosso], mi viene
+ l'idea di cominciare a fare uno STRISCIA IL NET, dove si  prende  in  giro  in
+ senso buono gli amici CHATTERONI e NON.
+
+  In  queste cose pero' si rischia sempre di offendere magari qualcuno, perche'
+ gli viene dato dell'ANFIBIO o del  FACOCERO, allora bisogna saper scrivere con
+ satira pungente.....  ehehehehhhheh
+
+  Una cosa che poi voglio assolutamente dire e': GRAZIE a MAURIZIO FABIANI e  a
+ VERTIGO  per  avermi  conservato  un mese di posta.....  e voglio scusarmi con
+ ANDREA TAGLIAVENTO per il POVERO POINT...  si, dovete sapere che telefonando a
+ VIKING per downlodare TIRORETE.TXT (il  primo che fa polemica perche' tirorete
+ spopola in Games.ITA lo faccio divorare dal FACOCERO), scopro' che viaggia  in
+ HST,  allora  l'idea  di  ALLACCIARMI  CHATTER.333 o 334 (assurdo ma non me lo
+ ricordo) e INTLNET si va strada dentro  di  me.  Allora scrivo a ANDREA i miei
+ dati e gli chiedo un point, lui risponde con gli indirizzi, e  io  preparo  il
+ tutto,  poi  non  so  cosa  succede,  ma  io aspettavo risposta affermativa da
+ ANDREA, mentre lui aveva gia' allacciato tutte le aree....  dopo una settimana
+ m'arriva il msg dicendo  che  era  tutto  pronto....   e ironia della sorte io
+ faccio  la  vaccata  di  incasinarmi  con  la  PW...   e  quindi  non   potevo
+ chiamare....   poi il fattaccio dell'amiga allunga di un mese, finalmente sono
+ riuscito poi a ricevere la  sua  matrix  con  la  PW  in mezzo a 29Mb di posta
+ scompattata!  e a richiamare...  a giorni spero' di trovare i primi msg  della
+ CHATTER334  o  333????   Sono sempre in cerca comunque di un point negli altri
+ NET.
+
+
+
+ Adesso chiudo perche' siamo a 9K....  Ciao........
+
+
+
+                                                                  Fabio Filippi
+                                                                   2:335/602.14
+
+ [1] MOD: e' un file in cui  vi  e' registrato un brano sonoro.  Da leggere con
+           la Soun Blaster o compatibile.
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                       Un'applicazione REXX su OS/2 - parte VI ###
+ ############                       di Giuliano Lotta                       ###
+
+ Riassunto:
+        Il *buon* Old Raffa ha dato forfait (o ha fatto.  Boh) Comunque non  ne
+        puo'  piu'  di  sparlare di REXX.  Ho chiappato in area OS/2.ITA questo
+        messaggillo di un programmillo semplic...   -  ok  la pianto - che apre
+        anche alcuni *inquietanti* interrogativi.  Spero di contattare Giuliano
+        al piu' presto e convincerlo ad impararci il REXX su OSSO.
+
+ ------------------------------------------------------------------------------
+
+ Qualche tempo fa, non ricordo  chi,  chiedeva  lumi  sul  rexx,  per  cambiare
+ directory al volo; il programma corretto dovrebbe essere questo:
+
+ /* GO.CMD. Programma di navigazione directory */
+ /* Usa la funzione SysSearchPath() che ritorna l'intero  path  di  una  subdi-
+    rectory*/
+ /* togliere il trace all se non si vuole il debug del prg. */
+
+ Trace all
+
+ call RxFuncAdd 'SysLoadFuncs', 'RexxUtil', 'SysLoadFuncs'
+ call SysLoadFuncs
+
+ /* Chiede dove vuoi andare */
+
+ PULL directory
+
+ /*ricerca il path*/
+
+ andosta = SysSearchPath('PATH',directory)
+
+ /*lo stampa a video (per debuggare il prog :-))*/
+
+ SAY andosta
+
+ /*prova a usare la directory per cambiare, ma nisba :-((*/
+
+ call directory andosta
+
+ /*----------------------------------- FINE --------------------------- */
+
+ Il problema e' il seguente ( o meglio i problemi ):
+
+ 1) La directory e riconosciuta soltanto se fa' parte del path di sistema, come
+    del reso e' specificato nella variabile passata 'PATH'.
+
+ 2)  Se  il  programma  e'  eseguito dal prompt del'OS/2 tutto funziona.  Se il
+    programma e' eseguito da una schell (tipo file Commander), la schell non fa
+    che iniziore un altro processo, aprire un CDM.EXE fargli esequire il GO.CMD
+    e poi ritornare (terminando il  processo),  con il risultato che al ritorno
+    dal processo iniziato, la sitazione non e' cambiata  minimamente.   Infatti
+    le modifiche sono locali al processo ,come e' giusto che sia in un ambiente
+    multitasking.   Se  cosi'  non  fosse  si  potrebbe pensare per assurdo che
+    mentre un processo  sta  per  leggere  e/o  scrivere  su  un file, un altro
+    processo gli cambi la directory corrente a sua insaputa.  Tutto sommato  e'
+    poi   quello   che  succede  normalmente  con  il  funzionamento  del  file
+    swapper.dat .....
+
+    La cosa e' tipica dei sistemi  mini  e main (VMS, ULTRIX ,UNICOS,..), ed e'
+    giustamente implementata in OS/2.
+
+    In VMS per rendere le modifiche ,operate localmente dal processo ,  globali
+    bisognerebbere  privilegiare l'immagine del file con un privilegio system o
+    equivalente, ma in OS/2 non so'.
+
+    Anzi, siccome la cosa servirebbe tanto anche  a me, nessuno ci sa dire come
+    far rendere le modifiche effettuate nel path dal processo figlio  (GO.CMD),
+    valevoli pure per il processo padre (file commander) ?????
+
+    Forza, guru del rexx e dell'OS/2, fatevi avanti !!!!
+
+
+                                                                 Giuliano Lotta
+                                                                    2:333/603.0
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                              Oberon - parte I ###
+ ############                                                 Roberto Piola ###
+
+ Riassunto:
+        Continua  l'interessante  sunto  di Oberon dal Piola.  In relata' io mi
+        sono gia' letto tutti e  6  i  fasciculett.  :) Mi piacerebbe provarlo,
+        anche prche' OSSO comincia a darmi a noia...  *:)
+
+ ------------------------------------------------------------------------------
+
+                                    OBERON
+
+               un nuovo ambiente operativo di pubblico dominio,
+                       da Niklaus Wirth e Jurg Gutknecht
+
+                                   parte II
+
+  Nel  numero  precedente  abbiamo  lasciato  il nostro eroe che correva a casa
+ eccitato, scompattava la documentazione, la  leggeva  ed alla fine lanciava il
+ System.Exe senza nemmeno aver finito di leggere il ReadMe.Txt.
+
+  Una volta superato qualche piccolo problema, ecco il tutto installato.
+
+  Tanto per  iniziare,  un  piccolo  disappunto:  nell'implementazione  che  ho
+ trovato il file system di Oberon viene mappato su quello DOS, con il vantaggio
+ che  si  possono  usare  Stacker  ed  il multiconfig del DOS e non costringe a
+ rifarsi una partizione  dell'HD  (comunque  ero  pronto  a  dargli in pasto un
+ intero HD gia' li'  pronto  per  essere  inserito  nel  sistema),  ma  con  lo
+ svantaggio  di  perdere  la velocita' che dovrebbe contraddistinguere, secondo
+ l'articolo di byte, la versione completa  (non parliamo del fatto che cosi' si
+ va contro anche al principio di evitare la straficazione di  piu'  livelli  di
+ sistema operativo, mentre Oberon e' stato scritto anche per ripartire da zero,
+ risemplificando  la  perversa  e lenta struttura che e' stata messa a punto in
+ lustri e lustri di sistemi operativi).
+
+  Altro problema, che vi dico  gia'  da  subito:  mettete il mouse in modalita'
+ PC-mouse, non Microsoft, altrimenti avrete SERI problemi, dato che sara' visto
+ come un mouse a due pulsanti mentre il sistema e la  documentazione  prevedono
+ solo mouse a tre pulsanti.
+
+  Un'altra  cosa: non selezionate i drivers per l'ET4000 a meno che non abbiate
+ un monitor a 17 pollici  ad  altissima  definizione:  se mettete i drivers per
+ ET4000 invece  di  VGA  normale,  Oberon  saltera'  alla  massima  risoluzione
+ possibile,  mantenendo  pero' il font usato a qualcosa come 10x10 pixels per i
+ caratteri pu' grossi (Oberon  lavora  normalmente  con fonts proporzionali): i
+ sadomasochisti potranno anche godere  alla  visione  di  60-70  righe  di  150
+ caratteri   l'una  in  14",  io  pero'  penso  alla  vostra  salute  e  ve  lo
+ sconsiglio...
+
+  Oberon per i sistemi Intel sfrutta il  386 in modalita' protetta, per cui non
+ appena  lanciato,  se  gli  chiedete  quanta  memoria  ha  a  disposizione  vi
+ ripondera' dandovi TUTTA la RAM libera, finalmente  accessibile  da  qualsiasi
+ applicazione senza DOS extenders, gestori di memoria espansa od altra robaccia
+ del  genere (Gli Amighisti staranno sogghignando: "E ci sono voluti dieci anni
+ per arrivarci?"; lasciamoli cuocere nel loro brodo).
+
+  Dimenticavo le "richieste" del  sistema:  2  Megabytes  di RAM, un 386 (anche
+ SX), una scheda grafica VGA ed un mouse a tre pulsanti; la documentazione dice
+ che e' anche possibile usare un mouse a due pulsanti, ma riporta la traduzione
+ a due pulsanti di solo alcune delle operazioni che  si  possono  compiere  con
+ tre.
+
+  Volete provare anche voi il tutto?
+
+  Per  quando  questo  articolo  andra'  in  stampa  dovrei  aver gia' messo la
+ versione MSDOS in linea su  WinFront  BBS (334/108, tel.011-5681765), con nome
+ OBERON.* o MSOBERON.*; se non c'e', o se desiderate qualche altra versione (ho
+ notato quelle per Amiga, per Atari ST e per vari  tipi  di  WorkStations),  le
+ coordinate per l'ftp via internet sono 129.132.101.33, cd Oberon.
+
+                               @    @     Ciao
+
+                               \____/     Roberto Piola, fidonet 2:334/108.57
+
+
+  P.S.: si', l'ho poi scoperto come si mette il font non  proporzionale,  e  la
+ cosa  bella  e'  che  tale comando funziona in QUALSIASI finestra, non solo in
+ quelle del word processor, ma  anche,  per esempio, in quelle del compilatore,
+ od in quelle di  sistema,  o  nelle  finestre  di  editing  che  un  qualsiasi
+ programmatore  puo'  aprire...   potenza  della  struttura ad oggetti!  Che io
+ sappia nessun altro sistema  permette  di  avere  i  listati  con i fonts ed i
+ colori come vuoi tu!  (Il Borland  C++,  ed  anche  il  Microsoft  Visual  C++
+ permettono  di  avere  listati a colori, ma solo con i colori del sistema, che
+ evidenziano la sintassi,  e  non  con  piena  liberta'  di  controllo da parte
+ dell'utente; iniziate a pensare ad un sistema di mail basato su Oberon, od  un
+ OberonTelematicus...).
+
+ ############                                                               ###
+ ###   8  ###                                          La biografia del RRE ###
+ ############                                                           RRE ###
+
+ Riassunto:
+        OK. Visto che e' (stato) Natale eccovi 'cha la mia biografia.
+
+ ------------------------------------------------------------------------------
+
+  Il  mondo  tutto trattenne per un attimo (impresa dai piu' considerata di per
+ se miracolosa) il fiato al  miracolo  che  si  compi'  il 20/01/67 d.c.: da un
+ cavolo, come vuole la migliore tradizione, io nacqui e formulai il  mio  primo
+ pensiero.   Pensiero  che,  grazie a sofisticatissime tecniche d'introspezione
+ nasale, sono ora in grado  di  riportarvi  con buona approssimazione.  Esso fu
+ piu' o meno: "Noo!  ancora?".
+
+  Ebbene si!  il perverso gioco karmiko,  la  ruota  della  sfiga  si  ostinava
+ ancora  con  me.   Ma  nella  disgrazia  ero  caduto  bene:  la  famiglia  era
+ benestante.   Mio  padre  vinse  un  mese  dopo la mia nascita in tre lotterie
+ diverse (nazionale, mondiale ed interplanetaria) e divenne estremamente ricco.
+ Con accorti e felici investimenti  la  ricchezza  fu tale da permettermi ancor
+ oggi di poter vivere di rendita sul suo patrimonio.
+
+  Ero il minore di 4 fratelli.  Tuttavia  a  22  anni  fui  l'unico  erede  del
+ patrimonio: morirono tutti in circostanze misteriose; di due ancor oggi non si
+ e'  trovato  il  corpo.   Le donne, forse anche per la ricchezza che ho sempre
+ ostentato, non mi sono  mai  mancate  (per  ogni  pesce ci vuole l'amo giusto,
+ ragazz').  Ho un unico difetto: non voglio che nessuno guardi nei miei armadi;
+ i maligni dicono che vi nascondo cose terribili.  Ma e' solo  una  mia  fissa,
+ ecco tutto.
+
+  Non  avendo  alcuna  preoccupazione  in  vita  mia  ho pensato a come passare
+ l'esubero ti  tempo  a  disposizione.   Attualmente,  per  diletto,  dopo aver
+ concluso un modo piu' o meno disastroso gli  studi  classici,  4  lauree  e  3
+ master,  lavoro  in  una  squallidissima ditta che produce sedili nell'indotto
+ FIAT (tra l'altro grazie al mio zelo e' attualmente fallita).
+
+  Ho inoltre tramato alle  spalle  di  .mau.   per  ottenere la direzione della
+ rivista (cio' in certi salotti mi conferisce un certo  invidiabile  prestigio)
+ di  cui,  in tutta sincerita' mi interessno poco le sorti o gli argomenti (tra
+ l'altro non riesco a comprendere una buona meta' degli articoli che pubblico).
+
+  Sono un logorroico, ma questo  per determinati lavori puo' essere considerato
+ un pregio.
+
+  Attualmente sto tentando di diventare l'unico inquilino di un condominio di 6
+ piani suonando dalle 21:00 alle  22:00  il  mio  SAX  tenore.   Sono  un  nano
+ malefico.
+
+  Preso  da una crisi mistica di fronte ad un traballante cremino al cioccolato
+ ho deciso di aderire anima  e  corpo  (per  ora  piu'  corpo che anima) ad una
+ religione americana (tra tutte le religioni proprio  una  occidentale...),  il
+ Capitalismo.
+
+  Sono  un  convinto  sostenitore  delle  feste  dei vecchi tempi: "sex, drug &
+ rock&roll".  Anche se poi al max mi faccio 'na birra.
+
+  Mi piace il colore XX, le  mie  misure  sono  xx.x, xx.x, xx.x e sogno il mio
+ principe  azzurro.   Attualmente  pero'  sono  con  una  ragazza  che   chiamo
+ amichevolmente  Giraffa.  In realta' si chiama Giuseppina, no, credo Menegilda
+ o e' Assunta?  Boh.  Comunque l'amo (vedi prima con le donne).
+
+  Sono un musicofilo (o almeno mi  piace considerarmi tale) e adoro soprattutto
+ la DiskMusik.  Mi piace frequentare i centri sociali.   Odio  i  Beatels  &  i
+ RollingStones.
+
+
+  Per il resto la mia vita scorre grigia. Come l'acqua potabile a Torino.
+
+
+
+                                                                           RRE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   9  ###                                   IL GERGO HACKER - PARTE 30  ###
+ ############                                   Eric S. Raymond & .mau.     ###
+
+ Riassunto:
+        Il mitile, l'insuperabile mi ha  mandato  ben *due* articoli per questo
+        number.  Uno addirittura scritto il 24 (o il 25!!) di December.  Non me
+        ne voglia il mitico .mau.  se non veedra' la luce a gennaio; un  saggio
+        mi ha insegnato a far tesoro di articoli per i tempi bui...  :)
+
+ ------------------------------------------------------------------------------
+
+    <NP->  /en  pee/  pref.   Estremamente.  Usato per modificare aggettivi che
+ descrivono un livello o una  qualita`  di difficolta`.  "Far funzionare questo
+ algoritmo correttamente in ogni caso e`  un  NP-rompimento".   Questa  e`  una
+ generalizzazione  dai  termini  informatici  "NP-hard" e "NP-completo".  NP e`
+ l'insieme degli algoritmi Polinomali Nondeterministi, quelli cioe` che possono
+ essere completati da una  macchina  a  stati  finiti non deterministica in una
+ quantita`  di  tempo  che  e`  una  funzione  polinomiale   della   dimensione
+ dell'input.
+
+    <nuke>  [rancare] vt.  1. Cancellare intenzionalmente l'intero contenuto di
+ una data directory o supporto  di  memoria.   "Su  UNIX,  rm -r /usr ranca via
+ tutto nel filesystem di /usr".  Mai usato per una  cancellazione  accidentale.
+ Opp.   <blow  away>.  2. Sin.  per <dike>, applicato a cose piccole tipo file,
+ feature o parti di codice.   3.  Usato  per processi oltreche` file; spesso un
+ alias per "kill -9" su UNIX.
+
+    <null device> s. Un device logico (v.  <logical>) di input/output  connesso
+ al  <bit  bucket>;  se  ci  si  scrive su non capita niente, se ci si legge si
+ ottiene un record  di  lunghezza  zero  pieno  di  nulla.  Utile per scaricare
+ dell'output non voluto o per  usare  programmi  interattivi  in  un  modo  non
+ interattivo.  Vedi </dev/null>.
+
+    <numbers>  [dal  calcolo  scientifico] s. Risultati di una computazione che
+ magari non hanno alcun significato fisico, ma almeno indicano che il programma
+ sta girando.  Possono essere usati per placare il management, farsi dare soldi
+ dagli sponsor...  "Making numbers"  (tirare  fuori  dei numeri) significa fare
+ girare un programma perche`  occorre  dell'output  --  un  qualunque  tipo  di
+ output,  non necessariamente significativo -- come dimostrazione di progresso.
+ Vedi <pretty pictures>.
+
+    <NUXI problem> /nuk'see pro'blm/ s.  Si riferisce al problema di trasferire
+ dati tra macchine con differente ordinamento di byte.  La stringa "UNIX"  puo`
+ sembrare  "NUXI" su una macchina con un diverso "sesso dei byte" (cioe` quando
+ si trasferiscono  dati  da  una  macchina  little-endian  a  una  big-endian o
+ viceversa).  Vedi anche <big-endian>, <little-endian>, <swab>, e <bytesexual>.
+
+    <nybble> /nib'l/ [da  `nibble',  mordicchiare,  per  analogia  con  `bite',
+ mordere, -> `byte'] s. Quattro bit; una cifra esadecimale; mezzo byte.  Mentre
+ `byte'  e`  oramai una voce gergale tecnica che si trova nei dizionari, questo
+ utile parente e` ancora  slang.   Confr.   Compare <crumb>, <taste>, <dynner>,
+ vedi anche <bit>.  Nota: un corrispondente inglese afferma che questo spelling
+ non e` mai usato da loro,  perche`  l'ortografia  britannica  suggerirebbe  la
+ pronuncia /niebl/ (naibl).
+
+
+                                    {= O =}
+
+    <Ob>  /ob/ pref.  Obbligatorio.  Una forma di <netiquette> che riconosce da
+ parte  dell'autore  il  fatto  che  si  e`  andati  fuori  dall'argomento  del
+ newsgroup.  Per esempio, se un messaggio  in  alt.sex  non ha nulla a che fare
+ particolarmente col sesso, l'autore puo`  aggiungere  "ObSex"  (o  "Obsex")  e
+ scrivere una domanda o una scenetta riguardante qualche atto erotico inusuale.
+
+    <obscure>  agg.   Usato  in  maniera  esagerata  rispetto  al  suo  normale
+ significato,  per  implicare  una  totale  mancanza  di comprensibilita`.  "La
+ ragione per quest'ultimo crash e` oscura".  "La sintassi del comando `find(1)'
+ e` oscura." La frase  <moderately  obscure>  implica  che si potrebbe ricavare
+ qualcosa, ma che probabilmente non ne vale la pena.  <Obscure in the  extreme>
+ e` una forma enfatica preferita.
+
+    <OBFUSCATED  C  CONTEST>  s.  Gara annuale tenutasi dal 1984 sulla rete (v.
+ <the network> da  Landon  Curt  Noll  &  amici.   Il  vincitore globale e` chi
+ produce il programma funzionante C piu` illeggibile, creativo e bizzarro; vari
+ altri premi sono assegnati a piacere dei giudici.  Data la sintassi tersa  del
+ C e le possibilita` date dal preprocessore, si ha un ampio margine di manovra.
+ I programmi vincenti riescono spesso ad essere simultaneamente (a) divertenti,
+ (b)  opere  d'arte  che fanno trattenere il fiato [NdE: questo devo spedirlo a
+ Londona!], e (c) Esempi Orribili di come *non* programmare in C.
+
+ Questo  concorrente  relativamente  corto  e   dolce  puo`  dare  una  mano  a
+ comprendere il gusto del C offuscato: [NdT: mettetelo tutto su  una  linea  di
+ codice]
+
+      main(v,c)char**c;{for(v[c++]="Hello, world!\n)";(!!c)[*c]&&
+      (v--||--c&&execlp(*c,*c,c[!!c]+!!c,!c));**c=!c)write(!!*c,*c,
+      !!**c);}
+
+ Vedi anche <hello, world!>.
+
+    <octal forty> /ok'tl for'tee/ [quaranta ottale] s. Modo hacker di dire "sto
+ scrivendo  uno spazio" (40 ottale e` per l'appunto uno spazio in ASCII).  Vedi
+ <wall>.
+
+    <off-by-one error>  [errore  di  uno]  s.  Errore straordinariamente comune
+ ottenuto in vari modi, come partire da 0 quando si sarebbe dovuto partire da 1
+ o viceversa, o scrivere < N invece che <= N o viceverso.  Anche quando si  da`
+ un  oggetto  alla  persona  vicino  a  quella che doveva riceverlo in realta`.
+ Confuso spesso con <fencepost error>, che e` propriamente un suo sottoinsieme.
+
+    <offline> avv.  Non  qui  o  non  ora.   Esempio:  "Portiamo la discussione
+ offline".   Specificatamente  usato  su  <USENET>  per   suggerire   che   una
+ discussione  venga  portata  avanti  per  email  invece  che  su  un newsgroup
+ pubblico.
+
+    <old  fart>  [vecchia  scorreggia]  s.  Anziano  della  tribu`.   Un titolo
+ autoassegnato con frequenza rimarchevole da (sp.) gente su  USENET  che  hanno
+ programmato  per  piu`  di  circa 25 anni; appare spesso nelle <sig> annesse a
+ contributi al Jargon file di  grande  significanza archeologica.  Questo e` un
+ termine di insulto in seconda o terza persona, ma orgoglio in prima persona.
+
+    <Old Testament> s. [programmatori  C]  La  prima  edizione  del  libro  che
+ descrive il <Classic C>; vedi <K&R>.
+
+    <ONE  BELL  SYSTEM  (IT  WORKS)>  Questo  era  l'output del comando "1" del
+ vecchio UNIX V6.   Il  comando  "1"  conteneva  anche  un generatore di numeri
+ casuali che dava una possibiilita` su dieci di eseguirsi di nuovo.
+
+    <one-liner wars> [guerre degli one-liner] s. Gioco popolare tra gli  hacker
+ che  programmano  in  APL (vedi <write-only language>).  L'obiettivo e` vedere
+ chi puo` codificare la routine  piu`  interessante  e/o  utile in una linea di
+ operatori scelti tra il set di  primitive  eccezionalmente  <hairy>  dell'APL.
+ [Questo  non  e`  *cosi`*  stupido  come  sembra;  io stesso ho codificato dei
+ programmi di <life> in una linea,  e  una volta [ho] buttato giu` un programma
+ di una linea che faceva l'analisi lessicale  del  suo  input,  seguito  da  un
+ lookup  su  dizionario  per buona aggiunta -- ESR].  [Pensavate mica che fossi
+ *io* a scrivere in  APL?   --  .mau.]  E`  stato riportato che un divertimento
+ simile era praticato tra gli hacker su <TECO>.
+
+    <ooblick> /oo'blik/ [da "Bartholomew and the Ooblick" del  Dr.   Seuss]  s.
+ Una  bizzarra  melma  semiliquida  fatta  di  amido di granturco e acqua.  Gli
+ hacker si  divertono  ad  averla  durante  i  party  per  il suo comportamento
+ estremamente non newtoniano; si puo` versare  e  spandere,  ma  resiste  a  un
+ rapido  movimento come un solido, e si puo` persino spaccare se colpita con un
+ martello.  Trovata spesso vicino ai laser.
+
+    <open> s.  Abbreviazione  per  "parentesi  aperta  (o  sinistra)", usata se
+ necessario per eliminare l'ambiguita` orale.  Per  leggere  ad  alta  voce  la
+ forma  LISP  (DEFUN  FOO  (X) (PLUS X 1)) si potrebbe dire: "Open def-fun foo,
+ open ics close, open, plus ics uno, close close." Vedi <close>.
+
+    <operating system>  [sistema  operativo]  s.  (Spesso  abbreviato  "OS") Il
+ software su cui si fonda una macchina, naturalmente;  quello  che  schedula  i
+ task,  alloca  memoria,  e  presenta  un'interfaccia di default all'utente tra
+ un'applicazione e  l'altra.   Le  facility  che  il  s.o.   provvede  e la sua
+ filosofia generale di progettazione esercitano un'influenza molto forte  sullo
+ stile  di programmazione e la cultura tecnica che si formano intorno a un tipo
+ di calcolatore.  Il  folklore  hacker  si  e`  formato principalmente coi s.o.
+ UNIX, ITS, TOPS-10, TOPS-20/TWENEX, VMS,  CP/M,  MS-DOS,  e  MULTICS  (i  piu`
+ importanti  sono  stati  ITS  e UNIX).  Ciascuno di essi ha la propria voce in
+ questo gergo (vedi).
+
+    <Orange Book> s. Il documento di standard del governo USA (Trusted Computer
+ System Evaluation  Criteria,  DOD  standard  5200.28-STD,  dicembre  1985) che
+ caratterizza la sicurezza nelle architetture di calcolatore, definendo livelli
+ da A1 (il piu` sicuro) a D (il meno).  Le macchine  UNIX  escono  generalmente
+ come  C1,  ma  non e` trroppo difficile portarle a C2.  Vedi anche <Red Book>,
+ <Blue  Book>,  <Green  Book>,  <Silver  Book>,  <Purple  Book>,  <White Book>,
+ <Pink-Shirt Book>, <Dragon Book>, <Aluminum Book>.
+
+    <ORIENTAL FOOD> s. Gli hacker mostrano un intenso tropismo verso la  cucina
+ orientale,  specialmente  cinese,  e  specialmente  delle  sue  varieta`  piu`
+ speziate  come  la  Szechuan  and  Hunan.  Questo fenomeno (che e` stato anche
+ osservato in sottoculture che si sovrappongono pesantemente con quella hacker,
+ specialmente  tra  i  fan  della  fantascienza)  non  e`  mai  stato  spiegato
+ soddisfacentemente,  ma  e`  abbastanza  intenso  che  si  puo`  assumere  che
+ l'obbiettivo di una spedizione di hacker per cena sia il miglior locale cinese
+ della zona,  ed  avere  ragione  tre  volte  su  quattro.   Vedi anche <ravs>,
+ <great-wall>, <stir-fried random>.  Le cucine tailandese, indiana,  coreana  e
+ vietnamita  sono  anche  assai  popolari.   [A  me la cucina cinese non piace.
+ Pero` apprezzo molto  la  giapponese...--  .mau.]  [Mangio  di tutto, mi basta
+ avere fame.  -- RRE]
+
+    <orphan> [UNIX] s. Un processo il cui genitore e` morto, e che e` ereditato
+ da `init(1)'.  Confr.  <zombie>.
+
+    <orthogonal>  [dalla  matematica]  agg.   Mutualmente   independente;   ben
+ separato;  a  volte,  irrilevante.   Usato  in  una  generalizzazione  del suo
+ significato matematico per descrivere  insiemi  di  primitive o capacita` che,
+ come una base  di  vettori  in  geometria,  descrivono  tutto  lo  "spazio  di
+ possibilita`"  del  sistema  e  sono  in  un certo senso non sovrapponentesi o
+ mutualmente indipendenti.  Per  esempio,  in  architetture come l'MC68000 dove
+ tutti o quasi i registri possono  essere  usati  in  maniera  interscambiabile
+ rispetto a ogni istruzione, il set di registri e` detto essere ortogonale.  O,
+ in  logica,  l'insieme  di  operatori `not' e `or' e` ortogonale, ma l'insieme
+ `nand', `or' e  `not'  non  lo  e`  (perche`  ciascuno  di  questi puo` essere
+ espresso in termini degli altri due per  mezzo  delle  leggi  di  De  Morgan).
+ Usato  anche  in commenti mentre si parla: "Questo puo` essere ortogonale alla
+ discussione, ma...".
+
+    <OS>  /oh  ess/   [Operating   System,   sistema   operativo]  s.  Acronimo
+ pesantemente usato nella posta elettronica, a volte nel parlare.
+
+    <OS/2> (oh ess too) s. Il successore  consacrato  all'MS-DOS  per  i  micro
+ basati  sull'Intel-286  e  (oramai)  386;  dimostrazione  del  fatto che IBM e
+ Microsoft non sono riusciti a  farcela  nemmeno  la seconda volta.  Qui citato
+ perche` menzionarlo e` di solito utile per far fare una bella risata  tra  gli
+ hacker  --  la progettazione era cosi` <baroque> e l'implementazione della 1.x
+ cosi` schifosa che tre anni  dopo  la  sua introduzione si potevano contare la
+ applicazioni importanti con una versione per esso sulle dita di due  mani  (in
+ unario).   Spesso chiamato "mezzo sistema operativo".  Una minoranza di hacker
+ DOS mantiene la speranza che  la  versione  2.x  a  32 bit si riveli vincente.
+ [Beh, il vostro editor-in-chief e`  un  convinto  fautore  della  superiorita`
+ dell'"osso",  come  forse  vi sarete accorti leggendo i suoi editoriali; io lo
+ posseggo, ma non  lo  uso  praticamente  mai...   in  ogni  caso  e` meglio di
+ Windows, anche se effettivamente sarebbe difficile  essere  peggio  --  .mau.]
+ Vedi <vaporware>, <monstrosity>, <cretinous>, <second-system effect>.
+
+    <overrun  screw>  [effetto  straripamento:  nella  programmazione C] s. Una
+ varieta` di <fandango on core> prodotta  scrivendo oltre la fine di un vettore
+ (il C non ha controlli di questo tipo).  E` relativamente benigno e facile  da
+ trovare  se  il vettore e` statico; se e` automatico, il risultato puo` essere
+ <smash the stack>.  Il termine o.s.  e` usato spec.  quando si scrive oltre la
+ fine di vettori allocati con  `malloc(3)'; cio` distrugge tipicamente l'header
+ di allocazione per il blocco successivo nell'<arena>, producendo delle  enormi
+ perdite  all'interno  della  malloc  e  (spesso)  un core dump sull'operazione
+ successiva che usa `stdio(3)' o la  stessa `malloc(3)' Vedi <spam>; vedi anche
+ <memory leak>, <aliasing bug>, <precedence lossage>, <fandango on core>.
+
+
+
+                                           tradotto da .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  10  ###                         L'arte della programmazione - parte V ###
+ ############                         Guido Michetti                        ###
+
+ Riassunto:
+        "Nemo profeta in patria" dicevano gli antichi.  Ergo Io sono un antico.
+        E'  strano  come  fin'ora  nessuno  tra  quei  1200 che siamo in Italia
+        (secondo  indagine  Carcillo)  sia  ancora  intervenuto  nel dibattito.
+        Mentre la cosa desta un certo interesse a  persone  esterne  all'ambito
+        FIDO.  Un ambiente che dovrebbe essere per natura vivace e stimolante.
+
+        Boh.  Ecco a voi l'ultimo capolavoro di un aspirante scrittore.  Non e'
+        detto  che in futuro Telem non si veda costretta a pubblicare a puntate
+        un romanzo di fantascienza dell'autore...
+
+ ------------------------------------------------------------------------------
+
+            La ricerca della creativita' ai confini della scienza.
+                             E forse anche oltre.
+
+ - Lo sapevo che non dovevo  fidarmi.   Quello Ian Solo mi sembrava una persona
+ poco raccomandabile!  Che stupido!  Dar retta ad uno che si accompagna con uno
+ scimmione!  C'era da aspettarselo, guarda dove accidenti mi ha  scaricato!   -
+ Eclamo'  terrorizzato  Artore  Londona  dopo  essere stato abbandonato da quel
+ personaggio poco raccomandabile che apparentemente era Ian Solo.  Era scappato
+ dicendo che la principessa Leila lo stava aspettando.
+
+  Artore cercava di non  farsi  assalire  dal panico.  Dopotutto qullo schifoso
+ pianeta non era tanto male.  Dopotutto si trovava sull'unica isoletta in mezzo
+ a quella infinita palude fetente.  Dopotutto erano solo  tre  giorni  che  non
+ mangiava.   Dopotutto faceva freddo, stava solo calando il sole, e, dopotutto,
+ aveva indosso solo una maglietta ed un paio di jeans.  Sporchi.
+
+  Non c'era assolutamente di che  preoccuparsi.   Era certo che Hari Saldon non
+ gli avrebbe fatto un bidone.
+
+ - Interessante!  - Osservo' interessato (naturalmente) Artore.
+
+ - L'acqua della palude sta salendo.  Ad occhio e croce mi rimangono  non  piu'
+ di 5 minuti, poi dovro' nuotare.  Speriamo che i biscioni che pullulano questo
+ cesso non mi divorino.  Speriamo che Hari Saldon arrivi in fretta.
+
+  Finalmente  qualche cosa mosse la superfice della massa liquida.  Un sorta di
+ imbarcazione submarina emerse.  Il portello  superiore si dischiuse ed apparve
+ un uomo con un interessante capello da  Capitano  sulla  testa  con  tanto  di
+ ancoretta ricamata.
+
+ - Buon giorno - Esclamo' questi.
+
+ - Esclamazione del tutto discutibile!  - Rispose Artore - Comunque buon giorno
+ a te.  Chi sei?
+
+ - Sono il Capitano Nemo.  Credo che tu abbia bisogno di aiuto.
+
+ -  Ad  essere  sincero  aspettavo  Hari  Saldon,  ma,  vista la situazione, mi
+ accontento anche di te.
+
+ - Mi  sembra  che  le  tue  conoscenze  delle  buone  maniere siano abbastanza
+ limitate.  Ma poiche' conosco Hari Saldon, e non vorrei fargli  un  torto,  ti
+ salvo la pelle.  Sali a bordo.
+
+ - Grazie Capitano.
+
+ Salito  a  bordo  mentre i piedi erano gia' abbondantemente lambiti dall'acqua
+ fetida,  osservo'  i  biscioni  che,  sconsolati  per  la  pedita  del  pasto,
+ strisciavano i bordi della nave.
+
+ - Ma questo e' il Nautilus!  - Esclamo' Artore introducendosi sottocoperta.
+
+ - Che cosa credevi fosse?  Il Titanic?  Oppure Henola Gay?
+
+ - Perdonami per la mia scarsa creanza, oh Capitano!
+
+ - Nemo per gli amici, prego.
+
+ - Approfitto della conoscenza per porti alcune domande inerenti la creazione e
+ l'essenza dell'arte.
+
+ - Oh, bene.  Io amo l'arte!  -  esclamo' facendogli strada verso il Fumoir del
+ Nautilus, dove troneggiava un meraviglioso organo  a  canne.   Si  sedette  ed
+ attacco' una meravigliosa melodia.
+
+ -  Questa e' arte!  I grandi compositori, i grandi pittori, i grandi scultori,
+ i grandi scrittori!  Crearono opere immortali!
+
+ - Ma, Nemo, non ti senti anche  tu  un  artista, un creativo, tu hai creato il
+ Nautilus...
+
+ - Il Nautilus non e' arte, e' scienza!
+
+ - Ma non credi che ci sia una connessione tra  arte  e  scienza?   -  Domando'
+ speranzoso Artore.
+
+  Il capitano Nemo smise di suonare, volgendogli uno sguardo penetrante.  Muto'
+ espressione, addolcendosi gradatamente.
+
+ - Non avevo mai pensato a cio'!  - Esclamo' con tono greve.
+
+ -  Si!   La  scienza  e'  arte!   -  Continuo'  -  L'arte puo' provocare altre
+ sensazioni oltre  alla  semplice  estasi  da  contemplazione.   La  scienza e'
+ creativita', l'arte e' creativita', quindi arte e  scienza  sono  uguali.   La
+ scienza e' arte e l'arte e' scienza.
+
+ - Volevo parlarti del Software.  - Tento' di continuare Artore.
+
+ -  Non  ora.   Rifocillati  ora.   - Artore non se lo fece ripetere due volte,
+ ingozzandosi al limite del soffocamento con  fare,  a dire il vero, molto poco
+ artistico.
+
+ - Bene, seguimi ora nella sala Teletrasporto.
+
+ - Ma come?  Questo e' il Nautilus o e' l'USS Interprise di Star Trek?
+
+ - Non ti preoccupare.  Dovresti sapere che la creativita' non conosce limiti!
+
+ - A proposito, ottimo quell'Hamburger con maionese!
+
+ - Vero?  E' fatto con alghe rosse e grasso di oloturia  bagnato  in  salsa  di
+ estratto di escrementi di balenottero.
+
+  Senza possibilita' di reagire Artore si senti', soffocando i conati di vomito
+ prodotti dall'ultimo boccone che stava inghiottendo, svanire lentamente.
+
+ Un  uomo  con  le  orecchie  a  punta gli venne incontro.  - Benvenuto a bordo
+ dell'USS Enterprise, in missione ai confini della galassia.
+
+ - B..bb.buongiorno  Spook!   -  Riusci'  a  sussurrare  Artore  vomitando poco
+ dignitosamente.
+
+ - Strano, le nausee da  teletrasporto  sono  state  tecnicamente  superate  da
+ parecchio tempo.  Illogico.  - Osservo' curioso Spook.
+
+ - Giusto te, Spook.  Cosa pensi della connessione tra Arte e Scienza.
+
+ -  La  scienza  non e' arte.  La scienza e' logica.  L'arte non ha connessioni
+ con la logica.
+
+ - Ed il software?   -  Continuo'  imperterrito  Artore  nella sua estenuante e
+ decisamente pallosa ricerca della verita'.
+
+ - Il software e' l'apoteosi della logica.  Quindi,  logicamente,  il  software
+ non e' arte.
+
+ - E lo sfruttamento del software?  Puo' dare origine ad creativita'?  - Chiese
+ sempre imperterrito Artore.
+
+ -  Non  credo  che,  per  esempio,  giocare  a  Leisure Larry [1] possa essere
+ considerato creativo.
+
+ - E scrivere il programma, invece dovrebbe esserlo!
+
+ - No, e' una semplice  esercitazione  logica.   Anche la musica e' logica.  Si
+ tratta semplicemente di una sequenza logica di suoni.
+
+ - Capisco.  - Rispose sconsolato - Dove stiamo andando?
+
+ - Stiamo portandoti alla Fondazione.
+
+ - Dunque esiste!  La Fondazione di Hary Saldon!  Lui e' la?
+
+ - Logico.  Puoi accedere di nuovo alla sala teletrasporto.
+
+  Sempre piu' confuso Artore Londona si posiziono'  sul  dischetto,  sentendosi
+ rapidamente   svanire.    Riapparve  in  una  sala  circolare  al  cui  centro
+ troneggiava un  cilindro  di  vetro.   La  sala  era  vuota.   Si avvicino' al
+ cilindro.  Una figura umana apparve.
+
+ - Salve, sono Hary Saldon.  Credo che la sala sia vuota, infatti non siamo  in
+ presenza di una crisi, ma semplicemente di un intervistatore che sta' cercando
+ di scoprire l'essenza dell'arte e le connessioni tra arte e software.
+
+  Artore Londona era impallidito.  Sapeva che poteva solo ascoltare e non porre
+ stupide domande, e cio' lo metteva un poco a disagio.
+
+ - Io ritengo che ci sia un giusto punto di connessione tra Arte e Software.  -
+ Continuo'  l'immagine  di  Hary  Saldon - La creativita' e' la base dell'arte.
+ Senza idee non e' possibile  arrivare  a  nessuna creazione, di qualunque tipo
+ essa sia.  Quindi, naturalmente anche il Software  necessita  di  creativita'.
+
+ Io  ritengo  che  qualsiasi  esercitazione  mentale sia da ritenersi creativa.
+ Anche la matematica e'  creativa.   Basta  utilizzarla  in  forma non rigida e
+ ripetitiva.  La psicostoriografia ad esempio e' una logica creativa basata  su
+ basi matematiche molto precise, ma con innumerevoli varianti.  Lo studio della
+ variabili  e'  enormemente  creativo,  solo una mente fertile puo' sfruttate a
+ fondo le possibilita' della  psicostroriografia.
+
+ La logica fine a se stessa  non e' sufficiente al raggiungimento del risultato
+ finale.  Anche lo sfruttamento del software puo' dare luogo a creativita'.  E'
+ sufficiente che il software non sia rigido.  Arrivederci alla prossima  crisi.
+ C'e'  un  panino  al salame ed una coca sulla terza sedia a sinistra.  Potenza
+ della psicostoriografia.
+
+  Artore Londona si avvicino' allibito alla terza sedia a sinistra, dove trovo'
+ il  panino  e  la coca.  Divoro' rapidamente il panino, innaffiandolo di coca,
+ quindi sedette a pensare.
+
+ - Credo che sia meglio tornare a  casa a meditare.  - Decise.  Osservo' meglio
+ la sedia.  C'era un biglietto della Metropolitana.
+
+  Usci' dalla sala avviandosi, sotto la pioggia, alla piu' vicina stazione.
+
+
+
+ Guido Michetti
+
+
+
+ [1] Avventura grafico-testuale della Sierra a sfondo  erotico.   Ha  avuto  un
+ notevole   successo  malgrado  faccia  abb.   schifo  come  programmazione  ed
+ interattivita'.
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  11  ###                                                ERRATA CORRIGE ###
+ ############                                                La direzione   ###
+
+ Riassunto:
+        Beh, questa non e' proprio un'errata quanto una precisazione.  Comunque
+        il Paolo Polce (2:335/4.31) ha  promesso  e strapromesso di inviarmi un
+        articolao che ci impari l'utilizzo  dello  JackStat  (cosi'  finalmente
+        nella vostra vita almeno un mistero verra' risolto [ve ne risolvo anche
+        un altro: quella sera con vostra moglie c'ero io]).  *8-D
+
+ ------------------------------------------------------------------------------
+
+ From : Cicci Serra                         2:335/225.4     13 Dec 93  19:49:50
+
+ Ciao Renato!!!
+
+ Per  tua  conoscenza,  ti  invio  l'epilogo  (?) del JackStat, a firma del suo
+ autore...
+
+ : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :
+
+ * Mitt.: Paolo Polce, 2:335/4.31 (11 Dicembre 14:25)
+ * Dest.: Marco Matarazzo
+ * Sogg : Gifenditi se hai coraggio!
+
+ Ciao Marco!
+
+ scrivevi a Cicci Serra a proposito di <Gifenditi se hai coraggio!>:
+
+  CS>> P.S. Ammappelo la GIF del Mod & Consorte e` quasi mezzo megabytes... o
+  CS>> forse c'ha messo anche i sorgenti del JackStat??? ;-)
+
+  MM> Tsk, tsk... ti avverto che solo nella giornata di OGGI ha sfornato TRE
+  MM> DICONSI TRE versioni beta consecutive della 2.7...
+
+ dai che ho risolto quel buggeto solo per te :-)
+ Ho rilasciato la versione 2.8 e dovete ammettere che le nuove feature sono
+ belline! :-)
+
+  MM> sembra che si sia attivata una routine di autoprotezione (tipo istinto di
+  MM> conservazione della specie) del Turbo Pascal, che ora si rifiuta
+  MM> categoricamente anche solo di entrare nella directory dove stanno i
+  MM> sorgenti del JackStat... non e' servito a niente neanche cambiare il nome
+  MM> al .PAS... sembra che faccia una ricerca euristica, come gli antivirus...
+  MM> 8-D
+
+  Maledetto 486...  Ieri sera ho  spento  il computer intorno alle 23:30.  Sono
+ andato a coricarmi...  ma mi sono svegliato intorno alle 3, a causa del rumore
+ della ventola...
+
+  La Ventola !??!  Ma se ho spento il computer...  mi dicevo,  ignaro  di  cio'
+ che  stava  accadendo...   mi avvicino al computer e noto che il mio 486 stava
+ scrivendo in Turbo Pascal AJSTAT,  anti virus contro JackStat...  il programma
+ cercava tutti i msg e/o i file che avessero qualcosa in comune con JackStat in
+ una qualunque base msg (non solo la mia, ha telefonato  via  modem  ad  almeno
+ 8400  BBS, tutte fuori europa, prima che lo fermassi) e li cancellava...  sono
+ intervenuto mentre il maledetto aveva  trovato  i sorgenti di JackStat e stava
+ per trasformarli in quelli di LONESTAT...
+
+ Nooooooooooooo!!!!!!!!!!!!!  :-))))
+
+  Dopo 20 minuti di lotta, conclusasi con la mia  solita  minaccia  "Ocio,  che
+ installo DRDOS"...  il 486 s'e' ritirato...  ed io ho vinto.
+
+  Ma   non  era  finita...   il  mattino  dopo  mia  madre  si  presentava  con
+ un'espressione in volto, che a confronto RAMBO sembrava Cristina D'avena...
+
+  "Paolo...  sul report delle interurbane...  ehm...  ci sono 4.500.000 lire da
+ PAGARE per 8.400 telefonate In JAPPONE!!!!!!"
+
+  Armata di SEGA  ELETTRICA,  la  dolce  mammina  mi  guardava con aria modello
+ "Quest'anno lo zampone di porco non dobbiamo comprarlo..."
+
+  Soffrivo al pensiero che avrei passato 2 ore  della  mia  vita  nel  forno  a
+ microonde...  alla vigilia di Natale.
+
+
+
+ babbarabye,                          jack bass (moderatore CHATTER.335 & .200)
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  12  ###                                     NEWS DAL MONDO TELEMATICO ###
+ ############                                     AAVV                      ###
+
+ Riassunto:
+        Ci  sono  sempre un *sacco* di cose.  Ed io non riesco a stare dietro a
+        tutto.  Lasciamo perdere l'articolo su  Chicago, e sui jue-box.  Eccovi
+        cio' che posso...  anf anf!!
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ Riassunto:
+        Questa, come direbbe qualcuno, e' mitica! Leggere per credere.
+
+ ------------------------------------------------------------------------------
+
+  Ricordami di inviare il ritaglio di file dall'universita'...   in  ogni  caso
+ prendila per buona.
+
+  Nel  manuale  del  programma  dvips  (un  convertitore  da files .dvi a files
+ postscript; una cosa che serve per stampare i docuemnti impaginati con TeX) si
+ legge testualmente:
+
+ Caveats & Bugs:
+
+  This program does not process any file containing the string IBM.
+
+  This is considered a feature by many peoples.
+
+ tale programma e'  regolarmente  installato  su  tutte  le  workstations, e la
+ pagina di man citata e' disponibile in lettura per tutti.
+
+                               @    @     Ciao
+
+                               \____/     Roberto Piola, fidonet 2:334/108.57
+
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-
+
+   Dopo Gali e Ienlink su Amiga, dopo il Galileo su DOS ecco che su  OS/2.1  e'
+ disponibile la versione 1.11 del suddetto programma:
+
+
+                - PMFER111.ZIP -->> 37231 bytes
+                  (PmFerraris 1.11 by Carlo Di Benedetto. 2:335/2.2)
+
+
+ si trova su FastForward BBS (2:335/2 - 0823/812099).
+
+
+
+  Ho provato la 1.0v ed era gia' *moolto* affidabile.  Ho contattato l'autore e
+ non  e'  escluso  che si possa avere tra breve una recensione del programma...
+ [NdE: lo so, sono una potenza!  *:) ]
+
+                                                                   La Direzione
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  13  ###                                    NOTIZIE FIDONET REGION 33  ###
+ ############                                    NEWS                       ###
+
+ Riassunto:
+        Ci sono un paio di  comm,  tra  cui  una *slurposa* del Piola.  Il Vert
+        come al solito non si e' fatto sentire e per fortuna che Roberto Orsini
+        (2:332/415.1)  si  e'  fatto  carico  dell'onere  (speriamo  in  pianta
+        stabile!) *:) Tra l'altro nelle  news  si  evince  che  il  sopracitato
+        diventera'   presto   ufficialmente   Sysoppo   (2:332/425)!!    Auguri
+        vivissimi!
+
+        Un  gruppo di intrepidi del 333 ha messo in piedi TGST, cappeggiato dal
+        volenteroso Francesco Pittoni (2:333/511.40@fidonet.org)!  cos'e?  cosa
+        non e'?  correte subito a  leggerlo  alla  voce...  333!  Ce lo segnala
+        l'intramontabile  Herve  Miozzo  (grzie  di  cuore...)   (P.S.    forza
+        Francesco!  a te ed a tutta la tua equipe!!)
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+  Ho  il  piacere  di  annunciare che da questo mese il The Best Of Cucina.Ita,
+ ovvero le migliori slurperie transitate di mese in mese nell'allegra area echo
+ Cucina.Ita, sara' distribuito via  ISN  insieme  al  Telematicus.  Il nome dei
+ files e' CUCI*.*.  Su WinFroDOVREBBERO esserci tutti gli arretrati  (se  erano
+ sul backup quando si e' rotto l'HD).
+
+                               @    @     Ciao
+
+                               \____/     Roberto Piola, fidonet 2:334/108.57
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+                                *** NET 331 ***
+                            NESSUNA NUOVA PERVENUTA
+                       DA QUEL BRAVO RAGAZZO DI vERTIGO
+
+                                *** NET 332 ***
+ OsseCui Renato!
+
+ Nel  caso  in cui il Vert non ti mandasse le notizie del Net 332 da pubblicare
+ su Telematicus...il 332/400  ha  un  nuovo  HC:  Alessandro Benvenuti (no, non
+ quello dei Giancattivi).
+
+                                                  |'!Chao!_
+                                                  |__ OrsO/
+                                                         /
+                                                   2:332/415.1
+
+ ------------------------------------------------------------------------------
+
+ * From : Mario Mure', 2:332/2@fidonet (11 dicembre 1993 22:13)
+ * To   : All
+ * Subj : Nuovo HC 400
+
+  Con il NEC abbiamo discusso a lungo del risultato delle elezioni nell'hub 400
+ (un'incredibile parita' a tre: Battacchi, Benvenuti, Muzzi).
+
+  Premesso che non e' mai facile dover scegliere solo un nome tra tre candidati
+ egualmente validi, alla fine abbiamo deciso per l'adozione di un  criterio  di
+ decentramento delle responsabilita' gestionali e quindi degli incarichi.
+
+  Mi  spiego  (o  quantomeno cerco di farlo ;-)): UnMario gestisce gia' 332/1 e
+ Fabio Muzzi sara'  quanto  prima  la  "mente"  tecnica  (la  definizione e' di
+ Sinigaglia) di 332/2.  L'unico senza "patata bollente" [:-)] fra le  mani  era
+ Alessandro  Benvenuti  ed  abbiamouindi  deciso  di  affidare  proprio  a  lui
+ l'incarico di HC 400.
+
+  Immagino che Alessandro sia giustamente in luna di miele, quindi il passaggio
+ di  consegne  avverra'  solo  al  suo  ritorno  e,  mi  auguro, minimizzando i
+ cambiamenti della route interna dell'hub 400.
+
+ Ciao !
+                                                                        /mario/
+
+
+ : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :
+
+ RR> grazie&se hai altre news non esitare!
+
+  Boh...se ti puo' interessare, sempre  nel  332/400  hanno aperto altre 2 BBS:
+ Stardust line 2 (332/425), con sysop il sottoscritto,  anche  se  in  nodelist
+ risulta   ancora   Massimo   Pezone,   e   NonSoloDati,   la  terza  linea  di
+ NonSoloSoftware (332/427), con sysop Cledori Aillard.
+
+                                                  |'!Chao!_
+                                                  |__ OrsO/
+                                                         /
+                                                   2:332/415.1
+
+                                *** NET 333 ***
+
+ Hello Renato!
+
+  Ecco ti il testo che  mi  ha  scritto appositamente per Telematicus Francesco
+ Pittoni, che e' il Capo Progetto nonche' ideatore.
+
+ Aloha !!
+
+                                                                Herve Miozzo
+                                                                2:333/511.20000
+
+  [NdE:] Non possiamo (ormai uso solo piu' il pm) che ammirare e condividere un
+ simile progetto.  Ad essere sincero anche in area  piemontese  TAM-TAM  tento'
+ qualcosa  del  genere  (principalmente nell'instancabile figura del Carcillo).
+ Tuttavia gli esiti non  furono  incoraggianti.   Ora  TAM-TAM, grazie anche ad
+ un'accorta gestione del nuovo megapresidente, versa in  cattive  acque...   :(
+ Speriamo  comunque  di  avere da Francesco Pittoni (2:333/511.40)nuove al piu'
+ presto!
+
+ ------------------------------------------------------------------------------
+
+ * From : Francesco Pittoni, 2:333/511.40 (Tuesday December 14 1993 18:41)
+ * To   : Herve Miozzo
+
+ Come da te richiesto ho provato  a  buttare  giu` una traccia.  Io non ne sono
+ molto soddisfatto.  Comunque prova a dargli una guardata:
+
+ TGST...  che e`?
+
+ Tra le tante iniziative di The Giant BBS di Udine  c'e`  anche  il  TGST  (The
+ Giant Software Team).
+
+ Si tratta di un gruppo di appassionati di telematica (e non solo di telematica
+ ;-)  )  riuniti  dall'intento  di  produrre  qualcosa  lavorando  a piu` mani,
+ collaborando alla progettazione ed alla realizzazione, utilizzando il BBS come
+ sistema di comunicazione strumento di collaborazione.
+
+ E il bello e` che sembra funzionare...
+
+ Il progetto Formicaio, varato in un'allegra  serata in osteria, attorno ad una
+ ricca tavola imbandita (con molta acqua minerale e  poco  vino  [basta  con  i
+ pregiudizi nei confronti dei Friulani!]), ha un obiettivo piuttosto ambizioso:
+ la   realizzazione   di   un  ogramma  integrato  di  Off  Line  Reader  e  di
+ Comunicazione, facile, affidabile e  attraente, per agevolare l'approccio alla
+ telematica di nuovi utenti.
+
+ L'idea  nasce  dalla  constatazione  che  le   difficolta`   tecniche   spesso
+ allontanano   molti   che   sarebbero   interessati  all'uso  dello  strumento
+ telematico, ma che non sono in  grado  di configurare e utilizzare i programmi
+ attualmente disponibili.  Programmi spes sofisticati, quasi sempre  in  lingua
+ inglese,  in  genere  poco  curati  nella  grafica  e  difficili per un utente
+ inesperto.
+
+ Il nostro programma (anonimo, ma ancora  per  poco) sara` semplice e facile da
+ usare e disporra` di alcuni automatismi che ne faciliteranno  l'uso  anche  da
+ parte di neofiti.
+
+ Fra  l'altro  si  e`  pensato che fra gli utenti interessati potrebbero essere
+ anche le  scuole  e  gli  studenti.   L'installazione  di  BBS  nelle scuole e
+ successivamente il collegamento fra  questi  in  rete  potrebbe  introdurre  e
+ diffondere un nuovo modo di comunicare e di confrontarsi ad ampio raggio anche
+ fra gli studenti.
+
+ Per  questo  si  sta  anche  lavorando  per  creare  una  configurazione tipo,
+ semplificata e  standardizzata,  anche  per  il  BBS,  mirata soprattutto allo
+ sviluppo della messaggistica.
+
+ Grande cura viene posta anche all'immagine grafica  del  prodotto  che  dovra`
+ essere vivace e originale.
+
+ Nel  TGST  si  sono  divisi i compiti in modo che ci sia spazio non solo per i
+ programmatori, ma anche per chi ha abilita` grafica, per chi intende occuparsi
+ della documentazione, di un  ipertesto  come  tutorial,  forse in futuro anche
+ della produzione di un vi[de]o per avvicinare anche chi non ha mai messo  mano
+ fino ad ora ad un computer.
+
+ Contemporaneamente  si  procede  anche  al  test sul campo di quanto prodotto,
+ perche' a Udine sta partendo  anche  un  progetto per la sperimentazione della
+ tecnologia del BBS nel lavoro degli insegnanti e come strumento didattico.
+
+ Insomma,  abbiamo molta carne al fuoco, e se vi interessa vi terremo informati
+ anche in futuro.
+
+                                                       Francesco Pittoni
+                                                       2:333/511.40@fidonet.org
+
+ : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :
+
+ Hello Renato!
+
+ Se Adolfo dovvesse essersi cordato ....
+ [NdE: Adolfo ora come ora deve solo *CURARSI*)  *:)
+
+ Aloha !!
+
+                                                                Herve Miozzo
+                                                                2:333/511.20000
+
+ ------------------------------------------------------------------------------
+
+ * From : Adolfo Melilli, 2:333/1.1 (03 Dec 93 01:20)
+ * To   : ALL
+ * Subj : Nuovo *C 333
+
+ Hello ALL!
+
+  Annunzio vobis che a risultato del  netSysCon  del 333, che ha avuto luogo in
+ quel di Donegliara (VR) domenica 28 novembre, abbiamo  i  seguenti  incarichi,
+ ricoperti dai rispettivi seguenti personaggi :-)
+
+ NEC / 333               :  Giampaolo Muraro (333/200)
+ BackBone Nazionali      :  Fabio Costa (prendera' il 333/10)
+ BackBone Internazionale :  Franco C buarbucicchio (prendera' il 333/20)
+
+ agli  amici  di  cui  sopra,  ed  al  neo-eletto nonche' mio successore NC/333
+ Maurizio Biondi (snif :-) vanno i  miei  cari  auguri, ed un ...  mo' so cazzi
+ vostri ...  :-)
+
+ pero', che bel net il nostro ....
+
+ e ci dispiace per gli altri .. che sono tristi .. che sono tristi  ..  perche'
+ non sanno piu' cos'e' l'amor :-)
+
+ con  questo messaggio vorrei approfittare per salutare con un grande abbraccio
+ "ufficiale" (e' difficile perche' e' grosso!!)  un amico che per anni ed anni,
+ senza mai accampare pretese o meriti di alcun  tipo,  talvolta  senza  neanche
+ farci  accorgere  della s presenza, ma senza mai abbandonarci a noi stessi, ha
+ garantito il traffico netmail ed echo  della nostra region con l'estero, ed ha
+ validamente contribuito  a  mentenere  in  buona  salute  la  nostra  echomail
+ nazionale.
+
+  A  Franz  Antolini,  che ha seriamente deciso di chiudere baracca va tutta la
+ mia riconoscenza, per  essermi  stato  a  fianco  in  tutti  questi anni nella
+ conduzione di quella barca sgangherata, eppure tanto felice che e' il net 333,
+ e per aver fatto tanto, tantissimo, per Fidonet, senza mai chiedere, tantomeno
+ pretendere niente ...
+
+                                                                 Adolfo Melilli
+                                                                      2:333/1.1
+
+ : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :
+
+ *From : Herve Miozzo                        2:333/511.20000 08 Dec 93 07:06:40
+ *To   : Renato Rolando                      24100/9
+ *Subj : Notizie dall'isola falice AKA Net 333 :-)
+
+ Hello Renato!
+
+  Ultimamente il 333 si e' fatto  sentire  spesso,  grandi  iniziative,  grandi
+ scoinvolgimenti  ai  vertici  dell'ormai  nota  "Isola  Felice" cosi' e' stata
+ battezzata.
+
+  Bene e per non smentirci, eccoci qua', altra notizia fresca fresca.
+
+  Il net 333 ha acquistato un nuovo SysOp, ma ancor di piu' la citta' di Udine.
+ Un nuovo SysOp che da ora in  poi  iniziera' a dormire poco, meno male che tra
+ qui c'e' il Farmacista (2:333/508), che ci sostiene  a  suon  di  pasticchette
+ :-).
+
+  Fabio   Violino   con   ClipOver   risponde   all'indirizzo  2:333/510.   BBS
+ specializzato in CLIPPER, MULTIMEDIALE, LAN ed altro.  .
+
+ Un saluto ed un augurio di buon lavoro e mo' so tutti .....  suoi :-))))
+
+ Aloha !!
+                                                                Herve Miozzo
+                                                                2:333/511.20000
+
+                                *** NET 334 ***
+
+ Creato un nuovo HUB in quel di Biella (Biella Hub) e dintorni.   Le  BBS  sono
+ Delenda_Chartago!   2:334/200 (201) del sysop Sandro Gasparetto.  Potentissima
+ BBS che gira sotto OS/2!!  & the Dreaming (202) di Christian Angelini.
+
+ Confluito nell'HUB Lady Bright (307) di Gianni Bragante.
+
+ E' il primo HUB fuori provincia !! Speriamo non ultimo...
+
+ E' nata  un'altra  BBS:  SYS.TE.M.A.   2:334/111,  il  sysop  e'  Renzo Bardo,
+ supportato dal notissimo Enrico Arman (Torino Net).
+
+ E' nata una nuova BBS (nodo mail only con point) Apocalyps  BBS  2:334/508  di
+ Nicola Rolando.
+
+ Auguri a tutti questi giovani baldi... :)
+
+                                *** NET 335 ***
+
+ From : Enrico Franceschetti                2:335/212       24 Dec 93  05:51:12
+
+ RR>         Ci sono novita' da inserire in Telem?
+
+  Le  novita' relative al net 335 sono essenzialmente nel rinnovo delle cariche
+ di coordinamento avviato in questi giorni.
+
+  Il precedente NC (Stefano  Pasquini)  ed  il precedente NEC (il sottoscritto)
+ hanno entrambi,  sia  pure  in  tempi  leggermente  sfalsati  e  co  modalita'
+ differenti,  presentato  le  proprie  dimissioni  all'assemblea dei sysops che
+ stanno ora valutando il da farsi.
+
+  Una serena discussione sulle necessita' del  net e' iniziata nell'area di Net
+ riservata ai sysops e certamente quanto prima produrra' effetti positivi.  Per
+ quanto riguarda il resto...   siamo  in  attesa  di  goderci  le  sospirate  e
+ magnifiche  feste natalizie; auguriamo quindi un Buon Natale ed un felice Anno
+ Nuovo a tutti.
+
+ Un salutone ed un  augurio  personale  a  te,  Renato, ed a presto risentirti.
+ [NdE: grazie.  Altrettanto a te.]
+
+
+                                                                      Enrico
+                                                                      2:335/212
+
+
+
+
+
+
+ ############                                                               ###
+ ###  14  ###                                   INDICE 1993 DI TELEMATICUS  ###
+ ############                                                               ###
+
+ Cosa e` apparso su  Telematicus l'anno scorso e dove? Ecco qua... Ricordo  che
+ il numero 25 conteneva l'indice 1992.
+
+            FIDONET                    |             VIVAMIGA
+                                       |
+ Messaggi a colpo d'occhio  # 26 p. 20 |  Siamo alle solite          # 27 p. 26
+ I flag della nodelist - II # 26 p. 35 |
+ Per un AFI piu' libera     # 28 p. 37 |
+ Assemblea dell'AFI         # 28 p. 97 |             (A)REXX
+ FIDO & Yugoslavia          # 33 p. 17 |
+ Quante BBS in Italia?      # 33 p. 38 | Un emigrato modello:il REXX # 27 p. 14
+                                       | Un emigrato modello...    2 # 28 p. 16
+                                       | Un emigrato modello...    3 # 29 p. 23
+                                       | Un emigrato modello...    4 # 30 p. 20
+         VARIE DA FIDO                 | Un emigrato modello...    5 # 31 p. 18
+                                       | Un emigrato modello...    5 # 34 p. 14
+ Il nuovo NC del 334        # 27 p. 42 | Un emigrato modello...    6 # 35 p. 24
+ TAM TAM al salone del libro# 29 p. 68 |
+ TAM TAM al salone del libro# 30 p. 29 |
+ VARIE                      # 31 p. 73 |
+ The usenet cookbook        # 33 p. 55 |              REVIEW
+ News dal mondo telematico  # 33 p. 80 |
+ News dal mondo telematico  # 34 p. 79 | ASPEN                       # 28 p. 54
+ News dal mondo telematico  # 35 p. 79 | Scheda televideo...         # 29 p. 50
+                                       | Retina                      # 30 p. 61
+                                       |
+                                       |            IL JARGON FILE
+        NOTIZIE REGION 33              |
+                                       | Il gergo telematico         # 28 p. 63
+ Gennaio                    # 25 p. 42 | G - glork        (parte 21) # 25 p. 31
+ Febbraio                   # 26 p. 57 | GNU - guru       (parte 22) # 26 p. 46
+ Marzo                      # 27 p. 55 | H - hash collision   (p 23) # 27 p. 23
+ Aprile                     # 28 p.101 | HFC - hyperspace (parte 24) # 28 p. 69
+ Maggio                     # 29 p. 73 | IBM - IYFEG      (parte 25) # 29 p. 58
+ Giugno                     # 30 p. 82 | J.Random - lexer (parte 26) # 30 p. 47
+ Luglio                     # 31 p. 88 | life - luser     (parte 27) # 31 p. 52
+ Agosto                     # 32 p. 55 |                             - -- -- --
+ Settembre/Ottobre          # 33 p. 84 | M - Missed'em-five   (p 28) # 33 p. 58
+ Novembre                   # 34 p. 83 | moby - mutter    (parte 28) # 34 p. 56
+ Dicembre                   # 35 p. 89 | N - no-op        (parte 29) # 35 p. 56
+                                       |
+                                       |
+                                       |
+             I "SERIAL"                |          SOFTWARE ITALIANO
+                                       |
+ Crittografia - parte 2     # 25 p. 10 | Novita' in casa PIP         # 30 p. 42
+ Crittografia - parte 3     # 26 p. 28 | QUOTE                       # 31 p. 14
+ Crittografia - parte 3     # 31 p. 77 | Winpip!                     # 48 p. 48
+                                       | MirEdit 1.20                # 35 p. 15
+                                       |
+ Un NET al mese o quasi:BIX # 29 p. 11 |
+ Un NET al mese...:BT Tymnet# 31 p. 40 |
+ Un NET al mese...:Internet1# 33 p. 21 |          TELEMATICA GENERICA
+ Un NET al mese...:Internet2# 34 p. 24 |
+ Un NET al mese...:Internet3# 35 p. 31 | Nuova legge sul software    # 26 p.  7
+                                       | Il tel.:ma quanto ti costa? # 26 p. 44
+                                       | PC&UNIX: ...cosi' distanti? # 27 p.  7
+                                       | AUDIOTEL in test a Milano   # 28 p. 12
+         CURIOSITA` E RACCONTI         | SIP ingorda                 # 30 p. 11
+                                       | THE MERIT CRUISE OF INTERNT # 31 p. 28
+ WC-DOS delle mie brame     # 25 p. 17 | Internet                    # 32 p. 20
+ Fermat                     # 31 p. 14 | Modem ad alta velocita'...  # 33 p. 46
+ Jurassik Park              # 32 p. 30 |
+ GNU virus di rete          # 32 p. 45 |
+ Nuovi virus                # 31 p. 48 |
+                                       |                VARIE
+                                       |
+                                       | Indice 1992 di Telematicus  # 25 p. 44
+         IL PROGRAMMINO                | Feedback lettori            # 25 p.  5
+                                       | Alla gogna                  # 28 p. 81
+ Scegli il compattatore     # 25 p. 26 | Conclusioni del numero      # 28 p.105
+ stardate                   # 27 p. 19 | Pesciazzi di aprile         # 29 p. 33
+                                       | IPISA '93                   # 30 p. 58
+                                       | Pirateria: attenti ai floppy# 31 p.  9
+                                       | La legge sul software - p 1 # 33 p. 11
+            ARTE                       | La legge sul software - p 2 # 34 p. 10
+                                       |
+ La decima arte   (parte 1) # 27 p. 19 | Errata corrige              # 29 p. 73
+ La decima arte   (parte 2) # 28 p. 28 | Errata corrige              # 30 p. 76
+ La decima arte   (parte 3) # 28 p. 28 | Errata corrige              # 31 p. 86
+ La decima arte   (parte 3) # 34 p. 68 | Errata corrige              # 34 p. 77
+ La decima arte   (parte 4) # 35 p. 70 |
+                                       | Lettera aperta a/b          # 28 p.  6
+                                       | Lettera aperta a/b          # 29 p.  6
+                                       | Lettere aperte              # 30 p.  6
+      RADIOCOMUNICAZIONE               | Lettere aperte              # 31 p.  6
+                                       | Lettere aperte              # 32 p.  6
+ Il mondo delle radiocomm.1 # 29 p. 40 | Lettere aperte              # 33 p.  6
+ Il mondo delle radiocomm.2 # 30 p. 35 | Lettere aperte              # 34 p.  6
+ Il mondo delle radiocomm.3 # 31 p. 31 | Lettere aperte              # 35 p.  6
+ Il mondo delle radiocomm.4 # 32 p. 25 |
+                                       |
+                                       |
+                                       |          L'ANGOLO MATEMATICO
+       SISTEMI OPERATIVI               |
+                                       | Somme di sottoinsiemi       # 28 p. 86
+ Linux            (parte 1) # 31 p. 64 |
+ Linux            (parte 2) # 34 p. 40 |
+ Linux            (parte 3) # 35 p. 43 |
+                                       |            BIBLIOGRAFIE
+ Oberon           (parte 1) # 35 p. 51 |
+                                       | Biblio di .mau.!!           # 30 p. 74
+                                       | Biblio di Piola             # 34 p. 53
+                                       | Biblio di Costa(II)         # 35 p. 56
+                                       |
+ Gli editor:
+
+ .mau.                                 | Giovanni Iachello
+ AAVV                                  | Giovanni Lopes
+ Adolfo Melilli                        | Herve Miozzo
+ Alberto Ferrari                       | Landorno Terao
+ Alessandro Iacopetti                  | Laura Zavatruschka
+ Alex Lirus                            | Lorenzo Travaglio
+ Alex Palmese                          | Luigi Ravina
+ Angelo Centina                        | Marino Marinelli
+ Angelo Verdone                        | Mario Ricca
+ Anonimu                               | Maurizio Codogno
+ Artore Londona                        | Michele Normile
+ Cesare Tensi                          | Old Raffa
+ Charles Blair                         | Peter Ugone
+ Cicci Serra                           | Raffaello Valesio
+ Claudio Boarino                       | Roberto Piola
+ Editor Ignotus                        | Roberto Venditti
+ Enrico Franceschetti                  | Sandro Gasparetto
+ Eric S. Raymond                       | Stefano
+ Ernesto Ceci                          | Stefano Costa(II)
+ Fabrizio Lodi                         | Stefano Zano
+ Francesco Pittoni                     | Teodoro Lio
+ Franco Carcillo                       | Valentino Spataro
+ Gianfranco Bottini                    | Vertigo
+ Gianluca Bigagli                      | WarpGate
+ Gianni Zanone                         |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ******************************************************************************
+
+ Telematicus puo` essere  downloadato  dai  nodi  che ricevono la distribuzione
+ ISN.  Assieme alla rivista ho inserito  ISN-NODE.265, la lista di tutte le BBS
+ appartenenti ad ISN.
+
+ ####                            End of TELEM036                           ####

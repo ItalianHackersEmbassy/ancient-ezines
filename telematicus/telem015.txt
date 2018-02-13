@@ -1,0 +1,925 @@
+ #### TELEM015 - Telematicus - Volume 02 - Numero 03 - Anno 1992 - 42 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                  Marzo 1992                                 
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di .mau.
+
+ ==============================================================================
+
+ Il materiale presente in Telematicus e` (C) dei singoli autori.      
+ E` espressamente consentita la distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 42 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .   .  pag.  4
+ [ 2]  Che cos'e`... il V.42bis, di Maurizio Codogno .   .   .   .   .  pag.  6
+ [ 3]  Internet: i comandi, di Maurizio Codogno  .   .   .   .   .   .  pag. 11
+ [ 4]  Vivamiga, di Renato Rolando   .   .   .   .   .   .   .   .   .  pag. 17
+ [ 5]  Curiosita`: Il gergo hacker - parte 12    .   .   .   .   .   .  pag. 26
+ [ 6]  Notizie Fidonet region 33     .   .   .   .   .   .   .   .   .  pag. 37
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  Questo Telematicus e` nato con l'aiuto di...
+   
+ Editor stakanovius:    Maurizio Codogno | * I collaboratori dai network: *
+ Editor serialis:         Renato Rolando |
+                                         | Vertigo (331/301)
+                                         |             
+                                         |
+                                         |
+                                         |
+                                         |                                    
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                               ###
+
+                                                This is the way the world ends
+                                                This is the way the world ends
+                                                This is the way the world ends
+                                                Not with a bang! but a whimper
+
+                                               (T. S. Eliot, _The Hollow Men_)
+     
+      Cari lettori,
+ dopo  il  tocco  culturale che non guasta mai mo' vi spiego  qual  e`  il  mio
+ piagnucolio.
+
+      Avete  gia` visto la dimensione ridotta di questo numero  di  telematicus
+ (minor tempo di download), e magari avete dato un'occhiata alla lista (?)  dei
+ collaboratori:  l'ottimo RRE (puntuale come un orologio svizzero) e il  sempre
+ gradito  Vertigo.  Se  avete anche letto l'indice - e tenuto  conto  che  sono
+ sempre io a tradurre il Gergo Hacker), avrete capito che questo numero e`  per
+ due terzi scritto da me.
+
+      Non  sono  diventato improvvisamente malato di  protagonismo  alla  Isaac
+ Asimov:  il fatto e` che nessun altro ha mandato alcunche`. Per la  precisione
+ non  ho  avuto  la possibilita` di downloadare il  file  CAVI.ZIP  di  Alfredo
+ Berlusconi, ma la cosa sarebbe cambiata di poco.
+
+      Ora,  io posso anche smetterla di lamentarmi che non ricevo feedback  dai
+ lettori  (ci sono sempre i soliti affezionati che in ogni caso downloadano  il
+ file per dire "C'ero anch'io!"), pero` non ho la possibilita` ne` la capacita`
+ di scrivere 50 K di materiale al mese.
+
+      Ergo,  o  mi arriva del materiale "telematico" (ormai sapete qual  e`  la
+ nicchia in cui telematicus si colloca), o questo sara` l'ultimo numero. Punto.
+
+                               ciaociao...
+                                    .mau.
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   2  ###                                                CHE COS'E`...  ###
+ ############                                                               ###
+
+                Il V.42bis
+                ==========
+     
+      I modem a 2400 sono ormai considerati troppo lenti da molti appassionati,
+ che  non  riescono piu` a downloadare i pacchetti software dai BBS  che  ormai
+ raggiungono le centinaia di KB. I piu` fortunati e ricchi si lanciano sui  mo-
+ dem a 14400 bps, che funzionano piu` che bene nonostante le linee  telefoniche
+ italiane e l'incredulita` anche degli addetti ai lavori - pensate che la scor-
+ sa settimana un mio collega mi ha chiesto delle informazioni per comperare dei
+ modem per un servizio Sip, e voleva convincermi che era impossibile raggiunge-
+ re con una linea a due fili i 14.4 Kbit/s...
+
+      Il  guaio e` che i prezzi di queste bestie sono bene al di sopra del  mi-
+ lione.  E` facile allora restare estasiati delle pubblicita` che promettono  i
+ 9600  bit/s a meno di mezzo milione. L'utente ignaro compra l'apparecchio,  lo
+ collega secondo tutti i crismi, si collega alla BBS preferita... e si vede  la
+ stringa CONNECT 2400/V42B. Dopo il primo momento di sconforto, pensa "Si`, pe-
+ ro`  la mia seriale e` settata a 9600, magari le lettere magiche V42B  faranno
+ il  miracolo di quadruplicare la velocita`". Parte l'Ymodem-G (non lo  Zmodem,
+ perche`  al  nostro amico e` stato detto che col suo nuovo modem non  ci  sono
+ errori  di  trasmissione),  e  il file PIPPO.ZIP  arriva  alla  base  con  una
+ velocita` di 270 cps, contro i 235 che otteneva prima col buon vecchio  V22bis
+ senza ammenicoli vari.
+
+      Pubblicita`  truffaldina?  Un  poco lo e`, ma  tanto  non  riuscireste  a
+ trascinare  in tribunale i venditori. Diciamo che e` un modo di edulcorare  la
+ verita`.  Per  evitare questi acquisti poco oculati, cerchero`  di  darvi  una
+ spiegazione su cosa significa esattamente la sigla V.42bis (e gia` che ci sono
+ un po' di altre sigle, che non fa mai male).
+
+      Quando  nel campo delle telecomunicazioni vedete una sigla  che  comincia
+ con  V,  potete essere ragionevolmente certi che e`  una  raccomandazione  del
+ CCITT.  CCITT  sta  per Comitato Consultivo  Internazionale  di  Telegrafia  e
+ Telefonia, che e` un organismo internazionale che e` nato appunto per  cercare
+ di standardizzare il piu` possibile le interfacce telefoniche e che ogni tanto
+ emette  queste  raccomandazioni che diventano in breve standard, visto  che  i
+ vari  costruttori  sanno  che  sono riconosciute in tutto  il  mondo.  Chi  ha
+ trafficato con i modem ne conosce sicuramente qualcuna:
+
+
+      - V.21 : trasmissione dati a 300 bps - full duplex.
+      - V.22 : trasmissione dati a 1200 bps - full duplex.
+      - V.22bis : trasmissione dati a 2400 bps - full duplex.
+      - V.23 : il famigerato sistema di trasmissione Videotel. 1200 bps su un
+               canale, 75 bps sull'altro.
+      - V.32 : 9600 bps - full duplex (mentre la V.29 era half duplex)
+      - V.32bis : 14400 bps - full duplex.
+
+      Tutte queste sono valide per sistemi a due fili, come i telefoni usuali a
+ casa  (lo so, voi mi direte che i fili di un telefono sono quattro e non  due,
+ ma  il telefonino cordless che vi siete comprati made in Taiwan di fili ne  ha
+ due  e se, in barba al regolamento Sip, apriste la vostra presa telefonica  vi
+ assicuro  che trovereste due fili soltanto). Esistono anche  delle  specifiche
+ per  i sistemi a quattro fili (quelli per le linee dedicate) e per cose che  a
+ prima vista non c'entrano nulla. Avete presente l'interfaccia seriale di  con-
+ nessione  tra calcolatore e modem RS-232 ? Bene, quella e` la  raccomandazione
+ V.28 del CCITT !
+
+      Orbene, negli ultimi cinque anni l'esplosione dei modem e dei  protocolli
+ proprietari tipo l'MNP ha portato alla creazione di due nuove raccomandazioni:
+ la  V.42,  che oltre che come risposta alla Domanda Fondamentale  sulla  Vita,
+ l'Universo e Tutto Quanto serve come standard per la correzione degli  errori,
+ piu`  o meno come MNP4, e la nostra V.42bis, che riguarda la compressione  dei
+ dati similmente ad MNP5.
+
+      Quando  si sente parlare di compressione, la mente corre subito a ZIP  (o
+ CPT per gli amici macchisti, o LHA per gli amighi) e agli algoritmi di Lempel-
+ Ziv.  Bene, non ci crederete ma anche il V.42bis e` un algoritmo  firmware  di
+ compressione dati basato su Lempel-Ziv, il che significa due cose: che spedire
+ un file non compresso con V.42bis equivale circa a spedire lo stesso file,  ma
+ zippato,  e  che il V.42bis e` inutile se non dannoso nel caso di  files  gia`
+ compressi.
+
+      Il primo caso e` quello che permette ai costruttori di modem V.22bis  con
+ V.42bis  di  affermare che essi raggiungono i 9600 bps. E` chiaro che,  se  si
+ spedisce un file ASCII, e` abbastanza facile comprimerlo tre o quattro  volte.
+ Se quindi la velocita` di trasferimento dati tra il calcolatore e il modem  e`
+ di  9600 bps, il modem riesce a comprimerli a 2400, che vengono spediti  sulla
+ linea e ritrasformati in 9600 dall'altra parte. Il commerciante ha ragione: il
+ risultato  e` stato di trasferire dati a 9600 bps. Peccato che  nessuno  tenga
+ generalmente files non zippati sulle BBS...
+
+      Nel  secondo  caso c'e` un trucco: a differenza ad esempio  di  MNP5  che
+ *aumenta*  effettivamente i tempi di trasferimento nel caso di  files  zippati
+ (ed  e` per questa ragione che e` possibile disabilitare via  software  MNP5),
+ l'algoritmo implementato nel V.42bis e` piu` intelligente. Esso si accorge  se
+ il  file  non e` comprimibile, e smette di fare tentativi inutili.  In  questo
+ modo l'utente non si deve preoccupare di nulla, e` il modem che pensa a  tutto
+ (grazie, modem!)
+
+      Insomma,  il  V.42bis (insieme al V.42, ma  e`  virtualmente  impossibile
+ avere  il  primo  senza  il secondo) prendera` sempre  piu`  piede  nel  mondo
+ telematico.  I protocolli MNP 2-5 saranno ancora presenti per molto  tempo  (e
+ tenete  conto  che il V.42bis prevede un fallback verso  MNP5,  quindi  avrete
+ sempre  le  garanzie  di correzione di errore e compressione  dati  anche  nei
+ riguardi  di  un modem meno recente) ma al giorno d'oggi penso  che  si  possa
+ decidere con tutta fiducia di scegliere un modem che supporti questi standard,
+ che  non saranno resi obsoleti tanto presto. Pensate che si pensa di  passarli
+ pari pari nelle trasmissioni numeriche via ISDN...
+
+                                              .mau.
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                          INTERNET: I COMANDI  ###
+ ############                                                               ###
+
+      Sperando  che  siate sopravvissuti tutti dalla  chiacchierata  dell'altra
+ volta,  tiremm innanz e vediamo cosa puo` fare un tapino - anzi un  Uomo/Donna
+ Fortunato/a  - che abbia la possibilita` di avere tra le mani una  connessione
+ Internet. Cerchero` di dare uno sguardo dal punto di vista dell'utente di BBS,
+ abituato alla sua scatoletta con scatolettina modem: ricordatevi che non avete
+ bisogno di fare il numero di telefono, la linea e` gia` a disposizione!
+
+      Innanzitutto, l'idea stessa di collegamento a una BBS non esiste, o  per-
+ lomeno e` molto meno importante che nel mondo amatoriale. Il comando  classico
+ per avere una connessione remota e` telnet. Se volete, potete considerarlo co-
+ me TELephone to NETwork... Se il percorso fisico tra il vostro e il loro  cal-
+ colatore e` funzionante, viene creato un terminale VT100 virtuale sul calcola-
+ tore  remoto, e vi appare il promt di login esattamente come se foste sul  po-
+ sto. Si`, mi direte voi, ma chi diavolo conosce le password da usare  laggiu`?
+ Hehehe...  e`  proprio questo il motivo per cui telnet non viene  usato  molto
+ spesso, a meno che non si sia sulla propria area locale (in ufficio mi  capita
+ molto  spesso.  Pretenderete  mica che mi alzi a vedere  cosa  sta  succedendo
+ sull'altro calcolatore?).
+
+      Esistono  pero`  alcuni nodi che hanno deciso di offrire un  servizio  di
+ questo tipo. Ad esempio posso citare freenet (indirizzi internet  129.22.8.82,
+ 129.22.8.75, 129.22.8.76 corrispondenti a freenet-in-?.crwu.edu con ?  rispet-
+ tivamente a,b, e c) che e` appunto un servizio gratuito per offrire un accesso
+ Internet ai poveri mortali: per iscriversi - oltre a riuscire a  collegarvisi!
+ - bisogna mandare un modulo firmato in cui si afferma fondamentalmente di  non
+ usare  l'accesso per fini illegali. Un altro bbs su Internet e`  quello  della
+ Denver  University,  che si chiama Nyx ed e` raggiungibile sotto  Internet  al
+ 130.253.192.9 . Nyx ha anche delle linee dial-up; nel banner iniziale ci  sono
+ i numeri telefonici locali, che sono
+
+      (2400 bps) 871-3324 (7 lines) -4824 (4 lines)
+      (1200 bps) 871-4770 -4812  (300 bps) 871-4803
+      (9600 - HST/V.32:) -3323 (V.32:) -3319
+                         -3326 (PEP/V.32) -4771
+
+ Se qualcuno non ha paura della bolletta e fa lo 001-713 (mi pare sia questo il
+ prefisso  di  Denver) seguito da questi numeri puo` avere l'idea  di  una  BBS
+ "universitaria".  E`  anche possibile richiedere l'accesso alla  shell,  cioe`
+ essere un vero e proprio utente del sistema: per problemi che hanno avuto  con
+ degli  hacker  che  hanno  usato nyx come base per  cercare  di  penetrare  su
+ Internet,  occorre spedire una fotocopia della propria carta di identita`  con
+ firma autenticata (altro che i nostri bbs...)
+
+      Passiamo  all'attivita` preferita dagli utenti dei bbs: il puppaggio  dei
+ files. Beh, questa e` semplicemente una pacchia. Esiste un programma  chiamato
+ ftp (File Transfer Protocol) che funziona in modo simile a telnet, ma che  in-
+ vece di consentire i comandi interattivi permette semplicemente di andare su e
+ giu` per le directory del sistema remoto e prelevare (e uploadare :-) ) files.
+ E la password? Qui c'e` il vero colpo di genio. Ci sono moltissimi calcolatori
+ in  tutto il mondo che hanno tra i loro utenti una "persona speciale"  che  si
+ chiama "anonymous" e che accetta qualunque password. Anonymous non e` un  vero
+ login,  quindi e` inutile tentare di usarlo con telnet; ha  generalmente  meno
+ privilegi  di un utente normale, quindi e` inutile tentare di rubare  il  file
+ delle  password  per  mezzo di esso; ma se  vi  interessa  semplicemente  fare
+ l'equivalente di un File Request, queste non sono di certo limitazioni!
+
+      E`  chiaro che essendo questo un servizio gratuito, ci sono delle  regole
+ di etichetta da rispettare. Ad esempio, e` buona norma usare come password  il
+ nome  del proprio account, in modo che possiate essere rintracciabili in  caso
+ di problemi; e` poi richiesto di evitare i collegamenti nelle ore  lavorative,
+ diciamo dalle 8 alle 18 *ora locale*, per evitare di intasare la CPU. In  ogni
+ caso ci sono centinaia di GigaBytes disponibili: uno dei posti che  preferisco
+ al momento e` l'Universita` di Washington (wuarchive.wustl.edu) che ha la  co-
+ pia dei mitici archivi PD e Shareware dell'Esercito americano  (192.88.110.20,
+ simtel20.army.mil,  che al momento ha dei problemi di budget legati  ai  tagli
+ del  bilancio  della difesa USA), oltre che gli archivi  della  Free  Software
+ Foundation e altra "robetta". In Europa uno dei posti piu` forniti -  l'elenco
+ compattato dei files supera il Mbyte! - e` il nodo finlandese  garbo.uwasa.fi.
+ La  mia lista dei nodi che accettano l'anonymous ftp e` lunga 250K, ma  oramai
+ non  viene piu` aggiornata. Esiste infatti un database, chiamato  archie,  che
+ puo`  essere  interrogato via posta elettronica e che  ritorna  l'insieme  dei
+ posti in cui si puo` trovare il software cercato. Piuttosto comodo, vero?
+
+      Terminiamo in bellezza con le conferenze echo. In questo caso abbiamo due
+ diverse  possibilita`  di  trasmissione  dei  messaggi.  Il  primo  e`  quello
+ associato  a  USENET,  che possiamo vedere in Italia  su  Sublink.  Esiste  un
+ insieme  di conferenze, ciascuna dedicata a una particolare area o  sottoarea.
+ L'iscrizione di un nodo alla conferenza e` assolutamente libera: basta cercare
+ un nodo che la riceva gia` e pollare da lui. Esistono sofisticati programmi di
+ lettura  delle "news" - questo e` il nome tecnico di queste aree messaggi -  e
+ con l'aumento dei link internet che sono attivi tutti i momenti non e` affatto
+ strano  ricevere le risposte a un quesito nel giro di ore, se non  addirittura
+ *minuti*! Il sottoscritto, ad esempio, si collega a Nyx semplicemente  perche`
+ ha la possibilita` di leggere i messaggi in rec.music.beatles, 15-20 al  gior-
+ no.  Al momento ci sono un migliaio di aree messaggi, il traffico medio  gior-
+ naliero dovrebbe aggirarsi tra i 5 e i 10 Mbytes, anche perche` esistono  aree
+ "messaggi"  che in realta` contengono listati o persino disegni  digitalizzati
+ (alt.erotica.pictures  e` il gruppo col maggiore traffico, se la cosa vi  puo`
+ interessare).
+
+      Il  secondo metodo di avere la circolazione dei messaggi e` quello  della
+ lista.  In realta` non c'e` una vera differenza tra i due: alcune aree  USENET
+ sono copiate pari pari in una lista, per la gioia di chi come me ha in ufficio
+ solo  un accesso mail all'Internet e usa un pied-a-terre gentilmente  concesso
+ da  un  suo amico per sfruttare in pieno la Grande Rete. La lista  e`  sempli-
+ cemente un recipiente fittizio a cui vengono scritti i messaggi e che si peri-
+ ta di ridistribuirli a chiunque sia interessato, sfruttando il piu`  possibile
+ la topologia della rete per evitare di mandare doppioni inutili in giro. Alcu-
+ ne  liste, come MARIO (MAiling list Ragionevolmente Italiana di  Oltreconfine,
+ un  punto di incontro per gli italiani all'estero che vogliono  parlare  nella
+ dolce  lingua  del si`) rimandano immediatamente i messaggi  ricevuti;  altre,
+ come  comp.text.tex  (la lista dedicata a TeX) preferiscono creare  i  Digest.
+ Come  in  Selezione,  si raccolgono tutti i messaggi  e  li  si  impacchettano
+ insieme,  per  ottimizzare i tempi di connessione. Chi riceve  il  messaggione
+ puo` scegliere se rispacchettarlo o leggerlo tutto assieme come faccio  sempre
+ io (sono pigro).
+
+      Insomma, come dicevo il mese scorso, Internet sta diventando sempre  piu`
+ insostituibile  per centinaia di migliaia di persone. E non credete  a  quello
+ che scrive Gibson: il cyberspazio e` questo!
+
+                                    .mau.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                                                     VIVAMIGA  ###
+ ############                                                               ###
+
+      Orbene,  abuliche mucillaggini, e` successo l'incredibile! Un VERO  uomo,
+ assiduo  lettore di Telematicus, mi ha contattato!! Purtroppo il  contatto  e`
+ durato lo spazio di un matrix, poi non ho piu` riceuto alcuna risposta al mio.
+ Forse  e` stato mangiato da una balena volante. Mah. Comunque  quest'insperato
+ afflusso  di comunicazione mi ha tirato su il morale e mi accingo ora ad  ini-
+ ziare un argomento estremamente stimolante ed interessante, che non si conclu-
+ dera` certamente con questo articolao: il sesso.
+
+      Seee, magari! Parleremo invece della seriale in Amiga. Questo  presuppone
+ pero` tutta una serie di conoscenze che voi certamente non possedete :), quin-
+ di se sembrero` divagare un po' sara` soltanto perche` non mi faccio prima una
+ scaletta di cio` che devo dire :)
+
+      Andiamo ad incominciar: l'Amiga, nello spirito dei multitask, ha  tentato
+ di risolvere lo spinoso problema della condivisione delle risorse; succede  in
+ continuazione che piu` task tentino di accedere alla risorsa video, ai dischi,
+ al suono, alla stampante, alla tastiera, ed alla... seriale.
+
+      Il  problema e` stato risolto mettendo a capo di queste risorse dei  task
+ supervisori che ne gestiscano ordinatamente l'accesso e lo sfruttamento. Soli-
+ tamente il task che necessita di una specifica risorsa usa una porta di  comu-
+ nicazione (la message port) per inviare la richiesta del servizio al task  su-
+ pervisore,  questo legge il tipo di richiesta, l'esegue e ritorna  tramite  la
+ stessa porta di comunicazione l'esito dell'operazione. Le cose possono  essere
+ rese piu` raffinate con l'uso dei semafori (che non trattero`) e col fatto che
+ lo  scambio  dei messaggi tramite le porte puo` avvenire in modo  sincrono  od
+ asincrono (come vedremo) oppure accodando il proprio messaggio ad altri prece-
+ denti o forzandone l'esecuzione in modo immediato (che non vedremo).
+
+      Chiaramente  una  simile metodologia ha i propri  vantaggi  e  svantaggi;
+ l'accesso  alla risorsa risulta in ogni caso piu` lento di quello teorico  per
+ il  tempo di gestione della porta da parte di entrambi i task, ma  la  risorsa
+ puo` essere trattata in modo standard.  Un tipico esempio e` la stampante:  il
+ SO  conosce il tipo di stampante che abbiamo, il nostro prg puo` inviare  alla
+ stampante dei codici standard di controllo senza preoccuparsi del modello; sa-
+ ra` poi il SO a ritrasformare i codici standard nei codici dedicati per quella
+ stampante.  Chiaramente se il SO ha dei bug a questo livello la cosa e`  molto
+ triste.
+
+      Il SO dell'Amiga dispone dei seguenti DEVICES (risorse trattate nel  modo
+ sopra   esposto):  Audio,  Clipboard,  Console,  Gameport,  Input,   Keyboard,
+ Narrator, Parallel, Printer, SCSI, Serial, Timer e Trackdisk. Non mi ci  provo
+ neppure a descriverle, questa e` un'altra storia. Ci sono, tanto per dovere di
+ cronaca,  anche delle altre RISORSE, che non sono proprio devices e  che  sono
+ trattate un pochino diversamente; in pratica sono funzioni che per la loro na-
+ tura non necessitano di un task supervisore; sono nuove di zecca del 2.0 e ri-
+ guardano l'orologio a batteria, la memoria tampone (! il SO la prevede ma  non
+ l'ho mai vista), la gestione del CIA (Complex Interface Adapter, sono gli  In-
+ terrupt HW) e cosi` via...
+
+      Torniamo ora alla nostra seriale. E` un device e come tale dovrebbe esse-
+ re  gestita; chiaramente il piu` popolare (perche` piu` veloce)  programma  di
+ comunicazione  su Amiga NON la gestisce come tale - parlo del  JRComm.  Quindi
+ occhio. Se non hai inoltre voglia di sorbirti i miei sproloqui [NdE: ormai RRE
+ ha capito che parla per UN solo lettore...] per capire qualcosa sulla  seriale
+ ti consiglio di studiare il sorgente di TERM, ottimo programma di comunicazio-
+ ne solo per 2.0.
+
+      Un programma cristiano che deve accedere alla seriale solitamente  esegue
+ questi passaggi: chiede al SO di avere una porta di comunicazione,  ottenutala
+ apre  il device seriale (chiede al task supervisore della seriale di avere  un
+ canale  di  comunicazione con lui) dicendogli di voler comunicare  tramite  la
+ porta seriale precedentemente aperta.
+
+      Il tutto in C si traduce piu` o meno in questo modo:
+
+ #include <devices/serial.h>     /* la seriale */
+
+ /* le struct della seriale */
+ struct  MsgPort         *SerPort    = NULL;
+ struct  IOExtSer        *MyIOExtSer = NULL;
+ ...
+
+ if (SerPort = CreatePort("Mia_seriale", 0L))
+  if(MyIOExtSer = CreateExtIO(SerPort, sizeof(struct IOExtSer)))
+   if(!OpenDevice("serial.device",0L,(struct IORequest *)MyIOExtSer,0L))
+        {
+                tutto bene...
+
+      L'include  contiene le struct della seriale (piccolo  trucchetto:  questo
+ include  a  sua volta richiama gli include dell'exec per  definire  la  struct
+ MsgPort, spesso si rischia quindi nel proprio prg di richiamare piu` volte gli
+ stessi include con penalizzazione dei tempi di compilazione!). [NdE:  perche`,
+ gli #include dell'Amiga non hanno degli #ifdef per evitare di includere  tutto
+ da capo?]
+
+      Subito  balza all'occhio al lettore piu` attento una cosa:  la  struttura
+ IOExtSer non e` la struttura standard per i device. Infatti e` un'estensione e
+ se non usate quella... scriverete su dell'innocente memoria! Si procede allora
+ richiedendo una porta di messaggi standard trasformandola in una estesa per la
+ seriale. All'apertura della device si forza col cast il tipo di porta  estesa.
+ Questo  perche` il comando OpenDevice() e` standard per qualsiasi DEVICE e  si
+ aspetta una porta messaggio standard di tipo MsgPort. Se non si forza la  cosa
+ col cast il tutto funziona lo stesso ma il compilatore ritorna un Warning.
+
+      Ma  cosa  cavolo si manda in questa porta  estesa?  Alcuni  parametrucoli
+ mooolto interessanti; solitamente questi vengono automaticamente riempiti  coi
+ valori di default settati nei preferences; cosi` in pratica ci collegiamo  col
+ modem secondo i valori che abbiamo stabilito una volta per tutte, come per  il
+ discorso con la stampante.
+
+      E  qui  vorrei segnalare in anteprima un bug del 2.0 trovato  dal  sotto-
+ scritto.  Il programma di settaggio delle preferences oltre i 16K  di  memoria
+ per  il buffer della seriale (quindi 32K e 64K) decide che il buffer deve  es-
+ sere di soli 500 bytes!! Ecco quindi che e` estremamente rischioso fidarsi del
+ SO ciecamente...
+
+ Vediamo questa struct a grandi linee:
+
+  struct  IOExtSer {
+         struct   IOStdReq IOSer;
+ ----> questa e` la famosa porta messaggio per la seriale che viene
+       inglobata dalla porta messaggio estesa
+
+ /*     STRUCT   MsgNode
+ ----> ...ed alcuni valori per scorrere i nodi. Questo messaggio puo`
+         essere accodato ad altri etc.
+         ...
+ *     STRUCT   IOExt
+ ----> ...pezzo di identificazione della seriale richiesta...
+ *  14   APTR     io_Device
+ *  18   APTR     io_Unit
+ ----> ...da questo punto si gestisce la richiesta del tipo d'operazione
+         ed i valori di ritorno, li vedremo la prox volta
+ *  1C   UWORD    io_Command
+         ...
+ *  30 */
+    ULONG   io_CtlChar;    /* control char's (order = xON,xOFF,INQ,ACK) */
+    ULONG   io_RBufLen;    /* length in bytes of serial port's read buffer */
+    ULONG   io_ExtFlags;   /* additional serial flags (see bitdefs below) */
+    ULONG   io_Baud;       /* baud rate requested (true baud) */
+    ULONG   io_BrkTime;    /* duration of break signal in MICROseconds */
+    struct  IOTArray io_TermArray; /* termination character array */
+    UBYTE   io_ReadLen;    /* bits per read character (# of bits) */
+    UBYTE   io_WriteLen;   /* bits per write character (# of bits) */
+    UBYTE   io_StopBits;   /* stopbits for read (# of bits) */
+    UBYTE   io_SerFlags;   /* see SerFlags bit definitions below  */
+    UWORD   io_Status;
+ };
+
+ qui ci sarebbe da chiaccherare per una vita.
+
+ io_Device       e` il nome del device, nel nostro caso e` il serial
+ io_Unit         e` il numero del canale della nostra device! Ovvero
+         piu` task possono accedere alla seriale con lo stesso io_Unit
+         se il comando e` abilitato e quindi condividere gli stessi
+         dati. Oppure due task possono accedere alla seriale con due
+         io_Unit diverse (0,1) e quindi avere i dati fisicamente
+         separati. Quando gli amighisti sostengono di usare la stessa
+         seriale per piu` linee di modem non dicono castronate...
+         [NdE: ma poi le fanno perche` sbagliano a cuccarsi i dati :-) ]
+
+ io_Command      si invia qui il tipo di operazione che vogliamo il
+         task faccia per noi; lo esamineremo la prossima volta. Ho tagliato
+         una serie di dati vitali che vedremo prossimamente.
+
+ Seguono poi i valori della IOExtSer che sono:
+
+ - i caratteri per l'xON, xOFF etc. che trattero`
+
+ - la  dimensione del buffer in letture della SERIALE (quello che puo`  presen-
+ tare il bug menzionato)
+
+ - i  flag di controllo della seriale, se la vogliamo condivisa o no,  se  deve
+ gestire un modem con 7cavi o con solo 3 etc. (questo non puo` essere modifica-
+ to per tutto il tempo di accesso, contrariamente a tutti gli altri parametri)
+
+ - la velocita` di collegamento :)
+
+etc.
+
+      Signori  per oggi basta, ho un po' sfondato il tetto max delle  60  righe
+ (8-)) e quindi probabilmente l'articolao verra` mutilato! [NdE: troppa fatica,
+ dovrei  leggerlo...] Spero di avervi dimostrato quanto semplice e lineare  sia
+ la faccenda... dimenticavo, tutte queste risorse devono anche essere chiuse (e
+ non tentate MAI di chiudere una risorsa mai aperta!), magari ne riparleremo.
+
+      Semper meum...
+      [NdE: toh, questa e` nuova]
+
+                                                        RRE
+                                                        2:334/100.9
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                                   IL GARGO HACKER - PARTE 12  ###
+ ############                                                               ###
+
+      <Cinderella Book>: [Il libro di Cenerentola] s. `Introduction to Automata
+ Theory, Languages, and Computation', di John Hopcroft e Jeffrey Ullman,  Addi-
+ son-Wesley, 1979. Chiamato cosi` perche` la copertina rappresenta una  ragazza
+ (immaginata Cenerentola) che e` seduta di fronte ad un apparecchio a pulegge e
+ tiene  in mano una corda attaccata ad esso. Il retrocopertina  rappresenta  la
+ ragazza con l'apparecchio a soqquadro dopo che ha tirato la corda. Vedi  anche
+ <book titles>.
+
+      <CI$>:  s.  Hackerismo  per `CIS',  Compuserve  Information  Service.  Il
+ dollaro  si riferisce ai costi piuttosto alti di CompuServe. [NdE: Qui da  noi
+ si  usa molto scrivere Compu$erve]. Usato spesso nei <sig block> subito  prima
+ di un indirizzo CompuServe.
+
+      <Classic C>: /klas'ik see/ [gioco di parole su `Coke Classic'] s. Il lin-
+ guaggio di programmazione C come definito nella prima edizione del <K&R>,  con
+ qualche piccola aggiunta. E` noto anche come `K&R C'. Il nome e` entrato  nel-
+ l'uso  durante  il processo di standardizzazione per il C  dal  comitato  ANSI
+ X3J11.  Detto anche 'C Classic'. La costruzione e` a volte applicata ad  altre
+ cose:  si ha cosi` `X Classic', dove X = Star Trek (riferendosi a  ST:TOS,  la
+ serie  TV originale), o X = PC (riferendosi alle macchine IBM con bus ISA  op-
+ posto alla serie PS/2). Questa costruzione e` usata specialmente per serie  di
+ prodotti in cui le versioni seguenti sono considerate serie perdenti  rispetto
+ alle originarie.
+
+      <clean>  [pulito,  pulire]: 1. agg. Usato per un disegno  di  software  o
+ hardware,  implica `eleganza nel piccolo', cioe` un disegno o una  implementa-
+ zione che non contiene alcuna sorpresa ma fa le cose in un modo che e`  ragio-
+ nevolmente intuitivo e relativamente facile da comprendere dall'esterno.  L'o-
+ pposto e` `grungy' o <crufty>.  2. v. togliere files non necessari o indeside-
+ rati nel tentativo di ridurre la confusione. "Sto ripulendo [I'm cleaning  up]
+ il mio account", o "Ho fatto pulizia [I cleaned up garbage], e ora ho 100 mega
+ liberi su questa partizione"
+
+      <CLM>:  /see el em/ [Career Limiting Move, mossa che limita la  carriera]
+ 1. s. Un'azione che mette in pericolo le prospettive future di ottenere  buoni
+ progetti e aumenti di stipendio, o addirittura il proprio lavoro: "Ha usato un
+ <bubble  sort>!  Che  CLM!"  2. agg. Denota l'estrema  severita`  di  un  bug,
+ scoperto  da un utente e ovviamente dovuto a poco testing: "Questo e` un  baco
+ CLM!".
+
+      <clobber>  [picchiare  duramente]:  vt. Riscrivere sopra;  di  solito  in
+ maniera  non  unintenzionale,  come  in "Ho  superato  la  fine  dell'array  e
+ `clobbered'  lo  stack". Confr. <mung>, <scribble>, <trash>,  and  <smash  the
+ stack>.
+
+      <clocks>:  s.  Cicli  logici  del  processore,  chiamati  cosi`   perche`
+ generalmente  corrispondono  a un impulso di clock nella  temporizzazione  del
+ processore.  I tempi di esecuzione relativi delle istruzioni in  una  macchina
+ sono  generalmente discussi in clock piuttosto che in frazioni assolute di  un
+ secondo. Confr. <cycle>.
+
+      <clone>:  s.  1. Un esatto duplicato, come in "Il nostro prodotto  e`  un
+ clone  del  loro". Implica una reimplementazione legale,  ottenuta  a  partire
+ dalla  documentazione  o per mezzio di reverse engineering. Connota  anche  un
+ prezzo piu` basso.  2. Una copia spuria e scadente, come in "Il loro  prodotto
+ e` un clone del nostro".  3. Una flagrante scopiazzatura, che molto  probabil-
+ mente viola copyright, brevetti o segreti di prioduzione, come "Il tuo prodot-
+ to  e`  un clone del mio".  4. Un `PC clone'; un  microelaboratore  basato  su
+ un'architettura  80x86 PC-BUS/ISA o EISA-compatibile (in questo uso e`  spesso
+ scritto  `klone'  o  `PClone'). Essi danno invartiabilmente  piu`  valore  per
+ dollaro degli archetipi IBM che ricordano.  5. Nella costruzione `UNIX clone':
+ Un SO disegnato per fornire un ambiente UNIX-like senza dovere pagare  licenze
+ UNIX   all'AT&T,  o  con  features  addizionali  `critiche'  necessarie   alla
+ particolare versione, come il supporto per la programmazione real-time.  6. v.
+ fare  una  copia  esatta  di  qualcosa.  "Fammelo  clonare"  puo`  significare
+ "prestami l'articolo, che ne faccio una fotocopia" oppure "dammi una copia  di
+ questo file, prima che lo butti via (<mung>)".
+
+      <COBOL>:  [COmmon  Business-Oriented Language,  linguaggio  orientato  ai
+ comuni  affari]  s. Sinonimo di <evil> [malvagio] ---  un  linguaggio  debole,
+ verboso, e flaccido usato dai <card walloper> per fare cose noiose e  sciocche
+ sui  mainframes  <dinosaur>ici. Gli hacker credono che tutti  i  programmatori
+ COBOL  siano fighetti (<suit>s), o <code grinder>s [macinatori di  codice],  e
+ nessun hacker che si rispetti ammettera` mai di avere imparato il  linguaggio.
+ Il  suo  stesso  nome e` raramente pronunciato senza  espressioni  rituali  di
+ disgusto o orrore. Vedi anche <fear and loathing>, <software rot>.
+
+      <COBOL fingers>: /koh'bol fing'grs/ [dita COBOL] s. Riportato in  Svezia,
+ una  (ipotetica)  malattia  che si puo` contrarre programmando  in  COBOL.  Il
+ linguaggio  richiede un codice verboso al di la` di ogni ragione.  Programmare
+ troppo in COBOL causa il consumo delle dita (per la battitura senza fine) fino
+ a  che ne rimangono solo dei mozziconi. Questa malformazione e` appunto  detta
+ `COBOL fingers'. "Mi rifiuto di battere di nuovo tutto quel codice; mi farebbe
+
+      <code  grinder>:  [macinatore di codice] s. 1. Un  tirapiedi  vestito  in
+ <suit>, di quelli assoldati a legioni dalle banche e dalle compagnie di  assi-
+ curazione  per implementare i pacchetti dei libri-paga in RPG e  altri  errori
+ inenarrabili.  Nel suo habitat nativo, il c.g. si toglie spesso la giacca  per
+ rivelare un sottopiumaggio composto da una camicia sofisticata (amido opziona-
+ le)  e  una cravatta. Nei momenti di stress maggiore, le maniche  (se  lunghe)
+ possono  essere arrotolate, e la cravatta allentata di un centimetro o due  al
+ massimo. In genere serve a poco. Il milieu del c.g. e` in genere tanto lontano
+ da  quello  dell'hacker di quanto si possa riuscire a immaginare  rimanendo  a
+ toccare un calcolatore; il termine connota pieta`. Vedi <Real World>,  <suit>. 
+ 2.  Usato di o per un hacker, una macchia assai seria  sull'abilita`  creativa
+ della persona; connota uno stile caratterizzato da tecniche primitive, stretta
+ aderenza  alle  regole,  e completa mancanza di  immaginazione.  Confr.  <card
+ walloper>.
+
+      <code police>: [polizia del codice, per analogia con `thought police'] s.
+ Una  mitica  squadra  di reparti d'assalto stile Gestapo  che  puo`  penetrare
+ nell'ufficio  di qualcuno e arrestarlo per avere violato le regole  di  stile.
+ Puo`  essere  usato sia seriamente, per sottolineare  l'affermazione  che  una
+ particolare  violazione di stile e` pericolosa, o ironicamente, per  suggerire
+ che la pratica sotto discussione e` condannata principalmente da <weenies> che
+ si  prendono  il mal di pancia per queste cose. L'uso ironico  e`  forse  piu`
+ comune.
+
+      <codewalker>: [attraversatore di codice] s. La componente di un programma
+ che attraversa altri programmi come scopo. I compilatori hano dei c. nei  loro
+ front-end;  lo stesso per i generatori di cross-reference e per alcuni  front-
+ end  di basi dati. Altre utilities che tentano di fare troppo col codice  sor-
+ gente possono trasformarsi in c. . Esempio: "Questa nuova feature di  `vgrind'
+ richiederebbe un c., per essere implementata".
+
+      <coefficient of x>: s. Il discorso hackish fa un uso piuttosto pesante di
+ metafore  pseudomatematiche.  Quattro  di  quelle  particolermente  importanti
+ involvono i termini "coefficiente", "fattore", "indice" e "quoziente".  Questi
+ sono spesso applicati liberamente a cose di cui non si puo` realmente  parlare
+ in  modo  quantitativo, ma ci sono delle sottili distinzioni tra di  loro  che
+ contengono  dell'informazione  sul modo in cui chi parla  modella  mentalmente
+ quello che sta descrivendo.
+
+  "Fattore foo" e "quoziente foo" tendono a descrivere qualcosa per cui  quello
+ che  conta e` la presenza o l'assenza. L'esempio canonico (v. <canonical>)  e`
+ <fudge factor> [fattore di abborracciamento]. Non e` importante quanta roba ad
+ hoc si sia messa: il termine riconosce semplicemente che e` necessario  aggiu-
+ stare  le cose. Si puo` dire che un film piace per il suo fattore di  stupidi-
+ ta`.  Il quoziente tende ad implicare che la proprieta` e` un rapporto di  due
+ fattori opposti. "Avrei vinto, se non fosse per il mio quoziente di sfortuna".
+ Si  sarebbe  anche potuto dire "Avrei vinto, se non fosse per  il  fattore  di
+ sfortuna",  ma usare *quoziente* enfatizza che la sfortuna ha  schiacciato  la
+ fortuna.
+
+ "Indice foo" e "coefficiente di foo" tendono entrambi a implicare che foo  e`,
+ se  non strettamente misurabile, almeno qualcosa che puo` essere piu`  o  meno
+ grande.  Cosi` ci si puo` riferire a un articolo o una persona dicendo che  ha
+ un "alto indice di bogosita` (v. <bogosity>)", mentre e` piu` improbabile par-
+ lare di un "alto fattore di bogosita`". "Indice foo" suggerisce che foo e`  il
+ condensato  di molte quantita`, come nel mondano indice della  vita;  "coeffi-
+ ciente di foo" suggerisce che foo e` una quantita` fondamentale, come nel  co-
+ efficiente di attrito. La scelta tra i due termini e` spesso una di preferenza
+ personale;  p.es.,  alcuni possono pensare che la bogosita` sia  un  attributo
+ fondamentale e parleranno di "coefficiente di bogosita`", mentre altri lo  ve-
+ dranno piu` come una combinazione di fattori e diranno percio` "indice di  bo-
+ gosita`".
+
+      <cokebottle>:  /kohk'bot-l/  [bottoglia  di Coca Cola]  s.  Un  qualunque
+ carattere  inusuale,  in particolare uno che non c'e` sulla  propria  tastiera
+ cosicche`  non puo` essere digitato. La gente dell'MIT era  solita  lamentarsi
+ dei  comandi  "control-meta-cokebottle:  ai  SAIL  [NdE:  Stanford  Artificial
+ Intelligence  Labs],  e  quelli dei SAIL a loro volta  dei  comandi  `altmode-
+ altmode-cokebottle'  all'MIT.  Dopo la fine delle <space-cadet  keyboard>,  c.
+ svani`  come uso serio, ma era spesso invocato umoristicamente per  descrivere
+ un  comando  (non specificato) a tastiera strano o non intuitivo.  Il  termine
+ puo` pero` risorgere a nuova vita. Il window manager di OSF/Motif, mwm, ha una
+ combinazione  di tasti riservata per tornare all'insieme default di  comporta-
+ mento  e  di significato dei tasti. Questa combinazione e`  (credetelo  o  no)
+ `control-meta-bang'  (v.  <bang>). Visto che il punto  esclamativo  assomiglia
+ parecchio a una bottiglia di cocacola messa all'ingiu`, gli hacker Motif hanno
+ cominciato  a  riferirsi a questa combinazione di tasti come c. .  Vedi  anche
+ <quadruple bucky>.
+
+      <COME FROM>: [vieni da] s. Un costrutto semimitico dei linguaggi di  pro-
+ grammazione  duale al `go to'; COME FROM <label> fa si` che la label  indicata
+ agisca come una specie di trappola, in modo che se mai il flusso del programma
+ la raggiunge, il controllo viene trasferito silenziosamente e  automagicamente
+ (v. <automagically>) all'istruzione che segue il COME FROM. COME FROM e` stato
+ proposto  per  la prima volta in un articolo di Datamation del  dicembre  1973
+ (ristampato nel numero di Aprile 1984 delle Communication of the ACM) che  pa-
+ rodiava le allora furiose guerre sante (v. <holy wars>) sulla  "programmazione
+ strutturata"  (vedi anche <considered harmful>). Miticamente, alcune  varianti
+ sono il "come from assegnato" (assigned come from) e il "come from  calcolato"
+ (computed come from) (una parodia di alcuni sporchi costrutti di controllo nel
+ FORTRAN e in alcuni BASIC estesi). Ovviamente, il multitasking (o il nondeter-
+ minismo) puo` essere implementato avendo piu` di uno statement COME FROM  pro-
+ veniente dalla stessa label.
+
+ In  un  certo senso il DO del FORTRAN assomiglia a un COME FROM. Dopo  che  e`
+ stata  raggiunta la label terminale col CONTINUE, il controllo  viene  passato
+ all'istruzione successiva al DO. Alcuni FORTRAN generosi permettono istruzioni
+ arbitrarie  (e non solo il CONTINUE) per la label, portando ad esempi come  il
+ seguente:
+
+           DO 10 I=1,LIMIT
+     C immaginate qui molte linee di codice, lfacendo perdere il DO
+     C originale nella progammazione a spaghetti...
+           WRITE(6,10) I,FROB(I)
+      10   FORMAT(1X,I5,G10.4)
+
+ in cui la trappola e` nella istruzione che segue immediatamente il FORMAT.
+
+ Pur  essendo  sufficientemente stupefacente per il lettore che  non  sospetta,
+ questa  forma  del  COME FROM non e` completamente generale.  Dopo  tutto,  il
+ controlla passera` alla fine all'istruzione seguente. L'implementazione  della
+ forma  generale e` stata lasciata al FORTRAN dell'Univac, intorno al 1975.  Lo
+ statement  "AT  100"  eseguiva  un "COME FROM  100".  Esso  era  stato  inteso
+ strettamente  come un aiuto nel debugging, con atroci conseguenze  promesse  a
+ chiunque  lo  usasse nel codice di produzione. Cose piu` orribili  sono  state
+ comunque gia` perpetrate nei linguaggi di programmazione; i dubbiosi non hanno
+ che da contemplare l'istruzione ALTER in COBOL.
+
+ COME FROM e` stato in seguito supportato con il suo proprio nome per la  prima
+ volta  quindici anni dopo, in C-INTERCAL (vedi <INTERCAL>,  <RETROCOMPUTING>);
+ si sa di gente attendibile che si deve ancora riavere dallo choc.
+
+      <command  key>:  [tasto  command, tra gli utenti Mac]  s.  Il  tasto  del
+ Macintosh con la grafica del qudrifoglio su di esso; ci si riferisce ad esso a
+ volte  come  "fiore" (flower), "trifoglio" (clover), o  "fagiolino"  (beanie).
+ L'equivalente Mac di un tasto <ALT>.
+
+      <comm  mode>: /kom mohd/ [modo di comunicazione, dalla  feature  dell'ITS
+ supportante il chat on-line] sin. per <talk mode>; scritto anche "com mode".
+
+      <comment out>: [commentare via] vt. Circondare una sezione di codice  con
+ dei delimitatori di commento, o prefissare tutte le linee della sezione con un
+ marker  di commento; questo le previene dall'essere compilate o  interpretate.
+ Spesso  fatto  quando  il codice e` ridondante o obsoleto,  ma  si  preferisce
+ lasciarlo  nel  sorgente per rendere piu` chiaro quello che  viene  fatto  dal
+ codice attivo; anche quando quel codice e` bacato e lo si vuole bypassare  per
+ debaggare  altre  parti  del codice. Confr. <condition  out>,  solitamente  la
+ tecnica preferita nei linguaggi (come il <C>) che la permettono.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                    NOTIZIE FIDONET REGION 33  ###
+ ############                                                               ###
+
+           News dal net 331: (by Vertigo, 2:331/301)
+           =================
+
+  ----- *** -----
+
+      La  notizia di maggior rilievo questo mese e' il "boom  demografico"  dei
+ nodi nell'hub di Milano e dintorni: sono infatti ben SEI i nuovi sistemi  nel-
+ l'arco di poche settimane che hanno fatto il loro ingresso in nodelist (facen-
+ do  fare gli straordinari al sottoscritto, HC dell'hub 331/300, per  tutte  le
+ prove di connessione e di rispondenza ai criteri tecnici dettati dalla  policy
+ :-) ). Ecco i neo-sysop, in rigoroso ordine numerico:
+
+      331/323: Cyberspace Connection (Liscate, MI) di Walter Mascarin.
+ Attualmente questo nodo e' listato come privato e -unpublished- per ragioni di
+ provvisorieta' della linea telefonica. E' in linea con un Dual Standard.
+
+      331/324: Wizard's BBS (Sesto San Giovanni, MI), sysop Luigi Gualtieri.
+ La  BBS di Luigi risponde invece a 2400 baud al numero 02/2475923 dalle  21:30
+ alle 6:00 del mattino (non ha il flag CM, quindi occhio agli orari!).
+
+      331/325: InfoMed (Milano) sysop Luca Pinotti.
+ Come  chiaramente si comprende dal nome, questa BBS tratta argomenti  di  tipo
+ medico  ed e' la seconda a Milano, dopo TeleSiBioc di Pietropaolo Bianchi.  Il
+ numero telefonico e' 02/76000382 e risponde con un Dual Standard.
+
+      331/326: Angie BBS (Milano), sysop Mauro Biraghi.
+ In linea con un 2400 non MNP (per ora) questo nodo segna l'ingresso in Fidonet
+ di un ex-utente molto attivo nell'area milanese, gia' co-sysop del 331/305. Il
+ numero e' 02/70125802.
+
+      331/327: Genesis (Milano), sysop Marco Carrubba.
+ Al  pari del precedente, il nodo di Marco risponde con un modem 2400 non  MNP.
+ Il  tema  principale e' l'astronomia, e particolarmente nutrite sono  le  aree
+ files con immagini dedicate allo spazio. Un punto di riferimento per tutti gli
+ astrofili del milanese. Il numero telefonico e' 02/55191844
+
+      331/328: Wimpy (Milano), sysop Giovanni Zanetti.
+ Gia' point di Carlo Ballarini (Orpheus, 331/316) anche Giovanni Zanetti  passa
+ dall'altra parte della barricata. Il suo nodo e' dedicato ai sistemi operativi
+ WIMP-based  (Windows, Geos etc.). Il numero telefonico e' 02/472165  (risponde
+ un Dual Standard).
+
+ ----- *** -----
+
+      Inoltre, sempre nel net 331, si segnala la presenza di un nuovo nodo mol-
+ to particolare: si tratta del
+
+      331/115: Gesu' ti Ama! BBS (Lecco, CO), sysop Paolo Campana.
+ Un  Bulletin Board System a carattere cristiano evangelico, come lo  definisce
+ il  suo  sysop nel bollettino iniziale. Per collegarsi al  sistema  di  Paolo,
+ chiamate il numero 0341/220396 (2400 baud)
+
+ ----- *** -----
+
+      E' tutto per questo numero.
+
+                                         Ciao,
+                                         --V--
+
+
+
+
+      News dal net 334:
+      =================
+
+ ----- *** -----
+
+      Mercoledi`  19 marzo si e` tenuta l'assemblea dell'associazione  TAM-TAM.
+ Oltre  all'approvazione per acclamazione del bilancio 1991, Sono stati  eletti
+ anche  i nuovi Revisori dei Conti, nelle persone di Paolo Giulio Gialli  (beh,
+ tanto  nuovo non e`: dobbiamo accontentarci di un ottimo Revisore  riciclato),
+ Paolo Sobrito e Luciano Bellinato.
+
+ ----- *** -----
+
+      Due nuovi nodi entrano in Fidonet, uno nell'hub 300 e uno nell'hub 100.
+
+      + + + ATH !, nodo 334/308, sysop Elio Romagnoli.
+ Gira su Amiga, con modem Dual Standard USRobotics, ma non e` solo per Amiga.
+ Risponde (solo di sera dalle 20 alle 8!) al numero 011-3094326.
+
+      Olimpus, nodo 334/104, sysop Luca Bello.
+ Anch'essa  gira  su  Amiga:  a defferenza di + + + ATH !  Luca  ha  deciso  di
+ occuparsi  solo di Amiga. Finalmente a Torino un nodo specializzato su  questo
+ calcolatore...  Al  numero  011-890084 (orario serale, dalle  19  alle  7  dal
+ lunedi`  al venerdi` e tutta la giornata sabato e domenica) risponde  un  2400
+ MNP5.
+
+ ----- *** -----
+
+      La riunione mensile del 6 aprile prossimo e` annullata causa elezioni: ci
+ si ritrovera` in Corso Sicilia 12 il 4 maggio prossimo, sempre alle 21.
+
+ ----- *** -----
+
+                               .mau.
+
+
+
+
+
+
+
+
+
+
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:   
+
+ 334/100 - 011-3299706     | 334/1   - 011-5765565     | 331/112 - 0341-360511
+ 333/603 - 040-3783111
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/0   - 011-5765568     | 334/306 - 0121-542795     | 335/210 - 081-5709527
+ 335/405 - 06-315323    
+
+
+
+
+####                            End of TELEM015                            ####

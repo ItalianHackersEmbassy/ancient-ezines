@@ -1,0 +1,1035 @@
+ #### TELEM025 - Telematicus - Volume 03 - Numero 01 - Anno 1993 - 47 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                 Gennaio 1993                                 
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di .mau.
+
+ ==============================================================================
+
+ Il materiale presente in Telematicus e` (C) dei singoli autori.      
+ E` espressamente consentita la distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 47 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .   .  pag.  4
+ [ 2]  Feedback lettori  .   .   .   .   .   .   .   .   .   .   .   .  pag.  5
+ [ 3]  Crittografia - parte 2    .   .   .   .   .   .   .   .   .   .  pag. 10
+ [ 4]  WC-Dos delle mie brame, di Renato Rolando .   .   .   .   .   .  pag. 17
+ [ 5]  Il programmino: scegli il compattatore, di Roberto Piola  .   .  pag. 26
+ [ 6]  Il gergo hacker - parte 21    .   .   .   .   .   .   .   .   .  pag. 31
+ [ 7]  Notizie Fidonet region 33     .   .   .   .   .   .   .   .   .  pag. 42
+ [ 8]  Indice di telematicus - 1992  .   .   .   .   .   .   .   .   .  pag. 44
+
+
+
+
+
+
+
+
+
+
+
+                 Questo Telematicus e` nato con l'aiuto di...
+   
+ Editor sfigatus:       Maurizio Codogno | * I collaboratori dai network: *
+ Editor convertitus:      Renato Rolando |
+ Editor scompattator:      Roberto Piola | Pietro Budicin (333/603)
+
+      ... e dei "saccheggiati"
+
+ Eric S. Raymond <esr@snark.thyrsus.com>
+ Charles Blair <ceblair@ux1.cso.uiuc.edu>
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                               ###
+
+      Carissimi lettori,
+ eccoci  arrivati  al 1993, anche se in leggero ritardo. Sapete,  speravo  funo
+ all'ultimo  che, tra i botti che sembravano piu` da fucile a pallettoni  e  lo
+ spumante  a  ruscelli,  arrivasse  ancora  un  po'  di  materiale  per  questo
+ striminzito numero: invece niente, vi dovete accontentare di questo.
+      In ogni caso, buona lettura!
+                     .mau.
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   2  ###                                             FEEDBACK LETTORI  ###
+ ############                                                               ###
+
+      Il  messaggio qui sotto, mandatomi in posta privata su un BBS di cui  non
+ faro`  il nome, anche perche` non e` Fidonet :-), da tal Mr.Maurizio (che  non
+ sono  io  sotto  false spoglie, state tranquili) e` l'ultimo di  una  serie  a
+ proposito  di telematicus. Visto che a questo punto la risposta  cominciava  a
+ diventare   piu`  generale,  ho  pensato  di  riprodurlo  qui   e   commentare
+ pubblicamente la posizione che ho.
+
+
+      (1/2): rassegnazione
+      Name: Mr.Maurizio #954 Last on: 30-12-92
+      Date: Ven, 25 dic 1992 21:03:26
+
+      Beh, c'e` rassegnazione e rassegnazione. Certo se tu avessi smesso, avre-
+      sti avuto la rassegnazione del perdente, e hai dimostrato di non esserlo.
+      Io pero' intendevo rassegnato nel senso che ti senti appagato dell'attua-
+      le livello di T.
+      Sia chiaro: io sto continuando la lettura degli arretrati e lo trovo mol-
+      to interessante. Pero' secondo me c'e` la possibilita' di farne  qualcosa
+      di GRANDE. E intendo grande nel senso di quadruplicare i D/L in un anno e
+      decuplicarli in due anni. E' in questo che devi credere.
+      Hai i mezzi: la rete Fido, due anni di esperienza, collaboratori  (pochi,
+      lo so, lo dici sempre), uno `zoccolo duro' di lettori.
+      La  telematica (amatoriale e non) sta letteralmente *esplodendo*,  e  fra
+      qualche anno sara' finita l'epoca dei pionieri. Saranno pochi quelli  che
+      potranno vantare una tradizione editoriale piu' o meno lunga.
+      Forse stai sottovalutando le potenzialita' che hai a disposizione. Io  mi
+      sono  avvicinato a questo mondo solo da un mese, pur lavorando  nell'"am-
+      biente" tecnico. Eppure la telematica mi ha appassionato subito, anche se
+      non sono un giovincello che si fa prendere facilmente da un hobby (e  non
+      e` solo un hobby).
+
+      Ciao e auguri di buon Natale
+                 Mr.Maurizio
+
+
+ [NdE: la rassegnazione a cui Mr.Maurizio accenna e` il famoso piagnisteo che i
+ piu`  attenti lettori dei miei editoriali conoscono a memoria, sul  fatto  che
+ nessuno mi manda mai nulla da pubblicare]
+
+      Che rispondere? innanzitutto voglio ricordare come e quando e` nato tele-
+ maticus.  Si  era nel novembre 1990; anche allora la telematica  sembrava  sul
+ punto di scoppiare, e se si guarda la dimensione della nodelist Fidonet di al-
+ lora e di adesso effettivamente le cose sono cambiate. Era gia` quasi un  anno
+ che era nata a Torino l'associazione TamTam che aveva come scopo statutario la
+ diffusione  della telematica amatoriale, e i risultati e gli  sforzi  compiuti
+ fino a quel momento erano nulli - cosa che capita molto spesso, come molti  si
+ saranno accorti.
+      Visto che a me non piace sentire le scuse del tipo "ma non sappiamo  come
+ partire!"  mi sono deciso e ho preparato il numero 0 di telematicus. Qual  era
+ il  suo scopo? Sfruttare al massimo il vero valore aggiunto della  rete,  come
+ direbbe  il Bianki: l'esperienza di chi c'e` dentro e l'estrema  facilita`  di
+ ottenere  informazioni. Ormai sono anni che mi sono abituato ad  utilizzare  i
+ canali universitari per ottenere, e alle volte fornire, informazioni: e queste
+ possono  essere  tecniche o di tutti i generi, come  l'area  rec.music.beatles
+ USENET che seguo con moltissima attenzione.
+      A quel tempo c'erano gia` delle riviste elettroniche via rete, e  persino
+ un  paio  via Fido (parlo di FidoNews e EMBBS), ma come sempre in  Italia  non
+ c'era nulla. Avendo tutto il "mercato" disponibile, ho cercato fin dall'inizio
+ di fare qualcosa che avesse un taglio relativamente generale ma improntato  al
+ rapporto  con la telematica e coi calcolatori. Il formato di file testuale  e`
+ stato  scelto perche` la pigliassero anche e soprattutto i puppasoftware,  che
+ non  l'avrebbero mai letta se fosse stata in linea sui bbs, anche  se  iperte-
+ stuale con megagrafica e chissa` cosa; il formato ASCII puro deriva dal  fatto
+ che  non mi volevo limitare a una singola architettura; la distribuzione  ini-
+ ziale  era  limitata a Torino, poi man mano che i file giravano per i  bbs  mi
+ e`  arrivata  qualche  richiesta da varie parti dell'Italia e  ho  optato  per
+ un'edizione "nazionale".
+
+      Dopo due anni, vediamo i "mezzi" ottenuti. Molta gente si e` accorta  che
+ il  modem che avevano in ufficio poteva servire ad altre cose che chiamare  la
+ costosissima  banca dati: i bbs sono sempre occupati anche di mattino  con  le
+ esose  tariffe SIP. L'esperienza... c'e` cosi` per dire, visto che  ho  sempre
+ solo  dedicato i ritagli di tempo (*tanti* ritagli... pensate solo a tutte  le
+ traduzioni che mi tocca fare, a parte l'assemblaggio) a telematicus, e  l'edi-
+ toria  non e` certo il mio campo. Collaboratori: guarda qui su questo  numero.
+ C'e` l'ottimo RRE che e` uno dei pochissimi illusi come me che spera che qual-
+ cuno  segua le nostre orme, e il Piola che, oltre ad essere un  logorroico  di
+ suo,  e` stato brutalmente minacciato dopo avere avuto la disgrazia di  salire
+ sull'autobus  che avevo preso di ritorno dal lavoro. E ce ne sarebbe di  gente
+ che potrebbe scrivere, in Fidonet... Infine lo `zoccolo duro': telematicus  ha
+ un  suo posto nel panorama fidonettiano italiano, e` vero, ma viene  visto  in
+ maniera molto riduttiva... e` in un certo senso come Novella 2000 dal  barbie-
+ re. Se c'e` si legge, se non e` puntuale ci si lamenta, ma nulla di piu`.
+
+      Io  non posso dare piu` di tanto a telematicus, anche perche` non e`  che
+ sia una fucina di idee: continuo ad esprimere la mia piena apertura a tutte le
+ idee  serie  di miglioramento - perche` no, anche a farlo  portare  avanti  da
+ qualcun  altro! - ma ribadisco che la massa critica esisterebbe gia`  nell'am-
+ biente  telematico italiano. E` la volonta` che manca, e quando  arrivera`  il
+ Berlusconi di turno che fiutera` gli affari che si possono fare anche in  que-
+ sta nicchia, e la parola "amatorialita`" sara` solo un ricordo... beh,  rileg-
+ getevi queste righe.
+
+                ciaociao .mau.
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                       CRITTOGRAFIA - PARTE 2  ###
+ ############                                                               ###
+
+ [NdE:  adesso comincia il difficile... non solo per il tipo di teoremi che  si
+ hanno,  che in ogni caso enuncero` senza dimostrazione - la quale esula  dallo
+ scopo  di telematicus - ma anche per il dovere usare solamente i codici  ASCII
+ da 32 a 126. Comunque, potete sempre rivolgervi a me per spiegazioni!]
+
+
+      2.   INTRODUZIONE ALLA TEORIA DEI NUMERI
+     ====  ===================================
+
+  2.1.   Congruenze
+ -----   ----------
+
+      La congruenza a == b mod n ("a e` congruo a b, modulo n") dice che, quan-
+ do vengono divisi per n, a e b hanno lo stesso resto. Esempi:
+
+           100 == 34 mod 11 ;                  -6 == 10 mod 8
+
+      Nella  seconda congruenza, sfruttiamo il fatto che  -6 = 8(-1)+2.  Esiste
+ sempre un b tra 0 e n-1 tale che a == b mod n, e sara` quello che di solito ci
+ interessera`. Se a == b e c == d mod n, possiamo sommare e moltiplicare:
+
+           a+c == b+d mod n ;                 ac == bd mod n
+
+ mentre la divisione non e` sempre valida: 6 == 18 mod 12, ma 3 !== 9.
+
+
+  2.2.   Il Massimo Comun Divisore
+ -----   -------------------------
+
+      Dati  a e b, il numero (a,b) e` il piu` grande numero che divide  esatta-
+ mente entrambi.
+
+           (56,98) = 14 ;           (76,190) = 38
+
+ Vale il
+
+ TEOREMA 1 : per ogni a e b esistono interi x, y con ax+by=(a,b).
+
+ L'idea  per dimostrare il Teorema 1 deriva da Euclide. Partendo ad esempio  da
+ 30x + 69y = 3,  ponendo  x' = x + 2y abbiamo 30x' + 9y = 3;  con  y' = y + 3x'
+ abbiamo  3x' + 9y' = 3,  e infine con x" = x' + 3y' si ha 3x" = 3, da  cui  si
+ puo` ricavare x" e via via a ritroso le altre variabili.
+
+      E` importante notare che il processo e` fattibile al calcolatore anche se
+ a e b sono numeri di diverse centinaia di cifre; e` facile vedere che  proces-
+ sare due numeri di 600 cifre non richiede piu` di 4000 equazioni.
+
+      Abbiamo  visto  prima che la divisione non funziona  con  le  congruenze;
+ un'importante applicazione del Teorema 1 dice che funziona per i numeri primi.
+
+
+ COROLLARIO 2 : se  p  e`  un numero primo, ar == as mod p  e  a !== 0,  allora
+ r == s.
+
+ COROLLARIO 3 : se p e` un numero primo e a !== 0 mod p, allora per ogni b c'e`
+ un y con ay == b mod p.
+
+ COROLLARIO 4 (Teorema Cinese del Resto) : Se  (p,q) = 1, allora per ogni a,  b
+ c'e` un n con
+           n == a mod p     e      n == b mod q .
+
+
+  2.3.   Potenze modulo un primo
+ -----   -----------------------
+
+      La successione
+
+           a   a^2    a^3   ...   mod p
+
+ (dove  con ^ indico l'esponenziazione) ha molte applicazioni in  crittografia.
+ Prima  di  guardare  le sue proprieta` teoriche, il  seguente  esempio,  fatto
+ usando  una calcolatrice tascabile, dovrebbe mostrare che e` facile  computare
+ tali numeri, anche se di molte cifre.
+
+      Supponiamo  di volere calcolare 432^678 mod 987. Il trucco e` di  partire
+ col numero e continuare a fare i quadrati:
+
+           432^2 = 186624 == 81 ; 432^4 == 81^2 == 639 ;
+           432^8 == 639^2 == 690 ; ... 432^512 == 858.
+
+ Visto che 768 = 512 + 128 + 32 + 4 + 2,
+
+           432^678 == (81)(639)...(858) == 204 (spero!)
+
+ Come visto, i calcoli con gli esponenti non richiedono troppe moltiplicazioni.
+ L'unica  attenzione da porre e` di costruire speciali routines di  moltiplica-
+ zione aritmetica esatta di numeri di molte cifre (vedi il volume 2 del Knuth).
+
+      Se  ora guardiamo le potenze di 2 mod 11: 2 4 8 5 10 9 7 3 6  1,  notiamo
+ che ciascun numero da 1 a 10 appare nella successione. Si ha infatti il
+
+ TEOREMA 5 : Sia  p un primo. Esiste allora un a tale che per ogni  b  compreso
+ tra 1 e p-1 esiste un x compreso tra 1 e p-1 tale che a^x == b mod p.
+
+      Dal Teorema 5 discendono alcune conseguenze:
+
+ COROLLARIO 6 : Dato a come nel Teorema 5, allora a^(p-1) == 1 mod p.
+
+ COROLLARIO 7 : Per ogni b !== 0, b^(p-1) == 1 mod p.
+
+ COROLLARIO 8 : Se x == y mod (p-1), allora b^x == b^y mod p.
+
+ LEMMA 9 : Sia  b !== 0, e d il piu` piccolo intero positivo per  cui  b^d = 1.
+ Allora per ogni e positivo con b^e = 1, d|e [cioe` d divide esattamente e.  In
+ particolare, per il Corollario 7, d|(p-1).
+
+  2.4.   Radici primitive
+ -----   ----------------
+
+      Il  Teorema  5  mostra  che,  se p e` un primo,  esiste  un  a  tale  che
+ l'equazione a^x == b mod p ha una soluzione per ogni b !== 0. Tale a e`  detto
+ <radice  primitiva> di p, e x e` chiamato <logaritmo discreto> di  b.  Abbiamo
+ mostrato  sopra che e` facile ottenere b, dati a e x. Trovare x dati a e b  e`
+ molto  piu` difficile. Molti moderni sistemi di crittografia sono  basati  sul
+ fatto  che  non  si conosce alcun modo efficiente  di  calcolare  i  logaritmi
+ discreti.
+
+      Non  si conoscono nemmeno metodi efficienti che trovino sempre le  radici
+ primitive.  E` pero` spesso possibile trovarne una in casi speciali.  Sia  per
+ esempio p = 1223. p-1 si fattorizza come 2 * 13 * 47. Per il lemma 9, se a non
+ e`  una radice primitiva allora almeno uno di a^26, a^94 o a^611 sara` pari  a
+ 1 mod 1223. a = 2 o 3 non funzionano, ma a = 5 soddisfa tutte e tre le  condi-
+ zioni,  sicche` e` una radice primitiva. (Possiamo dire che a = 4 non  e`  una
+ radice primitiva senza testare. Perche`?)
+
+      E`  facile mostrare che, se a e` una radice primitiva, a^x e` una  radice
+ primitiva  se e solo se (x,p-1) = 1. Nel nostro esempio, il numero  di  radici
+ primitive e`
+           1222 * (1/2) * (12/13) * (46/47) = 552
+ il che significa che, se abbiamo scelto a a caso, la probabilita` che sia  una
+ radice  primitiva e` circa il 45% . Scegliere a a caso e testarlo finche`  non
+ abbiamo trovato una radice primitiva non dovrebbe metterci troppo tempo.
+
+      Questo  e` un esempio di <algoritmo probabilistico>. E` possibile che  ci
+ metta molto tempo, ma la quantita` di tempo impiegato in media e`  ragionevol-
+ mente bassa. Vedremo in seguito molti altri algoritmi probabilistici.
+
+      Ultima  nota: il Teorema 5 e` abbastanza lungo e noioso da dimostrare,  e
+ conviene utilizzare anche il seguente
+
+ LEMMA 10 : Ci sono al piu` d soluzioni per una congruenza con un polinomio  di
+ grado d:
+           x^d + k1 X^(d-1) + ... + kd == 0 mod p.
+ In particolare, ci sono al piu` d x con x^d == 1.
+
+
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                                       WC-DOS DELLE MIE BRAME  ###
+ ############                                                               ###
+
+Sul WC-DOS se ne vedono di tutti i colori.
+
+      Carissimi WC dossiani. E' da un pezzo che non mi sento! (Benche` il  Capo
+ si  ostini a decantare l'enorme diffusione della rivista io persisto coi  miei
+ fondati  dubbi). [NdE: E` diffusa, e` diffusa... che poi non la leggano e`  un
+ altro conto]
+      L'altro mese non ho avuto l'onore di poter scrivere l'articolo; poco  ma-
+ le,  un giovine ed intelligente baldo, nella figura del Peter Ugone, ha  preso
+ il mio posto. Quando il discepolo supera il maestro :) ...
+
+      E veniamo a questo cesso di sistema operativo che e` il WC-DOS. Il WC-DOS
+ oltre ad avere ENORMI problemi di indirizzamento della memoria oltre i 6K  (ho
+ sentito dell'uscita del nuovo megagalattico Pascal della Bortland che permette
+ di indirizzare di un sol fiato 7K!) ha anche un casino pauroso nella  gestione
+ del video.
+      Oltretutto  stanno fiorendo un sacco (ed una sporta) di  schede  grafiche
+ legate al successo di WC-Windouws. Ora non si deve confondere tra scheda  gra-
+ fica  ed  acceleratore grafico. La prima ha solitamente un mucchio  di  colori
+ (16k)  e costa un nulla, la seconda ne ha pochini e chiappa un sacco  di  sol-
+ di... Ad ognuno il suo, come si dice.
+
+      Solitamente i programmi non gestiscono direttamente le primitive che con-
+ trollano  lo schermo, ma passano attraverso un driver che si appoggia al  BIOS
+ (tutto  nel  nome dell'efficienza). [NdE: no, della praticita`  per  l'utente.
+ UNIX funziona cosi` e non si e` mai lamentato nessuno...]
+      La cosa non e` cosi` semplice pero`. I driver possono anche  oltrepassare
+ il BIOS o fare altre puttanate. Ma il bello e` che aggiungendo o cambiando  la
+ scheda grafica bisogna anche cambiare tali driver, altrimenti non solo non  si
+ sfruttano  le nuove caratteristiche, ma il piu` delle volte non funziona  piu`
+ nulla :)
+      I driver sono un elemento fondamentale del computer e devone essere tenu-
+ ti il piu` possibile aggiornati. Nell'ultimo numero di PC Professional un  in-
+ teressante articolo sul PC ideale riporta che si possono avere prestazioni del
+ 20% migliori con driver ottimizzati per la propria scheda. A tal riguardo c'e`
+ una  SH che vende solo driver ottimizzati: .......
+      Ma per i programmatori? E che ne so, chiedeteglielo! So solo che il  TC++
+ 3.0 della Bortland ha ancora il driver da 16 colori (?!), mentre in giro  cir-
+ colano quelli da 256 e 32K.
+      Ma il problema resta insoluto. Tutti i programmi che usano i driver entro
+ un anno o due saranno obsoleti non per le loro caratteristiche, ma per il fat-
+ to che non saranno in grado di sfruttare le nuove schede grafiche.
+     
+      Ora  a tal riguardo vedo due soluzioni: [NdE: e usare un  driver  esterno
+ come i BGI Borland?]
+ - buttarsi su Windows
+ - non usare i driver
+      La prima soluzione sarebbe accettabile se si sapesse programmare in  tale
+ ambiente.
+      La seconda e` attuabile, con qualche limitazione. La limitazione maggiore
+ sarebbe proprio l'impossibilita` di impiegare le primitive del driver. :)
+
+      Comunque  la strategia e` quella di usare gli interrupt. Assieme ad  ogni
+ scheda  viene  fornita la tabella delle sue "chiamate di  settaggio."  Alcune,
+ tutte quelle EGA, VGA etc. dovrebbero essere standard (se non lo sono ci pensa
+ il driver), altre sono tipiche della scheda. Il programma che usa un tale  me-
+ todo potrebbe automaticamente scandire tutti i possibili valori per cercare lo
+ schermo  con piu` colori e dimensione maggiore oppure  richiedere  l'interrupt
+ all'utente.
+      Il problema e` che le primitive del WC-BIOS sono solo sul settaggio della
+ palette e sull'accensione di un punto sullo schermo. Quindi nessuna  geometria
+ o  viewport, dev'essere tutto reinventato! Questo pero` non influirebbe su  un
+ programma  di ray tracing o di visualizzazione dei frattali che richiedono  al
+ massimo  proprio la gestione della paeltte dei colori e  l'indirizzamento  dei
+ punti.
+
+      Se sei ancora interessato eccoti una breve collezione di routines all'uo-
+ po. Presa di peso ed inserita in un file a parte DOVREBBE funzionare. Mancano:
+ una routine che riporti le caratteristiche dello schermo, una gestione dei co-
+ lori. Probabilmente a febbraio...
+
+ /*************************************************************************
+  Screen.CPP
+  By RRE of TTH    v 0.1
+ *************************************************************************/
+ #include <dos.h>   /* interrupt */
+
+ #define VIDEO 0x10
+ // ho aggiunto due chiamate prese dalla mia Paradise
+ #define FINE    16   // VGA alta rislouzione
+ #define COLOR   19   // VGA 256 colori
+
+ // PROTOTIPAZIONE
+  void apriGfx(void);
+  void chiudiGfx(void);
+  void punto(int x, int y, int colore);
+
+ enum BOOL {TRUE, FALSE};
+
+ static BOOL stato = FALSE;  /* se gia' in schermo gfx o no */
+        int  maxX, maxY, NColor;
+
+ void apriGfx(void)
+ /*************************************************************************
+  Apre la grafica
+  Setta alcune variabili golbali:
+  maxX, maxY : dimensioni dello schermo
+  NColor  : numero di colori disponibili
+  ************************************************************************/
+ {
+  union REGS regs;
+
+  if(stato == TRUE)  /* sono gia' in modo grafico */
+   return;
+
+  regs.h.ah = 0;     /* choose video */
+  regs.h.al = COLOR;    /* VGA 256 */
+
+  int86(VIDEO, &regs, &regs);
+
+  maxX  = 640;   /* a la cavolo */
+  maxY  = 200;
+  NColor= 255;
+
+  stato = TRUE;
+ }
+
+ void chiudiGfx(void)
+ /*************************************************************************
+  ************************************************************************/
+ {
+  union REGS regs;
+
+  regs.h.ah = 0;   /* choose video */
+  regs.h.al = 4;   /* boh */
+
+  int86(VIDEO, &regs, &regs);
+
+  stato = FALSE;
+ }
+
+ void punto(int x, int y, int colore)
+ /*************************************************************************
+  Disegna un punto col colore corrispondente
+  ************************************************************************/
+ {
+  union REGS regs;
+
+  regs.h.ah = 12;   /* write pixel */
+  regs.x.cx = x;   /* x */
+  regs.x.dx = y;   /* y */
+  regs.h.bh = 0;   /* page */
+  regs.h.al = colore;  /* color */
+
+  int86(0x10, &regs, &regs);
+ }
+
+           Questo lo metti in un altro file:
+
+ #include <conio.h>   // getch
+ #include <math.h>   // sin()
+
+ void main(void)
+ /*************************************************************************
+  Un main di prova
+  ************************************************************************/
+ {
+  int x=0, y=0;
+
+  apriGfx();
+
+  for(y=0; y<maxY/2; y++, x= 10*sin(y))
+  {
+   for(int i=0; i<NColor; i++)
+    punto(i+x, y, i);
+  }
+
+  getch();
+         chiudiGfx();
+ }
+
+      Per  chi non ha il coprocessore matematico... ricordo che ho inserito  un
+ seno.  Comunque e` piuttosto veloce, anche sullo scassato 286 8Mhz su cui  sto
+ scrivendo (a proposito l'ho testato e funge :)).
+      Bene, intendo continuare il discorso; magari aggiungendo almeno le  rette
+ e la gestione dei colori.
+
+      Non mi resta che unirmi al Capo per gli auguri.
+                                                       RRE
+                                                       2:334/100.9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                                               IL PROGRAMMINO  ###
+ ############                                                               ###
+
+      Il Piola ,ben noto agli affezionati lettori di telematicus, mi scrive:
+
+           Ti avevo gia' mandato una volta il listato C di un programma per ca-
+      pire che genere di scompattatore usare per un file. [NdE: mai visto... se
+      lo sara` sognato] Questo e' l'aggiornamento che contempla anche il  nuovo
+      compattatore SQZ. Cosi' non puoi piu' dire che non scrivo nulla...
+           Ciao e Buon Natale!
+
+ // gus.cpp: trova il giusto programma di scompattazione
+
+ #include <stdlib.h>
+ #include <string.h>
+ #include <stdio.h>
+ #include <io.h>
+
+ #define ERRORE {fprintf(stderr,"Error: unknown packing method\n"); exit(1);}
+
+ void identifypacker(
+    char *packetname,     // IN: nome dell'archivio da scompattare
+    char *parms,          // OUT: qui verranno copiati i parametri da
+                          // passare allo scompattatore
+    char *comdline,       // OUT: qui cerra' copiato il nome del comando per
+                          // scompattare
+    char *jolly,          // IN: scompattatore da usare quando l'archivio e'
+                          // di tipo sconosciuto
+    char*jollyparms,      // IN: parametri dello scompattatore jolly di cui
+                          // alla riga sopra
+    char*packerdir        // IN: directory dove reperire i compattatori,
+                          // terminata con il backslash
+  )
+ {
+  FILE *f;
+  char buff[20];
+  unsigned char headstr[8];
+  f=fopen(packetname,"rb");
+  strcpy(comdline,"PKXARC.COM"); strcpy(parms,"-r");
+  if (fread(headstr,7,1,f))
+    {
+      if ((headstr[2]=='-') && (headstr[3]=='l'))
+        switch(headstr[4])
+          {
+            case 'h':
+              sprintf(comdline,"%sLHA.EXE",packerdir);
+              if (!access(comdline,0) || (headstr[5]>'1'))
+                strcpy(comdline,"LHA.EXE");
+              else
+                strcpy(comdline,"LHARC.EXE");
+              strcpy(parms,"x /cm");
+              break;
+            case 'z':
+              strcpy(comdline,"LHA.EXE"); strcpy(parms,"x /cm"); break;
+            default: ERRORE;
+          }
+      else
+        switch(*headstr)
+          {
+            case 26:
+              {strcpy(comdline,"PAK.EXE"); strcpy(parms,"E /WA");}
+              if ((headstr[1]<10) || (headstr[1]>12))
+                {
+                  sprintf(buff,"%sPKXARC.COM",packerdir);
+                  if (access(buff,0))
+                    {strcpy(comdline,"PKXARC.COM"); strcpy(parms,"-r");}
+                  sprintf(buff,"PKUNPAK.EXE");
+                  if (access(buff,0))
+                    {strcpy(comdline,"PKUNPAK.EXE"); strcpy(parms,"-r");}
+                }
+              break;
+            case 'H':
+              if((headstr[1]=='L') && (headstr[2]=='S') && (headstr[3]=='Q')
+                 && (headstr[4]=='Z'))
+                {strcpy(comdline,"SQZ.EXE"); strcpy(parms,"E");}
+              break;
+            case 'P':
+              if ((headstr[1]==75) /*&& (headstr[2]==3) && (headstr[3]==4)*/)
+                {strcpy(comdline,"PKUNZIP.EXE"); strcpy(parms,"-o -ed");}
+              break;
+            case 'Z':
+              if ((headstr[1]=='O') && (headstr[2]=='O'))
+                {
+                  strcpy(comdline,"ZOO.EXE");
+                  strcpy(parms,"E");
+                  break;
+                }
+            case 96:
+              if (headstr[1]==234)
+                {
+                  strcpy(comdline,"ARJ.EXE");
+                  strcpy(parms,"e -y");
+                  break;
+                }
+            default:
+              strcpy(comdline,jolly); strcpy(parms,jollyparms);
+              break;
+          }
+    }
+  fclose(f);
+ }
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                   IL GERGO HACKER - PARTE 21  ###
+ ############                                                               ###
+
+                                {= G =}
+
+      <gang  bang> s. L'uso di un gran numero di programmatori che lavorano  in
+ maniera piu` o meno indipendente in un tentativo di infilare un gran numero di
+ feature in un prodotto in brevissimo tempo. Anche se ci sono state delle memo-
+ rabili g.b. (ad esempio, quel porting assembler in un weekend, menzionato  nel
+ libro  di Steven Levy "Hackers"), la maggior parte di esse sono perpetrate  da
+ grandi compagnie che cercano di osservare le deadline, e producono enormi mas-
+ se  biene di bachi di codice, che manca completamente di  ortogonalita`  (vedi
+ <orthogonal>).  Quando  i manager che guardano il mercato fanno una  lista  di
+ tutte le caratteristiche che i programmi competitori hanno, e assegnano a cia-
+ scun  programmatore  il compito di implementarne una, spesso  non  considerano
+ l'importanza di mantenere dei forti invarianti, tipo l'integrita` relazionale.
+
+      <garbage collect> vi., (anche "garbage collection", s.) Vedi <GC>.
+
+      <gas> [come in "camera a gas"] inter. 1. Un termine di disgusto e ostili-
+ ta`,  implica che il gas dovrebbe essere dispensato in dosi generose,  stermi-
+ nando cosi` la sorgente dell'irritazione. "Un loser ha appena rimontato il si-
+ stema senza alcuna ragione! Gas!".  2. Un termine che suggerisce che  qualcuno
+ o  qualcosa  dovrebbe essere buttato via senza pieta`. "Il sistema  si  pianta
+ ogni  pochi minuti. Gas!".  3. vt. Spazzar via (v. <flush>). "Dovresti  gasare
+ questo vecchio software che la le croste".  4.  GASEOUS agg. Che merita di es-
+ sere gasato. Uso: inizialmente di Geoff Goodfellow allo SRI, ma diffondentesi.
+
+      <GC> /jee-see/ [dalla terminologia LISP; "Garbage Collect", recupero del-
+ la spazzatura] 1. vt. Pulire e buttare via delle cose inutili. "Penso che oggi
+ <GC>ero` la mia scrivania". Detto di files, e` l'equivalente di <GFR>.  2. vt.
+ Riciclare,  reclamare, o lasciare per un altro uso.  3.  s.  Un'instanziazione
+ del processo del garbage collector. `Garbage collection' e` voce gergale degli
+ informatici  per una particolare classe di strategie per riallocare  dinamica-
+ mente  la memoria del calcolatore. Una di tali strategie involve  lo  scorrere
+ periodicamente  tutti i dati in memoria e determinare cosa non e` piu`  utile;
+ tali dati inutili sono allora eliminati, in modo che la memoria che occupavano
+ possa essere riciclata e utilizzata per un altro scopo. Le implementazioni del
+ linguaggio LISP usano di solito la g.c.. Nello slang, si sente a volte la fra-
+ se completa, ma si preferisce piu` spesso l'acronimo perche` piu` corto. Nota-
+ re che c'e` un'ambiguita` nell'uso che deve venire risolta dal contesto: "Devo
+ fare  garbage-collection della mia scrivania" significa in genere  svuotare  i
+ cassetti, ma puo` anche significare gettare via o riciclare la scrivania stes-
+ sa.
+
+ Attenzione:  programmando in X, un "GC" puo` essere un contesto grafico  (gra-
+ phics context). Questo termine tecnico non ha nulla a che fare col <GC> gerga-
+ le!
+
+      <GCOS>  s.  Un <clone> fatto in tutta fretta del sistema  operativo  Sys-
+ tem/360  che emerse dalla GE intorno al 1970; chiamato  originariamente  GECOS
+ (the  General Electric Comprehensive Operating System, sistema operativo  com-
+ pleto della GE), e accrocchiato in seguito per supportare una gestione  primi-
+ tiva di time-sharing e transazioni. Dopo che la divisione computeristica della
+ GE  fu comprata dalla Honeywell, il nome fu cambiato in General  Comprehensive
+ Operating System (GCOS). Altri gruppi di sistemi operativi alla Honeywell  co-
+ minciarono  a  riferirsi ad esso come `God's Chosen  Operating  System'  (s.o.
+ scelto da Dio), in reazione esplicita all'attitudine altezzosa e  disinformata
+ della  gente del GCOS a proposito della superiorita` del loro prodotto.  Tutto
+ questo  avrebbe un interesse nullo, se non fosse per due fatti: a)  la  guerra
+ politica  fu  vinta dalla gente GCOS, causando i tagli e infine la  morte  del
+ <Multics> Honeywell; b) GECOS/GCOS lascio` un marchio permanente su UNIX.  Al-
+ cuni  tra i primi sistemi UNIX ai Bell Labs venivano usati come front end  per
+ le macchine GCOS; il campo aggiunto a /etc/passwd per contenere le informazio-
+ ni  di ID GCOS fu chiamato `il campo GECOS' e sopravvive oggi come  il  membro
+ pw_gecos  usato  per il nome dell'utente e altre informazioni per  uso  umano.
+ GCOS  contribui` fortemente a far si` che Honeywell fosse un cavallo  perdente
+ nel  mercato mainframe, e fu scaricato a favore di UNIX alla fine  degli  anni
+ '80 quando Honeywell ritiro` le sue vecchie architetture <big iron>.
+
+      <GECOS> v. Vedi GCOS.
+
+      <gedanken>  /g@-dahn'kn/ agg. Allucinato; non pratico; non  ben  pensato;
+ non  testato. "Gedanken" e` una parola tedesca per "pensato".  Un  esperimento
+ pensato e` quello che si fa a mente. In fisica, l'espressione "gedanken  expe-
+ riment" e` usata per riferirsi ad un esperimento che non e` pratico da esegui-
+ rsi, ma utile da considerare perche` ci si puo` ragionare in maniera  teorica.
+ (Un  classico g.e. della teoria della relativita` consiste nel pensare  ad  un
+ uomo  che vola attraverso lo spazio in un ascensore). I g.e. sono molto  utili
+ in fisica, ma occorre essere attenti. E` stato un g.e. che ha portato  Aristo-
+ tele  a  concludere che le cose pesanti cascano sempre piu` veloci  di  quelle
+ piu` leggere (penso` a una roccia e a una piuma); questo fu accettato, fino  a
+ che Galileo dimostro` altrimenti. Tra gli hacker, pero`, la parola ha una con-
+ notazione peggiorativa. E` detta di un progetto, specialmente di uno di ricer-
+ ca  di intelligenza artificiale, che e` spiegato in grande dettaglio  (tipica-
+ mente a livello di tesi di dottorato) senza essere stato mai implementato  se-
+ riamente.  un  tale progetto e` di solito perpetrato da persone che  non  sono
+ buoni  hacker  o trovano la programmazione disgustosa  o  semplicemente  hanno
+ fretta. Una tesi gedanken e` di solito connotata da una ovvia mancanza di  in-
+ tuizione  su cosa e` programmabile e cosa non lo e`, e su cosa  costituisce  o
+ meno una chiara specificazione di un algoritmo.
+
+      <geek out> vi. Entrare temporaneamente in modo tecno-nerd in un  contesto
+ non di hacker, per esempio a un party dove ci sono anche dei calcolatori. Usa-
+ to specialmente quando si deve fare qualcosa di altamente tecnico e non si  ha
+ tempo di spiegare: "Scusatemi mentre io g.o. per un momento".
+
+      <gender  mender> [riparatore di sesso] s. (anche "gender bender"  (piega-
+ sesso)  e  "sex changer") Un cavo per dati con o due connettori maschi  o  due
+ femmine, usato per correggere le contrapposizioni che si hanno quando  qualche
+ <loser> non ha capito la specifica RS232C e la distinzione tra DTE e DCE. Usa-
+ to  specialmente  per le parti RS232C sia nel formato originale  D-25  che  in
+ quello finto del PC IBM a 9 pin.
+
+      <General Public Virus> [virus generale al pubblico] s. Termine  peggiora-
+ tivo per alcune versioni del <copyleft> del <GNU> project, o Licenza  Generale
+ al  Pubblico  (General Public License), che richiede che un qualunque  tool  o
+ <app>  che incorpora il codice copylefted sia distribuita in sorgente con  gli
+ stessi  termini controcommerciali del materiale GNU. Cosi` e` asserito che  il
+ copyleft  `infetta' il software generato con i tool GNU, che a loro volta  in-
+ fetteranno  altro software che riusa del loro codice. La  posizione  ufficiale
+ della  FSF al gennaio 1991 e` che solo "programmi che  includano  testualmente
+ porzioni  significanti del codice GNU" cadono sotto la GPL e  che  l'infezione
+ non viene trasmessa a terze parti a meno che non venga trasmesso  dell'attuale
+ sorgente GNU (come ad esempio usando il parser Bison). Nondimeno, il  sospetto
+ assai  diffuso che il linguaggio <copyleft> sia una trappola ha fatto si`  che
+ molti sviluppatori evitino di usare i tool GNU e la licenza <GPL>. Le posizio-
+ ni della FSF nel 1992 sembrano avere attutito tali timori con una formulazione
+ che lascia piu` liberta`.
+
+      <generate> [generare] vt. Produrre qualcosa in accordo ad un algoritmo  o
+ un  programma o a un insieme di regole, o come un effetto collaterale  (magari
+ non  voluto)  dell'esecuzione  di un algoritmo o un  programma.  L'opposto  di
+ <parse>. Questo termine mantiene le sue connotazioni meccanicistiche (anche se
+ spesso  iin maniera umoristica) quando usato per il comportamento  umano.  "Il
+ tipo e` per lo piu` razionale, ma provate a nominare l'energia nucleare e  ge-
+ nerera` <flamage> infinito (v. <infinite>).
+
+      <Get a life!> [e impara a vivere!] imp. Modo standard hacker per suggeri-
+ re che la persona a cui si sta parlando e` rimasta succube di una  computerite
+ terminale (vedi <computer geek>). Udito spesso su <USENET>.  Questa esortazio-
+ ne e` stata originariamente pronunciata da William Shatner [NdE: Kirk, per chi
+ non  ha  solo sentito parlare di Star Trek] in un episodio di  Saturday  Night
+ Live, durante un discorso terminato appunto con "Get a *life*!".
+
+      <Get a real computer!> [prenditi un vero calcolatore!] imp. Tipica rispo-
+ sta hacker alla notizia che qualcuno e` nei guai per fare funzionare  qualcosa
+ su un sistema che e` a) single-task, b) non ha un hard disk, o c) ha un  indi-
+ rizzamento inferiore ai 4 megabytes. Queste specifiche sono del 1990; si  noti
+ che la soglia di `vero computer' cresce col tempo, e potrebbe benissimo  darsi
+ che  le  macchine con display a caratteri saranno considerate `non  vere'  tra
+ qualche anno (e in certi campi, non lo sono gia`). Vedi <bitty box> e <toy>.
+
+      <gig> /jig/, raro /gig/ [giga] s. Abbreviazione per "gigabyte" (1024  me-
+ gabytes); sp. usato per descrivere quantita` di memoria di massa o <core>. "La
+ mia  macchina  e`  appena stata upgradata a un quarto  di  giga".  Vedi  anche
+ <kilo>.
+
+      <giga-> /ji'ga/ pref. Vedi <kilo>.
+
+      <GIGO>  /gie'goh/ [acronimo] 1. Garbage In, Garbage out (spazzatura  den-
+ tro, spazzatura fuori) - Detto di solito in risposta a <luser> che si lamenta-
+ no del fatto che il calcolatore non si lamenti di dati errati. Usato anche co-
+ munemente per descrivere errori in decisioni umane dovuti a dati errati, inco-
+ mpleti  o non precisi.  2. Garbage In, Gospel Out (spazzatura dentro,  vangelo
+ fuori) - Questa espansione piu` recente e` un commento sardonico sulla tenden-
+ za che gli esseri umani hanno a fidarsi eccessivamente dei dati "computerizza-
+ ti".
+
+      <gillion>  /jill'yun/  s.  10^9.  [da giga, seguendo  la  costruzione  di
+ mega/milione  e la teorica tera/trilione] Lo stesso del "billion" americano  o
+ del "milliard" inglese: un miliardo.
+
+      <glark> /glark/ vt. Ricavare qualcosa dal contesto. "I manuali del System
+ III sono abbastanza scarni, ma in genere si puo` g. il significato dal  conte-
+ sto". E` interessante che la frase originale era "This gubblick contains  many
+ nonsklarkish  English  flutzpahs, but the overall pluggandisp can  be  glorked
+ [sic] from context" ["Questa festrola contiene molti nondriffiti crustani ita-
+ liani,  ma  il quistrinale complessivo puo` essere glorked dal  contesto"]  di
+ David  Moser,  citato  da Douglas Hofstadter nella  sua  rubrica  `Metamagical
+ Themas'  sullo Scientific American. di gennaio 1981. Si congettura  che  l'uso
+ hacker ha cambiato `glork' in `glark' perche` <glork> era gia` un termine ger-
+ gale esistente.
+
+      <glass> [IBM] s. Sinonimo per <silicon>.
+
+      <glass tty> /glas tee-tee-wie/ o /glas ti-tee/ s. Un terminale che ha uno
+ schermo a display ma che, per limitazioni hardware o software, si comporta co-
+ me  un terminale a stampa, combinando cosi` gli svantaggi di entrambi i  tipi:
+ come un terminale a stampa, non puo` fare dei bei disegnini a video, e come un
+ terminale a display non produce una copia fisica. Un esempio e` l'ADM-3 (senza
+ controllo cursore) della Lear-Siegler. Vedi l'Appendice A per  un'interessante
+ storia sui g.t.
+
+      <glitch>  /glich/  [dal  tedesco "glitchen", scivolare,  via  lo  yiddish
+ "glitshen",  sdrucciolare]  1. s. Un'improvvisa  interruzione  della  corrente
+ elettrica, o della funzionalita` e continuita` di un programma. A volte  recu-
+ perabile.  Un'interruzione  della corrente e`  specificatamente  detta  "power
+ glitch". Essa e` molto preoccupante perche` di solito fa piantare tutti i cal-
+ colatori.  Piu` comune nello slang, anche se un hacker che arriva a  meta`  di
+ una frase e si dimentica come voleva completarla potrebbe dire "Scusa, ho avu-
+ to  un g.".  2. vi. Far fare un glitch. Vedi <gritch>.  3. vt. [Stanford]  Far
+ scrollare  una  schermata piu` linee per volta. Questo uso  deriva  da  alcune
+ stranezze  nel  comportamento dei terminali sotto il sistema  TOPS-10  mutante
+ adottato un tempo al SAIL. 4. (obsol.) Come <magic cookie>, significato #2.
+
+      <glob>  /glob/, *non* /glohb/ [UNIX, da "glob", il nome di  un  sottopro-
+ gramma  che traduceva le wildcard nelle arcaiche versioni della Bourne  Shell]
+ v. Espandere i caratteri speciali in un nome con wildcard (l'azione corrispon-
+ dente  e` "globbing"). Le convenzioni UNIX per le wildcard sono  state  suffi-
+ cientemente persuasive che molti hacker ne usano alcune nella lingua  scritta,
+ specialmente  nella posta elettronica o messaggi su argomenti tecnici.  Quelle
+ comunemente incontrate comprendono:
+
+  *    wildcard per una stringa qualunque (vedi UN*X).
+  ?    wildcard per un carattere qualsiasi (generalmente si legge in
+       tal modo solo all'inizio o a meta` di una parola).
+  []   wildcard che corrisponde a un carattere da un insieme specificato.
+  {}   Insieme di alternative separate da una virgola. Cosi`,
+       `{foo,bar}baz' puo` significare `foobar' o `foobaz'.
+
+ Alcuni  esempi:  "Ha detto che il suo nome e` [KC]arl"  (esprime  ambiguita`).
+ "Questo  e` stato postato su talk.politics.*" (tutti i sottogruppi  talk.poli-
+ tics  su <USENET>). Altri esempi sono dati alla voce `X'. <glob> come nome  si
+ riferisce all'atto di espandere una stringa usando queste convenzioni. E`  an-
+ che usato come un verbo.
+
+      <glork> /glork/ 1. inter. Termine di blanda sorpresa, di solito tinto  di
+ offesa, come quando uno tenta di salvare il risultato di due ore di editing  e
+ scopre che il sistema e` cascato proprio in quel momento.  2. Usato come  nome
+ per qualunque cosa. Vedi <foo>.  3. vt. Simile a <glitch>, ma di solito  usato
+ in modo riflessivo. "Il mio programma si e` appena g.".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                    NOTIZIE FIDONET REGION 33  ###
+ ############                                                               ###
+
+      Poche  notizie, questo mese: solo il Budicin mi ha fornito  materiale...
+
+                             *** net 333 ***
+
+      L'NC Adolfo Melilli, dopo un breve periodo di panico dovuto a  momentanea
+ situazione  di disoccupazione, ha trovato una nuova  sistemazione  lavorativa.
+ Notizia  con  indiscutibile gioia dell'Adolfo e accompagnata con  sollievo  da
+ tutto il Network.
+
+      D'ora  in poi l'aggiornamento dei segmenti di Nodelist  viene  effettuato
+ tra NC ed HUBs in modo automatico tramite l'utility MAKENL. I tempi di modifi-
+ ca si sono pertanto drasticamente ridotti.
+
+      Il 5/12 si e' tenuta una Fidopizzata del Net in quel di Padova. Non aven-
+ dovi partecipato di persona, non sono in grado di riferire maggiori particola-
+ ri.
+
+      Ciao!                     /*Piero*/
+
+                             *** net 334 ***
+
+      Lunedi` 11 gennaio, ore 21, assemblea dell'associazione TamTam presso  il
+ CRDC - C.so Sicilia 12 - Torino. C'e` tra l'altro da eleggere il Consiglio Di-
+ rettivo.
+
+      Mercoledi`  20 gennaio, stesso luogo e stessa ora, e` invece indetta  una
+ riunione di net. All'ordine del giorno:
+      - situazione del net
+      - discussione sulle ultime vicende relative alla regolamentazione degli
+           accessi alle aree SYSOP.033 e NETSYSOP.334
+      - elezione del NEC
+      - elezione del NC
+      - razionalizzazione aree files di net
+      - varie ed eventuali.
+
+           ciaociao .mau.
+
+
+
+
+ ############                                                               ###
+ ###   8  ###                                   INDICE 1992 DI TELEMATICUS  ###
+ ############                                                               ###
+
+ Cosa e` apparso su  Telematicus l'anno scorso e dove? Ecco qua... Ricordo  che
+ il numero 13 conteneva l'indice 1991. .mau.
+
+             FIDONET:                  |             VIVAMIGA:               
+ La rete ISN                # 13 p. 30 |  Lettura comandi da CLI     # 14 p. 41
+ Quale ASCII nell'Echomail? # 17 p. 15 |  La seriale in Amiga        # 15 p. 17
+ Circuiti distribuz. files  # 19 p.  6 |  Seriale II (la rivincita)  # 16 p. 60
+ BBS-ITA                    # 19 p. 10 |  Amigaseria_l III           # 17 p. 29
+ Che cos'e`... la nodelist  # 21 p. 24 |  Un 'rologio nel vs. Amiga  # 18 p. 70
+ Vota il tuo BBS            # 23 p. 14 |  Amiga, 'sta faccia da GUI  # 19 p. 24
+ I flag della nodelist      # 24 p.  5 |  Amiga gadgioso             # 22 p. 27
+                                       |  Il crepuscolo degli dei    # 23 p. 23
+         BBS E AREE ECHO:              |  L'Amiga 4000               # 24 p. 31
+ BBS: Olimpus e Kerigma     # 16 p. 29 |
+ HUB: 332/400               # 17 p. 23 |                 REVIEW:             
+ BBS: TARAS                 # 18 p. 19 |  MultiEdit 5.0              # 13 p. 25
+ Aree echo: MENSA.335       # 21 p. 20 |  MANMOD-1                   # 23 p. 21
+ Aree echo: Peacelink       # 23 p. 10 |
+                                       |          IL JARGON FILE:             
+        NOTIZIE REGION 33:             |  brute force - bytesexual   # 13 p. 45
+ Gennaio                    # 13 p. 54 |  C - Church of the ...      # 14 p. 54
+ Febbraio                   # 14 p. 65 |  Cinderella - comment out   # 15 p. 26
+ Marzo                      # 15 p. 37 |  Commonwealth - cosmic rays # 16 p. 75
+ Aprile                     # 16 p. 85 |  CP/M - crosspost           # 17 p. 42
+ Maggio                     # 17 p. 49 |  Crudware - cycle server    # 18 p. 77
+ Giugno                     # 18 p. 85 |  D - dink                   # 19 p. 31
+ Luglio                     # 19 p. 45 |  Dinosaur - dynner          # 21 p. 42
+ Settembre                  # 21 p. 55 |  E - EXE                    # 22 p. 44
+ Ottobre                    # 22 p. 55 |  F - flaky                  # 23 p. 32
+ Novembre                   # 23 p. 44 |  Flamage - fuzzball         # 24 p. 38
+ Dicembre                   # 24 p. 54 |
+                                       |          SOFTWARE ITALIANO:          
+             I "SERIAL":               |  Mercurio                   # 13 p. 15
+ Itapac - parte 10          # 13 p. 18 |  Galileo: l'ora col modem   # 13 p. 21
+ Itapac - parte 11          # 14 p. 28 |  Wedit                      # 14 p. 25
+ Cavi & cavetti - parte 1   # 16 p.  5 |  DrComm                     # 16 p. 15
+ Cavi & cavetti - parte 2   # 17 p.  6 |  Il Progetto WARP           # 16 p. 36
+ Cavi & cavetti - parte 3   # 18 p.  6 |  Gimme-A-Point              # 23 p.  6
+ Crittografia - parte 1     # 24 p. 23 |  RFA                        # 24 p. 10
+                                       |  RFAShell                   # 24 p. 16
+         CURIOSITA` E RACCONTI:        |
+ Donne e linguaggi...       # 13 p. 40 |           TELEMATICA GENERICA:       
+ Itapak (?)                 # 14 p. 50 |  Programm. Object-Oriented  # 13 p.  5
+ Il C e` una truffa!        # 20 p.  5 |  BBS e cucina: Pierre       # 13 p. 36
+ Problemi di vuoto          # 20 p.  9 |  Internet: la storia        # 14 p. 20
+ WC-DOS delle mie brame     # 20 p. 12 |  Che cos'e`... il V.42bis   # 15 p.  6
+ Consigli medici            # 20 p. 17 |  Internet: i comandi        # 15 p. 11
+ Abbassamiga                # 20 p. 23 |  Meteosat da Rai-Televideo  # 19 p. 43
+ La Creazione               # 20 p. 27 |  La compressione            # 21 p.  5
+ Come dimostrare un teorema # 20 p. 30 |  Che cos'e` ... ISDN        # 22 p.  5
+ Musica, maestro!           # 20 p. 35 |  OOP delle mie brame        # 22 p. 16
+ Annunci di congressi       # 20 p. 42 |  Teledrin via modem         # 24 p.  8
+ Z - parte 1                # 19 p. 19 |                                      
+ Z - parte 2                # 21 p. 31 |                 VARIE:               
+ Z - parte 3                # 22 p. 24 |  Indice 1991 di Telematicus # 13 p. 57
+ Coke Machine su Internet   # 22 p. 39 |  Il SysCon '92              # 14 p.  7
+                                       |  E i Sinclair?              # 14 p. 33
+         IL PROGRAMMINO:               |  Feedback Utenti            # 16 p. 69
+ ERR2OUT                    # 14 p. 35 |  Feedback Utenti            # 17 p. 36
+ uuencode e uudecode        # 16 p. 44 |  Il Wc-Dos di RRE           # 22 p. 10
+ crittografiamo!            # 18 p. 24 |  frattali frattali          # 23 p. 18
+       
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:   
+
+ 334/100 - 011-3299706     | 334/104 - 011-502423      | 334/105 - 011-2238389
+ 335/211 - 099-4746313     | 335/215 - 099-4746044     | 331/112 - 0341-360511
+ 333/603 - 040-3783111     | 332/315 - 0721-30783      | 334/107 - 011-890084
+
+      da Sintel, 011-596274,
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/306 - 0121-542795     | 335/210 - 081-5709527     | 335/405 - 06-315323
+
+
+####                            End of TELEM025                            ####

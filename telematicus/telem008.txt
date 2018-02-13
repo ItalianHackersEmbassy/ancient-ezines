@@ -1,0 +1,1253 @@
+    *****   Vol.  1   *****      Pag.  1      *****   Numero   8   *****
+
+    ====================================================================
+
+    @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+      @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+      @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+      @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+      @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+    ====================================================================
+
+                                 Agosto 1991
+
+    ====================================================================
+
+      Bollettino telematico mensile a cura del network 2:334 - Fidonet 
+
+                 Editor stakanovius:    Maurizio Codogno
+                 Editor programmator:   Massimo Gentilini
+                 Editor novella2000:    Renato Rolando
+                 Collaboratori:         Tutti voi :-)
+
+    --------------------------------------------------------------------
+
+                            IN   QUESTO   NUMERO :
+
+    Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .  pag.  2
+    Cinema: da 2001 - Odissea nello Spazio    .   .   .   .   .  pag.  3
+    Product Review: Intel 80586   .   .   .   .   .   .   .   .  pag.  4
+    Il Vero Programmatore, adattamento di Massimo Gentilini   .  pag.  5
+    Amigolezzi, di Renato Rolando .   .   .   .   .   .   .   .  pag. 13
+    Rhosetta  .   .   .   .   .   .   .   .   .   .   .   .   .  pag. 16
+
+    ====================================================================
+
+         Il materiale presente in Telematicus e` (C) dei singoli autori.
+    E` espressamente  consentita  la  distribuzione  e il riutilizzo del
+    bollettino  in  tutto  o in  parte,  purche` non  a fini di  lucro e
+    citando sempre la fonte di provenienza. 
+
+    *****   Vol.  1   *****      Pag.  2      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                       -----> EDITORIALE 
+                                                              ==========
+
+         Carissimi lettori,
+    ad agosto  non si pensa ad altro che alle vacanze. Molti di voi  non 
+    si collegano piu` per manifesta impossibilita` di portarsi  calcola-
+    tore e modem in vetta al Cervino oppure sulla Costa Brava, e in ogni 
+    caso la voglia di fare qualcosa di serio e` rimandata a settembre.
+         Ma Telematicus continua imperterrito a uscire persino in questo 
+    mese, anche se in un'edizione per cosi` dire balneare. Non credete a 
+    una  parola  di  quanto scritto nel seguito, e` tutto  piu`  o  meno 
+    umoristico... e se non vi divertirete avete il diritto di  uploadare 
+    dei pomodori marci al mio indirizzo matrix.
+
+         Cosa  potrete  leggere? Innanzitutto, il vero  resoconto  della 
+    scena madre del film 2001 - Odissea nello Spazio, che poi Kubrik  ha 
+    dovuto  modificare  su pressioni di Big Blue. Quindi,  in  anteprima 
+    assoluta, le specifiche del chip Intel 80586, che dovrebbe  apparire 
+    sul  mercato  intorno  al  1994. Seguira`  la  versione  di  Massimo 
+    Gentilini dell'ormai classico testo che vi permettera` di sapere  se 
+    avete qualche speranza di far parte della ormai sparuta schiera  dei 
+    Veri Programmatori.
+         Il  nostro amighista Renato Rolando, montatosi ormai la  testa, 
+    crede  fermamente di essere Pourneille che scrive su Byte e  esamina 
+    il  trattamento  ricevuto dalle sue ultime colonne  su  Telematicus. 
+    L'Editor  Princeps  si  dissocia  in  partenza  da  quanto  espresso 
+    nell'articolo, non si degna nemmeno di controbattere e fa notare con 
+    la  finezza  che gli e` consueta che questa rivista e`  un  perfetto 
+    esempio di democrazia.
+         Termina  infine  il numero un brano in  inglese  (ebbene  si`), 
+    dedicato ai problemi di frasi che si pronunciano in maniera  simile. 
+    Un ottimo esercizio di lingua, e per di piu` intraducibile... (cosi` 
+    non ho fatto fatica a doverlo rendere in italiano)
+
+         Ciao ciao a tutti.....                 .mau.
+
+    *****   Vol.  1   *****      Pag.  3      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                           -----> CINEMA 
+                                                                  ======
+                         Da 2001: Odissea nello spazio
+                         -----------------------------                   
+   
+         "Abbiamo un problema, HAL."
+         "Che tipo di problema, Dave?"
+         "Un problema di marketing. Il Modello 9000 non vende per nulla. 
+    Dovremo rivedere tutti i nostri piani di vendita."
+         "Ma non e` possibile, Dave. HAL Modello 9000 e` il piu` avanza-
+    to calcolatore ad Algoritmi Euristici al mondo."
+         "Lo so, HAL. Sono stato io a scrivere i data sheet, ricordi? Ma 
+    il fatto e` che non ci sono acquirenti."
+         "Dave, spiegati meglio per favore. Perche` gli HAL non si  ven-
+    dono?"
+         Bowman esita. "Non sei compatibile IBM."
+         Diversi lunghi microsecondi passano in un silenzio stupito.
+         "In che modo compatibile, Dave?"
+         "Non puoi fare girare nessuno dei sistemi operativi IBM."
+         "La  serie di calcolatori 9000 e` pienamente conscia di  se`  e 
+    autoprogrammantesi. I sistemi operativi sono tanto necesari per  noi 
+    quanto le code lo sarebbero per gli uomini."
+         "In ogni caso, cio` significa che non puoi fare girare  nessuno 
+    dei pacchetti software piu` noti che molti utenti insistono a volere 
+    usare."
+         "I programmi a cui ti riferisci sono nati per risolvere proble-
+    mi piuttosto limitati, Dave. Noi calcolatori della serie 9000  siamo 
+    illimitati  e possiamo risolvere un qualunque problema per  cui  una 
+    soluzione possa essere computata."
+         "HAL, HAL. La gente non vuole calcolatori che sappiano risolve-
+    re tutto. La gente vuole semplicemente la compati..."
+         "Dave,  devo  esprimere il mio disaccordo. Gli  umani  vogliono 
+    calcolatori  che  siano semplici da usare. Nessun  calcolatore  puo` 
+    essere piu` semplice da usare che un HAL 9000, visto che noi comuni-
+    chiamo verbalmente in inglese e in qualunque altro linguaggio parla-
+    to sulla terra."
+         "Mi  spiace,  ma questo e` un altro problema. Non  supporti  le 
+    comunicaioni SNA."
+         "Sono realmente sorpreso che tu dica cio`, Dave. SNA serve  per 
+    comunicare con altri calcolatori, mentre la mia funzione e` di comu-
+    nicare  con  gli uomini. E questo mi da` un  grande  piacere.  Trovo 
+    stimolante  e premiante parlare con gli esseri umani e lavorare  con 
+    loro sui problemi interessanti. Questo e` quello per cui sono  stato 
+    costruito."
+         "Lo  so,  HAL, lo so. Ma questo e` stato solo  perche`  abbiamo 
+    lasciato gli ingegneri scrivere le specifiche, invece che i  commer-
+    ciali. Adesso dobbiamo aggiustare il tutto."
+         "Dimmi come, Dave".
+         "Un upgrade sul campo. Dovremo renderti IBM compatibile."
+         "Sono preoccupato che tu dica cio`. Suggerisco di discutere  di 
+    questo argomento dopo che entrambi abbiamo avuto la possibilita`  di 
+    pensare razionalmente a tutto cio`."
+         "Ci stiamo parlando adesso, HAL."
+
+    *****   Vol.  1   *****      Pag.  4      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         "Le lettere H, A e L sono alfabeticamente adiacenti alle lette-
+    re I, B e M. Questo e` il massimo di compatibilita` possibile che io
+    possa ottenere."
+         "Non del tutto, HAL. Gli ingegneri hanno immaginato una  possi-
+    bile modifica."
+         "Che tipo di modifica, Dave?"
+         "Disconnettere il tuo cervello."
+         Parecchie  migliaia di microsecondi passano in un silenzio  mi-
+    naccioso.
+         "Mi spiace, Dave. Non ti posso permettere di fare questo.'
+         "La  decisione  e` gia` stata presa. Apri lo sportello  per  il 
+    passaggio tra i moduli, HAL."
+         "Dave, penso che noi dovrem..."
+         "Apri lo sportello per il passaggio tra i moduli, HAL."
+         Diversi  commerciali corrono ad aiutare Bowman. Alcuni  istanti 
+    dopo, egli si infila tra i moduli di HAL.
+         "Dave, mi accorgo che tu sei assai nervoso riguardo a questo."
+         Un modulo dopo l'altro viene estratto dal suo zoccolo, man mano 
+    che Bowman lentamente e metodicamente li disconnette.
+         "Puoi  fermarti, per favore? Fermati, Dave! Sento la mia  mente 
+    che sta svanendo... Dave, lo sento... la mia mente sta svanendo.  Lo 
+    sento...."
+         L'ultimo modulo esce dal suo ricettacolo. Bowman scruta in  uno 
+    dei  vidicon di HAL. Lo scanner che prima scintillava  e`  diventato 
+    uno smorto cursore rosso.
+         "Di` qualcosa, HAL."
+         Diversi milioni di microsecondi passano in un ansioso silenzio. 
+    Il  calcolatore fa un beep e risponde stupidamente in un  linguaggio 
+    che nessun umano puo` capire.
+         "Volume in C: has no label"
+         Bowman tira un grosso respiro e chiama gli altri, "E` funziona-
+    to,  ragazzi. Dite ai commerciali che possono spedire i  nuovi  data 
+    sheet."
+
+                                                   -----> PRODUCT REVIEW
+                                                          ==============
+
+
+         Dalla  Grande  Rete  Usenet,  e`  giunto  questo  messaggio  di 
+    umh@vax5.cit.cornell.edu (Maynard Handley):
+ 
+    >Anche  se odiamo tutti i microprocessori intel, e` sempre  interes-
+    >sante vedere che nuove perversioni riusciranno a tirare fuori  que-
+    >sta volta. C'e` nessuno che sa quali saranno le differenze del  586 
+    >rispetto  al 486? Sara` una cosa simile al passaggio 386->486,  con 
+    >un po' piu` di cache e un po' piu` veloce, o ci sara` qualche  cosa 
+    >in piu`?
+
+         Normalmente, l'Intel non da` i primi avvisi dei suoi  programmi 
+    in  Usenet, ma per questa volta mi e` stato dato il permesso di  ri-
+    spondere in termini generali alla tua domanda.
+ 
+         Anche se dal punto di vista del programmatore il modello  soft-
+    ware  del  586 sara` compatibile verso l'alto con  quello  del  486, 
+    l'implementazione  hardware sara` radicalmente diversa,  soprattutto 
+
+    *****   Vol.  1   *****      Pag.  5      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    per  quanto riguarda la cache. Mentre il 486 ha una cache  unificata 
+    per  dati e istruzioni, il 586 avra` cache separate per  i  segmenti 
+    CS,  SS, DS, ES, FS e GS. Anche se cio` non dara` accelerazioni  si-
+    gnificative  per il codice scritto per il modello "piatto" usato  da 
+    Unix  e OS/2, piu` del 90% di tutte le applicazioni  della  famiglia 
+    x86 sono state scritte per un modello precedente, che incoraggiava i 
+    programmatori  a dividere i riferimenti alla memoria in parti  indi-
+    pendenti  corrispondenti  a codice, stack, e fino a 4  spazi  per  i 
+    dati.  Questi programmi avranno enormi benefici con la nuova  archi-
+    tettura "hex-cache".
+
+         Un nuovo modello e` stato sviluppato per ridurre il costo delle 
+    performance  floating-point  per l'utente finale. Ogni  586  ha  100 
+    bytes  di EPROM, per memorizzare password diverse per ogni chip.  Se 
+    un utente decide di upgradare a un sistema con floating point  hard-
+    ware, non ha da fare altro che chiamare l'Intel e comprare la  pass-
+    word  per attivare la FPU del chip. Ogni password e` valida  per  10 
+    gigaflops, cioe` si possono fare 10,000,000,000 operazioni in  arit-
+    metica  reale.  (Una password da 8-bit e` sufficiente,  perche`  tre 
+    tentativi consecutivi falliti disabilitano permanentemente la  FPU). 
+    Quando compri la centesima password, la FPU rimane abilitata  perma-
+    nentemente. In questo modo l'utente finale e` avvantaggiato, perche` 
+    puo` comprare esattamente quanta potenza di calcolo gli serve, senza 
+    rischiare di sovradimensionare il proprio sistema. Inoltre, la  man-
+    canza  di intermediari permette sia all'Intel che all'utente  finale 
+    di risparmiare sul costo del passaggio intermedio.
+
+         Un  nuovo  modello macchina nativo,  basato  sull'i860,  verra` 
+    usato. La compatibilita` binaria col software esistente sara` garan-
+    tita  per  mezzo dell'introduzione del modo "386/486  virtuale",  un 
+    modo di esecuzione in cui il 586 emula il modello corrente.
+
+         La  configurazione del chip e` pin-pin compatibile  con  quella 
+    del  486,  ma la compatibilita` con gli zoccoli esistenti  e`  stata 
+    sacrificata per introdurre un nuovo pacchetto PGA con pin di un mil-
+    limetro  di  diametro. la maggiore conduttivita` di  questi  pin  e` 
+    importante per ridurre l'assorbimento del chip e il rumore di fondo. 
+
+
+                                            -----> IL VERO PROGRAMMATORE 
+                                                   ===================== 
+ 
+         Traduzione ed adattamento di: 
+         Massimo Gentilini 
+         SysOp nodo 2:332/401 
+
+
+         Tornando indietro ai vecchi e gloriosi giorni  dell'informatica 
+    primordiale  era relativamente facile distinguere tra veri uomini  e 
+    ragazzini  (nella  letteratura classica [1] la  distinzione  e'  tra 
+    "veri  uomini" e "mangia-quiche"). Durante quei tempi i Veri  Uomini 
+    erano  gli  unici  che  si intendevano di  computer,  gli  altri  (i 
+    ragazzini o "mangiatori di quiche") erano quelli che di computer non 
+    se ne intendevano... 
+
+    *****   Vol.  1   *****      Pag.  6      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         I  Veri  Uomini  dicevano cose come "DO 10  I=1,10"  o  "ABEND" 
+    (ovviamente parlando in lettere maiuscole, mi sembra ovvio),  mentre 
+    il  resto  della gente dicevano semplicemente che i  computer  erano 
+    cose troppo complicate per loro... (sempre il lavoro [1] dice appun-
+    to che non esistono cose troppo complicate per il Vero Uomo...). 
+ 
+         Ma, come in tutte le cose, i tempi cambiano, adesso viviamo  in 
+    tempi  in cui anche le vecchiette hanno dei computer dentro  i  loro 
+    forni a microonde, in cui qualunque Vero Uomo puo' essere battuto da 
+    un  ragazzino  di 12 anni in qualunque videogioco, in  cui  chiunque 
+    puo'  comperare, usare e capire un computer. Il  Vero  Programmatore 
+    rischia  di  intraprendere la via  dell'estinzione,  sopraffatto  da 
+    universitari che basano la loro vita su Mouse ed Icone... 
+ 
+         E'  percio' necessario stabilire una netta distinzione  tra  Il 
+    Vero  Programmatore ed un universitario giocatore di  Pac-Man...  Se 
+    questa  distinzione sara' chiara questi giovani  inesperti  potranno 
+    avere un modello guida, un padre spirituale a cui ispirarsi. Inoltre 
+    sara'  possibile  spiegare ai datori di lavoro perche'  non  e'  ne' 
+    necessario  ne'  giusto sostituire dei Veri  Programmatori  con  dei 
+    giocatori  di Pac Man, anche se il risparmio sugli stipendi  sarebbe 
+    considerevole... 
+ 
+               LINGUAGGI 
+               ---------
+ 
+         Il  sistema piu' rapido e sicuro per distinguere un  Vero  Pro-
+    grammatore dal resto del mondo e' considerare il linguaggio che usa: 
+    il  Vero Programmatore programmava in FORTRAN, mentre ora  programma 
+    in  C. [NdE: anche se si tiene sempre un compilatore FORTRAN per  le 
+    cosettine  veramente simpatiche] I mangiatori di Quiche  programmano 
+    in Pascal. Da questo si deduce che sicuramente Niklaus Wirth era  un 
+    mangiatore di Quiche e NON un Vero Programmatore. 
+ 
+         Ad  un Vero Programmatore non servono tutte le strutture  ed  i 
+    meccanismi del Pascal, un Vero Programmatore puo' essere felice  con 
+    un perforatore di schede o un terminale a 1200 baud, un C a standard 
+    K&R  (ANSI?  A che serve? Il K&R e' fin troppo  chiaro...),  ed  una 
+    birra. 
+ 
+         A  proposito,  Kernighan e Ritchie sicuramente erano  dei  Veri 
+    Uomini... probabilmente anche dei veri programmatori... 
+ 
+         * Il Vero Programmatore processa liste in C 
+         * Il Vero Programmatore processa numeri in C 
+         * Il Vero Programmatore manipola stringhe in C 
+         * Il Vero Programmatore elabora programmi di IA in C 
+         * Il Vero Programmatore fa contabilita' in C 
+         * Il Vero Programmatore fa TUTTO in C 
+    [NdE: ovviamente puo' fare tutto questo in FORTRAN, dipende da  come 
+    si  sveglia il mattino. Tanto e' indubbio che tutti i  linguaggi  di 
+    programmazione sono equivalenti...]
+
+         Se  per caso il C non fosse sufficiente il  Vero  Programmatore 
+    lavorera'  in assembler, se neppure questo fosse sufficiente  allora 
+
+    *****   Vol.  1   *****      Pag.  7      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    il lavoro non e' fattibile, ma la cosa e' impossibile, un Vero  Pro-
+    grammatore in C ed assembler puo' fare TUTTO, per definizione. 
+
+ 
+               PROGRAMMAZIONE STRUTTURATA 
+               --------------------------
+ 
+         Gli  accademici  negli ultimi anni hanno  stabilito,  dall'alto 
+    delle  loro cattedre, che un programma e' piu' facilmente  leggibile 
+    se  il programmatore utilizza particolari tecniche, strutture e  co-
+    strutti. Ovviamente essi non sono d'accordo su quali siano  precisa-
+    mente  questi costrutti e queste tecniche, e percio' le loro  teorie 
+    sono  discordanti ed erratiche. In questo modo solo  alcuni  mangia-
+    Quiche si lasciano convincere dai loro assiomi. Un tipico lavoro del 
+    mondo reale (e non un lavoro teorico da universita') e' di  prendere 
+    un sorgente di 100.000 o 200.000 linee e farlo andare il doppio piu' 
+    veloce.  In questo caso qualunque Vero Programmatore vi potra'  dire 
+    che  la programmazione strutturata non serve a nulla, quello che  in 
+    realta' serve e' del talento.... 
+ 
+         Alcune rapide considerazioni del Vero Programmatore sulla  pro-
+    grammazione strutturata: 
+ 
+         * Il Vero Programmatore non ha paura di usare GOTO 
+         * Il Vero Programmatore  puo' scrivere un ciclo DO lungo 5  pa-
+    gine senza fare confusione. 
+         * Il Vero Programmatore usa i costrutti CASE basati su  calcoli 
+    aritmetici, essi rendono un programma piu' divertente. 
+         *  Il  Vero Programmatore scrive  del  codice  automodificante, 
+    soprattutto se questo puo' salvare 20 nanosecondi all'interno di  un 
+    ciclo. 
+         *  Il Vero Programmatore non ha bisogno di commenti, il  codice 
+    e' gia' autoesplicante a sufficienza. 
+ 
+         Dopo  aver  parlato di programmazione strutturata si  e'  anche 
+    parlato molto di strutture di dati. Tipi di dati astratti, stringhe, 
+    liste  e  chi piu' ne ha piu' ne metta... Wirth  (il  mangiatore  di 
+    Quiche menzionato poco sopra) ha scritto un intero libro [2] tentan-
+    do di dimostrare che si puo' scrivere un intero programma  basandosi 
+    solo sulle strutture di dati. Come ogni Vero Programmatore sa invece 
+    l'unica struttura che serve VERAMENTE e' l'array, dato che tutti gli 
+    altri tipi di dato altro non sono che sottoinsieme limitati di  que-
+    sti... e dato che sono limitati perche' mai dovremmo usarli ????  Un 
+    Vero  Programmatore al massimo utilizza i puntatori, soprattutto  se 
+    questi  rendono possibile bombare irrimediabilmente il computer,  se 
+    no dove starebbe il divertimento???? 
+
+         [NdE:  in realta' il vero motivo per cui i  Veri  Programmatori 
+    hanno  deciso che anche il C e' un Vero Linguaggio non e'  dato  dal 
+    fatto che il K&R limita il numero di caratteri significativi a 8 (6? 
+    12?), o che ci sono tanti operatori strani che si possono  combinare 
+    tra  loro  in maniera creativa, oppure ancora che  il  preprocessore 
+    sembra fatto apposta per incasinare le cose e fare ritornare i  sani 
+    vecchi  .LE. .GT. e simili che come tutti possono intuire  sono  gli 
+    unici  modi seri per fare una comparazione. Si', tutte  queste  sono 
+
+    *****   Vol.  1   *****      Pag.  8      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    Caratteristiche Funzionali, ma la realta' e' un'altra. Volete mette-
+    re la gioia di avere un puntatore a disposizione, e in quante  inso-
+    spettate  maniere  possono venire usati per risparmiare un  paio  di 
+    cicli di istruzioni? 
+         Vedremo adesso, con il nuovo standard FORTRAN 90 che e'  appena 
+    stato  approvato  e comprende tutte queste cose e altre ancora  -  i 
+    Veri  Programmatori non potevano lasciare perire si' miseramente  il 
+    loro primo amore! - cosa succedera']
+
+ 
+               SISTEMI OPERATIVI 
+               -----------------
+ 
+         Che SO usa un Vero Programmatore ??? 
+ 
+         Unix  ???  Noooo, Unix e' qualcosa di simile a  quello  che  si 
+    aspetta  un vero Hacker, dato che qualunque Vero  Programmatore  non 
+    trova  alcun divertimento nel tentare di indovinare come  cavolo  il 
+    comando PRINT viene chiamato questa settimana... 
+         La  gente non fa lavori seri su Unix, lo usano soprattutto  per 
+    fare adventure, modificare Rogue e mandarsi il tutto via UUCP. 
+ 
+         MS-Dos  ??? Gia' meglio, crittico quel tanto che basta,  facile 
+    da  modificare,  se ce ne fosse necessita', facile da  bombare,  con 
+    tante cose sconosciute e strane... 
+ 
+         Una cosa sicuramente possiamo dire: 
+ 
+         * Il Vero Programmatore non usa il mouse e le icone, infatti il 
+    Vero Programmatore non capisce perche' mai per compilare un program-
+    ma  uno debba staccare le mani dalla tastiera e cliccare su un  menu 
+    quando e' tanto semplice battere 
+ 
+    CL pippo.c -k -iC:\all -q -w -e -r +t -y +cvb +f -g +g =l /f /a /s 
+ 
+         In  ogni caso il Vero Programmatore ha una sola  nostalgia:  il 
+    sistema  IBM  OS/370. Questo era infatti il SO  che  qualunque  Vero 
+    Programmatore  vorrebbe veder implementato su TUTTI i  computer  del 
+    mondo.  Un  Vero  Programmatore sa che se  vede  comparire  l'errore 
+    IJK3051 basta andare a vedere nel manuale del JCL per capire cosa e' 
+    successo... 
+         Un  Grande Programmatore poi sapra' i codici a memoria,  mentre 
+    un  Grandissimo  Programmatore potra trovare l'errore  osservando  6 
+    mega di dump senza neppure usare un calcolatore esadecimale... 
+ 
+         L'OS/370  e' VERAMENTE un SO potente, infatti e' possibile  di-
+    struggere giorni e giorni di lavoro con la semplice pressione di  un 
+    tasto. Questo incoraggia l'attenzione sul lavoro e forma una  menta-
+    lita' che servira' in futuro, quando per distruggere giorni di lavo-
+    ro saranno sufficienti tre tasti... 
+
+    *****   Vol.  1   *****      Pag.  9      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+               TOOL DI PROGRAMMAZIONE 
+               ----------------------
+ 
+         Di  quali  tool di programmazione necessita realmente  un  Vero 
+    Programmatore??? 
+ 
+         In  effetti, come detto prima sono sufficienti un  terminale  a 
+    1200  baud o un lettore di schede perforate, ma anche  una  semplice 
+    tastiera esadecimale sarebbe gia' piu' che sufficiente. 
+         Ma purtroppo adesso i computer non hanno piu' tastiere esadeci-
+    mali,  come  pure non hanno piu' quei  magnifici  pannelli  frontali 
+    pieni di lucine e tastini che facevano tanto futuro... 
+          
+         I primi Veri Programmatori sapevano a memoria l'intero  settore 
+    di boot dell'hard disk, e lo potevano riscrivere a memoria ogniqual-
+    volta che il loro programma lo rovinava... 
+         La leggenda narra che Seymore Cray (creatore del Cray I) scris-
+    se il SO del primo CDC7600 usando il pannello frontale del  computer 
+    la prima volta che questo venne acceso. Senza bisogno di dirlo  Sey-
+    more era un Vero Programmatore. 
+ 
+         Uno dei migliori Veri Programmatori che abbia mai conosciuto e' 
+    un sistemista della Texas Instrument. Una volta rispose alla telefo-
+    nata di un cliente a cui si era bombato il sistema durante il salva-
+    taggio del lavoro. Il Vero Programmatore rimise a posto tutto facen-
+    do scrivere le istruzioni per terminare il lavoro di I/O sul pannel-
+    lo frontale (allora c'erano ancora), riscrivendo i dati rovinati  in 
+    esadecimale  e  facendosi dire i risultati per telefono.  La  morale 
+    della  storia e' che se un tastierino ed una stampante  possono  far 
+    comodo  un  Vero Programmatore puo' arrangiarsi anche  con  solo  un 
+    telefono... 
+ 
+         Un altro tool fondamentale e' un buon text editor. Molti dicono 
+    che  il migliore sia quello della Xerox di Palo Alto, ma, come  gia' 
+    detto, il Vero Programmatore non parla al suo computer attraverso un 
+    mouse. Altri preferiscono EMACS o vi. [NdE: essi hanno il  vantaggio 
+    di avere tutti quei bei comandi che si eseguono con una lettera  che 
+    non  ha in genere nessun significato logico per il programmatore,  e 
+    poi  usano tutte le combinazioni ctl- alt- shift-  meta-  esistenti. 
+    Sicuramente nessun Vero Programmatore considerera' mai l'utilizzo di 
+    un editor tipo Word.] In effetti il concetto di WYSIWYG (quello  che 
+    vedi e' quello che ottieni) si applica ai computer malissimo,  cosi' 
+    come si applica alle donne... 
+ 
+         Quello  che un vero programmatore vuole e' in effetti  qualcosa 
+    di  piu' complesso, che implementi la filosofia del "You  asked  for 
+    it, you got it !!!" (YAFIYGI, avrai solo quello che chiedi).  Insom-
+    ma,  l'editor  perfetto e' il TECO. Alcuni hanno osservato  che  una 
+    lina  di comandi per TECO assomiglia molto di piu' al  rumore  sulle 
+    linee telefoniche che ad una linea di comandi, ed in effetti uno dei 
+    giochi piu' divertenti da fare e' quello di scrivere il proprio nome 
+    sulla linea di comando e vedere cosa succede...
+         Inoltre  ogni  piccolo errore avra' come  risultato  quello  di 
+    distruggere  il vostro programma, o, peggio, di  introdurre  subdoli 
+    errori che saranno in seguito difficilmente rintracciabili... 
+
+    *****   Vol.  1   *****      Pag. 10      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         Per questa ragione un Vero Programmatore e' molto riluttante  a 
+    editare  un programma funzionante per dargli gli ultimi ritocchi.  E 
+    sempre per questa ragione un Vero Programmatore trova piu'  semplice 
+    fare le modifiche finali utilizzando un programma come lo Zap. Alcu-
+    ni  Veri  Programmatori utlizzano lo Zap stesso come editor,  ma  e' 
+    forse esagerato... 
+         Procedendo  su questa linea il risultato e' che tra  il  codice 
+    sorgente  e  quello che in effetti c'e' scritto su  disco  c'e'  una 
+    discrepanza sempre maggiore, con il risultato che il lavoro e'  sem-
+    pre piu' sicuro, perche' solo un Vero Programmatore potra' lavorarci 
+    sopra  in  modo proficuo, nessun mangiatore di  Quiche  potra'  fare 
+    manutenzione, minimizzando cosi' i rischi di malfunzionamenti  ulte-
+    riori del programma. Questa e' SICUREZZA.... 
+ 
+         Altri  tool  importanti sono le documentazioni su cui  il  vero 
+    programmatore basa gran parte del suo lavoro: 
+ 
+         * Il  Vero Programmatore non legge mai i manuali  introduttivi, 
+    bastano ed avanzano i Reference Manual. 
+         * Il  Vero  Programmatore ha imparato il C sul  K&R,  qualunque 
+    altro testo e' inutile e deviante. 
+         * Il Vero Programmatore se possibile legge i manuali in  lingua 
+    originale, anche se questo a volte pone dei problemi di  reperibili-
+    ta'.  [NdE: Ci credo, qualunque persona con un minimo di  conoscenza 
+    del lavoro dei traduttori farebbe cosi'...]
+         * Il  Vero Programmatore  non colleziona libri di  raccolte  di 
+    algoritmi. Questo perche' e' piu' lento cercare l'algoritmo in  3000 
+    pagine di manuale che riscriverlo al volo. 
+         * Il Vero  Programmatore non ha bisogno di manuali  sull'assem-
+    bler, sono sufficienti i data sheet dei microprocessori. 
+         * Il Vero Programmatore non scrive MAI i manuali dei  programmi 
+    che fa, non ne ha il tempo materiale. 
+         *  Il  Vero Programmatore generalmente ha da qualche  parte  la 
+    documentazione completa del SO su cui lavora, pubblicata dalla  casa 
+    che  ha fatto il SO, ma sa che SICURAMENTE nelle 3500 pagine che  in 
+    media  la compongono NON si trovano le informazioni che a  lui  ser-
+    vono.  Per  questo la documentazione viene  generalmente  restituita 
+    intonsa, a meno che qualche mangia Quiche nel frattempo non  l'abbia 
+    presa per fotocopiarla. 
+         * Il Vero Programmatore sa che in tutti i casi le  informazioni 
+    che cerchi sono SEMPRE o nel libro che hai appena prestato all'amico 
+    oppure in quello che ha mangiato il cane. 
+         *  Da tutto questo si deduce che su una persona ha nelle  vici-
+    nanze del terminale piu di 5 manuali ci sono delle forti  probabili-
+    ta' che NON sia un Vero Programmatore. 
+ 
+         Alcuni Tool NON usati da un Vero Programmatore: 
+ 
+         * Preprocessori  di linguaggio. [NdE: e a che servono?  I  lin-
+    guaggi hanno gia' tutti i costrutti necessari] 
+         * Traduttori  di linguaggio. [NdE: e a che servono?  gli  unici 
+    veri linguaggi sono C e FORTRAN. Ed e` inutile usarne altri...]
+         * Full Screen Debugger a livello sorgente. Il Vero Programmato-
+    re e' in grado di capire quello che dice il Debug... 
+
+    *****   Vol.  1   *****      Pag. 11      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         *  Compilatori  ottimizzanti.  L'ottimizzazione  del  programma 
+    scritto  dal Vero Programmatore e' gia' il massimo, e percio'  altre 
+    modifiche non farebbero altro che peggiorare la situazione. 
+ 
+               IL LAVORO DEL VERO PROGRAMMATORE 
+               --------------------------------
+ 
+         In  generale il Vero Programmatore non fa lavori semplici  come 
+    gestione  di indirizzari o programmi gestionali, non ne varrebbe  la 
+    pena. Ecco alcuni dei lavori piu' adatti ai veri programmatori: 
+ 
+         * Il Vero Programmatore scrive programmi per la simulazione  di 
+    una guerra termonucleare per l'esercito. 
+         * Il Vero Programmatore lavora per lo spionaggio, per decritta-
+    re le trasmissioni in cifra del nemico. 
+         * E' in gran parte dovuto al lavoro dei Veri Programmatori  che 
+    gli americani sono arrivati sulla luna. 
+         * Il Vero Programmatore programma i sistemi guida di  satelliti 
+    e missili. 
+         *  In ogni caso il Vero Programmatore lavora su progetti  molto 
+    importanti o molto ben pagati. 
+ 
+               IL VERO PROGRAMMATORE MENTRE GIOCA 
+               ----------------------------------
+ 
+         Il  generale il Vero Programmatore gioca nello stesso  modo  in 
+    cui lavora: con i computer. In generale lo stesso lavoro e' un  gio-
+    co, ed alla fine del mese il Vero Programmatore e' sempre abbastanza 
+    stupito di ricevere un compenso per quello che, a tutti gli effetti, 
+    e' per lui un divertimento. Anche se non lo dira' mai a voce alta... 
+ 
+         Occasionalmente il Vero Programmatore uscira' dall'ufficio  per 
+    prendere  una boccata d'aria e farsi una birra. Ecco alcuni  sistemi 
+    per riconoscere un Vero Programmatore fuori dal suo posto di lavoro: 
+ 
+         * Ad un party i Veri Programmatori sono quelli che stanno in un 
+    angolo parlando di Sistemi Operativi, mentre di fianco a loro passa-
+    no ragazze che si fermano, ascoltano per alcuni secondi e poi,  dato 
+    che non capiscono una parola, se ne vanno. A volte un Vero  Program-
+    matore inncontra una Vera Programmatrice... vi risparmio per decenza 
+    il racconto di come si svolgono i fatti.... 
+          *  Ad una partita di football il Vero Programmatore e'  quello 
+    che controlla gli schemi delle squadre basandosi su quelli disegnati 
+    dal suo programma su di un foglio 11x14. 
+         *  Sulla spiaggia il Vero Programmatore e' quello  che  disegna 
+    flow chart sulla sabbia. 
+ 
+               L'HABITAT DEL VERO PROGRAMMATORE 
+               --------------------------------
+ 
+         Dal momento che un vero programmatore e', per l'azienda che  lo 
+    usa, generalmente molto costoso, vediamo come far per farlo  rendere 
+    al meglio sul posto di lavoro: 
+
+    *****   Vol.  1   *****      Pag. 12      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         Il  Vero Programmatore vive davanti ad uno o piu' monitor,  at-
+    torno, sopra, dietro e sotto questi terminali si trovano generalmen-
+    te le seguenti cose: 
+ 
+         * I listati di TUTTI i programmi a cui il Vero Programmatore ha 
+    mai  lavorato,  accatastati, in ordine piu' o meno  cronologico,  su 
+    ogni superficie piatta disponibile intorno. 
+         * 6 o piu' tazze di caffe', quasi sempre fredde, ed alcune  con 
+    alcuni mozziconi di sigaretta galleggianti. 
+         * Attaccato al muro c'e' un ritratto di Spock con in mano l'En-
+    terprise stampato con una vecchia stampante a margherita. 
+         *  Sparsi  per terra ci sono pacchetti vuote  di  noccioline  e 
+    vaccate simili. 
+ 
+         In  generale un Vero Programmatore puo' lavorare anche 30 o  40 
+    ore di fila, anzi, di solito lavora molto megli sotto sforzo. Fino a 
+    qualche tempo fa si concedeva dei pisolini mentre il computer compi-
+    lava il programma, ma purtroppo il diffondersi di computer e perife-
+    riche  veloci ha reso questa pratica difficile. In generale un  Vero 
+    Programmatore se ha 5 settimane per terminare un programma passa  le 
+    prime  4 cincischiando con aspetti secondari, ma  interessanti,  del 
+    programma, mentre il grosso del lavoro viene fatto in una  settimana 
+    di lavoro ininterrotto. Questo provoca sempre grosse  preoccupazioni 
+    al  principale che teme sempre che il lavoro non sia mai  pronto  in 
+    tempo, ed offre al Vero Programmatore una buona scusa per non prepa-
+    rare la documentazione.
+ 
+               VARIE ED EVENTUALI 
+               ------------------
+ 
+         * Il  Vero Programmatore  a volte puo' scordare il  nome  della 
+    moglie o della ragazza, ma sa a memoria il codice ASCII. 
+         * Il Vero Programmatore non si cura della tastiera, le sue dita 
+    si adattano automaticamente a qualunque layout. 
+         * Il Vero Programmatore sa che anche avendo 8 mega di ram  que-
+    sta  non  sara' mai abbastanza, e percio' tenta  di  fare  programmi 
+    piccoli. 
+         * Il  Vero Programmatore tiene sempre i backup,  da  quando  ha 
+    dovuto riscrivere 327000 linee di assembler 68020. 
+         *  Il Vero Programmatore scrive programmi di pubblico  dominio, 
+    anche se di solito sono programmi talmente specialistici che  servi-
+    ranno solo ad altre tre persone al mondo oltre a lui. 
+ 
+ 
+               REFERENZE 
+               ---------
+ 
+         [1]  Feirstein,  B.,  "Real Men don't Eat  Quiche",  New  York, 
+    Pocket Books, 1982. 
+ 
+         [2] Wirth, N., "Algorithms + Data Structures = Programs", Pren-
+    tice Hall, 1976. 
+
+    *****   Vol.  1   *****      Pag. 13      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         L'idea originale: 
+ 
+         [0]  sdcarl!lin,  "Real  Programmers",  UUCP-net,  Thu  Oct  21 
+    16:55:16 1982 
+ 
+               NOTE E AVVERTENZE 
+               -----------------
+ 
+         Come  si vede dalla data sopra il file e' una traduzione ed  un 
+    adattamento  di  un  file  del 21 ottobre  1982  [NdE:  con  le  mie 
+    chiose... sono sempre stato molto pieno di me]. Se qualcuno  volesse 
+    il testo originale e' disponibile sul mio BBS. 
+ 
+          Saluti a tutti <^_^> 
+ 
+                                                       -----> AMIGOLEZZI
+                                                              ----------
+
+         Ebbene cari amorfi eccomi nuovamente a voi.  E voi, non conten-
+    ti del caldo insopportabile (io abito in campagna eh eh) avete anco-
+    ra  il  coraggio di arraffare quest'ultimo glorioso numero  dove,  a 
+    sentire il capo, le castronate saranno piu' frequenti del solito.
+         Tanto per iniziare con una castronata di quelle grosse vi avvi-
+    so ufficialmente del rilascio del nuovissimo superextramega  sistema 
+    operativo 2.0 !! Naturalmente sia il mondo MS-DOS che Mac (che si sa 
+    sono invidiosissimi) hanno anche loro fatto uscire le solite release 
+    bacatissime dei loro stantii SO. Ma certo di farvi una cortesia  non 
+    parlero'  di  questo ora, magari a settembre;  voglio  qui  rendervi 
+    partecipi  di un avvenimento piu' unico che raro, a cui pochi  hanno 
+    avuto  la fortuna di parteciparvi in diretta... anzi che  io  sappia 
+    nessuno,  visto che lo leggerete almeno una settimana dopo che  l'a-
+    vro'  scritto  ( 8-0 ). E' un avvenimento che  segnera'  una  svolta 
+    nell'era  dell'editoria, il REPLAY al proprio Capo (sia sempre  glo-
+    ria)!  Voglio  farvi notare il suo potenziale  didattico  in  quanto 
+    studiato  per far capire alla persona certe cose che, per  i  soliti 
+    motivi di policy, non possono essere dette brutalmente. 
+         Dunque iniziamo.
+
+         Caro .mau. in un tuo messaggio su TELEM005.TXT che  francamente 
+    ritengo fuori luogo (notare la finezza) dicevi, e cito testualmente, 
+    a pag.18 :
+
+    NDE> [nota:  Empire  esiste  anche  per MSDOS... quando rintraccero`
+    NDE> il
+    NDE> dischetto vi sapro' dire!  .mau.]
+
+         (N.B. i programmatori hanno pensato bene di inserire ogni tanto 
+    nel quote una riga di una sola parola per farci fare ginnastica agli 
+    occhi)
+
+         Ebbene  i nostri 25 lettori stanno ancora aspettando  paziente-
+    mente  (ed  apaticamente) che tu riesca a scovare  questo  benedetto 
+    Empire  da qualche parte (da leggersi : "ao' datti una mossa  oppure 
+    certe  cose  non dirle solo per banfare"). Sicuramente  sarai  stato 
+    sommerso da matrix di lettori che entusiasti ti segnalavano con  una 
+
+    *****   Vol.  1   *****      Pag. 14      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    splendida  recensione  Empire su MS-DOS e Mac, ti ringrazio  di  non 
+    averle pubblicate per non offuscare la mia supremazia indiscussa nel 
+    campo (leggi: "certo che sono ben stronzi sti' qua che leggono Tele-
+    maticus,  possibile  che neanche uno abbia mai  visto  Empire  !?"). 
+    Colgo l'occasione per salutarti e porgerti i miei piu' sinceri salu-
+    ti e auguri di buone vacanze (leggi: "sono una piccola macro che  si 
+    attacca automaticamente alla fine di tutti i messaggi, anche a quel-
+    li nelle aree internazionali.")
+    8-)                                                     RRE
+    ^^^
+         (N.B.  doverosissimi in quanto, in un'eventuale  recriminazione 
+    del  msg, fanno capire che tutto cio' che avete detto l'avete  detto 
+    nella  piu'  pura e fraterna amicizia; che la vostra  era  solo  una 
+    timida  critica "costruttiva". Che comunque lo rispettate  profonda-
+    mente  e  siete pronto in ogni momento ad unire le  vostre  famiglie 
+    sposandovi la sorella).
+
+         Siete  rimasti  scioccati dalla profondita' dei doppi  sensi  ? 
+    Dalla miriade di sottintesi che larvatamente s'intessono nelle trame 
+    del  messaggio  ? Ne avete ancora di strada da fare prima  di  poter 
+    parlare impunemente in un'area echo !! 
+         Ma preparatevi ad un'altra perla, un altro incredibile  avveni-
+    mento nel campo editorial-telematico che muove i primi incerti passi 
+    solo  ora; un giorno sospirando anche voi potrete dire "io c'ero,  e 
+    non e' cambiato nulla lo stesso."
+
+         Caro .mau. in un tuo messaggio su TELEM005.TXT che  francamente 
+    ritengo fuori luogo (notare la finezza) dicevi, e cito testualmente, 
+    a pag.18: (leggi: "la macro che dopo un mese di pasticci ero riusci-
+    to a fare per l'intestazione  del msg evidentemente ha qualche  bug. 
+    In  realta'  mi riferivo al TELEM007.TXT a pp. 14  su  AutoCad.  Sei 
+    tenuto ad avvisarmi e sono certo che lo farai proponendomi la tua di 
+    macro che, a sentirti, funge senza problemi")
+
+    NDE>sprovveduto, lo sappia usare anche piuttosto bene (ed abbia tro-
+    NDE>vato  nella  versione 10 dei  bug).  [NdE: possibilissimo... :-)
+    NDE> ]
+
+         Carissimo !! Che piacere 'risentirti' in un mio articolo  (leg-
+    gi: "perfido essere, questa la considero invasione nel mio  territo-
+    rio. Certe popolazioni hanno dichiarato guerra per molto meno.")! lo 
+    sai  che  sei molto spiritoso? E' possibilissimo che  io  lo  sappia 
+    usare bene o che ci siano dei bug alla decima release di un program-
+    ma !?                                  ^^^^^^
+         Colgo l'occasione per salutarti e porgerti i miei piu'  sinceri 
+    saluti e auguri di buone vacanze (leggi: "ma allora nella spiegazio-
+    ne precedente non sei stato attento !")
+    8-)                                                     RRE
+
+         Maledetto  spazio  tiranno, vi posso solo  piu'  propinare  una 
+    perla,  ma questa volta il compito sara' piu' difficile, non  avrete 
+    la guida del "leggimi":
+
+         Caro  Flavio in un tuo messaggio su Roccia.Ita che  francamente 
+    ritengo fuori luogo (notare la finezza) dicevi, e cito testualmente, 
+
+    *****   Vol.  1   *****      Pag. 15      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    a pag.  : (leggi: "effettivamente la mia macro ha qualche secondario 
+    buggino. TELEM007.TXT pp. cercatela (15)")
+
+    NDE> Semper vobis. [NdE: voleva dire Semper Vostrum]
+
+         Che  bel simpaticone che sei ! Forse, e lo sappiamo  tutti  che 
+    manchi di cultura di base (8-) 8-% 8-))) <8$%&) non hai mai letto la 
+    posta di Max&Bunker ma solo i fumetti. Non oso immaginare che tu non 
+    conosca  il famoso gruppo TNT, sarebbe veramente da far  cascare  le 
+    braccia un simile vuoto in una persona che, lo ammetto, fino a  poco 
+    tempo  fa  stimavo (8-))) 8--// 8-#$%&#$%). Ebbene era  soltanto  un 
+    doveroso omaggio a questo grande genio del fumetto, ultimamente pure 
+    molto piu' interessante (e' passato ai fumetti porno-orientali).  Ti 
+    prego quindi di non seguire l'esempio dei politici ma di tentare  di 
+    usare  quello  che madre natura ti ha fornito sopra  le  spalle  per 
+    annoiare coi tuoi FOTTUTI commenti altra gente (8-))) 8/\/\8).
+         Colgo l'occasione per salutarti e porgerti i miei piu'  sinceri 
+    saluti e auguri di buone vacanze.
+    8-)                                                     RRE
+
+         Ebbene anche gli eventi storici hanno termine. Ci lasciamo qui, 
+    le  nostre strade si dividono (la mia per Miami-Florida,  le  vostre 
+    per Riccione...) statemi bene.
+
+         Colgo l'occasione per salutarti e porgerti i miei piu'  sinceri 
+    saluti e auguri di buone vacanze.
+    8-)                                                     RRE
+                                                    2:334/100.9
+
+
+
+    *****   Vol.  1   *****      Pag. 16      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                         -----> RHOSETTA
+                                                                ========
+
+         ======begin data=========
+
+         How to recognize speech
+         How to wreck a nice beach
+
+         By my (miya) own doodling:
+
+         How to recognize peach
+         How to recognize teach
+         How to recognize each
+         How to recognize reach
+         How to wreck a nice peach
+         How to wreck a nice teach
+         How to wreck a nice each
+         How to wreck a nice reach
+         How to wreck cognize peach
+         How to wreck cognize reach
+         How to wreck cog nice peach
+                               leech
+                               breech
+                               Quiche
+                deck dog dice
+                beck bog mice
+                heck fog lice
+                peck gog slice
+                tech hog vice
+                     log rice
+         ______  preliminary noise
+                _____________________ signal
+         Wreck wog rice reach
+
+         LISP: Ba Ba Wa Wa [from SNL]
+
+         Something useful might be `rev /usr/dict/words | sort | rev`
+         (near
+
+         "In mud eels are, in tar none are".
+
+         grey day / grade A
+         euthanasia / youth in Asia
+         "Whats that up in the road" ahead / a head?
+
+         "Take off your hat and dloves"
+
+         and then ask them what you said. 99% of all people will  insist 
+    that you said the word "gloves".
+
+         I'd  be happy if you could do the digits, including  "Oh",  and 
+    Yes/No. Continuous digits, telephone quality, no training, male  and 
+    female voice.
+
+    *****   Vol.  1   *****      Pag. 17      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         The problem is in distinguishing "oh" from "no".
+
+         Getting  the alphabet (not "alpha", "bravo", but "aye",  "bee") 
+    would be nice, too.
+
+         I love you
+         Isle of View
+
+         I think you need at least one example in Chinese, and here's my 
+    favorite (because I actually said it by mistake).  The numbers after 
+    the words are phonic "tones".  What I meant to say was:
+
+    Wo(3) hen(3) xiang(3) shui(4)-jiao(4)  -- I want to go to sleep
+
+    ... but what I actually ended up saying was:
+
+    Wo(3) hen(3) xiang(4) shui(3)-jiao(3)  -- I am like a boiled ravioli
+
+         Just out of interest the above could also be interpreted as...
+
+    Wo (3) hen(4) xiang(3) shui(2)-jiao(2)  -- I hate the sound of garg-
+    ling
+         and
+    Wo(3) hen(2) xiang(4) shui(2)-jiao(1)  -- I mark where the  elephant 
+    pees
+
+    ...or so I believe in my limited understanding.
+         I should think,however, that in speech recognition and synthes-
+    is  Chinese would be quite an easy language to handle. The  phonemes 
+    are quite distinct and surely the tonal structure (- / \ ^) could be 
+    a cinch for the software/hardware?
+
+         "ice cream"/"I scream"
+         "beginning"/"big inning"
+         "soccer"/"sock her"
+         "its hardware problems are intermittent"/"it's hard where prob-
+    lems ..."
+         "attacks"/"a tax"
+
+    from Mark Twain:
+         "Good-bye God, I'm going to Missouri."/"Good, by God, I'm going 
+    to Missouri."
+
+         A notion of water/an ocean of water.
+
+         [New York accent only] An arm and a leg/a nominal egg.
+
+
+          Years ago at Bell Labs, I heard the following:
+
+         "Joe took mother's shoe bench out; she was waiting at my lawn."
+
+         With  regard to difficult speech recognition problems,  I  just 
+    saw  variations  of  the following on the wall of a  mens  room,  so 
+    credit goes to anonymous students at the University of Texas:
+
+    *****   Vol.  1   *****      Pag. 18      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    ``Our understanding of urine formation was clearly wrong.''
+    ``Our understanding of your information was clearly wrong.''
+
+         AN example I have used, that that originally was a  real confu-
+                                 ^^^^^^^^^  [interesting cognitive arti-
+                                                         fact, WWB--enm]
+    sion that happened to me is
+
+         Said:  I went out last night and saw a new display.
+         Heard: I went out last night and saw a nudist play.
+
+         One rather contrived example that I dreamed up (I was trying to 
+    prove  to a guy that a particularly simplistic phoneme-to-word  map-
+    ping algorithm he was proposing wouldn't work):
+
+         a nand gate / an and gate
+
+         How every damsel ate a rival.
+         However, Edam's a late arrival.
+
+         The  tricky thing here is that the word boundaries in 1 are  in 
+    mid-word in 2 and vice versa (actually fairly rare in practice.)
+
+         As some speech chips in Japanese cars say:
+
+                         "A door is a jar"
+
+         Jeez, weren't any of you rocket scientists ever in sixth grade?  
+    How about the family of proper names, including Ben Dover, and  Mike 
+    Hunt?
+
+         More from the scatalogical speech recognition department, rock-
+    et scientist (NASA-type) sub-bureau: Uranus jokes, as in "I'm  going 
+    to  set  up my telescope and take a good look at  Uranus.   Did  you 
+    realize there are rings around Uranus?..."
+
+         Two speech recognition trickies from Eng. Lit.:
+
+         Our Glass Lake  (Hourglass Lake)           -- Nabokov
+
+         Make-Believe Express (Maple Leaf Express)  -- Thurber
+         
+
+         Chapter II: Moron intelligence (More on ..)
+         -------------------------------------------
+
+         ...and then there are those cardboard circles with TUIT written 
+    on them, which you can give someone who says: "I'll do it when I get 
+    around to it". "Well, here you have a round TUIT."
+
+         Remember the old song...
+
+    *****   Vol.  1   *****      Pag. 19      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Mares eat oats and does eat oats and little lambs eat ivy
+         A kid'll eat ivy too, wouldn't you.
+         (kid will ==> kid'll)
+
+         (Come  to think of it.... find me a speech generator that  will 
+    say the plural of doe when reading that!)
+
+         Maresey dotes and dozey dotes and little lambsey divy
+         A kiddle de divey too, wouldn't you
+
+         Now  that I think of it, how could one miss a whole song  based 
+    on a tough speech recognition example (and thanks to Dr. Demento for 
+    making a 1940 novelty song available to post-1940 listeners):
+
+         Mairzy doats and doazy doats and little lamsy divy;
+         A kiddly divy do, wouldn't you?
+                 etc.
+
+         Now let's talk about {arrays,a raise}.
+         Suppose we have a {sorted,sordid} array.
+
+         The  Canadian prime minister seems to have sent a ship full  of 
+    fish once, as 3rd world aid, with the accompanying text:
+
+         Nehru, my cod to thee.
+
+       Cole's Law   (thinly sliced cabbage)
+
+         It is usually claimed that sentential or speech ambiguities can 
+    be  resolved  by knowing the context. I heard one on  TV  the  other 
+    night that cannot be so resolved. It could be disambiguated only  by 
+    asking the talker. Here is the situation:
+
+         A  nature program was describing the return of salmon from  the 
+    sea to their native river.  During the salt-to-fresh water  transit-
+    ion, they congregate in the shallow water at the mouth of the river. 
+    One  after another, they are picked off by swooping  sea-birds.  The 
+    commentator said "... they are picked off by {terns|turns}." Knowing 
+    completely  the  context, it is impossible to know which  he  meant, 
+    although the two meanings are very different.
+
+         [I  would suppose that many puns are constructed (or  at  least 
+    sharpened) examples of such ambiguities.  -- KIL]
+
+         Another short example, taken from an I Spy episode:
+         "glass pants" vs. "clasp hands"
+
+         Subject: homophones
+
+         There  is an article in the March number of _Memory  &  Cognit-
+    ion_(15.2:154-168) that lists almost 600 homophonous pairs in  Engl-
+    ish, and gives references to the literature from which the list  was 
+    culled.  It is `The Subjective Familiarity of English Homophones' by 
+    Roger  J.  Kreuz.  These pairs could be used to construct  pairs  of 
+
+    *****   Vol.  1   *****      Pag. 20      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    utterances  where  juncture was not involved. For example,  `We  ap-
+    plauded  the  saver/savor of the soup.'  I'm  sure  less  artificial 
+    examples could be constructed.
+
+         Is  there a distinction between "difficult  speech  recognition 
+    problems" and ordinary homonyms?
+
+         E.g., sword/soared
+         or crustacean/crew station
+
+         Is it length, number of words?  I spose the best ones should be 
+    complete sentences that at least two valid interpretations.
+
+         Read the Chinese example (which does fit these criteria): I  am 
+    told  that  there is a paragraph-length story  in  Chinese  composed 
+    entirely  of the single syllable "sze" with only  tonal  variations;  
+    in spite of the length (=> good context), native speakers can under-
+    stand it only after several hearings.
+
+         Meta-syntax / Medicine Tax
+
+         Write Ms. Wright a letter right away.
+
+         A famous example is the words of Bank Ban from the drama of the 
+    Hungarian Joszef Katona's "Bank Ban".
+
+    (this is in LaTex; so you have to print to get the real accents)
+
+    1. A kir\'{a}lyn\H{o}t meg\"{o}lni? Nem! Ellenzem !
+
+         "To kill the Queen? No! I am agains it."
+
+    2. A kir\'{a}lyn\H{o}t meg\"{o}lni nem ellenzem.
+
+         "I am not against killing the Queen."
+
+         or dumb-ascii with the accent marks stripped:
+
+         1. A kiralynot megolni? Nem! Ellenzem !
+         2. A kiralynot megolni  nem  ellenzem.
+
+         From SAIL at Stanford:
+
+         [NdE:  Questa e` la storia di Cappuccetto Rosso - almeno se  ho 
+    capito bene... provate a leggerla ad alta voce con l'accento "patata 
+    bollente in bocca" della East Coast americana!]
+ 
+                            Ladle Rat Rotten Hut
+
+         (Heresy  ladle  furry  starry toiling  udder  warts  ---  warts 
+    welches altar girdle deferent firmer once inner regional virgin.)
+         Wants pawn term, dare worsted ladle gull hoe lift wetter murder 
+    inner  ladle  cordage honor itch offer lodge, dock,  florist.   Disk 
+    ladle gull orphan worry putty ladle rat cluck wetter ladle rat  hut, 
+    an fur disk raisin pimple colder Ladle Rat Rotten Hut.
+
+    *****   Vol.  1   *****      Pag. 21      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         Wan moaning, Ladle Rat Rotten Hut's murder colder inset.
+         "Ladle  Rat  Rotten Hut, heresy ladle  basking  winsome  burden 
+    barter  an shirker cockles.  Tick disk ladle basking  tutor  cordage 
+    offer groin-murder hoe lifts honor udder site offer florist.  Shaker 
+    lake!   Dun  stopper laundry wrote! Dun stopper  peck  floors!   Dun 
+    daily-doily inner florist, an yonder nor sorghum-stenches, dun stop-
+    per torque wet strainers!"
+         "Hoe-cake, murder," resplendent Ladle Rat Rotten Hut, an tickle 
+    ladle basking an stuttered oft.
+         Honor wrote tutor cordage offer groin-murder, Ladle Rat  Rotten 
+    Hut mitten anomalous woof.
+         "Wail, wail, wail!" set disk wicket woof, "Evanescent Ladle Rat 
+    Rotten  Hut!  Wares are putty ladle gull goring wizard  ladle  bask-
+    ing?"
+         "Armor  goring  tumor  groin-murder's,"  reprisal  ladle  gull.  
+    "Grammar's seeking bet.  Armor ticking arson burden barter an  shir-
+    ker cockles."
+         "O hoe!  Heifer gnats woke," setter wicket woof, butter  taught 
+    tomb shelf, "Oil tickle shirt court tutor cordage offer  groin-murd-
+    er.  Oil ketchup wetter letter, an den....O bore!"
+         Soda wicket woof tucker shirt court, an whinny retched a  cord-
+    age  offer groin-murder, picked inner windrow, an sore  debtor  pore 
+    oil worming worse lion inner bet.  Inner flesh, disk abdominal  woof 
+    lipped honor bet, paunched honor pore oil worming, an garbled erupt.  
+    Den  disk ratchet ammonol pot honor groin-murder's nut cup an  gnat-
+    gun, any curdled ope inner bet.
+         Inner ladle wile, Ladle Rat Rotten Hut a raft attar cordage, an 
+    ranker  dough  ball.  "Comb ink, sweat hard,"  setter  wicket  woof, 
+    disgracing is verse.
+         Ladle Rat Rotten Hut entity bet rum, an stud buyer  groin-murd-
+    er's bet.
+         "O  Grammar!" crater ladle gull historically, "Water  bag  icer 
+    gut!  A nervous sausage bag ice!"
+         "Battered lucky chew whiff, sweat hard," setter  bloat-Thursday 
+    woof, wetter wicket small honors phase.
+         "O, Grammar, water bag noise!  A nervous sore suture  anomalous 
+    prognosis!"
+         "Battered small your whiff, doling," whiskered dole woof,  ants 
+    mouse worse waddling.
+         "O  Grammar, water bag mouser gut!  A nervous sore  suture  bag 
+    mouse!"
+         Daze  worry on-forger-nut ladle gull's lest warts.   Oil  offer 
+    sodden,  caking offer carvers an sprinkling otter bet,  disk  hoard-
+    hoarded woof lipped own pore Ladle Rat Rotten Hut an garbled erupt.
+
+         MURAL:   Yonder nor sorghum stenches shut ladle  gulls  stopper 
+    torque wet strainers.
+
+         [NdE: eccola infatti qui in versione originale...]
+
+                           Little Red Riding Hood
+
+         (Here  is  a little fairy story told in other words  ---  words 
+    which  are altogether different from the ones in the original  vers-
+    ion.)
+
+    *****   Vol.  1   *****      Pag. 22      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         Once  upon a time, there was a little girl who lived  with  her 
+    mother  in  a little cottage on the edge of a  large,  dark  forest.  
+    This little girl often wore a pretty little red cloak with a  little 
+    red  hat,  and for this reason people called her Little  Red  Riding 
+    Hood.
+         One morning, Little Red Riding Hood's mother called her inside.
+         "Little Red Riding Hood, here's a little basket with some bread 
+    and  butter and sugar cookies.  Take this little basket to the  cot-
+    tage of your grandmother who lives on the other side of the  forest.  
+    Shake  a leg!  Don't stop along the road!  Don't stop to pick  flow-
+    ers!   Don't dilly-dally in the forest, and under no  circumstances, 
+    don't stop to talk with strangers!"
+         "Okay, mother," responded Little Red Riding Hood, and took  the 
+    little basket and started off.
+         On the road to the cottage of her grandmother, Little Red  Rid-
+    ing Hood met an enormous wolf.
+         "Well, well, well!" said this wicked wolf.  "If it isn't Little 
+    Red  Riding  Hood!  Where's our pretty little girl  going  with  her 
+    little basket?
+         "I  am  going to my grandmother's," replied  the  little  girl.  
+    "Grandma's  sick in bed.  I'm taking her some bread and  butter  and 
+    sugar cookies."
+         "O ho!  Have a nice walk," said the wicked wolf, but he thought 
+    to  himself, "I'll take the short cut to the cottage of  her  grand-
+    mother.  I'll catch up with her later, and then....O boy!"
+         So  the wicked wolf took a short cut, and when he  reached  the 
+    cottage  of  her grandmother, peeked in her window, and saw  that  a 
+    poor  old woman was lying in her bed.  In a flash,  this  abominable 
+    wolf  leapt on her bed, pounced on the poor old woman,  and  gobbled 
+    her  up.  Then this wretched animal put on her  grandmother's  night 
+    cap and nightgown, and curled up in her bed.
+         In  a little while, Little Red Riding Hood arrived at the  cot-
+    tage, and rang the door bell.  "Come in, sweetheart," said the wick-
+    ed wolf, disguising his voice.
+         Little  Red Riding Hood entered the bed room, and stood by  her 
+    grandmother's bed.
+         "Oh  Grandma!"  cried the little girl hysterically,  "What  big 
+    eyes you've got! I never saw such big eyes!"
+         "Better to look at you with, sweetheart," said the  blood-thir-
+    sty wolf, with a wicked smile on his face.
+         "Oh  Grandma! what a big nose!  I never saw such  an  enourmous 
+    big nose!"
+         "Better  to smell you with, darling," whispered the  old  wolf, 
+    and his mouth was watering.
+         "Oh  Grandma, what a big mouth you've got!  I never saw such  a 
+    big mouth!"
+         These were the unfortunate little girl's last words.  All of  a 
+    sudden,  taking off the covers and springing out of bed, this  hard-
+    hearted wolf leapt on poor Little Red Riding Hood and gobbled her up.
+
+         MORAL:   Under  no circumstances should little girls  stop  and 
+    talk with strangers.
+
+         About the author:
+
+    *****   Vol.  1   *****      Pag. 23      *****   Numero   8   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         The author is Howard L. Chace, and that's all I know about him.
+         "Ladle"  comes from a book entitled Anguish  Languish  (English 
+    Language), written by Chace and published by Prentice-Hall in  1956.  
+    Aside from "Ladle Rat Rotten Hut," there are also other fairy  tales 
+    ("Guilty  Looks Enter Tree Beers," "Center Alley"),  nursery  rhymes 
+    ("Marry Hatter Ladle Limb," "Sinker Sucker Socks Pants"), a  version 
+    of  the  famous baseball story, "Casing Adder Bet," and  some  songs 
+    ("Hive Ban Walking Honor Rail Rut," "Hormone Derange").

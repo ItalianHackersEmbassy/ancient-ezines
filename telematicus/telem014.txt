@@ -1,0 +1,1497 @@
+ #### TELEM014 - Telematicus - Volume 02 - Numero 02 - Anno 1992 - 68 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                Febbraio 1992                                 
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di .mau.
+
+ ==============================================================================
+
+ Il materiale presente in Telematicus e` (C) dei singoli autori.      
+ E` espressamente consentita la distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 67 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .   .  pag.  4
+ [ 2]  Il SysCon '92, di Franco Carcillo e Stefano Costa .   .   .   .  pag.  7
+ [ 3]  Internet: la storia, di Maurizio Codogno  .   .   .   .   .   .  pag. 20
+ [ 4]  Il software italiano: Wedit, di Franco Schinco    .   .   .   .  pag. 25
+ [ 5]  Itapac - parte 11, di Alfredo Berlusconi  .   .   .   .   .   .  pag. 28
+ [ 6]  E i Sinclair?, di Roberto Piola   .   .   .   .   .   .   .   .  pag. 33
+ [ 7]  Il programmino: ERR2OUT, di Alessandro Peralma    .   .   .   .  pag. 35
+ [ 8]  Vivamiga, di Renato Rolando   .   .   .   .   .   .   .   .   .  pag. 41
+ [ 9]  Itapak (?), di BlueBoy    .   .   .   .   .   .   .   .   .   .  pag. 50
+ [10]  Curiosita`: Il gergo hacker - parte 11    .   .   .   .   .   .  pag. 54
+ [11]  Notizie Fidonet region 33     .   .   .   .   .   .   .   .   .  pag. 65
+
+
+
+
+
+
+
+
+                  Questo Telematicus e` nato con l'aiuto di...
+   
+ Editor componens:      Maurizio Codogno | * I collaboratori dai network: *
+ Editor dimissionarius:    Roberto Piola |
+ Editor praesidens:      Franco Carcillo | Vertigo (331/301)
+ Editor dattilographus:    Stefano Costa | ??? (332/???)
+ Editor costosus:     Alfredo Berlusconi | Pietro Budicin (333/603)
+ Editor assemblator:   Alesandro Peralma | Franco Carcillo (334/1)
+ Editor clista:           Renato Rolando | Giorgio Rutigliano (335/1)
+ Editor editoristicus:    Franco Schinco |                                    
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                               ###
+
+      Cari lettori,
+ comincio subito con una Errata Corrige: mi scrive Vertigo dicendo
+
+ ----- quote on -----
+
+      Volevo dirti due cose riguardo al numero di gennaio di Telematicus
+ [la prima riguardava il fatto che avessi ciccato il suo indirizzo: sorry!]
+ La  seconda riguarda l'"intervista su Itapac" apparsa sempre nel numero 13  di
+ Telematicus, e "firmata" da Alfredo Berlusconi.
+ Non  voglio entrare in discussione con A. Berlusconi, che nemmeno conosco,  ma
+ quel testo in realta' ha una fonte diversa:
+
+ [begin Vert quote]
+ +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+ The DTE222 Hacking Journal   -   Numero 0 del 30-1-1987
+ --------------------------------------------------------------------------
+ LE INTERVISTE FAMOSE
+
+ Intervista rilasciata a BlueBoy da Gino Pacchetto, inventore della rete ITAPAK
+ a commutazione omonima.
+ [end Vert quote]
+
+      E'  un file scritto da BlueBoy, uno dei nomi storici della  telematica  e
+ dell'hacking in Italia. Il file originale, noto come ITAPAK-1.TXT, era apparso
+ inizialmente su due BBS (la mia e la defunta DeeJay Music Bank) e da li' si e'
+ poi  diffuso negli anni BlueBoy e' tuttora attivo in rete (tramite il  gateway
+ SubLink)  e credo, un po' per correttezza e un po' per nostalgia, che  sarebbe
+ il caso di pubblicare un'errata corrige dando a Cesare quel che e' di Cesare e
+ mettendo la fonte e l'autore reali della divertente "intervista".
+
+ ----- quote off -----
+
+ La seconda parte in questione potra` essere letta in questo stesso numero.
+
+      Per  il resto, mi sto chiedendo se c'e` ancora qualcuno che sta  leggendo
+ Telematicus,  visto  che  la risposta del pubblico e`  sempre  piu`  scarsa  e
+ soprattutto  non  ricevo notizie da nessuno che non sia del mio  net.  Se  non
+ interessa una distribuzione nel resto dell'Italia non avete che da  dirmelo...
+ non succede nulla di male! In ogni caso spero i problemi di distribuzione  via
+ ISN siano stati risolti.
+
+      In questo numero (in ritardo perche` speravo di avere qualche report  sul
+ SysCon:  come potete vedere alla fine ne abbiamo non uno ma due!)  ritroverete
+ comunque l'inossidabile Renato Rolando piu` in forma del solito, e  l'onnipre-
+ sente Piola. Un ritorno alle origini?
+
+      Non  troverete invece la versione definitiva di RT per  l'ottima  ragione
+ che  non riesco a trovare nessuno con un compilatore ANSI  su  un'architettura
+ che  non  sia  il PC che mi abbia dato del feedback. O che il C  non  e`  quel
+ mostro di compatibilita` che tutti dicono, o che i lettori Di Telematicus  non
+ sono quei mostri di programmazione che affermano... mah.
+
+           ciaociao ... .mau.
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   2  ###                                                IL SYSCON '92  ###
+ ############                                                               ###
+
+      Siamo  tutti troppo giovani per ricordarci il Candido di Guareschi  e  le
+ rubrichette "Visto da destra" e "Visto da sinistra" che commentavano  ciascuna
+ a modo loro un avvenimento della settimana. Bene, dato che mi sono giunti  ben
+ due report su quanto capitato nel weekend 24-26 gennaio a Bologna, ho  pensato
+ che  invece  di fare un merge unendo anche i miei (pochi) ricordi  fosse  piu`
+ semplice lasciarli quasi intatti entrambi. Ecco quindi il "Visto da  Carcillo"
+ e il "Visto dalCosta"... 
+
+      Come  potrete  vedere  voi stessi, i fatti sono  sempre  gli  stessi,  ma
+ l'accenno  e`  posto su particolari diversi... in fin dei conti non  e`  cosi`
+ strano, visto che - per fortuna - FidoNet non e` un monolitico gruppo dove  la
+ parola e` una e una sola. Quello che conta e` cercare di fare qualcosa!
+
+      [NdE:  come  quasi tutti sanno, ilCosta viene  scritto  tutto  attaccato,
+ quindi scrivere "dal Costa" staccato e` un grave errore]
+
+
+
+                          VISTO DA CARCILLO
+                          -----------------
+
+      Bologna 24-25-26 gennaio: SysCon 92
+
+
+      Nel  1988,  89 e 91 Torino e' stata sede degli incontri nazionali  tra  i
+ SysOp  italiani della rete FidoNet: l'incontro 92 e' stato  organizzato  dagli
+ intraprendenti  SysOp dell'hub di Bologna. Citta' ideale per una somma di  ra-
+ gioni, dalla posizione centralissima che la rende facilmente raggiungibile al-
+ la ineguagliabile gastronomia, soprattutto per i fans dei primi piatti.  [NdE:
+ dodici primi nella cena di venerdi` sera: una delizia unica!]
+ Due i momenti fondamentali: la discussione dei problemi all'interno della `re-
+ gion' italiana e la prima assemblea dell'Associazione Fidonet Italia.
+
+      Sabato mattina ho introdotto i lavori, come Regional Coordinator, con una 
+ breve  relazione: la rete ha 200 nodi attivi, ha ancora sacche  di  territorio 
+ de-telematizzato, vuole essere un veicolo culturale e sociale per far `comuni-
+ care'  persone  fisicamente lontane ma che hanno in comune, se non  altro,  un 
+ rapporto unico e viscerale con il maledetto aggeggio chiamato computer.
+
+      Dopo l'iniziale sviluppo la stasi di questi ultimi anni fa di sicuro  ri-
+ flettere: Gianluca Bigagli mi ha fornito dati di sicuro interesse, riguardanti 
+ l'analisi  dei messaggi circolanti nelle aree nazionali. Sono 1335 gli  utenti 
+ che  lasciano  messaggi nelle conferenze distribuite nelle rete  italiana:  di 
+ questi ben 470 sono point. Siamo dunque lontani dai 19.000 utenti segnalati in 
+ una prima analisi condotta qualche anno fa: indubbiamente gli utenti  interes-
+ sati al solo prelievo di software si registrano, spesso, sotto differenti  no-
+ minativi e pertanto l'elenco degli utenti di ogni BBS non rappresenta certo la 
+ realta' dell'utenza realmente servita. Qualcuno, nei corridoi del SysCon,  la-
+ mentava  che la recente campagna di controllo per eliminare dalla rete  i  BBS 
+ con in linea software copyright ha permesso la crescita di servizi, attualmen-
+ te molto gettonati, al di fuori di FidoNet: alcune reti alternative stanno af-
+ facciandosi  con il dichiarato proposito di essere meno burocratizzate  e  so-
+ prattutto piu' libere da regole: la prima da infrangere e' proprio quella  re-
+ lativa al divieto, da sempre elencato nei regolamenti FidoNet, di  distribuire 
+ software piratato. Questo, si badi bene, a prescindere dal fatto che costitui-
+ sca reato o meno!
+
+      Se,  in  questi anni, non siamo stati capaci di promuovere  FidoNet  come 
+ formidabile strumento di comunicazione e ci siamo limitati a farla intravedere 
+ come  pozzo di San Patrizio per pirati, hacker & c. (come la stampa spesso  ci 
+ addita) allora siamo davvero ad una svolta. O continuare a chiudere decine  di 
+ occhi su quello che sono i servizi presenti nella rete e vivere nell'ombra,  o 
+ proporsi come medium di comunicazione, in grado di interessare hobbisti e pro-
+ fessionisti  informatici alla messaggistica proposta e alle migliaia  di  pro-
+ grammi shareware distribuiti attraverso le reti di file distribution  interna-
+ zionali e nazionali.
+
+      Altro tema di discussione l'attuale regolamento italiano (policy):  inte-
+ grarlo con norme per l'elezione dei Network Coordinator cosi' come per  quella 
+ del Regional coordinator, e' un passo, a mio avviso necessario. Le norme,  che 
+ prossimamente saranno messe in votazione, definiscono modalita', corpo eletto-
+ rale, requisiti per i candidati: tutti ritengono scorretto non interessarsi ai 
+ problemi  della rete e la non partecipazione alle elezioni di NC e  RC  dovra' 
+ essere sanzionata. Altri elementi discussi: la creazione di figure in grado di 
+ determinare, per ogni ambiente operativo, se un programma e' (c) oppure no; le 
+ persone,  scelte  dall'RC, costituiranno una task force che  coadiuvera',  nei 
+ controlli, la struttura *C.
+
+      In Italia sono presenti 5 net, dei 10 possibili: e' opportuno  scorporare 
+ i  net attuali e ridisegnare la geografia FidoNet? Una domanda che  ho  voluto 
+ porre  e che ha visto tutti, piu' o meno, contrari all'idea di  imbarcarsi  in 
+ modifiche di routing: oggi infatti sussite una sovrapposizione, comoda ma  non 
+ sempre efficiente, tra la struttura di redistribuzione dell'echomail (i cosid-
+ detti BACKBONE) e quella relativa alla mail normale (altrimenti detta matrix). 
+ Oggi sembra troppo presto pensare a una concezione alternativa e pertanto tut-
+ to rimarra' invariato.
+
+      Sabato hanno chiuso la mattinata brevi presentazioni di programmi svilup-
+ pati per il mondo delle bbs: Galileo, per prelevare l'ora esatta dallo IEN  di 
+ Torino,  Wmail e Wedit, mail processor ed editor per Quick e msg  base,  Meno-
+ mail, Lora BBS.
+
+      La region rinumerata (e gli strali sull'RC!), la fake region (e gli stra-
+ li sullo ZC!!), il progetto megalist del REC, hanno tenuto banco nella giorna-
+ ta di domenica: di altro non si e' riusciti nenache ad iniziare la  discussio-
+ ne.  Partenze  incombenti, premi da distribuire, pranzi  da  consumare...  Due 
+ giorni,  seppur  intensi, non sono stati sufficienti:  daltronde  tenere  alta 
+ l'attenzione per molte ore e' difficile per tutti e le riunioni si estinguono, 
+ spesso, da sole, per mancanza di partecipanti! :-) 
+
+      Siamo arrivati comunque alla fine (anche di questo articolo) e oltre agli 
+ elogi agli organizzatori non rimane che continuare a discutere nelle aree mes-
+ saggi, e darsi appuntamento al prossimo SysCon!
+
+
+
+                          VISTO DALCOSTA
+                          --------------
+
+      26-01-1992: Prima riunione dell'AFI (Associazione Fidonet Italia)
+
+      Ore 10:30: Molti  sono i presenti accorsi al richiamo  dell'associazione. 
+ Fortunatamente non si notano segni di belligeranza: di contro non si sono  an-
+ cora fatti vivi esponenti del NET 335...arriveranno? (zum zum zummmmmm)
+
+      Ore 10:39: Il buon Franco  si e' gia' messo all'opera schiarendo la  voce 
+ al microfono... mi sa che si sta per cominciare.
+
+      Ore 10:40: Si parte. Ringraziamenti assortiti a tutti tranne che ad illo.
+
+      Franco  Carcillo presenta la situazione attuale della region, ricorda  la 
+ passata  presenza come RC dell'ottimo Giorgio e introduce come stanno  ora  le 
+ cose.
+ Attualmente  siamo  200 nodi attivi, una ventina tra privati e down,  e  circa 
+ 1500 tra utenti e point attivi. La stima e' di circa 5000 utilizzatori  totali 
+ anche se non attivi nelle aree echomail. Nuove tecnologie hanno permesso nume-
+ rosi nuovi sviluppi che superano gli scopi iniziali.
+
+      Franco vuole trattare la situazione attuale sia dal punto di vista tecni-
+ co che no, e qui non so cosa sto scrivendo ma ho troppo sonno [NdE: il  vener-
+ di` sera, dopo la pantagruelica cena accennata sopra, c'e` stata anche una vi-
+ sita al BBS dell'ARCI, terminata intorno alle 3] per riuscire a sistemare  ef-
+ ficacemente il tutto in modo plausibile. (beve)
+
+      Innanzi  tutto trattiamo il problema sempreverde della presenza di  soft-
+ ware  (C) sulle varie banche dati. Essi devono essere controllati ed  espulsi. 
+ Ulteriore problema presentato e' relativo alla region numerata, essa e'  stata 
+ decisa in alto (neeeeeh) e Franco si e' adattato alla modifica anche se questa 
+ ha  portato qualche problema (e' naturalmente sufficiente farla ad un  piccolo 
+ batch, non "su tutti i batch" come qualcuno ha affermato 8^) )
+
+      Presentazione della nuova nodelist riservata agli AKA, priv, distribuzio-
+ ni, ecc. 
+
+      Discussione.
+
+      Lord Fenner: Nelle aree sysop non riesce a chiarire le differenze tra  le 
+ aree  di coordinazione e quelle di servizio [NdE: neanch'io...], le  considera 
+ troppo  chatter e propone la creazione di un'area chatter sysop e una  specia-
+ listicamente tecnica; afferma che la tech_net andrebbe rifatta. 
+      Franco specifica che tutto dipende da una sensibilizzazione a livello  di 
+ utenza. Essendoci molta gente, li' vanno a scrivere anche per tutte le  creti-
+ nate  che  vengono loro in testa. Troppe aree specifiche  comporterebbero  dei 
+ problemi.
+
+      Altro  punto proposto e' quello del soft pirata. La legge  italiana  dice 
+ che  tre nodi "associati" che presentano soft piratato posso costituire  asso-
+ ciazione a delinquere. Franco Mulato parla della situazione del 332 con  tutta 
+ la  casistica relativa alla nostra situazione piuttosto positiva se andiamo  a 
+ vedere.  (Panico, casino.) Viene proposta la figura del Regional File  Watcher 
+ che dovrebbe provvedere a controllare la presenza di software sotto  copyright 
+ sulle BBS [NdE: speramo solo di non avere piu` cariche che utenti]
+
+      Ulteriore intervento di Lord Fenner in relazione alle riviste  specializ-
+ zate che ci vedono come pirati scopiazzatori. 
+
+      Franco Mulato fa una breve e veloce introduzione che parte in maniera ve-
+ locissima... egli specifica quali sono i motivi che hanno portato alla nascita 
+ di  una associazione. Viene affermato che oramai e' "troppo facile" poter  en-
+ trare a fare parte della rete, in effetti tendono ad esserci delle scissioni o 
+ parallelizzazioni che stanno incasinando la figura della Fidonet in Italia.
+
+      Magic.Alex Badalic parla in qualita' di moderatore dell'area Atari:  pro-
+ pone  di mettere in rete i files.bbs e procedere con dei  controlli  fraziona-
+ ti... si fanno varie proposte su come dovrebbe essere gestita la cosa.
+ Viene  proposto  di creare una figura atta a controllare una cernita  di  file 
+ scelta tra quella dei considerabili come sospetti, ad opera di ulteriori figu-
+ re incaricate.
+
+      Giuseppe Scarpi: si domanda se la nostra struttura e' pronta per una  fi-
+ gura come il file watcher, che prenderebbe troppo tempo e comporterebbe troppi 
+ problemi, risponde il Mulato (il quale mi perdonera' il cognome per distingue-
+ re  dal Carcillo). Si parla di reti molto grosse che non permettono - e  cosi' 
+ dovremmo fare anche noi - di mettere in linea i files appena uploadati  bensi' 
+ tenerli  in  una sorta di quarantena in attesa di un  controllo.  Il  problema 
+ principale sembrerebbe essere quello degli upload con nomi particolari che ce-
+ lano qualche soft sotto copyright.
+ Sia il sottoscritto che Boarino dichiarano la necessita' di avere dei requisi-
+ ti minimi, da parte del sysop, per tutelare alla base eventuali problemi.
+
+      Stefano Pasquini [NdE: ebbene si`, con congruo ritardo ma e` arrivato an-
+ che lui insieme a una pattuglia del 335] parla in relazione alle nuove  tecni-
+ che di polizia e di controllo che sono in vigore piu' quelle prospettivate sul 
+ futuro  immediato quali le intercettazioni telematiche telefoniche. In  questo 
+ caso  un DL di un file sotto (C) comportebbe numerosi problemi per la BBS  che 
+ lo sta facendo transitare. Stefano assicura che per adesso la Fidonet restera' 
+ "fuori" coadiuvando il tutto con costanti controlli e applicazioni della poli-
+ cy.
+
+      Ninci  riprende il discorso del collegamento parallelo mediante il  quale 
+ si potrebbe intercettare la chiamata telematica. Cosi', quindi, anche un uten-
+ te  sarebbe potenzialmente rintracciabile. Che si possa utilizzare l'idea  per 
+ dissuadere l'upload di soft sotto (C) ?
+ La polizia risulta essere oramai aggiornata, ancora agli albori per certe cose 
+ ma sicuramente decisa ad imparare.
+
+      Stefano  ricorda che all'inizio della rete sussisteva una moralita'  (che 
+ ora si e' via via persa) mentre adesso e' decisamente alla portata di tutti... 
+ cadono  in un certo senso le ambizioni mentre prevale spesso il  qualunquismo; 
+ abbiamo  si' avuto un grosso sviluppo nella rete tuttavia si  sono  sviluppate 
+ molte aree non tecniche a scapito delle aree di coordinamento... viene  ricor-
+ dato  che le polemiche sono capaci a farle tutti mentre ora ci si  deve  porre 
+ nella nuova ottica che richiede una costruttivita'.
+
+      Massimo Ortensi desidera un chiarimento ancora sul soft considerato pira-
+ tato, in questo caso si tratta del possibile (C) che debba sussistere sui  fi-
+ les musicali i quali dovrebbero essere tutelati.
+
+      Ninci  ricorda  che  il  (C) dovrebbe  sussistere  sulla  esecuzione  del 
+ file/brano  che comunque non dovrebbe diventare esecuzione  pubblica.  Stefano 
+ interviene ricordando che converrebbe non "demonizzare" troppo il problema vi-
+ sto che si cadrebbe in casistiche troppo particolari.
+
+      In  seguito a questo intervento Stefano annuncia il  "Progetto  Megalist" 
+ che in teoria dovrebbe portare a delle agevolazioni nel controllo dello  stes-
+ so.  Attualmente si sta pensando di riprendere il progetto della megalist  im-
+ postato in maniera diversa: un concentratore che compila la megalist  disponi-
+ bile ai nodi, essa contiene tutti i numeri di nodo che hanno il file piu'  una 
+ piccola  descrizione; il tutto verra' gestito da Megadiff  provvederanno  alle 
+ modifiche  sulla  lista  principale. E' gia' presenta la  lista  versione  003 
+ Frequestabile su autorizzazione: essa e' supportabile lasciando il  nominativo 
+ a Stefano. Il concentratore sara' Caramico, e le megadiff dovranno essere  in-
+ viate a lui.
+
+      Viene presentato il tesoriere di Fido Italia che sarebbe il buon Persiva-
+ le, il quale si fa notare....
+
+      [NdE: pausa pranzo]
+
+      Ore  14:30: Ricomincia la seduta... Viene effettuato il  sorteggione  per 
+ una serie  di chiavi di registrazione e vince: [NdE: boh?]
+
+      L'assemblea  AFI viene aperta alle 15:10. Viene eletto presidente  Franco 
+ Carcillo, per la redazione del processo verbale Stefano Costa [NdE: e chi  al-
+ tri?] Il presidente invita il tesoriere a leggere il nome dei soci iscritti  a 
+ tutt'oggi: I soci vengono inviati a presenziare all'assemblea.
+
+ [segue l'elenco dei soci]
+
+      Le  dimissioni del consiglio direttivo e dei revisori dei conti sono  ac-
+ cettate; viene  indetta l'elezione del nuovo consiglio direttivo.
+ Viene deciso il numero di membri del consiglio direttivo: dopo votazione, pas-
+ sa la mozione che stabilisce a 5 il numero dei membri del consiglio direttivo.
+ Per quanto riguarda la modalita' di voto, viene approvata la mozione che fissa 
+ la preferenza unica.
+
+      I candidati al consiglio di amministrazione, con relativi voti  ottenuti, 
+ sono:  Caruso (2), Costa (2), Mulato (10), Persivale (4), Carcillo (5),  Gian-
+ nelli  (3),  Mascarin (1), Somma (2) e Pasquini (4). Vengono  pertanto  eletti 
+ Carcillo,  Mulato,  Giannelli, Pasquini e Persivale. Come membro  di  riserva, 
+ dopo ulteriore votazione di ballottaggio, viene eletto Pasquale Caruso.
+
+      Nella votazione dei revisori dei conti si candidano Melilli (15), Pesatu-
+ ro  (5), Morigi (5) e Caruso (4). Giannelli e Favilli non  considerano  valida 
+ una votazione a scrutinio palese, ma la loro riserva e` respinta.
+
+      Viene quindi deliberato che:
+
+ - non devono essere inviate foto per la registrazione (12 voti contro 11);
+
+ - Il numero dei ProbiViri sara' pari a 3 (23 voti contro 2); le votazioni (due 
+ voti a testa) danno come eletti Franceschetti (11), Favilli (9), Mascarin  (6) 
+ mentre primi dei non eletti sono Caruso e Cantiello (3)
+
+ - il regolamento viene approvato all'unanimita`.
+
+      Ore 20:10: l'assemblea e' dichiarata chiusa.
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                          INTERNET: LA STORIA  ###
+ ############                                                               ###
+
+      Fidonet  e i BBS non sono certo l'unico modo per scambiarsi files e  mes-
+ saggi  su e giu` in forma elettronica: a parte Videotel (dolore  di  stomaco), 
+ Itapac  (tremitio inconsulto), CompuServe (dolore al portafoglio), BIX  (suono 
+ di campane celestiali) e simili, il nome Internet e` quello che l'utente "pro-
+ fessionale" della telematica associa in maniera totale al cosiddetto Villaggio 
+ Globale Telematico. Pensate che negli States il valore aggiunto di Internet e` 
+ tale  che molta gente preferisce guadagnare di meno pur di  potere  conservare 
+ l'accesso Internet; il numero di persone che giornalmente la utilizzano espli-
+ citamente (non parliamo dunque di chi sfrutta i suoi servizi senza accorgerse-
+ ne)  e` dell'ordine dei milioni; esiste addirittura un  organismo  governativo 
+ nato  apposta  per gestire i problemi dovuti al sovraffollamento che  ha  gia` 
+ costretto  a  cambiare piu` volte la struttura della rete che non  riusciva  a 
+ espandersi con la velocita` richiesta dal pubblico.
+
+      Vorrei  adesso  darvi  alcuni brevi cenni su come e` nata e  come  si  e` 
+ sviluppata Internet: nel prossimo numero cerchero` di spiegare quali sono  gli 
+ equivalenti Internet dei concetti tipo EchoMail e Download che fanno parte del 
+ nostro bagaglio telematico.
+
+      Possiamo fare risalire la data di nascita di quella che oggi e`  chiamata 
+ Internet alla prima meta` degli anni '60. Il DOD, il famoso Dipartimento della 
+ Difesa  statunitense,  aveva allora lanciato un grandioso  progetto,  chiamato 
+ ARPA (Advanced Research Project Applications). Esso aveva obiettivi grandiosi: 
+ alcuni,  come  lo sbarco sulla Luna, si sono puntualmente  verificati;  altri, 
+ come  la  creazione  di  un sistema in  grado  di  comprendere  il  linguaggio 
+ naturale,  si  sono arenati miseramente. Bene, tra tutti  questi  progetti  ve 
+ n'era  uno che mirava per l'appunto a dare un collegamento elettronico  tra  i 
+ maggiori  centri  di  ricerca, tipo l'MIT e la  Stanford  University,  per  lo 
+ scambio  `veloce' di dati. Intendiamoci, adesso come adesso la  posta  Fidonet 
+ viaggia  molto  piu`  velocemente degli standard di allora, ma  in  ogni  caso 
+ l'idea  era  rivoluzionaria,  ed  ai  primi  quattro  nodi  collegati  con  la 
+ benedizione - e i fondi! - del ministero della Difesa se ne aggiunsero  presto 
+ altri.  La  rete  in  questione era detta  ARPAnet,  e  quella  parallela  che 
+ collegava i siti militari MILnet.
+
+      Qualche  anno  dopo nacque UNIX, che veniva direttamente fornito  con  il 
+ comando  uucp ("Unix to Unix Copy Program") che serviva appunto  a  trasferire 
+ dati  da un sito a un altro. Gli ambienti universitari cominciarono percio`  a 
+ creare  un servizio di posta elettronica niente affatto diverso da quello  che 
+ adesso  e` Fido: la notte si spedivano la posta l'un l'altro via modem,  e  in 
+ maniera piu` o meno caotica si formo` un'altra rete, che veniva chiamata senza 
+ troppa fantasia UUCP.
+
+      A  questo  punto  entrano in scena le grandi case;  Digital  Equipment  e 
+ soprattutto  IBM.  Temendo di perdere quote di mercato - la gente  stava  gia` 
+ cominciando  ad  affezionarsi ai servizi telematici - escono  anche  loro  con 
+ delle architetture proprietarie. La Digital ha creato DECnet, la base di  reti 
+ come  SURFnet,  THEnet  e  SPAN usate spesso dei  fisici  che  sembrano  amare 
+ l'architettura  VAX.  IBM  invece ha preferito rivolgersi  subito  al  mercato 
+ universitario  con la sua RSCSnet, che e` diventata la base della famosa  rete 
+ BITNET  (che secondo alcuni sarebbe un gioco di parole, derivato  da  "Because 
+ It's  Time"  NET) e per la quale sono stati creati programmi  atti  ad essere 
+ usati anche da architetture non Big Blue.
+
+      Arriviamo cosi` alla meta` degli anni '80 in una situazione che  definire 
+ caotica e` ottimistico. Ovviamente ciascuna di queste reti ha la sua  sintassi 
+ per  indicare l'indirizzo di un'altra persona; esiste persino un libro che  si 
+ intitola  piu` o meno @.::#! per indicare appunto i vari  metacaratteri  usati 
+ nella posta. Il traffico aumentava sempre piu`, e sempre piu` spesso  capitava 
+ di sbagliare indirizzo e lasciare il proprio messaggio a perdersi nei  meandri 
+ della Grande Rete. Era tempo di una standardizzazione, in modo tra l'altro che 
+ non si avesse semplicemente la possibilita` di scambiarsi posta elettronica ma 
+ anche  di  accedere in maniera trasparente a sistemi  remoti.  Le  workstation 
+ cominciavano gia` a inondare il mercato, e uno poteva chiedersi cosa c'era  di 
+ diverso  nell'accedere  a un file nella Sun dell'altro ufficio o  in  una  Sun 
+ dall'altro capo dell'Atlantico...
+
+      E` nata cosi` Internet, definita come una meta-rete a cui tutte le  altre 
+ reti potevano scegliere se unirsi, accettando la sua filosofia di base (un co-
+ sto  di  ingresso e il costo delle proprie spese di trasmissione  e  ricezione 
+ verso  il punto piu` vicino), oppure congiungersi per mezzo di un gateway  che 
+ fa  per l'appunto un punto di scambio tra la rete locale e la Grande Rete.  In 
+ questo modo si e` definita la sintassi di un nodo Internet. Dal punto di vista 
+ del  calcolatore  esso e` un numero di 4 byte, che l'uomo vede in  decimale  e 
+ separati  da  un punto. Ad esempio il nodo SIMTEL20 dell'Esercito  USA  e`  il 
+ 192.88.110.20 . Vengono poi definiti dei gruppi di nodi (reti di classe A, B e 
+ C) che sono definiti da solo uno, due o tre bytes e che vengono "venduti" alle 
+ organizzazioni  che provvederanno a distribuire i sottonumeri all'interno.  Ad 
+ esempio,  ARPAnet (che e` stata dichiarata ufficialmente defunta solo  qualche 
+ anno fa) aveva come numero Internet 10.x.x.x.
+
+      Per gli indirizzi "umani", il riferimento standard e` l'RFC 822. RFC  sta 
+ per  "Request For Comments", anche se in realta` di commenti non ne  chiede  a 
+ nessuno  ma indica una regola da seguire. Nell'RFC 822 viene appunto  definita 
+ la sintassi che debbono avere gli indirizzi per essere validi. A parte  tolle-
+ rare  le vecchie denominazioni uucp e DECnet, viene formalizzata la  specifica 
+ del `domain' (dominio). Un domain e` un'area logica che puo` venire vista come 
+ un'unita`  da una persona esterna, e che a sua volta puo` essere suddivisa  in 
+ sottodomain  senza che nessuno all'esterno abbia problemi tecnici.  In  questo 
+ modo e` molto piu` facile assicurare che una macchina abbia un nome unico: ba-
+ sta  semplicemente controllare che esso sia unico a livello del  dominio  piu` 
+ interno.  I domini si leggono da destra a sinistra (tranne che in Gran  Breta-
+ gna, dove ovviamente fanno al contrario): cosi` il mio indirizzo in ufficio e` 
+ mau@bilbo.cselt.stet.it. Il dominio piu` esterno, nel nostro caso .it , indica 
+ la nazione. Ogni nazione ha un dominio indicato da due lettere, tranne gli USA 
+ che  oltre a .us hanno .edu - siti educatonal; .com - siti commercial; .gov  - 
+ siti  governativi; .mil - siti militari; .org - organizzazioni vearie che  vo-
+ gliono stare in Internet. All'interno del dominio italiano, troviamo .stet che 
+ e` il sottodominio del gruppo stet; .cselt indica il sottodominio dello CSELT, 
+ l'azienda  dove  lavoro; e infine bilbo e` la macchina e mau  sono  io  (avrei 
+ anche potuto mettere come logname .mau., ma mi sembrava un po' esagerato).
+
+      Il resto alla prossima puntata....
+
+                                      .mau. -  2:334/100.5
+
+ ############                                                               ###
+ ###   4  ###                                         IL SOFTWARE ITALIANO  ###
+ ############                                                               ###
+   
+           BBS software made in Italy: Window Editor
+          -------------------------------------------
+
+      L'opera e' compiuta! Dopo un anno e mezzo di lavoro mi sono deciso a  ri-
+ lasciare Window Editor (brevemente WEdit), editor di messaggi in standard  Fi-
+ donet e ultimo nato della serie Window Project. Scritto in Turbo Pascal, WEdit 
+ si presenta con una accattivante interfaccia-utente a finestre, ricco di  fun-
+ zioni e semplicissimo da configurare, il tutto realizzato con la massima  par-
+ simonia nell'utilizzo della memoria disponibile e dello spazio su disco.
+
+      WEdit gestisce due tipi di base messaggi:
+ - Fido (con i messaggi memorizzati come singoli file *.MSG)
+ - QuickBBS (base messaggi indicizzata con considerevole risparmio di spazio su 
+   disco rispetto a quella Fido).
+
+      La configurazione avviene con un apposito programma di Setup, che utiliz-
+ za lo stesso file delle aree (AREAS.PRM) utilizzato da WMail 2.2 o superiore.
+
+      Le principali caratteristiche di WEdit sono:
+
+ - Base messaggi Fido
+ - Base Messaggi QuickBBS
+ - Lunghezza massima messaggio: 300 Kb.
+ - Condivisione file base messaggi QuickBBS con altri programmi
+ - Autoriconoscimento presenza di DesqView
+ - Quoting intelligente
+ - Utilizzo della nodelist compilata da WNode
+ - Supporto per AKAs e domains
+ - Import delle definizioni delle aree di RemoteAccess 1.10 e FrontDoor 2.02
+
+      Le funzioni disponibili:
+
+ - Move/Copy/Forward in qualsiasi area
+ - Reply con o senza quoting in qualsiasi area
+ - Find sui campi From/To/Subject
+ - Ricerca dei messaggi indirizzati all'utente in tutte le aree
+ - List messaggi con possibilita' di cancellazione
+ - Print/Export su file
+ - Scan delle aree per messaggi non ancora letti
+ - Tabella Ascii disponibile durante l'editing
+ - Undelete fino a 20 linee
+ - Possibilita'  di scelta durante l'editing della origin da inserire nel  mes-
+   saggio.
+ - Riformattazione testo/paragrafo
+ - 10 shells definibili
+ - 10 macro definibili
+ - Window selezione files per attach e Update Request
+
+      Potete  trovare WEdit presso i nodi di distribuzione SDS o  sui  seguenti 
+ nodi, con magic name per la request 'WEDIT':
+
+       331/318 Venus               (9600 baud)
+       332/402 Arci Computer Club  (9600 baud)
+       332/600 Wolfnet             (9600 baud)
+       333/301 FrontDoor I Support (2400 baud)
+       334/100 Charlie's Puppies   (9600 baud)
+       335/12  Opus Mimac          (9600 baud)
+
+ Window Editor: il made in Italy innanzitutto ! 8-)
+
+                                Franco Schinco, 2:334/100
+
+ ############                                                               ###
+ ###   5  ###                                            ITAPAC - PARTE 11  ###
+ ############                                                               ###
+
+
+      Ecco  infine i costi aggiornati per un collegamento ITAPAC [NdE: ho  cor-
+ retto  i prezzi secondo il tariffario ufficiale Sip di aprile 1991 che ho  qui 
+ sotto gli occhi]. Sono divisi in tre fasce:
+
+
+ 1) COSTI INIZIALI   ovvero costi di installazione che incidono una sola volta.
+
+ 2) CANONI           costi fissi periodici che in ogni caso dovremo pagare  sia 
+                     che si utilizzi o no ITAPAC.
+
+ 3) COSTI VARIABILI  sono  i veri costi dell'utilizzo di ITAPAC, divisi in  ta-
+                     riffe a tempo (l'equivalente della bolletta SIP) ed in ta-
+                     riffe a volume (il costo dei dati trasmessi).
+
+      Tutti i valori sono espressi in lire italiane.
+
+
+                COSTI INIZIALI
+                ==============
+
+       15.000             Spostamento di una linea telefonica gi
+                          esistente per raggiungere il computer.
+
+    1.000.000             Acquisto di un modem SIP v22bis (sic!)
+
+      100.000             Costo installazione modem
+    ----------
+    1.115.000             TOTALE COSTI INIZIALI
+
+
+                CANONI
+                ======
+        Anno    Bimestre
+
+     (200.000     33.000) Tassa di concessione governativa per Trasmissione Da-
+                          ti. (E` stata abolita a partire dal 1/1/91, ma noi si
+                          continua egualmente a pagarla!) [NdE: sembra che  col
+                          1992 sia stata finalmente abolita...]
+
+      150.000     25.000  Canone di accesso ad ITAPAC a 1200 bps (+Password)
+
+      150.000     25.000  Canone di manutenzione modem
+      -------     ------
+      300.000     50.000  TOTALE CANONI
+
+
+         COSTI VARIABILI
+         ===============
+
+      - Chiamate in Italia:
+
+      N.B.: A  = costi dalle ore 8.00 alle ore 22.00 Lu Ma Me Gi Ve
+            B  = costi dalle ore 22.00 alle ore 8.00 +Sa+Do+Festivi
+            [] = tariffe agevolate per volumi > 200.000 segmenti/mese
+
+            A          B
+
+           13         13  Tariffa  occupazione porta ITAPAC - costo  al  minuto
+                          primo.
+
+          5,5        3,3  Tariffa  a  tempo  nazionale  (equivale alla classica
+                          bolletta SIP ma e` molto piu` conveniente) - costo al
+                          minuto primo.
+
+         1,6        0,96  Costo  per  ogni  segmento trasmesso (1 segmento = 64
+        [1,1]      [0,66] caratteri)
+
+          (24         24) Tassazione per ogni chiamata [NdE: io non l'ho trova-
+                          to scritto da nessuna parte...]
+
+           35         35  Eventuale  documentazione  delle  chiamate  (per ogni
+                          chiamata).
+
+
+      - Chiamate in Europa:
+
+      N.B.: non esistono tariffe ridotte
+
+           13             Tariffa occupazione  porta  ITAPAC -  costo al minuto
+                          primo.
+
+       65,163             Tariffa a tempo per l'Europa - costo al minuto primo.
+
+       59,682             Costo per ogni  10 segmenti  trasmessi (10 segment1 =
+                          640 caratteri)
+
+           24             Tassazione per ogni chiamata
+
+           35             Eventuale  documentazione  delle  chiamate  (per ogni
+                          chiamata).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                                E I SINCLAIR?  ###
+ ############                                                               ###
+
+           Il primo computer non si scorda mai
+           -----------------------------------
+ 
+      Grande novita' telematica per gli incalliti adoratori di Sir Clive!
+
+      E'  disponibile  sul circuito ISN la nuova rivista  elettronica  SINCLAIR 
+ NEWS, edita in quel di Roma e dedicata espressamente a noi  Sinclair-dipenden-
+ ti. Si parla di ZX Spectrum (48 e 128), QL, SAM Coupe' (a proposito: io non ho 
+ mai  visto  il SAM Coupe'... qualcuno mi sa dare infomazioni in piu'  su  tale 
+ computer?)  ed ovviamente anche del piccolo ma potente Z88, su cui  in  questo 
+ momento sto scrivendo.
+
+      SINCLAIR NEWS contiene gli avvisi delle manifestazioni a sfondo sinclair-
+ oso,  recensioni  e contenuti delle principali riviste estere,  notizie  varie 
+ (come  l'uscita di produzione dei microdrives e l'introduzione delle  cartucce 
+ RAM da 1Mb per lo Z88), trucchetti vari, annunci e recensioni di novita' hard-
+ ware e software, e tutto quello che vorrete inviare.
+ 
+      La cadenza e' trimestrale, anche se all'inizio si pensava di farlo  bime-
+ strale.
+
+      Il  nome  dei files e' SNEW*.*; precipitatevi al filerequest su  tutti  i 
+ nodi ISN!
+
+      Sui  nodi romani 335/16, 335/18, 335/20 e 335/21 c'e' anche un'area  mes-
+ saggi dedicata ai Sinclair-dipendenti. La mia - e credo anche la vostra - spe-
+ ranza e' che diventi presto nazionale all'interno di fidonet, o perlomeno  con 
+ una distribuzione parallela (chi vorrebbe creare una Sinclair-Net?).
+
+
+ @    @                  Roberto Piola
+          Ciao           2:334/306.666@fidonet.org 
+ \____/                  ed ora anche 2:334/102.7
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                               IL PROGRAMMINO  ###
+ ############                                                               ###
+
+      Beh, questa volta vi cuccate un bel programmino in assembler 80x86...  Il 
+ programma  in  questione  e` stato scritto da Alessandro  Peralma,  si  chiama 
+ ERR2OUT e (lo dice il nome stesso) serve a ridirigere lo standard error  sullo 
+ standard output.
+
+      Come  si compila? Beh, dovete avere un MASM; quindi lanciate  i  seguenti 
+ comandi.
+
+           masm err2out;
+           link err2out;
+           exe2bin err2out.exe err2out.sys
+
+ -----------------------------------------------------------------------------
+ 
+ code           segment   para public
+                assume    cs:code, ds:code
+                org       0
+
+ err2out        proc      far
+
+ header         dd        0ffffffffh         ; device driver header
+ attributes     dw        8000h              ; Attribute for device driver 
+                                             ; (char device)
+ pointers       dw        offset strategy    ; Points to strategy routine
+                dw        offset commands    ; Points to interrupt routine
+ char_dev_name  db        'ERR2OUT>'         ; Name of device driver
+
+ PackOfs        dw        0                  ; Request packet offset
+ PackSeg        dw        0                  ; Request packet segment
+
+ OldInt21Ofs    dw        0                  ; Old Interrupt 21 offset
+ OldInt21Seg    dw        0                  ; Old interrupt 21 segment
+
+ err2out        endp
+
+ strategy       proc      far
+
+                mov       cs:[PackOfs],bx    ; Save address of Request packet
+                mov       cs:[PackSeg],es
+                retf
+
+ strategy       endp
+
+ commands       proc      far
+
+                pushf                        ; Push some registers
+                push      ax
+                push      bx
+                push      ds
+                lds       bx,dword ptr cs:[PackOfs]
+                                             ; Get address of request packet
+                cmp       byte ptr [bx+2],0  ; Is DRIVER INIT command
+                jne       Exit               ; No, Exit driver
+                call      Install            ; Yes call installation procedure
+                mov       word ptr [bx+0eh],offset Install
+                                             ; Set last resident byte address
+                mov       word ptr [bx+10h],cs
+                                             ; in Request packet
+
+ Exit        :  mov       word ptr [bx+3],100h ; Rise DONE flag
+                                             ; in Request packet
+
+                pop       ds                 ; Pop some register
+                pop       bx
+                pop       ax
+                popf
+                retf                         ; And back to dos
+
+ NewInt21    :  cmp       ah,40h             ; Is a DOS Write Handle call ?
+                jne       Skip               ; No, skip.
+                cmp       bl,02h             ; Is a STDERR write attempt ?
+                jne       Skip               ; No, skip.
+                mov       bl,01h             ; Yes, Substitute STDERR handle
+                                             ; with STDOUT handle
+ Skip        :  jmp       dword ptr cs:[OldInt21Ofs] 
+                                             ; Go to Old Interrupt 21h
+
+ commands       endp
+
+ Install        proc      near
+
+                push      ds                 ; Push some registers
+                call      Logo               ; Display logo
+                xor       ax,ax              ; Reset AX
+                cli                          ; Prevent system noises
+                mov       ds,ax              ; Go to Interrupt Vector Table 
+                                             ; segment
+                mov       ax,word ptr ds:[4*21h]
+                                             ; Get INT 21h handler address
+                mov       cs:[OldInt21Ofs],ax
+                mov       ax,word ptr ds:[4*21h+2]
+                mov       cs:[OldInt21Seg],ax
+                mov       ax,offset NewInt21 
+                                             ; Set new INT 21h handler address
+                mov       word ptr ds:[4*21h],ax
+                mov       word ptr ds:[4*21h+2],cs
+                sti                          ; Allow system noises
+                pop       ds                 ; Pop some registers
+                ret
+
+ Install        endp
+
+ LogoString     db        'ERR2OUT 1.0 <STDERR to ST'; Silly to explain
+                db        'DOUT redirector installed>',0dh,0ah
+                db        'Copyright 1992 Alessandro'
+                db        ' Peralma',0dh,0ah,0dh,0ah,'$'
+
+ Logo           proc      near
+
+                push      ds                 ; Push some registers
+                push      dx
+                push      cs                 ; Set DATA segment to current
+                                             ; CODE segment
+                pop       ds
+                lea       dx,LogoString      ; Get logo string address and
+                mov       ah,09h
+                int       21h                ; print it via DOS function call
+                pop       dx                 ; Pop some registers
+                pop       ds
+                ret
+
+ Logo           endp
+
+ code           ends
+                end
+
+
+
+ ############                                                               ###
+ ###   8  ###                                                     VIVAMIGA  ###
+ ############                                                               ###
+
+
+           La lettura dei comandi da CLI
+           -----------------------------
+
+      Buon giorno care mucillagini insulse: [NdE: sembra che l'amigo sia passa-
+ to a leggere Dylan Dog] sono passati ben due mesi dall'ultima volta che  avete 
+ avuto  il  piacere  di leggermi. Colpa in primis del monitor (NEC  3D  che  la 
+ Newel,  benche' ancora in garanzia, mi ha tenuto ben 1 mese!) ed  in  secundis 
+ dei miei pressanti impegni scolastici, nonche' del mio scoramento per il  con-
+ tinuo assenteismo da parte vostra (chi ha orecchie per intendere in tenda, gli 
+ altri in camper) [NdE: Figuriamoci se qualcuno di qquesti si sveglia...].
+
+      Ancora una cosa: sto facendo il programmino per leggere l'ora da  Galileo 
+ (come un illustrissimo collega ha gia' fatto su MS-DOS).  Ebbene in questo mo-
+ mento  tutto funge proprio bene sul mio 2000 con supramodem 2400 mentre  desta 
+ serie perplessita' sul 3000 con DualStandard del Verdone (mio betatester  pre-
+ ferito).  Quindi la seriale ha ancora qualche mistero per me! [NdE: Se fai  il 
+ bravo  ti passo la stringa giusta di inizializzazione del modem  del  Verdone] 
+ Appena  risolto il tutto vi prometto succosi articoli sulla sua gestione;  in-
+ tanto succhiatevi questo.
+
+      Tutti hanno sempre visto l'Amiga come forte nel campo GUI col suo  intui-
+ tion,  eppure anche nella lettura dei comandi di linea il SO e' piuttosto  ben 
+ messo.  Ci sono delle routine (implementate a livello DOS quindi  direttamente 
+ accessibili al programma senza aprire alcuna libreria) che permettono di  fil-
+ trare automaticamente tutti gli eventi non desiderati.
+
+      Facciamo un bell'esempio:
+
+           1>dir ?
+           DIR,OPT/K,ALL/S,DIRS/S,FILES/S,INTER/S:
+
+ Eccolo  qua. Il prg resta in attesa dei vostri dati ed intanto vi indica  cosa 
+ vuole.  Chiaramente bisogna conoscere il significato dei simboli  /K,/S  etc.; 
+ nessuna paura, per questo ci sono qua io. Sul SO 2.0 i possibili parametri so-
+ no:
+
+      /S - Switch: 
+ e' considerata una variabile booleana.  Il suo risultato viene settato a 0  se 
+ non presente, altrimenti ad 1.  Es.:  dir ALL
+
+      /K - Keyword:
+ non viene messo nulla nella sua corrispondenza finche' non e' presente il  suo 
+ nome.  Es.: 'dir OPT' genera automaticamente il seguente messaggio di  errore: 
+ "manca un valore dopo la parola chiave", mentre 'dir OPT ALL' viene accettato.
+
+      /N - Number:
+ questo parametro e' considerato come numero decimale. Se si specifica un nume-
+ ro non corretto viene riportato un errore.
+
+      /T - Toggle:
+ e'  simile allo switch, ma quando viene specificato cambia lo stato della  va-
+ riabile da 0 ad 1 e viceversa. Es.: gli switch di default di un compattatore.
+
+      /A - Required:
+ se non presente il programma non potra' mai funzionare. Es.: 
+           1>ReadTelematicus ? 
+           READ/A:
+ Se non dai il nome della rivista da leggere quello non parte:  ReadTelematicus 
+ READ Pippo
+
+      /F - Rest of line:
+ tutto  il resto della linea viene preso come opzione, anche se vi  sono  altre 
+ opzioni dentro.
+
+      /M - Multiple string:
+ tutto cio' che non rientra, nella linea di comando, nei valori specificati fi-
+ nisce qui.  Es.: FROM/A/M,TO/A. Il primo valore e' necessario e si puo'  scri-
+ vere sia "FROM pippo" sia semplicemente "pippo". In questo caso scrivere TO e' 
+ d'obbligo (si puo' solo mettere un M 8-)!) tuttavia "TO pluto paperino" ripor-
+ ta un risultato corretto, pari a:  FROM paperino TO pluto.
+
+
+      Alcune  cosette: spesso al posto di un intero comando si puo' mettere  un 
+ carattere  di abbreviazione. Il comando list presenta il seguente  lunghissimo 
+ path:
+  
+           1>list ?
+           DIR/M,P=PAT/K,KEYS/S,DATES/S,NODATES/S,TO/K,SUB/K,SINCE/K,UPTO/K,
+      QUICK/S,BLOCK/S,NOHEAD/S,FILES/S,DIRS/S,LFORMAT/K,ALL/S:
+
+ in  P=PAT/K  al posto di PAT e' accettato anche P. E' buona norma  mettere  il 
+ comando  richiesto con /K tra virgolette in presenza di un '=', altrimenti  la 
+ funzione DOS lo considera un'abbreviazione. Chiaramente anche se si  inserisce 
+ uno spazio la funzione DOS lo considerera' un ulteriore possibile comando.
+
+
+      Ed ora eccoci alla parte piu' succosa, dove tutte le altre riviste si sa-
+ rebbero  invece fermate (e dove si fermera' la maggior parte della gente):  la 
+ programmazione. 
+ Nota: le struct che useremo  sono  definite  nell' #include <dos/rdargs.h>.
+
+      Si definisce innanzitutto la stringa d'interpretazione:
+
+ #define TEMPLATE "SEND/M,I=INFO/S,W=WAIT/N"
+
+ Per comodita' si definiscono anche i seguenti valori:
+
+ #define SEND            0
+ #define OPT_INFO        1
+ #define OPT_WAIT        2
+ #define OPT_COUNT       3
+
+ poi si prepara un array che sara' riempito dalla funzione dos ReadArgs()
+
+ long options[OPT_COUNT];
+
+ il tutto GLOBAL. Definisco poi anche per semplicita' i miei info:
+
+ #define PROGRAMTITLE    "SSer"
+ #define VERSION         "11"
+
+ #define INFO    PROGRAMTITLE" v" VERSION " (Send command to Serial) (PD) by"\ 
+      "RRE of TTH\n\t Renato Rolando\n"\
+      "\t Rotta Naviglio 4 10070 Fiano (TO) ITALY\n\t 2:334/100.9@fido.org\n"\
+      "\t ++39 11 9235565"
+
+ #define USAGE "Usage: "PROGRAMTITLE" <command to send> [INFO] [WAIT]\n"
+
+ main()
+ {
+        struct  RDArgs  *args=NULL;
+        char    command[80];            /* il comando */
+        long    T_WAIT,*tempo;          /* il valore in Wait */
+
+        /* se args == NULL allora non sono stati soddisfatti i requisiti */
+        /* l'ultimo parametro lasciatelo a NULL */
+        if (args = ReadArgs((UBYTE *)TEMPLATE, options, NULL))
+        {
+                if (options[SEND])
+                {
+                        strncpy (command, (char *)options[SEND], 80-1);
+                        fai qualcosa...
+                }
+
+                if (options[OPT_WAIT])
+                {
+                        tempo = (long *)options[OPT_WAIT];
+                        T_Wait = *tempo;
+
+                        /* mi interessano solo gli interi */
+                        if (T_Wait < 0)
+                        {
+                                PutStr("WAIT must be > 0 ! 8-)\n");
+                                exit (FALSE);
+                        }
+
+                        fai qualcosa...
+                }
+
+                if (options[OPT_INFO])
+                {
+                        PutStr(INFO "\n\n" USAGE "\n");
+                        exit (FALSE);
+                }
+        }
+        else                            /* args == NULL */
+                PrintFault(IoErr(),"SSer");
+
+        /* prima di uscire e' FONDAMENTALE deallocare tutto */
+
+        if (args)       FreeArgs(args);
+
+        exit (TRUE);
+ }
+
+      Consiglio  di usare il piu' possibile 
+                PrintFault(IoErr(),"Nome  Programma");
+ perche' scrive in stdout il testo corrispondente all'errore. Essendo una  rou-
+ tine del SO scrive il testo col linguaggio scelto dal programma Locale. Quindi 
+ automaticamente potete avere risposte in italiano, francese, inglese...  senza 
+ cambiare una virgola.
+
+      Ancora una considerazione sul passaggio dei parametri:  
+                (char *)options[SEND];
+ e' il modo migliore per leggere una stringa, mentre l'involuto
+
+                tempo = (long *)options[OPT_WAIT];
+                T_Wait = *tempo;
+
+ e'  l'unico modo che ho trovato per avere un compilato senza warning (la  fun-
+ zione riporta nel vettore options[OPT_WAIT] il puntatore ad una long (!). Ave-
+ ste suggerimenti migliori... li gradirei.
+
+      Il tutto funziona anche con l'opzione TINYMAIN che permette di risparmia-
+ re solitamente 4k sul codice evitando l'uso di printf().
+
+      E con questo vi saluto... sperando sia stato d'aiuto a qualcuno.
+
+
+
+                                                                RRE
+                                                                etc. etc.
+
+ ############                                                               ###
+ ###   9  ###                                                   ITAPAK (?)  ###
+ ############                                                               ###
+
+      Come gia` detto nell'editoriale, ecco a voi un testo "storico" della  te-
+ lematica  amatoriale italiana: la struttura della famigerata rete ITAPAK  come 
+ veniva  supposta 5 anni fa. A dire il vero, non e` che la situazione oggi  sia 
+ poi cosi` diversa: potete quindi acculturarvi senza problema!
+
+ +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+     
+           BlueBoy presents:
+
+           DESCRIZIONE AGGIORNATA DEI SEGNALI DI RETE X25 ITAPAK
+                     (STANDARD ISO 7741/ANSI 4962)
+           -----------------------------------------------------
+
+      A  partire dal 1.6.1987 la rete Itapak nazionale a commutazione  di  pac-
+ chetto  aggiornera` i propri segnali di rete secondo le esigenze createsi  nei 
+ due  anni di sperimentazione. Tutti gli utenti sono invitati a  prendere  atto 
+ della descrizione dettagliata che segue.
+
+
+                SEGNALI DEL PAD
+                ---------------
+
+ SEGNALE                          DESCRIZIONE
+ -------                          -----------
+
+ ACP:BO         La rete non e` sicura dell'avvenuta apertura di sessione  remo-
+                ta. Sta all'utente decidere se continuare o no.
+
+ ACP:MAH        Il  PAD  non riesce a interpretare i pacchetti in  arrivo.  Nel
+                dubbio non li consegna del tutto, come da raccomandazione OTON.
+
+ ACP:PCA        Il PAD confonde i pacchetti in arrivo con quelli in partenza; i
+                dati in partenza vengono rispediti all'utente, quelli in arrivo
+                persi irrimediabilmente.
+
+ ACP:CAZZ       Il PAD e` nei cazzi.  L'host remoto ha mandato qualche  segnale
+                di  troppo,  e Itapak non sa che pesci  pigliare.  (Abbatte  la
+                chiamata fisica)
+
+ ACP:MOM        Il PAD chiede tempo. Si verifica nel dubbio tra un segnale  MAH
+                ed uno CAZZ. I dati in arrivo/partenza vanno perduti.
+
+ ACP:TIE        Il  PAD sta per spedire  un pacchetto a velocita`  multipla  di
+                quella di trasmissione assegnata ; generalmente il pacchetto in
+                arrivo  (detto "Di Crash") viaggia a velocita` compresa  tra  i
+                9600 e i 19200 baud. Puo verificarsi se l'utente ha mandato se-
+                gnali  di CTRL troppo frequenti; il TIE puo` avvenire anche  in
+                condizioni random indipendenti dall'utente.
+
+ ACP:INCRED     Il PAD ha verificato che negli ultimi 10 minuti i pacchetti  in
+                viaggio  sulla rete non hanno subito rallentamenti ne`  altera-
+                zioni, e sta cercando di scoprire le cause del corretto funzio-
+                namento.
+
+ ACP:SCIOP      Il PAD si  rifiuta di commutare, ed entra in fase di  sciopero.
+                (Blocca l'utente a tempo indefinito)
+
+ ACP:PERS       Il PAD ha perso il pacchetto. In genere si verifica  quando  la
+                NUA chiamata e` composta da molte cifre: Itapak interpreta  er-
+                roneamente l'indirizzo e spedisce il pacchetto da qualche altra
+                parte.
+
+ ACP:QUIZ       Un sovraccarico  di chiamate costringe il PAD ad  eliminare  un
+                utente. Viene spedito il pacchetto di QUIZ a tutti i DTE colle-
+                gati  al nodo: l'ultimo a rispondere al QUIZ  viene  scollegato
+                fisicamente dalla rete.
+
+
+      Seguiranno le descrizioni formali dei PARAMETRI del PAD, secondo le nuove 
+ raccomandazioni X.25 / X.28.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  10  ###                                   IL GERGO HACKER - PARTE 11  ###
+ ############                                                               ###
+
+
+                          = C =
+                          =====
+
+      <C>:  s.  1. La terza lettera dell'alfabeto latino. 2.  Il  codice  ASCII 
+ #b1000011.  3.  Il nome di un linguaggio di programmazione  creato  da  Dennis 
+ Ritchie  nei primi anni '70 e immediatamente usato per reimplementare  <UNIX>. 
+ Chiamato  cosi`  perche` molte sue caratteristiche derivano da  un  interprete 
+ precedente chiamato `B' in ricordo del *suo* genitore, BCPL; prima che  Bjarne 
+ Stroustrup  risolvesse  la questione creando il C++, c'e` stato  un  dibattito 
+ umoristico sul fatto se il successore del C dovesse essere chiamato `D' o `P'. 
+ Il C divenne immensamente popolare al di fuori dei Bell Labs intorno al 1980 e 
+ ora e` il linguaggio dominante nelle applicazioni di programmazione di sistema 
+ e nei microcomputer. Vedi anche <languages of choice>, <indent style>.
+
+ Il C e` spesso descritto, con una miscela di fierezza e disprezzo variabile  a 
+ seconda di chi ne parla, come "un lingiaggio che combina tutta l'eleganza e il 
+ potere  del  linguaggio assembly con la leggibilita` e la  mantenibilita`  del 
+ linguaggio  assembly". [NdE: nel testo che ho io e` scritto proprio due  volte 
+ `assembly language']
+
+      <can> [nel senso popolare americano di "smetterla", non il verbo modale]: 
+ vt.  Abortire un job su un sistema time-sharing. Usato sp. quando  la  persona 
+ che compie l'azione e` un operatore, come in "c. dalla <console>". Usato  fre-
+ quentemente  in senso imperativo, come in "C. quella stampa, e` appena  uscito 
+ un ingranaggio dalla stampante!" Sinonimo di <gun>. Si narra che il  carattere 
+ ASCII di mnemonico CAN (#b0011000) veniva usato come segnalatore di  cancella-
+ zione di un job in qualche sistema operativo primitivo.
+
+      <canonical> [storicamente, `secondo la legge religiosa'] agg. Lo stato  o 
+ la modalita` usuale o standard di una cosa. In matematica, la parola ha un si-
+ gnificato un po' piu` tecnico. Per esempio, si parla spesso di una formula di-
+ cendo  che e` in forma canonica. Due polinomi come `9 + x' e `x + 9'  sono  ad 
+ esempio detti equivalenti perche` significano la stessa cosa, ma il secondo e` 
+ in  forma canonica perche` e` scritto nella maniera usuale, con le potenze  di 
+ grado maggiore dell'incognita a sinistra. Di solito ci sono delle regole fisse 
+ che si possono usare p;er decidere se quancosa e` in forma canonica. Il signi-
+ ficato nel jargon e` un rilassamento di questo significato tecnico (questa ge-
+ neralizzazione non e` in realta` confinata agli hackers, e puo` essere trovata 
+ negli ambienti accademici). Confr. <vanilla>.
+
+ Una storia vera: un certo Bob Sjoberg, giunto da poco all'AI Lab del MIT, ave-
+ va  espresso  fastidio quando veniva usato il jargon. Viste le  sue  obiezioni 
+ espresse con forza, GLS [NdE: Steele] e RMS [NdE: Stallman] si erano  ostinati 
+ a  usarlo il piu` possibile in sua presenza, e alla fine costui  comincio`  ad 
+ assorbirlo. Infine, durante una conversazione, uso` la parola `canonical'  nel 
+ senso  jargon  senza pensarci su. Subito Steele: "Aha! Finalmente  ti  abbiamo 
+ cuccato a parlare jargon!" Stallman: "Cosa ha detto?" E Steele: "Bob ha appena 
+ usato `canonical' nel modo canonico".
+
+ Naturalmente, la canonicita` dipende dal contesto, ma e` implicitamente  defi-
+ nita  come il modo in cui *gli hackers* fanno normalmente le cose. Quindi,  un 
+ hacker  puo` dire con aria perfettamente naturale che "secondo la legge  reli-
+ giosa" *non e`* il significato canonico di `canonical'.
+
+      <card>  [scheda]: s. 1. Uno stampato di circuito elettronico (vedi  anche 
+ <tall card>, <short card>.  2. arc. Sin. <punched card>.
+
+      <card walloper> [bastonatore di schede]: n. Un programmatore EDP che  ma-
+ cina  batch che fanno cose stupide, come stampare le buste paga  della  gente. 
+ Confr. <code grinder>. Vedi anche <punched card>, <eighty-column mind>.
+
+      <cargo-cult  programming>: s. Uno stile di programmazione  (incompetente) 
+ dominata  dalla inclusione rituale di codice o di strutture di  programma  che 
+ non servono ad alcuno scopo utile. Un programmatore c.-c. spieghera` di solito 
+ il codice in piu` come un mezzo per rimediare ad alcuni bachi trovati nel pas-
+ sato, ma di solito ne` il baco ne` la ragione per cui il codice evitava il ba-
+ co non sono state mai pienamente capite (confr. <shotgun debugging>).
+ 
+ Il  termine  cargo-cult e` un riferimento ad alcune  religioni  aborigene  che 
+ crebbero  nel Pacifico dopo la seconda guerra mondiale. Le pratiche di  questi 
+ culti erano centrate sul costruire elaborate imitazioni di aerei e strisce  di 
+ atterraggio  in stile militare, nella speranza di fare ritornare  guei  divini 
+ aeroplani  che portavano carichi cosi` meravigliosi durante la  guerra.  L'uso 
+ hacker  deriva  probabilmente  dalla caratterizzazione  da  parte  di  Richard 
+ Feynman  di  certe  pratiche  come "scienza c.-c."  nel  suo  libro  `Lei  sta 
+ scherzando, Mr. Feynman'.
+
+      <case  and  paste> [da `cut and paste']: s. 1. L'addizione di  una  nuova 
+ <feature> a un sistema esistente prendendo il codice da una feature esistene e 
+ attaccandogliela  con cambi minori. Comune nel campo della  telefonia  perche` 
+ molte operazioni in una centralina telefonica sono selezionate utilizzando de-
+ gli statement case. Conduce al <software bloat>.
+
+ In alcuni gruppi di utenti EMACS questa e` chiamata `programmazione via  Meta-
+ W',  perche` Meta-W e` il comando EMACS per copiare un blocco di testo  su  un 
+ buffer temporaneo per attaccarlo da qualche altra parte. Il termine e`  condi-
+ scendente, implicante che il programmatore sta agendo senza pensarci su, inve-
+ ce che considerare attentamente cosa e` richiesto per integrare il codice  per 
+ i due casi simili.
+
+      <casting the runes> [lanciare gli incantesimi]: s. L'atto di prendere  un 
+ <guru>  perche` faccia girare di persona un particolare programma  che  nessun 
+ altro riesce a fare funzionare; sp. usato nessuno riesce a capire cosa il guru 
+ stia  facendo  di differente rispetto a un qualunque J. Random  Luser.  Confr. 
+ <incantation>, <runes>, <examining the entrails>; vedi anche il koan AI su Tom 
+ Knight nell'Appendice A.
+ 
+      <cat>:  [da  `catenate' via il comando <UNIX> `cat(1)']  vt.  1.  [tecn.] 
+ Emettere un intero file sullo schermo o un'altra unita` di output senza alcuna 
+ pausa. 2. Per estensione, buttare enormi quantita` di dati su un bersaglio im-
+ preparato o con nessuna intenzione di esaminarli attentamente. Uso: considera-
+ to stupido. Raro fuori dal mondo UNIX. Vedi anche <dd>.
+
+ Tra  coloro che odiano UNIX, `cat(1)' e` considerato l'esempio <canonical>  di 
+ una  povera specifica di interfaccia. Questo perche` e` piu` spesso usato  per 
+ sparare un file sullo standard output piuttosto che per concatenare due files. 
+ Il  nome `cat' per la prima operazione non e` intuituico alla pari ad  esempio 
+ del <cdr> del LISP.
+ 
+      <catatonic>:  agg. Descrive una condizione di animazione sospesa  in  cui 
+ qualcosa e` cosi` <wedged> [incastrata] o <hung> [appesa] che non da` piu` ri-
+ sposta. Ad esempio, se uno sta scrivendo al terminale e a un tratto il  calco-
+ latore  non rimanda nemmeno a display le lettere battute, per non  parlare  di 
+ fare l'operazione richiesta, allora il calcolatore sta soffrendo di  catatonia 
+ (magari perche` e` crashato). Confr. <buzz>.
+
+      <cdr>: /ku'dr/ o /kuh'dr/ [dal LISP] vt. Saltare il primo elemento di una 
+ lista  di oggetti (generalizzato dalla operazione LISP su strutture ad  albero 
+ binario).  Nella forma `cdr down', scorrere una lista di  elementi.  "Dobbiamo 
+ fare un cdr giu` per l'agenda?" Uso: stupido. Vedi anche <loop through>.
+
+ Nota storica: il formato delle istruzioni dell'IBM 7090 su cui e` stato imple-
+ mentato per la prima volta il LISP aveva due campi da 15 bit chiamati la parte 
+ di `address' [indirizzo] e `decrement' [decremento]. Il termine `cdr' era ori-
+ ginariamente  `Contenuto  della parte Decremento  del  Registro'.  Similmente, 
+ `car'  stava per `Contenuto della parte Address del Registro'. Da  allora,  le 
+ opperazioni `cdr' e `car' sono diventate la base per la formazione di metafore 
+ composte  in  conttesti  non-LISP.  Ad esempio  GLS  ricorda  un  progetto  di 
+ programmazione  in cui le stringhe erano rappresentate come liste linkate;  le 
+ operazioni di get-character e skip-character erano ovviamente chiamate CHAR  e 
+ CHDR.
+
+      <chad>  /chad/:  s. 1. Le strisce perforate ai margini  della  carta  per 
+ stampanti,  dopo che sono state separate dalla parte stampata. Chiamate  anche 
+ <selvage>  o  <perf>. 2. arc. I coriandolini tirati via da  una  punzonatrice; 
+ detti anche `chaff', `computer confetti', e `keypunch droppings'.
+
+ Nota  storica:  un  corrispondente crede che `chad' (senso  #2)  derivi  dalla 
+ punzonatrice Chadless (dal suo inventore) che non faceva buchi, ma  ritagliava 
+ delle linguette a forma di u che, piegate, lasciavano il buco. Era chiaro che, 
+ se  la `Chadless' [letteralmente, `senza chad'], non li faceva,  i  coriandoli 
+ fatti dalle altre punzonatrici erano `chad'.
+
+      <chain>  [orig.  dall'istruzione  BASIC  CHAIN]:  vi.  Quando  usato  nei 
+ linguaggi  di programmazione, si riferisce a un'istruzione che permette  a  un 
+ processo  padre  di  passare l'escuzione a un progetto  figlio  senza  passare 
+ dall'<OS>. Lo stato del programma padre e` perso, e non vi si puo`  ritornare. 
+ Anche  se  questa  possibilita` era comune sui micro di  una  volta  con  poca 
+ memoria  ed  e` ancora supportata oggi per compatibilita`,  l'uso  gergale  e` 
+ semi-obsolescente:  in particolare, i programmatori UNIX pensano la cosa  come 
+ un'<exec>. Opp. il piu` moderno <subshell>.
+
+      <char>  /keir/ o /char/ raram. /kar/: s. Abbreviazione  per  `character'. 
+ Usato  sp. dai programmatori C, visto che `char' e` il nome del tipo  di  dato 
+ carattere.
+
+      <chase pointers> [dare la caccia ai puntatori]: vi. Attraversare multipli 
+ livelli  di indirezione, come quando si scorre una lista linkata o  un  grafo. 
+ Usato specialmente dai programmatori C, dove i puntatori espliciti sono un ti-
+ po di dati molto comune. E` quasi tecnico, ma rimane gergale quando riferito a 
+ reti  umane.  "Sto cacciando puntatori. Bob mi ha detto che puoi dirmi  a  chi 
+ chiedere a proposito di...". 
+
+      <chemist> [Cambridge: chimico]: s. Qualcuno che spreca tempo macchina  in 
+ <number-crunching> mentre riterreste che il computer dovrebbe fare qualcosa di 
+ piu` produttico, tipo ricavare tutti gli anagrammi del vostro nome o  stampare 
+ calendari con Snoopy o far girare patterns di <life>. Puo` riferirsi oppure no 
+ a qualcuno che effettivamente studia chimica.
+
+      <Chernobyl  packet>  /cher-noh'b@l pak'@t/: s. Un pacchetto di  rete  che 
+ induce  <network meltdown> [fusione della rete]: il risultato di una  tempesta 
+ di  comunicazione (`broadcast storm'). Detto cosi` in  memoria  dell'incidente 
+ nucleare  del  1987  a Chernobyl in Ucraina. Il caso tipico e`  quello  di  un 
+ Ethergram  IP  che passa per un gateway con indirizzi Ether e  IP  sorgente  e 
+ destinazione  settati  come quelli di comunicazione globale per  le  sottoreti 
+ considerate. Confr. <Christmas tree packet>.
+
+      <chiclet  keyboard> [tastiera cicles]: s. Una tastiera con piccoli  tasti 
+ rettangolari  o  a  losanga di gomma o plastica che assomigliano  a  pezzi  di 
+ chewing-gum (Chiclet e` un nome commerciale e anche l'equivalente spagnolo del 
+ nostro  `cicles'). Usato sp. per la tastiera originale del PC-jr. I  venditori 
+ li  apprezzano  all'unanimita` perche` economici, e molti portatili  e  laptop 
+ vengono  immessi cosi` sul mercato. Gli acquirenti rigettano l'idea con  quasi 
+ la  stessa unanimita`, e non si vedono piu` c. su nulla di piu` grande  di  un 
+ orologio digitale.
+
+      <Chinese Army technique>: s. Sin. <Mongolian Hordes technique>.
+
+      <choke> [soffocare]: vt. Rigettare l'input, spesso di brutto. "Ho tentato 
+ di creare un binario <EMACS> per usare <X>, ma `cpp(1)' e` soffocato con tutti 
+ quei `#define'. Vedi <barf>, <gag>, <vi>.
+
+      <chomp>: vt. Perdere: specif., ingoiare qc. di cui se ne e` morso piu` di 
+ quanto si potesse. Un genere il verbo e` accompagnato da una mimica consisten-
+ te delle quattro dita tenute insieme come in un burattino e queste e il polli-
+ ce  aprirsi rapidamente come per indicare un'azione di morditura (un po'  come 
+ PacMan, anche se questo gesto sembra essere precedente). Il gesto da solo  si-
+ gnifica "chomp chomp" (vedi Raddoppiamento di Verbi). La mano indica l'oggetto 
+ della protesta, e per maggiore enfasi si usano entrambe le mani. Per  esempio, 
+ farlo a una persona equivale a dirle "Chomper che non sei altro!" Se lo si  fa 
+ a se stessi, e` un'umile ma umoristica ammissione di fallimento. Si puo` farlo 
+ se qualcuno vi dice che un programma da voi scritto si e` piantato in un  modo 
+ sorprendente e voi vi sentite stupidi per non averlo immaginato.
+
+      <Christmas  tree> s. Un tipo di tester per linee RS-232,  contenente  due 
+ file di LED rossi e verdi come le lucine di un albero di Natale.
+
+      <Christmas tree packet>: s. Un pacchetto che ha settate tutte le  opzioni 
+ possibili per il protocollo usato. Vedi <kamikaze packet>, <Chernobyl packet>.
+
+      <chrome>  [cromature:  dallo slang automobilistico]:  s.  Caratteristiche 
+ ben  visibili aggiunte per attrarre gli utenti, ma che contribuiscono  poco  o 
+ nulla alla potenza di un sistema. "Le icone 3D in Motiv sono solo c., ma certo 
+ sono delle `belle' c.!" Distinto da <bells and whistles> dal fatto che  questi 
+ ultimi   sono  solitamente  aggiunti  per  gratificare  il   desiderio   degli 
+ sviputppatori per le features.
+
+      <Church  of  the  Sub-Genius> [Chiesa del sotto-genio]:  s.  Una  costola 
+ mutante  del  <Discordianism>  fondata nel 1981 come una  presa  in  giro  dei 
+ cristiani  fondamentalisti dal `reverendo' Ivan Stang, un brillante  satirista 
+ con un dono per la promozione. Popolare tra gli hacker come una ricca sorgente 
+ di  immagini  e  riferimenti  bizzarri come: `Bob',  il  divino  venditore  di 
+ equipaggiamento per trapanare; il Benevolente Xista Spaziale; e il Duro  Pugno 
+ di  Rimozione  (Stark  Fist of Removal). Molte  delle  teorie  del  Sub-Genius 
+ riguardano  l'acquisizione della mitica sostanza o qualita` dello `slack'  [la 
+ mollezza?] Vedi anche <ha ha only serious>.
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  11  ###                                    NOTIZIE FIDONET REGION 33  ###
+ ############                                                               ###
+
+      * Prima assemblea AFI
+        -------------------
+
+      Come  scritto altrove, AFI, l'Associazione Fidonet Italia, ha  tenuto  la 
+ prima assemblea: sono stati eletti i componenti del Consiglio Direttivo (Mula-
+ to, Carcillo, Persivale, Pasquini, Giannelli), i Revisori dei Conti e i Probi-
+ viri.  E' stato inoltre approvato il Regolamento interno. Su  AFI  ritorneremo 
+ nel prossimo numero. [NdE: ricordo che non esiste nessuna connessione tra  AFI 
+ e Telematicus (il vostro editor di fiducia, tanto per fare un esempio, non  e` 
+ nemmeno socio!) Chi fosse interessato a prendere visione dello statuto si puo` 
+ rivolgere ai BBS soci: eccovi la lista aggiornata.]
+
+ | 331/105    Hal BBS                 |  332/108    Quotha32 OnLine         |
+ | 331/302    Fido Mi                 |  332/206    Animal House Bank       |
+ | 331/320    Prisma                  |  332/210    The Sanna Experiment    |
+ | 331/323    Cyberspace Connection   |  332/213    Iron Icon BBS           |
+ | 332/102    Assist Link             |  332/301    Fido Rimini             |
+ | 332/104    The Doors               |  332/305    AIR                     |
+ | 332/403    Active BBS              |  333/1      Fatal Error             |
+ | 332/407    Nonsolosoft BBS         |  333/101    BitOne                  |
+ | 332/409    Guild of Adventures     |  333/201    The Wall                |
+ | 332/414    Antinisca BBS           |  333/301    FrontDoor Help Italy    |
+ | 332/415    Stardust BBS            |  333/304    OSI OVERHEAD            |
+ | 332/502    The Drake BBS           |  333/401    Infonet                 |
+ | 332/504    Videl BBS               |  333/603    Fido Trieste            |
+ | 332/505    Speed of Life           |  334/1      Fido To                 |
+ | 332/602    WolfNet                 |  335/2      FastForward BBS         |
+ | 332/604    Deus BBS                |  335/212    Henry 8th               |
+ | 332/606    AST Elba Isle's BBS     |  335/3      Fido Roma               |
+ | 332/607    Riverrun Joyce          |  335/5      Civitavecchia BBS       |
+
+
+      * Nuova area Echo nazionale
+        -------------------------
+
+      L'area messaggi AIR, a cura dell'Associazione Italiana Radioascolto,  de-
+ dicata appunto ai `listener', e' diventata a carattere nazionale dopo una lun-
+ ga sperimentazione nel net 334. Continuera' a moderarla Lorenzo Travaglio.
+
+
+      * To-Net cambia numero
+        --------------------
+      Per  gli  amici del 334, ricordo che il BBS di Enrico Arman  ha  cambiato 
+ numeri telefonici e adesso risponde allo 011-4346864/5 .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:    
+
+ 334/100 - 011-3299706     | 334/1   - 011-5765565     | 331/112 - 0341-360511
+ 333/603 - 040-3783111
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369 
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003 
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/0   - 011-5765568     | 334/306 - 0121-542795     | 335/210 - 081-5709527
+ 335/405 - 06-315323     
+
+
+
+
+####                            End of TELEM014                            ####

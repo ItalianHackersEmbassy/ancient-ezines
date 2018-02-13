@@ -1,0 +1,1320 @@
+ #### TELEM040 - Telematicus - Volume 04 - Numero 05 - Anno 1994 -  60 pag.####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                  Maggio 1994
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematicus   e`  (C)  dei  singoli  autori.   E`
+ espressamente consentita la distribuzione e il riutilizzo  del  bollettino  in
+ tutto  o in parte, purche` non a fini di lucro e citando sempre autore e fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina  60 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+
+ [ 1]  Editoriale  .   .   .   .   .   .   .   .   .   .   .   (RRE)    pag.  4
+ [ 2]  Lettere aperte  .   .   .   .   .   .   .   .   .   .  (AAVV)    pag.  6
+ [ 3]  Un network al mese...:Internet  - parte VI . (Stefano Costa2)    pag. 12
+ [ 4]  Correct 3.0 .   .   .   .   .   .   .   .   . (Roberto Piola)    pag. 15
+ [ 5]  Gaia (FIDO si evolve)   .   .   - parte VI (Marino Marinelli)    pag. 21
+ [ 6]  Oberon  .   .   .   .   .   .   - parte VI  . (Roberto Piola)    pag. 26
+ [ 7]  Curiosita`: Il gergo hacker .   - parte 34  .   .   .  (AAVV)    pag. 79
+ [ 8]  Errata corrige  .   .   .   .   .   .   .   .  (Marco d'Itri)    pag. 38
+ [ 9]  The stable marriage (matematica)- parte 2   . (Andrea Vitali)    pag. 39
+ [10]  Notizie Fidonet region 33   .   .   .   .   .   .   .  (AAVV)    pag. 51
+
+
+
+
+
+
+
+                  Questo Telematicus e' nato con l'aiuto di...
+
+                                          | * I collaboratori dai network: *
+ Editor  Beatlensis :  Maurizio Codogno   |
+ Editor  HyperFidus :  Marino Marinelli   | Roberto Orsini      (2:332/425)
+ Editor  Correctus  :  Roberto Piola      | Giovanni Lopes      (2:332/114.2)
+ Editor  Netticus   :  Stefano Costa2     | Herve Miozzo      (2:333/511.20000)
+ Editor  Oberiens   :  Roberto Piola      | Angelo Verdone      (2:334/21)
+ Editor  Corrigens  :  Marco d'Itri       | Enrico Franceschetti(2:335/212)
+ Editor  Calculans  :  Andrea Vitali      | Cicci Serra         (2:335/225.4)
+                                          |
+
+ Editor mittens : Renzo Gamba, Alessandro Ghezzer
+
+ ... e del "saccheggiato"
+ Eric S. Raymond <esr@snark.thyrsus.com>
+
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO)
+                           al 011-9235565
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+  Ok,   ok.   Anche  questa  e'  andata:  coi  suoi  soliti  errori,  i  soliti
+ strafalcioni etc.  etc.  (o, come vuole  ormai anche il vocabolario "ecc ecc".
+ Ma io sono un nostalgico...)
+
+  Bene! Morto nessuno di famoso questo mese? non mi risulta.
+
+  Oh, scusate il solito ritardo, ma il sottoscritto si e'  dimesso  da  lavoro.
+ In  realta'  la  ditta  -  la Elcat, fa sedili, faceva sedili per auto - e' in
+ concordato preventivo forse.  Il mio  contratto biennale di formazione sarebbe
+ scaduto il prox mese.  E quindi ho pensato che e' sempre piu' carino  darli  i
+ calci che riceverli...
+
+  Cosi' scusatemi questa parentesi auto-commiserante, ma ogni mese devo trovare
+ una scusa valida per il ritardo e questa mi sembrava buona.
+
+  Ora, ci sarebbero anche  firme  'prestigiose'  nella  rivista  se  queste  si
+ degnassero  di  scriverci  (mi  riferisco  al Carcillo od al Vertigo...) e sto
+ preparando - da qualche  mese  ormai  -  una  nuova infornata di puntate punto
+ interessanti (perdonatemi il gioco di parole).
+
+  Mi sembra che avrei dovuto parlare di cose importanti.  Ma proprio ora non mi
+ ricordo.
+
+  Ah,   si,   ecco.    Inserisco   l'attuale   RT   (Read   Telematicus)   che,
+ inspiegabilmente,  non ha funzionante in questo number lo Skip oltre l'articlo
+ 6. Inserisco anche i sorgenti. Ricci premi e cotillons per chi trova l'errore!
+
+  Buona lettura.
+
+
+
+
+
+                                                                        RRE
+
+
+
+
+
+
+ ############                                               LETTERE APERTE  ###
+ ###   2  ###                                               AAVV            ###
+ ############                                                               ###
+
+ Riassunto:
+         Intanto  il  'buon' Renzo Gamba si spertica nei soliti complimenti (in
+        un'acuta osservazione sulla realta' della rivista, devo dire) e mi tira
+        le orecchie  per  il  lettore  interattiv-multimedial  che  era quel RT
+        scritto dal *mitico* .mau.
+         Effettivamente il lettore  comincia  a  perdere  i  colpi...  spero di
+        riuscire a scrierne un altro  al  piu'  presto.   Ma  spero  anche  che
+        qualcuno si faccia vivo per farlo.  :)
+
+         Poi c'e' un 'vecchio pazzo', un tal Alessandro Ghezzer che chiede info
+        su  come mettere su una rivista.  Beh, ti metti li e la fai.  Speri che
+        qualcuno ogni  tanto  ti  risponda.   Speri  di  contrastare l'avanzata
+        berlusconiana (la suddetta testata simpatizza col BOBI - Boicottiamo Il
+        Biscione -) e tiri a campare attento a...  tiri mancini.  Il  resto  in
+        matrix. P.S. Auguri alla rivista, non mancheremo di pubblicizzarla!
+         Comunque  il  pazzoide  ci  tira  le  orecchie:  voliamo  troppo alti,
+        facciamo il club  privato,  siamo autartici autolesionisti maniacali...
+        puzziamo anche un  po'.   :)  OK  ho  esagerato.   MA  come  si  fa  ad
+        accontentare  tutti?   Sappi  che  la  maggior  parte delle BBS (quelle
+        intelligenti)  ha  compattato  i  nostri  primi  n  number  in  un gran
+        mappazzo.
+         Ergo  se  vuoi  avere  qualcosa  di  piu'  terra-terra,  esistono  gli
+        arretrati.  Eppoi, please, PLEASE, ficcatevi nella vostra dura scamorza
+        che pubblico cio' che mi danno.  Quindi se il trend (la  tendenza,  per
+        non parlare il marziano) e' quella...
+
+ ------------------------------------------------------------------------------
+
+ Caro RRE,
+
+  sono un lettore di Telematicus sin dal primo numero (anzi dal mitico numero 0
+ del Dicembre 1990).  [NdE: siamo commossi!  :)]
+
+  Ho apprezzato lo sprone  che  hai  dato  alla  pubblicazione da quando ne sei
+ subentrato come nuovo "capo redattore".   Forse  un  po'  meno  tecnicista  ma
+ sicuramente  piu'  ricca di articoli, voci ed opinioni (a volte in verita', un
+ po' troppo colorite, ma sicuramente, piu' divertenti).
+
+  Ho invece notato che  l'editor  interattivo RT (Read Telematicus) distribuito
+ in formato RT.C nel lontano gennaio 1992  (n.   13)  non  e'  mai  piu'  stato
+ aggiornato  (oltretutto non supporta ottimamente le centinaia di pagine di cui
+ e' composto il nuovo Telematicus  -  se  non ricordo male era stato progettato
+ per "reggerne 99", in realta' ho notato che ne controlla 109).
+
+  Tale software poi e' stato distribuito * solo * nel pacchetto TELEM013.ZIP  e
+ basta!
+
+  Chissa'  quanti  nuovi  lettori utilizzano l'EDIT o lo scomodo TYPE *.* |MORE
+ per leggersi la loro pubblicazione del cuore.  [NdE: ci sono *parecchi* editor
+ che possono fare all'upo.  Tra l'altro con 44 o 66 righe per pagina puo' anche
+ essere stampato, ad es.  col discreto Q edit.]
+
+  Allega quindi il Read Telematicus ad una delle prossime edizioni (magari gia'
+ in EXE, non tutti hanno un  compilatore  C a disposizione).  Se poi si potesse
+ realizzare una versione "aggiornata", ben venga  (o  c'e'  gia'?).   [NdE:  la
+ versione aggiornata ancora non c'e'.  Allegero' anche l'*.exe comunque.]
+
+ Ciao  e  avanti  cosi', siete una potenza (meglio di Pentium!).  [NdE: risiamo
+ commossi!]
+
+                                                                   Renzo
+                                                                   2:332/201.22
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+ Ciao Rolando,
+ [NdE: Rolando? al max Renato!]
+
+  per  puro   caso   sono   incocciato   nella   vostra   interessante  rivista
+ "Telematicus"...  Tralascio ovviamente i complimenti di rito, che vi farebbero
+ inopportunamente alzare la cresta...  [NdE: siamo commossi!]
+
+  Premetto che sono un novizio, e solo  da  qualche  mese  ho  scoperto  questo
+ "meraviglioso  mondo  sotterraneo"  che  e` la telematica.  Delle BBS ne avevo
+ sentito solo parlare come  qualcosa  di  sconveniente o di vagamente sinistro.
+ Per questioni di lavoro ho dovuto comprare un modem e...  AAAAAARRRRGGGHHH  mi
+ si e` spalancata La Voragine sotto i piedi...
+
+  Ti  confesso  che  all'inizio era un po' come entrare nelle catacombe...  Ora
+ che ci razzolo da un po' di tempo  mi  si  sono schiarite un po' le idee ed e`
+ cresciuta la  voglia  di  conoscere  meglio  questo  meraviglioso  sistema  di
+ comunicazione.
+
+  E  qui  viene  la nota dolente.  Non ti dico quanto sarebbe opportuna per noi
+ novizi una sorta di guida spirituale,  che  ci addentri e ci sospinga (piano!)
+ nei meandri tortuosi della telematica.
+
+  Una rivista a tal scopo sarebbe l'ideale, e  speravo  ardentemente  fosse  la
+ vostra.   Invece mi sono imbattuto in una una setta di iniziati, simpatici fin
+ che  si  vuole  ma  che   parlano   -anzi  scrivono-  in  uno  stretto  "slang
+ informatico",  pressoche`  incomprensibile  ai  piu`.   [NdE:  su  questo  hai
+ ragione.  Spesso neppure io mi capisco sio' che dico.]
+
+  Intendiamoci,  gli  articoli  interessanti,  anche  per  noi  nuovi  virgulti
+ dell'informatica ancora da dirozzare, non mancano.  Ma e` troppo  poco.   Ora,
+ se  il  vostro  intento  e` quello di fare un club privatissimo, una specie di
+ loggia segreta o una cantina carbonara, la  rivista va benissimo e vi faccio i
+ miei piu` vivi complimenti.
+
+  Se invece, come spero, la vostra intenzione  era  quella  di  realizzare  uno
+ strumento  per avvicinare a questo affascinante mondo anche semplici curiosi o
+ persone interessate, ebbene non ci siamo, o meglio, ci siamo solo a meta`.
+
+ Io vedrei molto di buon'occhio che  qualche redattore di buon cuore volasse un
+ po' basso, ogni tanto, spiegando a noi villici i primi  rudimenti  telematici,
+ informatici e quant'altro.  Credo che fareste una gran servizio a noi buzzurri
+ assetati di sapere...
+
+  Sempreche`  la  cosa  vi interessi; in caso contrario, fate conto di non aver
+ letto questo matrix...
+
+
+ Auguri comunque...
+ [NdE: grazie, grazie!]
+
+
+                                                           Alessandro Ghezzer
+                                                           Fox BBs 2:333/403
+                                                           Impex BBS 2:333/408
+
+
+
+
+
+
+
+
+ ############                                   Un network al mese o quasi: ###
+ ###   3  ###                                           Internet - parte VI ###
+ ############                                                Stefano Costa2 ###
+
+ Riassunto:
+        Ecco, questo non e' proprio un articolo...  ma cio'  che  conta  e'  la
+       qualita' dell'informazione. Non la quantita'.
+        Cosi' non vi stancate troppo gli occhietti.
+
+        N.B.  mi e' giunta segnalazione  di  Marci  d'Itri  -  riportata  nelle
+       corrige  -  di  una  svista del Costa2.  Abbiamo cosi' provato almeno un
+       punto: il Costa2 e fallibile.   Questo  tuttavia non infica a ben vedere
+       la sua natura divina. *:)
+
+ ------------------------------------------------------------------------------
+
+  BT Tymnet e' stata sostituita da MCI!   Ed  ha  aperto da un po' di tempo due
+ nuovi nodi, ma come gia' vi ha detto RRE ero in  Lettonia  a  posare  cavi  in
+ fibra  e  a  fare  il  setup  del  nuovo  backbone  internet  locale,  sicche'
+ puppatevelo ora:
+
+                     ************************************
+                                  WE^LCOME TO
+
+                                     MCI
+
+                            DATA SERVICES DIVISION
+                                    * * * *
+                     ************************************
+
+   This system was formerly called  "BT's  World Wide Information Service".  On
+ January 31, 1994, MCI signed a contract for the purchase of BT North  America.
+ BT  North  America  is  now  a part of MCI's Data Services Division.  MCI will
+ continue to maintain this system  with  international information for both MCI
+ and BT customers until further notice.
+
+ Ed ecco i nodi italiani aggiornati:
+
+                                          DIALUP ACCESS            M
+                           PROV             100'S BPS              N
+ NODE  CITY                 ST CNTRY DENS  3 12 24 96 ACCESS NO.   P COMMENTS
+ ----- -------------------- -- ----- ----  ---------- ------------ - --------
+ 12450 BOLOGNA                  ITA  E1    C C  C     (51) 246578  Y
+ 00226 FLORENCE                 ITA  E1    C C  C     (55)6580383  Y
+ 15726 MILAN                    ITA  E1    C C  C     (2)66983004  Y
+ 15275 ROME                     ITA  E1    C C  C     (6)3340588   Y
+ 15275 ROME                     ITA  E1            C  (6)3340680   Y
+ 13452 TURIN                    ITA  E1    B C  C     (11)2480125  Y
+
+  --------------------------
+
+  B=BELL 103/113 (300 bps) or BELL 212A (1200 bps) compatible modems
+  C=CCITT V.21(300 bps) or CCITT V.22 bis(2400 bps) or CCITT V.32
+  compatible modems
+
+ Notare che e' stato aperto il primo nodo italiano a 9600!
+ Spero che a Milano facciano altrettanto!
+
+
+
+
+                                           Stefano Costa
+                                           Internet: scosta@bix.com
+                                           Fido:     Stefano Costa2 (2:331/306)
+
+
+ ############                                                               ###
+ ###   4  ###                                                   Correct 3.0 ###
+ ############                                                 Roberto Piola ###
+
+ Riassunto:
+
+        Piola: Prendi, pubblica, filerequesta e registrati :-) !
+
+         OK, ok.  Mi registrerero' anche se e' un prg che non posso usare  (per
+        la  limitazione  del  file  da  leggere, che a quanto pare non e' stata
+        eliminata).
+
+         E'  sempre  cosi':  aggiungono  fino  a  strafogralo  di  fronzoli  il
+        programma, vanno a vedere ipervelocita'...  e poi le cose che veramente
+        servono non le curano.
+
+         Vabbuo',  ti  daro'  'sti  soldi.   Tanto  qua  siamo  alla 'fatebene-
+         fratelli'! *:)
+
+ ------------------------------------------------------------------------------
+
+                                 CORRECT v.3.0
+
+                    by Roberto Piola, fidonet 2:334/108.57
+
+  Vi  ricordate  un  mio  articolo  su  di  un  correttore  ortografico  di mia
+ realizzazione?  In tale articolo dicevo testualmente che:
+
+  Costo?   E'  shareware.   Se proprio volete stimolarmi a far uscire una nuova
+ release [...] vi costa la solita inezia,  che vi dara' per sempre un posto tra
+ i miei benefattori, ricordati perennemente tra i sostenitori dello shareware.
+
+  Beh, una registrazione e' arrivata, da un paesino in provincia de L'Aquila, e
+ cosi' ho avuto lo sprone a realizzare la grandiosa versione 3.0!
+
+  Devo dire che alcune delle migliorie sono state desiderate proprio dal nostro
+ editor rompiscatole Rolando...   sara'  contento!   Altre migliorie sono state
+ imposte all'autore da una tesi che diventava sempre piu' grossa...   e  sempre
+ piu' TeX!
+
+  Prima di descrivervi cosa ho aggiunto, sara' meglio che rinfreschi la memoria
+ a qualcuno dicendo che  CORRECT  e'  un  correttore  ortografico che prende in
+ input un semplice file di testo e lo scorre: ogni parola  che  incontra  viene
+ cercata  su  di  un  dizionario;  se  c'e',  bene,  altrimenti  il fatto viene
+ segnalato all'utente dandogli la possibilita' di aggiungere la nuova parola al
+ dizionario.
+
+  Ma veniamo ad esaminare le novita':
+
+       a) C'e' stata la annunciata velocizzazione degli algoritmi.
+          Ho utilizzato una hash table invece  di una semplice lista per tenere
+          in memoria le parole.  Il formato del vocabolario su disco pero'  non
+          e' cambiato.
+
+       b) Il file di configurazione.
+          Resosi necessario perche' ho messo troppe opzioni per passarle in una
+          variabile  di  environment  (come  faceva  la  2.2)  o sulla linea di
+          comando.
+
+       c) Le finestre sono state notevolmente migliorate.
+          Ora il  look  e'  decisamente  piu'  alla  moda  (beh,  anche il look
+          precedente era alla moda, quando lo avevo implementato per  la  prima
+          volta).
+
+       d) Uso del mouse e dello schermo a 50 linee.
+          Come  poteva  mancare  da  un  programma  moderno?   Per  la versione
+          precedente avevo la scusante  che  non era direttamente supportato in
+          TurboPascal 3.0, ma adesso ho riscritto tutto in C++...
+
+       e) Possibilita' di correggere al volo il testo.
+          Questa era la richiesta principale di RRE: il pulsante Cambia  a  far
+          compagnia  ad  Aggiungi,  Ignora  e  Fine;  in  tal modo e' possibile
+          correggere  i  propri  strafalcioni  senza  doversi  annotare dov'era
+          l'errore, uscire  da  Correct,  editare  il  file  e  poi  rilanciare
+          Correct.
+
+       f) La modalita' LaTeX.
+          Che e' LaTeX?  Chi tra di voi scrive sotto unix lo sapra' certamente,
+          anche  se  ne  esistono  le versioni per PC, per Amiga e finanche per
+          Mac.  LaTeX e' un sistema di impaginazione veramente eccezionale, che
+          permette di scrivere il  testo  con  un qualsiasi editor (tipicamente
+          vi, emacs o, nel mio caso,  sled)  e  poi  di  processarlo  sfornando
+          outputs da far invidia a Word e compagnia.
+
+           E'  il  caso  di  notare  che  mentre  in  Word l'equation editor e'
+          arrivato  solo  da  un  paio  di  anni,  LaTeX  possiede  eccezionali
+          capacita' di formattazione di formule  matematiche gia' dal 1986 (OK,
+          Il nucleo di LaTeX,  TeX,  risale  al  1982,  gloria  eterna  al  suo
+          inventore  Donald Knuth, autore di "The Art Of Computer Programming",
+          testo sacro a molti  informatici).   [NdE: art?  art!  Artore Londona
+          sara' entusiasta di una simile cosa!]
+
+           Orbene, una delle caratteristiche di LaTeX e' quella  di  permettere
+          di  inserire  lettere  accentate  nel testo anche se si lavora con un
+          sistema strettamente a  7  bits,  semplicemente  facendo precedere le
+          lettere da accentare da un backslash  e  dall'accento  giusto.   Cio'
+          causa   difficolta'  ai  correttori  ortografici  poiche'  la  parola
+          universit\`{a}  verrebbe  normalmente  intercettata  come "universit"
+          seguita da una "a".
+
+           Settando a 1 il LaTeX mode, Correct 3.0 e'  in  grado  di  rimettere
+          insieme  le lettere accentate (almeno quelle disponibili su di un PC:
+          LaTeX e' in grado di  accentare  qualunque  cosa,  ma non mi pare che
+          esista alcun set di caratteri da PC che ha la j accentata).
+
+           Inoltre, nel vocabolario fornito di serie sono stati inseriti  anche
+          molti dei comandi LaTeX piu' usati.
+
+       g) Non ci sono piu' le utilities FORGET e LEARN.
+          In compenso pero' c'e' un menu per la manutenzione del vocabolario...
+
+  Purtroppo  ho  dovuto  scendere  a compromessi: la gestione delle finestre ha
+ rallentato un po' il programma, ed anche  se  la ricerca e' piu' veloce non si
+ fa  sentire  cosi'  tanto  (cioe'...   alla  fin   fine   se   si   disabilita
+ l'aggiornamento  dello  schermo con l'opzione Fast, la 3.0 risulta veloce solo
+ il doppio della 2.2, e 20 volte la 2.1).
+
+  Soprattutto,  le  dimensioni   del   programma   sono  aumentate  in  maniera
+ spropositata...  ora occupa la bellezza di 200K, ma ne vale  ancora  la  pena.
+ Ah,  c'e' una cosa che non e' cambiata: la quota di registrazione e' ancora la
+ stessa.
+
+  Il file sara' distribuito da tutte le  BBS  del circuito ISN al piu' presto e
+ si chiama CORRCT30.* (130K).
+
+                                  @    @    Alla prossima
+
+                                  \____/    Roberto Piola, fidonet 2:334/108.57
+
+ P.S.: si': ho gia' messo le mani sugli algoritmi  per  avere  il  suggerimento
+       della  parola  da  sostituire...   ma  se aspettavo di avere il tempo di
+       incorporare il tutto nella 3.0 diventavate vecchi!
+ ############                                                               ###
+ ###   5  ###                                              GAIA - parte VI  ###
+ ############                                              Marino Marinelli ###
+
+ Riassunto:
+        Continua ancora la sequela  delle  caratteristiche  dell'ipotetico  (vi
+       piace  di piu' virtuale?) pseudo sistema fidonettoso.  Il padre o figlio
+       o nonno di  FIDO  (in  queste  realta'  virtuali  dove  il  tempo e' una
+       considerazione tendo ancora a fare un po' di casino...)
+
+ ------------------------------------------------------------------------------
+
+                         Scambio netmail di controllo
+
+  La tecnologia Fido limita i trasferimenti possibili durante una sessione.  In
+ pratica il chiamante prima  trasmette  e  poi  riceve.   Tra i sistemi GAIA e'
+ definito un tipo di sessione esteso, in cui  la  direzione  del  trasferimento
+ puo' variare piu' volte.  L'utilizzo di ZedZap e' valido anche in questo caso.
+
+  Ad  inizio  sessione  avviene  lo  scambio  della  netmail  di  controllo.  I
+ pacchetti  non  sono  compressi  o  criptati  ma  solo  firmati,  in  modo  da
+ velocizzare le operazioni.
+
+                                  E-mail
+
+  Nello standard GAIA l'efficienza della  e-mail  ha un ruolo fondamentale, per
+ cui sono state poste molte precauzioni nell'assicurarne l'efficienza.
+
+  Il fatto di utilizzare un canale tecnico comune sia all'efficienza di sistema
+ che alla prestazione del servizio ci mette in  condizione  di  restringere  le
+ aree fonte di possibili problemi all'efficienza della posta.
+
+  Cio'  puo'  ridurre  il tempo di beta-testing e la quantita' di lavoro per il
+ team di sviluppo.
+
+
+                        Univocita' e rintracciabilita'
+
+  La PGP signature apposta su ogni messaggio ci assicura sulla sua provenienza,
+ provvedendo inoltre a datarne la spedizione.
+
+  Assicurarci sulla sua provenienza significa soltanto sapere che la Res che lo
+ ha emesso ne e' effettivamente responsabile,  e  non  dove la res si trovi o a
+ chi fisicamente corrisponda.
+
+ La PGP signature non e' utilizzabile per  rintracciare  la  provenienza  della
+ e-mail.
+
+
+                                  System Mail
+
+  I  pacchetti  di  colloquio  servono ad aggiornare il database disponibile su
+ ogni nodo, aggiornando GAIA sul proprio stato.
+
+  Il formato dei pacchetti resta, per  ora, da definire.  Si tratta comunque di
+ un semplice  protocollo,  che  non  presenta  problemi  di  sorta,  una  volta
+ raggiunto l'accordo sulla struttura di base.
+
+                                 Il messaggio
+
+  L'identificazione   di   ogni   messaggio   in   modo  univoco,  che  e'  una
+ caratteristica fondamentale per l'autocontrollo  di GAIA, ha ricadute positive
+ anche nell'utilizzo pratico:
+
+          1) Diviene possibile comprimere il quote in una  Kludge  che  indichi
+             soltanto  il messaggio di provenienza, startByte e lastByte.  Cio'
+             diminuisce di molto i volumi in trasmissione.
+
+          2) Diviene possibile aggiungere un'area  echo di supporto grafico per
+             la mail normale, in modo che ogni area  abbia  il  proprio  canale
+             grafico disponibile.  I GIF (ridotti in formato e uuencodati) sono
+             trasmessi  lungo  questo canale di appoggio, mentre una kludge nel
+             body-msg provvede a identificarne la posizione.
+
+  Il punto 1 consente la creazione  di  un  apparato di multiquote, per cui sia
+ possibile utilizzare TUTTI i messaggi dell'area in quoting e non solo quello a
+ cui si risponde,  implementando  una  sorta  di  delayed-chat  esteso  a  piu'
+ persone.
+
+  Viene inoltre soppressa la definizione automatica del Soggetto, che spesso si
+ rivela  fuorviante nei risultati, in quanto messaggi ormai completamente fuori
+ contesto vengono costantemente collegati al tema su cui era nato il discorso.
+
+  Ovviamente il punto 2 parte dal presupposto di realizzare un editor grafico e
+ una possibilita' di configurare  la  grafica  "fuori"  dal proprio nodo.  (cfr
+ Tempi di realizzazione)
+
+                             L'albero ipertestuale
+
+ Come da struttura proposta nel dibattito viene implementata  una  stuttura  ad
+ albero con collegamenti ipertestuali:
+
+      +-----------------> S11<-----------------------------------+
+      |                                                          |
+    S1+-----------------> S12    +--------------->S131           |
+      |                          |                               |
+      +-----------------> S13 ---+--------------->S132           |
+                                 |                               |
+                                 +--------------->S133-----------+
+
+  Ovvero   e'  possibile  definire  collegamenti  esterni  alla  gerarchia  per
+ connettere aree  altrimenti  lontane  lungo  criteri  differenti.   Si possono
+ eventualmente studiare piu' paths associativi  simultanei  che  consentano  di
+ strutturare l'ipertesto anche localmente.
+
+ [NdE: continua...]
+
+
+                                                                    Peter Paper
+                                                                    45:1917/2
+ ############                                                               ###
+ ###   6  ###                                             Oberon - parte VI ###
+ ############                                                 Roberto Piola ###
+
+ Riassunto:
+        E  siamo  giunti alla bibliografia.  Un vero peccato.  Come gia' prece-
+       dentemente anticipato  il  Piola  ha  riposto  l'Oberon  nel device NIL:
+       (spazzatura, vedi  jargon  all'apposita  voce)  e  quindi  e'  piuttosto
+       aleatorio un ulteriore sviluppo dell'argomento.
+        A meno che, chiaramente, qualcuno non si faccia avanti...
+
+ ------------------------------------------------------------------------------
+
+                                    OBERON
+
+               un nuovo ambiente operativo di pubblico dominio,
+                       da Niklaus Wirth e Jurg Gutknecht
+
+                                   parte VI
+
+ BIBLIOGRAFIA:
+
+  Qui  ci  sono,  riportati dalla guida acclusa ad Oberon, i titoli dei libri e
+ degli articoli che ne parlano, se volete approfondire l'argomento.
+
+
+ Oberon Language
+
+   N. Wirth and M.Reiser:  Programming in Oberon.
+           To be published by Addison-Wesley in early 1992.
+   N. Wirth. Type Extensions.
+       ACM Trans. on Prog. Languages and Systems, 10, 2 (April 1988), 204-214.
+   N. Wirth. From Modula to Oberon.
+       Software - Practice and Experience, 18, 7, (July 1988), 661-670.
+   N. Wirth. The Programming Language Oberon.
+       Software - Practice and Experience, 18, 7, (July 1988), 671- 690.
+   J. Gutknecht. Variations on the Role of Module Interfaces.
+       Structured Programming, 10, 1, (Jan. 1989), 40-46.
+
+
+
+ Oberon System
+
+
+   M. Reiser:  The Oberon System, Reference and User's Guide.
+           Addison Wesley, February 1991.
+   N. Wirth and J. Gutknecht:  Project Oberon.
+           To be published by Addison-Wesley in early 1992.
+   N. Wirth:  Designing a System from Scratch.
+           Structured Programming, 10, 1 (Jan. 1989), 10-18.
+   N. Wirth and J. Gutknecht:  The Oberon System.
+           Software - Practice and Experience, 19, 9 (Sept. 1989), 857-893.
+
+
+
+
+
+                                 @    @     Ciao
+
+                                 \____/     Roberto Piola, fidonet 2:334/108.57
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                   IL GERGO HACKER - PARTE 34  ###
+ ############                                   Eric S. Raymond & .mau.     ###
+
+ Riassunto:
+        Ed  anche  la  .r.  e' finita!  Ormai e' diventata una sfida: quando il
+       Jargon terminera', allora anche Telem non avra' piu' luogo di esistere!
+
+ ------------------------------------------------------------------------------
+
+    <Red Book> s. 1.  Nome  informale  per  uno  dei  tre  testi  standard  sul
+ PostScript   (`PostScript   Language   Reference   Manual',   Adobe   Systems,
+ Addison-Wesley  1985  ISBN  0-201-10174-2); gli altri sono noti come il <Green
+ Book>  e  il  <Blue  Book>.   2.  `Smalltalk-80:  The  Interactive Programming
+ Environment', Adele Goldberg, Addison-Wesley 1984, ISBN  0-201-11372-4  (anche
+ questo  e`  associato con libri blu e verdi).  3. Uno qualunque degli standard
+ emessi nel 1984 dall'ottava assemblea plenaria  del CCITT.  Fino ad oggi, essi
+ hanno cambiato colore a ogni ciclo di review (nel 1988 c'era il  <Blue  Book>,
+ nel  1992  il  <Green  Book>).   Tra di essi ci sono tra l'altro le specifiche
+ X.400 di email e gli  standard  per  i  fax  dal  gruppo  1  al 4. 4. La nuova
+ versione del <Green Book> (sign.  #4), "IEEE 1003.1-1990", aka  "ISO  9945-1",
+ e`  noto  (a  causa  del  colore  e  del fatto che e` stampato su carta A4) in
+ America come "The Ugly Red Book That  Won't Fit On The Shelf" [Il brutto libro
+ rosso che sta male negli scaffali], e in Europa come "The Ugly Red Book That's
+ A Sensible Size" [Il brutto libro  rosso  di  formato  sensato].   Vedi  anche
+ <Green Book>, <Blue Book>, <Purple Book>, <Silver Book>, <Orange Book>, <White
+ Book>, <Pink-Shirt Book>, <Dragon Book>, <Aluminum Book>.
+
+    <regexp>  /reg'exp/ [UNIX] s. 1. Abbreviazione scritta e parlata comune per
+ `regular expression'  [espressione  regolare],  una  delle  pattern contenenti
+ wildcard usate ad es.  dai programmi UNIX tipo `grep(1)', `sed(1)' e `awk(1)'.
+ Questi usano convenzioni simili  a  quelle  descritte  sotto  <glob>  ma  piu`
+ elaborate.   2. Nome di un ben noto pacchetto PD per gestire le regexp in un C
+ portabile,    scritto     dal     riverito     USENETtaro     Henry    Spencer
+ (henry@zoo.toronto.edu).
+
+    <reincarnation, cycle of> [ciclo di reincarnazione] s.  Termine  usato  per
+ riferirsi  a  un  ben  noto  effetto  secondo  il  quale delle funzioni in una
+ famiglia di sistemi di calcolo  vengono migrate verso dell'hardware periferico
+ specifico per velocita`, quindi queste periferiche evolvono verso un  maggiore
+ potere  di  computazione  per  comodita`  di elaborazione, finche` qualcuno si
+ accorge   che   e`   inefficiente   supportare   due   processori  asimmetrici
+ nell'architettura e rimette di nuovo la funzione nella  CPU  principale,  e  a
+ questo  punto  il  ciclo  ricomincia  da  capo.   Sono state osservate diverse
+ iterazioni di  questo  ciclo  nella  progettazione  dei  processori grafici, e
+ almeno uno o due in quelli per le comunicazioni  e  per  il  calcolo  floating
+ point.  Noto anche come "la Ruota della Vita" ("the Wheel of Life"), "la Ruota
+ di Samsara", e altre variazioni della idea teologica indu`/buddista di base.
+
+    <religious  issues> [argomenti religiosi] s. Domande che non sembra possano
+ venire poste  senza  far  iniziare  <holy  wars>,  tipo  "Qual  e`  il miglior
+ editor/linguaggio/sistema  operativo/architettura/shell/lettore   di   news/di
+ posta".  Vedi anche <theology>.
+
+    <replicator>  s.  Un  qualunque  costrutto  che produca copie di se stesso:
+ questo puo` essere un  organismo  vivente,  un'idea (vedi <meme>, un programma
+ (vedi <worm>, <wabbit> e <virus>), un pattern in  un  automa  cellulare  (vedi
+ <life>, sign.  #1), o (speculativamente) un robot.
+
+    <retcon> /ret'-con/ ["retroactive continuity", countinuita` retroattiva, da
+ gruppo  USENET  rec.arts.comics]  1.  s.  La situazione comune nella narrativa
+ popolare (spec.  fumetti e novelas) dove una nuova storia "rivela" nuovi fatti
+ sugli eventi  delle  avventure  precedenti,  di  solito  lasciando  identici i
+ "fatti" (quindi preservando la  "continuita`")  ma  cambiandone  completamente
+ l'interpretazione;  ad esempio, rivelando che un'intera stagione di episodi di
+ Dallas e` stato un sogno.  2.  vt.   Scrivere una storia di questo tipo.  Es.:
+ "Byrne  ha  r.  il  costume  di  Superman  cosicche`  adesso   non   e`   piu`
+ invulnerabile".  3. vi.  Usato per qualcosa "trasformato" in questo modo - "Le
+ vecchie avventure di Marvelman sono state r. in sogni sintetici", "Swamp Thing
+ e` stato r. da una persona trasformata in un vegetale senziente".
+
+ [Questa  voce  e`  stata  inclusa  perche`  e`  un  buon esempio di invenzione
+ linguistica da parte degli  hacker  in  un  campo completamente scorrelato dai
+ calcolatori.  La parola "retcon" si  espandera`  probabilmente  via  il  mondo
+ fumettistico  e  perdera`  la  sua  associazione  con  l'hackerismo in un paio
+ d'anni; per la cronaca, e` nata qui.  -- ESR]
+
+    <retrocomputing> /ret'-roh-k@m-pyoo'ting/ s. Si riferisce all'emulazione di
+ hardware  o  software   ben-dietro-lo-stato-dell'arte,  o  implementazioni  di
+ mai-stato-stato-dell'arte;  spec.   se  tali  implememntazioni  sono   scherzi
+ elaborati  e/o  parodie  di  progetti piu` `seri'.  Forse l'utility di r. piu`
+ ampiamente distribuira e` stata  il  programma  `pnch(6)' sulle prime versioni
+ UNIX a partire da V7, che accettava fino a 80 caratter di testo e disegnava il
+ pattern corrispondente di una scheda Hollerith perforata.  Altri ben noti hack
+ r. comprendono il linguaggio di programmazione <INTERCAL>, una shell che emula
+ jcl [il Job Control Language IBM] sotto UNIX, e vari  elaborati  emulatori  di
+ hardware  PDP-11 e di s.o.  RT-11 scritti solamente per fare girare un vecchio
+ binario di <Zork> senza sorgenti.
+
+    <RFC> /ahr ef see/ s.  Request  For  Comment [domanda di commenti].  Uno di
+ una lunga serie numerata di  standard  Internet  assai  seguita  dal  software
+ commerciale  e  PD nelle comunita` Internet e UNIX.  Forse quello che ha avuto
+ piu` influenza e` stato l'RFC-822  (lo  standard  di formato per gli indirizzi
+ email su Internet).  Gli RFC sono insoliti, nel senso che  sono  preparati  da
+ esperti  tecnici  che  agiscono  di  loro  iniziatica  e  rivisti in genere da
+ Internet, piuttosto che  promulgati  formalmente  da  istituzioni come l'ANSI.
+ Per questa ragione rimangono noti come RFC anche dopo essere adottati.
+
+    <RFE> s.  1.  Request  For  Enhancement  [Domanda  di  miglioramento].   2.
+ [Bellcore, Sun] Radio Free Ethernet, un sistema (creato da Peter Langston) per
+ inviare dati audio sulle SPARCstation Sun per mezzo dell'ethernet.
+
+    <rice  box>  [dallo slang radioamatoriale: scatola di riso] s. Un qualunque
+ clone fabbricato in Asia, spec.  basato  su  8086,  80286, 80386 o 80486 e con
+ bus compatibile con gli standard IBM ISA ed EISA.
+
+    <Right Thing, The> [La Cosa Giusta, o semplicemente Bene] s.  Cio`  che  e`
+ *ovviamente* la cosa corretta o appropriata da usare, fare, dire, ecc.  Spesso
+ in  maiuscolo,  sempre  enfatizzata  nel  discorso come se fosse in maiuscolo.
+ L'uso di questo termine  implica  spesso  che  di fatto le persone ragionevoli
+ potrebbero non essere d'accordo.  "Non lasciare che la tua coscienza  ti  svii
+ dal fare T.R.T.!".  "Cosa e` Bene che il LISP faccia quando si trova un (a mod
+ 0)?   Deve  ritornare  a, o dare un errore di divisione per zero?".  Antonimo:
+ <Wrong Thing>.
+
+    <roach> [Bell  Labs:  ?]  v.  Distruggere,  spec.   di  una struttura dati.
+ L'equivalmente per l'hardware e` <toast>.
+
+    <robust> agg.  Detto di un sistema che ha dimostrato abilita` a  rimettersi
+ in  sesto  in  maniera  sensata  da  tutte  le condizioni di errore in un dato
+ ambiente.  Un passo sotto <bulletproof>.  Confr.  <smart>, opp.  <brittle>.
+
+    <root> s. [UNIX] 1. Il noto in cima alla struttura di directory del sistema
+ (la home directory dell'utente root).   2.  L'account "superuser" che ignora i
+ bit  di  permessi;  l'utente  numero  0  in   un   sistema   UNIX.    L'utente
+ corrispondente  a  questo account ha nome `root'.  3. Per estensione, il login
+ privilegiato per la manutenzione del sistema  sotto un qualunque SO.  4. <root
+ mode>: sin.  di  <wizard  mode>  o  <wheel  mode>.   Come  questi,  e`  spesso
+ generalizzato  per  descrivere  stati  di  privilegio  sotto sistemi anche non
+ operativi.  5. <go root>  [diventare  root]:  entrare temporaneamente in <root
+ mode> per compiere un'operazione privilegiata.  Questo uso e` sconsigliato  in
+ Australia, dove il verbo "to root" e` gergale per "avere sesso con".
+
+    <rogue>  [UNIX]  s.  Un  gioco  semigrafico sullo stile di Dungeons&Dragons
+ scritto sotto BSD e portato  in  seguito  su altri sistemi UNIX.  Il pacchetto
+ originale `curses(3)' per gestire lo schermo sotto BSD e` stato un hack di Ken
+ Arnold per supportare `rogue(6)' e da allora e` diventato una  delle  librerie
+ piu`  importanti  e  pesantemente usate sotto UNIX.  Nethack, Omega, Larn e un
+ intero sottogenere di  avventure  al  calcolatore  hanno  avuto ispirazione da
+ `rogue(6)'.  Vedi <hack>.
+
+    <room-temperature IQ> [IBM: quoziente intellettivo a temperatura  ambiente]
+ 80  o  meno  [in Fahrenheit.  Sono circa 26 Celsius].  Usato per descrivere il
+ quoziente  intellettivo  medio  del  <luser>.   "Beh,  ma  come  andra` questa
+ interfaccia con la gente da r.-t.  IQ?" Vedi <drool-proof paper>.
+
+    <rot13> /rot-ther'teen/ [USENET, da "ruotate l'alfabeto di  13  posizioni"]
+ s.,v.  la semplice crittografazione ottenuta rimpiazzando le lettere del testo
+ con  quelle 13 posti avanti o indietro nell'alfabeto, in modo che "E` stato il
+ maggiordomo!" diventi "R` fgngb vy znttvbeqbzb!".  Molti programmi per postare
+ e leggere news Usenet  hanno  l'opzione  rot13.   E`  usata per racchiudere il
+ testo in una "busta chiusa" che il  lettore  puo`  scegliere  se  aprire,  per
+ postare   cose   che   potrebbero   offendere  certi  lettori,  risposte  agli
+ indovinelli, o discussioni su trame di file non ancora visti da tutti.
+
+    <RSN> agg.  Vedi <Real Soon Now>.
+
+    <RTFM> /ahr-tee-ef-em/  [UNIX]  Abbrev.   per  "Read  The  Fucking Manual".
+ [leggi il fottuto manuale!] 1. Usato dai <guru> per spazzar  via  domande  che
+ considerano  banali  o  scoccianti.  Confr.  <Don't do that, then!>.  2. Usato
+ quando  si  riporta  un  problema,   per   indicare  che  non  si  chiede  con
+ <randomness>.  "No, non  riesco  a  capire  come  interfacciare  UNIX  al  mio
+ <toaster>,  e  si`,  ho  RFTM."  A  differenza  del  sign.   #1, questo uso e`
+ considerato educato.
+
+    <RTI> /ahr-tee-ie/  inter.   Il  mnemonico  per  l'istruzione  `return from
+ interrupt' sui microprocessori Intel.  Equivalente a  "Dove  ero  rimasto?"  o
+ usato per terminare una digressione mentre si parla.  Vedi <POP>, <POPJ>.
+
+    <rude>  [WPI]  agg.   1.  (di  programma)  Scritto male.  2. Funzionalmente
+ malfatto, ad es.  un programma  che  e`  molto  difficile  da usare a causa di
+ decisioni di progettazione gratuitamente pessime (fatte a caso?) Vedi <cuspy>.
+
+    <runes> [rune] s.pl.  1. Ogni  cosa  che richieda <heavy wizardry> o <black
+ art> per essere <parse>rata; core dump, comandi JCL,  o  anche  codice  in  un
+ linguaggio  di  cui  non  si  abbia  la  minima idea di come si legga.  Confr.
+ <casting the runes>.  2.  Caratteri  video  speciali (per esempio, i caratteri
+ grafici del set US-ASCII sui PC).  3. <runic> [runico] agg.  Sin.   <obscure>.
+ I fan VMS a volte si riferiscono allo UNIX come `Runix'; i fan UNIX rispondono
+ al  complimento espandendo VMS in `Vachement Mauvais Systeme' (lett.  "Sistema
+ malvagio in maniera bovina").
+
+
+
+
+                                           tradotto da .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   8  ###                                                ERRATA CORRIGE ###
+ ############                                                La direzione   ###
+
+ Riassunto:
+        Incredibile!  un misero mortale ha osato sostenere che il Costa2 si  e'
+       dimenticato di una quisquiglia come questa!!!
+       *:)
+
+        Grazie per la precisazione, carissimo Marco d'Itri!
+
+ ------------------------------------------------------------------------------
+
+ RR> [ 3]  Un network al mese...:Internet  - parte IV . (Stefano Costa2)
+
+ E' doveroso aggiungere che anche a Savona (17100) c'e' sublink:
+
+ Genesi Creation Support, 332/222, genesi.sublink.org
+
+                                                               Ciao,
+                                                               Marco
+                                                               2:332/206.10
+ ############ L'ANGOLO DEL MATEMATICO                                       ###
+ ###   9  ###                                 THE STABLE MARRIAGE - parte 2 ###
+ ############                                                 Andrea Vitali ###
+
+ Riassunto:
+        Pubblichiamo per intero il programma dell'articolo apparso  sul  number
+       recedente.
+
+        Chi  volesse  evitare  di batterselo puo' fare richiesta, in redazione,
+       della copia su disco, compilata e funzionante. *:)
+
+ ------------------------------------------------------------------------------
+
+ program marriage;
+
+ const MaxNum = 8;
+       MaxPref = MaxNum*MaxNum;
+ type   UominiRange = 1..MaxNum;
+        DonneRange  = 1..MaxNum;
+        PostiRange  = 1..MaxNum;
+
+ var
+   ClassD: array [UominiRange, PostiRange] of DonneRange;
+   ClassU: array [DonneRange,  PostiRange] of UominiRange;
+
+   PostoDonna: array [UominiRange, DonneRange] of PostiRange;
+   PostoUomo:  array [DonneRange, UominiRange] of PostiRange;
+
+   MoglieDi: array [UominiRange] of DonneRange;
+   MaritoDi: array [DonneRange]  of UominiRange;
+
+   Nubile: array[DonneRange]  of boolean;
+   Celibe: array[UominiRange] of boolean;
+
+     SoluzioneNum: longint;
+         StabEval: longint;
+        PrefLimit: longint;
+     TotPU, TotPD: longint;
+
+  TipoCalc, TipoStampa, TipoSistema: boolean;
+
+  f: file of char;
+  Uomo: UominiRange; Donna: DonneRange; Posto: PostiRange;
+     t: longint;
+
+ procedure CalcPrefU;
+ var Uomo: UominiRange;
+ begin
+   TotPU  := 0;
+   TotPD  := 0;
+   for Uomo := 1 to MaxNum do begin
+     TotPU := TotPU+1+MaxNum-PostoDonna[Uomo,MoglieDi[Uomo]];
+     TotPD := TotPD+1+MaxNum-PostoUomo[MoglieDi[Uomo],Uomo];
+   end; { for }
+ end; { CalcPrefU }
+
+ procedure CalcPrefD;
+ var Donna: DonneRange;
+ begin
+   TotPU  := 0;
+   TotPD  := 0;
+   for Donna := 1 to MaxNum do begin
+     TotPU := TotPU+1+MaxNum-PostoDonna[MaritoDi[Donna],Donna];
+     TotPD := TotPD+1+MaxNum-PostoUomo[Donna,MaritoDi[Donna]];
+   end; { for }
+ end; { CalcPrefU }
+
+ function Stampa: boolean;
+ begin
+   if (ParamCount < 2) or (ParamStr(2) = 'n') then begin
+     Stampa := TRUE;
+   end
+   else if (ParamStr(2) = 'd') and (TotPD >= PrefLimit) then begin
+     Stampa := TRUE;
+     PrefLimit := TotPD;
+   end
+   else if (ParamStr(2) = 'u') and (TotPU >= PrefLimit) then begin
+     Stampa := TRUE;
+     PrefLimit := TotPU;
+   end
+   else if (ParamStr(2) = 't') and ((TotPU+TotPd) >= PrefLimit) then begin
+     Stampa := TRUE;
+     PrefLimit := TotPU+TotPD;
+   end
+   else begin
+     Stampa := FALSE;
+   end; { if }
+ end; { Stampa }
+
+ procedure StampaU;
+ var Uomo: UominiRange;
+ begin
+   Write(', U con:');
+   for Uomo := 1 to MaxNum do begin
+     Write(MoglieDi[Uomo]:3);
+   end; { for }
+ end; { StampaU }
+
+ procedure StampaD;
+ var Donna: DonneRange;
+ begin
+   Write(', D con:');
+   for Donna := 1 to MaxNum do begin
+     Write(MaritoDi[Donna]:3);
+   end; { for }
+ end; { StampaD }
+
+ procedure StampaRisultati;
+ var  Uomo: UominiRange;
+ begin
+   Inc(SoluzioneNum);
+   if TipoCalc then CalcPrefU else CalcPrefD;
+   if Stampa then begin
+     Write(' N:',SoluzioneNum:4,', S:',StabEval:4);
+     if TipoStampa then StampaU else StampaD;
+     Write(' U:',100*TotPU div MaxPref:3,'%,');
+     Write(' D:',100*TotPD div MaxPref:3,'%,');
+     Write(' T:',100*(TotPU+TotPD) div (MaxPref+MaxPref):3,'%');
+     WriteLn;
+   end; { if }
+   StabEval := 0;
+ end; { StampaRisultati }
+
+ function CoppiaStabile(Uomo: UominiRange; Donna: DonneRange): boolean;
+ var      Stabile: boolean;
+        ProvaUomo: UominiRange;
+       ProvaDonna: DonneRange;
+  Posto, PostoMax: PostiRange;
+ begin
+   Inc(StabEval);
+   Stabile := TRUE;
+
+   Posto := 1;
+   PostoMax := PostoDonna[Uomo,Donna];
+   while ((Posto < PostoMax) and Stabile) do begin
+     ProvaDonna := ClassD[Uomo,Posto];
+     Inc(Posto);
+     if (not(Nubile[ProvaDonna])) then begin
+       Stabile := PostoUomo[ProvaDonna,Uomo] >
+          PostoUomo[ProvaDonna,MaritoDi[ProvaDonna]];
+     end; { if }
+   end; { while }
+
+   Posto := 1;
+   PostoMax := PostoUomo[Donna,Uomo];
+   while ((Posto < PostoMax) and Stabile) do begin
+     ProvaUomo := ClassU[Donna,Posto];
+     Inc(Posto);
+     if (not(Celibe[ProvaUomo])) then begin
+       Stabile := PostoDonna[ProvaUomo,Donna] >
+         PostoDonna[ProvaUomo,MoglieDi[ProvaUomo]];
+     end;
+   end; { while }
+
+   CoppiaStabile := Stabile;
+ end; { CoppiaStabile }
+
+ procedure SistemaUomo(Uomo: UominiRange);
+ var Donna: DonneRange; Posto: PostiRange;
+ begin
+   for Posto := 1 to MaxNum do begin
+     Donna := ClassD[Uomo,Posto];
+     if ((Nubile[Donna]) and CoppiaStabile(Uomo,Donna)) then begin
+       MoglieDi[Uomo]  := Donna;
+       MaritoDi[Donna] := Uomo;
+       Nubile[Donna]   := FALSE;
+       Celibe[Uomo]    := FALSE;
+       if (Uomo < MaxNum) then SistemaUomo(Uomo+1) else StampaRisultati;
+       Nubile[Donna] := TRUE;
+       Celibe[Uomo]  := TRUE;
+     end; { if }
+   end; { for }
+ end; { SistemaUomo }
+
+ procedure SistemaDonna(Donna: DonneRange);
+ var Uomo: UominiRange; Posto: PostiRange;
+ begin
+   for Posto := 1 to MaxNum do begin
+     Uomo := ClassU[Donna,Posto];
+     if ((Celibe[Uomo]) and CoppiaStabile(Uomo,Donna)) then begin
+       MoglieDi[Uomo]  := Donna;
+       MaritoDi[Donna] := Uomo;
+       Nubile[Donna]   := FALSE;
+       Celibe[Uomo]    := FALSE;
+       if (Donna < MaxNum) then SistemaDonna(Donna+1) else StampaRisultati;
+       Nubile[Donna] := TRUE;
+       Celibe[Uomo]  := TRUE;
+     end; { if }
+   end; { for }
+ end; { SistemaDonna }
+
+ function Cifra(ch: char): boolean;
+ begin
+   if (ch>='0') and (ch<='9') then Cifra := TRUE else Cifra := FALSE;
+ end; { Cifra }
+
+ function LeggiNumero: longint;
+ var ch: char; num: longint;
+ begin
+   num := 0;
+   repeat Read(f,ch) until Cifra(ch) or Eof(f);
+   while (Cifra(ch)) and not(Eof(f)) do begin
+     num := num*10+ord(ch)-ord('0');
+     Read(f,ch);
+   end; { while }
+   LeggiNumero := num;
+ end; { LeggiNumero }
+
+ begin
+   WriteLn; WriteLn(' **** Accoppiamenti Perfetti **** ');
+
+   if ParamCount < 1 then begin
+     WriteLn;
+     WriteLn('>>> datfile, N/u/d/t, U/d, U/d, U/d ');
+     WriteLn;
+     WriteLn(' DatFile: data file, vedi esempio ');
+     WriteLn('    Flag: N/u/d/t, normale/ privilegia uomini/donne/tutti');
+     WriteLn(' Sistema: U/d, sistemazione uomini/donne');
+     WriteLn('  Stampa: U/d, stampa secondo uomini/donne');
+     WriteLn('    Calc: U/d, calcolo pref (indifferente)');
+     Halt;
+   end; { if }
+
+   if (ParamCount > 2) and (ParamStr(3) = 'd') then TipoSistema := FALSE
+   else TipoSistema := TRUE;
+   if (ParamCount > 3) and (ParamStr(4) = 'd') then TipoStampa := FALSE
+   else TipoStampa := TRUE;
+   if (ParamCount > 4) and (ParamStr(5) = 'd') then TipoCalc := FALSE
+   else TipoCalc := TRUE;
+
+   SoluzioneNum := 0;
+   PrefLimit := 0;
+
+   Assign(f,ParamStr(1));
+   Reset(f);
+
+   for Uomo := 1 to MaxNum do begin
+     Celibe[Uomo] := TRUE;
+     for Posto := 1 to MaxNum do begin
+       t := LeggiNumero;
+       ClassD[Uomo,Posto] := t;
+       PostoDonna[Uomo,t] := Posto;
+     end; { for }
+   end; { for }
+
+   for Donna := 1 to MaxNum do begin
+     Nubile[Donna] := TRUE;
+     for Posto := 1 to MaxNum do begin
+       t := LeggiNumero;
+       ClassU[Donna,Posto] := t;
+       PostoUomo[Donna,t] := Posto;
+     end; { for }
+   end; { for }
+   Close(f);
+   WriteLn;
+
+   if TipoSistema then SistemaUomo(1) else SistemaDonna(1);
+ end. { program }
+
+ Ciao.
+
+  /|
+ /~|ndrea                                               Andrea Vitali
+                                                        2:331/208.4@fidonet.org
+ ############ NOTIZIE FIDONET REGION 33                                     ###
+ ###  10  ###                                                          NEWS ###
+ ############                                                          AAVV ###
+
+                                *** NET 331 ***
+
+                            NESSUNA NUOVA PERVENUTA
+
+                                *** NET 332 ***
+
+ OsseCui Renato!
+ [NdE: osseCui, osseCui...]
+
+  Pare che, di questi  tempi,  il  332/400  (l'unico  HUB che posso controllare
+ direttamente, del resto) abbia preso il vizio di espandersi.
+
+  Ed ecco apparire un'altro BaiBieS: la seconda linea di A.R.I.   (Associazione
+ Radioamatori   Italiani),   sysop   Andrea  Tommasi,  che  prendera'  a  breve
+ l'indirizzo 332/412.
+
+                                                   |'!Chao!_
+                                                   |__ OrsO/
+                                                          /
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+ rispondo al tuo messaggio del 26 aprile riportando alcuni brani....
+
+  RR>                 ci sono ghiotte notizie per Telem?
+
+ E' stata aperta un'area di net dedicata ai flipper. Si chiama FLIPPER.332.
+
+  Ciao Ciao!                                                        ___
+                                                                   /  _
+                                                                  <___/ iovanni
+                                                                    2:332/114.2
+
+                                *** NET 333 ***
+
+                            NESSUNA NUOVA PERVENUTA
+
+                                *** NET 334 ***
+
+ RR>        Ci sono news?
+
+ Ti avevo gia detto del famoso ritorno (anche so solo parziale) di quelli della
+ zona di Novara.  (vedi Nodelist con HUB 600.)
+
+ Altro  gradito  ritorno  sul  334,  Luigi Ravina con i suoi 3 Nodi di Electron
+ Magazine.
+
+ Ha fatto la solita e temporanea e  fugace apparizione Luca Bello ex 107 andato
+ subito fuori per problemi personali.
+
+  RR>Ho visto che nell'altro number ti  sei prodigato in un soliloquio RR>(cosa
+     estremamente rara, visto la tua solita sinteticita' espressiva)  RR>contro
+     quel babbalone di Marco.
+
+ Con chi ce l'avevo ?? [NdE: il solito cervello da pitocefalo!]
+
+  RR> Cerchero' di telefonarti al piu' presto.
+
+ Fan...  solite promesse da marinaio. [NdE: hem hem...]
+
+  RR>        p.s.
+  RR>                ma esce ancora roba per Amiga?
+
+ Boh ?
+
+                                                              Ciao /Angelo V./
+
+                                *** NET 335 ***
+
+ Ciao Renato!
+
+ <Gi 28 Apr 94> mi hai scritto:
+
+  RR>         come ce la spassiamo?
+  RR>         siamo sempre li' a divertirci?
+
+ Ghnnn...
+
+  RR>         quante volte devo ricordarti che alla tua eta' e' il caso di
+  RR> cominciare a prendersi delle responsabilita'?
+
+ Naaa...
+
+  L'altro giorno, mentre affranto dallo stress e madido del  sudore  di  chi...
+ da  alcune  ore  siede  faticosamente  steso  al  sole  su  una gia' affollata
+ battigia, riflettevo attentamente su  quanto  questa  vita  sia grama...  ! ;)
+ [NdE: non sento: a quanto ci hai grana?  *:)]
+
+  Perche'  dovrei  assumermi  altre,  ulteriori,  gravose responsabilita'?  Non
+ basta la preoccupazione di un cielo ancora incerto e dell'acqua di mare ancora
+ maledettamente freddina?!?!?
+
+  RR>         un disastro...
+
+  E' vero...  mi si e' sporcato il costume di  catrame...   mannaggia!   Questi
+ sono i veri problemi della vita!!
+
+  RR>         Comunque vedo che almeno la responsabilita' di rifocillare
+  RR> Telem con le news te la prendi.
+
+ Come potrei lasciare tutti voi soli ad intristirvi?!?
+
+  RR>         Bravo ragazzo.
+
+ Grassie.... ;))
+
+  RR>         Attendo in trepidante&virginale attesa.
+
+ Eheheh...
+
+ Be',  a  parte  gli scherzi...  ho un paio di messaggi per te.  [NdE: scherzi?
+ guarda che sei gia' da un pezzo in diretta! *:)]
+
+  Il primo viene dal nostro "grande padre" Giorgio Rutigliano.
+
+  Mi ha infatti pregato di assicurare l'amico Franco Carcillo e tutti i lettori
+ di TeleMATTIcus che il  suo  proposito  (e  la  sua  promessa) di preparare un
+ articolo in occasione dei primi dieci anni  di  vita  di  Fido  Potenza  sara'
+ presto trasformato in opera concreta; cio' dara' a tutti noi modo di conoscere
+ le  esperienze fatte da chi ha portato e condotto per molti anni la Fidonet in
+ Italia. [NdE: Giorgio, ormai ti sei *irrimediabilmente* compromesso!]
+
+  Il secondo messaggio mi e' stato affidato dal buon Marco Cipriani, Hc 600 del
+ nostro net.
+
+  Da sempre interessato  e  concreto  animatore  di  iniziative associative che
+ abbiano ad oggetto la telematica, si e' dichiarato disponibile a realizzare un
+ piccolo  scritto  in  cui  illustrare  le  sue   esperienze;   un   cenno   di
+ interessamento da parte tua e ...  gli si da il via. [NdE: volo!]
+
+  A  questo proposito va detto che il problema associativo nel nostro ambito e'
+ sempre stato molto sentito:  problemi come l'armonizzazione delle abilitazioni
+ all'accesso degli utenti in aree  geografiche  contigue,  la  gestione  di  un
+ cost-sharing  che  alleggerisca  il  peso sostenuto dai nodi importatori, sono
+ tali da aver  piu'  volte  spinto  molti  di  noi  quanto  meno  a cercare una
+ soluzione collettiva.
+
+  Anche nel nostro net, diviso in una ormai efficiente serie di hubs e sub-hubs
+ (mi si intreccia la lingua...!), la discussione al riguardo e'  stata  vivace;
+ potrebbe  essere  quindi  interessante  utilizzare  la  tua  (posso dire anche
+ "nostra"?  [NdE: mai certenement!]  :)  rivista  per  raccogliere le idee e le
+ esperienze degli altri net.  [NdE: fate  fate.   Basta  che  non  mi  facciate
+ lavorare!]
+
+  Un salutone, come sempre, a te ed a tutti i lettori di tutte le latitudini! (mi
+ sto montando la testa!!) [NdE: monta, monta!]
+
+                                                                    Ciao,
+                                                                    Enrico
+                                                                    2:335/212
+
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ Ciao Renato!
+
+
+ L'autore di JackStat, Paolo "Statisticus" Polce, ha compiuto il grande passo...
+
+
+                            Fidonet  2:335/232
+                            Tel. ++39-81-5451506
+
+ [NdE: YEAHHHHH!!!]
+
+                            SysOp: Paolo Polce.
+                         CoSysOps: Alfonso Salvati,
+                                   Luca Marino,
+                                   Stefano Piscitelli
+
+ Bios bios
+
+                                                                  Cicci
+                                                                  2:335/225.4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ******************************************************************************
+
+ Telematicus puo` essere  downloadato  dai  nodi  che ricevono la distribuzione
+ ISN.  Assieme alla rivista ho inserito  ISN-NODE.265, la lista di tutte le BBS
+ appartenenti ad ISN.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ####                            End of TELEM040                           ####

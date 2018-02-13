@@ -1,0 +1,2069 @@
+ #### TELEM018 - Telematicus - Volume 02 - Numero 06 - Anno 1992 - 94 pag. ####
+  
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                 Giugno 1992                                 
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di .mau.
+
+ ==============================================================================
+
+ Il materiale presente in Telematicus e` (C) dei singoli autori.      
+ E` espressamente consentita la distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 94 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .   .  pag.  4
+ [ 2]  Cavi & cavetti - parte 3, di Alfredo Berlusconi   .   .   .   .  pag.  6
+ [ 3]  Un BBS al mese: TARAS, di Giovanni Pugliese   .   .   .   .   .  pag. 19
+ [ 4]  Il programmino: crittografiamo!   .   .   .   .   .   .   .   .  pag. 24
+ [ 5]  Vivamiga, di Renato Rolando   .   .   .   .   .   .   .   .   .  pag. 70
+ [ 6]  Curiosita`: Il gergo hacker - parte 15    .   .   .   .   .   .  pag. 77
+ [ 7]  Notizie Fidonet region 33     .   .   .   .   .   .   .   .   .  pag. 85
+
+
+
+
+
+
+
+
+
+
+
+
+                  Questo Telematicus e` nato con l'aiuto di...
+   
+ Editor scocciatus:     Maurizio Codogno | * I collaboratori dai network: *
+ Editor puntualis:        Renato Rolando |
+ Editor trinus:        Giovanni Pugliese | Vertigo (331/301)
+ Editor collegans:    Alfredo Berlusconi | Giovanni Lopes (332/108.2)  
+                                         | Franco Carcillo (334/1)
+                                         |                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                               ###
+
+      Carissimi lettori,
+ numero sempre piu` smilzo (non come dimensione, ma per varieta` degli  artico-
+ li), come potete vedere.
+      A parte i problemi del sottoscritto (possibile che proprio oggi  continui
+ a  mancare  per un attimo la corrente ogni mezz'ora? chi e` che  ce  l'ha  con
+ me???) vorrei fare una rapida constatazione su quello che arriva come "artico-
+ lame' per telematicus.
+      Si  sono assestati abbastanza bene gli arrivi di news dai  vari  network,
+ tranne purtroppo il 335 (ma non c'e` proprio nessuno che legge telematicus  al
+ di sotto della linea gotica che una volta al mese mi possa mandare un  messag-
+ getto dicendo cosa e` successo costa`?), ed e` abbastanza facile anche trovare
+ qualcuno  che vuole fare sapere al mondo come e` nato e vissuto il suo  BBS  -
+ questo  mese  abbiamo  Giovanni Pugliese. Quello che  mancano  sono  i  famosi
+ "articoli tecnici". Fortunatamente c'e` Renato Rolando, che ormai ha raggiunto
+ la notorieta`, e che e` una colonna portante della rivista, letto e apprezzato
+ da tutti (gli Amiga sono apprezzati un po' di meno, ma tant'e`...), ma per  il
+ resto  niente. Insomma, nessuno che parli di Squish, di OS/2 2.0, di  Coherent
+ 4.0  ?  In tutte le aree echo se ne sente dire faville, tutti che  fanno  'si`
+ si`, l'ho preso, e` una figata assurda", ma nessuno che ne vuol fare partecipi
+ gli altri. E` proprio cosi` difficile scrivere qualcosa? Si`? Vabbe`...
+      Per  il  resto, potrete compilarvi un programmino - si fa per dire  -  di
+ crittografazione, che non si sa bene a cosa serva a fa sempre fine.
+
+                ciaociao .mau.                (2:334/100/5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   2  ###                                     CAVI E CAVETTI - PARTE 3  ###
+ ############                                                               ###
+
+ ///////////////////////////////////////////////////////////////////
+
+ ============================
+ |                          |
+ | PC IBM jr  (tipo RS232C) |
+ |                          |
+ ============================
+
+ curioso connettore: maschio rettangolare 2 file (A e B) da 8 pins:
+
+       1   2   3   4   5   6   7   8    per un totale di 16 pins di cui
+   A   _   _   _   _   _   _   _   _    9 utilizzati come nel pc AT. Unica
+                                        differenza: RI sostituito con
+   B   _   _   _   _   _   _   _   _    massa di protezione.
+
+ PINS: A2  A3  A4 A5  A6  A7  A8 B1 B2    MS = massa di protezione
+       DTR RTS TX DCD DSR CTS RX MS GND  GND = massa di segnalazione
+
+
+ ========================================================================
+
+ Collegamento PC jr - Modem (sulla COM2 !):
+                             ^^^^^^^^^^^^
+ PC jr (DTE) <------------------> MODEM (DCE)
+
+          B1 <------------------> 1  massa di protezione
+          A4 <------------------> 2  tx --> rx
+          A8 <------------------> 3  rx <-- tx
+          A3 <------------------> 4  RTS
+          A7 <------------------> 5  CTS
+          A6 <------------------> 6  DSR
+          B2 <------------------> 7  GND
+          A5 <------------------> 8  DCD
+          A2 <------------------> 20 DTR
+
+ ========================================================================
+
+ Collegamento NULL-MODEM PC jr - RS232C (DTE) a 3 fili:
+
+ PC jr (DTE) <------------------>RS232C (DTE)
+
+          A8 <------------------> 2  rx <-- tx
+          A4 <------------------> 3  tx --> rx
+          B2 <------------------> 7  GND
+                              inoltre sulla 232C ingannare con:
+                              4>5 e 6>20 (hsk sempre ok).
+
+
+ ========================================================================
+
+ Collegamento NULL-MODEM PC jr - RS232C (DTE) a 5 fili:
+
+ PC jr (DTE) <------------------> RS232C (DTE)
+
+          A8 <------------------> 2  rx <-- tx
+          A4 <------------------> 3  tx --> rx
+          B2 <------------------> 7  GND
+          A7 <------------------> 4  \__ HSK CTS/RTS
+          A3 <------------------> 5  /
+
+                              inoltre sulla 232C ingannare con:
+                              6>20
+
+ In alternativa a A7<->4;A3<->5;6>20 si puo' fare A2<->6;A6<->20;4>5
+
+ ========================================================================
+
+ Collegamento NULL-MODEM PC jr - RS232C (DTE) a 7 fili:
+
+ PC jr (DTE) <------------------> RS232C (DTE)
+
+          A8 <------------------> 2  rx <-- tx
+          A4 <------------------> 3  tx --> rx
+          B2 <------------------> 7  GND
+          A7 <------------------> 4  \__ HSK CTS/RTS
+          A3 <------------------> 5  /
+          A2 <------------------> 6  \__ HSK DTR/DSR
+          A6 <------------------> 20 /
+
+
+ ========================================================================
+
+ Collegamento NULL-MODEM PC jr - PC jr a 7 fili:
+
+ PC jr (DTE) <------------------> RS232C (DTE)
+
+          B1 <------------------> B1 massa di protezione
+          A4 <------------------> A8 tx --> rx
+          A8 <------------------> A4 rx <-- tx
+          A3 <------------------> A7 \___ HSK CTS/RTS
+          A7 <------------------> A3 /
+          A6 <------------------> A2 \___ HSK DTR/DSR
+          A2 <------------------> A6 /
+          B2 <------------------> B2 massa di segnalazione
+
+
+ ///////////////////////////////////////////////////////////////////
+
+ =============================
+ |                           |
+ | ZX SPECTRUM (tipo RS232C) |
+ |                           |
+ =============================
+
+      In basso a destra, quardando il computer dotato di interfaccia 1 dal  re-
+ tro, si trova la RS232C. E' una DB9, con la numerazione dei pins come da  pro-
+ spetto.
+
+ PINS: 1   2   3   4   5   6   7   8   9    GND = massa di segnalazione
+       NC  TX  RX  DTR CTS NC  GND NC  +9V
+
+      I 3 segnali fondamentali, tx rx e gnd hanno lo stesso numero di pin della
+ RS232C standard (coincidenza?)
+
+
+ ========================================================================
+
+ Collegamento ZX SPECTRUM - Modem:
+
+ ZX Spectrum (DTE) <------------------> MODEM (DCE)
+
+                 2 <------------------> 2  tx
+                 3 <------------------> 3  rx
+                 4 <------------------> 20 DTR
+                 5 <------------------> 5  CTS
+                 7 <------------------> 7  GND
+
+
+ ========================================================================
+
+ Collegamento NULL - MODEM ZX Spectrum - RS232C a 3 fili:
+
+ ZX Spectrum <------------------> RS232C (DTE)
+
+           2 <------------------> 3  tx --> rx
+           3 <------------------> 2  rx <-- tx
+           7 <------------------> 7  GND
+                              inoltre sulla 232C db25:
+
+                              4>5 CTS/RTS e 6>20 DTR/DSR (imbroglio HSK)
+
+
+      Siccome  tramite  l'interfaccia  1 e' possibile collegare in  rete  2  ZX
+ Spectrum, non e' necEssario il cavo di collegamento via RS232C.
+      Comunque se qualcuno volesse egualmente farlo, e' perfettamente  identico
+ a quest'ultimo appena riportato (tranne l'inganno hsk).
+
+
+ ///////////////////////////////////////////////////////////////////
+
+ =============================
+ |                           |
+ | QL SINCLAIR (tipo RS232C) |
+ |                           |
+ =============================
+
+      Presa seriale (ne abbiamo 2:SER1 e SER2) con connettore introvabile  ret-
+ tangolare maschio a 6 pin.
+
+ PINS: 1   2   3   4   5   6      GND = massa di segnalazione
+       FG  TX  RX  DTR CTS GND    FG  = massa di protezione
+
+     I 3 segnali fondamentali, tx rx e gnd hanno lo stesso numero di
+ pin della RS232C standard e dello ZX Spectrum (strano ma vero).
+
+
+ ========================================================================
+
+ Collegamento QL Sinclair - Modem:
+
+ QL Sinclair (DTE) <------------------> MODEM (DCE)
+
+                 2 <------------------> 2  tx
+                 3 <------------------> 3  rx
+                 4 <------------------> 20 DTR
+                 5 <------------------> 5  CTS
+                 6 <------------------> 7  GND
+
+
+ ========================================================================
+
+ Collegamento NULL - MODEM QL Sinclair - RS232C a 3 fili:
+
+ QL Sinclair <------------------> RS232C (DTE)
+
+           2 <------------------> 3  tx --> rx
+           3 <------------------> 2  rx <-- tx
+           6 <------------------> 7  GND
+                              inoltre sulla 232C db25:
+
+                              4>5 CTS/RTS e 6>20 DTR/DSR (imbroglio HSK)
+
+ ========================================================================
+
+ Inutile cavo NULL - MODEM QL Sinclair - QL Sinclair:
+
+ QL Sinclair <------------------> QL Sinclair
+
+           2 <------------------> 3  tx --> rx
+           3 <------------------> 2  rx <-- tx
+           6 <------------------> 6  GND
+
+ ///////////////////////////////////////////////////////////////////
+
+      Per concludere (dovreste farlo voi per esercizio) facciamo i collegamenti
+ universali fra 2 RS232C a 3,5 e 7 fili.
+      E'  il classico caso di 2 PC IBM XT o PC base o tanti cloni dei quali  e'
+ pieno  il mondo. Anche i PS2 per fortuna, sono dotati di RS232C standard:  per
+ tutti  questi cavi, e' buona norma collegare le 2 masse di protezione (pin  1)
+ fra di loro:
+
+ ========================================================================
+
+         cavo NULL - MODEM RS232C - RS232C a 3 fili:
+
+     RS 232C <------------------> RS 232C
+
+           2 <------------------> 3  tx --> rx
+           3 <------------------> 2  rx <-- tx
+           7 <------------------> 7  GND
+
+ ========================================================================
+
+         cavo NULL - MODEM RS232C - RS232C a 5 fili:
+
+     RS 232C <------------------> RS 232C
+
+           2 <------------------> 3  tx --> rx
+           3 <------------------> 2  rx <-- tx
+           7 <------------------> 7  GND
+           4 <------------------> 5  \__ HSH CTS/RTS
+           5 <------------------> 4  /
+
+ Inoltre  su ambedue le RS232C cortocircuitare: 6+8+20 (cosi' oltre al  DTR/DSR
+ rendiamo vero il DCD).
+
+        Alternativamente sempre a 5 fili:
+
+     RS 232C <------------------> RS 232C
+
+           2 <------------------> 3  tx --> rx
+           3 <------------------> 2  rx <-- tx
+           7 <------------------> 7  GND
+           6 <------------------> 20 \__ HSH DTR/DSR
+          20 <------------------> 6  /
+
+ Inoltre su ambedue le RS232C cortocircuitare: 4+5+8.
+
+ ========================================================================
+
+         cavo NULL - MODEM RS232C - RS232C a 7 fili:
+
+     RS 232C <------------------> RS 232C
+
+           2 <------------------> 3  tx --> rx
+           3 <------------------> 2  rx <-- tx
+           7 <------------------> 7  GND
+           4 <------------------> 5  \__ HSH CTS/RTS
+           5 <------------------> 4  /
+           6 <------------------> 20 \__ HSK DTR/DSR
+          20 <------------------> 6  /
+
+
+                                           Alfredo Berlusconi
+                                           2:334/100
+                                           2:334/103
+                                           2:331/112
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                        UN BBS AL MESE: TARAS  ###
+ ############                                                               ###
+
+          Come nasce un BBS (Taras Communication)
+         -----------------------------------------
+
+      E siamo a 3 .......
+
+      Si', siamo arrivati a 3 BBS 'pugliesi' nella rete FidoNet.
+
+      La nostra splendida regione purtroppo e' anche avida nello sfornare mezzi
+ telematici amatoriali e non.
+      Tanti sforzi sono stati fatti per poter dare (almeno per la citta' di Ta-
+ ranto)  un mondo telematico amatoriale di tutto rispetto e che tale  si  possa
+ chiamare.
+
+      I tre BBS in questione sono:
+
+ Taras Communication (2:335/211) - SysOp Giovanni Pugliese - MsDos & Amiga
+                                   oriented  - 24h on-line
+
+ Taras ][ ]\[IB! (2:335/216)     - SysOp Gaetano Ble' - Only Amiga oriented
+                                   24h on-line
+
+ Taras III (2:335/215)           - SysOp Livio Pugliese - Only MsDos oriented
+                                   22.00 - 07.00 on-line
+
+ Sicuramente  a qualcuno di voi salta subito all'occhio che in una citta'  come
+ quella di Bari (capoluogo di regione e grosso centro commerciale del  meridio-
+ ne) non ci siano BBS FidoNet.....
+      Con tutta onesta' posso assicurarvi che di sforzi ne sto facendo, e anche
+ tanti,  per poter portare in quel di Bari la FidoNet, ma a quest'oggi ci  sono
+ stati  solo  dei timidi tentativi da parte degli amici baresi,  che  poi  sono
+ andati a buca dopo un po' di mesi. Per il momento (gli utenti baresi piu'  af-
+ fezionati) si dovranno accontentare di essere point dei BBS Taras.
+      Stessa  sorte  e' toccata anche alle altre  citta' pugliesi  come  Lecce,
+ Brindisi e Foggia.
+
+      Chiusa questa parentesi regionale, passo immediatamente a raccontarvi co-
+ me e perche' e' nata Taras Communication.
+      Oltre  4  anni fa mi sono ritrovato in casa un PPC 640  dell'Amstrad  che
+ tutti  voi ricorderanno come uno dei piu' abbordabili portatili (a livello  di
+ prezzo)  e con modem 'incorporato'. Dopo qualche giorno di 'felice' lavoro  su
+ di  esso  mi venne la 'strana' curiosita' di provare a far  'funzionare'  quel
+ misterioso  oggetino chiamato modem che si nascondeva nel suo grembo.  Inserii
+ la spina del cavetto che fuoriusciva dal PPC nell'apposita presa telefonica, e
+ con l'aiuto di una rivista specializzata reperii un numero telefonico di BBS.
+      Dopo  aver  digitato sulla tastiera ATDP ed il numero  telefonico  di  un
+ 'fantomatico' BBS chiamato Fido PZ. al primo ring ecco apparirmi sullo schermo
+ alcuni caratteri ASCII. Lo stupore era tantissimo, avevo compiuto qualcosa che
+ all'epoca, secondo il mio modesto parere, (e data la mia ignoranza in materia)
+ era solo appannaggio di quei ragazzini terribili che vedevano in alcuni  films
+ televisivi.
+      Dopo  quella  esperienza chi furono altri tentativi da parte mia,  ed  il
+ tutto  procedeva abbastanza bene a danno della mia  bolletta  telefonica......
+ Nel  giro  di poche settimane mi ero trasformato in un vampiro  telematico  di
+ tutto rispetto, e a farne le 'spese' era il povero Giorgio Rutigliano. :-))
+      In  uno  dei miei soliti giri notturni a Fido PZ,  incocciai  in  un'area
+ strana,  e  cioe'  quella dove erano in parcheggio i files  adatti  per  poter
+ aprirsi  un  BBS. Timidamente e con molta incertezza mi cuccai  anche  quelli,
+ sensa sapere che stavo consumando la piu' grossa tragedia della mia vita......
+ :-))
+      Mi spolpai avidamente i manuali su files contenuti in essi e preso oramai
+ dalla fobia di essere anch'io un 'SysOp' cominciai a montarmi pezzo dopo pezzo
+ (come un puzzle) il 'mio' primo BBS.
+      Non  vi nascondo che feci martire il povero Giorgio, nel momento  in  cui
+ lui commise un gravissimo errore, e cioe' quello di darmi il suo numero  tele-
+ fonico privato...., sicuramente avra' passato giorni tristissimi...
+
+      I giorni passavano velocemente e avevo quasi completato la mia  'grandio-
+ sa' opera, ora restava far conoscere il 'mio' BBS al pubblico.... e ovviamente
+ il suo numero telefonico. Cominciai a comportarmi nel peggior modo  possibile,
+ e cioe' a fare tutto quello che un SysOp non deve fare......
+      Inserivo annunci in aree echo della FidoNet per pubblicizzare il mio  nu-
+ mero telefonico, rompevo l'anima a tutti, ed infine colto da un raptus  comin-
+ ciai  a divulgare per tutta Taranto manifestini pubblicitari (stampati in  ca-
+ sa). Ero ormai cotto, ma...... di chiamate al BBS neanche l'ombra!!! :-(
+      Una  notte (era di settembre) ecco giungere un timido squillo,  il  modem
+ parte  con il suo solito fischio, ..... ed ecco il primo connect, a 300  baud.
+ Dall'altra  parte del filo si nascondeva un timido C64 con il  suo  adattatore
+ telematico.
+      Sudavo freddo!!! Per rompere il ghiaccio entrai subito in chat, e  comin-
+ ciammo a dialogare. Era Massimo Strazzeri, il mio attuale CoSysOp.
+      Dopo quella timida chiamata ne susseguirono altre ed altre ancora..., or-
+ mai il piu' era fatto.
+      Da quella notte sono passati anni, computers e modem. Gli utenti aumenta-
+ vano sempre piu' ed io scoprivo l'esigenza di non restare isolato al  semplice
+ BBS  locale, ma la volonta' era quella di entrare nella grande famiglia  Fido.
+ Chi poteva darmi una mano se non Giorgio??? Ormai ero il suo tormento!
+      Ricominciai  a  tempestarlo di telefonate, e con la piu'  classica  delle
+ 'sante pazienze' egli mi mise sulla buona strada.
+
+      I mesi passavano ed eravamo arrivati a luglio 91, io ero quasi pronto  ad
+ entrare  in FidoNet e Giorgio andava in vacanza. :-( Come fare? Non  resistivo
+ al pensiero di dover pazientare ancora per un mese attendendo il suo ritorno.
+      Mi  procurai il numero telefonico del BBS di Pasquale Cantiello e  comin-
+ ciai a tempestare lui.
+      Non vi nascondo che anche Pasquale e' stato moooooolto paziente con me  e
+ che mi ha dato anch'egli una grossa mano.
+      E a meta' luglio del 1991 Taras Communication era in Fido!!!!!!
+
+
+
+                               Giovanni Pugliese
+                   SysOp of Taras Communication (2:335/211)
+                              tel.  099/4746313
+
+
+
+ ############                                                               ###
+ ###   4  ###                                               IL PROGRAMMINO  ###
+ ############                                                               ###
+
+                Crittografiamo...
+                -----------------
+
+      Chi  tra voi ha un'infarinatura di metodi di crittografia, avra`  sicura-
+ mente sentito parlare del DES. Oramai come metodo e` un po' vecchiotto,  supe-
+ rato  da  algoritmi come la crittografia a chiave pubblica (di cui  magari  vi
+ parlero` un giorno), e c'e` chi dice che gli americani possano decodificare da
+ anni  la  sua chiave. In ogni caso per gli usi standard sarebbe  un  algoritmo
+ piu` che sufficiente... se si potesse avere a disposizione. Dovete sapere  che
+ c'e` una buffa legge statunitense che vieta l'esportazione dal Nord America di
+ software  e hardware crittografico di ogni tipo, nemmeno una cosa banale  come
+ uno XOR, e nemmeno se questo software e` stato scritto al di fuori degli USA e
+ quivi importato.
+
+      Ma  la cosa piu` buffa e` che si possono invece liberamente scrivere  de-
+ scrizioni dei suddetti algoritmi. Proprio da una riscrittura europea  dell'al-
+ goritmo  del  DES  arrivano  le routines seguenti.  Abbiamo  il  main  program
+ crypt.c, la routine principale des.c, e i files necessari per unix e dos,  ri-
+ spettivamente  unix.c  e dos.c (che fantasia,  vero?).  Buona  compilazione...
+ .mau.
+
+ ----- begin of CRYPT.C -----
+
+ /* Encrypt/decrypt command compatible with Sun's "des" command */
+ #include <stdio.h>
+ #ifdef MSDOS
+ #define readone(A)  getc(A)
+ #define writeone(c,A) putc(c,A)
+     FILE        *disk_file;
+     FILE        *disk_file2;
+ #endif
+
+ #ifdef UNIX
+ #include <ctype.h>
+ #define readone(A)  getc(A)
+ #define writeone(c,A) putc(c,A)
+     FILE        *disk_file;
+     FILE        *disk_file2;
+ #endif
+
+ #ifdef VAXC
+     char        readone();
+     int         disk_file;
+     int         disk_file2;
+ #endif
+
+     int         char_cnt=0;
+     char       iv[8];  /* Initial vector for CBC mode */
+     int                block;
+     char        h[16] = {'0','1','2','3','4','5','6','7','8'
+                                ,'9','A','B','C','D','E','F'};
+
+ main(argc,argv)
+     int         argc;
+     char        *argv[];
+ {
+     int         c,cnt,encrypt,decrypt;
+     register int     i;
+     char         key[8],tkey1[8],tkey2[8],*akey,mode,xchar,*getkey();
+
+    
+     if (argc < 3)
+       {
+         printf("Usage:  CRYPT <infile> <outfile>\n");
+         return;
+       }
+     openfiles(argv,&disk_file,&disk_file2);
+
+     block = encrypt = decrypt = 0;
+     akey = NULL;
+     desinit(0);
+
+     if(akey == NULL){
+     /* No key on command line, prompt for it */
+     memset(tkey1,0,8);
+     memset(tkey2,0,8);
+     for(;;){
+         printf(" Enter key: ");
+         memcpy(tkey1,getkey(),8);
+         printf("\n Enter key again: ");
+         memcpy(tkey2,getkey(),8);
+         printf("\n");
+         if(memcmp(tkey1,tkey2,8) != 0){
+             fprintf(stderr,"Key mistyped, try again\n");
+         } else
+             break;
+         }
+         akey = tkey1;
+     }
+     /* Set up key, determine parity bit */
+     strncpy(key,akey,8);
+     for(cnt = 0; cnt < 8; cnt++){
+         c = 0;
+         for(i=0;i<7;i++)
+             if(key[cnt] & (1 << i))
+                 c++;
+         if((c & 1) == 0)
+             key[cnt] |= 0x80;
+     }
+     setkey(key);
+
+     do
+     {
+         printf("\n%s","Encrypt or Decrypt?  ");
+         xchar = getchar();
+     mode =(char) toupper((int)xchar);}
+     while ((mode != 'D') && (mode != 'E'));
+
+     if (mode == 'D'){
+     decrypt++;}
+     else if (mode == 'E'){
+     encrypt++;}
+
+
+     /* Blot out keys */
+     memset(key,0,8);
+     memset(tkey1,0,8);
+     memset(tkey2,0,8);
+
+     /* Initialize IV to all zeros */
+     memset(iv,0,8);
+
+     if(encrypt){
+         doencrypt();
+     } else if(decrypt){
+         dodecrypt();
+     } else {
+         printf("Problems see system manager\n");
+         exit(1);
+     }
+    
+ }
+ /* Encrypt standard input to standard output */
+ doencrypt()
+ {
+     char         work[8],*cp,*cp1;
+     int         cnt,i,j;
+
+     for(;;){
+         if((cnt = readdata(work,8,disk_file)) != 8){
+             /* Put residual byte count in the last block.
+              * Note that garbage is left in the other bytes,
+              * if any; this is a feature, not a bug, since it'll
+              * be stripped out at decrypt time.
+              */
+             work[7] = cnt;
+         }
+         if(!block){
+             /* CBC mode; chain in last cipher word */
+             cp = work;
+             cp1 = iv;
+             for(i=8; i!=0; i--)
+                 *cp++ ^= *cp1++;
+         }
+         endes(work);    /* Encrypt block */
+         if(!block){    /* Save outgoing ciphertext for chain */
+             memcpy(iv,work,8);
+         }
+         dowrite(work,8,disk_file2);
+         if(cnt != 8)
+             break;
+     }
+     writeone('\r',disk_file2);
+     writeone('\n',disk_file2);
+ }
+ dodecrypt()
+ {
+     char         work[8],nwork[8],ivtmp[8],*cp,*cp1;
+     int         cnt,i;
+
+
+     cnt = doread(work,8,disk_file);    /* Prime the pump */
+     for(;;){
+         if(!block){    /* Save incoming ciphertext for chain */
+             memcpy(ivtmp,work,8);
+         }
+         dedes(work);
+         if(!block){    /* Unchain block, save ciphertext for next */
+             cp = work;
+             cp1 = iv;
+             for(i=8; i!=0; i--){
+                 *cp++ ^= *cp1++;
+             }
+             memcpy(iv,ivtmp,8);
+         }
+         /* Save buffer pending next read */
+         memcpy(nwork,work,8);
+         /* Try to read next block */
+         cnt = doread(work,8,disk_file);
+         if(cnt != 8){    /* Can "only" be 0 if not 8 */
+             /* Prev block was last one, write appropriate number
+              * of bytes
+              */
+             cnt = nwork[7];
+             if(cnt < 0 || cnt > 7){
+                 fprintf(stderr,"Corrupted file or wrong key\n");
+             } else if(cnt != 0)
+                 write(disk_file2,nwork,cnt);
+             exit(1);
+         } else {
+             /* Now okay to write previous buffer */
+             writedata(nwork,8,disk_file2);
+         }
+
+     }
+ }
+ #ifdef    DEBUG
+ put8(cp)
+     register char     *cp;
+ {
+     int i;
+
+     for(i=0;i<8;i++){
+         fprintf(stderr,"%02x ",*cp++ & 0xff);
+     }
+ }
+ #endif
+
+ doread(buffer,length,file_ptr)
+
+ /* This routine reads in data from the input file, which is expected to be in
+  * HEX format and unHEXes the data before returning it to the calling program.
+  * This routine is based on the program  UNHEX by Christine Gianone,
+  * October 20, 1986
+  */
+
+ #ifdef MSDOS
+     FILE        *file_ptr;
+ #endif
+
+ #ifdef UNIX
+     FILE        *file_ptr;
+ #endif
+
+ #ifdef VAXC
+     int            file_ptr;
+ #endif
+     int         length;
+     unsigned char     *buffer;
+
+ {
+ int a,b,c,i,j;
+     i = 0;
+     while (((a = readone(file_ptr)) != EOF) && (i < length)) {
+         if (a == '\n' || a == '\r')   /* Skip newlines & carriage returns */
+       if ((a = readone(file_ptr)) == EOF)
+         break;
+         if (a == '\n' || a == '\r')   /* Skip newlines & carriage returns */
+       if ((a = readone(file_ptr)) == EOF)
+         break;
+         if((b = readone(file_ptr)) == EOF)    /* Get second hex nibble */
+       break;            /* get out of the while loop */
+     if(a >= '0' && a <= '9')
+       a -= 0x30;            /* a = a - 30 hex */
+     else if(a >='A' && a <= 'F' )
+       a -= 0x37;            /* a = a - 37 */
+
+     if(b >= '0' && b <= '9')
+       b -= 0x30;          
+     else if(b >='A' && b <= 'F' )
+       b -= 0x37;          
+
+     buffer[i] = ((a * 16) & 0xF0) + (b & 0xF);
+     i++;
+     if (i>=length)
+       break;
+         }
+ #ifdef DEBUG
+    for(j=0;j<i;j++)
+     { printf(" buffer[%d] = %d \n",j,buffer[j]); }
+    printf(" returning i = %d \n",i);
+ #endif
+    return(i);
+ }      
+
+ dowrite(buffer,length,file_ptr)
+ /* This routine takes the encrypted buffer and outputs in HEX format.
+  * This routine is based on HEX.C by Christine Gianone October 20, 1986
+  */
+
+ #ifdef MSDOS
+     FILE        *file_ptr;
+ #endif
+
+ #ifdef UNIX
+     FILE        *file_ptr;
+ #endif
+
+ #ifdef VAXC
+     int            file_ptr;
+ #endif
+     unsigned char     *buffer;
+     int         length;
+
+ {
+ int a,b,c,i,j;
+
+     i = 0;
+ #ifdef DEBUG
+    for(j=0;j<length;j++)
+     { printf(" buffer[%d] = %d \n",j,buffer[j]); }
+ #endif
+     while (i < length) {
+         c = buffer[i++];
+     b = c & 0xF;
+     a = c / 16;
+     writeone(h[a],file_ptr);
+         writeone(h[b],file_ptr);
+     char_cnt += 2;
+     if (char_cnt == 72) {
+         writeone('\r',file_ptr);
+         writeone('\n',file_ptr);
+         char_cnt = 0;
+         }
+     }
+ }
+
+ readdata(buffer,length,file_ptr)
+
+ #ifdef MSDOS
+     FILE        *file_ptr;
+ #endif
+
+ #ifdef UNIX
+     FILE        *file_ptr;
+ #endif
+
+ #ifdef VAXC
+     int            file_ptr;
+ #endif
+     int         length;
+     unsigned char     *buffer;
+
+ {
+ int a,b,c,i,j;
+     i = 0;
+     while (((a = readone(file_ptr)) != EOF) && (i < length)) {
+     buffer[i] = a;
+     i++;
+     if (i>=length)
+       break;
+         }
+ #ifdef DEBUG
+    for(j=0;j<i;j++)
+        { printf(" buffer[%d] = %d \n",j,buffer[j]); }
+    printf(" returning i = %d \n",i);
+ #endif
+    return(i);
+ }      
+
+ writedata(buffer,length,file_ptr)
+
+ #ifdef MSDOS
+     FILE        *file_ptr;
+ #endif
+
+ #ifdef UNIX
+     FILE        *file_ptr;
+ #endif
+
+ #ifdef VAXC
+     int            file_ptr;
+ #endif
+     int         length;
+     unsigned char     *buffer;
+
+ {
+ int i;
+     i = 0;
+     while (i < length) {
+         writeone(buffer[i],file_ptr);
+         i++;
+     }
+ }      
+
+ ----- end of CRYPT.C -----
+ ----- begin of DES.C -----
+
+ /* Software DES functions
+  * written 12 Dec 1986 by Phil Karn, KA9Q; large sections adapted from
+  * the 1977 public-domain program by Jim Gillogly
+  */
+ #define        NULL    0
+
+ #ifdef LITTLE_ENDIAN
+ unsigned long byteswap();
+ #else
+ #define        byteswap(x) (x)
+ #endif
+
+ /* Tables defined in the Data Encryption Standard documents */
+
+ /* initial permutation IP */
+ char ip[] = {
+        58, 50, 42, 34, 26, 18, 10,  2,
+        60, 52, 44, 36, 28, 20, 12,  4,
+        62, 54, 46, 38, 30, 22, 14,  6,
+        64, 56, 48, 40, 32, 24, 16,  8,
+        57, 49, 41, 33, 25, 17,  9,  1,
+        59, 51, 43, 35, 27, 19, 11,  3,
+        61, 53, 45, 37, 29, 21, 13,  5,
+        63, 55, 47, 39, 31, 23, 15,  7
+ };
+
+ /* final permutation IP^-1 */
+ char fp[] = {
+        40,  8, 48, 16, 56, 24, 64, 32,
+        39,  7, 47, 15, 55, 23, 63, 31,
+        38,  6, 46, 14, 54, 22, 62, 30,
+        37,  5, 45, 13, 53, 21, 61, 29,
+        36,  4, 44, 12, 52, 20, 60, 28,
+        35,  3, 43, 11, 51, 19, 59, 27,
+        34,  2, 42, 10, 50, 18, 58, 26,
+        33,  1, 41,  9, 49, 17, 57, 25
+ };
+
+ /* expansion operation matrix
+  * This is for reference only; it is unused in the code
+  * as the f() function performs it implicitly for speed
+  */
+ #ifdef notdef
+ char ei[] = {
+        32,  1,  2,  3,  4,  5,
+         4,  5,  6,  7,  8,  9,
+         8,  9, 10, 11, 12, 13,
+        12, 13, 14, 15, 16, 17,
+        16, 17, 18, 19, 20, 21,
+        20, 21, 22, 23, 24, 25,
+        24, 25, 26, 27, 28, 29,
+        28, 29, 30, 31, 32,  1
+ };
+ #endif
+
+ /* permuted choice table (key) */
+ char pc1[] = {
+        57, 49, 41, 33, 25, 17,  9,
+         1, 58, 50, 42, 34, 26, 18,
+        10,  2, 59, 51, 43, 35, 27,
+        19, 11,  3, 60, 52, 44, 36,
+
+        63, 55, 47, 39, 31, 23, 15,
+         7, 62, 54, 46, 38, 30, 22,
+        14,  6, 61, 53, 45, 37, 29,
+        21, 13,  5, 28, 20, 12,  4
+ };
+
+ /* number left rotations of pc1 */
+ char totrot[] = {
+        1,2,4,6,8,10,12,14,15,17,19,21,23,25,27,28
+ };
+
+ /* permuted choice key (table) */
+ char pc2[] = {
+        14, 17, 11, 24,  1,  5,
+         3, 28, 15,  6, 21, 10,
+        23, 19, 12,  4, 26,  8,
+        16,  7, 27, 20, 13,  2,
+        41, 52, 31, 37, 47, 55,
+        30, 40, 51, 45, 33, 48,
+        44, 49, 39, 56, 34, 53,
+        46, 42, 50, 36, 29, 32
+ };
+
+ /* The (in)famous S-boxes */
+ char si[8][64] = {
+        /* S1 */
+        14,  4, 13,  1,  2, 15, 11,  8,  3, 10,  6, 12,  5,  9,  0,  7,
+         0, 15,  7,  4, 14,  2, 13,  1, 10,  6, 12, 11,  9,  5,  3,  8,
+         4,  1, 14,  8, 13,  6,  2, 11, 15, 12,  9,  7,  3, 10,  5,  0,
+        15, 12,  8,  2,  4,  9,  1,  7,  5, 11,  3, 14, 10,  0,  6, 13,
+
+        /* S2 */
+        15,  1,  8, 14,  6, 11,  3,  4,  9,  7,  2, 13, 12,  0,  5, 10,
+         3, 13,  4,  7, 15,  2,  8, 14, 12,  0,  1, 10,  6,  9, 11,  5,
+         0, 14,  7, 11, 10,  4, 13,  1,  5,  8, 12,  6,  9,  3,  2, 15,
+        13,  8, 10,  1,  3, 15,  4,  2, 11,  6,  7, 12,  0,  5, 14,  9,
+
+        /* S3 */
+        10,  0,  9, 14,  6,  3, 15,  5,  1, 13, 12,  7, 11,  4,  2,  8,
+        13,  7,  0,  9,  3,  4,  6, 10,  2,  8,  5, 14, 12, 11, 15,  1,
+        13,  6,  4,  9,  8, 15,  3,  0, 11,  1,  2, 12,  5, 10, 14,  7,
+         1, 10, 13,  0,  6,  9,  8,  7,  4, 15, 14,  3, 11,  5,  2, 12,
+
+        /* S4 */
+         7, 13, 14,  3,  0,  6,  9, 10,  1,  2,  8,  5, 11, 12,  4, 15,
+        13,  8, 11,  5,  6, 15,  0,  3,  4,  7,  2, 12,  1, 10, 14,  9,
+        10,  6,  9,  0, 12, 11,  7, 13, 15,  1,  3, 14,  5,  2,  8,  4,
+         3, 15,  0,  6, 10,  1, 13,  8,  9,  4,  5, 11, 12,  7,  2, 14,
+
+        /* S5 */
+         2, 12,  4,  1,  7, 10, 11,  6,  8,  5,  3, 15, 13,  0, 14,  9,
+        14, 11,  2, 12,  4,  7, 13,  1,  5,  0, 15, 10,  3,  9,  8,  6,
+         4,  2,  1, 11, 10, 13,  7,  8, 15,  9, 12,  5,  6,  3,  0, 14,
+        11,  8, 12,  7,  1, 14,  2, 13,  6, 15,  0,  9, 10,  4,  5,  3,
+
+        /* S6 */
+        12,  1, 10, 15,  9,  2,  6,  8,  0, 13,  3,  4, 14,  7,  5, 11,
+        10, 15,  4,  2,  7, 12,  9,  5,  6,  1, 13, 14,  0, 11,  3,  8,
+         9, 14, 15,  5,  2,  8, 12,  3,  7,  0,  4, 10,  1, 13, 11,  6,
+         4,  3,  2, 12,  9,  5, 15, 10, 11, 14,  1,  7,  6,  0,  8, 13,
+
+        /* S7 */
+         4, 11,  2, 14, 15,  0,  8, 13,  3, 12,  9,  7,  5, 10,  6,  1,
+        13,  0, 11,  7,  4,  9,  1, 10, 14,  3,  5, 12,  2, 15,  8,  6,
+         1,  4, 11, 13, 12,  3,  7, 14, 10, 15,  6,  8,  0,  5,  9,  2,
+         6, 11, 13,  8,  1,  4, 10,  7,  9,  5,  0, 15, 14,  2,  3, 12,
+
+        /* S8 */
+        13,  2,  8,  4,  6, 15, 11,  1, 10,  9,  3, 14,  5,  0, 12,  7,
+         1, 15, 13,  8, 10,  3,  7,  4, 12,  5,  6, 11,  0, 14,  9,  2,
+         7, 11,  4,  1,  9, 12, 14,  2,  0,  6, 10, 13, 15,  3,  5,  8,
+         2,  1, 14,  7,  4, 10,  8, 13, 15, 12,  9,  0,  3,  5,  6, 11
+ };
+
+ /* 32-bit permutation function P used on the output of the S-boxes */
+ char p32i[] = {      
+        16,  7, 20, 21,
+        29, 12, 28, 17,
+         1, 15, 23, 26,
+         5, 18, 31, 10,
+         2,  8, 24, 14,
+        32, 27,  3,  9,
+        19, 13, 30,  6,
+        22, 11,  4, 25
+ };
+ /* End of DES-defined tables */
+
+ /* Lookup tables initialized once only at startup by desinit() */
+ long (*sp)[64];                        /* Combined S and P boxes */
+
+ char (*iperm)[16][8];          /* Initial and final permutations */
+ char (*fperm)[16][8];
+
+ /* 8 6-bit subkeys for each of 16 rounds, initialized by setkey() */
+ unsigned char (*kn)[8];
+
+ /* bit 0 is left-most in byte */
+ int bytebit[] = {
+        0200,0100,040,020,010,04,02,01
+ };
+
+ int nibblebit[] = {
+         010,04,02,01
+ };
+
+ /* Allocate space and initialize DES lookup arrays
+  * mode == 0: standard DES
+  * mode == 1; DEA without initial and final permutations for speed
+  */
+ desinit(mode)
+ int mode;
+ {
+     char *malloc();
+     int i;
+
+     if(sp != NULL){
+         /* Already initialized */
+         return 0;
+     }
+     i = sizeof(long) * 8 * 64;
+     if((sp = (long (*)[64])malloc(i)) == NULL){
+         return -1;
+     }
+     spinit();
+     kn = (unsigned char (*)[8])malloc(sizeof(char) * 8 * 16);
+     if(kn == NULL){
+         free((char *)sp);
+         return -1;
+     }
+     if(mode == 1)        /* No permutations */
+         return 0;
+
+     iperm = (char (*)[16][8])malloc(sizeof(char) * 16 * 16 * 8);
+     if(iperm == NULL){
+         free((char *)sp);
+         free((char *)kn);
+         return -1;
+     }
+     perminit(iperm,ip);
+
+     fperm = (char (*)[16][8])malloc(sizeof(char) * 16 * 16 * 8);
+     if(fperm == NULL){
+         free((char *)sp);
+         free((char *)kn);
+         free((char *)iperm);
+         return -1;
+     }
+     perminit(fperm,fp);
+   
+     return 0;
+ }
+ /* Free up storage used by DES */
+ desdone()
+ {
+     if(sp == NULL)
+         return;    /* Already done */
+
+     free((char *)sp);
+     free((char *)kn);
+     if(iperm != NULL)
+         free((char *)iperm);
+     if(fperm != NULL)
+         free((char *)fperm);
+
+     sp = NULL;
+     iperm = NULL;
+     fperm = NULL;
+     kn = NULL;
+ }
+ /* Set key (initialize key schedule array) */
+ setkey(key)
+ char *key;            /* 64 bits (will use only 56) */
+ {
+     char pc1m[56];        /* place to modify pc1 into */
+     char pcr[56];        /* place to rotate pc1 into */
+     register int i,j,l;
+     int m;
+
+     for (j=0; j<56; j++) {        /* convert pc1 to bits of key */
+         l=pc1[j]-1;        /* integer bit location     */
+         m = l & 07;        /* find bit         */
+         pc1m[j]=(key[l>>3] &    /* find which key byte l is in */
+             bytebit[m])    /* and which bit of that byte */
+             ? 1 : 0;    /* and store 1-bit result */
+     }
+     /* Clear key schedule */
+     for (i=0; i<16; i++)
+         for (j=0; j<8; j++)
+             kn[i][j]=0;
+
+     for (i=0; i<16; i++) {        /* key chunk for each iteration */
+         for (j=0; j<56; j++)    /* rotate pc1 the right amount */
+             pcr[j] = pc1m[(l=j+totrot[i])<(j<28? 28 : 56) ? l: l-28];
+             /* rotate left and right halves independently */
+         for (j=0; j<48; j++){    /* select bits individually */
+             /* check bit that goes to kn[j] */
+             if (pcr[pc2[j]-1]){
+                 /* mask it in if it's there */
+                 l= j % 6;
+                 kn[i][j/6] |= bytebit[l] >> 2;
+             }
+         }
+     }
+ }
+ /* In-place encryption of 64-bit block */
+ endes(block)
+ char *block;
+ {
+     register int i;
+     long work[2];         /* Working data storage */
+     long tmp;
+
+     permute(block,iperm,(char *)work);    /* Initial Permutation */
+     work[0] = byteswap(work[0]);
+     work[1] = byteswap(work[1]);
+
+     /* Do the 16 rounds */
+     for (i=0; i<16; i++)
+         round(i,work);
+
+     /* Left/right half swap */
+     tmp = work[0];
+     work[0] = work[1];  
+     work[1] = tmp;
+
+     work[0] = byteswap(work[0]);
+     work[1] = byteswap(work[1]);
+     permute((char *)work,fperm,block);    /* Inverse initial permutation */
+ }
+ /* In-place decryption of 64-bit block */
+ dedes(block)
+ char *block;
+ {
+     register int i;
+     unsigned long work[2];    /* Working data storage */
+     long tmp;
+
+     permute(block,iperm,(char *)work);    /* Initial permutation */
+
+     work[0] = byteswap(work[0]);
+     work[1] = byteswap(work[1]);
+
+     /* Left/right half swap */
+     tmp = work[0];
+     work[0] = work[1];  
+     work[1] = tmp;
+
+     /* Do the 16 rounds in reverse order */
+     for (i=15; i >= 0; i--)
+         round(i,work);
+
+     work[0] = byteswap(work[0]);
+     work[1] = byteswap(work[1]);
+
+     permute((char *)work,fperm,block);    /* Inverse initial permutation */
+ }
+
+ /* Permute inblock with perm */
+ static
+ permute(inblock,perm,outblock)
+ char *inblock, *outblock;        /* result into outblock,64 bits */
+ char perm[16][16][8];            /* 2K bytes defining perm. */
+ {
+     register int i,j;
+     register char *ib, *ob;        /* ptr to input or output block */
+     register char *p, *q;
+
+     if(perm == NULL){
+         /* No permutation, just copy */
+         for(i=8; i!=0; i--)
+             *outblock++ = *inblock++;
+         return;
+     }
+     /* Clear output block     */
+     for (i=8, ob = outblock; i != 0; i--)
+         *ob++ = 0;
+
+     ib = inblock;
+     for (j = 0; j < 16; j += 2, ib++) { /* for each input nibble */
+         ob = outblock;
+         p = perm[j][(*ib >> 4) & 017];
+         q = perm[j + 1][*ib & 017];
+         for (i = 8; i != 0; i--){   /* and each output byte */
+             *ob++ |= *p++ | *q++;    /* OR the masks together*/
+         }
+     }
+ }
+
+ /* Do one DES cipher round */
+ static
+ round(num,block)
+ int num;                /* i.e. the num-th one     */
+ unsigned long *block;
+ {
+     long f();
+
+     /* The rounds are numbered from 0 to 15. On even rounds
+      * the right half is fed to f() and the result exclusive-ORs
+      * the left half; on odd rounds the reverse is done.
+      */
+     if(num & 1){
+         block[1] ^= f(block[0],kn[num]);
+     } else {
+         block[0] ^= f(block[1],kn[num]);
+     }
+ }
+ /* The nonlinear function f(r,k), the heart of DES */
+ static
+ long
+ f(r,subkey)
+ unsigned long r;        /* 32 bits */
+ unsigned char subkey[8];    /* 48-bit key for this round */
+ {
+     register unsigned long rval,rt;
+ #ifdef    TRACE
+     unsigned char *cp;
+     int i;
+
+     printf("f(%08lx, %02x %02x %02x %02x %02x %02x %02x %02x) = ",
+         r,
+         subkey[0], subkey[1], subkey[2],
+         subkey[3], subkey[4], subkey[5],
+         subkey[6], subkey[7]);
+ #endif
+     /* Run E(R) ^ K through the combined S & P boxes
+      * This code takes advantage of a convenient regularity in
+      * E, namely that each group of 6 bits in E(R) feeding
+      * a single S-box is a contiguous segment of R.
+      */
+     rt = (r >> 1) | ((r & 1) ? 0x80000000 : 0);
+     rval = 0;
+     rval |= sp[0][((rt >> 26) ^ *subkey++) & 0x3f];
+     rval |= sp[1][((rt >> 22) ^ *subkey++) & 0x3f];
+     rval |= sp[2][((rt >> 18) ^ *subkey++) & 0x3f];
+     rval |= sp[3][((rt >> 14) ^ *subkey++) & 0x3f];
+     rval |= sp[4][((rt >> 10) ^ *subkey++) & 0x3f];
+     rval |= sp[5][((rt >> 6) ^ *subkey++) & 0x3f];
+     rval |= sp[6][((rt >> 2) ^ *subkey++) & 0x3f];
+     rt = (r << 1) | ((r & 0x80000000) ? 1 : 0);
+     rval |= sp[7][(rt ^ *subkey) & 0x3f];
+ #ifdef    TRACE
+     printf(" %08lx\n",rval);
+ #endif
+     return rval;
+ }
+ /* initialize a perm array */
+ static
+ perminit(perm,p)
+ char perm[16][16][8];            /* 64-bit, either init or final */
+ char p[64];
+ {
+     register int l, j, k;
+     int i,m;
+
+     /* Clear the permutation array */
+     for (i=0; i<16; i++)
+         for (j=0; j<16; j++)
+             for (k=0; k<8; k++)
+                 perm[i][j][k]=0;
+
+     for (i=0; i<16; i++)        /* each input nibble position */
+         for (j = 0; j < 16; j++)/* each possible input nibble */
+         for (k = 0; k < 64; k++)/* each output bit position */
+         {   l = p[k] - 1;    /* where does this bit come from*/
+             if ((l >> 2) != i)  /* does it come from input posn?*/
+             continue;    /* if not, bit k is 0     */
+             if (!(j & nibblebit[l & 3]))
+             continue;    /* any such bit in input? */
+             m = k & 07;    /* which bit is this in the byte*/
+             perm[i][j][k>>3] |= bytebit[m];
+         }
+ }
+
+ /* Initialize the lookup table for the combined S and P boxes */
+ static int
+ spinit()
+ {
+     char pbox[32];
+     int p,i,s,j,rowcol;
+     long val;
+
+     /* Compute pbox, the inverse of p32i.
+      * This is easier to work with
+      */
+     for(p=0;p<32;p++){
+         for(i=0;i<32;i++){
+             if(p32i[i]-1 == p){
+                 pbox[p] = i;
+                 break;
+             }
+         }
+     }
+     for(s = 0; s < 8; s++){            /* For each S-box */
+         for(i=0; i<64; i++){        /* For each possible input */
+             val = 0;
+             /* The row number is formed from the first and last
+              * bits; the column number is from the middle 4
+              */
+             rowcol = (i & 32) | ((i & 1) ? 16 : 0) | ((i >> 1) & 0xf);
+             for(j=0;j<4;j++){    /* For each output bit */
+                 if(si[s][rowcol] & (8 >> j)){
+                  val |= 1L << (31 - pbox[4*s + j]);
+                 }
+             }
+             sp[s][i] = val;
+
+ #ifdef    DEBUG
+             printf("sp[%d][%2d] = %08lx\n",s,i,sp[s][i]);
+ #endif
+         }
+     }
+ }
+ #ifdef    LITTLE_ENDIAN
+ /* Byte swap a long */
+ unsigned long
+ byteswap(x)
+ unsigned long x;
+ {
+     register char *cp,tmp;
+
+     cp = (char *)&x;
+     tmp = cp[3];
+     cp[3] = cp[0];
+     cp[0] = tmp;
+
+     tmp = cp[2];
+     cp[2] = cp[1];
+     cp[1] = tmp;
+
+     return x;
+ }
+ #endif
+
+ ----- end of DES.C -----
+
+
+ ----- begin of UNIX.C -----
+ #include <stdio.h>
+ #include <ctype.h>
+ #include <signal.h>
+ #include <sgtty.h>
+
+ #define        TTY     "/dev/tty"      /* Change to /dev/tty for unix */
+
+ openfiles(argv,disk_file,disk_file2)
+
+ char *argv[];
+ FILE **disk_file,**disk_file2;
+
+ {
+      *disk_file  = fopen(argv[1],"r+b");
+      *disk_file2 = fopen(argv[2],"w+b");
+      if (*disk_file == NULL)
+        {
+          printf("Error on opening file %s.\n",argv[1]);
+        exit(1);
+        }
+      if (*disk_file2 == NULL)
+        {
+          printf("Error on opening file %s.\n",argv[2]);
+        exit(1);
+        }
+ }
+
+ char *getkey()
+ {
+     struct sgttyb ttyb,ttysav;
+     register char *cp,c;
+     FILE *tty;
+     static char pbuf[256];
+     int (*signal())(),(*sig)();
+
+     if ((tty = fdopen(open(TTY, 2), "r")) == NULL)
+         tty = stdin;
+     else
+         setbuf(tty, (char *)NULL);
+     sig = signal(SIGINT, SIG_IGN);
+     ioctl(fileno(tty), TIOCGETP, &ttyb);
+     ioctl(fileno(tty), TIOCGETP, &ttysav);
+     ttyb.sg_flags |= RAW;
+     ttyb.sg_flags &= ~ECHO;
+     ioctl(fileno(tty), TIOCSETP, &ttyb);
+     fflush(stdout);
+     cp = pbuf;
+     for (;;) {
+         c = getc(tty);
+         if(c == '\r' || c == '\n' || c == EOF)
+             break;
+         if (cp < &pbuf[127])
+             *cp++ = c;
+     }
+     *cp = '\0';
+     fprintf(stdout,"\r\n");
+     fflush(stdout);
+     ioctl(fileno(tty), TIOCSETP, &ttysav);
+     signal(SIGINT, sig);
+     if (tty != stdin)
+         fclose(tty);
+     return(pbuf);
+ }
+
+ ----- end of UNIX.C -----
+ ----- begin of DOS.C -----
+ #include <stdio.h>
+ #include <ctype.h>
+ #include <string.h>
+ #include <dos.h>
+ openfiles(argv,disk_file,disk_file2)
+
+ char *argv[];
+ FILE **disk_file,**disk_file2;
+
+ {
+      *disk_file  = fopen(argv[1],"r+t");
+      *disk_file2 = fopen(argv[2],"w+t");
+      if (*disk_file == NULL)
+        {
+          printf("Error on opening file %s.\n",argv[1]);
+        exit(1);
+        }
+      if (*disk_file2 == NULL)
+        {
+          printf("Error on opening file %s.\n",argv[2]);
+        exit(1);
+        }
+ }
+ char *getkey()
+   {
+     static union REGS      inreg;
+     register int           key_length;
+     static union REGS      outreg;
+     register unsigned char tem_char;
+     static char            key [256];
+
+     key_length=0;
+     key[0]=(unsigned char) '\0';
+     do
+       {
+         inreg.h.ah=(unsigned char) 8;
+         intdos(&inreg,&outreg);
+         tem_char=outreg.h.al;
+         if (tem_char != (unsigned char) 13)
+           {
+             if (tem_char == (unsigned char) 8)
+               {
+                 if (key_length > 0)
+                   key[--key_length]=(unsigned char) '\0';
+               }
+             else
+               if (key_length < 255)
+                 {
+                   key[key_length++]=tem_char;
+                   key[key_length]=(unsigned char) '\0';
+                 }
+               else
+                 putchar(7);
+           }
+       }
+     while (tem_char != (unsigned char) 13);
+     return(key);
+   }
+
+ ----- end of DOS.C -----
+
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                                                     VIVAMIGA  ###
+ ############                                                               ###
+
+                Un 'rologio nel vostro AMIGA
+                ----------------------------
+
+      Ok,  ed eccoci qui a sparacchiare ancora un'altra volta di cazzate,  mah!
+ Comunque prima di iniziare alcune notizie dall'interno: il sottoscritto grazie
+ al  prezioso aiuto del Verdone ha ricevuto dall'America il nuovo  super  extra
+ mega  Supra Modem Fax 14400.  Il primo prg a non volerne sapere di  funzionare
+ e' stato Gali, il secondo Trap Door, a ruota Term (che alla resa dei conti  si
+ e' rivelato moolto lento), Ncomm... poi mi e' venuto in mente che forse  biso-
+ gnava settarlo. Settatolo con esito piu' o meno incerto sono riuscito a colle-
+ garmi  col Boss (lo Schinco) che con occhio di lince mi ha subito  beccato  la
+ nuova Speed. Insomma un'odissea. Ancor'oggi non sono sicuro di riuscire a col-
+ legarmi con qualcuno :) [NdE: io ho sempre delle brutte esperienze a collegar-
+ mi con questi modem... sono ancora ai ferri corti con uno Zyxel in quel di Bo-
+ logna].
+
+      Altra  notizia  e' che Gali 2.0 e' in fase finale  di  ultramegabetagamma
+ testing, e questa volta stanno spuntando gadget e menu (quindi aspettatevi  un
+ po'  di articoli sulla GUI tra poco :)). Marco Musso, un vero uomo, mi ha  ma-
+ trixato  chiedendomi consigli: "io leggo Telematicus" ha detto! Peccato che  i
+ consigli  che mi chiedeva erano gia' stati ampiamente trattati 3 numeri  prima
+ :) [NdE: non prendertela, sono in molti ad affermare che telematicus arriva in
+ forte ritardo. Cosi` questo mese ho deciso di cominciare io col ritardo :-)]
+
+      Ma  ora veniamo a noi. E delle comode routine per attendere con 0.0%  CPU
+ (Xoper)  che si verifichi un evento. Il tutto come visto nella puntata  prece-
+ dente sulla seriale puo' essere attaccato ad una maschera di eventi in modo da
+ riuscire ad uscire dal tempo di attesa con l'arrivo di un evento. (Lo dico an-
+ cora una volta: evento).
+
+      Il  Time e' gestito dalla solita device TIMER; bisogna quindi  aprirla  e
+ richiuderla prima di uscire. Ci sono varie funzioni che permettono grandi pre-
+ cisioni su tempi piccoli e viceversa. Quella che vi propongo non e' tanto pre-
+ cisa: e' influenzata dal carico del sistema; ma per le applicazioni piu' comu-
+ ni e' perfetta nonche' semplice.
+
+      La  sparo 'object oriented' nel senso che dovrebbe  essere  trasportabile
+ dentro qualsiasi applicazione:
+
+ #define T_VERSION       "1.0"
+ #define LIBVERSION      37L
+ #define MILLION         1000000
+
+ /* include */
+         #include <devices/timer.h>              /* il Timer */
+
+ /* prototipazione */
+         BOOL    Open_Timer(VOID);
+         BOOL    Close_Timer(VOID);
+         VOID    WaitTime(LONG Secs,LONG Micros);
+
+ /* struct of timer */
+         struct timerequest      *TimeRequest    = NULL;
+         struct MsgPort          *TimePort       = NULL;
+
+ BOOL Open_Timer(VOID)
+ /*****************************************************************************
+  apre tutto cio' che concerne il:
+          Timer Device
+ *****************************************************************************/
+ {
+         if(!(TimePort = (struct MsgPort *)CreateMsgPort()))
+                 return(FALSE);
+
+         if(!(TimeRequest = (struct timerequest*)
+                         CreateIORequest(TimePort,sizeof(struct timerequest))))
+                 return(FALSE);
+
+         if(OpenDevice("timer.device",UNIT_VBLANK,
+                                            (struct IORequest *)TimeRequest,0))
+                 return(FALSE);
+
+ }
+
+ BOOL Close_Timer(VOID)
+ /*****************************************************************************
+  Chiude tutto cio' che concerne il:
+          Timer Device
+ *****************************************************************************/
+ {
+         if(TimeRequest)
+         {
+                 /* controllo che sia stata aperta */
+                 if(TimeRequest -> tr_node . io_Device)
+                         CloseDevice((struct IORequest *)TimeRequest);
+
+                 if(TimeRequest -> tr_node . io_Message . mn_ReplyPort)
+                         DeleteMsgPort(
+                           TimeRequest -> tr_node . io_Message . mn_ReplyPort);
+
+                 DeleteIORequest(TimeRequest);
+         }
+
+         return (TRUE);
+ }
+
+ VOID WaitTime(LONG Secs,LONG Micros)
+ /*****************************************************************************
+  WaitTime(LONG Secs,LONG Micros):
+  Wait a given period of time.
+
+ *****************************************************************************/
+ {
+         TimeRequest -> tr_node . io_Command     = TR_ADDREQUEST;
+         TimeRequest -> tr_time . tv_secs        = Secs;
+         TimeRequest -> tr_time . tv_micro       = Micros;
+
+         DoIO((struct IORequest *)TimeRequest);
+ }
+
+ main()
+ /*****************************************************************************
+  Picolo main di prova pe sec e micro
+ *****************************************************************************/
+ {
+         if(OpenTimer())
+         {
+                 CloseTimer();
+                 exit(1);
+         }
+
+         WaitTime (0, MILLION/4);
+         WaitTime (1, 0);
+
+         CloseTimer();
+ }
+
+
+      Scusatemi i pochi commenti, ma il tutto lo trovo autoesplicativo. Ancora
+ una cosa: il sottoscritto non si e' minimamente sognato di provare a compilare
+ 'sta porcata, e potrebbe benissimo non funzionare (soprattutto per gli include
+ vari).  [NdE: ecco il Vero Programmatore che finalmente fa  capolino...]  Sono
+ sempre disponibilissimo in Matrix comunque.
+
+      P.S. se questa volta non riusciste a leggermi e' per colpa dell'alta  ve-
+ locita' :)
+
+                                                RRE
+                                                2:334/100.9
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                   IL GERGO HACKER - PARTE 15  ###
+ ############                                                               ###
+
+      <crudware> [crud = immondizia]: s. Termine peggiorativo per le  centinaia
+ di mega di <freeware> di scarsa qualita` che circolano da parte dei gruppi  di
+ utenti e dei BBS nel mondo dei micro-hobbysti. "Ancora *un'altra* raccolta  di
+ programmi  di  catalogazione  per l'<MS-DOS>? Che c.!"  Il  termine  correlato
+ `fuckware' e` usato per software cosi` schifoso che distrugge il disco, chiama
+ tutti i nodi nella Region, op combina un fiasco similare.
+
+      <cruft  together>  (anche `cruft up') [buttar giu`] vt.  Mettere  insieme
+ qualcosa di schifoso ma che funzioni temporaneamenre. Come <kluge up> ma  piu`
+ peggiorativo. "Non c'e` nessun programma al momento che inverta tutte le linee
+ di un file, ma probabilmente posso buttarne giu` uno in una decina di minuti".
+ V. <hack together>, <hack up>, <kluge up>, <crufty>.
+
+      <crufty>: /kruhf'tee/ [origine sconosciuta; poss. da `crusty' o `cruddy']
+ agg. 1. Costruito male, e magari ipercomplesso. L'esempio <canonical> e` "Que-
+ sto e` un c. software standard DEC". In effetti, una curiosa teoria  sull'ori-
+ gine di `crufty' lo vuole far derivare da `crusty' (crostoso) applicato a  del
+ software  DEC cosi` vecchio che i caratteri S erano alti e stretti, tanto  che
+ assomigliavano  a delle `f'. 2. (a volte scritto `cruftie') s. Un piccolo  og-
+ getto "crufty" (v. <frob>); spesso uno che non rientra bene nello schema delle
+ cose. "Una lista di proprieta` in LISP e` un buon posto per memorizzare c.".
+
+      <crumb>  [briciola]: s: due cifre binarie; un <quad>. Piu` grande che  un
+ <bit>, piu` piccolo di un <nybble>. Sin. <tayste>.
+
+      <crunch>  [masticare]:  1. vi. Processare, di solito in maniera  lunga  o
+ complicata. Denota un'operazione essenzialmente banale che nondimeno e` diffi-
+ cile da eseguire. La complicazione puo` essere dovuta al fatto che la  banali-
+ ta`  e` inclusa in un loop da 1 a 1.000.000.000 . "I programmi  FORTRAN  fanno
+ per  la maggior pare <number-crunching>". @. vt. Ridurre la dimensione  di  un
+ file  per mezzo di uno schema complicato che produce configurazioni  completa-
+ mente scorrelate coi dati originali, come con una codifica di Huffman. (Il fi-
+ le  finisce  ad assomigliare a un documento accartocciato). Visto  che  questa
+ compressione  di solito richiede piu` calcoli di di metodi piu` semplici  come
+ la run-length encoding, il termine e` doppiamente appropriato. Questo signifi-
+ cato e` di solito usato nella costruzione `file crunch(ing)' per  distinguerlo
+ dal `number crunch(ing)'. V. <compress>. 3. s. Il carattere `#'. Usato princi-
+ palmente  alla CMU e alla Xerox. V. <ASCII>. 4. vt. Ridurre il sorgente di  un
+ programma alla piu` piccola sua rappresentazione che puo` ancora essere compi-
+ lata  o eseguita. Il termine nacque specificatamente per un  famoso  programma
+ sui  BBC Acorn che riduceva i sorgenti BASIC per farli girare piu`  in  fretta
+ (il BASIC era brutalmente interpretato). I programmi che concorrono all'<Obfu-
+ scated C Contest> sono spesso c., vedi il primo esempio su tale voce.
+
+      <cruncha cruncha cruncha>: inter. Un incoraggiamento mormorato a volte ad
+ una macchina impegolata in un serio <grovel>. Descrive anche un suono onomato-
+ peico fatto da hardware in movimento. V. <wugga wugga>, <grind> (sign. #3).
+
+      <cryppie>  /krip'ee/  s. Un crittografatore. Chi mette  su  o  implementa
+ software o hardware crittografico.
+
+      <CTSS>: /see-tee-ess-ess/ s. Compatible Time-Sharing System [Sistema  T.-
+ S. compatibile]. Uno dei primi esperimenti (1963) nello sviluppare un  sistema
+ operativo a divisione di tempo. Citato perche` e` un antenato diretto di <Mul-
+ tics>, <UNIX>, e <ITS>. Il nome <ITS> ("Incompatible T.-s. System") e` nato da
+ CTSS, sia come scherzo che per esprimere alcune differenze di base nel modo in
+ cui i servizi di I/O dovrebbero essere presentati ai programmi utente.
+
+      <CTY>: /sit'ee/ or /see tee wie/ s. [MIT] Il terminale fisicamente  asso-
+ ciato alla <console> di un calcolatore. Il termine e` una contrazione di `Con-
+ sole  <tty>', cioe` `Console TeleTYpe'. Il termine e` ormai meno comune,  dato
+ che molti hacker UNIX si riferiscono al CTY semplicemente come `la console'.
+
+      <cube>: s. Un NeXT.
+
+      <cursor dipped in X> [cursore intinto in X]: fr. Esistono delle  metafore
+ nella  lingua comune della forma `penna intinta in X' (tipicamente X e`  `aci-
+ do', `bile' e `vetriolo'). Questo e` l'equivalente hacker (il cursore e` quel-
+ lo che si muove, lasciando le lettere dietro, quando si scrive).
+
+      <cuspy>:  /kuhs'pee/ [coniato dall'acronimo DEC CUSP, per  Commonly  Used
+ System Program, cioe` un'utility usata da molta gente] agg. 1. (di un program-
+ ma) Ben scritto. 2. Funzionalmente eccellente. Un programma che gira bene e si
+ interfaccia  bene con l'utente e` c. . V. <rude>. 3. [NYU] Detto di una  donna
+ attraente, specialmente se disponibile. Implica una certa curvosita`.
+
+      <cut a tape>: [poss. da `cut a check' - emettere un assegno - o da `cut a
+ record' - incidere un disco] vi. Mettere del software o un documento su nastro
+ per la distribuzione. Non ha nulla a che fare col tagliare fisicamente il mez-
+ zo!  Anche se questo uso e` comune, non si parla mai di `tagliare un disco'  o
+ qualunque altro supporto.
+
+      <cybercrud>: /sie'ber-kruhd/ [coniato da Ted Nelson: letteralm.  `immmon-
+ dizia  cibernetica']  s. Linguaggio tecnico offuscante, con  un  alto  fattore
+ <MEGO>. L'equivalente del burocratese.
+
+      <cyberpunk>:  /sie'ber-puhnk/ [orig. dallo scrittore di SF  Bruce  Bethke
+ e/o Gardner Dozois] s.,agg. Un sottogenere di SF lancianto nel 1982 dal  libro
+ di  William Gibson `Neuromancer' (anche se le sue radici  risalgono,  passando
+ per  `True  Names' di Vernor Vinge, (v. Appendice C) al racconto del  1975  di
+ John Brunner, `The Shockwave Rider'). L'ignoranza praticamente totale dei cal-
+ colatori e della attuale cultura hacker da parte di Gibson hanno fatto si` che
+ speculasse sul ruolo di calcolatori e hacker nel futuro in modi che gli hacker
+ hanno trovato allo stesso tempo irritantemente naif e tremendamente  stimolan-
+ ti. Il lavoro di Gibson e` stato ampiamente imitato, in particolare dalla  se-
+ rie  TV breve ma innovativa `Max Headroom' TV series. V. <cyberspace>,  <ice>,
+ <go flatline>.
+
+      <cyberspace>:  /sie'ber-spays/ [ciberspazio] s. 1. Uno `spazio delle  in-
+ formazioni' contenente segnali visibili e navigabile con interfacce  cerebrali
+ chiamate  `cyberspace  decks'; caratteristica del <cyberpunk> SF.  Al  momento
+ della  stesura di queste note (meta` 1991), si hanno seri sforzi di  costruire
+ interfacce  a  realta` virtuali (v. <virtual  reality>)  interfaces  modellate
+ esplicitamente  sul  c. gibsoniano, usando strumenti piu`  convenzionali  come
+ guanti con sensori e schermi TV binoculari. Pochi hacker negano decisamente la
+ possibilita` che dalla rete si evolva prima o poi un ciberspazio (v. <network,
+ the>). 2. Occasionalmente, la locazione metaforica della mente di una  persona
+ in <hack mode>. Alcuni hacker riportano di avere sperimentato strane  immagini
+ eidetiche durante l'hack mode; e` interessante notare che testimonianze  indi-
+ pendenti suggeriscono la presenza di alcune caratteristiche comuni. In  parti-
+ colare, i colori dominanti di questo c. soggettivo sono spesso grigio e argen-
+ to,  e le immagini contengono costellazioni di punti in  movimento,  elaborati
+ disegni di linee e angoli, o pattern di Moire`.
+
+      <cycle> [ciclo]: s. L'unita` di base di computazione. Quello di cui  ogni
+ hacker ne vorrebbe di piu`. Si potrebbe pensare che la misura di  computazione
+ siano le istruzioni macchina, e infatti spesso i calcolatori vengono comparati
+ rispetto  a quante istruzioni al secondo possono processare, ma alcune  istru-
+ zioni ci mettono piu` di altre. Pero` quasi tutti i calcolatori hanno un clock
+ interno,  e si puo` dire che un'instruzione impiega tot `cicli di  clock'.  In
+ genere il calcolatore puo` accedere alla memoria una volta per ciclo di  memo-
+ ria,  e percio` si parla anche di `cicli di memoria'. Questi sono  significati
+ tecnici  di c. . Il significato hacker derica dall'osservaione che ci sono  un
+ numero finito di cicli per secondo, e quando si e` in tanti su un calcolatore,
+ i cicli vengono divisi tra gli utenti. Piu` cicli il calcolatore passa a lavo-
+ rare  sul proprio programma piuttosto che su quello di un altro,  piu`  veloce
+ girera`.  Ecco  perche` ogni hacker vuole piu` cicli; per perdere  meno  tempo
+ aspettando che il calcolatore risponda.
+
+      <cycle  crunch>: n. La situazIone in cui il numero di persone  che  usano
+ simultaneamente il calcolatore ha raggiunto il punto dove nessuno puo` ottene-
+ re  abbastanza cicli perche` sono troppo divisi. Questo e` un inevitabile  ri-
+ sultato  della Legge di Parkinson applicata al timesharing. Di solito  l'unica
+ soluzione e` di comprare altri calcolatori. Fortunatamente, questo e` recente-
+ mente diventato sempre piu` facile, sicche` il termine c.c. ha ormai un  suono
+ arcaico,  dato che molti hacker usano attualmente workstation o  PC  piuttosto
+ che sistemi tradizionali.
+
+      <cycle  drought> [siccita` di cicli]: s. Scarsezza di cicli. Puo`  essere
+ dovuta a un <cycle crunch>, ma puo` anche occorrere perche` parte del calcola-
+ tore  non sta al momento funzionando, lasciando disponibili meno  cicli.  Es.:
+ "L'<high moby> e` <down>, e abbiamo quindi disponibile solo meta` della  memo-
+ ria. Ci sara` un c.d. finche` non sara` riparato."
+
+      <cycle  of reincarnation>: [coniato da Iven Sutherland c.1970: `ciclo  di
+ reincarnazione']  s. Termine usato nel riferirsi a un ben noto effetto in  cui
+ certe funzioni di una famiglia di sistemi di computazione vengono spostati  ad
+ un hardware periferico speciale per ragioni di velocita`, quindi le  periferi-
+ che  evolvono e aumentano la potenza di calcolo posseduta, infine qualcuno  si
+ accorge che e` inefficiente supportare due processori asimmetrici  nell'archi-
+ tettura,  e compatta tutte le funzioni nella CPU principale, al che  il  ciclo
+ ricomincia. Diverse iterazioni del ciclo sono state osservate nel progetto dei
+ processori  grafici, cosi` come uno o due nei processori per  comunicazioni  e
+ nei chip floating-point. Noto anche come `la Ruota della Vita' o `la Ruota  di
+ Samsara'  (`the  Wheel of Life', `the Wheel of Samsara'), e  altre  variazioni
+ dell'idea teologica indu`/buddista di base.
+
+      <cycle server>: s. Una potente macchina che serve unicamente a fare gira-
+ re grandi job batch. Implica che i task interattivi come l'editing sono  fatti
+ su altre macchine della rete, come le workstations.
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                              NOTIZIE FIDONET  ###
+ ############                                                               ###
+
+      Cominciamo con una notizia di carattere generale: e' ufficialmente linka-
+ bile l'are AIR.ITA, dedicata al RadioAscolto, in collaborazione con l'Associa-
+ zione Italiana RadioAscolto. Modera Lorenzo Travaglio.
+      Se  non  sapete  che cosa e` l'AIR, andate a spulciarvi  la  raccolta  di
+ telematicus  che  sicuramente avrete su disco (vero?) e leggete  cosa  Loranzo
+ aveva scritto in proposito...
+
+
+
+                     *** net 331 ***                            
+
+      Non c'e' molto da segnalare per quanto concerne il net 331, negli  ultimi
+ tempi, a parte l'ingresso in nodelist di alcuni nuovi nodi:
+
+ 331/329  Blade Runner (Pieve Emanuele, MI)  di Marco Vernetti   02-90781400)
+ 331/211  Jamboree     (Colzate, BG)         di Andrea Baitelli  035-720537
+ 331/116  Anthea       (Vaprio d'Agogna, NO) di Paolo Agazzone   0321-996456
+
+      Due  entry appaiono per la prima volta in nodelist per altrettante  nuove
+ linee di nodi gia' esistenti:
+
+ 331/117  Sky Link #2  (Malgesso VA)         di Luca Spada       0332-706739
+          (seconda linea del 331/106)
+
+ 331/118  DB-Line #2   (Biandronno VA)       di Luca Spada       0332-767329
+          (seconda linea del 331/110)
+
+      La notizia piu' interessante riguarda la recente creazione di alcune nuo-
+ ve  aree  echomail,  per ora limitate all'ambito del 331  ma  suscettibili  di
+ espansione su scala nazionale, se dovessero riscontrare i favori degli utenti:
+
+ HIFI.331       (dedicata all'alta' fedelta')
+ ACQUARI.331    (dedicata a pesci ed acquari)
+ WE_DOCTORS.331 (dedicata allo scambio di msg. tra medici)
+
+      E' inoltre ancora in fase embrionale una nuova area che prendera' il nome
+ 1MANO.331, affiancandosi alla 2MANO.ITA. Lo scopo dell'area e' offrire ai com-
+ mercianti, ai rivenditori di materiale di ogni genere e (piu' generalmente)  a
+ chi offre servizi a pagamento la possibilita' di pubblicizzare le proprie ini-
+ ziative senza ricorrere alla 2MANO.ITA. E' abbastanza noto come molto del  ma-
+ teriale spacciato come usato nelle aree 2MANO sia in realta' nuovo,  propagan-
+ dato  da rivenditori con pochi scrupoli che ricorrono a questi trucchetti  per
+ propagandare le proprie offerte.
+
+      La neonata area 1MANO.331 rappresenta un esperimento mirato a  conseguire
+ un  duplice scopo: disciplinare e limitare la diffusione di msg.  speculativi,
+ dirottandoli dalla 2MANO in un'area piu' appropriata, e (teoricamente) fornire
+ a  sysop  ed  utenti un servizio utile di  informazioni  commerciali,  facendo
+ conoscere le proposte piu' interessanti e vantaggiose.
+
+      La creazione dell'area 1MANO.331 ha generato (ed e' tuttora fonte di) nu-
+ merose  polemiche e discussioni tra i sysop del net, alcuni dei quali  decisa-
+ mente contrari a quello che ritengono uno sfruttamento commerciale della rete.
+ Tuttavia  la policy e' piuttosto aperta sull'argomento: il  traffico  definito
+ "commerciale"  infatti non e' vietato dalla policy Fidonet in vigore. Al  con-
+ trario, e' detto chiaramente che e' consentito a patto che non sia "host  rou-
+ ted"  e che abbia luogo solo tra nodi che hanno dato espresso consenso al  suo
+ transito.
+
+      Per questo motivo e' stato indetto un referendum tra i sysop del net, per
+ verificare quali fossero disposti ad aprire l'area 1MANO.331 ed per stabilire,
+ eventualmente, una route alternativa apposita che coinvolgesse nell'iniziativa
+ i  soli nodi interessati. Tutti i backbone echo del 331 si sono dimostrati  in
+ linea  di massima contrari a rendere disponibile l'area ai propri  utenti,  ma
+ favorevoli  a  farla transitare in "Passthru" per i nodi a  loro  linkati  che
+ eventualmente desiderassero riceverla.
+
+      I primi risultati di questa iniziativa, abbastanza rivoluzionaria e senza
+ precedenti  in ambito Fidonet, li vedremo tra qualche settimana.  Al  prossimo
+ numero di Telematicus dunque...
+
+                                        Ciao,
+                                       --Vert--
+                                       (NEC 331)
+
+
+
+
+                     *** net 332 ***
+      A larghissima maggioranza e` stato eletto il nuovo NC (Net  Coordinator),
+ che poi e` il vecchio, visto che l'incarico e` rimasto nelle (capaci) mani  di
+ Franco Mulato. Alta la... affluenza alle urne: nonostante una strisciante  op-
+ posizione  all'uso del votemanager, i votanti sono stati ben 51. Questi i  ri-
+ sultati:
+
+     Franco Mulato     37 voti
+     Mario Battacchi    6 voti
+     Andrea Mennini     4 voti
+     Vincenzo Ninci     3 voti
+     bianco             1 voto
+
+      Sono state aperte tre nuove aree messaggi: la prima (in ordine  alfabeti-
+ co),  e' la HI-FI.332, moderata da Fabrizio Sainati, dedicata all'alta  fedel-
+ ta';  la  seconda e` la SF.332 (moderatore Paolo Bertoni) che,  dedicata  alla
+ fantascienza,  costituisce un allargamento di una  conferenza  gia`  esistente
+ nell'hub  500; e infine la controversa WAR.332,  voluta e moderata da  Stefano
+ Costa: e` dedicata alla strategie di guerra ed alle tecniche di combattimento.
+ Queste  tre aree sono aperte in "via sperimentale", il che <<significa che  le
+ teniamo aperte tre mesi e che a fine Agosto, sulla base delle statistiche  cu-
+ rate dall'ottimo Bigagli, quelle con traffico molto scarso (diciamo meno di 10
+ msg/mese... esclusi quelli del moderatore ;-)) verranno chiuse.>> (M.Mure`).
+      Facile  immaginare che ilCosta, non appena ha letto "esclusi  quelli  del
+ moderatore" abbia fatto un bel salto sulla sedia. :-)
+
+      Per  tre  aree  che aprono ce n'e` una che chiude:  il  moderatore  della
+ WIN_PROF.332  ha  richiesto la chiusura dell'area a causa del  poco  traffico;
+ Mario Mure` si e` trovato d'accordo e l'area e` stata chiusa, dichiarando fal-
+ lito (per ora) l'esperimento. Forse i tempi non sono maturi per una conferenza
+ dedicata allo sviluppo sotto Windows....
+
+                                         Giovanni  Lopes
+                                           2:332/108.2
+
+
+
+                     *** net 334 ***
+
+      Cominciamo con le buone notizie: e` nato un nuovo nodo, il 334/309, nella
+ Provincia  Granda  (che poi sarebbe Cuneo, per quelli  che  leggono  solamente
+ Cuore). Il sistema si chiama CN_BBS, il suo sysop, Gigi Delfino, ha scritto
+
+           "Inizialmente il discorso di CN_BBS e' nato per scherzo e oggi inve-
+      ce  diventa  una vera e propria ossessione. Non abbiamo molti  utenti,  e
+      forse questo e' uno dei motivi che ci spinge ad aver voglia di entrare  a
+      far parte di FIDO_NET proprio per avere un CAOS maggiore !!!!!!!!!  Bello
+      eh ?
+
+      CN_BBS e' basata su un PC386 con un modem datatronics Discovery 9632AM ed
+ e'  operante dalle 20.00 alle 08.30 di tutti i giorni sponsorizzata da  STUDIO
+ SOFTWARE  che e' una system house del cuneese che produce hardware e  software
+ MS-DOS/UNIX. I dati tecnici: 
+
+      Tel. 39-171-65504
+      Sysop     Gigi Delfino
+      Co-Sysop  Francesco Armando
+      Orario (attuale) dalle 19.30 alle 08.30
+      da 300 a 9600bps XA,V32,MNP,V42,XX
+
+ -----------
+
+      Grandi summovimenti infine nella struttura del net (e fortuna che siamo i
+ piu` piccoli). Ecco il comunicato di Franco Carcillo:
+
+      A  seguito dell'incontro del 25/5 tra i SysOp del Net saranno  attuati  i
+ seguenti provvedimenti:
+
+ a) backBone Nazionale
+      - entro il 15/6 p.v. il BackBone per le aree echo nazionali sara' trasfe-
+ rito dall'attuale 334/0 ad un nodo apposito 334/800 avente funzioni  esclusive
+ di import/export delle aree nazionali verso il feeder 331/101
+      - il nodo 334/800, gestito su una linea telefonica della Contur di  Mimmo
+ Cristofaro, sara' a condivisione dei costi, ovvero la relativa bolletta  tele-
+ fonica (con documentazione del traffico teleselettivo) sara' PAGATA da TUTTI i
+ nodi del net che ricevono echomail (previsti 20/30.000 a bimestre al massimo)
+      - in una prima fase la condivisione dei costi avverra' dividendo  sempli-
+ cemente il totale per il numero dei nodi, sara' comunque studiato, ove  conve-
+ niente,  un sistema di condivisione legato al numero di messaggi o di Kb  tra-
+ sferiti per nodo
+      - le modalita' per la raccolta del denaro e per l'eventuale anticipo  sa-
+ ranno rese note appena sara' attivo il nuovo sistema
+
+ b) Network coordinator
+      Congiuntamente all'operazione di cui sopra il coordinamento del NET  (NC)
+ passera',  su mia designazione approvata dai presenti, a Franco  Schinco,  che
+ assumera' quindi l'indirizzo 334/0; gestione della nodelist 334 e del traffico
+ matrix  routed sono, lo ricordo, i principali compiti dell' NC. L'incarico  di
+ NEC, Network Echomail coordinator, rimane a F.Schinco.
+
+ c) HUB 300
+      Gialli  restera' in nodelist, come nodo terminale, abbandonando il  ruolo
+ di HUB. Il nuovo HUB sara' LordDrake, gia' 334/102.
+
+ d) FidoTorino
+      Anche  FidoTorino, dopo quasi 5 anni di ininterrotto coordinamento  e  di
+ backbone  nazionale, sara' un semplice nodo terminale.  Manterra'  l'indirizzo
+ 334/1, mentre l'attuale 334/0 assume 33/0 come primary.
+
+ e) TamTam
+      Nulla cambia per TamTam e per gli incontri mensile del primo lunedi'.
+
+                               Franco Carcillo
+                               2:33/0
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:   
+
+ 334/100 - 011-3299706     | 334/1   - 011-5765565     | 331/112 - 0341-360511
+ 333/603 - 040-3783111
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/0   - 011-5765568     | 334/306 - 0121-542795     | 335/210 - 081-5709527
+ 335/405 - 06-315323     
+
+
+
+
+####                            End of TELEM018                            ####

@@ -1,0 +1,516 @@
+
+    *****   Vol.  1   *****         Pag.  1        *****   Numero   0   *****
+
+    #########################################################################
+
+    @@@@@@ @@@@@@ @@    @@@@@@ @@    @@   @@@  @@@@@@ @@  @@@@@ @@  @@  @@@@@
+      @@   @@     @@    @@     @@@@@@@@  @@ @@   @@   @@ @@     @@  @@ @@
+      @@   @@@@   @@    @@@@   @@ @@ @@ @@   @@  @@   @@ @@     @@  @@  @@@@
+      @@   @@     @@    @@     @@    @@ @@@@@@@  @@   @@ @@     @@  @@     @@
+      @@   @@@@@@ @@@@@ @@@@@@ @@    @@ @@   @@  @@   @@  @@@@@  @@@@  @@@@@
+
+    #########################################################################
+
+         Bollettino telematico mensile a cura del network 2:334 - Fidonet 
+
+                      Editor:  .   .   .  Maurizio Codogno
+                      Editor emeritus: .  Franco Carcillo
+                      Collaboratori:   .  Tutti voi :-)
+
+    -------------------------------------------------------------------------
+
+                           IN   QUESTO   NUMERO :
+
+    Presentazione, di Franco Carcillo  .   .   .   .   .   .   .   .  pag.  2
+    Editoriale, di Maurizio Codogno    .   .   .   .   .   .   .   .  pag.  3
+    Che cos'e` ... ITAPAC  .   .   .   .   .   .   .   .   .   .   .  pag.  4
+    Il programmino     .   .   .   .   .   .   .   .   .   .   .   .  pag.  5
+    Curiosita` : gli acronimi  .   .   .   .   .   .   .   .   .   .  pag.  7
+    Feedback utenti    .   .   .   .   .   .   .   .   .   .   .   .  pag.  8
+    Novita` nel net 334    .   .   .   .   .   .   .   .   .   .   .  pag.  9
+    Il prossimo numero .   .   .   .   .   .   .   .   .   .   .   .  pag. 10
+
+    #########################################################################
+
+         Il  materiale presente in Telematicus e` (C) dei singoli autori.  E` 
+    espressamente consentita la distribuzione e il riutilizzo del  bollettino 
+    in  tutto  o in parte, purche` non a fini di lucro e  citando  sempre  la 
+    fonte di provenienza. 
+
+    *****   Vol.  1   *****         Pag.  2         *****   Numero  0   *****
+
+                           #####  TELEMATICUS  #####
+    .........................................................................
+
+
+                                                         -----> PRESENTAZIONE 
+                                                                =============
+         Telematicus? Si`! Grazie.
+
+         Di telematica, parola usatissima di questi tempi, si blatera moltis-
+    simo  e  spesso  in  modo  criptico  ed inconsulto, ma ben poco si fa per
+    divulgare e spiegare, almeno in parte, che portata ha o potra`  avere  la
+    comunicazione telematica.
+         D'altronde  in  Italia  siamo  agli  albori in assoluto, complice un
+    gestore pubblico che operando in puro monopolio  si  puo`  permettere  di
+    essere  ampiamente  ignorante in materia: investe miliardi in un servizio
+    pubblico (il Videotel) che oggi,  rispetto  a quanto  ha ingoiato,  e` in
+    situazione penosa.
+         Parlare  di  telematica amatoriale allora potrebbe suonar strano: le
+    linee SIP vanno a 14.400 bps?  si chiedono stupiti in  SIP,  ammesso  che
+    comprendano cosa si sta loro illustrando; le BBS, cosa sono? 
+         Eppure se un mercato si e` sviluppato (quello dei modem) con miglia-
+    ia  di  apparecchi  illegali,  ma perfettamente funzionanti,  liberamente
+    importati e venduti, qualcosa si deve pur essere mosso.
+         Il manipolo di pionieri (i SysOp) dei servizi telematici amatoriali,
+    seppur  snobbato,  e` stato uno dei motori fondamentali,  che ha diffuso,
+    realmente, l'uso di strumenti telematici. Certo non e` il caso di "santi-
+    ficarli", hanno avuto un facile alleato: l'utente.
+         Tipo di natura curioso,  pieno di domande, predisposto, certo, verso
+    l'uso  di  personal e software, sempre alla ricerca di giochi e programmi
+    (che spesso usa per 5 secondi e  archivia!),  con  un  grande  bisogno di
+    "comunicare", di scambiare esperienze, usando proprio lo strumento che lo
+    ha coinvolto, spesso persin troppo pesantemente.
+         E poiche`  "piu` si e`, piu` ci  si diverte"  ecco  che la voglia di
+    diffondere  l'uso  (e l'abuso?)  della  comunicazione  telematica vede un
+    eterno sognatore (il Mau) proporre con l'entusiasmo che lo contraddistin-
+    gue TELEMATICUS. 
+         L'uomo sara` "Telematicus",  ne sono certo:  oggi siamo degli Icari,
+    ma Armstrong  non e` stato  forse suo  figlio,  in fondo?  Oggi usiamo la
+    cera, oh! come vorremmo esserci nei giorni del LEM: ma ci tocca sognare!.
+         Ecco dunque, con questa fiducia,  ma ben conoscendo cosa ci passa il
+    convento cosa augurare a Maurizio? Buon lavoro, ovvio!
+
+                       Franco Carcillo
+
+    *****   Vol.  1   *****         Pag.  3         *****   Numero  0   *****
+
+                           #####  TELEMATICUS  #####
+    .........................................................................
+
+
+
+                                                            -----> EDITORIALE
+                                                                   ==========
+
+         Bene,  questo  che  vedete sul vostro terminale  -  o  l'avete  gia` 
+    stampato?  -  e`  il numero zero di Telematicus.  Il  sottotitolo  recita 
+    pomposamente  "Bollettino  telematico mensile a cura  del  network  2:334 
+    Fidonet", ma la realta` e` molto piu` terra terra.
+         Quello  che  Telematicus  vorrebbe  essere  e`  un  periodico  sulla 
+    falsariga  delle  newsletters americane: tanti amici  con  un  passatempo 
+    comune, la telematica, che chiacchierano tra di loro. Questo numero  zero 
+    e` piu` che altro una scommessa, un sasso buttato nella pozzanghera della 
+    telematica  torinese  per  vedere se si sente  il  bisogno  di  "sentirsi 
+    gruppo" oppure se il motivo principale dei collegamenti e`  semplicemente 
+    la  ricerca di software o la curiosita` nel vedere le schermate  grafiche 
+    sempre piu` belle costate ore di fatica ai sysop.
+         Nel  nostro  caso, la grafica e` completamente bandita:  abbiamo  un 
+    file  di  testo ASCII a 7 bit, che puo` essere letto e stampato  da  ogni 
+    calcolatore. L'accento vorrebbe essere posto sui contenuti, almeno in  un 
+    primo  tempo.  E  i  contenuti possono essere di  ogni  tipo,  posto  che 
+    riescano  a  venire scritti in maniera elettronica e non  siano  ad  alta 
+    deperibilita`:  capite  anche voi che una periodicita` se tutto  va  bene 
+    mensile non e` compatibile collo scrivere "domani ci sara` una festa alla 
+    discoteca XXZ"...
+         Per questo  numero  zero avete gia` visto la presentazione di Franco
+    Carcillo,  il  nume  tutelare  della  telematica  piemontese  (e  italia-
+    na...),  che benevolmente da` la  sua  benedizione  all'improba  impresa.
+    Grazie, Franco, grazie!!! Come faremo senza di te?  Superato anche questo 
+    tentativo di editoriale, il palinsesto prosegue con una chiacchierata  su 
+    Itapac tratta dalla conferenza Echo Fidonet dedicata alle  comunicazioni. 
+    Questo ridistribuire informazioni da Fidonet sara` una caratteristica  di 
+    Telematicus:  spesso  la  quantita` delle  aree  echo  rende  impossibile 
+    seguirle  tutte  e certi argomenti possono venire persi. La  sezione  "Il 
+    programmino" conterra` il sorgente di un miniprogramma piu` o meno  utile 
+    o divertente, gia` bello pronto in forma elettronica da compilare. Un bel 
+    vantaggio rispetto ai programmi che si trovano nelle riviste, no?  Questa 
+    volta  si tratta di un disegnatore di foglie frattali. Segue  la  rubrica 
+    "Curiosita`",  dedicata  agli acronimi, quelle sigle che  ogni  tanto  si 
+    vedono  nei messaggi Fidonet e che sembrano lasciate apposta per  evitare 
+    alla  gente  di capirci qualcosa. Ma questa volta  avrete  la  traduzione 
+    anche di quelle che non avreste mai pensato potessero esistere...
+         La  rubrica  "Feedback  Utenti" sarebbe dedicata  alle  domande  dei 
+    lettori. Per questa volta, non essendoci ancora domande, ho preparato  un 
+    questionario.  Ovviamente  a me non interessa il  vostro  nome  indirizzo 
+    telefono numero-di-scarpe cibo-preferito, quanto piuttosto sapere cosa vi 
+    piacerebbe   avere  da  Telematicus.  Infine  le  Novita`  nel  Net   334 
+    racconteranno  in breve cosa succede nei BBS piemontesi, o almeno  quello 
+    che puo` essere detto. Sapeste cosa capita spesso dietro le quinte...
+         Questo  e` quanto. Sperando che il tutto sia di  vostro  gradimento, 
+    buona lettura a tutti!
+                                 .mau.
+
+    *****   Vol.  1   *****         Pag.  4         *****   Numero  0   *****
+
+                           #####  TELEMATICUS  #####
+    .........................................................................
+
+
+
+                                             ----->  UNO SGUARDO SU... ITAPAC
+                                                     ========================
+
+         Come  detto  nell'editoriale,  eccovi una  breve  chiacchierata  che 
+    spiega  le caratteristiche di ITAPAC, tratta da un messaggio  Fidonet  di 
+    Massimo  Vitali,  point  di  Fido  Milano  (331/302.7),  gia`  moderatore 
+    dell'area MS-DOS e vero esperto nel campo. Buona lettura!
+          
+         In  due parole: Itapac e' una PSDN (Packet Switching Data  Network), 
+    cioe'  una rete in cui la trasmissione viene fatta impacchettando i  dati 
+    secondo  opportuni  criteri  standardizzati e spedendo  il  pacchetto  al 
+    destinatario.
+         Ogni terminale o elaboratore collegato alla rete (DTE, Data Terminal 
+    Equipment)  stabilisce al momento della chiamata una  connessione  logica 
+    con il proprio corrispondente e scambia con questo i dati sotto forma  di 
+    pacchetti.   Le  funzioni  di  indirizzamento  dei  pacchetti  verso   il 
+    destinatario  corretto  sono  totalmente a carico della  rete,  e  quindi 
+    completamente trasparenti all'utente una volta che questo ha stabilito la 
+    connessione.
+         La  rete  e'  costituita  da una serie di  Nodi  a  Commutazione  di 
+    Pacchetto (NCP), con funzioni di transito, collegati fra loro con  canali 
+    ad  alta  velocita', e da un insieme di punti di  ingresso  per  l'utenza 
+    chiamati  CLP  (Commutatori  Locali  di  Pacchetto)  e  ACP   (Adattatori 
+    Concentratori  di Pacchetto). I CLP sono i punti di ingresso per i DTE  a 
+    pacchetto,  cioe' i DTE che sono in grado di assemblare  e  disassemblare 
+    autonomamente  i  pacchetti contenenti i dati. Gli ACP,  invece,  sono  i 
+    punti  di ingresso per i DTE a carattere, cioe' i DTE che non lavorano  a 
+    pacchetto  ma  semplicemente spedendo e ricevendo caratteri  singoli.  In 
+    questo   caso   l'ACP  effettua  le  funzioni   di   impacchettamento   e 
+    spacchettamento  dei  dati,  permettendo  cosi'  anche  ad  un   semplice 
+    terminale asincrono di colloquiare con la rete a pacchetto.
+         I  vari DTE (che in parole povere sono i terminali  e/o  elaboratori 
+    dell'utente di Itapac) colloquiano con i CLP e con gli ACP secondo alcune 
+    raccomandazioni del CCITT, chiamate rispettivamente X.25 e X.28.
+         L'accesso a Itapac puo' essere effettuato sia in modalita'  dedicata 
+    (cioe'  con  una  linea riservata che collega  il  DTE  dell'utente  alla 
+    centrale   Itapac  piu'  vicina)  sia  in  modalita'   commutata   (cioe' 
+    effettuando  una  normale  chiamata telefonica).  A  una  linea  dedicata 
+    possono  essere  connessi  sia DTE X.25 (a pacchetto)  che  DTE  X.28  (a 
+    carattere),  mentre ad una linea commutata possono essere  connessi  solo 
+    DTE X.28 in grado di fare solo chiamate uscenti.
+         Ogni DTE connesso alla rete con linea dedicata e' identificato da un 
+    indirizzo univoco chiamato NUA (Network User Address), che e' piu' o meno 
+    l'equivalente del numero telefonico per gli abbonati al telefono:  quando 
+    voglio stabilire la comunicazione con un certo DTE, spedisco alla rete un 
+    pacchetto di chiamata contenente il NUA del destinatario. La rete crea un 
+    canale  logico di comunicazione fra chiamante e chiamato, canale  su  cui 
+    poi  viaggiano i pacchetti che i due DTE si scambiano. I NUA  della  rete 
+    Itapac  sono numeri di 8 cifre che iniziano per 2, seguito  dal  prefisso 
+    teleselettivo della citta' ove ha sede l'ACP o CLP a cui e' collegato  il 
+    DTE: ad esempio i NUA di Milano iniziano tutti con 22, quelli di Roma con 
+    26,  quelli  di Torino con 211, e cosi' via. Un NUA puo'  essere  seguito 
+
+    *****   Vol.  1   *****         Pag.  5         *****   Numero  0   *****
+
+                           #####  TELEMATICUS  #####
+    .........................................................................
+
+    opzionalmente da 1 a 3 cifre che costituiscono il Subaddress, e che  sono 
+    a  disposizione del DTE chiamato per reindirizzare la chiamata su di  una 
+    certa  destinazione.  Ad esempio, un certo DTE con il NUA  22600001  puo' 
+    utilizzare  i  due  subaddress 100 e 200  per  identificare  due  diversi 
+    servizi a cui l'utente si puo' connettere: l'utente utilizzera' cosi'  il 
+    NUA 22600001100 per collegarsi al primo servizio e il NUA 22600001200 per 
+    collegarsi  al secondo servizio, ma il DTE chiamato e' sempre  lo  stesso 
+    (22600001).
+         L'accesso  ad  Itapac  e' soggetto  a  tariffazione  secondo  alcuni 
+    parametri, principalmente il tempo di connessione e il numero di segmenti 
+    trasmessi e/o ricevuti dal DTE che fa la chiamata. L'accesso X.25 e  X.28 
+    dedicato   non  e'  protetto  da  password,  poiche'  tale   collegamento 
+    presuppone  una linea diretta fra l'utente e la centrale Itapac,  e  tale 
+    linea  e' ovviamente a disposizione solo di quell'utente. L'accesso  X.28 
+    commutato, invece, essendo effettuato da una normale linea telefonica, e' 
+    protetto  da  password.  L'utente  interessato  ad  accedere  ad   Itapac 
+    attraverso  la linea telefonica commutata riceve quindi una password  che 
+    lo  identifica  alla  rete e che viene utilizzata per  gli  addebiti  che 
+    normalmente vengono effettuati su base bimestrale sulla normale  bolletta 
+    telefonica dell'utente.
+         La  rete  poi fornisce vari tipi di prestazione:  oltre  all'accesso 
+    descritto  prima,  permette la connessione permanente fra due  DTE  (PVC, 
+    utile quando il tempo di connessione fra i due DTE e' molto elevato),  la 
+    chiamata  con addebito a carico del destinatario (Reverse  Charging),  la 
+    chiamata  non identificata (attraverso la quale chiunque  puo'  chiamare, 
+    senza  sottoscrivere  alcun abbonamento, un DTE che accetta  chiamate  in 
+    Reverse Charging), i Gruppi Chiusi d'Utenza (CUG), e parecchie altre.
+         Attualmente,  le connessioni attraverso linea commutata  o  dedicata 
+    X.28 sono disponibili all'utenza solo alla velocita' di 300 bit/s e  1200 
+    bit/s,  mentre le connessioni X.25 su linea dedicata sono disponibili  da 
+    2400 bit/s a 64000 bit/s.
+
+
+
+
+                                                        -----> IL PROGRAMMINO
+                                                               ==============
+
+
+         Lasciamo la parola a Paolo Marincola, point di ZeusBBS (335/331.10).
+
+         Vi  riporto  un  breve  programmino  per  Microsoft  C   (facilmente 
+    trasportabile  sotto  altri  compilatori) che disegna  una  bella  foglia 
+    frattale. L'algoritmo e' adattato dalle Communications of ACM, July 1990, 
+    p.  23;  potete  provare  a giocare sui valori  di  alcune  costanti  del 
+    programma per modificare il disegnino che ne viene fuori.
+
+    *****   Vol.  1   *****         Pag.  6         *****   Numero  0   *****
+
+                           #####  TELEMATICUS  #####
+    .........................................................................
+
+         #include <stdio.h>
+         #include <stdlib.h>
+         #include <graph.h>
+
+         int b [100];
+         int n, x, y, z, newx, newy;
+         int a [4][3][4] = {
+             0,   0,  0,  0,      0,  20,  0,  0,      0,   0,  0,  0,
+            85,   0,  0,  0,      0,  85, 11, 70,      0, -10, 85,  0,
+            31, -41,  0,  0,     10,  21,  0, 21,      0,   0, 30,  0,
+           -29,  40,  0,  0,     10,  19,  0, 56,      0,   0, 30,  0,
+           };
+
+         main ()
+           {
+           register int k;
+
+           /* Modalita' grafica EGA 640x350, 16 colori */
+           _setvideomode (_ERESCOLOR);
+
+           /* Colore verde */
+           _setcolor (10);
+
+           /* Equivalente a RANDOMIZE. Valido solo per PC-IBM compatibili */
+           srand (* (int far *) 0x46C);
+
+           while (! kbhit ()) {
+
+             for (k = 0; k < 100; k++)
+               if ((b [k] = rand () % 10) > 3) b[k] = 1;
+
+             for (k = 0; k < 100; k++) {
+               newx = ( a[b[k]][0][0] * x + a[b[k]][0][1] * y +
+                        a[b[k]][0][2] * z) / 100 + a[b[k]][0][3];
+               newy = ( a[b[k]][1][0] * x + a[b[k]][1][1] * y +
+                        a[b[k]][1][2] * z) / 100 + a[b[k]][1][3];
+               z = ( a[b[k]][2][0] * x + a[b[k]][2][1] * y +
+                     a[b[k]][2][2] * z) / 100 + a[b[k]][2][3];
+               x = newx, y = newy;
+
+               /* Disegna il punto di date coordinate */
+               _setpixel (320 - x + z, 350 - y);
+               }
+             }
+           while (kbhit ()) getch ();
+
+           /* Torna alla modalita' video di default */
+           _setvideomode (_DEFAULTMODE);
+           }
+
+    *****   Vol.  1   *****         Pag.  7         *****   Numero  0   *****
+
+                           #####  TELEMATICUS  #####
+    .........................................................................
+
+
+
+                                              -----> CURIOSITA`: GLI ACRONIMI
+                                                     ========================
+
+         Questo  file  arriva direttamente  dalla  conferenza  internazionale 
+    sulla  fantascienza.  Alcune  di queste sigle non sono  acronimi  veri  e 
+    propri, altre sono sicuramente state sognate di notte da qualcuno che non 
+    aveva  nulla di meglio da fare, comunque eccovele qua, e non  lamentatevi 
+    per le mie traduzioni piuttosto libere....
+
+    AFAIK: As Far As I Know [per quanto ne so].
+    AKA: Also Known As [noto anche come]. 
+    APA: Amateur Press Association. [Associazione dilettante stampa]. Tipo un 
+       BBS,  con  la differenza che ogni membro scrive i suoi commenti  e  li 
+       spedisce all'Editor Ufficiale che li raccoglie tutti e distribuisce le 
+       copie stampate ai membri.
+    AWGTHTGTTA?: Are We Going To Have To Go Through This Again? [dobbiamo  di 
+       nuovo riparlare di questa roba?] Una forma alternativa e`  AWGTHTGTATA  
+       [... di TUTTA questa roba?].
+    BNF: Big Name Fan [appassionato di gran nome].
+    BTW: By The Way [.tra l'altro].
+    DUFF e  TAFF: Rispettivamente il Down Under Fan Fund [fondo  appassionati 
+       sotterraneo]  e  il  Trans  Atlantic  Fan  Fund  [fondo   appassionati 
+       transatlantico] (fondi per importare sabbie mobili da utilizzare nelle 
+       conventions  SF). Alle volte si suggerisce anche un Mid  Atlantic  Fan 
+       Fund [fondo appassionati in mezzo all'Atlantico]... FBT: Frigging Blue 
+       Turtleoid [maledette tartarugoidi blu]. Si riferisce alle  gigantesche 
+       tartarugle  blu a sei gambe con diverse persone legate  sul  carapace, 
+       che  appaiono nella copertina del libro di John DeChancie  [autore  SF 
+       americano  che  scrive  anche nella conferenza  in  questione]  CASTLE 
+       KIDNAPPED, ma di cui non c'e' traccia all'interno del libro...
+    FIAWOL: Fandom Is A Way Of Life [il fandom e` un modo di vita].
+    FIJASOI:  Fandom  is  Just  Another  Source  of  Income  [il  fandom   e` 
+       semplicemente un'altra fonte di reddito]. 
+    FITB : Fill In The Blank.... [riempite gli spazi...].
+    FYI: For Your Information [per vostra informazione].
+    GAFIA: Get Away From It All [via da tutto questo].
+    GIWIST: Gee I Wish I'd Said That [wow! mi piacerebbe avelo detto io].
+    IITYWIMWYBMAD: If I tell you what it means, will you buy me a drink?  [se 
+       ti dico cosa significa, mi offri da bere?].
+    IMHO: In My Humble Opinion [secondo la mia umile opinione]. Anche IMNSHO: 
+       In  My Not-So Humble [nella mia opinione non cosi` umile] e IMOBO:  In 
+       My Own Biased Opinion [nel mio pregiudizio].
+    INPO: In No Particular Order [senza ordine particolare].
+    LASFS: La Los Angeles Science Fantasy Society [Societa`  fantascientifica 
+       losangeliana],  la piu` antica di tradizione ininterrotta  nel  mondo. 
+       Fondata  il  27  ottobre  1934, ha  iniziato  una  serie  di  riunioni 
+       settimanali  il giovedi` nel 1939, e da allora non si sono mai  inter-
+       rotte, nemmeno il giorno del Ringraziamento. Si trova al 11513 Burbank 
+       Blvd., N. Hollywood, CA  91601 - telefono 001 (818) 760-9234.
+    LLTA: Lots  and  Lots  of Thunderous (or Thundering)  Applause  [  enormi 
+       quantita` di tuonanti applausi].
+    LOL: Laughing Out Loud [risata ad alta voce]
+
+    *****   Vol.  1   *****         Pag.  8         *****   Numero  0   *****
+
+                           #####  TELEMATICUS  #####
+    .........................................................................
+
+    NASFiC:  North  American  Science  Fiction  Convention  [  Convention  SF 
+       nordamericana] (nota anche come North AmeriCon)
+    OOTC: Obligatory On Topic Comment [commento obbligatorio sull'argomento].
+    POV: Point Of View [punto di vista].
+    ROFLASTC!  (or ROFLASC!): Rolling On The Floor Laughing And  Scaring  The 
+       Cat [rotolare sul pavimento per le risate spaventando il gatto].  Nato 
+       da una persona che scriveva col gatto in grembo.
+    RSN: Real Soon Now [tra pochissimo].
+    RTFM: Read  The Fershlugginer Manual [leggiti il ... manuale. la  F  puo` 
+       variare da Fine a Fucking a seconda della finezza dello scrivente...].
+    SFWA: Science Fiction Writers of America [scrittori SF americani].
+    SMOF: Secret Masters of Fandom [giganti segreti del fandom].
+    SPAM: SPiced  hAM [prosciutto insaporito] o qualcosa del genere.  Ricorda 
+       uno  sketch  del  Monty  Phyton  riguardo  a  una  scatola  di   carne 
+       semiedibile.
+    ST:TOS,  ST:TNG: Star Trek: The Original Series and Star Trek:  The  Next 
+       Generation [i primi telefilm sono quelli che si sono visti in  Italia. 
+       Da  alcuni anni negli States viene trasmessa un'altra serie con  altri 
+       attori, intitolata per l'appunto "La generazione successiva"].
+    TANJ: There Ain't No Justice [non c'e` giustizia].
+    TANSTAAFL:  There  Ain't  No  Such Thing As A Free  Lunch  [non  si  puo` 
+       pretendere un pasto gratis, nota citazione da un romanzo di Heinlein].
+    TPTB: The Powers That Be [Le potenze che siano]
+    TTBOMK: To The Best Of My Knowledge [per quanto e` a mia conoscenza]
+    TTFN: Ta Ta For Now [...]
+
+
+
+                                                       -----> FEEDBACK UTENTI
+                                                              ===============
+
+         Il  momento  piu` temuto, il questionario, e`  finalmente  arrivato. 
+    Perche`  devo  perdere  tempo a  rispondere?,  vi  chiederete.  Semplice: 
+    perche` io sappia dalla quantita` di risposte che mi giungono se vale  la 
+    pena  che continui io a perdere tempo a scrivere questa newsletter :-)  E 
+    poi se lasciate la risposta nel vostro BBS preferito, e` sempre upload in 
+    piu`, no?
+         Non  siete assolutamente obbligati a rispondere a tutte le  domande; 
+    in quelle a punteggio, 1 sta per "per niente", 2 "poco", 3  'abbastanza", 
+    4 "molto" e 5 "moltissimo".
+
+         A. In che fascia di eta` sei?
+               meno di 18 anni  ___  
+               18 - 24 anni     ___
+               25 - 29 anni     ___
+               piu` di 30 anni  ___
+
+         B. Che tipo di calcolatore/i usi?
+               PC Ibm o compat.    ___
+               Amiga               ___
+               Macintosh           ___
+               Atari               ___
+               Altro (specif.)     ___
+
+ 
+    *****   Vol.  1   *****         Pag.  9         *****   Numero  0   *****
+
+                           #####  TELEMATICUS  #####
+    .........................................................................
+
+        C. Quanto spesso frequenti mediamente i bbs?
+               tutti i giorni           ___
+               piu` volte la settimana  ___
+               una volta la settimana   ___
+               meno spesso              ___
+
+         D. Che giudizio (da 1 a 5, vedi sopra) dai a Telematicus?  ___
+
+         E. Che giudizio (da 1 a 5) dai alle singole rubriche?
+               Presentazione       ___
+               Editoriale          ___
+               Che cos'e`...       ___
+               Il programmino      ___
+               Curiosita`          ___
+               Notizie dal net     ___
+
+         F. Che rubriche vorresti presenti su Telematicus?
+               Un tutorial sul C        ___
+               Un tutorial sul C++      ___
+               Recensioni giochi        ___
+               Recensioni programmi     ___
+               Recensioni musicali      ___
+               Recensioni librarie      ___
+               Giochi "da fare"         ___
+               Altro (specifica)        ___
+
+          G. Pensi di downloadare altri numeri di Telematicus?
+               SI`  ___            NO   ___
+        
+          H. Pensi di contribuire con articoli a Telematicus?
+               SI`  ___            NO   ___
+         
+          I. Ti piacerebbe una grafica meno spartana?
+               SI`  ___            NO   ___
+
+          Grazie e arrileggerci!
+
+
+
+                                                   -----> NOVITA` NEL NET 334
+                                                          ===================
+
+
+         Cominciamo con una non-novita`: Lord Drake non e` ancora riaperto. I 
+    lavori di manutenzione "hardware" stanno purtroppo durando molto piu` del 
+    previsto... Ma per gli appassionati di Fabrizio Croce c'e` una  speranza: 
+    al 4243269 risponde il nuovissimo OsraBBS, BBS scritto sotto UNIX, attivo 
+    24  ore al giorno V22-V22bis-V32 con parametri 7-E-1 (Unix docet...)  che 
+    presto  sara`  anche  backbone piemontese della rete  Sublink.  Sysop  di 
+    OsraBBS  e` per l'appunto il buon Fabrizio. Se vi interesano sorgenti  di 
+    programmi PD, andate a "fare un giro"!
+         Nel  network 334 abbiamo da qualche settimana un nuovo  entrato  che 
+    poi tanto nuovo non e`; si tratta di SinTel, il BBS sotto Macintosh  gia` 
+    noto  come  Sintagma  e  uno dei piu` grandi  di  Italia  tra  i  message 
+  
+    *****   Vol.  1   *****         Pag. 10         *****   Numero  0   *****
+
+                           #####  TELEMATICUS  #####
+    .........................................................................
+
+    oriented. Risponde al 596274 V21-V22-V22bis e al 596248 V21-V22.
+         A  gennaio cambiera` la strutturazione del network... ma per  questo 
+    vi rimando al prossimo numero.
+
+
+
+                                                    -----> IL PROSSIMO NUMERO
+                                                           ==================
+
+         Se  la  risposta  del pubblico leggente e`  positiva,  ai  primi  di 
+    gennaio  sara`  in  distribuzione il numero 1  di  Telematicus.  In  esso 
+    potrete  trovare 
+         - un articolo su Telix, uno dei piu` usati programmi di comunicazio-
+    ne per sistemi MS-DOS; 
+         - tutte le faccine possibili e immaginabili, per potere stupire  con 
+    gli effetti speciali;
+         -  un glossario dei termini tecnici delle conferenze  echomail,  per 
+    scoprire la differenza tra un matrix e un broadcast;
+         e tante altre cose ancora!
+
+         Ciao ciao a tutti.....                 .mau.

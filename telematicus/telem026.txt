@@ -1,0 +1,1343 @@
+ #### TELEM026 - Telematicus - Volume 03 - Numero 02 - Anno 1993 - 61 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                Febbraio 1993                                 
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di .mau.
+
+ ==============================================================================
+
+ Il materiale presente in Telematicus e` (C) dei singoli autori.      
+ E` espressamente consentita la distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 61 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .   .  pag.  4
+ [ 2]  Nuova legge sul software, di Franco Carcillo  .   .   .   .   .  pag.  7
+ [ 3]  Messaggi a colpo d'occhio, di Gianluca Bigagli    .   .   .   .  pag. 20
+ [ 4]  Crittografia - parte 3    .   .   .   .   .   .   .   .   .   .  pag. 28
+ [ 5]  I flag della nodelist - parte 2   .   .   .   .   .   .   .   .  pag. 35
+ [ 6]  Il telefono: ma quanto ti costa?  .   .   .   .   .   .   .   .  pag. 44
+ [ 7]  Curiosita`: Il gergo hacker - parte 22    .   .   .   .   .   .  pag. 46
+ [ 8]  Notizie Fidonet region 33     .   .   .   .   .   .   .   .   .  pag. 57
+
+
+
+
+
+
+
+
+
+
+                  Questo Telematicus e` nato con l'aiuto di...
+
+   
+ Editor dimissionarius: Maurizio Codogno | * I collaboratori dai network: *
+ Editor legalis:         Franco Carcillo |
+ Editor statisticus:    Gianluca Bigagli | Giovanni Lopes (332/108.2)
+
+      ... e dei "saccheggiati"
+
+ Eric S. Raymond <esr@snark.thyrsus.com>
+ Charles Blair <ceblair@ux1.cso.uiuc.edu>
+
+
+ .mau. e` reperibile in Fidonet come 2:334/100.5 e 2:332/407.909 ;
+ sotto Internet come mau@beatles.cselt.stet.it.
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                               ###
+
+      Carissimi lettori,
+ quello che state leggendo e` l'ultimo numero di telematicus. O ad essere  pre-
+ cisi, e` l'ultimo numero che ha me come editor principale: se qualcuno e`  in-
+ teressato,  gli cedo volentieri nome della testata e base lettori, e sono  di-
+ spostissimo a dargli tutto il mio appoggio morale - e anche un po' di appoggio
+ materiale, ma solamente come collaboratore esterno. 
+
+      Mi scuso con Pietro Budicin, Alessandro Cangiano e "Mr.Maurizio" con  cui
+ ho avuto lunghi scambi di messaggi questo mese, senza dire loro nulla; e spero
+ di trovare il modo di sfuggire alle grinfie del Carcillo, sicuramente il  mag-
+ gior  sostenitore  di telematicus. Ma era gia` parecchio che meditavo  sul  da
+ farsi,  e io sono un tipo che ci mette molto a prendere una decisione, ma  una
+ volta  che l'ha presa non la cambia. E visto che non ho nemmeno alcuna  inten-
+ zione  di spiegare via matrix le mie motivazioni a una decina di  persone,  le
+ riporto direttamente qui.
+
+      Ho  gia` detto piu` volte che, quando nel novembre 1990 usci`  il  numero
+ zero  di  telematicus, la mia idea era di creare un punto di partenza  per  lo
+ sviluppo di una telematica amatoriale ma seria in Italia. Che io sappia, ques-
+ to  era  il primo tentativo; raffazzonato, certo, ma nato con la  volonta`  di
+ crescere. Ed e` anche cresciuto, all'inizio: merito di persone come Renato Ro-
+ lando,  che mi disse "Fa schifo, non si parla dell'Amiga", e alla mia  replica
+ di scriverci qualcosa su lui e` uscito con Vivamiga, probabilmente la  rubrica
+ piu` apprezzata. E anche merito di gente come il famigerato "Alfredo Berlusco-
+ ni"; non voglio certo elogiare i suoi trascorsi hackeristici, ma ricordare che
+ anche lui e` stato uno dei piu` solerti raccoglitori di materiale di interesse
+ per chiunque si occupi di telematica.
+
+      Adesso non c'e` piu` nulla di tutto questo: avete visto anche voi come il
+ livello qualitativo della rivista e` obiettivamente decaduto, e si sono comin-
+ ciati a sentire i primi mugugni in giro (in parallelo con il peggioramento che
+ tutti stiamo vedendo in FidoNet? Sembra proprio che sia un periodo triste  per
+ la  telematica amatoriale, questo). Ora, non e` che io possa ne` voglia  dedi-
+ carmici piu` di tanto: anzi, ho gia` aumentato la mia parte di tempo seduto  a
+ preparare telematicus. Quello che e` peggio, ho finito le idee: non saprei as-
+ solutamente cosa fare per riportare agli antichi fasti la rivista. E d'altron-
+ de, telematicus non e` piu` una rara avis nel panorama dell'editoria  elettro-
+ nica amatoriale; ricordo SBDI, AUGSNewsletter e la neonata MIPS, ciascuna  con
+ la sua nicchia, ma sempre nello stesso filone.
+
+      Insomma,  meglio darci un taglio netto piuttosto che trascinarsi  stanca-
+ mente per un malcompreso senso di continuita`.
+
+                               ciaociao .mau.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   2  ###                                     NUOVA LEGGE SUL SOFTWARE  ###
+ ############                                                               ###
+
+      La  Gazzetta  Ufficiale del 31-12-92 ha pubblicato il testo  del  decreto
+ legislativo 29-12-92 n.ro 518 di 'Attuazione della direttiva 91/250/CEE  rela-
+ tiva  alla  tutela giuridica dei programmi per elaboratore". Vediamo  ora  gli
+ articoli che sono di piu` diretto interesse per tutti noi.
+
+ [NdE: la legge 22 aprile 1941, n. 633 (entrata in vigore il 18 dicembre  1942)
+ si  intitola "Protezione del diritto d'autore e di altri diritti  connessi  al
+ suo esercizio" (Gazz. Uff. 16 luglio 1941, n. 166)]
+
+
+           DECRETO LEGISLATIVO 29 dicembre 1992, n. 518
+
+      Attuazione della direttiva 91/250/CEE relativa alla tutela giuridica  dei
+ programmi per elaboratore.
+
+                     IL PRESIDENTE DELLA REPUBBLICA
+
+      Visti gli articoli 76 e 87 della Costituzione;
+
+      Visto  l'art. 7 della legge 19 dicembre 1992, n. 489, recante  delega  al
+ Governo  per  l'attuazione  della direttiva 91/250/CEE del  Consiglio  del  14
+ maggio 1991, relativa alla tutela giuridica dei programmi per elaboratore;
+
+      Vista  la  deliberazione  del  Consiglio  dei  Ministri,  adottata  nella
+ riunione del 23 dicembre 1992;
+
+      Sulla proposta del Ministro per il Coordinamento delle Politiche  Comuni-
+ tarie  e  per gli Affari Regionali, di concerto con i  Ministri  degli  Affari
+ Esteri, di Grazia e Giustizia e del Tesoro;
+
+
+                               EMANA
+
+
+      il seguente decreto legislativo:
+
+ Art. 1.
+
+      1. All'art. 1 della legge 22 aprile 1941, n. 633, e' aggiunto il seguente
+ comma:
+
+      "Sono altresi' protetti i programmi per elaboratore come opere letterarie
+ ai sensi della Convenzione di Berna sulla protezione delle opere letterarie ed
+ artistiche ratificata e resa esecutiva con legge 20 giugno 1978, n. 399".
+
+ Art. 2.
+
+      1.  Dopo  il  n. 7) dell'art. 2 della legge 22 aprile 1941,  n.  633,  e'
+ aggiunto il seguente numero:
+
+      "8)  i  programmi per elaboratore, in qualsiasi  forma  espressi  purche'
+ originali  quale  risultato di creazione  intellettuale  dell'autore.  Restano
+ esclusi  dalla tutela accordata dalla presente legge le idee e i principi  che
+ stanno  alla base di qualsiasi elemento di un programma, compresi quelli  alla
+ base  delle sue interfacce. Il termine programma comprende anche il  materiale
+ preparatorio per la progettazione del programma stesso".
+
+ Art. 3.
+
+      1.  Dopo  l'art. 12 della legge 22 aprile 1941, n. 633,  e'  inserito  il
+ seguente:
+
+      "Art. 12-bis. - Salvo patto contrario, qualora un programma per  elabora-
+ tore sia creato dal lavoratore dipendente nell'esecuzione delle sue mansioni o
+ su  istruzioni  impartite  dal suo datore di lavoro, questi  e'  titolare  dei
+ diritti esclusivi di utilizzazione economica del programma creato".
+
+ Art. 4.
+
+      1.  Dopo  l'art. 27 della legge 22 aprile 1941, n. 633,  e'  inserito  il
+ seguente:
+
+      "Art.  27-bis.  - La durata dei diritti di  utilizzazione  economica  del
+ programma  per elaboratore prevista dalle disposizioni della presente  Sezione
+ si computa, nei rispettivi casi, a decorrere dal 1^ gennaio dell'anno  succes-
+ sivo a quello in cui si verifica l'evento considerato dalla norma".
+
+ Art. 5.
+
+      1. Dopo la sezione V del capo IV del titolo I della legge 22 aprile 1941,
+ n. 633, e' aggiunta la seguente sezione:
+
+      "Sezione VI - PROGRAMMI PER ELABORATORI"
+
+      Art. 64-bis. - 1. Fatte salve le disposizioni dei successivi articoli 64-
+ ter  e 64-quater, i diritti esclusivi conferiti dalla presente legge sui  pro-
+ grammi per elaboratore comprendono il diritto di effettuare o autorizzare:
+      -  a)  la riproduzione, permanente o temporanea, totale  o  parziale  del
+ programma  per  elaboratore con qualsiasi mezzo o in  qualsiasi  forma.  Nella
+ misura  in cui operazioni quali il caricamento, la  visualizzazione,  l'esecu-
+ zione,  la  trasmissione  o la memorizzazione del  programma  per  elaboratore
+ richiedano una riproduzione, anche tali operazioni sono soggette  all'autoriz-
+ zazione del titolare dei diritti;
+      -  b) la traduzione, l'adattamento, la trasformazione e ogni altra  modi-
+ ficazione  del programma per elaboratore, nonche' la  riproduzione  dell'opera
+ che ne risulti, senza pregiudizio dei diritti di chi modifica il programma;
+      - c) qualsiasi forma di distribuzione al pubblico, compresa la  locazione
+ del  programma  per elaboratore originale o di copie dello  stesso.  La  prima
+ vendita di una copia del programma nella Comunita' Economica Europea da  parte
+ del  titolare  dei  diritti, o con il suo consenso, esaurisce  il  diritto  di
+ distribuzione  di  detta copia all'interno della Comunita', ad  eccezione  del
+ diritto  di  controllare l'ulteriore locazione del programma o  di  una  copia
+ dello stesso.
+
+      Art.  64-ter. - 1. Salvo patto contrario, non sono soggette  all'autoriz-
+ zazione del titolare dei diritti le attivita' indicate nell'art. 64-bis,  let-
+ tere a) e b), allorche' tali attivita' sono necessarie per l'uso del programma
+ per  elaboratore  conformemente alla sua destinazione da parte  del  legittimo
+ acquirente, inclusa la correzione degli errori.
+     
+      2.  Non puo' essere impedito per contratto, a chi ha il diritto di  usare
+ una copia del programma per elaboratore di effettuare una copia di riserva del
+ programma, qualora tale copia sia necessaria per l'uso.
+
+      3.  Chi  ha il diritto di usare una copia del programma  per  elaboratore
+ puo',  senza l'autorizzazione del titolare dei diritti, osservare, studiare  o
+ sottoporre  a prova il funzionamento del programma, allo scopo di  determinare
+ le  idee  ed i principi su cui e' basato ogni elemento del  programma  stesso,
+ qualora  egli compia tali atti durante operazioni di caricamento,  visualizza-
+ zione, esecuzione, trasmissione o memorizzazione del programma che egli ha  il
+ diritto di eseguire. Gli accordi contrattuali conclusi in violazione del  pre-
+ sente comma sono nulli.
+
+      Art.  64-quater.  - 1. L'autorizzazione del titolare dei diritti  non  e'
+ richiesta qualora la riproduzione del codice del programma di elaboratore e la
+ traduzione  della sua forma ai sensi dell'art. 64-bis, lettere a) e  b),  com-
+ piute  al  fine di modificare la forma del codice,  siano  indispensabili  per
+ ottenere  le informazioni necessarie per conseguire  l'interoperabilita',  con
+ altri programmi, di un programma per elaboratore creato autonomamente  purche'
+ siano soddisfatte le seguenti condizioni:
+
+      -  a) le predette attivita' siano eseguite dal licenziatario o  da  altri
+ che abbia il diritto di usare una copia del programma oppure, per loro  conto,
+ da chi e' autorizzato a tal fine:
+
+      -  b) le informazioni necessarie per conseguire  l'interoperabilita'  non
+ siano gia' facilmente e rapidamente accessibili ai soggetti indicati alla let-
+ tera a);
+
+      - c) le predette attivita' siano limitate alle parti del programma origi-
+ nale per conseguire l'interoperabilita'.
+
+      2.  Le disposizioni di cui al comma 1 non consentono che le  informazioni
+ ottenute in virtu' della loro applicazione:
+
+      -  a) siano utilizzate a fini diversi dal conseguimento  dell'interopera-
+ bilita' del programma creato autonomamente;
+
+      -  b) siano comunicate a terzi, fatta salva la necessita'  di  consentire
+ l'interoperabilita' del programma creato autonomamente;
+
+      -  c)  siano utilizzate per lo sviluppo, la produzione  o  la  commercia-
+ lizzazione  di un programma per elaboratore sostanzialmente simile  nella  sua
+ forma espressiva, o per ogni altra attivita' che violi il diritto di autore.
+
+      3. Gli accordi contrattuali in violazione dei commi 1 e 2 sono nulli.
+
+      4. Conformemente alla convenzione di Berna sulla tutela delle opere  let-
+ terarie ed artistiche ratificata e resa esecutiva con legge 20 gugno 1978,  n.
+ 399, le disposizioni del presente articolo non possono essere interpretate  in
+ modo da consentire che la loro applicazione arrechi indebitamente  pregiudizio
+ agli  interessi legittimi del titolare dei diritti o sia in conflitto  con  il
+ normale sfruttamento del programma".
+
+ Art. 6.
+
+      1.  All'art.  103 della legge 22 aprile 1941, n. 633, sono  apportate  le
+ seguenti integrazioni:
+
+      - a) dopo il terzo comma e' aggiunto il seguente:
+
+      "Alla Societa' italiana degli autori ed editori e' affidata altresi',  la
+ tenuta  di un registro pubblico speciale per i programmi per  elaboratore.  In
+ tale  registro viene registrato il nome del titolare dei diritti esclusivi  di
+ utilizzazione economica e la data di pubblicazione del programma, intendendosi
+ per pubblicazione il primo atto di esercizio dei diritti esclusivi".
+
+      - b) Dopo il quinto comma e' aggiunto il seguente:
+
+      "I registri di cui al presente articolo possono essere tenuti utilizzando
+ i mezzi e strumenti informatici".
+
+ Art. 7.
+
+      1.  Dopo  il secondo comma dell'art. 105 della legge 22 aprile  1941,  n.
+ 633, e' inserito il seguente:
+
+      "Per  i programmi per elaboratore la cui registrazione e' facoltativa  ed
+ onerosa".
+
+ Art. 8.
+
+      1. All'art. 161 della legge 22 aprile 1941, n. 633, e' aggiunto, in fine,
+ il seguente comma:
+
+ "Le disposizioni di questa Sezione si applicano anche a chi mette in  circola-
+ zione in qualsiasi modo, o detiene per scopi commerciali copie non autorizzate
+ di programmi e qualsiasi mezzo inteso unicamente a consentire o facilitare  la
+ rimozione  arbitraria  o l'esclusione funzionale dei dispositivi  applicati  a
+ protezione di un programma per elaboratore".
+
+ Art. 9.
+
+      1. Al primo comma dell'art. 171 della legge 22 aprile 1941, n. 633,  sono
+ pemesse le seguenti parole: "Salvo quanto previsto dall'art. 171-bis".
+
+ Art. 10.
+
+      1.  Dopo  l'art. 171 della legge 22 aprile 1941, n. 633, e'  inserito  il
+ seguente:
+
+      "Art.  171-bis. - 1. Chiunque abusivamente duplica a fini di lucro,  pro-
+ grammi  per  elaboratore,  o, ai medesimi fini e sapendo o  avendo  motivo  di
+ sapere  che si tratta di copie non autorizzate, importa,  distribuisce,  vende
+ detiene  a scopo commerciale, o concede in locazione i medesimi programmi,  e'
+ soggetto alla pena della reclusione da tre mesi a tre anni e della multa da L.
+ 500.000  a L. 6.000.000. Si applica la stessa pena se il fatto concerne  qual-
+ siasi mezzo inteso unicamente a consentire o facilitare la rimozione  arbitra-
+ ria o l'elusione funzionale dei dispositivi applicati a protezione di un  pro-
+ gramma  per  elaboratore. La pena non e' inferiore nel minimo a  sei  mesi  di
+ reclusione  e  la multa a L. 1.000.000 se il fatto e'  di  rilevante  gravita'
+ ovvero se il programma oggetto del'abusiva duplicazione, importazione, distri-
+ buzione, vendita, detenzione a scopo commerciale o locazione sia stato  prece-
+ dentemente  distribuito, venduto o concesso in locazione su supporti  contras-
+ segnati  dalla Societa' italiana degli autori ed editori ai sensi  della  pre-
+ sente  legge  e  del relativo regolamento di esecuzione  approvato  con  regio
+ decreto 18 maggio 1942, n. 1369.
+
+      2. La condanna per i reati previsti al comma 1 comporta la  pubblicazione
+ della  sentenza in uno o piu' quotidiani e in uno o piu' periodici  specializ-
+ zati".
+
+ Art. 11.
+
+      1.  Dopo  l'art. 199 della legge 22 aprile 1941, n. 633, e'  inserito  il
+ seguente:
+
+      "Art. 199-bis. - 1. Le disposizioni della presente legge si applicano an-
+ che  ai  programmi creati prima della sua entrata in vigore, fatti  salvi  gli
+ eventuali atti conclusi e i diritti acquisiti anteriormente a tale data".
+
+ Art. 12.
+
+      1.  Con  decreto del Presidente del Consiglio dei Ministri  da  emanarsi,
+ sentita la Societa' italiana degli autori ed editori, entro sei mesi  dall'en-
+ trata  in vigore della presente legge saranno determinate  le  caratteristiche
+ del  registro, le modalita' di registrazione di cui agli articoli 6 e 7  e  le
+ relative tariffe.
+
+      Il presente decreto, munito di sigillo dello Stato, sara' inserito  nella
+ Raccolta  ufficiale degli atti normativi della Repubblica italiana.  E'  fatto
+ obbligo a chiunque spetti di osservarlo e di farlo osservare.
+
+     
+      Dato a Roma, addi' 29 dicembre 1992
+
+      SCALFARO
+      AMATO / COSTA COLOMBO / MARTELLI / BARUCCI
+
+      Visto, il Guardasigilli MARTELLI
+
+ [NdE: come potete vedere dall'articolo 10 e 11, la legge adesso parla  chiaro.
+ Forse il ragazzino che a casa ha la copia del TurboC puo` scamparla liscia, ma
+ sicuramente  tutta quella gente che si e` fatta i soldi VENDENDO copie  pirata
+ di  software  dovra` stare bene attenta d'ora in poi, visto che non  si  parla
+ piu`  di reato civile ma di penale. E lo stesso vale per i BBS... Le  aree  "a
+ pagamento"  sono indubbiamente da considerarsi a fini di lucro. E  nessuno  di
+ noi vuole essere considerato un ricettatore, vero?]
+
+
+                                     Franco Carcillo (2:334/100.3)
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                    MESSAGGI A COLPO D'OCCHIO  ###
+ ############                                                               ###
+
+      Non e' affatto semplice rendersi conto di quanto sia vasto ed  articolato
+ il panorama di coloro che, ogni giorno, partecipano a quello scambio di infor-
+ mazioni  ed opinioni che rendono Fidonet uno dei piu' interessanti e  riusciti
+ esperimenti  di  telematica amatoriale in Italia. Infatti, sebbene  sia  molto
+ semplice, in un contesto tecnologicamente cosi' spinto, monitorare quanto vie-
+ ne  scritto e poi circola attraverso la rete, ben piu' difficile  e'  rendersi
+ conto  di quanti ne fruiscano da semplici lettori. Il numero dei  partecipanti
+ attivi alle conferenze Fidonet e' comunque un buon punto di partenza per  fare
+ una stima magari grossolana, ma realistica, del numero di coloro che  condivi-
+ dono questo hobby inconsueto.
+
+      Ormai e' attivo da oltre un anno un sistema di monitoraggio che si e' po-
+ sto  lo  scopo di rilevare, a cadenza mensile, il numero di coloro  che  hanno
+ scritto  in quel mese almeno un messaggio in una conferenza  Fidonet  italiana
+ (*.ITA).  Parallelamente alle aree italiane vengono monitorate anche  le  aree
+ internazionali importate in Italia e quelle locali del Net 332 e, a breve, del
+ Net  334. I report che illustrano i risultati di tale analisi vengono  mensil-
+ mente distribuiti via SDS (area ECHO-R33) ed ISN (area TESTI) e  costituiscono
+ un strumento in base al quale il coordinamento Fidonet puo' farsi un'idea piu'
+ precisa dello stato di salute della rete e di come questa evolvera' a medio ed
+ a lungo termine. Riassumendo i dati rilevati nell'anno appena conclusosi si e'
+ arrivati  a quanto riportato nella tabella 1, dove si evidenzia una  media  di
+ circa 1500 partecipanti attivi alla messaggistica Fidonet italiana, in aumento
+ costante.
+
+
+
+      Mese      Scriventi
+ ----------------+------------------------------------------------+--------
+      Jan ----   |                                                | ----
+      Feb 1265   | #########################                      | ----
+      Mar 1273   | #########################                      | + 0.63%
+      Apr 1219   | ########################                       | - 4.24%
+      May 1283   | #########################                      | + 5.25%
+      Jun 1249   | ########################                       | - 2.65%
+      Jul 1224   | ########################                       | - 2.00%
+      Aug 968    | ################### < Min                      | -20.92%
+      Sep 1355   | ###########################                    | +39.98%
+      Oct 1495   | #############################                  | +10.33%
+      Nov 1455   | #############################                  | - 2.68%
+      Dec 1535   | ############################## < Max           | + 5.50%
+ ----------------+------------------------------------------------+--------
+                 |                                                | +29.20%
+
+                          (tabella 1)
+
+
+      Suddividendo  tale utenza globale fra coloro che scrivono da un  Point  e
+ coloro  che scrivono da un Nodo si arriva alla tabella 2, che riporta  i  Nodi
+ attivi (dai quali, cioe', e' partito almeno un messaggio) insieme ai Point at-
+ tivi ed agli Utenti, intesi qui come coloro che hanno scritto uno o piu'  mes-
+ saggi da un Nodo. Pur nella generale crescita ci si rende subito conto di come
+ i Nodi restino quasi stazionari, gli Utenti crescano sensibilmente ma il  mas-
+ simo  della  crescita relativa si abbia per i Point, naturale  evoluzione  per
+ l'utenza  piu'  smaliziata e metodo ottimale per  fruire  della  messaggistica
+ Fidonet.
+
+
+      Mese Nodi Point/Utenti | Nodi Point  Utenti
+ ---------------------------+----------------------------------------------
+      Jan  210  470 / 865    | ||||||||%%%%%%%%%%################ 
+      Feb  229  486 / 1000   | |||||||||%%%%%%%%%%#####################
+      Mar  231  515 / 951    | |||||||||%%%%%%%%%%%##################
+      Apr  239  516 / 930    | |||||||||%%%%%%%%%%%#################
+      May  298  522 / 1071   | |||||||||||%%%%%%%%%######################
+      Jun  267  525 / 997    | ||||||||||%%%%%%%%%%%##################
+      Jul  267  500 / 976    | ||||||||||%%%%%%%%%%###################
+      Aug  216  397 / 722    | ||||||||%%%%%%%#############   
+      Sep  250  523 / 1083   | ||||||||||%%%%%%%%%%#######################
+      Oct  258  607 / 1142   | ||||||||||%%%%%%%%%%%%%%#####################
+      Nov  264  605 / 1092   | ||||||||||%%%%%%%%%%%%%%###################
+      Dec  264  664 / 1129   | ||||||||||%%%%%%%%%%%%%%%%###################
+ ---------------------------+----------------------------------------------
+
+                          (tabella 2)
+     
+
+      Quale peso preponderante abbiano ormai i Point sul numero totale dei mes-
+ saggi  generati appare evidente in tabella 3, che riporta i messaggi  generati
+ dai Nodi a confronto da quelli generati dai Point.
+
+
+
+
+    Mese msgs da Nodi/Point | da nodi da point
+ ---------------------------+----------------------------------------------
+      Jan      4918 / 10454 | |||||||||###########      
+      Feb      6153 / 12120 | ||||||||||||############     
+      Mar      5484 / 11083 | ||||||||||############     
+      Apr      5369 / 9815  | ||||||||||#########      
+      May      6695 / 11440 | |||||||||||||#########     
+      Jun      7106 / 13385 | ||||||||||||||############    
+      Jul      5675 / 9395  | |||||||||||#######      
+      Aug      3609 / 5009  | |||||||###        
+      Sep      7114 / 9166  | ||||||||||||||####      
+      Oct      8069 / 12594 | ||||||||||||||||#########    
+      Nov      6828 / 10545 | |||||||||||||########     
+      Dec      6895 / 12918 | |||||||||||||############    
+ ---------------------------+----------------------------------------------
+
+                          (tabella 3) 
+
+      Analogamente a quanto visto e' possibile esaminare l'andamento del  traf-
+ fico globale delle aree nazionali Fidonet sia per numero di messaggi, sia  per
+ Kbytes transitati, come riportato nelle tabelle 4 e 5:
+
+
+      Mese           Messaggi
+ ----------------+------------------------------------------------+--------
+      Jan  15372 | ##############################                 | ----
+      Feb  18273 | ####################################           | +18.87%
+      Mar  16567 | #################################              | - 9.34%
+      Apr  15184 | ##############################                 | - 8.34%
+      May  18135 | ####################################           | +19.43%
+      Jun  20491 | ########################################       | +12.99%
+      Jul  15070 | ##############################                 | -26.46%
+      Aug   8618 | ################# < Min                        | -42.81%
+      Sep  16280 | ################################               | +88.91%
+      Oct  20663 | ######################################### < Max| +26.92%
+      Nov  17373 | ##################################             | -15.92%
+      Dec  19813 | #######################################        | +14.04%
+ ----------------+------------------------------------------------+---------
+                 |                                                | +78.29%
+
+                               (tabella 4)
+
+
+
+      Mese      Kbytes
+ -----------+-----------------------------------------------------+--------
+ Jan  18994 | #############################                       | ----
+ Feb  23122 | #######################################             | +21.73%
+ Mar  20655 | #################################                   | -10.67%
+ Apr  19285 | ##############################                      | - 6.63%
+ May  22993 | #####################################               | +19.23%
+ Jun  25941 | ###########################################         | +12.82%
+ Jul  19125 | ##############################                      | -26.28%
+ Aug  10910 | ############## < Min                                | -42.95%
+ Sep  20080 | ##################################                  | +84.05%
+ Oct  26184 | ############################################## < Max| +30.40%
+ Nov  22747 | #####################################               | -13.13%
+ Dec  25586 | ###########################################         | +12.48%
+ -----------+-----------------------------------------------------+---------
+            |                                                     | +81.05%
+
+                          (tabella 5)
+
+
+      Questi  numeri  possono sembrare deludenti: appena 1500  persone  per  un
+ fenomeno che, sulla carta, ha potenzialita' enormi. Non bisogna pero' dimenti-
+ care  che questa cifra si riferisce alla sola utenza "documentata", a  coloro,
+ cioe',  che scrivono regolarmente messaggi in aree a distribuzione  nazionale.
+ Ben piu' vasto e variegato e' pero' la schiera di coloro che alimentano e rin-
+ novano  periodicamente questa utenza. C'e' ad esempio il cospicuo  numero  dei
+ neofiti,  che pur partecipando alla vita delle BBS sono poco interessati  alla
+ messaggistica:  poter seguire con comodita' e quindi poter apprezzare la  mes-
+ saggistica Fidonet richiede infatti un apprendistato tecnico e comportamentale
+ non indifferente, che soltanto un'utenza selezionata e preparata riesce a com-
+ pletare. C'e' poi la nutrita schiera di coloro che partecipano prevalentemente
+ soltanto a conferenze a distribuzione locale, che non compaiono nelle  tabelle
+ riportate.  Infine ci sono i "vecchi" della rete, che la frequentano da  anni,
+ che leggono molto ma che ormai hanno acquisito l'abitudine di scrivere soltan-
+ to  laddove abbiano qualcosa di veramente rilevante da dire.  Per  concludere,
+ quanto  rilevato  negli ultimi mesi puo' sembrare ben poca cosa  se  esaminato
+ leggendo  soltanto i numeri, ma e' di ben altro peso se si considera che  tali
+ numeri rappresentano soltanto la cima di un iceberg che, e questo e'  inconte-
+ stabile, e' in continua crescita.
+
+                Gianluca Bigagli
+                Regional Echomail Watcher     2:33/100
+
+
+ ############                                                               ###
+ ###   4  ###                                       CRITTOGRAFIA - PARTE 3  ###
+ ############                                                               ###
+
+      3.     TECNICHE DI CRITTOGRAFIA BASATE SU POTENZE E CONGRUENZE
+     ===     =======================================================
+
+  3.1.     La procedura di scambio di chiavi di Diffie-Hellman
+ -----     ---------------------------------------------------
+
+      A e B stanno comunicando. C puo` udire tutto quello che A e B dicono. A e
+ B vogliono accordarsi su un numero, senza che C sappia quale numero sia.  Puo`
+ essere, ad esempio, che A e B vogliano usare tale numero come chiave per  mes-
+ saggi codificati in futuro. La procedura (spesso chiamata un <protocollo>):
+
+      A  e  B si accordano su un (grande) primo p, e una  radice  primitiva  a.
+ Questi  numeri sono anche noti a C. A sceglie segretamente un (grande)  numero
+ X1, B sceglie segretamente X2. a^X1 e a^X2 mod p sono annunciati pubblicamente
+ (quindi noti anche a C). Il numero segreto sara` S = a^(X1*X2) mod p. Infatti,
+
+      A calcola S = (a^X2)^X1 ;     B calcola S = (a^X1)^X2 .    
+
+      Un possibile inconveniente di tale sistema e` che ne` A ne` B controllano
+ che numero sia S. Se non e` soddisfacente, essi devono ripetere il protocollo.
+
+      Diffie  ed Hellman suggeriscono che la procedura puo` anche essere  usata
+ in una situazione in cui n persone devono trovare, per ogni coppia  possibile,
+ un numero su cui accordarsi. Per 1 <= i,j <= n il numero e` a^(Xi*Xj).
+
+
+  3.2.     Il sistema a chiave pubblica di Rivest-Shamir-Adleman
+ -----     -----------------------------------------------------
+
+ [NdE: questo e` il famoso sistema RSA di cui avrete sicuramente sentito parla-
+ re,  soprattutto se state leggendo questo articolo e quindi siete  interessati
+ alla crittografia...]
+
+      A stabilisce un sistema in modo tale che ognuno gli possa spedire un mes-
+ saggio codificato, ma solo lui possa decodificarlo. Il messaggio e` rappresen-
+ tato  come un numero M. La codifica e` effettuata mediante una  funzione  resa
+ pubblica  f(M),  essendo  A l'unica persona in grado di  calcolare  f^(-1).  A
+ sceglie due numeri primi grandi p, q, che mantiene segreti. Annuncia n = pq  e
+ un altro numero d, con (d,p-1) = (d,q-1) = 1 (un modo di farlo e` scegliere  d
+ come un numero primo maggiore di p/2 e q/2). La codifica e`
+
+                f(M) == M^d mod n
+
+ dove  M e f(M) sono entrambi minori o uguali a n-1. Abbiamo visto che  f  puo`
+ essere  calcolata  in  un tempo realistico anche se M, d, n  hanno  un  grande
+ numero di cifre.              
+
+      A calcola M da M^d usando la sua conoscenzxa di p e q. Dal corollario 8,
+
+           Se d*e == 1 mod (p-1) allora (M^d)^e == 1 mod p.
+
+ Similmente,  (M^d)^e == M mod q se d*e == 1 mod (q-1). e soddisfa  queste  due
+ condizioni  se e*d == 1 mod (p-1)(q-1). IL Teorema 1 dice che  possiamo  porre
+ e = x, dove x e` una soluzione di
+               
+                d*x + (p-1)(q-1)y = 1
+
+ Dato  che  (M^d)^e - M e` divisibile per p e per q, e` divisibile  per  pq,  e
+ possiamo ricavare M da M^d calcolandone la sua e-sima potenza mod pq.
+
+      E` cruciale per la sicurezza di questo sistema che la conoscenza di n non
+ permetta a un ficcanaso di calcolare p e q. L'approccio brutale di dividere  n
+ per tutti i numeri fino a sqrt(n) richiederebbe circa 10^50 passi per un nume-
+ ro  n  di  100 cifre. E molti matematici famosi hanno  studiato  negli  ultimi
+ cent'anni  il problema della fattorizzazione senza trovare sistemi  significa-
+ tivamente migliori.
+
+      Una  difficolta` pratica nell'usare questo sistema e` il bisogno di  fare
+ calcoli  con  numeri di molte cifre, specialmente per trovare i  numeri  primi
+ richiesti. Un'altra difficolta` e` che gli inventori di questo sistema l'hanno
+ brevettato.   Programmatori  amatoriali  che  hanno  postato   implementazioni
+ dell'algoritmo su BBS hanno ricevuto lettere dalla "RSA Security, Inc" che  li
+ avvisano di possibili infrangimenti di copyright.
+
+
+  3.3.     Un sistema a chiave pubblica difficile come la fattorizzazione
+ -----     --------------------------------------------------------------
+
+      E` in teoria possibile che ci sia qualche metodo di calcolare f^(-1)  per
+ il  sistema della sezione precedente che non involva la determinazione di p  e
+ q. Nell'articolo originale del sistema RSA, gli autori affermano
+
+           Potrebbe essere possibile provare che un qualunque metodo gene-
+      rale di craccare il nostro schema dia un algoritmo di fattorizzazio-
+      ne efficiente. Questo stabilirebbe che un qualunque modo di craccare
+      il nostro schema sarebbe difficile come la fattorizzazione. Non sia-
+      mo pero` stati in grado di dimostrare questa congettura.
+
+ Per  vedere le difficolta` presenti nel tentare di provare cio`,  si  supponga
+ che  si  possa dimostrare che la conoscenza di un testo cifrato f(M) e  di  un
+ testo in chiaro M permetta di trovare p e q. Allora, si potrebbe  fattorizzare
+ n nel modo seguente:
+
+      1. Scegliete un M qualunque.
+
+      2. Calcolate  f(M). [Ricordate che stiamo supponendo che f sia  pubblica-
+           mente disponibile. Inoltre, f(M) non puo` essere troppo difficile da
+           calcolare, o il codice non sarebbe pratico]
+
+      3. Usate il metodo supposto per ricavare p,q.
+
+ In pratica, non siamo in grado di distinguere tra la situazione in cui f(M) e`
+ ottenuta da M (facile) e la situazione (presumibilmente difficile) in cui M e`
+ ottenuta da f(M).
+
+      Rabin ha suggerito un'alternativa al sistema RSA in cui c'e` una  diretta
+ connessione con la fattorizzazione. Come nell'RSA, n = p*q e` annunciato  pub-
+ blicamente,  coi primi p e q tenuti segreti. Per ragioni tecniche,  assumeremo
+ p,q == 3 mod 4. La funzione codificante e`
+
+                          f(M) == M^2 mod n
+
+ Il  modo  con  cui eviteremo le difficolta` descritte sopra  e`  che  ci  sono
+ *quattro* numeri M1, M2, M3, M4 con f(Mi) == f(M). I fatti chiave sono:
+
+      1. Se p e q sono noti, e` facile calcolare tutti gli Mi data f(M).
+      2. Se e` dato n, f(M), e tutti gli Mi, possiamo calcolare p e q.
+
+ Noi  *non* siamo in grado di ottenere p e q da soltanto uno degli Mi,  percio`
+ l'approccio basato su M e f(M) descritto sopra non funziona. Un  inconveniente
+ di questo sistema e` che, anche conoscendo p e q, si puo` solo dire che il nu-
+ mero mandato e` uno dei quattro Mi, senza essere in grado di identificare qua-
+ le. In pratica cio` non e` importante, visto che e` molto improbabile che piu`
+ di uno degli Mi corrisponda a un messaggio sensato.
+
+      Per  dimostrare  1.,  si noti che dato che p == 3 mod 4  esistera`  un  k
+ intero tale che 4k = p+1 . Se x == (f(M))^k , usando il corollario 8 si ha che
+
+                     x^2 == ((M^2)^k)^2 == M^4k == M^2 mod p
+
+ e similmente se l e` tale che 4l = q+1, e y == (f(M))^l, y^2 == M^2 mod q.  Da
+ qui, col Teorema Cinese del Resto (corollario 4), si hanno i valori degli Mi.
+
+      Per  dimostrare 2, sappiamo che avremo due Mi (diciamo M1 e M3)  per  cui
+ M1 + M3 == 0 mod p e M1 + M3 !== 0 mod q. Quindi p sara` dato da (M1+M3,n).
+
+      Purtroppo  tale  metodo e` vulnerabile ad un attacco a  testo  in  chiaro
+ scelto, anche se si assume che la persona che tenta di rompere il codice otte-
+ nga  solo uno degli Mi a caso. L'attaccante continua a generare coppie  M,f(M)
+ finche` non ottiene un Mi con (M+Mi,n) = p o q.
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                              I FLAG DELLA NODELIST - PARTE 2  ###
+ ############                                                               ###
+
+      Nel numero 24 di telematicus abbiamo visto tutti i flag usati in nodelist
+ per  indicare i vari protocolli dei modem. Pensavate di avere  finito?  Naaah!
+ L'argomento  era stato appena sfiorato. Ecco quindi tutti gli altri  flag,  in
+ modo che potrete evitare di andare a succhiare files da una bbs al cui telefo-
+ no di giorno risponde una vecchina...
+
+ - I flag seguenti definiscono speciali condizioni operative:
+
+      Flag      Significato
+      ----      -----------
+      CM        Il nodo accetta posta 24 ore al giorno
+      MO        Il nodo non accetta chiamanti umani (Mail Only)
+      LO        Il nodo accetta chiamate solo da indirizzi in nodelist
+
+  - Il flag seguente definisce il tipo di compressione pacchetti supportato:
+
+      Flag      Significato
+      ----      -----------
+      MN        Nessuna compressione supportata.
+           NOTA: l'unico metodo di compressione standard in FidoNet e` l'archi-
+           ving, utilizzando il formato standard SEA ARC, coi nomi degli archi-
+           vi definiti dalle specifiche per ARCMail 0.6. L'assenza del flag  MN
+           indica che la compressione ARCMail 0.6 e` supportata da tale nodo.
+
+ - I flag seguenti indicano i tipi di richieste o update di file supportati:
+
+      |----------------------------------------------------------|
+      |      |           Bark          |          WaZOO          |
+      |      |-------------------------|-------------------------|
+      |      |    File    |   Update   |    File    |   Update   |
+      | Flag |  Requests  |  Requests  |  Requests  |  Requests  |
+      |------|------------|------------|------------|------------|
+      | XA   |     Yes    |     Yes    |     Yes    |     Yes    |
+      | XB   |     Yes    |     Yes    |     Yes    |     No     |
+      | XC   |     Yes    |     No     |     Yes    |     Yes    |
+      | XP   |     Yes    |     Yes    |     No     |     No     |
+      | XR   |     Yes    |     No     |     Yes    |     No     |
+      | XW   |     No     |     No     |     Yes    |     No     |
+      | XX   |     No     |     No     |     Yes    |     Yes    |
+      |----------------------------------------------------------|
+
+      Il software seguente e` qualificato a utilizzare l;appropriato flag di
+      file request:
+
+      |---------------------------------------|
+      |  File Req Flag   Software Package     |
+      |---------------------------------------|
+      |  XA              Frontdoor <1.99b     |
+      |                  Frontdoor  2.01+     |
+      |                  Dutchie 2.90c        |
+      |                  Binkleyterm >2.1     |
+      |                  D'Bridge <1.3        |
+      |                  TIMS                 |
+      |---------------------------------------|
+      |  XB              Binkleyterm 2.0      |
+      |                  Dutchie 2.90b        |
+      |---------------------------------------|
+      |  XC              Opus 1.1             |
+      |---------------------------------------|
+      |  XP              Seadog               |
+      |---------------------------------------|
+      |  XR              Opus 1.03            |
+      |---------------------------------------|
+      |  XW              Fido >12M            |
+      |                  Tabby                |
+      |---------------------------------------|
+      |  XX              D'Bridge 1.30        |
+      |                  Frontdoor 1.99b      |
+      |                  InterMail 2.01       |
+      |---------------------------------------|
+      |  None            QMM                  |
+      |---------------------------------------|
+
+ - Il flag seguente definisce i gateway per altri domini (network).
+
+      Flag      Significato
+      ----      -----------
+
+      Gx..x     Gateway al dominio 'x..x', dove 'x..x` e` una stringa di carat-
+                teri alfanumerici. Valori leciti per 'x..x' sono assegnati  dal
+                Coordinatore Internazionale FidoNet. Questo flag non e` utiliz-
+                zabile  da nessun nodo se non dopo un'autorizzazione  ufficiale
+                dell'IC o del Coordinatore Inter-Network Fidonet. I gateway re-
+                gistrati presso i domini includono:
+
+                uucp       usabile solo dai nodi presenti in una lista di  siti
+                           fidonet.org autorizzati, disponibile su 1:1/31.
+
+ - I flag seguenti definiscono i periodi dedicati alla posta supportati.  Hanno
+      la forma "#nn" o "!nn", dove nn e` l'ora UTC in cui inizia il periodo,  #
+      indica compatibilita` Bell 212A, e ! incompatibilita` con Bell 212A.
+
+      Flag      Significato
+      ----      -----------
+
+      #01       Mail hour zona 5 (01:00 - 02:00 UTC)
+      #02       Mail hour zona 2 (02:30 - 03:30 UTC)
+      #08       Mail hour zona 4 (08:00 - 09:00 UTC)
+      #09       Mail hour zona 1 (09:00 - 10:00 UTC)
+      #18       Mail hour zona 3 (18:00 - 19:00 UTC)
+      #20       Mail hour zona 6 (20:00 - 21:00 UTC)
+
+                NOTA: se applicabile, i periodi mail only devono essere  attac-
+                cati senza nessun altro comando in mezzo, come "#02#09". Solo i
+                periodi diversi da quelli della propria zona devono essere  da-
+                ti,  visto che l'osservanza della mail hour della propria  zona
+                e` obbligatoria.
+
+ - Il campo  finale  puo` essere usato per valori specifici  per  l'utente.  Se
+      presente,  il campo DEVE essere l'ultimo presente. Il campo di utente  e`
+      separato  dagli altri da una virgola (,), e il primo carattere e`  una  U
+      maiuscola.  I  flag  in questo campo sono separati tra  di  loro  da  una
+      singola virgola.
+
+      Campo     Significato
+      -----     -----------
+      Ux..x     Una stringa specificata dall'utente, che puo` contenere un qua-
+                lunque carattere alfanumerico tranne gli spazi. Questa  stringa
+                puo` contenere da uno a trentadue caratteri di informazione che
+                possono  essere usati per aggiungere dati definiti  dall'utente
+                ad  una specifica entry in nodelist. Il carattere "U" NON  deve
+                essere ripetuto, cioe` "UXXX,YYY" non "UXXX,UYYY".
+
+                Questo  campo NON deve essere usato per pubblicita` o  informa-
+                zioni  non essenziali. Se si hanno domande sull'uso  di  questo
+                campo,  contattate il vostro coordinatore di Network, Region  o
+                zona.
+
+                Questo campo non puo` essere usato nella zona 2 senza  autoriz-
+                zazione dello ZEC.
+
+ - Flag 'user' autorizzati nella zona 2:
+
+      Coordinazione EchoMail:
+
+           ZEC       Coordinatore  zonale EchoMail. Non piu` di una  entry  nel
+                     segmento  di zona 2 puo` avere questo flag, ed  essa  deve
+                     corrispondere all'attuale coordinatore zonale EchoMail.
+
+           REC       Coordinatore regionale EchoMail. Non piu` di una entry  in
+                     una  regione puo` avere questo flag, e questa deve  corri-
+                     spondere all'attuale coordinatore regionale EchoMail.
+
+           NEC       Coordinatore EchoMail di net. Non piu` di una entry in  un
+                     net  puo` avere questo flag, e questa  deve  corrispondere
+                     all'attuale coordinatore EchoMail di quel net. Questo flag
+                     sara` autorizzato dal REC rilevante.
+
+                     NOTA: Non sono piu` permessi AKA ridondanti usati per  in-
+                     dicare funzioni di coordinamento EchoMail.
+
+      Nodi connessi via ISDN:
+
+           ISDNA     19200 N 8 1, CCITT V.110/ECMA 102, Hayes compatibile, solo
+                     ISDN.
+
+           ISDNB     38400 N 8 1, CCITT V.110/ECMA 102, Hayes compatibile, solo
+                     ISDN.
+
+           ISDNC     64000, ISDN Common API, specifiche tedesche, solo ISDN
+
+      Restrizioni tecniche:
+
+ CCITT  V.110  e` una emulazione di modem con implementazione di  richieste  di
+ connessione  con l'insieme di comandi Hayes o V.25bis. Visto che l'insieme  di
+ comandi Hayes AT e` usato nelle connessioni analogiche, e` anche  raccomandato
+ per l'uso sulle connessioni ISDN.
+
+ L'ISDN  Common API e` (a questo momento) un'interfaccia specifica tedesca.  E`
+ sotto discussione in ambito CCITT e ETSI per una standardizzazione internazio-
+ nale.
+
+ Per TUTTI e tre i flag, si applicano le seguenti restrizioni:
+
+ - SOLO i nodi con lo STESSO FLAG possono connettersi tra loro. Cio` e`  dovuto
+ al  fatto che sotto l'ISDN non e` possibile il riconoscimento  automatico  del
+ baud  rate, e le applicazioni CAPI non possono attualmente connettersi  usando
+ l'emulazione modem V.110.
+
+ - I nodi che usano questi flag devono indicare una "velocita`" di 300 baud,  a
+ causa di limitazioni imposte dal software di processamento della nodelist.
+
+ Le entry in nodelist cosi` assomiglieranno (forse) a questa:
+
+ ,34,Deti's_BBS,Dortmund,Detlef_Koester,99-999-1234567,300,UISDNA
+ ,34,Deti's_BBS,Dortmund,Detlef_Koester,99-999-2345678,300,UISDNB
+ ,34,Deti's_BBS,Dortmund,Detlef_Koester,99-999-3456789,300,UISDNC
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                             IL TELEFONO: MA QUANTO TI COSTA?  ###
+ ############                                                               ###
+
+      Ci  si lamenta sempre che in Italia il telefono costa troppo e nel  resto
+ dell'Europa  (non  parliamo degli Stati Uniti,  ovviamente...)  telefonare  e`
+ proprio  una pacchia. Sara` poi davvero cosi`? Mi e` capitata tra le mani  una
+ tabella dei costi europei (espressi in dollari USA) a gennaio, quindi dopo gli
+ ultimi scossoni valutari. I dati si commentano da soli...
+
+ -----------------------------------------------------------------------
+ |  Costi Fissi                 | Costi al minuto di conversazione     |
+ |---------------------------------------------------------------------|
+ | nazione     |Allaccia- Canone|    Nazionale    |   Internazionale   |
+ |             |mento    mensile| 50Km 100Km 250Km|minimo  USA    Japan|
+ |---------------------------------------------------------------------|
+ | ITALIA      | 161.21   14.67 | .41   .49   .53 | 0.70   2.61   3.64 |
+ | Austria     | 102.79   13.71 | .34   .51   .51 | 0.74   1.54   2.40 |
+ | Belgio      | 102.45    9.95 | .05   .22   .22 | 0.63   1.17   2.20 |
+ | Danimarca   | 193.83   12.46 | .06   .09   .09 | 0.41   1.25   2.00 |
+ | Finlandia   | 861.62    5.32 | .08   .13   .13 | 0.54   1.09   1.84 |
+ | Francia     |  37.37   14.20 | .15   .27   .38 | 0.64   1.04   2.24 |
+ | Germania    |  39.18   14.83 | .14   .40   .40 | 0.84   1.79   2.59 |
+ | Grecia      | 247.17    5.77 | .24   .31   .40 | 0.84   1.79   2.59 |
+ | Irlanda     | 193.05   16.09 | .18   .36   .36 | 0.88   1.80   2.78 |
+ | Lussemburgo |  73.18    7.32 | .15   .15   --- | 0.61   1.46   2.56 |
+ | Norvegia    | 192.83   15.04 | .16   .16   .16 | 0.45   0.94   1.75 |
+ | Olanda      | 112.32   12.52 | .10   .10   .10 | 0.59   1.04   1.87 |
+ | Portogallo  |  76.68    9.26 | .18   .44   .44 | 0.98   2.19   2.93 |
+ | Spagna      | 240.54   10.92 | .39   .39   .57 | 1.38   2.22   4.17 |
+ | Svezia      | 264.66   22.05 | .11   .17   .17 | 0.53   1.14   2.28 |
+ | Svizzera    | 139.51   13.95 | .18   .18   .23 | 0.79   1.40   2.23 |
+ | UK (BT)     | 269.45   18.61 | .16   .23   .23 | 0.58   0.84   1.93 |
+ | UK (Merc.)  | 373.96   17.64 | .15   .17   .18 | 0.50   0.72   1.68 |
+ -----------------------------------------------------------------------
+
+ (da CommuniationsWeek International, 18 gennaio 1993)
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                   IL GERGO HACKER - PARTE 22  ###
+ ############                                                               ###
+
+      <GNU> /gnoo/, *non* /noo/ 1. [acronimo per "GNU's Not UNIX!", GNU non  e`
+ UNIX] Un progetto di sviluppo simile a UNIX dalla Free Software Foundation ca-
+ peggiata  da  Richard Stallman (rms@prep.ai.mit.edu). Il GNU EMACS e  gcc,  il
+ compilatore  C  GNU, due tool sviluppati per questo progetto,  sono  diventati
+ molto popolari nel regno hacker. Vedi <EMACS>, <copyleft>, <General Public Vi-
+ rus>.  2. Il noto hacker UNIX John Gilmore (gnu@hoptoad.com), abbastanza  iro-
+ nicamente  uno dei piu` noti e piu` rumorosi tra chi si oppone alla  filosofia
+ "l'informazione non dovrebbe essere proprietaria" di GNU (senso #1).
+
+      <GNUMACS>  /gnoo'maks/ [contrazione di "Gnu Emacs"]  Abbreviazione  udita
+ spesso per il tool simbolo del progetto <GNU>, <EMACS>. Usato spec. in contra-
+ sto con GOSMACS, un'altra precedente implementazione di Emacs.
+
+      <go flatline> [appiattirsi: dalla SF cyberpunk, si riferisce  all'appiat-
+ tirsi  del tracciato EEG alla morte cerebrale] vi, anche  aggettivato  (<flat-
+ lined>).  1. Morire, terminare, o piantarsi, spec. in  maniera  irreversibile.
+ Nella  parlata  hacker e` usato solo per le macchine, essendo  considerata  la
+ morte umana una materia un po' troppo seria per parlarne con scherzi  gergali.
+ 2. Rimanere completamente quiescente; detto di macchine che stano facendo  uno
+ shutdown controllato. "Puoi avere dei files danneggiati, se butti giu` UNIX ma
+ spegni  la  corrente prima che il sistema sia andato f.".  3.  Un  particolare
+ guasto dei terminali a tubo catodico in cui si perde lo scan verticale, cosic-
+ che` tutto quello che si vede e` una linea orizzontale luminosa che biseca  lo
+ schermo.
+
+      <gobble> [ingollare] vt. Consumare oppure ottenere. La frase <gobble  up>
+ tende a implicare "consumare", mentre <gobble down> tende a implicare   "otte-
+ nere".  "La  spia di output g. caratteri da un boffer di  output  del  <tty>".
+ "Penso che mi g. una copia della documentazione domani". Vedi anche <snarf>.
+
+      <gonk>  /gonk/ vt.,s. 1. Tergiversare o abbellire la verita`  oltre  ogni
+ ragionevole  riconoscibilita`. In tedesco il termine e` (fittiziamente)  "gon-
+ ken", in spagnolo il verbo diventa "gonkar". [NdE: ma in Italia non si e`  mai
+ sentito "gonkare" o "goncare". Chi vuole iniziare?] "Stai gonkando. la  storia
+ che mi hai detto e` una grande palla". In tedesco, "Du Gonkst mir" (Vuoi farmi
+ credere delle fandonie). Vedi anche <gonkulator>.  2. [inglese] Farsi un  son-
+ nellino ad un'ora strana.
+
+      <gonkulator> /gon'kyoo-lay-tr/ [dai vecchi telefilm "Gli eroi di  Hogan"]
+ s. Un pezzo di equipaggiamento pretenzioso che in realta` non ha alcuna utili-
+ ta`. Usato in genere per descrivere il pezzo di hardware meno preferito.  Vedi
+ <gonk>.
+
+      <Good  Thing> [Buona Cosa] agg. Spesso in maiuscolo;  pronunciato  sempre
+ come se fosse maiuscolo. 1. Meraviglia autoevidente per ciascuno in  posizione
+ da  notarla: "il modo PEP a 19.2 Kbaud del Trailblazer, con compressione  Lem-
+ pel-Ziv  al  volo e` una Buona Cosa per posti che forwardano le  netnews".  2.
+ Qualcosa  che  non puo` avere nessuno strano effetto, e che puo`  salvare  una
+ considerevole  pena in seguito: "Togliere il codice automodificante da  quella
+ libreria  shared sarebbe una Buona Cosa". 3. Se detto di strumenti software  o
+ librerie, come in "Lo YACC e` una Buona Cosa", connota specificatamente che la
+ cosa ha ridotto drasticamente la fatica di un programmatore. Opp. <Bad Thing>.
+
+      <gorilla  arm> [Braccio di gorilla] s. L'effetto collaterale che  ha  di-
+ strutto la tecnologia dei touch-screen per un suo utilizzo a larga scala,  no-
+ nostante un inizio promettente all'inizio degli anni '80. Sembra che i proget-
+ tisti  di tutti questi stupendi (v. <spiffy>) sistemi con menu tattile non  si
+ siano  accorti  che gli esseri umani non sono stati progettati per  tenere  le
+ proprie  braccia davanti alle loro facce facendo dei piccoli movimenti. Se  si
+ fanno un po' di selezioni, si comincia a sentire il braccio pesante,  indolen-
+ zito  e  insensibile, da cui "braccio da gorilla'. Questo  e`  considerato  al
+ giorno d'oggi un classico Esempio Orribile e una storia utile come avviso  per
+ i progettisti impegnati nei fattori umani; "ricordati il g.a." e` un'abbrevia-
+ zione per "ma come funzionera` tutto cio` nell'uso *reale*?".
+
+      <Gosperism> /goss'p@r'iz'm/ Un'hack, invenzione, o detto dell'arci-hacker
+ R. William (Bill) Gosper.  Tale nozione merita il suo proprio termine  perche`
+ ce ne sono moltissimi. Molte delle voci in <HAKMEM> sono Gosperism; vedi anche
+ <life>.
+
+      <gray  goo> [grigiume appiccicaticcio. NdE: e poi uno si  chiede  perche`
+ l'inglese sia cosi` adatto a rappresentare velocemente delle idee e l'italiano
+ no...]  s.  Una sostanza ipotetica composta di <sagan> [enormi  quantita`]  di
+ macchine di Von Neumann (robot autoreplicantesi) di dimensioni  microscopiche,
+ programmati per fare copie di se stessi a partire da qualunque cosa disponibi-
+ le. L'immagine che si associa al termine e` quella dell'intera biosfera terre-
+ stre  convertita alla fine in g.g. . Questo e` il piu` semplice degli  scenari
+ disastrosi della <nanotechnology>, ed e` facilmente confutato con ragionamenti
+ che involvono le richieste di energia e l'abbondanza relativa degli elementi.
+
+      <Great Renaming> [la Grande Rinominazione] s. Il <flag day> in cui  tutti
+ i gruppi su <USENET> hanno cambiato il loro nome dal formato net.* al corrente
+ schema a gerarchie multiple.
+
+      <great-wall>  [grande muro, dal gergo SF] vi.,s. Una spedizione di  massa
+ verso un ristorante orientale, spec. uno in cui il cibo e` servito in  maniera
+ familiare  e condiviso. C'e` una comune euristica per la quantita` di cibo  da
+ ordinare, espressa come "Per N persone, ordinate per N-1". [NdE: nonostante il
+ recente proliferare dei ristoranti cinesi anche in Italia, gli hacker italiani
+ tendono  a riunirsi ancora adesso in birreria, possibilmente una in cui  siano
+ anche serviti dei piatti caldi. Sarebbe interessante vedere le preferenze  cu-
+ linarie  degli hacker italiani...] Vedi <ORIENTAL FOOD>,  <ravs>,  <stir-fried
+ random>.
+
+      <Green  Book>  n. 1. Uno dei tre riferimenti standard per  il  PostScript
+ (`PostScript  Language  Program Design', Adobe  Systems,  Addison-Wesley  1988
+ QA76.73.P67P66  ISBN 0-201-14396-8); vedi anche <Red Book>, <Blue  Book>).  2.
+ `Smalltalk-80:  Bits  of History, Words of Advice',  Glenn  Krasner,  Addison-
+ Wesley 1983, QA76.8.S635S58, ISBN 0-201-11669-3 (anche questo e` associato con
+ libri blu e rossi). 3. La `X/Open Compatibility Guide'. Essa definisce un  am-
+ biente  <UNIX>  standard  internazionale che e`  un  soprainsieme  proprio  di
+ POSIX/SVID;  include  anche descrizioni di un toolkit  di  utilita`  standard,
+ feature di amministrazione di sistemi, e simili. Queste cose truci sono  prese
+ con particolare serieta` in Europa [NdE: probabilmente perche` appena si supe-
+ rano  i confini di una nazione ci si trova con apparecchiature non  compatibi-
+ li]. Vedi <Purple Book>.  4. L'interfaccia standard POSIX IEEE 1003.1 e` stata
+ soprannominata  "The  Ugly Green Book". [Il ripugnante libro verde].   5.  Uno
+ qualunque degli standard per il 1992 che saranno emessi dalla decima assemblea
+ plenaria del CCITT. Finora, questi hanno cambiato colore ad ogni ciclo di  re-
+ visione (nel 1984 era <Red Book>, nel 1988 <Blue Book>); corre  pero` voce che
+ questa convenzione sara` lasciata perdere. Tra le altre cose, il g.b.  include
+ le  specifiche di posta elettronica X.400 e gli standard fax dal Gruppo  1  al
+ Gruppo  4.  Vedi anche <Blue Book>, <Red Book>, <Green Book>,  <Silver  Book>,
+ <Purple Book>, <Orange Book>, <White Book>, <Dragon Book>, <Pink-Shirt Book>.
+
+      <green bytes> s. 1. Metainformazione inclusa in un file, come la sua lun-
+ ghezza o il suo nome; opposta al tenere tali informazioni in un record o  file
+ di descrizione separato. Il nome deriva da una riunione di uno User Group  IBM
+ in cui questi due approcci erano stati dibattuti e il diagramma del file  alla
+ lavagna aveva i "green bytes" disegnati in verde. 2. Per estensione, i bit non
+ di dati in un qualunque formato autodescrivente. "Un file GIF contiene, tra le
+ altre cose, dei g.b. che descrivono il metodo di codifica dell'immagine".
+
+      <green  lightning> [IBM; balenii verdi] s. Lampi  apparentemente  casuali
+ che  appaiono  sui terminali 3278-9 mentre si carica un set  programmabile  di
+ simboli.  Questo  baco hardware e` stato lasciato deliberatamente,  visto  che
+ qualcuno  in un suo lampo di genio ha suggerito che cio` avrebbe fatto  capire
+ all'utente che "qualcosa stava succedendo". Lo fa certamente. 2. [proposto] Un
+ qualunque baco convertito in una cosiddetta feature da un'abile  razionalizza-
+ zione o dal marketing. Ad es. "La Motorola chiama la robaccia CISC nell'archi-
+ tettura 8800 `logica di compatilibilita`', ma per me e` solo g.c.".
+
+      <GREP>  /grep/ [dall'idiom dell'editor qed/ed g/re/p (Global  search  for
+ Regular  Expression and Print: Ricerca globale per una espressione regolare  e
+ stampa) via il `grep(1)' <UNIX>] vt. Scannare velocemente un file o un insieme
+ di  file cercando una particolare stringa o pattern. Per  estensione,  cercare
+ qualcosa  per mezzo di pattern. "Hai voglia di fare un grep della bacheca  per
+ trovare la schedulazione dei backup di sistema?"
+
+      <grind>  vt. 1. [MIT e Berkeley: macinare, affilare]  Formattare  codice,
+ specialmente  LISP, indentando le righe in modo da farle  sembrare  piacevoli.
+ Questo  uso e` associato alla comunita` MACLISP ed e` oggidi`  raro;  <pretty-
+ print> era ed e` il termine preferito per tali operazioni. 2. [UNIX]  Generare
+ la  versione  formattata  di un documento dal sorgente  nroff,  troff,  TeX  o
+ Scribe.  3. Far girare per un tempo che sembra interminabile, facendo task no-
+ iosi  e inerentemente inutili. Simile a <crunch>, <grovel>. 4.  <grind  grind>
+ escl. Piu` o meno, "Come e` lenta la macchina oggi!"
+
+      <grind crank> [manovella per macinare] s. Un mitico accessorio di un ter-
+ minale. Una manovella sul lato di un monitor, che quando adoperata fa un rumo-
+ re come di russare e fa si` che il calcolatore vada piu` veloce. Di solito non
+ si  nomina esplicitamente, ma si fa semplicemente il gesto e il rumore  appro-
+ priati. Vedi <grind>, e <wugga wugga>.
+
+ Nota  storica: E` esistita almeno una macchina reale che aveva un g.c.  --  la
+ R1, una macchina di ricerca costruita verso la fine dei giorni dei grandi cal-
+ colatori a valvole nel 1959. R1 (nota anche come "The Rice Institute Computer"
+ - TRIC, e quindi come "The Rice University Computer" - TRUC) aveva uno  switch
+ per  l'esecuzione di un singolo passo, utile quando si debuggavano  programmi.
+ Visto che andare avanti passo passo in un grande programma era abbastanza  no-
+ ioso, c'era anche una manovella con degli ingranaggi che spingevano  ripetuta-
+ mente il tasto del passo singolo. Questo permetteva di "manovellare" per buona
+ parte  del codice, quindi rallentare fino al singolo passo quando si  arrivava
+ vicino  al codice di interesse, vedere il contenuto di alcuni registri  usando
+ la  "macchina da scrivere alla console", e continuare nuovamente a  girare  la
+ manovella.
+
+      <gritch>  /grich/ [piu` o meno, "digrignio"] 1. s. Una  protesta  (spesso
+ causata  da  un  <glitch>).  2. vi. Protestare.  Spesso  raddoppiato:  "Gritch
+ gritch".  3. Un sinonimo per <glitch> (come verbo o nome).
+
+      <grok>  /grok/ [groccare, dal racconto "Stranger in a Strange  Land",  di
+ Robert Heinlein, dove e` un verbo marziano che significa letteralmente  "bere"
+ e metaforicamente "essere una cosa sola con"] vt 1. Comprendere, di solito  in
+ un senso globale. Connota conoscenza intima ed esaustiva. Contrasta <zen>, una
+ conoscenza  divina  come un singolo breve lampo. 2. Usato di  programmi,  puo`
+ connotare semplicemente la comprensione, tipo in "Quasi tutti i compilatori  C
+ groccano void, in questi giorni".
+
+      <gronk>  /gronk/ [popolarizzato dai fumetti "B.C." di Johnny Hart, ma  la
+ parole  sembra  di origine precedente] vt. 1. Azzerare lo stato di  un  device
+ piantato  e farlo ripartire. Piu` severo di <frob>.  2. Rompere.  "Lo  scanner
+ della  teletype era g., cosi` abbiamo buttato giu` il sistema". 3.  <gronked>:
+ agg.  Di  persone,  la  condizione di sentirsi molto  stanco  o  malato.  Opp.
+ <broken>,  che usato per l'hardware singifica piu` o meno lo stesso di  g.  ma
+ connota  depressione o problemi mentali/emotivi nelle persone. 4. <gronk  out>
+ vi. Cessare le funzionalita`. Di persone, andare a casa a dormire. "Penso  che
+ ora io g.o.; a domani".
+
+      <grovel> [strisciare] vi. 1. lavorare interminalbilmente senza  progresso
+ apparente. Spesso usato transitivamente con "over" o "through". "Lo spazzafile
+ sta g. per le directory gia` da dieci minuti". Confr. <grind> e <crunch>. For-
+ ma enfatica: <grovel obscenely>.  2. Esaminare minutamente o in completo  det-
+ taglio. "Il compilatore g. su tutto il programma sorgente prima di  cominciare
+ a tradurlo". "Ho g. su tutta la documentazione, ma non sono ancora riuscito  a
+ trovare il comando che voglio".
+
+      <grungy> [sgangherato] /gruhn'jee/ agg. Incredibilmente sporco, grasso, o
+ sudicio. Una cosa lavata da meno di un anno non e` realmente g. . Usato  anche
+ metaforicamente; alcuni programmi (specialmente accrocchi) possono essere  de-
+ scritti come g. . Al giorno d'oggi, comune anche nella lingua generale.
+
+      <gubbish> /guh'bish/ [parola valigia da "garbage" e "rubbish"? in italia-
+ no si potrebbe rendere con "rumatura", da rumenta e spazzatura] s. Spazzatura;
+ sterco; nonsenso. "Che roba e` tutta questa g.". E` anche riportata la  parola
+ valigia opposta "rubbage".
+
+      <guiltware> [roba colpevole] s. <freeware> decorato con un messaggio  che
+ dice  quanto duramente e a lungo l'autore ha lavorato e intimante che uno  non
+ e`  un  bravo downloadatore se non spedisce immediatamente al  povero  martire
+ sofferente sacchi di soldi.
+
+      <gun> [sparare: dal comando :GUN sull'ITS] vt. Terminare forzatamente  un
+ programma o un lavoro (al computer, non una carriera). "Qualche idiota ha  la-
+ sciato  a  girare un processo che si succhiava meta` dei cicli, cosi`  gli  ho
+ sparato". Confr. <can>.
+
+      <gurfle>  /ger'fl/ inter. Un espressione di incredulita`  scioccata.  "Ha
+ detto che dobbiamo ricodificare in FORTRAN questa cosa per la prossima  setti-
+ mana. Gurfle!". Confr. <weeble>.
+
+      <guru> s. 1. [UNIX] un esperto. Implica non solo abilita` di <wizard>  ma
+ anche  l'essere  storicamente una risorsa di conoscenza per  gli  altri.  Meno
+ spesso, usato (con un qualificatore) per altri esperti su altri sistemi,  come
+ in "VMS guru". 2. L'equivalente Amiga di "panic" in UNIX. Quando il sistema si
+ pianta,  un  messaggio critico "GURU  MEDITATION  #XXXXXXXX.YYYYYYYY"  appare,
+ indicando quale era il problema. Un guru Amiga puo` ricavare informazioni  dai
+ numeri. Generalmente un evento g. deve essere seguito dalla stretta vulcaniana
+ (v. <vulcan nerve pinch>). Purtroppo dalla versione 2.0 del sistema  operativo
+ Amiga si e` eliminato il messaggio.
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   8  ###                                    NOTIZIE FIDONET REGION 33  ###
+ ############                                                               ###
+
+                IL TEMPO DEI CAMBIAMENTI
+                ========================
+
+      Gennaio  ha portato un vento di novita' nella vita del net 334. Un  vento
+ irruento, forse inaspettato, ma sicuramente salutare.
+      Cambiare  e'  vitale  per tutti: per una associazione di  fatto  su  base
+ volontaristica  (come la rete FidoNet) il cambiamento e', oltre ad un  fattore
+ di  vera democrazia, un momento fondamentale di riaggregazione e di forte  im-
+ pulso vitale.
+      Il Net 334 ha rinnovato i suoi 'vertici' e ha eletto, democraticamente  e
+ a  scrutinio  segreto,  il  coordinatore  di  Net  e  quello  Echomail.  Anche
+ l'associazione TamTam ha rinnovato totalmente il proprio Consiglio Direttivo.
+      In  TamTam ho ritenuto giusto e corretto dare spazio, nonostante il  voto
+ quasi  plebiscitario, a volti 'nuovi': il mancato sostegno alla  mia  proposta
+ sulla struttura del Consiglio non poteva, infatti, passare inosservato.
+      Occorre capire, in tempo, quando e' ora di dare spazio ad altri: ho  sem-
+ pre detto che TamTam non e' l'AAFFC (Associazione Amici e Fans di Franco  Car-
+ cillo :-) ) e, quantunque fondatore, non mi arrogo nessun diritto di prelazio-
+ ne  sulle cariche sociali. Anzi, trovo estremamente positivo il fatto  che  ci
+ siano altri soci pronti ad impegnarsi attivamente e responsabilmente, in prima
+ persona.
+      In  questi gruppi volontaristici, come TamTam e come il Net 334, ci  deve
+ essere  sempre spazio per chi vuole impegnarsi, lavorare per gli altri  e  con
+ gli altri, su comuni obbiettivi.
+      Il cambiamento non deve mai spaventare, puo' suscitare sorpresa e qualche
+ iniziale sbandamento, ma, credemi, si rivela, alla fine, sempre, positivo.
+     
+      E poi, mica finisce qui?
+
+                               Franco Carcillo
+
+
+                NEWS
+                ====
+
+      A  Genova  si sono incontrati, domenica 24/1, i coordinatori  della  rete
+ FidoNet.  C'erano praticamente tutti: l'RC (Ermanno Iencinella) e il REC e  NC
+ 335  (Stefano Pasquini), per il net 331 Enrico Cima (NC) e Vertigo (NEC),  per
+ il 332 Franco Mulato (NC) e Mario Mure' (NEC) con consorte, per il 333  Adolfo
+ Melilli (NC e NEC), per il 334 Angelo Verdone (NC) e Marco Russo (NEC).  Unico
+ assente il NEC del 335.
+      Erano  inoltre presenti Giovannelli (Echolist), Bigagli  (EchoWatcher)  e
+ Carcillo (?).
+
+      L'incontro si e' tenuto all'interno di una tipica trattoria genovese e ha
+ avuto un ordine del giorno sparso. In definitiva un'utile momento di  incontro
+ e di scambio di idee a ruota libera sui temi del coordinamento della rete.
+
+
+                      *** net 332 ***
+
+Poche notizie dal 332 (a parte che l'anno vecchio e` finito e quello nuovo
+e` cominciato gia`).
+
+E' stata decisa la creazione di un'area echomail di NET dedicata ai viaggi,
+alle vacanze e al turismo. Il tag sara` VIAGGI.332
+
+  Ciao Ciao!      ___
+                 /  _
+                <___/ iovanni
+
+
+                      *** net 334 ***
+
+      Rivoluzione  ai vertici del network 334. Nella votazione tenutasi  il  20
+ gennaio,  sono risultati eletti Angelo Verdone (334/21) come NC e Marco  Russo
+ (334/108)  come  NEC.  Quest'ultima elezione  e`  stata  pero`  immediatamente
+ contestata  dal REC Stefano Pasquini, in quanto non avvenuta secondo le  norme
+ di  EchoPolicy  (votazione per matrix: Marco e` stato  eletto  per  scrutiniop
+ segreto  durante  una  riunione di net). E` stata  quindi  indetta  una  nuova
+ votazione  secondo i dettami suesposti, votazione che pero` non dovrebbe  dare
+ alcun risultato a sorpresa (essendoci un unico candidato... :-) )
+
+      Anche TamTam, l'associazione per la telematica amatoriale, ha cambiato il
+ proprio consiglio direttivo. I sei candidati per il consiglio direttivo  erano
+ Franco Carcillo, Lorenzo Travaglio (entrambi del consiglio uscente), Paolo So-
+ brito, Alberto Ferrari, Teodoro Lio e Fabrizio Chignoli. I voti ricevuti  sono
+ stati:  Carcillo 14 - Lio 12 - Ferrari 9 - Chignoli 8 - Sobrito 5 -  Travaglio
+ 4. Carcillo preferisce pero` dimettersi dal consiglio neoformato, che vede ora
+ come presidente Alberto Ferrari, come vicepresidente Fabrizio Chignoli e  come
+ tesoriere Teodoro Lio.
+
+      Il  primo marzo, alle ore 21 presso il CRDC di c.so Sicilia 13, ci  sara`
+ come di consueto la riunione di net.
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:   
+
+ 334/100 - 011-3299706     | 334/104 - 011-502423      | 334/105 - 011-2238389
+ 335/211 - 099-4746313     | 335/215 - 099-4746044     | 331/112 - 0341-360511
+ 333/603 - 040-3783111     | 332/315 - 0721-30783      | 334/107 - 011-890084
+
+      da Sintel, 011-596274,
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/306 - 0121-542795     | 335/210 - 081-5709527     | 335/405 - 06-315323
+
+
+####                            End of TELEM026                            ####

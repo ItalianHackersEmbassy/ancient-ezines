@@ -1,0 +1,2288 @@
+ #### TELEM047 - Telematicus - Volume 05 - Numero 013- Anno 1995 -104   pag.####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                              Marzo/Aprile 1995
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematicus   e'  (C)  dei  singoli  autori.   E'
+ espressamente consentita la distribuzione e il riutilizzo  del  bollettino  in
+ tutto  o in parte, purche' non a fini di lucro e citando sempre autore e fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 104 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+
+ [ 1]  Editoriale  .   .   .   .   .   .   .   .   .   .   .   .  (RRE) pag.  4
+ [ 2]  Lettere aperte  .   .   .   .   .   .   .   .   .   .   . (AAVV) pag.  6
+ [ 3]  I point su Mac: inchiesta   .   - parte  III-a  . (Moreno Cuman) pag. 10
+ [ 4]  I point su Mac: inchiesta   .   - parte  III-b  . (Moreno Cuman) pag. 16
+ [ 5]  Un ntwk al mese...(XX): Internet provider:l'Universita' (Costa2) pag. 20
+ [ 6]  Un progetto di legge    .   .   .   .   .   .(Valentino Spataro) pag. 26
+ [ 7]  Linux'95.   .   .   .   .   .   .   .   .   .   .   .   .(.mau.) pag. 41
+ [ 8]  Un nuovo lettore Mac!   .   .   .   .   .   .   (Nick Montanari) pag. 49
+ [ 9]  Curiosita': Il gergo hacker .   - parte 41  .   .   .   . (AAVV) pag. 53
+ [10]  Il convegno di Prato    .   .   .   .   .   .(Valentino Spataro) pag. 61
+ [11]  Bibliografia: Multinet  .   .   .   .   .   .   . (La direzione) pag. 70
+ [12]  Corrige: Gli errori di impaginazione dei Telem  (Nick Montanari) pag. 76
+ [13]  Corrige: Warp, precisazioni e smentite  .   .   .   .   . (AAVV) pag. 79
+ [14]  Notizie Fidonet region 33   .   .   .   .   .   .   .   (Orsini) pag. 97
+
+
+
+                  Questo Telematicus e' nato con l'aiuto di...
+
+
+ Editor Nett-urbinus: Costa2              | * I collaboratori dai network: *
+ Editor Linosus     : Maurizio Codogno    | Roberto Orsini       (2:332/403.74)
+ Editor Legiferans  : Valentino Spataro   | Giovanni Lopes       (2:332/114.2)
+ Editor Macchians   : Moreno Cuman        | Angelo Verdone       (2:334/21)
+ Editor Macchinus   : Nick Montanari      | Enrico Franceschetti (2:335/212)
+                                          |
+
+ Editor Warpans  : Stefano Costa2, Marco Rocco
+ Editor Mittens  : .mau., Stefano Costa2, Roberto Orsini
+ Editor Corrigens: Nick Montanari
+ Editor Citatus  : G.C. Cipriani, Luciano Giustini, Fernando  Carello, Beta
+ Editor saccheggiati: Eric S. Raymond <esr@snark.thyrsus.com>
+
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO) al 011-9235565.
+ e-mail: rolandor@inrete.alpcom.it
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+  Intanto  una  premessa:  questo  number  ha  avuto un'infanzia tormentata per
+ soliti casini interni :) spero non troverete *troppi* errori in giro.
+
+  Poi un number doppio perche' ho visto  che  piu' di un number al mese proprio
+ non ce la faccio (sono uno sfaccendato lo so) e quindi non riesco a recuperare
+ il number perso.  Chiaramente per bilanciare ho  abbassato  anche  un  po'  la
+ qualita' della rivista :)
+
+  Cosa dire?  Il mondo telematico pare nuovamente in fermento: sono spuntate un
+ sacco di riviste, alcune decisamente  migliori di questa, altre non proprio...
+ :) Ma di questo leggerete il prox number.
+
+  Poi e' spuntata la primavera - e qui a Torino il gran caldo - e sembra che ci
+ sia una gran voglia di fare un giro.
+
+  Bene bene.
+
+  Infine abbiamo un nuovo lettore per Mac!   Dopo  Moreno  Cuman  ecco  che  si
+ lancia Nick Monanari!!
+
+  Che dire se non che: siamo commossi!
+
+  Oh, ecco, solo due parole su  Spataro.  Da qualche parte, in qualche rivista,
+ c'e' scritto che  la  redazione  "non  e'  responsabile  ne'  per  forza  deve
+ condividere cio' che scrivono i propri articolisti".
+
+  Mah,  chiaramente  quando si puo' ci si para il culo da qualsiasi cosa.  Beh,
+ nel nostro caso  alla  redazione,  avendo  constatato  che l'articolo su Prato
+ aveva un tono sufficientemente polemico, avendo notato  che  il  comportamento
+ del  Livraghi (santo patrono dell'ALCEI) sembrava in linea con quello che essa
+ reputa  la  realta',  ed  avendolo  trovato  anche  un  poco  spiritoso,  l'ha
+ pubblicato. Col suo permesso & benedizione, ovviamente.
+
+  NB: causa BUG interno del lettore DOS  la  rivista  puo'  essere  letta  per
+ intero solo ponendo 99 al posto di 104. Sorry :)
+
+  Buona lettura.
+
+                                                                           RRE
+
+ ############                                               LETTERE APERTE  ###
+ ###   2  ###                                               .mau.           ###
+ ############                                                               ###
+
+ Riassunto:
+
+        Visto che non ho ricevuto lettere  degne  di tale nome (o meglio visto
+       che quelle che ho ricevuto interessanti le ho trasformate in  articolo,
+       ecco qui ancora un po' di flames sul sesso :) della rete.
+
+ ------------------------------------------------------------------------------
+
+ From : Maurizio Codogno
+ Subj : bisogna proprio spiegarti tutto
+
+  che editor ignorans che sei...
+
+  la domanda "la rete e` di  destra  o di sinistra?" e` semplicemente malposta.
+ Forse che la televisione e` di destra o di sinistra?  Tutto dipende da come le
+ vuoi usare.  Fino a che la rete e` stata appannaggio della fortunata minoranza
+ accademica, si aveva un comportamento "sinistra".  Adesso che ci si vuole fare
+ i soldi, diventera` "di destra".
+
+  Quanto al Manifesto, un conto e` dare la possibilita` di  potere  leggere  in
+ linea  le notizie, un altro e` darsi la zappa sui piedi e fare si` che nessuno
+ legga piu` il giornale.  A me  va benissimo aspettare mezza giornata per avere
+ la comodita` di un browsing.
+
+ ciao,                                     .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+  Secondo, francamente questo dibattito sulle reti di sinistra/destra mi da' il
+ voltastomaco.   Con  questi  discorsi   si   avalla,  autorizza,  incita  alla
+ strumentalizzazione ed all'emarginazione, politica e sociale, con il risultato
+ di acuire gli scontri e le divisioni, altro che unione delle  persone  con  le
+ reti.
+
+  Mi  ricordo  che  tanto  tempo fa tra i giovanotti c'era l'usanza di dividere
+ tutto tra 'buoni' e 'cattivi' l'intero  scibile  umano ed il suo mondo.  Cosi'
+ la Nutella era di sinistra, e se capitavi in una famiglia di  neri  il  povero
+ bambino stava senza le piccole gioie quotidiane, se eri invece di sinistra non
+ potevi  ascoltare  Battisti,  anche  se la ragazzotta che ti piaceva tanto era
+ pazza per lui, precludendo interessanti sviluppi futuri.
+
+  Siamo contro Berlusconi che dice  che  i  comunisti  sono gente malvagia e da
+ estirpare e lo  chiamamo  Cavaliere  Nero,  additandolo  come  piaga  sociale.
+ Cerchiamo  di  rimanere  obbiettivi:  Berlusconi  vuole soldi e potere, non le
+ teste di due o tre  poveri  fessi.   Piantiamola di scimmiottare il suo gioco,
+ cerchiamo di dimostrare di essere (moralmente) superiori.  SONO  ARCISTUFO  DI
+ QUESTE  SUDDIVISIONI  CLASSISTE.   Fanno solo ridire, come i due esempi teste'
+ citati e veri (esperienza personale).  Vogliamo crescere o no????
+
+                                                        Stefano Costa2
+
+                                                        Fidonet:  2:331/128
+                                                        Euronet:  230:1012/101
+                                                        Cybernet: 65:1200/5
+                                                        scosta@bix.com
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+  Ed ora passiamo  all'editoriale  maledetto,  visto  che  la cosa sembra voler
+ continuare.  :-)
+
+  Devo confessare che non avevo dato molto  peso  a  quello  del  mese  scorso.
+ Dopotutto  sei  il  direttore di un'importante testata [:-)] ed e` tuo diritto
+ esprimere  cio`  che  pensi   nello   spazio   a   te  riservato,  ma  ora  e`
+ _proprio_necessario_ buttare in politica anche Telematicus?
+
+  Con tutto il rispetto per te e per i politici tutti, io  c'ho  su  due  PALLE
+ tante.  Amen.
+
+ A  questo  punto,  non credo sia necessario che ti dica chi, secondo me, e` il
+ "vero utente della rete" tra quelli che ti hanno risposto.  ;-)
+
+
+                                                                   |'!Chao!_
+                                                                   |__ OrsO/
+                                                                          /
+                                                                   2:332/403.74
+
+
+
+
+ ############ Parte III-a                                                   ###
+ ###   3  ###                                     I point su Mac: Inchiesta ###
+ ############                                                 Moreno Cuman  ###
+
+ Riassunto:
+
+        Come avevo promesso  nel  prec.   number  eccovi in anteprima mondiale
+       cosa indossano le Macchiane ed i Macchiani, mentre - da bravi  point  -
+       si  sgranocchiano  quella  mole di stupidi messaggi che e' l'area FIDO.
+       :)
+
+         Il tutto grazie all'inossidabile Moreno Cuman.
+
+            t'avevo promesso i risultati dell'inchiesta  sulle  configurazioni
+           telematiche degli utenti dell'area MAC.ITA...  eccoli qua.
+
+         Ora a mio insindacabile giudizio ho  diviso il tutto in due tronconi,
+        principalmente per accrescere la suspance del vincitore del PowerPC.
+
+         Ma anche per ricordare un po' quei  telefilm  che  danno  sulle  reti
+        berllusconiane,  dove  ogni  5  minuti  c'e'  uno  spazio  per  stacco
+        pubblicitario...   che  il  nostro  buon  berlusca ancora non sfrutta.
+        Ecco, immaginatevi uno stacco pubblicitario senza pubblicita' :)
+
+         Per non parlare poi delle storie di Topolino che seguono sullo stesso
+        number...
+
+ ------------------------------------------------------------------------------
+
+                               SVAGHI TELEMATICI
+                              inchiesta - parte a
+
+ I numeri:
+
+ Che marca di modem usate e che velocita' raggiunge?
+
+  - marca usata
+
+    US Robotics Courier V.34           26.6%
+    SupraFaxModem 144 v.32bis          13.3%
+    USR Sportster 14400 Fax Modem      13.3%
+    ZyXEL U-1496E                      13.3%
+    GVC F-1114V/R2                      6.6%
+    Modem Trust AE1414                  6.6%
+    Prolink 1428 lew - 28800 bps        6.6%
+    Supra 288 Powerbook                 6.6%
+    Trust AP1414 Pocket                 6.6%
+
+  - velocita' (massime) raggiunte
+
+    28800 bps                          40.0%
+    14400 bps                          46.6%
+    altre (ZyXEL, per esempio)         13.4%
+
+  nota:  alcuni  hanno  due  modem,  sia  perche' hanno un portatile (con modem
+        interno)  sia  perche'  hanno  conservato  il  "vecchio"  modem  per le
+        emergenze.  Ai fini della statistica non ho considerato il possesso  di
+        tali  modem.   Le  marche  sono comunque le seguenti: PowerPort/Mercury
+        V.Terbo, Supra V32b.
+
+
+ Quale programma usate per il point?
+
+  CounterPoint/Formula1              26.6%
+  Pizza/Formula1                     26.6%
+  BlueWawe/Point: Alice4Mac 2.4.2 E   6.6%
+  Counterpoint 2.3 + Charon 0.95      6.6%
+  MacWoof + ZZWoof                    6.6%
+  QWK/Point: CounterPoint 2.2/2.3     6.3%
+  (Amiga) April + Trapdoor            6.6%
+  (PC)                               13.3%
+
+
+ Quale programma usate per le comunicazioni (emulazione di terminale):
+
+  ZTerm                              80.0%
+  First Class Client                 26.6%
+  Telefinder PRO                     26.6%
+  MicroPhone Lite                    13.3%
+  Navigator 3.2.1                     6.6%
+  (Amiga) Terminus                    6.6%
+
+  nota: la  somma  delle  percentuali  supera  il  100%  poiche'  l'uso  di una
+        applicazione non esclude l'altra...   Prendete  il  valore  percentuale
+        come indice di preferenza.
+
+ Che applicazione usate per spedire e ricevere i fax?
+
+  - il modem spedisce e riceve i fax?
+
+    si                                 60.0%
+    no                                 40.0%
+
+  - applicazione usata per la gestione del fax/modem
+
+    FaxSTF                             53.3%
+    (PC) BitFax per Windows 2.05        6.6%
+    niente                             40.0%
+
+  nota: alcuni hanno il modem fax anche sul portatile; ai fini della statistica
+        sono stati conteggiati una sola volta.  Si tratta  comunque  del  modem
+        PowerPort/Mercury  V.Terbo  con  l'applicazione  GlobalFax  2.08b della
+        ditta produttrice del modem.
+
+
+  Il dato che piu' mi interessava (cosa credevate :-))
+
+ Indossate mutande o boxer o biancheria o niente?
+
+  - maschi
+
+    boxer                             26.6%
+    mutande                           13.3%
+    a seconda dell'umore               6.6%
+
+  - femmine
+
+    porto gli slip                     6.6%
+
+
+  - non hanno risposto              46.6%
+    (e quindi siamo autorizzati a pensare quel che vogliamo ;-))
+
+  Fra tutti coloro che hanno risposto e'  stato estratto un PowerPC 6100 + CD e
+ monitor da 17 pollici.  Il vincitore nella prossima parte!
+
+
+                                                                  Moreno._
+                                                                  2:333/205.102
+
+
+
+ ############ Parte III-b                                                   ###
+ ###   4  ###                                     I point su Mac: Inchiesta ###
+ ############                                                 Moreno Cuman  ###
+
+ Riassunto:
+
+        Eccoci al giudizio  di  Moreno,  ecco  dal  suo portentoso cervello di
+       splendido analista cosa ne deduce *:)
+
+ ------------------------------------------------------------------------------
+
+                               SVAGHI TELEMATICI
+                              inchiesta - parte b
+
+  lo so, lo so che leggete questo  messaggio  solo  per  cercare  il  nome  del
+ vincitore  del  PowerPC!   :-))  Beh,  che  aspettate  a saltare alla fine del
+ messaggio?
+
+  Anzitutto due parole sul campione di  persone  votanti: 15.  E' poco?  Non e'
+ significativo?  Se lo confrontiamo con il numero totale di utenti  Fidonet  (o
+ utenti  telematici  abituali)  e'  assolutamente  insufficiente  per qualsiasi
+ analisi statistica.
+
+  Leggermente diverso e' il caso nel  quale  ci si limiti a considerare la sola
+ area MAC.ITA (come in realta' era nelle premesse) che potra'  avere  si  e  no
+ (qui  Stephen  e'  chiamato  a  fare  una  stima  [*])  50  lettori  abituali.
+ Sottolineo  lettori  abituali,  ovvero  persone che usano per leggere la posta
+ elettronica un lettore fuori linea o un'applicazione per point.
+
+  Forse il messaggio nel  quale  chiedevo informazioni puo' avere "selezionato"
+ il tipo di persone che hanno inviato i loro dati, ma si deve notare come tutti
+ quelli che hanno risposto siano point  o  utilizzatori  di  un  lettore  fuori
+ linea.   Sono queste, due soluzioni che garantiscono (oltre al risparmio sulla
+ bolletta telefonica) una  migliore  qualita'  degli interventi telepatici, sia
+ per il maggior tempo a  disposizione  che  per  la  costante  frequenza  delle
+ conferenze alle quali partecipano.
+
+  Questo  tipo di appassionato e' dotato di modem veloce (almeno un 14.400 bps,
+ ma tende a migrare verso le nuove  offerte tecnologiche) e ha un buon bagaglio
+ di conoscenze telematiche (il passo da utente interativo  a  point  o  lettore
+ fuori linea non e' poi cosi' semplice).  E' aperto verso esperienze innovative
+ come possono essere le BBS FirstClass e TeleFinder.
+
+  Aggiungerei  inoltre  che  (questo  non  emerge dal sondaggio, ma si nota dai
+ messaggi che transitano  in  area)  conosce  (e  usa  regolarmente  o sa usare
+ all'occasione) una buona parte dei servizi Internet.
+
+  Pertecipano inoltre alla conferenza MAC.ITA persone interessate al Macintosh,
+ ma che hanno il point su Amiga o su PC.
+
+  Quello che ho scritto vi pare abbastanza scontato?  Non so se  e'  mai  stata
+ fatta  un'indagine  nelle  conferenze  a  maggioranza  (o  totale)  utenza DOS
+ (Windows e OS/2) ma ho la sensazione  che i risultati (e il pur approssimato e
+ superficiale profilo dell'utente medio) possano  essere  alquanto  diversi  da
+ quelli ora emersi.
+
+  Il  vincitore,  il  cui  nome  e'  stato estratto per sorteggio, risulterebbe
+ essere Roberto Ferrara!   :-))  Scrivo  "risulterebbe"  perche'  alla data del
+ sorteggio, da un controllo presso l'Apple  Italia  non  risultava  abbonato  a
+ Happy  Line  News  [**]  (condizione necessaria per aver diritto a ritirare la
+ vincita)
+
+ :-))
+
+
+
+                                                                  Moreno._
+                                                                  2:333/205.102
+
+
+
+
+ [*] Stephen Head e' il  moderatore  dell'area  MAC.ITA.  Forse gli e' sfuggito
+     questo messaggio, perche' non ha mai comunicato  quanti  sono  quelli  che
+     seguono l'area...  e io non ne ho proprio idea.
+
+ [**]  Happy Line News e' uno stupidissimo foglio pubblicitario (due pagine) al
+      quale ci si  puo'  abbonare  per  la  modicissima  somma  di lire 100.000
+      (ridotte a 80.000 perche' siamo nel periodo  natalizio  [N.d.E.:  eravamo
+      allora!]).   Una  tale  vantaggiosa  offerta e' arrivata nelle case degli
+      utenti Apple ai primi di novembre.
+
+
+
+
+
+
+
+ ############ Parte IX                       Un network al mese...  o quasi ###
+ ###   5  ###                                   Internet provider in Italia ###
+ ############                                                 Stefano Costa ###
+
+ Riassunto:
+
+        Il buon Costa2 e' andato a fare una  capatina  all'universita'  ed  e'
+       rimasto sbacalito da tutto il ben di dio che ci ha trovato.
+
+        Eccovelo raccontato:
+
+ ------------------------------------------------------------------------------
+
+                        Un network al mese....o quasi
+
+                         Internet provider in Italia
+
+                                 L'UNIVERSITA'
+
+  Con questa  serie  voglio  dare  un  panorama  almeno  parziale  dell'offerta
+ commerciale  su  internet.  La falsariga con cui verranno scritti gli articoli
+ sara' quella seguita qui, in modo da darvi un metro preciso di paragone tra un
+ Internet Provider (IP) e l'altro.  Alla verra' stilato un giudizio globale.
+
+  Questi articoli sono il risultato  delle  mie  ricerche per la mia nuova casa
+ nel ciberspazio.  Vi accorgerete che sono un tipo esigente e che la realta' e'
+ sempre piu' brutta delle illusioni.
+
+  No, l'universita' non offre  internet  a  pagamento al pubblico, solo volevo
+ iniziare ponendo il termine di paragone con quello che e' di  gran  lunga  il
+ servizio  migliore:  l'universita' appunto.  [N.d.E.: io farei anche un salto
+ da .mau. per vedere come si diverte... *:)]
+
+  Non sto scherzando:  certo,  l'anarchia  regna  sovrana  in  molti atenei, la
+ qualita' dei  corsi  e'  fortemente  disomogenea,  il  costo  in  rapporto  ai
+ risultati  eccessivo,  ma internet e' "gratis" agli studenti nel senso che non
+ devono sborsare nulla oltre alla retta annuale.
+
+  In piu' potete connettervi  quanto  vi  pare.   Io personalmente ho sfruttato
+ l'account di un mio amico universitario, su di un  X  terminal  HP  con  video
+ 1152x800  a  16  toni  di  grigio,  Motif,  ed  una vera full connectivity con
+ internet.
+
+  Per full intendo che potevo  usufruire di tutti i servizi, (FTP,TELNET...etc)
+ passati, presenti e futuri (nel senso che se mi scaricavo  i  sorgenti  di  un
+ qualche  client  e  li  ricompilavo  su  HP ero pronto ai nastri di partenza).
+ Questo non e' possibile con gli IP che non offrono SLIP/PPP.
+
+  Non vi dico il senso di rilassamento nel poter fare sessioni senza l'angoscia
+ della bolletta telefonica.   Una  liberazione,  che  vale  da sola una visita!
+ Solo cosi' vi potete godere i newsgroup e Mosaic.
+
+  Provate ad usare Mosaic  con  un  provider  commerciale,  e  vedrete  che  al
+ bimestre successivo non lo userete piu' (od i vostri genitori vi obbligheranno
+ a  staccare la spina).  La liberta' e' una bella cosa, ma i soldi che vanno la
+ limitano fortemente.  [N.d.E.: si vede  che  il  Costa2 non aveva un lavoro al
+ tempo dell'articolo :)]
+
+  E' proprio questo il problema in Italia: il  costo  delle  infrastrutture  e'
+ altissimo,  ed  impedira' a vasti strati di popolazione di poter usufruire del
+ servizio.  Non per niente in america si parla di Universal Access.
+
+  Non aspettatevi che tutti  prendano  internet.   Solo tutti quelli che vivono
+ nelle grandi citta'.  Gli altri ciccia.
+
+  Seconda cosa buona: si lavora su una macchina UNIX, e dato che la  stragrande
+ maggioranza  dei siti internet e' pure gestita da questo sistema operativo, ci
+ si sente 'a casa', su un' estensione della propria macchina.
+
+  Anche qui, le varie BBS che offrono internet sono nella polvere.  Multitask a
+ gogo,  leggete  la  posta  mentre  scaricate   la  demo  dei  Future  Crew,  e
+ chiacchierate col vostro vicino/a di banco.  Eccellente anche questo  punto di
+ vista sociale.
+
+  Veniamo ora alla velocita' di trasmissione in linea dedicata (quale e' quella
+ dell'universita').   Questo  e'  un  punto  dolente,  dato che sono proprio le
+ universita' a generare un forte traffico sui siti FTP e WWW.
+
+  Io personalmente ho piazzato  un  discreto  2K al secondo, raggiungibile oggi
+ giorno da chiunque con un modem un po' serio.  Ma ci sono dei  giorni  che  va
+ peggio (o meglio, di domenica si vocifera che si va sui 7-8K/sec).
+
+  Ma di questo un utilizzatore casalingo non se ne fa nulla.  Da nullo a scarso
+ il  supporto  utente,  ma  non  aspettatevi  molto  di  piu'  da  un  provider
+ commerciale: in questo periodo di boom devono tenere dietro a mille persone.
+
+  Il  sistema non e' facile da usare, ma del resto in universita' siete li' per
+ imparare, quindi questo aspetto  non  lo  considero negativo.  Purtroppo molti
+ provider commerciali sono complessi tanto quanto  e  con  lo  stesso  supporto
+ (cioe' zero).
+
+  Occorre  essere  seriamente  motivati  per  entrare  in questo mondo, e forse
+ questo e' un bene.
+
+ Voto finale: 10, rapporto prezzo/prestazioni imbattibile.  Potete solo trovare
+ di peggio.
+
+
+
+
+                                         Stefano Costa2
+                                         Fidonet:  2:331/128, oppure 2:331/306
+                                         Euronet:  230:1012/101
+                                         Cybernet: 65:1200/5
+
+
+
+  Potete usare PGP con la mia chiave  pubblica, tenendo presente che in Fido la
+ crittazione e'  tollerata  od  addirittura  avversata  da  certi  sysop.   Per
+ qualsiasi  motivo  (ivi  compreso  il sacrosanto diritto alla privacy) usatela
+ pure.  Meglio se in Internet, Euronet, Cyber...
+
+
+
+ -----BEGIN PGP PUBLIC KEY BLOCK-----
+ Version: 2.3
+
+ mQCNAi7l2QMAAAEEANTwCQJBuNU85XUHFosIFBhjeG776cNqP+Z96w32V/g5UwtO
+ I62x5TOOV61s/hNRvZpB3KIhmaAJ/X/roCDOS/1kZZuO1NWEZd6soXEnPUgiiht8
+ gvwJPt2EzUwfsA8gwpvkVxwVu8a3FJkvlLC2FKviuUZMWvHI1YnTXNgS/cWJAAUR
+ tB5TdGVmYW5vIENvc3RhIDxzY29zdGFAYml4LmNvbT4=
+ =ag8o
+ -----END PGP PUBLIC KEY BLOCK-----
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                         Una proposta di legge ###
+ ############                                             Valentino Spataro ###
+
+ Riassunto:
+        Il buon Valentino mi ha spedito  da  un pezzo questa proposta di legge.
+       E' solo che ci e' voluto un po' per smaltire gli articolai precedenti ed
+       ora...  e' finita assieme ad un altro suo articolo.
+
+        Guarda caso l'ALCEI non lo puo'  soffrire, lo Spataro *:) Forse perche'
+      voleva tirarlo fuori lei un testo simile?  Forse perche' le piace banfare
+      e non tollera che qualcuno tenti di fare  qualcosetta  dei  costruttiovo?
+      Boh.  Siamo su mistero :)
+
+        Per  non  appessantire troppo Telem non inseriro' il file PROPLEX2.LZH,
+       ma (sempre in  questo  number)  potete  trovare  dove reperirlo.  Al suo
+       interno  -  cosa  che  non  inserisco  nella  rivista  -  c'e'  il  file
+       QUESTION.UTE.  Un questionario per gli utenti realizzato dallo Spataro e
+       dagli utenti Multinet.
+
+         Ma ora vi sucate il buon Spataro:
+
+  Un caro saluto a tutti.
+
+  Sono  Valentino  Spataro  e  mi  sto  occupando  da  mesi  di  legislazione e
+ telematica per realizzare un codice di autoregolamentazione.
+
+  Quanto vi propongo nei file allegati e' una bozza.  Come tale va considerata.
+ Molti aspetti sono espressi in modo impreciso, molti argomenti ridondanti,  il
+ rigore giuridico assente, e tanti altri difetti.
+
+  Spero  vorrete  individuarli  assieme  a  me,  e  suggerirmi e contestarmi le
+ soluzioni che insieme ad altri vi propongo.
+
+  Non penso sia oro colato, e spero che voi non lo vogliate pensare.
+
+  La discussione, a mio parere, puo'  pero'  partire da un punto superiore.  Da
+ un testo che, per quanto banale e difettoso, e' tuttavia un punto di partenza.
+ Che copre molti settori, se non quasi tutti.
+
+  Due ancora scoperti sono i diritti degli utenti e le reti telematiche.
+
+  Vi prego di sostenere me e i miei collaboratori in  questo  sforzo  che  solo
+ insieme si puo' compiere.
+
+  I testi sono registrati in piu' formati:
+
+        .doc in winword 6.0
+        .Wri in write 3.1 per windows
+        .txt in ascii
+
+  Se avete bisogno di altri formati richiedeteli pure.
+
+
+                                   =***O***=
+
+  E' in fase di avanzata realizzazione  un  ipertesto (di 3 megabyte almeno) su
+ diritto informatica e telematica.  Tale  testo  contiene  le  leggi  che  piu'
+ possono riguardarci e i messaggi e le informazioni che ritengo piu' utili alla
+ discussione.   Questo  lavoro  e'  il  risultato  di  sei  mesi di ricerche su
+ internet e sulle reti  amatoriali  italiane.   Ed  e' utilissimo per chiunque,
+ giurista o semplice utente, voglia sapere quali leggi regolano cosa e perche'.
+
+  L'ipertesto costera' 20.000 lire, un prezzo del tutto simbolico  in  rapporto
+ ai  costi  telefonici  da  me  sostenuti, agli abbonamenti su internet e sulla
+ banca dati del Parlamento Italiano, le riviste giuridiche che ho consultato, i
+ libri acquistati.  Oltretutto, se  fosse  venduto  in  libreria, non sarebbe a
+ meno di 60.000.  Uscira' una versione  demo  che  potrete  prelevare  in  bbs.
+ Appena  finiamo  l'ipertesto  e il mio commercialista da' l'ok riapro la bbs e
+ potrete prelevare la versione  demo.   [N.d.E.:  Valentino e' stato fra quelli
+ colpiti dal Fido Crackdown ad opera della gdf.] Chi mandera' l'importo chiesto
+ potra' prendere la versione finale direttamente in bbs, o riceverla per  posta
+ con l'addebito delle spese postali.
+
+                                   =***O***=
+
+ Ecco come potete contattarmi e chiedere informazioni:
+
+
+ - via fax allo 02-29528616  24 ore
+ - via fidonet  2:331/347.0
+ - via multinet 19:1001/1017
+ - via Logosnet 34:103/103
+ - via internet valentino.spataro@galactica.it
+ - con matrix crash o file send allo 02.29528616 (bbs mail only per ora)
+
+
+  Attendiamo di collaborare con gli altri gruppi di lavoro  che  si  sono  gia'
+ formati  in  Italia.   Mandateci i vostri lavori come noi abbiamo gia' diffuso
+ questo.
+
+  Tutti i diritti riservati.  Permessa la  distribuzione gratuita a mezzo bbs e
+ l'uso esclusivamente privato e personale del materiale diffuso.
+
+                                                  Valentino Spataro, l'autore.
+
+ ------------------------------------------------------------------------------
+
+  Progetto di legge in  fase  di  realizzazione  di Valentino Spataro.  TUTTI i
+ diritti riservati.
+
+  Vietato fare un uso non personale o per promuovere una discussione del  testo
+ senza   contattare  l'autore.   Libera  la  diffusione  per  mezzo  telematico
+ gratuita.
+
+ Indirizzi
+    V.Spataro@Agora.stm.it
+    Valentino.Spataro@Galactica.it
+    2:331/347.0
+    19:1001/1017
+    fax 02-29528616 24 ore
+    bbs 02-29528616
+
+ Sto creando una Fondazione: aiutatemi  a sostenerne gli alti costi richiedendo
+ la guida su dischetto che stiamo realizzando.
+
+
+                   CARTA DEI DIRITTI NELLE TELECOMUNICAZIONI
+
+ ...  non sono d'accordo con le tue idee, ma mi battero' con tutte le mie forze
+perche' tu possa esprimerle.  (Voltaire)
+
+
+
+                                    TITOLO I
+
+                               Principi generali
+
+ Art 1  Principi generali
+
+                Le telecomunicazioni sono risorsa dell'umanita'.
+
+    Tramite  le  telecomunicazioni i cittadini esercitano i diritti di cui sono
+   portatori e contribuiscono allo sviluppo  personale e sociale, rispettando i
+   doveri di tolleranza, rispetto, osservanza delle leggi, degli  usi  e  degli
+   accordi negoziali.
+
+ Art 2 Diritti Inviolabili nelle telecomunicazioni
+
+                 La liberta' di telecomunicare e' inviolabile.
+
+    Chiunque ha diritto di accesso alle telecomunicazioni per comunicare.
+
+    Chiunque,  previa  notifica  a  chi  di  dovere,  puo'  aprire  un  sistema
+   telematico.
+
+    Ognuno  e'  responsabile  personalmente  delle  azioni che compie, avendone
+   specificatamente conoscenza.
+
+    Il gestore ha  il  dovere  di  mantenere  inalterato  quanto lasciato dagli
+   utenti.  Ha tuttavia la facolta'  di  aggiungere  un  solo  file  contenente
+   esclusivamente la descrizione del proprio sistema telematico, e togliere gli
+   altri file che indicano esclusivamente altri sistemi telematici.
+
+ art 3 Messaggi e posta elettronica
+
+    Il gestore del sistema garantisce il rispetto dei gradi di riservatezza per
+   ogni  area;  e'  tenuto  altresi'  a  informare  correttamente  l'utente sul
+   regolamento e le caratteristiche dell'area.   art 4 Materiale lasciato dagli
+   utenti
+
+    Quanto  lasciato  dagli  utenti  in  ogni  area  e'  sottoposto  al  regime
+   contrattuale posto nell'area stessa,  salvo  esplicita  diversa  indicazione
+   dell'utente.
+
+    Gli  utenti  che  lasciano  messaggi in conferenze pubbliche aperte a tutti
+   hanno riconosciuta solo la  paternita'  e  il  diritto  a che esso non venga
+   modificato nel contenuto.
+
+ art 5 Materiale lasciato e gestore
+
+    Il gestore di BDT non ha diritto di alterare,  aggiungere  o  rimuovere  il
+   contenuto,  in  tutto  o  in  parte,  del materiale che diffonde, se non per
+   cambiare il formato di  compressione,  nonche'  per aggiungere un breve file
+   esclusivamente descrittivo del gestore.
+
+    Puo' tuttavia decidere di togliere integralmente quanto mandato dall'utente
+   previo tempestivo avviso allo stesso per qualsiasi ragione.
+
+    I files esclusivamente descrittivi di altri gestori possono essere  rimossi
+   in ogni momento.
+
+    Il  materiale  lasciato  al gestore resta nelle disponibilita' dell'autore,
+   salvo il diritto  di  distribuzione,  e  comunque salvo espressa indicazione
+   contrario dell'autore 1 stesso.  Tutti i diritti del gestore ineriscono solo
+   sul diritto di distibuzione come dall'autore  conferito.   Il  gestore  puo'
+   farsi  rimborsare  le  spese per la diffusione, da parte di chi invia e/o da
+   parte di chi riceve, salvo espressa indicazione contraria dell'autore2.
+
+
+ art.x.  Definizione di telematica
+
+    Telematico e' il mezzo  attraverso  il  quale gli uomini possono comunicare
+   tra di loro, contraddistinto dalla connessione di sistemi computerizzati.
+
+    Si  parla  di  mondo  telematico  alludendo  all'insieme   di   elaboratori
+   installati  stabilmente  per  svolgere  operazioni di collegamento con altri
+   elaboratori, accessibili da parte di chiunque.
+
+
+                                   TITOLO II
+
+                              I sistemi Telematici
+
+                             SEZIONE I: I SOGGETTI
+
+ Art.X.  Gestore di servizi telematici
+
+    E' Gestore chi ha un elaboratore  dedicato  anche in parte ma stabilmente a
+   far comunicare uomini per mezzo di altri elaboratori.
+
+    Per sistema telematico si  intende  a  quel  complesso  di  informazioni  e
+   servizi che l'elaboratore di cui sopra mette a disposizione degli utenti.
+
+    La legge sempre applicabile al Gestore e' unicamente quella dove e' situato
+   l'elaboratore.  Tuttavia se riceve informazioni e/o servizi da altri Gestori
+   e' soggetto anche alla loro legge, salvo patto contrario.
+
+    Il  Gestore  comunica  agli utenti chiaramente sin dal collegamento a quale
+   legge  e'  soggetto,  pena  la  non  applicabilita'  della  stessa  nei loro
+   rapporti.
+
+    Gli usi sono applicabili come le leggi.
+
+    Gli Stati si  impegnano  ad  armonizzare  la  legislazione  in  materia  di
+   telecomunicazioni  e a promuovere una normativa internazionale ispirata agli
+   usi3.
+
+
+ Art.X.  L'utente
+
+    E' utente di servizi  telematici  colui  che  si  avvale di elaboratori per
+   comunicare con altri elaboratori.
+
+    La legge applicabile all'utente e' quella ove risiede ed anche  quella  del
+   gestore con cui si mette in contatto se questa e' indicata4[S1].
+
+    Gli usi sono applicabili in assenza e in lacuna delle leggi.
+
+ Art.X.  Collaboratori dei gestori
+
+    Attivi e passivi.  Responsabilita'.  Compiti.  Regolamento tipico.
+
+    Il  Gestore  si  puo' avvalere di collaboratori per la gestione del sistema
+   telematico.
+
+
+                                  TITOLO  III
+
+                                    Le  reti
+
+ Art.X.   Collaboratori  nelle  reti 1
+
+    Il  materiale  che  l'utente  manda  ad  una  BDT  non  e' generalmente per
+   trasferirne la proprieta'.   Chi  manda  un  file  e' perche' venga diffuso.
+   Questa la norma.
+
+    Ci possono essere casi pero' in cui l'utente vuole fare  diversamente.   In
+   questi  casi  e'  consuetudine  che  l'utente lo segnali.  Questo e' solo un
+   esplicitare una pratica  consuetudinaria.   Il  gestore  e'  insomma solo un
+   diffusore di materiale di cui non diventa proprietario.
+
+    Il Gestore e' invece proprietario di quanto in prima persona  egli  fa:  le
+   descrizioni  dei  file in bbs, i bollettini che scrive, il materiale che, da
+   lui prodotto, diffonde.
+
+ Art.X.   Collaboratori  nelle  reti 2
+
+    Penso ad Agora' che fa pagare  per  i  files che vengono prelevati.  Non si
+   tratta di impedire ad Agora' di farsi pagare per ogni file, ma  se  l'autore
+   vieta  qualche  forma  di  distribuzione  o la limita espressamente in certe
+   modalita', questa vanno rispettate.
+
+    E' da tener presente  che  il  materiale inviato resta nelle disponibilita'
+  dell'autore.
+
+    Il Gestore e' un mero veicolo.  Vero e' che se il gestore non ha  interesse
+  a   diffondere  il  materiale  non  lo  diffondera'.   Diversa  pero'  e'  la
+  possibilita' per lui di speculare su  questo,  senza che l'autore ne abbia un
+  beneficio diretto.
+
+    E' comunque da valutare meglio  questo aspetto, perche' piu' interesse c'e'
+  a diffondere per tutti, e piu' ne guadagna  la  collettivita'.   Si  potrebbe
+  escludere  la  distribuzione  nel  caso  l'autore  espressamente  dica che la
+  diffusione deve essere sempre e comunque gratuita.
+
+   E' importante che la  normativa  internazionale  che  gli stati molto presto
+  saranno costretti ad affrontare, si basi sugli usi  esistenti,  e  cerchi  di
+  recepirli e armonizzarli.
+
+   Una  normativa  che  imponga dall'alto ai cittadini telematici comportamenti
+  che essi  non  potranno  mai  tenere  sia  perche'  impossibile,  sia perche'
+  eccessivamente  o  inutilmente  oneroso,  sarebbe  certamente  un  mezzo  per
+  imbrigliare e bloccare lo sviluppo democratico dei popoli.
+
+    Esperienze concrete di  conferenze  aperte  tra  popoli,  quali  quelle  su
+   Internet tra Usa e ex-Urss, dimostrano come sia possibile tra popoli diversi
+   costruire  una comunita', con propria cultura, usi, costumi, lingua, storia.
+   Per territorio invece c'e' solo uno  spazio virtuale che coincide con quello
+   della conferenza, e che fisicamente si ripete in centinaia di elaboratori in
+   tutto il mondo.
+
+    Una importante legge da tenere presente e' il decreto legislativo n.50/1992
+   sulle vendite per corrispondenza o porta a porta.  Con l'articolo  in  esame
+   tale legge continua a regolare i rapporti tra le parti in modo favorevole al
+   consumatore.   Inoltre  essendo  attuazione di una normativa comunitaria, la
+   sua applicazione e conoscenza  e'  facilitata  [S1]  Una importante legge da
+   tenere presente e'  il  decreto  legislativo  n.50/1992  sulle  vendite  per
+   corrispondenza o porta a porta.
+
+    Con l'articolo in esame tale legge continua a regolare i  rapporti  tra  le
+   parti  in modo favorevole al consumatore.  Inoltre essendo attuazione di una
+   normativa comunitaria, la sua applicazione e conoscenza e' facilitata.
+
+
+
+
+                                                V.Spataro@Agora.stm.it
+                                                Valentino.Spataro@Galactica.it
+                                                2:331/347.0
+                                                19:1001/1017
+                                                fax 02-29528616 24 ore
+                                                bbs 02-29528616
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                                      Linux'95 ###
+ ############                                                         .mau. ###
+
+ Riassunto:
+
+        E' uscito! E' uscito! il buon Linux '95 :)
+
+        Cosi' ci impara il .mau.:
+
+            Eccoti qua la traduzione del file che spiega tutte le licenze  del
+           nuovo linux 1.2 (anche detto Linus'95).
+
+            Nota che oggi (anche se venerdi' 17) e' uscita la 1.2.1 ...
+
+ ------------------------------------------------------------------------------
+
+                                    Linux'95
+
+
+  Ok, la release finale  di  Linux'95,  nota  anche  tra  quelli che sanno come
+ "v1.2.0", e'  stata  rilasciata.   Dopo  l'ampio  periodo  di  versioni  beta,
+ Linux'95 e' realta'.
+
+  Prima  che  vi procuriate Linux'95, vorrei pero' descrivere la parte relativa
+ alle licenze, e ricordarvi che la violazione del copyright e' un reato.
+
+  Linux'95 ha diversi tipi di licenze, incluse, ma non limitate a:
+
+ * End-User License Agreement - Applicazioni
+
+    Questa e'  una  licenza  specifica  per  un'applicazione,  studiata per una
+   singola  applicazione  che  gira  sul  vostro  calcolatore  autorizzato  per
+   Linux'95.  Le regole per il contratto  di  licenza  differiscono  a  seconda
+   dell'applicazione.  Vedi appendice 'H'.
+
+ * End-User License Agreement - Sistemi
+
+    Questo  contratto  vale  per  l'uso  del  prodotto  per un sistema singolo:
+   esempio, la  licenza  kerner  per  Linux'95.   E'  importante  notare che la
+   licenza per Sistemi non permette uso concorrente, o seconde copie.  C'e' uno
+   speciale programma per multilicenze per chi vuole iniziare con  una  singola
+   licenza ed espandere in seguito il proprio sistema.
+
+ * Multi-License Pak
+
+    Questo  contratto  vale  per  i siti con sistemi multipli, che vogliono far
+   girare copie multiple di Linux'95 concorrentemente, e/o su diverse macchine.
+   Questa licenza e'  disponibile  in  10,  50  o  100  unita'  a seconda della
+   dimensione della vostra installazione.
+
+ * Logo License
+
+    Questo contratto vale per i produttori hardware  e  software  che  vogliono
+   mostrare   che  i  loro  prodotti  sono  Linux'95-aware,  e  hanno  speciali
+   caratteristiche che tengono conto dell'ambiente Linux'95.
+
+ * Linux'95 Stamp of Approval
+
+    Questo marchio di approvazione e' disponibile  per i sistemi che sono stati
+   certificati presso le nostre vaste sedi di test come in grado di fare girare
+   Linux'95.
+
+ * Licenza "Ho troppi soldi".
+
+    Contattateci  per  dettagli  su  questo  esclusivo  contratto  di  licenza,
+   riusciremo    a    farci     qualcosa.      Richieste     direttamente     a
+   "ivemoney@linux.Helsinki.FI".
+
+  Le grandi istituzioni che vogliono combinare diverse licenze lo possono fare,
+ con  una  riduzione  dei  costi  di  licenza.  Contattare per favore il nostro
+ ufficio licenze per ulteriori dettagli.
+
+
+                  End-User License Agreement - Sistemi (EULAS)
+
+  Questa licenza  permette  l'uso  completo  del  sistema  Linux'95  base su un
+ singolo calcolatore o workstation.  Un numero qualunque di persone puo'  usare
+ questo  singolo  sistema,  ma solo una per volta.  Questa e' la licenza tipica
+ per i sistemi standalone, o  per  installazioni  sicure con una connessione in
+ rete molto restrittiva.
+
+  EULAS permette di fare un numero illimitato di copie di  backup,  e  permette
+ ulteriori distribuzioni del sistema sotto i termini della GPL.  Riferitevi per
+ favore all'appendice 'G' per ulteriori dettagli sulla GPL.
+
+
+                            Multi-License Pak - MPAK
+
+  MPAK vi offre quanto contenuto nella licenza Linux'95 per un sistema singolo,
+ permettendovi  inoltre  di  estendere  l'uso  di Linux'95 a sistemi e/o utenti
+ multipli.  In tal modo,  il  vostro  sistema  Linux'95  puo' diventare un mail
+ server dipartimentale a pieno titolo, o agire come gateway internet  verso  il
+ resto del mondo.
+
+  Come  la  licenza  per  singolo  utente,  la  licenza MPAK permette ulteriori
+ distribuzioni di copiare di Linux'95 in accordo alla GPL.
+
+
+                        Licenza Logo e Stamp of Approval
+
+  L'esclusiva Licenza Linux'95 con  Marchio  di  Approvazione puo' essere usata
+ per mostrare che il vostro hardware e/o software non e'  limitato  ai  sistemi
+ piu'  primitivi  disponibili  oggi,  ma  e' in grado di far girare il completo
+ sistema Linux'95.  Per applicarsi per  una  licenza Logo, occorre mostrare che
+ il vostro prodotto funziona  effettivamente  sotto  Linux'95,  e  fa  uso  dei
+ numerosi  servizi  forniti  da  Linux'95  (vedi  anche: Stevens, Advanced Unix
+ Programming).
+
+  Lo Stamp of Approval per Linux'95 richiede che il vostro prodotto sia passato
+ attraverso i rigorosi test  di  compatibilita'  agli LT-labs.  Per assicurarci
+ che il vostro prodotto continui ad essere  compatibile  anche  con  le  future
+ versioni  di Linux'95, vi avvisiamo di non aspettarlo indietro ("ce l'abbiamo,
+ e non ve lo ridiamo piu'").
+
+  L'AlphaPC 2000/300 della  DEC  e'  al  momento  sotto  estensivi  test per il
+ Marchio di Approvazione.  Per gli altri costruttori hardware,  contattate  per
+ favore il nostro dipartimento hardware a "hardware@linux.helsinki.fi".
+
+
+                           Come ottenere una licenza
+
+  Per  ottenere  in  pratica  una  licenza, cercate il piu' vicino distributore
+ Linux'95.  La distribuzione ufficiale del kernel Linux'95 e' disponibile su
+
+ 'ftp://ftp.cs.helsinki.fi/pub/Software/Linux/Kernel/v1.2'
+ 'ftp://ftp.funet.fi/pub/OS/Linux/PEOPLE/Linus/v1.2'.
+
+  Altri fornitori dovrebbero aggiungersi nei prossimi giorni.
+
+  Una volta  ottenuta  la  distribuzione  Linux'95,  avete  automaticamente una
+ licenza per singolo utente (la stazione di distribuzione fara' tutto il lavoro
+ cartaceo per voi, nessun bisogno di riempire  moduli  di  registrazione).   Se
+ espanderete   il   vostro   sistema,   il  rivoluzionario  software  "Linux'95
+ Auto-Licensing"  inviera'  automaticamente  una  richiesta  di  espansione  di
+ licenza e dedurra' il costo della licenza dal vostro conto bancario.
+
+  Per ottenere  il  Marchio  di  Approvazione,  contattate  elettronicamente il
+ nostro  dipartimento  di  Approvazione  a   "approval@linux.Helsinki.FI"   per
+ ulteriori dettagli.
+
+
+                        Perche' dovrei fare un upgrade?
+
+  I  betatester  di  Linux'95 possono fare un upgrade dal loro setup al sistema
+ Linux'95    finale    senza    costi    aggiuntivi    applicando    le   patch
+ "v1.1.95-1.2.0.patch.gz".   Queste  patch  correggono  principalmente   alcuni
+ problemi  cosmetici  per la versione beta di Linux'95 -- per la precisione, lo
+ spelling.  Modificano anche il comportamento di alcune feature non documentate
+ e specifiche per il sistema.
+
+  Gli utenti della vecchia release di Linux'94 (aka 1.0.9) troveranno che tutte
+ le nuove  caratteristiche  di  Linux'95  aprono  un  nuovo  eccitante mondo di
+ meraviglie.  La nostra comunita' di betatester  ha  provato  accuratamente  le
+ nuove  feature,  assicurando  al  contempo piena compatibilita' con la maggior
+ parte  dei  pacchetti  software.   Nuove   versioni  dei  pacchetti  non  piu'
+ funzionanti sono disponibili presso tutti i maggiori siti per Linux.
+
+  Ringraziandovi per l'uso di Linux'95,
+
+
+
+                                                                  Linus
+
+
+
+                                    ciao,  .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+
+
+
+ ############                                                               ###
+ ###   8  ###                                         Un nuovo lettore Mac! ###
+ ############                                                Nick montanari ###
+
+ Riassunto:
+
+        E' da parecchio che ho anche questo lettore in ballo.  E finalmente in
+       questo number eccolo vedere la luce: un altro lettore per Mac!!
+
+        Bravi, continuate cosi' :)
+
+ ------------------------------------------------------------------------------
+
+              Telematicus Reader: lo stack che legge Telematicus.
+
+  Ho scoperto Telematicus a partire dal n. 43 (un po' tardino, eh?)  e,  guarda
+ la  coincidenza,  ho  subito trovato incluso RT.MAC, il Reader per Telematicus
+ scrit- to da Moreno Cuman.
+
+  Bene, mi sono detto.  Non avevo  proprio  voglia di stare a smanazzare con un
+ editor (tanto meno con TeachText) e un reader faceva proprio comodo.
+
+  La sorpresa, una volta lanciato il reader, e'  stata  l'interfaccia  in  puro
+ stile  DOS:  un  utente Mac puo' anche avere un collasso per queste cose.  :-)
+ (Moreno non te la prendere: l'hai detto  anche tu che l'utente Mac e' abituato
+ troppo bene).
+
+  Pur non avendo le doti di programmazione di Moreno ma sapendo programmare con
+ HyperTalk, ho allora deciso di creare uno stack che facesse tutto cio' che  fa
+ RT.MAC, magari con qualcosina in piu', ma che avesse una interfaccia a pulsan-
+ ti e a icone come d'abitudine.
+
+  E'  nato  quindi Telematicus Reader Stack e siccome non fa proprio schifo ne'
+ va affatto male, ho  pensato  di  renderlo  disponibile a tutti i Mac-lettori.
+ Certo non e' una applicazione stand alone: c'e' la  noia  di  caricare  sempre
+ prima  HyperCard  o, almeno, HyperCard Player (che occupa meno memoria), ma io
+ credo che ne valga la  pena.   Dimenticavo  di  dire  che lo stack puo' essere
+ letto sola- mente da HyperCard 2.0 e seguenti.
+
+  Le cosine in piu' rispetto a RT.MAC sono: possibilita' di salvare su file e/o
+ di stampare pagine o gruppi di pagine; gestione  degli  argomenti  dell'indice
+ con  menu'  a  scorrimento  e  possibilita'  di  saltare  ai singoli argomenti
+ cliccan- do direttamente la voce  sul  menu'; funzione "undo" per tornare alla
+ pagina pre- cedente un salto pagina richiesto magari per sbaglio; salto veloce
+ di argomen- to in argomento; ecc..
+
+  Lo stack ha incorporata una scheda di help, in modo da non richiedere nemmeno
+ una riga di manuale, anche se le icone sui pulsanti sono gia' molto esplicati-
+ ve.
+
+  Poiche' e' nella natura degli stack di  HyperCard  diventare  piu'  grossi  e
+ occupare  spazio  su  disco quando caricano una grossa mole di dati (come puo'
+ es- sere Telematicus) e  poi  rimanere  tali  anche quando questi dati vengono
+ cancel- lati, e' consigliabile effettuare la  compattazione  dello  Stack  una
+ volta ogni tanto: questo per liberare lo spazio allocato ma non utilizzato del
+ disco.
+
+  Si  puo' compattare lo Stack con l'apposita voce del Menu File oppure premere
+ il pulsante con l'icona della gommina  all'interno dello Stack: dopo aver can-
+ cellato il numero di Telematicus in memoria una dialog richiede se si desidera
+ compattare lo stack.  Basta solo premere il pulsante OK...
+
+  Gli  algoritmi  interni  non  sono  molto  complessi,  per  questo  il   buon
+ funzionamen-  to  di  Telematicus Reader e' fortemente dipendente da una buona
+ impaginazione e dalla correttezza della  pagina Indice di Telematicus.  Avendo
+ provato TR Stack con parecchie edizioni  di  Telematicus  posso  dire  che  il
+ reader  si  comporta  in  maniera  un  po'  strana  solo  se  ci  sono  errori
+ nell'edizione.
+
+  In particolare ho potuto individuare alcune edizioni che hanno dato problemi:
+ le  n.  028,  030, 034, 040 e 042; comunque il file di testo "PROBLEM.TXT" che
+ ac- compagna lo stack indica per esteso  i problemi che si sono presentati con
+ que- sti numeri di Telematicus e come risolverli (non e'  affatto  difficile).
+ [N.d.E.: gli errori nei perc.  number sono anche segnalati nel corrige :) ]
+
+  Telematicus  Reader  Stack puo' essere liberamente distribuito con o senza la
+ ri- vista elettronica Telematicus (non  vedo  a cosa serva senza, comunque...)
+ ed e' assolutamente freeware.  A condizione, pero', di non modificare  neanche
+ un bit dello stack.
+
+  Chi  fosse  interessato a nuove versioni di Telematicus Reader, chi avesse da
+ propormi delle modifiche, chi volesse solo fare due chiacchiere su HyperCard e
+ affini, (chi volesse farmi i complimenti  ;-)  ), puo' mandarmi un Matrix allo
+ 2:332/406.10 (Big Nick's Point su TeleMACo BBS).
+                                                               Nick Montanari
+                                                               Big Nick's Point
+                                                               2:332/406.10
+
+ ############                                                               ###
+ ###   9  ###                                    IL GERGO HACKER - PARTE 41 ###
+ ############                                    Eric S. Raymond & .mau.    ###
+
+ Riassunto:
+
+        .mau. mi picchia perche' dice che ne metto troppo poco di Jargon.
+
+        Ma si sa: una mela al giorno... mentre 2 ti fanno indigestione *:)
+
+        Comunque con questo anche la T dovrebbe aver morso la polvere!
+
+        Tra  l'altro  il  buon  traduttore  non  sa  cosa sia un Twinkie.  (In
+       realta' lo sa molto bene. Ma le info si pagano...) *:)
+
+ ------------------------------------------------------------------------------
+
+    <tool>  1.  s.  Un  programma usato soprattutto per creare altri programmi,
+ come un compilatore o  un  editor  o  un  programma per cross-reference.  Opp.
+ <app>, <operating  system>.   2.  [UNIX]  Un'applicazione  con  un'interfaccia
+ semplice,  "trasparente" (tipicamente a testo) progettata specificatamente per
+ essere usata in combinazione programmata  con  altri tool (vedi <filter>).  3.
+ [MIT] v.i.  Lavorar, studiare.  Vedi <hack>.
+
+    <TOPS-10> /tops-ten/ s. Il s.o.  proprietario DEC per i mitici <PDP-10>, un
+ favorito degli hackers di un tempo, ma ora effettivamente estinto.  Una  fonte
+ di  folklore  hacker:  vedi  Appendice  A.  Vedi anche <ITS>, <TWENEX>, <VMS>,
+ <operating  system>.   TOPS-10  era  a  volte  chiamato  anche  BOTS-10 ("from
+ bottoms-ten",  "dal  fondo:  10")  come  commento  sulla  inappropriatezza  di
+ descriverlo al di sopra di qualunque altra cosa.
+
+    <tourist> [dal sistema ITS al MIT] s. Un ospite sul  sistema,  specialmente
+ uno  che  in  genere si logga da una locazione remota per giochi e altri scopi
+ banali.  Un gradino sotto <luser>.
+
+    <touristic> agg.  Avente la  qualita`  di  un <tourist>.  Spesso usato come
+ peggiorativo, come in "losing touristic scum" [feccia turistica].
+
+    <toy> [giocattolo] s. Sistema di calcolo; sempre usato con degli aggettivi.
+ 1. <nice toy>: Quello che supporta adeguatamente lo stile di  hacking  di  chi
+ parla.   2. <just a toy>: Una macchina che non da' abbastanza <computron>i per
+ gli usi preferiti da chi parla.  Non  e` cosi` cattivo come <bitty box>; con i
+ t. almeno ci si puo` divertire.  Vedi anche <Get  a  real  computer!>,  <bitty
+ box>.
+
+    <toy  problem>  [AI]  s. Un caso deliberatamente semplificato o addirittura
+ ipersemplificato di un problema  complicato usato per investigare, prototipare
+ o testare  algoritmi  per  il  problema  reale.   A  volte  usato  in  maniera
+ peggiorativa.  Vedi anche <gedanken>.
+
+    <trap> 1. s. Un interrupt del programma, usato di solito specificamente per
+ riferirsi  a un interrupt causato da qualche azione illegale che sta avvenendo
+ nel programma utente.  Di solito il sistema compie alcune azioni relative alla
+ natura dell'illegalita`, e  poi  ritorna  il  controllo  al  programma.  2. v.
+ Causare un trap.   "Queste  istruzioni  trappano  al  monitor".   Usato  anche
+ transivativamente per indicare la causa del trap.  "Il monitor trappa tutte le
+ istruzioni  di  i/o".  Il termine e` associato con la programmazione assembler
+ (INTERRUPT e` piu` comune tra i  programmatori di linguaggi ad alto livello) e
+ sembra cadere nell'oblio col ridursi del ruolo dell'assembler.
+
+    <trap door> o <trapdoor> s. Sin.  di <back door>.
+
+    <trash> [buttare nella spazzatura]  v.  Distruggere  i  contenuti  (di  una
+ struttura dati, per la precisione).  Tra i termini piu` comuni in una famiglia
+ di quasi sinonimi si trovano anche <mung>, <mangle> e <scribble>.
+
+    <tree  killer> [Sun] s. 1. Una stampante.  2. Persona che spreca carta.  Il
+ termine deve essere interpretato in senso ampio: `sprecare carta' comprende la
+ produzione di documenti <spiffy> ma  <content-free>.  Ergo, molti <suits> sono
+ killer di alberi.
+
+    <trivial> [banale] agg.  1. Nelle spiegazioni, troppo semplice per mettersi
+ a spiegarlo per esteso.  2.  Che  non  vale  la  pena  di  essere  detto.   3.
+ Complesso,  ma  risolvibile  con metodi cosi` ben noti che nessuno che non sia
+ <cretinous> non ci avrebbe gia` pensato.  La nozione hackeristica di banalita`
+ puo` essere  molto  diversa  da  quella  dei  non  hacker.  Vedi <nontrivial>,
+ <uninteresting>.
+
+    <troglodyte> [Commodore] s. 1. Un hacker che  non  lascia  mai  la  propria
+ postazione.  Il termine `Gnoll' (da D&D, via il Signore degli Anelli) e` anche
+ riportato.
+
+    <troglodyte  mode> [Rice University] s. Programmare a luci spente, occhiali
+ da sole addosso,  e  il  terminale  (a  caratter)  invertito (nero su bianco),
+ perche` si e` stati cosi` tanto  tempo  davanti  che  gli  occhi  fanno  male.
+ Musica  ad alto volume emessa da uno stereo piazzato in un angolo e` opzionale
+ ma raccomandata.  Vedi <larval stage>, <mode>.
+
+    <trojan horse> [coniato da Dan Edwards,  ex  hacker MIT che ha poi lasciato
+ la retta via] s. Un programma progettato per superare le misure di sicurezza o
+ danneggiare un sistema, camuffato da qualcosa di benigno,  come  un  programma
+ per listare directory o un archiviatore.  Vedi <virus>, <worm>.
+
+    <true-hacker>  [in  analogia a "trufan" dal fandom SF] s. Chi esemplifica i
+ valori primari della cultura hacker,  spec.   competenza e l'aiutare gli altri
+ hacker.  Un vero complimento.  "Ha passato sei ore ad aiutarmi  a  mettere  su
+ UUCP  e  netnews  sul mio FOOBAR 4000 la scorsa settimana - inequivocabilmente
+ l'atto di un Vero Hacker".  Confr.  <demigod>, opp.  <munchkin>.
+
+    <tty> /tee-tee-wie/  [UNIX],  /ti'tee/  [ITS,  ma  anche  alcuni UNIXari lo
+ pronunciano cosi`] s. 1. Terminale del gruppo dei teletype, caratterizzato  da
+ una stampante meccanica rumorosa, un set di caratteri molto limitato, e scarsa
+ qualita`  di stampa.  Uso: antiquato (come i TTY stessi).  2. [Spec.  UNIX] Un
+ qualunque terminale; a volte usato  per riferirsi al particolare terminale che
+ controlla un job dato.
+
+    <tube> s. Un terminale CRT.  Non viene mai usato nel senso comune di TV;  i
+ veri  hacker  non  guardano  la  TV, tranne i Loony Toons [NdT: quali sono?  -
+ .mau.] e Rocky & Bullwinkle [NdT: mitici!   -  .mau.] e ogni tanto uno di quei
+ vecchi film di una volta.
+
+    <tunafish> [tonno]  s.  Tra  gli  hacker,  si  riferisce  alla  vecchissima
+ freddura  che  si  puo`  trovare alla fine della man page di `tunefs(8)' nella
+ distribuzione originaria del <BSD> 4.2.   La  battuta e` stata eliminata dalle
+ release successive, dopo che gruppi commerciali hanno cominciato a  sviluppare
+ sistemi  basati  sul 4.2.  Tunefs si riferisce al `tuning' dei parametri di un
+ file system per migliorare le prestazioni, e alla fine di un qualche pagina di
+ <black art> c'era una sezione BUGS  che  consisteva della riga "You can tune a
+ filing system, but you can't tunafish."
+
+    <tune> [dall'uso musicale: letteralmente,  `intonare']  v.  Ottimizzare  un
+ programma  o  un  sistema  per un particolare ambiente, spec.  modificando dei
+ parametri numerici studiati come <hook> per il tuning, tipo i #define in C. Si
+ puo` fare del tuning `per il  tempo' (esecuzione piu` veloce), `per lo spazio'
+ (minimo utilizzo di memoria), o `per la configurazione' (uso  piu`  efficiente
+ dell'hardware).  Vedi <bum>, <hot spot>, <hand-hacking>.
+
+    <tweak> [lett.  `pizzicare'] v. 1. Cambiare leggermente, di solito rispetto
+ a  un  valore.   Usato  come  sinonimo di <twiddle>.  Se un programma e` quasi
+ corretto,  piuttosto  di  cercare  di  capire  il  problema  preciso  si  puo`
+ semplicemente fare del t.  finche`  non  funziona.  Vedi <frobnicate> e <fudge
+ factor>.  2. <tune> o <bum> un programma.  Questo e` l'uso preferito  in  Gran
+ Bretagna.
+
+    <TWENEX> /twe-neks/ s. Il sistema operativo TOPS-20 della DEC.  TOPS-10 era
+ il tipico sistema operativo DEC per il PDP-10, ergo TOPS-20 era l'ovvia scelta
+ per  l'OS del DEC-20.  Bolt, Beranek e Newman (BBN) avevano sviluppato il loro
+ sistema, detto <TENEX> (TEN EXecutive), e  nel creare il TOPS-20 la DEC copio`
+ TENEX adattandolo.  Il termine TWENEX era percio` una contrazione  di  "twenty
+ TENEX".   La gente DEC si umiliava a sentir chiamare il TOPS-20 come "TWENEX",
+ ma il termine fece  nondimeno  presa.   Fu anche usata l'abbreviazione scritta
+ "20x".  Il TWENEX ebbe successo e fu  molto  popolare;  di  fatto,  ci  fu  un
+ periodo  nei  primi  anni  '80  in  cui  creo` una cultura di partigiani quasi
+ fervente come quella di UNIX o ITS - ma la decisione DEC di fare fuori tutti i
+ rivali interni alla architettura VAX  e  al relativamente indigesto VMS uccise
+ il DEC-20 e pose tristemente fine ai brevi giorni gloriosi del TWENEX.
+
+    <twiddle> [gingillo] s. 1. tilde (ASCII 126, "~").  Detta anche "squiggle",
+ "sqiggle" (sic - pronounciata "skig'gul"), e "twaddle", ma twiddle e` di  gran
+ lunga  il termine piu` comune.  2. Modifica insignificante a un programma.  Di
+ solito corregge un baco e ne genera diversi di nuovi.  3. v. Cambiare qualcosa
+ in modo leggero.  I bit, ad esempio, sono  spesso t. Il t. di uno switch o una
+ manopola  implica  molto  minor  scopo  che  il  suo  toggle  o  tweak:   vedi
+ <frobnicate>.   Dire  `twiddling  un  bit'  indica  mancanza  di  scopo, e nel
+ migliore dei casi non specifica cosa  si  sta facendo al bit; in contrasto, il
+ toggling (v.  <toggle> ha un significato ben piu` specifico.
+
+    <two-to-the-n> [due alla n] q. Usato come N,  ma  per  riferirsi  a  numeri
+ maggiori.   "Ho  da  fare  due  alla  n  cose  prima  di pranzo" significa che
+ probabilmente non mi faro` vedere.
+
+    <twonkie>  s.  L'equivalente  software  di  un  Twinkie  [NdT:  che  non so
+ assolutamente cosa sia - .mau.]; una "feature" inutile aggiunta  per  sembrare
+ sexy e placare un <marketroid>.
+
+
+
+                                           tradotto da .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+
+
+ ############                                                               ###
+ ###  10  ###                                          Il convegno di Prato ###
+ ############                                             Valentino Spataro ###
+
+ Riassunto:
+
+        Visto  che  il  sottoscritto,  ne'   alcun  inviato  speciale,  si  e'
+       completamente kannato il convegno a Prato, ho cercato qualcosa in giro.
+
+        La cosa che piu' mi e' piaciuta - perche' polemica e perche' rende  in
+       pieno l'idea che mi sono fatta del Livraghi - e' questa.
+
+        Ho avuto l'autorizzazione a ripubblicarla qui.
+
+        E'  stata  pubblicata  su  una rivista - Fear - di cui sono usciti due
+       numeri e che avrei intenzione il  prox number di recensire.  Quindi non
+       vi dico altro.
+
+    >>  Chi e' Valentino Spataro
+
+        Valentino Spataro si sta  occupando,  con  Cipriani  e  Contini,  delle
+       normative e leggi sui bbs.  Da mesi si sta battendo con loro per trovare
+       forme  giuridiche  a  salvaguardia  dei  cittadini  telematici.   Si sta
+       laureando in legge con tesi proprio su questi argomenti.
+
+        Potete contattarlo - via fax allo 02-29528616
+                           - via fidonet  2:331/347.0
+                           - via multinet 19:1001/1017
+                           - via Logosnet 34:103/103
+                           - via Internet Valentino.Spataro@Galactica.It
+
+ ------------------------------------------------------------------------------
+
+                              Il convegno di Prato
+
+            Cronaca telegrafica di un convegno, di Valentino Spataro
+
+
+  Il  convegno  di  Prato  e'  stato  deludente,  e  solo  per  questo  aspetto
+ costruttivo.  Quanto indicato in fondo  al  testo  e'  la sintesi di quanto e'
+ successo.
+
+  L'impostazione, e la strutturazione stessa degli interventi, e'  stata  fatta
+ per  mettere nelle fasce orarie chi era di qualche centro sociale o iniziativa
+ di sinistra.
+
+  Gli altri hanno avuto  fasce  orarie  di  disinteresse (nella pausa pranzo) e
+ tempi piu' che ridotti rispetto agli altri (cinque minuti contro 40).
+
+  Tolto l'aspetto politicizzato della giornata, che  significa  togliere  l'80%
+ del  tutto,  ivi  inclusi  i  peana  nei  confronti del complotto segreto, del
+ capitalismo  opprimenti,  del  Governo  padrone,  alcuni  interventi  si  sono
+ distinti per estrema lucidita'.
+
+  La nostra resistenza fisica ci ha permesso di seguirli anche durante tutta la
+ pausa pranzo.
+
+  In estrema sintesi questi gli  aspetti: la crittografia deve essere promossa,
+ la telematica e' attaccata da tutti, leggi inique ci stanno togliendo il mezzo
+ a disposizione.
+
+  Quello  che  e'  successo  alla  radio,  nata  come  bidirezionale  e  subito
+ convogliata a monodirezionale, se non mettendo in un  angolo  i  radioamatori,
+ puo'  succedere  a  noi.   Idem  per  le  televisioni e i monopoli che si sono
+ creati.
+
+  Alcuni problemi  stanno  nella  mancata  o  errata  divulgazione della nostra
+ esperienza  presso  gli  altri  media.   In  tal  senso  bisogna  insistere  e
+ precisare.
+
+  Nessun dice cosa  la  telematica  puo'  fare,  e  nessuno  dice  cosa  si  fa
+ concretamente.
+
+  Quanto  ai  costi  si  nota  come  in  USA  la chiamata urbana a internet sia
+ gratuita, poi l'accesso  a  internet  a  prezzi  follemente  bassi.  In Italia
+ questo non e', tanto e' vero che la Telecom fa guadagni folli  sulle  chiamate
+ urbane, disincentivando chi vuole realizzare servizi telematici.
+
+  Questo  ci  ha gia' fatto cadere dal treno delle opportunita'.  All'estero si
+ stupiscono come Fidonet sia piu' importante di internet in Italia.
+
+  In Inghilterra una associazione,  Community,  riunisce e rappresenta i sysop.
+ In India e' stata fatta una legge che impone di pagare 70 milioni  per  aprire
+ una bbs.
+
+  La  necessita'  di  non  vedere  solo  gli  attacchi alla telematica e' stata
+ evidenziata da pochissimi oratori,  in  quanto  lamentarsi non produce niente.
+ Il difetto dei sysop italiani e' che non contano niente,  o  contano  poco,  o
+ comunque  non  si  danno  da  fare.   Si da' per scontato che gli utenti siano
+ interessati a queste problematiche.
+
+  E' un peccato che la sinistra  se  ne  freghi  di quello che dice la sinistra
+ giovanile.
+
+  Livraghi di Alcei ritiene che sotto il profilo giuridico si rischi molto,  ed
+ e' necessaria una carta di autoregolamentazione dei diritti e doveri.  I nuovi
+ sysop  non sanno cosa devono fare.  Dice infine che l'associazione e' libera e
+ indipendente e vive dei contributi degli associati.
+
+  Raf Valvola evidenzia  della  legge  Conso  gli  aspetti politici repressivi,
+ eccessivamente  repressivi,  e   va   per   una   depenalizzazione.    Ritiene
+ l'interpretazione  dello  scopo di lucro come un attacco all'uso personale del
+ software.
+
+  Un oratore  si  lamenta  del  poco  tempo  concessogli  e dell'eccesivo tempo
+ lasciato ad altri interventi.
+
+  Il pomeriggio parlano i rappresentanti delle reti.  E  a  questo  punto,  per
+ magia, si riempe la stanza che da 20 persone passa a piu' di duecento.
+
+  Invece  di  parlare un rappresentante delle reti viene letto un messaggio che
+ sembra scritto, nello  stile,  da  Raf  Valvola.   Dura  20 minuti.  Poi parla
+ un'altra persona che non appartiene ad alcun net.  Per 30 minuti e oltre.
+
+  Dopodiche' si lascia spazio 5 minuti ad ogni rappresentante di net,  per  poi
+ permettere la libera discussione.
+
+  Nonostante io mi sia iscritto tra i primi dopo dieci interventi non ero stato
+ ancora chiamato.  Il tempo a disposizione delle reti viene ancora ridotto.
+
+  Per Fidonet Ardini ricorda come il pgp sia vietato per policy mondiale e come
+ poi  ogni  singola  bbs  possa  decidere  di fare quello che vuole sul proprio
+ sistema.
+
+  Il relatore successivo sfotte Ardini  perche'  si era dilungato sul fatto che
+ da Fidonet erano nate tutte le altre reti.
+
+  A questo punto me ne vado.
+
+
+  Mi piace sottolineare un fatto capitatomi.
+
+
+  Dopo l'intervento di Livraghi lo fermo per parlare del testo  dei  diritti  e
+ doveri che auspica, e che su MultiNet ho gia' realizzato in collaborazione con
+ chiunque si e' fatto vivo.
+
+  Lui  mi dice allora che ritiene interessante realizzare un terzo stato, cioe'
+ una riunione a cui possa  partecipare  Agora,  Galactica e Mclink e i maggiori
+ provider italiani di telecomunicazioni.  Gli faccio notare come una conferenza
+ estemporanea non serva ed e' necessaria sia stabile per via telematica.
+
+  Ne parliamo, ne e' interessato e soddisfatto.  Gli dico  che  siamo  gia'  su
+ molte reti, ma non ancora su internet, cosa che invece l'area alcei gia' fa.
+
+  A  questo  punto  mi propone di partecipare nell'area Alcei e gli dico che ho
+ gia' scritto numerosi messaggi a lui  e  in area per parlarne, ma senza averne
+ risposta alcuna.
+
+  Allora mi chiede il nome.  Gli dico Spataro e  lui  mi  dice:  "Scusa  vorrei
+ seguire  questo intervento perche' mi interessa", e se ne va via senza neanche
+ salutare.
+
+  Visto che questa e' Alcei  vorrei  mettere  in  guardia chi si fida ancora di
+ lui.  Ho testimoni a confermare a quanto e' successo.
+
+  Alcei ha saputo solo dire che bisogna fare, bisogna organizzare,  e  che  per
+ ora  si  corrono  rischi.   Non  una  proposta concreta e' stata fatta, se non
+ quella del convegno dei grandi  della  telematica italiana, e alla proposta di
+ collaborazione ha risposto andandosene senza salutare.
+
+
+  Decidete voi se appoggiarvi ancora a questo ente oppure no.
+
+
+  Per quanto riguarda  quindi  alla  situazione  di  oggi  non  ho  potuto  che
+ accertare  che  tutti  vivono  la telematica come chi e' in trincea e si sente
+ assediato.
+
+  Chi invece si sta dando  da  fare  per risolvere concretamente i problemi non
+ c'e'.  Non c'e'  nessuno  in  Italia  che  sta  realizzando  qualche  proposta
+ concreta, di autoregolamentazione di consigli ai sysop, e altro.
+
+  Peccato  solo che chi frequenta Multinet sa che queste cose sono in cantiere,
+ aperto al  pubblico,  ormai  da  mesi,  e  stanno  crescendo  ad una velocita'
+ strepitosa.  Ma questi sapientoni di  associazioni  di  sinistra  o  meno  non
+ vogliono tenerne conto.
+
+  Onde  evitare  facili  generalizzazioni  voglio  comunque  ringraziare chi ha
+ partecipato con intelligenza  e  spunti  critici,  anche  di sinistra (come il
+ giornalista del Manifesto), ricordando che aver paura di  tutto  non  porta  a
+ niente.
+
+
+                                                Valentino Spataro
+
+                                                V.Spataro@Agora.stm.it
+                                                Valentino.Spataro@Galactica.it
+                                                2:331/347.0
+                                                19:1001/1017
+                                                fax 02-29528616 24 ore
+                                                bbs 02-29528616
+
+
+
+
+
+
+ ############                                                               ###
+ ###  11  ###                                                  Bibliografia ###
+ ############                                                  La direzione ###
+
+ Riassunto:
+
+        E' nata una  rivista  fidosa:  Beta,  diretta  da  Luciano  Giustini  e
+           Fernando  Carello:  rivista  ipertestuale  tecnica.   Gira  su  ISN.
+           Abbiamo contattato gli autori per un'auto recensione.
+
+           Cosa che stiamo attendendo con ansia.
+
+           Comunque la rivista e' bellissima e se riescono a tenere il ritmo di
+           un number/mese sono proprio delle rocce!  Gira sotto Help Windows.
+
+        E' nata  un'altra  rivista  cartacea  su  Internet:  Inter.Net,  ma ne
+           parlero' nel prox number.
+
+        La  Feltrinelli  e'  uscita  con  due  libri  Cyber,  uno sulla Realta'
+            Virtuale  ed  uno  sul  CyberFemminismo.   Indovinate  chi  sono  i
+            consulenti della collana?  *:) Anche di questo nel prox number.
+
+        Invece  in  questo  number  alcuni  dati  su una rete - oltre a quella
+       Cyber - che riesce a fare molta 'carta': Multinet!
+
+        Eccovi le puntate perc:
+
+      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+        Visto che il  Costa2  ed  il  .mau.   si  incazzano  se ripeto le cose
+       (occupando BandWidth, credo si dica) vi ricordo che nel number 45 si e'
+       parlato di un po' di riviste di Internet:
+
+
+                           Internet and Comms Today
+                                  Net Guide
+                        .net - The Internet Magazzine
+
+                        [con un corrige nel number 46]
+
+
+       e l'ultima bibliografia risale al number 44 con:
+
+
+                                   DECODER
+                                INTERNAZIONALE
+                                  N E U R A L
+                                   W I R E D
+
+
+ ------------------------------------------------------------------------------
+
+
+                            :: Cos'e' multinet ::
+
+
+  MultiNet e' un net di circa 100 bbs.  I coordinatori sono G.C.  Cipriani e S.
+ Picardo Nasce prima come fusione di LudoNet, ModemNet e Century Net, a cui  si
+ aggiungono  ben  presto  35mm Net (di Fabio Franchini), 0110 Net e Arcadia Net
+ (e'  in  pratica  un'insieme  di  net  orientati).   Ha  parecchi  gateway sia
+ nazionali che internazionali, con altri net
+
+  MultiNet ha iniziato i lavori per assicurare ai bbs una protezione dal  punto
+ di  vista  giuridico  legale  subito  dal  primo  giorno di vita, grazie anche
+ all'esperienza di parecchi sysops  e  non,  con  competenze dal punto di vista
+ legale..
+
+
+                      :: elenco dei files su MultiNet ::
+
+
+ Elenco dei files
+
+
+  I  files  distribuiti  sinora  nell'area  LegalBBS  del  circuito  telematico
+ MultiNet
+
+
+ ALCEI.ZIP      48665 bytes
+             Note informative su ALCEI
+
+
+ LEGGE145.ARJ   15204 bytes
+             Legge 145 sulla regolamentazione dei BBS
+
+
+ ASSDF.ARJ      14855 bytes
+             Prospetti pre:compilati per trasformare il BBS in associazione  di
+             fatto
+
+
+ ASSNR.ARJ       9370 bytes
+             Prospetti pre:compilati per trasformare il BBS in associazione non
+             riconosciuta
+
+
+ LEGG_PVT.ZIP   18717 bytes
+             Disegno  di  legge  sulla  tutela  dei  diritti  di  privacy nella
+             telematica
+
+
+ DATIPERS.ZIP   51293 bytes
+             Leggi sui dati personali (relativamente alla telematica ed ai BBS)
+
+
+ BBSRULES.ZIP    8276 bytes
+             Come gestire un BBS dal  punto  di vista giuridico.  Contiene note
+             sui files VM18.  Nuova versione del 2 febbraio 1995
+
+
+ FAQBSA.ZIP     13084 bytes
+             Le FAQ sulla pirateria  del  software.   A  cura  della  BSA.   In
+             formato Write
+
+
+ PROPLEX2.ZIP   86069 bytes
+             Bozza iniziale sul progetto di legge sui BBS.  A cura di V.Spataro
+             & MultiNet [Nd.d.E.: pubblicata in questo number]
+
+ CESDIT02.ZIP  303413 bytes
+             Ipertesto  di  Valentino Spataro sul convegno di Prato e su alcune
+             tematiche legali
+
+
+
+
+                                                                   La Redazione
+
+
+
+
+
+ ############ Corrige                                                       ###
+ ###  12  ###                         Gli errori di impaginazione dei Telem ###
+ ############                                                Nick Montanari ###
+
+ Riassunto:
+
+        Nel fare il lettore il buon Nick ha riscontrato alcuni lievi errorucci
+       di formattazione del Telem. nulla di grave... cosette!
+
+        Grazie Nick :)
+
+ ------------------------------------------------------------------------------
+
+        Numeri di Telematicus che causano problemi a Telematicus Reader
+        (Le soluzioni proposte sono da effettuarsi con un text editor).
+
+ 028
+    il numero totale di pagine  dell'edizione  (106) contenuto nella prima riga
+    di Telematicus (l'header) e' scritto senza alcuno spazio che lo separi  dal
+    trattino:   invece   di  "-  106"  e'  indicato  "-106".   Questo  comporta
+    l'imposibi- lita' di impaginazione e di rappresentazione.  Inoltre a pagina
+    104 ci  sono  2  righe  di  troppo  che  causano  lo  shift  verso il basso
+    dell'argomento   15   "Conclusioni".    Soluzione:   correggere    l'header
+    aggiungendo  lo  spazio richi- esto, togliere 2 righe, alla riga (assoluta)
+    2291.
+
+ 030
+    a partire da pagina 20 (argomento 4: "un emigrato modello: il REXX") a cau-
+    sa di una formattazione anomala  delle  pagine  (mancano 3 righe in fondo a
+    pag.  19 e c'e' una riga di troppo  in  fondo  a  pag.   81)  il  testo  e'
+    shiftato  verso  l'alto  di  3  righe  e  non  vengono  mostrati  i titoli.
+    Soluzione: aggiun- gere  tre  righe  bianche  dopo  la riga (assoluta) 415,
+    togliere una riga, alla riga (assoluta, dopo  aver  inserito  le  3  righe)
+    1783.
+
+ 034
+    a  partire da pagina 79 (argomento 11: "News dal mondo telematico") a causa
+    di una formattazione anomala  delle  pagine  il  testo e' shiftato verso il
+    bas- so di 2 righe.  Soluzione: togliere  2  righe,  alla  riga  (assoluta)
+    1716.
+
+ 040
+    l'argomento  "Curiosita':  il  gergo hacker" e' indicato nell'indice a pag.
+    79 invece di pag.  29: questo causa problemi alla ricerca di argomento e al
+    sal-  to  ad  argomento.    Soluzione:   modificare  il  numero  di  pagina
+    nell'indice.
+
+ 042
+    l'argomento "BBS 1st Impression" e' indicato nell'indice a pag.  62  invece
+    di  pag.   63:  questo  non  causa  grossi  problemi,  tuttavia il salto ad
+    argomento e' necessariamente impreciso.  Soluzione: modificare il numero di
+    pagina dello indice.
+
+
+
+                                                              Nick Montanari
+
+                                                              Big Nick's Point
+                                                              2:332/406.10
+
+
+
+
+
+
+
+ ############ Corrige                                                       ###
+ ###  13  ###                                 Warp, precisazioni e smentite ###
+ ############                                                          AAVV ###
+
+ Riassunto:
+        Dopo l'articolo su Warp, in cui io - continuo fermamente a ripeterlo -
+       non  sono  pronto  a ritrattare alcun punto anche in possesso ora di un
+       Pentium, mi sono arrivate due precisazioni.
+
+        Non avevo alcuna  intenzione  di  pubblicarli,  poi  il buon Costa2 ha
+       detto che cominciavo a fare censura, e allora...
+
+        Comunque, non essendo una lettera, mi sono permesso  di  fare  qualche
+       N.d.E. qua e la'. *:)
+
+ ------------------------------------------------------------------------------
+
+  Innanzitutto vorrei che tu aggiustassi un po' il tiro con l'articolo su OS/2.
+ Io sulla mia  macchina  non  ho  avuto  problemi  di  sorta,  solo una REM nel
+ config.sys da mettere, ma non bloccante  e  solo  con  un  misero  warning  al
+ bootstrap.   Tolta  quella,  tutto OK.  Ti sei pure dimenticato di dire che la
+ tua vecchia macchina era un vero  cesso  anche  per WC DOS, percui perche' non
+ dici come funge ora con un Pentium 90????????
+
+  [N.d.E.:  l'articolo  era  stato scritto usando un 386 20Mhz + coproc.  mat.
+ con 8Mb di RAM e 150Mb di HD (solo per Osso).  Usando il mio bel Pentium a 90
+ Mhz (16Mb, 500Mb HD) molte cose sono  cambiate.  Tuttavia si dice in giro che
+ la Intel abbia tirato fuori il Pentium per farci girare Windows.  :) Ora  non
+ ho  nulla in contrario che DOOM non riuscisse a girare sul mio 386 se non con
+ un frame al minuto, ed infatti  -  a  parte  il  boot - non ho fatto menzione
+ della velocita', anzi! ho detto che il driver grafico era stato ottimizzato].
+
+                                                                 Stefano Costa
+                                                                 scosta@bix.com
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+        Hello Rolando!
+
+        Ti scrivo dopo aver letto  l'ultimo  numero di Telematicus (come sempre
+ ottimo!).  [N.d.E.: siamo commossi!]
+
+        Sono rimasto pero` perplesso quando sono arrivato al  tuo  articolo  su
+ Warp....   Vorrei,  se  possibile,  discutere  con  te  certe  parti  del  tuo
+ intervento, perche` le conclusioni raggiunte mi sembrano, almeno a mio parere,
+ come dire, "affrettate"....
+
+        [QUOTE ON]
+
+              Dopo  due  (2)  mesi  di  infruttuosi  tentativi  per  entrare in
+       possesso della nuova versione -  naturalmente  in area os2.ita c'erano i
+       soliti 4 stronzi che l'avevano gia' da una vita, ed avevano gia' provato
+       una beta della futura versione - sono finalmente riuscito a  mettere  le
+       mani sulla versione per CD di OS/2 Warp!!
+
+        [QUOTE OFF]
+
+        I fessi gasati ci sono sempre...  comunque questa volta la IBM ha fatto
+ una  campagna  di  beta  testing  estremamente  diffusa: la beta di costava (a
+ memoria) 34000 L (iva e consegna compresa).  Avere la beta non era proprio una
+ cosa riservata a pochi eletti...  ;-)  .   Sui  due mesi per avere Warp, tieni
+ conto che la domanda e` stata enormemente superiore alle  attese...   a  meta`
+ dicembre la Warp ITA era gia` distribuita da OS/2 Service e la USA e` arrivata
+ un po' dopo, anche se, almeno i primi tempi, sempre un po` col contagocce...
+
+        [QUOTE ON]
+
+            Watz!   mi  butto  nell'impresa eroica: bakuppo tutto - peccato nel
+      vecchio osso  non  esistesse  un  backup  decente,  cosa  che pure quegli
+      storditi  della  Microsoft  danno   con   la   6.x   -   e   poi   lancio
+      l'installatore...  il primo dischetto dei due che servono per lanciare il
+      CD che e'...  con un errore!  :(
+
+             Niente  paura!   leggo le docs sul CD e - come acennatomi da .mau.
+      - scopro che ci sono le immagini dei dischi!  Favoloso, posso tirare giu'
+      il dischetto rovinato!   Lancio  il  programma  che  dovrebbe farlo...  e
+      scopro che gira solo sotto OS/2 Warp.  Belle volpi.  veramente.   Chiappo
+      un  copiatore  della  maionica  e ci metto che mi deve leggere la traccia
+      erratica ben quindici (15!) volte.  Alla nona ce la fa!
+
+       [QUOTE OFF]
+
+        Per il backup, eh....  Forse IBM  ha  pensato che se lo dava, lo doveva
+ dare bello, altrimenti niente.  Ha scelto  niente...   ;-(  Si,  Microsoft  lo
+ fornisce, ma (esperienze personali) ogni tanto ha qualche defaillance, per non
+ parlare  dell'incompatibilita`  tra  versioni  del DOS ITA e USA....  [N.d.E.:
+ purtroppo confermo :)]
+
+        Anch'io ho dovuto ricreare un dischetto  dal CD, ma XDFCOPY (come anche
+ LOADDSKF) sono utilizzabili da DOS.  Io non ho mai avuto OS/2 e  ho  scaricato
+ il  floppy  prima dell'installazione dal prompt del DOS.  Qual'e' il programma
+ che ti ha causato problemi?
+
+        [QUOTE ON]
+
+               Il  disco  'sta   volta   parte,   frulla,   mulina,  mi  chiede
+        l'inserimento  del  secondo  (modificato  come  da   manuale   per   la
+        SoundBlaster+Panasonic)  e  -  emozione - comincia a controllare il mio
+        HD.  E' in grado di leggere  le  partizioni in HPFS!  per un momento ho
+        temuto!   Frulla,  frulla,  frulla  e...   mi  dice  che  non  si  puo'
+        installare sopra perche' c'e' gia' presente il vecchio osso!
+
+        [N.d.E.: scusa, ma ho tagliato un pezzo del tuo quote lunghissimo!  :)]
+
+        [QUOTE OFF]
+
+        Non posso dire niente sull'installazione in presenza  di  una  versione
+ precedente  di  OS/2  (come  ho  gia`  detto, Warp e` la mia "prima volta" con
+ OS/2), ma  in  area  non  mi  sembra  di  aver  sentito  di grandi problemi...
+ comunque non ho esperienze dirette.   Formatti  in  FAT  ed  "esprimi  il  tuo
+ malcontento per cio` " ;-)
+
+        Io  ho solo 8 MB di RAM ed ho formattato in FAT perche` la FAT comunque
+ devo  averla  per  lavorare  e   la   memoria   non  mi  permetteva  di  avere
+ contemporaneamente FAT e HPFS.  Mi pare di aver capito che questo  non  e`  il
+ tuo  caso,  in  quanto  l'HD era gia` formattato HPFS.  Come mai allora lo hai
+ formattato FAT ?  [N.d.E.: perche' ho  problemi di scrittura poi da partizioni
+ DOS]
+
+        Ad ogni buon conto, ci sono utility DOS che permettono di  leggere  (ed
+ ultimamente  anche  scrivere)  su partizioni HPFS, quindi il problema DOS-HPFS
+ dovrebbe  essere   al   termine,   sperando   che   IBM   stessa  provveda  ad
+ "istituzionalizzare" questi programmi (come *pareva* stesse  gia`  facendo...)
+ [N.d.E.:  e' vero, pero' ancora non ci siamo.  C'e' gente che ancora crede che
+ Windows '95 uscira' nel '95!  figuriamoci.]
+
+        [QUOTE ON]
+
+           Finalmente il tutto si installa faticosamente.  Beh, una cosa non e'
+        cambiata: la lentezza del SO  a  caricarsi al boot.  Anzi, non contenti
+        della gia' eccessiva lentezza ci hanno  aggiunto  di  default  il  Boot
+        Manager  -  altra  cazzata  -  ed il fatto che se il vostro HD possiede
+        almeno  un  driver  in  cui  si  possa  eseguire  il  boot  il  sistema
+        semplicemente si inchioda  per  dirvi  che  non  ci  trova il dischetto
+        bootabile dentro, e - per essere  ben  certo  che  ogni  volta  voi  lo
+        sappiate - si inchioda li' finche' non pigiate un tasto.  Uno qualsiasi
+        va  bene:  strano, mi aspettavo una frase del tipo "ok, ho capito.  Vai
+        pure  avanti."  Forse  all'IBM  vogliono  lanciare  la  nuova  moda del
+        boot-da-disco.  Boh.
+
+        [QUOTE OFF]
+
+        Perche` faticosamente?  Io, per  provarlo  in  diverse  configurazioni,
+ l'avro'  installato  una  quindicina  di volte (dalla beta 2.99 alla GA) ed ho
+ sempre benedetto il  fatto  che  fosse  su  CD-ROM  e  che facesse tutto senza
+ intervento continuo da parte dell'operatore.  Win che continua a  chiederti  i
+ dischetti...   che  stress!   Una volta che hai scelto i parametri iniziali di
+ configurazione (tipo di installazione  e,  se  del caso, tipo di formattazione
+ etc) si  succhia  tutto  da  CD  e  va  avanti,  fino  a  quando  ti  dice  di
+ bootstrappare ed entra in Selective Install.  In quella schermata ti configuri
+ la  macchina  ed il software che vuoi caricare e vai, si ri-succhia (nel senso
+ "succhia di nuovo" ) il malloppo.  Fine.
+
+        La   lentezza   al   boot.    E`   una   delle   lamentele   che  sento
+ soventissimamente (esiste?  mah!) [N.d.E.: hai mai visto un  boot  di  qualche
+ altro  s.o.   come  il  Mac  o  l'Amiga?   :)  Tra l'altro MC ha pubblicato un
+ articolo per velocizzare il boot dell'osso.  Se  vuoi ti dico il number :) ] e
+ non sono mai riuscito a capirne il significato.
+
+        Se mi si dicesse "Ogni volta che faccio un dir  ci  mette  1  minuto  a
+ leggere  i  files"  capirei  il  malumore,  ma  per  una  cosa che viene fatta
+ tipicamente una volta al giorno  non  ci  vedo  questa importanza.  "Eh, ma io
+ sono uno smanettone e cambio sempre il config.sys e  per  vedere  i  risultati
+ devo  aspettare..."  E' il prezzo da pagare per avere un S.O.  che ti permette
+ di fare certe cose.  Certo, il DOS  ti  bootstrappa  in un amen (Win non e` un
+ S.O., quindi non lo considero qui), ma (fatte le debite proporzioni) VMS, Unix
+ quanto ci mettono?  Su un Risc6000 con AIX, dall'accensione al boot completato
+ ne hai di tempo da far passare!  [N.d.E.: stiamo parlando di PC o cosa?  :)]
+
+        Non mi sembra che il BootManager sia installato di default, ma  non  ne
+ sono   sicuro...    L'ho   installato  durante  uno  dei  miei  esperimenti  e
+ successivamente l'ho disinstallato, ma mi  ricordo di averlo dovuto installare
+ espressamente...  [N.d.E.: si, il boot manager viene installato di default]
+
+        Non ho compreso la parte dell'HD, del  driver  bootabile  etc...   Puoi
+ chiarirmela?   [N.d.E.:  su  alcuni  PC, anche quelli certificati da IBM (vedi
+ ASEM) succede che al boot Warp si  inchioda segnalando di non trovare il so us
+ disco A. Bisogna battere un tasto per farlo continuare.   Questo  problema  e'
+ stato segnalato anche in area os2.ita.]
+
+        [QUOTE ON]
+
+         impedimenti  nello  spostamento delle icone per piccoli tratti, o quei
+       piccoli errori nelle selezioni/deselezioni delle icone che sporcavano un
+       po' il video (Unica cosa  e'  che  ora mettendo un'altra iconina al file
+       questa non viene persa se si provano a cambiare i settaggi.  Wow!)
+
+       [QUOTE OFF]
+
+        Si, questo e` irritante.  Spostare di poco un'icona per allinearla  con
+ le  altre  e il sistema non te lo permette ;-( , ma si puo` sopportare bene...
+ ;-) Non ho trovato invece  gli inconvenienti sulla selezione/deselezione da te
+ lamentati: potrebbe essere legato al tuo driver?  Io ho una Trident  8900  del
+ 1991  e, con i driver di Warp, vado a 1024 * 768 a 256 colori (non una fulmine
+ di guerra, ma meglio di come la usavo  sotto Win con i suoi driver - il dialog
+ editor del Visual C mi si piantava quando visualizzavo la griglia!!  )
+
+        [QUOTE ON]
+
+              Scopro con disappunto che la situazione del desk-top non si  puo'
+       salvare se non a seguito di shut-down e che, dopo aver portato un po' di
+       ordine...  Il sistema si inchioda!!!!
+
+              Ok,  ho  perso tutte le posizioni di icone&finestrelle, ma che il
+       sistema mi s'inchiodasse per  caricare  una  shell dos...  questo non mi
+       era *mai* successo col vecchio osso.  Alla fine scopro che ogni tanto  -
+       inspiegabilmente  -  il  mouse  sembra  perdere qualsiasi caratteristica
+       oltre  a  quella  del  movimento;   cosi'  anche  la  tastiera.   Poi  -
+       isnpiegabilmente - l'HD da segni di swappaggio (ma dov'e' 'sto  file  di
+       swap?) e poi riparte.
+
+       [QUOTE OFF]
+
+        Vabbe',  il  fatto  che  il  desktop  si  salvi allo shutdown e non sia
+ possibile un salvataggio forzato mi sembra minimale, in quanto non si dovrebbe
+ piantare nel frattempo ;-) .  [N.d.E.:  e  se manca la luce?  ad ogni modifica
+ che voglio mantnere stabile cosa faccio?  uno shut down?  ma  gia'  quelli  si
+ fanno  solo  una  volta  al  di'; :)] E ti si inchioda sempre?  Non per essere
+ ripetitivo, ma non mi e` mai accaduto  e,  se fosse veramente un bug comune ne
+ avremmo  sentito  parlare  (o  meglio,  *gridare*  nelle  aree!!   )  [N.d.E.:
+ infatti.]
+
+        [QUOTE ON]
+
+              Vabbe', rimetto a posto la scrivania, rishutto  e...   il  SO  mi
+        chiede  se  voglio  chiudere  una  sessione dos aperta.  Effettivamente
+        l'avevo aperta, ma  poi  l'ho  richiusa  col  solito  exit (tra l'altro
+        aprendo e chiudendo una sessione dos in finestra perdete le  coordinate
+        che  aveva  nello  schermo  e  ve  la  ritrovate  sempre in alto a sx).
+        Infatti nelle varie  finestre  che  segnalano  i  task attivi non c'e'!
+        eppure 'sto osso si insiste a dire che c'e' ancora.  Boh!
+
+       [QUOTE OFF]
+
+        Se ridimensioni una finestra tenendo lo shift premuto, OS si ricorda  i
+ settaggi...   Per  la  sessione DOS sparita: il fatto che non la faccia vedere
+ nei  task  attivi  e`  perche`  non  la  considera  un  task  switchabile,  ma
+ evidentemente e` sempre presente nell'elenco  dei task che stanno girando (sul
+ perche`, non so:  qualche  problema  nella  chiusura,  boh?   ).  Quindi  allo
+ shutdown OS trova il task attivo e ti chiede conferma.  Con l'utility freeware
+ WatchCat  si puo` controllare qualunque task attivo e killarlo (ed anche molto
+ di piu` ;-) ) [N.d.E.: appunto,  ma  non e' da sistema operativo!  :) Comunque
+ la soluzion migliore e' usare WinINI, perche' e' legato  alla  gestione  degli
+ attributi estesi.]
+
+        [QUOTE ON]
+
+           Rishutto  e  riparto: 15 minuti!  Comincio a guardare il config.sys.
+        Porca miseria!!  E cos'e' 'sta roba!?   Indago un po' e scopro di avere
+        montati nel config *tutti* - o buona parte  -  dei  driver  per  CD  di
+        qualsiasi marca.  Bizzarro.  Elimino il tutto - tra l'altro mi scompare
+        una  strana  scritta  del  boot  che  mi chiedeva come mai non avevo un
+        preziosissimo driver SCSI sul mio PC - e mi tolgo quasi 800K di roba.
+
+       [QUOTE OFF]
+
+        15 minuti per shutdown e  restart?!   Non  sono un po` eccessivi ?  ;-)
+ [N.d.E.: in effetti erano 5 :)] Sul fatto del config concordo: devi editarlo a
+ posteriori (no, non in quel senso!  ;-) ) per zappare via un bel po`  di  roba
+ inutile.   [N.d.E.:  si,  ma  bisogna toglierla non solo dal config.  ma anche
+ dall'HD!  Hai mai sentito parlare  di  ottimizzazione di risorse?] Il problema
+ e` che non tutti sanno cosa togliere e cosa  no,  e  quindi,  normalmente  nel
+ dubbio, si lascia tutto, anche il driver per i floppy Microchannel su macchine
+ ISA ;-)) .  [N.d.E.: gia', tanto ho un HD da 1Gb!]
+
+        [QUOTE ON]
+
+              Poi  - dopo aver constatato l'inutilita' dei medesimi - elimino i
+        giochi col  selective  deinstall  e  le  varie  bitmap  del  c***o.  Il
+        deinstall frulla un po'; si dimentica un po' di bitmap e  qualche  help
+        dei giochi.  Bella cagata.
+
+       [QUOTE OFF]
+
+        Mah,  i  giochi  li  tengo  sempre,  si  sa  mai.  Anzi, ho aggiunto un
+ TetrisPM non male...  8-) Il  deinstall  non  lo  ho  mai usato, quindi non so
+ dirti.  Per la tua disillusione sul funzionamento potrebbe valere il  discorso
+ fatto per il backup, al contrario.  Questa volta MS non lo mette, IBM si...
+
+        [QUOTE ON]
+
+              Poi  provo a vedere quella meraviglia del LaunchPad.  Ci paciocco
+        un po' e comincio  a  domandarmi  seriamente l'utilita' di questa cosa;
+        insomma anche a 800x600 ne avete di icone  da  mettere  in  giro  senza
+        andarle a rinchiudere dentro un programmillo estremamente poco elastico
+        ed anche un po' scomodo...
+
+        [QUOTE OFF]
+
+        Anche  a  1024*768  di spazio per le icone ne avrei parecchio, soltanto
+ che ho lo schermo vuoto...   ho  due  launchpad, uno con gli applicativi d'uso
+ piu` frequente (alto a sinistra) ed uno con i folder (basso  a  destra).   Per
+ esempio,  un  bottone  del  LP  e`  lo  shell  OS/2  in finestra, nel cassetto
+ associato ho tutti gli altri shell:  se  li andassi a cercare nei folder sulla
+ scrivania ci metterei molto piu` tempo....  Cosi` il  desktop  e`  molto  piu`
+ pulito e funzionale.  Poco elastico e scomodo?  Perche`?
+
+        [N.d.E.:  perche'  non  rispetta la filosofia stessa dell'obj orientecd
+ imposta dall'IBM.  Se faccio  una  finestra  staccabile  e la voglio vedere in
+ orizzontale non posso: o tutte in orizzontale o tutte in  verticale.   Se  poi
+ voglio  tenermela staccata e ritrovarmela tale anche al boot...  non funziona.
+ Programmi del genere per Windows ce n'e'  un mucchio e pure PD.  Mamma IBM col
+ suo bel so objectizzato avrebbe potuto fare qualcosa di veramente utile.
+
+         Inoltre, se volessi un'icona in grafica ed una in testo nella finetra?
+ non sarebbero questi i veri oggetti?  :)]
+
+        [QUOTE ON]
+
+         Passo al FAX per modem...  e qui cominciano i  dolori.   'Sti  stronzi
+       hanno incluso dei programmilli che per fungere a pieno...  beh sganci la
+       grana.   "Questo  e'  solo  per  farti vedere quanto siamo bravi!" Bella
+       cagata.
+
+              Comunque il FAX gira, spedisco  e  ricevo roba, provo a stamparla
+       e...  il FAX si inchioda!  ed osso me lo chiude.  Non demordo, riprovo a
+       stampare il fax ricevuto, ed il programma si  reinchioda.   Cancello  il
+       programma  e  installo  la versione inglese...  Magia!  il programma ora
+       stampa tranquillamente.
+
+             Ho un brivido al pensiero di quei grulloni che si sono comprati il
+      so in italiano!  (Ho poi scoperto che il so italiano fa casini col prg di
+      ricerca file, in pratica riempie  l'HD  di  puttanate!  beh in quel senso
+      lavora meglio di Windows!)
+
+      [QUOTE OFF]
+
+       Halite ed il fax sono "lite", pero` funzionanti al 100%: non hanno delle
+ funzioni (non lite) che sono presenti nella versione commerciale.  Non  me  ne
+ farei un problema...  Halite l'ho usato un po` all'inizio perche` non avevo un
+ programma  di comunicazioni nativo: come ho trovato Zoc (shareware), Halite e`
+ partito (senza alcun rimpianto!).
+
+        Eh si'!  Il fax in italiano  ha  dei SERI problemi.  Pazienza, dato che
+ sul CD del  BonusPack  della  verione  ITA  ci  sono  tutte  le  versioni,  ho
+ installato  quella  USA.   Ah,  io  sono  uno  di  quei  grulloni che, per non
+ attendere troppo, hanno preso la  versione  ITA.   Ma non preoccuparti, se hai
+ brividi e` piu` probabile sia l'influenza  che  il  pensiero  di  noi  con  la
+ versione ITA!  ;-)) .  [N.d.E.: :-#] Il problema sul find e` piu` che altro un
+ problema di installazione del codepage.  Se lo si installava correttamente fin
+ dal  principio,  i problemi erano limitati (vorrei dire inesistenti, nel senso
+ che sulla mia macchina il find ha sempre funzionato e non mi ha mai sputtanato
+ alcunche` )
+
+        [QUOTE ON]
+
+               Insomma i  WCDossiani  sono  WCDossiani,  questo  l'hanno capito
+        anche quei pantaloni dell'IBM.  L'area Fido os2.ita e'  attualmente  in
+        ebollizione   per   Warp,   tutti   sono  entusiasti.   Ma,  credetemi,
+        quest'operazione e' un restyling bell'e buono: tra l'altro piu' pensoso
+        di quelli che la FIAT fa alle proprie autovetture.
+
+        [N.d.E.: scusa, ma ho tagliato un pezzo del tuo quote lunghissimo!  :)]
+
+
+        [QUOTE OFF]
+
+        Come ti ho gia` accennato,  non  ho  mai  usato un OS/2 precedente.  Ma
+ nelle aree tanta gente che lo ha fatto *e`* entusiasta di Warp ed  afferma  il
+ notevole salto di prestazioni rispetto al vecchio OS/2....  mi limito a citare
+ senza  poter  suffragare  con  esperienze  dirette...   (fra l'altro, penso tu
+ volessi dire "penoso", e che il "pensoso" sia uscito dalla tastiera...  ;-) )
+
+        Per quanto possa valere il  mio  consiglio,  le 120KL sono ben spese...
+ anche il kit per Internet fa la sua parte (e direi che  la  fa  anche  bene...
+ ;-)) [N.d.E.: a presto mazzulero' anche quello nel prox number :)]
+
+       Nelle  BBS  e nelle aree FIDO si potranno comunque poi trovare consigli,
+ driver,  patch  e  programmi  per  poter  superare  anche  eventuali  problemi
+ contingenti e per ampliare la  potenza  e  la  versatilita` di Warp ...  siamo
+ tutti li` anche per questo, no?  ;-)
+
+        Termino chiedendoti scusa per la lunghezza del messaggio e per il tempo
+ che mi hai dedicato, assicurandoti che tutto quanto e`  detto  in  amicizia  e
+ senza alcun "fuoco religioso", ma solamente come puntualizzazione....
+
+        Contattami  pure  per eventuali ulteriori approfondimenti!  [N.d.E.: il
+        pupo e' stato contattato per una recensione di Zoc :)]
+
+        Ancora grazie ed arrisentirci!
+
+
+
+                                                    Marco Rocco
+                                                    Internet:  mrocco@ibm.net
+                                                    Fidonet :  2:334/501
+
+
+
+        P.S.  Non avevi un  backup  normale  della  dir di Telematicus, oltre a
+ quello generale fatto per reinstallare OS/2 ?  [N.d.E.: si, ne avevo  due,  ma
+ tutti e due mi hanno dato dei problemi.  :( ]
+
+
+
+
+ ############ NOTIZIE FIDONET REGION 33                                     ###
+ ###  14  ###                                                          NEWS ###
+ ############                                                          AAVV ###
+
+ Riassunto:
+
+        Il 331 langue in assenza di collaboratori.  Vedro' di darmi una mossa.
+       Un grazie sentitissimo a tutti gli altri collaboratori.
+
+ ------------------------------------------------------------------------------
+
+                                *** NET 331 ***
+
+                   ** !CERCASI ASPIRANTI COLLABORATORI! **
+
+
+
+                                *** NET 332 ***
+
+ From : Roberto Orsini
+          2:332/403.74
+
+  OsseCui Renato!
+
+  Bah,  questo mese pare non ci sia niente di nuovo, tranne forse il fatto che,
+ per il 9 Aprile, e` previsto un HubCon a Bologna.
+
+  [...]
+
+  Non ho fatto in tempo a scrivere che  non ci sono novita`, quando ecco che ne
+ arriva una clamorosa: Mario Mure` (332/505-525), NC da circa tre anni,  lascia
+ incarico  e  net  per trasferirsi in Sicilia (!), dove ovviamente riaprira` un
+ BBS.  [N.d.E.: i nostri migliori auguri a Mario.]
+
+ [...] Dai, un'altra notizia: Vincenzo Ninci si dimette da HC del 332/100.
+
+                                                                   |'!Chao!_
+                                                                   |__ OrsO/
+                                                                          /
+                                                                   2:332/403.74
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+  From : Giovanni Lopes
+            2:332/114.2
+
+  Il nostro NC, Mario Mure`, se ne torna nella  natia  Sicilia  per  motivi  di
+ lavoro.  Verranno molto presto indette elezioni per il nuovo NC.
+
+  Ciao Ciao!
+                                                                    ___
+                                                                   /  _
+                                                                  <___/ iovanni
+                                                                   2:332/114.2
+
+
+                                *** NET 333 ***
+
+                            NON HO AVUTO RISPOSTE :(
+
+
+
+                                *** NET 334 ***
+
+ From : Angelo Verdone
+ Subj : pas de nouvelles bonnes nouvelles
+
+  Ciao Babalun,
+
+  Allua come ti va sto osso 2 :-))
+
+  Visto  che  mi  stressi sempre ti do la novita' del 334 ed e' che non ci sono
+ novita' :-))
+
+  Saluti,
+                                                                     /angelo/
+                                                                     2:334/21
+
+
+                                *** NET 335 ***
+
+ From : Enrico Franceschetti
+                 2:335/212.1
+
+                                  NETCOM 335
+
+ Ciao Renato !
+
+  Come  ti  avevo promesso, ti rendo nota la data in cui si svolgera' il netcon
+ del net 335.  Si trattera' di un incontro amichevole, con la partecipazione di
+ diverse famiglie.
+
+  Essa e' stata fissata per  il  30  aprile  p.v.  in Napoli.  Sede effettiva e
+ ristorante per l'incontro conviviale sono ancora da definire.
+
+  Il programa si articolera' in modo da riservare le ore della  mattinata  agli
+ incontri  ed  alla  "fraternizzazione",  le ore centrali della giornata per un
+ piacevole "pranzo sociale" e le  ore  del  primo  pomeriggio per i saluti ed i
+ commiati.  La riunione  si  sciogliera'  in  tempo  per  consentire  a  quanti
+ affrontano lunghi viaggi di rientrare alle rispettive sedi in serata.
+
+  Il comitato organizzatore e' formato da:
+
+              Paolo Punzo, HC hub 200, (2:335/4)
+              Aris Ferrara, NEC 335, (2:335/225)
+              Enrico Franceschetti, "Peone" :), (2:335/212)
+
+  Chiunque volesse intervenire, da qualunque parte d'Italia, e' benvenuto ed e'
+ pregato di contattare uno  dei  tre  organizzatori  sopra indicati entro e non
+ oltre il 18 aprile, per segnalare la propria partecipazione e  consentirci  di
+ calcolare il numero degli intervenienti alla riunione.
+
+ Ciao!
+
+                                                  Enrico
+                                                  E.Franceschetti@Agora.stm.it
+                                                  2:335/212.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ******************************************************************************
+
+             Telematicus e' formattato a 80 caratteri su 22 righe.
+        Per stamparlo correttamente *non* usare i font proporzionali.
+
+ ******************************************************************************
+
+ Il number di TELEMATICUS stato corretto con:
+
+ Spellita v1.1 di Marco Minardi (2:332/402.32.  Via G. Battisti 8 47100 Forli')
+ (versione registrata)
+
+ e redatto con :
+
+ BOXER 6.0a per OS/2 di Boxer Software (Po Box 3230.  Peterborough - NH 03458)
+ (in prova)
+
+ ******************************************************************************
+
+
+
+
+
+
+
+
+               TELEMATICUS SI PUO' TROVARE IN TUTTI I NODI I.S.N.
+                          (Italian Shareware Network)
+
+
+
+ Assieme alla  rivista  ho  inserito  ISN-NODE.*,  la  lista  di  tutte  le BBS
+ appartenenti ad ISN.
+
+
+
+
+
+
+
+
+
+ ####                            End of TELEM047                           ####

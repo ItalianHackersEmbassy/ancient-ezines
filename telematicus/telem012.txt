@@ -1,0 +1,1144 @@
+    *****   Vol.  1   *****      Pag.  1      *****   Numero  12   *****
+
+    ====================================================================
+
+    @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+      @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+      @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+      @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+      @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+    ====================================================================
+
+                                 Dicembre 1991
+
+    ====================================================================
+
+      Bollettino telematico mensile a cura del network 2:334 - Fidonet 
+
+                 Editor natalitius:     Maurizio Codogno
+                 Editor accountista:    Alfredo Berlusconi
+                 Editor dimissionarius: Roberto Piola
+                 Editor finestrator:    Renato Rolando
+                 Editor coordinator:    Franco Carcillo
+                 Editor programmator:   Marco Russo
+                 Editor auscultator:    Lorenzo Travaglio     
+                 Collaboratori:         Tutti voi :-)
+
+    --------------------------------------------------------------------
+
+                            IN   QUESTO   NUMERO :
+
+    Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .  pag.  2
+    La programmazione Event-Driven, di Marco Russo    .   .   .  pag.  3
+    Fusione, di Roberto Piola .   .   .   .   .   .   .   .   .  pag.  7
+    Itapac - parti 8 e 9, di Alfredo Berlusconi   .   .   .   .  pag.  8
+    BBS e Radioascolto, di Lorenzo Travaglio  .   .   .   .   .  pag. 11
+    Vivamiga, di Renato Rolando   .   .   .   .   .   .   .   .  pag. 13
+    Curiosita`: Il gergo hacker - parte 9 .   .   .   .   .   .  pag. 15
+    Notizie Fidonet, di Franco Carcillo   .   .   .   .   .   .  pag. 18
+    Notizie dal net 334   .   .   .   .   .   .   .   .   .   .  pag. 20
+    I nostri bbs  .   .   .   .   .   .   .   .   .   .   .   .  pag. 21
+
+    ====================================================================
+
+         Il materiale presente in Telematicus e` (C) dei singoli autori.
+    E` espressamente  consentita  la  distribuzione  e il riutilizzo del
+    bollettino  in  tutto  o in  parte,  purche` non  a fini di  lucro e
+    citando sempre la fonte di provenienza. 
+
+    *****   Vol.  1   *****      Pag.  2      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                       -----> EDITORIALE 
+                                                              ==========
+
+         Carissimi lettori,
+    A  parte i soliti auguri di Buone Feste che sentirete poi da  troppa 
+    gente perche` valga la pena di spendervi piu` di due parole,  vorrei 
+    farvi  notare  che  questo  e`  l'ultimo  numero  del  volume  1  di 
+    Telematicus. A gennaio, se ne avro` il tempo, vorrei partire con una 
+    veste   editoriale  piu`  legata  al  video,  con  una   specie   di 
+    impaginatore on-line per il testo della rivista.
+
+          Dicembre e` anche tempo di bilanci: perche` non mi spedite  un 
+    bel  matrix dicendo cosa vorreste avere e non avere l'anno  prossimo 
+    su Telematicus? Almeno ricevero` un po' di posta...
+
+          Un  cordiale saluto a Marco Russo che ha raccolto l'invito  di 
+    scrivere qualcosa, e a Lorenzo Travaglio che ogni tanto si fa  vivo: 
+    su, non ammazzo nessuno, sono troppo buono io!
+
+          Infine  ribadisco qui l'invito che Franco Carcillo ha  scritto 
+    nella  rubrica Notizie Fidonet: nessuna persona che abbia voglia  di 
+    fare  il corrispondente Fidonet dagli altri net italiani? Nemmeno  a 
+    Natale,  che sono tutti piu` buoni??? Tanto lo so che  arriva  anche 
+    fuori da Torino...
+
+                        ciaociao .mau.
+
+    *****   Vol.  1   *****      Pag.  3      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                   -----> LA PROGRAMMAZIONE EVENT-DRIVEN
+                                          ==============================
+
+         Il rapido evolversi delle interfacce utente verso sistemi user-
+    friendly  ha portato qualche stravolgimento non solo  per  l'utente, 
+    che  puo' passare giorni e giorni a schiacciare pulsanti  e  muovere 
+    finestre col mouse, ma anche (e direi soprattutto) per i  programma-
+    tori.
+
+         Non piu' di dieci anni fa la struttura piu' "amichevole" che si 
+    conoscesse  era una sequenza di menu in cui l'utente poteva  trovare 
+    tutte  le  funzioni di cui necessitava  utilizzando  l'applicazione. 
+    Certo, prima di poter "visitare" tutta un'applicazione ci voleva del 
+    tempo,  ma era sicuramente piu' facile eseguire  un'operazione  sce-
+    gliendo  tra  varie possibilita' presentate a video  che  non  farlo 
+    scrivendo lunghi comandi (spesso infarciti di incomprensibili  para-
+    metri) sulla tastiera...
+    Venne  il Macintosh, venne Windows, venne l'Amiga,  l'Atari,  X-Win-
+    dows....  oggi si puo' dire che non esista piattaforma senza i  suoi 
+    bravi ambienti a finestre con menu a tendina, uso massiccio di  help 
+    on-line, il tutto comandabile semplicemente muovendo il mouse...
+    Addirittura anche senza arrivare ad usare sistemi con grafica  avan-
+    zata  si possono vedere programmi che seguono in tutto e  per  tutto 
+    questo nuovo "standard": qualsiasi applicazione MS-DOS un po' recen-
+    te ha le stesse funzionalita' di una Windows, con le dovute  propor-
+    zioni, ovviamente.
+
+         Quello che non e' cosi' evidente, invece, e' che questa  migra-
+    zione verso interfacce utente sempre piu' evolute ha costituito  una 
+    radicale svolta nel metodo di costruzione dei programmi stessi. Oggi 
+    un  programmatore rischia di dover passare piu' tempo  a  disegnare, 
+    controllare,  gestire, in una parola a "fare"  l'interfaccia  utente 
+    che non a "fare" il programma vero e proprio.
+
+         Inizialmente  si  potrebbe dire: come, uno che usa  Windows  ha 
+    gia'  tutto pronto, le routine sono gia' li', basta chiamarle,  qual 
+    e'  il problema? Il problema e' proprio che le routine  da  chiamare 
+    non  sono  cosi' poche, ma soprattutto il problema  piu'  grande  e' 
+    stare  dietro alle imprevedibili mosse dell'utente che, preso  dalla 
+    sindrome  del  mouse, puo' richiedere al programma di fare  le  cose 
+    piu' disparate nelle situazioni piu' impensate (per il  programmato-
+    re...).
+    E  cosi' veniamo al nodo cruciale: il programmatore non decide  piu' 
+    cosa l'utente puo' fare in ogni situazione possibile, il  programma-
+    tore deve invece prevedere di gestire ogni "mossa" dell'utente, ogni 
+    "impulso"  esterno (come errori di accesso al disco), in una  parola 
+    ogni EVENTO possibile indipendentemente dal contesto in cui si trova 
+    ad agire. La differenza, che potrebbe apparire sottile, e' in  real-
+    ta'  molto grande, soprattutto se si pensa alla mole di  lavoro  ag-
+    giuntivo che questa visione delle cose comporta.
+
+         Facciamo  un  esempio: immaginiamo di utilizzare  un  programma 
+    "vecchio  stile" e di volere effettuare una stampa di  alcuni  dati; 
+    probabilmente  ci  troveremo di fronte ad un menu  con  scelte  tipo 
+
+    *****   Vol.  1   *****      Pag.  4      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    "Salva,  Carica, Stampa, Esci". Scegliamo di stampare:  compare  una 
+    serie  di richieste circa la stampa che vogliamo  effettuare,  cioe' 
+    che  stampante useremo, che formato di stampa, quante righe per  pa-
+    gina, e cosi' via. Come utenti non abbiamo molte alternative se  non 
+    rispondere alle domande che il programma ci pone, spegnere il compu-
+    ter, andare a bersi una coca cola: di queste decisioni il programma-
+    tore  deve prevedere solo la prima, al massimo la seconda... in  ef-
+    fetti  il programmatore consente all'utente in quella situazione  di 
+    effettuare un numero molto limitato di operazioni. 
+
+         Ora resettiamo l'immaginazione e proiettiamo nel nostro encefa-
+    lo  una bella videata con finestre, menu, icone, ghirigori  vari...; 
+    decidiamo di stampare alcuni dati: andremo su di un menu di  stampa, 
+    attiveremo questa funzione, comparira' una bella finestra con  tutti 
+    i parametri di stampa, modificheremo quelli che non ci vanno bene  e 
+    daremo il via alle operazioni.... 
+    Detta  cosi' potrebbe sembrare la stessa cosa vero? Ma  facciamo  un 
+    passo  indietro.  Tanto per cominciare, come ho  attivato  il  menu? 
+    Potrei averlo fatto usando la tastiera, oppure con il mouse...  Com-
+    pare la mia finestra con tutti i parametri... ah pero' adesso che mi 
+    ricordo devo tornare sul documento per cambiare l'altezza del  tito-
+    lo,  devo fare una copia del documento sul dischetto, devo  cambiare 
+    il colore del bordo della mia finestrella, devo....
+
+         Come  vedete il programma deve essere pronto a seguire tutti  i 
+    "devo" dell'utente... ed e' proprio il programmatore che deve preve-
+    dere tutti questi casi, o meglio deve fare in modo che l'utente  non 
+    compia  operazioni  "distruttive"  richiedendo  simultaneamente  due 
+    operazioni incompatibili tra di loro. 
+    Un modo semplice e brutale e' fare in modo che se l'utente decide di 
+    stampare  un documento o compila debitamente la richiesta di  stampa 
+    che  gli viene proposta oppure annulla la stampa... senza  lasciarla 
+    "in sospeso" sotterrando la nostra finestrella con milioni di  altre 
+    finestre.  Questo  pero' e' appunto un metodo brutale,  che  snatura 
+    tutta la filosofia con cui queste nuove interfacce utente sono nate.
+
+         Abbiamo quindi scoperto un nuovo "stile" di programmazione, che 
+    e'  la programmazione pilotata dagli eventi  (programmazione  event-
+    driven).  Scrivere  un programma event-driven significa  in  soldoni 
+    scrivere tanti programmi, uno per ogni evento possibile, che possono 
+    poi interagire tra di loro. Attenzione pero' che non stiamo parlando 
+    di  multi-tasking, ma di interazione a livello di dati:  infatti  la 
+    stessa operazione (l'uscita da un programma) puo' richiedere  diffe-
+    renti "passi" a seconda dello stato in cui si trova il programma. 
+    Per esempio, immaginiamo che nel menu sia sempre attiva l'operazione 
+    "Esci";  se questa viene richiamata quando non ci sono altre  opera-
+    zioni  in sospeso, non si dovra' fare altro che restituire  il  con-
+    trollo  al programma chiamante (in genere il sistema operativo),  ma 
+    le cose cambiano se, ad esempio, ho effettuato una modifica su di un 
+    documento senza averla ancora salvata.
+
+         Questo e' il primo esempio di come le cose si complicano quando 
+    si  scrive un'applicazione event-driven, e la  complessita'  aumenta 
+    sempre  di piu' quando si devono controllare un numero  sempre  piu' 
+    elevato di fattori variabili...
+
+    *****   Vol.  1   *****      Pag.  5      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         Ora, e' indubbio che questo modo di procedere sia "legato" allo 
+    stile di programmazione tradizionale, quello in cui il programmatore 
+    deve prevedere tutte le situazioni possibili e decidere cosa fare in 
+    ognuna  di esse: con questo tipo di interfaccia utente il numero  di 
+    situazioni e' talmente grande che diventa quasi impossibile scrivere 
+    un programma consistente operando in questa maniera.
+
+         Ovviamente esiste un sistema per semplificare le cose.
+
+         Normalmente  esiste un "nocciolo" del programma (che a  seconda 
+    dei  casi puo' essere implementato nel sistema operativo,  puo'  far 
+    parte di una libreria o essere riscritto di sana pianta) che  gesti-
+    sce gli eventi ad un livello basso, possiamo anzi dire che  "genera" 
+    gli eventi: questo nocciolo non e' altro che un loop in cui si vanno 
+    a  testare tutti gli "agenti esterni" (mouse, tastiera, floppy,  se-
+    riale, parallela, ...) e in base ai segnali che essi producono deci-
+    de che tipo di evento generano. Per esempio, il movimento del  mouse 
+    assume  due significati diversi se il pulsante del mouse e'  premuto 
+    oppure no; inoltre se si preme il pulsante del mouse in una zona del 
+    video piuttosto che in un'altra il significato dell'operazione  puo' 
+    cambiare.
+
+         Questo "nocciolo" spesso e' la parte piu' cruciale del program-
+    ma  e il piu' delle volte e' il programmatore che lo deve  scrivere, 
+    magari utilizzando tutta una serie di primitive messe a disposizione 
+    del sistema operativo: questo e' esattamente quello che succede  nel 
+    Macintosh.  Per  fortuna esistono delle ottime  librerie  che  hanno 
+    questa  parte di programma gia' pronta, ed eliminano gia' un  grosso 
+    problema.
+
+         A  questo punto iniziamo a parlare di eventi ad un  livello  di 
+    astrazione piu' alto di quello che abbiamo visto sinora.
+    Il nostro "nocciolo" analizza attentamente l'hardware e genera even-
+    ti: chiamata di un menu, chiusura di una finestra, ecc.
+    Il  programma  deve prevedere quindi un'operazione per  ogni  evento 
+    possibile.  Un evento, pero', puo' interessare una o piu' parti  del 
+    programma.
+    Se,  infatti,  decidiamo di uscire dal programma, e'  probabile  che 
+    questo evento influisca su quasi tutte le parti del programma,  poi-
+    che' occorrera' effettuare tutta una serie di controlli per  verifi-
+    care  che  tale operazione sia consentita. Se  invece  decidiamo  di 
+    ridurre una finestra, quell'evento interessera' soltanto la parte di 
+    programma che si occupa della gestione di quella finestra... che poi 
+    questa  operazione  comporti una serie di operazioni  (e  quindi  di 
+    eventi)  successive, questo non e' importante. L'evento  "riduci  la 
+    finestra"  interessa direttamente quella finestra; il programma  po-
+    tra' poi generare un evento "ridisegna la finestra" che interessa la 
+    finestra che sta sotto, ma questo non ci interessa ora, ci  interes-
+    sera' solo quando gestiremo l'evento successivo, che anziche' essere 
+    generato  dal "nocciolo" di cui parlavamo prima sara'  auto-generato 
+    dal programma stesso. In realta' questa differenza non e'  importan-
+    te, poiche' ogni evento viene gestito allo stesso modo indipendente-
+    mente da chi lo abbia generato.
+
+    *****   Vol.  1   *****      Pag.  6      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         Chi  e' riuscito a capirmi finora avra' iniziato a  comprendere 
+    come  viene  strutturato un programma event-driven:  esistono  tanti 
+    moduli  che convivono, operando ognuno per conto suo ma  comunicando 
+    (quando serve) con gli altri moduli creando e ricevendo dei  messag-
+    gi, cioe' degli eventi.
+    Ma a cosa corrispondono, praticamente, questi moduli? Questo dipende 
+    dal programmatore... ma la cosa piu' ovvia da fare e' di considerare 
+    ogni  "oggetto" che possiamo visualizzare (finestra, menu,  bottone, 
+    icona, ecc.) come un modulo del programma. Estendendo questo concet-
+    to, possiamo pensare che esistano dei moduli che non siano altro che 
+    insiemi di moduli piu' elementari (ad esempio, una finestra e'  com-
+    posta  da un bordo e dalla somma degli elementi che  contiene,  come 
+    testo non modificabile, linee di input, bottoni, e cosi' via).
+
+         Nonostante tutto questo sia molto schematizzabile, vi  assicuro 
+    che  non  e' affatto facile scrivere (almeno la prima  volta...)  un 
+    programma con tutte queste cose...
+    Per  fortuna  ci sono dei sistemi per semplificare il  lavoro:  oggi 
+    questi sistemi sono i linguaggi object-oriented. Come dice la  paro-
+    la, questi linguaggi sono orientati agli oggetti, cioe'  costringono 
+    il  programmatore a scrivere non piu' delle semplici funzioni  (fun-
+    zione per disegnare una finestra, per disegnare il menu, per gestire 
+    il movimento della finestra, la scelta dei menu....) ma degli ogget-
+    ti.  Oggetti  come finestre, menu, icone...  Ogni  oggetto  contiene 
+    tutte  le funzioni (che prendono il nome di metodi) per la  gestione 
+    completa dell' oggetto stesso.
+    Questo significa che l'oggetto finestra possiede i metodi per  dise-
+    gnare  la finestra e gestire tutti gli eventi a lui indirizzati.  Il 
+    programma  che crea la finestra puo' quindi permettersi il lusso  di 
+    ignorare  del tutto come funziona la finestra, poiche' essa e'  com-
+    pletamente  autonoma e non ha bisogno di alcun "aiuto"  esterno  per 
+    poter funzionare!
+
+         Un programma event-driven puo' comunque essere scritto  utiliz-
+    zando un linguaggio tradizionale, ma sicuramente e' molto piu' "sem-
+    plice"  (soprattutto  dopo aver fatto un po'  di  esperienza)  farlo 
+    utilizzando  dei linguaggi object-oriented; ancora piu' semplice  se 
+    avrete delle buone librerie a disposizione...
+
+         Per questo numero basta cosi'!!!
+
+         Per insulti e commentacci vari contattatemi in Matrix o su Fido 
+    Torino nell'area "Filo diretto coi Points".
+
+         Un saluto.
+
+                       Marco Russo
+                       2:334/1.110@fidonet.org
+
+
+    *****   Vol.  1   *****      Pag.  7      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                          -----> FUSIONE
+                                                                 =======
+
+          [NdE:  Ho  ricevuto  questo da uno  dei  nostri  piu`  assidui 
+    collaboratori, impossibile non pubblicarlo]
+
+         C'era  una volta un picolo BBS di montagna, Tecnosoft BBS,  en-
+    trato in rete Fidonet per avere le tanto decantate aree messaggi.
+
+         Poi,  salto'  fuori un altro BBS, ancora piu' piccolo,  ma  300 
+    metri piu' in alto, e Tecnosoft divenne il "BBS di campagna".  Inol-
+    tre vennero i points, ed il traffico di mail aumento' a dismisura...
+
+    Nel  frattempo,  continuava la ricerca disperata ed inutile  di  uno 
+    sponsor, ed il sysop incomincio' a soffrire di continue e prolungate 
+    crisi depressive, con il crescere delle spese e con l'accorgersi che 
+    la  sua  limitata disponibilita' di hardware non gli  permetteva  di 
+    mettere in linea tanto da attirare utenti a sufficienza.
+
+    Malinconicamente aiuto' un altro giovine sysop a mettere in piedi un 
+    BBS  sponsorizzato... Che invidia vedere l'enorme hard disk in  mani 
+    di  un nuovo venuto, mentre si tira avanti con due rumorosi e  lenti 
+    hard da 20 Mega.
+
+         Un  tragico sabato, al sysop in questione arrivo'  una  lettera 
+    che lo getto' nello sconforto piu' nero. Dopo una mezz'ora di  deci-
+    sione, si decise a telefonare: "Paolo, tu volevi avere un BBS  Fido-
+    net,  vero?  Dammi tempo un'ora che te lo porto, con  tutti  i  miei 
+    utenti, le mie aree messaggi e le mie aree files". Avvenne cosi'  la 
+    fusione  tra il BBS di campagna ed il BBS sponsorizzato: al  vecchio 
+    numero di Tecnosoft (0121-500663) risponde malinconico un Front End: 
+    "Il numero e' cambiato! Chiamate lo 0121-542795 - orario 20.00-8.00; 
+    domenica tutto il giorno", mentre al nuovo numero (542795)  risponde 
+    un  potente BBS, a cui mancano ancora numerosi ritocchi, ma  che  ha 
+    gia' da offrire molto piu' del vecchio Tecnosoft - se non altro come 
+    enormi aree files.
+
+         Comunicazione  di  servizio: io non saro'  piu'  reperibile  al 
+    334/306.0, ma solo al 334/306.666.
+
+         @    @
+                   Ciao. Ci vediamo sul nuovo King BBS
+         \____/
+
+
+    *****   Vol.  1   *****      Pag.  8      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                             -----> ITAPAC - PARTI 8 E 9
+                                                    ====================
+
+                    ERRORI
+                    ------
+
+         Durante  il collegamento con il PAD possono verificarsi  alcune 
+    situazioni  che  sono decisamente anomale. Queste  anomalie  possono 
+    compromettere il collegamento o anche la richiesta di  collegamento. 
+    In  questo caso, in base al parametro 6, il PAD genera un  messaggio 
+    corrispondente all'anomalia che e' venuta a verificarsi.
+
+          RESET DTE  - L'host ha chiesto il reset del PAD. Tutti i para-
+    metri  che abbiamo eventualmente riprogrammato vengono riportati  ai 
+    valori che sono stati previsti dal nostro profilo o modificati prima 
+    della  connessione. In pratica e` persa la programmazione fatta  du-
+    rante il collegamento con l'host remoto.
+
+          RESET ERR  - Errore di procedura. O la rete oppure il collega-
+    mento col l'host ha commesso un errore di procedura nella  comunica-
+    zione  arrivando cosi' a provocare il reset del collegamento  ed  il 
+    ripristino dei parametri standard.
+
+          RESET NC   - Reset  per congestione della rete;  qualche  pac-
+    chetto  e'  andato perso in quanto la rete di  comunicazione  e'  in 
+    condizioni di eccessivo affollamento.  La connessione con l'host  e' 
+    ancora attiva e si puo' riprendere il colloquio.
+
+          ERR INV    - Parametro  o comando non valido. Se  l'errore  si 
+    verifica  durante la riprogrammazione di piu' parametri in  un  solo 
+    comando  e' necessario correggere l'errore e mandare di nuovo  tutta 
+    la stringa.
+
+          ERR ILL    - Comando  non permesso, il NUI e'  errato.  ITAPAC 
+    permette  solo NOVE tentativi di collegamento errati, al  decimo  si 
+    interrompe  il collegamento con il PAD. Le NUI sono attive solo  sui 
+    PAD a cui sono state assegnate: puo' capitare percio` che la NUI sia 
+    corretta e che il PAD non la riconosca.
+
+
+                    MESSAGGI
+                    --------
+
+          I  messaggi di tipo CLR xxx sono generati per segnalare  l'in-
+    terruzione  o  il fallimento della connessione con l'host  remoto  e 
+    riportano il PAD nel modo comandi per essere cosi' in condizione  di 
+    chiedere una nuova connessione.
+
+          CLR DTE  - Il collegamento e' stato interrotto dall'host.
+
+          CLR CONF - Disconnessione  confermata: abbiamo inviato al  PAD 
+    la  sequenza Control-P per attivare il richiamo del PAD  ed  abbiamo 
+    inviato il comando CLR <CR>.
+
+    *****   Vol.  1   *****      Pag.  9      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+          CLR OCC  - L'host non dispone di porte libere per il  collega-
+    mento. E' necessario attendere e riprovare piu' tardi.
+
+          CLR NC   - La rete e' sovraccarica nel circuito che ci collega 
+    all'host richiesto, ma puo` essere in compenso libera per effettuare 
+    un collegamento diverso.  Questo messaggio puo' essere generato  sia 
+    alla  richiesta che durante il collegamento. Per i collegamenti  in-
+    ternazionali possono essere disponibili diverse "strade" che transi-
+    tano  per diverse nazioni, puo' quindi essere utile provare  accessi 
+    alternativi per aggirare il tratto congestionato.
+
+          CLR INV  - E' stata richiesta una funzione non valida.
+
+          CLR NA   - Accesso non permesso: l'host chiamato appartiene ad 
+    un gruppo chiuso.
+
+          CLR ERR  - Chiamata abbattuta a causa di un errore nella  pro-
+    cedura Locale
+
+          CLR RPE  - Errore di procedura dall'host chiamato: la chiamata 
+    e' abbattuta
+
+          CLR NP   - NUA non disponibile o non attiva sulla rete.
+
+          CLR DER  - L'host chiamato e' guasto.
+
+          CLR  PAD  - L'host ha chiesto al PAD la disconnessione.Il  PAD 
+    ha abbattuto la chiamata.
+
+
+                    I PROFILI STANDARD
+                    ------------------
+
+          I dieci profili standard che sono stati predefiniti dal Gesto-
+    re sono stati studiati per tutta una serie di differenti applicazio-
+    ni.  L'utente in commutata e' solitamente in condizione di  ricevere 
+    il profilo 3 dal Gestore. Ecco la raffigurazione del profilo 3.
+
+          PROFILO 3
+          1 = 1        6 = 5        11 variabile    16 = 127
+          2 = 1        7 = 21       12 = 1          17 = 24
+          3 = 126      8 = 0        13 = 5          18 = 18
+          4 = 255      9 = 2        14 = 1          19 = 2
+          5 = 1       10 = 80       15 = 0 
+
+          Gli  altri nove profili sono disponibili nel  manuale  ITAPAC: 
+    Manuale di accesso alla rete itapac da parte di terminali start-stop 
+    (X28) o su richiesta al sottoscritto. Se le richieste saranno molte, 
+    faranno parte di un prossimo articolo.
+
+                    VELOCITA` DEL PAD
+                    -----------------
+          Nonostante  il  vostro modem comunichi con il PAD ad  un  baud 
+    rate  ben preciso (300 o 1200 baud full duplex) la trasmissione  dei 
+
+    *****   Vol.  1   *****      Pag. 10      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    pacchetti  rallenta in maniera drastica il numero dei  caratteri  in 
+    ricezione e in uscita dal vostro DTE. Il PAD invia in  continuazione 
+    segnali di Clear-to-send e Ready-to-send che si traducono in  macro-
+    scopiche  pause  tra i pacchetti. A bassa velocita`  (300  baud)  la 
+    commutazione non e` avvertibile, a 1200 invece si`. Abbiamo calcola-
+    to che la velocita` reale di trasferimento e ricezione e` di  solito 
+    compresa  fra i 450 baud e i 700 baud.  Il rallentamento si  "sente" 
+    soprattutto  durante  la trasmissione di un file, in cui il  PAD  e` 
+    sottoposto a lavoro, per cosi` dire, pressante. 
+          In Xmodem, addirittura, il PAD rischia di sconvolgere i segna-
+    li di Time Out, o di confondere tutto. I grossi Networks come DELPHI 
+    tengono conto anche di questo, altri minori NO. Se il vostro  Xmodem 
+    non  riesce a downloadare niente, significa solo che  l'Host  remoto 
+    non prevede alcuna distinzione tra pacchetti e terminali asincroni.
+          La domanda e`: accade solo su Itapac (non sarebbe da stupirsi) 
+    o e` un problema comune a TUTTI gli NCP ?
+
+                    LE SERATE "NC"
+                    -------------
+          Ci  sono  serate in cui qualsiasi indirizzo  chiamato  risulta 
+    "NC".  Lo stato di Network Congestion e` molto frequente su  Itapac, 
+    ed  impedisce l'utilizzo della rete dall'NCP usato.  Le  cause  sono 
+    misteriose. Di notte le ditte non usano del tutto Itapac, e a  parte 
+    qualche eccezione la rete PARE sia usata solo da hobbisti.  
+          Dunque?  Ai centri assistenza negano tutto, ma la  realta`  e` 
+    questa. Itapac, come conclusione, fa schifo. Non solo la fanno paga-
+    re molto piu` di equivalenti reti all 'estero, ma oltre al danno  ci 
+    aggiungono  anche la beffa: a volte NON VA. Come NON VA ?  Mah...  a 
+    loro tutto funziona. E poi ci si stupisce se la gente tenta di  fre-
+    garli.
+
+                    LE NUI CHE USANO GLI HACKERS
+                    ----------------------------
+          Le NUI che solitamente usano (o usavano...) sono NUI dimostra-
+    tive.  Non  hanno un account, e quindi,  teoricamente,  non  possono 
+    esaurirsi.  Gli  operatori non possono neppure accorgersi  del  loro 
+    uso, non avendo un record delle chiamate addebitate.
+    Se una NUI dimostrativa "muore" le cause possono essere solo due:
+    1) Itapac ha cambiato i codici per normale manutenzione interna.
+    2) Itapac e` stata avvisata di quanto succedeva, o da un loro tecni-
+    co  che ha rilevato un traffico anormale e ha controllato, o  da  un 
+    esterno.
+
+
+                    COME UN HACKER SI PROCACCIA UNA NUI
+                    -----------------------------------
+
+          Il metodo piu` sicuro e piu` facile e` quello di copiarla alle 
+    Fiere  in cui Italcable o comunque operatori dispongono di  collega-
+    menti in rete di tipo X28 commutato. Notate che gli X28 dedicati NON 
+    necessitano di NUI, possedendo una propria linea fisica per  l'adde-
+    bito.
+          Avvicinatevi all'operatore e domandate "Quel computer ce  l'ha 
+    il telefono? L'operatore (se avra` tempo) si impietosira`, di fronte 
+    a  tanta manifestata ignoranza, e si sentira` tranquillo  anche  nel 
+
+    *****   Vol.  1   *****      Pag. 11      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    battere  la propria Password. Voi, con allenato colpo  d'occhio,  vi 
+    guardate la tastiera e vi memorizzate la Nui. Per fortuna oggigiorno 
+    i  tecnici  della Italcable utilizzano le macro,  e  di  conseguenza 
+    quasi nessuno riesce ad impossessarsi di NUI alle fiere.
+
+          Una nuova tecnica di scanning, basata su tentativi statistica-
+    mente calcolati, e` stata accuratamente studiata e consolidata da un 
+    aficionado delle bbs (un certo HM). Tale tecnica potrebbe garantire, 
+    se  applicata a ricerche prolungate, esiti positivi di ricerca  NUI. 
+    Peccato che il numero minimo di NUI provate non possa comunque esse-
+    re inferiore alle 10.000 creando cosi` problemi di costo.
+    Questo  serva  a scoraggiare chiunque abbia dei  propositi  illeciti 
+    riguardo  all'utilizzo della rete nazionale a commutazione  di  pac-
+    chetto.
+
+                                               -----> BBS E RADIOASCOLTO
+                                                      ==================
+
+          Nel  Gennaio 1991 e' stato aperto, su alcune banche  dati  del 
+    NET  334 uno spazio dedicato all'Associazione Italiana  Radioascolto 
+    (A.I.R.)  nell'intento portare a conoscenza del pubblico  telematico 
+    il mondo del radioascolto e le sue tematiche.
+          Inizialmente  limitata a "Fido_To" ed "EUreka!" quest'idea  si 
+    e'  successivamente sviluppata fino a coinvolgere ormai 11  BBS;  ad 
+    Ottobre  inoltre  e' stato aperto il link con  "A.I.R.  BBS  Rimini" 
+    gestito  dal  nostro socio Mario Morigi e per il futuro  si  prevede 
+    l'espansione a livello nazionale.
+          Si  tratta  di un'area messaggi e di  un'area  files  (questa, 
+    purtroppo, non su tutti i BBS) in cui si possono trovare idee, noti-
+    zie  ed articoli riguardanti il mondo della radio, dove per  "radio" 
+    si  intende anche semplicemente l'apparecchio di cui  tutti,  credo, 
+    disponiamo,  utilizzato  in maniera un po' diversa  dal  solito,  ad 
+    esempio  per  ascoltare musica sui 1440 kHz di  R.  Luxembourg  ("il 
+    juke-box d'Europa") invece che dalle FM nostrane.
+
+          Che cosa serve per iniziare? Solo una radio che disponga alme-
+    no  di  una gamma di Onde Corte; da questo punto in  avanti  non  ci 
+    sono,  praticamente,  limiti. La si puo' ascoltare di  giorno  o  di 
+    sera, per 5 minuti o per tutta una notte, da soli o in compagnia,  a 
+    casa o in vacanza, sempre ed ovunque. Si possono ascoltare  trasmis-
+    sioni  in italiano da tutto il mondo, oppure approfondire  la  cono-
+    scenza di qualsiasi lingua straniera, dare la caccia a deboli segna-
+    li di trasmissioni locali latinoamericane, insomma, si puo' fare  di 
+    tutto con questo meraviglioso apparecchio.
+          Provereste  voi a guardare la TV senza  l'antenna?  Certamente 
+    no. Ebbene, anche la radio riceve i segnali nelle stesse condizioni, 
+    per cui occorre pensare ad una soluzione analoga. Se il vostro appa-
+    recchio  non e' un portatile, o comunque non ha un'antenna  telesco-
+    pica incorporata allora dovete pensare ad una soluzione alternativa. 
+    I  piu' smaliziati sanno che non c'e' limite agli esperimenti e  che 
+    ogni possibile soluzione ha pregi e difetti. Tuttavia, per iniziare, 
+    vi  propongo la soluzione piu' semplice: comprate qualche  metro  di 
+    filo  unipolare (a trecciolina, smaltato o inguainato), fissate  uno 
+    spinotto  ad  una estremita' ed inseritelo nella presa  per  antenna 
+    esterna  che  si trova nel ricevitore, stendete la  rimanenza  nella 
+
+    *****   Vol.  1   *****      Pag. 12      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    camera  o fatelo uscire dalla finestra ed  accendete  l'apparecchio, 
+    sintonizzandolo  fra  i 6000 ed i 6200 kHz: qui troverete  tutte  le 
+    stazioni europee che sono di piu' facile ascolto.
+
+          Provate  ad accendere la radio che giace da qualche  parte  in 
+    casa vostra; utilizzandola in modo diverso scoprirete un mondo  nuo-
+    vo,  credetemi.  Dopodiche' non dimenticate di  scrivere  le  vostre 
+    esperienze  in area messaggi, non e' necessario  ascoltare  stazioni 
+    difficilissime,  anche le esperienze con le emittenti piu'  "facili" 
+    sono importanti.
+          Per chi si vuole cimentare ricordo che a Gennaio '92 ci  sara' 
+    una grossa occasione: il "2. A.I.R. Contest", aperto a tutti per  la 
+    modica  cifra  di Lit. 7000, di cui trovate il Regolamento  in  area 
+    messaggi oppure richiedendolo a Bruno Pecolatto, via Soana 13 - Pont 
+    Canavese (TO).
+          Se  volete  conoscerci piu' da vicino  potete  richiedere  una 
+    copia omaggio della nostra rivista, Radiorama, scrivendo alla Segre-
+    teria  A.I.R. - Casella postale 63 - 35020 Ponte San  Nicolo'  (PD), 
+    oppure  venirci a trovare il terzo sabato di ogni mese a  Torino  in 
+    via Vipacco 15, all'incirca verso le 15.00. Il prossimo incontro  e' 
+    fissato  per  il 21 Dicembre, occasione giusta  per  scambiarci  gli 
+    auguri di Natale.
+
+          A  nome  dell'A.I.R. e del suo Presidente,  Alberto  Gandolfo, 
+    desidero ancora una volta ringraziare l'Associazione TAMTAM, il  suo 
+    Presidente  Franco  Carcillo e tutti i Sysop che  hanno  gentilmente 
+    messo  a nostra disposizione uno spazio sui loro BBS: Enrico  Arman, 
+    Franco  Carcillo,  Marco Civra, Mimmo  Cristofaro,  Fabrizio  Dogli, 
+    Paolo Giulio Gialli, Paolo Goria, Sandro Magni, Mario Morigi, Rober-
+    to  Piola,  Luigi Ravina, Franco Schinco, Mike  Sinesi,  Luigi  Vay, 
+    nonche' tutti coloro che hanno contribuito e contribuiscono  tuttora 
+    con i loro messaggi allo sviluppo di questa iniziativa.
+
+          A  tutti  voi i piu' calorosi auguri di Buon Natale  e  Felice 
+    Anno Nuovo.
+
+                                         Lorenzo Travaglio
+                                               2:334/1.105
+
+    ------------------------------------------------------------
+    ELENCO DEI BBS CHE CONTENGONO LE AREE RADIOASCOLTO
+    (f = area files, m = area messaggi)
+    ------------------------------------------------------------    Fido_To                011-5765565 (area Forum - f+m)
+    EUreka!                011-6624400 (f+m)
+    Charlie's Puppies      011-3297706 (f+m)
+    Travelmatic            011-502423  (The Smart BBS - m)
+    Sintel                 011-596274  (pag. 327 - m)
+    Piemonte Computer bbs  0121-542795 (m)
+    Italia Network #1      011-8989069 (m)
+    Italia Network #2      011-304840  (m)
+    Italia Network #3      011-8126756 (m)
+    Italia Network #4      011-8981304 (m)
+    Italia Network #5      011-3174440 (m)
+    AIR BBS Rimini         0541-777003 (m)
+
+    *****   Vol.  1   *****      Pag. 13      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                        -----> VIVAMIGA
+                                                               ========
+
+          Amiga <-> Window 3.0
+          --------------------
+
+          Bene, carissime amebe ed ameboidi (mi sembra di scrivere l'in-
+    troduzione di Dylan Dog) purtroppo questo mese ha portato poca  roba 
+    nelle  capaci fauci del nostro Amiga. C'e' il solito giochino  della 
+    Psignosys  a 40 livelli di parallasse con 56Mb di grafica  (si  vede 
+    chiaramente che puntano al CD!) assolutametnte ingiocabile e noioso.
+
+          E' uscito uno stupendo prg di generazione di frattali, Mandel-
+    Paug, sicuramente il piu' veloce in giro... ed anche il piu'  preci-
+    so. Permette animazioni di frattali (ad es. una serie di immagini in 
+    ingrandimento) anche se devo dire che da quel lato non sia ne' molto 
+    debuggato  ne' molto ottimizzato, contrariamente al resto  del  prg. 
+    Dimenticavo, permette sia il Mandelbrot che il Julia; da non perdere 
+    se v'interessa la cosa. Per la cronaca, con uno zoom spinto ho dovu-
+    to alzare a 15 il livello di definizione ed ho terminato il  disegno 
+    (Lace, Hi Res) in 11 ore. Lo stesso disegno e' stato portato a  ter-
+    mine su di un 3000 in 3 minuti! Questo perche' il 3000 col coproces-
+    sore forniva al livello di definizione 1 una precisione nei  calcoli 
+    piu' che sufficiente!  Allucinante.
+
+          E' uscito anche un bel prg di comunicazione sviluppato apposi-
+    tamente  per il sistema operativo 2.0, e si vede. Purtroppo  non  ho 
+    ancora  avuto modo di testarlo con una BBS, ma se tanto mi  da  tan-
+    to... l'unico ad averlo testato, ed ad esserne uscito deluso e' quel 
+    tal Verdone possessore non solo di un 3000 ma anche del super-galat-
+    tico  HST US Robotics. [NdE: no, ha il Dual Standard che  e`  ancora 
+    piu`  supergalattico]  Mah! Secondo me il tipo si  e'  faticosamente 
+    letto  una volta il manuale del JRcomm ed ora non ha  intenzione  di 
+    rileggersene altri. Dimenticavo, si chiama MXM_Term 1.9.
+
+          Sono sempre piu' convinto di scrivere soltanto per il mio capo 
+    redattore; possibile che non vi sia almeno venuto in mente di  chie-
+    dermi cosa sia una 'trasmigrazione metabolica?'. 8-( [NdE: io  leggo 
+    sempre quello che RRE scrive, visto che devo correggergli le  bozze, 
+    e  visto  che  so cos'e` una t.m. non mi sono  preoccupato  piu`  di 
+    tanto. Ma dai, amighisti, scrivetegli qualcosa cosi` sta contento!]
+
+          Comunque  arriviamo  al sodo (disse l'uovo in  pentola):  oggi 
+    voglio trattare alcuni concetti base per distinguere chiaramente gli 
+    msdossiani col loro Windows 3.0 dagli Amighisti col loro SistemaOpe-
+    rativo 2.0. Trovo la cosa estremamente interessante e, visto che  mi 
+    accingo a scrivere un mare di fregnacce, siete pregati di interveni-
+    re nel dibattito... Windows, ultimo capolavoro della piu' potente  e 
+    panciuta casa di software (indovinate chi) dovrebbe essere  l'ultimo 
+    grido in fatto di User Friendliness. Si basa su alcuni punti-forza:
+
+           - La GUI (Graphics User Interface)
+           - Il mutitask
+           - La gestione della memoria
+
+    *****   Vol.  1   *****      Pag. 14      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+          Le GUI sono gia' in giro da una vita, prima ancora che sul Mac 
+    (volevo farvi una breve storia, ma tanto non frega nulla a  nessuno. 
+    Per  chi fosse interessato c'e' una breve carrellata su di un  libro 
+    per  Amiga, contattatemi). La GUI di Windows 3.0 e'  abbastanza  ac-
+    cattivante, grafica in 3D, menu, gadget, icone etc.
+          La GUI dell'Amiga 2.0 (che chiamero' d'ora in poi A2.0) sembra 
+    copiata  di peso da Windows, i concetti-base li troviamo tutti.  Per 
+    intenderci  oltre  a Windows fatto in tal  guisa  (lasciamo  perdere 
+    quell'aborto di Mac) un altro esempio di GUI in 3D basato su toni di 
+    grigio  e'  il NeXt. Insomma i concetti di costruzione  di  una  GUI 
+    sembrano  orami  essersi consolidati a tal punto  da  diventare  uno 
+    standard. [NdE: mai sentito parlare di X11R5?]
+          Il multitask su Windows e' una bella nota dolente, chiaramente 
+    quello  non e' multitask, non piu' di quanto io sia un  genio  della 
+    programmazione. Semplicemente quando dovete usare un altro  applica-
+    tivo  quello precedente sparisce. Da cosa capisco Windows  memorizza 
+    il suo stato e poi lo si disattiva. Non resta neppure di tipo  resi-
+    dent  (che  cioe' gira in contemporanea con altri  task).  [NdE:  in 
+    realta`  non  e` un multitask ma un task switching: puo`  girare  un 
+    solo task per volta, e puoi scegliere quale far girare]
+
+          Chiaramente  il multitask dell'A2.0 e' superiore, e'  un  vero 
+    multitask.  Tanto  per intenderci si possono  lanciare  n  programmi 
+    tutti  uguali,  mentre se tentate questo  in  Windows  semplicemente 
+    riappare il programma precedentemente lanciato. Il concetto di resi-
+    dent e' molto piu' esteso, si possono lanciare n programmi  ciascuno 
+    con  un  proprio stack, ma tutti facenti capo allo stesso  pezzo  di 
+    codice  in memoria (chiaramente le global nel codice  devono  essere 
+    rigorosamente  costanti!)  [NdE: si dice codice  shareable]   L'A2.0 
+    possiede  gli Screen, grande invenzione che manca totalmente a  Win-
+    dows.
+
+          La  gestione  della memoria e' un punto di forza  di  Windows: 
+    nessuna limitazione (vabbe', `quasi') e la possibilita' di impiegare 
+    la memoria virtuale sull'HD (con ovvie limitazioni nelle  prestazio-
+    ni). L'A2.0 non possiede questa chicca, credo principalmente per  il 
+    fatto  che  la MMU (Memory Management Unit) non  sia  disponibile  a 
+    livello di microprogrammazione sul 68000 (presente invece dal  68010 
+    in  poi). In area Amy Devs qualcuno aveva proposto  di  implementar-
+    la...  Chiaramente tutti si son dati da fare per far vedere che  si, 
+    loro i manuali li sanno leggere, ma guai a tradurre le proprie cono-
+    scenze teoriche in un programma. Quanto al sottoscritto, non sapreb-
+    be da che parte iniziare e cosi' e' rimasto tutto sulla carta.
+
+          Signori, mi rendo conto di avere appena superficialmente scal-
+    fito il problema; tuttavia lo spazio e' tiranno. Se interessera'  (e 
+    chi tace NON acconsente) continuero' il discorso sul prossimo  nume-
+    ro.
+          Arvudze
+
+                                                    RRE
+                                            2:334/100.9
+
+
+    *****   Vol.  1   *****      Pag. 15      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                  -----> IL GERGO HACKER
+                                                         =============== 
+
+          <boot>: [tecnico; da `by one's bootstraps', `dai propri tiran-
+    ti degli stivali] v.,s. Caricare o inizializzare il sistema operati-
+    vo  su  una macchina. Questo uso non e` piu` gergale, ma  ha  creato 
+    molti derivati che lo sono tuttora.
+
+          Il derivato `reboot' implica che la macchina non e` stata giu` 
+    a  lungo, o addirittura che il boot e` stato un <bounce> inteso  per 
+    ripulire  uno  stato di <wedgitude> [in cui non si  aveva  piu`  una 
+    situazione  stabile e chiara]. Questo e` a volte usato nei  processi 
+    di pensiero umani, come nel seguente dialogo: "Mi sono perso".  "OK, 
+    reboot. Ecco la teoria..."
+
+          Si puo` anche trovare nelle varianti `cold boot' (da  macchina 
+    spenta) e `warm boot' (colla CPU e tutti i dispositivi gia`  accesi, 
+    come dopo un reset hardware o un crash software).
+
+          Un'altra variante: `soft boot', reinizializzazione di una sola 
+    parte  di  un  sistema, sotto controllo di altro  software  che  sta 
+    ancora girando: "Se stai usando l'emulatore <mess-dos>, Ctrl-Alt-Ins 
+    fa  un  soft-boot  dell'emulatore, lasciando  girare  il  resto  del 
+    sistema".
+
+          Opposto   a  quest'ultimo  c'e`  `hard  boot',   che   connota 
+    un'ostilita`  o  una frustrazione nei confronti  della  macchina  da 
+    bootare.  "Ho dovuto fare un'hard boot di uesta dannata Sun"  o  "Mi 
+    raccomando di fare un hard boot". 
+
+          Nota storica: questo termine deriva da `bootstrap loader',  un 
+    programma  molto  corto  letto  da  schede  o  nastro  cartaceo,   o 
+    direttamente battuto dal pannello di controllo. Questo programma era 
+    sempre  molto corto (grandi sforzi venivano fatti per  raccorciarlo, 
+    in  modo  da  minimizzare  la fatica e  la  possibilita`  di  errore 
+    possibili  nel  digitarlo),  ed  era appena  capace  di  leggere  un 
+    programma  leggermente piu` complesso (solitamente da un lettore  di 
+    schede  o  di nastro cartaceo), a cui cedeva  il  controllo;  questo 
+    programma  a  sua  volta  era  abbastanza  intelligente  da  leggere 
+    l'applicazione  o il sistema operatico da un nastro magnetico  o  da 
+    un'unita`  disco.  Cosi`, in passi successivi,  il  calcolatore  "si 
+    tirava  su da solo" in uno stato operativo utile. Al giorno  d'oggi, 
+    il  bootstrap  si trova di solito in ROM o EPROM, e legge  il  primo 
+    passo  in  una  posizione fissa del disco, detta  il  `boot  block'. 
+    Quando  questo  riceve il controllo, ha  abbastanza  conoscenza  per 
+    caricare il SO richiesto e passargli il controllo.
+
+          <bottom-up implementation>: [da sotto un su] s. Opposto hacker 
+    di termine tecnico `top-down design'. In molte culture di programma-
+    zione, e` considerato saggezza rivelata cheil modo miglire per crea-
+    re una applicazione e` partire dai livelli di astrazione maggiore  e 
+    scendere man mano giu`, specificando le sequanze di azione in detta-
+    glio sempre maggiore fino a che non si arriva al codice vero e  pro-
+    prio. Gli hackers trovano spesso utile (specialmente in incarichi di 
+
+    *****   Vol.  1   *****      Pag. 16      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    esplorazione  che  non possono essere  strettamente  specificati  in 
+    anticipo) che funziona meglio `costruire' le cose nell'ordine  oppo-
+    sto,  scrivendo e testando un chiaro insieme di primitive  e  quindi 
+    cucendole insieme.
+
+          <bounce> [rimbalzare]: v. 1. [UNIX, forse dall'immagine di una 
+    palla  lanciata contro un muro che rimbalza] Un messaggio  di  posta 
+    elettronica che non puo` essere recapitato e ritorna al mittente una 
+    notificazione di errore e` detto essere `bounced'. Vedi anche <boun-
+    ce  message>.  2. Avere relazioni sessuali:  prob.  dall'espressione 
+    `bouncing the mattress' [far rimbalzare il materasso], ma influenza-
+    to  dalla frase di Piglet nei libri di Winnie-the-Pooh "Salta  anche 
+    su  di  me, Tigger", caricata psicosessualmente. 3. Fare  un  reboot 
+    casuale  di un sistema per mettere a posto un  problema  transiente, 
+    principalmente tra gli utenti <VMS>. 4. [IBM] fare un <power  cycle> 
+    di una periferica per resettarla.
+
+          <bounce  message>: [UNIX] s. Messaggio di notifica spedito  al 
+    mittente  da  un nodo che non puo` spedire  <email>  all'  indirizzo 
+    Internet  richiesto  o al link successivo in un  <bang  path>  (vedi 
+    <bounce>).  Le  ragioni di questo possono comprendere  uno  username 
+    inesistente  o scritto non correttamente, o un nodo di  relay  giu`. 
+    Alle volte anche i b.m. possono fallire, portando a risultati  occa-
+    sionalmente  disastrosi:  vedi <sorcerer's  apprentice  mode>  [modo 
+    dell'apprendista  stregone].  Il collettivo `bounce mail'  e`  anche 
+    comune.
+
+          <box>  [scatola]: s. [in IBM] Un calcolatore: spec. nella  co-
+    struzione  "foo box", dove foo is un qualificante di funzione,  come 
+    `graphics', o il nome di un SO (tipo `UNIX box', `MS-DOS box', ecc.) 
+
+          <boxed comments> [commenti inscatolati]: s. Commenti (note  di 
+    spiegazione  nel codice) che occupano diverse linee. Chiamati  cosi` 
+    perche`  in  codice  C e assembler sono  spesso  circondati  da  una 
+    scatola in uno stile piu` o meno simile a questo:
+
+     /*************************************************
+      *
+      * Questo e` un boxed comment in stile C
+      *
+      *************************************************/
+
+    Varianti  comuni di questo stile omettono gli asterischi in  colonna 
+    due  oppure aggiungono una serie di asterischi per chiudere il  lato 
+    destro  della scatola. La variante piu` tersa omette tutto tranne  i 
+    delimitatori  di  commento  all'estrema sinistra;  la  `scatola'  e` 
+    implicita. Opp. <winged comments>.
+
+          <boxen>  /bok'sn/:  [per analogia con <VAXen>]  s.pl.  Plurale 
+    fantasiosi  di  <box> spesso trovato nella frase `UNIX  boxen',  per 
+    descrivere sistemi hardware <UNIX>. La connotazione e` che due  UNIX 
+    boxen possono sempre essere scambiate tra loro.
+
+          <boxology>  /bok-sol'@-jee/: s. 1. La raffinata arte di  dise-
+    gnare diagrammi usando i caratteri `box' (principalmente `|', `-'  e 
+
+    *****   Vol.  1   *****      Pag. 17      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    `+'  in  un  font  ASCII a  spaziatura  costante.  Nota  anche  come 
+    `character graphics' o `ASCII graphics'. 2. Disegni boxologici.  "Il 
+    suo report e` pieno di boxologia". Confr. <macrology>.
+
+          <BQS>: agg. Sinonimo di <Berkeley Quality Software>.
+
+          <brain  dump>:  [deposito del cervello] s. L'atto  di  dire  a 
+    qualcuno  tutto quello che si sa su un particolare argomento o  pro-
+    getto. Usato tipicamente quando qualcuno lascia ad altre persone  la 
+    cura  della  manutenzione di una parte  di  codice.  Concettualmente 
+    analogo al <core dump> di un sistema operativo, visto che  quest'ul-
+    timo salva gran parte di informazioni di stato (<state>) utili prima 
+    dell'uscita. Esempio: "Devi darmi un b.d. su FOOBAR, prima di comin-
+    ciare  a lavorare per la HackerCorp.". Vedi <core dump> (sign.  #4). 
+    Alla Sun, questo e` anche noto come `TOI' (Transfer Of  Information, 
+    trasferimento di informazione).
+
+          <brain-damaged>:  [col cervello danneggiato:  generalizzazione 
+    di  `Honeywell Brain Damage' (HBD), una malattia  teorica  inventata 
+    per  spiegare alcuni cretinismi nel sistema <Multics>  della  Honey-
+    well]  agg.  Ovviamente  sbagliato:  <cretinous>;  <demented>.  C'e` 
+    l'implicazione  che  la  persona responsabile di  cio`  debba  avere 
+    subito  dei danni al cervello, perche` si sarebbe dovuta  comportare 
+    meglio.  Chiamare qualcosa b.-d. e` davvero cattivo;  implica  anche 
+    che non e` usabile, e che il suo fallimento non e` dovuto tanto a un 
+    accidente, quanto a poverta` di sviluppo. 
+
+          <break>: 1. vt. Causare la rottura di qc (in qualunque senso). 
+    "L'ultimo  tuo patch all'editor ha scassato (`broke') i  comandi  di 
+    paragrafo". 2. v. (di un programma) Fermarsi temporaneamente, cosic-
+    che`  si  possa debuggare. Il posto dove si ferma e`  detto  "break-
+    point".  3. [tecnico] vi. Mandare un break RS-232 (125 ms  di  linea 
+    su) su una linea seriale di comunicazione. 4. [UNIX] vi. Digitare il 
+    tasto  che  al momento fa spedire dal driver della tty  al  processo 
+    attuale  il segnale SIGINT. Normalmente il tasto break (sign.  3)  o 
+    delete sono quelli usati.
+
+          <breakage>: s. 1. rottura e i casini conseguenti.  2. [IBM] Le 
+    persone  in  piu` che devono essere aggiunte ad  una  organizzazione 
+    perche` i piani principali sono cambiati: usato spec. di squadre  di 
+    sviluppo software e hardware.
+
+          <bring  X to its knees>: [mettere qc in ginocchio] v.  Di  una 
+    macchina,  sistema operativo, pezzo di software, o algoritmo:  cari-
+    carlo in maniera cosi` estrema o patologica che lo si ferma virtual-
+    mente.  "Per  mettere in ginocchio un MicroVAX, prova ad  avere   20 
+    utenti  che fanno girare <vi> - o quattro che usano <EMACS>.  Confr. 
+    <hog>.
+
+          <broken>:  [scassato] agg. 1. Che non lavora propriamente  (di 
+    programmi).  2.  Che si comporta in maniera  strana,  spec.  (quando 
+    usato per una persona) che esibisce una depressione estrema.
+
+          <broket>: /broh'k@t/ o /broh'ket/ [per analogia con `bracket': 
+    una  `broken  bracket'] n. Ciascuno dei caratteri `<' e  `>',  usati 
+
+    *****   Vol.  1   *****      Pag. 18      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    come  coppia  di delimitatori. La parola e`  nata  come  contrazione 
+    della  frase `broken bracket', cioe` una parentesi che e` ricurva  a 
+    meta`.  (Al  MIT, e apparentemente anche nel <Real World>,  sono  di 
+    solito chiamate <angle brackets>, o parentesi angolari).
+
+          <Brooks's Law> [legge di Brooks]: prov. "Aggiungere mesi  uomo 
+    a un progetto software in ritardo lo fara` finire ancora piu` tardi" 
+    -  un risultato del fatto che il vantaggio di dividere  un  progetto 
+    tra  N programmatori e` O(N), ma la complessita` di coordinamento  e 
+    di riunione dei vari sottolavori e` O(N^2). La citazione e` da  Fred 
+    Brooks, un manager del progetto IBM OS/360 e autore di `The Mythical 
+    Man-Month'  [Il mitico mese uomo], un eccellente libro tra  i  primi 
+    sull'ingegneria del software; il mito in questione e` stato espresso 
+    piu` laconicamente come "Il tempo del programmatore e` fungibile", e 
+    Brooks ha definitivamente stabilito che questo e` falso. Gli hackers 
+    non hanno mai dimenticato questo avviso, troppo spesso, il  <manage-
+    ment> si`.
+
+          <BRS>:  s. Sinonimo di <Big Red Switch>  [Grande  Interruttore 
+    Rosso]. Questa abbreviazione e` abbastanza comune on-line.
+
+
+                                                  -----> NOTIZIE FIDONET
+                                                         ===============
+
+    * TamTam a Nuove Tecnologie '91
+      -----------------------------
+          
+          La scommessa e` stata vinta! 
+    Il  bisogno di sapere, la fame di conoscere, la semplice  curiosita` 
+    hanno portato, allo stand di TamTam, decine e decine di persone:  un 
+    successo  davvero  solo sperato, concretizzatosi in  nuove  adesioni 
+    all'associazione.
+    E` stata una esperienza faticosissima ma premiante, non certo econo-
+    micamente  (e questo si sapeva prima) ma senz'altro per la gioia  di 
+    aver  parlato del proprio hobby, aver coinvolto e interessato  nuove 
+    persone, da quei bravi missionari telematici che siamo.
+    D'altronde l'impegno per la promozione dei servizi telematici amato-
+    riali  e  la diffusione di valide iniziative di  supporto,  sono  LO 
+    scopo  principale  di TamTam. Notare che, lentamente ma  con  sempre 
+    maggior  interesse, le nostre iniziative, come l'incontro del  primo 
+    lunedi` del mese, vedono avvicinarsi nuove generazioni di  telemati-
+    ci, non puo` che vedere soddisfatte le aspettative di chi,  volonta-
+    riamente, crede nella telematica come nuovo media di comunicazione.
+    Ma questo successo non puo` che essere di stimolo per nuove  inizia-
+    tive, nuovi impegni, nuovo coraggio, nuove `missioni'.
+    Alla prossima, dunque!                     
+
+
+    * Firenze: decisa la costituzione di AFI.
+      ---------------------------------------
+
+          Un  gruppo di SysOp, principalmente del net 332 e 335,  si  e` 
+    ritrovato in una umidissima  Firenze, domenica 24/11, per  approvare 
+    la bozza di statuto preparata da Franco Mulato (e altri) per l'Asso-
+
+    *****   Vol.  1   *****      Pag. 19      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    ciazione FidoNet Italia.
+    L'Associazione curera`, a livello nazionale, gli interessi dei SysOp 
+    (assistenza legale, rapporti con Enti ecc..) e promuovera` iniziati-
+    ve tese a meglio far conoscere la telematica amatoriale.
+    La sede sara` a Firenze, l'atto costitutivo sara` firmato nei  primi 
+    giorni di dicembre.
+
+
+    * Giorgio Rutigliano lascia il coordinamento italiano
+      ---------------------------------------------------
+
+          Giorgio Leo Rutigliano, primo SysOp italiano della rete  Fido-
+    Net (con FidoPotenza a fine 1985) ha lasciato dopo 6 anni la  carica 
+    di  Region Coordinator (RC) per l'Italia. Contemporaneamente  si  e` 
+    anche dimesso da coordinatore del net 335 (SudItalia).
+    A  Giorgio  un grazie sentito per quello che ha fatto e  per  quello 
+    che, nonstante la momentanea disaffezione, continuera` certamente  a 
+    fare per la rete FidoNet.
+    Il  nuovo NC del net 335 e` Stefano Pasquini, gia` coordinatore  na-
+    zionale echomail (REC).
+    Il nuovo RC, Franco Carcillo, gia` NC del 334, iniziera` a  svolgere 
+    l'incarico da fine novembre.
+
+
+    * Telematicus cerca corrispondenti 
+      --------------------------------
+
+          Telematicus  intende  ospitare interventi  e  notiziari  anche 
+    degli altri net italiani. A tal fine si cercano attivi corrisponden-
+    ti  che, entro il 20 di ogni mese, siano in grado di inviare NEWS  e 
+    quant'altro   necessario   all'editor  (.mau.)  [NdE:   spedite   al 
+    2:334/100.5...] .
+
+
+    * Servizi telematici e pirateria
+      ------------------------------
+    
+          Ha  fatto scalpore la recente irruzione della  forza  pubblica 
+    presso un rivenditore `non autorizzato' di software soggetto a copy-
+    right. Il pirata pare avesse in casa tra migliaia di dischetti anche 
+    700 milioni! Il medesimo disponeva di un un BBS, utilizzato per  gli 
+    scopi illeciti di cui sopra.
+    L'avvicinarsi del mercato unico europeo e di nuove leggi sul crimine 
+    informatico porteranno senz'altro la legislazione italiana a  meglio 
+    definire anche i reati di pirateria; attualmente la vacanza legisla-
+    tiva provoca uno stato quanto mai confusionale sulla reale  applica-
+    bilita`, per analogia, di norme relative ad altri elementi  patrimo-
+    niali.
+    I  servizi telematici, da sempre considerati, forse non del tutto  a 
+    torto, covo di pirati e di incalliti smanettoni, se vogliono rimane-
+    re  `pubblici' e non `pirati' dovranno essere davvero `sani e  puli-
+    ti'; la presenza, soprattutto sistematica, di software piratato, per 
+    i BBS della rete FidoNet potrebbe far scattare, secondo alcuni lega-
+    li,  la  denuncia per associazione a delinquere. E coi  tempi  della 
+    giustizia italiana, la dimostrazione di innocenza ha costi, economi-
+
+    *****   Vol.  1   *****      Pag. 20      *****   Numero  12   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    ci e morali, improponibili per gli hobbisti telematici. E`  pertanto 
+    in  atto, su tutti bbs della rete, un severo controllo sui  software 
+    disponibili  al prelevamento; i servizi che, nonstante  gli  avvisi, 
+    continueranno  in modo sistematico a mettere in linea tale  software 
+    si vedranno esplusi della rete. 
+    Dura lex, sed lex.
+
+
+                                              -----> NOTIZIE DAL NET 334
+                                                     ===================
+   
+          Il 2 dicembre 1991 abbiamo il solito incontro mensile, l'ulti-
+    mo del 91, per SysOp e utenti dei servizi telematici torinesi.  Nel-
+    l'occasione grande festa per il successo di TamTam a Nuove  Tecnolo-
+    gie. L'appuntamento e` per le ore 21, al CRDC in corso Sicilia 12.
+
+          Come  gia`  visto  sopra, al nodo  334/306  non  trovate  piu` 
+    Roberto  Piola, ma Paolo Goria, col suo nuovo Piemonte Computer  BBS 
+    reperibile  dalle 20.00 alle 08.00 di tutti i giorni, e la  domenica 
+    24 ore, allo 0121-524975.
+
+          In  questo  mese di novembre, abbiamo anche  avuto  due  nuovi 
+    ingressi in FidoNet: Enrico Olivetti col suo Olivetti Software  BBS, 
+    allo 011-373651, e Gianni Bragante con Lady Bright BBS, che si trova 
+    a  Vigliano Biellese (VC) e risponde (la sera, se non ho letto  male 
+    la nodelist!) allo 015-8353153. Ai nuovi sysop un cordiale saluto, e 
+    la  speranza  che mi mandino una paginetta dove raccontino  il  loro 
+    BBS!
+
+
+    *****   Vol.  1   *****      Pag. 21      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                     -----> I NOSTRI BBS
+                                                            ============
+
+         (BBS)              (numero)    (orario)(vel.) (SysOp)
+
+         Fido_Torino........011-5765565....24h..2400   F.Carcillo 
+         SDN-Italy!.........011-5765568....24h..9600   F.Carcillo 
+         Charlie's_Puppies..011-3299706....24h..9600   F.Schinco
+         Magazine...........011-8989069....24h..9600   L.Ravina
+         I.N.#2 ............011-304840.....24h..2400   M.Sinesi
+         I.N.#3 ............011-8126756....24h..9600   L.Vay
+         I.N.#4 ............011-8981304....24h..9600   S.Magni
+         I.N.#5 ............011-3174440....24h..2400   F.Bogli
+         EUreka!............011-6624400....24h..9600   P.G.Gialli
+         TorinoNet..........011-3100485/70.24h..2400   E.Arman
+         Infotel............011-2238389....24h..2400   T.Moreno
+         LordDrake..........011-710408.....24h..9600   F.Croce
+         Travelmatic........011-502423.....24h..9600   M.Cristofaro
+         Sintagma...........011-596274/48..24h..2400   M.Civra
+         EGO................015-757151.....24h..2400   G.Amosso
+         Piemonte_Computer..0121-542795....20-8.2400   P.Goria
+         Lady_Bright........015-8353153....20-8.9600   G.Bragante
+         Olivetti_Software..011-373651.....24h..2400   E.Olivetti
+

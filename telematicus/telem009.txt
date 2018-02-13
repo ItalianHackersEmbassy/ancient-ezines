@@ -1,0 +1,1331 @@
+    *****   Vol.  1   *****      Pag.  1      *****   Numero   9   *****
+
+    ====================================================================
+
+    @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+      @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+      @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+      @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+      @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+    ====================================================================
+
+                               Settembre 1991
+
+    ====================================================================
+
+      Bollettino telematico mensile a cura del network 2:334 - Fidonet 
+
+                 Editor terribilis:     Maurizio Codogno
+                 Editor multiplex:      Alfredo Berlusconi
+                 Editor macman(iac)us:  Marco Civra
+                 Editor programmator:   Alessandro Peralma
+                 Editor americanus:     Renato Rolando
+                 Collaboratori:         Tutti voi :-)
+
+    --------------------------------------------------------------------
+
+                            IN   QUESTO   NUMERO :
+
+    Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .  pag.  2
+    Itapac: parti 3 e 4, di Alfredo Berlusconi    .   .   .   .  pag.  3
+    I BBS Mac: teoria e pratica, di Marco Civra   .   .   .   .  pag.  8
+    Outdials, di Alfredo Berlusconi   .   .   .   .   .   .   .  pag. 11
+    Il programmino    .   .   .   .   .   .   .   .   .   .   .  pag. 14
+    VivAmiga, di Renato Rodando   .   .   .   .   .   .   .   .  pag. 18
+    Curiosita': Il Gergo Hacker - parte 6 .   .   .   .   .   .  pag. 22
+    Notizie dal net 334   .   .   .   .   .   .   .   .   .   .  pag. 24
+    I nostri bbs  .   .   .   .   .   .   .   .   .   .   .   .  pag. 25
+
+    ====================================================================
+
+         Il materiale presente in Telematicus e' (C) dei singoli autori.
+    E' espressamente  consentita  la  distribuzione  e il riutilizzo del
+    bollettino  in  tutto  o in  parte,  purche' non  a fini di  lucro e
+    citando sempre la fonte di provenienza. 
+    *****   Vol.  1   *****      Pag.  2      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                       -----> EDITORIALE 
+                                                              ==========
+
+         Eccoci  alla ripresa autunnale, ripresa si fa per dire  perche` 
+    il  numero dei contributori si e` ridotto  notevolmente.  Continuano 
+    imperterriti Rolando e Berlusconi, che saggiamente mi hanno  fornito 
+    malloppi  da  divulgare  prima delle ferie,  abbiamo  la  new  entry 
+    Alessandro  Peralma  che ci fornisce il programmino di questo  mese, 
+    abbiamo nientepopodimeno che Marco Civra, che dopo avermi promesso a 
+    marzo che avrebbe scritto qualcosa, ad agosto ha scodellato un  file 
+    (nemmeno "civrato" come il suo solito), e poi basta.
+
+         E'  finita la spinta propulsiva? la gente si  e`  semplicemente 
+    dimenticata  della  esistenza di Telematicus? In ogni  caso,  se  la 
+    tendenza   e`  questa  penso  che  con  dicembre   termineranno   le 
+    pubblicazioni. Pensateci su, o voi che potreste scrivere....
+
+                                                          ciaociao .mau.
+    *****   Vol.  1   *****      Pag.  3      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                 -----> ITAPAC - PARTE 3
+                                                        ================
+        ELENCO DNIC MONDIALI SUDDIVISI PER AREE GEOGRAFICHE
+        ---------------------------------------------------
+
+                                  EUROPA
+         +--------------+--------------------------+------+-------+
+         : Paese        : Rete                     : DNIC : Note  :
+         +--------------+--------------------------+------+-------+
+         : Austria      : Radio-Austria            : 2329 : D     :
+         :              : Datex-P                  : 2322 : I     :
+         : Belgio       : DCS                      : 2062 : D     :
+         : Danimarca    : Datapak                  : 2382 : I     :
+         : Finlandia    : Datapak                  : 2442 : I     :
+         :              : Digipak                  : 2443 : I     :
+         : Francia      : NTI                      : 2081 : D     :
+         :              : Transpac                 : 2080 : I     :
+         : Germania RFD : Datex-p                  : 2624 : D     :
+         : Gran Bretagna: IPSS                     : 2341 : D     :
+         :              : PSS                      : 2342 : I     :
+         :              : Mercury                  : 2350 : I     :
+         : Grecia       : Helpac                   : 2022 : I     :
+         : Groenlandia  : Datapak                  : 2901 : I     :
+         : Irlanda      : IPSS                     : 2721 : I     :
+         :              : Eirpac                   : 2724 : I     :
+         : Islanda      : Icepac                   : 2740 : I     :
+         : Lussemburgo  : Luxpac                   : 2704 : I     :
+         : Malta        : Maltapac                 : 2782 : I     :
+         : Norvegia     : Datapak                  : 2422 : D     :
+         : Olanda       : Datanet 1                : 2041 : I     :
+         :              : Dabas                    : 2044 : I     :
+         : Portogallo   : Telepac                  : 2680 : I     :
+         : San Marino   : X-NET SMR                : 2922 : D     :
+         : Spagna       : Iberpac                  : 2145 : D     :
+         : Svezia       : Datapak                  : 2402 : D     :
+         : Svizzera     : Telepac                  : 2284 : D     :
+         : Ungheria     : Nedix                    : 2161 : I     :
+         : U.R.S.S.     : Iasnet                   : 2502 : I     :
+         +--------------+--------------------------+------+-------+
+                    D = diretto           I = indiretto
+
+
+                               MEDIO ORIENTE
+         +--------------+--------------------------+------+-------+
+         : Paese        : Rete                     : DNIC : Note  :
+         +--------------+--------------------------+------+-------+
+         : Bahrain      : IDAS-BAHNET              : 4263 : I  3' :
+         : E.A.U.       : EMDAN                    : 4243 : I  3' :
+         : Israele      : ISRANET                  : 4251 : I  3' :
+         : Kuwait       : KUPAC                    : 419X : DE    :
+         +--------------+--------------------------+------+-------+
+         D = diretto     I = indiretto    E = entrante
+         X = cifra non ancora assegnata
+         3' = 3' scaglione tariffario
+    *****   Vol.  1   *****      Pag.  4      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                NORD AMERICA
+         +--------------+--------------------------+------+-------+
+         : Paese        : Rete                     : DNIC : Note  :
+         +--------------+--------------------------+------+-------+
+         : Canada       : GLOBEDAT                 : 3025 : D  1' :
+         :              : DATAPAC                  : 3020 : I  1' :
+         :              : INFOSWITCH               : 3028 : I  1' :
+         : Stati Uniti  : TELENET                  : 3110 : D  1' :
+         :              :                          : 3127 :       :
+         :              : WU WORLDCOM - WORLDNET   : 3107 : D  1' :
+         :              :                          : 3103 :       :
+         :              :                          : 3101 :       :
+         :              :                          : 3114 :       :
+         :              : MCII WUI-DBS             : 3104 : D  1' :
+         :              : RCA - LSDS               : 3113 : D  1' :
+         :              : TRT - DATAPAK            : 3119 : D  1' :
+         :              : FTCC                     : 3124 : D  1' :
+         :              : AT&T - ACCUNET           : 3134 : D  1' :
+         :              : TYMNET                   : 3106 : I  1' :
+         : Stati Uniti  : COMPUSERVE               : 3132 : I  1' :
+         :              : DATA TRANSPORT           : 3102 : I  1' :
+         :              : ADP - AUTONET            : 3126 : I  1' :
+         :              : ALASKANET                : 3135 : I  1' :
+         :              : GEISCO MARKNET           : 3136 : I  1' :
+         :              : CSC - INFONET            : 3137 : I  1' :
+         :              : SNET - CON-NET           : 3140 : I  1' :
+         :              : BELL-ATLANTIC - PDN      : 3141 : I  1' :
+         :              : BELL-SOUTH - PULSELINK   : 3142 : I  1' :
+         :              : AMERITECH                : 3143 : I  1' :
+         :              : NYNEX-DATAPATH           : 3144 : I  1' :
+         :              : PACIFIC BELL-PPS         : 3145 : I  1' :
+         :              : S.W.BELL  - MICROLINK II : 3146 : I  1' :
+         :              : U.S.WEST - DIGIPAC       : 3147 : I  1' :
+         :              : CINCINNATI B., LINCOLN T.: 3148 : I  1' :
+         :              : WANCPAC                  : 3149 : I  1' :
+         :              : GLOBENET                 : 3150 : I  1' :
+         :              : DATAAMERICA              : 3151 : I  1' :
+         +--------------+--------------------------+------+-------+
+         D = diretto    I = indiretto
+         1' = 1' scaglione tariffario
+         
+
+                            CENTRO E SUD AMERICA
+         +--------------+--------------------------+------+-------+
+         : Paese        : Rete                     : DNIC : Note  :
+         +--------------+--------------------------+------+-------+
+         : Argentina    : ARPAC                    : 7222 : D  2' :
+         : Bermuda      : IDAS                     : 3503 : I  3' :
+         : Brasile      : INTERDATA                : 7240 : D  2' :
+         :              : RENPAC                   : 7241 : I  2' :
+         : Cile         : CHILEPAC                 : 7303 : I  3' :
+         :              : ENTEL - RNTD             : 7302 : I  3' :
+         :              : VTR - VTRNET             : 7305 : I  3' :
+         : Colombia     : COLDAPAQ                 : 7320 : DE    :
+    *****   Vol.  1   *****      Pag.  5      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................         : Costarica    : RACSAPAC                 : 7122 : I  2' :
+         : Cuba         : ENTEL                    :      : IE    :
+         : Guatemala    : GUATEL                   : 7040 : IE    :
+         : Honduras     : TELEDATOS HONDUTEL       : 7080 : IE    :
+         : Messico      : TELEPAC                  : 3340 : D  2' :
+         : Panama       : INTELPAQ                 : 7141 : IE    :
+         : Peru'        : PERUNET                  : 7160 : D  2' :
+         : Trinidad e Tobago : TEXDAT              : 3740 : IE    :
+         :              : DATANETT                 : 3745 : IE    :
+         +--------------+--------------------------+------+-------+
+         D = diretto    I = indiretto    E = entrante
+         X = cifra non ancora assegnata
+         2' = 2' scaglione tariffario    3' = 3' scaglione tariffario
+
+         
+                                  AFRICA
+         +--------------+--------------------------+------+-------+
+         : Paese        : Rete                     : DNIC : Note  :
+         +--------------+--------------------------+------+-------+
+         : Is. Maurizio : MAURIDATA                : 6170 : I  3' :
+         : Senegal      : SENPAC                   : 6081 : I  3' :
+         : Sud Africa   : SAPONET-P                : 6550 : I  3' :
+         :              : SAPOPAC                  : 6559 : I  3' :
+         :              : TRANSNET                 : 6552 : I  3' :
+         : Tunisia      :                          : 2605 : D (*) :
+         +--------------+--------------------------+------+-------+
+         I = indiretto    D = diretto
+         3' = 3' scaglione tariffario       (*) = tariffe europee
+
+         
+                                   ASIA
+         +--------------+--------------------------+------+-------+
+         : Paese        : Rete                     : DNIC : Note  :
+         +--------------+--------------------------+------+-------+
+         : Cina Rep.Pop.:                          : 460X : DE 2' :
+         : Corea del Sud: DACOM-NET                : 4501 : I  3' :
+         : Filippine    : ETPI-EASTNET             : 5156 : I  3' :
+         :              : PHILCOM-WORLDNET         : 5152 : I  3' :
+         :              : CAPWIRE-DATANET          : 5151 : I  3' :
+         : Giappone     : VENUS-P                  : 4408 : D  2' :
+         :              : DDX-P                    : 4401 : I  2' :
+         : Hong Kong    : INTELPAK IDAS            : 4542 : I  3' :
+         :              : DATAPAK                  : 4545 : I  3' :
+         :              : INET                     : 4546 : I  3' :
+         : India        : VIDESH SHANCHAR          : 4042 : D  2' :
+         : Indonesia    : SKDP-INSPACS             : 5101 : I  3' :
+         : Malaysia     : MAYPAC                   : 5021 : D  2' :
+         : Singapore    : TELEPAC                  : 5252 : D  2' :
+         : Taiwan       : UDAS                     : 4877 : D  2' :
+         :              : PACNET                   : 4872 : I  2' :
+         : Thailandia   : IDAR                     : 520X : IE    :
+         +--------------+--------------------------+------+-------+
+         D = diretto     I = indiretto     E = entrante
+         X = cifra non ancora assegnata
+         2' = 2' scaglione tariffario    3' = 3' scaglione tariffario
+    *****   Vol.  1   *****      Pag.  6      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                OCEANIA
+         +--------------+--------------------------+------+-------+
+         : Paese        : Rete                     : DNIC : Note  :
+         +--------------+--------------------------+------+-------+
+         : Australia    : OTC DATA ACCESS          : 5053 : D  2' :
+         :              : AUSTPAC                  : 5052 : I  2' :
+         : Nuova Caledonia (*) : TOMPAC-NC         : 5460 : I  3' :
+         : Nuova Zelanda: PACNET                   : 5301 : I  3' :
+         +--------------+--------------------------+------+-------+
+         I = indiretto  D = diretto    (*) in corso di attivazione
+         2' = 2' scaglione tariffario    3' = 3' scaglione tariffario
+
+         =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+        Torniamo a Itapac; una volta connessi al sistema remoto, la rete 
+    ci  segnala: ACP:COM, si tira da parte, e ci lascia nelle mani  del-
+    l'Host.  Per scollegarsi e tornare in "modo  comando"  (l'asterisco) 
+    occorre fare alcune distinzioni.
+
+         1 - La maggior parte degli host lasciano la possibilita` all'u-
+    tente di colloquiare con il suo PAD, sia per settare i propri  para-
+    metri,  che  per abbattere, resettare o confermare la  chiamata.  In 
+    questo caso con la sequenza <CTRL-P> (sempre che il parametro 1  sia 
+    settato  a  1 ovvero ascii(16) detto anche  DLE=data  link  escape), 
+    Itapac riappare con il suo prompt * e accetta comandi (a volte  l'a-
+    sterisco  non  compare, ma la sequenza lavora lo  stesso).  Battendo 
+    "CLR"  ovviamente  maiuscolo, Itapac abbatte  la  chiamata  virtuale 
+    all'host, e segnala " ACP:CLR CONF ". A questo punto possiamo  chia-
+    mare un altro host sempre con la sequenza <NUI>-<NUA>.
+
+         2 - Alcuni hosts solitamente quelli con funzione di PAD interno 
+    non  lasciano all'utente il controllo di Itapac. <CTRL-P> non  viene 
+    riconosciuto,  e  l'unico modo per scollegarsi o per  riprendere  il 
+    controllo  del  PAD e` quello i mandare una decina  di  sequenze  di 
+    LONG-BREAK. Il BREAK, da non confondersi con CTRL-C , che non  c'en-
+    tra  niente in quest'ambito, e` un segnale INTERNO a cui non  corri-
+    sponde  alcun codice ASCII. Tocca al programma di comunicazione  che 
+    utilizzate il compito di inviare tale segnale (quasi standard sui PC 
+    e`  la  combinazione: <CTRL-End>. Se non avete  la  possibilita`  di 
+    inviare BREAK (Short o Long), fate molta attenzione ad evitare  que-
+    sti "buchi neri" da cui l'unico modo per uscire sara` la sconnessio-
+    ne fisica dal PAD (staccare la portante sul modem).
+
+         3 - L'uso del CLR e` inappropriato e causa nella maggior  parte 
+    dei casi seri problemi agli Hosts. Infatti il loro software (o forse 
+    l'hardware) non riesce a interpretare correttamente la caduta  della 
+    chiamata,  e entra in uno stato che possiamo definire una  sorta  di 
+    "Wait-state pending": attesa indefinita, che per fortuna finisce, ma 
+    solo  dopo un time-out preciso ( spesso settato a 20 minuti). Mi  e` 
+    capitato  alcune volte con STN a Karlsruhe che, dopo avere perso  la 
+    portante del modem per motivi di linea, Itapac accettasse egualmente 
+    una mia nuova loginid, mentre poi collegato a STN ho dovuto aspetta-
+    re 20 minuti prima dei quali continuavo ad ottenere: account already 
+    on-line!. Quello che accade di grave sono 2 cose: la porta dell'host 
+    *****   Vol.  1   *****      Pag.  7      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    rimane  inutilmente occupata e, quel che e` peggio,  l'account  del-
+    l'host presentera` 20 minuti aggiuntivi mai effettivamente utilizza-
+    ti.  E` per questo motivo che di solito noi operatori  NON  gradiamo 
+    MAI il <CTRL-P> CLR.
+
+
+                  SEGNALI DI RETE, PROFILI, PARAMETRI
+                  -----------------------------------
+         
+         Una descrizione dettagliata di tutti i segnali di rete, Profili 
+    standard  e set di parametri e` fornita sul "Manuale  per  l'accesso 
+    alla  rete Itapac da parte di terminali Start-Stop  X28".  Vediamoli 
+    comunque in dettaglio:
+
+                  Comandi principali:
+                  -------------------
+
+         Innanzitutto al prompt "*" per visualizzare e/o variare i  set-
+    taggi dei parametri:
+
+    SET:  richiesta cambiamento valori dei parametri
+    PAR?: visualizza i 19 parametri del PAD (variano al variare del pro- 
+          filo PROF e del comando SET)
+    PROF n : cambia il profilo di default col profilo n (di solito ad un
+          X28 C viene assegnato il profilo 3)
+
+         In pratica si assegna in principio il profilo migliore, dopo di 
+    che se qualche settaggio ancora non e` corretto, lo si corregge  con 
+    il comando SET. Esempio:
+
+    SETn1:x1,n2:x2,n3:x3.. con n1,n2,n3 numero del parametro
+                               x1,x2,x3 valore da assegnare
+
+         Ogni  parametro puo' avere diversi valori o essere un  semplice 
+    switch binario, in alcuni casi e' di sola lettura e il suo valore e' 
+    in accordo col profilo di utente.
+
+         Nel  caso  l'utente abbia una  configurazione  particolare  dei 
+    parametri, che non sia compresa nei profili disponibili, puo'  chie-
+    dere alla SIP che quest'ultima venga memorizzata permanentemente  in 
+    associazione al suo profilo.
+
+                       I comandi del PAD
+                       -----------------
+
+         Il PAD puo' interpretare sette comandi durante il  collegamento 
+    ad un host; questi comandi vanno inviati utilizzando la funzione  di 
+    richiamo  del PAD ottenibile inviando la sequenza <CTRL-P>. Al  ter-
+    mine  di ogni singolo comando il PAD ripristina il collegamento  con 
+    l'host, quindi per inviare piu' comandi e' necessario richiamare  il 
+    PAD prima di ogni comando. (vedere settaggi,PAR1).
+
+         PAR?
+    Visualizzazione dei 19 parametri.
+    *****   Vol.  1   *****      Pag.  8      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         SET < numero parametro > : VALORE
+    Al parametro indicato viene assegnato un nuovo valore; e'  possibile 
+    programmare  piu' parametri con un unico comando proseguendo la  se-
+    quenza con:
+     ",< numero parametro > : VALORE,......."
+
+         SET? <numero parametro > : VALORE
+    Il PAD conferma l'avvenuta modifica del parametro visualizzandolo.
+
+         RESET
+    Questo  comando  ripristina il collegamento virtuale con  l'host  in 
+    caso  di una interruzione temporanea venutasi a creare per  problemi 
+    sulla rete.
+
+         INT
+         Il PAD invia all'host un interrupt; utile nei casi in cui si ha 
+    richiesto l'invio di un file lungo e si desidera interromperne l'in-
+    vio. (vedere al proposito il PAR7 su come gestire da DTE locale).
+
+         CLR
+         La  connessione viene interrotta ed il PAD e' in attesa  di  un 
+    nuovo collegamento. Vedere all'uopo la parte descrittiva.
+
+         PROF <numero di profilo >
+         Se  il profilo a noi assegnato non corrisponde alle nostre  ne-
+    cessita'  possiamo programmare il PAD secondo uno dei dieci  profili 
+    che  sono disponibili in modo temporaneo. In tutti i casi alla  fine 
+    del collegamento la nuova programmazione va persa.
+
+
+                                      -----> I BBS MAC: TEORIA E PRATICA
+                                             ===========================
+
+               I BBS Mac in Italia
+               -------------------
+
+         Un  po' disorientanti per molti utenti, abituati alla  classica 
+    interfaccia MSDOS, fonte di speranze (talvolta deluse) per gli uten-
+    ti Mac, che sognano un'interfaccia tutta pulsantini, menu' a tendina 
+    e  icone, i BBS Macintosh si sono affacciati da qualche  anno  sulle 
+    scena  telematica e da pochi mesi soltanto all'interno  di  Fidonet. 
+    Ricevo  spesso dagli utenti di Sintel messaggi con richieste di  in-
+    formazioni:  per  lo piu' si tratta di richieste di  aiuto  su  come 
+    utilizzare  il  BBS, che si presenta diverso dagli  altri.  Talvolta 
+    qualche  volenteroso  aspirante SysOp mi chiede anche come  fare  ad 
+    installare un BBS su Macintosh. Vediamo, con questo breve  articolo, 
+    di soddisfare entrambe le curiosita'.
+         Come  molti  sanno, l'ingresso del Macintosh  nel  mondo  della 
+    telematica e' relativamente recente. Ragioni socio-economiche innan-
+    zitutto (i Mac, fino a pochi mesi fa, costavano decisamente molto di 
+    piu' di un DOS compatibile, e erano percio' appannaggio quasi esclu-
+    sivo  di aziende, per impieghi tecnici specifici) ma anche  tecniche 
+    (mancanza  di software gestionale adeguato) hanno  provocato  questo 
+    ritardo.
+    *****   Vol.  1   *****      Pag.  9      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         Negli  ultimi anni la situazione e' cambiata e nuovi  BBS  Mac-
+    intosh stanno nascendo in Italia ed aderendo a Fidonet.  Attualmente 
+    sono  4, e, particolare interessante, tutti organizzati in modo  fra 
+    loro  diverso,  sia come software gestionale sia come  filosofia  di 
+    utilizzo. Vediamoli con ordine.
+         Il  primo BBS che ha aderito a Fidonet in Italia e'  M-Link  di 
+    Stephen Head. La sua piattaforma originale era Macintosh Plus +  Red 
+    Ryder  Host. Questo programma, noto con la sigla RRH, e'  stato  uno 
+    dei primi in assoluto per la gestione di un BBS. Decisamente affida-
+    bile (soprattutto nella nuova versione completamente rinnovata,  che 
+    si chiama Second Sight) ha alcuni limiti, legati alla gestione  mul-
+    tilinea ed alla velocita'. E' un programma commerciale.
+         Su Nova Link "girano" invece altri due BBS ormai storici  della 
+    telematica  Mac:  ProLink di Pavia (SysOp Massimo  Senna)  e  Sintel 
+    (SysOp il sottoscritto). Sono entrambi multilinea, il che  significa 
+    che  possono accedervi piu' utenti  contemporaneamente,  utilizzando 
+    anche funzioni di chat internodo (tipo Samantha o QSD per chi bazzi-
+    ca in Videotel o Minitel). Piu' veloce e versatile di RRH, Nova Link 
+    ha purtroppo acquisito una fama di scarsa affidabilita', dovuta alle 
+    prime versioni "beta" giunte e adottate in Italia. La nuova versione 
+    Pro  e' stabile, ma piuttosto conplessa da configurare. In  compenso 
+    permette di configurare, purche' la piattaforma hardware sia  suffi-
+    ciente,  BBS di dimensioni pressoche' illimitate. Ne e'  un  esempio 
+    Sintel,  che con un semplica SE 68000 e 4 mega di RAM,  gestisce  90 
+    aree  messaggi e tre accessi contemporanei 24 ore su 24.  Nova  Link 
+    Pro e' un programma commerciale.
+         Un  software  del tutto nuovo e' invece utilizzato  da  Roberto 
+    Venditti per il suo BBS vicentino. Si tratta di Hermes, un  software 
+    per certi versi simile a Nova Link come potenzialita', ma arricchito 
+    da una serie di protocolli di trasmissione che ne fanno il programma 
+    piu' adatto per sistemi file oriented. E' abbastanza affidabile, per 
+    essere  alle prime versioni, e promette bene, tanto che molti  SysOp 
+    hanno abbandonato Second Sight o Nova Link per adottare Hermes.  Non 
+    e' molto facile da usare ed e' un po' ostico ai primi  collegamenti. 
+    E' molto diffuso fra i BBS non collegati a Fidonet: lo usa fra l'al-
+    tro  la  mitica HPB, rinata da alcuni mesi. Un piccolo neo  e'  dato 
+    dalla  configurazione  hardware. Hermes appare  piuttosto  esigente, 
+    tant'e'  che quasi tutti i BBS Hermes girano su Mac II. Hermes,  che 
+    diventera'  un programma commerciale nella sua versione  definitiva, 
+    e' ancora "rintracciabile" nei circuiti shareware.
+         Esistono  altri software, alcuni superati (ma in compenso  PD), 
+    altri  non ancora giunti o adottati in Italia. Non molto  potente  e 
+    piuttosto  DOS-like  (definizione che per un utente Mac  equivale  a 
+    poco piacevole) e' WWIV, che puo' essere in compenso prelevato libe-
+    ramente  su  ProLink essendo PD. Avveniristico, ma solo  per  utenti 
+    Mac, Telefinder, che prevede un'interfaccia tutta Mac, con tanto  di 
+    icone, trascinamento del mouse e cosi' via.
+         Poca  scelta invece per il collegamento a Fidonet. Tutti i  BBS 
+    devono  usare Tabby, un software commerciale americano che  gestisce 
+    le aree echo, la chiamate automatiche e l'import export dei  messag-
+    gi. A Tabby si possono aggiungere varie utilities di compattazione e 
+    scompattazione, ordinamento etc etc.
+    *****   Vol.  1   *****      Pag. 10      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+               I BBS Mac visti dalla parte dell'utente 
+               ---------------------------------------
+
+         In che cosa differiscono i BBS Macintosh dai BBS Msdos e Amiga? 
+    Innanzitutto  per  la filosofia gestionale. In realta'  un  BBS  Mac 
+    potrebbe benissimo presentarsi piu' o meno simile a un BBS Msdos. E' 
+    il  SysOp che, ragionando da utente Mac, fa del suo BBS qualcosa  di 
+    diverso e, per gli utenti Msdos, non sempre gradevole. Tenete  conto 
+    d'altra parte che, il piu' delle volte, un utente Mac che chiama  un 
+    BBS  Opus o Remote Access con tanto di grafica ANSI, ha  un  impatto 
+    per  lui  altrettanto poco piacevole. Si tratta a dire  il  vero  di 
+    superare le abitudini acquisite: il fatto che per salvare un messag-
+    gio  si  debba premere un tasto anziche' un altro e'  una  questione 
+    marginale, facilmente superabile.
+         Usando Sintel come "campione", vediamo di spiegare la filosofia 
+    di un tipico BBS Macintosh. Come sapete il Mac, anziche' le  direct-
+    ories, usa le cartelle. La differenza e' piu' formale che sostanzia-
+    le,  ma l'interfaccia cambia profondamente. La struttura  gerarchica 
+    e' parte fondamentale del sistema operativo Mac ed "impregna" forte-
+    mente  ogni programma. Anche Nova Link usa ed abusa della  struttura 
+    gerarchica.  Il  BBS si presenta come un albero ramificato,  la  cui 
+    radice,  o  tronco principale, e' il main menu (il primo  che  viene 
+    visualizzato  all'utente). Da esso si dipartono diversi rami, che  a 
+    loro  volta si separano, creando una vera e propria  struttura  com-
+    plessa.  La principale differenza, a ragionarci bene sopra, e'  solo 
+    quantitativa: un BBS Opus "generalmente" (e sottolineo generalmente) 
+    ha un numero inferiore di menu' con piu' comandi in ciascuno, mentre 
+    un  BBS Nova Link ha decine di menu', alcuni dei quali con non  piu' 
+    di due o tre comandi. E', ancora una volta lo ripeto, una  questione 
+    di mentalita' di lavoro del SysOp: difficilmente un utente dos cree-
+    rebbe  centinaia di directories, con un file o due ciascuna sul  suo 
+    hard  disk, mentre tendenzialmente un utente mac evitera' sempre  di 
+    avere delle cartelle (directories) sul suo hard disk con piu' di una 
+    decina di files dentro, perche' questo gli rende piuttosto difficile 
+    andarli  a cercare per lanciarli (non occorre lanciare i files  dopo 
+    aver aperto l'applicazione e il piu' delle volte un utente Mac manco 
+    si ricorda con quale applicazione ha realizzato quel file...)
+         La  conseguenza piu' ovvia di un BBS Mac cosi' impostato e'  la 
+    sensazione di labirinto, aggravata dalle "porte" che occasionalmente 
+    fanno saltare un utente da un punto all'altro dell'albero, senza che 
+    se ne renda conto. Le dimensioni del sistema fanno il resto:  Sintel 
+    e'  organizzata  su 12 livelli gerarchici,  ed  ha  complessivamente 
+    oltre 50 mila combinazioni di navigazione posssibili. Ma sistemi dos 
+    come Amnesia non sono certo da meno in questo. La tendenza a compor-
+    tarsi in modo abitudinario, insieme all'obbiettiva difficolta' di un 
+    sistema  Mac  per gli utenti Dos fa il resto. Eppure  le  differenze 
+    sono relativamente poche: per salvare un messaggio, anziche' premere 
+    due volte return, come nella maggior parte dei sistemi dos,  occorre 
+    premere, dopo il primo return, la sequenza .S (che viene visualizza-
+    to  >>Save).  Gli altri comandi si presentano allo stesso  modo  (.? 
+    diventera' >>Help, .A >>Abort e cosi' via).
+         Se analizzate la struttura di un BBS Nova Link dall'esterno  vi 
+    rendete conto che essa e' ordinata, ma che il criterio di ordine  e' 
+    diverso da quello che probabilmente usano altri sistemi. Ecco, molto 
+    semplificata, la struttura di Sintel:
+    *****   Vol.  1   *****      Pag. 11      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+       MAIN MENU
+           |
+    _______|________________________________________________
+    |               |               |         |            |
+    POSTA PRIVATA SETTAGGI   AREE MESSAGGI  AREE       SINDATA 
+                  TERMINALE  NON CONDIVISE  CONDIVISE  BANCA DATI
+                               |              |              |
+                       ________|______    ____|______   _____|_____
+                       |              |   |         |   |         |
+                  SINTAGMA BBS     RUNE  AREE    AREE  BIBLIO  MEDICA
+                            |      BBS   FIDONET  AUN  GRAFIE
+         ___________________|______________________________________
+         |                  |                   |                 |
+    AREE INFORMATICHE   AREE SVAGO     AREE GENERICHE     AREE CULTURALI
+         |
+         |__________________________________________________________
+         |                    |                 |                  |
+    AREE PER COMPUTER    TELEMATICA       PROGRAMMAZIONE      AREE FILES
+         |                                                         |
+         |___________________                     _________________|
+         |        |         |                     |                |
+    MACINTOSH   AMIGA     MSDOS                SORGENTI      UTILITY MAC
+
+         Avendo presente questo schema sintetico, in pratica avete tutti 
+    gli elementi per rintracciare le principali conferenze messaggi  del 
+    sistema. Se ad esempio cercate l'area dedicata al Macintosh, potrete 
+    dirigervi in Sintagma, dentro alle aree informatiche, aree per  com-
+    puter, e finalmente nella conferenza Mac e cosi' via.
+         Per  un utente abituale, la consultazione diventa  ancora  piu' 
+    facile: ogni settore del BBS e' infatti contrassegnato da un prefis-
+    so  numerico, che altro non e' che l'indirizzo dell'area stessa.  Se 
+    quindi mi trovo all'improvviso in un menu' che si chiama "S13  Tele-
+    matica", significa che per arrivarci ho premuto in sequenza i  tasti 
+    S,  1 e 3 e cosi' di seguito. La struttura ad albero diventa in  tal 
+    modo  trasparente  e persino utile per orientarsi nei  meandri  piu' 
+    nascosti del sistema.
+         A  questo  punto non resta che dirvi una  parola:  PROVATE!  Il 
+    numero di telefono di Sintel e' 011-596274 se chiamate a 2400  baud, 
+    011-596248 se chiamate a 1200 o 300 baud. Per iscrivervi dovete dire 
+    NEW  quando  entrate. Al primo menu' non avrete che  da  premere  il 
+    tasto ? (punto interrogativo) e fare un capture del manuale on  line 
+    di Sintel, che contiene fra l'altro il grafico completo di tutte  le 
+    aree. 
+
+                                 Marco Civra, SysOp of Sintel, 2:334/103
+         
+
+                                                         -----> OUTDIALS
+                                                                ========
+
+         Il  dial  out e` l'operazione inversa al  normale  collegamento 
+    X28:  vale  a dire che un ACP posto in una determinata zona  di  una 
+    certa nazione, (di solito USA ISRAELE AUSTRALIA E CANADA) "telefona" 
+    ad  un normale numero telefonico della rete del paese sede  dell'ACP 
+    in questione.
+    *****   Vol.  1   *****      Pag. 12      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         L'evidente  vantaggio nell'utilizzo di un OD per collegarsi  ad 
+    esempio ad una bbs USA sta nel fatto che la tariffazione via rete  a 
+    pacchetto dipende dal volume di informazioni scambiate ed e`  sempre 
+    una cifra enormemente inferiore alla normale teleselezione.
+         Inoltre  se  nei 2 paesi sono in uso 2 differenti  standard  di 
+    modem  a correzione di errore (come col 001-617-3672427), si  ha  il 
+    vantaggio  enorme  del fatto che noi si  telefona  all'ACP  italiano 
+    (MNP4)  mentre il modem remoto (USA per esempio) collega  col  modem 
+    del bbs USA con lo stesso standard di correzione. Inoltre a 300 baud 
+    non si ha il problema Bell-CCITT poiche` le due coppie di modem sono 
+    chiaramente compatibili nelle singole nazioni.
+
+         Modalita` pratiche di connessione mediante TELENET (USA) 
+         --------------------------------------------------------
+
+         E` possibile chiamare le BBS USA utilizzando la Rete  Pacchetto 
+    ITAPAC:  naturalmente bisogna essere abbonati a  quest`ultima.  Ecco 
+    come fare per collegarsi:
+         Supponiamo  di voler chiamare una BBS americana (NOVA  CENTRAL) 
+    che  risponde al numero 617-3672452, dove 617 e` il numero  del  di-
+    stretto e 3672452 il numero dell'abbonato USA. (dall'Italia in tele-
+    selezione sarebbe: 001-617-367-2452)
+         Per chiamare l'od bisogna comporre la nua cosi`:
+
+    03110 Parte  fissa  iniziale, corrispondente alla DNIC  di  Telenet: 
+          collegamento diretto e 1. scaglione tariffario.
+    617   Numero del distretto
+    00    Altra parte fissa
+    XXX   Numero di tre cifre che compare nella lista posta sotto.
+
+         La NUA risultante sara`: 0311061700XXX. Nel nostro caso la  nua 
+    e` 0311061700313 per chiamare a 1200 b/s.
+
+         Per prima cosa ci colleghiamo a ITAPAC. Il settaggio deve esse-
+    re  7E2/7E1,  si puo` usare anche 8N1 ma poi bisogna  lavorare  alla 
+    cieca.
+
+         1) selezioniamo il n. di telefono dell'ACP ITAPAC sul quale  e` 
+    configurata la nostra NUI.
+         2) una volta che il modem si e` collegato battiamo due volte il 
+    tasto RETURN.
+         3) a questo punto ci compare il banner della rete: 
+            ACP:ITAPAC ACP<nome ACP> PORTA:<numero porta> *
+         4) per rendere possibile downloads e uploads si puo` seleziona-
+    re:  SET2:0,4:1,7:0,9:0,13:0,14:0  (vedere  prossimo articolo  per i
+    dettagli in quanto cio` dipende anche dal profilo (PROF) adottato).
+         5) ora digitiamo: N<propria  password itapac>-<nua dell'outdial
+            del  distretto in cui si trova la BBS>
+            Nel nostro esempio supponendo la ns NUI=pippo:
+            Npippo-0311061700313
+            NOTA BENE: poiche` abbiamo settato l'eco (par.2) a zero  non 
+            abbiamo l'eco dei caratteri digitati. Volendo,solo in questo 
+            punto,  e` possibile utilizzare la funzione eco data dal  ns 
+            progr. di comunicazione.Oppure variare il settaggio del  PAD 
+            in un secondo momento, richiamandolo col <CTRL-P>.
+    *****   Vol.  1   *****      Pag. 13      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         6) a questo punto dovrebbe comparire:
+            ACP:COM
+            Portare  il settaggio da 7E2 o 7E1 a 8N1 tramite il ns  pro-
+            gramma di comunicazione. 
+
+         A questo punto abbiamo il completo controllo del modem remoto e 
+    del  semplice editor che lo governa. Quello che segue e` un  esempio 
+    dell'utilizzo dell'editor, cosa che puo` essere by passata  passando  
+    direttamente alla selezione del numero di telefono con: ATD3672452 . 
+    Il prefisso viene omesso in quanto il modem remoto e` gia` in rete.
+
+         7) digitare ATZ, in risposta avremo OK.
+         8)  digitare  <CTRL-E> <CR> . In risposta avremo:  
+              *Hello! I am ready.
+         9) digitare D, cioe` dial.
+         10)  Il  sistema chiedera`:NUMBER?;qui si scrive il  numero  da 
+              chiamare, senza prefisso.
+
+         11) Ricordatevi che se togliete il richiamo del PAD (set 0:0 se 
+             dovete  fare Up load o Down load) per  scollegarvi  dovrete 
+             fare: hung up in quanto il <CTRL-P> non funzionera`.
+
+         12) si consiglia di chiamare ad una velocita` del modem  remoto 
+             non  superiore a quella di collegamento all'ACP  (1200  per 
+             X28C  alla  data di oggi, fino a 64000 per  X25)  cio`  per 
+             evitare "grippamenti xon-xoff".
+
+         Ed ecco infine la tabella:
+
+    -----NUA ---- VEL. STATO           -----NUA ---- VEL. STATO
+    0311020100001 300  NJ              0311041600900 300  ON(TORONTO)
+         201  301 1200                      416  901 1200
+         201  022 2400                      416  902 2400
+         202  115 300  DC(WASHINGTON)       503  020 300  OR(PORTLAND)
+         202  116 1200                      503  021 1200
+         202  117 2400                      506  900 300
+         203  120 300  CT(BRISTOL)          506  901 1200
+         203  130 1200                      514  902 300  CN(MONTREAL)
+         204  901 300                       514  903 1200
+         204  902 1200                      519  900 300  CN(LONDON)
+         206  017 300  WA(SEATTLE)          519  901 1200
+         206  018 1200                      602  022 300  AZ(TUCSON)
+         206  019 2400                      602  023 1200
+         212  315 300  NY(NEWYORK)          602  026 2400
+         212  316 1200                      604  900 300
+         212  412 2400                      604  901 1200
+         213  412 300  CA(LOSANGELES)       612  120 300  MN(MINNEAPO-
+         213  413 1200                      612  121 1200    LIS)
+         213  023 2400                      612  022 2400
+         214  117 300  TX(DALLAS)           613  901 300  CN(OTTAWA)
+         214  118 1200                      613  902 1200
+         214  022 2400                      617  311 300  MA(BOSTON)
+         215  005 300  PA(PHILADELPHIA)     617  313 1200 MA
+         215  022 2400                      617  026 2400 MA
+         216  020 300  OH(CLEVELAND)        619  012 1200 CA(S.DIEGO)
+         216  021 1200                      619  024 2400
+    *****   Vol.  1   *****      Pag. 14      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         216  120 2400                      709  900 300
+         301  020 300  MD(BALTIMORA)        709  901 1200
+         301  021 1200                      713  114 1200 TX
+         303  114 300  CO(DENVER)           713  024 2400
+         303  115 1200                      714  023 300  CA(S.BERNAR-
+         303  021 2400                      714  004 1200    DINO)
+         305  120 300  FL(MIAMI)            714  024 2400
+         305  121 1200                      714  119 300
+         305  022 2400                      714  213 1200
+         306  900 300                       714  124 2400
+         306  901 1200                      714  102 300
+         312  410 300  IL(CHICAGO)          714  210 1200
+         312  411 1200                      714  121 2400
+         312  024 2400                      801  020 300  UT(SALT LAKE)
+         313  214 300  MI(DETROIT)          801  021 1200
+         313  216 1200                      801  112 2400
+         313  024 2400                      813  020 300  FL(TAMPA)
+         314  005 300  MO(ST.LOUIS)         813  021 1200
+         314  421 1200                      813  124 2400
+         314  020 2400                      816  104 300  MO(KANSASCITY)
+         403  901 1200 AB                   816  221 1200
+         404  113 300  GA(ATLANTA)          816  113 2400
+         404  114 1200                      818  020 300  CA(PASADENA)
+         404  022 2400                      818  021 1200
+         408  111 300  CA(SANTACLARA)       818  029 2400
+         408  021 1200                      902  190 1200
+         408  110 2400                      916  007 300  CA(SACRAMENTO)
+         414  020 300  PA(WASHINGTON)       916  011 1200
+         414  021 1200                      916  012 2400
+         414  120 2400                      919  020 300  NC(DURHAM)
+         415  215 300  CA(S.FRANCISCO)      919  021 1200
+         415  217 1200                      919  124 2400
+         415  023 2400
+         415  005 300  CA                   NEW:
+         415  216 1200                      503  120 2400
+         415  011 2400
+         415  106 300
+         415  224 2400
+
+         Importante: un messaggio di errore da parte di Itapac significa 
+    solo  che la nua selezionata e` momentaneamente fuori servizio.  Ri-
+    provate qualche ora dopo.
+
+                                                    "Alfredo Berlusconi"
+                                                         (2:334/103.233)
+
+
+                                                   -----> IL PROGRAMMINO
+                                                          ==============
+
+         Alessandro Peralma mi ha scritto:
+
+         Ciao,
+         rispondendo all'invito di collaborare per telematicus ti  posso 
+    inviare  un piccolo programmino in C che avrebbe la pretesa  di  non 
+    *****   Vol.  1   *****      Pag. 15      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    insegnare niente a nessuno ma di fornire un utile gadget da  mettere 
+    assieme ai vari CB (c-beautyfier), lint and so on.
+         Si  tratta in parole povere di una utility che ti  permette  di 
+    evidenziare  un certo numero di statement di un programma C che  in-
+    viato poi alla stampante (EPSON) si presentera' con i suddetti  evi-
+    denziati, sottolineati e in corsivo. Il programma "dovrebbe" gestire 
+    correttamente anche i commenti e le costanti stringa. Per esempio,
+
+    /* while is coming ... */ "while" non viene evidenziato
+    "This is a char string"   "char" non viene evidenziato
+
+         Da notare che con opportune modifiche potrebbe venir utilizzato 
+    per qualsiasi altro linguaggio, e non necessariamente per il listato 
+    di programmi.
+         Per lanciarlo occorre compilarlo e ridirigere in input il  pro-
+    gramma e ridirigere l'output sul file da generare oppure direttamen-
+    te sulla stampante.
+         Funziona anche sotto unix senza bisogno di modifiche particola-
+    ri. Modificando alcuni files del sistema di spooling della  stampan-
+    te,  piu'  precisamente  il programma shell che manda  in  stampa  ( 
+    /usr/spool/lp/interface  ... mi sembra di ricordare ), [NdE: su  uno 
+    Unix  serio, basta definirlo nell'/etc/printcap come filtro...]  con 
+    l'aggiunta di semplici comandi e' possibile fare in modo che  questo 
+    programmino funga da filtro automatico.
+
+    /*----------------------------------------------------------------*
+     * Copyright Alessandro Peralma 1991                              *
+     *----------------------------------------------------------------*/
+             #include <stdio.h>
+    #include <string.h>
+    #define KEYWORDS 29
+
+    char *reserved[]={
+      "break",
+      "case",
+      "char",
+      "continue",
+      "default",
+      "do",
+      "else",
+      "enum",
+      "far",
+      "float",
+      "for",
+      "goto",
+      "if",
+      "int",
+      "label",
+      "long",
+      "main()",
+      "register",
+      "return",
+      "short",
+      "static",
+      "struct",
+    *****   Vol.  1   *****      Pag. 16      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+      "switch",
+      "unsigned",
+      "void",
+      "while",
+      "#include",
+      "#define"
+    };
+
+    int getline( s, lim )
+    char s[];
+    int lim;
+    {
+      int c, i;
+      for ( i=0;i<lim-1 && (c=getchar())!=EOF && c!='\n';++i )
+        s[i]=c;
+      if ( c=='\n' )
+        s[i++]=c;
+      s[i]='\0';
+      return( i );
+    }
+    
+    int workonline( src, tgt, comment )
+    char src[];
+    char tgt[];
+    int *comment;
+    {
+      int srcidx=0;
+      int tgtidx=0;
+      int dquotes=0;
+      char prevchar=' ';
+      tgt[0]='\0';
+      while ( src[srcidx] ) {
+        int ok=0;
+        if ( src[srcidx]=='/' && src[srcidx+1]=='*' ) {
+          if ( !dquotes )
+        (*comment)=!(*comment);
+    }
+    if ( src[srcidx]=='*' && src[srcidx+1]=='/' ) {
+      if ( !dquotes )
+        (*comment)=!(*comment);
+    }
+    if ( src[srcidx]=='"' && prevchar!='\'' )
+      if ( !(*comment) )
+        dquotes=!dquotes;
+        if ( !(*comment) && !(dquotes) ) {
+          int idx;
+          for ( idx=0;idx<KEYWORDS;++idx ) {
+            if ( strspn( &src[srcidx], reserved[idx] ) == 
+                               strlen( reserved[idx] ) ) {
+              int size;
+              size=strlen( reserved[idx] );
+              if ( !(isspace( prevchar ) || ispunct( prevchar )) )
+                break;
+              if ( !(isspace( src[srcidx+size] ) || 
+                                     ispunct( src[srcidx+size])) )
+    *****   Vol.  1   *****      Pag. 17      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+                break;
+              srcidx+=size;
+              strcat( &tgt[tgtidx], "\x1bG\x1b-\x01\x1b" "4" );
+              tgtidx+=7;
+              strcat( &tgt[tgtidx], reserved[idx] );
+              tgtidx+=size;
+              strcat( &tgt[tgtidx], "\x1bH\x1b-\x02\x1b" "5" );
+              tgtidx+=7;
+              ok=1;
+              break;
+            }
+          }
+        }
+        prevchar=src[srcidx];
+        if ( !ok ) {
+          tgt[tgtidx++]=src[srcidx++];
+          tgt[tgtidx]='\0';
+        }
+      }
+    }
+
+    main()
+    {
+      int skip=0;
+      char srcline[255]="";
+      char tgtline[255]="";
+      while ( getline( srcline, 255 ) ) {
+        workonline( srcline, tgtline, &skip );
+        printf( "%s", tgtline );
+      }
+    }
+
+    *****   Vol.  1   *****      Pag. 18      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+                                                         -----> VIVAMIGA 
+                                                                ========
+              Ancora sulla REQ.LIBRARY
+              ------------------------
+
+         Ed  eccoci  finalmente all'ultima serie della req  library.  Il 
+    listato  e' venuto un po' lunghetto e il mega direttore  sicuramente 
+    lo spezzera' in due parti (a sua discrezione), poco male tanto dalle 
+    centinaia  di richieste di chiearimenti mi sono fatto  un'idea  sul-
+    l'inutilita' di questi articoli...  8-)
+         A  quei  pochi cui interessasse qualcosa questa  e'  una  parte 
+    molto  succulenta: uso dei gadget, della palette del req sui  colori 
+    (grazie  a Paolo Polce) e dei gadget di stringa con la  possibilita' 
+    di  variare il contenuto durante il programma. Tutto  totalmente  in 
+    basic  e 100% intuition compatibile; per intenderci quando  il  pro-
+    gramma aspetta impiega lo 0.0% della CPU.
+         Comunque  visto  il successo di questi articoli  ne  seguiranno 
+    magari nei prossimi mesi altri... sul C! Ebbene si', il vostro  mae-
+    stro  si e' buttato su questo ostico linguaggio, facendosi  solo  un 
+    gran male per ora. [NdE: Dilettante...]
+
+                                                        RRE
+    ***[ CUT HERE ]******[ CUT HERE ]******[ CUT HERE ]***
+    'V 1.2 By RRE of TTH on 1991
+    'Compilato con HI-SOFT BASIC 1.05 ( e la REQ.BMAP )
+    'Aveste apportato qualche miglioria sarebbe per me cosa gradita
+    'saperla. GRAZIE.
+    'Renato Rolando : Rotta Naviglio 4 10070 FIANO (TO)
+    ' FIDO -=> 2:334/100.9
+    'grazie a Commodore Gazette ed ai suoi interessanti articoli.
+    'Presenti : Lettura,Scrittura Gadget $,Centratura Window
+    '           ColorRequester (By Paolo Polce).
+
+        REM $OPTION W+          'Altrimenti mi segnala l'exec
+        DEFINT a-z
+
+        LIBRARY "libs:req.library","libs:exec.library"
+        LIBRARY "libs:intuition.library"
+    '   DECLARE FUNCTION LinkGadget& LIBRARY
+    '   DECLARE FUNCTION LinkStrGadget& LIBRARY
+        DECLARE FUNCTION ColorRequester& LIBRARY
+        DECLARE FUNCTION GetMsg& LIBRARY
+        DECLARE FUNCTION OpenWindow& LIBRARY
+
+        DIM SHARED NW&(50)              'struct NewWindow
+        DIM SHARED M5&(30)              'struct BlockGadget
+        DIM SHARED S1&(30)              'struct StringGadget
+
+    FUNCTION Attendi(W&,Class&,ID)
+    '******************************************************************'
+    ' Attende gli IDMCP della Window
+    ' IN:
+    '       W&     = Puntatore alla NewWindow
+    ' OUT:
+    '       Class& = Window event
+    *****   Vol.  1   *****      Pag. 19      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    '       ID     = nome dell'eventuale gadget (0 = NULL)
+    '******************************************************************'
+    LOCAL USP&,IntMsg&
+
+        USP& = PEEKL(W&+86)
+        CALL WaitPort(USP&)
+        IntMsg& = GetMsg&(USP&)
+        Class& = PEEKL(IntMsg&+20)
+        ID = PEEKW(( PEEKL(IntMsg&+28) )+38)
+        CALL ReplyMsg(IntMsg&)
+        IF ID < 0 THEN
+                ID = 0
+        END IF
+    END FUNCTION
+
+    FUNCTION MyWindow&(NewW&(0),Name$,LE,TE,WI,HE,IDCMP&,Flags&,
+                                                Scr&,MW,MH,MxW,MxH,Type)
+    '******************************************************************'
+    ' IN:
+    '       LE = LeftEdge   ; TE = TopEdge 'entrambi = 0 pos automatic.
+    '       WI = With       ; HE = Height
+    '       IDCMP/Flags     = SONO IN DECIMALE !!
+    '       Scr& = puntatore ad un'eventuale Screen
+    '       MW = MinWith    ; MH = MinHeight  (si possono lasciare a 0)
+    '       MxW= MaxWith    ; MxH= MaxHeight  (si possono lasciare a 0)
+    '       Type -=> 0 = WBENCHSCREEN | 1 = CUSTOMSCREEN
+    '******************************************************************'
+    LOCAL PNW&,ESITO&
+
+        IF Type = 0 THEN
+                Type = 1
+        ELSE
+                Type = 15       'CUSTOMSCREEN
+        END IF
+        PNW& = VARPTR(NewW&(0))
+        ' ** STRUCT DELLA NewWindow **
+        POKEW PNW&   ,LE : POKEW PNW&+ 2,TE
+        POKEW PNW&+ 4,WI : POKEW PNW&+ 6,HE
+        POKEB PNW&+ 8,-1 : POKEB PNW&+ 9,-1     'Detail,Block Pen
+        POKEL PNW&+10,IDCMP&
+        POKEL PNW&+14,FLAGS&
+    '   18,22   struct Gadget,Image
+        POKEL PNW&+26,SADD(Name$+CHR$(0))       'Title
+        POKEL PNW&+30,Scr&                      'Screen
+        POKEL PNW&+34,0                         'BitMap
+        POKEW PNW&+38,MW : POKEW PNW&+40,MH
+        POKEW PNW&+42,MxW: POKEW PNW&+44,MxH
+        POKEW PNW&+46,Type
+
+        IF LE = 0 AND TE = 0 THEN     CALL Center(VARPTR(NewW&(0)),0,0)
+        END IF
+        MyWindow& = OpenWindow&( VARPTR(NewW&(0)) )
+
+        LE = PEEKW(PNW&) : TE = PEEKW(PNW&+2)
+    END FUNCTION
+    *****   Vol.  1   *****      Pag. 20      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    SUB MkGadg(GBL&(0),StructW&(0),Name$,X&,Y&,ID)
+    '******************************************************************'
+    ' IN:
+    '       ID = Numero del Gadget
+    '      e' necessario ricevere la matrice che servira' per la struct:
+    '       GBL&(30)
+    ' OUT:
+    '       Nulla
+    '******************************************************************'
+    LOCAL PGBL&
+
+    CALL LinkGadget(VARPTR(GBL&(0)),SADD(Name$+CHR$(0)),
+                                              VARPTR(StructW&(0)),X&,Y&)
+        PGBL& = VARPTR( GBL&(0) )
+        POKEW PGBL&+38,ID
+    END SUB
+
+    FUNCTION ReadGadg$(STR&(0))
+    '******************************************************************'
+    ' ReadGadget
+    ' IN:
+    '       STR&(30) = matrice usata per inizializzarlo con MkStrGadg
+    ' OUT:
+    '       Il nome attualmente visualizzato
+    '******************************************************************'
+    LOCAL PSA&,PSC&,L,X,Read$
+
+    Read$ = ""
+        'Qui percorro tutte le varie Struct... (vedi RefrStrGadg)
+        PSA& = PEEKL( VARPTR(STR&(0)) +34)      'Struct GADGET
+        L = PEEKW(PSA&+16)                      'Lunghezza stringa
+        PSC&= PEEKL(PSA&)                       '*Buffer
+        FOR X=0 TO L-1                          'Salto CHR$(0)
+                Read$ = Read$+CHR$( PEEKB(PSC&+X) )
+        NEXT X
+        ReadGadg$ = Read$
+    END FUNCTION
+
+    SUB RefrStrGadg(STR&(0),StrB$,PNewW&)
+    '******************************************************************'
+    ' RefreshStringGadget:
+    ' IN:
+    '       STR&(30) = la matrice usata per inizializzarlo con MkStrGadg
+    '       StrB$    = il testo da mettere che NON dev'essere
+    '                  superiore al StrB$ originale, pena -=>GURU<=-
+    '                  (usa SPAZI nell'StrB$ in MkStrGadg)
+    '       NW&(0)   = il point alla NewWindow dove si trova il gadget
+    ' OUT:  NULL
+    ' COMMENTO : permette di riscrivere un testo dentro il gadget (ad es.
+    '            quando non si e' impostato il valore giusto.
+    '*******************************************************************'
+    LOCAL PS&,PSA&,PSC&
+
+        'Qui percorro tutte le varie Struct...
+        PS& = VARPTR( STR&(0) )         'Struct GADGET
+    *****   Vol.  1   *****      Pag. 21      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+        PSA&= PEEKL(PS&+34)             'Struct &StringInfo
+        PSC&= PEEKL(PSA&)               '*Buffer
+        'Forse si poteva fare tutto in una passata, ma cosi' e'
+        'certamente piu' chiaro... 8-)
+
+        POKEL PSA&,SADD(StrB$)          'Punta alla nuova stringa
+        POKEW PSA&+8,0                  'Puntatore all'inizio
+        POKEW PSA&+16,LEN(StrB$)        'Cambio lunghezza stringa
+        CALL RefreshGadgets(VARPTR( S1&(0) ),PNewW&,0&) 'Visualizzo
+    END SUB
+
+    SUB MkStrGadg(STR&(0),StrB$,NewW&(0),WithB&,MaxNC&,X&,Y&,ID)
+    '******************************************************************'
+    ' MakeStringGadget :
+    ' IN:
+    '       STR&(30) = una matrice SHARED di 30
+    '       StrB& = il testo, se ="" il Buffer e' di MaxNC&
+    '       WithB& = Larghezza
+    '       MaxNC& = Numero caratteri scrivibili, se =0 pari a StrB$
+    '       ID = Numero del Gadget
+    ' OUT:
+    '       Nulla
+    '******************************************************************'
+    LOCAL PSTR&,UBuff$
+
+        IF StrB$="" THEN
+                StrB$ = SPACE$(MaxNC&)
+        END IF
+        StrB$ = StrB$ + CHR$(0)
+        IF WithB& = 0 THEN
+                WithB& = LEN(StrB$)*8
+        END IF
+        IF MaxNC& = 0 THEN
+                MaxNC& = LEN(StrB$)+1
+        END IF
+        UBuff$ = SPACE$(MaxNC&+1)
+        CALL LinkStringGadget(VARPTR(STR&(0)),SADD(StrB$),
+                                       SADD(UBuff$),VARPTR(NewW&(0)),Wi)
+                PSTR& = VARPTR( STR&(0) )
+                POKEW PSTR&+38,ID
+    END SUB
+ 
+    MAIN:
+    Testo$ = "Scrivi : RRE e' un mito"
+        CALL MkGadg(M5&(),NW&(),"  CAMBIA I COLORI  ",245,46,5)
+        CALL MkStrGadg(S1&(),Testo$,NW&(),0,0,220,70,6)
+        MyW& = MyWindow&(NW&(),"Prova",0,105,640,151,592,4110,
+                                                            0,0,0,0,0,0)
+        DO
+           W = Attendi(MyW&,Class&,ID)
+           ? "Cosa mi invia INTUITION : ";Class&,ID
+           IF ID <> 0 THEN
+             SELECT CASE ID
+             CASE 5
+               mycol&=ColorRequester&(0&)
+    *****   Vol.  1   *****      Pag. 22      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+               ? "Selezione colori: ";mycol&
+             CASE 6
+               Nome$ = ReadGadg$( S1&() )
+               ? "Hai scritto : ",Nome$
+               IF UCASE$(Nome$)<>UCASE$("RRE e' un mito") THEN
+                 ? "Devi scrivere : RRE e' un mito"
+                 CALL RefrStrGadg(S1&(),"Scrivi : RRE e' un mito",MyW&)
+               ELSE
+                 ? "Bravo ! Vedo che hai capito !"
+               END IF
+             END SELECT
+           END IF       'ID <> 0
+        LOOP UNTIL Class& = 512         'WINDOWCLOSE
+    FINE:
+        IF MyW& <> 0 THEN
+                CALL CloseWindow(MyW&)
+        END IF
+        LIBRARY CLOSE
+    END
+
+    ***[ CUT HERE ]******[ CUT HERE ]******[ CUT HERE ]***
+
+                                                2:334/100.9
+                                                        RRE
+
+
+                                                       -----> CURIOSITA'
+                                                              ==========
+
+               Il Gergo Hacker - parte 6
+               -------------------------
+
+         <bit>:  [dal  significato  usuale e da `BInary  digiT']  s.  1. 
+    [tecnico]  l'unita`  di informazione: la quantita`  di  informazione 
+    ottenuta chiedendo una domanda si`/no per cui le due risposte  siano 
+    equiprobabili. 2. [tecnico] Una quantita` computativa che puo` avere 
+    due  valori possibili, come vero e falso, o zero e uno. 3.  Un  flag 
+    mentale, che ricorda che c'e` qualcosa da fare. Esempio: "Ho un  bit 
+    settato  su  di te" (non ti ho visto da un pezzo, e ho  qualcosa  da 
+    dirti).
+         "Ho  giusto  bisogno di un bit da te" e` un  modo  educato  per 
+    indicare  che si vuole interrompere l'altro solo brevemente per  una 
+    domanda cui sara` probabilmente risposto si` oppure no.
+         Un  bit  si dice "settato" se il suo valore e` vero  o  uno,  e 
+    "resettato" se e` falso o zero. "Invertire" ("toggle") un bit signi-
+    fica cambiarne il valore. Vedi anche <flag>, <trit>, <mode bit>.
+
+         <bit  bang>:  s.  Trasmissione di dati su  una  linea  seriale, 
+    quando ottenuta tirando rapidamente quando opportuno un singolo  bit 
+    di  output  (popolare sugli antichi Prime  computers,  probabilmente 
+    perche` gli UART erano troppo cari, e sugli arcaici Z80). La tecnica 
+    e`  un semplice loop con otto coppie di istruzioni OUT e  SHIFT  per 
+    ogni  byte.  L'input e` piu` interessante, e il  full  duplex  (fare 
+    contemporaneamente input e output) e` una delle cose che distingue i 
+    veri hackers dai <wannabee>. 
+    *****   Vol.  1   *****      Pag. 23      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         <bit  bashing>  [pestaggio  dei  bit]:  s.  Termine  usato  per 
+    descrivere  uno  qualsiasi dei vari tipi di programmazione  a  basso 
+    livello   caratterizzato  dalla  manipolazione  di  <bit>,   <flag>, 
+    <nybble> e altri pezzi di data di dimenisone minore di un carattere. 
+    Esempi  sono  controllo  di devices a basso  livello,  algoritmi  di 
+    crittografia,  checksum  e codici a correzione di  errore,  funzioni 
+    hash, alcuni tipi di grafica e generazione di codice assembler. Puo` 
+    connotare  tedio  (solitamente)  o  una  vera  sfida  tecnica.   "La 
+    decodifica dei comandi per il nuovo driver del nastro sembra solida, 
+    ma  il b.-b. per i registri di controllo ha ancora dei bachi".  Vedi 
+    anche <bit bang>, <mode bit>.
+
+         <bit  bucket> [il secchio dei bit]: s. Il lavandino  universale 
+    dei  dati (in origine, il mitico ricettacolo usato per  contenere  i 
+    bit  che  cadevano da un registro durante un'operazione  di  shift). 
+    Dati eliminati, persi o distrutti sono detti terminare nel b.b. . Su 
+    <UNIX>,  spesso usato per /dev/null . A volte amplificato come  "the 
+    Great B.B. in the Sky". Il termine viene usato solo come facezia: e` 
+    basato  sull'idea  che i bit sono oggetti che  non  si  distruggono, 
+    finiscono  solo nel posto sbagliato. Vecchi hacker affermano che  un 
+    tempo si diceva che i bit che la CPU metteva in memoria venivano  di 
+    fatto  presi "dalla scatola dei bit". Vedi anche <chad  box>,  <null 
+    device>.
+
+         <bit  decay> [decadimento dei bit]: s. Anche <bit rot>  [decom-
+    posizione].  Ipotetica  malattia la cui esistenza e`  stata  dedotta 
+    dall'osservazione  che programmi non usati dopo un certo  tempo  non 
+    funzionano piu`, anche se 'non e` cambiato nulla". La teoria  spiega 
+    che i bit decadono, come fossero radioattivi. Col passare del tempo, 
+    il  contenuto  di  un file o di un  programma  diventa  sempre  piu` 
+    rovinato.
+         In realta` esistono processi fisici (particelle alfa all'inter-
+    no dei chip, e vari tipi di problemi nei media magnetici) che produ-
+    cono simili effetti, ma sono molto rari (e oggi i calcolatori  hanno 
+    una  circuiteria  che  puo` correggere  questi  errori.  La  nozione 
+    apprezzata  dagli  hacker  che la cosa  fosse  risultato  dei  raggi 
+    cosmici e` pero` falsa, vedi anche <cosmic rays>.
+
+         <bits>: s. 1. Informazione. "Ho bisogno di dei bit sui  formati 
+    dei file". Confr. <core dump> #4. 2. Rappresentazione elettronica di 
+    un  documento,  in  contrapposizione  alla  cartacea.  "Ho  solo  la 
+    fotocopia del Jargon File; chi e` che sa dove si trovano i bits?"
+
+         <bitty box>: /bit'ee boks/ [scatolina] s. 1. Un computer suffi-
+    cientemente  piccolo, primitivo o incapace da causare ad  un  hacker 
+    una  acuta  claustrofobia al pensiero di doverci  sviluppare  sopra. 
+    Usato  specialmente di macchine piccole, obsolescenti e single  task 
+    come  Atari 800, Osborne, Sinclair, VIC-20, TRS-80, or IBM  PC.   2. 
+    pegg. Piu` generalmente, l'opposto di un "vero computer" (vedi  <Get 
+    a real computer!>). Vedi anche <mess-dos>, <toaster>, e <toy>.
+
+         <bixie>:  /biks'ee/ s. Faccine (<emoticon>s) varianti usate  su 
+    BIX  (the Byte Information Exchange). Il bixie sorridente e`  <@_@>, 
+    apparentemente  due occhioni da cartoon e una bocca. Ne  sono  state 
+    riportate anche alcune altre.
+    *****   Vol.  1   *****      Pag. 24      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                              -----> NOTIZIE DAL NET 334
+                                                     ===================
+         Innanzitutto una non-notizia: il primo lunedi` di settembre NON 
+    ci  sara` l'usuale riunione al CRDC. Potete pensare che siamo  tutti 
+    ancora in ferie, e non sareste lontani dalla verita`: fatto sta  che 
+    il prossimo ritrovo, al quale parteciperete sicuramente numerosi (mi 
+    pare di essere RRE), sara` il 7 ottobre.
+
+         Italy Network #1, il BBS gestito da Luigi Ravina, cambia numero 
+    di telefono: da settembre avra` il 89.89.069 .
+
+         E  a  proposito di BBS piemontesi, ricordatevi che  non  esiste 
+    solo  Fidonet (anche se Telematicus e` una diretta emanazione  Fido, 
+    non  e` un reato fare pubblicita` agli altri!). Al  numero  3094326, 
+    negli orari 14-19 e 21-08, 2400 baud, 8-N-1, risponde DDB BBS,  piu` 
+    che  amorevolmente  gestita  dal sysop  Elio  Romagnoli.  Fateci  un 
+    giro....
+    *****   Vol.  1   *****      Pag. 25      *****   Numero   9   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                     -----> I NOSTRI BBS
+                                                              ==========
+
+         (BBS)              (numero)    (orario)(vel.) (SysOp)
+         Fido_Torino........011-5765565....24h..2400   F.Carcillo 
+         SDN-Italy!.........011-5765568....24h..9600   F.Carcillo 
+         Charlie's_Puppies..011-3299706....24h..9600   F.Schinco
+         Magazine...........011-8989069....24h..9600   L.Ravina
+         I.N.#2 ............011-304840.....24h..2400   M.Sinesi
+         I.N.#3 ............011-8126756....24h..9600   L.Vay
+         I.N.#4 ............011-8981304....24h..9600   S.Magni
+         I.N.#5 ............011-3174440....24h..2400   F.Bogli
+         EUreka!............011-6624400....24h..9600   P.G.Gialli
+         TorinoNet..........011-3100485/70.24h..2400   E.Arman
+         Infotel............011-2238389....24h..2400   T.Moreno
+         LordDrake..........011-710408.....24h..9600   F.Croce
+         Travelmatic........011-502423.....24h..9600   M.Cristofaro
+         Sintagma...........011-596274/48..24h..2400   M.Civra
+         ONline.............011-9988154.serale..2400   S.Devia'
+         EGO................015-757151.....24h..2400   G.Amosso
+         PrimulaRossa.......0131-42467..serale..2400   A.Bonzano
+         Tecnosoft..........0121-500663....24h..2400   R.Piola

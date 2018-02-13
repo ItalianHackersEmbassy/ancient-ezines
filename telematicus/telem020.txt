@@ -1,0 +1,1013 @@
+ #### TELEM020 - Telematicus - Volume 02 - Numero 08 - Anno 1992 - 46 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                 Agosto 1992                                 
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di .mau.
+
+ ==============================================================================
+
+ Il materiale presente in Telematicus e` (C) dei singoli autori.      
+ E` espressamente consentita la distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 46 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .   .  pag.  4
+ [ 2]  Il C e` una truffa!   .   .   .   .   .   .   .   .   .   .   .  pag.  5
+ [ 3]  Problemi di vuoto .   .   .   .   .   .   .   .   .   .   .   .  pag.  9
+ [ 4]  WC-DOS delle mie brame, di Renato Rolando .   .   .   .   .   .  pag. 12
+ [ 5]  Consigli medici   .   .   .   .   .   .   .   .   .   .   .   .  pag. 17
+ [ 6]  Abbassamiga, di Renato Rolando    .   .   .   .   .   .   .   .  pag. 23
+ [ 7]  La Creazione  .   .   .   .   .   .   .   .   .   .   .   .   .  pag. 27
+ [ 8]  Come si dimostra un teorema   .   .   .   .   .   .   .   .   .  pag. 30
+ [ 9]  Musica, maestro!  .   .   .   .   .   .   .   .   .   .   .   .  pag. 35
+ [10]  Annunci di congressi  .   .   .   .   .   .   .   .   .   .   .  pag. 42
+
+
+
+
+
+
+
+
+
+                  Questo Telematicus e` nato con l'aiuto di...
+   
+ Editor vacantierus:    Maurizio Codogno |                                
+ Editor adiuvans:         Renato Rolando |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                               ###
+
+      Carissimi lettori,
+ numero  leggero  come l'anno scorso per agosto. Non vi  consiglio  di  credere
+ troppo  ad alcunche` di quello che troverete scritto, tratto dalle fonti  piu`
+ svariate...  oltre  che dalla fertile tastiera del nostro  collaboratore  piu`
+ prezioso,  l'ottimo  RRE  che lunedi` scorso, avendo saputo tra  una  birra  e
+ l'altra  che telematicus sarebbe uscito anche questo mese - evidentemente  non
+ legge quello che scrivo *io* - ha subito spedito la bellezza di due pezzi.
+      Buona lettura!
+
+      ciaociao .mau.
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   2  ###                                          IL C E` UNA TRUFFA!  ###
+ ############                                                               ###
+
+      Ebbene si`. Si sono avute le prove, finalmente. Avete sempre creduto  che
+ il C fosse troppo difficile per essere davvero utile come linguaggio? E allora
+ leggete cosa e` stato riportato su COMPUTERWORLD l'anno scorso... e provate  a
+ domandarvi perche` una simile verita` e` stata messa a tacere cosi` in fretta.
+
+
+                I CREATORI AMMETTONO: UNIX E C? UNA TRUFFA
+
+      In un annuncio che ha sbalordito l'industria dei calcolatori, Ken  Thomp-
+ son,  Dennis Ritchie e Brian Kernighan hanno ammesso che il sistema  operativo
+ Unix e il linguaggio di programmazione C da loro creato non e` nient'altro che
+ un  elaborato  pesce di Aprile che sono riusciti a tenere in  vita  per  oltre
+ vent'anni. Parlando al recente Forum di sviluppo software di UnixWorld, Thomp-
+ son ha fatto le seguenti rivelazioni:
+
+      "Nel  1969,  l'AT&T  aveva appena terminato il suo  lavoro  col  progetto
+ GE/Honeywell/AT&T  su Multics. Io e Brian avevamo appena iniziato  a  lavorare
+ con una prima release del Pascal dai laboratori ETH in Svizzera del  professor
+ Wirth, e eravamo rimasti impressionati dalla sua semplicita` elegante e  dalla
+ sua  potenza. Dennis aveva appena finito di leggere `Bored of the Rings',  una
+ parodia divertentissima alla National Lampoon della grande trilogia di Tolkien
+ `Il  Signore degli anelli". Come presa in giro, abbiamo deciso di  fare  delle
+ parodie dell'ambiente Multics e del Pascal. Dennis e io eravamo i responsabili
+ per il sistema operativo. Abbiamo visto come era fatto Multics e abbiamo  pro-
+ gettato il nuovo sistema in modo che fosse il piu` criptico e complesso possi-
+ bile,  per massimizzare la frustazione degli utenti non abituali, a  l'abbiamo
+ chiamato Unix come parodia di Multics, oltre che per altre allusioni spinte.
+ Poi  Dennis  e  Brian hanno lavorato su una versione  veramente  contorta  del
+ Pascal,  chiamata  `A'.  Quando abbiamo visto che altra  gente  stava  davvero
+ cercando  di creare dei veri programmi con l'A, abbiamo  velocemente  aggiunto
+ delle altre caratteristiche criptiche e ci siamo evoluti verso il B, il BCPL e
+ infine  il C. Ci siamo fermati quando siamo riusiti a potere  compilare  senza
+ errori uno statement con la seguente sintassi:
+
+    for(;P("\n"),R-;P("|"))for(e=C;e-;P("_"+(*u++/8)%2))P("| "+(*u/4)%2);
+
+ Pensare  che i moderni programmatori avrebbero tentato di usare un  linguaggio
+ che permetteva un simile statement era oltre la nostr comprensione! A dire  il
+ vero, abbiamo pensato di venderlo all'Unione Sovietica, per rallentare il loro
+ progresso  informatico  di venti e piu` anni. Immaginate  la  nostra  sorpresa
+ quando  l'AT&T  e altre grandi aziende americane hanno  davvero  cominciato  a
+ usare  Unix e il C! Ci sono voluti vent'anni per sviluppare  abbastanza  espe-
+ rienza  per  generare applicazioni con una sia pur minuscola  utilita`  usando
+ questa parodia tecnologica degli anni '60, ma siamo rimasti impressi dalla te-
+ nacia (anche se non dal senso comune) del programmatore generico Unix e C.  in
+ ogni  caso,  Brian,  Dennis e io abbiamo  esclusivamente  lavorato  in  Pascal
+ sull'Apple  Macintosh  negli scorsi anni, e ci sentiamo davvero in  colpa  per
+ tutto il caos, la confusione e lo stile di programmazione davvero orrendo  che
+ sono scaturati dalla nostra burla scherzosa di tanti anni fa".
+
+      Molti tra i piu` importanti offerenti e utenti di Unix e C, tra cui AT&T,
+ Microsoft,  Hewlett-Packard, GTE, NCR, e DEC, hanno rifiutato per  il  momento
+ alcun commento. La Borland International, una tra le maggiori  commercializza-
+ trici  di compilatori Pascal e C, tra cui i popolari Turbo Pascal, Turbo  C  e
+ Turbo  C++, ha affermato che aveva sospettato tutto questo da un certo  numero
+ di anni, e che continuera` a migliorare i propri prodotti Pascal e  abbandone-
+ ra`  ogni ulteriore sforzo per sviluppare il C. Un portavoce IBM e`  scoppiato
+ in una irrefrenabile risata e ha dovuto rinviare una conferenza stampa  prepa-
+ rata in tutta fretta e riguardante il fato degli RS-6000, affermando semplice-
+ mente "il VM sara` disponibile Real Soon Now". In un'affermazione  enigmatica,
+ il  professor  Wirth dell'ETH Institute, il padre  dei  linguaggi  strutturati
+ Pascal,  Modula 2 e Oberon, ha semplicemente affermato che P. T. Barnum  aveva
+ ragione.
+
+      In  una  notizia  dell'ultimo momento correlata  alla  precedente,  fonti
+ solitamente  affidabili  hanno affermato che una comfessione  simile  potrebbe
+ giungere  da  un  momento  all'altro da parte di  William  Gates,  per  quanto
+ riguarda gli ambienti operativi MS-DOS e Windows. E i portavoce dell'IBM hanno
+ cominciato  a  negare che la Virtual Machine (VM) fosse  uno  scherzo  interno
+ andato a male.
+
+                [da COMPUTERWORLD - 1. Aprile 1991]
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                            PROBLEMI DI VUOTO  ###
+ ############                                                               ###
+
+      [NdE: Vi e` mai capitato di avere problemi ad aprire il device /dev/null?
+ Avete mai avuto a che fare col bit bucket (il secchio dei bit, vedi  telemati-
+ cus #09)? Eccovi alcuni consigli tradotti direttamente da USENET per risolvere
+ il problema...]
+
+ Date: Wed, 12 Feb 92 19:35:36 EST
+ From: fortune@fsg.com
+ Subject: RE: /dev/null
+ To: sun-managers@delta.eecs.nwu.edu
+
+ Il 10 febbraio, hai affermato di avere scritto:
+ > From: hacker@tumbler-ridge.caltech.edu (Jon Hacker)
+ > Subject: /dev/null full
+
+ > Sulla nostra Sparc1+ - SunOS4.1 - OpenWindows 2.0 ha cominciato a girare
+ > molto lentamente. Quando mi sono sloggato ho visto il messaggio
+ > /dev/null full: empty bit bucket.
+
+ > Che cosa significa? Sembra che dopo un reboot tutto giri bene, ma mi chiedo
+ > se ho curato solo il sintomo.
+
+ >Jon Hacker
+ >MMIC Group, EE
+ >Caltech, Pasadena CA
+ >hacker@rumbler-ridge.caltech.edu
+
+ Il problema e` che sei pieno di nulla. Il tuo spazio vuoto non e` piu`  vuoto,
+ e` stato riempito.
+
+ I DIECI MODI MIGLIORI PER SVUOTARE UN BIT BUCKET STRARIPANTE:
+
+ 10)  Aprite il computer. Cercate il bit bucket, trovate il fermo ROSSO al fon-
+      do di questo e apriteso SOPRA un GRANDE cestino.
+  9)  Smettete  di  usare  il calcolatore per sei mesi,  in  modo  da  lasciare
+      decomporre i bit e potere continuare.
+  8)  Togliete  il terminatore ethernet, e digitate "cat /dev/null >  le0".  In
+      questo modo potete disperdere i bit nell'etere.
+  7)  Quando scrivete su /dev/null, gli 0 non occupano alcuno spazio, sono  gli
+      1  che  lo fanno. Provate a scrivere un file pieno di 0 su  /dev/null  (0
+      binario, NON ASCII 0 - l'ASCII 0 comincera` a riemire la partizione)
+  6)  Questo e` un problema comune *solo* se si usa il calcolatore. Se smettere
+      di usarlo, non avrete piu` una quantita` di problemi. Buttate fuori anche
+      gli altri utenti, gia` che ci siete.
+  5)  Se usate molti programmi C, questi hanno tutte le stringhe terminanti  in
+      null che possono isare i bit in /dev/null.
+  4)  Portate il calcolare da "Ai Box". vi puliranno il bit bucket, cambieranno
+      l'olio  e  metteranno  l'antigelo il tutto in meno di 29  minuti.  E`  un
+      affare.
+  3)  Pensate all'upgrade del vostro bit bucket a un byte bucket o  addirittura
+      a un word bucket.
+  2)  visto  che state gia` usando OpenWindows, aprite una finestra  e  buttate
+      via i bit inutili dalla finestra appena aperta.
+  1)  Smettila di usare il gioco "fortune" nel tuo .logout, Mr "Hacker".
+
+ buona fortuna
+ Frank Ortune
+ (fortune@fsg.com)
+
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                                       WC-DOS DELLE MIE BRAME  ###
+ ############                                                               ###
+
+      Gia' vi vedo sotto il sole cocente con in mano il numero di Agosto di te-
+ lematicus, convinti che quel velo di scuro che vi procaccerete dopo indicibili
+ tormenti potra' celare pietosamente la vostra pancetta e la calvizie incipien-
+ te...  [NdE: a parte il fatto che non ci si porta il notebook sulla  spiaggia,
+ parla per te riguardo a calvizie e pancetta...]
+ Ebbene. dovendo essere questo un number stravaccato permettetemi di stuzzicare
+ la vostra scarsa pappetta grigia con alcune considerazioni  empirico-filosofi-
+ che; naturalmente il dibattito e' aperto, o meglio si apre, e  considerazioni,
+ insulti o che sia sono attesi (e apprezzati).
+
+      Ultimamente si e' visto in ogni mercato uno spasmodico tentativo di  spo-
+ stare l'attenzione dal prodotto ai gadget, alle lucine di contorno.
+
+      Facciamo un esempio stupido, lo spazzolino da denti.
+
+      Oggigiorno  trovarne uno normale, senza spazzole colorate  alla  moikana,
+ senza  stuzzicagengive  all'estremita',  sveglietta  giapponese   incorporata,
+ spruzzino per l'alito automatico etc. e' praticamente impossibile.  Il mercato
+ e'  disposto  a spendere 10Lit in piu' pur di avere lo  spazzolino  `diverso'. 
+ Questo `diverso' viene inteso come `personalizzato', `esclusivo',  `prestigio-
+ so' etc.
+
+      Ora tutto cio' puo' anche essere un elemento positivo per il mercato  che
+ ha bisogno di estorcere sempre piu' soldi e con frequenza sempre maggiore,  ma
+ non certo per il cliente.  Un atteggiamento del genere porta a considerare  il
+ vero oggetto da acquistare come gadget tra gadget.  E si finisce col  comprare
+ lo  spazzolino non piu' per le qualita' intrinseche del prodotto, ma per  cosa
+ offre in piu'; con la becera convinzione che quel sovrappiu' sia anche sinoni-
+ mo di qualita' ormai insuperabile:  se quello spazzolino ha anche il massaggia
+ gengive  e' sicuramente perche' hanno fatto tutto il possibile sulle  spazzole
+ ed ora devono trovare qualcos'altro.
+ Questo  e' assolutamente ERRATO: il piu' delle volte il  massaggia-gengive  e'
+ messo li' proprio per nascondere la cattiva qualita' delle spazzole!
+
+      Ma  vi  sto annoiando, torniamo ai computer.  Dallo  spazzolino  possiamo
+ quindi  passare alle automobili.  Ultimamente c'e' un'auto venduta non per  le
+ sue  capacita' ma per il fatto che viene fornita col  condizionatore  (oggetto
+ che  tra l'altro riduce la potenza di un'autovettura del 20%...). [NdE:  penso
+ che una stima del 5% (5 cavalli su 100) sia piu` ragionevole, e in ogni caso a
+ tenere  aperti i finestrini si spreca lo stesso]. Per non parlare  delle  mega
+ auto di 2000cc che fanno i 220 km/h! A parte i patiti o appassionati del gene-
+ re  (pochi), che senso ha una macchina simile se poi si gira solo a  Torino  o
+ peggio ancora si resta imbottigliati per ore e ore nelle code domenicali ?  Ed
+ i fuoristrada?
+
+      Dunque i computer.  Anche per i computer la cosa e' la stessa. Clock pau-
+ rosi  da 55Mhz (ho visto personalmente dei CB all'interno dei chip per  elimi-
+ nare le fastidiose piste di Cu (Rame, rapa))!  Ma siamo matti!
+
+      Come col dentifricio e con l'auto anche per i PC c'e' stata questa corsa. 
+ Non  e'  forse  possibile che (chiaramente a meno di non  dover  fare  calcoli
+ strutturali  tutti i giorni) non bastino 20Mhz per avere un tempo di  reazione
+ decente da parte di qualsiasi programma? [NdE: se il programma fosse  decente,
+ si`...]   Per non parlare poi di chi si prende i 50Mhz con 2Mb e poi  pretende
+ che Windows giri in fretta! Come prendersi una Thema e metterci le ruote usate
+ della vecchia macchina.
+      Non  vi ha mai sfiorato il dubbio di essere continuamente presi  in  giro
+ dalla Intel o dalla Microsoft o dall'IBM ogni tanto ?  Forse che un 386+copro-
+ cessore non sono in grado di fare quello che fa un 486 per la gestione del vo-
+ stro megagalattico Point o DBXXIII o Lotus ?
+      E pensare che magari basterebbero 10Mhz di clock!  Eresia?
+
+      Ebbene  signori,  anche senza parlare del Mach di cui non  sono  esperto,
+ l'Amiga ha un clock di 6.9MHz!!  Eppure l'interfaccia GUI gira di qualche  or-
+ dine di grandezza piu' veloce di un 486 50Mhz; semplicemente  perche' un  chip
+ grafico e' in grado di lavorare decisamente menglio di una CPU pompata. Eppure
+ le schede grafiche su WC-DOS non sono molto popolari...
+
+      Per non parlare del fatto che un HW cosi' potente NON ha un riscontro nel
+ SW. Windows (l'ultima frontiera dello scibile umano [NdE: e OS/2 2.0?]) non e'
+ ancora in grado di indirizzare la ram a 32 bit e la grafica e' ancora tutta su
+ 16 bit; eppure chi non ha un computer con un bus a 32 bit e' un idiota.  Addi-
+ rittura le schede a 32 bit sono ancora considerate esoteriche.
+
+      Non  metto in dubbio che, forse magari anche domani, uscira' tutto  a  32
+ bit. E con cio'? Il monitor ha un limite fisso dato dalla frequenza con cui il
+ raster disegna sullo schermo... piu' di cosi' non si puo' fare.  Eppure  tutti
+ quanti c'insistiscono a pompare, pompare e pompare...
+
+ Insomma  secondo me attualmente la configurazione giusta per un PC  che  debba
+ usare Windows o simili e':
+
+        386 + coprocessore
+        20/25 Mhz di colck
+        4/8 Mb di RAM
+        120 Mb di HD
+        Coprocessore grafico
+
+      Nella speranza di aver toccato un tasto sensibile attendo le vostre  con-
+ siderazioni  sul  PC ideale.  E per ideale intendo quello con  le  prestazioni
+ proporzionate alle operazioni che si richiedono.
+
+ Ave atque vale
+
+                                                RRE
+                                                2:334/100.9
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                                              CONSIGLI MEDICI  ###
+ ############                                                               ###
+
+      Siamo in estate, e il pericolo e` il nostro (vostro) mestiere. Ecco quin-
+ di, da funny@clarinet.com, i
+
+                PRIMI AIUTI PER PERSONE NON ESPERTE IN MEDICINA
+                ===============================================
+
+           Scosse elettriche
+           -----------------
+      La  persona  e` ancora connessa alla presa elettrica?  Se  si`,  STACCATE
+ IMMEDIATAMENTE LA CORRENTE. L'elettricita` costa una fortuna, e in questo modo
+ la si sprecherebbe solo.
+
+      Controllate  la  pressione della vittima (se riuscite a  trovare  il  suo
+ polso  in mezzo al mucchio di ossa carbonizzate e carne untuosa  e  ribollente
+ che e` stata un tempo un essere umano). E non siate troppo schizzinosi.
+
+      Portate  la vittima al piu` vicino pronto soccorso. Potete  usarlo/a  per
+ fare partire il motore, se proprio necessario.
+
+
+           Bruciature e ustioni
+           --------------------
+
+      Mettete  sotto un rubinetto appena possibile l'area interessata. (NB:  se
+ l'intero corpo della vittima e` una massa turbinosa di fiamme, e` probabilmen-
+ te un po' troppo tardi).
+
+      Se  la vittima si e` versato del liquido bollente sui suoi vestiti,  SPO-
+ GLIATEVI IMMEDIATAMENTE. Non si puo` mai dire, la vista di voi che gli  girate
+ intorno nudo potrebbe rallegrarli e non farli pensare alle loro ferite. Ricor-
+ date alla vittima che al mare accadono cose peggiori. Citate ad esempio  l'an-
+ negare.
+
+
+           Fratture e arti spezzati
+           ------------------------
+
+      Controllate  l'area  ferita,  per vedere se la  frattura  ha  avuto  come
+ risultato  un  frammento  tubolare di osso bianco tagliato  di  netto  che  si
+ protende  all'esterno attraverso una massa di carne sanguinante. Se e`  cosi`,
+ dite alla vittima che sta per morire. Questo gli fa sempre paura.
+
+      Legate  un'assicella alla gamba della vittima e chiedetegli di  camminare
+ su  e  giu` per qualche minuto. Essi probabilmente cadranno a terra  privi  di
+ conoscenza, semplificando il restro del vostro lavoro.
+
+      Non  muovete l'arto rotto o fratturato, visto che cio` puo` risultare  in
+ una  posizione  anormale.  Pero`, se vi sentite di osarlo,  potete  provare  a
+ puntare  le  gambe  nella direzione sbagliata, a far ruotare i  polsi  di  180
+ gradi, e cosi` via.
+
+      E`  realmente  stupefacente  il numero di  contorsioni  affascinanti  che
+ potete produrre. Molto meglio che con una Barbia.
+
+
+                Soffocamento da cibo
+                --------------------
+
+      Cercate di levare via l'oggetto che blocca la gola della vittima dandogli
+ un  violento pugno nello stomaco. Ricordatevi pero` di piegarvi prima  che  le
+ particelle di cibo vi entrino negli occhi.
+
+      Chiamate il cameriere e chiedete una riduzione del 20 percento sul conto.
+ Fatevi un appunto mentale per ordinare una minestra, la prossima volta.
+
+
+           Tagli e ferite
+           --------------
+
+      Medicate la ferita, qualunque cosa significhi cio`.
+
+      Cercate  di limitare la perdita di sangue legando strettamente un  laccio
+ emostatico intorno alla gola della vittima finche` non sperimenta delle diffi-
+ colta` nel respirare.
+
+      Hehehe,  stavo  scherzando. Legate il laccio emostatico appena  sopra  la
+ ferita. Era solo uno scherzetto.
+
+      Chiudete la ferita con del filo di alluminio.
+
+      Haha! Vi ho fregati di nuovo!! Sono piu` furbo di voi!!! Beh, io sono  un
+ esperto, lo sapete.
+
+
+           Oggetti entrati negli occhi
+           ---------------------------
+
+      Sciacquate gli occhi della vittima in acqua tiepida. E NON USARE ANCHE IL
+ SAPONE, STUPIDO!
+
+      Offritevi  di togliere l'oggetto dall'occhio della vittima con  i  vostri
+ denti. In genere una simile offerta fa si` che l'oggetto "scompaia via" miste-
+ riosamente, e non dia piu` fastidio alla vittima prima che possiate avvicinar-
+ vici.
+
+
+           Commozione cerebrale
+           --------------------
+
+      Non  appena la vittima sembra riaversi, chiedetele che giorno e`, chi  e`
+ il  primo ministro [NdE: per una vittima italiana la cosa e` ancora piu`  pro-
+ blematica],  quante dita indicate. Per rendere la cosa piu` difficile,  tenete
+ la  mano dietro la schiena. Totalizzate il punteggio ottenuto e speditemelo  a
+ questo  indirizzo:  Dr. Brain D'Eath, Concussion Quiz,  P.O.Box  312,  Londra.
+ [NdE:  Brain Death e` la morte cerebrale, e Concussion la commozione  cerebra-
+ le]. Il punteggio migliore vincera` un premio a sorpresa.
+
+      Parlate  in swahili per disorientarlo ancora di piu`. Si`, ci si  possono
+ fare tantissime risate quando si trova uno con una commozione cerebrale.
+
+      Eccone  uno:  brima che la vittima si riabbia, spegnete  tutte  le  luci.
+ Quando riprende conoscenza, gridate "Grazie a Dio! Pensavamo che fossi  morto,
+ o diventato cieco, o chissa` che altro..."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                                  ABBASSAMIGA  ###
+ ############                                                               ###
+
+                Quando si scassano si scassano.
+                -------------------------------
+
+      In  una delle solite terribili afose serate estive di Torino uno  sparuto
+ gruppo  di irriducibili, capeggiato dal mitico Carcillo, si era dato  appunta-
+ mento al solito CDRC o comecavolo si chiama.  Queste sono alcune piccole  con-
+ siderazioni strettamente personali e riservate emerse da quell'incontro.
+
+      Ragazzi, se non vi si sono drizzate le auricole dopo  quest'introduzione-
+ bomba altamente indiscrezionale non so che dirvi!
+
+      OK. Non ve ne frega nulla. Passiamo quindi ad altro.  Ci sono altre indi-
+ screzioni forse piu' interessanti: la prima e' che finalmente dovrebbero appa-
+ rire all'orizzonte i nuovi modelli Amiga! Personalmente li considero gia' per-
+ denti prima ancora di vederli uscire, si parla di una ciofeca che dovrebbe so-
+ stituire  il 2000:  un 68020 a 16Mhz con 256 colori :(.  Certo non ha  il  gap
+ che aveva il 1000 rispetto all'MS-DOS, anzi e' il WC-DOS che sta lasciando in-
+ dietro la Commodore.  L'altra indiscrezione e' che le maggiori case di  schede
+ grafiche  per Amiga hanno creato uno standard (cio' e' molto bello) a cui  non
+ ha aderito "solo" la GVP che naturalmente deve rompere le ** per voler imporre
+ il suo.  Spero schiatti.
+
+      Ed ora la notizia bomba. Il sottoscritto si e' comprato un cessy-dos (pa-
+ gato carissimo ed ormai considerato gia' antidiluviano; a soli 20Mhz, roba in-
+ credibile!) [NdE: si sopravvive anche con 20MHz, ma sicuramente il nostro  RRE
+ l'ha strapagato, il suo coso...] .  Ma di cio' ne parleremo un'altra volta. Il
+ fatto e' che il qui scrivente ha chiappato pure una Paradise (scheda  grafica)
+ ed  il  PC comincia ad avere solo piu' gli Screen  da  invidiare  all'Amiga... 
+ Quindi, carissimi, e' molto probabile che la rubrica Amiga termini qui, a meno
+ che  proprio non abbia null'altro da fare di meglio (cosa possibilissima)  non
+ avrete piu' il vostro galattico articolao sull'Amiga; mentre e' molto probabi-
+ lmente dal prossimo numero iniziera' una serie strepitosa di articoli su  come
+ programmare in Windows!!  :)
+
+      Ebbene si', signori.  Ho deciso per tutta una serie di contingenze di la-
+ sciare un po' perdere il mondo Amiga e tutti quegli STRONZI che ci girano  at-
+ torno per passare su qualcosa forse meno bello ma sicuramente piu' costruttivo
+ e remunerativo.
+
+      Ora,  carissimo amico che mi hai letto per tutto questo tempo  senza  mai
+ degnarmi di un matrix o cagarmi di striscio, eccoti accontentato. Chissa' come
+ mai tanti ECCEZIONALI programmatori scappano dall'Amiga!?  Naturalmente NON ci
+ saranno piu' ne' nuovi upgrade di Gali ne' ulteriori programmi (a proposito la
+ seriale del WC-DOS e' un cesso! In pratica uno deve reinventarsi tutta la  ge-
+ stione  ogni  volta  che vuole accedervi). [NdE: l'ottimo RRE  non  sa  che  i
+ programmatori DOS lo sanno da una vita, si sono rimboccati le maniche, e hanno
+ creato l'interfaccia FOSSIL]
+
+      Si, lo so, il numero di Agosto doveva essere il numero fatto apposta  per
+ far ridere quei minchioni che leggono Telematicus; ebbene non c'e' proprio  un
+ ca...sco da ridere.  Ormai in giro non si trova altro che  libri-programmi-mu-
+ sica scema che sollettica il palato agli imbecilli; mentre quelli intelligenti
+ (il  mio capo .mau.  ed Io) ne restano disgustati.  (Ho messo dentro anche  Il
+ Capo cosi' e' costretto a prendere posizione su questo scottante tema).  [NdE:
+ l'editor  concorda sull'analisi, ma tipicamente l'intersezione dei suoi  gusti
+ con  quelli di RRE e` nulla. Che volete, sono un vecchietto  appassionato  dei
+ Beatles, di Douglas Adams e di Bombs - la versione Mac che e` meglio del Mine-
+ Sweeper Windows...]
+
+      E' ora che qualche stronzetto (e dico 'qualche' solo perche' sono piccolo
+ e potreste picchiarmi) si faccia un piccolo esame di coscienza, sempre che an-
+ cora la possieda.
+
+Tanti saluti, buone vacanze etc.etc.etc.
+
+                                        RRE
+                                        2:334/100.9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                                 LA CREAZIONE  ###
+ ############                                                               ###
+
+      In principio, Dio creo` il bit. E il bit era uno zero: nulla.
+
+      Il  primo giorno, egli complemento` lo 0 ad 1, e fu l'Universo. (In  quei
+ lontani  giorni,  i programmi di bootstrap erano molto semplici, e  i  segnali
+ "attivi bassi" non esistevano ancora).
+
+      E fu sera e fu mattina: secondo giorno. Il boss di Dio voleva una demo, e
+ tento` di leggere il bit. Ma essendo questa memoria volatile, il bit torno`  a
+ 0.  E l'universo scomparve. Dio imparo` l'importanza dei backup e del  refresh
+ di  memoria, e passo` il resto del giorno (e la sua prima notte di  lavoro)  a
+ ricostruire l'universo.
+
+      E  fu  sera e fu mattina: terzo giorno. Il bit grido`: "Oh,  Signore!  se
+ esisti, dammi un segno!" E Dio creo` la versione 2.0 del bit, ancora  migliore
+ del  prototipo originale. Quelli nel Marketing dell'Universo si accorsero  che
+ "nuovo  e  migliorato"  non faceva giustizia a una creazione  cosi`  grande  e
+ gloriosa.  e  cosi`  fu denominato il Bit Piu` Significativo,  oppure  il  Bit
+ di Segno. Molti bit seguirono, ma solo uno fu cosi` onorato.
+
+      E  fu sera e fu mattina: quarto giorno. E Dio creo` una  semplice  unita`
+ aritmetica, una ALU con le istruzioni di `add' e `shift logico'. E il bit ori-
+ ginale scopri` che bastava fare una singola istruzione di shift per  diventare
+ il  Bit  Piu` Significativo. E Dio comprese l'improtanza della  sicurezza  dei
+ computer.
+
+      E fu sera e fu mattina: quinto giorno. E Dio creo` i primi veri processo-
+ ri,  versione  2.0 della ALU, con features meravigliose, e  disse  "Incasinate
+ quella  robaccia di add e shift. Andate e moltiplicate". E Dio vide  che  cio`
+ era cosa buona.
+
+      E fu sera e fu mattina: sesto giorno. E Dio divento` un po' troppo  fidu-
+ cioso, e invento` le pipeline, le allocazioni statistiche di registro, i  com-
+ pilatori  ottimizzanti,  le istruzioni che potevano ripartire,  i  microinter-
+ rupts, le race conditions, e i ritardi di propagazione. Gli storici hanno usa-
+ to questi fatti per dedurre con fondate ragioni che il sesto giorno deve esse-
+ re stato un lunedi`.
+
+      E  fu  sera e fu mattina: settimo giorno. E una  modifica  ingegneristica
+ introdusse [nome del componente malfunzionante eliminato per tenere buoni gli
+ avvocati]  nell'Universo,  e  da  allora  non si  e`  piu`  riusciti  a  farlo
+ funzionare in maniera decente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   8  ###                                  COME SI DIMOSTRA UN TEOREMA  ###
+ ############                                                               ###
+
+      [NdE: Chiunque abbia seguito dei corsi di matematica a livello  universi-
+ tario  conoscera` certamente molti di questi modi che i professori  utilizzano
+ per dimostrare i teoremi, soprattutto alle 13.30 dopo due ore di lezione: que-
+ sta pero` penso sia la prima raccolta completa...]
+
+
+      Dimostrazione per esempio:
+ L'autore  da' solo il caso per n = 2 e afferma che questo contiene la  maggior
+ parte delle idee per la dimostrazione generale.
+
+      Dimostrazione per intimidazione:
+ "E' banale."
+
+      Dimostrazione per gesticolazione vigorosa:
+ Funziona molto bene a lezione o durante un seminario.
+
+      Dimostrazione per notazione incasinata:
+ Si  consiglia di usare almeno quattro alfabeti diversi e un congruo numero  di
+ simboli speciali.
+
+      Dimostrazione per esaustione:
+ Uno o due numeri di una rivista completamente dedicati alla dimostrazione  do-
+ vrebbero essere sufficienti.
+
+      Dimostrazione per omissione:
+ "Il lettore puo' aggiungere facilmente i dettagli"
+ "Gli altri 253 casi sono analoghi"
+ "..."
+
+      Dimostrazione per offuscamento:
+ Una successione lunga e senza ordine di affermazioni vere e/o senza significa-
+ to sintatticamente collegate.
+
+      Dimostrazione per citazione speranziosa:
+ L'autore cita la negazione, l'inverso o la generalizzazione di un teorema dal-
+ la letteratura per supportare le sue affermazioni.
+
+      Dimostrazione per contribuzioni:
+ Come fanno tre differenti fondi di supporto per la ricerca ad essere nel  tor-
+ to?
+
+      Dimostrazione per autorita' eminente:
+ "Ho visto Karp nell'ascensore e mi ha detto che probabilmente e' NP-completo".
+
+      Dimostrazione per comunicazione personale:
+ "Lo  stripping ciclico colorato 8-dimensionale e' NP-completo [Karp,  personal
+ communication]".
+
+      Dimostrazione per riduzione al problema sbagliato:
+ "Per provare che lo stripping ciclico colorato a dimensione infinita e'  deci-
+ dibile, lo ricondurremo al problema dell'halt".
+
+      Dimostrazione per referenza a letteratura inaccessibile:
+ L'autore cita un semplice corollario di un teorema trovato in una memoria cir-
+ colata privatamente negli atti della Societa' Filologica Slovena - 1883.
+
+      Dimostrazione per importanza:
+ Un gran numero di utili conseguenze seguono dalla proposizione in questione.
+
+      Dimostrazione per evidenza accumulata:
+ Lunghe e diligenti ricerche non hanno portato a trovare nessun controesempio.
+
+      Dimostrazione per cosmologia:
+ La negazione della proposizione e' inimmaginabile o senza senso. Popolare  per
+ dimostrare l'esistenza di Dio.
+
+      Dimostrazione per mutuo riferimento:
+ Nella citazione A, il Teorema 5 e' detto discendere dal Teorema 3 nella  cita-
+ zione  B, che e' mostrato seguire dal Corollario 6.2 nella citazione C, che  a
+ sua volta e' una semplice conseguenza del Teorema 5 nella citazione A.
+
+      Dimostrazione per metadimostrazione:
+ Viene dato un metodo per costruire la prova desiderata. La correttezza del me-
+ todo e' provata per mezzo di una qualunque delle dimostrazioni viste qui.
+
+      Dimostrazione per disegno:
+ Una forma piu' convincente della classica dimostrazione per esempio. Si accor-
+ da bene con la dimostrazione per omissione.
+
+      Dimostrazione per asserzione veemente:
+ E' utile avere una qualche forma di relazione di autorita' nei confronti degli
+ ascoltatori.
+
+      Dimostrazione per riferimento in avanti:
+ Il  riferimento e' solitamente contenuto in un prossimo articolo  dell'autore,
+ che spesso non e' poi cosi' prossimo...
+
+      Dimostrazione per modifica di semantica:
+ Alcune delle definizioni usuali ma sconvenienti sono modificate per potere ot-
+ tenere il risultato richiesto.
+
+      Dimostrazione per appello all'intuizione:
+ Disegnini a nuvoletta sono generalmente di grande aiuto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   9  ###                                             MUSICA, MAESTRO!  ###
+ ############                                                               ###
+
+      Per  gli  amici  programmatori, eccovi di seguito alcuni  testi  di  note
+ canzoni  adattati  in modo da potersi applicare alla vita di tutti  i  giorni.
+ Buona cantata!
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+                     Write in C  (da "Let It Be" - Beatles)
+                     ----------
+
+      When I find my code in tons of trouble,
+      Friends and colleagues come to me,
+      Speaking words of wisdom:
+      "Write in C."
+
+      As the deadline fast approaches,
+      And bugs are all that I can see,
+      Somewhere, someone whispers:
+      "Write in C."
+
+      Write in C, Write in C,
+      Write in C, oh, Write in C.
+      LOGO's dead and buried,
+      Write in C.
+
+      I used to write a lot of FORTRAN,
+      For science it worked flawlessly.
+      Try using it for graphics!
+      Write in C.
+
+      If you've just spent nearly 30 hours
+      Debugging some assembly,
+      Soon you will be glad to
+      Write in C.
+
+      Write in C, Write in C,
+      Write in C, yeah, Write in C.
+      Only wimps use BASIC.
+      Write in C.
+
+      Write in C, Write in C
+      Write in C, oh, Write in C.
+      Pascal won't quite cut it.
+      Write in C.
+
+      Write in C, Write in C,
+      Write in C, yeah, Write in C.
+      Don't even mention COBOL.
+      Write in C.
+
+                     (and what about C++ ?)
+
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+                     UNIX Man        (Da "Nowhere Man" - Beatles)
+                     --------
+
+      He's a real UNIX Man
+      Sitting in his UNIX LAN
+      Making all his UNIX .plans
+      For nobody
+
+      Knows the blocksize from 'du'
+      Cares not where /dev/null goes to
+      Isn't he a bit like you
+      And me?
+
+      UNIX Man, don't worry
+      It's the tube that's blurry
+      UNIX Man
+      The new kernel boots, just like you had planned
+
+      He's as wise as he can be
+      Programs in lex, yacc and C
+      UNIX Man, can you help me
+      At all?
+
+      UNIX Man, please listen
+      My printout is missin'
+      UNIX Man
+      The wo-o-o-orld is your 'at' command
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+                Gateway To Heaven (da "Stairway to Heaven' - Led Zeppelin)
+                -----------------
+
+      There's a lady who knows
+      All the systems and nodes
+      And she's byteing a Gateway to Heaven
+      She telnets there, she knows
+      All the ports have been closed
+      With a nerd she can get
+      Files she came for
+
+      Woohoohoo
+      Woo Hoo Hoo HooHoo
+      And she's byteing a Gateway to Heaven
+      There's an motd
+      But she wants to be sure
+      Cos she knows sometimes hosts have
+      Two domains
+      In a path by the NIC
+      There's a burdvax that pings
+      Sometimes all of our flames
+      are cross-posted
+
+      Woohoohoo
+      Woo Hoo Hoo HooHoo
+      And she's byteing a Gateway to Heaven
+      And it's processed by root
+      Unix Labs will reboot
+      NCR will then listen to reason
+      And a prompt will respawn
+      For those yet to logon
+      And the networks will echo much faster
+
+      Woohoohoo
+      Woo Hoo Hoo HooHoo
+      And she's byteing a Gateway to Heaven
+      If there's a lookup in your netstat
+      don't be .alarmed now
+      it's just a pinging from the link queen
+      Yes there are two routes you can type in
+      but in the long run
+      there's still time to change the net you're on
+      (I hope so!)
+
+      And as we find stuff to download
+      We ftp and we chmod
+      There was a sysadm we know
+      Who changed the server to her own
+      She had root privs and she used chown
+      She hacked out on the DDN
+      And if you tail her stdin
+      Then you will find what you had lost
+      And get it back with cpio
+      To be a hack and not to scroll...
+
+      And she's byteing a Gateway to Heaven
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  10  ###                                         ANNUNCI DI CONGRESSI  ###
+ ############                                                               ###
+
+                          Call For Papers
+
+            ICON-93: 2nd International Conference on Nothing
+                       Feb. 30th - 31st, 1993
+           Floating Conference Grounds, Origin, Gulf of Guinea
+
+
+      Dal primo ICON tenuto il 1. gennaio 1970, sono stati ottenuti dei  grandi
+ avanzamenti  tecnologici  sia nell'hardware che nel software che  supporta  la
+ computazione nulla, e nella nostra abilita` a ragionare e fare uso della  nul-
+ lita`.  Questo secondo ICON e` un forum per tutti gli aspetti del  nulla,  con
+ un'enfasi speciale nel sottolineare l'importanza, in tutte le aree dell'infor-
+ matica,  della teoria e pratica del computare il nulla. I campi  di  interesse
+ includono, ma non sono limitati a:
+
+ *  Supporto e ottimizzazione dei file system per files a 0 bit
+ *  Correzione di errore per valori nulli
+ *  Eliminazione attraverso i devices nulli
+ *  Grammatiche content-free
+ *  Consistenza in cache degli oggetti non esistenti
+ *  Protocolli che garantiscono banda passante zero
+ *  Ottimizzazione dei cicli non utilizzati
+ *  Gerarchie di memorizzazione a zero livelli
+ *  Compressione di valori nulli
+ *  Ottimizzazione di punti di unione di 0 vie
+ *  Diagrammi relazionali per le non-entita`
+ *  Recupero di operazioni di non-partenza
+ *  Prava formale di correttezza dei diagrammi vuoti
+ *  Istruzioni atomiche di NOOP
+ *  Topologie appropriate per reti a zero nodi
+ *  Zero Instruction Set Computing contro No Instruction Set Computing
+ *  Null modem e null transfer rate
+
+      Gli  articoli  non  devono essere piu` lunghi di  zero  pagine,  compreso
+ l'abstract e le illustrazioni, e non devono essere stati pubblicati altrove  o
+ essere  sotto possibilita` di pubblicazione altrove. Ritrattamenti  di  lavori
+ precedenti  sono  particolarmente invitati. Il titolo  dell'articolo,  i  nomi
+ degli  autori, gli indirizzi e le affiliazioni, e un astratto devono  apparire
+ su un foglio separato che accompagna l'articolo.
+
+
+      Per  favore, non spedite alcuna copia del vostro articolo  al  Presidente
+ del Comitato Scientifico:
+
+           Dr. No
+           Dept. of Computer Science and Tragic Engineering
+           L'Universite' Lac Sans l'Eau
+           Rien, Quebec
+           Canada N0N 0N0
+           no@where.berkeley.edu
+
+
+      In  linea  con  il  nostro formato che  ha  riscosso  notevole  successo,
+ articoli di notevole interesse che il Comitato Scientifico non e` in grado  di
+ accettare possono venire schedulati per discussione in una sessione "Works Not
+ In  Progress". Sessioni a non partecipazione libera possono essere  schedulate
+ in  anticipo contattando il Presidente del Comitato Scientifico. Il  programma
+ finale  comprendera`  dei tutorial, oltre che delle panel sessions  sui  punti
+ piu` controversi.
+
+
+
+                     Comitato Scientifico
+                     --------------------
+ Dr. No (Chair), L'Universite' Lac Sans L'Eau
+ Mary Baker, UC Berkeley                 Margo Seltzer, UC Berkeley
+ Randy Katz, UC Berkeley                 Ken Shirriff, UC Berkeley
+ Ethan Miller, UC Berkeley               Mark Sullivan, UC Berkeley
+ Jim Mott-Smith, UC Berkeley             Dave Tweten, NASA Ames
+ Mike Olson, UC Berkeley                 David Wells, Thinking Machines Corp.
+ Dave Patterson, UC Berkeley             Mark Weiser, Xerox PARC
+ Curt Ridgeway, Sun Microsystems         John Wilkes, HP Labs
+
+
+ Scadenza per la presentazione degli articoli:    31 novembre 1992
+ Notifica di accettazione:                        31 settembre 1992
+ Spedizione degli articoli finali camera-shy:     31 giugno 1992
+
+
+      L'ICON-92  e` sponsorizzato congiuntamente dalla Association for  Comput-
+ ing Nothing e dalla No Advanced Research Projects Agency.
+
+
+
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:   
+
+ 334/100 - 011-3299706     | 331/112 - 0341-360511     | 333/603 - 040-3783111
+ 332/315 - 0721-30783
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/306 - 0121-542795     | 335/210 - 081-5709527     | 335/405 - 06-315323 
+
+
+
+
+
+####                            End of TELEM020                            ####

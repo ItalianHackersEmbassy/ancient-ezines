@@ -1,0 +1,1343 @@
+ #### TELEM019 - Telematicus - Volume 02 - Numero 09 - Anno 1992 - 61 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                               Settembre 1992                                  
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di .mau.
+
+ ==============================================================================
+
+ Il materiale presente in Telematicus e` (C) dei singoli autori.       
+ E` espressamente consentita la distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 61 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .   .  pag.  4
+ [ 2]  La compressione, di Marco Ghislanzoni .   .   .   .   .   .   .  pag.  5
+ [ 3]  Le aree echo Fidonet: MENSA.335, di Alessandro Cangiano   .   .  pag. 20
+ [ 4]  Che cos'e`... la nodelist, di Franco Carcillo .   .   .   .   .  pag. 24
+ [ 5]  Il racconto telematico (?), di Andrea Giotti  .   .   .   .   .  pag. 31
+ [ 6]  Curiosita`: Il gergo hacker - parte 17    .   .   .   .   .   .  pag. 42
+ [ 7]  Notizie Fidonet   .   .   .   .   .   .   .   .   .   .   .   .  pag. 55
+
+
+
+
+
+
+
+
+
+
+
+                  Questo Telematicus e` nato con l'aiuto di...
+    
+ Editor festaiolus:     Maurizio Codogno | * I collaboratori dai network: *
+ Editor zippator:      Marco Ghislanzoni |
+ Editor intelligens: Alessandro Cangiano | Franco Carcillo (334/100.3)
+ Editor virtualis:         Andrea Giotti | Giovanni Pugliese (335/211)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                               ###
+
+      Carissimi lettori,
+ rieccoci  ai  nostri monitor dopo la pausa estiva - almeno per chi non  si  e`
+ portato  portatile  e modem sulla spiaggia. E` bello scoprire  che  nonostante
+ tutto qualche articolo mi e` arrivato... insomma, anche il numero di settembre
+ esiste.
+
+      Luglio ha visto una pesante serie di discussioni sul caso Euronet: adesso
+ gli  animi sembrano un poco piu` calmi, ma non e` detto che le  polemiche  non
+ riprendano. Da parte mia, due constatazioni e un commento. Nessuno - per  for-
+ tuna  - obbliga alcunchi a fare parte di Fidonet, ne` si hanno vantaggi  cosi`
+ eclatanti;  e comunque chi sceglie la via del ricatto si mette  immediatamente
+ dalla parte del torto. In ogni caso, per telematicus non cambia nulla,  perlo-
+ meno fino a che e` in mano mia. Chiunque voglia distribuirlo e` il  benvenuto,
+ e chiunque voglia proporre qualcosa non ha che da farlo. Se il testo e`  meri-
+ tevole di pubblicazione, non vado certo a controllare l'indirizzo matrix...
+
+      ciaociao .mau.
+
+ ############                                                               ###
+ ###   2  ###                                              LA COMPRESSIONE  ###
+ ############                                                               ###
+
+      Chi ha a che fare con le BBS, non puo' fare a meno di utilizzare i  soft-
+ ware di compressione: e' la legge. Ormai tutto "viaggia" (in senso telematico)
+ in  formato  compresso, sia per comodita' (ad esempio, si  possono  trasferire
+ piu'  files in una volta), sia per cercare di dare un taglio (misero,  per  la
+ verita') alla bolletta telefonica.
+
+      L'uso  dei programmi di compressione e' diventato anche una questione  di
+ moda o di abitudine, oltre che di comodita': siamo talmente abituati a "zippa-
+ re" o "arcare" qualsiasi cosa ci capiti di trasferire via modem, che ormai non
+ ci  chiediamo piu' quando o quanto valga la pena di farlo o che vantaggi  com-
+ porti, effettivamente, inviare o ricevere un file in formato compresso piutto-
+ sto che non compresso.
+
+      Di  seguito,  troverete i risultati di alcuni test che  ho  compiuto  sui
+ software  di  compressione comunemente usati: il PKZIP v.1.10,  l'ARJ  v.2.30,
+ l'LHA v.2.13, lo ZOO v.2.10, il PAK v.2.51 e l'ARC 6.02. Troverete anche i da-
+ ti relativi ad un compressore un po' vecchio (e' dell'87) per reggere il passo
+ con  i piu' recenti: il PKARC v.3.5. L'ho incluso nelle prove  unicamente  per
+ cercare di capire in che direzione si sia evoluto il panorama dei  compressori
+ e cosa sia cambiato (in meglio o in peggio) rispetto ai precursori della cate-
+ goria.
+
+           Come leggere i test
+           -------------------
+      Per  chiarezza e onesta', occorre specificare i "termini" nei quali  sono
+ stati eseguiti i test. Infatti, gli stessi test eseguiti su un hardware diver-
+ so o seguendo una procedura piuttosto che un'altra potrebbero portare a risul-
+ tati completamente differenti. I dati che leggerete, quindi, non sono da  con-
+ siderarsi validi in senso assoluto, ma relativamente all'hardware su cui  sono
+ stati  eseguiti e alla tipologia delle prove. Riguardo a  quest'ultimo  punto,
+ vorrei  precisare  una cosa: a seconda delle caratteristiche dei  software  di
+ compressione cui si e' interessati, e' chiaro che si faccia un test  "mirato",
+ e  al cambiare dello scopo possano ragionevolmente variare anche i  risultati.
+ E' per questo che, all'inizio di ciascuna tabella, troverete una breve  intro-
+ duzione  che  servira' a mettere in luce proprio lo scopo delle  prova.  Senza
+ conoscere il contesto della prova e' facile fraintenderne i risultati.
+
+           L'hardware
+           ----------
+      I test sono stati eseguiti su un 386 33Mhz Intel con coprocessore matema-
+ tico a 33Mhz sempre Intel. L'indice LM per questo tipo di macchina riporta  un
+ valore di 58Mhz (turbo on). Inoltre, il sistema e' dotato di un controller in-
+ telligente  Promise Technology con una cache propria da 2 Mb. Si verifica  fa-
+ cilmente che la presenza di una cache, sia software che hardware, migliora, in
+ linea di massima, le prestazione delle utilities di compressione, specialmente
+ quando queste ultime utilizzano un file temporaneo. L'HD montato e' un  CONNER
+ da 210 Mb con un tempo medio di accesso "naturale" di 15ms. Il controller  in-
+ telligente  abbassa ulteriormente questo tempo intorno a 1ms. Se si  tralascia
+ la scheda video, il resto dell'hardware non e' rilevante ai fini dei test.
+
+           Come sono stati eseguiti i test
+           -------------------------------
+      Tutti i test sono stati eseguiti in una sottodirectory della radice prin-
+ cipale  dell'HD contenente unicamente il/i file/s da comprimere, l'utility  di
+ compressione di volta in volta testata e il programma timer.exe . Quest'ultimo
+ e' un programmino che ho scritto ad hoc per la prova e che consente di misura-
+ re il tempo di esecuzione di un programma. Timer.exe lancia un programma  come
+ child process, passandogli tutti i parametri, e ne cronometra la durata basan-
+ dosi sul clock interno del PC. il valore di output viene arrotondato in output
+ ai centesimi di secondo.
+
+
+      Dopo questa "pallosissima" (si puo' dire?) ma doverosaintroduzione, ecco-
+ ci alle prove vere e proprie...
+
+           2 milioni di "A"
+           ----------------
+      Lo scopo di questa prova e' vedere come si comportano le utility di  com-
+ pressione  di fronte a un caso estremamente favorevole. Con un editor  di  te-
+ sti...  ehm, d'accordo, era un balla... con apposito programmino ho  preparato
+ un file contenente la lettera "A" ripetuta 2 milioni di volte. Per i programmi
+ di  compressione, che si basano sull'individuazione e traduzione  di  sequenze
+ ripetute, questo e' un vero invito a nozze.
+
+      Per spiegare meglio questo concetto, facciamo un esempio: questo articolo
+ e' lungo 17Kb e contiene 2400 parole circa. Ammettiamo che la parola "compres-
+ sione" sia ripetuta 50 volte in tutto il testo, per un totale di 12 * 50 = 600
+ caratteri.  Volendo "comprimere" il testo dell'articolo,  potremmo  sostituire
+ questa  parola con, ad esempio, la sequenza "wxy", che comparirebbe  difficil-
+ mente in un testo italiano (e anche in uno inglese), in modo da non avere  poi
+ problemi  in fase di decompressione. La nuova sequenza, dunque, occupera' 3  *
+ 50 = 150 caratteri, ovvero ora il testo sara' lungo 450 bytes in meno.
+
+      Ma  andiamo oltre: scorrendo il testo, mettiamo in una tabella le  parole
+ piu' ripetute, stilando cosi' una hit parade delle piu' usate. Avremo ad esem-
+ pio:
+
+        compressione    50 volte
+        programma       35 volte
+        utility         20 volte
+        ...               ...
+
+      Prendiamo  le prime 100 in classifica e numeriamole usando due cifre  (da
+ 00  a 99). Ora, scegliamo un carattere che non viene mai usato nel  testo,  la
+ "&" ("e" commerciale) ad esempio (anche se non avrei dovuto scriverla esplici-
+ tamente perche'...) Chiameremo questo carattere speciale marker (demarcatore).
+ L'operazione  successiva e' molto semplice: ogni volta che compare una  parola
+ fra le prime 100, sostituiamo ad essa la sequenza "&nn" dove nn sara' il nume-
+ ro di due cifre con cui avremo numerato quella parole nella tabella. Ecco fat-
+ to: dopo un breve calcolo constateremo che il testo si e' ridotto di molto, in
+ alcuni  casi addirittura di piu' della meta'.  Ci siamo appena  costruiti  una
+ semplice  utility di compressione fatta in casa. E' anche vero che  adesso  il
+ testo, con tutte quelle &10, &91, &43, ecc. sara' illeggibile...  Ci viene  in
+ aiuto  la fase di decompressione: avendo avuto l'accortezza di salvare la  ta-
+ bella delle corrispondenze fra parole e numeri (magari proprio in cima al  te-
+ sto  stesso), ora, scorrendo il testo, ogni volta che incontreremo  un  marker
+ ("&"), leggendo le due cifre successive, saremo in grado di sostituire la  pa-
+ rola  corretta prendendola proprio dalla tabella.  I software evoluti di  com-
+ pressione  fanno piu' o meno questo.  Anch'essi costruiscono e poi salvano  le
+ tabelle di corrispondenze grazie alle quali potranno poi ricreare i files ori-
+ ginali.   Questo ci fa comprendere come mai, quando un file compresso si  dan-
+ neggia,  sia cosi' difficile recuperarlo: il peggio che puo' succedere e'  che
+ si danneggi la tabella delle corrispondenze, e allora sono guai, mentre, nella
+ migliore delle ipotesi, basta che un solo marker "sparisca" perche' il file si
+ ingarbugli in quel punto. Se e' un file di testo, pazienza, con un po' di fan-
+ tasia si puo' leggere lo stesso, ma se e' (o meglio, era) un eseguibile, anche
+ un solo byte cambiato puo' pregiudicarne il funzionamento.
+
+      Torniamo dunque ai nostri 2 milioni di "A". Dicevamo che la situazione e'
+ estremamente  favorevole.  Ecco perche': supponendo che la nostra  utility  di
+ compressione fatta in casa possa sostituire al massimo parole lunghe 50 carat-
+ teri, nella "hit parade" delle ripetizioni comparira', in questo caso, un'uni-
+ ca parola: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" che risultera'
+ ripetuta  2000000/50 = 40000 volte. Sostituendola con la sequenza "&00" avremo
+ un  file compresso di 3*40000 = 120000 bytes con un risparmio di  ben  1880000
+ bytes !
+
+      Nella realta', i programmi testati usano algoritmi ben piu' potenti,  ot-
+ tenendo, in questo caso, prestazioni incredibili (guardate l'ARC!):
+
+         +----------------+-----------------+
+         |   compressed   |   compression   |
+         |  size (bytes)  |    time (s)     |
+ +-------+----------------+-----------------+
+ |  ZIP  |     23664      |      23.62      |
+ |  LHA  |      1029      |      37.84      |
+ |  ARJ  |      1090      |      38.01      |
+ |  ARC  |       470      |      14.44      |
+ |  PAK  |     45870      |      32.07      |
+ |  ZOO  |      2820      |      41.14      |
+ | PKARC |      2679      |      13.34      |
+ +-------+----------------+-----------------+
+
+      Due software, lo ZIP e il PAK, sono fuori media.  Probabilmente chi li ha
+ realizzati  era pessimista e non ha pensato che si potessero  verificare  casi
+ cosi' favorevoli... (e in effetti ha pensato bene). Scherzi a parte, delle due
+ l'una:  o l'algoritmo scelto dai due software (tra i vari a  disposizione)  al
+ momento  della compressione non e' risultato essere adeguato alla  situazione,
+ oppure  non potevano proprio fare di meglio (il che confermerebbe la tesi  del
+ pessimismo). Smanettando un po' con gli switch dei metodi di compressione,  si
+ capisce che la seconda ipotesi e' la piu' probabile.
+
+      Strabiliante  la  prestazione  dell'ARC: il file e'  stato  ridotto  allo
+ 0.0235%  delle dimensioni originali in un tempo, oltre tutto, tra i  migliori! 
+ Anche il PKARC, seppure vecchio, si e' comportato bene.
+
+           1000 alfabeti
+           -------------
+      Questa prova vuole evidenziare quanto gravano sul risultato  complessivo,
+ specialmente quando il numero dei file trattati e' molto alto, le varie infor-
+ mazioni aggiuntive e le tabelle di conversione che i programmi di compressione
+ salvano nel file d'archivio. Al contrario di quanto avveniva nella prova  pre-
+ cedente, qui i programmi di compressione sono di fronte ad una situazione  fra
+ le peggiori: ben 1000 file molto corti, formati con le 26 lettere dell'alfabe-
+ to inglese e percio' privi di sequenza ripetute. Essendo ciascun file lungo 26
+ bytes,  la dimensione complessiva e' di 26000 bytes (slack a parte!). Un  com-
+ pressore  molto molto intelligente (quasi umano, insomma), accortosi  dell'in-
+ ghippo avrebbe concatenato i file uno dietro l'altro, limitandosi ad  indicare
+ come risuddividerli e non avrebbe tentato di comprimerli. In realta',  sebbene
+ tutti  i programmi di compressione abbiano si' desistito dal comprimere e  ab-
+ biano semplicemente immagazzinato il file ("stored" come dice lo ZIP), si nota
+ subito  quanto "pesino" le informazioni aggiuntive. Per  correttezza,  occorre
+ dire  che tra queste ve ne sono alcune vitali quali: la data e l'ora del  file
+ originale,  il metodo di compressione (o di non compressione, come  in  questo
+ caso),  il CRC, ecc. Tuttavia, la dimensione di queste  informazioni  (salvate
+ nel  cosiddetto HEADER) e' molto ingente se paragonata a file cosi' piccoli  e
+ per di piu' cosi' numerosi.
+
+      Ammettendo  che in media il programma salvi 50 bytes di informazione  ag-
+ giuntive  per file: 50*1000 = 50000 bytes in piu'. 50000+26000 =  76000  bytes
+ totali. Paragonando questo il risultato con i dati, i "torni contano":
+
+         +----------------+-----------------+
+         |   compressed   |   compression   |
+         |  size (bytes)  |    time (s)     |
+ +-------+----------------+-----------------+
+ |  ZIP  |    116022      |      53.49      |
+ |  LHA  |     60001      |     170.65      |
+ |  ARJ  |     75054      |     261.66      |
+ |  ARC  |     55002      |      55.09      |
+ |  PAK  |     63004      |      64.32      |
+ |  ZOO  |     97098      |      90.79      |
+ | PKARC |       -        |        -        |  Too many files
+ +-------+----------------+-----------------+
+
+      Lo  ZIP ha il primato del peggior lavoro (anche se compiuto piu'  veloce-
+ mente):  ha portato 26000 bytes effettivi a 116022, con un aumento del 446%  .
+ Facendo qualche conto si vede che ben 116022 - 26000 = 90022 bytes se ne  sono
+ andati in informazioni aggiuntive. Il primato positivo, invece, spetta  ancora
+ all'ARC: tempo buono e minimo dispendio di spazio per le informazioni  aggiun-
+ tive (211% della dimensione teorica). Il PKARC se n'e' uscito con un bel  "Too
+ many files"... il peso degli anni, in questo caso, si e' fatto sentire.
+
+           La casualita'
+           -------------
+      Questa prova e' analoga alla precedente. I programmi di compressione sono
+ di  fronte ad un altro caso sfavorevole: 100000 bytes di caratteri casuali  (o
+ meglio, pseudo casuali) scelti tra i 256 disponibile dell'ascii esteso.
+
+      Perche'  la situazione e' sfavorevole? Il motivo e' sempre lo stesso:  e'
+ difficile che ci siano sequenze ripetute. Difficile, ma quanto? vi chiederete.
+ Eccovi  accontentati... Facciamo un esempio, sempre con il nostro  compressore
+ fatto in casa. Ammettiamo che il nostro programmino cerchi di sostituire,  per
+ convenienza, parole lunghe minimo 8 caratteri, in modo da guadagnare almeno  5
+ bytes per sostituzione. In una sequenza generata a caso, qual e' la probabili-
+ ta' che si ripeta una sequenza di almeno 8 caratteri? Facciamo qualche  conto:
+ data la sequenza "ABCDEFGH" casualmente presente nel file generato, la  proba-
+ bilita' che essa si ripeta in un qualsiasi altro punto del file e':
+
+    1                1                           1
+ ------- ~= ----------------------- = ----------------------------
+  256^8      1.84467440737 * 10^19     18.446.744.073.700.000.000
+
+      Insomma,  le probabilita' che la sequenza si ripeta sono un  po'  bassine
+ (per  usare un eufemismo): ecco perche' un file cosi' ottenuto non sara'  com-
+ primibile dal nostro programma.
+
+      Lo stesso discorso vale per quegli algoritmi che si basano sulla frequen-
+ za dei caratteri (tipo Huffman): dato che ogni codice ascii (da 0 a 255) ha la
+ stessa probabilita' di un altro, ovvero 1/256, di essere presente nel file  in
+ una  data posizione, ne segue che ciascun carattere sara' presente, in  media,
+ lo stesso numero di volte nel file. Questa media si avvicina molto, per  tutti
+ i caratteri, a quella teorica di 100000/256 = 390 volte. Quindi, costruendo la
+ tavola  delle frequenze e da essa l'albero per la  compressione,  quest'ultimo
+ risultera' perfettamente bilanciato indicando l'impossibilita' di ottenere una
+ qualsiasi compressione.
+
+      Anche  in questo caso, per quanto i programmi si siano "impegnati",  alla
+ fine  tutti hanno desistito immagazzinando ("storing") e aumentando di  dimen-
+ sioni il file:
+
+         +----------------+-----------------+
+         |   compressed   |   compression   |
+         |  size (bytes)  |    time (s)     |
+ +-------+----------------+-----------------+
+ |  ZIP  |    100114      |       2.48      |
+ |  LHA  |    100036      |       4.67      |
+ |  ARJ  |    100104      |       5.82      |
+ |  ARC  |    100031      |       4.62      |
+ |  PAK  |    100041      |       5.77      |
+ |  ZOO  |    100169      |       9.34      |
+ | PKARC |    100031      |       2.80      |                
+ +-------+----------------+-----------------+
+
+      Di  nuovo si mette in luce l'ARC per aver gonfiato il file con  il  minor
+ numero  di informazioni aggiuntive. Spicca invece il buon vecchio PKARC,  che,
+ pur  ottenendo le stesse prestazioni dell'ARC (stesso algoritmo), lo fa in  un
+ tempo nettamente minore.
+
+
+           Finalmente qualche caso possibile
+           ---------------------------------
+      Ed eccoci agli ultimi 3 test. Si tratta stavolta di casi possibili, anzi,
+ possibilissimi.  In pratica, siamo di fronte a tre classici  del  trasfermento
+ compresso: un documento, un eseguibile e due pacchetti di posta. Stavolta  non
+ mi  dilungo in commenti, ma lascia a ciascuno il compito di trarre le  conclu-
+ sioni...
+
+           File DOC (doc dell'ARC 6.02, ARC.DOC 138990 bytes)
+
+         +----------------+-----------------+
+         |   compressed   |   compression   |
+         |  size (bytes)  |    time (s)     |
+ +-------+----------------+-----------------+
+ |  ZIP  |     46626      |       4.67      |
+ |  LHA  |     46048      |       5.99      |
+ |  ARJ  |     43854      |       5.65      |
+ |  ARC  |     64397      |       2.92      |
+ |  PAK  |     48110      |       5.82      |
+ |  ZOO  |     60407      |       4.89      |
+ | PKARC |     59185      |       1.70      |                
+ +-------+----------------+-----------------+
+
+           File EXE (eseguibile di TELIX 3.15, TELIX.EXE 252048 bytes)        
+
+         +----------------+-----------------+
+         |   compressed   |   compression   |
+         |  size (bytes)  |    time (s)     |
+ +-------+----------------+-----------------+
+ |  ZIP  |    131701      |       6.92      |
+ |  LHA  |    123393      |       9.45      |
+ |  ARJ  |    119665      |       9.12      |
+ |  ARC  |    177734      |       5.93      |
+ |  PAK  |    130714      |       9.01      |
+ |  ZOO  |    173468      |      11.26      |
+ | PKARC |    174208      |       3.68      |                
+ +-------+----------------+-----------------+
+
+           2 pacchetti di posta formato Fido (186132 bytes e 820 bytes)
+
+         +----------------+-----------------+
+         |   compressed   |   compression   |
+         |  size (bytes)  |    time (s)     |
+ +-------+----------------+-----------------+
+ |  ZIP  |     65877      |       5.49      |
+ |  LHA  |     64626      |       7.52      |
+ |  ARJ  |     61750      |       6.76      |
+ |  ARC  |    100480      |       4.01      |
+ |  PAK  |     67727      |       6.71      |
+ |  ZOO  |     93816      |       6.98      |
+ | PKARC |     92510      |       2.48      |                
+ +-------+----------------+-----------------+
+
+
+      Con questo e' tutto... spero che questa "disquisizione" sia stata utile e
+ non vi abbia annoiato troppo.
+
+      Commenti, suggerimenti e/o insulti saranno ben accetti...
+
+
+                                    Marco Ghislanzoni
+                                    2:331/120.1@fidonet.org
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                              LE AREE ECHO FIDONET: MENSA.335  ###
+ ############                                                               ###
+
+      Per ben comprendere il significato e gli scopi di quest'area,  preferisco
+ partire dalla policy d'area scritta a quattro mani con Frank Stajano,  coordi-
+ natore  del SIG Computer del Mensa Italia. Quest'area e' intitolata al  Mensa,
+ una societa' internazionale fondata nel 1946 a Oxford per valorizzare l'intel-
+ ligenza  e promuovere i contatti fra le menti. Il Mensa abbatte ogni  barriera
+ razziale,  politica, linguistica o di ceto sociale: unico requisito per  l'am-
+ missione a socio e' il raggiungimento di un alto punteggio in un test psicolo-
+ gico di quoziente intellettivo.
+
+      Raccogliendo persone dai piu' svariati interessi, il Mensa vuole  offrire
+ ai propri soci un pubblico attento e stimolante al quale presentare le proprie
+ idee. Inoltre la rete mondiale di contatti permette di stabilire, per via epi-
+ stolare  quando non di persona, nuovi contatti ed amicizie con persone  altri-
+ menti irraggiungibili. Il Mensa non ha fini politici, ideologici ne' di lucro.
+ I suoi membri vengono selezionati secondo un criterio obiettivo e non  perche'
+ aderiscano ad un particolare ordine di idee. Il Mensa rappresenta tutti i pun-
+ ti di vista e non esprime opinioni come associazione.
+
+      Questo  forum telematico si ispira al Mensa ma e' aperto, come ogni  area
+ Fido, a tutti gli utenti. Esso vuole essere una estensione delle riunioni  che
+ il  nostro club organizza periodicamente, riunioni alle quali ogni socio  puo'
+ invitare degli ospiti esterni. In quest'area siete tutti permanentemente invi-
+ tati.
+
+      L'area e' del tipo general purpose. Essa infatti non ha delle precise li-
+ mitazioni  sul genere di argomenti da trattare, purche' tali  argomenti  siano
+ uno  stimolo al dibattito e quindi all'approfondimento culturale dei  parteci-
+ panti e dei lettori dell'area. In essa appaiono articoli selezionati dai  bol-
+ lettini del Mensa Italia (ACTA ed HUMUS) che sono spesso spunto per  approfon-
+ dimenti  successivi o motivi di dibattito. Non mancano dei giochini che  hanno
+ sempre come obiettivo lo stimolo intellettivo (quiz d'intelligenza o giochi di
+ fantasia), l'area poi serve anche come mezzo di comunicazione rapido ed  effi-
+ ciente  tra i soci ed inoltre e' un bollettino delle attivita' del Mensa:  in-
+ fatti vengono presentati in area dei brevi resoconti delle riunioni regionali;
+ a volte anche questi forniscono motivi di dibattito.
+
+      L'area e' un prodotto del S.I.G. Computer. Tale Special Interest Group si
+ occupa di tutto cio' che riguarda l'informatica, dall'intelligenza artificiale
+ al  DTP, ai videogames, tale SIG emette periodicamente un bollettino (MINDS  &
+ BITS)  i  cui articoli compaiono integralmente anche nell'area  MENSA.335.  Il
+ coordinatore  del  SIG e' Frank Stajano (2:335/317.10) che insieme  al  sotto-
+ scritto e con la collaborazione di altri soci e di pazienti Sysop (una  giusta
+ menzione  la merita l'imperturbabile Pasquale Cantiello che ha dovuto  soppor-
+ tarmi,  ma anche il povero Alex Palmese che ha dovuto sopportare Frank)  siamo
+ riusciti a creare un'area funzionale e sicuramente seguita da un gruppo di af-
+ fezionati che saltuariamente si fanno sentire garantendo una media di una  de-
+ cina di messaggi per settimana. Un esempio degli argomenti trattati finora:
+
+      la religione
+      il Brainstorming
+      le donne ed il Mensa
+      le donne ed il computer
+      Nostradamus
+      il fisco e le sue perversioni.
+
+      Il  linguaggio  ufficiale dell'area e' l'italiano,  e'  comunque  ammesso
+ l'uso  della lingua inglese per la diffusione di comunicati e/o produzioni  di
+ carattere internazionale. Questo si e' reso necessario in quanto sono molti  i
+ contatti che sopratutto il coordinatore del SIG ha con analoghe iniziative te-
+ desche e spagnole.
+
+      Per ora l'area e' estesa al solo 335 ed e' agganciata da circa venti  no-
+ di, da settembre iniziero' una serie di contatti con gli Host e gli Hub  degli
+ altri  Net che spero si mostrino interessati all'iniziativa facilitando  cosi'
+ anche  i contatti con gli altri membri del Mensa sparsi per l'Italia  che  po-
+ tranno dare il loro apporto all'area insieme agli utenti Fidonet che  vorranno
+ seguirci in questa nostra avventura.
+
+      Chiunque fosse interessato ad avere ulteriori ragguagli circa l'area,  il
+ Mensa  o il SIG Computer puo' scrivermi in Matrix e saro' felicissimo  di  ri-
+ spondere.
+
+
+                                         Alessandro Cangiano
+                                         moderatore  MENSA.335
+                                         Fast Forward  2:335/2.8
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                                       CHE COS'E` LA NODELIST  ###
+ ############                                                               ###
+
+                Nodelist: un elenco per postini
+                ===============================
+
+      La  nodelist, ovvero l'elenco dei nodi aderenti ad una  rete  telematica,
+ e',  nella sua essenza, un archivio contenente informazioni dirette ad  essere
+ elaborati,  direttamente o indirettamente, dai programmi  cosidetti  `mailer',
+ ovvero dai `postini' quali BinkleyTerm (uno dei primi ad apparire), Seadog (il
+ primo  in assoluto credo), Dutchie (il primo scritto in Europa),  Dbridge  (il
+ piu'  amato/odiato), FrontDoor (o InterMail). Le informazioni contenute  nella
+ nodelist identificano, infatti, gli altri sistemi partecipanti e consentono di
+ inoltrare  messaggi  a loro `indirizzati'. Inoltre sono proprio i  mailer  che
+ `rispondono' alle chiamate, discernono se trattasi di altro sistema o di  sem-
+ plice  utente, predisponendosi, rispettivamente, a ricevere/trasmettere  posta
+ (messaggi  e file) ovvero lanciando il programma del BBS. (A dir il vero  esi-
+ stono ancora alcuni programmi di BBS che hanno invece il mailer integrato, co-
+ me OPUS 1.10 e Fido 12).
+
+      Generalmente la nodelist grezza (in gergo detta in formato St'Louis) vie-
+ ne  data in pasto ad un programma che, oltre ad operare gli opportuni  aggior-
+ namenti, genera, tra l'altro, una serie di file accessori nonche' una versione
+ `leggibile'  della medesima. L'aggiornamento mondiale avviene ogni  settimana,
+ al  venerdi' (nei giorni precedenti avvengono quelli a livello di  hub/net/re-
+ gion e zone); per distinguere le varie versioni queste si caratterizzano, nel-
+ la parte estensione, per il numero progressivo nell'ambito dell'anno, riferito
+ al  venerdi' della settimana di emissione. Ogni venerdi' e' anche  fornito  un
+ file `differenza' che riporta solo gli aggiornamenti alla precedente versione:
+ si  evita  cosi' la necessita' di ritrasferisi tutta la  nodelist  aggiornata,
+ basta infatti fornire tale file ad un opportuno programma per ottenere una no-
+ delist assolutamente aggiornata.
+
+      Che informazioni contiene la nodelist? Per rispondere a questa angoscian-
+ te  domanda  facciamo il classico passo indietro. La rete  amatoriale  FidoNet
+ (splendida idea di Tom Jennings) raggruppa, in modo gerarchico, sistemi di per
+ se' autonomi: i raggruppamenti sono nati essenzialmente per instradare in modo
+ efficiente le comunicazioni tra i sistemi partecipanti, puntando  all'ottimiz-
+ zazione dei costi per il singolo operatore. Ecco dunque affacciarsi i livelli,
+ percorriamoli dal basso verso l'alto:
+
+      1) nodo, puro e semplice (qualcuno dice `nodo terminale')
+      2) (opzionale) HUB
+      3) HOST  ovvero Net Coordinator
+      4) REGION un insieme di NET (e nodi indipendenti)
+      5) ZONE , insieme di REGION.
+
+      All'inizio vi era una sola divisione in Region e con lo `sbarco' in Euro-
+ pa si passo' ad una suddivisione in ZONE e REGION. Le suddivisioni, salvo  ec-
+ cezioni,  seguono le classiche ripartizioni geografiche. La ZONE,  per  quanto
+ riguarda FidoNet (altre reti possono adottare altri criteri, s'intende), e' un
+ Continente, la REGION uno Stato, il NET una porzione di esso, l'HUB una  ulte-
+ riore divisione del NET.
+
+      La ZONE 1 e', manco a dirlo, l'America del Nord, la 2 l'Europa (con qual-
+ che  sconfinamento!), la 3 l'Oceania, la 4 l'America del Sud, la 5 l'Africa  e
+ la  6 l'Asia. Altri valori indicano reti autonome da FidoNet,  che  utilizzano
+ pero' le stesse convenzioni.
+
+      In Europa vi sono queste REGION FidoNet, cosi' numerate:
+
+ 20 Svezia     21 Norvegia    22 Finlandia      23 Danimarca
+ 24 Germania   25 Regno Unito 26 Irlanda        27 Lussemburgo
+ 28 Olanda     29 Belgio      30 Svizzera       31 Austria
+ 32 Francia    33 Italia      34 Spagna         35 Bulgaria
+ 36 Portogallo 37 Ungheria    38 Slovenia-Croazia
+ 39 Islanda    40 Israele     41 Grecia         42 Cecoslovacchia
+ 43 Turchia    46 Ucraina     47 Lituania       48 Polonia
+ 49 Estonia    50 Russia
+
+      Ogni Region e' divisa in NET, sempre con l'obbiettivo di aumentare  l'ef-
+ ficienza della rete; tutte le region europee sono suddivise in net:  l'Italia,
+ ad esempio, si suddivise in NET quando si raggiunse la sessantina di nodi, nel
+ 1988.
+
+      Torniamo alla nodelist: essa non puo' che essere organizzata per  riflet-
+ tere  tali suddivisioni. Infatti vi trovate subito una riga che identifica  la
+ Zone; questa e' la stessa per tutti i nodi sottostanti (stessa regola vale per
+ la riga REGION e HOST). La numerazione di Region e di Hub non ha fini  pratici
+ per  l'indirizzo del singolo nodo; questi infatti e' composto  utilizzando  il
+ numero della ZONE, quello del proprio NET (solo in caso di nodo  indipendente,
+ non appartenente a nessun net, viene preso quello della Region), ed infine  il
+ proprio  numero identificativo (ad es: 2:333/1 e' il nodo 1 del net 333  della
+ zona 2, in generale il net ha 3 cifre, mentre la region ne ha solo 2).
+
+      Oltre  ad una nodelist mondiale sono disponibili anche nodelist  parziali
+ relative  ad una sola Zona: infatti il numero di sistemi elencati e' tale  che
+ la  nodelist mondiale sfiora il Mega e mezzo, mentre quella dei  soli  sistemi
+ europei e' abbondantemente sotto il mezzo mega.
+
+      I campi che compongono la nodelist sono separati da virgole e si  riferi-
+ scono a:
+
+ a) divisione  (contiene  le parole ZONE, REGION, HOST, HUB) ovvero per i  nodi
+      terminali DOWN, HOLD, o nulla (vedi oltre)
+ b) numerazione nell'ambito della divisione
+ c) nome del sistema (ovvero denominazione della ZONA, REGION, HOST  o HUB)
+ d) localita' (per la Zona e' indicato il Continente, ecc..)
+ e) Sysop  (per la  ZONE e' indicato il coordinatore di Zona, per la REGION  il
+      Region Coordinator, per l'HOST il NETWORK coordinator, per HUB il respon-
+      sabile di HUB)
+ f) numero telefonico, comprensivo di prefisso internazionale
+ g) velocita' massima del modem
+ h) tipo di mailer utilizzato
+ i) operativita'
+ l) indicatori accessori per il modem (protocolli...)
+ m) altri indicatori (flag U).
+
+      In a) viene inoltre indicato lo stato del nodo terminale: se omesso,  ov-
+ vero  se c'e' una semplice virgola, il nodo e' operativo, se invece appare  la
+ scritta  DOWN oppure HOLD il nodo non e' funzionante oppure e'  stato  escluso
+ della rete. In ambedue i casi i mailer non generano chiamate verso tali siste-
+ mi.  Un nodo non dovrebbe essere indicato come DOWN per piu' di  2  settimane:
+ ovvero  qualora permanga la condizione di inoperativita' il nodo dovrebbe  co-
+ munque essere eliminato dalla lista. In genere il DOWN e' indice di un provve-
+ dimento del coordinatore competente per la propria porzione di nodelist e vie-
+ ne indicato qualora il sistema non dia piu' segni di vita e non si e' riusciti
+ a contattare l'operatore, ovvero a seguito di provvedimenti disciplinari. HOLD
+ viene  invece  indicato quando l'operatore richiede esplicitamente  di  essere
+ segnalato  come inattivo per un certo periodo.
+      Arriviamo subito ai campi piu' criptici, da h) in avanti. Dunque in h) si
+ indica il tipo di mailer che il sistema utilizza soprattuto per quanto riguar-
+ da il tipo di protocollo primario (Bark o WaZoo) e se viene onorato sia il fi-
+ le che l'update request. Tipici valori sono XA (ultime versioni di FrontDoor e
+ Binkley) o XX (per Dbridge 1.30).
+      In i) si indica se il sistema puo' ricevere posta 24 su 24: tempo  addie-
+ tro, quando i mailer non erano cosi' flessibili, questi venivano lanciati solo
+ a determinate ore, per cui l'inoltro di posta in ore diverse comportava  chia-
+ mate  senza successo. Oltre a CM (continuos mail) vi puo' essere indicato  MO,
+ ovvero mail only, che identifica un nodo che non accetta utenti ma solo `altri
+ postini'.
+
+      Gli  indicatori  accessori per i protocolli danno informazioni  circa  la
+ presenza di modem con MNP, oppure V42, ovvero PEP (protocollo del modem Trail-
+ blazer)  o HST (della Robotics) o V32. Alcuni programmi permettono di  inviare
+ stringhe  diverse di inizializzazione al proprio modem a seconda del  tipo  di
+ modem che si sta chiamando, superando, a volte, problemi di incompatibilita'.
+
+      Esistono  infine  i flag di tipo G (per i gateway verso altre reti)  e  U
+ (informazioni libere). Da g) in poi si possono usare tutti gli indicatori  che
+ aggradano, senza attenersi ad una precisa sequenza (obbligatoria invece per  i
+ campi da a) a f).
+
+      Ovviamente  non abbiamo trattato tutti i possibili valori dei vari  flag,
+ per i piu' curiosi la nodelist mondiale ed europea riporta, alla fine, l'elen-
+ co completo dei valori ammessi. Buona lettura!
+
+
+                                    Franco Carcillo
+                                    2:334/100.3
+
+
+
+ ############                                                               ###
+ ###   5  ###                                       IL RACCONTO TELEMATICO  ###
+ ############                                                               ###
+
+                               "Z"
+                              =====
+
+                Capitolo 3
+
+      Marana  era un uomo grasso e scostante, ma non sembrava a  disagio.  Alle
+ sue spalle, il Magnifico Rettore Giulio Strozzi-Cambiaghi lucidava con  noncu-
+ ranza  le insegne accademiche di famiglia. Le pareti del suo ufficio, in  cri-
+ stallo di Murano, erano tappezzate dalle glorie di tre generazioni di Rettori.
+ Aveva preteso di essere presente all'incontro, nonostante avesse  sottolineato
+ piu` volte il fatto di essere molto, molto occupato.
+      - Venga al dunque, ispettore. L'ingegner Marana e` a sua disposizione, ma
+ dovrebbe sfruttare meglio il tempo che le concediamo.
+      - Non dubiti. Dica, ingegnere, ha mai prodotto qualcosa per il Flor Tech?
+      - Non mi pare proprio.
+      - Ci pensi. Una libreria.
+      - Oh, quella.  Non l'ho prodotta per loro, ma per me. La piu` compatta  e
+ leggera libreria 3D di pubblico dominio. Non che qualcuno la usi, con lo stan-
+ dard Dersey che domina...
+      - Mi scusi, come ha fatto a capire a cosa mi riferivo?
+      - Un giorno  il professor Rosetta telefono` per congratularsi per il  mio
+ lavoro.  Mi disse che non aveva mai visto niente di cosi` semplice, e che  sa-
+ rebbe stata ideale per una macchina del secolo scorso.
+      - Noto ironia nelle sue parole?
+      - Niente affatto. Intendeva davvero usarla, in coppia con le sue  Dersey,
+ quando  era necessario diminuire il peso sui processori per permettere un  de-
+ bugging veloce.
+      - E lei cosa fece?
+      - Lo ringraziai. Il protocollo accademico non mi permise di dirgli quello
+ che pensavo di lui e dei suoi sponsor.
+      - Cioe`?
+      Il  Rettore  dell'ateneo pisano alzo` la mano destra, e Tersi  passo`  ad
+ un'altra domanda. Strozzi-Cambiaghi aveva piu` stile del rivale, ma era un am-
+ ministratore meno abile. Attraverso il cristallo delle pareti, le sue terre si
+ stendevano  fin dove lo sguardo spaziava. L'ufficio era infatti situato  sulla
+ cima di un'altissima torre in vetroresina, folle incubo di un architetto giap-
+ ponese. Nemmeno uno come lui puo` permettersi simili lussi, penso` Tersi.
+      - Ha saputo di Luca Rosetta?
+      - Ne hanno parlato un po` tutti.
+      - Cosa ne pensa?
+      - Una perdita per la Peach, un guadagno per Miranda.
+      - E per lei?
+      - Niente. Non siamo in diretta concorrenza.
+      Falso, penso` Tersi. Ma cosa ci si poteva aspettare di diverso? Marana si
+ avvicino` ad una lavagna murale, afferro` lo stilo con la sinistra e si mise a
+ tracciare simboli fosforescenti. Scriveva velocemente, ed a Tersi non  sfuggi`
+ la  mossa. Poi poso` lo stilo e sfioro`, con il polpastrello  dell'indice,  un
+ riquadro appena disegnato. L'impronta digitale animo` la lavagna, che  conver-
+ ti`  gli  scarabocchi in un prospetto leggibile, con tanto di grafici  e  note
+ esplicative. C'era anche un minuscolo riquadro pubblicitario della Coca-Cola.
+      - Cosa vuol farmi vedere?
+      - Solo i fatti.  Rosetta era un ricercatore a bassa produttivita`,  nono-
+ stante la sua fama. Non ci saremmo certo scomodati per lui.
+      - In che senso?
+      - Nel senso a cui lei sta pensando.
+      - Ma non ho mai pensato di dirlo.
+      Mentre  Marana cancellava la lavagna con il palmo della sinistra,  Stroz-
+ zi-Cambiaghi si intromise con un freddo sorriso di circostanza:
+      - E fara` bene a continuare a non dirlo.  Si ricordi a cosa puo`  portare
+ un'indebita  ingerenza negli istituti ad autonomia universitaria.  La  vecchia
+ legge del '96 gia` prevedeva...
+      L'uomo  entro` senza bussare. Aveva un aspetto trasandato, e  si  guardo`
+ attorno con aria confusa. Il Magnifico Rettore sembro` gonfiarsi come un pavo-
+ ne, prima di sibilare:
+      - Chi le ha detto di entrare?
+      - Oh,  salve.  Cercavo il dipartimento di filosofia teoretica.  Mi  hanno
+ detto di prendere l'ascensore.
+      - Quello che va giu`, idiota! Non questo, e` riservato! Hans, Klaus!
+      - Ma il settimo piano...
+      - Sotto il livello del suolo, nei pozzi! Accanto al reattore, assieme al-
+ le vasche di biomassa da esperimento! Quando mai si e` visto...
+      Due guardie in alta uniforme emersero da dietro un tendaggio, e lo porta-
+ rono  via prima che Strozzi-Cambiaghi concludesse la frase. Tersi  approfitto`
+ dell'occasione  per  congedarsi  frettolosamente e  segui`  le  guardie  verso
+ l'ascensore.
+      Non  noto` il volto di Marana che, senza ragioni evidenti, era  diventato
+ impercettibilmente piu` pallido.
+
+                Capitolo 4
+
+      La minestra era insipida, e fredda. Laura Tersi ascolto` con interesse il
+ racconto  del marito, annuendo silenziosamente. Poi lo interruppe a  meta`  di
+ una frase:
+      - Possibile che stesse scappando da qualcosa?
+      - Eh?
+      - Anche una persona che ci vede benissimo puo` cadere da una scala.
+      - Non c'era nessun altro con lui.
+      - Non dico nel laboratorio. Magari nel suo universo privato.
+      - Ma non si puo` aver paura di porte, finestre e classificatori!
+      - Non poteva aver visto qualcosa d'altro?
+      Tersi  poso`  il cucchiaio e si puli` le labbra con  una  salvietta.  Poi
+ scosse la testa.
+      - La rappresentazione era realistica.  E nessuno avrebbe potuto  intrufo-
+ larvisi per manometterla.
+      - Claustrofobia?
+      - Macche`, ci avevo pensato anch'io. Ma tra i numerosi problemi  psicolo-
+ gici del nostro questo non c'era. Altrimenti un bello zoom avrebbe potuto met-
+ terlo fuori gioco... la tua idea sarebbe stata ottima, peccato.
+      - E se un gruppo di linee gli fosse apparso come un mostro terribile?  Il
+ cervello rischia ogni istante di cadere in questi tranelli visivi.
+      - Ma non vi cade, di solito.
+      - E neanche viene ingannato per ore da due display, di solito. I processi
+ mentali alla base della visione saranno calibrati per il mondo reale.
+      - Non regge, e non riuscirei mai a provarlo. Sarebbe il primo caso su de-
+ cine  di ricercatori. Il suo lavoro era pionieristico, ma questo non basta  ad
+ una corte.
+      - Ed uno spettro?
+      - Come?
+      - Una di quelle cose che abitano laggiu`.  Ne parlavano stasera al  tele-
+ giornale.
+      - Laura! Dovresti smettere di guardare il telegiornale. Non ci hanno  mai
+ capito niente, in queste cose.
+      - Scusa,  sai che non me ne intendo neppure io.  Ma c'era un  hacker  che
+ raccontava di averne visto uno, nel network statale sovietico.
+      - Ed un matto  stara` tutta la notte in attesa del Ritorno degli  Antichi
+ Venuti dallo Spazio. Lui ed i suoi adepti hanno il compito di riceverli degna-
+ mente.  Un angelo gli e` apparso in sogno per ordinargli la costruzione di  un
+ osservatorio. Prima pagina della Nazione.
+      - Oh... Franco, finisci il pollo.
+      Tersi fini` il pollo ed ando` nel suo studio. Il casco ingombrava, con il
+ suo profilo da insetto, il centro della scrivania di noce. A lato, il  vecchio
+ orologio  a cristalli liquidi segnava le 00:00:00 in cifre lampeggianti,  muta
+ testimonianza dell'ultimo blackout.
+       L'idea  della libreria assassina lo solleticava, ma doveva credere  alle
+ parole di Schaffembaum. Che non si era pero` degnato di impegnarsi in  qualche
+ verifica sperimentale.
+      Provare.  La capacita` di provare qualcosa andava scomparendo, nel  mondo
+ accademico.  Tutto era vero o falso per mutua convenzione. Schaffembaum  aveva
+ fissato  i report e li aveva dichiarati attendibili. Non era diverso  da  quel
+ manipolo di invasati che avrebbe passato la notte al freddo, in struggente at-
+ tesa di un segno da Betelgeuse. La voce di Dio che ti parla suadente al  tele-
+ fono, per confermare le tue piu` profonde convinzioni.
+      Forse  solo provando qualcosa si poteva provare un sentimento  per  essa.
+ Try  and feel. La lingua italiana, nella sua apparente ambiguita`,  la  diceva
+ lunga a riguardo. Prova, prima di pontificare. Non fermarti agli indizi,  sem-
+ brava ripetergli anche adesso il suo vecchio istruttore all'accademia, ma cer-
+ ca sempre qualcosa che ti possa smentire. Cerca...
+      Cerca una prova. Test to proof. Ambiguita` nell'ambiguita`.
+      Tersi indosso` il casco. Bestemmio`, alla ricerca cieca  dell'interrutto-
+ re: lo spostavano da modello a modello, nascondendolo nei piu` improbabili an-
+ fratti. Alla fine lo trovo`, minuscolo, dietro l'orecchio sinistro.
+      Il gel dei display balugino` di un viola sporco, e sembro` diventare tra-
+ sparente.  Ecco la stanza, approssimata in un reticolo di linee nere su  fondo
+ bianco.  Tersi vario` in fretta la saturazione, prima di perdere la  vista  in
+ quel cielo in reverse. Gli scaffali della sua libreria, che arrivavano da  pa-
+ vimento a soffitto, gli vennero mostrati come anonimi classificatori da  pare-
+ te. Icone standard per gli oggetti ignoti.
+      La  sua scrivania era scomparsa. In quello schizzo di mondo,  che  pareva
+ uscito  dalle mani di un vignettista di scarsa immaginazione, non c'era  posto
+ per le scrivanie. Solida, concreta al tatto, ma cancellata nel vortice  elabo-
+ rativo dei processori sistolici.
+      Apri`  la porta, con un movimento fluido che lo stupi`. Giocherello`  con
+ lo  spessore  del legno, muovendo la testa in brusche  torsioni.  Qualcosa  di
+ speciale, dopotutto, pareva proprio esserci in quel casco. Surreale nell'imma-
+ gine ma iperrealista nelle interazioni. Ottimo per pilotare...
+      Inciampo` nella sedia.
+      Con  maggior prudenza, inizio` l'esplorazione delle stanze adiacenti.  Il
+ tempo scorreva, stando all'orologio interno del casco, ma Tersi non ci  faceva
+ caso. Completamente assorbito dalla riscoperta della sua vecchia casa, ignoro`
+ quelle cifre che flickeravano sul bordo inferiore del mondo.
+      Sali`  al  piano superiore, poi ridiscese. Il profilo netto  dei  gradini
+ scorreva  sotto le sue scarpe consunte come una funzione periodica. Un  nastro
+ immacolato,  che nessun uomo avrebbe mai potuto sporcare. Si sentiva come  una
+ mosca in un paradiso profano. Per un istante immagino` di vedere il gradino su
+ cui  stava scendendo restringersi alla meta` del precedente, ed il  successivo
+ ad  un quarto. E tremo`, pensando ad una scala che gli avrebbe  permesso  solo
+ passi sempre piu` brevi, chiudendolo in una discesa infinita.
+      Ma  i suoi piedi poggiarono sul piccolo pianerottolo, e la  temuta  serie
+ convergente venne riassorbita nel regno delle sue fantasie. Le sue mani corse-
+ ro alla pipa, ma si costrinse a lasciarla al suo posto. In quel posto  nessuno
+ doveva aver mai fumato. Perfettamente cosciente dell'inganno, felice di essere
+ ingannato, decise di stare al gioco.
+      Termino` alle due passate. Tutto quadrava al millimetro, compresa la por-
+ ta-finestra del soggiorno. Un soldato avrebbe potuto uccidere il nemico  senza
+ tanti rimorsi, in un universo cosi` pulito. E forse era cosi` che vedevano  le
+ api.  La fascia di microcamere ricordava in modo inquietante un enorme  occhio
+ composto. E le api erano ottimi soldati...
+      Una sensazione indescrivibile interruppe il flusso dei suoi pensieri.  La
+ certezza che mancava qualcosa di fondamentale in quelle immagini, certezza che
+ lo inquietava perche` non si fondava su dati oggettivi. Indizi troppo sfuggen-
+ ti per giungere alla coscienza avevano gettato in lui le basi per una irrazio-
+ nale  paura.  Attendeva quasi l'arrivo dei mitici abitanti  di  quello  spazio
+ sterile.
+      Credette piu` volte di vedere movimenti ai margini del suo campo  visivo.
+ E comprese come, all'alba del ventunesimo secolo, si potesse ancora credere ai
+ fantasmi. Creature di pura informazione, che abitavano le locazioni di memoria
+ inutilizzate e deponevano le loro uova nei livelli piu` profondi degli  stack.
+ Scavalcando  le difese coscienti, il suo sistema limbico popolava  di  miraggi
+ l'ambiente innaturalmente deserto.
+      Due  rivoli di sudore iniziarono a scorrergli sulle guancie. Incolpo`  il
+ pesante casco, senza riuscire a convincersi pienamente. Sogno` perfino Rosetta
+ che  entrava dalla porta del ripostiglio, ridotto ad uno scheletro  di  linee,
+ per  comunicargli che era stato un virus ad ucciderlo. E che quel virus  stava
+ per prendere anche lui.
+      Per questo sobbalzo` quando, alle tre in punto, comparve davanti ai  suoi
+ occhi  un menu`. Era un rettangolo pieno di scritte, fluttuante a mezzo  metro
+ di  distanza. Ruotava sul suo asse mentre ci camminava attorno, ma senza  spo-
+ starsi. Un meccanismo a tempo lo aveva fatto saltar su al momento giusto.
+      Le scritte, in un bel carattere fiorito, lo informavano che avrebbe fatto
+ meglio ad andare a dormire. Che l'array aveva bisogno della ripulitura  quoti-
+ diana, e che poteva scegliere di uscire dalla simulazione. O di utilizzare  la
+ libreria 3D a basso carico elaborativo, fino ad ultimata manutenzione.
+      La libreria di Marana. Il logo di Pisa faceva bella mostra di se`, accan-
+ to all'opzione.
+      Come in sogno, scelse quest'ultima voce con l'indice destro. Ma, con  sua
+ somma  delusione,  non cambio` niente. Solo il punto di vista,  in  precedenza
+ calcolato  in  base all'orientazione del casco, era stato congelato su  di  un
+ convenzionale  orizzonte, a meta` strada tra soffitto e pavimento.  Passo`  il
+ resto della notte a verificare, stanza per stanza, l'assoluta identita`  delle
+ due rappresentazioni.
+      Erano quasi le quattro quando, con la testa che gli doleva, Tersi si pre-
+ paro` alla prova finale. Apri` la porta dell'appartamento e si affaccio` sulle
+ scale.  Davanti a lui, le due rampe che costeggiavano la tromba  si  snodavano
+ ciclicamente nella loro noiosa perfezione. Esattamente come nel laboratorio di
+ Rosetta.
+      Mosse un passo verso la rampa che scendeva, alla sua destra, imitando  il
+ percorso del defunto ricercatore. E fu solo per un caso che si avvide del tra-
+ gico errore, cosi` macroscopico da costringerlo a sedersi ad occhi chiusi men-
+ tre si slacciava il casco.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                   IL GERGO HACKER - PARTE 17  ###
+ ############                                                               ###
+
+      <dinosaur>  s.  Un qualunque hardware che richieda pavimenti  rialzati  e
+ della speciale corrente. Usato sp. per i vecchi mini e mainframe in  contrasto
+ alle  piu` moderne macchine a microprocessori. In una famosa  citazione  dalla
+ UNIX  EXPO 1988, Bill Joy ha confrontato il mainframe  nell'imponente  display
+ IBM con un dinosauro al pascolo, "con un camion qui fuori per pompargli dentro
+ i suoi fluidi corporei". All'IBM non si sono divertiti. Confr. <big iron>.
+
+      <dinosaur  pen> s. Una tradizionale stanza per un mainframe, completa  di
+ pavimenti rialzati, prese speciali di corrente, un sistema di aria condiziona-
+ ta funzionante a tutta potenza, e una teoria di estintori ad Halon su una  pa-
+ rete. V. <boa>.
+
+      <Discordianism>  /dis-kor'di-uhn-ism/  s. L'adorazione di  <eris>,  alias
+ Discordia; assai popolare tra gli hacker. Popolarizzata dalla trilogia di  Ro-
+ bert Anton Wilson's _Illuminatus!_ come una specie di Zen dada  autocorrompen-
+ tesi  ad uso e consumo degli occidentali - non dovrebbe in alcun  modo  essere
+ presa  sul  serio, ma e` molto piu` seria della maggior parte  degli  scherzi.
+ Connessa solitamente a una teoria/scherzo di un'elaborata cospirazione a  pro-
+ posito di una millenaria guerra tra i partigiani anarchico-surrealisti di Eris
+ e  una  malevola societa` segreta autoritarista detta degli  Illuminati.  Vedi
+ l'Appendice B, <Church of the Sub-Genius>, e <ha ha only serious>.
+
+      <display hack> s. Un programma con piu` o meno lo stesso scopo di un  ca-
+ leidoscopio: fare dei bei disegni. Tra i piu` famosi d.h. si ricordano i <mun-
+ ching  squares>, lo <smoking clover>, il programma `rain(6)' nello  UNIX  BSD,
+ `worms(6)' su vari UNIX, e il programma <X> kaleid. I d.h. possono anche esse-
+ re implementati senza progrmmazione scrivendo un file testuale contenente  nu-
+ merose sequenze di escape che verranno interpretate da un terminale video:  un
+ rimarchevole  esempio disegnava su un terminale VT100 un albero di Natale  con
+ le  luci scintillanti e un trenino giocattolo che girava ai suoi piedi.  [NdE:
+ l'ho visto con i miei stessi occhi.... carino!]
+
+      <do protocol> [fare un protocollo, dalla programmazione dei protocolli di
+ rete] vt. Compiere con qualcuno o qualcosa un'interazione che segue una proce-
+ dura  chiaramente definita. Per esempio, in un ristorante "Facciamo un  proto-
+ collo  per  il conto" significa chiedere il conto al cameriere,  calcolare  la
+ mancia  e la quota per ciascuno, cambiare i soldi se necessario, e  pagare  il
+ conto.
+
+      <dodgy> agg. Sin. di <flaky>. Preferito fuori dagli U.S.
+
+      <dogwash>  [lavaggio del cane, da una battuta nel campo "urgenza" di  una
+ richiesta  veramente opzionale di modifica di software, datata ca.  1982.  Era
+ qualcosa  del tipo "Urgenza: Lavate prima il vostro cane."] s. Un progetto  di
+ minima  priorita`, fatto per fuggire dal lavoro piu` serio. Anche,  imbarcarsi
+ in  un tale progetto. Molti giochi e <freeware> sono stati scritti  in  questo
+ modo.
+
+      <Don't do that, then!> [E allora non farlo!, da una vecchia battuta]  in-
+ ter.  Risposta scontata alla lamentela di un utente. "Se digito control-S,  il
+ sistema si blocca per trenta secondi". "E allora non farlo!" Confr. <RTFM>.
+
+      <dongle> /don-gl/ [chiave hardware] s. 1. un dispositivo di sicurezza per
+ programmi commerciali per microcomputer, consistente di una EPROM serializzata
+ e alcuni drivers in un connettore RS-232. I programmi che usano un d.  pollano
+ la  porta all'inizio e quindi a intervalli prefissati, e terminano se non  ri-
+ sponde col corretto codice di validazione programmato nel d. . Gli utenti pos-
+ sono percio` farsi tutte le copie che vogliono del software, ma devono  pagare
+ per  ogni d. . L'idea era intelligente, ma all'inizio e` stata un  fallimento,
+ visto  che gli utenti non sopportavano di avere una porta seriale bloccata  in
+ questo modo. Molti d. sul mercato oggi (1990) fanno passare i dati  attraverso
+ la porta, e monitorano l'arrivo di "codici magici" (e combinazioni di linee di
+ stato) con interferenza minima se non nulla con altri devices nel seguito del-
+ la linea (questa innovazione si e` resa necessaria per permettere d. in catena
+ per software multipli). I dispositivi non sono comunque molto usati, visto che
+ l'industria si e` allontanata dagli schemi di protezione della copia in  gene-
+ re.   2. Per estensione, ogni chiave elettronica fisica o ID trasferibile  ri-
+ chiesta da un programma per funzionare. Vedi <dongle-disk>.
+
+      <dongle-disk>  /don'gl  disk/ s. Vedi <dongle>; un  "dongle-disk"  e`  un
+ floppy con un codifica che permette ad un'applicazione di identificarlo univo-
+ camente.  Puo`  percio`  essere usato come un <dongle>.  Chiamato  anche  "key
+ disk".
+
+      <donuts> [ciambelle] s. Nome collettivo per un insieme di bit di memoria.
+ Questo termine e` davvero arcaico e probabilmente non piu` usato nello  slang:
+ risale ai giorni delle memorie a nucleo di ferrite in cui ogni bit era rappre-
+ sentato  da  un  circuito magnetico flip-flop a  forma  di  ciambella.  Confr.
+ <core>.
+
+      <doorstop> [fermaporte] s. Usato per descrivere dell'hardware che non  e`
+ funzionale e che si suppone rimanga cosi`, specialmente se e` obsolescente  ma
+ tenuto  in  giro per ragioni politiche o ostensibilmente per  backup.  "Quando
+ riusciremo  ad ottenere un altro Wyse-50, quell'ADM3 diventera` un d.".  [NdE:
+ in  italiano, "fermaporte" ha un connotato molto piu` dispregiativo,  dato  in
+ genere agli Amiga dai possessori di compatibili PC, e viceversa]
+
+      <dot file> [file punto, UNIX] s. Un file che non e` visibile dai  normali
+ strumenti  di lettura di una directory: l'equivalente PC di un file  nascosto.
+ (Sugli  UNIX, i file il cui nome inizia per . non sono listati dal comando  di
+ directory ls).
+
+      <double bucky> [doppia opposizione (??)] agg. Usare sia il tasto CTRL che
+ il  tasto META [NdE: CTRL-ALT sui PC, o Command-Option sui Mac].  "Il  comando
+ per  accendere  tutti i LED e` d.b. F". Vedi anche <meta  bit>,  <cokebottle>,
+ <quadruple bucky>, <space-cadet keyboard>. Il testo piu` sotto e` stato compo-
+ sto il 27 maggio 1978, in celebrazione della tastiera usata a Stanford. Un ti-
+ pico  commento del MIT era che i <bucky bits> (i tasti control e  meta)  della
+ tastiera  a Stanford erano carini, ma non ce n'erano abbastanza:  si  potevano
+ comporre solamente 512 caratteri differenti. Una cosa ovvia era  semplicemente
+ aggiungere  altri tasti di shift, e alla fine fu fatto cosi`; un problema  che
+ nacque  fu pero` che una tastiera con molti tasti di shift risulta  ostica  ai
+ dattilografi che non amano muovere le mani dalla posizione centrale sulla  ta-
+ stiera.  E` stato suggerito in maniera semiseria che i tasti di shift in  piu`
+ fossero dei pedali; scrivere su una simile tastiera sarebbe stato un po'  come
+ suonare  un organo a canne. Quest'idea e` sotto menzionata, in una parodia  di
+ una  bella  canzone di Jeffrey Moss chiamata "Rubber Duckie"  [anatroccolo  di
+ gomma],  pubblicata in "The Sesame Street Songbook" [Il Canzoniere  di  Sesamo
+ Apriti].
+
+                        Double Bucky
+
+        Double bucky, you're the one!
+        You make my keyboard lots of fun.
+            Double bucky, an additional bit or two:
+        (Vo-vo-de-o!)
+
+        Control and meta, side by side,
+        Augmented ASCII, nine bits wide!
+            Double bucky!  Half a thousand glyphs, plus a few!
+                Oh,
+                I sure wish that I
+                Had a couple of
+                    Bits more!
+                Perhaps a
+                Set of pedals to
+                Make the number of
+                    Bits four:
+                Double double bucky!
+        Double bucky, left and right
+        OR'd together, outta sight!
+            Double bucky, I'd like a whole word of
+            Double bucky, I'm happy I heard of
+            Double bucky, I'd like a whole word of you!
+
+        --- The Great Quux (with apologies to Jeffrey Moss)
+
+ [traduzione:
+
+ Double bucky, sei un bel tipo! Fai diventare divertentissima la mia tastiera.
+ Double bucky, un bit o due in piu`: (Vo-vo-di-o!)
+
+ Control e meta, fianco a fianco, ASCII aumentato, da 9 bit! Double bucky!
+ mezzo migliaio di glifi, e ancora un po'!
+
+ Oh, vorrei proprio avere un paio di bit in piu`! Forse una pedaliera per
+ portare i bit a quattro: Double double bucky!
+
+ Double bucky, sinistra e destra, ORati insieme, fuori vista!
+ Double bucky, ne vorrei un mondo intero
+ Double bucky, che gioia avervi sentito
+ Double bucky, ne vorrei un mondo intero di voi!
+
+        --- The Great Quux (con scuse a Jeffrey Moss)
+ ]
+
+  [Questo e` tra l'altro un eccellente esempio di <filk> computeresco --- ESR]
+
+      <doubled sig> /duh'b@ld sig/ [firma doppia: USENET] s. Un <sig block> che
+ e` stato incluso due volte in un articolo <USENET> o, meno frequentemente,  in
+ un  messaggio di posta elettronica. Un articolo o messaggio con una d.s.  puo`
+ essere  causata da un software mal configurato. Piu` spesso, pero`  rivela  la
+ mancanza  di  esperienza  dell'autore nella  comunicazione  elettronica.  Vedi
+ <biff>, <pseudo>.
+
+      <down>  [giu`]  1. agg. Che non funziona. "L'ascensore lassu`  e`  giu`".
+ Questa  e` considerata una cosa umoristica da dire, ma "L'ascensore  e`  giu`"
+ significa sempre "L'ascensore non funziona" e non si riferisce mai al piano in
+ cui  esso si trova. Per quanto riguarda i calcolatori, questo uso  e`  passato
+ nel linguaggio comune; l'estensione ad altri tipi di macchine e` ancora gerga-
+ le.   2. <go down. [andare giu`] vi. Smettere di funzionare; detto  di  solito
+ del sistema (v. <system>). Il messaggio che ogni hacker odia udire dall'opera-
+ tore  e`  "Il sistema andra` giu` tra cinque minuti".  3.  <take  down,  bring
+ down>  [mandare giu`, buttar giu`] vt. Disattivare volontariamente, di  solito
+ per  fare delle riparazioni. "Butto giu` il sistema per lavorare su quel  baco
+ del drive del nastro".
+
+      <download> vt. Trasferire dati o (spec.) codice da un sistema `host' piu`
+ grande  (spec. un mainframe) su una linea digitale verso un  sistema  `client'
+ piu` piccolo, spec. un microcomputer o un device specializzato. Opp. <upload>.
+
+      <DP> s. Data Processing. Indicato qui perche`, secondo gli hacker, il suo
+ uso marca immediatamente una persona come un <suit>. Vedi <DPer>.
+
+      <DPer> s. Data Processor [processore di dati]. Gli hackers sono assoluta-
+ mente sconvolti dal fatto che i <suit> usano questo termine per autoriferirsi.
+ "Sono i *computer* a processare i dati, non la gente!". Vedi <DP>.
+
+      <dragon>  s. [MIT] Un programma simile a un <daemon>, tranne che  non  e`
+ affatto invocato, ma e` invece usato dal sistema per fare vari lavori seconda-
+ ri. Un esempio tipico potrebbe essere un programma di account, che tiene trac-
+ cia  di  chi e` loggato, accumula statistiche d'uso, ecc. Sotto  l'ITS,  molti
+ terminali  mostravano una lista di persone loggate, dove erano,  cosa  stavano
+ facendo, ecc., insieme con qualche disegno a caso (tipo un unicorno, Snoopy  o
+ l'Enterprise) che era generato dal "name dragon".  Uso: raro fuori dall'MIT --
+ - sotto UNIX e molti altri sistemi, esso sarebbe chiamato un `demone in  back-
+ ground'  (v.  <demon>, <daemon>). L'esempio piu` noto di un d. sotto  UNIX  e`
+ `cron(1)'.
+
+      <Dragon  Book>  s. Il classico testo di teoria dei  compilatori  di  Aho,
+ Sethi e Ullman `Principles Of Compiler Design', chiamato cosi` perche` la  sua
+ copertina  mostra un cavaliere che sta domando un drago etichettato  "compiler
+ complexity". Piu` precisamente, questo descrive il "Red Dragon Book"; una pre-
+ cedente edizione (senza Sethi) [NdE: e molto piu` complicata a capirsi...] era
+ il  "Green  Dragon Book". Vedi anche <Blue Book>, <Red  Book>,  <Green  Book>,
+ <Silver Book>, <Purple Book>, <Orange Book>, <White Book>, <Pink-Shirt  Book>,
+ <Aluminum Book>.
+
+      <dread high bit disease> [malattia dello spaventoso bit alto] s. Una con-
+ dizione endemica ai minicomputer PRIME (precedentemente PR1ME) che faceva  si`
+ che  tutti i caratteri avessero il loro bit alto (0x80) ON piuttosto che  OFF.
+ Questo  naturalmente  rende il trasportare files ad altri sistemi  molto  piu`
+ difficile,  per non dire del colloquiare con sistemi a 8 bit reali.  E`  stato
+ detto  che PRIME ha adottato la convenzione inversa per l'ottavo bit  per  ri-
+ sparmiare  25 cent per linea seriale per macchina. Questo si qualifica  proba-
+ bilmente come una delle scete di progettazione piu` <cretinous> mai fatte. Ve-
+ di <meta bit>.
+
+      <DRECNET> /drek'net/ [dallo Yiddish `dreck'] s. Deliberata distorsione di
+ DECNET,  un protocollo di rete usato nella comunita` VMS. Chiamata cosi`  per-
+ che` DEC ha aiutato a scrivere le specifiche Ethernet, e poi (o per  stupidag-
+ gine  o come tattica maligna per controllare gli acquirenti) ha  violato  tale
+ specifica nel disegno di DRECNET (tra le altre cose, hanno implementato la ve-
+ locita` sbagliata di <heartbeat>). Vedi anche <connector conspiracy>.
+
+      <drool-proof  paper> [carta a prova di buffone] s. La documentazione  che
+ e` stata ossessivamente instupidita, fino al punto in cui solo un <cretin> po-
+ trebbe sopportare di leggerla, e` detta essere succuba della "drool-proof  pa-
+ per syndrome" o essere stata scritta su "d.-p. p.". Per esempio, questa e` una
+ citazione tratta dal manuale della LaserWriter Apple: "Non esponete la  vostra
+ LaserWriter alle fiamme vive o agli incendi."
+
+      <drop on the floor> [far cadere a terra] vt. Reagire a una condizione  di
+ errore  scartando  silenziosamente messaggi o altri dati di valore.  Es.:  "Il
+ gateway ha finito la memoria, cosi` ha semplicemente cominciato a far cadere a
+ terra i pacchetti". Usato anche spesso per relay di posta e netnews che perdo-
+ no messaggi. Vedi anche <black hole>.
+
+      <drunk  mouse syndrome> [sindrome del mouse ubriaco] s. Malattia  esibita
+ dal mouse di alcune workstation. Il sintomo tipico e` che il cursore del mouse
+ si muove in direzioni casuali e non in sincronia con le mosse del mouse  stes-
+ so.  Si puo` generalmente curare staccando e riattaccando il mouse.  Un  altro
+ metodo  raccomandato e` quello di ruotare di 90 gradi il pad del vostro  mouse
+ ottico.
+
+      <dumbass  attack>  /duhm'ass @-tak'/ [Purdue: attacco di  cretineria]  s.
+ L'errore di un novizio fatto da un esperto, specialmente se fatto da una  per-
+ sona  che girava come root sotto UNIX, tipo scrivere "rm *" o fare un mkfs  su
+ un file system montato.
+
+      <dusty  deck> [deck polveroso] s. Vecchio software  (spec.  applicazioni)
+ con  cui  si e` obbligati a rimanere compatibili. Il termine  implica  che  il
+ software  in questione e` un relitto dai tempi delle schede  perforate.  Usato
+ spec. quando ci si riferisce al vecchio software scientifico e  number-crunch-
+ ing, molto del quale e` stato scritto in FORTRAN e documentato molto male,  ma
+ che sarebbe troppo costoso da rimpiazzare. Vedi <fossil>.
+
+      <DWIM>  /dwim/ [Do What I Mean, fai quello che intendo] agg. In grado  di
+ supporre, spesso addirittura correttamente, quale risultato e` richiesto anche
+ se  i dati forniti sono <bogus>. Spesso suggerito scherzosamente come una  ca-
+ ratteristica desiderabile per un programma complesso; descritto anche a  volte
+ come l'unica istruzione che il calcolatore ideale dovrebbe avere. (Ai tempi in
+ cui erano in voga le prove di correttezza formale dei programmi, c'erano anche
+ scherzi  con `DWIMC': Do What I Mean, Correctly). Un termine correlato,  visto
+ piu` spesso come verbo, e` DTRT (Do The Right Think, fa' la cosa giusta): vedi
+ <Right Thing, The>. 
+
+      <dynner>  /din'r/ 32 bits, in analogia con <nybble> e byte.  Uso: raro  e
+ estremamente stupido. Vedi anche <playte>, <taste>, <crumb>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                              NOTIZIE FIDONET  ###
+ ############                                                               ###
+
+                La region 28 in lotta contro lo ZC
+                ==================================
+
+      Alla fine il batti e ribatti tra il coordinatore europeo Fidonet, il fin-
+ landese Ron Dwight, e i sysop della rete olandese ha imboccato l'unica via  di
+ uscita rimasta: la lotta dura. Questi gli antefatti: Henk Wevers, ex-ZC  euro-
+ peo,  fu scalzato da tale incarico nell'89 dopo lunghe polemiche,  nelle  aree
+ messaggi  internazionali  proprio dal Ron, suo acceso denigratore. Un  po'  di
+ astio, fra i due e' rimasto, dunque.
+      Da tempo Dwight richiamava la region olandese ad un rispetto del  regola-
+ mento internazionale poiche' al suo interno la divisione in net non ricalca la
+ struttura geografica bensi' la presenza di 2 computer club (tra loro molto ag-
+ guerriti!).  In soldoni ad esempio a Rotterdam esistono sia nodi del  net  500
+ che del net 285. Questo nell'ottica americana che permea l'attuale policy  non
+ puo' esistere. Non per niente da anni si parla di modificare la policy FidoNet
+ per  renderla puo' malleabile e piu' vicina alle realta' non-americane.  Ma  i
+ contrasti in seno a FidoNet, non sono pochi, data la parte preponderante della
+ presenza americana (come sempre :-) ).
+      Trovato un olandese disponibile (al di fuori cioe' dei club di cui sopra)
+ Ron  ha esautorato l'RC eletto Hanno van der Maas (fidatissimo di Henk) e  gli
+ ha dato l'incarico di riorganizzare: questo si e' tradotto nella cancellazione
+ di gran parte dei nodi della region 28 che non 'seguivano' le nuove direttive.
+ I  sysop hanno sguainato le spade, condotti da Henk Wevers redivivo,  si  sono
+ ribellati  alla  decisione dello ZC e hanno predisposto una  propria  autonoma
+ porzione  di  nodelist per la region 28. Ed hanno invitato  tutti  i  Regional
+ Coordinator a prelevarla direttamente da loro andando a sostituire quella  uf-
+ ficialmente rilasciata dallo ZC (ove loro non appaiono listati).
+      Si  sono spinti oltre: rilasciano una NUOVA versione della nodelist  com-
+ pleta  aggiornata correttamente con i loro numeri identificativi. Una  vera  e
+ propria spaccatura: ora in Europa esistono 2 nodelist diverse e nessuna  vuole
+ perdere la ufficiale rappresentanza della rete FidoNet.
+      Ma Ron poteva fare cio'? A stretta lettura di policy si. E' lui che nomi-
+ na l'RC; le elezioni sono una prassi introdotta in Europa ma mai ufficializza-
+ ta  nei  regolamenti. Puo' lo ZC assegnare l'incarico a  qualcuno  diverso  da
+ quello  `democraticamente' eletto? Sinora la domanda era solo teorica.  Adesso
+ siamo alla resa dei conti.
+
+                                              f.c.
+
+
+                La Region 33 retta pro-tempore da Giorgio Rutigliano
+                ====================================================
+
+      Dal 7 luglio u.s. la Region italiana e' coordinata, in attesa delle  ele-
+ zioni  previste a settembre/ottobre, da Giorgio Rutigliano, gia'  ininterrotto
+ RC  dal 1985 al novembre 1992. Giorgio ha accettato la  reggenza  dimostrando,
+ ancora una volta, un vero spirito di dedizione alla rete FidoNet.
+      Chiusura  dei bbs e conseguenti dimissioni dagli incarichi erano  latenti
+ da  tempo. Sono state fulminanti solo perche' non potevano essere  altrimenti:
+ pensarci voleva dire cedere, ancora una volta, a compromessi con se stessi in-
+ nanzitutto.
+      Molti vi hanno intravisto un vero e proprio defilarsi ma, a parte i soli-
+ ti dietrologi che vi intravvedevano indagini giudiziarie e arresti per motiva-
+ zioni  assortite, ai piu' la vicenda non e' parsa interessare.  D'altronde  le
+ elezioni  del novembre scorso avevano visto un esiguo numero di  partecipanti,
+ segno  che nella rete vale piu' la presenza che la partecipazione. Ma e'  cosi
+ in  molti altri campi e pretendere di piu, forse, vuol dire vivere  fuori  dal
+ mondo.
+      Certo,  lo ammetto, sono stato impulsivo e per uno, come dice il  Bianki,
+ che `aveva studiato da coordinatore'  sin da piccolo, riferendosi alla mia as-
+ sidua  presenza alle varie riunioni, piu' mediatore che `dittatore', piu'  ri-
+ flessivo che in preda a crisi isteriche, il passo e' stato di difficile `cata-
+ logazione'.
+      L'RC  non puo' essere uno che `impone': l'unica cosa che puo' imporre  e'
+ il buon senso di tutti. Non puo' prendere decisioni drastiche se su queste non
+ vi  e' il consenso. In una struttura volontaristica, ove la sola  parola  `re-
+ pressione'  fa ridere perche' senza significato, e' sul `consenso' sulle  cose
+ da  fare (quali e come, con che priorita') che si puo' progredire e  crescere.
+ Beh,  vi parra' strano, ma sulle (poche) iniziative che ho cercato di  portare
+ avanti i consensi mi sono sembrati piu' di facciata che di sostanza (salvo ec-
+ cezioni, s'intende!) forse perche' non erano quelle le cose che dovevano esse-
+ re `smosse'.
+      Ben piu' peso hanno avuto, forse, minacce, velate e non, che, in un hobby
+ fatto  per divertirsi, non riesco proprio a concepire: ed ecco il  mio  limite
+ allora,  non sopportare vessazioni! Ma chi arriva in alto (!) deve  essere  in
+ grado di non curarsene, purtroppo.
+      E poi un po' di riposo dopo 5 anni fa bene. Partire per le vacanze  senza
+ Murphy in agguato da' un po' sollievo! Fare il point e' divertente e rilassan-
+ te, ma la nostalgia gia' si affaccia e gia' fantastico su che bbs aprire...nel
+ '93!
+
+                                         Franco Carcillo.
+
+
+
+                Net 334
+                =======
+
+      A  parte  l'uscita  piu` o meno traumatica dei nodi  334/0,  /1  e  /103,
+ abbiamo l'ingresso in nodelist di Marco Russo con WinFront (334/108, tel. 011-
+ 5681765) che come avrete certamente immaginato e` pesantemente orientato verso
+ windows, soprattutto a livello developer.
+
+      Lunedi`  5 ottobre riprenderanno le serate di incontro con gli utenti  al
+ CRDC  in  corso Sicilia, in tale data alle ore 21 ci sara`  anche  l'assemblea
+ dell'associazione TamTam.
+
+
+                Net 335
+                =======
+
+      Dopo  la rinuncia da parte di Pasquale Cantiello a rivestire le vesti  di
+ NEC  si e' passati ad una seconda votazione, ma questa volta con piu'  di  due
+ aspiranti NEC. Considerato il periodo preferie il risultato e' stato piu'  che
+ soddisfacente.  Su  52  votanti hanno risposto all'appello  41  SysOp,  quindi
+ l'84.31% del NET.
+
+      Risultati relativi all'elezione del Net Echo Coordinator per il Net 2:335
+ Fidonet.
+
+
+ *****  Alberto_Enna       ==================== Total 8 (19.51%)
+ *****  Gianluca_Pesaturo ==================== Total 17 (41.46%)
+ *****  Marco_Fratta       ==================== Total 0 (0.00%)
+ *****  Mario_Pacchiarotti ==================== Total 8 (19.51%)
+ *****  Ignazio_Geraci     ==================== Total 4 (9.76%)
+ *****  Angelo_Corsaro     ==================== Total 4 (9.76%)
+ *****  Astenuto           ==================== Total 0 (0.00%)
+
+ ------------------------------------------------------------------------
+
+      Dato l'esito e' stato nominato NEC per il 335 Gianluca Pesaturo  (335/3).
+ Da parte nostra un augurio a Gianluca di buon lavoro.
+
+
+                                        Giovanni Pugliese 335/211
+
+
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:   
+
+ 334/100 - 011-3299706     | 334/104 - 011-502423      | 331/112 - 0341-360511
+ 333/603 - 040-3783111     | 332/315 - 0721-30783
+
+      da Sintel, 011-596274,
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/306 - 0121-542795     | 335/210 - 081-5709527     | 335/405 - 06-315323
+
+
+
+####                            End of TELEM021                            ####

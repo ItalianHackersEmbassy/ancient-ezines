@@ -1,0 +1,2143 @@
+ #### TELEM033 - Telematicus - Volume 03 - Numero 09 - Anno 1993 - 98 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                             Settembre/Ottobre 1993
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematicus   e`  (C)  dei  singoli  autori.   E`
+ espressamente consentita la distribuzione e il riutilizzo  del  bollettino  in
+ tutto  o in parte, purche` non a fini di lucro e citando sempre autore e fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 98  *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+
+ [ 1]  Editoriale  .   .   .   .   .   .   .   .   .   .   .   (RRE)    pag.  4
+ [ 2]  Lettere aperte  .   .   .   .   .   .   .   .   .   .  (AAVV)    pag.  7
+ [ 3]  ...La legge sul software - parte I  .   .  (Roberto Venditti)    pag. 11
+ [ 4]  Fido & Yugoslavia   .   .   .   .   .   .  (Marino Marinelli)    pag. 17
+ [ 5]  Un network al mese ...: Internet - parte I  .(Stefano Costa2)    pag. 21
+ [ 6]  Quanti BBS in Italia?   .   .   .   .   .   (Franco Carcillo)    pag. 38
+ [ 7]  Modem ad alta velocita' a confronto .   .   .   .   . (.mau.)    pag. 46
+ [ 8]  The usenet cookbook .   .   .   .   .   .   . (Roberto Piola)    pag. 55
+ [ 9]  Curiosita`: Il gergo hacker - parte 28  .   .   .   .  (AAVV)    pag. 58
+ [10]  L'arte della programmazione - parte III .   .   (Mario Ricca)    pag. 72
+ [11]  News dal mondo telematico   .   .   .   .   .   .   .  (AAVV)    pag. 80
+ [12]  Notizie Fidonet region 33   .   .   .   .   .   .   .  (AAVV)    pag. 84
+
+
+
+
+
+                  Questo Telematicus e' nato con l'aiuto di...
+
+                                          | * I collaboratori dai network: *
+ Editor Perennens   :  Maurizio Codogno   |
+ Editor Giuridicus  :  Roberto Venditti   |  Stefano Costa2       (2:331/306)
+ Editor InterNazio  :  Marino Marinelli   |  Herve Miozzo   (2:333/511.20000)
+ Editor Retens      :  Stefano Costa(II)  |  Adolfo Melilli       (2:333/1.1)
+ Editor Recensis    :  Franco Carcillo    |  WarpGate             (2:334/108)
+ Editor Culinarius  :  Roberto Piola      |  Enrico Franceschetti (2:335/212)
+ Editor Filosofans  :  Mario Ricca        |  Anonimus
+
+ Editor mittens      :  Raffaello Valesio
+                        Davide Rolando
+
+ ... e del "saccheggiato"
+ Eric S. Raymond <esr@snark.thyrsus.com>
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO)
+                           al 011-9235565
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+  La vita con i suoi alti e bassi  e le sue incredibili sfumature di grigio non
+ finira'  mai  di stupirmi.  Ebbene signori & signore, e' ufficiale: abbiamo un
+ lettore che non e' legato ne' con  vincoli  di sangue, ne' di amicizia e tanto
+ meno monetari a .mau.  od a me.   Questo lettore - animale in via d'estinzione
+ o primo precursore di una nuova schiera - ha inviato ben due matrix per  chie-
+ dere come mai Telematicus ha bigiato il numero di settembre.
+
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-
+
+  Senti  ultimamente  faccio  fatica  a  procurarmi  i TELEMATICUS e gli ultimi
+ numeri non gli ho trovati  in  giro.   Eppur  mi  collego da BBS2000 e mi pare
+ strano che non arrivino, non vorrei che dopo  il  30  non  fosse  uscito  piu'
+ nulla...  mi confermi che continua ad uscire?????
+
+                                                                Fabio Filippi
+                                                                2:335/602.14
+
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-
+
+  Questo nobilissimo spirito merita come minimo un applauso ed  il  discutibile
+ privilegio di apparire sulle nostre pagine.
+
+  Quanto  al  fatto  che  Telematicus  non  sia  apparso  a  settembre  ecco la
+ giustificazione: [questa  giustificazione,  grazie  ad  una  formula magica e'
+ leggibile soltanto da chi sia veramente interessato a saperla].
+
+  Sono  spiacente  per i pochi sfortunati che non riusciranno a leggerla; l'in-
+ formazione non e'  cosi'  facilmente  reperibile  come  piacerebbe a qualcuno.
+ Questo e' un dato di fatto.
+
+  Altro  evento mirabile e' che qualcuno ha risposto alla serie (2) di articoli
+ che piu' mi stavano  a  cuore:  riuscire  a trasportare la programmazione, ora
+ mera attivita' artigianale, nell'olimpo delle  arti.   La  comprensione  e  la
+ discussione  di  un  simile argomento presupponeva una qualita' nel lettore in
+ pratica non riscontrata: si partiva dal  presupposto di stare parlando a gente
+ intelligente.  Caratteristica inscindibile  dall'intelligenza e' la curiosita'
+ verso il nuovo.  Nuovo non solo verso forme di pensiero, ma  verso  la  stessa
+ informatica.   Basti  pensare che il 99% della gente si ostina ad arrabattarsi
+ con Windows 3.1 quando potrebbe avere un sistema operativo quasi decente ed un
+ Windows ottimizzato passando ad os/2.1.
+
+  Fin'ora non si erano avute risposte, non si  era  ottenuto  alcun  dibattito;
+ l'apatia  - la sfumatura del grigio piu' greve - e' stato il colore dominante.
+ Questo senza  offendere  le  persone  di  scarsa  intelligenza (gli scienziati
+ sostengono che questa non possa essere accresciuta  nel  corso  della  vita  e
+ relegano  la  sua  scarsezza  all'ambito  delle  mutazioni  genetiche).  Nella
+ pratica ho notato che qualsiasi organo migliora con l'allenamento.
+
+  Questo  per  giustificare  la mia linea editoriale in cui si possono inserire
+ gli articoli di Lorenzo Travaglio sul mondo delle telecomunicazioni.
+
+  OK, anche questa volta  vi  ho  preso  a  pesci  in faccia.  Ma elegantemente
+ bisogna ammetterlo.  Quanto  al  resto  la  rivista  contiene  molti  articoli
+ interessanti, e molto sudor di fronte.
+
+  Ho inoltre pensato di inserire  a  parte  il  file  che  regola  l'iscrizione
+ all'AFI, per ulteriori chiarimenti vedere le lettere aperte.
+
+  Un grazie a tutti i colla-boratori... e tutti gli scotch-ciatori. :)
+
+                                                                           RRE
+
+ ############                                               LETTERE APERTE  ###
+ ###   2  ###                                               Editor Ignoto   ###
+ ############                                                               ###
+
+ Riassunto:
+         Continua la diatriba sull'inserimento o  no  di  Telematicus,  tramite
+        AFI,  in  pasto  a mamma RAI.  Ecco cosa ne pensa uno dei massimi espo-
+        nenti a riguardo:
+
+ ------------------------------------------------------------------------------
+
+ RR> p.s. che ne pensi della proposta dell'AFI di dare Telematicus in pasto al-
+ RR> la RAI?
+
+  Non mi trova del tutto contrario...  ma il guiderdone proposto  e'  misero  e
+ laido,  eppero'  d'altra parte noi non si dovrebbe aver fini di lucro (chissa'
+ perche', poi ?)  Personalmente  ritengo  che  il  ricavato vada utilizzato per
+ finanziare le nostre misere  attivita'  sociali,  quali  prezzolare  meretrici
+ babilonesi  o  eunuchi  turchi da portare ai nostri sguarniti stand alle varie
+ mostre [NdE: si riferisce  alle  partecipazioni di TAM-TAM, associazione della
+ telematica amatoriale, alle  varie  fiere].   Magari  potremmo  travestire  da
+ checca  il  Chignoli,  forse qualcuno in piu' si incuriosisce e viene a vedere
+ cosa c***o [NdE: censura, vediamo di  non essere troppo svaccati] facciamo noi
+ telematici.
+
+                                                               Ciao!
+                                                                _     _
+                                                               (_)ld |_)
+                                                                     | \affa
+
+ ------------------------------------------------------------------------------
+
+  Questo sopra era solo per far capire al Raffa che  "quando  il  gioco  si  fa
+ duro,  allora  i  duri  cominciano  a  giocare".  Piu' seriamente, grazie alla
+ disponibilita' di Davide Rolando (2:332/206)  sono  riuscito a mettere le mani
+ sullo statuto (si puo' trovare  al  2:332/206  col nome di AFI.LZH 12087K).
+
+  Intanto ecco alcune  risposte  all'autore  anonimo  della  lettera nel numero
+ precedente.  Ci terrei a precisare che qui non si intende fare polemica e  che
+ le  risposte  sono  di Davide - tra l'altro il presidente e' Franco Mulatto -,
+ quindi vediamo di  prenderle  "cum  grano  salis"  ok?   Per flames et similia
+ rivolgetevi to presindent.
+
+ ------------------------------------------------------------------------------
+
+ >   Ci  sono  diversi  punti  oscuri.   Primo  fra  tutti la definizione
+ > legale e statutaria di AFI.  Per  ricevere  il  detto  compenso deve
+ > essere una persona giuridica, con registrazione notarile ed un minimo di
+ > bilancio.
+
+ Infatti lo e' !!! Con tanto di Consiglio, Revisori dei Conti, bilanci ...
+
+ > progetto  da finanziare con  xyz  lire.   Come  valutare  se  e'
+ > eticamente consono ad AFI?  Polemiche polemiche....|-((.
+
+ Perche' prima di parlare non si informa ???
+
+ [NdE: e' grazie a Telematicus che tenta di farlo :)]
+
+ >   Oppure fare un CD-ROM con dentro tutta la roba italiana in circolazione,
+ > GIF od altre immagini fatte da italiani, insomma roba non USA una volta
+ > tanto!
+
+ Infatti questa e' una delle tante iniziative che si stanno per prendere
+
+ [NdE:  Ecco  un'ottima  notizia!   Spero  che  Telematicus  venga  debitamente
+ informata, cosi' si porta' dare alla faccenda la pubblicita' che merita]
+
+ ------------------------------------------------------------------------------
+
+  Ho deciso, ad insindacabile giudizio, di includere il file dell'AFI in questo
+ numero; questo a vantaggio di tutti i pigri - sottoscritto incluso -  che  al-
+ trimenti non sarebbero mai andati a pupparselo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                 UN PROFILO "EUROPEO" DELLA LEGGE SUL SOFTWARE ###
+ ############                                    Roberto Venditti (333/202) ###
+
+ Riassunto:
+         Data la sua lunghezza ho deciso - sempre ad insindacabile  giudizio  -
+        di  spezzare  in  due  parti l'articolo.  Questo anche perche' e' molto
+        interessante e, dovendo leggerlo in  due  mesi,  per due mesi la vostra
+        crapa sara' portata a pensarci.
+
+         Esso mette in guardia contro lo strapotere delle software  house  (gli
+        dai  un  dito  e  ti  prendono  il  braccio).  Argomento di estrema at-
+        tualita', basti pensare al dominio incontrastato della Microsoft che si
+        permette di propinare  ciofeche  come  Windows  e di passarla liscia...
+        anzi!  di essere pure lodata per il lavoro.
+
+ ------------------------------------------------------------------------------
+
+            UN PROFILO "EUROPEO" DELLA LEGGE SUL SOFTWARE - parte I
+
+  Presi  come  siamo dalle disposizioni penali del ddl 518, alla ricerca tra le
+ righe del decreto e tra i commenti  incollati sulle riviste di un cenno che ci
+ induca a prendere la solenne decisione di cancellare frettolosamente dall'hard
+ disk tutti i programmi copiati o di imboscare i dischetti che  l'amico  hacker
+ ci ha furtivamente consegnato in tanti anni di gloriosa militanza informatica,
+ tendiamo  a sottovalutare (meglio: a non scoprire nemmeno) la portata di altra
+ parte del  decreto,  che  comporta  conseguenze  ugualmente importanti: vorrei
+ tentare di evidenziare questo profilo sapientemente occultato ai  consumatori,
+ nella  speranza  di  riuscire  chiaro  anche  tralasciando ogni riferimento ai
+ fondamenti giuridici della materia.
+
+  Credo di poter dire che  ci  troviamo  di  fronte ad una normativa che, oltre
+ alle menzionate disposizioni a favore  di  produttori  e  commercianti  -  con
+ l'inclusione,  tra le opere protette dal diritto di autore, dei "programmi per
+ elaboratore, in qualsia si forma espressi purche' originali quale risultato di
+ creazione intellettuale dell'autore" (art.  2,  n.  8  l. dir.  aut.) - non ha
+ trascurato di offrire anche all'utente nuove tutele e nuovi diritti.
+
+  Perche', se e' talmente evidente da sembrare  banale  che  la  pirateria  sia
+ condannabile  e  che  lo sfruttamento abusivo del lavoro altrui per il proprio
+ profitto personale sia altrettanto ingiusto, e' anche risaputo che, dall'altra
+ parte del  filo,  il  nostro  interlocutore  ha  spesso  preferito tapparsi le
+ orecchie: senza risalire ai tempi di Lord Sinclair, quando l'utente  era  poco
+ piu'  che  una cavia da laboratorio, sprovvisto di qualsivoglia potere che non
+ fosse il memorabile "diritto  di  mugugno"  dei  marinai alle dipendenze della
+ repubblica  marinara  genovese,  dobbiamo  ricordare  che  il  consumatore  di
+ software e' ancora oggi sottoposto a contratti-capestro che lo costringono  ad
+ acquistare   prodotti   costosi   a  condizioni  che  in  ogni  altro  settore
+ merceologico sarebbero ritenuti quantomeno truffaldini.
+
+   E l'impressione che ne ho avuto con il passare degli anni e' stata quella di
+ un progressivo imbarbarimento dei rapporti produttore-consumatore: per fare un
+ esempio, la  recente  "conquista"  dei  dischetti  contenuti  nella  busta con
+ impresse le condizioni generali di contratto mi  pare  la  conferma  ulteriore
+ dell'impotenza  e  della sottomissione dell'acquirente di un prodotto software
+ alle regole imposte, piu' che dalle leggi del mercato, da un persistente vuoto
+ legislativo: per leggere  gli  estremi  contrattuali  e'  necessario aprire la
+ scatola  (spesso  cellophanata)  e  lo  strappo  della  busta  sostituisce  la
+ sottoscrizione delle clausole, operazione giuridicamente azzardata se si pensi
+ che le condizioni sanciscono, in molti  casi,  pesanti  limitazioni  a  carico
+ dell'utente:  vuoi  alla  facolta'  (o  non  doveva  essere, gia' dai primordi
+ dell'informatica,  un  diritto?)  di  effettuare  delle  copie  cosiddette "di
+ riserva" del prodotto acquistato, vuoi alla cessione  del  prodotto  ad  altri
+ soggetti,  vuoi  ancora al fondamentale diritto di trasformare o modificare il
+ programma per correggerne eventuali errori,  fino a ieri assolutamente negato;
+ per non parlare della grottesca  clausola  "as  is",  mutuata  dall'esperienza
+ statunitense  e tradotta religiosamente nei manuali italiani con la pretesa di
+ tacciare la richiesta di risarcimento dell'utente in seguito ai danni subiti a
+ causa dell'imperfetto  funzionamento  del  prodotto  acquistato: operazione da
+ maniscalco del diritto, e per di piu' illecita.
+
+  Ebbene, come nei settori piu'  importanti  del  commercio  stanno  lentamente
+ emergendo  istanze  volte  alla tutela della posizione piu' debole (quella del
+ consumatore: una recente  direttiva  CEE  fissa  al  1  gennaio 1995 il limite
+ massimo per gli  stati  membri  per  recepire  una  normativa  di  tutela  del
+ consumatore proprio in tema di condizioni generali di contratto e di contratti
+ "per  adesione"),  cosi'  anche  la  legislazione  sul software si proietta in
+ un'ottica europea ed offre all'utente tutele insperate.
+
+  L'art.  64-ter, introdotto dal  decreto,  sancisce che l'utente non necessita
+ di autorizzazione dell'autore del software per riprodurre, tradurre, adattare,
+ trasformare o modificare  in  qualsiasi  altro  modo  il  prodotto  acquistato
+ "allorche'  tali  attivita'  sono  necessarie  per  l'uso  del  programma  per
+ elaboratore  conformemente  alla  sua destinazione (...) inclusa la correzione
+ degli errori" (salvo patto contrario stabilito espressamente nel contratto).
+
+  In questa ampia previsione, a mio  avviso, vanno evidenziati due punti:
+
+   1)  il  programma  che  contenga  degli  errori di natura tale da rendere il
+ prodotto inidoneo all'uso cui e'  stato  destinato  puo' essere modificato e -
+ per  cosi'  dire  -  aggiustato  direttamente  dall'acquirente:   sembra   una
+ considerazione  logica  ed  "onesta",  ma se osservate i consueti contratti di
+ licenza constaterete che l'intromissione  dell'utente nel codice del programma
+ e' spesso proibita.
+  Sulla opportunita' di tali condizioni non mi soffermero', limitandomi a farvi
+ notare  che,  in  linea  generale,  l'esistenza  nel  software di vizi tali da
+ renderlo  inidoneo  all'uso  pattuito  o  anche  solo  da  diminuirne  in modo
+ apprezzabile le possibilita' di utilizzazione, legittima  la  risoluzione  del
+ contratto  (restituzione  del prodotto e integrale rimborso del prezzo pagato)
+ nonostante  qualsiasi  disposizione  in  contrario  prevista  nelle condizioni
+ generali.
+  Pertanto, con l'introduzione  del  decreto,  l'acquirente  vede  ampliate  le
+ proprie prospettive di tutela: oggi infatti puo' promuovere la risoluzione del
+ contratto  oppure  operare  per  conto proprio al fine di eliminare gli errori
+ presenti.
+
+   2)  la necessita' di usare il programma in modo completo e conforme alla sua
+ destinazione autorizza una ampia  serie  di comportamenti solitamente aborriti
+ dalle case produttrici: concentrate l'attenzione  sui  verbi  "trasformare"  e
+ "modificare"  e  confrontateli con i citati contratti, troverete facilmente la
+ novita'.
+  E' arduo per un digiuno  di  programmazione  proporre degli esempi pratici, e
+ devo pertanto accontentarmi di evidenziare la portata innovativa della norma.
+
+
+
+
+
+                                            Roberto Venditti (333/202)
+                                            Universita' degli Studi di Ferrara
+                                            Dipartimento di Scienze Giuridiche
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                                             Fido & Yugoslavia ###
+ ############                                              Marino Marinelli ###
+
+ Riassunto:
+         Ecco cosa si sta facendo per il problema Yugoslavia grazie alla  tele-
+        matica.   Il  tutto  riportato  dal  prezioso Marino Marinelli alla sua
+        prima apparizione su Telematicus.
+
+ ------------------------------------------------------------------------------
+
+  Da tanto avevo l'intenzione di  scrivere qualcosa a riguardo della telematica
+ a supporto delle iniziative di pace nella ex Yugoslavia, e di  quel  poco  che
+ sono riuscito a fare da casa.
+
+  Puo'  sembrare strano ma tutto comincio' da un messaggio forwardato da Mulato
+ in area sysop del  332  di  un  tizio,  Zdravko  Blagdan, dalla Yugoslavia che
+ cercava aree Clipper.
+
+  Poi ci fu la dissoluzione della Yugoslavia e cominciarono gli  interventi  di
+ volontari  italiani  all'inizio di solidarieta' concreta, poi l'iniziativa del
+ dicembre 1992 della marcia di pace  a  Sarajevo.  L'idea della marcia venne ad
+ agosto e da li' inizio' la sua preparazione.  Mi ricordai di quello  slavo  di
+ Spalato, trovai sulla nodelist il nuovo numero del bbs e cominciai a chiamarlo
+ in  interattivo  e con matrix crash (di routed nemmeno a parlarne).  Come pure
+ feci con la bbs di Koper in Slovenia che era addirittura nella region.033.
+
+  Matrix dopo matrix il croato  mi  scrisse  di un'olandese che aveva creato un
+ link tra le bbs della Croazia (credo che inizialmente funzionasse un  Adrianet
+ ma  che  poi  si  sia  `esaurito' con la nascita delle repubbliche autonome di
+ Croazia  e  Slovenia)  aprendo  alcune  aree  specifiche  sulla  guerra  e sui
+ rifugiati.  L'olandese si rivelo' essere Kasper Kwant (ai tempi era  in  anche
+ fido)  e  il  link  un  vero  e proprio network, con polls autonomi, di bbs di
+ Olanda e Croazia.
+
+  Insomma,  per  farla  breve,  ho   preso   un  numero  di  nodo  del  network
+ FNPTT-Mailnet e iniziai a pollare Kasper in Olanda.  Smisi ben presto affogato
+ di no-carrier (almeno 4 scatti a botta :-( ) e da allora pollo  tre  volte  la
+ settimana  direttamente  la  bbs  di  Spalato  prelevando almeno il bollettino
+ quotidiano in inglese da Zagabria.
+
+  Tutto questo per dire che anche  con  delle piccole bbs a tecnologia fidonet,
+ senza muoversi da casa, e'  possibile  creare  dei  collegamenti  in  zone  di
+ guerra, interessarsi della situazione dei rifugiati.
+
+  Aggiungo  anche  uno  dei  messaggi  avuto  da  Kasper; si spiega da se'.  Lo
+ traduco a braccio e  ricordo  che  risale  all'estate  del 1992: "La cosa piu'
+ importante per me e' che molti sistemi distribuiscano informazioni per  aiuti,
+ informazioni  sulla  guerra  e  rifugiati.   Ho  iniziato  questo link perche'
+ ritengo che la maggior  parte  dei  Paesi  europei dovrebbe vergognarsi di non
+ aver fatto nulla per fermare la guerra in Bosnia.  Il Croatian-link e'  inteso
+ per  fornire  supporto non politico, ma su basi umanitarie, a tutti coloro che
+ vogliono contribuire alla soluzione della guerra civile nella ex Yugoslavia."
+
+ ------------------------------------------------------------------------------
+
+  Oggi i "pacifisti telematici" rientrati  dalla spedizione in Croazia e Bosnia
+ chiedono attrezzature, computer e modems, volontari e soldi per  telematizzare
+ Sarajevo e chiudere il cerchio di comunicazioni con gli oppositori alla guerra
+ della  Croazia  e  della  Serbia,  attivi  almeno  via  internet.  Chi volesse
+ aiutarli puo' f/requestare modempax.zip allo 2:332/616 e matrixarmi, o sentire
+ curt@antenna.nl (Curtis Doebbler).
+
+ ------------------------------------------------------------------------------
+
+  Nel periodo precedente quest'ultimo  "viaggio"  in Bosnia dell'agosto 1993 ho
+ tenuto  in  linea  sul  bbs  anche  altri   materiali:   VREME,   la   rivista
+ dell'opposizione  serba,  e messaggi presi da conferenze APC come list.bosnet,
+ exyugo.refugee, reg.exyugoslavia,  list.vreme  e  naturalmente `yugo.antiwar'.
+ L'informazione telematica non e' mancata sulla situazione della ex Yugoslavia,
+ c'era solo da andarsela a prendere (e in inglese, che per molti costituisce un
+ problema).  Come non manca sulle altre guerre in corso, sui diritti umani  nel
+ mondo, sul centroamerica, sui boicottaggi ecologici e altro.
+
+
+
+ Ma questa e' un'altra storia.
+
+
+ bye                                         MARINO     (mmarinelli@gn.apc.org)
+                                                        2:332/616
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                                                      Internet ###
+ ############                                                      AAVV     ###
+
+ Riassunto:
+         Come annunciato  lo  scorso  numero  ecco  una  serie  di  articoli su
+        Internet.  Questi non vogliono essere una ripetizione  di  quelli  gia'
+        apparsi sotto l'egida del -mitico- .mau.  ma un tentativo di completare
+        un  quadro  complesso,  affascinante  e...   inquietante (mi do arie da
+        giornalista!) Sono previste tre parti. Grazie Costa2!!
+
+ ------------------------------------------------------------------------------
+
+                Un network al mese (o quasi): Internet - parte I
+
+ Internet si sta ormai trasformando in una rete fortemente pervasiva.
+
+  Ormai chiunque con un minimo di  connettivita'  verso  reti  pubbliche  (come
+ FidoNET) ha qualche forma di connessione con Internet.
+
+  E  chiunque  voglia presentarsi al mondo telematico con un minimo di serieta'
+ ha un qualche accesso ad essa.  Non voglio qui replicare gli sforzi gia' fatti
+ da .mau.  (La storia ed i  comandi  di Internet, cfr Telematicus 14-15) ne' di
+ Roberto Piola (The Merit Cruise of Internet) le informazioni  date  in  questi
+ articoli  sono  date per scontate, cosi' avete un motivo di piu' per ripescare
+ gli arretrati di Telematicus!
+
+  Piuttosto  intendo  dare  un'informazione  abbastanza  avanzata  sui seguenti
+ fronti: tipo e modalita' di trasmissione dati, tipi di connessione  e  servizi
+ ottenibili di conseguenza, una sorta di 'pagine gialle' di indirizzi Internet,
+ modi  e costi per avere un'accesso diretto ed infine una piccola bibliografia.
+ Tutto questo, data  la  mole  dell'argomento,  verra'  suddiviso in piu' parti
+ (almeno 3).
+
+  NON VUOLE E NON POTRA' MAI ESSERE UNA GUIDA COMPLETA.  Piuttosto un'antipasto
+ per l'utilizzatore serio, piu' qualche info 'simpatica'.  Ho scelto di parlare
+ prima della teoria e poi delle cose 'pratiche',  perche'  voglio  che  *tutti*
+ sappiano che per fruire dei servizi di Internet occorre un cambio di filosofia
+ rispetto  a Fido, pena bollette telefoniche stellari ed esaurimenti nervosi (a
+ meno che non sfruttiate  l'account  dell'universita',  o  come fa .mau., della
+ ditta!) od anche solenni delusioni.
+
+ Tipo e modalita' di trasmissione dati:
+
+  Internet e' una rete che prevede per i suoi  host  una  connessione  stabile,
+ cioe'  che  i  calcolatori  che ne fanno parte siano fisicamente collegati tra
+ loro 24 ore su 24.   Alcuni  possono  fare  da  gateway, con utenza modem od a
+ commutazione di pacchetto, ma l'ultimo anello della catena e' sempre  connesso
+ stabilmente  con  internet.   Dato che Internet e' anzianotta, vari sono stati
+ gli standard fisici di connessione utilizzati.  Ecco una breve cronistoria:
+
+     Backbone Timelines
+
+      early work
+
+             1964       Paul Baran, RAND Corp study
+                            survivability of multiplex data units
+                            and mesh networks vs. star topologies
+             1965       Donald Davie, National Physical Lab, UK
+                            packetizing data for storage and forwarding
+             1967       Larry Roberts, MIT Lincoln Labs
+                            writes RFP for ARPA
+
+       ARPANET   0.56 Mbps
+
+         Jul 1968       ARPA RFP packet-switched computer network
+         Dec 1968       first contract to BBN for equip and software
+       2 Sep 1969       IMP1  Interface Message Processor starts UCLA
+                              4 Honeywell 316 minicomputers at UCLA to SRI
+         Dec 1969                                           then UCSB, Utah
+             1969       Ken Thompson and Dennis Ritchie, Bell Labs
+                            UNIX operating system
+
+                        Larry Roberts writes first email prog as TECO macro
+                        For a decade grew at rate 1 new host every 20 days
+
+             1970-71    Norman Abrahamson, Univ Hawaii, develops ALOHA net
+             1970-72    Robert Metcalf and David Boggs, Xerox Parc
+                           develop Ethernet LAN
+         Apr 1971       23 hosts on ARPANET
+                        PRNET, Packet Radio NET, SAC and 18th Airborne
+             1972       dial up services for remote terminals
+         May 1974       Cerf and Kahn begin work on TCP/IP protocols
+         Jun 1974       62 hosts on ARPANET
+             1975       DARCOM MsgGroup, one of first mailing lists
+             1975       AT&T aggressively licenses UNIX to universities
+             1976       Federal Coordinating Council for Science,
+                          Engineering and Technology (FCCSET)
+         Mar 1977       111 hosts on ARPANET
+             1980       CSNET founded by NSF, 200 hosts 15 countries
+         May 1981       BITNET supported by IBM, first CUNY and Yale
+             1981       BSD version 4.1 Berkeley UNIX
+             1982       Lax Report funded by NSF and DDN
+         Dec 1982       MCImail starts
+                        ARPANET-AUTODIN shootout  ??
+             1983       ARPANET/MILNET split
+
+                        the great FINGER controversy ??
+                        Black Tuesday: 1st global routing failure early 80s
+                        Gateway Wars  ??
+
+             1985       routing gridlocks
+         Oct 1985       most ARPANET users shunted into T1 NSFNET
+         Jun 1990       last nodes closed, ARPANET fully decommissioned
+
+
+    INTERNET  T1 connections  (1.5 Mbps)   (not really a backbone)
+
+         Sep 1981       IP, TCP, UDP, ICMP protocols
+             1985-86    NSF funds 5 supercomputer centers, form T1 backbone
+             1987       BITNET and CSNET merge to form CERN
+       1 Nov 1988       Internet worm
+         Dec 1992       turn off T1 circuits Dec 1992
+
+
+     NSFNET    T3 connections  (45  Mbps)
+
+              1988      Merit wins $14M-20M grant from NSF
+                        Merit subcontracts to ANS
+                           ANS run by Merit and MCI ($6M) and IBM ($10M)
+                           Michigan contributes ($5M)
+
+         Jul 1988       T3 came online, actual costs to NSF $28M
+         May 1989        1 billion packets per month
+         May 1990        3.15 billion packets per month
+         May 1991        7.56 billion packets per month
+                         PSInet absorbs NYSERNET obtains commercial access
+         May 1992       14.9 billion packets per month
+         Feb 1993       26 billion packets per month
+             1993       America Online provides Internet access
+
+    NREN      target 1996,  3Gbps (3000 Mbps)
+
+  Notate come le velocita' di comunicazione siano in costante aumento.  Infatti
+ i nodi principali della rete  soffrono di un sovraccarico costante, nonostante
+ che ai tempi si ritenesse ampiamente sufficiente la larghezza di banda massima
+ raggiungibile.  Oggi si vuole proporre NREN, con 3Gbs, ma  non  e'  poi  tanto
+ lontano  il  giorno  in  cui anche questo limite verra' raggiunto.  Per questi
+ dati ho attinto a  CuD,  Computer  Underground  Digest, dal contributo di stan
+ kulikowski ii <STANKULI@UWF.BITNET> (potete prelevare i CuD  da  BITs  Against
+ the  Empire,  Fidonet  2:333/412, CyberNET 65:1400/1).  Per vostra curiosita',
+ nel 1992 Internet ha superato  il  milione di COMPUTERS collegati.  Nessuno ha
+ una stima precisa del numero di utenti umani, ma comunque diversi milioni.
+
+ Servizi ottenibili:
+
+  I servizi sono gerarchicamente legati al livello  dell'utente,  un  po'  come
+ nelle  BBS  FIDO  il ratio di D/L e' funzione del livello a cui il sysop vi ha
+ abilitato.  Il servizio minimo  e'  la  sola  e-mail, analogamente a Fido.  La
+ grande maggioranza degli utenti puo' utilizzare la sola  e-mail.   Questo  per
+ due ordini di motivi: questioni prettamente tecnologico-economiche, dato che i
+ servizi  addizionali  richiedono elaboratori ed infrastrutture piu' costosi ed
+ un accesso alla rete ad alta velocita'.
+
+  E' bene sottolineare che e' possibile, anche se (a volte) scomodo, utilizzare
+ (quasi  tutti)  i   servizi   addizionali   tramite   la   sola  e-mail.   Non
+ scoraggiatevi!  Al livello superiore sta l'utente che puo'  utilizzare  FTP  e
+ TELNET.   Badate  bene che l'abilitazione a questi comandi non e' cosi' rigida
+ come in Fido: di solito  vengono dati in 'coppia' perche' nell'implementazione
+ la maggior parte del codice e' in comune, percui fatto uno via l'altro.   C'e'
+ poi  il  jolly  FINGER,  ed  ad  un  livello  piu'  alto (anche a livello OSI)
+ GOPHER,WHOIS,ARCHIE.
+
+  Tutto questo e' valido per chi, come  me,  chiama in commutata un IP, per chi
+ ha una workstation in rete e' un'altro paio di maniche!
+
+  I servizi addizionali che  illustrero'  sono  FTP,FINGER,TELNET,WHOIS,ARCHIE.
+ Ma ci sono anche VERONICA,JANET...a suivre.
+
+ La Mail:
+
+  Ogni  messaggio  e' composto da un header iniziale dove si dichiara data, ora
+ provenienza, la 'firma' di ciascun  sistema  che  ha smistato la posta (come i
+ seen-by di FidoNET) ed il modo con  cui  e'  stato  codificato  il  messaggio.
+ Tutti  questi  campi  sono  scritti  in  un  formato  standard  per  garantire
+ l'interoperabilita'  tra  i  vari host della rete, che ormai sono praticamente
+ tutti i minicomputer in commercio da qualche anno a questa parte.
+
+ Eccovi un esempio vivente, un messaggio di .mau.  al sottoscritto:
+
+ Memo #63830
+ Return-path: <mau@beatles.CSELT.STET.IT>
+ Received: from delphi.com by bix.com (CoSy3.31.1.13) id
+  <9303190718.memo.63830@BIX.com>; Fri, 19 Mar 1993 07:18:38 -0500 (EST)
+ Received: from POL88B.POLITO.IT by delphi.com (PMDF #3207 ) id
+  <01GVZFPEOES094DVNT@delphi.com>; Fri, 19 Mar 1993 07:16:48 EST
+ Received: from EI3500.CSELT.IT by polito.it (PMDF #3020 ) id
+  <01GVZS8BTQTC8ZH1D6@polito.it>; Fri, 19 Mar 1993 13:14:52 GMT+1
+ Received: from beatles.uf.cselt (125.0.90.142) by EI3500.CSELT.STET.IT; Fri,
+  19 Mar 93 13:12 GMT +1
+ Received: by beatles.uf.cselt (4.1/SMI-4.1) id AA03747; Fri,
+  19 Mar 93 13:15:14 +0100
+ From: mau@beatles.CSELT.STET.IT
+ Date: 19 Mar 1993 13:15:14 +0100
+ To: scosta@bix.com
+ Message-id: <9303191215.AA03747@beatles.uf.cselt>
+ Subject: il tuo messaggio...
+ Content-transfer-encoding: 7BIT
+ X-Envelope-to: bix.com!scosta
+
+  Se questo vi sembra un'header grosso,  non ho riprodotto per pieta' vostra un
+ messaggio che mi hanno mandato tempo fa: 5K di cui 4 di header e menate varie!
+
+  Se notate i seen-by sono inseriti a mo' di pila, vale a dire  che  ogni  host
+ che  fa  da  tramite al messaggio in transito mette all'inizio dello stesso il
+ suo indirizzo, data, ora e destinazione  esattamente come ha fatto il nodo che
+ ha originato il messaggio (Return-path mau@beatles.cselt.stet.it).
+
+  E' curioso notare che questa codifica era stata inserita  per  facilitare  il
+ debugging  del  software di rete, notoriamente complessi da debuggare: in ogni
+ messaggio c'e' tutta  la  sua  'storia'.   Questa  caratteristica e' stata poi
+ mantenuta, viva e vegeta tuttora.  Puo' essere d'aiuto  quando  mandate  della
+ posta  ad  un'indirizzo  parzialmente  corretto,  oppure  per  identificare la
+ locazione geografica di un host o di un utente.  Analogamente a FidoNET solo e
+ solamente i caratteri ASCII da 32  a  127 sono ammessi, come dichiara la label
+ "Content-transfer-encoding: 7BIT".  E' bene sottolineare che  questo  standard
+ e'  il minimo comune denominatore di Internet, ma e' ammesso che un certo host
+ abbia una codifica piu' larga, che includa la 7BIT.
+
+  Alcuni host (!@#$%!)  supportano  *solo*  EBCDC  (i  computer  di IBM, sempre
+loro!).  La prima riga del messaggio "Memo #63830" non proviene da Internet, ma
+dalla gestione interna di BIX.
+
+ Ma in quanto tempo un messaggio viene spedito?
+
+ Vi sembrera' una domanda cretina, ma *non* lo e'!
+
+  Il messaggio di cui sopra e' arrivato a  destinazione  in  pochi  minuti  (da
+ Torino  a  Cambridge  Mass.   USA)  e  questa  e' la norma.  Tuttavia esistono
+ complicazioni.  BIX ad esempio  spedisce  i  messaggi ad un'altro computer che
+ provvede ad inoltrarli ad Internet: solitamente i messaggi vengono bufferati e
+ spediti a 'pacchi'.  Percui c'e' un ritardo insito nella spedizione, variabile
+ a seconda del traffico.  Un secondo schema capita quando si spedisce/riceve un
+ messaggio da una grande ditta (leggi IBM, Microsoft  etc).   Queste  ultime  a
+ loro volta hanno una rete interna indipendente da Internet ed un solo backbone
+ di  comunicazione.   A  seconda  della  velocita'  della rete interna, i tempi
+ cambiano parecchio.  Poi ci sono alcuni host un po' delicati (specie nei paesi
+ in via di sviluppo) che sono peggio  delle poste italiane.  E poi c'e' UUCP in
+ linea commutata...personalmente il record negativo a mia conoscenza  e'  di  5
+ giorni.
+
+ Varie ed eventuali sulla posta:
+
+   Il limite logico  della  dimensione  dei  messaggi  e'  molto piu' grande di
+ quello di Fido, dato  che  Internet  puo'  contare  su  una  rete  stabile  ed
+ affidabile.   Fino  a  questo  momento non ho reperito informazioni precise al
+ merito, ma vi posso dire per  esperienza che 512K a messaggio sono supportati.
+ Al pari di FidoNET la pratica di  uuencodare  i  files  e'  parecchio  diffusa
+ (quando arrivero' a descrivere i newsgroups lo vedrete bene!).
+
+  Un  nuovo,  back-compatibile formato della posta e' MIME (Multimedia Internet
+ Mail Extension).   Con  MIME  1.0  potrete,  laddove  il  sistema operativo od
+ environment che utilizzate per spedire la posta lo supporti,  accompagnare  al
+ testo  scritto  musica  o  parlato,  immagini, e quant'altro.  Sfortunatamente
+ l'alto numero di sistemi differenti presenti  in rete scoraggia il supporto di
+ questo standard, ed in piu' ci sono alcune  perplessita'  sull'implementazione
+ ed i criteri di utilizzo ad essa associati.  Chi vivra' vedra!
+
+ Indirizzi utili:
+
+  Quello  a  cui piu' spesso si fa riferimento e' il postmaster.  Questa mitica
+ figura (che esiste sempre in qualsiasi  host) e' colui che e' responsabile del
+ traffico di e-mail del suo host (leggasi campus universitario,  la  ditta  nel
+ caso  di  .mau.,  chiunque  possegga  fisicamente  il computer cui l'utente fa
+ capo).  In teoria questi dovrebbe conoscere tutti gli 'inquilini', anche se e'
+ ovvio che in un campus da 10,000 studenti vi voglio vedere...
+
+  Ad ogni buon conto, se non sapete che identificativo ha una certa persona, ma
+ sapete dove sta (se lavora al MIT  piuttosto che a Stanford) potete chiedere a
+ lui.  Il servizio pero' e' su base volontaria: non sempre hanno  il  tempo  di
+ rispondervi.   Tutti  di solito mandano un messaggio di 'ricevuta di ritorno',
+ cioe' che hanno letto il vostro  messaggio,  e che se non rispondono non sanno
+ che farci.  Caso pessimo: il postmaster di MC-Link  non  mi  ha  nemmeno  dato
+ questa  conferma.   Caso  migliore:  il postmaster di BIX mi ha controllato la
+ correttezza di un path di un certo host.
+
+  Altri  indirizzi  per  e-mail dei servizi addizionali li citero' piu' in la'.
+ Se avete a disposizione WHOIS, usate quello prima di contattare il postmaster.
+ L'indirizzo del postmaster e' postmaster@nome dell'host a cui volete accedere.
+
+ Gli indirizzi delle reti collegate:
+
+  Essendo Internet una rete di reti,  una  sorta di 'colla' telematica, essa ha
+ dovuto incorporare gli usi e costumi di  altri  network  su  scala  nazionale/
+ internazionale,   come  Fido,  X.400,  MCI  etc.   Questo  si  riflette  nella
+ necessita' di risolvere i conflitti  di indirizzo in maniera standard.  Questa
+ che segue e' una piccola guida di riferimento.
+
+  Nella colonna "Indirizzo del net" viene dato  un  indirizzo  di  esempio  nel
+ formato  nativo del network indicato nella colonna di sinistra.  Nella colonna
+ adiacente c'e' tale  indirizzo  nel  formato  che l'interprete degli indirizzi
+ Internet richiede.  Quando dovete mandare un messaggio ad una persona  su  uno
+ di  questi  net,  non dovete fare altro che sostituire i suoi dati con i campi
+ indicati qui sotto.
+
+  Nome del network |  Indirizzo del net   | Indirizzo Internet
+ ------------------|----------------------|-----------------------------
+   Agora'          | user                 | user@agora.stm.it
+ ------------------|----------------------|-----------------------------
+   America On Line | username             | username@aol.com
+ ------------------|----------------------|-----------------------------
+   Apple Link      | R0389                | R0389@apple.applelink.com
+ ------------------|----------------------|-----------------------------
+   Bitnet          | user%site            | user%site.bitnet@gateway
+                   |                      | dove gateway puo' essere:
+                   |                      | mitvma.mit.edu o cunyvm.cuny.edu
+ ------------------|----------------------|-----------------------------
+   BIX             | username             | username@bix.com
+ ------------------|----------------------|-----------------------------
+   Compuserve      | 12345,678            | 12345.678@compuserve.com
+                   |                      | (sostituire la virgola col
+                   |                      |  punto!)
+ ------------------|----------------------|-----------------------------
+   Easynet         | HOST::USER           | user@host.enet.dec.com
+ ------------------|----------------------|-----------------------------
+   Fido            | User Name (1:2/3.4)  | user.name@p4.f3.n2.z1.fidonet.org
+                   |                      | (Se l'utente non e' un point
+                   |                      |  basta omettere "pN." cioe' se
+                   |                      |  User Name (1:2/3) diventa
+                   |                      |  user.name@f3.n2.z1.fidonet.org)
+ ------------------|----------------------|-----------------------------
+   MCI Mail (r)    | 1234567              | 0001234567@mcimail.com
+                   |     oppure           | (sempre 3 zeri prima!)
+                   | User Name            | User_Name@mcimail.com
+                   | oppure se User Name  |
+                   | NON E' UNICO         |
+                   | 1234567 User Name    | User_Name/1234567@mcimail.com
+ ------------------|----------------------|-----------------------------
+   Mfenet          | user@mfenode         | user%mfenode.mfenet@nmfecc.arpa
+ ------------------|----------------------|-----------------------------
+   Nasamail        | user                 | user@nasamail.nasa.gov
+ ------------------|----------------------|-----------------------------
+   SprintMail      |id User Name/org/sys/c| /C=c/ADMD=sys/O=org/PN=User_Name/
+                   |                      | DD.ID=id/@sprint.com
+                   |                      | (tutto su una riga!)
+ ------------------|----------------------|-----------------------------
+   The Well        | username             | username@well.sf.ca.us
+ ------------------|----------------------|-----------------------------
+   The World       | username             | username@world.std.com
+ ------------------|----------------------|-----------------------------
+   X.400           | First name   : Fffff | /G=Fffff/S=Nnnnn/O=Ooooo/@Aaaa.Cc
+                   | Surname      : Nnnnn |
+                   | Organization : Ooooo |
+                   | ADMD         : Aaaaa |
+                   | Country      : Cc    |
+
+  State bene attenti a copiare esattamente la forma usata qui!
+
+  OK, (per ora)  finisce  qui.   Nella  prossima  puntata i newsgroups, mailing
+ list, FTP e TELNET.
+
+
+
+
+
+                                          Stefano Costa
+                                          Internet: scosta@bix.com
+                                          Fido:     Stefano Costa2 (2:331/306)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                         Quanti BBS in Italia? ###
+ ############                                               Franco Carcillo ###
+
+ Riassunto:
+         Il  GRANDE  Franco  Carcillo  ha  lavorato  non  poco  per  riuscire a
+        riportare questi dati, molto interessanti.  Quante BBS in  Italia?   In
+        rapporto  a  quanto  veramente  potrebbe essere divulgata la telematica
+        amatoriale? Sta crescendo? stiamo regredendo? Leggete, leggete...
+
+ ------------------------------------------------------------------------------
+
+                             QUANTI BBS IN ITALIA?
+
+  Dando un'occhiata all'elenco  (NODELIST)  dei  servizi telematici (BBS) della
+ rete FidoNet del 6/8, un'improvvisa quanto inopportuna domanda ha iniziato  ad
+ frullarmi  in  testa:  quante  BBS  ci  sono  in Italia?  e da questa semplice
+ domanda altre prendevano forma: quanti SysOp?  dove ci sono piu' BBS?  qual'e'
+ l'indice di 'affollamento telematico' in Italia?
+
+  Tutte domande a cui e' facile rispondere, direte voi.
+
+  Mica detto.   Bisogna  circoscrivere  e  delimitare  l'ambito  di analisi per
+ poterla presentare come 'prova  scientifica':  gia'  la  banale  questione  su
+ quante  sono  le  BBS  merita  un'approfondimento.  Cosa contare?  I numeri di
+ telefono univoci?  In questo modo si contano i punti di accesso, non i servizi
+ in quanto tali: lo stesso servizio  telematico  puo' avere piu' linee.  O vale
+ piu' la pena contare, in pratica, quanti SysOp sono presenti, assumendo che  1
+ SysOp  =  1  servizio,  a  prescindere quindi di servizi diversi gestiti dalla
+ stessa persona?  E se qualcuno sulla  stessa linea consente di accedere a piu'
+ servizi sostanzialmente diversi si deve  intendere  comunque  che  il  sistema
+ telematico  e'  sempre  e  solo  uno?  E poi, dulcis in fundo, la nodelist non
+ rappresenta *tutta* la telematica amatoriale italiana.  Altri servizi non sono
+ in elenco per svariate ragioni:  la  prima,  ovvia,  di chi non vuol far parte
+ della rete, ma ci sono casi di SysOp che pur gestendo piu' servizi,  o  avendo
+ piu'  linee per lo stesso, ne presentano in nodelist solo uno.  Occorre dunque
+ restringere e circoscrivere, visto  che  una  analisi  esaustiva non mi sembra
+ facilmente conducibile, perlomeno in tempi brevi.  Ecco  che  allora  mi  sono
+ limitato  a  fare  qualche considerazione statistica sui punti di accesso alla
+ rete  FidoNet,  giusto  quanto  risulta  dalla  nodelist  citata.   Certo fare
+ considerazioni generali sulla presenza  della  telematica  italiana  prendendo
+ come riferimento solo questo elenco puo' essere impreciso ma, in ogni modo, mi
+ pare possa comunque fornire una pietra di paragone.  La puntigliosa precisione
+ la  lasciamo  a  tempi migliori.  Dunque......la nodelist del 6 agosto ci dice
+ che in Italia..
+
+  Ci sono 340 punti  di  ingresso  a  FidoNet  (numeri  univoci) condotti da un
+ manipolo di 303 SysOp (beh...incluso il nominativo 'I Bellissimi' nel net  332
+ che non ho potuto ...quantificare)
+
+  Se  si  escludono  i  servizi in Mail only, i punti di accesso ad un servizio
+ telematico classico, aperto all'utenza, scende a 322
+
+  Di questi solo piu' 27 hanno modem dichiarati a 2400 (magari hanno aggiornato
+ il modem ma non l'indicazione in nodelist..) e ben 280 possiedono un V32bis
+
+  Infine se escludiamo i nodi che non hanno l'indicazione CM, continous mail, e
+ che si puo' supporre (lo so  non  e'  esatto  al 100%....) non siano aperti al
+ pubblico 24 ore su 24, si arriva, finalmente, a 275 BBS.
+
+ Come si ripartiscono questi 322 sistemi?
+
+  Sono presenti in 85 (79 se si escludono i CM) dei 232 distretti telefonici in
+ cui e' divisa l'Italia (ogni distretto ha  un  proprio  numero  di  prefisso).
+ Ecco  una classifica delle prime posizioni (tra parentesi contando solo i CM):
+ Milano 45 (40), Roma 31 (29), Torino 15 (14), Bologna 14 (13), Napoli 13 (13),
+ Modena 11 (11), Venezia 10 (4), Varese 9 (8).
+
+  Guardiamo ora  una  classifica  organizzata  per  Regione,  intesa come luogo
+ geografico e politico in cui e' suddivisa l'Italia, ricordando che sono ancora
+ 3 le Regioni 'Vergini' da un punto di vista FidoNet (Valle d'Aosta,  Molise  e
+ Calabria).
+
+                      Lombardia       76
+                      Emilia Romagna  39
+                      Lazio           34
+                      Veneto          32
+                      Toscana         28
+                      Piemonte        24
+                      Campania        18
+                      Liguria         15
+                      Sicilia         14
+                      Friuli          13
+                      Puglia           8
+                      Abruzzi          6
+                      Marche           6
+                      Trentino-AA      5
+                      Umbria           2
+                      Basilicata       1
+                      Sardegna         1     (totale 322)
+
+  Gia',  direte  voi,  bell'elenco: che la Lombardia fosse in testa lo sapevano
+ tutti.  Vero.  E che ne dite se ci facciamo un bell'elenco rapportato pero' al
+ numero di abbonati al  telefono  (dati  di  fine  1992),  quasi a costruire un
+ indice di affollamento telematico (o preferite 'disseminazione telematica?)
+
+  Beh non ci crederete ma la Lombardia scende, cosi', al terzo posto.   Qual'e'
+ la Regione piu' telematica?
+
+  Il  Friuli  con  1  BBS  ogni  41570  abbonati,  e rimane in testa sia che si
+ consideri il totale abbonati sia se  si tiene conto solo dell'utenza domestica
+ (si scende a 1 ogni 31703).
+
+  In media in Italia c'e' un BBS ogni  73592  abbonati  (ovvero  1  ogni  57123
+ utenze residenziali).
+
+ Eccovi l'ennesima classifica:
+
+                      Regione        1 BBS ogni
+
+                      Friuli         41570 abbonati al telefono
+                      Emilia Romagna 46859
+                      Lombardia      54314
+                      Veneto         56420
+                      Toscana        58352
+                      Liguria        61056
+                      Trentino       77142
+                      Lazio          72834
+                      Piemonte       82617
+                      Abruzzi        81799
+                      Marche         96168
+                      Campania      101461
+                      Sicilia       130211
+                      Umbria        165651
+                      Puglia        167369
+                      Basilicata    197798
+                      Sardegna      585582.
+
+  Ovviamente la classifica serve  soprattutto  a dare un'indicazione di massima
+ della presenza della telematica amatoriale, e nella parte  bassa  ha  solo  un
+ significato   direi  simbolico.   Se  fosse  vera  la  considerazione  che  la
+ disseminazione dei servizi  e'  direttamente proporzionale all'utenza potremmo
+ concludere che  tale  classifica  ci  puo'  indicare  anche  la  distribuzione
+ 'qualitativa' tendenziale dell'utenza tra le varie Regioni.
+
+  Insomma  l'indice  di  affollamento telematico va preso con le dovute molle e
+ vuole essere solo un'indicazione di  massima, ritengo abbastanza valida, anche
+ qui non tanto  in  termini  quantitativi  assoluti,  quanto  di  distribuzione
+ relativa all'interno della realta' economica italiana.
+
+  Per   i   piu'   curiosi   segnalo   che  tale  classifica  non  si  modifica
+ sostanzialmente se ci si basa  solo  sull'utenza domestica.  Guardando piu' da
+ vicino, a livello di provincia, Udine  ha  1  servizio  ogni  17118  abbonati,
+ seguito  da Trieste, Livorno, Modena, Pisa, Bologna, Venezia, La Spezia, Forli
+ (inclusa Rimini), Varese, Milano (ogni 38491), L'Aquila.
+
+  Nel tentativo  di  risparmiarvi  l'elenco  completo  vi  segnalo inoltre Roma
+ (58115), Firenze (62805),Torino (70428), Napoli (78244), Palermo (93319).
+
+  Volete allargare l'orizzonte?  Vi  starete  sicuramente  chiedendo  che  cosa
+ significhi 1 BBS ogni 73592 abbonati rapportato al contesto europeo.
+
+  Ottima  domanda  che  denota un'interesse alle statistiche comunitarie ed una
+ predilezione per una visione cosmopolita della realta'.
+
+  E che mi consente di realizzare altri elenchi, da propinarvi elegantemente in
+ uno dei miei prossimi articoli.
+
+
+                                                                Franco Carcillo
+                                                                2:334/100.3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                       Modem ad alta velocita' ###
+ ############                                                         .mau. ###
+
+ Riassunto:
+         In  che posizione si trova il vostro modem come bonta' e qualita'?  Il
+        mio all'ultima (ho un SUPRA :( ). E gli ZyKEL ?  Leggete leggete...
+
+ ------------------------------------------------------------------------------
+
+                   Modem ad alta velocita': sono tutti uguali?
+
+  Alzi la mano chi osa ammettere  senza vergognarsi di avere downloadato questo
+ numero di telematicus con  un  modem  2400  "vulgaris"  (senza  correzione  di
+ errore, insomma), che pure ancora due o tre anni fa era considerato una scelta
+ piu`  che  dignitosa per una persona senza pretese.  I modem a 1200 si trovano
+ probabilmente solo piu` nei  musei  della  storia  della telematica e in certe
+ societa` che posseggono ancora i brontosauri targati SIP, e la  maggior  parte
+ dei  lettori  scommetto non ha mai visto un modem a 300 baud (io l'ho usato...
+ era qualcosa di ineffabile!)
+
+  E quali sono invece le scelte nel  campo dell'alta velocita`?  I modem a 9600
+ (quelli che usano il protocollo V.32, e  che  negli  Stati  Uniti  si  possono
+ oramai  trovare  a  200  dollari)  non sono mai stati troppo in voga da noi, a
+ differenza di quelli che supportano  il  V.32bis (i 14400, per intenderci).  E
+ c'e` la solita "minoranza tecnologica" che ha gia`  lasciato  tali  vette  per
+ protocolli proprietari in grado di trasferire dati a 16800 o addirittura 19200
+ bit  al  secondo  - senza tenere conto della compressione che si puo` ottenere
+ sui files di testo con il V.42bis, che a detta degli annunci pubblicitari puo`
+ anche quadruplicare il throughput effettivo.   In  fin  dei conti si preme per
+ introdurre  nuovi  standard  riconosciuti  ad  altissima  velocita`,  come  il
+ V.32terbo,  che  dovrebbe  arrivare  a  19200 bps full duplex, o il sussurrato
+ V.Fast che a detta degli  entusiasti  patrocinatori giungera` alla bellezza di
+ 28800 bit al secondo (beh, in condizioni  eccezionali,  in  caso  di  linee  -
+ americane,  non  pensate  ai  nostri disastrati collegamenti - molto pulite, e
+ magari solo in fase di luna calante per evitare disturbi di maree).
+
+  Il guaio e` che anche negli States  i prezzi dei modem V.32bis sono parecchio
+ piu` alti dei "vecchi" 9600.  Si parla di un prezzo "street market", cioe` non
+ di listino ma trovabile in giro, tra i 400 e i 600 dollari.   Dato  che  molta
+ gente  teme  che  in  realta`  i  14400  bps  siano una bufala e in condizioni
+ pratiche non si possa ottenere che una  frazione di tale velocita`, ci si puo`
+ chiedere se vale la pena di spendere tutti quei soldi  in  piu`.   La  rivista
+ "Data  Communication"  nel  numero  di luglio ha deciso di controllare se tali
+ voci corrispondessero a verita' e  si  e'  messa  a testare una cinquantina di
+ modelli  di  modem  differenti,  accomunati  dal  fatto  di  supportare  tutti
+ perlomeno la coppia V.32bis e V.42bis.  Nel seguito vi  mostrero`  alcuni  dei
+ risultati  ottenuti:  tenete comunque presente il fatto che il test effettuato
+ aveva una motivazione specifica  -  quella  di  dare consigli a un'azienda che
+ dovesse collegare tra loro delle filiali sparse -  e  quindi  non  sono  state
+ compiute prove di "comprensione" tra modem diversi, partendo dal principio che
+ verrebbero  eventualmente comperati modem dello stesso modello.  E' anche vero
+ che molte delle marche  menzionate  sono assolutamente ignote al sottoscritto,
+ ma cosa volete, noi siamo un mercato molto periferico...
+
+  D'altra parte, sono stati fatti alcuni tipi di test che non si  vedono  molto
+ spesso  nelle  riviste.   Piu`  precisamente,  sono  stati  eseguiti  test per
+ stabilire  la  reale  velocita`  massima  di  trasferimento,  utilizzando file
+ compressi di 128 KB, di file non compressi di vario tipo (un testo di 289  KB,
+ un  database  di  295 KB, un file di grafica di 325 KB); il tutto su una linea
+ pulita come quella di un PBX,  e sia in modo unidirezionale che bidirezionale,
+ per cercare eventuali differenze di prestazioni.  Il secondo insieme di  prove
+ e`  stato  fatto  su  una  linea resa artificialmente sporca con un insieme di
+ simulatori  di  condizioni  tipicamente  riscontrabili  nella  telefonia, come
+ distorsione per attenuazione,  scariche  a  frequenze  prefissate,  rumore  di
+ selezione  a  impulsi,  echi  e  simili.  Infine si sono provate le condizioni
+ estreme delle linee che si  possono  trovare  al  giorno d'oggi; ad esempio, i
+ link via satellite, che inducono un ritardo, i link digitali -  eh  gia`,  una
+ linea digitale e` pulita, ma cio` significa che il segnale analogico del modem
+ deve  essere tradotto via PCM in digitale e viceversa, e si possono incontrare
+ dei problemi  nella  conversione  -  e  un  link  misto analogico-digitale, la
+ disperazione di buona parte degli utenti italiani.  Vediamo  subito  in  breve
+ quali sono state le conclusioni tratte dagli sperimentatori.
+
+ -  Per  i  modem  V.32bis,  i  14.4  Kbit/s  non  sono  affatto un sogno.  Nei
+ trasferimenti in un singolo senso, la maggior parte dei modem testati superano
+ nel  caso  di  file  non  compressi   i   30  Kbit/s,  e  nel  caso  di  files
+ incompressibili i risultati sono tutti compresi tra i 13200 e i  13800  bit/s.
+ E  i  modem  ad  altissima  velocita`  hanno  cifre rispettivamente di 40 e 17
+ Kbit/s.
+
+ - La compressione dati 4-1  non  capita  mai  nel mondo reale.  Qualunque cosa
+ dicano i venditori, i file che vengono  spediti  in  pratica  non  riescono  a
+ reggere  un  rapporto di compressione 4-1 per tutto il tempo di trasferimento.
+ Nei test effettuati, il rapporto di compressione  medio era di 2.3 a 1, buono,
+ ma non certo pari a quanto dichiarato.
+
+ - Se la linea non e` pulita, le differenze cominciano  a  notarsi  sul  serio.
+ Piu` di un terzo dei modem testati ha passato le prove a pieni voti, ma quelli
+ che  non  ce  l'hanno  fatta hanno avuto dei gravi problemi: ad esempio, molti
+ modem sono sempicemente  bombati  nel  caso  del  trasferimento via satellite,
+ risultando impossibile  stabilire  il  collegamento.   I  modem  ad  altissima
+ velocita`  soffrono  di  questi  problemi  piu`  che  gli  altri, ma questo e`
+ comprensibile, dato che essi spingono al limite l'utilizzo della linea.
+
+ - Alcuni modem reggono il  trasferimento  nei  due sensi meglio di altri.  Per
+ alcuni, non c'e` alcuna differenza statistica nel throughput se un file  viene
+ trasferito  contemporaneamente  nell'altra direzione (alcuni hanno addirittura
+ registrato un leggero  *miglioramento*  delle  prestazioni...);  per altri, si
+ puo` persino arrivare a un 40% di peggioramento.
+
+ - Non e` vero che i modem "tascabili" funzionino  assai  peggio  di  quelli  a
+ dimensioni   standard;  in  realta`  le  loro  prestazioni  sono  generalmente
+ confrontabili con quelle dei loro fratelli maggiori.
+
+  Data Communication  ha  anche  dato  alcuni  giudizi  di  merito  nelle varie
+ categorie di modem.  Tra quelli ad altissima velocita`, non c'e` dubbio che il
+ piu`  veloce  di  tutti nei trasferimenti unidirezionali e` il Codex 3260 Fast
+ della Motorola, che afferma di giungere  ai  24 Kbit/s (e effettivamente ci va
+ molto vicino...   peccato  costi  1395  dollari  di  listino).   Nel  giudizio
+ complessivo,  pero`,  l'AT&T  Comsphere  funziona  meglio  (e  costa  solo 795
+ dollari...).  Piuttosto interessante il  fatto  che  molti costruttori di tali
+ modem affermino di usare uno  standard  di  fatto,  il  cosiddetto  V.32terbo;
+ peccato  che  esperimenti fatti hanno dimostrato che non esistono due modem di
+ marche diverse che riescano a  collegarsi  tra  di loro in V.32terbo...  Nella
+ categoria V.32bis standard, c'e` un gruppo di modem che ha mostrato eccellenti
+ risultati, con minuscole differenze tra di loro.  Nel caso di trasferimenti in
+ un senso, la palma della vittoria  arride  al  UDS  Fastalk  (845$),  che  nel
+ giudizio  complessivo  e`  affiancato  al  Boca  Modem  M1440E  (solo 495$: un
+ affarone, ammesso e non concesso che dialoghi bene con gli altri modem!) Tra i
+ modem pocket, il migliore e`  risultato  essere  il Megahertz P2144 (499$) sia
+ come  throughput  che   nella   performance;   nel   caso   di   trasferimento
+ bidirezionale,  i  piu`  adatti  sembrano  essere  l'E-Tech  1414  (399$) e il
+ WorldPort  14.4  della  US  Robotics  (649$).   Detto  tra  noi,  io  non sono
+ pienamente sicuro del modo  in  cui  gli  articolisti  hanno  tratto  le  loro
+ conclusioni: ma perlomeno ho tutti i dati a disposizione (sorrisino).
+
+  E per finire, ecco i risultati  dei  modem  di  cui ho sentito parlare qui in
+ Italia, in modo che possiate beccarvi a vicenda dicendo "il mio modem e`  piu`
+ veloce del tuo".  Ma ricordatevi che la velocita` non e` tutto: conta anche la
+ facilita` nel collegarsi con altri modem.
+
+  Nel campo dei trasferimenti con linea pulita, al primo posto della classifica
+ avulsa  e  in  settima  posizione  assoluta si piazza lo ZyXEL U1496+E, subito
+ davanti al...  Supra  FaxModem  v.32bis  -  incredibile  dictu  -  e allo Zoom
+ VFXv32bis, che hanno ottenuto praticamente gli stessi risultati.  L'unica vera
+ differenza si ha nei trasferimenti bidirezionali; mentre lo ZyXEL continua  ad
+ avere  la stessa velocita`, gli altri due perdono il 30%, il che significa che
+ scendono sotto i 1000cps  per  direzione,  2000  in  totale.  Nelle zone basse
+ della  classifica,  soprattutto  a  causa  della  loro  relativamente   scarsa
+ capacita`  di  compressione  dati,  stazionano  il Telebit Worldblazer e i tre
+ modem della US Robotics  (lo  Sporster,  il  Courier  e l'HST).  Mentre questi
+ perdono il 15% nel caso di trasferimenti bidirezionali, il Worldblazer  arriva
+ al  25% in meno.  Se si guardano i protocolli ad altissima velocita`, lo ZyXEL
+ e` il peggiore tra i 19.2,  ma  diventa  il migliore nel caso di trasferimenti
+ bidirezionali (il throughput negliesperimenti e` persino leggermente  maggiore
+ che  nel  caso  monodirezionale).   Tra i pocket modem, il Microcom Microporte
+ 4232bis Fax si comporta persino meglio dello ZyXEL, con forti perdite nel caso
+ bidirezionale (35%!), mentre il  WorldPort  14.4  della  US Robotics rimane in
+ fondo alla  classifica  nel  caso  monodirezionale,  ma  sale  in  cima  se  i
+ trasferimenti  vengono  eseguiti  nei  due sensi, dato che perde solo il 3% di
+ velocita`.
+
+  E se la linea non e`  poi  cosi`  pulita?  Lo ZyXEL perde alcune posizioni in
+ classifica generale, ma rimane di gran lunga il primo  tra  i  modem  che  sto
+ prendendo  in  considerazione; i maggiori problemi sono dati dalla conversioni
+ PCM multiple.  A meta` classifica  si  piazzano  lo Zoom, penalizzato dal link
+ via satellite, e gli US Robotics, con prestazioni piu` o meno costanti;  molto
+ in  fondo  alla  classifica  si  trova  il Supra, come molti suoi utilizzatori
+ magari avevano supposto, e il  Worldblazer,  che non sarebbe andato cosi` male
+ se non fosse per il fatto che la simulazione di trasferimento via satellite e`
+ durata circa il doppio del previsto.  Coi protocolli proprietari, lo ZyXEL  si
+ piazza  subito  dietro  il  Codex  3260  Fast  (che  dovrebbero  arrivare a 24
+ Kbit/s!), essendo penalizzato nel  caso  della  linea con conversione multipla
+ analogica-digitale; tra i modem tascabili, i risultati sono tra i peggiori:  a
+ livello del Supra, per intenderci.  Il Microporte si comporta male soprattutto
+ nel  caso  della  linea  via satellite, e il WorldPort nel caso di conversioni
+ multiple analogico-digitali.
+
+  Spero che tutti questi dati non vi abbiano spaventato; ricordate comunque che
+ tra un  modem  e  l'altro  ci  possono  essere  differenze  di  prezzo fino al
+ quadruplo, quindi magari perdere qualcosina nelle prestazioni non e`  poi  una
+ cosa  cosi`  tragica...   e  in  ogni  caso  e` meglio un modem che vada piano
+ piuttosto  che  uno  schizzinoso  che  voglia  solo  connettersi  con  i  suoi
+ "fratellini"!
+
+
+
+
+                                           .mau.
+
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   8  ###                                           THE USENET COOKBOOK ###
+ ############                                                 Roberto Piola ###
+
+ Riassunto:
+         L'inverno si  avvicina...   ecco  dove  recuperare  un  ricettario che
+        potra' farvi accumulare il  lardo  necessario  per  superare  i  rigori
+        invernali. Grazzie allo "smanattacchione" Roberto Piola!
+
+ ------------------------------------------------------------------------------
+
+                              THE USENET COOKBOOK
+
+  Vi ricordate di quando vi ho segnalato  il malloppone di "The Merit Cruise of
+ Internet"? Mentre me lo stavo scorrendo ho notato l'iconetta "Cucina". Slurp!
+
+  Sono cosi' venuto a sapere che sulla Rete circolano abbondanti  ricette;  per
+ chi  puo'  ricevere  le news c'e' il newsgroup alt.gourmand (una sorta di area
+ echo, ma gestita a  groupmail:  ogni  messaggio viene esaminato dal moderatore
+ prima di essere ridistribuito a tutti), e per gli altri?
+
+  Niente paura, golosastri telematici: esiste un ftp-site che  raccoglie  tutte
+ le ricette transitate nell'area, in una specie di The Best Of alt.gourmand.
+  Tale  ftp  site  e'  gatekeeper.dec.com; l'indirizzo numerico e' 16.1.0.2; la
+ ricetta e' semplicemente pub/recipes.
+
+  Attenzione, perche' le ricette la' sono  memorizzate in un formato che potra'
+ risultare notevolmente ostico agli msdossiani: innanzitutto, il nome del  file
+ (lungo fino a 31 caratteri) e' il nome della ricetta (una ricetta, un file), e
+ poi  ogni  ricetta  e' scritta per essere letta dall'utility troff di unix, un
+ sistema di  impaginazione  praticamente  standard  (in  unix), mediante alcune
+ macro che si trovano nella directory /pub/recipes/Programs.
+
+  Tale sistema sara' anche conveniente per chi lavora sotto unix,  ma  per  chi
+ non  puo'  permettersi  di tenere una partizione di qualche decina di mega con
+ unix solo per leggersi le ricette  e' un po' scomodo.  Rimando all'articolo di
+ .mau.  comparso sul numero di luglio (mi pare; o forse era giugno) per  sapere
+ che cosa significa unix...
+
+  Tra  l'altro, il pacchetto summenzionato non funziona granche' bene, o almeno
+ non sulle macchine a cui ho  accesso  io,  ed  ho dovuto faticare non poco per
+ farlo andare a puntino.
+
+  Il risultato di qualche giorno di lavoro folle ad editarmi files di macro con
+ sintassi oscura, ove tutti i comandi sono al massimo di due  lettere,  e  c'e'
+ differenza tra minuscolo e maiuscolo perche' senno' non basterebbe l'alfabeto,
+ e'  stato finalmente un gigantesco file di testo di circa 1.8 Mb, con tutto il
+ ricettario  in  formato  testo  semplice,  leggibile  con  LIST, eventualmente
+ stampabile e con tanto di indice.
+
+  A beneficio di coloro che non possono andarsi a prendere l'originale,  o  non
+ vogliono  perder  tempo  a  convertirselo, ho zippato il tutto e l'ho messo in
+ linea su WinFront  BBS;  il  file  si  chiama  USENCOOK.*  (non mi ricordo che
+ compattatore ho usato; probabilmente ZIP o ARJ), e lo trovate in  area  Cucina
+ sul 334/108 (tel.011-5681765).  La dimensione supera di poco il mezzo mega.
+
+  Le ricette vengono da tutto il mondo (Italia compresa), e ce n'e' per tutti i
+ gusti;  se  siete  cuochi  per  passione  o  per necessita', e non sapete come
+ spender scatti una sera, il file e' li' con la mia benedizione.
+
+                                 @    @    Ciao.
+
+                                 \____/    Roberto Piola, fidonet 2:334/108.57
+
+
+
+ ############                                                               ###
+ ###   9  ###                                   IL GERGO HACKER - PARTE 27  ###
+ ############                                   Eric S. Raymond             ###
+
+ Riassunto:
+         Continua l'attesissimo gerco hacker, che ha avuto lo scorso numero una
+        battuta di arresto. Speriamo non si ripeta piu'! :)
+
+ ------------------------------------------------------------------------------
+
+                                    {= M =}
+
+    <macdink>  /mak'dink/  [dall'Apple  Macintosh,  che si dice incoraggiare un
+ tale comportamento] vt.  Fare numerosi  e  non  necessari cambi cosmetici a un
+ programma o file.  Spesso il soggetto del m. ne  avrebbe  fatto  volentieri  a
+ meno.   Es.:  "Quando me ne sono andato via ieri sera alle 11, stava ancora m.
+ le slides per la sua presentazione".
+
+    <Macintrash> /mak'in-trash/ [lett.   "mac  nel cestino"] L'Apple Macintosh,
+ come descritto da un hacker che non apprezza l'essere tenuto lontano dal *vero
+ calcolatore* dall'interfaccia.  Vedi anche  <WIMP  environment>,  <drool-proof
+ paper>, <user friendly>.
+
+    <macro>  /mak'ro/  s.  Un  nome  (possibilmente  seguito  da  una  lista di
+ argomenti formali) eguagliata a  un'espressione  testuale alla quale essa deve
+ venire espansa (possibilmente con la sostituzione degli argomenti attuali)  da
+ un  traduttore  di  linguaggio.   Questa definizione puo` essere trovata in un
+ qualunque dizionario tecnico;  cio`  che  questi  non  vi  diranno  e` come la
+ connotazione hackeristica del termine  e`  cambiata  col  tempo.   Il  termine
+ `macro'  ha  origine nei primi assembler, che incoraggiavano l'uso delle macro
+ come un sistema di strutturazione e nascondimento delle informazioni.  Durante
+ i primi anni '70, i macro assembler  si trovavano dappertutto, e a volte erano
+ potenti e costosi come i linguaggi di alto livello, salvo poi passare di  moda
+ dato  che  le  migliorate  tecnologie  di compilazione hanno reso marginale la
+ programmazione in assembler (vedi <languages of choice>).  Al giorno d'oggi il
+ termine e` per lo piu` usato  in  connessione  col preprocessore C, il LISP, o
+ uno dei vari linguaggi speciali costruiti su una  facility  di  espansione  di
+ macro  (come  TeX  o  la  serie  UNIX  di nroff, troff e pic).  In effetti, il
+ significato si e` spostato a tal  punto  che il termine collettivo `macros' e`
+ ora a volte usato per  il  codice  in  un  qualunque  linguaggio  speciale  di
+ controllo di applicazione (sia che il linguaggio sia effettivamente tradotto o
+ no  via espansione di testo), come anche per altre "espansioni" come le "macro
+ di tastiera" supportato in alcuni editor di  testo  (e nei TSR PC e nelle INIT
+ Mac per aggiungere potenzialita` di tastiera).
+
+    <machoflops> [gioco di parole  su  "megaflops",  termine  per  "milioni  di
+ operazioni  floating  point  per  secondo"]  s.  Si  riferisce  ai  valori  di
+ performance  gonfiati  artificalmente  dai  costruttori  di  calcolatori.   Le
+ applicazioni  reali  sono  fortunate quando ottengono la meta` della velocita`
+ dichiarata.  I  m.  sono  quindi  simili  ai  consumi  di  carburante indicati
+ dall'ACI.  Vedi <benchmark>.
+
+    <macrology> /mak-ro'l@-jee/ s. Un insieme di macro solitamente complicate o
+ <crufty>, p.es.  una parte di un ampio sistema scritto in LISP, <TECO> o (piu`
+ raramente) assembler.  A volte studiare la m.  di  un  sistema  non  e`  cosi`
+ diverso  dall'archeologia,  da  cui  la costruzione simile del termine.  Prob.
+ influenzato da <ecology> and <theology>.
+
+    <macrotape> /ma'kro-tayp/ s. Un  nastro  standard industriale, opposto a un
+ <microtape>.
+
+    <magic> agg.  1. Al momento inspiegato, o  troppo  complicato  da  spiegare
+ (confr.  <automagically> e la Terza Legge di Clarke: "Una qualunque tecnologia
+ sufficientemente  avanzata  e` indistinguibile dalla magia").  "L'echo dei TTY
+ e` controllato da un  gran  numero  di  bit  magici".  "Questa routine calcola
+ magicamente la parita` di  un  byte  di  otto  bit  in  tre  istruzioni".   2.
+ Caratteristico  di qualcosa che funziona senza che nessuno capisca il perche`.
+ 3. [Stanford] Una caratteristica  non  generalmente pubblicizzata che permette
+ qualcosa di altrimenti impossibile, o una  caratteristica  un  tempo  in  tale
+ categoria ma ora svelata.
+
+    <magic cookie> [UNIX.  lett.  "dolcetto magico"] s. 1. Qualcosa passato tra
+ routine  e  programmi  che permette il ricevente di compiere alcune operazioni
+ oscure (v.  <obscure>); un identificatore  "opaco", o un token specifico.  Per
+ esempio, nei SO non UNIX che non hanno un modello di file a stream di byte, il
+ risultato di `ftell(3)' puo` non essere un offset in  byte,  ma  piuttosto  un
+ m.c.,  che  puo` essere passato a `fseek(3)' ma non operato direttamente in un
+ qualunque modo significativo.  2. Un  codice  all'interno del set di caratteri
+ per cambiare il  modo  grafico  (p.es.   video  inverso  o  sottolineatura)  o
+ compiere  altre funzioni di controllo.  Alcuni vecchi terminali lasciavano uno
+ spazio sullo schermo corrispondente ai c.  di cambio di modo; questo era anche
+ chiamato un <glitch>.  Vedi anche <cookie>.
+
+    <magic number> [UNIX/C: numero magico] s. 1. Dati speciali posti all'inizio
+ o vicino all'inizio di un file dati binario per indicare  il  suo  tipo  a  un
+ programma di utilita`.  Sotto UNIX il sistema e vari applicativi (specialmente
+ il linker) distinguono tra tipi di eseguibile cercando un m.n..  2. Nel codice
+ sorgente,  alcune  costanti  non  ovvie  il  cui  valore  e` significativo per
+ l'operazione di un programma ed e` inserito all'interno del codice, invece che
+ essere espanso a partire da un simbolo  per mezzo di un #define commentato.  I
+ m.n.  in questo senso sono cattivo stile di programmazione.
+
+    <magic smoke> [fumo magico] s. Una  sostanza  teorica  (detta  anche  "blue
+ smoke",  fumo  blu)  intrappolata  nei circuiti integrati che permette loro di
+ funzionare.  La sua  esistenza  e`  dimostrata  dal  fatto  che quando un chip
+ brucia, il m.s.  se ne va via, sicche` esso non funziona  piu`.   Vedi  <smoke
+ test>.
+
+    <management>   [direzione]  s.  1.  Potenti  elite  di  un'azienda  che  si
+ distinguono principalmente dalla  loro  distanza  dal  lavoro produttivo e dal
+ cronico fallimento nel dirigere (vedi anche <suit>).  Pronunciato  in  maniera
+ derisoria,  come  in  "Il  *Management*  ha deciso che..." 2. Miticamente, una
+ vasta burocrazia responsabile  per  tutte  le  irritazioni minori presenti nel
+ mondo.  Gli avvisi satirici pubblici degli hacker  sono  spesso  firmati  "The
+ Mgmt".
+
+    <mangle>  [lett.   straziare] vt.  Usato similmente a <mung> or <scribble>,
+ ma piu` violento nelle sue  connotazioni;  qualcosa  che  e` stato m. e` ormai
+ irreversibilmente e totalmente da buttare.
+
+    <marginal> agg.  1. Estremamente piccolo.  "Un  aumento  m.  della  memoria
+ puo`  fare  calare drasticamente il tempo di <GC>".  Nel linguaggio di tutti i
+ giorni, cio` significa che e`  molto  piu` semplice pulire la vostra scrivania
+ se si ha un posto dove mettere un po'  di  robaccia  mentre  la  si  mette  in
+ ordine.   2.  Di  merito  estremamente scarso.  "Questa nuova feature proposta
+ sembra piuttosto m., per  me".   3.  Di  probabilita` di riuscita estremamente
+ piccola.  "Il trasformatore era in ogni caso m.; nessuna  meraviglia  che  sia
+ saltato".   4. <marginally>: avv.  Leggermente.  "I panini sono solo m. meglio
+ che dal MacDonald".  Vedi <epsilon>.   5.  <marginal hacks>: s. Margaret Jacks
+ Hall, un edificio dove nei primi anni '80 sono stati spostati i laboratori  di
+ IA di Stanford.
+
+    <marketroid>  /mar'k@-troyd/  alt.   <marketing  slime>, <marketing droid>,
+ <marketeer>  [marchettaro]  s.  Appartenente  al  grupo  di  venditori  di una
+ compagnia, sp.  chi promette agli utenti che  la  versione  successiva  di  un
+ prodotto   avra`  caratteristiche  non  previste,  estremamente  difficili  da
+ implementare, e/o che violano le leggi  della  fisica; e/o uno che descrive le
+ caratteristiche (buone o cattive che siano) in modo ebolliente, con termini da
+ spot pubblicitario.  Denigratorio.  Usato dai tecnici.
+
+    <martian> [marziano] s. Un pacchetto spedito su  una  rete  TCP/IP  con  un
+ indirizzo  pari  all'interfaccia di loopback per test: 127.0.0.1 .  "Il nostro
+ server di rete sta ricevendo una quantita`  di pacchetti da Marte.  Ma ce l'ha
+ quel gateway un filtro marziano?"
+
+    <massage> [massaggiare] vt.  Vago  termine  per  descrivere  trasformazioni
+ "omogenee"   di   un   insieme   di  dati  in  una  forma  piu'  utile,  spec.
+ trasformazioni che non perdono informazione.   Indica meno dolore di <munch> o
+ <crunch>.  "Ha scritto un programma che  m.  le  bitmap  X  in  formato  GIF".
+ Confr.  <slurp>.
+
+    <meg> /meg/ s. Un megabyte; 1024K.
+
+    <mega-> /me'ga/ pref.  Vedi <kilo>.
+
+    <megapenny>  /meg'a-pen'ee/  s.  10000  dollari  (1 cent * 10e6).  Usato in
+ maniera semiumoristica come unita` per confrontare rapporti prestazioni/prezzi
+ per i calcolatori.
+
+    <MEGO> /mego/ o /meego/  [My  Eyes  Glaze  Over,  i miei occhi sono vitrei:
+ spesso Mine Eyes Glazeth Over.  Attribuito al futurologo  Herman  Kahn]  Anche
+ "MEGO   factor".    1.   Gesticolii   intesi   a  confondere  l'ascoltatore  e
+ sperabilmente indurlo ad essere d'accordo,  perche` non vuole ammettere di non
+ capire cosa sta succedendo.  MEGO e` di solito diretto ai dirigenti anziani da
+ parte degli ingegneri, e contiene un'alta  proporzione  di  <TLA>.   2.  escl.
+ Un'appropriata risposta alle tattiche MEGO.
+
+    <meltdown,   network>  [scioglimento  della  rete]  s.  Stato  di  completo
+ sovraccarico della rete; l'equivalente nella rete del <thrash>ing.  Vedi anche
+ <broadcast storm>.
+
+    <meme> /meem/ [meme; coniato da Richard  Dawkins in analogia con `gene'] s.
+ Un'idea considerata come un <replicator>.   Usato  spec.   nella  frase  `meme
+ complex'  denotante un gruppo di memi supportantesi mutualmente che formano un
+ sistema organizzato di credenze, come  una religione.  Questo dizionario e` un
+ vettore del m.c.  della "subcultura hacker"; ogni voce puo` essere considerata
+ un meme.  Pero`, "meme" e` spesso usato a sproposito col significato di  "meme
+ complex".   L'uso del termine indica l'accettazione dell'idea che negli uomini
+ (e presumibilmente altri  esseri  sapienti  che  usino strumenti e linguaggio)
+ l'evoluzione culturale attraverso la selezione di idee  adattive  ha  superato
+ l'evoluzione  biologica  attraverso  la  selezione  dei tratti ereditari.  Gli
+ hacker trovano questa idea congeniale per ragioni ovviamente tollerabili.
+
+    <meme plague> [pestilenze dei memi] s.  Il  diffondersi di un <meme> che ha
+ ottenuto successo ma e` pericoloso, spec.  uno che `parassitizza'  le  vittime
+ che  danno tutto per propagarlo.  L'astrologia, il BASIC, e le altre religioni
+ sono spesso considerati esempi di m.p.  .  Punto  a favore di questo uso e` il
+ fatto che ideologie `di unione' come il nazismo e varie forme di  millenarismo
+ cristiano  hanno  esibito  cicli  simili  alle  pestilenze,  con  una crescita
+ esponenziale seguita da un collasso a piccole `riserve' di popolazione.
+
+    <memetics> /me-me-tiks/ [memetica:  da  <meme>]  Lo  studio  dei memi.  Nel
+ 1990, esso e` ancora un'impresa estremamente informale e speculativa, anche se
+ i primi passi verso almeno un rigore statistico sono stati fatti da  H.  Keith
+ Henson  e  altri.   La  m.  e` un argomento popolare tra gli hacker, che amano
+ vedersi come gli architetti  delle  nuove  ecologie dell'informazione in cui i
+ memi vivono e si replicano.
+
+    <memory leak> [programmatori C/UNIX: perdita di memoria] s. Un errore nella
+ logica di allocazione dinamica di un programma  che  fa  si`  che  questo  non
+ reclami  la  memoria  non  piu`  in  uso,  giungendo  a  tentare  di  riempire
+ completamente  la memoria principale e finalmente collassare per l'esaurimento
+ della memoria.  Detto anche  (spec.   alla  CMU)  <core leak>.  Vedi <aliasing
+ bug>, <fandango on core>, <smash the stack>,  <precedence  lossage>,  <overrun
+ screw>, <leaky heap>.
+
+    <menuitis>  /men`yoo-i'tis/  [menuite]  s.  Malattia ipotetica sofferta dal
+ software  con  un'interfaccia  a   menu   ossessivamente  semplice  e  nessuna
+ possibilita` di uscita.   Gli  hacker  lo  trovano  intensamente  irritante  e
+ preferiscono assai la flessibilita` delle interfacce a linea di comando o tipo
+ linguaggio,  specialmente quelle costumizzabili via <macro> o un linguaggio ad
+ hoc in  cui  si  possono  codificare  utili  <hack>.   Vedi <user-obsequious>,
+ <drool-proof paper>, <WIMP environment>.
+
+    <mess-dos> /mes-dos/ [hacker  UNIX]  s.  Termine  irridente  per  l'MS-DOS.
+ Spesso  seguito  dalla  spiegazione  rituale  "Just  Say  No!"  [Ndt: c'e` una
+ famigerata pubblicita` americana che fa "Just  do it!", la NIKE.] Vedi MS-DOS.
+ Molti hacker (persino molti hacker MS-DOS) non sopportano l'MS-DOS per la  sua
+ natura single-task, per i suoi limiti sulla dimensione delle applicazioni, per
+ la  sua  interfaccia  brutta  e primitica, e per i suoi legami all'IBMita` (v.
+ <fear and loathing>).  Anche "mess-loss", "messy-dos", "mess-dog", "mess-loss"
+ "mess-dross" e varie combinazioni di questi.
+
+    <meta> /meta@/ o /mayt'@/ [dalla  filosofia  analitica] agg.  Un livello di
+ descrizione  piu`  in  su.   Percio`,  una  variabile  metasintattica  e`  una
+ variabile  nella  notazione  usata  per   descrivere   la   sintassi,   e   il
+ metalinguaggio e` il linguaggio usato per descrivere il linguaggio.  Questo e`
+ difficile  da  spiegare fuori da un contesto, ma molto umorismo hacker si basa
+ sulla deliberata confusione tra metalivelli [Ndt: esempio tipico e` il dialogo
+ "Dove vai?" "Al cinema."  "A  vedere  cosa?"  "Quo vadis." "E cosa significa?"
+ "Dove vai?" "Al cinema."...] Vedi <HUMOR, HACKER>.
+
+    <meta bit> /meta@ bit/ o /mayt'@ bit/ s. Il bit 8 di un carattere a  8-bit,
+ settato  alto  nei  valori  da 128 a 255.  Detto anche <high bit> (bit alto) o
+ <alt bit>.   Alcuni  terminali  e  console  (specialmente  quelle sviluppate a
+ partire dalle tradizioni LISP) hanno un tasto di shift META.  Altri (comprese,
+ mirabile dictu, le tastiere dei PC IBM) hanno un tasto ALT.  Vedi anche <bucky
+ bits>.
+
+    <microfloppies> [floppini] s. Floppy da 3 pollici e mezzo, opposti a quelli
+ <vanilla> da 5.25 pollici o minifloppy,  e  l'ormai  obsoleta  varieta`  da  8
+ pollici.  Questo termine sara` mandato in obsolescenza se i floppy da 5.25 non
+ saranno piu` usati, salvo rivivere se qualcuno lancera` uno standard minore di
+ tre pollici.  Vedi <stiffy>.
+
+    <microtape>  s. Occasionalmente usato per indicare un DECtape, opposto a un
+ <macrotape>.  Un DECtape e` una  piccola  bobina di mastro magnetico, di circa
+ 10 centimetri di diametro e due centimetri e mezzo di spessore.  A  differenza
+ dei  normali  driver  per  i  nastri  magnetici  standard,  i  driver per i m.
+ permettono l'"accesso casuale"  ai  dati.   Nel  loro  periodo di furore, essi
+ venivano usati piu` o meno come oggi si usa un floppy; come un mezzo minuscolo
+ e portabile per trasportare  file  e  programmi.   Apparentemente  il  termine
+ "microtape"  era  proprio il termine ufficiale usato in DEC per questi nastri,
+ finche` qualcuno assemblo` la parola  "DECtape", che naturalmente suonava piu`
+ sexy per i <marketroid>.
+
+    <middle-endian> agg.  Ne`  <big-endian>  ne`  <little-endian>.   Usato  per
+ l'ordinamento  di byte tipo 3-4-1-2 usato occasionalmente nei formati decimali
+ compattati di manifatturieri di minicomputer che rimarranno senza nome.
+
+    <millilampson> /mil'i-lamp-sn/ s.  Unita`  di  misura di quanto velocemente
+ puo` parlare una persona.  Molte persone viaggiano intorno ai 200 m. .  Butler
+ Lampson (un informatico teorico e implementatore di sistemi  tenuto  altamente
+ in  considerazione tra gli hacker) va a 1000.  Qualche rara persona parla piu`
+ in fretta.
+
+ <MIPS> /mips/ [acronimo] 1. Misura  di velocita` di computazione; formalmente,
+ "Millions  of  Instructions  Per  Second";  spesso  reso  dagli  hacker   come
+ "Meaningless  Indication  of  Processor  Speed"  [Indicatore non significativo
+ della  velocita`   del   processore].    Questo   gioco   di   parole  esprime
+ un'atteggiamento praticamente universale sul  valore  delle  affermazioni  dei
+ <benchmark>,  atteggiamento  che  e`  una delle grandi divisioni culturali tra
+ hacker e <marketroid>.  2. Il nome di un'azienda produttrice di chip RISC; tra
+ le altre cose, forniscono le CPU per la serie di workstation DEC 3100.
+
+    <misbug> [MIT] s. Una proprieta` non  voluta  di un programma che si rivela
+ essere utile; qualcosa che sarebbe dovuta essere un <bug> ma si rivela  essere
+ in realta` una <feature>.  Uso: raro.
+
+    <misfeature> /mis-fee'chr/ s. Una feature che a un certo punto da` fastidio
+ a qualcuno, possibilmente perche` non e` adeguata per una nuova situazione che
+ si e` sviluppata.  Non e` la stessa cosa di un baco, perche` correggere una m.
+ comporta  un  notevole  cambiamento  filosofico nella struttura del sistema in
+ questione.  Una m. e` diversa da un semplice effetto collaterale non previsto;
+ il  termine  implica  che  la   m.  era  stata  attentamente  pianificata  per
+ comportarsi in tal modo, ma le conseguenze o le circostanze future  non  erano
+ semplicemente  state  previste  accuratamente, il che e` diverso da non averci
+ pensato per niente.  Spesso quella  che  era  una  feature e` diventata una m.
+ perche` si era fatto un compromesso i cui parametri  sono  in  seguito  mutati
+ (magari  solo nel giudizio degli implementatori).  "Beh, si`, e` piuttosto una
+ m. il fatto che  i  nomi  dei  file  siano  limitati  a  sei caratteri, ma gli
+ implementatori originali volevano risparmiare dello spazio nelle  directory  e
+ per adesso siamo bloccati cosi`".
+
+    <Missed'em-five>   [piu`   o   meno  "mancano  in  5"]  s.  Termine  hacker
+ peggiorativo per lo UNIX AT&T System  V, generalmente usato dai partigiani del
+ <BSD> in modo bigotto.  Vedi <software bloat>, <Berzerkely>.
+
+
+
+                                           tradotto da .mau.
+
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  10  ###                       L'arte della programmazione - parte III ###
+ ############                       Mario Ricca                             ###
+
+ Riassunto:
+         Tanto tempo fa, e precisamente  nel  numero  26  [RRE]  e  27  [Artore
+        Londona],  avevo  iniziato  una  serie  di  articoletti sull'arte della
+        programmazione.  Ora l'unico  ad  aver  detto  qualcosa  a riguardo era
+        stato il "buon" Angelo Centina, ed era stato assolutamente negativo.
+
+         Ora  a  mio  -  modestissimo  -  parere  cio' che piu' manca a codesta
+        rivista,  certamente  piu'  per  carenza  nel  direttore  che  nei suoi
+        lettori, e' un po' di sana, ruspante cultura.  Cosa che certo non manca
+        al Mario Ricca.
+
+         L'Illustre, oltre tutto non facente parte della rete Fido, si e' fatto
+        premura di inviarmi questo suo  lavoro;  nella  speranza  che  qualcuno
+        possa rispondere e far nascere idee nuove...
+
+ ------------------------------------------------------------------------------
+
+         Riprende  la  corrispondenza  del  nostro  inviato   Artore   Londona.
+        L'argomento  della  ricerca  e'  noto (noto?!) : puo' la programmazione
+        assurgere alla dignita' di arte, ovvero puo' qualche programmatore, per
+        le  sue  attitudini  straordinarie,  essere  definito  artista?  Insod-
+        disfatto della qualita' del di battito locale, e  approfittando  di  un
+        contributo  C.E.E.,  Artore  Londona ha cercato la risposta in ambienti
+        estranei alla scienza della elaborazione elettronica.
+
+                              Buona meditazione.
+
+ ------------------------------------------------------------------------------
+
+  "Mi  ero  ricordato  di  un racconto di Borges che parlava della Citta' degli
+ Immortali, posta dalle parti delle pendici meridionali dell'Atlante.  Lasciata
+ Ninive e raggiunta Marrakech (Artore Londona si e' dilungato nella descrizione
+ del  viaggio,  avventuroso  e  pericoloso.   Se  qualcuno  e' interessato allo
+ argomento puo' consultare  i  manoscritti  originali, alla discarica pubblica,
+ N.d.D.) sono salito su un treno a trazione termica e a Zagora sono sceso.   Ho
+ cercato  una  guida  e organizzato una spedizione verso l'interno, acquistando
+ sul posto quanto necessario.  Quando la  guida  mi ha chiesto se sapessi usare
+ un fucile mitragliatore ho risposto troppo frettolosamente  di  no.   Ha  tri-
+ plicato  la richiesta e imposto la presenza di un amico ( omissis, vedi N.d.D.
+ precedente)...  Ci siamo ritrovati, cosi', sepolti nella sabbia, con solo la
+ testa fuori.  Ho urlato  con  quanto  fiato  avessi  in corpo, nel mio miglior
+ francese:" Je suis cittadine italien!!  Italie du nord!".
+
+  Il militare sulla torretta dell'autoblinda si volto' in basso e  disse  qual-
+ cosa ai camerati.  Uno apri' il portello, scese e mi butto' un'altra palata di
+ sabbia in testa.  Svenni...  Mi parve di svegliarmi in Paradiso, su una specie
+ di triclinio.  Anche  la  periferia  di  Bordj  Moktar  mi sarebbe sembrata il
+ Paradiso, visto che mi risvegliai.
+
+  Un fanciullo chino su di me mi rivolse la parola in una lingua che mi sembro'
+ il  greco  antico,  poi  mi  parlo'  in  latino.   Sbalordito  non  riuscii  a
+ rispondere.  Stavo  ancora  con  la  bocca  spalancata  quando  entro' un tipo
+ atletico, con un asciugamano intorno alla vita e  tutto  bagnato.   Parlo'  in
+ greco attico con  il  ragazzo  e  mi  chiese  (mi  parve),  in una sequela in-
+ terminabile di linguaggi, se parlassi questo o quello idioma.  L'italiano  era
+ piu'  o  meno  il  cinquantesimo.  Me lo stava chiedendo, forse, in una lingua
+ uralo-altaica quando riuscii ad articolare: "L'italiano va bene, va bene!".
+
+  "Benissimo, - mi disse - scusi  il  mio abbigliamento ma ero dall'altra parte
+ della strada, alle terme.  Come si sente?".
+
+  "Sono vivo?" chiesi.  Mi guardo'  perplesso:"  E' una domanda alla quale devo
+ rispondere  di  si', per il semplice fatto che mi viene rivolta da lei stesso.
+ Ritengo infatti di poter affermare con sicurezza che chi chiede se sia vivo,
+ e' vivo".
+
+ Mi fece una visita completa, controllo dei riflessi compresi.
+
+  "Dovrebbe mangiare un po'  meglio,  evitare  climi  ai quali non e' abituato,
+ frequentare migliori compagnie e, appena puo', andare  alle  terme.   Prenda
+ questo  farmaco  e  riposi.  Se ha fame, chieda.  Le sconsiglio, almeno per un
+ paio  di  giorni,  l'amplesso.   Ora  mi  scusi ma, capira', ho interrotto una
+ attivita' un po' particolare".  Diede un buffetto al ragazzino e mi disse dal-
+ la porta:" Non si affatichi.  Se non si sentira' meglio chieda di Ippocrate".
+
+  Scomparve.
+
+  Ero  nella  citta'  degli Immortali, abitata da coloro per i quali non si era
+ perduto il ricordo.
+
+  Mi misi alla ricerca di Socrate per  porgergli il mio quesito, vestito di una
+ tunica bianca.  Me lo indico' Tamerlano il Grande.  Mi parve un  po'  strano
+ che  Socrate  fosse quella bella fanciulla bionda, dai capelli piu' lunghi del
+ mantello del condottiero turkmeno.  Era  circondata da bei fanciulli, sotto un
+ portico dorico e questo mi sembro' piu' in carattere.
+
+ "Socrate, Socrate!", chiamai.  Socrate si giro' e mi auguro' buon giorno.
+
+  "Buongiorno",  risposi.   "Io sono...", mi presentai e poi finalmente chiesi:
+ "Puo' la programmazione assurgere alla  dignita'  di arte, ovvero puo' qualche
+ programmatore, per le sue attitudini straordinarie, essere definito artista?".
+ Socrate si butto' indietro una ciocca dorata con un vezzoso movimento del capo
+ e mi sorrise: "Che cosa e' la programmazione, mio caro?".
+
+  Gia', che ne sa Socrate della programmazione?  Fui colto dallo sconforto.  Da
+ dove cominciare?  E il concetto di  elaboratore  elettronico?   Cominciare  da
+ Pascal,  Leibnitz,  Babbage  e  Turing?  O dall' ENIAC?  Pensai ai chip da 128
+ Mbyte.  Il mio Amiga!  dov' era?  "Mi scusi Socrate", dissi  in  fretta  "devo
+ andare a prendere una cosa, per farle capire quello che intendo".  Mi girai
+ per scappare via e cercare l' Amigra.
+
+ S.:  "Aspetta"  mi  blocco' il filosofo "prova ad utilizzare la parola, non le
+        cose".
+
+ A.L.: "Ma io, io..." (Socrate rivolge a Londona un sorriso che lo scioglie)"va
+    bene.  Ecco, Socrate, immagina una  macchina nella quale possiamo inserire,
+    in qualche modo, dati e istruzioni che descrivano un problema, complesso  o
+    semplice che sia.  La macchina, grazie a principi fisici che sono avviati o
+    fermati  da  procedure  stabilite  da altre        istruzioni, che risiedono nella
+    macchina, utilizza i dati e le  istruzioni forniti da te per risolvere il
+    problema.  La  definizione  di  queste  e  quelle  procedure  e'  la  prog-
+    rammazione".
+
+ S.: "E' in verita' una macchina un po' particolare,  piuttosto  diversa  dalla
+    leva,  mi  pare.  Ma il concetto, per come lo hai espresso, mi sembra piut-
+    tosto semplice.  Ritieni  sia  utile,  per  i  tuoi  fini,  che io sappia i
+    principi fisici e quanto attiene la struttura meccanica della macchina?".
+
+  (Bella domanda per Londona, che ha bisogno di un  tecnico  per  collegare  la
+ stampante).
+
+ A.L.:  "Ritengo  che...   mm...  che in questa fase possiamo trascurare questo
+        aspetto".
+
+ S.: "E sbaglio a ritenere  che  i  principi fisici siano deterministici, cioe'
+        che ad una determinata causa nota corrisponda un solo effetto, e uno solo?"
+
+ A.L.: "Si, Socrate, e' giusto.  Naturalmente  un  certo  effetto  puo'  essere
+        determinato  da  piu' cause.  Ad esempio se chiedo alla macchina e alla sue
+        procedure residenti quanto fa 2+2, essa mi risponde 4. Ma  la  stessa  ris-
+        posta puo' essermi data se la domanda e' relativa al risultato di 3+1.  Nel
+        primo caso scatteranno processi fisici diversi che nel secondo, ma lo stato
+        fisico della macchine e' lo stesso".
+
+ S.: "E' una macchina deduttiva,  allora".   (a Londona viene in mente Sherlock
+    Holmes)
+
+ A.L.: "Ritengo che tu abbia ragione, o Socrate".  (Londona  ritiene  di  dover
+    usare una forma liceale per il vocativo, Socrate lo guarda ed e' un po' de-
+    lusa.  Londona si sente scemo)
+
+ S.:  "Non  ho  dubbi che gli atti fisici della macchina siano deterministici e
+        stabiliscano  la  deduttivita'  della macchina.  Se il problema si fermasse
+        alla fisica ritengo che la  risposta  alla  tua domanda sia ovvia.  Un pro-
+        cesso  deduttivo  non  appartiene  all'arte.  E' rigido, sempre uguale, ri-
+        petitivo e,  credo,  che  tu  convenga  che  questa  caratteristica non sia
+        dell'arte".
+
+ A.L.: "...".
+
+ S.: "Pero' mi parlavi di procedure...".
+
+
+
+                                                                   Mario Ricca
+
+
+
+  [NdE: riusira'  il  nostro  Artore  a  sgarbugliare  l'ingarbuglio?  riuscira'
+ finalmente a trovare la domanda finale all'eterna risposta?  Ma  -  cosa  piu'
+ importante di tutte - riuscira' a farsi Socrate?  Non mancate il seguito della
+ proxxima puntata!]
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  11  ###                                     NEWS DAL MONDO TELEMATICO ###
+ ############                                     AAVV                      ###
+
+ Riassunto:
+         Grazie alla preziosa collaborazione del Costa2 forse - forse - si puo'
+        iniziare  una  sporadica  informazione  sul mondo telematico IPER-FIDO.
+        Vedrem, vedrem...
+
+ ------------------------------------------------------------------------------
+
+                         AT&T compra la McCaw Cellular
+
+  La AT&T ha comprato per 12.6 bilioni  di dollari la McCaw Cellular, che copre
+ in  telefonia  cellulare  il  30%  del  territorio  USA,  nonche'  100  citta'
+ americane.   Con  questa  mossa  di  fatto  la  AT&T  elude  il  provvedimento
+ dell'anitrust americano che aveva diviso la Bell nei vari RBOC (Regional  Bell
+ Opearating  Companies).   Infatti ora, con la telefonia cellulare della McCaw,
+ l'AT&T copre tutte le fasce d'utenza, locale, statale ed internazionale.
+
+  L'interesse per la telefonia cellulare, un mercato in forte crescita in tutto
+ il mondo, ha raggiunto punte  notevoli.  Questa mossa influira' certamente sul
+ successo dei vari PDA (Personal Digital Agenda) come Newton, che vanta accordi
+ Apple-AT&T.  Chi vivra' vedra'!
+
+                                               Stefano Costa
+                                               Internet scosta@bix.com
+                                               Fido: Stefano Costa2 (2:331/306)
+
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-
+
+  [NdE: segnalo due articoli un po' stupidi,  in cui non si dice nulla di inte-
+ ressante, a proposito di Audiotel.  Sono apparsi  in  Linea  Edp  -  9/Lug/93.
+ Entrambi di Paolo Conti.  Riporto alcuni punti salienti]
+
+                  Arriva audiotel. Voci e dati alla cornetta.
+                    Sip, un monopolio cancellato dalla CEE.
+
+  In seguito alla liberazione del mercato  telefonico si aprono anche in Italia
+ le  frontiere  di  Audiotext.   Un business stimato 500 miliardi di lire per i
+ prossimi  5  anni  che  nasconde grosse opportunita' imprenditoriali.  Da set-
+ tembre sara' possibile stipulare un contratto specifico  con  il  gestore  na-
+ zionale.
+
+                                     -=O=-
+
+ ...
+  L'inaugurazione di Audiotext [NdE: prevista per settembre] (il nome  nostrano
+ di  Audiotext) e' stata resa possibile dalla deregulation causata da una serie
+ di normative CEE, che hanno  tolto  in  sostanza  a SIP il monopolio di questo
+ tipo  di  servizio  (gia'  da  tempo  la  societa'  [...]  forniva  in  regime
+ monopolistico  ora  esatta,  prenotazioni  telefoniche  e  servizi  vari,  che
+ generavano un  movimento  di  danaro  dell'ordine  delle  svariate  decine  di
+ miliardi di lire).
+
+  Dal  febbraio  '93,  nove  operatori  nazionali  stanno prendendo parte ad un
+ progetto pilota, che dovra' tracciare  le  direttive in vista della definitiva
+ liberalizzazione del mercato, che dovrebbe avvenire entro il mese di  ottobre.
+ Tra  questi  si  contano  societa' del calibro di Fininvest (gruppo editoriale
+ l'Espresso) e  RAI,  tutte  attratte  da  un  mercato  stimato  attorno ai 500
+ miliardi per i prossimi 5 anni.
+
+  Per ora i servizi offerti  [...] vanno dalle chatline all'oroscopo telefonico
+ e ancora da sistemi di messaggistica automatica all'ascolto di barzellette.
+
+ ...  In Italia comunque gli sforzi sono concentrati [...] anche  nel  definire
+ le  normative che dovranno regolarli.  [...] Ma la caduta del governo Amato in
+ aprile ha interrotto il progetto  di  legge.   [...] Sip ha agito per tutelare
+ l'utente finale [NdE: scusate se rido], con la definizione di una tariffazione
+ differenziata, che va dalle 400 alle 2500 lire al minuto.
+
+ ...  Potenzialmente a partire da  settembre  chiunque avra' la possibilita' di
+ stipulare un contratto con Sip per farsi assegnare un identificativo  Audiotel
+ (in  pratica:  un  numero  che  inizia per 144).  Costo annuale delle prima 30
+ linee (meno non e' possibile): circa 50 milioni di lire.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  12  ###                                    NOTIZIE FIDONET REGION 33  ###
+ ############                                    NEWS                       ###
+
+ [NdE: ecco in anteprima una notizia che gia' tutti conoscerete. Ma tant'e!]
+
+ = Original Message ==========================================================
+ * Area : Messaggi servizio EchoMail
+ * From : Vertigo, 2:331/301.0
+ * To   : TUTTI, 2:334/100.0
+ * Subj : Suddivisione area COMMS.ITA
+ * Forwarded by Franco Schinco on 2:334/100.0
+ =============================================================================
+
+ Accogliendo le numerose richieste in questo senso e dopo lunga discussione, la
+ maggioranza dei NEC (Net Echo Coord.) ha stabilito che l'area COMMS.ITA andra'
+ suddivisa nel modo che segue:
+
+                                 /----COMMS_MODEM.ITA
+                                /     (comunic. tramite modem)
+           COMMS.ITA ----------<
+  (comunicazioni in generale)   \
+                                 \----COMMS_PHONE.ITA
+                                     (telefonia & co.)
+
+ La variazione  entrera'  in  vigore  la  notte  tra  sabato  25  e domenica 26
+ settembre.  Nodi e backbone echo sono pregati di provvedere a  predisporre  il
+ tutto in modo che la variazione sia la piu' indolore possibile.
+
+ Ciao,
+ --V--
+ (NEC 331)
+
+ ===========================================================================
+
+                                *** net 331 ***
+
+ [NdE: Il buon Stefano Costa - sempre piu' attivo - ha una notizia...]
+
+ Nuovo nodo BT TYMNET in Italia
+
+  BT  ha  inaugurato  un  nuovo  nodo,  a Bologna, che risponde al numero (051)
+ 246578.  Come gli altri (vedi Telematicus n. 31) la velocita' del nodo e' 2400
+ baud, MNP classe 4.
+
+ [NdE: auguri, auguri!]
+                                              Stefano Costa
+                                              Internet scosta@bix.com
+                                              Fido: Stefano Costa2 (2:331/306)
+
+                                *** net 332 ***
+                            NESSUNA NUOVA RIPORTATA
+
+                                *** net 333 ***
+
+  [NdE: Il  net  333  ha  un  nuovo  NEC.   Ecco  come  si  sono susseguiti gli
+ avvenimenti dalla viva - ed imparziale - voce del  Melilli.   Ambasciator  non
+ porta pena :) ]
+
+ RR> chissa' chi e' il nuovo NEC... :)
+
+  E'  Franz  Antolini,  di  333/100, dopo una travagliata ri-elezione che aveva
+ visto dapprima Meggiato come vincitore, ma  era anche l'unico candidato, ed in
+ ragione di questo e  di  non  so  quale  comma  della  policy,  il  REC  aveva
+ invalidato la votazione ... [NdE: cose terribili accadono oggigiorno!]
+
+  In fondo e' andata bene cosi', Meggiato ha dato presto sfoggio della sua "ma-
+ turita'" prodigandosi in una serie di escandescenze del  tipo  di  quelle  dei
+ bambini  a  cui  qualche  compagno  ha rubato un giocattolo ...  [NdE: sei una
+ linguaccia!]
+
+ ------------------------------------------------------------------------------
+
+ [NdE: a proposito di linguaccia, ecco cos'e' successo al 333.  E' un matrixone
+ arrivatomi  da  Herve Miozzo - ormai un puntuale collaboratore, un PILASTRO di
+ Telematicus :) -. Una cosa  molto  bella.   Penso  che anche al 334 dovrebbero
+ fare una cosa del genere per me !] *:)
+
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-
+
+ Hello Renato!
+
+ Eccomi nuovamente per  inviarti  questa  mia  ulteriore  lettera,  in  realta'
+ dovrebbero essere delle notizie dal 333, pero', boh, vedi tu dove inserirla.
+ [NdE: mi sembrano notizie dal 333!]
+
+ Veniamo  al  motivo  di  questa  mia,  volevo  rendere  noto alla comunita' di
+ Fidonet, un'iniziativa che  e'  stata  portata  avanti  qui  da  noi, e che ha
+ coinvolto i nodi/point del Friuli.
+
+ Tutti noi conosciamo e stimiamo quello che e' uno  tra  i  vecchi,  ma  sempre
+ giovanissimo,  di Fidonet l'ormai MITICO Adolfo Melilli (a quando la carica di
+ RC VCC BCC ZX ZZ  ecc  :-)  ?),  bene  il  buon  Adolfo possedeva un modem che
+ costringeva i vari nodi/point ed utenti che fanno capo al suo Host ed  al  suo
+ BBS, a degli ossessionanti llegamenti a 9600, quando andava bene, perche' alle
+ volte ci costringeva anche a 2400, con immensa gioia di tutti !!.
+
+ Ebbene, ecco che quasi per gioco, con delle battute scherzose, nasce l'idea di
+ vedere se si potevano raccogliere dei fondi per contribuire a dotare il nostro
+ Host  di  un  modem  che  potesse definirsi tale, l'idea era di dotarlo di uno
+ Zyxel.
+
+ Inizia quindi la raccolta di fondi,  da  parte  degli utenti e dei point della
+ nostra regione, l'iniziativa ha un discreto successo, tenendo  conto  che  non
+ abbiamo  coinvolto  l'intero NET, abbiano raccolto una cifra significativa che
+ aggiunta a quando Adolfo ha messo  di  tasca sua, ha permesso l'acquisto di un
+ fiammante Zyxel modello E+, un bestione da 19200. [NdE: invidia, invidia!!]
+
+ Ci tengo a dire che questa iniziativa aveva due scopi principali, il primo, di
+ carattere nobile, tutti noi dobbiamo riconoscenza ad Adolfo per il lavoro  che
+ in  tanti  anni  ha  fatto  e  che  continuera' a fare per Fidonet, il secondo
+ motivo, meno nobile ma non  per  questo meno significativo, il risparmio sulla
+ bolletta, ebbene si' diciamolo, e' un grosso vantaggio per tutti avere un Host
+ con un modem serio.
+
+ Volevo, anche, farvi leggere due righe scritte da due  miei  point  quando  ho
+ comunicato loro che l'iniziativa aveva termine.
+
+ ============================================================================
+
+ - USER_PUB (2:333/511.20000) -------------------------------------- USER_PUB
+  Msg  : #640 [557] - 619 + 644
+  From : Francesco Pittoni                2:333/511.40    Tue 10 Aug 93 22:26
+  To   : Federico Ragnelli                                Thu 12 Aug 93 10:48
+  Subj : Un Modem Per L'Hoste :-)
+ ----------------------------------------------------------------------------
+ 10 Agosto 1993, Martedi, Federico Ragnelli a Herve Miozzo:
+
+  HM> Bene, siamo giunti alla fine della nostra raccolta di fondi per dare
+  HM> un contributo al nostro Amatissimo !!! Adolfo, in modo che possa
+  HM> mettere un modem + serio.
+  HM> [...]
+
+  FR> Ciao All,
+  FR> da questo risultato emerge che siamo alla grande la bbs a cui sta piu'
+  FR> a cuore un efficiente servizio fidonet, o siamo i piu' allocchi in
+  FR> regione!!!!!:-))) Ciaoooooooooooo. __ | |__HICCO
+
+ Credo che con un minimo di onesta` tutti abbiamo motivo di sentirci in debito
+ con Fidonet e con i vari operatori che mettono a disposizione tempo e denaro per
+ farla funzionare.
+
+ Ciao
+
+ /// Francesco
+
+ ---
+  * Origin: Francis Point Udine (FidoNet 2:333/511.40)
+
+ =============================================================================
+
+ Ogni  volta  che  c'e'  di  mezzo  il  denaro,  le persone cambiano, gli amici
+ diventano nemici ed i nemici amici, purtroppo e' cosi', ma almeno qui, abbiamo
+ dimostrato che questo non e' vero,  nessuno  si e' posto il problema se questi
+ soldi portavano un guadagno chi aveva organizzato il tutto, tutti  coloro  che
+ hanno contribuito lo hanno fatto senza porsi nessun problema, tutti sono stati
+ animati  dallo  spirito  di riconoscenza verso chi, come Adolfo spende tempo e
+ denaro per cercare di  far  funzionare  al  meglio  l  aracca, e con l'idea di
+ migliorare l'immagine e l'efficenza della rete.
+
+ Anche altre iniziative dovrebbero spogliarsi di inutili  polemiche  ed  essere
+ viste  non con l'ottica della fregatura o del guadagno altrui, ma essere viste
+ come un'opportunita' di migliormento per Fidonet.
+
+ Aloha !!
+
+                                                               Herve Miozzo
+                                                               2:333/511.20000
+
+ ------------------------------------------------------------------------------
+
+ [NdE: ed ecco  cos'ha  risposto  il  Melilli,  naturalmente  in  via del tutto
+ personale  al  sottoscritto.   Come  si  fa  con  la   corrispondenza   altrui
+ pubblicandola in rilegati libri di finta pelle :)]
+
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-
+
+ RR> ho avuto notizie di un nuovo modem! Complimenti, complimeti.
+
+  Si,  c'e'  molto  di piu', forse, dietro quel modem c'e' anche una lezione di
+ etica FidoNet, una vicenda  che  mi  ha  insegnato  un  sacco  di cose su come
+ proprio le persone che ti stanno piu' vicine, o verso le quali credi di  avere
+ piu'  "feeling"  sono  in  realta'  dei  misteri  inestricabili  di  apparente
+ menefreghismo, al di la' di ogni previsione .....
+
+  I  dati  parlano  da  soli,  il  mio  nuovo  modem  e' stato il frutto di una
+ sottoscrizione organizzata, senza nessuna interferenza  da parte mia, da Herve
+ Miozzo, di 333/511
+
+  Alla colletta hanno partecipato in  moltissimi,  tutti  point  ed  utenti  di
+ 333/511  (nota  bene,  NON  e'  il  mio  nodo!) ed altri nodi di Udine o della
+ provincia, molte  delle  persone  che  hanno  versato  soldi  non mi conoscono
+ nemmeno ....
+
+  Del mio BBS, solo DUE hanno versato  una  offerta,  tra  le  polemiche  e  le
+ invettive  degli  altri  .....   in che strano mondo viviamo ...  :-)
+
+                                                                Adolfo Melilli
+                                                                2:333/1.1
+
+ [NdE: e' vero!  io sto ancora aspettando che mi regalino  la  fotocompositrice
+ per darmi all'editoria, ed invece...  "nemo profeta in patria"!] :)
+
+                                *** net 334 ***
+
+ [NdE: mi giunse un messaggio  alquanto  strano ed...  inquietante!  - per fare
+ il giornalista -. Penso faccia gola a tutti gli smanettoni ed a  tutti  coloro
+ che  si  ostinano  a  sostenere  Windows sia una tecnologia!  :) In realta' ho
+ mandato un matrix ma o:  a)  Roberto  e'  ancora in vacanza.  b) la tecnologia
+ WARP ha ancora qualche problemuccio.  Comunque ecco.]
+
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-
+
+ - Fido-style Netmail Area (2:334/100.9) --------------------------- MAIL_DIR -
+  Msg  : 101 of 136 + 136            Pvt RRc
+  From : WarpGate                    334/108                28 Jul 93  07:14:12
+  To   : Renato Rolando              24100/9
+  Subj : articolo per Telematicus
+ ------------------------------------------------------------------------------
+
+ Your message has been moved from a FidoNet Technology Network to a WARP
+ Technology Network.
+
+ Stiamo implementando un nuovo sistema per la gestione del BBS, dello scambio di
+ messaggi e di tutto quanto: WARP.
+
+ All'interno di tali esperimenti, tutta la posta diretta al 2:334/108.57 sara'
+ rediretta in una directory in tecnologia WARP, per evitare che venga cancellata
+ dal renumber fido mentre Roberto e' in vacanza.
+
+ Se tutto va bene, al ritorno egli trovera' tutti i messaggi e vi rispondera'.
+
+ Se siete interessati al progetto WARP, filerequestate WARP.Z* da WinFront BBS
+ (334/108).
+
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-
+
+ [NdE:  ecco  un  favore  a  Paolo  Goria.   Da parte di chi non me lo ricordo.
+ Sorry.  Auguri Paolo. Comunque.]
+
+  Tra l'altro, se vuoi fare un favore  a Paolo Goria, nelle novita' del 334 di'
+ che King BBS, pur essendo ancora tagliato fuori dall'echomail, ha riaperto  al
+ nuovo numero 0121-397563 e con orario 22:00-7:00
+
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-
+
+ [NdE: c'e' un'altra nuova BBS a To - non FIDO, ma tant'e' - eccola qua:]
+
+ NUOVA BBS IN TORINO .... T-R-A-N-C-E   14.4  (ONLY GIFs)   11-482751
+                                               ^^^^^^^^^
+ [capito  mi  sono?   solo  disegnucci!   *:>  E  questa  pubblicita'  per quel
+ babbascione del Verdone che crede  non  mi  metta  a fare pubblicita' alle BBS
+ porno. OOooops!]
+
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-
+
+ [NdE: un ulteriore BBS di cui ho pescato l'annuncio in area TAM-TAM.334]
+
+ Ciao a tutti...
+
+ Ecco  che  nel  334  si  presenta un nuovo BBS, ricco di files, aree messaggi,
+ iniziative.  Il suo  nome  e'  House  Party  e  risponde al numero 0121-397563
+ (+39-121-397563); questo BBS ha soppiantato il vecchio King, troppo  pieno  di
+ problemi  e  di  down, ed e' pront per tutti voi.  Provate a chiamare dalle 22
+ alle 7 di ogni giorno e scoprirete un BBS diverso, che spero vi piacera'.
+
+                Nome       : House Party [FDN]
+                Nodo       : 2:334/306@fidonet.org
+                Telefono   : +39-121-397563
+                Orario     : 22.00-7.00
+                Velocita'  : 14400,8N1
+                Flags      : XX,MNP,V32B,V42B
+                Supportiamo: ISN, WinNet e VirNet (di cui siamo Hub)
+
+ Vi aspetto.
+                                                             |)
+                                                             | aolo.
+                                                      Sysop di House Party
+                                                           2:334/306
+
+                                *** net 335 ***
+
+  [NdE: ecco il nostro mi(s)tico Enrico Franceschetti (2:335/212) che ci infor-
+ ma sulle novita' del 335.  Bisognerebbe fare una colletta di matrix da spedire
+ all'Enrico come incoraggiamento.  Sembra infatti  che grazie alla sua preziosa
+ collaborazione Telematicus riuscira' ad avere le news del 335!  Manca ora solo
+ il 332 - il defunto Giovanni Lopes -. Speriamo bene in futuro!]
+
+ ------------------------------------------------------------------------------
+
+  RR> C'e' qualcosa di nuovo?
+
+  A parte crash vari dei nostri  beneamati computers...  non direi.  Abbiamo un
+ progettino  allo  studio  teso  a  verificare  la  possibilita'  di   ottenere
+ dall'utenza  una piccola contribuzione alle spese di gestione delle Bbs per il
+ nostro Hub.
+
+  In sostanza e  molto  in  sintesi  dovrebbe  andare  cosi': l'utente paga una
+ piccola quota mensile e, in cambio, ottiene l'abilitazione  su  tutte  le  Bbs
+ dell'Hub.
+
+  Ogni  Bbs,  poi,  ottiene  il  ricavato  della raccolta di contributi in base
+ percentuale rispetto alle spese  di  prelievo  della posta...  Se ti interessa
+ saro' piu' preciso... [NdE: siamo SEMPRE interessati agli spetteguless :)]
+
+
+
+
+
+ ------------------------------------------------------------------------------
+
+ Telematicus puo` essere  downloadato  dai  nodi  che ricevono la distribuzione
+ ISN.  Appena possibile - quando riusciro' a trovarlo - inseriro' in un file  a
+ parte il file con i nodi ISN.
+
+ ####                            End of TELEM033                           ####

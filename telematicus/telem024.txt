@@ -1,0 +1,1453 @@
+ #### TELEM024 - Telematicus - Volume 02 - Numero 12 - Anno 1992 - 66 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                Dicembre 1992                                
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di .mau.
+
+ ==============================================================================
+
+ Il materiale presente in Telematicus e` (C) dei singoli autori.     
+ E` espressamente consentita la distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 66 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .   .  pag.  4
+ [ 2]  I flag della nodelist .   .   .   .   .   .   .   .   .   .   .  pag.  5
+ [ 3]  Teledrin via modem, di Franco Carcillo    .   .   .   .   .   .  pag.  8
+ [ 4]  Software made in Italy: RFA, di Maurizio Giunti   .   .   .   .  pag. 10
+ [ 5]  Software made in Italy: RFAShell, di Giovanni Lopes   .   .   .  pag. 16
+ [ 6]  Crittografia - parte 1    .   .   .   .   .   .   .   .   .   .  pag. 23
+ [ 7]  Vivamiga, di Peter Ugone  .   .   .   .   .   .   .   .   .   .  pag. 31
+ [ 8]  Curiosita`: Il gergo hacker - parte 20    .   .   .   .   .   .  pag. 38
+ [ 9]  Notizie Fidonet region 33     .   .   .   .   .   .   .   .   .  pag. 54
+
+
+
+
+
+
+
+
+
+
+
+                  Questo Telematicus e` nato con l'aiuto di...
+  
+ Editor cruccus:        Maurizio Codogno | * I collaboratori dai network: *
+ Editor avvisator:       Franco Carcillo |
+ Editor mantenitor:      Maurizio Giunti | Vertigo (331/301)
+ Editor shellator:        Giovanni Lopes | Giovanni Lopes (332/108.2)
+ Editor subentrans:          Peter Ugone | Pietro Budicin (333/603)
+ Editor secretarius:     Giuseppe Scarpi | Franco Carcillo (334/100.3)
+                                         | Giovanni Pugliese (335/211)
+
+      ... e dei "saccheggiati"
+
+ Eric S. Raymond <esr@snark.thyrsus.com>
+ Charles Blair <ceblair@ux1.cso.uiuc.edu>
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                               ###
+
+      Carissimi lettori,
+ e` arrivato Natale anche quest'anno (o almeno diranno cosi` gli amici del  net
+ 335 che si lamentano di ritardi immani nella distribuzione. Io non so che far-
+ ci: il numero di novembre ad esempio e` stato uploadato da Davide Rolando il 4
+ novembre,  e sto scrivendo queste note finali il 30 novembre, in modo di  dare
+ agli hard disk il numero per domattina), e telematicus e` arrivato vivacchian-
+ do alla fine del suo secondo anno di vita.
+
+      Commenti? Beh, telematicus e` diventato una presenza rassicurante come la
+ mamma  o la pubblicita` dal Berlusconi: tutti danno per garantita la sua  esi-
+ stenza, rimane anche citato spesso nelle aree messaggi come "voce autorevole",
+ ma il lavoro continuo a doverlo fare quasi tutto io... (e smetto qui, prima di
+ ricevere i soliti pomodori marci via matrix).
+
+      Su, pensate a qualcosa di carino per l'anno nuovo...
+
+           ciaociao .mau.
+
+ ############                                                               ###
+ ###   2  ###                                        I FLAG DELLA NODELIST  ###
+ ############                                                               ###
+
+      Nel numero 21 di telematicus, Franco Carcillo aveva doviziosamente  spie-
+ gato  la struttura della nodelist, quel bel file che e` l'equivalente  dell'e-
+ lenco telefonico per sapere tutti i nomi e numeri dei bbs Fidonet della nostra
+ region oppure, per chi non ha paura di riempire un floppino, di tutto il  mon-
+ do. Vi ricorderete che gli ultimi dati corrispondenti ad un elemento della li-
+ sta  comprendevano dei nomi stilizzati che servivano per sapere varie  notizie
+ sul sistema in questione, come ad esempio se non e` interattivo ma  mail-only,
+ oppure che accetta solo le connessioni minimali in FTSC-1 (quelle senza zmodem
+ e  tutte le belle cose). Un'altra funzione importante dei flag e` indicare  il
+ tipo  di  protocollo di trasmissione dati che e` supportato  dal  sistema:  e`
+ chiaro che se devo downloadare un file in teleselezione preferisco un modem ad
+ alta velocita` compatibile col mio SuperTurboExtraSpeed, piuttosto che un 2400
+ vulgaris.
+
+      Bene, dato che ultimamente sono stati aggiunti alcuni nuovi flag per spe-
+ cificare  tali protocolli, ho pensato di riportarli qui sotto per la gioia  di
+ chi si e` sempre chiesto se erano caratteri casuali o no. Nella seguente lista
+ sono quindi presentati tutti i flag approvati, con il loro significato in ter-
+ mini di compatibilita`.
+
+ Flag      Significato
+  V21       CCITT V21      300 bps full duplex
+  V22       CCITT V22     1200 bps full duplex
+  V29       CCITT V29     9600 bps half duplex
+  V32       CCITT V32     9600 bps full duplex
+  V32B      CCITT V32bis 14400 bps full duplex
+  V33       CCITT V33
+  V34       CCITT V34
+  V42       correzione di errore LAP-M (con fallback verso MNP 1-4)
+  V42B      correzione di errore LAP-M (con fallback verso MNP 1-5)
+  MNP       correzione di errore Microcom Networking Protocol
+  H96       Hayes V9600
+  HST       USR Courier HST a 9600bps o piu`
+  H14       USR Courier HST a 14.4Kbps o piu`    <-- NEW ENTRY
+  H16       USR Courier HST a 16.8Kbps o piu`    <-- NEW ENTRY
+  MAX       Microcom serie AX/96xx
+  PEP       Packet Ensemble Protocol
+  CSP       Compucom Speedmodem
+  ZYX       Zyxel (a 16.8Kbps)                   <-- NEW ENTRY
+
+      Le raccomandazioni della nodelist forniscono anche dei default: i nodi  a
+ 1200bps (ammesso che ne esistano ancora cosi` tanti da meritare un trattamento
+ speciale) usano il V.22 nella zona 2 e il Bell 212A nelle altre zone; i nodi a
+ 2400 usano il V22bis. Poi, per chi non ci pensasse su, V32B implica V32 e V42B
+ implica V42; gli HST sono sicuramente MNP; H14 implica HST e H16 implica H14.
+
+      Insomma,  ci  sono flag per tutti... state attenti  nei  vostri  download
+ chilometrici!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                           TELEDRIN VIA MODEM  ###
+ ############                                                               ###
+
+      Le  chiamate al servizio di teleavviso personale, normalmente  effettuate
+ tramite  168, sono ora possibili anche via modem allo 036666.  Questo  numero,
+ operativo nei maggiori distretti telefonici, consente l'accesso ad un servizio
+ telematico - molto spartano - che provvede ad inoltrare il messaggio all'uten-
+ te desiderato. La chiamata e` imputata come traffico in teleselezione, e  per-
+ tanto  leggermente piu` onerosa della semplice chiamata al 168 che addebita  2
+ scatti.
+
+      Il servizio e` nato per consentire l'invio di messaggi per il nuovo  ser-
+ vizio di teleavviso alfanumerico, ma in effetti risulta utilizzabile anche per
+ chiamate  dirette a teledrin tradizionali (a sole cifre). Curioso notare  che,
+ anche  in quest'ultimo caso, diventa possibile inviare messaggi  composti  non
+ solo da cifre ma anche da alcuni caratteri (spazio, punto, trattino, U, E).
+
+      Se siete curiosi chiamate in 7-E-1 lo 036666, e al prompt ID= digitate  M
+ :  vi  verra` chiesto il numero del pager (ovvero del teledrin),  la  funzione
+ (digitare 4) e il messaggio da inoltrare. Il teledrin e` ricevibile normalmen-
+ te  su base locale, da poco e` stato attivato anche il servizio  nazionale  ed
+ europeo che consente, previo abbonamento, di ricevere le chiamate anche in zo-
+ na diverse da quella abituale. In questo caso pero` bisogna, ad ogni cambio di
+ zona, chiamare 168 e autolocalizzarsi, indicare cioe` la nuova zona  (l'Italia
+ e` stata divisa in 8 zone). Cio` vale anche per il servizio Euromessage, frui-
+ bile nell'Europa Occidentale. Per i piu` attenti alla moda segnalo l'arrivo di
+ teledrin trasparenti e colorati.
+
+                                    Franco Carcillo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                                  SOFTWARE MADE IN ITALY: RFA  ###
+ ############                                                               ###
+
+                RFA 3.00 - Remote BBS maintenance
+                =================================
+
+      Quando da normale utente ho fatto il grande salto di qualita' passando al
+ point, ho sofferto di gravi crisi di identita'. Allora davo una mano al  Sysop
+ (Claudio Boarino) occupandomi di un paio di aree files, solo che la  struttura
+ del  point  sembrava separarmi da queste aree. Fu in quel periodo che  per  la
+ prima  volta  pensai  ad un programma di collegamento tra i point  e  le  aree
+ files. Successivamente l'idea si e' evoluta e RFA e' diventato anche e soprat-
+ tutto un complesso software di manutenzione remota.
+
+
+      RFA <-> Remote File Administrator
+
+      RFA  e' un robot che scandisce l'area messaggi netmail: quando  trova  un
+ messaggio diretto a lui provvede ad eseguire i comandi in esso contenuti.
+      RFA ha un suo set di comandi interni specificamente studiati per i norma-
+ li  compiti di manutenzione aree files, controllo file attach e request,  file
+ search  su nome o stringa, etc. In piu' permette al Sysop un completo  accesso
+ al  Dos. Vediamo, ad esempio, come si potrebbe prelevare il log  del  D'Bridge
+ tramite RFA:
+
+      batch
+      c:
+      cd \db
+      pkzip dblog.zip dbridge.log
+      @
+      dload c:\db\dblog.zip
+
+      RFA, ricevuto questo messaggio da un utente autorizzato, provvede ad ese-
+ guire i comandi. Il comando BATCH dichiara  che cio' che segue, fino al simbo-
+ lo  '@' dovra' essere eseguito dal Dos, proprio come se fosse un  file  batch.
+ Invece  il comando DLOAD comanda ad RFA di mettere in file attach in  HOLD  il
+ file  specificato  verso il point che ha mandato il messaggio.  Al  successivo
+ poll  si otterra' un messaggio di risposta a quello di comando e in  piu',  se
+ tutto e' andato bene, il file DBLOG.ZIP.
+      In questo esempio il comando DLOAD e' stato utilizzato indicando il  per-
+ corso fisico del file DBLOG.ZIP sull'hard-disk. Questo, sebbene sia molto  co-
+ modo  per il Sysop, non permetterebbe di aprire l'uso di RFA a tutti i  point.
+ Infatti non tutti i point devono accedere al Dos, anzi la maggior parte di es-
+ si necessita solo di poter vedere il contenuto di alcune aree files. Per  que-
+ sto si e' reso necessario implementare in RFA un archivio di utenti e di aree.
+ Ogni area ha per RFA un nome e tutti gli utenti (tranne i Sysop) possono acce-
+ dere ad essa solo tramite quel nome; a sua volta, ogni utente e'  riconosciuto
+ da RFA tramite una triplice chiave: NOME, INDIRIZZO, PASSWORD per garantire il
+ massimo grado di sicurezza.
+      Ogni utente e' dotato di 2 livelli di accesso, uno verso i comandi (Clvl)
+ e l'altro verso le aree (Alvl). Un utente puo' "vedere" un'area se il suo Alvl
+ e'  maggiore o uguale a quello dell'area; similmente puo' usare un comando  se
+ il  suo Clvl e' maggiore  o uguale a quello del comando. In piu'  ogni  utente
+ puo' essere "nominato" gestore di una o piu' aree files: cio' significa che in
+ quelle aree, e solo in quelle, potra' essere dotato di un Clvl piu' alto,  per
+ esempio per permettergli l'uso di comandi piu' potenti per cancellare, rinomi-
+ nare, copiare files e descrizioni.
+      Abbiamo dunque visto 2 categorie di utenti, i Sysop e gli utenti normali,
+ che possono al limite essere gestori di area. RFA riconosce anche un altro ti-
+ po di utenti, gli utenti  PLEASE, che accedono ad RFA tramite la password uni-
+ versale PLEASE (un po' di buona educazione non guasta 8^)). Questi utenti  ac-
+ cedono ad RFA con Alvl e Clvl decisi dal Sysop nella configurazione, di solito
+ in maniera da limitare il loro accesso ai comandi indispensabili per la ricer-
+ ca  dei files. Infatti nell'idea originale gli utenti PLEASE servono per  per-
+ mettere ad RFA di realizzare un veloce ed efficiente servizio informativo  sul
+ software disponibile in linea.
+      Come?  Vediamolo  con  un esempio. Supponiamo  che  io,  Maurizio  Giunti
+ (2:332/102.1006), voglia sapere se sul 332/108 c'e' l'ultima versione di  Mer-
+ curio.  Sapendo che sul 332/108 e' installato RFA potrei mandare un  messaggio
+ di questo tipo:
+
+ From: Maurizio Giunti  (2:332/102.1006)
+ To: RFA   (2:332/108)
+ Sub: PLEASE
+ +------------- Text ------------------+
+ Search Merc*.*
+
+
+      Ricevuto  il messaggio, RFA operera' una scansione di tutte le aree  alle
+ quali  possono  accedere gli utenti PLEASE mandandomi indietro un  report  dei
+ programmi trovati. A questo punto, supponendo di aver trovato nell'area di RFA
+ $BBSSOFT il file che mi interessa, MERC110I.ARJ: posso allora procedere al fi-
+ le request diretto oppure posso prelevarlo via RFA, mandando un messaggio con-
+ tenente questo comando:
+
+ DLOAD $BBSSOFT\MERC110I.ARJ
+
+      RFA,  ricevendo questo comando, metterebbe in file-attach in hold per  me
+ (2:332/102.1006)  il file e mi manderebbe un messaggio per avvertirmi di  ese-
+ guire il poll.
+
+      Dunque  RFA si propone in primo luogo come interfaccia tra i point  e  le
+ aree files, sia per la manutenzione che per la diffusione di informazioni e la
+ gestione dei file-request. In secondo luogo, RFA offre altre features per ren-
+ dere  piu' facile la vita al Sysop: ad esempio il comando REQUEST. Vediamo  un
+ esempio:
+
+ REQUEST IC 2:332/108 MERC110I.ARJ $POINT Ottimo editor di messaggi
+
+      Questo comando fa creare un messaggio di file-request con priorita' Imme-
+ diate+Crash  al nodo 2:332/108 per richiedere il file MERC110I.ARJ. Quando  il
+ file  arrivera', RFA provvedera' a copiarlo nell'area $POINT e ad  assegnargli
+ la  descrizione "Ottimo editor di messaggi"; inoltre provvedera' a spedire  un
+ messaggio a chi ha comandato il request per avvertirlo dell'arrivo del file.
+
+      Non basta! RFA e' anche in grado di eseguire il routing dei files  accom-
+ pagnati dai .TIC, compatibilmente con lo standard stabilito dal programma TICK
+ di Barry Geller, e con in piu' il completo supporto degli indirizzi a 4 dimen-
+ sioni, delle descrizioni multilinea, ed altro ancora.
+
+      Per finire voglio sottolineare che RFA e' dotato di un programma di  con-
+ figurazione  interattivo a finestre interamente menu-driven, per rendere  piu'
+ agevoli i cambiamenti nella configurazione, che tra l'altro e' anche modifica-
+ bile in remoto tramite appositi comandi!
+
+      Per qualunque informazione rivolgersi a:
+
+                        Maurizio  Giunti
+                        (2:332/102.1006)
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                             SOFTWARE MADE IN ITALY: RFASHELL  ###
+ ############                                                               ###
+
+      RFA,  di Maurizio Giunti, e` un bellissimo programma che consente di  ge-
+ stire  tutta  la parte files di un BBS attraverso semplici  messaggi  netmail.
+ Copiare e cancellare files, aggiungere e modificare le descrizioni non e` piu`
+ un problema per il sysop che non ha il BBS a portata di tastiera: senza  biso-
+ gno  di  lunghi (e costosi) collegamenti puo` fare tutto quello  che  desidera
+ semplicemente con... l'editor di messaggi.
+
+      Chi  prova RFA se ne innamora subito, e comincia presto ad usarlo in  ma-
+ niera  molto pesante; ma, in questo modo, ne scopre anche un limite:  scrivere
+ una serie di comandi per RFA e` un po` come scrivere un file batch; se il file
+ batch e` breve non ci sono problemi, ma se e` lungo la cosa rischia di  diven-
+ tare  noiosa e la probabilita` di fare degli errori aumenta. D'altra parte  e`
+ anche  vero  che, se dovessimo fare sul nostro computer le stesse  azioni  che
+ facciamo via RFA, non ci sogneremmo mai di usare un file batch:  utilizzeremmo
+ direttamente i comandi DOS o, piu` probabilmente, un programma come il PcShell
+ o  il Norton Commander. E allora, mi sono domandato, perche` non fare un  pro-
+ gramma  che consenta di fare, con RFA, quello che il PcShell consente di  fare
+ con il Dos? Detto fatto, e` nato RfaShell. Grazie a RfaShell, il sysop che  ha
+ il  BBS lontano da casa e che ci ha installato Rfa, potra` lavorare sui  files
+ del BBS nello stesso modo con cui lavora su quelli presenti sul proprio compu-
+ ter,  con la sola differenza che i comandi vengono impartiti ad un  programma,
+ RfaShell, ed eseguiti da un altro, Rfa, in un altro posto.
+
+      RfaShell lavora solo e soltanto sulle aree files configurate in RFA;  non
+ ha quindi alcuna conoscenza di quelle che sono le directory reali del  sistema
+ su  cui deve lavorare. Se si prevede di voler gestire con RfaShell  anche  di-
+ rectory diverse dalle aree files del BBS, bisognera` definire anch' esse  come
+ aree files in RFA (ovviamente potremo attribuire a tali aree un livello che le
+ renda accessibili solo al sysop e ad eventuali "fedelissimi").
+
+      La cosa essenziale per un programma come RfaShell, che deve lavorare  sui
+ files presenti su un sistema remoto (il BBS), e` avere una conoscenza il  piu`
+ esatta  possibile  della  situazione  del remoto stesso.  Il  metodo  con  cui
+ RfaShell acquisisce queste informazioni si basa su due concetti  fondamentali:
+ 1)  Rfa invia ad RfaShell, per ogni area, le informazioni riguardanti  la  di-
+ rectory e il FILES.BBS separatamente le une dalle altre; 2) queste informazio-
+ ni vengono inviate non mediante dei messaggi, ma all'interno di files compres-
+ si che vengono spediti in file attach.
+
+      L'aggiornamento  della situazione sul remoto viene inviato da Rfa in  tre
+ situazioni  diverse: 1) quando un utente invia il comando ALLPACK:  in  questo
+ caso  viene creato un file compresso contenente le informazioni per  tutte  le
+ aree  a  cui il richiedente ha accesso; 2) quando un utente invia  il  comando
+ REQPACK, seguito dal nome simbolico di un'area files: in tal caso viene invia-
+ to  un file compresso contenente le informazioni relative a quell'area; 3)  in
+ maniera automatica: Rfa puo` generare automaticamente il file compresso per le
+ aree di cui l'utente e` moderatore, a condizione che la situazione sia cambia-
+ ta rispetto all'ultima volta.
+
+      Quando  il file compresso arriva a destinazione, deve essere  scompattato
+ nella directory di RfaShell, eventualmente sovrascrivendo i files gia` presen-
+ ti  (si suppone che quelli appena arrivati siano piu` aggiornati!).  Nel  file
+ compresso  che si riceve trova posto anche un file (SHINFO.RFA) contenente  la
+ lista  delle aree e dei comandi a cui l'utente ha accesso. Questo  file  viene
+ usato da RfaShell come file di configurazione; per questo motivo non c'e`  al-
+ cun  bisogno di configurare, in RfaShell, le aree una per una: se si  aggiunge
+ un'area files ad Rfa, verra` subito aggiunta anche in RfaShell. La sola confi-
+ gurazione  di  cui RfaShell ha bisogno e` quella relativa alla  creazione  dei
+ messaggi per Rfa: nome e indirizzo del mittente del messaggio, nome e indiriz-
+ zo  del  destinatario, soggetto (la password di Rfa), tipo  di  base  messaggi
+ (*.msg, QuickBBS o Squish), "coordinate' dell'area messaggi, priorita`.
+
+      L'interfaccia utente di RfaShell e` di tipo particolarmente avanzato  (e`
+ stata realizzata con le librerie TurboVision della Borland): ci sono finestre,
+ menu` a tendina, uso del mouse, e via dicendo. Vengono normalmente aperte  due
+ finestre contenenti ciascuna un' area files, un po' alla PcShell.
+      E' possibile copiare, muovere, cancellare e rinominare i files. Si posso-
+ no creare file attach per altri utenti, inviare files via route (tipo tick)  o
+ richiederli a Rfa in file attach; si possono aggiungere, eliminare e modifica-
+ re le descrizioni dei files, e c'e` anche un editor di testo per il files.bbs!
+ A questi comandi si aggiunge anche la possibilita` di utilizzare il  programma
+ ChkFile, per il controllo antivirus e la conversione di formato degli archivi.
+
+      Tutti i comandi impartiti dall'utente vengono simulati e registrati in un
+ apposito file di nome COMANDI.RFA; per esempio se si copia un file da  un'area
+ ad un'altra, vedremo subito, in RfaShell, l'effetto della copia e, al  contem-
+ po, verra` registrato nel COMANDI.RFA "copiare il file Pinco Pallino dall'area
+ Tale all'area TalAltra". La copia, sul sistema remoto, verra` eseguita da  Rfa
+ solo  in un secondo momento, quando Rfa ricevera` il messaggio  contenente  il
+ comando di copia.
+      Il  messaggio  viene creato da un programma esterno ad  RfaShell:  questo
+ programma  legge  il file COMANDI.RFA e crea un messaggio per  Rfa  contenente
+ tutti i comandi ivi memorizzati. Alla fine del messaggio inserisce un  comando
+ REQPACK per ciascuna delle aree su cui si sono fatti dei cambiamenti.
+
+      Quello che ci si domandera`, a questo punto, e` quanto possa essere peri-
+ coloso  questo  sistema di esecuziuone differita dei comandi  impartiti  dalla
+ shell. La pericolosita` e` molto piu` limitata di quanto potrebbe apparire  in
+ un  primo momento. Ci possono essere problemi quando la situazione di  qualche
+ area files viene modificata fra il momento in cui Rfa invia l' aggiornamento e
+ quello in cui riceve i comandi su quell'area: tuttavia e` bene tenere presente
+ che i comandi di Rfa non sono distruttivi, se si richiede la copia di un file,
+ e questo file nel frattempo e` stato rimosso, semplicemente la copia non  ver-
+ ra` fatta, e tutti i successivi comandi su quel file non andranno a buon fine;
+ quando  l'utente ricevera` l'aggiornamento conseguente all'invio dei  comandi,
+ avra` modo di vedere cosa e` effettivamente successo.
+      La  situazione oggettivamente piu` pericolosa e` quella in  cui  RfaShell
+ deve re-inviare al BBS un file di descrizioni (FILES.BBS) per una  determinata
+ area messaggi: il nuovo file andra` a sostituire quello vecchio e tutte le in-
+ formazioni contenute in quest'ultimo verranno perse. Ovviamente cio` e`  grave
+ solo nel caso in cui il file di descrizioni presente sul BBS sia stato modifi-
+ cato dopo l'ultimo aggiornamento inviato alla shell. Tipicamente cio` puo` av-
+ venire se nell'area arrivano files via route o se qualcun altro vi ha accesso.
+      RfaShell  cerca di evitare, quando possibile, l'invio di un file  di  de-
+ scrizioni in sostituzione di uno presente sul BBS; cio`, in effetti, e` neces-
+ sario  solo quando si cambia l'ordine dei files, si cancellano delle  inee  di
+ commento  o si modifica il files con l' editor di RfaShell.  Una  contromisura
+ drastica e` inibire, in Rfa, l' uso del comando Receive (usato dallo shell per
+ immettere in area i files inviati); oppure, piu` semplicemente, basta avere l'
+ accortezza di non lavorare su aree in cui arrivano files via route, e, se piu`
+ persone gestiscono le aree files del BBS, definire chi lavora su un'area e chi
+ su un'altra.
+
+      Dulcis in fundo, RfaShell ha un sofisticato sistema di gestione del file-
+ request, ovviamente sempre via RFA: e` possibile consultare le liste files  di
+ altri  BBS e far richiedere i files ivi contenuti all'RFA presente  presso  il
+ remoto.
+      Per  sfruttare questa possibilita` bisogna compilare le liste  files  dei
+ BBS da cui intendiamo "rifornirci", utilizzando un apposito programma, fornito
+ con  RfaShell.  Fatto cio`, si puo` entrare in RfaShell, selezionare  la  voce
+ Request del menu` Request (che fantasia, eh?) e scegliere il BBS da cui si vo-
+ gliono richiedere dei files (viene mostrata la lista dei BBS di cui si possie-
+ de la lista files compilata), dopodiche' non resta altro da fare che  selezio-
+ nare l'area files e il file da richiedere. E' possibile richiedere piu`  files
+ dalla stessa area, da aree files diverse, e a BBS diversi; RfaShell  memorizza
+ la  dimensioni  totale dei files richiesti a ciascun BBS, per evitare  cha  la
+ frenesia  file-requestatoria ci porti a collegamenti troppo lunghi e  onerosi.
+ Per ogni file richiesto e` anche possibile scegliere un'area del BBS come area
+ di  destinazione: in tal caso appena il file arrivera`, verra` messo subito  a
+ dimora  da  Rfa, con la stessa descrizione che aveva presso il BBS da  cui  e`
+ stato richiesto.
+
+                                        Giovanni Lopes
+                                         (2:332/108.2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                       CRITTOGRAFIA - PARTE 1  ###
+ ############                                                               ###
+
+ [NdE: Nel caso pensiate che non sia possibile fare della telematica senza  sa-
+ pere un poco dei fondamenti della crittografia (c'e` gente con delle idee mol-
+ to strane a questo mondo!) seguitevi queste "chiacchierate, tratte dalle  "No-
+ tes  on Cryptography" di Charles Blair, dell'Universita` dell'Illinois.  Visto
+ che non penso che molti di voi abbiano seguito corsi di teoria dei numeri,  mi
+ limitero` a citare la maggior parte dei teoremi senza dimostrazione; lo  scopo
+ principale di questa versione e` quella di dare un'infarinatura sulle tecniche
+ di crittografazione dei dati in uso al giorno d'oggi...  .mau.]
+
+
+      1.        SISTEMI DI CRITTOGRAFAZIONE
+     ====       ===========================
+
+      Innanzitutto, un <sistema di crittografazione> (encryption system) e` una
+ procedura che, a partire da un messaggio originale, o <in chiaro> (plaintext),
+ e un piccolo pezzo di informazione definita in precedenza tra il mittente e il
+ destinatario (la <chiave>), crea una versione codificata del messaggio  stesso
+ (il  <testo cifrato>, ciphertext). Negli esempi in seguito, si  supporra`  che
+ chi vuole craccare il testo conosca la procedura di cifratura e abbia a dispo-
+ sizione  il testo cifrato; insomma gli manca solo la chiave. Supponiamo  anche
+ che chi prepari il testo non cerchi di rendere piu` difficile l'attacco usando
+ parole o frequenze di occorrenza delle lettere che non siano standard, ma  che
+ si fidi della sicurezza offerta dal codice.
+
+      Altre  situazioni che possono sorgere in pratica, e che indeboliscono  la
+ sicurezza  del codice, sono quelle in cui il craccatore abbia  a  disposizione
+ sia il testo in chiaro che quello cifrato, in modo da potere cercare la chiave
+ (<knowm-plaintext attack>; e quella in cui si abbia a disposizione la macchina
+ cifratrice  cui possiamo dare in pasto un testo a nostra scelta, anche se  non
+ possiamo portarla via per ricavare la procedura (<chosen-plaintext attack>).
+
+      Vediamo ora alcuni esempi storici di sistemi di crittografia.
+
+
+  1.1.     Sostituzione semplice
+ ------    ---------------------
+
+      Questo e` il semplice sistema di sostituzione lettera per lettera  immor-
+ talato  da Edgar Allan Poe ne _Lo scarabeo d'oro_. La chiave e`  una  semplice
+ permutazione delle 26 lettere dell'alfabeto:
+
+                ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                actqgwrzdevfbhinsymujxplok
+
+      In questo modo, il testo in chiaro
+
+           THE SECURITY OF THE RSA ENCODING SCHEME RELIES ON THE
+           FACT THAT NOBODY HAS BEEN ABLE TO DISCOVER HOW TO TAKE
+           CUBE ROOTS MOD N WITHOUT KNOWING NS FACTORS
+
+      (che  per i curiosi che non conoscono l'inglese significa  "La  sicurezza
+ dello  schema di codifica RSA si basa sul fatto che nessuno e` stato in  grado
+ di  scoprire come calcolare le radici cubiche mod n senza conoscere ns  fatto-
+ ri") diventa
+
+           UZG MGTJYDUO IW UZG YMA GHTIQDHR MTZGBG YGFDGM IH UZG
+           WATU UZAU HICIQO ZAM CGGH ACFG UI QDMTIXGY ZIP UI UAVG
+           TJCG YIIUM BIQ H PDUZIJU VHIPDHR HM WATUIYM
+
+      Si puo` rendere il messaggio piu` difficile da decodificare (ma anche  da
+ leggere!) omettendo gli spazi tra le parole.
+
+      Questi messaggi possono essere di solito decodificati cercando le  coppie
+ di lettere che appaiono piu` spesso (in inglese, TH e HE sono di gran lunga le
+ piu`  frequenti; in italiano abbiamo nell'ordine ES, EN, LE e DE) e  riempendo
+ uno  alla volta i buchi rimasti; un'ottima spiegazione si trova per  l'appunto
+ nel summenzionato racconto di Poe.
+
+      Nella  situazione a testo noto, l'intero codice si ottiene quasi  subito.
+ Ma puo` capitare, come nel nostro esempio, che alcune lettere - J, P, Q, Y,  Z
+ -  non appaiano, sicche` non possiamo dire come sono codificate. Nel  caso  di
+ testo scelto, e` immediato ottenere tutto il codice.
+
+
+  1.2.     Il codice di Vigenere e i cifrari "usa e getta"
+ ------    -----------------------------------------------
+
+      Questo  codice  funziona rimpiazzando ogni lettera con un  altra  lettera
+ spostata di un certo numero di posizioni rispetto all'originaria. Ad  esempio,
+ J e` 5 posizioni dopo E; e D e` cinque posizioni dopo Y (Y,Z,A,B,C,D). Il  co-
+ dice in questa forma base si dice gia` essere stato usato da Cesare (che usava
+ uno  spostamento di tre caratteri), ma la cosa e` complicata dal fatto che  la
+ chiave e` ora una *successione* di valori di spostamento. Se la successione e`
+ lunga  ad esempio dieci caratteri, la prima, l'undicesima,  la  ventunesima...
+ lettera sono cifrate usando il primo elemento della chiave; il secondo proces-
+ sa la seconda, dodicesima, ventiduesima... lettera e cosi` via. Se  nell'esem-
+ pio precedente usiamo la chiave
+
+                        3 1 7 23 10 5 19 14 19 24
+ otteniamo
+
+                WILPOHNFBR BPMQRJKGTC QDVASSZGVF
+                HNLOOQBSLM QUOBPFVHMF DUULLTWMAY VCLBXFUZXR
+                REPPMTOSKF RXALDFDSVS EFYLYYLAHB QXPQRTNHDL
+                RXPKQSLTTA WPYP
+
+ (Abbiamo diviso il testo cifrato in gruppi di dieci lettere per comodita`.  La
+ divisione in righe e` arbitraria).
+
+      Al tempo della sua creazione (~1600) questo codice era considerato  inat-
+ taccabile, ma non e` realmente difficile da craccare. Supponiamo di immaginare
+ che la prima lettera sia una T. Questo significa che la undicesima lettera  e`
+ una Y, la ventunesima una N, ... Guardiamo ora le combinazioni di due  lettere
+ che si hanno con le varie possibilita` della seconda lettera:
+
+  TI YP ND EN NU AU SC OE OX BF NX OX TP (spostamento pari a 0)
+  TJ YQ NE EO NV AV SD OF OY BG NY OY TQ (spostamento 25)
+  TK YR NF EP NW AW SE OG OZ BH NZ OZ TR
+  TL YS NG EQ NX AX SF OH OA BI NA OA TS
+        (saltandone un po'...)
+  TF YM NA EK NR AR SZ OB OU BC NU OU TM
+  TG YN NB EL NS AS SA OC OV BD NV OV TN
+  TH YO NC EM NT AT SB OD OW BE NW OW TO (spostamento 1)
+
+      Quest'ultima riga e` la "risposta esatta". Anche se mostra diverse brutte
+ combinazioni (come NC, SB, NW), dovute soprattutto al fatto che l'ultima  let-
+ tera di una parola rimane attaccata alla prima della parola successiva, sembra
+ meglio delle altre righe. Una volta che la seconda lettera e` stata  identifi-
+ cata, si puo` allo stesso modo cercare la terza; il tutto si puo` automatizza-
+ re  semplicemente usando una tabella di digrammi. E` necessario  evidentemente
+ conoscere  la  lunghezza della chiave; ma per lunghezze non troppo  ampie,  si
+ puo`  provare tutte le possibilita` di lunghezza, scegliendo alla fine  quella
+ che  da` il risultato migliore. Gli attacchi a testo noto e testo scelto  sono
+ simili al metodo precedente.
+
+      Si noti pero` che, aumentando la lunghezza della chiave, si hanno  sempre
+ meno righe su cui lavorare. Il caso estremo e` quello in cui la chiave e` lun-
+ ga come il testo stesso; il codice ottenuto in questo modo non e` teoricamente
+ craccabile. Infatti, supponendo che la chiave sia scelta a caso, a ogni  testo
+ in  chiaro immaginabile corrisponde una chiave che da` il testo cifrato  dato.
+ Questo metodo e` stato molto usato dalle spie che devono comuncare con il  co-
+ mando;  esse avevano un taccuino contenente pagine e pagine di valori  casuali
+ (il  nomignolo  di "usa e getta" deriva dal fatto che ogni pagina,  una  volta
+ usata, non puo` essere riciclata e deve essere distrutta).
+
+
+  1.3.     Un sistema a trasposizione
+ ------    --------------------------
+
+      In questo sistema, supponiamo che ogni riga del messaggio contenga 63 ca-
+ ratteri (altrimenti mettiamo degli spazi alla fine). La chiave e` una permuta-
+ zione  dei numeri da 1 a 63, e ogni riga del testo e` riarrangiata  usando  la
+ permutazione. Supponiamo ad esempio che la chiave sia
+
+                1 11 21 ... 61 8 18 ... 54
+
+ (in realta` converrebbe usare una permutazione piu` complicata) e il testo  in
+ chiaro il solito: otteniamo
+
+
+  TTRNRT UHOMO SFECE HYSGEH REDEN E HNS E A LE I I  CTCE   O SI
+  FN  ET AHBCT  DNDO AOBTRA TALOO TY IW CBEO K  SEV  H AS  TOE HE
+  C HNO  OWOA     S  UMOGR  TIWC  RNK   BOU S  STIT  O NF  EDTN
+
+      Un metodo possibile di decodifica sceglie una colonna del testo cifrato e
+ chiede quali altre colonne possono seguirla immediatamente. Per esempio,  alla
+ decima  colonna (OBO) potrebbe seguire l'ottava (UAO), ma non la prima  (TFC),
+ perche` si otterrebbe l'improbabile combinazione di lettere BF.
+
+      Come sempre, piu` il messaggio e` lungo meno e` difficile da  decodifica-
+ re;  a differenza degli esempi precedenti, il fatto di avere degli spazi  com-
+ plica la vita. Cosa succede con un attacco a testo conosciuto? Beh, ad esempio
+ visto che c'e` solo una Y nella prima riga sappiamo che la colonna 12 del  te-
+ sto  in chiaro e` la 21 del testo cifrato, ma ad esempio non  possiamo  sapere
+ quali  sono i valori corrispondenti alle tre colonne con tutti spazi. Non  che
+ in  questo caso interessi, come al solito, ma potrebbe essere utile con  altri
+ testi.  Infine nel caso di un testo dato si puo` avere tutta la chiave  in  un
+ colpo solo.
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                                     VIVAMIGA  ###
+ ############                                                               ###
+
+                     Premessa
+                     --------
+
+      Ed eccomi di nuovo qui, amebe paglierine gratinate da una palla di  fuoco
+ (se non si e` capito gioco a D&D)! No, non sono RRE. L'Essere,dopo aver  deni-
+ grato il WC-DOS, ha seguito il famoso detto: "Chi disprezza compra" ed e` pas-
+ sato dall'altra sponda. RRE ha tradito la Fede che illumina tutti noi  amighi-
+ sti e per punizione divina e` diventato un PiCiu User 8-). Poco prima di  com-
+ piere il grande gesto mi ha implorato di scrivere un articoletto per telemati-
+ cus riguardo l'Amiga 4000. Quindi ecco tutto quello che avreste voluto  sapere
+ sul nuovo nato in casa Commodore ma non avete mai osato chiedere.
+
+                     L'Amiga 4000
+                     ------------
+
+      L'uscita ufficiale dell' A4000 ha messo fine alle discussioni senza  fon-
+ damento su voci di corridoio, comunicati beffa e documenti ufficiali  sfuggiti
+ dalle  mani di alcuni sviluppatori Amiga, discussioni su come fosse e di  come
+ avrebbe dovuto essere il nuovo nato in casa Commodore. Ma naturalmente non  si
+ smette mai di discutere, anche se adesso lo si puo` fare con qualcosa di  con-
+ creto tra le mani: un hardwaroso Amiga 4000 con i suoi pregi ed i suoi  difet-
+ ti.
+
+      L'A4000  si presenta con un case desk un po' piu` stretto di quello  del-
+ l'A2000 (a dire il vero esteticamente non mi piace, somiglia ad uno dei  tanti
+ WC  taiwanesi che ci sono in giro). Saltano subito all'occhio sul  frontale  i
+ posti per 2 drive da 3.5" (2 ipotetiche, in quanto la Commodore usa dei  drive
+ Chinon  molto alti che lasciano quindi posto ad una sola meccanica) e  una  da
+ 5.25"  molto utile per dischi rimovibili Syquest, CD-ROM, streamer  etc...  Le
+ prese  mouse/joystick, dopo aver abbandonato la comoda posizione sul lato  de-
+ stro della macchina, (Amiga 1000 e 3000) ed aver visitato il fronte ed il  re-
+ tro degli altri modelli Amiga, sono state piazzate sul lato sinistro del  case
+ (come se tutti al mondo fossero mancini). Il connettore della tastiera si tro-
+ va sul retro, insieme ai connettori della seriale, della parallela, dell'usci-
+ ta video (unica a 23 pin), dell'uscita audio e del drive esterno. All' appello
+ manca  il  connettore del controller SCSI, infatti non c'e`.  :-(
+
+      All'interno  c'e` ancora il posto per 2 Hard disk da 3.5" a fianco  dell'
+ alimentatore.  La parte elettronica del 4000 e` realizzata in tecnologia  SMT,
+ che  permette un costo minore di produzione ed una maggiore affidabilita`.  Su
+ tutto  spicca subito il processore (il Motorola 68040), che e` montato su  una
+ scheda  a parte su cui vi e` anche varia logica di controllo,  il  controllore
+ del  bus e l'oscillatore per il clock del processore. Soluzione  modulare  che
+ permette un facile upgrade della macchina, semplicemente sostituendo la scheda
+ processore  con una piu` potente. Sulla piastra madre del 4000  rimangono  gli
+ 8520 (seriale, parallela, drive, etc...), la memoria (ora in moduli SIMM  sem-
+ plici da montare ed economici), il BUS ZORRO-III (e` riportato orizzontalmente
+ con una scheda dove ci sono 3 slot ZORRO-III in linea a 3 slot AT e uno in li-
+ nea  allo  slot video) e il famigerato nuovo CHIPSET  AGA  (Advanced  Graphics
+ Architecture).
+
+      Oltre alla potenza del processore, il Motorola 68040, il 4000 e` caratte-
+ rizzato  anche dall' innovativo chipset AGA (Alice e Lisa). L'Amiga, nato  nel
+ 1984, e` stato per molto tempo un computer con una grafica eccezionale, veloce
+ e con molti colori. Adesso, a 8 anni di distanza, l'anzianita` si fa  sentire,
+ e se prima le prestazioni erano sufficienti per animazioni in bassa risoluzio-
+ ne a 4096 colori, adesso non bastano piu`. Il chipset AGA si puo` dire rivolu-
+ zionario  nella storia di Amiga (a parte la piccola parentesi  dell'ECS).  Pur
+ mantenendo  la compatibilita` verso il basso a livello di sistema, non e`  in-
+ stallabile  sulle  "vecchie" macchine a causa del passaggio dai 16 bit  ai  32
+ bit. Il passaggio da 16 a 32 bit, pur facendo mordere le mani a chi si e`  ap-
+ pena acquistato un A3000, porta ad un aumento di 4 volte la velocita' :-).  Le
+ risoluzioni ottenibili con l'AGA sono principalmente quelle dell'ECS e  cioe`:
+ 320x256,  640x256,  640x512,  320x512,  640x480,  640x960,  800x300,  800x600,
+ 1280x256, 1280x512 (chissa` perche` e` la stessa risoluzione dell'HDTV) ma  e`
+ possibile  definirne quante se ne vuole grazie alla programmabilita` dei  chip
+ grafici.  La vera novita` e` che in qualunque risoluzione si hanno a  disposi-
+ zione  8  bitplane e una palette di 24 bit quindi 256 colori da un  totale  di
+ 16.777.216, piu` i modi speciali HAM, EXTRA HALF BRITE, DUAL PLAYFIELD (con  4
+ bitplane  per  playfield) e il nuovissimo modo HAM8 che permette (a  patto  di
+ usare un buon algoritmo di codifica) di visualizzare immagini a 262.208 colori
+ (su  questo numero ci sono state molte discussioni. Io rimango di questa  idea
+ anche se molti insistono col dire che le immagini possono avere, pixel permet-
+ tendo, 16 milioni di colori) molto vicine a immagini a 24 bit puri (soprattut-
+ to ad alte risoluzioni con il dithering). Molti modi grafici sono  disponibili
+ a  frequenza di 15Khz (i vecchi modi NTSC e PAL e il super-hires  1280x256/512
+ tutti  facilmente  codificabili con genlock in segnali  compositi  o  luminan-
+ za/crominaza) molti nuovi modi grafici sono a frequenza di 31Khz (double  pal,
+ double NTSC, productivity), cioe` senza flicker sull'uscita (unica) a 23  pin.
+ Gli  sprite  ora possono essere anche in alta risoluzione e larghi fino  a  64
+ pixel con 16 colori.
+
+      La memoria CHIP e` di 2Mb ma dovrebbe arrivare a 8Mb. Come detto non c'e`
+ il controller SCSI. La Commodore ha pensato inutile aumentare il prezzo  della
+ macchina con un controller SCSI-II e relativo costosissimo HardDisk e cosi' ha
+ messo un controller IDE (AT-BUS) da poche lire e relativo HardDisk della  Sea-
+ gate. Saranno presto disponibili controller in standard SCSI e SCSI-II per bus
+ ZORRO-III  sia prodotti dalla Commodore sia da terze parti.  Sarebbe  comunque
+ meglio che la Commodore distribuisca il 4000 anche senza HardDisk  consentendo
+ l'acquisto di controller e HardDisk SCSI al posto del'IDE di serie.
+
+      Ed ora alcune considerazioni. La grafica a 8 bitplane consente animazioni
+ in real time (grazie alla minore occupazione di memoria sia RAM che di massa);
+ ottime per il Multimedia, ma per animazioni in Raytracing (ad esempio per  uso
+ pubblicitario) sarebbe meglio un output a 24 bit puri. Questo passo puo` esse-
+ re  piu` lungo della gamba, ma un passettino in piu` degli 8 bitplane non  sa-
+ rebbe  stato male. Per esempio usando 10 bitplane e 1024 registri  colore,  si
+ avrebbero  modi  video a 1024 colori e un modo HAM10 molto piu'  preciso  del-
+ l'HAM8:  8 biplane per dati (variazioni da 0 a 255) 2 bit di  controllo  (modo
+ registro  o  variazione della componente ROSSA,VERDE,BLU) 64  registri  colore
+ usabili (riduzione del fringing, sbavatura dei colori proprio dei modi HAM).
+
+      Viene  spontaneo paragonare due macchine basate sullo stesso  processore:
+ l'altra e` il NeXT. Ha il 68040, il DSP56001 (Digital Signal Processor  sempre
+ Motorola), display poscript con risoluzione 1120x832 monocromatico o a  colori
+ (4096  su  palette di 24 bit), monitor monocromatico o a colori, 16Mb  di  RAM
+ (exp. 128Mb), 400Mb di Harddisk SCSI e soprattutto UNIX con interfaccia  NeXT-
+ STeP  orientata ad oggetti con un'ottima dotazione standard di  software  (es.
+ Mathematica,  RenderMan, compilatori per vari linguaggi etc...). Il modello  a
+ colori costa intorno ai 17 milioni. Un modello monocromatico con diversa dota-
+ zione  di HardDisk e RAM costa circa 10 milioni. Il 4000, con harddisk da  213
+ Mb, si trova nei negozi a circa quattro milioni cioe` allo stesso prezzo  del-
+ l'A3000T.  Il prezzo non e` ovviamente definitivo e scendera` sicuramente  nei
+ prossimi mesi. [NdE: col dollaro che sta schizzando? :-( ] Quindi, rispetto al
+ NeXT,  costa meno ma la dotazione software e alcune caratteristiche  del  NeXT
+ sono indubbiamente superiori al 4000.
+
+      Da ultime notizie, ho saputo che e` uscito anche l' A1200, un simil  A500
+ con  MC68EC020  (BUS  indirizzi limitato a 24 bit quindi Max 16Mb  di  RAM)  a
+ 14Mhz,  2Mb di Chip RAM espandibile con altri 8Mb di FAST, chipset AGA,  posto
+ interno  per harddisk IDE da 2.5 pollici, drive etc... al costo  irrisorio  di
+ circa  800.000  lire. Si hanno cosi` macchine di fascia bassa e  alta  con  il
+ chipset AGA e architettura full 32 bit, manca solo piu` una macchina di fascia
+ media  (sostituto dell' A2000) con processore 68030 ad un prezzo di 2/2.5  mi-
+ lioni  di  lire. Speriamo che la Commodore ascolti gli utenti e  realizzi  una
+ scheda processore da inserire nello stesso contorno dell' A4000.
+
+      Per  adesso  mi fermo qui, aspetto risposte numerose in matrix  alle  mie
+ considerazioni. [NdE: illuso...]
+
+
+                                              PUP 2:334/100.10@Fidonet.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   8  ###                                    IL JARGON FILE - PARTE 20  ###
+ ############                                                               ###
+
+      <flamage> /flay'm@j/ [infiammatura] s. Messaggi con alto contenuto di ru-
+ more  e bassa di segnale su <USENET> o altri forum elettronici.  Spesso  nella
+ frase "the usual flamage" [la solita infiammatura].
+
+      <flame>  [fiammeggiare] 1. vi. Parlare incessantemente e/o con rabbia  su
+ un  soggetto relativamente poco interessante o con una attitudine  chiaramente
+ ridicola.  Quando  una discussione degenera in una inutile  controversia,  uno
+ puo` dire ai contendenti "ora state proprio f.", o "fermate tutto questo `fla-
+ mage'!"  per tentare (cosi` per dire) di raffreddarli un poco.  2. Postare  un
+ messaggio email che intende insultare e provocare. <FLAME ON> vi. Continuare a
+ fare flames. Vedi <rave>, <burble>. Il riferimento scherzoso alla Torcia Umana
+ dei  Fantastici  Quattro e` stato perso, tanto che l'uso recente  completa  il
+ cerchio: "Flame on" [Fiamma!] ora in genere significa "inizio delle f.".
+
+ Un utente USENET che e` stato dal 1972 al 1976 al WPI [Worchester  Polytechnic
+ Institute] aggiunge: Sono certo al 99% che l'uso di f. e` nato al WPI.  Quelli
+ che continuavano a insistere di avere bisogno di usare un TTY per "real  work"
+ cominciarono a venire chiamati "flaming asshole lusers" [<lusers> dal culo in-
+ fiammato].  Altra gente che rompeva particolarmente divenne  "flaming  asshole
+ ravers",  [donnaioli...]  che venne accorciato in "flaming ravers",  e  infine
+ "flamers". Ricordo qualcuno che tiro` fuori la battuta sulla Torcia Umana,  ma
+ non penso che "flame on/off" sia stato molto usato al WPI.
+
+      <flame bait> [esca per le fiamme] s. Un posting che intende fare  partire
+ una <flame war>, o uno che invita flames come risposta.
+
+      <flame war> [guerra di fiamme] s. Aspra disputa, specialmente se  portata
+ avanti  in  un forum elettronico pubblico tipo <USENET>. Spesso  contratto  in
+ un'unica parola, <flamewar>.
+
+      <flamer> [infiammatore] s. Uno che manda abitualmente flames. Detto spec.
+ di disgustose personalita` <USENET>.
+
+      <flap>  vt.  1. Smontare un nastro DEC (in modo che  faccia  flap,  flap,
+ flap...).  Vecchi hackers al MIT raccontano dei tempi in cui il disco  era  il
+ device 0, e i microtapes erano 1, 2, ..., e tentare di fare fare f. al  device
+ 0 significava invece che un motore cominciava a centrifugare in un cabinet vi-
+ cino  al disco!  2. Per estensione, smontare un qualunque nastro magnetico.  I
+ nastri attuali non fanno piu` flap, ma l'uso e` rimasto.
+
+      <flat-ASCII>  [ASCII piatto] agg. Detto di un file di testo che  contiene
+ solo  i  caratteri ASCII a 7 bit e usa solo caratteri  di  controllo  standard
+ ASCII (coie` non ha nessun codice interno specifico a un particolare formatta-
+ tore di testo, e nessun <META>carattere). Sin. <plain-ASCII>.
+
+      <flatten>  [appiattire] v. Togliere dell'informazione strutturale,  spec.
+ filtrare qualcosa con una struttura implicita ad albero ottenendo una semplice
+ successione di foglie. "Questo codice appiattisce un'espressione con parentesi
+ in una forma canonica (v. <canonical>) equivalente".
+
+      <flavor>  [gusto] s. 1. Varieta`, tipo. "I comandi DDT possono essere  di
+ due f.". "Queste lucette sono di due f., grandi e rosse oppure piccole e  ver-
+ di". Vedi <vanilla>.  2. L'attributo che fa si` che qualcosa sia  <flavorful>.
+ Usato spesso nella frase "da` un f. aggiuntivo". "Questa convenzione da` un f.
+ aggiuntivo  permettendo  di stampare testo sia con l'alto a destra  che  rove-
+ sciato". Vedi <vanilla>. Questo uso e` quasi certamente influenzato dalla teo-
+ ria  dei quark nella fisica particellare, dove i quark (i costituenti  ad  es.
+ dei protoni) possono avere sei f. (su, giu`, strano, incantato, alto, basso) e
+ tre colori (rosso, blu, verde) - l'uso MIT, pero`, e` quasi certamente  prece-
+ dente alla teoria dei quark.
+
+      <flavorful> [gustoso] agg. Che e` esteticmente piacevole. Vedi <random> e
+ <losing> come opposti. Vedi anche le voci <taste> e <elegant>.
+
+      <flippy> /flip'ee/ s. Un floppy disk single-side alterato per essere usa-
+ to su entrambi i lati aggiungendogli un secondo foro. Il nome deriva dal fatto
+ che il disco deve essere girato (flipped) perche` il secondo lato sia accessi-
+ bile. Non piu` di uso comune.
+
+      <flush> [pulir via] v. 1. Cancellare qualcosa, di solito superfluo.  "Ab-
+ biamo  f.  tutto  questo nonsense". terminologia  standard  ITS  per  indicare
+ l'abort  di un'operazione di output (ma notare il significato #4  sotto!);  si
+ parla  del testo che sarebbe dovuto essere stampato, ma non lo e` stato,  come
+ f. Sotto l'ITS, se si vuole listare un file al terminale, esso viene visualiz-
+ zato una pagina per volta; alla fine di ogni pagina viene chiesto se si  vuole
+ proseguire  la lettura, e in caso negativo il sistema risponde con  "FLUSHED".
+ (Si  specula che il termine sia sorto dalla vivida immagine di spazzare via  i
+ caratteri  non voluti annaffiando il buffer interno di output, lavando  via  i
+ caratteri prima che questi possano venire stampati). 2. Uscire alla fine della
+ giornata  lavorativa (opp. all'uscire per la pausa pranzo). "Time to  flush!".
+ 3.  Escludere qualcuno da un'attivita`, o ignorare una persona.   4.  [UNIX/C]
+ Forzare l'I/O bufferizzato su un disco, come con la chiamata `fflush(3)'. Que-
+ sto *non* e` un abort come nel significato 1, ma una domanda per completamento
+ in anticipo! Gli hacker UNIX trovano l'uso ITS confondente e viceversa.
+
+      <flytrap> [pigliamosche] s. See <firewall machine>.
+
+      <FOAF> [USENET] s. Acronimo solo scritto per Friend Of A Friend [amico di
+ un  amico]. La sorgente di una storia non verificata, possibilmente falsa.  Il
+ termine  non  e`  originario degli hackers (e` stato usato nel  libro  di  Jan
+ Brundvent sulle leggende metropolitane), ma e` riconosciuto molto piu`  facil-
+ mente su USENET e simili piuttosto che nel mainstream.
+
+      <foo> 1. inter. Termine di disgusto. 2. Nome usato per programmi tempora-
+ nei [NdE: come il nostro "pippo"], o esempi di nomi di tre lettere. Altre  pa-
+ role  simili sono <bar>, <baz> (corruzione di <bar> a Stanford),  e  raramente
+ RAG.   3. Usato molto genericamente come un nome di esempio per  assolutamente
+ tutto [NdE: di nuovo come il nostro pippo].  4. Il primo elemento della  lista
+ standard  di variabili metasintattiche usate negli esempi di  sintassi.   Vedi
+ anche:  <bar>,  <baz>, <qux>, <quux>, <QUUUX>,  <corge>,  <grault>,  <garply>,
+ <waldo>, <fred>, <plugh>, <xyzzy>.
+
+ <foo>  e` l'esempio canonico (v. <canonical>) di una `variabile  metasintatti-
+ ca': un nome usato negli esempi e che si intende stare per qualunque cosa  sia
+ sotto  discussione, o per un elemento a caso di una classe di cose  sotto  di-
+ scussione. Per evitare confusione, gli hacker non usano mai `foo' o altre  pa-
+ role simili come nomi permanenti per qualcosa.
+
+ L'etimologia  della parola hacker "foo" e` oscura. Quando e` usata  insieme  a
+ "bar" e` generalmente fatta risalire all'acronimo militare della Seconda Guer-
+ ra Mondiale FUBAR (Fucked Up Beyond All Recognition) [fottuto oltre ogni rico-
+ noscibilita`], purgato poi in <foobar> e infine troncato.
+
+ L'uso del termine stesso "foo" ha pero` antecedenti piu` complicati,  compren-
+ denti una lunga storia nelle strisce di fumetti e nei cartoni animati. La vec-
+ chia  strip `Smokey Stover' di Bill Holman comprende spesso la  parola  "FOO",
+ particolarmente  nelle  targhe automobilistiche. E` stata riportata  anche  la
+ presenza di "FOO" e "BAR" nei fumetti di `Pogo', di Walt Kelly. Daffy Duck  in
+ un cartoon del 1938 regge un cartello con su scritto "SILENCE IS FOO!" E`  an-
+ che  possibile che l'uso hacker derivi di fatto dal titolo `FOO, Lampoons  and
+ Parody'  di  un libro comico stampato per la prima volta vent'anni  dopo,  nel
+ settembre 1958; il titolo FOO era scritto in grandi lettere sulla copertina.
+
+ Molto  probabilmente il termine hacker "foo" non ha un'origine ben precisa,  e
+ deriva via tutti questo canali dallo Yiddish "feh", o dall'inglese "fooey!".
+
+      <foobar> s. Un'altra comune variabile metasintattica: v. <foo>.
+
+      <fool> s. Nell'uso hacker, descrive specificatamente una persona che  ra-
+ giona abitualmente da premesse errate in maniera ovvia o facilmente  dimostra-
+ bile, e non puo` venire persuaso a fare altrimenti dall'esperienza; non e` ge-
+ neralmente usato nei suoi altri significati, cioe` per descrivere una  persona
+ con una incapacita` nativa a ragionare correttamente, oppure un buffone. Anzi,
+ nell'esperienza  hacker  molti f. sono in grado di ragionare fin  troppo  bene
+ nell'eseguire i propri errori. Vedi anche <cretin>, <loser>.
+
+      <for  the rest of us> [slogan Mac] agg. Usato per descrivere un  prodotto
+ <spiffy> [ben fatto] la cui possibilita` di acquisto rispetto ad altri prodot-
+ ti  comparabili e` enorme, oppure (piu` spesso) usato sarcasticamente per  de-
+ scrivere prodotti <spiffy>, ma dal prezzo impossibile.
+
+      <foreground>  [UNIX: in primo piano] agg.,vt. In un sistema a  time-shar-
+ ing, un task eseguito in f. e` quello in grado di accettare input e  ritornare
+ output all'utente; opp. <background>. Normalmente, c'e` sono un task in f. per
+ terminale (o finestra del terminale); avere piu` processi che tentano simulta-
+ neamente  di leggere la tastiera e` un buon modo di perdere (v.  <lose>).  Per
+ est.,  f. un task significa portarlo in cima allo <stack> di processi  per  il
+ suo immediato processamento, e in questo senso viene spesso usato dagli hacker
+ anche per compiti non legati al calcolatore.
+
+      <forked>  [UNIX:  lett. biforcato] agg. Lento in maniera  impossibile,  o
+ piantato. Originato quando il sistema si rallenta a velocita`  impossibilmente
+ schifose, a causa di un processo che fa ricorsivamente copie di se stesso (per
+ mezzo  della  chiamata di sistema Unix `fork(2)') e si prende tutte  le  entry
+ della tabella dei processi.
+
+      <fortune  cookie> [UNIX: il biscottino della fortuna] s.  Una  citazione,
+ notiziola,  scherzo o massima a caso mandata al terminale  dell'utente  quando
+ questi  si collega o (piu` raramente) si scollega. Voci di questo jargon  file
+ sono state spesso usate come f.c.
+
+      <fossil> [fossile] s. 1. Nel software, una pessima feature che si  riesce
+ a  comprendere solo in un contesto storico, come residuo del passato  lasciato
+ solo  per ragioni di compatibilita`. Esempio: la ritenzione  dell'ottale  come
+ base di default per gli escape nelle stringhe C, nonostante nelle moderne  ar-
+ chitetture  indirizzabili  a  byte l'esadecimale  funzionerebbe  meglio.  Vedi
+ <dusty deck>.  2. In modo piu` ristretto, una feature con utilita` passata  ma
+ non  piu` presente. Esempio: il bit di forza-maiuscole (LCASE) nei driver  tty
+ dello UNIX V7 e <BSD>, sviluppati per l'uso con terminali senza minuscole.  In
+ una  perversione del solito obbiettivo di compatibilita` all'indietro,  questa
+ funzionalita` e` stata attualmente espansa e rinominiata in alcune  successive
+ release <USG UNIX> come i bit IUCLC e OLCUC.
+
+      <fred> s. Il nome personale usato piu` spesso come una variabile metasin-
+ tattica (v. <foo>). La sua popolarita` si dice derivare dal fatto che e`  sem-
+ plice digitarla su una comune tastiera QWERTY. E` anche detta essere un  acro-
+ nimo per "Flipping Ridiculous Electronic Device" (altri verbi inizianti per  f
+ possono sostituire "flipping")
+
+      <freeware> s. Software gratuito, spesso scritto da entusiasti e usualmen-
+ te distribuito via posta elettronica, BBS locali, <USENET> o altri media elet-
+ tronici. Vedi <shareware>.
+
+      <fried> [fuso: lett. fritto] agg. 1. Non funzionante a causa di  problemi
+ hardware: bruciato. Specialmente usato per hardware che si e` rotto a causa di
+ una  extracorrente, di un cortocircuito o comunque un evento  elettrico  (Alle
+ volte, i circuiti elettronici friggono letteralmente! In particolare, le resi-
+ stenze possono bruciare e i trasformatori fondere, esalando un fumo di un odo-
+ re terribile. Pero` il termine e` anche usato metaforicamente). 2. Di persone,
+ esausto. Detto particolarmente di chi continua a lavorare in un simile  stato.
+ Spesso usato come spiegazione o scusa. "Si`, lo so che quella modifica ha  di-
+ strutto il file system, ma ero f. quando l'ho fatta".
+
+      <frob>  /frob/ 1. s. [MIT] La definizione ufficiale del Tech Model  Rail-
+ road Club era "FROB = braccio o perno che si protende", e per estensione meta-
+ forica un qualunque oggetto piccolino; un oggetto che si puo` tenere conforte-
+ volemnte  in mano; qualcosa insomma che si puo` "frobbare".  Vedi  <frobnitz>.
+ 2. v. Forma abbreviata di <frobnicate>.  3. [dal mondo <MUD>] Richiedere  pri-
+ vilegi di <wizard> per `cortesia professionale', sulla base del fatto che  uno
+ e` gia` wizard da un'altra parte.
+
+      <frobnicate> /frob'ni-kayt/ [pacioccare?] vt. Manipolare o sistemare, re-
+ golare.  Quindi:  "Per  favore, f. l'interruttore della luce"  (vale  a  dire,
+ schiacchialo),  ma anche "Smettila di f. quel fermaglio; lo  romperai".  Poss.
+ derivato  da <frobnitz>. Solitamente abbreviato in <frob>, ma <frobnicate>  e`
+ riconosciuta come la forma ufficiale completa. Cosi` si ha il detto "To frob a
+ frob"  [piu`  o  meno "pacioccare un coso"]. Vedi <tweak>  e  <twiddle>.  Uso:
+ <frob>, <twiddle>, e <tweak> alle volte connotano punti su un continuo. <frob>
+ connota una manipolazione senza scopo; <twiddle> [spazzare, lett. gingillarsi]
+ una  manipolazione grossolana, spesso una rozza ricerca per un settaggio  cor-
+ retto;  <tweak> [settare, lett. dare un pizzicotto] connota  un  aggiustamento
+ fine. Se qualcuno che sta girando una manopola di un oscilloscopio la sta  gi-
+ rando a poco a poco, sta probabilmente settandola; se la sta semplicemente gi-
+ rando, ma guarda lo schermo, sta spazzando; ma se lo fa semplicemente  perche`
+ girare una manopola e` divertente, allora la sta f.. La variante  "frobnostic-
+ ate" e` stata recentemente riportata.
+
+      <frobnitz> /frob'nits/, pl. <frobnitzem> /frob'nitsm/ s. Un oggetto fisi-
+ co non specificato, un widget. Si riferisce anche a scatole nere elettroniche.
+ Questo  raro vocabolo e` di solito abbreviato in FROTZ, o piu` comunemente  in
+ <frob>.  Sono anche usati "frobnule" and "frobule". A partire forse dal  1979,
+ "frobozz"  (/fruh-bahz'/), plurale "frobbotzim" (/fruh-bot'z@m/) e`  anche  d-
+ iventato molto popolare, soprattutto per il suo utilizzo come nome in  <Zork>.
+ Tutti questi nomi possono anche essere applicati a oggetti non fisici, come le
+ strutture dati.
+
+      <frog> [ranocchio] alt. `phrog' 1. inter. Termine di disgusto (sembra che
+ ne  abbiamo proprio molti).  2. Usato come nome per praticamente  tutto.  Vedi
+ <foo>.  3. s. Di cose, un macinino. Di persone, qualcosa tra un tacchino e  un
+ rospo.   4. <froggy>: agg. Simile a <bagbitting>, ma piu` leggero. "Questo  f.
+ di un programma ci mette una vita a girare!"
+
+      <front end> s. 1. Un calcolatore sussidiario che non fa molto.  2.  L'en-
+ tita` con cui si sta parlando quando si ha una conversazione con qualcuno  che
+ risponde senza fare attenzione a cosa e` stato detto. "Guarda quegli  elefanti
+ che  volano!"  "Ah, si`." "Ma hai sentito che cosa ho appena  detto?"  "Scusa,
+ stavi parlando al f.e..".
+
+      <frotz> /frotz/ 1. n. See <frobnitz>.  2. <mumble frotz>: Un'interiezione
+ di disgusto molto lieve.
+
+      <frotzed> /frotzt/ agg. Giu` (v. <down>) a causa di problemi hardware.
+
+      <fry>  [fondere, lett. friggere] 1. vi. Guastarsi. Detto specialmente  di
+ guasti hardware che producono fumo. Piu` in genere, diventare non funzionante.
+ Uso:  mai  per il software, solo per hardware o uomini. Vedi  <fried>,  <magic
+ smoke>.  2. vt. far guastare, di hardware (v. <roach>, <toast> o <hose>).  Mai
+ usato per software o uomini.
+
+      <FTP> /ef-tee-pee/, *non* /fit'ip/ 1. s. Il File Transfer Protocol per la
+ trasmissione  di  file tra sistemi sull'Internet.  2. vt. Trasferire  un  file
+ usando il File Transfer Protocol. 3. Alle volte usato in maniera generica  per
+ la  trasmissione di files anche non via <FTP>. "Fammi FTPare questa  copia  di
+ Wuthering Heights da uunet."
+
+      <fuck me harder> [fottimi piu` forte] escl. Pronunciata a volte in rispo-
+ sta  a malfunionamenti madornali, sp. in software, e sp. quelli  che  sembrano
+ impossibilmente  persistenti (come se progettati da un  diavoletto  perverso).
+ Spesso  elaborato in maniera teatrale: "Arrrgghhh! F.m. con un battipalo e  un
+ palo di ferro battuto di cinque metri intinto nel curaro *e senza vaselina*!".
+ La frase si e` a volte sentita abbreviata come FMH in compagnie educate.
+
+      <FUD wars> /fud worz/ [guerre FUD, da `Fear, Uncertainty and Doubt': pau-
+ ra, incertezza e dubbio] s. L'atteggiamento politico tenuto dalle ditte  soft-
+ ware  e hardware che sono ostentatamente orientate alla  standardizzazione  ma
+ che  di fatto vogliono frammentare il mercato per proteggere la  loro  propria
+ quota; come esempio vedi il conflitto OSF contro UNIX International.
+
+      <fudge> [abborracciare] 1. v. Comportarsi in maniera incompleta ma margi-
+ nalmente accettabile, in particolare rispetto alla scrittura di un  programma.
+ "Non  avevo proprio voglia di soffrirci tanto sopra, cosi` ho fatto che f.  il
+ tutto".  2. s. Il codice risultante.
+
+      <fudge factor> [fattore fudge] s. Un valore o parametro variato ad hoc in
+ modo  da  produrre  il risultato desiderato. I termini  "tolerance"  e  "slop"
+ [spandimento] sono anche usati, anche se questi indicano in genere una  tolle-
+ ranza in un senso solo, come un buffer che e` crato piu` grande del necessario
+ perche` non si sa esattamente quanto deve essere grande, ed e` meglio sprecare
+ un  po' di spazio piuttosto che piantare tutto per non averne  lasciato  abba-
+ stanza.  Un f.f., d'altra parte, puo` essere spesso aggiustato in entrambe  le
+ direzioni. Un ottimo esempio e` il <fuzz> tipicamente necessario nei calcoli a
+ virgola mobile; se si confrontano due numeri per la loro uguaglianza,  occorre
+ lasciare  che possano differire di una piccola quantita`; se questa e`  troppo
+ piccola, la computazione potrebbe non terminare mai, mentre se e` troppo gran-
+ de,  il risultato potrebbe essere inutilmente inaccurato. I f.f.  sono  spesso
+ modificati in maniera scorretta da programmatori che non comprendono pienamen-
+ te il loro significato.
+
+      <fuel  up> [rifornirsi] vi. Mangiare o bere in fretta e furia per  potere
+ tornare  a fare hacking. "Mangiamo?" "Si`, andiamo a rifornirci". "Ora  di  un
+ <great-wall>!". Vedi anche <ORIENTAL FOOD>.
+
+      <fuggly> /fuhg'lee/ adj. Forma enfatica di <funky>; funky + ugly (o  pos-
+ sibilmente una contrazione di "fuckin' ugly", fottutamente brutto). Stranamen-
+ te per quanto riguarda lo slang hacker, puo` di fatto derivare dal gergo delle
+ strade dei neri. Per dirlo propriamente, la prima sillaba deve essere ringhia-
+ ta  piu` che pronunciata. Uso: umoristico. "Ragazzi, il codice di  conversione
+ ASCII-EBCDIC in quel driver della stampante e` *fuggly*." Vedi anche <wonky>.
+
+      <funky> [originale] agg. Detto di qualcosa che funziona, ma in modo stra-
+ no,  accrocchiato. Fa pero` il suo lavoro e sarebbe difficile  da  modificare,
+ cosicche`  la sua ovvia non ottimalita` e` lasciata perdere. Spesso usato  per
+ descrivere  le  interfacce. Piu` bachi ci sono in qualcosa che nessuno  si  e`
+ preoccupato di fissare perche` e` piu` facile usare un workaround, piu` questo
+ e` f. <TECO> e UUCP sono f.. Il trattamento delle eccezioni nell'Intel i860 e`
+ straordinariamente  f..  Molti standard acquistano funkiness col  passare  del
+ tempo.  "Il nuovo mailer e` stato installato, ma e` ancora un poco f.;  se  la
+ tua  posta ti ritorna indietro senza un motivo, prova a  rimandarla".  "Questo
+ UART  e`  proprio f.. Il data ready e` settato alto nel modo ad  interrupt,  e
+ basso in modo DMA". Vedi <fuggly>.
+
+      <funny  money> [moneta buffa] s. (anche `play money', moneta  giocattolo)
+ 1.  `Dollari'  astratti equivalenti a unita` di tempo di computazione  e/o  di
+ utilizzo di memoria fornite dai professori agli studenti all'inizio di un cor-
+ so  che  preveda l'utilizzo di un calcolatore; chiamata anche  "purple  money"
+ (moneta  purpurea, in opposizione implicita alla moneta reale o (almeno  negli
+ USA)  "verde"). Quando si termina la f.m., il proprio account si blocca e  oc-
+ corre andare da un professore per ottenerne di piu`. Una volta pratica comune,
+ ora e` diventata cosi` rara a causa del costo precipitato dei cicli di memoria
+ in timesharing che e` diventata folklore. Le quantita` allocate erano invaria-
+ bilmente  troppo piccole, anche per i non-hacker che volevano passare  l'esame
+ col  minimo  indispensabile di lavoro. In casi estremi la pratica  condusse  a
+ mercati  neri  su piccola scala su account ottenuti clandestinamente.  2.  Per
+ estensione,  moneta  fantasma o qualunque tipo di mezzo  usato  per  garantire
+ l'allocazione di risorse in un sistena.
+
+      <fuzz>  [peluria] s. Nell'aritmetica a virgola mobile, la massima  diffe-
+ renza ammessa tra due quantita` perche` le si possa ritenere uguali. Deve  es-
+ sere  settata propriamente in relazione ai limiti di precisione della FPU.  V.
+ <fudge factor>.
+
+      <fuzzball> [hacker TCP/IP] s. Un sistema DEC LSI-11 cha gira un  partico-
+ lare  gruppi di programmi fatti in proprio da Dave Mills e co-cospiratori  as-
+ sortiti,  usato all'inizio degli anni '80 per testare e  fare  sperimentazioni
+ sul protocollo Internet. Erano stati usato come backbones NFS ai vecchi  tempi
+ delle linee da 56 KB/sec; alcuni di questi erano ancora attivi su Internet al-
+ l'inizio  del  1990, con compiti strani tipo il servizio  di  sincronizzazione
+ temporale della rete.
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   9  ###                                    NOTIZIE FIDONET REGION 33  ###
+ ############                                                               ###
+
+                     AFI A EXPOSER
+                     =============
+
+      Dal 20 al 23 a Firenze, nella splendida cornice di Fortezza da Basso,  si
+ e` svolto anche quest'anno Exposer, una mostra dedicata ai prodotti informati-
+ ci. Quest'anno non vi e` stato HAMBIT - Dimensione Radiotelematica, che da al-
+ cuni  anni caratterizzava in senso strettamente telematico  la  manifestazione
+ fiorentina con un convegno particolarmente interessante per chi, come noi,  si
+ diletta  telematicamente. La mostra, come tutte quelle locali  post-SMAU,  non
+ poteva presentare alcuna particolare novita` per gli addetti ai lavori, se non
+ per  la  partecipazione  dell'Associazione FidoNet Italia,  alla  sua  seconda
+ esperienza  in fatto di mostre dopo quella dell'ottobre scorso a  Vicenza.  Un
+ piccolo  stand,  sempre molto affollato, dove molti volontari (in  testa  Lord
+ Fenner) spiegavano ai piu` curiosi cos'era la telematica amatoriale, consenti-
+ vano la "prova su strada" dell'accesso ad un BBS e regalavano opuscoli  infor-
+ mativi  o, per chi si associava, una sorta di starter kit in 2 floppy  per  il
+ neo telematico. Nel pomeriggio di domenica 22 si e` svolto un affollato incon-
+ tro tra SysOp della rete FidoNet, di cui si riporta il verbale.
+
+                           Verbale di riunione
+
+ Data e ora dell'avvenuta riunione:    22/11/92, alle 14:45
+ Luogo della riunione:                 convegno Exposer, a Firenze
+
+ Presidente:   Franco Mulato   (2:332/1)
+ Segretario:   Giuseppe Scarpi (2:332/102)
+
+ Per  brevita', il verbale si riferisce solo agli interventi  programmati  nel-
+ l'Ordine del Giorno.
+
+ I. Ordine del Giorno
+ ====================
+
+   Ermanno Iencinella      Considerazioni sulla rete Fidonet oggi
+                           La nuova rete telefonica ISDN
+                           Il ruolo umanitario di Fidonet
+
+   Stefano Pasquini        Il sistema cost-sharing TIP-TOP
+
+   Franco Carcillo         Iniziative Televideo e BSA per AFI
+
+   Marcello Ardini         Il progetto "KidsLink"
+
+
+ II. Escussione degli argomenti programmati
+ ==========================================
+
+      Dopo  una breve presentazione, il Presidente ha ceduto la parola  all'at-
+ tuale RC Ermanno Iencinella, che ha delineato brevemente la situazione attuale
+ della rete Fidonet.
+ La  sensazione - afferma l'RC - e' che qualcosa stia cambiando all'interno  di
+ Fidonet,  e forse la struttura della rete non e' piu' adeguata; in  ogni  caso
+ Iencinella  ha chiesto a tutti di esprimere un parere al riguardo, anche  suc-
+ cessivamente alla riunione.
+ L'idea proposta e' quella di creare un gruppo di persone che analizzino i pro-
+ blemi della rete, in particolare quelli relativi al costo. Ci si e' cosi'  ag-
+ ganciati  ad un altro problema, quello dei costi crescenti di gestione,  sulla
+ cui causa Iencinella sta cercando di indagare.
+ Prima  di  passare all'argomento successivo, l'RC ha esortato  tutti  a  porre
+ chiaramente davanti a se gli obiettivi della propria BBS, e soprattutto a  non
+ dimenticare mai l'aspetto "umano" che essa coinvolge.
+
+      Il  secondo argomento trattato da Iencinella riguarda la rete  telefonica
+ ISDN, che sembra destinata a sostituire gradualmente quella pubblica attuale.
+ Tra le interessanti possibilita' di ISDN, Iencinella ha citato:
+
+  -   possibilita' di gestire sullo stesso doppino e contemporaneamente due ca-
+      nali a 64 kbit/s.
+  -   possibilita' di assegnare, allo stesso canale, otto differenti numeri te-
+      lefonici gestiti da un opportuno smistatore; ai numeri si possono  aggan-
+      ciare indifferentemente apparecchi analogici, digitali, voice, fax,  etc.
+      (con opportuni convertitori).
+  -   possibilita' di impiegare le nuove linee con vecchi apparecchi, grazie ad
+      opportuni convertitori.
+
+ I problemi della ISDN che l'RC ha presentato sono essenzialmente questi:
+
+  -   attualmente,  non e' chiaro dove procurarsi apparecchi digitali in  grado
+      di sfruttare al massimo le nuove linee.
+  -   il progetto e' operativo solo in alcune citta' "pilota": Torino,  Milano,
+      Trento, Venezia, Bologna, Pisa, Roma, Bari e Palermo.
+  -   il  costo  dello scatto telefonico e' pari al doppio di quello  su  linea
+      normale.
+
+ Comunque, l'idea ventilata e' equipaggiare con queste linee i nodi piu'  cari-
+ chi del sistema, facendone richieste a SIP come Fidonet Italia.
+
+      A  conclusione del suo discorso, Iencinella ha sottolineato  che  sarebbe
+ interessante  dare a Fidonet Italia anche un risvolto umanitario; a tal  scopo
+ l'RC ha contattato l'Istituto per non vedenti Cavazza di Bologna, che  autono-
+ mamente ha aperto una BBS, e con cui puo' essere interessante collaborare.
+
+
+      Secondo  tema della riunione e' stato il sistema cost-sharing  presentato
+ da Stefano Pasquini.
+ Basilarmente, TIP-TOP permetterebbe di risolvere il link echomail con gli Sta-
+ ti  Uniti tramite una struttura piramidale di distribuzione della posta  e  di
+ condivisione della spesa.
+ Al  vertice della struttura, un BackBone europeo sara' chiamato in poll da  un
+ massimo di tre BB a livello di Region (primo livello), ed avra' l'incarico  di
+ raccogliere  la posta, inviarla negli U.S.A., smistare l'echomail in arrivo  e
+ metterla in hold per i tre BB, che provvederanno ad un secondo poll.
+ A loro volta, i BB di Region prevedono una struttura di secondo livello  orga-
+ nizzata alla stessa maniera; al di sotto di essa si giunge ad una struttura di
+ terzo  livello, che rappresenta il layer terminale. Attualmente,  l'Italia  e'
+ una delle Region che fanno parte del primo livello.
+ Il punto cruciale di TIP-TOP e' che le spese verranno ripartite in modo  pira-
+ midale fino al livello piu' basso, in ragione del carico che ogni nodo rappre-
+ senta per l'uplink di livello immediatamente superiore.
+
+ Intervenendo al riguardo, Mulato ha ricordato la situazione attuale in Italia,
+ in cui l'onere di BB viene attualmente assunto da Franz Antolini. Il vantaggio
+ di TIP-TOP, oltre che una tassazione contenuta per ogni singolo nodo  anziche'
+ una spesa elevata per una persona, sarebbe quello di rendere la rete non  piu'
+ dipendente da un singolo.
+
+ Pasquini ha concluso osservando che, allo stato attuale, la spesa per ogni no-
+ do non e' ancora quantizzabile.
+
+
+      Franco  Carcillo  ha trattato il terzo tema della riunione, che  vede  in
+ particolare il rapporto tra Fidonet Italia, Televideo e l'associazione BSA.
+ Riguardo  a Televideo, la RAI gestisce attualmente una rubrica  di  "telesoft-
+ ware", che prevede la presentazione l'invio di programmi (ricevibili con appo-
+ sita  interfaccia) ed altre pagine informative. L'idea presentata da  Carcillo
+ e' quella di creare una collaborazione di AFI con RAI, affidando a Davide  Ro-
+ lando una rubrica settimanale su Televideo, con presentazione di software  se-
+ lezionato da ISN, oltre che una pagina informativa sulle BBS AFI.
+  Per  contro, le BBS AFI si impegnerebbero ad aprire una conferenza sul  tele-
+ software, che comprenderebbe anche annunci della RAI. Il progetto dovrebbe es-
+ sere operativo dal gennaio 93. Lo scopo, oltre che accrescere il prestigio  di
+ Fidonet, e' anche quello di valorizzare il software "made in Italy".
+
+ Un'altra  interessante  prospettiva e' l'accordo fatto con BSA;  tale  accordo
+ prevede una campagna di tutela del software, fatto a cura delle BBS interessa-
+ te, l'apertura di un'area in cui parlare dei problemi di pirateria ed in gene-
+ re di distribuzione del software, ed infine l'autorizzazione a mettere in  li-
+ nea  versioni dimostrative di prodotti commerciali che verrebbero fornite  di-
+ rettamente dalle Case.
+ L'accordo verra' formalizzato tra breve, ed avra' quasi sicuramente una grande
+ risonanza giornalistica: questo potra' servire a migliorare l'immagine di AFI,
+ anche  in conformita' allo Statuto che prevede tra i compiti istituzionali  la
+ diffusione della telematica e la valorizzazione di Fidonet.
+
+
+      L'ultimo intervento programmato e' stato fatto da Marcello Ardini, a pro-
+ posito del progetto KidsLink.
+ Nel brevissimo intervento, Ardini ha ricordato le premesse che hanno portato a
+ KidsLink:  in  particolare l'esistenza di un'iniziativa  simile  su  Internet,
+ l'interessamento di un ricercatore del CNR di Bologna che e' sfociato  nell'i-
+ stituzione,  da parte di ARCI, di una BBS "in proprio". Successivamente,  del-
+ l'iniziativa si e' interessato il Comune di Bologna ed in un secondo tempo an-
+ che AFI.
+ Allo stato attuale l'iniziativa e' attiva solo nel net 332, in cui e' possibi-
+ le ricevere le aree KID*.AFI; le espansioni future annunciate da Ardini preve-
+ dono  da  un lato il collegamento con scuole elementari  e  medie,  dall'altro
+ l'interessamento al progetto di enti quali l'istituto Bocconi.
+
+                                                       Il segretario 
+                                                      Giuseppe Scarpi
+                                                    (2:332/102 cosysop)
+
+                          -o-o-o-o-o-o-o-o-o-
+
+
+
+
+
+
+
+
+
+                     *** net 331 ***
+
+      L'avvenimento di rilievo del mese nel net 331 e' stata l'elezione per  il
+ rinnovo delle cariche di net (NC e NEC).
+
+      NC  e NEC in carica erano rispettivamente Angelo Besani (331/101)  ed  il
+ sottoscritto (331/301). I risultati delle elezioni (che hanno fatto registrare
+ una partecipazione elevatissima di nodi, 57 votanti su 61 aventi diritto!) so-
+ no stati i seguenti:
+
+      Per la carica di NC (Net. Coordinator):
+
+ Enrico Cima         19 voti
+ Sergio Gervasini    18 voti
+ Angelo Besani        9 voti
+ Alfredo Persivale    7 voti
+ Walter Mascarin      4 voti    totale: 57
+
+      Per la carica di NEC (Net. Echomail Coordinator):
+
+ Giancarlo Cairella  36 voti
+ Ugo Uggetti         19 voti
+ Enrico Cima          1 voto
+ Astenuti             1 voto    totale: 57
+
+      Il nuovo NC del net 331 risulta quindi essere ENRICO CIMA (331/200), men-
+ tre come NEC risulta essere confermato il sottoscritto.
+
+                                        Ciao,
+                                        --V--
+
+
+
+                     *** net 332 ***
+    
+      Dal  20 al 23 novembre buona parte dei sysop e dei point di Firenze  sono
+ stati impegnati presso lo stand che Fidonet e AFI hanno ottenuto alla  manife-
+ stazione Exposer, esposizione di informatica e office automation. L' affluenza
+ di pubblico e` stata notevole e sono state fatte molte dimostrazioni di colle-
+ gamento  ad  un BBS sui due calcolatori messi a disposizione da una  ditta  di
+ Prato. L' AFI ha registrato circa 25 nuovi soci.
+      Durante la manifestazione, precisamente domenica 22 novembre, si e` tenu-
+ to un convegno dei sysop del net 332 (e non solo, sono intervenuti anche sysop
+ di  altri net, fra cui il REC, Stefano Pasquini e l' ex-RC, Franco  Carcillo).
+ Il  verbale della riunione potete leggerlo a parte; posso solo segnalare  che,
+ dopo  la riunione, tutta la banda si e` trasferita in un ristorante sui  colli
+ per un' ottima cena, annaffiata da abbondante vino.
+
+      Chiudono  le conferenze di net PACE.332 e AMBIENTE.332, che  confluiscono
+ rispettivamente nelle conferenze nazionali PEACELINK.ITA e ECOLOGIA.ITA;  ven-
+ gono nazionalizzate le conferenze SCUOLA.332 e CARTONI.332.
+
+
+
+                     *** net 333 ***
+
+      Grande  movimento d'opinioni sulla ristrutturazione delle aree Sysop.  Si
+ spera sia il passo verso una rimessa a nuovo di tutte le aree messaggi.
+
+      Il  nostro  Adolfone, anche dopo le elezioni, e' in forma piu'  che  mai:
+ siamo stati i primi a veder aggiornata la nodelist con i nuovi flag per i  mo-
+ dem ZyXEL e USRobotics. Battuti sul tempo tutti gli altri NET!
+
+      Alla prossima.
+
+
+                     *** net 334 ***
+
+      TamTam, l'associazione per la telematica amatoriale del net, ha  ripropo-
+ sto  un proprio stand al salone Nuove Tecnologie tenuto a  Torino  Esposizioni
+ dal 4 all'8 novembre scorsi.
+
+      L'incontro  di  dicembre con soci e amici, presso il  Circolo  Ricreativo
+ Dipendenti  Comunali di C.so Sicilia 13, e` previsto per lunedi' 14  alle  ore
+ 21; l'11 gennaio 1993 si terra` invece l'Assemblea Generale Ordinaria.
+
+
+                     *** net 335 ***
+
+      Novembre e' stato un mese abbastanza calmo per cio' che riguarda il  335,
+ qualche  piccolo  spostamento di link da parte di alcuni nodi,  ma  niente  di
+ piu'.
+
+
+                       ......dal Net 335
+                             Giovanni Pugliese (335/211)
+
+
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:  
+
+ 334/100 - 011-3299706     | 334/104 - 011-502423      | 334/105 - 011-2238389
+ 335/211 - 099-4746313     | 335/215 - 0994746044      | 331/112 - 0341-360511
+ 333/603 - 040-3783111     | 332/315 - 0721-30783
+
+      da Sintel, 011-596274,
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/306 - 0121-542795     | 335/210 - 081-5709527     | 335/405 - 06-315323
+
+
+####                            End of TELEM024                            ####

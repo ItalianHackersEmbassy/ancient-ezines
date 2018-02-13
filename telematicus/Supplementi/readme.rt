@@ -1,0 +1,44 @@
+RT (Read Telematicus) e` un programmino nato con le seguenti caratteristiche:
+
+- essere semplice: piuttosto che a prova di errore, ho preferito ridurre al 
+minimo le sovrastrutture.
+
+- essere portatile: un qualunque calcolatore che gestisca i codici ANSI di base
+dovrebbe farlo girare senza troppi problemi; la versione 1.0 conterra` gli
+#ifdef necessari alla compilazione.
+
+- essere liberamente disponibile. Il codice e` freeware, le uniche limitazioni 
+all'uso sono quelle di non essere usato in ambienti commerciali e di citare il 
+mio nome.
+
+
+Lanciato RT, con parametro opzionale il nome del file da leggere, si hanno le 
+seguenti possibilita`, richiamabile col primo carattere della parola chiave. 
+Nota: il simbolo (n) che precede il comando significa che si puo` fare 
+precedere al comando un numero da 1 a 99 (default 0 per (J)ump e 1 per gli 
+altri).
+
+(n) (N)ext:   va alla pagina seguente (dopo n pagine)
+
+(n) (B)ack:   torna indietro di una pagina (di n pagine)
+
+    (T)op:    va a pagina 1
+
+    (E)nd:    va all'ultima pagina
+
+(n) (G)o:     va alla pagina richiesta
+
+(n) (J)ump:   va all'articolo richiesto
+
+    (S)kip:   va all'articolo immediatamente successivo
+
+    (P)rint:  stampa formattata (non ancora implementata)
+
+    (I)ndex:  va a pagina 2, dove c'e` l'indice
+
+    (R)edraw: riscrive la schermata (utile via modem)
+
+    (Q)uit:   termina il programma
+
+
+Buona lettura! .mau.

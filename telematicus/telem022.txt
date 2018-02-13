@@ -1,0 +1,1277 @@
+ #### TELEM022 - Telematicus - Volume 02 - Numero 10 - Anno 1992 - 58 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                Ottobre 1992                                 
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di .mau.
+
+ ==============================================================================
+
+ Il materiale presente in Telematicus e` (C) dei singoli autori.      
+ E` espressamente consentita la distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 58 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .   .  pag.  4
+ [ 2]  Che cos'e` ... ISDN, di Maurizio Codogno  .   .   .   .   .   .  pag.  5
+ [ 3]  Il Wc-Dos di RRE, di Renato Rolando   .   .   .   .   .   .   .  pag. 10
+ [ 4]  OOP delle mie brame, di Antonella Erriu   .   .   .   .   .   .  pag. 16
+ [ 5]  Il Racconto telematico (?): Z, di Andrea Giotti - parte 3 .   .  pag. 24
+ [ 6]  Vivamiga, di Renato Rolando   .   .   .   .   .   .   .   .   .  pag. 27
+ [ 7]  Curiosita`: una Coke Machine su Internet  .   .   .   .   .   .  pag. 39
+ [ 8]  Curiosita`: Il gergo hacker - parte 18    .   .   .   .   .   .  pag. 44
+ [ 9]  Notizie Fidonet region 33     .   .   .   .   .   .   .   .   .  pag. 55
+
+
+
+
+
+
+
+
+
+
+                  Questo Telematicus e` nato con l'aiuto di...
+   
+ Editor digitalis:      Maurizio Codogno | * I collaboratori dai network: *
+ Editor binus:            Renato Rolando |
+ Editrix (!):            Antonella Erriu | Vertigo (331/301)
+ Editor narrans:           Andrea Giotti | Giovanni Lopes (332/108.2)
+                                         | Pietro Budicin (333/603)
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                               ###
+
+      Carissimi lettori,
+ come avrete oramai scoperto anche voi, il nuovo RC italiano e` Ermanno  Ienci-
+ nella,  noto rappresentante genovese Fidonet. Questo perlomeno se le  notizioe
+ giuntemi sono corrette - non ho fatto in tempo a ricevere la comunicazione uf-
+ ficiale nelle aree sysop. Tanti auguri a Yency, anche se sappiamo che una per-
+ sona di peso come lui non avra` troppi problemi.
+
+      Per  il resto, in questo numero potrete sapere come finisce  il  racconto
+ telematico  di Andrea Giotti, scoprirete finalmente che cosa  dovrebbe  essere
+ ISDN,  se  non sono riuscito a nasconderlo troppo bene, e per la  prima  volta
+ nella  breve storia di Telematicus abbiamo un articolo scritto da  una  gentil
+ donzella. Lascio agli psicologi e dietrologi che leggeranno l'articolo il com-
+ pito di rispondere alle angosciose domande sul tipo di rapporto  intercorrente
+ tra RRE e la tipa in questione - per quanto ne so io, potrebbe anche trattarsi
+ di uno sdoppiamento di personalita`...
+
+     ciaociao .mau.
+
+ ############                                                               ###
+ ###   2  ###                                          CHE COS'E` ... ISDN  ###
+ ############                                                               ###
+
+      Ebbene  si`. Anche se bruciati al fotofinish da nazioni  tecnologicamente
+ avanzatissime come la Spagna, ed evitando il piu` possibile di rendere nota la
+ cosa - per ragioni che saranno spiegate nel seguito - anche l'utente telefoni-
+ co  italiano ha la possibilita` di richiedere un collegamento ISDN,  la  terra
+ promessa della telefonia di base secondo i resoconti degli ultimi anni. Ma sa-
+ ra` poi vero?
+
+      Innanzitutto, ISDN significa Integrated Services Digital Network, vale  a
+ dire  rete digitale a servizi integrati. Le parole chiave sono  per  l'appunto
+ "servizi integrati": in fin dei conti gia` adesso molte linee sono  numeriche,
+ ma  l'uso che di esse viene fatto in ISDN e` molto diverso. Mentre ad  esempio
+ adesso a seconda delle proprie necessita` l'utente poteva richiedere una linea
+ voce,  una linea fonia dati a quattro fili oppure un collegamento a  pacchetto
+ X29  (Itapac,  per gli amici), con ISDN avra` un'unica linea  che  permettera`
+ tutte queste cose.
+
+      Un altro punto di forza sara` l'internazionalita` di ISDN: mentre le  li-
+ nee telefoniche normali standard sono nate e cresciute nei vari paesi per con-
+ to loro, ed e` virtualmente impossibile ottenere una unificazione - pensate ad
+ esempio al prefisso per le chiamate internazionali, che in Italia e` 00,  men-
+ tre  in Francia e` 19, nel Regno Unito 010 e negli Stati Uniti 011 - lo  stan-
+ dard ISDN e` nato a tavolino nel corso delle interminabili riunioni degli  or-
+ ganismi di standardizzazione, e l'Europa ha creduto fortemente nelle  possibi-
+ lita` del sistema, anche quando gli Stati Uniti nicchiavano e il Giappone sem-
+ brava  procedere  per conto suo. Spero comunque che non vi  scandalizzerete  a
+ sentire  che sembra che in Italia la segnalazione non sia  propriamente  stan-
+ dard...
+
+      In ogni caso, se un utente di una grande rete (al momento Bari,  Bologna,
+ Genova, Milano, Napoli, Palermo, Pisa, Roma, Torino, Trento e Venezia; tra  la
+ fine del 1992 e il primo trimestre 1993 si aggiungeranno Bergamo, Brescia, Bo-
+ lzano  e Modena) va alla Sip e chiede un accesso ISDN, gli arrivano in casa  i
+ tecnici  e  si trovera` una linea a quattro fili, a differenza  dei  due  fili
+ usuali, e un numero di telefono a prima vista uguale a quelli soliti. La  dif-
+ ferenza  e` che a questo numero corrisponde una banda di 128 Kbit/sec piu`  un
+ canale  a  pacchetto della capacita` massima di 16 Kbit/sec. Nel  gergo  ISDN,
+ questo viene detto "accesso di base" e indicato come 2B+D, dove i canali B so-
+ no per l'appunto sincroni a 64 Kbit/sec, pari cioe` alla capacita` di una  li-
+ nea telefonica usuale, e i D sono i canali dati. La cosa piu` bella e` che al-
+ la  Sip non importa assolutamente nulla di come l'utente voglia  utilizzare  i
+ suoi 144 Kbit/sec. Puo` avere due linee telefoniche normali; una linea normale
+ e una ad "alta qualita`", visto che le nuove tecniche di compressione  permet-
+ tono di stipare nei canonici 64 Kbit/sec una banda di 7 KHz; un videotelefono;
+ un  fax di gruppo 3 o magari del nuovo gruppo 4 le cui specifiche sono  uscite
+ da poco, e che permette di sfruttare la maggiore capacita` di linea tanto  che
+ potrebbe  spedire  un foglio A4 in tre/quattro secondi; oppure  se  preferisce
+ aprirsi  un bel BBS con otto modem a 14400 - tutti che rispondono allo  stesso
+ numero. L'unica limitazione e` che non si possono avere piu` di otto  apparec-
+ chiature collegate contemporaneamente.
+
+      Chi  e` arrivato a leggere fino a qui e non si e` ancora addormentato  ha
+ sicuramente avuto un lampo di genio: ma il modem serve appunto a "modulare" il
+ codice digitale e renderlo analogico, proprio per usare le linee  telefoniche.
+ Con la rete digitale, cosa me ne faccio dei modem e soprattutto come faccio ad
+ attaccarli? Per quest'ultima domanda la risposta e` cosi` scontata da sembrare
+ uno scherzo: esistono in commercio degli adattatori di terminale (TA, Terminal
+ Adaptor) che servono proprio a prendere il segnale analogico e  ritrasformarlo
+ in digitale, senza spurie visto che opera in locale. E i TA sono nati  proprio
+ per  fare si` che quanto era gia` stato acquistato per le reti  analogiche  si
+ possa piu` o meno riciclare.
+
+      Un  altro punto di forza di ISDN sta nella possibilita` di  creare  nuovi
+ servizi a valore aggiunto in maniera piu` semplice di quanto capiti adesso; ad
+ esempio  si  potranno bloccare le telefonate fatte da  alcuni  numeri,  oppure
+ sfruttare le due linee telefoniche una in ingresso e una in uscita per smista-
+ re una telefonata in una localita` remota, o fare una vera e propria conferen-
+ za.  Se poi l'utente e` una grande societa`, esiste anche la  "formula  conve-
+ nienza":  si  chiama  accesso  primario e prevede 30 canali B e  uno  D  a  64
+ Kbit/sec, per un totale di 2.048 Mbit/sec (questo in Europa: negli Stati  Uni-
+ ti,  per  ragioni storiche, si sono limitati a 23B+D per un  totale  di  1.544
+ Mbit/sec). E addirittura c'e` la possibilita` di crearsi una sottorete virtua-
+ le...
+
+      Veniamo alla nota solitamente dolente in questi casi, il costo. Beh,  per
+ una volta devo dire che le tariffe sono decisamente interessanti, se si  tiene
+ conto  che la capacita` di linea e` 2.3 volte quella di un telefono  standard.
+ Il  costo di installazione e` infatti di 400.000 lire, il doppio di  un'utenza
+ affari, e il canone mensile di 50.000 lire, 2.3 volte quello dell'utenza affa-
+ ri. Se poi il raffronto viene fatto con Itapac oppure con la RFD a quattro fi-
+ li,  il  risparmio  e` notevolissimo. E pensate che addirittura  il  costo  di
+ installazione  e`  minore *in valore assoluto* rispetto ad  esempio  a  quello
+ inglese! E` anche vero che in Francia e Germania e` meno della meta` nonstante
+ l'ultima  svalutazione della lira, ma ogni tanto bisogna sapersi  accontentare
+ di quello che passa il convento.
+
+      Peccato pero` che al momento i terminali siano molto rari e costino  mol-
+ tissimo:  il che torna anche abbastanza utile alla Sip, visto che  al  momento
+ gli accessi di base sono circa 7000 e dovrebbero salire a 9466 (12000,  consi-
+ derando anche l'equivalente degli accessi primari) per marzo 1993. Questo men-
+ tre  al giugno scorso la Francia ha installato il suo 250.000simo  accesso  di
+ base. Insomma, non penso proprio che per i prossimi due-tre anni potremmo  ve-
+ dere un bel bbs su ISDN!
+
+                                ciaociao .mau.
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                             IL WC-DOS DI RRE  ###
+ ############                                                               ###
+
+                     WC-DOS delle mie p...rame
+                     -------------------------
+
+      Finalmente!  Cari CESSY_DOSSIANI, ho scritto solo uno stupido articolo  e
+ gia'  sono stato sommerso di valanghe di matrix: chi mi diceva che il 286  era
+ ancora  stupendo, chi che senza 586 non poteva vivere, chi che si usa  i  50Hz
+ per lavarsi i denti... rignrazio tutti, siete molto cari.  Brutti fetenti.
+
+      Scherzi a parte uno mi ha scritto, scusandosi per il ritardo (era  andato
+ in vacanza), e per aver letto solo ora - era settembre - Telematicus. Purtrop-
+ po un'ora dopo mi sono formattato la mia base messaggi (che tengo su disco)  e
+ -oltre a tutta la posta, matrix etc. etc.- ho perso anche il suo messaggio  ;(
+ [NdE: questa si chiama Volonta` Divina, secondo le leggi di Murphy]. Mi sembra
+ si  chiamasse Paolo. Scusa Paolo per non averti risposto, ma sono  un  casina-
+ ro...  se mi rimatrixi ti rispondero' volentieri.
+
+      Tra l'altro mi diceva di usare il Cessy-Dos solo per lavoro, e che a casa
+ aveva l'Amiga...
+
+      Ma torniamo a noi; avevo promesso dei bei articoletti su WC_Windows, anzi
+ ATPqTrS_WC_Windows ("ATPqTrS" rappresentano la semplicissima ed immediata  no-
+ tazione  per fare capire che la funzione deve essere chiamata una  volta  come
+ puntatore far mettendosi a testa in giu'; che subito dopo bisogna attendere il
+ messaggio  MAV_AFF su di una sola gamba; al che si puo' cominciare a  chiedere
+ se possiamo caricare il primo cluster col messaggio MAP_OSS.  Se possiamo  ri-
+ ceviamo il messaggio MAPR_EG).
+
+      Chiaramente sto scherzando...  ma neanche poi tanto.
+
+      Spero  tu non sia nella cerchia degli sventurati che ha osato  installare
+ sul  proprio WC-PC (leggasi VUCI-PICI) la release 7.0 del Microsoft C/C++  col
+ portentoso  SDK. Chiaramente no, altrimenti saresti ora in preda a  crisi  de-
+ pressive e certo non mi leggeresti. [NdE: piu` che altro, non avrebbe piu` al-
+ cuno spazio libero su disco per scompattare telematicus]
+
+      Se vuoi un fraterno consiglio da amico chiappati almeno il TurboC++ della
+ Borland  per Window 3.0. Escludendo i pregi - che esaminero' in  seguito -  ha
+ il  grandissimo difetto di non avere l'interfaccia anche per DOS;  vabbe'  che
+ originale  costa poco (120KLire) pero' non e' divertente doversi  comprare  lo
+ stesso compilatre per DOS. Se qualcuno ha qualche suggerimento da darmi (o  il
+ numero di telefono della Borland) avra' la mia eterna gratitudine.
+
+      Comunque il grosso pregio e' di essere Object Oriented, ovvero - in  sol-
+ doni - di nascondere la maggior parte del troiaio che e' WC-Window. I  manuali
+ sono inoltre piuttosto buoni ed esplicativi. Insomma un buon acquisto.   Certo
+ scordati di fare altro - siamo mica su Amiga - mentre il tipo compila.  E  poi
+ me  lo chiamano un multitasking... [NdE: sei tu che ti ostini a usare  windows
+ invece  che OS/2 2.0 o 386BSD o Linux o persino Coherent... nemmeno la  Micro-
+ soft  osa  definire windows come un multitask, ma parla semplicmente  di  task
+ switching]
+
+      Comunque  volevo  cominciare con alcune storielle riguardo  al  WC-Window
+ (che d'ora in poi chiamero' amichevolmente - ma mica tanto - WCWnd) ed  intro-
+ durre,  cosa  che sicuramente gia' conoscerai, la  programmazione  OO  (object
+ oriented).
+
+      Il  WCWnd e' nato male e, sempre in nome della compatibilita'  (ma  verso
+ chi?), e' cresciuto peggio. Quelli della Microsoft hanno avuto una pensata ge-
+ niale;  invece di instaurare un multitask come si deve hanno pensato che se  i
+ programmi  si fossero comportati bene, ovvero ogni 3 istruzioni  avessero  ri-
+ chiesto  un messaggio, allora sarebbe stato molto facile al kernel  di  Window
+ non  rispondere al messaggio e bloccare in questo modo il task. E cosi'  hanno
+ fatto fregandosene come loro solito delle conseguenze sul programmatore.
+
+      Ora la situazione sino al 3.0 era appunto quella. Se un programma  faceva
+ un loop infinito, ad es.
+
+           for (i=1; i<=2; )
+           ;
+
+ tutto WCWnd si inchiodava !!  :) L'unica era dare un bel reset.
+
+      Poi e' arrivato il 386 e WCWnd sarebbe stato anche in grado di mandare  2
+ task  in contemporanea, se le risorse lo avessero permesso... chiaramente  non
+ lo permettevano.
+
+      Ora e' arrivato WCWnd 3.1 e tutto e' cambiato!  Pensa che ora possono ac-
+ cedere  alla routine grafiche del sistema fino a 5 programmi alla volta  prima
+ di inchiodare tutto!!  Favoloso... (e per l'altra campana raccomando un  arti-
+ colo del Russo apparso tempo fa su Telematicus, anche se e' per tutte le GUI).
+
+      Ma  non  divaghiamo. Fatto e' che col 3.1 e' cominciata ad  arrivare  una
+ parvenza  di multitasking (e ragazzi ho 8Mb di RAM quindi non puppatemelo  con
+ scuse di HD swapping) ma la storiella dei messaggi e' rimasta; il tutto si  e'
+ irrobustito ma la struttura a messaggi e' rimasta!
+
+      Il  tuo  programma su WCWnd deve quindi costantemente vedersela  con  una
+ TONNELLATA di messaggi provenienti da sistema; messaggi di cui non ti  freghe-
+ ra' nulla (l'utente ha cambiato colore dello schermo, ha attivato un'altra fi-
+ nestra  non tua, si sta soffiando il naso...) e che non ti sei mai sognato  di
+ chiedere, ma che devi gestire per permettere al kernel il task switching...
+
+      Ora  nel TC++ queste ed altre porcherie immonde  (all'insegna  dell'effi-
+ cienza) sono mascherate e tu puoi anche non conoscerle e credere che quel ler-
+ ciume possa assurgere al rango di miglior sistema operativo che salvera'  l'u-
+ manita' dalla catastrofe...  contento tu.
+
+      Comunque  alcuni  programmatori seri, preoccupati dalla piega  che  stava
+ prendendo WCWnd ed altre amenita' simili (gente che giocava a fare il software
+ piu'  grosso del mondo e poi cominciava solo piu' ad inserire bug su  bug  nel
+ sorgente  ed i missili cadevano...) pensarono ad un modo piu' pulito per  pro-
+ grammare.  Facendovela breve sembra che l'abbiano trovato e che stia invadendo
+ il mondo con la sua luce purificatrice: OOP (programmazione orientata agli og-
+ getti).
+     
+      Ora, scherzi a parte, sono convinto che possa essere una soluzione valida
+ (con una bella lista di 'SE' da seguire scrupolosamente) per problemi di inge-
+ gnerizzazione  del software.  Sono convinto che sia l'unica soluzione  (`Case'
+ molto  potenti  e costosi a parte) per programmare sotto WCWnd.  Ma  non  sono
+ convinto che debba diventare il nostro modo giornaliero di programmare.
+
+      Comunque in cosa consisterebbe questa benedetta OOP? Presto detto:  inca-
+ psulamento, ereditarieta', polimorfismo.
+
+      Se  brami conoscere qualcosa di piu' a riguardo, leggiti l'articolo  sul-
+ l'OOP in questo numero (o in un prossimo futuro):  "All' OOP non si comanda".
+
+      Invece se ormai sei un professionista sappi che il C++ offre anche questa
+ possibilita'; come diceva il Russo nel suo articolo nei linguaggi tipici  come
+ il C la tua Window deve mettersi in attesa di un evento e scegliere cosa farne
+ a seconda.  Bene in C++ tutto questo e' mascherato.  E' il compilatore che  si
+ preoccupera'  di chiamare direttamente le tue funzioni, preoccupandosi di  ri-
+ spondere automaticamente a tutti i messaggi inviati da WCWnd ma non  richiesti
+ da te...  e scusa se e' poco.
+
+           RRE                                2:334/100.9
+           ciao ciao maramao                  2:334/21.3
+
+ ############                                                               ###
+ ###   4  ###                                          OOP DELLE MIE BRAME  ###
+ ############                                                               ###
+
+                          All' OOP non si comanda
+                          -----------------------
+
+      Ed eccoci qua, care muffolette sgarrupate, impegolati nel nuovo potentis-
+ simo modo di fare sesso: l'OOP.
+
+      L'OOP  permette 3 innovative posizioni che mi accingo or ora a  trattare:
+ l'INCAPSULAMENTO, l'EREDITARIETA' ed il POLIMORFISMO.
+
+      Scopo  del tutto e' isolare le variabili globali tramite programmi  d'in-
+ terfaccia  che le gestiscano ed evitino a chiunque di fare scorrettamente -  o
+ dimenticarsi di fare - operazioni vitali per il loro corretto stato.
+
+      Il tutto e' riassumibile in questo semplice schema:
+
+                programmi <--> interfaccia <--> variabili
+
+      cioe` i programmi non possono accedere direttamente alle variabili.
+
+      Il  pacchetto interfaccia-variabile viene visto dalle routines  del  pro-
+ grammatore come un tutt'unico, senza doversi preoccupare del suo funzionamento
+ interno; questo mascheramento e' detto INCAPSULAMENTO. L'insieme  interfaccia-
+ variabile rappresenta una CLASSE; le routines che fungono da interfaccia  ven-
+ gono chiamate METODI.
+
+      Ma  questo ricorda troppo il concetto di libreria, ed  effettivamente  la
+ storia non finisce qui: e' possibile (senza avere i sorgenti della classe) mo-
+ dificare  il comportamento dei metodi (e quindi come questi interagiscano  sui
+ dati) aggiungendone di nuovi, eliminandoli o mutandoli. Si effettua ereditando
+ tutta  la classe strettamente precedente e modificando le parti di  interesse.
+ Questa e' l'EREDITARIETA'. Attraverso questo metodo si possono definire veri e
+ propri ALBERI GENEALOGICI.
+
+      Ho parlato di classe precedente perche' non e' detto che si debba costru-
+ ire  un'istanza partendo dalla prima classe definita (dalla radice  dell'albe-
+ ro), si puo' definire partendo da sottoclassi di classi (per esempio dalle fo-
+ glie) ereditando tutti gli elementi aggiunti durante la formazione  dell'albe-
+ ro.  Addirittura  alcuni linguaggi (come il C++) permettono di  costruire  una
+ nuova classe ereditando contemporaneamente da classi di famiglie diverse (Es.:
+ mammiferi + pesci = cetacei -> balena).
+
+      Tutti  sono concordi nel ritentere che il momento piu' arduo  della  pro-
+ grammazione ad oggetti sia l'individuazione delle classi. Oggigiorno si proce-
+ de  scegliendo  la rappresentazione che astragga nel  maggior  modo  possibile
+ l'entita' che si vuole rappresentare (la CLASSE ASTRATTA) derivando da essa le
+ classi che intendiamo veramente usare (le ISTANZE).
+
+      Comunque  sono ancora problemi aperti, l'ambiente accademico  e'  diviso,
+ non e' stata ancora sviluppata nessuna teoria che dimostri quale sia il metodo
+ migliore,  se top-down o bottom-up. Ad esempio facendo una classe astratta  di
+ figure geometriche e' il Cubo a dover essere ereditato dal Rettangolo o  vice-
+ versa ? e per il Cerchio e l'Ellisse ?
+
+      Urge - lo vedo dal tuo sguardo vacuo - un esempio (il solito esempio  de-
+ gli animali :)). Devo gestire uno Zoo, mi faccio la mia bella classe  generica
+ Animali; un animale avra' un nome, fara' un verso, si muovera' in un certo mo-
+ do, mangera' determinate cose, avra' un certo aspetto etc.
+
+      classe Animali
+      abitazione = "vivo in uno Zoo"
+      esprimiti
+      mangia
+      muoviti
+      mostrati
+      etc..
+
+      Ora,  a partire dalla mia classe generica in cui ho incapsultato le  fun-
+ zioni che m'interessavano derivo tutti gli animali del mio zoo specificando le
+ caratteristiche di ognuno.
+
+      classe Animali -> iena
+      iena.esprimiti = "Hieieieieiii"
+      iena.mangia = "mangio solo cadaveri di WC-Dossiani"
+      iena.muoviti=...
+
+      classe Animali -> serpente
+      serpente.esprimiti = "ssssshhh"
+      serpente.mangia = "mangio solo uova di WC-Dossiani"
+      ...
+
+      Ecco  fatto: col mio linguaggio assolutamente inventato ho  definito  due
+ istanze  (ovvero  due incapsulati) della mia classe Animale. Hanno  un  metodo
+ (procedura)  in  comune che e' Animale.abitazione che quindi  non  ridefinisco
+ ogni  volta, ma tutte le altre sono state ridefinite durante la  dichiarazione
+ dell'animale.  Ho  EREDITATO  le cose che  m'interessavano  dalla  mia  classe
+ astratta  e  ridefinito quelle che sono caratteristiche dell'oggetto  che  sto
+ considerando.
+
+      Ma  la  cosa non finisce qui: ad esempio posso con un 'for'  far  parlare
+ tutti gli animali del mio Zoo:
+
+      // faccio un Array dei miei animali
+
+      struct Animali *Animali[2];
+
+      Animali[0] = iena;
+      Animali[1] = serpente;
+
+      // e poi il for
+
+      for(i = 0; i<2; i++)
+      Animali[i].esprimiti;
+
+ ed il risultato sara':
+
+      Hieieieieiii
+      ssssshhh
+
+      Ora,  in  un linguaggio cristiano si sarebbe ottenuta la stessa  cosa  di
+ Animali[i].esprimiti con:
+
+      switch (Animale[i])
+      {
+      case iena:
+      iena.esprimiti;
+      break;
+      case serpente:
+      serpente.esprimiti;
+      break;
+      }
+
+      Questo comporta il fatto che nel linguaggio per cristiani bisogna  consi-
+ derare tutti i possibili casi, mentre in quello OOP saranno gli oggetti stessi
+ a  comportarsi secondo loro natura. Questo comportamento e' chiamato  POLIMOR-
+ FISMO.
+
+      Il  piu' immediato vantaggio e' il non essere costretti a  rivedere  gran
+ parte del codice ogni volta che si introduce un nuovo animale.
+
+      C'e' ancora un ultimo elemento innovativo che i sacri testi trattano  po-
+ co, almeno durante la presentazione iniziale dell'OOP e che secondo me risulta
+ invece  fondamentale. Il fatto che la tipica programmazione sequenziale  perda
+ d'importanza; non si programma piu' pensando ad un filo logico che il program-
+ ma dovra' seguire, ma si pensa a come collegare tra loro i vari oggetti.
+
+      Sono le varie istanze create che cominceranno a chiamarsi tra loro a  se-
+ conda  del  verificarsi di eventi, spesso casuali. Sempre nel  nostro  esempio
+ dello Zoo potrebbe esserci un bambino che, tramite terminale, vuole avere  in-
+ formazioni su un determinato animale. Oppure un utente che nel nostro program-
+ ma  CAD OOP crei un trapezio, ottenuto come triangolo + rettangolo. In  questo
+ caso non solo l'evento ma anche il tipo di oggetto da manipolare non e'  cono-
+ scibile a priori (comunque grazie al polimorfismo del tutto trasparente al no-
+ stro programma che non dovra' mutare una linea di codice !!).
+
+      OK,  OK ho fatto un gran casino, ma non e' facile. Le cose da  dire  sono
+ tante  e le righe poche... (come scusa e' perfetta) ci vediamo alla  prossima.
+ Intanto se vuoi capirci qualcosa di piu':
+
+           BIBLIOGRAFIA:
+
+ OOP Corrado Giustozzi, Sergio Polini. Monografie di MC, Technimedia.
+
+ C++ corso di programmazione. Stanley B.Lippman. Addison-Wesley.
+      E' molto ben fatto ma tipo il C di Kernigham e Ritchie, lo
+      capisci al volo solo se sapevi gia' tutto prima, altrimenti
+      ti irrobustirai un po' le gengive...
+
+ Dubbi, suggerimenti etc. ficcateli nel... matrix di RRE. :)
+
+           Antonella Erriu
+           oamaram oaic oaic
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                                       IL RACCONTO TELEMATICO  ###
+ ############                                                               ###
+
+                            "Z" - Capitolo 5
+                            ----------------
+                         
+      - Ma lei e` matto! A quest'ora?
+      - Il casco ritornera` nelle mani di Pivone, domattina. Cioe`, questa mat-
+ tina. E per allora dobbiamo averlo trasformato in un inconfutabile elemento di
+ prova. Non avremo occasioni per tener sveglio il giudice fino alle tre. E  non
+ ritengo opportuno telefonargli adesso, con niente in mano.
+      - Lasci almeno che mi vesta. Andiamo alla centrale?
+      - Dottor Schaffembaum, non dica fesserie! Faremo tutto da qui. Si  faccia
+ dare in linea la libreria assassina. Usi pure la mia password.
+      Passarono lunghi minuti di silenzio, mentre i due scorrevano pagine e pa-
+ gine di funzioni. Schaffembaum talvolta bofonchiava un "banale", ma non si az-
+ zardava ad ulteriori commenti. Alle cinque del mattino, la sua fede nelle con-
+ venzioni non era salda come durante l'orario di lavoro.
+      - Passiamo alle definizioni elementari. I preliminari del setup.
+      - Ma cosa crede di trovarci? Eccoci al punto. "Creazione di un sistema di
+ riferimento  cartesiano. Definizione della base ortonormale". I  genera  lungo
+ l'asse X, poi viene J lungo la Y...
+      - Versori a prodotto scalare nullo?
+      -  Gia`, cosa si aspettava? Infine K, lungo la Z...  prodotto  vettoriale
+ dei primi due. Poi, per passare in coordinate lagrangiane, si definiscono  gli
+ angoli di Eulero: Phi, Theta, Psi...
+      - Ho fatto qualche ricerca sul nostro indiziato. Dottore, lei sapeva  che
+ Marana e` mancino?
+      - No, e non vedo... oh, no! Non puo` essere cosi` banale.
+      -  Sara` un inferno dimostrarne la colpevolezza, ma forse  riusciremo  ad
+ inchiodarlo.  Posso scordarmi la premeditazione, ma ci dovrebbero  essere  gli
+ estremi per un omicidio colposo.
+      Ma  Schaffembaum  non lo ascoltava piu`. Scuoteva la  testa,  borbottando
+ frasi  incomprensibili. Quelli come lui erano tragicamente impreparati ad  af-
+ frontare le soluzioni banali, ed adesso sentiva sulle spalle il peso dei  pro-
+ pri  limiti. Provava qualcosa, forse odio, per il problema che lo aveva  scon-
+ fitto  con tanta facilita`. Che avrebbe sconfitto cento altri come lui, per  i
+ quali la destra non era diversa dalla sinistra. E la sua rabbia emergeva a ma-
+ no a mano che provava i prodotti vettoriali di mille versori arbitrari.
+      Terne  destrorse,  terne sinistrorse. Quanti meno sfuggono  davanti  alle
+ quantita` relative, rifletteva stancamente Tersi. Con quanta facilita` Z pote-
+ va trasformarsi in -Z, e troncare la vita di un uomo.
+
+      Rincaso` ad alba fatta. Mentre si spogliava in soggiorno, si ripromise di
+ verificare  l'orario  dell'ultimo blackout. Non che fossero  eventi  rari,  da
+ quando l'ennesimo referendum aveva messo al bando anche nafta e torba. Ma  una
+ interruzione in quelle stesse ore avrebbe potuto rendere il casco quasi  indi-
+ spensabile, per trovare la strada verso la camera da letto. Verso un  meritato
+ riposo, che si sarebbe trasformato in eterno.
+      I raggi del sole filtravano attraverso le persiane accostate,  dipingendo
+ striature irregolari sul parquet. Bastava la luce di una candela ad un  chilo-
+ metro di distanza, come diceva la pubblicita`. Come bastava far partire  qual-
+ che  grande  macchina al momento giusto, per mettere fuori  servizio  la  rete
+ elettrica regionale. Illazioni, che avrebbero pero` meritato attenta  verifica
+ in cima ad un'altissima torre in vetroresina.
+      La  moglie lo attendeva sveglia, e riconobbe subito il sorriso  di  amara
+ soddifazione  che segnava il volto dell'ispettore Franco Tersi per  la  felice
+ conclusione di un caso. Fu lei, come sempre, a sollecitarlo mentre si accende-
+ va la pipa.
+      - Trovato qualcosa?
+      Ci fu una lunga pausa, pienamente meritata dopo quella lunga notte  spesa
+ a cavallo tra due universi.
+      - Mai provato a salire una scala che scende?
+
+
+ ############                                                               ###
+ ###   6  ###                                                     VIVAMIGA  ###
+ ############                                                               ###
+
+                          Amiga Gadgioso
+                          --------------
+
+      Bene  schifezzuole, dopo la sfuriata dell'altro numero sappiate  che  ...
+ non e' cambiato nulla.  Nessuno mi ha matrixato a riguardo ne' scritto `banfo-
+ ne' o cose simili.  Anzi nessuno si e' accorto del mio sfogo :(
+
+      Poi  mi sono ricordato di un Grande, un Mito.  E' un personaggio  che  ha
+ scritto uno stupendo manuale sul DOS; naturalmente PD. Ed ho pensato che se  a
+ tutt'oggi  l'Amiga puo' vantarsi solo di coglioni che hanno come  unico  scopo
+ dichiarato quello di provare le ultime beta versioni del kick, potrebbe  darsi
+ che un giorno o l'altro qualche pirla cerchi anche di programmarlo. Ebbene  in
+ memoria  di quell'unico Pirla (merita rispetto) mi accingo ad iniziare  questo
+ nuovo articolao.
+
+      Due  numeri addietro avevo parlato dei vari gadget OO  (object  oriented,
+ niurant)  che sono messi a disposizione dal SO dell'Amiga. Avevo accennato  al
+ LISTVIEW_KIND. Il listcomecavollo presenta in un terminale a caratteri il  se-
+ guente aspetto:
+
+  +--------------+-+ 2  righe di bordo
+  | Voce  1      |*|
+  | Voce  2      |#| <-- presa per scorrere le liste
+  |   ...        |#| <-/
+  |   ...        |*|
+  :              : :
+  :              : :
+  |   ...        |*|
+  | Voce  n      |*|
+  +--------------+-+ 4  righe di bordo
+  |Voce scelta   |^| <- cursori per scelta fine
+  +--------------+-+ 2  righe di bordo
+
+      e ha chiaramente un po' di gadget assieme con diverse possibilita'  cari-
+ ne. Manca la possibilita' di spostare le voci verso destra, potendo cosi' leg-
+ gere tutto il contenuto di una voce che superi la dimensione massima visualiz-
+ zabile; e' una grossa pecca.
+
+      Invece,  contrariamente  al cesso di Windows ed a quanto ne so  anche  al
+ Mac, la presa per scorrere le liste si dimensiona rappresentando la percentua-
+ le  di voci visualizzate rispetto al totale percorribile. Fornisce quindi  una
+ segnalazione  in piu' molto preziosa; il fatto che non appaia negli altri  si-
+ stemi e' un po' straniello. Anche perche' TUTTI i gadget dell'Amiga, anche non
+ ottenuti da SO, lo possiedono.
+
+      Comunque  - benche' l'Amiga non vedra' mai probabilmente un C++ degno  di
+ tale  nome - [NdE: non esistono porting di g++ per l'Amiga?]  volevo  lasciare
+ alcune funzioni OO (pallose) che sicuramente potrebbero semplificare molto  la
+ vita al programmatore.
+
+      Il  gadget deve ovviamente (matematico) poter accedere alla  lista  delle
+ voci e queste devono essere gestibili in un qualche modo. Quando si inizializ-
+ za il gadget si passa un puntatore ad una lista linkata. La struttura -  repe-
+ ribile negli include: vedi exec/lists.h - e' la seguente:
+
+ /*
+  *  Full featured list header.
+  */
+
+struct List {
+    struct  Node *lh_Head;
+    struct  Node *lh_Tail;
+    struct  Node *lh_TailPred;
+    UBYTE   lh_Type;
+    UBYTE   l_pad;
+ };     /* word aligned */
+
+      Ok,  ora che l'avete vista dimenticatela (altrimenti che OO sarebbe).  In
+ un  qualsiasi  programma bisogna non solo inserire la prima volta le  voci  in
+ questa  lista, ma sarebbe bello poterle togliere ed aggiungere  a  piacimento,
+ sapere quale voce e' stata selezionata, se una voce e' presente nella lista ed
+ a che altezza (a che numero) etc.
+
+      Ebbene,  si da il caso che vi stia per fornire proprio queste routines  e
+ che essendo OO queste valgano non solo per una Lista, ma per un numero teorico
+ infinito  di liste con altrettanti infiniti gadget (chiaramente un gadget  per
+ ogni lista). Vabbe`, non e' proprio OO: ai dati puoi accedervi tranquillamente
+ e non tutto e' proprio nascosto, ma e' gia' qualcosa di valido.
+
+      Per fare cio' ho costruito un nuova struttura, e al suo interno ho  posto
+ gli  elementi necessari per gestire una lista ed il suo gadget  corrispondente
+ con la sua Window corrispondente. Ecco il file List.h :
+
+
+
+ /* The management struct of List. Use it for gestion of a LISTVIEW_KIND
+  * gadget
+  */
+
+ struct ManageList
+      {
+           struct List         List;          // The List pointer
+           struct Remember     *Remember;     // The Remember of List
+                                              // This is for the Gadget
+           struct Window       *Window;       // The Wnd of Gadget
+           struct Gadget       *Gadget;       // The View Gadget pointer
+                                              // Flags of controll
+           WORD                MustSave;      // TRUE if the list is updated
+           WORD                ItemNum;       // Number of item in list
+      };
+
+      La  prima voce e' la struct List, la seconda serve per la gestione  della
+ memoria allocata, in modo da rilasciarla tutta senza casini, segue il puntato-
+ re  alla Window, al Gadget ed alcuni flag che potrebbero essere utili (si  po-
+ trebbe risparmiare memoria a riguardo, ma non ne avevo voglia :) ).
+
+ Ora ecco la funzione per creare una lista, e' il file AtcList.c :
+
+ #gli altri include cercateli :)
+ #include "List.h"              // My Struct definition
+
+ struct ManageList *BuildList(struct Window *MyWnd, struct Gadget *MyGad)
+ /************************************************************************
+  * Build a New Manager List
+  * Must receive a pointer to a list, take the mem and compile it. Return
+  * the address or Null if something was wrong
+  *************************************************************************/
+ {
+      struct ManageList   *MyManList = NULL;
+
+      if(! (MyManList = (struct ManageList*)AllocMem(sizeof(struct ManageList),
+                                                     MEMF_CLEAR)) )
+           return (FALSE);
+
+      /* Build The struct */
+      NewList(&MyManList->List);
+      MyManList->Window   = MyWnd;
+      MyManList->Gadget   = MyGad;
+
+      /* MustSave & ItemNum are == 0 */
+
+      return(MyManList);
+ }
+
+      Qualcuno avra' notato che la struct List e' allocata, e non vi e' un pun-
+ tatore.  Il perche' e' presto detto: il NewList() del SO vuole una  List  gia'
+ allocata, ed in questo modo si fa prima :)
+
+      Nota  che gli passi anche il Pointer alla Window ed al Gadget  della  tua
+ lista e che tutto il resto, avendo dato un MEMF_CLEAR e' posto a 0.
+
+      E questo serve (chiaramente) a liberare la memoria della lista.
+
+
+ VOID FreeManList(struct ManageList *MyManList)
+
+ /************************************************************************
+  * Erase a list from memory
+  *************************************************************************/
+
+ {
+      if (MyManList)                          // Paranoic Safe
+      {
+           if (MyManList->Remember) FreeRemember(&MyManList->Remember, TRUE);
+
+           FreeMem(MyManList, sizeof(struct ManageList));
+      }
+ }
+
+
+      Ora vediamo le routine per aggiungere una voce e per toglierla:
+
+
+ BOOL AddItem(struct ManageList *MyManList, char *name)
+
+ /************************************************************************
+  * Add an element to list
+ *************************************************************************/
+
+ {
+      struct Node *node;
+
+      /* Get memory for Node */
+      if(! (node = (struct Node *)AllocRemember(&MyManList->Remember,
+                                           sizeof(struct Node), MEMF_CLEAR)) )
+           return(FALSE);
+
+      /* Add node to tool list */
+      node->ln_Name= strdup(name);
+
+      DetachList(MyManList);        /* Detach list from ListView gadget */
+      AddTail(&MyManList->List, node);
+      AttachList(MyManList);        /* Attach list to ListView gadget */
+
+      MyManList->MustSave = TRUE;
+      MyManList->ItemNum += 1;
+
+      return(TRUE);
+ }
+
+
+ VOID DelItem(struct ManageList *MyManList, UWORD code)
+
+ /************************************************************************
+  * Del an element from list
+  *************************************************************************/
+ {
+ struct Node    *node;
+
+ for(node  =  MyManList->List.lh_Head;  node->ln_Succ !=  NULL;
+                                        node  =  node->ln_Succ, code--)
+      {
+           if(code == 0)
+           {
+                DetachList(MyManList);
+                Remove(node);
+                AttachList(MyManList);
+
+                MyManList->MustSave = TRUE;
+                MyManList->ItemNum -= 1;
+
+                break;
+           }   
+      }
+ }
+
+      Queste routines non sono nulla di trascendentale, si chiama pero' il  De-
+ tachList(MyManList)  e l'AttachList(MyManList).  Ebbene, dato che il SO  vuole
+ che  si debba isolare la lista dal gadget prima di modificarla,  le  procedure
+ fanno questo:
+
+ VOID DetachList(struct ManageList *MyManList)
+/************************************************************************
+ *************************************************************************/
+ {
+      if(MyManList->Window)                   // Safe test
+           GT_SetGadgetAttrs(MyManList->Gadget, MyManList->Window, NULL,
+                             GTLV_Labels,   ~0,   TAG_DONE);
+ }
+
+ VOID AttachList(struct ManageList *MyManList)
+ /************************************************************************
+ *************************************************************************/
+ {
+      if(MyManList->Window)                   // Safe test
+           GT_SetGadgetAttrs(MyManList->Gadget, MyManList->Window, NULL,
+                             GTLV_Labels,     &MyManList->List, TAG_DONE);
+ }
+
+      nota  l'ulteriore controllo (non si puo' staccare un Gadget che non  c'e'
+ ancora!) per evitare che uno che prima costruisce la lista e poi l'attacca  al
+ gadget faccia casini nel sistema...
+
+      Chiaramente il tutto non termina qui, ma visto le 220 righe  dell'artico-
+ lao qui mi fermo.  Nel prossimo numero descrivero' come il tutto funziona, al-
+ cune altre funzioni di cui non ho parlato e come sapere con precisione la  di-
+ mensione del gadget in rapporto al font usato etc.  etc.
+
+      So che tu - lettore Pirla - stai fremento d'impazienza. Ebbene tutto cio'
+ lo puoi vedere funzionante (sorgente incluso) in AttachII, disponibile  appena
+ ne avro' voglia (e funzionera').
+
+                                              AVE
+                                              con tanta acqua minerale
+
+                                              RRE
+                                              2:334/100.9
+                                              2:334/21.3
+
+
+ ############                                                               ###
+ ###   7  ###                     CURIOSITA`: UNA COKE MACHINE SU INTERNET  ###
+ ############                                                               ###
+
+      Quanto  segue e` stato postato intorno a Ferragosto da un utente  austra-
+ liano (edp328j@monu6.cc.monash.edu.au) nell'area USENET dedicata allo  discus-
+ sioni avanzate su Unix. Come potete vedere, non e` che nemmeno li` si  rimanga
+ sempre nel tema principale della conferenza...
+
+      Ho voluto comunque tradurvi il brano perche` penso che sia molto  istrut-
+ tivo  sulla mentalita` che possono assumere quelli che magari sarebbero  stati
+ dei bravi ragazzi se solo non avessero avuto una passionaccia per i calcolato-
+ ri... (e per la Coca Cola)
+
+ -----------------------------------------------------------------------
+
+        L'unica distributrice di Coca Cola su Internet.
+
+      Da tempo immemorabile (beh, magari dal 1970) il dipartimento di  informa-
+ tica della Carnegie-Mellon University ha mantenuto una macchina  distributrice
+ di Coca Cola che vende bottigliette di Coca Cola per una decina di cent in me-
+ no che le altre macchine intorno al campus. Visto che nessun Vero Programmato-
+ re puo` funzionare senza caffeina, la macchina e` molto popolare. (Se ben  ri-
+ cordo, ha avuto il piu` grande volume di vendita tra tutte le distributrici di
+ Coca  Cola  nell'area di Pittsburgh). La macchina viene  caricata  in  maniera
+ piuttosto casuale da volontari tra gli studenti degli anni superiori.
+
+      A  meta` degli anni '70, l'espansione del dipartimento fece si`  che  gli
+ uffici dei ricercatori venissero spostati sempre piu` lontano dalla sala  ter-
+ minali principale dove stava la distributrice. Era piuttosto scocciante  farsi
+ tutto  il giro dal terzo piano solo per trovare la macchina vuota -  o  peggio
+ ancora, tirarsi fuori di tasca le monete faticosamente guadagnate per ricevere
+ una bottiglietta appena introdotta nella macchina, e percio` calda. Un giorno,
+ un paio di amici si riunirono per trovare una soluzione.
+
+      Essi  installarono dei microswitch nella distributrice,  per  controllare
+ quante  bottiglie erano presenti in ciascuna delle sei colonne  di  bottiglie.
+ Gli switch furono poi collegati a CMUA, il PDP-10 che allora era il calcolato-
+ re  principale del dipartimento. Venne poi scritto un programma che  manteneva
+ delle  statistiche sullo stato della macchina, che tra l'altro includevano  da
+ quanto tempo ogni bottiglia era presente nella macchina. Se si faceva  partire
+ il  programma gemello di informazioni, si otteneva una schermata piu`  o  meno
+ come la seguente:
+
+                      EMPTY   EMPTY   1h 3m
+                      COLD    COLD    1h 4m
+
+      In  questo  modo  si sapeva che la Coca Cola fresca  si  poteva  ottenere
+ schiacciando  i pulsanti in basso a sinistra e in basso al centro,  mentre  le
+ bottiglie nelle colonne di destra erano state immesse solo da un'oretta e per-
+ cio` erano ancora calde. (Penso che il display cambiasse dall'indicazione del-
+ l'ora alla scritta COLD dopo che le bottiglie erano rimaste la` per tre ore).
+
+      La  parte  finale del rompicapo servi` per far si` che la  gente  potesse
+ controllare la situazione delle bottiglie di Coca Cola anche quando erano col-
+ legate  su un'altra macchina del dipartimento. Il server Finger di CMUA  [NdE:
+ finger e` il programma Unix che da` informazioni sugli utenti della  macchina,
+ tipo nome, cognome, se, dove e da quanto tempo e` collegato...] fu  modificato
+ per fare girare il programma di informazioni ogni volta che qualcuno chiedesse
+ dell'utente non esistente "coke". Visto che le richieste fatte via finger sono
+ parte  delle procedure standard ARPANET (e ora di Internet), la  gente  poteva
+ controllare la distributrice da un qualunque calcolatore della Carnegie-Mellon
+ digitando semplicemente "finger coke@cmua". Anzi, se si voleva si poteva sape-
+ re  come  stavano le bottiglie di Coca Cola da dovunque su Internet!  Non  che
+ servisse poi a molto quando si era a qualche migliaio di chilometri di distan-
+ za...
+
+      Per  quanto ne so, nulla di simile e` stato fatto altrove, quindi la  CMU
+ puo` legittimamente vantarsi di avere avuto l'unica distributrice di Coca Cola
+ in Internet.
+
+      Il programma per la distributrice di Coca Cola fu usato per piu` di dieci
+ anni e fu persino riscritto per i Vax Unix quando CMUA fu smantellato all'ini-
+ zio degli anni '80.
+
+      La fine giunse solo un paio di anni fa, quando il locale grossista  della
+ Coca Cola non accetto` piu` le bottiglie con vuoto a rendere e con la forma di
+ bottiglia di Coca Cola. La vecchia macchina non poteva gestire le nuove botti-
+ glie dal vuoto a perdere e dalla forma completamente senza ispirazione,  cosi`
+ fu  rimpiazzata da un modello piu` nuovo. Questo accadde non molto tempo  dopo
+ il  fiasco della New Coke (indubbiamente il piu` grande esempio del secolo  di
+ "riparazione"  di qualcosa che funzionava perfettamente). La  combinazione  di
+ questi eventi lascio` gli amanti della Coca Cola della CMU abbastanza  incavo-
+ lati  da  far si` che nessuno si sia preoccupato di collegare i  sensori  alla
+ nuova macchina.
+
+      Posso  non essere stato precisissimo sulle date, ma credo che  tutti  gli
+ altri  dettagli siano accurati. La man page per i programmi (Unix) di  seconda
+ generazione  per  la Coca Cola danno riconoscimenti per il lavoro  hardware  a
+ John Zsarnay, e per il software a David Nichols e Ivor Durham. Non mi  ricordo
+ chi ha scritto i programmi originali per il PDP-10.
+
+                                    Tom Lane
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   8  ###                                   IL GERGO HACKER - PARTE 17  ###
+ ############                                                               ###
+
+                                {= E =}
+
+      <earthquake> [IBM: lett., terremoto] s. Il test terminale nel mondo reale
+ (v.  <real world> per l'hardware. Fonti hacker all'IBM negano la voce  che  il
+ terremoto del 1989 nella Bay area sia stato creato dalla societa` per control-
+ lare le proprie procedure di qualita` negli stabilimenti californiani.
+
+      <Easter egg> [Uovo di Pasqua] s. 1. Un messaggio nascosto nel codice  og-
+ getto  di un programma per scherzo, lasciato per essere trovato da  gente  che
+ disassembla  o da` un'occhiata al codice. @. Un messaggio, disegno  o  effetto
+ sonoro  emesso da un programma (o, per un PC, dalla ROM del BIOS) in  risposta
+ ad alcuni insiemi di comandi o di tasti non documentati, lasciati come scherzo
+ o per mostrare i collaboratori che hanno creato il programma. Un ben noto E.e.
+ tra i primi comparsi, che si trovava in un paio di S.O., li faceva  rispondere
+ al  comando "make love" (fate l'amore) con "not war?" (non la guerra?).  Molti
+ personal  computer, oltre al PC IBM, hanno nelle proprie ROM degli E.e.  molto
+ piu` elaborati, comprendenti liste di nomi dei sviluppatori, esortazioni poli-
+ tiche,  brani musicali, e, in un caso, immagini grafiche  dell'intera  squadra
+ degli sviluppatori.
+
+      <Easter egging> [IBM: fare uova di Pasqua] s. L'atto di rimpiazzare parti
+ non correlate piu` o meno a caso, nella speranza che un malfunzionamento  spa-
+ risca. Gli hacker pensano che questo sia il normale modo operativo dei tecnici
+ del <field circus>, e non li amano per questa ragione.
+
+      <eighty-column  mind>  [IBM - mente a 80 colonne] s. Il tipo per  cui  la
+ transizione  dalle carte perforate al nastro e` stata traumatica  (nessuno  ha
+ ancora osato parlare loro dei dischi). Si dice che questa gente, come (secondo
+ una vecchia battuta) il fondatore dell'IBM, sara` seppellita  `9-EDGE-FORWARD-
+ FACE-DOWN'. Molti hacker pensano che questa gente domini la base utenti  della
+ IBM, e il suo pensiero. 
+
+      <El Camino Bignum> /el' k@-mee'noh big'num/ s. El Camino Real. El  Camino
+ Real e` il nome di una strada attraverso la penisola di San Francisco che ori-
+ ginariamente si estendeva (e che ancora adesso compare a tratti) fino ad alcu-
+ ne  citta` del Messico. Le coordinate sulla penisola di San Francisco sono  di
+ solito  fatte relative a El Camino Real, che si assume essere orientata  nord-
+ sud anche se in molti posti non lo e` affatto (vedi <logical>). El Camino Real
+ passa  accanto alla Stanford University, e percio` e` familiare agli  hackers.
+ La parola spagnola `real' (con l'accento sulla a) significa regale; El  Camino
+ Real e` "la strada regale". Ma la parola inglese "real" e` usata in matematica
+ per  descrivere  i  numeri, e abusata in informatica  per  indicare  i  numeri
+ floating  point.  In FORTRAN, ad esempio, una quantita` "reale" ha  in  genere
+ sette cifre decimali di precisione, mentre un "double precision' ne ha  magari
+ 14.  Quando un hacker dal MIT visto` la Stanford University intorno  al  1976,
+ noto`  quanto lunga fosse El Camino Real, e come gioco di parole  comincio`  a
+ chiamarla  "El Camino Double Precision" - ma quando gli dissero che la  strada
+ era lunga centinaia di chilometri, la rinomino` "El Camino Bignum", e il  nome
+ rimase. (V. <bignum>.)
+
+      <elegant>  [dall'uso matematico: elegante] agg. Che combina  semplicita`,
+ potenza, e una certa ineffabile grazia di progetto. Piu` apprezzamento che con
+ `clever', `winning' o persino <cuspy>.
+
+      <elephantine>  [elefantiaco] agg. Usato per programmi o sistemi che  sono
+ sia  degli <hog> (a causa forse della pessima progettazione basata  su  <brute
+ force  and ignorance>) ed eccezionalmente <hairy> nel loro sorgente.  Un  pro-
+ gramma  e.  puo` essere funzionale e persino amichevole, ma (come  la  vecchia
+ battuta  sul dormire in un letto con un elefante) e` in ogni caso  scomodo  da
+ avere intorno, e spec. la sua manutenzione e` un casino. Si sa di casi estremi
+ in  cui hacker sono stati visti fare dei barriti o mimare tali animali  quando
+ certi programmi venivano nominati. Uso: semiumoristico. Confr. "ha natura ele-
+ fantiaca"  e il termine piu` peggiorativo <monstrosity>. Vedi  anche  <second-
+ system effect> e <baroque>.
+
+      <EMACS>  /ee'maks/ [da Editing MACroS, macro per editare] s. Il non  plus
+ ultra degli editori per hacker, un editor di programmi con un intero interpre-
+ te  LISP  al proprio interno. Scritto originariamente da Richard  Stallman  in
+ <TECO> ai laboratori di AI del MIT, ma le versioni piu` usate girano oggi sot-
+ to UNIX. Include la possibilita` di fare delle compilazioni e di spedire e ri-
+ cevere  posta; molti hacker passano fino all'80% del loro tempo  al  terminale
+ usandolo.  Alcune versioni che girano sotto un window manager  lo  iconificano
+ come un lavandino di una cucina, forse per suggerire l'unica feature che  l'e-
+ ditor non include. A dire il vero, alcuni hacker trovano EMACS troppo  pesante
+ e barocco per i propri gusti, ed espandono il nome come "Escape Meta Alt  Con-
+ trol  Shift" per prendere per i fondelli il suo pesante basarsi  su  complesse
+ combinazioni  di  tasti. Altre espansioni di tale  schiera  comprendono  Eight
+ Megabytes  And  Constantly Swapping [ 8 MB (di RAM) e  continua  a  swappare],
+ Eventually  malloc()s All Computer Storage [Alla fine si allochera`  tutta  la
+ memoria  del  calcolatore], e EMACS Makes Any Computer Slow  [EMACS  rende  un
+ qualsiasi calcolatore lento] (v. <RECURSIVE ACRONYMS>). Vedi anche <vi>.
+
+      <email>  /ee-mayl/ vt.,s. Posta elettronica, passata automaticamente  via
+ reti  di computer e/o linee telefoniche e modem. In contrasto a  <snail-mail>.
+ V. <network address>.
+
+      <emoticon>  /ee-moh'ti-cahn/ [faccina] s. An insieme di  caratteri  ASCII
+ usati per indicare uno stato emotivo nella email o nelle aree messaggi. Ne so-
+ no  state proposte centinaia, ma solo poche sono in uso comune. Tra queste  ci
+ sono:
+
+     :-) Faccina sorridente (indica una risata)
+     :-( Faccina triste (indica tristezza, rabbia o scocciatura)
+     ;-) Occhiolino (v. <ha ha only serious>)
+     :-/ Faccia storta
+
+      Le  prime due di queste si incontrano di gran lunga piu`  frequentemente.
+ Le  forme senza il trattino sono comuni su CompuServe, GEnie e BIX;  v.  anche
+ <bixie>. Su <USENET>, "smiley" [Sorriso] viene spesso usato come nome generico
+ per una qualunque faccina.
+
+      Nota per il novellino (v. <newbie>): usare troppo gli e. significa essere
+ dei perdenti! Piu` di uno per paragrafo e` indice sicuro che si sta  esageran-
+ do.
+
+      <empire> s. Una qualunque di una famiglia di simulazioni militari deriva-
+ te  da un gioco scritto da Peter Langston molti anni fa. Ci sono cinque o  sei
+ varianti per piu` giocatori di diverso tipo di sofisticazione, e una  versione
+ per un singolo giocatore implementata sia per UNIX che per VMS che e`  persino
+ disponibile come freeware per MS-DOS. Tutte queste versioni danno notoriamente
+ assuefazione.
+
+      <ENQ> /enkw/ [dal mnemonico ASCII per 0000101] 1. Una convenzione on-line
+ per chiedere la disponibilita` di qualcuno. Dopo avere aperto una  connessione
+ <talk mode> con qualcuno apparentemente nel pieno dell'hacking, uno puo` scri-
+ vere  "SYN SYN ENQ?" (I SYN rappresentano bytes notazionali di  sincronizazio-
+ ne), aspettandosi una risposta di <ACK> o NAK a seconda se la persona si sente
+ o no interrompibile. Vedi <ACK>; confronta <ping>, <finger>, e l'uso di `FOO?'
+ sotto la voce <talk mode>.
+
+      <EOF> /ee-oh-ef/ [UNIX/C] s. End Of File. 1. Si riferisce specialmente al
+ pseudovalore ritornato dalle letture sequenziali in C, o dai loro  equivalenti
+ in altri ambianti, quando e` stata raggiunta la fine logica del file (valeva 0
+ nello  Unix  V6, e` -1 sotto V7 e tutte le versioni seguenti).  2.  Usato  per
+ estensione in un contesto fuori dai computer quando un uomo sta facendo  qual-
+ cosa che puo` essere assimilato a una lettura sequenziale e non puo` piu`  an-
+ dare  avanti.  "Sai, sono andato a cercare una lista di mnemonici del  360  da
+ postare come scherzo, ma ho raggiunto abbastanza in fretta l'<EOF>; tutto cio`
+ che la biblioteca aveva era un manuale JCL".
+
+      <EOU> /ee oh yoo/ Il mnemonico di un mitico carattere di controllo  ASCII
+ (End  Of User, fine dell'utente) che una volta ricevuto faceva  esplodere  una
+ Teletype Model 33. Una parodia dei codici oscuri rimasti nell'ASCII dai  tempi
+ in  cui serviva piu` per le telescriventi che per i calcolatori, come FS,  GS,
+ RS, US, EM, SUB, ETX e sp. EOT). Vale la pena di ricordare che le ASR-33 erano
+ enormi bestie meccaniche con moltissime parti in movimento; la nozione che una
+ di esse potesse esplodere non era certo cosi` ridicola come potrebbe  sembrare
+ a qualcuno che sta oggi di fronte a un monitor (v. <tube>).
+
+      <epoch,  the>  [UNIX: l'epoca] s. La data e l'ora corrispondenti  a  zero
+ nell'orologio e nei valori di sincronizzazione temporale di un sistema  opera-
+ tivo.  Sotto molte versioni di Unix, le 0:00 del primo gennaio 1970,  GMT.  Il
+ tempo  di sistema e` misurato in secondi o <tick> dopo l'epoch.  Vedi  <tick>,
+ <wall  time>.  Si noti che degli strani problemi possono risultare  quando  il
+ clock  ritorna  a zero per avere passato tutti i valori  possibili  (v.  <wrap
+ around>),  e  che questo evento non e` necessariamente raro: nei  sistemi  che
+ contano  10 <tick> per secondo, un contatore a 32 bit dura solo per 6.8  anni.
+ Il  clock al secondo di Unix sara` valido fino al 18 gennaio 2038,  supponendo
+ che le lunghezze delle parole non siano cresciute per allora.
+
+      <epsilon> [dalla notazione matematica standard per una piccola quantita`]
+ 1. s. Una piccola quantita` di qualcosa. "Il costo e` epsilon". 2. agg.  Molto
+ piccolo, trascurabile; meno che marginale. "Possiamo aggiungere questa feature
+ a costo epsilon". 3. <within epsilon of> [a meno di epsilon] abbastanza vicino
+ per essere indistinguibile a tutti gli effetti pratici. Questo e` ancora  piu`
+ vicino, rispetto a "a meno di delta" (<within delta of>. Esempio: "Non e` pro-
+ prio  quello che ho chiesto, ma e` a meno di epsilon da quello".  Alternativa-
+ mente, puo` significare che non e` abbastanza vicino, ma ci vuole ben poco per
+ arrivare  fino a dove si vuole: "Il mio programma gira a meno di epsilon".  V.
+ <asymptotic>.
+
+      <epsilon  squared> [epsilon quadro] s. Una quantita` ancora piu`  piccola
+ di <epsilon>, piu` o meno nello stesso rapporto di quest'ultima a qualcosa  di
+ normale. Se si compra un supercomputer per un milione di dollari, il costo del
+ terminale da mille dollari per collegarvicisi e` <epsilon>, e i dieci  dollari
+ di costo del connettore tra di essi e` <epsilon squared>.
+
+      <Eric  Conspiracy> [cospirazione degli Eric] s. Gruppo teorico di  hacker
+ baffuti di nome Eric, additato per la prima volta come membri di una  sinistra
+ cospirazione da un infame messaggio in talk.bizarre intorno al 1986; e`  stato
+ senza  dubbio influenzato dai numerosi scherzi su `Eric' nell'opera dei  Monty
+ Python.  Effettivamente sembra che ci siano molti piu` Eric baffuti nel  mondo
+ hacker  di quanto ci si potrebbe aspettare statisticamente, a meno che  queste
+ caratteristiche  siano  correlate in qualche arcana maniera. Esempi  ben  noti
+ comprendono  Eric Allman, noto per il <BSD>, Erik Fair (coautore di NNTP);  il
+ compilatore della versione originaria del Jargon [NdE: Eric Raymond, vi ricor-
+ do] ne conosce una quindicina via posta elettronica, e l'organizzazione  `Eric
+ Conspiracy Secret Laboratories' [Laboratori segreti della E.C.] e` oramai pre-
+ sente dai messaggi in uscita da piu` di un nodo.
+
+      <Eris> /e'r@s/ np. La divinita` greco-romana del Caos, Discordia,  Confu-
+ sione e delle Cose Che Non Sapete; alias Discordia. Divinita` non troppo  ami-
+ chevole nell'origine classica, e` stata reinventata come una  personificazione
+ piu` benigna dell'anarchia creativa nel 1959 dagli aderenti al  Discordianismo
+ e  da allora e` stata un semiserio soggetto di venerazione in diverse  culture
+ `marginali',  compresa quella degli hacker. Vedi <Discordianism>,  <Church  of
+ the Sub-Genius>.
+
+      <essentials> [gli essenziali] s. Le cose necessarie per mantenere un  am-
+ biente  produttivo e sicuro - dal punto di vista dell'hacker. "Una caraffa  di
+ vino,  una pagnotta, un 386/33 con 387, 8 mega di RAM e un disco da  300  mega
+ con  su un bello Unix con sorgenti, X, EMACS e UUCP verso un buon nodo  Inter-
+ net, e tu".
+
+      <evil> [male] agg. Nel senso usato dagli hackers, indica un sistema, pro-
+ gramma, persona o istituzione sufficientemente malfatta da non valere la  pena
+ di interagirci. A differenza degli aggettivi della serie <cretinous>/<losing>/
+<brain-damaged>,  "evil" non implica incompetenza o cattiva  progettazione,  ma
+ piuttosto un insieme di scopi o criteri di progettazione fatalmente incompati-
+ bili  con  chi parla. E` un giudizio piu` estetico e ingegneristico  piu`  che
+ morale come nella lingua corrente. "Avevamo pensato di aggiungere un'interfac-
+ cia <Blue Glue>, ma abbiamo deciso che era male trattare con essa". "il <TECO>
+ e` simpatico, ma se uno fa molti errori di batitura e` davvero male".
+
+      <exa-> pref. Vedi <kilo>.
+
+      <EXCH> /eks'ch@, ekstch/ vt. Scambiare due cose tra loro; scambiare i po-
+ sti.  Se indicate due persone sedute e dite "Exch!", state chiedendo  loro  di
+ scambiarsi di posto. <EXCH>, che significa EXCHange (scambio), era in  origine
+ il nome di un'istruzione del PDP-10 che scambiava i contenuti di un registro e
+ di  una locazione di memoria. Molti hackers dell'ultima generazione tendono  a
+ considerarlo invece l'operatore di scambio in PostScript.
+
+      <excl> /eks'kl/ s. Abbreviazione per "exclamation point" [punto  esclama-
+ tivo]. Vedi <bang>, <shriek>, <wow>.
+
+      <EXE> /ex'ee/ Un file binario eseguibile. Alcuni sistemi operativi (prin-
+ cipalmente MS-DOS e VMS) usano l'estensione .EXE per indicare tali files. Que-
+ sto uso si trova a volte anche tra i programmatori Unix, anche se gli  esegui-
+ bili  Unix non richiedono di per se` nessuna estensione (di fatto, il  termine
+ "estensione" in questo senso non e` parte del gergo Unix).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   9  ###                                    NOTIZIE FIDONET REGION 33  ###
+ ############                                                               ###
+
+          
+                               Net 331
+                               =======
+
+      L'estate e' trascorsa tranquillamente, ma nonostante il periodo delle fe-
+ rie la crescita del net 331 e' proseguita.
+
+      I nuovi nodi del net 331 sono:
+
+      Il primo e' ACTILINK (331/330) di Luigi Digennaro, a Milano. Risponde al-
+ lo 02-58112227 (4 linee a ric. automatica) in V32.
+
+      Poi  c'e'  TITAN (331/319), sysop Pino Massignan. Si trova  a  Quinto  De
+ Stampi  (Mi) e risponde allo 02-8254807 con uno Zyxel V32bis. Il  modello  del
+ modem  non  e' casuale, visto che una delle particolarita' di  questa  BBS  e'
+ quella di fungere da supporto per i modem Zyxel, consentendo il download degli
+ upgrade del firmware e delle utility per la gestione del fax.
+
+      TITAN  ha preso il posto, in nodelist di LOCUS, di Enrico Santoemma,  che
+ ha purtroppo chiuso i battenti.
+
+      Un  nuovo amico anche da Domodossola (NO): e' Paolo Caparrelli, sysop  di
+ KAMIKAZE  BBS  (331/119). Il telefono e' 0324-241207 e risponde con  un  modem
+ V32bis.
+
+ Ciao,
+ --V--
+
+                               Net 332
+                               =======
+
+      E' attualmente in corso la votazione della nuova policy di net; la  vota-
+ zione ha gli stessi tempi della votazione per il nuovo RC.
+
+      IlCosta ha ricominciato a scrivere messaggi. Che la Madonna  consolatrice
+ delle vittime degli scrittomani ci protegga la vista e l' intelletto!
+
+      Fiori d' arancio in Fidonet: Filippo Dini e Marta Cavallini, points .3  e
+ .4 del 332/108 si sposano. Auguri e modem maschi!
+
+  Ciao Ciao!      ___
+                 /  _
+                <___/ iovanni
+
+
+                               Net 333
+                               =======
+
+      L'unica novita` e` la votazione in corso per NC e NEC.
+
+  Ciao!                     /*Piero*/
+
+
+                               Net 334
+                               =======
+
+      Nessuna nuova. Vediamo se anche per quest'anno TamTam sara` presente alla
+ mostra Nuove Tecnologie...
+
+ ciaociao .mau.
+
+
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:   
+
+ 334/100 - 011-3299706     | 334/104 - 011-502423      | 334/105 - 011-2238389
+ 335/211 - 099-4746313     | 335/215 - 0994746044      | 331/112 - 0341-360511
+ 333/603 - 040-3783111     | 332/315 - 0721-30783
+
+      da Sintel, 011-596274,
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/306 - 0121-542795     | 335/210 - 081-5709527     | 335/405 - 06-315323
+
+
+####                            End of TELEM022                            ####

@@ -1,0 +1,1065 @@
+         
+    *****   Vol.  1   *****      Pag.  1      *****   Numero   3   *****
+
+    ====================================================================
+
+    @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+      @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+      @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+      @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+      @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+    ====================================================================
+
+                                  Marzo 1991
+
+    ====================================================================
+
+      Bollettino telematico mensile a cura del network 2:334 - Fidonet 
+
+                 Editor rilassatus:     Maurizio Codogno
+                 Editor logorroicus:    Roberto Piola
+                 Editor ritardatarius:  Franco Carcillo
+                 Editor softwarensis:   Silvan Calarco
+                 Editor amigabilis:     Renato Rolando
+                 Editor sysoppo:        Franco Schinco
+                 Collaboratori:         Tutti voi :-)
+
+    --------------------------------------------------------------------
+
+                            IN   QUESTO   NUMERO :
+
+    Editoriale    .   .   .   .   .   .   .   .   .   .   .   .  pag.  2
+    Il gergo Fidonet - parte 3, di Roberto Piola  .   .   .   .  pag.  3
+    Il SysCon '91, di Franco Carcillo .   .   .   .   .   .   .  pag.  4
+    VivAmiga, di Renato Rolando   .   .   .   .   .   .   .   .  pag.  5
+    Il programmino    .   .   .   .   .   .   .   .   .   .   .  pag.  7
+    Un bbs al mese: Charlie's Puppies .   .   .   .   .   .   .  pag. 12
+    Prodotti made in Italy: WMAIL, di Silvan Calarco  .   .   .  pag. 13
+    Curiosita': il Jargon File - parte 1  .   .   .   .   .   .  pag. 15
+    Notizie dal Net 334   .   .   .   .   .   .   .   .   .   .  pag. 18
+    Il prossimo numero    .   .   .   .   .   .   .   .   .   .  pag. 19
+
+    ====================================================================
+
+         Il materiale presente in Telematicus e' (C) dei singoli autori.
+    E' espressamente  consentita  la  distribuzione  e il riutilizzo del
+    bollettino  in  tutto  o in  parte,  purche' non  a fini di  lucro e
+    citando sempre la fonte di provenienza. 
+
+    *****   Vol.  1   *****      Pag.  2      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                       -----> EDITORIALE
+                                                              ==========
+
+         Non venitevi a lamentare se questo numero di Telematicus sembra 
+    una  pubblicita'  del  nodo  334/11,  tra  il  sottoscritto,  Silvan 
+    Calarco, Renato Rolando e Franco Schinco. Anzi, venitevi a lamentare 
+    e scrivete tante belle letterine, che poi ve le pubblico....
+         Qui  sembra che la sprinta propulsiva si sia gia'  esaurita,  e 
+    convincere  la  gente  a  spremersi  le  meningi  per  ottenere  una 
+    paginetta o due e' un'impresa veramente ostica. Fortuna che il  buon 
+    Piola  rinuncia  a dare gli esami all'universita' pur  di  non  fare 
+    mancare  il suo contributo sempre gradito... Per riuscire invece  ad 
+    avere  l'articolo dal nostro beneamato NC ho dovuto sudare almeno  7 
+    camicie  e  ridurmi a mandare fuori  questo  numero  all'ultimissimo 
+    momento.
+         A  proposito  di contributi, come avete  visto  nell'indice  ho 
+    cominciato a tradurre il meglio del Jargon File. L'originale inglese 
+    si potra' trovare nei migliori negozi, pardon BBS, del network,  per 
+    tutti  quelli  che  hanno voglia di cuccarsi 250 K  zippati  che  si 
+    espandono a 540....
+         Buona   lettura  a  tutti  e  (magari!)  buona  scrittura   per 
+    Telematicus.
+
+                                                  .mau.
+
+
+    *****   Vol.  1   *****      Pag.  3      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                ----->  IL GERGO FIDONET
+                                                        ================
+
+            Parte 3 - Terminologia FidoNet: indirizzi, nets e points
+            --------------------------------------------------------
+
+         Precisero'  in quest'articolo qualche questione riguardante  la 
+    formazione degli indirizzi della FidoNet, a cui avevo gia' accennato 
+    nel  mio  precedente pezzo su matrix ed echomail,  oltre  ad  alcuni 
+    altri termini tecnici che potete incontrare in giro per i BBS.
+         Ogni  BBS, o point, della rete e' detto "nodo" poiche'  rappre-
+    senta la terminazione, o l'incrocio, delle connessioni interne  alla 
+    rete.
+         Ad  ogni nodo e' assegnato un indirizzo, che serve per  distin-
+    guerlo dagli altri. Tale indirizzo e' univoco, viene attribuito  dal 
+    coordinatore  preposto a cio' ed e' nel seguente  formato  (talvolta 
+    parte viene omessa per brevita'):
+                zona : net / nodo . point @ domain
+
+         Una spiegazione delle varie componenti:
+         -  La zona corrisponde grosso modo al continente in cui sta  il 
+    nodo:  la zona 1 e' l'America del Nord, la zona 2 e' l'Europa, la  3 
+    l'Estremo Oriente e l'Oceania, e cosi' via.
+         -  Il  net corrisponde ad una regione geografica, in  cui  ogni 
+    continente  e'  diviso ed all'interno della quale ci  sono  rapporti 
+    particolarmente  stretti tra i vari BBS, si usa la stessa  lingua  e 
+    possono  valere regolamenti particolari (mai comunque in  disaccordo 
+    con  quello mondiale). Ad esempio il net 334 corrisponde a  Piemonte 
+    (meno Novara) e Val d'Aosta, il net 331 alla Lombardia piu' Parma  e 
+    Novara, il net 333 al Triveneto, il 332 a Liguria, Emilia-Romagna  e 
+    Toscana,  ed  il 335 al resto dell'Italia. Un certo  numero  di  net 
+    forma  una  "regione". Ad esempio, l'Italia, forma la  "region  33", 
+    costituita appunto dai  net 331, 332, 333, 334 e 335.
+         -  Il  numero di nodo e' un progressivo che identifica  un  BBS 
+    all'interno del suo net.
+         -  Il numero di point, che viene solitamente omesso per  i  BBS 
+    (in quanto e' 0) identifica un point, un sistema satellite di un BBS 
+    di cui parlero' piu' oltre.
+         -  Il  domain serve per specificare la  rete  di  appartenenza, 
+    visto che ora e' possibile scambiarsi messaggi anche tra reti diffe-
+    renti;  anche  questo solitamente viene omesso quando si  scrive  il 
+    proprio indirizzo.
+         Ogni BBS possiede una lista di tutti i nodi perlomeno della sua 
+    regione,  la cosiddetta "nodelist". Ad essa si affiancano  le  varie 
+    rubriche  che dicono a che indirizzo cercare un dato utente, per  la 
+    matrix, come si tengono gli elenchi telefonici.
+
+         Ho parlato poc'anzi di points, ma cosa sono?
+         Un  utente particolarmente interessato alle aree messaggi  puo' 
+    decidere di ricevere tutti i messaggi nuovi in formato compresso, in 
+    maniera  analoga  a come vengono trasmessi tra BBS e  BBS,  per  poi 
+    scompattarseli,  leggerseli con calma lasciano la linea  libera  per 
+    gli altri utenti, scriversi le risposte con il proprio word  proces-
+    sor preferito per poi riversarle sul suo "Boss", il BBS abituale, in 
+
+    *****   Vol.  1   *****      Pag.  4      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    modo simile a quello con cui li ha prelevati.
+         Tale utente ha solo da installare un software particolare e  da 
+    chiedere  al  suo boss che gli ricopi e comprima  i  messaggi  (cosa 
+    effettuata in automatico dal software di gestione del BBS, il cosid-
+    detto "mailer"). Esso diventera' un "point", a cui sara'  attribuito 
+    il numero zona:net/nodo del boss <punto> un progressivo.
+
+         Sperando di aver contribuito un pochetto a diradare le tenebre, 
+    vi do appuntamento alla prossima occasione.
+
+          @   @                                      
+                                                     by Roberto Piola    
+          \___/                                2:334/15.1@fidonet.org
+
+
+                                                    -----> IL SYSCON '91
+                                                           =============
+
+         Il 9 e 10 marzo prossimi a Torino si danno appuntamento i sysop 
+    italiani  della rete FidoNet nella Sysop Convention 1991,  informal-
+    mente  nota come SysCon '91. E' la terza volta che Torino  organizza 
+    un tale incontro: il primo avvenne nel dicembre '88, poi fu la volta 
+    del 1989 (su due giornate sempre dell'inizio di dicembre).
+         C'e' stata sempre una folta e variegata partecipazione di sysop 
+    provenienti da tutti i net italiani: quest'anno e' annunciata  anche 
+    la presenza (come avvenne nell'88) del coordinatore nazionale,  non-
+    che' fondatore del primo bbs italiano fidonet (il mitico Fido_Poten-
+    za), Giorgio Leo Rutigliano. Sara' l'occasione per un vivace scambio 
+    di opinioni sullo stato della rete, sui problemi, tecnici e non, del 
+    momento  nonche' un eccezzionale momento di socializzazione tra  chi 
+    e' accomunato dallo stesso, devastante (!), hobby telematico.
+         Uno degli argomenti piu' scottanti sara' sicuramente la discus-
+    sione  sulla costituzione di una associazione che legalizzi la  pre-
+    senza  FidoNet in Italia: nell'area messaggi riservata ai  sysop  si 
+    stanno  intrecciando  commenti e pareri,  quantomai  diversi,  circa 
+    l'utilita' o meno di tale associazione e soprattutto se debba essere 
+    un vincolo esplicito per l'ammissione nella Nodelist italiana.
+         La Nodelist e' l'elenco ufficiale dei bbs aderenti a FidoNet e, 
+    per  farne parte, esiste, al momento, un solo ed unico  vincolo:  la 
+    capacita' del sistema di poter ricevere e trasmettere posta  (ovvero 
+    messaggi) secondo i protocolli riconosciuti in FidoNet durante l'ora 
+    appositamente definita (dalle 3:30 alle 4.30).
+         Il  regolamento internazionale non elenca altri vincoli e  anzi 
+    sembra perentoriamente escluderli: e' anche vero, pero', che oggi in 
+    Italia  la rete amatoriale FidoNet non ha una struttura  legale  per 
+    poter  attivamente agire nella realta' tecnica, sociale e  culturale 
+    del Paese.
+         Un esperimento a livello nazionale, la ASSO, falli' miseramente 
+    nell'88/89 ma in quel caso ci fu, essenzialmente, un'eccessiva fidu-
+    cia  in persone che poi non erano stato in grado di  far  funzionare 
+    realmente l'associazione.
+         Diverso sembra il caso della associazione proposta ora, con  un 
+    piu'  stretto legame con la struttura FidoNet, di cui  anzi  sarebbe 
+    formalmente  composta, e con obiettivi piu' specifici quali la  rap-
+ 
+   *****   Vol.  1   *****      Pag.  5      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    presentanza  legale,  la detenzione del  copyright  della  nodelist, 
+    l'organizzazione di un incontro annuale e un'opera di p.r. sui  mass 
+    media.
+         Vedremo cosa ne saltera' fuori. Telematicus assicura, comunque, 
+    un "full coverage" della manifestazione torinese nel prossimo  nume-
+    ro. Per chi proprio non sta nella pelle di associarsi a qualcosa non 
+    posso  non  ricordare TAMTAM, libero sodalizio di  utenti,  sysop  e 
+    appassionati,  nato ed operante nel nostro net: Quest'anno  a  tutti 
+    nuovi soci ben 10 dischetti stracolmi del miglior shareware disponi-
+    bile. Contattate il vostro sysop di fiducia del net 334 per  saperne 
+    di piu'.
+                                          Franco Carcillo
+                                              2:334/1
+
+
+                                                         -----> VIVAMIGA
+                                                                ========
+                        L'HISoft Professional BASIC
+                        ---------------------------
+         Come promesso avrei parlato del C1-Text 3.0 se avessi  ricevuto 
+    l'upgrade;  cosa  incredibile l'ho effettivamente  ricevuto,  ma  il 
+    20/2/91. Dovendo consegnare l'articolo per il 22 capirete che la mia 
+    serieta'  professionale  mi ha impedito di portare  alle  stampe  un 
+    giudizio troppo affrettato.
+         Nel  prossimo numero faro' quindi una  dettagliata  descrizione 
+    del  pacchetto, soprattutto dal lato BUG (e purtroppo ne  sono   so-
+    pravvissuti molti nella nuova release...) Ma questa volta  permette-
+    temi di parlare di un programma estremamente valido seppure  ultima-
+    mente un po' trascurato a discapito di altri pacchetti molto "gioco-
+    si" ma poco amighevoli: il Basic dell'HI-SOFT.
+         L'HISoft  Professional,  ultima release  emessa  dalla  HISoft, 
+    malgrado il costo piu' elevato (250Klire) altro non e' che  l'HISoft 
+    Basic V1.5 con editor f+. Contrariamente al GFA (di estrazione  ata-
+    riana)  permette  tranquillamente  l'import/export  di  files  ASCII 
+    (scordatevi in GFA di usare il CED!).  E' totalmente compatibile con 
+    il Basic dato in dotazione con l'Amiga (che ricordo non puo'  compi-
+    lare,  ma lavora solo come interprete), permette un  facile  accesso 
+    alle  routines  del sistema, l'inclusione di librerie  esterne  tipo 
+    "arexx"  o  "req", ha un'ottima gestione degli interrupt  (cosa  che 
+    nella  v1.4 presentava ancora alcuni bug) e, udite udite, e'  total-
+    mente compatibile con il QuickBasic 3.0V.
+         L'unico  BUG che ho trovato ancora (e sono arrivato ad un  sor-
+    gente di 60K) e' questo :
+
+         FOR A = 0 TO 10000
+                 LOCATE 1,1
+                         CALL CALCOLA(X,Y)
+                 ? "STACK:";FRE(-2),"HEAP:";FRE(0) : ? "iterations : ";A
+         NEXT A
+
+         SUB CALCOLA(X,Y)
+                 LOCAL G$(40)
+                 'ERASE G$               'con questo va' a posto
+         END SUB
+
+    *****   Vol.  1   *****      Pag.  6      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Con  questo  semplice programmino ogni volta che si  chiama  in 
+    local  l'array  G$ viene occupata un po' della  heap  dedicata  alle 
+    variabili...  con  il conseguente "out of memory  heap"  dopo  poche 
+    iterazioni!  Il  tutto si risolve egregiamente  rilasciando  (ERASE) 
+    l'array appena si e' finito di usare, anche se questo sia considera-
+    to  local (notate che ERASE non richiede le parentesi per  mantenere 
+    la compatibilita' QuickBasic).
+         Per  "facile accesso alle librerie" intendo che  una  qualsiasi 
+    libreria  puo'  essere inclusa a patto di possedere  il  *.FD  della 
+    libreria (un programmino in BASIC si incarichera' di convertirla per 
+    l'HI Soft).
+         Per chiamare le routines si usano variabili di tipo "long" (A&) 
+    e  puntatori alle stringhe (SADDD(A$)), ad esempio per  chiamare  la 
+    routine Text basta fare:
+                 X&=Text&(RPw3&,SADD(A$),A)
+         Naturalmente, da buon BASIC, si pasticcia con PEEK & POKE,  ora 
+    divenuti anche LPEEK & LPOKE (per le long!) e WPEEK & WPOKE (per  le 
+    Word!).
+         Per "gestione interrupt" intendo la possibilita' di eseguire  a 
+    intervalli  di tempo predeterminati un programma, e di  gestire  con 
+    molta  semplicita'  tutti gli event Intuition con  un  solo  comando 
+    (SLEEP).
+         L'unico suo neo, a mio avviso, e' la mancanza di un  interprete 
+    (e  benche' veloce come compilatore, dopo un po' la cosa ha  i  suoi 
+    limiti...).  Comunque  chi volesse un BASIC  affidabile,  capace  di 
+    chiamare e gestire (non a livelli troppo complessi) anche le  routi-
+    nes  del sistema, e soprattutto avere un BASIC degno di  questo  no-
+    me... sa dove rivolgersi.
+         Mi stavo dimenticando ancora questi due o tre pregi :  possibi-
+    lita' di ottenere il codice oggetto del programma; compilabile quin-
+    di con BLINK e linkabile con qualsiasi altro linguaggio che supporti 
+    il  BLINK  (C sia Aztec che Lattice nonche' Assembler,  sempre  del-
+    l'HI-Soft of course!). Questo il tanto decantato GFA o l'AMOD non lo 
+    possono  fare.  Possibilita' di files "include" per  frammentare  in 
+    piu' files programmi complessi ed evidenziazione automatica in  edi-
+    ting (solo con l'Editor da 1Mb) di errori di sintassi.
+         Insomma  e' il Basic per Amiga, ben integrato non solo nel  SO, 
+    ma  anche  capace di crescere col crescere del SO senza  bisogno  di 
+    upgrades  (col GFA non e'possibile pescare in giro librerie). E  poi 
+    caricare  tramite Cross Doss un prg in Basic e vederlo  girare  sul-
+    l'Amiga "senza tanti casini", non puo' fare che piacere.
+         Quanto alla velocita' c'e' un demo di 80 righe grafico identico 
+    per il C: non ho avvertito alcuna differenza di esecuzione col  Lat-
+    tice 5.05.
+         Il  codice, e con questo vi saluto, e' ottimizzabile,  sia  col 
+    limite  dei 32k (che gli smanettoni del C o Assembler  conosceranno) 
+    sia  con la definizione delle variabili "INT",  con  un'apprezzabile 
+    differenza.
+
+                                                                     RRE
+                                                              2:334/11.9
+
+
+
+
+    *****   Vol.  1   *****      Pag.  7      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                   -----> IL PROGRAMMINO
+                                                          ==============
+
+         Ancora  una volta un programmino per MS-DOS. Se  voi  amighisti 
+    avete delle routine vostre che reputate interessanti, potete  sempre 
+    spedirmele...  Il programma, scritto da Flavio Bernardotti  nel  suo 
+    solito  stile  terso (cioe' senza un  commento...)  modifica  alcuni 
+    interrupt  "critici" e puo' essere considerato un rudimentale  anti-
+    virus, oltre che un ottimo esempio di gestione degli interrupt.
+
+    /* NOVIRUS.C - By Flavio Bernardotti */    
+    #include <bios.h>
+    #include <dos.h>
+
+    #define ULONG   unsigned long
+    #define FPTR    far *
+    #define UINT    unsigned
+    #define UCHAR   unsigned char
+    #define INTR    interrupt cdecl
+
+    #define DISK_BOOT_WRITE         0
+    #define DISK_INTER_CHANGED      1
+    #define CLOCK_INTER_CHANGED     2
+    #define DOS_INTER_CHANGED       3
+    #define WRITE_ON_EXEC           4
+
+    char    *errmsg[] = {
+        "Attenzione: richiesta scrittura nel settore di BOOT. ",
+        "Attenzione: sostituito interrupt disco (int 13h). ",
+        "Attenzione: sostituito interrupt clock (int 8h). ",
+        "Attenzione: sostituito interrupt dos (int 21h). ",
+        "Attenzione: richiesta apertura file eseguibile. "
+    };
+
+    UCHAR   FPTR utifcb;
+
+    void    (INTR FPTR oldint21)();
+    void    (INTR FPTR oldint13)();
+    void    (INTR FPTR oldint28)();
+
+    void    INTR far newint13();
+    
+    UCHAR   exte[4];
+
+    ULONG   addr21, addr13, addr08;
+
+    struct  intr {
+        UINT offset;
+        UINT segment;
+    } FPTR  inter = (struct intr FPTR) 0x00000000L;
+
+
+
+
+
+    *****   Vol.  1   *****      Pag.  8      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    int     allarm(int numerr,int f)
+    {
+        int ch;
+        UCHAR *msg;
+        UCHAR *key = "Permetto l' operazione (S/N) ? ";
+        UCHAR FPTR video = (UCHAR FPTR) 0xB0000000L;
+        UINT uti2, uti, freq;
+        union {
+            long div;
+            UCHAR c[2];
+        } counter;
+        UCHAR p;
+        p = inp(0x61);
+        outp(0x61,(p | 0x3));
+        for(uti2=0;uti2!=5;uti2++) {
+            freq = 0x2000;
+            for(;freq > 1000;freq -= 300) {
+                counter.div = 1193280/freq;
+                outp(0x43,182);
+                outp(0x42,counter.c[0]);
+                outp(0x42,counter.c[1]);
+                for(uti=0;uti < 10000;++uti);
+            }
+        }
+        outp(0x61,p);
+        msg = errmsg[numerr];
+        while(*msg) {
+            *video = *msg;
+            video += 2;
+            ++msg;
+        }
+        if(f == 0)
+            return(0);
+        while(*key) {
+            *video = *key;
+            video += 2;
+            ++key;
+        }
+        ch = _bios_keybrd(_KEYBRD_READ);
+        if((UCHAR) ch == 'n' || (UCHAR) ch == 'N')
+            return(-1);
+        else
+            return(1);
+    }
+
+    static  void setintvect(void (INTR FPTR funct)(),int n)
+    {
+        _disable();
+        ((inter+n)->segment) = ((UINT)((ULONG)funct>>16));
+        ((inter+n)->offset)  = ((UINT)((ULONG)funct));
+        _enable();
+    }
+
+
+
+    *****   Vol.  1   *****      Pag.  9      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    void    (INTR FPTR getintvect(int num))(void)
+    {
+        ULONG iaddr;
+        iaddr = ((UINT)(inter+num)->segment);
+        iaddr <<= 16;
+        iaddr |=((UINT)(inter+num)->offset);
+        return((void(INTR FPTR)()) iaddr);
+    }
+
+    int     cmpstr(char *s1, char *s2)
+    {
+        for(;*s1 == *s2;s1++,s2++)
+            if(*s1 == '\0')
+                return(0);
+        return(*s1 - *s2);
+    }
+
+    void    INTR far newint21(UINT es, UINT ds, UINT di, UINT si, 
+            UINT bp, UINT sp, UINT bx, UINT dx, UINT cx, UINT ax, 
+            UINT ip, UINT cs, UINT flags)
+    {
+        UCHAR offext;
+        UCHAR flag = 0;
+        register i = 0;
+        switch((UCHAR)(ax >> 8)) {
+        case    0x0F:
+            utifcb = ((UCHAR FPTR)(((ULONG)(ds)<<16)|(UINT)(dx)));
+            if(*utifcb == 0xff)
+                utifcb += 0x09;
+            else
+                utifcb += 0x10;
+            while((exte[i] = *utifcb) != ' ' && i < 3) {
+                ++i;
+                ++utifcb;
+            }
+            exte[i] = '\0';
+            i = 0;
+            while(exte[i] = toupper(exte[i])) i++;
+            if(!cmpstr(exte,"COM") || !cmpstr(exte,"EXE")) {
+                if(allarm(WRITE_ON_EXEC,1) == 1) {
+                    _enable();
+                    _chain_intr(oldint21);
+                } else {
+                    flags |= 1;
+                    ax = 0x0002;
+                }
+            } else {
+                _enable();
+                        _chain_intr(oldint21);
+                }
+            break;
+        case    0x3D:
+            if(((UCHAR) ax & 0x03) == 0) {
+                _enable();
+
+    *****   Vol.  1   *****      Pag. 10      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                _chain_intr(oldint21);
+                break;
+            }
+            utifcb = ((UCHAR FPTR)(((ULONG)(ds)<<16)|(UINT)(dx)));
+            i = 0;
+            while(*utifcb) {
+                if(!flag)
+                    if(*utifcb == '.') flag = 1;
+                ++utifcb;
+                if(flag == 1) { exte[i] = *utifcb; ++i; }
+            }
+            if(flag) {
+                exte[i] = '\0';
+                i = 0;
+                while(exte[i] = toupper(exte[i])) i++;
+                if(!cmpstr(exte,"COM") || !cmpstr(exte,"EXE")) {
+                    if(allarm(WRITE_ON_EXEC,1) == 1) {
+                        _enable();
+                        _chain_intr(oldint21);
+                    } else {
+                        flags |= 1;
+                        ax = 0x0002;
+                    }
+                } else {
+                    _enable();
+                    _chain_intr(oldint21);
+                }
+            } else {
+                _enable();
+                _chain_intr(oldint21);
+            }
+            break;
+        default:
+            _enable();
+            _chain_intr(oldint21);
+        }
+    }
+
+    void    INTR far newint28(UINT es, UINT ds, UINT di, UINT si, 
+            UINT bp, UINT sp, UINT bx, UINT dx, UINT cx, UINT ax,
+            UINT ip, UINT cs, UINT flags)
+    {
+        void (INTR FPTR funct)(void);
+        if(addr21 != ((ULONG)(((ULONG)((inter+0x21)->segment)<<16) | 
+                                       (UINT)((inter+0x21)->offset)))) {
+            (void) allarm(DOS_INTER_CHANGED,0);
+            addr21 = ((ULONG)(((ULONG)((inter+0x21)->segment)<<16) | 
+                                         (UINT)((inter+0x21)->offset)));
+        }
+        if(addr13 != ((ULONG)(((ULONG)((inter+0x13)->segment)<<16) | 
+                                       (UINT)((inter+0x13)->offset)))) {
+            (void) allarm(DISK_INTER_CHANGED,0);
+            addr13 = ((ULONG)(((ULONG)((inter+0x13)->segment)<<16) | 
+                                         (UINT)((inter+0x13)->offset)));
+
+    *****   Vol.  1   *****      Pag. 11      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+        }
+        if(addr08 != ((ULONG)(((ULONG)((inter+0x08)->segment)<<16) | 
+                                       (UINT)((inter+0x08)->offset)))) {
+            (void) allarm(CLOCK_INTER_CHANGED,0);
+            addr08 = ((ULONG)(((ULONG)((inter+0x08)->segment)<<16) | 
+                                         (UINT)((inter+0x08)->offset)));
+        }
+    }
+
+    void    INTR far newint13(UINT es, UINT ds, UINT di, UINT si, 
+            UINT bp, UINT sp, UINT bx, UINT dx, UINT cx, UINT ax, 
+            UINT ip, UINT cs, UINT flags)
+    {
+        if(0xfe != (ax >> 8)) {
+            switch((ax >> 8)) {
+            case    0x03:
+                if(((UCHAR)(cx >> 8) == (UCHAR) 0) && ((UCHAR)(cx && 
+                       0xff) == (UCHAR) 1) && ((UCHAR)(dx >> 8) == 0)) {
+                    (void) allarm(DISK_BOOT_WRITE,0);
+                    flags |= 1;
+                    ax = 0x0002;
+                } else {
+                     _enable();
+                     _chain_intr(oldint13);
+                }
+                break;
+            default:
+                _enable();
+                _chain_intr(oldint13);
+            }
+        } else ax = 0xef;
+        _enable();
+    }
+
+    void    main(void)
+    {
+        union REGS ir,or;
+        ir.h.ah = 0xfe;
+        int86(0x13,&ir,&or);
+        if(or.x.ax == (UINT) 0xef) {
+            printf("\n\n\007\007GUARDIAN v1.00 e' gia' residente in \
+    memoria\n\n");
+            exit(0);
+        }
+        printf("\n\nGUARDIAN v1.00\n");
+        printf("Protezione del sistema da programmi Virus.\n");
+        printf("(C) Copyright 1989, 1990 Flavio Bernardotti\n");
+        oldint21 = getintvect(0x21);
+        setintvect(newint21,0x21);
+        oldint13 = getintvect(0x13);
+        setintvect(newint13,0x13);
+        oldint28 = getintvect(0x28);
+        setintvect(newint28,0x28);
+        addr21 = ((ULONG)(((ULONG)((inter+0x21)->segment)<<16) | 
+
+    *****   Vol.  1   *****      Pag. 12      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                         (UINT)((inter+0x21)->offset)));
+        addr13 = ((ULONG)(((ULONG)((inter+0x13)->segment)<<16) | 
+                                         (UINT)((inter+0x13)->offset)));
+        addr08 = ((ULONG)(((ULONG)((inter+0x08)->segment)<<16) | 
+                                         (UINT)((inter+0x08)->offset)));
+        _dos_keep(0,1000);
+    }
+
+                                                   -----> UN BBS AL MESE
+                                                          ==============
+
+                       Charlie's Puppies, IL MultiBBS
+                       ------------------------------
+
+          C'era  una  volta....cominciano cosi' tutte le  belle  storie. 
+    Quella del nostro Bbs inizia nel lontano Luglio 1988 su un  glorioso 
+    XT, 10 Mb di Hard Disk e un modem interno a 1200 baud.
+         In  questi  due anni e mezzo di  continua  attivita'  Charlie's 
+    Puppies e' cresciuto, sono arrivati nuovi hard disks piu'  capienti, 
+    un nuovo modem a 2400 baud, una bella linea telefonica per  trasmis-
+    sione  dati e soprattutto... tanti nuovi amici  "telematici"!  Tutto 
+    quello che vedete sul Bbs e' stato realizzato per Voi, per il vostro 
+    (e nostro) divertimento. E poi...e' gratis!
+
+         La struttura attuale del Bbs prevede la possibilita' di accede-
+    re  a  tre diverse sotto-Bbs, autonome come  menu'  e  presentazione 
+    grafica, ma condividenti sia i files a disposizione che la messaggi-
+    stica:
+          - Charlie's Puppies , con look del glorioso Opus
+          - StephyBBS 1  e StephyBBS 2,  innovative nello schema e nella
+            presentazione dei propri menu'.
+         Una  volta  entrati in una sezione e'  possibile  in  qualsiasi 
+    momento passare nelle altre due e tornare in quella di partenza.
+         Tutti i nuovi utenti hanno pieno accesso alle aree files e alle 
+    aree EchoMail, tuttavia il privilegio di scrittura in queste  ultime 
+    e' concesso solo agli utenti che si iscrivono con il loro vero nome.
+         Siete  interessati alla programmazione in Turbo Pascal?  Allora 
+    venite a vedere la nostra area files dedicata: troverete  tantissime 
+    units  e utilities interessantissime, tutte selezionate  dal  nostro 
+    Co-SysOp Silvan Calarco esperto programmatore. Oltre all'area  Turbo 
+    Pascal  sono presenti aree dedicate alle utilities di sistema,  gio-
+    chi, comunicazione, tutte per MsDos. Per il mondo Amiga invece  solo 
+    un'area, nemmeno tanto piccola, con il meglio delle utilities  sele-
+    zionate da Angelo Verdone.
+
+         Charlie's  Puppies  non e' solo files....se  vi  interessano  i 
+    giochi da fare mentre siete in linea in StephyBBS 1 troverete  Phan-
+    tasia,  Slot Machine, Road Warrior ecc. ecc., in  Charlie's  Puppies 
+    troverete invece le Rubriche mensili (Astronomia, Enigmistica, Hard-
+    ware & Software, ecc.) curate da utenti volenterosi.
+
+         Se  invece  vi interessa la messaggistica, ma  non  riuscite  a 
+    seguirla  per bene con le limitazioni di tempo imposte nel  collega-
+    mento, vi offriamo la possibilita' di avere a casa vostra i messaggi 
+
+    *****   Vol.  1   *****      Pag. 13      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    delle  aree  che vi interessano per leggere e rispondere  con  tutta 
+    calma: il "Point" e' quello che fa per Voi, chiedete informazioni!
+
+         ...e poi c'e' la dolce Sysoppa Steph, musa ispiratrice e autri-
+    ce di tutte le schermate del Bbs... Snoopy, Paperino, i due cagnolo-
+    ni  al logon... vale la pena collegarsi (ah, attivate la  grafica  a 
+    colori!) solo per vedere quelle .....
+
+         Venite a trovarci insomma, non resterete delusi!
+
+                                   Franco Schinco
+                             SysOp Charlie's Puppies Bbs
+                               011/ 32 99 706 - Torino
+
+                                    -----> PRODOTTI MADE IN ITALY: WMAIL
+                                           =============================
+
+         Come forse avrete letto in qualche area ECHO, qualche settimana 
+    fa  e' stato rilasciato WMAIL, un nuovo mail processor  per  sistemi 
+    MS-DOS  scritto  da me in Turbo Pascal. Ovviamente il  programma  e' 
+    stato  scritto per finalita' specifiche di BBS e point, percio'  per 
+    molti  utenti che  non dispongono di tali sistemi,  questo  articolo 
+    puo'  servire piu' che altro a soddisfare la propria curiosita'  (al 
+    massimo parlatene agli amici...).
+         Innanzitutto,  qualcuno di voi si sara' chiesto cos'e' un  mail 
+    processor: un mail processor e' un programma che operando insieme ad 
+    altri,  permette lo scambio automatico dei messaggi matrix  ed  echo 
+    tra i BBS, in modo da renderli potenzialmente leggibili da ogni nodo 
+    della rete.In particolare il compito di un mail processor e'  quello 
+    di  impacchettare e spacchettare i messaggi che poi durante  le  ore 
+    notturne vengono inviati dai mailer tramite modem in giro per i BBS. 
+                             
+         Ho iniziato a scrivere WMAIL intorno al Giugno dell'anno  scor-
+    so, non pienamente soddisfatto dei mail processor esistenti in  quel 
+    periodo e quindi piu' per necessita' personale che non per  esigenze 
+    altrui o particolari interessi di diffusione, e infatti in principio 
+    non  pensavo che in seguito l'avrei rilasciato alla "grande  utenza" 
+    dei  BBS. Dopo le prime sofferte prove nel mio point,  quando  WMAIL 
+    piu' o meno funzionava solo in import, il programma ha  incominciato 
+    a  crescere  e a sviluppare le proprie funzioni,  fino  a  diventare 
+    abbastanza completo ed adatto anche alle necessita' di un BBS, oltre 
+    che a quelle del mio point.
+         E'  stato a questo punto che Franco Schinco, si e' offerto  non 
+    so  quanto  volontariamente come martire dei primi e  piu'  sofferti 
+    test. In effetti era triste quando per colpa di WMAIL, andava  persa 
+    la  posta  da e per tutti i point di Charlie's Puppies,  ma  se  non 
+    altro  questo  e' servito a setacciare i piu'  insidiosi  difetti  e 
+    migliorare  il  programma fino a renderlo, a mio giudizio,  un  buon 
+    programma,  anche grazie all'aiuto di alcuni beta-tester  che  hanno 
+    collaborato,  per verificarne il funzionamento con varie  configura-
+    zioni ed esigenze.
+                              
+         Dopo  qualche  nozione storica e un doveroso  ringraziamento  a 
+    tutti coloro che mi hanno aiutato per la realizzazione del  program-
+
+    *****   Vol.  1   *****      Pag. 14      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    ma,  eccoci  ora ad informazioni a carattere  strettamente  tecnico. 
+    WMAIL, o Window-MAIL, incorpora oltre alle comuni funzioni di import 
+    ed  export dei messaggi echo, anche una serie di integrazioni e  ac-
+    corgimenti,  che  probabilmente piu' lo  distinguono  dalla  schiera 
+    formata dai "classici" ConfMail, QMail & c.
+         In particolare, risalta subito il fatto che esso sia  provvisto 
+    di  un'inusuale  interfaccia a finestre, che rende  l'approccio  con 
+    l'utente  piu'  immediato e piacevole, diverso  dall'impatto  creato 
+    dagli scarni e monocromatici vecchi mail processor.
+         Ci sono pero' soprattutto altre importanti funzioni che normal-
+    mente  non si trovano integrate in un unico programma, come  l'area-
+    fix,la gestione automatica delle aree connesse tra i vari BBS, e  le 
+    statistiche sulle quali terrei a spendere qualche parola in piu'. Le 
+    statistiche vengono ricavate memorizzando ed elaborando informazioni 
+    sulle varie operazioni di import ed export. Si dividono in statisti-
+    che per le aree e per i nodi e mentre le prime sono abbastanza comu-
+    ni,  anche se di solito non integrate con il mail processor,  quelle 
+    dei  nodi  rappresentano una novita'. Per ogni area e  nodo  vengono 
+    memorizzati dati riguardanti il traffico in entrata ed uscita,  con-
+    sentendo  di stilare delle interessanti classifiche sulle aree  piu' 
+    affollate,  o di ricavare utili informazioni dai singoli  nodi  come 
+    per esempio il point che manda piu' messaggi, o il nodo al quale  in 
+    percentuale  o in bytes, e' stata spedita piu' posta.  E'  possibile 
+    avere tutte queste informazioni per ogni settimana, mese od anno.
+         In  piu', molto utile e' la completa gestione dei  point  senza 
+    bisogno dell'utilizzo di un net fittizio (fakenet), cosa che permet-
+    te un soddisfacente utilizzo con mailer come Front Door e  D'Bridge, 
+    senza problemi di ambiguita' per le linee di origin, path e seen-by. 
+         Pero' una cosa forse che piu' dimostra la completezza di WMAIL, 
+    e'  la gestione contemporanea dei due standard di memorizzazione  di 
+    messaggi piu' diffusi attualmente, e cioe' i .MSG Fido e la  message 
+    base di QuickBBS. In pratica, nello stesso file delle aree e' possi-
+    bile  configurare aree di messaggi da indirizzare sia  alla  message 
+    base,  che ad aree Fido, e questa e' una rara caratteristica per  un 
+    mail  processor.  La buona velocita' nella  gestione  della  message 
+    base, poi, stando a quanto mi dicono coloro che hanno provato WMAIL, 
+    e' un'altra particolarita' da non sottovalutare.
+         Nella  versione attuale, WMAIL puo' girare in maniera  ottimale 
+    con  mailer come Front Door e D'Bridge, mentre per gli  utilizzatori 
+    di Binkley Term o Opus, e' necessario abbinare un packer della  net-
+    mail (QMail od Ommm).
+         Infatti WMAIL, essendo studiato per sistemi come Front Door che 
+    gestiscono  autonomamente la netmail, per ora non ha la funzione  di 
+    pack. Questa pero' sara' aggiunta nelle prossime versioni insieme ad 
+    un setup a finestre che lo rendera' piu' coerente alla filosofia per 
+    la  quale  e' stato progettato, e cioe' quello della  semplicita'  e 
+    piacevolezza nell'interfaccia con l'utente. Solo quando WMAIL potra' 
+    adattarsi ad ogni tipo di configurazione, sara' veramente  completo, 
+    e consapevole del fatto che cio' non sara' mai possibile,  cerchero' 
+    di  fare  cio' che riesco finche' mi piacera'  lavorarci,  dato  che 
+    tutto questo per me e' soltanto un utile e divertente hobby.
+
+         Chi volesse provare WMAIL, puo' richiederlo al nome di  "WMAIL" 
+    presso  uno  dei  seguenti  nodi:  2:334/11,  2:331/318,  2:332/600, 
+
+    *****   Vol.  1   *****      Pag. 15      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    2:332/602, 2:334/15, 2:335/12.
+         WMAIL  viene  distribuito secondo la  filosofia  dei  programmi 
+    shareware,  e quindi viene richiesto un piccolo contributo da  parte 
+    di  coloro che trovano giovamento nell'utilizzo di questo;  pertanto 
+    la  funzione di areafix e in parte le statistiche  sono  disponibili 
+    solo per gli utenti registrati.
+         Per  ogni  informazione sono raggiungibile via  matrix  (Silvan 
+    Calarco, nodo 2:334/11.2).
+
+         Arrileggerci alla prossima occasione, Silvan
+
+                                                       -----> CURIOSITA'
+                                                              ==========
+                           The Jargon File - Parte 1
+                           -------------------------
+
+         Ecco finalmente la prima parte del Jargon File, il  vocabolario 
+    ormai  notissimo  oltreoceano di tutte le frasi  entrate  nel  gergo 
+    degli hackers (che ricordo non essere quelli che non fanno altro che 
+    introdursi  furtivamente nei calcolatori altrui, ma semplicemente  i 
+    fanatici  del calcolatore). Il file e' gestito come un  vocabolario, 
+    in ordine alfabetico. I lemmi (compresi quelli di eventuali rimandi) 
+    sono tra parentesi angolari <>, mentre la pronuncia e' compresa  tra 
+    le  barre  //. La traduzione italiana e' tra parentesi  angolari  {} 
+    mentre eventuali commenti sono tra parentesi quadre [].
+
+          Buona lettura....         .mau.
+
+                                  {=   =}
+
+         <@-party>  /at-'parti/ s. (anche "@-sign party")  Party  tenuti 
+    dagli hackers, spesso all'interno delle convention di SF: per essere 
+    invitati,  occorre  avere un <network address>, o almeno  essere  in 
+    compagnia  di qualcuno che ce l'ha. Una delle migliori  opportunita' 
+    per  gli hackers per incontrarsi di persona con altra gente  che  in 
+    genere e' rappresentata da semplici fosfori sul video.
+
+         <(TM)>  [USENET]  Il simbolo ASCII di  un  marchio  registrato, 
+    aggiunto  a  frasi che l'autore pensa debbano essere  ricordate  dai 
+    posteri,  magari nel Jargon File. A volte usato ironicamente  contro 
+    il recente proliferare di brevetti per software e algoritmi.
+
+         </dev/null>   [dal  device  UNIX  corrispondente,  usato   come 
+    "cestino"] s. Un "buco nero" in un qualunque spazio di informazione. 
+    Ad   esempio,  un  messaggio  controverso  potrebbe  terminare   con 
+    "Commenti a mau@alice.cselt.stet.it, flames a /dev/null". Vedi  <bit 
+    bucket>, <null device>.
+
+         <2  infisso>  s.  Nel  software  di  traduzione  scritto  dagli 
+    hackers,  il 2 infisso sta spesso per "to", nel senso di  "translate 
+    to"   (traduce  in);  esempi  sono  dvi2ps  (DVI  -->   PostScript), 
+    int2string (intero --> stringa).
+
+
+
+    *****   Vol.  1   *****      Pag. 16      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                  {= A =}
+
+         <ACK>  /ak/  inter.  1. [dal mnemonico  ASCII  ^F]  Acknowledge 
+    (Riconosciuto). Usato al posto di "presente!". Risposta  appropriata 
+    a  <ping> o <ENQ>. 2. [Probabilmente dalle strisce di Bloom  County] 
+    Un'esclamazione  di sorpreso disgusto, semiumoristica. 3. Usato  per 
+    interrompere educatamente qualcuno dicendogli che si ha capito  cosa 
+    intendeva.  Vedi <NAK>. Ad esempio, potete tagliare una  spiegazione 
+    troppo lunga con "Ack. Ack. Ack. Ora ho capito". Si usa anche "ACK?" 
+    (nel senso #1) al posto di "Ci sei?", in genere in posta elettronica 
+    se messaggi precedenti non hanno avuto risposta oppure in una  pausa 
+    nel  <talk mode> per vedere se l'altro se ne e' andato. La  risposta 
+    umoristica  standard e' ovviamente <NAK> (senso #2), cioe' "no,  non 
+    ci sono".
+
+         <ADVENT>   /ad'vent/  s.  La  prima  avventura  per   computer, 
+    implementata  sul <PDP-10> da Will Crowther come tentativo di  gioco 
+    fantasy via computer, e espansa da Don Woods. Ora e' piu' nota  come 
+    Adventure,  ma il sistema operativo <TOPS-10> permetteva  solo  nomi 
+    fino a 6 lettere.
+         Questo  gioco ha formato lo stile terso e umoristico che ci  si 
+    aspetta  nelle  avventure  testuali, e  spesso  nei  discorsi  degli 
+    hacker.  "Un  gigantesco e fiero serpente verde sbarra  la  strada!" 
+    "Non vedo alcun X qui" (dove X e' un nome). "Sei in un labirinto  di 
+    tanti  passaggi  uguali".  Le "parole  magiche"  <xyzzy>  e  <plugh> 
+    derivano anche da questo gioco.
+
+         <Aluminum Book> [MIT] s. {Il libro alluminio} "Common Lisp: The 
+    Language", di Guy L. Steele Jr., Digital Press, prima edizione 1984, 
+    seconda edizione 1990. La <bibbia> del Lisp. Strettamente  parlando, 
+    solo  la  prima  edizione e' l'A.B., visto che  la  seconda  ha  una 
+    copertina  di un verde pallido. Vedi anche <Blue Book>, <Red  Book>, 
+    <Green  Book>, <Silver Book>, <Purple Book>, <Orange  Book>,  <White 
+    Book>, <Pink-Shirt Book>, <Dragon Book>.
+
+         <amoeba>  /a'mi-ba/  s.  Termine umoristico  per  il  Commodore 
+    Amiga.
+
+         <arg> /arg/ s. Abbreviazione for "argument" (argomento, di  una 
+    funzione),  usato cosi' spesso da essere divenuto una nuova  parola, 
+    come "piano" da "pianoforte"). "la funzione seno ha un solo arg,  ma 
+    l'arcotangente puo' averne uno o due". Vedi anche <param>, <var>.
+
+         <asbestos   longjohns>  s.  {mutande  di   asbesto}   Vestiario 
+    metaforico spesso indossato da chi scrive su <USENET> prima di  fare 
+    un  commento  che  potrebbe  eruttare  <flamage>.  Anche   "asbestos 
+    underwear", "asbestos overcoat", etc.
+
+         <ASCII>  [American Standard Code for  Information  Interchange] 
+    /as'ki/  s. Ecco alcuni nomi (inglesi!) per i caratteri ASCII.  Vedi 
+    anche  le  voci  individiali per <bang>,  <close>,  <excl>,  <open>, 
+    <ques>, <semi>, <shriek>, <splat>, <twiddle>, <what>, <wow>, e  <Yu-
+    Shiang  whole  fish>.  Per ciascun carattere,  il  nome  "ufficiale" 
+    appare per primo, seguito dagli altri in ordine di popolarita'.
+
+    *****   Vol.  1   *****      Pag. 17      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    !    exclamation  point, exclamation, bang, factorial,  excl,  ball-
+    bat, pling, smash, shriek, cuss, wow, hey, wham
+
+    "    double quote, quote, dirk, literal mark, rabbit ears
+
+    #    number sign, sharp, crunch, mesh, hex, hash, flash, grid,  pig-
+    pen, tictactoe, scratchmark, octothorpe, thud
+
+    $    dollar  sign, currency symbol, buck, cash, string (dal  BASIC), 
+    escape (dal <TOPS-10>), ding, big-money, cache
+
+    %    percent sign, percent, mod, double-oh-seven
+
+    &    ampersand, amper, and, address (from C), andpersand
+          
+    '    apostrophe, single quote, quote, prime, tick, irk, pop, spark
+
+    ()   open/close  parenthesis, left/right parenthesis,  paren/thesis, 
+    lparen/rparen, parenthisey, unparenthisey, open/close round bracket, 
+    ears, so/already, wax/wane
+
+    *    asterisk, star, splat, wildcard, gear, dingle, mult
+
+    +    plus sign, plus, add, cross, intersection
+
+    ,    comma, tail
+
+    -    hyphen, dash, minus sign, worm
+
+    .    period, dot, decimal point, radix point, point, full stop, spot
+
+    /    virgule, slash, stroke, slant, diagonal, solidus, over, slat
+
+    :    colon
+
+    ;    semicolon, semi
+
+    <>   angle  brackets, brokets, left/right angle, less/greater  than, 
+    read  from/write  to,  from/into,  from/toward,  in/out,  comesfrom/ 
+    gozinta (tutti dallo UNIX), funnel, crunch/zap, suck/blow
+
+    =    equal sign, equals, quadrathorp, gets, half-mesh
+
+    ?    question mark, query, whatmark, what, wildchar, ques, huh, hook
+
+    @    at  sign, at, each, vortex, whorl, whirlpool,  cyclone,  snail, 
+    ape, cat
+
+    V    vee, book
+
+    []   square   brackets,   left/right   bracket,   bracket/unbracket, 
+    bra/ket, square/unsquare, U turns
+
+
+
+    *****   Vol.  1   *****      Pag. 18      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    \    reversed   virgule,  backslash,  bash,  backslant,   backwhack, 
+    backslat, escape (dallo UNIX), slosh.
+
+    ^    circumflex, caret, uparrow, hat, chevron, sharkfin, to ("to the 
+    power of", alla potenza di), fang
+
+    _    underscore, underline, underbar, under, score, backarrow
+
+    `    grave  accent,  grave,  backquote,  left  quote,  open   quote, 
+    backprime, unapostrophe, backspark, birk, blugle, back tick, push
+
+    {}   open/close   brace,  left/right  brace,  brace/unbrace,   curly 
+    bracket, curly/uncurly, leftit/rytit, embrace/bracelet
+
+    |    vertical  bar,  bar, or, or-bar, v-bar,  pipe,  gozinta,  thru, 
+    pipesinta (gli ultimi quattro dallo UNIX)
+
+    ~    tilde, squiggle, approx, wiggle, twiddle, swung dash, enyay
+
+
+                                              -----> NOTIZIE DAL NET 334
+                                                     ===================
+         La  moria nel network non accenna a terminare. Un altro BBS  ha 
+    chiuso  i  battenti  -  e che BBS!  Sto  parlando  infatti  di  Opus 
+    Montecastello,  creato e gestito dal mitico Flavio  Bernerdotti,  il 
+    secondo  nodo Fidonet in Italia dopo quello di  Giorgio  Rutigliano. 
+    Purtroppo gli impegni di lavoro e di famiglia sono arrivati al punto 
+    da  non  lasciare piu' a Flavio il tempo necessario  per  curare  il 
+    BBS... TANTI AUGURI, Flavio!
+
+
+         Per quanto riguarda il SysCon '91, ecco la scaletta provvisoria 
+    dell'incontro, che si terra' presso il Circolo ricreativo Dipendenti 
+    Comunali di C.so Sicilia, 12. Partecipate numerosi....
+
+     9.00 Reception (ricordate le hostess dell'ultima volta, no :-) )
+     9.30 Inizio lavori ed indirizzo di saluto (F.Carcillo ;-) )
+     9.35 Relazione dell'R.C. (Giorgio Leo Rutigliano)
+    10.00 Relazione del R.E.C. (Stefano Pasquini)
+          (elezione del REC???? )
+    10.30 Breve illustrazione del REW (Paolo Bussola) (manca conferma)
+          break
+    11.00 Brevissime illustrazioni dei NC/NEC dei singoli NET
+    12.00 Predisposizione dettagliata dell'OdG
+    12.15 Inizio discussione punti OdG
+    13.15 Pranzo
+         >>>proporrei PANINI....altrimenti si perdono 3 ore !!!
+    14.15 Ripresa lavori
+    18.30 Fine I giornata
+    20.00 Cena e baldoria
+ 
+    Nel pomeriggio apertura della CopyRoom
+ 
+         
+
+    *****   Vol.  1   *****      Pag. 19      *****   Numero   3   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    DOMENICA
+ 
+     9.30 Ripresa lavori, eventualmente dedicata ad un'incontro tra i 
+          soli *C e i volenterosi rimasti, per attendere anche a deci-
+          sioni operative concrete.
+    13.00 Fine
+          Abbracci&baci.
+ 
+
+
+                                               -----> IL PROSSIMO NUMERO
+                                                      ==================
+         Ecco una domanda intelligente, avrebbe detto un mio  professore 
+    di tanti anni fa quando capitava che non sapesse cosi' su due  piedi 
+    la risposta. 
+         Tutto  quello di cui posso essere certo e' che il  Jargon  File 
+    continuera',  e  che  il Piola sara' come sempre  presente.  Per  il 
+    resto... chi lo sa?
+
+         Ciao ciao a tutti.....                 .mau.

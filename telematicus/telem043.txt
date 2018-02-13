@@ -1,0 +1,2003 @@
+ #### TELEM043 - Telematicus - Volume 04 - Numero 08 - Anno 1994 -  91 pag.####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                 Novembre 1994
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematicus   e'  (C)  dei  singoli  autori.   E'
+ espressamente consentita la distribuzione e il riutilizzo  del  bollettino  in
+ tutto  o in parte, purche' non a fini di lucro e citando sempre autore e fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina  91 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+
+ [ 1]  Editoriale  .   .   .   .   .   .   .   .   .   .   .   .  (RRE) pag.  4
+ [ 2]  Lettere aperte  .   .   .   .   .   .   .   .   .   .   . (AAVV) pag. 10
+ [ 3]  Read Telematicus per Apple! .   .   .   .   .   . (Moreno Cuman) pag. 13
+ [ 4]  FidoCrackdown III   .   .   .   .   .  (Felice Murolo & Vertigo) pag. 17
+ [ 5]  BBS 1ST impression: G&G BBS .   - parte II  .   (Pierluca Monge) pag. 22
+ [ 6]  Internet in SMAU.   .   .   .   .   .   .   .   .   .   .(.mau.) pag. 33
+ [ 7]  Toy .   .   .   .   .   (prg di comm italiano)  . (Herve Miozzo) pag. 40
+ [ 8]  Curiosita': Il gergo hacker .   - parte 37  .   .   .   . (AAVV) pag. 45
+ [ 9]  ALCEI   .   .   .   .   .   .   - parte II  .   .   .   .   (?)  pag. 56
+ [10]  Nuovi standard: il V.34 .   .   .   .   .   .   .   .   .(.mau.) pag. 61
+ [11]  Sound Blaster 17 bit for Mouse  .   .   .   .   . (Andrea Bosio) pag. 65
+ [12]  Mdiff 1.22 (prg di aplicazione patch italiano) (Maurizio Giunti) pag. 71
+ [13]  Bibliografia.   .   .   .   .   .   .   .   .   . (La Direzione) pag. 76
+ [14]  Notizie Fidonet region 33   .   .   .   .   .   .   .   . (AAVV) pag. 79
+
+
+
+                  Questo Telematicus e' nato con l'aiuto di...
+
+ Editor Appelosus   : Moreno Cuman        | * I collaboratori dai network: *
+ Editor Fidosus     : Felice Murolo       |
+ Editor Ferox       : Pierluca Monge      | Vertigo               (2:331/301)
+ Editor Ameritus    : Maurizio Codogno    | Giovanni Lopes        (2:332/114.2)
+ Editor Toyosus     : Herve Miozzo        | Roberto Orsini        (2:332/425)
+ Editor Blastopodus : Andrea Bosio        | Angelo Verdone        (2:334/21)
+ Editor Patient     : Maurizio Giunti     | Enrico Franceschetti  (2:335/212)
+ Editor Risortus    : Verigo              |
+
+ Editor mittens   : Danilo Alicino
+ Editor  citatus  : Marco  Vazio,  J/Iena  Plinsky, Il Gatto, La Volpe, Agora ,
+                  Inrete, MC-Link, ItNet,  TelNet,  Luca  Spada, Gian!, TipNet,
+                  Sprint,  Galactica,  Cavallo  Pazzo  (o  scemo?:)),  Torello,
+                  Cosimo
+ Editor saccheggiati: Eric S. Raymond <esr@snark.thyrsus.com>
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO) al 011-9235565.
+ e-mail: Renato.Rolando@PMN.IT
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+  Watz!  una fatica, non vi dico.   Oltretutto  i number ogni volta mi sembrano
+ sempre piu' giganteschi ed interessanti; ed ogni volta non riesco  a  ficcarci
+ tutto dentro!
+
+  Sono proprio bravo! *:=)
+
+  In realta' siete voi ad essere bravi: questa storia del FidoCrack deve avervi
+ un po' sgrullato le sinapsi.  Come il bimbo che si accorge di qualcuno che gli
+ sta  fregando un giocattolo e diventa improvvisamente estremamente possessivo.
+ Bambinoni!  Abbiamo infatti alcune new entry che promettono molto bene: sia il
+ *mitile* PierLuca che trova le BBS piu'  assurde,  che il new Andrea Bosio & C
+ che - scusate - a me ha fatto ridere (posso dirlo?)
+
+  In realta' e' la vecchiaia  che  avanza,  e  con  lei il morbo di Reagan (ri-
+ battezzato per l'occasione).
+
+  No, la  verita'  e'  un'altra:  sono  un  casinista.   E  vorrei  scusarmi  e
+ prostrarmi  pubblicamente  per  essermi  dimenticato  da un pezzo (6 mesi?) un
+ articolo su di un  *vitale*  programma  per  i programmatori: il produttore di
+ patch.  Ed il buon Maurizio Giunti e' stato in paziente  attesa  tutto  questo
+ tempo!  scusa.
+
+  Un altro che  invece  brontola  e  inveisce  sempre  sulla  mia natura un po'
+ decostruttivista :) e' il .mau.  . Non gliene va bene una: e prima il Telem e'
+ troppo grosso, e poi non pubblico i suoi articolai e...   col  suo  stress  mi
+ toglie felici anni di vita! *:)
+
+  A proposito di  felici  anni,  col  Moreno  ho  accennato  la possibilita' di
+ cambiare look a Telematicus, facendola  diventare  una  rivista  leggibile  da
+ Mosaic  (il lettore multipiattaforma di Internet, che permette di inserirci di
+ tutto: suoni, grafica, animazioni, addirittura dei testi!)
+
+  Sarebbe una figata!
+
+  Allora mi sono messo  a  cercare  questo  benedetto lettore (anche perche' e'
+ gia' uscita una rivista a riguardo: si chiama INTERNAU.ZIP e l'ho  trovato  su
+ Znort  BBS  (attenta  a  Mac) tel.  501752.  Dunque lo cerco per Internet e ti
+ trovo un posto consigliato: ftp.ncsa.uiuc.edu dove dentro PC/Windows/Mosaic ti
+ trovo il DecMosaic2A7.ZIP (un cinquecentinaio di K!).
+
+  OK, e' grossino ma puo' valerne  la  pena; faccio tutto il casino per tirarlo
+ su, lo apro e ti scopro che e' una beta della  Microsof!   (Gia'  la  cosa  mi
+ puzza).   Poi scopro che per funzionare necessita di: Winsock.ZIP (gestisce la
+ seriale,  anche  se  voglio  leggermi  una  rivista  online  dev'essere  pero'
+ presente!  questo e'  sul  150K  compattati).   Pero'  questo  a  sua volta ha
+ bisogno di un gestore di driver TCP/IP.  Vabbe'.
+
+  Poi  scopro che questo Mosaic della Microsoft per fungere ha bisogno dei vari
+ viewer (uno che gestisce  i  file  *.GIF,  l'altro  i  file *.TIF...  un altro
+ ancora i *.JPG - ma se vuoi un caricamento veloce devi registrarti!  - per non
+ parlare dei viewer per le animazioni ed i suoni).  Piu' o meno saremo sul mega
+ di roba!
+
+  Ma la ciliegina finale e' che quando lancio il bel Mosaic questo si inchioda!
+ rileggo il manuale e mi dice che si', gira su Win 3.1 ma solo se hai i  driver
+ per la gestione a 32 bit!  Rivado a cercare nel sito il file: Win325115A.ZIP e
+ sono li' li' per pupparlo quando vedo la dimensione: 1125134 K.
+
+  Compattato.
+
+  M'immagino  quande  *.DLL deve avere 'sta roba!  Tutto per un merdoso lettore
+ ipermediale che poi alla fin fine non fa assolutamente un cazzo perche' chiama
+ tutti i programmi di aiuto! Ed oltretutto e' una beta!!
+
+  Ma stiamo scherzando?
+
+  OK, ammettiamo pure che riesca a trovare il coraggio di tirare su tutta  'sta
+ roba,  di  riuscire  a  ficcarla  a  forza nel mio HD da 250Mb.  Cosa potrebbe
+ succedere?  che il mitico Win a 32 bit  si rifiuti di girare perche' il mio e'
+ un Windoz clone fatto da OS/2?  Non ho provato, considero la cosa scontata.
+
+  Insomma se la banda di Internet  verra'  occupata per cazzate del genere: 2Mb
+ di spazio solo per leggere 4 righe di una rivista che occupera' si e no 50k di
+ testo, se la Microsoft riuscira' nuovamente a prendere per il  culo  i  soliti
+ 40Milioni  di  WC-Dossiani  che  credono di avere il top di tecnologia/sistema
+ operativo... siamo rovinati!
+
+  Quando su RTMac.BIN (Il  file  con  dentro  la  prima versione del lettore di
+ Telem per Mac compattato con pkzip) il mitico Cuman si preoccupa di aggiungere
+ 9K di libreria - una libreria da 9K!  sembra l'Amiga :) - perche' considera il
+ lettore RT pesantino...  Mitico Cuman!  Mitica Apple!!  defunta  Amiga.   Come
+ diceva il mio quadravolo: "Ubi maior, minor cessat". ;-(
+
+  E vabbe', oggi sono logorroico: vorrei fare anticipazioni sul prox number, il
+ buon  Cuman  che  ci  fara'  intravvedere  lidi migliori con point su Mac; gli
+ (unici?)  combattenti  underground   (la   Shake)   che  hanno  presentato  un
+ interessante libro sul copyright: No Copyright.   Sara'  interessante?   sara'
+ esagerato?   Saranno  i  soliti  compagni  monoscopici oltranzisti autogestiti
+ oragonoelettrici?  Lo saprete sul prox numero.  *:)
+
+  O  certo,  e'  giusto il (C), sacrosanto!  Bene.  No, dico: male.  Perche' mi
+ sarebbe tanto piaciuto  riportarvi  degli  stralci  di interessanti interviste
+ condotte da Wired e tradotte molto bene su Internazionale. Ma e' (C)!
+
+  Cominciate a cambiare idea sul (C)?  ebbene la direzione  di  Telem  al  gran
+ completo  ha  preso  il  coraggio  a  due  mani (una bastava pero' perche' era
+ pochino) ed ha chiesto a  Giovanni  De  Mauro, il direttore di Internazionale,
+ cosa ne pensava del (C).
+
+  Sembra  che  Telem  potra'  sgraffignare  qualcosa  ad  Internazionale  senza
+ incorrere   nella   possibilita'   di  penali:  e  con  la  benedizione  degli
+ sgraffignati!  Non  pare  quasi  di  essere  in  Italia,  vero?  :) Ovviamente
+ l'operazione sara' condotta come diceva il mio pentavolo  "cum  grano  salis";
+ sale permettendo.
+
+  Quindi questa storia del No Copyright  un po' esiste.  Ma la penseranno cosi'
+ anche Raff Valvola ed i collaboratori della Shake? *:)
+
+  Vabbuo'. Ora vi lascio: alla prox!
+
+
+
+
+
+
+                                                                        RRE
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                               LETTERE APERTE  ###
+ ###   2  ###                                               AAVV            ###
+ ############                                                               ###
+
+ Riassunto:
+        Il buon Danilo Alicino ha girato  un  po'  per  Internet  e...   si  e'
+       sentito  sperso!   Ecco  che  mamma  Fido  ed il calore di Telem l'hanno
+       subito rincuorato!
+
+        Ancora una lettera come quella  di  Danilo  e  faccio  diventare  Telem
+       GiftWare  [NdE:  sarete moralmente tenuti a spedirmi un presente; meglio
+       se una papera di comma cosi' la mando a Moreno!].
+
+ ------------------------------------------------------------------------------
+
+ From : Danilo Alicino                      2:331/301.23    10 Oct 94  16:20:20
+ Subj : Telemacus...
+
+  Sono  contento che una rivista come la tua venga messa in circolazione, avevo
+ smesso l'attivita' di  point  casualmente  poco  prima  del  crackdown, mi ero
+ concesso una pausa Internet su galactica, ed  ora  mi  ritrovo  in  Fido,  con
+ quest'aria  che  circola  nei  messaggi,  aria pesante, aria che si respira di
+ solito dopo una catostrofe.
+
+  Ed e' stata proprio una catastrofe  se  leggo delle numerose bbs chiuse dalla
+ GdF.
+
+  La mia bbs, bbs alla quale ero collegato, e' stata chiusa ( Cornucopia),  ora
+ scrivo ed ho il point su bbs2000.
+
+  Il  mio  parere e' che la rete Fidonet e' un buon esempio di liberta' pratica
+ ed elettrica che non va attaccata, e'  un modo che permette a molte persone di
+ poter comunicare, esprimere opinioni, fere amicizie.
+
+  Non dimentichiamoci delle persone che in questo  senso  possono  avere  delle
+ difficolta'.
+
+  La  rete  Fido  non  va  solo  analizzata  da  un  punto di vista prettamente
+ softwari- stico, ma dalla  prospettiva  dei  messaggi  che puo' far circolare.
+ Delle numerose comunicazioni e contatti che e' in grado di sviluppare,  quante
+ volte  mi  e'  capitato di poter risolvere un problema informatico grazie alla
+ consulenza di amici, quante volte  ho  discusso e conversato di film ampliando
+ le mie conoscienze in mataria.
+
+  Tutto questo ha un valore che deve essere riconosciuto, pensa  che  all'inzio
+ dei  miei  collegamenti  pensavo ingenuamente che le bbs fossero sovvenzionate
+ dallo stato per  il  loro  valore  sociale,  adesso  che  e' passato del tempo
+ capisco l'utopia di quel pensiero, ma per favore adesso che non si esageri dal
+ lato opposto nel chiuderle.
+
+  Trovo una strana analogia con i  centri  sociali,  con  tutte  le  differenze
+ ovvie,  ma  non vorrei che lo spazio Fido facesse gola a qualcuno o che oppure
+ desse fastidio a qualcuno,  ma  queste  sono  solo  opinioni  che si basano su
+ sensazioni che ho in questi giorni.  Spero sbagliate.
+
+  Di nuovo complimenti alla rivista ed al lavoro che fai su Fido.
+
+                                                                 Danilo Alicino
+                                                                 2:331/301.23
+
+ P.S.  per qualche kilo di programmi copiati illegalmente non  facciamo  morire
+      kili di mail che contengono amicizia, contatti, cultura, e comunicazione.
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                                 Moreno Cuman  ###
+ ############                                                 RT per Apple! ###
+
+ Riassunto:
+        TATTTARATTTA!!!!   rullo  di  trombe,  squilli  di  tramburi,  urla  di
+       bradipi!!
+
+        L'incredibile'  e'  credibilitato;  l'imposibile  si  e' possibilitato:
+       abbiamo il lettore di Telematicus per Mac!!!
+
+        Questo grazie alla  sovrumana  abilita'  artistica  di  un mito: Moreno
+       Cuman.  Hai detto niente.
+
+        E per il prox number ho gia' strattamente in pugno il  primo  articolao
+       sul  mondo dei point sotto Mac (e verrano sviscerati i segreti di Pizza,
+       del buon Cosimo).   (Seguira'  a  furor  di  popola  -  ne  sono certo -
+       un'altra valangata di articolai sul mondo di Internet da Mac...)
+
+        Ma bando alla ciancie, lasciamo la parola al Cumano sibillo...  (he  he
+       he, quanto sono scpiritozo!)
+
+ ------------------------------------------------------------------------------
+
+  Per  quanto  riguarda  RT,  quando ho deciso di modificarlo per Mac per prima
+ cosa l'ho compilato cosi' com'e'...  e difatti e' andato tutto bene solo che i
+ comandi ANSI la console non se  li  beve  e  quindi  a video se n'e' uscito un
+ pasticcio.
+
+  Ho  ritoccato tutto, pero' di colori non se ne parla.  [NdE: perche' Telem ha
+ i colori?  :)] Per usare le finezze  Mac  (tra  cui il colore o i caratteri in
+ grasseto o altre robette) bisogna includere una libreria particolare che fa da
+ interfaccia tra C e ToolBox (le routine  del  sistema  operativo)  che  e'  di
+ 9Kb...  una inezia, pero' l'applicazione aumenta di 9Kb e comincia a diventare
+ "ingombrante".   [NdE:  mi sembra di vedere i prg Microsoft!] Comunque bastano
+ 10 righe (e la MacTraps library) cioe' un  lavoro di 4 minuti e tot secondi se
+ dici di aumentare la leggibilita'.
+
+  Questo per dirti due parole su quello che ho fatto...
+
+  L'utente quadratico medio Mac:
+
+  1) *NON* ha compilatori per compilare
+  2) *NON* sa cosa e' un compilatore
+  3) *NON* sa cosa vuol dire compilare
+  4) *NON*... tutto quello che non e' semplice ... click
+
+  per cui l'applicazione e' fondamentale...
+
+  Ti mando di seguito  a  questo  messaggio  il  file  RT.ZIP  con  sorgente  e
+ applicazione... [NdE: giuro di aver solo visto RTMAC.BIN!]
+
+  Il  file  RTMAC.ZIP  contiene  il progetto dell'applicazione, il sorgente (un
+ normale file  di  testo)  e  le  risorse  (l'icona  dell'applicazione).  Trovi
+ inoltre un file di nome  RT.CPT  che  contiene  l'applicazione  e  il  readeMe
+ (compressi   con  un  compattatore  Mac).   Certo,  anche  ZIP  va  bene  come
+ compattatore solo che poi per  recuperare un'applicazione e' un casino perche'
+ non si distingue piu' fra data fork e resource fork e bla, bla,  bla...   etc,
+ etc...
+
+ I file minimi sono:
+
+  RT.C        il sorgente
+  RT.MAC      l'applicazione
+  README.RT   il readme :-)
+
+ tutto il resto e' facilmente ricostruibile da chi sa programmare...
+
+  Il  file  *.rsrc  contiene  le risorse dell'icona e altra robetta che serve a
+ fare "bello" ma non aggiunge niente di fondamentale...
+
+
+
+
+
+                                                               Moreno._
+                                                      e: qman@maya.dei.unipd.it
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                                                CrackDown! III ###
+ ############                                             Felice Murolo & C ###
+
+ Riassunto:
+        Ecco   una   piccolissima  intervista  a  Felice  Murolo,  il  curatore
+       dell'enclicopedico file  ECATOMBE.TXT  in  cui  e'  narrata  quasi tutta
+       l'odissea di FidoCrackdown.
+
+        Ha sbagliato chi gia' gridava alla morte della libera informatica?  chi
+       vivra' vedra'...  sempre che continui a leggere telematicus :)
+
+        Segue  un'altra  minuscola  intervista  -  il  Vertigo  e' sempre molto
+       difficile,  almeno per me, da contattare - su quel *mito* di Vertigo che
+       tanto ha fatto per la salvaguardia di Fido Italia: vi prego di fargli in
+       sereno raccoglimento  nella  vostra  stanzetta  davanti  al  monitor, un
+       piccolo plauso.  :>
+
+ ------------------------------------------------------------------------------
+
+  From : Felice Murolo                       2:335/206       11 Oct 94 12:51:28
+
+  RR> ho prelevato l'ultima versione di ecatombe.txt per inserirla in
+  RR> TELEMATICUS.
+
+  RR> Ho scoperto con mio dispiacere che non e' stata piu' aggiornata
+  RR> da quasi un mese :(
+
+ non sono successi  fatti  significativamente  nuovi,  i  computer  sono  stati
+ restituiti tutti o pressoche' tutti, in custodia giudiziaria.  Un fatto nuovo,
+ in  verita',  ci sarebbe, ma non ha attinenza con quell'inchiesta...  la Digos
+ ha sequestrato alcuni altri computer,  cercando password itapac illegali.  Ma
+ nessuno riguardava fido.
+
+ [NdE: Itapac? ma esiste ancora? :)]
+                                                                          Ciao
+                                                                          Felix
+
+                                      ---
+
+  From : Felice Murolo                       2:335/206       24 Oct 94 07:25:16
+
+  FM> ...
+  FM> stati restituiti tutti o pressoche' tutti, in custodia giudiziaria.
+
+  RR> Da non crederci! e' veramente successo? dopo tutti i casini che avevano
+  RR> fatto sostenendo che non avrebbero mai piu' rivisto il loro caro HW...
+  RR> come mai? voglio dire come mai questo miracolo?
+
+ beh, visti i ricorsi al TAR, il magistrato ha ben pensato di restituire  tutto
+ cio'  che  non  era  oggetto di indagine, e di tenere a disposizione presso il
+ proprietario (custodia) le parti  oggetto  di indagine (HD).  Questa custodia,
+ pero', e' una fregatura, in quanto l'HD non deve essere  modificato  nei  suoi
+ contenuti relativamente ai files eseguibili.
+
+ L'indagine,  dunque,  continua,  ma  i  computer  sono a casa.  Ho idea che si
+ finira'  presto  in  "tarallucci  e  vino",  ma  nel  frattempo  le  seccature
+ continuano.
+
+  RR> E quelli che - pur non essendo stati raggiunti da GdF - hanno chiuso lo
+  RR> stesso, ora hanno riaperto oppure no?
+
+ Non ho dati precisi, dovrei verificare. Parecchi non l'hanno piu' fatto, ma i
+ piu' "vecchi" si, tutti hanno riaperto.
+
+                                                                      Ciao
+                                                                      Felix
+                                                                      2:335/206
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From : Vertigo
+
+ RR>         so che hai avuto molto da fare per la storia del Fido CrackDown.
+
+ RR>         Bravo! mi piacerebbe sapere a che risultati siete giunti. (Tuoi
+ RR> impegni permettendo).
+
+ Ciao,
+     scusa  il  mostruoso  silenzio  da  parte  mia  dei  mesi precedenti, sono
+ veramente costernato.  [NdE:  anche  i  letorei  :)] Mi arrivano letteralmente
+ dozzine di matrix al giorno sulle faccende piu' disparate e quando mi capitano
+ msg.  come i tuoi li accantono pensando "Appena ho un minuto mi  metto  li'  e
+ gli rispondo".  Poi naturalmente finisce che vengono sepolti.
+
+  Anyway [NdE: = ad ogni modo :)], sul fronte Fido crackdown, la situazione che
+ io  sappia  non  ha  avuto ulteriori sviluppi sul piano giudiziario/poliziesco
+ (leggi: non ci sono stati altri raid, perquisizione etc.  a nodi Fidonet).
+
+  Ci sono varie iniziative in  corso,  sono  stato contattato dal presidente di
+ ALCEI  (quella  nuova  associazione   italiana   stile   Electronic   Frontier
+ Foundation)  [NdE: vedi Telem42 e Telem43] e stiamo vedendo di organizzare una
+ collaborazione, gli ho offerto di  aprire  un'echo dedicata ad Alcei, ma siamo
+ ancora ad una fase iniziale.
+
+  Poi ci sono volontari  (es.   Valentino  Spataro)  che  si  sono  offerti  di
+ raccogliere  materiale  per  fare il punto sulla situazione legale dei sysop e
+ delle BBS per poter eventualmente  fare proposte concrete in sede legislativa.
+ Lo Spataro sta muovendosi con il mio appoggio e ora  vedremo  se  viene  fuori
+ qualcosa  di concreto (dovrebbe preparare un CD-Rom di testi e documenti sulla
+ materia).
+
+
+
+                                                                      -V-
+                                                                      2:331/301
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                                   BBS 1ST impression: G&G BBS ###
+ ############                                                Pierluca Monge ###
+
+ Riassunto:
+        Glielo avevo detto io: sei troppo buono, troppo buono.  Ho  saputo  che
+       e' stato calorosamente ringraziato per l'articolo precedente e se riesco
+       a  metterci  le  mani  sopra  lo pubblicheremo.  Vedremo per questo cosa
+       succedera'...  :)
+
+        Ma lascio la parola all'Editor Ferox.
+
+ Sono ancora qui!!! :->
+ E' avvenuto l'incredibile!!!  Neanche RRE credeva ai suoi occhi mentre leggeva
+ il matrix di Andrea Bosio,  alias  Torello, (scoppiato ma simpaticissimo [NdE:
+ non hai ancora letto il suo articolao!]) che  dal  2:334/100  ci  scriveva  di
+ essere "interessato" a leggere nuovi articoli di questa rubrica!  Un grazie va
+ inoltre  a  Marco  Vazio, autore di programmi quali TFM e ICARO (...e cosi' mi
+ devi 2 pizze), che dal 2:334/501.12 mi dava un incoraggiamento a continuare.
+
+ ------------------------------------------------------------------------------
+
+                               BBS_1ST_IMPRESSION
+
+                                  AVVERTIMENTO!
+
+  Avuta notizia che qualcuno si e'  spacciato per il sottoscritto, chiedendo in
+ una BBS un livello privilegiato per fare il test della stessa, si informano  i
+ sysop che:
+
+  1) il sottoscritto per gli articoli di questa rubrica NON si annuncia
+  2) NON da' il proprio vero nome
+  3) si collega come NEW USER
+  4)   AVVERTE,  prima  dell'hang  up,  con  un  messaggio  al  sysop,  che  il
+     collegamento e' stato effettuato  per  questa  rubrica  e di NON tenere in
+     considerazione i dati inseriti, scusandosi del disturbo arrecato.
+
+                                     G&G BBS
+
+  25 ottobre 1994 A.D.  il parentame era fuori casa...  la ragazza  non  poteva
+ venire,  doveva  studiare...   decisi  cosi' di passare una serata...  animale
+ WOW!  Per prima cosa mi preparai  dei panozzi incredibili, delle patate fritte
+ con sopra quintali di tabasco e 2 Bonne Esperance  (da  75  cl...oh,yes!)  ben
+ ghiacciate,  quindi accesi lo stereo e misi a tutto volume l'ultimo di Al Bano
+ e Romina  (...per  sbaglio!),  a  momenti  morii  soffocato  da  un boccone di
+ panozzo, mi ripresi e cambiai ciddi', dopo  essermi  assicurato  piu'volte  di
+ aver  preso  i  Clock  DVA, mi spaparanzai di fronte al computer e cominciai a
+ leggermi un po' di Sacro Testo alias MCmicrocomputer.
+
+  Finito di mangiare e soprattutto di  bere...avevo  ancora un po' fame, ma non
+ proprio fame...piuttosto voglia di qualcosa di buono!   Non  essendoci  nessun
+ Ambrogio  nei  paraggi  (grazie  a Dio!  Mi sa di uno che cornifica il padrone
+ portandosi a  letto  la  "signora"  dopo  averla  irretita  con  i  Rocher) mi
+ arrangiai da solo cercando una nuova BBS con cui  collegarmi.   Nella  rubrica
+ Micro Meeting del Sacro Testo trovai questo annuncio:
+
+  G&G BBS, non la solita BBS, prova non te  ne  pentirai.   Ti  aspettiamo  per
+ crescere assieme.....  etc., etc.  WOW!  ecco il dolce!  D'un balzo attivai il
+ mio USR e...  ATDT 080,5042181
+
+  Segnale libero e successivo collegamento a 14400...
+
+  Mi trovavo a Bari, da G&G BBS - SOLUZIONI INFORMATICHE.
+
+ Fui  accolto da RemoteAccess 1.11/Professional che in maniera molto formale mi
+ chiese: Digita il tuo Nome e Cognome: **********
+
+  Scoperto che ero un  NUOVO  UTENTE  mi  chiese  il  linguaggio con cui volevo
+ continuare: sono disponibili Inglese,  Italiano,  Danese  e  Greco  (forse  vi
+ stupira'  la  presenza di quest'ultimo ma se fate mente locale che la BBS e' a
+ Bari cioe' a un  tiro  di  schioppo  dalla  Grecia  vi stupirete di piu' della
+ presenza del Danese, al cui posto forse sarebbe stato meglio un Tedesco od  un
+ Francese...   ma  la  scelta  potrebbe  essere  stata fatta per favorire degli
+ utenti...danesi, ovvio).
+
+  Dopo avere scelto il linguaggio  e  aver  confermato il mio nome ricevetti il
+ BENVENUTO SU SOLUZIONI BBS (...ma non  ero  su  G&G  BBS?!?   Forse  era  solo
+ l'effetto della birra...) che consisteva nell'informarmi che non sono permessi
+ nomi  falsi,  che  per innalzare il proprio livello e' necessario compilare un
+ questionario che sara'  rigorosamente  verificato  e  che bisogna mantenere un
+ comportamento corretto.
+
+  Tutto giusto, stramaledettamente  giusto...ma  mi  sarebbe  piaciuto  leggere
+ prima  degli  avvertimenti qualcosa di simile a: "Ciao!  Ci fa' piacere che ti
+ sei collegato con noi!".
+
+  Subito dopo passammo alle domande per configurare il sistema che diventarono,
+ senza preavvisi, piu' personali.  Mi fu chiesto da dove chiamavo, il numero di
+ telefono, la data  di  nascita  e  la  password.   Dopo  la  password mi venne
+ chiesto, anzi imposto, di  compilare  il  questionario:  mi  furono  richiesti
+ nell'ordine,  nuovamente  il nome ed il cognome (nel caso fossero cambiati nel
+ frattempo...non si sa mai!), l'indirizzo,  la citta', il numero telefonico, il
+ computer utilizzato, il modem, la mia data  di  nascita  (interessante  questa
+ commistione  fra i miei dati "personali" e quelli del mio "hardware", cosa che
+ suggerisce una "fusione uomo-macchina"),  la  mia  professione, la mia Ragione
+ Sociale e la Partita Iva  (se  rivenditore),  telefono  dell'ufficio,  nome  e
+ cognome del responsabile, come o conosciuto G&G BBS.
+
+  Finito il questionario feci la mia prima "scoperta"...
+
+  La  BBS  e'  gestita niente popo' di meno che da JENA PLINSKY (il "mitico" di
+ ''1992: fuga da New York,, - piccola  parentesi cinefila lo Jena era tale solo
+ qui in Italia perche' da  tutte  le  altre  parti  era  COBRA  PLINSKY-  )...e
+ indovinate  chi  sono  i  co-sysoppi...  IL GATTO e LA VOLPE!  Chissa' dove si
+ sono incontrati!?  Forse ad un party di Rambo e Biancaneve...mah!
+
+  Andando avanti venni informato sui  livelli  degli  utenti (i livelli sono in
+ tutto 8 e vanno dal livello 1 con 5 minuti a disposizione e 0Kb di Download al
+ livello 5000 -orpo!-  con  80  minuti  e  300Kb  di  Download)  e  mi  vennero
+ snocciolate  le  mie  statistiche alla fine delle quali mi apparve il seguente
+ messaggio:
+
+                                  ATTENZIONE!
+              Hai effettuato Download oltre il limite consentito.
+    Se vuoi essere riabilitato, fai Upload e lascia un messaggio al Sysop.
+
+  C...o!  Come sarebbe a  dire?   Chi?   Io?   Ma  se  non  ho avuto neanche la
+ possibilita' di vedere cosa c'e' qui dentro!  Cosi' si fa prendere un  infarto
+ al  Nuovo  Utente!   Andiamoci  calmi!   (C'e'  da  considerare pero' che Jena
+ Plinsky prima ti spara poi ti chiede chi cazzo sei...)
+
+  Andando avanti mi vennero lette le News,  anzi, la News risalente al 4 agosto
+ (tanto  e'  mica  pesce...),  in  cui  il  sysop,  che  nel  frattempo  si  e'
+ italianizzato diventando IENA, mi informo' che sono aperte le iscrizioni per i
+ sostenitori  e  che  per  maggiori  informazioni   bisogna   telefonare   allo
+ 080,5043755.
+
+  Finalmente approdai al menu' da cui potei accedere al cuore della BBS.
+
+  La prima a essere visitata fu l'area Messaggi dove chiesi l'elenco delle aree
+ disponibili  che  sono  -Comunicati  del Sysop, -Messaggi Privati e -Soluzioni
+ d'Informatica.   Un  po'  pochine  ma   piu'   avanti  leggendo  un  menu'  di
+ informazioni venni messo al corrente che sarebbero state aperte altre aree tra
+ cui tanto per citarne alcune -AI, -Animation, -Asm-Mag, -Astronomy,  -Borland,
+ -C,  -CDRom,  -Clipper,-Database,  -Deskpub,  -Handicap,  -Hypertext, -Laptop,
+ -Math,  -Modem,  -MSWindows,   -Pascal,   -Printer,  -Satellite,  -Simulation,
+ -SysInfo, -Virus e molte altre ancora e che  inoltre  saranno  prelevate  aree
+ Fidonet.  Non ho visto invece neanche l'ombra di un O.L.R.
+
+  <lampo accecante e tuono>
+  CHAT MODE
+
+  RRE>Ce lo vuoi dire cos'e' 'sto O.L.R.?
+  PLM>Di un po' Renato, fai sempre di queste entrate?
+  RRE>Sono  i  nuovi privilegi della mia posizione...  Ho un mucchio di effetti
+      speciali a disposizione!
+  PLM>Capito.  Un O.L.R.  non e' nient'altro  che  un Off Line Reader, ossia un
+      programma che ti permette di scaricare la posta  dal  BBS,  leggertela  e
+      rispondere o scrivere messaggi off-line, cosi' mamma Teœecom non ingrassa
+      con  i  tuoi soldini.  Un ottimo esempio di questo genere di programmi e'
+      Blue Wave, ma ce ne sono anche  altri.   Se  tu non fossi un point, ma un
+      utente normale lo sapresti!
+  RRE>Si,si,si ma non avrei gli F/X quando chatto tie'!
+
+  <Squillare di trombe e canto di eunuchi>
+  CHAT END
+
+  Torniamo a noi: subito dopo passai all'Area Files, i cui menu' sono  completi
+ e  permettono  anche  l'invio  automatico  della lista completa o quella degli
+ ultimi quindici giorni.  Unico appunto  e'  che  voi come New User non potrete
+ prelevare neanche quella...strano, ormai, quasi dappertutto, il prelievo delle
+ liste e FREE...
+
+  Ci sono attualmente 21 aree files che vanno dai Compattatori agli  Antivirus,
+ dai  Giochi  ai  Files  Multimediali,  da Applicazioni x Windows a Utility per
+ Amiga, etc.
+
+  Altri menu' accessibili dal Menu' Principale, che paiono interessanti, sono
+ quello -Sala Giochi  (che  pero'  non  mi  ha  portato da nessuna parte...aree
+ riservate?) e quello -Notizie-Listini-Novita'  che  una  volta  richiamato  vi
+ travolgera'  con  una  valanga  di  dati  e  di  prezzi su componenti hardware
+ (alimentatori, case, HD, controllers,  schede madri, monitors, stampanti, fax,
+ tastiere, schede musicali e computer belle che assemblati)...dal che si deduce
+ quale sia  l'interesse  primario  di  questa  BBS.   [NdE:  Cattivello!   cosa
+ vorresti insinuare?]
+
+  Altro  menu'  che puo' tornare utile e' quello -Ore di Punta che vi mostra un
+ grafico dell'utilizzo  del  sistema  permettendovi  di  pianificare  le vostre
+ future chiamate per non trovare troppo  affollamento.   Da  notare  che  molti
+ menu'  portavano  la dicitura "Il Menu' e' in fase di completamento" il che fa
+ prevedere nuovi sviluppi.
+
+                                  CONCLUSIONI
+
+  Finito  di  curiosare  mi  scollegai   e   cominciai  a  cogitare  su  questo
+ collegamento.  Partiamo dall'annuncio apparso sul  Sacro  Testo:  sulla  prima
+ riga  non  mi pronuncio perche' per me non ci sono BBS "solite" ma hanno tutte
+ una impronta particolare lasciatagli da chi le dirige, quanto al non pentirmi,
+ personalmente, non mi sono mai  pentito  di  niente (neanche quando ho chiesto
+ alla mia ragazza se voleva sposarmi...).  La seconda riga dice: "Ti aspettiamo
+ per crescere assieme...".
+
+  Bene, caro IENA, GATTO e VOLPE  vogliate  prendere  le  mie  osservazioni  in
+ questo   senso,   come   consigli   per   un'ottima  crescita.   Partiamo  dal
+ Questionario.  Io penso sia  giustissimo  chiedere agli utenti che frequentano
+ una BBS di lasciare i loro dati e pretendere che siano veritieri: questo e' un
+ atto dovuto sia nei riguardi degli altri utenti sia in quelli del sysop...  ma
+ il sysop (e i suoi co-sysop) dovrebbero fare lo stesso.
+
+  Non si puo' dire a uno "Dimmi come ti chiami davvero o non ti faccio  entrare
+ nella  BBS"  e poi presentarsi come IENA (o JENA) PLINSKI, per non parlare del
+ GATTO e della VOLPE, nomignoli (piu' che  alias) che non fanno certo una buona
+ pubblicita' ad una BBS che fra le altre cose si propone di  fornire  SOLUZIONI
+ INFORMATICHE.
+
+  Inoltre  il  Questionario  dovrebbe  essere facoltativo e non imposto: chi vi
+ dice che il Nuovo  Utente  che  si  e'  collegato  con voi voglia diventare un
+ "afecionados" ?  Bisognerebbe permettere al New User di farsi  un  giro  nella
+ BBS   e   prima   dello   scollegamento   chiedergli  se  vuole  compilare  il
+ Questionario...  se lo compila, ed  e'  corretto, e' il benvenuto altrimenti e
+ OUT!
+
+  Ci sono poi un altro paio di cosette.  Prima di tutto bisognerebbe installare
+ un O.L.R....al giorno d'oggi non e' pensabile chiedere ad un utente di gestire
+ la posta on-line  quando,  con  un  semplice  programma,  potrebbe  non  farlo
+ risparmiando fra le altre cose un bel po' di soldini.
+
+  Poi  bisognerebbe  rivedere,  a  mio  giudizio,  i  ratio  dei livelli: avete
+ disposto  al  livello  massimo  80  minuti  e  300Kb  di  Download...   troppo
+ (troppissimo, se fosse corretto  dirlo)  tempo  e  troppo pochi (pochissimi, e
+ stavolta e' corretto) Kb di prelievo; non avete mai dato uno sguardo a  quanto
+ occupano  certi  file  che  avete  sulla  BBS  ?  Alcuni non potrebbero essere
+ prelevati neanche dai vostri utenti con il massimo livello!!!
+
+ Per ultimo...vi auguro un'ottima crescita ed un grande successo!  Bye!  :-)
+
+
+ ... This tagline is SHAREWARE!  To register, send me $10
+
+
+
+
+
+
+                                                                 Pierluca Monge
+                                                                 (2:334/501)
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                              Internet in SMAU ###
+ ############                                                         .mau. ###
+
+ Riassunto:
+        Ed eccoci al nostro inviato speciale allo SMAU: non siete  riusciti  ad
+       andarci?    avevate   il   morbillo,   la  varicella,  l'amante  o  piu'
+       semplicemente eravate in Irlanda a godervela? (Vedi me)
+
+        Niente paura: c'e' super  .mau.   che  con  la sua solita' precisione e
+       puntigliosita' ci fornira' un preciso quadro della situazione. :)
+
+       ... eccoti due righe sugli internet provider che ho visitato in SMAU.
+
+ ------------------------------------------------------------------------------
+
+                                Internet in SMAU
+
+  Caro lettore [1], oramai telematicus ti  ha imbottito di notizie su Internet,
+ e persino il resto del mondo si e` accorto che forse c'e` qualcosa che si  sta
+ muovendo.
+
+  Il  vostro  editor  ameritus  -  non  e` un errore di stampa, l'a- e` un alfa
+ privativo - ha pensato bene di sfruttare la trasferta pagata dall'ufficio allo
+ SMAU per vedere cosa gli Internet  provider offrivano oggidi`, in base al noto
+ proverbio "in Italia non si muove bit, che allo SMAU non ti dicano pssst!"
+
+  Ecco quindi un resoconto di quanto  ho  visto  al  Salone.   Mi  scusino  gli
+ eventuali  espositori  che  non  ho  contattato perche` non mi sono accorto di
+ loro, essendo molto sbadato; mi  scusi  MC-link  che  non ho contattato per un
+ attacco di pigrizia; mi scusino quelli di  i.net,  Agora`  e  InRete  tra  gli
+ altri,  che  non  so  nemmeno  se  fossero  presenti.   [NdE: questo si che e'
+ ruspante giornalismo informatico!]
+
+  Per il resto, vale il solito disclaimer.   io l'accesso alla Rete ce l'ho per
+ tutt'altra via, e quindi non ci guadagno niente con nessuno di questi.
+
+  Infine un ultimo avviso: io non parlo di soldi, non perche` sono superiore  a
+ queste cose, ma per il semplice motivo che a me interessava di piu` sapere che
+ tipo di connessione i vari provider avevano col resto del mondo e quale invece
+ offrivano  ai  loro utenti.  Alla peggio potete sempre contattare direttamente
+ costoro...
+
+                                     ItNet
+
+  Cominciamo con  i  genovesi  di  ItNet.   Questi  sono  il  risultato  di una
+ scissione  avvenuta  all'interno  di  IUnet  (o  i2u,   come   adesso   sembra
+ preferiscano chiamarsi).  La maggior parte dei vecchi marpioni del software di
+ rete  sono  finiti  in  ItNet, quindi non ci sono problemi per quanto riguarda
+ l'assistenza agli utenti.
+
+  Mi sembra invece piuttosto restrittivo  limitarsi  a un collegamento ISDN con
+ Pypex a Cambridge UK per fornire la connettivita` all'estero  -  anche  se  e`
+ vero che questa e` una soluzione scalabile in maniera relativamente semplice.
+
+  E`  anche  problematico  collegarsi dalle sperdute lande italiane: al momento
+ gli unici punti di presenza sono appunto a Genova, a Milano e a Roma.
+
+                                    TelNet
+
+  Telnet e` la societa` fondata dalle vecchie conoscenze fidonettare Luca Spada
+ e Gian!  Salerno.  Non si puo` dire che non siano partiti in grande, visto che
+ hanno affermato di avere un link E1 (vale  a dire 2 Mb/sec) con TipNet, che vi
+ assicuro e` *tanto*.
+
+  Dall'altro capo del filo, sono piuttosto decentrati, avendo la sede a  Pavia;
+ a  parte  il  classico  nodo  a  Milano  che  sara` pronto a breve, tendono ad
+ appoggiarsi a Sprint.   Questo  significa  si`  risparmiare  rispetto al costo
+ delle interurbane Sip^H^H^H Telecom Italia, ma in ogni caso  vi  assicuro  che
+ pagate piu` che a sufficienza.
+
+  Interessante,  anche  se  fuori  tema,  il modo con cui Sprint sia riuscita a
+ prendere piede nel mercato  italiano,  il  che  le  tornera` certo assai utile
+ quando ci sara` la liberalizzazione totale del mercato delle telecomunicazioni
+ nell'UE.
+
+  Anche Galactica sembra si appoggera` a Sprint (o lo ha gia` fatto?  non  sono
+ riuscito  a  capirlo).  Per il momento rimangono i soliti nodi a Milano con le
+ solite procedure di collegamento che probabilmente conoscete meglio di me.  Il
+ loro link col resto del mondo e`  una  linea  a 128 Kb/sec che si appoggia sul
+ nodo i2u di Milano che poi viaggia verso Amsterdam su una linea a 2*128 Kb/sec
+ [2].
+
+                                Italia On Line
+
+  Ho lasciato per ultima Italia On Line.  A mio personalissimo  parere,  e`  un
+ pacco.
+
+ Dopo  tutta  la  pubblicita` che si stanno facendo da mesi, ho scoperto che in
+ pratica e` semplicemente una grossa  bbs,  con la possibilita` di leggere news
+ (che si pigliano in Svezia, se non ho capito male), di  avere  un  link  email
+ relativamente  limitato  (100 messaggi al mese...  io che in questo periodo ho
+ tagliato molto le mie chiacchierate  ne  ricevo  20-30 al giorno e ne spedisco
+ una decina).
+
+  Il tutto solo da Milano, con speranza in breve di avere anche Roma e  chissa`
+ quando  il  resto dell'Italia.  Si`, Internet ci sara` prima o poi, ma pagando
+ un supplemento molto superiore al costo dell'abbonamento base.
+
+  Contento, caro lettore?  no??   allora  prenditela  con  RRE, che tanto ci e`
+ abituato :-) [NdE: io sono contento!]
+
+ ciao, .mau.
+
+
+ [1] La lettrice che sembrava essere cosi` interessata a Linux si e` persa  per
+     strada,  e  quindi  mi  pare  inutile  continuare  ad  indirizzare  i miei
+     sproloqui a lei.  [NdE:  io  non  lavoro,  lei  e' andata da qualche altra
+     parte...  insomma si sono persi i contatti :( ]
+
+ [2] Non chiedetemi perche` non si dica 256 Kb/sec.  Anzi, io  ero  addirittura
+     convinto  che  in  genere  si  parlasse  di  n  * 64 Kb/sec, ma il tipo di
+     Galactica mi ha detto cosi`  e  chi sono io per modificare arbitrariamente
+     le sue parole?  [NdE: niurant!  documentati subito!]
+
+                                   RECAPITI
+
+ Telnet - Via Buozzi 5 - 27100 Pavia - Tel 0382-527893 - Fax 0382 - 528074
+
+ ITnet - Via Greto di Cornigliano, 6 - 16152 Genova -  Tel  010-6503641  -  Fax
+         010-6563324 - email info@it.net
+
+ Galactica  (ERRATA  CORRIGE: ha un 64K con i2u, non un 128K) - Via Turati 40 -
+         20121 Milano - Tel 02-29006150 - Fax 02-29006153
+
+ Italia On  Line  -  Via  Caldera  21  -  20153  Milano  -  Tel 02-48201110 Fax
+         02-48201121 - email vendite@iol.it
+
+
+                                   ADDENDUM
+
+
+ Altre notizie da aggiungere all'articolao:
+
+ - Tipnet e` in Svezia
+
+ - anche Italia On Line si collega a internet via tipnet
+
+
+
+
+ ciao                                       .mau.
+                                            Fidonet:  2:334/100.5
+                                                      2:332/407.909
+                                            Internet: mau@beatles.cselt.stet.it
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                                           Toy ###
+ ############                                              Herve Miozzo & C ###
+
+ Riassunto:
+        Vi ricordate di Pollicino?  Il mailer per point recensito nel numero 41
+       di Telematicus?
+
+        Ebbene ecco un  nuovo  robusto  prodotto  da  quella  che sembra essere
+       attualmente l'"isola felice" piu' attiva di tutto Fido!  Segue sempre la
+       stessa filosofia: pochi fronzoli, cose essenziali ma molto affidabili.
+
+        Tra l'altro - e questo  detto  in  anteprima  assoluta  -  il  progetto
+       Formicaio accennato nelle news del n. 36 di Telem ha visto la luce!  Nel
+       prox number di Telem la recensione!
+
+ ------------------------------------------------------------------------------
+
+                                      TOY.
+
+  Benche' sul mercato esistano moltissimi programmi di comunicazione TOY  nasce
+ dall'esigenza  di  disporre  di  un programma che sia essenziale funzionale di
+ limitata occupazione e di facile configurabilita'.
+
+  TOY si rivolge a quelle persone che necessitano di uno strumento semplice con
+ le caratteristiche necessarie per consentire  il  collegamento via modem ed il
+ trasferimento di file.
+
+  TOY si pone anche il problema degli utenti che si avvicinano al  mondo  della
+ telematica  e  che spesso si trovano a dover affrontare gossissimi problemi di
+ configurazione posti da molti pacchetti di comunicazione.
+
+  La semplicita' di configurazione di cui TOY dispone consente anche all'utente
+ inesperto di affrontare senza grossi  traumi  l'impatto  con  il modem e con i
+ sistemi telematici.
+
+  Possiamo definire TOY un robusto Entry Level che si pone come Ice Breaker per
+ quell'utenza che si affaccia al mondo della telematica e che spesso si  ritira
+ per eccessive difficolta'.
+
+  Di  fondamentale  importanza e' stata la scelta di dotarlo di una interfaccia
+ utente semplice ma funzionale, di  messaggi  in  lingua italiana o in inglese,
+ cosi' che l'utente possa acquisire delle terminologie tipiche del mondo  della
+ telematica  nella  propria  lingua,  passando  poi alla lingua ufficiale della
+ telemtica.
+
+  L'esigenza di sviluppare un programma di comunicazione semplice ed essenziale
+ e' venuta dal  progetto  FORMICAIO  [NdE:  vedi  riassunto  sopra], che questo
+ settembre e' partito ufficialmente.
+
+  Il target a cui si rivolge TOY e' principalmente quello  dei  ragazzi,  degli
+ insegnanti  e  dei  genitori  che  quasi  sempre  non hanno nessuna esperienza
+ telematica.
+
+  Anche l'interfaccia di TOY e' stata disegnata tenendo conto del target, senza
+ comunque nulla togliere ad eventuali utenti esperti che troveranno comunque in
+ TOY un programma in  grado  di  svolgere  tutte  quelle funzioni necessarie ad
+ effettuare collegamenti con banche dati e trasferimenti di file.
+
+  La configurazione di TOY avviene attraverso un  file  ASCII  all'interno  del
+ quale  sono  presenti  i  parametri di configurazione e la descrizione di ogni
+ parametro.
+
+  Quelle  elencate  sono  alcune   delle  caratteristiche  principale  di  TOY,
+ disponibili con l'attuale versione.
+
+  * Configurazione lingua (Italiano o Inglese)
+
+  * Gestione automatica dei caratteri ANSI
+
+  * Gestione automatica della ricezione con protocollo Zmodem
+
+  * Possibilita' di utilizzare qualsiasi linea seriale anche non standard.
+
+  * Fossil integrato
+
+  * Possibilita' di utilizzare TOY per collegamenti PC-PC con cavo NullModem.
+
+  * Selezione modalita' chiamata Toni o Impulsi
+
+  * Gestione di  un  file  di  capture  su  cui  vengono  registrate  tutte  le
+    attivita'.
+
+  * Gestione  di  un  file  di  connect  su  cui  vengono  registrate  solo  le
+    connessioni cone ORA di inizio ed ORA di fine connessione.
+
+  * Visualizzaizone sulla riga di stato del tempo di collegamento.
+
+  * Assegnazione di stringhe di caratteri ai tasti funzionali.
+
+  * Interfaccia grafica  SIMPATICISSIMA  (Nessun  programma di comunicazione ha
+    un'interfaccia come TOY :-))) )
+
+  Attualmente TOY e' in prova presso alcuni utenti  del  FORMICAIO  ed  i  loro
+ suggerimenti  e  perplessita'  vengono  raccolti ed analizzati, per cercare di
+ facilitare al massimo l'apprendimento di questo strumento.
+
+  Per il futuro ci sono in  mente  alcune  cosette molto interessanti .. ma per
+ ora e' prematuro parlarne.
+
+  TOY e' disponibile in File Request presso The  Giant  BBS  2:333/511  con  la
+ magic TOY (cosi' si e' sicuri di ricevere sempre l'ultima versione).
+
+  Il  supporter  di  TOY sono IO :-))) Erve Miozzo in arte Herve Miozzo, potete
+ scrivermi al 2:333/511 o al 2:333/511.20000.
+
+                                         Aloha !!
+                                         (Compuserve : Erve Miozzo 100411,2234)
+
+
+ ############                                                               ###
+ ###   8  ###                                    IL GERGO HACKER - PARTE 37 ###
+ ############                                    Eric S. Raymond & .mau.    ###
+
+ Riassunto:
+        .mau. mi ha sgridato! ha osato farlo!!!
+
+ Caro editor treccanus...
+ ...  nel  senso  di  dimensioni  dell'ultimo  telematicus.   Ma  che  senso ha
+ riproporre tutto ECATOMBE.TXT, se non e` cambiato per nulla dall'ultima volta?
+ Al limite si mette la parte aggiunta, visto che tanto i numeri  arretrati  non
+ sono poi cosi` difficili da recuperare.
+
+        come al solito non raccolgo.
+
+ Bon, qui c'e` il solito jargon.  Abbiamo finito la S e siamo sul mezzo mega di
+ testo (460K senza linefeed)...
+
+ ------------------------------------------------------------------------------
+
+    <SPACEWAR>  s.  Un  gioco  di  simulazione  di  un  combattimento  spaziale
+ implementato  per  la  prima  volta  su  un  PDP-1  al  MIT  nel 1960-61.  Gli
+ aficionados  di  SPACEWAR  hanno   formato   il  nuclea  della  prima  cultura
+ hackeristica all'MIT.  Dieci anni  dopo,  un  discendente  di  tale  gioco  ha
+ motivato  Ken  Thompson  a  costruire  nel  suo  tempo  libero, su un PDP-7 di
+ recupero, il sistema operativo che sarebbe diventato <UNIX>.  Dieci anni dopo,
+ SPACEWAR  fu  commercializzato  come   uno   dei  primi  videogiochi;  i  suoi
+ discendenti riempiono ancora ovunque le sale giochi.
+
+    <spaghetti  code>  s.  Descrive  codice  con  una  struttura  di  controllo
+ complessa e annodata, spec.   una  che  usa  molti  GOTO,  eccezioni  o  altri
+ costrutti di salto `non strutturati'.  Peggiorativo.  E` stato riportato anche
+ il sinonimo "kangaroo code'.
+
+    <spaghetti  inheritance>  [ereditarieta`  a  spaghetti]  s. [incontrato tra
+ utenti di linguaggi a oggetti che usano l'ereditarieta`, come lo Smalltalk] Un
+ grafo  classi-sottoclassi  convoluto,  risultante  spesso  dal  derivare senza
+ preoccuparsi delle sottoclassi da altre classi solo per potere riusare il loro
+ codice.  Coniato in un )riuscito) tentativo di scoraggiare tale pratica, dando
+ una colpevole associazione con <spaghetti code>.
+
+    <spell> [incantesimo] s. Sin.  <incantation>.
+
+    <spiffy> /spi'fee/ [pop.  USA:  stupendo,  splendido]  agg.   1.  Detto  di
+ programmi  che hanno in'interfaccia carina, intelligente o eccezionalmente ben
+ progettata.  "Hai gia`  visto  quella  versione  X  s.  di <empire>?" 2. Detto
+ sarcasticamente di  programmi  che  non  sembra  abbiano  molto  piu`  di  una
+ interfaccia attraente.  Il significato da scegliere dipende dal tono di voce e
+ dal contesto.
+
+    <splat>  [spiaciccatura] s. 1. Nome usato in molti posti (DEC, IBM e altri)
+ per il carattere ASCII asterisco ("*").   2. [MIT] Nome usato per il carattere
+ ASCII numero ("#").  3.  [Stanford]  Nome  usato  da  alcune  persone  per  il
+ carattere  ASCII esteso locale cerchio-x.  (Questo carattere e` anche chiamato
+ "circle-x", "blobby" e "frob", trra  gli  altri nomi).  4. [Stanford] Nome per
+ il semimitico carattere esteso ASCII cerchio-piu`.  5. [Rochester Institute of
+ Technology] Il tasto "command" sul Macintosh.   Uso:  nessuno  in  realta`  e`
+ d'accordo su cosa rappresenti il carattere "splat", ma il ter.ine e` comune.
+
+    <spooge>  /spooj/  [presumo  da una contaminazione di spoof, imbroglio, con
+ <kluge>] s. Codice inesplicabile  o  arcano,  o output casuale e probabilmente
+ scorretto  da  un  programma.   2.  v.  Generare  codice  o  output  come  nel
+ significato precedente.
+
+    <spool> [dalla  voce  IBM  "Simultaneous  Peripheral  Operation  Off-Line",
+ operazione  fuori  linea  simultanea  di  una  periferica,  ma  si  pensa  che
+ l'acronimo  sia  stato  creato ad hoc] v. Mandare dei files a qualche device o
+ programma (uno `spooler'), che li accoda e ci fa qualcosa di utile in seguito.
+ Lo spooler che si  considera  di  solito  e`  il `print spooler' che controlla
+ l'output verso la stampante, ma il termine e` stato usato in  connessione  con
+ altre periferiche (specialmente plotter e device grafici).
+
+    <stack> s. Lo stack di una persona e` l'insieme di cose che  costui  ha  da
+ fare  in  futuro.   Si  dice  che  il prossimo progetto ad essere attaccato e`
+ salito in cima allo stack.  "Mi  spiace,  ma  ho del lavoro ufficiale da fare,
+ percio` devo mandare questo in fondo al mio stack".  "Non l'ho  ancora  fatto,
+ perche`   ogni  volta  che  riesco  a  fare  un  pop  sul  mio  stack,  arriva
+ qualcos'altro da mettere in cima".
+    Se si viene interrotto piu`  volte  a  meta`  di una conversazione, "il mio
+ stack e` andato in overflow" significa "mi sono dimenticato  di  cosa  stavamo
+ parlando"  (l'implicazione  e` che sono stati messi nello stack piu` argomenti
+ di quelli che si possono  ricordare,  sicche`  quelli meno recenti sono andati
+ persi).  L'esempio usuale fisico di uno stack si puo` trovare  in  una  mensa;
+ una  pila  di  vassoi su una molla in un carrello, in modo che se si toglie un
+ vassoio tutti gli altri salgono  un  po'  e  se  se  ne aggiunge uno gli altri
+ scendono.  Vedi anche <PUSH> e <POP>.
+
+    All'MIT, al posto di stack si tendeva a usare  <pdl>,  e  forse  questo  e`
+ ancora vero.  Altrove, stack sembra essere il termine preferito.
+
+    <stale  pointer bug> [baco del puntatore scaduto] s. Sinonimo per <aliasing
+ bug> usato spec.  tra gli hacker sui microcomputer.
+
+    <state> s. Condizione, situazione.  "Com'e`  lo stato del tuo ultimo hack?"
+ "Funge bene".  "Il sistema ha tentato di leggere e  scrivere  sul  disco  allo
+ stesso  tempo,  ed  e`  finito  in  uno  stato completamente incasinato".  Una
+ domanda standard e` "Qual e` il  tuo stato", che significa "Che stai facendo?"
+ o "Cosa stai per fare?" Risposte tipiche possono  essere  "Sto  per  fondere",
+ oppure  "Ho  fame".   Un'altra domanda tipica e` "Qual e` lo stato del mondo?"
+ che significa "Cosa c'e` di  nuovo?"  o  "Cosa  sta capitando?".  Il modo piu`
+ conciso e umoristico per chiedere queste cose sarebbe "State-p?".
+
+    <stir-fried  random>  [qualcosa  agitato  e  fritto,  piu`  o  meno]   alt.
+ <stir-fried mumble> s. Termine usato per un frequente piatto preferito tra gli
+ hacker che sanno cucinare.  Consiste di verdure fresche scelte a caso e carne,
+ cucinate   con   spezie   fresche.   Gustoso  ed  economico.   Vedi  <random>,
+ <great-wall>, <ravs>, <ORIENTAL FOOD>; vedi anche <mumble>.
+
+    <stomp on>  [pestare  su]  v.  Sovrascrivere  inavvertitamente  qualcosa di
+ importante, di solito automaticamente.  Es.: "Tutto il lavoro che ho fatto  in
+ questo weekend e` andato s. stanotte dallo script notturno del server.  Confr.
+ <scribble>, <mangle>, <trash>, <scrog>, <roach>.
+
+    <stoppage>  /sto'p@j/ [fermo] s. Rovina estrema (vedi <lossage>) risultante
+ in qualcosa (di solito vitale) diventato completamente inusabile.  "Il recente
+ fermo del sistema e` stato causato da un trasfomatore fritto (v.  [fried]).
+
+    <stubroutine> /stuhb'roo-teen/  [contr.   di  "stub  routine":  lo  stub e`
+ letteralmente la matrice di un biglietto] s. Piccolo, spesso vuoto  segnaposto
+ per una subroutine che verra` scritta o completata in seguito.
+
+    <stunning>  [fantastico]  agg.   Stupido  in maniera incredibile.  Usato in
+ senso sarcastico.  "Vuoi scrivere *cosa* in  ADA?  Ma e`...  un'idea s.!" Vedi
+ anche <non-optimal solution>.
+
+    <subshell> [UNIX, MS-DOS: sottoshell] s. Un interprete di comandi di un  SO
+ (vedi <shell>) creata all'interno di un programma, tale che alla sua uscita il
+ controllo  ritorna  al  programma  padre  in  uno  stato  che  gli permette di
+ continuare l'esecuzione.  Opp.  <chain>.
+
+    <sucking mud>  [Applied  Digital  Research,  succhiafango]  agg.  Cascato o
+ incasinato.  Detto di solito di una macchina che da` un servizio di rete, come
+ un file  server.   Questo  regionalismo  di  Dallas  deriva  dal  lamento  dei
+ petrolieri  texani, "Piantala, ma', e` una s.m.".  Spesso usato nelle domande.
+ "Stiamo per riconfigurare la rete, sei pronto al s.m.?"
+
+    <suit> [vestito formale]  s.  1.  Brutto  e  non  confortevole `vestito per
+ affari' spesso indossato da non hackers.  Indossato  invariabilmente  con  una
+ `cravatta', un dispositivo per strangolare che riduce fortemente l'afflusso di
+ sangue   al   cervello.    Si  ritiene  che  questo  spieghi  molte  cose  sul
+ comportamento di chi indossa  un  suit.   2.  Una  persona che di solito veste
+ formalmente, in rapporto a un tecnico o a un hacker.  Vedi <loser>, <burble> e
+ <brain-damaged>.   L'inglese,  tra  l'altro,  e`  fin   gentile;   il   nostro
+ corrispondente  sovietico  ci  informa  che  la  voce corrispondente nel gergo
+ hacker russo e` `sovok', lett.  uno strumento per raccogliere la spazzatura.
+
+    <sunspots> [macchie  solari]  s.  Causa  speculativa  di  un errore strano.
+ "Perche` a un tratto il programma  ha  tinto  di  blu  lo  schermo?"  "Macchie
+ solari,  penso".   Anche  causa del <bitrot>, dal fatto genuino che le macchie
+ solari aumentano le radiazioni cosmiche  che  possono modificare i singoli bit
+ in memoria.  Inutile dirlo, anche se accadono realmente errori a  causa  delle
+ macchie  solari, questi sono estremamente rari.  Vedi <cosmic rays>, <phase of
+ the moon>.
+
+    <sun-stools> [to stool significa andar di corpo...] s. Ben poco lusinghiero
+ nomignolo hacker per SunTools, un sistema  a  finestre precedente a X ben noto
+ ai suoi tempi per dimensioni, lentezza e misfeature (ma X  e`  piu`  grande  e
+ piu`  lento;  vedi  <second-system  effect>).  [Si noti che oggidi` c'e` della
+ gente che si lamenta perche` la Sun  da` solo OpenWindows e non piu` SunTools,
+ che girava con soli 4 mega di RAM e occupava  una  decina  di  mega  di  disco
+ comprese  le  librerie  per i programmatori...  come vedete i tempi cambiano -
+ .mau.]
+
+    <superprogrammer> s. Un programmatore  prolifico;  uno che puo` programmare
+ eccezionalmente bene e in fretta.  Non tutti gli hacker sono s., ma  molti  lo
+ sono.   (La  produttivita`  puo`  variare  da un programmatore all'altro di un
+ fattore fino a mille.  Per esempio, il programmatore a puo` essere in grado di
+ scrivere in media tre linee di  codice funzionante al giorno, mentre un altro,
+ con tool adatti e abilita`, puo` essere capace a scrivere 3000 linee di codice
+ funzionante in un giorno.  Questa variabilita` e` stupefacente,  e  appare  in
+ ben pochi altri campi dello sforzo umano).  Il termine s. e` piu` spesso usato
+ in  posti  tipo l'IBM che nella comunita` hacker: tende infatti a stressare la
+ produttivita` piu` che la creativita`  o l'intelligenza.  Gli hacker tendono a
+ preferire i termini <hacker> e <wizard>.
+
+    <Suzie  COBOL>  /soo'zee  koh'bol/  1.  [IBM,  prob.    da   "little   Suzy
+ Creamcheese"  di  Frank  Zappa]  s.  Uno che scrive codice appena uscito dalla
+ scuola, che  conosce  tutto  tranne  i  benefici  dei  commenti  in linguaggio
+ naturale.  Anche (soprattutto tra le persone che vogliono  evitare  accuse  di
+ sessismo)  `Sammy  Cobol'  o  (in alcuni circoli non IBM) `Cobol Charlie'.  2.
+ [proposto] Nomignolo per un <code grinder>, analogo a <J.  Random Hacker>.
+
+    <swab> [Dall'istruzione PDP-11 "byte  swap",  e reso immortale dall'opzione
+ "conv=swab" di <dd>] 1. v. Risolvere il <NUXI problem> swappando i bytes in un
+ file.  2. Il programma nello UNIX V7 usato per fare questa azione, o qualunque
+ cosa funzionalmente equivalente.  Vedi  anche  <big-endian>,  <little-endian>,
+ <bytesexual>.
+
+    <swap  space> s. Spazio per lasciare qualcosa da parte.  "Sto giusto usando
+ quell'angolo della sala macchine come s.s.".
+
+    <swapped> [swappato] agg.  Dal vecchio metodo  (usato a livello di task) di
+ usare  device  di  memoria  secondaria  per  implementare  supporto   per   il
+ multitasking.   Qualcosa  che e` <swapped in> e` disponibile per uso immediato
+ nella  memoria  principale;  altrimenti   e`   <swapped  out>.   Spesso  usato
+ metaforicamente per riferirsi alla memoria di una persona  ("Leggo  lo  Scheme
+ Report  ogni due o tre mesi per tenere l'informazione swappata dentro"), o per
+ la propria disponibilita` ("Ti swappo dentro  non appena ho finito di guardare
+ quell'altro problema").  Confr.  <page in>, <page out>.
+
+    <swizzle>  [lett.,  fare  un  cocktail]  v.  Convertire  nomi   esterni   o
+ riferimenti  all'interno  di una struttura dati in puntatori diretti quando la
+ struttura dati e` portata  in  memoria  principale  da memoria di massa; detto
+ anche  "pointer  swizzling";   l'operazione   inversa   e`   detta   a   volte
+ <unswizzling>.
+
+    <sync>  /sink/  [UNIX]  s.,v.   1.  Forzare  tutto  l'I/O  su  disco ancora
+ pendente.  2. Piu`  in  generale,  forzare  dei  processi che stanno lavorando
+ assieme in uno stato che sarebbe `sicuro' se il sistema dovesse crashare; dare
+ cioe` un checkpoint.  Vedi <flush>.
+
+    <syntactic sugar> [zucchero sintattico: coniato da Peter Landin] s. Feature
+ aggiunte a un linguaggio o a un formalismo per renderli piu` "dolci"  per  gli
+ umani,  ma che non cambiano l'espressivita` del formalismo (confr.  <chrome>).
+ Usato  sp.   quando  c'e`  una   traduzione   ovvia  e  banale  della  feature
+ "zuccherosa" in altri costrutti gia` presenti nella  notazione.   Esempio:  la
+ notazione  "a[i]"  del  C  e`  s.s.   per "*(a + i)".  "Syntactic sugar causes
+ cancer of the semicolon." --- Alan Perlis.
+
+    <system> s. 1. Il  programma  supervisore  su  un  SO o un calcolatore.  2.
+ L'intero calcolatore, compresi i device di I/O, il programma supervisore o SO,
+ e possibilmente dell'altro software.   3.  Un  qualunque  programma  di  vasta
+ scala.   4.  Un  qualunque metodo o algoritmo.  5. Il modo in cui le cose sono
+ fatte di solito.  Uso: una  parola  abbastanza  ambigua.  "Non puoi battere il
+ sistema".  <System hacker>: chi fa degli hack su un sistema (nei sensi 1  e  2
+ soltanto;  per  il senso 3 si menziona il programma particolare, come in "lisp
+ hacker")
+
+
+
+                                           tradotto da .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   9  ###                                                         ALCEI ###
+ ############                                                               ###
+
+ Riassunto:
+        Mi hanno spedito delle news su ALCEI. Eccole.
+
+ ------------------------------------------------------------------------------
+
+       EFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFE
+       FEFEFEFEF  TEFEFEFE  EFEFEFEFEF        TEFE         EFE  EFFE
+       EFEFEFEF    TFEFEFE  FEFEFEFEF  JEFEFL  TFE  FEFEFEFEFE  EFEE
+       FEFEFEF  JL  TEFEFE  EFEFEFEF  JEFEFEFEFEFE  FEFEFEFEFE  EFEE
+       EFEFEF  JFFL  TFEFE  EFEFEFHI  FEFEFEFEFEFE      FEFEFE  EFEE
+       FEFEF          TEFE  FEFEFEFL  TEFEFEFEFEFE  FEFEFEFEFE  EFEE
+       FEFF  JEFEFEFL  TFE  EFEFEFEFL  TFEFEF  JFE  FEFEFEFEFE  EFEE
+       FEF  JFEFEEFEFL  TE         EFL        JEFE         EFE  EFEE
+       EFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFE
+       FE                                                         FE
+       FE   E L E C T R O N I C   F R O N T I E R S   I T A L Y   FE
+       FE                                                         FE
+       FE               Associazione per la liberta'              FE
+       FE       nella comunicazione elettronica interattiva       FE
+       FE                                                         FE
+       EFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFE
+                     ==================================
+                     ASSEMBLEA ALCEI DEL 2 OTTOBRE 1994
+                     ==================================
+                          a tutti gli associati
+
+  Fra pochi giorni gli associati riceveranno un "verbale" dell'assemblea.   Non
+ so  se tutti avranno la voglia e la pazienza di leggere un documento piuttosto
+ lungo; intanto penso che  sia  utile,  specialmente  per  chi non era presente
+ all'assemblea, una sintesi dei punti principali.
+
+  A partire da questa assemblea Alcei esce  dalla  prima  fase  preparatoria  e
+ comincia  a sviluppare iniziative concrete anche verso l'esterno.  Entro poche
+ settimane sara' in funzione una newsletter; e partira' un "forum" intersistema
+ che  sara'  esteso  su  internet  e  sulle  reti  fido.   Stiamo  raccogliendo
+ documentazione per far partire le nostre prime due "battaglie" esterne.
+
+  Una riguarda  le  incombenti  minacce  di  repressione,  delle  quali ci sono
+ parecchi sintomi preoccupanti.
+
+  L'altra riguarda la SIP  e  piu'  in  generale  lo  stato,  la  qualita',  la
+ disponibilita',  i  costi e la struttura dei sistemi di supporto.  L'assemblea
+ ha approvato un progetto ambizioso: gli "stati generali della telematica", con
+ una  grande  manifestazione  in  cui  cercheremo  di  coinvolgere  altre forze
+ significative (in particolare il mondo accademico) ed un lavoro di  studio  ed
+ approfondimento,  per  arrivare a definire la "carta dei diritti e dei doveri"
+ dei  cittadini  telematici.   Naturalmente  questo  e'  un  progetto  di lungo
+ periodo, la cui realizzazione richiedera' alcuni mesi.
+
+                               * * *
+
+  Abbiamo aperto un dialogo concreto ed operativo con diversi sistemi.
+
+  Fra questi a Roma Agora' e McLink; a Milano iunet,  i-net,  Altair,  Euforia,
+ Galactica, Italia Online, Rendezvous - e Corriere Telematico.  Continueremo ad
+ allargare il dialogo anche con altre reti e sistemi, sia internet, sia fido.
+
+                               * * *
+
+  Si comincia ad organizzare la struttura dei coordinatori.
+
+  Enrico  Ferrari  e'  il  "segretario  generale"  e si occupa anche, insieme a
+ Vittorio Zambardino, della comunicazione  esterna.   Stefano Corso coordina il
+ gruppo sul tema dei diritti, leggi,  norme,  rischi  di  repressione.   Enrico
+ Caioli, insieme a Giorgio Bertazzo e Valerio Russo, si occupa dei collegamenti
+ inter-area  e  della  diffusione  nelle aree di tecnologia fido.  Man mano che
+ l'organizzazione  si  sviluppa,   altri   "associati  attivi"  prenderanno  la
+ responsabilita' di altre aree.
+
+                               * * *
+
+     ========================================================
+     Insomma:  ALCEI ora e' in fase attiva; quanto riusciremo
+     a fare, e quanto bene, dipende dall'impegno di tutti noi
+     ========================================================
+ P.S. Intanto, una notizia: diffonderemo 5000 copie
+      di un volantino ALCEI in varie sedi allo SMAU
+ ==============================================================
+ Per i nuovi associati, ricordiamo che i nostri indirizzi sono:
+ alcei@mailbox.iunet.it
+ ----------------------
+ Fax  (02) 867055 o (06) 3202346
+ Telefono "voce"  (02) 72021727 o (06) 3217195
+ Posta  Corso Italia 15 20122 Milano o via F. Cesi 21 00193 Roma
+ Il materiale informativo ALCEI e' disponibile su Altair,
+ Euforia, Galactica e Rendezvous e molto presto sara' anche
+ su Agora' e McLink; oppure puo' essere richiesto con un
+ messaggio all'ftpmail server archive@nexus.it mandando
+ un messaggio con GET (nomefile) o GET LEGGIMI.TXT nel testo.
+ ========================================================
+ Gli associati che hanno o conoscono BBS che desiderano
+ mettere a disposizione uno spazio per i file ALCEI sono
+ pregati di segnalarcelo ad alcei@mailbox.iunet.it oppure
+ giorgio.bertazzo@galactica.it o g.livraghi@agora.stm.it
+ oppure per fax (02) 867055 o telefono (02) 72021727
+ ========================================================
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  10  ###                                       Nuovi standard: il V.34 ###
+ ############                                                         .mau. ###
+
+ Riassunto:
+        Ok,  non  dovrei dirlo, ma sono *sommerso* di articolai, e se faccio la
+       rivista  *troppo*  grossa  allora  RT  si  impalla  e  .mau.   mi sgrida
+       sostenendo che faccio meglio della Treccani...
+
+        E' per questo che il segg articolao e' in attesa da solo agosto...
+
+        :)
+
+        Uffa, mi sgridano tutti!
+
+ ------------------------------------------------------------------------------
+
+                                NUOVI STANDARD
+                                    il V.34
+
+  Ebbene si`: un gruppo di studio della ITU (quello che era una volta il CCITT,
+ cioe`  l'organismo   preposto   alla   standardizzazione   nel   campo   delle
+ telecomunicazioni)  ha  approvato  lo  standard di trasmissione dati V.34, che
+ permettera` di spedire dati a 28.8 Kbit/s sulle linee telefoniche.
+
+  Questo e` quanto afferma il numero di CommunicationsWeek International del 27
+ giugno.   In  realta`,  continua  l'articolo,  per  l'approvazione  definitiva
+ occorre ancora la ratificazione che avverra` a settembre, ma ormai non ci sono
+ piu` problemi di sorta.   (E  comunque,  considerando la pronta tempistica del
+ nostro editor tiratardans RRE, non e` detto che questo articolo  appaia  prima
+ della ratifica finale...) [NdE: in effetti e' un po' che macera sul mio HD...]
+
+  Non   voglio   fare   affermazioni   sul  numero  delle  linee  italiane  che
+ effettivamente riusciranno a supportare queste  velocita` - qualcuna magari ce
+ ne sara` anche,  soprattutto  tra  quelle  elettroniche  (mi  pare  sia  stato
+ calcolato  che  il rapporto S/R necessario per reggere queste velocita` sia di
+ 25 dB, molto vicino al valore  che dovrebbe essere teoricamente garantito come
+ minimo su una linea e che in Italia viene spesso disatteso).
+
+  E' interessante invece vedere cosa l'articolo afferma sui  primi  modem  V.34
+ che appariranno sul mercato.
+
+  Prima  cosa: il famigerato V.32 terbo se ne andra` in pensione, non rimpianto
+ da nessuno - tanto due modem  di  marche diverse non riuscivano mai a parlarsi
+ con quel protocollo.  Potranno forse sopravvivere certi protocolli proprietari
+ come lo ZyXEL, soprattutto per la forte base  che  hanno  almeno  in  ambiente
+ amatoriale;  ma  i problemi arrivano con i costruttori che implementavano gia`
+ il V.fast, che si  poteva  considerare  come  un'alfa  release del V.34 che si
+ limitava a raggiungere i 24 Kbit/s .
+
+  Esistono tre diversi set di chip che supportano il V.fast: il  Motorola  (per
+ il suo 326XFast, il primo apparso ancora nel 1992); la Rockwell (la serie V.FC
+ e` apparsa a luglio 1993), e la AT&T (l'ultima arrivata, a gennaio 1994).
+
+  Quali  upgrade  saranno  disponibili?   Beh,  la  Motorola  offre  un upgrade
+ software gratuito che portera` i  modem  ad  arrivare  a 24 Kbit/s seguendo lo
+ standard V.34, ma per raggiungere la piena velocita` occorrera` dare  indietro
+ il modem per averne uno nuovo (anche se a meta` del prezzo di listino, sarebbe
+ sempre una bella botta).
+
+  Piu`  fortunati i possessori degli ultimi modem V.34 Ready, che probabilmente
+ hanno un hardware piu` potente e saranno upgradati gratuitamente.
+
+  Nulla si sa sull'AT&T, mentre  la  Rockwell ha gia` annunciato che occorrera`
+ sostituire il chip nei propri modelli.  Una buona notizia per i possessori  di
+ US.Robotics  V.Everything;  sembra sia gia` in beta test un (gratuito) upgrade
+ software per supportare il V.34.
+
+  Resta da vedere quanto  (e  quando!)  tutte  queste patch funzioneranno.  Gli
+ esperti prevedono che almeno nei primi tempi, quando i  bachi  nello  standard
+ verranno  trovati,  sara`  difficile  che  modem  di marche diverse riescano a
+ interagire tra di loro.  Fortunatamente (?)  l'ITU ha anche approvato un nuovo
+ standard (il V.8) che dovrebbe permettere un handshaking piu` veloce,  il  che
+ sarebbe solo ora, dato che adesso ci si mette 15-20 secondi nei casi peggiori.
+ E  per  i  soliti pessimisti, che dicono che gia` a 19200 bps un PC comincia a
+ perdere caratteri, spedire  dati  a  velocita`  che  potrebbero superare i 100
+ Kbit/s nel caso di dati non compressi e` un'utopia.
+
+  Scusate?  ho forse sentito la parola "Windows" sussurrata laggiu`  in  fondo?
+ Fa  piacere  vedere  che  c'e`  gente  dotata  di un forte senso dell'umorismo
+ oggidi`...
+
+ ciao,                                     .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+ ############                                                               ###
+ ###  11  ###                                SOUND BLASTER 17 BIT FOR MOUSE ###
+ ############                                                  Andrea Bosio ###
+
+ Riassunto:
+        Uno stordito - come  cita  anche  il  buon  PierLuca - mi ha contattato
+       vaneggiando.  Dato il  mio  buon  cuore  non  ho  potuto  astenermi  dal
+       pubblicarlo.   Anche se consiglio vivamente i deboli di cuore di passare
+       all'articolo segg.  :)
+
+        Comunque cosi' ha osato apostrofare la direzione di Telem:
+
+ AB> Non  si potrebbe creare un angolo particolarmente deficiente nella  e-zine
+     oppure siete tutti gente impegnata? [NdE: impiegata?]
+
+ RR> La cosa mi piacerebbe  molto,ma  non  ho  tempo  per curarlo.Se la cosa ti
+     piace, se vuoi curarla, o ti senti addirittura in grado di fare un inserto
+     (magari ogni 2 mesi) o insomma vuoi scuoterci un po' ...beh  fatti  avanti
+     bello.
+
+ Non ho potuto che seguirti alla lettera! :)
+
+ La "cosa" che ho scritto qua sotto dovrebbe essere un tentativo di umorismo.
+
+  Mi piacerebbe che venisse pubblicata  su  Telematicus,  ma se la ritenete una
+ cazzata emerita, vi rifiutate di abbassarvi a un livello culturale tale, siete
+ dei bastardi dispotici che in realta' non pubblicano assolutamente  niente  di
+ quello  che  i  vostri  lettori scrivono :)), io non mi offendero'.  [NdE: noi
+ neppure :)]
+
+  Per cui se non vi piace, evitate  pure di pubblicarla, ma quando Smemoranda o
+ Comix mi pagheranno 6 milioni a riga non venite a piangere da me :))).
+
+  Se invece il vostro buon cuore decide di pubblicarlo vi  saro'  infinitamente
+ grato,  sarete i miei nuovi idoli in senso assoluto e vi carichero' di cazzate
+ simili tanto da intasare le  aree  matrix  (maledizione  del net :-)) ). [NdE:
+ preferirei un invito a cena con tua sorella :)]
+
+  Se  volete  censurare  qualcosa  fate  pure,  e  se  trovate   degli   erroro
+ correggeteli pure.
+
+    Mi inchino a vossignoria illustrissima,
+       ---
+        |
+        | orello
+
+    [NdE: questo ti ha salvato.]
+
+ ------------------------------------------------------------------------------
+
+                        SOUND BLASTER 17 BIT FOR MOUSE
+
+  Questo  mio  progetto  si e' concretizzato a causa di esigenze personali, che
+ anche molti di voi hanno, ma che non osano esternare.
+
+  Io avevo bisogno di una scheda sonora  da  usare per stimolare i topi del mio
+ palazzo ad attaccare il vicino di pianerottolo, non normalmente come ormai  li
+ avevo  addestrati,  ma  suonando  il campanello 2 volte, alzandosi sulle zampe
+ anteriori e scorreggiandogli in faccia per 24  ore di seguito.  E' noto che le
+ scorregge dei topi non puzzano affatto, pero' dopo 24 ore  voglio  vedere  chi
+ non crolla.
+
+  I  vantaggi della stimolazione stavano nel fatto che cosi' il topo suonava il
+ campanello 2 volte e non solo 1 come era abituato.
+
+ E' chiaro che gli  stimoli  non  si  potevano campionare normalmente.  Infatti
+ questi consistevano in un remix tra:
+
+ - gemiti di bradipo nano a pelo lungo frustato, scuoiato e incaprettato da  un
+   sigulibini con il pelo bianco e verde entrambi incazzatissimi
+
+ -  segnale  di occupato del telefono quando si cerca di chiamare una bbs da 45
+   minuti (con sottofondo di bestemmioni di utente)
+
+ - rumore di hard disk da 1,2  giga pieno di cose irrecuperabili trafitto da un
+   jack in oro massiccio per collegare l' hi-fi alla scheda sonora (se no e' un
+   po' disturbato)
+
+ - Marco Masini live in concert
+
+  Capite benissimo che ogni volta che il vicino rompe,  non  posso  fare  tutto
+ questo,  rubare  gli hard disk e' rischioso...  il singulibini si stanca...  ,
+ 10 o 20 volte va bene ma poi basta.
+
+  Ma anche campionare con una scheda sonora normale tutto questo e' impossibile
+ (gia' campionare Masini e' quasi impossibile..   quando va bene il computer si
+ impalla, quando va male arriva la GdF a casa e  vi  sequestra  vostra  madre).
+ Cosi' ho deciso di costruire questa scheda, che definire solo scheda sonora mi
+ sembra  poco:  piuttosto e' la sintesi tra un m12abram, una scheda AWE32 e una
+ scatoletta di tonno andata a male da 2 anni.
+
+  La scheda come base non e' il normale foglio di plastica verde, ma una lastra
+ di diamante sintetico dello  spessore  di  25  cm; ogni chip, ogni resistenza,
+ ogni diodo ha una corazza di acciaio spessa dai 12 ai 28 cm, tutto questo solo
+ per Masini.
+
+  Le caratteristica principale e' che riesce a campionare a 17  bit,  cosa  che
+ fino  a  ieri  sembrava  impossibile  e  inutile,  ma  che invece e' servito a
+ convincere il computer  che  la  superstizione  e'  fantasia  e che toccarsi i
+ coprocessori mentre si ascolta Masini non serve (ma serve, uuuu  se  serve..).
+ Inoltre i campionamenti vengono salvati nel particolarissimo formato .caz, che
+ e'  l' acronimo di "cazz che palle sto vicino 'e mierda".  (censurabile) [NdE:
+ censurato]
+
+  Il software, indispensabile per utilizzare  al meglio la scheda, abbisogna di
+ ben 56 Mb sul vostro Hard disk  di  cui  55.8  del  campionamento  e  0.2  del
+ programma  per suonare i file .caz.  La cosa piu' interessante e' che il tutto
+ compattato con qualunque compattatore non occupa piu' di 8kb, e qui si vede l'
+ abilita' del programmatore di  occupare  cosi'  tanto  spazio per una stro....
+ una stupenda utility com'e' quella che gestisce la Sound Sblaster 17  bit  for
+ Mouse.
+
+  L'  utilita'  di  questa simpatica scheda e' indubbia.  Non potrete capire la
+ gioia di eliminare il vicino  con  questo  simpatico espediente finche' non lo
+ proverete.  Inoltre mi e' stato assicurato che in futuro  ci  saranno  upgrade
+ (prevalentemente   software)  che  consentiranno  di  sfruttare  non  solo  le
+ potenzialita' del vostro  topo,  ma  anche  del  piccione scagazzone, il pesce
+ rosso piscione, la cimice assassina....  Non so voi, ma io non vedo l' ora...
+
+
+ Alla prossima cazzata,
+
+                                                                  Cavallo Pazzo
+                                                                  Torello
+                                                                  Andrea Bosio
+                                                                  (2:334/100)
+
+
+
+
+
+
+ ############                                                               ###
+ ###  12  ###                                                         MDIFF ###
+ ############                                               Maurizio Giunti ###
+
+ Riassunto:
+        Sono mortificato.  Non ho  attenuanti  ne'  scuse:  quest'articolao  e'
+       rimasto  sepolto  nel  mare di cazzate del mio HD per almeno...  6 mesi!
+       ed il povero Giunti non si e'  neppure sognato di chiedermi come mai non
+       glielo pubblicavo.  Ecco cosa mi ha detto inviandomi la nuova release:
+
+  Se non ricordo male ti avevo gia'  inviato  un  articoletto  che  parlava  di
+ mdiff,  un  mio  piccolo  programma shareware che serve a produrre e applicare
+ patch, ma dato che non l'ho  visto  sui  numeri di Telematicus in mio possesso
+ (0-41) approfitto per aggiornarlo e rinviartelo:
+
+        Porgo le mie piu' sentite e totali scuse.  (Ora  .mau.   mi  dira'  che
+       sono il solito casinista :( ...)
+
+ ------------------------------------------------------------------------------
+
+                                   * MDIFF *
+ Un pacchetto software per produrre e applicare patch, per Dos, OS/2 e Windows.
+
+
+ 1. Che cos'e' MDIFF
+
+
+  A tutti i programmatori sara' capitato di accorgersi, subito dopo il rilascio
+ dell'ultima  release  di  un  loro  programma,  di  un bug, magari piccolo, ma
+ certamente fastidioso.  A me e' capitato piu' di una volta!
+
+  Che fare?  Per un solo bug non vale  la pena di fare una nuova release, pero'
+ gli utenti si lamentano insistentemente...l'unica soluzione e' fare una patch!
+
+  Una patch e' un  file  che  contiene  i  dati  necessari  per  aggiornare  un
+ programma  (o  un  qualunque  file), cioe' per passare da un eseguibile di una
+ versione precedente a  quello  della  versione  attuale.  Quando i cambiamenti
+ apportati non sono molti il file di patch risulta molto piu' piccolo del  file
+ originale e quindi e' piu' conveniente da distribuire, soprattutto via modem.
+
+  MDIFF e' un completo pacchetto shareware che fornisce tutto il necessario per
+ creare e poi applicare una patch.
+
+
+ 2. Versione Dos e OS/2
+
+
+  Ho  progettato e realizzato MDIFF principalmente per un motivo: non conoscevo
+ (e a tutt'oggi non conosco)  alcun  pacchetto shareware per creare e applicare
+ patch che funzioni sia sotto Dos che sotto OS/2 2.xx.
+
+  Nel pacchetto di distribuzione di MDIFF  oltre  ad  un  breve  ma  esauriente
+ manuale  (sia  in inglese che in italiano) si trovano gli eseguibili per Dos e
+ OS/2; e' importante osservare che  una  patch  prodotta con MDIFF per Dos puo'
+ essere applicata con MPATCH per OS/2 e viceversa.
+
+
+ 3. Condizioni di distribuzione
+
+
+  Uno dei punti deboli  classici  dei  programmi  che  producono  patch  e'  la
+ mancanza  di  chiare  condizioni  d'uso  soprattutto  per  quanto  riguarda la
+ diffusione  delle  patch;  per  quanto  riguarda  MDIFF  tali  condizioni sono
+ semplici: i files di patch possono essere liberamente distribuiti,  mentre  il
+ software  per  applicarle puo' essere distribuito solo insieme a file di patch
+ creati con versioni registrate.
+
+  Insomma gli utenti registrati  possono  liberamente distribuire, insieme alle
+ loro patch, anche il programma per  applicarle,  senza  alcuna  restrizione  o
+ royalty.
+
+
+ 4. Librerie per costruirsi i propri patcher
+
+
+  Un'altra  caratteristica  interessante  di  MDIFF  e' costituita da un set di
+ librerie che permettono a chi programma in C, C++ o VisualBasic e ha una copia
+ registrata di  MDIFF,  di  creare  i  propri  programmi  per  applicare patch.
+ Naturalmente le librerie sono accompagnate da sorgenti di esempio (C, C++  per
+ Dos e OS/2, e VisualBasic per Windows) e adeguata documentazione.
+
+
+ 5.  Ultima release e reperibilita' dell'autore
+
+
+  L'ultima  release di MDIFF attualmente in circolazione e' la 1.22, reperibile
+ nelle aree echo files Fidonet ISN,  SDS e FernWood, col nome mdf122.zip oppure
+ mdf122.arj.
+
+ L'autore e' facilmente contattabile ai seguenti indirizzi:
+
+   Fidonet:        Maurizio Giunti (2:332/102.3)
+   Internet:       giunti@stat.ds.unifi.it
+
+ oppure direttamente al BBS di supporto di MDIFF:
+
+   Mech-Link (2:332/102@fidonet.org)
+   Tel. +39-55-5001617
+
+
+
+
+
+                                                          Maurizio "MEG" Giunti
+                                                          2:332/102.3
+
+
+
+
+
+ ############                                                               ###
+ ###  13  ###                                                BIBLIOGRAFIA   ###
+ ############                                                La direzione   ###
+
+ Riassunto:
+        Abbiamo deciso di inserire un articolao permanente  sulle  riviste  che
+       potreste trovare in giro per consultazione.
+
+        Contiamo  sul solito prezioso aiuto dei lettori per tenere aggiornata e
+       quanto piu' interessante possibile la lista.
+
+        :)
+
+ ------------------------------------------------------------------------------
+
+             ** *    Per maggior cultura sono consigliati    * **
+                            (In ordine alfabetico)
+
+                                    DECODER
+
+  Mensile italiano, reperibile solo in libreria.  Il  numero  9  della  rivista
+ underground  di  DECODER  e' imperniato sul tema del FidoCrackDown.  Molto ben
+ fatto e esauriente.  Sempre interessante sentire altre campane!  Consigliato.
+
+  Tra l'altro la Shake edizioni ha appena presentato un  libro:  No  Copyright.
+ Avendo inviato il solito inviato  speciale (Artore Londona) alla presentazione
+ nel prox number ci saranno ulteriori ragguagli.
+
+                                INTERNAZIONALE
+
+  Settimanale   italiano   (esce   il   sabato).   Traduce  gli  articoli  piu'
+ interessanti apparsi nei giornali esteri.  Sensibile agli avvenimenti/sviluppi
+ tecnologici oltreche' politici/economici e di costume.  Ha pubblicato parecchi
+ servizi su Internet  (solitamente  fonte  Wired)  e  tiene  una rubrica in cui
+ vengono segnalati siti importanti o l'uso (molto in breve) di servizi Internet
+ quali Gopher, FTP, Finger etc. etc.
+
+ Editore  : Internazionale s.r.l.
+ Direttore: Giovanni De Mauro
+ Telefono : (06) 43 94 971
+ Telefax  : (06) 43 94 969
+ E-MAIL   : r.internazionale@agora.stm.it
+
+                                  N E U R A L
+
+ NEURAL: realta' virtuali, network, media, suoni futuri, fantascienza, UFO
+         redazione    : via Giustino Fortunato 8/N - 70125 Bari
+         e-mail       : a.ludovico@agora.stm.it
+
+  All'inizio reperibile solo in libreria,  ha  appena  tentato  la  strada  del
+ giornalaio.  Auguri!
+
+                                   W I R E D
+
+  Stati  Uniti  [1991].   Mensile di tendenza del mondo delle nuove tecnologie.
+ Si autodefinisce lo  "house-organ  della  rivoluzione  digitale".  Ha avuto un
+ *colossale* successo ed e' attualmente considerato come  la  piu'  prestigiosa
+ rivista del settore.  [NdE: Fonte, Internazionale].
+
+
+
+
+
+
+
+
+ ############ NOTIZIE FIDONET REGION 33                                     ###
+ ###  14  ###                                                          NEWS ###
+ ############                                                          AAVV ###
+
+                                *** NET 331 ***
+
+ From : Vertigo [NdE: viva il *mitico* Vert!!]
+
+  ...  Per quanto attiene a  Fido  (non  al  crackdown), ho appena ultimato una
+ nuova revisione dell'addendum della region 33  alla  policy.   E'  gia'  stato
+ sottoposto  ed  approvato  dai  coordinatori  di  net, tra poco verra' postato
+ pubblicamente e votato dai sysop, come da prassi.
+
+                                *** NET 332 ***
+
+  Ragazz, devo mettermi d'accordo a creare un minimo di DTP in  questo  casino,
+ altrimenti  non  si  capisce  piu' quando parlano gli altri, io o...  boh.  Ma
+ questo chi e'?
+
+  Comunque prima cedo lo sproloquio al  buon Lopes e poi lascero' che sproloqui
+ per un po' il buon Orsini - tutti i matrix che ti mando  mi  tornano  indietro
+ con  *indirizzo  sconosciuto*  ma  che  succed?   - hem, che presenta un nuovo
+ virgulto! Gianugo Rabellino.
+
+  In realta' avrei dovuto farlo  gia'  il  number precedente, ma era strapieno;
+ anche questo e' strapieno, ma non vorrei che finisse come per MDIFF  e  quindi
+ al  max  non fungera' RT che non legge oltre le 99 pagine ...  :) (Se ci fosse
+ un compliatore C che occupasse solo qualche mega!)
+
+ ..............................................................................
+
+ RR>  A pro', ci sono novita', news etc. etc. ?
+
+ Eccole le nuove del mese:
+ (1) Mario Mure` e` stato confermato  NC.   Non si sono svolte elezioni perche`
+     era l'unico candidato.
+ (2) Aperta l'area ARMI.332 con moderatore Davide Rolando
+ (3) Aperta l'area MISTERI.332
+ (4) A partire dal 1/10/94 l'hub 100 ha scollegato le aree LUI_LEI.ITA e
+     CHATTER.332 in segno di protesta verso moderatori latitanti che nulla
+     facevano per bloccare insulti verso sysop e utenti dell'hub
+ (5) Due nuovi hub sono stati aperti: l'hub 600 (Pisa e Livorno) e` stato
+     splittato (gia` a settembre in realta`), creando l'hub 700 per la zona
+     di Livorno. L'hub 500 (nord-ovest dell'Emilia)e` stato splittato creando
+     l'hub 800: nel 500 e` rimasta la provincia di Modena; mentre nell'800 sono
+     confluite le altre province con Parma in testa.
+
+ Ciao Ciao!                                                        ___
+                                                                  /  _
+                                                                 <___/ iovanni
+                                                                  2:332/114.2
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ *  From : Gianugo Rabellino AKA 2:332/232 at 11:18 of Venere 29 Luglio
+ ...
+ From: gianugo@nemorino.com.dist.unige.it (Gianugo Rabellino)
+ ...
+ Reply-To: gianugo@nemorino.UUCP (Gianugo Rabellino)
+ [NdE: Watz! come ha fatto a non perdersi questo msg!]
+
+ Ciao a tutti!
+
+ Finalmente riesco a trovare un  attimo  per  presentarmi  a chi non mi conosce
+ ancora e a chi mi conosce solo come point di AHB.
+
+ Il nome lo leggete nel from, ho 25 anni e sono (da un po' troppo tempo a  dire
+ il  vero...)  laureando in giurisprudenza.  Bazzico Fidonet da quasi due anni,
+ con  la  solita  trafila  user  =>  point  che  mi  ha  portato  ad  avere una
+ esagerazione di aka...sono infatti anche un patito  degli  alternet  (tra  gli
+ altri  ho  LinuxNet  e il Net10...se interessano...).  Al momento sono nodo in
+ prova (terrorizzato  e  paralizzato  quanto  basta  dalla  paura  di combinare
+ qualche strano casino...).
+
+ Ora come ora mi interesso in modo particolare a Linux e ad Internet, e il  mio
+ passaggio  a  nodo  e'  dovuto  anche  al  fatto  che  ci  sarebbe un progetto
+ interessante di scambio dati Fido  =>  Internet  gestito da un ricercatore del
+ DIST di Genova, coadiuvato dal sottoscritto e da un paio di altre persone.   A
+ medio  termine  si  *dovrebbe*  poter  cominciare  a  parlare  di gateway...ma
+ ovviamente tutta questa faccenda verra'  preventivamente discussa nelle sedi e
+ nei tempi piu' opportuni.
+
+ Sto poi aspettando in sostituzione  del  mio  Supra  (bel  giocattolo,  ma  al
+ mattino  mi  ci  faccio  il  caffe'  sullo  chassis  da quanto e' caldo...) un
+ Breand...non mi fido  molto  di  Brecevich  &  Co.   ma  ho  deciso di provare
+ comunque (visto che con i soldi della vendita del  Supra  me  lo  sono  pagato
+ tutto il Breand ;-))).  Vratogna preparati!  ;-)
+
+ La  mia  non  e' una vera e propria BBS ma un sistema Unix con possibilita' di
+ login anonimo (guest), chi mi viene  a trovare si trova, dopo il questionario,
+ davanti a un prompt...pero' se conosce Unix ha davanti a se' possibilita'  ben
+ maggiori  di qualsiasi BBS.  Non ho intenzione di installare il classico SW di
+ BBS, almeno nel breve-medio termine: qui  a  Savona c'e' gia' Davide che ne ha
+ una egregia, nonche' Andrea Bodrati e un tre-quattro altri sysop non Fido.  Mi
+ sembra inutile quindi percorrere sentieri gia' battuti...
+
+ Grazie a Linux, inoltre, ho la possibilita' di avere una sola base messaggi  e
+ condividerla  tra  piu' standard: cosi' per esempio al momento (su altre reti)
+ ho  downlinks  che  sono  o  points  stile  fido  o  in  UUCP...questa  enorme
+ flessibilita' purtroppo e' compensata  da  alcune  carenze  nel SW di gestione
+ della parte fido: per esempio non posso dirgli quale aka usare  nelle  singole
+ aree...lui  guarda al dominio fidonet e si cucca il primo che va bene, per cui
+ per  scrivere  qui  con  l'aka  in  prova  ho  dovuto  cambiare  a  manina  la
+ configurazione.  Vabbe', i  problemi  spariranno con l'assegnazione definitiva
+ del nodo o con la mia  bocciatura...(inutile  dire  che  confido  nella  prima
+ ipotesi..;)).
+
+ Ah, prima che mi dimentichi: ho la possibilita' di accedere a Internet in TUT:
+ se  a  qualcuno  servisse  prelevare  files  da  qualche sito FTP, non ci sono
+ problemi!
+
+ Beh, direi che  per  la  prima  presentazione  ce  n'e' abbastanza...attendo i
+ vostri ACK e me ne ritorno a configurare inn per mandare le news di LinuxNet a
+ dist2.dist.unige.it (eh si'...Linuxnet il gateway ce l'ha gia'...sara' perche'
+ sono NC ?  ;))...  a presto!
+
+ --
+ Adios!
+
+ > Gianugo             *>50:101/101@linuxnet<*       -=[Team OS/2]=-
+
+             e-mail to nemorino@nemorino.com.dist.unige.it
+
+ ==============================================================================
+
+ OsseCui Renato!
+
+ Questa parmi una buona nuova.
+
+                                      ---
+
+ From : Roberto Orsini                      2:332/403.74    08 Oct 94  02:01:16
+ *  From : Marcello Ardini AKA 2:332/418.1 at 06:23 of Mercole 05 Ottobre
+
+  Sentito Vertigo, il quale non ritiene opportuna votazione nel caso di un solo
+ candidato, dichiaro Mario Mure'  come  NC  332 essendo l'unico candidatosi nei
+ tempi prescritti.
+
+  Tempo massimo per l'eventuale inoltro reclami le 24.00 del  13/10/1994  (data
+ ed ora sono da intendersi di arrivo su 332/418).
+
+ Ciao.
+                                      ---
+
+ OsseCui Renato!
+
+  Dopo  una campagna elettorale di dimensioni storiche ed una lunga e laboriosa
+ votazione, come puoi vedere, abbiamo trovato un "nuovo" NC332.  :-)
+
+  [NdE: :)]
+                                      ---
+
+ From : Roberto Orsini                      2:332/403.74    09 Oct 94 23:43:24
+
+ OsseCui Renato!
+
+  Una cosa che mi pare di aver  dimenticato di scriverti: il net 332 da qualche
+ mese ha un nuovo HUB, l'800, che comprende i nodi di Parma e Piacenza.
+
+ Attualmente ne conta 4 e l'HC e` Graziano Silvani.
+
+ [NdE: Hyeahhh! sempre piu' grossi! sempre di piu']
+
+                                                                  |'!Chao!_
+                                                                  |__ OrsO/
+                                                                         /
+                                                                  2:332/403.74
+
+                                *** NET 333 ***
+
+                             NESSUNA SEGNALAZIONE
+
+                                *** NET 334 ***
+
+ [NdE:  nessuna nuova!  comunque permettetemi di riportare questo matrix in cui
+       si delinea chiaramente la figura  di un uomo tuttodunpezzo; votato anima
+       e corpo all'Amiga!]
+
+  From : Angelo Verdone
+
+  RR>        indovina: devo venirti a trovare un giorno!
+
+ boccaccia mia state zitta !! :-))))
+
+  RR>        Ma la commodore chi se l'e' cattata?
+
+ Io no, e non so nulla di nula perche' me ne frego nulla perche' sono una massa
+ di stronzi.
+
+  RR>        Non farti *mai* sentire (neppure per lo SMAU).
+
+ Non ci sono andato a vedere la Sagra del Cessi-Dos
+
+  RR>        Una di queste sere ti telefono.
+
+ Della serie camapa cavallo che l'erba cresce :-)
+
+  RR> ci sono NEWS?
+
+ Niente di rilevante per ora, almeno fino a che ...
+ [NdE: ebbene si! ve ne state con la curiosita']
+
+  Ciao,
+                                                                 Angelo Verdone
+                                                                 2:334/21
+
+                                *** NET 335 ***
+
+ RR>         Per il resto? ci sono novita'?
+
+  ...  approfitto  per  informarti  che  nel  Net  335  si  stanno svolgendo le
+ elezioni per il rinnovo del NEC.
+
+  Il precedente ottimo coordinatore (Luigi Trovato) ha dovuto infatti  lasciare
+ il proprio incarico per andare a servire la patria (sic!) col fucile in mano.
+
+  Cosi'  il  nostro  Nc  Gaetano  Ble' ha indetto le votazioni che hanno visto,
+ quali candidati, la proposizione di  due nomi ugualmente apprezzati e stimati:
+ Aris Ferrara e Felice Murolo.
+
+  La scelta sara' davvero difficile perche', come detto,  si  tratta  di  sysop
+ ugualmente benvoluti...  ma certamente la votazione (che si concludera' sabato
+ 5 novembre) esprimera' al meglio l'intenzione del net.
+
+ Ciao,
+                                                                   Enrico
+                                                                   2:335/212.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ******************************************************************************
+
+             Telematicus e' formattato a 80 caratteri su 22 righe.
+
+ ******************************************************************************
+
+ Il number di TELEMATICUS stato corretto con:
+
+ Spellita v1.1 di Marco Minardi (2:332/402.32.  Via G. Battisti 8 47100 Forli')
+ (versione registrata)
+
+ e redatto con :
+
+ BOXER 6.0 per DOS di Boxer Software (Po Box 3230. Peterborough - NH 03458)
+
+ ******************************************************************************
+
+
+
+
+
+
+               TELEMATICUS SI PUO' TROVARE IN TUTTI I NODI I.S.N.
+                          (Italian Shareware Network)
+
+ Assieme alla  rivista  ho  inserito  ISN-NODE.*,  la  lista  di  tutte  le BBS
+ appartenenti ad ISN.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ####                            End of TELEM043                           ####

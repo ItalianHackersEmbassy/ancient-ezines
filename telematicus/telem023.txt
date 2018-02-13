@@ -1,0 +1,1079 @@
+ #### TELEM023 - Telematicus - Volume 02 - Numero 11 - Anno 1992 - 49 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                Novembre 1992                              
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di .mau.
+
+ ==============================================================================
+
+ Il materiale presente in Telematicus e` (C) dei singoli autori.   
+ E` espressamente consentita la distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 49 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .   .  pag.  4
+ [ 2]  Il software italiano: Gimme-A-Point, di Roberto Piola .   .   .  pag.  6
+ [ 3]  Aree echo Fidonet: Peacelink  .   .   .   .   .   .   .   .   .  pag. 10
+ [ 4]  Vota il tuo BBS, di Pietro Budicin    .   .   .   .   .   .   .  pag. 14
+ [ 5]  Punto di vista: frattali frattali, di Antonella Erriu .   .   .  pag. 18
+ [ 6]  Review: MANMOD-1, di Frank Stajano    .   .   .   .   .   .   .  pag. 21
+ [ 7]  Vivamiga, di Renato Rolando   .   .   .   .   .   .   .   .   .  pag. 23
+ [ 8]  Curiosita`: Il gergo hacker - parte 19    .   .   .   .   .   .  pag. 32
+ [ 9]  Notizie Fidonet region 33     .   .   .   .   .   .   .   .   .  pag. 44
+
+
+
+
+
+
+
+
+
+
+
+                  Questo Telematicus e` nato con l'aiuto di...
+
+ Editor danensis:       Maurizio Codogno | * I collaboratori dai network: *
+ Editor pacificus: Alessandro Marescotti |
+ Editor redivivus:         Roberto Piola |              
+ Editor eligitor:         Pietro Budicin | Giovanni Lopes (332/108.2)
+ Editor manualista:        Frank Stajano | Pietro Budicin (333/603)
+ Editor ex-amigo:         Renato Rolando | Giovanni Pugliese (335/211)
+ Editrix incognita:      Antonella Erriu |
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                               ###
+
+      Carissimi lettori,
+ reduce da una di quelle famigerate trasferte di lavoro che ti mandano in  giro
+ per l'Europa in posti che magari ti verrebbe la voglia di visitare e contempo-
+ raneamente  ti costringono a lavorare per tutto il tempo - con l'aggiunta  del
+ capo insieme a voi che vi toglie anche l'eventuale possibilita` di fare  finta
+ di  niente e prendervi una giornata di vacanza - eccomi qua col numero  novem-
+ brino di telematicus.
+
+      Cosa potete trovare di nuovo, a parte le solite rubriche? (Ma date almeno
+ un'occhiata  a Vivamiga, mi raccomando!) Beh, l'ineffabile Piola e` tornato  a
+ occupare  qualche schermata, per merito di Frank Stajano (filologo  disneyano)
+ c'e`  la  possibilita`  di  fare  un salto  di  qualita`  avendo  persino  una
+ recensione libraria (beh, il suo manuale e` elettronico, ma noi siamo  persone
+ dalla  mente  elastica)  e avete la possibilita` di partecipare  a  un  mitico
+ concorso  gestito  dal  profondo  nord-est dell'Italia  [nota:  prima  che  le
+ polemiche  gia`  apparse  nelle aree di servizio Fidonet  coinvolgano  la  mia
+ miserrima persona, tengo a sottolineare che come al solito telematicus fa solo
+ da tramite e non prende posizione sulle iniziative che ospita).
+
+      E  chissa`  che  per  Natale qualcuno non si senta  piu`  buono  e  mandi
+ qualche `pezzo' per la pubblicazione...
+
+      ciaociao .mau.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   2  ###                                         IL SOFTWARE ITALIANO  ###
+ ############                                                               ###
+
+                          Gimme-a-Point III
+                          =================
+
+      Salve,  ritorno a scrivere per Telematicus, dietro insistenza del  nostro
+ amato redattore capo .mau., per presentare la terza release di  Gimme-a-Point,
+ uploadata giusto l'altro ieri. [NdE: oramai sono passate delle settimane... il
+ nostro non ha pensato che telematicus esce all'inizio del mese]
+
+
+           Che cosa e' Gimme-a-Point?
+           --------------------------
+
+      Gimme-a-Point e' un pacchetto che contiene tutto quello che serve per in-
+ stallare un point, tranne un compattatore/scompattatore (ma si presume che  ce
+ lo  abbiate gia', altrimenti non riuscireste a tirare il mio  pacchetto  fuori
+ dal  suo archivio). E' presente inoltre un programma di installazione  guidata
+ (e  bilingue), per cui basta digitare INSTALL, rispondere ad  alcune  semplici
+ domande (es.: come ti chiami, a che porta hai collegato il modem, eccetera) et
+ voila'... il point e' installato. Dimenticavo di dire che dovete prima metter-
+ vi d'accordo con il vostro futuro boss...
+
+
+           Che cosa aveva di particolare la vecchia versione?
+           --------------------------------------------------
+
+      Per  chi  non avesse letto il mio precedente articolo  (vergogna  :-)  ),
+ riassumero'  le peculiarita' del pacchetto. E' basato sul gruppo di  programmi
+ Binkley / PipBase / PipReply / Bnu; ciascuno di essi e' stato preferito ad al-
+ tri concorrenti per le sue caratteristiche: Binkley perche' e' piccolo (al mo-
+ mento  mi sta prendendo la posta girando sotto DesqView in un task da 200  K),
+ maneggevole e con la chicca di Janus (protocollo per lo scambio di files bidi-
+ rezionale);  PipBase e PipReply perche' sfruttano la base  messaggi  compressa
+ (PIP)  e vi fanno risparmiare un notevole spazio sul disco (inoltre,  c'e'  il
+ considerevole vantaggio che li ho fatti io e quindi i soldi delle registrazio-
+ ni pioveranno, spero, nelle mie tasche e non in quelle altrui); Bnu non  aveva
+ nulla di particolare, a parte il fatto che funzionava e non doveva essere  ca-
+ ricato come device driver (cioe' sino a quando non usate il point non vi occu-
+ pera' RAM).
+
+      Richieste di sistema: PC MS-DOS compatibile con almeno 350K di RAM libera
+ ed un mega di spazio sull'hard disk (se siete disposti a farvi l'installazione
+ manuale puo' anche girare su di un floppy da 1.2/1.44 Mb o su due da 720Kb, ma
+ l'hard disk e' MOLTO meglio).
+
+
+           Che cosa ha di particolare la nuova versione?
+           ---------------------------------------------
+
+      Per chi avesse gia' il point sotto PIP, Gimme-a-Point III e' una via mol-
+ to  comoda per effettuare l'upgrade (non c'e' bisogno di  reinstallare  alcun-
+ che':  basta riscompattare gli eseguibili). Le novita' rispetto  alla  vecchia
+ versione sono:
+
+ - risolti tutti (spero) i bugs che mi sono stati segnalati
+
+ - espansione degli alias: quando si scrive un messaggio ad un utente basta in-
+ serire  un  nomignolo (tipicamente breve) e premere F9 (non si  vede  che  uso
+ 4dos)... e ZZOT, comparira' il nome completo nel campo di input
+
+ - varie  opzioncine per configurare meglio l'export su file,  per  risparmiare
+ ancora qualche byte sui messaggi che vengono scritti ed altre sciocchezze  che
+ non mi ricordo
+
+
+           Dove lo si trova?
+           -----------------
+
+      Il file e' chiamato GIMMEPT3.ARJ: al momento l'ho uploadato su Lord Drake
+ BBS  (334/400), ma al momento della pubblicazione dovrebbe essere  distribuito
+ su ISN e SDS.
+
+
+ @    @
+              Forza che voglio vedervi tutti con le Pip-tearlines!
+ \____/
+
+                                                  by Roberto Piola, 2:334/400.7
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                            AREE ECHO FIDONET  ###
+ ############                                                               ###
+
+           PEACELINK e' diventata conferenza nazionale Fidonet
+           ===================================================
+
+      PEACELINK e' divetato collegamento telematico nazionale per la pace ed  i
+ diritti umani. Fino ad ora collegava diverse citta' da Roma a Palermo e opera-
+ va in parallelo con un collegamento "gemello" nato precedentemente in Toscana.
+ Rimanevano  fino  ad ora escluse le regioni alpine: adesso con  la  promozione
+ dell'area a PEACELINK.ITA si spera in un loro coinvolgimento.
+
+      Come ci si collega? Come in una qualunque area messaggi Fidonet.  Occorre
+ scegliere,  fra  le varie opzioni del BBS, quella che permette  l'accesso  al-
+ l'area dei MESSAGGI; bisogna poi scegliere, all'interno dell'area messaggi  la
+ conferenza  sulla pace, in genere indicata con la sigla PEACELINK.  Ovviamente
+ e`  improbabile  che si sia subito abilitati alla scrittura di  messaggi  nel-
+ l'area,  per cui puo` essere necessario lasciare un messaggio  indirizzato  al
+ SysOp...
+
+
+           Avvenimenti su PEACELINK
+           ------------------------
+
+      Gli utenti del collegamento telematico PEACELINK possono tenersi in  con-
+ tatto  con alcuni giornalisti di Avvenimenti, inviare informazioni  e  notizie
+ sfuggite  ai canali informativi "ufficiali", nonche' segnalare problemi e  si-
+ tuazioni  degne di attenzione. Riferimenti di Avvenimenti su PEACELINK sono  i
+ giornalisti Marco D'Auria e Gabriella Urbani.
+
+
+           Telematica per la pace in Italia
+           --------------------------------
+
+      PEACELINK sta effettuando un censimento sulle realta' telematiche per  la
+ pace ed i diritti umani in Italia e nel mondo. Chi fosse interessato a riceve-
+ re l'elenco o a segnalare nuove informazioni puo' scrivere a: PEACELINK,  c.p.
+ 2009, Taranto.
+      Le realta' censite - oltre a PEACELINK - sono fino ad ora queste:
+ - computer conference HUMAN.ITA (umanitaria, rete Fidonet);
+ - computer conference sulla pace (rete P-Net);
+ - CYBERNET (progetto di ricostituzione della rete Cyberpunk);
+ - IRENE.BBS (banca dati specializzata sulla pace, Livorno);
+ - SENZACONFINE BBS (banca dati contro il razzismo, Macerata);
+ - BTD (banca dati su handicap ed educazione alla solidarieta');
+ - Greenpeace, LOC e ASPE su Videotel;
+ - Agora' Telematica;
+ - circuito mondiale APC (PeaceNet, GreenNet, ecc.);
+ - progetto di banca dati del Centro Diritti Umani (Univ.Padova);
+ - indirizzi  di posta elettronica dell'USPID (Unione Scienziati Per Il  Disar-
+   mo).
+
+
+           PEACELINK: INFORMAZIONI, NOTIZIARI, BANCA DATI
+           ----------------------------------------------
+
+      PEACELINK dara' informazione su rete telematica di tutto cio' che riceve-
+ ra': inviate notiziari, annunci, messaggi. Inviare a PEACELINK, casella posta-
+ le 2009, 74100 Taranto.
+
+      PEACELINK  diffonde  anche  una banca dati sulla pace  con  centinaia  di
+ schermate  rintracciabili (e stampabili) con operazioni intuitive  (simili  al
+ Televideo) ed organizzate secondo la tecnica dell'ipertesto. Centinaia di  in-
+ dirizzi, numeri telefonici, nomi e fatti dell'arcipelago pacifista, indicazio-
+ ni storiche e culturali per una cultura della pace.
+
+      Il moderatore di PEACELINK e':
+ Alessandro Marescotti, indirizzo Fidonet 2:335/211.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                                    VOTA IL TUO BBS PREFERITO  ###
+ ############                                                               ###
+
+       * Che cos'e'
+
+ Una votazione per proclamare il BBS preferito in Italia.
+
+       * Chi puo' votare
+
+ Tutti gli utenti di BBS Fidonet.
+
+       * Quanti voti si possono dare
+
+ Un solo voto per utente una sola volta.
+
+       * Quali BBS si possono votare
+
+ Tutti i BBS Fidonet italiani possono essere votati.
+
+       * Che cosa si vince
+
+ Nulla.
+
+       * Quando si vota
+
+ Le votazioni si chiudono il 31 Dicembre 1992.
+
+       * Come votare
+
+ Inviare un messaggio MATRIX all'utente VOTABBS sul nodo 2:333/603 in  Fidonet.
+ Nel  Subject indicare il numero di nodo del BBS preferito nella forma completa
+ <Zona>:<Net>/<Node>. Il testo del messaggio deve contenere i dati del votante:
+ nella 1' riga NOME e COGNOME, nella 2' riga VIA e N.CIVICO, nella 3' riga  CAP
+ e CITTA', nella 4' riga PREFISSO e N.TELEFONICO a voce che deve  corrispondere
+ all'indirizzo di riga 2, nella 5' riga una parola chiave di 8 caratteri scelta
+ dal  votante che va ricordata per un eventuale controllo. I dati  del  votante
+ non  verranno diffusi, essi serviranno per verificare  l'attendibilita'  della
+ votazione.
+
+
+          Riassumendo:
+              =======================================
+              From: <VOTANTE>
+              To: VOTABBS, Fido Trieste 1 (2:333/603)
+              Subj: <numero nodo BBS preferito>
+              =======================================
+              <Nome> <Cognome>
+              <Via> <N.Civico>
+              <CAP> <CITTA>
+              <Pref>/<N.Telefonico>
+              <parola chiave di 8 caratteri>
+
+       * Verifica dell'attendibilita' del voto
+
+ Verranno effettuati dei controlli per verificare l'attendibilita' dei voti. Si
+ controllera' la corrispondenza dell'indirizzo dichiarato con quello del  tito-
+ lare del numero telefonico. In taluni casi il votante, contattato  telefonica-
+ mente, dovra' fornire la parola chiave di 8 caratteri inviata assieme al voto.
+
+       * Cosa succede ai furbi
+
+ Eventuali tentativi di frode nella votazione verranno segnalati  pubblicamente
+ e porteranno all'eliminazione del BBS dalla classifica.
+
+       * Esempio di voto
+
+          =======================================
+          From: Pinco Pallino
+          To: VOTABBS, Fido Trieste 1 (2:333/603)
+          Subj: 2:339/999
+          =======================================
+          Pinco Pallino
+          via Garibaldi 1
+          20100 Milano
+          02/23456789
+          QWERTYUI
+
+       * Cercasi programma per stilare la classifica
+
+ Se qualcuno e' in grado di realizzare un programma PD per leggere  automatica-
+ mente  questi messaggi in formato .MSG e stilare la classifica definitiva,  e'
+ invitato a contattarmi al piu' presto.
+
+                                                           Pietro Budicin
+                                                        2:333/603@fidonet
+                                                          BBS 040/3783111
+
+ ############                                                               ###
+ ###   5  ###                                               PUNTO DI VISTA  ###
+ ############                                                               ###
+
+                          Frattali, frattali.
+                          ===================
+
+      Molti  di voi (se non tutti) avranno incontrato piu' volte nella  lettura
+ di giornali specializzati, o anche solo come utenti di computer, la magica pa-
+ rola  "frattale".  Programmi come Fractint hanno affascinato  tantissimi  pro-
+ grammatori sia per la quantita' di colori utilizzati per la loro  rappresenta-
+ zione, sia per la forma frastagliata, interrotta (da cui: frattali) e in qual-
+ che  modo "priva di senso" ...  sia per il fatto esasperante che  quanto  piu'
+ uno cerchi di zoomare per capirne meglio la struttura microscopica o elementa-
+ re,  ritrovi  inesorabilmente la forma del disegno di partenza!  Non  solo.  I
+ frattali  vengono  fortemente utilizzati in programmi di  rappresentazione  di
+ paesaggi artificiali:  coste, monti, ...  ma perche'?  Negli ultimi numeri  di
+ MC sono stati pubblicati alcuni articoli interessanti in proposito che mi han-
+ no  portato ad approfondire le mie conoscenze in materia.  Lo scopo di  questa
+ dissertazione sull'argomento non e' tanto quello di fornirvi programmi o algo-
+ ritmi per disegnare di bizzarri e coloratissimi mondi frattali, quanto  quello
+ di farvi scoprire quanto sia piu' affascinante la teoria matematica (idee, mo-
+ dellizzazione, scoperte) della rappresentazione grafica che ne consegue.
+
+      I  frattali sono relativi a quelli che in Matematica sono noti come  "si-
+ stemi dinamici" e che studiano i processi in movimento:  turbolenze, variazio-
+ ni  delle popolazioni, moti di stelle, galassie o del cosmo intero.   Sono  il
+ "diagramma"  del comportamento di sistemi apparentemente "semplici",  ma  tali
+ per  cui piccole variazioni delle condizioni iniziali portano a  comportamenti
+ totalmente diversi e imprevedibili (chiedete a RRE!).  Tutto cio' viene  indi-
+ cato con la parola "caos".  Problema:  il nostro mondo e' governato dal caos o
+ dall'ordine?  E qual e' una sua modellizzazione matematica e una sua eventuale
+ rappresentazione  grafica?  Ovvero, ci si puo' chiedere se sia  piu'  corretto
+ pensare  se  noi viviamo in un mondo di quadrati, cerchi, triangoli e  in  cui
+ valgano i teoremi di Pitagora con i postulati di Euclide (che a forza ci hanno
+ fatto imparare alle scuole medie!!!), o quanto detto prima non sia un caso ra-
+ ro  e  particolare di una natura caotica e "impredicibile".  Queste  ed  altre
+ elucubrazioni mentali di alcuni matematici hanno portato alla elaborazione  di
+ una  complessa teoria.  L'Universo e' un frattale; la natura ha una  struttura
+ frattale;  noi stessi siamo frattali, gli alberi, i fiocchi di neve e la  loro
+ struttura cristallina.
+
+      Questi discorsi non vogliono stravolgervi la vita, ne' cambiare il vostro
+ mondo di geometrie elementari e di paesaggi naturali perfetti, ma e' giustifi-
+ cato  chiedersi quale relazione esista tra tutto questo e le curiose  e  ormai
+ diffuse applicazioni al computer.  Sapete cos'e' la "autosimiglianza"?  Pensa-
+ te  alle famose bamboline russe incastrate l'una dentro l'altra,  sempre  piu'
+ piccole, ma tra loro identiche.  Se volete, iterate il processo  all'infinito.
+ Pensate a cosa vedete al computer quando indagate con lo zoom sulla  struttura
+ di un disegno frattale.  Non a caso ho utilizzato il verbo "iterare".   Infat-
+ ti,  la struttura di autosimiglianza propria dei frattali e' giustificata  dal
+ procedimento  iterativo  con cui vengono a costituirsi... e gli  algoritmi  di
+ rappresentazione non possono essere altro che iterativi, dunque di facile  im-
+ plementazione!  E se questa e' la natura della natura, perche' non  sfruttarla
+ per le rappresentazioni al computer?
+
+      Dopo questo violento battesimo, provvedero' presto a fornirvi qualcosa di
+ piu' pratico.  Promesso!
+
+                                          AE
+
+      P.S.  A chi si fosse posto l'annoso problema sulle "intime" relazioni tra
+ me  e il "mito" RRE, coerentemente con quella che e' la mia natura  matematica
+ (rif.   numero di Agosto), lascio dimostrare la seguente  affermazione:   "RRE
+ sono io".
+
+ ############                                                               ###
+ ###   6  ###                                         REVIEW: MODMAN-1.LZH  ###
+ ############                                                               ###
+
+      Come  ho  gia`  detto nell'introduzione,  questo  numero  di  telematicus
+ contiene una vera e propria recensione di un libro, "Manuale Modem",  composto
+ da  Frank Stajano. Ecco la `quarta di copertina' del libro in  questione,  per
+ chi  avesse ancora dei dubbi sul fatto che i contenuti fossero  relativi  alla
+ cucina tailandese o al calcolo dei logaritmi:
+
+           Manuale Modem di Frank Stajano, prima
+           edizione (ottobre 1992). Un libro, gratuito
+           e in italiano, che illustra in dettaglio il
+           modem, le BBS amatoriali e la rete Fidonet.
+           Non tratta solo gli aspetti tecnici ma
+           anche la "cultura" del modem e le regole di
+           buon vicinato. Consigliato a tutti.
+           Con prefazione di Giorgio Rutigliano, il
+           pioniere che ha aperto il primo nodo
+           Fidonet in Italia.
+      Bene, il vostro editor di fiducia si e` letto tutto il manuale (sono  poi
+ 260K, una volta scompattato, e io sono un lettore veloce...) in modo da poter-
+ vi fare una bellissima non-recensione e costringervi ad uploadarlo anche voi.
+      Il testo e` diviso in partes tres come il De Bello Gallico: nelle tre se-
+ zioni  principali si parla dei collegamenti via modem, della BBS in  genere  -
+ notate  che Frank usa l'articolo femminile per BBS, una delle  questioni  piu`
+ dibattute penso nell'ambito della telematica amatoriale italiana - e della re-
+ te Fidonet. Visto che pero` da Cesare ad oggi sono passati piu` di duemila an-
+ ni,  ha  pensato bene di aggiungere alcune appendici, tra cui  l'elenco  delle
+ faccine e delle abbreviazioni tratte da telematicus :-) .
+      Lo stile di scrittura e` sempre scorrevole e spigliato, e le informazioni
+ che  si  possono trovare non servono semplicemente  all'utente  inesperto  che
+ magari  ha puppato il file perche` l'unico comando dei BBS che ha imparato  e`
+ quello di download, ma anche allo scafato che trova riunite all'interno  tante
+ informazioni che magari conosce piu` o meno ma non saprebbe mai dove  trovare:
+ si pensi ad esempio alle tariffe telefoniche...
+      Cosa potremmo chiedere per la versione 2.0 di Manuale Modem? Beh, a parte
+ la  citazione  tra  i protocolli di trasferimento di Kermit  :-)  non  sarebbe
+ affatto  male  la creazione di un indice analitico per  potere  recuperare  in
+ fretta  all'interno  del file i riferimenti interessanti. E poi  chissa`,  uno
+ hypertext  dei poveri come vh, che permette la lettura anche come file  ASCII,
+ non sarebbe male...
+                                                       .mau.
+
+ ############                                                               ###
+ ###   7  ###                                                     VIVAMIGA  ###
+ ############                                                               ###
+
+                          Il Crepuscolo Degli Dei
+                          =======================
+
+      Ok  (leggasi oc), l'altra volta abbiamo visto le strutture e le  funzioni
+ che permetterebbero di risolvere un po' di problemi; vediamo ora come  potreb-
+ bero  fungere  in pratica. Il tutto, lo ripeto, e' osservabile  nel  programma
+ Attach22.lha ormai gia' in giro; osservabile soprattutto perche' il  pacchetto
+ in questione contiene anche i sorgenti.
+
+      Il programma apre una window: all'interno abbiamo un gadget view per  mo-
+ strare  la lista di files che vogliamo spedire al nostro boss o chi per  esso.
+ Durante il settaggio delle preferences si apre inoltre una nuova wnd  (window,
+ non lo ripeto piu') con dentro un altro gadget view che mostra la lista  degli
+ screen attivi.
+
+      Prima di tutto bisogna definire una struct globale :) (Oh, questo e' mica
+ VERO OOP):
+
+ /* EXTERN */
+ extern struct ManageList*AtcManList, *ScrnManList;
+
+      Definiamo  insomma due struct: le routines ricevendole  si  dimostreranno
+ indipendenti  alle liste ed ai gadget che le usano.  AtcManList serve per  ge-
+ stire la lista dei file da spedire, mentre ScrnManList serve per mostrare  una
+ lista degli Schermi attivi su cui la finestra di Attach potra' venir aperta.
+
+      Poi ci sono chiaramente i puntatori alle due window:
+
+ struct Window*AtcWnd = NULL, *ListWnd = NULL;
+
+      ed i puntatori alla lista dei gadget delle due wnd ed al view gadget, che
+ dovra' poi essere inserito nelle ManageList:
+
+ struct Gadget*AtcGad = NULL, *ListGad = NULL;
+ struct Gadget*ViewGad, *ListViewGad;
+
+ piu' altre cosette secondarie...
+
+      Ora apro la mia wnd:
+
+ struct Window *OpenTAGWnd(VOID)
+ {
+ //cerco lo Screen;
+ //inizializzo font;
+ //inizializzo Visual Information;
+ //etc.
+
+ //Apro la mia wnd
+ AtcWnd = OpenWindowTags( NULL,
+ WA_AutoAdjust, TRUE,
+ ...
+ TAG_END
+ );
+
+      Comincio  ora a costruire la mia ManageList. A questo punto  potrei  gia'
+ passare il puntatore alla Window, ma preferisco farlo dopo per non avere  cose
+ a meta'. Dovrebbe essere comunque lo stesso.
+
+ if(!(AtcManList = BuildList(NULL, NULL)))
+ return (FALSE);
+
+ //Creo ora la lista dei gadget
+ if(!(AtcGad = CreateAtcGadg(...)))
+ return (FALSE);
+
+      Inserisco ora i puntatori nella mia lista. La lista e' pronta per  essere
+ utilizzata.
+
+ AtcManList->Window = AtcWnd;
+ AtcManList->Gadget = ViewGad;
+
+ //Visualizzo il tutto
+ AddGList(AtcWnd, AtcGad, (UWORD)~0, -1, NULL);
+ RefreshGList(AtcGad, AtcWnd, NULL, -1);
+ GT_RefreshWindow(AtcWnd, NULL);
+ }
+
+ Lo stesso faro' con l'altra lista.
+
+
+ Ora che la lista e' creata, come faccio ad utilizzarla ? Semplice, ecco  degli
+ esempi; intanto uno interessante.
+
+      Ho  salvato  nelle mie preferences - anche qui una struttura  che  verra'
+ salvata  su file - il nome del mio Screen su cui voglio che appaia la  wnd  di
+ Attach.  Se ora lancio attach e decido di cambiare Screen, sarebbe  bello  che
+ nella  lista degli screen il nome dello screen che uso ora  fosse  evidenziato
+ nell'apposito riquadro. Come fare ?
+
+ /* Select what item display */
+ GT_SetGadgetAttrs(ScrnManList->Gadget, ScrnManList->Window, NULL,
+ GTLV_Selected, WhatNumberName(ScrnManList, AtcPrefs.Scrn),
+ TAG_DONE);
+
+      WhatNumberName()  riporta proprio il numero dell'item che corrisponde  al
+ nome  cercato, altrimenti ~0, che e' il valore richiesto da GTLV_Selected  per
+ non  visualizzare nulla. Chiaramente oltre a questa procedura c'e' gia'  anche
+ l'inverso, ovvero ritorna il numero data la $. Eccole qui:
+
+ UWORD WhatNumberName(struct ManageList *MyManList, char *name)
+ /************************************************************************
+  Return the number of a item's name in the list.
+  CASE SENSITIVE
+  If not found : ~0
+ *************************************************************************/
+ {
+ struct Node*node;
+ UWORDnumber = 0;
+
+ for(node = MyManList->List.lh_Head; node->ln_Succ != NULL; node =
+ node->ln_Succ, number++)
+ {
+ if(!strcmp(name, node->ln_Name))
+ return (number);
+ }
+
+ return (~0);
+ }
+
+ char *WhatItemName(struct ManageList *MyManList, UWORD code)
+ /************************************************************************
+  Return the $ of a number in the list
+ *************************************************************************/
+ {
+ struct Node*node;
+
+ for(node = MyManList->List.lh_Head; node->ln_Succ != NULL; node =
+ node->ln_Succ, code--)
+ {
+ if(code == 0)
+ return (node->ln_Name);
+ }
+
+ return (NULL);
+ }
+
+      Nota che il SAS 6.0 avvisa come un UWORD non possa tornare un ~0 (out  of
+ range);  poco  male, intelligente - veramente molto - il  compilatore,  ma  tu
+ sbattitene. [NdE: non so quanto l'atteggiamento pragmatico di RRE sia  contro-
+ producente]
+
+      Chiaramente per aggiungere o togliere bastera':
+
+ AddItem(AtcManList, fileName);
+ DelItem(AtcManList, currentView);
+
+      Un controllo che le mie routine non fanno e' controllare di non  inserire
+ un nome gia' presente nella lista. Chiaramente questo dovrebbe essere fatto  a
+ livello di procedura AddItem().
+
+      Concludendo:  anche se a prima vista puo' sconcertare,  questo  approccio
+ presenta degli innegabili vantaggi:
+
+ - e' facilmente riusabile
+ - gestisce un numero illimitato di gadget con le loro rispettive liste
+ - dopo il momento d'inizializzazione ci si dimentica di tutto
+ - sono  a disposizione tutte le macro per gestire la lista:  puliscila  tutta,
+   aggiungi/togli un elemento, riportami la posizione etc.
+ - si possono aggiungere altre funzioni senza mutare nulla della struttura
+ - anche l'uscita con rilascio della memoria e' automatico
+
+      Insomma, non sara' proprio OOP, ma si avvicina di parecchio ai suoi  piu'
+ fondamentali punti :)
+
+
+      Ok.  Martedi' se tutto va bene non avro' piu' l'Amiga.  Quindi l'avventu-
+ ra termina qui.  Mi piacerebbe saperne di piu' sul simbolismo - l'Universo  e'
+ conoscibile solo tramite simboli - e su come suonare uno strumento.  Visto che
+ inoltre  in un futuro dovro' sostentarmi e' meglio che mi dia da fare.   Forse
+ un giorno - canuto, con la pancia e pieno di figli - tornero' a scrivere arti-
+ coli idioti che non servono a niuno.
+
+      Lascio  lo scettro a chi vuole chiapparselo, candidando calorosamente  il
+ timido Peter Ugone :)
+
+
+                                              AVE
+                                              e grazie per i pesci
+
+                                              RRE
+
+                                              2:334/100.9
+                                              2:334/21.3
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   8  ###                                   IL GERGO HACKER - PARTE 19  ###
+ ############                                                               ###
+
+                                {= F =}
+
+      <fall  through> [passare attraverso] vt. 1. Uscire da un loop  per  esau-
+ stione, vale a dire per avere soddisfatta la sua condizione di uscita  piutto-
+ sto che per un break o una eccezione che lo fa uscire mentre esso e` in corso.
+ Questo  uso sembra essere *veramente* vecchio, tanto che sembra  datato  dagli
+ anni  '40 o '50. Potrebbe non essere piu` slang usato in pratica.  2.  Fallire
+ un test che avrebbe passato il controllo a una subroutine o ad altre  porzioni
+ distanti del codice.  3. In C, si dice avere f.-t. quando il flusso di  esecu-
+ zione  in uno switch raggiunge una delle etichette `case' in modo diverso  dal
+ saltare  li` a causa della condizione dello switch, passando un punto dove  di
+ solito si pensa di trovare un `break'. Un esempio banale:
+
+     switch (color)
+     {
+     case VERDE:
+        do_green();
+        break;
+     case ROSA:
+        do_pink();
+
+     case ROSSO:
+        do_red();
+        break;
+     default:
+        do_blue();
+        break;
+     }
+
+      L'effetto di questo codice e` di eseguire do_green() quando il colore  e`
+ VERDE, do_red() se il colore e` ROSSO, do_blue() su un qualunque altro  colore
+ che  non sia ROSA, e (questa e` la parte importante) do_pink *e poi*  do_red()
+ quando  il  colore e` ROSA. Il f.-t. e` <considered harmful>  da  alcuni:  tra
+ quelli che lo usano, e` considerata buona norma includere un commento indican-
+ te il f. t., per evitare che qualcuno lo `debugghi' inserendo un break.
+
+      <FAQ list> /ef-ay-kyoo list/ [Usenix] s. Compendio di dottrina accumulata
+ nel tempo, postato periodicamente nei newsgroup con un alto volume di traffico
+ in un tentatico di prevenire le Frequently Asked Questions [domande fatte fre-
+ quentemente].  Lo stesso jargon file serve come un buon esempio di una  colle-
+ zione di un certo tipo di conoscenza, anche se e` di gran lunga troppo  grande
+ per essere postato regolarmente [NdE: ve ne siete accorti, vero?] Molte  delle
+ liste  di FAQ esistenti fanno (o dovrebbero fare) riferimento al jargon  file.
+ "Come si pronuncia `char'?" e "Qual e` quel nome buffo per il carattere  `#'?"
+ sono, ad esempio, entrambe FAQ.
+
+      <fascist> agg. Detto di un sistema di calcolatore con bariere di sicurez-
+ za eccessive o scoccianti, limiti di uso o politiche di accesso. L'implicazio-
+ ne e` che queste politiche prevengono gli hackers dal fare del lavoro interes-
+ sante. La variante "fascistic" sembra essere preferita all'MIT, poss. per ana-
+ logia con "touristic" (vedi <tourist>).
+
+      <faulty> [difettoso] agg. Non funzionale; bacato. Ha la stessa denotazio-
+ ne  di <bagbiting>, <bletcherous>, <losing>, ma la sua connotazione  e`  molto
+ piu` leggera.
+
+      <fd  leak> /ef dee leek/ [stillicidio dei fd] s. Un tipo di baco di  pro-
+ grammazione  analogo a un <core leak>, in cui un programma non chiude  i  file
+ descriptors  ("fd") dopo che le operazioni sui files sono state completate,  e
+ cosi` finisce per abortire per non poterne piu` aprire. Vedi <leak>.
+
+      <fear and loathing> [da Hunter Thompson: paura e disgusto] s. Stato ispi-
+ rato  dalla prospettiva di dovere trattare con certi standard e sistemi  usati
+ nel "mondo reale" che sono totalmente <brain-damaged> ma presenti  dappertutto
+ -- gli 8086 Intel, o il COBOL, o una qualunque architettura IBM tranne il Rios
+ (alias RS/6000). "Ack. Vogliono che i PC siano in grado di parlare con le mac-
+ chine AI. Tempo di f. e l.!". Vedi anche <IBM>.
+
+ [NdE: nel gergo italiano, fear and loathing si puo` rendere con BT&R, acronimo
+ per Brivido, Terrore e Raccapriccio: i lettori piu` attenti avranno riconosci-
+ uto il Cattivik di Bonvi e Silver]
+
+      <feature>  [caratteristica] s. 1. Una proprieta` o comportamento  (di  un
+ programma) voluto. Che poi sia o no buona non importa.  2. Una buona  proprie-
+ ta`  o comportamento (di un programma). Che poi sia o no voluta  non  importa.
+ 3. Una proprieta` o comportamento sorprendente; in particolare, uno che e` in-
+ consistente  di proposito perche` funziona meglio in questo modo. As  esempio,
+ in certe versioni dell'editor di testi <EMACS> il comando "scambia  caratteri"
+ scambia tra loro i due caratteri ai lati del cursore, *tranne* quando il  cur-
+ sore  e` alla fine di una linea, nel qual caso sono scambiati tra loro  i  due
+ caratteri  prima del cursore. E` vero che questo comportamento e`  forse  sor-
+ prendente, e senza dubbio inconsistente; ma attraverso sperimentazioni  esten-
+ sive e` stato dimostrato che e` quello che vuole la stragrande maggioranza de-
+ gli  utenti. L'inconsistenza e` quindi una <feature> e non un <bug>.   4.  Una
+ proprieta`  o comportamento che e` gratuita o non necessaria, anche se  magari
+ anche  ad effetto o carina. Per esempio, una f. del linguaggio MACLISP  e`  la
+ sua  abilita`  di  stampare i numeri come numerali  romani.  Vedi  <bells  and
+ whistles>. 5. Una proprieta` o comportamento che e` stata aggiunta per aiutare
+ qualcun altro ma che capita essere proprio quello che vi serviva.  6. Un <bug>
+ che e` stato documentato. Chiamare qualcosa uns f. significa a volte che l'au-
+ tore del programma non ha considerato quel caso particolare, e il programma ha
+ risposto in un modo che non era aspettato, ma non si puo` strettamente defini-
+ re  scorretto. Uno scherzo usuale e` quello di dire che un <bug>  puo`  essere
+ tramutato  in una <feature> semplicemente documentandolo (allora  teoricamente
+ uno non puo` piu` lamentarsi di esso perche` "sta scritto nel manuale"), o an-
+ che dichiarando semplicemente che e` cosi` che si fa (v. <good>). "Questo  non
+ e` un baco, ma una feature!". Vedi anche <feetch feetch>.
+
+      <feature creature> [omino delle features] s. Uno che ama aggiungere feat-
+ ures  ai progetti o ai programmi, magari a spese della coerenza, della  conci-
+ sione, o del gusto (v. <taste>). Vedi anche <creeping featurism>.
+
+      <featurectomy> /fee`ch@r-ek'to-mee/ s. L'atto di togliere una feature  da
+ un programma. Le f. sono in genere di due tipi, la "virtuosa" (righteous) e la
+ "riluttante" (reluctant). Le f. virtuose si hanno quando chi toglie una  feat-
+ ure crede che il programma sarebbe piu` elegante senza di essa, o quando  c'e`
+ un modo equivalente e "migliore" di ottenere lo stesso scopo. (Non e` la stes-
+ sa  cosa che togliere una <misfeature>.) Le f. riluttanti si hanno per  soddi-
+ sfare dei vincoli esterni tipo la dimensione del codice o la velocita` di ese-
+ cuzione.
+
+      <feep>  1. s. Il campanello di un terminale a display (tranne i  VT-52!);
+ un beep (in effetti, nel campo dei microcomputer si tende a preferire <beep>).
+ 2.  vi. Il causare un suono di feep al display. I TTY non hanno f.: hanno  dei
+ campanelli  meccanici che suonano. Forme alternative: <beep>, <bleep>, o  sem-
+ plicemente qualunque suono abbastanza onomatopeico. (Jeff Macnelly, nella  sua
+ striscia comica `Shoe', usa la parola `eep' per i suoni fatti dai terminali  e
+ dai  videogiochi: questa e` probabilmente la migliore approssimaizone  scritta
+ al momento). Il termine <beedle> e` stato a volte sentito ai SAIL, dove i suo-
+ ni  dei  terminali  non  sono  particolarmente  "soffici"  (assomigliano  piu`
+ all'equivalente musicale di una pernacchia; per averne un'idea, immaginate  il
+ suono di un comunicatore di Star Trek che duri cinque secondi). Il "feeper" di
+ un VT-52 e` stato comparato al suono di una Chevrolet del '52 che sta spanando
+ gli ingranaggi. [NdE: ma voi giovincelli avete mai visto un VT-52?] Vedi anche
+ <ding>.
+
+      <feeping creaturitis> /fee'ping kree`ch@r-ie'tis/ s. Gioco di parole  ri-
+ spetto a <creeping featuritis>, implicante che il sistema o programma in  que-
+ stione  e` diventato una creatura informe a furia di hacks. Il termine non  ha
+ una definizione ben precisa, ma suona cosi` bene che molti hacker l'hanno det-
+ to o sentito dire. E` probabilmente rinforzato dall'immagine di terminali  va-
+ ganti nel buio mentre fanno i loro soliti rumori.
+
+      <feetch  feetch> inter. Se qualcuno vi parla di una nuova miglioria a  un
+ programma, potete rispondere "Feetch, feetch!" Il suo significato dipende cri-
+ ticamente dall'inflessione della pronuncia. Con entusiasmo, significa qualcosa
+ del tipo "Ehi, e` fantastico! Un bel colpo!". Forzato o dubbioso, sta per "Non
+ saprei:  sembra  tanto una cosa complicata e non necessaria". Con un  tono  di
+ rassegnazione, significa "Beh, preferirei tenerlo semplice, ma penso che debba
+ essere fatto".
+
+      <fencepost error> [errore della staccionata] s. 1. L'equivalente discreto
+ di una condizione al contorno. Spesso esibito nei probrammi dai loop  iterati-
+ vi.  Deriva dal seguente problema: "Se costruite una staccionata di 100  piedi
+ con un palo ogni 10 piedi, di quanti pali avete bisogno?" (Sia 9 che 11 e` una
+ risposta  migliore dell'ovvia 10). Supponiamo per esempio di avere  una  lunga
+ lista di oggetti, e volere processare quelli dall'm-simo all'n-simo. Quanti ve
+ ne  sono? La risposta ovvia e` n-m, ma quella corretta e` n-m+1. Un  programma
+ che  usa la formula "ovvia" avrebbe un f.e. Vedi anche <off-by-one  error>,  e
+ notate che non tutti gli errori-di-uno sono f.e. . I f.e. derivano dal contare
+ le cose invece che gli spazi tra esse, o viceversa, o dimenticando di control-
+ lare  qunti degli estremi sono da considerare. 2. Occasionalmente,  un  errore
+ indotto  da una distribuzione inaspettatamente regolare dell'input,  che  puo`
+ (ad esempio) rovinare la vostra tabella hash.
+
+      <field circus> [scherzo su "field service"] s. Il servizio di manutenzio-
+ ne di un qualunque manufatturiere hardware, ma specialmente della DEC. C'e` un
+ intera serie di battute sui tecnici del f.c. DEC:
+
+     D: Come si riconosce un tecnico del f.c. DEC con una gomma a terra?
+     R: Sta cambiando tutte le gomme per vedere quale e` bucata.
+
+     D: Come si riconosce un tecnico del f.c. DEC che ha finito la
+        benzina?
+     R: Sta cambiando tutte le gomme per vedere quale e` bucata.
+
+      <field servoid> /fee'@ld ser'void/ s. Rappresentante di un organizzazione
+ di Field Service (v. <field circus>).
+
+      <filk>  /filk/ [dagli appassionati SF, dove un errore di  stampa  ("filk"
+ per  "folk") e` stato adottato come una nuova parola] s. Una canzone  popolare
+ con il testo modificato o creato ex novo, per divertirsi quando letto e/o can-
+ tato  a tarda notte alle convention SF. Un fiorente sottogenere e` quello  dei
+ "computer filks", scritti da hackers e spesso contenenti humour tecnico di na-
+ tura altamente sofisticata. Vedi per esempio <double bucky>.
+
+      <film at 11> [MIT, in parodia degli annunciatori TV], inter. Usato  nella
+ conversazione  per annunciare eventi ordinari, con  l'implicazione  sarcastica
+ che sembrano essere chissa` cosa. "L'<ITS> e` cascato; film alle 11". "Trovato
+ un baco nello schedulatore: film alle 11".
+
+      <filter> [filtro: orig. UNIX, ora anche in <MS-DOS>] s. Un programma  che
+ processa  dell'input verso dell'output in un qualche modo ben definito, e  non
+ fa altro I/O se non eventualmente per indicare degli errori; uno studiato  per
+ essere parte di una <pipeline>.
+
+      <fine> agg. Buono, ma non abbastanza da essere <cuspy>. La parola  "fine"
+ e` ovviamente usatissima altrove, ma manca dell'implicita comparazione  impli-
+ cata da <cuspy>.
+
+      <finger>  [dal TOPS-10 mutante dei SAIL, via lo UNIX BSD] 1. s.  Un  pro-
+ gramma  che mostra un utente particolare o tutti gli utenti loggati su un  si-
+ stema locale o remoto. Tipicamente mostra il nome completo, l'ultimo login, il
+ tempo  di  inattivita`, e la linea cui e` collegato. Puo`  anche  mostrare  un
+ `plan'  file scritto dall'utente. 2. vt. Fare finger su un utente. 3. vt.  Per
+ estensione,  controllare  in qualche modo lo stato corrente di un  umano.  "Si
+ mangia?" "Ok!" "Perfetto, fai un finger su Lisa e guarda se e` libera". 4.  Un
+ qualunque  disegno (fatto di caratteri ASCII) che disegna "il dito".  Origina-
+ riamente un componente umoristico del plan file di una persona che voleva ram-
+ pognare  il curioso che gli aveva fatto un finger (senso #2), e` entrato  nel-
+ l'arsenale di alcuni <flamers>.
+
+      <firebottle> [bottiglia incendaria] s. Un dispositivo elettronico grande,
+ primitivo  e dall'alto consumo, simile a un FET composto da vetro, metallo,  e
+ vuoto. Caratterizzato da alto costo, bassa densita`, bassa affidabilita`, alta
+ temperatura  di operazione, e alta dissipazione. Alle volte chiamato per  sba-
+ glio "tube" negli USA, "valve" in Gran Bretagna e "valvola" da noi.
+
+      <firefighting> [antincendio] s. L'atto di buttare enormi quantita` di ri-
+ sorse  umane e nottate a un progetto, per farlo uscire prima  della  deadline.
+ Vedi  anche <gang bang>; pero` f. connota che lo sforzo e` effettuato per  to-
+ gliere bachi piu` che per aggiungere features.
+
+      <firewall  machine>  [macchina tagliafuoco] s. Una macchina  dedicata  al
+ gateway  con delle speciali protezioni di sicurezza, usata per la  connessione
+ col mondo per news e posta elettronica, e/o per accettare login remoti via FTP
+ verso file system (read only) condivisi. L'idea e` di proteggere un gruppo  di
+ macchine con minore protezione `nascoste' dietro di questa contro i  crackers.
+ Il  `firewall' tipico e` una macchina UNIX economica tenuta lontana  dai  dati
+ critici, con una gran quantita` di modem e porte di accesso pubbliche che  en-
+ trano  su di essa ma un'unica connessione ben controllata verso il  resto  del
+ gruppo. Le precauzioni prese possono includere il monitoraggio, il callback, o
+ persino una <iron box> completa attivabile quando arrivano degli ID o  pattern
+ di dati particolari. Sin. <flytrap>, <venus flytrap>.
+
+      <firmware> s. Software installato su un'apparecchiatura basata su un  mi-
+ croprocessore  o su una EPROM. Chiamato cosi` perche` e` piu`  difficile  cam-
+ biarlo rispetto al software ma piu` facile che rispetto all'hardware.
+
+      <flag> s. Una variabile o quantita` che puo` assumere due valori possibi-
+ li; un bit, particolarmente uno che e` usato per indicare uno di due valori di
+ uscita o controllare quale azione di due possibili debba essere scelta.  Esem-
+ pi: "Questo flag controlla se cancellare lo schermo prima di stampare il  mes-
+ saggio".  "La  word  di stato del programma contiene diversi  bit  usati  come
+ flag". Vedi anche <bit>, <hidden flag>.
+
+      <flag  day> s. Un cambiamento di software che non e` compatibile  ne`  in
+ avanti  ne` all'indietro, e che e` costoso da fare e da disfare. "Riusciamo  a
+ installarlo  senza causare un f.d. a tutti gli utenti?" Questo termine non  ha
+ nulla a che fare con l'uso della parola <flag> per indicare una variabile  che
+ puo`  avere due valori. L'uso e` nato quando si fece un cambiamento  massiccio
+ sul <Multics> per convertirlo dal vecchio codice ASCII a quello nuovo; il cam-
+ biamento  fu schedulato per il 14 giugno 1966, Flag Day [NdE: il Flag  Day  e`
+ quello in cui negli USA si vendono per beneficienza le bandierine americane].
+
+      <flaky> agg. (anche `flakey') Soggetto a frequenti malfunzionamenti. Vedi
+ anche  <lossage>.  Questo uso e` naturalmente collegato all'uso  comune  nello
+ slang americano della parola flaky per descrivere una persona come  eccentrica
+ o  pazza. Un sistema che e` f. di per se` funzionicchia abbastanza per  essere
+ tentati di usarlo, ma si pianta abbastanza spesso da far si` che le probabili-
+ ta`  di  finire  quanto iniziato sono basse. In Gran  Bretagna  si  preferisce
+ <dodgy>.
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   9  ###                                   NOTIZIE FIDONET REGIONE 33  ###
+ ############                                                               ###
+
+
+                               *** net 332 ***
+
+      Contemporaneamente all' elezione del REC, il 332 ha votato la nuova poli-
+ cy di net. La votazione si e` conclusa con un' approvazione plebiscitaria.
+
+      Segnaliamo i dati di due bbs entrati nel net negli ultimi mesi: il  sysop
+ di Silicon Warrior (332/216) ci informa che il suo BBS e` dotato di modem  ve-
+ loce ed e` Amiga Only (per la serie: Ms-Dossisti alla larga!). L' altra BBS e`
+ IRENE  BBS (332/616), il cui sysop, Marino Marinelli e` attivissimo  sui  temi
+ della pace e dell' impegno sociale; su questi temi IRENE BBS ha moltissimo ma-
+ teriale, fra cui un notiziario settimanale del Nicaragua tradotto in italiano.
+
+  Ciao Ciao!      ___
+                 /  _
+                <___/ iovanni
+
+
+                               *** net 333 ***
+
+      Le clamorose dimissioni dell'Adolf(ONE) Melill(ONE), sull'onda della  vo-
+ tazione per RC, sono fortunatamente rientrate grazie al massiccio  spiegamento
+ di  messaggi  in NETSYSOP per convincerlo che dimettersi non  serve  a  molto.
+ Adolfo ora promette vita dura ai sysop latitanti: staremo a vedere...
+
+      Ciao!                     /*Piero*/
+
+
+
+                               *** net 334 ***
+
+      TamTam a Nuove Tecnologie. Il salone torinese dedicato per l'appunto alle
+ attivita` emergenti industriali e postindustriali vedra` come l'anno scorso la
+ presenza  della  Associazione  per la Telematica Amatoriale in  uno  stand  in
+ posizione  strategica  (vicino all'uscita, insomma). Gli  amici  che  vogliono
+ venire a trovarci possono passare a Torino Esposizioni dal 4 all'8 novembre  -
+ orario 9.30 - 19.30 .
+
+  ******
+
+      Le  riunioni con i modemmari piemontesi proseguono al Circolo  Ricreativo
+ Dipendenti  Comunali, in C.so Sicilia 12 a Torino. Le prossime date sono il  9
+ novembre  e  il 7 dicembre, sempre alle ore 21. Alle riunioni  seguiranno  due
+ nuove tappe dell'ormai notissimo `Tour delle birrerie aperte il lunedi`  sera'
+ ...
+
+           ciaociao .mau.
+
+
+
+                               *** net 335 ***
+
+      Nuovi nodi nel 335 ingrandiscono la famiglia del NET, e questa volta c'e`
+ anche un evento "rosa"......
+
+      I tre BBS in questione sono:
+
+ The Critters BBS (335/225) SysOp - Aris Ferrara
+ The Folder BBS (335/226) SysOp - Tiziana Di Napoli
+ Amiga Special BBS (335/513)  SysOp - Manuel Marino
+
+      In particolare si distingue Tiziana per i suoi interventi molto  "colora-
+ ti" nelle aree echomail, portando una ventata di freschezza .... "rosa".
+
+ Un augurio a questi neo SysOp.
+
+  ******
+
+      Il  mese  di ottobre e' stato protagonista dell'apertura  di  nuove  aree
+ echomail nazionali, ed in particolar modo ha visto tre SysOp del NET 335 esse-
+ re nominati moderatori di alcune di esse, e cioe':
+
+ Win_Prog.ITA  * Programmatori Windows * Mod. Alex Palmese (335/317)
+ Ecologia.ITA  * Ecologia ed Ambiente *  Mod. Giovanni Pugliese (335/211)
+ Peacelink.ITA * Pacifismo *             Mod. Alessandro Marescotti (335/211.5)
+
+      Giornalisti di alcuni quotidiani e settimanali sono interessati alle sud-
+ dette aree echomail, ed in modo specifico ad Ecologia e Peacelink. Esse saran-
+ no costantemente seguite e previo accordo con i diretti interessati,  verranno
+ pubblicati i numeri telefonici dei vari BBS linkati ad esse. Eventuali messag-
+ gi ritenuti interessanti verranno riportati citando la fonte e l'autore  sulle
+ testate giornalistiche in questione.
+
+  ******
+
+      Grosso lavoro per il NEC Gianluca Pesaturo... Sta rimappando tutto il NET
+ per individuare eventuali disfunzioni e porvi immediato rimedio. Insomma, pane
+ per i suoi denti ..... :-))
+
+
+                           Giovanni Pugliese (335/211)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:
+
+ 334/100 - 011-3299706     | 334/104 - 011-502423      | 334/105 - 011-2238389
+ 335/211 - 099-4746313     | 335/215 - 0994746044      | 331/112 - 0341-360511
+ 333/603 - 040-3783111     | 332/315 - 0721-30783
+
+      da Sintel, 011-596274,
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/306 - 0121-542795     | 335/210 - 081-5709527     | 335/405 - 06-315323
+
+
+####                            End of TELEM023                            ####

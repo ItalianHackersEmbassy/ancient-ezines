@@ -1,0 +1,1937 @@
+  #### TELEM016 - Telematicus - Volume 02 - Numero 04 - Anno 1992 - 88 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                 Aprile 1992                                 
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di .mau.
+
+ ==============================================================================
+
+ Il materiale presente in Telematicus e` (C) dei singoli autori.      
+ E` espressamente consentita la distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 88 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .   .  pag.  4
+ [ 2]  Cavi & cavetti - parte 1, di Alfredo Berlusconi   .   .   .   .  pag.  5
+ [ 3]  Product review: DrComm, di Rocco Rionero  .   .   .   .   .   .  pag. 15
+ [ 4]  Un BBS al mese: Olimpus e Kerigma .   .   .   .   .   .   .   .  pag. 29
+ [ 5]  Il Progetto WARP, di Marco Russo  .   .   .   .   .   .   .   .  pag. 36
+ [ 6]  Il programmino: uuencode e uudecode   .   .   .   .   .   .   .  pag. 44
+ [ 7]  Vivamiga, di Renato Rolando   .   .   .   .   .   .   .   .   .  pag. 60
+ [ 8]  Feedback Utenti   .   .   .   .   .   .   .   .   .   .   .   .  pag. 69
+ [ 9]  Curiosita`: Il gergo hacker - parte 13    .   .   .   .   .   .  pag. 75
+ [10]  Notizie Fidonet region 33     .   .   .   .   .   .   .   .   .  pag. 85
+
+
+
+
+
+
+
+
+
+                  Questo Telematicus e` nato con l'aiuto di...
+    
+ Editor inventor:       Maurizio Codogno | * I collaboratori dai network: *
+ Editor assiduus:         Renato Rolando |
+ Editor fossil:            Rocco Rionero | Vertigo (331/301)
+ Editor collegans:    Alfredo Berlusconi |             
+ Editores presentantes:       Luca Bello |
+                        Don Paolo Gherri |
+ Editor invettivus:        Fabio Filippi |
+ Editor finestrator:         Marco Russo |                                    
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                               ###
+
+      Carissimi lettori,
+ numero  grosso questa volta. Certo che non e` affatto bello che debba  pietire
+ la chiusura di telematicus (che tra l'altro vi ricordo che non mi rende nulla,
+ eccetto  un  congruo  numero  di  serate  a  rassettare  tutti  gli  eventuali
+ contributi,  per  non  parlare di quando questi non ci  sono)  per  avere  del
+ feedback. Comunque bando alle ciance e sotto con la lettura!
+
+                          ciaociao ... .mau.
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   2  ###                                     CAVI & CAVETTI - PARTE 1  ###
+ ############                                                               ###
+
+      Quante  volte  vi sara' capitato di avere bisogno di connettere  due  CPU
+ tramite due seriali ed accorgervi che il classico cavo db25 non serve  assolu-
+ tamente  a nulla? Per non parlare poi di quando neppure una db9 e' standard  e
+ si  va  verso connettori piatti che di una seriale proprio non  hanno  neppure
+ l'aspetto. [NdE: in questo momento in ufficio mi hanno messo dei cavi DB-423 -
+ mi  pare  che  si  chiamino cosi` - che  assomigliano  ai  jack  dei  telefoni
+ americani, solo che hanno 6 fili invece di quattro. Boh.]
+
+      E' incredibile quanto stupidi siano i produttori: ognuno col suo standard
+ (?),  chi piatto a 4x2 pin, chi db9, chi db9 ma scegliendosi i segnali da  far
+ arrivare ai vari pin (alla faccia di chi parla di mercato "maturo" se vi e' la
+ compatibilita').  In questa giungla chi prospera sono i vari MISCO  et  simila
+ che vi vendono super cavi "veri db25" che una volta acquistati e' un  miracolo
+ se oltre ai 3 fili sempre necessari, mettono un minimo di controllo di  flusso
+ (CTS/RTS) oltre al secondo me indispensabile DTR/DSR. Indispensabile, in quan-
+ to  parecchi modem, se non hanno il DTR on, non hanno la piu` pallida idea  di
+ come fare ad andare in linea.
+       Bando alle ciance (come dicono i brianzoli anche se di adozione come me)
+ e passiamo a fare un bell'elenco di come risolvere i vostri problemi coi cavi,
+ facendo  seguito ad una mia replay in echo Fido su di un problema di  collega-
+ mento di uno Z88.
+
+      Innanzitutto ho diviso il problema in 3 sotto-problemi:
+
+ - collegare il pc (DTE) col modem o la stampante (DCE)
+ - collegare 2 PC identici
+ -  collegare  2 PC con differenti aspetti della stessa seriale  o  addirittura
+ (caso ibm - mac) con 2 seriali diverse.
+
+      Dopo gli esempi riportati qui sotto, sono sicuro che saprete farvi da voi
+ stessi qualunque cavetto in qualunque caso, una volta conosciuti i segnali che
+ arrivano alla vostra seriale.
+
+      Innanzitutto, cerchiamo di parlare lo stesso linguaggio: quando  prendete
+ in  mano una RS232C, potrete avere sia un connettore maschio che femmina.  Ve-
+ diamo la numerazione dei pin:
+
+        [connettore maschio guardando il connettore dalla parte esterna]
+        [ovvero NON dalla parte dove si faranno le saldature]
+
+         O   O   O   O   O   O   O   O   O   O   O   O   O
+         1   2   3   4   5   6   7   8   9  10  11  12  13
+
+           O   O   O   O   O   O   O   O   O   O   O   O
+          14  15  16  17  18  19  20  21  22  23  24  25
+
+
+        [connettore femmina guardando il connettore dalla parte esterna]
+        [ovvero NON dalla parte dove si faranno le saldature]
+
+         O   O   O   O   O   O   O   O   O   O   O   O   O
+        13  12  11  10   9   8   7   6   5   4   3   2   1
+
+           O   O   O   O   O   O   O   O   O   O   O   O
+          25  24  23  22  21  20  19  18  17  16  15  14
+
+      Il  "senso" della numerazione del connettore db9 e' lo stesso del db25  e
+ quindi evito di riportarlo (compito a casa per voialtri).
+
+      Passiamo ora a connettere i nostri non troppo standardizzati computers.
+
+ ========================================================================
+           ================================
+           | APPLE MACINTOSH (tipo RS449) |
+           ================================
+
+      Guardiamo sul retro di questo PC e noteremo sotto l'icona del telefono un
+ connettore  db9 femmina. Disponendo il connettore come la db25 qui sopra,  do-
+ vremmo leggere la numerazione della fila con 5 pin nel senso: 5 4 3 2 1.
+      La  449 differisce dalla 232C sostanzialmente per il fatto che per 2  se-
+ gnali  non ci sono 3 pin (tx rx gnd in comune) bensi' 4: tx e rx hanno  ognuno
+ la propria massa, cosa che rende migliore il segnale e permette di  utilizzare
+ cavi molto piu' lunghi dei cavi della 232C.
+
+ PINS:  1     2    3    4   5   6    7   8   9    Pgnd= massa di protezione
+        Pgnd  +5V  Mgnd tx+ tx- +12V DTR rx+ rx-  DTR = handshake
+                        lg0 lg1          lg0 lg1  Mgnd = massa di segnalazione
+
+ ========================================================================
+
+      Collegamento Mac - Modem:
+ MAC (DTE) <------------------> MODEM (DCE)
+     
+         1 <------------------> 1 massa di protezione
+         3 <------------------> 7 gnd (comune per rx e tx)
+         5 <------------------> 2 tx da DTE a DCE
+         7 <------------------>20 DTR (o 4 se si vuole RTS)
+         9 <------------------> 3 rx DTE da DCE
+
+ ========================================================================
+
+      Collegamento NULL-MODEM Mac - computer con RS232C
+ MAC (DTE) <------------------> COMPUTER CON RS232C (DTE)
+
+         1 <------------------> 1 massa di protezione
+         5 <------------------> 3 tx --> rx
+         9 <------------------> 2 rx <-- tx
+         3 <------------------> 7 gnd (comune per rx e tx)
+         7 <------------------>20 DTR (o 4 se si vuole RTS)
+                        inoltre:
+                        4>5 cortocircuitare 4 con 5 sulla 232C CTS/RTS
+                            cosi' da avere sempre l'ok del mancante Handshake
+      Se il collegamento 7 <--->20 fosse invece 7 <--->4 allora il  cortocircu-
+ ito andrebbe effettuato fra 20>6 DSR/DTR per gli stessi motivi.
+
+ ========================================================================
+
+      Collegamento NULL-MODEM Mac - Mac
+ MAC (DTE) <------------------> MAC (DTE)
+
+         1 <------------------> 1 Pgnd
+         3 <------------------> 3 Mgnd
+         4 <------------------> 8 rx+
+         5 <------------------> 9 rx-
+         7 <------------------> 7 HSK (input di handshake)
+         8 <------------------> 4 tx+
+         9 <------------------> 5 tx-
+
+
+      ///////////////////////////////////////////////////////////////////
+
+ ================================      =============================
+ | MACINTOSH PLUS  (tipo RS449) |  &   | APPLE ][ GS  (tipo RS449) |
+ ================================      =============================
+
+      Bene, bene. Con questo abbiamo terminato l'Apple Macintosh dotato di  in-
+ terfaccia  RS449. Ma come sapete, esiste anche il fratello maggiore,  il  Mac-
+ intosh  Plus che, come ogni buona (?) famiglia che si rispetti  ha  connettore
+ completamente diverso dal precedente db9. Si tratta sempre di una  interfaccia
+ RS449 (almeno quello...) ma come potrete immaginare cambiano sia il connettore
+ (adesso  e' un DIN8 che ricorda i vecchi registratori a nastro  della  Geloso)
+ che il numero dei segnali occorrenti (qualcuno in meno).
+      Sul retro del PC, all'estrema destra, troviamo la seguente femmina DIN 8:
+
+
+        [connettore femmina guardando il connettore dalla parte esterna]
+        [ovvero NON dalla parte dove si faranno le saldature]
+
+                          O     O     O
+                          8     7     6
+
+                      O         O        O
+                      5         4        3
+
+                            O      O
+                            2      1
+
+ PINS:  1     2    3    4   5   6    7   8        GND = massa di segnalazione
+        +12V  CTS  TX-  GND RX- TX+  NC  RX+      CTS = handshake
+        DTR   HSK  lg1      lg1 lg0      lg0       NC = non collegato
+
+      La massa di protezione (non si vede) e' la schermatura metallica del con-
+ nettore.
+
+ ========================================================================
+
+      Collegamento Mac Plus - Modem:
+ MAC PLUS (DTE) <------------------> MODEM (DCE)
+
+              2 <------------------> 5 input di handshake CTS da DTE a DCE
+              3 <------------------> 2
+              5 <------------------> 3
+              4 <------------------> 7
+
+ ========================================================================
+
+      Collegamento NULL-MODEM Mac Plus - computer con RS232C
+ MAC PLUS (DTE) <------------------> COMPUTER CON RS232C (DTE)
+
+              3 <------------------> 3 tx --> rx
+              4 <------------------> 7 massa di segnalazione
+              5 <------------------> 2 rx <-- tx
+                        inoltre per l'handshaking ingannare la 232 cosi':
+                        4>5 cortocircuitare 4 con 5 sulla 232C CTS/RTS
+                        6>20 "   "      "   6 con 20           DSR/DTR
+
+ ========================================================================
+
+      Collegamento NULL-MODEM Mac Plus - Mac Plus [DIN 8 - DIN 8]
+ MAC PLUS (DTE) <------------------> MAC PLUS (DTE)
+
+              3 <------------------> 5 tx(-) --> rx-
+              4 <------------------> 4 massa di segnalazione
+              5 <------------------> 3 rx(-) <-- tx-
+              6 <------------------> 8 tx+ --> rx+
+              8 <------------------> 6 rx+ <-- tx+
+
+
+ ========================================================================
+
+
+      Collegamento NULL-MODEM Mac Plus - Mac [RS449/DIN 8 - RS449/DB9]
+ MAC PLUS (DTE) <------------------> MAC (DTE)
+
+              DIN 8                  DB9
+
+              3 <------------------> 9 tx(-) --> rx-
+              4 <------------------> 3 massa di segnalazione
+              5 <------------------> 5 rx(-) <-- tx-
+              6 <------------------> 8 tx+ --> rx+
+              8 <------------------> 4 rx+ <-- tx+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                       PRODUCT REVIEW: DRCOMM  ###
+ ############                                                               ###
+
+                                  DRCOMM
+          (FOSSIL-level 5 Communication Driver & System Interface)
+                              di ROCCO RIONERO
+                  Napoli - Italy (2:331/301.10@fidonet.org)
+
+
+      DrComm e` un driver di sistema sviluppato secondo lo standard FOSSIL (Fi-
+ do  Opus Seadog Standard Interface Layer), in particolare aderisce  totalmente
+ alle  specifiche del FOSSIL Level 5 descritto nel relativo documento  FSC-0015
+ (Rick Moore, 1:115/333).
+
+      Lo  standard FOSSIL nasce per fornire alle macchine capaci di far  girare
+ il  sistema operativo MS-DOS (ma non necessariamente 100% IBM-compatibili)  un
+ supporto consistente alle principali funzioni di I/O ed in particolare (ma non
+ esclusivamente)  alle comunicazioni asincrone, presentandosi come una  vera  e
+ propria interfaccia di sistema abbastanza standardizzata. In DrComm sono  con-
+ centrati diversi anni di esperienza, a vari livelli, nel settore delle comuni-
+ cazioni e della progettazione hw/sw, che mi hanno piu` volte portato a contat-
+ to  con  le problematiche delle comunicazioni seriali.  Trasferire  il  lavoro
+ svolto  sotto  l'interfaccia FOSSIL ha consentito (a me, in  primo  luogo)  di
+ sfruttarne al meglio i risultati con tutti i programmi applicativi che ad essa
+ facciano riferimento e con hardware seriale non standard.
+
+      DrComm e` innanzitutto un driver molto flessibile ed ampiamente  configu-
+ rabile, tagliato su misura per gli utenti esigenti che intendano effettuare un
+ preciso fine-tuning del proprio sistema. Il driver e` configurabile attraverso
+ un  apposito file di controllo (in puro ASCII) facilmente modificabile con  un
+ editor.
+
+      Queste le caratteristiche fondamentali:
+
+      - fino a 4 porte di comunicazione supportate
+      - indirizzi ed IRQ per ogni porta definibili a piacere
+      - capacita` di auto-detection dell'hardware seriale
+      - dimensione dei buffers rx/tx fino a 64K
+      - intervento flow control totalmente configurabile
+      - supporto ottimizzato per 6 diversi tipi di UART
+      - "burst-mode" per UARTs bufferizzati e "speciali"
+      - "burst" di trasmissione e ricezione configurabili
+      - speed-locking a tutte le velocita` supportate dell'hardware
+      - doppio protocollo di flow control hardware
+      - possibilita` di protocolli hardware "misti"
+      - protocollo di flow control software (XON/XOFF) RX/TX
+      - protocollo RX-XOFF con ripetizione
+      - auto-disabilitazione TX-XOFF configurabile
+      - monitoraggio anti-lock del sistema di interrupts
+      - estese possibilita` di allocazione dei buffers
+      - possibilita` nativa di occupazione nulla in memoria DOS
+      - utilizzo ottimizzato in ambiente multitask
+      - funzioni di profiling e statistica "built-in"
+      - completa rimovibilita` del driver dalla memoria
+
+      DrComm supporta fino a 4 porte seriali, utilizzando gli indirizzi presen-
+ ti  nella tabella gestita dal BIOS in memoria a 0040:0000, ed i seguenti  tipi
+ di UART:
+
+              2) INS8250A/16450   (standard su PC/AT)
+              3) INS16550
+              4) INS16550A        (standard su PS/2)
+              5) INS16C552
+              6) i82510
+
+ e  relativi  cloni; gli UARTs non standard-PC (modelli 3..6)  sono  supportati
+ *totalmente* nelle loro estensioni e non vengono fatti lavorare in modo "8250-
+ compatible". In particolare DrComm e` scritto per gestire con la massima effi-
+ cienza  trasferimenti di un numero variabile di bytes in un  singolo  servizio
+ (burst-mode), massimizzando le prestazioni degli UARTs bufferizzati.
+
+      Come driver seriale, DrComm e` completamente configurabile. Per ogni por-
+ ta e` possibile specificare:
+
+      -  la dimensione dei buffers di ricezione e trasmissione (in maniera  to-
+ talmente  indipendente),  fino ad un max di 65520 bytes con un minimo  di  256
+ bytes per RX e 64 bytes per TX.
+
+      - il valore del fattore di blocco di trasmissione (vedi apposita  sezione
+ sul "burst-mode").
+
+      -  le soglie di intervento del flow control in ricezione, ovvero le  per-
+ centuali di riempimento del buffer RX alle quali disabilitare e riabilitare il
+ trasmettitore remoto / DCE.
+
+      - l'eventuale data-rate locking del driver; tutte le velocita` supportate
+ dall'hardware  (speed=115200/n con "speed" ed "n" interi) sono  lockabili.  In
+ tal  caso ogni richiesta di modifica da parte del software applicativo  verra`
+ rifiutata.
+
+      - protocolli RTS/CTS e DTR/DSR, o anche protocolli misti per applicazioni
+ particolari (eg. RTS/DSR).
+
+      -  l'uso  delle estensioni (FIFO-mode) e la regolazione  del  livello  di
+ trigger  in ricezione sugli UARTs per cui sono applicabili (vedi apposita  se-
+ zione sul "burst-mode").
+
+      -  una variante del protocollo XON/XOFF nota come XOFF-repetition per  la
+ quale il driver continua ad inviare XOFF fino alla sospensione della  trasmis-
+ sione, garantendosi contro eventuali linee disturbate che abbiano fatto falli-
+ re il riconoscimento dell'XOFF da parte del remoto.
+
+      - la gestione di schede seriali "speciali" ad elevata bufferizzazione,  o
+ di UARTs "virtuali" in alcuni ambienti v86.
+
+      DrComm  e` scritto per gestire al meglio gli attuali UARTs  bufferizzati;
+ e`  in grado, cioe`, di trasferire in una sola richiesta di servizio e con  la
+ massima  efficienza un numero variabile di caratteri, in funzione dello  stato
+ dell'UART  e dei parametri di configurazione, con una tecnica per certi  versi
+ simile ad una gestione DMA a blocchi ("burst mode").
+
+      E` importante sottolineare questo fatto dal momento che, data la compati-
+ bilita`  di base con il chip INS8250, gli UARTs bufferizzati (come  INS16550A)
+ sono spesso gestiti solo parzialmente dai drivers software, che si  dichiarano
+ in grado di supportarli in relazione alla sola capacita` di ABILITARE il  buf-
+ fering, senza pero` gestirlo in maniera ottimale.
+
+      Se nelle normali condizioni di utilizzo questo comportamento e` difficil-
+ mente rilevabile, in multitasking si fa sentire in maniera notevole: la durata
+ di  una ISR di DrComm e` fortemente indipendente dal numero di caratteri  tra-
+ sferiti  e notevolmente inferiore alla media di altri drivers  equivalenti.  A
+ parita` di transfer rate DrComm impegna di meno il sistema e riesce a garanti-
+ re una frequenza di servizio tale da poter operare alle velocita` piu` elevate
+ anche con normali UARTs non bufferizzati.
+
+      Gli  UARTs bufferizzati consentono di ottenere una riduzione  della  fre-
+ quenza  di  interruzione di un fattore pari alla dimensione  del  "burst".  Ad
+ esempio  un INS16550A contiene due buffers FIFO (uno per il  trasmettitore  ed
+ uno per il ricevitore) della dimensione di 16 bytes ciascuno. In  trasmissione
+ e`  possibile trasferire all'UART fino ad un massimo di 16 bytes in  un  unico
+ servizio:  dal  momento che la richiesta di trasmissione viene  generata  allo
+ svuotamento del FIFO, si ottiene una riduzione di 16 volte della frequenza  di
+ TXreq  e contemporaneamente, nell'ipotesi di un tempo di latenza superiore  al
+ tempo di trasmissione di un singolo carattere -condizione di TX underrun-,  se
+ ne riduce della stessa misura l'incidenza sul transfer rate di trasmissione.
+
+      Normalmente  e` consigliabile mantenere la dimensione del burst  di  tra-
+ smissione pari a quella del buffer FIFO, ma per applicazioni speciali e`  pos-
+ sibile  ridurre tale valore. A tale scopo il parametro "block  factor",  nella
+ configurazione di una porta, consente di specificare il max numero di caratte-
+ ri da trasferire all'UART in un singolo servizio.
+
+      Analogamente e` possibile programmare gli UARTs bufferizzati per generare
+ IRQ  di ricezione in funzione dello stato di riempimento del FIFO-RX, in  modo
+ da  ridurre  proporzionalmente  la  frequenza  delle  RXreq;  ad  esempio  gli
+ INS1655?? possono interrompere la CPU quando sono presenti 1/4/8/14 bytes  nel
+ buffer  FIFO;  se viene ricevuto un numero di bytes inferiori  al  livello  di
+ trigger programmato, un sistema di timeout interno al chip garantisce la gene-
+ razione dell'interrupt per la lettura del "pacchetto incompleto" (piu`  preci-
+ samente:  se la trasmissione del remoto si interrompe per un intervallo  supe-
+ riore  al  tempo necessario alla ricezione di 4 caratteri, ed il FIFO  non  e`
+ vuoto, viene generato un "timeout-interrupt").
+
+      Anche  qui, come nel caso della trasmissione, le migliori prestazioni  si
+ hanno massimizzando il burst di ricezione, ovvero programmando l'UART per  in-
+ terrompere  al numero piu` elevato possibile di caratteri presenti  nel  FIFO,
+ tuttavia  e` necessario fare qualche ulteriore  considerazione  sull'incidenza
+ del tempo di latenza nel servizio della ISR di ricezione: un livello di  trig-
+ ger  "basso" per la generazione della richiesta di ricezione se da  una  parte
+ non ne minimizza la frequenza, dall'altra lascia un certo margine di sicurezza
+ nel caso di un elevato tempo di latenza.
+
+      Un esempio e` forse piu` esplicativo di tante parole: programmando l'UART
+ per generare RXreq alla ricezione del quarto carattere (trigger=4) si  ottiene
+ una riduzione per "appena" un fattore 4 della frequenza di richiesta, tuttavia
+ si  riserva un margine di 12 caratteri (16-4=12) nel caso in cui, per  effetto
+ del carico di I/O, la CPU non dovesse servire in tempo la richiesta: fino a 12
+ caratteri  potrebbero continuare ad essere ricevuti completamente  prima  del-
+ l'intervento  della ISR di ricezione, senza che nessuno di essi venga  perduto
+ per overrun dell'UART.
+
+      Programmando l'UART per un livello di trigger pari a 14 si riduce di  ben
+ 14 volte la frequenza di richiesta ma si lascia un margine di sicurezza di so-
+ li  2  bytes, che potrebbe non essere sufficiente in talune  situazioni.  Come
+ sempre e` necessario un compromesso.
+
+      DrComm  consente  di selezionare, per gli UARTs che  supportano  il  modo
+ FIFO, due diversi livelli di trigger (che per la famiglia INS1655?? corrispon-
+ dono ad 8 ed a 14 caratteri) in funzione delle condizioni di lavoro del siste-
+ ma.  Il primo, "difensivo", e` particolarmente vantaggioso in caso di  sistemi
+ in  cui  convivano contemporaneamente UARTs bufferizzati e non,  o  di  multi-
+ taskers con un notevole numero di tasks attivi. Nel caso di sistemi sufficien-
+ temente veloci in cui il ridotto margine di sicurezza risulti piu` che  suffi-
+ ciente,  e` possibile scegliere la configurazione col piu` elevato livello  di
+ trigger "rilassando" ulteriormente il sistema di interrupts.
+
+      DrComm supporta oltre ai protocolli hardware RTS/CTS e DTR/RTS (ed  even-
+ tualmente  "misti"), il protocollo software XON/XOFF sia in ricezione  che  in
+ trasmissione.  Il protocollo XON/XOFF in trasmissione presenta  un  potenziale
+ pericolo: un carattere XOFF puo` bloccare a tempo indefinito il  trasmettitore
+ qualora non venga ricevuto per qualche motivo il corrispondente XON. In DrComm
+ e`  possibile abilitare a richiesta l'auto-disabilitazione  della  sospensione
+ software,  trascorso un determinato intervallo di tempo. Questo  scongiura  il
+ blocco  del trasmettitore in caso di falso XOFF o di XON perduto  (ad  esempio
+ per  rumore di linea con modem privi di correzione d'errore, o per perdita  di
+ sincronismo col trasmettitore remoto). L'abilitazione dell'auto-xon e` GLOBALE
+ all'intero driver e quindi opera su tutte le porte configurate.
+
+      Infine, una feature implementata principalmente per l'utilizzo in ambien-
+ te virtual-86 (in cui gli "pseudorupts" sono generati via software) ma che ri-
+ sulta  preziosa anche in caso di UARTs "brain-damaged", di calcolatori  "disa-
+ strati", oltre che con certi multitaskers particolarmente inefficienti: un si-
+ stema di monitor controlla periodicamente i "semafori" software delle ISR, ri-
+ levando istantaneamente eventuali perdite di interrupts (TXI, MSI) che  provo-
+ cherebbero il blocco del driver e "forzando", se applicabile, una ripresa del-
+ la trasmissione. Il sistema di monitor si rivela di preziosa utilita` anche in
+ presenza di software applicativo "scorretto" che acceda direttamente  all'UART
+ modificandone  lo stato e originando possibili anomalie nel funzionamento  del
+ driver.
+
+      Uno  dei grossi limiti dei TSR (DrComm E` un TSR) e` quello di  consumare
+ preziosa memoria RAM. DrComm, in modo nativo, consente di allocare in  maniera
+ molto  flessibile  i buffers di comunicazione in aree di  memoria  specificate
+ dall'utente,  ed eventualmente e` in grado di rilocare interamente il  proprio
+ codice rendendo nulla l'occupazione in memoria convenzionale. Questa capacita`
+ e` attualmente poco sfruttata, data la grande diffusione di metodi  "standard"
+ per caricare i drivers TSR al di fuori della memoria DOS; tuttavia torna utile
+ per quegli utenti che pur avendo macchine con memoria "extra" (tipicamente ne-
+ gli ultimi 384K di ram del primo MB) non possono utilizzare per qualche motivo
+ i  normali DOS extenders (i.e. QEMM, etc.), fosse anche per il semplice  fatto
+ di non esserne in possesso...
+
+      Come  esempio  di "curiosa" applicazione, e` stato  possibile  installare
+ DrComm  su un PC/XT con scheda Hercules, allocando l'intero driver  (codice  +
+ dati + buffers di comunicazione) nella seconda pagina grafica (B800-BFFF) del-
+ la scheda, preventivamente abilitata. E` ovvio che in tal caso non e` possibi-
+ le eseguire programmi che sfruttino appieno la scheda video...
+
+      La  notevole configurabilita` di DrComm potrebbe confondere le  idee:  e`
+ bello poter modificare a proprio piacimento tutti i parametri, ma la cosa  di-
+ venta frustrante se non si hanno le giuste indicazioni e se non si ha la  pos-
+ sibilita` di controllare direttamente il risultato delle modifiche.
+
+      Quanti sono in grado di dire esattamente quale deve essere la  dimensione
+ ottimale per il buffer di ricezione, utilizzando un programma come BinkleyTerm
+ con  un modem a 19200bps? Eppure e` un parametro di notevole  importanza,  dal
+ momento che un buffer troppo piccolo puo` andare in overrun o diminuire  l'ef-
+ ficienza del trasferimento con continui interventi del flow control,  analoga-
+ mente un buffer inutilmente grande puo` portare a sprechi di preziosa  memoria
+ (specie se i buffers sono allocati nei normali 640K "bassi").
+
+      Discorso analogo vale per le soglie d'intervento del flow control in  ri-
+ cezione, per la dimensione del buffer tx, per il block factor di  trasmissione
+ e la regolazione del livello di trigger di ricezione.
+
+      Durante  il normale funzionamento DrComm tiene costantemente  traccia  (e
+ senza  costi  addizionali in termini di efficienza) di  preziose  informazioni
+ sulle  sue condizioni di utilizzo. E` possibile, ad esempio, conoscere il  max
+ numero di caratteri che siano mai stati contenuti nel buffer di ricezione,  il
+ numero di volte che si e` avuto un overrun dello stesso buffer, il max  numero
+ di caratteri contenuti nel buffer di trasmissione, il max numero di  caratteri
+ ricevuti  eccedenti  la  soglia  di  intervento  del  flow-control  e  via  di
+ seguito...
+
+      DrComm  e` nato originariamente come driver FOSSIL-compatibile per  l'am-
+ biente DOS-standard. Esso ha sempre funzionato correttamente in ambiente  mul-
+ titask nella misura in cui quest'ultimo consentisse di far girare applicazioni
+ DOS-standard. Dal momento che l'uso di multitaskers e` ampiamente diffuso (sia
+ su  sistemi multilinea che su sistemi monolinea adibiti contemporaneamente  ad
+ usi diversi da quello di BBS), con la versione 0.4.B2 DrComm prevede  esplici-
+ tamente la possibilita` di operazioni in ambiente multitask con l'utilizzo  di
+ moduli d'interfaccia specifici da caricare all'interno dei singoli tasks.
+
+      Allo stato attuale e` disponibile il solo modulo per DESQview, ma e` pre-
+ vedibile un successivo supporto ai multitaskers piu` diffusi in base alle  ne-
+ cessita`  (degli utenti), al tempo (mio) ed alla disponibilita` di  documenta-
+ zione adeguata. Il modulo d'interfaccia consente il regolare funzionamento  di
+ *tutte*  le applicazioni che sfruttano il FOSSIL: e` possibile installare  al-
+ l'interno  dei tasks applicazioni "external" (ad esempio VFOSSIL)  in  maniera
+ del tutto indipendente dagli altri tasks.
+
+      E`  analogamente possibile installare timer-handlers senza  incorrere  in
+ crash del sistema. Inoltre il modulo di interfaccia consente al driver carica-
+ to nella memoria shared di sapere costantemente da quale processo sia chiamato
+ e di gestire in maniera automatica e trasparente (in base alla  configurazione
+ data dall'utente) le situazioni di polling, rilasciando il time-slice agli al-
+ tri processi attivi: un normale programma che non preveda il funzionamento  in
+ multitask  diventa automaticamente, col solo utilizzo di DrComm, un  programma
+ "cooperativo" in grado di occupare il solo tempo-CPU strettamente  indispensa-
+ bile.
+
+      Il  metodo utilizzato in DrComm per il supporto del multitasking e`  com-
+ pletamente originale e del tutto differente da analoghe implementazioni dispo-
+ nibili che consentono una soluzione parziale (e per giunta discutibile) al so-
+ lo problema del time-slicing. Il link stabilito tra il modulo di gestione  in-
+ task ed il driver shared e` di tipo puramente dinamico: il modulo *non* si ag-
+ gancia  al driver shared e questo, oltre a consentire l'utilizzo di un  numero
+ illimitato di moduli in altrettanti tasks (il FOSSIL *non* serve solo a gesti-
+ re le comunicazioni!), garantisce che un task possa essere brutalmente "ammaz-
+ zato" senza compromettere minimamente il funzionamento del driver shared e de-
+ gli altri tasks.
+
+                COME CONTATTARE L'AUTORE
+
+      BBS2000  (2:331/301@fidonet.org) e` il BBS ufficiale per il  supporto  di
+ DrComm. Il mio indirizzo Fidonet e` 2:331/301.10@fidonet.org (e-mail internet:
+ rock@p10.f301.n331.z2.fidonet.org).
+
+      Su BBS2000 e` sempre disponibile l'ultima versione del programma,  prele-
+ vabile  in file-request col magicname "DRCOMM" (24H/24 esclusa ZMH  ed  eventi
+ mail).
+
+
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                                               UN BBS AL MESE  ###
+ ############                                                               ###
+
+ Questa volta a dire il vero i bbs sono due... eccovi la descrizione di Olimpus
+ BBS e Kerigma BBS! .mau.
+
+ ==============================================================================
+
+      Ciao a tutti...
+      Come richiesto da .mau. scrivo la mia presentazione. :-)
+
+      Ho 15 anni, e sono 4 anni che frequento il mondo telematico. Molti di voi
+ mi conosceranno gia' sia per avermi incontrato nelle aree ECHO, sia in ITAPAC,
+ piuttosto che in giro per le varie BBS... Sono point da soli due anni,  questo
+ anche  perche' c'era poca gente che conoscessi disposta a darmi una  mano  nel
+ comprendere quel complicato mondo della Telematica.
+      Ero un ragazzino di 11 anni davanti a un computerazzo che per l'epoca non
+ era poi tanto male (un AMIGA 2000) con un modem, e tanta voglia di imparare...
+      Dovetti fare tutto da solo, aumentando cosi' i tempi  dell'apprendistato.
+ Se  non ci fosse stato Paolo Sobrito (all'epoca Paolo Paolo :-) ) a darmi  una
+ mano, sarei restato nel limbo della massa amorfe di utenti che bazzicano  spo-
+ radicamente nelle BBS con voglia solo di prelevare files, rimanendo parte  im-
+ produttiva.
+      I problemi per settare un point furono piuttosto difficili da  risolvere,
+ poiche'  il mio primo BOSS ne sapeva ben poco di TrapDoor e  compagnia  bella.
+ Proprio a causa di questi problemi, incontrai per la prima volta il mio futuro
+ CoSysop Matteo Penna, che mi aiuto' a settare il mio point (ed e' gia' passato
+ un anno... siamo all'anno scorso).
+      Io e Matteo, conoscendoci meglio, notammo che avevamo molte cose in comu-
+ ne,  tra le quali l'amore per AMIGA e la voglia di sviluppare qualcosa qui  in
+ Piemonte  atta  a fare da supporto a quella cerchia di utenti  che  utilizzano
+ AMIGA  (poco considerati in questo mondo di MS-DOS! :^) ) Concordammo col  no-
+ stro BOSS di montare sulla sua BBS un'area dedicata a questa piattaforma,  en-
+ trando  in  AMIGA_NET, ADS,SAN... Tanti progetti che sfumarono per  una  quasi
+ inesistente  collaborazione del BOSS (e qui chi ha orecchi per intendere,  in-
+ tenda! ;-) )
+      Da  questo nacque l'idea di fondare noi una BBS che girasse  su  AMIGA...
+ Cosi'  fu:  nacque OLIMPUS... All'inizio c'erano un sacco di  problemi  (Nuove
+ versioni  di  Transamiga, l'implementazione del linguaggio AREXX  e  il  nuovo
+ OS2.0) che fecero slittare l'apertura da Natale ai primi di marzo.
+
+      Ora e' perfetta! Per il momento e' l'unica BBS in Piemonte interamente ed
+ esclusivamente  dedicata ad AMIGA. Attualmente viaggiamo a 2400MNP5  dalle  19
+ alle 07 dal lunedi' al venerdi' e 24H il sabato e la domenica...  (011-890084)
+ Se  ci sara' risposta da parte degli utenti, acquisteremo presto un modem  HST
+ DS e entreremo in SAN e ADS... Staremo a vedere gli sviluppi della situazione!
+
+      Ciao!
+                                         Luca Bello
+                                         Sysop of 2:344/107
+
+ ==============================================================================
+
+      Su espresso invito di Alfredo Berlusconi, di Lecco (circa), invio un  ar-
+ ticoletto di presentazione del nuovo BBS a sfondo 'religioso' nato in  provin-
+ cia di RE: "KERIGMA BBS".
+
+
+ `Collaborazionismo': 1) eccessivo adattamento alle condizioni  politico-cultu-
+ rali di un determinato periodo che porta allo snaturamento dei valori di  par-
+ tenza... 2) impegno ad oltranza nel ricercare la collaborazione ad ogni  costo
+ come unica possibilita' di operare in un determinato settore...
+
+      Dalla seconda di queste interpretazioni, da una grossa passione per  l'e-
+ lettronica, dalla marea di opportunita' offerte dal Word Processing...  nacque
+ nel  1989,  prima come "Coordinamento" e poi come  "Associazione",  l'A.P.P.I.
+ (Ass. per la Promozione della Pastorale Informatica). Scopo  dell'Associazione
+ e' la raccolta e la ridistribuzione di materiali catechistici e di supporto od
+ ausilio  alla pastorale formativa cristiana; inutile (o forse no)  specificare
+ che l'idea appartiene ad un gruppo di giovani preti reggiani.
+
+      Dopo  il secondo anno di attivita' associativa, con la raccolta  e  ridi-
+ stribuzione  di 1,2 Mb di materiale catechistico vario in sei provincie  anche
+ non emiliane, ecco apparire le prime nozioni telematiche. Quello `speciale' su
+ BIT del settembre 1990, assolutamente incomprensibile senza aver mai  accarez-
+ zato un modem, [NdE: Capito, Carcillo?] ha lanciato un vero `petardo' in  pic-
+ cionaia: dopo aver sudato il primo settaggio hardware e software della comuni-
+ cazione, ecco spalancarsi un mondo nuovo!
+      La possibilita' di `chiacchierare' con persone a decine di Km di  distan-
+ za,  la possibilita' di scambiare velocemente materiali, il poter  partecipare
+ in  tanti  alla stessa `discussione'... L'idea e' stata immediata:  questo  e'
+ quello che ci vuole per far avanzare il nostro 'progetto'!
+
+      Un SysOp vicino e disponibilissimo (Paolo di "THE DRAKE BBS",  Guastalla)
+ ha permesso al novellino di fare le prime esperienze e di introdursi  progres-
+ sivamente nel mondo `fatato' dei modem...
+
+      Perche' non aprire un BBS tutto per la catechesi e la pastorale?  L'idea,
+ a  dire  il vero, era stata quasi abbandonata per le difficolta'  delle  varie
+ configurazioni  ed i legami tra i vari livelli in cui si articola la  gestione
+ di  un collegamento BBS... ci si sarebbe accontentati di leggere  qualcosa  in
+ MATRIX su THE DRAKE BBS.
+
+      A meta' febbraio arriva pero' sul nodo 2:332/502 (The Drake) un messaggio
+ via  MATRIX da Genova che chiede informazioni circa una "NEWS" apparsa su  "MC
+ microcomputer";  Paolo  me lo gira... corro in edicola: finalmente,  dopo  sei
+ mesi, l'articoletto era stato pubblicato ed aveva suscitato attenzioni!     
+                                      
+      MAXIMUS 2.0, gia' da tempo installato, nella speranza che fosse meno com-
+ plicato  da gestire del suo predecessore, comincia allora a girare  frenetica-
+ mente sotto i colpi della tastiera locale... Tempo tre giorni e "KERIGMA  BBS"
+ e' in grado di rispondere alle prime chiamate.
+
+      Il  tenore dei primi collegamenti e' davvero incoraggiante e le  chiamate
+ giungono da varie parti.. unanime il commento: OTTIMA IDEA, CI VOLEVA!
+
+      Lo  scopo di questo BBS e' dichiaratamente `tematico' ed esplicito:  per-
+ mettere  a chi lo desidera di poter collaborare con altri operatori  pastorali
+ alla  stesura di sussidi e creazione di nuovi materiali per la  crescita  cri-
+ stiana, mettendo insieme idee, stili, opportunita' diverse.
+
+      Qualcuno  pare  essersi subito `allarmato': "Come... i  preti  sono  gia'
+ qui?!!!" Cinque minuti di `Chattata' e tutto si rasserena... assicuro il  col-
+ lega delle nostre intenzioni: nessuna `propaganda' di parte! Non siamo  ancora
+ a questi livelli... e non ci interessano neppure!
+
+      Per la nostra Associazione si tratta, prima di tutto, di una grossa  ope-
+ razione  culturale:  insieme e' meglio... comunque! Il lavoro  d'equipe  sara'
+ l'unico a dare frutti, almeno in termini di competenza e di risparmio di ener-
+ gie preziose, in un campo dove le forze si stanno drasticamente riducendo.
+      Se oltre alla `Biblioteca Informatica di Pastorale' che ogni aderente al-
+ l'Associazione crea a casa propria ci fosse anche la possibilita' di confronti
+ e  consultazioni  `dirette', neppure piu' in `tempo reale' ma in  `realta'  di
+ tempo'  tra coloro che operano nello stesso settore, certamente tante cose  si
+ potrebbero fare molto meglio.
+
+      Non  e' tempo perso, quello passato davati al monitor ed alle lucine  che
+ corrono sul frontalino del modem... potrebbe invece essere la nuova dimensione
+ della collaborazione e di una maggiore efficacia e resa del lavoro di chi  in-
+ contra di fatto la gente.
+
+      Per  la nostra Associazione e' una `scommessa', piu' dal punto  di  vista
+ del  metodo che della tecnologia semplicemente... questa ormai pare  autonoma,
+ visto che comunque KERIGMA BBS funziona!
+
+      Chi  fosse interessato a questo discorso, o conoscesse  persone  dell'am-
+ biente  che mostrino una certa sensibilita' verso questo tipo di `lavoro',  e'
+ vivamente pregato di farsi `sentire', meglio `vedere' (sul monitor).
+
+      PS: date le evidenti dimostrazioni di intolleranza e pessima educazione e
+ civilta' di cui e' stato oggetto un altro servizio telematico a carattere  di-
+ chiaratamante `religioso'... chiediamo il minimo dei diritti civili:  esistere
+ anche noi!
+
+      KERIGMA  BBS  0522-978207, 2400bps, 8N1, dalle 12,30 alle 14,00  e  dalle
+ 20,00 alle 2,00 (sosta 23,00-24,00) e festivi dalle 8,00 alle 18,00,
+
+           Luzzara, P.za Castello 5, 42045 (RE)
+
+ Per l'A.P.P.I.                          don Paolo Gherri (Kerigma SysOp)    
+                                      
+
+
+ ############                                                               ###
+ ###   5  ###                                             IL PROGETTO WARP  ###
+ ############                                                               ###
+
+           WARP - Windowed Architecture for Remote Protocol
+           ------------------------------------------------
+
+      Definizione  di  un nuovo protocollo per l'accesso ad un  sistema  remoto
+ tramite un'interfaccia utente basata sulle finestre.
+
+           INTRODUZIONE
+
+      L'avvento  di  interfacce utente sempre piu' sofisticate ma  allo  stesso
+ tempo  sempre piu' user-friendly sta rendendo obsoleti i classici  sistemi  di
+ accesso ad un sistema remoto.
+      Gli standard di emulatori di terminale piu' diffusi (VT-100, ANSI,  ecc.)
+ sono  basati sulla trasmissione di tutti i caratteri che compongono  cio'  che
+ l'utente vede; questo significa un'intenso traffico di dati tra host e  termi-
+ nale  in quanto qualsiasi cosa venga visualizzata, essa deve essere  descritta
+ integralmente  dall'host. Il terminale conosce quindi soltanto il concetto  di
+ carattere, a cui al limite puo' essere associata un'informazione supplementare
+ quale il colore del carattere stesso.
+      Questi protocolli sono nati e cresciuti in un' epoca in cui l'interfaccia
+ utente era estremamente sintetica, anche perche' le risorse a disposizione non
+ consentivano di offrire all' utente le comodita' di cui oggi dispone.
+      Se 10 anni fa poteva non esserci una grossa differenza tra l'ambiente vi-
+ sivo  offerto da un'applicazione eseguita da un terminale e quello offerto  da
+ un programma su personal computer, oggi questa differenza e' enorme.
+      La vasta diffusione dei personal computer ha pero' messo in secondo piano
+ questa deficenza, perche' molte applicazioni girano oggi su personal  computer
+ (che ha definitivamente soppiantato il terminale vero e proprio) e l'accesso a
+ computer remoti per il reperimento delle informazioni viene effettuato da spe-
+ ciali  programmi che effettuano queste operazioni in maniera autonoma e  "tra-
+ sparente" all' utente.
+      Allo  stesso tempo si sono sviluppati dei terminali grafici,  quindi  con
+ un'interfaccia utente basata non piu' esclusivamente sul carattere ma  soprat-
+ tutto sulla rappresentazione grafica degli strumenti a disposizione dell'uten-
+ te.  Questi  terminali sono progettati per essere collegati  direttamente  al-
+ l'host  tramite linee ad altissima velocita' e ricevono dall'host tutti i  co-
+ mandi grafici per disegnare quello che l'utente deve vedere sullo schermo.
+      Uno  dei protocolli di questo tipo oggi piu' diffusi e' l'X-WINDOWS,  che
+ rappresenta un vero e proprio standard in ambiente Unix. Questo protocollo  e'
+ "trasparente" per l'utente (nel senso che l'utente non si accorge del collega-
+ mento non avendo tempi morti) se il collegamento host-terminale ha una veloci-
+ ta'  di 2Mbit/secondo. A 9600 baud questo protocollo (pur  funzionando...)  e'
+ inutilizzabile.
+      Tra questi due sistemi (il terminale a carattere e il terminale  grafico)
+ esiste un ampio divario, che oggi e' lasciato completamente vuoto. Non esiste,
+ in pratica, un protocollo valido (standard o non-standard) che consenta di ot-
+ tenere  un'interfaccia utente basata su un ambiente a finestre utilizzando  un
+ collegamento su linea commutata coi modem oggi in commercio.
+
+
+           LA PROPOSTA
+
+      L'idea,  peraltro neanche tanto originale, e' quella di creare un  proto-
+ collo che risponda a queste esigenze.
+      Molte idee come questa si sono arenate prima della realizzazione  finale.
+ Io non conosco chi prima di me, e di chi con me intende collaborare, si e' ci-
+ mentato  in  un' impresa simile a questa, ne' tantomeno conosco i  motivi  che
+ hanno fatto desistere altre persone. Nonostante questo sono fermamente convin-
+ to che il progetto sia realizzabile, anche se l'impresa non appare di  modeste
+ dimensioni.
+      Il nome che ho pensato di dare provvisoriamente a questo nuovo sistema di
+ trasmissione  basato  sulla descrizione degli oggetti  rappresentati  e'  WARP
+ (Windowed Architecture for Remote Protocol).
+
+
+           CARATTERISTICHE GENERALI
+
+      Come  gia'  detto, quello che si intende realizzare e' un  protocollo  di
+ trasmissione tra un host e un terminale "intelligente" in grado di offrire al-
+ l'utente un'interfaccia basata su finestre, menu, bottoni, ecc.
+      La differenza tra WARP e gli altri protocolli e' che gli oggetti  rappre-
+ sentati (dove per oggetti si intendono finestre, menu, bottoni, ecc.) non ven-
+ gono  trasmessi come insieme di primitive grafiche/testuali, ma  vengono  tra-
+ smessi con la descrizione delle caratteristiche dell'oggetto (tipo di oggetto,
+ dimensioni, colore, ecc.).
+      Ogni  oggetto trasmesso e quindi visualizzato verra' poi trattato  local-
+ mente dall'emulatore di terminale senza generare traffico sulla linea di comu-
+ nicazione fino a che l'azione dell'utente sull'oggetto non comporti la genera-
+ zione di un comando corrispondente ad una richiesta che l'utente effettua tra-
+ mite l'azione che ha compiuto.
+      Questo significa che se viene trasmesso un oggetto finestra al  terminale
+ e'  quest'ultimo a gestire autonomamente eventuali operazioni effettuate  dal-
+ l'utente,  come spostamento/ridimensionamento della finestra. La  chiusura  di
+ una finestra e' invece un evento che deve essere segnalato all'host, in quanto
+ probabilmente significa la chiusura di una sessione di lavoro.
+      In WARP verranno quindi definiti una serie di oggetti di base, che saran-
+ no quelli che il progettista dell' interfaccia utente avra' a disposizione per
+ costruire  tutto quello che desidera visualizzare all'utente.  Questi  oggetti
+ dovranno essere definiti in modo da prescindere dalle risorse disponibili  sul
+ terminale:  quindi non dovra' essere indispensabile avere una  scheda  grafica
+ piuttosto che una scheda testo, come non dovra' avere importanza la risoluzio-
+ ne a disposizione nel caso in cui si disponga di una scheda grafica. Sara'  il
+ programma  locale a sfruttare al meglio le risorse a disposizione in  modo  da
+ effettuare la visualizzazione dell' oggetto nel miglior modo possibile.
+      Sara'  comunque opportuno prevedere sin dall' inizio un'  estensione  del
+ protocollo  WARP in modo che possa supportare ANCHE oggetti  con  peculiarita'
+ grafiche  (icone  e disegni bit-mapped o vettoriali): questi  oggetti  saranno
+ COMUNQUE opzionali e verranno trattati dall'host quando esso riconosce che  il
+ terminale puo' supportare questa estensione. E' importante non chiudere il si-
+ stema  in  se stesso ma lasciarlo aperto ad implementazioni  future,  ma  allo
+ stesso tempo e' altrettanto importante fare in modo che i requisiti  richiesti
+ per supportare WARP siano minimi (la grafica comporta, oltre che la necessita'
+ di  un  terminale "grafico", anche quella di un modem piu' veloce di  un  2400
+ baud).
+      WARP non prevedera' sofisticate tecniche di controllo degli errori.  Que-
+ sto perche' la sempre piu' grande diffusione di modem muniti di protocolli  di
+ correzione degli errori (MNP, V42bis) e il miglioramento qualitativo delle li-
+ nee  telefoniche non rendono giustificato un considerevole appesantimento  del
+ protocollo per gestire autonomamente errori di trasmissione. Ovviamente e' in-
+ dispensabile prevedere un controllo minimo della correttezza delle informazio-
+ ni  ricevute, ma questo non significa che il trasmittente debba ricevere  con-
+ ferma dell'avvenuto ricevimento delle informazioni trasmesse. La ricezione  di
+ informazioni errate dovra' comportare quindi una semplice richiesta di ritras-
+ missione delle stesse informazioni o la fine del collegamento.
+      WARP  verra' pensato come protocollo destinato ai collegamenti  su  linea
+ commutata,  ma occorrera' tenere conto di un suo utilizzo su rete a  pacchetto
+ in  modo da non penalizzare eccessivamente questo sistema per i costi di  uti-
+ lizzo. Questo significa che non si dovra' seguire la filosofia del massimo nu-
+ mero di informazioni trasmesse nel periodo di tempo piu' breve, ma  occorrera'
+ anche cercare di ottimizzare la trasmissione delle informazioni in modo da ri-
+ durre comunque il traffico generato.
+
+
+           SVILUPPO DI WARP
+
+      WARP  verra' sviluppato da un team di persone che lavoreranno  su  questo
+ progetto senza pretendere un riconoscimento economico. Il loro contributo ver-
+ ra'  premiato con la pubblicazione dei loro nomi e dei loro  indirizzi  (even-
+ tualmente di posta elettronica) nelle specifiche che saranno rese di  pubblico
+ dominio.  Accanto  ad ogni nome verranno evidenziate le parti  sviluppate  che
+ piu' hanno beneficiato del loro contributo.
+      Per lo sviluppo di WARP esiste una WARP Development Conference che ha co-
+ me punto di riferimento il nodo 2:334/1 della rete Fidonet. Chiunque sia inte-
+ ressato a sviluppare WARP e sottoscriva questo documento (accettando tutti gli
+ obblighi  imposti agli sviluppatori) potra' accedere all'area facendo una  ri-
+ chiesta a Marco Russo (2:334/1.110@fidonet.org) coordinatore del progetto.  Il
+ coordinatore costituisce un punto di riferimento per gli sviluppatori e  prov-
+ vede a scrivere e distribuire una documentazione delle specifiche sviluppate.
+      I messaggi scritti in tale area non potranno essere divulgati all'esterno
+ di  essa  salvo autorizzazione del coordinatore. Qualsiasi  contravvenzione  a
+ questa regola potra' comportare l'esclusione immediata dal team di sviluppo.
+
+
+           OBIETTIVI
+
+      Le  specifiche di WARP saranno rese di pubblico dominio quando  esistera'
+ una versione stabile e completa del protocollo e quando esisteranno gia' alcu-
+ ni programmi sperimentali per il supporto di tale sistema.
+      Qualunque software scritto dal team di sviluppo di WARP sara' di proprie-
+ ta' dei singoli autori, che ne faranno l'uso che riterranno piu' opportuno. E'
+ comunque  consigliabile  una  diffusione di programmi di  pubblico  dominio  o
+ shareware  che supportino tale protocollo, e questa operazione  potra'  essere
+ effettuata soprattutto dagli sviluppatori di WARP.
+      Chi avra' partecipato allo sviluppo di WARP non potra' pretendere  nessun
+ diritto di proprieta' sulle specifiche del protocollo; potra' comunque pubbli-
+ cizzare il lavoro svolto alla stesura delle specifiche e riceverne un  ritorno
+ economico esclusivamente per l'esperienza che avra' acquisito con questo lavo-
+ ro (per esempio offrendo consulenza a ditte che intendano implementare  questo
+ protocollo).
+
+
+                                    Marco Russo
+                                    2:334/1.110
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                               IL PROGRAMMINO  ###
+ ############                                                               ###
+
+      Questo mese abbiamo la coppia di programmi UUENCODE e UUDECODE. Essi sono
+ di  gran  lunga  i piu` famosi programmi di codifica  ASCII  di  files  binari
+ (aumentando  ovviamente la loro lunghezza, di un fattore 4/3  circa).  Riporto
+ separatamente le notizie di copyright.
+
+ /*
+  * Copyright (c) 1983 Regents of the University of California.
+  * All rights reserved.
+  *
+  * Redistribution and use in source and binary forms are permitted
+  * provided that the above copyright notice and this paragraph are
+  * duplicated in all such forms and that any documentation,
+  * advertising materials, and other materials related to such
+  * distribution and use acknowledge that the software was developed
+  * by the University of California, Berkeley.  The name of the
+  * University may not be used to endorse or promote products derived
+  * from this software without specific prior written permission.
+  * THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+  * IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+  * WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  */
+
+ ============================== uuencode.c ====================================
+
+/*
+ * Modified 12 April 1990 by Mark Adler for use on MSDOS systems with
+ * Microsoft C and Turbo C.
+ *
+ * Modified 13 April 1991 by Gary Mussar to be forgiving of systems that
+ * appear to be stripping trailing blanks.
+ */
+
+#ifndef lint
+static char sccsid[] = "@(#)uudecode.c5.5 (Berkeley) 7/6/88";
+#endif /* not lint */
+
+#ifdef __MSDOS__        /* For Turbo C */
+#define MSDOS 1
+#endif
+
+/*
+ * uudecode [input]
+ *
+ * create the specified file, decoding as you go.
+ * used with uuencode.
+ */
+#include <stdio.h>
+
+#ifndef MSDOS            /* i.e., UNIX */
+#  include <pwd.h>
+#endif
+#include <sys/types.h>   /* MSDOS or UNIX */
+#include <sys/stat.h>
+
+/* single-character decode */
+#define DEC(c)(((c) - ' ') & 077)
+
+main(argc, argv)
+char **argv;
+{
+FILE *in, *out;
+int mode;
+char dest[128];
+char buf[80];
+
+/* optional input arg */
+if (argc > 1) {
+if ((in = fopen(argv[1], "r")) == NULL) {
+perror(argv[1]);
+exit(1);
+}
+argv++; argc--;
+} else
+in = stdin;
+
+if (argc != 1) {
+printf("Usage: uudecode [infile]\n");
+exit(2);
+}
+
+/* search for header line */
+for (;;) {
+if (fgets(buf, sizeof buf, in) == NULL) {
+fprintf(stderr, "No begin line\n");
+exit(3);
+}
+if (strncmp(buf, "begin ", 6) == 0)
+break;
+}
+(void)sscanf(buf, "begin %o %s", &mode, dest);
+
+#if !defined(MSDOS) /* i.e., UNIX */
+/* handle ~user/file format */
+if (dest[0] == '~') {
+char *sl;
+struct passwd *getpwnam();
+struct passwd *user;
+char dnbuf[100], *index(), *strcat(), *strcpy();
+
+sl = index(dest, '/');
+if (sl == NULL) {
+fprintf(stderr, "Illegal ~user\n");
+exit(3);
+}
+*sl++ = 0;
+user = getpwnam(dest+1);
+if (user == NULL) {
+fprintf(stderr, "No such user as %s\n", dest);
+exit(4);
+}
+strcpy(dnbuf, user->pw_dir);
+strcat(dnbuf, "/");
+strcat(dnbuf, sl);
+strcpy(dest, dnbuf);
+}
+#endif/* !defined(MSDOS) */
+
+/* create output file */
+#ifdef MSDOS
+out = fopen(dest, "wb");/* Binary file */
+#else
+out = fopen(dest, "w");
+#endif
+if (out == NULL) {
+perror(dest);
+exit(4);
+}
+#if !defined(MSDOS) /* i.e., UNIX */
+chmod(dest, mode);
+#endif
+
+decode(in, out);
+
+if (fgets(buf, sizeof buf, in) == NULL || strcmp(buf, "end\n")) {
+fprintf(stderr, "No end line\n");
+exit(5);
+}
+exit(0);
+}
+
+/*
+ * copy from in to out, decoding as you go along.
+ */
+decode(in, out)
+FILE *in;
+FILE *out;
+{
+char buf[80];
+char *bp;
+int n, i, expected;
+
+for (;;) {
+/* for each input line */
+if (fgets(buf, sizeof buf, in) == NULL) {
+printf("Short file\n");
+exit(10);
+}
+n = DEC(buf[0]);
+if ((n <= 0) || (buf[0] == '\n'))
+break;
+
+/* Calculate expected # of chars and pad if necessary */
+expected = ((n+2)/3)<<2;
+for (i = strlen(buf)-1; i <= expected; i++) buf[i] = ' ';
+
+bp = &buf[1];
+while (n > 0) {
+outdec(bp, out, n);
+bp += 4;
+n -= 3;
+}
+}
+}
+
+/*
+ * output a group of 3 bytes (4 input characters).
+ * the input chars are pointed to by p, they are to
+ * be output to file f.  n is used to tell us not to
+ * output all of them at the end of the file.
+ */
+outdec(p, f, n)
+char *p;
+FILE *f;
+{
+int c1, c2, c3;
+
+c1 = DEC(*p) << 2 | DEC(p[1]) >> 4;
+c2 = DEC(p[1]) << 4 | DEC(p[2]) >> 2;
+c3 = DEC(p[2]) << 6 | DEC(p[3]);
+if (n >= 1)
+putc(c1, f);
+if (n >= 2)
+putc(c2, f);
+if (n >= 3)
+putc(c3, f);
+}
+
+/*
+ * Return the ptr in sp at which the character c appears;
+ * NULL if not found
+ */
+
+#defineNULL0
+
+char *
+index(sp, c)
+register char *sp, c;
+{
+do {
+if (*sp == c)
+return(sp);
+} while (*sp++);
+return(NULL);
+}
+
+ ==============================================================================
+ ============================== uuencode.c ====================================
+
+/*
+ * Modified 12 April 1990 by Mark Adler for use on MSDOS systems with
+ * Microsoft C and Turbo C.  Standard input problem fixed 29 April 1990
+ * as per suggestion by Steve Harrold.
+ */
+
+#ifndef lint
+static char sccsid[] = "@(#)uuencode.c5.6 (Berkeley) 7/6/88";
+#endif /* not lint */
+
+#ifdef __MSDOS__        /* For Turbo C */
+#define MSDOS 1
+#endif
+
+/*
+ * uuencode [input] output
+ *
+ * Encode a file so it can be mailed to a remote system.
+ */
+#include <stdio.h>
+
+#define OUT stdout/* Unix, MS-DOS:  anybody with decent redirection */
+#define NUM_ARGS 2
+#define USAGE "Usage: uuencode [infile] remotefile\n"
+#include <sys/types.h>
+#include <sys/stat.h>
+
+#if MSDOS
+#include <io.h>
+#include <fcntl.h>
+#endif
+
+/* ENC is the basic 1-character encoding function to make a char printing */
+#define ENC(c) ((c) ? ((c) & 077) + ' ': '`')
+
+main(argc, argv)
+char **argv;
+{
+FILE *in;
+struct stat sbuf;
+int mode;
+
+/* optional 1st argument */
+if (argc > NUM_ARGS) {
+if ((in = fopen(argv[1], "r")) == NULL) {
+perror(argv[1]);
+exit(1);
+}
+argv++; argc--;
+} else
+in = stdin;
+
+#if MSDOS
+/* set input file mode to binary for MSDOS systems */
+setmode(fileno(in), O_BINARY);
+#endif
+
+if (argc != NUM_ARGS) {
+fprintf(stderr, USAGE);
+exit(2);
+}
+
+/* figure out the input file mode */
+if (fstat(fileno(in), &sbuf) < 0 || !isatty(fileno(in)))
+mode = 0666 & ~umask(0666);
+else
+mode = sbuf.st_mode & 0777;
+fprintf(OUT, "begin %o %s\n", mode, argv[1]);
+
+encode(in, OUT);
+
+fprintf(OUT, "end\n");
+exit(0);
+}
+
+/*
+ * copy from in to out, encoding as you go along.
+ */
+encode(in, out)
+register FILE *in;
+register FILE *out;
+{
+char buf[80];
+register int i, n;
+
+for (;;) {
+/* 1 (up to) 45 character line */
+n = fread(buf, 1, 45, in);
+putc(ENC(n), out);
+
+for (i=0; i<n; i += 3)
+outdec(&buf[i], out);
+
+putc('\n', out);
+if (n <= 0)
+break;
+}
+}
+
+/*
+ * output one group of 3 bytes, pointed at by p, on file f.
+ */
+outdec(p, f)
+register char *p;
+register FILE *f;
+{
+register int c1, c2, c3, c4;
+
+c1 = *p >> 2;
+c2 = (*p << 4) & 060 | (p[1] >> 4) & 017;
+c3 = (p[1] << 2) & 074 | (p[2] >> 6) & 03;
+c4 = p[2] & 077;
+putc(ENC(c1), f);
+putc(ENC(c2), f);
+putc(ENC(c3), f);
+putc(ENC(c4), f);
+}
+ ==============================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                                     VIVAMIGA  ###
+ ############                                                               ###
+
+                La Seriale II (la rivincita)
+                ----------------------------
+
+      Beh,  lo ammetto, il number 15 e' stato molto deludente; non vi  meritate
+ neppure l'appellativo di 'mucillaggine informe' che vi avevo appioppato.
+
+      Ed  ora  permettetemi  di rispondere al mio migliore  :)  lettore:  [NdE:
+ grazie.]
+
+ .mau.> [NdE:  perche`, gli #include dell'Amiga non hanno degli
+ .mau.> #ifdef per evitare di includere tutto da capo?]
+
+      La risposta e' presto data: i file che compongono gli include del 2.0 so-
+ no  230 (duecentotrenta)! E non si puo' chiaramente fare un #ifdef  all'inizio
+ di ogni file per evitare di non includere gli altri. Lo si puo' fare al massi-
+ mo per gli include che appartengono ad uno stesso argomento, ma se si  inseri-
+ scono assieme due argomenti diversi ecco che si rischia di rileggere piu' vol-
+ te  le stesse cose (detto per inciso gli include possono  essere  'compattati'
+ per rendere piu' veloce la compilazione, peccato non siano piu' leggibili.  Ci
+ sono altre tecniche comunque...). [NdE: e io dovrei considerare decente un  SO
+ che  non prevede nemmeno di organizzarsi gli #include? piuttosto  rimango  al-
+ l'msdos]
+
+      Dunque, ricapitoliamo un attimo le idee sulla precedente puntata; il  no-
+ stro  task si rivolge al task addetto alla gestione della seriale tramite  una
+ message  port non standard col tipico approccio client-server.  Bene,  vediamo
+ ora  cosa si puo' passare nell'interfaccia tra i due task.  All'interno  della
+ dir  DEVICES,  nel file serial.h, nella struct IOExtSer  troviamo  inclusa  la
+ struct IOStdReq (la struct standard delle msg port):
+
+ struct  IOExtSer {
+        struct   IOStdReq IOSer;
+
+ questa contiene tra le altre cose
+
+ *  1C   UWORD    io_Command
+
+ In  questo  posto scriveremo il comando da iniare alla seriale.  La  procedura
+ solita e' fare una 'richiesta sincrona con blocco' (ne avevamo parlato  all'i-
+ nizio), ovvero chiedo al task supervisore della seriale di soddisfarmi la  ri-
+ chiesta  e resto inchiodato li' fin tanto che non mi viene soddisfatta.  Natu-
+ ralmente vi sono altre possibilita' e ne vedremo qualcuna in seguito.
+
+      Solitamente il task master riporta l'esito della richiesta nel campo
+
+ *  1F   UBYTE    io_Error
+
+ (che appartiene sempre alla struct IOStdReq) e, a seconda dei casi, compila il
+ resto della nostra struct. Prima di fare qualche esempio ecco i comandi a  di-
+ sposizione della seriale (alcuni sono standard per tutte le devices, altri so-
+ no specifici della serial):
+
+ CMD_CLEAR, CMD_FLUSH, CMD_READ, CMD_RESET, CMD_START, CMD_STOP,
+ CMD_WRITE, CMD_BREAK, CMD_QUERY, CMD_SETPARAMS
+
+      Ecco il primo esempio! Voglio che il task elimini dal suo buffer  interno
+ tutti i caratteri ricevuti dal modem che non ho ancora letto:
+
+        MyIOExtSer->IOSer.io_Command = CMD_CLEAR;
+
+        DoIO ((struct IORequest *)MyIOExtSer);
+
+      DoIO()  e' il tipico invio di messaggio sincrono con blocco (il  cast  ci
+ vuole per il fatto che non e' la struct standard, casomai te lo fossi dimenti-
+ cato). [NdE: te chi??? io non leggo, guardo solo le figure]
+
+      Un esempio piu' complicato: inviare una serie di caratteri.
+
+        char    Buff[]="Hello serial!";
+
+        MyIOExtSer->IOSer.io_Length = strlen((char*) Buff);
+        MyIOExtSer->IOSer.io_Data   = (APTR) Buff;
+        MyIOExtSer->IOSer.io_Command= CMD_WRITE;
+
+        DoIO ((struct IORequest *)MyIOExtSer);
+
+      Notare il cast APTR. Questo indica che l'indirizzo dev'essere un multiplo
+ di  4  byte (spero di non dire cazzate!). E' per il fatto che comunque  il  SO
+ dell'Amiga e' stato programmato con l'antecedente del C e questo esigeva che i
+ dati  fossero  posizionati seguendo un ben preciso indirizzo (un po'  come  il
+ 68000 che non puo' leggere indirizzi dispari).  La solita rogna della  'compa-
+ tibilita'. [NdE: no, caro RRE, il fatto e` che un processore fa fatica a  spo-
+ starsi  di  un numero di byte qualunque e tende a  posizionarsi  tranquillo...
+ tanto ce n'e` di RAM]
+
+      Si potrebbe andare avanti a spiegare a come scrivere e leggere  veramente
+ i  dati dalla seriale, ma lo spazio e' tiranno (piuttosto se il buon .mau.  ha
+ intenzione  di scriversi la rivista da solo IO proprio non ce l'ho!)  [NdE:  e
+ quando mai ne ho voglia?] e tu non vedi l'ora di finire di leggere  l'articolo
+ :). [NdE: una volta o l'altra mi dirai chi e` il tuo lettore]
+
+      Ho deciso piuttosto di spiegare come implementare una richiesta  asincro-
+ na. Facciamo un esempio pratico, il ^C.
+
+      Col DoIO in attesa di caratteri dalla seriale un ^C da tastiera non fa il
+ benche'  minimo sollettico al nostro task, questo e' stato messo a dormire  in
+ attesa  di  un evento che lo svegli, e l'unico evento che possa  svegliarlo  a
+ questo  punto  e' il completamento di cio' che e' stato  richiesto  al  master
+ task.  Voglio  dire che al mio task non e' dedicato NEPPURE un ciclo  di  CPU,
+ [NdE: lo credi tu...] ma viene solo schedulato a livello di segnale.
+
+      La  soluzione e' questa: spedire in modo asincrono la richiesta alla  se-
+ riale,  preparare  una maschera in cui siano riportati gli eventi  che  devono
+ svegliarci  ed...  andare a dormire. Noi in questo caso aspettiamo  un  evento
+ dalla seriale ed uno dalla tastiera (altra device).
+
+        ULONG                   WaitMask;
+
+ ----> la mia maschera, questa ha i primi bit dedicati agli eventi del SO,  vo-
+ lendo creare un nuovo tipo di evento si procede piazzandolo dopo aver shiftato
+ ad 1. In questo caso SIGBREAKF_CTRL_C e' riconosciuto dal SO.
+
+        /* inizializzo le mie struct */
+
+        WaitMask = SIGBREAKF_CTRL_C | 1L << SerPort->mp_SigBit;
+
+ ---->  preparo la maschera, mp_SigBit viene settato dal task master quando  ha
+ finito di processare il nostro messaggio
+
+        /* nella procedura Read */
+
+        MyIOExtSer->IOSer.io_Length = n;
+        MyIOExtSer->IOSer.io_Data   = (APTR) &RBuff[0];
+        MyIOExtSer->IOSer.io_Command= CMD_READ;
+
+ ---> mi aspetto di leggere n caratteri
+
+        SendIO ((struct IORequest *)MyIOExtSer);
+
+ ----> invio la richiesta di lettura in modo asincrono, quindi continuo a  fare
+ altre cose nel mio programma...
+
+        ...
+
+        while(FOREVER)
+        {
+                temp = Wait(WaitMask);
+
+ ---->  decido  a questo punto di bloccarmi sino a quando non ho  uno  dei  due
+ eventi  richiesti. Il Wait() e' il comando di SO che mi permette di  andare  a
+ dormire in attesa che qualcuno setti uno dei bit che ho settato in WaitMask.
+
+                /* ho una richiesta di break forzata ... */
+
+                if(SIGBREAKF_CTRL_C & temp)
+                {
+                        Hang_up();
+                        Write(fout, "\n", 1);
+                        WriteError(16);
+                        Close_Serial();
+                        exit(16);
+                }
+
+                /* esco con un break se e' veramente ora */
+
+                if(CheckIO((struct IORequest *)MyIOExtSer))
+                {
+                        WaitIO((struct IORequest *)MyIOExtSer);
+                       
+                        break;
+
+ ----> bisogna SEMPRE rispondere ad un messaggio (altrimenti non libero la coda
+ del task). Questo e' il metodo piu' semplice per farlo. Prima nel caso del  ^C
+ non ho risposto perche' nella routine di chiusura della seriale forzo il  can-
+ cellamento di tutte le code liberando eventuali task in attesa.
+
+                }
+        }
+
+        /* esco dalla routine di READ riportando il numero di char ricevuti */
+
+        return((ULONG) MyIOExtSer->IOSer.io_Actual);
+
+      Ho deciso alla fine di inserire un pezzo del Gali (il programma per  con-
+ nettersi al Galileo) nella speranza di far vedere come in realta' le cose  non
+ siano  molto casinose ! :) Chiaramente avessi voluto sapere in modo  asincrono
+ se  il  msg  era  o no soddisfatto mi sarebbe  bastato  controllare  il  campo
+ SerPort->mp_SigBit.
+
+      Bene, il discorso della seriale non si esaurisce qui, spero di concluder-
+ lo  la prossima volta illustrando ancora qualcosina di piu' avanzato  come  la
+ richiesta alla seriale di darci tutti i caratteri fino ad uno a piacere  (sen-
+ tinelle) o altre chicche...
+
+      Naturalmente conto sul tuo silenzio; a proposito una sola persona (oltre-
+ tutto  un 2:334/100) mi ha detto di aver provato Gali... e dire che e'  finito
+ nella  rete SAN. Comunque costui mi ha detto che, essendo solo di 20K,  doveva
+ essere un prg facile a farsi. QED.
+
+      Signori, avete tutto il mio disprezzo.
+
+                                                RRE
+                                                2:334/100.9 etc. etc.
+
+ ############                                                               ###
+ ###   8  ###                                              FEEDBACK UTENTI  ###
+ ############                                                               ###
+
+      Vi lascio alla prima parte di un enorme messaggio arrivatomi da Fabio Fi-
+ lippi  (che sicuramente ha surclassato il Piola nella classifica dei  maggiori
+ scrittori di FidoNet). Ho cercato di lasciare il piu` possibile intatto il suo
+ gergo, a volte particolare... se non lo capite chiedete pero` lumi direttamen-
+ te a lui!
+
+ ==============================================================================
+
+      Fatemi  capire  una cosa... per voi un utente che vampirizza e`  un  vero
+ utente???? Io credo che un utente che non e` altro che un VEGETALE deve capire
+ che, oltre a supportare la BBS con veri Upload e non uploadare versioni inesi-
+ stenti tanto per farsi crediti deve anche supportare la BBS con dei MSG.
+
+      Se avessi una BBS non vorrei trovarmi utenti LEECHERS VEGETALI ma  utenti
+ reali con la testa sulle spalle che hanno capito il vero spirito di una BBS.
+
+      Questo msg l'ho pensato quando uno mi risponde che vampirizzare gli  sem-
+ bra giusto e quindi ad un certo momento che era l'ora di fare un sondaggio  in
+ RETE.
+
+      Io credo che Tutti sono stufi di vedere che di nuovi files non ce ne sono
+ molti  e  che a volte downlodano versioni false messe dai VEGETALI  tanto  per
+ farsi vedere che uppano. Questo se fatto andrebbe punito con la perdita di al-
+ meno 10 volte il file uppato..  su 100k FAKE 1000k persi. Solo che nessuno  ha
+ capito che in generale i Download non hanno limite: ci si fida degli utenti ma
+ come al solito si da` un dito e ti prendono il braccio. Ad uppare sono  sempre
+ gli stessi mentre i VEGETALI prendono solo. Altra cosa che fanno i VEGETALI e`
+ il  197.  Qua  andrebbero puniti in maniera drastica. Secondo  voi  e`  giusto
+ prendere e prendere senza dare nulla???.
+
+      La prima scusa accampata dai VEGETALI e` quella che sono lenti: per pren-
+ dere  pero' non sono lenti???? Si fanno 4 utenze per prendersi i 4  dischi  di
+ Monkey; e come se non bastasse non rispondono neanche ai msg dei SYSOP,  figu-
+ riamoci  a quelli dei veri utenti. Come si fa a defenire un vero utente???  e`
+ molto difficile... e non ho voglia di parlarne adesso. Comunque i VEGETALI  in
+ Rete sono molti e quindi a nulla e` valso il mega frullamento dello  USER.DATA
+ perche` i VEGETALI ne pensano una piu` del diavolo... spediscono le  fotocopie
+ di  amici; e il Sysop non puo' chiamare tutti, poi lo dovrebbe fare via  Modem
+ per verificare se esiste veramente un modem in quella casa. Comunque si  fanno
+ scoprire  facilmente: chiamano sempre di fila... escono e  richiamano  subito.
+ Cosi dopo un po' si individuano i VEGETALI multiutenza.
+
+      Come fare a debellare un VEGETALE??? semplice si impone un RATIO di  MSG,
+ ogni TOT di K presi bisogna upparne una quantita' (io direi che un 7/1 sarebbe
+ anche troppo ma potrebbe andare bene) quindi ogni 100k mandati ne prendi  700K
+ o addirittura 1MB. Ma con un particolare!!! devono anche fare un TOT di MSG.
+
+      Non credo che fare un capture di 5 minuti di un'area e rispondere a  casa
+ e poi ASCIISENDare il tutto sia gravoso sulla bolletta. Il problema e` imporre
+ il  ragionamento  nella mente dei VEGETALI VAMPIRI. Il VEGETALE  e`  anche  un
+ utente  che non risponde mai a nulla... e` il primo a protestare che questo  e
+ quello  non va... poi alla fine prendono solo!. Se tutti fossero cosi'  allora
+ chi  mette roba nuova in linea??? il SYSOP?? Non mi pare giusto: lui offre  il
+ servizio, noi i programmi. Mi sembra il minimo, ma si sa un VEGETALE non ha un
+ cervello per recepire queste cose. Probabilmente non leggera` mai questo  mes-
+ saggio,  a  meno che non venga inserito come FILE in ogni  Archivio...   forse
+ l'unico  modo di comunicare  coi VEGETALI e` proprio questo... sempre che  poi
+ leggano il testo per intero invece di deletarlo subito. Certo trovare un SYSOP
+ che  s'azzardi  a mettere un RATIO da 10 a 1 (di solito e` 2/1 o 3/1)  non  ci
+ vuole  magari  tanto. Ma non ditegli di mettere un Ratio di MSG...  credo  che
+ avrebbe  paura di farlo... Comunque perdere degli utenti VEGETALI VAMPIRI  mi-
+ gliora  solo la RETE: almeno chi deve scrivere e mandare programmi trova  piu'
+ facilmente libero.
+
+      A volte basterebbe poco per migliorare tutto ma i VEGETALI manco  mandano
+ 1000  lire per le spese...  non mandono programmi, se chiedi loro qualcosa  e`
+ come offenderli, se mandano qualcosa mandano versioni vecchie per fare i  fur-
+ bi, usano i 197 e le Multiutenze... roba da LOCKOUT, cancellare e poco... Met-
+ tere 5 minuti a collegamento e vedere se con il cervello da VEGETALE riesce  a
+ capire che ha fatto qualcosa di brutto.
+
+      E  dire  che una soluzione per uppare gratis c'e`, anzi si  prendono  tre
+ piccioni con una fava. I VEGETALI crederanno che sia uno scherzo... ma i  file
+ possono  anche essere spediti via posta, se il SYSOP non li avesse. Visto  che
+ sono  solo scuse, quella di essere in Teleselezione o a 2400? Il  ridicolo  e`
+ che il discorso e` HALF DUPLEX. Finche` prendono tutto OK... ma devono rispon-
+ dere o mandare qualcosa??? Arrivano le scuse.
+
+      Almeno  cosi' potete dire di partecipare anche voi assieme a  Tutti  alla
+ crescita  della RETE. Non mi pare quindi che i VEGETALI possano trovare  scuse
+ per non dare nulla.
+
+      Ma rimane il problema della Multiutenza... i 40/50 minuti esclusi i 20  o
+ persino  di piu' che potete prelevare dalla TIME BANK non bastano  per  quello
+ che  dovete  fare????  Ma scherzate??? come non bastano... anche  un  2400  in
+ un'ora riesce a prendere i files piu' lunghi... il fatto e` che essendo  VEGE-
+ TALI si crede che tutto sia dovuto.
+
+      Mi  sembra incredibile... su 2000 utenti in  Rete circa... solo  meno  di
+ 100  scrivono... gli altri 1900 che fanno??? 1500 sono i VEGETALI  con  doppie
+ utenze  quindi si scende a 500 utenti reali. C'e` una buona parte  che  magari
+ non chiama regolarmente oppure non chiama piu. Si scende ancora... intorno  ai
+ 150... c'e' poi chi non sa cosa dire oppure dove inserirsi per dire la sua. Ma
+ mi sembra che di argomenti in ECHO se ne trattino abbastanza... quindi e` evi-
+ dente  come anche questa sia solo una scusa. Come e` possibile??? In oltre  80
+ aree ECHO non ce n'e` neanche una che vi potrebbe coinvolgere???  Forse la ve-
+ ra  verita` e` che non sapete neanche voi cosa dire perche' siete  VEGETALI  e
+ non sapete come fare a compiere i primi passi verso una crescita verso  Utenti
+ SEMIATTIVI, quelli meta' VEGETALI e meta' normali.
+
+      Un ibrido insomma... rispondono solo e continuano a parlare se li stimoli
+ con discorsi... ma appena passa un attimo ecco che tornano VEGETALI. Sono  una
+ razza molto difficile da capire, molto piu' difficile che capire i VEGETALI al
+ 100%.  A  volte parlo con qualche SEMI ATTIVO poi mi scompare, magari  ha  dei
+ problemi e non chiama per un po', ma poi non ritorna piu'. Lo devi incitare  a
+ tornare  a  parlare e allora forse riesce a superare per la seconda  volta  la
+ barriera del VEGETALE e tornare SEMI ATTIVO. Solo una piccolissima parte  cre-
+ sce  ancora e diventa utente ATTIVO. Uno che non usa multiutenze, ha  un  buon
+ ratio fra Upload e Download, uno che parla e quindi e` di casa in Rete.
+
+      Posso  capire lo CHOC iniziale di entrare in una Rete, ma  comunque  alla
+ fin  fine  e` come un BBS a piu' piani. Quello che devo ancora capire  non  e`
+ perche' ci siano i VEGETALI...  quello e` inevitabile, in ogni campo  esistono
+ i VEGETALI... ma i SEMIATTIVI proprio non li capisco. Sembra non sappiano  de-
+ cidere quale strada che debbano compiere...  sono ad un bivio e non sanno cosa
+ fare, quindi pascolano un po' in attesa di prendere una decisione, ma a  volte
+ non arriva... Adesso comunque sorge un altro problema!
+
+      Come faccio a smettere di essere VEGETALE?? cosa posso scrivere di  utile
+ per  gli altri utenti???? A parte i programmi da uppare che a  volte  qualcuno
+ non  puo' procurarsene ma comunque dovrebbe cercare di far  qualcosa...  Anche
+ piccole  cose sono gradite... magari dei moduli o delle GIF o piccole  utility
+ prese da altre parti. Basta fare un passo per volta... cominciamo a vedere co-
+ me un VEGETALE puo' cercare di inserirsi in un discorso...
+      [segue]
+                                    Fabio Filippi
+                                    2:331/301.0
+
+ ############                                                               ###
+ ###   9  ###                                   IL GERGO HACKER - PARTE 13  ###
+ ############                                                               ###
+
+ 
+      <Commonwealth  Hackish> s. Il gergo hacker come parlato fuori dagli  USA,
+ sp. nel Commonwealth. E` stato riportato che in quei paesi e` piu` comune pro-
+ nunciare  `char', `soc', ecc. come scritto (/ciar/, /sok/) piuttosto  che  al-
+ l'americana  /keir/  o  /sosh/. Il prefisso  <meta>  puo`  essere  pronunciato
+ /mi'ta-/,  e  in  genere le lettere greche beta, zeta...  si  leggono  /bita/,
+ /zita/. Le metavariabili sintattiche preferite sono EEK, OOK, FRODO, e  BILBO;
+ WIBBLE,  WOBBLE, e in emergenze WUBBLE; BANANA, WOMBAT, FROG, <fish>, e  cosi`
+ via (vedi <foo>, sign. #4).
+
+ Alternative  al raddoppio del verbo comprendono i suffissi `o-rama',  `frenzy'
+ [frenesia,  smania] e `city' (come in "barf city!" "hack-o-rama!"  "core  dump
+ frenzy!"). Si noti infine che i termini americani `parens', `brackets' e `bra-
+ ces'  per  (), [], and {} non sono comuni; si preferisce  `brackets',  `square
+ brackets',  e  `curly  brackets'. Fuori dagli USA e`  anche  comune  l'uso  di
+ `pling' per {bang}.
+
+ Vedi  anche {attoparsec}, {calculator}, {chemist}, {console  jockey},  {fish},
+ {grunge}, {hakspek}, {heavy metal}, {leaky heap}, {lord high fixer},  {noddy},
+ {psychedelicware}, {plingnet}, {raster blaster}, {seggie}, {spin-lock},  {ter-
+ minal  junkie}, {tick-list features}, {weeble}, {weasel}, {YABA}, e le note  o
+ definizioni  sotto  {Bad  Thing}, {barf}, {bogus},  {bum},  {chase  pointers},
+ {cosmic rays}, {crippleware}, {crunch}, {dodgy}, {gonk}, {mess-dos}, {nybble},
+ {root}, {tweak}, e {xyzzy}.
+
+      <compact>: agg. Di un progetto, descrive la preziosa proprieta` di potere
+ essere  compreso in un colpo solo. Questo significa generalmente che  le  cose
+ create dal progetto possono essere usate con maggiore facilita` e minore erro-
+ ri rispetto a un progetto equivalente che non e` compatto. Si noti che la com-
+ pattezza non implica banalita` o mancanza di potenza: ad esempio, il C e` com-
+ patto e il FORTRAN no, ma il C e` piu` potente del FORTRAN. Il progetto diven-
+ ta  non-compatto  mediante la concrezione di <feature> e <cruft>  che  non  si
+ amalgamano bene con lo schema complessivo del progetto.
+
+      <compress>  [comprimere - UNIX]: vt. Se usato senza un qualificatore,  si
+ riferisce generalmente al <crunch>ing di un file usando una particolare imple-
+ mentazione  in  C della compressione Lempel-Ziv di James A. Woods  et  al.,  e
+ circolata ampiamente via <USENET>.
+
+      <computer confetti> [coriandoli di calcolatore]: n. Sin. <chad>. Anche se
+ questo  termine e` comune, questo uso dei chad da una scheda perforata non  e`
+ una grande idea, perche` i pezzi sono spessi e hanno angoli acuti che  possono
+ ferire  gli occhi. GLS riferisca che un tempo ando` a un matrimonio al MIT  in
+ cui  lui e qualche altro invitato lanciarono entusiasticamente chad  al  posto
+ del riso. Lo sposo si lamento` in seguito del fatto che lui e la moglie dovet-
+ tero  passare buona parte della serata cercando di togliere quella roba  dalla
+ testa.
+
+      <computer  geek>: [geco dei computer?] s. Uno che mangia (computer)  bugs
+ nella  vita. Uno che risponde ai piu` cupi stereotipi negativi sugli  hackers:
+ un  monomaniaco  asociale, maleodorante, pallido con la  personalita`  di  una
+ grattugia. Non puo` essere usato da estranei senza un insulto implicito a tut-
+ ti gli hacker, un po' come la parola `nigger'. Un c.g. puo` essere un  indivi-
+ duo fondamentalmente incapace o un proto-hacker allo stato larvale (v. <larval
+ stage>). Detto anche `turbo nerd', `turbo geek'. Vedi anche {wannabee},  {ter-
+ minal junkie}.
+
+      <computron>: /kom'piutron/ [computrone] s. 1. Un'unita` nozionale di  po-
+ tenza  di calcolo che combina velocita` delle istruzioni e capacita` di  memo-
+ ria, definita all'incirca come istruzioni/secondo per megabytes RAM per  mega-
+ bytes disco. "Non puoi fare girare GNU EMACS su quella macchina, non ha  abba-
+ stanza computroni!" Questo uso si ha generalmente nelle metafore che  trattano
+ la capacita` di calcolo come un bene fungibile, come il raccolto di un campo o
+ la  potenza  di un motore diesel. Vedi <bitty box>, <Get  a  real  computer!>,
+ <toy>,  <crank>.  2. Una mitica particella subatomica che porta  la  quantita`
+ unitaria  di computazione o informazione, piu` o meno allo stesso modo in  cui
+ un  elettrone porta un'unita` di carica elettrica (v. <bogon>). E` stata  svi-
+ luppata un'elaborata teoria pseudoscientifica sui computroni, basata sul fatto
+ fisico che le molecole in un oggetto solido si muovono piu` rapidamente se  lo
+ si riscalda. Si arguisce che un oggetto fonda perche` le molecole hanno  perso
+ la loro informazione su dove dovrebbero essere (cioe`, hanno emesso dei compu-
+ troni). Questo spiega perche` i calcolatori si scaldano cosi` e richiedono  il
+ condizionamento  d'aria; usano computroni. Inversamente, si potrebbe  raffred-
+ dare  un oggetto facendolo attraversare da un raggio di computroni.  Si  pensa
+ che  questo  possa anche spiegare il fatto che le macchine che  funzionano  in
+ fabbrica  falliscano nella stanza dei calcolatori - perche` i computroni  sono
+ gia` stati usati tutti dal vostro altro hardware.
+
+      <condition out>: [condizionare via] vt. Fare in modo che una parte di co-
+ dice  non venga compilata ponendola in mezzo a una direttiva  di  compilazione
+ condizionale che sia sempre falsa. L'esempio canonico (v. <canonical>) e` `#if
+ 0' and `#endif' in C. Confr. <comment out>.
+
+      <condom>:  [preservativo] s. La custodia protettiva di plastica  dei  di-
+ schetti da 3.5". A differenza del write protect, il c. (se lasciato) non  solo
+ impedisce la pratica del <SEX>, ma e` stato dimostrato avere un alto tasso  di
+ fallimento quando i meccanismi del drive cercano di accedere al disco - e puo`
+ persino frustare fatalmente l'inserzione!
+
+      <cons>:  [dal LISP] 1. v. Aggiungere un nuovo elemento a una  lista,  sp.
+ all'inizio. 2. `cons up': vt. Sintetizzare da pezzi piu` piccoli: "to cons  up
+ an example".
+
+      <considered harmful>: [considerato nocivo] agg. L'infame nota di Edsger W.
+ Dijkstra  nelle Communications of the ACM di marzo 1968, `Goto Statement  Con-
+ sidered Harmful', lancio` la prima bordata nella guerra della  `programmazione
+ strutturata'. E` divertente notare che l'ACM ha considerato la lite risultante
+ cosi` nociva da evitare (per policy) di pubblicare un articolo che prenda  una
+ posizione cosi` assertiva contro una pratica di codifica. Nelle decadi succes-
+ sive,  un  gran numero di articoli seri o parodistici sono usciti  con  titoli
+ della  forma `X considerato Y'. La guerra della programmazione strutturata  e`
+ terminata quando si capi` che entrambe le parti avevano torto, ma l'uso di ti-
+ toli simili sono rimasti come tormentone. Il `considerato stupido' (considered
+ silly) trovato spesso tra queste voci e` correlato.
+
+      <console>: s. 1. La postazione di operatore su un <mainframe>. Nel lonta-
+ no passato, era una postazione privilegiata che conferiva poteri divini a  co-
+ lui (quasi invariabilmente un `lui') che aveva le dita sui tasti. Sotto UNIX e
+ altri SO multiutente, e` semplicemente il <tty> da cui si fa partire il siste-
+ ma.  Rimane pero` del mistico, ed e` tradizionale per i sysadmin postare  mes-
+ saggi urgenti per tutti da /dev/console. 2. Sui microcomputer UNIX: lo schermo
+ principale  e la tastiera (opposti ai terminali a caratteri collegati via  se-
+ riale). Tipicamente solo la console puo` fare grafica o girare <X>.
+
+      <content-free> [libera dal contenuto]: agg. Ironica analogia di `context-
+ free' [libera dal contesto], usata per un messaggio che non aggiunge nulla al-
+ le  conoscenze del destinatario. Anche se l'aggettivo e` a volte applicato  al
+ <flamage>, connota piu` in genere derisione per gli stili di comunicazione che
+ esaltano la forma sopra la sostanza, o sono centrati su questioni  irrilevanti
+ rispetto  all'attuale soggetto. Usato per lo piu` con riferimento ai  discorsi
+ dei  presidenti di societa`. "Content-free? Uhm... qualunque cosa stampata  su
+ carta patinata".
+
+      <Conway's Law> [Legge di C.]: prov. La regola che afferma che  l'organiz-
+ zazione  del  software  e l'organizzazione dei  softwaristi  sono  congruenti:
+ espressa originariamente come "Se hai quattro gruppi che lavorano su un compi-
+ latore, si otterra` un compilatore a quattro passi".
+
+ E` stata promulgata originariamente da Melvin Conway, un protohacker del  pas-
+ sato che scrisse un assembler per il Burroughs 220 chiamato SAVE. Il nome  non
+ aveva nessun significato nascosto; era stato scelto semplicemente perche`  ve-
+ nivano buttati via meno listati - in cima a tutti c'era scritto SAVE [salva].
+
+      <cookie>  [biscotto]: un qualunque simbolo di conferma tra processi  coo-
+ peranti.  "Gli ho dato un packet, e lui mi ha ritornato un c.". Confr.  <magic
+ cookie>; vedi anche <fortune cookie>.
+
+      <cookie  file>: s. Una collezione di <fortune cookies> in un formato  che
+ facilita  la  loro estrazione da un programma di fortune [le massime].  Ce  ne
+ sono diversi liberamente distribuibili, e i sysadm ne creano spesso a  partire
+ da varie sorgenti compreso questo lessico.
+
+      <cookie monster> [da `Sesame Street': il mostro dei biscotti]. Uno  degli
+ scherzi  apparsi  all'inizio  degli anni '70  sui  sistemi  <TOPS-10>,  <ITS>,
+ <Multics> e altri, che bloccava il terminale della vittima o la <console>  do-
+ mandando ripetutamente "I WANT A COOKIE" [voglio un biscotto]. Le risposte ri-
+ chieste variavano in complessita` da "COOKIE" a "HAVE A COOKIE" [prendi un bi-
+ scotto] e oltre. Vedi anche <wabbit>.
+
+      <copy  protection> [protezione dalla copia]: s. Una classe di metodi  in-
+ telligenti per prevenire i pirati incompetenti dal rubare software e i  legit-
+ timi acquirenti dall'usarlo. Considerato stupido.
+
+      <copybroke>  [gioco su `copyright']: agg. Usato per descrivere una  copia
+ di  un programma protetto dalla copia che e` stato `broken' [violato]:  cioe`,
+ un copia con la protezione contro le copie disabilitata. Sin. <copywronged>.
+
+      <copyleft> [gioco su `copyright']: s. 1. L'avviso di copyright  (`General
+ Public  License') compreso nel software <GNU> e in genere della Free  Software
+ Foundation, che garantisce riuso e diritti di riproduzione a tutti gli  utenti
+ (ma vedi anche <General Public Virus>). 2. Per estensione, ogni copyright  che
+ intende raggiungere simili scopi.
+
+      <copywronged> [gioco su `copyright'] agg. Sin. per <copybroke>.
+
+      <core> [nucleo]: s. Memoria principale o RAM. Data dal tempo della  memo-
+ ria  in nuclei di ferrite; ora arcaico al di fuori dell'IBM, ma  ancora  usato
+ anche nella comunita` UNIX e da vecchi hacker o chi vuol far credere di esser-
+ lo. Alcuni modi di dire da esso derivati sono ancora correnti: `in core',  per
+ esempio, significa `in memoria' (opp. a `su disco'), e sia il <core dump>  che
+ il `core image' o `core file' da esso prodotti sono termini favoriti.
+
+      <core  dump> [gergo comune nella <Iron Age>, conservato da UNIX];  s.  1.
+ una  copia dei contenuti del <core> prodotti quando un processo abortisce  per
+ certi tipi di errore interno. 2. Per estensione, usato per uomini che  svenga-
+ no,  vomitino o abbiano uno choc estremo. "Ha fatto un c.d. . Tutto sul  pavi-
+ mento.  Che casino." "L'ha sentito... e ha fatto un c.d.". 3. Una  ricapitola-
+ zione di conoscenze (confr. <bits>, sign. 1). Da qui, sparare tutto quello che
+ si sa su un argomento, spec. in una presentazione o come risposta a una doman-
+ da di esame. "Risposte corte e concise sono meglio di c.d." (dalle  istruzioni
+ di un esame di qualificazione alla Columbia: confr. <brain dump>). V. <core>.
+
+      <Core Wars> [guerre dei nuclei]: s. Un gioco tra programmi `assembler' in
+ una  macchina simulata, dove l'obbiettivo e` uccidere il programma del  vostro
+ avversario  soprascrivendoci.  E` stato popolarizzato nella rubrica di  A.  K.
+ Dewdney su `Scientific American', ma si narra che e` stato inventato da Victor
+ Vyssotsky  come un hack su un PDP-1 hack, nei Bell Labs all'inizio degli  anni
+ '60.  Corre voce che il gioco sia una versione civilizzata di un  divertimento
+ chiamato DARWIN comune sulle macchine multitask prima dell'avvento dei segmen-
+ ti protetti di indirizzo. V. <core>.
+
+      <cosmic  rays> [raggi cosmici]: s. Teoricamente, la causa del <bit  rot>.
+ Pero`, ha un utilizzo semiindipendente; esso puo` essere invocato come un modo
+ umoristico  per scacciare via (v. <handwave>) tutte le <randomness>  (casuali-
+ ta`) che non sembrano valere la pena di essere investigate. "Hey, Eric - Mi e`
+ venuta  della schifezza sul mio <tube>, da dove e` arrivata?" "Raggi  cosmici,
+ penso." Confr. <sunspots>, <phase of the moon>. Gli inglesi sembrano preferire
+ l'uso di `cosmic showers' (tempeste cosmiche); si sente anche dire `alpha par-
+ ticles', poiche` fasci di particelle alfa che passino attraverso i chip di me-
+ moria  possono causare errori di un bit (cosa sempre piu` probabile  man  mano
+ che grandezza e densita` delle memorie crescono).
+
+ Nota fattuale: le particella alfa causano il bit rot, i raggi cosmici no  (ge-
+ neralmente, tranne forse per calcolatori spaziali). L'Intel non poteva spiega-
+ re errori casuali nei suoi primi chip. Un'ipotesi era quella dei raggi  cosmi-
+ ci. Essi crearono allora Il Piu` Grande Schermo Piombato Del Mondo, 25 tonnel-
+ late di piombo, e usarono due schede identiche per il test. Se davvero il  bit
+ rot  era causato dai raggi cosmici, si sarebbe dovuta trovare  una  differenza
+ statisticamente significante tra il tasso di errore nelle due schede. Risulta-
+ to:  ipotesi scartata. Ulteriori investigazioni dimostrarono che la colpa  era
+ delle  emissioni di particelle alfa dal torio (e in minor misura  dall'uranio)
+ nel materiale di incapsulazione. Visto che e` impossibile eliminare questa ra-
+ dioattivita`,  distribuita  uniformemente  sulla  crosta  terrestre,  con   la
+ insignificante  deviazione statistica delle miniere di uranio), divenne  ovvio
+ che il disegno delle memorie dovesse tenerne conto.
+
+ ############                                                               ###
+ ###  10  ###                                     NOTIZIE FIDONET REGION 33 ###
+ ############                                                               ###
+
+      Stante  la solita mancanza di notizie dagli altri network (piu`  precisa-
+ mente, Vertigo mi avvisa esplicitamente che questo mese non ci sono nuove  dal
+ 331, oltre a spedirmi la presentazione di DrComm tagliata per ragioni di  spa-
+ zio),  ricordo  solamente  agli affezionati lettori del  network  334  che  la
+ riunione  mensile  non  programmata ad aprile si terra`  invece,  rimandata  a
+ lunedi` 13 - ore 21 - C.so Sicilia 12 c/o il CRDC. Confermata la riunione  del
+ 2  maggio, nella quale potreste magari anche fare gli auguri di compleanno  al
+ vostro editor preferito :-)
+
+      Puo`  essere  pero` interessante questa notizia che ho  recuperato  nella
+ lista  europea universitaria sui PC IBM e che potrebbe probabilmente  riaprire
+ un discorso in DEWDNEY.ITA. Eccola qui, debitamente tradotta:
+
+ ==============================================================================
+
+ From: "Harrie Overdijk. (++31-2246-4597)" <ESU0001@HPEENR51.BITNET>
+ Subject: Uno strano fenomeno
+ Sender: Red Users Group on Provided Software <RED-UG@TREARN.BITNET>
+ To: Maurizio Codogno <mau@bilbo.cselt.stet.it>
+
+      Cari *.*,
+    
+      Ieri ho fatto una scoperta molto interessante:
+     
+      Stavo  facendo degli esperimenti e volevo sapere il peso di un  dischetto
+ "3M" da 5.25 pollici, alta densita`. Ho formattato il disco e l'ho pesato  con
+ una  bilancia di precisione (io studio chimica, quindi in laboratorio  non  ho
+ problemi a recuperarla). Il suo peso era di 13.695 grammi (la precisione della
+ bilancia e` di 1/200 di grammo). Ho poi pesato un disco che avevo  precedente-
+ mente  azzerato (avevo scritto un programmino che creava un files con tutti  i
+ 1213952 bytes a zero). Il peso del disco era di 13.645 grammi.
+    
+      La cosa mi ha stupito alquanto, e ho preso gli altri dischetti da format-
+ tare  della scatola. Effettivamente il peso medio di questi dischetti  era  di
+ 13.700  grammi,  quindi statisticamente parlando il disco con tutti  0  pesava
+ 0.055 grammi meno degli altri.
+
+      Ho  immediatamente  scritto  un nuovo programmino che  riempisse  il  mio
+ dischetto  di  prova  con  i  bit tutti settati a  1.  Non  ci  crederete,  ma
+ effettivamente  il  disco pesava 0.055 grammi piu` della media di  quelli  non
+ formattati.
+
+      Ma  la  cosa  che  mi ha lasciato piu` stupito e`  stata  il  fatto  che,
+ scrivendo  sul disco i bit alternati (01010101...) il disco non  e`  risultato
+ pesare 13.700 grammi come immaginavo, ma 13.620 grammi, cioe` *meno* di quello
+ con tutti zeri.
+
+      Chi e` che puo` spiegarmi questo fenomeno? Ha forse a che fare col  campo
+ magnetico  terrestre?  (questa  idea mi e` venuta  adesso,  purtroppo  non  ho
+ pensato a girare i dischetti prima di pesarli).
+
+ Greetings,
+           Harrie Overdijk      Bitnet/EARN : ESU0001@HPEENR51
+           ECN - Petten            Internet : OVERDIJK@ECN.NL
+           Holland                 Noisenet : ++31-2246-4597
+
+ ==============================================================================
+
+      Beh,  se avete qualche idea di spiegazione scrivetemi,  altrimenti  saro`
+ costretto a vedere cosa mi diranno i miei amici in DEWDNEY.ITA...
+
+
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:   
+
+ 334/100 - 011-3299706     | 334/1   - 011-5765565     | 331/112 - 0341-360511
+ 333/603 - 040-3783111
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/0   - 011-5765568     | 334/306 - 0121-542795     | 335/210 - 081-5709527
+ 335/405 - 06-315323    
+
+
+
+
+####                            End of TELEM016                            ####

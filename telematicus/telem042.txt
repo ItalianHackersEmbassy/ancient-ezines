@@ -1,0 +1,2862 @@
+ #### TELEM042 - Telematicus - Volume 04 - Numero 07 - Anno 1994 - 130 pag.####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                     Luglio/Agosto/Settembre/Ottobre 1994
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematicus   e'  (C)  dei  singoli  autori.   E'
+ espressamente consentita la distribuzione e il riutilizzo  del  bollettino  in
+ tutto  o in parte, purche' non a fini di lucro e citando sempre autore e fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 130 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+
+ [ 1]  Editoriale  .   .   .   .   .   .   .   .   .   .   .   .  (RRE) pag.  4
+ [ 2]  Lettere aperte  .   .   .   .   .   .   .   .   .   .   . (AAVV) pag.  7
+ [ 3]  FidoCrackdown II.   .   .   .   .   .   .   .   .   . (Costa II) pag. 13
+ [ 4]  BBS 1ST impression: OpenLand BBS.   .   .   .   (Pierluca Monge) pag. 62
+ [ 5]  Internet: 4 chiacchiere .   .   .   .   .   .   .   (Alex Lirus) pag. 72
+ [ 6]  Nuova Alba  .   .   .   .   .   .   .   . (Enrico Franceschetti) pag. 77
+ [ 7]  Curiosita': Il gergo hacker .   - parte 36  .   .   .   . (AAVV) pag. 87
+ [ 8]  ALCEI   .   .   .   .   .   .   .   .   .   .   .   .   .   (?)  pag. 99
+ [ 9]  Navigare nelle CPU  .   .   .   .   .   .   .(Giuseppe De Marco) pag.105
+ [10]  Errata corrige  .   .   .   .   .   .   .   .   .   .   . (AAVV) pag.110
+ [11]  Notizie Fidonet region 33   .   .   .   .   .   .   .   . (AAVV) pag.112
+
+
+
+
+
+
+                  Questo Telematicus e' nato con l'aiuto di...
+
+                                          | * I collaboratori dai network: *
+ Editor Netticus    : Stefano Costa2      |
+ Editor Importunus  : Pierluca Monge      |
+ Editor Internettus : Alex Lirus          | Giovanni Lopes      (2:332/114.2)
+ Editor Aeternus    : Maurizio Codogno    | Roberto Orsini      (2:332/425)
+ Editor Pregerrimus : Enrico Franceschetti| Adolfo Mellili      (2:333/1)
+ Editor CPUpposo    : Giusppe De Marco    | Herve Miozzo       (2:333/511.20000)
+                                          | Angelo Verdone      (2:334/21)
+                                          | Enrico Franceschetti(2:335/212)
+                                          |
+ Editor mittens     : Moreno Cuman, Gianluca Cheli
+ Editor saccheggiati: tutti  quelli  del  file  ECATOMBE.TXT;  Emanuele Somma,
+                      Stefano Zano
+                      Eric S. Raymond <esr@snark.thyrsus.com>
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO) al 011-9235565.
+ e-mail: Renato.Rolando@PMN.IT
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+                           QUESTO NUMERO E' DEDICATO
+                                 ALLA MEMORIA
+                                      DI
+
+                                KARL R. POPPER
+
+                   MORTO IL LO STESSO GIORNO DI MOANA POZZI
+
+  L'altro editoriale era bellissimo! Purtroppo SpellIta me lo ha mangiato :(
+
+  Parlavo di Vertigo, di come goda di ottima salute - sono sempre i migliori ad
+ andarsene per primi - di come la sua strafottanza (strafottanza ?) nell'essere
+ l'unico  a  non  dare notizie sul net (ne' a dire di non poter sopperire ad un
+ simile impegno, proprio non mi  risponde  mai)  in  fondo in fondo possa farmi
+ sorridere, se non altro.
+
+  Quello che invece mi fa imbestialire sono  quegli  sporcaccioni  del  Galileo
+ Ferraris  che  hanno  spostato il servizio dell'ora via modem in un servizio a
+ pagamento.  Nel 114...  non ve lo dico perche' sono contrario: tutti i prg che
+ leggono l'ora via modem (mio  incluso  anche  quando  gli studi di canale 5 mi
+ hanno chiesto se dovevano scialare per usarlo) sono PD.  Ed  ecco  che  questi
+ sconci  ci lucrano sopra!  La notizia l'ho avuta dal buon Antonello Pagliacci,
+ grazie Antonello.
+
+  Inoltre - non fosse per gente  di  massimo rispetto quale quella che ha messo
+ in piedi il numero 9 di DECODER - di FidoCrackdown non se ne parla piu' tanto.
+ Lo stesso file Ecatombe.TXT non  e'  piu'  aggiornato  da  parecchio:  non  mi
+ risulta  che la cosa sia finita per la pretura, anzi!  Bene, mi impegno - e so
+ che questo dara'  fastidio  al  Vertigo  -  a  tenere  aperto  il piu' a lungo
+ possibile l'argomento.
+
+  Che dire altro?  ah si, dicevo che per motivi miei - non di  SpellIta  questa
+ volta  -  ho saltato 2 numeri (forse 3 :) ) di Telematicus: prima mi si spezza
+ il mio bel 386/20Mhz - un gioiello!   - poi problemi personali sulla vita, poi
+ le cavallette...  Devo dire che sono stato rincuorato dalla  sostanziosa  mole
+ di  matrix  che  -  preoccupati  -  mi  chiedevano sulle sorti di Telem.  Sono
+ commosso; grazie!
+
+   Dicevo  che  alcuni  articoli  verranno  spostati  al  prox number - per non
+ appesantire troppo questo -  articoli  comunque di pregio (abbiamo addirittura
+ gia' pronto un lettore di Telem per Mac ed un po' di articoletti su come  fare
+ un point in Mac...!! Watz!). Tutto questo grazie al *mitico* Moreno Cuman.
+
+  Poi  abbiamo  un  po'  di  nuove  entrate,  che i Lettori, la Redazione ed io
+ salutiamo calorosamente.
+
+  Poi devo una papera a qualcuno... il resto non me lo ricordo.
+  Insomma buona lettura!
+
+
+
+
+
+                                                                        RRE
+
+
+
+
+
+
+
+
+ ############                                               LETTERE APERTE  ###
+ ###   2  ###                                               AAVV            ###
+ ############                                                               ###
+
+ Riassunto:
+        La prima missiva e' anche  una  'corrige'.   E' anche un annuncio di un
+        lettore di Telem per Mac...   insomma  e'  un  sacco  di  cose!   (Devo
+        trovare  la  voglia  per  spedirgli  la  mia  papera  di  gomma...   :)
+        Dimenticavo,    e'    anche   un   annuncio   per   un   megafantastico
+        "programma-perpoint" PIZZA su Mac...  Insomma Moreno Cuman e' veramente
+        un *MITOMAC*!!
+
+        Tra l'altro tutto questo - nella  migliore tradizione - non ci sara' da
+        questo number ma dal prox (e' gia' un number  grossino...).   Ci  fosse
+        qualche  Macchiano  interessato  alla  cosa  mi telefoni repentinamente
+        (lasciando delle generalita' *estese* e chiare; non cose del tipo "sono
+        il Pino", "sono Tino" etc. etc.). Mi scuso intanto con Moreno. :-%
+
+        La seconda e' la felice  fortunata  di un'estrazione: ho avuto talmente
+        tante mail che mi chiedevano che fine avesse  fatto  telem  da  poterci
+        fare  un  number!   Ragazzi, sono commosso.  Allora a mia insindacabile
+        discrezione ho deciso di pubblicarla almeno una (sempre che non esca un
+        number monotematico a riguardo per la vostra gioia :) ...)
+
+ ------------------------------------------------------------------------------
+
+ From : Moreno Cuman                        2:333/205.102   29 Jun 94  06:47:02
+ To   : Renato Rolando                      2:334/100.9     ^^^^^^^^^
+ Subj : Son qui per spartire i premi... :-)                 [NdE: hem hem...]
+
+ Ciao Renato,
+     sono uno dei numerossissimi (se 25 son tanti ;-) lettori  di  Telematicus.
+ Nel numero 40 riempivi qualche riga con:
+
+ ---[RRE da Telematicus 40]---
+
+   Ah,   si,   ecco.    Inserisco   l'attuale   RT   (Read   Telematicus)  che,
+ inspiegabilmente, non ha funzionante in questo number lo Skip oltre l'articolo
+ 6. Inserisco  anche  i  sorgenti.   Ricchi  premi  e  cotillons  per chi trova
+ l'errore!
+
+ ---[RRE da Telematicus 40]---
+
+ Vabbe', l'errore l'ho trovato:
+
+>[ 7]  Curiosita': Il gergo hacker .   - parte 34  .   .   .  (AAVV)    pag. 79
+
+ in realta' e'
+
+ [ 7]  Curiosita': Il gergo hacker .   - parte 34  .   .   .  (AAVV)    pag. 29
+                                                                             ^^
+  Finite le notti insonni!  ...  Ma ti  pare  che  ti  scrivo  per  comunicarti
+ questo?!   Solo questo?  No, ci son pure i soliti complimenti :-P e la notizia
+ che ho compilato RT per Mac (eh si, _purtroppo_ possiedo il computer per foche
+ ammaestrate ;-).
+
+  Si, lo so che cercavi  gli  #if  ...  etc.  etc.  salute!  (faceva abbastanza
+ pena?  :-) ma la grafica ANSI era 'na palla da realizzare per cui ho ritoccato
+ un po' (riscritto le parti che stampano a video)  il  tuo  sorgente.   Non  e'
+ proprio  bello  (l'utente  Mac,  se  non click-a fa l'esaurimento) ma si legge
+ meglio che con il solito editor...
+
+  Che dici, ne  dai  notizia?   Te  lo  spedisco?   Se  almeno dieci utenti Mac
+ lettori di Telematicus mi scrivono (mi voglio rovinare) ne faccio una versione
+ con click e popup menu, colori e  ipertesto.   A  oggetti,  magari,  cosi'  si
+ adatta facilmente.  Driiin!  Fine del sogno.
+
+
+                                               Moreno._
+                                      e-mail: qman@maya.dei.unipd.it
+
+ P.S.
+     RT.MAC  e'  F/R  su Erika_BBS: Fabio Costa,2:333/205,0445-560181,Erika_BBS
+     con il nome RT.CPT e misura 15Kb: RT.CPT,Fabio Costa
+
+ P.P.S.
+     Ma che senso ha il P.S.  con un word processor?
+
+     Comunque: il  "programma-per-point"  PIZZA  usato  dal  sottoscritto e' un
+     prodotto  tutto  italiano  migliore  di   qualsiasi   altra   applicazione
+     disponibili  per Mac ( 'azzo che modestia).  Interessa una recensione?  In
+     un generi-  co  "parlar-di-point-per-Mac",  s'intende!   Non  un: quant'e'
+     'bello Pizza.  Anche se Lucio Cosmo, autore, ne sarebbe contento.  Se  non
+     altro si puo' tentare di rispondere alla domanda (classica?) dei SysOp:
+
+     "Ho un utente Mac che vuole diventare point: che programma deve usare?"
+     ...
+
+ Grazie per aver letto tutto ;-))
+ [NdE: abbiamo fatto un *enorme* sforzo! :) ]
+
+ --- Pizza 1.0.4
+     ^^^^^ [NdE: Watz! Proximamente su questo potente mezzo...!]
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From : Gianluca Cheli                      2:332/416.16    27 Sep 94  18:46:32
+
+ Ciao Renato!
+
+  Dopo tre mesi in costante attesa dell'uscita del "prossimo numero" di  Telem,
+ mi  sono  deciso  a  scriverti per avere tue e *sue* notizie.  Il Breakdown ha
+ fatto un'altra vittima  ?   Ti  sei  stancato  di  redigere  quello che era un
+ gradito appuntamento mensile ?  Si e' abbattuto qualche cataclisma su quel  di
+ Torino ?  :-)
+
+  Scusa  la  mia  curiosita',  ma come ti ho gia' detto ritengo Telem un'ottima
+ iniziativa, che in questi  anni  ha  sicuramente allargato gli orizzonti delle
+ BBS.
+
+ [NdE: I Lettori, la  Redazione  e  me  siamo  commossi  da  questa  sentita  e
+ sperticata ovazione!  :) ]
+
+
+ Ciao,
+
+
+                                                             Gianluca ... ]Stk[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                                    CrackDown! ###
+ ############                                             Stefano Costa & C ###
+
+ Riassunto:
+        Il *mitico* CostaII (Editor Netticus) ha superato  lo  stesso  Londona.
+        Ha  interrogato  noti  (e non) esponenti del mondo Fido ed ha tratto le
+        sue conclusioni.
+
+        Ci tengo a chiarire  che  FidoCrackdown  e'  tutt'ora  in atto.  Che la
+        redazione di Telem non si dimentichera' tanto facilmente della  cosa  e
+        che continueremo a parlarne - senza finire nel numero tematico - fino a
+        mio insindacabile giudizio :)
+
+        Per ora ascoltiamo il CostaII.
+
+ ------------------------------------------------------------------------------
+
+                                    I fatti
+
+  11 Maggio 1994, la guardia di Finanza, su invito  della  procura  di  Pesaro,
+ esegue  una serie di mandati di perquisizione in varie BBS, il 90% delle quali
+ appartengono a FidoNET.
+
+  Questa iniziativa e' stata  chiamata,  sia  in  FidoNET  che in altri network
+ paralleli, "Italian Crackdown" per il fatto  che  questa  operazione  presenta
+ diversi  punti in comune con un'analogo e tristemente famoso raid del servizio
+ segreto americano ai danni di BBS gestite da presunti hackers.
+
+  Recentemente (l'anno scorso) il giudice  Sam Sparks ha condannato il servizio
+ segreto americano a pagare alla Steve Jackson Games, una delle  ditte  colpite
+ dal   raid,  52000$  per  danni  causati  dall'abuso  di  atti  d'ufficio  (PC
+ sequestrati e mai piu' restituiti),  danni  materiali (perdita di lavoro e dei
+ progetti di nuovi prodotti andati via coi PC)  e  1000$  per  ognuno  dei  tre
+ scrittori  della  ditta  indagati.   Se siete interessati ai particolari della
+ storia, leggete la bibliografia [1] e  [2],  che riporta in dettaglio tutta la
+ storia.
+
+ Ritornando a casa nostra, questo e' quanto e' all'origine di tutto:
+
+    N. 237/94 R.G. notizie di reato
+
+    PROCURA DELLA REPUBBLICA
+    presso il TRIBUNALE DI PESARO
+
+    DECRETO DI PERQUISIZIONE LOCALE
+    -artt. 250 e segg., 549 c.p.p, -
+
+    Il P.M. dr. Gaetano Savoldalli Pedrocchi.
+
+    Visti gli atti del  procedimento  n.  237/94  R.G.N.R.   nei  confronti  di
+    PAOLOROSSO Paolo e CARDINALI Rossano
+
+    per  il reato di cui all'art.  416 C.P.  perpetrato in concorso con persone
+    allo stato ignota, al fine di commettere i reati di cui agli artt.  615 ter
+    e quater C.P., 640 ter C.P., art.   171 bis L. 22.4.41 nr.  633 (modificata
+    dal D.L.  29.12.1992 nr.  516) e di  cui  agli  artt.   282  e  292  D.P.R.
+    23.01.1973 nr.  43;
+
+    poiche' vi e' fondato motivo di ritenere che presso le residenze, domicili,
+    relative  pertinenze ed accessori, ovvero altri luoghi e mezzi di trasporto
+    di cui i soggetti  risultano  avere  la  disponibilita' a qualsiasi titolo,
+    possono rinvenersi cose pertinenti ai reati  per  cui  si  proceda,  ed  in
+    particolare;
+
+    -  floppy  disk  (dischetti magnetici), CD Rom e Worm (dischetti digitali),
+      streamer  (cassette  magnetiche),  strumentazione  informatica  atta alla
+      riproduzione di software applicativo e  ludico  illecitamente  duplicato,
+      modem  e quant'altro attinente e necessario alla commissione dei suddetti
+      reati.
+
+    Visti gli artt.  250 e segg.  c.p.p.;
+
+                                 D I S P O N E
+
+    la perquisizione locale  nella  sede  della  ditta  THUNDERBOLT MACHINES DI
+    RICCARDO IACOBUCCI, sita a Pisa, via San Michele degli Scalzi nr.  123, ove
+    risulta domiciliato anche l'omonimo titolare, nato a Rionero Sannitico (IS)
+    il  28.11.1964  o  alternativamente,  nei  luoghi  ove  risulti  allacciata
+    l'utenza telefonica nr.  050/598631 e nei confronti di  persone  fisiche  e
+    giuridiche  che  abbiano  la  disponibilita',  a  qualsiasi  titolo,  della
+    predetta  utenza  telefonica, ed in ogni altro luogo e/o mezzo di trasporto
+    nella disponibilita'  a  qualsiasi  titolo  del  medesimo,  anche fuori dai
+    limiti temporali di cui all'art.  251 c.p.p.  con  rimozione  di  eventuali
+    ostacoli  fissi,  con  conseguente sequestro; a norma dell'art.  252 c.p.p.
+    di quanto rinvenuto;(1)
+
+    che copia del seguente decreto  sia consegnato alla persona sottoposta alle
+    indagini se presente, o a chi abbia l'attuale disponibilita'à del luogo(2),
+    con avviso che ha la facolta' di farsi rappresentare o assistere da persona
+    di fiducia; purche'é questa sia prontamente reperibile  e  idonea  a  norma
+    dell'art.  120 c.p.p.;
+
+    che  la  consegna  del  predetto  decreto valga anche quale informazione di
+    garanzia nei confronti dell'indagato  ai  sensi  dell'art.  369 c.p.p., con
+    l'invito a nominare  un  difensore  di  fiducia.   Qualora  l'indagato  non
+    intenda   avvalersi   di  tale  diritto,  usufruira'à  dell'assistenza  del
+    difensore d'ufficio di turno nella data di esecuzione del presente decreto.
+
+    Delega per la perquisizione  ufficiali  di  Polizia Giudiziaria del Comando
+    Nucleo Regionale pt della Guardia di Finanza di  Ancona  con  facolta'à  di
+    sub-delega.
+
+    Pesaro, 7 Mag 1994
+
+    F.to
+    Il collaboratore di Cancelleria
+    Tiziana Rubechi
+
+    Il Pubblico Ministero
+    Il Procuratore della Repubblica
+    Dr. Gaetano Savoldelli Pedrocchi
+
+    NOTE
+
+    (1) Dare atto, se del caso, dell'urgenza  e  della  conseguente  deroga  ai
+        limiti temporali previsti dall'art.  251 c.p.p.  (ore 7 - ore 20).
+
+    (2) Se mancano le persone indicate si applicano gli artt. 250 comma 2
+        c.p.p.
+        ed art. 80 D.L. 271/89
+
+    ART. 120 c.p.p. TESTIMONI AD ATTI DEL PROCEDIMENTO
+
+    1. Non possono intervenire come testimoni ad atti del procedimento:
+
+       a) i minori degli anni  quattordici  e le persone palesemente affette da
+          infermita'  di  mente  o  in  stato  di   manifesta   ubriachezza   o
+          intossicazione  di  sostanze stupefacenti o psicotrope.  La capacita'
+          si presume sino a prova contraria.
+
+       b)  Le  persone sottoposte a misura di sicurezza detentive o a misure di
+          prevenzione.
+
+    TIMBRI
+
+    PROCURA DELLA REPUBBLICA DI PESARO
+
+    COMANDO NUCLEO REGIONALE GUARDIA DI FINANZA
+
+    PER COPIA CONFORME
+    IL COMANDANTE DEL NUCLEO Cap. Gianfranco CAROZZA
+
+    GUARDIA DI FINANZA
+    NUCLEO REGIONALE POLIZIA TRIBUTARIA ANCONA
+
+     Sub-delego per l'esecuzione gli Ufficiali di Polizia Giudiziaria e
+     Tributaria della Guardia di Finaza di <campo vuoto>
+     con facolta'à di sub-delega.
+
+     Ancona, li' 9 Mag 1994
+
+    COMANDO NUCLEO REGIONALE GUARDIA DI FINANZA ANCONA
+
+    COMANDANTE DEL NUCLEO Vincenzo ?utterese
+
+    END Decreto
+
+
+    BEGIN Verbale
+
+    8a Legione Guardia di Finanza
+    COMANDO NUCLEO POLIZIA TRIBUTARIA DI PISA
+
+    VERBALE DI PERQUISIZIONE LOCALE E SEQUESTRO
+
+    L'anno 1994, addi' 11 del mese  di  Maggio,  in Pisa, presso gli uffici del
+    Comando in intestazione i sottoscritti ufficiali di  P.G.:  Brig.   DE.IASO
+    Nino,  App.ti  Upg.   DE  LUCIA  Vincenzo e DE LUCA Giorgio, procedono alla
+    redazione del presente verbale per  far  risultare  che, alle ore 15.30 del
+    11.05.94, in esecuzione del motivato  decreto  nr.   237/94  r.g.n.r.   del
+    07.05.94, emesso dal P.M.  Dr.  Gaetano Savoldelli Pedrocchi, della Procura
+    della Repubblica presso il Tribunale di Pesaro, si sono recati in Pisa, via
+    San  Michele  degli  Scalzi  nr.  12 al fine di eseguirvi una perquisizione
+    locale nei confronti di: IACOBUCCI  Riccardo  nato a Rionero Sannitico (IS)
+    il 28.11.1964, residente a Termoli (CB) vico N. Sauro nr.  38 e domiciliato
+    in Pisa via S.Michele degli Scalzi nr.  123 nella sua qualita' di laureando
+    in  Scienze  delle  Produzioni  Animali,  identificato  a  mezzo  P.A.  nr.
+    CB20499785 rilasciata dal prefetto di Cambobasso in data 16.10.85.
+
+    Dopo  essersi  presentati  con  le  modalita'  di  rito  al sig.  IACOBUCCI
+    Riccardo,  i  verbalizzanti  hanno  manifestato  lo  scopo dell'intervento,
+    notificando  copia  del  decreto  di  autorizzazione   ad   effettuare   la
+    perquisizione.
+
+    Prima  di  iniziare  l'atto il Sig.  IACOBUCCI, avvertito dalla facolta' di
+    farsi assistere da un  difensore  o  persona  di  sua fiducia, senza che ci
+    potesse comportare ritardi nell'esecuzione dello stesso, ha dichiarato: "si
+    e' avvalso di tale facolta' nominando l'AVV.  COLOMBAIONI Enrico  del  Foro
+    di Pisa quale difensore designato d'ufficio, lo stesso non ha presenziato".
+
+    Gli  operanti,  quindi,  alla  presenza   della  parte  hanno  eseguito  la
+    perquisizione in nr.  2 (due) locali oltre alla Cucina e bagno rinvenendo e
+    ponendo sotto sequestro le cose sotto elencate:
+
+     - nr. 1 unita' centrale 486 dlc 33 completa di hard disk;
+     - nr. 1 unita' centrale 386 sx mancante di hard disk;
+     - nr. 2 tastiere;
+     - nr. 1 modem "ZYXEL" mod U-1496 completo di alimentatore e cavi;
+     - nr. 1 monitor 14" a colori marca "CST";
+     - nr. 2 mouse;
+     - nr. 1 multipresa completa salvasbalzi di tensione;
+     - nr. 6 cavi per collegamenti vari;
+     - nr. 434 floppy disk da 3"1/2 riprodotti
+
+ In pratica si contesta la diffusione di software piratato e  l'associazione  a
+ delinquere  per  il  fatto che si suppone che la rete collabori attivamente al
+ fenomeno.  A casa del presunto  pirata  sono  stati trovati numeri di telefono
+ relativi a varie BBS, ed il magistrato ha deciso che si trattasse di materiale
+ interessante e relativo a posizioni illegali.  Il resto e' storia.
+
+ Se volete conoscere in dettaglio le opinioni del giudice riguardo  l'inchiesta
+ leggete la bibliografia [3].
+
+ Questa la lista (parziale, ahime') delle BBS interessate ai sequestri.
+
+ Fido:
+ ------
+ Luca Spada           2:331/106-117-121 sequestrato tutto
+ Alberto Giovaninetti 2:331/103 sequestrato tutto
+ Luca Croci           2:331/108 ?
+ Ascanio Orlandini    2:331/203 solo perquisito
+ Paolo Borghesi       2:331/204 sequestrato tutto
+ Alfredo Persivale    2:331/302 sequestrato tutto, anche comp. azienda
+ Michele Fadda        2:331/320 solo perquisito
+ Walter Mascarin      2:331/323 solo perquisito
+ Domenico Pavone      2:331/331 sequestrata la stanza del computer!
+ Othmar Tschrepp      2:331/334 sequestrato o sigillato
+ Giulio Cipriani      2:331/344 sequestrato tutto
+ Valentino Spataro    2:331/347 sequestrato tutto
+ Franco Mulato        2:332/101 ?
+ Samuele Landi        2:332/115 sequestrato tutto
+ Max Morando          2:332/200 sequestrato tutto
+ Massimo Berni        2:332/300-301 sequestrato tutto
+ Riccardo Pizzi       2:332/307 sequestrato tutto
+ Fabrizio Carloni     2:332/316 sequestrato tutto
+ Massimo Sabbatini    2:332/320 sequestrato tutto
+ Alessandro Benvenuti 2:332/400 sequestrato tutto
+ Paolo Sinigaglia     2:332/407 sequestrato tutto
+ Fabio Muzzi          2:332/417 sequestrato tutto
+ Cleindori Aillard    2:332/427 sequestrato tutto
+ Mario Mure'          2:332/505 sequestrato tutto
+ Marco Venturini Auti 2:332/617 sequestrato tutto
+ Riccardo Iacobucci   2:332/618 sequestrato tutto
+ Mario Zambon         2:333/203 sequestrato solo dischetti
+ Piergiorgio Ghezzo   2:333/707-708 ?
+ Paolo Goria          2:334/701 risparmiato, sequestrato computers sponsor
+ Michele Scopelliti   2:335/512 sequestrato tutto
+ Giuseppe Giardina    2:335/713 sequestrato tutto
+ Andrea Contini       2:335/428 sequestrato tutto
+
+ Non fido:
+ ----------
+ Vittorio Mori        ex fido, non piu' bbs, sequestrato tutto
+ Curradini            Breakdown, sequestrato tutto
+
+ Points:
+ --------
+ Borghesi             2:331/204.3 sequestrato tutto
+ Caruso               2:331/204.6 sequestrato tutto
+ Bisanti              ??          sequestrato tutto
+
+
+                                  I COMMENTI
+                               ================
+
+ Odio   i   personaggi  che,  senza  alcuna  cognizione  di  causa,  fanno  gli
+ opinionisti.  Ecco i commenti di chi c'era:
+
+ [...]
+ From: staff@ita.it (ITA Staff)
+ Date: Mon, 23 May 1994 14:44:51 +0200 (EET)
+ To: scosta@bix.com
+ Subject: Re: Italian crackdown
+
+ > conosci qualcuno che ha un'elenco completo delle BBS interessate (oltre
+ > quello postato in CyberNET?
+
+ purtroppo no...  pero' sabato ero in pretura  a Pesaro e ho potuto ammirare la
+ pila enorme di verbali...  (alta piu' di me che sono 1,90...)
+
+ > puoi fare una piccola cronaca di quanto e' successo personalmente a te ed
+ > alla tua BBS, quanto ti e' stato confiscato, cosa ti ha disturbato?
+
+ sequestrati 6 hard disk, una workstation Sun, nastri di segreteria  telefonica
+ (compreso quello outgoing), sigillato tutto il resto nella mia camera da letto
+ che  e'  rimasta  inaccessibile per 8 lunghi giorni (fortuna che ho una stanza
+ per gli ospiti).
+
+ Poi una volta de-sigillata la  stanza  tutto  quello che c'era dentro e' stato
+ sigillato con cartoni e lasciato in custodia a me.  Danni enormi sia a livello
+ di immagine che materiali.
+
+ > Spero in una tua collaborazione, ti auguro che il tutto si risolva
+ > in fretta.
+
+ Pare che la mia richiesta (iper motivata) di dissequestro sia stata accolta...
+ finche' non ho la mia roba di nuovo a casa non ci credo :-)
+
+ Riccardo
+                                   _\\|//_
+                                   ( 0-0 )
+ -------------------------------o00--(_)--00o------------------------------------
+      Riccardo Pizzi, SysAdmin                  Tel:   +39 71 204046
+      I.T.A. Informatica e                      Fax:  +39 71 2073033
+      Tecnologie Avanzate s.r.l.                E-Mail: staff@ita.it
+ ------------------------------------------------------------------------------
+
+ Questo e' stato piu' fortunato, ma comunque interessato alla vicenda....
+
+ ******************************************************************************
+   From: Marco Venturini Autieri                       Msg Num:   113 of   195
+     To: All                                          Date: 11 May 94  21:42:34
+   Subj: GdF
+   Attr:                                                               Read: N
+ ******************************************************************************
+
+ Oggi pomeriggio la Guardia di Finanza e' venuta col mandato per perquisire  la
+ casa  e  cercare  materiale "atto alla duplicazione di software" illegalmente,
+ eccetera.
+
+ L'inchiesta e' partita, pare, perche' il nome del mio BBS e' stato trovato tra
+ la lista di un tizio  che  non  conosco,  mi  sembra  a  Modena (ora non ho il
+ mandato sotto mano), incriminato per la violazione della legge sul  copyright,
+ eccetera.
+
+ Anche  Riccardo  e'  stato  perquisito.   Sembra  che,  spaventati  dalla mole
+ imponente del suo materiale, il suo BBS sia stato requisito.
+
+ A me hanno lasciato tutto.   Sono stati favorevolmente impressionati dal fatto
+ che non ho, tra i miei dischetti che hanno controllato qui stesso,  visto  che
+ erano  pochi  (circa  140), software pirata, anzi ho mostrato loro il depliant
+ originale per la tutela del software  del  BSA, di cui stiamo parlando, guarda
+ caso, proprio ora in POINT.600, e che loro mi hanno mostrato in fotocopia.
+
+ Ho perfino dovuto mostrare le fatture dell'hardware, e tra queste tre  fatture
+ di Riccardo.
+
+ Ho   fornito   la   nodelist   di   Fido!!!    Volevano   l'elenco   dei  miei
+ "corrispondenti", e l'ho fatto con  piacere: voglio proprio vedere che faranno
+ con 31000 nodi sparsi in tutto il mondo!
+
+ Ho ovviamente dato tutte le spiegazioni del caso.
+
+ Diffondete la notizia di quest'operazione in corso.  Non  per  proteggere  chi
+ viola  la  legge!   Ma  perche'  il  mandato  arriva addirittura a chiedere la
+ requisizione di materiale atto alla duplicazione!!  Esagerato...
+
+ Grazie della pazienza.
+
+ --- GoldED/P32 2.42.G1219
+  * Origin: Niente per caso - 23:00 - 07:00 - 050 531031 - Pisa (65:1100/2)
+
+ Ecco la voce delle BBS non Fido colpite dal raid.....
+
+ ******************************************************************************
+   From: Malko Linge                                   Msg Num:   103 of   122
+     To: Gianluca Digiacomo                           Date: 22 May 94  20:56:00
+   Subj: La lista (dei visitati)
+   Attr:                                                               Read: N
+ *******************************************************************************
+
+ GD> ITAX:
+ GD> Bit & Byte BBS        70:101/17  Solo Perquisito il 18-5-94
+ GD> Paul Atreides
+
+ GD> Hello All.
+ GD> ecco un'altra segnalazione da sommarsi alle altre.... Senza
+ GD> contare i bbs che
+ GD> stanno chiudendo.... ed anche i singoli utenti visitati.....
+ GD> Facciamoci forza, e speriamo che la cosa si concluda per lo
+ GD> meno in fretta...
+
+ In data 18/5 sono venuti anche da me.
+
+ Rendez-Vous BBS (non FIDO), 3 linee, 2 Cd-Rom, qualche centinaio di HD ecc ecc
+ Non so che cosa li abbia convinti  a  non sequestrarmi tutta la baracca (ma di
+ ripiegare solamente su un centinaio di dischetti inutili),  forse  perche'  ho
+ "martellato"  piuttosto  a  lungo  sul fatto che RV era anche una Associazione
+ Culturale non a scopo di lucro e priva di qualsiasi attivita' commerciale, con
+ tanto di statuto, atto costitutivo e C.F.
+
+ Lo scopo istituzionale dell'Associazione  e'  la  diffusione e la tutela della
+ Telematica, e in qualita' di rappresentante legale di circa 200  SOCI  ero  in
+ dovere  di  salvaguardare  i  "locali"  dove quest'ultimi si potevano riunire.
+ Aggiorna la lista.
+
+ Ciao
+
+ ---
+  * Origin: Malko Linge (Rendez-Vous BBS) (65:1200/2)
+
+ ...passiamo alle voci ufficiali in Fido.....
+
+ *******************************************************************************
+ * Forwarded by Marcello Ardini (2:332/418) using Mercurio 1.13
+ * Area : netmail
+ * From : Vertigo, 2:331/301 (13 maggio 1994 12:44)
+ * To   : Marcello Ardini
+ * Subj : Raid Finanza, LEGGERE
+ *******************************************************************************
+
+ Copia in SYSOP.033 e crash agli NC/NEC.
+
+ Alcune notizie sparse sulla faccenda dei sequestri, scusate la telegraficita'
+
+ 1) Ieri sera qui a Milano ci  siamo incontrati in parecchi tra sysop coinvolti
+    e non, per discutere della faccenda.   Con  la  sola  eccezione  di  Walter
+    Mascarin e Michele Fadda, a quanto mi risulta, a tutti e' stato sequestrato
+    il  materiale  informatico, portandolo via o sigillando i locali in cui era
+    contenuto.
+
+ 2) Occorre immediatamente organizzarsi  per  cercare  legali in loco (Pesaro).
+    Qualcuno si e' gia' mosso personalmente (Luca Spada ha  preso  un  avvocato
+    pesarese),  Franco  Mulato  sta  cercando  di organizzarsi in questo senso.
+    Avvertite tutti coloro che hanno ricevuto avviso di garanzia di mettersi in
+    contatto con Franco  Mulato,  inviandogli  copia  del  documento via fax al
+    numero 0574-38816 ed allegando un recapito telefonico a VOCE.
+
+ 3) Domenica pomeriggio a  Bologna  ci  sara'  un  incontro  straordinario  per
+    discutere della faccenda.  Sede e dettagli ancora da definire, teniamoci in
+    contatto telefonicamente, il mio numero d'ufficio e' 02-76001713.
+
+ 4)  Io  e  la  Folletta,  su  proposta di Pasquini, ci stiamo organizzando per
+    stendere  il  testo  di  un'interpellanza  parlamentare  sull'accaduto  che
+    dovrebbe essere inoltrata dal  radicale  Roberto Cicciomessere nei prossimi
+    giorni.  Chi avesse materiale da  sottoporre  o  proposte  me  le  faxi  in
+    ufficio (fax 02-780472).
+
+ 5) Occorre cercare di organizzare una specie di sottoscrizione per raccogliere
+    qualche  soldo  per  le spese (avvocati etc.) a favore di chi e' gia' stato
+    coinvolto e di chi lo sara'  prossimamente.  L'impressione comune e' che la
+    cosa procedera' anche nei prossimi giorni con nuovi raid e sequestri.
+
+ 6) Su "La Repubblica" di oggi e' apparso un articolo a pag.   21  a  firma  di
+    Claudio Gerino che descrive l'accaduto.  Non ho visto finora riferimenti su
+    altri quotidiani.
+
+                                                                         Ciao,
+                                                                         --V--
+                                                                         (RC)
+
+ Ecco un'altro che si impegna a chiarire il confine tra lecito ed illecito...
+
+ Return-path: <E.Somma@agora.stm.it>
+ [...]
+ From: E.Somma@agora.stm.it
+ Date: Sat, 04 Jun 1994 04:27:42 +0000 (GMT)
+ To: SCOSTA@bix.com
+ Subject: ci, S.Toria, scosta@bix.com, barth@icgeb.trieste.it,
+  ferrarin@varano.ing.unico.it, A.Mariani, C.Ger
+
+                   *LECITI!*  LE_ga-CI_ttadini-T_elematic_I!
+
+
+                           Vogliamo essere *LECITI!*
+
+  L'11  Maggio  1994  dalle  ore  15.30  gli  Agenti  della  Polizia Tributaria
+ cominciano  ad  irrompere  nelle  case   di  presunti  criminali  accusati  di
+ associazione a delinquere finalizzata all'uso illegale di codici rubati  e  al
+ contrabbando di software illecitamente riprodotto.
+
+  Pistole  alla  mano  vengono eseguiti gli ordini di perquisizione e sequestro
+ emessi dalla  Procura  della  Repubblica  di  Pesaro: effettuati sopralluoghi,
+ ammonticchiato materiale  elettronico  in  scatoloni  sigillati  e  notificati
+ avvisi di garanzia ad increduli gestori di sistemi telematici amatoriali.
+
+  E'  un  momento  particolare.   La legge sul software e' entrata in vigore da
+ pochissimi mesi e per  la  prima  volta  al  mondo  con una tale intensita' la
+ Giustizia decide di  scovare  e  perseguire  chi  e'  dedito  alla  diffusione
+ illegale  del  software,  ma  soprattutto  chi  utilizza impropriamente codici
+ segreti (password illegali, numeri rubati di carte di credito ecc.  ).
+
+                                  Finalmente!
+
+  Anni di Far West hanno portato  l'Italia  ai vertici mondiali del traffico di
+ programmi illegali, della produzione di  virus  nonche'  della  pratica  della
+ penetrazione illegale nei sistemi riservati.
+
+                                 Finalmente!!!
+
+  Ma  se  e'  vero  che  questo  e'  un  segnale  importante  che  puo', se non
+ tranquillizzare il mondo della  telematica 'legale', almeno lasciargli qualche
+ speranza di un ritorno alla vita civile, e' anche vero che ad  un  esame  piu'
+ approfondito sembra proprio che questo blitz (denominato "Fidonet Crackdown" o
+ "Fidobust" per l'alto numero di nodi Fidonet implicati, o operazione "Hardware
+ 1"  per  sottolineare  che le forze dell'ordine hanno "preferito" prelevare di
+ peso tutto l'hardware senza procedere ad  una  scelta solo di cio' che sarebbe
+ stato utile ai fini delle indagini) non potra' risolvere nulla per quello  che
+ riguarda  la  lotta  al  soft-traffico  e  che  l'azione  cosi' generica della
+ Giustizia finira' per essere solo controproducente quando non inutile.
+
+  Non controproducente per  la  Giustizia  stessa,  ovviamente, che seguira' il
+ proprio  corso  discriminando,  tra  coloro  che  sono   stati   colpiti   dal
+ provvedimento,  i  rei  dagli  innocenti.   E  provvedera'  a  condannare  gli
+ spacciatori, gli importatori e i produttori di software illegale.
+
+  Non  controproducente  per il Mercato dell'informatica, che attraverso queste
+ misure spera di riacquisire quegli  spazi che ingiustamente gli sono sottratti
+ dalla concorrenza sleale dei pirati.
+
+  Ne' controproducente per i grandi media di oggi, stampa e  tv,  che  potranno
+ con semplicita' tirar fuori da questa storia qualche succulenta (e forse anche
+ truculenta)  notizia su cui sparare qualche titolone [si veda L'Espresso, o La
+ Repubblica ad esempio o anche il Televideo].
+
+  Questa azione cosi'  vasta  del  PM  dara',  verosimilmente, una connotazione
+ ulteriormente negativa all'attivita' telematica in Italia,  che  gia'  non  e'
+ rosea.
+
+  La   Giustizia,  infatti,  e'  alla  ricerca  di  'ignoti'  che  formano  una
+ associazione a delinquere, e per  far cio' manda tecnici informatici veramente
+ preparati ad effettuare chirurgici sequestri, una volta su  cento,  e  per  il
+ resto  guardioni ignoranti (nel settore) che sequestrerebbero allo stesso modo
+ arance mercurizzate, mansarde non condonate e ammennicoli elettronici vari.
+
+  Il mondo della telematica, le mille  reti  che si intersecano e, i milioni di
+ persone che si scambiano dati, senza conoscersi piu' di quando basta a fornire
+ quelle quattro informazioni tecniche per  attivare  un  collegamento,  sono  a
+ rischio.  Tutti sono in un certo senso 'ignoti'.
+
+  Anzi  e'  proprio  questa  condizione  che  permette la Grande Equalizzazione
+ sociale, quella facilita' di  rapporto  e  quindi  quella capacita' di scambio
+ umano che le reti di computer, e  solo  le  reti  di  computer,  hanno  saputo
+ dimostrare.  Non certo la stampa tradizionale, non certo la TV.
+
+  Ma  se basta questo per essere a rischio allora chiunque e' sotto la mannaia.
+ Il solo fatto di possedere un modem e' gia' di per se' un indizio.
+
+   Insomma c'e' da  una  parte  una  federazione  (implicita) di organizzazioni
+ criminali che utilizza le reti di calcolatori, ma non diversamente  da  quanto
+ le  Mafie del mondo abbiano fatto e facciano con tutte le altre tecnologie: il
+ mercato consumer dei teledrin, prima, e  dei cellulari poi e' decollato grazie
+ ai pusher (piccoli spacciatori di droga) di tutto il mondo, sempre reperibili,
+ sempre disponibili.  A questi che non ci siano regole fa comodo, li copre.
+
+  Dall'altra i CIttadini TelematicI, che vogliono rispettare le  regole  quando
+ ve  ne  fossero,  senza  rischiare i propri lavori, il proprio tempo, i propri
+ soldi e la propria immagine per il  desiderio di stare insieme e comunicare le
+ proprie idee liberamente.
+
+  Fino ad oggi le regole non  c'erano  e  neppure  controlli.   Vivevano  tutti
+ indisturbati, gli uni e gli altri.
+
+  Poi un PM "ha stabilito" la legge, non una Legge dello Stato Italiano, ma una
+ legge   dell'esperienza:  quale  persona,  specie  se  libero  professionista,
+ dipendente statale, carabiniere, commerciante  o guardia penitenziaria, vorra'
+ piu' gestire uno spazio di discussione telematico se  questo  puo'  comportare
+ guai  con  la  giustizia  senza  poter  far  nulla  per evitarlo, senza alcuna
+ certezza del diritto.
+
+  La risposta,  purtroppo,  la  stanno  dando  quanti  in  questi giorni stanno
+ rinunciando al proprio hobby e alla propria passione.
+
+  Non  si  puo',  e'  vergognoso  ed  incivile,  accettare  la  presunzione  di
+ colpevolezza che si e' ormai diffusa.
+
+  Non si puo', e non basta, semplicemente *resistere*, con caparbieta' e con la
+ fiducia (un po' cieca) che poiche' non si e'  mai  fatto  nulla  di  male  non
+ tocchera' anche a noi, sysop o utenti.
+
+  Resistere silenziosamente non basta.  Credere di essere puliti non basta.
+
+  Oggi  i  CIttadini  TelematicI  capiscono  di  essere  ad  un passo dal poter
+ rivendicare il proprio DIRITTO ALLA INFORMAZIONE E ALLA COMUNICAZIONE anche in
+ Italia.
+
+  Oggi i CIttadini TelematicI non si  limitano  a  fare i vasi di coccio, ma si
+ danno da fare per far capire a quelli che  con  loro  non  hanno  mai  parlato
+ perche'  non  si  sono  mai  calati nella matrice di indirizzi elettronici che
+ questa e' seriamente la FRONTIERA finale dei media e che va colonizzata con la
+ parte migliore delle forze, con l'intelligenza e non con la forza.
+
+  Oggi i CIttadini TelematicI adottano, ciascuno  in prima persona o per gruppi
+ d'interesse o in organizzazioni ad hoc,  tutte  le  iniziative  che  ritengono
+ utili  per  generare quella pressione informativa e democratica necessaria per
+ poter porre, finalmente, la  grande  questione  del DIRITTO alla COMUNICAZIONE
+ sui tavoli dei parlamenti nazionali e internazionali.
+
+  Oggi la LEga dei CIttadini TelematicI rivendica il proprio impegno  di  lunga
+ data  a favore dell'ordine pubblico e della societa'.  al rispetto delle leggi
+ e della convivenza civile e democratica  di tutti gli individui nel nome della
+ certezza del diritto.
+
+
+                  *LECITI!* LE_ga dei CI_ttadini T_elematic_I
+
+
+         *LECITI!* ogni sera una stanza in chat su Agora' dalle ore 23.
+         *LECITI!* su CONFERENZA COMMUNITY NETWORKS
+         *LECITI!*
+                   Non e' una associazione
+         *LECITI!*
+                   Non e' una organizzazione
+         *LECITI!*
+                   E' un urlo di battaglia
+
+
+              Agora' e' un servizio telematico multiutente gratuito
+
+        BBS: (06)-6990532
+   Internet: telnet agora.stm.it (192.106.239.3)
+  BT Tymnet: 8N1 300/1200/2400 login: agora
+     Itapac: DNIC 0222 NUA 26430303
+
+  Per Informazioni: Emmanuele Somma (050) - 574379
+
+                 (Distribuisci dovunque puoi questo messaggio)
+                     (Please spread wherever this message)
+
+ *LECITI!**LECITI!**LECITI!**LECITI!**LECITI!**LECITI!**LECITI!**LECITI!**LEC
+          * Emmanuele Somma * E.Somma@agora.stm.it * +39-50-574379 *
+
+ --- MMMR v3.30unr
+
+ Return-path: <E.Somma@agora.stm.it>
+ [...]
+ From: E.Somma@agora.stm.it
+ Date: Sat, 04 Jun 1994 16:16:29 +0000 (GMT)
+ To: SCOSTA@bix.com
+ Subject: Ri: Italian crackdown
+
+ Scritto il 20-Mag-94 alle 00:46:51 da scosta@BIX.com:
+
+ sc> Caro Enrico,
+  Che sarebbe Emmanuele (scusa ma l'hai messo a caso o e' una  coincidenza  che
+  gia' tre persone mi abbiano chiamato Enrico?) Vabbe'
+
+  Sono stra-cotto, sono almeno 36 ore che sto attaccato al computer e giuro non
+ mi  ricordo  se sei tra le centinaia di persone a cui ho risposto.  Mi pare di
+ no cosi' lo rifaccio.
+
+  Caro Netticus,
+
+ sc>    pur non essendo colpito in maniera diretta dalle recenti azioni
+ sc> giudiziarie sono, come tanti altri che  si impegnano in Fidonet ed
+ sc> in altri net, colpito profondamente.
+ sc> Sono editor Netticus di Telematicus (la e-zine fido sulla telematica
+ sc> amatoriale) e ritengo un dovere cercare di informare il meglio possibile,
+ sc> nei limiti della nostra iniziativa (forse un 500 persone direttamente,
+ sc> il doppio circa 'per sentito dire').
+ sc> Quello che manca in Italia e' proprio una *cultura* telematica, a tutti i
+ sc> livelli, dal giudice che non conoscendo i presupposti che stanno
+ sc> alla base di di Fido colpisce nel mucchio per non farsi sfuggire la
+ sc> pagliuzza, alla GdF che esercita in modo improprio le confische.
+
+  Le tue considerazioni sono azzeccatissime, benvenuto a bordo.
+
+ sc> A questo riguardo, vedendo il tuo messaggio in CyberNET che indiceva
+ sc> una riunione dei Sysop direttamente e non coinvolti nel caso, volevo
+ sc> conoscere informazioni a riguardo, da inserire nel prossimo numero di
+ sc> Telematicus. Io (e tutto il mondo telematico) ti saremmo grati se
+ sc> rispondessi a queste domande:
+
+ sc> Cosa avete concluso in questa assemblea?
+
+  Dovresti chiedere a  Daniele  Coliva  e  Franco  Mulato  (che  sono stati gli
+ organizzatori).  Ma se  devo  dire  la  mia  impressione  quella  riunione  ha
+ assestato il colpo definitivo ad una AFI gia' agonizzante.
+
+  In  sostanza  e'  stata  legittimata  una  presunzione di colpevolezza che e'
+ vergognosa solo a pensarla.
+
+ sc> Quanti erano i presenti, e quante le persone direttamente coinvolte?
+
+  Presenti una 50. Coinvolti? Non lo so!
+
+ sc> Hai un'elenco aggiornato dei sysop colpiti, piu' aggiornato rispetto a
+ sc> quello postato in CyberNET?
+
+  Quello di CyberNET e' in parte sbagliato.   Non non ce l'ho, anzi se ce l'hai
+ tu mandamelo.
+
+ sc> Consigli, riflessioni personali e quant'altro vorrai dirmi saranno
+ sc> molto graditi.
+
+  Giuro di essere convinto di averti mandato il comunicato di *LECITI!*
+
+  Ti attendo su agora ogni sera alle ventitre (in chat alla stanza  LECITI!)  e
+ sulla CONFERENZA COMMUNITY NETWORK.
+
+  ah...   ho  prelevato l'ultimo numero di Telematicus e c'e' un errore: Agora'
+ e' gratuita!!
+
+ sc> Ti ringrazio molto per la tua collaborazione,
+
+  Scusami per il ritardo, ma tu immaginerai.
+
+ sc> Stefano Costa
+ sc> Editor Netticus Telematicus
+ sc> scosta@bix.com
+          * Emmanuele Somma * E.Somma@agora.stm.it * +39-50-574379 *
+
+ --- MMMR v3.30unr * (Spread wherever the word)
+
+ Stefano  Zano  e'  il  moderatore  dell'area  comms-phone.ita,  relativa  alle
+ telecomunicazione ed alla telefonia via cavo.  L'ho contattato per due motivi:
+ il suo boss e' stato colpito dal raid, ed inoltre nella sua area piu' volte e'
+ intervenuto attivamente per reprimere messaggi a  contenuto  illegale,  dietro
+ vivace  protesta  dei  frequentatori dell'area, beccandosi una volta l'epiteto
+ 'fascista'.  Tristezza portami via.....
+
+ *******************************************************************************
+  BBS: Clessidra BBS - Milano - +39/2/33603932
+ Date: 05-29-94 (08:14)             Number: 85
+ From: STEFANO ZANO                 Refer#: NONE
+   To: STEFANO COSTA2                Recvd: NO  (PVT)
+ Subj: Crackdown                      Conf: (5) Matrix: sc
+ *******************************************************************************
+ From: 2:332/416.4205
+
+ Buongiorno, Stefano!
+
+  SC> "c'era". Tu ne sei stato interessato indirettamente, hai perso
+  SC> il point, ma sei un Moderatore e sei saggio: mi puoi raccontare
+  SC> la tua esperienza? Come l'hai saputo, cosa hai fatto, le tue
+  SC> riflessioni.
+
+   Mi auguro, innanzitutto che quanto successo a meta' maggio, non abbia piu' a
+ ripetersi, non perche' alle forze  dell'ordine  viene  in  un  qualsiasi  modo
+ impedito, ma perche' non gliene sara' piu' data l'occasione.
+
+   Quello che e' successo e' sconcertante, ma non per il fatto in se stesso, ma
+ per  come  ha reagito il popolo Fidonet e non.  Le reazioni sono state le piu'
+ svariate, scene di panico con SysOp che  staccano  la spina del BBS, non si sa
+ bene perche' visto che se le forze dell'ordine li hanno gia' 'nel  mirino'  il
+ PC lo accendono loro.
+
+  Altri che hanno 'sbiancato' mega e mega di roba.  Coscienza sporca??
+
+  Negozi  di  SW  affollati  da  gente  che voleva il SW (C) in sostituzione di
+ quello presente sul proprio PC.
+
+  Quello che pero' mi  ha  dato  fastidio  e'  stata confusione creatasi con il
+ voler dire a tutti i costi le proprie opinioni, minacciando a destra e a manca
+ di voler fare chissa' cosa, salvo poi fuggire al primo squillo di campanello.
+
+  Come al solito, in questi momenti, la gente si rivela per quello che e':  non
+ conoscente dell'ambiente in cui opera, di cio' che sta accadendo, facinorosa e
+ con voglia di fare sterili polemiche che procurano solo problemi a chi gia' ne
+ ha per i fatti suoi.
+
+  A  mio  parere bisogna che TUTTI, ma proprio TUTTI non facciano assolutamente
+ niente.  Abbiamo un RC che si e'  attivato in modo full-time per far capire ai
+ media che Fidonet non e' quello che si sente dire e che  si  legge  in  questi
+ giorni, ma e' quello che noi ben sappiamo e che e' inutile ripetere.
+
+  Gran  parte  della  confusione  che  regna  all'interno  di Fidonet in questi
+ momenti e' causato da un misunderstunding. [NdE: malcomprensioni.]
+
+  Le forze dell'ordine non ce l'hanno  con Fidonet, anzi a loro interessa molto
+ ma molto poco.  I loro riflettori sono puntati su un presunto traffico  di  SW
+ (c) messo in piedi da alcuni pirati che casualmente frequentavano Fidonet.
+
+  Il  fatto  che,  per esempio, nel 332 siano stati colpiti solo alcuni SysOp e
+ non altri, fa capire che le  indagini  erano dirette in direzioni ben precise.
+ Con questo non voglio colpevolizzare nessuno, anzi.  La magistratura ha deciso
+ di fare indagini?  Bene, cerchiamo di aiutarla  non  di  creare  confusione  e
+ danno ai nostri amici.
+
+  La  mia  esperienza in questa situazione e' stata 'moderatamente tranquilla',
+ nel senso che a parte un breve periodo iniziale di smarrimento, ha prevalso il
+ senso del ragionamento e della logica.
+
+  Mi sono reso conto  che  qualcosa  non  andava  quando chiamando il mio Boss,
+ tutte e tre le linee rispondevano sempre libero.  Il primo giorno non mi  sono
+ preoccupato  piu'  di  tanto.   "Saranno tutti fuori citta' e quando rientrano
+ sistemano tutto." ho pensato.
+
+  Il giorno successivo ho cominciato  a preoccuparmi: sei persone che gravitano
+ attorno al BBS e nessuno che lo rimet te on line?
+
+  Nel frattempo continuavo a leggere  messaggi  quando  mi  sono  imbattuto  in
+ quello  di  qualcuno  che  annunciava una retata della magistratura in quel di
+ Pesaro.
+
+  In un primo momen to non ho associato il down del mio Boss con la faccenda di
+ Pesaro, ma un piccolo tarlo stava intanto scavando un tunnel nel mio cervello.
+
+   La conferma l'ho avuta  la  sera  quando  ho  chiamato via telefono un altro
+ SysOp del 400 e questi mi ha  confermato  quanto  avevo  intuito  ma  che  non
+ riuscivo a capire.
+
+  Dopo  un  attimo  di smarrimento, ho controllato i PC e verificato che non ci
+ fosse alcun programma (c) e  mi  sono  dato  da fare, nell'ulteriore point che
+ avevo installato, per cercare di  tranquilizzare  gli  amici  ed  evitare  che
+ venissero  scritte  cose che in un qualche modo avrebbero potuto ritorcersi su
+ altre persone Fidonet.
+
+  In conclusione vorrei dire una  cosa: quando c'e' una situazione d'emergenza,
+ lasciate che a 'dirigere il traffico' siano dei coordinatori di rete  (RC  REC
+ NC).   Si  fa  meno danno a stare zitti che non intasando le aree con messaggi
+ vuoti ed inutili e controproducenti.
+
+
+
+ Ciao, Stefano                                             wmw
+
+ *******************************************************************************
+
+                              LE MIE RIFLESSIONI:
+                              ===================
+
+
+  La  presenza  di  attivita'  illegali  e'  ineluttabile,  ed  al  pari  della
+ prostituzione, il mestiere piu' antico del mondo.
+
+  E non penso di dire una cosa nuova, specie in questi periodi di Mani Pulite.
+
+  Meno pubblicizzato ma non meno  vero  il  fatto  che maggiore e' il numero di
+ leggi maggiore e' la probabilita' di violarle e maggiore il numero di  persone
+ che le viola, anche al di fuori di ambienti malavitosi.
+
+  E'  anche  per  questo  motivo che il mondo telematico e' stato cosi' scosso,
+ come ha fatto notare Stefano Zano.  Naturalmente *non* giustifico le attivita'
+ illegali, ma mi limito a dichiarare esplicitamente un dato di fatto.
+
+  Tuttavia mi pare chiaro che dall'altra  parte non c'e' un'adeguata cultura di
+ base informatica.  Viviamo in un paese dove per  la  Magistratura  conta  come
+ *unico*  documento  di  valore legale nella registrazione dei processi l'opera
+ del cancelliere, che, in  bella  calligrafia,  scrive quei volumoni degli atti
+ che vediamo in "Un giorno in Pretura".
+
+  Questo  nonostante  Antonio  di  Pietro  sia  uno  dei  massimi  esperti   di
+ informatica  giuridica in Italia, e che con il suo attuale potere in seno agli
+ organi giudiziari sia in grado di smuovere poltrone potenti.
+
+  Purtroppo la  Pubblica  Amministrazione  in  generale  e'  sempre  stata poco
+ ricettiva a riguardo.
+
+  E' mio personale convincimento che uno  stato  inefficiente  sia  molto  piu'
+ utile a certi ambienti di uno efficiente.
+
+  In  un  mondo  che  sara'  destinato  ad  assorbire  sempre  piu' rapidamente
+ cambiamenti sociali a fronte di dispiegamenti tecnologici (basti vedere a cosa
+ sta  nascendo  in  USA  con  l'Information  Highway)  il  nostro  funzionario,
+ magistrato, politico ed insegnante  si  ritrova con strutture pesanti, rigide,
+ faziose, ignoranti e che fabbricano ignoranza.
+
+  La distanza tra la realta' reale (scusate il gioco di parole), e  la  realta'
+ come  la  percepiscono  queste  persone  sara'  destinata  ad aumentare se non
+ verranno introdotti correttivi a  breve  termine.   La buona volonta' di certi
+ NON BASTA PIU'.
+
+  Occorrono istituzioni serie.  Ecco perche' ora voglio spezzare una lancia  in
+ favore   della   chiarezza   ed   illustrare  come  e'  *veramente*  il  mondo
+ dell'illegalita' telematica.
+
+  Quando avete sentito che il vostro BBS Fido era stato sequestrato, cosa avete
+ pensato?   Oddio,  non  prendo  piu'  programmi  pirata  oppure  "ma  come  il
+ moderatore mi scassava sempre di  stare  entro  certi binari ed ora stan tutti
+ con l'avviso di garanzia in tasca".
+
+  E che dire poi di certi loschi figuri, di cui non faccio nome dato che  hanno
+ tanto  di  uffici  legali  pronti  a  notificare  querele,  che sono liberi ed
+ arricchiti coi nostri soldi?  Questo  ovviamente  non scusa illegalita' vere o
+ presunte, ma mi  fa  venire  in  mente  un  concetto  vecchio  e  fuori  moda:
+ l'equita'.
+
+  Le  persone  colpite  dal  raid  della  guardia di Finanza rischiano una pena
+ detentiva fino a cinque  anni,  se  i  capi d'accusa contestati si rivelassero
+ veri.  Se io un giorno vado in un negozio e lo rapino con un pugnale  in  mano
+ (senza ferire nessuno) avro' la stessa pena.  No comment.
+
+  Non  sono tuttavia completamente d'accordo con Stefano Zano riguardo a quanti
+ si debbono impegnare e chi no.
+
+  Se FidoNET e' qualcosa di piu'  rispetto  ad una compagnia di amici, se cioe'
+ si sta insieme perche' uniti da un ideale di fondo e non  solo  per  reciproca
+ convenienza,  allora  la nostra coscienza *deve* farci meditare di intervenire
+ in qualche modo.
+
+  Il che non significa di partire,  lancia in resta, a condannare questo fatto,
+ ma di impegnarsi a diffondere la VERITA' su FidoNET.  Nulla di piu' e nulla di
+ meno di quello che veramente e'.
+
+  Se io non credessi fermamente in questo, questo articolo su  Telematicus  non
+ sarebbe  mai  uscito.   Inoltre e' troppo comodo lasciare tutto in mano all'RC
+ (con tutto il mio rispetto  per  quest'ultimo).   Penso che anche per rispetto
+ alla sua persona ci  si  debba  impegnare.   E'  la  qualita'  dell'impegno  a
+ distinguere un buona causa da una cattiva, non il fatto in se' stesso.
+
+  Ho  sentito  dire  in  giro: "...ma come, vi attaccano e non dite niente?  Ma
+ allora avete la coscienza sporca..." |-(.
+
+  Un'altro dato che ha esacerbato  gli  animi  e' stata la mancanza di supporto
+ ufficiale da parte di FidoNET, sia legale che morale.   Sostanzialmente  nella
+ riunione  tenuta  in merito a Bologna si e' detto che ognuno se la deve cavare
+ da solo.
+
+  Capisco sia la posizione  di  FidoNET  preoccupata soprattutto della reazione
+ della Magistratura, che quasi certamente interpreterebbe una difesa collettiva
+ come giustificazione dell'associazione a delinquere, o  comunque  di  ostacolo
+ alla  giustizia,  con  probabile  inasprimento delle pene.  Ma capisco anche i
+ sysop con un avviso di  garanzia  in  tasca,  soli ed abbandonati a se' stessi
+ proprio quando piu' ne hanno bisogno.
+
+  Vorrei conoscere inoltre qualche comunicato dell'AFI in  merito.   Le  solite
+ voci  di corridoio dicono che sostanzialmente l'AFI se ne lava le mani.  Spero
+ non sia vero.  [NdE: AFI, Ass.ne Fido Italiana.  Vedere l'indice nel number 36
+ ed i segg. number: 28, 31, 32, 33, 35.]
+
+           Cosa avreste voluto sapere e non avete mai osato chiedere
+
+  I programmi pirata inizialmente,  nei  verdi tempi dell'informatica personale
+ (primi '80), venivano distribuiti quasi esclusivamente su base  di  conoscenze
+ personali.
+
+  Poi   vennero   i   Club,  associazioni  spontanee  dei  piu'  motivati.   E'
+ principalmente all'interno di questi che  lo  scambio di programmi avveniva in
+ quel periodo.  Tra l'altro le case di hardware tipo Commodore ed Atari, target
+ tipico  dell'home  hacking,  appoggiavano  apertamente  questi  club   sapendo
+ benissimo  che  maggiore  era  la  diffusione di programmi delle loro macchine
+ maggiore sarebbe stato il numero di  persone che vedendo una schermata avrebbe
+ detto 'uh, che bello!  Lo compro'.
+
+  Ripeto, le case di hardware *favorirono* la pirateria.  Ancora oggi, dato che
+ il meccanismo di acquisto di questo segmento di macchine non e' cambiato e  si
+ sta  rivelando  il  segmento  in  pieno  boom,  le  case di hardware non hanno
+ interesse a combattere attivamente  la  pirateria  (tranne  che per ditte tipo
+ SEGA e Nintendo).
+
+  Poi arrivarono i modem e le reti amatoriali, tra cui Fido.
+
+  Tra le  varie  reti  che  vennero  fuori,  nacquero  parallelamente  reti  di
+ diffusione  di software pirata.  L'identikit tipico del sysop di queste board,
+ dette 'warez boardz', erano  dei  ragazzini  tra  i 14-17 anni, con abbastanza
+ soldi da comprarsi computer e modem.
+
+  Naturalmente  i  prinicipali programmi scambiati erano giochi, seppure non si
+ disdegnassero programi seri.
+
+  Ma quando il parco  utenti  si  evolse  a  persone piu' mature e tecnicamente
+ capaci, al ragazzino si sostitui' il ragazzo  maturo,  determinato  e,  sembra
+ strano a dirlo, professionista del settore.
+
+  Per  professionista intendo che, tramite abbonamento, si riceveva il download
+ illimitato dalla warez boardz (prima si doveva, come nelle BBS Fido, uploadare
+ software di pregio).  Ed ai  giochi  si  aggiunsero programmi seri, ed il must
+ per il vero professionista era avere *tutti* i programi usciti nel minor tempo
+ possibile.  Con il modem era un gioco da ragazzi.
+
+  Inoltre c'erano le mitiche Blue Box, con le quali si poteva telefonare gratis
+ dall'Italia all'America (illegalmente ovviamente), e scaricare tutto quanto si
+ voleva.
+
+  Ho un'aneddoto personale: il classico  amico  dell'amico  aveva  ricevuto  (e
+ provato  sul  suo  PC)  Lotus  prima  ancora  che  la  Lotus Italia lo potesse
+ visionare tramite i canali ufficiali.
+
+  I programmi nel frattempo diventarono sempre piu' grossi e numerosi tanto che
+ i sysop delle Warez  Boardz  furono  costretti  ad  introdurre i famosi 0-dayz
+ warez, programmi che durano un giorno, cioe' che i  programmi  ricevuti  erano
+ talmente tanti che si cancellavano quelli ricevuti il giorno prima.
+
+  Tenete ben presente che questi network sono organizzati quanto Fido.
+
+  I primi anelli della catena (detti HQ, HeadQuarters) sono quelli responsabili
+ di  immettere  nella  rete il software pirata.  Poi ci sono gli affiliate, che
+ aiutano gli HQ nel procacciamento  del software originale e nella sprotezione,
+ infine  gli  spreader,  che  diffondo  il  piu'  velocemente  e  capillarmente
+ possibile il software pirata.
+
+  I gruppi piu' organizzati (tipo Razor 1911, oggi  come  oggi)  hanno  persone
+ fidate   all'interno   dei  distributori  di  software  per  procurarsi  copie
+ 'fresche'.  Gli  ormai  defunti  ma  famossisimi  gruppi  come  l'olandese MCA
+ (Master Cracking Association) o THG (The Humble Guys)  fornivano  direttamente
+ due  negozi  di  computer  di Milano mooolto famosi per le loro pubblicita' su
+ riviste.
+
+  Oltre ai programmi originali avevano  un  florido mercato sottobanco di copie
+ pirata.  Esentasse, ovviamente.
+
+  Mi ricordo che prima della legge sul software il loro  negozio  era  *sempre*
+ pieno di gente.
+
+  Ora  al  massimo  ci  sono due-tre persone, e naturalmente non vendono piu' i
+ dischetti dell'MCA, ne' i negozianti  sono  perseguibili per questo perche' la
+ legge non e' retroattiva.  E lo sapevano *tutti*.
+
+  Ora, visto che i negozianti sono troppo esposti, ci  si  e'  mossi  verso  il
+ mail-order.   Annunci tipo "MS-DOS, arrivi settimanali da USA e Giappone, 3000
+ lire a disco" vi dicono niente?   Non vi fanno sospettare nulla?  Quanta gente
+ di questo tipo e' stata presa nel crackdown?
+
+  Anche riviste blasonate come MC-Microcomputer pubblicano annunci come questi,
+ pur sapendo che il 90% di loro precludono alla vendita di software illegale.
+
+  Pero' MC si difende dicendo che, non potendo sapere a priori se il 3000  lire
+ a  disco  si riferisce a roba PD od originale, pubblicano tutto.  Io da me, so
+ che il pirata  piu'  "in"  pubblica  almeno  una  volta  su  MC....e se uno ha
+ esigenze particolari compra MC anche per questo.
+
+  Intendiamoci, non che MC incoraggi la pirateria, ma diciamo  che  neanche  la
+ schiaccia.
+
+  Negli  ultimi  tempi  le  warez  boardz sono diventate sempre piu' paranoiche
+ sulla sicurezza dei propri  sistemi.   Piu'  livelli di password, procedure di
+ log-on copiate da information provider blasonati, in modo che se uno per  caso
+ avesse  ricevuto il numero di telefono giusto si sarebbe detto "blah, un'altro
+ di quei orridi database  remoti  sul  trend  del  mercato  del cibo per cani",
+ accettazione di nuovi membri solo se presentati da soci di lunga data  avevano
+ reso le warez boardz piu' simili a club inglesi che non alle proprie origini.
+
+  Ancora,  quante  BBS  Fido  si riconoscono in questo quadro?  Sono pubbliche,
+ aperte a tutti, gratuite, i loro numeri di telefono ampiamente pubblicizzati.
+
+ Cosa fare dopo?
+
+ Bene, vorrei illustrare alcune possibili soluzioni per il futuro.
+
+  Non vendo luoghi comuni per certezze come fa Alberoni, e neanche mi fregio di
+ particolare originalita' e genio,  ma  solo  voglio  stimolare il dibattito su
+ cosa fare per evitare altri crackdown.
+
+  Ormai il vaso di Pandora e' scoppiato, e richiuderlo non serve piu' a niente.
+ Un'iniziativa che ritengo interessante e' quella  intrapresa  da  Fast  Enough
+ BBS, allacciata a FidoNET, EuroNET, VirNET, CyberNET, ChronosNET.
+
+  E'  stata  fondata  una societa' senza fini di lucro, Nuova Atlantide, che ha
+ come obbiettivo la  diffusione  e  la  divulgazione  del mondo telematico, sia
+ tramite la  BBS,  sia  attraverso  un  giornale,  detto  'foglio'  perche'  e'
+ costituito da un'unica pagina.
+
+  In  questo  modo  anche chi non ha un modem puo' comunque apprendere cosa sta
+ allo schermo.  Ho gia'  fatto  notare  quanto sia importante essere conosciuti
+ per essere accettati socialmente.  Inoltre i  giudici  ci  pensano  due  volte
+ prima di colpire societa' a fini sociali.
+
+  Scusate  se  sono  stato lungo, ma mi hanno tolto il tappo di bocca e ho dato
+ sfogo a quanto mi tenevo dentro da un po' di tempo.
+ [NdE: ma figurati! Tanto a me l'inchiostro telematico me lo regalano! :)]
+
+  Conto anche sui vostri  commenti,  riflessioni,  idee  su come andare avanti.
+ Scrollatevi di dosso la brina dai vostri vestiti ed uscite dal congelatore.
+
+  O ora, o forse mai piu'.
+ [NdE: mai piu'!]
+
+  Cordialmente vostro Editor Netticus
+
+                                           FidoNET:  Stefano Costa2 (2:331/306)
+                                           Internet: scosta@bix.com.
+
+ Bibliografia
+
+ [1] "Giro di vite contro gli hacker", Bruce  Sterling,  Edizioni  ShaKe,  Lire
+     18000.   Lo  trovate  in  tutte  le librerie Feltrinelli.  Recentemente e'
+     stato  introdotto  nel  pubblico  dominio  come  file  ASCII,  in  inglese
+     ovviamente.
+
+ [2] "Jackson Wins Feds Lose"  Wired  1.2  (primo volume, secondo numero) della
+     rivista Wired.  La consiglio  a  tutti,  anche  senza  avere  interesse  a
+     tematiche   come   quella  dell'italian  crackdown.   Grafica  bellissima,
+     contenuti interesanti sull'uso ed  i  costumi  della Rete (Internet) e dei
+     suoi utilizzatori.
+
+ [3] Corriere   Telematico,   numero  speciale  sull'Italian  Crackdown.
+     Con un'intervista al giudice che controlla le indagini  della  procura  di
+     Pesaro.  E' una e-zine come Telematicus.  La potete trovare in EuroNET.
+
+ [4] CuD, file ASCII (mailing list moderata su internet)
+     (File/Request  CUD6xx.ARJ  20kb  ca,  dove  xx=641  in questo caso su BITs
+     Against The  Empire  -  0461,980493  *23.00-7.00*  (65:1400/1).  Lo potete
+     trovare anche da DecoderBBS *16:00-8:00* +2-29527597).
+
+     Computer underground Digest    Sun  May 15, 1994   Volume 6 : Issue 41
+                                ISSN  1004-042X
+
+     CONTENTS, #6.41 (May 15, 1994)
+
+     File 1--Further info on the Tony Davis affair.
+     File 2--Fidonet Crackdown in Italy
+     File 3--hacker crackdown takes place in Italy
+     File 4--German CDROM cracked
+     File 5--PGP 2.5 available from EFF ftp site
+     File 6--MTV SUES CURRY
+     File 7--AOL Chat Rooms (In re: CuD 6.40)
+     File 8--Re: "Child Abuse in Cyberspace"
+     File 9--Re: CuD 6.27 -- Response to E. Weykers (in re 2600 Mag)
+
+
+    [NdE: mi permetto di aggiungere:
+          - due  articoli interessanti apparsi su MC di
+            luglio/agosto 1994 n. 142.
+
+            "informatica e diritto - de iure condendo (sulle leggi da fare)"
+            pag.144
+            "tempo reale - BBS, le porte del cibermondo" pag. 156
+            entrambi di Manlio Cammarata.
+
+          - il numero 9 di Decoder della Shake edizioni.
+    ]
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                              BBS 1ST impression: OpenLand BBS ###
+ ############                                                Pierluca Monge ###
+
+ Riassunto:
+        Ecco  una  nuova entrata (sicuramente duratura): il Pierluca mi propose
+        un giorno una rubrica sulla  prima  impressione entrando in una BBS.  E
+        cosi' eccola!  Ma lasciamo la parola  a  lui...   il  ragazzo  promette
+        bene,  potrebbe  -  dopo  molte  fatiche  s'intende  -  entrare  un di'
+        nell'arena dei 'mitici'  :)
+
+ ------------------------------------------------------------------------------
+
+                                   Prefazione
+
+  Perche' non  tutti  sono  sysoppi,  perche'  non  tutti  sono  points...  Dal
+ sottotitolo si deduce a chi e' rivolta questa rubrica.  Essa si pone lo  scopo
+ di...descrivere  (e'  il verbo che meglio si adatta) come viene accolto il NEW
+ USER, il NUOVO UTENTE, alla sua prima  chiamata  con la BBS di turno e di dare
+ una PRIMA IMPRESSIONE su quest'ultima.
+
+  Non aspettatevi dunque recensioni dettagliate  e  prove  esaustive,  ma  solo
+ notizie  e  pareri  su  quello che si puo' vedere, sapere e provare alla prima
+ telefonata (ed ultima, per  quanto  riguarda questa rubrica, salvo cambiamenti
+ di gestione che ci inducano a rifare la prova).
+
+  AVVISO IMPORTANTE: La vita di  questa  rubrica  e'  legata  all'esistenza  di
+ almeno  1 lettore (io ho suggerito almeno 2 ma RRE mi ha detto di abbassare la
+ cresta che -Sei mica il  Giobbe  Covatta!-...grazie  a Dio...), quindi se c'e'
+ qualcuno la' fuori che finisce di leggere quest'articolo, ne vorrebbe  leggere
+ un secondo e vuole farcelo sapere (se trovate tutto molto complicato e' meglio
+ che  smettiate  ora ed iniziate una cura di Sargenor) puo' inviare un Matrix a
+ Renato Rolando 2:334/100.9  o  a  Pier_Luca  Monge 2:334/501, esprimendo anche
+ eventuali pareri.  Grazie!
+
+                                 OpenLand BBS
+
+  Il 3 settembre 1994 A.D.,  nel  cuore  della  notte,  con  un  leggero  tocco
+ d'indice attivai il mio USR i cui LED brillarono nell'oscurita' come gli occhi
+ di una pantera a caccia della sua preda...
+
+ ATDT 0331,621741
+
+  Eccola  qua'...   OpenLand BBS!  <nodo INDIPENDENTE>...gli ero piombato sopra
+ al primo colpo!
+
+  Mi era stato ordinato dal  mitico  RRE  (l'aggettivo mi e' stato detto essere
+ d'obbligo qui su TELEMATICUS...se si vuole sopravvivere)  di  essere  cattivo,
+ una belva affamata di sangue...  ma lo screen d'apertura del BBS mi ridusse ad
+ un cosa piu' simile ad un gatto che fa le fusa...
+
+ Sysop: Luisa N.        (una donna non si tocca neanche con  un  fiore... a ben
+                        pensarci ci sono almeno 1000  casi  in cui il detto non
+                        e' vero....  CENSURA)
+ 2.8 Gigs OnLine        (soprattutto se ha tutto questo sw a disposizione)
+ 24x7 gg                (ed e' cosi' disponibile)
+ 2 Nodi 14.4 USRobotics (con cotanti mezzi)
+
+  A  questo punto ero pronto alle interminabili domande per la mia abilitazione
+ come NEW USER ...  tutti i dati  della  mia CI, le mie parentele fino al terzo
+ grado,  malattie  contagiose  contratte,  i  miei  gusti  sessuali,  musicali,
+ gastronomici, politici, il mio grado di istruzione etc.
+
+ What is your name: **********
+ What is your LAST name: **********
+
+ ...poiche', chiaramente, ero un NUOVO UTENTE il sistema mi informo' che  avrei
+ dovuto  inserire  la  mia  citta',  provincia e password piu' alcuni valori di
+ configurazione del BBS.  Onestamente  mi  dissi  -Tutto  qui?!- abituato a ben
+ altri interrogatori...
+
+  In effetti il sistema mi chiese anche il numero di telefono: ma questa e' una
+ domanda, come per il nome ed il cognome, di rigore e  quindi  me  l'aspettavo.
+ Dopo  le  domande  per la configurazione del BBS, ridotte al minimo necessario
+ per andare avanti (ottimo!  cosi'  non  si  perde  tempo, tanto tutto il resto
+ sara' ampiamente e liberamente configurabile da menu' interno, come del  resto
+ avvisa  lo  stesso sistema), arrivarono le prime sorprese...  buone o cattive?
+ Non siate impazienti e continuate a leggere...
+
+  La prima cosa che scoprii e'  che  la  BBS  e' giovanissima, nata il 21 marzo
+ 1994 A.D.  a Busto Arsizio e che il suo scopo e' la promozione  del  sw  PD  e
+ shareware...ma  fin  qua'  nulla  di particolare.  La vera sciabolata in mezzo
+ agli occhi mia (sic) ci  fu  quando  scoprii  che  un utente NORMAL dispone su
+ questa BBS di 60 (sessanta) minuti di collegamento e di 5Mb  (5.00Kb/5.124.000
+ bytes) di download SENZA RATIO!!!
+
+  Non  nego di essere rimasto imbambolato davanti al monitor per buoni 3 minuti
+ a fissare l'immagine (ingrassando mamma $ip, pardon, mamma Teœecom) e non nego
+ di aver lanciato un  urlo  (che  causo'  le  lamentele  di tutto il palazzo il
+ giorno seguente) quando scoprii che io  ERO  un  utente  NORMAL...   in  poche
+ parole  nessun'altra  chiamata  di  abilitazione  o salita di livello a mo' di
+ purgatorio dantesco.
+
+  Unico altro livello esistente  e'  il  FAVORED  che  gode di 120 (centoventi)
+ minuti di collegamento, di 20Mb (20.000Kb/20.480.000 bytes) di download  e  di
+ prezzi scontati per i diversi servizi che la BBS offre (servizio postale invio
+ dischetti,  vendita modem e software originale)...e per diventare FAVORED cosa
+ bisogna fare?  Dissanguarsi pensavo io (...e forse anche voi) e invece NO!
+
+  Luisa, la Sysop (che sia  la  reincarnazione  di qualche santa?), richiede un
+ contributo minimo di sole  œ.30.000  (trentamilalire),anche  se  saranno  bene
+ accetti  contributi  di entita' maggiore, e i soldi ricevuti saranno spesi per
+ potenziare la BBS con nuovo sw o hw.
+
+  Presa coscienza del  mio  attuale  status  e  della quantita', tutt'altro che
+ modica, dei minuti a mia disposizione mi misi a girovagare per  la  BBS:  ecco
+ alcune delle cose interessanti che ho scoperto.
+
+  La reale quantita' di sw a disposizione e' di 6 Gigs, in grandissima parte su
+ CD  Rom, ma essendoci un lettore solo i CD vengono messi in linea a rotazione.
+ Le aree  sono  circa  800,  non  tutte  sempre  on-line  per  il  motivo sopra
+ descritto: si va  dall'  I.A.   al  D.T.P.,  dal  Giardinaggio  all'Ingegneria
+ Elettronica, dalla Programmazione all'Astrologia, dalla Compressione Dati agli
+ Antivirus  passando  per  Windows,  Astronomia,  Unix, Musica, Database, etc.,
+ etc., etc....  grazie a Dio  c'e'  installato  un ottimo sistema di Browse che
+ permette di districarsi in questo mare di dati.
+
+  Non c'e' un unico file lista contenente tutti  i  programmi  a  disposizione,
+ circa  50.000  (ho  calcolato, approssimativamente, che mi sarebbero bastati a
+ malapena i 60  minuti  per  scaricarlo),  ma  tante  liste  contenenti i files
+ suddivisi per area.
+
+  L'area messaggi dispone di un O.L.R.  [NdE: boh!] che e' Blue Wave:  le  aree
+ sono  7,  e subito mi sono parse poche ma considerando che Openland e' un nodo
+ indipendente, ossia non legato  a  nessuna  rete  tipo  Fidonet, e che la loro
+ presenza e' basata su una precisa richiesta degli utenti, significa che queste
+ sette aree sono tutte quelle necessarie, anche se, chiaramente,  non  ci  puo'
+ essere  lo  scambio  effettuato  su  BBS  facenti parte di un net: comunque la
+ nostra Sysop in piu' di un bollettino  promette di aprire tutte le aree per le
+ quali ci sia una richiesta.  Comunque e' nell'area  messaggi  che  ho  trovato
+ un'altra sorpresa...
+
+ Area 4 L'Avvocato risponde.
+
+  NO!   Non  avete  capito  un bit.  Non e' il Gianni Agnelli che risponde alle
+ vostre domande piu' piccanti ed intime bensi' un VERO Avvocato, anzi, due VERI
+ Avvocati che rispondono ai vostri  quesiti  su questioni di carattere civile e
+ penale.  Vi potrebbero tornare MOLTO utili su questioni di  Copyright  di  Vs.
+ creazioni hw o sw, per essere illuminati sull'attuale legislazione italiana in
+ campo  informatico  e  telematico, ma anche per sapere se potete fare causa al
+ venditore di computer sotto casa  che  vi  ha  rifilato  un C64 al posto di un
+ Pentium (si potrebbe configurare la circonvenzione  d'incapace)  o  se  potete
+ essere  ritenuti  colpevoli  di omicidio preterintenzionale nel caso il vostro
+ fratellino piu' piccolo rimanga fulminato  inserendo i suoi stupidi ditini nel
+ drive del vostro PC (ben gli sta'!).
+
+  Trillo dello speaker che mi avvisa che  e'  meglio  che  io  dia  il  G,  che
+ mettera'  fine  a  questo  collegamento...la  qual  cosa ci porta diritto alle
+ impressioni ricavate.  Partiamo dalle buone,  che sono anche la maggior parte.
+ OpenLand BBS e' giovane ma e' nata bene e penso che crescera'  ancora  meglio:
+ e' gia' ricca di files, ben organizzata, con hardware per collegamenti di alto
+ livello  (seriali  16550  e  modem  USRobotics)  e  con  una  Sysop  gentile e
+ disponibile alle richieste degli utenti.
+
+  Il NEW USER  e'  praticamente  accolto  con  la  banda  musicale  e la stuoia
+ rossa...  comprensibile, per una BBS appena nata  i  nuovi  utenti  hanno  una
+ importanza  fondamentale e Luisa, la sysop, se ne e' resa ben conto, chiedendo
+ a tutti gli utenti di pubblicizzare la  BBS  e approntando dei login per i NEW
+ USER come se tutti, li' fuori nel ciberspazio, fossero suoi amici.  Spero solo
+ che questo suo entusiasmo non cambi con il tempo e con le  delusioni  che,  mi
+ dispiace dirlo, sicuramente avra'.
+
+  Unica  cosa che mi ha deluso un po' e che OpenLand BBS NON faccia parte di un
+ net.  A mio  giudizio  e'  un  punto  debole,  in  quanto  viene  a mancare il
+ confronto con il resto della comunita' ciberspaziale (telematica  andava  bene
+ lo  stesso ma non suonava hi-tech) e si corre il rischio di diventare un'isola
+ magari felice ma fossilizzata nelle abitudini e nelle idee.
+
+ Un'ultima  cosa  per  finire...   CHAT  MODE!   Qui  RRE>  Hey,  Luca!    Puoi
+ staccare...
+
+ PLM> Come sarebbe a dire "puoi staccare"?
+ RRE> Se ne sono andati tutti!
+ PLM> E dove?
+ RRE> Penso a telefonare a Openland
+ PLM> Be' e' quello che stavo per consigliare
+ RRE> Ok, allora abbiamo finito. Pero'...
+ PLM> Pero'?
+ RRE>  :-< ti avevo chiesto sangue e tu ti sei comportato come un mollacchione!
+      Ti ricordi quando chiedesti agli uomini della MS, al MICROSOFT GREAT DAY,
+      se per DoubleSpace  si  erano  "ispirati"  ;-)  a  Stacker  e come mai il
+      Windows di OS2 girava piu' veloce?
+ PLM> Guarda che il sangue che hai  visto  li' era il mio...  mi hanno spaccato
+      il naso :_(!
+ RRE> Per cosi' poco?
+ PLM> In effetti me le hanno date quando ho detto che a Windows preferivo il WB
+      di Amiga...(:-#
+ RRE> Be'era piaciuto mooolto ;-D!  Ma bando ai bytes  inutili  cerca  un'altra
+      BBS e riprovaci!  HANG UP!
+
+
+
+
+                                                                 Pierluca Monge
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                                       Internet: 4 chiacchiere ###
+ ############                                                    Alex Lirus ###
+
+ Riassunto:
+        Si  stanno diffondendo un po' di accessi a pagamento su Internet.  Ecco
+        cosa ne pensa  a  riguardo  Alex  Lirus  (vi  ricordate  Linux?) in una
+        piccola intervista.
+
+        Tra l'altro - avendo  anch'io  una  porta  piu'  o  meno  nella  stessa
+        macchina - devo un attimino informarmi sui prezzi per me diversi:
+
+                          30 ore in 3 mesi: 55Klire.
+
+        spero di fornire ulteriori ragguagli sul prox numero.
+
+ ------------------------------------------------------------------------------
+
+  From : Alex Lirus                          2:334/401       25 Jul 94  23:09:26
+  Subj : Internet & Altro
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ 20/7/1994 - 21:30
+
+ Ciao ... tanto tanto tempo fa mi scrivesti....
+
+  AL> ....non so se hai notato il nuovo indirizzo di E-Mail internet ...ci sono
+  AL> alla fine riuscito ...sono entrato nel cyberspazio ....
+
+  RR> wazz! devi dirmi tutto: come hai fatto, quanto paghi etc. etc. Anche a
+  RR> me piacerebbe entrarci!
+
+  Hem  hem  ...scusa  il  ritardo:  donne, mundial, lavoro etc.  etc.  mi hanno
+ tenuto un po' lontano dai miei impegni di posta ...sorry.
+
+  Dicevo ...Internet viene offerta da molti molti molti 'providers' in tutto il
+ mondo  ...e  da  pochi  pochi  in  Italia  tutti  ovviamente  fuori  distretto
+ telefonico 011 :-( !
+
+  Parlando in BBS del piu' e del meno ho parlato con Enzo Tantimonaco che mi ha
+ rimandato a una certa societa' nominata InRete che si stava attrezzando (parlo
+ di  fine  maggio)  e  offriva   il  collegamento  gratis  per  controllare  il
+ funzionamento.
+
+  Telefonato e detto fatto: mi hanno concesso 15 ore di collegamento con un po'
+ di software fornito da loro ...ma bada bene ...  NON di  loro  produzione,  in
+ quanto  SHAREWARE/FREEWARE  di  cui  in  pratica  nessuno  risponde per quanto
+ riguarda la connettivita'/funzionalita'.   Trasformano  in  pratica  il PC con
+ Windows in un nodo Internet a tutti gli effetti (IP Address).
+
+  Il bello: multi-task windows (bello ?) che permette di fare  varie  attivita'
+ in  contemporanea;  FTP  multipli  con sites remoti, telnet varii, IRC a gogo,
+ tutto  in  contemporanea  con  grande  ottimizzazione  dei  tempi  di  accesso
+ concessi.
+
+  Il brutto: software  Windows  non  ben  'amalgamato'  o  testato  che a volte
+ (soprattuto all'inizio quando non sai bene come 'comportati') ti spara qualche
+ 'VIOLAZIONE DELL'INTEGRITA'  DEL  SISTEMA  ...'  con  crash  del  programma  o
+ addirittura di Win.
+
+  Comunque  la  'febbre'  da  cyberspazio  mi ha preso subito e in pratica dopo
+ pochi giorni mi ero 'mangiato' addirittura  9 ore di collegamento !  Calmatomi
+ un po' ho fatto durare le 6 ore rimaste per un paio di settimane.
+
+  E' ovvio: passare da Fidonet a Internet e' piu'  che  elettrizzante  ...   ti
+ brucia come una lampadina da flash ...!  Provare per credere.
+
+  I  costi  ?  ...dovrebbero (dico dovrebbero perche' non riesco piu' a trovare
+ gli appunti sull'agenda ...snort !) essere  sulle  10 mila al mese piu' 5 mila
+ all'ora: in pratica fanno delle convenzioni del tipo
+
+                           60 mila per 3 mesi 10 ore
+                          230 mila per 1 anno 40 ore
+
+   Il fatto dei mesi di abbonamento mi ha un pochettino irritato: da che  mondo
+ e mondo i serivizi di accesso a computers si vende a ore non a mesi di accesso
+ 'permesso' come surplus !
+
+   Visto  che  mi  sarei abbonato con le vacanze in mezzo (Agosto) e il mese di
+ agosto sarebbe stato contato  COMUNQUE  (...ecco  perche'  non mi piace questo
+ tipo di pagamento) ho deciso di abbonarmi  per  3  mesi  da  settembre  ;-)  !
+ Aspettati qualche articolo in autunno ...devo ancora 'vederci' chiaro.
+
+   Comunque  mi  da  fastidio  non poter usare Internet per i prossimi 2 mesi !
+ ...da assuefazione ...!
+
+  RR> Internet sta' facendo una
+  RR> campagna *bestiale* per sfondare nel mercato
+
+   Occhio ...Internet  non  esiste  come  azienda  o  istituto  ...e'  solo uno
+ standard di interconnettivita' di  rete  ...chi  'pompa'  sono  in  realta'  i
+ 'providers',ovvero chi VENDE l'accesso !
+
+         Prova a fare 2+2 come ho fatto io:
+
+         - Chiudiamo qua e la' un po' di BBS FIDO e non (che sono GRATIS)
+         - Parliamo ai giornali di Internet un giorno si e uno no (fino
+           a poco tempo fa parlavano solo di '...reti di calcolatori
+           americani...' senza ulteriori specifiche)
+         - Eccoci qui ...volete Internet ? ...ve la vendiamo noi ! (Olivetti)
+
+         ....molto molto sospetto !
+
+  RR> Attendo ansioso quindi i tuoi futuri articoli!
+
+  Hei ma questo e' diventato un articolo ! ...o no ? ...bhooo !
+  Se vuoi pubblicalo pure ! ...
+
+  Salutoni da                                              alexli@inrete.pmn.it
+                                                           2:334/401
+
+ ############                                                               ###
+ ###   6  ###                                                    Nuova Alba ###
+ ############                                          Enrico Franceschetti ###
+
+ Riassunto:
+        Qualcosa si muove!  I  nostri  mitici  paladini, tra cui spicca l'ormai
+        eccellentissimo mitico Enrico Franceschetti si stanno  preparando  alla
+        difesa:  non  molto rassicurati da cio' che Vertigo (il signore l'abbia
+        in gloria) ha  lasciato  intendere  (ognun  per  se', Dio per...) hanno
+        deciso di passare all'azione.
+
+        Riusciranno i nostri eroi a pestare abbastanza i piedi (per terra :( )?
+        Il resto alla prox puntata... :)
+
+ ------------------------------------------------------------------------------
+
+  Per  riempire  le  pause  lavorative occorse a seguito dei lunghi scioperi in
+ Tribunale ;), ho avviato, insieme  a diversi altri vecchi amici, un'iniziativa
+ associativa - telematica che forse  potra'  avere  interessanti  risvolti  nel
+ futuro.
+
+  E'  infatti  passata  alla  fase  esecutiva  l'associazione telematica "Nuova
+ Alba", nata nel maggio del 1993 e  fin'ora impegnata a definire i propri scopi
+ ed i propri obiettivi.
+
+  La "prima uscita" dell'associazione si e' avuta in  occasione  della  lettera
+ inviata  al  Presidente della Repubblica lo scorso maggio, di cui, sperando di
+ fare cosa gradita, allego il testo:
+
+ =============================================================================
+ Associazione Culturale NUOVA ALBA
+ Via Vaccaro n.348 - 85100 Potenza
+                                       Al Presidente della Repubblica Italiana
+                                       Dott. Prof. Oscar Luigi Scalfaro
+
+                                               Potenza, 24/05/1994
+ Signor Presidente,
+
+  la nostra associazione culturale ha lo scopo di promuovere la conoscenza e lo
+ sviluppo di tecnologie avanzate in materia di telecomunicazioni, informatica e
+ telematica.
+
+  Al pari di altre realta'  similari  presenti sul territorio nazionale, questa
+ opera viene svolta in spirito di  puro  volontariato,  senza  fine  alcuno  di
+ lucro, sopportando anzi i non trascurabili costi di gestione.
+
+  Tali presenze mettono a disposizione di migliaia di appassionati, per lo piu'
+ in giovane eta', sistemi di telecomunicazione avanzati e tecnologie altrimenti
+ fuori  dalla  portata del comune cittadino, favorendo cosi' la comunicazione e
+ lo scambio di  informazioni,  di  carattere  sia scientifico che semplicemente
+ ricreativo.
+
+  In una nazione al passo con i tempi - come l'Italia deve essere - ove  sempre
+ piu'  la  conoscenza  e  la dimestichezza con l'informatica e con i sistemi di
+ comunicazione avanzati assume un  ruolo  determinante per il futuro, riteniamo
+ che tale opera possa avere, ed abbia in concreto,  una  significativa  valenza
+ sociale.
+
+  Grazie  ai sistemi telematici a noi associati, e grazie a tutti gli altri che
+ appartengono a "reti" diverse, migliaia  di  persone hanno potuto dibattere ed
+ approfondire tematiche di tutti i generi; dagli  Scout  ai  volontari  per  la
+ pace,  dagli  appassionati  di letteratura alle guardie ecologiche volontarie,
+ dai cultori di lingue straniere ai  centri di assistenza agli immigrati, tutti
+ hanno potuto e possono giovarsi dei nostri servizi gratuiti.
+
+  Pochi giorni or sono questa situazione e stata  di  colpo  sconvolta  da  una
+ iniziativa  della  Magistratura  di  Pesaro  che,  a seguito di indagini sulla
+ pirateria dei programmi per elaboratore elettronico, ha emesso una lunga serie
+ di ordinanze di sequestro di sistemi telematici amatoriali.
+
+  Gli interventi operati dalla  magistratura,  tramite gli agenti della Guardia
+ di Finanza, sono evidentemente tesi alla individuazione  di  coloro  i  quali,
+ sfruttando  questi  sistemi  telematici,  e  carpendo  la  buona fede di tanti
+ volontari, ne approfittano per goderne dei frutti illeciti.
+
+  Per noi, quindi,  l'azione  degli  inquirenti  non  puo' che essere positiva,
+ perche' ci aiuta ad estirpare una volta  per  tutte  questa  mala  pianta  che
+ stava,  evidentemente a nostra completa insaputa, crescendoci in seno; inoltre
+ la completa fiducia che abbiamo  nella  magistratura italiana ci fa sperare in
+ una pronta e sicura soluzione.
+
+  Tuttavia le operazioni di polizia condotte in questi giorni hanno finito  per
+ colpire  un  numero  rilevante di operatori di sistema che nulla avevano a che
+ fare con i fatti posti ad oggetto delle indagini.
+
+  Cio' e stato  favorito  dallo  strano  assioma  posto a giustificazione delle
+ tante perquisizioni e sequestri operati (cosi' come risulta dagli  "avvisi  di
+ garanzia" notificati), spesso con l'ausilio di personale non confortato da una
+ sufficiente conoscenza tecnica degli strumenti posti ad oggetto dei controlli:
+ "poiche'  un  soggetto  ha  in proprio possesso strumenti tecnici teoricamente
+ atti a commettere  un  reato"  esso  puo'  essere  sottomesso a perquisizioni,
+ sequestri e procedimenti giudiziari.
+
+  E' da considerare che frequentemente l'asportazione dei computers  utilizzati
+ per  la  gestione  dei  sistemi  telematici  ha  causato gravissimi danni alle
+ attivita' economiche dei singoli operatori  volontari, che spesso adoperano la
+ medesima macchina (per evidenti motivi di economicita') anche per  il  proprio
+ lavoro.   Tali  danni  materiali  si  sono quindi aggiunti allo spavento, allo
+ sgomento provato da chi, onesto  cittadino,  ha visto piombare in casa propria
+ forze di polizia pronte ad affrontare qualunque evenienza.
+
+  Inoltre e facile prevedere i costi che  dovranno  essere  sopportati  per  le
+ spese legali necessarie al prosieguo dello svolgimento giudiziario.
+
+  Tutto  cio'  ha  indotto  nella disperazione e nel timore un grande numero di
+ volontari che,  d'un  tratto,  si  sono  visti  potenzialmente  trasformati in
+ cospiratori informatici ed indagati di gravi reati.
+
+  La stragrande maggioranza di essi fa capo a una rete telematica mondiale  che
+ sin  dalla  sua  nascita,  oltre  un  decennio fa, ha sempre avuto feree norme
+ contro la pirateria informatica.
+
+  La notizia, circolata in un baleno  in  una realta' che basa la sua esistenza
+ sulle comunicazioni, ha creato scompiglio e paura anche in  tutti  i  fruitori
+ dei  servizi  telematici,  inducendo molti a privarsi di questi strumenti ed a
+ chiudere i sistemi telematici per paura di ingiuste conseguenze.
+
+  La nostra viva preoccupazione  e  che  si  scateni  una sorta di 'caccia alle
+ streghe,  ove  il  semplice  appartenere  ad  una  determinata  categoria   (o
+ addirittura il semplice possedere apparecchiature informatiche atte anche alla
+ comunicazione)  possa costituire elemento di dubbio sulla onesta ed integrita'
+ del cittadino.
+
+  Questa situazione creerebbe grave nocumento alla telematica amatoriale senza,
+ peraltro, fornire risultati apprezzabili alla giustissima lotta alla pirateria
+ informatica; costituirebbe altresi'  una  forte  limitazione alla liberta' dei
+ cittadini della Repubblica.
+
+  Poiche' il rischio di simili evenienze gia' e avvertibile  sulle  pagine  dei
+ giornali  a  larga  diffusione e poiche' riteniamo che i principi motore delle
+ nostre azioni (liberta' di pensiero e di comunicazione) ed i principi generali
+ del diritto italiano (fra qui quello di essere ritenuti innocenti fino a prova
+ contraria) trovino in Lei il  piu'  alto  e convinto interprete, ci appelliamo
+ pertanto a Lei, in quanto  primo  garante  della  Costituzione  ed  in  quanto
+ Presidente  del  Consiglio  Superiore  della  Magistratura,  affinche'  voglia
+ seguire,  per  quanto  le  sara  possibile,  le  vincende segnalatele, perche'
+ possano trovare giusta soluzione  nel  piu' breve tempo possibile, soprattutto
+ nel rispetto di tutte le conquiste di civilta' ottenute dal nostro paese.
+
+                              Giorgio Rutigliano
+          Presidente Associazione Culturale per la ricerca NUOVA ALBA
+ =============================================================================
+
+ A tale istanza e' stato cosi' risposto:
+
+ =============================================================================
+
+                             SEGRETARIATO GENERALE
+                       DELLA PRESIDENZA DELLA REPUBBLICA
+                       UFFICIO PER GLI AFFARI GIURIDICI
+                         E LE RELAZIONI COSTITUZIONALI
+
+                                          Roma, 9 giugno 1994
+ UG.
+ N.7251/VI
+                                    Egregio
+                                    Sig. Giorgio L. Rutigliano
+                                    Presidente dell'Associazione
+                                    Culturale e di Ricerca
+                                    "Nuova Alba"
+                                    Via Vaccaro, 348
+                                    85100 POTENZA
+
+
+         La informo che il  Suo  esposto,  in  data  24 maggio 1994, diretto al
+ Presidente della  Repubblica,  e'  stato  trasmesso,  per  le  valutazioni  di
+ competenza, al Consiglio Superiore della Magistratura, che Le inviera' diretta
+ comunicazione del provvedimento che riterra' da adottare.
+
+                                   p. Il Direttore dell'Ufficio
+                                          Francesco Cusani
+
+ =============================================================================
+
+  Questa  e'  stata  la  nostra  prima  "uscita".   Pensammo  che rivolgersi al
+ migliore garante dei diritti  costituzionali,  ed  al Presidente del Consiglio
+ Superiore della Magistratura, avrebbe potuto consentire di  ottenere  un  buon
+ "rumore" tale da richiamare l'attenzione sul problema che si delineava.
+
+  Non   sto  qui  a  tediarti  con  i  risultati  dei  piccoli  approfondimenti
+ legislativi compiuti, anche grazie all'aiuto di amici, ottimi magistrati della
+ Repubblica (e quando son buoni, credimi,  sono  davvero in gamba!  Il guaio e'
+ che son pochi...), ma ci sono  sentenze  della  Corte  di  Cassazione  (i  cui
+ estremi  potro'  fornire  a chi me ne fara' richiesta) che evidenziano come il
+ comportamento dei militi della  GdF  e  dello  stesso magistrato di Pesaro sia
+ stato certamente censurabile dal punto di  vista  legale,  almeno  per  alcuni
+ aspetti.
+
+  In  tali  sentenze  la  Suprema  Corte  afferma,  in  sostanza, che per poter
+ disporre ed  eseguire  una  perquisizione  non  basta  un  semplice e generico
+ enunciato di teorici reati di cui manchi un indizio concreto di commissione da
+ parte del perquisito, ma che occorre l'esistenza  di  un  fondato  motivo  per
+ ritenere  che  corpi  di  reato  o  cose  pertinenti al reato si trovino sulla
+ persona di un determinato soggetto o  in un determinato luogo con l'ESSENZIALE
+ premessa di una preventiva individuazione del reato commesso e di  sussistenza
+ di indizi concreti e producenti circa la responsabilita' del perquisito.
+
+  Premesse che, nei casi di tantissimi sysops, non esistevano affatto.
+
+  Percio',   come   Nuova   Alba,   vorremmo  essere  promotori  di  iniziative
+ legislative, che stiamo  valutando  insieme  ad  alcuni deputati radicali.  Se
+ vorrai ulteriori informazioni saro' con gioia a tua disposizione.
+ [NdE: non mancheremo!]
+
+
+
+
+                                                        Enrico
+                                                        2:335/212.1
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                    IL GERGO HACKER - PARTE 36 ###
+ ############                                    Eric S. Raymond & .mau.    ###
+
+ Riassunto:
+        .mau.   e'  piu'  inossidabile  dell'acciaio  -  quello   inossidabile,
+        ovviamente - e  continua  a  propinarci  il mitico intramontabile megavocabolario.
+
+ ------------------------------------------------------------------------------
+
+    <slap  on  the  side>  [pacca sul lato] agg.  Un tipo di espansione esterna
+ venduta da alcune case (ad esempio  la Commodore per la serie Amiga 500/1000).
+ Varii SOTS fornivano necessita' come memoria, controller per hard disk, e slot
+ di espansione "convenzionali".
+
+    <sleep> v. In un sistema a timesharing, i processi che lasciano l'uso della
+ CPU finche' non accade un dato evento, o e' passata  una  certa  quantita'  di
+ tempo, si dicone essere 'andati a dormire'.
+
+    <slim> s. Un cambiamento piccolo e solo come modifica (ad es., al codice).
+
+    <slop>  [?  Ma  'sloppy'  significa  'alla  bell'e meglio'] s. 1. Un <fudge
+ factor> su un lato solo; vale a  dire  il  permettere un errore ma in una sola
+ delle due direzioni.  Se ad esempio ci occorrono tre metri di filo  e  bisogna
+ stimare  quanto  tagliarne, lo taglieremo sicuramente piu' lungo, magari anche
+ di molto, perche' lo  si  puo'  sempre  accorciare  poi  ma non gliene si puo'
+ attaccare un pezzo.  Quando vengono usate quantita' discrete, lo s. e'  spesso
+ introdotto  per  evitare  la  possibilita'  di  un  <fencepost  error>.  2. Il
+ rapporto tra la dimensione del codice generato da un compilatore rispetto alla
+ dimensione  del   codice   assembler   equivalmente   generato   a   mano  (v.
+ <hand-hacked>), meno 1; cioe', lo spazio (o magari il tempo) che si perde  per
+ non averlo fatto per conto nostro.  Questo numero e' spesso usato per misurare
+ la  bonta'  di  un  compilatore;  uno s. sotto il 5% e' ottimo, e il 10% e' di
+ solito  accettabile  per   molti   scopi.    Con   le  tecnologie  moderne  di
+ compilazione, spec.  sulle macchine RISC, lo s. di un compilatore puo'  essere
+ addirittura  *negativo*;  cioe',  gli  umani potrebbero non essere in grado di
+ generare codice altrettanto buono.   Questa  e'  una  delle ragioni per cui la
+ programmazione in assembler non e' piu' comune.
+
+    <slopsucker>  [aspira-slop]  n.  Un  task  a  priorita'  minima,  che  deve
+ aspettare fino a che tutto il resto ha "avuto il pieno" di  risorse  macchina.
+ Solo  se  la macchina sarebbe altrimenti inutilizzata del tutto, il task ha il
+ permesso di "aspirare lo  slop".   Detto  anche  <hungry puppy>.  Una varieta'
+ comune di s. cerca i grandi numeri primi.  Confr.  <background>.
+
+    <slurp> v. Leggere un grande file dati  interamente  in  memoria  prima  di
+ lavorarci  su  (in contrasto alla strategia di leggerne un pezzetto per volta,
+ processarlo, e leggere quindi il  pezzo  successivo).  "Questo programma si s.
+ una matrice 1K-per-1K e fa una FFT".
+
+    <smart> [furbo] agg.  Detto di un programma  che  fa  la  Cosa  Giusta  (v.
+ <Right  Thing>  in  una  gran  varieta'  di  circostanze complicate.  C'e' una
+ differenza tra  il  chiamare  un  programma  s.  e  chiamarlo intelligente; in
+ particolare,  non  esiste  (ancora)  alcun  programma  intelligente.    Confr.
+ <robust> (programmi s. possono essere <brittle>).
+
+    <smart terminal> [terminale intelligente.  Si', lo so che ho appena scritto
+ che  smart  significa  furbo,  ma il termine e' questo] s. Un terminale che ha
+ abbastanza capacita' di calcolo  per  fare  del lavoro utile indipendentemente
+ dal calcolatore principale.  Lo sviluppo delle workstation e dei pc ha reso il
+ termine e il prodotto che descrive semiobsolescenti, ma si puo' ancora sentire
+ delle  varianti  della  frase  "funziona  come  un  t.i."  per  descrivere  il
+ comportamento  di  workstation/pc  rispetto  a  programmi  che   usano   quasi
+ esclusivamente le risorse di un <server> remoto, usando il device di cui sopra
+ come display.
+
+ C'e' una classica citazione da Rob Pike (l'inventore dei terminale <blit>) che
+ dice:  "Un  t.s.  non e' un terminale arrogante (smart*ass*), ma piuttosto uno
+ che si puo' educare".  Cio'  illustra  un comune problema di progettazione; il
+ tentativo di rendere le periferiche  (o  qualunque  altra  cosa)  intelligenti
+ spesso degenera in "feature speciali" pignole e rigide, che non sono altro che
+ peso  morto se si tenta di usare il device in un qualunque modo non anticipato
+ dal  progettista.   Flessibilita'  e  programmabilita',  d'altra  parte,  sono
+ *davvero* intelligenti.
+
+    <smash case>  v.  Perdere  o  dimenticare  la  distinzione  tra maiuscole e
+ minuscole in fase di input.  "L'MS-DOS fa automaticamente uno s.c.   nel  nome
+ di file che gli dai, in fase di creazione."
+
+    <smash the stack> [frantumare lo stack, dalla programmazione C] s. Su molte
+ implementazioni del C e' possibile corrompere lo stack di esecuzione scrivendo
+ oltre  il  termine  di  un  vettore  dichiarato automatico in una routine.  Il
+ codice che fa cio' si  dice  'frantumare  lo  stack', e puo' fare ritornare la
+ routine a un indirizzo casuale, il  che  puo'  produrre  alcuni  tra  i  bachi
+ dipendenti  dai  dati  piu'  insidiosi  noti all'umanita'.  Varianti includono
+ 'trash the stack' [mandare  lo  stack  in spazzatura], '<scribble> the stack',
+ '<mangle> the stack'; '<mung> the stack' non e' usato, dato che non lo  si  fa
+ mai  intenzionalmente.   Vedi  <spam>; vedi anche <aliasing bug>, <fandango on
+ core>, <memory leak>, <precedence lossage>, <overrun screw>.
+
+    <smiley> n. Vedi <emoticon>.
+
+    <smoke  test>  [test  di  fumo].   1.  Una  forma  rudimentale  per testare
+ materiale elettronico dopo una riparazione o riconfigurazione:  viene  immessa
+ della  corrente  e  si  cercano  crepitii,  fumo, o altri segni teatrali di un
+ malfunzionamento di base.  2. Per estensione,  il  primo lancio di un pezzo di
+ software dopo la costruzione o una modifica critica.  Vedi <magic smoke>.
+
+    <smoking  clover>  [ITS:  quadrifoglio  che  fuma]  s.  Un  <display  hack>
+ originariamente dovuto a Bill Gosper.  Si disegnano molte linee convergenti su
+ un monitor a colori in modo AOS (incrementando cioe' il colore di  ogni  pixed
+ colpito).   La mappa dei colori viene quindi ruotata.  Tutte le linee hanno un
+ termine a meta' dello schermo; gli  altri  termini sono spaziati a un pixel di
+ distanza sul perimetro di un grande quadrato.  Il risultato e' un quadrifoglio
+ arcobaleno e scinitillante.  Gosper scherzava  sul  fatto  che  non  bisognava
+ farlo vedere alla FDA [la Food and Drug Administration, che controlla tutte le
+ medicine e i cibi negli USA] che altrimenti l'avrebbe bandito.
+
+    <SMOP> /smop/ [Simple (o Small) Matter of Programming - Semplice materia di
+ programmazione]  s.  1.  Del  codice,  non  ancora  scritto,  la cui lunghezza
+ prevista e' significativamente maggiore della sua complessita'.  Uso: riferito
+ a un programma che si puo' ovviamente scrivere, ma di cui non ne vale la pena.
+ E' anche usato  ironicamente  per  implicare  che  un  problema difficile puo'
+ essere facilmente risolto  perche'  si  puo'  scrivere  un  programma  che  lo
+ risolva;  l'ironia e' che e' chiaro che scrivere un tale programma non sarebbe
+ affatto semplice.   Esempio:  "E'  facile  modifialre  un  compilatore Fortran
+ perche'  compili  anche  il  COBOL:  e'  solo  una  SMOP".   2.  Spesso  usato
+ ironicamente da una vittima quando  viene  dato  un  suggerimento  che  sembra
+ semplice  per  il  suggeritore,  ma e' naturalmente ben piu' complicato per il
+ programmatore.
+
+    <snail-mail>  [posta  a  lumaca]  s.   Posta  cartacea,  opposta  a  quella
+ elettronica.  Alle volte scritta  come  l'unica  parola  'SnailMail'.   Deriva
+ dall'uso  precedente 'USnail' per il quale ci sono stati disegni parodistici e
+ si sono persino creati dei finti francobolli.  Opp.  <email>.
+
+    <snarf> /snarf/ v. 1.  Afferrare,  spec.   un  grande  documento o file per
+ usarlo con o senza il permesso dell'autore.   Vedi  <BLT>.   Variante:  "snarf
+ down"  ha  la  connotazione di assorbire, processare o capire.  "Penso di s.d.
+ la lista dei comandi DDT per capire cosa e' cambiato recentemente".  2. [nella
+ comunita' UNIX] Prendere uno o piu' file dalla rete.  Vedi anche <blast>.
+
+    <snarf & barf> /snarf-n-barf/ s. L'azione di afferrare una regione di testo
+ in un ambiente <WIMP>, e  inserire  il  contenuto  di tale regione in un'altra
+ regione o anche nella stessa, per evitare di riscrivere una linea di comando.
+
+    <snark> [da Lewis Carroll, via  il  Michigan  Terminal  System]  s.  1.  Un
+ malfunzionamento  di  sistema.  Quando un processo utente bombava, l'operatore
+ riceveva un messaggio "Help, Help, Snark in MTS!".  2. In genere, un qualunque
+ tipo di evento inspiegabile o minaccioso  in un calcolatore.  Spesso usato per
+ riferirsi a eventi o linee di log che  potrebbero  indicare  un  tentativo  di
+ violazione  del  sistema.   3.  Nome  UUCP  di  snark.thyrsus.com,  casa delle
+ versioni 2.x.x.  e 3.x.x del Jargon File.
+
+    <sneakernet> [sneaker  e'  chi  si  muove  furtivamente]  s.  Termine usato
+ (generalmente con  intento  ironico)  per  il  trasferimento  di  informazione
+ elettronica  portando fisicamente nastri, dischi o altri media da una macchina
+ all'altra.   "Non  sottostimare  mai  la  larghezza  di  banda  di  un  vagone
+ ferroviario riempito di nastri  magnetici,  o  di  un 747 riempito di CD-ROM".
+ Detta anche "Tennis-Net", "Armpit-Net" [net ascellare].
+
+    <S.O.> /ess-oh/ s. Acronimo per Significant  Other  [altro  significativo],
+ scritto  quasi invariabilmente abbreviato e pronunciato dagli hacker "ess-oh".
+ La forma "SO"  senza  punti  e'  la  piu'  comune.   Usato  per riferirsi alla
+ relazione primaria di qualcuno, spec.  se si  convive  senza  essere  sposati.
+ Vedi <MOTAS>, <MOTOS>, <MOTSS>.
+
+    <softcopy>  s.  [in  analogia  con  'hardcopy']  Una forma leggibile da una
+ macchina di una corrispondente hardcopy.  Vedi <bits>.
+
+    <software bloat> [il gonfiarsi  del  software]  s. Il risultato del <second
+ system effect>.  Esempi comunemente citati comprendono  'ls(1)',  <X>,  <BSD>,
+ <Missed'em-five> e <OS/2>.
+
+    <software rot> [putrefazione del software] s. (Noto anche come <bit decay>,
+ <bit   rot>)   Ipotetica   malattia   la   cui   esistenza  e'  stata  dedotta
+ dall'osservazione  che  programmi  o  feature  non  usati  smettono  spesso di
+ funzionare dopo un certo tempo, anche  se  "nulla  e'  cambiato".   La  teoria
+ afferma  che  i  bit  decadono  come  se fossero radioattivi.  Col passare del
+ tempo, il contenuto di un file o il codice di un programma diventa sempre piu'
+ rovinato.
+
+ Ci sono  in  effetti  dei  processi  fisici  che  producono  tali  effetti (le
+ particelle alfa che si trovano nei raggi cosmici possono cambiare  in  maniera
+ impredicibile il contenuto di una memoria, e vari tipi di piccoli problemi con
+ i  media  possono  corrompere  i  files nelle memorie di massa), ma sono assai
+ rari.
+
+ Piu' spesso, il "software rot"  colpisce  quando le assunzioni di un programma
+ diventano obsolete.  Se il progetto  non  e'  stato  abbastanza  <robust>,  il
+ programma  puo'  piantarsi  in  modi  misteriosi.  Ad esempio, data l'endemica
+ miopia nella progettazione  dei  programmi  COBOL,  la  maggior  parte di essi
+ soccombera' per il s.r.  quando i contatori a due cifre per l'anno "daranno il
+ giro" all'inizio del 2000.
+
+ Nota storica: il s.r.  in un senso ancora piu' divertente  che  quello  mitico
+ era  un  problema  reale sui primi calcolatori per la ricerca (come l'R1, vedi
+ <grind crank>).  Se un programma che dipendeva da una istruzione peculiare non
+ era stato fatto girare da  un  pezzo,  l'utente poteva scoprire che gli opcode
+ non facevano piu' le cose a cui ci si era abituati.  ("Hey, Tizio  ha  bisogno
+ di  un  istruzione per fare questo-e-questo.  Possiamo <snarf>arci questa, no?
+ Tanto nessuno la usa...").
+
+    <softwarily>  /soft-weir'i-lee/  [softwariamente]  avv.   In  un  modo  che
+ riguarda  il  software.   "Il   sistema   e'  s.  inaffidabile".   L'aggettivo
+ "softwary" *non e'* usato.  V. <hardwarily>.
+
+    <some random X> [un X a caso] agg.  Usato  per  indicare  un  membro  della
+ classe X, con l'implicazione che quell'X particolare e' intercambiabile con la
+ maggior  parte degli altri X in qualunque contesto si stia discutendo.  "Penso
+ che un cracker a caso sia cascato l'altra notte nel timeout per guest".
+
+    <sorcerer's apprentice mode> [modo apprendista  stregone]  s. Un baco in un
+ protocollo dove, in alcuni casi, il  ricevimento  di  un  messaggio  causa  la
+ spedizione  di  piu'  di  un  messaggio,  ciascuno dei quali, quando ricevuto,
+ attiva lo stesso baco.  Usato spec.  per il comportamento causato dai loop dei
+ <bounce message> nel software <email>.  Confr.  <broadcast storm>.
+
+    <SOS> n.,obs.  /ess-oh-ess/  1.  Un  editor  di  testi  <losing> in maniera
+ infame.  Nei lontani anni '60, quando occorreva un editor  per  il  PDP-6,  un
+ hacker  mise su alla bell'e meglio uno "stopgap editor" [editor di ripiego] da
+ usare finche'  non  ne  fosse  stato  scritto  uno migliore.  Sfortunatamente,
+ questo non venne mai eliminato realmente quando ne vennero fuori dei nuovi (in
+ particolare, <TECO>).  SOS e' un discendente di questo editor;  SOS  significa
+ "Son  of Stopgap", e molti utenti PDP-10 hanno avuto il dubbio piacere di fare
+ conoscenza con esso.  Da allora  sono  stati scritti altri programmi simili in
+ stile a SOS, tra cui degno di nota e' BILOS (bye'lohss), il Brother-In-Law  Of
+ Stopgap  [cognato di Stopgap].  Vedi anche <TECO>.  2. /sahss/ n. L'inverso di
+ <AOS>, dall'insieme di istruzioni PDP-10.
+
+    <space-cadet  keyboard>  [tastiera  da  cadetto  spaziale]  s.  La tastiera
+ Knight, un dispositivo oramai leggendario usato sulle LISP  machines  dell'MIT
+ che  ha  ispirato  diversi  termini  gergali ancora correnti, e influenzato il
+ progetto di <EMACS>.  E' stata ispirata  dalla tastiera di Stanford, e fornita
+ di nientemeno  che  *sette*  tasti  di  shift:  quattro  per  i  <bucky  bits>
+ ('control',  'meta',  'hyper',  e 'super') e tre come il regolare tasto shift,
+ detti 'shift', 'top', e 'front'.  Molti tasti avevano tre simboli raffigurati;
+ una lettera e un simbolo  sulla  cima,  e  una lettera greca sul davanti.  Per
+ esempio, il tasto L aveva una L e una freccia  bidirezionale  in  cima,  e  la
+ lettera  greca lambda sul davanti.  Se si schiacciava questo tasto con la mano
+ destra mentre con la sinistra  si  suonava l'"accordo" appropriato con i tasti
+ di shift, si potevano ottenere i seguenti risultati:
+
+      L -- "l" minuscola
+      shift-L -- "L" maiuscola
+      front-L -- lambda minuscola
+      front-shift-L -- lambda maiuscola
+      top-L -- frecca bidirezionale (front e shift sono ignorati)
+
+ E naturalmente ciascuno di questi tasti puo' anche essere  digitato  con  ogni
+ combinazione di control, meta, hyper, e super.  Su questa tastiera si potevano
+ scrivere  piu'  di 8000 caratteri differenti!  Questo permetteva all'utente di
+ scrivere del testo matematico assai  complicato,  e anche di avere migliaia di
+ comandi di un singolo carattere  a  propria  disposizione.   Molti  hacker  si
+ mettevano  sul  serio a memorizzare il significato di tutto quei caratteri, se
+ cio' significava  il  ridurre  il  tempo  di  digitazione  (questa  visione ha
+ abbastanza ovviamente formato l'interfaccia di EMACS).  Altri  hacker,  pero',
+ pensavano  che  avere  tutti  quei  bucky  bits e' un'esagerazione, e facevano
+ notare che una simile tastiera puo'  richiedere  tre o quattro mani per essere
+ adoperata.  Vedi <bucky bits>, <cokebottle>, <meta bit>.
+
+
+
+
+                                           tradotto da .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+
+
+
+ ############                                                               ###
+ ###   8  ###                                                         ALCEI ###
+ ############                                                               ###
+
+ Riassunto:
+        Ho  presenziato alla presentazione di 'sta cosa a Torino.  Sono rimasto
+        perplesso. Vi prometto ragguagli nel prox number.
+
+        Intanto inserisco in Telem  i  files  che  ho  ricevuto su ALCEI.  Sono
+        anche disponibili formattati per Winword 6.0. Chiedeteli.
+
+ ------------------------------------------------------------------------------
+
+         EFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFE
+         FEFEFEFEF  TEFEFEFE  EFEFEFEFEF        TEFE         EFE  EFFE
+         EFEFEFEF    TFEFEFE  FEFEFEFEF  JEFEFL  TFE  FEFEFEFEFE  EFEE
+         FEFEFEF  JL  TEFEFE  EFEFEFEF  JEFEFEFEFEFE  FEFEFEFEFE  EFEE
+         EFEFEF  JFFL  TFEFE  EFEFEFHI  FEFEFEFEFEFE      FEFEFE  EFEE
+         FEFEF          TEFE  FEFEFEFL  TEFEFEFEFEFE  FEFEFEFEFE  EFEE
+         FEFF  JEFEFEFL  TFE  EFEFEFEFL  TFEFEF  JFE  FEFEFEFEFE  EFEE
+         FEF  JFEFEEFEFL  TE         EFL        JEFE         EFE  EFEE
+         EFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFE
+         FE                                                         FE
+         FE   E L E C T R O N I C   F R O N T I E R S   I T A L Y   FE
+         FE                                                         FE
+         FE               Associazione per la liberta'              FE
+         FE       nella comunicazione elettronica interattiva       FE
+         FE                                                         FE
+         EFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFE
+
+
+
+          ----------------------------------------------------------
+          E'  NATA  L'ASSOCIAZIONE  PER  I  "CITTADINI  ELETTRONICI"
+          ----------------------------------------------------------
+
+
+ Mai pensato che il nostro computer potrebbe aver problemi di liberta'?
+
+ E il nostro modem voglia di riservatezza?
+
+ Eppure ne hanno, cioe': li abbiamo noi.  Quasi senza accorgercene, leggendo  e
+ scrivendo  messaggi,  usando  forme  nuove  di  comunicazione, siamo diventati
+ un'altra cosa.   Siamo  "cittadini  elettronici".   Ma  "quanto" siamo liberi?
+ Quanto  abbiamo  gia'  "regole"  adeguate   alla   novita'   che   viviamo   e
+ rappresentiamo?
+
+ I recenti sequestri in Italia, il ricco dibattito che negli Stati Uniti si sta
+ sviluppando  intorno alle autostrade elettroniche, la lentezza e le incertezze
+ che  caratterizzano  l'affermarsi   di   un   analogo   progetto  europeo,  le
+ trasformazioni tecnologiche e d'uso che l'insieme  dei  media  va  conoscendo,
+ indicano  un  terreno di iniziativa per la difesa e lo sviluppo dei diritti di
+ cittadinanza telematica come parte dei diritti democratici.
+
+ Per questo e' nata
+
+                     *************************************
+
+                                     ALCEI
+                                     -----
+
+                          Electronic Frontiers Italy
+
+                      Associazione per la liberta' nella
+                     comunicazione elettronica interattiva
+
+                     *************************************
+
+
+ Alcei nasce per dare la  parola  al  cittadino elettronico.  Alcei si richiama
+ direttamente all'esperienza di Electronic Frontier Foundation e di EFF  ha  il
+ riconoscimento pubblico e diretto.
+
+ Alcei  non  e'  un'organizzazione  di  tendenza, non ha riferimenti politici o
+ ideologici, non chiede di  essere  finanziata  dallo  stato.  Tutti vi possono
+ aderire, purche' ne rispettino  lo  statuto.   A  tutti  chiediamo  una  quota
+ associativa  e  una  collaborazione  in  qualsiasi forma: nessuno ci paga, non
+ abbiamo apparati.
+
+ Alcei non e' una "lobby".  Non e'  solo un gruppo di "difesa del consumatore".
+ Non nasciamo per aggiungere leggi a leggi, burocrazia a burocrazia: tutto cio'
+ che fonda  sulla  liberta'  e  sull'autoregolamentazione,  sui  codici  che  i
+ soggetti sociali sanno darsi autonomamente, funziona bene.
+
+ Con questo principio intendiamo muoverci su casi singoli cosi' come su terreni
+ generali:  il  diritto  e la legislazione, che sono incompleti, l'informazione
+ che e' oggi del  tutto  assente,  carente  o  imprecisa  (e spesso pilotata da
+ gruppi di interesse); l'elaborazione di una cultura dei nuovi mezzi.
+
+ Alcei non e' una "conferenza", un luogo solo di dibattito.  E' e vuole  essere
+ un'organizzazione  operativa  che  lavora  con  pazienza,  tutti i giorni, per
+ costruire e difendere la libera cultura della telematica.
+
+ C'e' un grande vuoto da riempire, di idee e di lavoro.
+
+ Per  ottenere  un'adesione  informata  abbiamo  creato  punti  di  riferimento
+ telematici dove potrai  chiedere  informazioni  sulla  nostra  identita' e sui
+ nostri principi.   Presto  saranno  pronti  nuovi  strumenti  di  circolazione
+ dell'informazione cui tutti potranno dare un contributo.
+
+
+
+
+
+
+
+
+
+
+
+          -----------------------------------------------------------
+
+
+ Per informazioni:   * alcei@mailbox.iunet.it *
+
+
+                         (fax: 06-3202346 o 02-867055)
+
+
+ La documentazione puo' essere richiesta al server ftpmail
+ archive@nexus.it inviando un messaggio contentente come testo
+ GET LEGGIMI.TXT
+
+
+          -----------------------------------------------------------
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   9  ###                                            Navigare nelle CPU ###
+ ############                                             Giuseppe De Marco ###
+
+ Riassunto:
+        Il buon Giuseppe propone questo interessantissimo articolo  sulle  CPU.
+        Gli  ho  fatto  notare che - sempre a mio insindacabile parere - le CPU
+        non sono tutto nella vita: ci sono anche i bus, le memorie etc. etc.
+
+        Ha promesso di ragguagliarci in merito al piu' presto... !
+
+              Non possiamo che ringraziarlo sulla fiducia! :)
+
+ ------------------------------------------------------------------------------
+
+                          CPU: QUALE SCEGLIERE OGGI?
+
+  La CPU, Central Processing Unit, e'  detta anche microprocessore; Per chi non
+ lo sapesse, e' il chip che  elabora  i  dati  (il  computer  vero  e  proprio,
+ insomma).
+
+  La scelta di un microprocessore, al giorno d'oggi, deve essere indirizzata su
+ un  486  o  su un Pentium.  Sarebbe uno sbaglio prendere un 386, lento e fuori
+ produzione.
+
+  Il 486 puo' essere SX, DX, DX2, DX4, SLC o DLC.
+
+  Un 486 'standard' e' il 486DX,  esistente  nelle  versioni a 33, 40 e 50 MHz;
+ come l'SX e il DX2, ha 8KB di cache interna.
+
+  La sigla 'DX' indica che nella CPU e' incorporato un coprocessore matematico,
+ che s'incarica di svolgere i calcoli, mentre la CPU fa  qualcos'  altro.   Per
+ cui, velocizza alcune applicazioni tipo programmi di rendering.
+
+  Il  486SX  esiste  in  varie  frequenze  di  clock  (la frequenza di clock e'
+ indicata dai MHz),  ma  il  piu'  comune  e'  quello  a  25  MHz.  Puo' essere
+ considerato un 486DX senza coprocessore.  Ormai  e'  da  considerarsi  in  via
+ d'estinzione (come il 386).
+
+  Poi  c'e'  il  486DX2,  a 50 e 66 MHz.  E' un DX con MHz interni raddoppiati.
+ Quindi, un 486DX2 a 66  MHz  ha  un  bus (cioe' la comunicazione con l'esterno
+ della CPU) a 33 MHz, e al suo interno lavora a 66 MHz.  Il '2'  presente  dopo
+ 'DX' sta proprio a significare che e' veloce il doppio rispetto a un 486DX.
+
+  L'  IntelDX4 e' il neonato della famiglia dei 486.  Il '4' dopo 'DX' potrebbe
+ trarre in inganno: in realta' non quadruplica la frequenza di clock, bensi' la
+ triplica.  Ha ben 16KB di  cache  interna.   Essendo stato progettato da poco,
+ purtroppo non e' ancora in commercio.
+
+  Passiamo ora al 486 DLC.  C'e' a 33 e a 40 MHz.  E' una CPU a basso  consumo,
+ quindi adatta ai portatili che piu' autonomia hanno e meglio e'.
+
+  In  realta'  e'  solo  una  specie  di 386DX; solo che i 386 non hanno cache,
+ mentre questo ne ha  1KB  che  lo  rende  veloce  quasi  quanto  un 486 vero e
+ proprio.  In effetti, ha anche la piedinatura uguale a quella del 386.
+
+  Da notare che il DLC non ha il coprocessore incorporato.
+
+  L' SLC corrisponde a un 386SX 1KB di cache.  Per il resto e' simile al DLC.
+
+  Passiamo al Pentium.  E' la CPU piu' veloce (se non si  considerano  Alpha  e
+ PowerPC,  per i quali varrebbe un discorso a parte); la versione piu' comune e
+ ormai reperibile quasi dappertutto  e'  quella  a  60MHz.  Da poco sono uscite
+ quelle a 60, 90 e 100MHz, ma ancora non le vendono.
+
+  Questa super CPU sarebbe da utilizzare come server di  rete  in  un'  azienda
+ professionale, oppure per multitasking e applicazioni 'pesanti'.
+
+ Ricapitolando:
+
+  -  se  si  hanno  grosse  esigenze di calcolo e' bene prendere un 486DX/DX2 a
+    50/66MHz, o un Pentium.
+
+  - se si vuole qualcosa di 'normale', si prenda un DX.
+
+  - se si vuole spendere poco, c'e'  l'SX  e il DLC.  L'SLC e' meglio lasciarlo
+    perdere.
+
+
+ NOTA: Su 486DX e DX2 e' bene mettere un dissipatore con ventolina  sulla  CPU,
+       per raffreddarla.  Sul Pentium, anzi, e' obbligatoria.
+
+ Per chiarirvi meglio le idee, ecco le statistiche:
+
+                        _______     _______     _______
+                       |  CPU  |   | CLOCK |   | PUNTI |
+                      /---------\ /---------\ /---------\
+                     |  Pentium  |  100MHz   |    815    |
+                     |  Pentium  |   90MHz   |    735    |
+                     |  Pentium  |   66MHz   |    567    |
+                     |  Pentium  |   60MHz   |    510    |
+                     |  IntelDX4 |  100MHz   |    435    |
+                     |  IntelDX4 |   75MHz   |    319    |
+                     |  i486DX2  |   66MHz   |    297    |
+                     |  i486DX   |   50MHz   |    249    |
+                     |  i486DX2  |   50MHz   |    231    |
+                     |   486DX   |   40MHz   |    203    |
+                     |  i486DX   |   33MHz   |    166    |
+                     |  i486SX   |   33MHz   |    136    |
+                     |  i486SX   |   25MHz   |    100    |
+                     |   386DX   |   40MHz   |     81    |
+                     |  i386SX   |   33MHz   |     56    |
+                      \---------/ \---------/ \---------/
+
+ Questo e' tutto!
+
+                                                              Giuseppe De Marco
+                                                                 2:333/507.15
+
+
+ ############                                                               ###
+ ###  10  ###                                                ERRATA CORRIGE ###
+ ############                                                La direzione   ###
+
+ Riassunto:
+        Entrambi  si  trovano gia' nelle righe della rivista, ma e' meglio fare
+        capire bene a tutti quanto noi della redazione siamo dei casinari...
+
+ ------------------------------------------------------------------------------
+
+  ah...   ho  prelevato l'ultimo numero di Telematicus e c'e' un errore: Agora'
+ e' gratuita!!
+
+          * Emmanuele Somma * E.Somma@agora.stm.it * +39-50-574379 *
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From : Moreno Cuman                        2:333/205.102   29 Jun 94  06:47:02
+ Subj : Son qui per spartire i premi... :-)
+
+ ---[RRE da Telematicus 40]---
+
+  Ah,   si,   ecco.    Inserisco   l'attuale   RT   (Read   Telematicus)   che,
+ inspiegabilmente,  non ha funzionante in questo number lo Skip oltre l'articlo
+ 6. Inserisco anche i sorgenti. Ricci premi e cotillons per chi trova l'errore!
+
+ ---[RRE da Telematicus 40]---
+
+ Vabbe', l'errore l'ho trovato:
+
+> [ 7]  Curiosita': Il gergo hacker .   - parte 34  .   .   .  (AAVV)    pag. 79
+
+ in realta e'
+
+ [ 7]  Curiosita': Il gergo hacker .   - parte 34  .   .   .  (AAVV)    pag. 29
+                                                                             ^^
+ Finite le notti insonni! ...
+
+                                                               Moreno._
+                                                      e: qman@maya.dei.unipd.it
+
+
+
+
+ ############ NOTIZIE FIDONET REGION 33                                     ###
+ ###  11  ###                                                          NEWS ###
+ ############                                                          AAVV ###
+
+                                *** NET 331 ***
+
+                            NESSUNA NUOVA PERVENUTA
+                         (Grazie Vertigo! sei forte.)
+
+                                *** NET 332 ***
+
+                              -- LUGLIO/AGOSTO --
+
+ Ciao Renato!
+
+ RR>                 ci sono ghiotte notizie per Telem?
+
+ E' stata aperta un'area di net dedicata ai flipper. Si chiama FLIPPER.332.
+
+ Ciao Ciao!                                                        ___
+                                                                  /  _
+                                                                 <___/ iovanni
+                                                                  2:332/114.2
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ OsseCui Renato!
+
+ Il 332/600 ha un nuovo HC: Marco Venturini Autieri.
+
+                                 - Settembre -
+
+ RR> ho avuto un po' di problems con PC & parenti. Ora dovrei avere ripreso
+ RR> almeno per il braccio la situazione!
+
+ Ah, quindi Telematicus non e' morto!  Per  un  momento  avevo  temuto  per  il
+ peggio.  :-)
+
+ Gia'  che  ci  sei,  allora,  aggiungi  anche  che  Mario  Mure'  (332/505) e'
+ finalmente tornato on-line dopo il raid di Maggio.
+
+ RR> Tra l'altro ho visto il *mitico* Gomma, il direttore-fondatore di Decoder,
+ RR> della rete Cyber etc. etc.
+
+ RR> Beh, massimo rispetto. E' veramente un tipo a posto, e pensare che ero
+ RR> andato prevenuto credendolo un pallone gonfiato.
+
+ Ho letto qualche suo messaggio tempo fa e devo dire che mi e' sembrato uno dei
+ pochi "a posto" della rete.
+
+ D'altronde non credo che un  pallone  gonfiato  possa riuscire a metter su una
+ rete come CyberNet, fondare un giornale ed una casa editrice...  :-)
+
+ Per quanto riguarda il settore notizie, qui nel 332  si  stanno  svolgendo  le
+ elezioni  per  la  carica  di  NC.   O meglio, si stanno ancora presentando le
+ candidature.  Per ora l'unico che  si  e'  (ri)buttato e' Mure', che con tutta
+ probabilita' verra rieletto per l'n-esima volta.  :-)
+
+                                                                  |'!Chao!_
+                                                                  |__ OrsO/
+                                                                         /
+                                                                  2:332/403.74
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+  RR>         A pro', ci sono novita', news etc. etc. ?
+
+ Alcune novita', si'....
+
+ E' stata creata l'area MISTERI.332, dove  si  parla di tutto quello di cui non
+ si puo' parlare nelle aree scientifiche.
+
+ Mario Mure', il nostro NC, ha riaperto i battenti del BBS; il suo mandato come
+ NC e' scaduto per cui sono state indette nuove elezioni.  Le  candidature  non
+ sono  ancora  chiuse,  ma  finore  il  solo  candidato e' lo stesso Mure'.  Al
+ momento tutto fa pensare che gli verra' riconfermato l'incarico.
+
+ Ciao Ciao!                                                        ___
+                                                                  /  _
+                                                                 <___/ iovanni
+                                                                  2:332/114.2
+
+                                *** NET 333 ***
+
+                              -- LUGLIO/AGOSTO --
+
+ From : Adolfo Melilli                      2:333/1         12 Jun 94  21:52:18
+
+ Hello Renato!
+
+ RR>         Hai fatto tu la spia per FidoCrackDown,
+ RR>         avanti, confessa! che cosi' ho lo scooop!!
+ RR>         :)
+
+ ebbene si, sono stato io, avevo dei piccoli conti da regolare con qualcuno che
+ sta "in alto" nell'organizzazione, e non sapevo proprio come fargliela pagare,
+ ci deve essere stato  un  piccolo  errore  tecnico pero', hanno acchiappato le
+ persone sbagliate :-) dai, non scriverle ste cose, senno'  qualcuno  ci  crede
+ :-)
+ [NdE: ok, non le scrivo!]
+
+  RR>         puoi darmi un po' di notizie?
+
+ beh, oltre a quello che sai, ovvero l'argomento che ha occupato completamentre
+ le menti e le notti insonni di noi poveri sysop, c'e' poco da dire.
+
+  Ci  sarebbe  da  imparare  molto  da questo avvenimento, imparare soprattutto
+ quanto sia importante mantenere  un comportamento equilibrato, senza lasciarsi
+ andare a proclami, frasi retoriche e  di  parte,  che  non  portano  ad  altro
+ risultato  che ad infastidire chi sta facendo il proprio lavoro di magistrato,
+ e con buona probabilita' sa benissimo cosa sta facendo e perche' lo fa ....
+
+  La disinformazione c'e', e'  vero,  ma non bisognerebbe aspettare l'emergenza
+ per rendercene conto, daltronde  l'esperienza  di  associazioni  piu'  o  meno
+ rappresentative  sul piano giuridico, e' palliativa a mio avviso, in quanto ci
+ sara' sempre una parte cosipcua  di  operatori  che  non vi aderira', e magari
+ trovera' una ragione per criticarle ...  lo abbiamo visto con  Asso,  poi  con
+ AFI.
+
+  Cosa fare?  ognuno dovrebbe fare del suo meglio per far conoscere la sua BBS,
+ e  _DI  RIFLESSO_  la  rete,  nessun  corporativismo, solo una condivisione di
+ patrimonio "culturale" ed etico, facilitata  dal mezzo telematico, educare gli
+ utenti a considerare la BBS per quello che e', uno  strumento  per  comunicare
+ all'insegna  del civile rispetto delle regole imposte dalle leggi e dall'umano
+ buon senso ...  Questo e' in fondo .. far parte di un network ...
+
+  RR> Intanto colgo l'occasione per ricordarti che sei sei sempre
+  RR> nel mio laido cuore telematico.
+
+ cos'e', un cuore al silicio? :-)
+
+  RR> ...che sei il mio prediletto! (questo lo dico a tutti)
+
+ hehe  lo so lo so, lo immaginavo :-)
+
+ ciao
+                                                                 Adolfo Melilli
+                                                                 2:333/1
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From : Herve Miozzo                        2:333/511.20000 12 Jun 94  23:36:22
+
+ Hello Renato!
+
+  Dunque ...   ecco  quanto  da  me  fatto  ...   onestamente  ho avuto qualche
+ difficolta' spero che quanto da me realizzato sia sufficente ...  e scusa  per
+ il ritardo ma come ti ho detto sono piuttosto incasinato in questo periodo.
+
+ [NdE: sappi che il tuo spierito di dedizione sara' estremamente apprezzato dai
+       Lettori, dalla Redazione al completo e da me! :) ]
+
+ P.S.  non ho ancora ricevuto il numero di maggio .. e' gia' uscito ?
+
+ [NdE: hem hem...]
+
+ 8<---------------------------------------------------------------------------
+
+  Maggio,  a  quanto dicono, e' il mese delle rose in effetti e' cosi' solo che
+ quest'anno le rose di maggio hanno  avuto  il  gambo ricco di spine ...  e che
+ spine!!!.
+
+  Su richiesta della redazione di Telematicus mi accingo  a  riassumere  per  i
+ lettori,  quello  che  potremmo  definire  in  futuro  il  "MAGGIO  NERO DELLA
+ TELEMATICA AMATORIALE".  Non entrero'  nei  meriti delle singole operazioni ma
+ mi limitero' ad una semplice illustrazione  di  quanto  accaduto,  senza  dare
+ nessun giudizio.
+
+  Tutto  avviene  l'11 Maggio 1994 ...  quando a fronte di una indagine attuata
+ da parte della Procura Della  Repubblica  di Pesaro, viene ordinato alle forze
+ della Guardi di Finanza di perquisire e/o  sequestrare  materiale  informatico
+ atto alla duplicazione di software.
+
+  Gli inquirenti irrompono presso una banca dati di Pesaro (banca dati privata,
+ non appartenente a nessuna rete telematica) dove si presume si stiano attuando
+ illecite  attivita',  i  gestori di questa banca dati sono un certo PAOLOROSSO
+ PAOLO e CARDINALI ROSSANO.
+
+  L'accusa e' di "Associazione  per  delinquere  finalizzata alla diffusione di
+ programmi per computer illegalmente copiati e utilizzo fraudolento di  "chiavi
+ d'accesso" per entrare in elaboratori di "pubblica utilita'":"
+
+  Qui  gli inquirenti scoprono svariati numeri di telefono di altre banche dati
+ appartenenti e non  a  reti  telematiche  e  sulla  base  di tali informazioni
+ predispongono perquisizioni e/o sequestri.
+
+  Le prime notizie arrivano qui da noi (net 333)  la  sera  del  14,  il  primo
+ messaggio  che  ho  letto  sull'argomento  portava  al  suo  interno  tutta la
+ preoccupazione e lo sconcerto per  quanto stava accadendo.  I giorni sucessivi
+ le notizie di perquisizioni e  di  sequestri  di  BBS  si  fanno  sempre  piu'
+ numerose  ...   molte  le  BBS  Fidonet  coinvolte  ...   coinvolte  anche BBS
+ appartenenti alla rete  PeaceLink  ...   la  rete  Ludonet quasi completamente
+ sequestrata...
+
+  Sono indescrivibili le sensazioni che io ,ma credo tutti, abbiamo provato ...
+ e' difficile descrivere quello che un SysOp come me .. ma  di  SysOp  come  me
+ tanti  altri ve ne sono, che in modo onesto e con grande sacrificio di tempo e
+ di denaro, gestisce la propria creatura.
+
+  Pronta e' stata la reazione del  coordinamento Fidonet che ha subito preso in
+ mano la situazione ed ha cercato di gestire  il  momento  di  crisi,  ledevole
+ l'operato  del  nostro  RC  (Aka  Vertigo) ....  che nonappena insediato si e'
+ subito dovuto sorbire questa grossa patata ...  lodevole l'operato di Folly ..
+ nominata sul campo assistente dell'RC  ...  lodevole l'operato di tutti coloro
+ che hanno cercato di tamponare i gossissimi  buchi  provocati  dai  sequestri,
+ assumendo  incarichi  non  di  loro  competenza  ...   il  tutto finalizzato a
+ mantenere  in  vita  le  reti   telematiche,   ed   a  far  arrivare  a  tutti
+ l'informazione.
+
+  A piu' di un mese di distanza ...  altri sequesti sono stati attuati,  ma  si
+ sta'  notando  che  questi  sequestri  assumono un carattere piu' chirurgico e
+ mirato.
+
+  Ci si sta' organizzando anche  per  vedere  come  poter aiutare tutti i SysOp
+ coinvolti ...  parecchi di questi sono studenti che quindi non hanno una fonte
+ di reddito propria...  queste persone dovrano sostenere delle spese legali non
+ indifferenti...  Non e' ancora stato definito nulla .. ci  sono  delle  ottime
+ proposte  che  verranno  discusse...   resta tutti in ascolto che nonappena ci
+ sara' qualche cosa di definitivo vi informeremo.
+
+  Dal versante dei sequestri  si  iniziano  a ricevere alcuni segnali positivi,
+ iniziano per alcuni dei SysOp coinvolti i dissequestri del materiale.
+
+  Nella premessa avevo detto che mi sarei astenuto da considerazioni  personali
+ e  spero di esserci riuscito ...  tuttavia ...  una notevole amarezza mi resta
+ dentro  ...   non  riesco  a  capire  perche'  in  una  societa'  che  si dice
+ democratica ...ma se a sbagliare, nei confronti del cittadino e' lo stato,  lo
+ stato  non  debba  pagare....   non  so  se questa e' democrazia..  ho qualche
+ dubbio.
+
+  Infine, sembra incredibile come in una situazione grave come questa si riesca
+ a ricavare uno  spazio  per  inutili  polemiche,  quando ivece dovremmo essere
+ tutti uniti.
+
+  Comunque ...  su con la vita ...  del resto ci  sono  cose  ben  peggiori  di
+ questa.
+
+  Diffondete  la  conoscenza  della  telematica  amatoriale  a  chiunque  possa
+ interessare.
+
+ Aloha !!
+                                              Herve Miozzo
+                                              SysOp of The Giant BBS 2:333/511
+
+                                *** NET 334 ***
+
+                              -- LUGLIO/AGOSTO --
+
+ From : Angelo Verdone                      2:334/21        06 Jul 94  03:04:20
+
+ RR>        Ci sono nuove?
+
+  Nessuna  di  rilevo,  forse una piccola piccola che il Novarese sembra sempre
+ piu avvicinarsi alla sua sede  naturale  altro  nodo, te l'avevo gia detto che
+ c'era un nuovo nodo e questa volta in Valle D'aosta che cosi facciamo il pieno
+ ed ora bene o male copriamo tutto il nostro teritorio.
+
+                                                                 Angelo Verdone
+                                                                 2:334/21
+
+                                *** NET 335 ***
+
+                              -- LUGLIO/AGOSTO --
+
+  RR>         Ci sono nuove?
+
+  Nel  net  tutto come al solito.  Il caldo colpisce duro e diversi sysops sono
+ gia' in vacanza....  cio' comporta  i primi problemucci di distribuzione della
+ posta, tipici di ogni estate.
+
+  RR>         Il sole ti ha arroventato ill cervello come sta facendo con me?
+
+ Certamente. Negli scorsi giorni siamo arrivati a 37 gradi a Napoli.
+
+ Solo la speranza di vedere dal vicino  i  sette  (anzi  gli  otto)  Grandi  ha
+ trattenuto  i napoletani dal riversarsi nelle fontane ove soggiornare giorno e
+ notte in cerca di refrigerio...  Ora che  sono venuti e son pure andati via...
+ la temperatura e' scesa e c'e' un bel venticello di mare a rinfrescare le idee
+ e le menti
+
+  RR>         Non mi dire che anche quest'anno andrai in vacanza!
+
+ Temo proprio di no...  con mia  moglie  in  attesa  c'e'  poco  da  andare  in
+ vacanza.   Non  si puo' andare in moto (cosa che io adoro!), non si puo' stare
+ al sole, non si puo' nuotare, non  si puo' andare in quota...  insomma, non si
+ puo'!
+ [NdE: Watz!  presto la comunita' telematica fidiana avra' un nuovo prestigioso
+ accolito!]
+
+ Verrebbe da dire: "Ao', sei tanto piccolo e gia' rompi!" :))
+
+  RR>         E' proprio vero che piove sempre sul bagnato!
+
+ Gia'... sigh!
+
+  RR> ciao&aspetto tue sudaticcie nuove... :)
+
+  Le notizie le hai avute..  non sudaticce, pero', perche'  vivo  ormai  da  un
+ mese in aria condizionata (eheheh, almeno questo...).
+
+  Mi aspetto di sentire invece i mugolii di gioia del popolo telematico, lettore
+ della tua splendida rivista, al pensiero delle vacanze, del sole, del mare e di
+ tutto quello che portera' loro l'estate '94.
+ [NdE: questo quando ancora non sapeva del 'collasso' di Telem... :)]
+
+  Chissa'  che almeno per un mese si potra' scordare il monitor, il computer ed
+ il modem per preferire attivita' all'aria aperta (capisciamme' ;))
+
+ Un salutone a tutti, come sempre, ed in particolare a te, con amicizia.
+ [NdE: grazie & ricambi dai Lettori, Redazione & me!]
+
+
+
+                                                                   Ciao,
+                                                                   Enrico
+                                                                   2:335/212.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ******************************************************************************
+
+ Telematicus puo' essere  downloadato  dai  nodi  che ricevono la distribuzione
+ ISN.  Assieme alla rivista ho inserito  ISN-NODE.265, la lista di tutte le BBS
+ appartenenti ad ISN.
+
+ Telematicus e' formattato a 80 caratteri su 22 righe.
+
+ ******************************************************************************
+
+ Il number di TELEMATICUS *non* e' stato interamente corretto con:           :)
+
+ Spellita v1.1 di Marco Minardi (2:332/402.32.  Via G. Battisti 8 47100 Forli')
+
+ e con :
+ BOXER 6.0 per DOS di Boxer Software (Po Box 3230. Peterborough - NH 03458)
+
+ ******************************************************************************
+
+
+
+
+             ** *    Per maggior cultura sono consigliati    * **
+
+                                  N E U R A L
+
+ NEURAL: realta' virtuali, network, media, suoni futuri, fantascienza, UFO
+         distribuzione: DIEST distribuzioni - Torino. 011-8981164
+         redazione    : via Giustino Fortunato 8/N - 70125 Bari
+         e-mail       : a.ludovico@agora.stm.it
+
+                                   W I R E D
+
+  Stati Uniti [1991].  Mensile  di  tendenza  del mondo delle nuove tecnologie.
+ Si autodefinisce lo "house-organ della rivoluzione  digitale".   [NdE:  Fonte,
+ Internazionale].
+
+                                    DECODER
+
+  Il numero 9 della rivista underground  di  DECODER e' imperniato sul tema del
+ FidoCrackDown.  Molto ben fatto e  esauriente.   Sempre  interessante  sentire
+ altre campane! Consigliato.
+
+
+
+
+                                INTERNAZIONALE
+
+  Settimanale (esce il sabato).  Traduci gli articoli piu' interessanti apparsi
+ nei  giornali  esteri.   Sensibile   agli   avvenimenti/sviluppi   tecnologici
+ oltreche'  politici/economici e di costume.  Ha pubblicato parecchi servizi su
+ Internet  (solitamente  fonte  Wired)  e  tiene  una  rubrica  in  cui vengono
+ segnalati siti importanti o l'uso (molto in breve) di servizi  Internet  quali
+ Gopher, FTP, Finger etc. etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               TELEMATICUS SI PUO' TROVARE IN TUTTI I NODI I.S.N.
+                          (Italian Shareware Network)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ####                            End of TELEM042                           ####

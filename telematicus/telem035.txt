@@ -1,0 +1,2068 @@
+ #### TELEM035 - Telematicus - Volume 03 - Numero 11 - Anno 1993 - 94 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                 Dicembre 1993
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematicus   e`  (C)  dei  singoli  autori.   E`
+ espressamente consentita la distribuzione e il riutilizzo  del  bollettino  in
+ tutto  o in parte, purche` non a fini di lucro e citando sempre autore e fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 89  *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+
+ [ 1]  Editoriale  .   .   .   .   .   .   .   .   .   .   .   (RRE)    pag.  4
+ [ 2]  Lettere aperte  .   .   .   .   .   .   .   .   .   .  (AAVV)    pag.  7
+ [ 3]  MirEdit 1.20.   .   .   .   .   .   .   .   .  (Alex Palmese)    pag. 15
+ [ 4]  Un emigrato modello: il REXX.   .- parte VI .   . (Old Raffa)    pag. 24
+ [ 5]  Un network al mese ...: Internet - parte III.(Stefano Costa2)    pag. 31
+ [ 6]  Linux   .   .   .   .   .   .    - parte III.   .   . (.mau.)    pag. 43
+ [ 7]  Oberon  .   .   .   .   .   .    - parte I  . (Roberto Piola)    pag. 51
+ [ 8]  La biografia del Costa  .   .   .   .   .   .(Stefano Costa2)    pag. 56
+ [ 9]  Curiosita`: Il gergo hacker .   .- parte 29 .   .   .  (AAVV)    pag. 59
+ [10]  L'arte della programmazione .   .- parte IV . (L. Zavatruska)    pag. 70
+ [11]  Errata corrige  .   .   .   .   .   .   .   .   .   . (.mau.)    pag. 77
+ [12]  News dal mondo telematico   .   .   .   .   .   .   .  (AAVV)    pag. 79
+ [13]  Notizie Fidonet region 33   .   .   .   .   .   .   .  (AAVV)    pag. 89
+
+
+
+
+                  Questo Telematicus e' nato con l'aiuto di...
+
+                                          | * I collaboratori dai network: *
+ Editor  Aeternus   :  Maurizio Codogno   |
+ Editor  Fidus      :  Alex Palmese       |
+ Editor  Rexxilinius:  Rafaello Valesio   | Giovanni Lopes  (2:332/114.2)
+ Editor  Miticus    :  Stefano Costa(II)  | Adolfo Melilli  (2:333/1.1)
+ Editor  Oberiens   :  Roberto Piola      | Herve Miozzo    (2:333/511.20000)
+ Editor  Variegatus :  Cicci Serra        | Angelo Verdone  (2:334/21)
+ Editrix Filosofae  :  Laura Zavatruschka |
+
+ Editor mittens : Teodoro Lio, Sandro Gasparetto, .mau., Gianfranco Bottini
+ Editor citatus : IPISA  '93,  Roberto  Attias,  Fabrizio Lodi, Sergio Ruocco,
+                  Alessandro Ferrarin, etc.
+
+ ... e del "saccheggiato"
+ Eric S. Raymond <esr@snark.thyrsus.com>
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO)
+                           al 011-9235565
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+  Solitamente mi propongo di scrivere l'editoriale  come  ultima  cosa.   Anche
+ questa volta non ho infranto la regola.  Questo mese uno - non il Centina - ha
+ sostenuto che la successione degli articoli in Telematicus non seguiva un filo
+ conduttore. Ammetto di essermi sentito in imbarazzo.
+
+  Un filo conuttore?
+
+  Certo che no!  mica andiamo a corrente.  Eppure, quasi terminata anche questa
+ volta  l'immane  opera,  mi  sono  accorto di averlo un filo conduttore.  Esso
+ e'...  ma ve ne parlero' meglio nelle prox puntate.
+
+  Ora non vi voglio  parlare  degli  strabilianti  articolai  che ci sono.  Non
+ voglio parlarvi dell'articolo su MirEdit scritto di proprio pugno dallo stesso
+ programmatore Alex Palmese (tra l'altro Editor di una rivista seria.  Non come
+ questa cosa che sono riuscito a plasmare  riempiendola  di  tante  escrescenze
+ biologiche da sembrare un'ameba investita da un rullo compressore).
+
+  Voglio  parlarvi  delle  nuove leve.  Di gente nuova, di questi pseudo esseri
+ deviati che parlano come nei  vaccabolari  di  .mau.   E di altra gente CHE FA
+ CASINI. Ecco qua:
+
+ 8<----------------------------------------------------------------------------
+
+ From : Roberto Ferrara                                     29 Oct 93  20:52:50
+
+ * Unknown Sender: Please don't reply via 2:333/1.0 !
+
+ Ciao Renato,
+ so che ti occupi di Telematicus  e  volevo  sapere  se e in che termini potevo
+ eventualmente aiutarti, io sono uno  studente  di  economia  e  commercio,  mi
+ occupo  un  po'  di  diritto di economia e sono un appassionato del Macintosh,
+ adoro il software SW, dimmi tu  cosa  posso esserti utile, pensi ci sia spazio
+ per qualche articolo generico di diritto o economia?   Oppure  pensi  andrebbe
+ meglio la recensione di qualche software per Macintosh?
+
+ Ciao, Roberto.
+
+ 8<----------------------------------------------------------------------------
+
+ cosa  sarebbe  questo "* Unknown Sender: Please don't reply via 2:333/1.0 !" ?
+ Per non parlare di Alessio Del Ben (333/1), che propone un censimento.  Oppure
+ di Gabriele Favrin (333/324.7), specializzato  su  Amiga  che non riesce mai a
+ rispondere ai miei matrix!!
+
+ Raga' c'e' anche il telefono!!
+ Vabbuo'.   Speriamo.   Ora  ho  dato  l'annuncio *ufficiale* su Telem.  Fatevi
+ sentire.
+
+ Dove  eravamo  rimasti?  Ah, si.  Stecchiti.  E visto che il number e' gia' di
+ per se' grossino, ed io gia' mi espando in altri riassunti, ora vi lascio.
+
+ Dimenticavo: buon natale!!!
+
+ E non contate sulla puntalita' del prox  number.  Tra l'altro ho saputo che il
+ precedente - benche' uscito puntuale - ha  avuto  problems  di  distribuzione.
+ Cose che capitano.
+
+
+                                                                         RRE
+
+
+
+ ############                                               LETTERE APERTE  ###
+ ###   2  ###                                               AAVV            ###
+ ############                                                               ###
+
+ Riassunto:
+         Vedendo la data del segg msg uno - e fors'anche due - potrebbe muovere
+        un involontario moto di disappunto osservando  distrattamente  la  data
+        del  msg.   Purtroppo  il  qui scribente non ha ricevuto dalla matrinia
+        natura uno smodato numero  di  optional.   Per  lo  meno non quelli che
+        potrebbero tornare utili in questo frangente.
+         Quindi, col mio unico e debole paio di occhi, sono riuscito solo ora a
+        dare  una  scorsa  agli  arretrati  in area TAM-TAM.  Ed ho trovato una
+        conferma ad un  concetto  caro  agli scoppiatoni hackers.  L'importanza
+        dell'informazione.  Anche a me e' successo di avere un diverbio con  un
+        tipico  "gallo  professionista" riguardo allo scambio di files su linea
+        telefonica.  Solo che  il  succitato  pennuto  non  aveva ben chiaro il
+        concetto di protocollo...
+
+ ------------------------------------------------------------------------------
+
+ Ä TAM_TAM.334 (2:334/100.9) ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ TAM_TAM.334 Ä
+  Msg  : 34 of 101
+  From : Teodoro Lio                 2:334/108.10           30 Sep 93  15:15:00
+  To   : All
+  Subj : SIP, se la conosci la eviti.
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                           Come volevasi dimostrare.
+
+   Questa mattina sono stato contattato da un commerciale della SIP  in  merito
+ alla  "famosa"  lettera  sulle  tariffe  Sip.   Dopo  avermi  chiesto che cosa
+ facessimo noi nella vita (in breve), meravigliato dal fatto che lavorassimo in
+ commutata e`  passato  apropormi  nell'ordine  circuito  dedicato,  rete Isdn,
+ Itapac per arrivare infine alla "soluzione migliore per la nostra utenza"  che
+ sarebbe l'Easy Way Itapac!  Infatti per sole 7000 lire/mese l'utenza domestica
+ puo`   raggiungere  i  nostri  servizi.   L'unica  limiazione  e`  che  devono
+ accontentarsi del terminalino fornito da loro  che  va a 300 baud, ma "capisce
+ che questo e` un limite tecnico ovvio".
+
+   E` stato vano ogni mio sforzo di fargli presente che in Italia e  nel  mondo
+ ("per  il  mondo  deve  parlare con la direzione generale", giuro che ha detto
+ cosi`!!) c'e` un forte traffico  dati  su  linea commutata, che c'e` gente che
+ usa dei modem, che vnno a 19200 baud  (secondo  me  lo  ritengono  impossibile
+ sulle loro linee), che e` improponibile usare Itapakko e via dicendo...
+
+   Tra le perle che mi ha riservato ci sono il fatto che quasi tutti gli utenti
+ telematici sono stati contattati dalla Sip per passare a Itapac; quando gli ho
+ detto ironicamente che i nostri sysop erano stati contattati solo per l'invito
+ a  installar  una  seconda  linea  per troppo traffico, ha detto che e` ovvio,
+ perche` non abbiamo comprato i modem da  loro!  gli ho fatto presente che sono
+ un po' fuori dal mercato ma mi son sentito dire che "Evidentemente signor  Lio
+ lei non conosce affatto le problematche di questo mercato e le caratteristiche
+ disponibili.   Non si puo` parlare di trasmissione dati su linee commutate, e`
+ solo un escamotage per sfruttare  linee  create  con ben altri scopi.  Bisogna
+ scendere a compromessi, perche` la realta` per la trasmissine dati  prevede  2
+ alternative:  l'economica  Itapac  e  la  piu`  efficiente,  ma  costosa, rete
+ dedicata, magari su ISDN."
+
+   A questo punto mi  sono  arreso  e  ho  lasciato  che  ci inviasse le solite
+ brochure di materiale informativo sui  servizi  telematici  SIP,  "fatene  poi
+ l'uso  che credete piu` opportuno" ha concluso, forse aveva intuito il mancato
+ apprezzamento per le poltiche Sip.
+
+ Se ci sono commenti...
+
+
+                                                          Ciao e a rileggerci.
+                                                                Teodoro
+
+ --- TamTam
+ * Origin: Consiglio direttivo TamTam (2:334/108.10)
+
+ Ä TAM_TAM.334 (2:334/100.9) ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ TAM_TAM.334 Ä
+  Msg  : 35 of 93
+  From : Sandro Gasparetto           2:334/307.5            01 Oct 93  22:29:00
+  To   : Teodoro Lio
+  Subj : SIP, se la conosci la eviti.
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ Hello Teodoro!
+
+ TL> c'e` un forte traffico dati su linea commutata, che c'e` gente
+ TL> che usa dei modem, che vanno a 19200 baud (secondo me lo ritengono
+ TL> impossibile sulle loro linee), che e` improponibile usare Itapakko e via
+ TL> dicendo...
+
+ Non mi stupisco minimamente.
+
+  Pensa che la INTESA (societa' mista IBM / FIAT ) ha messo su una rete che  e'
+ un burosauro inimmaginabile.  E' molto piu' pratica la tecnologia Fidonet.  Ma
+ il  bello  e'  che hanno messo modems a 2400 !  Alla mia domanda : perche' non
+ avete  messo  modem  piu'  veloci?   un  esperto  (e  sottolineo:  esperto) ha
+ risposto: ma perche'?  ce ne sono ?  Quando gli ho detto "si, ce ne  sono"  mi
+ ha  risposto,  con  aria di incrolabile fede: "certamente sulle linee italiane
+ non funzionano" Eravamo  in  una  riunione  con  molta gente.....  ho lasciato
+ perdere......
+
+ Ciao    Sandro
+
+ --- (Ged 2.41 + Bt 2.56 + Squish)ý
+ * Origin: Windows NT  =  Windows ?  No, Thanks  ! (2:334/307.5)
+   [NdE: ecco un *giusto* che usa l'OSSO!]
+ Ä TAM_TAM.334 (2:334/100.9) ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ TAM_TAM.334 Ä
+  Msg  : 36 of 90
+  From : Maurizio Codogno            2:334/100.5           02 Oct 93  19:00:00
+  To   : Teodoro Lio
+  Subj : SIP, se la conosci la eviti.
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ Liebe(r) Teodoro, du schriebst am 30 Sep 93:
+
+  TL>        Se ci sono commenti...
+
+ che  sarei  dovuto  esserci  io.  Il mio tesserino non dice piu` Sip ma Cselt,
+ pero` il  mio  biglietto  da  visita  dice  che  faccio  parte della divisione
+ "servizi dati e telematici" :-)
+
+ ciaociao .mau.
+ [NdE: dovevo citare il mito!]
+ --- WEdit 2.1/00004
+ * Origin: ...and in the middle of investigation you break down (2:334/100.5)
+
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-
+
+  Riassunto:
+          Ecco  che  un anonimo lettore e' uscito dall'oscurita'.  Spero che il
+         discepolo - come si  conviene  da  quando  mondo  e' mondo - superi il
+         maestro e ci scriva tanti bei articoletti.   Oltretutto  il  mito  usa
+         OSSO.  Ma qualcuno - a parte i poveri disinformati e gli sfigati - usa
+         ancora  Windows?  Visto l'interfaccia del futuro Chicago (Windows 4.0)
+         alla Microsoft sembra proprio di no!  :)
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ >Raffa   C'e' chi si diverte e  chi  si  diverte.  Il Raffa appartiene da anni
+ >Raffa alla seconda categoria.  Eccolo nuovamente col suo corso di REXX  -  so
+ >Raffa che  gente  l'ha  contattato  per avere ulteriori info; purtroppo vuole
+ >Raffa tenere nell'anonimato il nome  di  questi spregevoli esseri, quindi non
+ >Raffa posso citartli (spetteguless, spetteguless) -  e  voila',  a  guisa  di
+ >Raffa prestigiatore, cosa mi ha scritto:
+
+   Ecchissarammai questo 'spregevole  essere'?   Un  extraterrestre che sfortu-
+ natamente non ha scoperto amiga e arranca sconsolato  con  l'OSSO  (2)  tra  i
+ denti?
+
+   Un  azteco  superstite  che  e`  ancora  affezionato  al suo VM?  O forse un
+ ex-dosso che e` rinsavito e si incammina sulla buona strada col 4000/040 ?
+
+ Perepeeee! SONO IO!!!!!!!!!!!!!!!!!!!!!!!!
+
+  Devo  dire  che  il  nostro  Editor  Rexxionicus  sta  sopperendo  in maniera
+ eccellente alla scarsita` di informazioni sul REXX, di cui si trova  un  magro
+ opuscoletto solo coi 4000.
+
+  Ho trovato (un po' fortunosamente) i manuali che consiglia e l'ho  tormentato
+ via  matrix  x risolvere vari problemi, sfruttando appieno l'interattivita` di
+ Telematicus e in questo modo ho  anche  scoperto altre cose interessanti e una
+ potente libreria di funzioni e penso proprio che a questo punto si  meriti  un
+ ringraziamento  ufficiale!   [NdE:  yeahhhh!!!   e poi non venitemi a dire che
+ l'Old Raffa e'  da  buttare  via.   Pardon!   Che  il  Telematicus non serve a
+ nulla!]
+
+  E se qualcuno volesse scrivere  un  programmino interattivo grafico con tanto
+ di gadget & requesters ?
+
+ CHIEDETE A OLD RAFFA!!!
+ Non ve ne pentirete!
+ AAAAARGH cos'e` che sta formattando DH0:?!!? =8^)
+
+
+     _        /\                      FIDONET :  2:334/21.8@fidonet.org
+   [/_) ,_  _ |/  _  _  _  _,        AMIGANET :  39:101/402.8@amiganet.ftn
+   (__///_)/||//7/_)/||(__(_)            UUCP :  cbmita!marte!bottini
+    _/        |\                     INTERNET :  bottini@marte.adsp.sub.org
+   (/         \/                    FAX/VOICE :  +39-11-6191613
+
+
+
+ ############                                                               ###
+ ###   3  ###                                                 MirEdit 1.20! ###
+ ############                                                  Alex Palmese ###
+
+ Riassunto:
+         Una cosa non ho mai ben  capito a proposito dell'informazione: un tipo
+        fa qualcosa.  Ci perde del tempo, ci suda e bestemmia  sopra,  la  ama.
+        Terminatala  la  presenta  tutto  soddisfatto  -  magari  ancora un po'
+        ansimante - al mondo.
+
+         Ed ecco che ti arriva bel bello uno stronzetto, magari con la barbetto
+        di tre giorni, la giacchetta  di  renna  e gli occhialetti rorondi.  In
+        testa un po'  di  capelli  arruffati  e  qualche  quotidiano  sotto  il
+        braccio.
+
+         Calmo  calmo osserva la tua cosa e - con aria professionale - comincia
+        a sparare  sentenze.   Questo  fa  schifo,  quello  pure...   questo e'
+        mediocre.  E che caspita!
+
+         Lasciamo che a presentare e commentare le proprie creature  siano  gli
+        artisti stessi (come direbbe Artore Londona).
+
+         Ecco a voi, signore & signori, l'ultima  creazione  di  Alex  Palmese.
+        Tra  l'altro  un  prestigioso  Editor di una rivista *multimediale* per
+        Windows ed una normale per DOS (ma quante rivista ha?  :) ). Quella per
+        DOS si chiama:
+                            SBDI0xx.ZIP  Sound Blaster Digest Italia
+        mentre la multimediale:
+                           SBDIMMxx.ZIP  Sound Blaster Digest Italia
+                                         (Multimedia/Win 3.1)
+
+         visto  che viene/ngono distribuite su ISN entrambe, quando la prendete
+         ricordatevi ogni tanto anche di Telematicus...  :)
+
+         eccovelo detto dalla viva voce del nostro:
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ RR> Comunque era molto ben curata, oltre gli articoli, la parte del lettore
+ RR> della rivista, cosa nella mia del tutto inesistente :(
+
+ Allora devi aver letto un numero vecchio, perche' gia' da 3 numeri siamo anche
+ in versione multimediale per  Windows  (praticamente  un WRI nel quale, grazie
+ all'OLE, ci sono i vari articoli, immagini  grafiche,  suoni,  musiche...:-)).
+ Prova a vedere l'ultimo numero e fammi sapere cosa ne pensi..
+
+ RR> Inoltre ha l'indubbio pregio (o svantaggio) di parlare solo di Sound
+ RR> Blaster.
+
+ Non  piu'!   Infatti  ora  si  chiama  SBDI  Multimedia  Magazine  e tratta di
+ multimedialita'!  (abbiamo anche fatto un articolo su OS/2 2.1 ;-))
+
+ RR>Comunque i miei piu' sinceri complimenti! (Da quanto tempo la curi?)
+
+ Quasi da quando e' nata... Credo siano due anni.
+
+ RR> a proposito, ti hanno chiesto se vuoi lanciarla con la RAI, tramite la
+ RR> AFI? Se no e ti piacerebbe allora contatta: Davide Rolando (2:332/206,
+ RR> 2:332/207).
+
+ Si, certamente, siamo gia' in contatto  con  la Rai (tra parentesi il contatto
+ piu' diretto e' Franco Mulato  oppure,  come  nel  caso  nostro,  direttamente
+ l'incaricato RAI di cui ora non ricordo il nome).
+
+ RR> Quanto alle remore che si potrebbero avere, visto che la RAI
+ RR> sborsa 10 ML alla AFI, ti prego di leggre l'ultimo Telematicus e, se
+ RR> riesco ad avere lo statuto, anche il prox di settembre :))
+
+ Di  quella questione se ne e' parlato anche troppo, secondo me, soprattutto da
+ gente che di AFI conosce solo il nome...  :-(
+
+ AFI e' una associazione senza  fini  di  lucro, e soprattutto e' finalizzata a
+ proteggere e diffondere TUTTA la FidoNet italiana (anche i non  soci)  e  quei
+ soldi non verranno "intascati" come certe persone insinuano, ma utilizzati per
+ FidoNet  (si  pensa ad uniornalino per diffondere la conoscenza di FidoNet, di
+ interventi su giornali per  evitare  che  FidoNet venga confusa dai mass-media
+ con quelle BBS pirata o piene di hackers..).
+
+ E mi spiace che la questione venga utilizzata  per  sollevare  polvere  in  un
+ ambiente gia' di per se' molto caotico...  ;-)
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+         So  gia' che i giovani d'oggi sono - purtroppo - attirati dalle luci e
+         dai suoni e  non  badano  piu'  ad  una  ruspante  rivista  character-
+         oriented.  :(
+
+ ------------------------------------------------------------------------------
+
+                                 MIREDIT 1.20
+                        Un message editor per Windows!
+
+    Bene, finalmente ci siamo!  Dopo piu' di un anno di sviluppo  (la  versione
+ 0.90  venne  rilasciata  nel  Settembre  del  '92)  finalmente  ho concluso la
+ realizzazione del MirEdit "serie 1"!   Devo  confessare che il suo sviluppo mi
+ ha portato via quasi tutto il tempo libero che il lavoro (sigh!) e la famiglia
+ mi ha concesso ultimamente, ma alla fine e'  venuto  come  volevo  venisse  la
+ prima "vera" release di MirEdit.
+
+    Ringrazio  l'editor  pringeps (cos'e', un orologio?  :-)) [NdE: spiritoso!]
+ per avermi lasciato questo spazio sulla  sua rivista, e chiedo perdono per non
+ aver preparato prima  l'articolo,  ma  volevo  poter  parlare  della  versione
+ definitiva,  che  proprio  in  questi giorni (ultima meta' di Novembre) verra'
+ lanciato nei circuiti ISN e WinNet, oltre a poterlo trovare disponibile (anche
+ in file request) presso Mirage BBS al numero 06-9107872 (2:335/317, modem Zoom
+ 14.400 V32bis).  [NdE: Vabbuo', cosi' ci spariamo un'anteprima!]
+
+    Iniziamo a dire,  per  chi  non  lo  conosce,  cos'e'  MirEdit:  il nome e'
+ l'abbreviazione di "Mirage message Editor" e consiste in una applicazione  per
+ Windows  3.1  per  l'editing  di  messaggi in formato FidoNet.  Un anno fa era
+ praticamente l'unico message editor per  Windows, fatta eccezione per "Message
+ Master", un prodotto di un americano che pero' gode (!) di alcune  limitazioni
+ (anzi,  e'  stato  dopo  aver provato Message Master che ho deciso di scrivere
+ MirEdit, il che la dovrebbe dire lunga...).
+
+    A tutt'oggi ne esistono altri due: WinPip del nostro magico Piola (e di cui
+ avete letto la recensione nel  precedente  numero di Telematicus [NdE: per chi
+ non e' forte in matematica  fu  il  numero  34])  e  WinMail,  altro  prodotto
+ americano  ma  questa  volta  si  tratta  di  qualcosa di interessante perche'
+ include alcune delle caratteristiche di MirEdit 2.0, di cui comunque leggerete
+ piu' avanti.
+
+    Il programma e' in inglese:  vi  chiederete "perche'"?  Ebbene, le versioni
+ precedenti (ossia fino alla 1.14 compresa) erano in italiano, ma con  la  1.20
+ ho  voluto creare una versione "internazionale" da rilasciare anche nella rete
+ di  distribuzione  mondiale  WinNet,  e  l'inglese  e'  d'obbligo.   Dopo tale
+ rilascio, comunque, verra' creata una versione 1.20i interamente  in  italiano
+ per  il  mercato  interno,  quindi  se  con l'inglese ci litigate, non abbiate
+ timori!...  [NdE: un tempo  c'era  il  latino!   fortuna che ora siamo passati
+ all'inglese.  *:)]
+
+    Iniziamo quindi  dall'ambiente:  MirEdit  si  colloca  all'interno  di  una
+ struttura  di  point  "classico"  sotto  MS-DOS, quindi sono necessari un mail
+ processor (o "packer")  ed  un  mailer.   Nel  mio  caso consiglio Squish come
+ packer in quanto MirEdit e' in grado di leggere ed aggiornare  automaticamente
+ il  file  di  configurazione  di  Squish.  [NdE: sotto osso mi hanno detto che
+ Squish e' lentissimo!] Ma andiamo con ordine.
+
+    La base messaggi gestita e' solamente  la  FidoBase, o MSGbase, e questa e'
+ l'unica grossa "palla al piede" di MirEdit in quanto le  prestazioni  di  tale
+ base (in termini soprattutto di occupazione su disco) non sono eccellenti.  Ma
+ c'e' un motivo per questa scelta: MirEdit e' nato, come detto, piu' di un anno
+ fa,  ed  all'epoca avevo iniziato a muovere i primi passi nella programmazione
+ in Windows, quindi per prima cosa pensai a non complicarmi la vita con formati
+ complessi (la MSGbase ha l'enorme vantaggio di essere SEMPLICE da gestire...).
+ In seguito,  quando  MirEdit  era  gia'  a  buon  punto,  iniziai a "guardarmi
+ intorno" per cercare qualche libreria DLL per la gestione  di  altri  formati:
+ ebbene,  non  c'erano!   Una  persona  si fece avanti per convertire in DLL le
+ librerie MSGAPI (per  Squish)  ma  dopo  alcuni  mesi  si...  dileguo'.  [NdE:
+ questo mi sembra un *grandissimo* neo da eliminare al piu' presto!]
+
+    Lo sviluppo continuo' quindi  sulla  MSGbase,  con  continui  miglioramenti
+ dell'interfaccia  utente,  ed  ora  che  la  1.20  e'  stata  rilasciata posso
+ finalmente  dedicare  il  100%  del  mio   tempo  a  MirEdit  2.0,  nel  quale
+ abbandonero' la MSGbase per sposare o la JAMbase o, meglio ancora,  sfruttero'
+ il  potente  motore  database Access contenuto nel Visual Basic 3! Ma anche se
+ queste promesse possono costituire gia' da sole una spinta all'uso di MirEdit,
+ sono cose di cui parleremo l'anno  prossimo, quando sara' disponibile la prima
+ beta...
+
+    MirEdit e' una applicazione MDI e questo significa che in una finestra sono
+ contenute   tutte   le   "sotto-finestre"   del   programma.    Il   vantaggio
+ dell'interfaccia   Windows   e'   evidente:   e'   possibile   tenere   aperte
+ contemporaneamente piu' finestre, attualmente tre: l'editor, il viewer  ed  il
+ lister.   Questo  significa che potete, ad esempio, andare a leggere qualunque
+ altro messaggio anche mentre siete in  edit  di  una risposta, e fare anche le
+ consuete (per Windows) operazioni di cut&paste.  Sempre grazie  a  Windows  e'
+ possibile scegliere un qualunque font per la visualizzazione dei testi.
+
+    Parliamo  anche  di  qualche  caratteristica  di  MirEdit.   Nell'editor e'
+ compreso anche un "quote beautifier" (TM  Alex Palmese :-)) il quale, partendo
+ da un blocco di testo marcato, provvede a riformattare il paragrafo eliminando
+ quel fastidiosissimo  effetto  "spezzettamento"  che  si  verifica  quando  si
+ effettua  un  quoting.   [NdE: OTTIMA feature che non tutti, purtroppo hanno!]
+ MirEdit e' in grado  di  gestire  il  lancio  del  vostro packer e del mailer:
+ infatti tramite un comodo bottone e' possibile  lanciare  un  batch  il  quale
+ provvede  a compattare tutta la posta in uscita ed a lanciare il poll verso il
+ "boss", rendendo MirEdit la "centrale  di  controllo" del vostro Point!  E' in
+ grado di gestire point multi-address, multi-zona e multi-network!
+
+    Grazie all'introduzione di nuovi flag locali e' in grado di tenere  traccia
+ dei messaggi effettivamente letti, in sovrapposizione all'uso del consueto (ed
+ obsoleto) "lastread pointer".
+
+    Le  caratteristice  di  MirEdit  non  finiscono  qui, ma non posso occupare
+ l'intera rivista per riportarvi il manuale  di  MirEdit ;-) quindi vi invito a
+ provare il programma: ne rimarrete (spero) talmente ben impressionati che  non
+ vi  piacera'  piu'  usare i "vecchi" editor per DOS!  [NdE: occupa occupa!  Se
+ hai veramente altre carte nella manica verro' di venirtele a strappare :) ]
+
+
+                                                       Alex  Palmese  2:335/317
+                                                       --- MirEdit 1.20 [Supp.]
+
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                                 Un emigrato modello : il REXX ###
+ ############                                 di Raffaello Valesio          ###
+
+ Riassunto:
+        Il  buon  Old  Raffa,  spronato  un  po'  dal  sottoscritto,  ecco  che
+        partorisce l'ultima sua creatura. Cosi' ha osato apostrofarmi:
+
+ 8<----------------------------------------------------------------------------
+        Buongiorno , brutta sanguisuga d'un EDITOR..
+
+        eccoti l'ultimo rexxarticolao , fanne l'uso piu' indecoroso possibile e
+        se ci tieni ad avere  ancora  la  mia invereconda partecipazione al tuo
+        immondo giornalaccio vedi di darmi qualche idea in fretta per  prossimi
+        temi.
+ 8<----------------------------------------------------------------------------
+
+        okko. Vedremo nel futuro prox cosa affibbiarti!
+
+ ------------------------------------------------------------------------------
+
+  Salve cucciolotti miei!  Eccoci qua a disquisire graziosamente  di  REXX  per
+ un'ultima  volta, dopodiche', rari nantes in gurgite vasto, sarete abbandonati
+ al vostro destino, nell'infido pelago del linguaggio.
+
+  Ma  tanto  per  confondere  ulteriormente  le  vostre  gia'  traballanti idee
+ sull'argomento, vi porgero' una mappa degli ultimi scogli, non  per  evitarli,
+ ma per farvici naufragare contro con maggior certezza.
+
+ Dicevamo  ultimamente  che vi avrei raccontato qualcosa sulle funzioni interne
+ di REXX.
+
+  L'argomentao e' assai vastao,e si ridurrebbe ad una tediosa elencazione delle
+ suddette e delle  loro  caratteristiche  (cosa  che  faro'  senz'altro, pur di
+ tediarvi sono disposto a tutto), ma meglio di uno stupido elenco, che comunque
+ servira' a darvi una pallida idea di cosa c'e' a disposizione, servono  esempi
+ e testi.
+
+  Al di la' dei leggendari testi che ho citato nelle primissime puntate, potete
+ trovare  altri  tutorials  ( me ne sono accorto pochi giorni fa ) ed esempi su
+ SKYLINK, 2:331/106, che dispone di parecchia  roba .  Fate una scansione della
+ filelist con la stringa REXX e vedrete.  Non ho esaminato ancora nulla,  ma  i
+ titoli sembrano promettenti.
+
+  Poi ritengo abbastanza probabile che qualche casa editrice specializzata tipo
+ Franco Angeli o Jackson abbia qualcosa in catalogo.
+
+  Frugate,  discepoli,  non  stancatevi  e  la  vostra  sete  di  sapere  sara'
+ soddisfatta.   Non da me, non aspettatevelo; ho gia' troppo da fare a cercarmi
+ una nuova ragazza .  (comunque, se qualcuno  mi scrive, magari prima o poi gli
+ rispondo)
+
+  Non aspettatevi di fare cose folli con le funzioni interne.
+
+  Non aspettatevi le funzioni trascendenti  (SINH  ecc.)  o  i  requester  o  i
+ gadgets.  Non sono compresi nel REXX standard.
+
+  Pero'  c'e'  gente  di buona volonta' che, almeno per AMIGA, ha scritto delle
+ librerie aggiuntive che colmano queste  lacune.   Un valido e utile esempio e'
+ la REXXARPLIB per AMIGA, che mette a disposizione del REXX le  funzioni  della
+ notissima ARPLIB.  Comodissima, e soprattutto funziona!
+
+  PS c'e' anche una MATHLIB da qualche parte, con le funzioni trascendenti.
+
+  Trovate  le  librerie  suddette  un  po'  dappertutto,  (le ho viste anche da
+ SKYLINK).  Cio' conferma ulteriormente,  se  mai  ve  ne fosse ancora bisogno,
+ l'apertura ed estendibilita' del REXX.
+
+  Ed eccovi ora un elenco di funzioni, limitato alla piattaforma di riferimento
+ standard per il REXX, cioe' IBM.  Per i dettagli  ricorrere  alla  letteratura
+ specializzata.  Ho messo qui solo le funzioni di interesse piu' generale.
+
+
+  ABS(numero)................  valore assoluto
+  ADDRESS()..................  nome dell'environment
+  ARG(n,options).............  restituisce informazioni sulle
+                               variabili passate a un subprog
+  BITAND(string1,string2)....  AND logico fra stringhe hex
+  BITOR(string1,string2).....  OR logico
+  BITXOR(string1,string2)....  ormai dovreste aver capito...
+
+  CENTRE(string,length)......  mette una stringa in centro
+  COMPARE(string1,string2)...  0 se le stringhe sono uguali
+  COPIES(string,n)...........  multipla la stringa n volte
+  C2D(string)................  conversione da char a decimale
+  C2X(string)................  conversione da char a hex
+
+  DATATYPE(string)...........  dice se una variabile e' num,hex string ecc.
+  DATE(option)...............  data del giorno in svariati formati
+  DELSTR(string,n,length)....  cancella una porzione di string
+  DELWORD(string,n,length)...  cancella subwords di una string
+  D2C(number)................  conversione decimal to char
+  D2X(number)................  conversione decimal to hex
+
+  FIND(string,phrase)........  trova phrase in string e dice dove
+  FORMAT(number,a,b).........  formatta number con a interi e b dec
+
+  INSERT(new,target).........  inserisce una stringa in un'altra
+
+  LEFT(string,n,pad).........  come left$ del basic, in piu' puo' fare padding
+  LENGTH(string).............  ovvio!
+
+  MAX(n1,n2,n3..)............  MAX del FORTRAN
+  MIN(n1,n2,n3..)............  beh anche questa e' ovvia
+
+  OVERLAY(new,target)........  come insert, ma con sovrascrittura
+
+  POS(string1,string2).......  la posizione della substr string1 in string2
+
+  QUEUED()...................  numero di records in stack
+
+  RANDOM(min,max,seed).......  ma guarda chi si vede !!
+  REVERSE(string)............  inverte la string
+  RIGHT(string,length,pad)...  v. LEFT
+
+  SIGN(number)...............  segno algebrico
+  STRIP(string,options)......  di solito toglie leading e trailing blanks
+  SUBSTR(string,n,length)....  sottonsieme di string, da n lungo length
+  SUBWORD(string,n)..........  n.ma parola della frase string
+
+  TIME(option)...............  ora del clock in svariatissimi formati
+  TRACE(option)..............  tracing ricchissimo,per interactive debug
+  TRANSLATE(string,tables)...  tarduzione char by char
+  TRUNC(number,n)............  parte intera di number, e n decimali
+
+  X2C(hexstring).............  conversione hex to char
+  X2D(hexstring).............  conversione hex to decimal
+
+
+  Come avrete potuto notare, e se non lo avete fatto ve lo dico ora, il REXX e'
+ ricchissimo nelle istruzioni di trattamento stringhe.
+
+  E  non ve le ho raccontate tutte.  Cio' lo rende ideale per fare programmmini
+ che riescano a decifrare frasi per dare parametri, et similia.
+
+  Vero che vi viene quasi voglia  di scrivere un vostro linguaggio personale, e
+ farlo decifrare da REXX e magari costruirvi un compilatore?
+
+  Ma ormai il Raffa e' stanco, la vecchiaia incalza  e  l'appetito  bussa  alle
+ porte  dello  stomaco.   E'  tempo  che io me ne vada a pranzo, non foss'altro
+ perche' vi ho tediati per  mesi  e  ora  la  decenza  mi impone di ritirarmi e
+ lasciarvi a giocherellare col REXX.
+
+
+  Che Boole & Babbage vi proteggano, o audaci!
+
+
+                                                             _     _
+                                                            (_)ld |_)
+                                                                  | \affa
+                                                            >> 2:334/21.42 <<
+
+
+
+ ############                                   Un network al mese o quasi: ###
+ ###   5  ###                                          Internet - parte III ###
+ ############                                                Stefano Costa2 ###
+
+ Riassunto:
+         Questa storia dei MUD e'  interessante.   Tutto  cio'  che  puo'  dare
+        dipendenza  desta  un  certo interesse nelle mie sinapsi annebbiate dal
+        sonno e indoleti per l'aver ormai  provato  tutto (anche la coda ad uno
+        sportello delle poste, si.)
+
+         Insomma il Costa2, meglio di Asimov nel suo soliloquio logorroico  per
+        i  pianeti  di  cartapesta  del Sistema, gira in quest'enorme labirinto
+        fatto di coca~cola, jue-box e...  MUD!
+
+ ------------------------------------------------------------------------------
+
+                                    TELNET
+
+   TELNET non e' niente altro che il supporto di terminale remoto in  internet.
+ Grosso  modo  e'  analogo  ai programmi di comunicazione cui siamo abituati ad
+ usare, fatto salvo che si preoccupa solo di gestire il collegamento tra l'host
+ ed il terminale e  niente  altro.   Con  TELNET  si  puo' cioe' interagire con
+ programmi tipo i MUD (Multi User  Dungeon,  favolosi  giochi  di  ruolo  multi
+ utente)  od  altri  software che richiedono input/output da parte dell'utente,
+ come i servizi addizionali che vedremo piu' avanti.
+
+   Alcune BBS, oltre che per  via  telefonica, possono essere raggiunte tramite
+ TELNET.  Di solito sono gateways che offrono Internet ad utenti in  commutata,
+ ma  non  mancano  BBS  a cui noi siamo abituati, piu' qualche BBS pirata.  Tra
+ l'altro, se  per  qualche  misteriosa  ragione  non  potete  usare FTP, potete
+ sfruttare il fatto che TELNET  e'  un  superset  di  FTP,  supporta  cioe'  il
+ protocollo  di  quest'ultimo  ed  altre features, e fare TELNET su un sito FTP
+ senza  alcun  problema.   Certi  siti  raggiungibili  con TELNET richiedono un
+ parametro numerico, la porta a  cui  si  vuole accedere.  La sintassi completa
+ del comando e' TELNET <sito> <numero porta>.
+
+                                    ARCHIE
+
+   Non riuscite a trovare un file nel marasma dei siti internet?  (io non trovo
+ i  miei  files  in  un  disco  da 600M...).  Basta chiedere ad archie!  Archie
+ niente altro e'  che  un  database  aggiornato  che  contiene  le directory di
+ diversi siti FTP.  In questo modo potete far  cercare  a  lui  quello  che  vi
+ serve, senza sprecare tempo in 20 FTP sites diversi.  Archie lavora come GREP,
+ cioe'  cerca  solo un pattern tra i nomi dei files.  Purtroppo non e' in grado
+ di cercare i programmi per categoria, mancando nei database la descrizione dei
+ files.   In  compenso  l'elevata   nidificazione  delle  directory  aiutano  a
+ categorizzare meglio i files tra il marasma dei dischi fissi di mezzo mondo.
+
+   In giro per il mondo ci sono vari archie, ognuno dei quali sorveglia  preva-
+ lentemente   la  sua  aerea  geografica.   Ad  esempio  archie.funet.fi  tiene
+ un'indice dei FTP sites della scandinavia e  di un grosso FTP site inglese, in
+ tutto, a luglio di quest'anno, una settantina di siti.   Archie  si  raggiunge
+ utilizzando TELNET su uno dei seguenti siti:
+
+     archie.ans.net             147.225.1.10     (ANS server, NY (USA))
+     archie.au                  139.130.4.6      (Austrailian Server)
+     archie.doc.ic.ac.uk        146.169.11.3     (United Kingdom Server)
+     archie.edvz.uni-linz.ac.at 140.78.3.8       (Austrian Server)
+     archie.funet.fi            128.214.6.102    (Finnish Server)
+     archie.internic.net        198.49.45.10     (AT&T server, NY (USA))
+     archie.kr                  128.134.1.1      (Korean Server)
+     archie.kuis.kyoto-u.ac.jp  130.54.20.1      (Japanese Server)
+     archie.luth.se             130.240.18.4     (Swedish Server)
+     archie.ncu.edu.tw          140.115.19.24    (Taiwanese server)
+     archie.nz                  130.195.9.4      (New Zeland server)
+     archie.rediris.es          130.206.1.2      (Spanish Server)
+     archie.rutgers.edu         128.6.18.15      (Rutgers University (USA))
+     archie.sogang.ac.kr        163.239.1.11     (Korean Server)
+     archie.sura.net            128.167.254.195  (SURAnet server MD (USA))
+     archie.sura.net(1526)      128.167.254.195  (SURAnet alt. MD (USA))
+     archie.switch.ch           130.59.1.40      (Swiss Server)
+     archie.th-darmstadt.de     130.83.22.60     (German Server)
+     archie.unipi.it            131.114.21.10    (Italian Server)
+     archie.univie.ac.at        131.130.1.23     (Austrian Server)
+     archie.unl.edu             129.93.1.14      (U. of Nebraska,Lincoln (USA))
+     archie.uqam.ca             132.208.250.10   (Canadian Server)
+     archie.wide.ad.jp          133.4.3.6        (Japanese Server)
+
+   Quello  in Nebraska tiene l'indice di 1000 FTP sites americani.  Ci sono due
+ modi per  usare  archie:  con  un  client  (come  console  unix)  o tramite un
+ programma di shell.  Con la shell (che e' quello che usate facendo  TELNET  ai
+ siti  cui  sopra)  alla richiesta di login immetete "archie" e poi return.  Vi
+ ritroverete al prompt di  archie  (a  seconda  del software puo' variare).  Il
+ comando  che  attiva  la  ricerca  e'  PROG  <stringa>.   La  ricerca  avviene
+ specificando un pattern.  Il pattern, analogamente a  GREP,  puo'  essere  una
+ stringa  qualsiasi  il  cui  match  puo'  essere  impostato  in vari modi.  Ad
+ esempio:
+          prog virus
+
+  ordina ad archie  di  cercare  nel  suo  database  tutte  le occorrenze della
+  stringa 'virus'.  Io ho avuto questo risultato:
+
+  Host csuvax1.murdoch.edu.au
+
+          Location: /pub/pc/dos
+            DIRECTORY drwxrwxr-x        512  Oct  8 11:54  virus
+
+  Host files1zrz.zrz.tu-berlin.de
+
+         Location: /pub/pc
+           DIRECTORY drwxrwxr-x       1024  Apr 13 00:00  virus
+
+  Host faramir.informatik.uni-oldenburg.de
+
+        Location: /pub/amiga/incoming
+          DIRECTORY drwxrwxr-x        512  Oct  8 05:56  virus
+
+  Host yuma.acns.colostate.edu
+
+        Location: /software.mac
+          DIRECTORY drwxr-xr-x        512  Jul 27 14:49  virus
+
+  Host dns.harding.edu
+
+       Location: /pub/msdos
+         DIRECTORY drwxr-xr-x        512  Aug  9 20:50  virus
+
+  Host dorm.rutgers.edu
+
+       Location: /pub/msdos
+         DIRECTORY drwxr-xr-x       1024  Oct 20 16:24  virus
+
+  Host f.ms.uky.edu
+
+       Location: /pub/mac
+         DIRECTORY drwxrwxr-x        512  Nov 14 04:27  virus
+       Location: /pub2/atari/utilities
+         DIRECTORY drwxrwxr-x        512  Nov 14 09:25  virus
+
+  Host dftsrv.gsfc.nasa.gov
+
+       Location: /mac
+         DIRECTORY drwx------        512  Aug  3 1992  virus
+
+  Host etlport.etl.go.jp
+
+       Location: /pub/ibmpc/distrib
+         DIRECTORY drwxr-xr-x        512  Aug 24 1990  virus
+
+   Per evitare che per cose molto comuni  siate  inondati  di  matches,  potete
+ limitare  il numero massimo di entries visualizzate, come in questo caso, dove
+ ho specificato 10 matches al massimo.  [NdE: e dove?  e come?  :)  Ok,  questa
+ non e' una guida ad Internet. :) Era solo per stressare un po'.]
+
+   A seconda del tipo di  archie  utilizzato (esistono due 'scuole'), i default
+ di ricerca variano.   La  norma  e'  che  la  ricerca  e'  case-sensitive,  in
+ qualsiasi  punto  del  path/nome  file,  stampando  tutti  i  siti.   Esistono
+ eccezioni, e vengono visualizzate al logon.
+
+   Se volte sapere quali sono i siti monitorati da un particolare archie, basta
+ immettere  'SITES' al prompt.  Tutti i siti controllati verranno visualizzati,
+ con tanto di IP  address  number.   Badate  bene  che  gli archie piu' forniti
+ monitorano molte centinaia di siti FTP!  E' possibile interrogare  archie  via
+ mail.  Per farlo basta spedire un messaggio ad archie@<uno dei nomi qui sopra>
+ contenente  "HELP"  (senza quotes) ed un CR.  Riceverete tutte le informazioni
+ necessarie.
+
+                                     WHOIS
+
+   Come dice il nome stesso,  serve  per avere informazioni su una istituzione,
+ una persona che lavora per quell'istituzione, ed i servizi offerti.  WHOIS non
+ e' nient'altro che un database consultabile in remoto.  Ad esempio, se  volete
+ sapere  che  persona  e'  il  system manager di un campus universitario, a chi
+ rivolgersi per problemi con la posta, basta fare WHOIS <nome del sito>.
+
+   Ecco un'esempio: a chi mi  debbo  rivolgere  se ho problemi a collegarmi col
+ MIT?
+
+ :whois mit.edu
+ mit.edu
+ Massachusetts Institute of Technology (MIT-DOM)
+    Cambridge, MA 02139
+
+    Domain Name: MIT.EDU
+
+    Administrative Contact, Technical Contact, Zone Contact:
+       Schiller, Jeffrey I.  (JIS)  JIS@MIT.EDU
+       (617) 253-8400
+
+    Record last updated on 22-Jun-88.
+
+    Domain servers in listed order:
+
+    STRAWB.MIT.EDU               18.71.0.151
+    W20NS.MIT.EDU                18.70.0.160
+    BITSY.MIT.EDU                18.72.0.3
+    LITHIUM.LCS.MIT.EDU          18.26.0.121
+
+ The InterNIC Registration  Services  Host  ONLY  contains Internet Information
+ (Networks, ASN's, Domains, and POC's).
+ Please use the whois server at nic.ddn.mil for MILNET Information.
+
+   E' pure possibile fare WHOIS su una certa persona, ma  non  tutti  gli  host
+ supportano  questa  feature.   Per  farlo  basta  fare  WHOIS <indirizzo della
+ persona>.
+
+   Come dice l'utima riga del capture di cui sopra, potete anche fare TELNET su
+ nic.ddn.mil (un sito delle forze armate americane) per avere informazioni piu'
+ complete, sui tipi di computer collegati  e sul livello gerarchico nella rete,
+ e informazioni sulle reti collegate ad Internet.
+
+                                     I MUD
+
+   Un'altra perla del firmamento Internet sono  i  MUD  (Multi  User  Dungeon).
+ Sono  dei  giochi  di  ruolo  multi  utente,  percui  e'  possibile giocare in
+ compagnia di altri giocatori, creando alleanze, lotte, o combinando scherzi ai
+ malcapitati.  Ogni giocatore  crea  il  suo  personaggio,  da  una libreria di
+ caratteristiche predefinite.  La maggior parte sono testuali, ma esistono  MUD
+ grafici, anche se richiedono una connessione real-time con Internet.
+
+   I MUD sono una droga che da' assuefazione e dipendenza.
+   Le  universita'  austrialiane  li  hanno  banditi,  dato  che molti studenti
+ passavano piu' tempo nei MUD che a studiare.  I computer adibiti a MUD possono
+ gestire un numero limitato di giocatori contemporaneamente (di solito sedici):
+ inutile dire che sono sempre pieni, ed occorre fare la fila.
+
+   Attorno ai MUD il MIT Media  Lab  ha  aperto una ricerca per poter sfruttare
+ questo tipo di software in ambiente educational.   A  questo  scopo  e'  stato
+ creato  il  MUD Cyberion City, dove non si spara ne' si ammazza, ma si esplora
+ una citta' virtuale, interagendo con gli  altri turisti.  Fate parte anche voi
+ della ricerca (come cavie!) e visitatela anche voi.  Per accedervi fate TELNET
+ dewey.lib.ncsu.edu 7777.
+
+                                      IRC
+
+   L'ultimo  servizio  che  tratteremo  e'  IRC  (Internet  Relay  Chat).    E'
+ l'equivalente Internet dell'opzione di chat presente in tutte le BBS.  Con IRC
+ si  puo'  chattare  tranquillamente con uno studente a Tokio come con l'utente
+ della console di fianco.  IRC e'  organizzato  a  canali, vale a dire che piu'
+ utenti (fino ad un massimo di 512 mi pare)  possono  'parlarsi'  fra  di  loro
+ all'interno  di  un  canale.   La conversazione puo' essere, a discrezione dei
+ partecipanti, pubblica o privata.  Per  'entrare'  nel discorso di una privata
+ occorre il permesso di chi l'ha originata.  La  velocita'  di  connessione  e'
+ decente, soprattutto pensando ai chilometri di rete che si sta impegnando...
+
+   I  tipi  di discussione a cui i canali sono preposti sono i piu' vari, dalla
+ musica al sesso, dalla cultura  underground  al  semplice del piu' e del meno.
+ Ci sono canali IRC riservati ai  newsgroups  nazionali:  in  quello  riservato
+ all'Italia  potete  trovare  diversi  studenti  italiani  in  USA  che cercano
+ compaesani con cui chiaccherare.
+
+   Alcuni dei  canali  sono  aperti  24  ore  su  24,  altri  vengono aperti in
+ occasioni particolari in orari predefiniti.
+
+   Dato che ho qualcosuccia da mettere a  posto  nell'elenco  di  fornitori  di
+ Internet  in  Italia, e che, se avessi incluso tutto avrei forato le 600 linee
+ di testo, la  bibliografia  e  le  istituzioni  da  tampinare  per invadere il
+ cyberspazio ve lo do' il mese prossimo.  Bonjour.
+
+
+
+                                          Stefano Costa
+                                          Internet: scosta@bix.com
+                                          Fido:     Stefano Costa2 (2:331/306)
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                             LINUX - parte III ###
+ ############                                              Maurizio Codogno ###
+
+ Riassunto:
+         .mau.  - contrariamente a certi altri loschi tipi, quali il Carcillo -
+        ha un cuore d'oro.  E sapendo  quanto ci tenga una certa fangiulla (non
+        e' un orrore di stampa questa volta) a Linux ecco che...   Tra  l'altro
+        la  fanciulla  (e'  un  errore  di  stampa  'sta  volta)  ha scritto un
+        articolao... non dico chi e', perche' e' timida. *:)
+
+ ------------------------------------------------------------------------------
+
+ Carissima lettrice,
+
+    RRE (un uomo, un mito, un editor) si e` lamentato col sottoscritto  perche`
+ gli  ho  solo spedito la solita traduzione dal Jargon per il mese di dicembre.
+ Naturalmente l'editor dux non ha  tenuto  assolutamente conto del fatto che il
+ sottoscritto e` stato  semplicemente  oberato  dal  lavoro,  e  ancora  adesso
+ farebbe  meglio  a  passare questo sabato sera a correggere i deliverables che
+ devono essere spediti la prossima settimana ai vari partner europei, piuttosto
+ che a scriverti queste cose che magari  non leggerai nemmeno (di uscire non se
+ ne parla nemmeno, per la serie: noi si` che siamo fortunati).  Ma  l'idea  del
+ Nostro  che  si vede ricevere ancora in tempo utile l'articolao e deve tenerlo
+ nel congelatore fino a gennaio mi stuzzica troppo...
+
+  Bando alle ciance, e  continuiamo  a  parlare  della bash.  Ti dicevo l'altra
+ volta che il carattere $ serve in genere per  l'espansione  di  qualcosa:  $[]
+ espande  l'espressione aritmetica tra le quadre, $() espande il comando tra le
+ tonde, e ${} espande il  parametro  tra le graffe.  Innanzitutto, un parametro
+ e` l'equivalente di una variabile; gli si assegna un valore con l'istruzione
+
+      par=valore
+
+ (di per se` si puo` anche evitare di assegnare un valore, se tutto quello  che
+ ci  interessa  e`  un  toggle)  e  lo  si puo` utilizzare scrivendo ${par} , o
+ semplicemente $par se subito dopo c'e` uno spazio
+
+  Esistono alcuni parametri speciali, tipo $0 che sta per il nome della shell o
+ del file lanciato, $1, $2, ...  per  i  parametri del file, o $$ per il numero
+ del PID della shell (comodo per creare dei nomi di  file  univoci).   Esistono
+ alcune variabili gia` settate automaticamente e piu` o meno utili - PWD indica
+ l'attuale directory, OLDPWD l'ultima che si e` usata, PATH e` piu` o meno come
+ il  PATH  del dos, noclobber permette di non ricoprire inavvertitamente i file
+ presenti sul sistema; ma  esiste  anche  SECONDS  che dice quanti secondi sono
+ passati dall'attivazione della shell.
+
+  E in ogni caso  si  possono  fare  cose  di  alta  scuola  con  i  parametri,
+ soprattutto  se uno ama avere dei valori di default.  Ad esempio, ${par:-word}
+ significa usare  il  valore  di  par,  se  esiste,  o  altrimenti word; oppure
+ ${par:?msg} scrive sullo standard error (si`,  te  lo  spiego  che  cos'e`  lo
+ standard  error, stai tranquilla!) il messaggio msg se il parametro par non e`
+ stato settato.
+
+  Gia` che ci sono,  una  cosa  che  non  c'entra  nulla:  in genere i nomi dei
+ parametri sono scritti in maiuscolo se si vuole che stiano nell'environment, e
+ quindi passati alle sottoshell.  Non che cio` venga  fatto  automaticamente...
+ occorre scrivere il comando magico
+
+    export PAR
+
+ che   in   genere,   per   non  sbagliarsi,  viene  messo  nella  stessa  riga
+ dell'assegnazione, qualcosa come
+
+    EDITOR=/usr/ucb/vi ; export EDITOR
+
+ (vi e` il Vero Editor di chiunque  usi  un sistema operativo che finisca in X;
+ prima o poi te ne parlero` con volutta`)
+
+  Per riposarci un pochino, ti parlo adesso del prompt.  Come nel dos, ci  sono
+ varie  sequenze  speciali  di  caratteri  che permettono di personalizzarsi il
+ prompt a piacere.  Tutte queste vanno messe nella variabile PS1, mentre PS2 e`
+ il prompt che si ha mentre occorre dell'altro input per terminare il comando -
+ come nel caso di un ciclo for.  Ti faccio un bell'elenco:
+
+    \t     l'ora (time)
+    \d     la data (date)
+    \n     un newline
+    \s     il nome della shell (senza il path)
+    \w     l'attuale directory (working dir)
+    \W     l'ultimo elemento dell'attuale directory: ad esempio, se sei su
+           /usr/local/lib/tex/inputs, \W vale inputs
+    \u     lo username
+    \h     l'hostname
+    \#     il numero del comando
+    \!     il numero del comando nel file di storia (utile per richiamarlo,
+           vedi sotto)
+    \$     # se l'utente ha id-0 (root), $ altrimenti. E` il modo standard
+           per terminare il prompt sotto unix
+    \nnn   il carattere di valore ottale \nnn. Provate con \007 !
+    \\     un backslash
+
+  A parte le freccine,  e`  anche  possibile  richiamare e modificare i comandi
+ passati per mezzo della "history", che si divide in due parti: come si sceglie
+ il comando da usare e come si modifica per i nostri scopi.  La  cosa  ti  puo`
+ sembrare  magari  un  po'  un  casino, ma non e` vero: una volta che ci prendi
+ l'abitudine scoprirai che le modifiche piu` semplici - che poi sono quelle che
+ fai piu` spesso - sono  assolutamente  immediate e sicuramente piu` veloci del
+ ricercare il comando con le freccette e modificarlo.  Ricordati  solo  che  se
+ mai  ti serve scrivere davvero un punto esclamativo, devi sempre precederlo da
+ un \ ; altrimenti verra` preso come inizio di una sostituzione a partire dalla
+ history dei tuoi comandi.
+
+  Per quanto riguarda la ricerca del comando, !n si riferisce al comando numero
+ n, mentre !-n  all'n-simo  dal  fondo  (ad  esempio,  !n-1 e` l'ultimo comando
+ eseguito).  Un'abbreviazione di !n-1 e` !!, o addirittura !   da  solo  se  si
+ prosegue  coi modificatori di comando.  Infine !string si riferisce all'ultimo
+ comando che iniziava con  la  stringa  string  (cosa  molto  utile se si vuole
+ rieditare il  file  /questo/e/un/path/lungo/con/nome.lunghetto),  e  !?string?
+ all'ultimo  comando che conteneva al suo interno la stringa string.  Una volta
+ trovato il comando, si puo` scegliere  una  parola al suo interno appendendo :
+ ed il numero d'ordine della parola nel comando (partendo da zero per  il  nome
+ del  comando),  oppure  semplicemente  scrivendo  ^ per la prima parola, $ per
+ l'ultima e * per tutte meno  la  zeresima.  E` comunissimo ad esempio scrivere
+ una serie di comandi tipo
+
+    $ grep pippo telem035.txt
+    (... output del comando)
+    $ vi !$
+
+ per editare il file appena nominato.  Alle volte si va avanti per cinque o sei
+ comandi a forza di !$ ...  Infine si puo` modificare la parola (tipicamente un
+ nome di file) con i modicatori seguenti, sempre preceduti dal magico : .   Per
+ spiegare   meglio   cosa   succede,   immaginiamo   di   avere   la   "parola"
+ /home/mau/testi/telem035.txt e vedere cosa succede.
+
+    h   toglie tutto quello a destra del pathname, lascia la "head".
+        Otteniamo /home/mau/testi
+
+    r   rimuove il suffisso della forma .xxx, lascie la "root". Otteniamo
+        /home/mau/testi/telem035
+
+    e   rimuove tutto tranne il suffisso, lascia l'"end". Otteniamo txt
+
+    t   toglie tutto il pathname, lascia la "tail". Otteniamo telem035.txt
+
+    p   stampa semplicemente ("print") il comando, se vuoi editartelo a
+        manina.
+
+  L'editing  e` quello standard, le frecce spostano il cursore, ci sono poi una
+ trentina di sequenze di  escape  per  fare  praticamente tutto che non ricordo
+ assolutamente.  Le uniche cose piu` o meno utili, o almeno che io ho imparato,
+ sono ctl-A per posizionarsi all'inizio della riga, ctl-E per posizionarsi alla
+ fine, tab per cercare di completare la parola che si stava scrivendo.   Questo
+ e`  un  po' diverso dal tab del 4DOS: a parte il fatto che se siamo ad esempio
+ alla prima parola del comando bash  cerca  anche tra i vari nomi di eseguibili
+ (ad esempio, se io scrivo xmahTAB ottengo xmahjongg ovunque sia  posizionato),
+ nel  caso  di piu` possibilita` non ne viene scelta una (modificabile nel caso
+ del 4DOS col tasto F10), ma la  shell  scrive quanto e` sicuro e poi bippa per
+ avvisarti.  Quindi se  io  ho  nella  mia  directory  solo  i  file  bash.txt,
+ bash2.txt e jarg035.txt, e scrivo vi bTAB, otterro` scritto
+
+    vi bash
+
+  In  questo  caso  e` anche utile settare la variabile FIGNORE.  Questa e` una
+ lista di suffissi di cui a noi non frega nulla.  Ad esempio uno puo` avere
+
+    FIGNORE=.o:.aux
+
+ e, se  abbiamo  i  files  pippo.c  e  pippo.o,  scrivere  vi  pTAB ci completa
+ direttamente pippo.c  senza  lamentarsi  del  file  oggetto  (che  tanto  mica
+ volevamo editare, no?)
+
+  Bene,  anche  per oggi basta.  La prossima volta vedro` di descriverti quello
+ che manca ancora, vale a dire la  ridirezione  dei comandi, il job control e i
+ comandi predefiniti nella bash.  Intanto aspetto matrix anonimi per sapere  se
+ c'e`  qualcosa  di specifico che ti interessa essere trattato dal sottoscritto
+ con la sua consueta grazia e soprattutto precisione...
+
+                                                     .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+ ############                                                               ###
+ ###   7  ###                                              Oberon - parte I ###
+ ############                                                 Roberto Piola ###
+
+ Riassunto:
+         OK.  Lo ammetto: sono uno  sfegatato  fautore  di OSSO.  Secondo me il
+        miglior SO (per prezzo-prestazioni) sotto PC  attualmente  disponibile.
+         Ma  cio' non voglia dire che non debba lasciare "spazi alternative" ad
+        altre non meno interessanti entita'  quali Linux o...  Oberon.
+         Ed  ecco  il  nostro  *GRANDE* Piola che ci propina un'introduzione ad
+        Oberon in VI puntate...   chissa'  che  non  riesca  a finire nelle mie
+        grinfie.  Potrei metterlo come SO  sotto  OSSO  (un  Sistema  Operativo
+        sotto un altro...  mi ricorda qualcosa di *grosso* <:) !)
+
+ ------------------------------------------------------------------------------
+
+                                     OBERON
+
+               un nuovo ambiente operativo di pubblico dominio,
+                       da Niklaus Wirth e Jurg Gutknecht
+
+                                    parte I
+
+   Non so come questo testo uscira' dal mio PC, visto che sto scrivendo  usando
+ un tool sotto un ambiente operativo che non e' il solito DOS, ne' unix, ne' e'
+ qualcosa  di  simile a qualunque altra cosa abbia mai usato finora...  Oberon,
+ appunto.  Speriamo bene.
+
+   Siceramente non so come iniziare  a descrivere questo "coso", che nonostante
+ certe terrificanti convenzioni mi sta quasi conquistando (quando avro'  finito
+ di  scrivere  questo articolo, se mai rientrero' in Windows continuero' per un
+ pezzo a cercare di selezionare i menu usando il bottone centrale del mouse).
+
+   Vi dice nulla il nome di Niklaus Wirth?
+
+   La maggior parte di chi tra  voi ha studiato lo assocera' immediatamente con
+ il Pascal e/o con uno dei testi fondamentali della programmazione strutturata:
+ Algoritmi + Strutture Dati = Programmi;  entrambi  sono  infatti  suoi  parti.
+ Pochi  tra  di voi conosceranno anche il Modula-2, evoluzione del Pascal verso
+ una suddivisione  in  moduli  simile  all'ADA:  anche  il Modula-2 costituisce
+ un'invenzione del professore svizzero.
+
+   Si da' il caso che, qualche anno fa, il buon  Niklaus  si  sia  stufato  del
+ crescere  spropositato di strati e strati di astrazione nei sistemi operativi,
+ nonche'  dell'aumentare  folle  dei  megabytes  occupati;  inoltre  sentiva la
+ mancanza di un sistema operativo realmente orientato  agli  oggetti,  e  cosi'
+ ebbe  l'illuminazione  (non  si sa quanto questo genere di illuminazioni possa
+ essere correlata ad un'indigestione di  puro cioccolato svizzero, e non staro'
+ ad indagare): in tutto il mondo si vide una luce abbagliante, ma solo Wirth  e
+ pochi  suoi  collaboratori  videro  cio' che la Luce celava: si raccolsero per
+ anni in meditazione tra  le  montagne,  e  quando  furono pronti rivelarono al
+ mondo cio' che avevano visto e tradotto in codice: Oberon  era  nato,  ma  non
+ tutti lo riconobbero.
+
+   Abituati  ormai ai potenti sistemi operativi in commercio, tutti attendevano
+ la  solita  imponenete   montagna   di   dischetti,   magari  accompagnata  da
+ documentazione misurabile in metri cubi, o per lo  meno  uno  sfavillante  CD,
+ cosi'  non  notarono nepure un insignificante floppy da un mega e 44 che pero'
+ conteneva il sistema operativo, un compilatore e la documentazione.
+
+   Dicono le leggende che una  delle  citazioni preferite di Wirth era: "Quando
+ fai qualcosa, fallo in maniera sempice, ma non TROPPO semplice"  (A.Einstein).
+ Oberon  era  semplice, almeno per quanto riguarda l'aspetto concettuale: tutto
+ il sistema operativo e'  interamente  realizzato  ad oggetti, con ogni oggetto
+ pienamente disponibile al progammatore/utente;  se  qualcuno  di  voi  conosce
+ Smalltalk come ambiente, e non solo come linguaggio, ci siamo vicini.
+
+   Comunque,  un bel giorno io stavo tranquillamente lavorando al progetto WARP
+ (Come, non sapete che cosa e' Warp?   prometto  che prima o poi ne parlero' in
+ un qualche articolo), quando se ne salta fuori il fidonettiano  Paolo  Saggese
+ con:  "Hai  letto l'articolo sull'ultimo Byte a proposito di Oberon?" - "No!".
+ Corro in biblioteca a procurarmi la rivista e leggo avidamente.
+
+   Un nuovo sistema operativo, multitasking, per giunta piccolissimo, e secondo
+ l'articolista semplicissimo  da  usare  e  programmare;  superslurp!   Manco a
+ dirlo, il giorno dopo ero a caccia dei files.
+
+   Una volta presi rapidamente  e  senza  problemi  attraverso  la  Rete,  sono
+ zompato  a casa per probvarli, con considerazioni del genere: finalmente anche
+ noi equipaggiati con processore Intel abbiamo un Sistema Operativo economico e
+ decente (no, non voglio essere  picchiato dagli Amighi...  anzi', vi rivelero'
+ che c'e' anche la versione di Oberon per Amiga, in modo  che  da  ora  potremo
+ pure  scambiarci  programmi  di  un  certo  livello  -  anche  grafici - senza
+ modifiche, solo ricompilando).
+
+   Ma vi voglio tenere sulle spine, eppoi  e' quasi ora di cena: vi lascio solo
+ immaginare al sottoscritto che, raggiante, viaggia verso casa con il  prezioso
+ floppy fantasticando delle potentissime funzioni che riguardano gli oggetti di
+ tipo testo attribuito (si', in Oberon un file di testo con attributi come font
+ e colore, e contenente anche grafici al suo interno e' un concetto primitivo).
+
+   Alla prossima
+
+
+                               @    @     Ciao
+
+                               \____/     Roberto Piola, fidonet 2:334/108.57
+
+
+ P.S.:  si',  firmandomi  ho  potuto  apprezzare  i  problemi  di usare un font
+ proporzionale per  tutto...   adesso  devo  proprio  mettermi  a  spulciare il
+ manuale per capire  come  diavolo  si  fa  a  cambiare  font,  mettendone  uno
+ non-proporzionale.
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   8  ###                                       La biografia del Costa! ###
+ ############                                                Stefano Costa2 ###
+
+ Riassunto:
+          Non so voi, ma IO mi diverto un *sacco* a spulciare le auto-biografie
+        dei  nostri  beniamini!   Si  spettegulano un mucchio di cosette...  Ed
+        ecco finalmente  che  anche  il  *mitico*  Costa,  nuovo virgulto della
+        editoria  telematica,  dissotterra  le  proprie  radici.   Il   proprio
+        passato.   Le  proprie  ansie  ed  i primi timori prenatali di fronte a
+        quella fregatura che in fondo e' la vita.  Soprattutto in Italia.
+
+        In anteprima esclusiva per i telematici.
+
+ ------------------------------------------------------------------------------
+
+ RRE mi  ha  chiesto  im  Matrix  la  mia  biografia.   Poi  l'ha  richiesta in
+ pubblico..  non posso piu' esimermi.
+
+ Sono nato (e vivo) a Como il 12 Luglio 1965.
+
+  Ero biondo coi riccioli (ho le  foto,  posso  provarlo!):  ora  sono  castano
+ liscio!  Sebbene vecchio sono giovane telematicamente (e non solo in quello!),
+ dato che ho il modem da un paio d'anni.
+
+  Sono   perito   chimico,   ho   frequentato   i   primi  6  mesi  di  Scienze
+ dell'informazione a  Milano,  ma  per  tristi  eventi  familiari ho interrotto
+ perche' in casa servivano soldi.  Sono, di fatto, programmatore autodidatta.
+
+  Ho lavorato nel settore di controllo di processo (ho fatto il software di una
+ macchina che costruisce tubi  a  controllo  numerico!   Dovevate  vedere  cosa
+ veniva fuori quando c'erano dei bug |-)).
+
+ Da sei anni a 'sta parte lavoro nella computer graphics.
+
+  Ho fatto lavori per Mamma RAI: i programmi che generano i grafici al computer
+ per le elezioni politiche dell'86, 90mo minuto ed una trasmissione per ragazzi
+ di  quel periodo sono (in parte) miei.  Avete probabilmente avuto la disgrazia
+ di vedermi in TV, al TG1 delle 13: mi hanno colto di sorpresa mentra apportavo
+ delle modifiche (leggi  'schiacciavo'  qualche  bug!)  in  T-Shirt chino al PC
+ nella sede della DOXA a Milano!  Fortuna ero di spalle!
+
+  Ora tiro a campare a  scriver  driver  per  AutoCAD,  WC-Windows  etc.   Sono
+ verboso  (e  lo  avrete  capito  dai  miei  articoli),  ho  una grande sete di
+ conoscienza (ma *non* mi interessa sapere  se  Lady D. va in palestra in body)
+ sugli argomenti piu' disparati, dall'informatica alla telefonia, dalla  fisica
+ al fisico (e l'anima) delle ragazze (se qualcuna e' interessata io sono libero
+ |-)).
+
+  Lingualunga,  bolletta telefonica stellare causa modem & voce ridondanti, amo
+ le battute salaci, i dolci  ed  i  gelati.   La  Musica  e'  la mia musa, e mi
+ piacciono i gatti quando fanno le fusa.
+
+ Mi piace divertirmi e per questo scrivo in Telematicus.
+
+  Dimenticavo: ho una sfiga atroce (come tutti quelli del  Cancro  del  resto).
+ Dolce, un po' lunatico e poi&$#K|*.~P.h%`=...  NO CARRIER
+
+ [NdE:  booooh!!  bohhh!  proprio ora che cominciavi ad entrare *veramente* nel
+ personale!]
+
+                                          Stefano Costa
+                                          Internet: scosta@bix.com
+                                          Fido:     Stefano Costa2 (2:331/306)
+
+
+ ############                                                               ###
+ ###   9  ###                                   IL GERGO HACKER - PARTE 29  ###
+ ############                                   Eric S. Raymond & .mau.     ###
+
+ Riassunto:
+         Dopo 29 parti di questo vero e proprio *polpettone* volgio vedere te a
+        scrivere un'introduzione decente!
+         Comunque  se  qualcuno  avesse  ancora  dubbi  sulla  gergalita'   del
+        linguaggio  fidoso non perda l'articolo di che ci sara' nel prox number
+        sul plagio a Telematicus!
+
+ ------------------------------------------------------------------------------
+                                    {= N =}
+
+    <N>  /en/  agg.  1. Un numero grande e indeterminato di oggetti: "Ci sono N
+ bachi in quell'accrocchio!"; usato anche  nel suo significato originario di un
+ nome di variabile.  - 2. Un numero arbitrariamente grande (e forse  infinito);
+ "Questo accrocchio ha N bachi, per N tendente a infinito".  - 3. Una variabile
+ il  cui valore e` specificato dal contesto corrente.  Per esempio, ordinando a
+ un ristorante  N  puo`  essere  preso  per  il  numero  di  persone al tavolo.
+ Dall'affermazione "Vorremmo ordinare N primi e N-1 secondi", si  puo`  dedurre
+ che  una  persona  vuole  solo  mangiare  un  primo, anche se non si sa quante
+ persone ci sono.   Un  indovinello  stupido:  Quanti calcolatori occorrono per
+ shiftare i bit in un registro?  N+1: N per tenere fermi i bit, e uno per  fare
+ slittare  il  registro".  [NdE: la sapevo simile per i carabbinieri (non e' un
+ *mio* errore di stampa)  ed  il  cambio  di  una lampadina] Vedi anche <random
+ numbers>, <two-to-the-n>.
+
+    <Nth>  [n-simo] agg.  La controparte ordinale di <N>.  "Ora, per l'n-sima e
+ ultima volta...".
+
+    <nailed to the wall> [inchiodato al muro, come un trofeo] agg.  Detto di un
+ baco finalmente eliminato dopo sforzi protratti o persino eroici.
+
+    <NAK> [dal  mnemonico  ASCII  per  0010101]  inter.   1. Scherzosa risposta
+ online a <ACK> - "No, non ci sono".  - 2. Risposta online a una  richiesta  di
+ chat  -  "Non  sono  disponibile".   -  3. Usato per interrompere educatamente
+ qualcuno per dirgli che non  si  capisce  cosa  intenda  o che ha ad un tratto
+ smesso di dire cose sensate.  Vedi <ACK>,  sign.   #3.   "E  poi,  dopo  avere
+ riscritto  il  progetto  in  COBOL..."  "Nak  Nak Nak!  Mi era sembrato che tu
+ avessi detto COBOL!"
+
+    <nanoacre> /nan'o-ay-kr/ s. Unita` di  superficie (circa 2 mmq) di "terreno
+ edificabile" su un chip VLSI.  Il termine deriva il suo valore divertente  dal
+ fatto  che i n. VLSI hanno costi dello stesso ordine degli acri reali [Ndt: un
+ acro e` poco piu` di 4 ettari]  se  si calcolano i costi nella progettazione e
+ nel settaggio della loro fabbricazione.
+
+    <nanobot>  /nan'oh-bot/  s.  Un   robot   di   proporzioni   microscopiche,
+ presumibilmente  costruito  per  mezzo  di  <nanotechnology>.  Per il momento,
+ usato principalmente in  maniera  informale  (e  speculativa!).  Detto anche a
+ volte un `nanoagente'.  [NdE: un nanobot avra' un nanocervello?  Di questi  se
+ ne trovano gia' in giro...]
+
+    <nanocomputer> /nan'oh-k@m-pyoo-tr/ s. Un computer i cui elementi base sono
+ di dimensioni molecolari.  Sono stati proposti progetti per n.  meccanici  che
+ usino barre scorrevoli composte da un'unica molecola come circuiti logici.  Il
+ controller per un <nanobot> sarebbe un n.
+
+    <nanotechnology>  /nan'-oh-tek-naw`l@-ji/  s.  Un'ipotetica  tecnologia  di
+ fabbricazione   in  cui  gli  oggetti  sono  progettati  e  costruiti  con  la
+ specificazione individuale di posizionamento  di  goni singolo atomo.  I primi
+ esperimenti inequivocabili di nanofabbricazione sono cominciati nel  1990,  ad
+ esempio  con  la  deposizione  di atomi individuali di xeno su un substrato di
+ nickel per scrivere  il  logo  di  un'azienda  molto  importante nel campo dei
+ calcolatori da parte di due dei suoi fisici.  La n. e` diventata un  argomento
+ di  dibattito  nella  sottocultura  hacker  fin  da quando il termine e` stato
+ coniato da K. Eric Drexler nel  suo  libro `Engines of Creation' [motori della
+ creazione],  dove  predisse  che  la  n.  avrebbe  portato  alla  crescita  di
+ assemblatori  replicantesi,   permettendo   una   crescita   esponenziale   di
+ produttivita`  e  ricchezza  personale.   Vedi  anche  <blue goo>, <gray goo>,
+ <nanobot>.
+
+    <nastygram> s. 1. Un pacchetto  di  byte o un messaggio email (quest'ultimo
+ caso e` anche detto una `letterbomb') che sfrutta una <misfeature> o un  punto
+ debole  nel  sistema  di arrivo per fare delle cose non piacevoli.  2. Mail di
+ disapprovazione,  spec.   da  un  <net.god>,  a  causa  di  una  violazione di
+ <netiquette>.  Confr.  <shitogram>.
+
+    <neophilia> /nee-oh-fil'-ee-uh/ s. L'essere eccitato  e  compiaciuto  dalle
+ novita`.   Tratto  comune  di  molti  hacker, fan di fantascienza, e membri di
+ diverse  altre   sottoculture   `avanzate'   tra   cui  l'ala  pro-tecnologica
+ "Whole-Earth" del movimento ecologista, gli attivisti spaziali,  la  gente  di
+ teatro,  i  membri  del  MENSA,  e  l'underground neo pagano dei <Discordian>.
+ Tutti questi gruppi  hanno  un'alta  correlazione  e  (dove sono disponibili i
+ dati) sembra che condividano le caratteristiche degli hacker verso SF, <MUSIC>
+ e <ORIENTAL FOOD>.
+
+    <nethack> /net'hak/ s. Vedi <hack>, sign.  #12.
+
+    <netiquette> /net'ee-ket, net'i-ket/ [parola valigia "network  ettiquette",
+ etichetta  di  rete]  s.  Convenzioni  di  educazione  usate su <USENET>, tipo
+ evitare il cross-posting su gruppi  non appropriati, e astenersi dagli annunci
+ commerciali eccessivi sulla rete.
+
+    <neep-neep> /neep neep/ [onomatopeico, dai fan SF di New York] s.  Uno  che
+ e`  affascinato  dai  calcolatori.   Piu`  generale di <hacker>, visto che non
+ implica abilita` maggiori del fare partire  i  giochini su un PC.  Il gerundio
+ <neep-neeping> si  applica  specificatamente  alle  lunghe  conversazioni  sui
+ calcolatori  che  tendono  a  svilupparsi negli angoli di molte convenzioni di
+ fantascienza.  Un detto dei fan SF correlato  a cio` dice che "L'hacking e` un
+ buco nero per le conversazioni!".
+
+    <net.*> /net dot/ pref.  [USENET] Prefisso usato per descrivere  persone  e
+ eventi  legati  a  USENET.   Dal  tempo precedente al <Great Renaming>, quando
+ tutti i n. non locali  avevano  nomi  che  cominciavano con "net.".  Include i
+ <net.god>,  le  net.goddesses  (varie  donne  carismatiche  con   circoli   di
+ ammiratori   online)  [Ndt:  ma  noi  abbiamo  delle  net.dee?   -  .mau.],  i
+ net.lurkers  (vedi  <lurker>),  i net.parties (sinonimo per <boink> sign.  #2)
+ [Ndt: beh, *questi* non ci mancano!  - .mau.  [NdE: la prox volta invitami]] e
+ altri costrutti simili.  Vedi anche <net.police>.
+
+    <net.god> s. Usato per riferirsi a chiunque soddisfi una combinazione delle
+ seguenti  condizioni: essere stato presente su USENET per piu` di cinque anni,
+ gestire uno dei backbone originali, moderare un newsgroup importante, scrivere
+ software di rete, o conoscere personalmente Gene, Mark, Rick, Mel, Henry, Chuq
+ e Greg personally.  Vedi <demigod>.
+
+    <net.police>  s.  Quei   lettori   di   USENET   che  pensano  essere  loro
+ responsabilita` il saltare su con  <flame>  contro  ogni  messaggio  che  loro
+ ritengono  offensivo,  o  in  violazione  di  quello  che  loro intendono come
+ <netiquette>.  Usato generalmente  in  tono  sarcastico  o peggiorativo.  Vedi
+ anche <net.>, <code police>.
+
+    <network address> [indirizzo di rete] s. Come usato dagli hacker, indica un
+ indirizzo sulla "rete" (v.  <network, the>) (quasi sempre un <bang path> o  un
+ <Internet  address>).  Essenziale per essere presi seriamente da un hacker; in
+ particolare, persone o organizzazioni  che  affermini di capire, lavorare con,
+ vendere a, o assumere tra gli hacker e che *non* mostrano il loro  n.a.   sono
+ implicitamente  considerare  essere  dei  millantatori, e mentalmente ignorati
+ (vedi <flush>,  sign.   #3).   Gli  hacker  mettono  spesso  i  loro n.a.  sui
+ biglietti da visita, e lo mostrano in maniera distinta nei contesti dove ci si
+ aspetta di trovare altri hacker faccia a faccia (vedi  anche  <SCIENCE-FICTION
+ FANDOM>).   [Ndt:  E`  a  molti  noto  il  caso  di  Luigi  Rosa che sulla sua
+ Panda-Enterprise aveva ben visibile il  numero  di  point...  - .mau.] Cio` e`
+ soprattutto funzionale, ma  e`  anche  un  segnale  che  connota  che  uno  si
+ identifica  con l'hackerismo (come le spille della loggia tra i massoni).  Gli
+ indirizzi di rete sono spesso usati negli email come un sostituto piu` conciso
+ per i nomi personali;  anzi,  molti  hacker  possono conoscersi assai bene col
+ nome sulla rete senza nemmeno sapere i rispettivi nomi "legali".   Vedi  anche
+ <sitename>.
+
+    <network,  the>  [la  Rete]  s.  1.  L'unione  di  tutte  le  maggiori reti
+ accademiche e non commerciali/hackeristiche come Internet, la vecchia Arpanet,
+ la NSFNet, BITNET e le "reti"  virtuali  UUCP e <USENET>, piu` le reti private
+ delle  grandi  aziende  che  hanno  dei  gateway  su  di  essa.   Un  nodo  e`
+ generalmente considerato "sulla Rete" se puo` essere raggiunto  per  mezzo  di
+ una  combinazione di indirizzi in stile Internet (con la @) e in stile UUCP (i
+ bang path).  Vedi <bang path>,  <Internet address>, <network address>.  2. Una
+ cospirazione  romanzesca  di  sovversivi   hacker   libertaristi   e   falsari
+ antiautoritari descritti nel libro di Robert Anton Wilson `Schrodinger's Cat',
+ a  cui  molti  hacker  hanno  deciso  in  seguito di appartenere (questo e` un
+ esempio di <ha ha only serious>).
+
+    <New Testament>  [il  Nuovo  Testamento]  s.  [programmatori  C] La seconda
+ edizione del libro di K&R's "The C Programming Language" (Prentice-Hall  1988,
+ ISBN 0-13-110362-8), che descrive lo standard ANSI C. Vedi <K&R>.
+
+    <newbie>  /n[y]oo'bee/  [novellino]  s. [orig.  dalla contrazione del gergo
+ militare e scolastico inglese  di  "new  boy"]  Un  neofita di USENET.  Questo
+ termine e` nato nel <newsgroup> "talk.bizarre", ma e` ora ampiamente usato.  I
+ criteri per essere considerati un n.  variano  ampiamente:  una  persona  puo`
+ essere  chiamata un n. in un newsgroup mentre e` un partecipante rispettato in
+ un altro.  L'etichetta "newbie" e` a volte usata come insulto serio, verso una
+ persona che  e`  stata  su  USENET  per  un  lungo  periodo,  ma  che nasconde
+ attentamente ogni evidenza di averci capito qualcosa [NdT: come capita  spesso
+ anche su Fidonet - .mau.].  Vedi <biff>.
+
+    <newgrp  wars> /n[y]oo'grp wohrz/ [USENET: le guerre dei newgrp] s. Bordate
+ di messaggi duellanti di `newgrp' e `rmgroup' scambiati a volte da persone sui
+ lati opposti di una disputa  sul  fatto  se un <newsgroup> debba essere creato
+ sulla rete.  Generalmente esse si quietano dopo una settimana  o  due,  quando
+ diventa  chiaro  se  il gruppo ha un suo gruppo di lettori (di solito, no).  A
+ volte, specialmente  nella  gerarchia  completamente  anarchica  `alt', i nomi
+ stessi dei newsgroup diventano una forma di commento o di umorismo;  cfr.   la
+ nascita  di  alt.swedish.chef.bork.bork.bork  a  partire  da alt.tv.muppets in
+ early 1990, o tutti i  gruppi  specializzati  nell'abuso a partire dal nome di
+ alcuni <flamer> ben noti.
+
+    <newline> /n[y]oo'lien/ s. 1. [UNIX] Il carattere ASCII LF (0001010), usato
+ da <UNIX> come terminatore di una linea di testo.  Un Bell-Labs-ismo piu`  che
+ un  Berkeleysmo; interessantemente (e insolitamente per lo slang UNIX) si dice
+ che originariamente avesse avuto un  uso  IBM  (anche se appare nello standard
+ ASCII).  2. Piu` generalmente, una qualunque successione magica di caratteri o
+ un'operazione (come la funzione writeln() del Pascal) necessaria per terminare
+ un record testuale.  Vedi <crlf>, <terpri>.
+
+    <newsgroup> [USENET] s. Uno dell'ampio  numero  di  gruppi  riguardanti  un
+ certo  argomento, presenti su USENET.  Tra i piu` noti vi sono comp.lang.c (il
+ forum   sul   linguaggio   C),   comp.unix.wizards   (per   i   maghi   UNIX),
+ rec.arts.sf-lovers (per gli amanti della fantascienza).
+
+    <nil> [dalla terminologia LISP per "falso"]  No.  Uso: per rispondere a una
+ domanda, specialmente se effettuata con la convenzione "-P".  Vedi T.
+
+    <NMI>  s.  Non-Maskable  Interrupt:  interrupt  non   mascherabile.    Vedi
+ <priority interrupt>.
+
+    <noddy>  [lett.   babbeo.   Gran  Bretagna:  dai  libri  per  bambini] agg.
+ Piccolo e inutile, ma che dimostra  qualcosa.  Si scrivono spesso programmi n.
+ quando si studia un nuovo linguaggio o sistema.  Il programma  n.  archetipico
+ e` <hello world>.  Codice n. puo` venire usato per dimostrare una feature o un
+ baco  di  un  compilatore,  ma non verrebbe usato in un programma reale.  Puo`
+ essere usato in relazione a  hardware  o  software reali per implicare che non
+ vale la pena che venga usato.  "Questo editor e` un po` n.".
+
+    <non-optimal solution> (soluzione non ottima: anche sub-optimal s.)  s.  Un
+ modo  stupefacentemente  stupido  di  fare  qualcosa.  Questo termine e` usato
+ generalmente mentre si fa una  faccia  di  bronzo  sarcastica, dato che il suo
+ impatto e` maggiore quando  chi  parla  sembra  completamente  serio.   Confr.
+ <stunning>.  Vedi anche <Bad Thing>.
+
+    <nonlinear>  agg.   [dal  calcolo  scientifico]  Che si comporta in maniera
+ erratica e impredicibile.  Quando usato per descrivere il comportamento di una
+ macchina o un programma, suggerisce  che  li  si  sta facendo girare ben fuori
+ dalle specifiche di progettazione.  Questo comportamento puo`  essere  indotto
+ da  input  irragionevoli,  o  puo`  essere  innescato  quando un baco ben piu`
+ mondano spedisce la computazione  lontano  dal suo percorso aspettato.  Quando
+ si descrive il  comportamento  di  una  persona,  suggerisce  malumore  o  una
+ <flame>.   "Quando  parli a Bob, non menzionare il problema droga o diventera`
+ n. per delle ore".
+
+    <nontrivial> [non banale]  agg.   Che  richiede  uno  studio profondo o una
+ potenza significativa di calcolo.  Spesso usato come un modo  minimizzato  per
+ dire  che  un problema e` davvero difficile.  Vedi <trivial>, <uninteresting>,
+ <interesting>.
+
+    <no-op> /noh-op/ alt.  NOP  (nop)  [nessuna operazione] s. 1. Un'istruzione
+ macchina che non fa niente (a volte usata nella programmazione  assembler  per
+ riempimento delle aree dati).  2. Una persona che non contribuisce per nulla a
+ un  progetto,  o  non ha nulla da fare, o entrambe le cose.  In "e` un no-op".
+ 3. Una qualunque  operazione  o  successione  di  operazioni  che non ha alcun
+ effetto, come fare il giro dell'isolato senza trovare un parcheggio, o mettere
+ un gettone nella macchinetta per il caffe` e vederselo  cadere  immediatamente
+ nella vaschetta delle monete rifiutate, o chiedere a qualcuno aiuto e sentirsi
+ dire di andarsene.  "Oh beh, e` stato un no-op".
+
+                                           tradotto da .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+ ############                                                               ###
+ ###  10  ###                        L'arte della programmazione - parte IV ###
+ ############                        Laura Zavatruschka                     ###
+
+ Riassunto:
+         Eccoci qui in piena discussione filosofica sulle fondamenta stesse del
+        concetto di arte.  Chi  la  vincera'?   Chi  riuscira' a far imporre le
+        proprie idee?
+
+         Nessuno ha letto della partita di scacchi di Woody ? *:)
+
+ ------------------------------------------------------------------------------
+
+   Lo  scopo  di questo mio scritto e' quello di ribattere alla tesi presentata
+ nell'articolo di Mario Ricca  apparso  in  due  puntate  con il titolo "L'arte
+ della programmazione". [NdE: 33, 34]
+
+   L'articolo, sviluppato sotto forma di  dialogo  tra  uno  pseudo  Socrate  e
+ artore   Londona,  nostro  contemporaneo,  risvegliatosi  nella  Citta'  degli
+ Immortali, esibisce una serie di  affermazioni  a  supporto della tesi che "un
+ utilizzatore di programmi puo' generare arte, ma un programmatore con  il  suo
+ prodotto, no."
+
+   Se quanto sostenuto nell'articolo e' vero, e cioe' che la programmazione non
+ e'  creativa, gli argomenti usati per dimostrarlo dovrebbero essere sufficenti
+ ad avvalorare la tesi ed invece a nostro parere non lo sono.
+
+
+ Vediamo perche'.
+
+
+   Premessa.  Il dialogo si svolge con la tecnica 'maieutica': Socrate mette il
+ discepolo (Artore Londona) in  grado  di  acquistare  chiara  coscienza  delle
+ conoscenze che si formano nella sua mente.
+
+   Verso  la fine della prima parte il povero Londona 'capisce' che la macchina
+ che deduce che 1+3=4 e 2+2=4 e' una macchina deduttiva, e Socrate suggerisce a
+ Londona che "se il problema si fermasse alla fisica, un processo deduttivo non
+ appartiene all'arte perche'  e'  rigido,  sempre  uguale,  ripetitivo e, -dice
+ Socrate-, questa caratteristica non si addice all'arte.."
+
+   La prima argomentazione che mi viene da fare  e'  ricordare  che  oramai  da
+ quasi  quattrocento  anni e' in corso un dibattito tra studiosi appartenenti a
+ piu' campi che si chiedono se  l'uomo  non  sia  una macchina.  Se per caso si
+ dovesse scoprire che l'uomo  e'  una  macchina  mi  chiedo  come  si  potrebbe
+ giustificare la creativita' umana.
+
+   In secondo luogo si sa che processi molto deduttivi quali la matematica e la
+ musica  sono  tutto  fuorche' non creativi.  Scrivere una fuga non e' forse un
+ processo creativo?  Eppure, in un certo senso e' un processo deduttivo...  Non
+ parliamo poi della creativita' necessaria  per dimostrare un teorema...  (N.b.
+ la matematica e' cosi' vicino all'informatica che ci viene da citare la  prima
+ come esempio di creativita' in quanto si sa essere fondamento della seconda).
+
+   Esempio:  pensiamo  al seguente guizzo creativo del bimbo Gauss.  Il piccolo
+ Gauss, bambino dotato di notevole  intelligenza,  si senti' chiedere un giorno
+ dal suo maestro che non aveva voglia di fare lezione, di  calcolare  la  somma
+ dei numeri da 1 a 100.  Come sappiamo il metodo piu' facile, ma non certamente
+ piu'  veloce  e' quello di cominciare a sommare i numeri 1+2+3+4...fino a 100,
+ cosi' che il maestro  puo'  pensare  alle  cose  sue per una buona mezz'oretta
+ (anche di piu' se chi deve sommare e' un bambino di sette anni).
+
+   Ma Gauss no.  Lui si accorse che se sommava N ad 1, per N/2  volte,  avrebbe
+ raggiunto  esattamente  lo stesso risultato, ma con meno fatica e in modo piu'
+ intelligente.  Gauss individuo' un ALGORITMO,  (N+1)*N/2, che qualunque sia il
+ valore N, fornisce la somma da 1 ad N.
+
+   Non fu forse creativa la sua pensata?   Egli  ottenne  lo  stesso  risultato
+ degli  altri  bambini,  ma il TIPO DI SOLUZIONE che lui propose era certamente
+ piu' intelligente ed il processo mentale che gli fece 'vedere' la soluzione fu
+ deduttivo, ma non per questo non creativo.
+
+   Altro esempio: e' creativo provare  (=dimostrare) teoremi?  Lo sanno Londona
+ e Socrate che esistono oramai computer che hanno al loro interno  i  cosidetti
+ "THEOREM PROVERS" implementati che sanno provare anche teoremi complicati?
+
+   Ad  un  certo  punto  Londona,  con il cervello annebbiato dalla confusione,
+ parlando di programmi sostituibili da altri afferma: "grazie o Socrate.  Credo
+ di aver avuto la mia risposta: se c'e' la sostituibilita' non c'e' arte".
+
+   E come glielo diciamo questo  agli  artisti  moderni quali Andy Warhol?  Chi
+ non ha presente le sue Marilyn?  Non sono forse tutte  uguali?   Ma  non  sono
+ forse arte? [NdE: visto che siamo a Torino ficchiamoci anche Testa]
+
+   E che cosa diranno gli artisti moderni che hanno le loro opere (per esempio)
+ all'ultimo  piano  del  Museo di Arte Moderna di New York?  Le loro opere sono
+ oggetti di uso comune, eppure stanno  in  un museo come rappresentative di una
+ certa corrente artistica e di un certo periodo storico.
+
+   (A questo punto e' necessario che Socrate dia una definizione chiara di arte
+ per  evitare  che  Londona  gia'confuso  non  capisca piu' niente....).  [NdE:
+ biricchina! una cosa cosi' grossa!]
+
+   Infine Londona arriva dove Socrate vuole e finalmente afferma "Dovrei allora
+ concludere che un utilizzatore di programmi puo'  generare  arte,  ma  non  un
+ programmatore   con  il  suo  prodotto?".   E  qui  un  qualunque  artista  si
+ infurierebbe, perche' affermare quanto sopra  e'  come affermare che l'arte la
+ generano coloro che vanno alle mostre e non coloro  che  fanno  i  quadri,  o,
+ nello stesso modo coloro che vanno ai concerti e non coloro che suonano.
+
+   Per  noi  la programmazione e' creativa e richiede fantasia, disponibilita',
+ armonia e alacre lavoro.  Un programma ha  sempre sotto di se un algoritmo che
+ lo caratterizza.  Un programma,  specifica  con  la  sintassi  di  un  qualche
+ linguaggio di programmazione (C, Pascal,Prolog o altro) che cosa ci si aspetta
+ che il computer elabori.
+
+   La  sintassi  e' rigida, infatti il piu' piccolo errore nel suo uso causa un
+ arresto del programma con  conseguente blocco dell'elaborazione del programma.
+ Cio'comporta un  lavoro  tedioso  di  "debugging"  o  ricerca  del  baco,  del
+ 'difetto'.
+
+   E' vero che un programma puo' specificare la stessa cosa sia esso scritto in
+ un linguaggio piuttosto che in un altro, con un costrutto sintattico piuttosto
+ che  con  un  altro.   Tuttavia  mentre  il  compito  del  programma e' 'farsi
+ elaborare' dal computer, l'algoritmo che sta dietro al programma e' comunicare
+ un calcolo non al computer, che  lo capirebbe in qualunque linguaggio, ma agli
+ esseri umani.
+
+   Cio' che voglio dire e' che esiste uno stile di programmazione  che  esprime
+ la  creativita' di chi programma e la sua abilita'.  Inoltre la programmazione
+ e' in fin dei conti  uno  stile  di  vita  di  noi uomini del ventesimo secolo
+ perche' tutta la nostra vita e' piena di algoritmi.
+
+   Chiedo scusa a Socrate per non aver avuto rispetto per la sua persona, ma se
+ ben ricordo nella Citta' degli Immortali, poiche' le  possibili  azioni  umane
+ sono  solo un numero finito, ed a cisacuno e' dato un tempo infinito, chiunque
+ finisce per produrre ogni opera d'arte,  e  il personaggio che si chiama Omero
+ non lo e', mentre il vero Omero si e'  dimenticato  l'Odissea,  ed  ha  dovuta
+ rileggerla  in  traduzione...  Cosi' anche Socrate potrebbe non essere Socrate
+ ma qualcun altro, e non  sono  neanche  sicura  che  si ricordi ancora bene la
+ maieutica. [NdE: questa e' una stoccata cattivella!]
+
+   E' anche vero che Londona si  fa infinocchiare da questo Pseudo-Socrate come
+ un bambinone e che quindi non ci dobbiamo offendere se Socrate e  Londona  non
+ hanno letto "The art of Programming" di Donald Knuth e sono quindi scusati per
+ le loro affermazioni. [NdE: forse Londona aveva bevuto un po' troppo...]
+
+
+
+
+                                                            Laura Zavatruschka
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  11  ###                                                ERRATA CORRIGE ###
+ ############                                                La direzione   ###
+
+ Riassunto:
+         Hem,  un'errata e' gia' citata dentro l'errata.  L'altra la esplica il
+        .mau., punto sul vivo. Ecco.
+        E' un po' tardi per tentare di contraddirlo (24:15).
+        Quindi getto la spugna & tutto quanto. Mi prostro.
+
+ ------------------------------------------------------------------------------
+
+ quoto dal telematicus (dove NON hai inserito la lista dei nodi ISN):
+
+  (nota l'ordine che e` quello che  ho  scritto io) [N.d.E: ci sono scappate un
+  po' di "che"?  Che ne dici?  :) Lo so, sono una  birba,  avrei  anche  potuto
+  correggerlo!].
+
+ Nella  mia  parentesi  ci sono tre frasi: Nota l'ordine (principale, col verbo
+ all'imperativo) che e` quello (relativa.   Che  =  soggetto) che ho scritto io
+ (predicativa.  Che = complemento oggetto)
+
+ Se avessi scritto "l'ordine  e`  quello  che  ho  scritto  io",  oppure  "nota
+ l'ordine:  e` quello che ho scritto io", ci bastava un che solo.  Ma cosi` due
+ sono necessari.
+
+ Aspetto doverosa errata corrige.
+
+
+
+ ciaociao                                                               .mau.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  12  ###                                     NEWS DAL MONDO TELEMATICO ###
+ ############                                     AAVV                      ###
+
+   Ci sarebbero anche altre due notizie: una  sui juke box in rete, l'altra sul
+ fatto che abbiano plagiato Telematicus.  Ma per la gioia del povero Centina  -
+ che si troverebbe un Telem *enorme* - lo shifto al prox number...
+
+ ------------------------------------------------------------------------------
+
+ Riassunto:
+          Il nostro Cicci  Serra,  che  ha  molto  gradito la presentazione sul
+        numero precedente, mi ha promesso che fara' il possibile  per  inviarmi
+        un mare di spetteguless su Fido.
+         A parte l'innegabile piacere  che  si  ricava  dal  leggere  di  tali
+        distensive  cose  mi  preme  evidenziare lo spirito con cui Telematicus
+        intende  condurre  quest'operazione:  si  inserisce  nel  filone  delle
+        biografie e vuole far *conoscere*  questi piccoli, insignificanti e per
+        lo piu' altamente sgarrupati animali che popolano il mondo di Fido.
+
+          P.S.   questa  e'  proprio  all'ultimo  momento:   il   suo   diretto
+        avversario, Fabio Filippi, ha inviato anche lui un pezzo SCOTTANTE!  Il
+        seguito al prox number!
+
+ ------------------------------------------------------------------------------
+
+                                   JackStat
+
+ Ciao Renato!
+
+  Innanzitutto ti ringrazio  per  la  simpatica  citazione  nel nuovo numero di
+ Telematicus, e visto che mi hai eletto  Editor  mittens,  ti  invio  un  altro
+ piccolo  mio  contributo  che  se  lo  riterrai  utile, potrai tranquillamente
+ pubblicarlo.
+
+  Dopo Fabio Filippi (Homo-Multipoints, l'unico ad  avere un point per ogni Net
+ 331, 332, 333, 334, 335  per  poter  scrivere  nelle  rispettive  CHATTER.XXX)
+ vorrei  presentare  Paolo  Polce  che  e`  il  ben  noto  autore  di JackStat,
+ mirabolante prg.  per generare statiiche sulle aree messaggi.
+
+  Il Polce, anche noto come JackBass  per la sue capacita` bassistiche, nonche`
+ moderatore supremo delle locali CHATTER.335 e CHATTER.200 (voci  di  corridoio
+ bisbigliano  che  per ottenere queste cariche, abbia corrotto dei pezzi grossi
+ della FidoNet  dando  in  mbio  delle  .GIF  porno  su  disketti  da 360K), ha
+ recentemente battuto il record mondiale di release di un  programma  nel  piu`
+ breve  tempo,  il  record  verra`  inserito nell'edizione 1994 del Guinnes dei
+ Primati.
+
+  Ad  avvalorare  questo  primato  permettimi  di  sottoporti  un  estratto del
+ JackStat.New:
+
+                     | vers. 2.6 del 18-Novembre-'93  |
+                   (2.5h)
+                   (2.5g)
+                   (2.5f)
+                   (2.5e)
+                   (2.5d)
+                   (2.5c)
+                   (2.5b)
+                     | vers. 2.5a del 7-Novembre-'93 |
+                     | vers. 2.5 del 5-Novembre-'93 |
+                     | vers. 2.4b --> 2.4d del 4-Novembre-'93 |
+                    (v2.4d)
+                    (v2.4c)
+                    (v2.4b)
+                     | vers. 2.4a del 1-Novembre-'93 |
+                     | vers. 2.4  del 30-Ottobre-'93 |
+                     | vers. 2.3d del 30-Ottobre-'93 |
+                     | vers. 2.3c del 29-Ottobre-'93 |
+                     | vers. 2.3 del  28-Ottobre-'93 |
+                     | vers. 2.2 del  25-Ottobre-'93 |
+                     | vers. 2.1 del 24-Ottobre-'93 |
+                     | vers. 2.0e del 22-Ottobre-'93 |
+                     | vers. 2.0d del 21-Ottobre-'93 |
+                     | vers. 2.0c del 19-Ottobre-'93 |
+                     | vers. 2.0b del 18-Ottobre-'93:|
+
+  Facendo la somma, abbiamo il non indifferente risultato di 25 release  in  un
+ mese,  quantita`  che  lo  pone  ai vertici mondiali come leader indiscusso in
+ quanto a prolificita`.
+
+  Il ns.  Paolo in un eccesso di  modestia  dice  che le versioni con il n. tra
+ parentesi  erano  riservate  ai  soli  beta-testers,  ma  cio`   non   inficia
+ assolutamente la sua performance...
+
+  Inutile  dirti  che  per  quando ti sara` arrivato questo matrix, come minimo
+ saranno state rilasciate altre 5-7 versioni...
+
+                                                                  Ciao ciao
+                                                                  Cicci
+                                                                  2:335/225.4
+
+ P.S. Questa volta te ne mando solo 2 copie... ;-)
+ [NdE: ed hai fatto bene, perche' una ha passato la cortina di ferro del 335!]
+
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-
+
+ Riassunto:
+         Con  la  solita puntualita' che contraddistingue Telematicus da quando
+        RRE si e' assiso  al  trono  ecco  il  bando  di IPISA: il solito mega-
+        convegno per Amiga.
+
+          Lo riporto perche' penso  che  gli  interessati  potrebbero  comunque
+        richiedere gli atti.  :)
+
+ ------------------------------------------------------------------------------
+
+                                   IPISA '93
+
+           Incontro dei Programmatori Italiani per lo Sviluppo Amiga
+                                Terza edizione
+
+                        Milano, Sabato 20 novembre 1993
+
+
+   Il  giorno  20  novembre  1993  si  svolgera'  a  Milano  la  terza edizione
+ dell'IPISA, un convegno  annuale  organizzato  autonomamente  da  un gruppo di
+ appassionati di informatica, programmatori e utilizzatori  di  computer  della
+ famiglia Amiga.
+
+   L'incontro  e'  dedicato  alla presentazione ed alla diffusione di progetti,
+ esperienze e prodotti non commerciali realizzati utilizzando Amiga.  Ci sara',
+ come nelle due edizioni precedenti, la  possibilita' di incontrarsi al fine di
+ avviare programmi di ricerca o  rapporti  di  lavoro  con  persone  altrimenti
+ difficili da raggiungere.
+
+  Il   convegno  si  terra'  a  Milano  presso  la  Sala  Seminari  del  Centro
+ Universitario ISU di  via  Valvassori  Peroni  21,  che puo' essere facilmente
+ raggiunta con i mezzi pubblici (MM2 Lambrate).  L'inizio e'  previsto  per  le
+ ore  10.00 (si prega di essere puntuali onde evitare spiacevoli interruzioni a
+ manifestazione gia' iniziata).  La chiusura  dei  lavori e' fissata per le ore
+ 19.00.
+
+   La manifestazione e' articolata in una  serie  di  interventi  brevi  (venti
+ minuti) e di interventi lunghi (quarantacinque minuti), tenuti in italiano.
+
+
+                                  Interventi
+
+
+                              Vittorio Calzolari
+                   Il Bus Zorro e lo standard AutoConfig(TM)
+
+                      Ettore Caurla (Commodore Italiana)
+                    Il programma sviluppatori Amiga europeo
+                      CD32 ed il modulo Full Motion Video
+
+                                 Stefano Iacus
+               Amiga Census 1993 --- Censimento di utenti Amiga
+
+              Fabrizio Lodi, Reinhard Spisser e Sebastiano Vigna
+                  Inspector, un nuovo tool di debug per Amiga
+
+                              Fausto Passariello
+                      Una libreria di funzioni matriciali
+
+                                 Sergio Ruocco
+             L'implementazione del file system Macintosh su Amiga
+
+                               Valentino Spataro
+                                Cornucopia BBS
+
+              Articoli (esclusi quelli relativi agli interventi)
+
+                                Daniel Barrett
+                 10 Amiga programming tips for the real world
+
+                       Micheal Cianflone and Neil Coito
+                            The 2 Meg Agnus Project
+
+
+   Ad   ogni  partecipante  verranno  consegnati  gli  atti  del  convegno  che
+ consistono in  documentazione  su  supporto  cartaceo  e  software su supporto
+ magnetico.
+
+   La quota di  iscrizione  alla  manifestazione  servira'  unicamente  per  la
+ copertura  delle  spese  ed  e'  stata fissata in Lit.  25.000 per persona, da
+ inviarsi mediante vaglia postale entro e  non oltre il giorno 13 novembre 1993
+ al seguente indirizzo:
+
+ Ruocco Sergio
+ Via Di Vittorio, 4
+ I-20019 Settimo Milanese (MI)
+
+   Si desidera puntualizzare che il convegno e' aperto a tutti coloro che  sono
+ seriamente  interessati alla programmazione di Amiga; non e' quindi necessario
+ essere sviluppatori registrati dato che  la  Commodore e' presente in veste di
+ gradito ospite.
+
+ Per eventuali chiarimenti:
+ telefono:             02/463828 Fabrizio Lodi (martedi e giovedi sera) posta
+ elettronica:          ruocco@dsi.unimi.it - Sergio Ruocco
+                         lodi@dsi.unimi.it - Fabrizio Lodi
+ fidonet:                      2:331/326.2 - Alessandro Ferrarin
+
+
+   Vi aspettiamo numerosi per confermare il successo delle precedenti edizioni.
+
+
+                                                    Il Comitato Organizzatore
+
+
+ P.S.
+     Per  raggiungere  il  Centro  Universitario  recatevi  in  piazza  Bottini
+ (stazione Lambrate FS), imboccate via  Valvassori  Peroni  e  proseguite  fino
+ all'incrocio.  Svoltate a destra in via Bassini (per evitare il mercato) poi a
+ sinistra  in  via Clericetti e raggiungete lo stabile in cemento in fondo alla
+ via.
+
+
+
+                                                              Roberto Attias
+                                                              2:331/327.16
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  13  ###                                    NOTIZIE FIDONET REGION 33  ###
+ ############                                    NEWS                       ###
+
+ Riassunto:
+         Ho  ormai  con  rammarico  capito  che  di Vertigo non ci si puo' piu'
+        fidare: pregherei  coloro  che  hanno  la  voglia/tempo  di  inviare un
+        *piccolo* matrix di protesta (chissa' in quanti potrebbero essere :) !
+         Per  il resto si consolidano le "vecchie" conoscenze.  Chissa' che non
+        si possa prima o  poi  riuscire  ad  avere  tutto  il net!  (Almeno una
+        volta!)
+         Un doveroso GRAZIE per la vostra collaborazione!
+
+ ------------------------------------------------------------------------------
+
+                                *** net 331 ***
+                            NESSUNA NUOVA PERVENUTA
+                       DA QUEL BRAVO RAGAZZO DI vertigo
+
+                                *** net 332 ***
+
+     Ciao Renato!
+ rispondo al tuo messaggio del 26 novembre riportando alcuni brani....
+
+  RR> grazie per le inesistenti news precedenti...
+
+ Ho avuto altre cose  da  fare.   In  realta`  credevo  che  Telematicus  fosse
+ defunto....
+ [NdE: !!!!  ???  ma come ha potuto una tale idea riuscire ad entrare nella tua
+ regal capocchia ??? Ma guarda te. Ma pensa !!!!]
+
+  RR>         Ci sono NEWS? :)
+
+ No.  Tranne il netsyscon domani.  Magari ci saranno news nel prossimo mese.
+
+   Ciao Ciao!                                                    ___
+                                                                /  _
+                                                               <___/ iovanni
+                                                               2:332/114.2
+
+                                *** net 333 ***
+
+  Il collo [NdE: dall'inglese "cool"] Melilli ha  avuto  in  questo  mese  seri
+ problemi di salute.  Ma questi - e che sia d'esempio per tutti - non gli hanno
+ impedito di inviarmi le news.
+
+  La situazione del 333 pare tragica, ma al Quirinale c'e' un cauto ottimismo.
+
+  Gli auguri di  una  pronta  e  *duratura*  quarigione  da  tutto  lo staff di
+ Telematicus.
+
+ ------------------------------------------------------------------------------
+
+  RR>:) Comunque spero ti sia piaciuto lo spazio delle news dell'ultimo numero!
+  RR> (non mi dire che non l'hai letto!)
+
+ non l'ho letto no!!!  ho avuto guai con la salute in questi giorni, sono stato
+ anche all'ospedale ...  ma lo faccio subito, abbi fede .. :-)
+
+  RR> Ed eccoci alla domanda di rito: ci sono NEWS ?
+
+ spetta spetta, che siamo tutti in rivoluzione, se io accetto l'incarico di REC
+ (e penso che lo accettero') .. il  net  333  resta senza NC, e dal momento che
+ Franz Antolini vuole chiudere baracca prima di Natale, resteremo  anche  senza
+ NEC  e  senza  BackBone,  bbiamo praticamente ricostruire il net da capo, piu'
+ belle notizie di cosi ...  :-)
+
+                                                               Adolfo Melilli
+                                                               2:333/1.1
+
+ :-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-:-
+
+  Qui si comincia veramente ad  esagerare!   Un  altro  MODEM  regalato!   Dove
+ andremo  a  finire!  Non mi dire che tra un po' anche qui da noi regaleremo un
+ bel MODEM al Verdons, per permettergli la terza linea! :)
+
+ ------------------------------------------------------------------------------
+
+ Hello Renato!
+
+  Rieccomi  qui,  a  segnalare  una nuova notiza dal NET 333, a dire il vero le
+ notizie sono molte, ma ormai sono  gia'  di  dominio pubblico, in ogni caso un
+ sincero augurio da parte nostra al nuovo  REC  ........   VAIII  ADOLFO  FACCE
+ SOGNA' :-)).
+
+  Veniamo  ora  alla vera notizia dal nostro net, quello che viene classificato
+ come "un'isola felice", ebbene, nel  precedente numero di Telematicus vi avevo
+ fatto pertecipi della felice conclusione di un'iniziativa per dotare il BBS di
+ Adolfo (2:333/1) di unuovo modem, ebbene sull'onda di tale iniziativa, i  miei
+ point  ed i miei utenti, nonostante io fossi contrario, si sono organizzati ed
+ hanno fatto una colletta per permettermi di dotare il mio BBS di un modem piu'
+ potente. [NdE: invidia, invidia, invidia!]
+
+  Un sincero ringraziamento a  tutti  i  miei  point  ed  agli utenti che hanno
+ concorso alla colletta.
+
+ Dovremmo leggere molte piu' notizie di questo genere in questa rubrica.
+
+ Aloha !!
+
+
+                                                              Herve Miozzo
+                                                              2:333/511.20000
+                                *** net 334 ***
+                            NESSUNA NUOVA RIPORTATA
+
+                                *** net 335 ***
+                            NESSUNA NUOVA PERVENUTA
+
+
+ ===========================================================================
+
+ Telematicus puo` essere  downloadato  dai  nodi  che ricevono la distribuzione
+ ISN.  Assieme alla rivista ho inserito  ISN-NODE.265, la lista di tutte le BBS
+ appartenenti ad ISN.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ####                            End of TELEM035                           ####

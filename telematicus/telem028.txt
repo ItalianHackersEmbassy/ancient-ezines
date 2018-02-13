@@ -1,0 +1,2335 @@
+  #### TELEM028 - Telematicus - Volume 03 - Numero 04 - Anno 1993 -106 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                 Aprile 1993
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematica   e`  (C)  dei  singoli  autori.   E`
+ espressamente  consentita  la  distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 107*****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1 ] Editoriale, di Renato Rolando   .   .   .   .   .   .   (RRE)   pag.  4
+ [ 2a] Lettera aperta  .   .   .   .   .   .   . (Valentino Spataro)   pag.  6
+ [ 2b] Lettera aperta  .   .   .   .   .   .   . (Francesco Pittoni)   pag.  9
+ [ 3 ] AUDIOTEL in test a Milano   .   .   .   .   (Franco Carcillo)   pag. 12
+ [ 4 ] Un emigrato modello: il REXX- parte II  .   .   . (Old Raffa)   pag. 16
+ [ 5 ] La decima arte  .   .   .   - parte II  .   .(Artore Londona)   pag. 28
+ [ 6 ] Per un AFI piu' libera  .   .   .   .   .   (Franco Carcillo)   pag. 37
+ [ 7 ] L'interfaccia Fossil/Fossil++   .   .   . (Giovanni Iachello)   pag. 41
+ [ 8 ] ASPEN   .   .   .   .   .   .   .   .   .   .   (Teodoro Lio)   pag. 54
+ [ 9 ] Il gergo telematico .   .   .   .   .   .   .   .   . (.mau.)   pag. 63
+ [10 ] Curiosita`: Il gergo hacker - parte 24  .   .   .   .  (AAVV)   pag. 69
+ [11 ] Alla gogna! .   .   .   .   - preludio  .   .   .   .   (RRE)   pag. 81
+ [12 ] L'angolo matematico: somme di sottoinsiemi  .   .   . (.mau.)   pag. 86
+ [13 ] Assemblea dell'Associazione Fidonet Italia  (Franco Carcillo)   pag. 97
+ [14 ] Notizie Fidonet region 33   .   .   .   .   .   .   .  (AAVV)   pag.101
+ [15 ] Conclusioni .   .   .   .   .   .   .   .   .   .   .   (RRE)   pag.105
+
+
+                  Questo Telematica e` nato con l'aiuto di...
+
+ Editor proteggitor  :  Maurizio Codogno | * I collaboratori dai network: *
+ Editor Telematicus  :  Franco Carcillo  |
+ Editor rexosux      :  Raffaello Valesio| Giovanni Lopes (2:332/108.2)
+ Editor WC-Dossianus :  Giovanni Iachello| Angelo Verdone (2:334/ 21.0)
+ Editor Aspensis     :  Teodoro Lio      |
+ Editor campester    :  Artore Londona   |
+
+ Editor mittens      :  Valentino Spataro
+                        Francesco Pittoni
+
+      ... e dei "saccheggiati"
+
+ Eric S. Raymond <esr@snark.thyrsus.com>
+
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO)
+                           al 011-9235565
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+  Nell'altro  editoriale  si  era  parlato  di  informazione  e  disponibilita'
+ di  reperimento.  Ho   saputo,  da  fonti   piu'  o  meno   attendibili,   che
+ l'approccio  all'argomento  non  e'  stato  da  tutti  gradito.  Questi, tanto
+ per smentire le  mie tesi, si  sono fatti subito  premura di inviarmi  le loro
+ idee a riguardo... anche questa sarebbe stata informazione.
+
+  Di  idea  diversa  e  (piu'  costruttiva)  risulta  invece  essere il sysoppo
+ -  italianizzato  per  piacere  a  .mau.  -  di Orpheus, 2:331/316. Costui, in
+ barba  al  fatto  che  certi  programmatori  hanno  sicuramente  passato notti
+ in  bianco  per  poter  aggiungere  ai  propri  programmi  di  BBS   l'accesso
+ regolato  da  livelli  di  sicurezza...   costui  non  permette  l'accesso   a
+ *nessuno*   che   non   sia   stato   -   chissa'   come   e  chissa'  dove  -
+ precedentemente registrato.
+
+  Su  un  tale  comportamento,  ai  termini  della  vigente  policy FidoNet non
+ perseguibile,  mi  permetto   di  esternare  perplesso   qualche  riserva;   i
+ lettori  non  me  ne  vogliano  (me  ne  voglia invece il sysoppo incriminato,
+ cui  spero   avra'  la   compiacenza  di   rendermene  conto).   Alla   faccia
+ dell'informazione  e  dello  spirito  FidoNet;  giusto  in  questo  numero  si
+ discute  l'importanza  dei   point,  oltreche'  dei   sysoppi.  Come   direbbe
+ Elesto  Tria  "l'artista  (il  sysoppo)  non  vale  nulla  se  nessuno fruisce
+ dei suoi prodotti."
+
+  Comunque.  Il  mio  riconoscente  ringraziamento,  e  spero  anche quello dei
+ lettori  di  Telematicus,  a  tutti  coloro  che  hanno  partecipato  a questo
+ numero.  Anche  se,  ad  onor  del  vero,  le moine, le minacce e le suppliche
+ via matrix per avere gli articoli si sono sprecate.
+
+  Poco  male;  ho  scoperto  che  e'  un  ottimo  terreno  di addestramento per
+ il  corteggiamento   delle  fanciulle:   se   riesci   a  farti   inviare   un
+ articolo dal coriaceo Old Raffa... poche sapranno poi resisterti!
+
+  E  se  malgrado  tutto  qualche  ostinata  continua  a  persistere,  una  che
+ nicchia  e  non  vuole  dartela  avendotene  prima  decantato lodi e virtu'...
+ allora per questa c'e' pronta la gogna... *:)
+
+
+                                                                RRE
+
+
+ ############                                          LETTERE APERTE       ###
+ ###   2a ###                                          Una BBS alternativa. ###
+ ############                                          da Valentino Spataro ###
+
+  Ciao, ho letto  il tuo editoriale  di telematicus e  ti ho subito  mandato un
+ matrix.
+
+  Sono il sysop  di Cornucopia BBS,  2:331/347.0, 02-29528616, da  poco in fido
+ forse  per  questo  non  mi  trovi  ancora  nella  region  (dalle  13.00  alle
+ 3.00  di  notte,  gli  altri  orari  il  telefono  e' occupato o a raccogliere
+ ordinazioni a voce, o a mandare fax in automatico).
+
+  La mia BBS, nata  ufficialmente il 15 Ottobre  1992, NON tiene programmi  PD,
+ ma  ha  come  scopo  raccogliere  informazioni  e  fare pubblicita' in maniera
+ organica.
+
+ Ti faccio alcuni esempi:
+
+ 1) CIT:
+         raccolgo  le  liste  di  decine  di  BBS  (tra  cui skylink 2:331/106)
+ consultabili direttamente  online da  parte degli  utenti, che  cosi' con  una
+ sola  chiamata  possono  cercare  i  programmi  in  decine  di  BBS. Il CIT e'
+ l'associazione   che   organizza   questo   materiale   regione  per  regione.
+ Pur essendo nato da poco la crescita del cit e' decisamente alta.
+
+ 2) Annales:
+         raccolgo notizie giornalistiche consultabili on line.
+
+ 3) Edicola:
+         raccolgo  le   riviste  telematiche   e  mi   sto  accordando   con  i
+ direttori  delle  riviste  per  ricevere  da  loro  gli  indici  delle stesse,
+ in modo che i miei utenti possano consultare questi indici on line.
+
+ 4) altro ancora...
+
+ Ti dico questo perche' nell'editoriale ho letto:
+
+ [...]  Sarebbe  gradito  avere  dei  punti  di  riferimento,... delle guide da
+ consultare...
+
+ Scopo della mia BBS e' unicamente questo.
+
+  Ti  invito  a  venirmi  a  trovare  quanto  prima  in  BBS,  sono  sicuro che
+ la troverai interessante.
+
+  Se vuoi  puoi gia'  lasciarmi gli  indici solamente  della rivista, cosi' che
+ non appena  finisco il  programma di  consultazione ci  saranno subito  i dati
+ di Telematicus.
+
+  Saluti e spero a presto ...  !
+
+                                                        Valentino
+                                                        sysop di Cornucopia
+                                                        2:331/347.0
+
+ ------------------------------------------------------------------------------
+
+ Carissimo Valentino!
+
+        E'  un  piacere  constatare  che  qualcuno  non  si  limita  a  puppare
+ beceramente  files  su  files,  ma  cerca  di  fare  qualcosa  di costruttivo.
+ Gli  indici  sono  stati  spediti  e  spero  di  farti  visita al piu' presto,
+ assieme ai miei 50 lettori.
+
+
+
+ ############                                          LETTERE APERTE       ###
+ ###   2b ###                                          Consigli vari        ###
+ ############                                          da Francesco Pittoni ###
+
+  Probabilmente,  parlando  di  TELEMATICUS,   piu'  del  CHE  COSA   SCRIVERE?
+ il problema e` di CHI LO SCRIVE?  ;-)  Ciononostante ti parlero' del CHE COSA?
+
+  Trovo  interessanti   gli  articoli   che  trattano   la  "vita"   dei   BBS:
+ nascita,  scomparsa,  scelte   interne,  ecc.,  e   trovo  che  se   ne  parla
+ troppo  poco.  Solo  pochi  cenni.  Sarebbe  utile  invece  essere   informati
+ in modo piu' ampio.
+
+  Inoltre  non  mi  pare  si  parli,  se  non  saltuariamente,  delle   diverse
+ aree  messaggi.  Sarebbe  interessante  avere  una  breve  sintesi  dei   temi
+ emergenti     nelle     diverse     aree     a     cura     dei    moderatori.
+ Ognuno  aggancia  le  aree  che  piu'  gli  interessano,  ma  potrebbe  essere
+ che  saltuariamente  o  su  uno   specifico  argomento  uno  sia   interessato
+ anche ad altre aree. TELEMATICUS potrebbe comunque informare.
+
+  E    poi    ci     sono    i    grandi     dibattiti    o    le     proposte.
+ Ad  es.  ultimamente  c'e'  un  certo  movimento  in  area  2MANO per messaggi
+ che  sembrano  commerciali.  Io  ho  proposto  al  moderatore  di  prendere in
+ considerazione   la   possibilita`   di   creare   una   specifica   area   di
+ informazione  commerciale.  Lui   mi  ha  risposto   che  in  riunione   hanno
+ ritenuto  la   cosa  inopportuna   per  il   carattere  amatoriale   di  FIDO.
+ Benissimo, perche' non trattare la cosa in TELEMATICUS.
+
+  Per  quanto  riguarda  gli  articoli  tecnici  penso  che  siano utili quelli
+ a  carattere  divulgativo,  come  ho  trovato  utilissimo  il  MANMOD di Frank
+ Stajano.
+
+  Comunque continuate...
+
+        Ciao
+                                                        /// Francesco
+                                                            2:333/511
+
+ ------------------------------------------------------------------------------
+
+  Cio'   che   dici,   o   Francesco,   e'   saggio   e giusto;  e commuove nel
+ profondo dell'animo.
+
+  Parlare delle  BBS e  delle aree  a disposizione  e' proprio  la linea su cui
+ vorrebbe muoversi Telematicus,  piacendo agli articolisti.  In effetti non  e'
+ cosi' semplice trovare  Sysoppi smaniosi di  decantare le proprie  BBS o gente
+ disposta a raccontare delle proprie aree.
+
+  Tra  l'altro  ho  spedito  un  matrix  a  Gianmarco  Giovannelli,   2:33/201,
+ per  avere  la  lista  di  coloro   che  curano  le  aree.  Per  ora   nessuna
+ risposta... tipo simpatico e disponibile :(
+
+  Ma noi,  indefessi paladini  continueremo caparbiamente  in quella direzione,
+ speriamo anche col tuo aiuto. :)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                     AUDIOTEL in test a Milano ###
+ ############                                     di Franco Carcillo        ###
+
+ Riassunto :
+       l'informatissimo  e,  diciamocelo,  ormai  assunto  al  rango di *mito*,
+       Franco  Carcillo  ci  racconta  delle  nuove  nefandezze  SIP & C; tanto
+       sbandierate in tutti i mass media. Ecco in esclusiva su Telematicus come
+       stanno realmente le cose! ;)
+
+ -------------------------------------------------------------------------------
+
+  Da    febbraio    gli       utenti    del    distretto       telefonico    02
+ (MILANO) possono  'divertirsi'  a  utilizzare  i  nuovi  servizi  AUDIOTEL. Si
+ tratta in pratica di una rivisitazione, al momento,   dei consueti servizi   1
+ (oroscopo, favole, notizie,  etc...)   che   ora   possono   essere    offerti
+ anche    da privati  (effetto    della liberalizzazione    dei   servizi     a
+ valore   aggiunto CEE) tramite delle speciali linee SIP.
+
+  La numerazione   e' unica   (varra' su   tutto il   territorio nazionale)  ed
+ inizia con  144.    Grazie  alle   nuove  tecnologie   telematiche   diventano
+ disponibili servizi  sinora  impensabili  (o  poco   diffusi)  con  un elevato
+ grado     di  interattivita'  e  si  aprono  nuovi   orizzonti  per il mercato
+ dell'informazione  e del  tempo libero.    Il telefono diventa dunque   sempre
+ piu'  un  'terminale'   che  consente  l'ascolto  di  informazioni,  grazie  a
+ selezioni guidate (filosofia  gia' presente  da  qualche  tempo  nei   servizi
+ 1800 SIP INFORMA, 1661 INFORMAZIONI SANITARIE o 1664 FIABE).
+
+  Quello che  cambia, dunque,  e che  SIP   non e'  piu' il  fornitore unico di
+ questi  servizi,  anzi  tende  ad  essere   unicamente  il  gestore della rete
+ lasciando tali servizi al libero mercato.
+
+ E per noi utenti?
+
+  La prima cosa  da notare e'  che il   costo di una  fruizione non e'  cosa da
+ poco: se coi  servizi 1 gli  scatti  erano  prefissati (in genere  3) Audiotel
+ propone 5  scaglioni tariffari  a tempo  (444   - 635  - 952  -   1524 e  2540
+ lire/minuto).    Al fornitore   di   informazioni   la   SIP   detrae,   dagli
+ importi di cui  sopra, 254 lire/minuto  per la funzione  di 'trasporto'.   Gli
+ investimenti  per  i   fornitori,  in   termini     di   apparati   (computer,
+ schede   vocali..)   e   di    gestione (allacciamenti  e   canoni  SIP)   non
+ sono  indifferenti; forte dell'esperienza Videotel  dove  con  3  milioni   ed
+ un   Commodore   64  si  poteva  gia'  diventare  'fornitore di informazione a
+ pagine'  (e  approfittare delle vistose  lacune  del  sistema, come dimostrano
+ le indagini  giudiziarie   in corso)  AUDIOTEL   richiede non  meno di 200-300
+ milioni di investimento iniziale!
+
+  Se siete  tra i  2 milioni  di abbonati  del distretto  milanese o  se  siete
+ di passaggio  a Milano  e avete  l'impellente   voglia di  consumare un po' di
+ scatti, provate  alcune dei  servizi elencati  alla fine  di questa  nota:  ma
+ attenti,  non dovete  avere   problemi   di  cuore,   gli   scatti  vanno   ad
+ una   velocita' impressionante!
+
+  I  fornitori  scelti  da  SIP  per   la  fase  sperimentale  sono tra i  piu'
+ importanti nel settore  della  comunicazione:  RTI (Fininvest),   RAI, SOMEDIA
+ (L'espresso, Repubblica),      PRONTOTEL     (radio      Montecarlo,      rete
+ 105),     EDIPHONE  (Rizzoli-Corriere).   Sinora, pero',  si   sono visti solo
+ servizi che  consentono chiacchierate multiple (un 'casino' unico, provare per
+ credere..), con   qualche velatura   da   'luci   rosse',   oppure   oroscopi,
+ barzellette, tarocchi...; poca cosa, insomma.
+
+  Divertente il   gioco-votazione proposto   da RTL   102.5 col   suo Telephone
+ Music Machine  (ma  per  votare  se   ne  vanno  minimo  5000  lire,   essendo
+ a  2540 lire/minuto!).
+
+  Fra poco,   dunque, le    polemiche per   le telefonate    transoceaniche per
+ sentire Moana  potrebbero sparire  perche'   le telefonate,  pur non  variando
+ praticamente di costo, si potranno fare chiamando servizi italiani, magari con
+ l'intervento diretto,  non  registrato,  della  maggiorata;  con  buona   pace
+ di  SIP   che incassera'  senza passare  alcunche' a Italcable   (come avviene
+ per  le chiamate internazionali!).
+
+                                                                Franco Carcillo.
+                                                                2:334/100.3
+ Documentazione :
+
+ Eccovi alcuni numeri (solo da Milano!), ma attenzione, se dopo 144 segue un  11
+ si pagano 2540 lire al minuto (piu' iva):
+
+         Oroscopo Astra.......................144-881999
+         Party line...........................144-661966
+         Pronto festa.........................144-114969
+         Duo (incontrarsi a Milano)...........144-114020
+         RTL music machine....................144-114050
+         Teleschedina.........................144-114555
+
+
+
+ ############                                                               ###
+ ###   4  ###                                 Un emigrato modello : il REXX ###
+ ############                                 di Raffaello Valesio          ###
+
+ Riassunto :
+        in realta'  il titolo  della seconda  puntata del  corso avrebbe dovuto
+        suonare :
+
+                Elementi del linguaggio e altro pattume indispensabile.
+                E basta senno' fate indigestione.
+
+        Non me ne voglia a  male l'insostituibile e disponibilissimo Old  Raffa
+        se ho  abbreviato e  tenuto il  vecchio titolo,  piu' corto  e di  piu'
+        facile catalogazione.  Signore e  signori eccovi  Raffa! Piu' scatenato
+        che mai.
+
+ ------------------------------------------------------------------------------
+
+  Eccoci dunque di nuovo qua, miei  prodi.. siete pronti al cimento? Tanto  per
+ iniziare, cosa ve ne pare di questo antipasto?
+
+  /*   Programma REXX da deficienti  */
+  say 'Hallo, World !'
+  exit
+
+  Gia' visto da qualche parte eh? . 'Te credo. Allora, tanto per non andare  in
+ ordine senno' diventiamo tediosi: La prima riga e' proprio quello che  sembra:
+ un commento. Si deduce che in REXX,  come in C, i commenti sono contenuti  fra
+ /*  e  */. Con una peculiarita': OGNI programma REXX deve iniziare con  almeno
+ una riga di commento, anche finta  ( /**/). C'e' un retaggio storico  dietro a
+ tutto  cio':   il  REXX  nasce  nell'ambiente  IBM  Virtual Machine, dove gia'
+ esisteva l'interprete EXEC2.  Bene, per far  capire al sistema  operativo come
+ distinguere fra i due linguaggi,  (badate bene che li' il REXX e l'EXEC2  sono
+ trattati  come  comandi,  cioe'  non  dovete  prima  avviare l'interprete), si
+ convenne che le procedure  EXEC2 iniziassero con TRACE,  e le REXX con  /*. Va
+ be', contenti loro....
+
+  Cosi' almeno sarete tentati  di mettere  un  aborto di commento che  racconti
+ due balle su cosa fa il vostro programma, visto che tanto non lo fate mai.
+
+  La seconda, per chi non sia un minorato, e' immediatamente palese:
+
+  SAY e' il verbo per l'output su  video, o STDOUT in Amiga... [NdE: stdout  e'
+ il file standard di  output in C] fate  conto che sia il  PRINT del  Basic....
+ si usa pressappoco allo stesso modo.
+
+  SAY di che cosa ? Ma vi devo proprio dire tutto ? Di quella roba che segue  e
+ sta fra apici. Sara' mica una "Literal Constant" ??
+
+  Seeeh, e' proprio una String, fra apici come dappertutto. O fra doppi  apici,
+ va bene lo stesso. [NdE: in realta', sempre per AREXX non e' *esattamente*  lo
+ stesso]
+
+  EXIT esce dalla  baracca, e volendo  restituisce un codice  di ritorno se  si
+ scrive EXIT qualcosa. Dove qualcosa  e' la variabile o costante  o espressione
+ da valutare.
+
+  Tutto qui? No cari, vi piacerebbe fosse cosi' facile... ma per oggi mi  sento
+ buono. Il formato e'  assolutamente libero, fatte salve  eventuali restrizioni
+ del sistema operativo ospite. Se  volete mettere due istruzioni di  seguito su
+ una stessa riga, separatele con ;
+
+     /*   Programma REXX da deficienti  */
+      say 'Hallo, World !' ;  exit
+
+  Non era il PL/1  che faceva cosi'? (onestamente  non mi ricordo). Ma  vediamo
+ allora di definire le costanti: Non vi dico niente di speciale; e' tutto  come
+ sempre, la solita zuppa:
+
+ "abcd123" oppure 'abcd123'    --> literal
+
+ (come al solito per esprimere effettivamente un apostrofo vale la regola   del
+ raddoppio, cioe' per scrivere l'idiota uso 'l''idiota')
+
+ 12   1.2  +5  7.23  15e-3 .97  ecc. --> Numeri, tal quale in Fortran.
+
+ E' tutto trooppo semplice. Vediamo di complicarvi un po' la vita.
+
+      /*   Programma REXX da deficienti  */
+      pippo = 'Hallo, World !'
+      say pippo
+      exit
+
+  Ok, qui  assegnamo alla  variabile PIPPO   la stringa  'Hallo' ecc.....  e la
+ mandiamo in output. Fin  qui tutto bene .  Come al solito,i nomi  di variabili
+ iniziano con A B C...Z @ # $ ecc. e non con numeri o punti. Sono ammessi anche
+ caratteri  minuscoli,  tanto  l'interprete  li  traduce  in  MAIUSCOLO. Quindi
+ Attenzione.
+
+ Le variabili si autodefiniscono. Come in Basic, ma senza la noia dei suffissi.
+
+ Ma allora, se dico:
+
+   SAY PIPPO
+
+ di una variabile non ancora definita, cosa ottengo? Ottengo:
+
+   PIPPO
+
+  Il REXX inizializza una  variabile non a zero  o blank, ma al  valore stringa
+ del nome  della variabile  stessa. Nessuno  mi vieta  di trattare  una  stessa
+ variabile un po' come  stringa e un po'  come numero. Basta non  fare scemenze
+ del tipo
+
+  PIPPO = "sono scemo"
+  PIPPO = PIPPO + 1
+
+ e' ovvio che non posso fare op. aritmetiche su una stringa.
+
+ Pero' posso fare
+
+ /* prova da far cadere le braccia */
+  PIPPO = "sono scemo"
+  SAY PIPPO
+  PIPPO = 15
+  PIPPO = PIPPO + 2
+  SAY PIPPO
+  EXIT
+
+ infatti a meta' programma ho cambiato  PIPPO da stringa a numero, e  quindi ci
+ posso operare sopra.
+
+ Gia', ma che diavolaccio di operatori ho a disposizione ?
+
+ I SOOOLLLIIITIIII !!!!!!!!!! Che stress! Tralasciando gli operatori logici che
+ esamineremo prossimamente.
+
+ **     Esponente
+ *      Moltiplicazione
+ /      Divisione
+ %      Parte intera della divisione .... INT(a/b) in Basic
+ //     Resto della divisione
+ +      Addizione
+ -      Sottrazione
+
+ Come noterete, non ci sono operatori come SQRT o SIN, COSH, LOG e chi + ne  ha
+ + ne metta.
+
+  Il REXX non serve a questo. Vengono fornite librerie con le funzioni  esterne
+ trascendenti,trigonometriche ecc, ma in questi casi non sarebbe meglio  andare
+ sul FORTRAN o  C ? Sono  quindi "Funzioni Esterne",  cioe' non previste  dalla
+ struttura   base  del  linguaggio  (se  vi  ricordate,  vi  dicevo che il REXX
+ fornisce solo strutture di controllo e non funzioni).
+
+  Si  scrivono  le  espressioni  come  in  FORTRAN  o  BASIC,  con i livelli di
+  parentesi messi alla stessa maniera.
+
+  Fra stringhe, l'unica operazione codificata e' || cioe' la concatenazione. In
+ alcune macchine e'  la barra verticale,  in altre il  punto esclamativo. [NdE:
+ nell'Amiga  e'  la  barra  verticale]  Altre  operazioni,  tipo  estrazione di
+ substringhe  o  sostituzione  selettiva,  sono  funzioni  interne come la MID$
+ BASIC, e le vedremo + avanti.
+
+  Ma perche' perdo tempo con voi a spiegarvi queste cose? i miei 3 lettori  che
+ hanno gia' capito tutto non hanno  bisogno di me, quelli che non  hanno capito
+ non capiranno neanche dopo, e RRE non conta. [NdE: ti legge anche .mau.]
+
+  Basta! vi dico ancora questa: e poi resterete pietrificati dallo stupore fino
+ alla  prossima  puntata  dove  inizieremo  a  lavorare  sul  serio,  banda  di
+ fannulloni!!
+
+ E le tabelle, vettori, matrici, o come le volete chiamare?
+
+ Semplice:
+
+ PIPPO.PLUTO.MINNI    equivale a PIPPO(PLUTO,MINNI) in altri linguaggi.
+
+ Non serve la predefinizione ne' la DIM o simili.
+
+  Quando la tabella non serve piu', un'istruzione di DROP la cancella fino alla
+ prossima  definizione.  In  altre  parole,  una  tabella  a  piu' indici viene
+ autodefinita man mano che se ne definiscono gli elementi, e contiene solo  gli
+ elementi effettivamente definiti mediante una assegnazione del tipo:
+
+ Elemento.xxx.yy = espressione      (che puo' essere di ogni tipo)
+
+  Non solo, nella tabella PIPPO. posso avere PIPPO.1 che e' un literal e magari
+ PIPPO.5 che e' un numero floating. E ognuno si comporta di conseguenza.  Cioe'
+ della tabella mi godo solo la struttura, l'"Architettura", senza vincoli.....
+
+ Ganzo eh? Ma non e' tutto......
+
+  Un indice di tabella  (per esempio xxx nell'esempio  di poche righe fa)  puo'
+ essere non solo un numero, ma un literal.
+
+  L'indice  perde  totalmente  il  significato  posizionale-numerico dei vecchi
+ linguaggi, diventando  praticamente solo  piu' una  "chiave", per  di piu'  di
+ lunghezza qualsiasi...
+
+  In  pratica  non  definisco  piu'  una  tabella tradizionale ma una specie di
+ database gerarchico.
+
+  All'udire cotali oscuri  detti, sarete stremati  e boccheggianti. Rapatevi  a
+ zero, indossate il saio, praticate le sacre abluzioni e il cerimoniale del the
+ e ritiratevi in meditazione in una stanza in penombra.
+
+  Dopo aver ripetuto i Mantra del REXX per un mese, ritornate a me o discepoli,
+ purificati e pronti per la prossima seduta, in cui altri sconvolgenti  misteri
+ vi saranno rivelati.
+
+
+                                                      _     _
+                                                     (_)ld |_)
+                                                           | \affa
+                                                      2:334/100.14
+
+
+ Bibliografia:
+
+
+ IBM    SC24-5465  Procedures language VM/REXX User's guide.
+
+        Un testo  formidabile ,  che inizia  da zero  e porta  fino a una buona
+        conoscenza.  Spiega  anche  un  mucchio  di  trucchi.  Peccato  che sia
+        formidabile  anche  la  difficolta'  di  reperimento , se non conoscete
+        qualcuno in IBM o qualche sistemista che ve ne possa regalare una copia
+        obsoleta (vanno benissimo anche quelle , fino a 6-7 anni fa). [NdE:  ci
+        sarebbe da malignare su quando l'Old Raffa ha imparato il REXX] :)
+
+ IBM    SC24-5466  Procedures language VM/REXX Reference.
+
+        Il degno compare; mentre il precedente e' un'esposizione  eminentemente
+        didattica , questo e' il vero REFERENCE. Tutti i comandi e funzioni  in
+        ordine  alfabetico  ,  ciascuno  nei  minimi  dettagli  dei parametri e
+        modalita' d'uso. Per la comprensione , e' fondamentale aver capito bene
+        l'altro. Per la reperibilita' , come sopra.. :(
+
+
+ Biografia:
+
+
+ [NdE: Ecco la prima biografia! Chi sono in realta' i nostri editor? Cosa fanno
+       nella  vita?  Che  spazzolino  da  denti  usano? In questi piccoli scoop
+       verranno svelati tutti i segreti piu' gelosamente custoditi...]
+
+  Fin da piccolo stupiva gli insegnanti per la sua singolare quanto  patologica
+ incapacita' di dedicarsi alle discipline umanistiche....
+
+  Con  due  anni  di  ritardo,  stufo  di  mantenere gli insegnanti, si laureo'
+ addosso in matematica nel 72.  Si giustifico' dicendo: 'tanto, sono  gia' anni
+ che faccio  il programmatore'.  [NdE: al  tempo dell'Old  Raffa non esistevano
+ ancora le universita' di Informatica.] :)
+
+  Lavoro' nel campo statistico presso una nota ditta francese di cosmetici, per
+ poi offrire la sua consulenza all'Avvocato a Mirafiori.
+
+  Stufatosi anche di cio' inizio' la sua folgorante carriera di Vero Sistemista
+ presso una Internazionale di Telegrafi e Telefoni, dove rimase per 15 anni.
+
+  Attualmente, smanettando sconclusionatamente il sistema operativo VM/ESA IBM,
+ danneggia da  un anno  il centro  EDP del  settore Spazio  di una nota azienda
+ aerospaziale di Torino.
+
+  Il suo attuale motto  e': 'l'ho installato io  e ci gioco io'.  Curiosamente,
+ riceve pure uno stipendio. Mah ! cosi' e' la vita.......
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                                             La decima arte    ###
+ ############                                             di Artore Londona ###
+
+ Riassunto :
+       il precedente  articolo ha  suscitato tali  e tante  accese polemiche da
+       vedermi costretto a  proseguire nell'indagine.   Ho quindi disposto  che
+       il  nostro  inviato  speciale   sul  campo,  Artore  Londona,   cercasse
+       l'illuminante  parere  di  altri  grandi  pensatori  sul  problema   che
+       affligge  noi  tutti:   l'attivita'  programmatoria  ha  in  se' il seme
+       dell'arte?
+
+ ------------------------------------------------------------------------------
+
+  Sto vagando da  giorni su quello  che fu un  tempo florido suolo  consacrato,
+ ora solo   cocente   deserto.   Abbacinato   trovo,   quasi   per   caso,   un
+ anfratto; mi avvicino per esaminarlo.  E' una scura  voragine che con  la  sua
+ tetrita'   pare una  ferita sul   bianco terreno.  Una   millenaria  ragnatela
+ pietrificata  sbarra, quasi a  monito,  l'entrata  da cui  esce una   violenta
+ corrente   d'aria  fredda.  Sull'architrave  del  buio  antro un'indecifrabile
+ scritta  occhieggia minacciosa dalla  pietra  erosa  dal  tempo.  Uso  il  mio
+ fedele Amigra  portatile e  tosto ottengo   la   traduzione:   "Proprieta'  di
+ Assurbanipal,  re  del  mondo, re di Assiria."
+
+  Ci  siamo!  le   indicazioni  sono  esatte,   non  mi  resta   che  rimuovere
+ la ragnatela.
+
+  Signore e  signori siamo  a Ninive  (Quyngiq. Si,  lo avete  pronuciato bene)
+ ove, grazie  a    preziose  indicazioni    reperite  su    un  fustino     del
+ Dixan   - l'informazione e' disponibile a tutti, non e' cosi' ? :) - posso con
+ una  certa sicurezza ritenere  questo il  sito in  cui poter  trovare i  resti
+ della prima biblioteca di cui si  abbia testimonianza. In realta'  gia'  prima
+ del  regno   di  Assurbanipal   (668-626   ac)   v'erano   altre,   non   meno
+ prestigiose biblioteche;  ricordo il   santuario di   Marduk a   Babele e   le
+ biblioteche  di Assur,  Kutha, Agade e  Nippur; ma  questa e'  documentata  da
+ autorevoli fonti.   Qui spero  di incontrare   qualche   saggio   che    possa
+ indicarmi  dove  trovare il dio Beorso Oannes, mezzo uomo e  mezzo pesce,  che
+ insegno'  agli uomini i rudimenti  delle arti   e  dei  mestieri,  porto'   la
+ scrittura  e  radico'   con la religione il rispetto  e timore verso gli  dei.
+ Questa non fu, a ben vedere col senno di  poi, una gran trovata.
+
+  Che  il  grande  Marduk,   capo  degli  dei,  colui   che  possiede  tutta la
+ sapienza, protettore   e  promotore   della  civilta',   saggio   consigliere,
+ dalle orecchie  vaste   e   dall'occhio   chiaro,   mi   assista   e  mi guidi
+ nell'impresa. Esitante entro.
+
+  Ben  presto  la   violenta  luce  dell'entrata scompare,  spenta gradatamente
+ da un'oscurita' quasi  palpabile; accendo  la potente  torcia del  mio Amigra,
+ di serie nel  modello per  esploratori. Sospesa  nell'aria avverto  la polvere
+ dei millenni.
+
+  Comincio a vagare di  grotta in grotta, di  stanza in stanza, ma  non  riesco
+ a scorgere  libri   di  nessun   genere  e   foggia,  da nessuna  parte. Forse
+ hanno traslocato, oppure quel  Dixan ne ha   sparata una. Il procedere  per le
+ stanze, che dall'eco dei  miei  passi paiono  di considerevole grandezza   (la
+ luce della potente torcia e' presto assorbita  nell'oscurita'), e' pero' lento
+ e  faticoso per la presenza di un inverosimile numero di tavolette  d'argilla.
+ Queste  hanno le fogge piu' strane  ed inverosimili e sono  coperte di graffi.
+ Nei  letti dei fiumi si trovano  sassi tondi e lisci, quindi e' possibile  che
+ nei letti in  cui il tempo  scorre denso  e viscoso  si formino  questi strani
+ nuclei  argillosi.  Forse  sono  bizzarri  scherzi  della   natura, al pari di
+ stalattiti  o stalagmiti; non saprei, non mi intendo di speleologia. Fatto sta
+ che ve ne sono ovunque,  o ordinatamente impilate  nelle nicchie  dei muri   o
+ disordinatamente accatastate  in mezzo  alle   stanze o  negli   angoli, forse
+ vecchie  pile che hanno  ceduto al loro stesso peso;  spesso trovo addirittura
+ muri che  oltrepasso   solo grazie  a stretti   corridoi.   Altre   volte,   a
+ testimonianza,  restano  solo   polverose montagne di creta.
+
+  Dopo quello   che mi   sembra  un   interminabile camminare   scorgo in   una
+ stanza particolarmente grande  ed ancor   piu' piena,  se cio'  e'  possibile,
+ di  queste  tavolette,  un  tavolo    curiosamente  imbandito  per   il   te';
+ curiosamente  perche' il servizio e' del XVIII secolo inglese. Molto delicato,
+ il periodo migliore  a mio giudizio. Ci sono anche pasticcini!
+
+ -  Finalmente!  disperavo   gia'  il  suo   arrivo.  Abbia  la   cortesia   di
+ accomodarsi che il  tea si   fredda. - La  voce,  cortese  e ben modulata   ha
+ un'antica cadenza aulica. - Perdoni la  mia avventatezza - prosegue  con  tono
+ affabile  la   figura  immersa  nel  buio  -  e'  trascorso  cosi' tanto tempo
+ dall'ultima visita da   farmi dimenticare come accogliere  un ospite. Il   mio
+ nome e' Nabu' e sono  un modesto segretario   nonche',  a  volte,  Suo   umile
+ consigliere. Lei e' giunto qui per l'appuntamento con Lui, nevvero?
+
+ - Certamente!  - affermo   con sfacciata  sicurezza. Spero   solo non  sia  il
+ mio dentista.
+
+ - Bene! allora si  accomodi  e prenda  il tea con   me. - Noto nella  voce  un
+ tono di cordiale benvenuto. Ci accomodiamo  e finalmente riesco a distinguere,
+ alla luce  del  mio  Amigra,   qualcosa  di  piu'  dei contorni della  figura;
+ sarebbe ineducato puntare direttamente addosso  la torcia. Mi accomodo su  uno
+ sgabello, la  figura   e' seduta   su una   catasta di   tavolette  d'argilla.
+ Posando l'Amigra inavvertitamente batto  il comando  di  traduzione immediata;
+ il  fedele computer ronza un attimo e pronto fornisce  la traduzione di... una
+ di queste  tavolette d'argilla! ho avuto  il sapere sotto  il naso per   tutto
+ questo  tempo   e  non  mi  sono   mai   accorto   di   nulla!!   incredibile!
+ Distratto   leggo   la   traduzione  "Venerate  il   possente  Nabu',  araldo,
+ segretario  e scrivano  degli dei.  Dagli occhi  aperti,  possente,   sublime,
+ figlio  di  Ea,  protettore   delle   arti, onnisciente e misericordioso,  che
+ concede il sapere e lo scongiuro,  consigliere degli uomini  e degli   dei..."
+ scorro  veloce la  sequela "colui  che tiene  lo stilo lucente e sublime."
+
+ - O nobile Nabu'  - attacco - mio  solo e' l'onore di  poter intrattenermi con
+ la sua persona;  lei solo   sarebbe in grado  di  fugare  i miei dubbi   su un
+ problema che mi assilla. - Nabu' e'  palesemente compiaciuto - Cortese ospite,
+ vedo  che l'umanita'  invece  non   ha  perso  l'arte  delle  buone   maniere.
+ Il suo  e' un  problema delicato,  e dev'essere  trattato   da Lui in persona.
+ Prego,  assaggi il tea...
+
+  Bevo.   Assaggio   i   pasticcini.   Ottimo!   il   buon cibo  genuino di una
+ volta....  Un'improvvisa  folata  ti   vento  interrompe  la   nostra  amabile
+ conversazione;  un essere  splendente  e  magnifico  improvvisamente   appare.
+ Mi sento sollevare e tenere sospeso da caldi  venti, e con me  vedo sollevarsi
+ Nabu' ed  il servizio da te'.  Il segretario  procede con  le presentazioni  -
+ O  Artore Londona,  il possente   detentore   dell'imbattibile  arma    Abubu'
+ con   la  quale   uccise l'invincibile mostruosa femmina  Tiamat, il grande  e
+ saggio dio  artefice  dalle vaste orecchie, ha   ascoltato ed accolto   la tua
+ supplica  di udienza. Mortale, sei al cospetto del dio degli dei, Marduk!
+
+  Sono commosso  ed esterrefatto  - O  grande, saggio  e possente  tra gli dei;
+ ho chiesto un  colloquio -  ma quando  mai! -  su argomenti  talmente delicati
+ che solo la penetrante lanterna della vostra conoscenza potra', proiettando le
+ loro ombre  sulle nostre  menti, permetterci  di arrivare  ad intuirne la vera
+ essenza.  Il  possente  uomo,  nel  suo   splendore  sorride, si appoggia alla
+ terribile arma, sorride  sardonico  ed  esclama  -  Ruffiano!  Sei   l'inviato
+ di  Telematicus; naturalmente la   nostra libreria  possiede tutti   i numeri.
+ Molto interessanti quelli con  direttore .mau., ora un   po' scaduta. [NdE:  a
+ Londona dimezzero'  la paga]  So   che  hai  a  cuore   il  concetto  di  arte
+ rapportato  alle   conoscenze  informatiche   ed  in   particolar  modo   alla
+ programmazione.
+
+ - La vostra conoscenza, o sommo saggio, non ha confini.
+
+  Il  dio,  un  tempo  eroe,   sorride  nuovamente  dall'alto dei suoi  immensi
+ bicipiti -  E' nella  natura della  conoscenza l'avere  limiti, ma torniamo ad
+ Elesto  Tria. Sappi che  e' necessario avere coscienza di  alcune fondamentali
+ tappe  evolutive  del concetto di  arte nel corso  della storia dell'umanita'.
+ Giacche' fin   d'ora, senza   ulteriori   disquisizioni,   l'attivita'   della
+ programmazione     potrebbe   essere  vista  in  guisa    d'arte.  -  E   qui,
+ approfittando della pausa teatrale,  un refolo di vento prende una tazzina  da
+ te' dal servizio, un  altro alito  solleva  la teiera, un terzo  tentacolo  di
+ quella sottile materia  sostiene  il  filtrino; assisto, sospeso  in aria,   a
+ Marduk che esegue  i suoi giochetti di  prestigio. Nabu' lo osserva  divertito
+ e paziente.  Il dio viene intanto  a galleggiare  con noi, ammicca ed  esclama
+ - mi e' sempre   piaciuto fare lo spaccone!   - assaggia il te', il  nerboruto
+ mignolo sollevato
+
+ -  L'arte,  fu   per  gli  antichi   l'opera  dell'uomo  in   quanto  distinta
+ dall'opera della natura.
+
+ -   Quindi   qualsiasi   attivita',   artigianato   incluso,   era   da    voi
+ antichi considerata arte?
+
+ - Precisamente. Il complesso   delle arti fu l'equivalente   di cio' che  oggi
+ si dice civilta' o storia.
+
+ - Tutto cio' e' ben lungi dal concetto odierno di arte. - sospiro pensoso.
+
+  Marduk sorseggia  divertito, interviene  Nabu' -   V'e' di  piu' a  cio'  che
+ ha sintetizzato  il  saggio  Marduk:  l'uomo  antico  veniva  manifestando  la
+ sua originalita'  con   la creazione   di un   mondo morale   al di   sopra di
+ quello che egli trovava nell'universo,  al di sopra  della natura. Questa  non
+ puo' essere che  arte   divina.  Ma  l'uomo   non  e'  atto   a tale altissima
+ arte, in quanto incapace,  suo   malgrado,  d'introdurvi  un  solo   principio
+ vivente.  La  strada  percorsa  ha  cosi'   portato  all'arte  imitatrice  dei
+ filosofi  greci;   la  ricerca  di  un'astratta  perfezione,  appoggiata dalla
+ scienza della geometria.
+
+  Avverto nel mio cervello sordi rumori d'ingranaggi inceppati. - O saggio  tra
+ i  saggi,  cio'  che  dice  si  adatta  ottimamente  alla realta' virtuale, al
+ tentativo di riprodurre   la natura  in  un  universo elettronico.   Ma questo
+ riconduce la programmazione a mera  operazione tecnica, non ad artistico  moto
+ dello spirito
+
+  Marduk interviene,  mentre un  fedele alito  di vento  mi rabbocca  la  tazza
+ -  Ancora  non   ti  ho   esposto  la   mia  posizione;   segui  il   percorso
+ dell'umanita'.  Il  passaggio  successivo  porto'  a  distinguere  tra  arte e
+ scienza...
+
+  A questo   punto il   buio piomba   su di   me; sento   gli dei  sempre  piu'
+ lontani. Avvolto dalle tenebre piombo in un mare di nulla.  ...
+
+
+
+                                                                 Artore Londona
+                                                                    2:334/100.9
+
+
+
+ [NdE:  A   tuttora  il   contatto  con   il  nostro  inviato speciale non   e'
+ stato riallacciato. Sono  chiaramente in pensiero  per lui. E  per il prossimo
+ numero.]
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                        Per un AFI piu' libera ###
+ ############                                        di Franco Carcillo     ###
+
+ Riassunto :
+        ecco il  commento al  vigente regolamento  AFI [1]  da uno dei *grandi*
+        della telematica amatoriale; oserei  dire *il* grande, ma  solo perche'
+        scrive  articoli  su  Telematicus...   :)  Comunque,  e'  un   problema
+        estremamente delicato,  soprattutto visto  la piega  che sta prendendo:
+        l'eterna lotta tra i nodi ed i point... Speriamo che alla fine  vincano
+        i buoni!
+
+ ------------------------------------------------------------------------------
+
+  Non  e'  passata,  nelle  modifiche  al   regolamento  di  AFI [1] discusse a
+ Bologna,  una  visione  piu'  aperta  dell'Associazione vista soprattutto come
+ veicolo culturale e  non  chiusa  nello  stretto  ambito  della  region33:  la
+ divisione tra soci ordinari  (i  sysop)   e  tutti  gli  altri  non  mi sembra
+ delle piu' attuali ed ulteriormente difendibile. Ecco perche'.
+
+  Innanzitutto  cosa  era  stato   proposto:  sono  soci ordinari tutti  quelli
+ che hanno   un   sistema   telematico   rispondente   alle   specifiche   FTSC
+ (giusto il disposto   dello  Statuto).    Si  tratta   di  una   lettura  piu'
+ ampia di quella  attualmente vigente; l'accezione  'sistema  telematico'  puo'
+ essere vista  in un ambito piu' generale riferibile sia a sysop che a point.
+
+  Il    regolamento    attuale,    infatti,    restringe    il    campo   delle
+ possibilita' indicando espressamente  sia l'appartenenza  alla region33  della
+ rete FidoNet, sia la necessita' che il socio ordinario sia titolare di un BBS.
+
+  Da un   lato i   sysop (che    votano) dall'altro   i sostenitori   (point  e
+ utenti) senza apparenti  diritti: questo dualismo,  forse, adesso non  ha piu'
+ senso.
+
+  E  non  perche',  oggi,   io  sia  un  semplice   point!   Se  i fini di  AFI
+ sono  culturali  e  non  strettamente  e  prevalentemente  tecnici  (quali  la
+ formazione  di una rete  indipendente...)  allora  che senso  ha creare   tale
+ dualismo se, come e' vero,  i point   sono quelli  che hanno  dimostrato  piu'
+ di  tutti,  in   questo  primo  anno,   un  vero  impegno   per  lo   sviluppo
+ dell'associazione?
+
+  L'attuale regolamento  sembra essere  sulla   difensiva, nel  timore che  AFI
+ possa  'cadere'  in  balia  di   point  'assatanati  di  potere'  :-)).   Tale
+ preoccupazione  mi sembra  davvero   fuori  luogo:  a   conti  fatti  AFI,   e
+ piu'  in  generale la telematica  amatoriale,  ha  un  numero  ben   ristretto
+ di attivisti e la vera democrazia  e' partecipazione e se c'e'   una richiesta
+ in tal senso,  non  e'  con arzigogolate curvature  linguistiche regolamentari
+ che si  puo' rispondervi.   (Il fatto  che   io sia   stato eletto   e'  stato
+ grazie  alla   possibilita'  del   CD  di  passare  ad  ordinario  (e   dunque
+ eleggibile)   che  puo'   reiscriversi   (al  momento   del   rinnovo)    come
+ sostenitore,   non   essendo    piu'   sysop;   cio'    mi   fa' personalmente
+ piacere   ma non   mi soddisfa   perche' sembra   piu' frutto   di una  regola
+ 'tampone' che di una accorta filosofia di proselitismo di AFI).
+
+  Socio si  diventa non  si nasce:  e si  diventa per  libera scelta ben avendo
+ a mente le  proprie  possibilita'  di impegno.   Vedo con particolare   favore
+ dunque l'apertura  di AFI,   come soci  ordinari,   a sysop  e   point, e come
+ sostenitori,  essenzialmente,  agli   utenti.  Il   fatto  di  poter diventare
+ socio non implica, poi, che tutti  lo diventino 'di  fatto': le domande   sono
+ soggette ad  esame  e possono venir respinte  anche su  richiesta  del singolo
+ socio, come  prescrivono Statuto e regolamento.
+
+  Ed   infine   tutti   coloro   (siano   essi   anche   sysop   o  point)  che
+ vogliono contribuire,  ma   non partecipare   attivamente, potrebbero   sempre
+ scegliere  la via del socio sostenitore, liberamente.
+
+  Il  dibattito  e'  aperto,  chiariamoci  le  idee  durante  questo nuovo anno
+ sociale, e teniamole a mente per la prossima volta.
+
+
+                                                                Franco Carcillo.
+                                                                2:334/100.3
+
+ [1] AFI : Associazione Fidonet Italia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                          L'interfaccia        ###
+ ###   7  ###                                          Fossil/Fossil++      ###
+ ############                                          di Giovanni Iachello ###
+
+ Riassunto :
+        ed  ora  una  faccia  nuova  per  Telematicus! Non pero' tale nel campo
+        programmatorio.  Il   nostro  ha   scritto  anche   su  altre   riviste
+        specializzate nel settore che taccio di nominare perche' migliori della
+        nostra (migliori no, ma certamente piu' professionali!) *:) L'argomento
+        e'  estremamente  interessante:  come  usare  il  Fossil  senza   tanti
+        casini... Spero qualcuno  si decidera' a  fare finalmente un  programma
+        decente che sostituisca il Galileo!
+
+        Ho deciso di inserire  i listati a parte  per buona pace di  coloro che
+        stampano la rivista (io fra questi).
+
+ ------------------------------------------------------------------------------
+
+ 1. Introduzione
+
+  L'interfaccia Fossil  si   e' imposta  ormai   da anni  come  driver standard
+ della porta  seriale   sulle  piattaforme   PC.  Si   tratta  infatti   di  un
+ programma  (solitamente  sotto  forma  di  TSR)  che  amplia,  pur   rimanendo
+ compatibile con,  le funzioni offerte dalle  chiamate al BIOS  degli IBM PC  e
+ compatibili.   Infatti, purtroppo,  le capacita' delle routines del  BIOS sono
+ molto limitate, tanto  che testi come   il DOS  PROGRAMMER'S REFERENCE   della
+ QUE   consigliano  vivamente  di  non  utilizzare  tali  servizi  a  velocita'
+ superiori ai 2400 bit al secondo.   Il Fossil, di contro e' capace di spingere
+ la velocita' del flusso di dati fino  a 38400  bit  al  secondo,  grazie    ad
+ un  approccio  interrupt-  driven.    Ma ritorneremo su questo in seguito.
+
+  In generale, il Fossil  si occupa di tutti  gli aspetti di basso  livello per
+ il corretto  funzionamento della  seriale,   gestendo anche  lo handshake  (il
+ sistema per cui  il ricettore  avverte il  trasmittente di  fermare il  flusso
+ di  dati perche' non  riesce a  stare al  passo), sia  hardware CTS/RTS  (sono
+ due linee apposite sul  cavo che  collega PC  a modem  e anche  sul cavo  null
+ modem), sia  software   XON/XOFF   (sono   due   codici   ASCII  appositamente
+ riservati a questo scopo).    Un'altro  dei    meriti  del    Fossil  e'    di
+ aver    permesso    la standardizzazione    dei   programmi   di   BBS    e di
+ telecomunicazioni  in  generale.  Infatti,  un   tempo,  i   cloni  non  erano
+ completamente   compatibili con   i PC,  e questo   obbligava   chi   scriveva
+ programmi  di   comunicazione  a scriverne  una versione per ogni  tipo di PC.
+ Ma  anche ora, che i cloni non soffrono piu'  di problemi  di   compatibilita'
+ con  i  PC  originali,  il  Fossil  e'  utile   e necessario, in quanto, oltre
+ a facilitare  la vita a chi volesse cimentarsi  in un  semplice  programma  di
+ comunicazioni,   permette   di   sfruttare   tutte   le caratteristiche  delle
+ seriali  avanzate    semplicemente  cambiando    driver,  senza   bisogno   di
+ intervenire sul programma di comunicazioni.
+
+  Il programmatore,  quindi,  non   ha piu'   bisogno di   porsi  il   problema
+ di come accedere  alla  seriale  e di   come programmarla (e   vi assicuro che
+ non e' facile)  ma basta chiamare  le  apposite   routines del Fossil,   e  si
+ ritrova  con tutto il necessario.  Come  si  vedra'   in  seguito,  mentre  un
+ tempo  erano necessarie centinaia di  righe  di programma  in  C  o  Pascal, e
+ altrettante  in  Assembly,  ora  ne  bastano  una ventina per fare un semplice
+ terminale ANSI.
+
+ 2. Poll-Driven vs Interrupt-Driven
+
+  Si  parlava   in  precedenza    della   maggiore  velocita'   che    permette
+ l'interfaccia  Fossil  rispetto  al  BIOS:     come  mai  questa   differenza?
+ Essenzialmente, mentre  il BIOS  utilizzava un  approccio   poll-driven per la
+ gestione della  seriale, il Fossil adotta un metodo interrupt- driven.
+
+  Poll-driven  significa  praticamente  che  il  programma deve aspettare  fino
+ a quando arriva   un carattere,   sorvegliando un   flag che   indica il   suo
+ arrivo,  prelevarlo,   usarlo   e   ritornare   ad   aspettare   il   prossimo
+ carattere. Questo metodo, come si  potra' immaginare,  e' molto  inefficiente,
+ perche' il  computer  passa la maggior parte  del suo  tempo  a sorvegliare la
+ porta seriale.   Inoltre si presentano   due problemi:   sui computer   lenti,
+ si   rischia  di   perdere   un  carattere  se  si   spende  troppo  tempo   a
+ visualizzare o   ad altrimenti  usare   il carattere   appena   arrivato;  sui
+ computer   veloci   il   programma   rischia   di spendere   a  sorvegliare  i
+ caratteri  in  ingresso  una  quantita'  di  tempo sproporzionata  rispetto  a
+ quella  usata  per  compiere le altre operazioni e durante la quale   potrebbe
+ benissimo fare  altre cose.   Infine, e' chiaro  che questo  sistema  non   si
+ puo'  usare   con  un  sistema operativo multi-tasking,  perche'  il   sistema
+ operativo  puo'  e  deve  interrompere arbitrariamente il processo  che  legge
+ i  caratteri   in  entrata   e dare il  controllo agli altri  processi,  tempo
+ durante il quale si perderebbero dati su dati.
+
+  Il secondo   approccio, quello    interrupt-driven, prevede   che  l'hardware
+ della seriale  sia in  grado di  avvertire il  computer che  sono arrivati dei
+ caratteri. Allorche'  entra in  gioco il  driver Fossil  che intercetta questi
+ 'avvertimenti' (che poi in pratica sono effettuati istituendo un  IRQ 3 o 4  -
+ INT 0bh o  0ch), interrompe il processo attualmente in esecuzione,  si  attiva
+ e legge  i dati   in entrata.   Inserisce i   dati in  un buffer   e cede   il
+ controllo  al programma  che stava girando   precedente all'interruzione.    I
+ dati  in entrata   rimangono  al sicuro  nel buffer finche' qualche  programma
+ non viene a prenderli:  in   questo modo si raggiungono velocita'  molto  alte
+ senza il  rischio di perdere dati.  E il Fossil usa proprio questo approccio.
+
+ 3. Ulteriori funzioni
+
+  Il  Fossil  non  si   limita  a  gestire  le   comunicazioni  con la seriale,
+ offrendo  chiamate  per   ricevere,  trasmettere,   e  interrogare   la  porta
+ seriale. Infatti tramite il  driver  Fossil  e' possibile  scrivere  caratteri
+ sullo schermo  del terminale e leggerli dalla tastiera, impostare una funzione
+ che venga  chiamata  ogni clock tick e  infine resettare  il  sistema. A volte
+ cio' e'  necessario per alcuni programmi di BBS, se cade la linea ed essi  non
+ se ne accorgono.
+
+  In teoria  si potrebbe  scrivere   un terminale  ANSI semplicemente basandosi
+ sul Fossil, senza richiamare alcuna altra routine.
+
+ 4. Fossil++
+
+  Ed ecco  che il   programmatore C++  (io) entra   in gioco.  Recentemente  ho
+ avuto l'occasione di  dover trovare  un modo  di far  comunicare due  computer
+ su cui girava   un  gioco   3d  che   permetteva  di   muoversi e di  'vedere'
+ l'avversario (l'altro   giocatore  sull'altro   computer).  [NdE:   vedro'  di
+ riuscire a fargli cantare il nome  del gioco!] Cio'  significava collegare con
+ uno standard  cavo seriale   nullo   i   due   computer   e   di   mandare  le
+ informazioni  riguardo  a posizione-orientamento  da  un  computer   all'altro
+ e  viceversa.   Dato che il  driver Fossil e'  gia'  pronto  e funziona  bene,
+ decisi di  usarlo, ma   purtroppo le  chiamate al  driver si  devono   fare  a
+ livello di interrupt, caricando   i dati in registri e  chiamando direttamente
+ l'INT  14h.  Cio' in un bel  programma C++ stonava decisamente...
+
+  Dunque scrissi  Fossil++ che   non e'  altro che   una classe  che  racchiude
+ in forma  piu'   leggibile  e   accessibile  tutte   le  chiamate   al  driver
+ fossil. Naturalmente  e'  possibile  creare   piu'  di  una  istanza  di  tale
+ classe per gestire piu' di una porta seriale.
+
+  La   classe    e'    veramente   semplice,    anche    se  ci   sono   alcune
+ particolarita':  innzanzi  tutto,  il  controllo  se   la funzione richesta e'
+ supportata   dal driver  viene fatto  automaticamente e  quindi il pericolo di
+ richiamare invano   funzioni inesistenti non  si presenta: la  classe e' molto
+ gentile -- scarica   brutalmente l'utente al  prompt del DOS!!   Comunque,  la
+ soluzione migliore e' di  installare l'ultima   versione  del  driver   (5.0):
+ si  evita  cosi' qualsiasi problema di questo tipo.
+
+  Inoltre     le     informazioni      sul     driver      vengono    richieste
+ all'atto dell'inizializzazione  e tenute  in memoria.  Quando il  programma le
+ richiede,  la classe non le chiede piu' al driver, ma riporta quelle che  gia'
+ possiede.   Poi, grazie   ai   mitici   e   perenni   bit   records,  la  WORD
+ restituita dal driver, contente vari flags   in varie posizioni  di bit,  puo'
+ essere interrogata senza dover ricorrere a shift e trivialita' simili.
+
+  La  maggior   parte  delle   funzioni  offerte   dalla classe sono   semplici
+ 'dumb functions' il cui  scopo  e' di  facilitare la  lettura  del listato che
+ le  usa  e  di  impedire  di  passare  argomenti errati al driver. Laddove una
+ chiamata   poteva servire   per   due   cose   completamente   diverse,   l'ho
+ divisa  in  due  funzioni,  sempre  per   comodita'.  Il  costruttore verifica
+ automaticamente che  il driver sia  installato  e funzionante,  e  inizializza
+ il driver   (questa operazione e'  indispensabile  per   ogni  porta   seriale
+ gestita  dal  Fossil),  mentre   il distruttore automaticamente  deinizializza
+ (che    terribili   parola!)    il   driver,   anche   questa    un'operazione
+ indispensabile  per il  corretto funzionamento  del driver.
+
+ 5. Conclusione
+
+  Finora ho  chiarito il  motivo primario   per cui  ho scritto  questa  classe
+ e questo  articoletto, e  cioe' per  fornire un'accesso  facile e  semplice al
+ Fossil da programmi scritti in C++. Ma questa classe dimostra anche come  ogni
+ aspetto del  SO   possa  essere   OOPizzato:   scrivere   un programma  object
+ oriented non significa necessariamente sfruttare tutti gli orpelli del C++  (e
+ gia' molti  si lamentano  del  C++   come  di  un   linguaggio  eccessivamente
+ complicato   e pesante...);  e  nemmeno bisogna   usare il  C++ o   l'OOPascal
+ per  moda; ma  una volta che si sceglie di usare un particolare linguaggio per
+ un certo   progetto, bisogna  rimanere coerenti   con tale  scelta:   cio'  e'
+ particolarmente  difficile  con  il   C++,  perche'   si  tende   a   ricadere
+ sempre  nel  C  per gli aspetti secondari, come potrebbe esserlo l'interfaccia
+ Fossil.
+
+  E' quindi inutile scrivere  in C++  quando non  e' necessario, ma quando   lo
+ si sceglie, e' bene  usarlo dappertutto e per  tutto:  concettualmente il  C++
+ vuole oggetti chiusi che si occupano  di una determinata cosa: Fossil++ e'  un
+ oggetto chiuso che si occupa della seriale.
+
+  E  se  un   giorno  dovremo  usare   un'altra  interfaccia di  gestione della
+ seriale  o,  metti,  una  DLL   di  Windows,  bastera' derivare  una classe da
+ FossilDriver   e  tutti   i   programmi  scritti    per  usare    FossilDriver
+ funzioneranno  anche con la nuova interfaccia.
+
+  A questo punto  si  ritorna  al punto di   prima: gli orpelli  del  C++:  "se
+ conti di implementare classi derivate  che  usano drivers diversi  dal Fossil,
+ perche' non  hai usato  funzioni virtuali  [1] ?"  potrebbe chiedere qualcuno.
+ Perche'   in   questo   caso,    finche'    tale   estensione    non    verra'
+ implementata, le  funzioni virtuali  sono perfettamente  inutili e  aggiungono
+ solo overhead.
+
+  Eventuali esensioni: una  pazza idea che   mi e' venuta  a questa tarda   ora
+ e' che sarebbe bello  trasformare FossilDriver in  uno iostream standard   del
+ C++, permettendo tutte le follie degli streams, come l'uso degli operatori  <<
+ e  >>, e di tutte le altre funzioni.
+
+                CHI SI CANDIDA PER FARLO?
+
+
+                                                        Giovanni.For
+                                                        Fido 2:333/408.13
+
+
+ [1] funzioni virtuali:
+     per chi e'   a digiuno di   C++, le funzioni   virtuali, in poche   parole
+     sono funzioni che si possono comportare  in modo diverso a seconda   della
+     classe in  riferimento   della quale   sono chiamate.    Per  esempio,  se
+     abbiamo  una  classe  Mammifero   che  ha   una  funzione   che  da'   una
+     descrizione di  tale essere,  e   da questa   classe deriviamo   Uomo,  la
+     descrizione di  Uomo deve essere diversa da quella di Mammifero, e  quindi
+     e' necessaria una  funzione  virtuale per diversificare il   comportamento
+     della classe in  risposta alla medesima richiesta.   Se non  avete  capito
+     nulla... non  preoccupatevi  -- neanch'io ho capito. :-)
+
+
+ Bibliografia:
+
+
+        DOS  Programmer's   Reference,  2nd   Ed.,  Terry  Dettmann, QUE,  1989
+        ISBN 0-88022-458-4
+
+        Fundamentals   of   FOSSIL   implementation   and   use,   Version   5,
+        Fossil Function   Chart,  Version   5,  Feb   11  1988,   Rick   Moore,
+        Solar  Wind Computing 1:115/333
+
+ Listato:
+
+        come annunciato nel riassunto il listato completo che comprende i files
+        fossil.hpp, fossil.cpp, fosstest.cpp e' riportato nell'archivio assieme
+        a Telematicus028.ZIP col nome  di Fossil.ZIP. Comunque riporto  qui, un
+        po' modificato per l'impaginazione il fosstes.cpp.
+
+        Come mi ha detto il Giovanni:
+                " il listato e' completamente PD... (sono buono!) :-)"
+
+        I listati sono i revisionati della versione 1.1.
+
+ 8=---------------------cut---------file fosstest.cpp---------------------------
+
+ /******************************************************************************
+
+ FossilDriver com1(COM1):
+                        V 1.1
+                        by Giovanni Iachello (PD)
+                           2:333/408.13
+
+ all'atto di istanziazione di com1, il driver viene automaticamente
+ inizializzato e controllato.
+
+ terminale ansi in 20 righe!!!!
+
+ attenzione, di solito il Fossil fornisce l'ANSI solo se e' caricato
+                                ANSI.SYS
+ questo programmino puo' essere usato tranquillamente per comunicare fra 2 pc
+ via cavo null-modem  o con il vostro modem/BBS preferita...
+
+ ******************************************************************************/
+
+ #include "fossil.hpp"
+
+ void main(void)
+ {
+      com1.EnableCTSRTS();       // attiva l'handshake CTS/RTS
+                                 // (non vogliamo trivalita' XON/XOFF :-) )
+      com1.SetBaudRate(BR4800);  // 4800 baud (ma chi ha un modem a 4800?!?!)
+      StatusBits x=com1.StatusRequest();
+                                 // richiesta di flag di stato
+
+      printf("Fossil Driver C++ Implementation Demo\n");
+      printf("%Fs\n",com1.GetDriverInfo().ID);
+                              // stampa la stringa di riconoscimento del driver
+
+      printf("Timer Int: %d \nTicks per sec: %d   Milliseconds per tick: %d\n",
+                com1.GetTimerIntNo(),com1.GetTicksXSec(),com1.GetMsXTick());
+                              // e vari altri dati
+
+        printf("NULLCD=%d,DCD=%d,RDA=%d,OVRN=%d,THRE=%d,TSRE=%d\n",
+                x.NULLCD,x.DCD,x.RDA,x.OVRN,x.THRE,x.TSRE);
+
+        com1.PurgeInputBuffer();    // pulisce buffers del fossil : ottima
+        com1.PurgeOutputBuffer();   // abitudine. Ve lo assicuro!!
+
+        do
+        {
+            if (com1.IsKeybChar()) com1.TxCharNoWait(com1.ReadKeybWait());
+                                    // trasmetti tastiera
+            if (com1.IsInChar()) com1.WriteAnsiChar(com1.RxCharWait());
+                                    // visulizza seriale
+        } while (c!=1);
+ }
+
+ 8=---------------------cut---------file fosstest.cpp---------------------------
+
+
+
+ ############                                                               ###
+ ###   8  ###                                                ASPEN          ###
+ ############                                                di Teodoro Lio ###
+
+ Riassunto :
+        cosa dire... un  altro numero di  Telematicus (sotto la  mia direzione)
+        pieno di firme si prestigiose non potra' piu' ripetersi! Signori, e' la
+        *crema* del 334 che ci introduce nel mondo della standardizzazione  dei
+        data base sotto l'egida di ASPEN!
+
+        Detto fra noi, io appartengo alla schiera dei beati.
+
+ -------------------------------------------------------------------------------
+
+ Qualcosa si muove nel mondo xBase!
+ Visual Objects for Windows alias Aspen.
+
+  Se neppure sapete cos'e` il mondo xBase, ragazzi, che dirvi... Beati voi!  Se
+ invece avete avuto il piacere (o la sfortuna?) di trovarvi a lavorare con  uno
+ dei  prodotti  (sono  davvero  una  miriade)  derivati  dal mitico dBase della
+ Ashton-Tate,  vi  sentirete  sollevati  nel  sapere che anche l'ANSI (American
+ National Standard Institute  o qualcosa del  genere, comunque il  comitato che
+ stabilisce gli standard  di tutto) ha  riconosciuto ai vari  dialetti xBase la
+ dignita` di linguaggi  di programmazione e  ha varato un  comitato apposito in
+ cui i  publisher dei  prodotti collegati  a questo  mondo si stanno azzuffando
+ (pardon,  stanno   civilmente  accordandosi)   per  stabilire   uno   standard
+ riconosciuto  da  tutti  nell'ambito  dei  linguaggi utilizzati per accedere a
+ database di tipo dbf.
+
+  Ora, questa sarebbe una grande  notizia, ma, al solito, gli  standard passano
+ il  tempo  a  correre  dietro  al  "real  world":  adesso  come adesso, appare
+ difficile  creare  un'applicazione  funzionale  e  commercialmente accettabile
+ utilizzando esclusivamente caratteristiche comuni ai vari prodotti e  comunque
+ standardizzabili.  Anzi,  le  aziende  leader  nel settore, stanno spingendo i
+ rispettivi prodotti su binari  sempre piu` divergenti, ognuna  nell'intento di
+ offrire maggior produttivita` agli utilizzatori dei propri prodotti (e di  far
+ fuori la concorrenza, soprattutto).
+
+  In questo contesto, poi, si inserisce la migrazione in atto verso le GUIs, in
+ particolare  verso  Windows  (o  Windog  che  dir  si  voglia): tutti vogliono
+ applicazioni Win,  gli utenti  perche` queste  sono   piu` belle  e facili  da
+ usare,  i  rivenditori  di  hardware  perche`  sono  lente  e  gigantesche,  i
+ commerciali perche` hanno listini molto piu` alti... Insomma, tutti ce l'hanno
+ con i poveri programmatori, che devono imparare a sviluppare sotto Windows. Il
+ discorso vale  in generale,  ma ovviamente  e` molto  sentito nel mondo xBase,
+ dove il front-end ha un'importanza vitale per l'efficacia dell'applicazione.
+
+  Finora, per programmare sotto Windows c'erano pochi strumenti: essenzialmente
+ il  C(++),  il  Pascal  e  i  vari  Basic,  con relative librerie. Per gestire
+ database, non saprei dire quale sia il meno adatto: il C++ andrebbe benissimo,
+ ma con tools OO  adeguati; il Pascal non  lo conosco (:-)); il  VisualBasic e`
+ adatto per  progetti di  dimensioni limitate.  Ma nessuno  di questi  prodotti
+ raggiungera`  mai  la  facilita`  di  utilizzo  di un Clipper, che permette di
+ creare un programma in maniera rapidissima.
+
+  Ora, alcuni nuovi prodotti stanno uscendo per aiutare il povero programmatore
+ xBase  a  soddisfare  tutta  sta  gente  che  vuole Windows: tra i principali,
+ sicuramente Paradox per Windows (Borland)  e il prodotto di CA  (ex Nantucket)
+ Visual Object alias Aspen alias Clipper per Windows. Di Paradox x Windows  non
+ sto a parlarvi, tanto  a quest'ora e` gia`  in vendita e saprete  tutti quello
+ che fa e come. Se non lo sapete, lo vendono a meno di 300klire, quindi...
+
+  VO (mica tutte le volte scrivo una riga di nome!) invece, come prodotto,  non
+ esiste ancora. Annunciato anni ed anni fa da Nantucket, famosa per  consegnare
+ i suoi prodotti con almeno 2*n anni di ritardo, dove n e` il tempo di sviluppo
+ previsto, e` poi stato rilevato da Computer Associates insieme a tutta la roba
+ Clipper.  Lo  sviluppo  iniziale  e`  stato  quantomeno  atipico, in quanto il
+ progetto Aspen e` partito dai tecnici della filiale tedesca di Nantucket,  che
+ lo  hanno  creato  indipendentemente  dalla  casa  madre,  senza neppure avere
+ accesso al  codice di  Clipper. Questo  per darvi  un'idea dell'organizzazione
+ interna di Nantucket,  una company "divertente",  che ha affidato  lo sviluppo
+ della  versione  5.x  di  Clipper  ad  una  societa` esterna di consulenze, di
+ proprieta` del buon Brian Russell (capo programmatore in Nan)... Pazzesco!!
+
+  Comunque,  quello  che  conta  e`  che  ora  VO  esiste, e` in versione alpha
+ (dovrebbero  uscire  in  questi  giorni  le  beta)  e,  una volta terminato il
+ beta-testing, dovrebbe arrivare alla vendita  entro la fine dell'anno. In  una
+ recente conferenza di presentazione della strategia xBase di CA, ho avuto modo
+ (insieme ad un altro migliaio di sviluppatori Clipper) di esaminare  l'attuale
+ alpha-release  di  Aspen.  A  illustrare  VO  c'era  Alan  Davies, del team di
+ sviluppo di VO, gia` programmatore  in Nantucket, chiaro e abbastanza  sincero
+ nell'ammettere i limiti attuali  del prodotto (a dir  la verita` ha provato  a
+ dar la colpa a Windows per l'inchiodamento del debugger durante la demo, ma e`
+ troppo  facile  sparare  sulla  croce  rossa...  :-))  [NdE:  c'e' comunque da
+ credergli!]
+
+  Vediamo innanzitutto cosa  e` VO: chi  conosce solo Clipper  come linguaggio,
+ rimarra` sconvolto:  non e`  certo un  compilatore a  command-line, anzi:  e`,
+ finalmente, un vero ambiente integrato  per la produzione di applicazioni,  in
+ cui scompare  la distinzione  tra dati  e procedure.  VO e`  costituito da  un
+ repository  che  contiene  gli  oggetti  relativi all'applicazione, siano essi
+ dati, funzioni, forms...
+
+  Una delle caratteristiche  piu` importanti di  VO, come avrete  avuto modo di
+ intuire, e`  proprio la  object-orientation: la  filosofia di  base e`  quella
+ della OOP, che e` sicuramente lo state-of-the-art della programmazione e  che,
+ IMHO, merita realmente il clamore che  sta suscitando. OOP in Aspen vuol  dire
+ molto piu` che  le 4 classi  introdotte da Nantucket  in Clipper 5:  vuol dire
+ rendere  ogni  modulo  del  programma  un  oggetto,  su  cui  agiscono  i vari
+ methods...  Non  sto  a  spiegarvi  i  principi  della  OOA (Aspen supportera`
+ ovviamente  inheritance,  polymorphism  ed   encapsulation),  ma  quello   che
+ interessa e`  che vengono  (verranno, al  momento non  le hanno  fatte vedere)
+ fornite  classi  per  l'accesso  alle  GUIs,  classi  per  i  database, classi
+ application, etc etc.  Fondamentale, in proposito, ricordare che CA ha  appena
+ comprato Glockenspiel  e conta  di inserire  la tecnologia  CommonView (ottima
+ libreria C++ di interfaccia utente, portabile su innumerevoli piattaforme)  in
+ Aspen/VO!
+
+  Venendo a  livello molto  pratico, Aspen  si presenta  come una delle tipiche
+ applicazioni  Windows  a  livello  di  look&feel,  e sembra molto ben curata a
+ livello di interfaccia utente.  Tutto e` integrato nell'IDE  grafica: l'editor
+ per  i  programmi  (che  viene  richiamato clickando sull'oggetto funzione nel
+ repository), il resource  editor, il debugger  (per la verita`  ancora mooolto
+ poco stabile...), un ottimo project manager che consente anche di  ottimizzare
+ il  lavoro  in  workgroups,  e  ovviamente  il  compilatore.  Alcune soluzioni
+ adottate  per  la  struttura  del  repository  sono  veramente  ammirevoli   e
+ innovative [ma come  faccio a descrivervele  su righe di  70 colonne? Uff...].
+ [NdE: si possono fare piu' articoli! *:) ]
+
+  Parlando  del  compilatore  vero  e  proprio,  ci  sono  alcune  novita`  che
+ attendevamo da anni:  finalmente  c'e` la possibilita` di avere  un linguaggio
+ strong-typed (alla C, con dichiarazione del tipo delle variabili) che permette
+ di raggiungere velocita` superiori di diversi ordini di grandezza al Clipper e
+ paragonabili  a  quelle  di  un  programma  C,  oltre a consentire una maggior
+ razionalizzazione del codice. Peccato  solo per la scelta  della dichiarazione
+ alla  Visual  Basic  (local  nNumber  as  int).  Lo  strong-typing permette di
+ eliminare il  famigerato p-code  contenuto all'interno  dei programmi Clipper:
+ avremo  veri  eseguibili  compilati,  non  interpretati  a  runtime!  C'e`  da
+ sottolineare  che  questa  feature  e`  comunque  opzionale e non impedisce al
+ programmatore di fare i suoi casini con variabili non dichiarate, al prezzo di
+ ovvie penalizzazioni a runtime.
+
+  Sempre a livello di compilatore, vengono supportati nuovi tipi di dati, quali
+ le strutture e i puntatori (anche  qui la derivazione dal C e`  evidente), che
+ permetteranno ai piu` esperti di  fare praticamente tutto in VO!  Eccezionale,
+ poi, la caratteristica di incremental compiling: quando si preme il bottone di
+ Make dell'applicazione, il repository stesso e` in grado di determinare  quali
+ funzioni  (si,  funzioni,  non  .PRG!!)  sono  state  variate e di ricompilare
+ soltanto quelle!!
+
+  Un altro aspetto che sicuramente vi  interessera` e che ho tenuto in  sospeso
+ finora e`  la compatibilita`  con Clipper  5.x: la  questione e` complessa. In
+ realta` Aspen permette di compilare tutto (o quasi) il codice esistente  senza
+ alcuna modifica.  Il brutto  e` il  risultato: l'applicazione  prodotta e` una
+ applicazione che e` si` real-Windows-app, ma  che in realta` non e` altro  che
+ una finestra 80x25 di system-font in  cui il programma ha lo stesso  look&feel
+ dell'equivalente  Dos.  Praticamente  non  serve  a  nulla,  se  non a offrire
+ risultati rapidi per un commerciale  impaziente. Del resto, era ovvio  che non
+ si potessero  portare i  programmi direttamente,  perche` e`  l'interfaccia di
+ Windows ad  essere profondamente  diversa da  quella Dos:  nessuno vorrebbe un
+ programma Win che abbia l'aspetto di  uno Dos! I programmi sotto Windows  sono
+ sviluppati secondo  l'architettura event-driven,  mentre in  Dos si  lavora in
+ maniera  procedurale-sequenziale:  impossibile  conciliare  i  due mondi in un
+ programma  solo.  Rimane  comunque  positivo  il  fatto che abbiano salvato la
+ compatibilita`  a  livello  di  funzioni  e  comandi,  in maniera da agevolare
+ enormemente  il  porting  delle  applicazioni.  Questa sara` probabilmente una
+ carta vincente soprattutto sul piano commerciale...
+
+  Ho lasciato per ultimo le solite promesse fatte sul futuro del prodotto:  VO,
+ a sentire CA,  supportera` tutte le  GUIs (a breve  Os/2 e Motif)  permettendo
+ portabilita` completa del codice; permettera` accesso a dati di tutti i  tipi,
+ da dbf a Sql; csara` compatibile con  le IDAPI e con ODBC; potra` lavorare  in
+ modalita` client-server, sara`  conforme allo standard  Ansi xBase (che  manco
+ esiste ancora)... Insomma, le solite promesse per il futuro remoto, in  attesa
+ di vedere se questa versione avra` il successo sperato. Tra tutte le mirabilie
+ elencate, quella che sembra di piu` probabile attuazione nel breve periodo  e`
+ la  portabilita`  su  altre  piattaforme,  favorita dall'utilizzo delle classi
+ CommonView.
+
+  Boh,  adesso  non  ci  rimane  altro  che  stare  ad  aspettare, sperando che
+ realizzino  un  buon  prodotto,  che  permetta  uno sviluppo semplice e rapido
+ (Clipper e` insuperabile per queste  cose sotto Dos), senza pero`  limitare le
+ possibilita` di scendere a basso livello. Ah, se volete diventare  beta-tester
+ di Aspen, potete richiederlo alla CA (il form e` in linea su molte BBS, se non
+ lo  trovate  matrixate  pure  a  me)!  Unico  piccolo particolare e` che tra i
+ requisiti e` richiesto  l'accesso a Compu$erve,  ma se avete  la possibilita`,
+ potrebbe valerne la pena...
+
+
+
+                                                        Teodoro Lio
+                                                        2:334/108.10
+                                                        2:334/104.10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   9  ###                                           Il gergo telematico ###
+ ############                                           di Maurizio Codogno ###
+
+ Riassunto :
+        ecco a voi l'ottimo .mau. con un'altra strepitosa trovata. Non pago  di
+        tradurre, per  la gioia  di noi  tutti, in  modo cosi' professionale il
+        gergo hacker internazionale, sta  facendo un pensierino su  quello piu'
+        propriamente "made in italy". Inutile raccomandarvi di inviare il lemma
+        piu' descrizione che conoscete e non avete trovato in elenco...
+
+ -------------------------------------------------------------------------------
+
+  In Italia, la parola "hacker" e` associata dalla gente comune a ragazzini che
+ come nel film "Wargames"  si inseriscono nei calcolatori  dell'esercito, delle
+ banche  o  delle  grandi  societa`  per  distruggere  i  dati contenuti oppure
+ modificarli a  proprio piacimento.  Questo non  e` affatto  vero: per  la gran
+ parte  della  sparuta  minoranza  di  persone  che  nel  nostro  Paese  usa  i
+ calcolatori in  maniera non  completamente passiva,  il significato  di quella
+ parola e` diversissimo, e non puo` certo essere spiegato in poche righe.
+
+  Anche negli Stati  Uniti il problema  e` sentito: in  coerenza col fatto  che
+ una  caratteristica  di  chi  e`  veramente  appassionato  dei  calcolatori e`
+ quella  di  contribuire  il   piu`  possibile  a  diffondere   l'informazione,
+ esiste un  gigantesco file  (piu` di  un megabyte,  l'equivalente di 250 fogli
+ dattiloscritti fitti)  in formato  di vocabolario  dove sono  raccolti tutti i
+ termini gergali nati  in tale ambiente,  e tra le  righe si puo`  capire quale
+ veramente sia la cultura hackeristica.
+
+  Pure noi italiani abbiamo  nel nostro piccolo un  insieme di voci che  non si
+ trovano nei  dizionari, o  non col  significato richiesto;  spesso sono calchi
+ dall'inglese,  ma  certe  volte  hanno  pieno  diritto  di  cittadinanza   nel
+ lessico  della  nostra   lingua.  In  una   delle  mie  periodiche   crisi  di
+ identita`, mi  sono detto  "perche` non  mi metto  a raccogliere  le voci  per
+ una  vera  versione  italiana  del  gergo  hacker?". Tutto questo due anni fa.
+ L'idea  era  morta  prima  di  nascere,  ma  adesso  ho pensato che in fin dei
+ conti  basta  scegliere  un  approccio  piu`  pragmatico e raccogliere le voci
+ "strane"  man  mano  che  mi  vengono  in  mente,  sperando  prima  o  poi  di
+ raggiungere  una  massa  sufficientemente  critica  perche` il tutto meriti la
+ pubblicazione.
+
+  E` cominciata  cosi` la  raccolta il  piu` possibile  ampia di  tale voci; la
+ fonte principale e`  data dai termini  in uso nel  mondo telematico, ma  molte
+ voci  sono  piu`  genericamente  informatiche  o  addirittura ingegneristiche.
+ Come  idea  personale,  preferisco  i  termini  italiani  a  quelli  inglesi o
+ "italiesi",  non  tanto  per  sciovinismo  quanto come espressione piu` vivace
+ dell'inventiva  della  gente.  E`  chiaro  che  non arrivo a dire schedario al
+ posto di  file, ma  penso che  sia anche  naturale dire  che un  programma sta
+ girando, piuttosto che runnando o rannando che dir si voglia, no?
+
+  Per  dare  un'idea  della  scarsa  serieta`  che  pervade le definizioni - il
+ lavoro e`  serio, ma  non deve  certo essere  sempre serioso  - eccovi  alcuni
+ esempi:
+
+         ================================================================
+
+ :appeso: agg. -  1. Detto di  processo che rimane  in attesa indefinita  di un
+ evento che  non si  verifichera` (cfr.  {stoppare}: un  processo stoppato puo`
+ continuare   quando   vogliamo,   un   processo   appeso   no).   -   2.  Piu`
+ specificamente,  una  chiamata  via  modem  rimane  appesa  quando  il   modem
+ remoto non  da` alcun  segno di  vita e  l'unica soluzione  e` buttare giu` la
+ linea.
+
+ :bomba,  andare  in:  loc.  -  Nei  Macintosh, il {piantarsi} di un programma,
+ raffigurato da  una finestra  con una  bomba e  la scritta  "Si e`  verificato
+ un  errore  di   sistema".  L'unica  soluzione   e`  quella  di   spegnere   e
+ riaccendere il  calcolatore. Meno  usata ultimamente,  visto che  il System  7
+ permette di proseguire le operazioni con  gli altri task anche se uno  termina
+ in maniera anormale. Vedi anche {guru meditation}.
+
+ :grafica ASCII:  sf. -  I "disegni  dei poveri"  creati con  grande spreco  di
+ tempo  (oppure  programmini  appositi...)  da   alcune  persone  che  non   si
+ vogliono  rassegnare  al  fatto  che  la  tecnologia  attuale  non permette di
+ spedire  via   modem  e   visualizzare   sul   terminale  tutto   quello   che
+ vorrebbero, e  cercano di  approssimarlo il  piu` possibile.  Esiste anche  la
+ variante _grafica  ANSI_, che  permette anche  di usare  i codici  semigrafici
+ a  8  bit  del  set  di  caratteri  PC-ANSI  e  le sequenze di escape ANSI per
+ cambiare il colore o posizionare il cursore.
+
+ :piantarsi: vr.  - Di  un programma,  bloccarsi. La  terminazione puo`  essere
+ visibile  (viene  emesso  un  codice  di  errore  e  ritorna  il  {prompt}  di
+ sistema) oppure invisibile (il programma continua a {girare} all'infinito).
+
+ :sysop: /s`isop,  s`aisop/ sm.  inv. -  Chi gestisce  un {BBS}.  Di solito  un
+ appassionato  che  sa  perfettamente  di  perdere  soldi e guadagnarci dei mal
+ di  pancia,  ma  che  dice  che  tanto  un  qualunque  hobby e` una perdita di
+ soldi; piu`  raramente, qualcuno  che pensa  che potrebbe  farci su  dei soldi
+ e  prima  o  poi  si  accorge  che  in  realta`  ci  sta  perdendo. Vedi anche
+ {sysoppo}.
+
+ :uindous: sm. inv.  - Windows (*non*  X-Window, ma la  versione Microsoft). Da
+ pronunciare con  ogni U  marcata moltissimo.  Anche nella  forma _uindous  for
+ uorgroup_, pronunciata come si scrive.
+
+         ================================================================
+
+  Naturalmente  l'opera  e`  lungi  dall'essere  completa, anzi e` proprio agli
+ inizi. Al  momento in  cui scrivo  (il 20  marzo) sono  arrivato alla versione
+ 0.20, con una novantina  di lemmi e 35K  circa di dimensione: per  la cronaca,
+ e per chi vuole scoprire quante ne conosce, le voci citate sono
+
+ :Persone  -  :Stile  di  scrittura  -  amigo  -  aplodare  -  appeso  - baco -
+ badalicco - BBS - bibbia  - blinkare - bomba, andare  in - ciattare - cio`  e`
+ Male - clone  - computer -  crittare - D'bug  - decrittare -  dinosauro - door
+ - dossista - dosso -  e` satto - egagro -  external - faccina - fare  anche il
+ caffe` - femmina,  calcolatore - fermaporte  - flaggare -  floppino - frullare
+ -  fustone  -  gente  con  un  dito  solo  - giffare - giocattolone - girare -
+ goldone - grafica  ASCII - Guida,  la - guru  meditation - Herpes  - killare -
+ limare  -  loccare  -  Marcintosh  -  mettere  in  linea  -  mezzocomputer   -
+ Microscrof  -  osso/2  -  paperino  -  patch  - patchare - piantarsi - pippo -
+ pluto  -  point  -  pollare  -  problema  hardware  -  prompt  -  puppatore  -
+ quagliare  -  qualitone  -  quotare  -  RAM  -  randomizzare  -  resettare   -
+ rilasciare - ROFL! -  sanguisuga - scannare -  scheda - schermata -  scrollare
+ - settare -  shiftare - stoppare  - Sturmtruppen -  sysop - sysoppo  - taccone
+ - toppa  - tre  dita magiche  - uccidere  - uindous  - uppare  - vampiration -
+ videata - WC-DOS - zippare.
+
+  Il testo completo  e` gia` circolato  tra i miei  amici che mi  hanno fornito
+ i  primi  feedback,  ma  la  strada  per  raggiungere  i  100  K  (il   minimo
+ indispensabile  per  potere  mettere  in  linea  la  versione  1.00) e` ancora
+ lunga. Bene, caro  lettore, perche` non  ti segni da  qualche parte i  termini
+ che secondo  te avrebbero  pieno diritto  di cittadinanza  in questo lessico e
+ me  li  spedisci  via  matrix?  Piu`   voci  ci  saranno,  piu`  sara`   bello
+ consultare il file!   Dimenticavo: naturalmente le  versioni elettroniche  del
+ "gergo" saranno  sempre freeware.  Non sto  certo raccogliendo  il tutto nella
+ vana speranza di fare qualche soldo...
+                                                    .mau.
+
+                                        Fidonet : 2:334/100.5
+                                                  2:332/407.909
+                                        Internet: mau@beatles.cselt.stet.it
+
+ ############                                                               ###
+ ###  10  ###                                   IL GERGO HACKER - PARTE 23  ###
+ ############                                   Eric S. Raymond             ###
+
+ Riassunto:
+        eccoci al puntuale appuntamento, sempre del supermega .mau. :) Prosegue
+        la lettera H... Tra l'altro e' una delle rubriche piu' apprezzate.
+
+ -------------------------------------------------------------------------------
+
+ <HCF> /acca-ci-effe/ s. Mnemonico per "Halt and Catch Fire" [fermati e  prendi
+ fuoco],  una  qualunque  delle  diverse  istruzioni macchina non documentate e
+ semimitiche con effetti distruttivi, incluse probabilmente per motivi di  test
+ su  diverse  ben   note  architetture,  fin   dai  tempi  dell'IBM   360.   Il
+ microprocessore MC6800 e` stato  il primo per cui  il codice HCF e`  diventato
+ noto. Questa  istruzione faceva  si` che  il processore  cambiasse di stato un
+ sottoinsieme delle  linee del  bus il  piu` velocemente  possibile; in  alcune
+ configurazioni, cio` poteva di fatto bruciare le linee stesse.
+
+ <heads down> [Sun:  a testa in  giu`] agg. Concentrati,  di solito in  maniera
+ cosi` fissa e per  tanto tempo da perdere  ogni nozione al di  fuori dell'area
+ focalizzata. Vedi anche <larval stage>, anche se non e` confinata agli  hacker
+ implumi.
+
+ <heartbeat> [battito cardiaco]  s. 1. Il  segnale principale di  clock mandato
+ attraverso Ethernet; per estensione, il segnale di sincronizzazione  temporale
+ al livello fisico di ogni  network. 2. L'oscillazione di frequenza  `naturale'
+ di un cristallo di clock di un calcolatore, prima delle divisioni di frequenza
+ al  clock  della  macchina.  3.  Un  segnale  emesso a intervalli regolari dal
+ software per dimostrare che e` ancora vivo. Opp. <ping>.
+
+ <heavy wizardry> [alta stregoneria] s. Codice o progetti che si basano su  una
+ conoscenza  particolarmente  intima  o  esperienza  di  un particolare sistema
+ operativo o linguaggio o interfaccia applicativa complessa. Distinto da  <deep
+ magic> [magia  profonda], che  si basa  piu` su  conoscenza arcana  *teorica*.
+ Scrivere device  drivers e`  h.w., cosi`  come interfacciarsi  a X  (sign. #2)
+ senza  toolkit.  Spec.  trovato  in  commenti  del tipo "Heavy wizardry begins
+ here..." [L'alta stregoneria comincia qui]. Confr. <voodoo programming>.
+
+ <heisenbug> /hie'sen-buhg/  [dal Principio  di Indeterminazione  di Heisenberg
+ nella  fisica  quantistica]  s.  Un  baco   che  scompare  o  cambia  il   suo
+ comportamento quando di tenta di sondarlo o isolarlo. Antonimo di <Bohr  bug>.
+ In C, 9 h. su 10 risultano o da fenomeni di puntatori impazziti (spec. perdite
+ relative  alla  corruzione  della  <arena>  delle  malloc)  o  da  errori  che
+ "fracassano lo stack" (v. <smash the stack>).
+
+ <hello sailor>!  [ciao marinaio!]  inter. Equivalente  occasionale nella  West
+ Coast di <hello, world!>; sembra  essere originaria dal SAIL, e  associata poi
+ col gioco <Zork> (che include anche "hello aviator" e "hello implementor").
+
+ <hello wall!> escl. Vedi <wall>.
+
+ <hello  world!>  [lett.  "ciao  mondo":  meglio  "ciao,  tutti!"] inter. 1. Il
+ canonico (v. <canonical>) messaggio  minimo di test nell'universo  C/UNIX. Nel
+ folklore, il primo programma che si suppone che un codificatore C scriva in un
+ nuovo  ambiente  e`  quello  che  scrive  semplicemente  "hello, world!" sullo
+ standard output. Ambienti che  generano un eseguibile irragionevolmente  ampio
+ per  questo  test   banale,  o  che   richiedono  un'invocazione  <hairy>   al
+ compilatore/linker per  generarlo, sono  considerati perdenti  (v. <lose>). 2.
+ Saluto di un hacker che entra, o che chiede informazioni da uno qualunque  dei
+ presenti. "Ciao, tutti! Il <VAX> e` gia` su?"
+
+ <hidden flag> [flag nascosto, dal  calcolo scientifico] s. Un'opzione in  piu`
+ aggiunta a  una routine  senza cambiare  la sequenza  di chiamata. Ad esempio,
+ invece di  aggiungere una  variabile esplicita  di input  per far  si` che una
+ routine  dia   dell'input  diagnostico   in  piu`,   il  programmatore    puo`
+ semplicemente  aggiungere  un  test  per  una  caratteristica altrimenti senza
+ significato dell'input  esistente, come  una massa  negativa. L'abuso  di h.f.
+ puo` rendere un programma molto difficile da debuggare e capire.
+
+ <high bit> [bit alto]  s. 1. Vedi <meta  bit>. Anche col significato  di parte
+ piu` significante di qualcosa che non  sia un byte di dati, come  "Risparmiami
+ tutta la storia, dammi solo l'h.b.".
+
+ <high moby> /hie mohb'ee/ [da Moby  Dick]. Il bit alto dello spazio  indirizzi
+ di un <PDP-10>; l'altra  meta` era naturalmente il  "low moby". Questo uso  e`
+ stato generalizzato in un modo che e` sopravvissuto ai <PDP-10>; per  esempio,
+ al Conclave fantascientifico di Washington del 1990 (DISCLAVE), quando a causa
+ di  problemi  di  comunicazione  risulto`  in  due  veglie  separate  per   la
+ commemorazione della chiusura dell'ultima  macchina <ITS> dell'MIT, quello  al
+ piano superiore e` stato chiamato l'h.m.  e l'altro il low moby. Tutti  coloro
+ che presero parte groccarono istantaneamente cio`. Vedi <moby>.
+
+ <highly> [altamente: dal calcolo  scientifico] avv. Il modificatore  preferito
+ per gonfiare  un understatement  [NdT: l'equivalente  della litote].  Come in:
+ "altamente  nonottimale",  il  modo  peggiore  per  fare  qualcosa; "altamente
+ nonbanale", impossibile oppure che richiede un progetto di ricerca importante;
+ "altamente  nonlineare",  completamente  erratico  e imprevedibile; "altamente
+ nontecnico", sciocchezze scritte per <luser>, semplificate al punto di  essere
+ scorrette o dare  idee errate (confr.  <drool-proof paper>). In  altre culture
+ informatiche, viene preferita l'aggiunte di <in the extreme> (all'estremo).
+
+ <HLL> /aych-el-el/ s. High-Level Language [linguaggio ad alto livello, opposto
+ all'assembler]. Trovato principalmente nella  posta elettronica e nelle  news,
+ piuttosto che nel parlato. Raramente sono trovate le varianti `VHLL' e  `MLL'.
+ VHLL, (Very-High-Level Language,  linguaggio a livello  molto alto), e`  usato
+ per descrivere un <bondage-and-discipline  language> che lo scrivente  ama; il
+ Prolog e l'FP  di Backus sono  spesso detti VHLL.  MLL (Medium-Level Language,
+ linguaggio a livello medio) e` usato alle volte per scherzo per descrivere  il
+ C,  alludendo  alla  sua  immagine  di  `assembler  strutturato'.  Vedi  anche
+ <languages of choice>.
+
+ <hog> [porco] s.,vt. Termine preferito per descrivere programmi o hardware che
+ sembrano utilizzare molto  piu` della loro  quota teorica delle  risorse di un
+ sistema, sp.  quelli che  degradano notabilmente  la risposta  generale di  un
+ sistema  a  timesharing.  *Non*  usato  di  programmi  che  sono semplicemente
+ estremamente grandi e complessi, o  che sono soltanto terribilmente lenti  (v.
+ <pig, run like a>). Incontrato quasi sempre in forme qualificate, tipo "memory
+ hog"  (memoria),  "core  hog"  (memoria  centrale),  "hog  the  processor" (il
+ processore),  "hog  the  disk"  (il  disco).  Esempio:  "Un controller che non
+ rilascia mai il bus I/O viene ucciso dopo che il timer di hog del bus scatta".
+
+ <holy wars> [guerre sante: da <USENET>, ma puo` predatarlo] s. <flame war>  su
+ <religious issues> [materie religiose]. L'articolo del 1980 di Dany Cohen  che
+ popolarizzo`  i  termini  <big-endian>  e  <little-endian> in connessione alla
+ controversia sul byte meno o  piu` significante come primo era  intitolato `On
+ Holy Wars and  a Plea for  Peace' [Sulle guerre  sante e una  preghiera per la
+ pace]. Altre h.w. perenni hanno incluso: <EMACS> contro <vi>, il mio  personal
+ computer contro quello di chiunque  altro, <ITS> contro <UNIX>, <UNIX>  contro
+ <VMS>,  UNIX  <BSD>  contro  UNIX  <USG>,  C  contro Pascal, ecc. ecc. ecc. La
+ caratteristica che  distingue le  h.w. dalle  normali dispute  tecniche e` che
+ (senza  considerare  i  meriti  tecnici  dai  due  lati)  la  maggioranza  dei
+ partecipanti passa il loro tempo cercando  di far passare le scelte di  valori
+ personali e gli attaccamenti culturali come valutazioni tecniche obiettive.
+
+ <hook> [aggancio]  s. Un  pezzo estraneo  di software  o hardware  incluso per
+ semplificare  aggiunte  successive  o  cambiamenti  da  parte dell'utente. Per
+ esempio,  un  programma  sul  PDP-10  potrebbe  eseguire  un'istruzione che e`
+ normalmente un JFCL, ma cambiando il JFCL in un PUSHJ si puo` inserire in quel
+ punto una routine di debugging.  Come altro esempio, un semplice  programma di
+ stampa di numeri potrebbe  sempre stamparli in base  10, ma una versione  piu`
+ flessibile potrebbe fare in modo che una variabile determini quale base usare;
+ settare la  variabile a  5 farebbe  stampare il  programma in  base cinque. La
+ variabile e`  un semplice  h. .  Un programma  ancora piu` flessibile potrebbe
+ esaminare la  variabile, e  trattare un  valore di  16 o  meno come la base da
+ usare, ma trattare un qualunque  altro numero come l'indirizzo di  una routine
+ di stampa di un numero fornita dall'utente. Questo e` un h. molto potente; uno
+ potrebbe  scrivere  una  routine  per  stampare  numeri  romani,  oppure  come
+ caratteri  ebraici,  e  piazzarla  nel  programma  per mezzo dell'h. Spesso la
+ differenza tra un buon programma e uno superbo e` che quest'ultimo ha degli h.
+ utili in posti  scelti giudiziosamente. Magari  fanno entrambi il  loro lavoro
+ ugualmente bene, ma quello con gli h. e` molto piu` flessibile per  espansioni
+ o proprieta` future.
+
+ <home box>  [scatola di  casa] s.  La macchina  personale di  un hacker, spec.
+ quella che possiede. "Si`, Beh, la  *mia* h.b. fa girare un BSD  4.2 completo:
+ tie`!"
+
+ <hose>  1.  [piantare]  vt.  Rendere  non  funzionale  o grandemente degradato
+ nell'esecuzione,  come  in  "Quell'enorme  programma  di  ray-tracing   pianta
+ letteralmente il sistema". V. <hosed>.  2. [lett.  tubo] s. Uno stretto canale
+ attraverso cui i dati passano sotto pressione. Denota generalmente i flussi di
+ dati  che  rappresentano  i  colli  di  bottiglia  in  un  sistema.   3. Cavi,
+ specialmente quelli Ethernet spessi.  Questi si chiamano a volte "bit hose"  o
+ "hosery" (gioco di parole con "hosiery", maglieria) o "etherhose". Vedi  anche
+ <washing machine>.
+
+ <hosed> [piantato] agg. Come  <down>. Usato principalmente dagli  hacker Unix.
+ Umoristico: implica anche una condizione che si pensa essere abbastanza facile
+ da rimettere  in sesto.  Derivato probabilmente  dalla voce  di slang canadese
+ `hoser' [NdT: che  non so assolutamente  cosa significhi] popolarizzato  dagli
+ sketch di Bob  e Doug [NdT:  come sopra] sul  network televisivo canadese.  V.
+ <hose>.
+
+ Si narra  una storia  di un  Cray che  aveva delle  difficolta` periodiche una
+ volta casco`,  e fu  annunciato che  era stato  h. .  Si era  scoperto che  il
+ piantameno era dovuto alla sconnessione  di alcuni tubi di raffreddamento  (in
+ inglese,  coolant  hoses).  Il  problema  fu  corretto,  e  gli  utenti furono
+ assicurati che tutto  era a posto,  perche` il sistema  era stato "riintubato"
+ (rehosed). [Questo e`  un eccellenete esempio  di gioco di  parole amato dagli
+ hacker -- ESR].
+
+ <hot spot> [punto caldo] s. 1. [principalemente tra i programmatori C/UNIX, ma
+ diffondentesi] In buona parte dei  programmi, meno del 10 percento  del codice
+ consuma il 90% del tempo di esecuzione; se si facesse un grafico del numero di
+ visite  ad  un'istruzione  rispetto  agli  indirizzi del codice, si vedrebbero
+ tipicamente qualche alto picco  in mezzo a una  quantita` di rumore di  fondo.
+ Questi   picchi   sono   detti   h.s.   e   sono   buoni   candidati   per  la
+ microottimizzazione o l'<hand-hacking>. Il termine e` specialmente usato per i
+ loop interni e le ricorsioni  nell'algoritmo centrale di un codice,  opposto a
+ (per esempio) i costi del setup  iniziale o grandi ma rare operazioni  di I/O.
+ Vedi <tune>, <bum>, <hand-hacking>.  2.  La locazione attiva di un cursone  su
+ un display a bitmap.  "Metti l'h.s. del mouse  sul widget `ON' e  schiaccia il
+ bottone di sinistra".
+
+ <house wizard> [il  mago della casa,  prob. sulla falsariga  del `piatto della
+ casa'] s. Un hacker solitario che occupa una posizione da specialista tecnico,
+ R&S o sistemista  in un negozio  commerciale. Un h.w.  davvero efficiente puo`
+ avere un'influenza fuori da ogni proporzione rispetto al suo rango visibile, e
+ non essere ugualmente costretto a  vestirsi in giacca e cravatta.  Usato spec.
+ di esperti UNIX. Il termine "house guru" e` equivalente.
+
+ <HP-SUX> /aych  pee suhx/  s. Termine  hacker poco  lusinghiero per  HP-UX, la
+ versione UNIX della Hewlett-Packard.  Ha come caratteristiche delle  bogosita`
+ (v.  <bogosity>)  veramente  uniche  neglle  caratteristiche  interne dei file
+ system e  altrove, che  creano occasionalmente  dei problemi  di portabilita`.
+ L'HP-UX e`  spesso soprannominato  "hockey-pux" [NdT:  pux dovrebbe  essere un
+ gioco di parole con pucks, folletti], e un corrispondente esterno afferma  che
+ la pronuncia corretta e` /aych-pee ukkkhhhh/, come se si stesse sputando. Vedi
+ anche <Telerat>, <sun-stools>, <terminak>.
+
+ <humma> escl. Una parola riempitiva usata nei programmi di chat quando non  si
+ ha nulla da dire ma si  sente che sarebbe importante dire qualcosa.  La parola
+ si origino` apparentemente (almeno con questa definizione) sul MECC  Timeshare
+ System (MTS), un sistema educazionale a timesharing ora defunto che girava  in
+ Minnesota negli anni  '70 e nei  primi anni '80,  ma fu in  seguito notato sui
+ primi sistemi UNIX.
+
+ <HUMOR,  HACKER>  [umorismo  hacker]  s.   Uno  stile  speciale  di   umorismo
+ intellettuale trovato tra gli hacker, che ha i seguenti tratti distintivi:
+
+   1) Affascinamento per gli scherzi forma/contenuto, i paradossi, e l'umorismo
+      che ha a che fare con la confusione dei metalivelli (v. <meta>). Un  modo
+      per fare ridere  un  hacker:  tenete un   foglio davanti a   lui/lei  con
+      su scritto "QUESTO   E`  VERDE"   scritto  con   l'inchiostro  rosso,   o
+      viceversa (notate, pero`, che questo e` divertente solo la prima volta).
+
+   2) Parodie snocciolate a  faccia impassibile di costrutti  intellettivi come
+      specifiche  (v.   <write-only  memory>),  documenti di standardizzazione,
+      descrizioni  di  linguaggi  (v.   <INTERCAL>)  e  pesino  intere   teorie
+      scientifiche (v. <quantum bogodynamics>, <computron>).
+
+   3) scherzi  che comportano  ragionamenti contorti  ma corretti  a partire da
+      premesse bizzarre, ridicole o semplicemente controintuitive.
+
+   4) Affascinamento per i ghichi di parole e le freddure.
+
+   5) Apprezzamento  per  dell'umorismo  apparentemente  stupido  con  correnti
+      sovversive  di  intelligenza  al  proprio  interno. Per esempio: i vecchi
+      cartoni animati  della Warner  Brothers e  quelli di  Rocky &  Bullwinkle
+      [NdT:   mitici!], i  film di  CHarlie Chaplin,  i B-52  [NdT: boh?], e il
+      Flying Circus  dei Monty  Python. Se  poi viene  abbinata della comicita`
+      grossolana, l'umorismo e` ancora piu` favorito.
+
+   6) Riferimenti  alle  antinomie  simbolo-oggetto  e alle idee associate  nel
+      buddismo  Zen  e  (meno  spesso)  nel  taoismo.  Vedi <has the x nature>,
+      <Discordianism>, <zen>, <ha ha only serious>, <AI koans>.
+
+   Vedi anche:  <filk>; <retrocomputing>;  e l'Appendice  B. Se  avete come  la
+   sensazione che tutte questo caratteristiche siano in realta` aspetti di  una
+   cosa  di  cui  e`  incredibilmente  difficile parlare esattamente, (a) avete
+   ragione, e (b)  state rispondendo come  un hacker. Questi  tratti sono anche
+   riconoscibili (anche se in forma meno marcata) nel mondo degli  appassionati
+   di fantascienza (v. <SCIENCE-FICTION FANDOM>).
+
+ <hung> [appeso: da "hung up"] agg. Equivalente a <wedged>, ma piu` comune  nei
+ posti che usano UNIX/C. Non  generalmente usato per le persone.  Sin.: <locked
+ up>, <wedged>; confr. <hosed>. Vedi anche <hang>.
+
+ <hyperspace> /hie'per-spays/ [iperspazio] s.  Una locazione di memoria  in una
+ macchina a  memoria virtuale  che e`  a molti,  molti megabyte  (o gigabyte, o
+ terabyte...) da dove il  program counter dovrebbe stare  puntando, solitamente
+ inaccessibile perche` non  e` nemmeno mappata.  "Un altro core  dump... sembra
+ come se il programma e` saltato in qualche modo nell'h.". Questo uso  proviene
+ dalla nozione  fantascientifica di  un'astronave "che  salta nell'iperspazio",
+ cioe` prende  una scorciatoia  attraverso lo  spazio con  numero di dimensioni
+ maggiore --- in altre parole, lascia questo universo.
+
+                                        tradotto da .mau.
+
+                                        Fidonet:  2:334/100.5
+                                                  2:332/407.909
+                                        Internet: mau@beatles.cselt.stet.it
+
+ ############                                                               ###
+ ###  11  ###                                           Alla gogna!         ###
+ ############                                           di Renato Rolando   ###
+
+ Riassunto :
+        Era stato annunciato nell'editoriale del precedente numero: chi avrebbe
+        sgarrato sarebbe finito male. Purtroppo, il cielo non l'avesse  voluto,
+        e' capitato il peggio. Un uomo,  che tutti credevano di parola, ha  per
+        mesi 2 consecutivi mancato alla sua promessa...
+
+ ------------------------------------------------------------------------------
+
+  Signore, signori e bambini; siamo qui riuniti, in questa soleggiata  giornata
+ inviata dalla provvidenza,  per partecipare ad  un triste, seppur  istruttivo,
+ evento.
+
+  In questi tempi oscuri, di crisi  profonda dei valori umani, in cui  il senso
+ dell'amicizia e della propria parola viene calpestato in favore di vili valori
+ quali il  lavoro o,  peggio che  mai, l'imboscamento  con facili fanciulle, in
+ questi tempi oscuri bisogna intervenire  con mano ferma, senza pieta'.  Lo so,
+ il cuore in  questi frangenti pesa,  oltrepiu' la persona  non e' un  illustre
+ sconosciuto, bensi'  uno dei  promettenti caposaldi  della nostra  traballante
+ comunita'. Chi l'avrebbe mai detto, signori! Eppure mutevoli ed insidiose sono
+ le forme del diavolo.
+
+  Questo individuo, questo miserrimo e spregievole essere, guardiamo in  faccia
+ la realta' signore mie, aveva dato  la parola, dico la parola, di  fornire col
+ sudore della sua fronte la linfa vitale alla nostra rivista! Ci attendevamo un
+ bell'articolo da lui. Ed invece sono passati mesi, con solo una risposta  alle
+ nostre insistenti suppliche e minacce (tutto abbiamo tentato per ricondurre la
+ pecorella smarrita nel gregge) via matrix; "ho tanto da fare... non  posso..."
+ ecco cosa ci e' toccato leggere signori miei!
+
+  Ora io non  ho il coraggio  di condannare alla  gogna una personalita'  tanto
+ illustre, che tanto ha dato e dara' non solo alla nostra comunita' telematica,
+ ma anche a TAM TAM [1]; tuttavia il mio spirito e' dibattuto. In Italia non si
+ sta' forse insorgendo contro gli eterni pilastri, gli intoccabili  divoratori?
+ Forse che noi dovremmo essere da  meno? Signori io non me la  sento; tuttavia,
+ memore che  non solo  l'informazione debba  essere di  tutti, ma  anche i suoi
+ derivati, quali le considerazioni e reazioni una volta preso possesso di essa,
+ indico un referendum.
+
+  Ditemi voi se quest'illustre persona; un grande uomo che ricopre alte cariche
+ nel nostro gruppo, che avrebbe potuto fornire col suo apporto a Telematicus un
+ articolo di estremo interesse ed attualita'...; ditemi voi se dovro'  mandarlo
+ alla  gogna  o  lasciarlo  impunito  e  permettere  che  altri  lo prendano di
+ esempio... a lungo andare chiaramente la rivista' ne patirebbe ed il mondo  si
+ riempirebbe di uomini dallo scarso valore.
+
+  Quindi, signori, signore e bambini compilate il modulo ed inviatemelo al piu'
+ presto;  per  mare,  cielo,  terra  o  piccione.  Ma  sappiate che la vita, il
+ prestigio e l'integrita' di un uomo dipende da voi.
+
+  Hanno diritto di voto *tutti* i lettori di almeno un numero di Telematicus.
+
+  Votate, votate, votate!! E che l'Altissimo vi illumini nella scelta.
+
+
+ 8=----cut---------------------------------------------------------------------
+
+  Vogliate riempire con una crocetta i punti che intendete scegliere:
+
+ [ ] SI         Voglio quel vile abominio alla gogna
+ [ ] NO         Voglio che continui impunemente a non mantenere fede alle
+                promesse
+
+ [ ] NI         Non voglio che venga ucciso; dategli solo:
+                (le voci possono essere cumulative)
+
+                [ ] passaggio alla pece ed alle piume ed esposto a pubblico
+                    ludibrio
+                ... scudisciate
+                ... tirate di orecchio
+                [ ] gli scassate il computer
+                [ ] gli scassate la macchina
+                [ ] foriate solo la gomma di scorta (senza che se ne avveda)
+                [ ] gli facciate seguire per ... mesi ... telenovelas
+                [ ] pellegrinaggio alla Mecca
+
+                Suggerimenti:
+                ............................................................
+                ............................................................
+                (il migliore avra' un abbonamento a gratis a Telematicus)
+
+ 8=----cut---------------------------------------------------------------------
+
+
+ Con  questo  chiudo  rimettendomi  al  volere  del  popolo,  al prox numero la
+ sentenza...
+
+
+
+                                                        La direzione
+
+
+
+ [1] TAM TAM:
+        associazione culturale per  la telematica amatoriale.  Con sede in  via
+        A.Genovesi, 4. 10128 Torino. (Si cercano soci!) :)
+
+
+
+
+
+
+
+
+
+
+
+ ############                                         L'ANGOLO MATEMATICO   ###
+ ###  12  ###                                         Somme di sottoinsiemi ###
+ ############                                         di Maurizio Codogno   ###
+
+ Riassunto :
+        e' giusto soddisfare un po'  tutti i gusti. Ecco quindi  un bell'angolo
+        matematico  per  tutti  gli  appassionati;  non  poteva  che  giungerci
+        dall'ottimo,     inossidabile,      iperdisponibile      .mau.!      :)
+        Anche se  non e'  il vostro  campo dateci  un'occhiata; ci  sono alcune
+        cosette interessanti di applicazioni prartiche...
+
+ -------------------------------------------------------------------------------
+
+      4.        PROBLEMI A SOMMA DI SOTTINSIEMI (KNAPSACK) E IL LORO USO
+
+   In questo capitolo vedremo i  <problemi a somma di sottinsiemi>  (subset-sum
+ problems), dove appunto la conoscenza fornita e` data dalla somma di una serie
+ di sottinsiemi di un  insieme dato. Nel seguito,  il nome di tali  problemi si
+ abbreviera` in SSP.
+
+ 4.1.    Gli SSP sono hard
+
+ Un sottinsieme dei numeri
+
+          267 493 869 961 1000 1153 1246 1598 1766 1922
+
+ ha somma 5842. Passate qualche minuto a cercare di trovare questo sottinsieme.
+ Sia che ci riusciate o no, spero siate convinti che il compito non e` banale.
+
+  Questo e` un esempio di un SSP.  In generale, abbiamo n numeri naturali ai  e
+ un numero obiettivo T e ci chiediamo se esiste un sottinsieme S di {1, ..., n}
+ con
+
+               \sum_{i in S} (ai) = T    (*)
+
+  Un  problema  che  sembra  piu`  semplice  e`  quello  della  <decisione  sui
+ sottinsiemi> (subset-sum  decision). Per  un dato  insieme degli  ai e  per T,
+ decidere se  esiste un  S per  cui la  (*) valga,  senza che  sia richiesto di
+ identificare  un  tale  S.  Puo`  essere  pero`  provato che il problema della
+ decisione e` della stessa difficolta` dell'SSP, in questo senso:
+
+ TEOREMA 11:  Supponiamo di  avere un  metodo per  risolvere il  problema della
+        decisione sui sottinsiemi.  Allora possiamo risolvere  l'SSP applicando
+        il metodo precedente n volte.
+
+ (l'n non e` particolarmente importante - quello che conta e` che il numero  di
+ applicazioni usate non e` molto grande).
+
+  Piu` importante  del risultato  specifico e`  l'idea della  dimostrazione. Si
+ mostra che un problema e` difficile come un altro mostrando che un metodo  per
+ risolvere quello piu`  semplice puo` essere  riciclato per risolvere  l'altro.
+ Con queste tecniche si  puo` anche dimostrare che  un metodo per risolvere  il
+ problema  della  decisione  puo`  essere  utilizzato per risolvere molti altri
+ problemi, tra cui
+
+         . Fattorizzazione
+
+         . Il problema del commesso viaggiatore
+
+         . Un qualunque problema di programmazione intera
+
+         . Il problema della soddisfabilita`
+
+   Non preoccupatevi se non siete familiari con i dettagli di questi  problemi.
+ Il punto importante e` che sono dei problemi ben noti per cui nessuno e` stato
+ in grado di trovare dei metodi di soluzione efficienti, il che rende difficile
+ che ci sia un metodo che risolva tutti i problemi di decisione sui sottinsiemi
+ efficientemente.
+
+  La  discussione  sopra  rende  plausibile  che  alcuni  SSP  siano difficili.
+ Inoltre,  si  ha  l'evidenza  che  il  "tipico"  SSP non e` semplice. E` stato
+ dimostrato che, se gli ai e T sono scelti a caso, allora con alta probabilita`
+ (i) non c'e`  alcun S per  cui la (*)  vale, e (ii)  alcuni metodi semplici di
+ provarlo non funzionano.
+
+  4.2.   Un sistema a chiave pubblica basato sull'SSP
+
+  Come esempio di un SSP semplice, consideriamo il compito di determinare quale
+ sottinsieme di
+
+              1  3  6  14  27  60  150  300  650  1400
+
+ abbia somma 836. Gli  ai in questo problema  hanno la speciale proprieta`  che
+ ogni numero e`  maggiore della somma  di tutti i  predecessori. Ora, 1400  non
+ puo` essere nell'insieme. Se nemmeno  650 ci fosse, saremmo nei  guai, poiche`
+ la somma di tutti gli altri numeri  e` minore di 650 e percio` di  836; quindi
+ 650 appartiene all'insieme e dobbiamo solo piu` trovare dei numeri che sommati
+ facciano  186.  300  non  ci  puo`  stare,  ma 150 ci deve essere... Alla fine
+ otteniamo facilmente che l'insieme desiderato e` {650, 150, 27, 6, 3}.
+
+  Bene, il problema originario era trovare un sottoinsieme di
+
+          267 493 869 961 1000 1153 1246 1598 1766 1922
+
+ che sommato dia 5842. Quello che non  abbiamo detto prima e` che gli ai  erano
+ stati accuratamente scelti perche` fossero correlati direttamente agli ai  del
+ problema piu` semplice:
+
+          267 == 300*1000 mod 2039  493 == 27*1000 mod 2039 ...
+
+ dove 2039 e` un primo scelto in anticipo (maggiore di tutti i numeri  dell'SSP
+ semplice) e 1000 e` un numero scelto a caso.
+
+  Per trovare il sottinsieme, cominciamo a  risolvere 1000x == 1 mod 2039,  che
+ da` x  = 1307.  Se gli  ai sono  i numeri  nel problema  semplice, il problema
+ complicato puo` essere scritto come
+
+          \sum_{i in S} (1000 ai) == 5842 mod 2039
+
+ che, moltiplicando ambo i membri per 1037, diventa
+
+          \sum_{i in S} (ai) == 1387*5842 == 1478 mod 2039
+
+  E` facile identificare {1400, 60, 14,  3, 1} come il sottinsieme che  sommato
+ da` 1478, e il sottinsieme desiderato del sistema originario e`
+
+      {1246 == 1400*1000 mod 2039, 869 == 60*1000, 1766, 961, 1000}
+
+  Questo sembrerebbe darci un ottimo sistema a chiave pubblica: un problema che
+ e` facile una volta che dell'informazione  speciale (il 2039 e il 1000)  venga
+ fornita, difficile senza l'informazione. Sfortunatamente, lo speciale tipo  di
+ SSP  creato  in  tal  modo  puo`  essere  risolto  anche  senza l'informazione
+ speciale. C'e` una  serie di articoli  che mostrano come  risolvere SSP e  che
+ propongono un raffinamento  che, a sua  volta, e` stato  risolto nell'articolo
+ successivo.  Questo  non  e`  capitato  col  sistema  RSA,  ma non c'e` alcuna
+ garanzia che non capiti in futuro!
+
+  4.3.    Altri usi degli SSP
+
+   I risultati menzionati  alla fine dell'ultima  sezione non contraddicono  la
+ presunta difficolta` degli SSP in genere.   Sono solo i problemi costruiti  in
+ quel modo speciale ad essere facili. Ci sono problemi riguardo alla  sicurezza
+ diversi dai codici a chiave pubblica per cui gli SSP sono utili.
+
+  4.3.1.  Password al computer
+
+  Un  computer  ha  bisogno  di  verificare  l'identita` di un utente, prima di
+ permettergli l'accesso a un account.  Il sistema piu` semplice sarebbe  quello
+ di tenere in un  file all'interno della macchina  una copia della password,  e
+ confrontarla con quella  digitata dall'utente; in  questo caso pero`  chiunque
+ riesca  a  ottenere  quel  file  puo`  immediatamente  collegarsi  a  nome  di
+ quell'utente.
+
+  Un'alternativa  che  probabilmente  e`  effettivamente implementata in alcuni
+ sistemi e` la seguente: il calcolatore genera un gran numero (diciamo 500)  di
+ ai. Questi sono memorizzati in un file interno. Una password e` un sottinsieme
+ di {1,...500}. (In pratica, c'e` un algoritmo che converte la password  intesa
+ come  "parola  chiave"  in  un  tale  sottinsieme).  Invece  di memorizzare la
+ password, il sistema tiene in  memoria semplicemente la somma del  sottinsieme
+ appropriato. Quando l'utente digita la password, il sottinsieme corrispondente
+ viene calcolato e la sua  somma confrontata con quella memorizzata.  In questo
+ modo  l'impersonazione  puo`  avvenire  solo  se  qualcuno  puo`  ricavare  il
+ sottinsieme noti gli ai e il totale.
+
+  4.3.2.  Verifica dei messaggi
+
+   Un mittente (M) vuole spedire messaggi a un ricevente (R). Non e` importante
+ che il messaggio rimanga  segreto, ma R vuole  essere sicuro che il  messaggio
+ non arrivi da un impostore e che  non sia stato manomesso. M e R  si accordano
+ su un insieme  di ai (diciamo  500) e un  insieme di totali  Tj (diciamo 200).
+ Questi numeri possono essere pubblici, ma solo M sa quali sottinsiemi degli ai
+ corrispondono ai Tj. Il messaggio spedito da M e` un sottinsieme di dimensione
+ 100  di  {1,...200}.  Cio`  viene  fatto  spedendo  100  sottinsiemi  degli ai
+ corrispondenti al messaggio che vuole spedire.
+
+  4.4.    Il problema della soddisfabilita` e il Teorema di Cook
+
+  Il <problema  della soddisfabilita`>  (satisfability problem),  abbreviato in
+ SP, consiste nel trovare, dato un insieme di variabili logiche Ai che  possono
+ avere valore V (vero) o F (falso)  e un insieme di "formule" costruite con  le
+ variabili  logiche  e  gli  operatori  di  negazione  ~  e di unione or, se e`
+ possibile un assegnamento di valori alle Ai che renda vere tutte le formule.
+
+  E` possibile dimostrare [NdT: ma vi risparmio i passaggi] le seguenti cose:
+
+ - Se esiste un algoritmo che risolve efficientemente (SSP), puo` essere  usato
+   per risolvere efficientemente (SP);
+
+ - Viceversa,  se esiste  un algoritmo  che risolve  efficientemente (SP), puo`
+   essere usato per risolvere efficientemente (SSP).
+
+  L'idea generale della dimostrazione del secondo punto indicato sopra e` molto
+ importante. Delle  variabili logiche  sono usate  per rappresentare  la nostra
+ supposizione su  quale sia  la soluzione  di (SSP),  e poi  viene costruito un
+ insieme di formule per verificare che la supposizione sia corretta. Bene,  una
+ cosa del genere si puo`  utilizzare per il problema della  fattorizzazione. Si
+ puo`  avere  una  serie  di  variabili  Ai  e  Bi  che rappresentano le nostre
+ supposizioni per i fattori, e costruire una "macchina di moltiplicazione"  che
+ verifichi che il prodotto e` cio` che vogliamo. Quindi un algoritmo efficiente
+ per (SP) ci porterebbe a un algoritmo efficiente per la fattorizzazione [NOTA:
+ il  viceversa,  a  differenza  del  caso  di  (SSP),  non  e`  stato   tuttora
+ dimostrato].
+
+  Molti altri problemi possono essere visti come il fare delle supposizioni  su
+ quale  sia  la  risposta  corretta,  in  modo  che il processo di verifica sia
+ relativamente semplice. Bene, esiste il
+
+ TEOREMA 12  (Cook): Un  qualunque problema  "supponi e  verifica" puo`  essere
+        convertito in  un problema  di soddisfabilita`.  Percio`, u   algoritmo
+        efficiente  per  (SP)  puo`  risolvere  efficientemente  un   qualunque
+        problema "supponi e verifica".
+
+  4.5.    SSP e NP-Completezza
+
+  La frase "NP-completezza" ha un suono intimidante: in realta` il concetto  e`
+ molto semplice.
+
+  Nella sezione precedente, la  definizione di "efficiente" era  stata lasciata
+ vaga; tecnicamente, si dice che  al crescere della dimensione del  problema il
+ costo non aumenta in maniera esponenziale ma semplicemente polimomiale. I tipi
+ di problema  che possono  essere considerati  come "supponi  e verifica"  sono
+ detti NP, per Nondeterministico (la parte della supposizione) Polinomiale  (il
+ costo della verifica). Il teorema di Cook afferma che (SP) e` complicato  come
+ un  qualunque  problema  NP  -  la  terminologia  usuale  e`  dire che (SP) e`
+ <NP-completo>. Visto che (SSP) puo` venire usato per risolvere (SP),  possiamo
+ anche affermare che (SSP) e` NP-completo.
+
+
+                                                    .mau.
+
+
+                                        Fidonet:  2:334/100.5 2:332/407.909
+                                        Internet: mau@beatles.cselt.stet.it
+
+
+ Bibliografia:
+
+
+        _Computers  and  Intractability_,  di  Garey  e  Johnson. E` fortemente
+        raccomandato per maggiori informazioni.
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                    NOTIZIE FIDONET REGION 33  ###
+ ###  13  ###                                    Assemblea AFI              ###
+ ############                                    inviato Franco Carcillo    ###
+
+ Riassunto:
+        come confermera' in seguito il Lopes, si e' svolta la seconda assemblea
+        dei soci AFI. Ecco raccontato  con dovizia di particolari l'evento  dal
+        nostro  miglior  editor  inviato  all'assemblea giusto per l'occasione;
+        nientemeno che l'insuperabile maestro Franco Carcillo.
+
+ ------------------------------------------------------------------------------
+
+ Assemblea dell'Associazione FidoNet Italia.             Bologna, domenica 21/3.
+
+  L' Assemblea  ordinaria  di  AFI  si   e'  tenuta  a Bologna, in una  tiepida
+ domenica tipicamente primaverile   (!), presso  il  circolo  ARCI, ove   tutti
+ non  vedevano  LORA   di  complimentarsi   col   Maccafferri  per   la   nuova
+ scintillante  release del suo programma di BBS (il Macc si e' poi concesso  ai
+ fans nel pomeriggio...).
+
+  Arrivati alla  spicciola in  tarda   mattinata, il  primo pensiero,  che   ha
+ trovato  stranamente  tutti  concordi  e'  stato  quello di pranzare.  Il buon
+ UnMario ci  ha  fatto  trasferire   in  un   locale-pizzeria  dove   ci  si e'
+ presto rifocillati, grazie alla sempre gustosa cucina emiliana. Il Pasquini e'
+ arrivato in  leggero ritardo, ma il posto di capotavola era stato oculatamente
+ a lui riservato.
+
+  Alle 15,30, superati  alcuni problemi   per la stampa  dell'elenco dei   soci
+ sotto OS/2  (gli  stessi  si  ripresenteranno  per  la stampa del bilancio...)
+ si  da'  inizio  all'incontro.   Ben  18   i  soci   presenti,  piu'    alcuni
+ sostenitori.  Tutti  piu'  o  meno  impegnati  a copiare  qualcosa (shareware,
+ ovvio): in testa il   Lupi nell'eroico tentativo di  copiare 18 dischetti  con
+ Windows NT beta!
+
+  Ecco l'appello dei soci,  la  lettura dell'Odg, la  nomina del  presidente ed
+ il segretario  (io, :=(  ) dell'Assemblea.   Relazione del  CD  sull'attivita'
+ svolta: si   parla  di    Televideo,   di  BSA,    delle   difficolta'   delle
+ associazioni volontariste, della   necessita' di   un maggior   coinvolgimento
+ dei   soci   (nella  speranza   che  qualcuno   abbia   ascoltato...),   delle
+ possibilita'  di   fare  davvero  qualcosa   per   diffondere   la  telematica
+ amatoriale,  come le attivita' nelle  mostre di Vicenza e Firenze ha  mostrato
+ chiaramente.
+
+  Segue  l'approvazione  dello  scarno   bilancio  sociale  (entrate 2.800.000,
+ uscite 2.495.000).    Il clima  inizia  a  scaldarsi con   una lunga  e  buffa
+ sequela di  votazioni per   alcune modifiche   al regolamento:   ad un   certo
+ punto  gli animi sono cosi' coinvolti e tesi che mi  e' sembrato di essere nel
+ bel mezzo  di una di quelle  scelte epocali che cambiano i destini del  mondo;
+ mi sono  risvegliato subito (saranno stati i tortelacci alla boscaiola? mah!).
+
+  Sgombrato il campo  da queste  modifiche  (essenzialmente basta con   le foto
+ per le  tessere che  tanto nessuno   le manda...,  il socio  sostenitore  puo'
+ diventare ordinario, a domanda,  per decisione  del  CD, infine perche'    non
+ fare un  prg per le votazioni elettroniche?), si passa al clou: l'elezione dei
+ nuovi  organi dirigenti.
+
+  Chi si candida? Ecco spuntare  Mulato, mitico presidente uscente che  abbozza
+ la  sua   candidatura,   subito   precisata   da   'se   si  candida  anche il
+ Carcillo...'  (come   potevo   non    rispondere   negativamente   a    questa
+ pressante   richiesta? infatti   non   ho   risposto   negativamente,   massi'
+ ricandidiamoci...), si  fanno avanti  Persivale, Caruso  (eterno primo escluso
+ dell'anno scorso), l'Ardini,   il Mure', Pasquini  (tentennante). Si vota.   5
+ preferenze per ogni scheda.   Questi gli  sconvolgenti  risultati:  Mulato   e
+ Carcillo   17   voti, a  ruota Mure'  15, Ardini  13, Caruso  10, Persivale  e
+ Pasquini 5.
+
+  Dunque un   CD con   Mulato e   Carcillo (confermati)   e i   neo consiglieri
+ Mure', Ardini e Caruso. In un rapido  CD, che segue al termine dell'Assemblea,
+ Mulato verra' riconfermato Presidente.
+
+  Si passa, sempre  piu' di corsa,  nel tipico clima  di fuggi fuggi  generale,
+ alle elezione   dei  revisori   (Persivale,  Battacchi,   Benvenuti)  e    dei
+ Probiviri (Antolini, miracolosamente riapparso!, Masetti e Pasquini).
+
+  L'Assemblea  si  scioglie  da  se':  i   soliti  capannelli, il solito 'ci si
+ risente via matrix'.  Alle 18.30  tutto era  finito, finalmente.   Il  lavoro,
+ per AFI, ricomincia.
+
+
+                                                               Franco Carcillo
+                                                               2:334/100.3
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  14  ###                                    NOTIZIE FIDONET REGION 33  ###
+ ############                                    NEWS                       ###
+
+                               *** net 331 ***
+
+  Richieste info ad  Enrico Cima, 2:331/0.   O e' morto  o e' uno  *******, per
+ forza. Ricevuto nulla.
+
+                               *** net 332 ***
+
+ Eccovi   le   novita'   raccontate   dalla   viva   voce   del   simpatico   e
+ disponibilissimo, illustrissimo, nonche' molto bello, Giovanni Lopes.
+
+ ------------------------------------------------------------------------------
+
+ Stavolta ho diverse cose da raccontare. Ecco le news dal 332:
+
+  Mario Mure` e` stato confermato NEC  del 332 per un altro anno.  Quando Mario
+ ha ricordato l' avvicinarsi della scadenza del proprio mandato e` stato  tutto
+ un levarsi  di voci  a suo  favore, tanto  che la  sua conferma avrebbe potuto
+ dirsi avvenuta per acclamaone. Non  essendo l' acclamazione contemplata fra  i
+ metodi  di  elezione  dei  NEC  sono  state  comunque  bandite delle elezioni;
+ tuttavia, allo  scadere del  termine per  la presentazione  delle candidature,
+ Mario era l' unico candidato in lizza, per cui l' elezioevera e propria non e`
+ avvenuta, e Mario e` stato riconfermato NEC nel tripudio popolare.
+
+  E' scaduto  anche il  mandato dell'  NC, Franco  Mulato. C'  e` gia` un altro
+ candidato  alla  carica,  oltre  a  Franco  che si ripresenta, quindi stavolta
+ andremo alle elezioni.
+
+  Nel "territorio" del 332 e` avvenuta la seconda assemblea dei soci di A.F.I.,
+ (Associazione Fidonet Italia). [NdE: vedi a riguardo i due articoli su  questo
+ numero] Il 21 marzo, a Bologna, erano presenti numerosi sysop del NET (fra cui
+ l' NC Franco Mulato e il neo-riconfermato NEC Mario Mure`). Erano presentinche
+ il  REC  Stefano  Pasquini  e  l'  ex-RC  Franco  Carcillo. Ha fatto la sua...
+ ricomparsa in pubblico anche Franz Antolini, che, con la valida collaborazione
+ di  Andrea  Mennini,  ha  simpaticamente  (ehm....)  "panciato" numerosi sysop
+ presenti. [NdE:  non sapremo  mai, temo,  cosa sia  stato l'atto del panciare.
+ Magari .mau. potrebbe inserirlo nel suo gergo...] :)
+
+
+
+  Ciao Ciao!                                                      ___
+                                                                 /  _
+                                                                <___/ iovanni
+                                                                2:332/108.2
+                               *** net 333 ***
+
+  Richieste info ad Adolfo Melilli, 2:333/1.  O e' morto o e' uno *******,  per
+  forza. Ricevuto nulla. [NdE: notizia dell'ultimissimo momento! Il Melilli  ha
+  avuto  problemi,  ma  mi  ha  assicurato  la collaborazione nel prox numero!!
+  Grazie Melilli]
+
+                               *** net 334 ***
+
+  Anche lo scuppiat  Angelo Verdone ha  novita dal net  334. Questo monellaccio
+ che mi sgrida per  i matrix troppo lunghi  (ho degli editor logorroici)...  :)
+ Ma  per  il  bene  dei  lettori  di  Telematicus continuero' ad ignorarlo. "Il
+ matrix  e'  un  diritto  del  cittadino"  (.mau.)  Riporto  il suo msg perche'
+ ridicolo! :)
+
+ ------------------------------------------------------------------------------
+
+  Ciao  Babbalone.  Due  piccole  notizie  per  la  rivistuccola.  [NdE:   sono
+ commosso!]
+
+ E nato una nuova BBS
+
+ BIOLUS:
+         2:334/501, telefono 4347690 24h/24h
+         gestita  da  Paolo  Rosa  uno  dei  ex  co-sysop di lord DRake [NdE: i
+         migliori auguri da Telematicus]
+
+  La  stessa   Lord  DRake   ha  attivato   una  seconda  linea sul sio  BBS la
+ quale  rispondera  al  numero  di  nodo  2:334/401  con numero di telefono 011
+ 713312
+
+ Ciao.
+                                                    Angelo Verdone
+
+                                                    =[> SysOp A_&_T <]=
+                                                    2:334/21
+
+                               *** net 335 ***
+
+  Richieste info a  Gianluca Pesaturo, 2:335/3.  O e' morto  o e' uno  *******,
+ per forza. Ricevuto nulla.
+
+
+ ############                                                               ###
+ ###  15  ###                                                   Conclusioni ###
+ ############                                                   by RRE      ###
+
+  Uff! Anche  questo e'  fatto. Spero  sia piaciuto,  ci tenevo,  in chiusura a
+ ringraziare ancora tutti  gli editor per  la loro gentile  collaborazione. Per
+ il  prox  number  ancora  non  mi  sbilancio, qualcosa in vista c'e' (bufera!)
+ quindi... non disperate Telematichini miei; a risentirci. *:)
+
+  P.S. l'elenco qui sotto *non* e' molto aggiornato... vedro' di porvi  rimedio
+ al piu' presto.
+
+                                                                RRE
+
+
+
+
+
+
+
+
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:
+
+
+ 334/100 - 011-3299706     | 334/104 - 011-502423      | 334/105 - 011-2238389
+ 335/211 - 099-4746313     | 335/215 - 099-4746044     | 331/112 - 0341-360511
+ 333/603 - 040-3783111     | 332/315 - 0721-30783      | 334/107 - 011-890084
+
+      da Sintel, 011-596274,
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/306 - 0121-542795     | 335/210 - 081-5709527     | 335/405 - 06-315323
+
+
+####                            End of TELEM028                            ####

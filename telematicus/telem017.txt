@@ -1,0 +1,1233 @@
+ #### TELEM017 - Telematicus - Volume 02 - Numero 05 - Anno 1992 - 56 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                 Maggio 1992
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di .mau.
+
+ ==============================================================================
+
+ Il materiale presente in Telematicus e` (C) dei singoli autori.
+ E` espressamente consentita la distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 56 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .   .  pag.  4
+ [ 2]  Cavi & cavetti - parte 2, di Alfredo Berlusconi   .   .   .   .  pag.  6
+ [ 3]  Quale ASCII nell'Echomail? di Giovanni Lopes  .   .   .   .   .  pag. 15
+ [ 4]  Un HUB al mese: 332/400, di Fabio Ferrero .   .   .   .   .   .  pag. 23
+ [ 5]  Vivamiga, di Renato Rolando   .   .   .   .   .   .   .   .   .  pag. 29
+ [ 6]  Feedback Utenti   .   .   .   .   .   .   .   .   .   .   .   .  pag. 36
+ [ 7]  Curiosita`: Il gergo hacker - parte 14    .   .   .   .   .   .  pag. 42
+ [ 8]  Notizie Fidonet region 33     .   .   .   .   .   .   .   .   .  pag. 49
+
+
+
+
+
+
+
+
+
+
+
+                  Questo Telematicus e` nato con l'aiuto di...
+ 
+ Editor genetlians:     Maurizio Codogno | * I collaboratori dai network: *
+ Editor dormiens:         Renato Rolando |
+ Editor characterialis:   Giovanni Lopes | Vertigo (331/301)
+ Editor mappator:     Alfredo Berlusconi | Giovanni Lopes (332/108.2) 
+ Editor animalis:          Fabio Filippi | Pietro Budicin (333/603)
+ Editor hubbista:          Fabio Ferrero | Giorgio Rutigliano (335/1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                               ###
+
+      Carissimi lettori,
+ innanzitutto una precisazione. Il messaggio riguardante i dischetti che varia-
+ vano di peso a seconda delle pattern di bit scritte sopra e` realmente esisti-
+ to  (mi era arrivato due anni fa), ma era ancora piu` ovviamente un  pesce  di
+ aprile.  Cercate percio` di non avallarlo come leggenda metropolitana...  [No,
+ il vostro editor non ci era cascato!]
+
+      Per il resto, a parte il proseguimento delle invettive di Fabio  Filippi,
+ delle elucubrazioni di Renato Rolando e dei collegamenti di Alfredo Berlusconi
+ (che  da` anche la prima release pubblica della mappa dei link Fidonet,  anche
+ se ancora con qualche punto oscuro... ma ci vuole sempre un inizio. Tra  l'al-
+ tro,  mi  ha espressamente chiesto di ringraziare per il loro  prezioso  aiuto
+ Franco  Schinco e Angelo Besani), possiamo scoprire grazie a  Fabio  "Nutella"
+ Ferrero cosa succede nell'hub bolognese di Fidonet, penso sicuramente il  piu`
+ casinista  di  tutta la rete; Giovanni Lopes ci racconta  invece  delle  varie
+ proposte possibili per estendere il set di caratteri ammessi nelle aree  echo,
+ per la gioia di chi vuole mettere tutti gli accenti possibili ed  immaginabili
+ accompagnati  dai simboli piu` astrusi e di coloro che si stracciano le  vesti
+ non appena scoprono un carattere non ammesso.
+
+ E  voi non avete nulla da scrivermi proprio nessun dubbio nella vita???  Beati
+ voi!
+
+                          ciaociao ... .mau.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   2  ###                                     CAVI & CAVETTI - PARTE 2  ###
+ ############                                                               ###
+
+      Eccovi  la  seconda parte delle avventure del Berlusconi alle  prese  coi
+ connettori meno standard possibile... .mau.
+
+
+ ///////////////////////////////////////////////////////////////////
+
+ ============================
+ |                          |
+ | APPLE ][ C  (tipo RS449) |
+ |                          |
+ ============================
+
+
+ Passiamo ora all'APPLE ][C  (RS232)
+
+         [connettore femmina guardando il connettore dalla parte esterna]
+         [ovvero NON dalla parte dove si faranno le saldature]
+
+                           O           O
+                           3           1
+
+                       O                  O      DIN 5
+                       5                  4
+
+
+                                 O
+                                 2
+
+ PINS:  1     2    3    4   5                     GND = massa in comune
+        DTR   GND  DSR  TX  RX
+
+
+      La massa di protezione (non si vede) e' la schermatura metallica del
+ connettore.
+
+ ========================================================================
+
+
+ Collegamento Apple][C - Modem:
+
+ APPLE][C (DTE) <------------------> MODEM (DCE)
+
+              X <------------------> 1   X = copertura metallica del DIN5
+              4 <------------------> 2  tx --> rx
+              5 <------------------> 3  rx <-- tx
+              3 <------------------> 6  DSR
+              2 <------------------> 7  GND
+              1 <------------------> 20 DTR
+
+ ========================================================================
+
+ Collegamento NULL-MODEM Apple][C - computer con RS232C
+ APPLE][C (DTE) <------------------> COMPUTER CON RS232C (DTE)
+
+              2 <------------------> 7 massa di segnalazione
+              4 <------------------> 3 tx --> rx
+              5 <------------------> 2 tx <-- rx
+                        inoltre per l'handshaking ingannare la 232 cosi':
+                        4>5 cortocircuitare 4 con 5 sulla 232C CTS/RTS
+                        6>20 "   "      "   6 con 20           DSR/DTR
+
+ ========================================================================
+
+ Cavo NULL-MODEM a 5 fili Apple][C - computer con RS232C (con HSK)
+ APPLE][C (DTE) <------------------> COMPUTER CON RS232C (DTE)
+
+              2 <------------------> 7 massa di segnalazione
+              4 <------------------> 3 tx --> rx
+              5 <------------------> 2 rx <-- tx
+              1 <------------------> 6 \__ handshaking DTR/DSR
+              3 <------------------>20 /
+
+                        4>5 cortocircuitare 4 con 5 sulla RS232C CTS/RTS
+
+ ========================================================================
+
+ Collegamento NULL-MODEM Apple][C - Apple][C
+
+ APPLE][C (DTE) <------------------> APPLE][C (DTE)
+
+
+              X <------------------> X massa di protezione
+              2 <------------------> 2 massa di segnalazione
+              4 <------------------> 5 tx --> rx
+              5 <------------------> 4 rx <-- tx
+              1 <------------------> 3 \__ handshaking DTR/DSR
+              3 <------------------> 1 /
+
+
+ ///////////////////////////////////////////////////////////////////
+
+ ============================
+ |                          |
+ | PC IBM AT  (tipo RS232C) |
+ |                          |
+ ============================
+
+         connettore DB9 (RS232C) connettore maschio
+         facciamo riferimento al connettore maschio riportato all'inizio
+         dell'articolo.
+
+ PINS: 1    2   3   4   5   6    7   8    9  GND = massa di segnalazione
+       DCD  RX  TX  DTR GND DSR  RTS CTS  RI  RI = ring indicator
+
+   Si tratta secondo me della giusta interpretazione ridotta della RS232C
+ in quanto utilizza tutti i segnali necessari al corretto funzionamento
+ del trasferimento asincrono, compatibile 100% con tutti i SW a disposizione.
+
+
+ ========================================================================
+
+ Collegamento PC AT - Modem:
+
+ PC AT (DTE) <------------------> MODEM (DCE)
+
+           3 <------------------> 2  rx <-- tx
+           2 <------------------> 3  tx --> rx
+           7 <------------------> 4  RTS
+           8 <------------------> 5  CTS
+           6 <------------------> 6  DSR
+           5 <------------------> 7  GND
+           1 <------------------> 8  DCD
+           4 <------------------> 20 DTR
+           9 <------------------> 22 RI
+
+
+ ========================================================================
+
+ Collegamento NULL - MODEM PC AT - RS232C a 3 fili:
+
+ PC AT (DTE) <------------------> RS232C (DTE)
+
+           2 <------------------> 2  rx <-- tx
+           3 <------------------> 3  tx --> rx
+           5 <------------------> 7  GND
+                              inoltre sulla 232C db25:
+
+                              4>5 CTS/RTS e 6>20 DTR/DSR (imbroglio HSK)
+
+
+ ========================================================================
+
+ Collegamento NULL - MODEM PC AT - RS232C a 5 fili:
+
+ PC AT (DTE) <------------------> RS232C (DTE)
+
+           2 <------------------> 2  rx <-- tx
+           3 <------------------> 3  tx --> rx
+           5 <------------------> 7  GND
+           6 <------------------> 20 \__ HSK DTR/DSR
+           4 <------------------> 6  /
+
+                              inoltre sulla RS232C db25:
+                              4>5 CTS/RTS
+
+ In alternativa a 6<-->20;4<-->6;4>5 si puo' fare: 7<->5;8<->4;6>20
+
+ ========================================================================
+
+    Collegamento NULL - MODEM PC AT - RS232C a 7 fili
+
+ PC AT (DTE) <------------------> RS232C (DTE)
+
+           2 <------------------> 2  rx <-- tx
+           3 <------------------> 3  tx --> rx
+           5 <------------------> 7  GND
+           6 <------------------> 20 \__ HSK DTR/DSR
+           4 <------------------> 6  /
+           7 <------------------> 5  \__ HSK CTS/RTS
+           8 <------------------> 4  /
+
+
+ ========================================================================
+
+    Collegamento NULL - MODEM PC AT - PC AT a 7 fili
+
+ PC AT (DTE) <------------------> PC AT (DTE)
+
+           2 <------------------> 3  rx <-- tx
+           3 <------------------> 2  tx --> rx
+           4 <------------------> 6  \__ DTR/DSR HSK
+           6 <------------------> 4  /
+           5 <------------------> 5  GND
+           7 <------------------> 8  \__ HSK CTS/RTS
+           8 <------------------> 7  /
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                   QUALE ASCII NELL'ECHOMAIL?  ###
+ ############                                                               ###
+
+
+                     IL PROBLEMA DELLE LETTERE ACCENTATE
+  
+      Nei messaggi che circolano nelle aree echomail di Fidonet non e`  consen-
+ tito  usare caratteri del cosiddetto set esteso, vale a dire  cornici,  linee,
+ caratteri scientifici, e, quel che piu` ci tocca da vicino, le lettere  accen-
+ tate. Gia`, perche', tanto per fare un esempio, per scrivere la parola  <<cit-
+ ta`>>  bisogna utilizzare sei caratteri invece dei cinque prescritti da  qual-
+ siasi vocabolario; la cosa non solo e` seccante perche' aumenta le  dimensioni
+ dei nostri messaggi (il che sarebbe il meno, visto che si tratta di un aumento
+ contenuto in pochi bytes per messaggio), ma soprattutto ci costringe ad andare
+ contro le nostre abitudini che sono, giustamente, quelle di usare gli appositi
+ caratteri  accentati in tutte le parole in cui sono necessari. Il problema  e`
+ sentito  in particolar modo dagli utenti che hanno una tastiera  italiana,  ma
+ anche  molti  di coloro che hanno la tastiera americana  preferirebbero  poter
+ usare  i canonici caratteri accentati per motivi di ordine e, perche' no?,  di
+ estetica: sulle VGA le lettere accentate vengono proprio carucce.
+
+      E' anche da dire che l'impossibilita` di utilizzare i caratteri accentati
+ porta anche a veri e propri errori grammaticali, visto che e` molto diffusa l'
+ abitudine  di usare sempre l'apostrofo (accento acuto) per tutti gli  accenti,
+ mentre quasi sempre andrebbe usato l'accento grave (il fatto e` che di  solito
+ l'accento grave e` nascosto negli angoli piu` remoti della tastiera, quando c'
+ e`...). [NdE: io preferisco usare sempre l'accento grave, almeno si sa  quando
+ una  lettera e` un accento e quando e` un apostrofo... vi assicuro che per  un
+ grep una cosa simile e` una manna!]
+  
+      Ma perche' non e` possibile usare le nostre care lettere accentate? Molto
+ semplice: i messaggi che girano in Fidonet devono essere leggibili su qualsia-
+ si  computer,  con qualsiasi sistema operativo, a condizione che  utilizzi  il
+ normale  set di caratteri ASCII. Il problema e` che il set di caratteri  ASCII
+ standard  non prevede lettere accentate: questi caratteri  vengono  realizzati
+ sui  vari computer con un'"estensione" del set ASCII; estensione che,  disgra-
+ ziatamente, non e` uguale su tutti i computer.
+  
+      Tecnicamente  il set di caratteri ASCII standard e` formato da  caratteri
+ con codici che vanno da 32 a 127, mentre i caratteri "in piu`" dei set  estesi
+ hanno  codici che vanno da 128 a 255. Proprio per questo e`  abitudine  comune
+ dire che "in Fidonet non possono essere usati caratteri maggiori di 128".
+  
+      Quello  che molti si domandano, e` se non sia possibile trovare  un  modo
+ per  poter  utilizzare ugualmente le lettere accentate e gli  altri  caratteri
+ che, pur non facendo parte del set ASCII standard, sono presenti su molti cal-
+ colatori.  A dire il vero le attuali policy Fidonet non danno possibilita`  di
+ trovare  scappatoie: sono molto chiare nel precisare che i  caratteri  ammessi
+ nelle aree echomail sono quelli con codici compresi fra 32 e 128 (tranne alcu-
+ ne eccezioni, come il carattere di "a capo"); specificano inoltre che il soft-
+ ware  utilizzato deve rispecchiare le codifiche contenute nei  documenti  FTSC
+ (Fidonet Technical Standard Committee), dove si specifica nuovamente che i ca-
+ ratteri con codice superiore al 128 non sono ammessi.
+  
+      Prima di addentrarci nell'argomento, e` interessante sapere come si rego-
+ lano  all'estero: in molte lingue viene fatto un pesante uso di caratteri  che
+ non fanno parte del set ASCII standard, spesso anche IN MEZZO ALLE PAROLE,  il
+ che rende la situazione piu` difficile. Da quello che e` possibile vedere han-
+ no aggirato il problema usando i caratteri estesi del set dei PC IBM e facendo
+ finta  di  nulla. Ovviamente tale soluzione e` assolutamente  deprecabile:  in
+ primo luogo non si puo` far finta che policy e standard tecnici non  esistano;
+ in secondo luogo il fatto che certi caratteri non possono essere usati e` giu-
+ stificato  da motivi validissimi (gli amighisti giustamente levano  gli  scudi
+ ogni volta che si parla di ammettere i caratteri estesi in qualche area  echo-
+ mail). [NdE: e per una volta hanno ragione, visto che esisterebbe uno standard
+ ISO  per  la codifica dei caratteri dal 128 al 255, che mamma  IBM  disattende
+ regolarmente]
+  
+      La  strada  che, probabilmente, dovra` essere percorsa  per  arrivare  ad
+ usare i caratteri estesi, e` quella indicata dalla proposta di standard numero
+ 54,  opera  di  Duncan McNutt, che suggerisce l'introduzione  di  un  apposito
+ kludge.  I kludge sono delle stringhe poste all'inizio del testo dei  messaggi
+ che contengono delle informazioni addizionali sul messaggio stesso. Il  kludge
+ proposto e` il CHARSET, o piu` brevemente CHRS, che deve essere seguito da al-
+ cuni argomenti. Uno degli argomenti, il secondo, fornisce il livello di imple-
+ mentazione  del kludge; il primo argomento varia a seconda del  livello.  Sono
+ previsti 6 livelli, oltre al livello 0, rappresentato dall'essenza del kludge.
+ Vediamo in breve cosa comporta ciascun livello di implementazione:
+  
+ livello 1: alcuni dei codici da 32 a 128 vengono attribuiti ad alcuni caratte-
+      ri estesi, invece che ai rispettivi caratteri del set ASCII standard;  in
+      questo caso il primo argomento indica secondo quale schema e` avvenuta la
+      "rimappatura".
+
+ livello 2: viene fatto pieno uso dei caratteri di codice superiore al 128;  in
+      questo caso il primo argomento specifica a quale tipo di set ASCII esteso
+      appartengono i caratteri con codice maggiore di 128.
+
+ livello  3: supporto di set caratteri diversi dai caratteri latini  (caratteri
+      greci, cirillici, ebraici...).
+
+ livello  4: set di caratteri a 16 bit, cioe` con caratteri con valore  fino  a
+      65535.
+
+ livello 5: grafica in bianco e nero.
+
+ livello 6: grafica a colori.
+  
+      Apparira`  a tutti evidente che, almeno al momento, i livelli 5 e 6  sono
+ pura  fantascienza e che anche il 4 non scherza [NdE: beh, c'e` l'UNIcode  che
+ avanza... il problema e` che alcuni preferirebbero avere addirittura *quattro*
+ byte  per rappresentare un carattere, soprattutto per gli ideogrammi  cinesi].
+ Il livello 3 e` decisamente piu` attuabile, ma la cosa, a noi italiani,  inte-
+ ressa ben poco....
+
+      Invece, e` interessante vedere piu` da vicino i livelli 1 e 2, visto che,
+ se  ci fosse la volonta`, potrebbero trovare un'applicazione pratica in  tempi
+ molto brevi.
+  
+      Il livello uno, all'atto pratico, permette di nazionalizzare i set di ca-
+ ratteri, sostituendo ai caratteri che vengono usati meno frequentemente alcuni
+ caratteri tipici delle varie lingue. Per esempio noi italiani avremmo  bisogno
+ di  introdurre sei lettere accentate (le cinque vocali con accento grave  piu`
+ la "e" con accento acuto) e non sarebbe difficile trovare 6 caratteri che pos-
+ sano farne le spese senza troppi rimpianti (per esempio: [, ], {, }, ~ e |  ).
+ Visto che i codici dei caratteri restano comunque compresi fra 32 e 128  l'in-
+ troduzione del CHARSET di livello uno e` compatibile con le policy attualmente
+ in vigore. Un esempio di kludge CHARSET di livello uno sarebbe:
+
+           ^aCHARSET: ITALIAN 1
+  
+      Il livello due consente di utilizzare tutti i caratteri con codici da  32
+ a 255 dei vari calcolatori (IBM, Amiga, etc.): un messaggio con dei  caratteri
+ con  codice maggiore di 128 dovrebbe riportare il kludge CHARSET  (di  livello
+ due) che specifica A QUALE set esteso appartengono i caratteri. Per esempio se
+ il messaggio fosse stato scritto su un Amiga il kludge CHARSET si presentereb-
+ be cosi`:
+
+           ^aCHARSET: LATIN-1 2
+  
+      Infatti  il set di caratteri LATIN-1 e` quello usato dall' Amiga.  Per  i
+ computer di tipo IBM l' identificativo sarebbe IBMPC. E' importante notare che
+ il livello due non e` compatibile con le policy in vigore, infatti nei messag-
+ gi ci sarebbero comunque dei caratteri con codice maggiore di 128.
+  
+      Quello  che ci si domanda e` se, e quando, il kludge CHARSET potra`  tro-
+ vare un' applicazione pratica. I problemi da affrontare sono due, il  software
+ e la volonta`. Per quanto riguarda il software tutto sta nel cominciare: quan-
+ do un certo numero di utenti o di sistemi, comincia ad utilizzare un  software
+ che  propone delle valide innovazioni, ben presto altri utenti sono tentati  a
+ passare  a quel software; la qual cosa sprona tutti gli altri  sviluppatori  a
+ correre  ai  ripari, implementando a loro volta l'innovazione, con  la  logica
+ conseguenza che aumenta il numero degli utenti che possono avvalersi  dell'in-
+ novazione. Tutto cio` sta accadendo sotto i nostri occhi per il formato di ba-
+ se  messaggi Squish. Si puo` comunque dire che la rapidita` con cui  il  nuovo
+ standard si diffonde e` direttamente proporzionale alla popolarita` del  soft-
+ ware che per primo lo introduce.
+  
+      L'altro problema e` la volonta` politica di appoggiare certe scelte.  In-
+ fatti, benche` il CHARSET di livello uno sia compatibile con le policy  vigen-
+ ti, e` un dato di fatto che messaggi generati con un CHARSET di livello uno  o
+ due non vengono visualizzati correttamente almeno su alcuni sistemi; non sono,
+ cioe', compatibili all'indietro al cento per cento. Purtroppo cio` puo`  osta-
+ colare  molto  la  diffusione,  o anche la  sola  introduzione,  dell'uso  del
+ CHARSET, ma e` inevitabile che queste difficolta` debbano essere superate, co-
+ si` come le inevitabili opposizioni.
+
+      Introdurre il CHARSET di livello uno, in teoria, non richiederebbe  alcun
+ appoggio e potrebbe anche essere fatto unilateralmente da alcuni BBS e  point;
+ tuttavia sarebbe molto piu` corretto dibattere la cosa preventivamente ed agi-
+ re con l'appoggio del moderatore delle aree messaggi in cui vengono inseriti i
+ messaggi.
+  
+      Per  introdurre il CHARSET di livello due, invece, occorrono prima  delle
+ modifiche alla policy generale FidoNet, che e` quella che pone le  limitazioni
+ sui  caratteri che possono essere utilizzati nelle aree echomail. Tuttavia  il
+ CHARSET  di livello due puo` tornare utile da subito: se venisse  inserito  in
+ quei  messaggi in cui sono "sfuggiti" caratteri illegali, potrebbe  aiutare  i
+ sistemi che lo supportano ad interpretare correttamente il testo dei messaggi,
+ agendo nel contempo da sprone per una piu` vasta diffusione del CHARSET.
+
+
+                                       Giovanni  Lopes
+                                         2:332/108.2
+
+ ############                                                               ###
+ ###   4  ###                                               UN HUB AL MESE  ###
+ ############                                                               ###
+
+      [NdE:  Tanto per cambiare, questa volta parleremo di un intero  hub.  Per
+ chi  avesse downloadato telematicus solamente adesso, rammento che  l'hub  (in
+ inglese perno, centro) e` il nodo che almeno in teoria sta a meta` tra i  nodi
+ foglia (il tipico bbs) e il nodo capo del net. Generalmente e` l'hub che fa le
+ chiamate extraurbane per ricevere la posta, mentre gli altri nodi devono  solo
+ fare  chiamate locali. In pratica, pero`, si chiama gergalmente hub  l'insieme
+ di tutti i nodi sotto l'hub vero e proprio... Vabbe`, leggetevi cosa ha scrit-
+ to Fabio!]
+
+
+
+      Prima  di tutto mi presento: sono Fabio "Nutella" Ferrero,  point  numero
+ 332/407.2001.  Sono  anche il curatore della pointlist per l'*** 400  del  net
+ 332, e mi hanno incaricato di scrivere qualcosa sulla situazione point di que-
+ sto  prolifico ***. Attualmente il numero di point attivi nell'HUB 400 e'  111
+ (in  decimale!), con ben 20 nodi. Prima di analizzare piu' a fondo questa  si-
+ tuazione vi annoiero' con un po' di storia...
+
+      Quando, circa un anno fa (proprio in occasione del NETSYSCON 332 in  quel
+ di Bologna), nacque "nonsolosoftware BBS" (332/407), eravamo (noi point)  poco
+ piu' di una ventina, distribuiti teoricamente su 5 nodi, ma praticamente su  2
+ (OCA  SYSTEM  e BES///). E si iniziava a stare stretti, dato che i  point  non
+ gradiscono molto il fatto che il BBS del boss sia molto frequentato da "norma-
+ li" utenti. Il 332/407, fu il primo BBS di Bologna ad essere "point-only",  ed
+ in  poco piu' di un anno ha messo insieme 21 point.
+
+      nonsolosoftware Fu anche il primo BBS di Bologna ad assegnare i numeri di
+ point a piacimento, fino a quel momento, infatti, il numero di point era asse-
+ gnato  dal boss, in ordine rigorosamente crescente. Sempre riguardo ai  numeri
+ di point, fu il primo BBS di Bologna in cui il SysOp aveva un numero di  point
+ diverso da 1, infatti il SysOp-Point del 332/407 ha il numero 666. La  monoto-
+ nia  era rotta, arrivarono point con numeri incredibili, come il 26719  (forse
+ il piu' alto point d'Italia), il "The Be(a)st Point", appunto il 666 o come il
+ point  che  "ha tutte le risposte", il numero 42... [NdE: C'e` poi  sempre  il
+ point - se e quando i due modem hanno voglia di colloquiare - del vostro  edi-
+ tor preferito, che da buon beatlesiano ha scelto 909 ma probabilmente  avrebbe
+ dovuto avere il 3234... sara` per un'altra reincarnazione].
+
+      Tutto questo ha dato il via all'espansione quasi frenetica dell'HUB. Pri-
+ ma o poi sarebbe dovuto succedere, erano in molti che se lo sentivano... arri-
+ vo'  infatti anche il primo point al femminile (pointessa?), tra  l'autunno  e
+ l'inverno del 1991. A dire il vero non era proprio il primo, ma sicuramente e'
+ stato il primo a scrivere qualche messaggio nelle aree locali.
+
+      Crescendo il numero di point, cresceva, seppur con minor ritmo, il numero
+ di nodi. Oggi sono, come gia' detto, 20, di cui pero' ben 5 "doppi" (cioe' no-
+ di  con  due o piu' linee telefoniche). Questo vuol dire che ci sono  15  nodi
+ reali, attualmente attivi in fidonet nel bolognese (di cui un paio in  provin-
+ cia).  Anche i point sono cresciuti molto di numero (sara' stata  la  presenza
+ femminile?  :-)), attualmente siamo 111, ma anche qui bisogna contare  qualche
+ point doppio.
+
+      Comunque non bisogna lasciarsi ingannare, di questi circa un terzo scrive
+ con continuita' nelle aree messaggi. Sorge quindi, istintivamente, un  quesito
+ curioso: "come mai ci sono 70 point che non scrivono praticamente nulla?".  La
+ risposta a questa domanda sarebbe troppo lunga e complessa (magari in un pros-
+ simo articolo?), basti dire che ci sono due motivi principali: (1) e' una moda
+ (telematica),  (2)  consente di leggere con comodita' aree  messaggi  ad  alto
+ traffico.  Resta il fatto che una quarantina di point si preoccupano anche  di
+ scrivere e, anche se l'attenzione e' piu' che altro dedicata alle aree locali,
+ essi generano buona parte del traffico mail italiano.
+
+      A  questo punto vi raccontero' un po' di particolarita' del  nostro  HUB.
+ Nell'HUB  400 ci sono due aree messaggi un po' "fuori dal comune".  Si  tratta
+ della CINEMA.400 e della BBX.400. Nella prima si parla esclusivamente di film.
+ Si  tratta  in pratica di una locandina telematica, nella  quale  ognuno  puo'
+ esprimere  giudizi  sui  film  visti. Essa e'  "dominata"  da  Rossano  Masini
+ (332/401.11), il "cinemofilo" dell'HUB, che fornisce preziose indicazioni  non
+ solo sulla qualita' dei film, ma anche su tutte quelle variabili che contribu-
+ iscono  ad  una buona visione: rumorosita' della sala, comodita'  del  cinema,
+ etc. Ovviamente partecipano tutti quelli che hanno qualcosa da dire. Nella se-
+ conda  vengono settimanalmente postati i messaggi prelevati da BIX, il  famoso
+ BBS  di Byte. Questo vuol dire essenzialmente informazione fresca, da tutti  i
+ campi dell'informatica: software, hardware, prime impressioni, DTP, etc...
+
+      Segnalo, un po' a malincuore, la scomparsa di due iniziative originali ed
+ interessanti.  La  prima e' riferita all'ex area  WEATHER.400,  dove  venivano
+ giornalmente postate le previsioni del tempo e le temperature registrate a Bo-
+ logna  e provincia. Purtroppo tra 111 point non e' stato possibile trovare  un
+ volontario... La seconda erano le ex aree *_INT.400 (4DOS_INT.400, DV_INT.400,
+ etc) nelle quali, chi seguiva le relative aree internazionali, faceva il  for-
+ ward dei messaggi ritenuti piu' interessanti. Il TAPpo e l'arrivo a singhiozzo
+ dei messaggi nelle aree internazionali ha costretto l'abbandono dell'iniziati-
+ va.
+
+      Chi e' resistito a leggere fino a questo punto, si merita qualche  curio-
+ sita'  (non  assicuro  verita', e neanche freschezza, insomma  un  "si  mormo-
+ ra"...).  Nell'HUB  abbiamo ben 5 pointesse! Peccato che oramai  non  scrivano
+ praticamente piu'... sembra pero' che una di esse stia organizzandosi per  in-
+ stallare un BBS (io pero' non vi ho detto niente :-) ).
+ Restate sintonizzati.
+
+      Per finire voglio segnalarvi una cosa di cui andiamo molto fieri: il  ri-
+ trovo settimanale. Grazie alla bonta' e all'ospitalita' di un nostro point, ci
+ troviamo *tutti* i mercoledi' sera (*tutti* vuol proprio dire tutti: anche Pa-
+ squa,  Natale, e perfino ferragosto!), nel suo ufficio, per poi  spostarci  in
+ una tipica (e ottima) birreria. Ovviamente nessuno e' obbligato a  partecipare
+ all'incontro,  come  nessuno ne e' escluso. Possono partecipare tutti.  E'  in
+ queste  occasioni  che spesso si affrontano (e si risolvono)  alcuni  problemi
+ dell'HUB, che sarebbe difficile affrontare con il "freddo" scambio di  messag-
+ gi.  Non  si parla pero' solo di computer, ma anche di quello che  accade  nel
+ mondo  (mi ricordo che eravamo in birreria quando scoppio' la guerra del  Gol-
+ fo), di curiosita', di politica. Insomma, un'ottima occasione per stare insie-
+ me, per conoscersi, per staccarsi dai monitor:-). Naturalmente sono ben accet-
+ ti anche visitatori esterni (sono venuti a trovarci IlCosta, Mulato e  qualche
+ altro), che apprezzeranno le ottime birre e i gustosi panini. Se volete parte-
+ cipare, avvisate Andrea Mennini (332/404.1), noi ci siamo ogni mercoledi'  se-
+ ra...
+
+                                         Fabio "Nutella" Ferrero
+                                         2:332/407.2001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                                                     VIVAMIGA  ###
+ ############                                                               ###
+
+                     AMIGASERIA_L III (scontro finale)
+                     ---------------------------------
+
+      Lo so, .mau. mi uccidera'; sono sempre piu' in ritardo. E' una buia notte
+ tempestosa del 25/04 ed ancora non ho consegnato il pezzo... 8-% Intendo quin-
+ di  scusarmi  col  mio  lettore se saltero' un  number...  [NdE:  come  potete
+ vedere, in realta` avevo tenuto lo spazio per il nostro amighista. Comunque si
+ merita che appaiano le sue scusanti accampate nel matrix:
+
+      Ho  il capo cosparso di cenere, ma mi sono ricordato della  cosa  il
+      22, il 23 sono stato invaso dalle cavallette, il 24 mi sono sveglia-
+      to alle 6 ma ... sono tornato a dormire ed il 25 l'ho scritto.
+
+ Guardate con che gente mi tocca avere rapporti di editoraliato...]
+
+
+      Comunque  eccoci qua alla nostra (spero) ultima parte sulla  seriale  (la
+ cosa  comincia a stressarmi). Volevo finire con un argomento tecnico  interes-
+ sante,  che per l'altro non esaurisce la cosa. La seriale permette di  mettere
+ il task a dormire sino all'aparizione di un ben specifico carattere dal modem.
+ In realta' si puo' richiedere piu' di un carattere, fino ad 8; restano  tutta-
+ via sempre intesi come singoli, mai come serie, ed il carattere con il  numero
+ piu'  basso ha la precedenza. La seriale riporta tutto, carattere di trap  in-
+ cluso, nel nostro buffer. Questa e' un'opzione molto comoda che evita al  task
+ di  entrare in dannosi loop in attesa di un carattere. Si raccomanda di  allo-
+ care preventivamente un buffer capace di contenerlo; le routine della  seriale
+ dovrebbero evitare l'overflow ma avvertono in problemi di perdita di dati  so-
+ prattutto ad alte velocita' (dai 9600 in poi).
+
+      Tutto  cio' comunque e' molto comodo, ad es. per aspettare il ritorno  di
+ un comando dal modem si puo' impostare l'attesa di uno \n (newline) e poi  te-
+ stare cosa viene riportato nel buffer. Unico accorgimento, per problemi di ef-
+ ficienza, e' l'impostare l'array di caratteri che intendiamo impiegare in  or-
+ dine decrescente ripetendo l'ultimo fino al completamento dell'array. Ecco al-
+ cuni  esempi  da me usati: in questo caso mi interessava solo un  carattere  e
+ quindi l'ho ripetuto per tutto il vettore.
+
+        struct  IOTArray        CRTerm = {0x0D0D0D0D, 0x0D0D0D0D};    /* \r */
+        struct  IOTArray        NLTerm = {0x0A0A0A0A, 0x0A0A0A0A};    /* \n */
+        struct  IOTArray        FRTerm = {0x2A2A2A2A, 0x2A2A2A2A};    /*  * */
+        ...
+
+      Per  dire alla seriale che intendiamo avvalerci del giochino si invia  il
+ comando: SERF_EOFMODE e nella struttura MyIOExtSer->io_TermArray si riporta il
+ puntatore all'array.
+
+      Un esempio molto carino e' stato fatto in Gali, usato sia per leggere  il
+ comando  inviato e la risposta del modem, sia per avere un'attesa sino al  ca-
+ rattere "*" per la lettura della stringa del Galileo Ferraris.  Ecco un  pezzo
+ del codice:
+
+        /* send init command */
+        Send_Serial(m_init);
+ <-- invio la $ di configurazione
+        Respond(NEWLINE);
+ <-- leggo fino alla "\n", ovvero cio' che ho inviato
+        Respond(NEWLINE);
+ <-- leggo fino alla successiva "\n", ovvero la risposta del modem
+        WaitTime (0, MILLION/2);
+ ...
+
+      Sono stati inseriti dei tempi di attesa per gli Amiga 3000 ed i DualStan-
+ dard; i primi troppo veloci nell'inviare dati, i secondi troppo lenti in alcu-
+ ne operazioni. Ovvero quando il modem riceve un ATZ ha un momento di stasi  in
+ cui non legge nulla ma ha appena inviato l'OK: se durante questo momento  pro-
+ vavo ad inviare altri comandi il modem semplicemente s'incantava :) La cosa e'
+ invece  del tutto irrilevante col 2000 ed i vari 2400. Solitamente si  risolve
+ la cosa con stringhe del tipo ATZ~~~. Tuttavia aspettare mezzo milionesimo  di
+ secondo da parte dei 2000 non mi sembra poi la fine del mondo !
+
+      Poi si continua cercando dopo la connessione il primo "*" e da li' in poi
+ si leggera' la nuova ora:
+
+        /* look for first * (sincronismo) */
+        do
+        {
+                Respond(ASTERISK);
+                new_time = KLCKCompile();       /* provo a settare il clock */
+                max_time += 1;
+        }
+        while ((new_time == 0)&&(max_time<7));  /* check for correct time */
+
+      Chiaramente  qui non si vedono le variabili globali in gioco (lo  so,  le
+ variabili globali non dovrebbero essere usate) [NdE: usa pure, lascia  perdere
+ i  puristi...] e proprio volendo essere onesti anche impostando il limite  max
+ di 7 tentativi di leggere l'ora se per un qualche caso il modem e' settato  ad
+ una  velocita' diversa dalla seriale l'asterisco possiamo proprio  scordarcelo
+ (leggi apparizione in tempo random)!!
+
+      La funzione Respond() avra' un aspetto piu' o meno di questo genere:
+
+ VOID Respond(int choose)
+ /*****************************************************************************
+  Wait the modem for a COMPLETE answer
+  NEWLINE        read until a  NEWLINE           (\n)
+  CARR_RET       read until a  CARRIAGE RETURN   (\r)
+  ASTERISK       read until an ASTERISK          (*)
+  NO_OUTPUT      dont' send output >> stdout
+
+ *****************************************************************************/
+ {
+        ULONG   many = NULL;
+
+        if(!choose)
+        {
+                legge dalla seriale fin tanto che c'e' roba...
+        }
+
+        if(CARR_RET == (choose & CARR_RET)) /* read until carriage return \r */
+        {
+                MyIOExtSer->io_SerFlags |= SERF_EOFMODE;
+                MyIOExtSer->io_TermArray = CRTerm;
+                MyIOExtSer->IOSer.io_Command= SDCMD_SETPARAMS;
+
+                DoIO ((struct IORequest *)MyIOExtSer);
+
+                Read_Serial(0);
+                if(!(NO_OUTPUT == (choose & NO_OUTPUT)))
+                        PutStr(RBuff);
+        }
+
+        if(NEWLINE == (choose & NEWLINE))       /* read until new line \n */
+        {
+                MyIOExtSer->io_SerFlags |= SERF_EOFMODE;
+                MyIOExtSer->io_TermArray = NLTerm;
+                MyIOExtSer->IOSer.io_Command= SDCMD_SETPARAMS;
+                ...
+        }
+
+        if(ASTERISK == choose)          /* read until * */
+        {
+                MyIOExtSer->io_SerFlags |= SERF_EOFMODE;
+                MyIOExtSer->io_TermArray = FRTerm;
+                MyIOExtSer->IOSer.io_Command= SDCMD_SETPARAMS;
+                ...
+        }
+ }
+
+      Ho tagliato il tutto per non fare una cosa chilometrica.
+
+      Bene, e con questo e' tutto; la storia MIDI o cosa facciano i vari  modem
+ dopo l'ATDP e' ancora avvolto nella nebbia. Ma, pur essendo questa una rivista
+ telematica, non posso solo stressare con la telematica!
+      La prosima volta vedremo come attendere con 0.0% CPU il tempo che  passa:
+ la funzione WaitTime (0, MILLION/2) qui non e' stata spiegata. Tra  parentesi,
+ mi  sono ispirato (prima copio, poi capisco :)) al bellissimo prg di comunica-
+ zione TERM con sorgenti inclusi.
+
+                                                        RRE
+                                                        2:334/100.9
+ ############                                                               ###
+ ###   6  ###                                              FEEDBACK UTENTI  ###
+ ############                                                               ###
+
+      Vediamo di dare delle idee ai vari VEGETALI o UTENTI SEMI ATTIVI....
+
+      La  prima cosa da fare e` scorrere l'elenco delle aree MSG  e  sceglierne
+ almeno  una che ci interessa... leggere i msg di detta area da  una  settimana
+ indietro od oltre se lo ritenete sufficiente.
+
+      Naturalmente  adesso  arriva il primo dubbio: "Troppo tempo a  leggere  i
+ MSG... non posso!" Allora vi prendere SILVER EXPRESS che lo utilizzate sia che
+ avete  un Amiga o un Msdos... ve lo configurate, e lui in un attimo vi  impac-
+ chetta e comprime i msg dell'area richiesta e ve li manda... voi a casa trova-
+ te  un attimino di tempo leggete e rispondete, poi comprimete e  impacchettate
+ le vostre risposte e le mandate. Nulla di irrealizzabile anche per un modem  a
+ 1200  credo.  Tanto prendere 10k compressi di un area ogni 3/4 giorni  non  mi
+ sembra un danno enorme... ne` una spesa troppo alta da sostenere.
+
+      Quindi chiusa la parentesi (in poche parole sto stroncando tutte le scuse
+ che potete trovare) su come fare a spendere poco per i messaggi proseguiamo il
+ discorso.
+
+      Leggendo i messaggi, troverete delle cose che magari non vi sembrano giu-
+ ste; oppure avete un problema o una soluzione da dare. Anche i VEGETALI avran-
+ no qualcosa da dire: e` impossibile che non si abbia niente da dire in assolu-
+ to. Magari potete parlare di Musica oppure di Calcio, magari parlare di  altre
+ cose inerenti ai vostri Hobby. Credo che i vari SYSOP abbiano pensato a  tutti
+ quando  hanno deciso di fare delle aree ECHO. Adesso sono nate nuove  aree  ma
+ dovete  trovare solo il coraggio di andare oltre al VEGETALE che si annida  in
+ voi e cercare di capire che una BBS non serve solo a vampirizzare.
+
+      Pensate di essere anche per un solo giorno il SYSOP INFELICE che si trova
+ il  BBS infestato di VEGETALI... allora forse capirete che VEGETALE non e`  la
+ strada da intrapendere in Rete e in ogni BBS. Ad esempio ho visto messaggi  di
+ alcuni  utenti SOSPETTI VEGETALI presentarsi a tutti. Magari tanti di voi  non
+ fanno nemmeno questo per paura di essere incompresi o derisi: ma non  preoccu-
+ patevi, questo non succedera`. E a scanso di equivoci un bel :-)))) ci sta be-
+ ne in un messaggio.
+
+      Avevo  paura per chi si era presentato... in effetti, a dire la  verita`,
+ non  mi ha ancora risposto, ma spero che lo faccia.. ma almeno e`  riuscito  a
+ dare il buon esempio a tutti i SOSPETTI VEGETALI e a trovare un'area per  par-
+ lare  un  po'. Lui ha avuto il coraggio di fare quello... adesso tocca  a  voi
+ trovarlo quel coraggio di abbandonare la carriera di VEGETALI e cercare di es-
+ sere almeno SEMIATTIVI per poi aspirare ad essere UTENTI ATTIVI.
+
+      Una  volta che arrivano i msg pero' dovete rispondere a tutti...  se  non
+ sapete  che dire loro ditelo chiaramente nel messaggio di risposta.  [NdE:  in
+ matrix,  grazie!] Infatti io preferisco ricevere un messaggio simile  che  non
+ aver risposta al msg in nessun caso. Una volta poi che vi inserite in  un'area
+ vi fate degli amici con cui parlare e quindi dopo non avrete piu' il  problema
+ di non saper che dire o che fare. A volte dipende anche dal carattere che  uno
+ ha:  magari una persona timida trova difficolta` ad esprimere ad altri i  suoi
+ pensieri.  Ma questo non lo deve bloccare; deve avere la forza di superare  il
+ suo  problema. A volte parlando con altri scoprite cose che forse  non  avrete
+ mai saputo in tutta la vostra vita.
+
+      Logicamente  anche un vero utente deve rispondere ad un msg di  presenta-
+ zione... in caso contrario e` ancora un SEMI ATTIVO... forse chi si presenta a
+ volte non riceve risposta e allora si deprime... forse non trovera piu` il co-
+ raggio  di scrivere altri messaggi e quindi questa volta e` colpa  nostra  che
+ non gli abbiamo risposto (anche se io rispondo sempre a tutti i nuovi utenti).
+ Certo  capita che chi chiama la prima volta non sia mai un VEGETALE...  alcuni
+ sono UTENTI ATTIVI dalla seconda chiamata... perche` loro hanno capito il  di-
+ scorso  della BBS ma soprattutto rispettano il SYSOP che ha fornito il  servi-
+ zio. Io credo che un SYSOP che mette le propria BBS in Rete affrontando quindi
+ la Teleselezione abbia bisogno di queste soddisfazioni!
+
+      Quindi pensate che il vostro SYSOP oltre a darvi un servizio di programmi
+ a casa senza chiedere nulla butta dentro soldi in bollette, computer e  varie;
+ quindi andrebbe in una qualche maniera ricambiato. Egli vi apre la porta verso
+ tanti  nuovi utenti: e` quindi da VEGETALI STUPIDI non approfittarne.  Non  ci
+ vuole  molto a smettere di essere VEGETALI e partecipare come tutti alle  aree
+ messaggi.
+
+ `Dopotutto non bisogna dimenticare che chi offre il servizio vuole almeno  ve-
+ dere  che  usate bene quello che vi ha concesso. A volte rimane  molto  deluso
+ perche`  si trova solo e i suoi sogni sono come frantumati. Magari solo  pochi
+ utenti sono regolari e a volte proprio per quei pochi utenti decide di fare un
+ grande passo e di agganciarsi in Rete con altre Boards. Non dovete  sottovalu-
+ tare la possibilita` che vi offre....
+
+      Ogni  Sysop e` ben lieto di farvi fare un Point: almeno voi non  spendete
+ troppo per smettere di essere VEGETALI e lo ricambiate in un certo senso dimo-
+ strandoli che avete capito il segreto della BBS. A volte si pensa che prendere
+ sia il vero motivo che sostiene la BBS ma e` sbagliato pensare questo.  Oppure
+ se pensate che un Point sia troppo impegnativo e magari non siete in grado  di
+ farvelo...  prendetevi SILVER XPRESS e andate tranquilli. Dico SILVER  perche`
+ e` disponibile per entrambe le macchine: comunque in ogni BBS se cercate  tro-
+ vate  un lettore offline o un point AUTOCONFIGURANTE per voi, fatto da chi  ha
+ gia` passato le grane di settare un point facilitandovi il lavoro.
+
+      Oppure  trovate chi lo usa e che quindi non avra' problemi ad aiutarvi  a
+ settare il vostro point. A volte capita che si pensi che un point sia impegna-
+ tivo.. ma dopotutto in 2 minuti al giorno fate tutto.. per un 2400 si sta den-
+ tro in poco.... vi downlodate 30k compressi invece che prendere un files  pic-
+ colino... mi sembra una cosa molto fattibile. All'inizio consiglio di farvi un
+ SILVER  per capire meglio come funziona la cosa poi al massimo potete fare  un
+ point.. dopo tutto e` quasi identico, a parte che il point offre un pelino  di
+ opzioni in piu'. Ma il lettore OFFLINE del vostro SYSOP e` ottimo per  cercare
+ di smettere di essere VEGETALI.
+
+      Concludendo... provateci almeno a smettere di essere VEGETALI per poco  e
+ scoprirete quanto siete stati stupidi a perdere tutte le belle cose di un vero
+ UTENTE ATTIVO. Non serve molto, basta solo un po' di Buona Volonta.
+
+      Mi raccomando: aspetto giudizi da chi legge... non fate i VEGETALI...  fa-
+ tevi sentire che esistete anche voi in Rete, anche voi avete da dire  qualcosa
+ a  tutti.  Questo e` il posto adatto per parlare di tutto quello  che  volete,
+ senza  dovere andare a cercare chissa` dove. Cercate di mettervi in  testa  di
+ contraccambiare  il  vostro SYSOP per quello che vi ha dato, non  pensate  che
+ tutto  cio` vi sia dovuto. Nulla e` dovuto, ognuno deve produrre per far  cre-
+ scere la Rete in ogni regione.
+
+      Smettete di essere VEGETALI: fate tesoro del vero segreto delle BBS! Tan-
+ to in questi messaggi ho demolito ogni possibile scusa che puo' essere  accam-
+ pata da un VEGETALE.
+
+      Aspetto un vostro giudizio su questo... ultimamente anzi troppe volte  si
+ scrive senza aver risposta e questo non lo capisco... se uno legge perche  non
+ risponde???  Forse perche` una piccola parte di VEGETALE che c'e` in  lui  non
+ smette di deviarlo sulla strada dei problemi.
+
+      A  volte stando in una BBS piena di VEGETALI si diventa  VEGETALI....  ma
+ bisogna  lottare tutti assieme contro questo Virus che miete vittime  in  ogni
+ BBS.  Non dovete infrangere i sogni di un SYSOP non avete il potere di  farlo,
+ non e` giusto infrangere i sogni di altri.. e quindi avete il DOVERE verso chi
+ crede in una BBS di sostenere il sogno del vostro Sysop. Mi sono spieqato?
+
+                                    Fabio Filippi
+                                    2:331/301.0
+ ############                                                               ###
+ ###   7  ###                                   IL GERGO HACKER - PARTE 14  ###
+ ############                                                               ###
+
+      <CP/M>  /see-pee-em/  [Control Program for Microcomputers:  programma  di
+ controllo  per microcalcolatori] s. Un antico sistema operativo (v. <OS>)  per
+ microcalcolatori  scritto dall'hacker Gary Kildall per le macchine  basate  su
+ 8080 e Z80, molto popolare alla fine degli anni '70 per essere poi praticamen-
+ te spazzato via dall'MS-DOS dopo l'uscita nel 1981 del PC IBM (la leggenda di-
+ ce che la compagnia di Kildall perse la sua possibilita` di scrivere il SO per
+ il PC IBM perche` Kindall decise di passare il giorno in cui i  rappresentanti
+ dell'IBM  volevano incontrarlo sfruttando col suo aliante il perfetto  vento).
+ Molte delle sue caratteristiche e convenzioni ricordano fortemente quelle  dei
+ primi sistemi operativi DEC come OS-8, RSTS, e RSX-11. Vedi <MS-DOS>, <operat-
+ ing system>.
+
+      <CPU  Wars> /see-pee-yoo worz/ [Guerre di CPU] s. Un fumetto di Chas  An-
+ dres  che racconta i tentativi degli androidi senza cervello della `IPM'  (Im-
+ possible to Program Machines, macchine impossibili da programmare) per conqui-
+ stare  e distruggere i pacifici abitanti di HEC (Human  Engineered  Computers,
+ calcolatori  creati dagli umani). Questa allegoria piuttosto trasparente  con-
+ teneva  molti riferimenti ad ADVENT e l'immortale battuta "Eat flaming  death,
+ minicomputer mongrels!" [consumate una morte fiammeggiante, bastardi  minicom-
+ puter  (?)] pronunciata, naturalmente, da un soldato di assalto IPM. E`  stato
+ affermato  che l'autore ha ricevuto una lettera di  apprezzamento  dall'allora
+ capo  dei laboratori di ricerca Thomas J. Watson dell'IBM (allora come  adesso
+ una delle poche isole di vero hackerismo nell'arcipelago IBM). L'occhiello in-
+ feriore  della B nel logo IBM, si dice, era stato bianchettato  accuratamente.
+ Vedi <eat flaming death>.
+
+      <cracker>:  s.  Chi viola la sicurezza di un sistema. Creato  intorno  al
+ 1985 dagli hacker in difesa contro il misuso giornalistico di <hacker> (v. si-
+ gn.  #7).  C'era stato un tentativo precedente, intorno al 1981-82,  di  usare
+ `worm' in questo significato in USENET, che era fallito.
+
+      <crash>: 1. s. Un fallimento improvviso, di solito drastico. Detto  molto
+ spesso del <system> (v. sign. #1), a volte dei dischi magnetici. "Tre  <luser>
+ hanno  perso i loro files nel crash dell'altra notte". Un crash di disco  dato
+ dalle  testine  di lettura/scrittura che cascano sulla  superficie  del  disco
+ grattando  via l'ossido puo` anche essere detto `head crash' [crash delle  te-
+ stine],  mentre il termine `system crash' [crash di sistema] di solito,  anche
+ se non sempre, implica che e` stato il sistema operativo o comunque del  soft-
+ ware a malfunzionare. 2. [cascare] vi. Fallire improvvisamente. "E` cascato il
+ sistema in questo momento?" V. <down>. Usato anche transitivamente per indica-
+ re  la  causa del crash (di solito una persona o un  programma,  o  entrambi).
+ "Quegli  idioti che giocano a <SPACEWAR> hanno fatto cascare il  sistema".  3.
+ vi.  Detto a volte di gente fuori di testa dopo un lungo <hacking  run>:  vedi
+ <gronk> (sign. #4).
+
+      <crawling  horror> [orrore strisciante]: s. Hardware o software antico  e
+ crostoso che e` ormai oltre il controllo degli hacker e che un sito rifiuta di
+ lasciare morire. Come <dusty deck> o <gonkulator>, ma connota la cosa descrit-
+ ta non come una semplice irritazione ma un'attiva minaccia alla salute e  alla
+ sanita`.  "Per lo piu` scriviamo in C, ma ci pagano per mantenere  una  grande
+ applicazione in FORTRAN II che data dal millenovecentosessanta e rotti che  e`
+ un vero c.h. ...". Confr. <WOMBAT>.
+
+      <cray>  /kray/: s. 1. (propriamente maiuscolo) Una delle linee di  super-
+ calcolatori  creati dalla Cray Research. 2. Un qualunque supercomputer. 3.  La
+ canonica (v. <canonical>) macchina <number crunching>.
+
+ Il termine e` per la precisione il cognome di Seymour Cray, un notabile archi-
+ tetto di calcolatore e cofondatore della azienda. Molte vivde leggende circon-
+ dano il suo nome, alcune vere e alcune in realta` inventate dalla Cray Resarch
+ per rafforzare la loro immagine di societa`.
+
+      <cray instability> [instabilita` crayesca]: n. Difetto di un programma  o
+ algoritmo  che si manifesta solo quando viene fatto girare un grande  problema
+ su  una macchina potente. Di solito piu` sottile dei bachi che possono  essere
+ trovati con problemi piu` piccoli fatti girare su una workstation o un mini.
+
+      <crayon> [crayone]: s. 1. Uno che lavora sui Cray. Piu`  specificatamente
+ implica  un programmatore, probabilmente della stirpe deil CDC,  probabilmente
+ maschio, e che quasi certamente indossa una cravata (qualunque sia il suo  ge-
+ nere).  I tipi con un background su UNIX non sono generalmente descritti  come
+ crayoni.  2. Un <computron> che partecipa solo nel <number-crunching.. 3.  Una
+ unita` di potenza computazionale pari a quella di un singolo Cray-1. C'e`  uno
+ scherzo comune che si rifa` a una pubblicita` della Cray: comperando 64  cray-
+ oni si ha in regalo un temperino.
+
+      <creationism> [creazionismo]: s. La (falsa) credenza che progetti  grandi
+ e innovativi possano essere completamente specificati in anticipo e quindi ti-
+ rati  fuori senza sforzo dal normale sforzo di una squadra di  progettisti  di
+ talento.  In realta`, l'esperienza ha ripetutamente mostrato che i buoni  pro-
+ getti nascono solo dall'interazione evolutiva ed esplorativa tra un solo (o al
+ piu` un gruppetto) progettista eccezionalmente abile e una popolazione  attiva
+ di utenti - e che il primo tentativo con una nuova grande idea sia sempre sba-
+ gliato.  Sfortunatamente, poiche` queste verita` non combaciano con i  modelli
+ pianificati e adorati del <management>, sono generalmente ignorate.
+  
+      <creeping  elegance>  [evidenza strisciante]: Descrive una  tendenza  per
+ parti di un progetto a diventare <elegant> oltre il punto di ritorno diminuito
+ (cioe`, il costo aggiuntivo e` maggiore dei benefici). Questo capita spesso  a
+ spese di parti meno interessanti del progetto, scheduling, e altre cose  repu-
+ tate  importanti nel <Real World>. Vedi anche <creeping  featurism>,  <second-
+ system effect>, <tense>.
+
+      <creeping featurism> /kree'ping fee'ch@r-izm/ [carattericismo  striscian-
+ te]: s. 1. Descrive una tendenza sistematica a caricare piu` <chrome> e <feat-
+ ure>  nei sistemi, alle spese di qualunque eleganza potessero avere  posseduto
+ quando  erano state originariamente progettate. Vedi anche  <feeping  creatur-
+ ism>.  "Sai, il problema con lo UNIX <BSD> e` sempre stato il c.f.".  2.  Piu`
+ generalmente, la tendenza per tutto cio` che e` complicato a diventare  ancora
+ piu`  complicato perche` la gente continua a dire "Ehi, come sarebbe bello  se
+ ci  fosse anche questa feature". (V. <feature>). Il risultato e` di solito  un
+ coacervo, perche` e` cresciuto un pezzetto ad hoc alla volta, invece di essere
+ pianificato. Pianificare e` un bel po` di lavoro, ma e` facile aggiungere solo
+ una  piccola feature per accontentare qualcuno... e poi un'altra...  e  un'al-
+ tra... Quando il c.f. sfugge dalle mani, e` come un cancro. Di solito il  ter-
+ mine  e` usato per descrivere i programmi, ma puo` anche essere detto del  go-
+ verno, del 740, e delle macchine nuove. Un fenomeno simile alle volte affligge
+ anche le riprogettazioni consce; v. <second-system effect>. V. anche <creeping
+ elegance>.
+
+      <cretin>: /kre'tn/ or /kree'tn/ s. Perdente (<loser>) congenito: una per-
+ sona disgustosa; uno che non riesce a fare niente di giusto. E` stato osserva-
+ to che molti americani tendono a favorire la pronuncia inglese ("cretn") inve-
+ ce che quella americana standard ("critn"); si pensa che cio` derivi dalla in-
+ sidiosa influenza fonetica dei Monty Phyton.
+
+      <crippleware> [da crippled, mutilato]: n. Software a cui e` stata delibe-
+ ratamente tolta qualche importante funzionalita`, per convincere i  potenziali
+ utenti di pagare per una nuova versione. Vedi anche <guiltware>.
+
+      <critical mass> [massa critica]: s. In fisica, la minima quantita` di ma-
+ teriale fissile richiesta per sostenere una reazione a catena. Di un  prodotto
+ software,  descrive una condizione tale che fissare un baco ne  introduce  uno
+ piu`  <epsilon>.  Quando il software raggiunge la m.c., puo` solo  essere  ri-
+ scritto da capo.
+
+      <crlf>:  /ker'l@f/, a volte /kru'l@f/ o /see-ar-el-eff/ n. (spesso  maiu-
+ scolo:  `CRLF') Un carriage return (CR) seguito da un line feed (LF). Piu`  in
+ generale, quello che serve per passare dalla fine di una linea di testo all'i-
+ nizio  della seguente. Vedi <newline>, <terpri>. Con l'influenza  <UNIX>,  che
+ usa un semplice line feed come `CRLF', l'uso va scomparendo.
+
+      <crock>: [rottame] s. 1. Una orribile feature o tecnica di programmazione
+ che  dovrebbe essere chiarita. Es.: usare interi piccoli per  rappresentare  i
+ codici  di errore senza che il programma li interpreti per l'utente  (come  il
+ `make(1)'  UNIX che ritorna il codice 130 per un processo che muore per  <seg-
+ fault>).  2. Una tecnica che funziona accettabilmente, ma che fallisce  facil-
+ mente se appena disturbata, per esempio dipendente dal fatto che i codici mac-
+ china  hanno delle certe patterne di bit in modo tale che si possono usare  le
+ istruzioni come parole di dati: Una struttura intricata, quasi impossibile  da
+ modificare.  Vedi <kluge>. Anche negli aggettivi `crockish' e `crocky',  e  il
+ nome `crockitude'.
+
+      <cross-post>: [USENET: crosspostare] vi. Postare un singolo articolo  di-
+ retto a diversi newsgropus. Distinto dal postare piu` volte lo stesso  artico-
+ lo, il che lo fa vedere piu` volte alla gente. Il c.p. non e` molto ben visto,
+ perche` causa gli articoli di <followup> a finire in newsgroup  inappropriati,
+ quando  la gente risponde solo a una parte del posting originario (a meno  che
+ l'originatore non abbia specificato un newsgroup per followup).
+
+ ############                                                               ###
+ ###   8  ###                                     NOTIZIE FIDONET REGION 33 ###
+ ############                                                               ###
+
+ Cominciamo  con  la  release iniziale  (che  sicuramente  proseguira`,  vero?)
+ dell'albero della gestione degli eventi Fidonet:
+
+ Angelo Besani   Franco Schinco   Alfredo Berlusconi  ???????
+ 2:331/101       2:334/100        2:331/112           2:33x/y
+
+ Presentano: L' Albero degli eventi Fido-net
+
+    EVENTI  MATRIX : NB: "E" significa che oltre alla Matrix
+                          viene prelevata anche la posta Echo.
+ --------------------------------------------------------------------
+      Super-BB      BB-host       NODI-VIP       HUB            NODI
+ --------------------------------------------------------------------
+
+                                                           |<-- 101 E
+                                                           |<-- 102 E
+                                             |-> 334/100 E-|<-- 103 E
+                                             |             |<-- 104 E
+                                             |             |<-- 105 E
+                                             |             |<-- 106 E
+                                             |
+                            |---> 334/6 E    |             |<-- 201 E
+                            |                |             |<-- 202 E
+           -------- 334/0 E |--------------->|-> 334/200 E-|<-- 203 E
+           |                |                |             |<-- 204 E
+           |                |---> 334/1 E    |             |<-- 205 E
+           |                                 |
+           |                                 |             |<-- 301 E
+           |                                 |             |<-- 305 E
+           |                                 |-> 334/300 E-|<-- 306 E
+           |                                               |<-- 307 E
+           |
+           |
+           |
+           |
+           |                                               |<--
+           |                                               |<--
+           |                                               |<--
+           |                                               |<--
+           |                                               |<--
+           |                |---> 331/104 E                |<--
+           |                |---> 331/108 E   |-> 331/201 -|<--
+           |                |---> 331/109 E   |            |<--
+          \|/               |                 |            |<--
+ .-> 331/101 ---------------|---------------->|
+ |  /|\/|\/|\               |                 |            |<--
+ |   |  |  |                |---> 331/111 E   |-> 331/301 -|<--
+ |   |  |  |                |---> 331/306 E                |<--
+ |   |  |  |                |
+ |   |  |  |                |---> 331/110 E ---> 331/105 E ---> 331/112 E
+ |   |  |  |                                                       |
+ |   |  |  |                                                      \|/
+ |   |  |  |                                                    331/115 E
+ |   |  |  |
+ |   |  |  |
+ |   |  |  |
+ |   |  |  |
+ |   |  |  |--------------------------------------------------> 333/100
+ |   |  |                                                       Gate I/O
+ |   |  |                 |                                     (Austria)
+ |   |  |<--------- 333/1 |
+ |   |                    |
+ |   |
+ |   |
+ |   |                                                    |<--
+ |   |<----------------------------------------- 332/500 -|<--
+ |   |<-------------------------- 332/504                 |<--
+ |   |<-------------------------- 332/401 E1
+ |   |<-------------------------- 332/2 E
+ |   |
+ |   |                    |
+ |   |<------------ 332/1 |
+ |                        |
+ |                        |
+ |
+ |
+ |<------------------------------- 335/12 E1
+ |<------------------------------- 335/4 E
+ |
+ |                         |
+ |<----------------- 335/0 |
+                           |
+
+
+                *** network 332 ***
+
+      Giovanni Lopes scrive:
+
+      La notizia non e` delle piu` fresche, ma visto che queste note non  hanno
+ fatto a tempo ad essere pubblicate sul numero di marzo, e` senz'altro l'ora di
+ annunciare al mondo intero (e anche alla Galassia, gia` che ci siamo) che  Ma-
+ rio  Mure` e` stato eletto NEC (Net Echomail Coordinator) del net 332,  "rile-
+ vando"  l'incarico  da Luca Favilli. E' stato cambiato anche la  "route"  del-
+ l'echomail:  finora i due backbone erano i bbs di Franco Mulato  (332/1,  aree
+ internazionali)  e Favilli (332/2, aree nazionali). Il nuovo backbone  per  le
+ aree  nazionali  e` adesso il nodo di Mure`, cha ha  anche  preso  l'indirizzo
+ 332/2. Piccoli cambiamenti sono stati fatti anche negli orari di chiamata  de-
+ gli  hub sui backbone. Ma non e` tutto: sono aperte anche le elezioni  per  il
+ nuovo  NC  (Net Coordinator); i risultati saranno pubblicati molto  presto,  i
+ candidati sono (in ordine alfabetico) Mario Battacchi, Andrea Mennini,  Franco
+ Mulato (NC uscente) e Vincenzo Ninci.
+
+      Nel  332 sono nate due nuove area messaggi: la prima e` la  WIN_PROF.332,
+ moderata  da Roberto Bianchi. Scopo dell'area e` parlare di Windows ad un  li-
+ vello  superiore a quello della WINDOWS.ITA; la WIN_PROF.332 e` stata  pensata
+ soprattutto  per i programmatori che sviluppano per Windows o per  coloro  che
+ intendono avvicinarsi all'ambiente Windows dal punto di vista della programma-
+ zione. L'intento dichiarato e` quello di promuovere l'area fino a farla diven-
+ tare nazionale; ovviamente l'istituzione di aree parallele negli altri net sa-
+ ra`  graditissima..... La seconda area e` la CARTONI.332, dedicata ai  cartoni
+ animati e ai film d'animazione: pare che in FUMETTI.ITA si sentisse l'esigenza
+ di un'area specifica....
+
+      Un "nuovo ingresso" nel net e` rappresentato dal 332/315, SuperBBS  Pesa-
+ ro, che risponde allo 0721/30783 per 24 ore al giorno. Il bbs e` un organo  di
+ supporto  del Computer Club Pesaro, associato all'ARCI. Vi si possono  trovare
+ aree files per Ms-Dos e Amiga, Gif, animazioni, materiale per Soundblaster; ci
+ sono  anche  alcune doors. Il modem e` un 9600 V32 e il software  di  gestione
+ e`... beh, non e` difficile immaginarselo!
+
+
+                *** network 333 ***
+
+      Piero Budicin e` stato telegrafico:
+
+      E'  stato votato il nuovo NEC con 9 voti: Adolfo Melilli. Non saprei  co-
+ s'altro dirti leggendo la nostra netsysop.
+
+      In  realta`  mi ha anche forwardato un matrix del nuovo (?)  NEC  che  si
+ chiedeva  cosa  noi curiosoni di telematicus volessimo sapere  di  quello  che
+ succede da loro. Dai, Melillo`, un poco di glasnost! (e saluti ad Andrea)
+
+
+                *** network 334 ***
+
+      Le ultime riunioni mensili per questo anno bbsistico si terranno  lunedi`
+ 4  maggio e lunedi` prino giugno, sempre alle ore 21, presso il CRDC  di  C.so
+ Sicilia 12 a Torino. Ricordo ai lettori che alla fine della (generalmente bre-
+ ve  :-) ) riunione si va sempre a prendersi una birra, e che quindi la  serata
+ non e` da definirsi completamente perduta...
+
+
+                *** network 335 ***
+
+      Giorgio  Rutigliano mi avvisa che non e` successo nulla di importante,  e
+ che  se  qualcuno vuole prendersi lui l'incarico di spedirmi  le  notizie,  ne
+ sarebbe assai contento... capito mi avete?
+
+
+
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:   
+
+ 334/100 - 011-3299706     | 334/1   - 011-5765565     | 331/112 - 0341-360511
+ 333/603 - 040-3783111
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/0   - 011-5765568     | 334/306 - 0121-542795     | 335/210 - 081-5709527
+ 335/405 - 06-315323    
+
+
+
+
+####                            End of TELEM017                            ####

@@ -1,0 +1,998 @@
+    *****   Vol.  1   *****      Pag.  1      *****   Numero  11   *****
+
+    ====================================================================
+
+    @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+      @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+      @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+      @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+      @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+    ====================================================================
+
+                                 Novembre 1991
+
+    ====================================================================
+
+      Bollettino telematico mensile a cura del network 2:334 - Fidonet 
+
+                 Editor prezzemolus:    Maurizio Codogno
+                 Editor pacchettus:     Alfredo Berlusconi
+                 Editor redivivus:      Roberto Piola
+                 Editor mondinus:       Renato Rolando
+                 Editor hospes:         Raffaello Valesio
+                 Collaboratori:         Tutti voi :-)
+
+    --------------------------------------------------------------------
+
+                            IN   QUESTO   NUMERO :
+
+    Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .  pag.  2
+    La Pipbase, di Roberto Piola  .   .   .   .   .   .   .   .  pag.  3
+    Itapac - parti 6 e 7, di Alfredo Berlusconi   .   .   .   .  pag.  5
+    Vivamiga, di Renato Rolando   .   .   .   .   .   .   .   .  pag.  9
+    Il programmino, di Roberto Piola  .   .   .   .   .   .   .  pag. 11
+    Lettere a Telematicus .   .   .   .   .   .   .   .   .   .  pag. 12
+    Curiosita`: Il gergo hacker - parte 8 .   .   .   .   .   .  pag. 14
+    Notizie dal net 334   .   .   .   .   .   .   .   .   .   .  pag. 17
+    I nostri bbs  .   .   .   .   .   .   .   .   .   .   .   .  pag. 18
+
+    ====================================================================
+
+         Il materiale presente in Telematicus e` (C) dei singoli autori.
+    E` espressamente  consentita  la  distribuzione  e il riutilizzo del
+    bollettino  in  tutto  o in  parte,  purche` non  a fini di  lucro e
+    citando sempre la fonte di provenienza. 
+
+    *****   Vol.  1   *****      Pag.  2      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                       -----> EDITORIALE 
+                                                              ==========
+
+         Carissimi lettori,
+    scusate per il ritardo, ma aspettavo dei pezzi per questo numero che 
+    come  potete  notare non sono arrivati :-( Come  pretendete  che  un 
+    povero Editor incastrator abbia voglia di portare avanti una rivista 
+    se i suoi collaboratori non collaborano?
+
+          In  ogni  caso,  potete sempre trovare le  rubriche  fisse  di 
+    Renato  Rolando (che se ne era andato a fare la mondina per  potersi 
+    comprare  l'USR Dual Standard, ma non ditegli che ve l'ho detto!)  e 
+    di  Alfredo Berlusconi. Il Piola, tornato piu` in forma che mai,  ci 
+    delizia  con  il racconto della sua PipBase e  con  il  programmino; 
+    nelle  lettere abbiamo un contributo di Raffaello Valesio,  ispirato 
+    dei Blowenfusen del numero precedente, e di un anonimo il cui  stile 
+    penso  sia  pero` facilmente riconoscibile...  Continua  inoltre  la 
+    traduzione del Gergo Hacker.
+
+          Ma  la notizia piu` senzazionale e` nella rubrica Notizie  dal 
+    Net  334.  TamTam partecipera` al SALONE NUOVE TECNOLOGIE  a  Torino 
+    Esposizioni!!!  Venite  numerosi, cosi` avrete  la  possibilita`  di 
+    esprimere  il vostro disprezzo per Telematicus e  magari  iscriversi 
+    all'Associazione (che con Telematicus non ha alcun collegamento,  se 
+    non  che  sono  in pratica le stesse  persone)  per  rimpinguare  le 
+    desertiche  casse sociali.
+
+          ciaociao .mau.
+
+    *****   Vol.  1   *****      Pag.  3      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                       -----> LA PIPBASE
+                                                              ==========
+
+          La  degenza  in  ospedale (su cui ho pure  scritto  un  diario 
+    piuttosto  caustico,  disponibile su Tecnosoft BBS  e  magari  anche 
+    altrove)  mi da' il tempo di riprendere in mano la tastiera del  mio 
+    fedelissimo  Z88 e tornare a scrivere un pezzo per la nostra  grande 
+    rivista  di  net.  [NdE: cosa non farebbero  gli  editor  per  farsi 
+    benvolere dal capo...]
+
+          Molti  di  voi avranno notato nella mia  tearline,  nelle  mie 
+    origin  e nei miei messaggi i nomi "PipBase" e  "PipReply".  Ammetto 
+    che  le  informazioni  da me rilasciate in  certe  aree  (forse,  se 
+    seguiste  tutte  le  aree in cui scrivo e faceste anche  un  po'  di 
+    filerequests da me, ne sapreste qualcosa di piu') si sono dimostrate 
+    un  po' lacunose, e vedo di correre ai ripari con un  bell'articolo. 
+    Contenti?
+    Il termine PipBase identifica - giusto per imbrogliare ulteriormente 
+    le  idee - due cose: un nuovo tipo di message base ed  il  programma 
+    per gestirla.
+
+          Iniziamo  ad  introdurre la message base: gia' piu'  volte  il 
+    fido  cosysop  Elio Fenoglio aveva accennato  alla  possibilita'  di 
+    avere  una  message base di nuovo tipo, che unisse  la  mancanza  di 
+    limitazioni  della  fidobase  con la  compattezza  della  quickbase, 
+    aumentata  mantenendo  i  messaggi in  formato  COMPRESSO.  (Per  la 
+    differenza  tra QuickBase e fidobase, Elio scrisse gia' un  articolo 
+    per Telematicus: vi rimando a quello).
+          Io avevo nicchiato a lungo, spaventato dalla mole di lavoro  e 
+    dalle difficolta' necessarie per definire (e far accettare) un nuovo 
+    standard,  ma  in  AtomAnt,  il  point  su  Z88,  avevo  pian  piano 
+    implementato i concetti della PipBase, senza pensarci, spinto  dalla 
+    ristrettezza  di  spazio. Una notte, alle due (ora classica  per  le 
+    illuminazioni), mi sveglio di soprassalto: "Ma allora ho  realizzato 
+    quel sogno!".
+          Il  primo  accenno l'ho fatto quella mattina  stessa  in  area 
+    WMAIL.334  (ehm, nessuno tiene l'archivio dell'area?  mi  piacerebbe 
+    ritrovare  la  data esatta, per inserirla nella documentazione  e  - 
+    ovviamente - anche per poi festeggiare il compleanno) con il  mitico 
+    messaggio dal subject "FERMATEMI, PRIMA CHE SIA TROPPO TARDI" a  cui 
+    sono seguiti il reply del nostro ottimo editore: "FERMATELO!!!!!!!!" 
+    ed  il  mio  "E'  TROPPO  TARDI" in  cui  iniziavo  a  delineare  le 
+    strutture.  [NdE: io ci avevo tentato, ma fermare il Piola  e`  piu` 
+    difficile che smuovere Andreotti da una poltrona]
+
+          I concetti fondamentali sono questi:
+
+    -  Per  ogni  area,  tutti i messaggi  vengono  messi  in  un  file, 
+    compresso, a cui e' associato un indice, non compresso che velocizza 
+    e semplifica tutte le operazioni.
+
+    - Il compattatore che ho usato e' lo stesso implementato sullo  Z88: 
+    non  comprime  molto, ma e' *VELOCE* e per *VELOCE* intendo  che  lo 
+    scompattatore,  eseguito su di un 8 bit, e' piu' veloce di un  type, 
+
+    *****   Vol.  1   *****      Pag.  4      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    ed il compattore non e' molto piu' lento di un 
+                    while(!feof(in)) fputc(fgetc(in),out);  
+    La  struttura  della PipBase consente comunque  di  impiegare  altri 
+    compattatori;  al limite pure compattatori esterni, come magari  ARJ 
+    (vorrei pero' farvi notare che sarebbe abbastanza tedioso  attendere 
+    uno swap su disco per liberare la memoria, una scompattazione di arj 
+    ed il recupero della memoria swappata, ogni volta che premete curso-
+    re a destra per leggere il prossimo messaggio).
+
+    - Ai files sopra detti si aggiunge un file di indice ulteriore,  per 
+    la  ricerca  rapida dei messaggi indirizzati ad una  certa  persona; 
+    questo file e' unico per tutte le aree. I points potrebbero trovarlo 
+    non necessario, ma per i BBS e' indispensabile.
+
+          Le limitazioni della QuickBase erano il numero massimo di  200 
+    aree che in totale potevano avere un massimo di 32768 messaggi,  per 
+    un'occupazione  complessiva massima di 16 MB; la PipBase  sposta  il 
+    limite  a 32768 aree, ciascuna delle quali puo' avere fino  a  32768 
+    messaggi;  ogni area puo' totalizzare 32 Megabytes e  l'intera  base 
+    messaggi puo' toccare i 4 Gigabytes. Si', c'e' ancora qualche  limi-
+    tazione, ma penso che possa bastare per tutti per molto tempo  anco-
+    ra... (N.B.: tenete presente che le dimensioni massime di 32 MB e  4 
+    GB si riferiscono a files compressi).
+
+          Esaminiamo ora il programma PipBase: e' inteso come  programma 
+    che fa di tutto. Le funzioni principali sono:
+
+    - creazione della base messaggi e sua configurazione
+
+    - inserimento,  lettura  e cancellazione di un  messaggio,  che  non 
+    intendono pero', per la loro rozzezza, sostituire l'editor.
+
+    - scanning dei messaggi per trovare quelli nuovi
+
+    - purging per eliminare i messaggi piu' vecchi di un tanto (come  da 
+    configurazione)
+
+    - packing per ripulire il disco dai messaggi marcati come cancellati
+
+    - import/export di netmail ed echomail; al momento e' previsto  come 
+    front  end solo Front Door/D'Bridge; sto  sviluppando  l'interfaccia 
+    verso Binkley (che puo' comunque essere usato, su points, disponendo 
+    anche  di OMMM, Confmail, Qmail, Wmail o simili per gestire  i  file 
+    attaches, e qualche funambolismo di .bat per svuotare l'outbound...
+
+    - rigenerazione degli indici e recupero della base messaggi in  caso 
+    di corruzione (ci sarebbe da scrivere un articolo solo sulle  tecni-
+    che di recupero di Quick e PipBase...)
+
+    - Areafix
+
+    - GhostWriter e gestione delle ricevute di ritorno
+
+    - help integrato su tutte le funzioni (non c'e' quasi manuale)
+
+
+    *****   Vol.  1   *****      Pag.  5      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    Ovviamente tutto questo non sarebbe servito a nulla senza un  editor 
+    per  leggere e scrivere i messaggi, ed ecco cosi' nascere  PipReply: 
+    un  editorino che non ha molte pretese ma che si distingue  comunque 
+    per qualcosa:
+
+    - Configurazione: la configurazione di PipReply si appoggia su quel-
+    la  di PipBase: l'unica informazione aggiuntiva che siete  tenuti  a 
+    comunicargli  e'  qual e' il vostro editor di testo  preferito  (che 
+    verra' usato per editare i vostri messaggi).
+
+    - Quote personalizzato: quando quotate un messaggio, potete stabili-
+    re  di  farlo in maniera differente per ognuno dei vostri  amici  (o 
+    nemici): simpatico, no?
+          Gasp, sono gia' arrivato a piu' di due pagine... sara'  meglio 
+    che tronchi qui (anche perche' sta arrivando la suora con il  sirin-
+    gone  delle 4, ahia!)... per ulteriori informazioni ci  sentiamo  in 
+    aree  messaggi (preferibilmente TECH_NET o BBS_SOFT, oltre alla  ma-
+    trix  ed alle aree locali di Tecnosoft: per un misterioso motivo  la 
+    POINT  non riesce ad arrivare al mio BBS: mi sono areafixato ma  non 
+    arriva  nulla...), oppure filerequestate il magic PIPBASE sempre  su 
+    Tecnosoft  (ma presto, quanndo ci sara' una versione stabile  e  ben 
+    debuggata, la immettero' in ISN), accompagnato da FDINSTPT.ARJ (gui-
+    da  ed  esempi per l'installazione di un point con FD+PipBase:  3  K 
+    preziosissimi).
+
+    @   @
+            Ciao.               Roberto Piola, 2:334/306 (.0, .1 o .666)
+    \___/ 
+
+
+                                                           -----> ITAPAC
+                                                                  ======
+
+                    I Parametri del PAD (2)
+                    -----------------------
+                                           
+          PARAMETRO 6 - MESSAGGI DI SERVIZIO
+
+          Il PAD puo` generare durante il collegamento dei messaggi  che 
+    vengono  trasmessi al terminale in base al valore di questo  parame-
+    tro.
+
+          Valori possibili:
+               0 nessun messaggio
+               1 solo messaggi di servizio
+               5 segnali di servizio e prompt
+
+    Vi  capitera` spesso che durante una sessione con l'host, Itapac  si 
+    intrometta  con un" *RESET", questo significa che momentanea-  mente 
+    (anche per pochi secondi) la chiamata viene posta in Reset e  quindi 
+    riabilitata automaticamente: l'asterisco e` il prompt e RESET e`  il 
+    messaggio di servizio: a volte il prof 3 che pure ha il prompt atti-
+    vo manda solo il segnale di servizio (e` una delle tante  deficienze 
+    di Itapac).
+
+    *****   Vol.  1   *****      Pag.  6      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+          PARAMETRO 7 - GESTIONE DEL "BREAK"
+
+          In alcuni terminali e` previsto l'invio del segnale di  break. 
+    Questo  segnale  e` generato dal modem come un tono  continuo  della 
+    durata  di  circa 20 millisecondi.  Non si tratta  di  un  carattere 
+    ASCII  ma  di un segnale che forza a 1 la linea TX  per  il  periodo 
+    prefissato.
+
+          Valori possibili: (in prof 3, default=21)
+               0 nessuna azione
+               1 interrupt
+               2 reset parametri secondo profilo
+               8 uscita da fase dati
+               21 scarto pacchetto,interrupt e messaggio di "break"
+
+
+          PARAMETRO 8 - SCARTO DATI IN USCITA
+
+          Puo`  darsi che la comunicazione sia unidirezionale o  non  ci 
+    interessi  ricevere  nessun carattere durante il  collegamento:  con 
+    questo  parametro possiamo programmare lo scarto dei dati in  arrivo 
+    direttamente sul PAD.
+
+          Valori possibili: (in prof 3, default=0)
+               0 nessun scarto 
+               1 scarto
+
+
+          PARAMETRO 9 - RITARDO IN RICEZIONE (RIEMPIMENTO DOPO RETURN)
+
+          Fra  i vari dispositivi previsti per la connessione alla  rete 
+    ci sono anche le stampanti e questo parametro e` stato appositamente 
+    predisposto per loro. Dopo ogni carattere di Carriage Return il  PAD 
+    invia  una  serie di caratteri nulli per dare tempo  alla  meccanica 
+    della stampante di posizionarsi ad inizio riga. Il numero di  carat-
+    teri inviati corrisponde al valore del parametro.
+
+          Valori possibili:   da 0 a 7 (in prof 3, default=2)
+                                  
+          Per chi utilizza stampanti collegate direttamente sulla seria-
+    le e con scelta del parametro 8 settato a 1, consiglio di  aumentare 
+    questo  valore in funzione della velocita` della stampante,  soprat-
+    tutto se di tipo vecchio e quindi lenta e senza buffers.
+
+
+          PARAMETRO 10 - CARATTERI DI RIEMPIMENTO
+
+          Ancora per la stampa, questo parametro contiene il numero  dei 
+    caratteri  di riempimento che il PAD ci inviera` all'inizio di  ogni 
+    riga. Questo parametro serve per gestire un minimo di  impaginazione 
+    sui terminali a stampante. Questa funzione inoltre permette una cosa 
+    interessante:  fa si che Itapac invii automaticamente un <return>  e 
+    un <line feed> quando per ogni linea vengono superati un certo nume-
+    ro di caratteri.
+
+    *****   Vol.  1   *****      Pag.  7      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+          Valori possibili: (in prof 3, default=80 caratteri per linea)
+               0 = nessun ripiegamento e nessun invio di CR+LF.
+               1-255 = numero di caratteri per linea
+
+
+          PARAMETRO 11 - VELOCITA` EFFETTIVA
+
+          Il  baud rate del modem non corrisponde obbligatoriamente  con 
+    la velocita` di trasmissione dei dati, condizionata dal terminale  a 
+    cui  il modem e` collegato. Per questo motivo il PAD analizza i  due 
+    Carriage Return inviati all'inizio del collegamento per  individuare 
+    l'effettiva velocita` di ricetrasmissione. Questo parametro e` asso-
+    lutamente di solalettura.
+
+          Valori possibili:
+               0    110 bit/sec
+               2    300 bit/sec
+               3   1200 bit/sec 
+               4    600 bit/sec  
+               6    150 bit/sec  
+               8    200 bit/sec  
+              10     50 bit/sec
+
+    Di  solito,  a  1200 baud par? da` valore 3, ma mi  e`  capitato  di 
+    ottenere un valore di 4 o addirittura di 2...)
+
+
+          PARAMETRO 12 - CONTROLLO XON-XOFF LOCALE
+
+          Il  parametro  5 controlla l'invio dei caratteri di Xon  e  di 
+    Xoff  da parte del PAD mentre questo parametro permette la  gestione 
+    del flusso dei dati da parte del nostro terminale. In questo caso se 
+    il  parametro e` ad 1 potermo controllare il flusso di  dati  prove-
+    niente dal PAD e la rete provvede alla bufferizzazione dei  pacchet-
+    ti.
+
+          Valori possibili: (in prof 3, default=1)
+               0 disabilitato
+               1 abilitato tramite xon-xoff 
+
+
+          PARAMETRO 13 - LINE FEED E CARRIAGE RETURN
+
+          Questo  parametro  e` il responsabile di tutti i  problemi  di 
+    ritorno carrello e avanzamento riga sia su video che su stampante  : 
+    ogni  servizio ha il suo particolare modo di gestire gli "a capo"  e 
+    su  video si ha spesso una errata visualizzazione con righe  sovrap-
+    poste o a doppia spaziatura. Variate questo parametro per riordinare 
+    i  Line Feed sapendo che il profilo 3 imposta questo parametro a  5. 
+    Negli UL/DL deve essere necessariamente settato a 0!
+
+          Valori possibili: (in prof 3, default=5)
+               0 nessun Line Feed inserito dalla rete
+               1 inserzione di un LF dopo i CR tx dall'host verso noi
+
+    *****   Vol.  1   *****      Pag.  8      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+               4 inserzione di un LF dopo i CR in eco dal PAD per noi
+               5 inserzione di un LF dopo i CR sia dall'host che in eco
+               6 inserzione di un LF dopo un CR dal terminale e dopo un
+                 CR in eco dal PAD
+               7 inserzione di un LF dopo i CR trasmessi o ricevuti sia
+                 ricevuto sia nei Dati che in Eco.
+
+
+          PARAMETRO 14 - AVANZAMENTO CARTA
+
+          Ancora  un parametro per terminali a stampa diretta: per  dare 
+    tempo  alla stampante di fare avanzare la carta il PAD puo`  inviare 
+    dei  caratteri nulli fino ad un massimo di 7 dopo ogni carattere  di 
+    Line Feed.
+
+          Valori possibili:   da 0 a 7 (in prof 3, default=1)
+
+
+          PARAMETRO 15 - EDITING
+
+          Per  ottimizzare  l'invio dei pacchetti  in  collegamenti  non 
+    automatizzati,  il  PAD puo` essere programmato per dare  accesso  a 
+    delle  rudimentali  funzioni di editing della stringa  di  caratteri 
+    corrente.  Se il parametro e` a 1 possiamo intervenire  direttamente 
+    con i tasti cursore sulle stringa che stiamo trasmettendo prima  che 
+    questa venga assemblata in pacchetto ed inviata. L'editing se attivo 
+    e` richiamato col carattere definito nel parametro 19.
+
+          Valori possibili: (in prof 3, default=0)
+               0 editing inibito 
+               1 editing abilitato
+
+
+          PARAMETRO 16 - DELETE
+
+          Il  codice  di cancellazione DEL (ASCII 127) puo`  non  essere 
+    disponibile  sul vostro terminale. E` percio` possibile definire  un 
+    carattere alternativo per la cancellazione che il PAD  interpretera` 
+    come comando di editing e non inviera` all'host. Per evitare l'invio 
+    di pacchetti incompleti dovete anche verificare il valore del  para-
+    metro 3 che non deve essere in conflitto con i codici dei  caratteri 
+    utilizzati per l'editing.
+
+          Valori possibili:   da 0 a 127 (in prof 3, default=127)
+
+    Io  consiglio anche di provare il valore ASCII 8  (BS),  chiaramente 
+    resettando il parametro 3 al valore di 2 (solo CR)
+
+          Una parola soltanto sul DELete. E` possibile CORREGGERE quello 
+    che battete a livello di Command Mode, mediante il tasto di  DELETE. 
+    Usando invece il BACKSPACE (ASCII 8) Itapac non accettera` le corre-
+    zioni ma al contrario le interpretera` come caratteri veri e propri, 
+    a meno che appunto il parametro 16 sia stato debitamente settato.
+
+
+    *****   Vol.  1   *****      Pag.  9      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+          PARAMETRO 17 - CANCELLAZIONE RIGA
+
+          La sequenza Control-X o CAN (ASCII 24) e` solitamente  utiliz-
+    zata  come carattere di cancellazione di una riga intera. Il PAD  e` 
+    programmato per interpretare questo codice , ma puo` essere  ridefi-
+    nito tramite questo parametro.
+
+          Valori possibili:   da 0 a 127 (in prof 3, default=24)
+
+
+          PARAMETRO 18 - VISUALIZZAZIONE LINEA
+
+          Anche  in questo caso abbiamo un valore standard,  DC2  (ASCII 
+    18),  ottenibile  con Control-R per avere la  visualizzazione  della 
+    riga corrente. Questo comando e` utile in tutti quei collegamenti in 
+    cui il PAD e il terminale non generano un'eco locale ed e'  necessa-
+    rio visualizzare una riga prima di inviarla.
+
+          Valori possibili:   da 0 a 127 (in prof 3, default=18)
+
+
+          PARAMETRO 19 - SEGNALI DI CONTROLLO EDITING
+
+          Il  PAD puo` generare dei segnali di controllo sia  per  video 
+    che per stampante. Con questo parametro potete scegliere quale  tipo 
+    di segnali di servizio e` necessario al vostro terminale.
+
+          Valori possibili: (in prof 3, default=2)
+               0 nessun segnale
+               1 segnali per la stampante 
+               2 segnali per il video 
+
+                                      Alfredo Berlusconi (2:334/103.223)
+
+
+                                                         -----> VIVAMIGA
+                                                                ========
+
+          Sempre  piu' mi convinco, nelle mie solitarie  meditazioni  di 
+    trasmigrazione  metabolica, di stare scrivendo ad un muro di  gomma. 
+    Tra i nostri lettori l'apatia regna sovrana; addirittura mi e' stato 
+    riferito di aver commesso una grave inesattezza nel numero preceden-
+    te  (ben da due persone!). Vattelapesca a sapere cosa. Lo sforzo  di 
+    segnalarmi gia' solo il fatto li aveva completamente esauriti! 8-)
+
+          Comunque oggi vorrei parlarvi di un programma assai  deludente 
+    per il nostro mega-super-computer, all'altezza tuttavia della vostre 
+    apatiche  aspettative. Parlo della nuova release del DiskMaster,  la 
+    2.0. Il DM, per i crapuloni che ancora non lo sapessero, e' il super 
+    ultra  mega  imbattibile accessorio per andare in giro tra  le  dir, 
+    spostare files, copiarli, cancellarli etc.
+          E comincio con la pecca piu' grossa: a meno di non disporre di 
+    un  3000  o varia scheda turbizzante il programma e' una  lumaca  in 
+    tutte le varie operazioni. Ogni volta che bisogna cambiare directory 
+
+    *****   Vol.  1   *****      Pag. 10      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    oltre al solito tempo di accesso al disco o HD bisogna attendere due 
+    o  tre secondi d'indecisione del DM prima di vedere  qualcosa  sullo 
+    schermo; questo, quando tutti cercano di riempire di buffer qualsia-
+    si devices in possesso per velocizzare le cose, e' quanto meno scoc-
+    ciante!
+          Poi ci sono varie pecche di "gioventu'". Calmi, ora mi spiego. 
+    Il  DM  ha il pregio di essere abbastanza riconfigurabile;  tutti  i 
+    menu possono essere modificati e se ne possono aggiungere di  nuovi. 
+    Questo vale anche per praticamente tutti i gadget dello schermo.  Ma 
+    se  per  un qualsiasi motivo cannate lo script ASCII  di  config  il 
+    programma si inchioda miseramente o visita il buon vecchio guru o fa 
+    altre amene cazzate. Tutte le volte che causate un errore minore nel 
+    corso  del prg (tentate di cancellare un file protetto etc.) il  prg 
+    semplicemente  ignora il fatto e continua per la sua  strada  oppure 
+    arresta l'esecuzione senza segnalarvi nulla. Il move di una dir  con 
+    files protetti dentro per questo motivo ad esempio e'  sconsigliabi-
+    le.
+          Ora,  come chiaramente riportato nel manuale, il prg e'  stato 
+    totalmente riscritto per entrare armonicamente nel 2.0. Passi che in 
+    realta' col 2.0 abbia poco a vedere (i gadget non sono in 2.0  anche 
+    se tentano di imitarlo), ma che alla fin fine si dimostri meno vali-
+    do della versione precedente questo no!
+
+          Altra pseudo-interessante funzione e' la possibilita' di asso-
+    ciare  un comando automatico alla lettura di un file. il DM legge  i 
+    primi  caratteri  di un file e se e' stato impostato  un  comando  a 
+    riguardo lo esegue; si puo' cosi scompattare automaticamente un file 
+    compattato,  eseguire uno script ASCII, un altro file  di  config... 
+    [NdE:  e`  la stessa cosa del "magic number" UNIX,  una  schiccheria 
+    dopo che uno ci prende la mano...] Attenti a riguardo! visto che  il 
+    prg non segnala errori nel file di config testatelo bene prima  per-
+    che'  e'  facile che si pianti tutto, e trovare l'errore  in  questo 
+    stato non e' cosa facile.
+
+          Altra  carenza e' il controllo delle icone. Contrariamente  al 
+    DirOpus  non e' possibile il modo automatico di gestione  dei  files 
+    con le icone associate. Non e' possibile aggiungere icone alle  dir, 
+    ne'  ai  files (non parliamo poi di riconoscere  automaticamente  il 
+    tipo di icona da aggiungere al file!). Insomma da questo punto il DM 
+    proprio non esiste.
+          Infine,  questo *.* arriva a punte del 6.0% di cpu  utilizzata 
+    quando inattivo (xoper)!! Non esiste la possibilita' di  `iconizzar-
+    lo'?
+
+          Allora,  perche'  usarlo? direte voi. In  primis  perche'  mai 
+    nessuno, come al solito, paghera' una lira alla Progressive Periphe-
+    rals & Softwares; in secudis perche' da bravi crapuloni dovete  sem-
+    pre usare le novita' e perche'... il Dir Opus col 2.0 non funziona a 
+    dovere! 8-(
+
+          Spero possiate scoppiare tutti al piu' presto. Vostro fedelis-
+    simo... etc etc.
+
+                                                       RRE (2:334/100.9)
+
+    *****   Vol.  1   *****      Pag. 11      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                   -----> IL PROGRAMMINO
+                                                          ==============
+
+          L'unico  commento a questo programmino giuntomi dal  Piola  e` 
+    stato (testuale)  "Per gestire le liste in C:"
+    Se volete provarlo, fate pure... .mau.
+
+    ----- begin of file STRLIST.H -----
+    typedef struct strlist {
+                         char element[80];
+                         struct strlist *next;
+                       } stringlist;
+
+    stringlist*cons(char*,stringlist*);
+    char*car(stringlist*);
+    stringlist*cdr(stringlist*);
+    void garbage_collect(stringlist*);
+    ----- end of file STRLIST.H -----
+
+    ----- begin of file STRLIST.C -----
+    #include <stdlib.h>
+    #include <string.h>
+    #include "strlist.h"
+
+    stringlist *cons(char *s,stringlist*l)
+    {
+       stringlist*t;
+       t=(stringlist*)malloc(sizeof(stringlist));
+       strcpy(t->element,s);
+       t->next=l;
+       return t;
+    }
+
+    char *car(stringlist*l)
+    {
+       return l->element;
+    }
+
+    stringlist* cdr(stringlist*l)
+    {
+       return l->next;
+    }
+
+    void garbage_collect(stringlist*l)
+    {
+       while(l)
+       {
+          free(l);
+          l=l->next;
+       }
+    }
+    ----- end of file STRLIST.C -----
+
+    *****   Vol.  1   *****      Pag. 12      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                            -----> LETTERE A TELEMATICUS 
+                                                   =====================
+
+          Raffaello Valesio mi scrive:
+
+    -----
+          Hello MAUMAU...Un saluto da Raphaellus...a proposito di  Blin-
+    kenlichten.  Non  conoscevo questo testo e l'ho  trovato  esilarante 
+    soprattutto  dove  cita poppencorken mit spitzensparken!  A  momenti 
+    cadevo dall'Amiga. Devi sapere che la cosa e' ancora piu' divertente 
+    perche'  ho sentito negli unici due centri di calcolo tedeschi  dove 
+    sono stato uno strano anglo-teuto-info-telematichese che gli assomi-
+    glia. Sara' un caso? boh..
+          Da noi c'e' invece questo,portato da un tecnico Benson e appe-
+    so sopra uno dei plotters (e anche sopra l'amiga da me)..
+
+    --------------------------  WARNING ! ------------------------------
+          THIS MACHINE IS SUBJECT TO BREAKDOWNS DURING PERIODS OF 
+                              CRITICAL NEED !
+          A  special  circuit in this machine called  "Crisis  Detector" 
+    senses  the users' emotional state in terms of how desperately  they 
+    need to use the machine. The Crisis Detector then creates a malfunc-
+    tion  proportional to the desperation of the user.  Threatening  the 
+    machine  with violence or the use of curses/obscenities  may  soothe 
+    the  user  but will not fool the Crisis Detector and will  only  ag-
+    gravate the situation. Likewise, attempts to use another machine may 
+    cause it to malfunction, because they both belong to the same union. 
+          KEEP  COOL  and say nice things to the machine.  Nothing  else 
+    seems to work.
+    --------------------------------------------------------------------
+
+    [NdE: tradotto, fa piu` o meno
+          ATTENZIONE!  QUESTA  MACCHINA  E`  SOGGETTA  A  GUASTARSI  NEI 
+    PERIODI DI BISOGNO CRITICO!
+          Uno  speciale circuito nella macchina chiamato "Scopritore  di 
+    Crisi"  si  accorge dello stato emotivo degli utenti in  termini  di 
+    quanto  disperatamente hanno bisogno di usare la macchina. A  questo 
+    punto  lo Scopritore di Crisi crea un guasto proporzionale alla  di-
+    sperazione  dell'utente. Cercare violentemente di impaurire la  mac-
+    china o usare maledizioni/oscenita` puo` alleviare l'utente, ma  non 
+    prendere  in  giro lo Scopritore di Crisi e aggravera`  soltanto  la 
+    situazione. Similmente, tentativi di usare altre macchine sono  inu-
+    tili, perche` appartengono tutte allo stesso sindacato. STATE  CALMI 
+    e dite cose carine alla macchina. Niente altro sembra funzionare.
+          - ma poi, c'e` bisogno che vi traduca tutto?]
+
+    Carino  eh  ? non l'ho mai visto in altri posti  (chi  l'ha  visto?) 
+    [NdE: io, ma non mi ricordo dove ne` quando]. Nei lontani anni 68-69 
+    all'Istituto  di Calcoli numerici all'Universita' di TO  bazzicavamo 
+    un   vecchio   ELEA  6001  (ti  ricorda  niente?...)   gia'   allora 
+    fossile. (64k in ferrite, Fortran 2, PALGO(Algol Olivetti!))
+    Ci dava una mano il compianto Mario Fiamberti,insegnante  goliardico 
+    oltre  misura. In un angolo,in una bacheca da rompere in  emergenza, 
+    un pallottoliere portava la targhetta ELEA 6002.
+
+    *****   Vol.  1   *****      Pag. 13      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+          Tutta  questa  sparata per dire... si potrebbero  stimolare  i 
+    lettori di Telematicus che ricordano avvisi del genere di  segnalar-
+    li. Sono certo che ce n'e' ancora molti..(avvisi,non  lettori.....:-
+    ))).
+                                 THE ONLY ORIGINAL OLD RAFFA
+                                 FROM DYNOSAURUS VALLEY     ---
+
+    -----
+          Allora, cari lettori, altre cose del genere?
+
+          Passiamo  al  nostro  anonimo,  che  per  rispetto  (mio)  non 
+    commentero` se non al termine.
+
+    -----
+
+          Carissimo direttore, innanzitutto i complimenti di rito per la 
+    sua  rivista  e per la costanza con cui lei, e  pochi  altri  validi 
+    collaboratori,  continuate  a provvedere  nonostante  l'indifferenza 
+    totale che vi circonda.
+          Ed  appunto  di questo volevo parlare,  dell'indifferenza.  Mi 
+    permetta,  la prego, di esprimere le mie considerazioni  a  riguardo 
+    anche se potremmo effettivamente considerarle piu' uno sfogo.
+
+          In  qualsiasi hobby che si rispetti indiscriminatamente  tutti 
+    gli  interessati sono degli entusiasti; vi  partecipano  attivamente 
+    migliorando  costantemente le loro conoscenze, i  loro  strumenti... 
+    alcuni si affinano talmente tanto da essere considerati al pari  dei 
+    professionisti del settore.
+          Nell'ambito  informatico  la cosa e' assai diversa;  gia'  fin 
+    troppo  bistrattati  per essere catalogati solo  nella  cerchia  dei 
+    giocatori-di-games le cose non funzionano allo stesso modo. Lasciamo 
+    stare dunque la feccia dell'informatica, coloro che passano il tempo 
+    unicamente  a finire giochetti piratati con vite infinite e via  di-
+    cendo. Prendiamo la crema di tutta questa massa di gente. Coloro che 
+    hanno  scoperto  che il proprio computer, il proprio  microcosmo  di 
+    periferiche, poteva aprire una finestra sul mondo. Poteva permettere 
+    di scambiare opinioni con gente lontana, affinare il proprio spirito 
+    e  le  proprie capacita' tramite il confronto con  gli  altri.  Si', 
+    parliamo proprio dei telematici, degli utenti delle BBS.
+
+          All'apparenza  sembra  gente decisamente piu'  dinamica,  piu' 
+    aperta, con voglia di crescere. Ecco che tutto questo, cio' che  era 
+    solamente  iniziato  con un hobby, ci permette di dire "ho  un  caro 
+    amico in Toscana, uno nel Lazio e - perche' no - in Olanda!"
+          Si avvicina all'esperienza del viaggio, permette di  conoscere 
+    posti  nuovi,  gente nuova, scrolla di dosso quella  mentalita'  `da 
+    provinciale' dipica degli ambienti chiusi. Altro che gioco!
+
+          Eppure ecco insinuarsi pian pianino un tarlo, ecco emergere un 
+    aspetto decisamente insolito date le premesse: la mancanza di parte-
+    cipazione. E questa si manifesta ad ogni livello, in ogni occasione.
+          Ad iniziare dalla gente che legge solo kili su kili di messag-
+    gi e non si degna di rispondere mai manco ad uno; a chi pensa solo a 
+    succhiare avidamente altri files su files; a chi si nasconde  dietro 
+    pseudonimi imbecilli per insultare gli altri.
+
+    *****   Vol.  1   *****      Pag. 14      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+          Ma andiamo avanti, l'apatia non si ferma qui; ha ramificazioni 
+    piu'  sottili e temibili. Il concetto di shareware, tanto per  dirne 
+    una,  non  e' considerato neppure nei  confronti  dei  programmatori 
+    italiani!  non tanto per quelle 30Klire che si richiedono,  l'utente 
+    medio  ne spende ben piu' all'anno per il proprio  computer,  quanto 
+    per la pigrizia di fare un vaglia. Neppure, dico neppure, le  segna-
+    lazioni di bug per programmi PD vengono segnalate all'autore!!
+
+          A ben pensarci questo ha dell'allucinante. Ma com'e' possibile 
+    date le premesse??
+            Durante le mie lunghe sedute di meditazione durante la tras-
+    migrazione  metabolica ho notato che gli elememti piu'  attivi  sono 
+    solitamente  quelli con una maggior cultura di base; forse la  timi-
+    dezza costringe coloro che si considerano `inferiori' a non interve-
+    nire e a celarsi nell'ombra?
+
+          Non  voglio  occupare ulteriormente il suo tempo  prezioso  (e 
+    quello  probabile del lettore se questa lettera verra'  pubblicata). 
+    Tuttavia mi permetta ancora una considerazione; mi risulta sia stata 
+    istituita un'associazione telematica dal nome di TAM-TAM per sparge-
+    re  il seme della conoscenza nel mondo. Iniziativa lodevole,  certo. 
+    Proporrei  tuttavia di coltivare un po' piu' chi gia' aderisce  alla 
+    vostra  rete di BBS. Dice un saggio americano "E' arduo aiutare  una 
+    persona quando si e' nelle sue stesse condizioni, ma e' facile quan-
+    do si e' un gradino piu' alti"
+
+          Ringraziandola per la sua attenzione la saluto di cuore  augu-
+    rando alla sua rivista un lungo e duraturo proseguio.
+
+                                                      (anonimo)
+    -----
+
+          Beh,  non  mi  trovo  in  completo  accordo  con  quanto  dice 
+    l'anonimo quassu`, ma devo convenire su parecchi punti. Ad  esempio, 
+    ho preso da un server  finlandese un giochetto per Macintosh di  uno 
+    svedese che l'aveva lasciato come "Postcardware", chiedeva cioe` che 
+    se  vi  fosse  piaciuto gli spedivaste una cartolina,  cosa  che  ho 
+    regolarmente  fatto.  Bene,  questo tipo mi ha  risposto  per  posta 
+    elettronica  ringraziandomi  e  dicendo  che la  mia  era  la  prima 
+    cartolina  dall'Italia.  Adesso ho distribuito da  qualche  mese  il 
+    gioco  qui  da  noi,  ma non oso chiedergli  se  ha  ricevuto  altre 
+    cartoline...
+          In  ogni  caso  volevo ricordare che l'anno  scorso  si  erano 
+    tenutio  dei  corsi  al  CRDC di  Cso  Sicilia  di  avviamento  alla 
+    telematica,  ma la partecipazione non e` stata delle piu`  ampie.  E 
+    se  volete  che  venga sviscerato  qualche  argomento,  perche`  non 
+    provate  a chiedere? In fin dei conti siamo qui apposta... 
+
+
+                                                  -----> IL GERGO HACKER
+                                                         ===============
+
+          <bogo-sort>:  s. L'archetipico algoritmo perverso  in  maniera 
+    oscena  (opposto a <bubble sort>, che e` semplicemente  il  generico 
+    algoritmo *pessimo*. Bogo-sort e` equivalente a lanciare un mazzo di 
+
+    *****   Vol.  1   *****      Pag. 15      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    care  in  aria, raccoglierle, e testare se sono in  ordine.  Se  no, 
+    ripetere. Viene usato come esempio canonico di terribilita`. Uso: se 
+    sta guardando un programma e vede un algoritmo stupido, uno potrebbe 
+    dire  "Oh,  vedo  che questo programma  usa  il  bogo-sort".  Confr. 
+    <bogus>, <brute force>.
+
+          <bogometer>: [bogometro] s. Vedi <bogosity>. Confr. il `wanko-
+    meter' descritto alla voce <wank>.
+
+          <bogon>: /boh'gon/ ["bogone", in analogia a protone/elettrone/
+    neutrone, ma senza dubbio rinforzato dopo il 1980 dalla  similarita` 
+    con i `Vogon' di Douglas Adams, vedi Appendice C] s. 1. La particel-
+    la elementare di bogosita` (vedi <quantum bogodynamics>). Per  esem-
+    pio, "L'Ethernet sta di nuovo emettendo bogons", significando che e` 
+    rotta  o si comporta in un modo erroneo. 2. Un pacchetto inviato  da 
+    un domain resolver TCP/IP a un root server, che ha settato il bit  i 
+    reply  invece  che  quello di query. 3.  Ogni  pacchetto  <bogus>  o 
+    formato  incorrettamente inviato su un network. 4.  Per  sineddoche, 
+    usato  per  riferirsi a ogni cosa <bogus>, come  in  "Mi  piacerebbe 
+    andare  a pranzo con te, ma ho da andare al bogon settimanale  dello 
+    staff'.  5.  Una persona che e` <bogus> o dicecose  <bogus>.  Questo 
+    era  il significato originale, ma oramai i derivati 1-4 sono i  piu` 
+    noti.
+
+          <bogon  filter>: /boh'gon fil'tr/ s. Un qualunque  dispositivo, 
+    hardware  o software, che limita o sopprime il flusso o  l'emissione 
+    di <bogons>. "Gli ingegneri hanno messo su un b.f. tra il Cray e  il 
+    Vax, e adesso i pacchetti persi sono molto meno".
+
+          <bogosity>: /boh-go's@-tee/ [bogosita`] s. 1. Il grado in  cui 
+    qualcosa  e`  <bogus>.  Alla  CMU, la  bogosita`  e` misurata con un 
+    <bogometer>. Esempio tipico; a un seminario, quando il relatore dice 
+    qualcosa  bogoso, un ascoltatore puo` alzare la mano e dire "Il  mio 
+    bogometro  si  e` acceso". Al limite, si puo` dire  "Hai  mandato  a 
+    fondo  scala  il mio bogometro", se avete detto  qualcosa  di  cosi` 
+    bogoso che l'indice del bogometro e` andato oltre il massimo misura-
+    bile. L'unita` di misura stabilita per la bogosita` e` il microLenat 
+    (uL).  Il  consenso e` che questa e` la massima  unita`  usabile  in 
+    pratica  nell'uso quotidiano. 2. Il campo di potenziale generato  da 
+    un flusso di bogon; vedi <quantum bogodynamics>.
+
+    [Nota  storica:  il microLenat e` stato inventato  come  un  attacco 
+    contro  il  notabile scienziato Doug Lenat da un  <tenured  graduate 
+    student}. Doug l'aveva bocciato all'esame di AI dopo che lo studente 
+    aveva risposto "L'AI e` bogosa" come risposta a tutte le domande. La 
+    denigrazione e` generalmente considerata immeritata, ma in ogni caso 
+    e`  diventata  una  gag raccontabile. Alcuni  degli  amici  di  Doug 
+    ammettono  che "naturalmente" un microLenat e` bogoso, visto che  e` 
+    solo un milionesimo di un Lenat. Altri hanno suggerito che  l'unita` 
+    dovrebbe  essere ridisegnata in onore dello studente  in  questione, 
+    come microReid.
+
+          <bogotify>  /boh-go't@-fie/  ["bogosificare"]  vt.  Rendere  o 
+    diventare  bogus.  Un programma che e` stato  cambiato  cosi`  tante 
+    volte da diventare completamente disorganizzato si e`  bogosificato. 
+
+    *****   Vol.  1   *****      Pag. 16      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    Questa  coniazione  ha portato alla  nozione  di  "autobogotiphobia" 
+    /aw'to-boh-got'@-foh`bee-uh/ s., definita come la paura di diventare 
+    bogosificato; ma non e` chiaro se quest'ultima forma e` jargon  `vi-
+    vo' o semplicemente un gioco all'interno del jargon stesso.
+
+          <bogue  out>:  /bohg owt/ ["bogosarsi"] vi.  Diventare  bogus, 
+    tutto  a  un  tratto  e  senza  preavviso.  "Il  suo  discorso   era 
+    relativamente  normale fino a che uno non gli ha fatto  una  domanda 
+    trappola. Allora si e` bogosato e non ha detto niente altro piu` che 
+    <flame>".
+
+          <bogus>: ["bogoso". NdE: La parola esiste nei vocabolari  come 
+    `artefatto,  contraffatto, falso, finto', ma preferisco  coniare  un 
+    neologismo, visti i numerosi significati traslati] agg. 1. Non  fun-
+    zionali.  "I tuoi patch sono bogosi". 2. Inutile. "OPCON e` un  pro-
+    gramma  bogoso".  3. Falso. "I tuoi argomenti sono bogosi".  4.  Non 
+    corretto.  "Quell'algoritmo  e` bogoso". 5.  Incredibile.  "Dici  di 
+    avere  risolto il problema dell'halt per le macchine di Turing?  To-
+    talmente  bogoso".  6. Stupido. "Smettila di scrivere  quelle  saghe 
+    bogose".  L'astrologia e` bogosa. Cosi` come un arco che si sta  ov-
+    viamente rompendo. Cosi` come qualcuno che afferma in modo  eclatan-
+    temente  falso di avere risolto un famoso problema.  (Questa  parola 
+    sembra avere alcuni, ma non tutti, i significati di <random>).
+
+    E`  stato affermato che `bogus' e` stato usato  originariamente  nel 
+    senso  hacker a Princeton, alla fine degli anni '60, e passato  alla 
+    CMU  e  a Yale, dove la parola e`  stata  popolarizzata.  All'inizio 
+    degli  anni  '80, era gia` di uso corrente nella West  Coast  tra  i 
+    ragazzi,  e  per il 1985 era usuale. Si noti che  gli  inglesi  sono 
+    infastiditi,  perche`  continuano  ad  utilizzare  il  termine   nel 
+    significato  originario  di `artefatto' ("a bogus pound  note",  una 
+    banconota da una sterlina falsa).
+
+          <Bohr bug>: /bohr buhg/ [dalla fisica quantistica] s. Un <bug> 
+    ripetibile;  che  si manifesta cioe` sicuramente in  un  insieme  di 
+    condizioni magari ignoto ma ben definito. Opposto di <heisenbug>.
+
+          <bomb>:  [bombare, bomba] 1. v. Sinonimo generico per  <crash> 
+    (senso #1), sp. usato per problemi di software o sistema  operativo. 
+    "Non  far  girare Empire con meno di 32K di stack, o  bombera`".  2. 
+    s.,v. L'equivalente Atari ST e Macintosh di un `panic' UNIX o di una 
+    <guru> Amiga (senso #2), quando appaiono icone di una bomba o nuvole 
+    a fungo accompagnate da un numero decimale (occasionalmente esadeci-
+    male) indicante cosa e` andato male, simile al numero di GURU  MEDI-
+    TATION  per  l'Amiga (vedi <guru>). Le macchine <MS-DOS>  tendono  a 
+    rimanere piantate (<locked up>) in questa situazione.
+
+          <bondage-and-discipline language>: [linguaggio a schiavitu`  e 
+    disciplina] Un linguaggio come Pascal, Ada, APL, o Prolog che, anche 
+    se  ostenta di essere general-purpose, e` disegnato in modo tale  da 
+    rinforzare  una  teoria di  `corratta  programmazione'  dell'autore, 
+    anche se la suddetta teoria e` dimostrata inadeguata per hacking  di 
+    sistemi o anche semplice programmazione standard. Spesso  abbreviato   
+    `B&D'; cosicche` su puo` parlare di cose "di natura B&D", ecc.  Vedi 
+    <Pascal>; opp. <languages of choice>.
+
+    *****   Vol.  1   *****      Pag. 17      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+          bonk/oif:  /bonk/,  /oyf/  inter. Nella  comunita`  <MUD>,  e` 
+    diventato  tradizionale esprimere irritazione o  censura  `bonkando' 
+    chi  ha offeso. C'e` una convenzione che richiede che uno,  ricevuto 
+    un bonk, dica `oif!' e un mito a proposito che afferma che non farlo 
+    sbilancia il totale cosmico bonk/oif, causando una quantita` di guai 
+    nell'universo.  Alcuni MUD hanno implementato speciali  comandi  per 
+    bonkare e oifare. Vedi anche <talk mode>, <posing>.
+
+          <book   titles>:  Tra  gli  hacker  c'e`  una  tradizione   di 
+    denominare  libri  di  testo  o  documenti  importanti  col   colore 
+    predominante  nelle  copertina o con  qualche  altra  caratteristica 
+    saliente. Molti di questi sono descritti come voci a parte.
+          Vedi  anche  <Blue Book>, <Red Book>,  <Green  Book>,  <Silver 
+    Book>,  <Purple Book>, <Orange Book>, <White Book>,  <Yellow  Book>, 
+    <Pink-Shirt  Book>, <Aluminum Book>, <Dragon Book>,  <Wizard  Book>, 
+    <Cinderella Book>.
+
+
+                                              -----> NOTIZIE DAL NET 334
+                                                     ===================
+
+    ********************************************************************
+    *                                                                  *
+    *  TAM TAM, la mitica associazione per la Telematica Amatoriale    *
+    *  sara' presente al salone NUOVE TECNOLOGIE '91, in programma     *
+    *  a Torino Esposizioni dal 6 al 10 Novembre (orario 9.30-19.30)   *
+    *                                                                  *
+    *  Lo stand sara' nel Padiglione 2 B stand 402.                    *
+    *  Dall'ingresso di c.so Massimo D'Azeglio, subito nel corridoio   *
+    *  di destra.                                                      *
+    *                                                                  *
+    *                     VENITE NUMEROSISSIMI                         *
+    *                                                                  *
+    *  se non avete il biglietto di invito contattate il SysOp         *
+    *  oppure intervenite Lunedi' 4 alle ore 21 al CRDC di corso       *
+    *  Sicilia 12 (solita riunione mensile :))                         *
+    *                                                                  *
+    ********************************************************************
+
+          Beh,  oramai  e` un po' tardi per  partecipare  alla  riunione 
+    (cosi`  imparate a non venire mai, brutti apatici! direbbe  RRE)  ma 
+    probabilmente non e` ancora abbastanza tardi per visitare il  salone 
+    e vederci... Vi aspettiamo!
+
+    -----
+
+          OnLine BBS, a Leini`, e` stato cancellato dall'elenco  Fidonet 
+    in   quanto  era  irraggiungibile  anche  nelle  ore  dedicate   per 
+    regolamento  a cio`. Occhio percio` alla nuova lista pubblicata  qui 
+    sotto...
+
+    *****   Vol.  1   *****      Pag. 18      *****   Numero  11   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                     -----> I NOSTRI BBS
+                                                              ==========
+
+         (BBS)              (numero)    (orario)(vel.) (SysOp)
+         Fido_Torino........011-5765565....24h..2400   F.Carcillo 
+         SDN-Italy!.........011-5765568....24h..9600   F.Carcillo 
+         Charlie's_Puppies..011-3299706....24h..9600   F.Schinco
+         Magazine...........011-8989069....24h..9600   L.Ravina
+         I.N.#2 ............011-304840.....24h..2400   M.Sinesi
+         I.N.#3 ............011-8126756....24h..9600   L.Vay
+         I.N.#4 ............011-8981304....24h..9600   S.Magni
+         I.N.#5 ............011-3174440....24h..2400   F.Bogli
+         EUreka!............011-6624400....24h..9600   P.G.Gialli
+         TorinoNet..........011-3100485/70.24h..2400   E.Arman
+         Infotel............011-2238389....24h..2400   T.Moreno
+         LordDrake..........011-710408.....24h..9600   F.Croce
+         Travelmatic........011-502423.....24h..9600   M.Cristofaro
+         Sintagma...........011-596274/48..24h..2400   M.Civra
+         EGO................015-757151.....24h..2400   G.Amosso
+         Tecnosoft..........0121-500663....24h..2400   R.Piola

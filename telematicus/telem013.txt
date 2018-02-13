@@ -1,0 +1,1321 @@
+ #### TELEM013 - Telematicus - Volume 02 - Numero 01 - Anno 1992 - 60 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                 Gennaio 1992                                  
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di .mau.
+
+ ==============================================================================
+
+ Il materiale presente in Telematicus e` (C) dei singoli autori.       
+ E` espressamente consentita la distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 60 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .   .  pag.  4
+ [ 2]  La programmazione Object-Oriented, di Marco Russo .   .   .   .  pag.  5
+ [ 3]  Il software italiano: Mercurio, di Giovanni Lopes .   .   .   .  pag. 15
+ [ 4]  Itapac - parte 10, di Alfredo Berlusconi  .   .   .   .   .   .  pag. 18
+ [ 5]  Galileo: Chiedi l'ora col modem, di Marco Russo   .   .   .   .  pag. 21
+ [ 6]  Software review: MultiEdit 5.0, di Alessandro Peralma .   .   .  pag. 25
+ [ 7]  La rete ISN, di Davide Rolando    .   .   .   .   .   .   .   .  pag. 30
+ [ 8]  BBS e cucina: Pierre, di Roberto Piola    .   .   .   .   .   .  pag. 36
+ [ 9]  Curiosita`: Donne e linguaggi..., di Maurizio Codogno .   .   .  pag. 40
+ [10]  Curiosita`: Il gergo hacker - parte 10    .   .   .   .   .   .  pag. 45
+ [11]  Notizie Fidonet region 33     .   .   .   .   .   .   .   .   .  pag. 54
+ [12]  Indice 1991 di Telematicus    .   .   .   .   .   .   .   .   .  pag. 57
+
+
+
+
+
+
+
+
+                  Questo Telematicus e` nato con l'aiuto di...
+    
+ Editor componens:      Maurizio Codogno | * I collaboratori dai network: *
+ Editor buongustaius:      Roberto Piola |
+ Editor orologiaius:         Marco Russo | Vertigo (331/303)
+ Editor mercurialis:      Giovanni Lopes | ??? (332/???)
+ Editor agrus:        Alfredo Berlusconi | Pietro Budicin (333/603)
+ Editor editor:        Alesandro Peralma | Franco Carcillo (334/1)
+ Editor distributor:      Davide Rolando | Giorgio Rutigliano (335/1)
+                                                                               
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                               ###
+   
+      Carissimi lettori,                                                    
+ Come avevo promesso nel mese di dicembre la veste editoriale di Telematicus e` 
+ cambiata. E` sempre possibile leggere il bollettino come un lungo file di  te-
+ sto, ma avrete anche a disposizione un programma di lettura apposito, chiamato 
+ RT, da Read Telematicus. Al momento e` ancora in beta test (manca l'opzione di 
+ scrittura  intelligente, e soprattutto non e` stato provato  per  architetture 
+ che non siano MSDOS... aspetto gli #ifdef necessari da voi!)
+      A  parte questo, ci sarebbero dovute essere altre novita`:  come  scritto
+ nella schermata iniziale, Telematicus parlera` di tutta la region 33:  peccato
+ che per questo numero non c'e` nulla, complice anche una settimana di blackout
+ postale.  Ringrazio ancora comunque gli amici che si sono offerti di  mandarmi
+ le notizie dal loro Net, sperando arrivino... Potrete comunque leggere  recen-
+ sioni  software,  programmazione OOP, le solite rubriche  e  soprattutto  c'e`
+ l'indice 1991 per sapere cosa vi siete persi l'anno scorso.
+
+      Insomma, buona lettura!
+
+                        ciaociao .mau.                                         
+ ############                                                               ###
+ ###   2  ###                  LA PROGRAMMAZIONE OBJECT ORIENTED - PARTE 1  ###
+ ############                                                               ###
+
+      Sul numero di Dicembre di Telematicus vi ho spiegato (ho tentato di spie-
+ garvi)  in cosa consiste la programmazione Event Driven. La  conclusione  del-
+ l'articolo era che il miglior approccio alla programmazione event-driven  con-
+ siste  nell'utilizzare  un linguaggio (e se possibile delle  librerie)  object 
+ oriented (in italiano si direbbe linguaggio orientato agli oggetti, ma in que-
+ sto articolo usero' la notazione inglese per comodita').
+   
+      Qualcuno si sara' chiesto: ma cosa e' questa programmazione object orien-
+ ted  di cui tanto si sente parlare? Senza la pretesa di  esaurire  l'argomento 
+ come  solo qualche mese di pratica puo' fare, cerchero' di  introdurre  quelle 
+ che sono le principali innovazioni della programmazione object oriented. L'ap-
+ proccio che tento, per evitare di fare il verso ad articoli che potete trovare 
+ su qualsiasi rivista "cartacea", sara' quello di confrontare le differenze tra 
+ questi linguaggi e quelli piu' tradizionali, insomma un discorso molto pratico 
+ su quelli che sono i nuovi strumenti che i programmatori hanno a disposizione.
+   
+      La programmazione object oriented si chiama cosi' perche' la sua  filoso-
+ fia  e' quella di creare dei programmi composti non piu' da funzioni che  ope-
+ rano su dei dati, ma composti da degli oggetti, in cui questi (funzioni e  da-
+ ti) sono un tutt'uno.
+ Non  si avranno, ad esempio, piu' funzioni per creare una finestra  su  video, 
+ per  spostarla e per chiuderla, si avra' l'oggetto FINESTRA che  conterra'  al 
+ suo  interno tutti i dati e i metodi (procedure e funzioni) necessari  al  suo 
+ utilizzo.
+   
+      La differenza puo' apparire sottile, e in realta' potrebbe anche esserlo, 
+ perche' nessuno dice che (almeno a questo livello) con la programmazione  tra-
+ dizionale non si possano fare le stesse cose che si fanno con la programmazio-
+ ne object oriented. Questo e' vero come e' vero che in assembler puro si  pos-
+ sono scrivere gli stessi programmi che si scrivono col Prolog. Quello che cam-
+ bia e' il tempo che occorre per farlo.  
+   
+      Vediamo in pratica in cosa consiste la differenza.  
+ Supponiamo di avere una libreria per gestire delle finestre su video. Una  li-
+ breria tradizionale sara' composta da un set di funzioni per aprire,  muovere, 
+ ridurre, chiudere la finestra. Ogni volta che chiameremo una di queste funzio-
+ ni  sara' indispensabile fornire alla funzione un parametro che identifica  su 
+ quale finestra si vuole operare (ad esempio il numero della finestra).
+   
+      Le  routine  di libreria dovranno operare su dei dati che  contengono  lo 
+ stato  di ogni finestra, come dimensioni, posizione, colori, ecc. La  gestione 
+ di questi dati e' demandata alla libreria. 
+ Se noi identifichiamo la finestra con un numero, la libreria dovra'  contenere 
+ al suo interno delle procedure per la gestione di tutti i dati delle finestre, 
+ gestione che puo' essere piu' o meno complessa a seconda dell'implementazione.
+   
+      Immaginiamo  ora  di scrivere le nostre funzioni supponendo  di  lavorare 
+ sempre con una sola finestra, senza doverci preoccupare di individuare DOVE si 
+ trovano i dati relativi alla finestra che ci interessa gestire. La nostra  li-
+ breria  in questo caso sarebbe molto piu' limitata, anche se un  tantino  piu' 
+ semplice da scrivere, in quanto vi e' un aspetto di cui non ci dobbiamo preoc-
+ cupare.  
+   
+      Scrivere  un oggetto in effetti significa proprio scrivere un insieme  di 
+ funzioni  che opera sempre sugli stessi dati, cioe' sui dati appartenenti  al-
+ l'oggetto di cui le nostre funzioni fanno parte. Ovviamente la limitazione  di 
+ poter  avere una sola finestra non esiste: ogni oggetto, infatti, puo'  essere 
+ ISTANZIATO quante volte si vuole, e' come un record, una struttura, un  parti-
+ colare tipo di variabile che possiamo duplicare tante volte quanto e' necessa-
+ rio (fino a che c'e' memoria, purtroppo...).
+
+      E' un discorso fumoso? Facciamo un esempio...
+   
+      Abbiamo la struttura (insieme di variabili) dei dati per gestire una  fi-
+ nestra:
+   
+      WIND
+           Posizione
+           Dimensione
+           Colore
+   
+      Per ogni finestra avremo bisogno di una struttura WIND che contenga i da-
+ ti che ci servono.  
+ Ogni funzione di libreria dovra' avere delle funzioni
+   
+      LIB
+           Apri
+           Sposta
+           Ridimensiona
+           DisegnaFinestra
+           Chiudi
+   
+ che agendo sui dati di WIND effettuano sulla finestra le operazioni richieste.
+
+      Nella programmazione tradizionale ogni funzione di LIB avra' come parame-
+ tro  un  identificativo di WIND (un puntatore o un indice) che  permette  alla 
+ funzione di sapere su quali dati operare.
+ Nella programmazione object oriented WIN e LIB non sono due entita'  separate, 
+ esistera'  O_WIND che conterra' sia WIND che LIB. Le funzioni di LIB a  questo 
+ punto non necessiteranno piu' di un parametro che identifichi WIND, perche' il 
+ WIND su cui operare sara' sempre quello di O_WIND che contiene la stessa  fun-
+ zione di LIB.
+
+      L'oggetto O_WIND potra' essere assegnato a tante variabili quante sono le 
+ finestre  che  si vogliono gestire. Ogni variabile avra' le sue  funzioni  LIB 
+ (sempre le stesse, funzionalmente) ognuna delle quali operera' solo e soltanto 
+ sui  dati WIND della stessa variabile. Detto cosi' sembrerebbe che se  vengono 
+ create dieci finestre, O_WIND viene duplicato dieci volte, per ottenere  dieci 
+ copie di WIND e dieci copie di LIB. In realta' il compilatore duplica soltanto 
+ i dati (WIND) e non le funzioni (LIB); questo per evidenti ragioni di ottimiz-
+ zazione  di  spazio... le funzioni di LIB riceveranno automaticamente  i  dati 
+ WIND su cui operare.
+
+      Per esempio, supponiamo di creare due finestre:
+
+           O_WIND  W1,W2
+
+ La sintassi per chiamare la funzione Apri per la finestra W1 sara' qualcosa di 
+ simile a
+
+           W1.Apri
+
+ mentre per W2 sara'
+
+           W2.Apri
+
+      Con la dichiarazione iniziale sono state create due copie dei dati  della 
+ finestra, una per W1 ed una per W2; la funzione Apri e' invece sempre la stes-
+ sa,  che  riceve automaticamente dal compilatore un puntatore ai dati  su  cui 
+ operare (W1 la prima volta, W2 la seconda).
+
+      Finora la differenza e' molto piccola, piu' di forma che di sostanza. Uno 
+ degli aspetti di cui pero' non abbiamo ancora parlato e che sono propri  della 
+ programmazione object oriented e' quello dell'ereditarieta'.
+
+      Un  oggetto  puo' essere definito come discendente di un  altro  oggetto, 
+ ereditandone  dati (le variabili) e metodi (procedure e funzioni). Questo  si-
+ gnifica  che  se  io voglio creare un oggetto O_WIND_TIT,  che  differisce  da 
+ O_WIND per il fatto di avere un titolo, diro'
+
+      O_WIND_TIT discendente di O_WIND
+           Titolo
+
+ che equivale a dire
+
+      O_WIND_TIT
+           Posizione
+           Dimensione
+           Colore
+           Titolo
+      LIB   
+           Apri
+           Sposta
+           Ridimensiona
+           DisegnaFinestra
+           Chiudi
+
+ Ovviamente  aggiungere una variabile Titolo non vuol dire visualizzare  questo 
+ all'interno  della finestra... per farlo occorrera' definire una  funzione  di 
+ disegno del titolo, ad esempio DisegnaTitolo.  Questo pero' potrebbe risultare 
+ scomodo... per disegnare la finestra occorrerebbe richiamare sia  DisegnaFine-
+ stra che DisegnaTitolo.
+ Bene,  nella programmazione object oriented e' possibile ridefinire un  metodo 
+ (una  procedura o una funzione) gia' definito in un oggetto antenato.  Inoltre 
+ e' possibile, all'interno di questa ridefinizione, fare si' che il nuovo meto-
+ do, fra le altre cose, esegua anche uno dei metodi antenati.
+
+      Nel  nostro  caso  potremmo  ridefinire  il  metodo  DisegnaFinestra   in 
+ O_WIND_TIT in modo che richiami il metodo DisegnaFinestra di O_WIND e  succes-
+ sivamente anche il metodo DisegnaTitolo di O_WIND_TIT.  Finalmente abbiamo ag-
+ giunto  il titolo alla nostra finestra. E senza cambiare di una sola  riga  il 
+ codice dell'oggetto O_WIND iniziale!
+
+      La differenza e' che con poca fatica e' possibile modificare un  oggetto, 
+ anche senza averne i sorgenti!
+
+      Le  caratteristiche della programmazione object oriented non  si  fermano 
+ certo  qui. Queste che ho elencato sono pero' secondo me le principali  diffe-
+ renze  che  la distinguono dalla programmazione  tradizionale.  Soprattutto  i 
+ principi di incapsulamento del codice e l'ereditarieta' degli oggetti sono tra 
+ le principali innovazioni di questa nuova tecnica, che in un certo senso altro 
+ non e' che un'evoluzione della normale programmazione strutturata.
+
+      Il campo di applicazione della programmazione object oriented e'  vastis-
+ simo, ma attualmente il suo utilizzo piu' diffuso e' nel campo delle interfac-
+ ce utente e della grafica. In queste due problematiche la caratteristica  del-
+ l'ereditarieta'  e'  ampiamente sfruttata, come vi ho spiegato anche  nel  mio 
+ articolo del mese scorso.
+
+      L'altro vantaggio di cui tanto si parla (riutilizzabilita' del codice) e' 
+ vero  sino ad un certo punto: scrivere del codice riutilizzabile in altre  si-
+ tuazioni e' possibile tanto con un linguaggio object oriented che in uno  tra-
+ dizionale,  cio' che conta di piu' e' la capacita' del programmatore  di  riu-
+ scire a strutturare bene il programma; coi linguaggi object oriented si  hanno 
+ a disposizione degli strumenti per riuscire meglio e piu' velocemente in  que-
+ sto compito, ma un loro uso improprio puo' avere l'effetto di aumentare a  di-
+ smisura il codice e i tempi di esecuzione, riducendo o annullando tutti i van-
+ taggi.
+
+      Con  la programmazione object oriented e' molto importante  (piu'  ancora 
+ che  con la programmazione tradizionale) avere una buona  pianificazione  ini-
+ ziale, una buona analisi. Un'impostazione errata del lavoro comporta, indipen-
+ dentemente dal linguaggio utilizzato, scarsi risultati; con la  programmazione 
+ object oriented i danni provocati da un comportamento simile risultano  ampli-
+ ficati, allungando a dismisura i tempi di sviluppo oltre che a rendere  inuti-
+ lizzabile in futuro gli oggetti realizzati.
+
+      Concludendo, sicuramente la programmazione object oriented e' destinata a 
+ diffondersi nel futuro, soprattutto perche' i costi per l'apprendimento posso-
+ no  effettivamente essere ammortizzati producendo del codice  piu'  facilmente 
+ riutilizzabile e modificabile. Questo non vuol dire pero' che per i programma-
+ tori saranno tutte rose e fiori... i bug, vedrete, non mancheranno neanche  in 
+ futuro!
+
+
+                                         Marco Russo
+                                         2:334/1.110@fidonet.org
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                               IL SOFTWARE ITALIANO: MERCURIO  ###
+ ############                                                               ###
+
+      Non  era una notte buia e tempestosa, ma una bellissima giornata di  giu-
+ gno, quando, ormai stufo della nulla ergonomia di Msged, avendo invano cercato 
+ per il mio point un editor migliore decisi di mettermi di impegno e  scriverne 
+ uno tutto mio partendo da zero. Era il 1990.
+
+      Fissai su un foglio di carta le caratteristiche principali (mouse a  cur-
+ sore  libero, bottoni per il mouse, aree dello schermo definite dai  colori  e 
+ via  dicendo) e con il The Draw disegnai la schermata-tipo del  nuovo  editor; 
+ gli trovai un nome, Mercurio, e mi misi al lavoro. In breve era pronto un pri-
+ mo  abbozzo di Mercurio, che poteva solo leggere i messaggi in formato  *.MSG. 
+ Veniva ora la fase piu` difficile: scrivere l'editor interno, non un editor di 
+ linea  tipo  Qedit, ma un editor di paragrafo, un  rudimentale  word-processor 
+ piu` che un editor in senso stretto... Ci volle qualche settimana per  mettere 
+ tutto  a punto, ma prima della meta` di luglio giravano gia` messaggi  con  un 
+ bel "Mercurio" nella tearline (la vittima dei miei primi esperimenti fu il mio 
+ point  di A-BBS, il sistema Amiga di Massimo Loreto allora in  Italy-Net).  In 
+ agosto, benche` mi fossi portato il computer in campagna, non feci quasi  nul-
+ la,  dal  momento che entrambi i miei point (l'altro era su Digic  Link,  nodo 
+ storico FidoNet) erano bloccati. A settembre ripartii alla grande e  cominciai 
+ seriamente  a pensare di dare una diffusione al mio programma. In  seguito  il 
+ lavoro procedette bene, una versione alfa dopo l'altra, e alla fine di ottobre 
+ ero in grado di distribuire la prima versione al beta team, che era costituito 
+ dai  point di Digic Link: Claudio Boarino e Giuseppe Scarpi (sysop e  cosysop) 
+ avevano  deciso di dare fiducia al mio editor e lo avevano fatto editor  uffi-
+ ciale  del  BBS. Dai beta tester cominciarono subito a fioccare  richieste  di 
+ feature e segnalazioni di bug. I bug sono sempre stati prontamente corretti  e 
+ le richieste, nei limiti del possibile, esaudite; prova ne e` che l'eseguibile 
+ della versione beta 1 era lungo 75k mentre quello della versione 1.00  defini-
+ tiva supera i 120k! Un contributo particolare venne da Maurizio Giunti: mentre 
+ io  portavo avanti lo sviluppo di Mercurio lui lavorava ad RFA: durante  tutto 
+ l'inverno 90-91 ci siamo scambiati tonnellate di telefonate chilometriche,  da 
+ cui sono venute fuori non poche delle feature di RFA e di Mercurio.
+
+      Una data importante fu quella del netsyscon di Firenze, durante  l'Exspo-
+ ser  (al quale brillai per l'assenza, visto che ero sotto esame), quando  pro-
+ prio Maurizio Giunti diede una versione di Mercurio (la beta 4, credo) ad  An-
+ drea  Mennini. Andrea comincio` ad usare Mercurio via via sempre piu`  stabil-
+ mente,  segnalandomi bug e possibili migliorie con valanghe di matrix (di  cui 
+ per  un certo periodo non ne arrivo` a destinazione quasi nessuno). Una  delle 
+ migliorie che piu` insistentemente mi venivano richieste era il supporto della 
+ base messaggi in formato QuickBBS. Quando, nel febbraio del 1991, usci` Imail, 
+ un  affidabile scanner/tosser per questo formato, me lo procurai subito  e  mi 
+ misi al lavoro. Le routines per la gestione del nuovo tipo di base messaggi si 
+ rivelarono  (stranamente) stabili fin dal primo momento e fu presto pronta  la 
+ versione  beta 7, la prima a supportare il nuovo formato (oltre  al  vecchio). 
+ Anche questo fu un passo decisivo. Nel frattempo Vincenzo Ninci mi aveva "pro-
+ mosso" cosysop di Quotha 32 On-Line, e, in questa veste, andai al NetSysCon di 
+ Bologna  di  fine marzo. Fu un momento molto importante perche`  ricevetti  le 
+ prime  registrazioni, che voglio ricordare: "sganciarono" 15mila  lire  Andrea 
+ Mennini, Massimo Gentilini, Marcello Ardini, Roberto Piazzolla, Valter Colli e 
+ Paolo  Rossi; queste persone mi hanno dato un grande incoraggiamento a  prose-
+ guire verso la versione definitiva.
+
+ All' inizio di giugno decisi che era giunto il momento di metter un punto fer-
+ mo e tirare fuori la versione definitiva. Per questo motivo cominciai a prepa-
+ rare  delle  "Candidate Version" (CV) che venivano distribuite  al  solo  beta 
+ team:  la prima CV senza segnalazioni di errori sarebbe diventata la  versione 
+ definitiva. Quella giusta e` stata la settima.
+
+                                              Giovanni Lopes 
+                                              2:332/108.2
+
+ ############                                                               ###
+ ###   4  ###                                            ITAPAC - PARTE 10  ###
+ ############                                                               ###
+
+                         LE INTERVISTE FAMOSE
+
+      Intervista  rilasciata da Gino Pacchetto, inventore della rete  ITAPAK  a 
+ commutazione omonima.
+
+ HM: "Come e` nato il progetto ITAPAK ?"
+ GP: "ACP:COM ... be` vede, anche se all'inizio non lo si voleva  ammettere  il
+      crescente  sviluppo informatico in Italia poneva il problema  di  rendere 
+      disponibili strutture adeguate alla situazione."
+ HM: "Mi scusi, Sua Nua, ma in che senso parla di `strutture adeguate'?  Non le
+      sembra che anzi tuttora ITAPAK sia in un certo senso..  carente?"
+ GP: "ACP:RESET DTE ...  ITAPAK deve ancora raggiungere il suo stato  di  piena
+      maturita`, ma bisogna aver pazienza. E poi, guardiamo gli altri..."
+ HM: "Ecco, si`, guardiamoli: vogliamo prendere come esempio TELENET, o Tymnet,
+      o Kometh ... o cosa preferisce, Illustrissimo DNIC ?"
+ GP: "ACP:PAR INV ... perche` parlare di Kometh o Tymnet? Guardi ad esempio GA-
+      BONnet: quelli riescono a malapena a commutare tre pacchetti al giorno."
+ HM: "Non capisco il parallelo con GABONnet:  il loro sviluppo tecnologico  non
+      e` certo legato al nostro."
+ GP: "ACP:ENGAGED ... questo lo dice lei. Da chi crede che copiamo i circuiti e
+      il firmware di gestione dei nodi?" <sogghigno soddisfatto>
+ HM: "A proposito di Nodi: come mai a volte le vostre apparecchiature si rifiu-
+      tano  di  effettuare le chiamate e si ingarbugliano in  generici  Network
+      Congestion ?"
+ GP: "ACP: RESET RPE ... non ha capito. NC non significa Network Congestion."
+ HM: "No? Vorrebbe, PAD Puro, gentilmente fornire l'interpretazione corretta?"
+ GP: "Certamente: vede, ad ogni nodo abbiamo sistemato un addetto che legge  le
+      NUA di volta in volta impostate e provvede a comporre manualmente i nume-
+      ri.  Capita a volte che l'addetto ne riceva troppe e non riesca a  tenere
+      il ritmo necessario. Cosi` per non far torto ad alcuno evita  volutamente
+      di passare QUALUNQUE comunicazione (cioe` NC=Non C***). Questa  soluzione
+      l'ho (modestamente) battezzata OTON"
+ HM: "E che significa OTON?"
+ GP: "O Tutti O Nessuno. Un classico esempio di democrazia, non le pare?"
+ HM: "Lasciamo commutare... Quali sono i Suoi prossimi impegni in tal senso?"
+ GP: "Due principalmente: l'aumento dei Baud-Rates di trasmissione e una  nuova
+      linea speciale di trasmissione dati."
+ HM: "Cosa intende di preciso?"
+ GP: "Be`, ho pensato di dimezzare il formato dei bit selezionabili per la tra-
+      smissione:  da 7-8 passare a 3-4. In questo modo i nuovi bytes  rimangono
+      lunghi la meta` dei vecchi, e la velocita` di conseguenza raddoppia."
+ HM: "E la nuova linea speciale?"
+ GP:  "E`  un progetto ancora in fase di sviluppo: sara` attivo a  partire  dal
+      1992  parallelamente ad Itapak. I dati utilizzeranno come linee  di  tra-
+      smissione  le condutture idrauliche delle fogne, e come concentratori  di
+      "pacchetto" gli stessi Water-Closet domestici opportunamente riadattati."
+ HM: "E come si chiamera`?"
+ GP: "GABI-net."
+ HM: "Mi sembra un po' una presa per i fondelli."
+ GP: "Infatti. D'altra parte GABI-net risultera` essere la scelta migliore  per
+      tutta la roba che solitamente si spedisce ..."
+ HM: "Su questo non c'e` dubbio. Vedo comunque che i suoi tecnici si danno  in-
+      solitamente da fare questa sera.. c'e` una gran ressa attorno a quei  due
+      monitor. Controllo computerizzato dell'hardware?"
+ GP: "Torneo di Pac-Man. Adesso la devo lasciare perche` devo fare un'importan-
+      te sessione internazionale..."
+ HM: "ESA? CERN? MIT? DOW-JONES...?
+ GP: "Virtual Valerie"
+ HM: "Ma..."
+ GP: "ACP:CLR CONF"
+                                         Alfredo Berlusconi
+                                         2:334/103.223
+ ############                                                               ###
+ ###   5  ###                              GALILEO: CHIEDI L'ORA COL MODEM  ###
+ ############                                                               ###
+
+      Da pochi mesi l'Istituto Elettrotecnico Nazionale Galileo Ferraris ha at-
+ tivato un servizio (per ora sperimentale) per fornire via modem l'ora esatta.
+      Il funzionamento di questo servizio e' piuttosto semplice: telefonando al 
+ numero  di Torino risponde un modem alla velocita' di 1200 baud che  trasmette 
+ una  stringa  al secondo dove sono contenute informazioni riguardo la  data  e 
+ l'ora. Al termine di ogni stringa viene trasmesso un carattere che  identifica 
+ lo "scoccare" del secondo appena trasmesso, per cui e' possibile sincronizzar-
+ si con una precisione piuttosto buona. 
+      Questo  particolare servizio non permette di utilizzare modem con  proto-
+ colli di correzione d'errore, perche' la presenza di un buffer interno al  mo-
+ dem ritarderebbe l'arrivo dei caratteri, e quindi non si otterrebbe piu' "l'o-
+ ra esatta".
+      Il problema maggiore e' quindi proprio quello della controllo della vali-
+ dita' dei dati che vengono ricevuti, problema maggiorato dal fatto che ad oggi 
+ questo servizio viene offerto su una linea collegata ad una centrale  elettro-
+ meccanica, che non fornisce una linea molto pulita.
+
+      GALILEO  e' un programma che sto scrivendo e che permette  di  effettuare 
+ automaticamente la chiamata via modem, ricevere l'ora esatta e settare  l'oro-
+ logio  del computer in base ai dati ricevuti; inoltre sara'  possibile  sapere 
+ l'errore  "medio" dell'orologio del proprio computer per stimare  ogni  quanto 
+ sia necessario effettuare l'aggiornamento dell'orologio per garantire un erro-
+ re compreso in un determinato intervallo.
+      La  destinazione principale di GALILEO (programma che  sara'  distribuito 
+ con  la formula del Pubblico Dominio dalla versione 1.0 per tutti gli usi  non 
+ commerciali) e' proprio il BBS.
+      I  BBS, infatti, durante la notte effettuano chiamate tra di loro per  lo 
+ scambio della posta e/o dei files, ed e' molto importante che gli orologi  dei 
+ BBS siano sincronizzati, poiche' queste chiamate avvengono ad orari  prefissa-
+ ti; se la chiamata avviene ad un orario differente puo' capitare che si  trovi 
+ la linea occupata, perche' magari sta effettuando la chiamata un altro BBS che 
+ doveva chiamare 5 minuti dopo...
+      Con  l'uso di modem sempre piu' veloci e con la necessita' di  trasferire 
+ quantita' di dati sempre piu' grandi si e' arrivati a creare "slot" (interval-
+ li di tempo riservati alla gestione di un determinato evento quale la chiamata 
+ ad  un altro BBS) sempre piu' ristretti, anche di soli 10 minuti (e  c'e'  chi 
+ vuole arrivare a 5...), poiche' il numero di "slot" da gestire in una notte e' 
+ sempre piu' elevato, in particolare per quei BBS che hanno compiti di Hub e di 
+ Host.
+      L'errore degli orologi sui computer e' mediamente molto alto. Il mio, per 
+ esempio, ha un errore che va dai 10 ai 20 secondi al giorno... Dopo due setti-
+ mane  l'errore e' gia' di qualche minuto. Molti orologi giapponesi da  quattro 
+ yen  sono di gran lunga piu' precisi del mio computer 386 25MHz, e  devo  dire 
+ che la cosa mi irrita non poco....
+      Questa imprecisione degli orologi dei computer e' quindi  particolarmente 
+ dannosa proprio per i BBS: capita, e neanche tanto raramente, che alcuni gior-
+ ni non si riesca ad effettuare lo scambio della posta proprio per problemi  di 
+ sincronizzazione degli orologi.
+      Con  GALILEO sara' quindi possibile ridurre enormemente questo  problema, 
+ oltretutto con un costo piuttosto ridotto: la durata della chiamata e' di  8-9 
+ secondi (nel caso non vi siano errori di trasmissione) il che significa un co-
+ sto MASSIMO di due scatti nell'ora di punta chiamando da qualsiasi zona d'Ita-
+ lia,  costo che ovviamente si riduce ad uno scatto nelle ore  notturne.  Quasi 
+ come avere un numero verde....
+
+      Sento gia' le domande... Quando sara' disponibile GALILEO?
+
+      Attualmente  sono  in piena fase di sviluppo, ed ho concentrato  tutti  i 
+ miei  sforzi  (leggi il mio tempo libero) su questa  operazione,  accantonando 
+ temporaneamente  altri progetti che stavo realizzando. E' in corso  anche  una 
+ massiccia campagna di beta-test, che ha finora evidenziato non pochi problemi, 
+ sconsigliandomi dall'avventarmi in prematuri rilasci di versioni ufficiali.
+
+      E'  mia intenzione arrivare ad una versione ufficiale (la 1.0)  entro  la 
+ conferenza nazionale sysop/utenti Fidonet che si terra' a Bologna il 25 ed  il 
+ 26  Gennaio 1992, conferenza a cui conto di partecipare. La  distribuzione  di 
+ GALILEO  avverra' ufficialmente attraverso la rete di distribuzione ISN  (Ita-
+ lian Shareware Network) che vi consiglio di sostenere perche' e' un'iniziativa 
+ veramente lodevole. Appuntamento, dunque, a Bologna!
+
+
+                                    Marco Russo
+                                    2:334/1.110@fidonet.org
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                              SOFTWARE REVIEW  ###
+ ############                                                               ###
+
+                          11. NON AVRAI ALTRO EDITOR
+                               
+      Il titolo un po' biblico non puo' che essere limitativo. Mai altro editor 
+ aveva osato tanto! (In coro ...) Ma quale editor ?? MULTI EDIT 5.0 della Euro-
+ pean Cybernetics, che domanda!
+
+      E veniamo al sodo: 
+ Finalmente  sono state capite le esigenze di noi comuni programmatori  MS-DOS, 
+ mettendoci a disposizione un insieme di tools racchiusi in un unico prodotto. 
+ Ecco l'elenco di alcune delle caratteristiche peculiari cosi' come sono ripor-
+ tate sul manuale.
+
+ - Possibilita' di editare fino a 100 files contemporaneamente 
+   + Divisi su finestre comodamente dimensionabili e gestibili (NdA)
+
+ - Lunghezza  massima delle linee 2048 caratteri. (E scusate se e' poco)  [NdE: 
+      mah, a me sarebbe piaciuto arrivasse a 8192...]
+
+ - Lunghezza massima dei files fino a 2 miliardi di linee.
+   + Realmente testate (NdA)
+
+ - Sistema di MENU PULL-DOWN e di accesso veloce tramite tasti.
+   + Occorre un po' di memoria ma con l'uso diventano immediati (NdA)
+
+ - Possibilita'  di ridefinire comodamente tutte le funzioni dell'editor  e  di 
+      registrare sequenze di tasti successivamente riutilizzabili.
+   + Ottimo, e' consentita la generazione automatica di macro direttamente dal-
+      la sequenza dei tasti. (NdA)
+
+ - Funzione di UNDO molto avanzata.
+   + E' possibile recuperare qualsiasi tipo di operazione, anche quelle  effet-
+      tuate dalle macro piu' complesse (NdA)
+
+ - Gestione  molto efficiente e completa dei blocchi di testo  (Colonnari,  li-
+      nea-linea  e flusso di testo), con possibilita' di effettuare  operazioni 
+      matematiche su tutti i numeri presenti nel blocco evidenziato.
+
+ - Funzioni di  RICERCA e SOSTITUZIONE molto potenti che consentono  l'utilizzo 
+      di espressioni regolari.
+   + Il massimo che si possa chiedere, comprende anche operazioni di ricerca su 
+      piu' files direttamente dall'editor (NdA)
+
+ - Linguaggio di programmazione a MACRO completo, potente e facile da imparare.
+
+ - Help IPERTESTUALE completo e sempre disponibile
+    + Possibilita'  di creare help files personali (viene  addirittura  fornita 
+      separatamente una macro che converte i sorgenti delle Norton Guides in un 
+      formato gestibile dall'editor) (NdA)
+
+ - DOS SHELL ben organizzata direttamente dell'editor.
+
+ - Setup automatico in dipendenza dall'estensione del file che si sta editando.
+   + Esistono macro  predefinite che provvedono alla corretta indentazione  del 
+      codice nel linguaggio in cui si sta programmando.
+
+ - COMPILAZIONE direttamente dall'interno del editor con ricerca e  visualizza-
+      zione degli errori.
+   + Programmati circa 9 o 10 compilatori (i piu' diffusi)
+
+ - Completamente gestibile via MOUSE.
+   + Meglio la tastiera! (NdA)
+
+ - Calcolatrice e Tabella ASCII incorporate.
+    + La calcolatrice offre operazioni e conversioni con numeri in piu' formati 
+      e basi (Decimale, ottale, binaria, esadecimale), operazioni logiche.
+
+ - Possibilita' di disegnare facilmente linee e contorni.
+
+ - Gestione completa della memoria espansa
+
+ - SHELL a DOS lasciando soltanto poco meno di 2 Kbytes residenti.
+  + Opportunamente testato.
+
+      Tutto questo nella versione STANDARD. La versione PROFESSIONALE offre:
+
+ - Modulo di comunicazione via modem integrato.
+   + Gestisce anche protocolli esterni (Ymodem, Zmodem ...)
+
+ - Print Formatter con funzioni di word processing potenti e complete
+
+ - Spell checker integrato
+
+ - Debugger integrato per il linguaggio a MACRO.
+   + Incredibile (N.d.A)
+
+ - Codice sorgente di tutte le macro di sistema.
+
+      Da notare che il prodotto viene fornito completo di un manuale comprensi-
+ vo di documentazione sul programma e sul linguaggio delle macro (400  pagine), 
+ il tutto corredato da un comodo e vivace raccoglitore.
+
+      Personalmente lo ritengo il migliore editor attualmente in circolazione e 
+ trovo  opportuno segnalare la assoluta flessibilita' e le potenzialita'  delle 
+ funzioni di ricerca e sostituzione (lo si potrebbe comodamente adattare a fare 
+ l'analizzatore lessicale LEX); ma ora preferirei lasciare parlare lui. E'  in-
+ fatti  disponibile penso gia` in molti BBS una versione dimostrativa.
+
+      I prezzi sono decisamente alla portata di tutti: la versione PROFESSIONA-
+ LE circa 270 Klire, e quella standard circa 150 Klire.
+
+      Mi preme dire che non ho ricevuto alcun compenso (per voi maligni), e che 
+ quello  che ho scritto e' realmente quello che ho riscontrato sul  campo  dopo 
+ circa 4 mesi di uso quasi quotidiano.
+
+                                            Ciao a tutti, Alx
+                                             (2:334/100.16)
+ ############                                                               ###
+ ###   7  ###                                                  LA RETE ISN  ###
+ ############                                                               ###
+
+      Come tutti sapete, Fidonet non e` solo messaggi, ma anche (alcuni  dicono 
+ soprattutto!)  files. Magari sapete anche che ci sono alcuni circuiti  che  si 
+ appoggiano  a Fidonet e che sono nati per distribuire files  shareware.  Pero` 
+ forse  non sapete che esiste una di queste reti nata in Italia e  dedicata  al 
+ software italiano. Si chiama ISN (Italian Shareware Network), ed e` una  crea-
+ zione di Davide Rolando. Nel seguito, col permesso dell'autore, riporto la po-
+ licy del circuito...                      .mau.
+
+
+ ***            Che cosa e' l' "Italian Shareware Network"
+                
+      E'  una rete di BBS Italiane appartenenti alla Fidonet (TM) che  ha  come 
+ scopo  la promozione, lo sviluppo e la distribuzione di software  shareware  o 
+ freeware creato dai programmatori italiani.
+
+ ***            Perche' l' "Italian Shareware Network" ?
+
+      Gia'  da  molti anni esistono reti simili a livello  internazionale  (es. 
+ SDS, SDN...), mancava un qualcosa di analogo in Italia, una struttura che  fa-
+ vorisse la produzione e lo sviluppo di software "Made in Italy". L'ISN di pro-
+ pone come scopo fondamentale proprio quello di dare la possibilita' ai  nostri 
+ programmatori  di farsi conoscere e spingerli a creare qualcosa di  nuovo,  di 
+ alternativo ai soliti programmi "Made in USA".
+
+ ***            Responsabilita'
+
+      Ne'  l'I.S.N. ne' la Fidonet sono in alcun modo responsabili del  cattivo 
+ funzionamento e dei possibili danni provocati dai programmi distribuiti.
+
+ ***            Come funziona ?
+
+      Il concetto di funzionamento e' molto semplice: una volta verificato  che 
+ un  dato programma ha i requisiti per entrare nell'ISN, viene immesso in  rete 
+ in  un particolare nodo autorizzato e verra' automaticamente  ridistribuito  a 
+ tutti i nodi del Network; contemporaneamente verra' aggiornato l' archivio ge-
+ nerale  dei programmi. In poco tempo tutti i nodi avranno on-line il  program-
+ ma!!!
+      Parallelamente  esistono anche delle aree echo messaggi per il  coordina-
+ mento  dell'ISN  ed anche conferenze tecniche fra autori ed  utilizzatori  dei 
+ programmi.
+
+***             L' Archivio Generale dei Programmi
+
+      Ogni volta che viene immesso in rete un nuovo programma sara'  aggiornato 
+ l'"Archivio  Generale dei Programmi", contenente tutte le specifiche  tecniche 
+ del programma stesso piu' tutti i dati anagrafici dell'autore. Questo archivio 
+ e' reperibile in ogni nodo del Network.
+
+***             Aree files ISN
+
+      Vengono definiti i seguenti tag:
+           - ISNMAIN      Programmi di coordinamento ISN, Policy ...
+           - ISNMSDOS     Programmi per MsDos
+           - PREMSDOS     Programmi da testare per MsDos
+           - ISNAMIGA     Programmi per Amiga
+           - PREAMIGA     Programmi da testare per Amiga
+           - ISNBBS       Programmi per BBS & Point
+           - PREBBS       Programmi da testare per BBS & Point
+      NB:  Le ISN* sono aree pubbliche riservate alla distribuzione  dei  files 
+ gia' testati. Le PRE* sono riservate esclusivamente allo smistamento dei  pro-
+ grammi da testare solo verso il moderatore dell'area.
+      L'area  ISNMAIN conterra' file di interesse specifico per l'ISN  e  sara' 
+ gestita dal Backbone Italiano ed eventualmente da Backbone di net.
+
+ ***            Aree echo messaggi
+
+      Vengono definite le seguenti due aree echo messaggi :
+           - ISN_COORD    Riservata ai sysop e moderatori d'area
+           - ISN_PROG     Aperta a tutti
+
+ ***            Requisiti necessari per far parte della rete ISN
+
+      - Appartenere alla Fidonet
+      - Avere un hard disk di capacita' sufficiente
+      - Possibilmente avere un modem a 9600 baud
+      - Altri requisiti nel file SYSOP.ISN
+
+ ***            Struttura files ISN
+
+      - Ogni file dovra' essere compattato con uno dei seguenti programmi:
+           LHA 2.13 o seguenti
+           PKZIP 1.10 o seguenti
+           ARJ 2.20 o seguenti
+
+      - Ogni archivio dovra' contenere oltre ai file eseguibili, al manuale  ed 
+ ad  ogni altro file necessario al funzionamento un file chiamato  INFO_PRG.ISN 
+ cosi' strutturato :
+
+      NOME DOS : Nome programma (Stile DOS)
+      NOME     : Nome Programma esteso
+      VERSIONE : Versione
+      DESCRIZ. : Descrizione
+      DATA     : Data rilascio programma
+      S.O.     : Sistema operativo
+      CONFIG.  : Configurazione minima
+      QUOTA    : Quota registrazione (0 se FreeSoftware)
+      AUTORE   : Nome e Cognome autore
+      INDIR.   : Indirizzo Autore
+      NODO     : Nodo/Point reperibilita' Autore
+      NOTE     : Note varie
+
+      E' importantissimo che la struttura di questo file sia rigida poiche'  e' 
+ necessario per l' automatico aggiornamento dell'archivio programmi.
+
+       - E' vietato modificare in qualsiasi modo un archivio inserendo  banner, 
+ files pubblicitari o riconvertire il formato originale di compattazione.
+
+ ***            Varie
+
+ -  Per  lo smistamento dei file ISN viene usato il programma TICK  2.0  o  se-
+ guenti.
+ - E' obbligatorio tenere in separate aree e subdirectory i files ISN dai  nor-
+ mali files della propria BBS.
+ - E' vietato usare in automatico il programma HATCH su un'area di upload della 
+ propria  BBS senza avere pre-testato gli upload. I sysop devono effettuare  un 
+ minimo di filtro dei programmi immessi nelle aree PRE.
+ -  E' obbligatorio tenere in linea i files ISN per almeno 30  giorni  (escluse 
+ vecchie versioni).
+ - E' vietato inserire arbitrariamente in rete dei files senza esserne autoriz-
+ zati.
+ - E' obbligatorio agganciarsi alle aree echo di coordinamento e non della rete 
+ ISN.
+ -  E' obbligatorio per i BackBone di net (e consigliabile anche a tutti i  no-
+ di),  creare  i  seguenti  "magic  name"  per  File  Request:  ISN_INFO  (File 
+ ISNPOLnn.LZH) e ISN_NODE (File ISN_NODE.nnn)
+ 
+
+                          Davide Rolando * Sysop Animal House BBS - 2:332/206
+ ############                                                               ###
+ ###   8  ###                                         BBS E CUCINA: PIERRE  ###
+ ############                                                               ###
+  
+      Se  seguite l'area Cucina.Ita od EchoSer.033 avrete gia' sentito  parlare 
+ di Pierre. Qui troverete magari alcune precisazioni. Qualora invece non ne ab-
+ biate mai sentito parlare prima d'ora, ecco tutto quello che dovete sapere.
+
+      Pierre e' essenzialmente un database consultabile via matrix,  contenente 
+ ricette di cucina. Al momento ci sono solo le ricette tratte da RAI  Televideo 
+ (alle  pagine  627 e 625), catturate con l'apposita scheda ed  alcune  ricette 
+ comparse in area Cucina.Ita, oltre ad una paginetta presa da un emittente  ge-
+ novese sempre con la scheda Televideo, ma quando avro' tempo ne immettero' an-
+ che da altre fonti.
+
+                ===  Come si fa a consultare Pierre?  ===
+ Semplice: inviate un matrix all'utente "Pierre" di 2:334/306.666 ("ma come? e' 
+ lo stesso tuo point!" vi chiederete; ebbene si': Pierre ed io condividiamo  il 
+ computer), senza mettere nulla nel subject (o qualsiasi cosa purche' non  con-
+ tenga le parole HELP, ABOUT e ?) ed inserendo nel testo una lista di  comandi, 
+ uno per riga.
+
+      I comandi sono:
+
+      ABOUT
+ Vi rispedisce indietro una schermata di presentazione
+
+      FIND <stringa di ricerca>
+ Elenca tutte le ricette che hanno <stringa di ricerca> all'interno del titolo.
+ Non mettete i simboli < e >.
+
+      HELP
+ Risponde  con qualche riga di aiuto che spiega come utilizzarlo. Un punto  in-
+ terrrogativo ha lo stesso effetto.
+
+      INFO
+ Quante ricette ci sono?
+
+      LISTALL
+ Elenca i titoli di tutte le ricette presenti.
+
+      SEND <nome ricetta>
+ Estrae  e spedisce la ricetta <nome ricetta>. Nota bene: <nome  ricetta>  deve 
+ essere  esattamente il titolo come viene elencato da FIND e da LISTALL.  Anche 
+ qui non bisogna mettere i simboli di < e >.
+
+      Non c'e' nessuna distinzione tra minuscolo e maiuscolo: send, SEND,  Send 
+ e sEnD sono tutti equivalenti.
+
+                ===  Come e' stato realizzato Pierre?  ===
+ 
+      Pierre  e' un'applicazione Paradox implementata con il valido  aiuto  del 
+ mio  "Robot Engine", un tool che rende la creazione di "robots"  che  agiscono 
+ via matrix uno scherzo.
+
+      Inoltre, per risparmiare spazio, Pierre usa la nuova message base  PipBa-
+ se, dove i testi dei messaggi rimangono in formato compresso (se pero' vi  in-
+ teressa,  il robot Engine c'e' anche per la base messaggi fido *.msg). E  c'e' 
+ anche  di piu': mentre gli indici sono memorizzati in un normale file  .db,  i 
+ testi sono stati messi insieme e compressi con Arj. Cio' non e' bastato a  ri-
+ durlo a dimensioni accettabili per l'installazione sul BBS, e cosi' sono stato 
+ costretto a metterlo sul point, insieme a me, dove c'e' un hard disk piu'  ca-
+ pace.
+
+      Adesso poi che 334/306 non e' piu' nelle mie mani, avere Pierre sul point 
+ e' diventata conditio sine qua non per poterlo gestire direttamente.
+
+                ===  Note addizionali su Pierre  ===
+
+      I messaggi provenienti da Pierre sono sempre routati, cioe' fatti passare 
+ attraverso  la "solita" catena di BBS, con tutti i rischi ed  i  rallentamenti 
+ che  cio'  comporta. Qualora vogliate la spedizione con chiamata  diretta,  ci 
+ possiamo mettere d'accordo per definire un rimborso delle spese.
+
+      Infine,  voglio solo raccomandare ai points una cosa: NON USATE IL  FAKE-
+ ADDRESS per il mittente e specificate il point di destinazione del  messaggio, 
+ altrimenti le vostre richieste e/o risposte non arriveranno mai (a meno di in-
+ terventi di salvataggio operati dal sottoscritto, quando e' in vena di vestire 
+ il saio della Sacra Compagnia dei Sysops al Servizio degli Utenti).
+
+      Se  servono  ulteriori chiarimenti, sono sempre reperibile in  matrix  al 
+ 2:334/306.666, oppure al 2:334/306 e basta (sperando che il remapper faccia il 
+ suo lavoro). 
+
+  @  @
+            Ciao.
+ \____/
+                                              Roberto Piola
+ ############                                                               ###
+ ###   9  ###                             CURIOSITA`: DONNE E LINGUAGGI...  ###
+ ############                                                               ###
+
+ [NdE: quella che segue e` la traduzione di un pezzo scritto da Daniel J. Salo-
+ mon, dell'Universita` di Waterloo in Canada.]
+
+      Ci  sono  cosi` tanti linguaggi di programmazione  disponibili  che  puo` 
+ essere  difficile  riuscire a conoscerli tutti abbastanza bene  per  scegliere 
+ quello  adatto  a se`. D'altra parte, molti uomini sanno quale tipo  di  donne 
+ preferiscono.  Ecco  quindi  una  pratica guida per  molti  dei  linguaggi  di 
+ programmazione  popolari  che  descrive  che tipo di  donne  sarebbero,  se  i 
+ linguaggi di programmazione fossero donne.
+
+      Assembler  - Una atleta su pista che detiene tutti i record  mondiali  di 
+ velocita`. E` robusta e bernoccoluta, e quindi non cosi` piacevole da  abbrac-
+ ciare. Puo` cucinare un qualunque cibo, ma ha bisogno di una ricetta  completa 
+ e  dettagliata.  Non e` bella ne` educata, e parla in monosillabi  come  "MOV, 
+ JUMP, INC". Ha un temperamento fiero e violento che la fa scegliere come ulti-
+ mo ripiego.
+
+      FORTRAN  - La vostra nonna coi capelli grigi. La gente la prende in  giro 
+ solo perche` e` vecchia, ma se avete la pazienza di ascoltarla potete imparare 
+ dalle  sue esperienze e dai suoi errori. Nella sua vita si e` costruita  delle 
+ utili  abilita` in cucito e cucina (librerie di subroutine) che nessuna  donna 
+ piu` giovane puo` pareggiare, percio` siate grati che sia ancora presente.  Ha 
+ un temperamento notoriamente cattivo e se fatta arrabbiare comincera` a urlare 
+ e  lanciare piatti. E` stato principalemnte questo temperamento che  ha  fatto 
+ cercare un'alrta donna al nonno.
+
+      COBOL - Una segretaria acida. Parla davvero troppo, e la maggior parte di 
+ quello  che dice puo` essere ignorato. Lavora duramente e per lungo tempo,  ma 
+ non e` capace a maneggiare lavori realmente complicati. Il suo temperamento e` 
+ brusco  e  impredicibile, e quindi a nessuno piace davvero lavorare  con  lei. 
+ Puo` cucinare per una grande famiglia, ma conosce solo ricette insipide.
+
+      BASIC  - L'eccitante divorziata che vive alla porta accanto. La sua  spe-
+ cialita` e` sedurre i ragazzini, e sembra che sia sempre immediatamente dispo-
+ nibile  per loro. Insegna loro molte cose stupefacenti, o che almeno  sembrano 
+ stupefacenti perche` e` la loro prima esperienza.Non e` poi cosi` giovane,  ma 
+ visto che e` stata il loro primo amore i ragazzi la ricordano sempre con  pia-
+ cere. Le sue abilita` di cucina e cucito sono mediocri, ma generalmente  irri-
+ levanti: e` lo spasso che piace ai ragazzi. L'opinione che gli adulti hanno di 
+ Mrs. BASIC e` varia. Spaventosamente, alcuni padri fanno addirittura conoscere 
+ questa donna immorale ai propri figli! Ma generalmente gli adulti piu` virtuo-
+ si tentano di correggere questi giovani male influenzati facendo conoscere lo-
+ ro donne che si comportano meglio come Miss Pascal.
+
+      PL/I  -  Una tenutaria di bordello. Indossa vestiti  di  seta,  diamanti, 
+ pellicce e scarpe rosse dal tacco alto. Una volta sembrava molto attraente, ma 
+ oggi sembra solo sovrappeso e trasandata. I gusti cambiano.
+
+      C - Una dirigente d'azienda. Adora il jogging, e` sempre in piena  forma, 
+ e non parla troppo. E` una buona cuoca se vi piace il cibo pepato. A meno  che 
+ non controllate attentamente quello che dite (con LINT), potreste scatenare il 
+ suo temperamento fiero. Sua figlia C++ e` ancora giovane e facile alla  colle-
+ ra, ma sembra che stia diventando una giovane donna di temperamento piu` tran-
+ quillo e di carattere piu` sofisticato.
+
+      ALGOL  60 - La fiamma di vostro padre nel tempo di guerra,  piccina,  ben 
+ proporzionata e dal cuore dolce. E` scomparsa misteriosamente durante la guer-
+ ra, ma vostro padre parla ancora della sua forma armoniosa e della loro  vapo-
+ rosa storia di amore. In realta`, non ha mai assaggiato la sua cucina.
+
+      Pascal - Un'insegnante delle medie, e la sorella minore di Algol 60. Come 
+ sua sorella, e` piccina e attrattiva, ma molto tirannica. E` un'ottima  cuoca, 
+ ma solo se la ricetta non richiede piu` di una pentola (modulo).
+
+      Modula  II - Un'insegnante liceale e la figlia di Pascal. Molto simile  a 
+ sua madre, ma ha imparato a cucinare con piu` di una pentola.
+
+      ALGOL 68 - La nipote di Algol 60. Donna dell'alta societa`, bene  educata 
+ e concisa. Pochi uomini possono capirla appieno quando parla, e i suoi  prece-
+ denti amanti discutono ancora la sua personalita` misteriosa. E` molto esigen-
+ te per i suoi amori, e non prenderebbe mai un uomo qualunque come amante.  Ul-
+ timamente  non e` stata vista, e corre voce che e` morta cadendo da una  torre 
+ d'avorio.
+
+      LISP  - E` una beatnik di una certa eta`, che vive in una  comune  rurale 
+ con  le sue cugine hippie SMALLTALK e FORTH. Molti uomini (in gran parte  stu-
+ denti  universitari) che hanno visitato il cascinale lodano  entusiasticamente 
+ il  cibo naturale, e i perpetui love-in che si tengono la`. Altri criticano  i 
+ lunghi tempi di cottura, e le posizioni sessuali innaturali (prefissa e  post-
+ fissa). Anche se queste donne hanno raramente lavori a tempo pieno, quando la-
+ vorano i loro capi le apprezzano per la loro immaginazione - ma di solito  non 
+ per la loro efficienza.
+
+      APL - Una bizzarra ristoratrice specializzata in cibo greco. Puo` cuocere 
+ piatti deliziosi per file e file di tavoli con dozzine di persona ad ogni  ta-
+ volo. Non parla molto, perche` la rallenterebbe. Poche persone comprendono  le 
+ sue  ricette,  visto che sono scritte in una lingua straniera,  e  sono  tutte 
+ scritte alla rovescia.
+
+      LOGO - Una maestra di disegno delle elementari. E` proprio il tipo di in-
+ segnante che avreste voluto avere quando eravate giovani. E` formosa e pazien-
+ te,  ma non una conversatrice interessante. Puo` cuocere merendine  deliziose, 
+ ma non pranzi completi.
+
+      LUCID & PROLOG - Queste ragazzine intelligenti mostrano un nuovo tipo  di 
+ abilita` culinaria. Sanno cucinare ottimi piatti senza ricetta, lavorando solo 
+ da  una  descrizione del cibo desiderato (cucina dichiarativa).  Molti  uomini 
+ sono affascinati da cio` e hanno gia` chiesto di sposarle. Altri si  lamentano 
+ del  fatto che le ragazze lavorano molto lentamente, e spesso  la  descrizione 
+ del cibo e` lunga quanto la ricetta stessa. E` difficile predire cosa  faranno 
+ queste ragazze quando saranno pienamente mature.
+
+      Ada - Un colonnello delle ausiliarie costruito come un'amazzone. Stabili-
+ sce  sempre  regole rigide, ma se le seguite si calma. Parla  molto,  gridando 
+ termini militari, e usando un gergo militare oscuro. Ma dovete amarla, perche` 
+ l'esercito dice cosi`.
+ ############                                                               ###
+ ###  10  ###                                   IL GERGO HACKER - PARTE 10  ###
+ ############                                                               ###
+
+      <brute force> [a bruta forza] agg.: descrive un certo stile primitivo  di
+ programmazione; in breve, quello in cui il programmatore si basa sulla potenza 
+ di  calcolo dell'elaboratore piuttosto che usare la sua intelligenza per  sem-
+ plificare il problema. Spesso vengono ignorati i problemi di scala e si appli-
+ cano metodi naif adatti a piccoli problemi direttamente a quelli grandi.
+      L'esempio  canonico  (<canonical>) di un algoritmo b.f. e`  associato  al 
+ problema  del  commesso viaggiatore (TSP, da `Travelling  salesman  problem'), 
+ classico  problema NP-completo: supponiamo che una persona sia a Boston e  vo-
+ glia viaggiare verso N altre citta`. In che ordine deve visitarle per minimiz-
+ zare la distanza percorsa? Il metodo b.f. consiste nel generare  semplicemente 
+ tutti i percorsi e confrontare le distanze; garantito funzionare e semplice da 
+ implementare,  e`  chiaramente assai `stupido' perche` considera  persino  dei 
+ percorsi ovviamente assurdi (tipo andare da Boston a Houston via San Francisco 
+ e New York). Per N piccoli funziona bene, ma diventa rapidamente  inefficiente 
+ in maniera assurda al crescere di N (per N=15, ci sono gia`  1,307,674,368,000 
+ possibili percorsi, e per N=1000... beh, v. <bignum>). V. anche <NP->.
+      Un esempio piu` banale di programmazione b.f. e` trovare il piu`  piccolo 
+ numero in una grande lista usando prima un programma esistente per ordinare la 
+ lista, e poi prendere il primo numero di questa.
+      Notate che la programmazione b.f. deve essere considerata o no stupida  a 
+ seconda  del  contesto: se il problema non e` troppo grande, il tempo  di  CPU 
+ speso  in piu` per una soluzione b.f. puo` costare meno del tempo che il  pro-
+ grammatore ha speso per trovare una soluzione piu` `intelligente'.  Alternati-
+ vamente,  un algoritmo piu` intelligente puo` comportare un costo  maggiore  a 
+ lungo  termine per la complessita` e la ricerca di bug di quanto  giustificato 
+ dall'incremento di velocita`.
+      Si dice che Ken Thompson, coinventore di UNIX, abbia mormorato l'epigram-
+ ma "Nel dubbio, usate la forza bruta". Lo intendeva probabilmente come un  <ha 
+ ha  only  serious>, ma la preferenza nel kernel originale UNIX  per  algoritmi 
+ semplici, robusti e portabili su quelli fragili ma `furbi' sembra essere stato 
+ un  fattore  significante nel successo di quel sistema operativo.  Come  cosi` 
+ tanti compromessi nel disegno del software, la scelta tra b.f. e  intelligenza 
+ complessa e raffinata e` spesso difficile e richiede sia buon senso che un de-
+ licato giudizio estetico.
+
+      <brute force and ignorance> [forza bruta e ignoranza] s.: una tecnica  di 
+ programmazione popolare in molte software houses - <brute force> non  accompa-
+ gnata da alcuna conoscenza di come i problemi sono stati risolti in precedenza 
+ in modo elegante. L'aderenza dogmatica alle metodologie di programmazione ten-
+ de a incoraggiarla. Caratteristica di molti progetti allo stato larvale (<lar-
+ val  stage>: sfortunatamente, molti non la perdono mai. Spesso  abbreviata  in 
+ BFI, come in "Puah, hanno usato un bubble sort! E` proprio BFI." Confr. <bogo-
+ sity>.
+
+      <BSD> /bee-ess-dee/ s. [acronimo per Berkeley System Distribution]: fami-
+ glia di versioni <UNIX> per il <VAX> della DEC sviluppata da Bill Joy e  altri 
+ all'Universita` della California a Berkeley a partire dal 1980, contenente ge-
+ stione  della memoria a pagine, gestione di rete via TCP/IP e molte altre  mi-
+ gliorie.  Le versioni BSD (4.1, 4.2 e 4.3) e le versioni commerciali  da  esse 
+ derivate  (SunOS,  ULTRIX, e Mt. Xinu) sono state le piu` avanzate  nel  mondo 
+ UNIX  fino  alla standardizzazione riuscita nel 1986 alla AT&T a  partire  dal 
+ 1986, e sono ancora assai popolari. V. <UNIX>, <USG UNIX>.
+
+      <bubble sort> [ordinamento a bolla] s.: Termine tecnico per una  partico-
+ lare tecnica di ordinamento. Visto che non e` ottima rispetto ad altri metodi, 
+ ed  e` quella tipicamente in cui incespicano i programmatori <naive>  e  senza 
+ guida, gli hacker lo considerano esempio canonico di un algoritmo naive.  L'e-
+ sempio  canonico di un argoritmo davvero *pessimo* e` il <bogo-sort>. Un  b.s. 
+ puo` essere usato semplicemente per ignoranza, ma usare bogo-sort e` segno  di 
+ cervello danneggiato o perversione voluta.
+
+      <bucky bits> /buh'kee bits/ [da Stanford] s.: i bit prodotti dai tasti di 
+ shift CTRL, META, SUPER, e HYPER, sp. su una tastiera stile Stanford o MIT (v. 
+ <space-cadet  keyboard>). Per estensione, i bit associati con i tasti  `extra' 
+ di shift su una tastiera, come ALT sul PC IBM o command e option sul Mac.
+      Si  narra che il nome derivi da un tale Buckminster Fuller che  e`  stato 
+ consultant  a Stanford. Purtroppo, un'altra leggenda vuole che `Bucky' era  il 
+ nomignolo  di Niklaus Wirth quando *lui* era consultant a Stanford, e che  lui 
+ sia  stato  il primo a suggerire l'idea del tasto meta... V.  <double  bucky>, 
+ <quadruple bucky>.
+
+      <buffer  overflow> s.: Cosa succede se si tenta di infilare in un  buffer 
+ (area di deposito) piu` dati di quanti ne possa contenere. Puo` essere  dovuto 
+ a una differenza nella velocita` relativa di crezaione e consumo dei dati  (v. 
+ <overrun>), o semplicemente perche` il buffer e` troppo piccolo per  contenere 
+ tutti  i dati necessari affinche` parte di essi vengano processati. Per  esem-
+ pio, in un word processor che lavora su linee terminate da <CR>, un buffer  di 
+ linea  troppo corto puo` risultare in perdita (<lossage>) se una linea  troppo 
+ lunga va in overflow e rovina i dati oltre di essa. V. anche <spam>,  <overrun 
+ screw>.
+
+      <bug> [baco (lett. insetto)] s.: Una proprieta` non voluta del software o 
+ dell'hardware, sp. una che causa malfunzionamenti. Opposto di <feature>. Esem-
+ pi:  "C'e` un baco nell'editor: scrive le cose alla rovescia." "Il sistema  e` 
+ cascato  per  un baco hardware." "Fred e` vincente, ma ha un  po'  di  bachi." 
+ (cioe`, Fred e` un bravo ragazzo, ma ha qualche problema di personalita`). 
+      Alcuni affermano che il termine viene dall'uso delle compagnie  telefoni-
+ che, dove "i bug nei cavi telefonici" sono incolpati delle linee rumorose,  ma 
+ questa  sembra  essere una leggenda metropolitana. L'ammiraglio  Grace  Hopper 
+ (pioniere dei calcolatori meglio nota per avere inventato il <COBOL>) ama rac-
+ contare  una  storia in cui un tecnico risolse un <glitch>  (v.)  dell'Harvard 
+ Mark II estraendo un vero e proprio insetto da un contatto, e diffuse il  ter-
+ mine bug nel senso hacker come uno scherzo (anche se ammette che non e`  stata 
+ presente  all'operazione). Per molti anni il diario con narrato l'incidente  e 
+ l'insetto in questione (per la precisione, una tarma) sono rimasti in una  ba-
+ checa  al Naval Surface Warfare Center; ora sono allo Smithsonian.  La  storia 
+ completa,  insieme a una foto del diario e della tarma, si puo` trovare  negli 
+ Annals of the History of Computing, Volume 3, Numero 3 (Luglio 1981), alle pa-
+ gine 285-286.
+      E`  interessante che il testo scritto nel diario (9 Settembre 1945),  che 
+ dice  "[ore] 1545 Relay #70 Pannello F (tarma) nel rele`. Primo esempio di  un 
+ bug effettivamente trovato", sembra stabilire che il termine era gia` noto. Di 
+ fatto,  l'uso di `bug' per indicare un difetto industriale era gia`  usato  al 
+ tempo  di  Thomas  Edison, e `bug' nel senso di un evento  rovinoso  risale  a 
+ Shakespeare! Nella prima edizione del Dizionario di Johnson, un significato di 
+ `bug'  e` "Un oggetto spaventoso; uno spettro camminante"; questo viene  fatto 
+ derivare  da `bugbear', un termine gallese per un mostro mitologico  che  (per 
+ chiudere  il cerchio) e` stato recentemente reintrodotto nel lessico  popolare 
+ via i giochi di ruolo fantasy.
+      In ogni caso, nel gergo hacker la parola non si riferisce quasi mai  agli 
+ insetti. Ecco una conversazione plausibile, anche se non e` mai avvenuta:
+           "C'e` un bug in questo formicaio!"
+           "Ma che dici? non vedo nessuna formica."
+           "E` questo il bug..."
+
+      <bug-compatible> s.: detto di progetto o revisione il cui disegno e` sta-
+ to gravemente compromesso dalla richiesta di essere compatibile con <fossil> o 
+ <misfeature> di altri programmi o (sp.) precedenti sue release.
+
+      <bug-for-bug  compatible> s.: come <bug-compatible>,  con  l'implicazione 
+ aggiuntiva  che molti sforzi tediosi sono stati spesi per assicurare che  ogni 
+ baco (noto) sia stato replicato.
+
+      <buglix> s.: Termine peggiorativo del sistema operativo ULTRIX della  DEC 
+ nelle prime sue versioni, *assai* bacate. Ancora usato per descrivere  ULTRIX, 
+ ma senza veleno. Confr. <HP-SUX>.
+
+      <bulletproof> [blindato] agg.: usato di algoritmo o implementazione  con-
+ siderato  estremamente <robust>; capace a ripartire dopo  ogni  inimmaginabile 
+ condizione di errore. E` una qualita` rara e di valore.
+
+      <bump> vt.: sinonimo di incrementare. Ha lo stesso significato  dell'ope-
+ ratore  ++ del C. Usato sp. per contatori, puntatori e indici dummy  nei  loop 
+ `for', `while', e `do-while'.
+
+      <burn-in  period>  [periodo di bruciatura] s.: 1. Test  di  fabbrica  che 
+ cerca  i sistemi con componenti <marginal> prima che vengano  distribuiti;  la 
+ teoria e` che questa accensione protegge gli acquirenti facendo sorpassare  la 
+ parte piu` pericolosa della <bathtub curve> (v. <infant mortality>). 2. Un pe-
+ riodo di lunghezza indeterminata in cui una persona che usa un calcolatore  e` 
+ cosi` immerso nel suo progetto da dimenticarsi bisogni fondamentali come cibo, 
+ bevande, sonno, sesso, ecc. V. <hack mode>, <larval stage>.
+
+      <busy-wait>  [occuparsi attendendo] vi.: 1. [tecn.] aspettare  un  evento 
+ rimanendo  in  un loop ritardante (v. <spin>) che polla per l'evento  ad  ogni 
+ passo,  opposto al settare una routine di interrupt e continuare a  fare  del-
+ l'altro.  Tecnica costosa, evitata specialmente nei sistemi time-sharing  dove 
+ puo`  piantare  il processore. Sin. <spin-lock>. 2. Puo` essere usato  per  il 
+ comportamento umano, per indicare che uno e` li` pronto ad aspettare  qualcuno 
+ o qualcosa ed e` pronto a muoversi appena possibile (ad esempio, se sta aspet-
+ tando alla porta dell'ufficio di una persona in conferenza); quindi, non  puo` 
+ fare niente altro al momento.
+
+      <buzz>  [bisbigliare] vi.: di un programma, girare senza  indicazioni  di 
+ progresso  e  magari  senza nemmeno garanzia di  terminazione;  detto  sp.  di 
+ programmi  che  dovrebbero eseguire porzioni pesanti di codice.  Un  programma 
+ b.  sembra essere <catatonic>, ma non uscirai mai dalla catatonia,  mentre  un 
+ loop b. puo` alla fine uscire per conto suo. Esempio: "Il programma ha b.  per 
+ dieci secondi cercando di ordinare tutti i nomi". V. <spin>, <grovel>.
+
+      <by  hand> [a mano, a manina] avv.: Detto di operazione (sp.  ripetitiva, 
+ banale e/o scocciante) che dovrebbe essere fatta automaticamente dal  calcola-
+ tore,  ma  che un hacker e` invece costretto a fare lui passo passo.  "Il  mio 
+ mailer non ha un comando per includere il testo del messaggio cui sto  rispon-
+ dendo, cosi` devo farlo a manina". Confr. <eyeball search>.
+
+      <byte> s.: [tecn.] Unita` di memoria o dati equivalente al necessario per 
+ rappresentare un carattere; solitamente 8 bits, a volte 9 (sulle macchine a 36 
+ bit). Il termine nacque nel 1956 mentre si cominciava a preparare il  calcola-
+ tore IBM Stretch: originariamente corrispondeva a 6 bit (l/I/O tipico del  pe-
+ riodo usava pezzi di informazione di 6 bit). Il passaggio a 8 bit fu fatto al-
+ la  fine  del 1956, e questo formato divento` standard con il  System/360.  Il 
+ termine `byte' fu creato mutando la parola `bite' in modo che non potesse  es-
+ sere pronunciata come `bit'. V. anche `nybble'.
+
+      <bytesexual> /biet-seks'u-@l/ agg.: Detto di hardware, denota capacita` a 
+ calcolare o trasferire dati sia in formato <big-endian> che <little-endian> (a 
+ seconda  presumibilmente  di un <mode bit> da qualche parte). V.  anche  <NUXI 
+ problem>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  11  ###                                              NOTIZIE FIDONET  ###
+ ############                                                               ###
+
+      Come  detto  all'inizio,  dovrete accontentarvi  per  questo  mese  delle 
+ notizie  relative  al net 334. Non che sia una grande differenza  rispetto  ai 
+ numeri passati, a dire il vero... 
+ Iniziamo comunque con due notizie di carattere generale.
+
+ * SysCon '92
+
+      La riunione annuale di tutti (o quasi) i sysop, cosysop e amici  italiani 
+ si terra` a Bologna il 25 e 26 gennaio. Ampio coverage di quanto dibattuto sul 
+ prossimo numero di Telematicus.
+
+
+ * Nascera` FidoNet Italia?
+
+      Per  i primi giorni di gennaio e` prevista la registrazione ufficiale  di 
+ un'associazione  denominata appunto "Fidonet Italia" e che dovrebbe servire  a 
+ tutelare  i  sysop soci. Anche per questo l'appuntamento e`  per  il  prossimo 
+ numero.
+
+                               ::: NET 334 :::
+
+ * E' nata UnixBBs Torino!
+
+      Il  sysop  (Fabrizio  Croce) ci dice che ai numeri  011/4243277  (PEP)  e 
+ 011/4243283  (V42bis,V32), 24 ore su 24, risponde questa nuova BBS,  interfac-
+ ciata alle NEWS di UUNET e aderente a Sublink Network.
+      Tra  le varie possibilita` offerte si ha lettura e scrittura di  news  su 
+ piu' di 800 aree messaggistiche, 300 Mb di software di pubblico dominio UNIX e 
+ un'area files di supporto per Unix Interactive con in linea le ultime  patches 
+ ricevute da Interactive.
+
+
+ * Riunioni del net 334 al CRDC.
+      
+      Il  13 gennaio ci sara` la consueta riunione mensile in C.so  Sicilia  12 
+ per   tutti  gli  amici  telematici  torinesi.  Con  l'occasione,  si   terra` 
+ l'assemblea  ordinaria  dell'associazione TamTam, con la  possibilita`  per  i 
+ ritardatari di mettersi in regola con la quota di associazione.
+
+
+ * PiemonteBBS doppiamente (ir)raggiungibile
+      
+      Il  334/306  risponde  anche allo 0121/542796, sempre dalle  20  alle  8. 
+ Doppia  possibilita` di collegamento... sempre che il centralino non  vada  in 
+ tilt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  12  ###                                      INDICE TELEMATICUS 1991  ###
+ ############                                                               ###
+
+ Cosa e` apparso su  Telematicus l'anno scorso e dove? Ecco qua... .mau.
+
+           TELEMATICA GENERICA:        |            IL PROGRAMMINO:
+ Uno sguardo su Itapac      # 00 p.  2 |  Una foglia frattale        # 00 p.  5
+ Che cos'e` MNP             # 01 p.  3 |  Call 32H - Int 21H         # 01 p.  4
+ Che cos'e` QNX             # 02 p.  4 |  Calcolo delle date         # 02 p.  5
+ Le chat Videotel           # 02 p. 12 |  Gestione interrupts MSDOS  # 03 p.  7
+ Lo standard ANSI           # 04 p.  4 |  Generatore numeri casuali  # 04 p.  8
+ Il Bimodem (i)             # 05 p.  3 |  .EXE MSDOS autopatchato    # 05 p. 12
+ Il Bimodem (ii)            # 07 p.  3 |  Verifica codice fiscale    # 07 p. 12
+ Voce e dati                # 05 p.  6 |  Stampa evidenziata         # 09 p. 14
+ Come si riduce il cluster  # 06 p.  3 |  Calcolo del CRC            # 10 p. 13
+ Il Telesoftware            # 06 p.  7 |  Gestione liste in C        # 11 p. 11
+ Xmodem                     # 07 p. 10 |
+ Outdials Itapac            # 09 p. 11 |
+ Clipper: la storia         # 10 p.  3 |
+ Compatibilita` pc/mac/...  # 10 p.  8 |
+ Programmaz. event-driven   # 12 p.  3 | 
+
+              VIVAMIGA:                |                FIDONET:               
+ Platinum!                  # 01 p.  8 |  Il Gergo Fidonet (i)       # 01 p.  6
+ Arexx                      # 02 p. 10 |  Il Gergo Fidonet (ii)      # 02 p.  9
+ HISoft Professional BASIC  # 03 p.  5 |  Il Gergo Fidonet (iii)     # 03 p.  3
+ C1-Text 3.0                # 04 p. 11 |  Fidonet, come e perche`    # 02 p.  4
+ REQ.LIBRARY (i)            # 05 p.  8 |  Il point                   # 04 p.  6
+ REQ.LIBRARY (ii)           # 06 p. 16 |  Echomail                   # 05 p.  5
+ REQ.LIBRARY (iii)          # 09 p. 18 |  Le message bases           # 06 p. 12
+ Empire                     # 05 p. 18 |  Come si mette su un BBS    # 07 p.  5
+ AmigaCAD                   # 07 p. 14 |  I BBS Macintosh            # 09 p.  8
+ Emulatori Mac e Msdos      # 10 p. 10 |  La PIPbase                 # 11 p.  3
+ DiskMaster 2.0             # 11 p.  9 | 
+ Amiga SO2.0 vs. Windows3   # 12 p. 13 |                 ITAPAC:               
+                                       |  1 - Generalita`            # 06 p. 10
+                  BBS:                 |  2 - NUI, NUA, DNIC         # 07 p.  7
+ Charlie's Puppies          # 03 p. 12 |  3 - Elenco DNIC e comandi  # 09 p.  3
+ Infotel 2                  # 04 p. 15 |  4 - Parametri del PAD (i)  # 10 p.  6
+ Telesoft -> PiemonteBBS    # 12 p.  7 |  5 - Parametri del PAD (ii) # 11 p.  5
+                                       |  6 - Errori, msg, security  # 12 p.  8
+                                       | 
+                                       | 
+         CURIOSITA` E RACCONTI:        |            IL JARGON FILE:            
+ Gli acronimi               # 00 p.  7 |  @ - ASCII                  # 03 p. 15
+ Le faccine                 # 01 p. 10 |  back door - bare metal     # 04 p. 17
+ Modem. Chi era costui?     # 04 p. 16 |  baroque - bboard           # 05 p. 20
+ 2001 Odissea nello Spazio  # 08 p.  3 |  BBS - Big Grey Wall        # 06 p. 19
+ L'Intel 80586              # 08 p.  4 |  big iron - bigot           # 07 p. 16
+ Il Vero Programmatore      # 08 p.  5 |  bit - bixie                # 09 p. 22
+ Amigolezzi                 # 08 p. 13 |  black art - BNP            # 10 p. 19
+ Rhosetta                   # 08 p. 16 |  bogo-sort - book titles    # 11 p. 14
+ Programmatori di Sistema   # 10 p. 16 |  boot - BRS                 # 12 p. 15
+ I pc chiedono affetto?     # 11 p. 12 |
+                                       |
+                VARIE:                 |
+ Il Syscon '91              # 03 p.  4 |
+ Wmail                      # 03 p. 13 |
+ Syscon '91 report          # 04 p.  3 |
+ L'Associaz. Radioascolto   # 05 p. 11 |
+ Cronache del Fantameeting  # 05 p. 14 |
+ BBS e Radioascolto         # 12 p. 11 |
+
+
+
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:    
+
+ 334/100 - 011-3299706     | 334/1   - 011-5765565     | 331/112 - 0341-360511
+ 333/603 - 040-3783111
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369 
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003 
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/0   - 011-5765568     | 334/306 - 0121-542795     | 335/210 - 081-5709527
+ 335/405 - 06-315323     
+
+
+
+
+####                            End of TELEM013                            ####

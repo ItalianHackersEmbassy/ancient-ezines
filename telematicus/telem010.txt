@@ -1,0 +1,1322 @@
+    *****   Vol.  1   *****      Pag.  1      *****   Numero  10   *****
+
+    ====================================================================
+
+    @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+      @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+      @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+      @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+      @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+    ====================================================================
+
+                                 Ottobre 1991
+
+    ====================================================================
+
+      Bollettino telematico mensile a cura del network 2:334 - Fidonet 
+
+                 Editor integrator:     Maurizio Codogno
+                 Editor turisticus:     Mimmo Cristofaro
+                 Editor PADdista:       Alfredo Berlusconi
+                 Editor compatibilis:   Marco Civra
+                 Editor letteratus:     Renato Rolando
+                 Editor remotus:        Piermaria Maraziti
+                 Editor novellus:       Raffaello Valesio
+                 Editor tariffarius:    Roberto Piola
+                 Collaboratori:         Tutti voi :-)
+
+    --------------------------------------------------------------------
+
+                            IN   QUESTO   NUMERO :
+
+    Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .  pag.  2
+    Clipper: la storia, di Mimmo Cristofaro   .   .   .   .   .  pag.  3
+    Itapac - parte 5, di Alfredo Berlusconi   .   .   .   .   .  pag.  6
+    Compatibilita`, di Marco Civra    .   .   .   .   .   .   .  pag.  8
+    Vivamiga, di Renato Rolando   .   .   .   .   .   .   .   .  pag. 10
+    Il programmino    .   .   .   .   .   .   .   .   .   .   .  pag. 13
+    Il Programmatore di Sistema, di Raffaello Valesio .   .   .  pag. 16
+    Curiosita`: Il gergo hacker - parte 7 .   .   .   .   .   .  pag. 19
+    Notizie dal net 334   .   .   .   .   .   .   .   .   .   .  pag. 22
+    I nostri bbs  .   .   .   .   .   .   .   .   .   .   .   .  pag. 24
+    ====================================================================
+
+         Il materiale presente in Telematicus e` (C) dei singoli autori.
+    E` espressamente  consentita  la  distribuzione  e il riutilizzo del
+    bollettino  in  tutto  o in  parte,  purche` non  a fini di  lucro e
+    citando sempre la fonte di provenienza. 
+    *****   Vol.  1   *****      Pag.  2      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                       -----> EDITORIALE 
+                                                              ==========
+
+         Carissimi lettori,
+    Eccomi pronto come sempre all'appuntamento mensile con  Telematicus. 
+    Bisogna  dire  che  l'accorato appello che  ho  scritto  nel  numero 
+    precedente  ha  sortito  qualche effetto, e  il  numero  di  ottobre 
+    (ragazzi!  siamo  gia` arrivati al numero 10!!) vede  l'ingresso  di 
+    illustrissimi   collaboratori  come  Mimmo  Cristofaro,   sysop   di 
+    Travelmatic  e noto esperto di Clipper, e di Raffaello Valesio,  che 
+    pare continuare nel solco del nostro amighista Renato Rolando.
+         Spero solo che non lo segua fino in fondo... guardate cosa  RRE 
+    mi ha scritto assieme al suo pezzo:
+
+      "Come al solito puoi storpiarlo tagliarlo, ucciderlo etc.. tan- 
+      to in un modo o nell'altro trovo poi il modo di vendicarmi 8-)"
+
+         Vedete come e` brutta la vita di un povero editor...
+
+         Tra  l'altro  mi  scuso  per  i  *troppi*  refusi  del   numero 
+    precedente, prometto che questa volta staro` un po' piu` attento!
+
+                  ciaociao ... .mau.
+    *****   Vol.  1   *****      Pag.  3      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+ 
+                                                          -----> CLIPPER 
+                                                                 =======
+
+                    Chi era costui ?
+                    ----------------
+
+         Verso  la fine dell'800 la parola CLIPPER evocava la sagoma  di 
+    una goletta, veliero multialbero, utilizzata prevalentemente per  il 
+    trasporto  degli emigranti inglesi, scozzesi e nordici  in  generale 
+    dalle coste dell'Inghilterra verso Terranova e per estensione  verso 
+    tutto il nuovo mondo.
+
+         Nella prima meta` di questo secolo la parola CLIPPER  identifi-
+    cava un aereo passeggeri utilizzato dalla Pan American per le  tras-
+    volate  atlantiche, quasi un simbolico ritorno a casa di coloro  che 
+    avevano utilizzato il Clipper marittimo.
+
+         Alla  fine del secolo, ovvero ieri mattina, CLIPPER e` il  nome 
+    dato  dalla Nantucket, piccola software house americana, ad un  pro-
+    dotto software che e` divenuto un `must' per qualsiasi programmatore 
+    in ambiente xBase.
+
+
+                    Un po` di cronaca
+                    -----------------
+
+         Fino al 1985 i programmatori che utilizzavano il linguaggio/am-
+    biente dBaseIII, dovevano fornire ai propri utenti non solo il codi-
+    ce  del  programma, ma il linguaggio vero e proprio  che  al  lancio 
+    della  procedura  interpretava il codice, riga per riga, e  lo  ese-
+    guiva.
+
+         Cio`, in teoria, avrebbe dovuto portare ad un incremento  delle 
+    vendite del prodotto dBaseIII, ma in realta` porto`, almeno in  Ita-
+    lia, ad un proliferare vertiginoso di copie pirata.
+
+         Scagli la prima pietra chi ... ecc. ecc. ecc.
+
+         Alla Ashton-Tate andra` in eterno il riconoscimento di  milioni 
+    di utenti e programmatori per la grande innovazione, ma i professio-
+    nisti  dopo  attimi di entusiasmo si accorsero che il  prodotto  era 
+    `dilettantesco', perche`:
+
+         1) i programmi venivano interpretati ed eseguiti lentamente;
+         2) il codice sorgente era alla merce` dell'utente;
+         3) il prezzo globale di vendita di una procedura era penalizza-
+    to dal fatto che il cliente doveva comperare anche il linguaggio;
+         4) non era possibile avvalersi di librerie esterne;
+         5) l'architettura generale del linguaggio risentiva pesantemen-
+    te dei vincoli tipici di un interprete.
+
+         Il  successo delle vendite, siamo nel 1985, distolse la  Ashton 
+    dall'apportare significative migliorie al prodotto e l'unica innova-
+    zione a favore dei programmatori fu la distribuzione di uno  pseudo-
+    *****   Vol.  1   *****      Pag.  4      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    compilatore che crittografava il codice sorgente impedendo la  mano-
+    missione  dei programmi, ma questa `pensata' si tradusse in un  mag-
+    gior appesantimento dei sistemi basati su dbIII.
+
+         Il  progresso  scientifico non e` mai stato merito di  un  solo 
+    soggetto,  ma  la sfida ed il confronto tra cervelli  sono  il  vero 
+    detonatore dell'evoluzione.
+
+         Cio` valse anche per il mondo xBase quando ...
+
+         ... verso la fine dell'85 la WordTech presento` QUICKSILVER, il 
+    primo compilatore per dBaseIII, che consenti` alle software house di 
+    mezzo mondo di sviluppare procedure consistenti senza temere  azioni 
+    di  `pirating', senza problemi di lentezza, senza l'assillo  di  far 
+    acquistare il linguaggio al cliente.
+
+         Cominciavano a nascere altri ambienti di tipo pseudorelazionale 
+    come  WAMPUM,  KNOWLEDGEMAN, RBASE, ecc.  quando  Nantucket  lancio` 
+    CLIPPER,  compilatore  per dBase, che produceva dei moduli  .OBJ  da 
+    tradurre in .EXE autonomi con un qualsiasi linker.
+
+         I risultati furono eclatanti in termini di semplicita`, veloci-
+    ta`, affidabilita` e soprattutto di "comunicabilita`" con moduli  di 
+    librerie esterne proprie o altrui.
+
+         La versione Autumn '86 fu una versione storica non tanto per il 
+    prodotto in se` quanto per la suggestione che provoco` in  centinaia 
+    di  migliaia di utenti evoluti e software house che  la  semplicita` 
+    concettuale  di dBIII poteva ora vestire anche i panni  di  prodotto 
+    professionale.
+
+         Il successo di questa versione fu una spina nel fianco sia  per 
+    Ashton Tate sia per gli altri concorrenti, e sull'onda del  successo 
+    la Nantucket presento` nell'estate dell'87 la mitica versione SUMMER 
+    '87 2.00 consegnata a tutti gli utenti registrati come upgrade  alla 
+    versione precedente. La discendenza da dBase III, ormai alla versio-
+    ne PLUS, era ormai un vago ricordo e la parentela con dBase IV molto 
+    sbiadita.
+
+         Questa versione di Clipper era andata oltre il compito di  com-
+    pilare un sorgente. Il team di sviluppo della Nantucket si era volu-
+    to divertire a fare quello che i programmatori sognavano e  dovevano 
+    realizzare facendo salti mortali; disegnare box in un baleno,  apri-
+    re/leggere/scrivere files con funzioni di basso livello, usare  con-
+    temporaneamente  fino  a 255 files con DOS  superiore  alla  release 
+    3.30,  controllare  la validita dell'input  con  delle  normalissime 
+    funzioni che restituissero un TRUE o un FALSE, scriversi una  libre-
+    ria  di funzioni personali, linkare routines scritte in Assembler  o 
+    C, e chi piu` ne ha ...
+
+         La completa trasparenza del nuovo Clipper conquisto` un pubbli-
+    co  internazionale talmente vasto, che nel giro di due anni il  pro-
+    dotto si affermo` anche presso quei professionisti `guru' che parla-
+    vano  solo COBOL, e fino a due anni prima  consideravano  l'ambiente 
+    dBase alla stregua di un videogioco.
+    *****   Vol.  1   *****      Pag.  5      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Ma  come tutti i prodotti software anche Clipper cominciava  ad 
+    invecchiare  e Nantucket a meta` dell'88 penso` bene di tirar  fuori 
+    una nuova release.
+
+         E fu l'inizio della ... fine !
+
+         Si` perche` il nuovo CLIPPER 5.0, il cui rilascio fu annunciato 
+    negli  States per la primavera '89, venne fuori con piu` di un  anno 
+    di  ritardo (settembre '90) dopo una miriade di annunci  e  smentite 
+    che provocarono un clima di eccessiva attesa ed una serie di cocenti 
+    delusioni  tra chi maggiormente aveva sostenuto quello che ormai  si 
+    poteva definire piu` un linguaggio autonomo che un compilatore. 
+
+         Clipper  5.0 era stato concepito e scritto con il C  5.0  della 
+    Microsoft  (gia` in uso dall'88), ma a meta` del '90 era stata  lan-
+    ciata la release 6.0 e cio` costrinse gli sviluppatori Nantucket  ad 
+    una repentina revisione della loro creatura.
+
+         Dopo  alcuni mesi dal lancio i bugs erano tali e tanti  che  fu 
+    scritto un elenco degli errori in formato Norton Guide (cioe`  batti 
+    un tasto ed eccoti la lista dei buchi) e Larry Heimendinger,  presi-
+    dente  della  Nantucket, fu pesantemente aggredito in  piu`  di  una 
+    Developers' Conference in giro per il mondo.
+
+         Pochi  mesi dopo fu consegnata agli utenti la release 5.01  che 
+    sistemava  i  bugs piu plateali e ridonava un po`  di  tranquillita` 
+    alle software house che avevano puntato tutto sulla versione 5.0  di 
+    Clipper.
+
+         Oggi il mondo di Clipper si e` "splittato" (mi sia concesso  il 
+    termine)  tra  "conservatori" e "innovatori". 
+
+         I primi rivendicano l'insostituibilita` della Summer '87 per la 
+    stabilita` del codice, la ricchezza di librerie e l'assenza di  bugs 
+    macroscopici o almeno la loro facile aggirabilita`.
+
+         I  secondi, affascinati dalle nuove strutture tipo  Code-Block, 
+    array multidimensionali, ecc., preferiscono sopportare gli  inevita-
+    bili bugs che saltano fuori qui e la` dal linguaggio e la sua pesan-
+    te  curva di apprendimento, confidando in un miglior ROI (Return  On 
+    Investment) globale in tempi mediamente brevi.
+
+         Una contesa su tale tema fatta in un Clipper User Group potreb-
+    be  andare  avanti per settimane e mesi senza  approdare  ad  alcuna 
+    intesa, come quando al Bar dello Soprt si sente discutere di Juve  o 
+    Milan o Solbiatese.
+
+         Ho quasi finito! Voglio solo aggiungere un mio parere.
+
+         Il  Clipper  in quanto compilatore o linguaggio, Summer  '87  o 
+    5.01,  deve il suo successo non solo ai suoi autori, ma  anche  alla 
+    moltitudine di one-man-software-houses che hanno prodotto tonnellate 
+    di routines, librerie, tools e aggeggi vari da consentire a chiunque 
+    di affrontare qualsiasi problema.
+    *****   Vol.  1   *****      Pag.  6      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Il mese prossimo, se l'Editor Magnificus Mauritius Codognus  lo 
+    vorra`, [NdE: cerrrrrrto che lo voglio!] vi diro` la mia sulla  dia-
+    triba Summer '87 versus 5.0.
+
+         Ciao!
+                               Mimmo  Cristofaro           
+                                  TRAVELMATIC
+                                  2:334/104.0
+
+                                                 -----> ITAPAC - PARTE 5 
+                                                        ================
+
+
+                              PARAMETRI DEL PAD (i)
+                              ---------------------
+
+
+          PARAMETRO 1 - RICHIAMATA DEL PAD.
+
+         Questo parametro controlla la possibilita' da parte dell'utente 
+    di richiamare il PAD durante la connessione per alterare i parametri 
+    o inviare un comando.
+
+         Cio` e` possibile sia all'inizio del collegamento, prima  della 
+    digitazione  della  <NUI>[,C]-<NUA> oppure durante  un  collegamento 
+    sempre  che  questo parametro sia settato pari a 1.  Mi  spiego:  se 
+    siete collegati ad un host che non puo` a causa del software  abbat-
+    tere  la chiamata, voi dovrete avere la possibilita` di  uscire  dal 
+    collegamento  e ritornare al prompt di itapac. Solitamente lo si  fa 
+    con  la sequenza: "Control-P" seguita da: "CLR"<CR>. In questo  modo 
+    voi potrete collegarvi con un altro host con differente NUA.
+
+         Se  invece  dovete fare un download da un bbs  (ad  esempio  se 
+    siete collegati tramite un dial-out ad un bbs in america) e`  chiaro 
+    che nel file puo` essere presente un CHR(16) senza che cio` signifi-
+    chi l'intenzione di richiamare il PAD. Se cio` avviene, voi  perdete 
+    il  chr(16) nel migliore dei casi poi il PAD risponde  (inascoltato) 
+    con  ERR  e quindi fa continuare il collegamento  uscendo  dal  modo 
+    comandi.  Se utilizzate zmodem, accade che cio' causa un errore  nel 
+    CRC e quindi un re-invio del pacchetto contenente sempre il CHR(16). 
+    Ovvero, fallisce il DL e s'impallano PAD e zmodem. In questo caso e` 
+    chiaro che occorre disabilitare il richiamo del PAD.
+
+         Per  richiamare il PAD a questo punto e` possibile  tramite  il 
+    controllo  del  parametro 7 (segnale di break) oppure  se  cio`  non 
+    causa problemi....HUNG-UP!!!
+
+               Valori possibili :
+          0 Richiamo del PAD non possibile
+          1 possibile con DLE (Control-P) (ASCII=16)(10 hex)
+
+    *****   Vol.  1   *****      Pag.  7      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+          PARAMETRO 2  - ECO LOCALE
+
+         Il PAD puo` generare una eco locale ad ogni carattere  ricevuto 
+    dal  terminale. Questo parametro e` da utilizzare per i servizi  che 
+    non  prevedono l'eco dei caratteri inviati al posto dell'eco  locale 
+    generato  dal  terminale. In genere e` sempre  attivato  soprattutto 
+    poiche`  l'host remoto essendo accessibile via pacchetto,  anche  se 
+    rispedisse i caratteri, la rete a pacchetto li rimanderebbe solo  ad 
+    invio del pacchetto (vedere parametro 3 per l'invio dei  pacchetti). 
+    Diversa  la  situazione quando si colloquia con un  PAD  remoto  (ad 
+    esempio  il  PAD dove ha sede un modem per il dial out):  in  questo 
+    caso e` il PAD remoto a generare l`eco.
+
+         In ogni caso, a collegamento avvenuto, il PAD ridiviene traspa-
+    rente, lasciando all'host remoto il compito di effettuare l`echo.
+
+               Valori possibili :
+          0 niente eco [anche <NUI>-<NUA> non si vede]
+          1 eco
+
+
+          PARAMETRO 3 - CONTROLLO INVIO DEL PACCHETTO
+
+         L'invio  dei pacchetti sulla rete e` condizionato da una  serie 
+    di  elementi.  Il PAD puo` anche controllare il  ricevimento  di  un 
+    particolare carattere come segnale per l'assemblaggio e l'invio  del 
+    pacchetto anche se e` di lunghezza inferiore a quella standard  (128 
+    bytes). Nel profilo 3 (=126) sono scelti tutti i caratteri da  ascii 
+    0 ad ascii 31 come marcatori d'invio.
+
+                Valori possibili :
+          0 nessun carattere (assembla il PAD ogni 128 bytes)
+          2 carattere di Carriage Return solo.
+          126 tutti i caratteri da 0 a 31 e 127
+
+          Il  valore 0 e` la scelta da farsi nel caso di un DL o  UL  in 
+    zmodem o altri protocolli (vedere anche parametri seguenti).
+
+
+          PARAMETRO 4 - TEMPORIZZATORE
+
+         Questo  e` il secondo parametro per la gestione del flusso:  il 
+    valore  associato al parametro arriva ad esprimere quanti  ventesimi 
+    di secondo possono trascorrere dal ricevimento dell'ultimo carattere 
+    prima  dell'invio  del pacchetto. Il valore 0  indica  l'assenza  di 
+    temporizzazione  e significa che il PAD spedira` sempre i  caratteri 
+    uno dopo l'altro. 
+
+         La scelta per DL/UL qui e` un problema che non sto qui a espli-
+    citare. Basti sapere che la cosa migliore e` settare il valore ugua-
+    le  a  1 o 2 o 3. Ovvero si sfruttano completamente i  pacchetti  di 
+    128, pur senza perdere in velocita` ne in aumento di costi ( costo = 
+    numero di segmenti = 64 caratteri = mezzo pacchetto. 
+    *****   Vol.  1   *****      Pag.  8      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Se  set4:0, nel caso ci siano rallentamenti del PAD lui  spedi-
+    rebbe il pacchetto formato di 1 solo carattere, ovvero i costi  teo-
+    ricamente potrebbero salire a 64 volte il minimo indispensabile!).
+
+               Valori possibili : da 0 a 255 (ventesimi di secondo)
+         Viene di solito assegnato col profilo 3 un valore di 255.
+
+
+         PARAMETRO 5 - CONTROLLO X-ON X-OFF
+
+         Le  capacita` ricetrasmittive della rete possono anche non  ri-
+    specchiare quelle dell'host a cui siamo collegati. Anche a 300  baud 
+    puo` capitare che la rete sia talmente congestionata che la  veloci-
+    ta`  nostra  sia troppo alta per permettere al PAD  di  inoltrare  i 
+    nostri  caratteri al destinatario senza creare sovraccarichi  locali 
+    nei  buffers.  E` quindi previsto che il PAD  possa  controllare  il 
+    nostro invio di dati arrivando ad utilizzare i due caratteri di X-on 
+    e  di X-off (ASCII 17 e 19) secondo le necessita` dell'host per  in-
+    terrompere temporaneamente la nostra trasmissione.
+
+               Valori possibili :
+          0 nessun controllo
+          1 abilitato xon-xoff (default nel prof 3)
+
+
+                                                   -----> COMPATIBILITA` 
+                                                          ==============
+
+         GARANTITO INCOMPATIBILE, ovvero, della traduzione di files  fra 
+    sistemi operativi diversi.
+
+         A  tutti voi sara` capitato di dover tradurre dei files  da  un 
+    computer a un altro e di scontravi con una serie infinita di proble-
+    mi, talvolta insormontabili. Vediamo di risolverne alcuni e di spie-
+    gare  ai meno esperti come far "passare" del materiale  dal  proprio 
+    computer  a  un altro. Vedremo come tradurre files  fra  i  seguenti 
+    sistemi: Macintosh, Apple //, Msdos compatibili, Msdos incompatibili 
+    (leggi Olivetti), Amiga. Se questi non bastano, fatemelo sapere, che 
+    vi rispondero` sul prossimo numero di Telematicus.
+
+         Partiamo  con  l'APPLE // (ProDos). A seconda dei  modelli,  su 
+    Apple  //  potete avere dischetti da 5 pollici o da  3  pollici.  In 
+    entrambi  i  casi, e` abbastanza semplice passare  su  Macintosh  e, 
+    attraverso questo, su Msdos. Se avete dischetti da 5 pollici, dovre-
+    te  trovare un Mac dotato di unita` esterna (piuttosto costosetta  e 
+    non molto diffusa) da 5 pollici. La traduzione di testi, fogli elet-
+    tronici  e database e` garantita dai traduttori disponibili su  Mac. 
+    Qualche difficolta` per i files grafici. Fatta la traduzione potrete 
+    passare anche su Msdos. 
+         I dischetti da 3 pollici vengono tranquillamente "visti" da Mac 
+    su Apple File Exchange, applicazione di traduzione fornita di  serie 
+    con  questa macchina. AppleWorks e` l'applicazione Apple //  che  vi 
+    da`  le  maggiori garanzie in termini di  traducibilita`  dei  files 
+    verso  ambienti  esterni.  Contrariamente a quanto accadeva  fino  a 
+    *****   Vol.  1   *****      Pag.  9      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    pochi anni fa, Macintosh puo` oggi digerire tranquillamente materia-
+    le proveniente da altri ambienti. Abbiamo gia` visto per l'Apple //. 
+    AppleWorks  ha  un preciso corrispondente nel mondo  Mac  (Microsoft 
+    Works)  e questo gia` rende la vita piu` semplice, poiche`  i  files 
+    possono  essere aperti direttamente. I nuovi modelli  Mac,  inoltre, 
+    sono dotati di serie del superdrive, in grado di leggere i floppy da 
+    3 pollici Msdos. 
+         Con  utilita`  shareware tipo DosMounter e`  persino  possibile 
+    "vedere" sulla scrivania del Mac i dischetti formattati Msdos. Buona 
+    regola negli scambi fra i due ambienti e`, nel limite del possibile, 
+    utilizzare  i suddetti dischetti da 3 pollici, anziche` quelli da  5 
+    pollici,  sia  per la scarsa diffusione delle unita`  esterne  da  5 
+    pollici  per Mac (a proposito, solo e sempre da 360K!), sia  per  la 
+    non precisa formattazione degli stessi su queste unita` esterne. 
+         La  possibilita` di "vedere" il dischetto Msdos su Mac  risolve 
+    tantissimi  problemi. I files formattati in solo testo, ad  esempio, 
+    possono essere copiati pari pari sul Mac e poi aperti con un normale 
+    word  processor.  I caratteri che non corrispondono  possono  essere 
+    sistemati  con tabelle di corrispondenza ASCII. Diverso il  discorso 
+    se avete un testo formattato. Anche in questo caso la via da seguire 
+    si  chiama  Apple File Exchange, insieme ad altre  applicazioni  del 
+    genere (MacLinkPlus in particolare).
+
+    Cosa e` possibile tradurre bene con queste applicazioni: 
+         A - Wordstar e Wordperfect verso MacWrite e MsWord e viceversa 
+         B - PageMaker PC verso Pagemaker Mac 3.5 e viceversa (non Page-
+    maker 4.0, per ora)
+         C - In genere tutti i files realizzati con applicazioni  Micro-
+    soft che esistono in entrambi i sistemi operativi (Excel, Word, File 
+    etc.)
+         D - Lotus verso Excel o simili per Mac e viceversa 
+         E - Tutti  i files registrati secondo gli standard SILK,  comma 
+    values, tab values, GIF, TIFF, PICT e PICT 2 (attenzione alla  defi-
+    nizione per i files grafici, sia in un senso, sia nell'altro).
+         F - Files  DBIII verso FoxBase per Mac (ma viceversa  solo  per 
+    FoxBase per Dos) 
+         G - Tutti i files (uhm, non proprio tutti) in standard (quale?) 
+    Postscript ed Encapsulated Postscript (EPS).
+
+    Cosa e` possibile tradurre MALE, cioe` con rischio di perdere  parte 
+    delle informazioni:
+         A - Materiale da e per word processors non contemplati nei pun- 
+    ti precedenti 
+         B - Qualsiasi tipo di file da e per computer Olivetti.
+
+         La  grande casa eporediese, infatti, ha un  concetto  piuttosto 
+    approssimativo dello standard Msdos. Anzitutto la formattazione  dei 
+    dischetti si rivela spesso come il primo, e purtroppo insormontabile 
+    ostacolo.  In questi casi occorre passare, nella traduzione,  attra-
+    verso  un computer Msdos di altra casa, formattando sullo  stesso  i 
+    floppy. 
+
+         Non  sono  a conoscenza delle possibilita` e  dei  problemi  di 
+    traduzione fra Amiga e Msdos, per i quali rimando la palla a  Renato 
+    Rolando. [NdE: potete trovare il suo pezzo (?) subito dopo questo] 
+    *****   Vol.  1   *****      Pag. 10      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         Purtroppo anche fra Amiga e Macintosh, anche se le due macchine 
+    usano lo stesso processore, la compatibilita` diretta e` decisamente 
+    scarsa. Non esistono infatti, che io sappia, traduttori puliti fra i 
+    due ambienti operativi, e diventa gioco forza fare uso degli  emula-
+    tori,  per  i quali rimando al paragrafo relativo.  resta  salva  la 
+    possibilita`  di  utilizzare i soliti standard  di  salvataggio  per 
+    files di testo e grafici. 
+
+         Capitolo  a  parte, e molto breve, se siete tra  i  "fortunati" 
+    possessori  di  un M10 Olivetti. La strada migliore  per  portare  i 
+    files  in  altri ambienti... e` quella di rifare tutto  da  zero  su 
+    un'altra  macchina.  [NdE: ma non ha nemmeno un bella  seriale?  Per 
+    quanto  ne  sapevo, l'idea alla base dell'M10 era  passare  cosi`  i 
+    dati...]
+
+         Vediamo ora il discorso degli emulatori. Macintosh possiede  un 
+    ottimo,  ma indecentemente lento [NdE: ho visto su un Mac II  fx  un 
+    indice  Norton di... 0.99], emulatore Msdos. Utile in taluni  (rari) 
+    casi per trasferire files. Fate prima, in termini di tempo, a rifare 
+    da capo il lavoro. Diverso invece il discorso dell'emulatore Mac per 
+    Amiga. Il problema dell'unita' floppy Mac e' facilmente  superabile, 
+    poiche' con un modem e' possibile trasferire il file avanti e indie-
+    tro.  Diversi programmi Mac girano su Amiga in emulazione, anche  se 
+    purtroppo non sempre si tratta di quelli professionali...
+
+               Quando usare il modem? 
+               ---------------------- 
+         Partendo dal presupposto che i lettori di Telematicus possieda-
+    no  un  modem, la via piu' semplice per trasferire materiale  da  un 
+    sistema operativo all'altro parrebbe l'uso del modem. In realta'  le 
+    cose  non funzionano cosi' bene, eccezione fatta per i testi  ASCII, 
+    per  i  files in standard GIF, TIFF etc., e per quanto  detto  sopra 
+    riguardo l'emulatore Amiga.
+
+         Ed ecco alcune noterelle importanti a conclusione: 
+         1 - COMPATTATORI: Dimenticateveli!! [NdE: non e' vero, ARC 6.02 
+    e il nuovo unzip sono standard...]
+         2 - Salvataggio  dei files: quando esiste l'opzione  salva  col 
+    nome  accanto a quella "salva", preferite sempre la prima  a  lavoro 
+    terminato. L'opzione salva col nome vi garantisce il salvataggio  di 
+    tutte le specifiche e una maggiore compatibilita' con i traduttori.
+         3 - Immagini impaginate all'interno di files PageMaker:  forni-
+    tele sempre anche come file separato
+         4 - Files postscript: attenzione estrema alle specifiche di pa-
+    gina. Un  file Postscript viene in genere trasferito da  un  sistema 
+    all'altro  per stamparlo su fotounita' e non per riaprirlo. Se  sba-
+    gliate le specifiche di pagina siete fritti. In teoria dovreste, nei 
+    limiti  del  possibile, specificare gia' il tipo  di  stampante  che 
+    userete e la definizione della stessa. [NdE: o sperare che il  Post-
+    Script  compreso sia lo stesso... vi assicuro che  possono  capitare 
+    delle brutte sorprese]
+
+         /// Marco Civra - Sintel +39 11 59.62.74 - 2:334/103 /// 
+    *****   Vol.  1   *****      Pag. 11      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                         -----> VIVAMIGA 
+                                                                ========
+
+         Last but not least eccoci a parlare delle meravigliose possibi-
+    lita` offerte dalla nostra macchina preferita, l'Amiga. Purtroppo il 
+    sottoscritto  ha avuto rari, e devo ammmettere,  spiacevoli  scontri 
+    con  tali  programmi. Parlo dei vari emulatori per Apple  o  MS-DOS; 
+    tuttavia  non avendo manuali ed andando `a naso' non li posso  certo 
+    ritenere un valido metro di misura.
+
+         Il  sistema operativo dell'Amiga (che d'ora in  poi  chiameremo 
+    amichevolmente SO) permette gia` dalla versione 1.2 la gestione  dei 
+    dischetti  da 5 pollici (quelli da 3 fin dalla 1.0 essendo lo  stan-
+    dard  del sistema!). Bisogna aggiungerli con un comando  (inseribile 
+    nello  script eseguito dopo ogni reset) ed il gioco e` quasi  fatto; 
+    ci sono poi i problemi connessi al fatto che tali driver non  segna-
+    lano, come contrariamente succede per quelli standard, il cambio  di 
+    dischetto e bisogna darlo tramite un altro comando; altrimenti il SO 
+    comincia  a  fare sul nuovo dischetto quello che  gergalmente  viene 
+    chiamato <casino>. [NdE: consolati, gli Olivetti lo fanno sempre!]
+         Ultimamente stanno uscendo drive che permettono la formattazio-
+    ne  a 1.44M, sinceramente non credo siano compatibili coi dischi  ad 
+    alta densita` IBM e sono reputati dai piu` delle semi-truffe.  Inol-
+    tre  i  dischi da 3 pollici per Apple non possono essere  letti  dai 
+    nostri  drive  standard; come tutti sanno l`Apple  usa  aumentare  o 
+    diminuire la velocita` di rotazione del disco a seconda della  posi-
+    zione della testina (come il CD). Quindi tutti i vari emulatori  per 
+    il Mac hanno bisogno di un drive esterno che puo` essere tranquilla-
+    mente [NdE: non certo per il portafoglio!] comprato da un  distribu-
+    tore Apple.
+
+         L'Amiga  possidede  una nutrita schiera di  emulatori  sia  per 
+    Apple  che per IBM PC, hardware e software. Per il Mac ricordo  AMax 
+    II ($249.95) che, a detta di molte riviste, gira piu` veloce dell'o-
+    riginale (ricordo che l'Amiga possiede vari chip custom che l'aiuta-
+    no nelle operazione grafiche etc.): purtroppo i colori non ci  sono. 
+    Il drive, ricordo, deve essere comprato a parte. 
+         Per IBM abbiamo le schede hardware Janus XT/AT o la Bridgeboard 
+    per  il 2000 (tali schede hanno slot per schede IBM come HD,  schede 
+    grafiche,  modem  etc.), il PC Power Board e l'AT.ONCE  per  il  500 
+    (questi  solo  in CGA). Sul lato software abbiamo il  vecchissimo  e 
+    lentissimo Transformer ed il recente IBEM. Mentre il primo non  per-
+    mette  alcun tipo di grafica ( 8-( ) il secondo, appena uscito,  non 
+    solo  la  permette (non chiedetemi a che livello!)  ma  mantiene  il 
+    multitasking  con l'Amiga! In pratica su di uno screen avete il  vo-
+    stro  IBM  PC e sugli altri il vostro solito mito. La  cosa  diventa 
+    moolto interessante; chi vivra` vedra`.
+         Riguardo all'emulatore Mac tutti sono concordi sulla sua  vali-
+    dita`,  affidabilita` e convenienza rispetto all'acquisto di un  Mac 
+    per  lavori  fino a un certo livello. Mentre per  le  schede  IBM... 
+    finora  chi  voleva lavorarci seriamente ha fatto che  comprarsi  un 
+    IBM.
+    *****   Vol.  1   *****      Pag. 12      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+         Discorso  a  parte meritano i soli lettori di dischi.  Per  Mac 
+    abbiamo  Mac-2-Dos ($349.95 incluso il disk dirve); nulla da dire  a 
+    riguardo. Mentre per MSODS: DOS-2-DOS, CrossDOS ($39.95) e  MessyDos 
+    (PD) (e qui il buon Raffello Valesio 2:334/100 vi potra` dire  qual-
+    cosa di piu` *8-) ). Tutti decisamente validi con filtri  automatici 
+    per  i file ASCII. Se creano una nuova device come dovrebbe fare  un 
+    buon  prg (un IO standard) tutto il SO la riconosce e potete  usarla 
+    con  qualsiasi vostro applicativo in modo del tutto trasparente.  Ad 
+    es. PageStream e` in grado di leggere i PostScript per Mac, o  DYNA-
+    Cad  o  Professional CAD leggono ed esportano file  dxf.  Moltissimi 
+    programmi  leggono i files Lotus,DBIII, WordStar e WordPerfect  non-
+    che` molti standard; addirittura il C1-Text della Cloanto (recensito 
+    su TELEMATICUS), sfigata casa italiana, ne prevede parecchi tra  cui 
+    il PostScript.
+
+         Se  tutto cio` non vi bastasse ancora (e se volete  fare  della 
+    vera  grafica non vi basta) ecco la necessita` di una serie di  pro-
+    grammi  che  non solo cambino formato al file,  ma  lo  dimensionino 
+    correttamente  in  funzione della macchina a cui sia  destinato.  Mi 
+    spiego meglio, supponiamo che quella carota di Mac legga lo standard 
+    IFF (standard, ricordo, riconosciuto dal SO dell'Amiga) uno potrebbe 
+    pensare  di inviare il disengo da un sistema all'altro  senza  dover 
+    fare  modifiche;  e penserebbe bene perche` non avrebbe  problemi  a 
+    farlo leggere ai due sistemi. 
+         Purtroppo  il  Mac (la soluzione alla  `Phoenix'  era  piaciuta 
+    molto ai progettisti) ha il video "si` rettangolar, ma storto" (Dan-
+    te,  Inferno, girone XIII - dei vanagloriosi) e quindi visto che  il 
+    nostro  Amiga "da bravo cristiano ha il piu` lungo lato del  rettan-
+    gol/orizzontal  sul piano" (Dante, Paradiso, cielo XIX -  i  martiri 
+    dell'IBM)  vede le immagini del Mac tagliate a meta`,  e  viceversa. 
+    Urge quindi una routine che `sformi' il nostro disegno restringendo-
+    lo  ed  allungandolo  in modo che il Mac riesca a  vederlo  a  tutto 
+    schermo, e viceversa. [NdE: per la serie "la quadratura del cerchio]
+
+         Queste  cosette, a sentire le recensioni, un paio di  programmi 
+    le sanno fare veramente bene: Art Department Professional ($240) con 
+    Professional  Conversion  Pack ($90 extra) della ASDG  e  RasterLink 
+    della  Active  Circuits. Entrambi (chi piu` chi meno)  gestiscono  i 
+    seguenti  formati: TIFF, GIF, PCX, Targa, PICT, Raw  RGB,  MacPaint, 
+    DPIIE, Rendition, PostScript, Sun, Calgari Broadcast, ACS Harlequin. 
+    Alcuni  sono  files di prg dell'Amiga che lavorano  con  immagini  a 
+    24bit (16-e-passa milioni di colori) e devono essere convertiti  per 
+    finire sui 256 del MSDOS (comunque le immagini cosi` filtrate  qual-
+    cosa ci perdono 8-) )
+
+         La cosa qui continuerebbe ancora per unn po'; visto che poi  in 
+    fondo  non frega a nessuno (e con tutto questo lavoro mi  e`  venuta 
+    fame)  tronco qui, ricordando che in giro si possono trovare  ottimi 
+    programmi PD per fare piu` o meno le stesse cose. E che il  discorso 
+    si potrebbe estendere all'Atari ST, QL, C 64, Vic 20 (!) e Spectrum.
+         Quanto  ai compattatori Amiga dispone (compatibili  con  MSDOS) 
+    almeno i seguenti: ARC, ZOO, PACK, LHARC, PKZIP, UNARJ ed UNSIT  per 
+    Mac.
+    *****   Vol.  1   *****      Pag. 13      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Ringrazio i seguenti collaboratori: Angelo Verdone (per i  suoi 
+    consigli)  e Gene Brawn (per i suo preziosi consigli su Amiga  World 
+    di settebre 1991). *^-) [NdE: mazzate quanto si allarga il ragazzo!]
+
+
+                                                                     RRE
+                                                             2:334/100.9
+
+
+                                                   -----> IL PROGRAMMINO
+                                                          ==============
+       
+         Per la gioia di chi ha un PC e vuole calcolare il CRC a 32  bit 
+    in  una maniera veloce, eccovi un programma mandatomi  da  Piermaria 
+    Maraziti.  E`  diviso  in  due  parti,  crc32.h  e  crc32.c.   Buona 
+    fortuna... (io non oso provarlo).
+
+    ----- begin of crc32.c -----
+    /* COPYRIGHT (C) 1986 Gary S. Brown. You may use this program, or 
+     * code or tables extracted from it, as desired without restriction.
+     * First, the polynomial itself and its table of feedback terms. The 
+     * polynomial is 
+     *         X^32+X^26+X^23+X^22+X^16+X^12+X^11+
+     *         +X^10+X^8+X^7+X^5+X^4+X^2+X^1+X^0 
+     * Note that we take it "backwards" and put the highest-order term 
+     * in the lowest-order bit. The X^32 term is "implied"; the LSB is 
+     * X^31 term, etc. The X^0 term (usually shown as "+1") results in
+     * the MSB being 1.
+     * Note that the usual hardware shift register implementation, which
+     * is what we're using (we're merely optimizing it by doing eight-
+     * bit chunks at a time) shifts bits into the lowest-order term. In
+     * out implementation, that means shifting towards the right. Why do
+     * we do it this way? Because the calculated CRC must be transmitted
+     * in order from highest-order to lowest-order term. UARTs transmit
+     * characters in order from LSB to MSB. By storing the CRC this way,
+     * we hand it to the UART in the order low-byte to high-byte; the 
+     * UART sends each low-bit to high-bit; and the result is transmiss-
+     * ion bit by bit from highest- to lowest-order term without requir-
+     * ing any bit shuffling on our part. Reception works similarly.
+     * The feedback terms table consists of 256, 32-bit entries. Notes:
+     *     The table can be generated at runtime if desired; code to do
+     *     so is shown later. It might not be obvious, but the feedback
+     *     terms simply represent the results of eight shift/xor opera-
+     *     tions for all combinations of data and CRC register values.
+     *     The values must be right-shifted by eight bits by the 
+     *     "updcrc" logic; the shift must be unsigned (bring in zeroes).
+     *     On some hardware you could probably optimize the shift in 
+     *     assembler by using byte-swap instructions.
+     *     polynomial $edb88320         
+     */
+    *****   Vol.  1   *****      Pag. 14      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    long crc_32_tab[] = {
+       0x00000000L, 0x77073096L, 0xee0e612cL, 0x990951baL, 0x076dc419L,
+       0x706af48fL, 0xe963a535L, 0x9e6495a3L, 0x0edb8832L, 0x79dcb8a4L,
+       0xe0d5e91eL, 0x97d2d988L, 0x09b64c2bL, 0x7eb17cbdL, 0xe7b82d07L,
+       0x90bf1d91L, 0x1db71064L, 0x6ab020f2L, 0xf3b97148L, 0x84be41deL,
+       0x1adad47dL, 0x6ddde4ebL, 0xf4d4b551L, 0x83d385c7L, 0x136c9856L,
+       0x646ba8c0L, 0xfd62f97aL, 0x8a65c9ecL, 0x14015c4fL, 0x63066cd9L,
+       0xfa0f3d63L, 0x8d080df5L, 0x3b6e20c8L, 0x4c69105eL, 0xd56041e4L,
+       0xa2677172L, 0x3c03e4d1L, 0x4b04d447L, 0xd20d85fdL, 0xa50ab56bL,
+       0x35b5a8faL, 0x42b2986cL, 0xdbbbc9d6L, 0xacbcf940L, 0x32d86ce3L,
+       0x45df5c75L, 0xdcd60dcfL, 0xabd13d59L, 0x26d930acL, 0x51de003aL,
+       0xc8d75180L, 0xbfd06116L, 0x21b4f4b5L, 0x56b3c423L, 0xcfba9599L,
+       0xb8bda50fL, 0x2802b89eL, 0x5f058808L, 0xc60cd9b2L, 0xb10be924L,
+       0x2f6f7c87L, 0x58684c11L, 0xc1611dabL, 0xb6662d3dL, 0x76dc4190L,
+       0x01db7106L, 0x98d220bcL, 0xefd5102aL, 0x71b18589L, 0x06b6b51fL,
+       0x9fbfe4a5L, 0xe8b8d433L, 0x7807c9a2L, 0x0f00f934L, 0x9609a88eL,
+       0xe10e9818L, 0x7f6a0dbbL, 0x086d3d2dL, 0x91646c97L, 0xe6635c01L,
+       0x6b6b51f4L, 0x1c6c6162L, 0x856530d8L, 0xf262004eL, 0x6c0695edL,
+       0x1b01a57bL, 0x8208f4c1L, 0xf50fc457L, 0x65b0d9c6L, 0x12b7e950L,
+       0x8bbeb8eaL, 0xfcb9887cL, 0x62dd1ddfL, 0x15da2d49L, 0x8cd37cf3L,
+       0xfbd44c65L, 0x4db26158L, 0x3ab551ceL, 0xa3bc0074L, 0xd4bb30e2L,
+       0x4adfa541L, 0x3dd895d7L, 0xa4d1c46dL, 0xd3d6f4fbL, 0x4369e96aL,
+       0x346ed9fcL, 0xad678846L, 0xda60b8d0L, 0x44042d73L, 0x33031de5L,
+       0xaa0a4c5fL, 0xdd0d7cc9L, 0x5005713cL, 0x270241aaL, 0xbe0b1010L,
+       0xc90c2086L, 0x5768b525L, 0x206f85b3L, 0xb966d409L, 0xce61e49fL,
+       0x5edef90eL, 0x29d9c998L, 0xb0d09822L, 0xc7d7a8b4L, 0x59b33d17L,
+       0x2eb40d81L, 0xb7bd5c3bL, 0xc0ba6cadL, 0xedb88320L, 0x9abfb3b6L,
+       0x03b6e20cL, 0x74b1d29aL, 0xead54739L, 0x9dd277afL, 0x04db2615L,
+       0x73dc1683L, 0xe3630b12L, 0x94643b84L, 0x0d6d6a3eL, 0x7a6a5aa8L,
+       0xe40ecf0bL, 0x9309ff9dL, 0x0a00ae27L, 0x7d079eb1L, 0xf00f9344L,
+       0x8708a3d2L, 0x1e01f268L, 0x6906c2feL, 0xf762575dL, 0x806567cbL,
+       0x196c3671L, 0x6e6b06e7L, 0xfed41b76L, 0x89d32be0L, 0x10da7a5aL,
+       0x67dd4accL, 0xf9b9df6fL, 0x8ebeeff9L, 0x17b7be43L, 0x60b08ed5L,
+       0xd6d6a3e8L, 0xa1d1937eL, 0x38d8c2c4L, 0x4fdff252L, 0xd1bb67f1L,
+       0xa6bc5767L, 0x3fb506ddL, 0x48b2364bL, 0xd80d2bdaL, 0xaf0a1b4cL,
+       0x36034af6L, 0x41047a60L, 0xdf60efc3L, 0xa867df55L, 0x316e8eefL,
+       0x4669be79L, 0xcb61b38cL, 0xbc66831aL, 0x256fd2a0L, 0x5268e236L,
+       0xcc0c7795L, 0xbb0b4703L, 0x220216b9L, 0x5505262fL, 0xc5ba3bbeL,
+       0xb2bd0b28L, 0x2bb45a92L, 0x5cb36a04L, 0xc2d7ffa7L, 0xb5d0cf31L,
+       0x2cd99e8bL, 0x5bdeae1dL, 0x9b64c2b0L, 0xec63f226L, 0x756aa39cL,
+       0x026d930aL, 0x9c0906a9L, 0xeb0e363fL, 0x72076785L, 0x05005713L,
+       0x95bf4a82L, 0xe2b87a14L, 0x7bb12baeL, 0x0cb61b38L, 0x92d28e9bL,
+       0xe5d5be0dL, 0x7cdcefb7L, 0x0bdbdf21L, 0x86d3d2d4L, 0xf1d4e242L,
+       0x68ddb3f8L, 0x1fda836eL, 0x81be16cdL, 0xf6b9265bL, 0x6fb077e1L,
+       0x18b74777L, 0x88085ae6L, 0xff0f6a70L, 0x66063bcaL, 0x11010b5cL,
+       0x8f659effL, 0xf862ae69L, 0x616bffd3L, 0x166ccf45L, 0xa00ae278L,
+       0xd70dd2eeL, 0x4e048354L, 0x3903b3c2L, 0xa7672661L, 0xd06016f7L, 
+       0x4969474dL, 0x3e6e77dbL, 0xaed16a4aL, 0xd9d65adcL, 0x40df0b66L,
+       0x37d83bf0L, 0xa9bcae53L, 0xdebb9ec5L, 0x47b2cf7fL, 0x30b5ffe9L,
+       0xbdbdf21cL, 0xcabac28aL, 0x53b39330L, 0x24b4a3a6L, 0xbad03605L,
+       0xcdd70693L, 0x54de5729L, 0x23d967bfL, 0xb3667a2eL, 0xc4614ab8L,
+       0x5d681b02L, 0x2a6f2b94L, 0xb40bbe37L, 0xc30c8ea1L, 0x5a05df1bL,
+       0x2d02ef8dL
+    };
+    *****   Vol.  1   *****      Pag. 15      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    #define UPDCRC32(res,oct) res=crc_32_tab[(byte)res^(byte)oct] ^ \\
+    ((res>>8) & 0x00FFFFFFL)
+    /* spero che il vostro C riconosca lo split \\ nella macro */
+
+    /*
+     * macro UPDCRC32(res,oct)
+     * res=crc_32_tab[(byte)res^(byte)oct] ^ ((res >> 8) & 0x00FFFFFFL)
+     */
+
+    /*
+     * Inline assembly version of 32 bit CRC calculation
+     * Copyright 1989 Samuel H. Smith
+     * You may use this program, or code extracted from it,
+     * as desired without restriction.
+     */
+
+    extern long crc32val;
+
+    void UpdateCRC(unsigned char *s,
+                   register int len)
+     /* update running CRC calculation with contents of a buffer */
+    {
+
+    #ifdef HIGH_LOW
+        while (len--) {
+            UPDCRC32(crc32val, *s++);
+        }
+    #else
+        asm     push cx
+        asm     push si
+
+        asm     mov cx,len
+
+        asm     les si,s
+
+        asm     mov dx,crc32val+2
+        asm     mov ax,crc32val
+
+    crcNext:
+        asm     mov bh,al       /* save crc32val[0] */
+
+        asm     mov al,ah       /* (crc32 >> 8) & 0x00ffffff */
+        asm     mov ah,dl
+        asm     mov dl,dh
+        asm     xor dh,dh
+
+        asm     mov bl,es:[si]
+        asm     inc si
+
+        asm     xor bl,bh       /* crcval[0] */
+
+        asm     xor bh,bh
+        asm     shl bx,1
+        asm     shl bx,1
+    *****   Vol.  1   *****      Pag. 16      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+        asm     xor ax,crc_32_tab[bx]
+        asm     xor dx,crc_32_tab[bx+2]
+
+        asm     loop crcNext
+
+        asm     mov crc32val+2,dx
+        asm     mov crc32val,ax
+        asm     pop si
+        asm     pop cx
+    #endif
+    }
+
+    ----- end of crc32.h -----
+
+    ----- begin of crc32.h -----
+    long crc32val;
+
+    void UpdateCRC(unsigned char *s,
+                   register int len);
+
+     /* update running CRC calculation with contents of a buffer */
+    ----- end of crc32.h -----
+
+
+                                                   -----> SAGGISTICA (?) 
+                                                          ==============
+
+         IL VERO PROGRAMMATORE DI SISTEMA
+         --------------------------------
+
+         Appendice  Apocrifa a: Il Vero Programmatore (Telematicus  n.8) 
+    by Raffaello Valesio (334/100)
+
+         Il Vero Programmatore Di Sistema (d'ora in poi VPS) si e` nella 
+    maggior  parte  dei casi evoluto come forma  degenerativa  del  Vero 
+    Programmatore. Egli e` immensamente orgoglioso dei sacri misteri  di 
+    cui e` a conoscenza, e considera se stesso una specie di missionario 
+    bistrattato e misconosciuto che compie un lavoro meritevole,  diffi-
+    cilissimo e mal retribuito.
+
+
+               La gioventu` del VPS
+
+         Il VPS ricorda ancora nostalgicamente quando ai bei tempi della 
+    gioventu`  bazzicava  macchine antiche dai  mitici  nomi  tramandati 
+    nelle  leggende: ELEA 6001, RAMAC, 1301. Il suo piu` gran  rimpianto 
+    e` di non aver partecipato al progetto ENIAC di cui conosce a  memo-
+    ria  tutta  la storia. Su un altarino in ufficio tiene  le  foto  di 
+    Aiken,  Von Neumann, Shannon e altri numi; ogni tanto vi accende  un 
+    led.
+
+
+    *****   Vol.  1   *****      Pag. 17      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+          I rapporti coi suoi confratelli
+
+         Il VPS ha un forte senso della tribu` e coltiva stretti rappor-
+    ti con i VPS di altre ditte; fra di loro si conoscono tutti, e  sug-
+    gellano la loro amicizia praticando strani riti. Si riuniscono  tal-
+    volta intorno al tavolo di una pizzeria e passano la notte a rammen-
+    tare  aneddoti  tecnici incomprensibili al volgo,  ma  che  sembrano 
+    farli sbellicare dalle risa. Una scena tipica:
+
+          `Ti ricordi quando il Renzo ha zappato il BGX.ZOMP con una PTF 
+    taroccata e ha raspato la VTOC del disco di Sistema?'
+
+    Risa omeriche e manate sulle spalle...
+
+         `E  il backup gli dava permanent I/O error anche sulla  seconda 
+    copia ?'
+
+    L'ilarita`  si fa irrefrenabile... I commensali vicini  guardano  il 
+    gruppo con sospetto.
+
+         `Ha dovuto passare due notti a patchare la VTOC sugli indirizzi 
+    fisici !!! Ed era pure indexata!!..'
+
+         A questo punto alcuni sono gia` rotolati sotto il tavolo:  nes-
+    sun problema, perche` ormai si e` creato un cordone di sicurezza che 
+    li  separa dagli altri commensali, pigiati all'inverosimile  pur  di 
+    non rimanere toccati da costoro.
+
+         Come  tutte le societa` segrete che si rispettano, anche i  VPS 
+    hanno  i loro simboli, il loro gergo e i loro misteriosi sistemi  di 
+    comunicazione.  Nessuno sa come, ma appena la disposizione  dei  VPS 
+    nei vari posti di lavoro cambia tutta la comunita` ne viene a  cono-
+    scenza istantaneamente.
+
+
+               L' ambiente di lavoro
+
+         Un  VPS ormai non programma quasi piu`. La sua  occupazione  e` 
+    baloccarsi  con le macro, che trova sparse a piene mani nei  manuali 
+    di installazione e nei Reference (per non parlare dei leggendari IBM 
+    Internal Use Only, che chissa` come riesce sempre a procurarsi).  Il 
+    suo habitat ideale e` un centro EDP con la massima quantita`  possi-
+    bile di prodotti di software di sistema il piu` esoterici e criptici 
+    possibile, e almeno tre S.O. diversi che si parlano. Piu` il sistema 
+    e` incasinato, piu` il VPS si diverte.
+         Ho conosciuto un tempo un VPS, forse il piu` geniale che  abbia 
+    mai  incontrato, che aveva Zappato il compilatore COBOL tentando  di 
+    tradurre il linguaggio in piemontese, con curiosi risultati tipo:
+
+           STOP RUN  -->  BOGIA NEN
+           DISPLAY   -->  VEDOMA
+           LESS THAN -->  PI CIT
+
+    *****   Vol.  1   *****      Pag. 18      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Talvolta il VPS scende di soppiatto in sala macchine e tracanna 
+    un sorso di fluido di raffreddamento del 3090 per tirarsi su.
+
+
+               I rapporti del VPS con il suo prossimo
+
+         Il VPS nutre il massimo disprezzo per tutto cio` che ha sia pur 
+    vaga attinenza con il software gestionale, le applicazioni, e  natu-
+    ralmente l'Utente Finale. Quando si trova con dei Veri  Programmato-
+    ri, li inonda di paterni consigli, dimenticando le sue stesse origi-
+    ni  e  pontificando uggiosamente finche` non viene cacciato  a  male 
+    parole. Naturalmente segue con pedanteria il lavoro dei tecnici  hw, 
+    criticando,  suggerendo,  cianciando e rischiando  la  pelle  quando 
+    questi ultimi lo minacciano di morte se non la pianta.
+
+
+               Il VPS nelle Emergenze
+
+         In caso di malfunzionamenti del Sistema, dovuti solitamente  ai 
+    suoi sconclusionati smanettamenti di variabili vitali, il VPS  tende 
+    sempre  ad aggirare le vie ufficiali. Il suo motto e`:  Deve  Essere 
+    Gia` Successo A Tizio, Mi Sembra.
+         Pienamente fiducioso in cio` passa giorni e giorni a contattare 
+    oscuri amici e colleghi di altre ditte, in modo sotterraneo e carbo-
+    naro,  finche` il suo superiore esasperato lo insolentisce e lo  co-
+    stringe a rivolgersi al supporto software ufficiale.
+         In questi momenti il VPS fa sfoggio di tutte le sue conoscenze: 
+    borbotta misteriosi codici e acronimi, consulta tonnellate di manua-
+    li, telefona freneticamente alle Grandi Case (leggi C.A. e BigBlue), 
+    chiama per nome tutti i loro CE Software, parla in HEX e ascolta  in 
+    REXX, cita sconosciuti casi simili, digerisce metri cubi di dump  di 
+    sistema e alla fine ferma tutto il Macchinone per tre giorni e rime-
+    dia al guaio. Peccato che a questo punto l'Utente Finale abbia  gia` 
+    organizzato bande armate che lo cercano per fargli la pelle.  Triste 
+    la vita per un VPS!
+
+
+               Il VPS Si Riproduce! ( paragrafo a luci rosse)
+
+         Il VPS generalmente e` indaffaratissimo a seguire gigabazzecole 
+    con  cui cincischiare, per cui non ha mai tempo per seguire le  cose 
+    vitali  del  sistema. Ecco quindi che gli serve un aiutante  che  si 
+    occupi delle cose troppo materiali, come le linee tp o la terminale-
+    ria.
+         Eccoci  giunti al punto scabroso che tratta della  Riproduzione 
+    del VPS; se siete deboli di cuore, meglio non proseguiate.
+
+         Poiche` le femmine di VPS sono esemplari rarissimi, normalmente 
+    custodite negli impenetrabili harem delle Grandi Case e destinate  a 
+    luminose carriere commerciali (ben piu` retribuite), il VPS ha esco-
+    gitato  un curioso sistema asessuato di riproduzione:  l'Inizializz-
+    azione.
+         Egli  si aggira furtivo fra i piu` giovani e  promettenti  Veri 
+    Programmatori e li irretisce con oscure promesse e fugaci sguardi  a 
+    *****   Vol.  1   *****      Pag. 19      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    riviste  proibite  che trattano argomenti tipo User  Exit,  MegaZap, 
+    Tuning,  e illustrano le intimita` dei Grandi Sistemi Operativi.
+         E`  fatta. Il giovane,abbagliato da cotanta visione,  segue  il 
+    losco figuro nella sua tana e immediatamente diventa un Cucciolo  di 
+    VPS.  Il MAESTRO in gran segreto e sotto il vincolo del silenzio  lo 
+    inizia ai sacri misteri e lo fa diventare Apprendista VPS. Di li`  a 
+    un  paio d'anni il cucciolo se ne andra` in un posto  prestigioso  - 
+    solitamente una grande Banca o Assicurazione - a guadagnare il  tri-
+    plo del suo maestro, e quanto prima il loop ricomincia,  perpetuando 
+    in questo modo la specie.
+
+
+               Ulteriori considerazioni
+
+         Quando  un VPS viene a conoscenza dell'esistenza dei BBs,  puo` 
+    accadere l'irreparabile; poiche` egli e` immensamente orgoglioso del 
+    suo sapere ed e` generalmente logorroico sugli splendori dei misteri 
+    che  amministra,  potrebbe anche darsi che scriva a uno  di  essi  e 
+    invii un testo delirante.
+         Come questo che avete appena letto.
+
+
+                                                  -----> IL GERGO HACKER 
+                                                         ===============
+
+         <black art> [arte di magia nera]: s. Una collezione di tecniche 
+    arcane,  non  pubblicate e (per implicazione) generalmente  ad  hoc, 
+    sviluppate  per  una  particolare applicazione. Disegno  di  VLSI  e 
+    ottimizzazione del codice compilato erano considerati (al loro primo 
+    apparire) esempi classici di black art; man mano che la teoria si e` 
+    sviluppata  sono  diventati  <deep magic>, e  dopo  che  sono  stati 
+    scritti dei testi sull'argomento sono semplicemente diventati <heavy 
+    wizardry>.  Il  proliferare  di canali piu` o meno  formali  per  lo 
+    scambio  di  idee ha reso questo termine meno comune che  un  tempo. 
+    Vedi anche <voodoo programming}.
+
+         <black hole> [buco nero]: s. Quando un pezzo di posta  elettro-
+    nica sparisce misteriosamente nel viaggio (senza cioe` ritornare  un 
+    <bounce  message>, si dice in genere che e` "cascata in un buco  ne-
+    ro".  Similmente,  uno puo` dire "Penso che ci sia un  buco  nero  a 
+    foovax!" indicando che sospetta che foovax stia perdendo un  mucchio 
+    di messaggi (vedi <drop on the floor>). La metafora di email come un 
+    viaggio stellare e` interessante, tra l'altro. Confr. <bit bucket>.
+
+         <blinkenlights> /blink'@n-lietz/ s. Le luci diagnostiche su  un 
+    pannello di controllo di un calcolatore, specialmente un <dinosaur>. 
+    Deriva  dall'ultima  parola  del  famoso  annuncio  "ACHTUNG!  ALLES 
+    LOOKENSPEEPERS!"  in pseudotedesco che una volta ornava circa  meta` 
+    delle  sale di calcolatori nel mondo di lingua tedesca. Il  cartello 
+    diceva nella sua interezza:
+
+                        ACHTUNG!  ALLES LOOKENSPEEPERS
+     Das computermachine ist nicht fur gefingerpoken und mittengrabben.
+     Ist easy schnappen der springenwerk, blowenfusen und poppencorken
+     mit spitzensparken.  Ist nicht fur gewerken bei das dumpkopfen.
+    *****   Vol.  1   *****      Pag. 20      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+     Das rubbernecken sichtseeren keepen hans in das pockets muss;
+     relaxen und watchen das blinkenlichten.
+
+         Questo  data  almeno dal 1959 alla Stanford University  ed  era 
+    gia`  divenuta  internazionale nei primi anni '60, quando  e`  stata 
+    segnalata all'Universita` di Londra. Esistono varie varianti,  tutte 
+    che  pero` finiscono colla parola `blinkenlights'. Tra l'altro,  nei 
+    centri  di  calcolo tedeschi si puo` vedere un  annuncio  simile  in 
+    pseudoinglese.
+
+         <block>  [blocco,  dalla terminoloogia  dello  scheduyling  dei 
+    processi  nella  teoria dei sistemi operativi] 1.  vi.  Ritardare  o 
+    stare a fare niente aspettando qualcosa. "Siamo bloccati fino a  che 
+    qualcuno  non  viene qui". Comfr. <busy-wait>. 2.  `block  on',  vt. 
+    Aspettare  (qc). "Lunch is blocked on Phil's arrival.",  "Il  pranzo 
+    aspetta l'arrivo di Phil".
+
+         <block  transfer computations>: s. Dalla serie  televisiva  del 
+    Dr.  Who:  nello  show, si riferisce a  calcoli  cosi`  dannatamente 
+    sottili  e complicato che non potevano essere eseguiti da  macchine. 
+    Usato  per  riferirsi a un compito che dovrebbe  essere  esprimibile 
+    per mezzo di un algoritmo in teoria, ma non lo e`.
+
+         <blow  an  EPROM>  [bruciare una  EPROM]:  v.  Programmare  una 
+    memoria a sola lettura. Il termine e` nato dal fatto che il  procsso 
+    di  programmazione nel caso delle ROM bruciava intenzionalmente  dei 
+    piccoli circuiti elettrici sul chip.
+
+         <blow away>: vt. Cancellare files e directory dalla memoria  di 
+    massa  senza un attento controllo, generalmente per accidente.  Opp. 
+    <nuke>.
+
+         <blow out>: vi. Di software, piantarsi spettacolarmente;  quasi 
+    serio come <crash and burn>. Vedi <blow past>.
+
+         <blow past>: vt. <blow out> nonostante una protezione di  sicu-
+    rezza. "Il server si e` bruciato via i 5K del buffer di riserva".
+
+         <blow  up>: vi. [scientifico] Diventare  instabile.  Suggerisce 
+    che  il conto sta divergendo cosi` rapidamente che andra` presto  in 
+    overflow o almeno <nonlinear>.
+
+         <Blue  Book> [Libro Blu]: n. 1. Nome informale per uno dei  tre 
+    riferimenti standard sul linguaggio di controllo del layout di pagi-
+    na  e  della grafica PostScript (`PostScript Language  Tutorial  and 
+    Cookbook', Adobe Systems, Addison-Wesley 1985, QA76.73.P67P68,  ISBN 
+    0-201-10179-3);  le altre due guide ufficiali sono dette  il  <Green 
+    Book> e il <Red Book>. 2. Nome informale per uno dei tre riferimenti 
+    standard  per  lo  Smalltalk: `Smalltalk-80: The  Language  and  its 
+    Implementation', David Robson, Addison-Wesley 1983,  QA76.8.S635G64, 
+    ISBN 0-201-11371-63 (anch'esso e` associato a libri rosso e  verde). 
+    3.  Uno  degli standard promossi dalla nona assemblea  plenaria  del 
+    CCITT. Finora, essi hanno cambiato colore ad ogni ciclo di revisione 
+    (il  1984  era <Red Book>, il 1992 dovrebbe  essere  <Green  Book>); 
+    corre pero` voce che questa convenzione verra` abolita per il  1992. 
+    *****   Vol.  1   *****      Pag. 21      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    Tra questi standard sono tra l'altro inclusi le specifiche per X.400 
+    e gli standard Gruppo 1,... 4 per i fax. Vedi anche <book titles>.
+
+         <Blue  Glue>:  [IBM] n. Lo SNA (Systems  Network  Architecture) 
+    dell'IBM,  un  protocollo incredibilmente <losing>,  apprezzato  dai 
+    negozi commerciali che non ne conoscono nessun altro. La definizione 
+    ufficiale  IBM e` "Quello che lega le blue boxes  [NdE:  ricordatevi 
+    che IBM e` la Big Blue!] assieme". Vedi <fear and loathing>. Non  e` 
+    probabilmente  irrilevante che <B.G.> e` il nome commerciale  di  un 
+    prodotto 3M usato comunemente per bloccare i quadrati di tappeto sui 
+    pavimenti rimovibili che si trovano cosi` spesso nelle installazioni 
+    di  calcolatori.  
+
+         <BNF>:  /bee-en-ef/  n.  [tecnico]  Acronimo  per  `Backus-Naur 
+    Form',  una  notazione  metasintattica  usata  per  specificare   la 
+    sintassi  di  linguaggi  di programmazione,  insiemi  di  comandi  e 
+    simili. Ampiamente usata per descrizioni di linguaggi, ma  raramente 
+    documentata, cosicche` deve essere generalmente imparata per  osmosi 
+    da altri hackers. Vediamo una BNF per un indirizzo postale:
+
+      <indirizzo-postale> ::= <nome-persona> <indirizzo> <luogo>
+
+      <nome-persona> ::= [<titolo>] <nome> <cognome> <EOL>
+
+      <indirizzo> ::= <tipo-via> <nome-via> [","] <numero-via> <EOL>
+
+      <tipo-via> ::= "Via" | "Str." | "C.so" | "V.le"
+
+      <luogo> ::= <cap> <citta`> ["(" <sigla-provincia> ")"] <EOL>
+
+         Questo  si  traduce  in italiano  come:  Un  indirizzo  postale 
+    consiste di un nome-persona, seguito da un indirizzo, seguito da  un 
+    luogo.  Un nome-persona e` formato da un titolo  opzionale,  seguito 
+    dal  nome, seguito dal cognome. L'indirizzo e` costituito dal  tipo-
+    via, seguito dal nome-via, una virgola opzionale, e dal  numero-via. 
+    Il  tipo-via  puo` essere uno dei seguenti: Via, Str.,  C.so,  V.le. 
+    Infine  il  luogo consiste del cap, della  citta`,  e  opzionalmente 
+    della sigla della provincia tra parentesi tonde.
+         Notare che molte cose, come  titolo, nome, o cap, sono lasciate 
+    da  specificare.  Si  presume  che siano  chiarite  dal  contesto  o 
+    dettagliate da qualche altra parte. Vedi anche <parse>.
+
+         La ragione principale per cui la BNF e` indicata qui e` che  il 
+    termine  e` usato per una quantita` di varianti ed  estensioni,  che 
+    possono contenere alcune o tutte i jolly <glob>. Tra l'altro nemmeno 
+    l'esempio sopra e` quello originario dell'Algol-60, visto che vi  e` 
+    stata aggiunto il metasimbolo [], introdotto alcuni anni dopo per il 
+    PL/1 e ora universalmente accettato.
+
+    *****   Vol.  1   *****      Pag. 22      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                              -----> NOTIZIE DAL NET 334
+                                                     ===================
+
+         Ricomincia ufficialmente l'anno BBSistico... Lunedi` 7 ottobre, 
+    presso il Circolo Ricreativo Dipendenti Comunali in C.so Sicilia 12, 
+    si terra` la riunione mensile degli amici e simpatizzanti modemmari. 
+    Venite numerosi...
+
+         -  volete sapere quanto vi costano le telefonate  notturne  per 
+    gli USA? guardate questa tabella preparata dall'esimio Piola  (tanti 
+    auguri, tra l'altro!), e usatela cum grano salis (ricordatevi che il 
+    suo BBS e` a S.Secondo di Pinerolo!)
+
+    DIAL       /   00/
+         39-121-       ; elimina i prefissi dai numeri del distretto
+         39-      0    ; metti uno 0 per i prefissi nazionali
+    END
+
+    ; costi per le chiamate (nella fascia piu' bassa, dalle  22.00 
+    ; alle 8.00)
+    ; sorgente: guida SIP del 1/7/91:
+    ; Settoriali: 32 L./minuto
+    ; Fino a 15 Km: 53 L./min.
+    ; Fino a 30 Km: 95 L./min.
+    ; Fino a 60 Km: 170 L./min.
+    ; Fino a 120 Km: 190 L./min.
+    ; oltre 120 Km: 206 L./min.
+    ; a questo va aggiunto uno scatto (127 L.) per la risposta
+    ; L'importo va sempre arrotondato alle 127 lire superiori.
+
+    COST 206 4500 ; 206 L./min per l'Italia in generale
+
+    ; Numeri  in distretto
+    39-121-          32 ; Pinerolo
+
+    ; Numeri vicini, ma fuori distretto
+    39-11-           170 ; Torino
+    39-131-          190 ; Alessandria
+    39-162-          190 ; Vercelli
+
+    ; Chiamate internazionali
+    ; ad ogni chiamata internazionale si devono sommare 508 L. per la 
+    ; risposta
+    ; N.B.:  nei paesi extraeuropei la fascia ridotta e` tra le 23:00  e 
+    ; le 8:00
+    
+    213-   1431 ; Algeria
+    966-   3100 ; Arabia Saudita
+    54-    3700 ; Argentina
+    61-    3100 ; Australia
+    43-    1176 ; Austria
+    973-   3100 ; Bahrein
+    32-    1293 ; Belgio
+    55-    3700 ; Brasile
+    *****   Vol.  1   *****      Pag. 23      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    42-    1176 ; Cecoslovacchia
+    56-    3700 ; Cile
+    57-    3700 ; Colombia
+    45-    1293 ; Danimarca
+    593-   3700 ; Ecuador
+    20-    3135 ; Egitto
+    971-   3100 ; Emirati Arabi Uniti
+    298-   1431 ; isole Faer0er
+    358-   1431 ; Finlandia
+    33-    1176 ; Francia
+    37-    1176 ; Germania Est
+    49-    1176 ; Germania Ovest
+    962-   3100 ; Giordania
+    44-    1293 ; Gran Bretagna
+    30-    1176 ; Grecia
+    98-    3100 ; Iran
+    353-   1431 ; Irlanda
+    354-   1431 ; Islanda
+    972-   3100 ; Israele
+    38-    1176 ; Jugoslavia
+    965-   3100 ; Kuwait
+    218-   1293 ; Libia
+    352-   1176 ; Lussemburgo
+    356-   1176 ; Malta
+    212-   1431 ; Marocco
+    52-    3700 ; Messico
+    1-     2300 ; Nord America (USA e Canada)
+    47-    1431 ; Norvegia
+    968-   3100 ; Oman
+    31-    1293 ; Paesi Bassi
+    51-    3700 ; Peru`
+    351-   1431 ; Portogallo
+    974-   3100 ; Qatar
+    963-   3100 ; Siria
+    252-   3100 ; Somalia
+    34-    1293 ; Spagna
+    46-    1431 ; Svezia
+    41-     924 ; Svizzera (e Liechtenstein)
+    216-   1176 ; Tunisia
+    90-    1431 ; Turchia
+    36-    1176 ; Ungheria
+    598-   3700 ; Uruguay
+    58-    3700 ; Venezuela
+    967-   3100 ; Yemen
+    ; N.B.1: il Principato di Monaco, Lione e Marsiglia hanno lo  stesso 
+    ; prefisso della Francia, ma in realta` costano solo 924  L./min.
+    ; N.B.2: il  Liechtenstein non compare sulla nuova guida SIP;  pero` 
+    ; ha  lo stesso  prefisso della Svizzera, e si spera  venga  tassato 
+    ; alla stessa maniera
+    ; N.B.3:  per  i paesi non listati si assume la tariffa  massima  di 
+    ; 4500 L./min
+    END
+    ;
+    ; end of file "fdnode.ctl"
+    ;
+    *****   Vol.  1   *****      Pag. 24      *****   Numero  10   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                     -----> I NOSTRI BBS
+                                                              ==========
+
+         (BBS)              (numero)    (orario)(vel.) (SysOp)
+         Fido_Torino........011-5765565....24h..2400   F.Carcillo 
+         SDN-Italy!.........011-5765568....24h..9600   F.Carcillo 
+         Charlie's_Puppies..011-3299706....24h..9600   F.Schinco
+         Magazine...........011-8989069....24h..9600   L.Ravina
+         I.N.#2 ............011-304840.....24h..2400   M.Sinesi
+         I.N.#3 ............011-8126756....24h..9600   L.Vay
+         I.N.#4 ............011-8981304....24h..9600   S.Magni
+         I.N.#5 ............011-3174440....24h..2400   F.Bogli
+         EUreka!............011-6624400....24h..9600   P.G.Gialli
+         TorinoNet..........011-3100485/70.24h..2400   E.Arman
+         Infotel............011-2238389....24h..2400   T.Moreno
+         LordDrake..........011-710408.....24h..9600   F.Croce
+         Travelmatic........011-502423.....24h..9600   M.Cristofaro
+         Sintagma...........011-596274/48..24h..2400   M.Civra
+         ONline.............011-9988154.serale..2400   S.Devia`
+         EGO................015-757151.....24h..2400   G.Amosso
+         PrimulaRossa.......0131-42467..serale..2400   A.Bonzano
+         Tecnosoft..........0121-500663....24h..2400   R.Piola
+         

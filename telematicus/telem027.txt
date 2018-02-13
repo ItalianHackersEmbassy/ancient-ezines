@@ -1,0 +1,1233 @@
+  #### TELEM027 - Telematicus - Volume 03 - Numero 03 - Anno 1993 - 56 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                 Marzo 1993
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematicus   e`  (C)  dei  singoli  autori.   E`
+ espressamente  consentita  la  distribuzione e il riutilizzo del bollettino in
+ tutto o in parte, purche` non a fini di lucro e citando sempre autore e  fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 56 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale, di Renato Rolando   .   .   .   .   .   .   (RRE)    pag.  4
+ [ 2]  PC e UNIX: mondi cosi' distanti ?   .   .   .   .   . (.mau.)    pag.  7
+ [ 3]  Un emigrato modello: il REXX.   .   .   .   .   . (Old Raffa)    pag. 14
+ [ 4]  La decima arte  .   .   .   .   .   .   .   .   .       (RRE)    pag. 19
+ [ 5]  Siamo alle solite   .   .   .   .   .  (Alessandro Iacopetti)    pag. 26
+ [ 6]  Curiosita`: Il gergo hacker - parte 23  .   .   .   .   .   .    pag. 30
+ [ 7]  Il programmino: stardate.   .   .   .   .   .   .   . (.mau.)    pag. 42
+ [ 8]  Il nuovo NC del 334 .   .   .   .   .   .   .(Landorno Terao)    pag. 50
+ [ 9]  Notizie Fidonet region 33   .   .   .   .   .   .   .   .   .    pag. 55
+
+
+
+
+
+
+
+
+
+                  Questo Telematicus e` nato con l'aiuto di...
+
+ Editor dimissionatus:  Maurizio Codogno | * I collaboratori dai network: *
+ Editor intrans      :  Renato Rolando   |
+ Editor rexosux      :  Raffaello Valesio| Angelo Verdone (2:334.21)
+ Editor amigacchiatus:  Alex Iacopetti   |
+ Editor campester    :  Landorno Terao   |
+
+
+      ... e dei "saccheggiati"
+
+ Eric S. Raymond <esr@snark.thyrsus.com>
+
+
+
+
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO)
+                           al 011-9235565
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+ In una delle  esclusive serate di  raduno di TAM  TAM, presente solo  la crema
+ dell'associazione,  si  commentava  la  proposta  che  ancora  in Italia viene
+ portata avanti dalla rivista DECODER e sui affiliati.
+
+ Questi, rifacendosi al  primo movimento hacker,  si battono  per  "un'informa-
+ zione alla  portata di  tutti." Cosa  invero encomiabile,  auspicabile in  una
+ situazione  di  monopolio  o  regime,  scomoda  o  rovinosa  con  un   segreto
+ industriale e ridicola per casi tipo VideoTel... :)
+
+ Ma nella  storia dell'uomo  l'informazione non  e' mai  stata alla  portata di
+ tutti:  pochi  tra gli stessi  alchimisti conoscevano il  passaggio dell'opera
+ al nero, e questo basti di esempio.
+
+ Comunque a cosa serve  l' "informazione"? Qualsiasi  informatico  pasticcione,
+ io  per  primo,  sa  che  questa  e'  semplicemente  rumore  bianco:  cio' che
+ veramente conta e' il dato.   Come nell'antichita' bisognava applicare  chiavi
+ di  lettura  per  arrivare  al  vero  messaggio,  cosi'  oggi bisogna filtrare
+ immense quantita' di roba (chi ha agganciato aree tipo l'AMIGA.ITA o le  MSDOS
+ varie sa di cosa parlo) per trovare una o due cose veramente interessanti.
+
+ Spesso sarebbe  gradito avere  punti di  riferimento, delle  guide che possano
+ semplificare  la  ricerca  o  aiutare  la  faticosa  formazione  di una matura
+ cultura telematico/informatica:   esistono riviste  che recensiscono  dischi e
+ libri, non vedo perche' non dovrebbe esistere una rivista che recensisca  aree
+ di messaggi o faccia il punto mensile della situazione.
+
+ E' un argomento  che mi piacerebbe  sviluppare nella nuova  impostazione della
+ rivista,  altri  li  troverete,  spero,  strada  facendo. Dico "spero" perche'
+ tutto dipende dalla  vostra partecipazione. E  questo e' un  problema: per far
+ partecipare attivamente la gente  bisogna fare campagne di  sensibilizzazione,
+ per  sensibilizzare  ci  vuole  gente  disposta a partecipare attivamente, non
+ solo a parole e promesse.
+
+ Un editore da solo non serve a nulla: .mau. docet! O almeno si spera.
+
+ Comuque,  ed  in  questo  numero  e'  gia'  stato  attuato su Peter Ugone, dal
+ prossimo usero' il famoso metodo del  "bastun mit karoten":  verranno messi  a
+ pubblico ludibrio  coloro che  contattati non  si sono  degnati di partecipare
+ attivamente alla rivista o peggio che, incredibile a dirsi, non hanno  neppure
+ inviato un matrix in risposta alle mie suppliche.
+
+ Mentre chi scrive potra' fare il bagno con la mia ochetta di gomma  preferita.
+ *:)
+
+                                                                       RRE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   2  ###                             PC e UNIX: mondi cosi' distanti ? ###
+ ############                             di Maurizio Codogno               ###
+
+ Riassunto:
+       l'ottimo :]  .mau.   effettua una  panoramica a  volo   d'uccello  sulla
+       storia di UNIX.  Poi parla di alcune versioni UNIX per PC, soffermandosi
+       particolarmente su Linux.
+
+ ------------------------------------------------------------------------------
+
+  Come  certamente  saprete  tutti,  il primo sistema operativo denominato Unix
+ (si`, e` un marchio registrato dell'USL che non e` la mutua, lo  so)  e`  nato
+ intorno  al  1970  su  un PDP-8, e per molti anni la macchina tipica su cui si
+ lavorava sotto Unix era un PDP-11.  Voi giovincelli che in mancanza di  meglio
+ state leggiucchiando queste righe siete troppo giovani per avere un'idea della
+ potenza  di  una  simile  macchina,  ma  chi  come  me  l'ha  utilizzata  puo`
+ comprendere  la gioia che si poteva provare alla vista di ben 512K di Ram e un
+ centinaio di mega di disco, ancorche` rigidamente multiutente,  quando  se  si
+ era  fortunati  si possedeva un Apple ][ con 64K di Ram e due floppini da 128K
+ ciascuno.
+
+ Orbene,  sono  passati  piu`  di  vent'anni; Unix e` diventato l'incontrastato
+ padrone nel campo delle workstation, con puntate verso i supermini; l'AT&T  ha
+ scoperto che ci si poteva fare soldi e ha creato appositamente gli Unix System
+ Laboratories  (quelli  della  sigla  della  mutua,  si`)  per ricevere i lauti
+ profitti delle royalties; se dico che il mio PC a casa e` un  386/33  con  400
+ mega  di  disco,  mi  sento  rispondere  "tutto  qui?"...  E un pensiero viene
+ spontaneo: com'e` che non si vedono PC far girare Unix?
+
+ Beh, fino a qualche anno fa la risposta era semplice:  costava  troppo  e  non
+ aveva  mercato.  Dopo Xenix, che proprio unix non era ma aveva la possibilita`
+ di girare su un semplice 286, la SCO aveva  tirato  fuori  il  suo  SCO  Unix,
+ contrastata  dallo  Unix  Interactive  dell'omonima  societa`.  I due prodotti
+ condividevano il costo esorbitante e il target, che era quello delle  societa`
+ che  avevano  bisogno  di piu` terminali utilizzati semplicemente per inserire
+ dati ed eruttare tonnellate  di  carta  (la  famigerata  contabilita`)  e  non
+ potevano  permettersi  il  costo  ancora  piu` esorbitante di un mini o di una
+ workstation.  Cominciavano  a  trovarsi  sul  mercato  americano  degli  altri
+ prodotti, come ad esempio ESIX, ma il mercato era ancora convinto che  "grande
+ e` bello".
+
+ Poi ad un tratto arrivo` la Mark Williams col suo Coherent, e ricordo` a tutti
+ che  Unix era nato piccolo. La versione 3.0 (nessuno conosce il triste destino
+ toccato alle prime  due  release:  leggende  metropolitane  affermano  che  in
+ realta` sono state prodotte in 10 copie numerate e firmate a mano dall'autore,
+ e  sono  depositate nelle cassaforti dei piu` grandi collezionisti di software
+ come Don Knuth) si installava in 10 mega,  girava  anche  sui  286  (purtroppo
+ questa  scelta  obbligava  gli  eseguibili  ad  essere  minori  di 64K; ottimo
+ esericzio per imparare la filosofia  Unix  "divide  et  impera"!  recitava  la
+ pubblicita`),  richiedeva  semplicemente un manuale di istruzioni. E poi c'era
+ il prezzo: cento dollari!  Questo  perche`  il  sistema  operativo  era  stato
+ scritto  da  zero e non occorreva versare royalties alla USL. Per sicurezza si
+ era persino scelto di non terminare il nome in X: non si sa  mai...   Coherent
+ e` arrivato adesso alla versione 4.0: gira sui 386 e superiori, non ha piu` il
+ limite  dei  64K, e continua a costare 100 dollari. E` sicuramente la migliore
+ scelta per chi vuole imparare ad utilizzare Unix senza averlo mai visto prima.
+ E afferma che i suoi binari sono standard, qualunque cosa voglia dire cio`.
+
+ Frattanto, nel mondo accademico c'e` un professore di sistemi operativi, A. S.
+ Tanenbaum, che insegna sia in Olanda che negli States  -  prodigi  degli  anni
+ accademici.   Tanenbaum  e`  un  esperto  di sistemi distributi, il cui lavoro
+ (serio) piu` noto e` amoeba, sistema distribuito su rete. Beh, a  questo  tipo
+ era  venuto in mente che fare costruire un sistema operativo agli studenti non
+ sarebbe stata una cattiva cosa. Nacque  cosi`  minix,  che  permetteva  a  chi
+ comprava  il  libro  ad esso dedicato di avere una base per la costruzione del
+ sistema operativo, e il supporto tecnico per correggere  tutti  gli  errori  -
+ ammesso  che  si  avesse  una  connessione  con  USENET,  come  chiunque fosse
+ interessato allo studio del nucleo di un sistema operativo (quello che con una
+ parola tedesca si chiama kernel) avrebbe sicuramente avuto. Minix e` diventato
+ oramai quasi una religione,  a  causa  dell'attaccamento  che  i  suoi  adepti
+ mostrano nei confronti del Maestro e dell'Opera.
+
+ Di  colpo  arriva  il  1991  e  non  uno,  non due, ma addirittura tre sistemi
+ "aggratis" arrivano nel mercato PC. Dei primi due non e` che so poi molto,  se
+ non che hanno scelto dei nomi senza un'eccessiva fantasia (BSD/386 e 386BSD) e
+ che  BSD/386 (o e` 386BSD?) e` stato citato a giudizio dall'USL per violazione
+ di copyright, accusando che alcuni dei creatori del  sistema  operativo  hanno
+ avuto  accesso  al  codice sorgente AT&T. Questo potrebbe essere un pericoloso
+ precedente,  se  la  causa  fosse  vinta  dall'USL,  contro  la  liberta`   di
+ programmazione, ma e` un altro discorso.
+
+ Quello  di cui voglio parlare in queste poche righe che mi rimangono e` Linux.
+ No, non c'entrano i Peanuts: molto semplicemente, il  kernel  del  sistema  e`
+ stato  scritto  da  Linus  Torvalds,  che,  visto che ha deciso di lasciare il
+ proprio lavoro come copyright ma liberamente distribuibile,  ha  pensato  bene
+ che  perlomeno  il  nome del sistema ricordasse il suo. Linus ha affermato che
+ all'inizio il sistema si doveva chiamare freax  (ovviamente  free  +  freak  +
+ l'onnipresente  -x),  anche  se  buggix  era  un contendente; ma il sistema fu
+ presto chiamato linux  (pronunciato  proprio  linux...  per  una  volta  siamo
+ fortunati).
+
+ La  versione  0.10  del sistema usci` a novembre 1991 e la 0.11 a dicembre. Un
+ punto su cui Linus e` sempre stato ostinato e` il non rilasciare  la  versione
+ 1.0  fino a che il sistema non si dimostrava completamente affidabile. Le cose
+ sembravano andare a buon punto con la versione  0.13,  che  infatti  e`  stata
+ chiamata  0.95;  ma  si  sa  che  gli  ultimi  bachi  sono i piu` difficili ad
+ eliminarsi. Al momento siamo arrivati alla versione 0.99 patchlevel 6,  e  con
+ la  presentazione  di  questa  Linus  ha  affermato  di non avere problemi; se
+ finisce le cifre attacchera` a usare le lettere, e poi ci sono tanti caratteri
+ ASCII cosi` carini... In ogni caso il kernel e` gia` molto stabile, tranne  in
+ casi particolari.
+
+ Su cosa gira Linux? Il kernel e` stato scritto su un clone 386, con dischi IDE
+ e uno schermo VGA. L'hard disk deve essere standard AT (MFM, RLL, ESDI o IDE),
+ il  sistema  ISA  (ma  alcuni  EISA  funzionano),  e occorre un floppy ad alta
+ densita`. Si riescono anche ad utilizzare i dischi SCSI. CPU? Un 386/SX da  16
+ MHz  basta,  se non avete fretta. Memoria? Beh, 2MB (piu` altrettanti di swap)
+ sono teoricamente sufficienti, ma 4MB e` il minimo pratico,  e  piu`  ce  n'e`
+ meglio  e`,  soprattutto se si vuole usare X. Si`, c'e` anche Xfree 1.2, anche
+ se non l'ho ancora provato. Scheda video?  Una  Hercules  o  una  CGA  possono
+ bastare.
+
+ Altre  informazioni  che  possono  o non possono interessare a prima vista: E`
+ fondamentalmente basato su System V, ma ha  molto  BSD-ismi;  e`  multitasking
+ (ovviamente!), multiuser, con paginazione (NON solo swapping come e` ancora il
+ Coherent). Purtroppo non ci sono ancora troppe applicazioni commerciali, anche
+ se  c'e`  un emulatore DOS che viene spesso testato proprio su queste; d'altra
+ parte tutto o quasi il software GNU e` stato portato, quindi strumenti pratici
+ ce  ne  sono.  Esempi  a  caso:  elvis,  emacs,  TeX  e   LaTeX,   ghostscript
+ (l'interprete  PostScript),  programmi di comunicazione e di mail usenet (c'e`
+ un progetto per scrivere un BBS sotto Linux:  stay  tuned!);  C,  C++,  Common
+ Lisp,  Smalltalk;  p2c  e  f2c (i frontend da pascal e FORTRAN verso C); Perl,
+ awk, bash; anche BASIC, se volete.
+
+ Il guaio e` che al momento la situazione non e` tutta bella pulitina  come  ad
+ esempio  per  Coherent:  se  non  siete  gia`  abituati  a utilizzare Unix, vi
+ trovereste certo male...  Ma  se  non  temete  di  copiarvi  una  trentina  di
+ dischetti  ad alta densita` (sono anche disponibili al 2;332/407 e 417) con il
+ sistema abbastanza completo, e non avete troppi problemi a fare domande  (e  a
+ ottenere le risposte da qualcuno!) vi assicuro che e` un gran divertimento!
+
+
+
+
+                                                                 ciaociao .mau.
+
+
+                        mau@beatles.cselt.stet.it
+                              2:334/100.5
+                             2:332/407.909
+
+
+
+
+
+
+
+  Bibliografia:
+       a  parte   la  sterminata   molde  di   libri  su   UNIX,  dal    numero
+       123 (NOV  '92) di  MCmicrocomputer e'  cominciata una  serie di articoli
+       sulla storia di UNIX.
+
+
+ ############                                                               ###
+ ###   3  ###                                Un emigrato modello : il REXX. ###
+ ############                                di Raffaello Valesio           ###
+
+ Riassunto:
+       il buon   VECCHIO Raffa   si e'   prestato per   una serie   di articoli
+       sul REXX, suo pane   quotidiano, e nella  sua  implementazione, l'AREXX,
+       per il SO dell'Amiga. Il tutto col suo tipico stile. :)
+
+ ------------------------------------------------------------------------------
+
+ Ebbene  ,  eccoci  qua su queste pagine telematiche , dopo piu' di un anno dal
+ nostro  debutto  in  Fidonet  e  su  un  ormai  mitico  ,  lontano  numero  di
+ Telematicus. Alcuni di voi ricorderanno le fattezze del Vero Programmatore  di
+ Sistema  [...  mettere  il  numero], che d'ora in poi comparira' con una certa
+ frequenza su questo fogliazzo immondo, onde tormentare con  incubi  ricorrenti
+ le vostre nottate.
+
+ Non mi e' parso vero di poter assestare un ultimo , definitivo colpo alla gia'
+ traballante  reputazione del mio eterno nemico RRE ; la mia presenza su queste
+ pagine non potra' che nuocere alla popolarita'  del  giornale  ,  portando  il
+ suddetto  alla  rovina  e costringendolo a ritirarsi in un monastero ZEN , ove
+ meditare sulle sue malefatte. [NdE: sono commosso!]
+
+ L'ultima  delle  quali  malefatte  e'  consistita  nell'invitarmi  a  scrivere
+ qualcosa per voi; il tapino non sa quali forze negative e' andato a stuzzicare
+ , e ben presto se ne rendera'  conto.  Finora  la  mia  nota  modestia  mi  ha
+ trattenuto  dallo  scrivere  qui, ma avendo RRE fatto leva sui miei piu' bassi
+ istinti , con lusinghe e minacce , non posso rimanere insensibile al suo grido
+ di dolore , e cospargero' di sale grosso e peperoncino le sue ferite. [NdE: ti
+ ricordo che curo solo la pubblicazione  degli  articoli,  chi  li  scrive  sei
+ tu...]
+
+ Vi  parlero'  del  REXX,  per ora , anche perche' non mi viene in mente nessun
+ altro argomento , e sono un noto luminare in materia.....   Cerchero'  di  far
+ entrare  nelle  vostre  crape  di silicio monocristallino qualche vaga nozione
+ sull'argomento  ,  e  se  alla  fine  della  fiera  riuscirete  a  far  girare
+ l'immortale "Hallo , world ! " , vorra' dire che le mie  fatiche  non  saranno
+ state inutili.
+
+ Cosa diavolo e' il REXX ? L'acronimo dice poco:
+
+                  Restructured
+                  EXtended
+                  eXecution language
+
+ Che  palle, un altro linguaggio! diranno molti. E' quello che ho detto anch'io
+ quando l'ho incontrato. Passata l'orchite , mi son dovuto ricredere.
+
+ Il REXX e' ben piu' che un semplice linguaggio;  e'  cio'  che  io  chiamo  un
+ METAlinguaggio  ,  e  cioe' una specie di pilota , un qualcosa che fornisce le
+ strutture di controllo (loops , IF , DO-END , Select...) per guidare verbi  di
+ altri ambienti.
+
+ Per esempio , comandi del sistema operativo.
+
+ Tutti  voi  conoscono le .BAT in ambiente IBMPC , le procedure dell' AMIGA , e
+ alcuni conosceranno anche i comandi CP e CMS dell'ambiente  IBM  mainframe  su
+ cui lavoro io , oppure i comandi dell' MVS.
+
+ Bene, ve l'immaginate  poter  mettere insieme comandi di S.O. come fareste con
+ un programma QBASIC o PASCAL , o C ?
+
+ Questo e' cio' che vi permette di fare il REXX. Estende le semplici  strutture
+ fornite  dai  S.O.  nativi  alla potenza e flessibilita' di un macrolinguaggio
+ strutturato. Ecco il perche' del termine EXecution Language. E non  solo;  non
+ solo sistema operativo , ma per esempio comandi di editor. Vi potete costruire
+ dei  macrocomandi per un editor , dove una parola magica scatena 427 comandi e
+ 85 loop nidificati.... per me e' pane quotidiano , e ho  rimpolpato  lo  Xedit
+ del mainframe con qualcosa come 200 comandi nuovi....
+
+ Restructured  e eXtended ; perche' ? Perche' prima , nell'ambito VM , esisteva
+ una cosa simile , chiamata EXEC2 , ma poco pratica e soprattutto farraginosa e
+ scomoda. REXX no; chiunque abbia un minimo di dimestichezza con i Basic estesi
+ o il Pascal , o il C, vi trovera'  subito  un'aria  'di  casa'.E  vedrete  che
+ libidine le possibilita' di traccia step-by-step dell'esecuzione.
+
+ Il  REXX  fa  il suo debutto in ambito IBM con il rilascio della release 3 del
+ sistema operativo VM/sp (circa 1985 ?); lavora in modalita' interpretata  ,  e
+ da poco esiste anche un compilatore. Ne esiste una versione IBM PC , di cui io
+ possedevo  un  antico  reperto  per  Dos  2.11  (pleistocene  o  giu' di li').
+ Sicuramente sara' stata  estesa  ai  successivi  e  a  Windows;  ma  qui  puo'
+ pronunciarsi  qualcun  altro.  E  ovviamente  , non poteva mancare la versione
+ AMIGA.
+
+ Tentero' di parlarvi di REXX in  modo  indipendente  dai  S.O.  ,  finche'  ci
+ riuciro';  poi  la mia faziosita' prendera' di certo il sopravvento , e faremo
+ riferimento all' AMIGA. Ma le nozioni 'strutturali' , siatene certi ,  saranno
+ valide in tutti gli ambienti.
+
+ Perche' , come vedrete , il REXX fornisce solo le 'strutture di controllo'. Il
+ resto lo fa il S.O. ospitante.
+
+ Il seguito alla prossima puntata della Telem-novela.
+                                                                 _     _
+                                                                (_)ld |_)
+                                                                      | \affa
+                                                                 2:334/100.14
+
+
+
+
+
+ Bibliografia:
+       M.  Cowlishaw:   The    REXX  language:   A    practical  approach    to
+       Programming; Prentice   Hall   1985.   E'   in   pratica   il  K&R [NdE:
+       Kernigham & Ritchie, la bibbia del C] del REXX.
+       More info next review.
+
+
+ ############                                                               ###
+ ###   4  ###                                             La decima arte.   ###
+ ############                                             di RRE            ###
+
+ Riassunto:
+       Si  riporta  l'intervista  ad  un  noto  filosofo  contemporaneo, Elesto
+       Tria. Un  momento importante  per l'evoluzione  artistica dell'umanita',
+       poiche' vengono  poste per  la prima  volta le  basi per  la definizione
+       della decima arte.
+
+ ------------------------------------------------------------------------------
+
+ La barba incolta, lo sguardo allucinato e pentrante, avvolto in un accappatoio
+ di  raso  blu  con cache-col [1] di seta bianca, il maestro Elesto Tria riposa
+ rilassato sul dehors della sua lussuosa villa a Montecarlo.
+
+ Osservando la prestigiosa citta' con in mano un succo di arancio al rhum -  le
+ sportive  auto  cavalcate  da  favolose  fanciulle  bioniche,  i  gabbiani  da
+ passeggio con annesse incartapecorite miliardarie corteggiate da avidi gigolo'
+ - comincio con alcune domande di rito per distendere l'atmosfera.
+
+ -  Come  ha  fatto, Maestro, ad avere una simile villa? Solitamente i filosofi
+ vivono in botti.
+
+ - Giovine, gia' dalla sua prima domanda si  denota  che  ella,  come  tutti  i
+ giornalisti di grido d'altronde, non si e' minimamante preparato all'argomento
+ che dovra' affrontare, filosofico appunto.
+
+ Alcuni  antichi filosofi, o meglio asceti, assumevano simili stili di vita, ma
+ non piu' oggi; scrivo su riviste specializzate (non la sua), redigo i discorsi
+ dei politici e spesso mi presto come coscienza... il  vero  filosofo,  non  la
+ schiera  dei  pasticcioni  degli  utimi  cinque o sei millenni, e' un profondo
+ conoscitore del mondo, e lo deve dimostrare  ai  comuni  mortali  col  proprio
+ successo materiale.
+
+ -  Giusto  a  questo volevo arrivare. Mi aveva accennato per telefono qualcosa
+ riguardo alle attivita' dell'uomo.
+
+ - Gia'... - il Maestro distribuisce meglio l'atletico fisico sulla poltrona ed
+ attacca un'aragosta - Ha mai  notato  come  ogni  attivita'  umana,  nata  per
+ esigenze  strettamente  materiali,  abbia  via  via  assunto orpelli del tutto
+ inutili per le proprie funzionalita', fino a  sfociare  nel  campo  dell'arte?
+ "Come  non  e'  possibile coltivare un campo senza avere erbacce, cosi' non si
+ puo' trovare un'attivita' umana priva del seme  dell'arte."  Cito  da  un  mio
+ libro, tra l'altro copiato ad Eudosso, ma questo non lo dica; mi segue?
+
+ - Ecco... io... - mi agito confuso sulla sedia.
+ - ZUCCONE!   eppure  non   ho  usato   termini  difficili  quali  "empirismo",
+ "dicotomia", "idiocriptonica" e "sindropatica".
+
+ - Scusi Maestro, cerchero' di stare piu' attento.
+ - Sara' meglio. Le faccio un esempio...  segua  bene  o  mi  riprendo  la  sua
+ aragosta.   Dunque  tutti  gli  utensili  sono  nati con uno scopo pratico, la
+ vanga, l'arco, il pettine, etc. eppure pian  piano  alcuni  fabbricanti  hanno
+ cominciato ad inserirci abbellimenti del tutto gratuiti ma piacevoli che hanno
+ trasformato  l'oggetto  da utile elemento a pregevole pezzo d'artigianato sino
+ al capolavoro artistico, l'opera d'arte.  Sembra sia un elemento insito  nella
+ natura dell'uomo il tendere alle opere d'arte.
+
+ -  Credo  di  aver capito. Lo stesso vale per l'architettura, la scrittura, la
+ pittura, la fotografia... Sappiamo che questa ha dovuto faticare non poco  per
+ essere riconosciuta opera artistica e non prodotto artigianale.
+
+ -  Bravo!  prenda  questo  gamberetto...  op! Ora sostengo che anche la vostra
+ cosa... come si chiama...
+ - informatica
+ - non interrompa. Sostengo che la vostra informatica seguira' questo  percorso
+ nell'attivita'  della  programmazione: presto appariranno prodotti considerati
+ di ottima fattura, la fase artigianale,  e poi saranno prodotte le prime opere
+ d'arte.
+
+ - Ma, Maestro, opere d'arte prodotte con i mezzi informatici sono gia' esposte
+ nei musei...
+
+ - ZUCCONE! il prodotto dell'informatica ora e' considerato uno strumento,  non
+ e'  di  per  se'  un'opera d'arte. E' come se prendessi la foto di un nudo, ci
+ dipingessi sopra e considerassi il dipinto l'opera d'arte, non la foto.
+
+ - Vuole dire, Maestro, che il programma in se' deve essere  visto  come  opera
+ d'arte?
+
+ -  Precisamente!  e' un ragazzo sveglio. Ha mai preso in considerazione l'idea
+ di diventare mio discepolo? Il programma e' uno  strumento  empirico,  e  come
+ tale ha tutti i crismi per diventare arte.
+
+ -  Scusi,  ma  il  pennello  dell'artista  non  e'  mai  stato  considerato un
+ capolavoro.
+
+ - I violini di Stradivari si. Comunque un programma richiede ben piu'  di  una
+ conoscenza  tecnica  di  base,  non  e'  riconducibile  ad una mera operazione
+ meccanica, richiede delle scelte da parte del creatore. E' innegabile che gia'
+ oggi alcuni programmi mostrino in  modo  lampante  l'impronta  di  chi  li  ha
+ ideati, al pari di un quadro, un brano musicale od un testo.
+
+ -  Scusi  ma mi fa un po' effetto la cosa, anche perche' tutti i programmatori
+ che conosco sono pane e computer.
+
+ - Si, ci sono due anelli  fondamentali  per  pervenire  all'opera  d'arte:  la
+ capacita'  dell'artista  di  concepirla  (di  Raffaello ce n'e' uno solo) e la
+ disponibilita' del fruitore (il committente)  a  riconoscerla  come  tale.  E'
+ probabile  che  il programma-capolavoro da inserire a pieno titolo in un museo
+ non sia ancora nato, anche perche' ancora manca nella cultura informatica  una
+ simile idea di fondo, ma si arrivera' immancabilmente a cio' presto o tardi.
+
+ - Questa dunque sarebbe la decima arte? l'arte della programmazione.
+ - Non si dice gia' cosi' anche adesso?
+ - Ed e' probabile che fra una decina d'anni ritroveremo nei musei degli editor
+ per testi o dei programmi gestionali...
+ - E' probabile.
+ -  Ma  che  aspetto  dovrebbero  avere?  ci  dica  qualcosa  in  esclusiva per
+ Telematicus!
+
+ Il filosofo si fa serio, posa la sua aragosta e meditabondo mormora: - Non  ne
+ ho  la  piu'  pallida  idea,  sono  solo  un  filosofo.  Conosco  i meccanismi
+ dell'animo umano, ma il suo spirito mi sfugge. Poi stiamo entrando nell'infido
+ campo delle definizioni, bisognerebbe definire cosa sia l'opera d'arte.
+
+ Mi raccolgo in un attimo di meditazione...
+ - Maestro! a riguardo c'e' ancora un elemento che non ha trattato e che permea
+ il capolavoro, il senso del magico.
+
+ - Bravo ragazzo! quasi me ne dimenticavo, il fosforo del  pesce  evidentemente
+ ti giova. Prendi il sistema operativo della Apple ed una persona assolutamente
+ digiuna  di  informatica.  Questa in meno di un quarto d'ora sara' in grado di
+ scrivere e stampare testi in modo professionale. Riuscirebbe, tanto verrebbero
+ belli, a convincere addirittura  un  branco  di  dirigenti  del  marketing  su
+ qualsiasi  cosa, purche' l'idea sia semplice. E questo, credimi, e' molto piu'
+ magico del riuscire a decimare  un  branco  di  mamuth  con  arco  e  freccia.
+ Oltretutto per la caccia bisogna avere il fisico, l'occhio e l'addestramento.
+ Poi,  per  favore,  non  mi  faccia  confusione tra il mezzo tecnico, anche il
+ processo di sviluppo fotografico non  ha  nulla  di  magico,  ed  il  prodotto
+ finito.
+
+ - Com'e' bravo Maestro!
+ - Grazie!
+ Confuso,  stordito,  abbacchiato prendo congedo dal sommo Elesto Tria. Per ora
+ e' tutto, ma forse alla prossima occasione avro' da raccontarvi  di  un  altro
+ stimolante incontro.
+
+ Il vostro inviato speciale:
+
+                                                                 Renato Rolando
+                                                                 2:334/100.9
+
+
+
+ [1] cache-col:
+       fazzoletto da annodare al collo sulla camicia aperta.
+
+
+ Bibliografia:
+       Non pervenuta.
+
+
+ ############                                                               ###
+ ###   5  ###                                       Siamo alle solite...    ###
+ ############                                       di Alessandro Iacopetti ###
+
+ Riassunto:
+       questa  dovrebbe  essere  la  (gloriosa?)  rubrica  VIVAMIGA.    Avrebbe
+       dovuto  scriverci  quel  GAGGIO  TRONICO  di  un  looser  (vabbe' luser)
+       di  Peter  Ugone  ma  si  e'  vergonato.  Pubblico quindi una letterina,
+       inviatami da  Alessandro Iacopetti,  per farvi  fare il  solito esame di
+       coscienza  (alla  Paolo  Nuti,  i  cui  editoriali  si  perdono   sempre
+       piu'  nel  mare  della  pubblicita',  invidia  invidia).  Alessandro NON
+       pubblichera'  articoli  su  TELEMATICUS,  attualmente  ha ancora l'Amiga
+       perche'  fa  conversioni  di  programmi  WC-DOS  per una software-house,
+       contrariamente   al   sottoscritto   che   ha   detto   BASTA   e   l'ha
+       regalato.   Ovvero:   se  gli  utenti  non  appoggiano  il PD questo non
+       cresce. :(
+
+ ------------------------------------------------------------------------------
+
+ Innanzitutto  mi  presento:  mi  chiamo  Alessandro  Iacopetti,  ho  21 anni e
+ frequento il 2 anno FC di scienze dell'informazione nella  citta'  dove  vivo,
+ cioe' Alessandria.
+
+ Ti scrivo perche' mi e'  passato per le mani il  tuo Gali 2.2 [NdE:   l'ultima
+ versione  che  ho  rilasciato  e'  la  2.3], e scusa la franchezza, nonostante
+ trovi il programma abbastanza inutile  (non ho neanche visto se  funziona), ho
+ apprezzato in maniera smisurata la presenza del sorgente del GP.  [NdE:   sono
+ commosso dalla tua franchezza :]
+
+ Qui  nella  mia  provincia  non  esiste  neanche  una BBS, non dico per Amiga,
+ maneanche  per  qualunque  altro  tipo  di  computer,  per  cui  sono  un  po'
+ tagliatofuori dallo  scambio  via  modem  di  sorgenti  e  cosucce  varie,  in
+ particolare  le  novita' riguardanti il 2.0. Per esempio: la leggenda dice che
+ girino sudisco gli autodocs del kick 2.0. E' vero??? [NdE: e'  vero,  esistono
+ gia' quelli per il 2.4]
+
+ Anche  io  ho fatto alcune cosette per il PD in passato, ed anche io ho potuto
+ constatare le stesse cose che dici tu nel doc  di  Gali,  ovvero  un  completo
+ disinteresse del cosiddetto "utente", a parte un paio di casi sporadici.
+
+ Ora  non  voglio  fare  crociate, ma penso che cio' sia il risultatodi anni di
+ educazione informatica piratesca,  ovvero  dire  "ho  qui  una  piladi  dischi
+ copiati"  e  nessuno  pensa  mai  a  chi  ha lavorato dietro a quei programmi,
+ pensando che sia una delle cose inevitabili della vita che i programmi vengano
+ "fatti" da qualcuno. Chi sia in fondo non importa anessuno, tanto "i programmi
+ fatti ci sono sempre stati  e  ci  saranno  sempre,perche'  l'universo  si  e'
+ autocreato" o qualcosa di simile.
+
+ Nella cultura italiana, il soft non e' mai stato un valore, e' un qualcosa che
+ c'e' e basta, che arriva dall'amico dell'amico, dell'amico....Credo che questo
+ sia uno dei motivi del fatto che in Italia il soft PD praticamente non esista.
+
+ Nessuno  si sogna mai di usare, per ipotesi, un WP di PD, certamente limitato,
+ ma che molto probabilmente ha  tutte  le  opzioni  necessarie  asoddisfare  le
+ esigenze  della  persona  media  che ogni tanto scrive qualche lettera, quando
+ allo stesso prezzo del WP di PD (ovvero a costo zero) puoi avere  il  ProWrite
+ con  tutte quelle opzioni che "non so a cosa servono basta schiacciare i tasti
+ e scrivere". Certo se il ProWrite si trovasse solo al suo vero  prezzo,  molta
+ gente userebbe il WP di PD, qualcuno lotroverebbe scomodo e magari scriverebbe
+ la  sua  versione,  cosi'  avremmo  2 WP di PD ed una persona che ha acquisito
+ esperienza nello scriverlo.  Credo che il giro  vizioso  attuale  delle  cose,
+ freni  molto  la  creativita' della "scena italiana". [NdE: idea interessante,
+ bisognerebbe proporla ad Elesto Tria]
+
+ Dentro questo disco troverai alcuni miei programmi, mi piacerebbe avere il tuo
+ parere in proposito,  nonche'  scambiare  idee  ed  esperienze  e  docs...  La
+ versione  1.0  di  TucaNenta  e' apparsa nella rubrica PD di MC 115 (mi pare),
+ mentre El Maso su Amiga Byte 33.
+
+                                                           Alessandro Iacopetti
+                                                           Via Micca 1815100
+                                                           Alessandria
+
+
+
+
+
+
+
+
+ NdE:  En passant vi faccio  notare come sia il  tipico italiano, buono solo  a
+       lamentarsi,  ma  quando  si  tratta  di  fare  un po' di informazione su
+       Telematicus per sensibilizzare le folle...  per carita', ha un sacco  di
+       cose  da  fare   ~:)  E'  mia   premura  chiarire  che   non  ho   avuto
+       l'autorizzazione a  pubblicare questa  lettera (per  togliere subito dei
+       dubbi a qualcuno), ne' d'altronde l'ho chiesta.
+
+
+ ############                                                               ###
+ ###   6  ###                                   IL GERGO HACKER - PARTE 23  ###
+ ############                                   Eric S. Raymond             ###
+
+ Riassunto:
+       incredibile  ma  vero!    Siamo  giunti  alla   "H".   Un  grazie   alla
+       perfetta traduzione dell'ottimo :] .mau.
+
+ ------------------------------------------------------------------------------
+
+                                {= H =}
+
+ <h  infix> [h infisso: dal mondo SF] Un metodo per "marcare" parole comuni nel
+ senso linguistico, cioe` facendo fare attenzione al fatto che si stanno usando
+ in un modo nonstandard, ironico o umoristico. Orig. nella frase "Bheer is  the
+ One  True  Ghod"  [La  Bhirra  e`  l'Unico  Vero  Dhio]  di decenni orsono. La
+ scrittura  con  l'h  infisso  di  "Ghod"  e  altre  parole  si  diffuse  nella
+ controcultura degli anni sessanta per mezzo dei fumetti underground, e  tra  i
+ primi hacker sia per mezzo della controcultura che dal mondo SF (a quei tempi,
+ c'era  una  forte  sovrapposizione  tra  tutti  e tre). Piu` recentemente, l'h
+ infisso e` diventato una caratteristica prevedibile nei  nomi  dei  benchmark,
+ come  Whetstone,  Dhrystone,  Rhealstone; prob. cio` deriva dal nome originale
+ Whetstone, influenzato dell'uso dell'h infisso.
+
+ <ha ha only serious> [ha ha, ma serio: dal mondo SF, orig. come  mutazione  di
+ HHOK,  "Ha  Ha  Only  Kidding"]  Una  frase che cattura bene il gusto di molti
+ discorsi hacker; spesso vista abbreviata in HHOS. Applicata specialmente  alle
+ parodie,  assurdita`  e  scherzi ironici che sono sia intesi che compresi come
+ comprendenti una quantita` possibilmente inquietante di verita`, o verita` che
+ sono costruite come scherzi e autoparodie.  Il  gergo  hacker  contiene  molti
+ esempi  di  HHOS sia in forma che contenuto. Di fatto, l'intera cultura hacker
+ e` spesso sentita come HHOS dagli hacker stessi; prenderla troppo alla leggera
+ o troppo seriamente marca una persona come un esterno o uno in stadio  larvale
+ (v. <larval stage>). Per maggiore illuminazione su questo soggetto, consultate
+ un maestro Zen. Vedi anche <HUMOR, HACKER>.
+
+ <hack>   [si   potrebbe   rendere   come  "smanettamento"]  s.,vt.,vi.  1.  s.
+ Originariamente un lavoretto veloce che produceva  quanto  richiesto,  ma  non
+ bene.   2.  Un lavoro incredibilmente buono, e magari anche lungo, che produce
+ esattamente quanto richiesto.  3. Il risultato di un hack (def.  1  e  2).  4.
+ <neat  hack>  [hack  pulito]:  una  tecnica  intelligente. Anche, un brillante
+ scherzo pratico, dove la  pulizia  e`  correlata  all'intelligenza,  alla  non
+ pericolosita`,  e  alla  sorpresa. Es.: lo scambio di cartoncini di display al
+ Caltech Rose Bowl intorno al 1961.  5. <real hack>: un  rottame  (a  volte  in
+ modo  affezionato).   6.  vt. Con "together", mettere qualcosa insieme in modo
+ che funzioni.  7. Sopportare fisicamente o emotivamente. "Non posso h.  questo
+ calore!".   8.  Lavorare  su  qualcosa  (tipicamente  un  programma). In senso
+ specifico: "Che stai facendo?" "I'm hacking TECO" [inteso nell'immediato].  In
+ senso  generale:  "Che  stai  facendo?"  "I hack TECO" [inteso come esteso nel
+ tempo]. Piu` generalmente, la frase "I hack X" significa piu` o meno "X e`  il
+ mio maggiore interesse (o progetto). "Io h. la fisica dello stato solido".  9.
+ Fare  uno  scherzo.  Vedi da definizione n. 3 e <hacker> (def. n. 6).  10. vi.
+ Perdere tempo (opp. a <tool>). "Che fai?" "Oh, solo dell'hacking".  11.  <hack
+ up>, <hack on>: fare h., ma generalmente implica che il risultato ricade sotto
+ le  definizioni 1 e 2. 12. [UNIX] Un gioco simile a <rogue> ma piu` elaborato,
+ distribuito su <USENET> come sorgente C e molto popolare sotto UNIX  e  tra  i
+ PC.  Le  versioni  recenti  sono chiamate `nethack'.  13. Abbrev. per <hacker>
+ (v.).
+
+ Le costruzioni su questo termine abbondano. Esse includono:  <happy  hacking>:
+ un  addio.  <how's hacking?> Un saluto amichevole tra hackers. <hack hack>: un
+ commento magari inutile ma amichevole, spesso usato come addio temporaneo. Per
+ maggiori informazioni sul significato di <hack> vedi l'Appendice A.
+
+ <hack attack> [attacco hack: poss. per analogia con "Big Mac Attack"] s. Quasi
+ sinonimo di <hacking run>, anche se quest'ultimo implica piu`  fortemente  una
+ nottata.
+
+ <hack value> [valore hack] s. Spesso addotto come la ragione o motivazione per
+ spendere  degli  sforzi su uno scopo a prima vista inutile, fatto perche` cio`
+ che si ottiene e` un hack. Ad esempio, il MacLISP ha delle feature per leggere
+ e scrivere dei numerali romani, che sono state aggiunte puramente per  h.v.  .
+ Come  una volta un musicista disse del jazz, se non si capisce l'h.v. non c'e`
+ nessun modo per spiegarlo.
+
+ <hacker> [smanettone? orig., uno che costruiva mobili con un'ascia] s. 1.  Una
+ persona  che  si  diverte  a  imparare i dettagli dei sistemi operativi e come
+ spingere  al  massimo  delle  loro  capacita`,  opposto  a  molti  utenti  che
+ preferiscono  solo  imparare  il  minimo  necessario.  2.  Uno  che  programma
+ entusiasticamente (anche ossessivamente), o  che  si  diverte  a  programmare,
+ invece che teorizzare semplicemente sul programmare.  3. Una persona capace di
+ apprezzare  l'<hack value>.  4. Una persona brava a programmare in fretta. Non
+ tutto quello che un h. produce e` un hack.  5. Un esperto  di  un  particolare
+ programma,  oppure  uno che frequentemente lavora usandolo o con esso: es. "Un
+ hacker UNIX". (Le def. da 1 a 5 sono correlate e le persone che le  soddisfano
+ si aggregano).  6. Un esperto di un qualunque tipo. Uno puo` essere ad esempio
+ un  h.  di astronomia.  7. (deprecato) Un ficcanaso malizioso o indiscreto che
+ tenta di scoprire informazioni infilandosi da qualche parte. Quindi  "password
+ hacker", "network hacker". Vedi <cracker>.
+
+ <hack  mode>  [modo hack] s. 1. Cosa si fa durante l'hacking, naturalmente. 2.
+ Piu` specif., uno stato simil-Zen di focalizzazione totale sul Problema che si
+ puo`  raggiungere  durante  l'hacking.   L'abilita`   di   entrare   in   tale
+ concentrazione  a  piacere  si  correla fortemente con l'essere wizard; e` una
+ delle abilita` piu` importanti imparate durante il  <larval  stage>.  A  volte
+ amplificato  come  "deep hack mode" [modo hack profondo]. Essere buttato fuori
+ dall'h.m. (vedi <priority interrupt>) puo` venire sperimentato quasi come  uno
+ shock   fisico,   e  la  sensazione  di  esserci  da`  piu`  che  una  leggera
+ assuefazione. L'intensita` di questa esperienza e`  probabilmente  sufficiente
+ da  sola  per l'esperienza degli hacker, e spiega perche` molti resistano alle
+ promozioni che fanno loro lasciare posizioni nelle quali possono fare codice.
+
+ <hacking run> [ciclo hacking: per analogia  con  "bombing  run",  missione  di
+ bombardamento,  o  "speed  run"]  s.  Una  sessione hack estesa molto oltre le
+ usuali ore di lavoro, spec. una piu` lunga di 12 ore. Puo` causare il  "cambio
+ di fase nel modo difficile" (v. <phase>).
+
+ <hackish>  /hak'ish/  [hackeroso]  agg.  (anche  <hackishness> s.) 1. Che e` o
+ implica un hack.  2. Di o applicabile ad hacker o  alla  sottocultura  hacker.
+ Vedi  anche <true-hacker>.  E` meglio essere descritto dagli altri come h. che
+ descriversi da soli in tal modo. Gli  hacker  si  considerano  una  specie  di
+ elite,  anche  se  una  in  cui  nuovi  membri sono caldamente accolti. E` una
+ meritocrazia basata sull'abilita`.  C'e`  una  certa  soddisfazione  personale
+ nell'identificarsi  come un hacker (ma se affermate di esserlo e non lo siete,
+ sarete rapidamente etichettati <bogus>).
+
+ <hackishness, hackitude> [hackerosita`] s. La qualita` di essere  o  implicare
+ un  hack.  (La parola <hackitude> e` considerata buffa; il termine standard e`
+ <hackishness>.)
+
+ <hair> [lett. pelo: si puo` rendere con "tostaggine"] s. Le complicazioni  che
+ rendono  qualcosa  tosto (v. <hairy>). "Decodificare i comandi <TECO> richiede
+ una certa  quantita`  di  h.".   Visto  spesso  nella  frase  <infinite  hair>
+ [tostaggine   infinita],   che   connota   complessita`   estrema.   Anche  in
+ <hairiferous> (che tende a favorire la  crescita  del  pelo):  "Il  GNU  elisp
+ incoraggia  i luser a scrivere modi di editing complessi". "Si`, e` davvero un
+ bel po' hairiferous". (o semplicemente: "Hair squared!")
+
+ <hairy> [lett.  peloso;  nei  sign.  1  e  2,  tosto]  agg.  1.  Terribilmente
+ complicato.  "Il <DWIM> e` incredibilmente h." 2.  Incomprensibile. "Il <DWIM>
+ e` incredibilmente h." 3. Di persone,  di  grande  potere,  autorevoli,  rare,
+ esperte,  e/o  incomprensibili.  Difficile  da  spiegare  se non dal contesto:
+ "Conosce questo avvocato h. che dice che non c'e` niente da preoccuparsi".
+
+ <HAKMEM> /hak'mem/ s. Il Memo MIT AI # 239  (Febbraio  1972).  Una  collezione
+ leggendaria  di  hack  puliti  di matematica e programmazione forniti da molta
+ gente all'MIT e altrove. (Il titolo del memo in realta` e`  "HAKMEM",  che  e`
+ una specie di acronimo per "hacks memo".) Alcuni di questi sono tecniche molto
+ utili  o  potenti  teoremi,  ma  la maggior parte cadono nella categoria delle
+ banalita` matematiche e  computeristiche.  Un  esempio  delle  voci  (con  gli
+ autori), leggermente parafrasate:
+
+ Item  41  (Gene  Salamin)  Ci sono esattamente 23,000 numeri primi minori di 2
+ alla 18ma potenza.
+
+ Item 46 (Rich Schroeppel) La distribuzione di semi piu` *probabile* nelle mani
+ di bridge e` 4-4-3-2, in confronto a 4-3-3-3, che e` quella  distribuita  piu`
+ *equamente*.  uesto  perche`  il  mondo  ama  avere numeri diversi: un effetto
+ termodinamico che afferma che le cose non rimarranno  nello  stato  di  minore
+ energia, ma nello stato di minore energia disordinata.
+
+ Problema  81  (Rich  Schroeppel) Contare i quadrati magici di ordine 5 (cioe`,
+ tutte le disposizioni in un quadrato 5 per 5 dei numeri da 1 a 25 tali che  la
+ somma  di  ciascuna  riga, colonna e diagonale sia costante). Ce ne sono circa
+ 320 milioni, non  contando  quelle  che  differiscono  solo  per  rotazione  e
+ riflessione.
+
+ Item  174 (Bill Gosper e Stuart Nelson) 21963283741 e` l'unico numero tale che
+ se lo si rappresenta sul <PDP-10> come intero o numero  a  virgola  mobile,  i
+ pattern dei bit delle due rappresentazioni sono identici.
+
+ HAKMEM contiene anche alcuni elementi piu` complicati matematici e tecnici, ma
+ questi esempi mostrano parte del suo gusto per il divertimento.
+
+ <hakspek>  /hak'speek/ s. Termine generalmente usato per descrivere un modo di
+ compitazione trovato su molti  BBS  accademici  inglesi  e  sistemi  di  chat.
+ Sillabe  e  parole  intere in una frase sono rimpiazzate da semplici caratteri
+ ASCII foneticamente simili o equivalenti, e le  doppie  usualmente  eliminate.
+ Cosi`  `for'  diventa `4', `two',`too' e `to' diventano `2', `ck' diventa `k'.
+ "Before I see you tomorrow" [Prima che ti veda  domani]  diventa  "b4  i  c  u
+ 2moro". Apparso inizialmente a Londra intorno al 1986, e probabilmente causato
+ dalla  bassa  velocita`  dei  sistemi  di  chat  disponibili, che operavano su
+ macchine arcaiche con sistemi operativi datati, e  senza  metodi  standard  di
+ comunicazione.  Vedi  anche  <talk mode>. [NdT: ricordo perfettamente che gia`
+ nella tarda primavera del 1985, quando ho scoperto i primi sistemi di chat  (a
+ quell'epoca  si  chiamavano  RELAY)  con  gli  Stati Uniti, e per l'appunto mi
+ collegavo al mainframe del CNUCE con un modem a  300  baud,  che  veniva  gia`
+ usata  una  specie  di  hakspek.  A parte i classici "c u l8r" e "r u there?",
+ c'era il nickname di un tipo che era "4nik8"...]
+
+ <hand-hacking> [hacking a mano] s. 1. La pratica di tradurre <hot spot> da  un
+ <HLL>  in  assembler  customizzato  ottimizzato  a mano, opposto al tentare di
+ costringere il compilatore a generare codice migliore. Sia il termine  che  la
+ pratica  stanno  diventando  rari.  Vedi  <tune>:  sin.  di  <cruft>.  2. Piu`
+ genericamente, costruzione manuale o patch di insiemi di  dati  che  sarebbero
+ normalmente  macinati  da  un utilitt di traduzione e interpretati da un altro
+ programma, e non sono in realta` progettati  per  essere  letti  o  modificati
+ dagli umani.
+
+ <handwave>  [piu` o meno, gesticolare, ma solo con le mani] 1. v. Sorvolare su
+ un punto  complesso;  distrarre  un  ascoltatore;  supportare  un'affermazione
+ (magari  anche  veritiera)  con della logica flagrantemente falsa. Se qualcuno
+ inizia una frase con "Chiaramente..."  oppure  "Ovviamente..."  o  "E`  banale
+ vedere  che...",  si  puo` essere certi che costui sta per h. La teoria dietro
+ questo  termine  afferma  che  se  si  muovono  le  mani  al  momento  giusto,
+ l'ascoltatore puo` essere sufficientemente distratto da non notare che  quello
+ che  avete  detto  e`  <bogus>.  Alternativamente,  se un ascoltatore fa delle
+ obiezioni, potete tentare di eliminarle facedo un gesto con  le  mani.  2.  s.
+ L'atto  di  muovere  le  mani. "Ehi, che h.!" L'uso di questa parola e` spesso
+ accompagnato dal gesticolio: entrambe le  mani  all'insu`,  palme  in  avanti,
+ facendo  ruotare  le mani in un piano verticale con perno sui gomiti e/o sulle
+ spalle (dipendente dalla grandezza  dell'h.);  alternativamente,  tenendo  gli
+ avambracci  fermi  mentre  si  ruotano  le  mani  imperniandosi  sul poleo per
+ agitarle. Nel contesto, il gesticolio da solo puo` bastare come  commento;  se
+ uno   speaker  fa  un'assunzione  oltraggiosamente  senza  supporto,  si  puo`
+ semplicemente fare ondeggiare le mani in questo  modo,  come  un'accusa  molto
+ piu`  eloquente  di  falsita`  nella  sua  logica  di quanto le parole possano
+ esprimere.
+
+ <hang> [essere bloccato: lett., essere sospeso] v. 1.  Aspettare  l'occorrenza
+ di  qualche evento; rimanere sospeso fino a che qualcosa accada. "Il programma
+ mostra un menu` e poi si blocca finche` non si digita un carattere."  2.  Piu`
+ comunemente,  aspettare  per un evento che non accadra` mai. "Il sistema si e`
+ bloccato perche` non puo` leggere dal disco che  e`  andato  in  crash."  Vedi
+ <wedged>, <hung>.
+
+ <Hanlon's  Razor>  s.  Un  "murphysmo" parallelo al Rasoio di Occam; esso dice
+ "Mai attribuire alla malizia cio` che puo` essere adeguatamente spiegato dalla
+ stupidita`". La derivazione del titolo comune Rasoio di Hanlon e` sconosciuta;
+ un simile epigramma e` stato attribuito a William James.  Citato  qui  perche`
+ sembra  essere  uno  dei favoriti dagli hacker, che si puo` spesso trovare nei
+ files  di  <fortune  cookie>  e  nelle  schermate  iniziali  di  BBS  e   reti
+ commerciali. Cio` probabilmente riflette l'esperienza giornaliera degli hacker
+ di ambienti creati da gente bene intenzionata ma dalla vista corta.
+
+ <hardwired>  [infilato a forza] agg.  1. L'inserimento di dati direttamente in
+ un programma, dove non possono essere modificati, in opposizione al  prevedere
+ che  uno  <user>  o  un hacker possano modificarli facilmente. 2. Nel C, spec.
+ applicato  all'usare  un  valore  specifico  invece   che   un   #define   del
+ preprocessore  (vedi  anche <magic number>). 3. Per estensione, tutto cio` che
+ non e` modificabile, spec. nel senso di customizzabile  ai  propri  bisogni  o
+ gusti particolari.
+
+ <has  the  x nature> [ha la natura X: sembra derivare dai koan Zen della forma
+ "Ha un X la natura Budda?"] agg. Comune costruzione  hacker  per  "e'  un  X",
+ usato  per  enfasi  umoristica. "Chi non sappia nemmeno usare un programma che
+ contiene un help on-screen ha davvero la natura di <loser>!"
+
+ <hash collision> [collisione  hash:  dall'uso  tecnico]  s.  Quando  usato  di
+ persone,    significa    una    confusione   nella   memoria   associativa   o
+ nell'immaginazione, specialmente se persistente (v.  <thinko>).  Storia  vera:
+ uno di noi [ESR] era una volta al telefono con un amico che stava per andare a
+ Berkeley.  Quando  gli  fu  chiesto  come  pensava che fosse Berkeley, l'amico
+ rispose "Beh, ho questa immagine mentale di donne nudo che lanciano  bottiglie
+ Molotov,  ma  penso  che  siano semplicemente una collisione nelle mie tabelle
+ hash." E` anche riportata la variante "hash clash".
+
+
+
+
+                                        Eric S. Raymond <esr@snark.thyrsus.com>
+
+
+                                        tradotto da .mau.
+                                                  mau@beatles.cselt.stet.it
+                                                  2:334/100.5
+                                                  2:332/407.909
+
+
+
+
+
+
+
+ ############                                                IL PROGRAMMINO ###
+ ###   7  ###                                                Stardate       ###
+ ############                                                di Jay Windley ###
+
+ Riassunto:
+       oscure  fonti  d'informazione  mi  hanno consigliato questo programmino.
+       Essendo l'editor  mi sono  preso la  premura di  compilarlo. Accetta  un
+       parametro "-d" seguito dalla  precisione, credo, con cui  deve calcolare
+       la  data.  Sembra  abbia  a  che  fare  con  la  data  astrale...   boh!
+       Un ottimo programma, insomma,  che non deve mancare  nella programmoteca
+       di nessuno. :)
+
+ ------------------------------------------------------------------------------
+
+ = Original Message ===========================================================
+ * Area : Parcheggio posta
+ * From : Marcello Missiroli, 2:332/504.0
+ * To   : ALL, 2:24100/5.0
+ * Subj : Stardate.c
+ * Forwarded by Maurizio Codogno on 2:334/100.5
+ ==============================================================================
+
+ /*************************************************************
+  * File:             stardate.c
+  * Author:           Jay Windley
+  * Created:           1 Jan 92
+  * Copyright:        (c)  1 Jan 92 by Jay Windley
+  * Description:      prints the current stardate to stdout
+  *
+  *************************************************************/
+
+ #include <stdio.h>
+ #include <sys/types.h>
+ #include <time.h>
+
+ #define FIT(x,y) while((x)<0)(x)+=(y);while((x)>(y))(x)-=(y)
+
+ #define MAXPRECISION       7
+ #define OUTPUTFORMAT       "%%%03d.%df"
+
+ /*---------------------------------------------------------------------*
+  *TAG (                           julian_day                           );
+  *---------------------------------------------------------------------*
+  * Returns the New Epoch Julian Day for the given Gregorian calendar
+  * day.
+  */
+ double julian_day (month, day, year)
+     int month, day, year;
+ {
+  int loc_month;
+  int loc_year;
+  int a, b, c, d;
+
+  loc_month = month;
+  loc_year = year;
+
+  /* correct for March-based B.C. year */
+  if (year < 0) loc_year ++;
+  if (month < 3) {
+    loc_month = month + 12;
+    loc_year --;
+  }
+
+  /* set up A and B for Julian to Gregorian calendar change */
+  if (year < 1582) b = 0;
+  else if (year == 1582) {
+    if (month < 10) b = 0;
+    else if (month == 10) {
+      if (day < 15) b = 0;
+      else {
+  a = loc_year / 100;
+  b = 2 - a + (a/4);
+      }
+    } else {
+      a = loc_year / 100;
+      b = 2 - a + (a/4);
+    }
+  } else {
+    a = loc_year / 100;
+    b = 2 - a + (a/4);  /* century is set up */
+  }
+
+  /* fudge for year and month */
+  c = (int) (365.25 * loc_year) - 694025;
+  d = (int) (30.6001 * (loc_month + 1));
+
+  return (double) (b + c + d + day) - .5;
+ }
+
+ /*---------------------------------------------------------------------*
+  *TAG (                            sidereal                            );
+  *---------------------------------------------------------------------*
+  * Returns Greenwich Mean Sidereal Time for the given Greenwich Mean
+  * Solar Time on the given NE Julian Day.
+  */
+ double sidereal (gmt, jd, gyear)
+     double gmt;  /* Greenwich Mean Time, decimal */
+     double jd;   /* Julian Day */
+     int gyear;   /* calendar year */
+ {
+  register double dayfudge, yrfudge, jhund;
+  double initjd, hourfudge, time0, lst;
+
+  /* find Julian century at start of year */
+  initjd = julian_day (1, 0, gyear);
+  jhund = initjd / 36525.0;
+
+  /* apply polynomial correction */
+  dayfudge = 6.6460656 + (0.051262 + (jhund * 0.00002581)) * jhund;
+  yrfudge = 2400.0 * (jhund - ( (double) (gyear - 1900) / 100));
+  hourfudge = 24.0 - dayfudge - yrfudge;
+  time0 = (jd - initjd) * 0.0657098 - hourfudge;
+
+  /* adjust to modulo 24 hours */
+  lst = (gmt * 1.002737908) + time0;
+  FIT (lst, 24.0);
+  return lst;
+ }
+
+ /*---------------------------------------------------------------------*
+  *TAG (                              main                              );
+  *---------------------------------------------------------------------*
+  * Behaves as expected.
+  */
+ void main (argc, argv)
+     int argc;
+     char *argv[];
+ {
+  int jd, precis;
+  double gmt, gmst;
+  time_t t;
+  struct tm *tm;
+  char buf[16];
+  char fmt[16];
+
+  if (argc > 1) {
+    if (strncmp (argv[1], "-d", 2) == 0) {
+      if (sscanf (&argv[1][2], "%d", &precis) == 0) {
+  fprintf (stderr, "%s: invalid precision specification\n", argv[0]);
+  exit (1);
+      }
+
+      if (precis < 1) precis = 1;
+      if (precis > MAXPRECISION) precis = MAXPRECISION;
+    } else {
+      fprintf (stderr, "%s: invalid option\n", argv[0]);
+      exit (1);
+    }
+  } else precis = 1;
+
+  t = time (NULL);
+  tm = gmtime (&t);
+  jd = julian_day (tm->tm_mon + 1, tm->tm_mday, tm->tm_year + 1900);
+  gmt = (double) tm->tm_hour +
+    tm->tm_min / 60.0 +
+    tm->tm_sec / 3600.0;
+  gmst = sidereal (gmt, (double) jd, tm->tm_year);
+  sprintf (fmt, OUTPUTFORMAT, precis + 6, precis);
+  sprintf (buf, fmt, (double) jd + gmst / 24.0);
+  puts (buf);
+ }
+
+ ============== end stardate.c ================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                     NOTIZIE FIDONET REGION 33 ###
+ ###   8  ###                                          Il nuovo NC del 334. ###
+ ############                                          di Landorno Terao    ###
+
+ Riassunto:
+       si  riporta  l'intervista  lampo  fatta  dal  nostro  inviato   speciale
+       Landorno Terao ad Angelo Verdone, il nuovo NC [1] di 334.   L'intervista
+       e'   assolutamente   veritiera,   poiche'   inventata   di  sana  pianta
+       dall'inizio alla fine.
+
+ ------------------------------------------------------------------------------
+
+  Arrivo col fiatone all'ultimo piano dell'edificio; una graziosa fanciulla  mi
+ accoglie all'ingresso eclissandosi, discreta, nelle proprie stanze.
+
+ Il  Verdons  oggi  e'  nervoso,  traffica in continuazione col mouse e qualche
+ centinaio di files.  Sembra si diverta a riversarli da un posto all'altro.
+
+ - Cuma l'e' ?  - mi chiede senza  quasi  alzare  lo  sguardo  dal  video.   In
+ realta'  grazie  all'innesto  bionico  non ha veramente bisogno di guardare lo
+ schermo.
+
+ - Ciao Verdons, sono qui per l'articolo...
+
+ Durante i convenevoli il Verdons lancia a raffica due o tre programmi,  swappa
+ veloce  da  uno  schermo  all'altro - scopro cosi' di sfuggita che qualcuno e'
+ collegato e sta puppando - arriva addirittura a resettare il  suo  3000  senza
+ mandare down il puppatore che non si accorge di nulla!!  Un vero maestro.
+
+ Eccolo,  signori, il primo NC italiano su Amiga [NdE: il primo NEC su Amiga e'
+ stato Mariuo Mure'] - era ora che certi  veti  e  miti  cadessero  -  dice  il
+ Verdons, che da sempre predica che la telematica non ha un colore, soprattutto
+ essendo lui il nero. ~:)
+
+ -  La  telematica e' di tutti - e si abbandona ai ricordi, alle sue scorazzate
+ per i vari BBS a caricare files per tutte le macchine con  pochi  utenti,  per
+ motivare i vari sysops ad aprire aree per tutti i sistemi.
+
+ Il  Verdons, signori, e' una furia!  Il suo HW e' da panico, un 3000 corazzato
+ con 16Mb di RAM a 32 bit, un 68040 innestato a  bulbo  nella  sua  carcassa  -
+ quasi  400  Mb  di  HD,  il 3000 e' perennemente smontato - un syquest [3], un
+ lettore CD, 2 modem (un dual standard della US  Robotics  ed  un  cartoccio  a
+ 2400/MNP  Italtel),  un  2000  di  scorta  o  supporto  e  due  monitor. Senza
+ tralasciare la stampante Canon BJ 300 a getto d'inchiostro...
+
+ - Tu sai che sono un casinista - mi dice confidenzialmente - ma non per quanto
+ riquarda la Sacra Rete.  Nessuno con me ha ancora mai perso un matrix - e  con
+ piglio sicuro uccide un task, mentre ne inchioda un altro.
+
+ Intanto  il  puppatore  sparisce;  ne subentra subito uno nuovo, la BBS sembra
+ piuttosto frequentata.  Il Verons preso da raptus  ittico  cavalca  con  furia
+ selvaggia   i  vari  programmi  che  gestiscono  la  BBS  e  l'organzizzazione
+ dell'incarico di NC.
+
+ C'e' il GCC, perennemente in a (alpha *:)= ) release, impiegato  come  tosser,
+ scanner,  editor  [2]  e macchinetta del caffe'. Siamo alla 4.0a ed ancora non
+ c'e' stata una 1.0 ufficiale dal doc, il mitico Davide Massarenti.
+
+ Usa il TrapDoor (giunto  all  a  1.83)  come  mailer  [2].   Per  la  BBS  sta
+ vivisezionando TransAmiga. [NdE: il numero di versione non e' pervenuto :(]
+
+ -  Quegli stronzi di FALCON BBS, ho spedito, quasi qualche anno fa i soldi per
+ la registrazione ed ancora non ho ricevuto nulla.  -  Borbotta,  agitandosi  e
+ swappando task.
+
+ Poi mi guarda poco convinto:
+ - cosa vuoi ?
+ - L'intervista...
+ - Ah, gia'!
+
+ E stacca il puppatore spegnendo il modem - mi stava antipatico - sogghigna.
+
+ Signori,   che   uomo!    quest'indomabile   amgighista.    Un  vero  pioniere
+ dell'informatica ancor prima della telematica.  Riuscira' forse ad essere vero
+ successore della figura dei mitici Jennings, Rutigliano, Carcillo... ?
+
+ Oggi e' arduo azzadare ipostesi.
+
+ Comunque i nodi ed i point della zona 334 possono  dormire  sogni  tranquilli,
+ c'e'  il  Verdons  che  veglia su di loro. Affiancato, non dimentichiamolo, da
+ figure che, benche' WC-DOSSIANE,  non  per  questo  ci  devono  apparire  meno
+ mitiche,  parlo  di  quei  sysops  della rete che, indefessi, da secoli non ci
+ fanno perdere un messaggio di una qualsiasi area. Beh... diciamo quasi!
+
+ - Comunque - boffonchia il Verdons - il 334 e' in buone mani con noi, er  trio
+ Lescano.  Con  Cristofaro,  Russo,  Verdone (rispettivamente BACKBONE, NEC, NC
+ [1]) siete in una botte di ferro.
+
+ Un grazie di cuore a tutti questi Bravi Ragazzi, che col sudore del loro modem
+ ci lasciano cazzeggiare tutte le sere fino a tardi.
+
+                                                                 Landorno Terao
+ Note:
+
+ [1] RC, NC, NEC:
+       i  loro  significati  si  possono  trovare sulle pubblicazioni ufficiali
+       della  Sacra  Rete  Fido,  o  nei  numeri  di Telematicus sull'argomento
+       FIDONET.
+
+ [2] tosser, mailer, scanner:
+       i  loro  significati  si  possono  trovare sulle pubblicazioni ufficiali
+       della  Sacra  Rete  Fido,  o  nei  numeri  di Telematicus sull'argomento
+       FIDONET [NdE:   si, lo  so, sono  un pigro,  non ho  voglia di cercare i
+       numbers :) ]
+
+ [3]  SyQuest:
+       un lettore  di dischi  rigidi rimuovibili,  di 40/80Mb,  con interfaccia
+       SCSI.
+
+
+ ############                                                               ###
+ ###   9  ###                                    NOTIZIE FIDONET REGION 33  ###
+ ############                                    NEWS                       ###
+
+                               *** net 331 ***
+                               *** net 332 ***
+                               *** net 333 ***
+
+ Nessuna risposta al matrix in tempo utile.
+
+
+
+                               *** net 334 ***
+
+ Nel net 334 e' nata una  nuova  BBS,  con l'indirizzo  2:334/503  di  Gabriele
+ Doglio.  Questa splendida BBS, il cui nome non mi e' pervenuto, gira su Amiga.
+ Ci aspettiamo quindi GRANDI COSE dal Gabriele.
+
+
+
+
+
+      Telematicus puo` essere downloadato dai seguenti nodi Fidonet:
+
+
+ 334/100 - 011-3299706     | 334/104 - 011-502423      | 334/105 - 011-2238389
+ 335/211 - 099-4746313     | 335/215 - 099-4746044     | 331/112 - 0341-360511
+ 333/603 - 040-3783111     | 332/315 - 0721-30783      | 334/107 - 011-890084
+
+      da Sintel, 011-596274,
+
+      e dai nodi ISN
+
+ 331/301 - 02-76006857     | 331/106 - 0332-706469     | 331/201 - 030-293250
+ 331/202 - 0373-273188     | 331/206 - 0523-896512     | 331/318 - 0382-575369
+ 332/206 - 019-853037      | 332/404 - 051-554430      | 332/305 - 0541-777003
+ 332/402 - 051-6331730     | 332/403 - 051-6231940     | 332/102 - 055-2364065
+ 332/108 - 055-2298120     | 332/502 - 0522-824379     | 332/504 - 059-450643
+ 333/304 - 049-9200386     | 333/207 - 0445-530103     | 333/401 - 0471-200004
+ 333/404 - 0474-21123      | 333/505 - 0422-431041     | 333/507 - 0431-430945
+ 334/306 - 0121-542795     | 335/210 - 081-5709527     | 335/405 - 06-315323
+
+
+####                            End of TELEM027                            ####

@@ -1,0 +1,2069 @@
+ #### TELEM048 - Telematicus - Volume 05 - Numero 04 - Anno 1995 -  94 pag.####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                  Maggio 1995
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematicus   e'  (C)  dei  singoli  autori.   E'
+ espressamente consentita la distribuzione e il riutilizzo  del  bollettino  in
+ tutto  o in parte, purche' non a fini di lucro e citando sempre autore e fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina  94 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+
+
+ [ 1]  Editoriale  .   .   .   .   .   .   .   .   .   .   .   .  (RRE) pag.  4
+ [ 2]  Lettere aperte  .   .   .   .   .   .   .   .   .   .   . (AAVV) pag.  7
+ [ 3]  Beta.   .   .   .   .    .  (Fernando Carello, Luciano giustini) pag. 15
+ [ 4]  BTW (ByTheWIRE) .   .    .  .   .   .   .   . (Carmelo Saraceno) pag. 25
+ [ 5]  CT  (Corriere Telematico).  .   .   .   .   .   .   .  (The Spy) pag. 33
+ [ 6]  Fear.   .   .   .   .    .  .   .   .   .   .  (Giulio Cipriani) pag. 42
+ [ 7]  Un ntwk al mese...(XX): Internet provider: MC-LINK      (Costa2) pag. 45
+ [ 8]  Curiosita': Il gergo hacker .   - parte 42  .   .   .   . (AAVV) pag. 55
+ [ 9]  L'arte della programmazione .   - parte VII .   (Artore Londona) pag. 65
+ [10]  Il paradosso di Internet .  .   .   .   . (Enrico Franceschetti) pag. 74
+ [11]  Bibliografia    .   .   .   .   .   .   .   .   . (La direzione) pag. 84
+ [12]  Corrige: vari   .   .   .   .   .   .   .   .   (Nick Montanari) pag. 86
+ [13]  Notizie Fidonet region 33   .   .   .   .   .   .   .   (Orsini) pag. 91
+
+
+
+                  Questo Telematicus e' nato con l'aiuto di...
+
+
+ Editor Nett-urbinus: Costa2              | * I collaboratori dai network: *
+ Editor Betans - 1  : Fernando Carello    |
+ Editor Betans - 2  : Luciano giustini    | Roberto Orsini       (2:332/403.74)
+ Editor BTWensis    : Carmelo Saraceno    | Giovanni Lopes       (2:332/114.2)
+ Editor CTosus      : The Spy             | Angelo Verdone       (2:334/21)
+ Editor FearEnsis   : Giulio cipriani     | Enrico Franceschetti (2:335/212)
+ Editor Artistix    : Mario Ricca         |
+ Editor InterNos    : Enrico Franceschetti|
+                                          |
+
+ Editor Mittens  : Gianluca Cheli, Marco Turchetto
+ Editor Corrigens: Nick Montanari, Alessandro Ghezzer
+ Editor saccheggiati: Eric S. Raymond <esr@snark.thyrsus.com>
+
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO) al 011-9235565.
+ e-mail: rolandor@inrete.alpcom.it
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+
+
+  Scusate ma e' tardissimo, ed il sonno mi sta crollando addosso.  Saro' quindi
+ breve e piu' svampito del solito *:)
+
+  Ebbene nel precedente editoriale avevo  accennato ad una futura recensione di
+ alcune riviste telematiche in giro sull'italica crosta terrestre.
+
+  Col Costa2 all'inizio del mese avevamo fatto il  piano  di  battaglia:  Beta,
+ Fear,   CT,   BTW...    gia'   ce   n'erano.    Tutte   di  qualita'  e  tutte
+ interessantissime e curate come solo un'insana passione puo' spingere.
+
+  Poi, pian pianino sono spuntate  vecchia  conoscenze: SBDI, H2H (Horizzont to
+ Horizzont, rivista sui satelliti (Telem 038), e nuove riviste fresche  fresche
+ come  Sottovoce  (02/603417,  02/6888111) che dal number 2 uscira' a pagamento
+ (suggeritami dal Bosio)  o  Delos  (02/67070574)  consigliatami dal buon Cicci
+ Serra (vecchia indomita roccia).
+
+  Poi  Alex  Palmese  (2:335/317)  mi  parla  di  una   rivista   in   Internet
+ (http://www.citinv.it/associazioni/crt) appena nata nell'ambito Romano...
+
+  Per  non  parlare  di BGI, che attualmente proprio non so cosa sia, ma mi ero
+ lasciato l'appunto di parlare di BGI...  *:)
+
+  Per i primi siamo riusciti ad  avere  *in esclusiva* le loro interviste!  Per
+ Sottovoce e Delos, SBDI e H2H vedremo per il prox number.
+
+  Comunque (come gia' avevamo visto nel number 38) la telematica (amatoriale  e
+ non *:) ) non e' morta.  Anzi!  Un sacco di bei progetti girano intorno.
+
+  Il  problema  (problema  ?)  e' che molti pensano un giorno di poterci vivere
+ sopra.  Speriamo!
+
+  Speriamo un giorno di  vedere  questa  brava gente soddisfatta: penso sarebbe
+ molto meno dure spendere cinque  mila  liro  per  questa  gente  che  trovarci
+ nuovamente con un Italian Breakdown, la vendetta, tra le scapole.
+
+  Se  l'unico  modo  per  convincere le persone sulla serieta' della testata e'
+ cavargli soldi...  allora che sia!
+
+  OK.  Incidentalmente faccio notare un'interessante articolo del Franceschetti
+ sull'inutilita' di Internet.
+
+  Ora vorrei dire anche la mia a riguardo, ma e' tardi ed ho sonno.  Lasciatemi
+ solo dire che il  buon  Franceschetti,  come  tutta  la popolazione Fido a cui
+ piace la telematica di frontiera, ha due (*2*) accessi in Internet.  *:)
+
+  Buona lettura.
+
+
+
+
+
+                                                                           RRE
+
+
+
+
+
+
+
+
+ ############                                               LETTERE APERTE  ###
+ ###   2  ###                                               AAVV            ###
+ ############                                                               ###
+
+ Riassunto:
+
+          Il buon Ginaluca ci sengala  una  rivista e contribuisce al dibattito
+         sul *sesso* della rete.
+
+          In realata' Gianluca ha scritto un articoletto su cio', ma  -  a  mio
+         insindacabile giudizio - e' migliorabile.
+
+          Uscira' certamente sul prox number *:) Sorry, ma i tempi delle matrix
+         sono quelli che sono.
+
+
+                                              --- O ---
+
+
+           Oh,  ora  alcuni  di  voi  si  sono  gia' accorti della mia spiccata
+         propensione ai flames: se fatti con  garbo e sporattutto con un minimo
+         di pungente sagacia  (mi  piaca  'sagacia')  sono  cio'  che  di  piu'
+         rilassante  si  possa  trovare  in  circolazione  (a meno di una bella
+         litigata con un proprio familiare, ovviamente).
+
+           Ecco  che  il  buon  Marco  Turchetto  si  e'  sentito  in  dovere -
+         giustamente, credo - di rimproverarmi per l'articolo che ho scritto su
+         Warp e che ho - per sbaglio, credetemi - inviato nell'area os2.ita  (o
+         comecavolo si chiama ora).
+
+           Solo una cosa: io ODIO chi scrive x' al posto di perche' *:)
+
+           Tra  l'altro  il  buon  Marco,  quando  oltre  alla  mia  valanga di
+         *documentatissimi* matrix  a  perorazione  della  mia  causa, ha anche
+         avuto l'avviso della sua prossima pubblicazione, mi aveva  pregato  di
+         attendere un nuovo matrix.
+
+           Beh,  come  puo' fare fede la data della rivista, siamo ormai al 6 e
+         di piu' non posso aspettare.  Spero non me ne voglia - ancora - a male
+         *:)
+
+ ------------------------------------------------------------------------------
+
+ From : Gianluca Cheli
+        2:332/416.16
+
+
+ Ciao Renato!
+
+  Non ho ancora completato la lettura dell'ultimo numero di Telem, ma la voglia
+ di scriverti mi ha preso, irresistibile.  :-)) [NdE: Watz!  sono commosso!!]
+
+  Concordo  con  il  tuo  commento  su  Beta:  Š  un bel malloppone, ed Š anche
+ interessante.  [NdE: *:) penso  che  sarai  contento  di  cio' che troverai in
+ questo number, allora.]
+
+  Riguardo alla bibliografia permettimi di consigliarti di dare  un'occhiata  a
+ Virtual.
+
+  Personalmente sono dell'idea di non prendere in considerazione le riviste che
+ parlano di telematica (leggi Internet) solo per seguire la moda, ma su Virtual
+ si  parla  da  tempo  di  Cyberspazio  (quella cosa che include tutto, anche i
+ pannolini  usati  :-)  ),  per  cui  il  suo  interesse  mi  sembra abbastanza
+ "spontaneo".
+
+  Ogni mese c'Š un'iserto  (InternetcafŠ)  di  8-12  pagine  che  tratta  della
+ mammma_di_tutte_le_reti  e  di  argomenti  a  lei collegati.  Personalmente mi
+ sembra che valgano pi— quelle  poche  pagine  di  un intero numero di Internet
+ News, la rivista di cui hai gi… parlato su Telem046 (forse perchŠ almeno ha un
+ indirizzo Internet ?  :-)) )
+
+  Per quanto riguarda l'articolo su Multinet avrei  un  appunto:  un  numerillo
+ telefonico per dare un'occhiata Š possibile averlo ?  (giuro: io l'ho cercato,
+ ma non l'ho trovato) [NdE:  hem  hem...   in  realta'  le info le ho prese da
+ Beta.  Vedro' di risponderti coi soliti tempi di redazione *:) ]
+
+  Altre  (?)  lodi  al  tuo  operato  sono  superflue,  sarebbe far piovere sul
+ bagnato.  :-)) [NdE: ancora un po' e piango *:)]
+
+  Ciao,
+
+                                                             Gianluca ... ]Stk[
+
+
+ P.S.
+
+  Avrai notato che non ho parlato ne' di sesso degli angeli, ne' di altro sesso
+ telemetico.
+
+  Saro' qualunquista, ma pur avendo le mie idee su politica&C (anche se a volte
+ mi sento un animale in via  d'estizione  :-(  )  mi  piace aver a che fare con
+ tutti, disinteressandomi delle loro.
+
+  Non per menefreghismo, ma  perche'  cosi'  facendo  spero  che  loro  non  si
+ ostinino a voler cambiare le mie ;-).  (non e' una critica nei tuoi contronti,
+ visto che in piu' di un punto sono d'accordo con te) [NdE: ti sembrera' strano
+ ma rispetto la tua opinione: anch'io su piu' di un punto sono d'accordo con me
+ *:)]
+
+
+
+                                                                 Gianluca Cheli
+                                                                 2:332/416.16
+
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From : Marco Turchetto
+              2:331/345
+
+ Subj : Re: Telem046 - Recensione Warp
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ * Reply to msg originally in OS/2 Installazione      [ECHO]
+
+
+ Ciao Renato!
+
+ Il 04 Apr 95 22:39,  Renato  Rolando  scriveva  a  All riguardo a "Telem046 -
+ Recensione Warp":
+
+ RR> guardate un po' cosa si e' scritto del Warp...
+
+ [seguono parecchie righe contenenti insulti/cavolate incredibili]
+
+  Ti rispondo in matrix non potendolo fare in  area,  visto  che  non  sono  il
+ moderatore.   Leggendo  l'articolo, oltre ad essermi fatto una PESSIMA idea di
+ Telematicus, mi sono anche chiesto  il  motivo  per cui hai postato in un'area
+ NAZIONALE una simile porcheria.
+
+  Spero solamente che tu non sia l'autore dell'articolo, x' ti assicuro che  le
+ cose  che  vi  stanno  scritte,  oltre  a non stare ne' in cielo ne' in terra,
+ potrebbero procurarti addirittura dei  guai  legali,  se una persona pignola e
+ "giusta" lo leggesse.  Rientra nella policy  di  Fidonet  (e  se  non  sbaglio
+ dell'area) il divieto di postare messaggi che posssano recare offesa o danno a
+ SH o altre ditte.  Per non parlare poi del linguaggio...
+
+  Mi  meraviglio  che  una  rivista  come  Telematicus,  che  reputavo di buona
+ qualita', abbia  pubblicato  questa  roba,  cosi'  come  mi  meraviglio che tu
+ l'abbia addirittura postata in area.
+
+  A parte il linguaggio con cui e' stato redatto, l'articolo (se cosi' si  puo'
+ definirlo) puo' dare fastidio alle persone "serie" che utilizzano OS/2 da anni
+ e  che sanno per esperienza, e non solo dopo averlo installato cosi' tanto per
+ scrivere quattro cavolate  su  una  "review",  che  si  tratta  di un prodotto
+ valido.
+
+  Ci tengo a precisare che non c'entro assolutamente  niente  con  l'IBM,  sono
+ solamente  meravigliato  e  sorpreso  dall'incredibile proliferare di messaggi
+ diffamatori nei confronti del MIGLIORE sistema operativo presente sul mercato.
+ Sembra che si voglia fare DI  TUTTO  per scoraggiare la genete ad acquistarlo.
+ Proprio non capisco.
+
+  L'autore dell'articolo avrebbe fatto meglio a darsi un po' piu' da  fare  per
+ risolvere  i  suoi problemi con il SO, piuttosto che tentare *a tutti i costi*
+ di trovarne i (pochi) difetti.
+
+  Mi scuso nel caso in cui tu non sia in "contatto" con Telematicus, cmq potevi
+ almeno evitare di postare in area quella roba.
+
+ Saluti, Marco
+
+ RR>  ! Origin: Telematicus: la review piu'... d'Italia! (2:334/100.9)
+
+                                           ^^^
+ !!! Piu'... bella?!?! :)))))
+
+
+
+                                                                Marco Turchetto
+                                                                2:331/345
+
+
+
+
+
+
+ ############ Le riviste delle reti                                         ###
+ ###   3  ###                                                 Beta          ###
+ ############                            Fernando Carello, Luciano giustini ###
+
+ Riassunto:
+
+       Ecco che *casino* hanno fatto i *mitici* di Beta! *:)
+
+
+        Eheh .. ora ti racconto:
+
+        Ricevuta la tua matrix,  ho  scritto  un  articolo di presentazione per
+       Telematicus;  dopodiche'  l'ho  sottoposto  a   Luciano   Giustini   (il
+       coordinatore  generale,  il quale pero' nel frattempo ne aveva preparato
+       un altro .. dopo una serie  di  amichevoli confronti tecnici ("Il mio e'
+       piu' bello" "Tu non sai scrivere" "Sei un povero analfabeta"  "Ritirati"
+       :))))))  ),  si  e' democraticamente deciso deciso di inviarvi quello di
+       Luciano ("Il capo sono  io"),  per  cui  immagino che adesso il suddetto
+       articolo sia in viaggio verso il tuo indirizzo Fido ...   ad  ogni  buon
+       conto,  bombardo subito Luciano di matrix ("Ma che razza di coordinatore
+       sei") onde  accertarmi  che  sia  effettivamente  partito (probabilmente
+       l'UUencode sara' stato segato da qualche hub .. gli dico di mandarlo  in
+       crash).  :))
+
+        Grazie  per la pazienza, scusa per il ritardo, e naturalmente scherzavo
+       riguardo alle discussioni: l'articolo e'  stato scritto a 4 mani (ebbene
+       si', Luciano e' un polpo).  ;-)
+
+        [...]
+
+        Saluti,
+
+                                                                       Fernando
+
+        --- GoldED/2 2.50.B5+ ... Io ce l'ho registrato !
+        [NdE: finalmente un bravo ragazzo!]
+
+ ------------------------------------------------------------------------------
+
+                    BETA - La rivista ipertestuale tecnica
+                (c) 1994-95 Luciano Giustini e Fernando Carello
+
+                         PRESENTAZIONE PER TELEMATICUS
+
+               (estratto del settore "Presentazioni", Numero 0)
+
+  Dopo una gestazione durata molti mesi, nasce BETA.
+
+  Ci affacciamo nel mondo della telematica amatoriale con timore ma  anche  con
+ la  convinzione  di  star  facendo  qualcosa  di  innovativo, e pensiamo anche
+ positivo.
+
+  Il numero che avete a portata di ..mouse nel momento in cui scriviamo e', per
+ diversi aspetti, di pre-serie; tuttavia,  ci auguriamo che siano "tangibili" i
+ principi  ispiratori  che  ci  hanno  guidato  in  quest'avventura.   BETA  e'
+ essenzialmente basata su due caratteristiche, riassunte dal suo nome esteso:
+
+                       "La rivista ipertestuale tecnica"
+
+  La struttura a ipertesto e' quella  che  meglio  si  adatta  ad  una  lettura
+ personale  della  rivista,  senza la "sequenzialita'" tipica per esempio delle
+ riviste in formato cartaceo, e  che nelle implementazioni scelte, come Windows
+ Winhelp e HTML(*),  permette  l'uso  di  immagini,  suoni  e  animazioni  (con
+ parsimonia, necessariamente!).
+
+  In  questo  modo  e'  assicurata  una  navigazione  all'interno della rivista
+ mediante la logica di chi legge, e non di chi scrive, permettendo di sfruttare
+ inoltre piu' testi sulla stessa scena  di  lettura, come ad esempio articolo e
+ glossario affiancato.
+
+  E poi, diciamolo, oggi l'ipertesto e la multimedialita' sono quasi "di moda";
+ d'altronde  un  ipertesto  offre  senz'altro  un  bel   colpo   d'occhio,   e'
+ accattivante.   Nel  nostro  caso,  comunque, oltre al piacere di costruire un
+ "bell'oggetto" (almeno, noi troviamo che BETA sia un prodotto gradevole: a voi
+ piace?), c'era la necessita'  di  offrire  un supporto adeguato agli argomenti
+ trattati: per loro stessa natura, gli articoli a carattere tecnico  richiedono
+ spesso  salti  durante  la  lettura,  per  approfondire un concetto, esaminare
+ un'illustrazione, ricercare un significato.  Niente di meglio di un ipertesto,
+ allora!
+
+  Il carattere tecnico e' dato dalla scelta e dall'impostazione degli argomenti
+ trattati, avendo come  scopo  la  diffusione  della  "cultura tecnica" per via
+ telematica, ed e' la naturale evoluzione di un lavoro che abbiamo  deciso  fin
+ dall'inizio di non "schierare" ne' tantomeno "omologare".
+
+  Questo  e'  ricordato  in  molte parti, e forse e' il nostro punto di maggior
+ orgoglio e  che  ci  contraddistingue  da  qualunque  altra produzione simile:
+ rimanere sempre sulla trattazione tecnica  senza  indulgere  in  commenti  che
+ possano farci prendere posizione per un'idea piuttosto che per un'altra.
+
+  E'  il  lettore  che decide, in base alle informazioni che riceve.  Troverete
+ quindi  articoli  sulla  programmazione,   sull'hardware  e  il  software  dei
+ computer, sulla telematica, e cosi' via, il tutto condito  da  spiegazioni  il
+ piu'  possibile  chiare  ed  accurate,  con  il  supporto  di un Glossario che
+ crescera' - entro certi limiti  -  con  BETA;  a volte la passione che ciascun
+ articolista nutre per l'argomento di cui scrive potra' indurlo a  rendere  una
+ visione  piu'  personale  per  certi versi, ma noi pensiamo piu' piacevole per
+ altri, dei suoi interventi tecnici.
+
+  In fondo alcune passioni piacciono di piu' proprio se sono condivise!
+
+  Infine (last but not least  !),  davanti  al  PC c'e' ancora un essere umano:
+ ecco quindi la rubrica PSICOLOGIA, alla  quale  teniamo  molto,  ove  verranno
+ trattati  aspetti del rapporto uomo/calcolatore; ed ecco la collaborazione con
+ il  team  del  Bollettino  Telematico  dell'Arte,  che  si  preannuncia  assai
+ interessante.
+
+  Il lavoro che stiamo svolgendo e' alimentato dalla passione, certamente, e da
+ un nucleo di  volenterosi,  perlopiu'  studenti  di facolta' scientifiche, che
+ crede molto in BETA cosi' come nella telematica amatoriale  e  nella  liberta'
+ che solo essa riesce a dare a idee, contenuti e divulgazione.
+
+  E'  anche  per  questo che chiediamo a voi che leggete un aiuto.  Aiutateci a
+ far crescere BETA: inviateci i vostri pareri, consigli, critiche; lavorate con
+ noi alla stesura  degli  articoli  (i  collaboratori  sono sempre ben accetti,
+ articolisti o consulenti !), mandateci lettere ...  insomma, partecipate!
+
+  Perche' una rivista senza lettori e' solo un'esercitazione.
+
+  Buona lettura!
+
+                                                                   Fernando & C
+
+
+ (*) Note ausiliarie.
+
+
+  BETA e' uscita su base nazionale il 20 del mese di Febbraio.
+
+  Nel Numero 0, attualmente in distribuzione, e' stato implementato il  formato
+ Help per Windows.
+
+  A  partire  dal  Numero  1,  previsto  per  la  fine di Aprile, questo verra'
+ affiancato dal formato HTML (in  release  2.0), leggibile da qualunque browser
+ WWW in locale.
+
+  Quello che segue e' un estratto del testo di presentazione apparso  in  molte
+ aree  nazionali  riguardo  le  RUBRICHE e la reperibilita' di BETA; rispetto a
+ questo, si e' aggiunta la  partecipazione  di  Fabio Cecchinato per la Rubrica
+ Windows (Windows NT) e di Paolo Tortiglione per la Rubrica OS/2.
+
+
+    LE RUBRICHE
+    - News                (redazione)
+    - Impressioni d'uso   (redazione)
+    - Prove Software      (vari autori)
+    - Hardware            (a cura di Fernando Carello)
+    - Telematica          (a cura di Luciano Giustini)
+    - Audio               (a cura di Paolo Lo Giacco)
+    - Virus               (a cura di Luca Sambucci)
+    - UNIX                (a cura di Andrea Ferraris)
+    - Amiga               (a cura di Marco Iannazzi)
+    - OS/2                (a cura di Giuseppe Casarano)
+    - Windows             (a cura di Luciano Giustini)
+    - Ludareas            (a cura di Valerio Puddu)
+    - Programmazione      (a cura di Leonardo Serni)
+    - Psicologia          (a cura di Annamaria Marini)
+
+
+    LA TAVOLA DATI
+    - Glossario Generale
+    - Internet ID (Volume 1: FTP, telnet, IRC; Volume 2: WWW)
+    - Legislazione
+    - Mondo online: i fornitori di servizi, i costi, le tariffe TELECOM, ecc.
+    - Arte e Comunicazione (a cura di Stefano Colonna)
+    - Annunci (compro-vendo), Andamento del mercato.*
+
+
+  Il numero di Gennaio/Febbraio 1995  (pre-release)  e'  reperibile  col  nome
+ "beta0195.zip" (formato WinHelp) presso:
+
+ - tutti i nodi del circuito ISN
+ - Fidonet:       2:335/348 (SPQR BBS, di supporto - f'req magic BETA)
+                  2:335/336 (SIERRA BBS - f'req magic BETA)
+                  2:333/201 (Family Size BBS)
+                  2:335/232 (ItalTec BBS)
+ - Caesarnet:     175:391/1 (f'req magic BETA)
+                  175:391/6
+ - inoltre:       Agora' Telematica
+                  MC-Link
+                  HeavyFun BBS
+ - Internet:      (**)
+                  (maya.dei.unipd.it/pub/incoming)
+
+
+
+ * settori non ancora attivati in questo numero
+ ** siti in via di definizione
+
+ ---------
+ a cura del coordinamento di BETA
+
+
+
+
+
+
+
+ Luciano Giustini e' reperibile presso Fidonet al.  .  .2:335/336.26
+                  o in Internet all'indirizzo .  .  .  .mc5307@mclink.it
+                  oppure .  .  .  .  .  .  .  .  .  .  .lss.@excalhq.it
+
+ Fernando Carello e' reperibile presso Fidonet al.  .  .2:335/348.100
+                  o in Internet all'indirizzo .  .  .  .F.Carello@agora.stm.it
+
+
+
+ Revisione 1 del 25/03/95
+ [NdE: watz! questa si che e' organizzazione!!]
+
+
+
+
+
+
+
+
+
+
+
+ ############ Le riviste delle reti                                         ###
+ ###   4  ###                                              BTW (ByTheWIRE)  ###
+ ############                                              Carmelo Saraceno ###
+
+ Riassunto:
+
+         Ed eccoci al BTW.
+
+         Ho avuto un'*interessante* telefonata  con  Carmelo.   Breve  per  via
+        della mia bolletta, gia' stratosferica.
+
+         Comunque *massimo rispetto*.  Abbiamo parlato male di tutte le riviste
+        italiane  del  settore,  della  'concorrenza', del fatto che nessuno e'
+        serio ne' professionale; che si  stava  meglio quando si stava peggio e
+        via discorrendo.
+
+         E' rimasto un po' impressionato dal nostro 'sacro fuoco': quasi 5 anni
+        che andiamo avanti con 'sta menata di Telem...  mah!
+
+         Tra l'altro mi fa':"ma chi e' 'sto .mau.?  tutti in rete qui lo stanno
+        votando...  boh!"
+
+         PuntomauPunto.  Ma un mito, perdiana.  Un mito!!  *:)
+
+ ------------------------------------------------------------------------------
+
+
+                                   ByTheWIRE
+
+
+  ByTheWIRE e' una pubblicazione elettronica bisettimanale in  lingua  italiana
+ destinata agli utenti della reti Internet nata con una triplice finalita'.
+
+  Essa intende infatti fungere da punto  di  riferimento  per  la  sempre  piu'
+ numerosa   utenza  italiana  di  Internet,  offrire  agli  italiani  residenti
+ all'estero o ai cittadini  stranieri  di discendenza italiana un'occasione per
+ poter leggere qualche pagina nella loro lingua o in  quella  dei  loro  padri,
+ portare  un  modesto  contributo  alla  causa  della  maggiore  visibilita' su
+ Internet delle iniziative realizzate in lingue diverse dall'inglese.
+
+  Il progetto editoriale di ByTheWIRE nonche' la redazione di buona parte degli
+ articoli   pubblicati   sono   frutto   del   lavoro   di   Carmelo   Saraceno
+ <mel@audipress.inet.it>,  un  giornalista   indipendente   che  ha  all'attivo
+ collaborazioni con numerose riviste  italiane  ed  estere  e  che,  nella  sua
+ attivita'  professionale, si occupa prevalentemente di divulgazione su temi di
+ natura tecnica.
+
+  [N.d.E.: Tra le riviste ricordo:  Audio  Review,  Suono, Musica & Dischi, Pro
+ Sound News, Radio World, TVB Europe, Tecno Show, Monitor; solo per  citare  le
+ prime che mi vengono alla mente.]
+
+  In  ossequio  al  principio  della  libera  circolazione  delle informazioni,
+ ByTheWIRE viene distribuita gratuitamente.
+
+  Per ricevere con regolarita' ogni  nuovo numero occorre poter usufruire della
+ posta elettronica Internet ed essere iscritti alla mailing-list BTW-L.
+
+  Per  perfezionare  l'iscrizione  alla  mailing-list  e'  necessario   inviare
+ all'indirizzo <majordomo@inet.it> un messaggio contenente il comando SUBSCRIBE
+ BTW-L.
+
+  Oltre  che nella versione ASCII distribuita attraverso la mailing-list BTW-L,
+ ByTheWIRE viene pubblicata anche in una versione HTML che consente di accedere
+ direttamente alle risorse citate  nel  testo  degli articoli.  [N.d.E.: Per il
+ momento il file HTML lo si  puo'  consultare  in  linea  dalla  Home  Page  di
+ ByTheWIRE (http://www.inet.it/btw/home.html).]
+
+  Un  archivio  ftp  dei  numeri  arretrati e' stato predisposto presso il sito
+ ftp.csp.it (directory /pub/btw).  Un ulteriore punto di accesso a ByTheWIRE e'
+ rappresentato  dal   gopher   del   Dipartimento   di   Lingue  e  Letteratura
+ dell'Universita' dello Utah.
+
+  Le relative URL sono:
+
+    http://www.inet.it/btw/home.html (Home Page)
+    http://www.inet.it/btw/current.html (numero piu' recente)
+    ftp://ftp.csp.it/pub/btw
+    gopher://italia.hum.utah.edu:70/1D-1:2938:05ByTheWIRE%09%09+
+
+  Per facilitare  l'accesso  alla  risorsa  da  parte  delle  persone  che non
+ dispongono  di  un  "account"   Internet,   l'editore   ha   organizzato   una
+ distribuzione  parallela  presso  alcuni  dei  piu' diffusi sistemi telematici
+ italiani.
+
+  Trattandosi di  un'iniziativa  senza  fini  di  lucro,  ByTheWIRE conta sulla
+ collaborazione di tutti i suoi lettori, assidui o occasionali che  siano,  per
+ aumentare  la  sua diffusione oltre i confini della mailing-list BTW-L e della
+ stessa utenza Internet.
+
+  A tutt'oggi gli iscritti alla  mailing-list  BTW-L sono all'incirca 1100.  Il
+ ritmo di crescita e'  di  circa  150  nuove  iscrizioni  alla  settimana.   La
+ maggioranza  sono  ovviamente italiani, ma gli stranieri sono piu' numerosi di
+ quanto si potrebbe pensare.
+
+  In realta' pero'  il  numero  dei  lettori  e'  molto  piu'  ampio perche' la
+ newsletter e' disponibile presso una miriade di BBS grandi e piccine ed  anche
+ su online service come CompuServe.
+
+  Vorrei  anzi approfittare di questa occasione per ringraziare tutti quanti si
+ sono adoperati per  rendere  possibile  questo  piccolo miracolo senza neppure
+ conoscermi di persona.
+
+  Ferma restando la proprieta' editoriale  dei  contenuti  della  rivista,  gli
+ articoli  originariamente  apparsi  su  ByTheWIRE  possono venire riprodotti o
+ citati all'interno di  altre  pubblicazioni  a  condizione  che la fonte venga
+ espressamente citata e che  l'iniziativa  in  questione  non  abbia  finalita'
+ commerciali.
+
+  Viene  invece  fatto  espresso  divieto  di  redistribuire  singoli  numeri o
+ raccolte della pubblicazione attraverso  supporti  come  floppy disk, CD-Rom e
+ simili qualora gli stessi siano posti in vendita ad un prezzo eccedente quello
+ strettamente necessario a coprire le spese di duplicazione e distribuzione.
+
+  Commenti, indicazioni, suggerimenti o anche contributi di  natura  editoriale
+ sono  estremamente ben accetti e possono venire inviati all'indirizzo Internet
+ <mel@audipress.it>.
+
+   [N.d.E.]
+ > Solo una cosa: dove stai andando?  sei contento  dei risultati fin qui
+ > conseguiti?  hai un grosso feed-back dai lettori?  Lamentele varie?
+
+  Dove sto andando e' proprio una bella domanda.
+
+  ByTheWIRE e' nato come una sorta di esperimento e la risposta e' andata al di
+ la' di ogni possibile previsione.  Credo  che l'iniziativa sia nata al momento
+ giusto e che abbia colmato un vuoto evidente.
+
+  Credo di essere riuscito a comunicare all'esterno l'entusiasmo per quello che
+ facevo e credo che questo sia stato uno dei  fattori  che  maggiormente  hanno
+ contribuito al successo dell'iniziativa.
+
+  Un  altro  aspetto  importante e' stato il supporto che ho avuto da I.NET, la
+ societa' attraverso la quale accedo alla  rete che ha creduto nel progetto che
+ ho sottoposto loro e mi ha messo a disposizione gli  strumenti  necessari  per
+ farlo crescere.
+
+  Mi  auguro  di  poter  continuare  a  trovare  il  tempo  per occuparmi della
+ newsletter e non ho intenzione di trasformarla in un'iniziativa a pagamento se
+ questo  e'  quello  che  sei  interessato   a  sapere.   [N.d.E.:  no,  ma  e'
+ interessante lo stesso *:) ]
+
+  Ci sono in cantiere delle iniziative che dovrebbero concretizzarsi intorno  a
+ Settembre, ma per il momento non vorrei anticipare nulla.
+
+  Mi   piacerebbe   riuscire  a  trasformare  ByTheWIRE  in  una  pubblicazione
+ settimanale e sto cercando di mettere  assieme un gruppo di persone disposte a
+ collaborare.
+
+  Il feedback dei lettori e' stato un incentivo fortissimo.
+
+  Ricevo con regolarita'  lettere  di  apprezzamento  ed  inviti  a  proseguire
+ nell'iniziativa  ed  ho  anche  un paio di "kritici" pronti ad impallinarmi al
+ minimo errore.  Cerco di  rispondere  a  tutti  anche  se trovare il tempo per
+ farlo diventa sempre pie' difficile.
+
+  Lamentele direi proprio di no.  [N.d.E.: forse perche' non te le cerchi *:)]
+
+  Qualcuno ogni tanto mi fa notare che  la  rivista  dedica  troppo  spazio  ai
+ servizi  basati sul WWW ma in realta' piu' che una scelta editoriale si tratta
+ di una conseguenza del  fatto  che  almeno  l'80% delle nuove risorse Internet
+ oggigiorno e' rappresentato da pagine Web.
+
+  Molti vorrebbero che la versione  HTML  venisse  distribuita  attraverso  una
+ autonoma mailing list e non e' detto che la cosa non possa essere fattibile.
+
+
+
+                                                               Carmelo Saraceno
+                                                               ByTheWIRE Editor
+                                                               mel@audipress.it
+
+
+
+
+
+
+ ############ Le riviste delle reti                                         ###
+ ###   5  ###                                     CT (Corriere Telematico)  ###
+ ############                                     The Spy (Andrea Cassola)  ###
+
+ Riassunto:
+
+        Ed eccoci ai nemici! *:)
+
+        In realta', lasciatemelo  dire,  e'  una  splendida  rivista.  Forse la
+       migliore.
+
+        Eppure anche lei le sue pecche le ha.
+
+        Ecco cosa - tempo fa - mi invio'  il  buon  .mau.,  ed  ecco  cosa  gli
+       riferi' il *buon* The Spy.
+
+ ..............................................................................
+
+ From : Maurizio Codogno                    2:334/100       12 Dec 94  23:33:08
+ To   : Renato Rolando                      2:334/100.9
+ Subj : la risposta del Corriere Telematico
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ From andy.cassola@altair.it Wed Nov 23 13:12 MET 1994
+ From: andy.cassola@altair.it (Andy Cassola)
+ Subject:  Re: CORRIERE TELEMATICO DI NOVEMBRE (indice)
+ Date: Tue, 22 Nov 1994 17:50:00 GMT
+ Organization: Altair Data System BBS Milano Italy + 39 2 6420515
+ To: mau@beatles.cselt.stet.it
+ Content-Type: text
+ Content-Length: 2453
+ Status: RO
+ X-Lines: 53
+
+
+ MA GUARDA UN PO' COSA MI TOCCA ANCHE QUOTARE....
+ No  dico,  tu  pensa  se  mau@beatles.cselt.stet.it  doveva  proprio parlare a
+ andy.cassola@altair.it di "CORRIERE TELEMATICO  D"  !?!?  Come sono cambiati i
+ tempi
+
+
+ M>>         # #########  Numero 12 - Novembre 1994   #
+ M>>         ##########################################
+ M>>         #        LA PRIMA RIVISTA ITALIANA       #
+ M>>         #        DEDICATA ALLA TELEMATICA        #
+ M>>         ##########################################
+
+ M>Non e` la prima. Rivendico il diritto di precedenza per telematicus (il cui
+ M>numero 0 e` uscito nel novembre 1990).
+
+ mi sembra che  telematicus  sia  legato  a  Fidonet  e  tratti  di  tutt'altri
+ argomenti.....  se mi sbaglio mandamene una copia...  :-)
+
+ comunque  non  penso  che  sia  tanto  grave  se  lo scriviamo pure noi ...  o
+ comunque basta poco per fare che siano diversi...
+
+ Potrei metterci DEDICATA ALLA TELEMATICA ITALIANA.....
+ oppure DEDICATA AL MONDO DELLE BBS...... :-)
+
+ Ah gia' che mi hai contattato....   che  ne dici di parlare di telematicus sul
+ prossimo CT ?  magari fai un bell'articolino, dici com'e'  nato,  di  cosa  si
+ occupa e dove si puo' prelevare...  che ne dici ?
+
+ Odio  le  concorrenze  inutili...   se proprio proprio vi da cosi' fastidio il
+ logo lo possiamo anche cambiare...  La telematica italiana gia' siccome per le
+ troppe concorrenze stupide che ci  sono  tra  i  sysop  e i net per crescere e
+ proteggervi da altri colpi abbiamo bisogno di stare uniti..
+
+ ##########################################  ************************
+ ####     ####   ###  ##     ###  ####  ###  * Proudly supporting   *
+ ###  ###  ###    ##  ##  ##  ###  ##  ####  * The ALEXANDRIA GRAYS *
+ ###       ###  #  #  ##  ##  ####    #####  * in the MFL FFLeague  *
+ ###  ###  ###  ##    ##  ##  #####  ######  ************************
+ ###  ###  ###  ###   ##     ######  ######     INTER F.C. OFFICIAL
+ ##########################################          SUPPORTER
+
+ (Direttore del Corriere Telematico)            /////////////////////
+   InterNet  andy.cassola@altair.it             /    LA LEGGE E'    /
+     RV-Net  94:2000/2.2        The Spy         /  UGUALE PER TUTTI /
+    EuroNet  230:1001/105.3     Andrea Cassola  /////////////////////
+       Itax  70:100/1.2         The Spy
+ ChronosNet  66:392/28.1        The Spy         --> SUPPORTA ALCEI <--
+ Coming soon : FidoNet, PeaceLinnk e Cybernet
+ ---
+  * Apex v4 * Errare e' umano. Dare la colpa ad un altro di piu'.
+  * *** LA LEGGE E' UGUALE PER TUTTI ***
+
+ ..............................................................................
+
+                Ed il buon Andy - hem,  The  Spy - avendo capito che .mau.  non
+       era *assolutamente* spiaciuto della cosa...  beh, l'ha lasciata!
+
+        Ammirevole.
+
+        Comunque,  come  direbbe  mia  nonna,  la  vita  e'  una gran baldracca
+       (chissa' perche' oggi continuo a pensare alle baldaracche).
+
+         Mentre il buon  The  Spy,  gentilissimo  e deisponibilissimo (ci siamo
+        anche sentiti au telephone) mi ha scritto cio':
+
+
+  Ti  mando l'articolo ....  l'ho scritto tutto d'un botto...  magari rileggilo
+ se ci sono errori :-)
+
+  Ovviamente mi aspetto anch'io un articolo su Telematicus.
+  [N.d.E.: ovviamente! *:) ]
+
+ ------------------------------------------------------------------------------
+
+
+                              CORRIERE TELEMATICO
+
+
+  Il CT nasce nel 1992 (a Settembre)  da  un'idea e una speranza dello Staff di
+ Rendez Vous BBS di Milano.
+
+  Ci si era resi conto infatti come le BBS, in  genere,  fossero  delle  "isole
+ felici",  belle e divertenti si, ma isole (non migliorate dall'aggregazione in
+ net i quali, usando la stessa analogia, erano degli arcipelaghi).
+
+  Questo isolamento portava (e porta) una completa ignoranza da parte di utenti
+ e sysop degli avvenimenti delle altre  BBS.   Il CT si proponeva all'inizio di
+ essere il tramite di queste diverse realta' milanesi mettendo  in  un  file  i
+ messaggi  piu'  belli,  l'apertura  di  una  nuova BBS, ampliando argomenti di
+ interesse comune.
+
+  Nel '92 il  CT  fece  solo  3  uscite  e  il  direttore (Nietsche) lascio' il
+ progetto.
+
+  Dopo aver visto i primi 3 numeri mi decisi di riprendere il progetto con  gli
+ stessi  obiettivi  (Settembre  '93).  Le BBS a Milano sembrano entusiaste e ci
+ danno il pieno appoggio.
+
+  Pian piano  il  CT  si  concretizza  e  diventa  un  punto  d'appoggio per la
+ telematica  milanese;  mentre  gli   argomenti   fin'ora   trattati   andavano
+ esaurendosi  il  CT si dava da solo un nuovo obiettivo: informare.  Gli utenti
+ richiedevano sempre di piu' notizie  sul  loro  mondo in generale.  Con grande
+ sorpresa di tutti il CT piaceva sempre  di  piu'  ed  iniziava  ad  uscire  da
+ Milano....
+
+  Un  tragico  evento per la telematica italiana fu il trampolino di lancio del
+ CT su base nazionale: il  12  Maggio  inizio' l'Italian Crackdown (o FidoBust)
+ che mettera' in subbuglio tutta la nazione telematica.
+
+  Questo  tragico  evento  rivelo'  al  CT  tutte  le  sue  potenzialita'  come
+ informatore per gli utenti telematici e con 2  numeri  speciali  ogni  utente,
+ sebbene  estromesso  da  tutte  le  aree  sysop o magari non linkato con i net
+ importanti, pote' sapere per tempo cosa stava effettivamente succedendo.
+
+  In poco tempo  riuscimmo  a  mettere  in  piedi  una  catena di distribuzione
+ capillare inimmaginabile solo 3/4 mesi prima.
+
+  Oggi il CT non ha cambiato obiettivi e mira sempre a fare da tramite  per  le
+ "isole  felici"  anche se la popolarita' ha ovviamente portato con se maggiore
+ esigenza da parte dei lettori  e  le  ore  mensili da dedicare a questo nostro
+ hobby diventano sempre di piu' e sempre piu' difficile diventa  trovare  nuovi
+ argomenti su cui scrivere.
+
+  Oggi  sul  CT  si  possono  trovare  articoli,  oltre  che  degli avvenimenti
+ politico/giudiziari/mondani   della   telematica   italiana,   di  letteratura
+ Cyberpunk, Realta' Virtuale, recensioni software e  hardware  e  dei  racconti
+ scritti da utenti telematici.
+
+
+
+                                           The Spy
+                                           (Direttore del Corriere Telematico)
+                                 InterNet  andy.cassola@altair.it
+                                   RV-Net  94:2000/2.2        The Spy
+                                  EuroNet  230:1001/105.3     Andrea Cassola
+                                     Itax  70:100/1.2         The Spy
+                               ChronosNet  66:392/28.1        The Spy
+                                           [NdE: etc. etc.]
+
+
+ Potete trovare il CT sulle BBS collegate alle reti :
+
+   EuroNet, P-Net, PeaceLink, Itax, MultiNet, ChronosNet, CyberNet e RV-Net.
+
+ Potete F'requestare il CT allo 02/603417 (magic word CT)
+ Oppure potete trovarlo in WWW all'URL
+
+   http://wrcm.usr.dsi.unimi.it/ct.htm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############ Le riviste delle reti                                         ###
+ ###   6  ###                                               Fear            ###
+ ############                                               Giulio Cipriani ###
+
+ Riassunto:
+
+         Ecco cosa invece mi scrive il vecchio Giulio, mo' vedi un po' tu e fai
+        quello che vuoi, la mia fiducia in te e' sconfinata!  *:)
+
+        Sono commosso!
+
+          Puo' andare?  Se non va bene, modificalo pure..  tanto oramai un'idea
+          della fanzine te la sei fatta anche tu :-)
+
+          Ciao ciao
+
+ ------------------------------------------------------------------------------
+
+
+                                      FEAR
+
+
+  Fear e' una fanzine di diritto telematico diffusa a mezzo BBS.
+
+  Nasce nel febbraio 1995 su idea di G.Cipriani (sysop  di  Dark  Moon  BBS  di
+ Seveso-Mi).
+
+  Lo  scopo  della  fanzine  e'  di diffondere nel nostro ambiente una maggiore
+ cultura relativamente alle legge o alle regole in vigore nel nostro paese.
+
+  Infatti in questo ambito vi  e'  molta  disinformazione e, dal momento che la
+ questione e' estremamente delicata e soprattutto pericolosa (dal  momento  che
+ molte leggi prevedono anche la reclusione), e' bene ampliare il piu' possibile
+ la cultura personale dei cittadini telematici in relazione a questi argomenti.
+
+  Ma nella fanzine non troverete solo leggi, anche interpretazioni delle stesse
+ a vari livelli.
+
+  La  fanzine  infatti e' trasparente e pubblica le idee ed i punti di vista di
+ tutti.
+
+  Cosi' potrete trovare sia l'articolo del legislatore o dell'organo incaricato
+ di far rispettare la legge, come l'articolo di chi la legge la deve rispettare
+ o la viola (proprio per far capire come la pensano le persone e cosa le spinge
+ a determinati comportamenti).
+
+  Alla stesura della  fanzine  partecipano  molti collaboratori occasionali tra
+ cui  esperti  di  diritto  informatico,  avvocati  e  operatori  del   settore
+ telematico.
+
+  Per  ulteriori  informazioni,  potete  contattare:
+
+            G.C.  Cipriani su Dark Moon BBS, +39-362-541380
+                                             +39-362-540831
+
+  dove  troverete  anche tutti i files sinora distribuiti nell'area LegalBBS di
+ MultiNet
+
+  Indirizzi telematici:      MultiNet   19:1001/1000
+                             FidoNet    2:331/344
+
+
+                                                                * Giulio *
+                                                                Giulio Cipriani
+                                                                2:331/344
+
+ ############ Parte IX                       Un network al mese...  o quasi ###
+ ###   7  ###                         Internet provider in Italia : MC-LINK ###
+ ############                                                 Stefano Costa ###
+
+ Riassunto:
+
+         Il buon Costa2 continua a cercare  il  suo nido ed e' andato a finire
+        dai 'Romani de Roma'.
+
+         E'  finito  a  casa   della   rivista   italiana   piu'   banfona   &
+        autocelebrativa  d'Italia:  ogni  10  number  sparano  una ricorrenza.
+        Mitici!
+
+         Tra l'altro si sussurra  non  siano  poi  cosi' ferrati come vogliono
+        apparire; ma queste sono pure malignita' e vengono riportate solo  per
+        dimostrare che nessuno e' mai contento di nulla. *:)
+
+         Grazie Stefano!
+
+ ------------------------------------------------------------------------------
+
+                        Un network al mese....o quasi
+
+                         Internet provider in Italia
+
+                                   MC-LINK
+
+
+  Eh si, ve lo aspettavate prima o poi.
+
+  La piu' nota BBS nostrana e' alla disanima come internet provider.
+
+
+                           Ma cominciamo dall'inizio.
+
+
+  L'inizio si apre in edicola, con  l'offerta  di  un mese gratis su internet a
+ cura di MC-Link (d'ora in poi MCL).
+
+  In effetti la mia concezione di gratis e quella di MC non sono  assolutamente
+ compatibili:  far  pagare  lire 24.900 per un disco da 1.44M (Lire 1000, ma in
+ quantita' 900) ed un libricino da  40  pagine,  e dire che lo si offre gratis,
+ beh, questa e' buona!
+
+  Fra l'altro, se si divide il costo dell'abbonamento annuo (216.000 lire)  per
+ 12, si ottiene...  18.000!!!
+
+  Et voila'!
+
+  Ad  ogni  buon  conto,  per  vedere come era il servizio in prima persona (ho
+ sfruttato per un po'  l'account  di  un  mio  amico)  ho  comprato il disco, e
+ seguito le istruzioni.
+
+  In primis c'e' da compilare un modulo,  e  qui  si  vede  che  so'  de  Roma:
+ burocratese spinto.
+
+  Fra  l'altro, proprio per la scarsa chiarezza dello stesso, l'ho compilato in
+ modo  scorretto  ed  una  segretaria  di  MC  mi  ha  telefonato  indietro per
+ chiarimenti :-).
+
+  Poi bisogna telefonare a Roma, direttamente a  MCL  in  commutata,  dato  che
+ l'abbonamento  con  Itapac  non  viene  attivato  se non dopo aver ricevuto il
+ numero della carta di credito.
+
+  Qui avviene la registrazione,  compilando  un  modulo  piuttosto lungo (ed in
+ teleselezione al massimo della tariffa non e' proprio bello).
+
+  Mi dovrebero spiegare perche' mi vengono chiesti alcuni  dati  gia'  presenti
+ nel modulo cartaceo d'iscrizione.  Mah.
+
+  Dopo una settimana, nel mio caso, si e' abilitati ad usare Itapac.
+
+  Dico subito che ho utilizzato MCL in maniera piuttosto spinta, sia in termini
+ di  ore di utilizzo (circa 8 ore di collegamento in un mese, niente male), sia
+ nell'uso dei comandi.
+
+  Innanzitutto la qualita' della connessione con internet e' discreta.  E' vero
+ che andando a 2400 (ITAPAC) non  si  puo'  fare  un gran test di velocita', ma
+ almeno vedere il tempo di risposta nei programmi interattvi (FTP,TELNET) si'.
+
+  Premetto che quasi tutti i miei collegamenti li ho fatti  di  sera  (dopo  le
+ 21.00)  e  qualche  volta il sabato pomeriggio.  Non ho riscontrato differenze
+ significative nei due casi.
+
+  Ho poi provato una volta  la  connessione  in  commutata col mio Zyxel 16800.
+ Discreto il throughput nel  download  (anche  se  non  eccezionale),  scattoso
+ invece l'update dei menu (e questo e' funzione del carico del sistema, a volte
+ pesante).  Premetto che ho dovuto penare non poco per trovare la linea libera.
+ In tutto ho pagato poco piu' di 10.000 per tutto il traffico ITAPAC generato.
+
+
+                            L'interfaccia di MC-LINK
+
+
+  Al  contrario  di  molti  altri  IP,  MCL  utilizza  un software proprietario
+ (scritto da Bo Arnklit originariamente in  Turbo Pascal, convertito in C sotto
+ UNIX oggi come oggi), e come tale utilizza soluzioni  differenti  dalla  norma
+ per l'interfaccia utente.
+
+  Onestamente  i  menu  non  sono il massimo della chiarezza, ed un utente alle
+ prime armi non e' per niente facilitato nell'opera.
+
+  Tuttavia, dopo un primo  ambientamento  ci  si  trova (abbastanza) bene.  Una
+ nota positiva e' che, essendo i testi dei menu piuttosto scarni, sotto ITAPAC,
+ che si paga a numero di segmenti (byte) trasferiti, si ha l'indubbio vantaggio
+ di risparmiare soldi.
+
+
+                        I comandi internet utilizzabili
+
+
+  FTP,TELNET,HyperTelnet,Indica  (sigh!   traduzione  italiana  di  FINGER...),
+ GOPHER, LYNX, PING, ARCHIE, newsgroups e connessione SLIP.
+
+  Subito  all'inizio  ho  avuto  un  problema:  non riuscivo a collegarmi a BIX
+ tramite TELNET.  Quando si  fa  TELNET  viene  visualizzata  una serie di host
+ (quelli piu' famosi) tra i quali appare anche BIX.  Naturalmente e'  possibile
+ fare TELNET su un qualsiasi sito, ma il menu' e' delle volte piu' pratico.
+
+  Manco  a  dirlo  l'entry  per BIX era talmente tanto usata che era sbagliata!
+ Per cui selezionando la voce BIX dal  menu di TELNET di MC-LINK si generava un
+ bel connection failed.
+
+  Inutile dire la mia incazzatura: fortunamente debbo dire  che  i  sysoppi  di
+ MC-LINK  sono  abbastanza  disponibili,  nonostante  la  mole  di utenti a cui
+ badare.  Ed ecco, finalmente dopo  tre  giorni di bestemmie, funzionare BIX da
+ MCL con il menu...
+
+  FTP scarica i files  in  maniera  leggermente  diversa  dallo  standard.   Il
+ download  dei  files  inizia  subito  dall'host  FTP  chiamato  ad  MCL con la
+ velocita' della rete in quel momento.
+
+  Poi, avviene lo scarico tra MCL ed il  nostro PC a casa.  Una nota di colore:
+ sconsiglio MCL agli appassionati di materiale hard con problemi di pudore.  E'
+ possibile infatti vedere la lista dei files scaricati via FTP nella  giornata,
+ e fare un quick download dei files presenti se si vuole, senza usare FTP.
+
+  Questo  sistema  e'  stato  pensato  soprattutto  come  estremo  tentativo di
+ recuperare larghezza di  banda  nella  connessione  di  MCL con internet (gia'
+ dimenticavo, e' una linea 64K).
+
+  Certo che se uno si scarica la directory di alt.sex.teen.binaries puo' essere
+ imbarazzante :-).
+
+  Archie e' di una lentezza esasperante, e questo  purtroppo  non  e'  solo  un
+ problema  di MCL.  Quello che non mi piace e' che non e' possibile cambiare le
+ impostazioni nella ricerca dei filenames (se case sensitive o meno, fino ad un
+ massimo di N ricerche, confinate  ad  un certo host...), cosa invece possibile
+ su BIX.
+
+  LYNX e' il sostituto di Mosaic in modalita' testo, in modo da usufruire delle
+ varie pagine WWW anche da MCL (a prezzo di perdersi la grafica ultra slurp dei
+ vari  siti).   E'  altresi`  possibile  collegarsi  in   SLIP,   senza   alcun
+ sovrapprezzo,  anche  se  le prestazioni sono ai tacchi, e' l'unico provider a
+ fare cio' senza far sganciare palanche addizionali alla BBS.
+
+  E non e' poco.
+
+  Tenete presente tuttavia, che  se  non  utilizzate  il  servizio in urbana in
+ commutata, vi svenate e non godete delle bellezze del WWW.
+
+
+                                    La posta
+
+
+  La gestione della posta sotto MCL e' buona.
+
+  E' possibile zippare in automatico tutta la posta non letta, sia internet che
+ interna a MCL, e sono disponibili dei Offline mail reader  completi  specifici
+ per  MC  Link  sia  sotto Windows che OS/2.  Che mi consti e' l'unico provider
+ italico a fare cio'.
+
+  Anche i newsgroups possono essere archiviati alla stessa maniera.
+
+  Eccezionale!
+
+
+                                Tirando le somme
+
+
+  Punti forti:
+              gestione della posta, costi bassi di esercizio,  possibilita'  di
+              usare SLIP senza sovrapprezzo.
+
+  Punti medi:
+              supporto utenti, alcune aree messaggi relative a MC Microcomputer
+              e riviste sorelle.
+
+  Punti deboli:
+              so' de Roma (nel senso che hanno un unica porta in commutata li',
+              e  se  la tirano un casino), software di BBS non proprio limpido,
+              aree messaggi locali globalmente scarse e piene di principianti.
+
+
+
+
+                                                     Stefano Costa2
+                                           Fidonet:  2:331/128, oppure 2:331/306
+                                           Euronet:  230:1012/101
+                                           Cybernet: 65:1200/5
+                                           Internet: scosta@bix.com
+
+
+
+   Potete usare PGP con la mia chiave pubblica, tenendo presente che in Fido la
+ crittazione  e'  tollerata  od  addirittura  avversata  da  certi  sysop.  Per
+ qualsiasi motivo (ivi  compreso  il  sacrosanto  diritto alla privacy) usatela
+ pure.  Meglio se in Internet, Euronet, Cyber...
+
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: 2.3
+
+  mQCNAi7l2QMAAAEEANTwCQJBuNU85XUHFosIFBhjeG776cNqP+Z96w32V/g5UwtO
+  I62x5TOOV61s/hNRvZpB3KIhmaAJ/X/roCDOS/1kZZuO1NWEZd6soXEnPUgiiht8
+  gvwJPt2EzUwfsA8gwpvkVxwVu8a3FJkvlLC2FKviuUZMWvHI1YnTXNgS/cWJAAUR
+  tB5TdGVmYW5vIENvc3RhIDxzY29zdGFAYml4LmNvbT4=
+  =ag8o
+  -----END PGP PUBLIC KEY BLOCK-----
+
+
+ ############                                                               ###
+ ###   8  ###                                    IL GERGO HACKER - PARTE 42 ###
+ ############                                    Eric S. Raymond & .mau.    ###
+
+ Riassunto:
+
+         Eccoci alla nuova fatica  di  .mau.,  il  nostro  inossidabile  ha  il
+        coraggio di mandarci questo terribile avviso:
+
+           Dopo  di  questa  ci sono ancora tre puntate e l'alfabeto e' finito.
+           Ma poi ci sono le appendici :-)
+
+         In realta' la nostra scommessa e'  di  tenere Telem in vita finche' ci
+        sara' il Jargon. Poi... l'agognato riposo!! *:)
+
+ ------------------------------------------------------------------------------
+
+                                 {= U =}
+
+    <UBD> [abbreviazione per "User Brain Damage"] Un'abbreviazionwe  usata  per
+ terminare  i  rapporti  di chiamata ovviamente dovuti alla stupidita' da parte
+ dell'utente.  Confr.  <PBD>; vedi anche <brain-damaged>.
+
+    <under the hood> prep.   [gergo  di  chi  trucca  le  auto: lett.  sotto il
+ cappuccio.  Si potrebbe rendere con "sotto sotto" o "qui sotto"] 1. Usato  per
+ passare  a parlare della implementazione sottostante di un prodotto (hardware,
+ software o  un'idea).   Implica  che  l'implementazione  non e' intuitivamente
+ ovvia dall'apparenza, ma chi parla sta per dare un'illuminazione <zen>  a  chi
+ ascolta.   "Guardiamo  ora u.t.h.  per vedere come..." 2. Puo' anche implicare
+ che  l'implementazione  e'   molto   piu'   semplice   di  quanto  l'apparenza
+ indicherebbe, come in "U.t.h., stiamo semplicemente facendo un fork/exec della
+ shell".  3. All'interno della macchina, come in  "U.t.h,  questo  coso  ha  un
+ 68030 a 40 MHz!"
+
+    <uninteresting>  agg.   [non interessante] 1. Detto di un problema che, pur
+ essendo non  banale  (v.   <nontrivial>),  puo'  essere  risolto semplicemente
+ gettandoci abbastanza risorse.   2.  Detto  anche  di  problemi  per  cui  una
+ soluzione  non  avaanzerebbe  lo  stato  dell'arte  ne'  sarebbe divertente da
+ progettare  e  codificare.   I   veri   hacker   considerano  i  problemi  non
+ interessanti una intollerabile perdita di tempo, e che essi dovrebbero  essere
+ risolti dai comuni mortali.  Vedi <WOMBAT>, <SMOP>; opp.  <interesting>.
+
+    <UN*X> s. Usato per riferirsi al sistema operativo Unix (marchio registrato
+ e/o  copyright  AT&T)  quando  si  scrive,  evitando la noiosa scrittura (tm).
+ Usato anche per riferirsi  a  una  o  tutte  le  varianti di sistemi operativi
+ unixoidi.  Ironicamente, dal 1990 gli avvocati dicono che la richiesta  di  un
+ esponente tm non ha forza legale, ma l'uso con l'asterisco continua a rimanere
+ comune.  E' stato suggerito che ci potrebbe essere una connessione psicologica
+ con  la  pratica  di  certe  religioni  in cui il nome della deita' non e' mai
+ scritto completamente, come in JHWH o G-d.  Vedi anche <glob>.
+
+    <unwind the stack> [svolgere  lo  stack]  v.  1.  Si  parla di 'svolgere lo
+ stack' da una procedura chiamata alla chiamante quando durante l'esecuzione di
+ un linguaggio procedurale si butta via lo stack fino a  ritornare  al  livello
+ della  procedura  chiamante.   In  C  si  usa all'uopo longjmp/setjmp; in LISP
+ THROW/CATCH.  Questo e'  alle  volte  necessario  per gestire delle condizioni
+ eccezionali.  (errori...) Vedi anche <smash the stack>.  2. Anche per persone,
+ quando si trattano rapidamente molti  problemi  allo  stesso  tempo.   "Basta,
+ andiamo a pranzo.  Un attimo mentre scarico lo stack".
+
+    <UNIX> /yoo'niks/ [Dalle parole degli autori, "Un brutto gioco di parole su
+ MULTICS"]   s.  Un  popolare  sistema  operativo  interattivo  e  time-sharing
+ inventato originariamente nel  1969  da  Ken  Thompson  dopo  che  i Bell Labs
+ avevano abbandonato il progetto MULTICS, principalmente per giocare a SPACEWAR
+ su un PDP-7 abbandonato.
+  Dennis Ritchie, l'inventore del  C,  e'  considerato  un coautore.  La svolta
+ nella storia  di  UNIX  avvenne  nel  1974,  quando  fu  reimplementato  quasi
+ interamente in C, rendendolo il primo sistema operativo portabile in sorgente.
+ Vent'anni e molti cambiamenti dopo, UNIX e' il sistema operativo generico piu'
+ usato nel mondo.  Molta gente (v.  <UNIX weenie>) considerano cio' la vittoria
+ piu'  importante  dell'hackerismo  contro  l'opposizione dell'industria.  Vedi
+ <Version 7>, <BSD UNIX>, <USG UNIX>.
+
+    <UNIX conspiracy> [ITS] s. Secondo  una teoria cospirativa a lungo popolare
+ tra i fan di <ITS> e <TOPS-20>, la crescita di UNIX e'  il  risultato  di  una
+ trama portata avanti negli anni '70 ai Bell Labs, il cui scopo era di bloccare
+ i competitori della AT&T rendendoli dipendenti da un sistema la cui evoluzione
+ futura sarebbe stata sotto il suo controllo.
+  Cio'  sarebbe  stato  fatto  disseminando  un  sistema operativo che sembrava
+ economico e facilmente portabile, ma  era  in realta' altamente inaffidabile e
+ insicuro.
+  In questa  visione,  UNIX  era  stato  progettato  per  essere  uno dei primi
+ computer <virus>, anche se diffuso indirettamente dalle persone e dalle  forze
+ del  mercato,  piuttosto  che  direttamente via dischi e reti.  Gli aderenti a
+ questa teoria del "virus UNIX" amano citare il fatto che la ben nota citazione
+ "UNIX is snake oil"  fu  pronunciata  dal  presidente  della DEC Kenneth Olsen
+ subito prima che la DEC cominciasse a promuovere attivamente la  sua  famiglia
+ propria di workstation UNIX.
+
+    <unixism> s. Un pezzo di codice  o  di  tecnica  di  codifica  che  dipende
+ dall'assunzione  di  un  ambiente  multitask  protetto  con relativamente poco
+ overhead per il lancio  di  un  nuovo  processo,  che esiste sui sistemi UNIX.
+ Comuni unixismi comprendono: uso gratuito di 'fork(2)'; l'assunzione che certe
+ proprieta' non documentate ma ben note delle  librerie  UNIX  come  'stdio(3)'
+ siano   supportate   ovunque:  affidarsi  a  effetti  collaterali  oscuri  (v.
+ <obscure>) delle chiamate a  sistema,  tipo  l'uso di 'sleep(2)' con argomento
+ zero per avvisare lo schedulatore che si puo' lasciare agli altri  la  propria
+ parte di tempo macchina; l'assunzione che memoria appena allocata sia vuota, o
+ quella che non sia necessario fare un free() della memoria...
+
+    <UNIX weenie> [ITS: piccino UNIX] s. 1.  Gioco  di  parole  spregiativo  su
+ "UNIX  wizard"  [mago  UNIX]: termine comune tre gli hacker che usano UNIX per
+ necessita',  ma  preferirebbero  delle  alternative.   L'implicazione  e' che,
+ mentre la persona in questione puo' considerare la maestria negli arcani  UNIX
+ un'abilita'  da  maghi,  l'unica  reale  abilita' necessaria e' l'abilita' nel
+ tollerare, e  il  pessimo  gusto  nell'inghiottire,  l'incoerenza  e l'inutile
+ complessita che e' noto infestano molti programmi UNIX.  "Questo shell  script
+ cerca  di  parsare  i  suoi  argomenti  in 69 modi diversi.  Deve essere stato
+ scritto da un vero UNIX  w.".   2.  Termine  spregiativo per chiunque si lanci
+ nell'apprezzamento acritico di UNIX.  Si trova  spesso  nella  frase  "Stupido
+ UNIX weenie".  Vedi See <Weenix>, <UNIX conspiracy>.
+
+    <up> agg.  [su]  1.  Funzionante,  che  sta  girando.  "L'ascensore e' su".
+ <bring up> [portare su] v.: Creare una versione funzionante e  farla  partire.
+ "Hanno portato su un sistema che era giu'".
+
+    <upload>  /uhp'lohd/  [uppare: lett.  "caricare"] v. 1. Trasferire codice o
+ dati  da  un  piccolo  sistema  'client'   a  un  piu'  grande  'host'.   Opp.
+ <download>.   2.  [speculativamente]  Mandare  i  pattern  essenziali  e   gli
+ algoritmi  che  costituiscono  la  nostra  mente  dal  proprio  cervello in un
+ calcolatore.  Solo coloro  che  sono  convinti  che  tali  pattern e algoritmi
+ catturino la completa  essenza  dell'io  guardano  a  questa  prospettiva  con
+ tranquillita'.
+
+    <USENET>  /yoos'net/  o  /yooz'net/  [da  "Users'  Network"]  s. Un sistema
+ distribuito  a  messaggi   supportato   principalmente  dalle  macchine  UNIX,
+ internazionale in scopo e probabilmente  la  maggiore  fonte  di  informazione
+ non-profit  nel  mondo.  All'inizio del 1990 comprendeva oltre 700 argomenti e
+ fino  a  15  megabyte   di   nuovi  articoli  tecnici,  notizie,  discussioni,
+ chiacchiere e flames al giorno.  [NdT: oggi (meta'  1995)  viaggiamo  oltre  i
+ 3000 argomenti e 40 MB al giorno - .mau.] Vedi <newsgroup>.
+
+    <user>  [utente]  s.  1. Qualcuno che fa del "vero lavoro" col calcolatore,
+ che lo usa  come  mezzo  piuttosto  che  come  fine.   Chi  paga  per usare un
+ calcolatore.  Vedi <real user>.
+  2.  Un programmatore che credera' in tutto quello che gli dite.  Uno  che  fa
+ domande  stupide.   (Questo  e'  un po' cattivo.  La verita' e' che gli utenti
+ fanno domande per necessita'.  Alle volte sono profonde o interessanti.  Molto
+ spesso sono scoccianti o semplicemente stupide, probabilmente perche' l'utente
+ non ci ha pensato su per due  secondi o ha guardato la documentazione prima di
+ rompere le scatole al gestore).  Vedi <luser>.
+  3.  Qualcuno che usa un programma dall'esterno, per quanto abile  sia,  senza
+ entrare  nella  struttura del programma.  Uno che fa un bug report, invece che
+ fregarsene e correggerselo.  Fondamentalmente,  ci  sono due classi di persone
+ che lavorano con un  programma:  gli  implementatori  (hacker)  e  gli  utenti
+ (losers).   Gli  utenti sono considerati abbastanza male dagli hacker, perche'
+ non comprendono la piena ramificazione del sistema in tutta la sua gloria.  (I
+ pochi utenti che  lo  fanno  sono  noti  come  <real  winners>.) Il termine e'
+ relativo: un hacker consumato puo' essere un  utente  rispetto  a  un  qualche
+ programma  su  cui  non  fa degli hack.  Ad esempio, un hacker LISP e' uno che
+ mantiene un interprete/compilatore LISP, o  uno  che lo usa, ma con l'abilita'
+ di un hacker.  Un utente LISP e' uno che usa il LISP,  che  sia  abile  o  no.
+ C'e'  percio'  una  certa  sovrapposizione  tra  i  due  termini, e la sottile
+ distinzione deve essere risolta dal contesto.
+
+    <user friendly> agg.  Ostile al programmatore.   Generalmente  usato  dagli
+ hacker  in  tono  critico,  per  descrivere  dei  sistemi che tengono per mano
+ l'utente in maniera  cosi'  ossessiva  che  rendono  tragico  per  chi e' piu'
+ esperto riuscire a fare alcunche' di  utile.   Vedi  <menuitis>,  <drool-proof
+ paper>, <Macintrash>, <user-obsequious>.
+
+    <user-obsequious>  agg.   Forma  enfatica  di  <user friendly>.  Connota un
+ sistema cosi'  verboso,  inflessibile,  e  determinatamente  ingenuo da essere
+ praticamente inutilizzabile.  "Progettate un sistema che un qualunque  stupido
+ puo' usare e solo uno stupido vorra' usarlo".
+
+    <USG  UNIX>  /yoo-ess-jee yoo'niks/ s. Si riferisce alle versioni UNIX AT&T
+ dopo la <Version 7>, specialmente  System  III  e  System  V release 1, 2 e 3.
+ Chiamato cosi' perche' a quel tempo la squadra di supporto dell'AT&T era detta
+ lo 'UNIX Support Group'.  Vedi <BSD UNIX>.
+
+
+                                 {= V =}
+
+
+    <vanilla> agg.  Di tipo ordinario, standard.  Vedi <flavor>.  Quando  usato
+ per  il cibo, molto spesso non significa che al cibo e' aggiunto dell'estratto
+ di vaniglia!   Ad  esempio,  "vanilla-flavored  wonton  soup" (o semplicemente
+ "vanilla wonton soup") significa wonton soup ordinaria, piuttosto che bollente
+ e acida.  Applicato ad hardware e software.
+  Come in "Uno UNIX Version  7  vaniglia  non  gira  su un PDP 11/34 vaniglia".
+ Usato anche per ortogonalizzare la nomenclatura del TTL: ad esempio  un  74V00
+ e'  quello  che  la  TI chiama un 7400, in contrasto a un 74LS00, ecc.  Questa
+ parola differisce da <canonical>  perche'  quest'ultima significa "La cosa che
+ usi sempre (o il modo in cui lo fai sempre) a meno che tu abbia ottime ragioni
+ per fare altrimenti", mentre v. significa semplicemente  "ordinario".   Quando
+ ad  esempio  gli  hacker  [californiani  -  .mau.] vanno a un <Great Wall>, la
+ wonton soup canonica e' quella bollente  e acida (perche' e' quella che ordina
+ la maggior parte), anche se non e' quella v.
+
+    <vannevar>  /van'@-var/  s.  Una predizione tecnologica o previsto concetto
+ ingegneristico  completamente   sballato,   spec.    se   fallisce  per  avere
+ implicitamente  assunto  che  le   tecnologie   si   sviluppino   linearmente,
+ incrementalmente  e  isolatamente,  quando in realta' la curva tende ad essere
+ altamente nonlineare, le  rivoluzioni  sono  comuni,  e  la competizione e' la
+ regola.
+  Il protitipo e' stata la predizione di Vannevar Bush [NdT: ma chi diavolo e'?
+ Io  ho  appena  imparato  chi  sia  Rush  Limbaugh - .mau.  {NdE: potevi anche
+ renderci partecipi!} ] di  "cervelli elettronici" della dimensione dell'Empire
+ State Building, con un sistema di raffreddamento equivalente alle cascate  del
+ Niagara  per  le sue valvole e relay, quando i semiconduttori erano gia' noti.
+ Altri famosi v. sono stati le  memorie  magnetiche a bolle, le LISP machines e
+ un articolo della fine degli anni '70 che "dimostrava" che la massima densita'
+ possibile per i circuiti integrati era un valore inferiore a quello che cinque
+ anni dopo veniva tranquillamente raggiunto.
+
+    <vaporware> s. Prodotti annunciati molto in anticipo della loro  spedizione
+ effettiva (che non avverra' necessariamente, tra l'altro).
+
+    <var>  /veir/  o  /vahr/  s.  Forma  breve  di  "variable".  Confr.  <arg>,
+ <param>.
+
+
+                                           tradotto da .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+ ############                                                               ###
+ ###   9  ###                       L'arte della programmazione - parte VII ###
+ ############                       Artore Londona                          ###
+
+ Riassunto:
+
+         E  questa  e'  l'ultima (sich!) puntata di Londona e della sua decima
+        arte: Artore Londona e' tornato a  Torino, mi ha lasciato questo ed e'
+        scappato a scrivere per quei furboni delle varie riviste su  Internet.
+        Oggi tanto di moda.
+
+         Li' lo pagano. *:(
+
+ ------------------------------------------------------------------------------
+
+
+                                 LA DECIMA ARTE
+
+
+  Riprende la corrispondenza del nostro inviato Artore Londona.
+
+  L'  argomento  della  ricerca  e`  noto  (...noto?):  puo`  la programmazione
+ assurgere alla dignita` di arte, ovvero puo` qualche programmatore, per le sue
+ attitudini  straordinarie,  essere  definito  artista?   Insoddisfatto   della
+ qualita`  del  dibattito  locale  Artore  Londona  ha  cercato  la risposta in
+ ambienti estranei alla programmazione,  sulla  via  del ritorno da Siena verso
+ Torino.
+
+  "Mi ero ricordato delle parole introduttive di una trasmissione di libri (ben
+ fatta, ve la raccomando), che avvisavano  dell'  utilita`  della  lettura  per
+ vincere la paura della velocita` dei treni.  Decido di non spaventarmi durante
+ il  viaggio  verso  Torino e compro un libro.  Posso permettermi uno di quelli
+ che per 1000 lire vi danno 100 pagine.
+
+  L' autore ha un nome intrigante,  Sun  Tzu.   Il titolo rimanda a un problema
+ noto.  L' arte della guerra (Bingfa).  Mi immagino  che  Sun  Tzu  (cosi`  nel
+ sistema di trascrizione fonetica Wade -
+
+   Giles, o Sunzi nel sistema pinyin) non parli tanto di arte quanto di guerra.
+ Ma tant' e`.  Mi basta per riflettere.  Attacco quel testo del IV secolo a. C.
+
+  'Sunzi disse:...il meglio del meglio non e` vincere cento battaglie su cento,
+ bensi` (il testo, tradotto da R. Fracasso, dice 'ma bensi`', ma deve essere un
+ errore del proto) sottomettere il nemico senza combattere...', non male, vero?
+
+  'Sunzi  disse:...   l'  invincibilita'  dipende  da noi stessi e (...) il suo
+ opposto  dipende  dall'  avversario,  gli  abili  guerrieri  possono  rendersi
+ invincibili  ma  non  possono   far   si`   che   il  nemico  sia  sicuramente
+ sconfiggibile...".
+
+  Sembra banale, ma mica lo e`.  Pensateci.
+
+  'Sunzi  disse:...   chi  e`  abile  nel  sortire  bizzarri   stratagemmi   e`
+ inesauribile  come  il  Cielo, la Terra e i grandi Fiumi...'.  Guarda, guarda,
+ appare la creativita`.
+
+  'Sunzi  disse:...   vi  sono  ordini   del  proprio  signore  che  non  vanno
+ eseguiti...'.  Coraggioso o geniale?
+
+  Mi viene in mente un sospetto.  Questo volumetto e` un' opera  d'  arte.   Ne
+ sono  quasi  certo.   Come  pure  sono (quasi) certo che la guerra non sia un'
+ opera d' arte.
+
+  Ma Sunzi (o Sun  Tzu)  scrive  un'  operetta  sulla  guerra che e` un piccolo
+ capolavoro  (ne  sono  quasi  certo).   Quindi  l'  arte  della  guerra   puo`
+ realizzarsi nello scrivere di guerra.
+
+  Mi  vengono  in  mente  un' ondata di testi, dall' Iliade a "Per chi suona la
+ campana".  Oddio.  Ma niente, proprio niente mi viene incontro?
+
+  Di fronte a  ma  e`  seduto  un  vecchietto.   Legge  quietamente un libro di
+ Holbert.  Aspetto che interrompa per un  momento  la  lettura  e  gli  chiedo:
+ "Secondo  lei  puo`  la programmazione assurgere alla dignita` di arte, ovvero
+ puo`  qualche  programmatore,  per  le  sue  attitudini  straordinarie, essere
+ definito artista?".
+
+  Mi guarda tranquillamente, si aggiusta gli occhiali e mi chiede: "Lei  e`  un
+ artista?".
+
+  "No, sono un programmatore".  Sorride.
+
+  Mi  accorgo che ho dato la peggiore risposta possibile.  Mi mangerei le mani.
+ Accidenti, accidenti!
+
+  Riprende a leggere.  A me  passa  la  voglia di leggere.  Vado nel corridoio.
+ Rientro nello scompartimento.  Mi alzo.  Mi sbatto di qui  e  di  la`  fino  a
+ Torino.   Arrivo  a  casa.   Vuoto la cassetta della posta.  Solo pubblicita`.
+ Circa due acri  di  foresta  pluviale  distrutta  per invitarmi ad abbuffarmi,
+ dimagrire o superdetergermi.
+
+  (A.L.  utilizza un ettaro di betulle per raccontare che cosa fa fino a quando
+ decide di andare al caffe` dalle parti di palazzo  Carignano.   Ho  restituito
+ all' ambiente cio` che gli spetta.  N.d.D.).
+
+  Mi siedo a un tavolino.  Viene il cameriere (diomio, come sono gentili qui, i
+ camerieri: viene voglia di trattarli male.  E li tratto male).  Gli ordino una
+ cosa qualunque.
+
+  Vediamo  un  po'  che  c' e`.  A cinque metri da me c'e` un tipo che legge un
+ libro.   Interessante  persona.   Subito  non  capisco  perche`.   Resto dieci
+ minuti, a pensare.  Mi alzo, vado al suo tavolo e gli chiedo:  "Posso  sedermi
+ qui con lei?  Credo che mi stia aspettando".
+
+  Mi guarda e mi dice: "Puo` essere.  Aspetto qualcuno,infatti".
+
+  "Lei e` il Diavolo, vero?".
+
+  "Notevole.   Puo`  dimostrare la sua affermazione, suppongo".  Lo sa bene che
+ potrebbe ingannarmi se volesse ma, forse, non vuole.
+
+  "Naturalmente non posso.   Indizi.   Potrebbe  essere  per  i  gemelli con il
+ numero 666 (pero` e` cosi` banale).  Potrebbe essere perche` il  cameriere  l'
+ ha  chiamata  signor Freni (e scommetto che il nome e` Lucio).  E poi legge un
+ testo di Origene (una speranzella la nutre sempre, vedo).  Vuole che le faccia
+ la mia domanda?".
+
+  "Lei sa che io sono qui per lavoro".
+
+  "Lo sospettavo.  Pero` svenarmi in  pubblico  per una firma su una pergamena,
+ lo ammetta, e` imbarazzante".
+
+  "Oh, mio caro Artore.  Io faccio credito.  E' il segreto  del  mio  successo.
+ Come  dite  voi umani quando ripetete un mio slogan, 'acquista oggi e pagherai
+ con calma dopo Carnevale'.  Ecco qui il mio prodotto".
+
+  Si china, apre una borsa e ne  tira  fuori  un Apple.  Gesu' (si puo` dire in
+ questa occasione?), ha una vera passione per certi simboli!
+
+  "Provi un po' questo.  Si aggiusti il visore 3D  e  metta  la  cuffia.   Sono
+ venduti  separatamente,  solo  30  sicli  d'  argento.  Prima di cominciare le
+ voglio dire che le  offro  molto,  ma  molto  di  piu` della risposta alla sua
+ domanda".
+
+  Un mostro orribile, un clone informatico.  Sfonda la parete del mio ufficio e
+ prende a distruggere e a divorare tutto.  Con un  colpo  della  coda  possente
+ manda Luigi attraverso la finestra (peccato, siamo all' ottavo piano) e in due
+ morsi divora Rachele (peccato, bellissime gambe).
+
+  Una zampata e l' armadio scoppia come un palloncino.  Floppy disk da tutte le
+ parti.   Si  rizza e sfonda con il testone il soffitto.  Giorgio, dal piano di
+ sopra,  finisce  sul  pavimento  e  viene  schiacciato  da  artigli  mostruosi
+ (peccato,  si   rovina   irrimediabilmente   cravatta   fantasia  e  pochette,
+ naturalmente intonata).  Si mangia un tavolo.  Con un urlo  terrificante,  che
+ agghiaccia il sangue a tutti i metazoi sino all' Alta Savoia, rivolge verso di
+ me le fauci orrende.
+
+  Non  mi sconvolgo.  Cambio due righe di programma e mi aggiusto il visore 3D.
+ La bocca si allarga, si allarga e mi tuffo dentro.  Passo radente a un pianeta
+ gigantesco, mi saetto tra la  coorte  di  satelliti e atterro sul piu` vicino.
+ Assisto all' alba di Saturno da Mimas, dal  bordo  del  grande  cratere.   Gli
+ anelli  sono splendenti, inclinati di 30 gradi contro un cielo nero.  Ci salto
+ su e prendo a volo una cometa.
+
+  E' Shoemaker-Levy 9,  e`  ovvio.   Si  butta  a  200  Km/h  contro Giove.  La
+ accelero a velocita` luminare e faccio esplodere Giove.  Rovino l'  astrologia
+ e  ne  godo.   Fuochi di artificio cosmici.  Ma e` poco.  Un bel colpo sarebbe
+ far diventare il Sole una supernova.
+
+  Il computer mi manda un messaggio: "Massa insufficiente".  E chi se ne frega.
+ Cambio la fisica, g diventa 30g,  e  boom,  che botta!  Da Proxima Centauri mi
+ guardo lo show.  Altro messaggio: "L' esplosione sara` visibile tra 4,5 anni":
+ Uffa'!  Cambio la velocita` della luce.  La moltiplico per 31  milioni  e  per
+ 4,5.   Eccolo  qua, il botto.  Lo splendore e` visibile dal secondo pianeta di
+ Proxima in pieno giorno.  Smanetto con il mouse.
+
+  "Vuoi salvare le ultime modifiche - si, no".  Ma si, anzi no.
+
+  Richiamo il tirannosauro e  lo  scateno  per  via Roma.  Vetrine in frantumi,
+ macchine schiacciate.  Il panico.  Calpesta, calpesta!  Entro in  una  vetrina
+ sfondata  e mi provo un Audemar - Piaget.  Mi sembra il contatore dell' acqua.
+ Lo butto a Rex.
+
+  Lo apprezza.
+
+  Poi si sgranocchia un vigile.   A  piazza  San  Carlo mi ingrandisco io.  Via
+ tutti i tavolini.  Con  un  calcio  li  mando  tutti  sulla  Luna,  clienti  e
+ camerieri  compresi.   Arriva  Superman e gli dico che preferisco Batman.  Con
+ uno sputo lo rimando su Krypton dalla mamma.
+
+  Con due balzi arrivo a Washington, D.C..   Tiro fuori Clinton e gli chiedo: "
+ E' meglio Pompei o il Gran Canion?".
+
+  Saggiamente stravede per Pompei.  Vado a riempire il Gran Canion e  tappo  le
+ cascate del Niagara.
+
+  Mi elevo al cielo e prendo la forma di un occhio in un triangolo.
+
+  La programmazione non fa di me un artista?  E allora?
+
+  Fa di me un dio.  Anzi.  Un Dio.
+
+  "Sunzi disse:..."
+
+
+
+                                                                    Mario Ricca
+
+
+ ############                                                               ###
+ ###  10  ###                                      Il paradosso di Internet ###
+ ############                                      Enrico Franceschetti     ###
+
+ Riassunto:
+        Eccoci  qua:  questa  volta  non parleremo del sesso di Internet; ma se
+       questa ci sa fare a letto.  *:)
+
+        Sembra che il nostro, ad  un primo fugace approccio extraconiugale, non
+       sia rimasto favorevolmente impressionato dalle sue performance.
+
+        Che  Internet  invece  che  madre  di  tutte  le  reti  sia   piuttosto
+       'meretrcice tra tutte le meretrici'?
+
+        Nell'antichita'  -  direbbero  i  dotti  -  la  linea d'ombra era molto
+       sottile...
+
+ ------------------------------------------------------------------------------
+
+                            Il paradosso di Internet
+
+  In base al principio secondo il quale  "non  e' bello cio' che e' bello ma e'
+ bello cio' che va di moda", da qualche tempo e' scoppiata, in Italia, la mania
+ di Internet, la "rete delle reti".
+
+  Come al solito, il nostro paese si e' accorto in ritardo di una realta'  gia'
+ esistente  da tempo nei paesi piu' avanzati tecnologicamente e gia' conosciuta
+ e praticata  da  milioni  di  utenti  in  tutto  il  mondo,  anche  se diffusa
+ soprattutto in ambiti universitari e commerciali.
+
+  Cosi', da quando per la prima volta la parolina magica  (appunto  "Internet",
+ N.d.R.)  e'  echeggiata  nelle menti degli italici appassionati di telematica,
+ una  febbre  senza  limiti  ha  pervaso  le  loro  membra  ed  i  loro modems,
+ inducendoli ad ogni sorta di alchimia pur di  conquistare  un  posto  al  sole
+ nella "nuova" struttura.
+
+  Indubbiamente,  le  potenzialita' insite nel mezzo sono considerevoli, e tali
+ da indurre qualunque persona interessata  allo sviluppo delle comunicazioni ad
+ interessarsi al fenomeno...  ma e' proprio vero che  Internet  costituisce  la
+ panacea di tutti i mali telematici?
+
+  Che  sia  davvero la meta, l'Obiettivo (con la O maiuscola) da raggiungere in
+ questo settore?
+
+  Ebbene la risposta, a mio avviso, non e' tanto scontata come sembra.
+
+  Consideriamo  la  situazione   della   telematica  amatoriale  italiana.   La
+ stragrande maggioranza del traffico telematico viene generata da  reti,  tutte
+ in tecnologia fidonet (ormai alquanto antiquata, peraltro), che a fronte di un
+ impegno   tecnologico   dell'utente   ragionevolmente   modesto,   mettono   a
+ disposizione  "aree"  di  messaggistica  a vario contenuto (si va da tematiche
+ socio-culturali  ad  argomenti   squisitamente   ludici,  senza  soluzione  di
+ continuita') ed aree "files" costituite generalmente da  programmi  di  libera
+ distribuzione  o  da  archivi  di  informazioni (libri in formato elettronico,
+ ricette, leggi e decreti, e cosi' via).
+
+  Le caratteristiche  tecniche  e  le  modalita'  di  esercizio delle strutture
+ telematiche  che  offrono  i  servizi  anzidetti,  pur  usufruendo  di   linee
+ telefoniche "ordinarie", rendono possibile la massima frammentazione dei costi
+ di  gestione  e  consentono  il  soddisfacimento  di  una gran massa di utenti
+ nazionali, che affollano queste strutture in maniera crescente.
+
+  Su questo scenario si e' improvvisamente imposta la grande Internet, che apre
+ all'utilizzatore dei modems le porte del mondo...?!?
+
+  L'utente amatoriale o professionale puo'  cosi' accedere a "providers", cioe'
+ a fornitori connessi alla "grande  autostrada  telematica"  e,  attraverso  di
+ essi,  connettersi  con tutti gli altri computers del mondo che siano in ugual
+ maniera collegati.
+
+  Una volta ottenuto l'accesso, in cosa si concretizza il miraggio Internet?
+
+  Nella possibilita' di consultare  le  "newsgroup" mondiali, sui piu' svariati
+ argomenti...  peccato pero' che la stragrande maggioranza,  per  non  dire  la
+ totalita',  di  esse siano in lingua inglese (e' notoria la difficolta' che ha
+ l'italiano medio ad impadronirsi  delle  lingue  straniere)  e che la messe di
+ testi ivi presenti, quando non di per se' inutili o insignificanti,  sia  tale
+ da  sommergere  qualunque bene intenzionato con centinaia e centinaia di testi
+ al giorno.
+
+  I sistemi telematici piu' famosi  (cito  per  brevita' solo Agora' ed McLink)
+ che attualmente consentono l'utilizzo di Internet, mantengono  nelle  "caselle
+ personali"  i testi delle "news" soltanto per un giorno, al fine di evitare un
+ velocissimo quanto ineluttabile riempimento totale delle memorie di massa.
+
+  Per chi ha voglia di altro tipo di informazioni, sono disponibili le "mailing
+ list", in cui si scambiano informazioni  e si dibatte sui piu' vari argomenti;
+ anche qui, pero', il  traffico  e'  intensissimo,  la  nascita  di  "aree"  in
+ continua evoluzione, l'impossibilita' di avere un quadro organico che consenta
+ di  scegliere gli argomenti e gli aggiornamenti che si desiderano e, su tutto,
+ v'e' la lingua straniera.
+
+  Naturalmente Internet offre anche la possibilita' di prelevare files in tutto
+ il  mondo,  con  l'aggiornamento  piu'  rapido  ed  intrigante  che  si  possa
+ immaginare...  in teoria.
+
+  In pratica, invece,  accedere  ai  sistemi  piu'  dotati  ed importanti (Ibm,
+ Hobbes, Microsoft, tanto per citarne qualcuno in ambito commerciale)  e'  cosa
+ meritevole  di  dedizione  e  sacrificio.   Una  volta  che  si  sia riusciti,
+ solitamente nelle ore piu' strane  al fine di evitare l'eccessivo affollamento
+ del sistema, a connettersi con il computer remoto pieno zeppo di  affascinanti
+ files, occorre navigare nelle directory, tutte regolarmente prive di qualsiasi
+ descrizione  o riferimento, spulciando lunghissimi elenchi formati da "titoli"
+ scritti con otto lettere per il  nome  e tre per l'estensione, anch'essi privi
+ di qualunque descrizione.
+
+  Nei sistemi piu' organizzati, e' vero, esistono elenchi commentati di  quanto
+ e'  presente  e  disponibile...   ma  va  prelevato a parte.  E qui altre note
+ dolenti.  I metodi di prelievo sono lenti, farragginosi ed approssimativi.
+
+  Chi non ha "combattuto" con il BGET,  con  il  GET o con l'MGET non sa quanto
+ aleatoria  e  poco  pratica  sia  la  procedura  di  acquisizione  dei   files
+ desiderati.    Nei  momenti  di  maggior  traffico  (cioe'  quasi  sempre)  si
+ raggiungono velocita' di trasmissione pari a pochi bits al secondo, rendendo i
+ tempi di prelievo interminabili...  semprecche'  la connessione regga e non si
+ interrompa per qualche  motivo.   Se  cio'  capita...   occorre  rifare  tutto
+ daccapo.
+
+  Internet, pero', offre anche le connessioni Slip.
+
+  Cosa puo' mai distogliere il vero appassionato dalla possibilita' di ottenere
+ collegamenti  interattivi  multimediali  con tutte le grandi "banche dati" del
+ mondo?
+
+  Gli Archivi Vaticani o le sale  del  Louvre  si aprono agli occhi curiosi del
+ telematicamatore, il quale, cliccando freneticamente di  qui  e  di  la'  puo'
+ sapere  tutto  quello  che  vuole...   sempre in lingua inglese, naturalmente,
+ vedendo nascere  (molto  lentamente,  in  modo  inversamente  proporzionale al
+ crescere della bolletta  telefonica)  sul  proprio  video  le  immagini  della
+ cultura internazionale.
+
+  Cosa  occorre  per  riuscire  in  tutto cio'?  Nulla di particolare.  Solo un
+ computer ben attrezzato per la multimedialita',  un modem veloce (a 28.800 bps
+ si va ancora pianino), un software di comunicazione adatto fattosi  installare
+ da  persone  esperte  (l'utente  non  appassionato  non e' infatti in grado di
+ settarlo da solo) e  molto  tempo  a  disposizione.  Insomma, alcuni milioni e
+ tanta pazienza.  Oltreche' la padronanza dell'inglese, e' ovvio.
+
+  Orbene, cosa si evince  da  questo  sguardo  semiserio  e  sicuramente  molto
+ superficiale e lacunoso lanciato sulla "rete delle reti"?
+
+  Ho  volutamente  tralasciato  i  problemi  di  sicurezza, i problemi connessi
+ all'amministrazione politica ed economica,  per  evidenziare solo quelle che a
+ me,  umile  ed  arretrato  vecchio   appassionato,   appaiono   come   piccole
+ incongruenze ma evidenti abnormita'.
+
+  Se  ognuno  di  noi si svestisse un attimo dei panni dell'hobbista evoluto ed
+ agguerrito, per  vestire  solo  quelli  di  una  persona  "normale", del tutto
+ disinteressata alla tecnologia telematica pur utilizzandola ogni giorno (cosi'
+ come l'automobilista  medio  lo  e'  per  il  motore  che  spinge  la  propria
+ autovettura  quotidianamente)  ci  si  renderebbe  subito  conto  di quanto in
+ realta' Internet sia (almeno per  oggi)  distante, inutile e poco interessante
+ per la gran massa di potenziali utenti.
+
+  Certo, le potenzialita' sono evidenti...  ma anche i limiti.
+
+  Limiti tecnologici, costituiti dalle linee  telefoniche  dedicate  (ingorgate
+ fino  all'inverosimile  e costosissime da installare e mantenere), dai sistemi
+ connessi (spesso in panne  o  sovraffollati),  dall'enormita' di una struttura
+ che nessuno  coordina  e  puo'  coordinare,  dalla  incredibile  quantita'  di
+ informazioni   disponibili,   talmente   numerose   e  talmente  disgregate  e
+ disorganizzate da risultare di fatto inaccessibili.
+
+  Il paradosso di Internet  e'  che  fra  tante  informazioni, fra centinaia di
+ siti, migliaia di indirizzi, se non  si  sa  esattamente  cosa  cercare,  dove
+ cercare  e come farlo, non ci sara' mai la possibilita' di reperire alcunche'.
+ Il tutto, pagando comunque costi non irrilevanti.
+
+  Conclusioni?  Internet e' da buttare?  Certamente no.
+
+  Va bene per un  certo  tipo  di  utenza specializzata (ricercatori, operatori
+ culturali, professionisti), merita anche di essere conosciuta e sviluppata, ma
+ di certo non e' la "Soluzione Telematica" per eccellenza.
+
+  Non lo e', cosi' come una Ferrari, per quanto bella ed affascinante,  non  e'
+ adatta  per  andare  ad  acquistare le sigarette sotto casa; per far questo e'
+ molto ma molto meglio una bella Cinquecento.
+
+  Quanto meno, allora,  occorrerebbe  affiancare  ad  Internet altre strutture,
+ altre reti, a  tecnologia  piu'  povera,  che  consentano  concretamente  allo
+ studente  squattrinato,  all'amatore,  alla casalinga o al semplice curioso di
+ raggiungere le informazioni  desiderate  (molto  spesso  costituite solo dalla
+ voglia  di  quattro  chiacchiere  telematiche)  senza   possedere   esoteriche
+ conoscenze  tecniche  e  senza  impegnare  stipendi  interi in costose risorse
+ informatiche.
+
+  Occorrerebbe, insomma, una rete meno  galattica, meno zeppa ma piu' fruibile,
+ che sia  non  solo  potenzialmente  utilizzabile  ma  piuttosto  concretamente
+ godibile,  con  strutture  di  coordinamento  e  gestione  che possano aiutare
+ l'utenza nell'accesso e nella consultazione.
+
+  Occorrerebbe quindi investire energie nello sviluppo di quella tecnologia che
+ ha  reso  le  reti  "fidonet  style"  tanto  diffuse  nel  mondo,  evolvendo e
+ potenziandone  le  caratteristiche  migliori,  attenuandone  i  difetti  e  le
+ imperfezioni che in questi anni sono venute manifestandosi per un processo  di
+ inevitabile quanto logico invecchiamento.
+
+  Sviluppo  e modernizzazione utilizzando e valorizzando l'esperienza maturata,
+ in somma.
+
+  Ma tali energie da investire, in una Italia in cui la colonizzazione politica
+ (ne abbiamo piene le tasche!)  e/o  l'interesse economico sono le uniche molle
+ che spingono gli interessati all'azione, sono di la' da venire.  E lo  saranno
+ per  parecchio  tempo  ancora,  a  quanto pare, almeno fino a quando un numero
+ ragionevole di  sviluppatori  non  abbiano  individuato  in  questo  ambito la
+ direzione da seguire.
+
+  Speriamo che, nel frattempo, cio' non significhi la  definitiva  morte  della
+ telematica  amatoriale  (quella autentica, non quella targata politicamente in
+ rosso giallo o  viola  a  pua'),  gia'  da  tanti  prevista  e  da molti altri
+ auspicata, sostituita da scintillanti "reti delle reti" piene zeppe  di  siti,
+ di news, di liste e di marchi, ma vuote di interesse per la gente comune o per
+ chi si vuole, soltanto, divertire in serenita'.
+
+  Ciao!
+                                                   Enrico
+                                                   Enrico Franceschetti
+                                                   E.Franceschetti@Agora.stm.it
+                                                   2:335/212.1
+
+ ############                                                               ###
+ ###  11  ###                                                  Bibliografia ###
+ ############                                                  La direzione ###
+
+ Riassunto:
+
+        Come promessovi  nel  number  prec.   la  recensione  dei  libri della
+       Feltrinelli non e' pronta :)
+
+        Prossimamente anche qualcosa su Virtual da parte di Gianluca....   *:)
+       e su una  BBS  che  mi  ha  segnalato  gli inossidabili Cicci+Bosio che
+       sarebbe la BBD Opla' di Torino (011-542106. Voce: 5623565).
+
+        Eccovi le puntate perc:
+
+      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+        Visto che il  Costa2  ed  il  .mau.   si  incazzano  se ripeto le cose
+       (occupando BandWidth, credo si dica) vi ricordo che nel number 45 si e'
+       parlato di un po' di riviste di Internet:
+
+
+                           Internet and Comms Today
+                                  Net Guide
+                        .net - The Internet Magazzine
+
+                        [con un corrige nel number 46]
+
+
+       e l'ultima bibliografia estesa risale al number 44 con:
+
+
+                                    DECODER
+                                 INTERNAZIONALE
+                                   N E U R A L
+                                    W I R E D
+
+
+
+                                                                   La Direzione
+
+
+
+
+ ############ Corrige                                                       ###
+ ###  12  ###                         Gli errori di impaginazione dei Telem ###
+ ############                                                Nick Montanari ###
+
+ Riassunto:
+
+        Nick, grazie al suo splendido lettore Mac sul number  47,  continua  a
+       scoprire errori su errori nella mia formattazione... *:(
+
+        Mentre il *mitico*  Alessandro  osa  contraddire nientemeno che Costa2
+       e... dimostrare di avere ragione!
+
+ ------------------------------------------------------------------------------
+
+        Numeri di Telematicus che causano problemi a Telematicus Reader
+        (Le soluzioni proposte sono da effettuarsi con un text editor).
+
+ 046
+
+    la prima linea dell'header di Telematicus va corretta da:
+    "...Numero 012- ..."
+     a:
+    "...Numero 012 - ...",
+
+     cioe' aggiungendo uno spazio dopo la cifra 2 di "12".   Questo  errore  di
+    formattazione causa la non visualizzazione del testo.
+
+
+ 047
+
+     la prima linea dell'header di Telematicus va corretta da:
+     "...Numero 013- Anno 1995 -104   pag..."
+      a:
+     "...Numero 013 - Anno 1995 - 104 pag...",
+      cioe'  aggiungendo uno spazio dopo la cifra 3 di "13" e prima della cifra
+     1 di "104" e togliendo  due  spazi  tra  la  parola "104" e "pag".  Questo
+     errore di formattazione causa  la  non visualizzazione del testo.  Occorre
+     altresi'  trasformare  i  CR+LF  in  soli  CR,  altrimenti  una  serie  di
+     quadratini apparira' all'inizio di ogni riga causando lo shift del testo a
+     destra di un carattere.
+
+
+  Come  potrai  notare,  TRStack  e'  piuttosto  sensibile   agli   errori   di
+ impaginazione,  soprattutto  nella prima pagina e nell'indice.  Cerca di stare
+ un poco piu' attento in futuro...;-) [NdE: <:( ]
+
+
+
+                                                              Nick Montanari
+
+
+                                                              Big Nick's Point
+                                                              2:332/406.10
+
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From: Alessandro Ghezzer
+
+ Ciao Stefano!
+
+  Ho letto l'ultimo benemerito numero  di  Telematicus (#45), e il tuo lodevole
+ articolo sui network providers e relativi costi...
+
+  Ora, se non sono del tutto rincoglionito (e l'ipotesi e`  tutt'altro  che  da
+ escludere  a  priori)  vorrei  farti  notare che, probabilmente, vi sono degli
+ errori nel calcolo dei  costi  telefonici  riferiti  a Telecom: secondo i tuoi
+ calcoli, la tariffa urbana tut notturna sarebbe di lire 893, mentre quella  di
+ punta Lire 2.837.
+
+  Orbene, elenco Telecom alla mano, pagina 17, ho ricalcolato il costo:
+
+  nel caso della fascia notturna, la Telecom indica 1 scatto ogni 6 minuti e 40
+ secondi.   All'ora  fanno quindi 9 scatti, + 1 alla risposta sono 10 scatti; a
+ 127 lire lo scatto equivalgono dunque a L. 1.270.
+
+  Aggiungiamoci l'iva al 13% (o al 19%???) e siamo gia` a 1.435 lire, come vedi
+ ben lontano dalle tue 893 lire...  (quasi il doppio!)
+
+  Nella fascia di  punta  tu  indichi  2.837  lire:  a  me  risultano invece L.
+ 3.182...
+
+  E di conseguenza anche le altre fasce...
+
+  Puo` darsi che mi  sia  incasinato  io,  il  sistema  tariffario  Telecom  e`
+ allucinantemente  demenziale ed e` un'autentica impresa capire quanto costa il
+ fottuto telefono, uno strumento che pure usiamo tutti i santi giorni...
+
+  Se i tuoi calcoli sono giusti  e  i  miei sbagliati fai pietosamente finta di
+ niente...
+
+ Ciao.  salutoni, Alex!
+
+
+  Pietosamente, avendo fatto i calcoli durante la  notte  :-(  ho  sbagliato  i
+ conti.  Non ho aggiunto l'IVA e qualche divisione.
+
+  Tuttavia  nella  sostanza  le  mie  conclusioni rimangono valide, dato che le
+ differenze di prezzo su reti non commutate sono elevate.
+
+
+                                                                        Stefano
+
+
+
+
+
+
+
+
+ ############ NOTIZIE FIDONET REGION 33                                     ###
+ ###  13  ###                                                          NEWS ###
+ ############                                                          AAVV ###
+
+ Riassunto:
+
+        Oltre al NetCom del  335  (di  cui  parleremo  il  prox number per mia
+       impossibilita' nello scrivere  l'articolo)  non  ho  avuto  notizie  da
+       nessuno. *:(
+        Pur avendole richieste.
+        Problemi  della  rete,  o proprio non c'e' stato nulla di nuovo questo
+       mese?
+
+        Arduo mistero. Lo sveleremo la prox puntata!
+
+ ------------------------------------------------------------------------------
+
+                                *** NET 331 ***
+
+                             ** !NESSUNA NUOVA!  **
+
+
+                                *** NET 332 ***
+
+                             ** !NESSUNA NUOVA!  **
+
+
+                                *** NET 333 ***
+
+                             ** !NESSUNA NUOVA!  **
+
+
+                                *** NET 334 ***
+
+                             ** !NESSUNA NUOVA!  **
+
+
+
+                                *** NET 335 ***
+
+  Si e' svolto il NETCOM 335.  Parleremo piu' approfonditamente  di  questo  al
+ prox number.
+
+
+ ******************************************************************************
+
+             Telematicus e' formattato a 80 caratteri su 22 righe.
+        Per stamparlo correttamente *non* usare i font proporzionali.
+
+ ******************************************************************************
+ Il number di TELEMATICUS stato corretto con:
+
+ Spellita  v1.1.5b2  di  Marco  Minardi (2:332/402.32.  Via G. Battisti 8 47100
+ Forli') (versione registrata)
+
+ e redatto con :
+
+ BOXER 6.0a per OS/2 di Boxer Software  (Po Box 3230.  Peterborough - NH 03458)
+ (in prova).
+ BREEZE 5.0 (Kevin Solway.  Po Box 207.  University of Queensland.  St.   Lucia
+ QLD 4067.  Australia) (In prova).
+
+ Esistono ben 2 lettori di Telematicus  per  Mac  (Telem 47, 43) ed uno per DOS
+ (Telem 43).
+
+ ******************************************************************************
+
+
+
+
+
+
+
+
+               TELEMATICUS SI PUO' TROVARE IN TUTTI I NODI I.S.N.
+                          (Italian Shareware Network)
+
+
+
+ Assieme alla  rivista  ho  inserito  ISN-NODE.*,  la  lista  di  tutte  le BBS
+ appartenenti ad ISN.
+
+
+
+
+
+
+ ####                            End of TELEM048                           ####

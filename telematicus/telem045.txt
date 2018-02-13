@@ -1,0 +1,1541 @@
+ #### TELEM045 - Telematicus - Volume 05 - Numero 01 - Anno 1995 -  70  pag.####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                 Gennaio 1994
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematicus   e'  (C)  dei  singoli  autori.   E'
+ espressamente consentita la distribuzione e il riutilizzo  del  bollettino  in
+ tutto  o in parte, purche' non a fini di lucro e citando sempre autore e fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina  69 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+
+
+ [ 1]  Editoriale  .   .   .   .   .   .   .   .   .   .   .   .  (RRE) pag.  4
+ [ 2]  Lettere aperte  .   .   .   .   .   .   .   .   .   .   . (AAVV) pag. 11
+ [ 3]  Un network al mese... (VIII): Interntet provider in Ita (Costa2) pag. 16
+ [ 4]  Internet: un po' di riviste...  .   .   .   .   .   .   .  (RRE) pag. 43
+ [ 5]  Curiosita': Il gergo hacker .   - parte 39  .   .   .   . (AAVV) pag. 48
+ [ 6]  Come ti aggiustaro il Pentium bacato.   .   .   .   .  (Torello) pag. 54
+ [ 7]  Notizie Fidonet region 33   .   .   .   .   .   .   .   (Orsini) pag. 64
+
+
+
+
+
+
+
+
+
+                  Questo Telematicus e' nato con l'aiuto di...
+
+                                          | * I collaboratori dai network: *
+ Editor Netticus    : Costa2              |
+ Editor Aeternus    : Maurizio Codogno    |
+ Editor Pentacolaris: Andrea Bosio-Torello| Roberto Orsini    (2:332/425)
+ Editor Ritardans   : Renato Rolando      |
+                                          |
+
+ Editor mittens : Ezio Ajmar, Luigi Filippini
+ Editor citatus : Roberto  Piola,  Agora',  Altair Data System BBS, Galactica,
+                  InfoSquare, MCLink, Italia On Line,  Skylink,  CINECA,  CSP,
+                  IBM, ITNET, TELNET...
+
+ Editor saccheggiati: Eric S. Raymond <esr@snark.thyrsus.com>
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO) al 011-9235565.
+ e-mail: Renato.Rolando@PMN.IT
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+  Ebbene,  eccoci  qua col solito, mostruoso ritardo!  L'indice al prox number
+ (spero!)
+
+  Solite scuse:  prima  Warp  che  mi  falcia  mezzo  HD,  poi  la  mia ragazza
+ ricoverata in ospedale d'urgenza - nulla di grave, grazie  -  hanno  fatto  il
+ resto.   Il  fatto  e' che dovrei proprio chiappare un portatilino, altroche'!
+ io che li ho sempre snobbati...  :) vabbe', vedremo.
+
+  Comunque - su pressione del buon  Costa2  e  per  il  presentarsi  di  alcune
+ situazioni quantomeno ridicole - siamo giunti al primo grande evento di Telem:
+ un bel numero monografico!
+
+  Su Internet, chiaramente.
+
+  Il  Costa2  ha  fatto  un  lavorone,  e  la  cosa deve avere il suo peso.  Mi
+ perdonerete l'inserimento di uno scoop:  come aggiustare il vostro Pentium del
+ bravino Bosio.
+
+  Insomma e' un bel number, e spero cosi' di farmi perdonare il ritardo.
+
+  Tra  l'altro  -  grazie  all'infaticabile operato di .mau.  - Telematicus si
+ trova finalmente anche in Internet!!!
+
+  ftp://bertles.cselt.stet.it/pub/Italia/telem
+
+  [spero l'indirizzo sia corretto perche' .mau. scrive come una mosca]
+
+  Ma permettetemi  prima  alcune  considerazioni/sfogo  su  Internet in Italia:
+ verso l'inizio di dicembre un comunicato della sinistra affermava piu' o  meno
+ "Questa  volta  non  ci  faremo prendere impreparati, la sinistra arrivera' a
+ cogliere   la   telematica   prima    della   destra."   (Un   trafiletto   de
+ l'Internazionale)
+
+  Il  settimanale  Internazionale  -  gia'  trattato  diffusamente  nei  number
+ precedenti di Telem - il 17  dicembre  1994  usci' su Internet [1].  Non fu il
+ primo, lo precedette il quotidiano l'Unione Sarda [2].
+
+  E quallo quallo il 25 gennaio  il  'buon'  Walter  Veltroni  ci  schiaffa  in
+ Internet  l'Unita',  giurassico  giornale del Pds.  Il web server e' quello di
+ McLink [3].  "E' forse una  piccola  cosa  -  scrive.   -  Ma per una volta la
+ sinistra non sara' in ritardo, almeno nella  comprensione,  di  fronte  a  una
+ evoluzione  straordinaria  del sistema dei media, delle forme del sapere e del
+ comunicare."
+
+  Bellissimo.  E' stupendo il fatto che collegandosi  si  debba  chiappare  il
+ paginone  in  gif[4]!   A  cosa  mi  serve  la foto della prima pagina?  Boh.
+ Potrei forse farci un poster con  la  mia nuova stampante-laser a colori.  :)
+ Comunque in quest'immaginona gif non si riesce neppure a leggere  l'articolo,
+ e se non avete un Mosaic[5]...  beh, il gif non lo leggete punto!
+
+  Ma non e' questo il punto  che  mi  perplime;  e  non e' neppure il fatto che
+ l'Unita' abbia strombazzato di essere il primo quotidiano italiano ad  entrare
+ in Internet: c'era  gia'  Internazionale.
+
+  Ma gia' - che sbadati - Internazionale e' un settimanale!  (Questo trucchetto
+ e' stato attuato da un altro gruppo militante nella  rete  fido:  il  Corriere
+ Telematico:  "prima  rivista  telematica",  come  asseriscono  'sti  furbetti.
+
+  Comunque sia prima de l'Internazionale e' arrivata l'Unione Sarda.  (E  prima
+ del  Corriere Telematico...  beh, ce ne sono state di riviste!  SBDI, OTL, una
+ sull'OSSO, una in  TEX  sull'Amiga,  per  citare  le  prime  che mi vengono in
+ mente!) :)
+
+  Mi  perplime  che in Italia - spiccato accento romano - "soprattutto tra noi
+ giovani" ci sia un po' la tendenza  di  considerare tutto cio' che e' etico e
+ corretto per forza di sinistra: i movimenti per la  pace  sono  di  sinistra,
+ Green  Peace  dev'essere  per forza di sinistra (il WWF invece e' di destra),
+ Amnesty International...  beh in fondo  in  fondo...   si, anche loro sono di
+ sinistra.
+
+  Invece  chi inquina, chi picchia i bambini - e se li mangia - chi comincia le
+ guerre e chi continua a fare  andare  tutto male, ah questi sono proprio tutti
+ di destra.  Anche chi fa gli  sgomberi dei centri sociali (questi di sinistra)
+ e' della destra.
+
+  Chi  al  mercato vende il pesce fresco e' di sicuro un compagno, chi te lo da
+ bello puzzone e grondante mercurio e' proprio un fetecchione, insomma.
+
+  Comunque cosa volevo dire?  ah  si, questa sinistra italiana pseudo impegnata
+ che se la tira, e me li vedo gia' nei loro salottini frikko-borghesoidi:  lei,
+ la  pallida  mano  mollemente  reclinata  su una fumosa sigaretta:
+
+  - Hai visto l'url di HMA?
+  - L'ur che?  - il solito scemo da salotto.
+  - Ma siii, daiii, Internet!  ma dove vivi?  ormai la dikotomia tra potere  ed
+    oltranzismo endemico...
+
+  Bla bla bla...  Ed e' cosi' che  il locale torinese piu' sinistroso - come se
+ bastasse avere qualche busto nel locale per essere impegnati -  Hiroshima  Mon
+ Amour  esce su Internet su HTTP://link.alpcom.it/hma.  Eppure la cosa che piu'
+ mi deprime non sarebbe neppure questa.
+
+  Internet, ora e' un vero casino: fatichi per avere un accesso e scopri che se
+ non usi Mosaic sei un fesso.  Tutti li' a puppare il paginone di PalyBoy ed il
+ sito in 2 giorni chiude i battenti per  essere  costantemente  inchiodato  nel
+ soddisfare le richieste degli anonymous...
+
+  ...c'e'  tutto  di  tutto;  ognuno dice la sua e la dice anche male, quotando
+ kilometrici pezzi  di  testo  per  aggiungerci  "I'm  agree  with you".  Tutto
+ convive a stretto contatto: dal messaggio colto & raffinato a quello  rozzo  &
+ stupido.  Ci puo' scrivere praticamente chiunque; chiunque puo' dire la sua.
+
+  Insomma  Internet  e'  attualmente  proprio  di tutti e per tutti (e grazie a
+ questo le sue prestazioni sono  diventate penose, di una lentezza esasperante.
+ Ed e' arduo riuscire a starre dietro nella lettura delle news).
+
+  Ebbene, ditemi se tutto  questo  non  raggruppa  i  piu'  alti  ideali  della
+ sinistra,  di  ogni  sinistra:  avere un'arma cosi' importante - da aver fatto
+ tremare l'Intel col suo Pentium - nelle mani della gente, del popolo.  Insomma
+ questo non e' il sogno della sinistra?
+
+  E  allora  perche' dico io, perche' la sinistra si affretta a mettere le mani
+ addosso ad una cosa gia' di per se' a sinistra?  cosa vuole, mordersi la coda?
+
+  Forse c'e' un governo, in Italia, che  magari e' un tantino troppo di destra.
+ Ed invece?   beh,  "noi  corriamo  a  far  vedere  che  anche  una  cosa  gia'
+ strutturalmente di sinistra puo' appartenere alla sinistra".  Begli stronzi!
+
+  Chissa'  se  la  sinistra  -  almeno  quella italiana - riuscira' un giorno a
+ capire qualcosa, e non solo di telematica.
+
+
+
+                                                                           RRE
+
+
+
+
+ [1] Internazionale: http://www.agora.stm.it/internaz.html
+     Si  trovano  gli  articoli  in   italiano   apparsi  sulla  rivista  ed  i
+     corrispondenti - ove possibile per contratto con la testata - originali.
+
+
+ [2] Dell'Unione Sarda non so l'indirizzo.
+     All'estero ci  sono  almeno  il  Time,  Der  Spiegel,  The  Weekly  Mail &
+     Guardian, The Daily Telegraph, Mother  Jones  (Http:www.mojones.com).   In
+     realta'  non  e'  ancora  riportato  tutto il giornale, di solito le prime
+     pagine.
+
+
+ [3] Per l'indirizzo andate a sucarvi l'Unita' dal giornalaio.
+
+
+ [4] Il   Mosaic  e' un programma elefantiaco che serve a girare i siti in modo
+     grafico. Per saperne di piu' leggetevi un buon libro su Internet.
+
+
+ [5] E' un formato per salvari i file grafici.
+
+
+ ############                                               LETTERE APERTE  ###
+ ###   2  ###                                               .mau.           ###
+ ############                                                               ###
+
+ Riassunto:
+        E per primo abbiamo  un  messaggio 'storico' ovvero datatissimo.  Sono
+        riuscito a scovarlo - non vi dico come, e soprattutto il Costa2 non lo
+        indovinera' mai - dopo moolte peripezie. Comunque eccovelo:
+
+        Il secondo fa parte del progetto di portare  Telem  in  Internet.   Si
+        fara'? non si fara? booh!
+
+ ------------------------------------------------------------------------------
+
+ Date: Mon, 18 Apr 1994 09:37:11 +0000 (WET)
+ To: scosta@bix.com
+ Subject: Fingering with e-mail
+ X-Envelope-to: bix.com!scosta
+
+  Ricordo  di  avere  letto su di un tuo articolo su TELEMATICUS che non avevi
+ idea di come poter fare FINGER con l' E-MAIL.
+
+  Quanto sotto e' un estratto di un  file  che  ho trovato in giro sulla net e
+ suggerisce un modo.  Io per la verita' non l' ho provato.
+
+ Lo stesso sistema funziona per il ping (Subject: "#ping HOST.DOMAIN").
+
+  Sperando di esserti stato utile ti ringrazio per gli  articoli  su  INTERNET
+ che  hai  scritto  su  TELEMATICUS:  sono  stati  la  mia  prima  sorgente di
+ informazione in questo campo.
+
+
+                               Ciao
+                               Ezio AJMAR
+
+                               c/o ldinapol@alsto.alenia.it
+                               (come vedi uso l' accesso internet di un amico)
+
+ ------------------------------------------------------------------------------
+ Internet Tools Summary
+ ==============================================================================
+ AUTHOR:     John December (decemj@rpi.edu)
+ DATE:       15 Dec 93; Release 1.35
+ PURPOSE: to list tools available  on  the  Internet that are used for network
+    information retrieval (NIR),  Computer-Mediated  Communication  (CMC),  or
+    other  services.   This  is  not meant to be a strict categorization or an
+    exhaustive list,  rather  a  reference  catalog.   I  welcome comments and
+    suggestions.
+
+ o Finger---------------------------------------------------------------------+
+ Definition: Finger retrieves information  about  user  registered  on  a  host
+             computer;
+
+ Action: U := M <-<= H[R]
+
+ Finger description    |unix   |man finger            |                       |
+ Finger demo           |finger |decemj@rpi.edu        |                       |
+ Finger Protocol       |ftp    |nic.merit.edu         |documents/rfc/rfc1288.t|
+                       |       |                      |xt                     |
+ Finger via email      |mail   |b.liddicott@ic.ac.uk  |Subject: "#finger USER@|
+                       |       |                      |HOST.DOMAIN"           |
+ Finger via WWW        |http   |cs.indiana.edu        |finger/gateway?USER    |
+ Finger via telnet     |telnet |HOST@DOMAIN           |79                     |
+ FingerInfo            |ftp    |csd4.csd.uwm.edu      |pub/fingerinfo         |
+ Who fingered?         |ftp    |ftp.csie.nctu.edu.tw  |Upload/backfinger/     |
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From: Luigi Filippini <luigi@crs4.it>
+ To: scosta@bix.com
+ Subject: Telematicus
+
+ Stefano,
+
+        a proposito di telematicus e  della sua non-disponibilita' via Internet
+ mi chiedevo perche' non usi WWW.
+
+  E' il mezzo ideale per una zine, ti  consente  di  formattare  il  testo,  di
+ aggiungere link ipertestuali ecc.  ecc.
+
+  Poi,  visto  che  esistono  browsers per tutte le architetture non dovrebbero
+ esserci problemi di accesso per nessuno.
+
+  Noi abbiamo un server WWW attivo,  se  ti interessa fammi sapere.  Non ho mai
+ avuto modo di leggere la rivista, questa potrebbe essere l'occasione buona.
+
+ Ciao,
+
+ Luigi Filippini
+
+
+ ------------------------------------------------------------------------------
+       _/_/_/_/ _/_/_/_/ _/_/_/_/ _/    _/  email  : Luigi.Filippini@crs4.it
+      _/    _/ _/    _/ _/    _/ _/    _/   phone  : +39-70-2796-253
+     _/       _/    _/ _/       _/    _/             +39-70-2796-254
+    _/       _/_/_/_/ _/_/_/_/ _/_/_/_/     fax    : +39-70-2796-283
+   _/       _/   _/        _/       _/      snail  : Via Nazario Sauro, 10
+  _/    _/ _/    _/ _/    _/       _/                09123 CAGLIARI
+ _/_/_/_/ _/    _/ _/_/_/_/       _/                 ITALY
+ ------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+ ############ Parte VIII                     Un network al mese...  o quasi ###
+ ###   3  ###                                   Internet provider in Italia ###
+ ############                                                 Stefano Costa ###
+
+ Riassunto:
+        Non ho parole per esaltare il lavoro di Cost2. Secono me - e non esage-
+       ro - mai fu intrapreso (e portato a termine) la voro piu' impervio.  Tra
+       l'altro aspettatevi altre news il prox mese... W Costa2!!
+
+ ------------------------------------------------------------------------------
+
+                        Un network al mese....o quasi
+
+                         Internet provider in Italia
+
+  Quest'anno e' l'anno in cui la  parola  internet ha raggiunto i giornalisti i
+ quali, come e' ben noto, sanno a malapena cosa  e'  un  computer  (il  Fidonet
+ Crackdown  ne  e'  un  esempio), ma riescono molto bene a diffondere il Verbo.
+ L'effetto non si e' fatto  mancare:  l'offerta di connettivita' ad Internet e'
+ aumentata a dismisura, ed ora c'e' il problema di come districarsi  in  questo
+ mare (Io sto naufragando in questo mare, dato che voglio accedere al magnifico
+ BIX  da internet, col costo di 1$ l'ora..  percui quello che vedrete ora e' il
+ risultato della mia  inchiesta.   Altre  ne  seguiranno  dato  che fra poco mi
+ arriva a casa OS/2 WARP!  NdA).
+
+ Cosa volete?
+
+  La prima domanda da farsi e' fissare i limiti e gli obbiettivi.  Dagli scorsi
+ articoli dovreste avere un'idea abbastanza precisa di che cosa offra Internet.
+ Possiamo raggruppare in tre categorie l'offerta sul mercato:
+
+         - la sola posta elettronica da/per Internet e newsgroups (UUCP)
+         - quanto sopra con carico/scarico files,directory ed utilita'
+           (FTP,TELNET,ARCHIE,WHOIS,FINGER,GOPHER,IRC)
+         - connettivita' completa (SLIP,PPP e/o linea e computer dedicati)
+
+  La seconda categoria tuttavia si sta confondendo con la terza,  dato  che  le
+ BBS  con  le  spalle  piu'  larghe  aggiungeranno SLIP, come ha fatto MC-LINK.
+ Esaminiamo ora  in  dettaglio  ciascuna  categoria.   tenete  presente  che la
+ categoria superiore comprende anche le precedenti, per cui se avete FTP  avete
+ anche le news, ad esempio.
+
+                            Posta elettronica/News
+
+  E' la piu' economica, come si puo' bene immaginare, ma non esclude lo scarico
+ di files come ho gia' detto a suo tempo nei miei articoli precedenti.  Al pari
+ delle BBS Fido, un fattore  importante  nella scelta dell'Internet Provider e'
+ il tipo di interfaccia fornita per la lettura della posta.
+
+  Esistono  nel   pubblico   dominio   parecchi   lettori,   ognuno   con   sue
+ caratteristiche  peculiari.   Molti,  dato  che  gli ambienti universitari non
+ pagano in ragione del traffico generato  ma in forfettario, *non* prevedono la
+ compressione della posta e la lettura off-line.
+
+  La parola offline mail reader non e' cosi' utilizzata come  in  Fido,  ed  il
+ supporto software e' meno risparmioso della contrparte nostrana.  La soluzione
+ piu'  economica e' senz'altro UUCP (Unix to Unix CoPy), un protocollo standard
+ che impacchetta posta ed aree  in  un  modo  non  dissimile dai point Fido (ed
+ infatti chi ha creato lo standard Fido si e' dichiaratamente ispirato a questo
+ modello).
+
+  Esistono numerose implementazioni per PC e MAC, ed insieme  ad  un  modem  ad
+ alta  velocita' (ESSENZIALE per le news) fanno una buona gestione della posta.
+ Scartate a priori baudrate a  9600  ed  inferiori, se volete sopravvivere.  In
+ alternativa, potete usare i lettori on-line, se pagate in ragione del traffico
+ generato e *non* del tempo trascorso, come con ITAPAC ad esempio.
+
+  Qui le scelte sono molto diversificate.  Come per gli editors ci sono le holy
+ wars tra i vari tipi di  lettori  di  posta  on-line.   Tutti  sono  piuttosto
+ indigesti, UNIX-style (pieni di opzioni ma senza un'ispirazione di fondo).
+
+  I  tre  che  vanno  per la maggiore sono TIN,TRN, e NN.
+
+  TIN ha opzioni molto potenti per cercare tra  tutti  i  messaggi  quelli  che
+ interessano  (un'area  trafficata  sul  mio  server tiene tranquillamente 4000
+ messaggi sull'hard disk).  TRN e' piu'  elegante,  ma conclude un po' meno, NN
+ e' il piu' semplice (relativamente) da usare dei tre, e per questo quello piu'
+ diffuso.
+
+  Da notare bene: quanti newsgroups possiede il vostro internet provider?  Data
+ la  particolare  natura  delle  news,  il  numero  delle  aree  disponibile e'
+ variabile a seconda del server.   Attualmente  il  full  feed e' circa di 7000
+ aree messaggi.  Se siete amanti dei  generi  strani  o  solo  curiosi,  tenete
+ conto.
+
+                                 FTP/TELNET...
+
+  Per  poco di piu' e' possibile passare alla categoria seguente, ed a meno che
+ siate  tiratissimi  coi  soldi,  non  conviene  autolimitarsi  a  questo modo.
+ Purtroppo sottolineo con dolore che di solito UUCP viene offerto come servizio
+ a parte, percui *molti* scaricano files che e'  un  piacere  ma  non  usano  i
+ newsgroups  perche'  la  lettura  in linea la potrebbe fare solo il figlio del
+ sultano del Brunei.
+
+  Insomma, puppatori loro malgrado.   Due  account  diversi costano troppo cari
+ :-((.  Alcuni provider danno la possibilita' di usare gli stessi offline  mail
+ reader  di  Fido  per  i  messagi  internet.   Vi  consiglio caldamente questi
+ provider, perche' e' estremamente facile  con  le mailing list andare su 10-20
+ messaggi al giorno, e voi capite bene....
+
+                                   SLIP/PPP
+
+  La terza  categoria  e'  riservata  a  chi  pensa  di  generare  un  traffico
+ medio/alto  (come  per le BBS che offrono internet, ditte) o per lo smanettone
+ convinto.  In  Italia,  a  differenza  dell'america,  quest'ultima  opzione e'
+ piuttosto costosa, come vedremo piu' avanti.
+
+  Con questi protocolli diventate a tutti gli  effetti  host  su  internet  per
+ tutto  il  tempo  della  connessione, e potete essere anche FTP server, BBS su
+ internet in multitask vero, vale a  dire  che mentre scaricate un file con FTP
+ potete giocare con un MUD e vedere a che  temperatura  sta  la  Coca  Cola  al
+ MIT...
+
+  Potrete  inoltre  offrire servizi su internet, tipo un FTP site, per tutta la
+ durata della connessione  (ricordate  che  PPP/SLIP  sono  stati concepiti per
+ l'uso in commutata, cioe' linea telefonica, dove la  connessione  esiste  solo
+ per un periodo di tempo finito, a differenza di una workstation in rete).
+
+  Insomma  potete  fare  *tutto*,  compreso  giocare a Netrek, un gioco grafico
+ multiutente tipo Guerre Stellari.  A buon intenditor...
+
+  Dal punto di vista  tecnico  SLIP  e  PPP  si  distinguono dal fatto che SLIP
+ supporta come unico protocollo di trasmissione TCP/IP (il protocollo  con  cui
+ internet  dialoga  con  tutti  gli host sulla rete), mentre PPP supporta anche
+ altri protocolli oltre al TCP/IP (qualsiasi protocollo, presente e futuro).
+
+  Normalmente questa differenza  non  viene  recepita  dall'utente 'comune', ma
+ puo' essere sostanziale per alcune applicazioni particolari.  In ogni caso PPP
+ e' piu' robusto, anche se leggermente meno efficiente di SLIP.
+
+  In ogni caso tenete presente che all'atto di ogni connessione viene assegnato
+ un'indirizzo Internet diverso, generato random  dalla  lista  degli  indirizzi
+ disponibili  cui  l'host  ha  accesso concordatamente al suo superiore.  Cosi'
+ facendo e' impossibile ricever  della  posta,  dato che non avete un'indirizzo
+ fisso.  Questa e' la ragione per cui assieme alla connessione SLIP/PPP vi deve
+ essere data una mailbox standard.  I messaggi incoming devono venire bufferati
+ dal sistema che vi offre l'account.
+
+  Il modo in cui questi vengono raccolti e dati all'utente e' uno dei paramatri
+ discriminanti per giudicare sulla qualita' dell'offerta.  Il modo migliore  (a
+ mio  avviso)  e'  un  front-end  che  vi  permette  di  usare trasparentemente
+ qualsiasi lettore di posta standard internet.
+
+                             Gli internet provider
+
+  Possiamo  dividerli  in  due categorie: le BBS (che oltre ad internet offrono
+ altro) e gli internet provider (IP  d'ora in poi) 'puri'.  Tenete ben presente
+ che i prezzi qui sotto riportati valgono solo per l'accesso  al  servizio:  la
+ tratta  casa  vostra-provider  ve  la dovete pagare a parte, con $IP, ITAPAC o
+ Sprint.  I prezzi  e  le  caratteristiche  dei  carrier  li trovate di seguito
+ all'elenco dei provider.
+
+
+                                      BBS
+
+
+ Agora'                  Fornisce e-mail (dominio agora.stm.it)
+                         FTP,TELNET,news
+                         Accessibile via Sprint.
+                         NUA ITAPAC EASY WAY 26420265
+
+ Altair Data System BBS  Fornisce e-mail (dominio altair.it) e alcuni
+                         newsgroups (150 circa). 10GB in linea di files.
+                         FTP ma via e-mail.
+                         Connessione fino a 28800 bps.
+                         Telefono (dati) 02,6420515 - 02,6420539.
+                                  (voce) 02,6420539 (fax) 02,6434569.
+
+ Galactica               Fornisce e-mail (dominio galactica.it)
+                         FTP,TELNET,newsgroups.
+                         Voci di corridoio mi dicono che il supporto non
+                         e' gran che. Offre anche SLIP/PPP.
+                         Accessibile via Sprint.
+
+ InfoSquare              Fornisce e-mail (il dominio e' mail.on-line.co.uk  per
+                         ora,  dato che il link e' via Pipex, ma appena avranno
+                         la  linera  dedicata  propria  sara'  il  piu'  banale
+                         infosquare.it).
+
+                         newsgroups (7000 circa, full  feed) 24 CDROM in linea.
+                         FTP,TELNET,IRC,GOPHER,FINGER,   MUD   interno   Giochi
+                         online  in  grafica  SVGA  (un  simulatore  di   volo,
+                         Federation  II),  puo'  essere  usata con un terminale
+                         grafico RIP (l'ho provato, non e' male).
+
+                         10 linee  Zyxel  19200  bps,  2  linee 28800 Telefono:
+                         (dati)   02,66011588    (voce)    02,66013553    (fax)
+                         02,66011023     E-mail:    crovetto@mail.on-line.co.uk
+                         (sysop) blasich@mail.on-line.co.uk (games)
+
+                         Costo: di prova 1 mese Lit 19.000 3 mesi Lit 47.200 (1
+                         ora di games gratis) 6 mesi Lit 87.200 (2 ore di games
+                         gratis) 1 anno Lit 150.000  (3  ore di games gratis) 1
+                         ora successiva di  games  Lit  5.000  Accessibile  via
+                         Sprint.  Fra un po' ci sara' l'offline mail reader per
+                         internet in QWK.
+
+ MCLink                  Fornisce e-mail (dominio mclink.it).
+                         ARCHIE,FTP,TELNET,PING,newsgroups,SLIP.    In   questo
+                         periodo  potete  usufruire  di un'offerta particolare:
+                         comprando un programma  di  comunicazione (ODISSEY, un
+                         po' scarso francamente) avete diritto ad  un  mese  di
+                         abbonamento  'gratis'  (nel senso che pagate una cifra
+                         spropositata,   25000   lire,   detto   programma)  al
+                         servizio.  Almeno vi potete rendere conto di come e'.
+
+                         Incoveniente: per usufruire di questa  offerta  dovete
+                         telefonare  almeno la prima volta a Roma, dato che non
+                         si e'  ancora  abbonati  e  l'offerta  e' gratuita per
+                         quanto riguarda il servizio, ma  non  ITAPAC  (per  le
+                         tariffe  vedi piu' avanti).  Dalla seconda connessione
+                         potete usufruire di ITAPAC, tramite carta di credito.
+
+                         Difetti di MCLINK: ARCHIE  e' estremamente lento, dato
+                         che viene consultato  in  remoto  (MCLINK  non  ha  un
+                         client).   Da  usarsi  SOLO  con ITAPAC, se non volete
+                         svenarvi.
+
+                         Possibilita' di comprimere  la  posta personale (anche
+                         internet) ma non le news.
+
+                         Telefono: (Dati) 06-4180440 (32 Zyxel 19200)
+                                          06-4513900 (8 USR V.34 28800)
+                                          06-4510211 (1200 bps)
+                                   (voce) 06-418921
+                         NUA ITAPAC EASY WAY 20610420
+                         Costo: Lit 216.000 annue
+
+ Italia On Line          Ribattezzata  Italia  Off-line  per  le  promesse  non
+                         mantenute  (a  sentire  loro  sarebbero  dovuti essere
+                         operativi  a  Novembre,   mentre   chissa'  quando  lo
+                         saranno), e' la BBS con un  client  grafico  (come  la
+                         sorella  America  On  Line)  sotto  Windows  (non sono
+                         previste altre piattaforme).
+
+                         Accesso in  sola  commutata  (percui antieconomico per
+                         tutti fuorche' i residenti in Milano)  con  il  client
+                         che sara' disponibile in edicola (quando???).
+
+                         Non   fatevi   illusioni:   America  On  Line  non  e'
+                         qualitativamente  gran  che,   anche   se  ha  diverse
+                         centinaia di migliaia di abbonati.  In Italia sappiamo
+                         bene che la qualita' lascia spesso a desiderare...  Se
+                         avete   a   disposizione    MOSAIC    collegatevi    a
+                         http://www.iol.it/.
+
+                         Costo: non definito al momento di andare in stampa.
+                         Se lo conosci, lo eviti.
+
+ Skylink                 Fornisce e-mail (dominio skylink.it)
+                         FTP,TELNET,IRC,GOPHER,TALK,WHOIS,WAIS,newsgroups.
+
+                         Giochi on-line.
+
+                         E' possibile anche il dial out e mandare FAX, da
+                         pagarsi a parte.
+
+                         NUA ITAPAC EASY WAY 23320178
+                         Telefono (dati): 0332-706660 (16 linee V.34)
+                                          0332-706739 (Zyxel)
+                                  (voce): 0332-706681
+                                  (FAX):  0332-706009
+                         Costo: 1 mese Lit. 20.000
+                                6 mesi Lit. 105.000
+                                12 mesi Lit. 175.000 (IVA non compresa)
+
+
+                              IP provider 'puri'
+
+
+ CINECA                  Gia' da tempo  il  Consorzio interuniversitario per il
+                         calcolo  da'  l'utilizzo  dei   suoi   computers   per
+                         l'accesso  a  Internet.   Recentemente  la  citta'  di
+                         Bologna,  in  accordo  col  CINECA,  offre internet in
+                         questo modo  (sono  validi  questi  prezzi  con sconti
+                         oscillanti fra il 15 ed il 30% ai residenti nel comune
+                         di Bologna).
+
+                         Le offerte sono molte.  Principalmente si dividono  in
+                         due  categorie: a consumo,detta TC (si paga in ragione
+                         del tempo) ed ad  abbonamento (canone fisso) detta TA.
+                         Le linee commutate sono a 14400 bps.
+
+                         SLIP
+                         Lit. 60.000 al bimestre+200 lire/min commutata (TC/A01)
+                         Lit. 60.000 al bimestre+100 lire/min (ITAPAC TC/D01)
+                         Lit. 3.600.000 all'anno commutata (TA/01)
+                         Lit. 5.400.000 all'anno ITAPAC (TA/B99)
+                         Prezzi per singolo utente
+
+                         Per sola utenza non commerciale (per noi poveracci)
+                         SLIP
+                         Lit. 600.000 all'anno. La durata di una sessione e'
+                         limitata ad un'ora, dopo di che' si abbatte la sessione
+                         (alla faccia della security..) solo commutata
+
+                         NUA ITAPAC EASY WAY 25161028100 (IBM)
+                                             25161028200 (CRAY ed altri)
+
+                         NUA ITAPAC 25161124ddd
+
+                              ddd    calcolatore
+                             ---------------------
+                              100     IBM
+                              200     IS-4000
+                              300     VAX
+
+                         Per informazioni: (voce) 051-6599423 (dalle 10 alle
+                         13, dal martedi' al venerdi')
+                         e-mail: consul@cineca.it
+                         Potete scaricare files con materiale informativo su
+                         FTP: ftp.cineca.it directory /pub/nettuno
+
+ CSP                     Il Centro di SuperCalcolo Piemontese ha aperto
+                         le porte al pubblico col suo accesso ad Internet
+                         (che utilizza RRE [NdE: yeah!]).
+
+                         SLIP:
+                         Tariffa a consumo Lit. 10.000 al mese + 5.000 ora
+                         Offerte promozionali:
+                         10 ore in tre mesi Lit 60.000 (25% di sconto)
+                         40 ore in un anno  Lit 230.000 (28% di sconto)
+                         160 ore in un anno Lit 620.000 (33% di sconto)
+                         L'ultima tariffa e' quella piu' concorrenziale
+                         rispetto al mercato.
+
+ IBM                     Il  nuovissimo  entrato!    Con  l'introduzione  della
+                         versione Warp di OS/2, che al pari di Chicago ha  SLIP
+                         incorporato, IBM si lancia nel mondo IP.
+
+                         Considerato  che  IBM  possiede  internet  per   comu-
+                         nicazioni  interne  da  molti  anni,  le premesse sono
+                         ottime.   Occorre   possedere   OS/2  Warp,  l'instal-
+                         lazione dello SLIP e l'iscrizione sono guidati e fatti
+                         automaticamente dal programma.  Pagamento con carta di
+                         credito.
+
+                         Ottima l'assistenza: ho chiamato il  numero  verde  (e
+                         come  tutti i 1678-7xxxx sta all'estero, in Olanda nel
+                         caso  specifico)  e  sono  molto  gentili  e  solerti.
+                         Connessione fino a 28800 bps.
+
+                         Telefono (informazioni): 1678-76007
+                                  (dati) MILANO: 02-70609200
+                                         TORINO: 011-7777870
+
+                         SLIP  attivazione una tantum Lit. 59.000
+                               abbonamento mensile (3 ore gratis) Lit.25.300
+                               ora supplementare Lit. 6800
+
+ ITNET                   ITNET fornisce accessi SLIP.
+                         Vedi Telematicus N. 43 per maggiori informazioni.
+
+                         Informazioni: info@it.net.
+
+                         Costi: Lit. 2.400.000/anno + 500.000 per attivazione
+                                (utenza commerciale)
+                                Lit. 600.000/anno + 200.000 per attivazione
+                                (utenza non commerciale, solo dalle 18.30
+                                 alle 8.30)
+
+ TELNET                  Non sto a dilungarmi, guardate l'articolo di
+                         .mau. su Telematicus N.43 per informazioni su chi
+                         gestisce il servizio.
+
+                         UUCP Societa' Lit 900.000 annui
+                         Privati  Lit 600.000 annui
+                                  Lit 60.000 mensili
+                         Studenti Lit 300.000 annui
+                                  Lit 40.000 mensili
+                         SLIP/PPP Societa' Lit 2.350.000 annui
+                                  Privati  Lit 1.450.000 annui
+                                           Lit 140.000 mensili
+                         Connessione fino a 28800 bps, possibili (con
+                         altre tariffe) ISDN, CDN ed altro.
+                         Tutti i prezzi IVA esclusa
+                         Telefono: (voce) 0382-529751 (fax) 0382-528074
+
+  Tenete  pure presente che Microsoft fara' la stessa mossa di IBM con la nuova
+ versione di Windows (WINDOWS  95),  inserendo  uno SLIP nel sistema operativo.
+ Tenete presente che e' Microsoft, con tutti i  problemi  (messi  appositamente
+ per  costringere  l'utente  a comprare Microsoft) che comporta.  WINDOWS 95, a
+ scanso di altri bachi, uscira' a primavera '95.
+
+
+                     La gestione intelligente del traffico
+
+
+  Internet spinge ad un consumo spinto delle  risorse del vostro HD, sia per la
+ quantita' di messaggi sia per i files.  La scelta del tipo di  connessione  e'
+ di capitale (nel senso dei soldi) importanza.
+
+  Le possibilita' al momento sono quattro: linea commutata $IP, linea commutata
+ Sprint  (un  carrier  americano  presente  anche  in  Italia),ITAPAC  e  linea
+ dedicata.
+
+  Mamma  $IP  (oops,  Telecom  Italia)  la  conoscete  tutti,  e  non  mi sto a
+ dilungare.
+
+  Un 'nuovo' venuto e' Sprint, che  offre in 28 citta' italiane la possibilita'
+ di scambiare dati (la linea e' *solo* per modem) con addebito reverse-charging
+ (paga il chiamato che poi vi  addebitera'  la  spesa  a  voi  sulla  carta  di
+ credito).
+
+  La  parte  succosa  e'  che  la  tariffazione  non  ha scaglioni di tempo (e'
+ identica 24h/24h, 7 giorni  su  7)  e  neanche spaziali (e' indipendente dalla
+ distanza).  Questo rende conveniente utilizzare Sprint per le  telesezioni  di
+ fascia  alta  (>120Km)  dato  che Sprint chiede poco meno di 10000 lire/ora di
+ connessione.  L'IP pero' deve prevedere  questo  tipo di contratto per poterlo
+ utilizzare.
+
+  Per quanto riguarda Tymnet fate riferimento a Telematicus [29,30,31*,33,40].
+
+  ITAPAC offre gioie e dolori.  La gioia sta  nella  relativa  economicita'  di
+ servizio,  e  dal  fatto  che  la  tariffazione  e'  proporzionale al traffico
+ generato e non solo  al  tempo  di  connessione.   In  questo modo, se usate i
+ servizi interattivi (FTP,TELNET, news) potete stare comodi e fare  con  calma,
+ senza avere l'ansia di concludere in fretta e trovare quello che vi interessa.
+ Il  dolore e' nella velocita' di connessione (2400 bps, veramente pochi per un
+ utilizzo un po' serio) e nella scarsa affidabilita' della rete (computer down,
+ strani malfunzionamenti, assistenza inesistente).   La  linea dedicata e' solo
+ una gioa, eccetto che per il portafoglio.  Utile solo  a  ditte  ed  attivita'
+ commerciali.
+
+
+                              Ma quanto mi costi?
+
+
+  Passiamo ad un raffronto diretto, tenendo conto di tutte le variabili.
+
+ TELECOM Italia
+                              SCAGLIONI TARIFFARI
+
+                                         Scatti
+                                          alla
+    Descrizione               Tariffa   Risposta    Ritmi  Costo orario L.
+ ========================================================================
+ Interurbana  <= 15Km         Normale       1         75"      6432
+                              Punta         1         43"      11219
+                              Serale        1        100"      4824
+                              Notturna      1        150"      3216
+ ------------------------------------------------------------------------
+ Interurbana  > 15 <= 30Km    Normale       1         40"      12060
+ ITZ frontaliera Zona 1       Punta         1         24"      20100
+                              Serale        1     52",500      9112
+                              Notturna      1         80"      6030
+ ------------------------------------------------------------------------
+ Interurbana  > 30 <= 60Km    Normale       1         23       20974
+ ITZ frontaliera Zona 2       Punta         1     16" 700      28944
+                              Serale        1         35"      13782
+                              Notturna      1         45"      10720
+ ------------------------------------------------------------------------
+ Interurbana  > 60Km          Normale       1         20       24120
+                              Punta         1     13",500      35778
+                              Serale        1         32       15075
+                              Notturna      1         40       12060
+ ------------------------------------------------------------------------
+ Interurbana Settoriale       Normale       1        120"      4020
+                              Punta         1         84"      5742
+                              Serale        1        168"      2871
+                              Notturna      1        240"      2010
+ ------------------------------------------------------------------------
+ Urbana TUT                   Normale       1        220"      2192
+                              Punta         1        170"      2837
+                              Serale        1        300"      1608
+                              Notturna      1        400"      893
+ ------------------------------------------------------------------------
+
+ SPRINT
+
+ Circa 10000 lire all'ora, V.32bis indipendentemente da ora e distanza.
+ Citta' collegate:
+
+                         06/575155       ROMA
+                         02/603630       MILANO
+                         011/835010      TORINO
+                         0171/65796      CUNEO
+                         030/2400000     BRESCIA
+                         041/971004      VENEZIA
+                         010/585044      GENOVA
+                         0471/971250     BOLZANO
+                         045/8010264     VERONA
+                         0432/21068      UDINE
+                         051/220035      BOLOGNA
+                         055/213614      FIRENZE
+                         0521/200097     PARMA
+                         050/21183       PISA
+                         071/53726       ANCONA
+                         081/5510435     NAPOLI
+                         075/5057536     PERUGIA
+                         0775/212237     FROSINONE
+                         085/27255       PESCARA
+                         089/223140      SALERNO
+                         080/5210643     BARI
+                         091/321446      PALERMO
+                         0971/21172      POTENZA
+                         099/430352      TARANTO
+                         0961/701160     CATANZARO
+                         070/658501      CAGLIARI
+                         095/310330      CATANIA
+                         079/200026      SASSARI
+
+ ITAPAC
+
+ Disponibile in quasi tutti i distretti urbani.
+ Tariffazione:
+
+ Alla chiamata:             72 Lire
+ occupazione porta          26 Lire
+ tariffa a tempo ordinaria   7 Lire al minuto
+ tariffa a tempo ridotta     2,6 Lire al minuto
+ tariffa a volume ordinaria  1,6 Lire al segmento (64 o 128 bytes)
+ tariffa a volume ridotta    0,5 Lire al segmento (64 o 128 bytes)
+
+
+                                  In sintesi
+
+
+  La  soluzione  ideale  non e' semplice.  In effetti e' un mix con due tipi di
+ accesso diversi.  L'ideale e'  avere  un  IP  che permette trasparentemente di
+ accedere al proprio servizio in commutata ad alta velocita' (28800 bps) e  con
+ ITAPAC, senza problemi per l'accredito dell'uso del servizio.
+
+  Generalmente  il  provider  non  fa pagare tariffe aggiuntive oltre al canone
+ fisso annuale/semestrale/trimestrale  per  l'utilizzo  in  commutata,  per cui
+ anche se siete distanti dal vostro provider, dopo le 22:00 e con una velocita'
+ minima di 14400 bps, se scaricate files vi conviene telefonare in  interurbana
+ anziche' usare ITAPAC.
+
+  Se  avete  le fortuna di abitare nello stesso distretto telefonico del vostro
+ IP, beh allora non avevate bisogno di leggere questo articolo!
+
+  Per tutti gli altri casi, inclusa in  ogni caso la lettura delle news on-line
+ in urbana usate ITAPAC.  Lenta, poco affidabile, ma *economica*.
+
+  Per l'utenza professionale, che accede ad internet per ragioni (e  in  orari)
+ d'ufficio  l'alternativa  migliore  e'  senza  dubbio  Sprint, che nelle fasce
+ diurne offre consistenti risparmi di tempo e di soldi.
+
+
+                      Per darvi un'idea dell'offerta USA
+
+
+  Tanto per dirvi a che livello siamo messi, vi dico alcune cifre di un paio di
+ internet provider americani.
+
+  Un piccolo provider (ci sono moltissime ditte di piccole dimensioni in questo
+ settore) TLG (The Litlle Garden)  offre  SLIP/PPP  a  70$ al mese su commutata
+ 14400 bps, senza limitazioni di traffico.
+
+  Potete rivendere il servizio  a  terzi,  se  volete  (non  possibile,  o  con
+ sovrapprezzo,  con  i  provider  italici).   Se siete in due, avete un'offerta
+ imbattibile.
+
+  Con un provider piu' grosso, le tariffe in commutata sono piu' o meno quelle,
+ ma in dedicata 64K si  viaggia  a  cifre  che  sono la meta' di quelle nostre.
+ Tenete pure presente che le telefonate urbane in USA spesso non si pagano, per
+ cui tutto quello che spendete e' l'affitto del servizio, diversamente che qui.
+ Niente sorprese.
+
+
+                             Considerazioni finali
+
+
+  L'offerta sul mercato e' troppo ampia.  I piu' deboli periranno, e secondo me
+ fra due anni il numero dei provider scendera' drasticamente, lasciando i  piu'
+ grandi o quelli con maggiore anzianita' (Agora', MCLINK, Skylink).  Ne vedremo
+ delle belle.
+
+ Il vostro Editor Netticus
+
+ Stefano Costa2
+ Fidonet:  2:331/128, oppure 2:331/306
+ Euronet:  230:1012/101
+ Cybernet: 65:1200/5
+ Internet: scosta@bix.com,mc1671@mclink.it (fino al 5 Gennaio 1995, termine  di
+           scadenza dell'abbomento di prova) [NdE: ruffiano!  ovvero,  inviato
+           speciale :)]
+
+  Potete usare PGP con la mia chiave  pubblica, tenendo presente che in Fido la
+ crittazione e'  tollerata  od  addirittura  avversata  da  certi  sysop.   Per
+ qualsiasi  motivo  (ivi  compreso  il sacrosanto diritto alla privacy) usatela
+ pure.  Meglio se in Internet, Euronet, Cyber...
+
+ -----BEGIN PGP PUBLIC KEY BLOCK-----
+ Version: 2.3
+
+ mQCNAi7l2QMAAAEEANTwCQJBuNU85XUHFosIFBhjeG776cNqP+Z96w32V/g5UwtO
+ I62x5TOOV61s/hNRvZpB3KIhmaAJ/X/roCDOS/1kZZuO1NWEZd6soXEnPUgiiht8
+ gvwJPt2EzUwfsA8gwpvkVxwVu8a3FJkvlLC2FKviuUZMWvHI1YnTXNgS/cWJAAUR
+ tB5TdGVmYW5vIENvc3RhIDxzY29zdGFAYml4LmNvbT4=
+ =ag8o
+ -----END PGP PUBLIC KEY BLOCK-----
+
+ ############                                                               ###
+ ###   4  ###                                         Un po' di riviste ... ###
+ ############                                                           RRE ###
+
+ Riassunto:
+        E' un modesto riassunto di tre riviste che potete trovare in giro,  dai
+       vari giornalai.Comunque la cosa migliore e' - come al solito - andarvele
+       a leggere in situ. :)
+
+ ------------------------------------------------------------------------------
+
+ OK, eccovi una breve panoramica sulle riviste che potete trovare in giro.
+
+
+ Internet and Comms Today:
+
+    (copie osservate: nr. 1, novemdicembre 1994, nr.5, marzo 1994)
+    Nick Merritt, editor-in-chief
+    Tel: (01202) 299900
+    Fax: (01202) 899955
+    E-Mail: paragon@itoday.demon.co.uk
+    E-Mail: itsubsn@itoday.demon.co.uk (abbonamenti)
+    Paragon Publishing Ltd.  Durham House, 124 Old Christchurch Rd.,
+                             Bournemouth, BH1 1NF
+
+
+    E' quello che si  preoccupa  piu'  di  vedere come ottimizzare l'accesso ad
+   Internet, come usarlo e che programmi usare.  E lo fa per Amiga,  Windos,  e
+   Mac.  Nulla per os/2.
+
+    E'  molto  fotografosa e dei due number che ho visto c'e' un po' il rischio
+   che alla fine si sappia che programma  volere  e come usare slip o il mail e
+   che si cominci a cercare altre testate.
+
+    Piena di foto di Mosaic,  ha  una  specie  di  guida  ai  siti  molto  meno
+   dettagliata di Net Guide: manca del tutto una critica ad essi.
+
+    Ha  nelle  ultime  pagine  delle  inserzioni  per  offerte/ricerca posti di
+   lavoro.
+
+    Ancora una cosa: ho  spedito  almeno  5  mail  per chiedere le modalita' di
+   abbonamento e non hanno mai risposto!
+
+
+ Net Guide:
+
+    (copia osservata: dicembre 1994)
+    Patrice Adcroft, editor-in-chief
+    Tel: (516) 562-5000
+    Fax: (516) 562-7406
+    E-Mail: mail@netguide.cmp.com
+    NetGuide - 600 Community Drive - Manhasset, NY 11030 (USA)
+    http://www.cmp.com/NetGuide/home.html
+
+    Ho guardato bene, ed in tutta la rivista non sono riuscito  a  trovare  una
+   foto  di  Mosaic  o  di  qualche  parte della rete (esclusa la pubblicita')!
+   Questo e' gia' interessante.
+
+    Comunque la parte interessante  della  rivista  mi sembra la recensione dei
+   siti, sono riportati per ordine:
+
+     arcade                             public domain
+     dollars & sense                    showbiz (cinema)
+     etc.                               sound both
+     for kids only                      spirituality
+     good reads                         sporting life
+     leisure time                       travelogue
+     marketplace                        weather
+     palate pleasers                    signature files
+      (questa buona per il Piola) :)
+
+    di ciascun sito preso in esame  e'  riportato  in poche righe cosa si pupo'
+   trovare, come e' offerto ed altre indicazioni standarizzate con iconette.
+
+    Purtroppo non ho avuto il tempo di  controllare  nessuno  di  questi  e  di
+   vedere l'attendibilita' delle info.
+
+
+ .net - The Internet Magazzine
+
+    (copia osservata: dicembre 1994)
+    Matt Biebly, editor
+    mattb@futurenet.co.uk
+    30 mommouth street, bath avon ba1 2bw
+
+    Da  quello che ho visto rappresenta il peggio sia della filosfia di ICT che
+   di .net.  Per esempio oltre al mare di articoli - piu' o meno interessanti -
+   non sono riuscito  a  trovare  un  indirizzo  di  qualche  sito  in tutta la
+   rivista!  cosi' si esagera!  :)
+
+    Comunque dal mio sguardo superficiale e' parsa un po' una sepcie di Novella
+   2000 o Epoca di Internet.
+
+    Guardatela bene prima di comprarla.
+
+
+
+
+                                                                           RRE
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                                    IL GERGO HACKER - PARTE 39 ###
+ ############                                    Eric S. Raymond & .mau.    ###
+
+ Riassunto:
+        Non so come ma queste erano mancate nel number precedente: le inserisco
+        ora... cosi' mi sgrida il .mau. :
+
+        Visto che le hai dimenticate, ti spedisco queste voci del Jargon.  Il
+       resto prima o poi.
+
+ ------------------------------------------------------------------------------
+
+    <TCB> /tee see bee/  [IBM]  1.  Trouble  Came  Back [I guai ritornano].  Un
+ problema intermittente o difficile da riprodurre di cui non si puo` far  finta
+ di  niente.  Confr.  <heisenbug>.  Da non confondere con: 2. Trusted Computing
+ Base, termine gergale "ufficiale" dall'<Orange Book>.
+
+    <TECO> /tee'koh/  obs.   1.  v.  Originariamente,  editare  usare una delle
+ infinite varianti dell'editor TECO (vedi sotto): a  volte  usato  perfino  per
+ dire  "editare"  quando  non  si  usava TECO!  Uso: raro e ormai primariamente
+ storico.   2.  [originariamente   acronimo   per   (paper)  "Tape  Editor  and
+ COrrector"; poi, "Text Editor and Corrector"] s. Un editor di testi sviluppato
+ all'MIT, e modificato praticamente da tutti, Se si considerano  tutti  i  suoi
+ dialetti,  TECO  potrebbe essere stato il singolo editor piu` prolifico in uso
+ prima di <EMACS>, di cui  e`  il  suo  diretto  antenato.  Notevole per le sue
+ potenti caratteristiche da linguaggio di programmazione e per la sua  sintassi
+ incredibilmente <hairy>.  E` letteralmente il caso che una qualunque possibile
+ successione  di caratteri ASCII e` un programma valido, anche se probabilmente
+ non interessante, per TECO;  un  gioco  comune  tra  gli hacker consisteva nel
+ calcolarsi mentalmente cosa facessero i comandi TECO corrispondenti a un  nome
+ umano.   Come  esempio  di  programma TECO, eccone uno che prende una lista di
+ nomi come questa:
+
+      Loser, J. Random
+      Quux, The Great
+      Dick, Moby
+
+ li mette in  ordine  alfabetico  per  cognome,  e  mette  questo  per  ultimo,
+ togliendo la virgola, per produrre:
+
+      Moby Dick
+      J. Random Loser
+      The Great Quux
+
+ Il programma e`:
+
+      [1 J ^P $ L $ $
+      J <.-Z; .,(S,$ -D .)FX1 @F^B $K :L I $ G1 L>$$
+
+ (dove  ^B significa "Control-B" (ASCII 0000010) e $ e` in realta` il carattere
+ <escape> (ASCII 0011011))
+
+  Di fatto, proprio questo  programma  e`  stato  usato per produrre la seconda
+ lista ordinata dalla prima!  Il primo tentativo ebbe un baco:  gls  (l'autore)
+ si  era  accidentalmente  dimenticato  della  "@"  davanti  a  "F^B", che come
+ chiunque puo` vedere dava  tutt'altra  cosa.   Al  secondo tentativo e` andata
+ bene.  Non c'e` spazio per descrivere tutte le feature di TECO, ma puo` essere
+ interessante che "^P" significa "ordina" e "J <.-Z;  ...   L>"  e`  una  serie
+ idiomatica di comandi per "fai per ogni riga".
+
+  Negli  anni  '90,  TECO  e` coperto dalla polvere della storia, essendo stato
+ rimpiazzato da <EMACS> nell'affetto  del  mondo  hacker.  Si puo` pero` ancora
+ trovarlo nascosto nell VMS e in una coppia di vetusti sistemi operativi per il
+ PDP-11.
+
+    <tee> s.,v.  [Purdue] Una copia di una trasmissione elettronica.  "Oh,  gli
+ stai  spedendo  i  <bits>  di  quello?   Tira  giu` un tee anche per me".  Dal
+ comando UNIX `tee(1)'.  Puo` anche  significare  `salvane uno per me', come in
+ "Tee a slice for me!".  Scritto anche `T'.
+
+    <TELNET> /telnet/ v. Comunicare con un altra macchina usando  il  programma
+ <TELNET>.   Alle volte abbreviato in TN.  "In genere faccio un t. su SAIL solo
+ per leggermi le news".
+
+    <ten finger interface> [interfaccia a  dieci dita] s. L'interfaccia tra due
+ reti che non possono essere direttamente collegate per ragioni  di  sicurezza:
+ si  riferisce alla pratica di mettere due terminali fianco a fianco e avere un
+ operatore che legge da uno e scrive nell'altro.
+
+    <tense> [teso] agg.  Di  programmi,  molto  intelligente ed efficiente.  Un
+ pezzo di codice t. spesso lo e` perche` e`  stato  altamente  ottimizzato  (v.
+ <bum>), ma a volte e` semplicemente basato su una grande idea.  Un commento in
+ una  bella  routine  di  display  di  Mike  Kazar, studente e hacker alla CMU:
+ "Questa routine e` cosi` t.  da  farvi  venire  le lacrime agli occhi.  Grazie
+ mille a Craig Everhart  e  James  Gosling  per  avere  ispirato  questo  <hack
+ attack>." Un programmatore t. e` uno che produce codice t..
+
+    <tenured  graduate  student>  [gioco  di  parole intraducibile, vedi sotto.
+ Tenure e` la `cattedra' universitaria].   s.  Uno  che e` stato in universita`
+ per dieci anni (il massimo solito e` cinque o sei): uno studente  "ten-yeared"
+ (capito?)   Gli   studenti   non  ottengono  cattedre,  naturalmente,  come  i
+ professori, ma uno studente del  decimo  anno e` stato probabilmente intorno a
+ quell'universita` piu` di molti professori.
+
+    <teraflop club> /ter'a-flop kluhb/ [FLOP =  Floating  Point  Operation]  s.
+ Mitico  gruppo  di persone che consuma quantita` oltraggiose di tempo macchina
+ per produrre delle semplici figure di palle di vetro con intricate tecniche di
+ ray tracing.  Il professore James Kajiya  del Caltech e` considerato il membro
+ fondatore.  Vedi anche <kilo>.
+
+    <terminak> /ter'mi-nak/ [Caltech, ca.   1979]  s.  un  qualunque  terminale
+ malfunzionante.   Era guasto comune tra i terminali Lear-Siegler ADM3a il fare
+ produrre al tasto "L" il codice  "K";  i  reclami tendevano ad essere del tipo
+ "Ik terminake #3 ha una tastiera che non funziona.   Per  favore  riparateka".
+ Vedi <sun-stools>, <HP-SUX>.
+
+    <terminal  illness>  [malattia  del terminale].  1. Sin.  di <raster burn>.
+ 2. La condizione `bruciata' che il vostro CRT tende ad avere se non si usa uno
+ screen saver.
+
+
+
+                                           tradotto da .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                   Come ti aggiusto il Pentium ###
+ ############                                                       Torello ###
+
+ Riassunto:
+        Cosi' mi si rivolse il buon Torello:
+
+  Mi permetto di augurare a lei,  egregio  e  rispettabile  editor  regal,  una
+ allegra e felice giornata, nonostante che la mia umile persona e' a conoscenza
+ della  sua  sfiga.   (Mi  sto  riferendo  ormai al Supra...  800 cps mitico!!!
+ ...per  riscaldare  l'   ambiente   penso   che   le   rom   siano  un  ottimo
+ combustibile....)
+
+  Comunque...  ecco come  da  Sua  gentil  richiesta  un  qualcosa  che  sappia
+ suscitare  un qualche sorrisino anche a lei, iperscrutabile RRE.  Spero che la
+ concorrenza non si offenda se metto  nella mia origin la frase "Telematicus e'
+ 6*10^35 volte migliore di Corriere Telematico"...  Bah...  le cause civili e/o
+ penali le mando poi a te...  io sono innocente e soprattutto minorenne (quindi
+ al massimo cuzzano mio padre...)
+
+             Ciao! Sparaparagnaus, Torello, l' editor deficentior
+
+ ------------------------------------------------------------------------------
+
+  Il Vostro Bel Pentium Sbaglia i Conti? Ecco che arrivo io...
+
+  Avete  comprato  un  bel  pentium  per fare tornei di pacman in multitasking?
+ Oppure per provare nuove emozioni  vedendo  i blocchetti del tetris scendere a
+ velocita' mostruose?
+
+  Sicuramente avrete sentito la notizia di questi  ultimi  giorni:  il  pentium
+ sbaglia a fare 2+2!  (Beh...  piu' o meno...).  Anche io che ho la costanza di
+ prendere 4+ di mate faccio i conti meglio!
+
+  Probabilmente,  usando  programmi  che  sfruttano  intensamente  la FPU, come
+ appunto il pacman (o defender, se  ce  l'  avete ancora), vi sarete resi conto
+ che alcune volte o  apparivano  nuovi  pallini  da  mangiare,  o  c'  erano  5
+ fantasmi,  oppure ancora appariva sul vostro monitor la scritta "Mi sono rotto
+ il bus di 'sta  schifezza".   Insomma  il  vostro  Pentium  bara, ma non lo fa
+ apposta, e' colpa dei tecnici della intel che non sanno mettere giu' due piste
+ di silicio senza fare qualche casino.
+
+  Ora le soluzioni sono due: chiamare il numero verde  e  farsi  sostituire  il
+ processore, oppure fare come vi dico io.
+
+  In  fondo,  dite  la  verita', vi siete gia' affezionati al _vostro_ pentium,
+ come quando vi eravate affezionati  alla  vostra scheda grafica VIC dopo pochi
+ giorni che il C64 era arrivato (alcuni addirittura avevano  provato  ad  avere
+ rapporti  carnali  attraverso  il  5426,  che in relta' non era mica poi tanto
+ semplice, ma n on ne  sono rimasti molto soddisfatti...).  Probabilmente avete
+ gia' overcloccato a 160 Mhz il vostro amato processore e  temete  che  con  la
+ sostituzione  non  regga  piu'...   Oppure  l' avete gia' truccato mettendogli
+ sotto un bel RS4000, giusto perche'  se  no  l' Unix non poteva aprire piu' di
+ 160 finestre (sempre per pacman...).
+
+  Se invece non ve ne frega niente potete o buttarlo giu' dal fosso piu' vicino
+ a casa vostra (pero' ditemi dove lo buttate!), oppure chiamare il numero verde
+ e aspettare appena 3800 giorni prima che ve lo cambino.  Basta avere pazienza.
+
+  Se invece volete procedere alla risoluzione definitiva dei vostri problemi da
+ soli ecco cio' di cui avete bisogno:
+
+  1 microprocessore Pentium Intel Inside (non tarocco)
+  1 saldatore
+    stagno
+  1 lente, oppure gli occhiali spessi di vostro zio
+  1 calcolatrice (preferibilemnte quelle che regalavano con il Dixan)
+    vari antisfiga a piacere
+
+  Innanzitutto e' necessario togliere il Pentium dallo zoccolo della mainboard;
+ non sara' difficile riconoscerlo, di solito e' il piu' grosso  (questo  e'  il
+ metodo  piu' scientifico), e poi, se non l' avete usato troppo per cuocerci le
+ zanzare, si dovrebbe ancora leggere "Pentium"  e poi qualcos' altro.  Se c' e'
+ scritto "Scemo chi legge", probabilmente il vostro  amato  rivenditore  vi  ha
+ fregato.
+
+  Per  sfilarlo dallo zoccolo e' necessaria un poco di cautela.  Io ho usato un
+ piede di porco e mi e' sembrato ideale, anche se forse con un bell' estrattore
+ pneumatico si fa prima.
+
+  E'  necessario  aprire  il  Pentium.   Questa  operazione  forse  e'  la piu'
+ difficile.  Io ho lasciato il Pentium a mio cugino di 0.9 anni  per  1.3  ore.
+ Al  mio  ritorno  aveva  risolto  lui;  non  chiedetemi  come,  ha  provato  a
+ spiegarmelo e mi ha detto una roba tipo "mbdebbabbba bbannabdgga u", che forse
+ e' un dialetto del pascal.
+
+  Un  modo semplice semplice per aprire il processore consiste nel farlo cadere
+ dal 26o piano; al momento  di  rimontarlo  potrete anche divertirvi con un bel
+ puzzle tridimensionale miniaturizzato di cui probabilmente vi manca il 15% dei
+ pezzi.
+
+  Ora dovete trovare dove sta la FPU o il coprocessore.
+
+  Per fare cio' vi sono alcuni metodi:
+
+  1) tirate a caso.
+
+  2) organizzate una bella caccia al tesoro tra organismi unicellulari.  A  chi
+     trovera'  per  primo  il  coprocessore,  verrano  dati  in pasto gli altri
+     partecipanti cotti alla piastra direttamente sul processore.
+
+  3) partendo dal 18o piedino girate due volte a sinistra, quindi andate sempre
+     dritti fino a quando non vedete  un  incrocio con 2 pezzi di silicio messi
+     di traverso.  Da qui dovrebbero esserci le indicazioni
+
+    --------------\
+    | COPROCESSORE >
+    --------------/
+
+  Non dovreste sbagliarvi.
+
+  4) invitate una sera a cena i tecnici della Intel e vi fate spiegare  un  po'
+     bene da loro.
+
+  Se  trovate  il  coprocessore  e' fatta.  Prendete la calcolatrice provate ad
+ attaccare un paio di tracce  qua  e  la',  se funziona lasciatelo cosi, se non
+ funziona  provate  di  nuovo...   in  fondo   dovreste   avere   poco   piu'di
+ 3*10^987654321 possibilita', non demoralizzatevi.
+
+  Il  vantaggio  della  calcolatrice  del  Dixan  e' che e' solare e quindi non
+ dovrete  preoccuparvi  di   sovraccaricare   il   trasformatore.   Inoltre  la
+ calcolatrice _funziona_, ha la radice quadrata e M+, che al giorno d' oggi non
+ e' poco.
+
+  Il difetto e' che se vi piace giocare a Falcon 3.0 al  buio  la  calcolatrice
+ non funzionera', appunto perche' solare.  Ma dato che ricordarsi tutti i tasti
+ da  usare in Falcon 3.0 e' una cosa alquanto utopica, l' utenza che preferisce
+ giocare al buio e' solo una minoranza  etnica e quindi non ce ne frega niente.
+ (Io razzista...?  Al rogo gli amighisti!!!).(Renato...  ce l'  hai  ancora  l'
+ amiga?   :)  (la faccina era necessaria se no comincia a telefonarmi alle 3 di
+ notte)
+
+  Se trovate la FPU, siate  cosi'  gentili  da  spedirmela.  Io saro' felice di
+ usarla come oggetto contundente da scagliare addosso ai tecnici  della  Intel,
+ quando  verranno  a  cambiarmi  il  Pentium.   Se  non la trovate, il problema
+ risultera' molto serio, ma fa  lo  stesso...  potete mandarmi qualche pezzo di
+ avanzo della vostra amata mainboard Plato.  (chennesso'...  c' e' nessuno  che
+ ha una ATI Mach 64 e non se ne fa niente?  E poi avrei giusto bisogno di altri
+ 4Mb di Ram....)
+
+  Per  collegare  in  modo  durevole  la calcolatrice (che poi andra' sistemata
+ fuori   dal    case,    preferibilmente    sul    balcone...    sapete...    i
+ surriscladamenti...) e' necessario usare il vostro bel saldatore.
+
+  Fate una saldatura dove  ritenete  debba  essere  fatta,  infondo  e'  meglio
+ qualche saldatura in piu' che im meno, giusto?
+
+  Ricordatevi  che  un  errore  di  4  micron  potrebbe  essere fatale e che la
+ temperatura di fusione del silicio non e'  poi tanto alta.  Non vi sto dicendo
+ di non farlo.  Vi sto dicendo che  se  per  caso  arriva  improvvisamente  una
+ folata  d'  aria  alla  velocita'  anche  solo  di 3*10^(-12) m/s mentre state
+ saldando, dovrete solo buttare via quelle 900k/1m di lire...
+
+  Al giorno d' oggi cosa compri con un milione?
+
+  Un pentium nuovo non bacato.
+
+  Grazie a  questo  simpatico  espediente,  in  teoria  dovreste risolvere ogni
+ vostro problema.
+
+  Se invece alla riaccensione del sistema vi segnalasse uno di  quei  simpatici
+ messaggi  di errore tipo "fatal total global error", non vi preoccupate...  e'
+ abbastanza normale, accade  a  circa  l'  80%  di  quelli  che  seguono i miei
+ consigli.  (15% si suicidano, 4% il computer non si accende  neanche,  0.0001%
+ il computer si accende e funziona correttamente, il rimanente cazzi vari).
+
+  In  fondo il nostro scopo era quello di non far piu' sbagliare a fare i conti
+ al pentium.  Una cosa che non funziona non puo' sbagliare.
+
+  A me, chissa' come mai, non  funziona.   Sono sicuro che voi siete piu' bravi
+ di me e non avrete alcun problema.
+
+   Buona notte a tutti, bastardi del doppino telefonico....
+
+
+
+                                                                       Torello
+
+
+
+ P.S.  Non mi assumo alcuna responsabilita'.  Se volete potete mandare a me  il
+      vostro bel Pentium...
+
+
+
+ RiP.S.   C'  e'  nessuno  che  vuole  comprare  Pentium  con  il  bug,  solo i
+ processori?
+
+
+ RiriP.S.  Gli insulti in matrix, grazie.
+
+
+
+ :-) =>indispensabile senno' mi venite a cercare a casa...
+
+
+
+
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ (riservatissimo...  tanto lo  so  che  poi  lo  pubblichi...)  [NdE:  mi  sono
+ dimenticato di toglierlo]
+
+  Posso  essere  l'  editor  deficiens?   Sai...  e' molto piu' vicino alla mia
+ personalita'....
+
+  ('sta cosa te l' ho gia' scritta in un altro dei 600 matrix che ti ho mandato
+ che non so se arrivera' mai...)
+
+  Spero che il tuo bel Suprafax entri in fase di autodestruction irreversibile,
+ in modo che IO POSSA DIVENTARE IL PADRON DI TELEMATICUS...  IL MONDO E' MIO!!
+
+
+
+                                                                  Ciao, Torello
+
+
+ ...e se sta volta non ti arriva... mazzate! :)
+
+
+ ############ NOTIZIE FIDONET REGION 33                                     ###
+ ###   7  ###                                                          NEWS ###
+ ############                                                        Orsini ###
+
+ Riassunto:
+        Purtroppo l'unico che mi invia i msg spontaneamente, senza una frusta,
+       e' il troppo buon Orso! Onore e gloria a te, vecchia roccia!
+
+ ------------------------------------------------------------------------------
+
+                                *** NET 331 ***
+                                *** NET 332 ***
+
+ From : Roberto Orsini                      2:332/403.74              21 Dec 94
+
+ OsseCui Renato!
+
+  Stavolta c'e` troppa roba da forwardare,  quindi  ti  faccio  un  riassuntino
+ delle ultime nuove.
+
+  Pare  che  Mario  Mure`,  l'NC per antonomasia, stia scoprendo cosa vuol dire
+ avere una figlia appena nata, per cui  non avra` piu` il tempo di badare molto
+ al net (secondo me, comunque, sono storie...dopotutto bada gia` da anni a piu`
+ di cento sysop, ognuno con le sue manie, che differenza vuoi  che  faccia  una
+ figlia  in  piu`?   :-))).   Si  dichiara  comunque dispostissimo a rinunciare
+ all'incarico, se qualcuno glielo chiedera`.
+
+  Restando in tema di cariche, la recente  elezione di Marcello Ardini a REC ha
+ reso necessario indire altre  elezioni  (niente  da  fare...devono  essere  il
+ passatempo  preferito  degli  italiani)  per  trovare  un  nuovo NEC, elezioni
+ (aridaje) che si svolgeranno nella prima  meta` di Gennaio ed il cui risultato
+ verra` reso pubblico il 15 di detto mese.
+
+  Ti terro` aggiornato per cio` che riguarda le candidature.
+
+  Ultima notiziola: i due nodi di Pesaro ed i due di Ancona stanno cercando  di
+ creare  due  (e quanti senno`?) nuovi HUB, ma pare che non se ne fara` niente,
+ visto l'ancora scarso numero  di  nodi  (che,  nel  caso non l'avessi scritto,
+ sarebbero due per ognuno dei due HUB del net due).
+
+  Anche qui vale il discorso di prima: ti  terro`  aggiornato  sugli  eventuali
+ sviluppi.
+
+ From : Roberto Orsini                      2:332/403.74             04 Jan 95
+ Subj : Habemus NEC
+
+ ======================================================================
+ * FastForwarded by Roberto Orsini AKA 2:332/403.74
+ * Waz in NETSYSOP.332
+ *  From : Mario Mure' AKA 2:332/500 at 22:09 of Marte 03 Gennaio
+ *     2 : All
+ * 'bout : Habemus NEC
+ ======================================================================
+  * Crossposted in NETSYSOP.332
+  * Crossposted in COORD.033
+  * Crossposted in ECHO_COORD.033
+
+
+  Il  periodo  di presentazione delle candidature per l'incarico di NEC del Net
+ 332 e' terminato il 31 Dicembre 1994 ed abbiamo un'unica candidata.
+
+  Confortato anche dal parere del  REC,  ritengo del tutto inutile procedere ad
+ una votazione formale quindi e' con sommo piacere, anche perche' e'  la  prima
+ volta  che in Italia abbiamo un Coordinatore di Net di sesso femminile, che vi
+ annuncio che il nuovo Net Echomail Coordinator 332 e'
+
+                           Paola Cerioli (2:332/416)
+ [...]
+
+ Ciao !
+
+
+         /mario/
+
+ -+- DMreply v2.0
+  * Voragin: Dios los cria y ellos se van juntando (2:332/500@fidonet)
+ ======================================================================
+
+ OsseCui Renato!
+
+ Questo e` uno scoop!
+
+                                                                   |'!Chao!_
+                                                                   |__ OrsO/
+                                                                          /
+                                                                   2:332/403.74
+
+
+                                *** NET 333 ***
+                                *** NET 334 ***
+                                *** NET 335 ***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ******************************************************************************
+
+             Telematicus e' formattato a 80 caratteri su 22 righe.
+        Per stamparlo correttamente *non* usare i font proporzionali.
+
+ ******************************************************************************
+
+ Il number di TELEMATICUS stato corretto con:
+
+ Spellita v1.1 di Marco Minardi (2:332/402.32.  Via G. Battisti 8 47100 Forli')
+ (versione registrata)
+
+ e redatto con :
+
+ BOXER 6.0 per DOS di Boxer Software (Po Box 3230. Peterborough - NH 03458)
+
+ ******************************************************************************
+
+
+
+
+
+
+
+
+
+
+               TELEMATICUS SI PUO' TROVARE IN TUTTI I NODI I.S.N.
+                          (Italian Shareware Network)
+
+                              oppure su Internet
+                 ftp://bertles.cselt.stet.it/pub/Italia/telem
+
+
+ Assieme alla  rivista  ho  inserito  ISN-NODE.*,  la  lista  di  tutte  le BBS
+ appartenenti ad ISN.
+
+
+
+
+
+
+
+ ####                            End of TELEM045                           ####

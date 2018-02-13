@@ -1,0 +1,2670 @@
+ #### TELEM038 - Telematicus - Volume 04 - Numero 03 - Anno 1994 - 122 pag.####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                   Marzo 1994
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematicus   e`  (C)  dei  singoli  autori.   E`
+ espressamente consentita la distribuzione e il riutilizzo  del  bollettino  in
+ tutto  o in parte, purche` non a fini di lucro e citando sempre autore e fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 122 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale  .   .   .   .   .   .   .   .   .   .   .   (RRE)    pag.  5
+ [ 2]  Lettere aperte  .   .   .   .   .   .   .   .   .   .  (AAVV)    pag.  9
+ [ 3]  TAM TAM: una morte annunciata   .   .   .   (Franco Carcillo)    pag. 16
+ [ 4]  Gaia (FIDO si evolve)   .   .   - parte III(Marino Marinelli)    pag. 21
+ [ 5]  UGOI  (Linux)   .   .   .   .   - parte IV  .(Giuliano Lotta)    pag. 32
+ [ 6]  Amiga: due programmilli PD  .   .   .   .   .   (Luca Pompei)    pag. 45
+ [ 7]  Oberon  .   .   .   .   .   .   - parte III . (Roberto Piola)    pag. 52
+ [ 9]  Curiosita`: Il gergo hacker .   - parte 32  .   .   .  (AAVV)    pag. 58
+ [10]  L'arte della programmazione .   - parte VI  .   (Mario Ricca)    pag. 69
+ [11]  Errata corrige (precisazione)   .   .   .   .   (Cicci Serra)    pag. 82
+ [12]  PMFERR  .   .   .   .   .   .   .   .   .(Carlo Di Benedetto)    pag. 84
+ [13]  Wmail 2.4   .   .   .   .   .   .   .   .   .(Silvan Calarco)    pag. 88
+ [14]  Primo meeting dell'area CUCINA.ITA  .   .   .   .   . (Piola)    pag. 93
+ [15]  Come scambiare posta con utenti di sistemi Sublink  (Vertigo)    pag.102
+ [16]  Notizie Fidonet region 33   .   .   .   .   .   .   .  (AAVV)    pag.109
+
+
+
+
+                  Questo Telematicus e' nato con l'aiuto di...
+
+
+                                          | * I collaboratori dai network: *
+ Editor  Inox       :  Maurizio Codogno   |
+ Editor  MetaFidus  :  Marino Marinelli   | Vertigo             (2:331/301)
+ Editor  UGOniens   :  Luca Maranzano     | Roberto Orsini      (2:332/425)
+ Editor  Amigantes  :  Luca Pompei        | Giovanni Lopes      (2:332/114.2)
+ Editor  Obericus&C :  Roberto Piola      | Herve Miozzo      (2:333/511.20000)
+ Editor  Artisticus :  Mario Ricca        | Angelo Verdone      (2:334/21)
+ Editor  Wmailens   :  Silvan Calarco     | Enrico Franceschetti(2:335/212)
+ Editor  Corrigens  :  Cicci Serra        |
+ Editor  Tremporibus:  Carlo Di Benedetto |
+ Editor  Incazzatus :  Franco Carcillo    |
+
+
+
+
+
+
+
+
+ Editor mittens : Luciano Paccagnella, Mauro Darida, Stefano Costa2
+ Editor citatus : CERN,  Guido  Cardino,  Roberto  Surlinelli, Artore  Londona,
+         Shakespeare,   Orazio,  Lamberto  Ca'ntore,  Andrea  Baitielli,  (Vedi
+         meeting CUCINA.ITA), Denis Truffo
+
+
+
+ ... e del "saccheggiato"
+ Eric S. Raymond <esr@snark.thyrsus.com>
+
+
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO)
+                           al 011-9235565
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+
+
+
+                           QUESTO NUMERO E' DEDICATO
+                                 ALLA MEMORIA
+                                      DI
+
+                               CHARLES BUKOWSKI
+
+                             MORTO IL 9 MARZO 1994
+
+
+
+
+
+
+
+
+  E cosi' ce l'abbiamo fatta!  Siamo riusciti ad uscire anche questa volta.  In
+ realta' il ritardo e' stato  -  in  parte  -  voluto per dare la notizia della
+ morte di TAM TAM.
+
+  Mi  piacciono  le  coincidenze.   Proprio   dopo   un  anno  di  operato,  un
+ lunghissimo, estenuante anno di lavoro paziente  da  parte  di  tutti  i  miei
+ insostituibili  editor  collaboratori  che  hanno reso Telematicus cio' che e'
+ (non chiedetemi cosa);  proprio  dopo  un  anno  l'associazione torinese della
+ telematica  amatoriale,  TAM  TAM,  spira  (ennesimo  evento  luttuoso   della
+ stagione.)
+
+  Cio' che dispiace non  e'  solo  l'incapacita'  da  parte del Rampante Nucleo
+ Piemontese d'Assalto di gestire un'associazione ma per  il fatto che ci  siamo
+ distinti  ancora  una  volta  come  i  piu'  rancini,  bigotti, miopi, puzzoni
+ d'Italia. Altro che isola felice!
+
+  Quanto  alla  crisi  della  telematica  amatoriale,  non la vedo.  Anzi!  Dei
+ totali, assoluti, dilettanti  un  po'  storditi  sono  riusciti  ad uscire dal
+ mucchio e fondare una casa editrice con tanto di rivista  (parlo  di  Decoder.
+ Ragazzi, tornate al vecchio distributore.  :)) nella cui BBS tra l'altro Telem
+ riposa (tranne un numero reperibile solo su disco !?)
+
+  Per  non  parlare  delle  riviste  di  relta' virtuale nate come funghi.  Tra
+ l'altro  nell'ultimo  NEURAL  e'  uscita  una  recensione  sull'ottima rivista
+ SBDIMM.  L'aricoletto e' abbastanza ben fatto, tranne nel punto  (cito  a  mem
+ perche' era eccessivo il prezzo della rivista) in cui si sostiene che, essendo
+ grafica,  e'  molto piu' tecnica di altre riviste solo in ASCII.  Mah, chissa'
+ dove pescano i recensori...  Con questo lungi  da me l'idea che SBDIMM non sia
+ tecnica!
+
+  Sempre  riguardo  alla  crisi della telematica amatoriale ricordo OTL (vedere
+ l'articolo nel numero 36.  Oppure ricordo  che sono nate alcune nuove riviste:
+ un corriere telematico  trovabile  come  H2H_0194.ZIP  che  spero  -  SupraFax
+ permettendo - di recuperare al piu' presto.
+
+  E sempre in tema di crisi potete vedere quanti  editor  hanno  partecipato  a
+ questo  number...   e ricordare i tempi del *mitico* .mau.  (chiaramente pero'
+ il livello qualitativo non e'  salito:  la  rivista gestita da .mau.  resta un
+ assoluto irraggiungibile). *:)
+
+  E  sempre  parlando di crisi ho scoperto per caso che Telem viene letta anche
+ al  CERN  (anzi  se  lorsignori  volessero  farsi  sentire  per  un'intervista
+ esclusiva... :) ).
+
+  Ma quanti di questi putripondi - visto  che e' un termine in auge - individui
+ del RNPA ha mai fatto un' articoletto per Telem?  La morte  annunciata  e'  di
+ Carcillo (che mi ha fatto sudare 7 camicie, una scheda da 5Klire della SIP, ed
+ una settimana di attesa per avere il pezzo). Nemo profeta in patria?
+
+  Un  tempo  quando  non riuscivano a spiegarsi le cose parlavano di dragi, poi
+ hanno inventato i microbi, ed ora c'e' la crisi!
+
+  La crisi e' nella testa della gente.
+  (Non per questo pero' e' meno vera.)
+
+ Auguri a tutti & grazie per la collaborazione. Foss'anche solo come lettore!
+
+
+
+                                                                        RRE
+
+
+
+
+
+
+ ############                                               LETTERE APERTE  ###
+ ###   2  ###                                               AAVV            ###
+ ############                                                               ###
+
+ Riassunto:
+        Luciano Paccagnella e' il primo che riesce in un unico termine  a  fare
+        una   critica   costruttiva  ed  al  contempo  feroce  di  Telematicus:
+        "discreto" dice.
+
+        Il grigiume mi perseguita.
+
+        E bravo Luciano. Meriteresti una menzione speciale solo per questo! :)
+
+        Maurizio Darida e' un altro che  ancora  non ha capito chi e' l'attuale
+        redattore di Telem.  Penso che comincero' a ricevere le lettere che  mi
+        competono quando passero' l'incarico ad un altro... :)
+
+        Comunque GRAZIE anche a Maurizio della comm. :)
+
+        E questo ci porta allo SCOOP!!  Chiaramente una lettera cosi'  mi  sono
+        preoccupato  di  farla  pervenire all'interessato che mi ha risposto di
+        avere avuto un matrix niente popo di meno che dal...  CERN!!
+
+        Bhe, ragazz... non so se mi sono capito :)
+
+ ------------------------------------------------------------------------------
+
+ From : Luciano Paccagnella                 2:333/412       02 Feb 94 22:10:04
+
+ CC: Renato Rolando, Marino Marinelli
+
+ Caro RRE,
+
+ leggo sul sempre discreto :-) [NdE: sono commosso!] telematicus di gennaio, un
+ articolo-forward del buon marino marinelli su GAIA.
+
+ *premesso* che personalmente  la  diffusione  del  documento  riassuntivo  del
+ progetto GAIA non puo' che farmi piacere, vorrei puntualizzare un paio di cose
+ che forse possono rendere piu' chiara l'intera questione:
+
+ - quello che tu stesso dichiari cosa 'veramente interessante' anche in  quanto
+   possibile  futuro  standard  fido,  e'  un  progetto  nato  in realta' in un
+   contesto storicamente polemico con la  filosofia fido, almeno per come viene
+   espressa da qualche tempo nellaregion 33.
+
+   Parlo della famigerata area echo cyber_punk di cui non sto  a  rivangare  le
+   vicende,  ma che da fido non ha ricevuto altro che ostacoli e bastoni tra le
+   ruote.  [NdE: penso che  invece  sarebbe  *molto* interessante rivangarne le
+   vicende!]
+
+ - la filosofia di GAIA aderisce probabilmente a quella originaria di  Jennings
+   nel periodo in cui scrisse il primo software fido: con le parole di Tom, una
+   rete  per  anarchici,  punks,  omosessuali  e  per  tutti  coloro che spesso
+   faticano a trovare spazio nel ondo  reale.
+
+   Dubito che GAIA possa in qualche  modo essere proposta come *nuovo standard*
+   rispetto al tranquillo panorama che ci presenta fido oggi (e qui  mi  limito
+   di nuovo a considerare la nostra region in quanto mi viene detto che altrove
+   le cose sono diverse).
+
+ - il documento riportato da marino marinelli e' stato redatto materialmente da
+   Peter Paper ma ha avuto  una  gestazione  collettiva da parte sia di vecchie
+   volpi di fidonet,  sia  di  cybernauti  che  evitano  fido  come  la  peste.
+
+   Attualmente  il  tutto  e'  congelato ormai da alcuni mesi (probabilmente per
+   mancanza di motivazione e tempo),  ma forse qualcuno si sentira' interessato
+   alla cosa leggendo l'articolo su telematicus: in questo caso mi  sembrerebbe
+   corretto  (sia  verso  di lui, che verso il 'gruppo propulsore' dl progetto)
+   che costui  venisse  indirizzato,  per  delucidazioni,  critiche, stimoli da
+   chiedere e da offrire, nella naturale  culla  di  GAIA,  cioe'  l'area  echo
+   cyber_punk di cui sopra.
+
+   Ti  ricordo  che  detta  area  e' un echo comune tra le reti CyberNet, P-Net
+   edECN, e viene veicolata inoltre anche da alcuni nodi fidonet (ad esempio il
+   mio, 333/412) che sono disponibili ad eventuali links.
+
+ - infine, se mi consenti  un'ultima  nota (che potrebbe essere proprio ultima,
+   nel senso di *definitiva*) [NdE: spara!], GAIA  ha  le  sue  fondamenta  nel
+   software  PGP, pacchetto di crittografia a chiave pubblica su cui ci sarebbe
+   *molto* da dire,  ma  di  cui  mi  limito  a  ricodare l'illiceita' d'uso in
+   fidonet, come tutta la crittografia in genere.
+
+   BTW in cybernet invece, PGP  si  usa  alla grande ed e' un'ottima abitudine:
+   chi manderebbe in giro le proprie lettere senza busta?  :-)
+
+ detto questo chiudo e ti saluto.
+
+ Luciano
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ * From : Mauro Darida, 2:335/207.3
+ * To   : Maurizio Codogno, 2:24100/5
+ * Subj : telem036
+ * Forwarded by Maurizio Codogno on 2:334/100.5
+ =============================================================================
+
+ Salve,
+
+  ho  seguito  con  molto  interesse  gli  articoli di Stefano Costa sulla rete
+ Internet, cui sono molto interessato (ho perfino ripescato allo scopo i numeri
+ 14-15, anzi se  mi  dici  il  numero  in  cui  c'e'  l'articolo  The Cruise of
+ merit...ti saro' molto grato).  Co grande disappunto noto che  il  numero  36,
+ con  la  QUARTA  (e  definitiva...) parte su Internet, non e' uscito: non c'e'
+ neanche nel nodo ISN a me piu' prossimo.  Problemi di distribuzione ?
+
+  Approfitto per elevare un pensiero  di  apprezzamento a tutta la redazione di
+ Telematicus, per il lavoro volontario che magnificamente svolge.
+
+ ciao.
+                                                                    Mauro
+                                                                    2:335/207.3
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From : Stefano Costa2                      2:331/306       01 Mar 94  14:00:02
+
+    RRE>    sei tornato?
+
+  Non ancora, purtroppo.  Sono oberato di lavoro, ed  ho  un  po'  di  problemi
+ misti.   Sono  indisponibile  per  almeno 2 settimane.  Spero vada tutto bene.
+ Figurati che ho tagliato *tutta*  la  posta  Fido,  e prendo *solo* i messaggi
+ indirizzati a me.
+
+ [NdE: e' quello che faccio normalmente. Ma non diciamolo troppo in giro :)]
+
+    RRE>  Ho ricevuto un matrix da un tipo che esaltava i tuoi articolai!!
+
+ Grazie, fa piacere il forward di ste' cose |-).
+
+ Anche perche' a me non ne spedisco (quasi) mai.  Pensa che uno del CERN mi  ha
+ scritto  (da Internet) chiedendomi info sulle mailing lists....  Sono arrivato
+ in alto!  Wow!
+
+
+ [NdE: questo e' uno SCOOP!!   cerchero'  di  farvi  sapere qualcosa di piu' al
+ prox number...]
+
+
+
+                                                                     Stefano
+                                                                     2:331/306
+
+
+ ___
+ X SLMR 2.0 X Leggete e *contribuite* a Telematicus (nei nodi ISN)!
+
+ [NdE: questo si che e' un fedelissimo!]
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                TAM TAM: una morte annunciata  ###
+ ############                                              Franco Carcillo  ###
+
+ Riassunto:
+        Permettetemi una storielletta: un medico, per giustificare la morte del
+        proprio paziente, ha avuto il coraggio di dire: "Mi ha sempre detto che
+        stava benissimo, ed invece era debole di cuore. Mi ha imbrogliato."
+
+        Questa la dice lunga sulla capacita' del medico di fare  le  analisi  e
+        sulla  responsabilita'  che  era  in  grado di prendersi per il proprio
+        paziente.
+
+        Ora qui abbiamo avuto un consiglio direttivo - eletto dopo una *enorme*
+        campagna promozionale -  che  avrebbe  dovuto  armonizzare  gli  organi
+        dell'associazione...   e questa dopo una lunga agonia - voluta - gli e'
+        morta tra le mani.
+
+        E'  anche  vero  che alcuni medici si fanno pagare parcelle esorbitanti
+        per riferire, con la certezza tipica di una scienza inesatta qual'e' la
+        medicina, che il paziente morira'.
+
+        Se poi questo  a  dispetto  delle  aspettative  ha  il cattivo gusto di
+        sopravvivere siamo allora di fronte al miracolo.
+
+        E chissa' perche' ad alcuni i miracoli danno fastidio...
+
+ ------------------------------------------------------------------------------
+
+                                  LA NOTIZIA.
+
+  L'Associazione culturale per la telematica amatoriale, TamTam, ha deciso, nel
+ corso dell'assemblea generale  dei  soci  del  7/3,  su proposta del Consiglio
+ Direttivo, di sciogliersi.  Fondata da SysOp  torinesi  nel  1989  ha  portato
+ avanti in questi anni una serie di iniziative volte a diffondere la conoscenza
+ della telematica amatoriale.
+
+                        IL COMMENTO DI TELEMATICUS [1].
+
+  Sciolta.    Questa   la  parola  che  pone  definitivamente  fine  a  TamTam,
+ un'associazione, tutta torinese, che ha  saputo  essere il motore di una serie
+ di iniziative lodevoli, ma che non e' stata in grado di superare la stasi  che
+ attualmente coinvolge anche il mondo della telematica amatoriale.
+
+  Molti  i  motivi  di  questa chiusura: come in un copione gia' scritto, nello
+ spazio di pochi minuti,  il  Consiglio  Direttivo  ha proposto ad un'assemblea
+ piu' che altro virtuale, visto che nessun socio aveva rinnovato l'adesione nel
+ 94, lo scioglimento che e' stato il solo, inesorabile, progetto presentato.
+
+  Eppure in un momento difficile, come l'attuale, non sarebbe stato impossibile
+ chiamare i soci ad un rinnovato impegno; il Consiglio Direttivo  aveva  invece
+ considerato,  ormai  da  mesi, inelluttabile questa scelta suicida, in primis,
+ per una propria disaffezzione, di fatto, nei riguardi di TamTam.
+
+  Una piccola associazione vive si' dell'impegno dei propri soci ma soprattutto
+ dell'entusiasmo  di  chi,  proponendosi,  e'  stato eletto agli incarici, pom-
+ posamente chiamati direttivi,  per  progettare  e  realizzare.  Non dunque una
+ carica di prestigio, ma un incarico di coordinamento e stimolo  che  non  puo'
+ essere  avulso,  visto l'aspetto volontaristico di TamTam, da un sacrificio ed
+ un impegno personale rilevante.
+
+  Un'errore di valutazione,  questo,  che  ha  portato  inesorabilmente  ad  un
+ impegno  sempre  piu'  blando,  mascherato  sotto  l'accusa  ai soci di scarsa
+ partecipazione, ma che tale  e'  rimasto  sino  alla  fine.  A gennaio, quando
+ ormai il processo era chiaro, a nulla sono valsi  i  richiami  ad  operare,  a
+ 'muoversi', a costruire.  Distruggere, si sa, e' sempre molto piu' facile.
+
+  Lo scioglimento di TamTam,  di  certo  un  fatto per molti insignificante, ci
+ pesa: come un macigno.  Nessuno ha alzato un dito, in fin dei conti,  e  tutti
+ si  sono  sentiti,  forse,  piu' liberi.  Chi si aspettava un ritorno del Pre-
+ sidente Fondatore e' rimasto deluso: ma  nessuno ha il diritto di autoproporsi
+ a salvatore di quella che qualcuno ha definito come l'associazione  dei  'suoi
+ fans'.   Di  fatto  gli  altri nulla hanno tentato per cambiare questo preteso
+ ruolo, e soprattutto si sono  rivelati  del  tutto incapaci ad andare oltre al
+ 'gioco' di far parte di 'qualcosa' che ha creato,  non  dobbiamo  scordarcelo,
+ nuovi legami di amicizia ed una sorta di 'solidarieta'' telematica.
+
+  In questi tempi parlare di solidarieta' e' difficile, e per TamTam, fors'anco
+ inappropriato, certo; tutto potrebbe restare come prima, perche' no.  In fondo
+ per  andare  in gruppo in birreria (finale obbligatorio per tutti gli incontri
+ mensili di TamTam) non  e' necessario un'associazione, ciononostante, qualcosa
+ ci manchera'.
+
+  E se vi state chiedendo cosa, e non trovate una risposta, probabilmente siete
+ anche voi sulle stesse posizioni del Consiglio: cosa inutile, si butta!
+
+  Pensare, come e' noto, stanca.
+
+
+
+                                                                        Franco
+                                                                        2:334/1
+
+
+
+ [1] NdE: appartenendo in  gran  segreto  alla  loggia  dei  Fan  Di  Carcillo  la
+          direzione si associa totalmente solo a meta' :)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                                              GAIA - parte III ###
+ ############                                              Marino Marinelli ###
+
+ Riassunto:
+         E'  *fondamentale*  leggere  le  istruttive  precisazioni  di  Luciano
+        Paccagnella pubblicate nell'area lettere.
+
+         Indipendentemente da tutto non si puo' comunque negare l'interesse  di
+        una simile operazione.  Che poi i tempi siano maturi o che Fido, invece
+        di  evolversi,  sia  destinata  alla  graduale  estinzione per arterio-
+        sclerosi...  questo e' un altro discorso.
+
+ ------------------------------------------------------------------------------
+
+                             Files sulla struttura
+
+ Di seguito descrivo i files che mantengono l'informazione sullo stato di  GAIA
+ ad  un  istante dato, ognuno di questi files esiste localmente su ogni nodo ed
+ e' aggiornato dalla lettura della echo di sistema.
+
+                                    NetBase
+
+ La template di un'oggetto O_Node (che costituisce il contenuto della  NetBase)
+ e':
+
+              Class        : (Pub-Res, An-Res);
+              Handle       : String[40];
+              Address      : O_Fido_Address { oggetto per la gestione 5D
+                                              style Fido Addressing }
+              Phone        : String[40];
+              Connectivity : Lista dinamica di oggetti { O_Event, cfr
+                                                         EventBase }
+              LastRead,
+              LastWritten  : Liste dinamica di Integers (uno per area echo
+                                                         pubblica esistente)
+
+
+ Le liste dinamiche si intendono indicizzate dal numero di area, come ora.
+
+ Sono metodi di O_Node:
+
+              IsPublic                  : Boolean;
+              Is2BeRead                 : Boolean; { paragone LastWritten vs
+                                                     LastRead }
+              IsCalled                  : String;  { restituisce l'handle }
+              PhoneNo                   : String;
+              Reaches( ANode : O_Node ) : Boolean; { e' sulla route per
+                                                     ANode }
+
+ Esistono poi, naturalmente, altri metodi dedicati all'aggiornamento dei campi.
+ Qui   ho  indicato  solo  una  struttura  di  massima  relativa  ai  campi  di
+ interrogazione possibili.
+
+                                   HyperBase
+
+ Questa superclasse ha il solo scopo di implementare la struttura  ipertestuale
+ proposta  da  Mainman,  ovvero  una  struttura  ad  albero  che  ammetta links
+ agerarchici predefiniti.  Lo metto come SuperClasse di FileBase e MailBase per
+ assicurare la piu' stretta compatibilita' tra l'ipertestualita' di entrambe le
+ gestioni.
+
+ O_FileBase e O_MailBase sono dunque discendenti di HyperBase, da cui ereditano
+ il comportamento ipertestuale.
+
+ Hyperbase gestisce indirizzi, con la seguente template:
+
+             Identity   : String[50];
+             PhisicalID : String[68]; { DOS path or equivalent }
+             UpperLevel : AnHyperBase
+             LowerLevel : Lista dinamica di AnHyperBase
+             SideLinks  : Lista dinamica di AnHyperBase
+
+             Identity    : String[15];  { DOS Name }
+             Contents    : String[80];  { Abstract }
+             NetLocation : Lista dinamica di Address;
+
+ A parte SideLinks si tratta di una struttura ad albero identica a quella delle
+ directories DOS.  Sidelinks istituisce una sorta di APPEND, ovvero  una  lista
+ di altre collocazioni fuori sequenza gerarchica che si intendono allacciate al
+ sito corrente.
+
+ La  portabilita' del codice ci richiedera' con ogni probabilita' di sostituire
+ al campo PhisicalID un metodo di  calcolo,  in modo che ogni piattaforma possa
+ implementare  la  sua   gesione   del   medium   fisico   locale,   mantenendo
+ un'intyerfaccia compatibile a tutti i sistemi.
+
+ La  seconda  zona di campi definisce un DOS_Name locale, un abstract dell'item
+ scritto  dal  primo  creatore  dell'area  postale   o  file  e  una  lista  di
+ disponibilita' lungo la matrice.
+
+
+                                   FileBase
+
+ Discendente di HyperBase,  FileBase  aggiunge  alla  sua  eredita'  una  lista
+ dinamica di file Headers.  La template di O_FileHeader e':
+
+                   Size        : LongInteger;
+
+ Poiche'  ogni  spostamento di File viene segnalato dalla mail di sistema tutti
+ sanno sempre dove si trovi qualsiasi file.  (cfr.  System Mail)
+
+                                   MailBase
+
+ Altro discendente di HyperBase. La sua template e':
+
+                     Rules : ( System, Echo, GIFEcho, Matrix );
+                     Pvt   : Boolean;
+
+ I campi System bloccano l'editing.
+ GIFEcho indica le echo annesse alle aree echo testuali.
+ Il campo Pvt dice se sono ammessi msgs privati nell'area in questione.
+
+                                   EventBase
+
+ Gli oggetti O_Event descrivono eventi di sistema. La  loro template e':
+
+                     Last   : Date, Time of last occurrance.
+                     Timing : Minutes before next occurrance.
+                     Target : Address;
+
+ Cio' ci consente di elencare in  modo  pratico tutti gli eventi che compongono
+ la topologia di GAIA.  Sono noti a tutta la rete quelli relativi alle Pub-Res,
+ mentre la An-Res conservano la massima imprevedibilita' di comportamento.
+
+ Il campo Last viene updatato automaticamente dal sw residente sul  nodo  senza
+ bisogno  di alcun msg di conferma.  Appena un crash viene rilevato il nodo che
+ lo rileva informa la net via System Mail (vedi) della mancata effettuazione di
+ un evento,  e  l'update  viene  riportato  indietro  su  tutte  le event-bases
+ distribuite.
+
+ Le probabilita' che entrambi i nodi interessati da un evento vadano  in  crash
+ simultaneamente  sono  tanto basse da poter escludere la cosa, ed in ogni caso
+ la rilevanza dell'imprecisione ai fini pratici sarebbe minima.
+
+
+                                   Rerouting
+
+                                Crash-Recovery
+
+ La nostra filosofia  base  include  la  suddivisione  di  due ruoli (Pub-Res e
+ An-Res) che hanno comportamenti e finalita' di utilizzo differenti, dunque  ci
+ occuperemo innanzitutto di mantenere coerente la struttura di quella che sara'
+ la "back-bone" di GAIA: la topologia degli eventi tra Pub-Res.
+
+ Cio'  impone  il  vincolo che ogni nuova scelta di rerouting tra Pub-Resources
+ sia agibile se e solo se mantiene la net "chiusa".
+
+ Facciamo un esempio:
+
+                P1<------------------->P3 <--------->P5<-------->P6
+                ^ ^                     ^                        ^
+                | |                     |                        |
+        P2<-----+ +----------->P4<------+                    P7<-+
+
+
+
+ Poniamo che questa topologia perda  funzionalita'  (aka vada in crash) al nodo
+ P3.  P5 resterebbe isolato, e dovrebbe scegliere un evento  sostitutivo,  come
+ pure P6 e P7.
+
+ Gli  eventi  P5<>P6,  P5<>P7  e  P6<>P7 non chiuderebbero la net, in quanto la
+ posta emessa dal gruppo P5/6/7 raggiungerebbe il gruppo P4/1/2.
+
+ Si tratta quindi di  sapere  se  un  crash  ha  prodotto due insiemi sconnessi
+ oppure no, e di reagire di conseguenza.  A cio' e' deputato  un  algoritmo  di
+ certificazione che risiede on-line su tutte le risorse, ovvero un Metodo della
+ Superclasse Resource detto RouteIsValid, che restituisce un valore boolean.
+
+ Il  ruolo  delle  An-Res, viceversa, e' quello di massima liberta', in tutto e
+ per tutto assimilabile a quello  degli insetti nell'impollinazione.  Le An-Res
+ vanno a leggere la posta presso una Pub-res.  Nel farlo comunicano lo stato di
+ aggiornamento della loro  msg-base  e  travasano  cio'  che  manca  nel  senso
+ corretto.   Nulla  del  loro comportamento e' data per scontato, semplicemente
+ GAIA si mette  in  grado  di  sfruttare  "qualsiasi"  evento.   Il loro metodo
+ RouteIsValid restituisce sempre True.
+
+
+
+            L'algoritmo di controllo per il rerouting delle Pub_Res
+
+ Siamo giunti ad una prima stesura di  algoritmo  per  il  metodo  RouteIsValid
+ delle Pub-Res.  E' probabile che sia migliorabile e si attendono suggerimenti.
+
+ In  pratica  si  tratta  di  utilizzare le informazioni sugli eventi contenute
+ nella NetBase, assegnando  la  situazione  ipotetica  in  cui  ogni nodo abbia
+ scritto uno e un solo nuovo messaggio.
+
+ Alla fine del ciclo degli eventi i messaggi  presenti  su  ogni  nodo  saranno
+ maggiori  o  uguali  a  1,  e  se  il crash ha spezzato la rete ci saranno due
+ famiglie di risultati.  Vediamo un esempio pratico:
+
+
+                P1<...................>## <.........>P5<-------->P6
+                ^ ^                     ^                        ^
+                | |                     :                        |
+        P2<-----+ +----------->P4<......+                    P7<-+
+
+
+ Il crash della Pub-Res P3, come  nell'esempio precedente, ha isolato la net in
+ due insiemi sconnessi:
+
+         Isola1 : { P1, P2, P4 }
+         Isola2 : { P5, P6, P7 }
+
+ Contando i nodi rimasti attivi dopo il crash di P3 si scopre subito  che  sono
+ in  numero  pari  (ovvero  6  nel  nostro  esempio).   Cio' rende possibile la
+ situazione in cui le isole  siano di pari dimensioni, prontamente visualizzata
+ nel nostro esempio.
+
+ A cio' si ovvia con  un  Dummy-link,  ovvero  inserendo  un  nodo  addizionale
+ (immaginario)  per  riportare  il  conto  ad un numero dispari.  Il Dummy deve
+ avere un solo evento di connessione  bidirezionale  su UN SOLO NODO REALE.  Se
+ ne avesse su piu' nodi potrebbe, infatti chiudere la net.
+
+
+                P1<...................>## <.........>P5<-------->P6
+                ^ ^                     ^                        ^
+                | |                     :                        |
+        P2<-----+ +----------->P4<......+        D<--------->P7<-+
+
+ La scelta del nodo a cui connettere il Dummy non e' influente sul risultato, e
+ quindi puo' essere condotta in qualsiasi modo.  Inoltre e'  possibile  evitare
+ l'inserzione vera e propria del link partendo direttamente dal risultato della
+ sua  presenza,  ovvero  settando  a  due il numero di messaggi presenti su uno
+ qualsiasi dei nodi.
+
+ A questo punto, una volta  che  si  fa  girare  la matrice degli eventi per il
+ tempo indicato da CICLO (vedi sopra), si ottengono due famiglie di risultati:
+
+             Isola1 : { Ž x / x = 3 }; ovvero ( P1, P2, P4 )
+             Isola2 : { Ž x / x = 4 }; ovvero ( P5, P6, P7 )
+
+ A questo punto basta fissare la regola per cui qualsiasi mossa setta  True  il
+ metodo  RouteIsValid  se  e  solo  se  e'  riferita  a  due  elementi  che non
+ appartengono alla stessa isola.
+
+ [NdE: continua...]
+                                                                    Peter Paper
+                                                                    45:1917/2
+
+
+ ############                                                               ###
+ ###   5  ###                                                 U.G.O. Italia ###
+ ############                                                Luca Maranzano ###
+
+ Riassunto:
+
+ From : Luca Maranzano                      2:332/206       12 Feb 94  10:33:00
+
+ Ciao Renato Rolando,
+   In a message on 8 February, you wrote to me :
+
+ RR> ciao
+ RR>         forse non sai che su TELEMATICUS abbiamo pubblicato
+ RR> un po' di articoletti su Linux.
+
+ Molto interessante; ma che cos'e`  esattamente  TELEMATICUS ???  (scusa la mia
+ ingoranza in proposito :-) ).
+
+ [NdE: Io potrei anche perdonarti.  Ma i nostri fedeli lettori???  :)]
+
+ RR> Se mi spedisci un articoletto sull'AIL sara' mio onore pubblicart
+
+ Ti  mando  il  primo annuncio che abbiamo postato in giro per il mondo in vari
+ modi, cosi` almeno ti fai un'idea di quali sono gli intenti della ILS.
+
+ Per ora abbiamo ricevuto una  sessantina  di  adesioni  e la "cosa" comincia a
+ prendere forma.  Per ora, visto che la ILS e` ancora in fase di  formazione  e
+ organizzazione,  piu`  che  un articolo preferirei se potessi pubblicizzare la
+ nostra proposta o almeno far sapere  della nascitura ILS nel modo che riterrai
+ opportuno, specificando quelli che sono i nostri intenti, come avrai  modo  di
+ leggere nel seguente annuncio.
+
+ Quando  la  ILS sara` ufficialmente creata saro` lieto di mandarti un articolo
+ in cui ne parlero` piu` approfonditamente.
+
+ Puoi indicare come indirizzi a cui chiedere informazioni i seguenti:
+
+                             cece@dist.dist.unige.it
+                             calamaro@dist.dist.unige.it
+                             Luca Maranzano 2:332/206@fidonet.org (via Matrix).
+
+ Grazie per la gentile collaborazione.
+ [NdE: grazie a te! :)]
+
+                                                                          Ciao,
+                                                                          Luca.
+
+ ------------------------------------------------------------------------------
+
+ ******************************************************************************
+ Gentile amico/a.
+
+ Questa e' una lettera aperta indirizzata agli utenti Linux di LINGUA ITALIANA,
+ residenti in Italia  oppure  no.   Tale  messaggio  sta  per essere inviato su
+ comp.os.linux.announce, nei canali NORMAL ed ANNOUNCE della  Mailing  List  di
+ Linux ed ad alcuni amici contattatti precedentemente.
+
+ Lo scopo di questo annuncio e' quello di rendere possibile, se ben accetta, la
+ nascita  della Italian Linux Society, definendo preliminarmente in questa sede
+ gli obiettivi principali e le forme/i metodi con cui perseguirli.
+
+ Ci auguriamo che la proposta  risulti  interessante, attuabile e se possibile,
+ gradita.   Per  commenti  di  qualunque  genere,  sopratutto  incoraggiamenti,
+ proposte di collaborazione, ma anche critiche (se  costruttive)  ti  prego  di
+ contattarci presso gli indirizzi sotto esposti.
+
+ Per  garantire una diffusione capillare della proposta ti chiediamo un favore:
+ diffondi questo messaggio a tuoi  amici  utenti Linux nei modi che preferisci:
+ e-mail, telefono, fax...  Non tutti hanno modo di leggere  gli  annunci  delle
+ News...
+
+ Buona lettura e a presto !!!
+
+ Cesare Mastroianni                                 Luca Maranzano
+ cece@dist.dist.unige.it                            calamaro@dist.dist.unige.it
+                                                    2:332/206@fidonet.org
+
+ ********************************************************************************
+                Appunti preliminari per la realizzazione di ILS
+                 Verso una bozza di Atto Costitutivo / Statuto
+                              VERSIONE 20.01.1994
+ ********************************************************************************
+
+ [Quest'oggi  ho  letto per la prima volta un riferimento esplicito di Linus T.
+ sulla release 1.0  prossima  ventura  !!!   Questa  notizia non modifica nella
+ sostanza la natura della proposta, che e' stata scritta nei giorni scorsi...]
+
+ La forma dei seguenti appunti e' di tipo ``pensierino delle elementari''.   E'
+ una  raccolta di materiale grezzo derivato da nostre riflessioni e commenti di
+ amici.  Per le risposte ed i commenti,  fate riferimento al numero a fianco di
+ ogni voce: risparmiate la fatica di  trascrivere  una  quantita'  notevole  di
+ testo  (e  evitate  ai sottoscritti di trasferire via TELEFONO troppi bytes ==
+ troppi scatti telefonici !!!).
+
+ 1.1) ILS e' un'associazione libera,  volontaria,  assolutamente non a scopo di
+      lucro,  composta  da  chiunque  abbia  interesse  allo  sviluppo  e  alla
+      diffusione di Linux.
+
+ 1.2) ILS si organizza sulla base di uno statuto che dovra' essere  semplice  e
+      composto   di   poche   regole   elementari  e  democratiche,  atte  alla
+      suddivisione dei compiti al suo  interno,  e mai mirata alla creazione di
+      una qualsivoglia gerarchia.
+
+ 1.3) ILS sfrutta i servizi che la rete mette a disposizione: principalmente il
+      servizio di mail individuale, ftp anonimo  (dist2.dist.unige.it  e'  gia'
+      disponibile),  mailing  list  (partira' presto su dist.dist.unige.it), un
+      canale irc (channel #ILS  e'  gia'  attivo),  e  le  BBS di Fidonet oltre
+      quelle che verranno messe  a  disposizione  dalla  ILS  (ancora  in  fase
+      sperimentale).
+
+ 1.4) Scopo principale di ILS sara' la realizzazione di una DISTRIBUZIONE LINUX
+      UFFICIALE  COMPLETAMENTE  ITALIANA.   Essa'  dovra'  rispondere ad alcuni
+      requisiti illustrati  nel  seguito.   (tale  distribuzione  viene per ora
+      chiamata ILS-D).
+
+ 1.5) Scopi ``gregari'' di quello principale saranno legati al mantenimento  di
+      un buon grado di conoscenza/aggiornamento sulla situazione internazionale
+      di Linux, dividendo i compiti in aree di interesse.
+
+ 1.6)  Le aree di interesse di ILS saranno organizzate in gruppi che avranno lo
+      scopo di seguire le News,  le  Mailing  Lists, testare i nuovi programmi,
+      effettuarne il porting per ILS-D ...
+
+ 1.7)  Alcune  aree  di  interesse  saranno  (lista  grossolana,  probabilmente
+      eccessivamente aggregata): librerie libc,  compilatori,  applicazioni  di
+      base,  applicazioni  X,  X  server, comunicazioni, elaborazione di testo,
+      gestione periferiche, database, ecc.  ecc.
+
+ 1.8) ILS-D sara' completamente italiana nel senso che:
+
+  -) le librerie run-time di  base  (libc)  e  tutti i comandi di sistema (/bin
+     /sbin) avranno i classici  messaggi  diagnostici/interattivi  in  italiano
+     (non  i file di configurazione, ne' i flag/opzioni da riga di comando, ne'
+     i nomi degli eseguibili, ...);
+
+  -) lo stesso dicasi per tutti  gli  applicativi che man mano verranno portati
+     in ILS-D e le altre librerie run-time;
+
+  -) tutta la documentazione, le  man  pages,  gli  help  in  linea,  gli  help
+     interattivi relativi ai file di cui sopra saranno in italiano;
+
+  -) tutti i file di configurazione, di dati, ecc..  propri del sistema o degli
+     applicativi  supportati  saranno  gli  STESSI  delle  rispettive  versioni
+     originali (COMPLETA COMPATIBILITA' D'USO);
+
+  -) il copyright relativo a ILS-D e ai suoi componenti sara', compatibilemente
+     con  i copyright originali, riscritto conformemente alla GNU GPL, presente
+     in modo bilingue ed  esteso  di acluni diritti/doveri aggiuntivi/sostitivi
+     validi per gli utenti italiani (di cui si parlera' fra breve);
+
+ 1.9)  Perche'  una  distribuzione italiana ???  Piu' volte si e' parlato della
+      internazionalizzazione di glibc.   Credo  che  la  libreria gnu sia quasi
+      pronta e il porting per Linux verra' eseguito di conseguenza.   H.J.   Lu
+      ha  richiesto  collaborazione da parte di persone di madre lingua (se non
+      ricordo male).  ILS  potrebbe  avere  come  primo obiettivo questa colla-
+      borazione.
+
+      Al di la' di questo fatto, al di  la'  della  internazionalizzazione  dei
+      messaggi  del  kernel, il porting degli applicativi free software (di cui
+      si ottengono facilemente e costantemente i patching dei sorgenti) insieme
+      alla internazionalizzazione dei messaggi  di  sistema (kernel + librerie)
+      e' la condizione NECESSARIA (forse non sufficiente) per la  realizzazione
+      di  software  commerciale (compatibilmente con le licenze Linux) operante
+      in ambiente Linux.
+
+      Lo sforzo che a livello mondiale  si  sta operando in questa direzione e'
+      ben manifestato dalle due proposte apparse nei mesi  scorsi  del  ``Linux
+      Consortium''  e  di ``Linux International''.  In sintesi si puo' dire che
+      nel mercato  dei  PC  non  esistono  attualmente  alternative commerciali
+      valide alla avanzata di Windows NT e OS2.  Strategicamente il  progredire
+      dei  sistemi  Unix  in  generale  e  di  Linux  in  particolare e' legato
+      all'esistenza di PROGRAMMI APPLICATIVI  COMMERCIALI  in grado di attirare
+      l'interesse di un  pubblico  che  non  avrebbe  altrimenti  interesse  ad
+      installare un sistema Free Software anche se GRATIS.
+
+      Ho  parlato  con  il responsabile del progetto ``Linux Interational'': e'
+      allo studio  un  metodo  per  poter  affiancare  una garanzia commerciale
+      soddisfacente  ai   prodotti   come   Linux   e   i   suoi   applicativi.
+      Contemporaneamente  tale progetto sta cercando di ottenenre finanziamenti
+      da parte di quei sviluppatori  di  software  e sistemi Unix che non hanno
+      nulla da perdere nella  potenziale  diffusione  di  Linux  a  scapito  di
+      Windows  NT e OS2.  L'esistenza di una distribuzione ILS-D (con un kernel
+      1.0 quando  ci  sara'  ??)  porrebbe  gli  sviluppatori  di software Unix
+      italiani (come i  sottoscritti)  in  condizioni  anaolghe  a  quelle  dei
+      colleghi  Americani,  e soprattutto aprirebbe l'opportunita' di riversare
+      nel mercato commerciale  i  lavori  sviluppati  in  ambienti Unix che per
+      costo e difficolta' d'uso non hanno  mai  incontrato  una  diffusione  di
+      pubblico pari a quella dei PC (con Ms-Dog).
+
+ 1.10) I metodi per creare e mantenere aggiornata ILS-D saranno diversificati a
+      seconda  se  si  tratta  del  kernel,  di libc, o degli applicativi.  Per
+      quanto riguarda il kernel il compito e' ben definito e non eccessivamente
+      vasto.
+
+      Esiste un unica sorgente  del  codice  (Linus  T.)  e il metodo dei patch
+      successivi garantisce la necessita' di dover upgradare  pochi  kbytes  di
+      sorgente per ogni release.
+
+      Libc  e' strutturata esattamente nella stessa maniera: si tratta pero' di
+      una quantita' di codice  decisamente  piu'  grande,  ma non per questo di
+      difficile gestione.  Si consideri che con  la  internazionalizzazione  di
+      kernel+libc  (nel  nostro  caso italianizzazione) si esaurisce il compito
+      relativo ad una percentuale  sensibile  di  messaggi  e formati di output
+      interessanti per il software commerciale (ad esempio,  il  formato  delle
+      date, ec..).
+
+      Per  quanto  riguarda  il  porting  di tutti gli altri programmi (da ls a
+      elvis, da gcc a groff, da X  a  xterm, ecc...) il discorso e' legato alla
+      MOLE IMMENSA di codice sorgente che va  patchato  per  generare  messaggi
+      (bottoni, menu'...) in italiano.
+
+      Resta la consolazione che la velocita' di upgrade degli applicativi e' di
+      almeno  un ordine di grandezza inferiore a quella di libc e di due ordini
+      di quella del kernel.
+
+ 1.11) La  divisione  in  aree  di  interesse  semplifichera'  il lavoro.  Tale
+      raggruppamento sara' omogeneo ai probelmi trattati.  Se  per  esempio  ci
+      sara'  un gruppo destinato all'area ipotetica ``elaborazione dei testi'',
+      essa si  occupera'  di  seguire  il  canale  DOC  della  mailing list, di
+      aggiornare groff, virtex, xdvi, ecc...  in base alle  novita'  pubblicate
+      sulle  news,  collaborare  al  debugging  dei  programmi  con gli autori,
+      introdurre migliorie, nuovi programmi, ecc..  ecc..
+
+ 1.12)  Un gruppo extra si occupera' di mantenere attive le comunicazioni fra i
+      componenti di ILS":  gestira'  la  mailing  list,  il  canale IRC, terra'
+      aggiornato il (i ??) sito  di  distribuzione  via  ftp  anonimo...   Tale
+      gruppo   potrebbe   poi   occuparsi   dei  collegamenti  con  il  ``Linux
+      Consortium'',  con   ``Linux   International'',   con   altri  centri  di
+      distribuzione di Linux (i produttori dei vari CD ROM) ...
+
+ 1.13) Date le opportunita' economico/didattico/scientifico che Linux e  quindi
+      ILS-D  possono  offrire  agli  atenei  italiani,  un  gruppo ulteriore di
+      public--relations   potrebbe    avere    il    compito   di   raccogliere
+      fondi/materiali eventualmente necessari per lo sviluppo e  la  diffusione
+      di  ILS-D:  mettere  a  disposizione  10  ore  la  settimana  un PC in un
+      laboratorio puo' essere una forma di aiuto notevolissimo, per non parlare
+      dell'aquisto di nuovi PC.
+
+      In una fase remota e  che  ci  auguriamo possibile in cui esistera' ILS-D
+      1.00, si  trattera'  poi  di  porcedere  alla  pubblicita'  piu'  o  meno
+      commerciale  del  sistema:  ILS-D  sara'  comunque  un  prodotto gratuito
+      (``venduto'' a prezzo del costo del supporto/spediione di distribuzione),
+      e la  disponibilita'  di  programmatori  in  grado  di produrre soluzioni
+      informatiche AD HOC per i potenziali utenti potrebbe far diventare  ILS-D
+      un prodotto in grando di crearsi una sua piccola nicchia di mercato.  (Le
+      universita'  sono  sempre  sensibili alla possibilita' di ottere introiti
+      economici non legati ai contributi statali.)
+
+ 1.14) La ILS-D sara` uniformata allo standard FSSTND per  quanto  concerne  la
+      struttura del file-system.  --
+
+ +----------------------------------------------------------------------------+
+ | calamaro@dist.dist.unige.it    | The calamaro team boys are:      \|/      |
+ |                                | - Luca Maranzano                (. .)     |
+ | University of Genova, Italy    | - Guido Cardino          +---ooO-(_)-Ooo--+
+ |                                | - Roberto Surlinelli                      |
+ |----------------------------------------------------------------------------|
+ | Projects:                                                                  |
+ | Study of a client for disconnected operation over distributed Filesystems  |
+ | To promote Linux all over Italy, and even more...                          |
+ +----------------------------------------------------------------------------+
+ | Please, send your flames to /dev/null...  =8^)))                           |
+ +----------------------------------------------------------------------------+
+
+ ...
+  * ATP/Linux 1.42 * To excel at what you do, you must love doing it.
+
+ [NdE: e questo e' quanto mi giunse.]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                    Amiga: due programmilli PD ###
+ ############                                                   Luca Pompei ###
+
+ Riassunto:
+        Yeah!!  Sono riuscito a chiappare finalmente  un  Amigofilo  che  abbia
+        fatto qualcosa e sia disposto a vederlo pubblicato su Amiga.
+
+        Chissa'  che  un  giorno  o  l'altro  quest'area non possa tornare agli
+        antichi fasti... :)
+
+        Ecco la parola al *superlativo* Luca Pompei:
+
+ Se non capisci lo schema sopra dimmelo.   Inoltre  dai  un'occhiata  al  testo
+ perche' non lo ho riletto.  [NdE: neanch'io!  :)]
+
+ ------------------------------------------------------------------------------
+
+             GRAPHWRITEMAIN V2.5 generatore grafici xy per amiga.
+
+  Questo  programma  scritto  per  amiga  con  s.o  2.0 e superiori permette di
+ graficare file dati ASCI xy ed effettuare  il  fitting di tali dati con ben 19
+ funzioni interpolanti varie e polinomi fino al nono grado.  E' cioe' possibile
+ visualizzare grafici in cui i  dati  xy  sono  attraversati  da  una  funzione
+ matematica  interpolante  che  li approssima oppure semplicemente congiunti da
+ segmenti.
+
+  Con questa versione e' possibile  sovrappore  fino a 4 grafici provenienti da
+ altrettanti file di dati.
+
+  La struttura del programma  consiste  nei  soliti  menu  a  tendina  dove  e'
+ possibile  selezionare  le  varie  operazioni  da  effettuare sul grafico.  Il
+ programma aggiunge automaticamente titolo, note,  scale, legende ecc.  che poi
+ possono essere modificati dall'utente selezionando le varie opzioni  del  menu
+ oppure cliccando sulla parte che si vuole modificare, il programma provvedera'
+ a  riconoscere cosa si e' selezioanto e richiamare la finestra di modifica per
+ quella parte del grafico.
+
+  E' cosi possibile cambiare testi, font, scale ecc.
+
+  Una volta personalizzato il  grafico  e'  possibile salvare la configurazione
+ corrente la quale puo' essere richiamata in un secondo tempo, si possono cosi'
+ ottenere vari file di configurazione che  possono  venire  scelti  secondo  le
+ proprie esigenze.
+
+                         UTILIZZO DA ALTRI PROGRAMMI:
+
+  E'  possibile lanciare il programma da dos con dei parametri quali il file di
+ dati da graficare, il file  di  configurazione da adottare, scale, titoli note
+ ecc.
+
+  In questo modo e' possibile  utilizzare  il  programma  come  modulo  esterno
+ richiamabile e programmabile da altri programmi.  FITTING:
+
+  Per  quanto  riguarda il fitting e' possibile selezionare le singole funzioni
+ su di una apposita finestra a bottoni oppure selezionare il comando 'best-fit'
+ che provvede a determinare  la  funzione matematica con correlazione migliore.
+ Una volta assegnata la funzione vengono visualizzati i dati ad  essa  relativi
+ cioe'  coefficenti  e correlazione che vengono calcolati utilizzando il metodo
+ dei minimi quadrati.
+
+ OUTPUT:
+
+ Una volta ottenuto il grafico e' possibile:
+
+ 1) stamparlo in alta risoluzione sulla stampante.
+
+ 2) salvarlo in formato IFF  compatibile  con i programmi di gestione immagini.
+
+ 3) esportarlo in formato  EPS (encapsulated postscript) vettoriale compatibile
+    con i principali programmi di manipolazione vettoriale, in particolare  con
+    art-expression  per  il  quale  vengono  forniti  dei font che permettono a
+    quest'ultimo di adattarsi a quelli selezionati in graphwrite.
+
+    Attraverso art-expression  e'  possibile  esportare  il  grafico in formato
+    IFFDR2D compatibile con il programma di DTP pagestream.
+
+    E' importante notare che modificando le dimensioni di un grafico vettoriale
+    non si influisce sulla sua definizione grafica.
+
+ FUTURI MIGLIORAMENTI:
+
+ In  futuro  cerchero'  di  aggiungere anche altri modi di graficazione e cioe'
+ grafici a torta, sbarre,  3d  ecc.   Inoltre  sara' migliorata la gestione del
+ tipo di screen sul quale deve essere aperto il programma tenendo  conto  della
+ presenza di schermi aga, e di eventuali settaggi in overscan.
+
+ Il  programma  GRAPHWRITEMAIN e' SHAREWARE ed ordinabile telefonando, spedendo
+ una lettera o inviando un BBS matrix a:
+
+                             LUCA POMPEI via togliatti 47 40026 imola(BO) italy
+                             Tel. 0542/640056
+                             BBS point: 2:332/405.23 luca pompei.
+
+ Oppure e' Filerequestabile presso IDCMP BBS 2:332/405  T. 0542/25983 il file e'
+ GRAPHWRI.LHA
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+                                    IMODEL
+
+        Generatore distribuzioni tempi di permanenza di apparecchiature
+                             multistadio agitate.
+
+  Si supponga una serie  di  N  stadi  perfettamente  miscelati  di  volume  Vn
+ attraversati  da una portata di fluido q e interessati tra loro da una portata
+ di retromiscelazione f.
+
+                  q  ------  q  ------  q  ------  q  ------  q
+
+                  -->|    |---> |    |---> |    |---> |    | -->
+                     | V1 |  f  | V2 |  f  | Vn |  f  | VN |
+                     |    |<--> |    |<--> |    |<--> |    |
+                     ------     ------     ------     ------
+
+  Se si effettua  sulla  corrente  di  ingresso  un  disturbo di tipo impulsivo
+ mediante iniezione di un tracciante es.  un  colorante,  esso  si  propaghera'
+ lungo  l'apparecchiatura ed uscira' in maniera distribuita nel tempo.  Ebbene,
+ il programma in questione scritto  da  Pompei Luca si preoccupa di determinare
+ tale distribuzione concentrazione tempo o dei tempi di permanenza delle  varie
+ particelle del tracciante all'interno dell'apparecchiatura.
+
+  In  pratica il programma risolve il sistema di equazioni differenziali che si
+ ricava dal bilancio di materia riferito al tracciante di tale schema, per ogni
+ punto della curva che esso genera.
+
+  Il  programma  scritto  in  versione  amiga   con  s.o  2.0  o  superiori  e'
+ completamente user friendly e le varie opzioni, normalizzazione  delle  curve,
+ integrazione,  volumi  degli  stadi,  graficazione  ecc.  sono disponibili dai
+ soliti menu' a tendina.
+
+  E' altresi' disponibile il  listato  dello  stesso  in  ANSI C compilabile su
+ tutte le piattaforme hardware.
+
+  Il programma e' PD, scritto da Pompei Luca Via togliatti 47  40026  imola(BO)
+ Tel 0542/640056, e' disponibile presso IDCMP BBS 2:332/405 tel.  0542/25983
+
+ Ciao.
+
+
+
+
+                                                                   Luca Pompei
+                                                                   2:332/405.23
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                            Oberon - parte III ###
+ ############                                                 Roberto Piola ###
+
+ Riassunto:
+        Ci siamo un attimino interroti con Oberon (per colpa mia)...
+
+        Purtroppo da indiscrezioni so che il Piola ha abbandonato Oberon.  Cio'
+        e' male, credo.
+
+        Comunque e' finito su Linux. :)
+
+ ------------------------------------------------------------------------------
+
+                                    OBERON
+
+               un nuovo ambiente operativo di pubblico dominio,
+                       da Niklaus Wirth e Jurg Gutknecht
+
+                                   parte IV
+
+
+ E finalmente addentriamoci nell'interfaccia di Oberon.
+
+  Appena   lanciato,  Oberon  mostra  una  colonna  di  finestre,  una  con  il
+ "System.Log", ovvero la registrazione  di  tutto  quello che farete durante la
+ sessione di lavoro, nonche' degli errori, un'altra con i comandi  di  sistema,
+ espressi  con la notazione Modulo.Funzione (ovvimanete tipica ed intuitiva per
+ chi lavora ad oggetti).
+
+  Bisogna subito dire che la  finestra  dei comandi, chiamata System.Tool, puo'
+ essere personalizzata a piacimento, aggiungendo i vostri moduli, con le vostre
+ funzioni, oppure togliendo o modificando quelli pre-esistenti.
+
+  I comandi vengono attivati cliccandoci sopra  con  il  pusante  centrale  del
+ mouse;  il  pulsante di sinistra serve per portare il cursore sopra un oggetto
+ (e per modificarlo), mentre il  pulsante  di destra serve per evidenziare zone
+ di testo, od oggetti, o gruppi di oggetti.
+
+  Al buon Wirth pero' tre pulsanti non  bastavano,  e  cosi'  ha  inventato  un
+ perverso  sistema  che  ha  chiamato "interclicking" per, come dice Gutknecht,
+ "aumentare l'espressivita' del mouse", cosi'  per cancellare un oggetto od una
+ parte  di  testo  basta  premere  il  pulsante  sinistro  mentre  lo  si   sta
+ evidenziando  con  il  pusante  destro,  per  copiare  il testo selezionato da
+ qualche altra  parte  basta  premere  il  pulsante  di  centro  mentre  si sta
+ posizionando il cursore con quello di sinistra e cosi' via...  Se a  meta'  di
+ un   comando   vi   vengono  dei  dubbi,  premendo  tutti  e  tre  i  pulsanti
+ contemporaneamente il comando viene annullato.
+
+  L'uso delle scroll bars potra' sembrare  poco intuitivo a chi non e' abituato
+ a lavorare con le workstations Sun: il pulsante di sinistra  scrolla  in  giu'
+ mentre  quello  di destra scrolla in su, quando il cursore e' su di una scroll
+ bar; una volta che  vi  ci  sarete  abituati  pero'  potrete apprezzare che il
+ sistema di Oberon e' praticissimo, potendo decidere con il movimento del mouse
+ di quanto scrollare lo schermo.
+
+  La gestione delle finestre potra'  sembrare  leggermente  anomala  all'utente
+ medio  di GUI, infatti avviene con finestre a posizione fissa, con le finestre
+ vecchie che si ridimensionano  da  sole  per  far  posto  alle nuove quando le
+ aprite.  Se vi ricordate una  volta  anche  Windows  era  cosi'  (parlo  della
+ versione  1.03,  ma  all'epoca  la maggior parte di voi era troppo giovane per
+ comprendere..).
+
+  Tutti i comandi vengono attivati  cliccandovi  sopra con il pulsante centrale
+ del mouse, ma come  aggiungere  funzioni  alla  System.Tool  (ricordo  che  la
+ System.Tool  e'  una  delle  due  finestre  che si aprono all'inizio, e per la
+ precisione quella che contiene i comandi fondamentali)?
+
+  Semplicemente, posizionate  il  cursore  nella  finestra  System.Tool, con un
+ click del pulsante sinistro, poi scrivete i vostri  comandi,  nella  posizione
+ che volete; potete anche cancellare o modificare quelli che ci sono gia'.  Per
+ esempio   nella   mia   System.Tool   attualmente   ho   abolito   l'Edit.Open
+ Biorhythms.Mod~  (banale  demo)  e  l'ho  sostituito  con  una  bella serie di
+ Write.Open  OberonTelem1.Text~,   Write.Open   OberonTelem2.Text,  eccetera...
+ (tutta questa serie di articoli) in modo da poter aprire i documenti  che  uso
+ di  piu'  con  un  unico click dal "desktop".  Non dimenticatevi, quando avete
+ finito,  di  attivare  il   comando  Edit.Store  della  finestra  System.Tool,
+ altrimenti i cambiamenti non saranno registrati.
+
+  Giusto per inciso, la tilde (~) indica la fine di  un  comando,  quando  tale
+ comando  accetta  un  numero di argomenti variabile; potete scrivere i comandi
+ anche su piu' righe, e con gli attributi di aspetto che volete.
+
+  Ogni comando, come ho gia' detto, e' composto da un nome di modulo, un punto,
+ il nome  di  una  procedura  (o  metodo,  per  rispettare  la  terminologia ad
+ oggetti), eventualmente seguito da uno spazio e da  una  serie  di  parametri.
+ Esistono  sistemi  per  abbreviare  notevolmente  il  lavoro  di selezione dei
+ parametri; per esempio potete evidenziare un file od un gruppo di files da una
+ directory e poi lanciare un comando che ha tra i parametri il simbolo speciale
+ ^:  tale  simbolo  sara'   sostituito   con  quello  che  avrete  evidenziato.
+ Ovviamente la selezione puo' avvenire da qualsiasi finestra; per  esempio,  in
+ un  ipotetico  message  editor  per  Oberon, si potrebbero evidenziare i files
+ dalla finestra con i messaggi, e poi attivare il tool MailUtil.FileRequest ^.
+
+  Abbiamo detto come aggiungere comandi  alla System.Tool, usando i moduli gia'
+ forniti dal sistema, tra cui si annoverano: System (funzionalita' del  sistema
+ operativo),  Edit  (un  editor),  Draw  (un programma di grafica, Compiler (il
+ compilatore), Write  (un  word  processor,  quello  che  sto  usando in questo
+ momento) ed altri ancora, ma come si fa a crearsi i propri moduli?
+
+  Semplice: si scrive il codice  del  modulo  in  un  file  .Mod  usando  Edit,
+ dopodiche' si lancia Compiler.Compile nomemodulo ed ecco che il modulo diventa
+ disponibile  al  sistema  (se  non  ci sono errori), con tutte le funzioni che
+ avete deciso di rendere accessibili;  a  questo  punto dovete solo inserire il
+ richiamo et voila'.
+
+  Il linguaggio usato si chiama Oberon ed e' una variante del Modula-2,  ma  lo
+ vedremo  un'altra  volta,  se  ne  avro'  voglia (non mi sto impegnando, e non
+ voglio farlo: finche' sono  in  vacanza  preparero'  una serie di articoli, ma
+ temo che lascero' cadere la cosa con la ripresa dell'attivita' di studio).
+
+
+
+                                 @    @     Ciao
+
+                                 \____/     Roberto Piola, fidonet 2:334/108.57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   9  ###                                   IL GERGO HACKER - PARTE 32  ###
+ ############                                   Eric S. Raymond & .mau.     ###
+
+ Riassunto:
+        E' terribile.  Il buno .mau.  mi ha confidato che in realta' quella che
+        Telem sta pubblicando *non* e'  la  traduzione  integrale  del  Jargon,
+        bensi' una schifezza tagliata e menomata.
+
+        Sono costernato e mi scuso con i lettori per questa imperdonabile gaffe
+        da  parte  della  direzione.   Ho  portato  immediatamente  a 0 Lira la
+        retribuzione di questo balordo.  *:)  Anche  se  mi ha assicurato che i
+        tagli riguardano elementi assolutamente  spassosi  ed  imperdibili;  in
+        pratica l'unica cosa che si riuscirebbe *veramente* a capire.
+
+        Vatti a fidare di questi editor consulents... :)
+
+ ------------------------------------------------------------------------------
+
+    <plain-ASCII> Sinonimo di <flat-ASCII>.
+
+    <plonk> [USENET] Il suono che un <newbie> fa quando casca nel fondo  di  un
+ <kill  file>.   Quasi  esclusivamente  usato  nel  <newsgroup> "talk.bizarre",
+ questo  termine  (scritto  di  solito  "*plonk*")  e`  una  forma  di pubblico
+ ridicolo.
+
+    <PM> /pee em/ 1. [da "preventive maintenance", manutenzione preventiva]  v.
+ Buttare giu` una macchina per ispezione o per farci su dei test; vedi <scratch
+ monkey>.   2.  s.  Abbreviazione  di  "Presentation  Manager",  un'interfaccia
+ grafica <elephantine> per l'OS/2.
+
+    <pod>  s.  Una Diablo 630 (o, in seguito, una qualunque stampante a impatto
+ di qualita`).  Dal programma dei  PDP-10  PODTYPE usato per mandarle del testo
+ formattato.
+
+    <poll> [pollare] v.,s.  1. L'azione di controllare lo stato di una linea di
+ input, un sensore, o una locazione di memoria, per vedere  se  un  particolare
+ evento  esterno  e` stato registrato.  2. Chiedere.  "Vado a pollare gli altri
+ per vedere dove vogliono andare a pranzo".
+
+    <polygon pusher> [strattonatore di  poligoni:  mica e` uno spacciatore!] s.
+ Un progettatore di chip che spende molto del suo tempo al  livello  di  layout
+ fisico  (che  richiede  di  disegnare  *molti*  poligoni  multicolori).  Anche
+ "rectangle slinger" (fromboliere di rettangoli).
+
+    <POM> /pee-oh-em/ s. Fase della  luna  (v.   <Phase of the moon>).  Uso: di
+ solito nella frase "POM dependent" che ha il significato di <flaky>.
+
+    <POP> , <POPJ> /pop-jay/  [basato  sull'operazione  che  rimuove  il  primo
+ elemento  di  uno  stack,  e  sul  fatto  che  gli indirizzi di ritorno di una
+ procedura sono salvati sullo stack] 1.  v.  Togliere qualcosa da uno <stack> o
+ <pdl>.  Se una persona dice che ha "poppato" qualcosa dal suo stack, significa
+ che finalmente ha finito di lavorarci su e puo`  toglierla  dall'elenco  delle
+ cose  che  aveva  in  testa.   2.  Rientrare da una digressione (la forma in J
+ deriva specificatamente da  un'istruzione  assembler PDP-10).  Raddoppiando il
+ verbo, "Popj, popj" significa piu` o meno "Vediamo, dov'eravamo rimasti?" Vedi
+ <RTI>.
+
+    <precedence lossage>  /pre's@-dens  los'j/  [programmatori  C:  perdita  di
+ precedenza]   s.   Errore   di   codifica  in  un'espressione,  dovuto  ad  un
+ raggruppamento inaspettato  di  operatori  aritmetici  o  logici  da parte del
+ compilatore.  Usato spec.  per certi errori comuni in C dovuti ai  livelli  di
+ precedenza  inintuitivamente  bassi  di &, | and ^. Puo` sempre essere evitato
+ usando opportunamente  le  parentesi.   Vedi  <aliasing  bug>,  <memory leak>,
+ <smash the stack>, <fandango on core>, <overrun screw>.
+
+    <prepend> /pree`pend'/ [in  analoga  con  "append"]  v.  Prefissare.   Come
+ "append",  ma  diversamente da "prefix" o "suffix" usati come verbi, l'oggetto
+ e` sempre la cosa  la  cosa  che  viene  aggiunta,  e  non la parola originale
+ (stringa di caratteri, ecc.) No,  non  e`  inglese  standard,  almeno  per  il
+ momento!
+
+    <pretty   pictures>   s.  [calcolo  scientifico]  Il  passo  successivo  ai
+ <numbers>.   Un  interessante  output  grafico  di  un  programma  che  non ha
+ necessariamente alcuna relazione con  la  realta`  che  il  programma  intende
+ modellare.  Bouno da mostrare al <management>.
+
+    <prettyprint>  v.  1.  Generare  dell'output  `carino' e leggibile da parte
+ umana, a partire da una  rappresentazione interna incasinata: spec.  usato per
+ l'uso di <grind> (sign.  #2)  su  codice  LISP.   2.  Formattare  in  un  modo
+ particolarmente ingegnoso e non banale.  Vedi <grind>.
+
+    <prime  time> [dalla programmazione TV] s. Le ore di alto uso di un sistema
+ a timesharing.   L'evitare  il  p.t.   e`  una  delle  ragioni  principali per
+ l'hacking in <night mode>.
+
+    <priority  interrupt>  [dal  termine  hardware]  s.  Descrive  un qualunque
+ stimolo abbastanza irresistibile per tirare  via  qualcuno  dall'<hack  mode>.
+ Usato classicamente per descrivere l'essere strappati via da un
+
+ <SO>  per  del  sesso  immediato,  ma puo` anche riferirsi a interruzioni piu`
+ mondane, tipo  un  allarme  antiincendio  nelle  vicinanze.   Detto  anche NMI
+ (interrupt non mascherabile), specialmente nel mondo PC.
+
+    <Programmer's Cheer> [il motivetto del programmatore]: "Shift to the  left!
+ Shift  to  the  right!  Push down, pop up!  Byte!  Byte!  Byte!"] Una freddura
+ cosi` vecchia che ormai gli e` cresciuta la barba...
+
+    <propeller head> [testa esplosiva] s. Usato dagli hacker, e` un sinonimo di
+ <computer geek>.  I non hacker a volte  lo usano per descrivere tutta la gente
+ tecnica.  Prob.  derivato dalla tradizione dei fan SF  dei  fagioli  esplosivi
+ come  decorazione  per il fondoschiena (anche se nessuno le indossa davvero se
+ non per scherzo).
+
+    <protocol> s. Vedi <do protocol>.
+
+    <prowler> [UNIX:  predatore]  s.  Un  <demon>  fatto  girare periodicamente
+ (tipicamente una volta la settimana) per cercare e cancellare  file  di  core,
+ troncare  file  di  log amministrativi, azzerare le directory lost+found, e in
+ genere buttare via la rumenta che tende  ad accumularsi agli angoli di un file
+ system.  Vedi anche <GFR>, <reaper>, <skulker>.
+
+    <pseudo> /soo'do/ [USENET] s. 1. Uno  pseudonimo  di  posta  elettronica  o
+ <USENET>  adottato  da una persona per divertirsi, o per evitare ripercussioni
+ negative del suo net.behaviour; un `nom de USENET', spesso associato a posting
+ truccati in maniera tale  da  nascondere  le  origini del messaggio.  Forse il
+ piu` noto e divertente di questi e` <biff>.  [NdT: notate che ad esempio .mau.
+ *non* e` uno pseudo in questo senso, visto che e` sempre associato al mio vero
+ nome; il famigerato "Wild Inkiappettator" invece si`].  2.  Astrattamente,  un
+ programma  AI  che  genera  <flamage>  che  simula  un  utente  USENET.  Molti
+ infiammatori sono stati accusati di essere in realta` tali entita`, nonostante
+ il fatto che nessun programma  di  AI con la sofisticazione necessaria esiste.
+ Pero`, nel 1989 c'e` stata una famosa serie di posting falsi  che  usavano  un
+ generatore  di  frasi basandosi sulla frequenza dei termini usati da molti ben
+ noti flamers nei loro messaggi.  Un numero significativo di persone sono state
+ tratte in inganno, e il  dibattito  sulla  loro autenticita` si e` spento solo
+ quando il perpetratore della truffa ammise pubblicamente la sua colpa.
+
+    <pseudoprime> s. Un primo a backgammon (sei caselle  consecutive  occupate)
+ con  una  di  queste mancante.  Questo termine e` un gioco di parole esoterico
+ derivato da un metodo  matematico  che, piuttosto che determinare precisamente
+ se un numero e` primo, usa una tecnica statistica per decidere se il numero e`
+ "probabilmente" primo.  Un numero che passa questo test e` detto  pseudoprimo.
+ L'uso  hacker  nel  backgammon  di  questo  termine  deriva  dall'idea che uno
+ pseudoprimo e` quasi utile  come  un  primo  [NdT:  l'avversario la cui pedina
+ casca in una casella occupata dall'altro la deve  fare  partire  da  capo;  un
+ primo  e` quindi l'equivalente di un blocco].  Uno pseudoprimo fa il lavoro di
+ un primo a  meno  che  non  si  provi  l'opposto,  e  questo probabilmente non
+ capitera`.
+
+    <pseudosuit> s. Uno che vuole diventare un <suit>; un hacker che ha  deciso
+ che  vuole  entrare  nel  management  o  nell'amministrazione,  e  comincia  a
+ indossare cravatte e (brrrrr!) giacche volontariamente.  Chacun a son gout...
+
+    <punt> [E` il calcio al volo del football americano: da una vecchia battuta
+ che  terminava  con  "Arretra  di  15  iarde  e  calcia"] v. Lasciare perdere,
+ tipicamente senza alcuna intenzione  di  riprovarci.   "P.  il film, stasera".
+ "Volevo lavorare tutta la notte per aggiungere questa feature, poi  ho  deciso
+ di  fare  p."  puo`  significare che si e` deciso di non stare svegli tutta la
+ notte, e magari anche di non aggiungere piu` la feature.
+
+    <Purple  Book>  s.  Il libro `System V Interface Definition'.  La copertina
+ della sua prima edizione era  di una tonalita` sconvolgentemente disgustosa di
+ lavanda.  Vedi anche <Red Book>, <Blue Book>,  <Green  Book>,  <Silver  Book>,
+ <Orange Book>, <White Book>, <Pink-Shirt Book>, <Dragon Book>,
+
+ <Aluminum Book>.
+
+    <PUSH>   [basato  sull'operazione  sullo  stack  che  mette  l'informazione
+ corrente in cima, e sul fatto  che  gli indirizzi di chiamate a procedure sono
+ salvati sullo stack], anche PUSHJ (push-jay), dal nome di  un  istruzione  del
+ PDP-10.   1. Mettere qualcosa su uno <stack> o <pdl>.  Se una persona dice che
+ qualcosa e` stata p. nel suo stack, vuole significare che un'altra cosa ancora
+ e` stata aggiunta  alla  lista  di  cose  che  ha  in  testa.  2. Iniziare una
+ digressione, salvando la discussione corrente per dopo.   Antonimo  di  <POP>,
+ <POPJ>; vedi anche <stack>, <pdl>.
+
+    <psychedelicware> [Gran Bretagna] s. Sin.  <display hack>.
+
+                                    {= Q =}
+
+    <quadruple bucky> s., obs.  Su una <space-cadet keyboard>, l'uso di tutti e
+ quattro  i tasti di shift (control, meta, hyper, and super) mentre si pigia un
+ carattere.  E` una  cosa  complicata!   Una  tecnica  accettata  era quella di
+ premere control e meta sinistri con la mano sinistra, control  e  meta  destri
+ con  la  mano  destra,  e  il  quinto  tasto  col  naso.   Ovviamente,  questa
+ combinazione  non  era  mai usata in pratica, perche` se si inventava un nuovo
+ comando lo  si  assegnava  solitamente  a  una  combinazione  piu` semplice da
+ diteggiare.  Se si voleva implicare che un programma aveva un numero  ridicolo
+ di  comandi  o caratteristiche, si poteva dire qualcosa sulla linea di "Oh, il
+ comando che fa girare tutti i  nastri mentre fischietta la Quinta di Beethoven
+ e` quadruple-bucky-cokebottle".  Vedi <double bucky>, <bucky bits>.
+
+    <quantum   bogodynamics>   /kwahn'tm   boh`goh-die-nam'iks/   [Bogodinamica
+ quantistica] s. Teoria che caratterizza l'universo in termini di  sorgenti  di
+ bogoni  (tipo  politici,  venditori  di  auto usate, predicatori televisivi, e
+ <suit> in genere) e campi  di  bogosita` potenziale.  L'assorbimento di bogoni
+ fa naturalmente si` che gli uomini si comportino stupidamente e le macchine si
+ piantino (e magari ci sia anche un'emissione di bogoni secondari);  pero`,  la
+ meccanica  precisa  dell'interazione tra bogoni e computroni non e` ancora ben
+ compresa, e rimane da delucidare.  La b.q.  e` in genere invocata per spiegare
+ l'improvvisa crescita dei guasti  software  e  hardware in presenza di <suit>;
+ questi emettono bogoni  che  quelli  assorbono.   Vedi  <bogon>,  <computron>,
+ <suit>.
+
+    <ques>  /kwess/  1.  s.  Il  punto  interrogativo  ("?").   2. inter.  Che?
+ Frequentemente raddoppiato, "ques ques?".  Vedi <wall>.
+
+   <qux> /kwuhks/ La  quarta  variabile  metasintattica  standard, dopo <baz> e
+ prima della serie QUU*X.  Vedi <foo>,  <bar>,  <baz>,  <quux>.   Si  noti  che
+ sembra  essere  una mutazione recente di <quux>, e che molte versioni standard
+ fanno semplicemente <foo>, <bar>, <baz>, <quux>,...
+
+    <quux> /kwuhks/ [inventata da  Steele] Miticamente, dal verbo semideponente
+ latino quuxo, quuxare, quuxandum iri;  forma  nominale  variabile  tra  "quux"
+ (plurale  "quuces",  anglicizzato  in "quuxes") e "quuxu" (genitivo plurale is
+ "quuxuum", quattro u su un totale  di sette lettere).  1. Originariamente, una
+ metaparola come <foo> e <foobar>.  Inventata da Guy Steele proprio per  questo
+ proposito,  quando  era  giovane  e  naif e non interagiva ancora molto con la
+ comunita` degli informatici.   Molte  persone  inventano parole simili; questa
+ sembra semplicemente essere stata abbastanza fortunata per avere avuto un  po'
+ di  diffusione.   Come  segno  eloquente  di  giustizia  poetica, E` ritornata
+ sull'originatore sotto forma di nomignolo,  come punizione per avere inventato
+ questo termine osceno.  2.  inter.   Vedi  <foo>;  pero`,  denota  molto  poco
+ disgusto, ed e` pronunciata piu` che altro per il suo suono.  3. Guy L. Steele
+ in  persona  come  "The  Great  Quux",  piuttosto  infame per i suoi versi e i
+ fumetti "Crunchly".  4. quuxy: agg.  Di o riguardante un quux.
+
+    <QWERTY> /kwer'tee/  agg.   Che  riguarda  una  tastiera  standard inglese,
+ rispetto a una Dvorak o straniera [NdT: noi abbiamo la QZERTY, i  francesi  la
+ AZERTY...] o una <space-cadet keyboard> o una tastiera APL.
+
+
+
+
+                                           tradotto da .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  10  ###                        L'arte della programmazione - parte VI ###
+ ############                        Mario Ricca                            ###
+
+ Riassunto:
+        Per il festeggiamento del numero non  avrei  potuto  avere  brano  piu'
+        bello!   Cedo  subito  la parola al sempre piu' bravo (ed interessante)
+        Mario Ricca.
+
+      Riprende la corrispondenza del nostro inviato Artore Londona.  Nessuno lo
+     ricordera',  ma  lo  avevamo lasciato a Napoli.  Pare che sia partito solo
+     dopo essere  riuscito  a  trovare  un  macinacaffe'  a  manovella [NdE: si
+     riferisce ad una altra intervista di Artore Londona non  ancora  pubblica-
+     ta].
+
+      L'argomento  della  ricerca e' noto (...  noto?!): puo' la programmazione
+     assurgere alla dignita' di arte, ovvero puo' qualche programmatore, per le
+     sue attitudini straordinarie, essere definito artista?
+
+      Insoddisfatto della qualita' del  dibattito  locale (il nostro inviato ha
+     promesso di non tornare sin quando non trovera' una risposta esauriente al
+     quesito.  Lo speriamo) A.L.  ha cercato la risposta in  ambienti  estranei
+     alla programmazione.
+
+ ------------------------------------------------------------------------------
+
+  Mi ero  ricordato  di  una  tragedia  di  Shakespeare,  dove  il protagonista
+ dichiarava all'amico che " ci sono piu' cose in terra e in cielo,  Orazio,  di
+ quante ne possa sognare la tua filosofia".
+
+  In  un modo o nell'altro la filosofia aveva fatto capolino nel dibattito.  Ho
+ pensato di eliminarla.
+
+  Le persone piu' refrattarie alla  speculazione filosofica che io conosca sono
+ i programmatori, ma ho deciso di farne a meno.  Esclusi gli ingegneri (che  mi
+ avrebbero  chiesto  una  parcella), mi rimanevano i matematici.  Me ne indico'
+ uno il bigliettaio della nona cassa  della stazione ferroviaria di Napoli.
+
+  Mi diede un indirizzo in provincia di Siena (cosi',  stavolta,  A.L.   ci  ha
+ risparmiato  la ricerca del matematico.  Alla corrispondenza e' pero' allegato
+ un volume, con  la  vita  di  quel  personaggio,  scritta  da  lui stesso.  Se
+ qualcuno e' interessato all'argomento puo' venire da me, per il libro - che ho
+ trovato utilissimo - e se verra' con un falegname fara' cosa grata, perch‚  il
+ volume   sta   rimediando   eccellentemente   al  difetto  di  un  tavolinetto
+ claudicante, NdE).
+
+  Lamberto Cantore [NdE: Canto're nel testo originale.   Purtroppo  essendo  un
+ file  ASCII...] abita in una villa che, costrutta sul colmo di un ameno poggio
+ (siamo in Toscana, no?), tra cipressi e viti, si sposa al paesaggio dolce come
+ puo' farlo una nuvola bianca,  una  siepe  o  un antico acquedotto romano.  Un
+ muro, le cui pietre occhieggiano tra l'edera e il muschio, circonda  un  parco
+ pensato  come un giardino inglese, aperto verso il mondo da un grande cancello
+ minaccioso, di ferro nero.
+
+  Mi annuncio a un  citofono  di  ottone  lucido  e  mi viene detto di entrare.
+ Seguo un vialetto coperto di ghiaia.  Non vedo siepi  a  labirinto,  non  vedo
+ artifici  alla  Ershel,  non vedo cippi archimedei.  La villa mi aspetta sulla
+ salita e il matematico mi aspetta alla porta a vetri.
+
+  E' magro, alto quasi  due  metri:  "Non  ho  capito  il suo nome".  Mi capita
+ spesso.  Mi presento e gli spiego il motivo della visita.  "Perch‚  ha  questa
+ curiosita'?".  Il tono e' lo stesso della prima frase.  Ma non mi viene niente
+ di pronto.
+
+  Per  guadagnare  tempo chiedo: "Non le sembra una curiosita' legittima?".  Ma
+ mi va peggio: "Che cosa  intende  per  legittima?".   Un tipo tosto, il tosco:
+ "Non vietata ..., credo".  Mi risponde che, allora, si', gli  sembra  che  non
+ sia  una curiosita' vietata, "...  ma per una risposta precisa dovrei chiedere
+ a un avvocato".
+
+  Rimaniamo per un  tempo  lunghissimo  in  silenzio.   Almeno dieci secondi di
+ mutismo, poi non ce la faccio piu' e ammetto: "Non me lo sono chiesto, a  dire
+ il  vero.   Mi  e'  sorta  questa  curiosita'  e  ho  sentito  il  bisogno  di
+ soddisfarla.   Accetterebbe  di  parlare dell'argomento, intanto che trovo una
+ risposta?".  Accetta.
+
+  Altri secondi  di  silenziosa  sofferenza.   Gli  uccelli  del  parco si sono
+ scatenati.  Il loro coro riempie un' ottava e capisco  che  Lamberto  Canto're
+ rimarrebbe eoni interi ad ascoltarli.  "Vede professore, la questione e' stata
+ affrontata con altri personaggi.  Ma non sono riuscito a definire una sintesi.
+ Forse  cio' dipende dalla mia incapacita' ad affrontare il problema artistico.
+ Forse dipende dal fatto che la programmazione e' una pratica con poca storia e
+ l'arte nuota nei secoli...".
+
+ "Lei ha definito che cosa sia l'arte?".
+
+  Rimango interdetto.  "Devo ammettere  che...   che  non  ho operato in questa
+ direzione.  Mi sono posto questa domanda.  Piu' volte.   Le  definizioni  piu'
+ chiare  degli  intelletti  piu'  belli  sono  state  contestate ferocemente da
+ intelligenze dello stesso livello.  Di norma si concede il concetto come noto,
+ ogni qualvolta che  se  ne  discute.   Vengono  affrontati  tutti gli aspetti,
+ tranne quello definitorio".
+
+  "In alcuni casi si puo' non definire un concetto di cui si discute.   Non  e'
+ un  grosso  problema.   E' usuale nei dibattiti televisivi o nei loro opposti,
+ quelli tra specialisti.  E' il nostro caso, secondo lei?".  Ammetto che non e'
+ il nostro caso.  "Non e' che  lei ha sottomano una definizione?", azzardo.  Ci
+ stiamo facendo un mucchio di domande.
+
+  "Gli  uccelli  di questo parco sono in parte stanziali e in parte migratori",
+ interessante, penso.  "Sa  quanti  sono?".   Confesso  un'  ignoranza totale a
+ riguardo.  "Sono molti.  Sa su quanti rami  si  posano?".   Beh,  stavolta  e'
+ facile: "Su molti rami".
+
+  Sorride: "Non credo, no.  Infatti un uccello si sposta e puo' capitare che si
+ poggi su un ramo gia' occupato, ma anche su uno libero.  Non essendoci nessuna
+ condizione  per  una scelta o l'altra, tutti gli uccelli possono occupare rami
+ liberi, senza limitazioni.
+
+  Se  i  rami  fossero  quanti  gli  uccelli,  cioe'  molti,   essi   sarebbero
+ condizionati a spostarsi per occupare rami liberi solo a seguito dello sposta-
+ mento  di  un  compagno.  Ma lei ed io sappiamo che essi non rispet- terebbero
+ questa condizione, per il loro stato di liberta'.
+
+  Quindi i rami devono essere piu'  numerosi degli uccelli, che sono molti...".
+ Lo interrompo: "Ho usato il termine 'molti' in senso generico!".
+
+  "Anche io".  Sento che ha ragione e lo ammetto.  "Pero'", continua,  "i  rami
+ potrebbero  essere  meno  di  molti.  In questo caso gli uccelli non avrebbero
+ molte limitazioni: potrebbero  continuare  a  spostarsi liberamente.  Solo che
+ avremo ogni volta rami con piu' uccelli, rami con un solo uccello e rami senza
+ uccelli".
+
+  "Ma, allora, se i rami fossero quanto gli uccelli questa  condizione,  questo
+ stato,  sarebbe  rispettato  ugualmente.  Quindi e' una soluzione!".  Non sono
+ sicuro di essere riuscito trattenere una  nota  - sottile comunque, lo giuro -
+ di trionfo nella voce.
+
+  Sorride di nuovo: "Infatti, potrebbe essere cosi'.  Ma lei ha ammesso di aver
+ usato il termine 'molti' in  senso  generico.   La  sua  ipotesi,  senza  dati
+ precisi,  e'  da  scartare.   E' la meno probabile tra tutte le possibili.  E'
+ verificata in uno, e  uno  soltanto,  degli  stati possibili".  Risento che ha
+ ragione e lo riammetto.
+
+  "Immagini che qui affianco ci sia un altro parco.  Come  questo.   Con  molti
+ uccelli.  Ha un' idea di quanti rami avrebbero per poggiarsi?".
+
+ "Il doppio dei rami".
+
+  "E'  esatto.  Infatti gli uccelli non distinguerebbero gli alberi di un parco
+ da quelli dell'altro.  Generalizzando, per i due parchi, gli n uccelli hanno a
+ disposizione 2n volte il numero  di  configurazioni possibili per n uccelli di
+ un parco in un singolo parco.
+
+  Come vede il  numero  cresce  esponenzialmente  con  il  numero degli uccelli
+ presenti.  C'e' qualche grandezza che le ricorda tutto questo?" ...boh!  "  E'
+ l'entropia,  come  sa,  anche se adesso non lo ricorda".  E' vero...  "Abbiamo
+ creato un parco,  prima  non  c'era,  e  l'entropia  e' aumentata.  Un momento
+ creativo aumenta l'entropia".
+
+  L'ha presa un poco alla lontana, ma il discorso comincia a farsi noto.  "E di
+ conseguenza, tra l'altro,  possiamo  misurarla.   Come?".   Si  vede che e' un
+ professore.  E si vede che non sono un gran che come alunno.  "Ma  facendo  il
+ logaritmo    del    numero    delle    configurazioni   ('stati'),   possibili
+ ('accessibili').  Perch‚  il  logaritmo?"...   ancora..."Ma  perch‚  in questo
+ modo, con una scala logaritmica, l'entropia e' proporzionale al  numero  degli
+ uccelli".
+
+ Gia'.
+
+  "Le  dispiace  se entriamo?", mi chiede.  Forse non servono piu' gli uccelli.
+ Entriamo.  Non vi descrivo la casa - e lo meriterebbe.  Pero' non posso tacere
+ che non ho mai  visto  tanti  libri  in  un'  abitazione privata: "Li ha letti
+ tutti, questi libri?".
+
+  "Potrei dimostrarle facilmente che non e' possibile, ma lo lascio a lei  come
+ esercizio."  Si',  e'  proprio  un professore.  "Diciamo che non li ho neanche
+ 'visti' tutti."
+
+  Ci sediamo su divani che non  potrei neanche manutenere.  Qualcosa, pero', lo
+ avevo imparato e do il mio contributo: "Pero' non  tutti  i  momenti  creativi
+ sono momenti artistici".
+
+  "Questo e' vero.  Ma e' anche vero che non tutti i momenti creativi aumentano
+ l'entropia  nello  stesso  modo.   Nel  nostro   caso   l'aumento   e'   stato
+ proporzionale,  perch‚  abbiamo  creato  un  parco.   Ma se, invece del parco,
+ avessimo creato il deserto di Mojave?".  Attende la risposta.
+
+  Non ho ben chiaro che cosa sia  il  deserto di Mojave, pero' rispondo che no,
+ nel caso del deserto di Mojave,  l'aumento  dell'entropia  non  sarebbe  stato
+ proporzionale,  il  numero  degli  stati  accessibili agli uccelli non sarebbe
+ aumentato.
+
+  "Pero'", continua,  "non  basta  che  sia  aumentato  il  numero  degli stati
+ accessibili.  Nel caso dell'arte l'aumento deve, appunto, essere proporzionale
+ intero a...  Posso offrirle un te'?".  Accetto.  Dopo l' esperienza napoletana
+ mi  aspetto  un  altro  rito.   Nessun  rito.   [NdE:  si  rifa'  all'articolo
+ precedente non ancora pubblicato...]
+
+  Entra un signore in marsina  (un  maggiordomo!)  con un vassoio.  Comunque il
+ te' e' eccellente.  "Proporzionale a che cosa?" chiedo ansioso.   Vi  pare  il
+ momento di fermarsi?
+
+  "Ma proporzionale agli uccelli  o,  se  preferisce,  alle intelligenze che ne
+ hanno accesso, naturalmente".
+
+  "Scusi professore, ma perch‚ dice sempre 'proporzionale intero'?  Non capisco
+ come potrebbe altrimenti aumentare".
+
+  Si  alza,  prende  una  penna  su uno scrittoio, si guarda in giro e viene il
+ maggiordomo con dei  fogli  di  carta  (riciclata).  "No, inutile dimostrarlo,
+ meglio  un  approccio  qualitativo.   Ha   presente   un   teorema,   la   sua
+ dimostrazione?".  Che dire?  dico di si'.
+
+  "Ebbene  la  'creazione' di un teorema e' un momento creativo che non aumenta
+ l'entropia degli stati accessibili  in  modo proporzionale intero.  E, quindi,
+ sa dirmi come l' aumenta?".  Frustrazione, eccomi!
+
+  "Ma  l'aumenta  in  maniera  frazionaria,  naturalmente",  naturalmente,   "I
+ teoremi,  le  scoperte  scientifiche  eccetera eccetera, sono dei frattali, in
+ questo senso.   Permettono  infiniti  approfondimenti,  ma  seguono algoritmi.
+ Bellissimi, tra l'altro".
+
+ Chiudo la bocca.  Lo sforzo e' nell'accorgermi che la tengo spalancata.
+
+  "L'arte, invece, e' proporzionale.  Non considera il percorso indicato da  un
+ algoritmo.   Quando  lo  fa,  quando  sembra  farlo,  abbiamo  le  scuole, gli
+ imitatori.  Talvolta bravissimi.
+
+  Ma  la grande arte e' caos, imprevedibilita'".  Si alza e va verso i 30 metri
+ quadrati di portafinestra.  Guarda le quiete colline, attraverso il vetro.  "E
+ la massima imprevedibilita' e' la  Creazione,  la Natura.  Avevano ragione gli
+ antichi a vedere nell'arte  un  tentativo  di  imitazione  dell'essenza  della
+ natura".  Si scuote.
+
+  "Imprevedibilita',  caos in senso matematico, naturalmente, perch‚ pure essa,
+ l'arte, ha i suoi attrattori  strani.  Sa indicarne qualcuno?".  Ricordo qual-
+ cosa sugli attrattori strani, ma devo ammettere che non so indicarne  nessuno.
+ "Ma la pittura, la scultura, la poesia eccetera, eccetera".  Mi gira la testa,
+ mi afferro al bracciolo, azzardo: "E la programmazione...?".
+
+  "Vediamo  se  aumenta  l'entropia.   Mi  dica  lei:  l'aumenta, l'entropia?".
+ Decisamente non sono preparato e lui attacca: "Quanti stati  possibili  ha  la
+ memoria di un calcolatore?"
+
+ Devo pur rispondere qualcosa, prima o poi: "N!".
+
+  "Bene,  diciamo  'N'.   E se ci piazzo dentro un programma, la parte occupata
+ quanti stati possibili ha?".
+
+  Mi viene un brivido, balbetto:  "Uno,  uno  so..., uno solo...!  ma allora la
+ abbassa, l'entropia.  Non e' neanche un momento creativo!".
+
+  "Piano, piano.  Se nessuno usasse piu' il calcolatore sarebbe cosi'.   Ma  il
+ programma viene usato, 'gira', occupa stati non previsti.  Pero'...".
+
+ "Pero'...?", ripeto.
+
+  "Pero'  segue  un algoritmo.  Gli stati accessibili alle intelligenze, usando
+ il programma, aumentano in maniera  esponenziale frazionaria.  E' un frattale.
+ Bella scienza la programmazione.  Bella scienza".
+
+ Non c' e' male, davvero non c' e' male.  Brutta botta.  Illuminante.
+
+  Sorseggia il suo te' e poi mi chiede: "Ha trovato una risposta alla mia prima
+ domanda?".
+
+
+
+                                       Artore Londona
+                                       (testimonianza raccolta da Mario Ricca).
+
+
+
+ [NdE: assieme  al  testo  mi  sono  pervenuti  alcuni  testi di consultazione.
+       Verranno pubblicati integralmente per  la  gioia  dei  lettri  nel  prox
+       numero, che sara' monotematico]
+
+       Determinismo e predicibilita'. David  Ruelle.
+                                      Pour la Scienze n.82. Agosto 1984.
+
+       Attrattori strani: enti fra ordine e caos. Douglas R. Hofstader.
+                                      Le Scienze n.162.   Febbraio 1982.
+
+       Il linguaggio dei frattali.
+                             Hartmut Jurgens. Henz-Otto Peitgen, Dietmar Saupe.
+                                      Le Scienze n.266.    Ottobre 1990.
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###  11  ###                                                ERRATA CORRIGE ###
+ ############                                                La direzione   ###
+
+ Riassunto:
+        Il buon Cicci Serra - contrariamente a quello stordito dell'Old Raffa -
+        si e' accorto che  il  sottoscritto  (come  al  solito) si e' fatto una
+        Rupia. Che non e' da premio Nobel.
+
+        Ecco le mie piu' sentite e mortificate scuse.
+
+ ------------------------------------------------------------------------------
+
+ From : Cicci Serra                         2:335/225.4     18 Feb 94  22:59:54
+
+ Ciao Renato!
+
+ Era il 25 Gennaio e Renato Rolando scrisse a Cicci Serra:
+
+ RR> ti amo, mio feroce vichingo.
+
+ ROAR!!!
+
+ RR> Intanto non sarebbero sgradite - perlomeno - news varie...
+
+  Sto per tornare in attivita`...  nel frattempo ti  segnalo  che  risulto  nei
+ credits  del n. di febbraio, anche se non vedo nessuna possibilita` che sia io
+ l'autore d'alcunche`...  MOLTO PITTORESCO!!!
+
+ Bios bios
+
+
+                                                                    Cicci
+                                                                    2:335/225.4
+
+
+
+
+
+
+
+
+
+
+ ############ NEWS DAL MONDO TELEMATICO                                     ###
+ ###  12  ###                                            PMFERR             ###
+ ############                                            Carlo Di Benedetto ###
+
+ Riassunto:
+        Come i piu' fedeli ricorderanno  (e gli amighisti dovrebbero sapere) ho
+        un debole per coloro che scrivono prg che  leggano  l'ora  dal  Galileo
+        Ferraris...  e quindi ecco alcune news da Carlo e su  Carlo  che  spero
+        presto di farvi ritrovare tra le nostra pagine!
+
+ ------------------------------------------------------------------------------
+
+                                    PMFERR
+
+
+ From : Andrea Baitelli                     2:331/211       20 Jan 94  23:14:00
+ To   : Carlo Di Benedetto
+
+ Ciao Carlo!
+
+  AE>>> PMFER111.ZIP   37231 16-Nov-93 PMFerraris 32 bit (v1.11) *
+  FS>> A qualcuno funziona? A me no :-(
+  CDB> Perche' quali problemi hai ?
+
+ Effettivamente il programma va benissimo ed e' molto solido.
+
+ Forse il problema che ha e' uguale al  mio  iniziale:  la  configurazione  del
+ comando  Hayes  e  del  predial  non e' chiarissima: non si sa cosa mettere di
+ preciso.   Con  qualche  tentativo  si   capisce   e  poi  non  pare  d'avero:
+ complimenti.
+
+ A quando pero' una regolazione automatica in base alle  statistiche?   Il  mio
+ sistema  viene  sempre  corretto  di  circa  6  secondi  al giorno, quindi una
+ correzione automatica per la  maggior  parte  dei giorni mi risparmierebbe non
+ pochi soldi :-)
+
+ [NdE: e' proprio vero che non si e' mai soddisfatti di nulla!]
+
+ Ciao.
+
+                                                                       Andrea
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From : Carlo Di Benedetto                  2:335/2.2       07 Feb 94  22:06:58
+
+ Ciao Renato,
+
+  RR>         grazie per l'articolo.
+
+ figurati, e' stato un piacere dilettarmi a scrivere un articolo.
+
+ ...
+
+ Ti segnalo, infine, la disponibilita'  della  nuova versione di PmFerraris, e'
+ senza alcun dubbio  la  versione  piu'  solida  ed  efficiente;  puoi  trovare
+ PMFER120.ZIP su FFWD 2:335/2 (0823/812099).
+
+ Aspetto un tuo parere sul nuovo look.
+ [NdE: purtroppo il mio SupraFax ha dei *seri* problemi d'incompatibilita'  con
+ il 99% delle BBS interessanti.  :( Appenana ne compro un altro ti faro' sapere
+ :)]
+
+ Ciao.
+                                                                         Carlo
+
+
+ P.S.:  perche'  non  annunci la disponibilita' di PmFerraris 1.20 sul prossimo
+ numero di Telematicus.  Grazie.
+
+
+ [NdE: detto - fatto! :)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############ NEWS DAL MONDO TELEMATICO                                     ###
+ ###  13  ###                                                WMAIL          ###
+ ############                                                Silvan Calarco ###
+
+ Riassunto:
+        Il vostro editor preferitus (che poi  sarei  IO)  non  si  e'  lasciato
+        sfuggire  il lieto evento: una nuova versione del *mitico* Wmail (a cui
+        tra l'altro dopo immane pigrizia mi sono anche registrato).
+
+        Ecco qui direttamente dal Calarco le NEWS:
+
+ ------------------------------------------------------------------------------
+
+                                   WMAIL 2.4
+
+  Il nuovo WMail 2.4 deve  essere  proprio  piaciuto  al nostro amato editor se
+ dopo averlo  installato  con  successo  [NdE:  in  realta'  ho  avuto  qualche
+ problemino  perche'  usavo  lo  stesso  file  di  log  sia con binkley che con
+ Wmail...] sotto una finestra  DOS  del  suo  OS/2,  mi  ha imposto senza mezzi
+ termini di scrivere un articolo su Telematicus :-).  Ed eccomi qua, a scrivere
+ di questo programma, che "curo" ormai dal lontano 1990, periodo  del  rilascio
+ della  versione  1.1 (non chiedetemi perche' non e' uscita la 1.0 :-) ). [NdE:
+ un *buon* software esce sempre con la 1.0 in beta :)]
+
+  Intanto  cos'e'  WMail:  la  definizione  generica, anche se non molto appro-
+ priata, e' di echomail  processor,  ed  infatti  WMail  di processare la posta
+ elettronica si occupa, ma non solo...  fu forse  la  discreta  complessita'  e
+ dispersivita'   di   programmi   nella   gestione   della  posta  a  suggerire
+ l'integrazione di varie  utilities  esterne  quali,  per  esempio, il packer e
+ l'areafix, nello stesso programma.
+
+  Sta di fatto che dopo  5  anni  di  sviluppo,  WMail e' stato dotato di tante
+ funzioni che, se non esistesse il manuale, io stesso  non  saprei  elencare...
+ spesso  mi  viene  il  sospetto  che  qualcuna  di  queste  non  sia mai stata
+ utilizzata, ma questa e'  un'altra  storia  :-).   [NdE: davvero fa tutte 'ste
+ cose?  io lo uso solo per  scompattare/compattare  la  posta.   Devo  leggerlo
+ questo manuale...]
+
+  Cosa c'e' di nuovo in WMail 2.4?
+
+  Beh,  intanto vi dico cosa NON c'e' di nuovo, cioe' il supporto di nuove basi
+ messaggi, come Squish  e  Jam,  per  citare  le  due  che  hanno avuto maggior
+ successo in questi ultimi tempi.  Questo articolo e' quindi rivolto  a  quanti
+ sono  rimasti  fedeli  alla  cara vecchia base QuickBBS (anche detta Hudson) o
+ alla base Fido (*.MSG); estimatori di  quest'ultima non so se esistanto ancora
+ molti, sicuramente vi posso dire che sono ancora in  tanti  ad  utilizzare  la
+ base  QuickBBS.
+
+  Le novita', ahime', non sono  tante,  nonostante  sia trascorso circa un anno
+ dal rilascio di WMail 2.3; e' lecito chiedervi cosa ho fatto allora  in  tutto
+ questo  tempo...  ma e' altrettanto lecito rispondere che sono affari miei :-)
+ [NdE: cosi' mi piacciono  i  miei  editor!]  di  fatto  ho lavorato alla nuova
+ versione solo per pochi mesi.
+
+  In questa versione  intanto  sono  stati  risolti  i problemi di instabilita'
+ della versione precedente, verificati soprattutto  in  ambienti  multitasking;
+ per  questo  motivo  se  vi piaceva WMail 2.3 ma l'avete cancellato perche' vi
+ dava dei problemi, provate questa  versione perche' molto probabilmente non ve
+ li dara' piu' (al limite ve ne dara' di nuovi, ma questa prendetela solo  come
+ una battuta :-) ).
+
+  Poi  c'e'  stato  un  incremento  di  velocita' nelle operazioni di import ed
+ export; come saprete, la velocita' e'  un importante parametro di giudizio nel
+ valutare la qualita' del programma, e allora si  fa  a  gara  per  cercare  di
+ sfornare  il  programma piu' veloce; in effetti poi, pochi pensano che non sia
+ molto grave se l'esecuzione  del  processore  alle  2  di  notte duri 2 minuti
+ invece che 40 secondi... [NdE: di notte? chi lo usa di notte!]
+
+  Altra importante novita' e' il supporto completo e trasparente  dell'echomail
+ multizona  e quindi degli zonegates; caratteristica oggi molto importante piu'
+ che per lo scambio  di  messaggi  tra  continenti,  per lo scambio tra network
+ differenti, cresciuti come funghi da un paio di anni a questa parte.
+
+  Poi, la funzione di areafix e' stata ulteriormente potenziata, con l'aggiunta
+ del rescan per la base QuickBBS, la  possibilita'  di  creare  nuove  aree  da
+ remoto  e  l'introduzione  di  flags  specifici per ogni nodo; a completare il
+ tutto  ci  sono  molte  modifiche  minori  che  troverete  elencate  nel  file
+ HISTORY.DOC contenuto nel pacchetto di  WMail e nel manuale; quest'ultimo (per
+ ora in lingua inglese) rivisato e reso piu' completo.
+
+  Secondo me pero', la novita' piu'  importante  e'  stata  la  riscrittura  di
+ diverse  parti  del  programma  che  ora  lo  rendono  sicuramente  tra i piu'
+ affidabili per quanto riguarda la gestione  della posta (e si sa quando questo
+ sia importante), e soprattutto che mi permetteranno molto piu' velocemente  di
+ completare una versione 3.0 multibase (in versione beta e' gia' funzionante la
+ gestione della base Squish) e parecchio piu' veloce.  Per questo motivo chiudo
+ qui,  ringraziano  Renato  per lo spazio offerto e prenotando gia' un posto su
+ telematicus per la prossima  versione  che  sara' senz'altro piu' interessante
+ :-) [NdE: Ok!  sperando di continuare a sussistere ancora...  :|]
+
+  Potete avere WMail 2.4 in F/R su 2:334/100 (magic name WMAIL), oppure  su  un
+ qualunque  nodo  del  circuito  di distribuzione SDS (il nome del pacchetto e'
+ WMAIL24.ZIP, sono circa 200k).
+
+  Se siete interessati  a  testare  la  base  Squish,  o  per qualunque tipo di
+ informazione, scrivetemi al 2:334/100.2.
+
+
+
+                                                                 Silvan Calarco
+                                                                 2:334/100.2
+
+
+
+
+
+
+
+
+
+ ############ NEWS DAL MONDO TELEMATICO                                     ###
+ ###  14  ###                            Primo meeting dell'area CUCINA.ITA ###
+ ############                            Roberto Piola                      ###
+
+ Riassunto:
+
+ From : Roberto Piola                       2:334/108.57    02 Feb 94  22:49:48
+
+ Qui c'e' il resconto del cucina-con I; vedi tu se e' il caso di pubblicarlo su
+ Telematicus.
+
+ [NdE: ecche'?  perche' non dovremmo pubblicarlo essendo  oltreche'  spiritoso!
+       Non  perdetevi  la  considerazione  finale sui robot&affini...  Piola e'
+       sempre Piola!]
+
+ Ciao.
+
+ ------------------------------------------------------------------------------
+
+
+                                 CUCINA-CON I
+
+                      Primo meeting dell'area Cucina.Ita
+
+
+ 09.01.1994, ore 8:00
+
+  Inizio a pestare sul mio computerino portatile di buon mattino, sul treno che
+ mi sta portando a Bologna per il primo meeting ufficiale della Cucina.Ita.
+
+  Era da due anni che  si  discuteva  di  radunarci  di  fronte  ad  una  bella
+ tavolata;  un  primo  tentativo (AstiMoro Meeting) era stato portato a termine
+ con un risultato non certo  eccezionale: il ristorante proposto dell'Old Raffa
+ ad Asti era effettivamente un po' scomodo da raggiungere per buona  parte  dei
+ partecipanti  all'area:  il  ritrovo  si  e' limitato alla maggior parte della
+ sezione torinese piu' il buon Massimo Monciardini di Varese.
+
+  Pero'  occorreva  insistere:  scegliere   un  luogo  centrale  e  rapidamente
+ accessibile da tutti: Bologna, capitale gastronomica d'Italia  nonche'  centro
+ ferroviario-autostradale  di  prima  importanza;  un giorno adatto: Domenica 9
+ Gennaio, in  modo  che  sia  i  lavoratori  che  gli  studenti fossero liberi,
+ matrixare e telefonare qua le la' come pazzi (la SIP ringrazia  il  moderatore
+ della Cucina.Ita per la splendida idea; il moderatore NON ringrazia la SIP che
+ non ha fatto nulla in cambio dei regolari pagamenti delle bollette); alla fine
+ ce l'abbiamo fatta!  Buona partecipazione, che dovrebbe essere rappresentativa
+ di quasi tutti i net, cartellini-badge-ricordo con i nomi e gli indirizzi come
+ da riunione di hackers, mole di messaggi non propriamente on-topic per fissare
+ data e luogo; anche la cartina di Bologna messa a disposizione come .GIF...  e
+ via.   Anche  la Cucina.Ita, dopo la Lui_lei e la Dewdney, doveva avere il suo
+ ritrovo ufficiale!
+
+ Ore 19:13
+
+  Satollo e  comodamente  seduto  in  una  prima  classe  declassata  a seconda
+ (altrimenti chi me lo farebbe fare di salire in  prima  classe?   Solo  quando
+ viaggio  con  rimborso  spese,  hehehehe  :-)  ),  mi  accingo  a riportare il
+ resoconto della giornata, vedendo solo i tasti (hanno appena spento la luce, e
+ non ho il display retroilluminato :-( non preoccupatevi perche' tanto poi c'e'
+ il correttore ortografico; no, mi  devo  preoccupare  io; al buio non riesco a
+ vedere se mi compare l'indicazione di batterie scariche...  sperem!).
+
+  Iniziamo da quando ho sospeso il racconto: dopo essermi  fatto  guardar  male
+ durante  il viaggio poiche' intercalavo momenti di assoluta serieta' a momenti
+ di ilarita' che nessuno si aspettava  (quando vedete qualcuno pestare su di un
+ portatile non penserete mica che stia realmente  tentando  di  intercalare  la
+ stesura della sua tesi con la lettura della Guida galattica per Autostoppisti,
+ vero?   Ebbene,  che  ci  crediate  o  no stavo switchando allegramente tra un
+ tesi.tex ed un thhgttg.tex...  tra la  mia  tesi e Douglas Adams ci sono molti
+ collegamenti, ma non ci stanno tutti  nella  stessa  parentesi),  arrivo  alla
+ stazione di Bologna.
+
+  Mollo il portatile al deposito bagagli della stazione, tiro fuori di tasca la
+ cartina, che un idiota di MacIntosh mi aveva stampato in formato francobollo e
+ mi  dirigo  verso  il  luogo dell'appuntamento, con molta calma (tanto sono in
+ largo anticipo).
+
+  Arrivato la', trovo gia' il Monciardini, che  e' arrivato poco prima di me ma
+ se l'e' presa con mooolta piu' calma ed ha finito per arrivare  mooolto  prima
+ di me.
+
+  Mentre visito un po' i dintorni di Piazza Maggiore, scopro che Massimo non e'
+ propriamente  il tipico turista: mi guarda annoiato mentre zompo da un androne
+ all'altro, tirandomi dietro un paio di macchine fotografiche ed una borsata di
+ altra roba.
+
+  Dopo una lunga attesa,  notiamo  due  paia  d'occhi  che cercano di leggere i
+ nostri badges; detti organi visivi si  riveleranno  poi  come  appartenenti  a
+ Gabriella  e Riccardo Ghiglianovich (Ghigli\`anovich, ci tengono a precisare),
+ che sono arrivati in stazione poco  dopo  di  me  ma  che se la sono presa con
+ mooolta, moooltissima calma.  Ci tengo a precisare che il  mio  badge  era  il
+ side  B rinnovato del badge distribuito al famoso fantameeting di cui gia' era
+ apparso il resoconto sulle pagine di questa egagra rivista.
+
+  Seguono poi  altri  loschi  figuri,  tutti  facilmente  riconoscibili  per la
+ presenza, piu' o meno ostentata, di tabulati su  cui  e'  stata  stampata  una
+ mappa  del  luogo.   A tutti tocca il badge personalizzato.  Assolutamente non
+ tra i primi, arriva anche l'organizzatore in loco, Nick Martelli.
+
+  Dopo una mezz'oretta passata  a  farci  inzuppare  da un'umidita' palpabile e
+ gelida (purtroppo non modero il tempo, ed e' una  giornata  piuttosto  brutta,
+ anche  se  poteva  andare peggio: un'altra volta che sono venuto nei pressi di
+ Bologna c'erano 20 sotto zero ma  un cielo bellissimo), decidiamo che chi c'e'
+ c'e' e chi non c'e' tanto ha l'indirizzo del ristorante, e ci avviamo verso la
+ nostra meta.
+
+ Presenti:
+         Davide Dentelli
+         Gabriella & Riccardo Ghiglianovich
+         Nick Martelli
+         Massimo Monciardini
+         Luca Boccianti
+         Roberto Piola (ovvero il sottoscritto)
+         Alberto Franchi
+
+ Assenti giustificati:
+         Daniela & Marco Ferlini
+         Silva Ferretti
+         La sig.ra Martelli
+         Michele Pianta'
+
+ Assenti parzialmente giustificati:
+         Cesare Fonda
+         Nando Santagata
+         Raffaello Valesio [NdE: Il Raffa non si smentisce mai]
+
+ Assenti non giustificati (che sono pregati di  presentare  certificato  medico
+ per essere riammessi a scuola):
+         Antonello Biancalana  nostro venerabile maestro del te' (pazienza...
+                               c'e' sempre la grappa :-) )
+         Alfonso Micucci
+         Luca Nonato
+
+  Avanti  con  il  pranzo,  allora!   Fiocchetto  con  parmigiano  e  carciofi,
+ Tortellini,  Lasagne,  Pollo alla Petroniana con verdure miste e dessert; devo
+ ammettere con sincerita'  che  all'AstiMoro  meeting  si era mangiatoun pelino
+ meglio, e che il vino, sia pur ottimo, non  era  del  posto  come  ci  saremmo
+ aspettati e come si era concordato.
+
+  Dimenticavo: il discorso: ammetto che non avevo preparato alcunche', anche se
+ sapevo  che  sarebbe  stato  richiesto  a  gran  voce:  sostengo  infatti  che
+ prepararsi  le  cose  da  dire e' del tutto inutile perche' poi vengono sempre
+ fuori peggio di come si voleva; devo ammettere pero' anche che sono un pessimo
+ improvvisatore...  beh, il discorso e' stato convertito in brindisi e ci siamo
+ buttati sul cibo...
+
+  Ad un certo punto, mentre  eravamo  ancora  intenti a sorseggiare il generoso
+ assortimento di grappe messoci a disposizione, nonche' intenti  in  amichevole
+ conversazione, qualcuno ci ha gentilmente fatto notare che eravamo rimasti gli
+ ultimi,  a  parte  il  cassiere, e che stavano spegnendo le luci nel resto del
+ ristorante...
+
+  Dopo le  foto  di  rito,  ci  siamo  trasferiti  tutti  a  casa Martelli, per
+ continuare conversazione ed assaggi di grappa...
+
+  Non vorrei ora che i lettori di Telematicus  pensassero  che  i  partecipanti
+ alla  Cucina.Ita  siano  tutti  ubriaconi,  pero' a fianco del Circolo del te'
+ fidonet e del neonato Circolo  della  Birra  Fidonet devo dire che ci starebbe
+ bene anche un Circolo della Grappa.
+
+  Purtroppo per chi deve tornare in treno ci sono orari da rispettare, e quindi
+ l'ora degli addii giunge implacabile...  alcuni comunque si fermeranno fino  a
+ tardi.
+
+                           Alla prossima convention!
+
+                                          @    @    Roberto Piola
+                                                    fidonet: 2:334/108.57
+                                          \____/    internet: piola@di.unito.it
+
+
+ P.S.:  vi  dovevo dire che c'entra Douglas Adams - noto come il Giullare della
+       Galassia - con la mia  tesi,  oltre  a capitare che siano presenti molte
+       delle sue opere sul mio  hard  disk  insieme  con  il  mio  manoscritto:
+       quest'estate avevo appena accettato la tesi quando ho comperato l'ultima
+       opera  di Adams: Praticemente Innocuo; c'e' un punto in cui lo scrittore
+       dice a proposito dei robots:
+
+         programmare  i  robots  era  troppo  difficile,  cosi'  scoprirono che
+         bastava impiantare nell'automa il concetto di felicita', definito come
+         "tu sarai felice quando  farai  il  tuo  lavoro"  e  poi  lasciare  il
+         robottino libero di essere felice, felice, felice....
+
+       Non  appena  lette le righe summenzionate, mi prese un colpo: "Ma questa
+       e' la mia  tesi!"  constatai  con  un  briciolo  di  compiacimento e due
+       briciole di orrore " io sto scrivendo una tesi  su  argomenti  che  sono
+       fantascienza!"  (beh,  ovviamente nella mia tesi si parla di "segnale di
+       reinforcement" invece che di  "piacere",  di "massimizzare la ricompensa
+       mediante metodi  matematici"  invece  di  "ricerca  del  piacere"  e  di
+       "liberta' di esplorazione" piuttosto che di "liberta' di agire", ma alla
+       fin  fine  il concetto e' quello: robots che non vengono programmati, ma
+       imparano  da   soli   a   comportarsi   "bene",   con   il  concetto  di
+       "bene"="facendo quello che devono fare".
+
+       [NdE: che concetti profondi che ci parli.  Non ci ho piu' bestemmie!  Ci
+             vorrebbe Artore Londona per starti dietro! :)]
+
+
+
+ ############ NOTIZIE FIDONET REGION 33                                     ###
+ ###  15  ###            COME SCAMBIARE POSTA CON UTENTI DI SISTEMI SUBLINK ###
+ ############                                                       Vertigo ###
+
+ Riassunto:
+        [NdE:  come  anticipero'  nelle  NEWS  :) il buon Vertigo ha mandato un
+        articoletto interessante  che  spiega  come  collegarsi  con  i sistemi
+        SubLink.  Visto che appartemgo alla nutrita schiera di coloro che mai e
+        poi  mai  riusciranno  a  capire  come  fare,  ecco   qua   una   bella
+        spiegazione!]
+
+  ...
+  Segnalo inoltre, nel caso possa  risultare  utile  a qualcuno la notizia, che
+ BBS2000 (2:331/301) e' il nuovo gateway tra Fidonet e  Sublink.   Il  gate  e'
+ limitato  al  forward  delle  aree  echomail  condivise tra le due reti (segue
+ elenco preciso) e al routing della mail tra Fidonet e Sublink.
+
+ Le modalita' di funzionamento del gate sono le seguenti:
+
+ ------------------------------------------------------------------------------
+
+              COME SCAMBIARE POSTA CON UTENTI DI SISTEMI SUBLINK
+
+  Esiste un gateway tra FidoNet  e  Sublink  che  puo' essere utilizzato per lo
+ scambio diretto di messaggi privati ("e-mail") tra utenti  Fidonet  ed  utenti
+ Sublink.   Quanto  segue  riguarda  percio'  soltanto  la mail, piu' nota come
+ NETMAIL (o MATRIX) in gergo Fidonet e non l'EchoMail.
+
+ Ecco dunque come fare per inviare un messaggio ad un utente Sublink:
+
+ 1) I messaggi devono essere inseriti in netmail,
+
+ 2)  I  messaggi  DEVONO  essere  indirizzati  all'utente  "Sublink"  del  nodo
+    "2:331/301" (trattasi di utente fittizio)
+
+ 3) La PRIMA RIGA DEL TESTO  DEL  MESSAGGIO deve contenere l'indirizzo al quale
+    mandarlo, in questo formato:
+
+               "To: username@site.domain" (senza le virgolette)
+
+ Esempi:
+
+               "To: vertigo@bbs2000.sublink.org"
+
+  Ricordate di scrivere il "to:" seguito da uno spazio e dall'indirizzo.   Fate
+ seguire una riga vuota e poi scrivete il normale testo del vostro messaggio.
+
+ Il formato e` quindi il seguente:
+
+ From: Nome Cognome
+ To: Sublink
+ Address: 2:331/301
+ Subj: Quello che vi pare
+ ------------------------------- (questa riga NON dovete scriverla :-))
+ To: username@address      <---- (deve essere la prima riga del messaggio)
+                           <---- (una riga vuota)
+ da qui iniziate il testo del messaggio
+
+ ___
+ (fine del msg.)
+
+         Un esempio pratico:
+
+ From: Mario Rossi
+ To: Sublink
+ Address: 2:331/301
+ Subj: Saluti
+ ------------------------------------
+ To: silos@bench.sublink.org
+
+ Caro Paolo,
+         volevo  avvisarti  che  la  tua  richiesta  di  iscrizione  al Club di
+ Topolino e' stata respinta  a  causa  dei tuoi terrificanti precedenti penali.
+ Mi spiace.  Avresti dovuto pensarci prima di incendiare quell'orfanotrofio.
+
+                                         Saluti,
+                                          Mario
+
+
+                  APPENDICE: conversioni di indirizzi Fidonet
+
+  Qualsiasi utente Fidonet e' in grado di ricevere posta da  qualunque  sistema
+ Internet  tramite il gateway di Randy Bush (1:105/42).  A questo scopo dovrete
+ probabilmente  comunicare  al  vostro   corrispondente  l'indirizzo  al  quale
+ inviarvi i messaggi.  Gli indirizzi Fidonet possono essere  convertiti  in  un
+ formato comprensibile per i sistemi Internet in questo modo:
+
+         Nome.Cognome@pPOINT.fNODO.nNET.zZONA.fidonet.org
+
+ dove  POINT,  NODO,  NET e ZONA sono ovviamente i rispettivi numeri del vostro
+ indirizzo Fidonet.  L'indicazione del numero di point e' ovviamente opzionale.
+
+ Ad esempio:
+
+         Pinco Pallino (2:332/594.4)
+
+ diventa
+
+         Pinco.Pallino@p4.f594.n332.z2.fidonet.org
+
+  Il gateway e' gratuito ma  non  bisogna  abusarne: deve essere usato soltanto
+ per scambi occasionali di e-mail con altri  utenti  e  ASSOLUTAMENTE  NON  per
+ trasmettere/ricevere   grandi  quantita'  di  materiale  via  e-mail  (ad  es.
+ abbonamenti a Mailing  List,  richieste  di  file  uuencodati  a mail server).
+ Qualsiasi abuso verra' severamente punito.  Se avete dubbi, chiedete prima  di
+ usarlo.
+
+ Di seguito, l'elenco delle aree Fidonet attualmente condivise con Sublink:
+
+         AI.ITA
+         SF.ITA
+         TEX.ITA
+         CUCINA.ITA
+         LAN.ITA
+         LIBRI.ITA
+         CINEMA.ITA
+         FIDONET_SUBLINK.ITA
+         2MANO.ITA
+         AI.ITA
+         CLANG.ITA
+         COMMS_MODEM.ITA
+         COMMS_PHONE.ITA
+         DESQVIEW.ITA
+         ELETTRONICA.ITA
+         MATE.ITA
+         MSD_APPL.ITA
+         MSD_HARD.ITA
+         MSD_SYST.ITA
+         POINT.ITA
+         POLITICA.ITA
+         PRG.ITA
+         RICPERS.ITA
+         RIDERE.ITA
+         SALUTE.ITA
+         UNIX.ITA
+
+ E' tutto, credo.
+
+
+                                                                     Ciao,
+                                                                     --V--
+                                                                     2:331/301
+
+
+
+
+
+
+
+
+
+
+
+
+ ############ NOTIZIE FIDONET REGION 33                                     ###
+ ###  16  ###                                                          NEWS ###
+ ############                                                          AAVV ###
+
+ Riassunto:
+        Ci sono un sacco ed una sporta di cose interessanti  al  di  fuori  del
+        piemonte.   C'e'  fermento  in giro.  Sara' per l'incipiente primavera?
+        Sara' per le future elezioni? Ai posteri...
+
+        Un sentito ringraziamento a tutti coloro che hanno avuto la voglia e la
+        disperata pazienza (chissa' poi perche' disperata) di inviarmi NEWS!
+
+ ------------------------------------------------------------------------------
+
+                                *** NET 331 ***
+
+  From : Vertigo                             2:331/301       06 Mar 94  18:09:04
+
+  News particolari non ce ne sono a parte la segnalazione dell'ingresso in rete
+ di una valanga di nuovi nodi negli ultimi due mesi, specialmente qui a  Milano
+ (mi arriva una media di due richieste alla settimana da parte di nuove BBS che
+ desiderano entrare in Fidonet).
+
+  In  particolare  si  segnala  l'ingresso in rete di una nutrita serie di nodi
+ Euronet, grazie al fatto  che  il  coordinamento  del  net, esaminata la nuova
+ policy Euronet contenente divieti di attivita illegali  quali  lo  scambio  di
+ software   commerciale,   ha   deciso   di   ritenere  decaduti  i  precedenti
+ provvedimenti che impedivano ai nodi Euronet  di entrare in Fidonet.  Il primo
+ ad entrare e' stato ObjectMania BBS (331/364, sysop Davide Achilli), BBS ad  8
+ linee che e' anche host Euronet per il nord Italia.
+
+  Giulio  Cipriani,  sysop  del  nodo  331/344,  e'  stato incaricato di tenere
+ aggiornata una lista delle reti  alternative (Euronet, PNet, ItaxNet, LudoNet,
+ etc.  ) circolanti nel 331  (e,  piu'  in  generale,  in  Italia).   Se  siete
+ coordinatori o nodi di qualche rete a diffusione locale o nazionale diversa da
+ Fidonet,   mettetevi   in   contatto  con  Giulio  affinche'  possa  inserirla
+ nell'elenco.
+
+  Segnalo inoltre, nel caso possa  risultare  utile  a qualcuno la notizia, che
+ BBS2000 (2:331/301) e' il nuovo gateway tra Fidonet e  Sublink.   Il  gate  e'
+ limitato  al  forward  delle  aree  echomail  condivise tra le due reti (segue
+ elenco preciso) e al routing della mail tra Fidonet e Sublink.
+
+ Le modalita' di funzionamento del gate sono le seguenti:
+
+ [NdE: dato l'interesse della cosa ho messo il tutto sotto un articolo a parte.
+ Vedi altrove nel number]
+
+ E' tutto, credo.
+
+                                                                     Ciao,
+                                                                     --V--
+                                                                     2:331/301
+
+                                *** NET 332 ***
+
+ From : Giovanni Lopes                      2:332/114.2     28 Feb 94  16:48:02
+
+    Ciao Renato!
+
+ RR> ci sono novita' (ok le ho chieste un po' tardi ma febbraio mi
+ RR> spiazza sempre!)
+
+  Calma  piatta,ei.   L' unica cosa degna di nota e` che a Bologna si e` tenuta
+ l' assemblea annuale di AFI.   Benche`  fosse  un appuntamento di A.F.I.  e su
+ scala nazionale, sono intervenuti quasi solo  sysop  del  net  332:  l'  unico
+ "esterno" era Franco Carcillo.  [NdE: Il buon Franco e' sempre ovunque...]
+
+  Erano  presenti  sia  Mario  Mure`  (NC)  che Marcello Ardini (NEC), peraltro
+ entrambi membri del consiglio  direttivo  di  AFI (sia di quello dimissionario
+ che ti quello eletto dall' assemblea).
+
+  Ciao Ciao!                                                   ___
+                                                              /  _
+                                                             <___/ iovanni
+                                                              2:332/114.2
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From : Roberto Orsini                      2:332/415.1     01 Feb 94  10:19:50
+
+ OsseCui Renato!
+
+ Nuova entrata nel net: PAN BBS (332/119), sysop Mario Ghezzi.
+
+                                                   |'!Chao!_
+                                                   |__ OrsO/
+                                                          /
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ =============================================================================
+ * FastForwarded by Roberto Orsini AKA 2:332/415.1
+ *  From : Massimiliano Di lorenzo AKA 2:332/621.1 at 23:15 of Lune 31 Gennaio
+ * 'bout : Eccoci arrivati...
+ =============================================================================
+ Illustre  All,
+
+ Un nuovo Sysop e una nuova bbs si aggiunge al calderone fidonet :
+
+ SubWay Access  , Sysop il sotto(sopra) scritto.
+
+ Buona camicia a tutti.
+
+
+ SeeYa!
+
+        /\/\ a c k e r
+
+ More news...
+
+                                                   |'!Chao!_
+                                                   |__ OrsO/
+                                                          /
+
+                                 *** NET 333 ***
+
+ Hello Renato!
+
+  RR> p.s.
+  RR>         ci sono novita' nella ex isola felice??
+
+ Se parliamo di novita' relative  al  NET,  direi  che l'isola felice viaggia a
+ gonfie vele senza intoppi ....
+
+ Ci sono invece novita' nell'ambito della nostra zona, pero' e'  ancora  presto
+ per parlarne, al momento giusto riceverai notizie.
+
+ Aloha !!
+                                                                 Herve Miozzo
+                                                                 2:333/511.20000
+
+                                *** NET 334 ***
+
+  -=-=-=-=-=-=-=-=-=-=-= Forward Using EMS Editor 2.0 =-=-=-=-=-=-=-=-=-=-=-
+
+ * Forwarded by Angelo Verdone on 2:334/21@fidonet.org
+ * From : Angelo Verdone, 2:334/21@fidonet.org
+ * Subj : Hub 600
+
+  - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - = - -
+
+ Salve a tutti,
+
+ Novita' sul 334:
+
+ E nato un nuovo hub il 334/600  a  cui  fara capo la provincia di Verbania ecc
+ ecc avra' come coordinatore Claudio Sacco (ex 331/119), un benvenuto a lui.
+
+ Hub,600,Verbania_VCO_HUB,Verbania_VCO,Claudio_Sacco,39-323-403464,9600,CM,XA,
+ ,601,[AZZURRA_BBS_1],Verbania_VCO,Claudio_Sacco,39-323-403464,9600,CM,XA,ZYX
+ ,602,[AZZURRA_BBS_2],Verbania_VCO,Claudio_Sacco,39-323-557846,9600,CM,XA,ZYX
+ ,603,[AZZURRA_BBS_3],Verbania_VCO,Claudio_Sacco,39-323-401214,9600,CM,XA,ZYX
+ Altra notizia e di nuovo tra di noi in veste di sysop Luca Bello:
+
+ 509,Apocalypse_BBS,Torino,Luca_Bello,39-11-8980084,9600,XA,ZYX
+
+ Saluti,
+                                                            /Angelo V./ NC_334
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From : Angelo Verdone
+ Subj : Nuovo NEC 334
+
+
+ Salve a tutti,
+
+ Cambio  al vertice della gestione aministrativa dell' ECHO_MAIL del NET 334:
+
+ Da oggi 10/03/94 Sandro Gasparetto (2:334/201) e' ufficialmente il NEC del NET
+ 334 in sostituzione del dimissionario Marco Russo (2:334/108)
+
+ Auguri e buon lavoro.
+
+
+ Saluti,
+                                                            /Angelo V./ NC_334
+
+ -!- Don't worry, be happy.... come se fosse facile :-)
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ Ciao a Tutti.
+  il mio nome e' Denis Truffo e....
+
+ Sta nascendo una nuova BBS a Torino
+
+                         SICAP BBS +39 11 3835254
+
+ Le Aree di interesse saranno prevalentemente:
+         NOVELL
+         COMPAQ
+         PC in Genere.
+
+ Il  SysOp (Denis Truffo) ed alcuni suoi collaboratori sono inoltre fanatici di
+ altre cose, estranee al mondo PC&C.
+
+ Ovvero: Volo a Vela (Aliante !!!)
+         Modellismo Aereo (Veleggiatori RC da pendio, Traino Aereo etc)
+
+ Avrei  piacere  di  avere  la  collaborazione  di  qualcuno  di  voi,  assidui
+ assordatori di  poveri  vecchietti  sonnecchianti(Quando  sbagliate  numero di
+ telefono di notte ed uccidete qualche vecchietta con i Vs.  fischi  telefonici
+ !!!),  per  impostare  aree  di  comune  interesse.   Sono  aperto  a  tutti i
+ suggerimenti !!!
+
+ La configurazione dalla BBS attuale e' la seguente:
+         PC 80386 33 Mhz. (Presto sara' sostituito da un 486 COMPAQ)
+         HD 150 Mb.(Presto affiancato da altri 650, gia' pronti, ma per
+                    il momento non c'e nulla per riempirli)
+         CD ROM. (E che ci mettiamo dentro ???)
+         Modem MULTITECH MT1432 (14.400)
+
+         Se il traffico lo richiedera', sono gia pronte altre 2 linee.
+
+ Se qualcuno di voi e' interessato a collaborare attivamente (o meno)
+ puo' lasciare un messaggio su:
+         SICAP BBS (+39 11 38.35.254) Denis Truffo (Alias SysOP)
+         Lord DRake                   Denis Truffo
+
+
+ Grazie in aticipo per la collaborazione o anche solo per aver letto
+ questo mex. !!!!
+                                                         SALUTONI
+
+                                                         DENIS SysOp SICAP BBS
+                                                         2:334/101
+
+                                *** NET 335 ***
+
+ Ciao Renato!
+
+ Domenica  27  Febbraio  1994  alle  12:53,  Renato  Rolando  scrisse  a Enrico
+ Franceschetti:
+
+  RR>          sempre tutto bello e giosioso? SI(P)?
+
+ Ma certo!  Mancano soldi, il lavoro e' sempre piu' duro ma...   in  fondo  sta
+ arrivando la primavera, no?
+ Quindi... tutto bene!
+
+  RR>          ci sono novita' da inserire su Telematicus?
+  RR>         (come noti nella formula non mi ripeto mai! :) )
+
+ Be',  la  novita'  piu' rilevante dal punto di vista Fidonet e' l'elezione dei
+ nuovi coordinatori del net 335.
+
+ Si tratta di Gaetano Ble', incaricato di  svolgere  il ruolo di NC, e di Luigi
+ Trovato, incaricato di svolgere l'incarico di NEC.
+
+ Due sysop di grande esperienza, gia' HC dei rispettivi  Hub  700  e  500,  che
+ senz'altro potranno affrontare tutti gli oneri legati alla gestione del Net.
+
+ Notizia  piu'  frivola,  ma  decisamente  piu'  "impegnativa" per chi ne e' il
+ protagonista;   Alessandro   Cangiano,   moderatore   dell'interessante   area
+ Mensa.ita, sta per  convolare  a  giuste  nozze.   Non poteva quindi sfuggirmi
+ l'occasione per partecipare alla sua felicita' e per porgergli gli  auguri  di
+ tutti,   soprattutto  considerando  che  donne  e  computers  raramente  vanno
+ d'accordo.  [NdE: Sante & sagge parole!  La redazione si unisce agli auguri.]
+
+ Vedremo quanto potra' dedicarsi alla Fido dopo il matrimonio!!!  ;)
+
+  RR> Vorrei farti partecipe inoltre del fatto che con questo number
+  RR> chiudo il PRIMO ANNO di ATTIVITA' come Editor princeps !!!
+
+ Auguroni o magnifico! :)        [NdE: sono commosso ]
+
+  RR>         Quindi se nei number normali la tua presenza e' praticamente
+  RR> indispensabile in quelo e' ASSOLUTAMENTE IRRINUNCIABILE!!
+
+ E non vi rinunciamo, allora.
+
+ Un salutone a te ed a tutti i lettori della rivista.
+ [NdE: grazie&stragraziue]
+
+ Ciao!
+
+                                                         Enrico
+                                                         2:335/212
+
+
+
+
+
+
+ ******************************************************************************
+
+ Telematicus puo` essere  downloadato  dai  nodi  che ricevono la distribuzione
+ ISN.  Assieme alla rivista ho inserito  ISN-NODE.265, la lista di tutte le BBS
+ appartenenti ad ISN.
+
+ ####                            End of TELEM038                           ####

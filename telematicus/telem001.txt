@@ -1,0 +1,790 @@
+
+    *****   Vol.  1   *****      Pag.  1      *****   Numero   1   *****
+
+    ====================================================================
+
+    @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+      @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+      @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+      @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+      @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+    ====================================================================
+
+                                Gennaio 1991
+
+    ====================================================================
+
+      Bollettino telematico mensile a cura del network 2:334 - Fidonet 
+
+                 Editor princeps:       Maurizio Codogno
+                 Editor procastinator:  Franco Carcillo
+                 Editor [inde]fessus:   Roberto Piola 8-)
+                 Editor hackerarius:    Rudi Saporiti
+                 Editor amigaensis:     Renato Rolando
+                 Collaboratori:         Tutti voi :-)
+
+    --------------------------------------------------------------------
+
+                            IN   QUESTO   NUMERO :
+
+    Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .  pag.  2
+    Che cos'e`... MNP, di Rudi Saporiti   .   .   .   .   .   .  pag.  3
+    Il programmino    .   .   .   .   .   .   .   .   .   .   .  pag.  4
+    Il gergo Fidonet, di Roberto Piola    .   .   .   .   .   .  pag.  6
+    VivAmiga, di Renato Rolando   .   .   .   .   .   .   .   .  pag.  8
+    Feedback Utenti   .   .   .   .   .   .   .   .   .   .   .  pag.  9
+    Curiosita' - le faccine   .   .   .   .   .   .   .   .   .  pag. 10
+    Notizie dal Net 334   .   .   .   .   .   .   .   .   .   .  pag. 14
+    Il prossimo numero    .   .   .   .   .   .   .   .   .   .  pag. 14
+
+    ====================================================================
+
+         Il materiale presente in Telematicus e` (C) dei singoli autori.
+    E` espressamente  consentita  la  distribuzione  e il riutilizzo del
+    bollettino  in  tutto  o in  parte,  purche` non  a fini di  lucro e
+    citando sempre la fonte di provenienza. 
+
+    *****   Vol.  1   *****      Pag.  2      *****   Numero   1   *****
+
+                        #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                       -----> EDITORIALE 
+                                                              ==========
+
+         Eccoci  al  numero 1, che non posso definire il  primo  di  una 
+    lunga  serie  non fosse altro perche` e` il secondo... Visto  che  a 
+    detta  dei sysop del network 334 il bollettino e` stato  downloadato 
+    parecchio,  magari  a qualcuno sara` anche piaciuto,  e  non  vorrei 
+    lasciarlo a modem asciutto!
+         Rispetto  al  numero zero, c'e` stato un  restringimento  della 
+    larghezza  della pagina, dovuto a problemi di visualizzazione  negli 
+    Amiga,  e  un aumento degli editors, che stavolta sono  ben  cinque, 
+    ciascuno col suo bravo motto in latino come si conviene a una  news-
+    letter  che si chiama TELEMATICUS. A parte il sottoscritto,  a  capo 
+    della combriccola, e il mitico Carcillo che questa volta ha ritarda-
+    to tanto la consegna del suo pezzo - ecco il motivo del procrastina-
+    tor!  - da non apparire nel prosieguo, do una  rapida  presentazione 
+    dei  nuovi  acquisti del bollettino. Roberto Piola  (ma  cosa  avete 
+    capito?  indefessus  significa "mai stanco"!) nella sua  rubrica  Il 
+    gergo  Fidonet  comincera` a spiegare cosa diavolo e`  la  EchoMail; 
+    Rudi  Saporiti si occupera` di spiegare in poche parole cosa  e`  il 
+    protocollo di correzione errori MNP di sui si sente tanto parlare, e 
+    Renato  Rolando e` la testa di ponte del mondo Amiga che irrompe  in 
+    Telematicus a furore di popolo o quasi.
+         Completano  questo  numero  il programmino,  questa  volta  del 
+    notissimo Flavio Bernardotti, il promesso elenco di tutte o quasi le 
+    faccine  al  terminale,  frutto di un assiduo lavoro  di  ricerca  e 
+    comparazione  di Enzo Ciajolo, e le rubriche Feedback Utenti con  le 
+    risposte al questionario del numero zero e Notizie dal Net 334.
+
+         Buona lettura e buon anno a tutti...     .mau.
+
+    *****   Vol.  1   *****      Pag.  3      *****   Numero   1   *****
+
+                        #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                -----> CHE COS'E`... MNP 
+                                                       =================
+
+         Trovandomi  a scrivere per Telematicus un testo sul  protocollo 
+    di  correzione  MNP, ho dovuto decidere se trattare  l'argomento  in 
+    modo tecnico o piu` descrittivo. Alla fine ho optato per la  seconda 
+    possibilita`. Quanto segue e` quindi una descrizione di cosa e`, e a 
+    cosa  serve, l'MNP, dedicata a chi non ne ha mai sentito parlare;  i 
+    piu` esperti portanno rifarsi al file testuale "mnp.txt" distribuito 
+    su tutte le bbs aderenti all'associazione TamTam.
+         Detto  in modo estremamente conciso l'MNP e` uno strumento  che 
+    vi permettera` di avere collegamenti non piu` inficiati dagli errori 
+    dovuti a disturbi telefonici: niente piu` caratteri  incomprensibili 
+    che  riempiono il video nei momenti meno opportuni. In piu`,  se  la 
+    linea e` di buona qualita`, l'MNP aumentera` sensibilmente la  velo-
+    cita` di trasferimento dati tra voi e la bbs a cui siete collegati.
+         Ovviamente,  affinche`  l'MNP faccia sentire i  suoi  benefici, 
+    occorre che sia voi che il bbs chiamato supportino tale  protocollo; 
+    nel  caso  in cui il collegamento avvenga tra due modem di  cui  uno 
+    solo abbia la correzione d'errore, allora la connessione avverra` in 
+    modo tradizionale.
+         L'MNP  si frappone tra i due modem e si prende carico  di  con-
+    trollare che quanto viene spedito dall'uno sia esattamente cio`  che 
+    l'altro riceve. E` come passare da un sistema di spedizione dove  io 
+    imbuco  una lettera e non sapro` mai se questa e` stata  debitamente 
+    ricevuta,  ad uno del tipo "raccomandata con ricevuta  di  ritorno". 
+    Nel primo caso la mia lettera potrebbe andar persa, essere recapita-
+    ta  alla  persona sbagliata, venire alterata; nel secondo  avro`  la 
+    conferma del quando e del chi avra` ricevuta la missiva.
+         Ormai  gran parte dei bbs italiani ha modem che  supportano  la 
+    correzione  MNP livello 5 (hem l'MNP esiste in varie  "versioni",  o 
+    meglio livelli, pero` e` argomento che affrontero` in altra sede. Vi 
+    basti sapere che, nel caso in cui vogliate acquistare un modem  MNP, 
+    vi conviene verificare che tale apparato supporti i livelli MNP 4  e 
+    5). Per implementare l'MNP sul vostro personal potete scegliere  tra 
+    due alternative:
+         1) comperare un modem che supporti l'MNP
+         2)  procurarvi  un programma di comunicazione che  gestisca  la 
+    correzione  MNP  via software. Per quanto  ne  so,  sfortunatamente, 
+    tutti  i  programmi che emulano l'MNP sono  commerciali,  cioe`  non 
+    distribuibili  attraverso  i  bbs. 
+         La prima soluzione permette di lavorare in MNP indipendentemen-
+    te dal programma utilizzato, e offre quindi grande liberta` di azio-
+    ne.  La  seconda strada, vincola ad un particolare software,  ma  in 
+    compenso vi evitera` l'acquisto di un modem nuovo, dando nuova linfa 
+    vitale al vostro vecchio macinino. La seconda soluzione poi  diventa 
+    l'unica nel caso di personal portatili con modem incorporato.
+         Nel caso in cui siate tentati dall'entrare anche voi nel magico 
+    mondo  MNP, vi consiglio di consultarvi con il sysop del vostro  bbs 
+    di fiducia... sara` certamente felice di assistervi nella scelta.
+
+                                           Rudy Saporiti
+                                           TorinoNet 334/202
+                                           modem 011-3100485
+
+    *****   Vol.  1   *****      Pag.  4      *****   Numero   1   *****
+
+                        #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                   -----> IL PROGRAMMINO 
+                                                          ==============
+
+    /* Uso call 32h int 21h - Flavio Bernardotti (2:334/2) */
+    #include <stdio.h>
+    #include <dos.h>
+
+    #define byte  unsigned char
+    #define word  unsigned
+
+    union  REGS  iregs, oregs;
+    struct SREGS  sregs;
+
+    #pragma pack(1)
+
+    struct disk {         /* Disk Table  */
+       byte  dr_num;
+       byte  sub_unit;
+       word  bytesect;
+       byte  sectcluster;
+       byte  shiftcluster;
+       word  reservedcl;
+       byte  numfats;
+       word  allowedentry;
+       word  startdata;
+       word  totalcluster;
+       byte  fatsize;
+       word  startroot;
+       word  addrdeviceoff;
+       word  addrdeviceseg;
+       byte  mediadesc;
+       byte  accesdisk;
+       word  nextaddroff;
+       word  nextaddrseg;
+    } far *dt;
+
+    void  main(void)
+    {
+       int c;
+       char *s;
+       printf("\n\nDISKINFO - F. Bernardotti\n");
+       printf("Demo della call non documentata 32h dell'int 21h\n\n");
+       iregs.h.ah = 0x32;
+       iregs.h.al = 0x01;
+       printf("Da quale disco parto (A,B,C,D,E o F) ? ");
+       c = getche();
+       if(!strchr("AaBbCcDdEeFf",(char) c)) {
+          printf("\n\nErrore: deve essere A,B,C,D,E o F\n\n");
+          exit(-1);
+       }
+       iregs.h.dl = toupper(c) - '@';
+       intdosx(&iregs,&oregs,&sregs);
+       if(oregs.h.ah == 0xff) {
+          printf("\n\nErrore: disco non valido\n\n");
+          exit(-1);
+
+    *****   Vol.  1   *****      Pag.  5      *****   Numero   1   *****
+
+                        #####  TELEMATICUS  #####
+    ....................................................................
+       }
+       dt = (struct disk far *)((void far *)(((unsigned long)(sregs.ds)
+                                      <<16) | (unsigned)(oregs.x.bx)));
+       do {
+          printf("\33[2J\n\nINFORMAZIONI DISCHI\n");
+          printf("\nDrive numero ................. : %u", dt->dr_num);
+          printf("\nNumero unita dal device ...... : %u", dt->sub_unit);
+          printf("\nBytes per settore ........: %u", dt->bytesect);
+          printf("\nSettori per cluster ......: %u", dt->sectcluster+1);
+          printf("\n(???????) ................: %u", dt->shiftcluster);
+          printf("\nSettori riservati al boot : %u", dt->reservedcl);
+          printf("\nNumero di fats ...........: %u", dt->numfats);
+          printf("\nNumero max. files in root : %u", dt->allowedentry);
+          printf("\nSettore cluster #2 (dati) : %u", dt->startdata);
+          printf("\nTotale cluster .......... : %u",dt->totalcluster-2);
+          printf("\nSettori della fat ....... : %u", dt->fatsize);
+          printf("\nSettore inizio root dir . : %u", dt->startroot);
+          printf("\nIndirizzo header device . : %04x:%04x",
+                                  dt->addrdeviceseg, dt->addrdeviceoff);
+          printf("\nTipo di disco ........... : ");
+          switch(dt->mediadesc) {
+          case  0xff:
+            s = "2 facce, 8 settori";
+            break;
+          case  0xfe:
+            s = "1 faccia, 8 settori";
+            break;
+          case  0xfd:
+            s = "2 facce, 9 settori";
+            break;
+          case  0xfc:
+            s = "1 faccia, 9 settori";
+            break;
+          case  0xf9:
+            s = "2 facce, 15 settori";
+            break;
+          case  0xf8:
+            s = "disco fisso";
+            break;
+          default:
+            s = "tipo sconosciuto";
+            break;
+          }
+          printf("%s",s);
+          printf("\nIl drive e` stato utilizzato ? : %s\n\n",
+                                      (dt->accesdisk == 0) ? "SI":"NO");
+          getch();
+          if(dt->nextaddrseg == 0xffff) break;
+          dt = (struct disk far *)((void far *)(((unsigned long)
+                 (dt->nextaddrseg)<<16) | (unsigned)(dt->nextaddroff)));
+        } while(1);
+     }
+
+    *****   Vol.  1   *****      Pag.  6      *****   Numero   1   *****
+
+                        #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                 -----> Il GERGO FIDONET 
+                                                        ================
+
+         "Echomail"? "Matrix"? Si mangiano? :-)
+         Suppongo che, frequentando i BBS, abbiate gia` sentito nominare 
+    termini  come matrix, netmail, echo, indirizzo di rete,  ecc...  Per 
+    chiarirvi tutti (spero) i dubbi, eccomi qui.
+         Ci  sono  dei messaggi che interessano solo gli  utenti  di  un 
+    certo  BBS, i cosiddetti messaggi locali: la loro gestione  e`  cosa 
+    relativamente semplice, e non c'e` nulla di particolarmente profondo 
+    da  spiegare:  voi scrivete un messaggio che  viene  registrato  sul 
+    disco del computer su cui gira il BBS in attesa che qualcuno dia  un 
+    comando per leggerlo e/o cancellarlo.
+         Se  pero`  dovete  scrivere  ad un  utente  che  non  frequenta 
+    abitualmente  il  vostro  BBS, come fate? vi collegate  al  SUO  BBS 
+    preferito,  che  magari  si trova in un  altro  continente?  Un  po' 
+    scomodo,  non  vi pare? Per questo sono state inventate  la  matrix, 
+    anche  detta netmail, e le reti ("nets") di BBS, seguite  da  quella 
+    grande trovata che e` l'echomail.
+         Prima  di  definire  la matrix, occorre spiegare  che  due  BBS 
+    possono  mettersi  in  contatto tra di  loro,  automaticamente,  per 
+    scambiarsi dati; per far cio` ogni BBS e` dotato di un indirizzo (il 
+    "2:334/15.1"  che  compare  alla  fine  di  quest'articolo  e`,  per 
+    esempio, il mio indirizzo) che lo identifica univocamente. Tornero`, 
+    in un prossimo articolo, su come si formano tali indirizzi.
+         Il termine di rete puo` suggerire a qualcuno idee sbagliate. La 
+    nostra  rete telematica e` molto differente da una normale  rete  in 
+    cui  i  calcolatori  sono perennemente connessi  e  condividono  gli 
+    stessi  dati:  nel nostro sistema, in ogni BBS  e`  memorizzata  una 
+    copia  delle  informazioni (files o messaggi che siano)  ed  i  BBS, 
+    collegandosi  tra loro di tanto in tanto, aggiornano  le  rispettive 
+    basi di dati.
+         E`  possibile scrivere un messaggio su di un BBS in  modo  che, 
+    durante   la  notte,  quando  telefonare  costa  meno,  esso   venga 
+    impacchettato, compresso e spedito automaticamente ad alta velocita` 
+    ad  un  altro sistema, dove il destinatario lo  potra`  leggere.  Il 
+    risparmio e` notevole: anche a 2400 baud un login su di un BBS  puo` 
+    portar  via  qualche  minuto, da sommare  al  tempo  necessario  per 
+    immettere  il  testo,  e qualche volta la  cosa  puo`  essere  molto 
+    complicata  dall'interfaccia  utente  in una lingua che  non  e`  la 
+    vostra;  se  invece i calcolatori si collegano  automaticamente,  il 
+    tempo  necessario  prima di iniziare ad inviare il testo  si  riduce 
+    drasticamente a pochi secondi, si guadagna qualcosa per il fatto che 
+    il  testo viaggia in forma "compressa" e grazie ad un accordo  sullo 
+    standard da utilizzare non ci sono problemi di lingua.
+         Questo e` il principio della matrix diretta: quando inserite il 
+    messaggio vi viene chiesto anche l'indirizzo (o numero di nodo)  del 
+    destinatario,  dopodiche`,  quando  vi scollegate,  il  testo  viene 
+    spedito direttamente al BBS d'arrivo.
+         Ma  c'e` qualcosa di ancora piu` potente: il "routing". Se  io, 
+    povero  utente  di BBS di montagna a 1200 baud,  voglio  spedire  un 
+    messaggio  in America, il mio Sysop dovra` sostenere una  spesa  non 
+    indifferente. Ci sono pero` nodi (BBS della rete), magari con  modem 
+    piu`  veloci,  che gentilmente si offrono di infilare anche  i  miei 
+    messaggi tra i loro (facendoli viaggiare insieme si risparmia  ulte- 
+
+    *****   Vol.  1   *****      Pag.  7      *****   Numero   1   *****
+
+                        #####  TELEMATICUS  #####
+    ....................................................................
+    riormente):  il  mio BBS trasmette il messaggio al  piu`  vicino  di 
+    questi  "Host",  BBS il quale magari non lo  trasmette  nemmeno  lui 
+    direttamente al destinatario, ma ad un nodo intermedio  (il che puo` 
+    ridurre sensibilmente i costi), eccetera.
+         E  l'echomail?  I  messaggi  cosi`  trasmessi  giungono  da  un 
+    mittente  ad un destinatario, come una normale lettera  postale,  ma 
+    con  i  computer  si  puo` fare molto di  piu`:  potete  inviare  un 
+    messaggio cosiddetto "pubblico" che potra` esser letto da TUTTI  gli 
+    utenti di TUTTI i BBS interessati. Nascono cosi` le "conferenze",  o 
+    aree "echo".
+         Quando  voi  inserite  un testo in un'area  echo,  esso  verra` 
+    trasmesso  a tutti i BBS della catena (non direttamente,  e`  ovvio: 
+    anche  per  i messaggi echo e` utilizzato il routing!) in  modo  che 
+    chiunque,  da qualsiasi BBS collegato possa leggerlo e  rispondervi. 
+    Tali  messaggi sono, per comodita`, divisi in aree di  interesse:  i 
+    messaggi  riguardanti il cinema, per esempio, viaggiano separati  da 
+    quelli  riguardanti  i  segreti dell'MSDOS.  Alle  varie  aree  sono 
+    associati  nomi in codice, detti "tag", che le identificano.
+         Partendo  dal  presupposto  che non tutti i  BBS  possano  -  o 
+    vogliano - ricevere tutte le aree di interesse, ha senso parlare  di 
+    "diffusione"  di  un'area: una puo` avere carattere  regionale,  una 
+    nazionale,  una  internazionale  (in  quest'ultimo  caso,  e`  fatto 
+    obbligo  di utilizzare la lingua inglese). Anche all'interno di  una 
+    stessa zona di diffusione, non e` detto che tutti i BBS seguano  una 
+    conferenza: per problemi di spazio possono tenere solo una selezione 
+    di argomenti.
+         Ogni area echo ha di norma un moderatore/animatore che mantiene 
+    la   conversazione  viva  ed  a  livelli   civilmente   accettabili, 
+    stimolando  nuove discussioni interessanti, richiamando  gli  utenti 
+    colpevoli  di comportamenti scorretti e troncando filoni che  stanno 
+    degenerando.  Resta comunque valido il principio che ciascuno e`  il 
+    miglior  moderatore  di  se`  stesso, e che  e`  sempre  meglio  non 
+    scrivere un messaggio che essere poi ripreso per cio`. Ogni area  ha 
+    il  suo  regolamento particolare, ed il sysop del  vostro  BBS  puo` 
+    illuminarvi (sempre che non abbia gia` previsto un'apposita  opzione 
+    nel vari menu) sulle regole di validita` generale.
+         N.B.:  per  evitare fatti spiacevoli (un paio  d'anni  fa,  per 
+    esempio,  circolava per l'Italia un pazzo chiamato "Wild  Inkiappet-
+    tator" che riempiva le aree echo di messaggi sconci), i sysops  pos-
+    sono  impedire l'accesso in scrittura alle aree echo per gli  utenti 
+    che non abbiano sottoscritto il regolamento. Se non riuscite a scri-
+    vere  un messaggio in echo, chiedete al sysop cosa dovete  fare  per 
+    avere l'abilitazione).
+         Se  avete ancora dubbi, scrivetemi un messaggio locale sul  mio 
+    BBS (Tecnosoft, 0121-500663), o un matrix (l'indirizzo e` qui sotto) 
+    o un messaggio echo in area "novita` net 334" (tag: NETNEWS.334).
+
+          @  @
+               Arrileggerci.                       Roberto Piola
+          \___/                                    2:334/15.0
+
+    *****   Vol.  1   *****      Pag.  8      *****   Numero   1   *****
+
+                        #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                         -----> VIVAMIGA
+                                                                ========
+
+         Il  mondo Amiga oltre ad avere ottimi giochini, splendidi  Text 
+    Editor ed un SO multitask ineccepibile, presenta anche una serie  di 
+    programmi  per  telecomunicazione  tecnicamente   insuperabili  (ok, 
+    forse ho un minimo esagerato).
+         Voglio  comunque  esaminare un applicativo  che,in  mezzo  alla 
+    miriade  di programmi di comunicazione PD, Shareware e  commerciali, 
+    pur  non brillando per la sua interfaccia grafica risulta essere  il 
+    migliore in fatto di affidabilita` e di opzioni disponibili:  Plati-
+    num! distribuito dalla Online e giunto alla release 3.03. 
+         Platinum!  presenta, una volta lanciato, una  scarna  schermata 
+    con la solita miriade di menu semidecifrabili dal principiante;  fin 
+    qui  dunque nulla di nuovo. Di nuovo c'e` la possibilita` di  creare 
+    degli script in auto apprendimento e di poterli rilanciare automati-
+    camente al collegamento con la BBS. Seppure piuttosto completi (sono 
+    previsti anche comandi per accedere direttamente da script a tutti i 
+    parametri del programma) non hanno un livello di sofisticazione tale 
+    da pensare di telefonare ad una bbs e fare applicazioni di una certa 
+    complessita`  come  prendere tutti i msg disponibili  in  un'area  e 
+    lasciare quelli gia` preparati, non tanto per carenze nel linguaggio 
+    script quanto per l'impossibilita` di un controllo attendibile sulle 
+    solite  spurie. Se ad esempio stiamo aspettando un comando  di  fine 
+    messaggio e questo ci e` arrivato sporcato da un rumore della linea, 
+    possiamo  restare  tranquillamente in attesa tutto il tempo  che  ci 
+    lascia la BBS! Per i fortunati con modem MNP, indubbiamente l'utili-
+    ta` e` maggiore: addirittura c'e` un comando che testa continuamente 
+    tutta  la  sessione alla ricerca di una frase, cosi`  se  appare  il 
+    fatidico messaggio:
+                More (y/n) ?
+    il programma risulta in grado di rispondere automaticamente, pur non
+    essendo stata naturalmente prevista una tale richiesta.
+         Altra cosa utilissima e` la possibilita` di operare dei  filtri 
+    sia in ingresso che in uscita, a tutti i livelli: dal buffer  colle-
+    gato direttamente al modem all'ASCII send (ad esempio per convertire 
+    automaticamente  i  ^M del DOS in ^J  dell'AMIGA).  Naturalmente  e` 
+    presente anche un filtro per tutti i comandi VT100 quando abbiamo un 
+    buffer  aperto che registri la sessione. Chi comunque avesse  parti-
+    colari  interessi  negli script (ad esempio fare  un'intera  BBS  su 
+    script) ha a disposizione l'interfaccia AREXX.
+           Il programma inoltre assegna automaticamente macro, script  e 
+    qualsiasi variabile (tranne il path di destinazione File) al  nostro 
+    numero  telefonico e salva (se non disponiamo altrimenti)  nel  file 
+    file.cfg che verra` poi caricato automaticamente al lancio.
+         Sono  supportati  tutti i  protocolli  possibili  immaginabili: 
+    XModem,  XModem-CRC, WXModem, YModem, YModem-Batch,  Zmodem(32),  B-
+    Protocol & Quick-B (usati da CompuServe), Kermit e Sadie.  Quest'ul-
+    timo  permette  l'invio e la ricezione in contemporanea  (essendo  i 
+    modem full-duplex la velocita` di trasferimento non viene  rallenta-
+    ta!)  ed in piu` la possibilita` di chattare mentre i  file  vengono 
+    scambiati!
+         Ma il vero asso nella manica di Platinum! e` la sua  robustezza 
+    e  TOTALE  assenza di BUG che piantino il sistema. Malgrado  la  sua 
+    apparente  semplicita`, e` un programma complesso e studiato  per  i 
+
+    *****   Vol.  1   *****      Pag.  9      *****   Numero   1   *****
+
+                        #####  TELEMATICUS  #####
+    ....................................................................
+    professionisti, tanto che supporta l'X-ON/X-OFF hardware ed il  CTS-
+    RTS;  contrariamente  a certi programmi graficamente  allettanti  ma 
+    sempre in guru (JRComm v1.0) potete sempre aspettarvi il massimo dal 
+    Platinum!; non e` azzardato definirlo un muletto.
+          ... Beh, un bug a dire il vero esiste (ogni eccezione conferma 
+    la  regola!).  Nella versione 2.0 SO dell'Amiga Platinum!  non  apre 
+    correttamente gli screen. Ma ecco come chiusura il modo per  ovviare 
+    all'inconveniente: con una ZAP cercate la sequenza
+                  0C 40 00 22
+                  63 00 00 84
+                  ^^
+    e rimpiazzatela con :
+                  0C 40 00 22
+                  60 00 00 84
+                  ^^
+                                                   
+                                                 RRE
+          
+
+                                                  -----> FEEDBACK UTENTI 
+                                                         ===============
+
+         Il  questionario  proposto nello scorso numero ha  ricevuto  la 
+    bellezza di 13 (tredici) risposte. Anche tenuto conto dei  "generosi 
+    incoraggiamenti"  agli  altri point del mio bbs, non e`  affatto  un 
+    pessimo  risultato. Vista la fama di bogia nen dei piemontesi,  cosa 
+    si poteva pretendere di piu`? 
+         Passiamo  subito alla disamina delle risposte per vedere se  e` 
+    possibile conoscere il "modemmaro convinto".
+
+         A. In che fascia di eta` sei?                  
+            < 18: 2 ;    18-24: 6 ;     25-29: 2 ;     >= 30: 3 .
+    Sembra  che la modemania si possa manifestare a qualunque eta`,  con 
+    una punta di interesse maggiore nel periodo fine superiori -  inizio 
+    universita`.
+ 
+         B. Che tipo di calcolatore/i usi?
+            PC Ibm: 9 ;  Amiga: 4 ;     Altro (Z88, Vax): 2.
+    Direi che e` inutile commentare il dato: tutti smanettoni...
+
+         C. Quanto spesso frequenti mediamente i bbs?
+                    tutti i giorni      7
+                    piu` volte la settimana 5
+                    una volta la settimana  1
+    ...e tutti ormai persi a ingrassare la Sip!
+
+         D. Che giudizio (da 1 a 5, vedi sopra) dai a Telematicus? 
+                    parziali : 0-0-3-4-6 - media : 4.2
+
+         E. Che giudizio (da 1 a 5) dai alle singole rubriche?
+                    Presentazione  : 0-1-2-6-3 - media: 4.0
+                    Editoriale     : 0-1-2-6-3 - media: 4.0
+                    Che cos'e`...  : 0-1-3-6-2 - media: 3.7
+                    Il programmino : 1-4-2-2-2 - media: 3.0
+                    Curiosita`     : 0-1-4-3-4 - media: 3.8
+                    Notizie dal net: 0-0-1-4-7 - media: 4.5
+
+    *****   Vol.  1   *****      Pag. 10      *****   Numero   1   *****
+
+                        #####  TELEMATICUS  #####
+    ....................................................................
+    Qualche dubbio sul programmino, tacciato di pochi commenti (se  l'a-
+    vessi scritto io, ce ne sarebbero stati ancora meno...) e voglia  di 
+    sapere tutto sul nostro net. Cercheremo di tenere presente...
+
+         F. Che rubriche vorresti presenti su Telematicus?
+                    Un tutorial sul C    4/13
+                    Un tutorial sul C++   4/13
+                    Recensioni giochi    3/13
+                    Recensioni programmi  11/13
+                    Recensioni musicali   5/13
+                    Recensioni librarie   6/13
+                    Giochi "da fare"     4/13
+    Sembrerebbe  che i modemmari non si fidino di quello che le  riviste 
+    specializzate  propinano  ai lettori e preferirebbero  conoscere  un 
+    giudizio  piu`  terraterra da parte di gente come  loro.  Benissimo, 
+    quand'e` che mi mandate le vostre "impressioni di guida" dei  vostri 
+    programmi favoriti? La redazione aspetta fiduciosa!
+
+         G. Pensi di downloadare altri numeri di Telematicus?
+                         SI` 13/13     NO  0/13
+    Troppo buoni...
+
+         H. Pensi di contribuire con articoli a Telematicus?
+                         SI`  7/13     NO  6/13
+    Vedi quanto detto alla voce Richieste :-)
+
+         I. Ti piacerebbe una grafica meno spartana?
+                         SI`  7/12     NO  5/12
+    Mah, visto  che  basterebbero  un'edizione PC e  una  Amiga,  ci  si 
+    potrebbe  anche  pensare... vedremo cosa ci  porteranno  i  prossimi 
+    mesi!
+
+
+                                           -----> CURIOSITA`: LE FACCINE
+                                                  ======================
+
+         L'editor  princeps  (che poi sarebbe .mau.) ricorda  ancora  il 
+    lontanissimo  1985, quando il morbo della telematica l'aveva  morso. 
+    Non so se a quei tempi esistevano nodi Fido in Italia, comunque io e 
+    i miei amici chattavamo con i calcolatori universitari con gli amici 
+    dell'altra  sponda dell'Atlantico (altro che Videotel!).  In  queste 
+    chiacchiere  rigorosamente  a 300 baud comparivano  ogni  tanto  gli 
+    strani  caratteri :-) che mi lasciavano sempre piu` perplesso,  fin-
+    che` una volta chiesi a una mia amica cosa diavolo significassero. E 
+    lei: "Ma dai, che se li ruoti sono una faccina sorridente!"
+         A  parte  l'aneddoto,  si puo` vedere che le  faccine  si  sono 
+    sparse  nei calcolatori almeno da cinque anni - una vita, nel  campo 
+    informatico.  La loro utilizzazione iniziale era molto  pratica:  se 
+    uno legge un messaggio, non puo` assolutamente sapere se chi  scrive 
+    avesse  un'intenzione  seria  oppure avesse  solo  voluto  fare  una 
+    battuta.  Visto che molte guerre sono cominciate per molto meno,  si 
+    e`  convenuto  che  una faccina  sorridente  :-)  significasse  "non 
+    prendermi sul serio!"
+         Ma  la fantasia della gente ha cominciato a crearne  sempre  di 
+    piu`...  Vediamone un elenco, amorevolmente raccolto e  tradotto  da 
+    Enzo Ciajolo.
+
+    *****   Vol.  1   *****      Pag. 11      *****   Numero   1   *****
+
+                        #####  TELEMATICUS  #####
+    ....................................................................
+
+    :-)        Faccia sorridente, la frase precedente e` scherzosa.
+    :-)        oppure :-> Sono felice!.
+    )-:        Commento pesante, ma scherzoso.
+    :-(        Faccia triste o infelice.
+    :-(        oppure :-< oppure <:-(  Sono triste e depresso.
+    :-|        Espressione disgustata.
+    :-|        Sono cosi` imbarazzato (arrossisco).
+    :-;        Sorrisino...
+    :-))))     Molto divertente.
+    ;-D        LOL (Laughing Out Loud = Grassa Risata!).
+    ;-)        Ammiccante (da leggersi con un po` di sale in zucca!).
+    :''(       Piangente.
+    :o         Stupore.
+    :p         Linguaccia.
+    :-P        "Pffffft!" (pernacchia).
+    @->-->-    Una rosa.
+    8-)        Sono ben sveglio e pronto a chiaccherare.
+    8-)        Sono stupito!! (occhi spalancati).
+    8-)        Ho gli occhiali.
+    O:-)       Faccia da santarellino.
+    :-S        Sono confuso.
+    :-?        Non capisco.
+    :-O        Sono sorpreso (a bocca aperta), WOW!.
+    :-9        Yummy!
+    :-+        Ho la bocca cucita.
+    :-I        Sono annoiato.
+    >;-)       Dall'alto della mia sapienza...
+    >:-(       Sono cosi` folle !!.
+    :-X        Non e` la prima volta che ne parlo.
+    ( :-O      Sono mooooolto sorpreso.
+    :-/        Hum.
+    :-\        Sono confuso.
+    :-V        Frase frivola.
+    $-)        Spero di ricavarne del denaro.
+    B-)        Porto gli occhiali da sole (ho la vista appannata).
+    B-)        Bat-Messaggio!!!.
+    ::-\       Temo di vedere doppio!.
+    (:-)       Messaggio riferito a caschi per bicicletta.
+    <:-)       Domanda stupida.
+    oo         Un raggio di luce nel messaggio.
+    O>-<oe=    Messaggio che interessa alle donne.
+    o>8<oe=    Messaggio a proposito di donne INTERESSANTI.
+    oe-(       Messaggio notturno (a tarda notte).
+    :^)        Messaggio che prende in giro qualcuno per il suo naso.
+    :-ae#ue    Messaggio che prende in giro qualcuno pet le sue braccia.
+    - P.=      Messaggio a proposito della guerra nucleare.
+    (:-#       Messaggio relativo a qualcosa che non si dovrebbe dire...
+    (:-$       Messaggio indicante che una persona e` malata.
+    (:-&       Messaggio indicante che una persona e` arrabbiata.
+    (:-*       Bacio...
+    ;*)        Bacio sulla punta del naso!
+    (:+)       Messaggio relativo a chi ha un grosso naso.
+    (:=)       Messaggio relativo a persone con DUE nasi (???).
+    (:-:       Messaggio indicante che una persona e` MOLTO triste.
+    (:^(       Messaggio relativo a persone con il naso rotto.
+
+    *****   Vol.  1   *****      Pag. 12      *****   Numero   1   *****
+
+                        #####  TELEMATICUS  #####
+    ....................................................................
+    (:<)       Messaggio relativo a persone pettegole o bugiarde.
+    :-(=)      Messaggio relativo a persone con grossi denti.
+    &:-)       Messaggio da una persona con capelli ricciuti.
+    P.:-)      Messaggio da una persona con i capelli mossi.
+    ?-(        Messaggio a proposito di persone con un occhio nero.
+    *:*        Messaggio frivolo.
+    *:**       Messaggio a proposito di persone frivole con i baffetti.
+    %-)        Messaggio a proposito di persone con gli occhiali rotti.
+    +<:-oe     Messaggio a proposito di frati o suore.
+    ae0-)      Messaggio dai ciclopi...
+    (:-D       Messaggio a proposito di un'altra persona pettegola...
+    (:-oeK-    Messaggio formale.
+    =0==       Messaggio a proposito di un Messicano su una ferrovia.
+    =t==       Messaggio a proposito di un messicano su un treno.
+    <ae:-)ue   Messaggio in bottiglia...
+    <:-)<<oe   Messaggio da un razzo spaziale...
+    <<<<(:-)   Messaggio da un venditore ambulante.
+    (:-...     Messaggio da ...cardiopalma.
+    >oe->      Messaggio dalla Cina... 
+    (O--<      Messaggio improbabile...
+    (8-)       Messaggio da un quattr'occhi...
+    (:>-<      Messaggio da un ladro: OKKIO!!!.
+    <I==I)     Messaggio ...a quattro ruote. 
+    oe:-)      Messaggio da una persona con folte sopraciglia.
+    ae(^_^)ue  Messaggio a qualcuno che ascolta in cuffia.
+    ae(-_^)ue  Ammiccamento a qualcuno che ascolta in cuffia.
+    <^_^>      ?
+    <-v->      Messaggio a qualcuno con il becco (con il naso adunco).
+    <-_^>      Strizzatina d'occhio.
+    <O_O>      Messaggio ad un occhialuto.
+    <Q^Q>      Messaggio ad una persona con occhiali spiritosi.
+    (^U^)      Messaggio ad un grande naso.
+    <^*^>      Messaggio a qualcuno con il naso schiacciato. 
+    AeO!OUe    Messaggio che fa spalancare gli occhi per la sorpresa.
+    *v*)       Messaggio a qualcuno con due occhi neri.
+    :-x        Baci, baci!
+    :-oe       Arcigno.        
+    :-c        Molto infelice.
+    :-oe       Babbuino.      
+    :-C        Semplicemente incredibile.
+    :-v        Parlare del piu` e del meno.
+    :-B        Dire sciocchezze (o cose strane).
+    :-,        Sorrisetto compiaciuto.
+    :-w        Parlare con lingua biforcuta.
+    :-oeoe     Irritare (irritato).
+    :-r        Allungare la lingua.    
+    :-*        Oops! (con la mano davanti alla bocca).
+    :<)        Per chi ha i baffi.
+    :-{)       Per chi ha i baffi.
+    :<)=       Per chi ha la barba.
+    :/)        Per niente divertente.
+    '-)        Strizzatina d'occhio.
+    P-)        Pirati.
+    (@ @)      Non dire sciocchezze!
+    :-"        Leccarsi le labbra.
+    :-f        Bleahh!
+
+    *****   Vol.  1   *****      Pag. 13      *****   Numero   1   *****
+
+                        #####  TELEMATICUS  #####
+    ....................................................................
+    :-1        Sorrisino.
+    :-T        A muso duro.
+    :-{        Conte Dracula.
+    =|:-)=     Zio Sam.
+    7:)        Reagan.
+    :-=)       Hitler.
+    :-#        Censurato.
+    :~i        Fumando.
+    :~j        Fumando e sorridendo.
+    :/i        Vietato fumare.
+    :->        Sono VERAMENTE felice.
+    :-<        Tristemente solo.
+    :*)        Forse ho bevuto troppo.
+    o=         Una candela accesa per un caldo messaggio.
+    -=         Una candela spenta per terminare un caldo messaggio.
+    :_)        Facevo il pugile, cosi` il mio naso...
+    #:-)       Sorriso da qualcuno con i capelli arruffati.
+    :-o        "Oh, nooooooo!".
+    #:-o       Come sopra, ma con le mani nei capelli.
+    ||*(       Offro stretta di mano (facciamo la pace?).
+    ||*)       Ricambio stretta di mano (pace accettata!).
+    2B|^2B     Messaggio a proposito di Shakespeare.
+    (-_-)      Sorridere sotto i baffi.
+    {          Messaggio da Alfred Hitchcock.
+    %^)        Sorriso con occhiali.
+    :-}        Da chi porta il rossetto.
+    :-\        Sorriso da Braccio di Ferro.
+    :~)        Necessita una riparazione al naso.
+    :=)        Necessita una riparazione al naso.
+    *<|:-)     Babbo Natale.
+    (-)        Necesita un taglio di capelli.
+    0-)        Portando una maschera da sub.
+    :-||       Afflitto.
+    %-}        Sorriso da ubriaco.
+    *:-)       Berretto da notte (con pon-pon).
+    |-P        Yuck!
+    ~~:-(      Parliamo di flame.
+    O|-)       Parliamo di religione.  
+    8:-I       Wizard Unix.
+    X-(        Candidato suicida.
+    E-:-I      Messaggi ham-radio. 
+    3:o[       Messaggi sugli animali domestici.
+    <:I        Pedante.
+    (:I        Testa d'uovo.
+    @:I        Turbante.
+    8:-)       Sollevando gli occhiali (per vedere meglio).
+    _O_        Rudolf il pinguino che ondeggia. 
+
+    *****   Vol.  1   *****      Pag. 14      *****   Numero   1   *****
+
+                        #####  TELEMATICUS  #####
+    ....................................................................
+
+                                              -----> NOTIZIE DAL NET 334
+                                                     ===================
+
+         Tristi  notizie anche in questo numero: sono ben due i BBS  che 
+    hanno  chiuso in questo periodo i battenti. Piu`  precisamente,  non 
+    cercate  piu` di collegarvi a Opus Poirino (Enrico Negro) e  PC-Opus 
+    (Tony  Garaguso). In compenso, dopo tre mesi e piu` di assenza  Lord 
+    Drake  ritorna nella scena, forte anche del suo nuovo modem  HST,  e 
+    sempre  allo 011-710408. Ricordiamo anche che allo  011-5765568,  ex 
+    SDN, risponde ora TOday!, la nuova emanazione di FidoTo consultabile 
+    in TeleText by Roberto Piola.
+         Nell'ultima  riunione del network 334 per il 1990 si  e`  anche 
+    deciso  di formalizzare un cambiamento di struttura  nella  gestione 
+    dello  scambio  dei messaggi echomail tra i vari  nodi  della  rete. 
+    Verra`  adottata anche da noi la struttura ad Hub:  il  coordinatore 
+    centrale  Fido Torino prelevera` la posta italiana da Varese, e  tre 
+    nodi  (Charlie's  Puppies, Magazine ed  EUreka!)  si  "riforniranno" 
+    direttamente  la'. Tutti gli altri nodi sceglieranno uno  o  l'altro 
+    Hub  per  ritirarsi la propria posta. Questa  modifica  portera`  un 
+    cambio  dei  numeri di nodi assegnati ai vari  BBS  piemontesi:  non 
+    appena  la  situazione  sara`  completamente  definita,  Telematicus 
+    pubblichera` la lista aggiornata.
+         Il  1991 vede anche il secondo anno di  vita  dell'associazione 
+    TAM-TAM,  nata  senza  fini di lucro  (anzi...)  per  promuovere  la 
+    telematica  amatoriale a Torino e in Piemonte. La quota  associativa 
+    e` fissata ancora in 35000 lire per i nuovi iscritti, con in omaggio 
+    10  floppy  da 360K di software PD e Shareware per MS-DOS  (per  gli 
+    Amiga,  si sta studiando una soluzione simile), mentre la  quota  di 
+    rinnovo e` fissata nella cifra simbolica di 10000 lire. Per maggiori 
+    informazioni,  rivolgetevi  ai  sysop facenti  parte  del  Consiglio 
+    Direttivo:  Franco  Carcillo (FidoTo), Rudi Saporiti  (TorinoNET)  e 
+    Franco Schinco (Charlie's Puppies). 
+
+
+                                               -----> IL PROSSIMO NUMERO
+                                                      ==================
+
+         Nel  numero downloadabile a febbraio, oltre alle nuove  puntate 
+    delle  telenovelas,  pardon articoli, dei  nostri  editori,  potrete 
+    trovare  la  prima parte della traduzione italiana delle  voci  piu` 
+    interessanti  dello  Hackers' Jargon, il vocabolario che  spiega  il 
+    gergo degli smanettoni americani. Verranno anche spiegate, spero, le 
+    finalita`  dell'associazione TAM-TAM (che, vorrei fare  notare,  non 
+    c'entra assolutamente con Telematicus se non per il fatto che  molti 
+    di noi editori sono anche soci. Siamo cosi` pochi....). Per la prova 
+    di  Telix,  stiamo  aspettando vogliosamente che  la  versione  4.0, 
+    attualmente  in  betatest,  sia  disponibile  al  pubblico  per  non 
+    rimanere superati dagli eventi!
+
+                     Ciao ciao a tutti.....         .mau.
+

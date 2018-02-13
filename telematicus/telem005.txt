@@ -1,0 +1,1298 @@
+    *****   Vol.  1   *****      Pag.  1      *****   Numero   5   *****
+
+    ====================================================================
+
+    @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+      @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+      @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+      @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+      @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+    ====================================================================
+
+                                 Maggio 1991
+
+    ====================================================================
+
+      Bollettino telematico mensile a cura del network 2:334 - Fidonet 
+
+                 Editor albionicus:     Maurizio Codogno
+                 Editor excellens:      Massimo Gentilini
+                 Editor montanus:       Roberto Piola
+                 Editor echoans:        Franco Carcillo
+                 Editor ludicus:        Renato Rolando
+                 Editor auscultans:     Lorenzo Travaglio
+                 Editores hospites:     Sini & Shiva
+                 Collaboratori:         Tutti voi :-)
+
+    --------------------------------------------------------------------
+
+                            IN   QUESTO   NUMERO :
+
+    Editoriale, di Maurizio Codogno   .   .   .   .   .   .   .  pag.  2
+    Il Bimodem, di Massimo Gentilini (parte 1)    .   .   .   .  pag.  3
+    Echo, di Franco Carcillo  .   .   .   .   .   .   .   .   .  pag.  5
+    Voce & dati, di Roberto Piola .   .   .   .   .   .   .   .  pag.  6
+    Tecnica Amiga, di Anonimo .   .   .   .   .   .   .   .   .  pag.  8
+    L'Associazione Radioascolto, di Lorenzo Travaglio .   .   .  pag. 11
+    Il programmino    .   .   .   .   .   .   .   .   .   .   .  pag. 12
+    Varieta' - il FantaMeeting    .   .   .   .   .   .   .   .  pag. 14
+    VivAmiga, di Renato Rolando   .   .   .   .   .   .   .   .  pag. 18
+    Curiosita`: Il Gergo Hacker - parte 3 .   .   .   .   .   .  pag. 20
+    Notizie dal net 334   .   .   .   .   .   .   .   .   .   .  pag. 21
+    I nostri bbs  .   .   .   .   .   .   .   .   .   .   .   .  pag. 24
+
+    ====================================================================
+
+         Il materiale presente in Telematicus e` (C) dei singoli autori.
+    E` espressamente  consentita  la  distribuzione  e il riutilizzo del
+    bollettino  in  tutto  o in  parte,  purche` non  a fini di  lucro e
+    citando sempre la fonte di provenienza. 
+
+    *****   Vol.  1   *****      Pag.  2      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                       -----> EDITORIALE 
+                                                              ==========
+
+         Siamo  a  maggio, e le rose dovrebbero  fiorire  (cosi'  almeno 
+    inizia  una delle basi dati vocali che utilizzo in ufficio... e'  un 
+    tormentone,  ve lo assicuro). Il tempo penso dia un  certo  problema 
+    alle  fioriture: in compenso Telematicus continua a prosperare:  tra 
+    un  po'  saremo  persino  costretti a  non  sollecitare  piu'  degli 
+    articoli...
+         In questo numero abbiamo anche una `new entry', e che ingresso: 
+    Massimo  Gentilini, sysop di OCA BBS a Bologna e noto a tutti per  i 
+    suoi  contributi a Mc-Microcomputer. Cari utenti che siete pieni  di 
+    files da uploadare e non avete abbastanza tempo, ecco a voi  Bimodem 
+    spiegato dalla A alla L ... (il resto nel numero di giugno).
+         Abbiamo anche Lorenzo Travaglio che ci parla  dell'Associazione 
+    Italiana  Radioascolto, che come avreste dovuto sapere sta  avviando 
+    una  collaborazione col net 334 Fido, e la cronaca del  FantaMeeting 
+    di Pasqua, per la serie `socializziamo non solo via modem' 
+         Lo spazio Amiga questa volta e' raddoppiato (un numero  omaggio 
+    di Telematicus a chi scoprira' il nome dell'anonimo....) e le  altre 
+    rubriche continuano imperterrite.
+ 
+        Ciao ciao a tutti e buona lettura!.....                 .mau.
+
+    *****   Vol.  1   *****      Pag.  3      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                     --->  PICCOLA GUIDA INTRODUTTIVA ALL'USO DI BIMODEM
+                           =============================================
+
+         Cosa e' Bimodem
+         ---------------
+
+         Bimodem e' un protocollo Bidirezionale che permette di  mandare 
+    e  contemporaneamente  ricevere file dal BBS. Rispetto  ai  classici 
+    protocolli, oltre alla bidirezionalita', che vi permette di  mandare 
+    file mentre li state ricevendo, ha pero' anche altri vantaggi,  tesi 
+    principalmente  a  minimizzare i tempi di collegamento,  e'  infatti 
+    possibile selezionare i file da scaricare da piu' aree in  contempo-
+    ranea,  selezionandoli da una lista file che comprende tutti  quelli 
+    del  BBS, per scaricarli poi in una botta unica. Quindi permette  di 
+    pianificare il vostro collegamento da casa, senza occupare la linea, 
+    per poi collegarvi ed utilizzare il tempo a vostra disposizione  per 
+    scaricare i file senza doverli cercare nelle varie aree. Se poi  nel 
+    frattempo decideste anche di mandare dei file (cosa che a noi  Sysop 
+    farebbe  certamente  piacere) Bimodem ve li  manderebbe  in  maniera 
+    totalmente automatica, includendo anche la descrizione da fornire al 
+    BBS.
+
+         In pratica i vantaggi sono i seguenti:
+         - Possibilita' di utilizzare TUTTO il tempo del vostro collega-
+    mento per il Download/Upload di file in contemporanea,  contribuendo 
+    alla vita del BBS pur prelevando file.
+         -  Possibilita'  di scaricare piu' file anche da  aree  diverse 
+    senza nessun intervento manuale.
+         - Non c'e' bisogno di scrivere la descrizione una volta mandato 
+    il  file, Bimodem lo fa da solo dopo che avrete descritto il file  a 
+    casa, prima di collegarvi.
+         -  Possibilita' di riprendere il trasferimento di file in  caso 
+    di interruzione dal punto in cui ci si era interrotti.
+         -  Assoluta sicurezza sullo stato del file una volta  terminato 
+    il download, grazie all'algoritmo di verifica.
+
+         Cosa serve per far andare Bimodem
+         ---------------------------------
+
+         Per  prima  cosa e' necessario il Bimodem, che sul mio  BBS  si 
+    trova  nell'area  programmi di comunicazione (la 42)  ed  e',  nella 
+    versione  1.24,  quella attualmente disponibile  alla  scrittura  di 
+    queste note, contenuta nel file BIMOD124.ZIP. 
+         Come seconda cosa e' necessaria la lista dei file, per pianifi-
+    care  il  collegamento, sempre sul mio BBS questa si trova  in  area 
+    file numero 1 con il nome di ALLFILES.ZIP.
+         Come  ultima cosa e' necessario un programma  di  comunicazione 
+    che permetta o il collegamento di protocolli di comunicazione ester-
+    ni  o lo shell a dos senza far cadere la portante in modo  da  poter 
+    lanciare il programma BiMenu una volta stabilita la connessione.
+
+    *****   Vol.  1   *****      Pag.  4      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Installazione di Bimodem
+         ------------------------
+
+         Installare il Bimodem e' molto semplice, e' infatti sufficiente 
+    scompattare  il  file BIMOD124.ZIP in una directory  e  lanciare  il 
+    programma  BINSTALL.COM,  e rispondere alle domande  che  questo  vi 
+    fara'  sullo schermo. Il programma vi da' una lista dei piu'  comuni 
+    programmi  di  comunicazione su cui Bimodem puo'  essere  installato 
+    senza  alcun problema, se il vostro non fosse presente  nella  lista 
+    dovrete provvedere da soli all'installazione degli script necessari. 
+    Dopo aver selezionato le directory per l'installazione il  programma 
+    vi copiera' tutti i file necessari nella directory e vi settera'  il 
+    Bimodem in una configurazione standard nella quale normalmente  c'e' 
+    assai poco da cambiare.
+         Se farete partire il programma BICONFIG.COM vi troverete in  un 
+    menu  di configurazione tramite il quale potrete settare i piu'  di-
+    sparati parametri. Non spieghero' qui tutti i parametri dato che  il 
+    manuale esiste apposta.
+         Generalmente i parametri vanno bene per il 90% delle configura-
+    zioni,  unica  cosa da settare con una certa cura e'  sono  le  voci 
+    dell'opzione "Filename and paths", qui c'e' una opzione molto impor-
+    tante, e cioe' il "Path to default files list for Bilist". Questa e' 
+    un opzione molto importante perche' permette di definire il nome  di 
+    una  lista file in cui, tramite il programma BILIST.COM, si  possono 
+    selezionare i file per il download. Questa lista e' molto  semplice, 
+    nel  formato  utilizzato su quasi tutti i BBS che e'  (non  a  caso) 
+    anche  il formato in cui e' la lista dei file di Oca System BBS.  Se 
+    percio'  avete precedentemente Downloadato il file  ALLFILES.ZIP  in 
+    area file numero 1 sara' sufficiente indicare OCA_FILE.TXT nel campo 
+    sottostante.
+         Tutte le altre opzioni sono relativamente importanti per  l'uso 
+    del Bimodem nei semplici collegamenti al BBS, possono essere  impor-
+    tanti se oltre al BBS usate Bimodem per altri scopi.
+         Una  volta installate le opzioni del Bimodem e' poi  necessario 
+    installare  questo  protocollo all'interno del vostro  programma  di 
+    comunicazione. Vista la quantita' di programmi disponibili e'  quasi 
+    impossibile  dare  indicazioni univoche, la  cosa  migliore,  almeno 
+    secondo me (anche se presuppone una macchina con molta memoria libe-
+    ra) e' far partire il programma BIMENU.COM. Questo puo' essere fatto 
+    partire  tramite gli script di quasi tutti i programmi di  comunica-
+    zione, attaccato alla lista dei protocolli disponibili o, in maniera 
+    anche  piu' semplice, essere lanciato a mano  uscendo  semplicemente 
+    dal programma di comunicazione o facendo uno shell al Dos.
+
+                                                   Di: Massimo Gentilini
+                              Sysop di OCA System BBS, Fidonet 2:332/401
+                                            Telefoni 051/6343719-6341719
+
+                  
+    *****   Vol.  1   *****      Pag.  5      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                          --->  ECHO ...O....O....O....O....O...O...O...
+                                ========================================
+
+         Echomail, ovvero  la messaggistica condivisa, trasmessa da  BBS 
+    a BBS come l'eco che rimbalza da grotta a grotta.
+         Dal  1987, da quando, per la prima volta in Italia,  FidoTorino 
+    inizio' a condividere un'area messaggi con Ipotesi a Milano, (l'area 
+    era  denominata MITO), la strada percorsa e' stata  moltissima:  ora 
+    proprio le aree echomail rappresentano il punto di forza della  rete 
+    FidoNet.
+         Il loro traffico e' in continuo aumento, con non pochi problemi 
+    organizzativi. 
+         Ogni notte circa 80 Kbyte di messaggi compressi riguardanti  le 
+    aree  italiane, sopraggiungono a Torino ad uno dei  sistemi  facente 
+    parte  della dorsale di redistribuzione italiana, il  backbone,  ap-
+    punto.
+         In  ogni net vi e' un backbone per le aree italiane ed uno  per 
+    quelle internazionali: queste ultime infatti hanno spesso interferi-
+    to nella distribuzione della posta a causa dell'alto volume di traf-
+    fico  generato  e dal dicembre '89 viaggiano su un  canale  diversi-
+    ficato.
+         Nel  nostro net il bb italiano e' il nodo 334/0  (ora  SDN_Ita-
+    ly!), mentre l'internazionale e' il 334/300 (EUreka!).
+         I  nodi  della dorsale comunicano tutti ad alta  velocita'  con 
+    modem  HST o V32: in questo modo anche alti volumi di traffico  sono 
+    smistati velocemente (80 Kb vengono trasferti in meno di 2  minuti). 
+    Sono  stati stabili orari fissi, nei quali i sistemi  non  accettano 
+    utenti  e si predispongno alla sola ricezione del traffico  echomail 
+    proveniente da un determinato sistema.
+         Una  volta  arrivata sul net la messaggistica  viene  inoltrata 
+    agli  hub  che a loro volta la mettono a  disposizione  dei  sistemi 
+    sottostanti.
+         I  pacchetti di messaggistica sono compressi per evidenti  mot-
+    ivi, pertanto, all'arrivo, i sistemi provvedono alla  decompressione 
+    e all'incasellamento nella propria base messaggi a seconda dall'area 
+    di pertinenza: questa operazione puo' richiedere anche tempi  signi-
+    ficativi, soprattutto se, per ingolfamenti vari, arriva un  pacchet-
+    tino  di 500 kb che puo' rivelarsi contenere qualche *mega* in  mes-
+    saggi!
+         Nella normalita', comunque, un messaggio ha grande probabilita' 
+    di arrivare al punto piu' lontano (della catena) nella stessa notta-
+    ta,  in caso di disallineamenti nelle chiamate tra i sistemi o  piu' 
+    semplicemente per 'fuori servizio' di qualche sistema della  catena, 
+    si  possono  creare tappi che portano a qualche  perturbazione  nel-
+    l'inoltro: ricordiamoci daltronde che la rete FidoNet e' gestita  da 
+    hobbisti nel tempo libero e il grado di efficienza sinora dimostrato 
+    e' dei piu' invidiabili.
+
+         Nota: pubblichiamo [nella rubrica NOTIZIE DAL NET 334] l'elenco 
+    delle  aree  echo nazionali, pensando di fare cosa gradita  ai  piu' 
+    inveterati  chiaccheroni telematici e ai piu' curiosi. Se il  vostro 
+    SysOp non ha l'area che agognate, chiedetegliela!
+
+    *****   Vol.  1   *****      Pag.  6      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                     ---> SALTELLANDO TRA VOCE E DATI...
+                                          ==============================
+
+         Tempo fa un mio utente mi chiese a cosa servivano i due  tasti-
+    ni, presenti sul modem, Talk/Data ed Orig/Answer. La prima (ed anche 
+    la seconda, e forse anche la terza.... poi ho desistito :-) )  volta 
+    che  ho  cercato di far risparmiare qualche scatto  al  mio  cosysop 
+    facendogli  passare la posta durante una comunicazione a voce,  egli 
+    mi ha guardato con sopspetto, quasi gli proponessi di commettere  un 
+    crimine od una cosa difficilissima.
+         Un  tempo (ma parlo poi solo di 6 o 7 anni fa), quando i  modem 
+    amatoriali non erano ne' autodial ne' tantomeno autoanswer, la  pro-
+    cedura di connessione tra il calcolatore di A e quello del suo amico 
+    B per passargli un file avveniva cosi':
+
+    - A telefonava a B
+    -  Il  telefono  di B squillava, e  B  sollevava  la  cornetta. 
+    "Pronto?"
+    - "Ciao, B!"
+    - "Ah, ciao, A!
+    - "Mi attacchi il modem che ti passo quel file?"
+    - "Certamente..."
+    - entrambi  armeggiavano un po' con commutatori e pulsanti,  dopodi-
+    che' si udivano i fischi dei due modem
+    - le cornette venivano abbassate
+    - i programmi di comunicazione venivano lanciati
+    - se si era abili, si poteva riprendere la comunicazione a voce.
+    Cosi' facendo, si avevano una comunicazione dati ed una voce con  un 
+    solo scatto. E' da notare che i BBS dei primi pionieri (con il  C64, 
+    e senza il modem autoanswer), funzionavano cosi': l'utente telefona-
+    va al sysop che gli attaccava il BBS.
+
+         Oggi invece, cosa si fa?
+    - A telefona a B..... come sopra
+    - "Ti devo passare quel file."
+    - Ok: metti giu' che lancio il minihost
+    - Si mettono giu' le cornette
+    - A ritelefona a B usando l'autodial del modem
+    - Nel frattempo,  il modem di B e' stato programmato per  rispondere 
+    al primo squillo
+    - Beep Biiiip Booooop CONNECT....
+    - Ci si scambiano i files
+    - Si termina  la  comunicazione in maniera brutale:  si  sgancia  la 
+    linea
+    -  B telefona  ad A per sapere come e' andata e se il contenuto  del 
+    file gli piace.
+         Totale, 3 scatti (come minimo).
+
+         I modem attuali, autotutto e sempre piu' senza pulsanti e  com-
+    mutatori  (chiariro'  piu' oltre l'uso di detti tastini,  quando  ci 
+    sono) non possono fare anche meglio di quelli di una volta?
+         Se sono collegati, e comandati, bene, si'!
+
+    *****   Vol.  1   *****      Pag.  7      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Parte prima - Il collegamento al telefono.
+         ------------------------------------------
+
+         Su  ogni  manualetto che accompagna i modem  e'  spiegato  come 
+    collegarli  nella  maniera migliore; purtroppo e' raro  trovarne  di 
+    installati correttamente (altrimenti, quest'articolo sarebbe  inuti-
+    le).
+
+         Su  ogni modem (almeno su quelli piu' "normali") sono  presenti 
+    due  piccole prese, marcate come "To line" e "To phone". I cavi  con 
+    gli  appositi spinotti (chiamate "spine modulari" o "connettori  RJ-
+    11") si trovano in ogni negozio di telefonia ben fornito. "To  line" 
+    va  collegato, con un cavo maschio modulare-maschio SIP, alla  presa 
+    telefonica a muro; "to phone" va al telefono, usando un cavo maschio 
+    modulare-maschio modulare se il telefono e' gia' predisposto, o  con 
+    un  maschio  modulare-femmina SIP se il cavo termina con  la  solita 
+    presa SIP a tre poli.
+
+         Parte seconda - i comandi
+          -------------------------
+
+         Quando il modem e' spento, il telefono rimane in funzione rego-
+    larmente. Quando si accende il modem, la commutazione  telefono/beep 
+    vari viene effettuata da un rele' interno al modem, che e'  control-
+    lato dai soliti comandi Hayes AT... Ora la procedura e':
+
+    - A chiama B a voce
+    - "ciao, mi mandi sul modem?"
+    - A digita ATD (enter) senza il numero: sente il click del modem che 
+    esclude il telefono e rimane in attesa della portante
+    - contemporaneamente,  B  digita  ATA (enter); anche  il  suo  modem 
+    esclude il telefono e manda la portante
+    - nessuno  mette giu' le cornette, che sono diventate  perfettamente 
+    mute; ci si scambiano i files via modem
+    - quando termina la comunicazione via modem, viene ristabilita quel-
+    la a voce: si sente un click e poi di nuovo la voce nelle  cornette. 
+    Bello, no? Cio' puo' essere utile anche per quei BBS (al momento  ne 
+    conosco  solo  uno, il mio) che condividono, di  giorno,  la  stessa 
+    linea per voce e dati: se il sysop povero (nel senso che non si puo' 
+    permettere  uno  switch tipo autofax) alza la cornetta di  giorno  e 
+    sente  che dall'altra parte c'e' un modem, egli preme un pulsante  e 
+    viene  stabilita  la  comunicazione  con il  BBS.  Se  pero'  volete 
+    chiamarlo  a  voce,  e  farvi poi passare  in  BBS,  avete  solo  da 
+    attenervi  alle  istruzioni  di cui sopra,  ricordandovi  che  dalla 
+    vostra  parte  dovete  usare la  modalita'  "Originate",  ovvero  il 
+    comando  ATD (la modalita' "Answer", corrispondente al comando  ATA, 
+    e' normalmente settata dalla parte del sysop).
+
+         Parte terza - i pulsantini.
+         ---------------------------
+
+         In  luogo dei comandi ATA/ATD, e' possibile usare, quando  pre-
+    senti, il tasto Talk/Data (o Voce/Dati) ed il commutatore Originate/ 
+
+    *****   Vol.  1   *****      Pag.  8      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    Answer.  Premere il pulsante Talk/Data mentre il commutatore  e'  su 
+    Originate equivale a dare ATD; premerlo mentre il commutatore e'  su 
+    Answer equivale a dare il comando ATA. Perche' due modem si  connet-
+    tano, uno dev'essere in Answer (risposta), mentre l'altro dev'essere 
+    in Originate (chiamata).
+
+         E  cosi'  concludo anche il mio primo  articolo  essenzialmente 
+    pratico.  Fatemi  sapere se vi e' interessato o se  preferivate  gli 
+    articoli teorici.
+
+          @   @                                  Roberto Piola
+                 Ciao                        2:334/15.1@fidonet.org   
+          \___/
+
+
+                                                      ---> TECNICA AMIGA 
+                                                           =============
+
+         La REQ.LIBRARY da Basic
+         -----------------------
+
+         Eccoci alla prima felice puntata sulla programmazione dell'Ami-
+    ga  con una perla estremamente originale ed interessante.  Cio'  che 
+    vedrete (per quanto ne so) non e' apparso fin'ora su nessuna rivista 
+    al mondo: l'utilizzo delle routine contenute nella REQ.LIBRARY  tra-
+    mite l'HI-SOFT BASIC (recensito precedentemente su Telematicus).
+         Forse non tutti sanno che la REQ non solo rende disponibile  lo 
+    splendido FileRequest, ma mette a disposizione una serie di  request 
+    di stringhe e numeri, di routine per creare gadget con facilita'  e, 
+    last but not the least, rende disponibile quel meraviglioso,  fluido 
+    scrolling del CED.
+         Ed ora le note tecniche. 
+         Come ormai sapranno anche le pietre tutto il Sistema  Operativo 
+    dell'Amiga e' organizzato in strutture, da cui la grande fortuna dei 
+    compilatori  C.  Tuttavia con un piccolo sforzo si  possono  emulare 
+    anche da Basic tali strutture, solitamente dimensionando un array di 
+    LONG per non avere problemi d'indirizzamento e, considerandolo  sem-
+    plicemente come un'area di memoria allocata, scrivendoci la struttu-
+    ra  richiesta. La funzione verra' poi chiamata con un puntatore  al-
+    l'array. E' l'esempio tipico che vedrete.
+         Un'ultima  cosa:  ricordatevi che per l'HI-SOFT  Basic  (quello 
+    fornito  da Mamma Commodore non l'ho mai usato in vita  mia)  dovete 
+    creare  la rispettiva REQ.BMAP della REQ.LIBRARY tramite la  REQ.FD, 
+    cosa che e' perfettamente spiegata sul manuale... 8-)
+         Naturalmente su Charlie's Puppies potete trovare tutto cio' che 
+    vi necessita sulla REQ (docs, 2.0 library, e .FD).
+
+    *****   Vol.  1   *****      Pag.  9      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         ***[ CUT HERE ]******[ CUT HERE ]******[ CUT HERE ]***
+
+         'V 1.0 18/4/91 By RRE,a memeber of TTH
+         'Compilabile per certo con l'HI-SOFT-BASIC 1.4 o maggiore
+         'Apre il FileRequest della req.library
+         'grazie a Commodore Gazette ed ai suoi interessanti articoli.
+
+     REM $OPTION Y+          'Non apre la Window
+     REM $OPTION W+          'Altrimenti mi segnala l'exec
+     DEFINT a-z
+
+     LIBRARY "libs:req.library","libs:exec.library"
+     DECLARE FUNCTION FileRequester& LIBRARY
+     DECLARE FUNCTION FindTask& LIBRARY
+
+     DIM SHARED FR&(100)          'struct FileRequest
+
+     SCREEN 1,640,256,2,2
+     WINDOW 1,"",(0,11)-(640,245),16+256,1
+     WINDOW OUTPUT 1
+
+     PALETTE 0, 0, 0, 0
+     PALETTE 1,.66,.6,.66
+     PALETTE 2,.46,.46,.53
+     PALETTE 3,.33,.26,.66
+
+         ' Con questa sub tutte le chiamate dal sistema 
+         ' passano sul tuo schermo
+    SetSysReq WINDOW(7)
+
+    FUNCTION ReqFile%(Title$,Dir$,File$,Path$)
+    '******************************************************************'
+    ' IN :
+    ' MAX
+    '     Title$ = Nome da dare al req
+    ' 130  Dir$   = Nome della dir su cui deve aprire ("" = SYS)
+    '  30  File$  = File che deve apparire
+    '(160) Path$  = Non serve
+    '
+    ' OUT:
+    '     Dir$,File$
+    '     Path$  = Dir$ + File$
+    '
+    ' Ritorna 1 qualora sia scelto qualcosa, le $ di chiamata hanno
+    ' dir,nome o path del file richiesto. 
+    '******************************************************************'
+    LOCAL X,Punt,F$,F1$,BFR&,SCEGLI&
+
+     BFR& = VARPTR(FR&(0))
+     ' ** STRUCT DEL FREQ **
+     POKEL BFR&+2,SADD(Title$+CHR$(0))
+     POKEL BFR&+6,SADD(Dir$+CHR$(0)+SPACE$(131-LEN(Dir$)))
+     POKEL BFR&+10,SADD(File$+CHR$(0)+SPACE$(31-LEN(File$)))
+     POKEL BFR&+14,SADD(CHR$(0)+SPACE$(162))
+    '     POKEL BFR&+18 'Punta alla Window, gia' a posto col SetSysReq
+    ' Questi NON sono i valori di default (non li so!)
+    '     POKEW BFR&+22,0      'Quanti ne selezioni,e' un casino
+    '     POKEW BFR&+24,20     'Quante linee
+    '     POKEW BFR&+26,10     'Quante colonne
+    '     POKEW BFR&+28,5      'Quante linee in devices
+    '     POKEL BFR&+30,0      'umm FLAGS; Es. per il FONT : &b1000
+    ' Con i flags si possono fare un bel po' di casini, vedere DOCS.REQ
+    ' Questi seguono i colori di default del CED. NB -=> 0 = 32 !!
+     POKEW BFR&+34,2       'DirName color
+     POKEW BFR&+36,1       'FileName color
+     POKEW BFR&+38,2       'DeviceName color
+    '     POKEW BFR&+40,1      'FontName color 
+    '     POKEW BFR&+42,3      'FontSize color
+    '     POKEW BFR&+44,32     'DetailColor, posto a 0 (es.)
+    '     POKEW BFR&+46,32     'BlockColor
+
+    ' ecc., alcuni elementi finali non sono specificati !
+
+     SCEGLI& = FileRequester&(VARPTR(FR&(0)))
+
+     IF SCEGLI& = 1 THEN
+          FOR Punt = 6 TO 14 STEP 4         'Chiappo i 3 nomi
+               X = 0 : F1$ = "" : F$= ""
+               DO
+                    F1$ = F1$ + F$
+                    F$ = CHR$(PEEKB(PEEKL(BFR&+Punt)+X))
+                    X = X + 1
+               LOOP UNTIL ASC(F$)=0
+               'Li metto nelle rispettive $
+               SELECT CASE Punt
+                    CASE 6: Dir$ = F1$
+                    CASE 10 : File$ = F1$
+                    CASE 14 : Path$ = F1$
+               END SELECT
+          NEXT Punt
+          ReqFile% = 1
+     ELSE
+          ReqFile% = 0
+     END IF
+    END FUNCTION
+
+    SUB SetSysReq(VAL w&)
+    '******************************************************************'
+    ' Presa di peso da un esempio nell'HI-SOFT BASIC
+    ' pass this either WINDOW(7) to use the current window,
+    ' or 0=Workbench screen, or -1=don't put them anywhere
+    '******************************************************************'
+    LOCAL me&
+     me&=FindTask&(0) : POKEL me&+184,w&
+    END SUB
+
+    MAIN:
+    '******************************************************************'
+    ' Apre sempre il FileReq fintanto che non scegliete un file
+    '******************************************************************'
+     DO
+          Files$ = "Pippo"
+          'Apre sulla SYS, essendo la Dir$ nulla
+          Worked = ReqFile("HELLO WORD","DF0:",File$,Path$)
+     LOOP UNTIL Worked <> 0
+     ? "Hai scelto : ",Path$ : INPUT "(RETURN)",A$
+
+     SetSysReq 0     'Le chiamate passano al Wb
+     WINDOW CLOSE 1
+     SCREEN CLOSE 1
+     LIBRARY CLOSE
+    END
+          
+    ***[ CUT HERE ]******[ CUT HERE ]******[ CUT HERE ]***
+
+    Arrivederci alla prossima con i request della REQ.LIBRARY !
+
+                                                A memeber of TTH
+                                                2:334/100.9
+ 
+         
+                                   --->  A.I.R.: DI CHE COSA SI TRATTA ?
+                                         ===============================
+
+         A.I.R. e' l'acronimo di Associazione Italiana Radioascolto. Con 
+    questo termine si intende l'attivita' di ricezione delle stazioni di 
+    tipo commerciale che trasmettono da ogni parte del mondo.
+         Questa  associazione  si  compone di circa 700  soci  di  varia 
+    estrazione, si passa dal semplice appassionato di stazioni facilmen-
+    te ricevibili (Radio Mosca o la BBC, tanto per intenderci) al  super 
+    professionista  che ricerca, alle ore piu' impossibili, le  stazioni 
+    locali  che trasmettono dall'America Latina. Non manca  inoltre  chi 
+    utilizza  il computer per decodificare i segnali di  tipo  Meteosat, 
+    FAX, etc....
+         L'A.I.R. possiede inoltre una rivista, Radiorama, edita con una 
+    tiratura mensile di 2000 copie in circolazione presso soci, abbonati 
+    ed un numero imprecisato di appassionati, sulla quale vengono ripor-
+    tate  le notizie che riguardano le varie emittenti mondiali,  oppure 
+    articoli  di tipo tecnico, prove di apparati, antenne, piccoli  pro-
+    gettini, tutto quanto insomma interessa i soci appassionati di  que-
+    sto hobby.
+
+         Dal mese di Gennaio l'A.I.R. dispone, grazie all'interessamento 
+    di  Franco Carcillo, di un suo spazio su Fido-To, suddiviso  in  tre 
+    aree:
+         -  un'area in sola lettura in cui risiedono, costantemente  ag-
+    giornati, orari e frequenze di alcune stazioni (TUTTI i mesi  potete 
+    trovare quelli relativi alle varie emittenti mondiali  che  trasmet-
+    tono in italiano)
+         -  un'area  messaggi  in cui tutti possono  scrivere,  sia  per  
+    chiedere informazioni che per fornirne. - un'area files in cui  ven-
+    gono  depositati sia messaggi di  particolare lunghezza, per  agevo-
+    lare il download, sia piccoli  progetti o corsi. A breve sara'  pre-
+    sente un breve corso di introduzione al radioascolto.
+
+         Al  momento di scrivere questo articolo sono inoltre  lieto  di 
+    comunicarvi  che  queste aree troveranno collocazione  anche  presso 
+    altri BBS torinesi.
+
+    *****   Vol.  1   *****      Pag. 12      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Che  cosa occorre per svolgere quest'attivita'? Diciamo  subito 
+    che,  come tutti gli hobby, non c'e' quasi limite alla  spesa  verso 
+    l'alto,  ma  non e' detto che sia necessario spendere  dei  milioni.  
+    Per farvi un esempio io dispongo di un ricevitore SONY ICF-7601L che 
+    ho  pagato  la fantastica cifra di 200.000 lire e con  il  quale  ho 
+    ascoltato R. Cairo, R. Baghdad e R. Giappone. Esistono molti ricevi-
+    tori  portatili con i quali si puo' cominciare senza spendere  delle 
+    enormita',  il  mio portatile infatti non e' il piu'  piccolo  della 
+    gamma....
+         Ma si puo' iniziare anche con il ricevitore di casa, basta  che 
+    disponga  almeno di una gamma di Onde Corte (o SW), con la quale  si 
+    possono sicuramente ricevere le stazioni europee che irradiano anche 
+    in lingua italiana, e quindi stabilire se tale hobby interessa oppu-
+    re no, alcune trasmissioni in italiano avvengono infatti durante ore 
+    accettabili  da tutti. Naturalmente se il vostro ricevitore non  di-
+    spone di un'antenna a stilo incorporata e' necessario  provvedere... 
+    con uno spezzone (4-5 mt) di filo elettrico unipolare che trovate da 
+    qualsiasi elettricista.
+         Cos'altro dire? Che si tratta di un hobby sicuramente  interes-
+    sante, ed anche di un fatto culturale, poter sentire notizie riguar-
+    danti la vita di Paesi a noi quasi completamente sconosciuti, oppure 
+    approfondire la conoscenza delle lingue, credo siano fattori da  non 
+    sottovalutare oggigiorno.
+         Vorrei  invitarvi a "fare un giro" nelle nostre aree  messaggi, 
+    per esprimere anche solo un parere sulla loro composizione o,  chis-
+    sa', per conoscere un mondo nuovo sicuramente alla portata di tutti. 
+    Se  conoscete qualche amico che coltiva questo hobby  parlategli  di 
+    noi,  e ricordate che, se volete conoscerci meglio, potete sia  con-
+    tattarci tramite BBS sia richiedendo una copia omaggio della  nostra 
+    rivista presso la segreteria A.I.R., casella postale 63, 35020 Ponte 
+    San Nicolo' (PD).
+
+         Ah! non dimenticate che a Torino funziona anche la sede  locale 
+    con riunioni mensili su vari temi, che variano dalla descrizione  di 
+    apparati  ed accessori all'incontro con rappresentanti di  emittenti 
+    radiofoniche, etc. etc.
+         Spero  di aver stuzzicato la vostra curiosita' e vi do'  appun-
+    tamento all'area A.I.R.
+
+                                      Lorenzo Travaglio
+
+
+                                                   --->   IL PROGRAMMINO
+                                                          ==============
+
+         Il  programmino  di questo numero ci giunge  da  Duncan  Wilcox 
+    (2:332/108.6), che dice: 
+         Salve!,
+         ho  pensato di postare questo piccolo  programmetto  (prelevato 
+    tempo  fa  in C_ECHO e aggiustato un po') che mostra  come  fare  un 
+    programma che salva la configurazione nel .EXE del programma stesso, 
+    il tutto alla faccia della portabilita'! 
+
+    *****   Vol.  1   *****      Pag. 13      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Il  .EXE ottenuto avra' inoltre il magnifico pregio (?) di  non 
+    poter essere compresso con i vari PKLITE, LZEXE e DIET. Non e'  con-
+    sigliabile  fare questo giochetto se il .EXE ha overlay  (anche  con 
+    VROOMM, VCM, RTLINK+, ecc.).
+         Se,  nonostante tutto, dovesse venirvi in mente di fare un  ac-
+    crocchio del genere, ecco come:
+
+------<config.c>-------
+#include <dos.h>
+#include <stdio.h>
+
+#ifdef __ZTC__
+#define getw(f) (fgetc((f))|fgetc((f))<<8)
+#endif
+
+typedef struct
+{
+    char text[20];
+} config;
+
+config defaultconfig =
+{
+    "Default config"
+};
+
+long fileoffset(FILE *file)  /* get configuration offset in file */
+{
+    long  address;
+
+    address = (FP_SEG(&defaultconfig) << 4) + FP_OFF(&defaultconfig);
+    address -= _psp << 4;         /* offset in PSP */
+    address -= 0x100;             /* offset from code */
+    fseek(file, 8L, SEEK_SET);    /* header size in paragraphs */
+    address += getw(file) << 4;   /* offset in file */
+
+    return address;
+}
+
+int main(int argc, char *argv[])
+{
+    FILE *file;
+    char        text[25];
+    long        offset;
+
+    file = fopen(argv[0], "rb+");   /* <== Dos 3.0+ */
+    offset = fileoffset(file);
+    fseek(file, offset, SEEK_SET);
+    fread(text, 20, 1, file);
+    text[20] = 0;
+    printf("Config found: '%s'\n", text);
+    fseek(file, offset, SEEK_SET);
+    printf("New config: ");
+    fgets(text,20,stdin);
+    text[strlen(text)-1]='\0';
+    fwrite(text, 20, 1, file);
+    fseek(file, offset, SEEK_SET);
+    fread(text, 20, 1, file);
+    text[20] = 0;
+    printf("\nConfig now:   '%s'\n", text);
+    fclose(file);
+
+    return 0;
+}
+------------------------------------------
+         da notare che dal dos 3.0 in poi argv[0] contiene la  pathname 
+    del  programma, mentre con un dos precedente al 3.0 nella  fopen  al 
+    posto di argv[0] ce la dovete mettere a mano.
+         Ciao, Duncan.
+         P.S. Ah, dimenticavo, #include "/std/disclaimer" (e' cosi'  che 
+    si fa? :-))
+
+                                               ---> TELEMATICA APERTA(?)
+                                                    ====================
+
+         Ecco  il  resoconto, a cura di Stefano `Shiva'  Costa  e  Paolo 
+    `Barbapapa''  Sinigaglia, del FantaMeeting, espressione  un  pochino 
+    strana ma non per questo meno reale della Fidonet...
+
+    ----------------
+         Yeah! Si e' concluso il FANTAMEETING che si e' svolto  in  quel
+    di Padova da Sabato 30/3 a Lunedi' 1/4....
+         Come da aspettative i partecipanti si sono presentati in  quan-
+    tita' industriali... eccone la lista in ordine rigorosamente sparso:
+
+    Evaristo Finozzi \
+    Miriam   Sardei   |  Organizzatori indiscussi e magnificentissimi
+    Manuela Marchesi /
+    Andrea (nipote di Evaristo)
+    Luca Leone
+    Maurizio .mau. Codogno
+    Fabio Muzzi (il muzzo)
+    Massimiliano Masserelli (aka Max Negro)
+    Franz Antolini
+    Paolo Sinigaglia (aka Sini, aka Barbapapa')
+    Fabrizio Sainati
+    Marco Stupido Bini
+    Duncan Wilcox
+    Andrea *jad* Giotti
+    Giampaolo Muraro
+    Massimo Pellini [TPONR]
+    Marco Fachini
+    Marco Bascetto
+    Mauro Ceolato
+    Stefano Costa (aka Shiva) (C) Volvox
+    Feliciana
+    Nicola Baldini
+    Alfredo Persivale
+    & Gentilissima Signora
+    + Lilli
+    Alessandro Casadei
+    Gianna Pinato
+
+    *****   Vol.  1   *****      Pag. 15      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    Stefano Crivellaro
+    Massimo Marchesi
+    Claudia "Greeneyes" Lazzaretto
+    Pasqualino Pezzella
+    Nadia Zerbato
+    Michela Bertoldo
+    Marco Mariani (C) Volvox
+    Ivo Elmi
+    Lanfranco Albani
+    & Signora
+    Roberto Piola
+    Ghost Writer (C) Stefano Pasquini
+    Franco Carbucicchio
+    Gli Zigoti (C) *ini
+
+          Per un totale di 42 partecipanti !
+
+                       CRONACA DI UN FANTAMEETING
+
+         Per chi fosse partito prima della fine, arrivato dopo  l'inizio 
+    o addormentato durante l'intervallo ecco la cronaca del Meeting:
+
+                             Sabato 30/3
+
+         I  primi a giungere sul luogo del delitto sono stati il  sotto-
+    scritto  [NdS: il Costa] ed il suo autista personale (il  buon  Luca 
+    Leone,  sfruttatissimo autista per tutta la durata del Meeting,  at-
+    tualmente in viaggio sulla Padova-Sydney in preda a crisi maniacode-
+    pressive).
+         Assieme  al  solerte gruppo organizzativo si  e'  cominciato  a 
+    preparare  la  casa alla calata degli Unni  organizzando  trincee  e 
+    sbarramenti  con  mine antiuomo (inutili contro il Sini);  tutta  la 
+    mattinata  e' stata dedicata a preparare la vivanderia ed a  montare 
+    l'impianto  elettrico  (cineproiettore,  mixer,   videoregistratore, 
+    piastra, impianto voce/luci  ecc. ecc.).
+         La fatica mattutina e' stata intramezzata dal buon Bini che  ci 
+    ha  deliziato  con alcune sue foto molto  rappresentative  (a  parte 
+    alcuni  problemi  nel distinguere le braccia tra le  lamiere   dalle 
+    gambe carbonizzate) e da Evaristo, che e' riuscito a farci  spostare 
+    lo  schermo del proiettore un buon centinaio di volte per  tutta  la 
+    casa.
+         A partire dal primo pomeriggio le orde barbariche hanno  comin-
+    ciato  la loro discesa e, siccome non si riusciva a respingerle,  le 
+    si e' sfamate cum magna abbundantia di cibi sopraffini.
+         Aspettando  ulteriori arrivi si sono organizzati giochi  di  s-
+    ocieta' quali la caccia al Costa (con uso di armi assortite e fionde 
+    caricate a panini col salame), si e' inoltre approfittato dell'occa-
+    sione per conoscerci meglio. Per tutto il pomeriggio musica e  video 
+    assortiti compreso quello del magnifico strip di Fabrizio, uno spet-
+    tacolo degno del Rocky Horror Picture Show.
+         In  serata Pizzata in compagnia, interessantissimo il fatto  di 
+    come tutti quanti seguissero tutti gli altri, convinti che conosces-
+    sero la strada per il il ristorante.
+
+    *****   Vol.  1   *****      Pag. 16      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         Durante  la pizzata si e' ulteriormente disquisito del  piu'  e 
+    del  meno e ci si e' quindi recati al pattinaggio su  ghiaccio  ove, 
+    piu' che altro si e' assistito alle esibizioni dei pochi virtuosi di 
+    tale  sport  (piccola nota va sempre al povero sottoscritto  che  e' 
+    riuscito a farsi fermare dai Carabinieri mentre vagava in zona).
+         [NdS:  il sottoscritto di cui sopra e` sempre il Costa. Gli  e` 
+    andata bene che il Franz gli aveva impedito di girare armato per  le 
+    strade di PD (che non vuol dire... forse lo sapete gia`)]
+         La  serata  si e' quindi animata con balli e  musica  a  volume 
+    impressionate, Miriam ha coinvolto alcuni disperatissimi in balli di 
+    chiara  matrice  sado-aerobica causando un numero  significativo  di 
+    eunuchi nonche' lacerazioni a muscoli e tessuti di ogni tipo.
+         Dopo  aver combattuto e sconfitto vittoriosamente ragni  grossi 
+    come  vitelli la maggior parte dei partecipanti si e'  recata  nelle 
+    tane mentre alcuni disperatissimi hanno resistito impavidi e  vitto-
+    riosi  guardando film assortiti fino alla mattina sucessiva; a  tale 
+    proposito  va segnalato Ivo che, totalmente privo di  sonno,  quando 
+    tutti  crollavano boccheggianti, si e' alzato in  piedi  dichiarando 
+    che era stanco di stare seduto.
+
+                             Domenica 31/3
+
+         Mattinata  passata in maniera random, gozzovigliando come  por-
+    chetti,  [NdS (al Costa): porchetto sarai tu! Noi siamo  dei  porci, 
+    fatti  e  finiti!] dormendo fino ad ore pazzesche o vagando  con  un 
+    sorriso  idiota per tutta la casa. (va segnalato il Sini che  pareva 
+    morto poiche' NULLA ha potuto svegliarlo.)
+         Si e' presentata la necessita' di fissare degli Slot per l'uti-
+    lizzo  dell'unico bagno che si e' dimostrato essere  l'oggetto  piu' 
+    ambito di tutto il Meeting (sono stati fatti dei tentativi di  mono-
+    polizzazione  di quest'ultimo ma alcuni hanno proclamato  il  Soviet 
+    Libero del Cesso (o Soviet del Cesso Libero) socializzando il  bagno 
+    in barba al padrone oppressore).
+         A pranzo si sono verificati sporadici tentativi di  discussioni 
+    computerofile  che  sono state intecettate ed abattute  dai  Patriot 
+    della Padrona di Casa nonche' nostro eccellentissimo ospite Manuela; 
+    Manuela  e' stata allora resa inofensiva da un gruppo di  guastatori 
+    Diud'niiti  che le ha fatto notare , con molto amore e sadismo,  che 
+    dire  "NON si puo' parlare di computer" e' esso stesso un  modo  per 
+    parlare di computer a meno che il metadiscorrere [omissis]....
+         Durante il pomeriggio va segnalata la gara di fionda consisten-
+    te nel colpire preferenzialmente un bicchiere posto ad una decina di 
+    metri di distanza. Secondi a pari merito si sono piazzati il  sotto-
+    scritto [NdS: sempre  il Costa] Luigi e Franz con un centro ciascuno
+    mentre primo indiscusso si e' dimostrato il buon Paolo [NdS:BUON???]
+    che,  pur  avendo mancato il bicchiere, ha centrato in un trionfo di
+    danni una Citroen  (che vale di  piu' [NdS: 247.000 lire di lunotto,
+    quello che si dice un colpo fortunato...]).
+         Iniziative  assortite per tutto il pomeriggio fino a  sera.  In 
+    serata  si  e' andati a prendere il Giotti con i  suoi  luogotenenti 
+    livornesi  alla stazione, nessun problema per il  riconoscimento  di 
+    costoro  siccome SOLO Andrea poteva indossare con un maglione  isto-
+    riato ad equazioni di Maxwell!
+
+    *****   Vol.  1   *****      Pag. 17      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         In  serata  Dandy for Dandy, Jam Session  dei  fortitiu',  piu' 
+    musicofaga che musicofila curata da Lanfranco Albani e Massimo  Pel-
+    lini  alla Tastiera (della serie: in due si fa piu'  danno)  Stefano 
+    Costa  al Basso, Max Negro alla Chitarra e, Joe Cocker  dei  (molto) 
+    poveri, Maurizio Codogno alla Voce. Qui, in un tripudio di danni, e' 
+    stata  prodotta  la prima videocassetta da  guerra,  consigliata  ai 
+    concerti come arma antisommossa. E' quindi partito il Pigiama  Party 
+    con sommo gozzoviglio e beveraggi dai colori sospetti e dagli ingre-
+    dienti letali.
+         Quando  ormai  i piu' cominciavano a cedere al sonno ci  si  e' 
+    riuniti intorno al fuoco discutendo, ormai marci fino al midollo, di 
+    tutto e di piu'. Durante la nottata e' stato violentemente minaccia-
+    to  Marco  Mariani che ha passato ORE e ORE a  Trifolarci  le  Palle 
+    manomettendo  in  continuazione il caminetto, dunque  anche  i  piu' 
+    forti hanno cominciato a soccombere. Va notato come Barbapapa'  piu' 
+    che  addormentato, si trovasse in una sorta di limbo catatonico  non 
+    per  niente ogni tanto saltava fuori con frasi del tipo :  "non  sto 
+    dormendo!!" o "come avete fatto ad entrare?
+
+                              Lunedi' 1/4
+
+         Crisi  mistiche,  TOTALE anarchia e completo  menefrghismo  nel 
+    rispetto  degli slot prefissati per il Cesso. Si e' assistito a  mi-
+    stiche visioni, scene di panico, crolli di sequoie migratrici, ci si 
+    e' nutriti coi cadaveri di coloro che non erano sopravissuti e  sono 
+    stati  curati i feriti. Mandrie di persone hanno vagato per la  casa 
+    tutta  la  mattinata (sono stati segnalati anche Tom Cruise  e  Fred 
+    Astaire oltre che la Vispa Teresa e Mazinga Z).
+         Ed ecco la situzione indicativa, DOPO il party:
+
+                                       Autostrada
+                                             \  5
+                        |v T|                 \    \    |  |
+      Noi siamo         |i E|                  \    \   |  |
+        QUI             |a R|                   \    \  |  |
+         |              |  G|                    \ v  \ |  |
+         |              |  O|                     \ i  \|  |
+         |              |  L|                      \ a     |
+       __|___           |  A|_______________________\      |
+     5|      |          |          via Pirano          P   |
+     _| BASE |5_________|    ___1________    1_______  O  \
+    4  3     via Retrone 1 v|            |  |        |     \
+     __________2________   i|            |  |        |      \
+                        |  a|            |  |        |       \
+                        |   |            |  |        |        \
+                        |  M|            |  |        |   |\    \
+                        |  O|                        |   | \ 1  \
+                        |  N|                        |   |  \    \
+                        |  T|                        |   |   \    \
+                        |  I|                        |   |    \    \
+                        |  C|                                  \
+                        |  A|                                   \
+                        |  N|                                  Padova
+                        |  O|                                  Centro 5
+
+    *****   Vol.  1   *****      Pag. 18      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    1)  75% delle ruote dell'auto di Luca spalmate sull'asfalto.
+    2)  Cadaveri  di  2 Testimoni di Geova, inseguiti  e  giustiziati  a 
+        fiondate.
+    3)  Citroen lapidata.
+    4)  Casa dei vicini piu' volte bombardata nottetempo.
+    5)  Danni Assortiti.
+
+         A  parte questo non si puo' dire che Padova sia stata  messa  a 
+    ferro e fuoco come inizialmente si voleva fare per movimentare ulte-
+    riormente la festa !
+         Seguono una serie di comunicazioni di servizio:
+
+         1)  Chi  trovasse NON trovasse il proprio nome nella  lista  mi 
+    scusi  ma ho scritto tutti quelli che mi sono venuti in mente e  che 
+    sono riuscito a "rintracciare".
+         2) Chi avesse trovato una schedina ROM per DX 7 Yamaha contatti 
+    il proprietario Maurizio Codogno.
+         3) Si provveda a contattare Ivo Elmi per restituirgli il porta-
+    foglio.
+         4) Grazie all'organizzazione e .... alla prossima.
+         Ciao,
+         __
+         \
+         _tefano (aka Shiva)
+
+         &
+         ________________ P.S.
+
+                                                          ---> VIVAMIGA
+                                                               ========
+         Empire
+         ------
+
+         Signore  e signori: eccoci, come anticipatamente  promesso  nel 
+    precedente  articolo, alla descrizione del primo  gioco  multiutente 
+    telematico per Amiga: Empire. La versione in mio possesso e' la 2.1w 
+    recuperata nel Fish 357#; assieme ho anche testato Empfe 2.0.2V,  un 
+    front Empire. Ma procediamo con ordine.
+         Certo  tutti conoscerete SimCity dove emulate un  Sindaco  alle 
+    prese  con  i problemi di una citta';  inizialmente  piccola  dovete 
+    portarla al piu' alto grado di popolazione tenendo conto di un sacco 
+    di fattori come criminalita', reti idriche/elettriche civili,  assi-
+    stenze  sociali come ospedali, polizia, stadi,  strade,  ferrovie... 
+    tasse  e  le immancabili industrie. Bene, Empire e' la  stessa  cosa 
+    soltanto  estesa  ad uno stato: voi ne siete il  capo  indiscusso  e 
+    dovete renderlo un impero. Ma il bello arriva ora perche' non  siete 
+    solo  al mondo, ci sono altri stati e questi non sono  governati  da 
+    diabolici algoritmi, ma da altri stupidi utenti come voi. Empire  e' 
+    insomma  solo un 'database' che memorizza la situazione di  tutti  i 
+    partecipanti, pone delle regole da rispettare e tiene la  situazione 
+    sotto controllo. Un po' come il supervisore (o come cavolo si  chia-
+    ma) nei giochi D&D. [Si dice il Dungeon Master... .mau.]
+         Detta cosi' la cosa sembra entusiasmante (ed infatti lo e')  ma 
+    entriamo  piu' nel dettaglio. In Empire si comincia rompendo il  gu-
+
+    *****   Vol.  1   *****      Pag. 19      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    scio  di  un santuario (nasce prima l'uovo della  gallina!)  che  si 
+    trasforma  automaticamente nella nostra capitale con 100%  di  effi-
+    cienza, 100 civili e 100 militari. Conosciamo inoltre tutti i  'qua-
+    dretti'  che  circondano la nostra capitale. La mappa e'  infatti  a 
+    schacchiera e possedendo una casella si puo' conoscere cosa contiene 
+    la casella limitrofa.
+         A questo punto si aprono infinite possibilita'; scopo del gioco 
+    e' creare una propria flotta navale (barche, sottomarini) ed  aerea, 
+    dei porti, areoporti, una rete stradale decente, miniere (di ferro o 
+    d'oro),  industrie  e banche che trasformino e facciano  fruttare  i 
+    prodotti  ricavati,  fortificazioni per  difenderci  dagli  attacchi 
+    navali o aerei...
+         Come  se  non bastasse dobbiamo creare centri  di  ricerca  per 
+    aumentare  il nostro livello tecnologico, centri medici per  trovare 
+    rimedi efficaci alle pestilenze, centri metereologici per  prevenire 
+    le ondate distruttive delle intemperie (un mondo che si rispetti  ha 
+    la propria metereologia)... Dobbiamo allacciare scambi con gli stati 
+    vicini, allearci, combattere etc.
+         Insomma si puo' proprio fare di tutto, ma veramente di tutto, e 
+    non  entro in dettaglio per evitare noiose lungaggini.  Allora  per-
+    che', come il lettore pronto subito si sara' avveduto, non e' segna-
+    lata  da nessuna parte la nascita un po' ovunque di BBS che  abbiano 
+    in linea un gioco cosi' entusiasmante e vario ?
+         Le risposte sono purtroppo molteplici: a mio modesto parere  il 
+    programma, benche' giunto ormai alla 2.1w e' ancora pieno di piccoli 
+    fastidiosi bug. Il fatto che non sia assolutamente possibile giocar-
+    ci se non dopo un mesetto di attenti studi sul manuale  (intendiamo-
+    ci,  una  volta scoperti i meccanismi questi si  rivelano  piuttosto 
+    semplici) peggiora ulteriormente la situazione; oltretutto il manua-
+    le, benche' voluminoso, e' assolutamente caotico (sempre a mio mode-
+    sto parere).
+         Inoltre solo ora, con l'interfaccia EmpFe (dotata oltretutto di 
+    una  porta AREXX utilissima per gestire in automatico  certi  noiosi 
+    aspetti) si comincia a vedere la montagna nella mappa, mentre  prima 
+    se ci si collegava con la BBS si vedeva solo il simbolo '^' e  biso-
+    gnava avere non solo molta immaginazione ma anche parecchia memoria. 
+    [Ragazzo, quanti mega di roba vuoi spedirti via telefono? .mau.]
+         CONCLUSIONI: il mio ardore iniziale, mi duole ammetterlo, si e' 
+    purtroppo decisamente smorzato dopo un mesetto di esame. Le premesse 
+    sono favolose, purtroppo il programma non riuscirebbe mai a coinvol-
+    gere  un pubblico di sbandati Amighisti sempre a caccia di  emozioni 
+    forti. Cerchero' comunque di non perderlo di vista, chissa' che  non 
+    possa nascere qualcosa di abbordabile con la 3.0...
+
+         [nota: Empire esiste anche per MSDOS... quando rintraccero`  il 
+    dischetto vi sapro' dire! .mau.]
+
+         Nel prossimo numero... sorpresa (ovvero leggi: non lo so).
+
+                                                RRE
+                                                2:334/100.9
+
+    *****   Vol.  1   *****      Pag. 20      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                        ---> CURIOSITA'
+                                                             ==========
+
+         Il gergo Hacker - parte 3
+         -------------------------
+
+         <baroque> [barocco]: agg. Pieno di features; complesso; sfarzo-
+    so;  tendente all'eccessivo. Detto di un disegno hardware o  (spec.) 
+    software, ha molte delle connotazioni di <elephantine> o <monstrosi-
+    ty>  ma  e' meno estremo e non  necessariamente  peggiorativo.  Vedi 
+    anche <rococo>.
+
+         <batch>: agg. Non-interattivo. Gli hackers usano questo termine 
+    in maniera piu' ampia che i tecnici: ad esempio delle opzioni in  un 
+    programma interattivo che lo preparano a ricevere comandi non  inte-
+    rattivi  sono spesso dette opzioni `batch mode'. Un `batch file'  e' 
+    una serie di istruzioni scritte per essere usate da un programma che 
+    gira in `batch mode'.
+
+         <bathtub  curve>: s. Termine comune per la  curva  (somigliante 
+    alla sezione longitudinale di una di quelle vasche da bagno antiche) 
+    che descrive il tasso di errore aspettato di un componente  elettro-
+    nico  col  tempo: all'inizio alto, cala praticamente a zero  per  la 
+    maggior  parte della vita, poi cresce di nuovo quando  `si  stanca'. 
+    Vedi anche <burn-in period>, <infant mortality>.
+
+         <baud>:  [semplificato rispetto al suo significato tecnico]  s. 
+    Bit  per  secondo. Da qui kilobaud o Kbaud. Il  termine  tecnico  e' 
+    `transizioni di livello per secondo', e coincide con bps solo per le 
+    modulazioni  piu' semplici (V.21 e V.22 ad esempio). Gli  hacker  in 
+    genere conoscono queste sottigliezze ma le ignorano allegramente.
+
+         <baud  barf>:  s. I caratteri ricevuti al  terminale  quando  i 
+    settaggi del modem non sono corretti, oppure si riceve voce, o anco-
+    ra le linee italiane regalano un po' di porcheria al povero modemma-
+    ro.  Tra l'altro, il b.b. non e' completamente casuale;  hacker  con 
+    una certa esperienza sulle seriali sanno dire se occorre aumentare o 
+    diminuire la velocita' di connessione. Gli hacker con *molta*  espe-
+    rienza possono persino stabilire la velocita' esatta.
+
+         <baz>:  [Corruzione of <bar>]  1. s. La terza  variabile  meta-
+    sintattica, dopo <foo> e <bar> e prima di <quux> (o <qux>).  "Suppo-
+    niamo di avere tre funzioni FOO, BAR e BAZ. FOO chiama BAR che a sua 
+    volta  chiama BAZ...". 2. inter. Un termine che indica  scocciatura, 
+    in  genere prolungato per due-tre secondi in modo da assomigliare  a 
+    un  belato:  /baaaaaaaz/. 3. Occasionalmente posposto  a  <foo>  per 
+    produrre <foobaz>.
+
+         <bboard>: /bi'bord/ [contrazione di `bulletin board'] n. 1.  Un 
+    qualunque bulletin board elettronico, spec. usato nel caso di  <BBS> 
+    che  girano su personal, meno frequentemente nel caso di  un  <news-
+    group>  USENET (anzi, l'uso del termine per un newsgroup  in  genere 
+
+    *****   Vol.  1   *****      Pag. 21      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    caratterizza o come un <newbie> appena arrivato dal mondo dei BBS  o 
+    come  un  pedante che sta su USENTE dai primissimi tempi).  2.  Alla 
+    Carnegie Mellon e altre grandi universita', si riferisce alle bache-
+    che elettroniche sparse nei campus. 3. Il termine `physical  bboard' 
+    [bacheca  fisica]  e' alle volte ancora usato  in  riferimento  alle 
+    bacheche di una volta [quelle dei filmetti americani, per  intender-
+    ci].  Alla CMU, in particolare, e' riferita a una all'esterno  della 
+    Lounge di Informatica.
+
+         Nei sensi 1. e 2., il termine e' di solito prefissato dal  nome 
+    del  sistema  (`la Moonlight Casino bboard' o `market  bboard');  se 
+    pero' il contesto e' chiaro, ci si puo' limitare al semplice nome.
+
+         <BBS>: [acronimo, Bulletin Board System = sistema a bacheca] s. 
+    Una bacheca elettronica; cioe' una base dati di messaggi dove ci  si 
+    puo'  collegare e lasciare messaggi pubblici per altre persone  rag-
+    gruppati (tipicamente) in aree di argomento diverso. Ci sono miglia-
+    ia  di  BBS locali in tutti gli States [e un paio  di  centinaia  in 
+    Italia...],  gestite tipicamente da amatori per divertimento  e  con 
+    una sola linea. Gli utenti appassionati di USENET, Internet, o delle 
+    grandi  bboard  commerciali come CompuServe, Genie o Bix  tendono  a 
+    considerare  i BBS locali come `i quartieri popolari' dalla  cultura 
+    hacker, ma essi rendono un grande servizio nel legare assieme utenti 
+    e hackers che altrimenti non avrebbero mai la possibilita' di  scam-
+    biarsi i rispettivi punti di vista.
+
+
+                                                ---> NOTIZIE DAL NET 334
+                                                     ===================
+
+         SDN_Italy ha riaperto i battenti al (011)-5765568.
+         Diretta  emanazione di Fido_Torino, vicino di scrivania, e'  un 
+    servizio  che offre essenzialmente il meglio dello shareware in  am-
+    biente MSDOS.
+         La rete internazionale SDN infatti rilascia nel proprio circui-
+    to programmi di ottima qualita', esenti da virus, per i piu' svaria-
+    ti  campi applicativi: game, database,  spreadsheet,  communication, 
+    business, file utility.
+         Non mancano newsletter elettroniche, molte delle quali  scritte 
+    con software ipertestuale.
+         Oltre  ai file dalla Shareware Distribution Network,  SDN_Italy 
+    presenta  anche  quelli provenienti  dalla  Programmer  Distribution 
+    Network:  qui si stratta di programmi, spesso source code, utili  ai 
+    programmatori.
+         Vi  sono, a tal proposito, sezioni dedicate ai principali  lin-
+    guaggi in uso , dal mitico C, al Pascal, passando per il Basic e per 
+    l'ostico Assembler. Non poteva mancare un'area dedicata ai  sorgenti 
+    pubblicati  dalle  riviste DrDobbs e PCMagazine, cosi'  come  quella 
+    dedicata  all'incespicante  sistema operativo OS/2 nonche'  al  piu' 
+    intellettuale UNIX. 
+         Completano  l'offerta i file della rete  WINNET,  specializzata 
+    nelle applicazioni Windows, e una parte di SDS per gli ambienti  BBS 
+    di Remote Access e SuperBBS.
+
+    *****   Vol.  1   *****      Pag. 22      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+         E'  infatti  proprio quest'ultimo il software  implementato  su 
+    SDN: si tratta di un clone di R.A. con qualche cosina in piu',  come 
+    la gestione di piu' lingue nei messaggi di sistema.
+         Ultima nota: il servizio e' aperto agli utenti dalle 8:00  alle 
+    1:45, nel restante periodo opera esclusivamente per l'inoltro  della 
+    messagistica FidoNet.
+
+         ---------------
+
+         Come  promesso  sopra, ecco la lista corrente delle  aree  echo 
+    disponibili  su 334/0 e aperte a tutti gli utenti. Ve ne sono  altre 
+    che richiedono dei privilegi maggiori... chiedete al vostro SysOp di 
+    fiducia!!!!
+ 
+              Aree a distribuzione nazionale
+    --------------------------------------------------------------------
+    Echo-Tag      Comments                                   Traffico
+    --------------------------------------------------------------------
+    AEREI.ITA     Patiti del volo                               BASSO
+    AI.ITA        Intelligenza artificiale                      BASSO
+    AMIGA.ITA     Commodore Amiga                             ELEVATO
+    AMY_DEV.ITA   Amiga Developer                               MEDIO
+    APPLE.ITA     Apple ][                                      BASSO
+    ASTRO.ITA     Astronomia                                  ELEVATO
+    ATARI.ITA     Atari ST Series                               BASSO
+    CINEMA.ITA    Cinema & spettacolo                           BASSO
+    CLANG.ITA     Linguaggio C                                  MEDIO
+    COMMS.ITA     Trasmissione Dati                           ELEVATO
+    CUCINA.ITA    L'angolo dei buongustai                       BASSO
+    DBASE.ITA     DataBase                                      MEDIO
+    DESQVIEW.ITA  DesqView e programmi collegati                  NEW
+    DEWDNEY.ITA   Giochi Matematici e altro                   ELEVATO
+    ELETTRONICA.ITA L'elettronica.                                NEW
+    FIDONET_SUBLINK.ITA Chat tra FidoNet e Sublink                NEW
+    FOTO.ITA      Fotografia                                    BASSO
+    GAMES.ITA     Computer games italiana                     ELEVATO
+    GRAFICA.ITA   Computer graphics                             MEDIO
+    HAM.ITA       Radioamatori Italiani                         BASSO
+    HANDHELD.ITA  Calcolatrici programmabili e Pocket computer    NEW
+    HUMAN.ITA     Confereza umanitaria                          BASSO
+    LIBRI.ITA     Letteratura e libri                           MEDIO
+    LUI_LEI.ITA   Chatter rosa                                  MEDIO
+    MAC.ITA       Apple MacIntosh                               BASSO
+    MATE.ITA      Matematica                                    MEDIO
+    MIDI.ITA      Smanettoni di interfacce MIDI                 BASSO
+    MOTORI.ITA    Motori                                        BASSO
+    MSD_HARD.ITA  MSDOS - hardware                                NEW
+    MSD_SYST.ITA  MSDOS - System                                  NEW
+    MSD_APPL.ITA  MSDOS - Application prg                         NEW
+    MUSICA.ITA    Musicofili, musicologi e musicanti            MEDIO
+    NEWS.ITA      Novita' SW. R/O per gli utenti                  NEW
+    OPTICAL_MEDIA.ITA Dischi ottici, WORM e CD-ROM                NEW
+    OS2.ITA       Microsoft OS/2                                  NEW
+    POINT.ITA     SOLO per point users                          MEDIO
+
+    *****   Vol.  1   *****      Pag.  23     *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    POLITICA.ITA  La politica in Italia                       ELEVATO
+    PRG.ITA       Programmatori Italiani                        MEDIO
+    RICPERS.ITA   Ricerca personale                             BASSO
+    RIDERE.ITA    Barzellette e freddure                        MEDIO
+    SALUTE.ITA    Medicina e salute                             MEDIO
+    SCIENZA.ITA   Scienze in generale                             NEW
+    SOUND_CARD.ITA Schede musicali e SW relativo                  NEW
+    SPORT         Sport in genere                               BASSO
+    TECH_NET.ITA  Discussioni tecniche FidoNet                  MEDIO
+    TURBO_P.ITA   Turbo Pascal                                  BASSO
+    UNIVERSITA.ITA Area sull'universita`                          NEW
+    UNIX.ITA      UNIX & XENIX                                  MEDIO
+    WINDOWS.ITA   MicroSoft Windows                               NEW
+    --------------------------------------------------------------------
+         Aree specifiche per il net 334
+    --------------------------------------------------------------------
+    Echo-Tag     Comments                                   Traffico
+    --------------------------------------------------------------------
+    AIR_*.334     Aree dedicate al RadioAscolto (3)               NEW
+    FILOSOFIA.334 Discussioni e filosofumene                      NEW
+    MERCATO.334   Mercatino Network 334                         MEDIO
+    TAM_TAM.334   TAM_TAM, per associati                        BASSO
+    TELETEXT.334  Teletext conference                           BASSO
+    WMAIL.334     Utenti Wmail e Wedit                          MEDIO
+
+    *****   Vol.  1   *****      Pag. 24      *****   Numero   5   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+
+                                                       ---> I NOSTRI BBS
+                                                            ============
+
+         (BBS)              (numero)    (orario)(vel.) (SysOp)
+         Fido_Torino........011-5765565....24h..2400   F.Carcillo 
+         SDN-Italy!.........011-5765568....24h..9600   F.Carcillo 
+         Charlie's_Puppies..011-3299706....24h..2400   F.Schinco
+         Magazine...........011-8180069....24h..9600   L.Ravina
+         EUreka!............011-6924400....24h..9600   P.G.Gialli
+         TorinoNet..........011-3100485/70.24h..2400   E.Arman
+         Infotel2...........011-2162212....24h..2400   G.Di Martino
+         Infotel1...........011-2238389....24h..2400   ???
+         LordDrake..........011-710408.....24h..9600   F.Croce
+         Travelmatic........011-502423.....24h..9600   M.Cristofaro
+         Sintagma...........011-596274/48..24h..2400   M.Civra
+         I.N.#2 ............011-304840.....24h..2400   M.Sinesi
+         I.N.#3 ............011-8126756....24h..2400   L.Vay
+         I.N.#4 ............011-8981304....24h..2400   S.Magni
+         I.N.#5 ............011-3174440....24h..2400   F.Bogli
+         ONline.............011-9988154....24h..2400   S.Devia'
+         EGO................0161-319585....24h..2400   G.Amosso
+         PrimulaRossa.......0131-42467..serale..2400   A.Bonzano
+         Tecnosoft..........0121-500663....24h..2400   R.Piola

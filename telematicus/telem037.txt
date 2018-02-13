@@ -1,0 +1,1650 @@
+ #### TELEM037 - Telematicus - Volume 04 - Numero 02 - Anno 1994 - 75 pag. ####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                Febbraio 1994
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematicus   e`  (C)  dei  singoli  autori.   E`
+ espressamente consentita la distribuzione e il riutilizzo  del  bollettino  in
+ tutto  o in parte, purche` non a fini di lucro e citando sempre autore e fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina  75 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale  .   .   .   .   .   .   .   .   .   .   .   (RRE)    pag.  4
+ [ 2]  Lettere aperte  .   .   .   .   .   .   .   .   .   .  (AAVV)    pag.  6
+ [ 3]  PmFerraris per OS/2 .   .   .   .   .    (Carlo Di Benedetto)    pag. 10
+ [ 4]  Gaia (FIDO si evolve)   .   .   - parte II (Marino Marinelli)    pag. 14
+ [ 5]  Bash (Linux).   .   .   .   .   - parte III .   .   . (.mau.)    pag. 29
+ [ 6]  Un'applicazione REXX su OS/2.   - parte .  VIII.(John Cuccia)    pag. 39
+ [ 7]  Curiosita`: Il gergo hacker .   - parte 31  .   .   .  (AAVV)    pag. 44
+ [ 8]  L'arte della programmazione .   - parte VI  .(Artore Londona)    pag. 55
+ [ 9]  Errata corrige (indice '93) .   .   .   .   .   (Cicci Serra)    pag. 66
+ [10]  Notizie Fidonet region 33   .   .   .   .   .   .   .  (AAVV)    pag. 67
+
+
+
+
+
+
+
+
+                  Questo Telematicus e' nato con l'aiuto di...
+
+                                          | * I collaboratori dai network: *
+ Editor  Inox       :  Maurizio Codogno   |
+ Editor  Gaiosus    :  Marino Marinelli   | Roberto Orsini   (2:332/425)
+ Editor  Rexxins    :  John Cuccia        | Stefano Maragnoni(2:332/502.13)
+ Editor  PMFerrans  :  Carlo di Benedetto | Herve Miozzo     (2:333/511.20000)
+ Editor  Oberatus&C :  Roberto Piola      | Denis Truffo     (2:334/101)
+ Editor  Inviatus   :  Artore Londona     | Angelo Verdone   (2:334/21)
+                                          |
+
+ Editor mittens : Claudio Fabbro, Alberto Galanti
+ Editor citatus : Andrea Mennini, Vertigo, Raffaello Valesio
+
+ ... e del "saccheggiato"
+ Eric S. Raymond <esr@snark.thyrsus.com>
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO)
+                           al 011-9235565
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+ Questo mese, il 20, c'e' stato il mio compleanno.  Aguri  -  grazie.   Poi  ho
+ affrontato  un *mucchio* di problemi sul lavoro piu' grossi di me.  Non che io
+ sia grosso, poi ancora i problemi...
+
+ Comunque con solo un leggero ritardo  -  hem - sono riuscito a sfornare questo
+ Telem.  Ok.  Poi ho perso alcuni file *FONDAMENTALI* che dovevano  andare  nel
+ number... (ok, ok, sono un casinista).
+
+ Poi  c'e'  stata  quest'invasione  di  cavallette (ma di cio' ne hanno parlato
+ tutti i giornali e non  mi  dilungo).   Poi  lo strasico del Leoncavallo mi ha
+ depresso.
+
+ Poi questo correttore ortografico del Piola non digerisce file piu' lunghi  di
+ 64K...
+
+ Insomma  gennaio  e'  il  mese dei saldi: non ci sono novita' e ci si lecca le
+ ferite (o si contano  i  soldi)  dell'anno  precedente.   Ho fatto entrambe le
+ cose: ne ho molte delle prime e poche delle seconde.
+
+ Tra  l'altro  questo dovrebbe essere il number finale prima di ricominciare il
+ nuovo  anno  direzionale  da  parte   mia.   Giudizi  positivi  (o  quantomeno
+ costruttivi) per il number di febbraio saranno pubblicati...
+
+ Basta. Oggi non ne ho voglia. Buona lettura.
+
+
+
+                                                                            RRE
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                               LETTERE APERTE  ###
+ ###   2  ###                                               AAVV            ###
+ ############                                                               ###
+
+ Riassunto:
+        Lo ammetto  subito,  senza  riserve:  che  il  suddetto messaggio fosse
+       indirizzato al prode .mau.  invece che alla mia modesta  persona  mi  ha
+       fatto capire quanto siano inavvicinabili certi *miti* contemporanei.
+
+        Un'ardua  lezione.   A  nulla vale il mio sforzo eroico nel presentarmi
+       puntuale ogni tanto con i miei  errori ortografici, a nulla valgono i...
+       ma non voglio compiangermi.  Resistero' fiero ed impassibile come roccia
+       a questo affronto !
+
+       P.S.  chiaramente a questo punto gli arretrati te li spedira' .mau.  :)
+
+ ------------------------------------------------------------------------------
+
+ * From : Claudio Fabbro, 2:332/107.10
+ * To   : Maurizio Codogno, 2:24100/5.0
+
+  Innanzitutti  complimenti  per  la  rivista.   Dopo  la  caduta   di   alcune
+ inizialmente  ritenute  eterne  ed  incrollabili  certezze  (cuore, skegge, il
+ vernacoliere et similia) ho trovato  conforto  e miglior luce nel tuo ignobile
+ foglio dove tra tanta vana cultura raccolgo spiccioli e coriandoli di sapere.
+
+  Ma vengo al punto dato che, lo so lo so, i complimenti non  trovano  alloggio
+ nel tuo io cosi` futilmente riservato: al mio boss mancano i nr 19,24,25,28,30
+ e  32.  Sarebbe mia ferma intenzione entrarne in possesso e, per questo, posso
+ requestare a destra, a manca e magari anche a Craxi.
+
+  Si pone tuttavia il graspolo (si, nocciolo ci starebbe meglio) di una mancata
+ diffusione che potrebbe penalizzarti (in  via  del tutto accademica) di almeno
+ 0,0012% di lettori, fatto quanto mai dannoso, lo capisci anche da  te,  se  ti
+ soffermi un attimo a pensarci.
+
+  Escludendo   penitenze   tipo   farti   recitare   il  glossario  dell'hacker
+ (un'infelice idea che forse sarebbe meglio  apprezzata se sfrondata un po' dei
+ mille inutili quanto abbondanti orpelli cui invece  colpevolmente  indulgi  da
+ piu`  numeri), come fare per ripareggiare la situazione?  Li resendi (dal noto
+ verbo "to send") nuovamente in  rete  o  intoniamo il piu` andreottiano motivo
+ del "chi ha avuto ha avuto" ?
+
+  Completamente sfiduciato in un tuo improbabile  riscontro  ti  mando  i  miei
+ saluti ed anche quelli di mio zio Odorico.
+
+                                                                   -Claudio.
+                                                                   2:332/107.10
+
+
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+ From : Alberto Galanti                     2:333/201       27 Jan 94  07:47:20
+ To   : Renato Rolando                      24100/9
+
+ Ciao Renato,
+
+  da  un  po'  di tempo ho iniziato a curiosare la vostra [NdE: "vostra" di voi
+ lettori] rivista e trovo sia davvero interessante e ben fatta.
+
+ La cosa mi  ha  preso  sempre  piu'  ed  ho  iniziato,  un  po'  alla volta, a
+ downloddare i numeri.
+
+ Una cosa che non  ho  trovato  in  giro  e' un indice aggiornato costantemente
+ della rivista.
+
+ Non c'e' propio, e se non c'e' che ne diresti  di  distribuirlo  costantemente
+ aggiornato con la rivista stessa ???
+
+ Ciao e complimenti ancora!!!  Alberto
+
+ [NdE:  Gioia.  Potresti aiutarmi tu a compiere quest'immane lavoro!  Come idea
+ e' molto carina.  Comunque ci sono i MEGA-INDICI annuali ~:) CIAO]
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   3  ###                                        PmFerraris per OS/2    ###
+ ############                                            Carlo Di Benedetto ###
+
+ Riassunto:
+        Come promesso lo  scorso  numero  eccovi  la  recensione - dall'autore
+       ipso,  come  esige  la  nostra  tradizione  -  del programma di lettura
+       dell'ora dal Galileo Ferraris di Torino.
+
+            Alla faccia di coloro che sostengono non ci sia software sotto OS/2!
+
+        Un grazie  a  Carlo  sia  da  parte  di  Tlematicus  che  da parte dei
+       sostenitori dell'osso. (urla & applausi)
+
+ ------------------------------------------------------------------------------
+
+                              PmFerraris per OS/2
+                               =================
+
+  PmFerraris  e'  un  programma  utile  alla  sincronizzazione  dell'orario del
+ proprio Personal Computer con quello  dell'Istituto  Elettrotecnico  Nazionale
+ 'Galileo  Ferraris'  di  Torino  che stabilisce l'unita' di tempo campione per
+ l'Italia.  Il programma nasce nel Marzo  1992 in una veste Command-Line per il
+ sistema operativo OS/2 1.3; dopo due mesi si passa alla  versione  a  finestre
+ character-mode per poi assumere la veste PM e MultiThread, sempre per OS/2 1.3
+ (quindi a 16 Bit), nel Luglio 1992.
+
+  La  versione  disegnata  per OS/2 2.x, quella a 32 Bit e MultiThread, e' nata
+ nel Febbraio  1993  e  da  allora  ha  subito  alcune  modifiche  per giungere
+ all'attuale versione 1.11 disponibile da Novembre.
+
+  Dopo questa introduzione sull'evoluzione che ha subito il programma  in  meno
+ di  due  anni  passiamo  all'analisi  del  programma  e  sul suo utilizzo.  Il
+ programma va installato in  una  directory  propria perche' durante l'utilizzo
+ genera alcuni  file  storici  e  di  configurazione;  e'  consigliato  inoltre
+ utilizzare un oggetto 'Program' per l'esecuzione.
+
+  Quando  si  lancia il programma per la prima volta i settaggi utilizzati sono
+ quelli di default, quindi conviene adattarli al proprio sistema utilizzando la
+ dialog-Setup richiamabile dalla voce 'SetUp...'  del menu' Ferraris; una volta
+ settati tutti i parametri, si possomo salvare cliccando sul tasto  [OK]  della
+ dialog.
+
+  Il  primo  settaggio  da  stabilire e' la porta seriale (COM1...COM4), poi ci
+ sono una Stringa Hayes di  inizializzazione  del  modem da inviare prima della
+ chiamata e una stringa di PreDial utile a chi intende effettuare  la  chiamata
+ tramite un centralino.
+
+  Il  significato  dei  rimanenti  settaggi  e'  evidente  perche' si tratta di
+ segnalare al programma se deve o meno comporre il prefisso per il distretto di
+ Torino e se deve  far  comporre  al  modem  il  numero mediante impulsi oppure
+ mediante toni.
+
+  La chiamata vera e propria puo' avvenire in due modalita': la prima e' quella
+ che utilizza la voce 'Chiama' dal menu' Azioni, mentre l'altra e'  quella  che
+ permette  di  effettuare  la  sincronizzazione  in  automatico; per la seconda
+ modalita' e' sufficiente utilizzare  come  parametro (CommandLine) 'Auto' e il
+ programma effettuera' tutte le operazioni necessarie automaticamente sino alla
+ terminazione dello stesso.
+
+  PmFerraris  fornisce  sull'ultima  riga  informazioni  sullo  'stato'   della
+ comunicazione  ed  una  volta  avvenuta  la  sincronizzazione  e  terminato il
+ collegamento, visualizza i risultati della connessione.
+
+  I dati  forniti  dalla  sincronizzazione  sono  :  l'entita' della correzione
+ effettuata indicata come 'Scarto'; la data e l'orario della  sincronizzazione;
+ il  tipo  e  l'orario  in vigore (CET o CEST) e sino a quando e' in vigore; il
+ Tempo Universale Coordinato (UTC) e il  relativo  scarto con la Scala di Tempo
+ Rotazionale (UT1); ed infine la Data Giuliana Modificata (DGM).  Tutti i  dati
+ visualizzati  vengono,  inoltre,  salvati  nel file PMFERRAR.LST che conterra'
+ sempre  il  risultato  dell'ultima  sincronizzazione;  oltre  a  questo  file,
+ PmFerraris ne compila altri  due:  PMFERRAR.LOG  e PMFERRAR.RIS che contengono
+ rispettivamente i risultati dei  tentativi  di  collegamento  e  quelli  delle
+ sincronizzazioni effettuate.
+
+  Le conclusioni sul programma penso che spettino a Voi perche' il mio giudizio
+ puo' essere 'leggermente' di parte.
+
+  Per  coloro  che  volessero  provare  PmFerraris  possono  prelevare  il file
+ PMFER111.ZIP ai seguenti indirizzi Fidonet :
+
+                           - 2:335/2 (0823/812099)
+                           - 2:335/12 (06/2751446)
+                           - tutti i nodi ISN.
+
+                              Carlo Di Benedetto
+               (2:335/2.2@fidonet.org - 81:439/1.2@os2net.ftn)
+
+ ############                                                               ###
+ ###   4  ###                                              GAIA - parte II  ###
+ ############                                              Marino Marinelli ###
+
+ Riassunto:
+        Permettetemi di citarvi un pezzo che troverete nell'articolo:
+
+    "...  GAIA nasce  come  soluzione  al  problema  delle paralisi causate dal
+   crash di uno o piu' nodi.  La soluzione individuata consiste nel  dotare  la
+   topologia  connettiva  di network della capacita' di mutare adeguandosi alle
+   circostanze in corso."
+
+        questo per qualche 'spiritosone' che  mi  ha detto di non aver compreso
+        nel numero precedente cosa alla fine fosse GAIA.  Et voilas.
+
+        E questo basti per farvi  capire  che  Telematicus,  da  buona  rivista
+        autogestita  alternativa ad oltranza, e' attenta alle nuove tendenze ed
+        ai virtuali  (anziche'  "possibili",  parola  ormai  obsoleta) sviluppi
+        della rete.  *:)
+
+ ------------------------------------------------------------------------------
+
+                         Cosa si intende per Risorse
+
+  Intendiamo  per  Resource  un  qualsiasi  nodo  di  rete  capace di adeguarsi
+ pienamente allo standard implementando:
+
+                a) Protocollo di trasmissione bi-direzionale
+                b) Certificazione di Identita' via PGP signature
+
+  Esiste la possibilita' che  all'interno  della  nuova struttura si mantengano
+ aree 'arcaiche', che possono seguitare a funzionare come set limitati, ma  non
+ hanno accesso pieno al nuovo standard.
+
+  Questo    sara'    particolarmente    agevole    all'inizio,   cioe'   quando
+ l'object-wrapper avra' inglobato  il  software  attuale  in  un oggetto, senza
+ peraltro mutarne le funzionalita'.
+
+  In questa fase una Pub-Res puo' tranquillamente continuare a comportarsi come
+ una BBS, fermo restando che gli user di una BBS non sono di  alcun  aiuto  nel
+ diminuire le spese di gestione, al contrario delle An-Res.
+
+
+                            La SuperClasse Resource
+
+  Siamo  di  fronte  ad una situazione assai prossima a quella di coloro che si
+ trovano ad  affrontare  transizioni  da  sistemi  COBOL-based  a tecnologie ad
+ oggetti: la mole del software preesistente e' enorme.
+
+  Esso consente svariate operazioni a cui non si vuole rinunciare, ne' si vuole
+ correre il rischio di  una  sostituzione  globale  dello  standard.   Dal  mio
+ personale  punto  di  vista cio' e' un primo passo, che si puo' utilizzare per
+ raggiungere una certezza sulla funzionalita'  operativa di alcuni algoritmi di
+ rerouting, ma che  non  sara'  mai  in  grado  di  darci  il  pieno  salto  di
+ funzionalita' che il modello di GAIA potrebbe offrirci.
+
+  Tuttavia  il  tempo  a  disposizione e' poco, le risorse umane limitate, e la
+ necessita' di implementare velocemente il rerouting esiste.
+
+  Di  fronte  a  questa   situazione   la   scelta   di  creare  un  cosiddetto
+ object-wrapper, come da esperienze  nella  trasposizione  object-oriented  dei
+ sistemi COBOL mi pare la via piu' praticabile.
+
+  Un  object-wrapper si colloca "al di sopra" del software layer pre-esistente,
+ al posto dei  batch  files  che  oggi  normalmente  connettono le sequenze tra
+ mailers, editors ed environments.
+
+  In questo modo la prima stesura del wrapper si limita ad integrare tutto cio'
+ che esiste in un common-object senza alterarne le prestazioni,  ma  istituendo
+ una  Public  Interface  che  permanga  attraverso  le modifiche successive del
+ package.
+
+  Da qui, in seguito,  si  partira'  ad  immettere modifiche strutturali sempre
+ piu'  complesse,  sino  ad  ottenere  lo  standard  voluto.    Cio'   dovrebbe
+ permetterci  di  "operare  a  cuore  aperto",  ovvero di lavorare sul soft che
+ usiamo senza smettere di utilizzarlo.
+
+  Veniamo ai dettagli di cio' che vogliamo ottenere.
+
+  Possiamo pensare ad  una  superclasse  (una  sorta  di protocollo comune) che
+ definisca cio' che qualsiasi nodo possiede  e  sa  effettuare  nello  standard
+ tecnologico di GAIA.
+
+  Dal  punto  di  vista pratico cio' ci consente di creare un common background
+ tra tutti i tipi possibili di  comportamento  dei nodi in GAIA, inclusi quelli
+ che future implementazioni dovessero rendere necessari.
+
+
+ La struttura della classe Resource e' grossolanamente indicabile in:
+
+ -----------------    -------------              ---------------
+ | NetBase M.ger |<-- |  Resource | -----------> | Interfaccia |
+ -----------------    -------------              ---------------
+ -----------------     |||  | | | |              ---------------
+ | FileBase M.ger|<----+||  | | | +------------> | PGP handler |
+ -----------------      ||  | | |                ---------------
+ -----------------      ||  | | |                ---------------
+ | MailBase M.ger|<-----+|  | | +--------------> | Net Address |
+ -----------------       |  | |                  ---------------
+ -----------------       |  | |                  ----------------
+ | Events M.ger  |<------+  | +----------------> | Address M.ger|
+ -----------------          |                    ----------------
+                            |                    ----------------
+                            +------------------> |  Msg Editor  |
+                                                 ----------------
+
+ Ove le frecce indicano oggetti posseduti.  Le quattro strutture raggruppate  a
+ sinistra  gestiscono  files di dati strutturati a records omogenei, per cui e'
+ pensabile di raggrupparle a  loro  volta  in  una  SuperClasse che ne faciliti
+ gestione e sviluppo.
+
+  Sono i metodi  che  inizialmente  saranno  implementati  attraverso  semplici
+ chiamate  ai  soft gia' esistenti, e che poi verranno mano a mano sostituiti e
+ sofisticati.
+
+ In dettaglio abbiamo:
+
+    a) Interfaccia: classe di oggetti  capace  di identificare e configurare il
+                    modem.  (Cfr msg da Nuke)
+
+    b) PGP Handler: classe di  oggetti  capaci  di  pilotare  PGP  in  modo  da
+                    facilitare  il rapporto con gli upgrades del pacchetto e da
+                    renderne  totalmente  trasparente  l'utilizzo.   In pratica
+                    implementa una libreria di comandi per PGP.  (cfr  msgs  da
+                    Peter e Mainman)
+
+    c)  Net  Address:  classe  di  oggetti depositari dell'indirizzo del nodo e
+                    della sua identita' in genere.  L'indirizzamento utilizzato
+                    e' il 5D, per compatibilita' verso gli standard Fido, anche
+                    se in pratica l'ultimo campo  non viene utilizzato, data la
+                    mancata  presenza  di  gerarchie  paragonabili   a   quella
+                    BBS/Point.  (cfr Mainman)
+
+    d)  Address  Manager:  classe  di  oggetti capace di attribuire indirizzi e
+                    identita' univoche  ai  nuovi  nodi  che  entrano  in rete.
+                    Normalmente  non  viene  utilizzato.   Contiene  un   campo
+                    privato che specifica uno dei tre stati seguenti:
+
+                      1) Active.    Ha  questo  stato  il  nodo che attualmente
+                                  svolge  le  funzioni   di  Add-res  (vedi  in
+                                  seguito)
+
+                      2) Alert.  Stato attribuito al nodo pronto a rilevare  le
+                                  funzioni di Add-Res se necessario.
+
+                      3) Waiting Stato di tutti gli altri nodi.
+
+    e)  Msg  Editor  :  classe  di  oggetti  che implementa la compressione del
+                    quoting e ammette  l'inserimento  di modalita' grafiche nei
+                    messaggi.  Il formato e la risoluzione massima dei GIF sono
+                    da stabilirsi.  Inizialmente la gestione della posta,  come
+                    si e' detto, restera' invariata.
+
+                             ---------------------
+
+
+    f)  Data  M.ger  : superclasse delle successive, stabilisce le modalita' di
+                     colloquio tipiche della  gestione  file.  Le funzioni sono
+                     specificate piu' che  altro  per  forzare  un  vocabolario
+                     comune,  costringendo le classi derivate all'overriding di
+                     metodi astratti.   Cio'  puo'  costare  alcune difficolta'
+                     iniziali,   nell'interfacciare   il   vecchio   soft,   ma
+                     risultera' in una facilita' di implementazione  del  nuovo
+                     standard verso cui siamo diretti.
+
+    g)  NetBase  M.ger:  classe di oggetti che gestiscono il file contenente la
+                     mappa topologica  di  rete,  con  le  specificazioni sullo
+                     stato funzionale, la connettivita' e l'identita'  di  ogni
+                     nodo  della  rete, nonche' il numero dell'ultimo messaggio
+                     immesso per  ogni  area  postale  e  il  numero del ultimo
+                     messaggio giunto on-line da quella  risorsa.   Questi  due
+                     dati hanno fonti differenti:
+
+                             1) LastWritten  :  viaggia sulla echo di sistema e
+                                              viene   immesso   da   ogni  nodo
+                                              all'atto  dello   scarico   della
+                                              posta.
+
+                             2) LastRead : viene aggiornato all'atto del carico
+                                              fisico della posta.
+
+                     La  divergenza  tra le due fonti consente di verificare il
+                     grado  di  efficienza  dei   links  attivi,  innescando  i
+                     meccanismi  di  rerouting  in  caso   di   risultati   non
+                     soddisfacenti.
+
+                     Questi  dati  sono allocati su una lista dinamica, data la
+                     continua variabilita'  del  formato.   Conterra'  sempre n
+                     record per lista, con n pari  alla  filesize  di  Mailbase
+                     M.ger.
+
+    h)  FileBase  M.ger: classe di oggetti che gestiscono il file contenente la
+                     directory di  rete,  che  specifica  dove siano reperibili
+                     quali files, e una breve descrizione del loro contenuto.
+
+    i) MailBase M.ger: classe di oggetti  che  gestiscono  il  file  contenente
+                     l'elenco  delle  aree  postali.   I  primi due record sono
+                     fissati rigidamente (hard-coded) per le aree:
+
+                            0) Traffico di sistema
+                            1) Traffico Files
+
+                     Ogni  area  postale  successiva  contiene  la  descrizione
+                     dell'area e tutti i dati necessari alla sua gestione.
+
+    k) Events M.ger : classe  di  oggetti  che gestiscono il file contenente la
+                     lista degli eventi di sistema.  Gestire qui significa  sia
+                     crearli,  che  valutarne  la  necessita', che mutarli, che
+                     annullarli (vedi ReRouting)
+
+
+
+
+        Le Classi derivate da Resource, ovvero stati funzionali del nodo
+
+  In pratica nessun nodo e' soltanto un oggetto della classe Resource.  Un nodo
+ e' *come minimo* questo, ma il suo comportamento locale puo' variare di molto,
+ esattamente  come possiamo dare per scontato che qualsiasi animale respiri, ma
+ poi bisogna controllare se gli servano branchie o polmoni per farlo.
+
+  Le  classi  che  sembra  attualmente  necessario  derivare  da  Resource sono
+ quattro:
+
+                 1) Pub-Res
+                 2) New-Pub-Res
+                 3) An-Res
+                 4) New-An-Res
+
+ Se e' evidente che la classe due e la quattro esprimono stati temporanei di un
+ nodo occorre specificare cosa si intenda con le classi uno e tre.
+
+ Pub-Res: le Public Resources sono nodi che rendono pubblico il loro  indirizzo
+          telefonico,  e  accettano di fungere da dispositivi di storage fisico
+          per  la  rete.    Esse   rendono   inoltre   pubblico  un  orario  di
+          accessibilita'.   In  cambio  di  queste  loro  prestazioni  l'intera
+          filosofia di GAIA si occupa di minimizzare le loro spese di  gestione
+          del traffico, ripartendolo tra gli utenti anonimi.
+
+ An-Res:  le Anonymous Resources entrano in  rete  solo  come  handles,  e man-
+          tengono la privacy piu' stretta.  Non vanno in answer alle chiamate e
+          si  occupano  di  distribuire  sia  la  posta che la posta di sistema
+          durante le loro  operazioni  di  carico/scarico  e-mail e files dalle
+          pub-res.   La  loro  collocazione  geografica  ed  il   loro   numero
+          telefonico restano ignoti.
+
+ New-XX : sono stati temporanei che l'oggetto Nodo-GAIA assume al lancio  della
+          procedura in attesa di ricevere un indirizzo definitivo dalla Add-Res
+          attiva.   In  questo  stato  il  nodo  puo' solo chiamare l'add-res e
+          fornire i propri dati  di  ingresso  ricevendo un indirizzo valido in
+          cambio, alla cui ricezione si muove verso lo stato definitivo.
+
+
+                           Topologia Autoorganizzante
+
+  Come si e' detto GAIA nasce come soluzione al problema delle paralisi causate
+ dal crash di uno o piu' nodi.  La soluzione individuata consiste nel dotare la
+ topologia  connettiva  di  network  della capacita' di mutare adeguandosi alle
+ circostanze in corso.
+
+  Cio' richiede che la Network  abbia  dei  sensori  che la mettono in grado di
+ processare  ricorsivamente  il  proprio  stato  di   efficienza.    Dopodiche'
+ applichiamo  all'organizzazione  di  network  il concetto di rete neurale, con
+ esplicito riferimento alle teorie di Hebb sul mutamento di connettivita' nelle
+ strutture cerebrali, ovvero, cio' che  funziona meglio acquista sempre maggior
+ peso come struttura associativa, mentre cio' che funziona male viene mano mano
+ a cadere ed essere sostituito.
+
+  In questo  modo  la  rete  non  raggiunge  mai  una  configurazione  stabile,
+ trasformandosi  continuamente  per  mantenere aderenza sia alle necessita' che
+ gli utenti esprimono nel  tempo  che  allo  stato  della  rete  SIP e a quello
+ dell'efficienza hardware della Pub-Res.
+
+  Le proposte di aree percettive per l'organismo digitale GAIA sono:
+
+                 a) efficienza storica dell'evento
+                    ad ogni evento viene associata una media pesata che ne
+                    valuta:
+                        1) costo unitario (Tempo/Bytes*Tariffa)
+                        2)  convenienza  (Percentuale di traffico gestita dalle
+                                           An-Res  sull'evento.   Questo  para-
+                                           metro ha valore solo per le Pub-Res)
+                        3) praticabilita' (Numero di retrys per il link)
+                        4) affidabilita'  (Numero di crash storici del nodo)
+
+                 b) attuabilita' immediata,  ovvero  esistenza in attivita' del
+                    nodo.  Questo e' il parametro che rileva i nodi in crash.
+
+  Cio' definisce quello che e' attualmente il campo percettivo di un nodo  GAIA
+ su ciascuno dei propri eventi.  Poiche' la sequenza di eventi di tutta la rete
+ e'  nota in ogni nodo della stessa esiste un'altra sequenza percettiva di GAIA
+ che ci interessa: la collocazione della Add-Res.
+
+  Chiameremo da qui in poi CICLO di  GAIA l'elenco completo degli eventi che la
+ costituiscono.  E' limitativo pensare  che  abbia  cadenza  giornaliera,  come
+ vedremo  in  seguito,  l'estensione  temporale  di  CICLO  puo'  estendersi  e
+ restringersi liberamente.  Per la precisione CICLO si estende nel tempo quanto
+ la cadenza dell'evento postale meno frequente.
+
+  Dal  punto  di  vista  matematico  CICLO  e' una relazione in GAIA, ovvero un
+ insieme di coppie ordinate in cui al primo coefficiente compare il chiamante e
+ al secondo il ricevente la comunicazione telefonica.
+
+  Quindi l'insieme dei chiamanti costituisce  il  Dominio di CICLO e quello dei
+ riceventi il Codominio di CICLO.
+
+  Poiche' la frequenza  temporale  degli  eventi  e'  diversa  (cosi'  come  la
+ modulazione  di  frequenza  delle  cellule nervose) ogni nodo avra' un diverso
+ coefficiente di carico connettivo.
+
+
+  (CONTINUA...)
+
+
+                                                                    Peter Paper
+                                                                    45:1917/2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                                             Linux - parte III ###
+ ############                                                         .mau. ###
+
+ Riassunto:
+        Il buon .mau.  spinto da  generosita' natalizia (aveva appena visto il
+       film dei Muppets su Dickens) si era fatto scrupolo di  inviarmi  questo
+       prezioso articolo - oltre al solito Jargon, naturalment.
+
+        Purtroppo  il  cattivo  RRE  -  che  se  ne strasbatte di Dickens - ha
+       ritardato l'articolao. E ritarda ieri, ritarda oggi... eccoci qui.
+
+        Quindi non stupitevi se vi  augura  buon  Natale.  Non si e' bevuto il
+       cervello, non ancora!
+
+ ------------------------------------------------------------------------------
+
+ E` Natale, e` Natale...
+
+ Carissima lettrice,
+           ebbene  si`.   Sto  cominciando  a  scrivere  questa  terza e ultima
+ puntata su bash alle ore 11:02 del  25 dicembre 1993, simbolo di una dedizione
+ a telematicus degna di miglior causa.  Non so fin dove  arrivero`  stamattina,
+ ma  posso  assicurarti  i miei migliori auguri di un felice (e con Unix) 1994.
+ Bando alle ciance: l'altra volta ti  avevo  promesso che ti avrei descritto la
+ ridirezione dei comandi, il job control e i comandi predefiniti nella bash,  e
+ per una volta intendo mantenere le mie promesse.
+
+    Cominciamo  dall'inizio.   Un qualunque programma Unix parte sempre con tre
+ "file" aperti.  Questi sono lo standard input,  cioe` il posto in cui stanno i
+ comandi da eseguire, lo standard output, dove viene scritto tutto  quello  che
+ il  programma da` come risultato, e lo standard error, che conterra` tutti gli
+ errori incontrati nell'esecuzione del programma (si`,  lo so che tu errori non
+ ne fai mai, ma metti che un raggio cosmico abbia colpito  la  tua  RAM  mentre
+ eseguivi  il programma...) [NdE: chissa' il C da dove ha preso l'uso di questi
+ 3 "file"...] Ti ho scritto "file"  tra  virgolette perche`, se non te ne fossi
+ ancora accorta, il termine sotto  Unix  ha  un  significato  piuttosto  ampio:
+ esempio classico e` il /dev/null, che si mangia tranquillamente tutto l'output
+ e  ritorna  dei  bellissimi input vuoti di nulla [NdE: non ti correggo perche'
+ poi mi obblighi ad un'errata corrige].   In  ogni caso, all'inizio non ci sono
+ mai problemi; tutti e tre i file sono associati al tuo  terminale,  e  l'unico
+ modo  di distinguerli e` dato dal loro descrittore, che vale 0 per lo stdin, 1
+ per lo stdout  e  2  per  lo  stderr  (visto  che  non  mi  ero dimenticato di
+ abbreviare tutto in puro stile Unix?  solo che a Natale  sono  piu`  buono,  e
+ cosi` ho lasciato una schermata di riposo).
+
+    Dopo  tutti questi spiegoni, probabilmente non ti aspetterai che, seio vuoi
+ che il programma prog usi pippo come  input file e pluto come standard output,
+ basta scrivere
+
+           prog < pippo > pluto
+
+ Ma e` come il DOS!  Beh, effettivamente quando il DOS  3.0  ha  introdotto  la
+ ridirezione,  ha allegramente scopiazzato da Unix.  In effetti esiste anche il
+ carattere di pipe | , che immagino conoscerai benissimo e di cui non ti parlo.
+ Ma ovviamente abbiamo di  piu`.   Ad  esempio, vogliamo ridirigere lo standard
+ error sul file paperino?  Immediato, basta modificare il comando in
+
+           prog < pippo > pluto 2> paperino
+
+ Visto a cosa serve sapere qual e` il descrittore del file?  Questo vale  anche
+ per  l'input,  anche  se e` difficile immaginare a cosa possa servire scrivere
+ prog 5< mydata.txt , a  meno  che  tu  non  abbia  un programma in Fortran 66.
+ Nota: se la variabile noclobber e` settata, bash si arrabbia nel caso  che  tu
+ cerchi  di  ridirigere  l'output  su un file che esiste gia`.  In questo caso,
+ puoi utilizzare la forma >| che  ti permette di scriverci sopra senza problemi
+ esistenziali.
+
+    Altri casi utili sono quello dell'append, se si vuole  aggiungere  il  novo
+ testo al file gia` presente, e ottenuto con >> ; e la ridirezione congiunta di
+ stdout e stderr, utile quando si lancia il programma in batch e si vuole avere
+ un  controllo  a  posteriori  di  tutto quanto e` successo.  In questo caso si
+ hanno due forme equivalenti, >& e &> .
+
+    Una cosa molto utile e` il concetto di here-document.  Se uno sta scrivendo
+ uno script file, puo` essere utile  infilare l'input di un comando all'interno
+ dello script stesso.  Ma come fa la shell a capire dove finisce l'input e dove
+ ricomincia lo script?  Semplice.  Si scrive a un certo punto
+
+           prog << fine_input
+
+ (qualunque parola puo` andare bene al posto di fine_input).  Da  questo  punto
+ in  poi,  tutte  le linee di testo sono considerate input per prog, fino a che
+ non se ne trova una che  sia  esattamente fine_input.  A questo punto la shell
+ ritorna al suo comportamento normale.  Due finezze possibili: se la parola  di
+ delimitazione e` scritta in maniera quotata, allora l'espansione dei parametri
+ si  blocca:  quindi  per  esempio  $1  rimane  $1 e non viene espanso al primo
+ parametro della linea di comando.  Se  poi,  invece  di  << , usi <<- , allora
+ tutti i tab iniziali vengono tolti.  In  questo  modo  tu  puoi  indentarti  a
+ piacere  il  tuo testo e ottenere un bell'aspetto grafico per il tuo script (e
+ non  ridere,  e`  piu`  utile  di  quanto  sembri).   [NdE:  l'indentazione e'
+ *FONDAMENTALE*]
+
+    Le ultime possibilita` di ridirezione sono l'operatore <> , che  serve  per
+ ridirigere sia input che output: il formato canonico e`
+
+          [n]<>filename
+
+ dove  se  n  e`  omesso  equivale  a  standard  input e standard output, e gli
+ operatori <& e >& che servono a  duplicare  (o  a chiudere) file di input e di
+ output.  Piu` precisamente,
+
+          [n]<&fd
+
+ duplica il file descriptor di numero fd su quello numero n (oppure sullo 0, se
+ n e` omesso).  Se invece fd e` un trattino - , allora il file n viene  chiuso.
+ Similmente per >& , con la differenza che il default vale 1.
+
+    Ricordati  anche  che  le  ridirezioni  vengono lette da sinistra a destra.
+ Percio` le due forme
+
+          ls > dirlist 2>&1
+          ls 2>&1 > dirlist
+
+ fanno due cose  diverse.   La  prima  manda  sia  stderr  che  stdout sul file
+ dirlist, mentre la seconda manda solo lo stdout su dirlist, perche` lo  stderr
+ e` stato gia` ridiretto da un'altra parte.
+
+    In confronto  a  tutto  questo, il job control e` di una facilita` assurda.
+ Innanzitutto spero che tu ti ricorda che Linux e` un sistema multitask, quindi
+ anche  dal  tuo  terminale  e`  possibile  avere  piu`  programmi  che  girano
+ contemporaneamente.  Ma  naturalmente  tu  hai  bisogno  di  stabilire a quale
+ programma vanno il tuo input e output; e qui nasce il concetto di job control.
+ In ogni istante tu hai un processo in foreground (cioe` che interagisce  colla
+ [NdE:  che  si  attacca?]  tastiera) e zero o piu` processi in background (che
+ girano per conto loro).  Ci sono tre sistemi per mettere un job in background:
+ lanciarlo da linea di  comando,  oppure  digitare  ctl-Z o ctl-Y mentre questo
+ gira.  La differenza tra questi ultimi due modi  e`  che  nel  primo  caso  il
+ processo si blocca immediatamente, mentre nel secondo continua a girare fino a
+ che non richiede dell'input.  In ogni caso apparira` prima o poi una linea del
+ tipo
+
+          [1] 4576
+
+ dove  il  numero  tra parentesi quadre e` quello del job, mentre l'altro e` il
+ numero del processo.  A questo punto, si puo` scrivere bg per mandare il job a
+ girare in background, oppure fg per mandarlo in foreground.  Nel caso ci siano
+ piu` jobs, il comando jobs li mostra tutti.  L'ultimo che e` stato stoppato ha
+ vicino il carattere + ed e` quello di default; il penultimo ha il carattere -;
+ in ogni caso si possono richiamare  tutti precedendo al loro nome il carattere
+ % .  Quindi, kill %1 cancella il job numero  1  della  lista  (attenta  a  non
+ digitare kill 1, che da root butta giu` la macchina!)
+
+
+ Vediamo infine alcuni dei comandi che bash ha al suo interno.
+
+ : non fa nulla, se non espandere i suoi parametri. Lo puoi vedere come
+   secondo carattere di commento, assieme a #.
+
+ . filename (o source filename) legge i comandi del file filename.
+
+ alias
+        da solo elenca  la  lista  degli  alias  presenti;  seguito da un nome,
+        indica l'eventuale alias associato  a  quel  nome;  nella  forma  alias
+        nome=valore,  fa  si`  che  tutte  le  volte  che  si scrive nome viene
+        sostituito valore.
+
+ break [n]
+        esce da un loop for, while  o  until.  Se n e` specificato (deve essere
+        >=1), si esce per n livelli di innestamento.  Similmente, continue  [n]
+        riprende dall'iterazione successiva.
+
+ declare e typeset
+        servono  a  dichiarare  una  variabile.   Ma perche`, visto che come in
+        BASIC  basterebbe  scrivere  var=valore  ?   Perche`  si  puo` scrivere
+        declare -r per fare si` che la variabile  sia  readonly  (non  si  puo`
+        ridefinirla), e declare -x perche` venga esportata automaticamente.
+
+ pushd, popd e dirs
+        servono  per  lo stack di directory: la corrente directory viene spinta
+        giu` per lo stack nel primo caso e viene tolta nel secondo, infine dirs
+        fa la lista dello stack corrente  (puoi anche pacioccare di piu` con lo
+        stack, ma non ho voglia di spiegartelo).
+
+ echo
+        manda in output i suoi argomenti (comodo per programmi interattivi); se
+        con l'opzione -n , non  viene  messo  il  linefeed  finale,  e  se  con
+        l'opzione  -e  alcuni  caratteri speciali preceduti da backslash \ sono
+        riconosciuti, piu` o meno come nella printf() del C.
+
+ enable -n name
+        disabilita il comando name  interno  a  bash.   Utile  se ad esempio si
+        vuole usare /bin/test invece che il test di bash.
+
+ exec command
+        termina bash e fa partire command; exit o bye terminano la shell  senza
+        remore (o quasi...)
+
+ export
+        serve  ad  esportare nell'environment le variabili indicate nella linea
+        di comando, in modo che le sottoshell le conoscano pure loro.
+
+ history
+        legge la storia dei comandi passati, in modo che se ne possa richiamare
+        uno per mezzo del suo numero, ad esempio.
+
+ test expr , oppure [ expr ]
+        testa l'espressione condizionale e ritorna 0  se  vero e 1 se falso, in
+        modo che si possa scrivere qualcosa del tipo
+
+           if [ -d /usr/local/telem ]
+              grep ".mau." /usr/local/telem/telem???.txt
+
+ Alcuni operatori utili:
+
+ -d file
+        e` vero se file e` una directory; -f file se file e` un file regolare
+
+ -b e -c
+        vogliono un device a blocchi o caratteri
+
+ -e
+        si accontenta che il file esista.
+
+  E per tutto il resto?  Beh, puoi sempre  chiedere  aiuto  in  giro  o  meglio
+ ancora leggerti la man page (no, sono 32 pagine) su bash (ghigno)
+
+  Ancora auguri
+                                                                          .mau.
+
+ ############                                                               ###
+ ###   6  ###                     Un'applicazione REXX su OS/2 - parte VIII ###
+ ############                                                               ###
+
+ Riassunto:
+        Ed ecco  un  *entusiasmante*  programmillo  REXX  per  gli  entusiasti
+        dell'osso: come cancellare i files pigliandoli per... la lro data?
+
+ ------------------------------------------------------------------------------
+
+  From : Andrea Mennini              2:332/407.1             29 Oct 93  14:51:00
+  To   : Tutti
+  Subj : Delete by age
+ =============================================================================
+ * Forwarded by Andrea Mennini (2:332/407.1) using GoldED 2.41.B0108+
+ * Area : OS2BBS (Area internazionale OS2BBS)
+ * From : John Cuccia, 1:3803/1 (Lunedi` 11 Ottobre 1993 22:19)
+ * To   : Joe Patterson
+ * Subj : Delete by age
+ =============================================================================
+ Here's how I delete by age, Joe.
+
+
+ _ _ _ O / _ _ C_U_T_ H_E_R_E_ _ _ _
+       O \
+
+ /****************************************************************/
+ /* SDel.Cmd                                                     */
+ /*                                                              */
+ /* Delete any files older than specified age                    */
+ /*                                                              */
+ /*   Usage:                                                     */
+ /*      Sdel filespec age                                       */
+ /*                                                              */
+ /*   where 'filespec' is fully qualified filename and           */
+ /*         'age' is file age in days                            */
+ /*                                                              */
+ /****************************************************************/
+
+ parse arg path dage
+
+ if path="" | dage="" then signal parmerror
+
+ if rxfuncquery(sysloadfuncs) \= 0 then
+   do
+     call rxfuncadd 'sysloadfuncs','rexxutil','sysloadfuncs'
+     call sysloadfuncs
+   end
+
+ signal on failure name CLEANUP
+ signal on halt name CLEANUP
+ signal on syntax name CLEANUP
+
+ parse value date(E) with d'/'m'/'y
+ today=367*y-7*(y+5001+(m-9)/7)/4+275*m/9+d+1729777
+
+ rc = sysfiletree(path,'file','FST')
+ if rc <> 0 then signal cleanup
+
+ do i=1 to file.0
+   parse var file.i a1 a2 a3 a4
+   y=substr(file.i,1,2)
+   m= substr(file.i,4,2)
+   d=substr(file.i,7,2)
+   age=367*y-7*(y+5001+(m-9)/7)/4+275*m/9+d+1729777
+   diff=today-age
+   if diff >= dage then
+   do
+     killfile=strip(a4,'L')
+     say killfile
+     rc=sysfiledelete(killfile)
+   end
+ end
+
+ exit
+
+ cleanup:
+   say Error
+   exit
+
+ parmerror:
+ say ''
+ say 'Command line parameter error'
+ say ''
+ say 'Usage:'
+ say '     SDel path age'
+
+
+ _ _ _ O / _ _ C_U_T_ H_E_R_E_ _ _ _
+       O \
+
+ Hope it helps.
+ oAo Msgedsq/2 2.2e
+  * 0rigin: Cajunet * HST/V32b * Lafayette LA (1:3803/1)
+
+ =============================================================================
+
+ ... The *1st* OS/2 point in Bologna
+
+
+ --- GoldED/2 12IT3 / Squish/2 1.01
+  * Origin: Double your drive space! Delete Windows! (2:332/407.1)
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                   IL GERGO HACKER - PARTE 31  ###
+ ############                                   Eric S. Raymond & .mau.     ###
+
+ Riassunto:
+        .mau.   mi  ha  detto  che  ormai  siamo  in  discesa.  Ovvero abbiamo
+       superato la meta'.  Speriamo  che  l'intrepido  non ceda ai consigli di
+       sfrondare nella traduzione, ma che preservi intatta  tutta  l'originale
+       completezza della costruzione di questo assurdo. (Sono bravo, vero? :))
+
+ ------------------------------------------------------------------------------
+
+                                   {= P =}
+
+    <page in> [MIT: dai sistemi  operativi]  v.  Diventare  nuovamente  conscio
+ dell'ambiente  intorno  a  se`,  dopo  un  <page out>.  Di solito confinato al
+ commento sarcastico "Tizio e` di nuovo in p.i.: <film at 11>).
+
+    <page out>  [MIT]  v.  Diventare  temporaneramente  inconscio dell'ambiente
+ intorno a se', a causa di preoccupazioni o sogni ad occhi  aperti.   "Potresti
+ ripeterlo?   Sono  andato  in  p.o.   per un minuto".  Vedi <page in>.  Confr.
+ <glitch>, <thinko>.
+
+    <panic> [UNIX: lasciarsi prendere dal panico] v. Un'azione intrapresa da un
+ processo o dall'intero sistema operativo quando un errore irricuperabile viene
+ scoperto.  L'azione di solito consiste nel: (1) mostrare dell'informazione sul
+ terminale che controlla il processo o sulla console, (2) salvare, o prepararsi
+ per salvare, un'immagine di memoria del processo o del kernel, e (3) terminare
+ il processo o fare ripartire il sistema.
+
+    <param> /p@-ram'/ s.  Abbreviazione  solo  parlata per "parameter".  Confr.
+ <arg>, <var>.  Il plurale `params' e` spesso ancora compresso in `parms'.
+
+    <parity  errors>  [errori  di  parita`]  s.pl.   Quei  piccoli  attimi   di
+ disattenzione  o  (nei  casi  piu`  severi) di perdita di coscienza, di solito
+ dovuti all'avere passato tutta la notte  e buona parte del giorno successivo a
+ fare hacking.  "Devo andare a casa e <crash>are;  sto  avendo  un  mucchio  di
+ errori  di  parita`".   Deriva da un errore transiente relativamente comune ma
+ quasi sempre correggibile della RAM.
+
+    <parse> [parserare.  Dalla terminologia  linguistica  via la ricerca AI] v.
+ 1. Determinare  la  struttura  sintattica  di  una  frase  o  di  qualcosa  di
+ pronunciato  (simile al significato inglese standard).  Esempio: "That was the
+ one I saw you".  "Non riesco a parserarti".  [Ndt: ci credo!  - .mau.] 2. Piu`
+ generalmente, capire o comprendere.  "E`  molto  semplice: basta che kretchi i
+ glims e poi sfinzi gli zotz".  "Non riesco a parserarti".  3. Di pesci, dovere
+ togliere le lische da soli (di solito in un  ristorante  cinese).   "Non  sono
+ d'accordo  a  parserare un pesce" significa "Non voglio avere un pesce intero,
+ ma se e` deliscato mi  va  bene".   Un  "parsed  fish" e` stato deliscato.  E`
+ controverso il significato di "unparsed": con le lische o deliscato?
+
+    <patch> 1. s. [taccone] Un'addizione temporanea a  del  codice,  di  solito
+ come  rimedio  veloce  e brutale a un baco o misfeature esistente.  Un p. puo`
+ funzionare o no, e puo` o  no essere alla fine incorporato permanentemente nel
+ programma.  2. v. [patchare] Inserire un p. in un pezzo di  codice.   3.  [nel
+ mondo  UNIX:  patch]  s.  Un  insieme di differenze tra due versioni sorgente,
+ generata da `diff(1)' e  che  si  suppone  da applicarsi meccanicamente usando
+ `patch(1)'; spesso usato come modo di distribuire upgrade del codice  sorgente
+ e bug fixes su <USENET>.
+
+    <pathological>  [patologico: dalla matematica] agg.  Preparato di proposito
+ come caso pessimo.  Un algoritmo  che  puo`  fallire per input patologici puo`
+ nonostante  tutto  essere  utile  se  tali  input  non   dovrebbero   capitare
+ praticamente  mai  in pratica.  L'implicazione e` che qualcuno si deve mettere
+ d'impegno per craccare l'algoritmo,  per  riuscire  a  tirare fuori un esempio
+ cosi` pazzo.
+
+    <PBD> [abbr.  di `Programmer  Brain  Damage',  cervello  del  programmatore
+ danneggiato]  s.  Applicato ai bug report che rivelano posti dove il programma
+ ovviamente non funziona a  causa  di  un  programmatore  incompetente o da non
+ encomiare.  Opp.  <UBD>; vedi anche <brain-damaged>.
+
+    <PC-ism> s. Un pezzo di codice o di tecnica di programmazione  che  sfrutta
+ l'ambiente  non  protetto  e  single-task  dei  PC  IBM e simili.  Ad esempio,
+ rimanere in busy waiting su  un  registro hardware, operare direttamente sulla
+ memoria video, o usare loop temporali contando i cicli di operazione.   Confr.
+ <ill-behaved>, <vaxism>, <unixism>.
+
+    <pc-ware> s. Un programma pieno di <PC-ism>i su una macchina con un sistema
+ operativo capace a fare qualcosa di piu`.  Peggiorativo.
+
+    <PD> /pee-dee/ agg.  Abbreviazione comune per "public domain" (nel pubblico
+ dominio),  applicato  a  software  distribuito  su  <USENET>  e  dagli archivi
+ Internet.  Molto di questo  software  non  e`  in  realta` "public domain" nel
+ senso legale, ma viaggia sotto vari tipi  di  copyright  che  garantiscono  la
+ riproduzione  e  l'uso  per  chiunque  riesca  a recuperarsi (v.  <snarf>) una
+ copia.  Vedi <copyleft>.
+
+    <PDL> /pid'l/ o /pud'l/ 1.  s.  Program  Design Language [linguaggio per la
+ progettazione  di  programmi].   Uno   qualunque   di   un'ampia   classe   di
+ pseudolinguaggi  formali  e profondamente inutili in cui il <management> forza
+ la gente  a  progettare  programmi,  e  spesso  aspetta  che  sia mantenuto in
+ parallelo al codice.  Usato scherzosamente come in "Hai finito il pdl?" 2.  s.
+ Page  Description  Language.  Si riferisce a un qualunque linguaggio usato per
+ controllare un device grafico, di  solito una stampante laser.  L'esempio piu`
+ comune e`, naturalmente, il linguaggio <PostScript> della Adobe, ma ce ne sono
+ vari, come l'InterPress della Xerox, ecc.
+
+    <PDP-10> [Programmable Data Processor model 10] s. La macchina che ha  reso
+ il  timesharing  reale.   Appare enorme nel folklore hacker, a causa della sua
+ adozione intorno alla meta` degli  anni  '70  da molti centri di calcolo delle
+ universita` e laboratori di ricerca, compresi gli AI Lab dell'MIT, di Stanford
+ e della CMU.  Alcuni aspetti del set di istruzioni (soprattutto le  istruzioni
+ a  campi  di  bit)  sono  considerati  ancora  adesso  i  migliori.   Edizioni
+ successive  sono state chiamate `DECsystem-10', per differenziarle dal PDP-11.
+ Il '10 e` stato alla fine eclissato da PDP-11 e VAX, ed eliminato dai prodotti
+ DEC all'inizio degli anni '80; oggi l'essersi  fatto le ossa su uno di essi e`
+ considerato  un  simbolo  di  onorevole  anzianita`  tra  gli  hacker.    Vedi
+ <TOPS-10>, <ITS>, Appendice A.
+
+    <peek/poke>  [lett.  sbirciare/ficcare] s.,v.  I comandi nel BASIC di molti
+ microcomputer  per  accedere   direttamente   agli  indirizzi  assoluti  delle
+ locazioni di memoria; spesso esteso a indicare i costrutti  corrispondenti  in
+ un  qualunque <HLL>.  Molto dell'hacking su micro piccoli e senza MMU consiste
+ nello "sbirciare" qua e la` per la memoria, piu` o meno a caso, per trovare le
+ locazioni dove il sistema tiene  delle  cose  "interessanti".  Lunghe e piu` o
+ meno accurate liste  di  tali  indirizzi  circolano  per  vari  computer.   Il
+ risultato  di  un  poke a questi indirizzi puo` essere assai utile, abbastanza
+ divertente, inutile ma  carino,  o  (piu`  probabilmente)  un <lossage> totale
+ (vedi <killer poke>).
+
+    <percent-s> /per-sent' ess/ [Da "%s",  la  sequenza  di  formattazione  nel
+ `printf(3)'  del C che indica una stringa arbitraria] s. Una persona o oggetto
+ non    specificato.     "Stavo    giusto    parlando    con    un   percento-s
+ dell'amministrazione".  Confr.  <random>.
+
+    <PERL>  [Practical  Extraction  and  Report  Language,  aka  Pathologically
+ Eclectic Rubbish Lister: linguaggio  per  estrazione  pratica  e  rapporti,  o
+ elencatore   di   spazzatura   patologicamente  eclettica]  s.  Un  linguaggio
+ interpretato  sviluppato  da   Larry   Wall   (lwall@jpl.nasa.gov,  autore  di
+ `patch(1)' e `rn(1)')  e  distribuito  su  USENET.   Ricorda  superficialmente
+ `awk(1)' (v.  <AWK>), ma e` molto piu` arcano.  Sempre piu` spesso considerato
+ un   <language   of   choice>   dai  sysadmin  UNIX,  che  sono  quasi  sempre
+ incorreggibili hacker.  Perl e` stato descritto,  in una parodia di una famosa
+ osservazione su `lex(1)', come  la  "motosega  dell'esercito  svizzero"  della
+ programmazione UNIX.
+
+    <pessimal> /pes'i-ml/ [pessimale: antonimo di origine latina per "optimal"]
+ agg.   Male  in  maniera  massima.   "Questa  e`  una  situazione  p.".  Anche
+ <pessimize>  v.,  rendere  il  peggiore  possibile.   Queste  parole  sono gli
+ antonimi naturali per "optimal" e "optimize", ma per una qualche ragiuone  non
+ appaiono  nella  maggior  parte dei dizionari inglesi, anche se "pessimize" e`
+ listato nell'Oxford English Dictionary.
+
+    <pessimizing    compiler>    /pes'i-miez-ing    kuhm-pie'lr/   [compilatore
+ pessimizzante: antonimo  di  `optimizing  compiler']  s.  Un  compilatore  che
+ produce codice oggetto che e` peggiore della traduzione piu` semplice o ovvia.
+ L'implicazione e` che il compilatore sta cercando di ottimizzare il programma,
+ ma  per  stupidita` sta facendo in realta` l'opposto.  Alcuni c.p.  sono pero`
+ stati scritti di proposito, come burla.
+
+    <phase> [fase] 1. s. La fase  del ciclo veglia-sonno di qualcuno rispetto a
+ quello standard di 24 ore.  Questo e` un concetto utile tra gente  che  spesso
+ lavora di notte senza un orario fisso.  Non e` raro cambiare fase fino anche a
+ sei  ore  al giorno su una base regolare.  "Che fase hai?" "Ultimamente mi sto
+ svegliando intorno  alle  8  di  sera,  ma  conto  di  fare  un  <wrap around>
+ all'orario di giorno per venerdi`.  Una persona che e` circa fuori fase di  12
+ ore  si dice a volte essere in "modo notturno" ("night mode".  Il termine "day
+ mode" e` anche usato, ma meno frequentemente, per indicare che si lavora dalle
+ 9 alle 17 (o piu` facilmente dalle 10 alle 18).) L'atto di alterare il proprio
+ ciclo e`  detto  "cambiare  fase";  si  e`  anche  sentito  parlare  di "phase
+ shifting".  2. <change phase the hard way> [cambiare fase nel modo difficile]:
+ restare svegli per moltissimo tempo in modo di passare a una fase  differente.
+ 3.  <change  phase  the  easy way> [cambiare fase nel modo facile]: Rimanere a
+ dormire per moltissimo tempo,  ecc.   Pero`  alcuni  affermano che sia stare a
+ lungo svegli che dormire a lungo e` facile, e che e` l'*accorciare* il proprio
+ ciclo circadiano che e` difficile.  Il fenomeno del "jet lag" che  affligge  i
+ viaggiatori  che  attraversano  molti  fusi orari puo` essere attribuito a due
+ cause distinte: la tensione del  viaggio  per  se,  e la tensione del cambiare
+ fase.   Gli  hacker  che  scoprono  a  un  tratto  che  devono  cambiare  fase
+ drasticamente in un breve lasso di tempo, particolarmente nel modo  difficile,
+ sperimentano qualcosa molto simile al jet lag senza viaggiare.
+
+    <phase  of  the  moon>  [fase  delle luna] s. Usato umoristicamente come un
+ parametro casuale  da  cui  qualcosa  e`  detto  dipendere.   A  volte implica
+ inaffidabilita` di qualunque cosa  dipenda  da  esso,  o  che  l'affidabilita`
+ sembra  essere  dipendente  da  condizioni  che  nessuno  e` stato in grado di
+ determinare.  "Questa caratteristica  dipende  dall'avere  il canale aperto in
+ mumble mode, avere lo switch pippo settato, e dalla f.d.l.".
+
+ Storia vera: c'era una volta un programma scritto da Gerry Sussman (professore
+ di Ingegneria Elettrica all'MIT) e Guy Steele che aveva un baco che  dipendeva
+ realmente  dalla  fase  della  luna!  C'e` una piccola subroutine che e` stata
+ tradizionalmente   usata   in    vari    programmi   all'MIT   per   calcolare
+ un'approssimazione alla vera fase della luna;  la  fase  veniva  poi  stampata
+ assieme  a  data e ora, giusto per divertimento, in cima ai programmi.  Steele
+ incorporo` questa routine in un  programma  LISP che, quando scriveva un file,
+ gli inseriva una riga di "timestamp" lunga quasi 80 caratteri.   Qualche  rara
+ volta  la  prima  riga  del messaggio era troppo lunga, e si sovrapponeva alla
+ seconda;  quando  il  programma  veniva   riletto  in  seguito,  il  programma
+ <barf>ava.  La lunghezza della prima linea dipendeva dall'ora esatta in cui il
+ timestamp veniva stampato, e quindi il baco dipendeva letteralmente dalla fase
+ della luna!
+
+ La prima edizione  cartacea  del  Jargon  File  (Steele-1983)  comprendeva  un
+ esempio  di questo baco, ma il compositore lo "corresse".  Questo e` stato fin
+ da allora descritto come il baco del baco-della-fase-della-luna.
+
+    <pig, run like a> [correre come  un maialino] agg.  Girare molto lentamente
+ su un dato hardware, detto di software.  Distinto da <hog>.
+
+    <ping> /ping/ [dalla terminologia TCP/IP] s.,v.  1. Termine gergale per  un
+ piccolo  messaggio  di rete (ICMP ECHO) spedito da un computer per controllare
+ la presenza e funzionalita` di  un  altro.  Usato occasionalmente per salutare
+ al telefono.  Vedi <ACK>, <ENQ>.  2. Verificare la presenza di.   3.  Ottenere
+ l'attenzione  di.   Dal  comando  Unix  omonimo  (acronimo di "Packet INternet
+ Groper") che spedisce un pacchetto  ICMP  ECHO  a un altro host, probabilmente
+ costruito in modo da essere uguale al "ping" degli impulsi dei sottomarini.
+
+    <Pink-Shirt  Book>  [Libro  dalla  camicia   rosa]:   `The   Peter   Norton
+ Programmer's  Guide  to  the  IBM  PC'.   La  copertina  originale raffigurava
+ un'imaagine di Peter Norton  con  un  sorrisetto  sciocco  e una camicia rosa.
+ Forse per il riconoscimento di questo uso, l'edizione attuale ha  una  diversa
+ foto di Norton con una camicia rosa.
+
+    <pipeline> [conduttura: UNIX, orig.  da Doug McIlroy; ora anche usato sotto
+ MS-DOS  e  altrove]  s.  Una  catena  di filtri (v.  <filter>) connessi "testa
+ contro coda", in modo che l'output di uno diventa l'input del seguente.  Sotto
+ UNIX, molte utilita` possono essere  implementate o almeno prototipate con una
+ collezione adatta di p. e file temporanei per macinare dati incapsulati in uno
+ shell script; questo costa molto meno sforzo dello  scrivere  in  C  tutte  le
+ volte,  e  la  possibilita`  e` considerata una delle maggiori caratteristiche
+ vincenti dello UNIX.
+
+    <pizza, ANSI standard> /pee'tz@, an'see  stan'd@rd/ [CMU] Pizza ai funghi e
+ salamino piccante.  Si dice coniato  perche`  la  maggior  parte  delle  pizze
+ ordinate  dagli  hacker della CMU fino a meta` del 1990 erano di questo gusto.
+ Vedi anche <rotary debugger>.
+
+
+
+                                           tradotto da .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   8  ###                        L'arte della programmazione - parte VI ###
+ ############                        Artore Londona                         ###
+
+ Riassunto:
+        Sono un  pasticcione.   Purtroppo  al  posto  di  codesto  articolo vi
+       sarebbe dovuto essere la  risposta  di  Mario  Ricca  a  L.  Zavatruska
+       (apparsa nel numero 35).
+
+        Purtroppo  e'  andato  - momentaneamente - perso.  Vabbuo' succhiatevi
+       questo.
+
+ ------------------------------------------------------------------------------
+
+ Dedicato a:
+         Calvino     ("L'uomo di Neanderthal")
+         Roy Lewis   ("Il piu' grande uomo scimmia del Pleistocene")
+         Ron Hubbard ("Scientology: la storia dell'uomo")
+
+
+               La decima arte. Intervista all'uomo preistorico.
+
+
+  Mi molla un cazzotto in pieno stomaco  e  si scaglia con impeto contro di me.
+ Mi riprendo velocemente, lo afferro al volo per il collo e lo butto al tappeto
+ facendo perno con la gamba sx.  Non resta giu' e mi spara un altro cazzotto in
+ petto con una forza tale da farmi scricchiolare tutte le ossa.  Gli sgancio un
+ calcio sulla schiena degno di Bruce Lee.
+
+  Ci studiamo un attimo: e' tarchiato, peloso, le arcate prominenti e le labbra
+ molto pronunciate.  Veramente scimmiesco, non c'e' che dire!
+
+ - OK, basta - ansima finalmente - sei  un  buon  combattente,  meriti  il  mio
+ rispetto.  Io sono Ugh.
+
+ - Anche tu sei un buon combattente.  La mia mazza sara' al tuo fianco contro i
+ tuoi nemici.  Io sono artore Londona.
+
+ - Siete in 2 li' dentro?
+
+ - No.  Il nome di mimo padre era Artore.  Io sono Londona.
+
+ - Te lo sei mangiato?
+
+ - Si.  - Con un ominide subumano e' meglio non entrare troppo nei dettagli.
+
+ -  Allora  io  sono  Ugh  di Aargh - il subumano si dondola tutto soddisfatto.
+ Signore e signori  siamo  in  presenza  del  primo  ominide  capo orda che sia
+ riuscito a rintracciare durante la mia lunga  peregrinazione  nel  pleistocene
+ inferiore.   Ugh  di  Aargh  e' attualmente il piu' importante capo e sciamano
+ della piu' grossa e puzzolente  orda  che scorazzi per le lussureggianti valli
+ di cio' che nel futuro sara' l'Africa.  A lui mi rivolgero' ora per avvere  la
+ definizione  del concetto di arte scevra di millenari elucubrazioni condotte a
+ riguardo.
+
+ - Ugh, la tua ospitalita' ti  fa  onore.   La fama della tua forza, saggezza e
+ conoscenza raggiungono i confini di tutta la valle.  Sono venuto da te per  un
+ consiglio  e  per  ripagarti  ho portato questa coscia di apatosauro.  Intendo
+ inoltre farti dono di un oggettto che ti rendera' ancora piu' saggio e famoso.
+
+ - Ugh ascolta.
+
+ - Io so, o peloso  Ugh,  che  tra  voi  vivono subumani in grado di riprodurre
+ oggetti del mondo che li circonda: visi, animali, etc.
+
+ - Le tue conoscenze sono esatte, straniero: abbiamo persone capaci di liberare
+ dalla pietra, dal fango o dalle ossa  di  avorio  mirabili  visi  ed  animali,
+ nonche'  pietre  ornamentali  od  utensili.   E  questo  con  grande maestria.
+ (cifrare il numero del National Geographics).
+
+ - Ecco, o bruna pelosita', ci terrei  a  sapere in che conto tenete queste non
+ comuni abilita'.
+
+ - Glabro straniero, non avresti potuto rivolgermi domanda piu' semplice.  Essi
+ altro non hanno se non il dono di una  vista  particolare,  capace  di  vedere
+ l'essenza  di  un  oggetto,  la sua vera forma.  Grazie ad un'abilita' manuale
+ sviluppata nelle lunghe notti  invernali,  mentre tutti riuniti mastichiamo la
+ coriacea carne cruda ascoltando  tesi  i  rumori  della  notte  (o  attenti  i
+ racconti  di un occasionale nomade), mentre siamo li' riuniti, insomma, questi
+ grattano e scavano la pietra liberando la forma racchiusa in essa.
+
+ - Saggio, il mio cervello e' ancora quello di un gorilla.  Spiegati meglio.
+
+ - Come ben saprai noi  viviamo  in  cio'  che  potremo definire la Natura.  La
+ Natura e' a sua volta la parte del Mondo che ricade sotto i nostri sensi, cio'
+ che percepiamo.
+
+ - Ora lo so.
+
+ - Bene!  Il Mondo che ci circonda ha in  se'  tutte  le  possibili  forme  che
+ troverai  in natura.  Ed e' in base alle influenze degli oggetti gia' presenti
+ in essa che il Mondo manifesta un altro oggetto.
+
+ - Il tuo ragionare e' piu' contorto delle spire di un serpente.
+
+ - Ti portero' degli esempi: quando Glo  l'ominide prende in mano un osso, vede
+ sempre dentro  di  esso  allo  stato  potenziale  qualcosa.   Puo'  essere  un
+ bellissimo  cavallo,  un  pezzo  ornamentale  di  una  collana  o un gioco per
+ fanciulli...  Col suo scalpello di  selce  non  fa altro che liberare la forma
+ imprigionata in esso.  A seconda della sua abilita' nel seguire gli invisibili
+ contorni della Forma riuscira' ad avvicinare l'aspetto dell'oggetto alla Forma
+ originale,  quella  iperuranica  presente  nel  Mondo.   Ti  faccio  un  altro
+ esempio...  - il possente gorillodie si accovaccia e mi fa segno  di  mettermi
+ comodo.  Mi indica un gruppo di donne preistoriche attorniate da uno stuolo di
+ bambini, intente a squartare non so cosa.
+
+ -  Tu  sai  che  la forma nel Mondo dell'uomo e' quella di un essere forte, in
+ salute e bello peloso,  con  la  vista  acuta,  le  orecchie mobili ed i denti
+ forti.  Eppure  ogni  donna,  ricevendo  l'influenza  degli  elementi  che  la
+ circondano  in  Natura,  partorisce un bimbo sempre diverso.  Ma quelli che si
+ avvicinano di piu' alla Forma risultano comunque essere i migliori.
+
+ - Vuoi dirmi comunque,  o  sommo  vegliardo,  che  se non vi fossero influenze
+ naturali esse partorirebbero bambini sempre uguali?
+
+ - Certamente.  Ma cio', essendo la donna  stessa  un  elemento  della  Natura,
+ risulta alquanto impossibile.  Non credi?
+
+ -  Comincio  a  capire.  Ma dimmi, maestro dal grigio pelo, quest'abilita' del
+ "liberare la Forma" come viene da voi considerata?
+
+ - E' una capacita' magica che  non  tutti possiedono, e quei pochi che l'hanno
+ devono coltivarla ed affinarla, anche a costo di rubare tempo alla caccia.  E'
+ il dono di riuscire a vedere le forme del Mondo nascoste in Natura.
+
+ - E dimmi dunque: come riesci a capire che la forma e' stata liberata?
+
+ - Dall'esempio del parto puoi gia' intuire come essa non  sia  mai  liberabile
+ nella  sia  interezza,  poiche'  la Natura stessa di chi la libera la modifica
+ irreparabilmente; sappi pero' che l'oggetto  che si avvicina alla forma finale
+ acquista un certo magnetismo.
+
+ - Si, venerando, poco fa parlavi di magia...
+
+ - Un oggeto che incarna una Forma, libera (per la sua  purezza)  un'attrazione
+ irresistibile  da parte delle altre forme nascoste in Natura.  Tieni conto che
+ tutti i nostri ideali (una caverna secca,  esposta al sole, una bella e docile
+ compagna, molti figli sani, attrezzi robusti) tutti i desideri di ogni  essere
+ vivente,  animali  inclusi,  altro non sono se non tentativi di raggiungere la
+ corrispondente perfetta Forma del Mondo.   Questo anche per i desideri malvagi
+ (l'odio puro, l'avidita', l'ingordigia, la rabbia...).
+
+  Il saggio si sporge per afferrare un ciuffo d'erba.  Mi  offre  un  filo,  un
+ altro  se  lo  caccia  nella larga bocca.  - Ecco che alcuni lavori, seppur di
+ ottima fattura, non attirano piu' di tanto la nostra attenzione.  Altri, forse
+ pure apparentemente piu' rozzi, riescono  a  colpirci per la forza della forma
+ rappresentata.  Ecco perche'  una  buona  rappresentazione  dell'uccisione  in
+ caccia  di  un  bufolosauro  puo'  essere  capace  di  portare a noi la bestia
+ migliore di un branco.
+
+ - Ecco maestro, ora non vorrei dire ma...  mi sembra un po' superstizione...
+
+ Lo scimmione arriccia le  labbra  in  un  gesto  che  interpreto di stizza.  -
+ Perche'?  nel Mondo i simili si attraggono.
+
+ - Maestro, la scienza insegnera' che sono gli opposti ad attrarsi.
+
+ - La tua scienza si sbaglia.  Gli opposti sono uno parte dell'altro: il giorno
+ non avrebbe significato  senza  notte,  ne'  il  freddo  avrebbe  una  propria
+ esistenza  senza  aver  provato  il caldo...  Ma questa e' un'altra storia, mi
+ sembra.  - Agita la mano, come per scacciare una mosca fastidiosa.
+
+ - Quindi la creativita' dell'individuo non esiste.
+
+ - Creativita' dell'individuo?   Ma  certo  che  si.   E' lui che dall'argilla,
+ dalla polvere, riesce ad ottenere la forma.  E' lui che scava  le  ossa  e  le
+ pietre...
+
+ - Si certo, perdonatemi maestro, ma l'invenzione?  l'idea?  il nuovo concetto?
+ - Si avvicinano due femmine che si accoccolano al nostro fianco e cominciano a
+ spulciarci, lo scimminide non vi fa caso.  Decido di imitarlo.
+
+ - Non ti seguo.  Perche' dici cio'?  Queste persone hanno il dono di vedere le
+ forme del mondo e l'abilita' manuale di riuscire in parte a mostrarcele.  Sono
+ molto  utili all'orda per gli oggetti magici che riescono a produrre e vengono
+ trattati con rispetto.   Ma  questo  ha  poco  a  che  vedere  con scoperte ed
+ invenzioni preziose quali la concia delle pelli, l'impiego della ruota o l'uso
+ delle lance nella caccia.
+
+ - Capisco.  Quindi nulla di nuovo sotto il sole fino alla fine dei tempi.
+
+ - Per noi ora si.  Ma forse in futuro qualcuno vedra' una forma nuova  e  piu'
+ potente  imprigionata  nell'oggeto da lavorare.  La ricerca del nuovo e' nella
+ nostra natura: anche gli animali,  e  fra  questi  pure i piu' stupidi come il
+ mucchidis bicorno, perdono presto interesse di fronte agli elementi nuovi  che
+ attraversano  la  loro quieta esistenza.  Non vedo perche' l'uomo (tra l'altro
+ estremamente piu' vivace del  bicorno)  non  possa  avere  a  noia una forma e
+ cercarne altre.
+
+ - Maestro, ma la capacita' artistica?  il concetto di arte...
+
+ - Ora sono io a non seguirti piu'.  Parlami di queste parole.
+
+ - Sono...  sarebbero...  saranno...  Addio saggio dra gli Aargh.  Il mio tempo
+ e' scaduto.
+
+ - Addio straniero.  Che tu possa vedere la fine della tua strada.
+
+ - In un modo o nell'altro...
+
+  Mi allontano sconsolato dalle caverne.   In  effetti  quando  l'artista  crea
+ attinge  da...   da  influenze  sociali,  conoscenze sue certo.  Ma il nucleo,
+ l'idea...  non e' forse colui che  per  primo  riesce vedere cio' che dopo una
+ generazione sara' considerato ovvio?  non e' forse colui che libera una  Forma
+ del Mondo nascosta e la porta in Natura, sotto gli occhi di tutti?
+
+ Ma allora per la programmazione l'unico vero artista e' stato...
+
+ - Straniero!
+
+ - Si?  - Ugh mi viene in contro di corsa.
+
+ - Ed il regalo promesso?
+
+ - Ah gia'!  - Gli porgo il mio pacchetto di sigarette e l'accendino.
+
+ - Queste si fumano.
+
+ - Si fumano?
+
+ - Si.  E' una vecchia storia.  Ora ti faccio vedere...
+
+
+
+
+
+
+                                                                Artore Londona
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   9  ###                                                ERRATA CORRIGE ###
+ ############                                                La direzione   ###
+
+  Il buon .mau.  (che e' un vero pistino) mi ha fatto notare  come  nell'indice
+ mi  fossi  dimenticato  d'inserire  la  biografia  del Raffa.  Ecco che faccio
+ ammenda.
+
+  Dunque nel vostro indice '93 dovete inserire al posto di:
+
+                                       | Biblio di Costa(II)         # 35 p. 56
+                                       |
+ le segg rige:
+
+                                       | Biblio di Costa(II)         # 35 p. 56
+                                       | Biblio di Raffa             # 28 p. 16
+
+ Il fattacio perche' la  biografia  era  allegata  alla  puntata sul REXX e non
+ messa a parte. Ecco perche' mi scappo'.
+
+                                                                   La direzione
+
+ ############                                                               ###
+ ###  10  ###                                    NOTIZIE FIDONET REGION 33  ###
+ ############                                    NEWS                       ###
+
+
+                                *** NET 331 ***
+
+ Mi  ha  appena  risposto  Vertigo, deve avere qualche problemuccio!  Il nostro
+ piu' sincero augurio nel riuscire a risolverlo al piu' presto nel migliore dei
+ modi.
+
+ From : Vertigo                             2:331/301      02 Feb 94   19:06:48
+
+ RR> ... una richiesta ... di news
+
+ Sono nella shit fino al neck.  La notizia piu' tragica e' che mi si e' tritato
+ un disco,  con  perdita  di  600  mega  di  files.   Ora  vedo di raffazzonare
+ qualcosa.
+
+                                                                          Ciao,
+                                                                          --V--
+                                                                      2:331/301
+
+                                *** NET 332 ***
+
+ OsseCui Renato!
+
+ Ecco una cosa che l'altra volta ho dimenticato di scriverti:
+ [NdE: cio' e' riprovevole]
+
+ Mario Battacchi (332/403) e Paolo Sinigaglia (332/407) sono i due nuovi BB  di
+ net ed hanno preso rispettivamente gli address 332/1 e 332/2.
+
+ Una cosa: potresti rinnovare la lista dei nodi ISN che alleghi a Telematicus?
+ In quella che usi ora c'e' ancora il nostro vecchio (di oltre un anno) numero
+ telefonico.
+
+ Grazie!
+
+ [NdE:  Vedro'  se  la  mia  pigrizia  ed  il  mio  *cesso*  di  Supra  me  lo
+ permetteranno]
+
+                                                  |'!Chao!_
+                                                  |__ OrsO/
+                                                         /
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From : Stefano Marangoni                   2:332/502.13    13 Jan 94  22:11:52
+
+RR> qualche novita'? qualche articolao caldo, caldo?
+
+Ummm... periodo di crisi... :-(
+
+Il  mio  CoSysOppo sta mettendo a punto un programmillo che si prospetta molto
+interessante...  ti dico  solo  che  servira'  per  migliorare  la  vita (e la
+bolletta) ai points.
+
+Comunque, siccome non voglio propinarti del VaporWare, quando  la  cosa  sara'
+pronta  e operativa, stai sicuro che Telematicus avra' il suo bell'articoletto
+il anteprima.
+
+ RR> ciao& buon anno! :)
+
+Anche a te.
+
+Ciao.
+        Mgo
+
+                                *** NET 333 ***
+
+ Hello Renato!
+
+ Tuesday January 25 1994 07:32, Renato Rolando wrote to Herve Miozzo:
+
+ RR> p.s.
+ RR>         ci sono novita' nella ex isola felice??
+
+ Se  parliamo  di  novita'  relative al NET, direi che l'isola felice viaggia a
+ gonfie vele senza intoppi ....
+
+ Ci sono invece novita' nell'ambito  della  nostra zona, pero' e' ancora presto
+ per parlarne, al momento giusto riceverai notizie.
+
+ Aloha !!
+                                                                Herve Miozzo
+                                                                2:333/511.20000
+
+                                *** NET 334 ***
+
+  From : Denis Truffo                        2:334/101       24 Jan 94  21:04:00
+  Subj : Nuova BBs
+
+ Ciao a Tutti.
+  il mio nome e' Denis Truffo e....
+
+ Sta nascendo una nuova BBS a Torino
+
+                         SICAP BBS +39 11 3835254
+
+ Le Aree di interesse saranno prevalentemente:
+                                    NOVELL
+                                    COMPAQ
+                                    PC in Genere.
+
+ Il SysOp (Denis Truffo) ed alcuni suoi collaboratori sono inoltre fanatici  di
+ altre cose, estranee al mondo PC&C.
+
+ Ovvero: Volo a Vela (Aliante !!!) Modellismo Aereo (Veleggiatori RC da pendio,
+         Traino Aereo etc)
+
+ Avrei  piacere  di  avere  la  collaborazione  di  qualcuno  di  voi,  assidui
+ assordatori  di  poveri  vecchietti  sonnecchianti(Quando  sbagliate numero di
+ telefono di notte ed uccidete qualche  vecchietta con i Vs.  fischi telefonici
+ !!!), per  impostare  aree  di  comune  interesse.   Sono  aperto  a  tutti  i
+ suggerimenti !!!
+
+ La configurazione dalla BBS attuale e' la seguente:
+         PC 80386 33 Mhz. (Presto sara' sostituito da un 486 COMPAQ)
+         HD 150 Mb.(Presto affiancato da altri 650, gia' pronti, ma per
+                    il momento non c'e nulla per riempirli)
+         CD ROM. (E che ci mettiamo dentro ???)
+         Modem MULTITECH MT1432 (14.400)
+
+         Se il traffico lo richiedera', sono gia pronte altre 2 linee.
+
+ Se  qualcuno  di  voi  e'  interessato a collaborare attivamente (o meno) puo'
+ lasciare un messaggio su:
+
+         SICAP BBS (+39 11 38.35.254) Denis Truffo (Alias SysOP)
+         Lord DRake                   Denis Truffo
+
+
+ Grazie in aticipo per la  collaborazione  o  anche  solo per aver letto questo
+ mex.  !!!!  SALUTONI
+
+                                                         DENIS SysOp SICAP BBS
+ þ OLX 2.1 þ Try it   º³Û³ºÝ³ºÝ³³
+                      ^^^^^^^^^^^[NdE: questo forse non tutti lo  vedranno,  ma
+                                       e' troppo originale!]
+
+                                *** NET 335 ***
+
+ Ciao Renato!
+
+  RR>         tutto bello e giosioso? SI?
+
+ A parte la crisi economica... direi di si ;)
+
+  RR>         e' anche il mio caso. :)
+
+ Ne sono felicissimo.
+
+  RR> ci sono novita' da inserire su Telematicus?
+
+ Be', direi che si sta affermando un fenomeno  di  costume  interessante  sulle
+ BBS.  Il sysop sta diventando un disk-jockey!
+
+ E  gia', perche' con l'avvento dei CdRom la fantasia, gia' di per se sfrenata,
+ dei sysops ha ormai superato se  stessa;  si  compra  (e si mette in linea) di
+ tutto!  Donne nude, uomini nudi, cani nudi :) ed ogni sorta di  cosa,  purche'
+ contenuta nei Cd.
+
+ E  cosi'  il  sysop  passa  il  suo tempo a "mixare" i dischetti argentati nel
+ lettore ottico, mentre gli utenti  freneticamente chiedono sempre di piu'.  Le
+ migliori BBS gia' offrono 6, 7 CdRom in linea...  dove andremo  a  finire  ???
+ :)
+
+ Un salutone!
+                                                                  Enrico
+                                                                  Franceschetti
+                                                                  2:335/212
+
+
+
+ ******************************************************************************
+
+ Telematicus puo` essere  downloadato  dai  nodi  che ricevono la distribuzione
+ ISN.  Assieme alla rivista ho inserito  ISN-NODE.265, la lista di tutte le BBS
+ appartenenti ad ISN.  Non  e'  molto  aggiornato,  come mi hanno fatto notare.
+ Vedro' di aggiornarlo al piu' presto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ####				 End of TELEM036			   ####

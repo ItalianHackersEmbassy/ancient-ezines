@@ -1,0 +1,751 @@
+         
+    *****   Vol.  1   *****      Pag.  1      *****   Numero   2   *****
+
+    ====================================================================
+
+    @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+      @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+      @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+      @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+      @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+    ====================================================================
+
+                                Febbraio 1991
+
+    ====================================================================
+
+      Bollettino telematico mensile a cura del network 2:334 - Fidonet 
+
+                 Editor incasinatus:    Maurizio Codogno
+                 Editor magnus:         Franco Carcillo
+                 Editor esoticus:       Rudy Saporiti
+                 Editor amigabilis:     Renato Rolando
+                 Editor montanus:       Roberto Piola
+                 Collaboratori:         Tutti voi :-)
+
+    --------------------------------------------------------------------
+
+                            IN   QUESTO   NUMERO :
+
+    Editoriale    .   .   .   .   .   .   .   .   .   .   .   .  pag.  2
+    Fidonet, come e perche`, di Franco Carcillo   .   .   .   .  pag.  3
+    Che cos'e`... QNX, di Rudy Saporiti   .   .   .   .   .   .  pag.  4
+    Il programmino    .   .   .   .   .   .   .   .   .   .   .  pag.  5
+    Il gergo Fidonet - parte 2, di Roberto Piola  .   .   .   .  pag.  9
+    VivAmiga, di Renato Rolando   .   .   .   .   .   .   .   .  pag. 10
+    Le Chat Videotel, di Maurizio Vescovi .   .   .   .   .   .  pag. 12
+    Notizie dal Net 334   .   .   .   .   .   .   .   .   .   .  pag. 13
+    Il prossimo numero    .   .   .   .   .   .   .   .   .   .  pag. 13
+
+    ====================================================================
+
+         Il materiale presente in Telematicus e` (C) dei singoli autori.
+    E` espressamente  consentita  la  distribuzione  e il riutilizzo del
+    bollettino  in  tutto  o in  parte,  purche` non  a fini di  lucro e
+    citando sempre la fonte di provenienza. 
+
+    *****   Vol.  1   *****      Pag.  2      *****   Numero   2   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                       -----> EDITORIALE
+                                                              ==========
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          Ad Alberto, indimenticabile SysOp di AmnesiA.
+
+
+                                                             Il net 334
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    *****   Vol.  1   *****      Pag.  3      *****   Numero   2   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                          -----> FIDONET, COME E PERCHE`
+                                                 =======================
+
+         In principio era il BBS. Isolato, autonomo, "single". 
+         Un sistema telematico monolinea, con proprie aree per i files a 
+    disposizione  e zone riservate a messaggi coprenti vari aspetti  sia 
+    tecnici che socioculturali.
+         Con l'aumentare del numero dei BBS divento` essenziale  mettere 
+    a  punto  un  sistema in grado di permettere  ai  singoli  SysOp  di 
+    scambiarsi nel modo piu` automatico possibile dei messaggi: non  era 
+    assurdo  che  i servizi, cosi` capaci di  "ricevere"  chiamate,  non 
+    fossero  in  grado di comunicare, tra di  loro,  "unattended"  senza 
+    l'intervento costante dell'uomo?
+         Detto,  fatto. Tom Jennings implementa in Fido, il primo  soft-
+    ware  di successo per la gestione di un BBS, un metodo di  discerni-
+    mento  tra chiamate "umane" e quelle di altri sistemi e vi  aggiunge 
+    la  capacita`  di effettuare, in determinati orari,  delle  chiamate 
+    verso altri servizi telematici. Ecco dunque che da "isole  telemati-
+    che"  si passa ad un "arcipelago telematico" in grado di  comunicare 
+    fittamente,  interscambiare messaggi e ritrasmettersi  anche  files. 
+    La "rete" FidoNet, in una parola.
+         FidoNet  e`  strutturata in Zone, ogni Zona  in  Regioni,  ogni 
+    Regione  in Net, ogni Net in Hub, e ogni Hub in Nodi (i  veri  BBS), 
+    ogni Nodo infine puo` avere degli utenti privilegiati detti "point". 
+    L'Italia fa parte della Zona 2 (Europa), e il suo numero di  Regione 
+    e`  il  33. Sono stati costituiti 5 Net, rispettivamente  331,  332, 
+    333,  334, 335. Il Piemonte e` il Net 334, la Lombardia il  331,  il 
+    Triveneto il 333, il Centro Italia 332 ed il resto, isole  comprese, 
+    335. Ogni Net ha il suo bravo coordinatore. :-)
+         Per il Net 334 avete 3 secondi per indovinarne il nome.
+         Grazie per aver pensato, giustamente, a me.
+         Nel Net 334 non sono ancora attivi gli Hub (ma lo saranno  pre-
+    sto), struttura facoltativa utile in caso di territori ad alta  den-
+    sita`  di  BBS. Abbiamo una dozzina di BBS,  nella  dizione  FidoNet 
+    "nodi",  la  gran parte concentrata a Torino, e molti nodi  hanno  i 
+    point.  Per chi non lo sapesse Maurizio Codogno, ad esempio,  e`  un 
+    point di Charlie's Puppies.
+         Cosa  fa  il Network Coordinator? Vigila, notte e  giorno,  sul 
+    proprio Net e la sua finestra e` sempre illuminata. Tra i suoi  com-
+    piti  principali quello di assegnare "il numero di nodo", che  uffi-
+    cializza l'entrata nella rete. Grazie a questo numero infatti, inse-
+    rito  nella Nodelist (ovvero nell'elenco dei Nodi), il  BBS  diventa 
+    noto  a tutto il mondo FidoNet e puo` cosi` iniziare a  ricevere  ed 
+    inviare messaggi agli altri sistemi.
+         L'esplosione nell'uso dell'Echomail (vedi articolo del Piola in 
+    Telematicus  n. 1) ha imposto l'affiacamento di un responsabile  di-
+    retto  per tale messaggistica: il Network Echomail  Coordinator  (il 
+    NEC per il Net 334 e` PaoloGiulio Gialli di Eureka). Esiste anche il 
+    Regional Echomail Coordinator, Stefano Pasquini di Civitavecchia.
+         A capo di tutti il Regional Coordinator, Giorgio Leo Rutigliano 
+    che per primo ha aperto un nodo FidoNet in Italia a fine '85.
+         Tutto chiaro? No? Beh! Scrivetemi un messaggio, se avete  preso 
+    Telematicus non vi dovrebbe essere difficile farlo.
+                                               Franco Carcillo (2:334/1)
+
+    *****   Vol.  1   *****      Pag.  4      *****   Numero   2   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                               -----> CHE COS'E` ... QNX
+                                                      ================== 
+
+               QNX: un sistema operativo rivoluzionario.
+
+          Sentiamo parlare sempre piu` spesso di sistemi operativi  mul-
+    tiutente,  di reti locali, di elaborazione in multiprocessor; a  tal 
+    proposito  vorrei segnalarvi il QNX, della Quantum  Software  System 
+    Ltd,  un prodotto praticamente sconosciuto in Italia, ma  molto  ap-
+    prezzato in Nord America, Francia, Germania, Norvegia, Svezia.
+
+           Il QNX e` un sistema operativo real time, multitasking,  mul-
+    tiuser, multiprocessor, estremamente flessibile, capace di  "girare" 
+    su microprocessori Intel 8088-8086-80286-80386. Richiede 256  Kbytes 
+    di  ram ed un hard disk da 10 Mbytes, su 80286 e 386 e` in grado  di 
+    lavorare in protected-mode estendendo l'indirizzamento di memoria  a 
+    16Mbytes.
+
+          Trova  il  suo campo d'applicazione ideale  nel  controllo  di 
+    processi industriali, ma puo` venir utilizzato con profitto in molti 
+    altri settori: dalla gestione di data base alla tenuta della  conta-
+    bilita`, dalla trasmissione dati al controllo di impianti di  allar-
+    me, all'office automation. Il suo punto debole e` la relativa caren-
+    za  di software, specie se confrontata alla situazione del DOS o  di 
+    UNIX.  Molti  sono comunque gli applicativi  commercializzati:  data 
+    base  (tra cui uno compatibile con i sorgenti DB III), word  proces-
+    sor,  fogli elettronici, programmi di comunicazione, emulatori  Dos, 
+    compilatori vari. E poi per inizio '91 e` stata annunciata  l'uscita 
+    di una nuova release del sistema operativo che sara` compatibile  al 
+    100%  con lo standard POSIX, rendendo cosi` disponibile, in  un  sol 
+    colpo,  un'enorme  quantita` di sorgenti shareware in C  pronti  per 
+    essere compilati!
+
+          Esiste  una  rete  locale dedicata al QNX,  basata  su  schede 
+    arcnet,  con topologia di tipo token passing bus, che  permette  una 
+    velocita` di trasmissione di 2,5 Megabits al secondo. Una LAN quindi 
+    in linea con le necessita` di un sistema operativo real time, capace 
+    di collegare fra loro fino a 256 personal computer. Da  sottolineare 
+    come per l'utente l'utilizzo della rete risulti del tutto trasparen-
+    te,  sia che operi su un sistema a nodo singolo, sia che lavori  con 
+    un centinaio di elaboratori in rete: praticamente l'utente si  trova 
+    ad avere a che fare con un'unica macchina virtuale.
+  
+           Quanto il QNX riesce a spremere da un personal di classe XT o 
+    AT ha semplicemente del sorprendente: sorge il dubbio che il Dos, ed 
+    in parte anche Unix, facciano oramai parte del passato dell'informa-
+    tica.
+
+          Eccellente e` l'assistenza post-vendita garantita ai  clienti, 
+    tutta imperniata su QUICS, un sistema telematico che rende  disponi-
+    bili decine di aree conferenze, un ampio parco programmi e tutti gli 
+    aggiornamenti  dei prodotti commercializzati dalla Quantum. Per  gli 
+    utenti  QNX viene anche pubblicata una rivista mensile con  articoli 
+    su tutte le ultime novita`.
+
+    *****   Vol.  1   *****      Pag.  5      *****   Numero   2   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+           Insomma,  se state pensando di passare ad un  sistema  multi-
+    utente  e real time, il QNX rappresenta una valida alternativa  alle 
+    soluzioni tradizionali.
+
+           Per  chi  fosse interessato ad avere un  primo  contatto  con 
+    questo sistema operativo, segnalo un bbs che gira proprio sotto QNX, 
+    raggiungibile,  via  modem, ai numeri: 011-3100485/70/78  -  24h  al 
+    giorno.
+
+                                                Rudy Saporiti  (2:334/6)
+
+
+
+                                                   -----> IL PROGRAMMINO
+                                                          ==============
+
+         Questa volta, piu` che di programmino, bisognerebbe parlare  di 
+    programmone... Abbiamo la bellezza di sette listati, tratti da  Com-
+    puter  Language di dicembre 1990, che lavorano sulle date. Lo  scopo 
+    finale  e` quello di scrivere un calendario per un anno a scelta  (o 
+    quasi, tra il 1900 a.C. e il 2900 d.C), e gia` che ci siamo di sape-
+    re la data della Pasqua (solo a partire dall'anno zero: tanto  prima 
+    non c'era di sicuro :-) ).
+         Il primo listato e` l'include file DATE.H, dove vengono date le 
+    definizioni necessarie. Il numero di giorno giuliano rappresenta  il 
+    numero  di  giorni intercorsi tra le 12.00 ora di Greenwich  del  1. 
+    gennaio  4713 a.C. e il giorno dato: ad esempio il numero di  giorno 
+    giuliano  per il 5 maggio 1991 e` 2448381.5. Le date  vengono  tutte 
+    rappresentate come la parte intera di questa forma per comodita`.
+         I listati 2 e 3 eseguono la trasformazione tra data in  formato 
+    standard e numero di giorno giuliano; il listato 4 calcola il giorno 
+    della  settimana corrispondente a una data e il listato 5  controlla 
+    se una data e` possibile (semplicemente converte la data in un gior-
+    no giuliano e viceversa, controllando se il risultato e` lo stesso). 
+    Il  listato 6 calcola invece la data della Pasqua, utilizzando  l'e-
+    patta,  e  il listato 7 riassume finalmente gran parte  delle  altre 
+    funzioni per scrivere il calendario di un anno. Buon divertimento!
+
+
+    $$$$$$$$$$ listato 1: DATE.H $$$$$$$$$$
+    /* le date sono rappresentate come numeri di giorno giuliano e    */
+    /* rappresentate come long int (almeno 32 bits)                   */
+    typedef long DATE;
+    /* ANSI function prototypes */
+    DATE julian_date(int day, int month, int year);
+    void calendar_date(DATE jdate, int *day, int *month, int *year);
+    int  valid_date(int day, int month, int year);
+    int  day_of_week(DATE date);
+    DATE easter(int year);
+    void month_calendar(int month, int year);
+    void year_calendar(int year);
+
+
+
+
+    *****   Vol.  1   *****      Pag.  6      *****   Numero   2   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+    $$$$$$$$$$ listato 2: JUL_DATE.C $$$$$$$$$$
+    #include "date.h"
+    DATE julian_date(int day, int month, int year)
+    /* calcola il numero di giorno Giuliano per il giorno, mese, anno */
+    /* specificati. Se l'anno e` a.C. deve essere negativo.           */
+    {
+       int             a, b;
+       float           year_corr;
+       /* Correzione per gli anni negativi. */
+       year_corr = (year > 0 ? 0.0 : 0.75);
+       if (month <= 2) {
+          year--;
+          month += 12;
+       }
+       b = 0;
+       /* per funzionare con la riforma gregoriana */
+       if (year * 10000.0 + month * 100.0 + day >= 15821015.0) {
+          a = year / 100;
+          b = 2 - a + a / 4;
+       }
+       return (DATE) (long) (365.25 * year - year_corr) + 
+              (long) (30.6001 * (month + 1)) + day + 1720994L + b;
+    }
+    $$$$$$$$$$ listato 3: CAL_DATE.C $$$$$$$$$$
+    #include "date.h"
+    void calendar_date(DATE jdate, int *day, int *month, int *year)
+    /* Calcola il giorno, mese e anno corrispondente a un numero di   */
+    /* giorno Giuliano. L'anno sara` negativo se a.C.                 */
+    {
+       long    a, b, c, d, e, z, alpha;
+       z = jdate + 1;
+       /* per funzionare con la riforma gregoriana */
+       if (z < 2299161L)
+          a = z;
+       else   {
+          alpha = (long) ((z - 1867216.25) / 36524.25);
+          a = z + 1 + alpha - alpha / 4;
+       }
+       b = a + 1524;
+       c = (long) ((b - 122.1) / 365.25);
+       d = (long) (365.25 * c);
+       e = (long) ((b - d) / 30.6001);
+       *day   = (int) b - d - (long) (30.6001 * e);
+       *month = (int) (e < 13.5) ? e - 1 : e - 13;
+       *year  = (int) (*month > 2.5) ? (c - 4716) : c - 4715; 
+    }
+    $$$$$$$$$$ listato 4: DAYWEEK.C $$$$$$$$$$
+    #include "date.h"
+    int day_of_week(DATE date)
+    /* calcola il giorno della settimana per il numero di giorno      */
+    /* Giuliano specificato.  1=domenica, 2=lunedi`, ..., 7=sabato    */
+    {
+       return (int) ((date + 2) % 7 + 1);
+    }
+
+
+    *****   Vol.  1   *****      Pag.  7      *****   Numero   2   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    $$$$$$$$$$ listato 5: VALID_D.C $$$$$$$$$$
+    #include "date.h"
+    int valid_date(int day, int month, int year)
+    /* valida il giorno, mese, anno specificati. Per esempio, le date */
+    /* seguenti non sono valide:                                      */
+    /* 29 febbraio 1991 (non un anno bisestile)                       */
+    /* 31 novembre      ( 30 di` conta novembre...)                   */
+    {
+       int      cal_day, cal_month, cal_year;
+       /* conversione data - numero di giorno Giuliano e viceversa */
+       calendar_date(julian_date(day, month, year),
+                     &cal_day, &cal_month, &cal_year);
+       /* la data e` valida se giorno, mese e anno non cambiano */
+       return ((day == cal_day) && 
+               (month == cal_month) && (year == cal_year));
+    }
+
+    $$$$$$$$$$ listato 6: EASTER.C $$$$$$$$$$
+    #include "date.h"
+    DATE easter(int year)
+    /* calcola il numero di giorno giuliano della Pasqua per l'anno   */
+    /* specificato, che non puo` essere negativo.                     */
+    {
+       int         a, b, c, d, e, f, g, h, i, k, l, m, n, p, day, month;
+       if (year >= 1583)   {
+          /* calcola la data di Pasqua per il calendario gregoriano */
+          a = year % 19;    b = year / 100;
+          c = year % 100;   d = b / 4;
+          e = b % 4;        f = (b + 8) / 25;
+          g = (b - f + 1) / 3;
+          h = (19 * a + b - d - g + 15) % 30;
+          i = c / 4;        k = c % 4;
+          l = (32 + 2 * e + 2 * i - h - k) % 7;
+          m = (a + 11 * h + 22 * l) / 451;
+          n = (h + l - 7 * m + 114) / 31;
+          p = (h + l - 7 * m + 114) % 31;
+          month = n;  day = p + 1;
+       }  else  {
+          /* calcola la data di Pasqua secondo il calendario giuliano */
+          a = year % 4;     b = year % 7;
+          c = year % 19;    d = (19 * c + 15) % 30;
+          e = (2 * a + 4 * b - d + 34) % 7;
+          f = (d + e + 114) / 31;
+          g = (d + e + 114) % 31;
+          month = f ; day = g + 1;
+       }
+       return julian_date(day, month, year);
+    }
+
+
+
+
+
+
+
+    *****   Vol.  1   *****      Pag.  8      *****   Numero   2   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    $$$$$$$$$$ listato 7: CALENDAR.C $$$$$$$$$$
+    #include "date.h"
+    void month_calendar(int month,  int year)
+    /* Stampa il calendario del mese specificato.                     */
+    {
+       DATE     b_date, e_date, c_date;
+       int      day, c_day, c_month, c_year;
+       /* calcola il numero di giorno giuliano per il primo e */
+       /* l'ultimo giorno del mese. */
+       b_date = julian_date(1, month, year);
+       if (month < 12)
+          e_date = julian_date(1, month + 1, year) - 1;
+       else
+          e_date = julian_date(1, 1, year + 1) - 1;
+       printf("%2d/%2d:\n\n", month, year);
+       printf("DOM LUN MAR MER GIO VEN SAB\n\n");
+       /* mette il primo giorno del mese sotto la colonna giusta. */
+       for (day = 1; day < day_of_week(b_date); day++) printf("    ");
+       /* stampa tutti i giorni. */
+       for (c_date = b_date; c_date <= e_date; c_date++) {
+          calendar_date(c_date, &c_day, &c_month, &c_year);
+          printf("%3d ",c_day);
+          if (day_of_week(c_date) == 7)    printf("\n");
+       }
+       /* se in questo mese cade Pasqua, stampa la data. */
+       if ((year >= 0) && 
+                   (easter(year) >= b_date && easter(year) <= e_date)) {
+          calendar_date(easter(year), &c_day, &c_month, &c_year);
+          printf("\n\nPasqua:  %2d/%2d", c_day, c_month);
+       }
+       printf ("\n\n\n");
+    }
+    /******************************************************************/
+    void year_calendar(int year)
+    /* Stampa un calendario annuale per l'anno specificato.           */
+    {
+       int         month;
+       for (month = 1; month <= 12; month++)
+          month_calendar(month, year);
+    }
+    /******************************************************************/
+    void main(int argc, char **argv)
+    {
+       if (argc != 2) {
+          printf("calendar:   uso:  calendar (anno)\n");
+          exit(-1);
+       }
+       /* genera un calendario annuale per l'anno specificato */
+       year_calendar(atoi(argv[1]));
+    }
+
+
+
+
+
+    *****   Vol.  1   *****      Pag.  9      *****   Numero   2   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                 -----> IL GERGO FIDONET
+                                                        ================
+
+         Ancora due cosette sui termini che potreste incontrare navigan-
+    do tra la messaggistica inter-bbs.
+
+         Innanzitutto,  l'Origin,  di cui ogni nodo  va  orgoglioso:  in 
+    fondo ad ogni messaggio echo c'e` una riga che contiene, quasi  come 
+    un timbro postale, il numero del nodo da cui e` partito il messaggio 
+    preceduto da un motto, od "Origin" che e` stabilito dal sysop, o dal 
+    possessore  del point, e che puo` trasmettere di tutto: dal  nome  e 
+    numero  di  telefono del Bbs a citazioni piu` o meno  storpiate  e/o 
+    comiche,  a battute varie. Una volta mi divertivo a collezionare  le 
+    origin  che vedevo transitare, ma poi ho smesso. Se desiderate,  po-
+    trei cercare e rispolverare il dischetto per farci quattro risate su 
+    di  un po' di vecchiume (osate scrivere dei messaggi! non vi  mangia 
+    nessuno).
+
+         Sempre  in fondo al messaggio, alcuni programmi  visualizano  i 
+    cosiddetti "SEEN-BY" che indicano a quali nodi il messaggio e` stato 
+    spedito, e percio` "l'hanno visto". Sono sequenze di numeri di  nodo 
+    che  spesso  non hanno nessuna importanza per  l'utente,  e  infatti 
+    spesso  sono lasciate appositamente nascoste, ma che hanno  la  loro 
+    ragione di esistere perche` se non ci fossero un messaggio  rischie-
+    rebbe di essere rispedito piu` volte ad uno stesso nodo. Analoga  al 
+    SEEN-BY  e` la linea di "PATH": essa indica il percorso seguito  dal 
+    messaggio per giungere fino a voi.
+
+         Subito  prima  dell'origin, invece, c'e` la  "tear  line":  tre 
+    trattini --- che indicano la fine del messaggio e che ossono  essere 
+    seguiti dal nome del primo programma che ha maneggiato quel  messag-
+    gio: una forma di pubblicita` per il software di gestione del BBS.
+
+         Altri termini ricorrenti, utilizzati a proposito dello  smista-
+    mento della posta, sono Hub, Host, Backbone e Gate (o Zonegate).
+         Un  Host  e` un Bbs che processa ("forwarda")  abitualmente  la 
+    posta per un certo numero di altri nodi. A rigor di termini, solo  i 
+    Bbs  a capo dei vari net sono detti host: in questo periodo di  cre-
+    scita della rete, si e` deciso di introdurre un altro livello inter-
+    medio  di smistamento posta per semplificare la serie di  telefonate 
+    necessaria  per lo scambio della posta. Questi nodi  di  smistamento 
+    periferici sono detti invece Hub.
+         I  backbones sono in un certo senso "i capi degli Host":  nella 
+    rete  Fidonet  Italiana ce ne sono solo due (AmnesiA  per  la  posta 
+    nazionale e BitONE per quella internazionale), che chiaramente  sono 
+    i punti cruciali nel traffico della posta.
+         I  gates  sono nodi particolari attraverso cui  passano  (cioe` 
+    vengono  "routati")  i messaggi destinati a Bbs di altre  zone  (nel 
+    senso Fidonet di continenti: gli USA sono la zona 1, L'Europa la  2, 
+    il  Pacifico  la 3, ...) o di altre reti (in  quest'ultimo  caso  si 
+    parla piu` propriamente di Gate, mentre nell'altro caso abbiamo  gli 
+    ZoneGates).
+         Termini ricorrenti nei messaggi tra sysops sono ancora "mettere 
+    in hold", "filerequest" e "fileattach". un filerequest e` una  moda-
+
+    *****   Vol.  1   *****      Pag. 10      *****   Numero   2   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    lita`  di scambio files in cui un sistema "chiede" uno o piu`  files 
+    all'altro  sistema,  in maniera automatica ad  un'ora  prestabilita; 
+    fileattach e` l'invio di un file insieme ad un messaggio; mettere in 
+    hold un file significa dire al proprio sistema di "tenere da  parte" 
+    quel file per un certo altro sistema il quale lo ricevera` la  prima 
+    volta che effettua una chiamata.
+
+         Non  mi  resta che salutarvi, darvi  appuntamento  al  prossimo 
+    articolo (quando ne avro` l'ispirazione), raccomandarvi di  chiedere 
+    cio`  che ancora non sapete ed augurarvi buona lettura del resto  di 
+    Telematicus.
+
+          @   @
+                   Ciao                         Roberto Piola (2:334/15)
+          \___/
+
+
+                                                         -----> VIVAMIGA
+                                                                ========
+       
+                         AREXX, questo sconosciuto
+    
+             Mi accingo ora a descrivere uno dei programmi  fondamentali 
+    nel  mondo Amiga; l'AREXX, la cui prima versione risale  al  lontano 
+    1987, e che ha conquistato a tal punto il sistema operativo di  que-
+    sta  meravigliosa macchina da essere incluso come  parte  integrante 
+    del nuovo SO 2.0!
+                 Perdonatemi  dunque se il mio linguaggio non sara`  al-
+    l'altezza  del compito (giustificato anche dal fatto  che  l'"Editor 
+    princeps", come ama definirsi, impone tempi strettissimi di stesura) 
+    [NDE: i tempi di stesura sono ricavabili togliendo una settimana  al 
+    primo  del  mese, altrimenti non si esce in tempo :-) .mau.]  e  non 
+    abbiatela a male se un cosi` delicato argomento venga presentato  su 
+    questa umile testata!
+                 Ma,  come  dice l'uovo in pentola, arriviamo  al  sodo: 
+    l'AREXX e` un'implementazione del REXX (descritto da M.F.  Cowlishaw 
+    nel  suo libro "The REXX Language: A Pratical Approach  to  Program-
+    ming", Prentice-Hall, 1985) da parte di William S. Hawes. Esso e` un 
+    linguaggio  ad  alto livello, interpretato; ovvero il  sorgente  non 
+    viene  compilato  ma eseguito passo passo dall'interprete.  E`,  per 
+    dirla  in termini semplici, uno script estremamente sofisticato  con 
+    programmazione strutturata, ricorsivita`, accesso a librerie e, cosa 
+    piu`  importante, capace di gestire il lancio di programmi.  Se  poi 
+    per un caso fortunato tali programmi fossero dotati di una porta  di 
+    comunicazione dedicata, riesce anche a gestire direttamente TUTTE le 
+    loro funzioni interne.
+        Naturalmente,  essendo l'Amiga un multitask,  l'interprete  puo` 
+    gestire  in contemporanea piu` script, questi possono a  loro  volta 
+    gestire contemporaneamente piu` "host" (intendo programmi dotati  di 
+    "porta  arexx")  e dialogare tra di loro. Agli  script  e`  dedicata 
+    un'area  di memoria speciale (detta CLIP) che permette  di  lasciare 
+    messaggi,  valori di variabili o cosa vi frulla in testa,  leggibili 
+    da qualsiasi altro script. Viene quindi risolto in modo  particolare 
+    il  problema  delle variabili GLOBAL, LOCAL e STATIC. A  rigardo  ci 
+
+    *****   Vol.  1   *****      Pag. 11      *****   Numero   2   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+    sarebbero anche altre interessanti particolarita` che per motivi  di 
+    spazio debbo tralasciare.
+      Sono riuscito a  confondervi abbastanza le idee? Bene: facciamo un 
+    esempio  che ricorre spesso come sogno a chi non la possiede e  come 
+    incubo a chi la possiede: la gestione di una BBS.
+        Prima  di tutto lancio l'interprete (lungo 2312  byte!)  che  si 
+    pone  in attesa in memoria come task. Poi lancio un mio  script,  ad 
+    esempio  BBS.rex (col comando rx BBS) che controlla la presenza  del 
+    programma di comunicazione in memoria (Ricordate il mio articolo nel 
+    numero 1? Guarda caso, l'unico programma di comunicazione affidabile 
+    con la porta AREXX e` il Platinum Online!); se non lo trova lo  lan-
+    cia e lo setta per predisporsi in attesa. Quando il telefono squilla 
+    il  Platinum  me lo segnala e comincio a mandargli tutte  le  dovute 
+    cosine...
+                 Il concetto di base, che sicuramente vi sara`  sfuggito 
+    8-), e` che con lo script AREXX mi sono preoccupato solo della parte 
+    logica  di tutta l'operazione, mentre la parte tecnica  (connessione 
+    col modem, invio e ricezione dei messaggi) e` svolta da un programma 
+    dedicato!  Ad esempio il tipo mi chiede un file? dico al Platinum di 
+    mandarglielo.  Devo cambiare il ^M MS-DOS nel ^J dell'Amiga?  Potrei 
+    scrivere un programmino in C che me lo faccia, oppure usare il  CED. 
+    Ho  appena  comprato un programma e scopro che ha  un  bug?  Tramite 
+    AREXX faccio in modo che il programma (quando seleziono l'operazione 
+    buggata) la esegua in modo corretto! 
+         Tutto  questo e` possibile perche` con AREXX riesco ad avere  a 
+    disposizione tutti i comandi possibili immaginabili  dell'applicati-
+    vo,  come  se questo fosse una grossa libreria di funzioni  messa  a 
+    disposizione di AREXX. Il fatto che abbia poi delle librerie dedica-
+    te  e che nelle prossime versioni potra` accedere alle librerie  del 
+    SO aggiunge il tocco di classe al tutto.
+                 La  Commodore ha cosi` implementato AREXX ed  ha  tolto 
+    l'ormai decrepito BASIC; anche il fatto che il programma debba avere 
+    una  porta dedicata, se prima poteva causare qualche apprensione  in 
+    merito,  ora e` diventato uno standard "de facto" per tutti  i  pro-
+    grammi che si rispettino (Trap Door la possiede gia` da un pezzo!)
+        Quasi  mi dimenticavo, devo farvi il corso accelerato  di  AREXX 
+    che vi permetta di diventare bravi programmatori.  Eccovelo :
+
+              /* un semplice programma */
+              say 'Hello,World'
+    
+         Scherzi a parte, non sta a me cominciare qui un corso di  Arexx 
+    (oltretutto  iniziato su riviste autorevoli come MC o Commodore  Ga-
+    zette).  Voi  avete richiesto la recensione di  applicativi:  meglio 
+    illustrarvi le possibilita` di AREXX piu` che elencarvi pedantemente 
+    i  possibili comandi. Se poi i miei 25 lettori desiderassero  appro-
+    fondimenti  o  altre diavolerie simili... Tutti  qui  dentro  stiamo 
+    scrivendo solo ed unicamente per Voi!
+                 E con questo vi saluto, aspettandovi nel prossimo nume-
+    ro - spero! - con un altro stupendo articolo, che vi permettera`  di 
+    attraversare il muro dell'impossibile nel mondo Amiga! (probabilmen-
+    te  recensiro`  C1-TEXT della Cloanto, sempre che  mi  sia  arrivato 
+    l'upgrade).
+                                                        RRE (2:334/11.9)
+
+    *****   Vol.  1   *****      Pag. 12      *****   Numero   2   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                                 -----> LE CHAT VIDEOTEL 
+                                                        ================
+
+         Ebbene  si`,  finalmente abbiamo un lettore che  ha  deciso  di 
+    compiere il gran salto e uploadare alla redazione di Telematicus  un 
+    articolo.  Un grazie a Maurizio Vescovi! E ricordo a tutti  voi  che 
+    questa  newsletter non e` un feudo dei "soliti noti", ma  e`  sempre 
+    aperta ai contributi di tutti coloro che vogliano (e sappiano :-)  ) 
+    parlare di telematica....                   .mau.
+
+
+          Molti  di  quelli  che possiedono  un  modem  avranno  sentito 
+    parlare  spesso  del VIDEOTEL: ma cos'ha di  tanto  speciale  questo 
+    servizio  telematico made in SIP? A parte naturalmente le  voci  che 
+    potrebbero  essere  utili  alle aziende, quali  parti  del  videotel 
+    possono  attirare un utente normale? Ebbene, forse la risposta  puo' 
+    essere  sintetizzata in una parola: Le CHAT. 
+         Detto  in breve, una chat e' un servizio telematico  simile  al 
+    modo  chat di tutti i bbs esistenti, con una grande  differenza:  si 
+    puo` digitare mentre piu` persone contemporaneamente sono  presenti, 
+    cosa  che  solo  pochi bbs oggi  consentono.  Questo  servizio,  che 
+    potrebbe  apparire futile, ha preso piede in Italia e con furore  da 
+    circa  un anno a questa parte: dalle pochissime chat  pionieristiche 
+    che  esistevano in videotel ne sono state create, pian piano,  tante 
+    altre.
+         Una  delle  CHAT  piu`  frequentate  e`  stata  ed  e`  tuttora 
+    Samantha,  che  si trova a pagina 28811 del  videotel.  Samantha  e` 
+    stata  luogo  di incontro di circa un centinaio di utenti  per  sera 
+    fino  a  poco tempo fa, e anche adesso conservaa  molti  affezionati 
+    "digitanti".  Dopo  Samantha  e` sorta Giulietta; dopo  di  lei,  un 
+    innumerevole  numero  di  "sorelle",  che  fanno  tutte  parte   del 
+    cosidetto Samnet. Sono gestite dal primo programma italiano per tale 
+    scopo scritto per un ambiente VAX, e - diciamolo pure - non sono poi 
+    cosi` male..... 
+         Dallo scorso settembre e` poi attiva una nuova CHAT che non  fa 
+    parte  del Samnet: il suo nome e` Chat Cafe`. Il software  e`  stato 
+    sviluppato  su  un  386 in ambiente Unix e ha  posto  un  occhio  di 
+    riguardo  per quanto riguarda lo smistamento messaggi, che e`  molto 
+    piu`  veloce  che nelle altre. Sia il primo gruppo  che  Chat  Cafe` 
+    hanno poi caratteristiche comuni, come ad esempio la possibilita` di 
+    protezione  dello  pseudonimo utilizzato o la  presenza  di  caselle 
+    postali, ma solo quest'ultima ha la capacita` di gestire i colori  e 
+    altre  features  come  per  esempio  la  possibilita`  di  andare  a 
+    controllare  la propria casella senza dover uscire dal modo chat  ma 
+    mettendolo solo in attesa di rientro.
+         Se qualcuno di voi ha la possibilita` di collegamento videotel,  
+    il nodo e` a pagina 6066. Se poi volete contattatemi pure... io sono 
+    Martin Mystere.
+         Ciao a tutti, 
+                                Maurizio Vescovi
+
+
+
+
+
+    *****   Vol.  1   *****      Pag. 13      *****   Numero   2   *****
+
+                       #####  TELEMATICUS  #####
+    ....................................................................
+
+                                              -----> NOTIZIE DAL NET 334
+                                                     ===================
+
+         Nel nostro caso, "nessuna nuova cattiva nuova!". Abbiamo  avuto 
+    un  buco  nella  distribuzione della posta di  quasi  dieci  giorni, 
+    dovuti  a  lavori nella sede di Fido Torino che e`  il  distributore 
+    ufficiale della posta italiana. Si e` aperto il canale di  emergenza 
+    che  passa da EUreka!, ma i risultati non si possono definire  certo 
+    dei migliori. Un'ottima occasione per imparare, comunque...
+         Continuano  gli  incontri con gli utenti il primo  lunedi`  del 
+    mese  presso  il  Circolo  Ricreativo  Dipendenti  Comunali  -  C.so 
+    Sicilia,  12.  Le  prossime riunioni saranno il 4 febbraio  e  il  4 
+    marzo, sempre alle ore 21.        
+
+
+
+                                               -----> IL PROSSIMO NUMERO
+                                                      ==================
+
+         Mi scuso innanzitutto per gli eventuali errori di questo numero 
+    e  la cronica mancanza di alcune rubriche. L'editor  incasinatus  ha 
+    tuttora  una  serie  di impegni tale da  non  avere  potuto  seguire 
+    perfettamente  la stesura e controllare attentamente  gli  articoli. 
+    Pero`, piuttosto che cominciare sulla brutta china dei ritardi nella 
+    pubblicazione...
+         Il numero di marzo vedra` alla luce, ammesso di riuscire a fare 
+    la traduzione in tempo, il famoso gergo degli hacker. Ci sara` anche 
+    un articolo su xmodem, e poi... tutto dipende dagli altri editors, e 
+    da voi lettori, naturalmente!
+         Gia`  che  ci  sono,  scrivo  alcune  semplici  norme  per   la 
+    sottomissione degli articoli:
+         - non impaginate nulla, mi va benissimo un testo ASCII puro a 7 
+    bit non giustificato;
+         - usate per l'accento il backquote `, e non il quote ' o peggio 
+    ancora le lettere accentate che mi fanno impazzire;
+         -   siate  concisi,  60-80  righe  da  65  caratteri   massimo. 
+    Altrimenti comincio ad editare :-)
+
+         Ciao ciao a tutti.....                 .mau.

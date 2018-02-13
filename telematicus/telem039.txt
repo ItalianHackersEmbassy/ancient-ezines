@@ -1,0 +1,2384 @@
+ #### TELEM039 - Telematicus - Volume 04 - Numero 04 - Anno 1994 - 109 pag.####
+
+      @@@@@@ @@@@@ @@    @@@@@ @@   @@   @@  @@@@@@ @@  @@@@ @@  @@  @@@@
+        @@   @@    @@    @@    @@@@@@@  @@@@   @@   @@ @@    @@  @@ @@
+        @@   @@@   @@    @@@   @@ @ @@ @@  @@  @@   @@ @@    @@  @@  @@@
+        @@   @@    @@    @@    @@   @@ @@@@@@  @@   @@ @@    @@  @@    @@
+        @@   @@@@@ @@@@@ @@@@@ @@   @@ @@  @@  @@   @@  @@@@  @@@@  @@@@
+
+                                  Aprile 1994
+
+   Bollettino telematico mensile a cura della region 2:33 Fidonet e di RRE
+
+ ==============================================================================
+
+ Il  materiale  presente  in  Telematicus   e`  (C)  dei  singoli  autori.   E`
+ espressamente consentita la distribuzione e il riutilizzo  del  bollettino  in
+ tutto  o in parte, purche` non a fini di lucro e citando sempre autore e fonte
+ di provenienza.
+
+ ==============================================================================
+
+ ***** Indice: pagina 2 - Who's Who: pagina 3 - Distribuzione: pagina 109 *****
+
+ ############                                                               ###
+ ###   0  ###                                                       INDICE  ###
+ ############                                                               ###
+
+ [ 1]  Editoriale  .   .   .   .   .   .   .   .   .   .   .   (RRE)    pag.  5
+ [ 2]  Lettere aperte  .   .   .   .   .   .   .   .   .   .  (AAVV)    pag.  8
+ [ 3]  Un network al mese...:Internet  - parte IV . (Stefano Costa2)    pag. 26
+ [ 4]  Gaia (FIDO si evolve)   .   .   - parte IV (Marino Marinelli)    pag. 47
+ [ 5]  Linux LS.   .   .   .   .   .   - parte VI  .   .   . (.mau.)    pag. 53
+ [ 6]  Oberon  .   .   .   .   .   .   - parte IV  . (Roberto Piola)    pag. 63
+ [ 7]  Curiosita`: Il gergo hacker .   - parte 33  .   .   .  (AAVV)    pag. 67
+ [ 8]  Errata corrige  .   .   .   .   .   .   .   .   .   . (.mau.)    pag. 76
+ [ 9]  INFOLINE: una BBS per non vedenti   .   .   .   .   .  (AAVV)    pag. 77
+ [10]  JAckStat 2.95   .   .   .   .   .   .   .   .   (Paolo Polce)    pag. 81
+ [11]  The stable marriage (matematica).   .   .   . (Andrea Vitali)    pag. 88
+ [12]  Notizie Fidonet region 33   .   .   .   .   .   .   .  (AAVV)    pag.100
+
+
+
+
+
+
+                  Questo Telematicus e' nato con l'aiuto di...
+
+                                          | * I collaboratori dai network: *
+ Editor  Beatlensis :  Maurizio Codogno   |
+ Editor  HyperFidus :  Marino Marinelli   |
+ Editor  Linuxus    :  .mau.              | Roberto Orsini      (2:332/425)
+ Editor  Netticus   :  Stefano Costa2     | Giovanni Lopes      (2:332/114.2)
+ Editor  Oberiens   :  Roberto Piola      | Herve Miozzo      (2:333/511.20000)
+ Editori Sysoppici  :  Roberto Orsini     | Angelo Verdone      (2:334/21)
+                    :  Sabato De Rosa     | Enrico Franceschetti(2:335/212)
+ Editor  Corrigens  :  .mau.              | Cicci Serra         (2:335/225.4)
+ Editor  Statistix  :  Paolo Polce        |
+ Editor  Calculans  :  Andrea Vitali      |
+ Editor  Donantis   :  Roberto Orsini     |
+
+ Editor mittens : Stefano Costa2, Claudio Barsi, Sergio Pillon (MC2434), Matteo
+                  Tricarico (NEURAL), Alessandro Zummo
+ Editor citatus : CERN, Riccardo Pizzi, Fulvio  Capato,  Peter  Paper,  P.I.N.,
+                  Handicoop,  Fabio  Ferrero,  U.I.C.,  Fabio  Filippi, Edoardo
+                  Pinci, Marco Matarazzo,  Alessandro  Del  Prete, Cicci Serra,
+                  Aris Ferrara, Stefano Ferrara e Antonio Ianiri, Andrea Matta,
+                  Mark May, R. Cifarelli, E. Martines
+
+
+
+
+ ... e del "saccheggiato"
+ Eric S. Raymond <esr@snark.thyrsus.com>
+
+
+
+
+
+ Renato Rolando (alias RRE) e' reperibile in Fidonet come 2:334/100.9
+ oppure al proprio maniero in Rotta Naviglio 4 10070 Fiano (TO)
+                           al 011-9235565
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   1  ###                                                   EDITORIALE  ###
+ ############                                                   di RRE      ###
+
+
+
+
+                           QUESTO NUMERO E' DEDICATO
+                                 ALLA MEMORIA
+                                      DI
+
+                                EUGENE IONESCO
+
+                             MORTO IL 28 MARZO 1994
+
+
+
+
+
+
+
+
+  Una moria, questo periodo!
+
+  Comunque, di  cosa  dovevo  parlare?   del  cronico  ritardo  nell'uscita del
+ numero? *:) Ecco! della *CONTRIBUZIONE* di un affectionados:
+
+  la  nuova lista I.S.N.  e' stata generosamente fornita dal *megalitico* (mega
+ + mitico) Roberto Orsini  (leggete  le  news  per  saperne di piu').  Comunque
+ questo e' di spunto per parlare ancora una volta  di  un  argomento  piuttosto
+ delicato: le contribuzioni ai prg shareware.
+
+  in  questo  number Paolo Polce parlando della sua creatura, JackStat cosi' ha
+ da lamentarsi:
+
+    Posso dire, con molta soddisfazione, di aver visto usare il  mio  programma
+ dai moderatori di varie aree ITA, ad es.  Chatter.ITA, Point.ITA, Cartoni.ITA,
+ Fumetti.ITA,  Multimedia.ITA, Comms_Phone.ITA, Peacelink.ITA...  anche se, con
+ meno soddisfazione, devo  dire  che  solo  i  moderatori della Chatter.ITA (R.
+ Cifarelli) e della Multimedia.ITA  (E.   Martines)  sono  utenti  regolarmente
+ registrati...
+
+  eccoci alle solite.  Escludendo  una  buona  dose di pigrizia e menefreghismo
+ insita in tutti noi, mi piacerebbe sapere se questi vari moderatori  si  fanno
+ pagare per le loro BBS... *:)
+
+  Insomma  non  si  finisce  mai  di  contibuire  alla  formazione  di un mondo
+ peggiore. Tutto cio' e' molto bello.
+
+  Inoltre nel numero precedente si era  un  po' sparato a zero sui responsabili
+ dellla  morte  di  TAM  TAM:  l'associazione  telematica  piemontese.   Questi
+ responsabili - ripetutamente avvisati tra l'altro - non  si  sono  sentiti  in
+ dovere  di  fornire  spiegazioni  al  loro operato.  Ne' su questa testata ne'
+ altrove.
+
+  Bella roba.
+
+  OK.  Vi lascio nelle fauci del  number.   Tra l'altro sono in periodo di iper
+ raffreddore da fieno e la  tastiera  mi  balla  davanti  tra  uno  starnuto  e
+ l'altro...
+
+  Buona leggiucchiata!
+
+                                                                        RRE
+
+
+ ############                                               LETTERE APERTE  ###
+ ###   2  ###                                               AAVV            ###
+ ############                                                               ###
+
+ Riassunto:
+        E' un  periodo  di  fermento.   Effettivamente  ci dev'essere parecchia
+        gente dal cervello ridotto in uno stato tale  da  spignersi  a  leggere
+        Telem praticamente ogni mese. Cosa da non crederci. *:)
+
+        Ecco come avevo anticipato nel precedente number il "mistero" del CERN.
+        (Ho   lasciato  solo  per  il  primo  intervento  la  sbrodolata  degli
+        indirizzi.)
+
+        Intanto c'e' una precisazione da  parte  del nostro Editor Netticus che
+        gia' da sola avrebbe potuto valere un articolo...  (ma si sa, noi - lui
+        nella fattispecie - e' generoso). Questo e' nel Background I.
+
+        Poi  lo  smacco (Background II)!  Il tipo non ha mai saputo di Telem...
+        beh comunque ora e'  uno  in  piu'  (sempre  che riesca ad usare questo
+        trabicolo di collegamento dra reti...) *:)
+
+        Sempre  il  Costa2,  dopo aver lanciato l'urlo dell'Editor Netticus, e'
+        riuscito nientemeno che ad infilarsi  nei meandri di MC (la prestigiosa
+        rivista telematica) ed ad ottenere una promessa  di  pubblicazione  sul
+        nostro (suo *:]) operato.
+
+        Si aspetta che lo ricopra di  lodi...  fortunatamente il maestro non e'
+        stato ancora superato dal proprio discepolo.  *:) Infatti  subito  dopo
+        c'e'  una lettera da parte di...  Neural!  (Prestigiosissima rivista di
+        realta' virtuale.   Ed  a  livello  editoriale  sembra  essere  uno dei
+        successi della stagione...)
+
+        E'  aperta  la  competizione  su fin dove si riuscitra' a far conoscere
+        Telematicus.
+
+        Infine, come ciliegina finale, ecco un'altra lettera da uno *sfegatato*
+        ammiratore... *:)
+
+ ------------------------------------------------------------------------------
+ Background parte I:
+        RRE>  Ho ricevuto un matrix da un tipo che esaltava i tuoi articolai!!
+        RRE> SC> Pensa che uno del CERN mi ha scritto (da Internet).....
+        RRE> caspita!! e non mi spedisci un msg del genere!!!???
+        RRE> se l'hai ancora mandamelo *subito* che lo pubblichiamo!!
+
+        Puff, pant, strusc, dir *.*, ff, pkunzip....trovato!
+        Pero' voglio chiedere all'interessato se e' d'accordo  alla  diffusione
+        al  pubblico del suo indirizzo, non vorrei procurargli grane.
+        Forse e' solo paranoia, ma  aspetta  la  mia conferma che gli scrivo un
+        msg.
+
+        [NdE: ed io aspettabbi...]
+
+        PS  Ma  la quarta parte del mio articolo quando cazzo la pubblichi?????
+        [NdE:  qui  si  riferisce   ad   una  mia  persistente  dimenticanza...
+               un'inezia!]
+
+ ------------------------------------------------------------------------------
+
+ Return-path: <CERNVM.CERN.CH!BARSI@CEARN.cern.ch>
+ Received: from delphi.com by bix.com (CoSy3.31.1.45) id
+  <9401240336.memo.2528@BIX.com>; Mon, 24 Jan 1994 03:36:46 -0500 (EST)
+ Received: from CEARN.cern.ch by delphi.com (PMDF V4.2-11 #4520) id
+  <01H81OJD79Z48X0IW1@delphi.com>; Mon, 24 Jan 1994 03:33:01 EDT
+ Received: from CERNVM.CERN.CH by CEARN.cern.ch (IBM VM SMTP V2R2) with BSMTP id
+  8067; Mon, 24 Jan 94 09:32:45 SET
+ Received: from CERNVM.cern.ch (NJE origin BARSI@CERNVM) by CERNVM.CERN.CH
+  (LMail V1.1d/1.7f) with BSMTP id 6157; Mon, 24 Jan 1994 09:32:25 +0100
+ From: BARSI@CERNVM.cern.ch
+ Date: Mon, 24 Jan 1994 09:30:02 +0000 (WET)
+ To: adolfo.melilli@p1.f1.n333.z1.fidonet.org, scosta@bix.com,
+  mau@beatles.cselt.stet.it, angelo.verdone@f21.n334.z2.fidonet.org,
+  enrico.franceschetti@f212.n335.z2.fidonet.org
+ Message-id: <01H81OJDCMVM8X0IW1@delphi.com>
+ Subject: Help
+ Content-transfer-encoding: 7BIT
+ X-Envelope-to: bix.com!scosta
+
+ Salve,
+ mi  interessava  avere  come  servizio  raggiungibile  via  rete  Internet, la
+ situazione della BORSA ITALIANA, cioe' le azioni,  i  cambi,ecc.   So  che  il
+ servizio viene fornito, ma non sono come raggiungerlo.  Vi ringrazio,
+
+                                                            CIAO
+
+                                                                        Claudio
+ e-mail:barsi@al1f04.cern.ch
+ [...]
+ To:barsi@cernvm.cern.ch
+ Re: Help
+
+ Spiacente  di rispondere solo ora, ma non mi sono collegato per diverso tempo,
+ per cui solo ora smaltisco gli arretrati....
+
+ >Salve,
+ >mi interessava avere come servizio raggiungibile via rete Internet,
+ >la situazione della BORSA ITALIANA, cioe' le azioni, i cambi,ecc.
+ >So che il servizio viene fornito, ma non sono come raggiungerlo.
+ >Vi ringrazio,
+
+  Mmmh, questa mi giunge nuova.  Forsa  la borsa telematica (che raggruppa solo
+ un portafoglio ristretto di azioni rispetto  al  totale  gestito  dalla  borsa
+ valori)  viene  fornito  in  questo  modo, e sicuramente a pagamento, ed anche
+ caro, dato che la societa'  che  gestisce  il servizio in concessione opera in
+ monopolio....
+
+ >Salve,
+ >sono venuto a sapere che ci sono degli indirizzi comuni ai quali uno puo'
+ >spedire delle domande e tutti quelli che vi si collegano se sanno la
+ >risposta, rispondono.
+ >Conoscete questi indirizzi?
+ >Ti ringrazio,
+
+  Penso che ti vuoi riferire  alle  mailing  list,  che  sono  equivalenti  dei
+ newsgroups  USENET (aree messaggi fido-like) solo gestiti via e-mail, anziche'
+ con i news reader, raggiungibili  da  (relativamente) pochi utenti.  Molti (se
+ non tutti) newsgroups sono  presenti  anche  come  mailing  lists,  ed  alcune
+ mailing lists non hanno equivalente nei newsgroups.
+
+  Per  abbonarsi  a  queste  mailing list occorre interagire con i mail server.
+ Basta mandare un  messaggio  con  una  sintassi  particolare all'indirizzo del
+ server.  Ce ne sono parecchi, uno che puoi utilizzare e' il seguente:
+
+       listserv@bitnic.bitnet  (valido per tutte le mailing
+                                list che sono originate in BITNET)
+
+  Per sapere come si utilizzano, manda un messaggio contenente la  parola  HELP
+ con un carriage-return (nel subject ci puoi mettere quello che vuoi, non viene
+ preso in considerazione) a quell'indirizzo.
+
+  Per  avere  una  lista  delle  mailing  lists disponibili, il comando e' LIST
+ GLOBAL.  Un solo comando per  riga  viene  accettato,  per  cui se vuoi help &
+ lista contemporaneamente devi scrivere un  messaggio  con  due  righe.   Tieni
+ presente  due  cose:
+
+     a) alcune mailing lists sono superaffollate (piu' di 100 messaggi/giorno)
+     b) la lista di tutte le mailing list viaggia sui 300k.
+
+ Sufficiente?
+
+ Stefano
+
+ PS Lavori al CERN di Ginevra?
+ .
+
+ Return-path: <CERNVM.CERN.CH!BARSI@CEARN.cern.ch>
+ [...]
+ From: BARSI@CERNVM.cern.ch
+ Date: Mon, 07 Feb 1994 09:15:50 +0000 (WET)
+ To: scosta@bix.com
+ Message-id: <01H8L83EZLHU90O861@delphi.com>
+ In-reply-to: Your message of Fri, 04 Feb 1994 16:31:38 -0500 (EST)
+ Subject: Re: Help
+ Content-transfer-encoding: 7BIT
+ X-Envelope-to: bix.com!scosta
+
+ Ciao,
+ ti   ringrazio   per  aver  risposto  alle  mie  domande  e  per  avermi  dato
+ quell'indiriz zo di mail list.
+
+ Si, lavoro al CERN di Ginevra.
+
+                         Ti ringrazio e a  presto
+
+                                            Claudio Barsi
+
+ [NdE: questa risposta lapidaria e' indice della serieta' e modestia del nostro.
+ *:)]
+
+ ------------------------------------------------------------------------------
+ Background parte II:
+        Annuncio ufficiale: Sono ritornato!  Yeaaaargh!
+        [NdE:  era  andato  in  non  so  piu'  quale  paese russo (Lettonia?) a
+               costruire le autostrade di reti...]
+
+        Poi, ce l'hai o non ce l'hai la quarta parte del mio articolo?
+        [NdE: qui persiste con poca grazia in una mia piccola dimenticanza...]
+
+        Intanto ti mando un upgrade della mitica  quarta  parte,  nel  prossimo
+        MATRIX, sperando che tu ce l'abbia e la *pubblichi*....
+
+        Quanto al messaggio dal  CERN,  beccati  sto'  forward, e pubblica alla
+        grande!
+
+ ------------------------------------------------------------------------------
+ Return-path: <barsi@al1f04.cern.ch>
+ Received: from delphi.com by bix.com (CoSy3.31.1.45) id
+  <9403170157.memo.6151@BIX.com>; Thu, 17 Mar 1994 01:57:30 -0500 (EST)
+ Received: from dxmint.cern.ch by delphi.com (PMDF V4.2-11 #6311) id
+  <01HA28AD7X4W8Y8YTB@delphi.com>; Thu, 17 Mar 1994 01:55:27 EST
+ Received: from AL1F04.DECnet MAIL11D_V3 by dxmint.cern.ch (5.65/DEC-Ultrix/4.3)
+  id AA29123; Thu, 17 Mar 1994 07:55:24 +0100
+ From: barsi@al1f04.cern.ch (Claudio Barsi)
+ Date: Thu, 17 Mar 1994 07:55:24 +0100
+ To: scosta@bix.com
+ Message-id: <9403170655.AA29123@dxmint.cern.ch>
+ Subject: RE: Permesso
+ Content-transfer-encoding: 7BIT
+ X-Envelope-to: bix.com!scosta
+ X-VMS-To: DXMINT::scosta@BIX.COM
+ X-Mail11-Ostype: VAX/VMS
+ Apparently-To: <scosta@BIX.COM>
+
+ Ciao,
+  non ho alcun problema a mantenere il mio e-mail segreta quindi pubblica  pure
+ l'articolo su Telematicus.
+ [NdE: eccocelo fatto!]
+
+  Francamente non sapevo che tu lavorassi per Telematicus.
+
+ [NdE:  AAAAARgggggHHHHH!!   ecco  qui  la frase incriminata che ha demolito un
+        mito!]
+
+  Io lavoro al CERN di Ginevra e  mi  occupo per ora di trasportare software di
+ tipo database da un ambiente VM a UNIX.
+
+  In particolare mi occupo di tutte le comunicazioni che il database deve avere
+ con altri  sistemi  anche  non  UNIX  (cioe'  VM  e  VMS).   Comunque  io sono
+ specializzato in reti (almeno questo  e'  il  mio  indirizzo  di  laurea  alla
+ universita' di Torino) e quindi mi interessa tutto cio' che e' Reti.
+ ...
+  Mi puoi comunicare quando esce il numero di Telematicus con il mio messaggio?
+
+  Ti ringrazio e a presto. Buon Lavoro
+
+                                                                  Claudio Barsi
+
+ [Costa2:  Visto  che  sai  come  mandare  messaggi  in  Internet ci pensi tu a
+ rispondere al buon Claudio quando e' il caso?]
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ [Costa2: Yeaargh!   (urlo  di  combattimento  dell'editor  Netticus).   Quando
+ ritorno,  lo  faccio  alla  grande!   Giusto arrivato ieri....  E cuccati 'sto
+ forward!]
+
+                   Da scosta@bix.com a Sergio Pillon, MC2434
+
+  Ho letto  con  piacere  l'articolo  su  MC  Microcomputer  di  Febbraio sulla
+ telematica amatoriale che ha scritto.  In particolare mi riferisco alla  mappa
+ che  riproduce lo sviluppo di Internet nel globo.  Al di sotto compare il nome
+ e l'indirizzo dell'ente che ne  ha  curato  la  produzione, ma non si riesce a
+ leggere bene, data la qualita' della stampa.
+
+  Mi  interessa  sapere  come  l'ha  ottenuta, ed il mio, in un certo senso, e'
+ un'interesse 'professionale', dato che come lei scrivo articoli per riviste, e
+ sto preparando il seguito a una lunga trattazione della galassia Internet.
+
+  Piu' precisamente sono Editor Netticus (specializzato nella trattazione delle
+ reti) per Telematicus,  la  rivista  elettronica  mensile  che  gira sotto ISN
+ (Italian Shareware Network).
+
+  E' un'iniziativa volontaria, non-profit (anzi in  deficit  per  la  mole  del
+ lavoro  che facciamo) per diffondere le conoscenze riguardo alla telematica ed
+ all'informatica in Italia, in questo momento in grandissima espansione.
+
+  Io personalmente sono un  power-user,  essendo  allacciato a una quantita' di
+ network vari (oltre a FidoNET CyberNET, RingNET, ZyxelNET, EuroNET ed Internet
+ ovviamente) ed insieme ad alcuni amici, da tre anni a questa parte (da  quando
+ e'  nato  Telematicus)  cerchiamo di elevare il livello medio della telematica
+ amatoriale in Italia.
+
+  Saremmo quindi anche molto lieti che nei suoi (ottimi) articoli citasse anche
+ un'iniziativa italiana in questo senso.   Dalla nostra parte anche noi citiamo
+ MC, non fosse altro perche'  e'  la  piu'  qualificata  rivista  italiana  del
+ settore  e  perche' un contributore di Telematicus ha scritto qualche articolo
+ per la vostra rivista.
+ [NdE: caspita! possibile che sia sempre l'ultimo a sapere 'ste cose? *:)]
+
+  Noi non ci ricaviamo niente,  se  non  una  piccola ricompensa (morale) per i
+ nostri sforzi, ed i vostri lettori  avrebbero  una  possibilita'  in  piu'  di
+ entrare costruttivamente nel bellissimo mondo telematico.
+
+  Sono  a  disposizione  per  chiarimenti  e  domande  di  qualsiasi tipo, e la
+ ringrazio per la sua attenzione e collaborazione.
+
+ Cordiali saluti
+
+                                                                 Stefano Costa
+                                                                 scosta@bix.com
+
+                           Risposta di Sergio Pillon
+
+ Return-path: <MC2434@mclink.it>
+ [...]
+ From: Sergio Pillon <MC2434@mclink.it>
+ Date: Sun, 20 Mar 1994 07:07:09 +0100 (CET)
+ To: scosta@bix.com
+ [...]
+
+  Grazie dei complimenti, l file  si  trova su mids@tic.com, viene dalla Matrix
+ Inc.  Se hai difficolta' te lo posso UUencodare ed inviare.
+
+  D'accordo con te, non  ho  citato  telematicus  per  pura  dimenticanza.   Ne
+ parlero'  senz'altro,  anche  se i tempi della rivista (il numero di Aprile e'
+ gia pronto) non mi  permetteranno  di  farlo rapidamente.  Complimenti anche a
+ voi per il lavoro che fate
+
+ Cordiali saluti
+
+                                                                  Sergio Pillon
+
+ [NdE: a questo punto *TUTTI* coloro che hanno  comtribuito  o  stanno  contri-
+       buendo,  anche  solo  prelevandolo,  a  Telem  si  meritano un minuto di
+       FRAGOROSI APPALSUI!!!!!]
+
+ [Costa2:  Pubblica  anche  questo!    E   voglio  essere  ricoperto  di  lodi!
+       Naturalmente mi devi anche offrire da bere e mangiare |-)!  Wee,  Get  a
+       Life editor princeps!]
+
+ [NdE:  sono  commosso.   Mai  mi  sarei  aspettato  un simile Editor Netticus.
+       Grande e' la mia riconoscenza e la tua fama sulla terra sopravvivera' al
+       ricordo di Telematicus!]
+
+                                                                       Stefano
+ ___
+  X SLMR 2.0 X Il Pascal sta al C come il cioccolato alla m***a
+ [NdE: mi scusi... avrei da dire 4 cosette.]
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ [NdE: ed ora per ridimensionare un  attimino  il Costa2 eccovi qua la demo che
+       il vostro Editor Princeps non dorme sugli allori.  Benche' se  ne  lasci
+       scappare parecchie...  *:|]
+
+ ------------------------------------------------------------------------------
+  From : Matteo Tricarico                    2:335/704.11    21 Mar 94  23:30:48
+  To   : Renato Rolando                      24100/9
+  Subj : Neural...
+
+ Ciao Renato!
+
+  Ho  appena  preso  l'ultimo  numero  della rivista telematicus e ho notato un
+ piccolo appuntino, da parte tua, sulla rivista in oggetto.
+
+ Il recensore pescato sono io :-)
+ [NdE: hem hem...]
+
+ Ti starai chiedendo a questo punto che cosa voglio!
+
+ Dunque procediamo con ordine:
+
+  Da Neural: [...] Alcune di  queste  (riviste, n.d.a.) sono scritte in formato
+ ASCII standard si' da permetterne la lettura con ogni tipo di computer; altre,
+ invece,  hanno  un  aspetto  piu'  tecnico  e  solitamente  sono  dedicate   a
+ piattaforme   hardware   specifiche.    In  quest'ultimo  caso,  naturalmente,
+ l'immagine e' molto curata  e  vengono  sfruttate tutte le potenzialita' della
+ macchina a cui sono dedicate.  [...]
+
+ Questo e' il pezzo inquisito.
+
+  Io volevo intendere con cio' che,  utilizzando  il  formato  standard  ascii,
+ chiaramente,  non  si  possono  usare  formati  grafici  particolari  o reader
+ particolari (come il write per Windows con il package).  Non volevo certo dire
+ che quelle ascii sono schifose e non servono a niente.
+
+  Anzi nel prossimo numero ho  deciso  di  recensire la rivista telematicus che
+ non e' certo meno interessante (sotto altri punti di vista) rispetto a SBDIMM.
+
+  Il prezzo di copertina e' cosi' Elevato perche',  a  differenza  delle  altre
+ riviste,  in  questa  non  ci sono pubblicita' e quindi anche la distribuzione
+ puo' essere fatta solo in questo modo.  Oltretutto ti diro' che, almeno per il
+ momento, non becchiamo una lira...  Questione di scelte...
+
+  Neural vuole essere semplicemente uno  strumento informativo su come reperire
+ materiale interessante sulle realta' virtuali, sui suoni  futuri,  sui  media,
+ sulla fantascienza, sugli UFO e sui network; non e' confrontabile con le altre
+ riviste del settore "realta' virtuali" (come Virtual).
+
+  Comunque,  spero  che,  per  quel  poco  che  hai  potuto  vedere,  ti  possa
+ incuriosire maggiormente in futuro.  Se vuoi puoi inviare un tuo contributo al
+ mio  indirizzo.  Oppure stavo pensando....  Che ne diresti se ti intervistassi
+ a proposito di telematicus ?
+
+ Cia' Cia'                                                              |\\ose'
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+  From : Alessandro Zummo                    2:335/503
+  Subj : TELEMATICUS
+
+ Ciao,
+
+ ho letto  il  N.  36  di  Telematicus,  e  veramente  molto bello, complimenti
+ vivissimi a tutti.
+
+                      ByeByeBy       (o o)
+                      Alessandro  ooO-(z)-Ooo
+
+ [NdE: grazie!]
+ P.S. A quando il numero di Febbraio e Marzo??
+ [NdE: gia' usciti. Dovrebbero essere gia' nella tua BBS. Li ho spediti ieri :)]
+
+ ... Intel Inside (Nel cestino della spazzatura), Outside (Dal mio A1200)
+ [NdE: sante parole...]
+
+ ############                                   Un network al mese o quasi: ###
+ ###   3  ###                                           Internet - parte IV ###
+ ############                                                Stefano Costa2 ###
+
+ Riassunto:
+        Devo porgere ancora una volta le mie piu' totali, assolute  scuse.   Il
+        mio solito temperamento casinista mi ha indotto a ritenere il file gia'
+        pubblicato...  e quindi eccovelo con un certo ritardo.
+
+        E'  da  costante di murphy il fatto che l'articolo piu' interessante (e
+        piu' in linea con gli intenti  della rivista) sia il piu' bistrattato e
+        dimenticato nei meandri del mio (seppur misero) HD da 120Mb!  *:(
+
+        Ma ora parliamo di soldi...
+
+ ------------------------------------------------------------------------------
+
+                        COME COLLEGARSI E QUANTO COSTA?
+
+  Come ho gia' detto nell'introduzione Internet ricopre  capillarmente  (quasi)
+ tutto  il  mondo.   Essendo  una  rete  di  reti  ha assorbito diversi network
+ preesistenti o contemporanei.  Molti quindi i modi per accedervi.
+
+                                    FidoNET
+
+  Una prima forma, limitata ma a disposizione di chiunque legge Telematicus, e'
+ il gateway FidoNET<-->Sublink.  Basta mandare  un matrix all'utente UUCP, nodo
+ 2:33/800, con la prima riga del messaggio  contente  To:  <indirizzo  internet
+ dell'interessato> (*senza* i caratteri '<>') seguito da una riga vuota.
+
+  I  limiti  sono  la  dimensione  massima dei messaggi (i tosser Fido tagliano
+ generalmente a 4K) ed il  fatto  che  essendo  Fido gratuita, e Sublink no, il
+ buon gusto e l'educazione impongono moderazione nell'uso di questo servizio.
+
+  Ovviamente questo sistema e' *molto* lento, dato che tutti i messaggi vengono
+ concentrati nell'unico Gateway di Cesare Dieni (aka Wolfnet).
+
+  Io ho provato a mandare il mio primo  articolo  per  Telematicus  facendo  il
+ cammino  inverso,  da  Internet  a  Fido  a  .mau., e il suddetto messaggio ha
+ impiegato una settimana ad arrivare a destinazione!
+
+  Questo e' in effetti il caso pessimo,  dato che il messaggio viene spedito al
+ gateway FidoNET americano, e da qui portato in Italia.
+
+  Ecco per i curiosi il percorso fatto dal mio povero messaggio:
+
+     Via 1:105/42, 23:15:33 UTC, March 11, 1993 - Rts v1.57
+     Via Dutchie 2:500/1 Fri Mar 12 13:20:08 1993 UTC
+     Via D'Bridge 1.52-OS/2 2:33/777  03/12 16:40
+     Via D'Bridge 1.52-OS/2 2:335/5  03/15 18:49
+     Via MsgTrack 2:335/5, Mon Mar 15 1993 at 18:03 UTC
+     Via Node 2:334/21@fidonet.org 16 Mar 93  05:16:11 (GCChost v4.0a 6)
+     Via Node 2:334/100.0  Mar 17 1993  1:29  WRemap 1.5
+     Via FrontDoor 2:334/100@fidonet.org, Mar 18 1993 at 18:00
+
+  Essendo Fido un servizio puramente volontario,  la  spedizione  dei  messaggi
+ viene schedulata tipicamente solo una volta al giorno, per economia.
+
+  Desidero  qui  ringraziare  la  fiumana di persone che mi hanno spiegato come
+ raggiungere Internet  da  Fido:  Carlo  Santinelli  (2:332/610), Roberto Nucci
+ (2:33/301.2), Mauro  Fanan  (2:333/212.16),  Nicola  Chietera  (2:333/408.18).
+ [NdE:  nel  numero  precedente  di  Telematicus  (38 per chi non e' ferrato in
+ matematica) la procedura veniva spiegata  con  dovizia di particolari dal buon
+ Vertigo.]
+
+  Inoltre ci si puo' collegare direttamente, senza intermediari, ad un  sistema
+ UNIX  dedicato allo scopo.  In questo modo l'accesso ed i servizi offerti sono
+ piu' potenti, ma anche a pagamento.  Le scelte possibili sono diverse:
+
+                                    CINECA
+
+  Il  Cineca  e'  il   Centro   Interuniversitario   di  Calcolo  per  l'Italia
+ Nord-Orientale e si  trova  nei  pressi  di  Bologna  e  piu'  precisamente  a
+ Casalecchio di Reno.
+
+ I servizi che offre il Cineca sono:
+
+    - e-mail
+    - telnet
+    - ftp anonymous
+    - possibilita'  di  accedere  a  numerose  banche dati quali ESA/IRS,  ECHO
+      DIALOG, STN e MEDLARS
+    - una serie di programmi di carattere scientifico e statistico
+    - compilatori e interpreti piu' diffusi
+
+ I calcolatori presenti al Cineca sono:
+
+    - Cray Y-MP8/464
+    - IBM ES 9021/640
+    - DEC Vax 6000-510
+    - diverse workstation dedicate al TCP/IP, FTP, ecc...
+
+ Tutti questi calcolatori sono accessibili  sia  su  rete commutata che su rete
+ Itapac.
+
+ Costi:
+
+    - Canone annuo: Lit. 180.000
+
+    - UAC Lit. 300
+      Per  UAC  si  intende  il  risultato di una formula diversa a seconda del
+      mainframe utilizzato; in questa formula conta comunque sempre il tempo di
+      CPU utilizzato.
+
+      Esempio per il Vax 6000-510 la UAC e' uguale a 0,28 x ore CPU utilizzate
+
+    - Costo occupazione disco:
+      512 bytes = Lit 0,75 / gg
+
+ Questi servizi di  rete  sono  riservati  all'utenza  universitaria e al mondo
+ della ricerca.
+
+ Per ulteriori informazioni:
+      E-mail: consul@cineca.it
+
+ Ringrazio Fulvio Capato (2:333/408.19) per queste informazioni.
+
+                                     IUNET
+
+ E' la ditta che fornisce l'accesso su internet ad MC-Link.
+
+ Servizi offerti: tutto, se pagate vi fanno anche il caffe':
+
+         - IUnet/Mailbox:   accesso personale all'Internet mondiale.
+
+         - IUnet/Mail&News: posta elettronica e News basate su UUCP
+
+         - IUnet/EasyIP:    collegamento TCP/IP su linea commutata
+
+         - IUnet/IP:        piena connettivita' all'Internet mondiale
+
+         - IUnet/NewsIP:    accesso alla teleconferenza News da parte
+                            di enti connessi alla rete accademica GARR
+
+ Costo:
+
+         - IUnet/Mailbox:   L. 25000 al mese + L. 300 al minuto
+                            (L. 200 per collegamenti con il POP di Genova).
+
+         - IUnet/Mail&News: L. 83000 al mese + come sopra
+
+         - IUnet/EasyIP:    L. 200000 al mese + come sopra
+
+         - IUnet/IP:        collegamento dialup         L.  500000 mensili
+                            collegamento tramite ITAPAC L.  830000 mensili
+                            linea dedicata 9.6K o 19.2K L. 1000000 mensili
+                            linea dedicata 64K:         L. 2083000 mensili
+                            (limite di 500M mensili, senza limiti di tempo)
+
+         - IUnet/NewsIP:    ho pieta' per voi!
+                            [NdE: grazie! *:) ]
+
+ Informazioni: iunet@iunet.it, Tel. 010-3532747, FAX 010-3532948.
+
+                                    SUBLINK
+
+  Associazione  senza  fini di lucro fondata nel 1989, nata dalla constatazione
+ (ancora oggi valida!) che per  essere  collegati ad Internet in Italia occorre
+ essere ricchi sfondati.  Per questo mette a disposizione di un  pubblico  piu'
+ vasto  la  grande rete, condividendo le spese tra i vari nodi ed utilizzatori,
+ con uno spirito non dissimile da Fido.
+
+  Il nome deriva dal fatto che per  scambiare messaggi si collega ad un nodo di
+ un'altra rete in un altro stato (prima la Germania, poi adesso gli USA),  come
+ sub-collegamento   con   chi  e'  piu'  fortunato  di  noi.   E'  presente  in
+ un'ottantina di nodi, l'ultimo dei quali in ordine di Tempo e' l'Aquila.
+
+  Ecco una lista delle citta' raggiunte da Sublink:
+
+       CAP     Localita'
+       -----  --------------
+       21050   Cairate (VA)
+       20089   Rozzano
+       40012   Calderara di Reno (BO)
+       38057   Pergine Valsugana Trento TN
+       33011   Artegna (UD)
+       30172   - Venezia
+       20026   Novate Milanese (MI)
+       28100   Novara
+       10143   Torino,
+       42015   Correggio (RE)
+               Barletta (BA),
+       44100   Ferrara
+       40069   Zola Predosa (BO)
+       20040   Carnate (MI)
+       21100   Varese
+       13048   Santhia (VC)
+       40044   Pontecchio - BO
+       43100   Parma
+       41100   Modena
+       35020   Padova
+       38060   Pomarolo (TN)
+       10015   Ivrea (TO)
+       40026   Imola (Bologna)
+       40100   Bologna
+       27100   Pavia
+       66100   CHIETI CH ITALIA
+               Firenze
+       38068   ROVERETO (TN)
+       20100   Milano
+       67100   L'AQUILA AQ ITALIA
+       20099   Sesto San Giovanni
+
+ Servizi offerti:
+
+ solo mail e news, possibilita'  di  usufruire  del download di file tramite un
+ mail server.
+
+ Costi (per l'anno 1994):
+
+                            Studenti     Persone Fisiche       Societa'
+        SOCI ORDINARI          -            200.000            600.000
+        SOCI SOSTENITORI    100.000         200.000            600.000
+
+  La quota indicata come "Studenti" e' riservata a  tutti  gli  studenti  delle
+ scuole  di  ogni  ordine e grado e inoltre ai dipendenti e ai soci di Societa'
+ gia' regolarmente iscritte all'Associazione per l'anno in questione.
+
+                                 INFORMAZIONI:
+
+ posthamster@sublink.sublink.org
+
+  (NON e' un'errore  di  stampa,  ed  ha  un'origine  divertente:  ai tempi del
+ Berkeley Unix 1.0  il  postmaster  di  un  mitico  VAX  (ucbvax)  durante  una
+ trasferta  si  e'  automandato una mail, facendo un'errore nel scrivere il suo
+ indirizzo (invertendo a ed  m).   Quindi  ha  telefonato  al proprio centro di
+ calcolo per correggere  l'errore,  facendosi  installare  l'alias  postamster.
+ Tuttavia anche l'operatore capi' male ed ecco posthamster.)
+
+ Tel. 02-33911392
+
+                   THE NERVOUS XTC PUBLIC ACCESS UNIX SYSTEM
+
+ In quel di Rimini c'e' un public access site per Internet in UUCP!
+
+ Servizi offerti:
+
+  Con  una  piccola  quota  (meno  di Sublink) potete mandare e ricevere posta.
+ Inoltre  qui  viene  mantenuto   un'archivio  di  alcuni  newsgroups  (comp.*,
+ alt.sex.*), cioe' i piu' letti.
+
+  Informazioni: pizzi@nervous.com, e' anche un nodo Fido (2:332/307) oppure per
+ posta tradizionale
+
+          THE NERVOUS XTC PUBLIC ACCESS UNIX SYSTEM
+          c/o Riccardo Pizzi
+          corso Augusto 97/a
+          47037 Rimini (Fo), ITALY
+
+  Questi  sono  servizi  che  vi  permettono  di  usare   Internet   solamente.
+ Naturalmente  potete  iscrivervi  ad un network che oltre alle caratteristiche
+ interne al sistema offre ai suoi  abbonati  ANCHE una qualche forma di accesso
+ ad Internet.
+
+  Anche qui le offerte sono molteplici, anche se entra in gioco quanto  e  cosa
+ offra  il  network  di  origine.   In  linea di massima, tuttavia, se cio' che
+ cercate e' solo Internet  queste  offerte  non sono vantaggiose.  Tuttavia, se
+ per un motivo o per un'altro, vi trovate gia' invischiati  in  uno  di  questi
+ network, potete aggiungere una bella ciliegia alla torta.
+
+                               AGORA' TELEMATICA
+
+  E'  un  popolare servizio sotto Videotel raggiungibile in Easy Way, quindi ad
+ un costo basso in  tutta  Italia  (1  scatto  alla  chiamata  piu' il costo di
+ ITAPAC).
+
+  Al suo interno ci sono messaggerie, ed e' possibile spedire e ricevere e-mail
+ sotto  internet.   Recentemente  e'  stata  attivata  la  capacita'  di   fare
+ FTP,GOPHER  e  TELNET.   La  NUA  di  Agora'  e'  26500016.   Agora'  e'  pure
+ accessibile  con collegamento diretto al 06-6832366 e 06-6892828, V.32bis.  Al
+ logon per avere l'help battere '?'.
+
+  Per usare Easy Way basta  chiamare  il  1421  (attivo  ormai in quasi tutti i
+ distretti), premere DUE volte RETURN, e quindi al prompt inserire la NUA.
+
+ Costi:
+
+  Per accedere ad Agora' Telematica si paga un canone a  scalare  proporzionale
+ al  tempo  di  connessione  ed al volume di dati scambiati.  Per recuperare le
+ spese Agora' (che e' un  servizio  del Partito Radicale) aggrava all'utente un
+ 10% delle tariffe Itapac.
+
+  L'importo minimo e' di L. 50000, che vengono scalate con l'utilizzo nel  modo
+ spiegato  prima,  fino ad un minimo di L.5000 al di sotto del quale va rifatto
+ il versamento.  Si accetta anche la carta di credito.
+
+                                      BIX
+
+ Qui ho detto tutto in Telematicus n.30!
+
+                                  COMPUSERVE
+
+ Qui invece aspetto che un mio amico sia abilitato e mi racconti...
+
+                                    MC-LINK
+
+ Il piu' grande network nostrano.
+
+ Servizi offerti:
+
+ Numerose aree messaggi  e  chat.   Ricche  aree  file.   (NdA  Se la tirano un
+ casino, anche se sono arrivati  per  ultimi).   [NdE:  in  effetti  mi  stanno
+ *molto* antipatici per quello]
+
+ Solo mail.  Potete scaricare i file con un mail server offline.
+
+ Sono pure depositati alcuni archivi di alcuni digest di newsgroups USENET.
+
+ I  digest  sono: allmusic, ami-tech (discussioni tecniche su Amiga), amiga-ann
+ (announcements   vari   Amiga),   Cinama-L,   classm-l,   gutenberg  (progetto
+ Gutenberg), info-ibmpc, info-mac,  info-modem,  info-unix,  jazz-l,  lanworks,
+ msdos-ann,  new-list  (i  nuovi  newsgroups), os2-l, sas-l, scogen (UNIX SCO),
+ space, space-news, star-trek-l, unix-wizards, virus-l, win3-l, inter-comments,
+ internet-files.
+
+ Costo:
+
+ L.  216000 annue, oppure L. 72000 trimestrali come canone fisso.
+
+ Inoltre ci  sono  L.  15000  una-tantum  per  le  spese  di attivazione (vezzo
+ tipicamente italico, in America non c'e' niente del genere!).
+
+ A questo bisogna aggiungere i costi di trasmissione dati.
+
+ Con Itapac Easy Way: L. 75 alla chiamata, L. 17/Minuto per occupazione  porta,
+ piu'  una  tariffa  a tempo (L.  7 al minuto) ed una a volume (L.  2,1 ogni 64
+ bytes), chiamando il numero 1421 con NUA 26410420.
+
+ Riduzione in orari notturni e week-end del 40%.  [NdE: questo non e' poco!]
+
+ Spese di fatturazione  (solo  Credit  card)  2500/mese  (solo in Italia |-(().
+ Ringrazio Dario Bavicchi (2:335/414.11) per queste informazioni.
+
+ Chiamando il nodo di Roma direttamente:
+
+        (06) 4180440 - V.32bis 19200 bps con Zyxel+
+        (06) 4180660 - USR HST
+        (06) 4510211 - V.23
+
+ la solita *cara* tariffa SIP.
+
+                                 BIBLIOGRAFIA
+
+  Dato che attualmente Internet e'  in  fase  di  forte  espansione,  l'offerta
+ libraria  e'  *enormemente*  aumentata  da un anno a questa parte.  Quella che
+ segue e' una piccola, *incompleta* bibliografia del settore.
+
+ The Whole Internet by Ed Krol, O'Reilly & Assoc, ISBN 1-56592-025-2, 24.95$
+
+           Sostanzialmente  un  *grosso*  manuale  d'uso.   C'e'  quasi  tutto,
+           compreso un'elenco dei servizi Internet parecchio corposo.  Tuttavia
+           e' gia' vecchio (i cambiamenti  sono  molto  veloci) e non so fino a
+           che punto utilizzabile.  Un buon primer, comunque.
+
+ Hitchhiker's Guide to the Internet, RFC1118, by Ed Krol
+
+           Questo,  come  tutti  gli  RFC,  e'  un  file.   E'   una   discreta
+           introduzione ad Internet & ai suoi misteri.
+
+ Zen  and  the  Art  of  the  Internet, A Beginner's Guide by Brendan P. Kehoe,
+ Prentice Hall, 1993, ISBN 0-13-010778-6, 22.00$
+
+           Come dice il titolo e'  un'ottimo libro per cominciare, e sopratutto
+           spiega la 'netiquette',  il  comportamento  da  tenere  nell'uso  di
+           Internet.
+
+           E'  anche  distribuito  su  file  (ed  in  versione  piu' aggiornata
+           rispetto  al  libro)  Potete   anche  downloadarlo  da  GENESIS  BBS
+           (2:331/327) col nome  di  ZEN10.ZIP.   Oppure  anche  su  Logos  BBS
+           (2:333/318),  Impex  (2:333/408),  la  gia'  citata Bits against the
+           Empire (2:333/412).
+
+ The Matrix, Computer Networks  and  Conferencing  System  Worldwide by John S.
+ Quarterman, Digital Press, ISBN 1-55558-033-5
+
+           Questo e' un libro dal taglio piu' generico, dato che tratta diversi
+           network, tra  cui  anche  internet.   Comincia  a  sentire  il  peso
+           dell'eta'.  Da' una buona idea del villaggio globale.
+
+ The  Internet  comapanion:  a  beginner's  guide to global networking by Tracy
+ LaQuey & J.C.  Ryer, Addison-Wesley, 1993, ISBN 0-201-62224-6, 10.95$
+
+           Il piu' semplice ed economico di tutti i libri presentati.
+
+ Internet: Mailing lists by Edward  T.L.   Hardie & Vivian Neou, Prentice Hall,
+ 1992, ISBN 0-13-327941-3, 39$
+
+           Un'elenco comprensivo  di  mailing  list,  ma  gia'  superato  dalla
+           estrema variabilita' delle mailing list.  Puo' essere un'utile guida
+           tuttavia per le mailing list piu' regolari.
+
+ TCP/IP  and NFS, Internetworking in a UNIX Environment, by Michael Santifaller
+ Addison-Wesley, ISBN 0-201-54432-6
+
+           Qui  si  illustrano  i  protocolli  utilizzati  nella  trasmissione.
+           Livello medio, non troppo  specializzato  o tecnico, per sapere come
+           funziona il tutto.
+
+ The Open Book by Marshall Rose, Prentice Hall
+ The Simple Book: an Introduction to management of TCP/IP-based Internets
+           by Marshall Rose, Prentice Hall, 1991, ISBN 0-13-812611-9, 54.00$
+ The Internet Message: closing the book with electronic mail by Marshall Rose,
+           Prentice Hall, 1993, ISBN 0-13-092941-7, 44.00$
+
+           Questa serie di libri copre un'area piu' tecnica e specialistica, ma
+           con un linguaggio non troppo  indigesto.   Arricchiti  con  aneddoti
+           simpatici,  il  piu'  interessante  (per  me)  e' l'ultimo, dato che
+           l'e-mail bene o male la usano tutti, ed e' utile sapere *come* viene
+           smistata...
+
+           L'autore e' un guru  di  Internet,  ed ha collaborato alla scrittura
+           dei programmi di gestione!  Per il system manager o l'hacker spinto.
+
+ Exploring the Internet, A Technical Travelogue by Carl Malamud, Prentice  Hall
+ ISBN 0-13-296898-3, 26.95$
+
+           Wow!  Questo e' il piu' strano: una sorta di guida Michelin dei siti
+           Internet!
+
+           L'autore  ha  viaggiato  in lungo ed i largo per il globo per 6 mesi
+           raccogliendo dati sui  sistemi  e  sulle  persone che li gestiscono.
+           Anzi il taglio 'sociale' e' prevalente su quello meramente tecnico.
+
+ All'ultimo momento
+
+ L'ho gia' detto, Internet e' molto grande ed i cambiamenti veloci.
+
+  Un servizio utile e'  il  seguente:  avete  un  IP  number  (il  numero  tipo
+ 18.71.0.151)  ma  non  l'indirizzo  ASCII per noi umani piu' comprensibile (ma
+ potete usare ambedue indifferentemente),  oppure  volete conoscere l'IP number
+ dall'indirizzo ASCII?
+
+  Nessun problema, normalmente il computer al  quale  vi  collegate  fa  questa
+ funzione  da  solo  (infatti  i  computers  su  internet  dialogano *solo* con
+ l'indirizzo numerico).  L'unico name server  (cosi' si chiama) pubblico che io
+ conosca e' princeton.edu.  Fate TELNET princeton.edu 3000, chiedete e vi sara'
+ dato!
+
+ Secondo, mi sono dimenticato di mettere un IRC server.  Detto fatto:
+
+  TELNET sci.dixie.edu 6677
+
+                                    EPILOGO
+
+ Contenti?  Questo non e' neanche il 10% di quello che ci sarebbe da dire.
+
+ Se avete altre indirizzi in Italia di fornitori di Internet, contattatemi.
+
+ Altri indirizzi Internet divertenti e/o interessanti per qualche  motivo  sono
+ sempre bene accetti.
+
+ Arrileggerci sul prossimo network...
+
+
+
+                                           Stefano Costa
+                                           Internet: scosta@bix.com
+                                           Fido:     Stefano Costa2 (2:331/306)
+
+
+
+
+ ############                                                               ###
+ ###   4  ###                                              GAIA - parte IV  ###
+ ############                                              Marino Marinelli ###
+
+ Riassunto:
+        Marino continua a pupparcelo con questo progetto...
+
+        Una  piccola  considerazione:  sistemi operativi come OS/2.1 o Linux od
+        Oberon hanno un  *grandissimo*  difetto  rispetto  a quella ciofecha di
+        Windows: presuppongono una certa conoscenza, per lo meno  smanettonica,
+        dell'individuo.  Con Windows basta essere in grado di tenere in mano un
+        mouse, ed avere suff.  soldi per pigliare un mostro di potenza.
+
+        Ho  l'impressione  che questa meta rete sia un po' troppo complessa per
+        la media degli smanettoni di Fido.
+
+        Enrico nelle  news  del  335  grida  al  miracolo  che  la  posta giri,
+        figuriamoci dovesse girare in un meta sistema!  *:)
+
+ ------------------------------------------------------------------------------
+
+                            Ottimizzazione di spesa
+
+  Tra  le  sofisticazioni  pensabili  per  l'algoritmo  c'e' la possibilita' di
+ filtrare ulteriormente le mosse legali, ovvero solo quelle che chiudono la net
+ per le  Pub-Res  e  tutte  senza  limiti  per  le  An-Res.   Questo  filtro e'
+ ottenibile scegliendo un ordinamento che faccia emergere gli eventi che  hanno
+ un costo/byte minore.
+
+  Le Pub-Res tengono conto anche, qualora l'evento sia gia' stato utilizzato in
+ tempi  precedenti,  di  quanta  convenienza  ci  fosse stata nell'utilizzarlo,
+ ovvero di quanto del lavoro sull'evento venisse svolto dalle An-Res.
+
+
+                          Ottimizzazione di traffico
+
+  Come secondo criterio di scelta  (a  parita'  di criterio economico), si puo'
+ utilizzare il rerouting verso il nodo  che  appare  BUSY  meno  di  frequente,
+ ridistribuendo il traffico in modo omogeneo.
+
+
+                               -----------------
+
+                                 FILE REQUESTS
+
+  La file request tradizionale e' diretta ad un nodo.  L'idea di GAIA e' quella
+ di  rendere  il  materiale accessibile nonostante il suo essere sparso lungo i
+ nodi.  Se questo fosse implementato su strutture molto piu' grandi di Cybernet
+ andrebbero probabilmente cercate strade  alternative,  ma al nostro livello di
+ complessita' la cosa e' ancora gestibile.
+
+  All'eventuale crescere delle nostre dimensioni si potranno cercare  soluzioni
+ nuove.   E  se, come credo, sara' possibile farlo senza alterare l'interfaccia
+ delle classi questi mutamenti saranno del tutto trasparenti.
+
+  Questo e' il dominio dei Database distribuiti,  un campo in cui la ricerca e'
+ apertissima a tutt'oggi, per  cui  ci  possiamo  aspettare  tools  molto  piu'
+ efficienti del nostro nel giro di pochi anni o mesi.
+
+  A questo scopo l'intero colloquio relativo al movimento dei files, nonche' il
+ movimento  vero e proprio, viene gestito sull'area postale 1 (traffico files),
+ in modo da isolarne le prestazioni  ed evitare complicazioni in caso di future
+ necessita' di modifica.
+
+
+                          Ottimizzazione dei percorsi
+
+  Se alcuni nodi emettono una file  Request  sul  canale  postale  1  (traffico
+ files)  verso  un  dato  address,  quest'ultimo  tratterra'  la richiesta piu'
+ vicina, emettendo matrix verso  i  piu'  lontani per informarli dell'arrivo di
+ una copia del file in posizione piu' conveniente ad una certa data.
+
+  La file request viene evasa quattro giorni  dopo,  a  meno  che  non  sia  in
+ modalita'  diretta,  ovvero  che non si tratti di andare a linkare l'address e
+ dnlodare il file come si fa ora, e si potra' fare anche in seguito.
+
+  Allo scadere del quarto giorno  dalla  prima richiesta il file viene caricato
+ dalla res piu' vicina sia  alla  sorgente  che  agli  altri  richiedenti.   E'
+ possibile  che  piu' di un trasferimento sia necessario, nel caso di richieste
+ ad un nodo in posizione centrale che provengano da Nord e da Sud.
+
+                             Richieste periodiche
+
+  E' possibile indirizzare domande  per  una distribuzione di periodici, ovvero
+ di files che vengano revised o ripubblicati, come nel  caso  di  CUD,  Phrack,
+ Nodelists, etc.  (cfr system Mail) [NdE: c'e' anche Telem?  *:)]
+
+
+                              Soluzioni Tecniche
+
+  Le prime soluzioni tecniche per implementare lo standard GAIA sono di seguito
+ listate.
+
+                                  HandShaking
+
+ Rimane EMSI, viene specificato "GAIA" nel campo capability.
+
+       Addressing
+
+ Indirizzamento Fido-Compliant in 5D.
+
+             zone:net/node.point.domain
+
+ Il  domain di GAIA e' unico: gaia.net, il campo point ha valore costante 0 per
+ tutti i nodi GAIA.
+
+
+                               Non-GAIA systems
+
+  Se il chiamante non  fa  parte  di  GAIA  la sessione procede normalmente.  I
+ sistemi non-GAIA ( sistemi Fido ) possono essere solo downlink o gateways.
+
+ Viene inviata normalmente la netmail e i pacchetti di posta.
+
+ Per semplicita' puo' essere supportato solo ZedZap; solo in un  secondo  tempo
+ si implementeranno i protocolli piu' vecchi.
+
+  Cio'  di  fatto  rende  GAIA non Fido-compliant, sebbene all'atto pratico non
+ compaiano problemi,  per  il  fatto  che  tutto  il  software recente utilizza
+ ZedZap.
+
+
+ [NdE: continua...]
+
+
+                                                                    Peter Paper
+                                                                    45:1917/2
+
+
+
+
+
+ ############                                                               ###
+ ###   5  ###                                              LINUX - parte IV ###
+ ############                                              Maurizio Codogno ###
+
+ Riassunto:
+        .mau.  continua con gli sproloqui sullo Linux.  Appena riesco a mettere
+        le zampe su un HD da 500Mb e su una macchina almeno a 33Mhz, penso  che
+        mi buttero' a pesciazzo sopra.
+
+ ------------------------------------------------------------------------------
+
+ Carissima lettrice,
+    probabilmente questo mese avrei dovuto parlarti della distribuzione Debian,
+ l'ultimo grido della moda per impacchettare i files di Linux, ma visto che non
+ ne so nulla, e che comunque e`  ancora una beta release, ho deciso di lasciare
+ perdere.
+
+  Meglio ancora, avrei dovuto parlarti di ILS, la  costituenda  (o  costituita?
+ coi  tempi  di uscita di telematicus e di preparazione dei miei sbrodolii alla
+ tastiera non si puo` mai dire [NdE: noto una larvata critica al mio operato di
+ direktor]) societa` nata per promuovere l'uso  di Linux in Italia (ILS sta per
+ Italian Linux Society, per la cronaca); ma spero ci sia qualcuno piu`  esperto
+ di  me  che  magari  in  questo  stesso  numero  ti  ragguagliera`  in maniera
+ egagra[1].  [NdE: infatti  nel  number  precedente  c'e'  stata una *tremenda*
+ pubblicazione a riguardo]
+
+  Pero` di qualcosa ti dovevo pur parlare: alla fine  ho  deciso  di  lanciarmi
+ proprio  sul  Vero Inizio di un qualunque corso sui comandi Unix e di scrivere
+ qualcosina su...  ls.  Si`, lo so che non e` il piu` divertente dei comandi, e
+ che lo sai gia` usare; ma  non  e`  affatto detto che tu conosca proprio tutto
+ quello che si puo` ricavare da esso.
+
+  Una nota di colore: tu saprai benissimo che ls e` l'equivalente  del  comando
+ dir nel dos, e che quest'ultimo ha gia` parecchie opzioni (se poi usi 4dos, ne
+ sono state aggiunte delle altre).
+
+  Bene,  ls  ne  ha di piu`.  E` stato praticamente utilizzato tutto l'alfabeto
+ minuscolo per tutti i vari modificatori,  piu` meta` di quello maiuscolo, e il
+ carattere 1 tanto per finire l'elenco.
+
+  Una nota un po' piu` seria: ci sono  discrete  probabilita`  che,  quando  tu
+ digiti  ls,  in  realta` stia facendo un altro comando.  Capita infatti che ls
+ sia in testa alla hit parade degli  alias; ad esempio sul mio sistema equivale
+ a ls -cF.
+
+  Secondo me la c non serve a niente, e a dire il vero non funziona nemmeno, ma
+ tant'e`.  Sono troppo pigro per mettermi a modificare  l'alias.   [NdE:  .mau.
+ pigro?  non l'avrei giammai detto!]
+
+  Una nota come al solito stonata: ovviamente ci sono miriadi di versioni di ls
+ diverse,  che  modificano  appena una di queste opzioni; fortunatamente non e`
+ che quelle principali cambino tanto, quindi puoi stare tranquilla.
+
+  Nel caso te lo fossi chiesto, parlero` della versione GNU di ls, visto che la
+ man page dice che c'e` installata questa.
+
+  Pero` *non* ti  accennero`  al  modo  di  scrivere  le  opzioni per lungo (ad
+ esempio, invece di ls -a potresti scrivere ls --all.  Ma chi te lo fa fare?)
+
+  Sei pronta al listone di opzioni  [-abcdgiklmnpqrstuxABCFLNQRSUX1]??   Allora
+ ti  faccio  ancora  una  raccomandazione.   A  differenza  di  un qualunque ls
+ volgare, che scrive i file come li  trova  a  meno tu non gli chieda un ordine
+ particolare, il GNU ls mette sempre  in  ordine  alfabetico,  tranne  in  casi
+ particolari.   Piglia  con un grano di sale quello che scrivo, e leggi bene le
+ mie note tra parentesi.  Via!!
+
+  Le  prime  due  opzioni  servono  per  vedere  un  po'  piu`  di  files; piu`
+ precisamente,
+
+ -a lista tutti i file nella directory, compresi quelli che  cominciano  per  .
+    che  sono  appunto  detti  files  nascosti  e servono per non vedere troppa
+    rumenta in giro, piu` o meno come  chi nasconde la polvere sotto i tappeti.
+    Tipicamente le mie top directory contengono  solo  sottodirectory  e  files
+    nascosti, in effetti.
+
+ -A  lista  *quasi*  tutti  i  file,  evitando  di  menzionare .  (la directory
+    corrente) e .. (la directory  mamma)  che  tanto  si sa che ci sono.  Come?
+    una volta hai provato a fare un ls e ti e` uscito fuori ".  :  not  found"?
+    Te lo spiego un'altra volta :-)
+
+ Se  invece  si  vogliono  vedere meno files, possono tornare utili le seguenti
+ opzioni:
+
+ -B ignora i  file  che  finiscono  in  ~,  che  alcuni  programmi scrivono per
+    convenzione come backup.
+
+ -Ipattern ignora i file che rispondono al pattern indicato, a meno che non  li
+    si  scriva  poi  esplicitamente  nella  linea  di  comando;  ad esempio, la
+    -I\*.doc pip* continuera` a mostrare pippo.doc.
+
+ Per ordinare i file in  un  certo  modo,  si possono usare le seguenti opzioni
+ (ricordo che per default l'ordine e` alfabetico):
+
+ -U non fa nessun ordinamento,  prendendo  i  file  cosi`  come  sono  indicati
+    all'interno della directory.
+
+ -S ordina i file per dimensione (size), dal piu` grande al piu` piccolo.
+
+ -X  ordina  i file alfabeticamente per estensione (quella dopo l'ultimo .); se
+    un file non ha estensione, viene messo all'inizio del listato.
+
+ -t ordina i file per data di creazione, il piu` nuovo in cima.
+
+ -u dovrebbe ordinare i file  secondo  il  momento dell'ultimo accesso, ma a me
+    non funziona proprio; similmente per -c, che dovrebbe fare  lo  stesso  col
+    famigerato  ctime  che per comodita` si pensa essere il creation time ma in
+    realta` e` il momento in cui si e` modificato lo status del file stesso.
+
+ -r infine rovescia l'ordine indicato.
+
+ C'e` poi un gruppetto di opzioni per meglio vedere i nomi dei file:
+
+ -b quota i caratteri  non  grafici  contenuti  nel  nome  di un file usando le
+    sequenze col backslash tipiche del C, invece che fare chissa` che cosa  per
+    indicare questi caratteri.
+
+ -q scrive dei ?  al posto dei caratteri nongrafici contenuti nei file.
+
+ -Q  oltre  a  quotare i caratteri non grafici mette anche il nome del file tra
+    virgolette.  Utilissimo se non  si  riesce  a  cancellare il file pippo per
+    scoprire che in realta` era "pippo ".
+
+ -N non quota il nome del file, secondo il manuale; la cosa avrebbe anche senso
+    (molti programmi, nel  caso  ci  siano  piu`  opzioni,  considerano  "buona
+    l'ultima" in modo da permettere di usare gli alias in maniera trasparente),
+    ma a me sembra che non succeda nulla.
+
+ Andando avanti, troviamo le opzioni di formattazione:
+
+ -l  descrive  il  file in maniera "lunga": si puo` leggere nome, bit di tipo e
+    permesso, numero di hard link, owner e gruppo di appartenenza (nota: questo
+    capita solo nel GNU  ls;  altrimenti  occorre  esplicitare l'opzione -g per
+    sapere il gruppo), dimensione in byte e tempo dell'ultima modifica (a  meno
+    che non si aggiungano -c e -u spiegate sopra; in questo caso effettivamente
+    funzionano).   Si noti che per file piu` vecchi di sei mesi, o protrusi nel
+    futuro per piu` di un'ora, al posto di ora e minuti viene indicato l'anno.
+
+ -m scrive i nomi dei file per righe, e li separa da virgole.  Provate un nuovo
+    modo di vedere le vostre directory!
+
+ -C scrive i file verticalmente  per  colonne,  ma  visto che questo e` in ogni
+    caso il default non e` che ci sia molto da preoccuparsi; piuttosto,
+
+ -x scrive i file per colonne ma orizzontalmente ,  cioe`  i  nomi  si  leggono
+    prima da sinistra a destra e poi dall'alto in basso.
+
+ -1  scrive  un  file  per riga, cosa molto comoda se l'ls va in pipe a qualche
+    altro comando.
+
+ -wcols assume che  lo  schermo  abbia  cols  colonne.   Questo viene letto dal
+    termcap o dal terminfo, se non settato; altrimenti si cerca la variabile di
+    environment COLUMNS, e se proprio non ci sta nulla viene usato come default
+    80.
+
+ -Tcols infine assume che i tab siano lunghi cols colonne.
+
+ Le opzioni per aggiungere informazione sono le seguenti:
+
+ -i scrive anche il numero dell'inodo a cui corrisponde il file.
+
+ -s scrive la dimensione del file in blocchi (di 1K in genere, ma nel caso  sia
+    settata  la  variabile  di  ambiente POSIXLY_CORRECT, i blocchi sono di 512
+    byte).
+
+ -k scrive la dimensione  in  K  in  ogni  caso  (questa e l'opzione precedente
+    funzionano solo nel caso non si usi anche -l).
+
+ -F aggiunge un carattere in fondo al file per indicare di che  tipo  e`.   Gli
+    eseguibili  sono  terminati da *, le directory da /, i link simbolici da @,
+    le named pipe da |, e i sockets da =.
+
+ -p funziona quasi alla stessa maniera, salvo  che evita di aggiungere i * agli
+    eseguibili.
+
+ Infine l'informazione data puo` essere modificata da queste opzioni:
+
+ -d elenca le directory come file semplici; molto comodo quando ad  esempio  da
+    root si scrive ls d* e non si vuole vedere *tutti* i file sotto /dev ...
+
+ -n  scrive  nell'eventuale  campo  con nome utente e gruppo il numero relativo
+    (cosa che viene fatta in ogni  caso  se a tale numeo non corrisponde nessun
+    utente: questo succede tipicamente  se  si  elimina  qualcuno  senza  avere
+    controllato esattamente quali file erano posseduti da costui)
+
+ -L  scrive  il  nume del file corrispondente a un symbolic link, invece che il
+    nome del link stesso.
+
+ -R infine e` la famosissima opzione "ricorsiva".  Non appena il listato scopre
+    che si raggiunge una directory, il  programma dice "che bello!  posso anche
+    listare questa directory!".  Evitare generalmente di lanciare il comando  a
+    partire da / .
+
+  Bene,  questo  e`  quanto.   Ti  e` interessato il tutto?  No?  Allora scrivi
+ all'editor princeps aka RRE e digli di  cosa vuoi sentir parlare, e vediamo se
+ riesco a combinarci su qualcosa.
+
+ Non ti auguro buona Pasqua perche` chissa` quando queste quisquilie apparirano
+ su Telematicus.  [NdE: ma nel umber di aprile, caspiterella!]
+
+
+
+
+                                                     .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+
+
+
+
+ [1] egagro e` (C) IlCosta [2], e significa molto piu` di egregio.
+ [2] non sai chi e` IlCosta? Fortunata te...
+
+
+
+
+
+
+
+
+
+ ############                                                               ###
+ ###   6  ###                                             Oberon - parte IV ###
+ ############                                                 Roberto Piola ###
+
+ Riassunto:
+        Il  mondo  virtuale  dell'OOP  continua  ad essere sondato dall'accorto
+        navigatore quale  il  Piola.   Eccoci  ora  ai  fondamenti  del sistema
+        operativo ideato dal padre del Pascal: il tipo di dato fondamentale.
+
+ ------------------------------------------------------------------------------
+
+                                    OBERON
+
+               un nuovo ambiente operativo di pubblico dominio,
+                       da Niklaus Wirth e Jurg Gutknecht
+
+                                   parte IV
+
+
+  Vediamo ora un'altra delle particolarita' di  Oberon:  che cosa e' il tipo di
+ dato fondamentale.
+
+  Nei sistemi "normali", vicini alla struttura del  calcolatore,  si  pensa  ai
+ numeri  od  al  testo inteso come semplice sequenza di bytes come tipo di dato
+ primitivo.
+
+  In Oberon viene considerato primitivo  il  testo con attributi: colore, font,
+ dimensione...   Ho  gia'  detto  di  come  i  programmi  sorgente  sono  testi
+ attribuiti; anche i  contenuti  delle  finestre  di  sistema  sono  testi  con
+ attributi!   Da  qui  nessuna  meraviglia  se scopriamo di poter modificare le
+ componenenti del sistema semplicemente come se modificassimo un testo.
+
+  Altro concetto fondamentale di Oberon e'  quello di "display": in pratica una
+ finestra che permette di visualizzare oggetti al suo interno e di manipolarli.
+ La maggior parte dei programmi  (pardon,  "moduli",  secondo  la  terminologia
+ Oberon)  e'  associata  ad un display.  I display ereditano automaticamente il
+ menu con i comandi per chiuderli ed ampliarli.
+
+  Il modulo/display di sistema Write  e'  un  word processor, che sto usando in
+ questo momento, e che serve per modificare il testo con attributi.
+
+  Vengono poi fornite con il sistema anche le definizioni per oggetti  di  tipo
+ grafico, con il modulo/display Draw che serve per editarli e memorizzarli.
+
+  A  questo  punto e' giustificato l'entusiasmo del buon Paolo: un ambiente che
+ mette a disposizione questi strumenti come elementi primitivi e' veramente una
+ manna per il programmatore (si',  lo  so:  anche Windows permette di fare cose
+ del genere  usando  Write,  PaintBrush  e  l'OLE,  ma  e'  tremendamente  piu'
+ complicato, ed e' ancora un altro strato di sistema operativo).  [NdE:  questo
+ implica macchinosita', volumi, lentezza... insomma elefantiasi]
+
+  Prima  di  lasciarvi,  vorrei  solo mostrarvi un esempio di programmazione in
+ Oberon: scrivete ed attivate  nella System.Tool Edit.Open HelloWorld.Mod~, poi
+ ricopiate il seguente listatino:
+
+ MODULE HelloWorld;
+ (* R.Piola 18.8.1993 *)
+ IMPORT In,Out;
+ (* questo dice quali sono i moduli di cui il nostro modulo fara' uso *)
+
+ PROCEDURE Show;
+ (* questo e' il metodo da chiamare per attivare l'Hello World *)
+ BEGIN
+   Out.Ln;
+   Out.String("Hello, World!");
+   Out.Ln;
+ END Show;
+
+ BEGIN
+   Show;
+ END HelloWorld.
+
+ quindi  scrivete  da   qualche   parte   ed  attivate  prima  Compiler.Compile
+ HelloWorld.Mod~ e poi HelloWorld.Show~...   vi  lascio  immaginare  il  risul-
+ tato...
+
+
+
+
+                                 @    @     Ciao
+
+                                 \____/     Roberto Piola, fidonet 2:334/108.57
+
+
+
+
+
+
+ ############                                                               ###
+ ###   7  ###                                   IL GERGO HACKER - PARTE 33  ###
+ ############                                   Eric S. Raymond & .mau.     ###
+
+ Riassunto:
+        Continua  il  flusso  di termini *assolutamente* allucinanti.  Speriamo
+        solo che Telem continui a  vivere  fino  alla fine della traduzione del
+        vaccabolario (appendici incluse).
+
+        Tra l'altro il buon .mau.  continua a fare discrete pressioni per farmi
+        uscire il number puntuale... ma se non lo fa MC, dovrei farlo io? *:)
+
+ ------------------------------------------------------------------------------
+
+                                    {= R =}
+
+     <random> [casuale] agg.  1.  Impredicibile  (similmente  alla  definizione
+ matematica); strano.  "Il sistema si sta comportando in maniera piuttosto r.".
+ 2.   Assortito;  indistinguibile.   "Chi  c'era  alla  conferenza?"  "Solo  un
+ gruppetto di commerciali r.".  3.  Frivolo; improduttivo; senza guida (pegg.).
+ "E` semplicemente un  r.  <loser>".   4.  Incoerente  o  inelegante;  non  ben
+ organizzato.   "Questo  programma ha un insieme r. di misfeature".  "Questo e`
+ un nome  r.  per  quella  funzione!"  "Beh,  tutti  i  nomi  sono stati scelti
+ abbastanza a caso".  5. Ingiustificatamente sbagliato, cioe` fatto male  senza
+ alcuna  ragione  apparente.   Ad esempio, un programma che gestisce il default
+ per i nomi di file in un modo particolarmente inutile, o una routine assembler
+ che si sarebbe potuta  codificare  utilizzando  solo  tre  registri, ma ne usa
+ sette a caso per scopi vari che non si sovrappongono, costringendo la gente ad
+ invocarla solo dopo avere salvato quattro registri  in  piu`.   6.  In  nessun
+ ordine particolare, anche se in maniera deterministica.  "I canali di I/O sono
+ tutti  raggruppati  insieme,  e  quando  si apre un file ne viene scelto uno a
+ caso.  - s. 7. Un hacker r.; usato particolarmente per i liceali che assorbono
+ tempo al calcolatore  e  generalmente  stanno  tra  i  piedi.   Vedi anche <J.
+ Random>, <some random X>.
+
+    <random numbers> [numeri casuali] s. Se  si  vuole  specificare  un  numero
+ grande  ma  casuale  di cose, e il contesto non e` appropriato per <N>, alcuni
+ numeri sono preferiti dalla  tradizione hacker (cioe`, facilmente riconosciuti
+ come segnaposto).  Questi includono
+
+       17 Da tempo descritto  all'MIT  come  "Il  piu` piccolo numero casuale".
+          Vedi 23.
+
+       23 Numero sacro a Eris, Dea della Discordia (insieme a 17 & 5).
+
+       42 La Risposta alla Domanda Fondamentale sulla Vita, l'Universo e  Tutto
+          Quanto.
+
+       69 Dall'atto sessuale.  Era il favorito nella cultura ITS all'MIT.
+
+      105 69 hex = 105 dec, e 69 dec = 105 oct.
+
+      666 Il Numero della Bestia.
+
+ Per  ulteriore  illuminazione,  consultate  i `Principia Discordia', `La Guida
+ Galattica per l'autostoppista', un qualunque film porno, e l'Apocalisse di San
+ Giovanni Apostolo.  Vedi anche <Discordianism>.
+
+    <randomness>  [casualita`]  s.   Una  misfeature  inspiegabile;  ineleganza
+ ingiustificabile.  Anche un <hack> o <crock>  che  dipende  da  una  complessa
+ combinazione  di  coincidenze  (o  meglio, la combinazione su cui l'accrocchio
+ dipende perche` funzioni).  "Questo hack puo`  buttare fuori i caratteri da 40
+ a 57 mettendo il carattere  del  campo  dell'accumulatore  di  un  XCT  e  poi
+ estraendo  6  bit -- gli ultimi due bit del codice di operazione dell'XCT sono
+ quelli che servono.  "Che r.!".
+
+    <rape> [stuprare]  v.  Sputtanare  (metaforicamente)  qualcuno  o qualcosa,
+ violentemente;  in  particolare,  distruggere  in  maniera  irrecuperabile  un
+ programma o dell'informazione.  Spesso usato per descrivere il  danneggiamento
+ di  un  file  system.   "Tizio  stava  facendo  girare un programma che faceva
+ dell'I/O  assoluto  su  disco,  e   ha  finito  collo  stuprare  la  directory
+ principale".
+
+    <raster blaster>  s.  [Cambridge]  Hardware  specializzato  per  operazioni
+ <bitblt>.   Si  dice  che  sia ispirato per analogia con "Rasta Blasta", slang
+ inglese per quegli enormi radioloni  con  cassette  che si portano in spalla e
+ che gli americani chiamano `boom box' o `ghetto blaster'.
+
+    <raster burn> s. Dolore agli occhi prodotto dallo stare troppe ore  davanti
+ a monitor a bassa risoluzione, maltarati o troppo luminosi, spec.  se grafici.
+ Vedi <terminal illness>.
+
+    <rave>  [WPI:  delirare]  v.  1.  Persistere  nel  discutere  un  argomento
+ specifico.   2.  Parlare  autoritativamente  su un argomento di cui si conosce
+ molto poco.  3, Lamentarsi con una  persona  che  non e` in grado di aiutarvi.
+ 4. Fare arrabbiare di proposito un'altra persona con quello che si  dice.   5.
+ Evangelizzare.   Vedi  <flame>.   Usato  anche  per  descrivere una froma meno
+ negativa di blateraggio, come la  presa  per  i  fondelli di un amico.  <Rave>
+ differisce leggermente da <flame>, perche` implica che  e`  la  maniera  o  la
+ persistenza  nel  parlare che infastidisce, mentre <flame> impli ca fortemente
+ che anche l'argomento di cui si parla e` scocciante.
+
+    <rave on!> [continua a delirare!]  imp.   Invito sarcastico a continuare un
+ <rave>, spesso detto da qualcuno che desidera che l'interlocutore  si  accorga
+ che sarebbe meglio smetterla, ma tanto sa gia` che sara` difficile.
+
+    <ravs>  /ravz/,  anche  Chinese ravs s. Kuo-teh.  Un antipasto cinese, noto
+ anche come  "dumplings",  "potstickers"  e  (nella  zona  di  Boston) `Ravioli
+ pechinesi'.  Il termine "rav"  e`  un'abbreviazione  di  ravioli  (non  quelli
+ italiani,  almeno  per  gli  hacker americani).  Entrambi i tipi consistono di
+ pasta ripiena, ma quelli  cinesi  usano  della  pasta  piu` sottile, e vengono
+ cotti in maniera differente, di solito al vapore o fritti.  Un rav o  dumpling
+ puo`  essere  di  entrambi  i  tipi, mentre il potsticker e` sempre fritto (si
+ chiama cosi` perche`  si  attacca  alla  padella  e  occorre staccarlo.  [NdT:
+ ovviamente a Bologna quando si parla di ravioli si intende "the real thing"...
+ - .mau.] Vedi anche <Oriental food>.
+
+    <READ.ME file> s. Per convensione, in cima a una distribuzione sorgente  su
+ UNIX  si  trova  sempre  un  file  chiamato `READ.ME' (o README, o (raramente)
+ ReadMe),  che  e`  un'introduzione  per  gli  hacker  contenente  puntatori  a
+ documentazione piu`  dettagliata,  ringraziamenti,  elenco  delle  revisioni e
+ cosi` via.
+
+    <read-only user> s.  Descrive  un  <luser>  che  usa  i  calcolatori  quasi
+ esclusivamente  per  leggere  USENET,  bbs  e  posta  elettronica,  invece che
+ scrivere codice o fornire delle informazioni utili.  Vedi <twink>.
+
+    <real programmer> [Vero Programmatore - indirettamente, dal libro `Real Men
+ Don't Eat Quiche'] s.  Una  particolare  sottovarieta` di hacker, posseduta da
+ un'insolente tendenza alla complessita`  che  e`  arrogante  anche  quando  e`
+ giustificata   dall'esperienza.    Il   Vero   Programmatore  archetipale  ama
+ programmare sul <bare metal>, e ne e`  un vero esperto; si ricorda i codici di
+ operazione in binario per tutte le macchine su cui ha lavorato;  pensa  che  i
+ linguaggi  ad alto livello siano per femminucce; e usa un debugger per editare
+ il suo codice, perche` gli editor full  screen sono per gli imbranati.  I V.P.
+ non sono soddisfatti fino a che il codice non e` stato ridotto a un livello di
+ tensione (v.  <tense>) alle soglie della  rottura.   I  V.P.   non  usano  mai
+ commenti  o  scrivono  documentazione;  "Se  e`  stato difficile da scrivere",
+ afferma il V.P., "deve essere difficile  da capire".  I V.P.  possono far fare
+ alle macchine cose che non sono assolutamente scritte nelle specifiche;  anzi,
+ generalmente  non rimangono soddisfatti se non riescono a farlo.  Il codice di
+ un V.P.  puo` incutere  soggezione  per  la  sua  fiera brillantezza, anche se
+ spaventa per il suo ilvello di accrrocchio.   I  V.P.   vivono  a  patatine  e
+ caffe`,  appendono  opere  d'arte  fatte  dalla  loro  stampante  ad  aghi,  e
+ terrificano  gli  altri  programmatori  -- perche` un giorno qualcuno potrebbe
+ essere costretto a tentare di capire  il  loro codice per modificarlo.  I loro
+ successori pensano generalmente che sia Bene (v.  <Good  Thing>)  che  oggidi`
+ non ci siano piu` molti V.P.
+
+    <Real  Soon  Now>  [Davvero  Presto  Ormai  -  orig.   dalla  comunita` SF,
+ popolarizzato da Jerry Pournelle nella sua  rubrica su BYTE] agg.  1. Supposto
+ essere disponibile (o corretto, o economico, o  qualunque  altra  cosa)  ormai
+ davvero  presto  secondo  qualcuno, ma chi lo dice e` scettico.  2. Quando gli
+ dei/il fato/altri impegni  temporali  permetteranno  a  chi  parla di finirlo.
+ Spesso abbreviato RSN.
+
+    <real time> [in tempo reale] avv.  Fare qualcosa mentre  gli  altri  stanno
+ guardando  o aspettando.  "Le ho chiesto come trovare sullo stack il contatore
+ di programma della procedura chiamante, ed e` uscita fuori con un algoritmo in
+ tempo reale".
+
+    <real user> s. 1. Un  utente  commerciale.   Uno  che paga "veri" soldi per
+ l'uso del suo calcolatore.  2. Un non hacker.  Qualcuno che usa il sistema per
+ uno scopo esplicito (progetti  di  ricerca,  corsi,...).   Vedi  <user>.   Gli
+ hacker  che  sono  anche  studenti  possono anche essere r.u.  "Mi occorre che
+ questo sia messo a posto, perche`  devo  risolvere una serie di esercizi.  Non
+ mi sto lamentando come <randomness>, ma come  un  vero  utente".   Vedi  anche
+ <luser>.
+
+    <Real  World>  s.  1.  Nel  campo  della programmazione, quei posti dove la
+ parola programmazione puo` venire usata  nella stessa frase assieme a FORTRAN,
+ COBOL, RPG, <IBM>, ecc.  Posti dove i programmi eseguono cose  commercialmente
+ necessarie  ma  intellettualmente  non  ispiranti  come calcolare buste paga e
+ fatture.  2. Per i programmatori,  la  locazione dei non programmatori e delle
+ attivita` non correlate alla programmazione.  3. Un universo in cui il vestito
+ standard e` camicia e cravatta, e le ore di lavoro sono definite quelle tra le
+ 9 e le 17.  4. La locazione dello status quo.  5. Un qualsiasi posto fuori  da
+ un'universita`.   "Poveretto,  ha lasciato il MIT e se ne e` andato nel R.W.".
+ Usato in maniera peggiorativa  da  chi  non  vi risiede.  Nella conversazione,
+ parlare di qualcuno che se ne e` andato nel R.W.  non  e`  molto  diverso  dal
+ parlare  di  uno  che  e` morto.  Vedi anche <fear and loathing>, <mundane>, e
+ <uninteresting>.
+
+    <rectangle slinger> [scagliatore di rettangoli] s. Vedi <polygon pusher>.
+
+    <recursion> [ricorsione] s. Vedi <recursion>.  Vedi anche <tail recursion>.
+
+    <recursive acronyms> s.pl.  Una tradizione hacker (specialmente all'MIT) e`
+ quella di scegliere acronimi che si  riferiscono umoristicamente a se stessi o
+ ad altri acronimi.  Gli esempi classici erano due  editori  dell'MIT  chiamati
+ EINE  ("EINE  Is  Not  EMACS",  EINE  non  e`  EMACS)  e  ZWEI ("ZWEI Was EINE
+ Initially", ZWEI era inizialmente  EINE).   [NdT:  sarebbe stato piu` corretto
+ chiamare EINE EINS, ma si perdeva tutto il gioco di parole...  - .mau.].  Piu`
+ recentemente, <GNU> (sign.  #1) si dice significare "GNU's Not UNIX!" (GNU non
+ e` UNIX).
+
+
+
+
+                                           tradotto da .mau.
+                                           Fidonet:  2:334/100.5
+                                                     2:332/407.909
+                                           Internet: mau@beatles.cselt.stet.it
+
+
+
+
+
+ ############                                                               ###
+ ###   8  ###                                                ERRATA CORRIGE ###
+ ############                                                La direzione   ###
+
+  .mau.   mi  ha  nuovamente  sgridato.  Ha detto che mi sono dimenticato delle
+ lettere accentate su  un  articolo.   E  per  la  precisione  quello di Artore
+ Londona.
+
+  Cose che capitano, specialmente se  quel  @#][?   di  un  #•@+  Ricca  me  lo
+ spedisce con le accentate *:(
+
+  Ancora una volta mi sprosto in umili scuse.
+
+                                                                   La Direzione
+
+
+
+
+
+
+
+
+ ############ NEWS DAL MONDO TELEMATICO                                     ###
+ ###   9  ###                                            INFOLINE           ###
+ ############                                Roberto Orsini, Sabato De Rosa ###
+
+ Riassunto:
+        La  cosa che mi fa piu' piacere e' lo scoprire di avere validi aiutanti
+        quali il Costa2 (l'inossidabile .mau.) e l'Orso.
+
+        Questi si  preoccupano  di  trovare  nuovi  potenziali articolisti, gli
+        fanno scrivere i pezzi e me li spediscono.
+
+        Piu' di cosi' non si puo' sperare. Grazie!!
+
+        RO> Potresti scrivermi un bel messaggio di informazioni sul tuo
+        RO> BBS, sui suoi rapporti con l'UIC, sulle aree messaggi e
+        RO> file dedicate all'handicap e tutto quanto puo' interessare
+        RO> in questo senso?
+
+                                                  |'!Chao!_
+                                                  |__ OrsO/
+                                                         /
+                                                   2:332/415.1
+ ------------------------------------------------------------------------------
+
+                                   INFOLINE
+
+  Vorrei intanto darti il benvenuto, ringraziarti per  l'interesse  manifestato
+ nei  nostri  confronti,  e  vorrei  altresi'  invitarti  a  mettere  a  nostra
+ disposizione  (quando  e  nelle  forme  che  riterrai  piu'  efficaci)  la tua
+ esperienza e ad offrirci il  tuo  contributo  per far crescere e migliorare la
+ nostra BBS.
+
+  INFOLINE e' una banca dati il cui scopo  precipuo  e'  quello  di  avvicinare
+ sempre  piu'  non  vedenti  al  mondo  dell'informatica  per  le  occasioni di
+ socializzazione   e   di   evoluzione   culturale,   professionale,   o  anche
+ semplicemente hobbistica.
+
+  L'iniziativa di creare una BBS e' nata soprattutto grazie alla collaborazione
+ di due istituzioni che per tradizione storica e vocazione  giuridico-culturale
+ s'impegnano  con pervicacia a favorire l'inserimento dei ciechi nella societa'
+ a tutti i  livelli:  l'istituto  dei  ciechi  F.  Cavazza  che  ha sede in via
+ Castiglione 71 Bologna e la sezione provinciale dell'unione italiana ciechi di
+ Bologna sita in via dell'oro 3.
+
+  Altri soggetti la cui collaborazione risulta quanto mai  preziosa  e  di  cui
+ quindi mi piace fare menzione, sono:
+
+ 1) Il POLO INFORMATICO NAZIONALE, entita' costituita dal succitato istituto  e
+    dal CENTRO NAZIONALE TIFLOTECNICO,  organismo  che  ha  sede  a Roma in via
+    Borgognona 38 presso gli uffici della direzione nazionale dell'u.i.c.;
+
+ 2) La societa' cooperativa HANDICOOP, che si occupa principalmente di corsi di
+    alfabetizzazione informatica per non vedenti e  di  sviluppo  di  softwares
+    specifici per gli stessi;
+
+ 3) Alcuni  volenterosi  che dedicano tempo, energie e risorse, affinche'  tale
+    iniziativa  decolli  nella  maniera  migliore  tra  loro merita particolare
+    apprezzamento la collaborazione che ci sta offrendo Fabio Ferrero a te noto
+    forse poiche' sysop di oca system:  egli ha avuto modo di conoscerci grazie
+    all'anno di servizio civile che ha svolto  presso  la  sezione  provinciale
+    dell'u.i.c.
+
+  Per  quanto  attiene  alle  aree messaggi, posso dirti che abbiamo agganciato
+ alcune aree fidonet di interesse generale  piu' un'area nazionale (il cui nome
+ mi sfugge in questo momento) [dev'essere la HUMAN.ITA, N.d.R.] di  discussioni
+ sull'handicap  e ancora un'area internazionale (sempre fidonet) "BLINDTLK" che
+ riguarda piu' da vicino i problemi della cecita'.
+
+  Per quanto pertiene invece alle aree  files, devo dirti che la loro struttura
+ non e' ancora ben definita; abbiamo pero' intenzione di attivare  un'area  che
+ contenga  quotidiani,  periodici  e  riviste  pubblicati  su  TELEVIDEO  RAI e
+ dall'u.i.c; un'altra contenente  le  nuove  revisioni dei softwares utilizzati
+ per il funzionamento di ausilii informatici  per  non  vedenti  (come  ad  es.
+ display  Braille e sintesi vocali) distribuiti dal POLO INFORMATICO NAZIONALE;
+ altre   aree   di   interesse   generale   dove   cercheremo   di  raccogliere
+ prevalentemente quei programmi, testi e documenti fruibili dai ciechi.
+
+
+
+
+
+
+                                                                 Sabato De Rosa
+                                                                 2:332/420
+
+
+
+
+ ############ NEWS DAL MONDO TELEMATICO                                     ###
+ ###  10  ###                                                 JAckStat 2.95 ###
+ ############                                                 Paolo Polce   ###
+
+ Riassunto:
+        Tanto  tempo fa, in un number a caso, un certo Ricci, Cicci o che so io
+        *:) aveva parlato  di  un  programmino  per  fare le statistiche.  Dopo
+        innumerevoli preghiere, minacce etc.  etc.  sono finalmente riuscito  a
+        fargli sputare l'articolo.  A quel maledetto...  *:)
+
+        PP>> p.s. mi dici un po' le scadenze di telematicus ?
+
+        RR> allora me lo devi fare pervenire entro ieri.
+        RR> ci tengo un *casino* a fare un bel number.
+
+        mi  dispiace  averti fatto tanto aspettare...  mi sono beccato anche un
+        "quello stronzo di JAckStat  non  mi  vuol mandare l'articolo" da parte
+        tua, ma devi sapere che  sto  incasinatissimo  (credimi)...   [NdE:  il
+        casinamento  nella  vita  di  un  individuo appartiene alle costanti di
+        murphy *:)]
+
+        Ecco una  bozza  di  recensione...   dimmi  come  ti  pare,  se la devo
+        accorciare, allungare, buttare, bruciare ecc.  ecc.
+
+        [NdE: va benissimo.  Ma  la  prox  volta  non  dire  che  propini  agli
+        illustrissimi  lettori  di  Telem una stupida bozza.  Non e' carino...]
+        *:)
+
+ ------------------------------------------------------------------------------
+
+                          LA VERA STORIA DI JACKSTAT
+                               NARRATA DAL PAPA'
+
+
+   Tutto  comincio' con la mia nomina a moderatore della CHATTER.335, circa 1.3
+ anni  fa.   Ebbi  accesso  all'area  ECHOSER.033  (area  riservata  a  Sysop e
+ moderatori).
+
+    Tra le cose che lessi in quell'area, un bel di', vidi delle interes-  santi
+ statistiche  sul traffico Echomail, riguardanti le aree .ITA.  Pensai che agli
+ utenti della chatter.335 avrebbe  fatto  piacere leggere quelle stats, perche'
+ erano  effettivamente  interessanti...   ed  invece...   insulti,   lamentele,
+ critiche  al  moderatore  che aveva postato ben 7 messaggi riguardanti le aree
+ .ITA, che poco  fregavano  agli  utenti  della  chatter.335.   [NdE: la solita
+ storia.  Nemo profeta in patria...]
+
+    Tuttavia, qualche utente -tra un insulto e l'altro- mi disse "certo che  se
+ le stats riguardassero quest'area...  beh, io le leggerei volentieri".
+
+    Contattai  l'autore  del programma-sonda, per sapere se era possibile avere
+ copia del programma  e  poter  quindi  generare  le  stats per la chatter.335.
+ Nulla da fare; l'unica cosa che riuscii a sapere era che la  sonda  funzionava
+ sia sotto Amiga che sotto DOS...  ma non riuscii mai ad averla.
+
+    Non  mi  persi  d'animo,  no,  anzi,  dato  che  prima  o  poi avrei dovuto
+ affrontare l'esame di Fondamenti 1  (90%  incentrato sul TPascal), mi decisi a
+ "metter mano" al prodotto Borland piu' famoso del mondo: il Turbo Pascal.
+
+    Una prima versione di JackStat fu rilasciata nel luglio  1993.   Funzionava
+ solo  su  basi  messaggi  HUDSON  (o  SuperBBS che dir si voglia), ma svolgeva
+ discretamente bene il suo compito.   Potevo  sapere  chi era lo scrittore piu'
+ assiduo dell'area, chi  il  peggior  quotatore,  chi  l'amante  dei  caratteri
+ off-policy e altre amenita'.
+
+    Finalmente, ottenni il consenso degli utenti della chatter e cio' mi spinse
+ a migliorare il prodotto.
+
+    Ora,  se  io  fossi  Fabio  Filippi,  potrei  improvvisamente  parlarvi  di
+ cinema...   ma  ritorniamo al JackStat...  [NdE: questa e' una frecciatina del
+ tutto gratuita ad un grande eclettico.  :)]
+
+    Cio'  che  ora  volevo  era  un  aiuto  automatico  alla  moderazione della
+ chatter.335 (il suffisso non vi freghi...  circolano 3000 messaggi  al  mese).
+ Non  vi  dico  quante  versioni  ci  sono volute (anche perche' se avete letto
+ Telematicus 35, lo sapete gia') fino ad arrivare a quello che, oggi, io stesso
+ -con poca modestia- considero  un  "buon"  prodotto  shareware, made in Italy.
+ [NdE: Yeahh!]
+
+    JackStat ora (v2.95) puo' leggere basi msg in formato .MSG, Squish, Hudson,
+ Jam e, dalla prossima versione, EzyComm.
+
+    E' superconfigurabile;  facile  da  usare;  dotato  di  shell  interna  per
+ scegliere  le aree da processare; legge l'areas.bbs esportato dal FastEcho; e'
+ dotato di Utility per convertire  il  Golded.INC e lo squish.cfg in areas.bbs;
+ puo' postare le stats direttamente nell'area scelta;  puo'  mandare  "cazziate
+ automatiche"  in  matrix,  con testo della cazziata configurabile, agli utenti
+ che quotano troppo e/o che scrivono  troppi caratteri off-policy e/o che hanno
+ tear-line troppo lunghe; puo'  esportare  in  un  file  ASCII  i  messaggi  di
+ un'intera  area;  puo'  eseguire  lo  scan  dei  messaggi  in un range di date
+ specificato; puo' postare la policy dell'area  o un qualsiasi altro file prima
+ delle stats; e' possibile scegliere, nel file di configurazione, quale tipo di
+ statistiche si  desidera  effettuare  e  quali  informazioni  includere  nelle
+ statistiche;  e' possibile decidere di quante entrate dev'essere la classifica
+ (per fare le top-ten,  top-twenty  ecc.);  genera anche statistiche sui Thread
+ piu' seguiti in un'area; nonche' statistiche riguardanti le ore in cui vengono
+ scritti i messaggi; genera una lista di  utenti  dell'area,  ordinata  secondo
+ address  o alfabeticamente; gestisce fino a 10 aka, per poter postare le stats
+ usando  indirizzi  diversi;  ha  la  possibilita'  di  descrivere  i  file  di
+ statistiche, usando lo standard Descript.ion  del  4dos; ha la possibilita' di
+ aggiungere  Tag-Line  ai  messaggi  postati;  esporta   il   risultato   delle
+ statistiche  in  file  ASCII, editabili -quindi- con qualsiasi editor; in piu'
+ esporta  il  risultato  in  un   formato  proprietario,  con  suffisso  *.JDB,
+ compatibile con JSView una utility che ho scritto per  JackStat,  che  da'  la
+ possibilita'   di  cambiare  interattivamente  il  "look"  delle  statistiche,
+ aggiornando automaticamente -se  e'  il  caso-  il  file  di configurazione di
+ JackStat.  [NdE: !]
+
+    JStat puo' gestire fino a 2000 utenti e 2000 subject diversi.
+
+    Posso dire, con molta soddisfazione, di aver visto usare il  mio  programma
+ dai moderatori di varie aree ITA, ad es.  Chatter.ITA, Point.ITA, Cartoni.ITA,
+ Fumetti.ITA,  Multimedia.ITA, Comms_Phone.ITA, Peacelink.ITA...  anche se, con
+ meno soddisfazione, devo  dire  che  solo  i  moderatori della Chatter.ITA (R.
+ Cifarelli) e della Multimedia.ITA  (E.   Martines)  sono  utenti  regolarmente
+ registrati...   <g>  [NdE:  questo  e'  un  *ottimo*  scoop  e  spero  di  non
+ dimenticarmi di inserirlo nell'editoriale!]
+
+    Tutto  questo  non  sarebbe  stato  possibile,  senza l'aiuto di un team di
+ beta-tester, che dal lontano (mica tanto,  poi) luglio 1993 mi stanno aiutando
+ a migliorare JackStat.
+
+     Ho, anzi, il dovere di citarne i nomi:  Edoardo  Pinci,  Marco  Matarazzo,
+ Alessandro  Del  Prete,  Cicci  Serra  [NdE:  Yeahh!   E'  stato grazie al suo
+ *pressante* impegno che  questo  articolo  ha  visto  la  luce], Aris Ferrara,
+ Stefano Ferrara e Antonio Ianiri, nonche'  Andrea  Matta,  che  spesso  mi  ha
+ aiutato  a risolvere problemi legati alla programmazione in Turbo Pascal...  e
+ Mark May, delle routine del quale ho fatto intenso uso per il mio programma.
+
+    Non mi resta che dirvi di provare  JackStat e JSview e farmi sapere cosa ne
+ pensate.
+
+    Potete requestare i  due  programmi  con  i  magic  name  JSTAT  e JVIEW al
+ 2:335/225 230 (The Bits BBS, Aris Ferrara  -  Napoli),  per  esser  sicuri  di
+ ricevere le ultime versioni.
+
+
+
+
+ babbarabye,                                           jack bass
+                                                       Paolo Polce (2:335/4.31)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ############ L'ANGOLO DEL MATEMATICO                                       ###
+ ###  11  ###                                           THE STABLE MARRIAGE ###
+ ############                                           Andrea Vitali       ###
+
+ Riassunto:
+        Ecco riprendere una tradizione iniziata  con  .mau.:  fare  avvertire  ai
+        nostri lettori lo schiacciante peso della loro ignoranza!
+
+        Questo  con  un  po'  di buona, sana, matematica.  Ecco cosa mi dice il
+        neoTelem Andrea:
+
+        Nota bene: TUTTO quanto compare in questo articolo e` tratto dal libro:
+        "Algorithms  and  Data  Structures",  Niklaus  Wirth,  ETH  Zurich, Ed.
+        Prentice Hall.  Questa ne e` una libera traduzione.
+
+ ------------------------------------------------------------------------------
+
+                              THE STABLE MARRIAGE
+
+  Il programma che segue e`  un  ottimo  esempio  di BACKTRACKING, cioe` di una
+ strategia di ricerca delle soluzioni di un problema qualsiasi.  Non sempre  e`
+ possibile  infatti  provare  tutte le "possibili" soluzioni per vedere se sono
+ valide o no, al contrario  e`  necessario  concentrarsi su quelle che sembrano
+ "promettenti" in un senso che preciseremo poi.
+
+  L'algoritmo presentato in questo  articolo  e`  lo  stesso  che  consente  di
+ trovare  la  soluzione  ottima  del  famoso problema del KNAPSACK: riempimento
+ ottimale di uno  o  piu`  contenitori.   Attenzione  percio` anche ai prossimi
+ numeri!  Per adesso potrete vedere una semplice applicazione del BACKTRACE che
+ permette di trovare rapidamente TUTTE le soluzioni valide di  un  problema  (e
+ non  quella  OTTIMA).   Presentero` nell'ordine: il problema, la soluzione, il
+ programma e un esempio.
+
+
+                                 IL PROBLEMA.
+
+  Siete ad una festa, oppure siete titolari di un'agenzia matrimoniale, o siete
+ uno psicologo che studia un  gruppo  di  uomini e donne...  il vostro compito,
+ supponendo di avere tanti  uomini  quante  donne,  e`  di  formare  le  coppie
+ uomo-donna  in  modo che non ci siano i tipici problemi del caso: tradimenti &
+ affini.
+
+  In  generale,  e`  facile  capire  quando  un  tradimento  diventa probabile.
+ Prendiamo in considerazione una singola coppia formata da Alice e Bruno: Bruno
+ ha molte amiche, fra queste ce ne sono alcune che egli  preferisce  ad  Alice,
+ tra  queste  almeno  una  ricambia l'interessamento e cosi`...  la ragazza che
+ ricambia l'interessamento  e`  anch'essa  fidanzata,  ma  trova  che Bruno sia
+ preferibile al suo compagno.
+
+  Insomma avviene che questi due, Bruno e la ragazza, si preferiscano tra  loro
+ piu`  di quanto ognuno preferisca il compagno, con il risultato che due coppie
+ si romperanno in breve tempo ed una nuova se ne formera`.
+
+  Dal punto di vista di Alice puo`  succedere la stessa cosa: se tra quelli che
+ lei preferisce a Bruno ce n'e` almeno uno che la gradisce piu`  della  propria
+ ragazza allora si avra` l'analogo problema.
+
+  Il sistema di coppie uomo-donne e` invece stabile se per nessuna delle coppie
+ accade   quello   che   abbiamo   descritto  sopra.   I  tradimenti  diventano
+ impossibili: infatti accade che Bruno  sia  sicuro  che tra le ragazze che lui
+ preferisce ad Alice non se ne trova  nessuna  che  lo  preferisca  al  proprio
+ ragazzo, quindi non ci "prova" nemmeno.  La stessa cosa avviene per Alice.
+
+
+                                 LA SOLUZIONE.
+
+  Ogni uomo del gruppo ha compilato una lista in cui viene messa al primo posto
+ la  ragazza  ritenuta piu` attraente, mentre all'ultimo posto viene ovviamente
+ quella  meno  desiderata.   Allo  stesso  modo  ogni  donna  ha  compilato una
+ graduatoria con al primo posto l'uomo preferito.
+
+  Supponiamo di avere 8 uomini ed 8 donne, in  quanti  modi  posso  formare  le
+ coppie?  Beh...  veramente tanti: il primo uomo che sistemo posso metterlo con
+ una  qualsiasi tra le 8 donne, il secondo con una tra le sette rimaste e cosi`
+ via...  cioe` al primo passo o 8  possibilita`, al secondo 7, fino ad arrivare
+ ad 1: in totale 8! = 8*7*6*5*4*3*2*1 = 40320 sistemi di coppie (per sistema di
+ coppie intendo insieme di 8 coppie).
+
+  Come cerco ogni possibile soluzione al mio problema?
+
+  Molto semplicemente [NdE: hem!]: mi costruisco la soluzione poco  per  volta:
+ sistemo  il  primo  uomo,  poi  il secondo, poi il terzo...  finche` non li ho
+ sistemati tutti.
+
+  In  questo  procedimento  mi  fermo  non  appena  rilevo  una  situazione  di
+ "pericolo" come quella descritta sopra tra Alice e Bruno.
+
+  Se rilevo una tale situazione  allora "torno indietro" provando ad effettuare
+ una scelta diversa per la sistemazione del mio gruppo.
+
+  Ad esempio, indicano con "un" e "dn" l'uomo numero "n" e  la  donna  "n":  ho
+ formato  le  coppie u1-d6 u2-d3 u3-d5, ma rilevo che u3-d5 non va bene, allora
+ torno indietro e provo a sistemare diversamente u2 poi continuo di nuovo.
+
+  E` questa l'essenza del BACKTRACKING:  costruisco poco per volta la soluzione
+ per fermarmi non appena questa non sia piu` accettabile, allora torno indietro
+ ed effettuo una scelta diversa.
+
+
+                                 IL PROGRAMMA.
+
+  Ecco la procedura che effettua le scelte e  cerca  le  soluzioni  secondo  il
+ metodo del BACKTRACKING:
+
+ procedure SistemaUomo(Uomo...);
+ var Donna... Posto...;
+ begin
+   for Posto := 1 to MaxNum do begin
+     "Prendi la Donna al posto specificato nella graduatoria dell'Uomo"
+     if "coppia accettabile" then begin
+       "registra la coppia formata: Uomo-Donna"
+       if "non e` ultimo uomo" then "sistema uomo successivo"
+       else "visualizza il set di coppie"
+     "cancella la coppia per provare un'altra scelta"
+     end; { if }
+   end; { for }
+ end; { SistemaUomo }
+
+  Come  si  vede  questa procedura e` molto "maschilista"!  Gia`!  Infatti essa
+ cerca di sistemare ogni uomo con la donna che egli specifica al primo posto...
+ solo se ci sono  problemi  ad  un  uomo  viene  assegnata una donna al secondo
+ posto.
+
+  Questo e` naturalmente uno dei modi di cercare le soluzioni, nel programma e`
+ inclusa la procedure che sistema le donne con gli uomini (invece del viceversa
+ come accade qui).
+
+  Ma quando una coppia e` accettabile?  Quando la donna  con  cui  l'uomo  deve
+ essere accoppiato e` nubile e quando la coppia risulta "stabile"...  cioe` non
+ si verifica la situazione descritta all'inizio tra Alice e Bruno.
+
+ function CoppiaStabile(Uomo... Donna...): boolean;
+   var Stabile: boolean;
+       ProvaUomo... ProvaDonna...;
+       Posto, PostoMax...;
+   begin
+     ...
+     Stabile := TRUE;
+
+     "prendi come donne di prova quelle che occupano in graduatoria
+      un posto piu` in alto della Donna accoppiata con l'Uomo e che
+      sono gia` accoppiate"
+     if "tra di esse almeno una ha assegnato all'Uomo un posto in
+        graduatoria piu` alto di quello assegnato al proprio marito"
+     then Stabile := FALSE;
+
+     "idem per la Donna con gli uomini da lei preferiti all'Uomo e
+      gia` accoppiati"
+
+   CoppiaStabile := Stabile;
+ end; { CoppiaStabile }
+
+  Interessanti sono un paio di modifiche che mi sono permesso di aggiungere:
+
+            quando  viene  stampato  il  set  di coppie viene anche stampato un
+            indice di  soddisfazione  degli  uomini,  uno  delle  donne  ed uno
+            globale.
+
+  Ovviamente un uomo e` soddisfatto al 100% se risulta accoppiato con la  donna
+ che ha messo al primo posto in graduatoria; idem per le donne.
+
+  L'indice  globale e` poi banalmente la somma dei due parziali scalata in modo
+ che il massimo sia 100%.
+
+  Come esempio ho utilizzato quello fornito dal  libro di testo che e` la fonte
+ di tutta questa discussione.
+
+                        Per prima cosa le graduatorie.
+
+  Ritagliate la parte seguente di testo e salvatela su file cosi` come  e`  con
+ il  nome di "MR.1" (ad esempio...  ma qualsiasi altro nome e` OK).  [NdE: yuk!
+ questo giovine ci  fa  fare  bricolage.   Notate  che  nella  pagina dietro la
+ direzione ha messo della pubblicita' per non rovinare il bollettino.  La  cosa
+ puo' funzionare -con un po' di buona volonta'- anche con una fotocoppia.]
+
+ ==cut===cut===cut===cut===cut===cut===cut===cut===cut===cut===cut===cut==
+
+ Graduatorie compilate dagli uomini:
+ 7 2 6 5 1 3 8 4  ; graduatoria del primo uomo
+ 4 3 2 6 8 1 7 5  ; del secondo, e cosi` via fino all'ultimo
+ 3 2 4 1 8 5 7 6
+ 3 8 4 2 5 6 7 1  ; la graduatoria e` compilata specificando
+ 8 3 4 5 6 1 7 2  ; per primo il numero della donna preferita
+ 8 7 5 2 4 3 1 6
+ 2 4 6 3 1 7 5 8
+ 6 1 4 2 7 5 3 8  ; graduatoria dell'ottavo e ultimo uomo
+
+ Graduatorie compilate dalle donne:
+ 4 6 2 5 8 1 3 7  ; graduatoria della prima donna
+ 8 5 3 1 6 7 4 2
+ 6 8 1 2 3 4 7 5  ; la graduatoria e` compilata specificando
+ 3 2 4 7 6 8 5 1  ; per primo il numero dell'uomo preferito
+ 6 3 1 4 5 7 2 8  ; per arrivare a quello meno desiderato
+ 2 1 3 8 7 4 6 5  ; (ottavo numero sulla riga)
+ 3 5 7 2 4 1 8 6
+ 7 2 8 4 5 6 3 1  ; graduatoria della ottava e ultima donna
+
+ ==cut===cut===cut===cut===cut===cut===cut===cut===cut===cut===cut===cut==
+
+  Facendo  girare il programma con "MR MR.1", se avete chiamato il programma MR
+ come ho fatto io, dovreste ottenere un output del genere:
+
+ **** Accoppiamenti Perfetti ****
+
+ N:   1, S:  21, U con:  7  4  3  8  1  5  2  6 U: 87%, D: 62%, T: 75%
+ N:   2, S: 449, U con:  2  4  3  8  1  5  7  6 U: 78%, D: 70%, T: 74%
+ N:   3, S:  59, U con:  2  4  3  1  7  5  8  6 U: 64%, D: 81%, T: 72%
+ N:   4, S:  62, U con:  6  4  3  8  1  5  7  2 U: 71%, D: 78%, T: 75%
+ N:   5, S:  47, U con:  6  4  3  1  7  5  8  2 U: 57%, D: 89%, T: 73%
+ N:   6, S: 143, U con:  6  3  4  8  1  5  7  2 U: 67%, D: 81%, T: 74%
+ N:   7, S:  47, U con:  6  3  4  1  7  5  8  2 U: 53%, D: 92%, T: 72%
+ N:   8, S: 758, U con:  3  6  4  8  1  5  7  2 U: 59%, D: 84%, T: 71%
+ N:   9, S:  34, U con:  3  6  4  1  7  5  8  2 U: 45%, D: 95%, T: 70%
+
+  Come vedete viene specificato  il  numero  della  soluzione e il numero delle
+ valutazioni di stabilita` richieste per trovare quella particolare  soluzione:
+ notate  come  la somma di tutte le "S" sia di gran lunga inferiore alle 40'000
+ valutazioni di  stabilita`  richieste  da  una  ricerca  a  tappeto effettuata
+ provando tutte le soluzioni possibili (forza bruta).
+
+  Quelle che vedete sono quindi le 9 soluzioni possibili in base alla lista  di
+ preferenze fornita.  La soluzione N=1 viene letta cosi` u1-d7 u2-d4...  Non ci
+ sono altre soluzioni.
+
+  Seguono  gli  indici di soddisfazione: dato che la procedura di ricerca delle
+ soluzioni e` "maschilista" (come spiegato sopra) la prima soluzione trovata e`
+ anche quella piu` soddisfacente per gli uomini.
+
+  Il programma permette  di  scegliere  il  modo  con  cui  vengono stampate le
+ soluzioni: "N" e` il modo normale,  cioe`  vengono  stampate  tutte;  con  "U"
+ invece  una soluzione e` stampata solo se l'indice di gradimento U e` maggiore
+ o uguale di quello della soluzione precedente; idem per "D" che fa riferimento
+ all'indice D; idem per "T".  Provate con "MR MR.1 D".
+
+  Le altre opzioni permettono di scegliere se la sistemazione deve essere fatta
+ rispetto  a  uomini  (maschilismo,  default!)  o  donne  (femminismo);  se  le
+ soluzione devono essere stampate per gli  uomini  ("U con") o donne ("D con");
+ infine  come  deve  essere  calcolato  l'indice  di   gradimento...    ma   in
+ quest'ultimo caso i risultati sono del tutto uguali.
+
+  Ecco  la sintassi visualizzata dal programma stesso se avviato senza il primo
+ parametro, che e` l'unico necessario.  I valori di default sono in maiuscolo.
+
+ >>> datfile, N/u/d/t, U/d, U/d, U/d
+
+ DatFile: data file, vedi esempio
+    Flag: N/u/d/t, normale/ privilegia uomini/donne/tutti
+ Sistema: U/d, sistemazione uomini/donne
+  Stampa: U/d, stampa secondo uomini/donne
+    Calc: U/d, calcolo pref (indifferente)
+
+ Con questo ho finito. Segue il programma. Ciao.
+ [NdE: il programma verra' pubbicato nel prox number di Telematicus.]
+
+
+
+  /|
+ /~|ndrea
+
+
+                                                        Andrea Vitali
+                                                        2:331/208.4@fidonet.org
+
+
+ ############ NOTIZIE FIDONET REGION 33                                     ###
+ ###  12  ###                                                          NEWS ###
+ ############                                                          AAVV ###
+
+                                *** NET 331 ***
+
+                            NESSUNA NUOVA PERVENUTA
+
+                                *** NET 332 ***
+
+ [NdE: perePPee!  PerePPeee PErEpPPEEEEEEE !!!   e' successo il miracolo!!  Una
+ *tangibile* contribuzione spontanea da parte di un editor!  - .mau.   escluso!
+ -  da  non  crederci!   *:)  Se ora la lista I.S.N.  non dovete ringraziare la
+ buona stella, od il sottoscritto (che ne prese una dall'omonimo Rolando ma non
+ riusci' a scompattarla), ma il *buon* Roberto Orsini che cosi' mi apostrofo':]
+
+ OsseCui Renato!
+ [NdE: osseCui, osseCui...]
+
+  Ho deciso  di  farti  un  regalo  per  il  tuo  primo  anno  di  direzione di
+ Telematicus: una nodelist ISN aggiornata!  [NdE: Yeah!!]
+
+ Quella che alleghi al fetido straccio puzza di  muffa  e  vecchie  centraline.
+ :-) [NdE: ;-( ]
+
+                                                  |'!Chao!_
+                                                  |__ OrsO/
+                                                         /
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From : Roberto Orsini                      2:332/415.1     01 Feb 94  10:19:50
+
+ OsseCui Renato!
+
+ TRE nuovi nodi nel 332/400:
+
+ 332/411, sysop Daniele Matteucci;
+ 332/432, sysop Alessandro Bonfiglioli;
+ 332/433, sysop Gianluca Ziosi.
+
+                                                   |'!Chao!_
+                                                   |__ OrsO/
+                                                          /
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From : Giovanni Lopes                      2:332/114.2     01 Apr 94  12:08:28
+
+ Ciao Renato!
+  rispondo al tuo messaggio del 29 marzo riportando alcuni brani....
+
+ RR> ci sono novita'?
+
+ Niente. Calma piatta nel 332.
+
+  Ciao Ciao!                                                        ___
+                                                                   /  _
+                                                                  <___/ iovanni
+                                                                    2:332/114.2
+
+                                 *** NET 333 ***
+
+ Hello Renato!
+
+ RR> p.s.
+ RR>         c'e' qualche news?
+
+ No, tutto liscio liscio ... nessun problema, se ci saranno ti faro' sapere.
+ [NdE: manco le novita' fossero solo indice di problemi!!!]
+
+ Aloha !!
+                                                                 Herve Miozzo
+                                                                 2:333/511.20000
+
+                                *** NET 334 ***
+
+ From : Angelo Verdone                      2:334/21        02 Apr 94  11:47:44
+
+ CC: Claudio Sacco,Sandro Gasparetto,Fabrizio Croce,Franco Schinco,
+ CC: Marco Russo,Renato Rolando,Mimmo Cristofaro
+
+ * Carbon Copy by Angelo Verdone on 2:334/21@fidonet.org
+ * Subj : cambiamenti
+ * To   : SYSOP,
+ * From : Angelo Verdone, 2:334/21@fidonet.org
+ * Area : MAIL_DIR
+
+ Salve,
+
+  Daccordo  con  M. Russo (che ha accettato di farlo) ho creato un nuovo Hub il
+ 334/300 per ora ci sarano in quell'hub il 334/108 (prima linea di Winfront) il
+ 334/301 ( PG.Gialli) ed il secondo nodo di Winfront il 334/302.
+
+  A breve, sempre si riesce a trovare un BBS efficiente, vedremo di  creare  il
+ 334/700 per le zone Asti/Cuneo/Pinerolo.
+
+ Prima  di  candidarsi  vorrei  ricordare  che  fare  da HC implica dei compiti
+ piutosto seri, fare da HC significa prendersi delle responsabilita' per quanto
+ riguarda l'inoltro della  NET  MAIL  ed  anche (seppure non obbligatoriamente)
+ dell'ECHO MAIL e' dunque ora di finirla  con  le  impostazioni  alla  viva  il
+ parroco  ed  e'  importante  che meditiate ben bene prima di proporvi, inutile
+ farsi avanti se poi avete dei  problemi  a  seguire  il BBS, per non fare come
+ fanno alcuni che quando  hanno  problemi  usano  delettare  e  fregarsene  del
+ prossimo perche non hanno piu' tempo e voglia da dedicare al BBS.
+
+  Cosi  facendo  (quando ci sara l'hub 700) si dovrebbe mettere un po in ordine
+ il NET purtroppo come spesso accade  c'e'  un scotto da pagare e qualcuno sara
+ contrario ma non vedo alternative, i nodi che andranno in quell'hub  e  quelli
+ con il 3XX (esclusi quelli gia nel 334/300 ovviamente) dovrano cambiare numero
+ essi dovranno avere un nodo con il prefisso dell'hub di apartenenza.
+
+  Io opterei per questa soluzione, gli HC daranno i numeri di nodi lasciando il
+ vecchio  numero  in nodelist per un mese con il flag Hold davanti, io da parte
+ mia assicuro  la  continuita'  dell'inoltro  (remap)  della  NET  MAIL finche'
+ fungero da Host per il 334.
+
+
+                                                             /Angelo V./ NC_334
+
+                                 *** NET 335 ***
+
+ From : Enrico Franceschetti                2:335/212       02 Apr 94  13:25:28
+
+ Ciao Renato!
+
+  RR>         grazie per la partecipazione dell'ultimo number.
+  Mio dovere...
+
+  RR>         E' stata moolto apprezzata!
+  Troppo buono... spalmato di cioccolato?? :)
+
+  RR>         e per questo? ci sono emozionanti, inquietanti news!?
+  Inquietanti, dici... uhmmm, fammi pensare... Ah! Ecco!
+
+ Si, di inquietante ve ne e' una davvero storica...
+
+                                LA POSTA GIRA!!
+
+ :)))) - Sai com'e', dati i precedenti...
+
+ A parte gli scherzi, va tutto bene,  merito  dei  nuovi  coordinatori  Ble'  e
+ Trovato  che  hanno affrontato con piglio incisivo il proprio incarico.  [NdE:
+ fossero tutti bravi come loro!  *:) ]
+
+ Stiamo poi cercando di organizzare  un  nuovo  Netcon  da tenere o a Napoli o,
+ magari, in Sicilia.  Sai che meraviglia dev'essere in primavera?
+
+ Quando riusciremo ad organizzarlo lo faro' sapere in modo  da  poter  invitare
+ anche i lettori della rivista....  [NdE: aspettiamo con ansia!]
+
+  RR> e la tua vita? come si sta menando? amore - gloria - soldi stanno
+  RR> soddisfando i tuoi piu' sfrenati sogni??
+
+ Grrrrr... che fai, sfotti? :)
+
+ Soldi? E dove li si vede, a cinema?
+
+ C'e' solo una cosa che va proprio bene... il mio matrimonio!
+
+ Sposatevi  e  sarete  felici!   (anche  perche'  io  sono un avvocato matrimo-
+ nialista....  :)) [NdE: ti sei bevuto il cervello, ho capito]
+
+ Un salutone a tantissimi auguri di buona Pasqua  per te, per i tuoi cari e per
+ tutti i lettori d'Italia.  [NdE: grazie & altrettanto!]
+
+ Ciao!
+
+                                                          Enrico
+                                                          2:335/212
+
+ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ From : Cicci Serra                         2:335/225.4     18 Mar 94  20:15:16
+
+ Nel caso non ti fosse arrivata la news, da poco tempo e` attiva qui in  Napoli
+ un nuovo nodo Fido trattasi di:
+
+ >   Missione Evangelica Telematica
+
+          Messaggistica EchoMail e Matrix Multirete
+                 Software di pubblico dominio e ShareWare dalle maggiori Reti
+    da 2400 a 9600 bps 8N1   dalle 19.30 alle 09.00 - Sabato e Festivi 24 ore
+
+    Sysop:   Antonio Ianiri                     Cosysop: Giorgio Palumbo
+    Indirizzi:  2:335/231@Fidonet                        95:3300/204@Ra_Fnet
+                169:6905/304@PsNet                       9:395/122@Virnet
+
+ Bios bios
+
+                                                                    Cicci
+                                                                    2:335/225.4
+
+
+
+
+
+
+ ******************************************************************************
+
+ Telematicus puo` essere  downloadato  dai  nodi  che ricevono la distribuzione
+ ISN.  Assieme alla rivista ho inserito  ISN-NODE.265, la lista di tutte le BBS
+ appartenenti ad ISN.
+
+ ####                            End of TELEM039                           ####

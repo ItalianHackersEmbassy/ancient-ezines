@@ -10,3 +10,5 @@
 * HackArena thanks to @palinurosec
 * HAX thanks to @palinurosec
 * UnderAttHack thanks to @palinurosec
+* Telematicus thanks to @datafl4sh
+
