@@ -1,0 +1,1511 @@
+
+---------------------------------------------------
+
+
+PRIVATE LINE: A JOURNAL OF INQUIRY INTO THE 
+TELEPHONE SYSTEM
+
+JUNE 1994: VOLUME 1, NUMBER 1 
+
+-----------------------------------------------------
+
+TABLE OF CONTENTS
+
+1. General Information on private line
+2. The Front Cover and The Inside Front Cover
+3. The Editorial Page
+4. Telco Payphone Basics, Part 1
+5. The Post Pay Coin Line
+6. A Conversation With Motorola
+7. The GTE RTSS Phone
+8. California Toll Fraud Law
+9. Ad rates and Miscellaneous Information
+
+----------------------------------------------------
+
+1. General Info on private line: ISSN No. 1077-3487
+
+A. private line is published six times a year by Tom Farley. Copyright 
+(c) 1994 FACTSHEET5 calls it "A great companion to 2600." 	
+
+B. Subscriptions: $24 a year for subscriber's in the U.S. $31 to Mexico 
+and Canada. $44 overseas. Mailed first class or air rate . 
+(1)  Make checks or money orders payable to private line
+(2)  A sample is four dollars. Back issues are five dollars apiece.
+The magazine is black and white. Double columns. Largely footnoted.
+(3) The mailing list is not available to anyone but me.
+
+C. Mailing address: 5150 Fair Oaks Blvd. #101-348, Carmichael, CA 
+95608
+
+D. e-mail address: privateline@delphi.com
+
+E. Phone numbers: (916) 488-4231 (Voice)  (916) 978-0810 (FAX)
+
+F. You may put this file up at any internet site or bulletin board that you 
+wish. All I ask is that you reproduce the file it in its entirety and that 
+you not sell a hardcopy version of the output. 
+
+G. Comments and corrections are always welcome. I welcome 
+submissions and I pay with subscriptions. You don't have to write in 
+my style.
+
+NB: I am now accepting electronic related advertisements for the 
+January, 1995 issue. This will be the first newsstand edition of private 
+line. Distributed by Fine Print Distributors, Austin Texas. Ads are $75 
+for a full page, $37.50 for a half page and $18.75 for a quarter page. 
+No subscription required. Subscribers get free classifieds of 25 words 
+or less.
+
+-------------------------------------------------------
+
+2. THE FRONT COVER AND THE INSIDE COVER
+
+The front cover artwork of this issue is from a 1965 Western Electric 
+advertisement. It is an edge on photograph of five circuit boards that 
+were used in the Number 1 ESS. I included the text of that ad in the 
+inside cover page. It reads:
+
+"Electronic components by the thousands arrayed on circuit boards. 
+These are at the heart of the Bell System's highly complex new 
+Electronic Switching System. Now being built at Western Electric, a 
+typical electronic system uses 160,000 diodes, 55,000 transistors, 
+226,000 resistors, capacitors and similar components. Over the next 
+few years, millions of American telephone users will benefit from the 
+new services ESS will offer. But for Western Electric the coming of 
+ESS presents a technical challenge equal to any we have faced in the 83 
+years we have been a member of the Bell System. Not only do we stand 
+behind the quality of the thousands of components, but we also make 
+sure that each of these precision parts is assembled exactly. For the end 
+requirement is that they work perfectly, each with each, and with every 
+other of the billions of components in the nationwide Bell System 
+communications network. We are able to do this job because, as 
+members of the Bell System, we share its goals. Working together with 
+people at Bell Telephone Laboratories, where ESS was developed, 
+Western Electric people strive for perfection that enables your Bell 
+telephone company to bring you the finest communications service in 
+the world." 
+
+-- Western Electric, Manufacturing & Supply Unit of the Bell System 
+
+---------------------------------------------------------
+
+3. THE EDITORIAL PAGE
+
+private line
+a journal of inquiry into the telephone system
+
+
+Setting the Agenda; A Rambling Mission Statement From Your Editor
+
+The magazine  2600, The Hacker Quarterly, rekindled an interest in 
+telephones that had laid dormant with me for over fifteen years.  private 
+line is an outlet for my interest in one the most marvelous, mysterious 
+and elaborate inventions that man has ever invented: the telephone 
+system. I hope that you find it a creative outlet  for yourself as well. Let 
+me tell you what I think are important goals for this magazine.
+
+1. This magazine will write for the beginner. There is a lack of good, 
+clear information for the beginner in telephony. Most texts and articles 
+assume a working knowledge of the fundamentals. That won't be the 
+case here. Books and magazines about telephony often read as though 
+one electrical engineer was writing to another. That's because they 
+usually are. But who writes for the beginner? This magazine will.
+
+2. This magazine will turn articles into brochures. I  want the 
+information developed here to do more than sit in back issues. This 
+material will go toward a series of beginner brochures on telephony. 
+The magazine itself will be consecutively paged and indexed yearly. 
+References will be given whenever possible.
+
+3. This magazine will encourage questions about the information 
+presented. I want to be corrected if I make a mistake. I want people to 
+feel free to contribute and to question and to challenge anything that 
+appears here. The articles that I write are not the Last Word, rather, they 
+are my best attempt to explain some difficult subjects. They are a 
+starting point for a discussion of the topics involved. I have an ego as 
+far as presentation and layout go. But I have no ego as far as being 
+corrected.
+
+I hope you contribute. I welcome the comments of hackers, futurists, 
+telecom people and technology buffs. Anyone who is interested in the 
+telephone system is welcome to participate. I am really a beginner to 
+telephony myself; let's learn together.
+
+
+
+Tom Farley        
+
+privateline@delphi.com       
+
+p.s. my handle is 'Sherman' and my callsign is KD6NSP
+
+------------------------------------------------------
+
+4. Telco Payphone Basics, Part 1
+
+A. Telephone Company Payphone  Basics, Part 1
+
+1. A  telco payphone is one that is owned and operated by the phone 
+company that provides local telephone service: a former Bell company, 
+GTE, General Telephone or another independent. Ownership aside, 
+however, the one thing that makes a telco payphone a telco payphone is 
+the fact that the machine's decision making ability resides in the phone 
+system and not in the machine itself. This is different than a COCOT 
+(customer owned, coin operated telephone) which makes most decisions 
+on its own. When people can choose their local carrier, the so called 
+alternate dial tone, ownership will be a less important criteria. You 
+might have MCI as your telco, for example, instead of Pacific Bell. 
+Let's start at the beginning.
+
+B. The Different Coin Lines
+
+2. There are two classes of coin phone service and three kinds of coin 
+lines. The first class is post-pay, in which coins are deposited after a 
+connection is made.  Post-pay provides a dial tone without a deposit. 
+The second class is pre pay in which a deposit is needed before a 
+connection is set up. The three kinds of coin lines are called post-pay, 
+for its operating method; coin first, which means that a deposit is needed 
+to get a dial tone; and dial tone first, the pre-pay service that provides a 
+dial tone without a deposit. Coin first is probably a defunct operating 
+system. Dial tone first is by far the most common 
+kind of coin line. 
+
+C. What Is a Line?
+
+3. A  line can be two things in telephony: a wire that carries a phone call 
+or a  channel in a wire or cable that carries a call. In either case, a line 
+connects a coin phone or a customer phone to the switching office that 
+provides local service. It is distinguished from a trunk which connects 
+switching offices  to each other or switching equipment within an office 
+to each other. A line is almost always used in conjunction with local 
+service, whereas trunks are thought of as providing long distance or toll 
+service.
+
+4. In addition, a  line can pass  different voltages to signal different 
+things. A trunk cannot.  For example, a line can carry +48V DC to 
+signal keypad inhibit, +130VDC to signal coin collect, and 75VAC to 
+ring the phone. A trunk's voltage, however, remains the same. It must 
+since the cable containing the trunk is usually carrying many calls at 
+once; it is impossible to selectively control voltage within a channel in a 
+common wire. Thus, lines and trunks often use different kinds of 
+signals. 
+
+5. A coin line is the circuit that connects a payphone to a central office or 
+an end office. The line uses two copper wires, collectively called the 
+twisted pair.  There is nothing special about the wires themselves. There 
+is no set 
+of common wires that runs to all the payphones served by a central 
+office. The phrase coin line is a designation. It indicates that the line 
+needs special equipment at the central office to work. And since the 
+equipment at the CO can vary, so can the kind of coin line. 
+
+6. In addition, most telco coin lines are somewhat permanently 
+connected to their switch. That is, the coin phone line is known to the 
+central office to be a coin line. You would not, for example, have an 
+unrestricted dial tone if you connected your lineman's handset to the 
+wires. Instead, you would still be prompted for an initial deposit and 
+you would still be asked by ACTS (1) to pay for long distance. At the 
+very least, polarity would be reversed and long distance calling would 
+be intercepted by an operator.
+
+7. Post-pay, coin first and dial tone first refer to the kind of coin line 
+service that exists at a particular central office. The switching equipment 
+and its accessories determine the kind of coin line service. Let's look at 
+the two classes of lines more closely.
+
+D. The Metallic Line
+
+8. A line was originally defined as a "(w)ire or wires connecting stations 
+in a telephone or telegraph system."(2) It often used as shorthand for 
+transmission line. It is also called a VF  or voice frequency line. And 
+sometimes it's called an analog line. Two wires called a twisted pair  or 
+paired cable  connect most phones to an end office or a connecting point 
+to the end office. This is 19 to 26 gauge insulated wire. Look inside a 
+service terminal to see twisted pair. The terminal is the point where your 
+house or office phone line and the  telco wiring connects, usually on an 
+outside wall.(3) The phrase trunk line is often heard. That's not a 
+combination of trunk and line, but, again,  a reference to the trunk as a 
+transmission line.
+
+9. A metallic line  exists if there is a direct, physical connection with the 
+end office and each subscriber's phone. Step by step offices, for 
+example, may have each customer's twisted pair directly wired to a 
+particular place in the switching frame. This metallic connection also 
+exists with open wire, which uses copper wires strung from utility 
+poles.  In this case, twisted pair runs from the house or business to an 
+aerial service terminal.  Two uninsulated wires then go toward the end 
+office, or more probably, a connecting point to the office. A metallic 
+line, therefore, may change from one kind of wire to another.  But it 
+always keeps a copper connection of some sort for each subscriber 
+phone or payphone. 
+
+10. Both twisted pair or open wire help complete an electrical 
+connection or circuit between the phone and the office. Circuit is often 
+used interchangeably with line, creating more confusion than it should. 
+Since this pair forms a circuit in the shape of a loop, it is often called the 
+loop. The wires are also occasionally called conductors. That's because 
+they conduct  the electricity  that operates the phone as well as carrying 
+the conversation itself. The wires  themselves are called tip and ring. 
+Some assume  that one wire is negatively charged and the other 
+positively charged. Not so. Tip and ring do not refer to a pre-designated 
+electrical state. As mentioned before, both tip and ring will have 
+negative or positive voltages placed on them  to signal different things. 
+
+11. Not all lines, however,  are based on a physical, metallic contact 
+with their local switch. This is especially true with long distances 
+between a phone and its end office. Resistance builds in a line as length 
+increases. Signal strength goes down at the same time. Many means 
+have been used to extend the length of the coin line or the subscriber line  
+beyond, say, six miles.(4) At some point though, the conventional 
+metallic line becomes unfeasible. Amplifiers or repeaters are needed to 
+take the signal further. And a different operating system is needed to go 
+along with this equipment.  In these cases, the metallic pair may 
+terminate at a connecting point to the central office. Special equipment 
+then puts many, many subscriber lines on a single cable or a group of 
+wires. The CO then provides a channel within the transmission line only 
+when it detects that a phone has gone off hook.  There is no longer a 
+physical connection between each customer's twisted pair and the 
+central office equipment. Let's look at the non-metallic line.
+
+E. The Non-Metallic Line
+
+12. The second definition of a line is that it is the communication 
+channel  connecting the subscriber to the local office.  A line in this case 
+represents an individual  radio frequency that a phone call is placed on. 
+These are called carrier frequencies. This differs from the voice 
+frequency  that carries the call in a normal line. This kind of line is also 
+called carrier. Many, many conversations can be placed on a   single  
+wire through a process called multiplexing. (5)The most familiar 
+example of multiplexing might be a cable TV line. A single wire or 
+coaxial cable can carry dozens of television channels. The simplest form 
+of multiplexing in telephony is called split carrier.
+
+	Split carrier
+
+13. Split carrier  uses a single twisted pair  to carry more than one phone 
+call. It is also called subscriber carrier. Some include this in a larger 
+category called pair gain  systems. It is not usually used to overcome 
+long distances but rather to provide another line when there is no free 
+twisted pair. In older buildings, for example, spare lines are frequently 
+not available. In fact, you may be using split carrier now and not know 
+it. "Whining sounds, echoes and slow dial tone response"(6) may 
+indicate that your telephone line is being split and that your line is on the 
+carrier side. Another sign might be if your modem does not work on  
+your telephone line but does on your neighbor's. That's because the 
+modem is using a carrier of its own to transmit information. The two are 
+rarely compatible. A line on the carrier side is only a voice grade  line.
+
+14. The voice frequency  or VF  channel  is the normal, background 
+path that carries a conversation on a twisted pair. You'll also hear the 
+terms base band, voice channel  and voice path. This is the first channel 
+of two on split carrier. The second channel is created by transmitting a 
+radio frequency at, say, a constant 100 kilohertz. That's a hundred 
+thousand cycles per second. By comparison, the AM radio band begins 
+at about 540 kilohertz. The signal of the second line is impressed on the 
+steady carrier frequency. This causes the carrier signal to  move up and 
+down or modulate  according to the changes in speech.  So, two 
+channels are now on one line. One conversation doesn't affect the other 
+because you can't hear radio frequencies unaided. You now have a 
+carrier line and not a voice frequency line. Subscriber carrier needs 
+special equipment. I doubt that any coin phone  uses this technique 
+because of the number of voltage driven signals that must pass down the 
+line.  Never-the-less, some telcos may use split carrier for a public 
+phone instead of a party line in rural areas. Perhaps. Let's look at more 
+complicated multiplexing schemes. Again, these are examples of non-
+metallic lines.
+
+	Analog multiplexing
+
+15. Both split carrier and voice frequency lines use analog signals. 
+That's because normal speech, music and tones are all analog signals, 
+once they're on the phone line. They are analogs, electrical 
+representations of speech.(7) They are not altered or converted to a 
+digital form. In other words, routine traffic in the local loop. Analog 
+multiplex systems are used primarily for trunk traffic, that is, handling 
+calls between switching offices.  Analog carrier  or N carrier   is rarely 
+used in  the local loop.  So, I'll discuss it more in the section on trunks. 
+Some multi-channel analog  systems do tie a customer's phone to its 
+local switch but I have not found much information on them. 
+Specialized equipment would be needed for coin phones; installed at the 
+point where the multiplexer connects to the twisted pairs. This is needed 
+to translate payphone signals from the central office to the  voltages that 
+control the phone. As I mentioned before,  a channel in a cable cannot 
+handle different kinds of direct current signaling. But twisted pair can. 
+Hence, a need for an interface.
+
+16. It seems that most telcos decided that if they were going to install a 
+carrier system for the local loop, they were going to use digital 
+techniques. Both digital and analog multiplex systems use amplifiers or 
+repeaters to keep signal strength up over long distances. Even so, 
+analog signals degrade with distance. But digital signals remain stable 
+for the length of their trip. That's because they are not an electrical 
+representation  of speech but  a  mathematical or numerical 
+representation. 
+
+	Digital multiplexing
+
+17. You've probably seen a sine wave of an analog signal. It's a rise 
+and fall pattern. By plotting its coordinates on graph paper, you know, 
+C-3, B-4, A-2 and so on, we can  record  its shape in a numerical or 
+digital form. And the more points we plot the more accurate the record 
+becomes. Digitizing produces its plots by  instantaneously measuring  
+the ups and downs of signal strength. In T1, a signal's  strength is 
+measured or sampled  two things: 1), the strength level itself and 2), the 
+time at which  it occurs. These two measurements or electrical plots are 
+converted to binary numbers or bits. An eight bit group makes up a 
+byte.  Blocks and blocks of these fast moving digits then represent 
+speech. 
+
+18. Sampling takes a lot of measurements. But it is not continuous, 
+even at eight thousand times a second. There are always small gaps. 
+These breaks and blocks differ  an analog signal from a digital one. A 
+digital signal is made up of discrete units whereas an analog signal is a 
+continuous unit. Built in error checking and uniform rules for encoding 
+and decoding enables digitizing to faithfully reproduce a signal over 
+thousands of miles. Fike gives some good examples in "Understanding 
+Telephone Electronics."  A digital carrier system makes the most sense 
+when it ties into a digital central office. This saves the step of converting 
+digital signals back to the analog ones that a simple end office can deal 
+with.
+
+19. T1  or T carrier  is the most common form of digital transmission 
+used in the local loop. T1 is used primarily for trunks but it also 
+provides tens of thousands of local lines to  central  offices and remote 
+switches. This system converts the normal analog signal of  a subscriber 
+pair into a digital signal The signal is abbreviated as DS. A typical digital 
+multiplex system might be Western Electric's SLC-96. (Subscriber loop 
+carrier, version 96) It can accept 96 local subscriber lines. But only five 
+wires may run to the distant office since the signals are multiplexed. 
+We'll look at how it interfaces with the twisted pairs of the local loop in 
+the discussion of the local switch.
+
+F. The Local Switch
+
+20. The kind of coin line service provided usually depends on the 
+equipment installed at the local switch. The type of switch itself is often 
+less of a concern than the options that go with it. Post-pay operation, for 
+example, usually depends on an end office with step by step switching 
+equipment. But step by step can be converted to pre-pay. On the other 
+hand, most crossbar switches and all electronic switches have been 
+configured for pre-pay service already. 
+
+21. Most central offices controlling payphones need  the hardware that 
+enables automated coin toll service (ACTS).This is a system wide 
+program that handles most long distance calls from payphones.  It's 
+what you get when you dial a 1+ call from most of the country. The Bell 
+System designed this program in the late 1970's for use by all the 
+regional Bell companies as well as subscribing independents.(9) Calling 
+card service was developed a few years later.(10) This required 
+additional equipment. Not having this equipment means that a particular 
+CO may not provide coin line service. This is why you'll often see 
+payphones in a town grouped to a certain prefix. It's a sign that that 
+exchange has had certain hardware installed. In addition, the kind of 
+trunk lines and local lines that the CO connects to will also influence the 
+way that an office is configured. 
+
+22. I'm not sure if it's profitable for me to spend much time discussing 
+individual switches. Many, many books have been written on them and 
+their variants.(11) Comparatively little has been spent on discussing step 
+by step offices or switches below 
+the central office. So,  I'll do that. The discussion of the individual coin 
+line may give more information an a particular switch. The post-pay 
+section, for example, deals with the community dial office in detail. 
+We'll look at it in general here and then mention other end offices.
+
+
+G. The End Office
+
+23. The end office is your local switch, the one that your subscriber line 
+or coin line is first tied to.  It is at the bottom of the switching hierarchy,
+a so called class five office. This is usually a central office but not 
+always. Many, many rural communities are served instead by a 
+community dial office or CDO. These are mostly step by switches, 
+serving far fewer lines than a normal central office handles. Slightly 
+closer communities may be served by a digital switch called a remote. 
+The CDO depends on a central office that can be quite a distance away. 
+They are usually connected by an analog carrier or T1 to the central 
+office. Most CDO's  don't have trunks to the outside world. Long 
+distance service needs to go out through the central office.  A CDO may 
+not generate its own dial tone. But it does generate the power necessary 
+for the local phones to work. Some CDO's are called package offices. 
+
+24. Package offices seem to refer to a particular switching arrangement, 
+particularly the No.5 Crossbar package community dial office.(12) This 
+was a system of trunks and hardware that retrofitted certain CDO's. The 
+dial office had to use the Number 5 crossbar as its central office switch. 
+This package  brought many features of the number 5 to rural areas.  
+This was an expensive arrangement. These offices had to have enough 
+traffic and revenue to justify it. I expect that they have probably been 
+replaced in former Bell System country, since greater revenue drives 
+quicker upgrading. I would welcome hearing about any crossbars that 
+are still in operation. So, what kind of CDO took its place?
+
+H. The remote switching system
+
+25. The RSS No. 10 or Remote Switching System  was the Bell 
+System's answer to improve rural service in about 10% of their outstate 
+CDO's.(13) A subscriber' s line connected to the RSS. The RSS uses 
+T1 to connect with an electronic office or ESS as far as 175 miles away. 
+They were originally configured to work with the No.1ESS and then the 
+1AESS. Most but not all of these older CO's have been retired. An 
+electronic switch, the RSS No.10 shares much of the same architecture 
+as its bigger brothers. Even, so, the CO controlling the switch has to 
+have certain hardware installed in order to work with it.
+
+26. Wire pairs from the local loop would terminate  inside a small 
+building containing a remote switch and the T1 carrier facility. The RSS 
+provides power to the loop and the T1 equipment sends the subscriber 
+traffic to the  ESS office. A payphone would be enabled by a special  
+circuit board inside the T1 service cabinet. This plug in  module  
+provides the proper interface to the switch.(14) The RSS would provide 
+the power necessary to implement all the voltages needed for signaling 
+the coin phone. One interesting aspect is that a TSPS operator could 
+handle a coin call from as much as thousand miles away, since it is the 
+distance from the CO to the operator that is now a controlling factor, and 
+not the distance from the payphone to the central office. Another remote 
+switch seems to be the DMS-10.
+
+27. The DMS-10 switching system is a Northern Telecom product 
+designed to Bell System standards. It handles 200 to 6000 lines. Why 
+did Bell use an NT product? Cost. The DMS-10 is a small digital 
+switch. It can provide some custom calling services that may generate a 
+little more revenue than a normal rural switch. This may help the telco 
+generate a faster return on its money in a low traffic area. The ultimate 
+remote switch is probably the No. 5A Remote Switching Module.
+
+28. The No. 5A Remote Switching Module or RSM, is, as you've 
+guessed, the specific remote switch for the No.5ESS. T-1 or fiber optic 
+takes the local traffic  to the No. 5. The big difference here is that this 
+switch can pass long distance calls to the network without going 
+through the central office first. A CDO doesn't normally have trunks to 
+the outside world. With this CDO, however, the trunks are so arranged 
+that long distance traffic may go directly to a toll office and not first to 
+the CO. The term CDO is applied less and less as the years go on. 
+People often just call these switches remotes or modules.
+
+29. It's impossible in an introduction to cover all the possible 
+configurations of the end office. There are many, many kinds of 
+arrangements. The most important thing to remember is the dependence 
+of the CDO or remote switch on the central office.  Microwave radio 
+may be  used in some areas to connect to a central office.  A cellular 
+phone site is also an end office. It provides dial tone. I know that 
+Ericksson digital switches have been installed in many Motorola built 
+cell sites. 
+
+I. A few thoughts on step by step
+
+30.  Step by step switching is still with us. And probably for a little 
+longer. In fact, step by step may outlast crossbar, a different kind of 
+switching system deemed superior to step by step, or SXS  as it's 
+sometimes abbreviated. Apparently, the Bell System choice for SXS 
+was Western Electric's No.355A. In 1974, step by step was used by the 
+Bell System for 22 million phone lines, one half million of which were 
+coin lines.(15) By 1980, 15 million lines were still in service. Step by 
+step was to be phased out by 1990.(16) That would have eliminated the 
+800 central offices with SXS in ten years. Does anyone have an updated 
+census of the regional holding companies, the former baby bells? The 
+story outside of the former Bell System is very different.
+
+31. Telephony  magazine used to publish a directory and buyers' guide 
+that was invaluable. It was  a roster of the non-Bell operating 
+companies, a  state by state guide to the independents, including GTE. It 
+list thousands and thousands of exchanges with step by step. The last 
+one I have is from 1987. Very few crossbars are noted in the West. I 
+understand that Automatic Electric did not make a crossbar. GTE 
+supposedly relied on makers like International Telephone and Telegraph 
+(ITT) to supply one when needed. It would have made  sense for A.E. 
+to  concentrate making step by step equipment. It's well suited to the 
+small towns that independent phone companies catered to. Step by step 
+offices probably have more add on equipment than any other. They need 
+it to fit in with the increasingly digital world. 
+
+32. A good example  are touch tones. An SXS office couldn't process 
+them before, say, the mid 1960's. Now each office must. But step by 
+step manufactured after this time would have the right circuitry built in. 
+Coin service is another problem. Converting an office to dial tone first 
+was costly. And as coin phone signaling changes so must the CO. More 
+add on equipment needed. Want to implement ACTS? 911? Getting an 
+electro-mechanical office to implement these features is quite a task. And 
+while the telcos may want to put in custom calling  everywhere, they 
+have many problems with step by step. Trunking is another matter, too. 
+Common channel signaling is seemingly bypassed, ignored or badly 
+implemented throughout thousands of miles of step by step country.  
+Not all exchanges, after all, have the enabling hardware to do System 7. 
+I'll cover this more in the next issue.
+
+It's my experience that the most fun with the phone system comes at the 
+outer edges of it. There are  as many hidden doors and gates there as 
+there are  in Alice's Wonderland. But where do they lead?  In the next 
+issue I will continue this discussion on basics. I'll try to cover trunks in 
+general, some terms on signaling, and the role of the operator and 
+TSPS.
+
+J. References
+
+(1) Automated coin toll service, or a derivative thereof, is the automated 
+operator that you get when dialing a 1+ call from most telco payphones. 
+For instance, if you dial, say, 1+(916) 213-9999 (an imaginary 
+number), a computer generated voice will come on the line to tell you 
+how much to deposit. You then hang up. You'll get a good insight into 
+the rates charged and the kind of coin service an area provides by dialing 
+the same number from different payphones in different areas. Do the 
+same with COCOTs. Listen for switch sounds in the background. You 
+may even be connected to a billable, long distance number without being 
+charged. That shouldn't happen. But it does sometimes. As Goldstein 
+says, "Anything is possible." My advice? Go rural. And go GTE.
+
+(2) Douglas-Young, John. "Illustrated Encyclopedic Dictionary of 
+Electronics. "West Nyak, Parker. 1981. 335 Out of print but worth 
+looking for. This hardback is a good, one volume dictionary of 
+electronics. The section on electro-acoustics is great. His wife is Carol 
+Young who is the author of the readily available "New Penguin 
+Dictionary." This book, unfortunately, is much harder to understand 
+and less complete.
+
+(3) Martin, John T."Chilton's Guide to Telephone Installation and 
+Repair." Radnor, Chilton Book Company. 1985. 5 A great how-to 
+book. I'm not sure if this edition is still in print but a revised version 
+should be.
+
+(4) Among others, Schillio, Robert F. 'A Circuit That Stretches Coin 
+Telephone Service' Bell Laboratories Record. 51:4 (April 1973) 120. 
+Don't write off these early articles. They provide many clues as to why 
+things were done in a certain way, even if a particular piece of 
+equipment is no longer in service or a practice discontinued.
+
+(5) Fike, John L. and George E. Friend. "Understanding Telephone 
+Electronics". 2d ed. Carmel, SAMS. 1990 16. Now in its third edition, 
+this book is widely available. You should buy this book. It assumes a 
+working knowledge of electronics. A beginner can push through most 
+of it with dedication. The second edition, however,  has only a two page 
+index for a 284 page technical work. 
+
+(6) Martin, 53
+
+(7) Strangely, I've seen a normal analog signal  referred to as  an AC 
+signal. And tones are often called AC signals. Yet, the only true AC 
+signal used is the voltage that rings the phone. How can a DTMF pad 
+use AC signaling when only DC voltage is present? Does AC really 
+refer, instead, to the shape of an alternating current waveform? An 
+alternating current is in the shape of a sine wave. Does this explain AC 
+signaling? 
+
+(8) Rey, R.F., ed. "Engineering and Operations in the Bell System". 2d 
+ed. Murray Hills, N.J. AT&T Bell Laboratories. 1983 373
+
+(9) Staehler, R.E. and W.S. Hayward. Jr. 'Traffic Service Position 
+System No. 1, Recent Developments: An Overview' The Bell System 
+Technical Journal.  58:6 (July --August 1979) 111 Tough article but lots 
+of interesting details. Find a place you can check this out for a week; it's 
+really too long for photocopying but too essential to let go.
+
+(10) Confalone, B.E., B.W. Rogers and R.J. Thornberry, Jr. 'Calling 
+Card Service--TSPS Hardware, Software, and Signaling 
+Implementation' The Bell System Technical Journal. 61:7 (September, 
+1982) 1676 Another essential. Find a corresponding article in the Bell 
+System Record  if you find the B.S.T.J. too intimidating.
+
+(11) Fike gives a good, basic description of switches. If you want to 
+bury yourself in the subject  then check out G.E Schindler,ed. 
+"Engineering and Operations in the Bell System: Switching Technology: 
+1925 -- 1975." Murray Hills, Bell Laboratories. 1982. Or, if you want 
+something practical, read Agent Steal 'Central Office Operations' 2600: 
+The Hacker Quarterly. 7:4 (Winter, 1990) 12--21 
+
+(12) Schluttenhofer, R.A.'Two-Way Trunks For Package Offices' Bell 
+Laboratories Record  (November, 1965) 402
+
+(13) Sevcik, Richard W. and D. Paul Smith. 'Custom calling comes to 
+Clarksville (upstate New York)' Bell Laboratories Record. 58:2 
+(February, 1980) 63. Fascinating article about a little known subject, the 
+Remote Switching System. 
+
+(14) Some may contend that the T1 line is a trunk in this situation and 
+not a collection of subscriber lines. A trunk, after all, is a circuit 
+between switches. They are partially correct. A remote unit is not a fully 
+functional switch. It cannot operate without the central office. It may not 
+generate its own dial tone. It can be viewed as an extension of the CO 
+and not as an independent office. A PBX is also a switch. But its lines 
+to the CO are treated as lines and not trunks. The PBX is not functional 
+without certain central office features. It is not able , for example, to 
+pass long distance traffic to the world without the CO. Line and trunk 
+are often used interchangeably in a discussion of traffic between the 
+CDO and the central office.
+
+(15) Peterson, Gerald H. "Improving Coin Service For Step-by-Step". 
+Bell Laboratories Record  (February 1974) 41
+
+(16)Rey, 735
+
+-------------------------------------------
+
+
+5. THE POST PAY COIN  LINE
+
+A. Introduction to Post-pay
+
+1. Post-pay coin phones still exist in many rural communities. Little 
+towns like Jordan Valley, Oregon or Buhl, Idaho are typical. These 
+phones quite often still take a dime for a local call. Their operation is 
+simple. You lift the handset. The central office returns a dial tone. You 
+dial your number. The payphone shorts out the transmitter and the 
+keypad when your party answers. You now have a few seconds to put 
+in your dime. This frees up the transmitter so that you can talk. Coins 
+are not returned unless rejected. A lack of coin return isn't a problem 
+since you don't put in any money unless your call goes through. You 
+are often timed out after ten seconds or so if no money is deposited. 
+You can call the operator without a dime and in most cases 911. 
+Pranking is supposed to be a problem. Most of the towns I have been in 
+with post pay, however, have only one or two public phones to begin 
+with. You would probably be spotted easily if pranking was your 
+hobby. Post-pay is a nice system. Let's look at it further.
+
+B. History of post-pay
+
+2. The debate over providing post-pay or pre-pay coin service began 
+after the first installation of a non-attended coin phone in 1899.(1) Coin 
+first operation was more complex since it had to allow for coin return in 
+case a call did not go through. The coin phone and the central office 
+would also need more equipment. Post-pay was simpler but it took up 
+more of the operator's time. She frequently had to wait until the caller 
+found the right change so that she could then connect the call. With coin 
+first, however, the initial deposit was made before the operator came on 
+the line. The argument against coin first was more serious than 
+monetary: an operator could not be raised in an emergency without a 
+deposit. The debate did not last long. Operator time was too valuable to 
+waste. "(T)raffic holding-time savings"(2) pushed public safety 
+concerns aside. Fagen contends that from 1906 the Bell System 
+concentrated on providing coin first, pre-pay operation. Schindler, 
+however, points out that panel switching systems in the twenties 
+allowed for dial tone first and coin less calls to "operators, service 
+codes, and selected 'official numbers'." In any case, coin first or pre-
+pay became the rule and the simpler, slower post-pay became the 
+exception.(3)
+ 
+C. Post-pay today
+	
+3.  Post-pay has survived at the outer edges of the phone system, in 
+little towns and distant villages. It has been that way for a long time. 
+Rey contends that post-pay operation was chosen for rural service 
+because of the "long distance between the local community dial office 
+and the resultant large cost of returning coins on unreturned calls."(4) 
+This is confusing. Returning coins is not terribly expensive by itself. 
+Post pay coin phones, for example, do return coins if a coin is invalid. 
+But pre-pay equipment is more costly than pre-pay. Post-pay is cheap to 
+install and maintain. It is compatible with the switching equipment at the 
+end office. As stated before, a payphone is dependent on the equipment 
+it is tied to. Most post-pay phones are not directly wired to a full 
+featured central office with a modern switch. They are instead first 
+connected to a simple CDO.
+
+D. The community dial office
+
+4. A community dial office is an end office that serves a few dozen lines 
+to perhaps 2000 lines. The last census of the Bell System in 1983 
+revealed 3,700 of these offices, more than any other kind of switch.(5)  
+A CDO is a step below the central office in rank and relies on the CO for 
+many things. It may not, for example, generate its own dial tone. In 
+many ways the end office acts as a remotely controlled switch. The 
+switching equipment itself is often the simple but reliable step by step. 
+Rey predicted that the now defunct Bell System would replace all 
+CDO's serving under step by step control by 1990. Perhaps the regional 
+companies did. GTE and other independent phone companies certainly 
+have not.
+
+5. Community dial offices were first installed in the late 1920's when 
+direct dialing began replacing operator connected  calls.   CDO's  were  
+widely deployed over the next forty years. They provided the backbone 
+of local switching in rural America, or outstate  as Bell System lingo 
+used to put it. We'll look at post-pay in the context of a CDO. But not 
+all CDO's have post-pay. Many, many of the newer CDO's have pre-
+pay service, especially the ones owned by the former bell companies. 
+Post-pay coin service was a part of CDO design since the beginning.(6) 
+But the real definition of a CDO is that it relies on a central office for 
+many functions, not that it provides post-pay. The reason that a CDO 
+has post-pay is because, usually, the low volume of calls. Such light 
+traffic might never justify the more expensive pre-pay. And coin 
+service, like regular subscriber service, is always more expensive in 
+rural America.
+
+E. The subscriber loop network
+
+6. A post-pay coin phone might be three to eight miles from the dial 
+office, however, the central office might be dozens and dozens of miles 
+away and the operator several hundred miles away. Some CDO's and 
+remotes handle local calls without first going to a central office. But 
+some may route a call out to the central office and then back through the 
+CDO. Once the connection is set up the call may be dropped back to the 
+local switch, freeing up the channel to the central office. This service 
+requires repeaters, line extenders, extra cable, miles of additional poles 
+and increased maintenance. Remote payphone lines need additional 
+equipment on top of that required for routine service. The small number 
+of coin calls near a community dial office might never justify pre-pay 
+service. As we will see, a relay to place reverse polarity may be all that's 
+needed at the CDO. A post-pay line presents nothing special to the dial 
+office. It is wired to the switching frame along with the other flat rate 
+phone lines. There are, however, trunking arrangements that have or 
+had to do with post-pay. 
+
+F. Post-pay  trunks
+
+7.  Much of what is written about CDO's continues the uncertainty over 
+what is a trunk. Different writers at different times use both terms. This 
+is unfortunate but not surprising; the line from a CO to a CDO is a  
+hybrid. Let's use the word trunk for now. So, when talking about the 
+CDO we have the following: 1) a trunk from the CDO to the central 
+office, 2) a trunk from the CO to the a non TSPS operator, or, 3) a very 
+long trunk to a TSPS operator. Signals may be passed on the voice path 
+or on a data circuit. The thousands of CDO's and the dozens of possible 
+trunk configurations in rural America result in the greatest hope for the 
+trunk hopping telephone enthusiast; many of these trunks are still 
+controlled by tones and not digital signals. I'll introduce trunks in the 
+next issue when I finish up the discussion on basics. For now, let's 
+look at what you might find in former Bell System territory. I do not 
+know enough to comment on a GTE system, although the last two post 
+pay phones I used were both in independent areas.(7)
+
+	 Post-pay and RTA
+
+8. Coin trunks are usually provided between the CDO and the central 
+office to handle coin traffic.  A trunking arrangement must also handle 
+the coin traffic between the CDO and  the operator position. This 
+enables the operator in most cases to know  that they are handling a 
+post-pay call. The traffic service position system (TSPS) was given 
+many new features in 1979. One important feature was the remote 
+trunking arrangement  or RTA.(8)  This was an expensive and 
+complicated system of trunks designed to bring the benefits of TSPS to 
+rural areas. A full service operator could now handle rural calls a 
+thousand miles away. Enabling hardware was installed in dozens of 
+rural or outstate  central offices in the years after. Still, that does not 
+mean full service. Not for post-pay. You can't make a 1+ call for 
+instance. That's a limitation of the simple post-pay phone and the 
+equipment at the CO. Three kinds of  trunks were set up for post-pay 
+calls. Which kind  a CO uses depends on what kind of hardware was 
+purchased for the central office. 
+
+	(a) Dedicated post-pay trunks. Self explanatory. These channels 
+are used only for post-pay calls. Might be necessary where the serving 
+central office does not pass automatic number identification or  (ANI) to 
+the operator. This would be for very simple central offices. Most CO's 
+put their long distance traffic in digital form. The caller's number is 
+encoded as well. This data stream is decoded at the operator position. 
+They then know what number you are calling from. Not passing ANI 
+means a lack of equipment at the CO or that the trunk can't handle in. In 
+any case, all long distance calls from the post-pay phone go  directly to 
+the operator. If the calls weren't intercepted then someone could clip 
+into the lines.
+
+	(b) Combined post-pay trunks. These handle regular traffic and 
+coin traffic. A more efficient use of the trunk. A dedicated channel isn't 
+left unused all the time, waiting for a call. The central office must have 
+ANI. This allows TSPS to automatically check a data base of all 
+American payphone numbers. The operator is then alerted that they are 
+dealing with a post-pay call by a lamp that is lit on the TSPS console. 
+The operator must handle the rest of the call. I am unsure of how they 
+do this.  I do know that non-TSPS operators place a 1+ call.  If the 
+connection is made then they tell you to deposit your money.
+
+	(c) Combined post-pay trunks with service tone identification. 
+Signals the operator with a tone. Alerts the operator to a post-pay call. 
+The central office generates this instead of passing ANI. It seems that 
+this would be less costly for the local office than providing the 
+equipment to encode ANI. 
+
+9. Not all remote areas can be economically served by the remote 
+trunking arrangement. Much of independent phone company  traffic 
+goes to a non TSPS operator.  Let me know if you know more. Or if 
+you know whether any of these trunking arrangements still remains. 
+There have been many changes now that most long distance traffic is on 
+fiber optic cable. Let's end this introduction to post pay by discussing 
+its signaling. 
+
+G. Post-pay signaling
+
+10. Post-pay signaling is basic, reflecting the simplicity of the 
+community dial office equipment. There are two essential kinds of 
+signaling: answer supervision and coin deposit tones. Let's look at 
+supervision generally and then answer supervision in particular. 
+
+	Supervision
+
+11. Supervision is a mostly automatic activity of the phone system. It is 
+a process. Supervision is the way that phone equipment looks for and 
+responds to, phones going on hook and off hook. It's sometimes called 
+switch hook supervision. Supervision has also been described as "the 
+constant monitoring and controlling of the status of a call."(9)This 
+implies a great deal. Perhaps too much.(10)  Since supervision is a 
+process rather than one simple signal it is a little more difficult to 
+understand. The language of signaling, in addition, makes this even 
+harder. You'll read such cryptic phrases as "supervision is passed 
+through the switching network" or "the call was suped." Let's look at 
+answer supervision in general.
+
+	Answer supervision
+
+12. This happens when we answer the telephone. It is quite a process:
+
+(a) Lifting the handset off the phone causes the switch hook buttons to 
+rise. This trips a relay inside the set that closes the contacts with the 
+phone line. This, in turn, connects the phone with the central office;
+
+(b) Voltage now flows in the loop. The phone is now consuming power 
+like any  electrical appliance. This flow is then detected by the switching 
+equipment; 
+
+(c) The central office now stops the ringing voltage. After all, you've 
+just answered the phone; 
+
+(d) The CO then cancels ringback for the calling party. This is the 
+"ringing" sound 	that you hear when you call a number. It's 
+produced and canceled by the CO;
+
+(e) Switching equipment then sets up a connection between both parties 
+so that conversation can take place.
+
+13. Answer supervision involves many things. The only real signal, 
+though, is the one made by the phone going off hook. The rest is 
+automatic. The chief requirement for the central office is to quickly 
+detect a request for service. This is the "constant monitoring" part of 
+supervision that we noted earlier. The other part, "the controlling of the 
+status of the call" should be obvious now; a number of things happen 
+when we pick up the phone. To repeat, by answering the phone the call 
+is supervised. Let's look at a variant.
+
+		 Reverse battery answer supervision
+
+15. Payphones use a type of answer supervision called reverse battery. 
+Post-pay depends on this almost exclusively.  This signal is not peculiar 
+to coin phones but they do use it for special functions. Reverse battery 
+can prevent a call from taking place until a coin is deposited in the 
+payphone. The phone system changes the telephone line's electrical 
+status to do this. Sound confusing? The terminology is. But the actual 
+technique is simple, certainly well fitted to the CDO and a post-pay coin 
+line. 
+
+16.  Reverse battery is a supervisory signal. It tells the payphone to 
+disable its transmitter and keypad until a coin is deposited. This prevents 
+a free call by not allowing any speech or any DTMF signal to be 
+transmitted until a coin is deposited. This  prevents you, for instance, 
+from retrieving messages on your answering machine with the keypad 
+on a post pay coin phone. Reverse battery depends on receiving answer 
+supervision first. The end office detects that the called party has gone 
+off hook in the normal way. Instead of connecting the two parties, 
+however, a special relay is tripped at the switching office. This relay 
+changes the normal electrical condition of the line. Let's take this step by 
+step.
+
+17.  A post-pay coin line has the tip side wire grounded and the ring 
+side wire closed.(11) This is a little difficult to explain.(12) Both tip and 
+ring are closed when a normal phone is off hook. Closing the circuit 
+completes a connection with the central office. With post-pay, the tip is 
+grounded, usually to a chassis ground. That's just a screw or bolt inside 
+the payphone housing that a wire runs to. Tip is grounded or shorted 
+out when the handset is lifted. But the ring side wire is closed, allowing 
+a connection to the CO with  one wire. You are able to dial your number 
+with this setup.  
+
+18. A connection is then made. Answer supervision is returned to the 
+central office by the called phone. It trips the special relay, the line 
+circuit relay, at the CO. This causes the tip and ring positions on the 
+coin phone line to be reversed. It closes the tip side and grounds the ring 
+side. This change of electrical status is the reverse battery signal. The 
+pay phone's  coin relay  senses this change. It's meant to. The relay is 
+polarity sensitive, engineered to short out  the transmitter and keypad. In 
+other words, it works one way and not another. The line's status returns 
+to normal after a coin deposit. That's because a coin trips the rate relay .  
+That frees up the contacts and the line returns to normal. 
+
+19.  Many electrical appliances won't work well or at all with the wrong 
+kind or quantity of electricity. Anything with transistors or integrated 
+circuits, such as a DTMF keypad, are especially vulnerable. Just 
+changing the voltage from a positive to a negative state is enough to 
+damage many things. This is fairly easy to understand. What is difficult 
+to understand, however, is that reverse battery does not mean reverse 
+voltage or reverse electrical polarity.
+
+20.  Freeman(13) and Reeve(14) state that a reverse battery signal uses 
+negative voltage and not positive. Yet Fike writes about "reversing the 
+polarity of the tip-ring pair."(15) Reeve further states that in post-pay 
+signaling "the line circuit reverses the battery polarity applied to the 
+loop."(16) How can this be? How can one talk about reversing polarity 
+when all the information shows that there is no change?
+
+21.  We usually think of polarity as a positive or negative state. In this 
+context, however, reverse polarity means that tip and ring have become 
+reversed, not voltage. Polarity is used in its broadest sense: the 
+condition of being polar or opposite. Tip and ring positions become 
+opposed in reverse battery, therefore, reverse polarity refers to a change 
+in position and not voltage. Reeve confirms this in his last footnote to 
+the chapter on coin line services. He explains that the keypad inhibit 
+signal  should not be "confused with reverse battery, which is the 
+reversal of the battery and ground potentials on the tip and ring 
+leads."(17)
+
+22. So, answer supervision causes reverse battery which prevents a call 
+until a coin is deposited. Depositing that coin resets the relay which puts  
+the line back to normal polarity. The only other important group of 
+signals for post-pay are coin deposit tones.
+
+	Coin Deposit Tones
+
+23. A coin deposit tone is a signal that alerts an operator or a piece of 
+equipment that a certain coin has been put in. There are no specific post-
+pay coin deposit tones. Since post pay is not compatible with automated 
+coin toll service, it could be assumed that dual tone frequency signaling 
+may not be necessary. But some post-pay phones are tied to TSPS 
+operators. Coin deposits total on their consoles while they watch and 
+listen to the tones. The central office  probably sends the amount to 
+TSPS on a data circuit or a channel that connects the two. So, some 
+post-pay coin lines may demand the current models of telco payphones. 
+In addition, the newest phones, such as the D model, are far more 
+reliable than their predecessors. It might be risky to box to the operator 
+if you don't know which model you're dealing with. Bell System 
+practice was to systematically upgrade their coin phones over time. I 
+doubt that any older phones are left in service. Let's quickly look at 
+some payphone history, to give you an idea of the what might be 
+possible. 
+
+24.  Western Electric came out with the 1A1 in 1965,(18) the product of 
+six years of research. It used a single frequency oscillator to produce a 
+2200 Hz  tone for each coin. A nickel produced a single tone, a dime 
+two, and a quarter five. In 1968, the "C" type set was introduced. It had 
+a DTMF pad instead of a rotary dial. The single frequency oscillator 
+remained. It wasn't until 1979 that Bell Labs introduced a retrofit kit for 
+the A & C models.(19) This changed them from single frequency to 
+dual frequency They were now compatible with ACTS. The totalizer, or 
+coin counter, was changed from an electromechanical device to one 
+without any moving parts. This was done by using a piezoelectric 
+transducer, an electronic pad that each coin fell on when it was 
+deposited. There are three pads, one for each kind of coin. A nickel, 
+dime or quarter produces a certain amount of current when it falls on its 
+specific transducer. This current then   triggers the oscillator to produce 
+a tone of 1700 Hz and 2200 Hz. I understand that the current model, the 
+"D" , is not a retrofit but simply a new phone with the new technology. 
+And then there was the Western Electric E.C.P.T., but that's another 
+story.
+
+25.  Automatic Electric should use similar coin signaling schemes in 
+order to be  compatible with the rest of the telephone system. But even 
+the oldest of schemes can be used if the phone company operator places 
+your call. Three slot coin phones date from the 1920's, although they 
+were manufactured well into the 1960's. Some of these still exist, 
+although probably none in the former Bell System territory.(20)  Most  
+three slot phones were modeled after a phone called the Gray pay 
+station.(21) These were produced by an independent company that 
+Western Electric later worked with. There were three coin chutes. They 
+could allow two tones at once if coins were put in at the same time, an 
+irritation to the operator. A nickel would strike a bronze gong, 
+confusingly called a bell. The tone was around 1100 Hz. A dime hit this 
+gong twice. A quarter would hit a helical flat wire, even more 
+confusingly called a cathedral gong and produce a lower tone of around 
+800 Hz. These tones were distinct enough for an operator to recognize.  
+They were not recognizable, however,  to most automatic switching 
+equipment; ACTS, for example, never planned to incorporate the tones 
+of three slots. 
+ 
+
+(1) Fagen, M.D., ed. "A History of Engineering and Science in the Bell 
+System: The Early Years, 1875 -- 1925." New York: Bell Telephone 
+Laboratories, 1975. 156
+
+(2) Fagen, 155
+
+(3) Dial tone first operation began its reintroduction to the Bell System 
+in 1966. The reason? Public safety. The tests were in Hartford, 
+Massachusetts, the site of the first coin telephone. See A.E. Ruppel and 
+G. Spiro. 'No Dime Needed' Bell Laboratories Record  (October, 1969) 
+296
+
+(4) Rey, R.F., ed. "Engineering and Operations in the Bell System". 2d 
+ed. Murray Hills, N.J. AT&T Bell Laboratories. 1983. 473
+
+(5) Rey, 461
+
+(6) Schindler, 32
+
+(7) Although the Bell System provided, perhaps, 75% of America's 
+population with service, they never covered more than half of the 
+geographical area of the country. This left a huge amount of the United 
+States, especially the West, with a welter of different operating systems.  
+Automatic Electric, the manufacturing arm of General Telephone and 
+Electronics, produced some fascinating and somewhat quirky equipment 
+over the years, both  for wholly owned companies such as GTE of 
+California and for hundreds of independent telephone companies.  Las 
+Vegas, Santa Barbara, Palm Springs and the Delta country of California 
+are good areas to investigate as well as much of the rural west. Some 
+eastern states still have party lines and rudimentary service as well. Feel 
+free to write to me about your favorite independent provider.
+
+(8) S.M Bauman, R.S. DiPietro, and R.J. Jaeger Jr. "Remote Trunk 
+Arrangement: Overall Description and Operational Characteristics" Bell 
+System Technical Journal. 58.6 (July--August 1979) 1119
+
+(9) Rey, 816
+
+(10) Some  maintain that addressing,  or dialing,  is part of supervision. 
+By dialing a number you control the status of a call. True enough. 
+Operators do too, however, by asking you to put in more money or to 
+dial a number again. ACTS controls a great deal of coin calls. Are these 
+supervisory signals? 
+
+(11) Reeve, Whitman D. "Subscriber Loop Signaling and Transmission 
+Handbook: Analog." New York: Institute of Electrical and Electronics 
+Engineers. IEEE Press. 1992. 217 A great book. The best, most current 
+explanation of the local loop. Excellent chapter named Coin Line 
+Services. Find this book. It's usually checked out. Do an inter-libary 
+loan if you have to. 
+
+(12) Nothing is more frustrating to explain than the various 
+combinations of tip, ring and ground. But nothing is more important to 
+understanding coin phone signaling. I put some illustrations in the 
+second issue that explain this better.
+
+(13) Freeman, Roger. L. "Reference Manual for Telecommunications 
+Engineering." Wiley Interscience. New York. 1985. 81 Well worth 
+browsing though. Look for it in the reserve section. Freeman is a well 
+respected authority.
+
+(14) Reeve, 217
+
+(15) Fike, 193
+
+(16) Reeve, 217
+
+(17) Reeve, 223
+
+(18) Stokes, R.R., 'A Single-Slot Coin Telephone' Bell Laboratories 
+Record  (January, 1966) 20 Details the 1A1, the payphone that became a 
+standard.
+
+(19) Habib 'Coin Handling Goes Electronic' Bell Laboratories Record  
+(April, 1979) 95
+
+(20) I used a three slot last year in Jordan Valley, Oregon. It was a beat 
+up Automatic Electric, with half its armor missing. My 1+ call to Boise 
+was intercepted by an operator with the, I believe, Telephone Utilities of 
+Eastern Oregon. It was great, I felt like I was in Mayberry, trying to 
+place a call to Mount Pilot. 
+
+(21) Fagen. M.D. ed., "A History of Engineering and Science in the 
+Bell System: The Early Years (1875--1925)" 159 The picture of the 
+three slot phone is nearly identical to the ones that W.E. produced nearly 
+fifty years later. A.E. types are a little bulkier and rounded on the edges. 
+And, yes, you should look at Fagen's book, too. It's curiously 
+subtitled, this 1000 page monster actually covers many things past the 
+1950's.
+
+More next issue . . . (August)
+
+------------------------------------------------------
+
+7. A CONVERSATION WITH MOTOROLA
+
+In the hardcopy edition I reprinted a Motorola ad from earlier in the 
+year. The illustration depicts a group of grimly faced emergency 
+services people. Firefighters, EMTs, doctors and police stare out from 
+the gloomy looking page. The artwork seems to be done in pencil and 
+charcoal. I reprint the text of the ad first in quotation marks. My 
+comments follow.
+
+"ATTENTION: PUBLIC SAFETY ANNOUNCEMENT
+
+Tampering With Motorola's Communication Technology Is Nothing 
+Short of a Crime
+
+Motorola has been at the forefront of communications technology for 
+more than 60 years. Today, we offer a greater array of communications 
+products than ever before. We are proud of our products and the vital 
+services that they bring to our customers which are of unparalleled 
+public importance.
+
+Theft of communication services and so-called High-Tech piracy 
+threaten the entire communication industry's reputation for reliability. 
+This conduct not only damages the reputation of Motorola, Inc. and the 
+communication industry, but undermines the very integrity of America's 
+public and private communications services.
+
+Motorola intends to combat this conduct by aggressively maintaining 
+and enforcing its rights to its hardware and software technology. 
+Anyone who has knowledge of illegal activities or has questions 
+concerning such activities is urged to contact Motorola Inc. immediately 
+at 1-800-325-4036. Contacts will be kept confidential and may be made 
+anonymously.
+
+Motorola"
+
+	This curious ad has been placed for many months in the three 
+largest ham radio magazines: CQ, QST  and 73 Amateur Radio Today.   
+I thought at first that Motorola was talking about cell fraud. But how can 
+a pirated call affect "the very integrity of America's "public and private 
+communication services"?  And why are they advertising in amateur 
+radio magazines? Are the real hackers in radio?  What's going on? The 
+ad said to call with questions. So I did.
+
+	I talked to  a Mr. John England.  He said the ad had nothing to 
+do with cell fraud. Instead, it had to do with pirating commercial radio 
+services, you know, car to car, car to dispatcher, that sort of thing. 
+England said that they knew about amateurs who, for a price, would set 
+up a commercial radio and its software to work on emergency services 
+frequencies. He said that Motorola is working with "all the appropriate 
+federal agencies" in their investigations. He  admitted, however, that no 
+one had ever been convicted of doing what the ad was concerned with.  
+He mentioned, somewhat sheepishly, that there were other ways to stop 
+an activity without  imposing a criminal penalty. Like having someone 
+pay a fine. Oh, really?
+
+	Hackers are rotting in jail for nothing more than a  low-rent 
+economic crime or  because they supposedly invaded, according to the 
+most crippled definition possible, someone's electronic privacy. And yet 
+Motorola and the Feds will negotiate with people who deliberately 
+interfere with emergency services? Someone who gets in the way of 
+fire, police or ambulance service should go to jail. But I know of no one 
+in the hacker community who has ever sought to do such a thing. 
+	
+	Radio amateurs take great pride in a good public image. They do 
+a great deal of self-policing. Some amateurs have done stupid, criminal 
+things, like making false distress calls. But rarely do they go to jail. 
+Licenses are pulled and fines imposed. I suppose that Motorola could be 
+trying to scare people off. England said that the "bad news bears know 
+exactly who they are." A proactive approach is always good, generally. 
+I think though, that you won't see a warning from Motorola about 
+experimenting with cellular phones. If there's trouble it seems more 
+likely that the Secret Service will be involved, that you will be arrested 
+and that you will go to jail. I doubt that much negotiating will go on, 
+even if you were just calling a mailbox.  Sounds like you're safer 
+playing with the police. Go figure.
+
+-----------------------------------------
+
+7. THE GTE RTSS PHONE
+
+In this article I reproduced an ad for a General Telephone and 
+Electronics Red Telephone Switching System phone. I asked for help in 
+identifying some of the strange acronyms and abbreviations. I ask for 
+comments from the readers of the electronic version as well.  The ad is a 
+photograph of the phone with text. Yes, the phone is a nice red color. 
+My magazine is, unfortunately, in black and white. Still, you may find 
+the ad in 'Air Force' magazine and some other mainstream publications.  
+It looks similar to a generic ISDN phone but with the Autovon keys and 
+with some sort of LCD display. The display looks to be about 2" by 4". 
+Here's the text:
+
+Look where you can go with One GTE RTSS phone
+
+ANDVT
+AUTOVON
+CLASS A DIALLINE
+DEFENSE SWITCHED NETWORK
+JCSCAN
+KG-81/94, TRUNKS & MULTIPLE REMOTE SUBSCRIBER UNIT
+KY-3 AUTOSEVOCOM
+LAND MOBILE RADIO
+LONG-HAUL HOTLINES
+ON-BASE HOTLINES
+RED SWITCH NETWORK
+SATCOM RADIO
+STU-II KY-71/ PARKHILL KY-65/75
+STU III
+TACTICAL GATEWAY DSVT KY-68
+TACTICAL SWITCH DROP
+UHF RADIO
+VHF RADIO
+
+	With GTE's Red Telephone Switching System (RTSS), a single 
+phone gives you total Red/Black voice communications access to all 
+these places . . . with unequalled security. It also provides robust 
+connectivity and interoperability with other existing and future secure 
+voice systems - - tactical, strategic, and commercial. A 20-year life-cycle 
+support program is backed by a proven GTE worldwide field support 
+and logistics system. You, too, can order RTSS under Contract No. 
+F34608-88-D0007 from the DoD through HQ EID, Tinker AFB, 
+Oklahoma.
+
+	If you use more than one phone for secure/non-secure 
+communications, you haven't been authorized RTSS.     ----------------- 
+GTE Government Systems"
+
+This ad details an exciting looking phone. I know nothing about it. Let 
+me know if you can help by filling in the details. I'll get the guessing 
+game going.  Much has been written about Autovon. It utilizes the four 
+right hand buttons: flash overide, flash, intercept and priority. These 
+correspond to the four extra tones that are built into most DTMF IC's. 
+These silver box tones are not often used by most telcos but they are 
+used by Autovon to prioritize phone calls when they are first placed. 
+
+Anyway, the Red Switch Network would have to piggyback onto 
+Autovon if it is being included in this phone. Wouldn't it? And what are 
+Red/Black voice communications? One of the colors probably stands for 
+secure voice communications. And I mean secure. It's likely that an 
+imbedded chip in the phone does the NSA certified encryption. So, you 
+have a secure line immediately with no need to interface with anything 
+else. As such, it is probably classified as a "controlled cryptographic 
+item." It probably allows only one person to speak at a time when it's in 
+the secure mode.
+
+ KY-3 AUTOSEVOCOM  should stand for automatically secure voice 
+communications. Comsec  stands for the obvious: secure 
+communication. There are, apparently, many forms of comsec. Some of 
+them are KY-57, ANDVT, and KG-84. The field radio receiving this 
+traffic is called, I think, a processor.  Motorola makes a unit called the  
+Sunburst II processor. 
+
+---------------------
+
+8. CALIFORNIA TOLL FRAUD LAW
+
+Many laws relate to telephones. Here's the text of one along with my 
+comments. (This is far less confusing in the hard copy edition since I 
+am able to italicize my comments.) Broad ranging code sections give the 
+police the power to move against nearly any one at any time. In reality, 
+the law is mostly used against high profile criminals, gangs of 
+criminals, people who get caught red handed and people who can't 
+afford to challenge bad law.
+
+California Penal Code  Section 502.7 Obtaining telephone or telegraph 
+service by fraud
+
+"(a) Any person who knowingly, willfully, and with intent to defraud a 
+person providing telephone or telegraph service, avoids or attempts to 
+avoid, or aids, abets or causes another to avoid the lawful charge, in 
+whole or in part, for telephone or telegraph service by any of the 
+following means is guilty of a misdemeanor or a felony, except as 
+provided in subdivision (g): . .  ."
+
+(The main clause. Rather generic on purpose. You may be charged with 
+this at first if you are arrested for something telephonic. The initial 
+charge is the booking charge. The DA decides the specific charges later, 
+often making it more detailed with the help of the rest of this code 
+section.)
+
+	"(1) By charging the service to an existing telephone number or 
+credit card number without the authority of the subscriber thereto or the 
+lawful holder thereof. . . ."
+
+(Prohibits telephone theft by wrongful billing or credit card fraud.)
+
+	"(2) By charging the service to a non-existent telephone number 
+or credit card number, or to a number that associated with telephone 
+service which is suspended or terminated, or to a revoked or canceled 
+(as distinguished from expired) credit card number, notice of the 
+suspension, termination, revocation, or cancellation of the telephone 
+service or credit card having been given to the subscriber thereto or the 
+holder thereof. . ."
+
+(Legitimate card holders can't be jailed for mistakenly using an expired 
+card. Or, at least, they're not supposed to be.  There's not much risk of 
+this provision being abused since most cards are canceled automatically 
+upon expiration.)
+
+	"(3) By use of a code, prearranged scheme, or other similar 
+stratagem or device whereby the person, in effect, sends or receives 
+information. . ."
+
+(I am not sure what this refers to.  Can anyone give me an example of 
+what the legislature meant by this?)
+
+	"(4) By rearranging, tampering with, or making connection with 
+telephone or telegraph facilities or equipment, whether physically, 
+electrically, acoustically, inductively, or otherwise, or by using 
+telephone or telegraph service with knowledge or reason to believe that 
+the rearrangement, tampering, or connection existed at the time."
+
+(Prohibits fraud by technical means. What's so unfortunate is that credit 
+card thieves are put into the same section as hackers. This might explain 
+some law enforcement paranoia, since the two groups of people fall 
+under the same section. Tone generators would probably be prohibited 
+by this subsection.)
+
+	"(5) By using any other deception, false pretense, trick, scheme, 
+device, conspiracy, or means, including the fraudulent use of altered or 
+stolen information."
+
+(Legitimate means to us are probably tricks and schemes to the 
+uninformed. Does an Internet dialout mean anything to an assistant 
+district attorney who intends, someday, to log onto Prodigy?)
+
+"(b) Any person who does either of the following is guilty of a 
+misdemeanor or a felony, except as provided in subdivision (g):
+
+	"(1) Makes, possesses, sells, gives, or otherwise transfers to 
+another, or offers or advertises any instrument, apparatus, or device 
+with intent to use it with knowledge or reason to believe it is intended to 
+be used to avoid any lawful telephone or telegraph charge or to conceal 
+the existence or place of origin or destination of any telephone or 
+telegraph message. . ."
+
+(The first part of this paragraph  prohibits the selling or distributing of 
+an assembled toll fraud device. The second part is a little cryptic. It 
+refers to a device that can mask a caller's location. Sounds like a call 
+forwarding device. I'll have to look into the committee reports to see 
+what tool so spooked the legislature that they made it illegal.)
+
+	"(2) Sells, gives, or otherwise transfers to another, or offers or 
+advertises plans or instructions for making or assembling an instrument, 
+apparatus, or device described in paragraph (1) of this subdivision with 
+knowledge or reason to believe that they may be used to make or 
+assemble the device."
+
+(Prohibits distributing plans for a toll fraud device. You can't even give 
+them away.  But it's selective. An issue of Harper's was pulled off 
+shelves in the early 1970's for an article on blue boxing.  And yet 2600 
+did not get their summer 1993 edition pulled in California because of the 
+red box schematic. Tap was shut down, I believe, for printing articles 
+on toll fraud devices. And yes, you can buy books on how to make C-
+4, modify an AR-15 to fire on full auto, or learn how to cut the brake 
+lines on a bus. Just look in the back of Soldier of Fortune or order a 
+catalog from Paladin Press. In fact, I could publish a magazine called 
+KILL!, containing articles on how to beat, torture and maim people in 
+dozens of ways. And it would be legal. So long as I didn't put in a red 
+box schematic. Do you think any telco executive would worry about my 
+new zine? Of course not, in fact, they'd probably try to sell me an 800 
+number for my new business. The concern of the legislature and the 
+telco is about profits and the control of technology. Don't believe 
+anything else.)
+
+"(c) Any person who publishes the number or code of an existing, 
+canceled, revoked expired, or nonexistent (!) credit card, or the 
+numbering or coding which is employed in the issuing of credit cards 
+with the intent that it be used or with the knowledge or the reason that it 
+will be used to avoid  the payment of any lawful telephone or telegraph 
+bill is guilty of a misdemeanor. Subdivision (g) shall not apply to this 
+subdivision. As used in this section publishes means the communication 
+of information to any one or more persons, either orally, in person or by 
+telephone, radio, or television, or electronic means, including, but not 
+limited to, a bulletin board system, or in a writing of any kind, including 
+without limitation, a letter or memorandum, circular or handbill, 
+newspaper, or magazine article, or book."
+
+(Okay, we get it. It's illegal to talk about calling card numbers if you 
+intend to defraud a telephone company. It's even illegal to talk about 
+something that doesn't exist. But what if you are talking and writing 
+about numbering schemes because you are simply interested? Intent 
+must be proved by act. There has to be some overt evidence that you 
+intend to defraud. Usually. Nowadays, I think that mere possession of 
+such material will get you in trouble.)
+
+"(d) Any person who is the issuee of a calling card, credit card, calling 
+code, or any other means or device for the legal use of 
+telecommunications services and who receives anything of value for 
+knowingly allowing another person to use the means or device in order 
+to fraudulently obtain telecommunications services is guilty of a 
+misdemeanor or a felony, except as provided in subdivision (g)." 
+
+(This makes it illegal for telco people to let someone else  use their 
+equipment, codes or credit cards.)
+
+"(e) Subdivision (a) applies when the telephone or telegraph 
+communication involved either originates or terminates, in this state, or 
+when the charges for services would have been billable, in normal 
+course, by a person providing telephone or telegraph service in this 
+state, but for the fact that the charge was avoided, or attempted to be 
+avoided, by one or more of the means set forth in subdivision (a)."
+
+"(g) Theft of any telephone or telegraph services under this section by a 
+person who has a prior misdemeanor or felony conviction for theft of 
+services under this section within the past five years, is a felony."
+
+(A felony if you have a prior under this law. You go to state prison for 
+at least a year. Misdemeanors can't be punished by more than a year in a 
+county jail.)
+
+"(h) Any person or telephone company defrauded by any acts prohibited 
+under this section shall be entitled to restitution for the entire amount of 
+the charges avoided from any person or persons convicted under this 
+section."
+
+"(i) Any instrument, apparatus, device, plans, instructions, or written 
+publication described in subdivision (b) or (c) may be seized under 
+warrant or incident to a lawful arrest, and, upon the conviction of a 
+person for violation of subdivision (a), (b), or (c), the instrument, 
+apparatus, device, plans, instructions, or written publication may be 
+destroyed as contraband by the sheriff of the county in which the person 
+was convicted or turned over to the person providing telephone or 
+telegraph service in the territory in which it was seized."
+
+(The police can seize anything that might be used in a prosecution. They 
+can do it with a warrant or they can grab it if they take you in for, say, 
+loitering. You have no hope that the police will return contraband. 
+None.  Material that may or may not be contraband will probably be 
+kept as the investigation moves forward. There is little hope that 
+anything suspicious will be returned until after trial. It's possible 
+evidence, after all. You could be waiting for many, many months or 
+more.)
+
+"(j) Any computer, computer system, computer network, or any 
+software or data, owned by the defendant, which is used during the 
+commission of any public offense described in this section or any 
+computer, owned by the defendant, which is used as a repository for the 
+storage of software or data illegally obtained in violation of this section 
+shall be subject to forfeiture."
+
+(Hope you can loose your computer while the Powers That Be decide 
+your fate. With the proper warrant they can confiscate everything. You 
+then chew your fingernails for months while they search your files and 
+decide on strategy. Maybe they'll move forward with your case. Maybe 
+not.  Securely encrypting your most sensitive files would seem wise. A 
+case would have to be built on other things. But if they do issue a 
+warrant then you have probably been watched for some time. So, they 
+may have other evidence. And they'll be mad as hell about not breaking 
+a particular file. They may become more determined. It's up to you and 
+your lawyer to figure out how to proceed. 
+
+Some hackers are thieves but not all thieves are hackers. I understand 
+that the legislature wanted to have one code section just for toll fraud. 
+But experimenting with the phone system is a far different thing than 
+seeking to exploit it. Anyone who thinks that a red box tone can hurt the 
+security of the network or cause damage to a switch is a fool or a 
+corporate liar. In the next issue I'll reprint Penal Code  Section 502.8, 
+the law prohibiting cellular phone fraud.)
+--------------------------------------
+
+9. PRIVATE LINE INFORMATION
+
+The Rates
+
+A full page ad costs $75.00. A half page costs $37.50. A quarter page 
+costs $18.75. This applies to the first newsstand edition which will 
+come out in January, 1995. There is no requirement to be a subscriber 
+in order to advertise. You can reserve this rate for all of 1995 by placing 
+an ad in January's edition. You don't need to pay in advance to reserve; 
+just tell me that you intend to do it. Payment and camera ready art work 
+for the first month's advertisements are due one month before each issue 
+comes out. A photocopy of the page that the ad is on will be sent out 
+once a particular issue is completed. Classified ads of 25 words or less 
+are free to subscribers. Comments? Corrections? 
+ e-mail Tom Farley -- privateline@delphi.com THANK YOU! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

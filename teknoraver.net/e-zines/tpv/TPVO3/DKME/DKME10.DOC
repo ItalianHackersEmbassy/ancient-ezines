@@ -1,0 +1,37 @@
+
+Dark Killer Mutation Engine. (1570 Bytes)
+
+Version 1.0 <04/01/95>
+Written By Dark Killer in Taiwan, ShinChuang at T.P.V.O.
+
+一、版權宣告
+    本變體引擎僅可作為病毒寫作上之工具，禁止其他用途。
+
+二、如何使用
+    本模組適用於 MASM 及 TASM，用於其他組譯器可能會有問題。
+
+    在程式裡宣告：
+
+      EXTRN   DKME:NEAR,DKME_END:NEAR
+
+    需要製造多形病毒碼時，設定好參數並以下列方法呼叫本模組，即可輕易
+    地產生多形病毒碼。
+
+      CALL    DKME
+
+    需要得到「病毒長度＋本模組長度」可利用 OFFSET DKME_END。
+
+    在連結時記得將 DKME.OBJ 用 "+" 連起來。
+
+三、傳入參數
+    ES:0000h => 用來存放「解碼程式＋被編碼的病毒」。
+                PS：小心不要蓋到堆疊。
+    DS:DX    => 用來指向「欲編碼的病毒」開頭。
+    CX       => 欲編碼的長度。
+    BX       => 檔案的偏移值。
+
+四、傳回參數
+    DS:DX    => 「解碼程式片段＋被編碼的病毒」之開頭。
+    CX       => 「解碼程式片段＋被編碼的病毒」之長。
+
+

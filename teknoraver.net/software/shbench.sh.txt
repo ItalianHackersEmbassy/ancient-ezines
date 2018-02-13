@@ -1,0 +1,52 @@
+#!/bin/sh
+
+MYSHELL=$(basename $(readlink /proc/$$/exe))
+FILEDIR=/usr/bin
+STRINGSFILE=/usr/share/common-licenses/GPL-3 # some big file here
+
+echo "Bencharking $MYSHELL"
+
+echo 'Test 1: strings and arithmetic operations'
+date=$(date '+%s')
+res=0
+for i in a b c d e f g h i j k l m n o p q r s t u v w x y z
+do
+	/bin/echo -n $i
+	for j in $(cat $STRINGSFILE)
+	do
+		case "$j" in
+			$i)	res=$(($res+${#j}));;
+		esac
+	done
+done
+echo
+unset res
+echo Completed in $(($(date '+%s')-$date)) seconds
+
+date=$(date '+%s')
+echo 'Test 2: wildcard operations and big memory allocations'
+res=
+for i in a b c d e f g h i j k l m n o p q r s t u v w x y z
+do
+	/bin/echo -n $i
+	for j in $FILEDIR/*$i*
+	do
+		res="$res:$j"
+	done
+done
+echo
+unset res
+echo Completed in $(($(date '+%s')-$date)) seconds
+
+date=$(date '+%s')
+echo 'Test 3: startup time'
+for i in $(seq 10)
+do
+	echo -n $i
+	for j in $(seq 1000)
+	do
+		$MYSHELL -c ''
+	done
+done
+echo
+echo Completed in $(($(date '+%s')-$date)) seconds

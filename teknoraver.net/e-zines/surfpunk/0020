@@ -1,0 +1,221 @@
+Date: Sat, 19 Dec 92 12:41:21 PST
+Reply-To: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0020@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: cocot@osc.versant.com (Captain COCOT)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0020] WAREZ:  Getting the right phone number
+Keywords: surfpunk, warez, phone number, perl, chortle
+
+Looks useful.  Try it next time you order a Personal 911 service.
+
+                                                           Captain Cocot
+________________________________________________________________________
+________________________________________________________________________
+
+Source: Yucks Digest         Sat, 19 Dec 92       Volume 2 : Issue  62
+Property-Of: Written and placed in the public domain by Howard A. Landman
+Language: perl
+________________________________________________________________________
+
+Date: Mon, 4 May 92 18:18:40 PDT
+From: landman%xpoint@uunet.UU.NET (Howard Landman)
+Subject: Getting the right phone number
+To: eniac
+
+On moving into my new house, I had to get 2 new phone numbers.  I tend to
+prefer numbers that spell something.  I followed the procedure outlined
+below and, as a result, now have the following numbers:
+
+	Main: (408) CHORTLE
+	Computer: (408) CHIPSYN
+
+I liked chortle because any word of Lewis Carroll's is a word of mine.
+ChipSyn is appropriate because I mostly do silicon compilation and
+logic synthesis for a living.
+
+How did I manage this?  It's not too hard ...
+
+HOW TO GET THE PHONE NUMBER OF YOUR DREAMS (in 8 easy steps)
+
+1. Determine the list of available prefixes.  The phone company will
+   happily provide you with this.
+
+2. Ignore all prefixes which contain 0 or 1.  There are no letters which
+   correspond to them.  (However, you may want to consider them in step
+   5 below.)
+
+3. Edit the "prefixes" program (appended below) to match your set of
+   prefixes.  You may also need to change the path to Perl if your
+   system has it somewhere else.  Make it executable with "chmod +x prefixes".
+
+4. Run "prefixes YOUR_PREFIXES > prefixes.out".  For example, if your
+   available prefixes are 555 and 234 (usually it is a much longer list),
+   run "prefixes 555 234 > prefixes.out".  Order of the prefixes has no
+   effect, as they get sorted anyway.  It is most efficient to do all of
+   your prefixes in one run, since the dictionary then only needs to be
+   consulted once.
+
+5. Edit the prefixes.out file.  It contains not only all 7-letter words
+   which match valid prefixes, but also shorter words that might *begin*
+   a combination of words that match a number.  For example, the output
+   of "prefixes 779" is:
+
+	779-    pry,spy,SSW
+	779-24  psych
+	779-243 psyche
+	779-2442        psychic
+	779-246 psycho
+
+   "psychic" is the only complete word match, but other combinations may be
+   suggested, such as "pry-open", "psycho-1", or "spy-hole".  For each
+   partial, either come up with one or more combinations that you like, or
+   delete it.  Also, see if any of the prefixes suggest good non-word
+   possibilities.  For example, "248" might suggest "248-1632".  Don't
+   forget that simple repetition is mnemonic, so that, for example, a
+   number like "248-8888" would be easy to remember.  You now have a list
+   of phone numbers.
+
+6. In a better world, the phone company would let you submit an arbitrary
+   list of numbers and give you the first one on the list that is available.
+   Unfortunately, to save themselves work, they restrict you to a maximum
+   of ten tries, after which they just assign you a number.  Since your list
+   at this point is likely MUCH longer than ten numbers, you need to prescreen
+   them first.  Begin with all numbers on your list unmarked:
+   a. Pick the best unmarked number and call it.  The best time to do this
+      is in the middle of the day, when you are unlikely to wake anyone up.
+   b. If it rings, it's in service.  Hang up and mark it as in use.  If the
+      word is REALLY good, you can stay on the line and tell the person who
+      answers what a great number they have and why.  I did that for "chuckle",
+      which turned out to be someone at a bank.  Made her whole day.
+   c. If you get a "not in service" or "that number has been changed" message,
+      you've hit paydirt.  Mark the number as available.
+   d. Repeat a,b,c until you have at least two and not more than ten available
+      numbers.
+
+7. Sort your list of available numbers, most desirable first.
+
+8. Call up the phone company and order your phone service, asking for the
+   most desirable number.  Hear the person express amazement when your first
+   choice is acceptable!  (The main chance of failure is if the number got
+   assigned since you tried it.  In that case, give your next most desirable
+   number.)
+
+--------------------- Save following as "prefixes" ---------------------
+#!/usr/local/bin/perl
+#
+# This program searches for words which are also phone numbers which
+# have one of a set of specified prefixes.
+#
+# Written and placed in the public domain by Howard A. Landman
+#
+if (@ARGV) {
+        @prefixes = @ARGV ;
+} else {
+        # Ignore 241,261 since there are no letter for 1.
+        @prefixes = (236,243,244,246,247,248,249,296,345,553,554,575,984,985,983) ;
+}
+
+$letters[0] = '' ;
+$letters[1] = '' ;
+$letters[2] = 'abc' ;
+$letters[3] = 'def' ;
+$letters[4] = 'ghi' ;
+$letters[5] = 'jkl' ;
+$letters[6] = 'mno' ;
+$letters[7] = 'prs' ;
+$letters[8] = 'tuv' ;
+$letters[9] = 'wxy' ;
+
+# This information is redundant, but it was faster to type it in than
+# to code the loop to generate it from @letters.
+$number{'a'} = 2 ;
+$number{'b'} = 2 ;
+$number{'c'} = 2 ;
+$number{'d'} = 3 ;
+$number{'e'} = 3 ;
+$number{'f'} = 3 ;
+$number{'g'} = 4 ;
+$number{'h'} = 4 ;
+$number{'i'} = 4 ;
+$number{'j'} = 5 ;
+$number{'k'} = 5 ;
+$number{'l'} = 5 ;
+$number{'m'} = 6 ;
+$number{'n'} = 6 ;
+$number{'o'} = 6 ;
+$number{'p'} = 7 ;
+$number{'r'} = 7 ;
+$number{'s'} = 7 ;
+$number{'t'} = 8 ;
+$number{'u'} = 8 ;
+$number{'v'} = 8 ;
+$number{'w'} = 9 ;
+$number{'x'} = 9 ;
+$number{'y'} = 9 ;
+
+foreach $p (@prefixes)
+{
+        $is_a_prefix{$p} = 1 ;
+}
+
+open(DICT,'/usr/dict/words') ;
+while (<DICT>)
+{
+        chop ;
+        next if (7 < length) ;  # word is too long for a phone #.
+        $Word = $_ ;
+        # lowercase and convert to digits
+        ($word = $Word) =~ tr/A-Z/a-z/ ;
+        @c = split(//,$word) ;
+        @n = grep($_ = $number{$_},@c) ;        # using grep as mapcar
+        next if (scalar(@n) != scalar(@c)) ;    # some illegal letter
+        # check against prefixes
+        $prefix = join('',@n[0..2]) ;
+        if ($is_a_prefix{$prefix})
+        {
+                # build number (with hyphen)
+                $number = join('',$prefix,'-',@n[3..6]) ;
+                # one number may equal more than one word, so append
+                $word{$number} .= "$Word," ;
+        }
+}
+
+foreach $number (sort keys %word)
+{
+        $Words = $word{$number} ;
+        chop $Words ;   # chop trailing comma
+        print "$number\t$Words\n" ;
+}
+
+
+________________________________________________________________________
+
+
+The "Yucks" digest is a moderated list of the bizarre, the unusual,
+the sometimes risque, the possibly insane, and the (usually) humorous.
+It is issued on a semi-regular basis, as the whim and time present
+themselves.
+
+Back issues and subscriptions can be obtained using a mail server.  Send
+mail to "yucks-request@cs.purdue.edu" with a "Subject:" line of the single
+word "help" for instructions.
+
+Submissions and problem reports should be sent to spaf@cs.purdue.edu
+
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  
+Xanalogical archive access soon.  Thank YOU for using SMTP.
+________________________________________________________________________
+________________________________________________________________________
+

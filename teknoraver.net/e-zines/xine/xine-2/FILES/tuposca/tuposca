@@ -1,0 +1,258 @@
+#!/usr/bin/perl
+
+# TUPoSca - TCP/UDP Port Scanner v0.1b
+# 1997 b0z0/iKx
+# a TCP/UDP scanner in Perl.
+# Tested with Perl 5.003 under Linux
+# Thanx to Kernel Panic for his help!
+#
+# Run the program without command line parameters for options!
+# For more documentation about this program please check out the article
+# in the issue #2 of Xine!
+#
+
+
+require Socket;
+require "getopt.pl";
+$|=1;
+
+$AF_INET=2;
+$SOCK_STREAM=1;
+$scantype='tcp';
+$servicefile='./tcp.services';
+$out=0;
+
+$lockfile="/tmp/scan.udp.lockfile";
+
+&Getopt('HLabcfhlnopstu');		# Get command line options
+$host=$opt_H;
+$hport=$opt_h;
+$recvto=$opt_c;
+$outfile=$opt_f;
+$lport=$opt_l;
+$out=$opt_o;
+$char_send=$opt_s;
+$linout=$opt_L;
+$timeout=$opt_t;
+$udpscan=$opt_u;
+$pingto=$opt_p;
+$noping=$opt_n;
+$sleeptime=$opt_b;
+$addenter=$opt_a;
+
+$sleeptime=0 	if ($sleeptime eq '');
+$addenter=0 	if ($addenter eq '');
+$lport=7 	if ($lport eq '');
+$hport=25 	if ($hport eq '');
+$linout=8 	if ($linout eq '');
+$timeout=3 	if ($timeout eq '');
+$pingto=10000 	if (($pingto eq '') || ($pingto <= 250));
+$recvto=5 	if ($recvto eq '');
+
+if ($udpscan == 1)
+	{
+		$servicefile='./udp.services';
+		$scantype='udp';
+		$SOCK_STREAM=2;
+		$out=1;		# UDP must send/receive to test
+	}
+	else
+	{
+		$udpscan == 0;
+	}	
+
+if ($outfile eq '') 
+		   {
+			$outfile=STDOUT;
+		   }
+		else
+		   {
+			open(OUTING,">$outfile");
+			$outfile=OUTING;
+		   }
+select($outfile);
+
+print "\nTUPoSca v0.1b - by b0z0/iKx\n\n\n";
+
+if ($host eq '') 
+{
+  print "usage: tuposca\n";
+  print "   -H [name]		=> hostname\n";
+  print "   -l [num] 		=> from port\n"; 
+  print "   -h [num]		=> to port\n";
+  print "   -f [filename]	=> output file\n";
+  print "   -u 1   		=> UDP port scan\n";
+  print "   -c [secs]		=> connection timeout\n";
+  print "   -p [msecs]		=> ping timeout\n";
+  print "   -n 1 		=> don't ping\n";
+  print "   -a 1 		=> send another enter after 1 sec\n";
+  print "   -b [secs]		=> pause between each connection\n";
+  print "   -o 1			=> long output\n";
+  print "		-s [string]  	=> string to send\n";
+  print "		-L [n.lines] 	=> output lines\n";
+  print "		-t [secs]    	=> recv timeout\n";
+  exit();
+}
+
+
+open(SERVFILE,$servicefile);
+
+
+if ($noping==1)
+{
+	print "Assuming server is ok...\n";
+}
+else
+{
+	print "Looking if server seems reachable....\n";
+	$pinging=`fping -a -t $pingto $host`;
+	chop($pinging);
+	if ($pinging eq '')
+	{
+		print "Host seems unreachable\n";
+		exit;
+	}
+}
+
+print "Well, it seems that it is reachable\n";
+$porton=0;
+
+while (($lport > $porton) && ($serventry=<SERVFILE>))
+{
+	($servicename,$otherstuff)=split(' ',$serventry);
+	($porton,$istype)=split('/',$otherstuff);
+}
+
+for ($port=$lport;$port<=$hport;$port++) 
+{
+	if ($port==$porton)
+	{
+		$name=$servicename;
+		$serventry=<SERVFILE>;
+		($servicename,$otherstuff)=split(' ',$serventry);
+		($porton)=split('/',$otherstuff);
+	}
+	else		
+	{
+		$name='Unknown';
+	}	
+	printf("Service %s at port %s ",$name,$port);
+	connect_and_send();		# connect/send/receive 
+	sleep($sleeptime);		# sleep a little if requested
+}
+close($outfile);
+close(SERVFILE);
+
+# End of the main program
+
+
+sub connect_and_send {
+$sockaddr='S n a4 x8';
+chop($hostname=`hostname`);
+
+($name,$aliases,$proto)=getprotobyname($scantype);
+($name,$aliases,$port)=getservbyname($port,$scantype) unless 
+			$port=~/^\d+$/;;
+($name,$aliases,$type,$len,$thisaddr)= gethostbyname($hostname);
+$!=0;
+($name,$aliases,$type,$len,$thataddr)= gethostbyname($host);
+if ($! != 0)
+{
+	print "Resolving error: $!\n";
+	exit();
+}
+
+$this=pack($sockaddr,$AF_INET,0,$thisaddr);
+$that=pack($sockaddr,$AF_INET,$port,$thataddr);
+
+if (!socket(S,$AF_INET,$SOCK_STREAM,$proto)) 
+{
+	die "Can't open socket!";
+}
+
+if (!bind(S,$this)) 
+{
+	die "Can't bind socket!";
+}
+
+$|=1;
+select(S);
+$|=1;
+select($outfile);
+unlink($lockfile);
+$isconn=2;
+
+$SIG{'ALRM'}= sub { die };
+alarm($recvto);
+
+eval <<'EOT' ;
+$isconn=connect(S,$that);
+EOT
+
+alarm(0);
+if ($isconn==2)
+	{ 
+	 print ("Timeout time expired during connect!\n") ;
+	}
+elsif ($isconn)
+ { 
+    if ($udpscan == 0) 		# UDP is connectionless, so we must do 
+	{			# a full test to see if it is active
+	 printf("present! \n");
+	}	
+    if ($out == 1) {
+
+	if ($pid = fork) 
+		{
+		 select(S);
+		 print $char_send, "\n";
+		 if ($addenter==1)
+		  {
+		    sleep 1;
+    		    print "\n";
+		  } 
+		 sleep $timeout;
+		 kill 9,$pid;
+		}
+	else
+	 	{
+		 select($outfile);
+		 $ii=$wr=0;
+	  	 $!=0;
+		 while (($_=<S>) && ($ii<$linout) && ($! == 0)) 
+		    {			
+			if (($wr==0) && ($udpscan==1))
+			{
+				$wr++;
+				print "responding: \n";
+          			open(TMPU,">$lockfile");
+			        print TMPU "1\n";
+			        close(TMPU);
+			}
+			print $_;
+			$ii++;
+		    }
+		 if ((($! != 0)) && ($udpscan==1))
+		    {
+		   	 printf("not connected! error: %s",$!);	
+			 open(TMPU,">$lockfile");
+			 print TMPU "1\n";
+			 close(TMPU);
+		    }
+ 		 exit;
+		}
+	select($outfile);
+	if ((!(open(IMET,"<$lockfile"))) && ($udpscan==1))
+	{
+		print "connected! ";
+	}
+	close(IMET);
+	print "\n";
+	}
+ }
+else
+ {
+	printf "not present! \n";
+ }
+}
+

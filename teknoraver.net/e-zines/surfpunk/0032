@@ -1,0 +1,351 @@
+Date: Thu, 21 Jan 93 16:02:51 PST
+Reply-To: <surfpunk@osc.versant.com>
+Return-Path: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0032@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: surfpunk@osc.versant.com (jnyyf vzcrqr zl cebterff)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0032] UNIX: analysis of the acquisition of usl by novell
+Keywords: surfpunk, novell, USL, unix, Ray Noorda
+
+*                 |  What is the refusal of *Art*?  The "negative
+                  |  gesture" is not to be found in the silly nihilism
+                  |  of an "Art Strike" or the defacing of some famous
+                  |  painting -- it is to be seen in the almost
+                  |  universally glassy-eyed boredom that creeps over
+                  |  most people at the very mention of the word.
+                  |  
+                  |                          -- Hakim Bey, TAZ
+                  |____________________________________________________
+
+
+<keith@cc.gatech.edu> called this analysis to my attention.  
+It had several factoids I hadn't seen/realized, 
+and derives some scary conclusions.
+								--strick
+________________________________________________________________________
+________________________________________________________________________
+
+Newsgroups: comp.unix.questions
+Subject: The Novell/AT&T agreement to sell Unix
+From: harley@engrhub.ucsb.edu (Harley Hahn)
+Date: 13 Jan 93 05:20:09 GMT
+
+Last week I posted an article describing the impending deal
+between AT&T and Novell under which AT&T will sell Unix System
+Labs to Novell.
+
+I said that I would be writing an analysis for Unixgram-X
+(a worldwide Unix newsletter, published in London and New York
+each week and widely read by executives/analysts/managers etc).
+
+I asked for people comments about the deal.  Thank you to the
+many people who contributed their thoughts.  In this article,
+I am posting the analysis that I wrote, as it was published in
+last Friday's Unixgram-X.
+
+Before you read it I have two quick things to say:
+
+(1) In the newsletter, they changed the title to:
+
+      "AT&T, Novell and the Shrink-Wrapped Sellout".
+
+(2) The American publisher told me afterwards that the reaction
+from USL and others was swift and that I "hit a nerve".
+
+----- start -----
+
+          ANALYSIS OF THE ACQUISITION OF USL BY NOVELL
+           ===========================================
+ 
+                  by Harley Hahn and Rick Stout
+ 
+The recent letter of intent signed by AT&T and Novell in which 
+they revealed their plans for AT&T to sell Unix System 
+Laboratories (the home of System V Unix) is of enormous 
+importance.  No one doubts that the move will have significant 
+lasting effects on the world of Unix and its relations.  The big 
+question is, what is likely to happen?
+ 
+In this analysis, we will look at this acquisition from both 
+financial and technical viewpoints.  We will show you some 
+startling figures and elucidate some of the hidden motivations 
+behind the scenes.  In addition, we will discuss the trepidations 
+in the technical community and offer our opinions as to whether 
+these reservations are well founded.
+ 
+RECAPPING THE DETAILS
+=====================
+ 
+To start, let's quickly recap the details.  In early 1990, AT&T 
+consolidated its Unix operations into a division called Unix 
+System Operation.  In April 1991, they spun off this division 
+into a separate company named Unix System Laboratories.  At 
+first, all the USL stock was owned by AT&T, but, later in the 
+year, AT&T sold a minority interest to other carefully selected 
+companies.  At this time, AT&T owns 77% of the outstanding stock, 
+Novell owns 5%, and 11 other companies (including Sun 
+Microsystems) own the other 18%.
+ 
+Novell proposes to buy out all the USL stockholders in order to 
+own USL outright.  But, rather than pay cash, Novell will issue 
+about 1.1 million new shares of Novell stock and trade them for 
+existing USL stock.  No real money will change hands (we will see 
+why in a moment).  But when all is said and done, AT&T will be 
+left sitting with stock valued at $100m more than its current USL 
+holdings.
+ 
+AT&T  will own 3% of Novell's common stock but, according to 
+Robert Kavner (AT&T Group Executive for Communications Products), 
+they have "no plans to be involved in USL or Novell's operations 
+or business decisions."
+ 
+WHAT NOVELL PROMISES
+====================
+ 
+Novell promises not to change the fundamental orientation of USL.  
+The official Novell/AT&T press release says: "Novell recognizes 
+and values the importance of UNIX as an open accessible 
+technology to OEM partners and customers around the world.  As 
+part of Novell, USL's commitment to fair and neutral access to 
+UNIX technology will not change."
+ 
+On the other hand, in another part of the press release, Ray 
+Noorda (the President and CEO of Novell) makes a conflicting 
+observation: "This acquisition is being done at the urging of 
+customers who have asked us to support the UNIX system directly 
+and integrate it more fully within the Netware environment."  
+ 
+(Is there anyone who actually believes that Novell decided to buy 
+USL at the urging of Novell's customers?  If so, we have some IBM 
+stock options that you might like to buy.)
+ 
+THE USL NUMBERS
+===============
+ 
+AT&T is fond of saying that USL has annual revenues "in excess of 
+$80 million dollars."  In fact, the 1992 revenues were $91m. But, 
+revenues are not profit.  How much, if anything, does USL make 
+from that $91m?  Is Unix is a profitable business?
+ 
+USL is not a public company and they have chosen not to release 
+their financial figures.  However, we were able to obtain the 
+results for 1989 through 1991, and they do not paint a pretty 
+picture.
+ 
+The annual net revenues increased from $58m (1989), to $70m 
+(1990) to $77m (1991).  However, during the same time, expenses 
+increased dramatically.  Research and development went from $28m 
+(1989), to $30m (1990), to $45m (1991), while sales and marketing 
+expenses increased even more: $14m (1989), $17m (1990) and $26m 
+(1991).
+ 
+The most revealing numbers are the net income.  In 1989, USL made 
+$4m on revenues of $58m.  In 1990, they made only $3m on revenues 
+of $70m.  And in 1991, the last year for which we have data, USL 
+sunk deeply into the red, losing $29m dollars on revenues of 
+$77m.
+ 
+The retained earnings (cumulative profit and loss) were $4.7m at 
+the end of 1990 and -$24m at the end of 1991.
+ 
+On Dec 31, 1991, USL had $100m in assets, of which $46m was cash.  
+Whatever is left of these assets will, of course, be taken over 
+by Novell.
+ 
+Although the 1992 results are not public, a highly-placed source 
+at USL tells us that they did make a small profit last year (on 
+revenues of $92m).  Moreover, they still have more than $40m in 
+cash.
+ 
+THE NOVELL NUMBERS
+==================
+ 
+By just about any standard, Novell is a strong company.  At the 
+end of their 1992 fiscal year (Oct 31), they had total assets of 
+$1097m, of which $260m was cash.
+ 
+Moreover, their liabilities were low.  The total current 
+liabilities were $149m, the minority interest was $8.9m, while 
+the long-term debt was, remarkably, only $0.5m.
+ 
+All this yields a shareholder's equity of $938m (about 86% of 
+total assets) which gives a low debt to equity ratio of 17%.
+ 
+Or, to put it in plain English, Novell is a wealthy company with 
+negligible long-term debt and almost $260m cash.
+ 
+WHY IS THE DEAL STRUCTURED THE WAY IT IS?
+=========================================
+ 
+A company like Novell, with such tremendous assets, has several 
+choices when it comes to an acquisition.  They can pay cash, out 
+of their own reserves or by borrowing.  In fact, Novell has the 
+leverage to do just about anything it wants.  Why then, did they 
+choose to issue new stock to buy USL?
+ 
+Our answer is that they bought it for no money down because there 
+were able to.  Although they could afford to pay real money for 
+USL, they were well aware that it was losing money and AT&T was 
+highly motivated to make the sale.
+ 
+You may remember that AT&T's original intention in setting up USL 
+was to one day spin it off as a separate company.  It seems that 
+USL could not stand on its own and AT&T's only alternative was 
+sell it.  Now, how many companies can afford to buy an ailing 
+operating system concern?  Although Novell could have depleted 
+its reserves to make the purchase, why should they?  By simply 
+issuing new shares (which, in turn, diluted the equity of the 
+current Novell shareholders), they could have their cake, eat it, 
+and keep their wealth.
+ 
+From AT&T's side the Novell offer is a godsend.  True, they do 
+not get any cash, but they get a big chunk of valuable stock and, 
+most important, they get to leave the Unix business and stop 
+supporting the big white Unix elephant.
+ 
+Do you think it bothers AT&T to jettison Unix?  Remember Kavner's 
+remark: AT&T has "no plans to be involved in USL or Novell's 
+operations or business decisions."  In our minds, AT&T wanted out 
+and Novell was the White Knight.  And when White Knights offer 
+stock instead of cash, you don't quibble.
+ 
+CONCERNS
+========
+ 
+The technical community that uses Unix on a day to day basis has 
+some valid concerns.  For example, much of the Unix community is 
+used to flexible networking under the openness of the TCP/IP 
+umbrella.  Although Novell does support TCP/IP in its UnixWare 
+offering, the mainstay for its networking (and the bulk of its 
+business) is provided by Netware's IPX/SPX protocols.  Moreover, 
+NFS, widely used in the world of Unix for resource sharing, can 
+be viewed as a competitor to Netware.
+ 
+The main concern, however, is an overriding apprehension that 
+what's good for Netware may not be good for Unix.  True, Novell 
+seems to be promising that life will go on much as usual.  But 
+there is no gainsaying the fact that Novell is a publicly-owned 
+company whose primary responsibilities are to its shareholders.  
+Novell has no compelling reason (nor should it have) to keep on 
+paying for the fuel that burns in the Unix flame.  In the long 
+run, Novell must make a profit with USL and, if past performance 
+is any indication, they will make a profit, no matter what it 
+takes.
+ 
+As Larry Lytle, the main spokesman for USL puts it: "USL 
+understands that it is naive to believe that in any merger 
+nothing changes.  The question is what will change and what will 
+remain unchanged? ...You can expect that Novell is going to run 
+this as a business and is going to want USL to be profitable.  
+They are going to have a great deal of influence on the future of 
+Unix because they are going to influence, for example, how we 
+spend our money on research and development."  
+ 
+STRANGE CONFLICTS OF INTEREST
+=============================
+ 
+All of which create some interesting conflicts of interest.  For 
+instance, what about all the companies that use Unix to build 
+products that compete against Novell?  They will now have to 
+license Unix from Novell in order to compete against them.  For 
+example, the Vines operating system from Banyan, a direct 
+competitor of Netware, is based on Unix.  Every time Banyan sells 
+an operating system, some of the money will go to Novell.
+ 
+There are many more companies that depend on their Unix licences 
+just to build their products.  It would be unrealistic to not 
+expect to pay higher royalties in the foreseeable future.  After 
+all, USL has trouble making money but USL under Novell will have 
+to make money.  Moreover, we should assume that future decisions 
+about Unix will have to take into account what is good for 
+Novell.
+ 
+Does this mean that System V-based companies should be concerned 
+about their future?  Absolutely.  Maybe not today, or even six 
+months from now, but somewhere down the road the interests of 
+Novell will not coincide with the Unix world at large.  It is 
+unrealistic to expect Novell to spend money to develop Unix for 
+the good of everybody at the expense of their own company.
+ 
+NEW OPPORTUNITIES
+================
+ 
+Much has been made of the threat that Microsoft and NT might pose
+to Unix.  The combination of Novell and Unix, the refrain goes, 
+has a much better chance of countering this threat than USL by 
+itself.  However, such observations ignore the fact that a small 
+but significant share of the marketplace is best served by Unix 
+no matter what Microsoft is up to.  The many Unix VAR's and 
+resellers should probably be more concerned with the loss of a 
+stable, independent source for Unix than with an imaginary NT 
+monster.
+ 
+What we see is a brand new opportunity for OSF who, after all, 
+offers the only large-scale alternative for a vendor-independent 
+Unix-like operating system.  It would be prudent for those Unix 
+vendors who have not already made the switch to take a strong 
+look at OSF.
+ 
+There is also an important opportunity for the Mark Williams 
+company, who sells their Unix-like operating system (Coherent) 
+for $99.  Coherent can run System V binaries and may provide a 
+viable, inexpensive basis for VAR's who sell vertical 
+applications.
+ 
+THE WINDS OF CHANGE
+===================
+ 
+Although we can't predict the future in detail, we can say that 
+the winds of change are blowing ever more strongly.  Novell is so 
+rich that the Unix acquisition is relatively small potatoes.  One 
+way or the other, they can afford to do whatever they want.
+ 
+The financial results for USL seems to indicate that supplying 
+System V to the world is not a good way to make money.  If so, 
+there is no reason to expect Novell to keep subsidizing Unix out 
+of altruism.
+ 
+The trouble is that we live in a part of the world in which many 
+people depend on Unix -- not to fight Microsoft and NT, but to 
+earn their living -- and there are too many unknowns.  As we see 
+it, the onus falls squarely on the shoulders of Ray Noorda.  As 
+Novell consummates the deal with AT&T, there should be guarantees 
+made as to the future of Unix.  These guarantees should be in 
+writing and should be made public.  Moreover, Noorda must finally 
+set up a line of succession and give us some indication of how 
+Novell (and Unix) will function when he bows out.
+ 
+It's not that Novell has any moral or financial obligation to be 
+the keeper of the Unix flame.  It's just that people have to make 
+plans.  Vague, contradictory statements of intent are not enough.  
+It certainly behooves companies dependent on System V to 
+reevaluate their future.
+ 
+----- end -----
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  
+Xanalogical archive access soon.  Atonal punk reggae scored for gamelan.
+________________________________________________________________________
+________________________________________________________________________
+
+
+
+
+
+
+           EFBIG  27  File too large
+                The size of a  file  exceeded  the  maximum  file  size
+                (1,082,201,088 bytes).
+
+

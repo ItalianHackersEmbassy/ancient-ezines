@@ -1,0 +1,286 @@
+
+6. WORLDWIDE ASSISTANCE DIRECTORY
+---------------------------------
+
+    6.1.  Worldwide Sales Office Locations
+    6.2.  Worldwide Help Desk Phone Numbers
+    6.3.  Terminal Identifiers
+    6.4.  Logon Options
+    6.5.  Password Change Procedures
+    6.6.  Network Messages
+    6.7.  Cause and Diagnostic Codes
+    6.8.  Glossary of Network Terms
+
+
+
+6.1. Online Sales Office Directory
+----------------------------------
+
+This section allows you to search for the nearest sales office.
+
+It allows you to type in either the two character State abbreviation
+or Province identifiers for example:
+
+AK = Alaska
+CA = California
+
+Or alternatively:
+
+Type in the full country or state name such as:
+
+United Kingdom, France
+or
+California, New York
+
+If a country doesn't have it's own sales office the nearest sales office
+or the supporting sales office for the country region is given.
+
+
+Enter STATE, STATE ABBR, COUNTRY or <CR> to EXIT:
+
+
+
+
+6.2. Welcome to the Online HELP-DESK Directory.
+-----------------------------------------------
+
+If you experience any problem in accessing the network, want to report a
+faulty dialup number or report any other problem dial the nearest helpdesk.
+
+The HELP-DESK will listen to your problem. If the problem cannot immediately
+be remedied then the person will open a TICKET on the worldwide TICKET
+system. The TICKET will be assigned and given to you will be a UNIQUE
+number that you can use world-wide to request status updates from the
+HELP-DESKs around the globe.
+
+For dialup problem's, please have ready:
+
+ - The telephone number giving the problem
+ - If possible a hardcopy of the node's welcome banner.
+
+For Node/Host problem's, please have ready:
+
+ - Your site ID
+ - Customer ID (CID)
+ - Host number that is giving the problem
+ - Node number you computer is connected to
+
+Enter COUNTRY NAME, GNS or <CR> to EXIT:
+
+
+
+6.3. TERMINAL IDENTIFIERS
+-------------------------
+
+  A terminal identifier indicates to the network the characteristics of your
+  terminal. Most terminals can use the "A" terminal identifier.  However, if
+  your terminal requires a carriage return delay, for example, then the "I"
+  or the "E" identifier should be used.
+
+  At  'please type your terminal identifier'  please enter:
+
+
+   A  for PC's and CRT terminals (SAVE parity)
+   C  for 300 baud Impact Printer Terminals
+   E  for Thermal Printer Terminals like the SILENT 700 series
+   F  for BETA transaction terminals
+   G  for the GE Terminet at 1200 baud
+   I  for 300 baud Thermal Printer Terminals
+   K  for EVEN/ODD parity terminals  (future implementation)
+   O  for MARK/SPACE parity terminals (BBS access)
+   Y  for 300 baud Transaction terminals
+
+
+
+6.4. Logon Options
+-----------------
+
+  At the 'please log in:' prompt the user can specify control characters
+  to set the network to the needs of the user.
+  For example when you are connected to a database and the data is
+  coming in to fast you can backpressure the data by typing control S. The
+  network however will only react on this command if you specified ^R at
+  the logon step.
+
+   ^E    - control E - Enter Full Duplex mode (future implementation)
+   ^H    - control H - Enter Half Duplex mode - disable echo!!
+   ^I    - control I - Build optimal circuit for Interactive traffic
+   ^P    - control P - Force EVEN Parity
+   ^R    - control R - Enable host backpressure X-on X-off
+   ^U    - control U - Force terminal data to uppercase
+   ^V    - control V - Build optimal circuit for Volume traffic
+   ^W    - control W - Erase login up to last terminator
+   ^X    - control X - Enable terminal backpressure X-on X-off
+   ^Z    - control Z - Disconnect/Logoff
+   ESC   - escape    - Discard login and get NEW please log in prompt
+   BREAK - break     - Switch to CCITT X.3 X.28 X.29 PAD (selected nodes)
+
+
+
+6.5. PASSWORD CHANGE PROCEDURES
+-------------------------------
+
+  Passwords to usernames can be easily changed if this option has been
+  enabled by your account manager. Follow the 11 steps listed below.
+
+  1.  Dial your local network access number.
+  2.  Send the terminal identifier you normally use (for example 'A')
+  3.  At the please log in: prompt type in 'PASSWORD' <carriage return>
+  4.  A circuit will be established to the validation system, and you
+      are prompted to enter the username for which you want to change
+      the password.
+  5.  If the name is correct, you are prompted for the old password.
+  6.  Enter the old password.
+  7.  If old password is correct, you are prompted for the new password.
+  8.  Passwords must have a minimum length of 8 characters and must contain
+      one or more non-alpha numeric character.
+  9.  The new password is then checked for the valid format.
+ 10.  If the password format is valid, enter the new password once more.
+      The system will immediately modify your password on the network.
+ 11.  The system disconnects, and you are back at 'please log in'
+
+
+
+
+6.6. NETWORK MESSAGES
+---------------------
+
+  please log in:              - Type your logon string
+  username:                   - Type your logon string
+  password:                   - Enter the password for the username.
+  error, type username:       - An INVALID username was entered.
+  error, type password:       - An INVALID password was entered.
+  access not permitted        - You are NOT allowed to access the requested
+                                host from this network access point.
+  please see your             - You have been unsuccessful to logon to the
+  representative.               network, so the network disconnects you!!
+                                Verify your username and password!
+  try again in 2 minutes      - A network supervisor change is taking place.
+  no path available           - Try again in a few minutes
+  host down                   - The host is NOT reporting to the network.
+  host shut                   - The host is reporting, but access is disabled,
+                                or all ports are in use.
+  host is online              - You are connected to the host.
+  host not available          - Host is isolated from the network, try later.
+  host out of ports           - All ports are in use at this time, try later.
+  host not responding         - The host is answered, but does not respond,
+                                this problem needs to be solved, try later.
+
+
+
+6.7. Online CAUSE and DIAGNOSTIC Messages Database
+--------------------------------------------------
+
+
+Cause and diagnostic messages are sent whenever a session is terminated.
+The two codes issued at the termination indicate the reason the session
+was terminated. Cause 0, Diagnostic 0 is presented normally as :
+
+
+     Host: Call cleared (c 0,d 0)
+
+
+Means the call was cleared in a normal way, by the host.
+
+
+This database contains all other clearing codes that normally
+indicate an error condition generated or experienced by the network
+or the host.
+
+
+
+Enter CAUSE code or <CR> to exit: 00 00
+Enter DIAGNOSTIC code:
+
+
+
+CAUSE
+=====
+Decimal code:      0
+Hexadecimal code:  0
+Description:       DTE CLEARING
+
+
+
+DIAGNOSTIC
+==========
+Decimal code:      0
+Hexadecimal code:  0
+Issued by:         CCITT
+Protocol:          X.25
+Year defined:      1980
+Description:       NO ADDITIONAL INFO
+
+
+
+
+6.8. MCI TELECOMMUNICATIONS GLOSSARY
+------------------------------------
+
+TRADEMARKS AND SERVICE MARKS
+
+TYMNET, OnTyme, Dialcom, and TYMCOM are registered service marks of
+MCI Telecommunications. ISIS, X.PC, XMAIL, and TYMNET Engine
+are registered trademarks of MCI Telecommunications.
+Async-to-3270 XE, TymDial, TYMNET78, TymValidate, TYMVISA, TYMUSA,
+Pico-Engine, Micro-Engine, Mini-Engine, Turbo Engine, and Cyclopean
+are trademarks of MCI Telecommunications.
+PCMAIL is a service mark of MCI Telecommunications plc.
+
+UNIX is a registered trademark of AT&T Bell Laboratories. IBM and
+IBM AT are registered trademarks of International Business Machines
+Corporation. MS-DOS is a registered trademark of Microsoft Corporation.
+DEC and PDP are registered trademarks of Digital Equipment Corporation.
+AppleTalk and LocalTalk are registered trademarks of Apple Computer,
+Inc. NetWare and Novell are registered trademarks of Novell, Inc.
+
+All other trademarks are the property of their respective companies.
+
+While this documentation is substantially correct at the date of its
+release, MCI Telecommunications is periodically revising its software
+and hardware, and, consequently, this on-line documentation will be
+updated intermittently. For further information regarding the current
+documentation, consult your local sales representative.
+
+MCI Telecommunications proprietary rights are included in the information
+disclosed herein. The recipient, by receiving this document, agrees that
+neither this document nor the information disclosed herein nor any part
+thereof shall be reproduced or transferred to other documents or used or
+disclosed to others for manufacturing or for any other purpose except as
+specifically authorized in writing by MCI Telecommunications.
+
+1994 MCI Telecommunications All rights reserved.
+
+MCI Telecommunications
+P.O. Box 49075
+2560 North First Street
+San Jose, CA 95161-9075
+U.S.A.
+
+Type QUIT to exit, NEXT for next record, BACK for previous record
+
+Enter glossary term:
+
+
+Thank you for using BT NORTH AMERICA's ON-LINE GLOSSARY. To place an
+order for a hardcopy write or call:
+
+     MCI Telecommunications
+     P.O. Box 49075 MS C27
+     2560 North First Street
+     San Jose, CA 95161-9075
+     U.S.A.
+
+     Toll free (800)538-9350 ext. 8196
+     Telephone (408)922-8196
+     Fax       (408)922-7130
+
+For a listing of other technical documentation choose
+
+     7. Technical and User Documentation
+        from the main menu.
+
+  컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴�
+  컴컴컴컴컴컴컴�> Remember Where You Saw This Phile First <컴컴컴컴컴컴컴�
+  컴컴컴컴컴> ARRESTED DEVELOPMENT +31.77.547477 The Netherlands <컴컴컴컴�
+  컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴�

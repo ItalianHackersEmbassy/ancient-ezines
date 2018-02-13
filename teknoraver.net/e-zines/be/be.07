@@ -1,0 +1,2376 @@
+ ____                  _          ______ _      _        _  
+|  _ \                | |        |  ____| |    | |      (_) 
+| |_) | __ _ _ __ __ _| |_ __ _  | |__  | | ___| |_ _ __ _  ___ __ _  
+|  _ < / _` | '__/ _` | __/ _` | |  __| | |/ _ \ __| '__| |/ __/ _` | 
+| |_) | (_| | | | (_| | || (_| | | |____| |  __/ |_| |  | | (_| (_| | 
+|____/ \__,_|_|  \__,_|\__\__,_| |______|_|\___|\__|_|  |_|\___\__,_| 
+                                                            
+          
+                                                            
+          
+                        BARATA ELETRICA, numero 7
+                        Sao Paulo, 26 de outubro, 1995 
+                        
+--------------------------------------------------------------------------- 
+     
+                        CREDITOS I:
+                        -----------
+
+Este jornal foi escrito por Derneval R. R. da Cunha 
+Com as devidas excecoes, toda a redacao e' minha. Esta' liberada a copia
+(obvio) em formato eletronico, mas se trechos forem usados em outras 
+publicacoes, por favor incluam de onde tiraram e quem escreveu. Aqueles
+interessados em receber futuras edicoes deste ou de outro jornal (nao sei
+se ira' continuar com esse titulo)
+
+Para  contatos (mas nao para receber o e-zine) escrevam para:
+  
+rodrigde@spider.usp.br (liberaram para divulgacao)
+informatica-jb da esquina-das-listas@dcc.unicamp.br ou:
+wu100@fim.uni-erlangen.de, derneval.cunha@launchpad.unc.edu  (BBS 
+internet accessivel via telnet://launchpad.unc.edu  login launch)
+
+
+CREDITOS II : 
+Sem  palavras  para  agradecer ao pessoal que se ofereceu  para  ajudar  na 
+distribuicao  do  E-zine, como os voluntarios adiante citados, e  outros,  do 
+ftp.ufba.br,  www.inf.ufsc.br e obvio ao pessoal da EFF (Electronic Frontier 
+Foundation)
+
+OBSERVACAO: Alguns mails colocados eu coloquei sem o username (praticamente 
+a  maioria)  por  levar  em  conta que  nem  todo  mundo  quer  passar  por 
+colaborador  do  BE. Aqueles que quiserem assumir a carta, mandem  um  mail 
+para mim e na proxima edicao eu coloco.
+
+
+     1- INDICE
+     2- INTRODUCAO
+     3- CURRICULO BASICO P. UM FUCADOR
+     4- PARA QUEM ENTENDE A PIADA
+     5- UM ESPIAO DENTRO DO WINDOWS 95
+     6- HACKEANDO LINUX (DA PRE-HISTORIA AO FUTURO EM DOIS ANOS)
+     7- PHREACKING - OS MANIACOS POR TELEFONE
+     8- COMO AGIR COM A POLICIA
+     9- DICAS-CARTAS-NOTICIAS
+     10- BIBLIOGRAFIA
+     11- COMO CONSEGUIR O BARATA ELETRICA
+
+                                INTRODUCAO:
+                                ===========
+
+BARATA  ELETRICA,  a  revista  do bom hacker - O Brasil  ja'  tem  tem  sua 
+primeira revista hacker. Como nao podia deixar de ser, eletronica. A Barata 
+Eletrica  esta'  disponivel,  gratuitamente,  na  Internet.  A  redacao  e' 
+composta  por  uma  unica pessoa, Derneval Rodrigues  da  Cunha,  31  anos, 
+estudante  de  Alemao na USP e um hacker no sentido original do  termo,  um 
+fucador  das possibilidades do computador. A Barata  traz,  principalmente, 
+tres assuntos. O primeiro e' uma especie de missao: esclarecer a  diferenca 
+entre os hackers, inofensivos e os crackers, destruidores. etc, etc
+(Revista  Super-Interessante,  reportagem de Heitor Shimizu  e  Ricardo  B. 
+Setti - Outubro de 1995)
+     Puxa, isso e' de dar lagrimas nos olhos. Finalmente alguem na imprensa 
+resolveu reconhecer o meu trabalho. E finalmente alguem consegue  descrever 
+o  que  faco sem nem me elogiar demais nem de menos. Eu nao  teria  escrito 
+melhor esse artigo. O resto da reportagem (nao fui o unico que  colaborou), 
+ficou  uma  coisa  meio por assim dizer estranha. Muito  melhor  do  que  a 
+maioria  das reportagens na Imprensa brasileira sobre o assunto,  mas  mais 
+puxando para o lado de "cracking". Apesar de nao ter muito a ver com o  que 
+prego  no  e-zine, tem que se admitir, e' um  lado  da  coisa.  Eles  tendo 
+mencionado meu nome e divulgarem o dito pode ajudar bem mais as pessoas  do 
+que  uma  reportagem  que nao o fizesse. Acho que foi  a  primeira  vez  na 
+imprensa que se falou em "etica hacker". Haverao varios efeitos colaterais, 
+um deles e' que a lista de hackers vai provavelmente aumentar e muita gente 
+ja'  esta'  querendo passar por um ritual de iniciacao que nao  existe.  To 
+pensando seriamente em esquecer a palavra hacker e substituir por  fucador. 
+Definitivamente.  Abrasileirar  a coisa. Mas agora isso nao e'  facil,  nem 
+depende  so' de mim. O proprio e-zine e' algo meio estranho. Acreditava que 
+ele iria motivar o aparecimento de publicacoes mais "picantes". Talvez seja 
+um  marco  zero,  num pais que esqueceu o que e' a repressao,  ou  que  nao 
+passou  pelo  tempo em que ler as revistinhas de "Carlos  Zefiro"  era  uma 
+forma  de se sentir rebelde. O que era para ser uma "palida sombra  do  que 
+foi a revista Phrack" adquiriu uma personalidade propria e to pensando ate' 
+se  nao foi o primeiro Zine brasileiro a ser distribuido na  Internet.  Vai 
+saber..
+Legal tambem foi descobrir que outros  zines ja' existem. 
+Zines  brasileiros,  quero  dizer.  Na Universidade  de  Santa  Maria,  URL 
+www.ufsc.br tem o Alternetive, que e' feito em html. Da' inveja o  trabalho 
+grafico.  Mandei carta elogiando isso, responderam elogiando o  meu  texto. 
+Resolvi colocar o BE em html, ate' o final de novembro, so' de inveja.  Nao 
+vai ficar tao bom, mas fico menos frustrado.
+     Um detalhe sobre o artigo e' que revelaram ao publico qual o curso que 
+estou fazendo. Letras-Alemao. E', a vida e' meio estranha. Mas se estivesse 
+fazendo Ciencia da Computacao ou qualquer materia do genero Exatas, aqui na 
+USP,  nao sei se teria o tempo p. me dedicar ao Zine. Verdade que  consegui 
+minha  senha  na  Internet ao me inscrever numa  monitoria de computacao do 
+Instituto  de Estatistica Aplicada, no IME. Competindo com gente do 4o  ano 
+de Estatistica. Tiveram que fazer uma permissao especial p. que eu  pudesse 
+frequentar  o CPD. Sempre gostei de computacao e ha' muito tempo adquiri  o 
+gosto pela escrita. O curso de Letras permite evitar o "Burn-out", que e' o 
+que  acontece com alguns dos caras que fazem o Bacharelato, se  empregam  e 
+depois  descobrem as "delicias" de tomar conta de um CPD. As vezes ganhando 
+mal, o que e' pior. Os tempos hoje em dia sao muito estranhos.  Informatica 
+e' algo viciante, mas equilibrar e' preciso. Cada pessoa tem o seu caminho.
+Um cara escreveu na lista hackers com um jeito de desdem que me deixou p(*) 
+e  ate'  comentei isso com o dito. Paciencia. Eric Corley  (vulgo  Emmanuel 
+Goldstein, editor da revista 2600 - Hacker Quaterly) fez Literatura Inglesa 
+e  Bill  Gates (nao exatamente meu idolo) fazia advogacia  em  Harvard  (ou 
+coisa do genero). Mitch Kapor (cerebro que fez o Lotus 1-2-3, esse sim  meu 
+idolo) deu aulas de meditacao transcendental durante anos. Cada pessoa  tem 
+o seu caminho..
+ 
+
+                  CURRICULO BASICO PARA FUCADOR
+                  =============================
+
+Em 1 numero anterior, falei sobre como reconhecer um hacker.  Deu 
+vontade de escrever mais sobre o assunto. Por isso, retomando:
+Muitas vezes, sou apresentado a um sujeito que "tem tudo para ser 
+um   hacker",   so'  precisa  de  um   empurraozinho.   Eu   fico 
+impressionado, aquela coisa toda. Estao me pedindo para servir de 
+mestre  para  alguem.  Fico  ate'  envaidecido.  Ai'  pintam   as 
+primeiras perguntas:
+
+-  Voce  sabe usar isso? E isso? Ate' hoje  nao  conseguiu  fazer 
+isso?
+
+Ai'  descubro que o cara nao sabe nem da existencia  do  software 
+mais basico, mais arroz e feijao que uso. Muitas vezes, sao  ate' 
+pessoas com bons conhecimentos de programacao, e ate' tem  leitor 
+de  CDROM  em casa. Para evitar esses inconvenientes,  pensei  um 
+pouco  e  apesar de que acho que o bom rato  de  laboratorio  ja' 
+deveria  estar  por dentro desses softwares,  resolvi  fazer  uma 
+pequena lista. Claro que esta lista nao vai valer lhufas daqui  a 
+alguns  anos, mas o tipo de conhecimento que os programas  abaixo 
+me trouxeram foi a fundacao para tudo que fui aprendendo  depois. 
+Quem esta' comecando agora, talvez nao use quase nada disso,  nem 
+tenha  uso  para esse material. Mas volta e meia quando  vou  dar 
+aulas  para alguem num XT ou pior, arrumo um bico num  escritorio 
+cujo equipamento e' sucata, eu me viro numa boa. "Sua experiencia 
+aumenta de acordo com a porcaria do equipamento que voce usa".
+
+Compactadores  - Normalmente, a pessoa se especializa em um  tipo 
+de compactador que usa muita, como o Pkzip, atualmente na  versao 
+PKZ204G.  E'  minha  escolha. Todo mundo  usa.  Vem  num  arquivo 
+chamado  PKZ204G.EXE,  que  voce joga no disco rigido  e  ele  se 
+descompacta  sozinho.  Outros compactadores muito  usados  sao  o 
+LHARC, que gera arquivos compactados de extensao .lha, o ARJ, que 
+gera arquivos .arj, o GZIP, que gera arquivos .gz, o COMPRESS  do 
+Unix  (existe  uma  versao p. DOS), que gera  arquivos  .Z,  e  o 
+mastodonte ARC, nem me lembro mais que tipo de arquivos ele gera.
+
+Disco  virtual  - E' uma estrategia de usar a RAM do  micro  como 
+um drive. Existem varios programas p. se fazer isto, e tem mil  e 
+uma  utilidades. Principalmente quando um drive nao funciona.  Na 
+verdade,  nao se precisa de um programa para fazer isso,  pode-se 
+fazer brincadeiras com o config.sys e criar drives de  360kbytes, 
+180 kbytes ou qualquer outro tamanho, de acordo com a memoria  do 
+micro.  No  tempo em que os micros so' tinham  dois  drives,  era 
+usado  para criar um drive C: contendo o COMMAND.COM, de forma  a 
+nao se precisar o tempo todo do disquete de sistema.
+
+PCTOOLS, Norton Utilities, etc - Antes de existirem coisas como o 
+gerenciador de arquivos do Windows, ele era usado para substituir 
+ferramentas  do  DOS, como DEBUG, VOL, RENAME, FORMAT,  etc.  Sem 
+palavras  para a utilidade. As vezes vejo alguem com  uma  versao 
+pirata  do PCTOOLS 1.0, e traduzido pro portugues,  mensagem  por 
+mensagem.
+
+LZEXE,   DIET,   etc  -  Arquivos   compactadores   de   arquivos 
+executaveis.  No  tempo dos drives de 360k, eram  muito  bons  p. 
+reduzir o tamanho de programas .EXE ou .COM, para salvar  espaco. 
+Um  PCTOOLS  v. 4.3 era reduzido de 260 kbytes para  130  kbytes, 
+coisa assim. Alguns programas nao funcionavam, mas outros sim.  O 
+MS-DOS,  apartir da versao 6.0 (acho, mexo com  UNIX  atualmente) 
+usa  um  programa  chamado PKLITE para  diminuir  o  tamanho  dos 
+executaveis.  Fazendo  a  "debugagem" do  dito  voce  encontra  a 
+etiqueta do programa.
+
+800.COM,  etc - Sao programas shareware que permitem  formatacoes 
+"diferentes" daquilo que o fabricante originalmente pensou para o 
+programa. Tipo:
+
+Formatar  um  disquete  360  kbytes com  420  ou  800  kbytes  de 
+capacidade e disquetes HD de 1.4 para 1.6. Coisas do genero.  Mas 
+o  disquete  nao  ira'  funcionar  se  o  programa  nao   estiver 
+funcionando, ou seja: precisou do disquete, acionou o programa p. 
+ler o dito. 
+
+WIPEFILE, etc - Programas, normalmente que vem junto de  pacotes, 
+como  o  Pctools,  PCSHELL, ou  NORTON  UTILITIES  (embora  hajam 
+sharewares cujo nome escapa agora), capazes de obliterar,  apagar 
+arquivo  com  caracteres quaisquer, so'  para  impedir  posterior 
+recuperacao.  Quem nao tem paranoia  tipo  "nao-quero-que-fulano-
+leia-meus-arquivos", pode confiar no comando DELETE do MS-DOS.
+
+WARMBOOT - Programas de "warmboot". Novamente, isto e' uma  coisa 
+que  fazia mais sentido no tempo do DOS 3.3. Permite voce  mandar 
+tudo  pro espaco mais rapido, o micro re-entra sem checar tudo  o 
+que  normalmente  faria.  Muito util  quando  voce  trabalha  com 
+sistemas  defeituosos ou programas em linguagem de  maquina,  que 
+exigem  boots  constantes. Havia uns programas desse  tipo,  para 
+permitir "boot" em rede Novell e rodar joguinhos "proibidos"  nas 
+salas de computacao de uma Universidade X. Muito uteis.
+
+GERENCIADOR  DE DISQUETE - Alguns, como dizia um artigo do  arco-
+da-velha que apareceu numa folha de Informatica do Estado de  Sao 
+Paulo, usam uma versao pirata do DBASE III PLUS para isso. Outros 
+usam  CLIPPER,  ou  uma  versao  shareware  de  bancos  de  dados 
+especificos  para se ter uma referencia do que se  copiou,  tanto 
+para  nao copiar de novo como para passar para os amigos. No  meu 
+caso,  ate' aprendi a mexer com um, mas desisti de  catalogar  os 
+shareware e documentos que copiei durante dois anos intensivos de 
+Internet. 
+
+ANTIVIRUS  - Isso ai' nem precisa dizer. De preferencia uns  dois 
+antivirus, como o SCAN e o F-PROT. Nao se pode confiar num  unico 
+programa. Durante duas semanas, confiei no antivirus que vem  com 
+o  DOS 6.2. Depois do primeiro falso alarme, never more. So'  tem 
+uma  coisa pior do que confiar em antivirus: confiar em  ausencia 
+de virus. Se bem que o fucador de micro nao esta' nem ai', porque 
+ja'  aprendeu (da pior maneira) a ter sempre o seu back-up  fres-
+quinho e ja' sabe como diminuir o prejuizo num lance desses.
+
+ARQUIVOS  BATCH  e  de Configuracao - Saber  usar  e  ter  varios 
+config.sys  e  autoexec.bats, de acordo com a finalidade,  e'  um 
+"must"  do  fucador de micros. O cara que nao sabe um  basico  de 
+configuracao  nao pode ser considerado nem fucador de micro,  nem 
+hacker,  nem  cracker, so' mesmo ser  chamado  de  U-S-U-A-R-I-O. 
+Hoje, eu ate' assumo: no que se refere a DOS, eu estou na  versao 
+5.0 e um pouco da 6.2. Mas me viro com um minimo de ajuda.
+
+STACKER, DR-DOS 6.0 e DOUBLESPACE - Dizia o ditado "Macho que  e' 
+macho  roda o stacker sem fazer back-up". Se voce nao entendeu  a 
+piada,  se  oriente, rapaz! Voce ainda nao conhece  muita  coisa. 
+Saber  como  funciona  um drive compactado por  Stacker  e'  algo 
+importante. Os principios sao semelhantes para o Doublespace e  o 
+DR-DOS 6.0. 
+
+LEI  DE MURPHY - Imprescindivel. Eu nao consigo  conversar  vinte 
+minutos  sobre  computacao sem pensar, mencionar ou  lembrar  das 
+leis de Murphy. Afinal de contas, "em computacao ou voce  computa 
+ou se emputece".
+
+LINGUAGEM  DE PROGRAMACAO - BASIC, PASCAL ou C. Assembly  se  for 
+muito "fera" ou muito masoquista, o que em computacao, e' quase a 
+mesma coisa. Tem uns doidos que aprendem ADA, PYTHON, FORTH e uns 
+inteligentes  que preferem aprender CLIPPER 5.01 (da' um  retorno 
+financeiro, as vezes). Quem aprendia BASIC na decada passada  ja' 
+se   considerava  um  genio.  PASCAL  tambem  tem  seus   grandes 
+admiradores,  por ser facil de aprender e de debugar. C  tem  uma 
+certa  mistica,  ja' que quase tudo que presta,  hoje,  e'  feito 
+nessa linguagem. Tem ate' uma musica:
+
+{Cantada como a musica dos Beatles: "Let it be"}
+When I find my code in tons of trouble,
+Friends and colleages come to me,
+Speaking words of wisdom:
+"Write in C."
+
+SISTEMA  OPERACIONAL - Quase  imprescindivel, mas mesmo que  voce 
+saiba tudo sobre cento e tantos programas, e' legal ter uma ideia 
+do que existe e de como e'  que  funciona.  Eu venho de um  tempo 
+em que o pessoal fazia programas do tipo "FINDER", se matava e...
+descobria depois existir equivalente n MSDOS  que  para  procurar 
+arquivos  ou textos dentro dos arquivos. Tudo bem que  seja  algo 
+arido  de estudar. Existem uns guias para se aprender  MSDOS  por 
+ai'  e  aconselho a aprender um basico sobre  ele,  por  exemplo. 
+Isso evita o trabalho de reinventar a roda. 
+
+PGP  -  Nao, nao e' essencial. Mas ajuda, quando  se  vai  mandar 
+correio  eletronico.  Muita  gente  na  Internet  coloca  na  sua 
+signature:  pgp-key-available-upon-request.  Isso  significa  que 
+voce  pode  enviar coisas top-secret pro cara sem que  ele  fique 
+comprometido  pelo conteudo da coisa. Na ausencia de PGP, ter  se 
+preocupado em aprender a criptografar e conhecer alguma coisa  de 
+codigos  ate' ajuda, mas nao e' a mesma coisa. 
+
+INGLES  FLUENTE - Pra leitura e escrita. Se souber  falar,  ajuda 
+muito. Embora nao me considere um grande fucador (so' fuco a rede 
+Internet),  esse  conhecimento sempre fez a  diferenca  pra  mim. 
+Podia  aprender  mais  rapido do que qualquer  colega  de  CPD  a 
+manejar um software novinho em folha. Na Argentina, fiquei lado a 
+lado  com outros grandes nomes do Computer Underground, gracas  a 
+isso.  Como  cheguei  a  esse  ponto?  Praticando  sempre,  lendo 
+material  importado ao inves de esperar sair traducao  e  fazendo 
+traducao  palavra  por  palavra  quando  nao  entendia  o  ingles 
+complicado  original.  Voce nunca perde seu tempo  quando  traduz 
+desse  jeito.  Com  o passar do tempo e com  pratica,  o  uso  do 
+dicionario  e' dispensavel, porque pode-se advinhar  as  palavras 
+pelo contexto. O que nao deixa de ser uma forma de fucar. 
+
+FAQs,  E-ZINES e BIG-DUMMY GUIDE - Se voce mexe com  a  internet, 
+conhecer  um pouco do famoso arquivo JARGON, referenciado  no  e-
+zine  BE.00,  e'  algo  essencial. Existe  traducao  a  venda  em 
+livraria, mas se voce quiser trocar informacao com algum cara  no 
+exterior, o melhor e' saber o que e' a.s.a.p, rtfm, emoticons,  e 
+o vocabulario do genero. Nao precisa decorar, porque normalmente, 
+e'  so'  uma palavra que designa alguma emocao, metodo,  etc  que 
+voce  ja' conhece ou de ouvir falar ou de ter  experimentado  por 
+conta  propria.  A  leitura  de alguns  e-zines,  como  o  Barata 
+Eletrica  e'  bastante  boa,  mas nao  te  substitui  o  tipo  de 
+conhecimento que outros ezines podem te dar, como o PHRACK,  LOD, 
+NIA,   etc.  Nao  e'  recomendavel  repetir  passo  a  passo   as 
+experiencias  contidas, mas saber nao ocupa lugar. O Netguide  ou 
+Big-Dummy-Guide  (mande  um mail p. netguide@eff.org  e  eles  te 
+enviam  a ultima edicao) e' bem mais importante, se se tem  algum 
+interesse na rede internet. E' basico para se saber como procurar 
+informacao.  Na falta do Netguide, existe uma traducao do  ZEN  e 
+ARTE DE USAR INTERNET.
+
+REVISTAS  DE COMPUTACAO - E' legal se manter atualizado,  sempre. 
+Nao vou recomendar nenhuma, mas qualquer fonte de informacao vale 
+a  pena,  desde que nao se perca de vista o que ta'  rolando.  Me 
+atualizo  de  varias formas: lendo EDUPAGE, C.U.D.,  cadernos  de 
+informatica  que me aparecem na mao, etc. Na Internet,  e'  muito 
+facil  se  manter informado, sem pagar nada.  Fora  da  Internet, 
+algumas revistas ajudam. Se voce esta' "ligado" ou "sintonizado", 
+o papo quente acaba chegando ate' voce e a revista impressa, fora 
+um  ou outro artigo interessante, e' desnecessaria.
+
+LIVROS - Literatura e' o que nao falta:  "1984",de George Orwell, 
+"A alma de uma nova maquina" Tracy Kidder(?), "Hacker  Crackdown" 
+do  Bruce Sterling, "Admiravel Mundo Novo" e "Volta ao  Admiravel 
+Mundo  Novo" do Aldous Huxley, e outros, da relacao que  coloquei 
+no  BE.00  sao bons pontos de partida. Nao sei se sou  um  grande 
+fucador,  mas  li varias vezes o material acima, por isso  vai  a 
+recomendacao.  Do  ponto de vista tecnico, ler uns  livros  sobre 
+Unix  e  Xenix  (uma versao do Unix p. micros)  sempre  ajuda.  O 
+Jargao dos Hackers, vulgo arquivo JARGON, mencionado no be.00, e' 
+algo que considero obrigatorio.
+
+BARATA ELETRICA - E' um zine que estou fazendo com uma finalidade 
+didatica.  Existem  muitos zines em ingles. A  maioria  ensinando 
+coisas obsoletas ou ousadas. Muitas delas, totalmente  obsoletas, 
+mas interessantes de se ler. No Barata Eletrica, tento colocar um 
+pouco  de  bom  senso e fazer uma especie de  sombra  de  grandes 
+zines, que me ajudaram a fazer a cabeca. Cada assunto que coloco, 
+tem uma bibliografia, que pode ser usada p. a pessoa se  informar 
+ainda mais sobre aquela questao. Portanto, e' algo recomendavel.
+
+TELEFONIA,  MODENS - Gente que fuca muito com internet sempre  se 
+ve  as  voltas  com  problemas  de  modem,  telefones,  etc.   Na 
+Inglaterra,  quando  conversei com o pessoal,  eles  estavam  por 
+dentro de coisas como chamadas internacionais via servicos, dial-
+ups,  diverters, etc .. por usar a internet diretamente do  lugar 
+onde  trabalho  e  vivo, era tao chato nao  saber  nada  sobre  o 
+assunto,  alem de um basico sobre fraude telefonica.  Ler  varios 
+textos  sobre  o assunto e' bom, principalmente  sobre  telefonia 
+celular. 
+
+UNIX  -  Muito do material contido nos e-zines e' voltado para  o 
+ambiente  Unix,  Linux,  Minix, ou  correlatos.  Pode-se  ser  um 
+fucador  de  DOS,  DR-DOS  ou PC-DOS.  A  maioria  dos  programas 
+listados  acima sao de e para ambiente MSDOS. Mas na Internet,  o 
+quente  e' saber um pouco de UNIX. Nao so' porque e'  um  sistema 
+operacional  de  confianca e que continua em uso a  seculos,  mas 
+tambem  porque  pode-se conseguir versoes gratuitas,  de  dominio 
+publico,  como  o Linux. A Intel pode ate' lancar um  novo  chip, 
+para o qual nao exista compatibilidade com o codigo do Pentium ou 
+Power-PC.  Primeira  escolha sera' usar o chip  pra  rodar  algum 
+sistema operacional clone do Unix.
+
+HUMILDADE e PERSEVERANCA - O primeiro e' algo muito util para  se 
+fazer engenharia social (coisa que nao tem nada a ver com o que a 
+Super-Interessante  mencionou  como  tal,  por  falar  nisso).  O 
+segundo e' vital. Simplesmente vital.
+
+DESENVOLVER  ALGUMA HABILIDADE SOCIAL -  Para poder saber  quando 
+perguntar  o  que  e  no momento apropriado,  em  suma,  usar  de 
+"Engenharia Social" (vulgo bom papo).
+
+INICIATIVA P. TENTAR APRENDER SOZINHO - A melhor coisa do mundo e'
+exatamente ser livre para aprender a coisa do jeito que quiser. A
+ideia de ter um professor e' algo deprimente. Talvez um "ilumina-
+dor" da trilha. Sei la'. Sou do tempo em que xerox do  manual  do
+usuario era lenda.. 
+
+PARANOIA  -  O suficiente para entender que  algumas  coisas  nao 
+devem ser ditas e
+
+CURIOSIDADE - Se voce nao tem mais curiosidade, voce sabe  alguma 
+coisa sobre fucar, mas no passado.
+
+ETICA  - Sem isso, nada impede que voce va' a m(*).  Outra,  como 
+confiar em alguem que nao tenha isso?
+
+SIMANCOL - Para nao coisas como perguntar: "Me ensina a ser hacker?"
+
+Voce  leu  tudo isso, aprendeu tudo isso acima. E' um?  Nao  sei. 
+O que voce vai fazer com um titulo de hacker? As pessoas que  sao 
+nao ligam p. isso. E' uma coisa meio pessoal. Ninguem aprende uma 
+lista  de  coisas so' para ser admitido numa turma  e  falar  que 
+manja disso e daquilo. A vida nao vem com um manual de instrucoes 
+e  o negocio nao e' aquilo que voce e' ou nao e', mas o que  voce 
+fuca e o  quanto sabe daquilo que esta' fucando. 
+
+
+                        PRA QUEM ENTENDE A PIADA..
+                        ==========================
+
+[[ This is from an old (1986) net.jokes posting.
+ 
+By the way, how many real Real Programmers are there around anymore?
+I asked my thirty-odd students (mostly CS seniors and Master's) in an 
+Operating Systems course I was teaching last summer, at a reputable 
+Ivy League instutution which shall remain anonymous, if they knew what
+a front panel was. All I got was blank stares. O tempora, O mores!]]
+
+Here's the real thing. Enjoy!
+
+
+
+                "Real Programmers Don't Use PASCAL"
+
+        Back in the good old days -- the "Golden Era" of computers, it was easy
+to separate the men from the boys (sometimes called "Real Men" and "Quiche
+Eaters" in the literature). During this period, the Real Men were the ones that
+understood computer programming, and the Quiche Eaters were the ones that
+didn't.  A real computer programmer said things like "DO 10 I=1,10" and "ABEND"
+(they actually talked in capital letters, you understand), and the rest of the
+world said things like "computers are too complicated for me" and "I can't
+relate to computers -- they're so impersonal". (A previous work [1] points out
+that Real Men don't "relate" to anything, and aren't afraid of being
+impersonal.)
+
+        But, as usual, times change. We are faced today with a world in which
+little old ladies can get computers in their microwave ovens, 12-year-old kids
+can blow Real Men out of the water playing Asteroids and Pac-Man, and anyone
+can buy and even understand their very own Personal Computer.  The Real
+Programmer is in danger of becoming extinct, of being replaced by high-school
+students with TRASH-80's.
+
+        There is a clear need to point out the differences between the typical
+high-school junior Pac-Man player and a Real Programmer. If this difference is
+made clear, it will give these kids something to aspire to -- a role model, a
+Father Figure. It will also help explain to the employers of Real Programmers
+why it would be a mistake to replace the Real Programmers on their staff with
+12-year-old Pac-Man players (at a considerable salary savings).
+
+
+                         LANGUAGES
+                         ---------
+
+        The easiest way to tell a Real Programmer from the crowd is by the
+programming language he (or she) uses. Real Programmers use FORTRAN.  Quiche
+Eaters use PASCAL. Nicklaus Wirth, the designer of PASCAL, gave a talk once at
+which he was asked "How do you pronounce your name?". He replied, "You can
+either call me by name, pronouncing it 'Veert', or call me by value, 'Worth'."
+One can tell immediately from this comment that Nicklaus Wirth is a Quiche
+Eater. The only parameter passing mechanism endorsed by Real Programmers is
+call-by-value-return, as implemented in the IBM\370 FORTRAN-G and H compilers.
+Real programmers don't need all these abstract concepts to get their jobs done
+-- they are perfectly happy with a keypunch, a FORTRAN IV compiler, and a beer.
+
+   *  Real Programmers do List Processing in FORTRAN.
+
+   *  Real Programmers do String Manipulation in FORTRAN.
+
+   *  Real Programmers do Accounting (if they do it at all) in FORTRAN.
+
+   *  Real Programmers do Artificial Intelligence programs in FORTRAN.
+
+If you can't do it in FORTRAN, do it in assembly language.  If you can't do it
+in assembly language, it isn't worth doing.
+
+
+
+
+
+                   STRUCTURED PROGRAMMING
+                   ----------------------
+
+        The academics in computer science have gotten into the "structured
+programming" rut over the past several years. They claim that programs are more
+easily understood if the programmer uses some special language constructs and
+techniques. They don't all agree on exactly which constructs, of course, and
+the examples they use to show their particular point of view invariably fit on
+a single page of some obscure journal or another -- clearly not enough of an
+example to convince anyone. When I got out of school, I thought I was the best
+programmer in the world. I could write an unbeatable tic-tac-toe program, use
+five different computer languages, and create 1000-line programs that WORKED.
+(Really!) Then I got out into the Real World. My first task in the Real World
+was to read and understand a 200,000-line FORTRAN program, then speed it up by
+a factor of two. Any Real Programmer will tell you that all the Structured
+Coding in the world won't help you solve a problem like that -- it takes actual
+talent. Some quick observations on Real Programmers and Structured Programming:
+
+   *  Real Programmers aren't afraid to use GOTO's.
+
+   *  Real Programmers can write five-page-long DO loops without
+      getting confused.
+
+   *  Real Programmers like Arithmetic IF statements -- they make the
+      code more interesting.
+
+   *  Real Programmers write self-modifying code, especially if they can
+      save 20 nanoseconds in the middle of a tight loop.
+
+   *  Real Programmers don't need comments -- the code is obvious.
+
+   *  Since FORTRAN doesn't have a structured IF, REPEAT ... UNTIL, or
+      CASE statement, Real Programmers don't have to worry about not
+      using them. Besides, they can be simulated when necessary using
+      assigned GOTO's.
+
+        Data Structures have also gotten a lot of press lately. Abstract Data
+Types, Structures, Pointers, Lists, and Strings have become popular in certain
+circles. Wirth (the above-mentioned Quiche Eater) actually wrote an entire book
+[2] contending that you could write a program based on data structures, instead
+of the other way around. As all Real Programmers know, the only useful data
+structure is the Array. Strings, lists, structures, sets -- these are all
+special cases of arrays and can be treated that way just as easily without
+messing up your programing language with all sorts of complications. The worst
+thing about fancy data types is that you have to declare them, and Real
+Programming Languages, as we all know, have implicit typing based on the first
+letter of the (six character) variable name.
+
+
+
+
+
+
+
+
+                     OPERATING SYSTEMS
+                     -----------------
+
+        What kind of operating system is used by a Real Programmer?  CP/M? God
+forbid -- CP/M, after all, is basically a toy operating system.  Even little
+old ladies and grade school students can understand and use CP/M.
+
+        Unix is a lot more complicated of course -- the typical Unix hacker
+never can remember what the PRINT command is called this week -- but when it
+gets right down to it, Unix is a glorified video game.  People don't do Serious
+Work on Unix systems: they send jokes around the world on UUCP-net and write
+adventure games and research papers.
+
+        No, your Real Programmer uses OS\370. A good programmer can find and
+understand the description of the IJK305I error he just got in his JCL manual.
+A great programmer can write JCL without referring to the manual at all.  A
+truly outstanding programmer can find bugs buried in a 6 megabyte core dump
+without using a hex calculator.  (I have actually seen this done.)
+
+        OS is a truly remarkable operating system. It's possible to destroy
+days of work with a single misplaced space, so alertness in the programming
+staff is encouraged. The best way to approach the system is through a keypunch.
+Some people claim there is a Time Sharing system that runs on OS\370, but after
+careful study I have come to the conclusion that they were mistaken.
+
+
+                     PROGRAMMING TOOLS
+                      ----------------
+
+        What kind of tools does a Real Programmer use? In theory, a Real
+Programmer could run his programs by keying them into the front panel of the
+computer.  Back in the days when computers had front panels, this was actually
+done occasionally.  Your typical Real Programmer knew the entire bootstrap
+loader by memory in hex, and toggled it in whenever it got destroyed by his
+program. (Back then, memory was memory -- it didn't go away when the power went
+off.  Today, memory either forgets things when you don't want it to, or
+remembers things long after they're better forgotten.) Legend has it that
+Seymore Cray, inventor of the Cray I supercomputer and most of Control Data's
+computers, actually toggled the first operating system for the CDC7600 in on
+the front panel from memory when it was first powered on.  Seymore, needless to
+say, is a Real Programmer.
+
+        One of my favorite Real Programmers was a systems programmer for Texas
+Instruments.  One day he got a long distance call from a user whose system had
+crashed in the middle of saving some important work. Jim was able to repair the
+damage over the phone, getting the user to toggle in disk I/O instructions at
+the front panel, repairing system tables in hex, reading register contents back
+over the phone.  The moral of this story: while a Real Programmer usually
+includes a keypunch and lineprinter in his toolkit, he can get along with just
+a front panel and a telephone in emergencies.
+
+
+
+
+
+
+
+        In some companies, text editing no longer consists of ten engineers
+standing in line to use an 029 keypunch. In fact, the building I work in
+doesn't contain a single keypunch. The Real Programmer in this situation has to
+do his work with a "text editor" program.  Most systems supply several text
+editors to select from, and the Real Programmer must be careful to pick one
+that reflects his personal style.  Many people believe that the best text
+editors in the world were written at Xerox Palo Alto Research Center for use on
+their Alto and Dorado computers [3].  Unfortunately, no Real Programmer would
+ever use a computer whose operating system is called SmallTalk, and would
+certainly not talk to the computer with a mouse.
+
+        Some of the concepts in these Xerox editors have been incorporated into
+editors running on more reasonably named operating systems -- EMACS and VI
+being two.  The problem with these editors is that Real Programmers consider
+"what you see is what you get" to be just as bad a concept in Text Editors as
+it is in women.  No the Real Programmer wants a "you asked for it, you got it"
+text editor -- complicated, cryptic, powerful, unforgiving, dangerous. TECO, to
+be precise.
+
+        It has been observed that a TECO command sequence more closely
+resembles transmission line noise than readable text [4].  One of the more
+entertaining games to play with TECO is to type your name in as a command line
+and try to guess what it does.  Just about any possible typing error while
+talking with TECO will probably destroy your program, or even worse --
+introduce subtle and mysterious bugs in a once working subroutine.
+
+        For this reason, Real Programmers are reluctant to actually edit a
+program that is close to working.  They find it much easier to just patch the
+binary object code directly, using a wonderful program called SUPERZAP (or its
+equivalent on non-IBM machines).  This works so well that many working programs
+on IBM systems bear no relation to the original FORTRAN code.  In many cases,
+the original source code is no longer available.  When it comes time to fix a
+program like this, no manager would even think of sending anything less than a
+Real Programmer to do the job -- no Quiche Eating structured programmer would
+even know where to start.  This is called "job security".
+
+        Some programming tools NOT used by Real Programmers:
+
+   *  FORTRAN preprocessors like MORTRAN and RATFOR. The Cuisinarts of
+      programming -- great for making Quiche. See comments above on
+      structured programming.
+
+   *  Source language debuggers. Real Programmers can read core dumps.
+
+   *  Compilers with array bounds checking. They stifle creativity, destroy
+      most of the interesting uses for EQUIVALENCE, and make it impossible
+      to modify the operating system code with negative subscripts. Worst of
+      all, bounds checking is inefficient.
+
+   *  Source code maintenance systems. A Real Programmer keeps his code
+      locked up in a card file, because it implies that its owner cannot
+      leave his important programs unguarded [5].
+
+
+
+
+
+
+
+                THE REAL PROGRAMMER AT WORK
+                ---------------------------
+
+        Where does the typical Real Programmer work? What kind of programs are
+worthy of the efforts of so talented an individual?  You can be sure that no
+Real Programmer would be caught dead writing accounts-receivable programs in
+COBOL, or sorting mailing lists for People magazine.  A Real Programmer wants
+tasks of earth-shaking importance (literally!).
+
+   *  Real  Programmers work for Los Alamos National Laboratory, writing
+      atomic bomb simulations to run on Cray I supercomputers.
+
+   *  Real Programmers work for the National Security Agency, decoding
+      Russian transmissions.
+
+   *  It was largely due to the efforts of thousands of Real Programmers
+      working for NASA that our boys got to the moon and back before
+      the Russkies.
+
+   *  Real Programmers are at work for Boeing  designing the operating
+      systems for cruise missiles.
+
+        Some of the most awesome Real Programmers of all work at the Jet
+Propulsion Laboratory in California. Many of them know the entire operating
+system of the Pioneer and Voyager spacecraft by heart.  With a combination of
+large ground-based FORTRAN programs and small spacecraft-based assembly
+language programs, they are able to do incredible feats of navigation and
+improvisation -- hitting ten-kilometer wide windows at Saturn after six years
+in space, repairing or bypassing damaged sensor platforms, radios, and
+batteries.  Allegedly, one Real Programmer managed to tuck a pattern-matching
+program into a few hundred bytes of unused memory in a Voyager spacecraft that
+searched for, located, and photographed a new moon of Jupiter.
+
+        The current plan for the Galileo spacecraft is to use a gravity assist
+trajectory past Mars on the way to Jupiter.  This trajectory passes within 80
++/-3 kilometers of the surface of Mars.  Nobody is going to trust a PASCAL
+program (or a PASCAL programmer) for navigation to these tolerances.
+
+        As you can tell, many of the world's Real Programmers work for the U.S.
+Government -- mainly the Defense Department.  This is as it should be.
+Recently, however, a black cloud has formed on the Real Programmer horizon.  It
+seems that some highly placed Quiche Eaters at the Defense Department decided
+that all Defense programs should be written in some grand unified language
+called "ADA" ((C), DoD).  For a while, it seemed that ADA was destined to
+become a language that went against all the precepts of Real Programming -- a
+language with structure, a language with data types, strong typing, and
+semicolons.  In short, a language designed to cripple the creativity of the
+typical Real Programmer.  Fortunately, the language adopted by DoD has enough
+interesting features to make it approachable -- it's incredibly complex,
+includes methods for messing with the operating system and rearranging memory,
+and Edsgar Dijkstra doesn't like it [6].  (Dijkstra, as I'm sure you know, was
+the author of "GoTos Considered Harmful" -- a landmark work in programming
+methodology, applauded by PASCAL programmers and Quiche Eaters alike.) Besides,
+the determined Real Programmer can write FORTRAN programs in any language.
+
+
+
+
+
+
+
+        The Real Programmer might compromise his principles and work on
+something slightly more trivial than the destruction of life as we know it,
+providing there's enough money in it. There are several Real Programmers
+building video games at Atari, for example. (But not playing them -- a Real
+Programmer knows how to beat the machine every time: no challenge in that.)
+Everyone working at LucasFilm is a Real Programmer.  (It would be crazy to turn
+down the money of fifty million Star Trek fans.)  The proportion of Real
+Programmers in Computer Graphics is somewhat lower than the norm, mostly
+because nobody has found a use for computer graphics yet.  On the other hand,
+all computer graphics is done in FORTRAN, so there are a fair number of people
+doing graphics in order to avoid having to write COBOL programs.
+
+                                                 Real Programmers...  p. 7
+
+
+                THE REAL PROGRAMMER AT PLAY
+                ---------------------------
+
+        Generally, the Real Programmer plays the same way he works -- with
+computers. He is constantly amazed that his employer actually pays him to do
+what he would be doing for fun anyway (although he is careful not to express
+this opinion out loud).  Occasionally, the Real Programmer does step out of the
+office for a breath of fresh air and a beer or two.  Some tips on recognizing
+Real Programmers away from the computer room:
+
+   *  At a party, the Real Programmers are the ones in the corner talking
+      about operating system security and how to get around it.
+
+   *  At a football game, the Real Programmer is the one comparing the plays
+      against his simulations printed on 11 by 14 fanfold paper.
+
+   *  At the beach, the Real Programmer is the one drawing flowcharts in
+      the sand.
+
+   *  At a funeral, the Real Programmer is the one saying "Poor George. And he
+      almost had the sort routine working before the coronary."
+
+   *  In a grocery store, the Real Programmer is the one who insists on running
+      the cans past the laser checkout scanner himself, because he never could
+      trust keypunch operators to get it right the first time.
+
+
+
+
+
+
+           THE REAL PROGRAMMER'S NATURAL HABITAT
+           -------------------------------------
+
+        What sort of environment does the Real Programmer function best in?
+This is an important question for the managers of Real Programmers. Considering
+the amount of money it costs to keep one on the staff, it's best to put him (or
+her) in an environment where he can get his work done.
+
+        The typical Real Programmer lives in front of a computer terminal.
+Surrounding this terminal are:
+
+   *  Listings of all programs the Real Programmer has ever worked on, piled in
+      roughly chronological order on every flat surface in the office.
+
+   *  Some half-dozen or so partly filled cups of cold coffee. Occasionally,
+      there will be cigarette butts floating in the coffee. In some cases,
+      the cups will contain Orange Crush.
+
+   *  Unless he is very good, there will be copies of the OS JCL manual and the
+      Principles of Operation open to some particularly interesting pages.
+
+   *  Taped to the wall is a line-printer Snoopy calendar for the year 1969.
+
+   *  Strewn about the floor are several wrappers for peanut butter filled
+      cheese bars -- the type that are made pre-stale at the bakery so they
+      can't get any worse while waiting in the vending machine.
+
+   *  Hiding in the top left-hand drawer of the desk is a stash of double-stuff
+      Oreos for special occasions.
+
+   *  Underneath the Oreos is a flowcharting template, left there by the
+      previous occupant of the office.  (Real Programmers write programs, not
+      documentation. Leave that to the maintenance people.)
+
+
+        The Real Programmer is capable of working 30, 40, even 50 hours at a
+stretch, under intense pressure. In fact, he prefers it that way.  Bad response
+time doesn't bother the Real Programmer -- it gives him a chance to catch a
+little sleep between compiles.  If there is not enough schedule pressure on the
+Real Programmer, he tends to make things more challenging by working on some
+small but interesting part of the problem for the first nine weeks, then
+finishing the rest in the last week, in two or three 50-hour marathons.  This
+not only impresses the hell out of his manager, who was despairing of ever
+getting the project done on time, but creates a convenient excuse for not doing
+the documentation.  In general:
+
+   *  No Real Programmer works 9 to 5 (unless it's the ones at night).
+
+   *  Real Programmers don't wear neckties.
+
+   *  Real Programmers don't wear high-heeled shoes.
+
+   *  Real Programmers arrive at work in time for lunch [9].
+
+   *  A Real Programmer might or might not know his wife's name. He does,
+      however, know the entire ASCII (or EBCDIC) code table.
+
+   *  Real Programmers don't know how to cook.  Grocery stores aren't open at
+      three in the morning.  Real Programmers survive on Twinkies and coffee.
+
+
+
+
+
+
+
+                         THE FUTURE
+                         ----------
+
+        What of the future?  It is a matter of some concern to Real Programmers
+that the latest generation of computer programmers are not being brought up
+with the same outlook on life as their elders.  Many of them have never seen a
+computer with a front panel.  Hardly anyone graduating from school these days
+can do hex arithmetic without a calculator.  College graduates these days are
+soft -- protected from the realities of programming by source level debuggers,
+text editors that count parentheses, and "user friendly" operating systems.
+Worst of all, some of these alleged "computer scientists" manage to get degrees
+without ever learning FORTRAN!  Are we destined to become an industry of Unix
+hackers and PASCAL programmers?
+
+        From my experience, I can only report that the future is bright for
+Real Programmers everywhere. Neither OS\370 nor FORTRAN show any signs of dying
+out, despite all the efforts of PASCAL programmers the world over.  Even more
+subtle tricks, like adding structured coding constructs to FORTRAN have failed.
+Oh sure, some computer vendors have come out with FORTRAN 77 compilers, but
+every one of them has a way of converting itself back into a FORTRAN 66
+compiler at the drop of an option card -- to compile DO loops like God meant
+them to be.
+
+        Even Unix might not be as bad on Real Programmers as it once was.  The
+latest release of Unix has the potential of an operating system worthy of any
+Real Programmer -- two different and subtly incompatible user interfaces, an
+arcane and complicated teletype driver, virtual memory.  If you ignore the fact
+that it's "structured", even 'C' programming can be appreciated by the Real
+Programmer: after all, there's no type checking, variable names are seven (ten?
+eight?) characters long, and the added bonus of the Pointer data type is thrown
+in -- like having the best parts of FORTRAN and assembly language in one place.
+(Not to mention some of the more creative uses for #define.)
+
+        No, the future isn't all that bad.  Why, in the past few years, the
+popular press has even commented on the bright new crop of computer nerds and
+hackers ([7] and [8]) leaving places like Stanford and M.I.T. for the Real
+World.  From all evidence, the spirit of Real Programming lives on in these
+young men and women.  As long as there are ill-defined goals, bizarre bugs,
+and unrealistic schedules, there will be Real Programmers willing to jump in
+and Solve The Problem, saving the documentation for later.  Long live FORTRAN!
+
+
+                       ACKNOWLEGEMENT
+                       --------------
+
+        I would like to thank Jan E., Dave S., Rich G., Rich E., for their help
+in characterizing the Real Programmer, Heather B. for the illustration, Kathy
+E. for putting up with it, and atd!avsdS:mark for the initial inspiration.
+
+
+
+
+
+
+
+                         REFERENCES
+                         ----------
+
+    [1]  Feirstein, B., "Real Men  don't  Eat  Quiche",  New
+         York, Pocket Books, 1982.
+
+    [2]  Wirth,  N.,  "Algorithms  +   Data   Structures   =
+         Programs", Prentice Hall, 1976.
+
+    [3]  Ilson, R., "Recent Research  in  Text  Processing",
+         IEEE  Trans.   Prof.  Commun., Vol.  PC-23, No.  4,
+         Dec.  4, 1980.
+
+    [4]  Finseth, C., "Theory and Practice of  Text  Editors
+         -- or -- a Cookbook for  an  EMACS",  B.S.  Thesis,
+         MIT/LCS/TM-165,    Massachusetts    Institute    of
+         Technology, May 1980.
+
+    [5]  Weinberg,   G.,   "The   Psychology   of   Computer
+         Programming",  New  York,  Van  Nostrand  Reinhold,
+         1971, p.  110.
+
+    [6]  Dijkstra, E., "On the GREEN language  submitted  to
+         the  DoD",  Sigplan  notices,  Vol. 3  No.  10, Oct
+         1978.
+
+    [7]  Rose, Frank, "Joy of Hacking", Science 82, Vol.   3
+         No.  9, Nov 82, pp.  58-66.
+
+    [8]  "The Hacker Papers", Psychology Today, August 1980.
+
+    [9]  sdcarl!lin, "Real Programmers", UUCP-net,  Thu  Oct
+         21 16:55:16 1982
+
+ 
+
+                      UM ESPIAO DENTRO DO WINDOWS 95
+                      ==============================
+
+
+(Baseado no artigo de Andrew Schulman, andrew@ora.com)
+
+
+Ha'  algum  tempo surgiu na rede o rumor de que o Windows  95  continha  um 
+programa  espiao, capaz de vasculhar todo o disco rigido do  usuario  deste 
+novo   sistema  operacional.  Essa  caracteristica,  chamada   de   "Online 
+Registration"   ou    "Registration  Wizard",  deu  muito  o   que   falar, 
+principalmente  pelo  fato  de que recolhe  informacoes  sobre  ferramentas 
+(software)  da Microsoft (e tambem de outras empresas concorrentes)  dentro 
+do  disco  rigido do sujeito. Poderia ser util em caso  de  pirataria,  por 
+exemplo.  O  sujeito  que  se logasse  no  Microsoft  Network  poderia  ser 
+"dedurado"  pelo  proprio  software que comprou. O  nome  do  procedimento: 
+"Product Inventory", feito pelo arquivo PRODINV.DLL.
+     Isso  gerou  alguma  bate-papo  na rede, ja'  que  para  muitos,  isso 
+significa dar tchauzinho para a privacidade. Embora a Microsoft fale que  o 
+usuario  deve  consentir  no envio desta  informacao,  contida  no  arquivo 
+REGINFO.TXT, que o programa e' uma versao eletronica do cartao de  registro 
+baseado em papel, a coisa nao funciona exatamente assim. Existe um  monitor 
+de arquivos chamado FILEMON, feito por Stan Mitchell, que escreveu o artigo
+"Monitoring Windows 95 File Activity in Ring 0," Windows/DOS Developer's 
+Journal,  July 1995, pp. 6-24. Este programa permite rastrear tudo o que  o 
+Windows  95 faz com seus arquivos, coisa mais que o suficiente para  chegar 
+ao  fundo  da  questao.  E.. ele revela que o RegWiz  (o  tal  programa  de 
+registro)  faz uma busca de tudo o que existe no disco rigido  do  usuario, 
+incluindo coisas que nao sao da Microsoft. O dito programa e' executado  no 
+botao/icone de "Online Registration" no WELCOME.EXE, que da' as boas vindas 
+e  prove  varias dicas e opcoes pro usuario. Clicou isso, e'  executado  um 
+programa no subdiretorio \windows\system, o regwiz.exe. E' dispensavel para 
+se  executar  o  windows 95. Este programa  chama  uma  biblioteca  chamada 
+prodinv.dll,  que  e' usado para checar upgrades de  programas  anteriores. 
+Tudo  bem.  So' que existe um banco de dados criptografado  dentro  da  tal 
+biblioteca,  indicando  que se voce tem um produto X de extensao  .exe  num 
+dado subdiretorio, o que te permitiria um upgrade de preco mais reduzido.
+     So'  que o programinha vai listar doze aplicacoes que o usuario tem  e 
+essa  informacao  fica  contida no arquivo  texto  REGINFO.TXT  (que  sera' 
+passado para a Microsoft junto com o resto da informacao).
+
+Interessa  para  a  Microsoft principalmente se voce possui  ou  nao  estes 
+softwares:
+   
+3-D Dinosaur Adventure                  Aldus Pagemaker for Windows
+Aldus Persuasion                        America On-line
+AmiPro for Windows                      Approach for Windows 
+Bookshelf 94 for Windows                Borland C++ for Windows
+Borland Dbase                           Borland Delphi
+Borland Paradox for DOS                 Borland Paradox for Windows
+CA - Visual Objects                     Charisma 
+Charisma for Windows                    Clipper
+Complete Baseball for Windows           Comptons Multimedia Encyclopedia 
+CompuServe                              Corel Draw for Windows
+Crayola Art Studio                      Creative Writer
+Creative Writer - Ghost Mysteries       DataEase 
+DataEase for Windows                    dBase for Windows
+Director's Lab DOS                      Encarta
+Fine Artist                             Flight Simulator 
+FoxPro for DOS                          FoxPro for Windows - Standard
+Freddi Fish                             Gupta SQL Windows
+Harvard Graphics                        Haunted House
+Internet In A Box                       Kid Pix DOS
+Kid Pix WIN                             Lion King Print Studio
+Lion King Story Book                    Lotus 123 for Windows
+Lotus Notes                             Lotus123 for DOS 
+Mathblaster Episode 1                   Mathblaster Episode 2
+Microsoft Access Developers Toolkit     Microsoft Access for Windows 
+Microsoft Access Upsizing Tool          Microsoft Encarta '95
+Microsoft Excel for Windows             Microsoft Money
+Microsoft Office for Windows            Microsoft Powerpoint for Windows 
+Microsoft Project for Windows           Microsoft Publisher
+Microsoft Visual Basic Professional     Microsoft Visual C++ 
+Microsoft Visual FoxPro for Windows     Microsoft Word for DOS
+Microsoft Word for Windows              Microsoft Works for Windows
+Mind Your Money                         Money
+MSB - Human Body                        MSB - Solar
+My First Encyclopedia                   NCSA Mosaic for Windows
+Oregon Trail                            Oregon Trail 2
+Personal Oracle 7                       PGA Tour 486 
+Playroom                                PowerBuilder Enterprise 4 for NT 
+PowerBuilder Enterprise 4 for Windows   PowerPlus
+Print Shop Deluxe for Windows           Prodigy
+Putt Putt                               Quattro Pro for DOS
+Quattro Pro for Windows                 Quick C for Windows
+Quicken for Windows                     Rabbit Ears - Leopard
+Reader Rabbit 1                         Reader Rabbit 2
+Relentless                              Scenes
+Spider Man Cartoon Maker                SuperBase
+Treehouse                               Turbo Pascal for Windows 
+Where in Space is Carmen San Diego      Where in the USA is Carmen
+Where in the World is Carmen San Diego  Wine Guide
+WordPerfect for DOS                     WordPerfect for DOS
+WordPerfect for Windows
+
+    
+Tem  coisa  ai'  que  nao tem nada a ver com a  Microsoft.  E  a  lista  de 
+aplicacoes  que  e' parte de um programa que reporta problemas e  que  fica 
+alojada no arquivo winbug.dat e' diferente. Pode-se apagar os arquivos  dos
+WELCOME.EXE  e o REGWIZ.EXE. O Windows 95 continua funcionando  direitinho. 
+De  acordo  com o Andrew, o lance do programa e' dar meios a  Microsoft  de 
+saber quais programas de seus concorrentes estao fazendo sucesso. Se se for 
+alterado  os diretorios default de instalacao (exemplo: mudar WINDOWS  para 
+INDOWS  ou  WP  por  WOPER)  ja'  atrapalha  a  realizacao  deste  tipo  de 
+inventorio. Igualmente, pode-se alterar os tamanhos dos arquivos de  varias 
+formas  e o programa nao reconhecera' sua existencia como  legitima.  Claro 
+que  o  arquivo  final esta' encriptado, para evitar que  o  usuario  possa 
+alterar  com um editor de texto, o arquivo a ser enviado para a  Microsoft, 
+presumindo  que ele consinta no assunto. Embora no arquivo,  disponivel  na 
+rede  internet, elucide esses aspectos, minha opiniao pessoal e' que o  uso 
+de tal software permite, a longo prazo, a obtencao de experiencia que  pode 
+ser usada para mais tarde fazer um software que realmente vasculhe o  disco 
+rigido  do usuario em busca de fotos pornos ou dados que interessem a  quem 
+quer  que  seja.  Esse software poderia ser um cavalo  de  troia  qualquer, 
+disfarcado  de  programa  comercial  e que faria  aquilo  que  a  Microsoft 
+inicialmente nao ousaria fazer, ou seja, espionar a vida de todo mundo  que 
+fosse  interessante ser espionado. Olha o grande irmao amanha, lendo  todos 
+os seus arquivos, enquanto voce espera o download daquele novo joguinho que 
+apareceu naquela BBS ou mesmo enquanto espera um fax ser completado.. 
+
+    
+    
+        HACKEANDO LINUX: DA PRE-HISTORIA AO FUTURO EM DOIS ANOS
+        =======================================================
+    
+                                                Izar Tarandach, outubro 95
+   
+    
+      Existe  amor `a primeira vista. E desta vez nao foi uma loirinha,  de 
+belos  olhos  azuis, que me colocou `a merce dos meus  hormonios,  mas  uma 
+bitbox 386, de marca desconhecida, que ate' entao tinha servido de  suporte 
+a  CPU  do meu x-terminal. Um HD de 80M scavengeado em algum  canto  e  uma 
+placa  Ethernet  WD8003,  que nem fabricada mais  nao  era,  completavam  o 
+desharmonico e feio conjunto. Mas sexy.
+    Naquele tempo a criacao de Linus Torvald (all hail Linus!) era  pequena 
+o suficiente para caber em 80M. XFree ainda nao existia, e a ultima palavra 
+era a implementacao de NFS. 
+    Eu  me  lembro que a maior aventura foi recompilar o kernel com  o  IRQ 
+certo  para a placa. Nao tinhamos o manual, nao tinhamos descricao dos  ip-
+switches, e pior, nao tinhamos um PC funcionando que pudesse nos servir  de 
+ponteiro.  Tinhamos a cara e a coragem, e uma tremenda vontade de  fazer  a 
+coisa funcionar.
+    Depois  de  muito  tentar e re-tentar, fomos  premiados  com  o  prompt  
+"linux  :"  e uma maquina pelada, vagarosa e meio esquizofrenica,  mas  que 
+provava que era possivel fazer de um PC mais do que um terminal - passar um 
+pouco  dos recursos para a maquina local, uma solucao barata para  a  maior 
+parte  dos  estudantes de Ciencias da Computacao. Comecamos  a  batalha  de 
+provar  aos  professores que trabalho podia ser  desenvolvido  em  maquinas 
+caseiras  e depois portado com facilidade (ja que Linux desde o inicio  era 
+POSIX)   para as maquinas Sun. Alguns concordaram, outros teorizavam que  o 
+sistema  nao era robusto o suficiente para rodar aplicacoes  tao  exigentes 
+como  PROLOG  ou sistemas graficos. Provamos o erro apos rodar  uma  semana 
+seguida  um  programa  crackeador de passwords -  trabalho  numerico  e  em 
+strings intensivo.
+    O  passo  seguinte,  ja em versoes mais refinadas de  Linux  (usando  a 
+distribuicao  Slackware, em sua primeira versao), foi rodar um 486  como  X 
+Terminal.  x-engine  nos  dava  240 rpm, um terco do que  nos  daria  um  X 
+Terminal NCD dos mais baratos - porem no terminal era impossivel, depois de 
+um  reboot,  rodar  programas  da  (aaaaargh!!!!)  Microsoft.  Linux  tinha 
+conquistado  seu  lugar  como mais do que uma "curiosidade",  para  ser  um 
+candidato  `a substituicao dos +-100 micros 8086 rodando Turbo  Pascal  que 
+serviam  aos estudantes do primeiro ano. Porem o barateamento  de  maquinas 
+Sun  mais  poderosas tornaram a balanca, e o investimento foi feito  nos  X 
+Terminais.
+    Quando  passamos ao Pentium comecaram os problemas reais: a placa  SCSI 
+era  temperamental,  o  particionamento do disco de mais  de  1G  era  nao-
+convencional...uma  dor de cabeca. Apos muitas noites de hack & tunning  no 
+kernel, chegamos a uma versao "estavel"...para descobrir, na Internet,  que 
+os  problemas tinham sido paralelamente abordados por gente melhor  do  que 
+nos  e  que  ... bom, a nossa solucao tinha funcionado, a  deles  nao.  Que 
+orgulho!
+Durou exatamente o tempo necessario para o disco comecar a criar problemas
+(aproximadamente 3 dias). Fuca. Empurra. Saco, quem precisa de um Pentium
+rodando Linux ? Logo logo Win95 ta' ai'...NOT!
+    Hoje  o  Pentium roda Linux, estavel e eficiente, e e' usado  como  uma 
+testbed   para   ports  de  sistemas  locais,  e   como   plataforma   para 
+desenvolvimento de aplicacoes em hebraico.
+    Faltava um desafio...Linux em um notebook! E o candidato, de onde  hoje 
+escrevo essas linhas, foi um micro Patriot, comprado no Brasil, um 486 dx4-
+100  com 500M de disco e 8M de memoria. Comprado com Linux na  cabeca.  Mas 
+pra  fazer o modem PCMCIA funcionar, a interface para o APM e XFree no  LCD 
+frustracao, que hoje se pagam em horas e horas na Internet.
+    Em suma, se alguem quiser dar um presente a algum hacker iniciante,  se 
+alguem  quiser investir no futuro, aprender UNIX ou simplesmente ter  horas 
+de  desafios e prazer, consiga uma distribuicao de Linux. Nao, nao  um  CD. 
+Uns 60 floppies, que e' pra sentir a coisa como deve ser sentida ou ...
+melhor,  so  um  disco de root e um de boot, faca o resto via  NFS.  E  SEM 
+manual,  importantissimo.  Nao,  brincadeira. So o fato  de  colocar  Linux 
+rodando  ja e' um aprendizado em si. Seja corajoso, leve uma Linux-box  pra 
+casa. Voce nao vai se arrepender.
+    Linux existe. Quem precisa de Bill Gates ?
+ 
+izar@cs.huji.ac.il ++ HUJI CS Dept. ++++++++++++++++++++++ Jerusalem, Israel +
+
+
+                   PHREACKING - OS MANIACOS POR TELEFONE
+                   =====================================
+
+Nas ultimas edicoes do Barata Eletrica, ocasionalmente apareceram  arquivos 
+ou  comentarios  sobre  phreaking,  ou  a  arte  de  fucar  com  o  sistema 
+telefonico.  Ficou  faltando um artigo que desse maiores detalhes  sobre  o 
+assunto. Ai' vai.
+     A  telefonia,  como todo mundo sabe, comecou com  o  Alexander  Graham 
+Bell, inventor do primeiro telefone. Existe uma longa historia, que nao vou 
+comentar  aqui.  Surgiro a leitura do livro "Hacker  Crackdown",  do  Bruce 
+Sterling,   disponivel  na  rede  internet  em  varios  lugares,   como   o 
+ftp.eff.org,  no  subdiretorio  pub/Publications/Bruce.Sterling.  Um  livro 
+antologico e o primeiro capitulo enfoca exatamente os primeiros  phreakers. 
+Foram  os  rapazes,  os primeiros a serem  contratados  como  telefonistas. 
+Depois  se verificou que mulher fazia menos algazarra, era mais discreta  e 
+menos  tentada  a fazer brincadeiras com telefones. Por isso e'  que  ainda 
+hoje existe a figura da telefonista, ate' hoje, apesar de que na Europa, e' 
+bastante comum ter homem do outro lado fazendo as ligacoes  internacionais. 
+Aqui  no  Brasil, gracas a Deus, isso nao acontece. 
+     Passar  trote, ligar para desconhecidos, ficar ligando para os  varios 
+servicos  de bate-papos na linha, fazer ligacoes sem pagar, tudo  isso  faz 
+parte  do universo do phreaker. Claro que o que mais fode com o Sistema  e' 
+exatamente  aquilo que todo mundo gostaria de fazer: usar o  telefone  para 
+chamadas  longa-distancia,  sem pagar. O resto tudo e' acessorio.  Isso  e' 
+possivel  aqui  no Brasil, descobri recentemente. A  possibilidade,  nao  o 
+caminho. No exterior, quando tive um periodo de trabalhar lavando pratos no 
+velho  continente,  se  fazia  muito esse tipo  de  coisa.  Varios  truques 
+diferentes,  inclusive o de usar telefones que tinham cadeado para  impedir 
+que o sujeito discasse o numero. Esse e' o mais simples de passar por cima: 
+voce faz uma "punhetagem" com o gancho do telefone. Na Franca, ouvi  dizer, 
+isso era possivel de ser feito em telefone publico.
+     Eu ate' tentei. Descobri depois que os franceses mantem um servico  de 
+escuta numa Kombi, so' para escutar um ruido de discar diferente como o som 
+de  uma  pessoa tentando usar esse truque. Para nao atrapalhar  a  conversa 
+dessa  pessoa,  o  motor do veiculo de escuta  e'  bastante  silencioso.  O 
+sujeito comeca a conversar totalmente tranquilo. No caso especifico, quando 
+vi ja' haviam oito policiais em torno da cabine, comecando a me revistar  e 
+detalhe  interessante,  eu  estava com a mochila de um  colega brasileiro e
+o passaporte dele.  Fiz a coisa mais inteligente  que  poderia  ter  feito: 
+comecei  a  falar em portugues. Meu amigo, que estava meio longe,  sacou  o 
+lance e conseguiu convencer os caras, num frances meio macarronico, que  eu 
+estava  tentando  ligar  para minha familia no Brasil.  Escapei  de  prisao 
+seguida por deportacao sumaria.
+     Mesmo assim fiquei sabendo depois que se podia tentar outros  truques, 
+e  que  varios  telefones apresentavam "defeitos"  no  sistema  de  moedas, 
+permitindo  ligacoes  gratuitas. Nunca me especificaram se  o  defeito  era 
+decorrente  do  bom uso ou do mau uso, mas podia-se ligar  pro  exterior  e 
+falar  ate' receber um cutucao e descobrir que ja' tinha uma fila  de  umas 
+quinze pessoas aguardando a vez. Podia-se combinar e receber uma ligacao em 
+tal hora, tal lugar, assim assado como se fosse o morador daquele lugar.  E 
+tambem  havia o truque infame de usar um cordaozinho na moeda, coisa  muito 
+tentada  aqui no Brasil e que ja' mandou muito orelhao para o  conserto.  O 
+uso  de aparelho existia na epoca, mas so' se sabia disso quando  havia  um 
+artigo  mencionando  a  prisao  de algum  estudante  (normalmente  com  uma 
+multinha  de 5000 libras ou coisa do genero). No filme "Tangos - Exilio  de 
+Gardel" da' pra se ter uma ideia do drama que e', fazer esse tipo de coisa.
+     O  uso fraudulento do telefone, nos EUA foi bem detalhado  num  artigo 
+anterior  do  BE e' perda de tempo mencionar a coisa toda  aqui,  de  novo. 
+Atualmente,  existe no Brasil um movimento de troca de telefones  de  ficha 
+por  outro, de cartao magnetico, por um motivo simples: havia  muita  gente 
+quebrando  telefone para vender as fichas. Outro caso importante e' que  os 
+telefones  azuis, especiais para ligacoes interurbanas, eram vulneraveis  a 
+chamadas  interurbanas gratis. Como? Nao sei. Mas e' fato que a  telefonica 
+trocou todos. Nao fez isso com todos os comuns, mas trocou todos os  azuis, 
+pelo menos em Sao Paulo. Existe a possibilidade de se fazer "boxes" com  os 
+cartoes atuais. Na Argentina, eu fiquei sabendo da possibilidade de se usar 
+um laptop para emulacao de cartoes telefonicos. Mais ou menos como o menino 
+do filme "Exterminador do Futuro 2" fazia suas traquinagens, bem no  comeco 
+da fita. Isso porque o sistema telefonico argentino foi melhorado um pouco,  
+gracas  a privatizacao, mas a mescla do velho e do novo facilitou a  possi-
+bilidade  de  fraude.  Pode  ser  lenda,  esse  lance  apareceu  depois  da 
+conferencia de hackers em B.Aires.
+     E' tao dificil se fazer ligacoes interurbanas em determinadas horas do 
+dia,  e  pede  tanta paciencia, que nao faz muita diferenca  pagar  ou  nao 
+pagar.  Ja'  vi  gente  com uma pilha de fichas  DDD  na  mao  desesperada, 
+discando sem parar para gente que estava esperando do outro lado da linha e 
+nao  obtendo nada a nao ser o sinal de ocupado. Quem ja' tentou  mandar  um 
+fax  para  qualquer lugar as quatro da tarde sabe do que estou  falando.  O 
+sistema  de telefone celular e' outro, que nao merece a  minima  confianca. 
+Uma,  porque se pode adaptar um velha TV UHF para ouvir a  conversa.  Outra 
+porque  as  linhas estao muito congestionadas e muitas  vezes  ja'  escutei 
+depoimentos  de  gente falando que teve que enfrentar  um  congestionamento 
+para  ir  falar  com  fulano, porque o  celular  nao  conseguia  linha.  Na 
+Argentina, ninguem faz negocios pelo telefone. E' frente a frente e e'  por 
+isso que existem uns restaurantes fantasticos no centro da cidade. Ou  pelo 
+menos, assim conta a lenda..
+     O  que posso relatar de minha experiencia no ramo e'  sempre  consegui 
+tive facilidade de fazer ligacoes interurbanas. Existem varios truques para 
+isso,  mesmo  com  as linhas congestionadas, e que  dispensam  a  repeticao 
+mecanica  de discagem quando o sinal de ocupado teima em aparecer. Mas  sao 
+coisas  sutis,  e  e'  dificil  de ensinar mesmo  quando  a  pessoa  tem  a 
+oportunidade  (hoje,  bastante rara) de me ver fazendo.  Alguns  deles  ja' 
+perderam  a  utilidade,  uma  vez  que  a  ligacao  nao  se  faz  mais  por 
+telefonista.  Descobri  que  alguns telefones  contem  tambem  defeitos  de 
+fabricacao  e contabilizam chamadas interurbanas como chamadas locais.  Sao 
+dificeis  de achar, e sao em numero cada vez menor, mas existem.  Telefones 
+de cartao, bem entendido. A unica forma de aprender essas coisas e' a mesma 
+que vale pra computadores: fucando se chega la'.
+     Existem   arquivos  na  rede  detalhando  como  se  faz   traquinagens 
+telefonicos,  ate' verdadeiros sitios ftp e html contendo informacao  sobre 
+boxes, com todos os esquemas. So' que nao sei ate' que ponto isso e' atual. 
+Os  laboratorios da extinta Ma Bell foram responsaveis por  varios  premios 
+Nobel  e nao acredito que informacao desse genero ainda  continue  valendo. 
+Aqui  no Brasil ainda menos, me disseram que era um um  sistema  telefonico 
+muito  ruim  para ser "fucado". Tem um manual de phreaking  no  ftp.eff.org 
+(assim  como  outras coisas)  no  subdiretorio  pub/Publications/CuD/Papers 
+(papers?  Misc ou misc? faz tanto tempo que nao checo, ate' o  subdiretorio 
+pode  ter sido alterado), um arquivo grande chamado phreakman.zip ou  coisa 
+do genero. Aviso aos navegantes: e' informacao obsoleta, embora um ou outra 
+tatica  ilustrada  la' ainda possa ser util. Provavelmente quem  fez  curso 
+tecnico  de  telefonia sabe mais a esse respeito. Em Sao Paulo  pelo  menos 
+tinha ou tem ainda, um curso de segundo grau profissionalizante com  enfase 
+em telefonia.
+     Nos  EUA,  existem varios truques. Como o sistema  funciona  em  tons, 
+existe  a possibilidade de se conseguir na rede (Deus sabe  onde)  arquivos 
+com  esse  tipo de som gravado. Em outras palavras, voce  pega  um  arquivo 
+chamado  toneloc.???  e roda num programa sonoro num PC  com  SoundBlaster, 
+grava o resultado em fita cassete ou um outro "gadget" que inventaram la' e 
+pronto:  nao precisa mais gastar moedas para ligacoes locais. Mas ...  pode 
+ter certeza de duas coisas, a de que voce esta' cometendo uma  contravencao 
+pela  qual pode ser punido e a de tem gente na linha tentando descobrir  os 
+caras  que fazem isso. Ah, sim. Existe tambem o roubo de senhas de  cartoes 
+especiais,  com  os  quais se pode pagar  ligacoes  interurbanas.  A  coisa 
+funciona  de  forma semelhante ao roubo de qualquer outro  tipo  de  senha, 
+exceto de que num aeroporto de cidade grande, com certeza tem tipos olhando 
+o que voce esta' digitando, para fazer igualzinho.
+     No Japao, um dekace^  amigo meu foi preso por que dividia  apartamento 
+com  um cara que usava cartoes telefonicos adulterados para chamar a  terra 
+natal.  Parece  que esse tipo de fraude e' facil de fazer, mas la',  se  e' 
+descoberto,  mesmo que nao de em nada, pega mal. Tem patrao que  despede  o 
+empregado na mesma hora.
+     Usar o telefone para trote puro e simples, deixou de ser  brincadeira. 
+Ja' se e' possivel comprar aparelhinhos importados que guardam o numero  de 
+quem  ligou.  Claro que se pode fazer coisas como brincar com o  numero  de 
+telefone  dos outros ou invadir servicos de voice-mail. Tudo isso porem  um 
+dia  perde a graca. E pode acabar prejudicando seriamente a vida de  outras 
+pessoas.  Daqui  a algum tempo com certeza as pessoas vao se dar  conta  da 
+facilidade que e', fucar com telefone celular. Nao e' divulgado, mas ele e' 
+bastante vulneravel a escuta eletronica. Quem quiser saber mais sobre  isso 
+pesquise  a  revista  Wired  (disponivel na  rede  internet  por  email  no 
+info@wired.com  ou no www.hotwired.com). Num dos muitos artigos bons  dessa 
+revista  existe um sobre pirataria de celular, usando um OKI-900. Pelo  que 
+consegui  descobrir,  esse  modelo permite  varios  tipos  de  programacao, 
+existem  ate'  kits com os quais voce controla o telefone a  partir  de  um 
+laptop.  Pelo artigo, controlar e' dizer pouco. O sujeito que colaborou  na 
+reportagem  passou  2  anos explorando TUDO,  todas  as  possibilidades  da 
+interacao  OKI-900/LapTop.  Desde "clonar" linhas inoperantes,  ate'  saber 
+de  onde  a  pessoa esta' ligando, ouvir conversas  alheias  ..  atualmente 
+existem  kits com bibliotecas para compilador C, e exemplos, com  os  quais 
+pode-se fazer algumas besteiras, mesmo sendo novato na linguagem ..
+     Escutar  conversa  de celular e' coisa facil. O principe  Charles  com 
+certeza vai concordar com a afirmacao. Nos EUA existem aparelhos,  chamados 
+de  "Scanner",  que  custam mais ou menos 800 dolares  (em  vias  de  serem 
+proibidos),  mas  o proprio telefone celular pode ser  alterado  com  pouco 
+esforco  para esse tipo de coisa. Ou uma TV UHF (li um arquivo sobre  isso, 
+mas nao dava muitos detalhes, apenas falava sobre uma sintonia fina).  Para 
+quem  se  sente  ameacado  (com  razao)  por  esse  problema  de  falta  de 
+privacidade  (existe  o caso de uma mulher, aqui no  Brasil  cuja  conversa 
+"picante" com o noivo foi parar no radio), pode aguardar o programinha  que 
+o  Zimmerman,  criador  do PGP, esta' fazendo  para  "embaralhar"  conversa 
+telefonica.  Usando  SoundBlaster e modem, claro. Existe  uma  versao  para 
+Macintosh  pronta, ia ser distribuida, ultima noticia na rede.  Para  fazer 
+isso  atualmente  existe  um  programinha  chamado  "Nautilus".  Ainda  nao 
+experimentei, por falta de material e tempo.
+     Telefonia e' um campo muito vasto. Phreaking engloba muito, mas  muita 
+coisa,  e  nao falei (sera' que devo?) de PABX nem de sacanagens  com  FAX, 
+ainda.  Tem  uma  piada,  saiu na Playboy  americana,  que  e'  infame:  um 
+executivo  aponta para um morenaco com cara de zangada e fala  pro  colega: 
+"nao so' pediu as contas, mas sentou na xerox e mandou um fax do  voce-sabe
+para todas as nossas subsidiarias..". Um papo que rola nos EUA e' que faxes 
+tambem  podem  ser interceptados, embora o equipamento para isso  seja  bem 
+carinho,  em  torno de 2000 dolares. Usa-se um tipo de gravador  ainda  nao 
+muito  comum  no Brasil e joga o conteudo da fita num  fax-modem.  E'  meio 
+dificil  de  dar certo, porque dois fax-modens fazem uma especie  de  bate-
+papo,  para  definir coisas como o protocolo a ser usado  e  velocidade  de 
+envio dos dados.
+     Pagers  tambem  sao passiveis de serem clonados e  interceptados,  via 
+computador.  Houve  uma demonstracao no congresso Acess All Areas  sobre  o 
+assunto. Por conta da lei inglesa sobre Hacking, preferiu-se nao dar muitos 
+detalhes. Coincidencia ou nao, houve ameaca de bomba, durante a palestra, e 
+o predio teve de ser evacuado. Tudo o que eu sei sobre o assunto de  escuta 
+telefonica, e' que ajudou o governo peruano (com apoio tecnologico dos EUA) 
+a prender o lider do grupo terrorista "Sendero Luminoso". 
+     Chega   de  paranoia,  porem.  Com  as  devidas  excecoes,  todas   as 
+informacoes acima sao de segunda mao ou de ouvir dizer. Phreaking e' o tipo 
+de  coisa que o Hacker (ou fucador) tem que ter uma experiencia  se  quiser 
+poupar  despesas telefonicas. Nos EUA, esta' muito dificil de se fraudar  a 
+telefonica a partir de casa, melhor dizer perigoso, porque o pessoal  esta' 
+vigiando  e  se suspeitam, vigiam e monitoram o lugar de onde  as  ligacoes 
+estao sendo feitas, esperando que o elemento faca algo que realmente  valha 
+uma  condenacao.  No dia em que o cara faz algo "ruim"  e'  que  comecam  a 
+preparar uma "blitz". Quem fazia isso de casa, depois do "Hacker Crackdown" 
+comecou a fazer de telefones publicos, ou entao tomando precaucoes para nao 
+deixar  rastros. Ouvi falar de que algumas "boxes" (boxing e' o  verbo  que 
+caracteriza  ligacoes  fraudulentas)  ja' incorporam  apetrechos  de  auto-
+destruicao, para dificultar a condenacao em caso de "flagrante delito". 
+     La' nos EUA isso costumava ser um passatempo de universitario,  parece 
+que ate' o Steven Jobs ja' fez esse tipo de coisa. Os estudantes chamavam a
+embaixada americana, em Moscow, so' para perguntar de onde estava falando e 
+outras coisa do genero. O grande idolo dos "Phreakers" e' o Capitao Crunch, 
+codinome tirado de uma caixa de cereais. Cara famoso. Aqui no Brasil,uma ou 
+duas  pessoas  ja' alegaram fazer "boxing" mas  nunca  assisti   a  nenhuma 
+demonstracao para saber se e' possivel. Quem fala nao sabe e quem sabe  nao 
+fala. Ou nao se reune para comentar o que descobre..
+
+ALGUNS TIPOS DE "BOXES" (Vale lembrar que e' contravencao):
+
+Acrylic      Steal Three-Way-Calling, Call Waiting and programmable
+             Call Forwarding on old 4-wire phone systems
+Aqua         Drain the voltage of the FBI lock-in-trace/trap-trace
+Beige        Lineman's hand set
+Black        Allows the calling party to not be billed for the call
+             placed
+Blast        Phone microphone amplifier
+Blotto       Supposedly shorts every fone out in the immediate area
+Blue         Emulate a true operator by seizing a trunk with a 2600hz
+             tone
+Brown        Create a party line from 2 phone lines
+Bud          Tap into your neighbors phone line
+Chartreuse   Use the electricity from your phone line
+Cheese       Connect two phones to create a diverter
+Chrome       Manipulate Traffic Signals by Remote Control
+Clear        A telephone pickup coil and a small amp used to make free
+             calls on Fortress Phones
+Color        Line activated telephone recorder
+Copper       Cause crosstalk interference on an extender
+Crimson      Hold button
+Dark         Re-route outgoing or incoming calls to another phone
+Dayglo       Connect to your neighbors phone line
+Divertor     Re-route outgoing or incoming calls to another phone
+DLOC         Create a party line from 2 phone lines
+Gold         Dialout router
+Green        Emulate the Coin Collect, Coin Return, and Ringback tones
+Infinity     Remotely activated phone tap
+Jack         Touch-Tone key pad
+Light        In-use light
+Lunch        AM transmitter
+Magenta      Connect a remote phone line to another remote phone line
+Mauve        Phone tap without cutting into a line
+Neon         External microphone
+Noise        Create line noise
+Olive        External ringer
+Party        Create a party line from 2 phone lines
+Pearl        Tone generator
+Pink         Create a party line from 2 phone lines
+Purple       Telephone hold button
+Rainbow      Kill a trace by putting 120v into the phone line (joke)
+Razz         Tap into your neighbors phone
+Red          Make free phone calls from pay phones by generating
+             quarter tones
+Rock         Add music to your phone line
+Scarlet      Cause a neighbors phone line to have poor reception
+Silver       Create the DTMF tones for A, B, C and D
+Static       Keep the voltage on a phone line high
+Switch       Add hold, indicator lights, conferencing, etc..
+Tan          Line activated telephone recorder
+Tron         Reverse the phase of power to your house, causing your
+             electric meter to run slower
+TV Cable     "See" sound waves on your TV
+Urine        Create a capacitative disturbance between the ring and
+             tip wires in another's telephone headset
+Violet       Keep a payphone from hanging up
+White        Portable DTMF keypad
+Yellow       Add an extension phone
+
+Pode-se pesquisar mais sobre o assunto nestes enderecos:
+
+ftp.netcom.com          /pub/br/bradleym
+ftp.netcom.com          /pub/va/vandal
+ftp.winternet.com       /users/nitehwk
+
+CODIGOS ESPECIAIS (Para quem quiser explorar legalmente o telefone):
+
+101  -  Auxilio  da telefonista  em  ligacoes  interurbanas  para 
+localidades que nao tem acesso a DDD. Gratuito
+102  -    Informa  numeros de telefones  de  assinantes  que  nao 
+constam da Lista Telefonica. 24 horas. Gratuito
+103  -    Telefone de consertos. Digite 013 + 3 primeiros digitos 
+do telefone. 24 hrs. Gratuito.
+104  -    Telefone de servicos. Troca de aparelho, instalacao  de 
+extensoes  externas, sol. mudanca de endereco, informacoes. 9  as 
+5hrs. Gratuito.
+107   -    Auxilio da telefonista em ligacoes feitas a partir  de 
+telefones publicos. 24 hrs. Gratuito.
+108   -   Informa o valor p/ minuto de todas chamadas  nacionais. 
+24 hrs. Gratuito
+121  -    Informa numeros de telefones de outras cidades.  Digite 
+o codigo DDD da cidade + o numero 121. 24hrs. Gratuito.
+130  -    Hora certa. 24 hrs.
+132   -    O telefone do tempo. Previsao, temperatura e  situacao 
+nas principais estradas do Estado. 24 hrs
+133   -     Informa  itnerarios das linhas  de  onibus,  metro  e 
+ferrovias municipais. 9 as 5. Gratuito.
+134   -    Telefone despertador. 24 hrs. O servico e' cobrado  na 
+conta telefonica.
+135   -     Telegrama fonado nacional. 6 as 23  hrs.  Cobrado  na 
+conta telefonica.
+136   -     Informa farmacias, postos de  saudes  da  prefeitura, 
+hospitais e pronto-socorros estaduais. 24 hrs.
+146  -    Telefone do Ministerio da Fazenda. 9 as 5hrs
+148  -    Videotexto
+159  -    Achados e perdidos
+190  -    Policia
+191  -    Inamps
+192  -    Pronto-socorro
+193  -    Bombeiros
+000111    -    Ligacoes Internacionais via telefonista. 24 hrs.
+000222    -    Telegrama fonado internacional. 24 hrs.
+000333    -    Informacoes sobre DDI. 24 hrs. Gratuito.
+(Atencao - Nao sei se os telefones abaixo funcionam)
+200-3311  -    Disque piada
+200-1744  -    Disque diversoes e restaurantes
+200-1234  -    Estoria infantil
+200-1066  -    Disque paz
+200-1313  -    Disque informatica
+200-1010  -    Disque varig
+200-1986  -    Disque surf
+200-1041  -    Disque cine
+
+Obs: esses numeros foram tirados de um manual da Telesp para assinantes, do 
+ano de 93. Nao experimentei nenhum deles.
+
+
+                          COMO AGIR COM A POLICIA
+                        (se e' que conselho ajuda)
+                          =======================
+
+     E um artigo q visa qualquer 1, q a qualquer lugar, a qualq  hora,  que 
+possa vir a ser confrontado com um questionamento policial. Seguramente nao 
+e' o bastante para uma pessoa que tenha interesse em cometer atos contra  a 
+lei. Quem le jornais ou livros, como "Rota 66", ou simplesmente tem costume 
+de  sair  a noite em determinadas vizinhancas, sabe que o ideal  e'  ter  o 
+minimo  de contato possivel com a policia. Nao que se possa generalizar  as 
+pessoas  que trabalham para a lei, mas creio ter ouvido na TV  um  politico 
+mencionar que "um policial brasileiro trabalhando na Alemanha estaria preso 
+em meia hora, mas um policial alemao trabalhando no Rio de Janeiro  estaria 
+boiando na Baia da Guanabara em cinco minutos". Qualquer coisa assim. Mesmo 
+que  haja uma grande maioria de policiais trabalhando com baixos  salarios, 
+pouco  treinamento e baixo incentivo  sejam gente fina, ainda assim  varios 
+sao  expulsos  da corporacao, por diferentes motivos,  incluindo  abuso  de 
+autoridade. 
+     Uma  boa  forma  de  evitar encontros com a lei  e'  vestir  de  forma 
+conservadora,  nao  sair as ruas a noite,  evitar  zonas  mal-frequentadas, 
+concertos  de  rock,  bares e outras aglomeracoes.  Melhor  ficar  em  casa 
+fucando com o micro ou assistindo TV. Ok, se voce nao esta' afim disso, ai' 
+vao algumas dicas:
+
+                          "POLICIA! DOCUMENTOS!"
+
+Ficar  nervoso nao adianta. Ficar com medo pode ser pior, eles podem  achar 
+que voce tem  culpa no cartorio. Sobra so' a possibilidade de agir como  um 
+cidadao  cumpridor da lei e colaborar, se houver tempo. E' bom lembrar  que 
+acidentes acontecem e algumas pistolas disparam a toa. Ser educado so',  as 
+vezes  nao funciona, mas bancar o papel de curioso ou leitor  de  "Noticias 
+Populares",  em  suma, mostrar interesse no que esta'  acontecendo  e'   um 
+jeito de mostrar inocencia.
+
+                           QUESTIONAMENTO NA RUA
+
+De  acordo  com a legislacao brasileira, a pessoa e' culpada, ate' provar a 
+inocencia.  Algo  bom de se lembrar. Por essa razao e algumas  outras,  nao 
+vale a pena criar muito caso, quando parado na rua para revista ou coisa do 
+genero.  Vale o que esta' escrito acima, sobre cooperar.  Nenhuma  novidade 
+ate'  ai.  Andar  com os documentos, sempre. Embora  a  Constituicao  tenha 
+deixado claro no artigo 5 (colocado abaixo), sobre direito de  ir e vir, e' 
+melhor responder as perguntas feitas. Se fizerem muitas perguntas, comece a 
+perguntar  o que esta' acontecendo e pare de colaborar um pouco.   Nao  que 
+isso  melhore  a situacao, mas e' uma forma de alertar para o fato  de  que 
+voce  sabe  dos  seus  direitos.  Mas  lembre  sempre:  seja   diplomatico. 
+Se  houver  uma  revista  ou  apalpacao, a  praxe  e'  que  mulheres  sejam 
+revistadas por policia feminina. Tudo isso, obvio, depende da situacao.  Se 
+tem uma arma apontada para sua cabeca, de noite, numa rua escura...
+
+                            INDO PRA DELEGACIA
+
+
+"Qualquer  restricao  ou privacao da liberdade sem  fundamento  legal  pode 
+motivar  um  processo  de abuso de autoridade  contra  qualquer  autoridade 
+policial"(Folha de Sao Paulo, 27/10/94) 
+
+Na Teoria, e' assim. Na pratica, pode acontecer que o policial ira'   pedir 
+para  acompanhar  ate' a Delegacia. Ou falar "Entra no  Camburao".  Ou,  em 
+alguns casos, usar cacetete e te empurrar pra la', na porrada.  Legalmente, 
+voce  nao  precisa  ir, a menos que esteja preso.  Mesmo  um  convite  para 
+testemunhar  alguma  coisa  pode  ser adiado para  mais  tarde,  desde  que 
+se  forneca  o  numero  do  CIC, RG,  nome  e   endereco,   anotar  qual  o  
+departamento   policial  onde  sera' registrada a ocorrencia e  passar  la' 
+posteriormente.
+         Comentando essa frase, e mensagem  sobre  o  termo  "restricao  ou 
+privacao  da  liberdade".  O  policial  pode te  "convidar"  a  ir  para  a 
+delegacia, mas nao pode te forcar a isso. Se voce for porque ficou com medo 
+de dizer nao, tudo bem. O ideal e' esclarecer que esta' com pressa de ir  a 
+algum   lugar,   talvez  encontrar  alguem  ou   conversar   e   esclarecer 
+antecipadamente o porque e o que  exatamente esta' acontecendo, se e' juri-
+dicamente  necessario  que  seja naquela hora ou mais tarde.  A  partir  do 
+momento  em  que o policial entende que esta' lidando com alguem  que  sabe 
+alguma coisa, existe alguma chance de que mude a abordagem. Presumindo  que 
+voce nao deva nada no cartorio, nem esteja com nada incriminador no  corpo. 
+E'  de se esperar o uso de pressao psicologica. Se puder controlar o  medo, 
+chame  alguem  para  ir junto, servir de testemunha ou  deixe  avisado  com 
+parente  ou amigo que possa ir te encontrar la'. E insistir, com jeito,  em 
+saber a razao do convite.
+     A partir do momento em que voce esta' no carro de policia, o melhor  a 
+fazer  e'  ficar de bico calado. Ajuda a controlar os nervos.  "Quem  muito 
+fala, muito erra", diz o ditado. Se apontarem para algum objeto seu, de uso 
+pessoal,  e perguntarem se e' para defesa pessoal, lembre-se de que tudo  o 
+que  pode  ser usado para a defesa pode tambem ser usado  para  ataque.  
+
+                               NA DELEGACIA:
+
+Ai depende. Pode ser que ai' e' que acontecera'  a "verdadeira" revista  de 
+suas  roupas  e pertences, em busca de evidencia  incriminatoria.  Ou  nao, 
+apenas  um interrrogatorio. De qualquer forma, quando forem  examinar  suas 
+coisas,  tipo bolsa ou sacola, faca questao de estar perto e veja  a  busca 
+sendo  feita.  Mantendo  a  calma e olhando para  que  nada  "estranho"  se 
+materialize.  O ideal e' estar com mais alguem, amigo seu, para  servir  de 
+testemunha contra qualquer ilegalidade ou apoio moral. E' dificil manter  a 
+calma, nessas ocasioes. 
+Interrogatorio: Pode ser feito de maneira informal, como uma conversa.  Mas 
+o  que  for  dito podera' te botar ou nao numa fria. Pode  ser  mais  facil 
+continuar  mantendo o bico calado a nao ser para pedir informacoes  do  que 
+depois  controlar o medo de nao responder as perguntas. Quando  inocente  e 
+podendo  explicar  de  forma  simples todo o  problema,  faca  isso.  Evita 
+trabalho.  Mas  pode  ter certeza: e' muito  facil  para  eles  distorcerem 
+qualquer  coisa  na hora de anotar. Quanto mais voce falar, mais  eles  vao 
+perguntar.  E  o  que e' pior, podem comecar tudo  isso  como  um  conversa 
+inocente, falando algo como: "fulano foi ali, e' preciso aguardar um pouco, 
+que  time  voce torce"? 
+     Um policial, nessas circunstancias, pode te ameacar com varias  coisas 
+que nao tem poder nem autoridade para fazer. Pode bancar o seu amigo, falar 
+que  esta' te fazendo um favor, propor um acordo, insistir em colocar  voce 
+"tocando  piano".  Fica muito dificil bancar o valente  para  recusar,  mas 
+podendo, havendo condicoes, pode-se comecar a partir dai, o pedido para ter 
+seu  advogado presente. Tudo depende de qual e' a dos policiais  presentes. 
+Querendo,  tem  muitas formas na legislacao de colocar alguem vendo  o  sol 
+quadrado.  Alivia, ter algum amigo ou parente importante pra chamar,  estar 
+com  carteira de trabalho e ser realmente inocente. Mas ignorancia  nao  e' 
+desculpa. Mais uma vez, simplifique ao maximo qualquer estoria que tiver  e 
+se forem duas pessoas sendo interrrogadas, e' bom as estorias coincidirem. 
+O  que puderem arrancar de voce pode ser o bastante p. convencer alguem  de 
+que existe motivo para uma prisao preventiva (que pode se extender  por  30 
+dias,  renovavel  para  um prazo maximo de 81 dias  de  detencao).  Dedurar 
+alguem pode sugerir cumplicidade. Voce sabe daquilo porque esta' envolvido.
+Por outro lado a prisao se ilegal, vale o pedido de Habeas-Corpus, qualquer 
+pessoa, com um minimo de conhecimento legal pode fazer, sem curso superior. 
+
+                                 TORTURA:
+
+Pode   acontecer.   Quem  leu a VEJA de 28/10/95 ou qualquer  jornal,  tipo 
+Folha   ou  Estado  de  Sao  Paulo  de  terca-feira  da  semana   anterior, 
+provavelmente  foi  brindado com uma historia que faz tudo o  que  e'  dito 
+nesse  artigo um trabalho de ficcao. Por isso os "se possivel",  "pode  ser 
+que", "se der jeito", "tenta isso", etc..
+Tudo bem, esta' na constituicao:
+
+"A   lei  considerara'  crimes   inafiancaveis   e insuscetiveis  de  graca 
+ou  anistia  a pratica da tortura, o trafico ilicito  e   entorpecentes   e 
+drogas  afins,  o terrorismo e os definidos  como  crimes  hediondos,   por  
+eles  respondendo os mandantes, os executores  e  os  que, podendo   evita-
+los,  se omitirem" (Artigo V, paragrafo XVLIII).
+
+Mas  se  voce  esta' numa delegacia, sem  testemunhas,  sem  advogado,  sem 
+dinheiro, sem documentos, ou ainda, nem entrou numa, esta' sendo  torturado 
+dentro  de  casa,  isso  vale algo? So' se voce sair  vivo  para  contar  a 
+historia.
+
+Pelo  artigo da revista, tem-se a imprensa de que a tortura e'  usada  para 
+fundamentar  alguma denuncia ou para substituir trabalho  de  investigacao. 
+Igualmente,  pessoas  com menos chance de recorrer a justica  teriam  maior 
+chance  de serem colocadas no pau-arara e/ou sofrer maus tratos.  Num  pais 
+onde  tropa de choque, completa, com caes e gas lacrimogenio, sao  lancados 
+para  reprimir  um  protesto feito por professores  e  professoras  pedindo 
+maiores salarios .. tudo e' possivel. Num pais em que existem massacres.. E
+no  livro GERACAO ABANDONADA, um dos personagens, envolvido em  trafico  de 
+drogas,  nao foi torturado pela policia. Simplesmente levaram-no numa  sala 
+para  assistir uma sessao de tortura. O resultado foi o mesmo.
+Presumindo que a tortura existe em maior ou menor grau no Brasil, apesar de 
+ser  crime  hediondo, bancar o valente pode nao valer a pena.  As  sequelas 
+ficam, mesmo que o corpo se recupere integralmente da surra. Quem acha  que 
+no exterior a coisa e' melhor, nao fique tao certo. Talvez menos  violenta, 
+ja'  que a Legislacao Inglesa exige exame de corpo de delito ate' 48  horas 
+depois  da  prisao (me falaram que os policiais ingleses  passam  por  cima 
+disso, usando varios meios, e' possivel avaliar isso assistindo "Em nome do 
+pai",  a disposicao nas videolocadoras). Existe uma praxe no Brasil de  que 
+quando alguem  vai  preso tambem passe por exame de corpo delito na entrada 
+e  na  saida,  mas na pratica, o IML esta' sempre  superlotado  e  tal  nao 
+acontece, a nao ser que o sujeito tenha grana.
+      Quem tiver curiosidade, pode ler "Arquipelago Gulag" (Soljenitsen)  e 
+tambem  o filme "Pra frente, Brasil" (tambem em locadoras). Existem  varios 
+tipos  de tortura, incluindo a psicologica, que nao deixa marcas  visiveis. 
+Um  consolo:  E'  possivel conseguir a absolvicao de  um  crime,  se  ficar 
+comprovada a confissao obtida sob tortura. Nao basta a pessoa confessar que 
+mata criancinha toda noite para ir preso. O grande problema e' conseguir  a 
+possibilidade  de aguardar o processo em liberdade, coisa que  teoricamente 
+depende do Juiz e do promotor, mas na pratica.. 
+
+                                  PRISAO:
+
+- Ninguem pode ser preso sem ordem judicial
+- Qualquer pessoa que estiver cometendo crime (flagrante) pode ser presa
+- Nao existe prisao por averiguacao ou detencao por falta de documento
+- O policial que "detem para averiguacao", em tese, comete o crime de abuso 
+da autoridade. (idem acima)
+
+De acordo com a Constituicao, a pessoa nao pode ser processada por algo que 
+nao seja  crime. E mais.
+
+    "Se  a  policia invade a casa de alguem, fora  dos  casos  legais, 
+    pratica abuso da autoridade. Se nao segue as regras a respeito  da 
+    feitura do inquerito policial (prendendo ou mantendo preso alguem, 
+    que, por lei, tem o direito de acompanhar o processo em liberdade) 
+    pratica  ilegalidade. Se processa alguem pela pratica de algo  que 
+    lhe  era  permitido  na epoca,  tambem  causa  um  constrangimento 
+    indevido  ao reu. Se, enfim, nao observa as regras  juridicas  (as 
+    leis),  e  restringe ou ameaca restringir a liberdade  de  alguem, 
+    comete ilegalidade, pratica ato abusivo. Contra esse abuso e'  que 
+    o  interessado ou alguem por ele deve insurgir-se,  requerendo  ao 
+    juiz a concessao de habeas-corpus para a recuperacao da  liberdade 
+    ou para nao correr o risco de perde-la".
+(O que e' habeas-corpus - Adauto Suannes - editora brasiliense)
+
+Alias esse livrinho vale a pena: tudo bem que o texto acima e' teoria e que 
+com  uma  desculpa  ou  outra, voce  esta'  la',  sob  reclusao,  detencao, 
+custodia,  prisao  simples,  prisao  preventiva,  prisao  cautelar,  prisao 
+provisoria, ou simplesmente nao pode ir embora. Pra comecar, o delegado  de 
+policia  tem que entregar a voce uma "nota de culpa". Esse  documento  deve 
+relatar  a  lei  que  autoriza sua prisao. Normalmente o juiz se  encarrega 
+de  mudar  a  sentenca para qualquer coisa como "prestacao  de  servicos  a 
+comunidade", a nao ser que algo serio como matar alguem e/ou causar danos a 
+ordem publica tenha acontecido. Mas atencao para quando a prisao e' legal:
+     Se  houve  um processo na qual o individuo foi  condenado,  tudo  bem. 
+(Qualquer  irregularidade, porem, invalida o processo e justifica o habeas-
+corpus) Havendo processo e um mandado de prisao, ai' sera' um ato legal. No 
+caso  de  ser considerada a prisao do suspeito,  independente  de  sentenca 
+condenatoria,  e'  necessario  que  o  delegado  de  policia  ou   promotor 
+demonstrem os motivos da necessidade dessa prisao e nao vale "eu-acho", nem 
+que haja um suspeito ou indiciado. Sao necessarias razoes especificas, como 
+para  assegurar  o andamento do processo, garantir a ordem  publica,  etc.. 
+isso  sendo  demonstrado  ao  juiz e ele,  com  uma  decisao  fundamentada, 
+que  determine  a  prisao do suspeito. Ai', temos novamente  o  mandado  de 
+prisao.  Coisa  excepcional, de acordo com o livreto de Adauto  Suannes.  O 
+normal e' o reu acompanhar o julgamento em liberdade. O ultimo caso e' o do 
+flagrante delito, em que "qualquer do povo podera' e as autoridades deverao 
+prender  quem  quer  que  seja encontrado  em  flagrante  delito".  O  caso 
+mencionado  no  inicio do artigo. Ai' e' necessario que  nao  haja  duvidas 
+sobre a autoria, o autor seja levado a autoridade policial por alguem,  la' 
+sendo  lavrado um auto de prisao em flagrante (formalizacao da  prisao),  e 
+"ca va sans dire", comunicacao da prisao ao juiz competente (a falta  disso 
+torna a prisao ilegal).
+    Se o  promotor   nao demonstrar  que ha'necessidade de manter o  detido 
+preso,  mesmo   o  processo criminal  estando  totalmente   regular,  "tudo 
+preto no branco  e  todos  os pingos  nos  iis",  o juiz chama o detido  ao 
+forum  e   concede  a  liberdade provisoria, partindo do  principio  que  o 
+sujeito va' colaborar com a justica e  nao se furtar ao processo.
+ 
+
+     Podendo, anote  qualquer coisa  que possa ser util,  como  horario  da 
+ocorrencia,  nome dos policiais, quaisquer numeros que possam  servir  para 
+identificacao,  como placas, identificacao policial, etc. Se  alguma  coisa 
+sua for tomada, pergunte porque e peca recibo (se tiver coragem). As  vezes 
+acontecem  apreensoes ilegais e o objeto pode ser devolvido depois (e'  bom 
+ter  a  nota  fiscal para comprovar). O famoso "flagrante"  so'  existe  no 
+momento em que o crime e' cometido. Existe muita fala que o dito so'  deixa 
+de  existir  48  horas  depois, mas uma  promotora  gaucha  me  garantiu  o 
+contrario. Entre varias boas razoes para se evitar conversar com  policiais 
+alem  do  minimo  necessario,uma muito boa e' que isso  minimiza  o  famoso 
+"desacato a autoridade". Nao que o policial seja habituado a usar palavroes  
+e/ou linguajar abusivo, quando em exercio de  sua profissao. Presumindo que
+aconteca, seja  diplomatico  e pense bem antes de falar. E' bom  saber  que 
+existe um esforco do sistema juridico como um todo em coibir tais  excessos 
+de maus-elementos da corporacao. Pena que talvez nao adiante muito, para as 
+vitimas desse abuso.
+
+                              REVISTA EM CASA
+
+- E' preciso mandado judicial para a revista
+- A revista so' pode acontecer entre as 6 e 8 hs
+-  A policia pode revistar uma casa sem ordem judicial so' quando um  crime 
+esta' acontecendo dentro da casa
+-  A  residencia  pode ser invadida para se prestar  socorro,  em  caso  de 
+desastres ou com o consentimento do morador.
+
+
+                       CONSTITUICAO - ARTIGO QUINTO
+
+Artigo 5o - Todos sao iguais perante a lei, sem distincao de  qualquer 
+    natureza  garantindo-se aos brasileiros e estrangeiros  residentes 
+    vno  Pais  a inviolabilidade do direito a vida,  aa  liberdade,  aa 
+    seguranca e aa propriedade.
+   
+    Alguns itens relevantes:
+
+    I-  Homens  e mulheres sao iguais em direitos  e  obrigacoes,  nos 
+    termos desta Constituicao;
+    II- Ninguem sera' obrigado a fazer ou deixar de fazer alguma coisa 
+    senao em virtude da lei;
+    III- Ninguem sera' submetido a tortura ou a tratamento desumano ou 
+    degradante;
+    VIII-  Ninguem  sera' privado de direitos por  motivos  de  crenca 
+    religiosa ou de conviccao filosofica ou politica, salvo se invocar 
+    para  eximir-se de obrigacao legal a todos imposta e recusar-se  a 
+    cumprir prestacao alternativa, fixada em lei;
+    IX-  E'  livre a expressao da  atividade  intelectual,  artistica, 
+    cientifica e de comunicacao, independente de censura ou licenca;
+    X-  Sao  inviolaveis  a intimidade, a vida privada, a  honra  e  a 
+    imagem  das pessoas, assegurado o direito a indenizacao pelo  dano 
+    material ou moral decorrente de sua violacao;
+    XI-  A  casa  e' o asilo inviolavel  do  individuo,  ninguem  nela 
+    podendo penetrar sem consentimento do morador, salvo em  flagrante 
+    delito  ou desastre, ou para prestar socorro, ou, durante  o  dia, 
+    por determinacao judicial;
+    XII-  E'  inviolavel  o sigilo da  correspondencia  e  das  demais 
+    comunicacoes   telegraficas,   de   dados   e   das   comunicacoes 
+    telefonicas,   salvo,  no  ultimo caso, por  ordem  judicial,  nas 
+    hipoteses  e  na  forma  em que a lei  estabelecer  para  fins  de 
+    investigacao criminal ou instrucao processual penal;
+    XIV-  E' assegurado a todos o acesso a informacao e resguardado  o 
+    sigilo da fonte, quando necessario ao exercicio profissional.
+    XV-  E' livre a locomocao em territorio nacional em tempo de  paz, 
+    podendo   qualquer  pessoa,  nos  termos  da  lei,  nele   entrar, 
+    permanecer ou dele sair com seus bens;
+    XVI-  Todos  podem reunir-se pacificamente, sem armas,  em  locais 
+    abertos  ao  publico, independente de autorizacao, desde  que  nao 
+    frustem outra reuniao anteriormente convocada para o mesmo  local, 
+    sendo apenas exigido previo aviso a autoridade competente.
+    XXXVII- Nao havera' juizo ou tribunal de excecao;
+    XXXIX-  Nao ha crime sem lei anterior que o defina, nem  pena  sem 
+    previa cominacao legal.
+    XL- A lei penal nao retroagira', salvo para beneficiar o reu.
+    LIII-   Ninguem  sera'  processado  nem  setenciado   senao   pela 
+    autoridade competente.
+    LIV-  Ninguem  sera' privado da liberdade ou de seus  bens  sem  o 
+    devido processo legal;
+    LV- Aos litigantes, em processo judicial ou administrativo, e  aos 
+    acusados  em  geral  sao assegurados o  contraditorio  e  a  ampla 
+    defesa, com os meios e recursos a ela inerentes;
+    LVI-  Sao inadmissiveis, no processo, as provas obtidas por  meios 
+    ilicitos;
+    LVII- Ninguem sera' considerado culpado ate' o transito em julgado 
+    de sentenca penal condenatoria.
+    LVIII-   O   civilmente  identificado  nao   sera'   submetido   a 
+    identificacao criminal, salvo as hipoteses previstas em lei.
+    LXI-  Ninguem sera' preso senao em flagrante delito ou  por  ordem 
+    escrita e fundamentada de autoridade competente, salvo em casos de 
+    transgressao  militar ou crime propriamente militar, definidos  em 
+    lei;
+    LXIII- O preso sera' informado de seus direitos, entre os quais  o 
+    de  permanecer  calado,  sendo-lhe  assegurada  a  assistencia  da 
+    familia e de advogado;
+    LXIV- O preso tem direito a identificacao dos responsaveis por sua 
+    prisao ou por seu interrogatorio policial;
+    LXV- A prisao ilegal sera' imediatamente relaxada pela  autoridade 
+    judiciaria;
+    LXVI-  Ninguem sera' levado a prisao e nela mantido, quando a  lei 
+    admitir liberdade provisoria, com ou sem fianca;
+    LXVIII- Conceder-se-a habeas corpus sempre que alguem sofrer ou se 
+    achar  ameacado de sofrer violencia ou coacao em sua liberdade  de 
+    locomocao, por ilegalidade ou abuso de poder;
+    LXXIV-  O  Estado  prestara'   assistencia  juridica  integral   e 
+    gratuita ao que comprovarem insuficiencia de recursos;
+    LXXVII-  Sao gratuitas as acoes de habeas corpus e habeas data,  e 
+    na forma da lei os atos necessarios ao exercicio da cidadania.
+
+
+                    SUA FAMILIA, DEPOIS DE UMA DESSAS:
+
+- Alguma coisa voce fez, para ir no camburao.
+- Que especie de gente e' aquela com quem voce anda?
+- Que que eu fiz para merecer isso?
+- Voce faz as coisas e eu e' que tenho que aguentar..
+- De hoje em diante voce fica em casa a noite.
+- etc..
+
+Claro, isso varia de familia pra familia. Conheco a familia de dois  caras
+que passaram pela desagradavel experiencia de "quase" serem presos ou como
+diria, pisaram numa DP por qualquer razao. Uma, descobriu que o filho tinh
+outra personalidade (em casa fazia propaganda anti-fumo, na rua, so' fuma-
+va charuto, nem sempre de tabaco). A outra, apesar de saber que o filho e'
+quem tinha razao, abafou o caso. A irma do cara, foi mais longe. Deu razao
+a outra parte. Nao aconselho ninguem a esperar compreensao dos pais  antes
+da coisa esfriar.
+
+
+                            ALGUMAS CONCLUSOES:
+
+     Volta   e   meia,  escuto  gente  defendendo  a  volta   da   ditadura 
+militar,  pensando em como era bom aquele tempo. Havia a grande ilusao, por
+conta  da  censura, que havia nos  meios  de  comunicacao. O  sujeito   era 
+preso, sem processo criminal, talvez por que deu carona ou pegou carona com 
+um "terrorista" e era torturado ad-eternum, ate' contar onde e' que fica  o 
+aparelho.  Se  tivesse sorte, depois de apanhar era liberado,  sem  nem  um 
+pedido de desculpas ou um papel timbrado documentando a coisa. So' para  se 
+ter  uma  ideia,  se a pessoa da' um tempo de,  digamos,  seis  semanas  no 
+casamento,  o outro conjuge pode requerer o divorcio alegando "abandono  do 
+lar"  ou coisa que o valha. Imagina aquele empregao na Bolsa  de  Valores.. 
+ja'  era.  Demissao  por justa-causa, abandono de  emprego.  Na  Argentina, 
+especula-se  que  quando  a repressao descobriu uma lista de  empresas  que 
+eram  extorquidas  pela  guerrilha  (a empresa  pagava  para  nao  ver  seu 
+funcionario  sequestrado),  passou  tambem  o mesmo  tipo  de  golpe,  para 
+financiar a chamada "guerra suja", no tempo do regime militar. Mais  alguma 
+duvida sobre o valor que tem aquele volume de papel, vulgo Constituicao ler
+arquivos do PASQUIM, e com certeza pode-se colecionar historias e historias 
+sobre ilegalidades cometidas nesse periodo negro. Pode nao funcionar  muito 
+na  pratica.  Mas  e' uma arma, e representa um limite que  se  nem  sempre 
+contem, pode ser usado para demarcar tudo aquilo a que temos direito. Resta 
+o  cidadao  lutar  para  que os limites  sejam  observados.  Se  todos  nos 
+sentirmos  medo de lutar por nossos direitos, estaremos a nos condenando  a 
+uma falsa liberdade e dando a alguns maus elementos da corporacao  policial 
+(nao  sao  todos os que estao ligados a esses excessos) toda  um  leque  de 
+poderes sobre nos.
+ULTIMO  E  MAIS  IMPORTANTE: Se ficou interessado,  tem  alguma  duvida  ou 
+curiosidade,  nao  deixe  pra  amanha. Consulte seu  advogado e/ou pegue  o 
+telefone  de  algum, para quando precisar e decore. Tambem repita a frase:
+"quero  ver  meu advogado" 100 vezes ao dia e diga-a quando  apropriado.  O 
+texto  acima  pode  conter imperfeicoes, ja' que nao  sou  especialista  no 
+assunto. 
+
+--------------------------------------------------------------------------
+                         DICAS - CARTAS - NOTICIAS
+                         =========================
+
+                                   DICAS
+
+CYBERCAFES
+
+Descobri um pagina html sobre outros cybercafes, na Europa.
+
+http://www.easynet.co.uk/pages/cafe/ccafe_eu.htm#orbital
+
+SOBRE WINDOWS 95
+
+submeta OS2-WIN95
+
+    Aqui vao alguns problemas que encontrei no Windows. Por favor se 
+alguem tiver criticas, comentarios ou SOLUCOES, por favor coloquem!
+
+1) Falta de gerenciamento de memoria. Com o QEMM e EMM, apresenta 
+conflitos, o que torna a liberacao de memoria convencional uma missao 
+(impossivel!?).
+
+2) Incompatibilidade com alguns jogos p/ DOS. Grande parte deles 
+rodam, mas uns sem som, outros com barulhos incompreensiveis, outros 
+com caracteres atrapalhando o jogos, etc. Por mais que eu tente, e 
+muito dificil achar uma configuracao ideal para que o game rode 100%
+
+3) Dificuldade de instalar drives de CD-ROM. Apesar do sistema de 
+auto-deteccao do Windows, alguns drives nao sao reconhecidos, 
+obrigando o usuario a instalar o drive via AUTOEXEC/CONFIG e gastar 
+mais memoria (que como foi dito nao e gerenciada, causando uma perda 
+ainda maior).
+
+4) Instalacao instavel. Apos instalar 4 vezes, a unica vez que tudo 
+ocorreu como o previsto foi quando eu instalei a partir do CD. Nas 
+outras (pelos discos), sempre acontecia algum conflito: erro de 
+protecao, arquivos nao encontrados, e outros.
+
+5) Apos a instalacao e criado um diretorio ~ARQUIV (ou algo parecido) 
+que se for deletado, o windows nao inicia. Mas o pior e que em nenhum 
+momento o windows avisa que o diretorio nao deve ser apagado (para 
+quem tem um Winchester grande, as vezes e dificil saber se um 
+diretorio faz parte do sistema operacional ou se e algum programa que 
+ele(a) instalou e que nao esta sendo mais utilizado).
+
+6) A impossibilidade de se dar BOOT a partir de outra unidade de 
+disco que nao a principal (C:) e uma inconveniencia muito chata e que 
+outros sistemas de 32 Bits (particularmente o OS/2) nao apresentam. 
+Muito pelo contrario eles ainda ajudam o usuario a fazer um BOOT 
+MANAGER para gerenciamento de BOOT.
+
+7) Instabilidade do Sistema Operacional. Quando abertos mais de dois 
+aplicativos, o famoso GPF comeca a aparecer novemente (com cara nova, 
+e claro!), obrigando o usuario a fechar o aplicativo e perder todos 
+os dados (a proposito, uma vez ocorreu um erro com o ambiente e eu 
+fechei todos os programas, mas o windows nao respondia, sumiu tudo da 
+tela, ficando so o cursor do mouse funcionando. AAARRRGGGHHH!).
+
+    Bem esses sao apenas ALGUNS dos inumeros problemas e 
+inconvenientes do windows. Se voce tiver mais, pode adicionar aqui!
+{Nome e endereco eletronico editados}
+
+
+
+ONDE CONSEGUIR SOFTWARE PARA WINDOWS 95
+
+         http://cwsapps.texas.net/
+
+
+SOBRE FREENETS
+
+No  numero  passado, escrevi sobre as Freenets, uma forma de  conseguir  um 
+acesso  gratuito  (ou quase)  a uma conta internet. Fucando,  descobri  que 
+existe  um  URL  com essa informacao, alem de  foruns  de  discussao  sobre 
+cybervillas  e artigos sobre como encarar as comunidades eletronicas,  alem 
+de  subdiretorios  inteiros com discussoes sobre isso. Mas como  nao  estou 
+montando nenhuma a curto prazo, vai o endereco do local:
+ 
+http://herald.usak.ca/~scottp/free.html
+
+Para quem nao esta' afim, pode usar esta lista, tirada do e-zine Emptimes:
+
+telnet to:
+
+leo.nmc.edu                login: visitor
+yfn.ysu.edu                login: visitor
+freenet.scri.fsu.edu       login: visitor
+freenet.carleton.edu       login: guest
+freenet.victoria.bc.ca     login: guest
+freenet.lorain.oberlin.edu login: guest
+freenet.hsc.colorado.edu   login: guest
+bigcat.missouri.edu        login: guest
+garbo.uwasa.fi             login: guest
+ids.net                    login: guest
+bbs.augsburg.edu           login: guest
+tpe.ncm.com                login: guest
+michael.ai.mit.edu         login: guest
+bbs.isca.uiowa.edu         login: guest/new
+phred.pc.cc.cmu.edu 8888   login: guest/new
+muselab.ac.runet.edu       login: bbs   (send mail to 'gabe' to access irc)
+netaxs.com                 login: bbs
+shadow.acc.iit.edu         login: bbs
+bbs.augsburg.edu           login: bbs
+utbbs.civ.utwente.nl       login: bbs
+oscar.bbb.no               login: bbs
+bugs.mty.itesm.mx          login: bbs
+tudrwa.tudelft.nl          login: bbs
+ara.kaist.ac.kr            login: bbs
+cc.nsysu.edu.tw            login: bbs
+cissun11.cis.nctu.edu.tw   login: bbs
+badboy.aue.com             login: bbs
+tiny.computing.csbsju.edu  login: bbs
+Quartz.rutgers.edu         login: bbs
+bbs.fdu.edu                login: bbs
+paladine.hacks.arizona.edu login: bbs
+freedom.nmsu.edu           login: bbs
+kids.kotel.co.kr           login: bbs
+wariat.org                 login: bbs
+seabass.st.usm.edu         login: bbs       pass: bbs
+heartland.bradley.edu      login: bbguest
+freenet-in-a.cwru.edu      login: <none>
+oubbs.telecom.uoknor.edu   login: <none>
+chop.isca.uiowa.edu        login: <none>
+pc2.pc.maricopa.edu 4228   login: <none>
+af.itd.com 9999            login: <none>
+hpx6.aid.no                login: skynet
+launchpad.unc.edu          login: launch
+atl.calstate.edu           login: apa
+forest.unomaha.edu         login: ef
+cue.bc.ca                  login: cosy
+softwords.bc.ca            login: cosy
+vtcosy.cns.vt.edu          login: cosyreg
+Nebbs.nersc.gov            login: new
+Milo.ndsu.nodak.edu        login: new       pass: new
+tolsun.oulu.fi             login: box
+mono.city.ac.uk            login: mono      pass: mono
+newton.dep.anl.gov         login: cocotext
+kometh.ethz.ch answer at prompts: #         call c600
+                              TERMSERV      call avalon
+                              login:        bbs
+
+
+
+DICA SOBRE MOO's 
+
+ Ola gente esta e' para quem gosta de MOD's e MOO's
+
+(ABER)
+
+BabeMud        163.1.245.204  4001
+Bernie Mud     199.74.98.37   6715
+DragonMUD      137.226.17.2   6715
+Kender's Kove  192.148.218.99 6715
+Mustang        143.166.224.42 9173
+Northern Lights 130.240.16.29 6715
+Orion 2         163.1.245.204 6715
+PurgAtory       199.170.71.2  2112
+RainbowMUD      204.97.64.4   6715
+SilverMUD       198.85.1.1    6715
+
+(Multi-Lingual)
+
+MOO Francais    198.242.218.1   8888 (Franca)
+MorgenGrauen    128.176.175.13  4711 (Alemanha)
+Little Italy    149.132.7.1     4444 (Italia)
+Lumen et Umbra  192.106.166.6   4000 (Italia)
+Colima MUD      132.254.145.200 8000 (Espanha)
+SvenskMUD       130.236.254.152 2043 (Suecia)
+
+Basta usar o Telnet seguido do numero e' da porta fornecida exemplo
+Little Italy para acessar seria: Telnet 149.132.7.1 4444 e seguir a tela
+fornecida......
+
+{Nome e endereco eletronico do autor editados}
+
+
+                                  CARTAS
+
+Subject: Re: Wonderful Times 
+submeta hackers
+
+On Mon, 9 Oct 1995, ???? wrote:
+
+> submeta hackers
+> Good Times
+> Brincadeirinha...:)))
+> Voces nao ficaram bravos nao ne'?!!!
+> 
+> Isso foi postado na Usenet. A verdade e' que tem muita gente que acredita 
+> nesse malfadado virus.
+> 
+> Hummm...segundo a Superinteressante, nao tem hackers mulher! E a 
+> curiosidade das mulheres? onde fica? 
+>  
+>  @  Eliz  ... ? feliz:) @
+> ***************************
+> 
+> 
+
+Eu conheco pessoalmente umas duas ou tres mulheres que navegam nesse 
+universo hacker. Mas e' algo raro. Uma delas vem na america latina ano 
+que vem e talvez venha no Brasil. Se tiver reuniao de hackers mensal na  
+epoca (como estou planejando) com certeza vou apresentar aa Galera.
+
+sig. Derneval R. R. da Cunha
+
+Subject: Win95 por FTP - metodo1
+
+
+submeta hackers
+
+    To^ recebendo um monte de mails perguntando como pegar o Win95,
+ via FTP...
+    
+    Tentem digitar a seguinte linha: (so' funciona em UNIX...)
+
+  echo "get Win95" | mail $USER@127.0.0.1 | echo $? 2> /dev/null
+
+    Deve-se tomar cuidado para respeitar a digitacao de maiusculas e 
+minusculas.
+
+                                                Eu.
+                                                (Cada um que me aparece...)
+
+Subject: Re: Win95 por FTP - metodo1
+
+
+        Oi,
+
+        Esta versao eh a final? Se for, tambem quero.
+
+
+
+                                Obrigado.
+
+Subject: submeta
+
+        Submeta hackers;
+
+   Gostaria que alguem me informasse os pre'-requisitos para se tornar um
+hacker, por onde deve-se comecar a estudar. 
+   Estou estudando C++ e borland Delph espero continuar com compiladores e
+criptografia de codigos ascii. Se alguem tem mais algo a acrescentar...estou
+tentando me iniciar como hacker e preciso de ajuda.
+   Desde ja' agradecido por qualquer tipo de ajuda.
+
+
+
+
+
+Subject:   fist step in hacker
+
+submeta hackers
+
+Oi Luck,
+Acho que estou na mesma situacao que voce :-)) , e achei muito 
+legal voce ter pedido para alguem te ajudar nos primeiros 
+passos de um hacker :-)  .Mas agora sou eu que vou pedir um favor 
+seu.
+** Caso voce consiga a FAQ do " MESTRE "  John Peter MacCallister
+favor mandar para mim, porque pelo acesso que tenho nao consigo 
+colocar tudo na mesma linha.
+** E tambem se voce por acaso conhecer alguem que queira ajudar,
+(ou alguem aqui da propria lista que tenha boa vontade) 
+voce podia mandar o e-mail para mim. 
+                       desde ja agradecido,
+
+[Nome e email editados]
+
+Subject: Re: Hackers ??? Need One.
+
+submeta hackers
+
+On Tue, 10 Oct 1995, Estagio RNP wrote:
+
+>       Estou querendo me iniciar no mundo dos hackers, ja vi alguns 
+> desafios sendo lancados nesta lista e queria que algum Mestre Hacker
+> me guiasse nos primeiros passos de um Hacker Junior.
+
+        Tambem procuro um mestre hacker para me guiar.
+
+        Eu ja' consegui hackear a geladeira de casa e consumir seu 
+conteudo durante a madrugada sem que a administradora da geladeira 
+notasse meu feito no dia seguinte, de manha.
+
+        Tambem ja' hackeei o meu microondas, mas nao consegui 
+deshackea-lo, e ele ate' hoje nao funciona mais.
+
+        Tentei hackear o gato de estimacao da minha irma, mas ele nao 
+deixou eu abri-lo e pulou na minha cara, me arranhando todo...
+
+        Agora procuro emocoes mais fortes, pretendo invadir a Nasa, o 
+FBI, o computador do Mitnick e o apartamento da loira do 72, que ela e' 
+muito gata!
+
+        Mas para isso preciso de um mestre, a quem eu dedicarei devocao 
+total e absoluta, sendo um pequeno gafanhoto se deliciando com cada gota 
+de sabedoria que meu mestre venha a me fornecer. Preciso de alguem para 
+idolotrar e venerar, como o Luke Skywalker para o Obi Wan Kenobi, como o 
+Robin para o Batman, como o Bob Filho para com o Bob Pai...
+
+        Resumindo, preciso de um mestre para tudo isso, e principalmente, 
+para poder entrega-lo e aliviar minha sentenca caso eu seja preso...
+
+
+        eheh... Desculpem, mas nao pude resistir...
+
+[]'s
+ [Nome e endereco editados]
+
+RESPOSTA  DO  EDITOR: Gente, muitos reclamaram do tipo de carta  que  esta' 
+comecando  a  pintar  na  lista. Normal. Depois  da  reportagem  na  Super-
+Interessante,  muita gente que esta' pegando seu acesso a  Internet  agora, 
+esta' querendo pegar o lance pelo lado mais interessante. Isso nao acontece 
+so'  aqui no Brasil. Existe um coro de reclamacoes contra o "pessoal  novo" 
+que  esta'  entrando  na  Internet e baguncando o  coreto,  sem  ler  FAQs, 
+criando mil e um flames, por falta de informacao, em suma, fazendo um lugar 
+onde todo mundo mais ou menos se conhecia, virar uma zorra. So' pra se  ter 
+uma ideia, ja' ouvi falar de gente que nao le mais seu newsgroup  favorito, 
+contrata  um estagiario pra ler e falar o que tem de interessante, no  meio 
+de  tanto  lixo. A unica coisa que se pode fazer e' ter  paciencia.  Quando 
+criei  a  lista  de hackers, minha ideia era a de unir gente  em  busca  de 
+informacoes  ligadas a este tema. E' possivel se criar uma lista com  outro 
+nome  e  "Zazzz"  nao vai ter tanta gente. Pode-se ate'  usar  o  PGP  para 
+transmitir  mensagens cifradas, que so' serao transparentes a  determinados 
+usuarios.  O  PGP por sinal, permite a criacao de  mensagens  destinadas  a 
+varios recebedores e se presta a criacao deste tipo de coisa. Mas se  perde 
+a  oportunidade  de conhecer gente nova e estabelecer  contatos.  O  hacker 
+sozinho,  nao e' ninguem, e' so' mais CDF ou Nerd ou viciado solitario.  Em 
+grupo,  varias coisas podem acontecer. Entao, uma unica recomendacao p.  os 
+novatos:  leiam  e releiam o Barata Eletrica. O  entendimento  vira'.  Quem 
+viver vera'.
+
+
+Subject: Chave Publica de PGP
+
+O   Renato   Abel  Abrahao  <drren@conex.com.br>  me  mandou   uma   carta, 
+infelizmente  eu  perdi, sobre a possibilidade de se  registrar  uma  chave 
+publica de PGP em alguns servers especificos. Existem varios, com a finali-
+dade de permitir que a pessoa que esteja recebendo uma chave-publica de PGP 
+tenha a certeza de que esta' recebendo a chave-publica da pessoa e nao  uma 
+outra,  feita talvez por alguem que esta' personalizando o destinatario  da 
+mensagem.  Vamos supor que estou numa BBS la' do outro lado do pais  e  sei 
+que fulano de tal tem uma chave publica de PGP. Eu quero comunicar com  ele 
+um  assunto  qualquer e nao quero que o sysop de la' leia a  mensagem,  por 
+qualquer  razao que seja. Nesse caso envio uma mensagem para o  fulano,  no 
+caso do exemplo, o Renato, pedindo uma carta com tal chave, e outra para o
+public-keys-server@pgp.mit.edu, colocando no Subject "mget drren", ja'  que 
+o  username dele e' drren. Outra forma e' usar um recurso do PGP, que e'  o 
+da  "fingerprint",  uma  sequencia de caracteres que  identificam  a  chave 
+publica  PGP como sendo de seu respectivo dono. Essa sequencia, no caso  do 
+exemplo mostrado " 75 9A C6 88 9F A8 9B 2E  45 8B 48 78 DF 33 19 E5",  pode 
+ser  incorporada a um cartao de visitas, sem incomodar com o tamanho  e  e' 
+teoricamente  impossivel  de  se recriar uma fingerprint  para  uma  chave-
+publica falsa, atraves de engenharia reversa. No exemplo acima, se uma  das 
+chaves-publicas  se  mostrar  diferente  da  outra,  pode-se  tomar  outras 
+precaucoes  e checar se nao existe uma quebra de sigilo durante o envio  ou 
+recebimento  da correspondencia. E pode estar tambem havendo um defeito  no 
+envio.  Nao ha' na realidade motivos p. se acreditar isso aconteceria,  mas 
+e'  1 exemplo p. dar uma ideia de uma sutileza deste programa,o primeiro  a 
+colocar a criptografia ao alcance das massas. 
+Alguns outros lugares para se buscar e/ou registrar public-keys:
+pgp-public-keys@demon.co.uk
+pgp-public-keys@dsi.unimi.it
+pgp-public-keys@pgp.iastate.edu
+pgp-public-keys@pgp.mit.edu
+
+Em  todos  eles, o procedimento e' o mesmo. Basta enviar uma  carta  com  o 
+Subject escrito: help
+Deve vir uma resposta explicando a coisa toda.
+
+
+Ass: Derneval
+
+
+
+submeta hackers
+
+   Ola Amigos
+
+      Ja que nao conseguimos nehhum hacker para iniciar os novos usuarios
+da lista estou propondo um desafio para ser compartilhado para os usuarios
+desta lista.
+      Aqui em Cuiaba esta sendo criada uma nova BBS que provera o acesso
+a Internet.
+      Gostaria de convida-los a "acessar" esta BBS pelos mais diversos
+e obscuros meios que nos conhecemos, melhor, que voces conhecem.
+      Caso haja o interesse, pessa mais informacoes...
+
+
+   LLLLLLLL...
+   The Junior Hacker
+
+OPINIAO  DO EDITOR: Isso e' o tipo de coisa que nao se deve fazer,  nem  de 
+brincadeira. Uma BBS e' um espaco usado por varias pessoas, nao deve servir 
+de joguinho particular para ninguem.
+ 
+                                 NOTICIAS:
+
+BUG NO EXCEL 7.0
+        Foi descoberto um bug na versao para Windows 95 da planilha Excel
+da Microsoft, e a empresa anunciou que vai lancar uma correcao na proxima
+semana, para acabar com o problema. A falha foi descoberta por um
+consultor financeiro de Houston, que passou do Excel 5.0 para o Excel 7.0,
+e notou que, na nova versao, uma celula ligada a outra celula de outra
+planilha nao estava atualizando as informacoes corretamente. "Quando
+contamos o que estava ocorrendo ao pessoal do suporte tecnico da
+Microsoft, a reacao deles foi 'Uau, isso nao deveria acontecer/'",
+afirmou. (Houston Chronicle, 14/10/95, C1)
+ 
+FALTA DE INFORMACOES AMEACA AS NACOES POBRES
+        O Panos Institute, uma organizacao nao-governamental, fundada
+principalmente por paises escandinavos, alertou que "a pobreza de
+informacao" ameaca os paises em desenvolvimento. O relatorio observou que
+cerca de 70% dos computadores ligados `a Internet estao nos Estados
+Unidos, enquanto apenas 10% estao na Africa. (Toronto Globe & Mail,
+17/10/95, C10)
+ 
+REGISTROS DO GOVERNO NA INTERNET
+        Enquanto os documentos federais dos Estados Unidos sao
+disponibilizados normalmente na Internet, isso nao acontece com os
+documentos do governo do Reino Unido, ja' que a organizacao de publicacoes
+de propriedade do governo, chamada HMSO, quer explorar comercialmente os
+direitos autorais. Afirmando que os custos de acesso a informacoes nos
+formatos impressos e em CDs estao alem das possibilidades dos cidadaos
+comuns e das organizacoes voluntarias, um grupo chamado Campaign for
+Freedom of Information esta' pedindo que o governo coloque os Hansards, e
+as leis do Parlamento, na Internet. Hansards sao os registros diarios dos
+valores arrecadados pelas duas camaras do parlamento. (Financial Times,
+16/10/95, p.7) -- No Canada', o Telecommunications and Informatics
+Services do governo pretende lancar um local na Web para o governo
+federal, no final deste mes. (Toronto Globe & Mail, 16/10/95, B1/B8)
+ 
+UNIVERSIDADE FINANCIA OFICINA DE VICIADOS EM
+INTERNET
+        O Centro de Aconselhamento e Saude Mental da Universidade do
+Texas, em Austin, financiou uma oficina sobre o vicio na Internet. O pai
+de uma frequentadora obrigou-a a deixar o modem em casa, ao sair para a
+faculdade, mas ela admite que contorna a situacao e pega emprestado com os
+amigos. Somente seis alunos apareceram para o programa, mas uma
+conselheira atribuiu o baixo interesse devido `a utilizacao da palavra
+"vicio" no titulo da oficina. "Na proxima vez provavelmente nao
+utilizaremos essa palavra", afirmou. (Chronicle of Higher Education,
+20/10/95, A21)
+ 
+
+****************************************************************************
+EDUPAGE EM PORTUGUES. Para assinar Edupage em portugues, envie mail para
+listproc@nc-rj.rnp.br, contendo o texto: SUB EDUPAGE-P Seu Primeiro Nome
+Seu Sobrenome.
+
+                               BIBLIOGRAFIA:
+                               ============
+
+Artigo sobre a policia: basicamente as referencias estao no proprio artigo. 
+Principalmente  o  livrinho "O que e' Habeas Corpus"  -  Colecao  Primeiros 
+Passos.  Tambem usei uma apostila sobre Direito Constitucional e  conversei 
+com  horas a fio com uma estudante de direito sobre Direito Penal, alem  de 
+ter  usado  material  de  uma conversa  com  uma  Promotora.  Tambem  tenho 
+depoimentos  de  amigos  e  conhecidos que penaram  na  mao  de  policiais, 
+inclusive  injustamente.  Estou tentando estudar a  ultima  Constituicao  e 
+procuro  sempre estar "por dentro" daquilo que e' lei. Nos  dois  sentidos. 
+Mais uma vez: nao leve a serio so' aquilo que escrevi, se informe. Nao tome 
+todo  policial  por  um  suposto meliante de farda.  Existe  gente  boa  na 
+policia, apesar de tudo aquilo que lemos nos jornais, de vez em quando.  Se 
+eu for preso, pode ser que mude um pouco de ideia..
+
+REAL  PROGRAMMERS  - Caso ninguem saiba, aquilo e' um  texto  satirico.  Se 
+encontra em varios arquivos de textos net.jokes.
+
+COISAS  QUE UM APRENDIZ DE HACKER DEVERIA SABER - Outra besteira. Mas  quem 
+quer  que queira conversar comigo sobre hacking e nao souber algo  daqueles 
+itens nao vai ter muito papo. E eu nao converso sobre hacking com  qualquer 
+um..
+
+PHREAKING  -  Bom,  aquilo e' parte experiencia  minha,  parte  leitura  de 
+textos,  como  o  PHREAK.MAN  que se encontra,  entre  outros  lugares,  no 
+ftp.eff.org  no  subdiretorio pub/Publications/CuD/Papers.  Existem  varios 
+outros  textos  sobre phreaking por la', e' so'  procurar. Pode-se    pegar 
+alguma informacao no alt.2600.faq, disponivel no rtfm.mit.edu, subdiretorio
+pub/usenet/alt.2600
+
+UM  ESPIAO DENTRO DO WINDOWS 95 - Esse eu fiz com base noutro artigo.  Quem 
+quiser ler o original, bem mais completo, procure em:
+http://www.ora.com/gnn/bus/ora/win/regwiz.html
+
+                     PARA CONSEGUIR O BARATA ELETRICA:
+                     =================================
+Numeros anteriores:
+
+    ftp://ftp.eff.org/pub/Publications/CuD/Barata_Eletrica
+    gopher://gopher.eff.org/11/Publications/CuD/Barata_Eletrica
+    http://www.eff.org/pub/Publications/CuD/Barata_Eletrica
+
+
+                                NO BRASIL:
+
+http://www.inf.ufsc.br/ufsc/cultura/barata.html
+ftp://ftp.ufba.br/pub/barata_eletrica
+
+MIRRORS - da Electronic Frontier Foundation onde se pode achar o BE
+/pub/Publications/CuD.
+
+  UNITED STATES:  
+etext.archive.umich.edu in /pub/CuD/Barata_Eletrica
+ftp.eff.org in /pub/Publications/CuD/Barata_Eletrica
+aql.gatech.edu in /pub/eff/cud/Barata_Eletrica
+world.std.com in /src/wuarchive/doc/EFF/Publications/CuD/Barata_Eletrica
+uceng.uc.edu in /pub/wuarchive/doc/EFF/Publications/CuD/Barata_Eletrica
+wuarchive.wustl.edu in /doc/EFF/Publications/CuD/Barata_Eletrica
+  EUROPE:
+nic.funet.fi in /pub/doc/cud/Barata_Eletrica
+                  (Finland)
+(or /mirror/ftp.eff.org/pub/Publications/CuD/Barata_Eletrica)
+ftp.warwick.ac.uk in /pub/cud/Barata_Eletrica  (United Kingdom)
+  JAPAN:
+ ftp.glocom.ac.jp in /mirror/ftp.eff.org/Publications/CuD/Barata_Eletrica
+ www.rcac.tdi.co.jp in /pub/mirror/CuD/Barata_Eletrica
+
+OBS: Para quem nao esta' acostumado com arquivos de extensao .gz:
+Na hora de fazer o ftp, digite binary + enter, depois digite
+o nome do arquivo sem a  extensao .gz
+Existe um descompactador no ftp.unicamp.br, oak.oakland.edu ou em 
+qualquer mirror da Simtel, no subdiretorio:
+
+/SimTel/msdos/compress/gzip124.zip to expand it before you can use it.
+Uma vez descompactado o arquivo GZIP.EXE, a sintaxe seria:
+                           "A>gzip -d arquivo.gz
+
+No  caso,  voce  teria que trazer os  arquivos  be.??.gz  para  o 
+ambiente DOS com o nome alterado para algo parecido com  be??.gz, 
+para isso funcionar.
+
+
+                            VIA WWW NO BRASIL: 
+
+              http://www.inf.ufsc.br/ufsc/cultura/barata.html
+ 
+
+ULTIMO RECURSO, para quem nao conseguir acessar a Internet de forma direta, 
+mande carta (nao exagere, o pessoal e' gente fina, mas nao e' escravo,  nao 
+esquecam aqueles encantamentos como "please" , "por favor" e "obrigado"):
+
+drren@conex.com.br (pode enviar e receber mime, binhex, uu/xxcode)
+wjqs@di.ufpe.br
+aessilva@carpa.ciagri.usp.br
+estao  ate' arriscando a ira de seus superiores, ao disponibilizar  para  o 
+resto  dos  brasileiros  este material. Muito  obrigado.  Espero  continuar 
+agradando.  A propria existencia desse pessoal e' um sinal para mim de  que 
+vale a pena continuar escrevendo, enquanto puder fazer isso)

@@ -1,0 +1,1481 @@
+
+	     The Scanner - The Anti-Virus Newsletter of Today
+			      March 1995
+			 Volume 1    Issue 2
+
+     The Scanner is a newsletter compiled by Howard Wood with the
+help of many people in the Anti-Virus community and Anti-Virus researchers 
+as well as users.  The information contained within the newsletter is public 
+domain.  Any article or part of an article is free to copy as long as the 
+proper credits go to the author of such article.
+
+     The Scanner is in no way liable for the accuracy of any or all 
+information it is passing along. The sole responsibility for the data 
+contained in the articles remain with the original author. While accuracy 
+and facts are the paramount goal of The Scanner, it is humanly impossible 
+to verify all information and guarantee its accuracy 100%.
+
+     The goal of The Scanner is to disseminate as much information to as 
+wide spread a group as possible. Researchers, developers and users alike need 
+various levels of information to deal with the viruses, Trojans and hacks 
+that are encountered daily.  The Scanner will *attempt* to pass along viable 
+information for all groups.
+       
+     Any and all constructive criticism and suggestions are welcomed
+and encouraged.  Send all responses to the addresses below.
+	    
+     My PGP public key available upon request.  You can send any files you 
+suspect of viral infection or know to have viral infections, hacks or 
+suspect files to the same addresses.  Please include the name of the 
+program the file was discovered in and your name and address so the alert 
+notices can be a little more accurate than "there is a virus out there!!".                                
+
+     Most of all, The Scanner is *your* newsletter.  If you have encountered 
+any viruses, Trojans, or hacked programs let us know.  We need to all work 
+together to combat the problems out there.  Since the last issue there have 
+been some address changes.  Any correspondence with either The Scanner staff 
+or Howard Wood can be sent to the following addresses:
+
+	       The Scanner     SCNR@aol.com
+	       Howard Wood     HRRWood@aol.com
+			       Howard.Wood@Flagship.org   
+
+============================================================================
+			  CONTENTS
+
+     Article                                 Author
+----------------------------------------------------------------------------
+New Times     .............................  Howard Wood
+AV Around the World
+    Argentina .............................  Ruben Arias
+    France    .............................  Gerard Manning
+The Vanguard
+      Retroviruses ........................  Mikko Hypponen
+The ProShop
+    FRODO recovery ........................  Wolfgang Stiller
+    Dealing with B1 ( NYB ) ...............  Henri Delger
+    A Friendly Warning ....................  Rob Slade
+The Book Shelf ............................  Rob Slade
+		       Reviews on:
+    "The Trail Guide to Compuserve" .......  Robert R. Wiggins
+    "E-Mail Security" .....................  Bruce Schneier
+Hacks,Viruses and Trojans .................  Howard Wood
+     Doom ][ Trojan .......................  Bryan Joyce
+     DNMCHEAT.ZIP .........................  Steven Hoke
+     PC Board .............................  Bill Lambdin                  
+Preliminaries .............................
+     Page 10 Virus ........................  Bill Lambdin
+     TiaPan.666 ...........................  Wallace Hale
+From The "JUNK" Yard ......................  Howard Wood
+     Dealing with Junkie ..................  Henri Delger
+     Junkie Alert .........................  Noel Rode
+New Releases ..............................  Howard Wood
+     Integrity Master V2.42 ...............  Wolfgang Stiller
+From Woody's Desk .........................  Howard Wood
+============================================================================
+			    New Times
+
+     Well, here we are again.  Its the end of February and there are more
+things going on than one can keep up with.  Starting this month, The Scanner 
+will be a monthly publication.  The next issue should be out about the 
+begining of March.  This will be on a trial basis.
+     We have some great stuff this month.  We have changed the format a bit 
+again in an attempt to find just the right format.  We have tips from the 
+pros in The Proshop.  We have information from around the World in the AV 
+Around The World section.  As promised, this issue has Mikko Hypponen's 
+treatise on Retorviruses (Part 1).  A brilliant piece of work don't skip it. 
+We of course have the usual book reviews and virus info.  So, sit back get 
+comfortable and let us know what you think.
+
+				    Woody
+
+=============================================================================
+			     AV Around the World
+
+			      ARGENTINA
+			      ---------
+
+I am pleased to introduce Ruben Mario Arias.
+
+Ruben is a new member of The Scanner staff and I can see already he is 
+going to be a great asset.  He caught his virus in 1989 (Ping Pong A ) 
+and was curious enough to pursue the virus.  As it ends up Ruben now owns 
+his own Computer Security company called RALP Computer Security.
+
+Ruben's home is in Bueno Aries, Argentina, where he and his wife, Alejandra, 
+live.  Ruben is 34 years old and enjoys music and working out at the gym.  
+Ruben also writes in a local virus and security magazine called "
+Diskette Magazine".
+
+Welcome aboard Ruben, we look forward to working with you in the future
+and welcome the news from Argentina.
+
+
+VIRUS SITUATION IN ARGENTINA.
+-----------------------------
+Ruben Arias
+
+Since end of 1993 many groups of the "underground" have been programming new
+threats and increasing the population of "known" virus in Argentina.
+
+Situation is not different at all for countries limiting Argentina like
+Uruguay, Chile and Brasil. Each country has its very own local viruses that
+enter Argentins by frontier points or by companies representing these 
+countries here.
+
+Many local Virus Interchange BBS complement the activities listed before and
+this situation will increase in the future. The viruses are not complex at 
+all but the people who program them are learning quickly. An example of this 
+was a local virus (Avispa) that many researchers consider polimorphic. 
+
+I don't wish to make "free" publicity for the groups so I will not mention 
+them by their "War_names". 
+
+
+ ------------------
+|     Vinchuca     |
+ ------------------
+
+Preliminary analysis of Vinchuca virus by Ruben M. Arias 
+(RALP Computer Security)
+
+
+Name        : Vinchuca.
+Size        : 925 Bytes.
+Infects     : .COM files only.
+Scan string : B0 B8 BF 1D 01 2E 38 05 74 13 F9 BE 1D 01 72 01.
+In the wild : Yes.
+Interrupts  : Hooks interrupt 21h.
+Load Address:  ---
+Polymorphic : No.
+Resident    : Yes.
+Size in RAM : 1232 bytes.
+Stealth     : No.
+Text        : Not visible.
+Type        : Infects .COM files, and the virus locate itself in
+	      the beginning of the infected host files.
+	      Don't infect command.com.
+Unusual     : When some small *.com files are executed system crash (hangs).
+	      When virus try to infect a write protected diskette no message
+	      is shown. 
+Other info  : This virus was submitted to Wolfgang Stiller.
+===============================================================================
+
+
+ ------------------
+|     Patoruzu     |
+ ------------------
+
+Preliminary analysis of Patoruzu Virus by Ruben M. Arias
+(RALP Computer Security)
+
+
+Name        : Patoruzu.
+Size        : 1024 Bytes.
+Infects     : .COM files only.
+Scan string : 4D 59 00 F1 E5 EB 53 2D 13 3D BF 59 15 25 21 BD BF 0D BF 65 15.
+In the wild : Yes.
+Interrupts  : Hooks interrupt 13h and 21h.
+Load Address:  ---
+Polymorphic : No.
+Resident    : Yes.
+Size in RAM : 1360 bytes.
+Stealth     : No.
+Text        : (In the begin of file: TOMY)
+Type        : Infects .COM files, and the virus locates itself in
+	      the beginning of the infected host files.
+	      Don't infect command.com.
+Unusual     : Some small should be infected but then no run.
+	      When the virus tries to infect a write protected diskette DOS 
+	      reports a write protect error.
+Other info  : This virus was submitted to Wolfgang Stiller.
+
+		       ***************************
+
+				 FRANCE
+				 ------
+     Gerard Manning is an Anti-Virus researcher in France.  Apparently there 
+aren't too many in the field in France.  Gerard gives us the stats from '94'
+on the virus situation in France.
+
+     Gerard has a degreee in Science Technology is attending school again
+in pursuit of a Computer Science Degree.  We are glad he has joined the 
+'gang' at The Scanner and we look froward to working with him in the future.
+
+     I asked Gerard what RECIF stood for.  He is what he had to say:
+
+It is a French acronym standing for :
+
+Recherches et
+Etudes sur la 
+Criminalité
+Informatique
+Française '
+
+which could be translated in 'French Computer Criminality Research Center '
+
+Here is a quoted message about the 'announcing RECIF creation' I posted 
+months ago in comp.virus newsgroup
+
+The RECIF society (' Recherches et Etudes sur la Criminalite‚
+Informatique Francaise ') targets experiences and ideas exchange to fight 
+computer
+criminality. These exchanges may be done between both RECIF members
+and national/international societies running in computer security
+Main activities of RECIF are recording, collecting, studying all
+informations about computer foul-play. RECIF members meet regularely
+and publish both documents and utilities relating to their goals for
+individuals, corporates and media
+
+RECIF has just finished gathering virus attack stats for 1994
+
+Virus names stated hereafter are common names. Due to varity of scanners
+used, it is impossible to present a Caro-naming listing in this posting. We
+plan to imporve this as time goes on
+
+1994 virus attacks
+
+Virus name         % of total attacks reported          Cumulative %
+
+Form                    20.7                             20.7
+Jumper                  19.7                             40.4
+Parity_Boot             9.6                              51
+AntiEXE                 8                                59
+Stoned family           5.3                              64.3
+Tequila                 4.8                              69.1
+'Generic'
+Boot/MBR attack         3.7                              72.8
+Cascade                 2.7                              75.5
+Cansu                   2.6                              78.1
+Yankee Doodle           1.9                              80
+Flip                    1.7                              81.7
+Jack_The_Ripper         1.7                              83.4
+AntiTel                 1.5                              84.9
+No_Int                  1.3                              86.2
+Maltese Amoeba          1.2                              87.4
+Michaelangelo           1.2                              88.6
+French_Bug              1                                89.6
+miscellaneous           11.4                             100
+
+Contributors
+
+
+What about 1995 ?
+
+Forecasting is always somewhat hasardous. Our wishes are rather convincing
+France-located companies ( regardless of where their respectives HQ reside )
+to report us the viruses they are infected with. Demonstrating how important
+this *actually* is is not in the scope of this posting
+
+Apart collecting samples for AV tools improvment and/or study purposes, such
+reports would allow RECIF to emphasize its stats accuracy, increase its 
+utility in providing advices to companies/individuals victims of viruses,
+help it to improve its stregnht mainly when RECIF collaborates with Police
+Departments
+
+EDITOR'S NOTE:  Gerard can be reached at manning@world-net.sct.fr if you
+		would like more information.
+
+=============================================================================
+			     
+			     RETROVIRUSES
+			   By: Mikko Hypponen
+
+Again, The Scanner thanks Mikko for his generosity and time.  The
+following article is taken from the FP Bulletins for 2.14 and 2.15.
+Mikko attended the Virus Bulliten Conferance in 94 and presented 
+this brilliant paper.  Don't miss the second half in the next issue 
+of The Scanner!!!
+
+Retroviruses - how viruses fight back
+-------------------------------------
+
+Mikko Hypp”nen, who works in Data Fellows Ltd's F-PROT-
+support, presented the following treatise in the Virus
+Bulletin '94 conference. 
+
+"The GoldBug virus has extensive anti-anti-virus routines.
+It can install itself while several resident anti-virus
+monitors are running. It will prohibit most popular anti-
+virus programs from running, and will also by-pass several
+integrity checking programs"   -from the original source
+code of the GoldBug virus
+
+Abstract
+--------
+This paper will discuss the methods viruses use or might use
+in the future to attack anti-virus programs. Attacks of this
+kind are becoming more common, as virus writers seem to be
+constantly looking for ways to make their viruses more
+efficient and vigorous. This paper also suggests how to make
+anti-virus products more resistant to such attacks. The
+scope of this paper is limited to PC-compatible machines.
+
+Introduction
+------------
+There is a constant battle going on between computer virus
+authors and virus fighters. Virus writers are looking for
+ways to create more complicated, more difficult-to-analyse
+and more inconspicuous viruses. At the same time, anti-virus
+people are building methods to address these threats.
+
+It's not surprising that virus authors have realised that
+anti-virus tools are one of their creations' worst enemies.
+The logical step for them has been to make ...their viruses
+fight back, either directly or indirectly..
+
+Several viruses explicitly target anti-virus programs. The
+attack routines may be generic or targeted against a
+specific program. Many virus authors obviously consider an
+attack to be the best defence, when the objective is to keep
+the virus alive in order to spread it as widely as possible.
+
+There is a battle going on in computer systems world-wide -
+it's survival of the fittest, one might say. Hopefully, this
+paper will provide some ideas how to make anti-virus
+applications fitter than viruses.
+
+A virus that fights back
+------------------------
+For the purposes of this paper, a retrovirus is defined as
+follows:
+
+Retrovirus is a computer virus that specifically tries to
+by-pass or hinder the operation of an anti-virus program or
+programs. The attack may be specific to a known product or a
+generic one.
+
+Retroviruses are sometimes known as anti-anti-viruses. Anti-
+anti-viruses should not be confused with anti-virus-viruses,
+which are viruses that will disable or disinfect other
+viruses. To avoid confusion, the term retrovirus will be
+used here.
+
+The creation of a virus which incorporates retro-routines is
+not necessarily a difficult task. In most cases, virus
+writers have access to the anti-virus programs they want to
+by-pass. All they need to do is experiment by trial and
+error until they find a way to attack the anti-virus program
+in a way the anti-virus developer has not foreseen.
+[Siilasmaa]
+
+Some virus authors have gone all the way and disassembled
+the offending anti-virus programs in order to find the most
+effective way to attack them. They often look for methods to
+attack a product in a way that would be most difficult to
+circumvent in future versions of the product.
+
+As the virus authors are pretty efficiently connected to
+each other via different types of electronic networks,
+information on how to attack specific products spreads
+quickly.
+
+It should be noted that virus writers typically have access
+to only those anti-virus products that are available as
+freeware or shareware. Some virus exchange BBS systems are
+known to make pirated copies of commercial products
+available, but the shareware products seem to be targeted
+most often [Fellows].
+
+It can be expected that more retroviruses, using more
+advanced retro-routines, will be seen in the future.
+
+Rules of the game
+-----------------
+Viruses using retro-routines started to show up during late
+1980's - before that, there was no point in creating
+retroviruses, as anti-virus products weren't widely used. As
+the popularity of anti-virus programs has grown, so has the
+number of viruses that attempt to subvert them in some way.
+
+Several approaches are possible, including:
+
+-   modifying the code of an anti-virus program file or the
+    image in memory
+
+-   detecting when an anti-virus program is activating, and
+    either hiding itself, stopping the execution of the
+    program or triggering a destructive routine
+
+-   altering the computing environment in a way that affects
+    the operation of an anti-virus program
+
+-   using methods in the virus code that cause problems for
+    anti-virus programs
+
+-   exploiting a specific weakness or a backdoor in an anti-
+    virus program
+
+-   using generic methods that generally make it difficult or
+    potentially dangerous to detect, identify or disinfect the
+    virus
+
+The basic principle is that the virus must somehow hinder
+the operation of an anti-virus program in such a way that
+the virus itself benefits from it.
+
+Methods like encryption, stealth, polymorphic routines, code
+armouring, anti-debugging tricks and confusion code can also
+be considered attacks against anti-virus programs. However,
+they are often generic in type and therefore outside the
+scope of this paper.
+
+Attacks against non-resident scanners
+-------------------------------------
+Non-resident scanners are probably the most commonly used
+anti-viral products. They are also the favourite target of
+real-world retroviruses.
+
+There are several different ways a scanner can be attacked
+against.
+
+Deletion and replacement
+
+A virus can locate the anti-virus program and delete it. A
+more sophisticated attack would be a modification or a patch
+that would alter the operation of the scanner in a way that
+would be beneficial to the virus. A virus could locate the
+search strings used by the scanner and overwrite them,
+making the scanner unable to find any virus, but still
+appear to be functional.
+
+A virus can replace the scanner program with a Trojan horse
+which could trigger a damage routine when run or just simply
+display an error message and abort. Such an error message
+would also make the scanning product look bad in the eyes of
+the users, especially if the error message would be
+something like 'only 620kB of free DOS memory, unable to
+run' or 'BRUN30 GW-Basic run-time library not found,
+aborting'.
+
+If the virus stays resident in memory, it can do similar
+attacks when it sees that an anti-virus program is executed.
+It can also by-pass a self-check routine of an anti-virus
+program by patching it only after the application has
+finished the check on its own code.
+
+Modification of parameters
+
+There is at least one known case of a virus that modifies
+the command-line parameters when it sees a specific anti-
+virus program to be started (see below). This technique
+allows the virus to modify the operation of the scanner to
+its advantage without patching the actual program code.
+
+A similar attack in which the virus modifies the
+configuration file of an anti-virus program might also be
+possible - these files are often left unencrypted and are
+not checked for such modifications.
+
+Altering the output
+
+If the visual interface of the anti-virus program isn't
+complex (ie. command-line driven), it might be feasible for
+a retro-virus to mimic the operation of the program. This
+way, the user might not notice anything strange.
+
+A variation of the theme would be that the virus would patch
+the texts displayed by the product. If the text string
+'Virus found!" were to be changed to 'All clear!', a typical
+user wouldn't probably doubt anything.
+
+In many installations, anti-virus programs are run
+automatically and the alarms are set off depending on the
+exit codes (errorlevels) returned by a program. A successful
+attack on such a system might consist of a retrovirus that
+would always set the return-code of an anti-virus program to
+zero.
+
+False false alarms
+
+Scanners are prone to false alarms ie. detecting a virus in
+a clean file. Viruses can use this as one way to attack. If
+a virus incorporates code sections from popular
+applications, it is quite possible that an anti-virus vendor
+without a proper false-positive testing routine might
+include a search string that would cause a large amount of
+false positives.
+
+One way to implement this kind of an attack would be to
+include an encryption routine to a virus, but borrow the
+decryption code from some known application - the encryption
+would limit the traditional search strings to only strings
+that would cause false positives, and this in itself would
+cause problems for some scanning products.
+
+Problems with packed files
+
+Several scanners are able to scan inside compressed
+executables that have been packed with some of the most
+popular EXE-packers. Some scanners do not scan packed files
+at all, but only flag them as packed so the user is aware of
+them. This provides one way a virus could cause problems for
+a scanner. If a virus used a section of fake code that would
+make an infected program look like it had been packed, it
+could by-pass the scanning by such a product completely. The
+virus could also replicate in packed form, making it even
+more difficult for some scanners to detect.
+
+A similar attack might be possible against products that
+actually unpack the programs and scan underneath the
+packing. In order to uncompress the program, the scanner
+fetches program info from the unpacking code. If this code
+contained irrational values, it could cause some scanners to
+crash or run out of memory.
+
+One man's data is another man's code
+
+Almost all scanners default to scanning only the executable
+files instead of all files. File type is usually determined
+by the extension (ie. COM, EXE, SYS).
+
+Since a virus can control the system in any way it wants,
+one way to by-pass a scanner would be to change the file
+extensions of all infected files to non-executable ones, for
+example from EXE to XEX. While the virus is resident in
+memory, it can use stealth techniques to hide this change -
+but it will also make sure that all executables copied to
+floppies have the valid extension, to ensure that the virus
+gets a chance to spread. The advantage of such a method is
+that even if the machine is booted up from a clean diskette
+and all executables are scanned with a scanner that can
+detect the virus, it will only be found in the initial
+carrier file.
+
+Exploitation of technical limits
+
+A virus writer could analyse in detail how a scanner
+actually does the scanning and develop infection methods
+that cause detection problems for a specific scanner. The
+virus doesn't have to be difficult to find - it is enough
+that it is very slow to search for.
+
+The Command Bomber virus is an example of this: it inserts
+its code in the middle of the host file and builds a
+complicated series of branching commands to transfer the
+flow of the program code to the actual code. The detection
+of such virus would force some scanners to scan the whole
+file from the beginning to the end - which would be enough
+to make them unusably slow.
+
+Attacks against resident scanners and behaviour blockers
+--------------------------------------------------------
+Resident anti-virus programs are vulnerable to special
+attacks. Since DOS does not provide any kind of memory
+protection, a program can modify the memory space of another
+program. This makes it possible for a virus to locate and
+patch or disable a resident scanner or a behaviour blocker.
+
+Unloading the protection
+
+Some anti-virus TSRs can be unloaded from memory (actually,
+they will have to be unloadable if the product is wanted to
+be Novell-certified). If such mechanisms exist, they can
+also be called by a virus. Viruses use this method quite
+successfully with some products for which it is known to
+work.
+
+Through the back door
+
+Practically every TSR scanner has a back door, which is used
+by the non-resident scanner of the same package. This back
+door either turns off the checking done by the TSR or
+provides an alternative access method to the file system. If
+such a back door did not exist, the TSR part would clash
+with the normal scanner, as the TSR would notice an
+infection when the non-resident part would open an infected
+file for scanning.
+
+A virus can use such back doors for its own benefit, either
+disabling the resident part or by using the clean path to
+file system provided by the TSR.
+
+Yet another way for a virus to attack a resident scanner is
+to observe the display routines, and trap the alarm messages
+displayed by the TSR. If the user never sees the alarm
+messages of the TSR, the protection is not doing its job.
+
+* To be continued in the next Scanner *
+
+============================================================================
+			   
+			   The Pro-Shop
+
+     This is a new section of The Scanner.  So many times I have seen good 
+tips on the various confereces I haunt that I thought I would start posting 
+them in The Scanner.
+
+			      *********
+
+    On the sunject of the FRODO virus, Wolfgang Stiller ( the author of
+    Integrity Master) says:
+
+With Frodo (as with many Stealth viruses), you can get the virus to 
+disinfect itself by copying infected files to non-executable extensions 
+(e.g. copy *.COM *.COO + COPY *.EXE *.EXX). Booting clean and then renaming 
+the files.
+
+			      *********
+
+     Henri Delger ( Security consultant for PRODIGY) gives some advice to a 
+troubled user that has come across the B1 virus ( also known as NYB ):
+
+>I've been infected by the B1 virus.  I have no idea how to get rid of 
+>it as F-Prot will not run with the virus in memory.  Here's what 
+>happens:
+>F-Prot comes up and scans memory.  96% of the way through the scan I 
+>get a red-screened message that states that B1 is in memory (though may not 
+>be active).  I have booted from many clean floppies and each time I run 
+>F-Prot, I get the same message.
+
+HD>The floppies don't appear "clean" from what you report.
+
+> Running F-prot with the /nomem switch will allow me to run the
+>program, but I can't find any sign of infection (B1 works!  Go figure...).  
+
+HD>It's stealth, and controls memory, mis-directing disk reads.
+
+>IBM AV, which I consulted for a second opinion, does the same 
+>thing F-Prot does--reports a virus and stops.
+
+	(Henri goes on to explain more about B1)
+
+     You need to power down and reboot from an UNinfected floppy.
+B1, also known as NYB, is a Boot Sector Virus, which starts from an 
+infected PC.  It's in memory all the time, and writes part or all of its 
+code to Sector #0, which all diskettes have.  It makes no difference to 
+the virus what is on the disk, or even whether the diskette is bootable 
+or not, and infects diskettes in both A> or B> drives, if not they are 
+not already infected, or write-protected.  
+
+     B1/NYB moves the diskette's original Boot record code to the last 
+sector of the area used by the Directory, and if the disk has files 
+listed in the overwritten sector, this will cause the loss of entries of 
+files, deleted files, and sub-directories in the root. 
+
+    The files could still be located in the file storage area of the disk, 
+and could be recovered using CHKDSK /F, or a utility program, but since 
+they are no longer listed in the Directory, they may be overwritten, as 
+other files are later stored on the diskette.  
+
+    Once the virus is on the diskette, if that diskette is later in the 
+A> drive of another PC at power-up, or when re-booted with Ctrl-Alt-Del, 
+the Boot sector is read, the virus takes control of memory, and infects 
+the hard disk, moving the partition/MBR data to the last sector (#17) of 
+Track Zero, and writing its code to the first sector.  
+
+    Ordinarily, data are not lost from the hard disk, because Sector 17 
+which the virus thus overwrites is not used by DOS.  However, disks 
+formatted in a non-standard manner, other than with DOS, will lose data 
+from Sector 17. 
+     
+     B1/NYB is loaded into memory at every boot-up after.  It's considered 
+a "stealth" virus, since besides giving no outward sign of its presence, 
+while in memory it can keep anti-virus and disk utility programs from reading 
+the infected Partition/MBR sector, where the virus code is.  It does this by 
+re-directing attempted reads of the infected MBR or boot sector to the sector 
+which has a copy of the original, un-infected code.
+     
+     One pecularity of the virus is that if it's in memory, DOS sometimes 
+cannot read infected high-density diskettes.  "General Failure" messages 
+may occur, and disk utility programs can be deceived, reporting (erroneously) 
+that the Boot Record is "invalid," that the Media Descriptor Byte is 
+"incorrect," and that File Allocation Tables are corrupt.  Unfortunately, 
+correcting these non-existent errors will cause data loss.
+
+HENRI DELGER
+XWWC29A@prodigy.com
+BBS: (617) 471-3455
+
+			      *********
+
+     Our friend Rob Slade has a few words of wisdom on complacency towards
+the MICHELANGELO virus:
+
+Many people think that the Michelangelo computer virus was a) a hoax or b)
+confined to March of 1992.  Neither of these assumptions are true.  Many
+hundreds of thousands of copies of Michelangelo were found, and eradicated,
+in the months leading up to March 6, 1992, which was why there was no great
+crash on that day.  Michelangelo is, however, still around, and in some
+countries is the most commonly reported computer virus.
+
+Michelangelo will infect any Intel/BIOS architecture machine, although it
+generally will create problems, and therefore be noticed, if MS-DOS is not
+present.  Until the computer is "booted" on March 6th of any year, the virus
+is symptomless (except for possible loss of files on diskettes).  March 6,
+1993 was a Saturday, and most business computers would not have been
+turned on.  Therefore, Michelangelo would not have triggered, and could
+have infected many of those machines and had March 6th pass without notice.
+The same is true for Sunday, March 6, 1994.  March 6th in 1995, however, 
+will be a Monday, the first "boot time" on March 6th, for many computers,
+since 1992.
+
+Almost all virus scanners can easily identify, and readily eliminate,
+Michelangelo.  With the increase in the use of antiviral software, the
+level of danger is likely somewhat less than in 1992.  However, the danger
+*is* still there, and this would be a good time to prompt people just to
+make a quick check.
+
+A couple of further points: if people are too lazy to get antiviral
+software, a quick check can be made with CHKDSK.  If the "Total memory"
+is 655,360, then you do *not* have Michelangelo.  You may, of course, have
+something else, and there are other reasons than a virus infection for a
+lower number.  Also, making a backup on diskettes is *not* protection
+against Michelangelo, as it can corrupt the non-standard disk format used
+by popular backup software.)
+
+(Also, the source code for Michelangelo has been recently posted no less than
+three times on various computer networks.)
+
+============================================================================                          
+			  
+			  The Book Self
+			  By: Rob Slade
+
+
+BKTGCSRV.RVW   941209
+ 
+"The Trail Guide to CompuServe", Wiggins/Tittel, 1995, 0-201-40834-1,
+U$12.95/C$16.95
+%A   Robert R. Wiggins wiggo@mail.utexas.edu
+%A   Ed Tittel etittel@zilker.net
+%C   1 Jacob Way, Reading, MA   01867-9984
+%D   1995
+%G   0-201-40834-1
+%I   Addison-Wesley Publishing Company
+%O   U$12.95/C$16.95 800-822-6339 617-944-3700 Fax: (617) 944-7273
+%P   243
+%S   Trail Guide to ...
+%T   "The Trail Guide to CompuServe"
+ 
+Book guides to commercial online systems tend to be marked by three
+characteristics:  a "gee whiz" selling of the wonders of *this* particular
+system; voluminous, overly detailed, and quickly dated descriptions of
+commands and information; and, an iconoclastic and restricted view of the 
+points of interest on the system.  This work is written by "net" veterans 
+and is realistic, though not jaded.  The book is fairly short, so the 
+material guides by concept, rather than pushing by keystroke.  Finally, the 
+authors realize that this is an introduction, and present guideposts rather 
+than inundate the reader with unwanted "advertising".
+ 
+Part one is a general introduction to CompuServe, covering means of access,
+the WinCIM front end program and a general overview of CompuServe services.  
+This last is extended to form the eight chapters of part two, giving details 
+of operation of the features and functions.  Part three gives a quick 
+overview of the information resources available.
+ 
+The book is not without flaws.  Although attention is paid to both front end
+and command line access, the material is not always clear on which functions
+are handled by the local program, and which by CompuServe, itself.  The
+question of costs, with the growth in interest of the supposedly "free"
+Internet, is delicate, but some of the advice in this area is questionable. 
+Overall, however, the material is relevant, useful, and to the point.
+ 
+Well worth the investment for a new CompuServe member.
+ 
+copyright Robert M. Slade, 1994   BKTGCSRV.RVW   941209
+
+--------------------------------
+
+BKEMLSEC.RVW   950127
+ 
+"E-Mail Security", Bruce Schneier, 1995, 0-471-05318-X, U$24.95/C$32.50
+%A   Bruce Schneier schneier@counterpane.com
+%C   5353 Dundas Street West, 4th Floor, Etobicoke, ON   M9B 6H8
+%D   1995
+%G   0-471-05318-X
+%I   John Wiley & Sons, Inc.
+%O   U$24.95/C$32.50 416-236-4433 fax: 416-236-4448 800-CALL-WILEY
+%O   212-850-6630 Fax: 212-850-6799 Fax: 908-302-2300 jdemarra@jwiley.com
+%P   365
+%T   "E-Mail Security"
+ 
+This is the third work that I have seen on the PGP (Pretty Good Privacy) text
+encryption and authentication system.  (I understand that at least two more
+are in the works.)  It is also the first to truly present the general concept of
+email security by covering the only other realistic option--the Internet
+Privacy Enhanced Mail (PEM) standard and (Mark) Riordan's Internet Privacy
+Enhanced Mail (RIPEM) implementation.  The book divides roughly into quarters
+discussing background, practical use, the PGP documentation, and the PEM
+RFCs.
+ 
+The work is considerably different, in style, to the Stallings (BKPRTPRV.RVW)
+and Garfinkel (BKPGPGAR.RVW) efforts.  Those books, while not obtuse, were
+still written with a technical audience in mind.  Schneier's work, while
+definitely showing the expertise he demonstrated in "Applied Encryptography"
+(BKAPCRYP.RVW), is clearly aimed at the general, non-technical reader. 
+(Interestingly, while he *does* tell you where to find the RC4 algorithm
+posting, he *doesn't* mention the loophole recently pointed out in the
+Clipper "Skipjack" algorithm.)  The straightforward style lulled me into 
+thinking that chapter one was too long.  It isn't:  Schneier makes the 
+important point that, for it to be *truly* effective, encryption must be used 
+on *all* correspondence, even trivial items.  So well crafted is his argument that it
+would be difficult to reduce the chapter by so much as a paragraph.
+ 
+Schneier uses this argument to good effect in pointing out some of the major
+deficiencies in the two systems.  PGP is awkward to use, and PEM may use
+incompatible algorithms.  Surprisingly, he does not emphasize (though he does
+mention) what is probably the major problem with each--the inability to use
+the same system within and outside of the United States.  The PGP fiasco is 
+too involved to get into here (see the Garfinkel work for details) and there 
+is not yet an "international" implementation of PEM (although there may soon 
+be an "authentication only" version available).
+ 
+This won't help you design your own algorithm, but it is definitely for any
+user of email, manager of communications systems, or student of privacy and
+confidentiality.
+ 
+copyright Robert M. Slade, 1995   BKEMLSEC.RVW   950127
+
+======================
+DECUS Canada Communications, Desktop, Education and Security group
+newsletters
+Editor and/or reviewer ROBERTS@decus.ca, RSlade@sfu.ca, Rob Slade at
+1:153/733
+Author "Robert Slade's Guide to Computer Viruses" 0-387-94311-0/3-540-94311-0
+			
+============================================================================
+			
+		       HACK VIRUSES and TROJANS
+
+     We are starting to get some participation from a few of you out there 
+and it is great stuff.  Keep those alerts coming in.
+
+---------------------
+
+    The first one comes from Rob Slade.  Think there is safety in
+shrink wrap? Guess again.
+
+SunGuard Data Systems, as the name implies, sells security, and even
+antiviral, software.  Recently the company shipped disaster recovery 
+planning disks to clients -- infected with a virus.  Microsoft also 
+distributed virus infected disks to developers at a recent meeting in 
+London, UK.  Neither report (in Information Week for February 6th, and 
+The Guardian, reported by Edupage) mention the viral programs involved.
+
+						       Rob Slade
+			    **********
+
+     Next, Jay Cochrane sends an addition to last months Trojan report
+on the file SCCL100.zip.
+
+Thanks for the heads up,
+Did a search of our CD's and found it also on Mega CDROM 3 so I guess we can
+all add that one to the list..Guess there are nice people out there ......
+				   Jay
+
+ (Yeah Jay, there are some real sweethearts out there :-) )
+
+------------------------------
+
+     Thomas Smith got a hold of Bill Lambdin and reported this
+Trojan reported by Mike Schmieg.
+ 
+ A customer has informed us that a file called QKEY.COM, accompanied 
+ updated technote, titled "MS-DOS 6 and UPDATE for Quarterdeck Produc
+ an abridged version of UPDATE75.TEC Q-FAX #197, was uploaded  to his
+ 
+ It claims to be an update to QEMM 7.5 and suggests to replace KEYB a
+ KEYBOARD.SYS with the provided QKEY.COM.  This is not a genuine upda
+ There is no technote called "UPDATE75.TEC" and Q-FAX #197 is RSH.TEC
+ 
+ According to the information we have received, QKEY.COM contains cod
+ self-encryption and can potentially kill your partition-table.
+ 
+===========================================================================
+			  
+			  TROUBLE IN DOOM
+
+     DOOM II is very popular game out there.  Perhaps that is why it has 
+become such a target for viruses and Trojans.  In the past week we have 
+received two reports of viruses and trojans in the add-ons and cheats.  Read
+and heed. :-)
+
+
+			   Doom II Trojan
+
+     Bryan Joyce reported the following DoomII Trojan to Bill. Bryan did
+such a good job of detailing the problem I thought we'd just do his report
+in The Scanner.  Thanks Bryan.
+
+
+ Here is the full report on the Doom2 trojan that I mentioned earlier 
+ in the week.  I'm afraid it's not much more than I said in earlier 
+ posting.  Please spread this message as far as possable.
+ 
+     *****************************************************
+ 
+ Last week (3/jan/95) I visited a friend of mine.  One of the
+ files that he gave me was LKCC_WAD.ZIP which was a supposed
+ WAD viewer for doom one and two.  Except that it wasn't.
+ 
+ The main file SHOWAD.EXE didn't seem to do anything other than
+ report that it couldn't find the WAD file.  The file seemed
+ too small to be an editor.  When it was ran without any
+ parameters it showed a help table which said that the Escape
+ key would delete the contents of the WINDOWS directory.  This
+ was followed by an emosicon of a face winking.  This struck me
+ as odd an I immediately did a virus check which showed up
+ nothing.
+ 
+ I ran another file DA-CHAOS.COM.  Bingo!  It tried to unload
+ VSAFE from memory.  Luckily for me, it was unable to do this
+ as I had loaded other TSR's after Vsafe.  Next it tried to
+ write to the bootsector, but was unable to do so because Vsafe
+ was still loaded.  It then displayed an ANSI screen that
+ looked like an advert for a BBS or coding group.  Finally it
+ returned to DOS with the message THE CHAOS EFFECT.
+ 
+ I then used Norton to copy my FATs, CMOS values and bootblock
+ to a floppy file and write protected it.
+ 
+ This done, I turned Vsafe off and re-ran the file.  Something
+ was written to the bootsector which changed the size of
+ COMMAND.COM.  After rebooting, I found that Vsafe no longer
+ worked, but still gave a message that it was installed
+ although it wasn't.  MSAV detected no virus, but noticed a
+ difference in file sizes.  It was the same with FINDVIRU
+ (Solomons). The files DOSKEY.COM, INK.COM and MOUSE.COM had
+ got bigger.  The few EXE's that I ran were unaffected; WP.EXE,
+ and PRINTER.EXE.
+ 
+ To double check, I re-sysed the hard drive.  After a reboot,
+ the new COMMAND.COM had become bigger again along with
+ SYS.COM.  Tests having been done, I deleted all the infected
+ files, rebooted with a clean disk, restored the bootsector etc
+ from the floppy I had created, sysed the hard drive from the
+ clean floppy and finally restored the deleted files from a
+ back up on my tape streamer.
+ 
+ In conclusion, the file DA-CHAOS.COM disables VSAFE, and
+ writes a virus into the boot block of the hard drive.  From
+ there it copies itself into other files.  What it will
+ ultimately do is anybody's guess.  Whither or not it was
+ written by the same person (claiming to be Dr Lazy'94) who wrote
+ SHOWAD.EXE is not known, but seems likely.
+
+			  ************************
+    Steven Hoke writes:
+ 
+ I have installed the new Night Owl 15 cdrom on the Obelisk BBS 519.67
+ ( calls up to 28.8 VFC - free access 1st call ) and have had a report
+ virus called "DOOM2 DEATH" was found on the file DMNCHEAT.ZIP 03/11/9
+ CHEATER FOR DOOM1 AND II.
+ 
+
+       EDITOR'S NOTE:  This has been confirmed by Bill Lambdin,
+       Wallace Hale and Howard Wood. See Wallace's preliminary
+       report on TIAPAN.666.
+
+			  ************************
+
+     Bill came across a few bugs in some PC-BOARD PPE programs updates.  
+     Here are the details.
+
+I viewed the contents of these archives with PKunzip 1.93 alpha version. 
+My computer, and PKzip 2.04G do not cooperate. Just a brief disclaimer 
+to explain the "Method" column of the archive contents.
+
+REG_AT10.ZIP
+
+Here is the coptents of REG_AT10.ZIP
+
+Length  Method   Size  Ratio   Date    Time    CRC-32  Attr  Name
+------  ------   ----- -----   ----    ----   -------- ----  ----
+  152  A-Xtra      69  55%  11-29-94  16:55  a7bb45fa --w-  AUTO.CFG
+ 1443  A-Xtra     408  72%  11-27-94  16:26  b2d136b7 --w-  HEADER.PCB
+    0  Stored       0   0%  11-29-94  18:17  00000000 --w-  AUTO.MSG
+ 2654  A-Xtra    2297  14%  11-29-94  18:01  f6930f49 --w-  AUTOEDIT.PPE
+   71  A-Xtra      58  19%  12-10-94  14:45  9b7bd441 --w-  FILE_ID.DIZ
+  828  A-Xtra     677  19%  11-29-94  18:07  ffbf0429 --w-  AUTO.PPE
+ 5282  A-Xtra    1907  64%  11-29-94  18:27  f3985f6b --w-  AUTO.DOC
+15900  A-Xtra   15643   2%  11-29-94  18:17  03b5cf9f --w-  AUTO.DAT
+   81  A-Xtra      51  38%  11-29-94  18:19  578d939d --w-  AUTO.BAT
+ 1467  A-Norm     457  69%  11-13-94  03:13  d6cd997e --w-  WORKSHOP.BBS
+------          ------  ---                                  -------
+ 27878           21567  23%                                       10
+
+AUTO.DAT is a corrupted self extracting archive infected with Taipan.438 
+virus.
+ 
+Taipan.438 is a resident infector of .EXE files. The infected files 
+increase by 438 bytes. This virus is not stealthed, and is not 
+destructive. This virus is also refered to as Whisper.
+
+Here is an AUTO.BAT Included in the archive.
+
+@ECHO OFF
+DEL AUTO.MSG
+REN AUTO.DAT AUTO.EXE
+AUTO.EXE
+REN AUTO.EXE AUTO.DAT
+
+As you can see, the .BAT file renames the infected file to AUTO.EXE, 
+Runs the infected file then renames the file back to the original file 
+name.
+ 
+The sole purpose of this .BAT file is to drop the virus on computers 
+belonging to unsuspecting users. The executable files were intentionally 
+named to non executable file extension so scanners would not detect this 
+virus because most people only scan files with executable extensions.
+
+-------------------------------------------------------------------------
+
+REG_ER10.ZIP
+
+Here are the contents of REG_ER10.ZIP
+
+Length  Method   Size  Ratio   Date    Time    CRC-32  Attr  Name
+------  ------   ----- -----   ----    ----   -------- ----  ----
+ 1952  A-Xtra    1765  10%  11-27-94  21:39  c7e812c7 --w-  RUNPPE.PPE
+    0  Stored       0   0%  11-27-94  14:01  00000000 --w-  RUNPPE.SCR
+    0  Stored       0   0%  11-27-94  14:01  00000000 --w-  RUNPPE.TEM
+ 5720  A-Xtra    2067  64%  11-27-94  14:08  a34d4ad8 --w-  RUNPPE.DOC
+  260  A-Xtra     224  14%  12-10-94  14:46  5a26faff --w-  FILE_ID.DIZ
+  214  A-Xtra      73  66%  11-27-94  14:01  6c04038d --w-  RUNPPE.DAT
+29397  A-Xtra   29080   2%  02-01-93  02:04  79548d46 --w-  RUNPPE1.DAT
+  121  A-Xtra      70  43%  11-27-94  14:02  3fb6a08b --w-  RUNPPE.BAT
+ 1467  A-Norm     457  69%  11-13-94  03:13  d6cd997e --w-  WORKSHOP.BBS
+------          ------  ---                                  -------
+ 39131           33736  14%                                        9
+
+RUNPPE1.DAT is PKunzip.EXE version 2.04g infected with the Taipan.438 
+virus. See note above for brief description for Taipan.438.
+
+Here is RUNPPE.BAT included in this archive.
+ 
+@ECHO OFF
+DEL RUNPPE.SCR
+DEL RUNPPE.TEM
+REN RUNPPE1.DAT UNZIP.EXE
+UNZIP.EXE RUNPPE.DAT
+REN UNZIP.EXE RUNPPE1.DAT
+
+This virus renames RUNPPE1.DAT to UNZIP.EXE Runs the infected file with 
+RUNPPE.DAT, then renames the executable file to RUNPPE1.DAT.
+ 
+Apparently; this is a deliberate attempt to release Taipan.438 on 
+computers belonging to unsuspecting users.
+
+		       Bill
+
+ ===========================================================================
+			 
+			 PRELIMINARIES
+
+EDITOR'S NOTE : The Scanner would like to welcome Wallace Hale of Brunswick,
+		Canada.  Wallace has worked with me on several projects and 
+		has taken the time to teach this "rookie" a few tricks. We
+		look forward to working with you in the future Wallace!
+
+   Wallace submitted this preliminary report on Whisper.666 (TaiPan.666)
+
+Virus...............: TaiPan.666
+Alias(es)...........: Doom_II_Death, Doom_III, Doom2.666
+Virus Strain........: Tai-Pan (Whisper)
+Status..............: New, verified in the wild.
+Detected:..when.....: 13 November 1994
+	   where....: Toronto, Ontario, Canada
+Specimen source.....: Marc Faubert, Ajax, Ontario
+
+Classification......: Memory resident .EXE file infector
+Length(s) of Virus..: 666 bytes
+Disassembled........: Yes
+
+Operating System(s).: PC-DOS/MS-DOS
+Version/Release.....: 2+
+Computer model(s)...: PC/XT/AT
+		      
+Type of Infection...: Appending;  modifies EXE header.
+Infection Technique.: Infects on host execution.
+Infection Trigger...: EXEC function, INT 21h, fn 4B00h
+		      
+Interrupts hooked...: 21h
+Stealth.............: No
+Tunneling...........: No
+Polymorphic.........: No
+Encryption Engine...: n/a
+
+Damage..............: None intentional
+Damage Trigger......: n/a
+		      
+		      
+Particularities.....: Following plain ASCII text can be found in the
+		    : body of the virus:
+		    :
+		    :   DOOM2.EXE
+		    :
+		    :   Illegal DOOM II signature
+		    :
+		    :   Your version of DOOM2.EXE matches the
+		    :   illegal RAZOR release of DOOM2
+		    :
+		    :   Say bye-bye HD
+		    :   
+		    :   The programmer of DOOM II DEATH is in
+		    :   no way affiliated with ID software.
+		    :
+		    :   ID software is in no way affiliated
+		    :   with DOOM II DEATH.'
+		     
+Similarities........: Essentially Tai-Pan code padded to achieve 
+		    : a 666-byte length.
+		     
+Countermeasures.....: F-PROT 2.15 recognizes as a Tai-Pan variant.
+		    : TBScan 6.30 identifies as DOOM_III.
+		    : AVP 2.1 names the virus Doom2.666
+
+Date................: 30 November 1994
+Updated.............: 14 December 1994
+By..................: R. Wallace Hale
+For.................: Zen Works
+
+
+
+COMMENTS:
+
+On initial execution, the virus calls Interrupt 21h, function
+7BCFh, as a residency test, and if a copy is not found it memory,
+it goes resident just below TOM in the lower 640k of main memory,
+reserving 720 bytes for itself, and hooking Interrupt 21h.  
+CHKDSK will detect the change in free memory and almost any memory
+mapping utility will show the presence of the virus.
+
+Interrupt 21h calls are monitored for an EXEC function, fn 4B00h,
+and suitable hosts are infected when that function is intercepted
+by appending the viral code to the end of the host file. Original
+time and date stamps of infected hosts are preserved.
+
+Suitable hosts are .EXE files not larger than 64,768 bytes, and
+.EXE files that have been renamed to .COM extensions.  The EXE
+header is modified so the viral code is executed first, then
+control is passed to the host file.
+
+The virus contains no intentionally destructive routines and the
+text strings detailed above are never displayed.
+
+					     Wallace Hail
+
+			*********************
+
+    Bill Lambdin has been quite busy these past few months but managed
+to submit the following Preliminary on the PAGE10 virus.
+
+Preliminary analysis of Page 10 Virus by W.H. (Bill) Lambdin
+
+Name         ] Page 10
+Size         ] 1221 bytes 
+Infects      ] .COM & .EXE files including COMMAND.COM
+Scan String  ] I'm not releasing a scan string because I do not believe
+	     ] this virus can survive in the wild. 
+In the wild  ] Unlikely. However; this virus was UUencoded and posted
+	     ] into the FIDO Virus_NFO conference.
+	     ]
+A-V          ] This virus has been forwarded to the following;
+	     ] Vesselin Bontchev, David M. Chess, Spencer Clark,
+	     ] Dmitry O. Gryaznov, Eugene V. Kaspersky, FRISK, Dr.
+	     ] Alan Solomon, Wolfgang Stiller, Frans Veldman, and
+	     ] Tarkan Yetiser.
+Armored      ] No.
+Detected     ] Yes. F-prot detects the first generation as possibly a
+	     ] variant of Desperado. However; F-Prot does not detect the
+	     ] second generation specimens.
+Effects      ] This virus deletes the following data files ANTI-VIR.DAT,
+	     ] CHKLIST.CPS, CHKLIST.MS, and MSAV.CHK
+Encrypted    ] Yes
+Interrupts   ] 21h 
+Marker       ] On all infected host files except for COMMAND.COM, the
+	     ] seconds field of the time stamp, was updated to 24
+	     ] seconds.
+Polymorphic  ] No
+Resident     ] Yes
+Size in RAM  ] 2560 bytes (according to CHKDSK)
+Stealthed    ] Partially Stealthed. Page 10 does not temporarily
+	     ] disinfect infected host files when they are opened. The
+	     ] time and date stamps remain the same except for the
+	     ] seconds field mentioned earlier.
+Text         ] No text visible in the second generation of this virus.
+Type         ] Resident .COM and .EXE infector. The virus appends to the
+	     ] end of the infected host files. 
+Unusual      ] This virus will repeatedly try to access write protected
+	     ] diskettes, but this virus does intercept the errors. The
+	     ] second generation of this virus refused to replicate on
+	     ] my test machine. I'm posting this because this virus may
+	     ] properly re-infect other systems.
+
+This is only a "Preliminary" analysis, and may be incomplete.
+
+						 Bill
+
+============================================================================
+
+				The "JUNK" Yard
+
+     There is a particular virus making the conferences on a regular basis
+here lately.  The JUNKIE virus.  Henri Delger has the following words on this 
+pest.  One thing to remember about JUNKIE ( or any other BS infector ), check
+all disk that were intorduced to the infected system.  Failure to do this 
+important step will inevitably result in re-infection.
+
+					    Woody
+
+=============================================================================
+
+			   A Virus Called Junkie        
+			     By: Henri Delger
+
+    Junkie virus originated in Sweden, and is classified as "Multipartite" 
+since it can infect the hard disk Master Boot Record, diskette boot sectors, 
+and *.COM files.  
+     
+     It can spread to an uninfected PC when a diskette, infected in another 
+PC, is in the A:\> drive at boot-up, or when a *.COM file which was infected 
+in another PC, is run.
+     
+     Junkie writes its code to the first sector of the hard disk, where the 
+Master Boot/Partition data are stored.  Unlike most such viruses, it does not 
+save or relocate the original data.  It also writes the rest of its code to 
+(cylinder&head 0, sectors 4 and 5).
+     
+     Ordinarily, data are not lost from the hard disk, because the sectors 
+which virus uses are not used by DOS.  Some disks formatted in a non-standard 
+manner may lose data, however.  Junkie will be in memory after that whenever 
+the PC is on, and infects floppy diskettes (not 360KB) by writing its code to 
+the Boot sector (sector #0) of them.  
+     
+     It also writes its code to the last track of infected diskettes, and 
+unlike some viruses which do so, does not protect its code by arbitrarily 
+marking the sectors as if they were "bad."
+     
+     Junkie can spread quickly, because it will infect diskettes on any 
+access, even when just read, such as if the DIR command is used.  In 
+addition, it infects *.COM files as they are run or even if they're merely 
+opened, such as during an anti-virus scanning process.  It adds just over 
+1,000 bytes to infected *.COM files.
+
+HENRI DELGER
+XWWC29A@prodigy.com
+BBS: (617) 471-3455
+
+			  ***********************
+
+			      JUNKIE ALERT !!
+
+     Noel Rode posted the following alert on the Internet conference
+compvirus:
+
+I spent some time recently getting rid of the JUNKIE.BOOT virus off my
+cousins PC.  I think if I had V214 of McAfee scan at the time it would
+have helped a lot.  The only problem I had with scan was that I had to
+reboot the machine each time scan found and tried to remove the
+JUNKIE.BOOT virus from a diskette.  Scan would find and remove the
+first detected virus and any following viruses found would be reported
+as "JUNKIE.BOOT+emr" and could not remove the virus.  The virus would
+also be loaded into memory when first detected and hence needed to be
+rebooted.
+
+I located the source where I got the virus from.  It came from a game
+called "Quarter Pole" by Microleague.  Each of the four (write protected)
+disks were infected.
+
+I'm sure it must have been said many times before but please be sure to
+scan ANY new disks purchased before making use of them.
+
+Noel Rode
+- --
+ / Noel J. Rode (Ph.D Candidate)          e-mail: noel@rdt.monash.edu.au \
+|  Dept. Robotics and Digital Technology  Phone :  +61 3 905 3575         |
+|  Monash University, Clayton Campus,     Fax   :  +61 3 905 3574         |
+ \ Melbourne, Victoria, Australia  3168               ...Hi There.       /
+============================================================================
+			       NEW Releases
+
+     Here is another new section.  At the very last minute, I decided
+to start a section to help the AV authors get the word out about their
+new releases.  There will be more next month.
+
+				**********
+
+			      Integrity Master
+
+Stiller Research announces release of Integrity Master(tm) version 2.42a
+
+Version 2.42a was released February 28, 1995
+
+Integrity Master provides complete, easy to use, data integrity for your
+PC plus virus protection.  It can also be used to provide file change
+management and security on your PC.  As well as scanning for known
+viruses, it detects unknown viruses and unlike other products will
+detect files which have been damaged but not infected by a virus. IM
+checks and restores your CMOS including the new larger CMOS
+configuration memories found on most newer PCs. IM's scanner component
+is certified by the National Computer Security Association (NCSA) by
+testing against their collection of known viruses.
+
+				What's new?
+
+1) IM supports a new option to allow rapid screening of diskettes for boot
+   viruses.  This is available through the Check menu as well as the
+   "/VB" command line switch.  This also allows IM to read boot sectors
+   on diskettes that are unreadable to DOS.  Researchers can use this
+   option when testing IM since IM will also check the boot sector for
+   partition sector (MBR) viruses.
+
+2) New "Force update" option on the "Integrity update" options submenu.
+   Selecting this option or using the new "/UA" command line switch will
+   force integrity master to update integrity data for all files.  Normally
+   IM will not update integrity data for what appear to be corrupted files
+   when it is running unattended.
+
+3) When run from a diskette, IM will now automatically offer to change to
+   change to another disk.
+
+4) New easier install.  SetupIM will now offer a super fast install that
+   usually gets IM installed in under one minute.
+
+5) IM tolerates a wild card spec on it's /P (disk and directory change)
+   parameter.  This allows you to use IM with some programs that insist
+   on including a wild card with the directory to check.  For example:
+   IMSCAND C:\DOS\*.* will scan all files in subdirectory \DOS.
+
+6) SetupIM changed so it will correctly recognize drive characteristics of
+   disks using Symantec's Ncache.
+
+7) IM will not pause even if severe hardware errors occur when the /ND
+   command line option is used.
+
+8) IM identifies over 600 new viruses by name and characteristic
+   including: 7thSon2, Ambalama, Andromeda, Ansibomb, AntiCleric,
+   Asexual, Attitude, Aurea, BNB, BigX, Big_Bang, Bloody_Warrior,
+   Breaking, CarpeDiem, Centenary, Click, DA'BOYS, Dementia, Dichotomy,
+   Dillinger, ESP, Emma, Felize, Galicia, Geek, Gipsy, Greetings, Heja,
+   Hellspawn, Human Greed, Taslehoff, Icecream, Infernal, Iron, Jack,
+   Jimmy, Jpage, Kode4, Kode4b, Kohn6, Kommuna, Leningrad, Leuk, Loki,
+   Merde-3/5, NoLimitz, Ntit, Nygus.278, Offspring, Override, Ovile,
+   PHB, Panek, Panic, PeaceMan, Peanut, Peter2, Phantasm, Pirate,
+   Polifemo, Praying, Psychosis, Rambo, Raptor, Rattle, Redstar,
+   Rubbit2, Saigon, Sampo, Sandy, Santa, Satyricon, Semtex6, Shin,
+   Smallcomp, Soupy, Soupy-Death, Sov1, Sterculius, Strange, Sword,
+   Teraz, VLamiX, Vampiro, ViNCHuCa, ViroGen, Wet, YB2, Zombie, and Zulu
+   as well as the usual new but trivial ARCV, Australian Parasite,
+   Jerusalem, Leprosy, PS-MPC, VCL and Vienna related viruses.
+
+Versions 2.40a, 2.41a and 2.41b were restricted beta versions please do
+not distribute these releases.
+
+The new Integrity Master(tm) (V2.42a) is now available.
+
+			 Where do I find it?
+			 -------------------
+
+Integrity Master should be available soon from any SDN, FDN or ASP AHN BBS.
+
+Most larger cities have at least one such BBS the current file name
+is I_M242a.ZIP (or .ARJ, .LZH, .PAK etc.)
+
+Plus, we upload the latest versions of Integrity Master directly to
+these locations:
+
+o First time callers can download and get support from Wingit!  Call
+  904-386-8693 for 9600 to 28.8kbps and HST modems or 904-385-0449 (for all
+  but HST). For really fast access, you can log on as user: "Integrity
+  Master" (without the quotes) and you will immediately be offered the
+  download.  IM can be freqed with the magic name IMAST  (Fido 1/3605:13).
+
+o We offer free IM downloads on Solitude BBS (Fido 1:300/23) 1-602-747-5236 -
+  FIDO users can also freq it from this BBS.
+
+o IM and support is available on the Metaverse anti-virus BBS.
+  606-843-9363 (14.4 V.32bis). Logon as "GUEST USER", password=GUEST.
+
+o COMSEC (Computer Security) BBS (6 lines) 1-415-495-4642.
+
+o Download from CompuServe in IBMSYS (lib 3)  and ZNT:TIPS lib 14 (one
+  of the Ziff-Net, PC Magazine forums) file I-MAST.ZIP. Or "GO STILLER"
+  to reach the Stiller Research support forum.
+
+o Download from the GEnie Virus Security RT (Page 1350) or the IBM PC RT
+  (page 370).
+
+o IN the UK we provide free downloads at 01442 891109.
+  FREQ to 2:257/112, filename I-MAST.ZIP.
+
+Any major shareware diskette vendor should have a current copy of
+Integrity Master.   All ASP affiliated disk vendors automatically get
+new copies and AHN hub BBSes will always have the latest copy.  These
+BBSes are:
+
+ North-East Coast         Mid-East Coast            West Coast USA
+
+ The Consultant BBS       The Break RBBS <East>     Space BBS
+ New York NY 10116-4655   Dale City, VA 22193-3011  Menlo Park, CA 94026
+ BBS Phone: 718-837-3236  BBS Phone: 703-680-9269   BBS Phone: 415-323-4398
+
+						    Canada
+ North Mid-USA            Southern Mid-USA
+						    Knightec BBS
+ The Twilight Zone        The DataExchange BBS      Orangeville, ONT L9W 3L1
+ Auburndale, WI 54412     Leesville, LA 71446       BBS Phone: 519-940-0007
+ BBS Phone: 715-652-2758  BBS Phone: 318-239-2122
+
+IM is available via ftp on Internet from:
+  OAK.Oakland.Edu/SimTel/msdos/virus/
+	(This probably includes all the Simtel mirror sites)
+  ftp.demon.co.uk:/pub/antivirus/ibmpc/av-progs/
+  garbo.uwasa.fi ...
+
+	     How do I make sure it's a valid version?
+	     ----------------------------------------
+If you get a copy of Integrity  Master from other than one of the above
+sources, you can make sure it's a legitimate copy of checking the PKzip
+CRC values for the executable files included in the archive (for 2.42a):
+
+
+ Length  Method   Size  Ratio   Date    Time    CRC-32  Attr  Name
+ ------  ------   ----- -----   ----    ----   -------- ----  ----
+   2054  DeflatX   1913   7%  02-28-95  02:42  49566a68 --w-  GENVIR.EXE
+ 143833  DeflatX 139528   3%  02-28-95  02:42  c0730330 --w-  IM.EXE
+  63408  DeflatX  62401   2%  02-28-95  02:42  d40304df --w-  SETUPIM.EXE
+   4582  DeflatX   2535  45%  02-28-95  02:42  3b074f35 --w-  IMCHECK.EXE
+   3454  DeflatX    780  78%  02-28-95  02:42  a9db7921 --w-  IMPRINT.BAT
+    314  DeflatX    198  37%  02-28-95  02:42  cf856aac --w-  IMQ.BAT
+    509  DeflatX    305  41%  02-28-95  02:42  ce571b3b --w-  IMSCAN.BAT
+    491  DeflatX    298  40%  02-28-95  02:42  23cb674e --w-  IMSCAND.BAT
+    448  DeflatX    273  40%  02-28-95  02:42  aa1c898f --w-  IMSCANM.BAT
+   1118  DeflatX    978  13%  02-28-95  02:42  515b8205 --w-  IMVIEW.COM
+ ------          ------  ---                                  -------
+ 592827          336772  44%                                       29
+
+Regards, Wolfgang
+
+Stiller Research, 2625 Ridgeway St. Tallahassee, FL 32310, U.S.A.
+
+============================================================================
+
+			    FROM WOODY'S DESK
+
+     Well, as you can see, The Scanner is growing by leaps and bounds
+thanks to the wonderful folks that have contributed and taken time out 
+of their busy scheduals to participate.  To be honest with you, I had to
+stop here before this issue got too far out of hand.  As this is being 
+posted and distributed, I am already starting April's issue. Don't miss it!
+
+   My heartfelt thanks to the following people:
+
+   Wolfgang Stiller
+   Mikko Hypponen
+   Rob Slade
+   Wallace Hale
+   Bill Lambdin
+   Henri Delger
+   Ruben Arias
+   Gerard Manning
+
+      And most of all thank-you, the reader, for taking the time to read 
+The Scanner.  Some of you have contacted us and let us know how we are doing.  
+Please, if you have the time, let us know what you think of The Scanner.  Any
+suggestions or ideas will be looked at and seriously concidered. Until April
+take care.  Remember, keep those AV programs busy!
+
+				      Woody
+

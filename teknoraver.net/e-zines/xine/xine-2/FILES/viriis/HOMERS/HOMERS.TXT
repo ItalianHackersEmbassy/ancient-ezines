@@ -1,0 +1,31 @@
+HOMER1.EXE
+        - lenght 54432
+        - Debugging version
+        - Has Window
+        - Hooks everything
+        - Network support
+        - Infects only if TESTVIRZ in pathname
+HOMER2.EXE
+        - lenght 52896
+        - No Window
+        - Network support
+        - Infect everywhere
+        - Hooks everything
+HOMER3.EXE
+        - lenght 40096
+        - No Window
+        - No network
+        - Infects only if TESTVIRS in pathname
+        - Hooks everything
+HOMER4.EXE
+        - lenght 38560
+        - No window
+        - No network
+        - Infects everywhere
+        - Hooks only int21 in PM via SetKernelDosProc
+HOMER5.EXE
+        - lenght 50848
+        - No Window
+        - Network support
+        - Infects everywhere
+        - Hooks only int21 in PM using DPMI

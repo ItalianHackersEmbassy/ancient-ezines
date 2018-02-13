@@ -1,0 +1,2128 @@
+ ____                  _          ______ _      _        _  
+|  _ \                | |        |  ____| |    | |      (_) 
+| |_) | __ _ _ __ __ _| |_ __ _  | |__  | | ___| |_ _ __ _  ___ __ _  
+|  _ < / _` | '__/ _` | __/ _` | |  __| | |/ _ \ __| '__| |/ __/ _` | 
+| |_) | (_| | | | (_| | || (_| | | |____| |  __/ |_| |  | | (_| (_| | 
+|____/ \__,_|_|  \__,_|\__\__,_| |______|_|\___|\__|_|  |_|\___\__,_| 
+                                                            
+          
+                                                            
+          
+                        BARATA ELETRICA, numero 10
+                        Sao Paulo, 8 de maio, 1996 
+                        
+--------------------------------------------------------------------------- 
+     
+                        Creditos:
+                        --------
+
+Este jornal foi escrito por Derneval R. R. da Cunha 
+(wu100@fim.uni-erlangen.de - http://www.geocities.com/SiliconValley/5620)
+Com as devidas excecoes, toda a redacao e' minha. Esta' liberada a copia
+(obvio) em formato eletronico, mas se trechos forem usados em outras 
+publicacoes, por favor incluam de onde tiraram e quem escreveu. 
+
+DISTRIBUICAO LIBERADA PARA TODOS, desde que mantido o copyright e a gratu- 
+idade. O E-zine e' gratis e nao pode ser vendido (senao vou querer minha
+parte). 
+
+Para  contatos (mas nao para receber o e-zine) escrevam para:
+  
+rodrigde@spider.usp.br 
+
+wu100@fim.uni-erlangen.de
+
+Correio comum:
+
+Caixa Postal 4502
+CEP 01061-970
+Sao Paulo - SP
+BRAZIL
+
+Numeros anteriores (ate' o numero 9):
+
+    ftp://ftp.eff.org/pub/Publications/CuD/Barata_Eletrica
+    gopher://gopher.eff.org/11/Publications/CuD/Barata_Eletrica
+    http://www.eff.org/pub/Publications/CuD/Barata_Eletrica
+
+ou  ftp://etext.archive.umich.edu/pub/Zines/BerataElectrica
+    gopher://gopher.etext.org/00/Zines/BerataElectrica
+    (contem ate' o numero 8 e e' assim mesmo que se escreve, erro deles)
+
+                        ATENCAO - ATENCAO - ATENCAO
+
+                   Web Page do Fanzine Barata Eletrica:
+                http://www.geocities.com/SiliconValley/5620
+                      Contem arquivos interessantes.
+                        ATENCAO - ATENCAO - ATENCAO
+
+                                NO BRASIL:
+
+http://www.inf.ufsc.br/ufsc/cultura/barata.html
+ftp://ftp.ufba.br/pub/barata_eletrica
+
+(Normalmente, sao os primeiros a receber o zine)
+
+MIRRORS - da Electronic Frontier Foundation onde se pode achar o BE
+/pub/Publications/CuD.
+
+  UNITED STATES:  
+etext.archive.umich.edu in /pub/CuD/Barata_Eletrica
+ftp.eff.org in /pub/Publications/CuD/Barata_Eletrica
+aql.gatech.edu in /pub/eff/cud/Barata_Eletrica
+world.std.com in /src/wuarchive/doc/EFF/Publications/CuD/Barata_Eletrica
+uceng.uc.edu in /pub/wuarchive/doc/EFF/Publications/CuD/Barata_Eletrica
+wuarchive.wustl.edu in /doc/EFF/Publications/CuD/Barata_Eletrica
+  EUROPE:
+nic.funet.fi in /pub/doc/cud/Barata_Eletrica
+                  (Finland)
+(or /mirror/ftp.eff.org/pub/Publications/CuD/Barata_Eletrica)
+ftp.warwick.ac.uk in /pub/cud/Barata_Eletrica  (United Kingdom)
+  JAPAN:
+ ftp.glocom.ac.jp in /mirror/ftp.eff.org/Publications/CuD/Barata_Eletrica
+ www.rcac.tdi.co.jp in /pub/mirror/CuD/Barata_Eletrica
+                         
+                       
+
+
+OBS: Para quem nao esta' acostumado com arquivos de extensao .gz:
+Na hora de fazer o ftp, digite binary + enter, depois digite
+o nome do arquivo sem a  extensao .gz
+Existe um descompactador no ftp.unicamp.br, oak.oakland.edu ou em 
+qualquer mirror da Simtel, no subdiretorio:
+
+/SimTel/msdos/compress/gzip124.zip to expand it before you can use it.
+Uma vez descompactado o arquivo GZIP.EXE, a sintaxe seria:
+                           "A>gzip -d arquivo.gz
+
+No  caso,  voce  teria que trazer os  arquivos  be.??.gz  para  o 
+ambiente DOS com o nome alterado para algo parecido com  be??.gz, 
+para isso funcionar.
+
+
+
+
+                                NO BRASIL: 
+              http://www.inf.ufsc.br/ufsc/cultura/barata.html
+ 
+==========================================================================
+                         
+                       
+
+ULTIMO RECURSO, para quem nao conseguir acessar a Internet de forma direta, 
+mande carta (nao exagere, o pessoal e' gente fina, mas nao e' escravo,  nao 
+esquecam aqueles encantamentos como "please" , "por favor" e "obrigado"):
+
+fb2net@netville.com.br
+hoffmeister@conex.com.br
+drren@conex.com.br
+wjqs@di.ufpe.br
+aessilva@carpa.ciagri.usp.br
+dms@embratel.net.br
+clevers@music.pucrs.br
+rgurgel@eabdf.br
+invergra@turing.ncc.ufrn.br
+
+
+CREDITOS II : 
+Sem  palavras  para  agradecer ao pessoal que se ofereceu  para  ajudar  na 
+distribuicao   do   E-zine, como os voluntarios acima citados,  e   outros, 
+como o sluz@ufba.br (Sergio do ftp.ufba.br), e o delucca do www.inf.ufsc.br
+Igualmente para todos os que me fazem o favor de ajudar a divulgar o Barata
+em todas as BBSes pelo Brasil afora.
+
+OBSERVACAO: Alguns mails colocados eu coloquei sem o username (praticamente 
+a  maioria)  por  levar  em  conta que  nem  todo  mundo  quer  passar  por 
+colaborador  do  BE. Aqueles que quiserem assumir a carta, mandem  um  mail 
+para mim e numa proxima edicao eu coloco.
+
+
+                                INTRODUCAO:
+                                ===========
+
+     Finalmente  consegui minha conta de volta. Para quem nao sabe,  estive 
+sem  acessar minha conta rodrigde@usp.br desde de 17 de janeiro deste  ano. 
+Nao  foi muito facil, durante este tempo, mas tambem nao foi  dificil.  Por 
+varias razoes, to considerando outra conta internet alem da  wu100@fim.uni-
+erlangen.de. Se voce me escrever e nao receber resposta, provavelmente algo 
+aconteceu e e' melhor me mandar e-mail atraves da lista hackers da unicamp. 
+(http://www.dcc.unicamp.br/Esquina-das-Listas)
+     Estou tambem com uma pagina na Web, especifica para o Barata  Eletrica 
+e  para  a lista Hackers. Coloquei ate' alguns arquivos nela  que  nao  tem 
+muito  a  ver  com  minha filosofia, de nao  entrar  fundo  nesse  papo  de 
+cracking. O curioso e' que dois dias depois que abri a pagina na web, minha 
+conta foi "liberada". To preparando uns links para colocar la'. Tinha  umas 
+setenta visitas, a ultima vez que vi.
+     Mais  uma  vez  apareci no Jornal, desta vez o  ESTADO  DE  SAO  PAULO 
+(sexta,  26 de abril de 96). Junto com uma materia do Mitnick.  Foi  legal, 
+aparecer no Caderno 2 do jornal "O ESTADO DE SAO PAULO". O meu medo e'  que 
+todo  mundo  que  viu, primeiro perguntou se eu sabia  assaltar  banco  por 
+computador. Curti a reportagem, o cara ate' que nao crucificou  o  sujeito. 
+Minha paranoia e' outra. Existe a figura do analfabeto funcional. E se...
+  .. algum policial que nao ler o texto com atencao me ver e confundir  com
+o Mitnick, vai  ser um barato explicar que fucinho de porco nao e'  tomada. 
+Putz.  "O hacker mais conhecido do Brasil". Fazer o que? Nao deixa  de  ser 
+verdade. Pelo menos o Graieb (autor) colocou o lance que o Mitnick nao  fez 
+dano que realmente justificasse tudo aquilo. Para colocar os pingos nos  i, 
+resolvi escrever alguma coisa sobre o assunto, como o cara foi preso,  etc. 
+Ajudei  o  reporter a fazer a materia, achei que ficou boa,  mas  ponho  um 
+monte  de  ressalvas sobre o que falei e o que nao falei.  Houve  erros  .. 
+comento  isso  porque, com esse negocio de novela,  realmente  detesto  ser 
+chamado de hacker. 
+De resto, aparecer e' bom pro ego. Mas aviso aos navegantes: se eu  tivesse 
+um  pingo  de  preocupacao em fazer besteiras pela rede,  nao  publicava  o 
+Barata Eletrica com o meu nome, muito menos colocava minha foto. Presumindo 
+que  eu saiba fazer algo, nao adianta vir me perguntar como e'. E o dia  em 
+que eu for ensinar algo, vai ser em curso aberto, com propaganda e tudo. Se 
+isso  acontecer.  Nao tenho nenhum tempo para gastar fazendo  besteiras  do 
+genero  "crime perfeito". Nem a materia disse que um hacker se preocupa  em 
+fazer isso.
+     A minha razao de aparecer na imprensa e' pura e simplesmente  divulgar 
+que  o  que e' chamado de "Computer Underground" possui uma  rapaziada  que 
+pode  ajudar  muito  toda a comunidade informatica. E' hora  de  unir  esse 
+pessoal. As grandes corporacoes ate' que fazem umas unioes desses  cranios, 
+mas  com  objetivo de ganhar grana. Tem um monte de contribuicoes  que  ja' 
+foram  feitas por essa mocada que .. nao sao lembradas. Quem se  lembra  do 
+nome  do autor do PKZIP? Pois e', mas e' uma pessoa fisica, quem comecou  a 
+PKWARE.  Existia  um compactador, o PKARC (que usava extensao  .arc)  e  um 
+programador  que  conseguiu fazer algo melhor e.. lancou  p.  mocada,  como 
+shareware.  Imagina  se  a IBM ia fazer isso? O cara que  fez  o  VIRUSCAN, 
+tambem  comecou mandando correio eletronico para a mocada,  pedindo  copias 
+dos  virus. Isso, no tempo em que o negocio era so' BBS. Tenho ate'  copias 
+em algum lugar. Os caras montam empresas e ninguem lembra desses  detalhes. 
+Sao  fucadores  que lancam imediatamente os "patches" os remendos  para  os 
+softwares que vem com defeito de fabrica. Os primeiros a detectar.  Fucador 
+de  micro  ou "hacker" pode ser tambem esse nome, sao pessoas que  sacam  o 
+lance e muitas vezes nao recebem credito pelas benesses que deixam por ai'. 
+E'  essa mocada que queria que se reunisse. Ta' certo que existe o lado  da 
+quebra  de  senhas,  esses  baratos. Mas  isso  e'  um  sub-sub-produto  da 
+inteligencia do cara. Se um bando deles quisesse se unir para detonar com a 
+Internet,  isso ja' teria acontecido muito antes e nunca aconteceu, por  um 
+motivo  simples.  Um gato nao faz coco onde dorme. E' o  mesmo  raciocinio. 
+Aqueles que acreditam que hackers sao um bando de vandalos sem nada  melhor 
+que fazer do que prejudicar os outros devia pensar melhor que existe  gente 
+muito  pior por ai', como certos politicos, que conseguem  danificar  muito 
+mais  a  vida de muito mais gente, com muito menos esforco. E  ninguem  faz 
+nada. Quando um "hacker" pisa na bola, tem outro que se oferece para  pegar 
+o  cara. Nao to falando do Mitnick, mas de outros lances que ja'  pintaram. 
+Mas  deixa para la'. Os inocentes sempre pagam pelos culpados.  "O  sistema 
+deve  ser protegido" - me falaram isso quando "congelaram" minha  conta.  A 
+que foi liberada.
+   Mas mudando de assunto, pus ai' uma materia sobre confianca, que e'  uma 
+coisa que toda a pessoa mais ou menos tem que saber. Acho que e' bem melhor 
+prevenir do que remediar e a maioria dos ratos de computador sabe disso.
+   A materia sobre Fidonet, bom, tenho que confessar algo: comecei p. baixo
+com Z80, Apple e PC-XT (que ate' acho otimo p. editar este zine).  Passando
+esta fase, nao cheguei a entrar no lance de comprar  um  modem.  Ate' hoje.
+Usei sempre o dos outros. Nunca acessei uma BBS  que  nao  fosse  Internet,
+apesar de ja' ter usado dial-up, atraves de uma universidade.  E  isso  faz
+tempo. Entao, apesar de ter feito  carreira  na Internet,  de  ter  tido os 
+sintomas de "modem addiction" de uma materia que ja' pus no BE, nao sei que
+as besteiras que escrevi sobre bbs fidonet. O artigo do Video-texto,   esse
+foi feito com base em memoria e entrevista com um aficcionado.  Dito  isso,
+boa leitura.
+
+   INTRODUCAO
+   INDICE
+   OS PRIMEIROS HACKERS BRASILEIROS: OS VICIADOS EM VIDEO-TEXTO
+   CONFIANCA: COISA BOA OU RUIM?
+   A ETICA EM HACKING
+   FIDONET: ALTERNATIVA PARA INTERNET?
+   ESTUDANDO OS HACKERS
+   TO MITNICK OR NOT MITNICK
+   MANE' D.O.S. - Uma piada?
+   NEWS - DICAS - CARTAS
+   BIBLIOGRAFIA        
+
+       OS PRIMEIROS HACKERS BRASILEIROS: OS VICIADOS EM VIDEO-TEXTO
+       ============================================================
+
+                                Introducao:
+
+"O  videotexto surgiu na decada de 70 procurando utilizar dois  componentes 
+existentes nas residencias: o telefone e o televisor. A ideia era acoplar o 
+telefone  e  o  televisor, possibilitando que  sinais  na  rede  telefonica 
+pudessem  ser decodificados e apresentados na tela do televisor  domestico. 
+Alem  disso,  para  possibilitar que fosse  interativo  foi  necessario  um 
+adaptador com teclado que possibilitasse essa funcao."
+
+                                Aplicacoes:
+
+*   Servicos  de  informacao:  com  noticias  jornalisticas,   anuncios   e 
+informacoes de lazer como cinema, teatros, etc..
+* Telesoftware: transferencia atraves do servico VIDEOTEXTO de programas  e 
+arquivo
+*  Teleshopping: compras a distancia, sem o uso de combustivel e  tempo  de 
+transito, atraves do servico
+*  Homebank:  prestacao  de servicos  atraves  de  instituicoes  bancarias, 
+fornecendo  informacoes  de saldo, extratos de conta  corrente,  opcoes  de 
+investimento, etc
+*  Servico  de reservas: para agencias de  turismo,  hoteis,  restaurantes, 
+etc..
+
+ (Introducao a Teleinformatica - Vicente S. Neto, Glaucio C.Lima,  Anderson 
+A. Porto)
+
+Tomei algum contato com o Video-texto em 1984-85. Foi um servico instituido 
+pela Companhia Telefonica, operando a velocidade 1200/75 bps,  full-duplex. 
+Teoricamente,  so'  estava  disponivel para quem era  assinante.  A  pessoa 
+requisitava  e  entrava  numa  fila  imensa para  ter  o  seu  terminal  de 
+videotexto  em  casa.  Algo parecido com  esperar  conseguir  um  telefone. 
+Naquele tempo quando ainda se falava do filme "Wargames" e do "poder" que a 
+pessoa  podia  adquirir  comprando um computador, o  Video-texto  era  algo 
+parecido com o que hoje conhecemos como Internet. Havia varios terminais de 
+video-texto em Shoppings, Bibliotecas e Centros Culturais. Basicamente, era 
+uma  forma de "introduzir" e "desmistificar" a informatica para  o  cidadao 
+comum,  que  alias  nao via muito sentido em pagar o  preco  altissimo  por 
+aqueles micros de 64 kbytes que havia nas lojas.
+     Se nao me engano, o MSX - Hot Bit da Sharp era um micro que podia  ser 
+configurado para acessar esse servico. Havia, entre outras  possibilidades, 
+a  de  se fazer download de jogos MSX via telefone. Alem de  labirintos  de 
+opcoes  referentes a servicos, charadas e correio eletronico. Os  terminais 
+disponiveis  nos Shoppings representavam verdadeiros pontos de encontro  da 
+mocada.  Normalmente havia fila, entao era uma peregrinacao ate'  achar  um 
+lugar,  onde  se  pudesse explorar o  sistema.  Havia  labirintos  virtuais 
+explicitos,  semelhante a uma sessao de software INFO2000, uma  coisa  meio 
+babaca hoje, mas na epoca, o maximo em ASCII-art. Porem o legal era a opcao 
+de correio eletronico, que nem todo mundo tinha acesso. O que hoje chamamos 
+de "Bulletin Board", na epoca era quadro de recados mesmo, mas tinha que se 
+ir  descobrindo  os comandos para chegar la', e eles mudavam de  tempos  em 
+tempos. Pode-se fazer bate-papos eletronicos on-line (assim disseram, nunca 
+vi)  e fazer namoros on-line (embora esses namoros virtuais  algumas  vezes 
+fossem exatamente isso: ficcao).
+     Conversando  com um ex-viciado, recentemente, tive noticia de que  era 
+um pessoal que chegava a fazer encontros periodicos, tal qual hoje se faz o 
+IRC-contros  em  varias  cidades do pais. O lugar  era  chamado  "Casa  dos 
+Nobres"  ou  coisa  do  genero, mas com o passar  do  tempo,  a  coisa  foi 
+degenerando  um  pouco e os aficcionados foram rareando. Apareciam  tudo  o 
+quanto e' tipo de gente, policial, mauricinhos, patricinhas, radicais,  uma 
+galera  variada, que tinha em comum esse vicio de ficar on-line. Claro  que 
+ai  se  trocavam  os  truques da arte: quando a  telefonica  passou  a  so' 
+permitir  que modens registrados acessassem o servico, alguns  "bambas"  da 
+area descobriram como fazer um programa em Basic do MSX que lia o numero de 
+registro  do  modem  "legitimamente" registrado e  emulassem  isso.  Alias, 
+apesar de limitado, podia-se fazer muita coisa com esse BASIC.
+     Como  por  exemplo  checar  bancos de dados,  descobrir  o  numero  de 
+telefone de alguem ou mesmo coisas mais chatas, como o saldo bancario.  Nao 
+que isso fosse facil. Haviam concursos e disputas. Ganhava quem fosse  mais 
+rapido  ou  soubesse  uma resposta "eletronica" para  a  coisa.  Varios  se 
+dedicavam  a  descobrir senhas para servicos que nao eram  abertos  para  o 
+publico. As vezes o trabalho de conseguir a senha podia ser mais  excitante 
+do que o servico ao qual ela dava acesso. Mas um acesso e' sempre um acesso 
+e  servia  de moeda de troca. Havia os colecionadores  de  acessos.  Talvez 
+ainda haja. Claro que fazer algo ilegal ou criminal seria besteira, ja' que 
+o telefone da pessoa podia ser tracado. 
+     Havia  tambem  brincadeiras  de adolescentes,  como  o  usar  terminal 
+publico  para se ligar na casa de um amigo. A pessoa do outro lado  poderia 
+ser  ouvida pelo "speaker" do aparelho. Quando nao se usava em Shopping,  a 
+conta  telefonica podia ser monstruosa. "Paciencia" tambem monstro para  se 
+conseguir  ligar, ja' que as linha telefonicas eram uma merda,  como  hoje. 
+A  sessao caia o tempo todo. Mesmo assim, alguns se  viciavam  instantanea-
+mente. E' uma forma de se fazer amigos sem sair de casa. Ate' namoro.  Para 
+isso, era preciso ter seu codinome (no que alias e' sempre bom) e manter  o 
+lance. Algumas vezes a pessoa tinha tres ou quatro codinomes, que usava com 
+pessoas diferentes e circulos de amizade diferentes.
+     Claro, havia as tentativas de se fingir ser outra pessoa. Adotando  as 
+mesmas  expressoes,  o  codinome, pontos de vista,  etc.  Quem  manjava  do 
+assunto, se encontrava fora, combinava uma senha para quando se encontrasse 
+on-line. Tipo: "Deu descarga no banheiro hoje?" "Nao, so' fiz a barba".  Se 
+a  contra  senha nao funcionasse, tava na cara que era um  fingidor.  E  os 
+codinomes, aquela coisa mais estranha: uns punham o nome "meto-bem",  "ato-
+falho", etc so' pra curtir o papo sem ninguem convidar pra conversar.  
+     Hoje, com a Internet, as BBSes, talvez essa cena tenha ficado um pouco 
+apagada.  As  pessoas tambem evoluem e dificilmente ficam  a  vida  inteira 
+curtindo  esse ou aquele vicio. Mas o video-texto, embora atrapalhado  pela 
+falta de previsao quanto a popularidade, foi o ponto de partida para varios 
+projetos  informatizantes,  como a Escola do Futuro, que atualmente  usa  a 
+Internet como forma de ligar varias escolas, incrementando o gosto do aluno 
+pelo  ensino,  tal como o video-texto incrementou o gosto  de  muitos  pelo 
+computador.
+ 
+                       CONFIANCA: COISA BOA OU RUIM?
+                       =============================
+
+Comecando com uma definicao de dicionario:
+
+"fe'; crenca na bondade e integridade de alguem; expectativa ou  esperanca; 
+alguem ou algo no qual se depende; credito garantido por caua da crenca  na 
+intenco de alguem e capacidade de pagar; etc"
+(The New Bantam English Dictionary - revised edition - o unico que eu tinha 
+a disposicao quando comecei a escrever isso)
+
+Um  dos maiores problemas do cotidiano, hoje. Pode-se confiar  numa  pessoa 
+que fala: "Deixa comigo", "minha vida e' um livro aberto", "Ta' comigo, ta' 
+com  Deus", etc, etc? Sera' que a propria pessoa pode confiar em si  mesmo, 
+se existe a tentacao de enganar a si proprio? (Quem responde sim obviamente 
+nao passou pela experiencia de parar de fumar e se passou, ainda nao chegou 
+nos 10 anos de abstinencia que o categorizam como nao-fumante).
+     A grande verdade e' que a sensacao de ter encontrado alguem em quem se 
+pode confiar e' algo maravilhoso(ja' dizia Leon Eliachar, autor de "O Homem 
+ao  meio"). O stress faz a pessoa ter essa necessidade de sentir  confianca 
+no proximo. Por isso se pode dizer, como Nelson Rodrigues, que "burro nasce 
+que  nem grama". As pessoas hoje nem sabem mais avaliar quando  confiar  ou 
+nao no seu proximo. Uns poucos passaram por experiencias de vida que  deram 
+a  necessaria  cautela  antes  de dar um pulo.  Algumas  piadas,  so'  para 
+ilustrar esse ponto:
+
+    "O  pai  leva  o filho para um passeio no  bosque.  Chegando  numa 
+    arvore, manda o filho subir num galho. Em seguida, ordena que pule 
+    nos bracos dele.
+    - Pra que, pai? Voce jura que me segura?
+    - Claro, filho, confia em mim.
+    O filho pula e espatifa o traseiro no chao. Ai o pai fala:
+    -  Ta' vendo, meu filho. Isso e' para aprender. Se e' o  seu  rabo 
+    que esta' em jogo, nao confie em ninguem. Nem mesmo em seu pai."
+
+    "Dois  loucos vao fugir de um hospicio. Chegam no topo do muro  de 
+    onde podem pular para outro predio e conseguir a liberdade. Mas um 
+    dos loucos tem medo de pular:
+    - Vou me espatifar. Pode ir sozinho, voce ja' esta' do outro  lado 
+    mesmo..
+    -  Tenho  uma ideia. Vou ligar minha lanterna e colocar  no  chao. 
+    Voce aproveita o facho e caminha por cima dele ate' aqui.
+
+    O outro continuou quieto.
+    - E ai', nao acredita que pode andar no facho?
+    - Acredito. So' nao acredito e' que voce nao vai apagar a lanterna 
+    no meio do caminho."
+
+Existe um politico famoso que justificou a nomeacao de sua progenitora para 
+um cargo de confianca com a frase:
+
+- Se eu nao puder confiar na minha mae, em quem vou confiar?
+
+E'  um  ponto  de vista. Claro que confiar em parente  e'  uma  questao  de 
+lealdade.  Presume que este nao ira' faltar aa confianca por conta do  laco 
+familiar.  Mas existe o confianca na capacidade da pessoa e a confianca  na 
+lealdade  da  pessoa.  Que sao duas coisas  diferentes.  Provavelmente  uma 
+pessoa  pode  ser de confianca para nao contar um segredo mas  nao  ser  de 
+confianca  para  executar  um servico que deva ser  feito  em  segredo.  As 
+empresas,  ao  contratarem pessoas para cargos de confianca,  fazem  testes 
+para avaliar o potencial dos funcionarios para assumir o cargo. E em muitos 
+casos  isso nao e' o suficiente. "Por dinheiro ou por mulher, ja' vi  muito 
+homem  perder  a  cabeca". Vide o caso de uma delegada  que  fugiu  com  um 
+estelionatario (jornal Estado de Sao Paulo - 5/3/96). O fato e' que o tempo 
+pode  melhorar ou piorar a pessoa. Vira vinho ou vinagre. E nao  ha'  teste 
+que de jeito nisso. Como aconteceu com o Analista da Prodesp (vide secao de 
+noticias).
+     Talvez quem mais se preocupe com isso seja a mulher,  estatisticamente 
+falando.  A mulher tem uma coisa de se entregar ao amor, que e' algo a  ser 
+anotado. Abriu as pernas, abriu o coracao. Para evitar desencantos, a  moda 
+nos  dias de hoje e' nao dar para o sujeito na primeira noite (algumas  nao 
+estao nem ai' para moda, basta ser carnaval). Coisa que tambem nao  adianta 
+muito, mas vale a notar que a mulher acredita em testar o homem num  numero 
+enorme  de detalhes e sem que o cara perceba, faz um interrogatorio  enorme 
+da vida da pessoa. Impressionante. Se ela nao usar essa informacao,  "troca 
+figurinha" com outra mulher. A relacao pode durar uma noite, mas nesse meio 
+tempo,  os sonhos do "elemento", a infancia, a familia, as  ambicoes,  quem 
+sao  os inimigos, os amigos, tudo a menina faz questao de saber.  E  guarda 
+com uma memoria, esses detalhes.. sendo que o cara nem percebe. 
+     Claro,  tem o lance do alcool. "In vino veritas". O uso de  alcool  ou  
+outra substancia pode "desinibir" e mostrar facetas "escondidas" da pessoa. 
+Pode   agir  como  estimulante  ou  fazer  dados  "inventados"  cairem   em 
+contradicao com outros detalhes. E' perigoso inventar historia, submestimar
+mulher  na questao da bebida. Alguns caras mentem, do inicio ao fim,  sendo 
+que nao sabem que dos 13 ate' o fim da vida o sexo "fragil" se preocupa com 
+detalhes que permitam como avaliar o cara que pode vir a ser o pai dos seus 
+filhos. E o que mais surpreende e' que algumas vezes, so' sendo  "malandro" 
+mesmo  pra  conseguir a confianca. Uma pessoa genuinamente  apaixonada  nao 
+passaria no "interrogatorio" e teria seu "curriculum vitae" rejeitado(*). 
+ 
+     Nao e' so' elas que "trabalham em silencio". Tem cara que "trabalha" d 
+forma  semelhante.  Nao  falo  de homossexualismo. Falo  de  gente  que  te 
+convence  de  qualquer coisa como certa, mas nao age como fala.  Gente  que 
+constroi  uma reputacao horrivel ou impecavel, tanto faz, mas que com  voce 
+finge que age de forma honesta. Ou como  digo "aquele melhor amigo  que  te 
+da'  o  maior cano". O proposito desse cara nao e' te ferrar.  E'  garantir 
+para que as coisas nunca corram mal para o lado dele. Tem um carisma e  uma 
+capacidade de blefe enorme, para garantir isso. E' o tipo de pessoa que  te 
+convence que pinga e' agua, mas que nao aceita um "nao" quando o negocio e' 
+emprestar  dinheiro  (p.  ele).  O mais chato e' que  esse  tipo  de  gente 
+consegue "enrolar" ate' a si proprio. Acredita nas proprias mentiras. E tem 
+arquivado  apos  muitas conversas, metodos para te "dobrar" a  vontade.  As 
+vezes, ele cria um vinculo que procura compensar os erros, mas e' raro.
+     Tenho  varias  historias para contar. A mais "interessante"  e'  a  da 
+menina  de um cara que conheco em Sampa, parente meu. A menina levou um  um 
+golpe  da  irma  que foi para a Europa e ficou com uma  divida  enorme  pra 
+rolar.  Pediu dinheiro emprestado p. um amigo meu que ate' ajudou pacas,  a 
+moca.  Porque  era namorada de alguem que ele conhecia. O  casal  chegou  a 
+emprestar  a chave do lugar onde moravam, um pouco em retribuicao e  tambem 
+pra facilitar quando fosse visitar (e deixar o cheque com a grana) ja'  que 
+era  longe pra caramba. Altos papos, nas visitas. Ai', um dia, os  dois  se 
+separaram.  Mas a amizade continuou, cada qual no seu canto. O  ex-namorado 
+saiu da historia, ficou a menina e o "amigao".
+     A  menina  teve uma serie de baixos na vida, tal como se mudar  p.  um 
+emprego no litoral que apesar de ser um sonho de vida, virou uma  desilusao 
+com  processo  na justica pra reaver os atrasados (outra historia  de  como 
+duvidar e' preciso). Acabou tendo que pagar pra trabalhar, de certa forma.
+     Ate'  ai' normal. Num lance do destino, foi morar com um pessoal  numa 
+republica, varias pessoas, entre elas, esse carinha que ajudou ela. So' que 
+ela se enamorou do morador mais antigo. E vice-versa. Vale a pena dizer que 
+o morador mais antigo e esse "amigao" eram grandes amigos. A 1a  coisa  que 
+ela comecou a fazer foi aprontar a "saida" do local, do "amigao" que fez, a 
+ajudou,  emprestou  grana, etc. Para quem nao sabe, uma "expulsao"  de  uma 
+republica nao e' algo que acontece de uma hora pra outra. E' um trabalho de 
+detonar  com a vida do cara ate' que ele resolva se mudar. E isso e'  feito 
+da forma mais sutil possivel, mexendo com os sentimentos da pessoa, fucando 
+as coisas dele, provocando briga pra se fazer de vitima depois, etc.. e ela 
+fez  isso.  Uma vagabunda? Talvez. Se, entre tres pessoas q.  se  conhecem, 
+duas  se  apaixonam, a tendencia e' a terceira ser expulsa,  se  nao  tomar 
+cuidado.  Tendo esse tipo de motivacao, todo mundo vira canalha, o que  nao 
+justifica tal barbarie. Ninguem era adolescente ali. 
+So' que o caso nao terminou ai':
+     Por  um  acaso do destino, os dois voltaram a se ver de  novo,  depois 
+dessa  novela. O "amigao" com uma loiraca do lado e a "vagaba" de  namorado 
+novo. Como se nada tivesse acontecido, antes que o cara pudesse reagir, ela 
+deu aquele "abracao" como se os dois tivessem sido namorados, um dia. E foi 
+embora  antes que pudesse haver um escandalo e estragar ambas as noites.  A 
+loira quase largou o cara por conta disso.
+     Moral: Nao confie em alguem so' porque voce ajudou a pessoa.
+     E' preciso aprender, mesmo sofrendo.  Historias como essa, todo  mundo 
+vive,  cedo  ou   tarde. E ficam as cicatrizes. Outra  pessoa  que  conheco 
+desfaz  a  amizade na hora se souber que o sujeito e' de  Mateus  Leme, MG. 
+Todas  as pessoas que conheceu e que vieram de la', passaram a perna  nele. 
+Alias, falando sobre mineiros, acontece muito, um nao confia no outro,  mas 
+para  ser  educado nao traz o assunto a tona.    Outras  pessoas  levam  em 
+consideracao  a  questao  do signo, raca ou classe  social.  Ha'  trocentas 
+formas  de se discriminar a pessoa. A pior parte do lance da  discriminacao 
+e' quando a pessoa objeto da discriminacao incorpora o raciocinio, e age de 
+acordo  com ele, dando razao ao preconceito. As vezes, aquilo que  chamamos 
+de  preconceito  e'  um pos-conceito. A pessoa tem  motivos  pessoais  para 
+pensar  de forma discriminatoria em relacao a alguma pessoa  estranha.  Ja' 
+viveu situacao semelhante. Por isso o "pos-".
+
+                 "Os grilos so' cantam na cabeca do dono".
+
+     Uma pessoa capaz de ler nas entrelinhas pode tirar muita coisa  dessas 
+historias.  Existe a cumplicidade, que e' algo diferente de ser ou nao  ser 
+de confianca. Como por exemplo, quando voce participa de um grupo ou camada 
+social  especifica. Ai', qualquer ato de traicao pode ser informado a  todo 
+grupo e ser decretada o ostracismo da pessoa. Detalhe: isso depende do grau 
+de interacao do grupo, da existencia de um codigo de etica e da  propaganda 
+dos fatos. Se voce faz parte de um grupo de hackers e "fode" com alguem, se 
+o  resto  do  grupo,  sabendo  disso pode  por  em  votacao  sua  expulsao. 
+Normalmente isso e' feito para nao detonar a imagem do grupo como um  todo, 
+uma  forma  de  se defender contra imbecilidades. Por  exemplo,  uma   vez, 
+trabalhava  num local em que tinha um video, mas nao era (logico) para  uso 
+pessoal.  Convidei um colega que achava que podia confiar para assistir  um 
+curta-metragem.  Nada muito serio, mas era uma coisa meio secreta,  ninguem 
+podia  ficar  sabendo. Cheguei para a figura e  perguntei:  "voce  consegue 
+manter  a boca calada?". Botei o filme, o cara nao segurou a  boca  calada. 
+Parei  a  fita,  com medo de todo mundo  ouvir  ele  pronunciando  "animal, 
+animal"  ou  entao "que doido, meu". Reclamei, tive que  ouvir  "fuck  you, 
+man".  Obvio  que minha conversa com o dito ta' "congelada".  Nao  se  pode 
+confiar  em ninguem, muito menos em alguem que nao demonstra um  minimo  de 
+auto-controle.  
+     A nivel afetivo, esses lances tambem existem. Colocandoa coisa a nivel 
+bem  simples  e facil de entender. Mulher (ou mesmo em alguns  casos,  ate' 
+homem).  Quando se apaixona e assume isso, pode fazer quase qualquer  coisa 
+pelo  cara.  Nota mil em confianca. Numas: uma  historia  interessante  foi 
+quando  comecei a morar no CRUSP. Ainda nao tinha tido 1 namorada dla',como 
+acontece  muito.  Um  dia, obvio, aconteceu. E, obvio, todo mundo ficou sa-
+bendo, como sempre acontece nesses lugares.  Tinha  uma  menina  (acho ate' 
+varias, ja que fofoca la' e' mato) queria saber meu desempenho.(Nem  sempre  
+a mulher  fica  com  o cara por conta disso). Ao inves  de  perguntar isso, 
+diretamente (nao ia ouvir a resposta) insinuou que haviam  enormes  duvidas 
+rolando sobre minha masculinidade. Bom, a reacao da minha "mina" foi rapida
+e comentou exatamente o que a outra queria ouvir. 
+     Mas, voltando ao lance, se  for  desprezada,  ou abandonada, ou perder 
+o gosto pela figura, sei la'. Putz, meu, sai de baixo. Ah, sim. Tem o  fato 
+de  que mulher apaixonada tem a(o) confidente dela. Normalmente tem.  Se  a 
+dita  tem  medo de te perder, pode ate' fazer um pacto com o diabo  pra  te 
+prender,  o que significa usar gente que mora contigo, mesmo que  seja  seu 
+inimigo.  E  o que uma mulher entende por "querer o melhor para  nos  dois" 
+pode ser simplesmente algo como um casamento ou "pepino". Vale pra  amigos, 
+tambem, isso ai'. Tudo depende do tipo de coisas que estao em jogo. Volta e 
+meia  escuto "fui sacana com o cara, mas e' meu amigo, ele  vai  entender".     
+O  que escrevo pode parecer nao ter nada a ver com hacking ou fucacao.  Mas 
+e'  um  topico  que  aparece em muito hacker zine la'  fora,  e  eu  assino 
+embaixo.  Nada  pior do que um imbecil que atrapalha sua vida por  coisa  a 
+toa.  Algumas  coisas, da' para desculpar, mas nao se  forem  repetidas  em 
+serie. 
+     Se voce ler esse artigo, e  achar divertido, otimo. Mas nao  da'  para 
+entender  o quanto e' serio. Questao de experiencia de vida. Ajuda,  se  ao 
+inves  de  tentarmos  esquecer, procurarmos reconstituir  cada  detalhe  de 
+fracassos anteriores. . O primeiro passo e' nunca acreditar nas aparencias. 
+     Outra coisa boa  e'  nao  relaxar a guarda so' porque a  outra  pessoa 
+concorda  com o que falamos. Tambem e' bom  fazer sempre um roteiro  mental 
+do  que pode ser conversado e nao pode ser  conversado.  Auto-conhecimento. 
+Lembrar sempre que "falar bem e' prata, mas ouvir e' ouro". Treinar a  arte 
+de resistir a contar segredos do seu passado. O mais dificil e' aprender  a 
+duvidar das intencoes dos outros. As pessoas que tem o habito de  "estudar" 
+a  vida  alheia em busca dos pontos fracos e fortes, nao  fazem  propaganda 
+desse  estudo. E pessoas que parecem ser inatacaveis em suas  acoes  talvez 
+simplesmente  tenham conseguido manter seus erros em segredo.
+     Nao  estou  nem falando que voce deva confiar em gente que  manja  pra 
+caramba de informatica. Com esses voce pode ser especialmente paranoico.  A 
+"R???????",  um  dos grupos de ratos de computador com quem  tenho  mantido 
+contato,  volta  e meia nao confia em mim nem  sequer  para  "intercambiar" 
+informacoes  sobre  como  acessar  algo  ou quebrar  um  sistema  comum  de 
+protecao  da sala de informatica onde trabalham. E de repente,  eles  estao 
+certos. Porque deveriam? So' porque edito um e-zine? (Claro que eu levo bem 
+na esportiva, esse tipo de coisa: boto a pessoa numa lista X de "Xau, ve se 
+liga, heim?" - e' legal quando o cara descobre que perdeu mais coisa do que
+voce). Esse tipo de coisa, e' preciso ter uma cabeca para aceitar e  passar 
+por cima. Ninguem e' uma ilha, nao se pode deixar um sentimento ruim estra-
+gar tudo. 
+     Algumas atitudes,  nao  se  pode cobrar, tipo: que a pessoa tenha con-
+fianca. O reverso tambem e' valido.
+     Ha'   assuntos  podem  ser discutidos em publico.  Outros,  nao.  Seja 
+inteligente e nao pergunte nada serio em frente a uma multidao.  Nao confie 
+em  ninguem,  especialmente  em quem nao comete erros. Nunca  pense  que  a 
+pessoa continua imutavel, ao longo dos tempos. Uma coisa e' a pessoa quando 
+em  estado de desespero e outra quando saiu dele. Pode ser que  voce  tenha 
+que  pagar  por errar nisto. Os remorsos podem ser  cicatrizes  ou  feridas 
+abertas, por conta de erros cometidos.
+
+(*)    Surpreso?   Uma  das  literaturas  de  maior  sucesso  atualmente   e' 
+exatamente aquela que explica para o mundo feminino como funciona a  cabeca 
+masculina. Claro que o grande problema (para elas) e' que a cabeca feminina 
+se  preocupa  muito  mais  com a concorrencia,  elas ficam  preocupadas  em 
+melhorar a aparencia, fazendo ginastica e regime. Nessa de regime, a  massa 
+encefalica vai embora. Nao raciocinam na hora de ir a luta. A teoria vai p. 
+saco. Pra sorte da galera. Podem me chamar de machista. Muita gata por  ai' 
+ia,  se o diabo em pessoa aparecer e oferecer um pacto: "metade do  cerebro 
+por  um corpinho perfeito com aquela bundinha", ira' perguntar  "so'  isso? 
+onde  assino?". Eu  ja' conversei com algumas assim. Nem  todas  sao  desse 
+jeito, vale a pena informar.
+   
+                            A ETICA EM HACKING
+                            ==================
+
+              escrito pelo Dissidente(adaptado por Derneval)
+
+     Eu  fui para a faculdade, para checar se era para la' que queria ir  e 
+coisas  do  genero. O guia me perguntou pelos meus interesses e  quando  eu 
+disse   computadores,  ele  comecou  a  me  perguntar  qual  dos   sistemas 
+operacionais  eu  tinha, etc. E quando terminou, a primeira  coisa  que  me 
+perguntou, foi "voce e' um hacker?"
+     Bom,  aquela questao tem me grilado a cabeca desde aquele dia.  O  que 
+exatament e' um hacker? Um VERDADEIRO HACKER?
+     Para aqueles que nao manjam, a midia, os jornais (e ate' historias  em 
+quadrinhos)  aumentaram  a  coisa alem da imaginacao  ..  Um  hacker,  pela 
+definicao  errada, pode ser qualquer coisa, desde um usuario de  computador 
+ate'  alguem  que  destroi qualquer coisa que eles podem  plugar  nos  seus 
+terminais.
+     E  as  bestas quadradas do mundo que pegam um MSX e um modem  de  2400 
+(ah,  sim, e um drive) para Natal nao ajudaram a reputacao dos hackers  nem 
+um  pouco. Eles algumas vezes tem acesso a algum sistema realmente legal  e 
+acham alguns artigos sobre hacking .. Ou talvez algum  hacker amigavel, mas 
+nao cauteloso o bastante ajuda o perdidao, da' alguns numeros a ele, etc. O 
+babaca  entra  em  algum  sistema  em  algum  lugar,  tem  sorte  e  acessa 
+coisa  realmente bacana, dados ou programas e .. deleta eles. Ou algum  dos 
+mais  ambiciosos  capturam isso, apagam, e tentam vender para  a  Libia  ou 
+coisa do genero. Quem leva a culpa?
+     Os  verdadeiros  hackers ... sao eles. Entao, o que e'  um  verdadeiro 
+hacker?
+     Primeiro,  algumas  pessoas  podem  pensar  que  nao  estou  realmente 
+qualificado para dizer, principalmente porque ainda nao me considero um. To 
+aprendendo a me equilibrar nas cordas, mas mesmo assim tenho uma boa  ideia 
+do que um verdadeiro hacker e'. Se to errado, pode me corrigir ..
+
+     Verdadeiros hackers sao inteligentes, tem que ser. Ou fazem bonito  no 
+colegio  porque nao tem nada melhor para fazer ou vao mal porque escola  e' 
+um  troco  terrivelmente chato. E os que estao chateados  nao  estao  assim 
+porque  nao tao nem ai para aprender qualquer coisa. Um  verdadeiro  hacker 
+quer  aprender tudo. Eles tao de saco cheio porque a escola ensina a  mesma 
+porcaria repetidas vezes e nunca nada novo ou que evoque um desafio.
+     Verdadeiros  hackers  sao curiosos e pacientes. Se voce nao  e',  como 
+pode estar batalhando uma "hackeada" num simples sistema so' pelo gosto  de 
+"bisoiar" o que tem dentro?
+     Um verdadeiro hacker NAO TEM QUE entrar no sistema para apagar tudo ou 
+vender  o  que consegue para alguem. Verdadeiros hackers  querem  aprender, 
+querem satisfazer a curiosidade, esta e' a razao porque entram num sistema. 
+Para procurar dentro de um lugar onde nunca estiveram, para explorar  todos 
+os detalhezinhos e besteirinhas de um mundo tao diferente do esgoto em  que 
+a  gente  vive.  Pra que destruir alguma coisa e tirar o  prazer  de  outra 
+pessoa?  Porque jogar o mundo inteiro em cima dos verdadeiros  hackers  que 
+nao estao crusando as linhas telefonicas com mas intencoes?
+     Verdadeiros hackers estao desgostosos com o jeito que as coisas  estao 
+indo  no mundo. Toda a tecnologia maravilhosa do mundo custa tres bracos  e 
+quatro  pernas  pra  conseguir, nos dias de hoje. Paga-se uma  nota  preta, 
+chamar  uma BBS em outro estado! Entao, porque fazer isso?  Para  emprestar 
+alguma  coisa de um arquivo que vou nomear depois, porque pagar por  aquilo 
+que seria "preco de banana se nao fosse gerenciado por glutoes ganaciosos"? 
+Porque  seria forcado, por falta de maldito fluxo de caixa necessario  para 
+chamar lugares geniais, ficar junto com um bando de perdidos babacas na sua 
+cidade  natal? Chamar e entrar num sistema que voce nunca viu antes e'  uma 
+das duas mais preenchedoras experiencias que um homem pode conhecer, mas e' 
+um  prazer  que  poderia nao ser curtido, se nao fosse por um  bom  uso  do 
+telefone.
+     Verdadeiros hackers sao quietos. Eu nao quero dizer que eles falam tao 
+baixo quanto alguem num confessionario, eu quero dizer que eles mantem suas 
+bocas fechadas e nao ficam contando vantagem. O inimigo numero um  daqueles 
+que  a midia nos faria chamar de hackers e' jogar conversa fora.  Voce  diz 
+para  um  amigo,  ou abre a boca numa BBS e cedo ou  tarde,  gente  com  um 
+cacetete vai descobrir o que voce fez, quem voce e' e voce ja' era.
+     
+     Eu  realmente  nao sei qual objetivo este arquivo vai  servir,  talvez 
+alguem  vai ler e saber a verdade sobre hackers. Nao essas mentiras que  os 
+ignorantes  espalham. Para os verdadeiros hackers la' fora, eu  espero  que 
+esteja  retratando o que voces sao nesse arquivo. Se nao estou, entao  pelo 
+menos  estou  dizendo o que penso que um verdadeiro hacker deveria  ser.  E 
+para todos aqueles  wanna-be's la' fora que gostam da etiqueta "HACKER"  na 
+lapela, crescam e aparecam, ta' bom?
+
+     Ah,  sim, o arquivo do qual tirei este .. foi feito (pelo menos)  umas 
+duas  vezes. "The Hacker Manifesto" ou "Consciencia de um Hacker" sao  dois 
+nomes que me vem a cabeca. (Um arquivo por si e parte de um numero do  zine 
+Phrack).  De qualquer forma, foi escrito pelo Mentor, e e' absolutamente  a 
+melhor coisa ja' escrita sobre hackers. Leia. Poderia mudar sua vida.
+
+                  FIDONET - ALTERNATIVA PARA A INTERNET?
+                  ======================================
+
+A   primeira  vez  que  consegui  a  lista  brasileira  de   BBSes   fiquei 
+impressionado  com  o numero de FIDONET bbses que tinha.  Varias,  como  se 
+fossem uma franquia. Fui na Argentina, ouvi uma palestra onde se falava  do 
+prazer  de acessar esse tipo de BBS e pude comprovar (como "convidado",  eu 
+ficava  no  palco, olhando pro publico) pela mudanca  de  espirito,  assim, 
+instantanea,  que  era algo popular. Mas nao sabia o que  era,  nao  queria 
+passar vergonha perguntando (uma coisa que todo fucador de micro deve saber 
+fazer e' evitar  fazer  qualquer  pergunta "idiota" que nao seja realmente,
+desesperadamente,  crucialmente  essencial, e se possivel ainda  assim  nao 
+perguntar,  aprender  sozinho). Cheguei a ver um subdiret. inteiro sobre  o 
+assunto no Simtel20, mas ... nao tinha telefone com o qual pudesse  acessar 
+BBSes.  E  apesar  de  ser possivel hackear um  sistema  UNIX  para  chamar 
+telefones  de BBSes, da' um problema filho da mae fazer isso, e'  facil  de 
+rastrear  e por ultimo, nao valia a pena nem pensar na ideia de perder  meu 
+acesso  internet  por conta disso. Mais tarde, descobri que  esse  tipo  de 
+raciocinio  e'  comum.  Quem usa internet e manja ingles  o  bastante,  num 
+primeiro estagio, vicia a ponto de esquecer a cena de BBSes. Alias,  parece 
+que  a  evolucao e' mais ou menos essa, primeiro o cara  compra  um  micro, 
+depois o modem, depois vai atras de BBSes, talvez entao a Internet, se  ja' 
+nao  tiver enchido o saco de tudo isso. E quando chega nesse ultimo  passo, 
+se nao domina ingles, nem avanca muito. Mesmo nos EUA, uma grande parte  da 
+Hacker  scene  se  passa  em BBSes e  isso  possibilita  o  intercambio  de 
+informacoes  que,  de  outra forma, ficariam ilhadas em  alguns  grupos  de 
+fucadores.
+     Quando  comecei  a sonhar com a ideia de montar meu  proprio  servidor 
+Internet tropecei na facilidade  de  montar uma BBS. E mais, na  facilidade 
+de  se  montar  uma BBS conectada a rede FIDONET. Para se  ter  uma  ideia, 
+existe  uma  quantidade enorme de listas de  discussao  fidonet,  incluindo 
+revistas  que  devotam colunas inteiras a cena fido. Tudo isso  porque  nao 
+custa muito se associar. Um nivel baixissimo de burocracia e  complicacoes, 
+do meu ponto de vista. E as mensagens atravessam o mundo inteiro, da  mesma 
+forma que acontece na Internet.
+     Voce  loga na BBS, entra area de mensagens fidonet, especifica a  area 
+do  sistema  ou dos sistemas para onde quer que a mensagem vai,  escreve  a 
+dita  e termina, da forma usual. Mais tarde durante a noite, a BBS fecha  e 
+comeca  a  processar  a  correspondencia,  que  consiste  de  montagem   de 
+"pacotes" e discar para outra BBS Fido. Ao mesmo tempo, "escuta", recebendo 
+correspondencia.  Ao  final  do perido, a BBS volta a  deixar  os  usuarios 
+acessarem.  E  as mensagens podem ir para varios outros sistemas  no  mundo 
+inteiro. A um custo baixissimo. Arquivos tambem podem ser transmitidos, mas 
+nada de coisa comercial. 
+     O enderecamento se baseia num sistema de zonas: a zona 1 e' os EUA,  a 
+2  e'  a Europa, a 3 a Asia/Australia e se nao me engano, a  4  e'  America 
+Latina. Dentro de cada zona, sao divididas as regioes. No caso da Europa, o 
+endereco comeca com 2(Europa) depois 20 (regiao) e a partir dai' rede  ???, 
+que  pode ser o numero da BBS ou micro registrado no sistema. 
+
+Por exemplo:
+
+zona: rede/no'
+|      |   |
+|     /    /
+|     |  /
+|     | |
+V     V V
+
+3: 700/88 ('Executive Board', Hongkong)
+
+Quanto ao minino necessario para iniciar, existe farta documentacao e  dois 
+softwares basicos, um o 'Fido', que e' proprietario (leia-se custa grana) e 
+o 'OPUS', que e' publico dominio. Os mais "craques" pode ler a documentacao 
+'FSC001  A  BASIC FIDONET TECHNICAL STANDART' para fazer  seu  programa  de 
+intercambio  de  pacotes.  Feito isso, pede-se a inscricao  no  sistema  de 
+enderacamento  e  apos  alguns testes, se tudo funcionar,  o  novo  no'  e' 
+inscrito  numa lista mundial de no's, que e' constantemente atualizada.  Em 
+teoria, ate' mesmo 1 PC 8 mhz e um modem de 2400 bps podem ser  suficientes 
+para  a  coisa  (sim  e funcionando com MSDOS),  junto  com,  obvio,  linha 
+telefonica. A pessoa pode ter seu enderecamento pessoal, sua proprio  micro 
+recebedor de correspondencia eletronica em sua propria casa, vulgo "ponto". 
+Mas  os  usuarios  devem usar o nome real,  nao  pseudonimos.  Todos  estes 
+detalhes sao coordenados pela IFNA (International FidoNet Association)  que 
+tambem  publica um periodico sobre o protocolo de envio e atualiza a  lista 
+de no's. 
+     O custo de utilizacao depende da quantidade de mensagens (quanto maior 
+o  volume, maior o tempo da ligacao telefonica entre os nos)  recebidas  ou 
+enviadas. Mas de acordo com o que li a respeito, parece ser quasetao barato
+quanto  um  selo  ou ficha telefonica. Porque fiquei  impressionado  com  a 
+coisa?  Porque  trabalho com acesso Internet entre escolas  do  primeiro  e 
+segundo  graus  e  devido  a  pessima  qualidade  das  linhas   telefonicas 
+brasileiras  e' quase impossivel conseguir conexao com  Rondonopolis,  Mato 
+Grosso  do  Norte  (Sul?). Mas um dos involvidos no projeto,  tem  uma  BBS 
+ligada  a  rede Fidonet. No coracao da America Latina, o cara  pode  mandar 
+correspondencia  para mais de 5000 sistemas no mundo inteiro.
+     O  sistema de "forwarding mail" nao e' muito estranho. Existem  varias 
+outros tipos de redes que funcionam usando esse esquema, como a Magic Net e 
+existem softwares como o Zerberus para transformar um micro ligado a  linha 
+telefonica  num  repositorio de correio eletronico. E'  bastante  comum  na 
+em paises como a Alemanha, que tem praticamente uma tradicao na  construcao 
+desse tipo de intercambio via e-mail. Me parece que via RENPAC existe coisa 
+semelhante  embora  nao muito propagandizada, a nao ser atraves  do  Video-
+texto. A propria Usenet comecou desse jeito. Em um artigo que era para  ter 
+sido colocado no BE.09, alguns estudantes desejosos de algo parecido com  a 
+Internet   desenvolveram   um  programa  no  sistema   Unix   que   chamava 
+automaticamente outro sistema Unix para mandar a correspondencia via modem, 
+no  que  e' chamado hoje de UUCP (UNIX-to-UNIX-COPY).  O  sistema  acumula, 
+depois  numa  determinada  hora chama outro sistema via  modem  e  manda  o 
+arquivo contendo o "bolo" das mensagens.
+     Provavelmente,  a  Cybernet, a Lusonet, a Lovernet, Worldnet, RBT e os
+outros   sistemas   provavelmente  seguem  principios   semelhantes.   Acho 
+interessante porque e' um sistema mundial, parece bastante descomplicado de 
+se  fazer parte (curto qualquer coisa que nao tenha burocracia) e de  custo 
+acessivel. Pode ser dirigido como se fosse um clube ou como algo comercial, 
+visando lucro. A parte que exige dinheiro sao as chamadas interurbanas, que 
+o software faz automaticamente, para trocar correspondencia entre nos. Cada 
+BBS  Fido  e'  um no' que se comunica com outra,  a  determinada  hora.  Me 
+falaram  de que existem sistemas ligados a Internet ajudando a  diminuir  o 
+custo  de transmissao entre  no's Fido (seria algo apenas logico)  mas  que 
+por  causa do alto numero de usuarios fidonets aproveitando uma  brecha  de 
+acesso a internet para acessar listas USENET via e-mail e coisas do  genero 
+(coisa  que estoura facil, facil o limite em que esse e-mail  e'  economico 
+para o funcionamento de uma BBS), parece que nao existe mais conexao  entre 
+os dois sistemas. Nao e' possivel mandar da Internet para a Fidonet e vice-
+versa.    Isso    e   outras   informacoes   podem    ser    checadas    no 
+http://www.fidonet.org e ftp.fido.net.
+     Para finalizar, nao estou escrevendo o artigo porque usei o sistema ou 
+porque  de repente estou de saco cheio da Internet. Tambem nao sei  qual  o 
+indice  de bom ou mal funcionamento de tal sistema ou ate' que ponto a  lei 
+de Murphy funciona nele. Nem li muito a respeito.  Mas porque achei a ideia 
+muito  boa. Os principios por tras de uma rede Fido podem ser "clonados"  e 
+usados  para desenvolver outros tipos de conexoes. Aquilo que conheci  como 
+Internet pode acabar sendo substituido pelo WWW e pela "Electronic Highway" 
+e ficar tao superlotado que sera' impossivel ler uma lista de mensagens que 
+nao seja moderada. Aqueles que estao entrando na rede das redes agora estao 
+entrando  sem  nenhum  curso,  muitas vezes sem ter  lido  nem  FAQ  (texto 
+contendo perguntas mais frequentes) ou qualquer texto sobre net-etiqueta. E 
+o  que e' pior e' que isso nao esta' errado. Creio firmemente na ideia  que 
+todo  mundo  deve ter acesso a informacao. Talvez algum  dia,  net-etiqueta 
+faca parte do curriculo de escola. As pessoas vao aprender a ler e escrever 
+na  Internet. Talvez fique chato. Talvez a rede passe a ser  algo  vigiado, 
+por  medo de "vandalos eletronicos" e crackers. Talvez entao, a  FIDONET  e 
+seus companheiros alternativos se tornem a unica forma de se participar  de 
+uma  tele-comunidade sem ficar se ficar encanado. E talvez tambem  a  unica 
+forma de se formar uma comunidade ligada eletronicamente com o mundo sem se 
+ter que arcar com o custo (por enquanto alto) de instalacao de um servidor, 
+tarefa complicada, mesmo quando se e' um fucador de micro.
+
+                           ESTUDANDO OS HACKERS
+                           ====================
+
+     Por Dr. Williams - Revista 2600 Hacker Quaterly - Primavera 1993
+            Publicado  com  permissao  -  trad.  Derneval Cunha
+
+No  "Hackers  Handbook"  na pagina 123, Hug Cornwall discutiu  a  ideia  de  
+ajudstar seu computador para parecer e agir como um sistema mainframe.  Ele 
+deixaria  hackers  tentar  ganhar  acesso a  ele  enquanto  monitoraria  os 
+resultados.  Ele queria que seu computador pessoal emulasse o M15,  o  alvo 
+mais  notorio  dos hackers britanicos. Os hackers entrariam  no  sistema  e 
+tentariam conseguir privilegios, quando na verdade estariam tentando entrar 
+no  seu sistema. Hugh nao prosseguiu com o seu palano, embora  ele  fizesse 
+uma  emulacao  bem  sofisticada do M15. Justamente quando   ia  executar  o 
+plano,  um empregado deixou a equipe do M15 e foi para a  imprensa  levando 
+toda a roupa suja junto. Hugh pensou que fazer a imitacao colocaria ele  em 
+problemas  ou pelo menos mais publicidade do que ele queria, de  forma  que 
+nao foi adiante com a coisa.
+     Eu  achei  a ideia por conta propria e penso que os  resultados  foram 
+interessantes.
+     Eu  tinha  justamente terminado um curso em sistemas  operacionais.  A 
+classe  usava  MINIX  como modelo para estudar e  modificar.  MINIX  e'  um 
+sistema  operacional  compativel com a versao 7  do  UNIX,  especificamente 
+feito  para ser rodado em IBMs e seus clones. Tem mais de 12000  linhas  de 
+codigo fonte em C. Apos terminar o curso, eu decidi usar MINIX porque achei 
+que  poderia  mimicar um grande sistemade computador sobre  o  disfarce  de 
+Unix.
+     Levou  um tempo para montar um "pseudo-sistema", algo que  pensei  ser 
+capaz de enganar novatos no Unix a ponto de faze-los pensar que estavam num 
+sistema  do tipo. Primeiro, tive que reformatar o meu disco rigido  para  o 
+sistema  operacional  MINIX. Ai' tive que escrever um  device  driver  para 
+rodar o modem, o que levou outro tempo. Tive que mudar aparencias  fisicas: 
+nomes  do  arqivo,  diretorios,  sintax de itens,  e  estilo  de  emulacao. 
+Adicionei  algumas caracteristicas - colocar nomes, itens que  atraissem  a 
+atencao, e ferramentas de correspondencia. Finalmente, escrevi um  programa 
+que  fazia  a  mimica, que tambem reunia estatisticas  das  atividades  dos 
+usuarios.  No  total, seis meses do meu tempo livre gastos  para  fazer  um 
+sistema satisfatorio.
+     O programa foi feito para imitar UNIX em todos os sentidos. De  tempos 
+em  tempos,  "mostraria" diferentes usuarios dentro,  diferentes  processos 
+correndo (nota do tradutor: lembrar que UNIX e' um sistema multi-usuario  e 
+multi-tarefa - usuarios de PC talvez tenham dificuldade em entender  isso), 
+quota  de  disco,  estatisticas  de terminal,  espacos  livres,  status  da 
+impressora,  e dai' por diante. Ele mostrava diferentes pacotes  de  disco, 
+tinha a maioria dos aquivos que o UNIX usa para  funcoes administrativas  e 
+de sistema e agendamento de back-ups.
+     Na tela de login, fiquei tentado a colocar qualquer coisa como  "Boeng 
+node  #2,  please login", ou "General Dynamics Site 3, spot 2".  Porem,  eu 
+pensei  que isto poderia me dar mais problema ou atencao do que eu queri  e 
+resolvi por uma aproximacao mais generica:
+BN Site #2
+<hora local>
+Please login:
+
+Depois do primeiro login, a tela iria mostrar:
+         ******************************************************** 
+            Houve  um  "crash"  no  /grupo3  no  dia  8/06/89   a 
+         aproximadamente  03:00. Alguns arquivos foram  deletados 
+         daquele  subdiretorio. Por favor, inspecione  sua  conta 
+         para  checar  a integridade de seus arquivos.  Chame  os 
+         operadores na extensao 3524 se precisar de recorrer  aos 
+         back-ups.  Havera' uma reuniao no dia   24/06/96,  meio-
+         dia,  na  lanchonete  durante o almoco,  para  todos  os 
+         empregados  interessados em formar um grupos de  pessoas 
+         interessadas  em  avioes e carros  de  controle  remoto. 
+         Chame   Jeff   Smith  no  ramal   2146   para   detalhes 
+         posteriores.
+         *******************************************************
+
+E o prompt era:
+
+Junho[1]
+
+Cada  vez que um comando era acionado, o numero entre chaves aumentava  uma 
+unidade.
+     No  programa,  eu deixei alguns famosos bugs do  UNIX,  esperando  que 
+alguem  tentasse  manipular  a  conta para conseguir  um  numero  maior  de 
+privilegios.  Eu  deixei  os bugs do mail, escrevendo comandos  para  a  25 
+quinta  linha, e usando o mesmo esquema de criptografia para o  arquivo  de 
+password que o sistema Unix usa e alguns outros itens menores. Para motivar 
+os  uso  desses  bugs, pus jogos que poderiam  ser  executados  apenas  com 
+privilegios,  e arquivos com nomes tentadores como CAR.DATA, PRIVATE.DOC  e 
+DOCUMENT.SECRT   que tambem podiam ser lidos somente com privilegios.  Cada 
+vez que a conta era fechada (logoff), tudo voltava ao que era antes,  todos 
+os ajustes ou ganhos que a pessoa tinha feito voltava a zero. De forma  que 
+se  o  cara logasse mais de uma vez, tinha que comecar do  inicio  tudo  de 
+novo.  Nao  gostei de fazer isso, mas desde que eu pensei que um  monte  de 
+gente  estaria usando umas poucoas contas, eu pensei que  faria mais  falsa 
+se  aconta  mudasse drasticamente cada vez que alguem  logasse  nela.  Isso 
+tambem  me  ajudou  a  fazer observacoes mais  acuradas.  Nesta  altura  do 
+campeonato, consegui que um amigo emprestasse o telefone do seu  dormitorio  
+por  alguns  meses, ja' que ele estava de saida, de  qualquuer  jeito.   De 
+forma que  pluguei o computador e deixei o lance rolar.
+     Eu queria por contas em tres alvos diferentes: hackers, hackers wanna-
+be's, e comunidade academica. Nas BBSes onde eu tinha hackeado privilegios, 
+enviei mensagens dizendo aos usuarios que usassem este sistema "quente" que 
+tinha descoberto. A mensagem saiu qualquer coisa assim:
+
+         "Descobri uma conta no sistema Unix no numero 555-5555.
+         O username e' 'Pauls' e a senha e' 'dog$car'.  Divirtam-
+         se".
+
+Um  dia  depois,  postei a mesma mensagem em  diferentes  BBSes,  todas  em 
+lugares onde tinha status normal, mas onde havia mais "burrinhos". Eu mudei 
+o   username e senha. Finalmente, uma semana depois, disse a alguns  amigos 
+meus da comunidade academica,, mas com outra combinacao username-senha.
+     Algo  que  notei  que iria acontecer e que um  punhado  de  sysops  do 
+sistema  onde postei a mensagem para os "burrinhos" apagaram as  mensagens. 
+Mais  da  metade deles tinha apagado a mensagem antes do final  do  dia.  A 
+coisa ainda serviu o  meu objetivo, porque um punhado de gente tinha  visto 
+a  mensagem. Eu estava tentado a dizer os sysops do sistema onde  postei  a 
+mensagem  que isso tudo era uma engancao - um experimento, mas  pensei  que 
+alguns deles nao manteriam isso estanque.
+     Algo  que era mais ou menos esperado foi que um punhado de  sysops  me 
+escreveu  de  volta, furiosos que eu tinha postado a  mensagem.  A  maioria 
+deles  pensou  que  eu estava os colocando em posicao  meio  ilegal  (coisa 
+compreensivel). Outros disseram que sua BBS nao estava muito chegada a esse 
+tipo  de  operacao,  ameacou chamar a policia, me avisou  para  nunca  mais 
+postar aquele tipo de mensagem de novo e ate' mesmo deletou minha conta  na 
+BBS (nenhuma perda com isso). Nenhuma das minhas mensagens para a  multidao 
+hacker  foi  perdida. Eu postei a mensagem 17 vezes  para  os  "burrinhos", 
+cinco  vezes  para  os  hackers, e avisei quatro  conhecidos  que  sei  que 
+passaram isso adiante.
+     Eu  suponho que se alguem tivesse pensado sobre o assunto, ele ou  ela 
+poderia  ter  concluido  que  e' bastante  ingenuo  postar  uma  combinacao 
+username/senha  numa  BBS  onde todo mundo pode ler.  Ou  eu  era  bastante 
+arrogante ou tinha outras motivacoes.
+     Dentro  de 8 horas apos o envio da dita, o sistema teve  seu  primeiro 
+contato.  Eu  tava  esperando alguem que realmente soubesse  o  que  fazia. 
+Queria ver se alguem era capaz de pular os obstaculos que pus pra conseguir 
+maiores  privilegios.  A  primeira pessoa nao parecia ser  familiar  com  o 
+sistema  UNIX - eles continuaram tentando comandos do MSDOS. Para  falar  a 
+verdade, o UNIX e' bem pouco amigavel (obs. do tradutor - tem que manjar).
+     Os  proximos ja' pareciam saber mais sobre o que estava rolando.  Eles 
+estavam logados na conta "hackers". Foram capazes de achar os atributos  da 
+dita,  e ver qual a extensao do sistema. Uns poucos deles eram  capazes  de 
+localizar  alguns dos alvos de interesse que coloquei, mas nao  conseguiram 
+acesso.
+     Na  proxima vez, a conta dos "burrinhos" teve um incremento no uso.  A 
+maioria  deles eram poucofamiliarizados com o sistema UNIX.  Alguns  tinham 
+um conhecimento basico dos comandos basicos, mas nao sabiam realmente  como 
+manipular a maquina.
+     Finalmente, algumas das chamadas comecaram a vir da conta academica. A 
+maioria deles nao gastou muito tempo logado. Como pareciam saber mais sobre 
+o  que estava acontecendo, eles deram uma olhada para sentir o clima  e  se 
+mandaram.   Um  ou  dois  deles tentaram  comandos  mais  sofisticados  que 
+funcionariam em UNIX, mas nao no MINIX.
+     Apos  um bimestre, fui capaz de ver quais eram os padroes de uso.  Nao 
+sei  quantos individuos logaram na minha conta, mas registrei o  numero  de 
+vezes  em  que a conta foi usada. Olhando no arquivo de log  da  conta  dos 
+"burrinhos",  a  metade do seu uso veio de gente nao  familiarizada  com  o 
+UNIX.  Usando comandos do MSDOS ou comandos de outros PC's, inabilidade  de 
+usar   o   arquivo  de  help  e  nenhuma  experiencia  de  UNIX   eram   as 
+caracteristicas destes usuarios. Aproximadamente um quarto de uso veio  das 
+pessoas  que  tinham alguma exposicao ao UNIX com um  conhecimento  basico. 
+Eles eram incapazes de descobrir a estrutura basica da conta e do  sistema, 
+deram uma geral, mas nao fizeram nada sofisticado. O ultimo quarto do total 
+tinha  pelo menos gente competente; alguns eram peritos. Foram  capazes  de 
+descobrir   itens de interesse, achar a amaioria dos itens de  importancia, 
+ganhar mais privilegios, e tentar esconder que a conta havia sido usada.
+     Dos  50 por cento que eram competentes em UNIX, so' um terco  tentaram 
+ganhar privilegios. Os outros dois tercos devem ter ficado contentes com  o 
+que tinham. Dos outros, o esquema mais popular para ganhar privilegios  era 
+ler o arquivo de senhas (que, como no UNIX e' de leitura aberta ao publico, 
+mas  encriptado).  Isto  nao foi muito surpreendente para mim,  ja'  que  a 
+"minhoca"  de  Cornell usava praticamente o mesmo  metodo.  Muitos  artigos 
+falavam  sobre  isso,  alguns mostrando em forma de receita  como  eram  os 
+passos a serem tomados. Usuarios tentariam decriptar o arquivo de  password 
+e  tentar ganhar acesso a senha de "root". O proximo metodo mais comum  foi 
+escrever  comandos para a 25 quinta linha de uma conta  mais  privilegiada. 
+Isto  nao  era surpreendente tambem, ja' que muito foi  falado  a  respeito 
+disso.  O resto parecia ser usar bugs no mail, achar bugs em  comandos  que 
+rodavam shells em modos privilegiados ou algum outro metodo.
+     Do  terco de usuarios que sobrou, 32 por cento foram bem sucedidos  em 
+em  aumentar os privilegios da  conta. Fora dos 32 por cento, 18 por  cento 
+(25)  pessoas foram capaz de conseguir privilegios de root. Nao sei se  foi 
+uma  pessoa  que  conseguiu isso 25 vezes ou ou 25  pessoas  diferentes.  O 
+program  que  escrevi  somente mimicava o privilegio  root,  mas  nao  dava 
+controle total da maquina.
+     A sofisticacao do usuario era diretamente relacionada a quantidade  de 
+coisas "estupidas" que o usuario fez. Algumas dos burrinhos fizeram  coisas 
+realmente estupidas como criar arquivos dizendo coisas como "Ha, ha. sou um 
+hacker  e  estou no seu sistema", apagando arquivos, ou editando  de  forma 
+obvia.  Outros  vaguearam  pelo  sistema, checando  cada  arquivo  em  cada 
+subdiretorio.  Outros itens que nao eram tao obvios foi o uso excessivo  de 
+arquivos    de   help,   entrando   muitos   comandos   incorretamente    e 
+consecutivamente, e continuamente tentando conseguir acessar coisas para as 
+quais  eles  nao tinham privilegios suficientes. Os mais  capazes  tentaram 
+esconder  sua  presenca. Alguns deles com sucesso editaram o user  log  sem 
+deixar traco, mantiveram um low-profile de atividades, e nao jogaram  jogos 
+ou  quando  o  fizeram, por curtos periodos de  tempo.  Desses  alguns  que 
+ganharam  privilegios, apenas uma incidencia de alguem apagando um  arquivo 
+de proposito sem motivo algum.
+     No  total, a conta "burrinho" foi logada 2.017 vezes. A conta  hackers 
+teve  1,432 usuarios ou log-ins e a conta academica, 386 usuarios.  Eu  nao 
+tenho jeito de saber quantas pessoas (individualmente) usaram ascontas.  Eu 
+fiquei  desapontado com a baixa aparicao da comunidade academica. Eu  falei 
+com  alguem  para  quem  eu  tinha  dado  a  conta  e  algumas  das  razoes 
+apresentadas  foram que algumas pessoas simplesmente nao estavam a afim  de 
+hackear, ou nao eram curiosas acerca de outros sistemas e simplesmente  nao 
+queriam cair no risco de entrar numa fria.
+     Acima de tudo, os usuarios incompetentes vieram da conta "burrinho". A 
+conta hacker parecia ser mais familiar a todos as fraquezas do sistema, mas 
+perdia  em conhecimento do sistema como um todo. A conta academica  parecia 
+ser o oposto; os caras sabiam como trabalhava o sistema, mas nao sabiam  os  
+atalhos  do  UNIX.  Porem, alguns dos melhores  usuarios  vieram  da  conta 
+academica, que eram provavelmente uma elite que tambem eram hackers.
+     Outro efeito colateral aconteceu pouco depois da postagem da  mensagem 
+original numa BBS. Pouco tempo depois, outras pessoas comecaram a postar  a 
+combinacao username/senha da conta "burrinhos", clamando que tinham  pegado 
+de  um amigo hacker ou tinham "hackeado" elas mesmas. Esta e' a razao  pela 
+qual  nao  fiquei  preocupado quando os sysops  deletaram  minha  mensagem, 
+porque gente o bastante tinha visto e transmitido a palavra.
+     Eu  meio que esperava alguma agencia de seguranca ou policia  esfregar 
+os  olhos  e vir dar uma olhadela no assunto. Afinal de  contas,  eu  tinha 
+feito  uma  coisa  bem bocal. Mas nao fui perguntado acerca  disso,  nem  a 
+pessoa  que  era  dona do telefone. Mas tambem, talvez alguem  tenha  e  eu 
+apenas nao soube disso.
+
+                        TO MITNICK OR NOT MITNICK?
+                        ==========================
+
+Tem  tanta gente escrevendo sobre o dito, por conta de uns livros, que  nem 
+sempre  contam  a historia toda, que resolvi escrever uma ou  duas  coisas. 
+Nao  vou falar do que aconteceu recentemente. Isso ai', uma busca no  lycos 
+ou no yahoo com certeza vai trazer ate' resumos dos livros publicados sobre 
+o que esta' acontecendo. E o chato e' que quando se conhece a historia mais 
+a fundo, fica-se em duvida, quem e' o malandro na historia. Para comecar, a 
+dupla  formada pelo "samurai" e o reporter Markoff ta' contando quase  dois 
+milhoes  de dolares em direitos autorais pela prisao do cara. O  computador 
+do cara que o prendeu continuou sendo invadido depois de efetuada a  cacada 
+humana.  E o arquivo contendo milhares e milhares de numeros de cartoes  de 
+credito de usuarios da Netcom estava disponivel para copia para qualquer um  
+sem  grandes  dotes  informaticos. Alias, a grande  maioria  das  acusacoes 
+contra  Mitnick foram retiradas ao longo do processo. Deixa para la',  quem 
+quiser, fique pura e simplesmente com o "o cara era culpado, po^"!
+     Mitnick  comecou sua carreira fazendo parte de um grupinho que  curtia 
+planejar  operacoes contra os sistemas de computacao da Pacific  Telephone, 
+junto  com outros, como Leonard DeDicco e Susie Thunder. Leonard,  operador 
+de  computador  da  Voluntary Plan Assistance ajudava  Mitnick  a  usar  um 
+terminal no seu trabalho para obter acesso a instalacoes da DEC nos EUA, de 
+tal  forma  que  nenhuma chamada fosse cobrada. So' que  acabou  dedando  o 
+colega  e  a  DEC  instalou uma aparelhagem  para  monitorar  e  gravar  as 
+atividades do cara. Gracas a essa dedurada, varias coisas, como a pirataria 
+de  um software de seguranca interna, copiado para uma universidade do  sul 
+da california. Um dia depois,  veio a prisao. Foram encontrados 14  codigos 
+de  acesso da MCI, anotacoes referentes ao tal sistema de seguranca.  E  um 
+resumo  da  lei sobre quebra de sistemas de computacao. Ignorancia  nao  e' 
+desculpa, nesse caso.
+     Ai,  sao tres acusacoes: fraude telefonica, roubo de software e  posse 
+ilegal de codigos de acesso.
+     Como  foi  a prisao? Bom, foi negada a fianca,  apesar  da  legislacao 
+americana afirmar que a lei federal so' considera perigoso para a sociedade 
+o reu que for acusado de crime violento, crime capital ou crime relacionado 
+com  drogas  envolvendo  uma sentenca de mais de dez anos.  Aqui  mesmo  no 
+Brasil,  o promotor precisa demonstrar a necessidade de manter o  individuo 
+preso,  caso  contrario,  o juiz devera'  conceder   a  chamada  "liberdade 
+provisoria".  A  prisao de Mitnick foi feita pelo FBI,  portanto,  caso  de 
+crime federal, but ... de acordo com Jerry Kaplan, um advogado de defesa de 
+Los Angeles, com muita bagagem no ramo, "nao e' comum alguem ser detido sem 
+direito   a  fianca,  a  menos  que  o  caso  envolva  uma   indicacao   de 
+periculosidade". Foi usado o argumento que a liberdade do acusado "punha em 
+perigo a seguranca de qualquer outra pessoa ou da comunidade". A  linguagem 
+vaga de uma lei da fianca foi usada para punir um reu impopular?
+     A  custodia  de  Mitnick  foi negada com base no  Ato  de  Reforma  da 
+Custodia  de  1984,  que autoriza a detencao em casos  onde  o  oficial  de 
+justica  "conclui  que  nenhuma  condicao ou  combinacao  de  condicoes  de 
+liberdade  assegurara' de forma razoavel a .. seguranca de  qualquer  outra 
+pessoa  ou comunidade". (*) A justificativa dos oficiais de justica  era  a 
+prevencao de futuros crimes e nao a prevencao da fuga do reu. "Armado"  com 
+um  teclado,  ele era um perigo para a comunidade. Ai' arrumaram  tambem  o 
+fato  de que o cara poderia ter sido culpado de um boato que  foi  liberado 
+por  uma  agencia de noticias, em abril de 88, segundo o  qual  o  Security 
+Pacific  National Bank tinha perdido US$ 400 milhoes no primeiro  trimestre 
+do  ano. Outra coisa foi a alegacao de que o cara entrara no computador  da 
+NSA,  que como todo mundo sabe, e' uma das coisas mais seguras do  planeta. 
+Junto  com  outras  alegacoes  de mau comportamento, o  apelo  do  reu  foi 
+rejeitado.
+     Mais  tarde, houve uma tentativa de fazer um acordo, coisa  comum  nos 
+EUA.  O  escritorio do promotor reviu sua avaliacao quanto a  seriedade  do 
+crime sendo julgado. Mitnick nao danificou o sistema de computadores da DEC 
+nem tentou fazer grana com o software pirateado. Houve uma re-avaliacao  do 
+dano  causado a DEC e chegou-se a conclusao de em vez de US$ 4  milhoes,  a 
+coisa  teria sido por volta de US$ 160.000 em "tempo perdido". Mas a  juiza 
+Pfaelzer  nao gostou da ideia do acordo. Depois de um ano de  cadeia,  tres 
+meses  depois concordou-se com uma sentenca que obrigasse Mitnick a  passar 
+seis meses em um programa de reabilitacao. Um tipo de "alcoolicos anonimos" 
+para programadores. Isso em julho de 1989.
+     Uma semana depois da condenacao, o assistente da Procuradoria dos EUA, 
+James  Asperger admitiu que nao havia evidencias  relacionando  Mitnick  ao 
+lance do Security Pacific Bank e que era lorota o dito cujo ter entrado nos 
+computadores  da  NSA. Nao existe forma de comprovar que  ele  tambem  fora 
+responsavel pela desconexao dos telefones da atriz Kristi McNichol ou mudar 
+o credito na TRW (instituicao de credito norte-americana) de um juiz que  o 
+sentenciou anteriormente. Eram acusacoes infundadas.
+     So' sete meses depois que isso veio a tona, e' que o cara passou a ser 
+tratado  como um preso comum. So' para se ter uma ideia: como as  condicoes 
+de  prisao estabeleciam que o reu tinha que permanecer longe  do  telefone, 
+ele  foi  mantido  na solitaria 23 horas por dia,  coisa  de  criminoso  da 
+pesada, que baguncava o coreto la' dentro. E' que o pessoal achava que  era 
+a  unica forma de manter o dito longe dos telefones. A juiza  sabia  disso, 
+mas  nao deu a minima. Robert Morris, que fez o verme da  Internet,  causou 
+prejuizos muito maiores e ficou em casa esperando a coisa se desenvolver.
+     O  pior  de tudo e' que isso ai' mais ou menos se repetiu  na  segunda 
+prisao.  Um monte de acusacoes foi jogada em cima do cara, altos lances  da 
+midia  que  ganhou  uma grana preta vendendo jornais sobre o fato  e  ..  o 
+computador  do  Tsutomu Shimomura foi invadido de novo, depois que  o  cara 
+tava na prisao. Parece que no livro "The Fugitive Game" Jonathan Littman, a 
+historia e' um pouco menos parcial. O Littman era quem mantinha contato  na 
+imprensa  com  o  foragido, coisa que o Markoff nao tinha.  Mas  tudo  bem. 
+Parece  que  foram US$ 750.000 no livro, US$ 200.000  na  possibilidade  de 
+filme  e qualquer coisa entre US$ 250-500.000 de direitos autorais  para  o 
+exterior.  Sem duvida, o crime compensa para quem prende o  criminoso.  
+     Mitnick  e' tudo o que falam dele? Nao sei. Tem trocentos  artigos  na 
+Internet,  incluindo  o www.takedown.com (org?) com todos os  detalhes  que 
+estao no livro. Nao vou pagar para ler o que posso conseguir de graca. E  o 
+"show"  nao me interessa. Enfrento uma p(*) paranoia aqui na USP.  Sem  ter 
+hackeado  nada, tive minha conta "congelada" por meses. O pessoal  que  fez 
+isso  nem  sequer pensou que se eu ficasse p(*) de raiva, se  eu  fosse  um 
+demente,  poderia publicar detalhes de como hackear o proprio sistema  onde 
+trabalho,  coisa  que  sempre me neguei a fazer.  Faco  um  baita  trabalho 
+academico que a Universidade pode se gabar de ter sido pioneiro na Internet 
+e sou premiado com isso. E vou ler sobre a desgraca dos outros.. nao  ganho 
+para  isso. A historia de um break-in tem varios lados: o que o cara fez, o 
+que o sysop diz que ele fez e o que a imprensa diz que ele fez. O cara  vai 
+falar uma coisa x, que o sistema era facil de entrar, o sysop vai falar que 
+o  sistema  era dificil (obvio, nao quer fazer papel  de  incompetente),  o 
+garoto  e' que e' um perigo. E a imprensa vai fazer um  estardalhaco,  para 
+vender  jornal,  repetindo qualquer coisa que estimular a  curiosidade  dos 
+leitores.  Choses de la vie.
+As ultimas noticias sobre Mitnick sao de que ele fez um acordo com a  Corte 
+de  Los  Angeles,  segundo o qual ele admite culpa  pela  posse  ilegal  de 
+codigos de telefone celular e violar a condicional de uma condenacao  1989. 
+Isso  dai', de acordo com o advogado dele, John Yzurdiaga pode, atraves  de 
+um apelo, reduzir a sentenca para menos de um ano para o lance do celular e 
+a sentenca maxima  para a violacao de condicional e' de dois anos. O  chato 
+e'  que o cara nao fez nenhum crime para ganhar dinheiro, mas por conta  da 
+curiosidade. A sociedade o elegeu super-criminoso, mas nao o perdoou nem  o 
+re-integrou  a seu meio. Ele tentou varios empregos quando foi liberado  da 
+outra vez, mas seu passado sempre o perseguia. 
+     Infelizmente, nao e' o unico caso de perseguicao implacavel. Nos  EUA, 
+esta'  ficando comum o uso de sentencas pesadas para casos que, na  justica 
+comum,  seriam passiveis de suspensao da pena ou coisa do genero, se o  reu 
+tiver algum comprometimento serio com hacking. Mais ou menos assim: se voce 
+fez algo serio, mas que nao pode ser enquadrado como crime de hacking, pode 
+acontecer  que  o  sistema  judiciario se  aproveite  de  uma  contravencao 
+qualquer para colocar pressao em cima de voce. Nao so' nos EUA. Na  Franca, 
+um  livro  que  foi  recolhido  por  contar  que  um  presidente   frances, 
+(que  recentemente  passou  dessa para melhor) ja' tinha  cancer  e  estava 
+desenganado a bem mais tempo. O autor do livro resolveu colocar o mesmo  na 
+Internet.  Nao  vou  dizer se tenho ou nao a copia, ta'  em  frances  (sans 
+aucun  probleme  por moi) e o assunto do livro nao me  interessa.  Porem  o 
+governo frances nao gostou da esperteza da coisa. E.. como condenar o cara? 
+Na  Internet e' territorio internacional. So' o Islam e a China  resolveram 
+fazer  "censura"  naquilo que entra em seu territorio. Pega mal  pacas  pra 
+Franca enveredar por este caminho por conta de um livro. Bom, o  lancamento 
+do  livro foi feito num Cyber-cafe'. Foram prender o gerente. Por conta  do 
+livro, que nao foi ele que escreveu, so' ajudou a lancar na Internet? 
+     Nao,  porque ele  era (se nao me engano) foragido da policia por conta 
+de nao pagamento da pensao alimenticia ou coisa do genero. Provavelmente, o 
+dia  em  que centralizarem os bancos de dados sobre os  individuos,  talvez 
+seja  mais  facil para qualquer delegado de policia exercer  pressao  sobre 
+qualquer individuo em relacao a qualquer coisa, como no caso desse  gerente 
+e no caso de varios outros que fazem coisas que sao apenas ilegais, mas nao 
+necessariamente criminais. 
+     Mas, voltando ao assunto, o caso Mitnick nao e' mais Justica Comum.  O 
+sistema  como  um  todo,  ou pelo menos o sistema  bancario  e  aquilo  que 
+compreende   o  sistema  de  telecomunicacoes,  tipo  AT&T   e   companhias 
+telefonicas  em geral, para nao dizer do governo em si, querem "botar  para 
+cristo"  gente  que possa mandar uma mensagem de que proibicoes  devem  ser 
+respeitadas.  E  e' uma mensagem a cada jovem que use uma  maquina  como  o 
+computador para ir alem dos limites que tem como individuo. O Sistema  (nao 
+to  falando  do  sistema operacional, mas de um  todo  que  compreende  uma 
+piramide  encabecada  por  todas as instituicoes,  como  sistema  juridico, 
+sistema  de  governo, sistema bancario, sistema educacional etc)  se  sente 
+ameacado pelo uso dos computadores. Se nao pode controlar o livre acesso do 
+individuo  a informacao, quer regular o uso que o individuo faz  dela.  Nem 
+que   seja  pelo  uso  do  terror,  na  forma  de  prisoes  preventivas   e 
+interrogatorios  "de  rotina"  em  individuos  algumas  vezes  despidos  de 
+qualquer intencao malevola.
+     Grandes  corporacoes, como a IBM, nunca pensaram no individuo, ate'  o 
+aparecimento  de computadores pessoais, como o Altair, feito por  fucadores 
+de  micro (hackers - do meu ponto de vista) como Steven Jobs,  Bill  Gates, 
+Osborne, etc.. claro que alguns ficaram ricos no processo de explorar  este 
+mercado.   Nao  tinham  concorrencia  de  qualquer  especie   das   grandes 
+corporacoes. Um computador antigo custava centenas de milhares de  dolares, 
+ou  mesmo milhoes e precisava de salas e um gasto de energia enorme.  Podia 
+se cobrar caro e ganhar muito dinheiro com um destes. So' grandes  empresas 
+podiam  pagar.  A  Internet comecou e teve sucesso  exatamente  porque  nao 
+dependia  de  grandes  corporacoes. Grandes  empresas  tem  estrategias  de 
+mercado,  baseadas em analises de custo, que tem em vista a obtencao de  um 
+lucro  que  e' conseguido do consumidor final do produto.  A  Internet  foi 
+feita  por  individuos  que estavam  simplesmente  se  divertindo  ajudando 
+individuos  iguais a eles. Uma grande empresa controla um mercado.  Atraves 
+da  propaganda  veiculada  na  TV,  no radio  ou  atraves  do  controle  da 
+distribuicao  (voce produz, precisa entregar). A TV, o radio e  os  jornais 
+tem  cabecas  e  registro. Podem ser controladas. O  individuo  que  usa  o 
+computador  pode ser tao ou mais eficaz quanto qualquer parte do sistema  e 
+superar  qualquer  fronteira fisica ou monetaria que o sistema  poe  contra 
+ele.  Por isso e' que Mitnick esta' sendo duramente julgado. Nao  pelo  que 
+fez,  mas como disse sua avo', "pelo que eles estavam com medo de  que  ele 
+pudesse fazer". Talvez seja apenas um aviso para a grande massa nao  tentar 
+fazer  "subversao eletronica". Eu tenho um medo sincero de viajar  para  os 
+EUA.  Como brasileiro, nao posso ser extraditado, mas .. e se  acharem  que 
+minha prisao pode servir de exemplo? Serio, ate' eu fico paranoico.
+     Para  finalizar,  existe o caso  de "Bernie S.",  preso  porque  tinha 
+em  sua  posse  um computador com capacidade  de  reprogramar  um  telefone 
+celular  e  um "discador" Radio Shack modificado. Como  o  Servico  Secreto 
+americano (que esta' tentando de qualquer jeito ter sucesso na area) entrou 
+em campo, foi desencavada uma antiga contravencao feita pelo cara. Do  tipo 
+que   so' da' uma multa. Como  a sentenca (anterior) nao era  seria,   essa 
+condenacao (a anterior) colocava o cara em prisao condicional, ou seja, ele 
+estava  livre, mas seria preso se fizesse algo grave. O juiz, de cidade  de 
+interior,  talvez  influenciado pelo Servico  Secreto, so' para  resumir  a 
+historia, ao inves de suspender a sentenca ou relaxar a prisao (mesmo  aqui 
+no Brasil, a nao ser que o promotor tenha razoes serias para isso, o normal 
+e'  relaxar a prisao, ou seja, o cara espera a pena em liberdade),  o  juiz 
+deixou  o  cara  na  cadeia e com fianca  de  US$  250.000.  Um  assassino, 
+condenado pelo mesmo juiz, teve fianca de US$ 50.000. A historia continua e  
+o  sujeito esta' fazendo companhia a pessoas na fila da pena capital  (pena 
+de morte), assassinos e estupradores. Ah sim. Um dos argumentos usados para 
+manter  o  cara  no  xilindro' foi o lance de que ele tinha  uma  copia  do 
+"Anarchist's  Cookbook",  um  livrinho que nos EUA,  pode-se  encontrar  em 
+qualquer grande livraria. Alias, na  Inglaterra tambem. O cara que  fuzilou 
+sei  la'  quantas criancas numa cidadezinha inglesa NAO NAO  NAO  tinha  um 
+desses. Diz a revista "2600 - Hacker  Quaterly" que se o cara realmente for 
+condenado,  abre um precedente para se por qualquer um na cadeia por  coisa 
+bem  a  toa.  Pode-se  ler  mais sobre  Eddie  Cummings  ou  Bernie  S.  no  
+http://www.2600.com/law.  O caso Mitnick tambem esta' la' com  updates.  Se 
+voce  quiser  dar uma forca tanto para o Mitnick quanto para  o  Eddie,  os 
+enderecos sao:
+
+Bernie S.
+   bernies@2600.com - A revista 2600 re-envia para ele. 
+Kevin Mitnick
+   kmitnick@2600.com -  idem
+ou, via correio comum (lembrar que toda a correspondencia e' examinada):
+
+   Kevin Mitnick 89950-012
+   P.O. Box 1500
+   Unit 7
+   South Los Angeles, CA 90053-1500
+   
+
+                      MANE' D.O.S. - Uma piada?
+                      =========================
+      (Texto encontrado na rede - sei la' onde - nao tenho permissao)
+
+Um amigo meu que esta' fazendo mestrado nos EUA, o Orson,  mandou mail
+contanto que a nova coqueluche la' e' uma nova versao do DOS. Trata-se
+do DOS - Mane' Edition. Pelo que ele falou, e' direcionado ao  mercado
+de mane's, que  vem aumentando a cada  dia,  usuarios adeptos do  "Nao
+faca nada  que o Homer Simpson nao faria..."
+                                
+Esse  meu amigo teve acesso  a um micro com  DOS 6.3 - Mane' Edition e 
+mandou os seguintes comentarios.                                       
+
+
+
+Forwarded message:
+> From: orson (Orson W. Jr.)
+> Subject: DOS 6.3 - Mane' Edition
+> 
+> 
+> [help do dos]
+> 
+>  
+>     What's New in MS-DOS 6.3 - Mane' Edition?
+>  
+> Welcome to Microsoft MS-DOS   Mane'  Edition,  the most widely    used
+> operating system designed for people like you, mane'. If you're asking
+> yourself  right  now,  "What is a   operating system,  anyway?"  Mane'
+> Edition is for you!
+> 
+> 
+> [Mais detalhes]
+> 
+> O  novo DOS roda  e ja'  entra em  Mane' Mode,  rodando um command.com
+> restrito, com menos  comandos. Ja' nao  existe mais del,  copy, label,
+> comandos  com  os quais  invariavelmente  os mane's  faziam  bosta. Os
+> arquivos AUTOEXEC.BAT e CONFIG.SYS foram   removidos. Os mane's  nunca
+> fizeram bom uso deles  mesmo. PATH? Nao existe  mais isso. A Microsoft
+> constatou   que   apenas   7%  dos    usuarios    mane's   usavam essa
+> extravagancia.
+> Variaveis  de ambiente tambem  foram   suprimidos. Arquivos tipo  .BAT
+> tambem nao   existem mais,  pois  nunca foram   bem usados por mane's.
+> Tambem   foram removidos ramdrive,  cache de  disco, setver, ansi.sys,
+> coisinhas que os mane's sempre acharam sem utilidade  e que nao servia
+> para nada.  O  undelete tambem saiu,  pois agora  ja nao  existe o del
+> mesmo... O command.com ja' nao redireciona mais  o output, para evitar
+> o  que todo o mane' ja'  fez um dia:  (nem todos...  ha mane's que nao
+> sabem que redirecao e' possivel...)
+> 
+> **NAO TENTE FAZER ISSO SE VOCE NAO TIVER RODANDO DOS - MANE' EDITION**
+> 
+> C:\games>dir > C:\WORK\TESE\TESE.DOC
+> 
+> Os  programas de  backup ja'  nao  existem mais, pois  os mane's nunca
+> fizeram isso mesmo. 
+> A Symantec, que vende o Norton Utilities, resolveu NAO lancar o famoso
+> pacote para essa edicao, pois mane's faziam muito estrago com seu NDD,
+> Speedisk,  disktool, etc.. Para  quem pretende  rodar  Windows 3.x, um
+> aviso da  Microsoft: Windows ja' entra  automaticamente em Mane' Mode,
+> permitindo  apenas   se  jogar  MineSweeper  e   Solitaire.   Por mais
+> resolucao que  o mane' tenha, seu  Windows entra em 640x480 mesmo, que
+> e' a resolucao preferida de 10 entre 10 mane's. 
+> A  Borland tambem ja' avisou:  NAO  vai lancar  nenhum compilador para
+> essa   versao    de DOS, pois   todos   nos  sabemos os   estragos que
+> programadores  C   mane's conseguem   fazer com  apontadores perdidos,
+> alocacao de memoria, etc...  NADA  de compiladores que rodem em  Mane'
+> Mode.
+> Qualquer    suporte  a discos    comprimidos foi  removido, sejam eles
+> Stacker,  SuperStore ou DblSpace.    Assim  acaba aquele  papo  furado
+> "meu C:\  e' o D:\ mas  o  F:\ foi trocado pelo   G:\, quer dizer, meu
+> disco fisico e' o... o que e' fisico? e logico?"
+> Outra  feature  desse DOS novo  e'  suportar quase  nada  de hardware.
+> Nada   de scanners    de   marcas estranhas,   videos   de  resolucoes
+> grotescas, impressoras coloridas  2400 dpi, modens de alto desempenho.
+> Para essa versao  Mane' de  DOS,  A Microsoft  esta' pensando como  os
+> usuarios mane's: "Se e' dificil lembrar o nome do periferico, para que
+> serve, ou mexer  nele, entao nao vale a pena te-lo".
+> Outra novidade,  o  DOS boota  e   ja'  entra no  diretorio   default,
+> C:\GAMES.
+> 
+> 
+> [Alguns comandos operando em em Mane' Mode]
+> 
+> C:\GAMES>mem
+> 
+> Memory Type        Total  =   Used  +   Free
+> ----------------  -------   -------   -------
+> ************         ***K        *K      ***K
+> *****                  *K        *K        *K
+> ********             ***K      ***K        *K
+> ******** (***)     *,***K    *,***K    *,***K
+> ----------------  -------   -------   -------
+> Total memory      <A LOT> <A LITTLE>  <A LOT>
+> 
+> Total under 1 MB     ***K        *K      ***K
+> 
+> Total Expanded (EMS)                <A LOT>
+> Free Expanded (EMS)                 <A LOT>
+> 
+> Largest executable program size       You don't have to know this.
+> Largest free upper memory block       You don't have to know this.
+> MS-DOS is resident in the high 
+> memory area.                          You don't have to know this.
+> 
+> C:\GAMES>format c:\
+> 
+> Formats a disk for use with MS-DOS.
+> ** NOT AVALIABLE IN MANE' MODE **
+> 
+> C:\GAMES>chkdsk
+> 
+> Volume *****       created **-**-**** **:**p
+> Volume Serial Number is ****-****
+> 
+>   ***,***,*** bytes total disk space
+>     *,***,*** bytes in ** hidden files
+>     *,***,*** bytes in *** directories
+>   ***,***,*** bytes in *,*** user files
+>    < A LOT >  bytes available on disk
+> 
+>         *,*** bytes in each allocation unit
+>        **,*** total allocation units on disk
+>         *,*** available allocation units on disk
+> 
+>       <A LOT> total bytes memory
+>       <A LOT> bytes free
+> 
+> C:\GAMES>pkzip demo
+> 
+> PKZIP (R)   FAST!   Create/Update Utility   Version 2.05 - Mane' Edition
+> Copr. 1989-1993 PKWARE Inc.  All Rights Reserved.  Shareware Version
+> PKZIP Reg. U.S. Pat. and Tm. Off.   Patent No. 5,051,745
+> 
+> 80486 CPU detected, but you don't have to know this.
+> EMS version 3.00 detected, but you don't have to know this.
+> XMS version 4.00 detected, but you don't have to know this.
+> Using Normal Compression, but you don't have to know this.
+> 
+> Creating ZIP: DEMO.ZIP
+> 
+> PKZIP: (E12) nothing to do!
+>              You made a mistake again, mane'.
+> 
+> C:\GAMES>ver
+> 
+> DOS 6.3 - Mane' Edition
+> 
+> 
+> [Pronto para usar]
+> 
+> Ja' existem firmas nos EUA que vendem  Mane'Stations, maquinas que ja'
+> vem com  MSDOS  - Mane' Edition  instalado, para  evitar dor de cabeca
+> para  os pobres  mane's  que tentarem   instalar sua propria  maquina.
+> A seguir um anuncio que saiu na BYTE:
+> 
+> Mane'Station             US$ 8,799
+> 
+> - A FAST processor  (you don't have to know what a processor is ...)
+> - A LOT of RAM      (you don't have to know what a RAM is...)
+> - A BIG Hard drive  (you don't have to know what a Hard drive is...)
+> - A BIG Color monitor
+> - MSDOS - Mane' Edition and Windows 3.1 (running in Mane' Mode)
+> 
+> 
+> [Linha direta Microsoft]
+> 
+> Para   os   mane's  que   ainda  tiverem    problemas  com essa versao
+> simplificada de  DOS (e vao ser  muitos), a Microsoft criou  uma linha
+> direta para resover seus problemas:
+> 
+> 1-800-I-AM-MANE'
+> 
+> Ao ligar voce  NAO precisa estar com informacoes  a mao como versao de
+> seu sistema operacional, marca de seu  micro, quanta memoria voce tem,
+> perifericos, descricao do erro, pois a Microsoft sabe que voce, mane',
+> e' incapaz de  responder a todas essas  perguntas, e que apenas queria
+> jogar seu jogo favorito.
+> 
+> 
+
+                         NOTICIAS - DICAS - CARTAS
+                         =========================
+
+Analista  da  Prodesp e' preso por desvio de verba - Com  nome  falso,  ele 
+teria  transferido  mais  de R$ 300 mil do Tribunal  de  Justica  para  sua 
+conta...Com o nome ficticio de Amador Cunha Bueno, Dibeo desviava  dinheiro 
+para sua conta corrente do Banespa. Ele trabalhava ha' 16 anos na Prodesp e 
+era  um  dos  encarregados  do processamento das  folhas  de  pagamento  do 
+tribunal. Ontem, o analista parou seu carro importado no estacionamento  da 
+Prodesp e, ao entrar na digitacao, recebeu voz de prisao. Ha' suspeitas  de 
+outros  envolvidos  no esquema. (Renato Lombardi - Estado de  Sao  Paulo  - 
+4/3/9)
+
+                         -------------------------
+Tudo comecou com esta carta, igual a varias outras que volta e meio recebo, 
+me pedindo algo meio impossivel.
+
+Subject: ALUNO!!!!
+
+Ola Derneval!!!
+
+Tudo bem com Voce!!!! 
+Meu  nome  e  M????? !! e eu estou te escrevendo uma MSG  para  voce  sobre 
+BARATA  ELETRICA !! que eu li seu README.BE!1 achei  muito  interessante!!! 
+achei  fantastico! e Claro que voce e um RACKER!!! e eu queri sabe se  voce 
+pode  me ajudar!! a ser um RackeR!! queria que voce me ensinasse!!! eu  fui 
+pesquisando  ate  achar  o FTP!! e achei!! e  achei  muito  interessante  o 
+jornal!!!  e Voce!! voce podia ser meu PROFESSOR!!!1 e eu seu  aluno!!!  eu 
+tenho  16 anos!!1 e sempre me interessei por esses RACKER!!! tentei  varias 
+Vezes criar logins !! para tirar senhas Etc!! mas nao Consegui!! Porque  eu 
+preciso de um PROFESSOR!!!! como Voce!! para me ajudar! !!! 
+Espero por sua resposta!!! 
+
+                Ass. M????? ?????? ???????
+
+Subject: Aluno!!
+
+ola Reneval!!! 
+ Tudo  bem!!1 eu li um dos seu jornais!!! aqueles dentro do FTP (GZ)  e  eu 
+achei  interessante!!!  como voce e um Racker!!! eu queria  saber  se  voce 
+podia me treinar para eu ser como voce!!
+Como  voce ainda nao me conhece !!! nao sei o voce vai pensar!! mas  eu  ja 
+tentei  criar logins para tirar senhas etc!! mas nao consigo!! eu  mexo  no 
+CPU todos os dias!! e nao consigo!! mas para eu conseguir eu preciso de  um 
+PROFESSOR!!!  como  Voce  para  voce !!1 Eu queia  sabe  se  voce  pode  me 
+ensinar!! me treinar!! mas eu nao quero para o MAL!!!mas sim para o  bem!!! 
+assim como voce !! participa de debates!!!! me nome e M????? ?????? ??????? 
+Tenho 16 anos!!! e sempre mexi nu CPU!!!! meu EMAil e
+(??????@????????.???.br)  !!!  eu queria sabe se voce pode me  ajudar!!  me 
+dando dicas!1 me esinando!!!!!
+
+Eu Espero sua resposta!! ass: M????? ?????? ???????!!!!
+
+>Respondi  pro  cara  que nao podia, mesmo que  pudesse  nao  tinha  tempo, 
+inventei umas..
+
+Subject: OK!
+
+Oi DERNEVAL!! tudo bem!!!
+entao pelos menos me deu um DICA!!! umazinha!!! 
+eu  sei  que para ser um Racker verdadeiro!!! a pessoa tem que  criar  seus 
+proprios Prog. !! como voce disse no Jornal!! eu posso ser um Cracker!! que 
+usa  os prog. prontos!! entao voce poderi me arrumar !! o  Chamado  SATA!!!  
+PorfavoRRR!! so esse pelo menus!!! que quebra senhas!!! eu faco o que  voce 
+quizer!!! !!
+ASS. M????? ?????? ???????! :>
+
+>Respondi  que  nao  tinha  o Sata, mas admirei  a  persistencia  do  cara. 
+Normalmente, nem respondo esse tipo de carta. Mandei o telefone de uma  BBS 
+que talvez tivesse o dito. Nao tinha certeza. So' acesso a Internet. 
+
+Subject: So' Mais UMA
+
+Hello Derneval!!!
+Como vai!! quanto tempo! 
+aquele telefone que voce me deu ??????? so vive ocupado!! liguei ums 3  mil 
+vezes!!  e ocupado!!!!! mas porque voce nao quer me ajudar!!! Acho  que  to 
+sendo Chato!! entao ta essa e a ultima vez que pesso ajuda!! mas me diz  ai 
+un  lugar! exato!! voce quer alguma coisa em troca!! mannei!! Mas me  ajuda 
+ai  por  Favor!! facilite as coisa!! amigo! eu sou chato mesmo  todo  mundo 
+fala!!  quanto teimo um coisa!!! mas e Serio !! vamos falar de  homen  para 
+homen!!!  so o SATA!!!  (uma pergunta como ele funciona? e como ele  faz  a 
+combinacao de senhas ?) como e o processo dele?) se voce quizer repondes !! 
+tudo  bem !! se nao! ta ok!! mas ve se me arruma ele!! !! eu faco tudo  por 
+esse programa / Qualquer coisa !?:
+
+        Ass. M????? L????? !!! desculpe a chati-----ssseeeeee
+
+>Respondi  que  a imprensa tava errada sobre o sata, e mandei pra  ele  uma 
+entrevista com um fanzine, o Alternetive. Onde coloco os problemas que tive 
+com a minha fama de rato de computador. 
+
+Subject: Valleu! :>
+
+Eu entendi agora!!! deve ter uns caras como eu te enchendo o saco ne'/  nao 
+precisa mandar para a listinha!! nao vou mas pedir o Software!!! deixa isso 
+para la'!!!
+        Mas eu gostei do BARATA ELETRICA!! eu achei muito interessante!!! e 
+eu queria sabe onde posso arrumar as edicoes do BARATA ELETRICA !!!!
+        E  eu  achei muito bom o conteudo!!!  tenho um pergunta  como  e  o 
+processo  dos  Virus de computador!! como eles ficam no CPu  sem  a  pessoa 
+ver!!!  e a Famosa carta Bomba!!!  COmos os Hacker pensam!!!  sao  assuntos 
+que eu queria debater com alguem ! se voce quizer responder tudo bem!!! mas 
+me reponda pelo menos onde posso encontrar as edicoes do BARATA ELETRICA!!!
+
+        ASS. M????? ?????? ???????!!!
+
+>Ai  ja' tinha mandado conselho pro cara mandar a carta dele pra lista.  Um 
+sujeito desses nao podia estar falando a serio. E' o tal negocio, as vezes, 
+voce tem a certeza absoluta que o sujeito esta' zoando com a sua cara,  mas 
+acha engracado fazer o papel de palhaco e cai numa besteira de responder  a 
+carta  do  cara. E querer ajudar. Nao e' algo mais racional.  E'  mecanico. 
+Mandei a carta pra lista.
+
+Subject: Re: So' Mais UMA   <Carta para a lista hackers>
+
+submeta hackers
+
+Gente, mais uma. Alguem pode quebrar o galho do sujeito? O cara acredita 
+q. ate' uma crianca vira um cracker, com o Satan. Mal sabe ele o q. fara' 
+com o dito. Nao costumo fazer isso com todo mundo que escreve mail para 
+mim solicitando coisas, mas ta duro. Se ainda fosse cara a cara, 
+haveria uma remota chance, caso eu tivesse o maldito programa. Mas nao 
+tenho e nao vou passar esse software por mail, ainda que mandem p. mim.
+Essa e' a terceira ou quarta carta do sujeito.
+
+On Wed, 16 Jan 1980, M?????? ?????? ??????? wrote:
+
+> Hello Derneval!!!
+> Como vai!! quanto tempo! 
+>
+etc, etc, etc
+
+>       Ass. M????? ?????? !!! desculpe a chati-----ssseeeeee
+> 
+
+CONCLUSAO:  Coincidencia  ou  nao,  alguns dias  depois,  minha  conta  foi 
+congelada, temporariamente. Nao recrimino o "aluno". Muito pelo  contrario. 
+Ele  conseguiu  fazer  com que eu respondesse. E' um  cara  persistente,  e 
+merece elogios, essa persistencia. Mas que por muito nao inscrivi ele  numa 
+lista  de  alta numero de emails, para fazer um "flood", ah, isso  foi  por 
+pouco. Gente, nao e' facil. Infelizmente, e' o preco que se paga, por fazer 
+o zine. Tem que se ter paciencia com essa mocada. No inicio, todos  pastam. 
+Depois,  se acostumam a pastar, so' que ai com mais experiencia do  que  os 
+que  estao comecando. E a idade, isso nao quer dizer nada. Mesmo  entre  os 
+primeiros hackers do M.I.T. tinha um carinha de 12 anos. 
+
+                         _________________________
+
+From: Cleverson Borges Sutil
+Subject: O filme "The Net" e suas metaforas
+
+>
+>                     A REDE - O FILME E SUAS METAFORAS
+>                     =================================
+>
+>Aqueles que tiveram sorte me viram falando na TV no jornal do SBT, dando um 
+>opiniao  sobre  o filme "A REDE", em cartaz na cidade de Sao Paulo.  E'  um 
+>daqueles casos em que o roteirista parece ter trabalhado em algum jornal do 
+>tipo "Noticias Populares". O filme, que tem ate' uma pagina na Web, carrega 
+>uma  mensagem muito simples: voce pode ser vitimado pelos hackers se  mexer 
+>com  software  "proibido". Tem gente muito melhor do que eu  enumerando  os 
+>erros  do filme, mas e' essa a mensagem basica. Tudo no filme e'  exagerado 
+>ao  extremo para construir um personagem, um simulacro de pessoa que  deixa 
+>de  existir, por acao de um grupo de gente que ela nunca ... 
+>
+
+   Ola Derneval 
+   Gostei muito da materia sobre o que e' possivel e o que nao e' no  filme 
+"The  Net".  Porem, ao contrario de voce, tem gente que nao achou o  que  o 
+filme mostrava um exagero, sendo realmente possivel fazer a manipulacao dos 
+dados  de uma pessoa como e visto no filme hoje em dia. O mail  abaixo  que 
+circulou  pela  Bras-net  Global exibe a apiniao de  alguem  que  criou  um 
+sistema que permitiria que os dados de alguem fosse alterado indevidamente, 
+num  caso  de  acesso ilegal. Imaginei que interessaria  muito  a  voce,  e 
+posteriormente  aos demais leitores do Barata (se for publicado  um  artigo 
+sobre isso). Antes que esqueca, enviei um mail perguntando sobre o sistema. 
+Se houver resposta mando-lhe informacoes.
+   Um abraco. 
+
+
+   Ps: se voce publicar minha carta no proximo barata favor por meu  e-mail 
+da   Puc  (clevers@music.pucrs.br) e nao o daqui da Ufrgs (que  e  de  onde 
+estou  enviando pois a Puc encontrasse fachada). Obrigado :)
+
+>Sender: bras-net@psg.com.nao
+>From: M?????????@aol.com
+>To: Multiple recipients of list <bras-net@psg.com.nao>
+>Subject: Re: Filme: The Net
+>
+>A Schaffer escreveu:
+> 
+>>Ontem assisti esse video e, apesar das "cascatas", gostei muito. Depois de
+>>True Lies e Speed, aceito qualquer mentira desse tipo.  Alias, como foram
+>>engracados estes dois outros filmes ...
+>>
+>>Agora voces que entendem melhor dessas coisas (sou apenas usuaria, logo
+>>curiosa, logo fascinada ...), o que seria possivel naquele filme hoje?
+>>Creio que
+>>num futuro muito proximo tudo ou quase tudo seria possivel.  Mas hoje?
+>>
+>>Por exemplo, aquela historia deles trocarem o nome da menina nos records,
+>>seria possivel mesmo?  Ou estamos caminhando pra uma tecnologia tao 
+>>avancada que
+>>ai mesmo eh que nao vai poder existir um vilao cibernetico tao pavoroso?
+>>
+>>E aquela de pedir Pizza via Net.  Ja existe ou a Pizza Hut ainda nao pensou
+>>no assunto?  Eu adoraria clicar minha pizza favorita na telinha ...
+>>
+>>Um abraco a todos e vamos parar de brigar minha gente ...
+> 
+>  Cara Schafer;
+> 
+>Tudo que o filme amostrou ja' e' realidade.
+> 
+>Eu criei um programa para o District Attorney's Office aqui in Westchester
+>(NY) que mantem um database de tudo quanto e' tipo de infracao que alguem
+>comete nessa area; Esse record e' mantido em correlacao com o de Albany
+>(Motor Vehicles and national Rap Sheet) e o FBI.
+>Lembre-se que no filme, os programas eram protegidos por uma compania central
+>(que eram os bandidos). Portanto, se eu tambem fosse o programador para o FBI
+>e Albany, eu poderia facilmente mudar toda a informacao sobre voce (se o teu
+>record estivesse la').
+>Mas veja bem tambem que a chave do filme e' que a "mocinha" nao conhecia
+>ninguem; nao tinha amizades, nada. Nem a mae dela podia ajudar. Portanto ela
+>nao podia provar quem era. Um caso estraordinario para pessoas que nem voce e
+>eu que temos varias pessoas ao nosso redor; Em casa e no trabalho, que
+>serviriam de varias testemunhas para provar a nossa existencia.
+>Quanto ao Pizza Hut deliveries; Nao so eles como ate' restaurantes e video
+>stores (Blockbusters) ja' estao no processo de criar um programa para aceitar
+>ordens pelo Internet.
+> 
+>Com muito carinho; M????? ?????
+> 
+>By the way; Voce gosta da Florida? Estou pensando em me mudar para ai' ....
+> 
+>
+COMENTARIO: Numero um. Em teoria, tudo e' possivel. Na pratica, existe  uma 
+coisa chamada back-up. Aqui no Brasil, tudo e' feito em papel. Para exercer 
+tal nivel de manipulacao da identidade de alguem, como os bancos de   dados 
+nao estao centralizados, a coisa ficaria mais dificil, significaria alterar 
+montes de registro em papel. Vai pintar, ao que parece, um codigo unico que 
+substituira'  esse mundo de numeros. O projeto ja' foi aprovado.  Pode  ser 
+que  esse  pesadelo vire realidade. Sobre registros  criminais,  uma  amiga 
+minha  teve que ir no forum ano passado porque foi condenada por  homicidio 
+doloso. Detalhe: nao conhecia a vitima, so' soube que houve a sentenca  por 
+conta  da  condenacao e teve que ir la' explicar que nao sabe como  o  nome 
+dela  entrou  no  processo. Alias, nem sabia que  a  vitima  existia.  Haja 
+advogado..  quanto a esse pesadelo do filme "A REDE" ser possivel  ou  nao, 
+ha'  um  monte  de  variaveis, do tipo  "lei de murphy",  que  e'  levar  a 
+discussao  para um nivel academico. Tem uma reportagem que  coloquei  nesse 
+numero,  mostrando  o  que aconteceu com um  reporter  que  meteu  hackers, 
+crackers e simpatizantes no mesmo saco. Parece o filme. 
+
+                    ----------------------------------
+
+Subject: Servidores IRC
+
+submeta internet, informatica-jb
+
+
+Ai vai alguns servidores de IRC :
+
+Amsterdam.NL.EU.undernet.org
+Oxford.UK.EU.Undernet.org 
+eu.undernet.org
+uk.undernet.org
+auckland.nz.undernet.org
+austin.tx.us.undernet.org
+brisbane.qld.au.undernet.org
+davis.ca.us.undernet.org
+sanjose.ca.us.undernet.org
+washington.dc.us.undernet.org
+
+        utilizo o software de irm Mirc 3.9, caso queira me mande um mail.
+Estou sempre nos canais #siri, #brasil, #recife ou #br. Estamos tambem com
+um Cyber Cafe em Recife/PE, Shooping Guararapes que utiliza o IRC.
+
+        L?????? ????????? - S?????? ????????? - ??????/??
+        IRC - Nick - Siri
+        ???????@??????.??????.br
+
+                    -----------------------------------
+
+CARTA IMPOSSIVEL:
+
+>From l???@spider.usp.br
+>Date: Fri, 1 Mar 1996 11:34:23 -0300
+>From: L??? ????? <l???@spider.usp.br>
+>To: rodrigde@spider.usp.br
+>Subject: URGENTE - MAILS EM EXCESSO
+
+ 
+
+                A T E N C A O
+
+A area ocupada pelos seus mails encontra-se muito acima do limite. 
+Nao existe disco fisico suficiente para armazenar tantos mails.
+Caso a area nao seja liberada ate' o final do dia o seu codigo 
+sera' suspenso.
+Utilize o comando pine em conjunto com a tecla D para remover os 
+mails. Ao sair do pine confirme a remocao quando esta for solicitada.
+Qualquer duvida entrar em contato com o plantao de consultoria atraves 
+dos telefones 818-???? ou 818-????.
+
+L??? B????   
+
+Consultoria do Centro de Computacao Eletronica              
+                       ----------------------------
+                                ==========
+                                TALKER III
+                                ==========
+
+
+Bom,   um  tempo atras, no Barata Eletrica 02, o Walder escreveu  um  otimo 
+artigo sobre talkers, por conta da inauguracao do talker dele, o  Dreaming. 
+Agora,  foi inaugurando um outro talker, por conta do Floyd. Para quem  nao 
+sabe,  um  Talker  e'  algo tipo IRC, sem ter  essa  de  usar  software  p. 
+conectar. Ainda escrevo sobre isso, don't worry.
+
+Voce acessa o talker dando telnet, dessa forma:
+
+telnet talk.esalq.usp.br 3333
+
+O outro talker, que nao sei se ainda  funciona, o "Realms of Dreaming":
+
+telnet carpa.ciagri.usp.br 3000
+
+
+                      ______________________________
+
+>From: monster@rain.forest.br ()
+>Subject: (null)
+
+    
+    Era  uma  vez,  um telefone celular chamado Motorola, ai  esse  tal  de 
+Motorola  tem uma bateria na capa traseira removivel com tres contatos.  So 
+que estranhamente, no telefone somente foram colocados os 2 pinos externos, 
+o  interno foi substituido por um contato similar ao existente na  bateria. 
+Entao  eu  tive um sonho: eu sonhei que se eu fazia uma pecinha  com  solda 
+eletrica  comum  que  encaixava perfeitamente no  contato  do  celular,  de 
+maneira  que  quando a capa traseira da bateria era  encaixada,  entao  nao 
+apenas os dois contatos eram ligados aa bateria, e sim os tres, ou seja, no 
+sonho eu colocava uma pecinha de metal condutor no contato do telefone  que 
+substituia  o pino que estava faltando. Sonho estranho nao? Mas  rapaz,  ai 
+entao,  com  o telefone ja fechado, eu teclava <#> para entrar em  modo  de 
+programacao, e em seguida, digitava a sequencia, <???> , apos este comando, 
+vc pode digitar o numero de canal desejado, que pode ter de 1 a 4 digitos
+So  que no sonho eu utilizava o canal ???? e apos e tar o canal,  teclava 
+novamente  <#>,  para sair do modo de comando. Feito isso,  eu  colocava  o 
+telefone no ouvido e entao comecei a ouvir duas vozes conversando besteira. 
+Engracado,  nao? Essas empresas deveriam oferecer equipamentos  seguros!  E 
+onde fica a privacidade? Vai pro beleleu?! Sei la.
+     
+                                        Mas a vida eh assim,
+    
+                                                nem tudo eh perfeito.
+    
+                                                                Bye.
+
+RESPOSTA:  Apareceram no ano passado, no Correio Brasiliense e  num  jornal 
+nordestino, todo um texto sobre como fazer isso. Completo e com frequencias 
+de escuta. 
+
+                  --------------------------------------
+    
+CRACKER ARGENTINO:
+Esta  noticia  escapou do ultimo Barata Eletrica, por falta de  tempo.  Mas 
+existe um site especifico(*)sobre o lance, q.inclui outros casos famosos de 
+argentinos  pegos nas malhas da lei. E' bom notar que a imprensa  argentina 
+evita chamar o cara de hacker e sim de pirata informatico.  
+
+
+  O FBI tambem quer investigar o pirata informatico argentino (30/12/95)
+  "CLARIN" 
+    O  FBI, a agencia de investigacoes norte-americana enviou o  chefe 
+    do  departamento  latinoamericano,  que quer  investigar  como  se 
+    vioulou  a seguranca militar dos EUA. Falou com a juiza e o  chefe 
+    da SIDE.
+     Preocupado  com a atividade do pirata informatico  argentino  que 
+    logrou  violar  o  sistema computadorizado da marinha  dos  EUA  e 
+    conseguiu   os   codigos  secretos  de  varias   unidades   navais 
+    americanas, o chefe do departamento latino-americano do FBI viajou 
+    para a Argentina afim de se inteirar pessoalmente do andamento das 
+    investigacoes.
+     O  objetivo principal desta parte das investigacoes e'  averiguar 
+    se se trata de um pirata informatico que tentou entrar em sistemas 
+    militares  americanos so' por diversao ou se existe algum tipo  de 
+    organizacao por de tras destes episodios.
+     
+     Um jovem de 21 anos
+    Segundo fontes que participam  desta investigacao, ontem de  tarde 
+    a juiza Lopez  tinha decidido interrogar o principal suspeito,  um 
+    jovem de 21 anos chamado Julio Ardita, filho de um tenente coronel 
+    do  exercito,  (tambem   Julio) que reconheceu  ser  o  autor   da 
+    infiltracao informatica na Telecom.
+
+    O "hacker" (pirata informatico) invadiu o sistema telconet, que e' 
+    de  uso  exclusivo  da telecom, e dai' tentou  violar  os  codigos 
+    secregos da  marinha norte-americana.
+
+    Avisados  do fato, tentaram se comunicar com a Telecom  e  pediram 
+    explicacoes  sobre o porque a empresa telefonica argentina  tentou 
+    descobrir os codigos secretos deste pais.
+  
+    A partir da rede Telconet, o "HACKER" ingressou na rede das redes, 
+    a Internet e  dai'  tentou entrar na marinha norte-americana.  Mas 
+    esse   nao foi o unico objetivo do "HACKER" argentino.  Entrou  no 
+    sistema  da  Universidade Catolica do Chile, na  Universidade   de 
+    Harvard, em Boston, EUA e num sistema financeiro da Venezuela.
+
+  Um erro termina com a aventura do  pirata informatico argentino  
+    Clarin 31/12/95 
+  
+    O  pirata informatico argentino que conseguiu entrar nos  sistemas 
+    de seguranca da marinha americana cometeu um erro que custou caro.
+    Utilizou  a rede internacional da TELECOM para entrar nos  codigos 
+    navais,  mas nao se deu conta de que fez soar os alarmes, ja'  que 
+    era uma rota proibida. A companhia telefonica nao esta' autorizada 
+    a entrar.
+  
+    A  juiza, segundo fontes, ficou com a impressao de que se  poderia 
+    acumular "suficientes  elementos" para acusar o jovem de um delito 
+    menor.  De fato, como e' opiniao unanime em tribunais, existe  uma 
+    especie de "vacuo legal" para castigar severamente a atividade  de 
+    piratas  informaticos. Em resumo, pode receber uma  condenacao  em 
+    suspenso.
+
+    ================= Begin forwarded message =================
+
+    From: izar@hellraiser.slip.huji.ac.il (Izar Tarandach)
+    To: wu100@fim.uni-erlangen.de, pan@nma.embrapa.br
+    Subject: Break-In Na Unicamp - comentario
+    Date: Sat, 07 Oct
+
+    
+    
+    >----- log------
+    >Apr 17 02:45:28 ipe login: ROOT LOGIN ttyp1 FROM ???
+    >Apr 17 02:45:57 ipe login: ROOT LOGIN ttyp0 FROM ???.???.???.??
+    >-----fim do log--------
+    [...]
+    >root, e ele deve ter entrado da seguinte forma (aqui entra apenas suposicoes
+    >minhas, ja que os logs binarios nao foram recuperados). Os crcakers roubaram
+    >o arquivo de passwd daqui usando o NIS, e usando programs tipo Cracker,
+    >quebraram algumas senhas daqui (ok. eu fiz isso depois e quebrei uma 
+    >porcao),
+    >ele entrou nessa conta e explorando problemas de seguranca do sistema entao
+    >em uso, conseguiu se transformar em Super usuario, e editou o arquivo de 
+    >passwd depois disso. 
+    
+        Oi. So um adendo - pelo log que voce publicou, a entrada do cracker
+    no sistema foi feita _ja_ como root - portanto ele tinha acesso ao passwd
+    de antemao (cracker brasileiro....pfff.. :) - caso ele tivesse quebrado de
+    dentro, estas linhas nao apareceriam no log. E se ele fosse um pouquinho
+    esperto, teria apagado estas linhas do log... :)
+        De qualquer maneira, eu so queria dar um alo. Por causa deste
+    episodio do cracker, que coincidiu com minha ultima estadia no Brasil, fui
+    convidado a palestrar sobre seguranca em um congresso de auditoria no 
+    Anhembi, ja que o especialista da Unicamp, o convidado original, estava 
+    ocupado salvando a patria.
+        Fica aqui minha sugestao de criar uma lista paralela, sem acesso ao
+    publico em geral, mas para System Administrators e hackers "mais serios" 
+    brasileiros, para que possamos trocar informacoes com fundo mais tecnico, 
+    saindo das perguntas "como e que eu faco" e "onde eu acho" presentes na
+    atual lista hackers.
+    
+    abracos,
+    
+    --izar
+    
+    izar@cs.huji.ac.il ++ HUJI CS Dept. ++++++++++++++++++++++ Jerusalem, Israel +
+    +                     "Support your local SAR helicopter crew --- GET LOST!" +
+    +                       http://www.cs.huji.ac.il/people/system/izar/izar.html+
+    ++++++++++++++++++++++++ I can't speak for HUJI, I don't even have the accent+ 
+    
+    
+
+____
+From: boba@gagme.wwa.com
+[The next one is not to be taken seriously.  It's just a joke.  I found it
+floating around and touched it up a bit.]
+(TRADUCAO: Derneval Ribeiro Rodrigues da Cunha)
+
+                          P R O C E S S O
+                                DE
+                       SOLUCAO DE PROBLEMAS
+
+
+            SIM   =============================   NAO
+     +-----------|| A coisa esta' funcionando||-----------+
+     |            =============================            |
+     V                                                     V
++----------+     +---------+                          +---------+
+|  Deixa   | NAO | Alguem  |       +-------+     SIM  |  Voce e'|
+|  Quieto! | +---| sabe?   |<------| BURRO!|<---------| o respon|
+|          | |   |         |       |       |          | -savel? |
++----------+ |   +---------+       +-------+          +---------+
+     |       V        | SIM                                |  NAO
+     |    +------+    +-----------+                        |
+     |    |ESCON-|                V                        V
+     |    |  DA  |            +--------+             +-----------+
+     |    +------+            |QUE DEUS|        SIM  |SERA'Q. VAO|
+     |       |       +------->|TENHA PI|<------------|DESCOBRIR? |
+     |       |       |        |EDADE DA|             +-----------+
+     |       |       |        |SUA_ALMA|                   |  NAO
+     |       |       |             |                       |
+     |       |       |             V                       V
+     |       |       |      +---------------+        +-----------+
+     |       |       |  NAO | OUTRA PESSOA  |        |DESTRUA AS |
+     |       |       +------| SER CULPADA?  |        |EVIDENCIAS |
+     |       |              +---------------+        +-----------+
+     |       |                     |  SIM                  |
+     |       |                     v                       |
+     |       |      ============================           |
+     |       +---->||           NO             ||<---------+
+     +------------>||      P R O B L E M A     ||
+                    ============================
+
+
+From: Purdie@zeus.usq.edu.au (Red Phoenix)
+[If this isn't from a BBS login screen, it should be.  I mean, I want to start
+a board just to use it.  I actually tried to get someone to use it on their
+board.]
+
+                          oooo$$$$$$$$$$$$oooo
+                      oo$$$$$$$$$$$$$$$$$$$$$$$$o
+                   oo$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o         o$   $$ o$
+   o $ oo        o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o       $$ $$ $$o$
+oo $ $ "$      o$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$o       $$$o$$o$
+"$$$$$$o$     o$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$o    $$$$$$$$
+  $$$$$$$    $$$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$$$$$$$$$$$$$$
+  $$$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$$$$$$  """$$$
+   "$$$""""$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$
+    $$$   o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$o
+   o$$"   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$       $$$o
+   $$$    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" "$$$$$$ooooo$$$$o
+  o$$$oooo$$$$$  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$   o$$$$$$$$$$$$$$$$$
+  $$$$$$$$"$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     $$$$""""""""
+ """"       $$$$    "$$$$$$$$$$$$$$$$$$$$$$$$$$$$"      o$$$
+            "$$$o     """$$$$$$$$$$$$$$$$$$"$$"         $$$
+              $$$o          "$$""$$$$$$""""           o$$$
+               $$$$o                 oo             o$$$"
+                "$$$$o      o$$$$$$o"$$$$o        o$$$$
+                  "$$$$$oo     ""$$$$o$$$$$o   o$$$$""
+                     ""$$$$$oooo  "$$$o$$$$$$$$$"""
+                        ""$$$$$$$oo $$$$$$$$$$
+                                """"$$$$$$$$$$$
+                                    $$$$$$$$$$$$
+                                     $$$$$$$$$$"
+                                       "$$$""""
+
+
+____
+
+                    ----------------------------------
+FOTO DO EDITOR - use o programa uudecode, do Barata Eletrica 09
+
+begin 644 DE.PCX
+M"@4!`0````!F`(X`9P"/`````/___P``````````````````````````````
+M```````````````````````````!#0``````````````````````````````
+M``````````````````````````````````````````````````#,_\'^S/_!
+M_LS_P?['_WO$_\'^P_^]P?_!]P'!_L3_P?[!_[_#_\'\`<'_P=_!_\'[P?_!
+M_L+_P>_"_X``/\'WP__!_L3_P?#"``_!_\'?P?_!W\'^Q/_#``'!_\'WP?_!
+M]\'^P_^^PP`!?\']P?_!_<'^P__!_,0`K<'_O<'_P?[!]\'_P?O!\,0`/\/_
+MP?[!_\'?P?_!P,0`!W_"_[[#_X#$``'!W\'_P=_!_L'_P?O!_\8`P?O![\'_
+MP?[!_\'^P?_&`![!_<'_P?Y_P?_!_,8`!\+_P>[!_<'_P?C&``/!_\'OP?K"
+M_\'@Q@`!P=_!^\'^PO_!X,8``<']P?_!_L+_@,8``<+_P?[!_W^`QP#![\'?
+MP?[!W\'OQP`!7\+^P?_!_L@`?<'_P?[!_\'^R``'P?^^P?_!_L@`!7?![L'_
+MP?C(``+!_\'ZP?_!_,@``G_!_L'NP?#(``$>P?[!_\'PR0"?P?[!_\'PR0!/
+MP?[!_\'PR0!/P?[!_\'PR0`OOL'_H,D`'\'NP?_!X,D`&\'\P?_!X,D`#\'^
+MO\'`R0`/P?[![\'`R0`/P?[!_\'@R0`.P?[!_\'`R0`/OL'_P<#)``?!_L'[
+M@,D`!\'^P?_!P,4``L,``\'NP?_!P,4`!$#"``/!_L'_P>#%``J`P@`#P?S!
+M_V#$``&)0,(``\'^O\'`Q``**J#"``/!_L'_P>##``4*E4#"``.^P?_!P,,`
+MPEJJH,(``\'^P?_!X,(``L'L-;:HP@`#P?[!]\'`P@!%P=INP>U`P@`'P?[!
+M_\'`P@"6NEU;*,(``\'>P?_!X``%:\'UP??![4#"``/!_L'_P<``!;[!WZVZ
+MJ,(``\'^P?W!X``+5\'VP?_![U'"``?!_L'_P<```L']O[5ZP=K"``/!_L'_
+MP>``#;?"_\'?I,(`!\'^P?_!X``+?VW!_\'VP?W"``7![L'_H``-P=_!_WN]
+M(,(`!\'^P?_!X``I(6_!WL'@PP`'P?[!_\'@PP`+P?_!P,,`#\'ZP?_!X,,`
+M!L'UH,,`#\'^P?_!X,,`!;]`PP`/P?[!_\'PPP`'P?:`PP`/P?[!_\'@PP`!
+M?H##``_!_L'_P?##``&JQ``=P?[!_\'PPP`!?,0`'\'^P?_!\``0P@#!Z,0`
+M'\'^P?_!\,(``8@T`X'"``_!_L'_P?C"`(-`6`."P@`/P?[!_\'PP@#!P<'`
+M,`'!Q,(`#\'^P?_!\`(!P<<`*`%`P@`/P>[!_\'PQ`!4`(#"``_!_L'_P?`!
+M`*0`*`%0P@`/P?[!_\'P`D5:D%@"P>I```_!_L'_P?0`BJM0L`%=D``/P?[!
+M_\'QA2O!_L'I+`'!^V``#\'^P?_!]4):N\'56`%NJ``?P?[!_\'YP<*WP>]R
+M-`"]P=``'\'^P?_!^H5*O<'4*`"W5``_P?[!_\'Z@K_!]VA:`*VP`#_!_L'_
+MP?Z555O!T+4`NVP`?\'^P?_!_25OP?[!T+X`5L'2`'_!_L+_55VKL,'50+MT
+M`,'_P?[!_\'^!7?!_V5_@%6J`,'_P?["_P-=;<'2P?T`?U1"P?_!_L+_0K?!
+M_ZBO`%5H`<'_P?["_Z5KML'0?``_P=(!P?_!_L+_:5W!_Z`H"&JH0\'_P?["
+M_\':MVW!\2@`OVH#P?_!_L+_P>JKP?]H0`!6P<A!P?_!_L+_P=JM;<'4(H)]
+ML(/!_\'^PO_!Z2O!_[5N@`M`!\'_P?["_\'65L'52%L`%L'0M\'_P?["_\'T
+MK<'^DK7!P`5`/\'_P?["_\'5*U5);H`"D+_!_\'^P_]5P?D6P=5P`J`_P?_!
+M_L+_P?=*JJ6WH`%`?\'_P?[#_Y7!\+HL"`$@?\'_P?["_\'^I:N@PP#!P'_!
+M_\'^P__!U73#``$`?\'_P?[#_ZK!U<,``T#"_\'^P__!T7J@P@`*`,+_P?[#
+M_\'*K(`J`"J`PO_!_L/_P?1WP>E5H!4!PO_!_L/_P>JM4K1`*H'"_\'^P__!
+M\ENU0``J`<+_P?[#_\'U5VK"`"H!PO_!_L/_P?"MP=M:P=E(`<+_P?[#_\'Y
+M*K:UMI@#PO_!_L/_P?1+K<'K:"`%PO_!_L/_P?BU=L'>P=50`<+_P?[#_\'Z
+M`JV[M``#PO_!_L+_P?W!^`"JP>[!Z``!PO_!_L'_P?[!_\'X`%6[M``#PO_!
+M_L/_P?@`%6[!Z``!PO_!_L/_P?0`!+50``'"_\'^P__!_``!54```<+_P?[#
+M_\'XQ0`#PO_!_L/_P?K%``'"_\'^P__!^,4``<+_P?[#_\'\Q0`!PO_!_L/_
+MP?C%``'"_\'^P__!^L4``<+_P?[#_\'`0,4`?\'_P?[#_P"0Q0`_P?_!_L+_
+MP?P!)`50PP`_P?_!_L+_P?P`D`%JJ,(`'\'_P?["_\'X`*5*JJ#"``O!_\'^
+MPO_!^@"4!7]HP@`/P?_!_L+_P>P`J9+!U<'0P@`'P?_!_L+_P?H`J@5^H,(`
+M!7_!_L+_K`"JJ+7!X,(``\'WP?["_\'Z`*J"KX``0`K!W\'^P?_!]L'N`*VD
+M.J`"``-UP?["_[H`M5%7@,(`!<'?P?[!_L'[P?:`5L'2"``$@`-VOL'_P=[!
+MW8"M54```L(`P>M>P?]WP?M`*L'4H`@$P@`>M,']P=]NH*VVD``)P@`"KL'O
+M>\'[P=`JJ5(@$@`&P<@$P?W"WK!5MU542``"P=@`KV_!^\'0JRJJ@!3"`,'P
+#`,T`
+`
+end
+
+                    ----------------------------------
+  
+BIBLIOGRAFIA:
+=============
+
+MITNICK:
+(*)  Usei como fonte o livro "CRIMES ESPETACULARES DE COMPUTACAO"  de  Buck 
+Bloombecker  -  Editora  Livros Tecnicos e  Cientificos  -  quase  xeroquei 
+algumas  partes. Isso foi por preguica de procurar informacoes na rede.  Na 
+revista  Pharck  tem um monte, sobre a condenacao. Mas preferi  pegar  esta 
+obra.  Ta'  em portugues, nao e' famosa, pode ser achada em sebo.  O  autor 
+e'  uma autoridade em crime de informatica e nao acha que Mitnick era  tudo 
+aquilo  que  falaram  dele. Apesar de ter  depoimentos  negativos  sobre  a 
+sanidade do individuo.  Quem  quiser "peruar" o caso, sem dispender sei la' 
+quanto com o livro, procure:
+
+Livro Fugitive Game, Online with Kevin
+http://www.well.com/user/jlittman/
+Livro Takedown do Shimamura e Markoff
+http://www.takedown.com/
+Sitio  2600 (Descricao e atualizacao dos casos de informatica  considerados 
+injustos, do ponto de vista legal)
+http://www.2600.com/law
+
+HACKER/PIRATA INFORMATICO ARGENTINO: http://www.allcomm.com/hacker - e' uma 
+pagina  sobre os hackers argentinos. Tem artigos de jornal contando os  que 
+foram presos ou autuados fazendo alguma coisa.
+ETICA HACKER: copiei de algum lugar na rede
+ESTUDO DOS HACKERS: Copiado de um numero da 2600 Hacker Quaterly
+FIDONET:  UMA  ALTERNATIVA  ..:  Peguei uns textos  no  ftp.fido.net  e  no 
+www.fidonet.org.  Tambem  "chupei"  alguns  dados de  um  texto  do  e-zine 
+Chalisti No 1. Como e' bom saber alemao fluente... O dito esta'  disponivel 
+no ftp.eff.org/pub/Publications/CuD/Chalisti
+MANE'DOS:  Simplesmente  nao  me  lembro  de  onde  peguei,  acho  que   no 
+subdiretorio humor do ftp.unicamp.br
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

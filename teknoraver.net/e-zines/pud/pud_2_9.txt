@@ -1,0 +1,145 @@
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³PuDPuDPuDPuDPuDPuDPuDPuD³³ PUD: Pizza Underground Digest (c)1993 Oooga Inc. ³
+³PuDP²ÛÛÛDPÛDPÛDPÛÛ²uDPuD³ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³PuDP²DP²DP²DP²DPÛDP²DPuD³³ PUD Number 9, Volume 02, Chapter 21, Epic 01     ³
+³PuDP±±²²DP±DP²DP²DP±DPuD³³ Release on the Date: Whatever month this is 3    ³
+³PuDP±DPuDP±DP±DP²DP°DPuD³³ Line contained in the issue: 1                   ³
+³PuDP°DPuDP°°°±DP±±°uDPuD³³ PUD Serving the modem public since Late Feb. '93 ³
+³PuDPuDPuDPuDPuDPuDPuDPuD³³ For Help and Info look elsewhere.                ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+    "Don't move my feet, I won't be able to find them in the morning..."
+    											-Drunk Demon-Type guy.
+
+ş Why why why?
+
+	To be truthfully honest I know not why the ardvarck eats the eastern
+	Australian buffalo. But what kind of question was that in the first
+	place? Not a verg one. A more applicable one would have been, "How do
+	I humble servant of the great and mighty Roast, serve the in thy hour
+	of VBB's crashings?" Well this issue well be dedicated to it. 
+	
+ş Personal Note.
+
+    I myself HAVE NEVER under any circumstances crashed any K-RaD VBBS, loser
+    sad-asss punk, 2400baud 3.2meg Hd, pclemmings board. But now, fReD that's
+    a different story entirely, but as he in braces from his latest stint 
+    with a parked vehicle I will transcribe for him.
+    
+ş FAKEWARE.COM
+
+	Believe it or not, a usefull utility by Nowhere Man of Nuke, yes they did
+	actually release the info-journal 5 only 4 months or so off of schedule.
+	This little utility generates a synthic looking archive, containing a new
+	swell H0t NeW wAre. The game comes with mock data files, and mock screens.
+	The only thing your provide is the .COM or .EXE of your favorite trojan
+	or virus, trojan prefered[We'll get to that later]. The drawback to this
+	nifty-usefull utility is it generates only a certain number of games. And
+	well any half-way decent WaReZ d00d, so in other words this will work on
+	anyone in huntsvegas, the archives l00k all kind of fubar.
+	
+ş Problem/2*5<x>ı:=Solution
+
+     The Solution? We generate our own K-Rad Archive. First we need to make a
+     bunch of garbage files that look for all intents and purposes to be a 
+     new ware file. So to do this we need some kind of file generator, so I 
+     will write one here and now without error checking or actually compiling
+     it just figure it out if it's wrong...Pascal by the way...
+     
+     Program MakeFile;
+     
+	 Uses Dos, Crt;
+	 
+     var
+     Loop : Word [We use words because they are highly efficent due to the]
+                 [nature of the pascal compiler and the 8086 based arch . ]
+     DummyFile: Text [Our groovy file to create]
+     
+     begin
+     	If paramcount<1 then begin
+     		writeln('Damn you LaMeR include the name of the file to 
+     				generate!');
+     		Halt(1); [Error level crap, like you need it...]
+     	end;
+     	if paramcount<2 then begin
+     		writeln('Try including the size you freak.');
+     		Halt(2); [More error stuff, WOW!]
+     	end;
+     	assign(DummyFile, Paramstr[1]); [Take the first paramter...]
+     	rewrite(DummyFile); [Open a new file or erase and open, etc...]
+     	For loop:=1 to [Here you convert Paramstr(2) to a integer type	]
+     	               [variable using your favorite routine or toolkit.]
+     	                do begin
+     		Write(DummyFile, (chr(random(220+35))); [Drop the early ascii...]
+     	End; [End that loop.]
+     	Close(DummyFile);
+     end.
+     
+     Obvious enhancments? MAKE the text buffer bigger, file will be generated
+     at a much, much, mich more brisk pace, also add some more features and
+     stuff, just make life swell.
+     
+ş File to Include?
+
+     To make it look real include certain files extensions like:
+     [General]
+     *.DAT
+     *.LIB
+     *.BIN
+     *.00?
+     [Windows]
+     *.DLL
+     *.WAV
+     [Games]
+     *.MID
+     *.SND
+     *.MOD
+     *.CGA
+     *.EGA
+     *.VGA
+     *.ADL
+     *.SB
+     *.RES
+     *.R??
+     [Other]
+     Whatever else you feels give good character to your files, make sure 
+     they make sense if you have a data.001 and a data.003 there should also
+     be a data.002.
+     
+ş Games?
+
+     Why games? Because most of the lamers who you want to take out are k_rAd
+     little waReZ d00dz and they are most assured of running them. So make
+     sure your .NFO file[Take an old one and edit it] Has everything in it.
+     In other words supprting CGA, PCSEAKER up to the very, best.
+     
+ş Trojans?
+
+      Are sure to take the lamer out q-u-i-ck. And plus they aren't messy.
+      They get the job done. No playing around, no waiting on a date, no damn
+      pussy-footing around, just BOOM! And the lamer is in for it...
+      
+ş Name?
+
+      Don't use you real name, sheesh.
+      
+ş What else?
+
+      That's enough for now. If you have any experience or any technical,
+      questions or info please reply to the addresses below. Why? Because if
+      you don't I'll kill you. Simple isn't it.
+      
+ş Send Mail to:
+
+	NO COURiER 36@2506 WWIVNET
+	Baphomet the Limbo King 14@2506
+     
+
+
+               ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜßßßßßßßßßßßßßÜÜÜÜÜÜÜÜ
+  ÜÛßßßßßßßßßßß                      Ending Qoute        ßßßßßßßßßßßßßßßßÜÜÜÜÜ
+ Şİ                                                                          Û 
+ Û   "oooh ooh oooh, Say say say."                                          Şİ
+ Şİ                                    -Cheezy Background singerS!        ÜÜß
+  ÛÛÜÜÜÜÜÜÜÜÜßßßßßßßßßßßßßßßßßßßÜÜÜÜÜÜÜÜÜÜÜÜ            ÜÜÜÜÜÜÜÜÜÜßßßßßßßß
+                                            ßßßßßßßßßßßß

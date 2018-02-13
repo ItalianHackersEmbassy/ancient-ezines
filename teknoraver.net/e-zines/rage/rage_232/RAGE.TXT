@@ -1,0 +1,1522 @@
+
+
+
+          RiSSue#2iSSue#2iSSue#2iSSue#2iSSue#2iSSue#2iSSue#2iSSue#2iSSue#2!
+          aS                                                             i2
+          GS            01110010 01100001 01100111 01100101              S#
+          Ei                                                             SE
+          #2            ÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛÛ              uG
+          2#   sselhtuR ÛÛ    ÛÛ       ÛÛ ÛÛ    ÛÛ ÛÛ    ÛÛ Ruthless     ea
+          !e stsichranA ÛÛ       ÛÛÛÛÛÛÛÛ ÛÛ    ÛÛ ÛÛ    ÛÛ Anarchists   #R
+          Ru    gnitteG ÛÛ       ÛÛ    ÛÛ ÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛÛ Getting      2!
+          aS       nevE ÛÛ       ÛÛ    ÛÛ       ÛÛ ÛÛ       Even         i2
+          GS            ÛÛ       ÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛÛ              S#
+          Ei                                                             SE
+          #2 "It's only freedom as long as the opposition tolerates it"  uG
+          2#                                                             ea
+          !euSSi2#euSSi2#euSSi2#euSSi2#euSSi2#euSSi2#euSSi2#euSSi2#euSSi2#R
+
+
+
+
+------------------------------------------------------------------------------
+        Table of Contents                             RaGE Magazine Issue #2
+------------------------------------------------------------------------------
+
+    I. Intro
+         1. Welcome to RaGE #2
+         2. RaGE Mailroom
+   II. Chapter 1              [Hacking]
+         1. Project Hacker
+         2. TinyCrack C source
+         3. SPA/Internet Piracy
+         4. Mitnick Gets Busted
+  III. Chapter 2              [Phreaking]
+         1. Payphones in Spain
+         2. Advanced Beige Box Modifications
+         3. Phreaker's Tools Review
+         4. 1-800-325-3xxx Scan List
+   IV. Chapter 3              [Anarchy/Scams/Exploits]
+         1. Acetone Peroxide Explosive
+         2. Potassium Chlorate/Sulfur Explosive
+         3. New York Instant Lotto Machines
+         4. Trashing Techniques
+         5. Blockbuster Video Scam
+         6. Carding Techniques
+         7. Marijuana Closet Garden
+    V. Chapter 4              [Editorials]
+         1. Microsoft Windows '95 Editorial
+         2. Stumble's Nazi Views
+   VI. Ending
+         1. Submission Guidelines
+         2. uuDW group info
+
+------------------------------------------------------------------------------
+
+     Welcome to RaGE #2, as you can see this is nothing like our first issue.
+We have a new text reader for the 'zine and new ANSI.  We received lots of
+feedback after the initial RaGE release.  Many of the suggestions and comments
+sent to us influenced us into making some dramatic revisions.  Hopefully it
+doesn't suck too much...
+     We are continuing with the production of RaGE, full-steam ahead <choo>
+<choo> therefore we are accepting your comments and suggestions for future
+issues of RaGE.  Due to suggestions from several readers we have sub-divided
+the text into smaller bite size portions.  This will allow you to quickly and
+easily go to your section of choice.
+     A uuDW WWW page is in development.  It was not ready for use at press
+time.  Therefore it should be up and running sometime soon.  We are also
+trying to obtain an FTP site to receive submissions for future RaGE releases.
+     So here you are about to read RaGE #2.  We unfortunately could not
+release it on the originally specified date.  But life sucks, and we still
+live it...  So all of us at uuDW hope you enjoy another RaGE excursion...
+
+--- RaGE Mailroom
+
+From:  jp4ace@netcom.com
+Subject:  RaGE
+To:  uudw@cyberspace.org
+Date:  Thu, 9 Mar 1995 16:16:28 -0800 (PST)
+
+> I just got RaGE #1, and it is the BOMB man!  Tha shit kix ass!!  Make more
+> music for it tho...
+> L8rz..
+
+Thanks for your support!  However, due to the size of the music files in RaGE
+#1, a decision was made to stop including music with RaGE.
+
+We felt it did not fit in with the general concept of the magazine.  We are,
+however, in the process of working on a literary magazine, to include poems,
+short stories, and music, which will be released sometime in the future.
+
+---
+
+From:  iha_j@kosmos.wcc.govt.nz
+Subject:  Ya mag
+To:  uudw@cyberspace.org
+Date:  Sun, 15 Jan 1995 23:38:46
+
+> Yeah, just a comment about ya mag, da Musix is fuqin awesome, anyway I
+> was lookin into becoming offical distro site 4 ya mag, so reply here if
+> interested...
+
+Anyone interested in becoming a distribution site must e-mail us their
+complete board information, and we will get back to you within a few days.
+
+---
+
+From:  H-Bomb
+Subject:  RaGE is Phat!
+To:  uudw@cyberspace.org
+Date:  Sat, 14 Jan 1995 02:10:57
+                   
+> Yo!  I just wanna say to you guys that Rage #1 is all that!  Your
+> articles about AT&T and the bomb making shit...  Aww man that is phat!  The
+> music is slammin too!  Anyway I just wanna say that you guys obviously did a
+> hella detailed job on #1 so im wondering when is #2 gonna be out?  Where can
+> I find it?  Etc...  But anyway I'm gonna go read Rage #1 over again to make
+> sure I didn't miss anything!
+
+Glad to hear you liked it...  Check the FTP site listing at the end of RaGE #2.
+
+!!!
+
+--- Project Hacker
+
+     In RaGE #1, Grendel gave his opinions on the world of hacking and the
+attitides that come along with it.  I agree with him in that everyone seems
+to just want to be the best, and aside from them, everyone else is lame.
+There are many breeds of hackers, or at least, people who call themselves
+hackers.  As far as the underground world goes, I would like to offer my
+opinion on the subject.  If you haven't already, be sure to read Grendel's
+article from RaGE #1.
+     The art of perfection in hacking lies in knowing exactly how far over
+the edge you can safely go.  Everyone's goal is to not get caught, (mostly
+sparked by unnecessary paranoia) but not as many can actually achieve it.
+What one must do is know exactly what you are dealing with.  In this world,
+knowledge is power.  The more you know about what or who you are dealing with,
+the better you will be able to handle yourself as you do what you want, and be
+successful at it.
+     Setting a clearly defined goal is terribly important.  Unfortunately,
+it does not seem to be a high priority for many "hackers."  They just want to
+break into a system, fool around, and leave.  Sure, there's a rush, but often
+it's only temporary because proper measures were not taken in advance.  What
+they should do instead, is break in, maintain a low profile, learn the system,
+find out what they can and can't do, and leave without being detected.  Then,
+if they want to attack the system in a more agressive way, they will have the
+know-how to do so successfully, without a System Administrator breathing down
+their back.
+     Many hackers take the same routes that have already been used and abused
+by their predecessors.  Here is where the power of originality can be helpful;
+finding a virgin system will benefit you in many ways.  There will be pathways
+available to you that have never been touched by others, there will be a
+number of possibilities waiting for you, tempting you with its own stupidity.
+Reach out and command these untouched security mishaps, for they will be gone
+all too quickly.
+     By breaking into a system once, you have found that a door is open to
+you.  By giving away your presence, you can have that door slammed in your
+face.  By taking careful precautions, you can not only keep that door open to
+you, but open additional doors for your use.
+     If you like to break in and do as much damage as possible on the first
+chance you get, your poor approach to hacking will soon catch up with you.  If
+you hack to gain knowledge, and use that knowledge in a way that will bring
+you to additional knowledge, more power to you.
+     I would like to share an article that I recently saw in the newspaper...
+Apparently, the technique being described is an old one, but has just recently
+been exploited, and on quite a large scale.
+
+---
+
+"Internet hackers steal a new ride"
+
+     Hackers are circulating and using a technique that can crack security
+systems at many Internet computer sites, including beefed-up systems recently 
+installed at great expense by hundreds of businesses and other institutions,
+federal officials and security experts said (Monday).
+     Spoofed:  IP spoofing can enable intruders to take control of those
+systems - reading mail, deleting files or stealing programs - despite so-
+called "firewalls" that were intended to improve the loose security inherent
+in the Unix operating system of most Internet computers.  Unix is a popular
+operating system for computers at academic institutions.
+     Snooped:  The problem will have little impact on the average Internet
+computer user, whose e-mail and files have always been vulnerable to
+determined snoops.  But it could slow the rush to transfer cash and set up
+electronic businesses on the Internet, a network on 20 million computer users.
+     Warned:  The Computer Emergency Response Team, the federally funded
+clearinghouse for Internet security, (Monday) issued a warning over the
+Internet about the intruder problem and offered several possible technical
+fixes, all intricate.
+
+- (From: News Service Reports)
+
+GraveDigger/uuDW
+
+---
+
+/* 
+
+TinyCrack v1.0 by Bluesman@cyberspace.org 1/95
+
+- SPECIAL RaGE RELEASE! -
+
+If your tired of having to use gigantic password crackers for a quick-fix,
+then you might try using this program.  It does the basics.  It scans for
+nulls, tries usernames and account names and of course it runs with any
+wordlist dictionary.  Tested on SunOs, Ultrix and Linux.
+
+                                   TO COMPILE:  gcc -O2 tc.c -o tc
+*/
+
+#include <stdio.h> 
+#include <string.h> 
+
+#define fetch(a,b,c,d) {fgets(a,130,b); c=strtok(a,":"); d=strtok('\0',":");}
+
+main()
+{
+FILE *p,*o,*w;
+char i[50],pes[130],pas[50],pps[50],pws[50];
+char *es=pes,*as=pas,*ps=pps,*ws=pws;
+
+   printf("\nTinyCrack v1.0 Bluesman 1/95 - RaGE Mag Release!\n\n");
+   printf("Password File: "); gets(i);
+   p=fopen(i,"r");
+   printf("WordList File: "); gets(i);
+   w=fopen(i,"r");
+   printf("Results File : "); gets(i);
+   o=fopen(i,"w");
+
+   fprintf(o,"*** TINYCRACK v1.0 ***\n\n*** PASS 1: NULL PASSWORDS ***\n");
+
+   while(ps)
+   {
+         fetch(es,p,as,ps);
+         if(ps) if(ps[-1]==':') fprintf(o,"| User [%s] has no password!\n",as);
+   }
+
+   fflush(o); rewind(p);
+
+   fprintf(o,"*** PASS 2: ACCOUNT NAMES ***\n");
+
+   do
+   {
+         fetch(es,p,as,ps);
+         if(ps) if(!strcmp((char *)crypt(as,ps),ps))
+                   fprintf(o,"| User [%s] has password [%s]\n",as,as);
+
+   } while(ps);
+
+   fflush(o); rewind(p);
+
+   fprintf(o,"*** PASS 3: DICTIONARY WORDS ***\n");
+
+   do
+   {
+         rewind(w);
+         fetch(es,p,as,ps);
+
+         do
+         {
+            fgets(ws,130,w);
+            ws[strlen(ws)-1]=0;
+
+            if(!strcmp((char *)crypt(ws,ps),ps))
+            {
+                  fprintf(o,"| User [%s] has password [%s]\n",as,ws);
+                  fflush(o);
+                  break;
+            }
+
+         } while(!feof(w));
+
+  } while(!feof(p));
+
+  fprintf(o,"*** FINISHED SESSION ***\n");
+  exit(1);
+
+}
+
+--- Internet Piracy
+
+     Piracy has been a big issue in on the Internet since the crackdown of
+Cynosure in the middle of 1994.  With that bust many different communities
+have been working together to stop the pirate situation on the Internet.  It
+has been a constant race between the pirates and the anti-pirates.  When the
+anti-pirates find one way to stop them, the pirates find another way around
+them.  But as the following article states, the Internet is going to be a huge
+target in 1995.  Please read the material and take precaution toward these
+actions.  This is a fair warning going out to the anti-pirates, and the
+pirates...
+
+---
+
+SPA Targets Internet, International Piracy 01/11/95
+
+     WASHINGTON, D.C., U.S.A., 1995 JAN 11 (NB) -- Software Publishers
+Association (SPA) says corporate software piracy in the US was down 23 percent
+in 1994, but other forms of piracy became more secretive and harder to locate.
+The anti-piracy trade organization said it will focus on international piracy
+and, specifically, piracy on the Internet during 1995.
+     SPA sources said anti-piracy hot-line calls came in last year at a rate
+of nearly 30 per day.  These tips led to the SPA taking various types of
+action against 447 organizations and led to 197 audits and lawsuits.  These
+resulting in the payment of $2.7 million in penalties during 1994, SPA sources
+said.  The organization said cumulative receipts from its continuing anti-
+piracy campaign came to $14 million so far at the end of last year.
+     SPA said that, of all cases brought against suspected offenders, 95
+percent were corporate cases.  Five of these led to settlements greater than
+$100,000, the organization said.  Money from such settlements goes to fund
+education programs and future legal actions, the SPA said, but declined to
+name any of the companies involved.
+     The SPA officially estimates losses to software companies at $1.6 billion
+annually in the US, and $7.5 billion internationally.  It bases its estimates 
+on the number of computers sold in an area, the number of software packages
+reported sold legitimately in the same area, and statistical reports on the
+number of key applications run on an average desktop machine.
+     David Trendlay, the SPA's director of research, told Newsbytes the
+underlying assumptions were reasonable and the resulting estimates should be
+considered good.
+     Sally Lawrence, the SPA's director of communications, told Newsbytes that
+piracy law violators have become more active on the Internet, where they
+are harder to track down.
+     "We have stepped up our monitoring on the Internet dramatically, and are
+working in cooperation with major American universities where some of this
+activity is taking place," she said during an interview. "They've come across
+a number of pirate sites hidden away in unsuspecting host servers.  Right now
+they're monitoring those activities with the intention of prosecuting to the
+full extent of the law."
+     Lawrence declined to release any further details, other than to confirm
+that the organization's attentions to the Internet were not confined to
+activities in the "found" specific sites.
+     Internationally, the SPA has been active in France, Great Britain,
+Singapore, Ease Asia, South America and Canada.  It has recently developed a
+Certified Software Manager course that offers certificates upon completion of
+a test on copyright law, licensing issues, autoing and software management
+policies.
+     (Craig Menefee/19950111/Press Contact:  Sandra Sellers, director of
+litigation, ext. 311, or Sally Lawrence, director of communications, ext. 320,
+both of the Software Publishers Association, 202-452-1600; Reader Contact:
+Piracy Hotline:  800-388-7478; SPA fax-back service, 800-637-6823)
+
+---
+
+MrOrange/uuDW
+
+--- Mitnick:  NO CARRIER
+
+     Kevin Mitnick, the computer hacker who has been dodging the law since
+1992, was finally caught in February 1995.  His downfall was the result of
+another hacker's work, who happened to be on the other side of the law.
+     Tsutomu Shimomura was able to locate Mitnick's exact location through
+several tracking techniques, including assistance from a Sprint technician,
+who drove around Raleigh, North Carolina, in a van equipped with cellular
+frequency scanning equipment.
+     In the early 1980's, Mitnick was a teenage phone phreak, and later became
+involved in computer hacking.  He stepped up from payphones to cellular
+technology, giving him even more freedom.
+     Mitnick had collected some 20,000 valid credit card numbers, but had not
+even used one of them, according to the evidence available.
+
+(This article was condensed from the February 27 1995 issue of Newsweek.)
+
+GraveDigger/uuDW
+
+!!!
+
+--- Spanish Phone Phun
+    By:  Greg Oreck (i think?!)
+
+<I've cut out a long un-needed disclaimer - Grendel>
+
+     While I can describe to you how one could accomplish this little hack,
+I'm still looking for a definitive answer as to why it works, so if anyone
+else has any ideas, please let me know.  As far as I can tell though, what the
+following does is to give you a line out from inside the Telefonica
+system itself, and probably directly out of their telephone directory
+information lines.
+     To start off, first you have to find the right kind of phone.  The phone
+you see here is the ONLY kind of Telefonica pay phone this works on, this
+hack utilizes some flaws in this particular kind of pay phone, which only one
+of the types found in Spain.  It would be interesting to know if there are
+Telefonica phones such as these in other spanish speaking countries (as I
+believe Telefonica doesn't only operate in Spain).
+     Aside from just finding the right kind of pay phone, you also need to
+find one where the wall plug is within reach, and where it is possible to
+tamper with without attracting to much attention.  This isn't as hard as you
+think!  Very often the plug is directly below the pay phone itself (as
+pictured here).
+
+<Here is my lame re-creation of a really cool picture - Grendel>
+
+                 ___________Slot_____
+                /                    \
+                |          -----     |
+                | /-\     | LED |    |
+                | \_/      -----     |     Notes:
+                | [|]     mf    ?    |     The coin slot is right above
+                | [|]     1  2  3    |     the LED display.  I have no idea
+                | [|]     4  5  6    |     what the "mf" button stands for,
+                | [|]     7  8  9    |     but as you'll read later on, it's
+                | /-\     *  0  #    |     an important ingredient!  The
+                | \-/       _______  |     button labeled "?" is the button
+                |          |Coinbox| |     I couldn't make out from the
+                |          |_______| |     picture...  Below the phone is the
+                |--------------------|     plug.  Boy they sure are dumb in
+                \____________________/     Spain!  Oh yeah:  The "Coinbox" is
+                          |Plug!|             the coin return. - Grendel
+                          |_____|
+
+     Now to begin, deposit one 25 peseta piece into the phone (the large 25
+peseta piece, not the new small one).  Next, press down the hook nine-tenths
+of the way down until you feel a little resistance.  If your 25 pta. piece is
+returned, you pushed it down too far, but if it doesn't, and the LED screen
+changes and starts to blink then you've done it correctly.
+     Now it would be wise to place something over that LED screen as the
+blinking picture on the screen means that the phone is now working and anyone
+who glances at it during your call will get quite suspicious.  I suggest a
+business card with someone's phone number on it (as if you were using it to
+look at their number).
+     Once you've done this, you should dial "003".  This is the # for
+directory assistance in Spain, and once it connects, you will at first get a
+recording in spanish.  Once you hear this (i.e. you've connected), quickly
+unplug the phone from the wall and then reconnect it.
+     At this point you should hear a steady tone (this is their dial tone),
+and all you have to do now is to hit the "mf" button on the phone's keypad
+(this is usually used for if you want to make a second phone call and still
+have credit for the last call).  Once you've hit the "mf" button, you're free
+to dial away!  You can now make local or international calls, just consult the
+directions on how to make international phone calls from any outdoor phone
+booth.
+     To make another call when you're done, instead of hanging up, just unplug
+and re-plug in the phone again and hit the "mf" button and you're ready to
+dial again!
+     Finally (and this is the best part!) when you are done with your phone
+calls, just hang up the phone, and your 25 pta. piece is returned to you!
+(courtesy of your friends at Telefonica!)
+
+Hope you enjoyed the information!
+
+* A note from Grendel:  I stole this article out of "Walkabout 'zine" a really
+cool 'zine that I picked up at a music/comic/coolshit shop up near the local
+University.  I recommend that if you see this 'zine sitting on some shelf...
+BUY IT!  (Or steal it.)  Whatever!
+
+Grendel/uuDW
+
+--- Beige Box Modifications
+
+     I'm going to try to explain, and provide text-diagrams for a few
+modifications I have made to my beige box.  These modifications allow for
+greater manipulation and testing of the lines which you will be using during
+your boxing experiences.  They have been streamlined with the idea in mind
+that a beige box is a tiny hand-held unit, and these additions should not add
+too much bulk to your box if you decide to implement them.
+     This article is assuming you know what a beige box is.  I will not
+explain how to build one here.  This is only meant for people who already
+have one, and who have used it before.  I've provided the info, use it as you
+wish.  Do it right, and you'll have no problems.
+     You should be able to find all the parts you need in a decent electronics
+store.  I usually get my stuff from Radio Shaque, but I also got some from
+school -- I used to take an audio electronics course, and I was able to get
+lots of components from that class.  Adding these modifications involves some
+knowledge in stripping wires, identifying components, and soldering.  If you
+can't do any of this, here is a good place to stop.
+
+1.  Line Breaker:
+
+     One of the devices on my beige box is just a simple button.  It's a
+normally-closed button, which means the circuit is on unless you press the
+button, which will break the circuit.  Pushing this button, then, is the
+equivelant to hanging up the phone.  I hold this button down when connecting
+the clips to the terminals, just in case someone is on the phone.  This will
+prevent them from hearing static and such.  It can also be used to quickly
+disconnect modem calls without removing the alligator clips.  Below is a
+simple diagram showing how to add this feature to your beige box:
+
+        Modular Jack
+        +----------+   Green Wire
+        |          |----------------------------<  Alligator
+        |          |-----------------+    +-----<    Clips
+        +----------+   Red Wire      |    |
+                                                    +-//-+  Button or SPST Switch
+
+     All of the parts are self-explanitory, and the button could be replaced
+by an SPST toggle switch if desired.  As shown above, the button or switch is
+placed on one wire (either red or green would work, it just has to be able to
+interrupt the circuit) and each end of the wire is attached to one of the
+terminals on the button or switch.
+
+2.  Polarity Tester:
+
+     This is helpful for testing for lines when you aren't sure if any of the
+terminals in a box are actually connected, or if you can't remember the famous
+"RED RIGHT RING" rule, and want to be sure you connected the box the right
+way.  It's activated by an SPST switch, and also requires a red and a green
+LED.  These parts are easily obtainable from most electronics stores.  You
+can even buy them if you want, but I suggest "obtaining" them first.  (Why
+waste your money?!)  Here we go with lame diagrams again:
+
+                Green Wire
+                ------+---------------------<
+                         |
+                         / SPST Switch
+                         |
+                    +-+-+
+            -    |   |    +
+        Red LED @@   @@ Green LED
+            +    |   |    -
+                    +-+-+
+                         |
+                ------+---------------------<
+                Red Wire
+
+     Take note that the polarities of the LED's are opposite each other.  This
+way, if the current is flowing, only one LED will light up, indicating if the
+polarity is correct or not.  If no light is on, either there is no current,
+the LED's are blown, or you fucked it up somehow.  You should only use this in
+emergencies, and only for short periods of time, or else you will blow the
+LED's, and the damn thing won't work, you will look like a major
+lamer if you're out with someone else and the thing fails.  :P
+     Normally, the red wire is the negative end.  So you need to make sure
+you have the green LED's negative end facing the red wire, and the red LED's
+negative end facing the green wire.  Otherwise, the thing won't report the
+correct polarity, and what purpose would that be?
+
+3.  Line Noise Reducer:
+
+     By adding this modification to your beige box, you will be able to cut
+line noise.  This is another simple procedure which requires easily-obtainable
+parts.  It will not reduce all of the noise, but can be effective to some
+degree.  The diagram follows:
+
+        Green Wire
+        ------+---------------------<
+                 |
+                (O) 1k ohm resistor
+                 |
+                (O) 1k 250v capacitor
+                 |
+        ------+---------------------<
+        Red Wire
+
+     The capacitor will trap any excess noise, and the resistor will prevent
+it from doing too much work.  This should not affect the quality of the
+connection in a negative way.  These parts are also easy to get, just try to
+get small components so you can fit them inside the modular jack.  This actual
+modification idea was borrowed from a text file on reducing phone line noise.
+
+4.  Monitor/Talk Mode Switch:
+
+     This method has not been tested by me, and it has been devised from an
+article written by Phucked Agent 04 from the LOD/H Technical Journal.  I'm
+including this because I don't think many people know about this.
+     The purpose of this device is to allow you to monitor someone's line,
+meaning just sitting there and listening in, or to use the line for dialing,
+modeming, talking or whatever.  This switch, then, is like a mute button.
+Follow carefully for a little lesson in parallel circuits.
+
+        Red Wire
+        ----------------------------<  Alligator
+        ------------+        +------<    Clips
+        Green Wire  |        |
+                          +---//---+ SPST Switch
+                          |        |
+                          +---@@---+ 10,000 ohm 1/2 watt Resistor
+                          |        |
+                          +--!  (--+ 0.22 uF 200 WVDC Mylar Capacitor
+
+     Lovely, is it not?  Hmm...  Oh, that's what I thought.  Anyways, to talk,
+simply close the switch.  Thus all the current will travel normally, bypassing
+the capacitor/resistor routes.  By opening the switch, you send the current to
+the cap and resistor, placing you in "monitor" mode, in which anyone using the
+line will not be able to hear you.  If you want to get really sneaky, replace
+the SPST with an on/off trim pot, which will enable complete cutting of the
+circuit and complete connection.  This will allow you to gradually switch
+modes, as to further go undetected due to the absence of audible line static
+due to your dirty deeds.
+
+     Well, there's a few ideas on how to improve your beige box.  What I did
+was to cut holes in the top of the modular jack case to house the button,
+switch, and two LED's.  The resistor/capacitor fit inside.  Most buttons and
+switches come with nuts or screws to fasten them to the case.  For the LED's
+you can use glue to secure them in their place.  When adding these toys, use
+the smallest amount of copper wire possible, and be sure to solder all your
+connections.  If the damn thing falls apart, its likely to be a bitch to fix
+it.  Do it right the first time.
+     If you're messy and can't make everything fit right, either get a bigger
+modular jack or one of those "experiment boxes" from Radio Shaque, a small
+plastic box which can be used to house your various components.  If you decide
+to do this, instead of using a modular jack, just get a small modular socket
+and wire it yourself.  Have fun, and be eleet!!
+
+GraveDigger/uuDW
+
+--- PC Phreakers Tools Review
+
+     I am going to review some high points and low points of two of my
+personal favorite software products designed for phreaking purposes.  They
+are available on various FTP sites, or just call up any decent H/P/A board and
+look for copies.  If you can't find 'em you probably don't need 'em.
+     These programs are ToneLoc and BlueBEEP.  I used the most current
+versions at the time of writing this article.  BlueBEEP is one release short
+of its last version, and I'm not sure about the future of ToneLoc.  In any
+event, on with the show.
+
+ToneLoc 1.10 - Minor Threat & Mucho Maas
+
+     This is, in my opinion, the best scanning program available for the PC
+phreak.  The version I currently have is 1.10, and I have used it on several
+occasions, without running into any noticeable errors.
+     My first impression of ToneLoc was "I hate commandline-driven dialers!"
+I was hoping to encounter some kind of scanning interface.  But out of
+necessity, I finally gave ToneLoc another try and decided there was no better
+substitute.  Even though it is commandline-driven, its features are powerful,
+allowing you to define the scan mask, range, hours, maximum numbers dialed,
+and more.  It comes with a config program, which is used to define the modem
+port, init strings, dialing times, modem responses, and other important
+settings.  However, well...  Most BBS programs don't even have external config
+programs anymore.  This makes operation a little clunky in my opinion.
+     One of my friends reported that his 28.8 didn't work with ToneLoc, and
+when recommending ToneLoc to me, suggested that I use my 2400 for scanning.  I
+decided to tinker around with TL first, to see if I could get my 14400 to
+work properly with it.  All I had to do was add some delays to the hangup
+strings, modify the dialing time, and add commands to the init string.  It
+took less than 5 minutes of configuring, testing, and reconfiguring until my
+14400 was set up properly.
+     During my setup, I also discovered how well the authors have documented
+their software.  After scanning 1000 numbers, I got 4 carriers, 15 busy
+signals, and the rest in timeouts.  I was a little disappointed.  What to do
+about all those damn timeouts?  Then, I noticed another program in my TL
+archive that was designed to handle the timeout responses.  This particular
+program was TLREPLAC, written by the TL authors themselves, and is very
+useful.  Unfortunately, the data file entered on the commandline for TLREPLAC
+must have the .DAT extension, as the extension you enter is ignored.  I had to
+rename my datafile in order to use this utility.
+     While scanning, you are shown the modem responses on the right portion of
+the screen.  This is helpful when setting up, as you can see if the init
+string gives an error.  You also have the option to turn off the modem speaker
+from the scanning screen, as well as blank the screen, show a different screen
+(boss-key type feature), and stop the dialing prematurely.
+     TL 1.10 also came with third-party utilities designed to work with its
+output data files.  The authors of TL have included their C header file, which
+explains the format of the data files, for anyone wishing to develop
+complementing software.  One of these third-party utilities is Tonemap, which
+displays a graphical map with color representation of the various scanning
+results from your data file.  Using the cursor arrow keys, you can move to
+different-colored blocks quickly, and the number will be displayed on the
+screen.  For example, carriers are red blocks, so you can quickly see them,
+and move the cursor to the box and get the number, instead of just opening up
+the scan log text file and getting the number.
+     Another of the external utilities is PRESCAN, allowing you to exclude
+certain numbers in your scanning range.  These numbers could be residential
+numbers obtained from the phone book, and there are supposedly CD-ROM disks
+available with such numbers on them, which can be used and will make your job
+easier.  In effect, this cuts down your scan time by not dialing numbers that
+you know won't be of any use to you.
+     I think it would be great if ToneLoc came with default setups for
+different brands of modems, like many terminal programs come with.  Due to
+TL's large user population, it shouldn't be hard to get help to develop this
+addition if it is planned.
+
+BlueBeep .10 - Onkel Dittmeyer
+
+     This little gem has an array of great features.  It works best with a
+soundcard.  You only need a modem if you want to do scanning with it, but I
+really recommend ToneLoc as a scanner.  Included with BB is a redbox tone
+generator, card talker, and a number/word translator.
+     You can setup everything from within BB, including the soundcard, modem,
+and other settings.  With the setup being internal, it makes things that much
+easier.
+     My personal favorite tool is the Card Talker.  It allows the user to
+define a phone number, a calling card number, and use pre-recorded voices to
+use as an interface between the phreak and the Long Distance Operator.  This
+feature was designed so well, the voice samples for the numbers includes a
+"high" and "low" sample, giving it a natural sound, since numbers at the end
+of a grouping would naturally be spoken with a lower tone of voice.
+     The Card talker also has user-defined voice capabilities, allowing two
+VOC files to be inserted by the user.  I think it would be best to add more
+user-defined VOC slots, to allow for greater possibilities.  For example, you
+might need a voice to say "Yes," "No," or other responses.  Also, it would be
+helpful to have a short definable description for each custom voice file, so
+you know which button is which voice.  Pressing the key for the included voice
+"Hey you stupid fag, I'm gonna cut your balls off" could be the wrong thing to
+do after the operator tells you she is putting your call through.
+     The number/word convertor allows you to type in a word and have it
+translated to numbers as you would find on a touchtone phone.  It also allows
+you to type in a number and instantly find a matching word or phrase for it.
+This is handy for scanning those word-numbers like 1-800-EAT-SHIT or similar.
+Due to a phone's layout though, it can't convert numbers with 0 or 1 in them,
+since there are no matching letters.
+     There are also many scanning routines to be used, none of which I have
+tried due to my desire to stick with ToneLoc for scanning.  Even still, BB is
+not a command-line scanner :).  However, if I ever had one of those recordable
+talking hallmark cards, I would know where to record my redbox tones from.
+     I recently mailed the author of this program to ask a question about
+the program itself, and the author informed me he is preparing to release the
+source code and discontinue work on the program.  I have also heard on Usenet
+that the author is planning one final release - 1.00 - after which release
+the source will be made publicly available.  This should be a great help to
+anyone interested in developing a phreaking utility for the PC.
+     You can also expect a uuDW project to come out of BlueBEEP.  Right now,
+we are planning a customized version of BB's card talker, and we are going to
+use the BlueBEEP source to develop it.  Watch for it soon.
+
+GraveDigger/uuDW
+
+--- 1-800-325-3xxx Scan
+
+011 - VMB System (VMX)
+024 - VMB System
+033 - "Please enter your transaction code and password."
+040 - VMB System (Audix)
+042 - VMB System (Audix)
+047 - VMB System
+053 - VMB System
+057 - "Please enter your 4-digit PIN"
+061 - VMB System (VMX)
+070 - Loud Beeps (Fax? - Press * or #)
+073 - VMB System
+090 - Dictation Service <?> Asks for access code
+
+102 - "Please enter your 4-digit PIN"
+104 - "Please enter your 4-digit PIN"
+105 - "Please enter your 4-digit PIN"
+107 - "Please enter your 4-digit PIN"
+116 - "Please enter your 4-digit PIN"
+120 - VMB System
+125 - VMB System (Admin box 999)
+130 - VMB System
+134 - VMB System
+137 - "Please enter your 4-digit PIN"
+138 - "Please enter your 4-digit PIN"
+139 - "Please enter your 4-digit PIN"
+151 - "Please enter your 4-digit PIN"
+176 - VMB System (* to enter a mailbox) (no hangup for errors)
+188 - VMB System
+
+201 - VMB System (Aspen) (Admin box 9000)
+215 - Carrier
+219 - VMB System (Automated Attendant)
+222 - VMB System
+236 - "Please enter your 4-digit PIN"
+239 - Weird tones (similar to a carrier)
+243 - Carrier
+250 - Automated Banking Service
+251 - VMB System (#81 to access)
+281 - Weird beep - Press # and * and it says "Hang Up."
+286 - Weird beep - Press # and * and it says "Hang Up."
+292 - VMB System (Automated Attendant) (3 digit boxes, 4 digit passwords)
+
+322 - VMB System (default password: 0000)
+341 - Weird beep - Press # and * and it says "Hang Up."
+350 - VMB System
+356 - VMB System
+367 - Quiet tones
+377 - Asks for a 5 digit access code
+381 - VMB System (Dial ##81 to logon)
+382 - Long Beep
+391 - VMB System (Dial ##81 to logon)
+393 - VMB System
+398 - VMB System (4 digit boxes, 10 digit passwords)
+
+402 - VMB System
+405 - VMB System
+411 - Direct-dial VMB / Pager Service
+422 - VMB System
+446 - VMB System
+458 - VMB System
+472 - VMB System
+480 - VMB System (Press *# to enter) (3 digit boxes)
+492 - Carrier
+
+505 - Dialout (Code needed)
+508 - VMB System
+519 - VMB System
+523 - VMB System
+530 - Weird tones
+540 - VMB System (3 digit boxes/passwords)
+545 - VMB System (3 digit boxes/4 digit passwords)
+550 - VMB System 
+552 - VMB System (Meridian Mail) (Press #6 to enter)
+565 - VMB System (Meridian Mail) (Press #1 to enter)
+573 - VMB System (#81 to enter)
+590 - Automated Banking Service
+
+644 - VMB System (3 digit boxes/4 digit passwords)
+645 - Carrier
+680 - Weird Beeps
+690 - Carrier
+
+716 - "At the tone, please key in your number"
+720 - Weird Beeps
+727 - Ringing with dialtone heard in background
+785 - Rings Once.. beeps heard after ring
+799 - (After pressing #, "Please enter your security code")
+
+805 - Beep then rings.. VMB System
+811 - VMB System (prompts for password then mailbox)
+815 - VMB System (Press *# to enter)
+841 - VMB System
+847 - "..this program has ended and no further calls are being taken.."
+856 - Long high-pitched tone
+864 - VMB System
+885 - Dialout
+888 - VMB System
+
+929 - "Enter the numbers you wish displayed"
+936 - VMB System
+963 - Automated Trucking Accounting Service
+969 - Automated Trucking Accounting Service
+980 - Press # "Please enter your.. access code"
+
+!!!
+
+--- Acetone Peroxide Explosive
+
+        Acetone peroxide is a primary explosive that can be made from hair
+bleach (hydrogen peroxide), acetone, and sulfuric acid.  This explosive can be
+used n the fabrication of detonators.
+
+Material Required:                    Sources:
+
+Hydrogen peroxide                     Hair bleach (15-25 volume content)
+                                               Drug stores and hair supply stores.
+
+Acetone                               Hardware stores, drug stores, etc.
+
+Sulfuric acid                         Clear battery acid boiled until white
+                                               fumes appear.
+
+Eye dropper or syringe with
+glass tube.
+
+Graduated cylinder (cc or ml) or
+other measuring device.
+
+Thermometer (0 to 100 degrees C.)
+
+Glass containers
+
+Large pan
+
+Ice, salt and water.
+
+Paper towels
+
+Procedure:
+
+1.  Measure 30 milliliters of acetone and 50 milliliters of hydrogen peroxide
+into a glass container and mix thoroughly.
+
+2.  Cool the acetone/peroxide mixture by placing its conatiner in a larger one
+containing a mixture of ice, salt, and water.
+
+Note:  Because of the lighter inner container being buoyant in the larger
+outer container, it's necessary to secure it so that it won't fall over into
+the ice, salt, and water mixture.
+
+3.  Cool the acetone/peroxide mixture to 5 degrees C.
+
+4.  Add 2.5 milliliters of concentrated sulfuric acid to the acetone/peroxide
+mixture slowly, drop by drop, with the use of an eye dropper.  Stir the
+mixture during the addition of the sulfuric acid with a thermometer, keeping
+the temperature between 5-10 degrees C.  Should the temperature rise above 10
+degrees C., stop adding the sulfuric acid and continue stirring until the
+temperature drops again to 5 degrees C., then continue adding the sulfuric
+acid.
+
+5.  After all the sulfuric acid has been added, continue stirring the mixture
+for another five minutes.
+
+6.  Let the acetone/peroxide/sulfuric acid mixture stand in the ice/salt/
+water bath or remove the inner container and place it in an ice box for 12 to
+24 hours.
+
+7.  After 12 hours white crystals of acetone peroxide will precipitate out of
+the once clear solution.  Precipitation should be completed after 24 hours.
+
+CAUTION:  At this point the mixture is a primary explosive.  Keep away from
+shock, friction and flame.
+
+8.  Filter the mixture through a paper towel into a container to collect the
+solid particles.
+
+9.  Wash the solid particles collected in the paper towel with small amounts
+of ice cold water poured over them.  Discard the liquid in the container.
+
+10.  Place these explosive crystals in a container and allow to dry.
+
+CAUTION:  Handle the dry explosive with great care.  Do not scrape or handle
+it roughly.  Keep away from sparks or open flame.  Store in a cool, dark, dry
+place.
+
+PSYC0SiS/uuDW
+
+--- Potassium Chlorate/Sulfur Explosive
+
+        An impact sensitive explosive can be made from postassium chlorate and
+sulfur.  This explosive can be used as a filler when making reusable primers
+or as a filler when making impact sensitive fragmentation bombs.
+
+Material Required:                    Sources:
+
+Potassium chlorate                    Drug stores and chemical supply houses
+                                               (used in match heads).
+
+Sulfur                                Drug stores and garden supply houses
+                                               (Flotox brand garden sulfur).
+
+Measuring container (cup,
+tablespoon, etc.)
+
+Mixing container (jar, can) with
+tight fitting lid.
+
+Two flat boards (one should be
+comfortably held in the hand such
+as a square block or rolling pin
+and one very large, i.e., 36" x
+36")
+
+Procedure:
+
+1.  Spread a handful at a time of postassium chlorate on the large flat board
+and rub vigorously with the other flat board or rolling pin until the large
+particles are crushed into a very fine powder (approx. 10 minutes per
+handful).
+
+CAUTION:  Thoroughly clean and dry both boards before using again with a
+different substance.
+
+2.  Repeat this process using the sulfur.
+
+3.  Measure 7 parts by volume, 11 parts by weight, of powdered potassium
+chlorate and 1 part by volume, 1 part by weight, of powdered sulfur into the
+mixing container.
+
+CAUTION:  This mixture forms an extremely shock sensitive explosive,
+especially between two metal surfaces.  Reasonable care should be exercised
+from this point on.
+
+4.  Gently tumble the mixing container between the hands until the ingredients
+are thoroughly mixed together.
+
+5.  Place the mixed explosive in a tightly sealed storage container until
+ready to use.
+
+CAUTION:  Do not store the mixed explosive for more than five days before
+using.  Keep this explosive dry at all times.
+
+PSYC0SiS/uuDW
+
+--- Ripping Off Instant Lotto Machines
+
+     New York's prominant "Hey, you never know..." theme for the lottery may
+be a common saying these days, but the odds of your winning any state lottery
+are quite slim; or are they?
+     First off, I'd like to throw a standard disclaimer at you:  I'm not
+responsible for shit.  My intentions are not to cause financial difficulty to
+the states (God knows we need more of it), but merely to point out some
+flaws...  This is for informational purposes only, and use of this material
+for illegal activities is not suggested...
+
+Now that that's outta the way, a diagram might be in order:
+                          __________________________________________
+                         |                              _____       |
+                         |   Instant Lotto Machine    ||__A__||     |
+                         |                                          |
+                         |   _______       _______       _______    |
+                         |  |   X   |     |   Y   |     |   Z   |   |
+                         |  |_______|     |_______|     |_______|   |
+                         |   _______       _______       _______    |
+                         |  |___1___|     |___2___|     |___3___|   |
+                         |__________________________________________|
+
+     To do get this trick to work, you need two $1.00 bills.  Slide the first
+dollar into slot 1, 2 or 3 (being the slot which the tickets would come out
+of for tickets X, Y and Z respectively)...  For example, if you wanted ticket
+X, you'd place your first dollar in slot 1.  Next, put your other dollar in
+slot A.  This should cause tickets to come spewing out of the slot in which
+you placed your first dollar (at least until the dollar falls out, or the
+machine jams, etc)...
+     If you were to do it, I wouldn't recommend doing it too often, mainly
+because it looks slightly suspicious if you're always at the Lotto Machine.
+Also, these machines are usually placed in positions which are wide open, and
+easily seen by people with status (i.e. don't fuck around)...
+     I hope this file somewhat enlightened you to the faults of a fairly
+popular machine, but I recommend not trying it as it's probably considered
+fraud in most parts of the country.  :)
+
+                           Free the Information, Spread the Knowledge.
+
+Crax/uuDW
+
+--- Trashing Techniques
+
+     So you want to go trashing eh?  Well, it's easy, fun and highly
+productive; if you follow a few simple tips.  I've been trashing around my
+city for years, and could go on and on about the fun times, and close calls
+I've had.  Trashing, is simply glorified trash picking.  If the thought of
+this makes you queasy, you might as well stop reading, as this is no use for
+you.
+     The first thing to do is decide what your target will be.  A local phone
+company office, university or corporation is a good one.  These are good if
+you are looking for Internet dialups, passwords, account info, or anything
+else that would be on computer printouts.  You will be amazed at the amount of
+valuable information just carelessly tossed away.  If you're looking for
+hardware, a renovating company will sometimes throw out valuable, though
+slightly outdated computer peripherals.  I've seen hard drives in garbage bags
+just asking to be brought home.  Don't forget those drives once had
+information on them too.  Once you've gotten that out if the way, the plans
+begin.
+     A reliable source of transportation is essential.  I think a pickup truck
+is the best way to go.  Both people and your loot will fit in the bed.  Not to
+mention a quick getaway is easier if you don't have to jump behind seats and
+over your friends.  If you don't have access to a truck, just make sure you
+won't be using a little compact import.  You will have a little trouble,
+believe me.
+     Scope out your target dumpster.  Look for anything that will hinder your
+access such as locks, cameras, security guards, traffic, etc.  And be
+prepared for the quickest way in.  Look for your route to and from the area,
+and notice the visibility you will have from the actual spot of your
+surroundings.  This will be benificial for a safe lookout.
+     A lock and chain will be easily defeated with a small crowbar.  If you
+are good with a set of picks, then try that.  I just think it takes up
+valuable rummaging time.  Cameras are a little tricky, and I tend to avoid
+them.  If you are bold enough, wear dark clothing, and stay out of the direct
+view of the lens.  Don't try to disable the camera of tamper with it in any
+way.  If there is someone watching, this is the easiest way to bring attention
+to the monitor with your face all over it.
+     Security guards are easy.  Most of them do rounds the same way, at the
+same time each night.  Just watch their habits for three nights in a row, and
+plan accordingly.  Remember, they can't wait to go back and sit in the office
+with coffee and doughnuts.  Traffic isn't a big deal, unless your dumpster of
+choice is in plain view of a highway, or a busy road.  If it is, be prepared
+to have a visit from the local authorities.  (Tipped by a concerened citizen).
+Have a story ready.
+     Now, once you've planned for every scenario, it's time to head out.  You
+will need to have a person in the dumpster to pass out bags, a person to bring
+the bags to the vehicle, a driver, and a person to start searching through
+your loot.  The last person is optional, as it is advisible to take the bags
+to a safe location to be searched.
+     When leaving the area, don't drive with your headlights off.  This is a
+sure-fire way to bring attention to yourself.  Just simply drive away.  With
+these techniques, you will have many safe, and productive trips to a dumpster
+near you.  I in no way accept responsibility for the actions of others who may
+read this.  And in typing this article, my soul intent is to spread public
+knowledge.
+
+ThundR/uuDW
+
+--- Blockbuster Video Game Scam
+
+     This scam is fairly easy and can be very profitable.  First of all you
+will need anywhere from $5 to $20 dollars, and a Blockbuster Video store.
+     Blockbuster Video is always selling previously played SNES, Sega Genesis
+and Sega CD games for low prices, between $5 and $20 dollars.  The boxes are
+already shrink wrapped and the game is not in the box it's handed to you
+seperately (which comes in handy later on).
+     All you do is go to Blockbuster Video, buy a game (I prefer to buy Sega
+CD games for the simple reason that they are more expensive when bought new).
+Next CAREFULLY take off any stickers attached to the wrap (to get the sticky
+shit off that is left behind just use nail polish remover).
+     Then all you do is go to your friendly neighborhood Kmart, Walmart, or 
+any such store (I don't recommend Target).  Take the game to the electronics
+department, not the return desk (this helps the process move quicker)
+approach the young pimple faced counter boy with the game in a bag.  When he
+asks:  "May I help you?"  You wanna say "YES", tell him your mom had bought
+the game a week ago for your birthday and that you already had it, or some
+shit like that.  Of course if your 30 years old your not going to say that, so
+come up with an excuse.  He might ask you for a receipt, if this happens
+simply say it was a gift and you don't have it.  You are usually allowed 2
+returns without a receipt to each store, after that they will enforce a
+receipt rule, but that's okay just go to another store.  He will take the box,
+put it under the counter and give you the full amount they are selling the
+game for (which is about 3 times what you paid for it, sometimes more).  You
+still have the game itself (which you can keep or sell to a friend or a game
+store).
+     Here are a few ideas you can use when doing this scam.  Of course you can
+do this scam anytime of the year, but I suggest you go crazy after Christmas
+and major holidays, when returns come in every minute.  Also, never just walk
+into the store with the box in your hand (no bag) it does look somewhat
+suspicious.  Another important concept is who should you argue with if
+a refund isn't given, if the young pimple faced faggot doesn't give it to you
+argue with him and ask for the manager.  The manager will most likely give you
+the money very quickly to avoid further complications.  If he doesn't believe
+you, then go to another store (never argue with the manager).  After you run
+the scam a few times you will get good and make alot of money.  If you happen
+to have a friend in the electronics department then you've got it made, just
+cut him off a piece of the action and your rich...  :)
+
+Lord Xeen (WarToy)
+
+--- How the Numbering on CC's Works And How People Change Them.
+
+<Some information taken from Phrack Magazine - Stumble>
+
+Credit card Format:  TBBB-LLLL-XXXX-XXXC
+
+T = Type
+B = Branch of bank
+L = Limit/experation date
+X = Identification purpose
+C = Checksum
+
+Type of cards...  (The letter T in the Example):
+
+3 = American Express Card
+4 = VISA Card
+5 = MasterCard
+6 = Discover Card
+
+Branch codes, different for each type of card:
+
+VISA
+
+BBB     Bank
+---     ---------------------------
+019     Bank of America
+024     Bank of America
+052     First Cincinatti
+060     Navy Federal Credit Union
+128     Citibank
+131     State Street Bank
+215     Marine Midland
+225     Chase Manhattan
+231     Chase Lincoln First Classic
+232     Chase Lincoln First Classic
+241     Nat. Westminester Bank
+250     First Chicago Bank
+271     Citibank Preferred
+302     H.H.B.C.
+310     Imperial Savings
+317     Gold Dome
+387     Bank One
+428     Bank of Hoven
+811     Bank of Hawaii
+897     Village bank of Cincinatti
+
+MasterCard
+
+BBB     Bank
+---     ---------------------------
+215     Marine Midland
+217     Manufacturers Hanover Trust
+233     Huntington Bank
+242     Chevy Chase Federal Savings
+254     Bank of America
+263     Chemical Bank
+273     Bank of America
+286     Chase Lincoln First
+317     Norwest
+323     Bank of New York
+329     Maryland Bank NA (MBNA)
+410     Citibank Preferred
+411     1st Fin. bank of Omaha
+414     Nat. Westminester Bank
+415     Colonial National Bank
+424     Citibank
+465     Chase Manhattan
+678     Marine Midland
+
+III.  Bank Codes (International Bank or Interlink Numbers):
+
+     These are used in checking credit.  Later on, you will learn that while
+checking the credit cards for the amount of credit, you will be prompted to
+enter the Bank ID along with the Merchant ID.  The bank ID's are, I believe,
+from the following list.  One note -- you cannot just choose any Bank ID and
+use it with any Merchant ID.  They must correspond in some way.  How, I don't
+know.
+     I THINK that a bank issues a merchant number to each of their customers.
+If you try to use a merchant number with a bank number, and the merchant
+doesn't actually use the bank that is specified by the bank number, you are
+going to get some problems.  (i.e. The verification won't go through.)  Again,
+I will state that this is only a theory.  The reason that I post this theory
+is to get minds working.  So far, no one has mentioned their ideas on the
+function of Bank Codes.
+     If you do happen to find out the true meaning of these numbers, please
+get in touch with me so I can update this list.  Thanks!  One word -- on VISA
+credit cards, the Bank ID's are the first 4 digits of the Card.  For
+MasterCards, however, they vary.  A list follows:
+
+Bank                         Bank Code
+---------------------------  ------------
+Chemical Bank                1263
+Marine Midland               6207 (1207?)
+Manufacturers Hanover Trust  1033
+Citibank                     1035
+Huntington                   1226
+First Card Gold              1286
+MBNA                         6017
+Chase Manhatten              1665
+[Bank from 5127]             1015
+
+     The LLLL part, or the second group on a credit card in from the left,
+contains some VERY useful information about the card.  This group holds the
+information on the Maximum Expiration Date and the Maximum Credit Limit.  (I
+believe that you can all see the benefits of this.)  This does not mean,
+however, that the ACTUAL expiration date and ACTUAL credit limit are in this
+group.  What it means is this:  When the different Credit Card Companies issue
+Credit Cards to the consumer, he of course has a credit limit.  And when the
+Companies formulate credit cards, they create certain groups for certain
+customers.  That is, certain "groups" contain all the credit cards for people
+with a credit limit between $X and $Y.
+     The same thing goes with the expiration dates.  Everyone whose card
+expires after M1/Y1 and before M2/Y2 has their credit card in a certain group
+formulated by the company.  For example:  My name is Joe Schmoe.  My VISA
+credit card expires in January of the year 1999.  My credit limit on this card
+is $7,000.  My credit card number (CCN) will probably be in the same group as
+my brother-in-law Jack Koff whose card expires in December of 1998 and whose
+credit limit is $6,000.  BUT, our cards will be in different groups entirely
+than my boss' whose card expires in June of 1995 and whose credit limit is
+$40,000.
+     Back to the point of section IV:  Lets say you have a credit card with a
+known expiration date and known credit limit.  Lets also say that you happen
+upon ANOTHER credit card whose numbers are the same up until the last 2
+groups.  (You and I see that these two cards were issued by the same bank and
+PROBABLY have a credit limit in the same ball park and an expiration date not
+far from each other.)  BUT, even though you have this new credit card, you
+lost the expiration date and credit limit.  GOSH!  How are you going to use
+this card when you don't know this information?!  APROXIMATE!  You have a
+general idea now, and you can go from there.
+     One warning here:  I have found that small groups of cards with high
+credit limits are often hidden in between large groups of cards with very low
+credit limits.  For instance, lets look at this card:  4123 4567 8901 2345.
+From -4567 until 4600 in group 3 (from the right) gold cards may exist.  But
+after 4600 and before 4567, cards with credit limits of $500 exist.  Kind of
+sucks, huh?!  Just wanted to make you aware of this.
+     Now, once you learn how to modify these without hurting the card, you
+have increased your value as a carder by 100x.  But be careful.  Often when
+you modify a card's group 3 to get a higher credit limit line of cards, you
+will find the entire line is dead.  Or, in other cases, just the original card
+you find is dead, and all surrounding cards are valid with the new credit
+limits.
+
+V.  "Group 2" & "Group 1"
+
+     These two groups, or the last two groups on the credit card, are the
+easiest to modify.  By changing these in such a way, you can formulate new
+credit cards simply by doing a little math in your head.  These two groups
+contain the IDentification codes.  Later on in your carding ventures, you
+might find out how to change these, and thus, you have found the secret to a
+vault of new and awaiting credit cards.  I stress here that the only purpose
+that these two groups serve is to differentiate between customers.  If the
+first two groups of two cards are the same and the last two groups of two
+cards are different, the two cards were issued by the same bank and probably
+have similar credit limits, but are of course issued to different people.  So
+I'm sure you could play around with those on your own to get new CC numbers.
+
+Now the tricky part is the last digit, the checksum...
+
+     What's the checksum for?  It's to stop people from making up their own
+cards.  But its easy to calculate.  (With instructions):
+
+Credit Card.  XXXX-XXXX-XXXX-XXXC (fill in numbers from above).
+
+     X is a number, and C (the key to the formula) is a check-digit.  Ignore
+the check-digit (we'll create one) fill in the X digits with numbers (zero
+through nine).  Take every odd digit (from right to left) and multiply it by
+two, if the resulting number is greater than or equal to ten subtract nine.
+Do this for all of the odd digits and add the results together.  Next add all
+of the even digits to the total calculated the resulting number find the next
+higher multiple of ten and subtract out the result from it.
+
+Stumble/uuDW
+
+--- The Secret Hydro Closet Garden
+
+     To jump to the instructions I put the credits last.  We want to make a
+small garden without Ma or the 5-0 finding out, eh?  Well, go to the local
+hardware store and get the following things...
+
+Two 5 gallon buckets (the kind that sheetrock shit comes in).
+A small pouch of seeds (hemp of course).
+Two good size bags of fertilized top soil, cow manure, etc...
+One florescent grow light (or the iced white type).
+A hand-held blow torch (you should be able to find one in Radio Shack).
+2 cartridges of CO2 (used for pellet guns).
+A length of rubber tubing (it must fit the head of the torch).
+
+* Wash the hands before ALL of this!
+
+     Okay, place the first bucket on top of the other, hinge them anyway you
+find necessary, that will be your lid, or top half.  At this point you should
+have two buckets, one on top of another.  Now cut a "V" shape directly in the
+back the top 5 gallon bucket, this "V" shape should be half the length of the
+bucket, this will be used for direct lighting.  Fill the lower bucket
+with the top soil.
+     Mount one end of the tubing to the head of the torch; mount the torch on 
+the ouside of the top bucket, the torch will not be used as a torch in this
+project, it will be used as a virtual breathing apparatus for the Cannabis, by
+replacing the butane capsules with CO2 cartidges.  Drill a hole in the top
+bucket on the side approximately the same size if not a little smaller than
+the rubber tubing.  It should be close to the area where you've already
+mounted the butane torch.  Drive the hose thruogh the hole and let the hose
+dangle within the bucket so that it would be pointing at the Cannabis
+plant(s).
+     Mount the florescent light to the inside closet wall towards the back
+then face the "V" shaped hole towards the light so the budz will BUD.  When
+planting the seeds be sure to make sure they are already to BUD (germinate),
+in order to make happen get a clean Burger King ashtray fill it with water,
+then leave some seeds in there until they've started.  Then you pick them up
+carefully and gently poke them into the top soil so that they are buried about
+one inch deep.  Every tenth day turn the light out and cover the "V" shaped
+hole and turn the torch with the C02 cartridges to very low, do this until
+both CO2 cartridges are empty, then uncover the "V" shaped hole to release CO2
+gas.  After which you simply turn the light back on and start all over
+again until that fat green bud starts growin.
+     When that CO2 gas hits the hemp, it doubles the hit, becomes greener and
+tastier too!  More to come later...  %)
+
+O.D.
+
+!!!
+
+--- Microsoft Windows '95
+
+     The Microsoft Windows 3.x operating system is not really an operating
+system at all, even though it is referred to as one.  It is a graphical cover-
+up of DOS, with some environment-specific functions to it.  Users who did not
+want to learn how to use DOS could take the easy way out and use Windows.
+Windows '95 will change this entirely; there is no DOS beneath the Windows,
+making it a true operating system.
+     This is a good move for Microsoft, since they will be able to make things
+that much easier for computer users, especially in the domain of inexperienced
+users.  By eliminating DOS altogether, Windows '95 effectively turns the PC
+platform into a Macintosh look-alike platform.  It is a bad move, however, for
+the future of the PC scene as a whole.  People were once forced to learn how
+to use DOS, which in turn led them to learn more about the system they were
+working on, and understand how it worked.  Knowledge was always a key asset in
+the world of computers.  Win95 will change all that by allowing people who
+know little or nothing about their computer to access the Internet, take
+advantage of "plug and play" capabilities, and do so without knowing exactly
+what is happening since Win95 hides it from them.
+     Win95 is destined to boost PC sales.  That's how Microsoft planned it.
+From these sales, Microsoft will benefit nicely.  Money corrupts everyone.  By
+releasing Win95, Microsoft will open up the ultimate demise of America;
+traditionally, Americans are lazy, and this will just extend an open hand to
+those who want to get more from doing less.  Advances in the personal computer
+industry did not come by accident; people had to struggle to create software
+and the systems that run it.
+     Piracy will slow Microsoft's profitability on the new Win95 OS.  I
+remember seeing pirated copies of "Chicago" on the Internet as early as May
+1994, and that was probably not even the start of it.  Even now, pirates are
+rushing out to get the newest beta builds of Win95.  It is 20 disks long, if
+not more, and that means a 5 hour download at 14400 bps.  In other words, some
+of these pirates are just damn crazy.
+     Then again, pirated copies of IBM's OS/2 Warp operating system also were
+abundant on the net, and it could be said that piracy is free publicity.
+People are able to test a program before buying it (if they are honest), and
+if the program is good enough, they might buy it to avoid getting a virus or
+trojan in their pirated copy.  Another reason people might buy their own copy
+is if the "crack" for the program is faulty, the program might not function
+correctly.  In any event, IBM's OS/2 Warp has become a popular operating
+system, but what would it be like if it hadn't circulated the Internet?
+     I've heard stories of confused computer owners asking where the "Any"
+key is on their keyboard (when prompted to "Press any key").  Another confused
+computer owner called a hotline to report that her computer's footpedal didn't
+work.  She later discovered that she was supposed to place her hand over this
+small white gadget, and that it was a pointing device, not a footpedal (better
+known as a mouse).  Another individual had recently purchased a system with a
+fax-modem, and had tried for hours to hold pages up to his monitor and press
+buttons, but couldn't send faxes.  He later learned about fax software.  These
+are the kinds of things that any 12-year-old computer geek would already know.
+     When the Win95 operating system becomes available to the public, there
+will be a new and growing population of computer users.  According to Wired
+Magazine, Microsoft is anticipating 30,000 customer-service calls daily after
+the release of Win95.  I don't want to be the one answering the technical
+support phones.  I don't want to be the one showing someone how to turn their
+computer on.  I don't want to overhear someone saying, "I just bought a
+Pentium system with 16 megabytes of RAM, a 28800 bps fax-modem, a laser
+printer, and a 1 gig hard drive.  Now, what do I do with it?"
+     Misinformation is the cause of stupidity in the world.  If people would
+be open to learning instead of simply taking the easy way, this world might
+actually get somewhere.
+
+GraveDigger/uuDW
+
+--- My feelings on Nazi's
+
+     Nazi's suck...  The other day I was watching MTV, some stupid fucking
+video came on and it had tons of little Nazi symbols, and pictures of Adolf
+Hitler.  I watched it for a few minutes and couldn't understand why they
+worship a man with no sense of fashion!  Now if Hitler had a gotee I could see
+him getting some respect, but no...  He's got a little stupid miniture "I am
+not manly enough to grow a real mustache" mustache...  Jeeze...
+     Those damn swastika's...  They have them on everything...  I bet the real
+X-treme even tattoo the symbol on their ass so that when the ass pirates come
+to fuck 'em they know that it's a virgin piece of ass.
+     Now I can understand why Nazi's hate fags, I am slightly homophobic
+myself.  But I only get that way when guys try to come onto me...  And I
+figure if he gets off on fucking a dude up the ass that just means more pussy
+for me...
+     Now onto the subject of Jews...  Jews kick ass!  Look at those neat
+things that they do with their hair.  Those fat ass curls...  God those are
+fresh!  Also who cares if Jews killed Christ or whatever the fuck they are
+blamed for...  He would've died eventually...  I'm a slightly religious
+person, but I don't think that we should punish a whole group of people for a
+mistake a few stupid fucks made.
+     Another bonus about Jews is that they are usually pretty honest.  They
+don't go around stealing shit, they start a jewlry store and rob us blind when
+we are getting married.  (Ex. When was the last time you were mugged by some
+Jewish guy with his neato hat on?  Never right?  My point exactly.)
+     Now...  Hmm...  There are MANY more things I could go into...  I could
+bash a few groups for sporting the "swastica" in there logos...  But I don't
+feel the need at this moment...  Peace out...  Gotta love them Jews!  :)
+
+                   ^
+                  / \
+                 /   \
+        ________/_____\________
+        \      /       \      /
+         \    /         \    /
+          \  /     /     \  /
+           \/      \/\    \/
+           /\     \/\     /\
+          /  \      /    /  \
+         /    \         /    \
+        /______\_______/______\
+                \     /
+                 \   /
+                  \ /
+                   V
+
+     Lets all get along...  Flames welcome!  (End Note:  I just write articles
+about shit, I dont agree with what I say if you got a prob with me, then like
+bite me.  I'm just a bored writer that sez stupid shit when he's high)
+
+Stumble/uuDW
+
+!!!
+
+--- Submission Guidelines
+
+Text articles intended for publishing in RaGE should follow these guidelines:
+
+ 1.  Indent all paragraphs by 5 spaces.
+ 2.  Do not exceed 80 columns.
+ 3.  Do not leave blank lines between paragraphs.
+ 4.  Leave one space after a comma, two spaces after a period.
+ 5.  When including multiple periods, use three in a group...  (like that!)
+ 6.  Reprinted articles from magazines or newspapers should include your
+        reaction, and not just be by itself.
+ 7.  Try to avoid words like "eleet", "k-rad" and FuNKy CaPS TyPiNG.  We are
+        trying to be informative here, not pseudo-elite.
+ 8.  Give your article a title at the top, and sign with your handle at the
+        bottom of your article.
+ 9.  Do not submit fictitious or false information.
+10.  Spell-check your article before submission.
+11.  Do not submit something that has already been printed.
+12.  Do not submit scan lists older than 2 months old.
+13.  Do not include source code that will not compile.
+14.  All submissions become sole property of RaGE Magazine, and the uuDW.
+        These submissions can not be reprinted without written consent of the
+        editor of RaGE.  Reprinted text and articles are an exception.
+
+     These guidelines are meant for you to help us by properly preparing your
+submission before sending it to us.  It saves us a lot of time in editing,
+proofreading, and it keeps us happy.
+
+                                                              ,
+        .úù-ÄÄÄ[]Ä uuDW Role Call as of 03/12/95 Ä[]ÄÄÄÄÄ--Äùø
+      .ø
+ ÚÄùú. .úùÄÂÄ-Äùú.  .úù-ÄÄÂÄ-Äùú.     .úù-ÄÄÂÄÄÄ--Äùú.               .úù--ÄÄÄÄ¿
+ ³ Section ³ Title        ³ Handle          ³ Internet Mail Address           ³
+ ÃÄùú. .úùÄÅÄ-Äùú.  .úù-ÄÄÅÄ-Äùú.     .úù-ÄÄÅÄÄÄ--Äùú.               .úù--ÄÄÄÄ´
+ ³ Coordi- ³ USA Coord    ³ GraveDigger     ³ uudw@cyberspace.org             ³
+ ³  nators ³ Canada Coord ³ Downtown        ³                                 ³
+ ÃÄùú. .úùÄÅÄ-Äùú.  .úù-ÄÄÅÄ-Äùú.     .úù-ÄÄÅÄÄÄ--Äùú.               .úù--ÄÄÄÄ´
+ ³ Senior  ³ Asst. Coord  ³ Grendel         ³ vasouthw@mailbox.syr.edu        ³
+ ³ Staff   ³ Asst. Coord  ³ NiGhTmArE       ³ an150035@anon.penet.fi          ³
+ ³         ³ NetCoord/PR  ³ Sandman         ³ sandman@bbs.scsd.k12.ny.us      ³
+ ÃÄùú. .úùÄÅÄ-Äùú.  .úù-ÄÄÅÄ-Äùú.     .úù-ÄÄÅÄÄÄ--Äùú.               .úù--ÄÄÄÄ´
+ ³ Members ³              ³ Rhythm Greene   ³                                 ³
+ ³         ³              ³ PSYC0SiS        ³                                 ³
+ ³         ³              ³ Howler          ³ an158401@anon.penet.fi          ³
+ ³         ³              ³ NeuromanceR     ³ caoimhin@fpg.gcomm.com          ³
+ ³         ³              ³ Mr. Orange      ³                                 ³
+ ³         ³              ³ sTumble         ³                                 ³
+ ³         ³              ³ Crax            ³ crax@freeside.scsd.k12.ny.us    ³
+ ³         ³              ³ Bluesman        ³                                 ³
+ ³         ³              ³ Thunder         ³                                 ³
+ ÀÄùú   úùÄÁÄ-Äùú    úù-ÄÄÁÄ-Äùú       úù-ÄÄÁÄÄÄ--Äùú                 úù--ÄÄÄÄÙ
+                                                              ,
+        .úù-ÄÄÄ[]Ä uuDW Affiliate Boards Ä[]ÄÄÄÄÄÄÄÄÄÄÄÄÄ--Äùø
+      .ø
+ ÚÄÄ--Äùú.   .úù--ÄÄÄÂ--ùú. .úù-ÄÂÄ-Äùú.  .úù-ÄÄÂ-ùú úùÄÂ-ùú úùÄÂ--ùú.   .úù-Ä¿
+ ³ Board             ³ Sysop     ³ Number       ³ Bps   ³ HD    ³ uuDW/neT    ³
+ ÃÄÄ--Äùú.   .úù--ÄÄÄÅ--ùú. .úù-ÄÅÄ--ùú.  .úù-ÄÄÅ-ùú úùÄÅ-ùú úùÄÅ--ùú.   .úù-Ä´
+ ³ EtERNiTY          ³ NiGhTmArE ³ 3i5.DoWN.NoW ³ 144oo ³ 1 GiG ³ 242:1/1     ³
+ ³ þ uuDW World HQ þ ³    ^^     ³      ^^      ³  ^^   ³  ^^   ³    ^^       ³
+ ³ þ NorthEast HQ  þ ³    ^^     ³      ^^      ³  ^^   ³  ^^   ³    ^^       ³
+ ³ Ut0PiA            ³ PSYC0SiS  ³ 3i5.656.5i35 ³ 288oo ³ 1 GiG ³ 242:1/2     ³
+ ³ þ Home of RaGE! þ ³    ^^     ³      ^^      ³  ^^   ³  ^^   ³    ^^       ³
+ ³ Independent Nation³ Crax      ³ 3i5.656.4i79 ³ 144oo ³ 7ooMB ³             ³
+ ³ World of Filth    ³ Lord Xeen ³ CoM.iNG.SooN ³       ³ 3.5GiG³             ³
+ ÃÄÄ--Äùú.   .úù--ÄÄÄÅ--ùú. .úù-ÄÅÄ--ùú.  .úù-ÄÄÅ-ùú úùÄÅ-ùú úùÄÅ--ùú.   .úù-Ä´
+ ³ ragNARok          ³ Poet-X    ³ 6i9.443.SCaN ³ 144oo ³ 1 GiG ³ 242:666/1   ³
+ ³   [NODE 2] ringdn ³    ^^     ³ 6i9.TRy.SCaN ³ 288oo ³  ^^   ³    ^^       ³
+ ³ þ West Coast HQ þ ³    ^^     ³      ^^      ³  ^^   ³  ^^   ³    ^^       ³
+ ³ tHE RiVER StYX    ³ Dark Soul ³ 4o8.239.o783 ³ 288oo ³ 1 GiG ³ 242:666/2   ³
+ ÀÄÄÄ--Äùú   úù--ÄÄÄÄÁÄ--ùú úù-ÄÄÁÄ--Äùú  úù--ÄÄÁÄùú úùÄÁ-ùú úùÄÁÄ--ùú   úù-ÄÄÙ
+ 
+   If your BBS is missing from this list, you have to get in contact with
+   one of the senior staff members or coordinators.  Your board has most
+   likely been removed because we have not heard from you in a while.
+
+                                                              ,
+        .úù-ÄÄÄ[]Ä uuDW Contact Info Ä[]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ--Äùø
+      .ø
+
+   Send eMail to uudw@cyberspace.org
+
+   Find our RaGE magazine on these anonymous FTP archives:
+
+   ftp.fc.net    /pub/defcon/RAGE
+   paranoia.com  /pub/zines/rage
+   ftp.rahul.net /pub/lps/comp_cult
+
+   WWW page is in the works.  Watch for it soon.    
+                                                              ,
+        .úù-ÄÄÄ[]Ä End Ä[]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ--Äùø
+      .ø
+

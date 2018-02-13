@@ -1,0 +1,430 @@
+Date: Fri, 29 Jan 93 12:00:11 PST
+Reply-To: <surfpunk@osc.versant.com>
+Return-Path: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0039@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: surfpunk@osc.versant.com (abg zhpu bs n pelcgbtencure)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0039] INBOX: Hypercard query; Encryption of email
+Keywords: surfpunk, hypercard, public key cryptosystems
+
+                 |  Bpt 4, purify_stop_here ()
+                 |  (gdb) where
+                 |  #0  purify_stop_here ()
+                 |  Captain!  We can't jump back into normal space.
+                 |  What's our position, Sulu?
+                 |  Looks like we're somewhere in the pc_adjust-8 sector, Sir.
+                 |  My instruments show no fp shift.  
+                 |  We are still at 0x00000000.
+                 |  Spock, what do you make of this?
+                 |  Sorry, Jim.  Sir.  I'm meditating.
+                 |  Captain, there are 8 Romulan ships straight ahead!
+                 |  Scotty, take us out of here!  Emergency warp to top level.
+                 |  Ok, but we have an #1  PC 0x8 ()
+                 |  #2  VShell3::source_input(_iobuf*,_iobuf*,const char*) 
+                 |                                 (...) (...)  (0x1fa3c)
+                 |  #3  main (__0argc=1, __0argv=(char **) 0xf7fff6d4) 
+                 |                                 (vsh3main.cxx:207)
+                 |  (gdb)
+                 |_____________________________________________________
+
+
+SURFPUNK Viewer Mail:  
+
+One hypercard query, mailed directly to surfpunk.
+
+The rest of these arise on the FutureCulture list, to which someone
+forwarded "surfpunk-0036", the Scientific American posting.
+( I forwarded it to the cypherpunks list; someone else must have
+sent it to FutureCulture. )  These devolve rapidly ... if you're up
+on Public Key Cryptosystems, you don't stand to learn much here. 
+Discussion about how encrypted messages fit into the internet
+culture interest me, though.   
+
+OBTW, here's blurbage from the new "welcome to surfpunk" message:
+
+     SURFPUNK is currently neither reflected nor digested, but
+     rather curated.  This may change in the future.
+     Contributions are welcome and appreciated, but my not
+     always be forwarded on the same day as received.  Postings
+     that seem to be text flows (rather than pieces of ascii
+     mailart) are subject to minor cleanup (such as reformatting
+     huge lines), unless requested otherwise.
+
+                                                              --strick
+________________________________________________________________________
+________________________________________________________________________
+
+From: Sean Michael Carton <elrod@wam.umd.edu>
+Subject: Re:  [surfpunk-0038] MANIFESTITO: ... also, Incoming New Age 
+        Staff Steps Into a Time Warp
+Date: Thu, 28 Jan 1993 18:31:41 -0500
+Message-Id: <199301282331.AA07701@rac1.wam.umd.edu>
+To: surfpunk@osc.versant.com
+
+Anybody want to work on HyperCard ?
+
+Sean
+
+[ 
+  I'm very interested in building a macintosh client for surfpunk
+  hypermedia.  I'm not sure HyperCard is powerful enough to maintain
+  interaction on a network connection.   HyperCard should suffice,
+  however, for "rendering" files ... perhaps a MIME viewer in HyperCard? 
+
+  (I started toying with the THINK Class Library 5.0 but spent several
+  days over christmas trying to chase down a bug that wasn't there.  It
+  turned out that "int is 4 bytes" doesn't work, at least not in my
+  version of THINK Class Library.)
+
+  By the way, I meant the language TCL ("tickle") by John Ousterhout 
+  <ouster@sprite.berkeley.edu> when I mentioned TK/TCL.   Ftp TK and
+  TCL from sprite.berkely.edu.  Look for a "tcl" directory.  Also
+  see comp.lang.tcl on usenet for a FAQ.
+
+  I've got a lot to learn still about Macintosh.  And then [barf] PC.
+  I'll certainly be looking for help, but not quite yet.
+
+                -- strick
+]
+
+________________________________________________________________________
+________________________________________________________________________
+
+
+From: sml@mfltd.co.uk (Shaun Lowry)
+Date: Thu, 28 Jan 93 11:23:39 GMT
+Subject: Re: [surfpunk-0036] CRYPT: Sci Am on Public Key Cryptosystems
+
+>From: surfpunk@osc.versant.com (gubhtug gb ribxr fpvrapr svpgvba engure guna fp
+vrapr)
+
+% echo 'gubhtug gb ribxr fpvrapr svpgvba engure guna fpvrapr' | \
+tr '[A-Z][a-z]' '[N-Z][A-M][n-z][a-m]'
+thought to evoke science fiction rather than science
+
+Didn't take much of a cryptographer to spot that one :-)
+
+>  The philosophies of PEM and PGP differ most visibly with respect to
+>key management, the crucial task of ensuring that the public keys that
+>encode messages actually belong to the intended recipient rather than a
+>malevolent third party.  PEM relies on a rigid hierarchy of trusted
+>companies, universities and other institutions to certify public keys,
+>which are then stored on a "key server" accessible over the Internet.
+
+So, anyone intercepting mail to a certain person can, if the message is
+encrypted, request that person's key from the server, and decrypt it
+themselves?  Great.  You've convinced me to use it.  NOT.
+
+>To send private mail, one asks the key server for the public key of the
+>addressee, which has been signed by the appropriate certification
+>authorities.  PGP, in contrast, operates on what Zimmermann calls "a
+>web of trust":  people who wish to correspond privately can exchange
+>keys directly or through trusted intermediaries.  The intermediaries
+>sign the keys that they pass on, thus certifying their authenticity.
+
+Seriously, the only way to send secure mail with this sort of
+encryption is to exchange keys with the person you're corresponding
+with in a secure way, i.e.  meet them in the flesh.
+
+[stands on soapbox]
+Sending encrypted mail isn't something we should have to do.  It's not the
+Internet's "scene".  The Internet, as I see it, is based purely on trust and
+co-operation, and that's a *BIG* win for me.  I like a society where there
+aren't any police, and order is maintained by the populace.  You could argue
+that we're being constantly watched/opressed by every sysadmin on the 'net,
+but how many of them have ever *interfered* with the way the 'net operates?
+Not many.  Consider also that most sysadmins on the 'net are also
+net.citizens.
+[gets off and wanders back into the crowd]
+
+>  Although PGP's purchase price is right -- it is freely available over
+>the Internet and on electronic bulletin boards throughout the world --
+>it does carry two liabilities that could frighten away potential
+>users.  First, U.S. law defines cryptographic hardware and software as
+>"munitions." So anyone who is caught making a copy of the program could
+>run afoul of export-control laws.  Miller calls this situation
+>"absurd," citing the availability of high-quality cryptographic
+>software on the streets of Moscow.
+
+Absolutely fucking wonderful.  I believe also that classing them as
+"munitions" gives the govt powers to seize said software, which in all
+likelihood means the machines on which the software runs.  You want the CIA
+wandering through your filestore anytime they like?  This sounds like a
+perfect excuse.
+
+>  Worse yet, RSA Data Security in Redwood City, Calif., holds rights to
+>a U.S. patent on the public-key encryption algorithm, and D. James
+>Bidzos, the company's president, asserts that anyone using or
+>distributing PGP could be sued for infringement.  The company has
+>licensed public-key software to corporations and sells its own
+>encrypted-mail package (the algorithm was developed with federal
+>support, and so the government has a royalty-free license).  When
+>Bidzos's attorneys warned Zimmermann that he faced a suit for
+>developing PGP, he gave up further work on the program.
+
+This just gets better and better.
+
+>  Instead PGP's ongoing improvements are in the hands of an
+>international team of software developers who take advice from
+>Zimmermann by e-mail.  The U.S. is the only nation that permits the
+>patenting of mathematical algorithms, and so programmers in the
+>Netherlands or New Zealand apparently have little to fear.
+>
+>  U.S. residents who import the program could still face legal action,
+>although repeated warnings broadcast in cryptography discussion groups
+>on computer networks have yet to be superseded by legal filings.
+>Meanwhile, Gilmore says, the only substantive effect of the patent
+>threat is that development and use of cryptographic tools have been
+>driven out of the U.S. into less restrictive countries
+
+This is just too depressing for words.  When will these people lighten up?!?
+
+        Shaun.
+
+--
+/s(Shaun Lowry)def/g{.7 setgray}def/c{10 0 -1 arc fill}def 300 600 100 0 360 arc
+stroke 300 600 50 180 0 arc stroke g 300 600 c stroke 1 2 scale 270 325 c stroke
+330 325 c stroke grestore 125 450 moveto/Helvetica findfont 60 scalefont setfont
+gsave 0.03 .09 rmoveto g [ 1 0 2 -1 0 0 ] concat s show grestore s show showpage
+
+________________________________________________________________________
+
+
+Date: Thu, 28 Jan 93 14:38:38 PST
+From: Don Eliason <eliason@merlin.llnl.gov>
+Subject: Re: Sci Am on Public Key Cryptosystems
+
+> >From: surfpunk@osc.versant.com (gubhtug gb ribxr fpvrapr svpgvba engure guna
+fpvrapr)
+>
+> % echo 'gubhtug gb ribxr fpvrapr svpgvba engure guna fpvrapr' | \
+> tr '[A-Z][a-z]' '[N-Z][A-M][n-z][a-m]'
+> thought to evoke science fiction rather than science
+>
+> Didn't take much of a cryptographer to spot that one :-)
+>
+
+Doesn't work for me.
+
+eliason@merlin.llnl.gov
+
+
+________________________________________________________________________
+
+
+
+From: "John Coryell." <jcoryell%nwu.edu@UICVM.UIC.EDU>
+Date: Thu, 28 Jan 93 12:11:50 CST
+Subject: Re: [surfpunk-0036] CRYPT: Sci Am on Public Key Cryptosystems
+
+>Seriously, the only way to send secure mail with this sort of
+>encryption is to exchange keys with the person you're corresponding
+>with in a secure way, i.e.  meet them in the flesh.
+>
+>[stands on soapbox]
+>Sending encrypted mail isn't something we should have to do.  It's not the
+>Internet's "scene".  The Internet, as I see it, is based purely on trust and
+>co-operation, and that's a *BIG* win for me.  I like a society where there
+>aren't any police, and order is maintained by the populace.  You could argue
+>that we're being constantly watched/opressed by every sysadmin on the 'net,
+>but how many of them have ever *interfered* with the way the 'net operates?
+>Not many.  Consider also that most sysadmins on the 'net are also
+>net.citizens.
+>[gets off and wanders back into the crowd]
+>
+I agree in principle with just about everything, but having encryption
+devices are useful on some occasions when engaging in activity that,
+though not necessarily illegal, could very definitely be used against
+you, particularly for blackmail.  No, I've never had problems with
+the sysadmins (not in terms of email, but that's another story); they're
+not the ones I'm worrying about.  Yes, I'm paranoid.  I like to think
+it's worked to my advantage thus far.
+
+Caveat: I'm also so paranoid that the only way I'd provide my key is
+face to face, person to person, and I'm also going to try to have a
+different key for each separate individual's account (not just person)
+that I would send encryption to.
+
+But it would be delightful to keep things as much on the up and up;
+the rest of the deleted message is a tribute to why that may not be
+possible, sadly.
+
+John Coryell.
+
+________________________________________________________________________
+
+Date:  Thu, 28 Jan 93 16:34:20 PDT
+From: <tomg@image.com>
+Subject:  Re: [surfpunk-0036] CRYPT: Sci Am on Public Key Cryptosyste
+
+> >  The philosophies of PEM and PGP differ most visibly with respect to
+> >key management, the crucial task of ensuring that the public keys that
+> >encode messages actually belong to the intended recipient rather than a
+> >malevolent third party.  PEM relies on a rigid hierarchy of trusted
+> >companies, universities and other institutions to certify public keys,
+> >which are then stored on a "key server" accessible over the Internet.
+>
+> So, anyone intercepting mail to a certain person can, if the message is
+> encrypted, request that person's key from the server, and decrypt it
+> themselves?  Great.  You've convinced me to use it.  NOT.
+
+No, getting somebody's public key from the server wouldn't allow you
+to decrypt messages sent to them.  You need the private key to do
+that.
+
+The actual danger referred to is that I could make you think MY
+public key was the key of, say, Pres. Clinton.  You'd write a
+message to Clinton using my key, and I'd intercept it and decrypt it
+(since I know my own corresponding private key).  When the message
+arrived at the White House, Clinton wouldn't be able to decrypt it,
+but by then the damage would presumably be done.
+
+________________________________________________________________________
+
+
+Date: Thu, 28 Jan 93 19:08:59 -0800
+From: Brian Willoughby <sounds!brianw@nwnexus.wa.com>
+Subject: Re: Sci Am on Public Key Cryptosystems
+
+|  > >From: surfpunk@osc.versant.com (gubhtug gb ribxr fpvrapr svpgvba
+engure guna fpvrapr)
+|  >
+
+|  > % echo 'gubhtug gb ribxr fpvrapr svpgvba engure guna fpvrapr' | \
+|  > tr '[A-Z][a-z]' '[N-Z][A-M][n-z][a-m]'
+|  > thought to evoke science fiction rather than science
+|  >
+
+|  > Didn't take much of a cryptographer to spot that one :-)
+|
+
+|  Doesn't work for me.
+
+On my system, BSD 4.3 Unix, I was able to modify the command line to work
+after reading the man page for tr.  Try:
+
+% echo 'gubhtug gb ribxr fpvrapr svpgvba engure guna fpvrapr' | \
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+YMMV
+Brian Willoughby        Software Design Engineer, BSEE NCSU
+BrianW@SoundS.WA.com    Sound Consulting: Software Design and Development
+NeXTmail welcome
+
+
+
+________________________________________________________________________
+
+
+From: "Spam@tin.supermarket.tescos" <samuele@cogs.sussex.ac.uk>
+Subject: Re: [surfpunk-0036] CRYPT: Sci Am on Public Key Cryptosystems
+Date: Fri, 29 Jan 1993 14:10:50 +0000 (GMT)
+
+Spam, spam, egg and Shaun Lowry :
+=>
+=>>  The philosophies of PEM and PGP differ most visibly with respect to
+=>>key management, the crucial task of ensuring that the public keys that
+=>>encode messages actually belong to the intended recipient rather than a
+=>>malevolent third party.  PEM relies on a rigid hierarchy of trusted
+=>>companies, universities and other institutions to certify public keys,
+=>>which are then stored on a "key server" accessible over the Internet.
+=>
+=>So, anyone intercepting mail to a certain person can, if the message is
+=>encrypted, request that person's key from the server, and decrypt it
+=>themselves?  Great.  You've convinced me to use it.  NOT.
+
+No no no - the key server gives the PUBLIC key of the person - that is
+only useful for ENCRYPTING the message - to decrypt you need the private
+key, and that only belongs to the person in question and is NEVER distributed.
+
+=>
+=>>To send private mail, one asks the key server for the public key of the
+=>>addressee, which has been signed by the appropriate certification
+=>>authorities.  PGP, in contrast, operates on what Zimmermann calls "a
+=>>web of trust":  people who wish to correspond privately can exchange
+=>>keys directly or through trusted intermediaries.  The intermediaries
+=>>sign the keys that they pass on, thus certifying their authenticity.
+=>
+=>Seriously, the only way to send secure mail with this sort of
+=>encryption is to exchange keys with the person you're corresponding
+=>with in a secure way, i.e.  meet them in the flesh.
+=>
+
+You don't need to with public key encryption, that's the whole point.....
+
+Spam.
+
+
+________________________________________________________________________
+
+
+From: Karl L. Barrus <barrus@tree.egr.uh.edu>
+Date: Fri, 29 Jan 93 08:28:36 -0600
+Subject: crypto, surfpunks
+
+>So, anyone intercepting mail to a certain person can, if the message is
+>encrypted, request that person's key from the server, and decrypt it
+
+No no no.  PEM is based on public key cryptography, where you encrypt
+with a public key and decrypt with a differeny (private) key.  Your
+public key is stored on the server so anyone can encrypt a message to
+you.  However, you keep your private key secret so only you can
+decrypt a message.
+
+>Sending encrypted mail isn't something we should have to do. It's not the
+>Internet's "scene".  The Internet, as I see it, is based purely on trust and
+
+Well, to draw an analogy, do you ever send mail via the post office?
+You do??  Since I'm sure you have nothing to hide, why don't you write
+is on postcards so everyone can easily read it?
+
+/-----------------------------------\
+| Karl L. Barrus                    |
+| barrus@tree.egr.uh.edu (NeXTMail) |
+| elee9sf@menudo.uh.edu             |
+\-----------------------------------/
+
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+SURFPUNK is currently neither reflected nor digested, but rather
+curated.  This may change in the future.  Contributions are welcome and
+appreciated, but my not always be forwarded on the same day as
+received.  Postings that seem to be text flows (rather than pieces of
+ascii mailart) are subject to minor cleanup (such as reformatting huge
+lines), unless requested otherwise.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  
+Xanalogical archive access soon.  There is ABSOLUTELY NO WARRANTY for SURFPUNK.
+________________________________________________________________________
+________________________________________________________________________
+
+
+
+
+
+           % gdb vsh
+                    Energize Programming System 1.0.0
+
+           GDB 3.5+ w/ C++ & ild support -- SAZSS100F, Copyright (C) 1989
+           Free Software Foundation, Inc.  Copyright (C) 1991 Lucid, Inc.
+           There is ABSOLUTELY NO WARRANTY for GDB; type "info warranty"
+           for details.  GDB is free software and you are welcome to
+           distribute copies of it under certain conditions; type "info
+           copying" to see the conditions.  Reading in symbols for
+           /mvp/vogon/strick/WORK/tools/vsh3/vsh3/vsh...done.  Type "help"
+           for a list of commands.
+           (gdb)
+
+
+

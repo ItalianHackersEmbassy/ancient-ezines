@@ -1,0 +1,99 @@
+Author : Regel                                                Date : 11/07/93
+                          ÚÄ
+                          ³ Ú¿  ÚÄÚÄ¿\ÚÄÚÄÚ¿³ÚÄ
+                          À¿³³³³Ã ÃÂÙ³Ã ³¿³³³À¿
+                           ³ÀÙÀÙÀÄ³À ³ÀÄÀÙ³ÀÙÄÙ
+                          ÄÙ
+                                   OF
+                                  ÜÜÜÜ
+                              ÜÜßß    ßßÜÜ
+                            Üß   ÜßßßßÜ   ßÜ
+                           Şİ   Şİ    Şİ   Şİ
+                           Û   Üß      ßÜ   Û
+                           Şİ Şİ        Şİ Şİ
+                            ßÜ ßßßßÛÛßßßß Üß
+                              ßßÜÜ    ÜÜßß
+                                  ßßßß
+
+                Soveriegns Of Bell Issue #1 - The InterBox
+------------------------------------------------------------------------------
+
+         OK. My purpose for writing this file is to shut people up about how
+they are sick of putting a speaker from their SB, etc. up to their fone reciver.
+This box will enable you to detect when the line is ringing, when the called
+party has hung up, will allow you to hear what is on the line when it is both
+on and off hook <allowing for line monitoring>, and applying a signal to the
+fone line. Pretty cool, huh? I thought so.
+         Now, first, I have to clear my ass. If you continue reading, I, nor any
+body else is responsible for you fucking up, getting busted, and embarrasing
+your mother, me, and the entire H/P scene. You are on your own. No one else but
+you is held liable for your dumb ass phucking something up. There. Now, onto
+the box.
+         Instead of giving you some lame instructions, I will show what to do
+in the form of schematics. If you can't figure them out, check out a book on
+them at the good 'ol local library. Here goes...
+                                 2 ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ 5
+<ÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄ´(ÄÄÄÄÄÄÄÄÄÄÅÄÂÄ¿         /ÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄ0
+            ÚÁ¿      <C1>          ³ Á     _³ÄÄ/  ³              |_Ring Det.
+       <MOV>ÀÂÙ <C4>               ³  Â    ³³Ä-  ³              |
+<ÄÄÂÄÄÄÄÄÄÄÄÄÅÄ)³Ä¿    ÚÄÄÄÄÄÄÄÄÄÄÄÅÄÁÄÙ    ³    \ÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄ0
+   ³         ³    ³    >         1 ÀÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÙ 4
+ ÚÄÙ         ³    ³   <  <R1>       <IC2>
+ ³        _______ ³ ___>
+ ³    --0        ÃÄ¿  ÚÄÄÄÄÄÄÂÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ0
+ ³ *  --0ÄÄÄÙ    ³ )³³(      Á   ³              ³                |
+ ³ R  --0ÄÄÄÄÄÄÄÄÙ )³³( <D1>     <D2>        ÄÁÄ  <C2>         |-Audio I/O
+ ³ Y      __        )³³(      ³   Â             ÄÂÄ               |
+ ³ 1  --0        ÂÄÙ  ÀÄÄÄÄÄÄÁÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ0
+ ³ *  --0ÄÄÄ¿    ³  <T1>
+ ³    --0ÄÄÄÄÄÄÄÄ´
+ ³  ________ ³ __ ³ ______________________________________________0 +
+ ³ <Ú¿ <C3> ÄÁÄ   ³                                               |_ Line
+ ³  ³³>     ÄÂÄ   ³                                               |  Seize
+ ³ <ÀÙÄÄÄÄÄÄ ³ ÄÄ ³ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ0 -
+ ³           ÃÄÄÄÄÙ
+ ³           >
+ ³          <  <R2>
+ ³           >                   1 ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ 5
+ ³          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÂÄ¿         /ÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄ0
+ ³                                 ³  Á    _³ÄÄ/  ³              |_Party
+ ³                                 ³ Â     ³³Ä-  ³              | HangUp
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÁÄÙ    ³    \ÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄ0
+                                 2 ÀÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÙ 4
+                                  <IC1>     ³
+
+R1------22,000 Ohm
+R2------1000 Ohm
+C1------.56 uF 250volt Mylar
+C2------.01 uF 50volt Ceramic
+C3, C4--.1 uF 250volt Mylar
+IC1,IC2-H11AA1 AC input optoisolator
+D1, D2--1N270 Germainium Diodes
+T1------Telco 1:1 isolation transformer
+MOV-----300 volt Metal Oxide Varistor <can be removed, but not recomended>
+RY1-----12 volt DPDT Relay
+
+
+        OK, so you have the beast wired. Now, let me tell you how to connect
+it. The ring detect lines will close and conduct when the line rings. It
+functions almost like a switch. Also, the party hangup lines function like
+switches, except that when the party you called hangs up, this will pulse.
+The line seize lines connect your sound input and output to the line. When
+12 volts is not applied to these lines, the box goes into monitor mode, and
+all audio will be passed to the audio I/O channel, and in effect, bugging the
+line. When 12 volts is present at these lines, however, you can connect a 1/8"
+plug to the audio I/O channel, and either connect it to an audio source, or to
+the input of a recordng device to record what is said or heard on the fone.
+I suppose that wrapps it up. If you have questions regarding this box, leave
+me mail or something, and I'll be glad to help out. <part II will be released
+shortly after this first release, where I will show you different tricks with
+this box>. Also note that this interface complies FULLY with the FCC type 68
+fone device, and, in itself is perfectly legal.
+
+ ----------------------------------------------------------------------------
+|                       Soveriegns Of Bell Issue # 1                         |
+| Call these 3l33+ BBS:                                    Or Mail Us At :   |
+| The Truth Sayer's Domain - 210-493-9975 - SoB WHQ          lmb@tenet.edu   |
+| Red Dawn-2               - 410-263-2258 - Affiliated Board                 |
+ ----------------------------------------------------------------------------
+EOF : 5498 Bytes

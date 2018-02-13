@@ -1,0 +1,309 @@
+|CanceR|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=|CanceR|
+				     _                    _                  
+	  __________               /    /´FTERSHOCK INC.    \                 
+	 / |  |  |  |             |  Source for MGRMAIL (C)  |              
+	/  |  | _|__|_            |  Issue #9 * 05/08/1993   |                
+       /|  |  ||      \            \ _ .  by Nitro-187   ._ /                 
+       ||__|__||___   |                                                      
+       |              |                                                      
+	\            /        DISCLAIMER : Congress Shall make no law        
+	 \          /         respecting an establishment of religion, or    
+	 |         |          prohibiting the free excersize therof; or      
+	 |         |          abriging the freedom of speech, or of the      
+	 |         |          press; or the right of the people peaceably    
+	 /´FTERSHOCK          to assemble, and to petition the Government    
+			      for a redress of grievances..                  
+									     
+|CanceR|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=|CanceR|
+
+ Here's a source in C I got from a Bellcore 'puter....
+
+-
+
+
+
+/*                        Copyright (c) 1987 Bellcore
+ *                            All Rights Reserved
+ *       Permission is granted to copy or use this program, EXCEPT that it
+ *       may not be sold for profit, the copyright notice must be reproduced
+ *       on copies, and credit should be given to Bellcore where it is due.
+ *       BELLCORE MAKES NO WARRANTY AND ACCEPTS NO LIABILITY FOR THIS PROGRAM.
+ */
+/*      $Header: mgrmail.c,v 4.2 88/06/22 14:37:50 bianchi Exp $
+	$Source: /tmp/mgrsrc/demo/misc/RCS/mgrmail.c,v $
+*/
+static char     RCSid_[] = "$Source: /tmp/mgrsrc/demo/misc/RCS/mgrmail.c,v $$Revision: 4.2 $";
+
+/* Bug fixed by D. J. Raymond, New Mexico Tech -- wouldn't recognize
+ * existing mail on startup.
+ * Also, a few new functions added to the menu.
+ * 13 Feb 92 -- When clicked on with no new mail pending, an old mailbox
+ * file is asked for.  This file is then processed in the usual way by
+ * the mail program.  The "-f" option used to do this limits one to
+ * the use of Berkeley mail, or some other system that emulates this
+ * command.  A new flag, -mmaildir, has been added so that -f option
+ * looks in that directory relative to the home directory.
+ */
+
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <signal.h>
+#include <stdio.h>
+#include "term.h"
+
+#define MSG_1   "\fLooking for new mail"
+#define MSG_2   "\f\007You have new mail"
+#define MSG_3   "\freading mail ...\r"
+#define MSG_4   "\rChecking for new mail..."
+#define MSG_5   "\fMail window is active"
+#define MSG_6   "\rYou don't have mail   "
+#define MSG_7   "Type name of mail file: "
+#define MSG_8   "Can't find that mail file!"
+
+#define MAILF           "/usr/spool/mail"       /* spool file */
+#define MAIL            "mail"                  /* name of mail command */
+#define POLL            60                      /* polling interval */
+#define XPOS            240                     /* x start of mail window */
+#define YPOS            190                     /* y start of mail window */
+#define W_WIDE          650                     /* width of mail window */
+#define W_HIGH          394                     /* height of mail window */
+
+#define PROCESSED       2                       /* new mail already processed */
+
+#define S(x)                    statb.x
+#define Isflag(arg,flag)        (!strncmp(arg,flag,strlen(flag)))
+#define Max(x,y)                ((x)>(y)?(x):(y))
+#define dprintf                 if(debug) fprintf
+
+#define MENU_COUNT              (sizeof(menu)/sizeof(struct menu_entry))
+
+struct menu_entry menu[] = {
+	"print","t\r",
+	"scroll"," \r",
+	"backup","b\r",
+	"reply","r\r",
+	"save","S\r",
+	"hardcopy","pi 'lpr -h'\r",
+	"delete","dt\r",
+	"next","n\r",
+	"quit","q\r",
+	"help","?\r",
+	"headers","h *\r",
+	"abort","x\r",
+};
+
+struct  stat statb;                     /* spool file status */
+char    mail[255];                      /* spool file path name */
+char    command2[255];                  /* command for reading prev. mail */
+char    mpath[255];                     /* path of stashed mail file */
+char    mfile[255];                     /* name of stashed mail file */
+char    mdir[255];                      /* directory for stashed mail */
+long omtime=0l;                         /* previous file mod. time */
+int state = 0;                          /* mail & window state */
+int poll = POLL;                        /* poll interval */
+int debug=0;                            /* for mgrmail -d >& /dev/tty?? */
+
+main(argc,argv)
+int argc;
+char **argv;
+{
+	register int i;
+	int xpos = XPOS;                /* screen position of mail subwindow */
+	int ypos = YPOS;
+	int font = -1;                  /* font to use for mail subwindow */
+	int shape = 1;                  /* initially reshape window */
+	char *command = MAIL;           /* name of readmail command */
+
+	char *getenv();
+	char *user = getenv("USER");
+	char line[80];                  /* event input buffer */
+
+	int clean(), update();
+
+	ckmgrterm( *argv );
+
+	/* make sure environment is ok */
+	if (user==NULL || *user=='\0') {
+		fprintf(stderr,"%s: Who are you?\n",argv[0]);
+		exit(2);
+	}
+
+	/* initialize stashed mail directory to null */
+	mdir[0] = '\0';
+
+	/* process arguments */
+
+	for(i=1;i<argc;i++) {
+		if (Isflag(argv[i],"-s"))
+			shape = 0;
+		else if (Isflag(argv[i],"-d"))
+			debug = 1;
+		else if (Isflag(argv[i],"-x"))
+			xpos = atoi(argv[i]+2);
+		else if (Isflag(argv[i],"-y"))
+			ypos = atoi(argv[i]+2);
+		else if (Isflag(argv[i],"-f"))
+			font = atoi(argv[i]+2);
+		else if (Isflag(argv[i],"-p"))
+			poll  = Max(atoi(argv[i]+2),10);
+		else if (Isflag(argv[i],"-M"))
+			command  = argv[i]+2;
+		else if (Isflag(argv[i],"-m"))
+			strcpy(mdir,argv[i]+2);
+		else
+			usage(argv[0],argv[i]);
+	}
+	sprintf(mail,"%s/%s",MAILF,user);
+
+	/* set up window environment */
+
+	m_setup(M_FLUSH);
+	m_ttyset();
+	m_push(P_MENU|P_EVENT|P_FLAGS);
+	dprintf(stderr,"pushing environment\n"); fflush(stderr);
+	m_setmode(M_NOWRAP);
+
+	signal(SIGTERM,clean);
+	signal(SIGINT,clean);
+	signal(SIGALRM,update);
+
+	m_setmode(M_ACTIVATE);
+	if (shape) {
+		m_size(strlen(MSG_1),1);
+	}
+
+	m_setevent(ACTIVATE,"A\r");
+	m_setevent(REDRAW,"R\r");
+
+	m_clearmode(M_ACTIVATE);
+	m_clear();
+	m_printstr(MSG_1);
+
+	dprintf(stderr,"Starting state 0x%x\n",state); fflush(stderr);
+
+	update();
+
+	/* wait for an event */
+
+	while(1) {
+		m_gets(line);
+		dprintf(stderr,"state 0x%x line : %c\n",state,*line); fflush(stderr);
+		switch(*line) {
+			case 'A':       /* window is activated */
+				if (!stat(mail,&statb) && S(st_size))
+					do_mail(command,font,xpos,ypos);
+				else {
+					sprintf(command2,"%s -f ",command);
+					do_mail(command2,font,xpos,ypos);
+					}
+				state &= ~PROCESSED;
+				update();
+				break;
+			case 'R':       /* screen is redrawn */
+				state &= ~PROCESSED;
+				update();
+				break;
+		}
+	}
+}
+
+/* run readmail in a subwindow */
+
+do_mail(command,font,xpos,ypos)
+char *command;
+int font,xpos,ypos;
+	{
+	int code;
+	int n;
+	FILE *fd;
+
+	alarm(0);
+	dprintf(stderr,"doing mail\n"); fflush(stderr);
+	n=m_makewindow(xpos,ypos,W_WIDE,W_HIGH);
+	if (n==0) {     /* can't make window */
+		m_printstr("\007\fCan't open mail window, sorry");
+		return(0);
+		}
+	m_clearevent(ACTIVATE);
+	m_printstr(MSG_5);
+	m_selectwin(n);
+	menu_load(1,MENU_COUNT,menu);
+	m_selectmenu(1);
+/* if -f at end of command, read a preexisting mail file */
+	if (strcmp("-f ",command + strlen(command) - 3) == 0) {
+		m_printstr(MSG_7);
+		m_ttyreset();
+		m_gets(mfile);
+		mfile[strlen(mfile)] = '\0';
+		if (strlen(mdir))
+			sprintf(mpath,"%s/%s/%s",getenv("HOME"),mdir,mfile);
+		else sprintf(mpath,"%s/%s",getenv("HOME"),mfile);
+		code = system(strcat(command,mpath));
+		sleep(1);
+	}
+	else {
+		m_printstr(MSG_3);
+		m_ttyreset();
+		code = system(command);
+		m_printstr(MSG_4);
+		sleep(1);       /* for "New mail arrived" message */
+	}
+	dprintf(stderr,"Readmail completed code %d\n",code); fflush(stderr);
+	m_ttyset();
+	m_destroywin(n);
+	m_setevent(ACTIVATE,"A\r");
+	m_clearmode(M_ACTIVATE);
+	dprintf(stderr,"window deactivated\n"); fflush(stderr);
+	}
+
+/* check the spool file for new mail and update message */
+
+int
+update()
+{
+	alarm(0);
+	dprintf(stderr,"checking mail state 0x%x\n",state); fflush(stderr);
+	if (!stat(mail,&statb) && S(st_size)) {
+		state &= ~PROCESSED;
+		if (S(st_mtime) != omtime) {
+		dprintf(stderr,"	First time New mail\n"); fflush(stderr);
+			m_printstr(MSG_2);
+			m_setmode(M_WOB);
+			omtime = S(st_mtime);
+		}
+	}
+	else if (!(state&PROCESSED)) {
+		dprintf(stderr,"	Clearing new mail\n"); fflush(stderr);
+		m_clearmode(M_WOB);
+		m_printstr(MSG_1);
+		state |= PROCESSED;
+	}
+	alarm(poll);
+}
+
+/*      Clean up and exit */
+
+clean()
+{
+	m_popall();
+	m_ttyreset();
+	exit(1);
+}
+
+usage(name,error)
+char *name, *error;
+{
+	fprintf(stderr,"Invalid flag: %s\n",error);
+	fprintf(stderr,
+		"usage: %s -[s|x<pos>|y<pos>|f<font>|p<poll>|M<mail_program>]\n"
+		,name);
+	exit(1);
+}
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|
+Call These Systems.....            |18003360188 - Check it out!            |
+				   |                                       |
+CUM          <708>961/0927         |Outlands     <907>247/4733             |
+Room 101     <708>265/1984         |                                       |
+13th Avenue  <206>PRI/VATE         |                                       |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|
+(C)1993 /´FTERSHOCK/CanceR What Rights? -EoF-

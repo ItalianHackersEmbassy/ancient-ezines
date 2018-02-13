@@ -1,0 +1,289 @@
+Date: Wed, 9 Dec 92 17:46:33 PST
+Reply-To: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0010@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: cocot@osc.versant.com (Doctor COCOT)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0010] CRYPT: PGP2.1 invades the matrix
+Keywords: surfpunk, pgp, encryption, info-pgp, pem
+
+There are currently two popular publically-avaiable packages for public
+key encryption, the RSAREF package from RSA Associates, and the "the
+world's most popular and politically controversial public key
+encryption" package, called PGP, for Pretty Good Privacy.  RSA will
+claim that PGP violates its patents if used without a liscence, and you
+can't get a lisence for it.  RSAREF is what I'm favoring for the
+SURFPUNK project; it's problem is that it cannot be exported outside of
+USA and Canada.  RSAREF is closer to what will probably become the
+internet standard for Privacy-Enhanced Mail (PEM), and I think foreign
+implementation of RSA are beginning to show up.
+
+Eventually I'll post more about RSAREF.  But for now, there's a new
+version of PGP out (it looks like it's only for PC, right now), and
+it's interesting to see it start to trickle through the global net,
+right on through forbidden political barriers ...
+
+These postings are from "Info-PGP: PGP Digest, Volume 1 : Number 36".
+I include banner for Info-PGP at end.
+
+                                                             -- Dr Cocot
+________________________________________________________________________
+________________________________________________________________________
+
+
+
+
+Newsgroups: alt.security.pgp,alt.security,sci.crypt,talk.politics.misc
+From: hmiller@lucpul.it.luc.edu (Hugh Miller)
+Subject: PGP v. 2.1 Released
+Date: Mon, 7 Dec 1992 20:49:36 GMT
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+PGP 2.1 Available
+- -----------------
+
+Pretty Good Privacy (PGP) Version 2.1 is now available, from Europe.
+This new version of the world's most popular and politically
+controversial public key encryption program has numerous bug fixes
+over version 2.0, and several new features.
+
+For example, you can now display the MD5 hash of a public key, to
+facilitate verifying it over the telephone with the owner of that
+public key.  Also, it is now possible to send via email an
+unencrypted signed message without putting the whole message in
+Radix-64 format, to make it possible to read without PGP.  This is
+analogous to the PEM MIC-CLEAR signed message functionality.
+
+PGP 2.1 incorporates many patches from the user community to port it
+to more platforms.  And it runs faster.  Also, a lot of annoying bugs
+and ergonomic oversights have been fixed.  PGP 2.0 fans will find
+many rough edges have been smoothed out.
+
+The filenames are pgp21.zip for the MSDOS executable release, and
+pgp21src.zip for the source code release.  You must have PKUNZIP
+version 1.1 or later to unzip them, or they won't unzip.  The primary
+initial FTP sites that have it are:
+
+Finland:    nic.funet.fi  (128.214.6.100)
+            Directory: /pub/unix/security/crypt/
+
+Italy:      ghost.dsi.unimi.it  (149.132.2.1)
+            Directory: /pub/security/
+
+As previously, this prohibited and politically popular program will
+probably propagate through the same channels as PGP 2.0.  Of course,
+if you live in the USA, you really shouldn't be using it.
+
+If you have any questions about where else to get it, contact Hugh
+Miller, at hmiller@lucpul.it.luc.edu.  Hugh can send you the latest
+evolving list of FTP sites, BBS phone numbers, and other sources.
+
+
+Philip Zimmermann
+Phil's Pretty Good Software
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.1
+
+iQCVAgUBKyLbAuJ13g7/Z/cLAQFxoAP+OqIqZu2zfA7LycuBJmaF0cms6xyYYok+
+ifFW5hIKYUDqvVwLQg5kSXRIUY9fbSXaox6bnww+2YCoEacbzMAAVgTiw8TU7QG0
+JryTOHsUIihq9JNBOQ5ONfmHzH0w2gaQ5SGEcJK93typoyvNQMtdtVSeIfkl6ImJ
+vs/OHzY5LiU=
+=nV70
+-----END PGP SIGNATURE-----
+--
+Hugh Miller         | Dept. of Philosophy | Loyola University of Chicago
+Voice: 312-508-2727 |  FAX: 312-508-2292  |    hmiller@lucpul.it.luc.edu
+
+
+
+________________________________________________________________________
+
+
+
+
+From: hmiller (Hugh Miller)
+Subject: PGP 2.1 Site List
+To: info-pgp
+Date: Wed, 9 Dec 92 2:50:32 CST
+
+    (Last modified: 0820 UTC, 9 Dec 92)
+
+    PGP v. 2.1 is gradually making its way out into the electronic world.  It
+has been posted to the FidoNet Software Distribution Network and should soon
+be up on most if not all Canadian and U.S. nodes carrying SDN software.
+
+    On the Internet, there are many sites to try for anonymous ftp:
+
+    nic.funet.fi  (128.214.6.100)
+        /pub/unix/security/crypt/pgp21.zip      (MSDOS binaries + docs)
+        /pub/unix/security/crypt/pgp21src.zip   (Source code + docs)
+        /pub/unix/security/crypt/pgp21.tar.Z    (Source code in compressed
+                                                 tar format)
+
+    van-bc.wimsey.bc.ca  (192.48.234.1)
+        /pub/crypto/PGP-2.1/pgp21.zip
+        /pub/crypto/PGP-2.1/pgp21src.zip
+        /pub/crypto/PGP-2.1/pgp21.tar.Z
+
+    ghost.dsi.unimi.it  (149.132.2.1)
+        /pub/crypt/pgp21.zip
+        /pub/crypt/pgp21src.zip
+        /pub/crypt/pgp21.tar.Z
+
+    pencil.cs.missouri.edu  (128.206.100.207)
+        /pub/crypt/pgp21.zip
+        /pub/crypt/pgp21src.zip
+        /pub/crypt/pgp21.tar.Z
+
+    soda.berkeley.edu  (128.32.149.19)
+        /pub/cypherpunks/pgp/pgp21.zip
+        /pub/cypherpunks/pgp/pgp21src.zip
+        /pub/cypherpunks/pgp/pgp21.tar.Z
+
+    eugene.utmb.edu  (129.109.9.21)
+        pub/pgp/pgp21.zip
+        pub/pgp/pgp21src.zip
+        pub/pgp/pgp21.tar.Z
+
+    For those lacking ftp connectivity to the net, nic.funet.fi also
+offers the files via mail.  Send the following mail message to
+mailserv@nic.funet.fi:
+
+    ENCODER uuencode
+    SEND pub/unix/security/crypt/pgp21src.zip
+    SEND pub/unix/security/crypt/pgp21.zip
+
+This will deposit the two zipfiles, as 15 batched messages, in your mailbox
+with about 24 hours.  Save and uudecode.
+
+    The Northern Lights BBS in Troy, NY, has both PGP21.ZIP and
+PGP21SRC.ZIP for free download. Call (518) 237-2163 at 300-2400 bps 8N1
+24 hours a day. Then login directly to the pgp account as follows:
+
+        tnllogin: pgp
+        Password: key
+
+and help yourselves.  Thanks to Daniel Ray of tnl for this fine service.
+
+    Another private BBS from which you can obtain PGP for the simple price of
+the long-distance call time is the Grapevine BBS, the largest BBS in Arkansas.
+It's run by Jim Wenzel in Little Rock.  John Eichler, a PGP user at Grapevine,
+sent me the following information for your edification and enlightenment:
+
+>   The GRAPEVINE BBS in Little Rock is the largest BBS in Arkansas.  To
+>   help people obtain a copy of PGP21, the GRAPEVINE has set up a special
+>   account for this purpose.  The following phone numbers are applicable
+>   and should be dialed in the order presented (i.e., the top one first
+>   since it is the highest speed line).
+>
+>                    (501) 753-6859
+>                    (501) 753-8121
+>                    (501) 791-0124
+>                    (501) 753-4428
+>                    (501) 791-0125
+>
+>   When asked to login use the following information.
+>
+>          name: PGP USER        ('PGP' is 1st name, 'USER' is 2nd name)
+>          password: PGP
+>
+>       There is a special menu which one gets which shows the following
+>   programs to be available.
+>
+>                 PGP21.ZIP    =  Dos Version of "Pretty Good Privacy"
+>                 PGP21SRC.ZIP =  Source Code to PGP v2.0
+>                 PGP20OS2.ZIP =  OS/2 version of PGP v2.0
+>                 PKZ110.EXE   =  Current version of DOS based PKzip
+>
+>   Should you have any questions e-mail either me
+>   (john.eichler@grapevine.lrk.ar.us) or the Sysop of the BBS whose address
+>   is jim.wenzel@grapevine.lrk.ar.us.
+
+--  Thanks, John!
+
+    If none of these sites do it for you, let me know.  Film at 11.
+
+    Best regards!
+    -=- Hugh
+
+P.S.:  If you come across sites where it's posted -- especially FREE ACCESS
+sites -- please drop me a line (info-pgp-request@lucpul.it.luc.edu).
+I'd like to maintain a current list as part of a PGP FAQ list.  Thanks to the
+many correspondents who have helped to contribute to this list on an almost
+daily basis!
+
+    Hugh Miller
+    Info-PGP
+    info-pgp-request@lucpul.it.luc.edu
+
+
+
+
+
+________________________________________________________________________
+
+
+
+
+
+   Info-PGP: PGP Digest   Tuesday 8 December 1992  Volume 1 : Number 36
+                Hugh Miller, List Manager / Moderator
+
+    Info-PGP is a digested mailing list dedicated to discussion of Philip
+Zimmermann's `Pretty Good Privacy' (PGP) public-key encryption program for
+MS-DOS, Unix, VMS, Atari, Amiga, SPARC, Macintosh, and (hopefully) other
+operating systems.  It is primarily intended for users on Internet sites
+without access to the `alt.security.pgp' newsgroup.  Most submissions to
+alt.security.pgp will be saved to Info-PGP, as well as occasional relevant
+articles from sci.crypt or other newsgroups.  Info-PGP will also contain
+mailings directed to the list address.
+    To SUBSCRIBE to Info-PGP, please send a (polite) note to
+info-pgp-request@lucpul.it.luc.edu.  This is not a mailserver; there is a
+human being on the other end, and bodiless messages with "Subject:" lines
+reading "SUBSCRIBE INFO-PGP" will be ignored until the sender develops
+manners.  To SUBMIT material for posting to Info-PGP, please mail to
+info-pgp@lucpul.it.luc.edu.  In both cases, PLEASE include your name and
+Internet "From:" address.  Submissions will be posted pretty well as received,
+although the list maintainer / moderator reserves the right to omit redundant
+messages, trim bloated headers & .sigs, and other such minor piffle.  I will
+not be able to acknowledge submissions, nor, I regret, will I be able to pass
+posts on to alt.security.pgp for those whose sites lack access.
+    Due to U.S. export restrictions on cryptographic software, I regret that I
+cannot include postings containing actual source code (or compiled binaries)
+of same.  For the time being at least I am including patches under the same
+ukase.  I regret having to do this, but the law, howbeit unjust, is the law.
+If a European reader would like to handle that end of things, perhaps run a
+"Info-PGP-Code" digest or somesuch, maybe this little problem could be worked
+around.
+    I have received a promise of some space on an anonymous-ftp'able Internet
+site for back issues of Info-PGP Digest.  Full details as soon as they firm
+up.
+    Oh, yes: ALL CONTRIBUTIONS CONSIDERED AS PERSONAL COMMENTS; STANDARD
+DISCLAIMERS APPLY.
+
+Hugh Miller       | Asst. Prof. of Philosophy |  Loyola University Chicago
+FAX: 312-508-2292 |    Voice: 312-508-2727    |  hmiller@lucpul.it.luc.edu
+ Signed PGP v.2.1 public key certificate available by e-mail & finger(1)
+
+
+
+
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  
+Xanalogical archive access soon.  All hail discordia.
+________________________________________________________________________
+________________________________________________________________________
+

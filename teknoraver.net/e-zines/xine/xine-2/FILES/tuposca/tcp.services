@@ -1,0 +1,90 @@
+tcpmux		1/tcp		# TCP port service multiplexer
+echo		7/tcp
+discard		9/tcp		sink null
+systat		11/tcp		users
+daytime		13/tcp
+netstat		15/tcp
+qotd		17/tcp		quote
+msp		18/tcp		# message send protocol
+chargen		19/tcp		ttytst source
+ftp		21/tcp
+ssh 		22/tcp		# Secure Shell
+telnet		23/tcp
+smtp		25/tcp		mail
+time		37/tcp		timserver
+nameserver	42/tcp		name		# IEN 116
+whois		43/tcp		nicname
+domain		53/tcp		nameserver	# name-domain server
+mtp		57/tcp				# deprecated
+bootps		67/tcp		# BOOTP server
+bootpc		68/tcp		# BOOTP client
+gopher		70/tcp		# Internet Gopher
+rje		77/tcp		netrjs
+finger		79/tcp
+www		80/tcp		http	# WorldWideWeb HTTP
+link		87/tcp		ttylink
+kerberos	88/tcp		krb5	# Kerberos v5
+supdup		95/tcp
+hostnames	101/tcp		hostname	# usually from sri-nic
+iso-tsap	102/tcp		tsap		# part of ISODE.
+csnet-ns	105/tcp		cso-ns	# also used by CSO name server
+rtelnet		107/tcp		# Remote Telnet
+pop2		109/tcp		postoffice	# POP version 2
+pop3		110/tcp		# POP version 3
+sunrpc		111/tcp
+auth		113/tcp		tap ident authentication
+sftp		115/tcp
+uucp-path	117/tcp
+nntp		119/tcp		readnews untp	# USENET News Transfer Protocol
+ntp		123/tcp
+netbios-ns	137/tcp				# NETBIOS Name Service
+netbios-dgm	138/tcp				# NETBIOS Datagram Service
+netbios-ssn	139/tcp				# NETBIOS session service
+imap2		143/tcp				# Interim Mail Access Proto v2
+cmip-man	163/tcp				# ISO mgmt over IP (CMOT)
+cmip-agent	164/tcp
+xdmcp		177/tcp				# X Display Mgr. Control Proto
+nextstep	178/tcp		NeXTStep NextStep	# NeXTStep window
+bgp		179/tcp				# Border Gateway Proto.
+prospero	191/tcp				# Cliff Neuman's Prospero
+irc		194/tcp				# Internet Relay Chat
+smux		199/tcp				# SNMP Unix Multiplexer
+at-rtmp		201/tcp				# AppleTalk routing
+at-nbp		202/tcp				# AppleTalk name binding
+at-echo		204/tcp				# AppleTalk echo
+at-zis		206/tcp				# AppleTalk zone information
+z3950		210/tcp		wais		# NISO Z39.50 database
+ipx		213/tcp				# IPX
+imap3		220/tcp				# Interactive Mail Access
+ulistserv	372/tcp				# UNIX Listserv
+exec		512/tcp
+login		513/tcp
+shell		514/tcp		cmd		# no passwords used
+printer		515/tcp		spooler		# line printer spooler
+tempo		526/tcp		newdate
+courier		530/tcp		rpc
+conference	531/tcp		chat
+netnews		532/tcp		readnews
+uucp		540/tcp		uucpd		# uucp daemon
+klogin		543/tcp				# Kerberized `rlogin' (v5)
+klogin		543/tcp			# Kerberos rlogin
+kshell		544/tcp				# Kerberized `rsh' (v5)
+kshell		544/tcp		krcmd	# Kerberos remote shell
+remotefs	556/tcp		rfs_server rfs	# Brunhoff remote filesystem
+kerberos-adm	749/tcp				# Kerberos `kadmin' (v5)
+kerberos	750/tcp		kdc	# Kerberos (server) tcp
+krbupdate	760/tcp		kreg	# Kerberos registration
+kpasswd		761/tcp		kpwd	# Kerberos "passwd"
+webster		765/tcp				# Network dictionary
+supfilesrv	871/tcp			# SUP server
+supfiledbg	1127/tcp		# SUP debugging
+ingreslock	1524/tcp
+prospero-np	1525/tcp		# Prospero non-privileged
+eklogin		2105/tcp		# Kerberos encrypted rlogin
+rfe		5002/tcp		# Radio Free Ethernet
+irc		6665/tcp		# Internet relay chat
+irc 		6666/tcp		# Internet relay chat
+irc		6667/tcp		# Internet relay chat
+irc		6668/tcp		# Internet relay chat
+irc		7777/tcp		# Internet relay chat
+

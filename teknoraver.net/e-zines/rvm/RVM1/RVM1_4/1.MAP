@@ -1,0 +1,74 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 00076H 00077H PROGRAM            CODE
+ 00080H 00611H 00592H System             CODE
+ 00620H 04BBBH 0459CH DATA               DATA
+ 04BC0H 08BBFH 04000H STACK              STACK
+ 08BC0H 08BC0H 00000H HEAP               HEAP
+
+  Address         Publics by Value
+
+ 0000:0000       @
+ 0062:0002       virus
+ 0062:4002       OvrCodeList
+ 0062:4004       OvrHeapSize
+ 0062:4006       OvrDebugPtr
+ 0062:400A       OvrHeapOrg
+ 0062:400C       OvrHeapPtr
+ 0062:400E       OvrHeapEnd
+ 0062:4010       OvrLoadList
+ 0062:4012       OvrDosHandle
+ 0062:4014       OvrEmsHandle
+ 0062:4016       HeapOrg
+ 0062:401A       HeapPtr
+ 0062:401E       HeapEnd
+ 0062:4022       FreeList
+ 0062:4026       FreeZero
+ 0062:402A       HeapError
+ 0062:402E       ExitProc
+ 0062:4032       ExitCode
+ 0062:4034       ErrorAddr
+ 0062:4038       PrefixSeg
+ 0062:403A       StackLimit
+ 0062:403C       InOutRes
+ 0062:403E       RandSeed
+ 0062:4042       SelectorInc
+ 0062:4044       Seg0040
+ 0062:4046       SegA000
+ 0062:4048       SegB000
+ 0062:404A       SegB800
+ 0062:404C       Test8086
+ 0062:404D       Test8087
+ 0062:404E       FileMode
+ 0062:4050       b
+ 0062:4150       w
+ 0062:4350       Input
+ 0062:4450       Output
+ 0062:4550       SaveInt00
+ 0062:4554       SaveInt02
+ 0062:4558       SaveInt1B
+ 0062:455C       SaveInt21
+ 0062:4560       SaveInt23
+ 0062:4564       SaveInt24
+ 0062:4568       SaveInt34
+ 0062:456C       SaveInt35
+ 0062:4570       SaveInt36
+ 0062:4574       SaveInt37
+ 0062:4578       SaveInt38
+ 0062:457C       SaveInt39
+ 0062:4580       SaveInt3A
+ 0062:4584       SaveInt3B
+ 0062:4588       SaveInt3C
+ 0062:458C       SaveInt3D
+ 0062:4590       SaveInt3E
+ 0062:4594       SaveInt3F
+ 0062:4598       SaveInt75
+
+Line numbers for PROGRAM(1.PAS) segment PROGRAM
+
+    10 0000:0000    12 0000:000F    15 0000:001B    17 0000:0026
+    18 0000:002F    19 0000:0037    20 0000:0042    21 0000:004D
+    23 0000:005C    25 0000:0067    27 0000:006F
+
+Program entry point at 0000:0000

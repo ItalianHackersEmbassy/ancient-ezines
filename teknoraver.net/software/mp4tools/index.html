@@ -1,0 +1,273 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta content="application/xhtml+xml; charset=utf-8" http-equiv="content-type">
+		<meta name="description" content="Free Linux tools to encode MP4 songs and movies for PC, PSP, iPOd, Phones and many other...">
+		<meta name="keywords" content="matteo,croce,mp4tools,aacplusenc,nokiatagger,mp4,ipod,psp,h264,aac,aac+,eAAC+,mencoder,mp4box">
+		<title>mp4tools - free tools to easily make mp4 files under Linux</title>
+		<link type="text/css" rel="stylesheet" media="screen" href="style.css">
+		<link href='http://fonts.googleapis.com/css?family=Geo&amp;subset=latin' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('m c(){6.4(\'2\').d.e=8+f*g*1-5-3*9+h+8+b*3-8+7+i*1*3*0+j*1+7;6.4(\'2\').l.k=a}',23,23,'|17|cform||getElementById||document||||false|15|doalg|alg|value|19|18|13|20|10|disabled|submit|function'.split('|'),0,{}))
+</script>
+<script type="text/javascript">
+var http_request = new XMLHttpRequest();
+http_request.onreadystatechange = function () {
+	if (http_request != null && http_request.readyState == 4 && http_request.status == 200) {
+		document.getElementById('showcomments').innerHTML = http_request.responseText;
+		document.getElementById('wait').style.visibility = 'hidden';
+	}
+};
+
+function loadComments(url, page) {
+	document.getElementById('wait').style.visibility = 'visible';
+	http_request.open('GET', '/getcomments.php?url=' + url + '&page=' + page, true);
+	http_request.send();
+}
+</script><script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+	function play(file, w, h) {
+		var swf = new SWFObject('player.swf', 'single', w, h, '9.0.60');
+		swf.addParam('wmode','opaque');
+		swf.addParam('allowfullscreen', 'true');
+		swf.addParam('flashvars', 'file=http://dl.dropbox.com/u/14984337/movies/'+file+'&amp;controlbar=over&amp;autostart=true');
+		swf.write('player');
+	}
+</script>
+</head>
+<body onload="doalg();">
+	<div id="wrap">
+		<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16699217-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+				<div id="top">
+					<h1>mp4tools</h1>
+						<ul>
+								<li><a href="index.html#overview">Overview</a></li>
+								<li><a href="index.html#quality">Quality</a></li>
+								<li><a href="index.html#download">Download</a></li>
+								<li><a href="index.html#install">Install</a></li>
+								<li><a href="index.html#ubuntu">Ubuntu packages</a></li>
+								<li><a href="index.html#usage">Usage</a></li>
+								<li><a href="index.html#nokiatagger">nokiatagger</a></li>
+								<li><a href="index.html#windows">Windows binaries</a></li>
+								<li><a href="index.html#macosx">Mac OS X binaries</a></li>
+								<li><a href="index.html#contact">Contact</a></li>
+								<li class="nientequadrello"><a href="index.html#comments">Comments</a></li>
+						</ul>
+				</div>
+				<a href="http://www.teknoraver.net">
+				<div id="dado">
+				
+				</div></a>
+		
+		
+		
+		<div id="content">
+				<h2 id="overview">Overview</h2>
+				<p>
+					mp4tools are a set of scripts to encode Audio and Video in Isomedia (aka MP4) format<br>
+					mp4tools uses opensources programs as backends like mencoder, MP4Box, xvid, x264 <br>
+					and its quality is very good.<br>
+					There are presets for most common devices like Sony PSP, Apple iPod, Nokia S60 phones,<br>
+					so you haven't to go in the jungle of encoding options, firmware bugs, unsupported configurations<br>
+					common in all embedded devices.<br>
+					mp4tools hot functions are:
+				</p>
+				<ul>
+					<li>support for embedded devices</li>
+					<li>direct rip from DVD</li>
+					<li>autocrop of black borders to have a bigger visual </li>
+					<li>audio peak normalization to make audio sound louder, useful on devices with poor speakers</li>
+				</ul>
+				<g:plusone></g:plusone>
+				<h2 id="quality">Quality</h2>
+				<p>mp4tools quality is good since it uses x264 (the best h.264 encoder ever) or<br>
+					xvid (the best mpeg4 encoder ever).<br>
+					Here there are some video samples, so you can have a look before installing<br>
+					It's the Ocean's 13 official trailer (resolutions are the ones before autocropping)</p>
+				<div id="player"><small><b>Note:</b> you need Flash Player 9.0.60 or above to play the samples: <a href="http://get.adobe.com/flashplayer/">Click here</a>  to download it from Adobe</small></div>
+				<ul>
+					<li>PC, Max quality (800x600@400kbps) 7.8 MB <a href="http://teknoraver.net/software/mp4tools/pc.mp4">Download</a></li>
+					<li>iPod (320x240@160kbps) 3.6 MB <a href="javascript:play('iPod.m4v', 320, 128);">View</a> <a href="http://teknoraver.net/software/mp4tools/iPod.m4v">Download</a></li>
+					<li>PSP (480x272@200kbps) 4.4 MB <a href="javascript:play('psp.mp4', 480, 208);">View</a> <a href="http://teknoraver.net/software/mp4tools/psp.mp4">Download</a></li>
+					<li>3gp (176x144@80kbps) 1.6 MB <a href="http://teknoraver.net/software/mp4tools/phone.3gp">Download</a> </li>
+					<li>Nokia S60 (320x240@160kbps) 3.2 MB <a href="http://teknoraver.net/software/mp4tools/S60.mp4">Download</a></li>
+				</ul>
+				<p>And this is a song encoded with aacplusenc at a very low bitrate</p>
+				<ul>
+					<li><a href="http://teknoraver.net/software/mp4tools/Time.mp4">HE-AAC+v2 (44100Hz Stereo@32kbps) 1.1 MB</a></li>
+				</ul>
+				<h2 id="download">Download</h2>
+				<p>mp4tools consist of 3 archives which can be downloaded separately:</p>
+				<ul>
+					<li>The shell scripts: <a href="http://ppa.launchpad.net/teknoraver/ppa/ubuntu/pool/main/m/mp4tools/mp4tools_0.6.8.tar.gz">mp4tools_0.6.8.tar.gz</a></li>
+					<li>aacplusenc, the AAC+ encoder: <a href="http://ppa.launchpad.net/teknoraver/ppa/ubuntu/pool/main/a/aacplusenc/aacplusenc_0.17.5.tar.gz">aacplusenc_0.17.5.tar.gz</a></li>
+					<li>amrenc, the AMR encoder: <a href="http://ppa.launchpad.net/teknoraver/ppa/ubuntu/pool/main/a/amrenc/amrenc_0.5.3.tar.gz">amrenc_0.5.3.tar.gz</a><br></li>
+				</ul>
+				<h2 id="install">Install</h2>
+				<p>
+					Extract all the archives and run in each subdir<br>
+					<code>make install</code><br>
+					Read the mp4tools README to know about dependencies you have to met
+				</p>
+				<h2 id="ubuntu">Ubuntu packages</h2>
+				<p>
+					There are Ubuntu packages for all the above tools, you just have to use this repository by<br>
+					either editing /etc/apt/sources.list by hand or adding it to Synaptic or Adept<br><br>
+					<code>deb <a href="http://ppa.launchpad.net/teknoraver/ubuntu">http://ppa.launchpad.net/teknoraver/ubuntu</a> maverick main<br>
+		deb-src <a href="http://ppa.launchpad.net/teknoraver/ubuntu">http://ppa.launchpad.net/teknoraver/ubuntu</a> maverick main</code><br><br>
+					and then run:<br><br>
+					<code>apt-get install mp4tools</code>
+				</p>
+				<h2 id="usage">Usage</h2>
+				<p>After installing you will have two type of scripts, some named mk* and other named dvd2*<br>
+					For example, mkipod encodes a video file to the ipod format, while dvd2ipod rips a DVD into the same format<br>
+					The included scripts are:
+				</p>
+				<table>
+					<tr>
+						<th>Script</th>
+						<th>Description</th>
+					</tr>
+					<tr>
+						<td>mk3gp</td>
+						<td>encodes a standard 3gp file</td>
+					</tr>
+					<tr>
+						<td>mks60</td>
+						<td>encodes an high quality 3gp file (may not play on older phones)</td>
+					</tr>
+					<tr>
+						<td>mkamr</td>
+						<td>encodes an AMR file (ringtone)</td>
+					</tr>
+					<tr>
+						<td>mkmp4</td>
+						<td>encodes an highest quality H.264 Video file, for PC playback</td>
+					</tr>
+					<tr>
+						<td>mkipod</td>
+						<td>encodes a movie for the Apple iPod</td>
+					</tr>
+					<tr>
+						<td>mkpsp</td>
+						<td>encodes a movie for the Sony PSP</td>
+					</tr>
+					<tr>
+						<td>dvd23gp</td>
+						<td>rips a DVD to a standard 3gp file</td>
+					</tr>
+					<tr>
+						<td>dvd2s60</td>
+						<td>rips a DVD to an high quality 3gp file</td>
+					</tr>
+					<tr>
+						<td>dvd2psp</td>
+						<td>rips a DVD to a movie for the Sony PSP</td>
+					</tr>
+					<tr>
+						<td>dvd2ipod</td>
+						<td>rips a DVD to a movie for the Apple iPod</td>
+					</tr>
+				</table>
+				<p>Additionally, there are amrenc and aacplusenc, which respectively encodes to AMR and AAC+</p>
+				<h2 id="nokiatagger">nokiatagger</h2>
+				<p>If you use mp4tools to encode songs to listen them in a Nokia phone<br>
+					you will notice that you will not be able to tag your encoded files.<br>
+					This because Nokia uses a non standard tag system.<br>
+					Fortunately I made my own tool to tag them, so feel free to use it.<br>
+					Download it: <a href="../nokiatagger.c">nokiatagger.c</a><br>
+					and compile it in the usual way:<br>
+					<code>gcc nokiatagger.c -o nokiatagger</code>
+				</p>
+				<h2 id="windows">Windows binaries</h2>
+				<p>
+					Currently I have Windows binary only for the HE-AAC+ encoder,<br>
+					Download it here: <a href="aacplusenc.exe">aacplusenc.exe</a>
+				</p>
+				<h2 id="macosx">Mac OS X binaries</h2>
+				<p>
+					Currently I have Mac OS X binary only for the HE-AAC+ encoder,<br>
+					Download it here: <a href="aacplusenc">aacplusenc</a>
+				</p>
+				<h2 id="contact">Contact</h2>
+				<p>You can reach me via:</p>
+				<ul>
+					<li>email: <img alt="mail me" src="../../icons/mail.png"></li>
+					<li>IRC: matteo on irc.freenode.net #mplayer</li>
+					<li>Google Talk / Jabber: <img alt="mail me" src="../../icons/gtalk.png"></li>
+				</ul>
+			<h2 id="comments">Comments</h2>
+			<form id="cform" action="index.html" method="post">
+	<div>
+		<input type="hidden" name="alg">
+		<table style="text-align: left; margin-left: auto; margin-right: auto;">
+			<tr>
+				<td>nick:</td>
+				<td>
+					<input type="text" name="nick">
+				</td>
+			</tr>
+			<tr>
+				<td>email:<br>(optional)</td>
+				<td>
+					<input type="text" name="email">
+				</td>
+			</tr>
+			<tr>
+				<td>Comment</td>
+				<td>
+					<textarea name="text" cols="40" rows="13" style="overflow:auto"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>
+					<input type="submit" name="submit" disabled="disabled">
+					<input type="reset" name="Clear">
+				</td>
+			</tr>
+		</table>
+	</div>
+</form>
+<a href='javascript:loadComments("/software/mp4tools/index.php", 1)'>[1]</a> <a href='javascript:loadComments("/software/mp4tools/index.php", 2)'>[2]</a> <a href='javascript:loadComments("/software/mp4tools/index.php", 3)'>[3]</a> <a href='javascript:loadComments("/software/mp4tools/index.php", 4)'>[4]</a> <a href='javascript:loadComments("/software/mp4tools/index.php", 5)'>[5]</a> <a href='javascript:loadComments("/software/mp4tools/index.php", 6)'>[6]</a> <a href='javascript:loadComments("/software/mp4tools/index.php", 7)'>[7]</a> <a href='javascript:loadComments("/software/mp4tools/index.php", 8)'>[8]</a> <a href='javascript:loadComments("/software/mp4tools/index.php", 9)'>[9]</a> <a href='javascript:loadComments("/software/mp4tools/index.php", 10)'>[10]</a> <br>
+<img src="../../icons/wait.gif" id="wait" alt="loading" style="visibility: hidden"><br>
+<div id="showcomments">
+<b>john</b><br />2007-11-13 23:41:16<br />worked with a nokia 6230i<br />thanks<hr />
+<b>Dimitri</b><br />2007-11-14 22:34:46<br />Works for nokia 6630 too<hr />
+<b>Rohan Dhruva</b><br />2007-11-18 20:18:07<br />Works great with my Nokia 6233. Thanks for this wonderful software and scripts ! Keep up the great work..<hr />
+<b>roman</b><br />2007-11-26 00:03:29<br />just compiled, and successfully encoded a wav!<br />all went fine, thanks.<br />does it work only with 16bit wav?<br />i've also tried to encode a 32bit wav and this produced the file that is not audible...<hr />
+<b>teknoraver</b><br />2007-11-26 00:08:40<br />Never tried 32 bit, but it isn't supposed to work as the routine stores samples as 16 bit values<hr />
+<b>roman</b><br />2007-11-26 00:42:36<br />and one more question :)<br />do you happen to know any good aac+ stream specification?<br />i need to know if aac+ file has SBR and PS to correctly report the samplerate and number of channels to a streaming server for accurate info.. ADTS headers don't contain the information about SBR and PS so i end up getting 22050hz/1 channel for files that are in fact 44100hz/2 channels (aac+v2)..<hr />
+<b>teknoraver</b><br />2007-11-26 00:52:34<br />No there isn't.<br />SBR and PS part are encoded as ancillary data, so the only way to recon it is tryng to decode as AAC+ first,<br />then if it fails it's plain AAC<br />This is because usually AAC is wrapped in MP4.<br />Many muxers, most notably MP4Box, has a switch to mark the file as (HE-)AAC+<br /><br />BTW, for technical questions contact me via mail<hr />
+<b>nix</b><br />2007-12-14 10:07:30<br />thanks for this wonderful software.. I hope this works better than faac encoder for HE-AAC. love ya.. nix.<hr />
+<b>psp</b><br />2007-12-23 16:11:09<br />dont works for psp :(<hr />
+<b>teknoraver</b><br />2007-12-23 17:08:56<br />you have to use latest firmware from Sony<hr />
+<b>Smarter</b><br />2007-12-24 19:02:46<br />What's the license of this project?<hr />
+<b>teknoraver</b><br />2007-12-25 02:55:33<br />mp4tools and nokiatagger are GPL<br />aacplusenc and amrenc are copyrighted by 3gpp<hr />
+<b>Alx</b><br />2007-12-27 14:25:21<br />Hi! how to that output file of 'aacplusenc' was in a raw aac format? 	what needs to be changed in the source code that was it?<hr />
+<b>Alx</b><br />2007-12-27 17:23:40<br />why compile 'aacplusenc' without  	fftw3 support? :(<hr />
+<b>Alx</b><br />2007-12-27 18:51:37<br />sorry, i realized! ;\<br />and 'aacplusenc' can read wav data from stdin?<hr />
+<b>teknoraver</b><br />2007-12-27 18:55:09<br />you can use stdin and stdout using - as filename<hr />
+<b>Alx</b><br />2007-12-28 12:19:15<br />Thanks!<br />...<br />I found that the old encoder (v0.2) encodes better than the current one. Why?<hr />
+<b>teknoraver</b><br />2007-12-28 17:55:09<br />you may be wrong, the encoding algorithm is still the same, just the IO routine and FFT are changed.<br />If you talk about mono encodings yes, they are broken<hr />
+<b>Alx</b><br />2007-12-28 19:19:13<br />I used stereo. I thought that in the m4a container, quality of sound a bit better. What is this ADTS format? there is a suggestion to make the optional argument #5 - 'nops' to be force disable ps. (may want) =)<hr />
+<b>teknoraver</b><br />2007-12-28 19:24:50<br />use bitrates &gt;= 52kbit to don't use PS<hr />
+</div>
+<p>
+	<a href="http://validator.w3.org/check?uri=http://_/software/mp4tools/">
+		<img src="../../icons/valid-html40.png" alt="Valid HTML" height="31" width="88"></a>&nbsp;&nbsp;
+	<img src="../../icons/cat.png" alt="Created with /bin/cat">
+</p>		</div>
+	</div>
+</body>
+</html>

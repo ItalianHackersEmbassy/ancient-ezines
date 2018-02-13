@@ -1,0 +1,141 @@
+                                 CatchMtE  1.0
+
+                 Copyright (c) 1992 by VDS Advanced Research Group
+                             All Rights Reserved
+
+           Use of this program for non-commercial purposes is free.
+           We do not sell it for profit, neither should anyone else.
+           You can distribute it to your friends or BBSes as long
+           as it is not modified and it includes this documentation.
+           If you cannot obtain it from BBSes or FTP sites, then you
+           can get it directly from us for a small fee of $10 US.
+           Even if CatchMtE helps only one user to detect an MtE-based
+           virus and saves him much agony, we consider our time spent
+           developing CatchMtE well worth it.
+
+                                DISCLAIMER
+
+        The developers of CatchMtE make no warranty of any kind, either
+     express or implied, with respect to this software and accompanying
+     documentation. In no event shall the developers be liable for any
+     damages arising out of the use of or inability to use the included
+     programs. The entire risk as to the results and performance of this
+     software package is assumed by the customer. We specifically disclaim
+     any implied warranties of merchantability or fitness for any purpose.
+     Use at your own risk.
+        The developers of CatchMtE reserve the right to revise the software
+     and accompanying documentation and to make changes in the contents
+     without obligation to notify any person of such revision or changes.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                   WARNING   WARNING   WARNING   WARNING
+
+    YOU MUST BOOT FROM A CLEAN, WRITE-PROTECTED DOS DISKETTE BEFORE USING
+    CatchMtE TO SEARCH YOUR DISKS. THIS WILL ELIMINATE THE RISK OF HAVING
+    A MEMORY-RESIDENT VIRUS GAIN CONTROL OF THE CPU DURING OPERATION.
+    CatchMtE WILL REFUSE TO RUN IF IT DETECTS THAT THE PC WAS NOT BOOTED
+    FROM A FLOPPY DISKETTE TO ENFORCE THIS REQUIREMENT.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Description:
+
+   CatchMtE is designed to recognize viral code based on the so-called
+Mutation Engine. It uses sophisticated algorithms to make that determination.
+We have tested it on MS/PC DOS 3.3+ as well as Netware 386 based disks. On
+network drives, some files may not be opened and will generate an error
+message. The program uses handle-oriented DOS file access for compatibility.
+
+   CatchMtE is NOT a pattern matcher; although it uses Boyer-Moore search
+algorithm and a few patterns to recognize the mutations that are in plaintext.
+This is necessary because MtE sometimes fails to encrypt code as expected.
+The following known viruses are recognized if they are in plaintext:
+
+   Pogue
+   Dedicated/Fear
+   Groove
+
+If none of the patterns extracted from these viruses are found, then two
+patterns extracted from MtE itself are searched for. This should detect
+new viruses using MtE for polymorphism in the cases when the decryptor
+has null effect.
+
+   We have tested CatchMtE against thousands of Pogue and Dedicated/Fear
+mutations in our lab. It achieved 100% hit rate in all cases. If you find
+a mutation that it fails to recognize, please contact us so that we can
+determine the cause and make the necessary corrections to the program.
+
+   CatchMtE is NOT a general virus scanner. It only looks for MtE-based
+viruses. If you would like to search your disks for other viruses as well,
+you should obtain a scanner such as F-PROT, SCAN, VIREX or VDSFSCAN, all
+of which are available via anonymous FTP at various sites. They can look
+for hundreds of other known viruses.
+
+Requirements:
+
+   IBM/PC compatible computer with DOS 3.0 or higher
+   128K of available memory
+   Booting from floppy diskette is also required
+
+Limitations:
+
+   Only the files with COM or EXE extension are checked. If the file
+   size is less than 1K, it will be skipped as well.
+   Subdirectories are scanned recursively. It does not check one single
+   file. To scan a drive, you must specify the root directory (e.g. C:\).
+
+Usage:
+
+   CATCHMTE.EXE  [-Mono] [-Pause] [-Ofname] [-Zfname]  Drive:\Subdirectory
+
+   Example:
+      To search C: drive starting from root directory:
+
+         CATCHMTE.EXE  -P -Oinfected.txt -Zpassed.txt  C:\
+
+      To search another directory and all subdirectories:
+
+         CATCHMTE.EXE  -p  C:\DOS
+
+ -Mono option forces CatchMtE not to use color output to make it easier
+  to read on some screens, mostly laptops emulating VGA.
+
+ -Pause option will allow you to see the list of infected files a screen
+  at a time; otherwise, they will scroll off the screen, so you should use
+  it unless you are testing the program against a zoo of mutations to verify
+  hit rate, as we did.
+
+ -O option will write the names of the files that were found to have an
+  MtE-based virus to the specified file. Final statistics will also be
+  written to this file.
+
+ -Z option will write the names of the files that were found NOT to have an
+  MtE-based virus to the specified file. This is good for zoo testing
+  since it will provide a list of mutations that were MISSED. If you are
+  not doing zoo testing, you do not need this option. If you find such a
+  mutation, please send us a copy of at least the decryptor portion if not
+  the complete sample for analysis.
+
+Advice:
+
+   You are strongly encouraged to consider integrity checkers as a first
+line of defense against virus attacks. There are some products in the market
+that concentrate on integrity checking. They can provide you with an early
+warning that can save you many man-hours of work. Once the spread of viruses
+is contained, they are not a significant threat.
+   Virus scanning software is useful in looking for known viruses. They are
+not meant to detect new viruses. With the escalating number of viruses and
+toolkits such as MtE, you are more likely to encounter new viruses that
+scanners cannot keep up with.
+   We have developed an anti-viral product (VDS, or Virus Detection System)
+that emphasizes integrity checking. A trial version of the package is
+available at anonymous FTP-sites and BBSes free of charge. To obtain a
+registered copy ($25 + SH for personal version), you can call us at
+(410) 247-7117 or write to us at:
+
+                  VDS Advanced Research Group
+                     Attn: Tarkan Yetiser
+                       P.O. Box  9393
+                  Baltimore, MD 21228, U.S.A.
+                         (410) 247-7117
+
+   We wish you a virus-free day of happy computing.

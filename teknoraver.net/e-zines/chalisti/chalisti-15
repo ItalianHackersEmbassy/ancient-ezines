@@ -1,0 +1,1915 @@
+
+            CCCCC  H    H    AA    L       I   SSSSS  TTTTTT  I
+           C       H    H   A  A   L       I  S         TT    I
+           C       HHHHHH   AAAA   L       I   SSSS     TT    I
+           C       H    H  A    A  L       I       S    TT    I
+            CCCCC  H    H  A    A  LLLLLL  I  SSSSS     TT    I
+
+                       Ausgabe 15 - (24.7. 1991)
+
+             Editorial.........................RC.........ORC1
+             2 x Freedom of Information........WJ.........OWJ2
+             Modellierung des Klimas...........FA.........OFA3
+             Poststruktur seit dem 1.7.1991....MK.........OMK4
+             ParlaKom (Rechner im Bundestag)...MK.........OMK5
+             BSI: Doch ein Schrecken ?.........RC.........ORC6
+             BSI: Boppard: Eine Dokumentation..RC.........ORC7
+             RMS in Stuttgart..................FA.........OFA8
+             Studenten und Netze (wiedermal)...FA.........OFA9
+             Kurzmeldungen.....................RC.........ORCA
+                     Buchtip: Unixverwaltung...............1-1
+                     USA / Export / Golfkrieg..............2-2
+                     Supercomputer in Koeln................3-3
+                     Hardwareecke in der Chalisti..........4-4
+             Impressum.........................RC.........ORCB 
+
+  Erlaeuterungen:    DS - Datenschleuder
+                     RC - Redaktion Chalisti
+                     BX - Redaktion BTX (Netzwerker)
+                     WJ - DFN-Projekt Wissenschaftsjournalisten
+                     NE - Uebernommen aus einem Netzwerk
+                     ST - Kurzgeschichte
+                     MK - MIK-Magazin
+                     FA - Freier Artikel (Autorenangabe am Anfang oder
+                                          Ende des Artikels)
+
+  Die Artikelkennung (ODS1,OBX2,etc) dient zum suchen der Artikel mit
+  Editoren und Textverarbeitungssystemen. Mit der Marke 'NEXT' kann gleich
+  zum naechsten Artikel gesprungen werden.
+
+------------------------------------------------------------------------------
+NEXT ORC1
+                        Da sind wir wieder ...
+
+Auch diesmal wieder fast eine Woche spaeter als geplant, kommt nun die
+Chalisti 15 raus. Diesmal lag es einfach daran, weil wir bestimmtes
+Material fuer den Artikel ueber das Bundesamt fuer Sicherheit in der
+Informationstechnik (BSI) erstmal gegenchecken und auch evntl. Folgen 
+fuer uns in Erfahrungen bringen wollten. Das hat seine Zeit gebraucht, 
+aber wir hoffen es hat etwas gebracht. 
+
+Auf den BSI-Artikel wollen wir daher besonders aufmerksam machen. Das
+wesentliche was mensch ueber oeffentliche Stellen wissen muss, um diese
+Einschaetzen zu koennen ist ihre Struktur, ihr Personal und ihr Umgang
+mit Steuergeldern. Diese Fragen soll versucht werden in dem Artikel 
+"BSI: Doch ein Schrecken" beantwortet zu werden. Wir haben dabei versucht 
+moeglichst viel Hintergrundinformationen und unseren Wissenstand ueber das 
+BSI in allen Bereichen mit einfliessen zu lassen. 
+Neben reiner Information hat mensch aber auch Stellung zu beziehen. Wir, 
+als Chaos Computer Club, machen da keine Ausnahme. Auch wenn einige uns
+nicht oder nur ungern zuhoeren, so lassen wir uns sicher nicht das Recht
+nehmen unsere Meinung zu sagen. Nun ist der CCC aber alles andere als eine
+Gruppe von Menschen mit gleicher oder aehnlicher Meinung. Daher ist es
+wahrscheinlich, dass nicht alle der Meinung sind, wie Dirk und ich diese
+in der "BSI: Dokumentation" vertreten. Auf Grund des Wissens das wir uns
+angeeignet haben, sind wir zu diesen Schluessen gekommen. Wer die 
+Dokumentation liesst - die zeitlich gesehen vor dem Artikel, naemlich im
+Mai 1991 entstanden ist - und dann den Artikel (entstanden in diesen
+Tagen) wird auch eine Weiterentwicklung und stellenweise ein Umdenken
+feststellen koennen. Umso mehr mensch sich mit Strukturen befasst, umso
+mehr kritischer wird mensch sie auch sehen. Das ist eine natuerliche Sache. 
+Zwischen Kritik und Intoleranz oder gefuehlsmaessige Ablehnung liegen
+trotzdem aber Welten. Wir hoffen mit unseren Beitrag kritisch zum Thema
+BSI Stellung genommen zu haben und damit moeglichst vielen Seiten - auch
+im CCC selber - gerecht zu werden.
+
+Aber BSI ist nicht das einzige Thema in der Chalisti 15. Nach laengerer Zeit
+haben wir wieder ein Bericht dabei. Richard M. Stallmann war in Deutschland
+und hat verschiedene Vortraege gehalten. Darueber handelt der Artikel von
+Pi, der klar die Probleme mit denen sich die Informatiker und Programmierer
+in den USA (und daher wohl auch bald intensiver in Europa) beschaeftigen
+aufzeigt.
+
+Ebenso moechte ich noch auf den Artikel "Studenten und Netze" aufmerksam 
+machen. Dieses Thema an sich haben wir immer wieder direkt angesprochen. 
+Aber auch bei Artikeln ueber die Nutzung von Netzen, war auch immer im
+Hinterkopf das eine Zielgruppe Studenten sind, weil diese die besten
+Infrastruktur haetten. Das "haetten" muss hier stehen, weil viele Unis
+immer noch nicht den Zugriff auf Netze als Infrastrukturmassnahme gestatten.
+Netze sind ein Informationspool wie eine Bibliothek und sollten daher nicht
+von "Programmierkursen" oder "Vordiplom" abhaengig gemacht werden. Aber
+auch innerhalb der Studenten gibt es Abneigung. Wir - als intensive Nutzer
+der Netze - lachen ueber Meinungen wie vom ASTA Braunschweig, dass Netze
+doch Machtinstrumente der herrschenden Klasse seien. Aber lachen hilft da
+auch nicht weiter. Auf der anderen Seite gibt es Studenten, die die
+Informationsverbreitung innerhalb der Studentenschaft verbessern wollen. 
+Sie denken an Informationssysteme und uni-weite Mailboxen. Es ist auch
+lobenswert, dass diese dann sich an das DFN wenden und einen Workshop 
+organisieren (Chalisti berichtete). Das aber dann Studenten anderer Unis
+nicht gern gesehen werden, dass jeder Versuch auch eigene Ideen einzubringen
+verhindert wird - bis hin zum setzen von Gedankenviren, dass diese anderen
+Studenten ja alles 'Hacker' waeren....
+DAS verhindert nun, dass konsequent die Moeglichkeiten genutzt werden auch 
+den Studenten an anderen Universitaeten den Netzzugang zu ermoeglichen. 
+Gewissen Muensterraner Jurastudenten sollten sich diesmal durch den Kopf 
+schiessen lassen. Vielleicht haben sie aber auch Lust Ende Dezember nach 
+Hamburg zu kommen und mit den sogenannten Hackern, mit Studenten, Netzexperten 
+und auch Netzwerkbetreibern (wie z.B. das DFN) zu diskutieren: Sie sind 
+herzlich eingeladen.
+
+Abschliessend: Die naechste Chalisti solle End August erscheinen, falls
+nichts dazwischen kommt. 
+
+                                                Eure Redaktion Chalisti
+
+
+------------------------------------------------------------------------------
+NEXT OWJ2
+                     2 x Freiheit der Information
+
+Novellierung des 'Freedom of Information Act'  
+---------------------------------------------
+Der Fall des New Yorker Unternehmens "Brownstone Publishers Inc." ist 
+bezeichnend. Das Unternehmen beabsichtigte die Datenbank des Stadt-
+entwicklungsamtes zu nutzen, um daraus interessante Statistiken abzuleiten und 
+mit Blick auf das ortsansaessige Maklergewerbe und den Immobilienhandel zu 
+vermarkten. Die Stadtverwaltung erklaerte sich jedoch lediglich bereit, einen
+Papierausdruck ihres entsprechenden Datenbestandes zur Verfuegung zu stellen. 
+Statt einer $46 teuren Kopie der Datenbank auf Magnetband sollten mehrere 
+Millionen Seiten Papier bedruckt werden. "Brownstone Publishers Inc." haette 
+die Datenbank anhand dieser Unterlagen voellig neu generieren muessen. 
+Geschaetzter Gesamtaufwand $10.000.
+
+ Das Unternehmen liess sich auf diese Vorgehensweise nicht ein, ging statt-
+dessen unter Berufung auf den "Freedom of Information Act" vor Gericht und 
+gewann das Verfahren. Mit der Begruendung, dass der dem "Freedom of 
+Information Act" unterliegende gesetzgeberische Wille darauf ausgerichtet sei, 
+jedermann ohne Ruecksicht auf moegliche kommerzielle Interessen den best-
+moeglichen Zugang zu Verwaltungsaufzeichnungen und Regierungsdokumenten zu 
+ermoeglichen, wurde die New Yorker Stadtverwaltung zur Herausgabe eines 
+entsprechenden computerlesbaren Magnetbandes verurteilt.
+
+ Der demokratische Senator Patrick J. Leahy, Vorsitzender des "Senate 
+Subcommittee on Technology and the Law" arbeitet z. Zt an einer Novellierung 
+des "Freedom of Information Act" die den Moeglichkeiten der modernen 
+Datenverarbeitung besser Rechnung tragen soll. Drei Aspekte werden im Zuge 
+dieser Novellierungsdebatte besonders kontrovers diskutiert:
+
+1) Sollen Regierungseinrichtungen ueberhaupt veranlasst werden koennen, 
+   Datenbankinformationen in den Formaten herauszugeben, die von Anfragern 
+   gewuenscht werden?
+2) Wieviel Programmieraufwand darf einer Regierungseinrichtung zugemutet 
+   werden, um Anfragen auf der Grundlage des "Freedom of Information Acts" 
+   beantworten zu koennen
+1) Inwieweit soll sich der "Freedom of Information Act" auch auf die Freigabe 
+   regierungseigener Verwaltungssoftware und - zur Kontrolle des Verwaltungs-
+   handelns - auch auf verwaltungsinterne E-mail beziehen.
+
+Was Datenbankformate angeht, so sieht der derzeit diskutierte Novellierungs-
+entwurf von Senator Leahy sog. "vernuenftige (reasonable) Formatanfragen" 
+als gerechtfertigt an. Auf keinen Fall sollte Regierungseinrichtungen die 
+Herausgabe von Datenbankinformationen in Formaten abverlangt werden, die dort
+nicht zur Verfuegung stuenden. Auch der angesehene Rechtsprofessor 
+Henry H. Perritt Jr. von der "Villanova University" in Philadelphia aeussert 
+in einem Gutachten, dass Regierungseinrichtungen nicht zur Reorganisation von 
+Datenbankstrukturen oder gar zur Generierung neuer Datenbankformate 
+verpflichtet seien. Dennoch sind Regierungseinrichtungenn besorgt, dass die
+Geschaeftswelt den "Freedom of Information Act" fuer kommerzielle Interessen 
+missbrauchen koennte. (Anm. der Red. Chalisti: Das geschieht tagtaeglich. 
+Das FoIA wird weitaushaeufiger fuer kommerzielle Interessen genutzt, als
+im Sinne des Erfinders zur Kontrolle von Regierungsstellen). Ein weiterer 
+Kritikpunkt ist, dass Gebuehren fuer Anfragen auf der Grundlage des 
+"Freedom of Information Act" an das US-Finanzministerium zu entrichten sind 
+und nicht an direkt an die Einrichtung, in der entsprechende Anfragekosten 
+entstehen. Darueberhinaus sei die Personalausstattung vieler Einrichtungen so 
+schlecht, dass ein Anstieg von Anfragen kaum noch bewaeltigt werden koenne.
+(aus Fitnus 18, GMD Aussenstelle Washinton)
+
+Der Warenwert von Information und die Paradigmendiskussion in der Informatik
+ Auf der vornehmlich von amerikanischen Datenbankanbietern getragenen 
+"Online-91", die vom 7.-9. Mai in New York stattfand, fand u.a. der Vortrag 
+des unabhaengigen Unternehmensberaters David Bellin vom "Pratt Institute" 
+in Brooklyn mit dem Titel "The Commoditization of Information - Political 
+and Economic Realities" besondere Beachtung. Bellin griff in besonderer 
+Weise in die z.B. in der GMD unter dem Titel "Leitbilder der Informatik" 
+gefuehrte Paradigmendiskussion ein, die in Deutschland - je nach Sichtweise -
+den "Partner-", "Medien-" oder "Werkzeugcharakter" des Computers betont.
+
+ Er beschaeftigte sich zunaechst mit dem Wert der Ware Information.
+Aus polit-oekonomischer Sicht liege der Warenwert von Informationen ueber 
+ihrem reinen Gebrauchswert. Ebenso wie die auf dem Arbeitsmarkt gehandelte 
+Ware "Arbeitskraft", die als einzige wertschoepfende Eigenschaften habe, 
+werde auch die auf dem Informationsmarkt gehandelte Ware "Information" 
+zunehmend einzigartig in ihrer Eigenschaft, mehr als nur sensu-motorisch
+regulierte (physical) Arbeitsprozesse steuern zu koennen. Erstmalig, so 
+Bellin, seien wir heute in der Lage, auch die diese Prozesse steuernden 
+Denkvorgaenge (abstract reasoning) informationstechnologisch auf Maschinen 
+abbilden zu koennen. Dies geschehe durch die Akquisition von Wissen, das 
+z.B. in Expertensysteme eingelagert werden koenne.
+Wissen sei allerdings zunaechst grundsaetzlich private Information in den 
+Koepfen von Menschen. Der besondere Wert von Informationen als Ware begruende 
+sich daher zunehmend ueber die urspruengliche "Privatheit" akquirierter und 
+damit der Privatsphaere entzogener Informationen. Erst diese Art von 
+Information ermoegliche es, Computer als expertokratische Partner des 
+Menschen auszulegen.
+Waehrend sich seit Jahrzehnten der Begriff der "entfremdeten Arbeit" 
+(alienation of labor) eingepraegt habe, eroeffneten diese informations-
+technologischen Potentiale heutzutage die viel weitreichendere  Moeglichkeit, 
+Arbeitnehmer vollstaendig von ihrer Arbeit zu trennen.
+
+ Die zunehmende Akquisition privaten Wissens, so konzedierte Bellin, werfe 
+allerdings auch in den USA immer akuter werdende Probleme des gesetz-
+geberischen Schutzes der Privatsphaere und des persoenlichen Datenschutzes auf.
+
+ Der Vortrag ist in den "Proceedings of the Twelfth National Online Meeting" 
+abgedruckt, die zum Preis von $55 bei "Learned Information Inc., 
+143 Old Marlton Pike, Medford, NJ 08055" bestellt werden koennen. Auf Wunsch 
+ist die GMD-Aussenstelle Washington bei der Beschaffung behilflich.
+
+
+
+------------------------------------------------------------------------------
+NEXT OFA3
+
+  Rechenmodelle zur Klimaentwicklung und Auswirkung des Golfkrieges
+
+   Durch Terra und die Chalisti bin ich eines Tages  auf  eine  Veran-
+staltung  der  TeLi  (Technisch-Literarische  Gesellschaft e.V.) gera-
+ten. Seitdem erhalte von dort regelmaessig Einladungen. Eine davon be-
+traf einen Vortrag ueber den Stand der Rechenmodelle zur Klimaentwick-
+lung. Es referierte Dr. Mogib Latif vom Max-Planck-Institut.
+
+   Ein wesentlicher Grund fuer die Entwicklung von Rechenmodellen  zur
+Klimaentwicklung  ist  der  Treibhauseffekt.  Dieser  Effekt wurde von
+einigen Wissenschaftlern vorhergesagt, als sie  einen  Anstieg einiger
+Spurengase  in der Atmosphaere beobachteten. Dabei handelte es sich um
+das CO2, Methan und CFC12. Aufgrund der Komplexitaet des Gesamstystems
+laesst  sich  aber  kein  vollstaendiger Beweis ueber die Auswirkungen
+fuehren, obwohl die beobachteten Veraenderungen (Anstieg der  globalen
+Temperatur  um  0.5 Grad, Wasserspiegel +15cm, Abkuehlung der Stratos-
+phaere) konsistent sind. Da es keine Moeglichkeit gibt,  die  Erde  in
+ein  Reagenzglas zu packen und mit ihr zu experimentieren, muss mensch
+Modelle bilden und mit diesen arbeiten. Dabei bedingt die Vielzahl der
+Faktoren (Atmosphaere, Ozeane, Erdmasse, Vulkane, ...) eine  Vereinfa-
+chung.  Die Unsicherheit bezueglich des weiteren Anstiegs der Treibha-
+usgase wird durch die Anfertigung von Szenarien umgangen.
+
+   Das (realistischere) Modell A geht von  keiner  Einschraenkung  der
+Produktion  der  Gase  aus.  Im Modell B wird von einer vollstaendigen
+Ausnutzung der zur Verfuegung stehenden  Moeglichkeiten  zur  Reduzie-
+rung ausgegangen. Im Fall des Modells A steigt die Temperatur bis zum
+Jahr 2030 im globalen Mittel um 3 Grad, im Fall B um  1 Grad. Dies ist
+zwar erheblich weniger  als noch vor einigen Jahren vorhergesagt, aber
+es ist weniger die Hoehe des Anstiegs  als dessen Tempo. Viele  Pflan-
+zen  und  Tiere haben keine Chance, sich den Entwicklungen anzupassen,
+hinzu kommen starke regionale Unterschiede. Im Fall A kommt es zu ein-
+er starken Erhitzung der Kontinente (+5 Grad) und  einer  Austrocknung
+von Nordamerika. Weiterhin wird sich die noerdliche Hemisphaere staer-
+ker  erwaermen als die suedliche. Die Abweichungen zu frueheren Model-
+len  ergeben  sich  aus  der  jetzt  moeglichen  Beruecksichtigung von
+Meeresstroemungen.
+
+   Waehrend des Golfkrieges waren die Auswirkungen der brennenden Oel-
+quellen ein staendiges Thema. In einer Modellrechnung  sind  die  Wis-
+senschaftler  des  Max-Planck-Institutes  von  einer  Verbrennung  der
+doppelten Vorkriegsproduktion fuer ein  Jahr  ausgegangen.  In  diesem
+Modell  wird  ein Russanteil von 10% und ein Aufstieg in Hoehen bis zu
+2km angenommen. Daraus ergaben sich global  keine  Auswirkungen.  Ent-
+scheidend  ist  die  Hoehe,  in die der Russ aufsteigt. In einer Hoehe
+von 6 bis 10 km haetten diese Russmengen einen betraechtlichen Effekt.
+Aber auch so sind die regionalen Effekte betraechtlich. Fuer die Dauer
+der Braende wird sich in der betroffenen Region eine Abkuehlung von  4
+Grad  einstellen.  Hinzu  kommt eine schleichende Vergiftung durch die
+dem  Russ  anhaftenden Gifte. Diese gehen  (in nennenswerter Menge) in
+etwa 500 km Umkreis nieder.
+
+   Einen  wesentlich  staerkeren  Effekt  haben  die Vulkane,  da ihre
+Gase eine Hoehe von mehr als 10 km erreichen. Zwar sinken die groesse-
+ren  Teilchen  schnell  wieder ab, aber das SO2 wird in Schwefelsaeure
+umgewandelt und kann sich  mehrere  Jahre  halten.  Genaue  Rechnungen
+zur Auswirkung des Pinatubo-Ausbruches sind noch nicht vorhanden.
+
+   In den zur Zeit vom Max-Planck-Institut verwendeten Modell wird die
+Erde mit Gitterpunkten (Abstand 500 km)  ueberzogen.  Die  Atmosphaere
+bwird  in 10 bis 20 Schichten eingeteilt. An jedem der sich ergebenden
+Punkte werden Daten wie  Temperatur,  Feuchtigkeit,  Windrichtung  und
+Geschwindigkeit berechnet. Daraus ergeben sich etwa 10 Millionen Glei-
+chungen.  Verwendet wird zur Berechnung eine Cray II. In diesem Modell
+wird auch eine Waermeaustausch mit den Ozeanen  und  die  sich  daraus
+ergebenden  Stroemungsaenderungen beruecksichtigt. Die Meeresstroemun-
+gen haben sich als wichtiger Faktor erwiesen. Sie haben einen erhebli-
+chen Anteil an der Stabilitaet des europaeischen Klimas.
+
+   Eine weitere Verbesserung der Modellierung soll durch eine  Verfei-
+nerung  des  Rasters, Arbeiten mit Druckgebilden und Beruecksichtigung
+rueckkoppelnder Effekte erreicht werden. Die Grenze wird im  wesentli-
+chen  von  der  Rechnerkapazitaet  gesteckt.  In  wie  weit noch nicht
+beruecksichtigte Faktoren die Entwicklung beeinflussen  und  die  Vor-
+hersagen richtig sind, musste offen bleiben. Hinweise auf divergieren-
+de  Ergebnisse  anderer  Institutionen wurden mit "Der beruecksichtigt
+ja .... nicht." beantwortet, aber ich vermute, der  Schuh  wuerde auch
+andersum passen. So wird in  diesem  Modell  die  Wolkenbildung  nicht
+beruecksichtigt.
+
+   Auf Anfrage meinte Dr. Latif, dass die Schaeden noch nicht irrever-
+sibel sind. Er aeusserte sich optimistisch,  was  die  Entwicklung al-
+ternativer,  dezentraler  Energien  anbelangte, da "gar nichts anderes
+uebrig bleibt". Auch die Schaeden an der Ozonschicht koennen sich  zu-
+rueckbilden,  obwohl  mit  einer  Verzoegrung  von 20 Jahren gerechnet
+wird. Gefahren  drohen  seiner  Meinung  nach  durch  die  Entwicklung
+hochfliegender Flugzeuge im Ueberschallbereich.
+
+Autor: Martin Seeger, raider@tpki.toppoint.de
+
+
+
+------------------------------------------------------------------------------
+NEXT OMK4
+                   Neue Poststruktur ab 1. Juli
+
+1. Juli 1991, Magdeburg (mik) - So gut wie alle Buerger sind von den 
+juengsten Veraenderungen bei der Post betroffen. Bis 30. Juni galt 
+Verwaltungsrecht bei den bislang relativ kostenguenstigen 
+Auseinandersetzungen zwischen Postbenutzern und der Postverwaltung. 
+Zwei Jahre hatte die Post Zeit zur Umstellung auf privatrechtliche 
+Verhaeltnisse wie zwischen Kunde und Verkaeufer einer Ware ueblich. Diese 
+damals vom Poststrukturgesetz vorgegebene Frist endet mit dem 30. Juni 
+1991. Allgemeine Geschaeftsbedingungen (AGB) ersetzen nun die 
+althergebrachten Postordnungen in allen drei Bereichen der Post. 
+
+Bei der Telekommunikation und dem Briefdienst wird die Monopolstellung 
+der Post begrenzt. Nur ueber bestimmte hoheitliche Aufgaben, wie die 
+Frequenzzuweisung, entscheidet weiterhin der Minister als Amtsperson. 
+Im Bereich Bereich der Postbank gelten zukuenftig ausschlieszlich 
+Allgemeine Geschaeftsbedingungen (AGB). Postgiro-Ordnung sowie 
+Postsparkassen-Ordnung entfallen. 
+
+Ueber 660 Seiten umfassen derzeit die bislang von der Post 
+veroeffentlichten "Allgemeinen Geschaeftsbedingungen", Preislisten und 
+Berichtigungen dazu. Das ist jedoch nur ein kleiner Teil der kommenden 
+Flut von Verordnungen. Bis wenige Tage vor Auszerkrafttreten der 
+Telekommunikationsordnung - allein die TKO erfordert drei Aktenordner 
+- wurde an der ab 1. Juli gueltigen neuen Telekommunikations-
+Verordnung gearbeitet. Sie wurde am 10. Juni vom Infrastrukturrat und 
+am 21. Juni vom Bundeskabinett beschlossen. In anderen Bereichen der 
+Post befand sich die Umstellungsarbeit aehnlich nahe am letztmoeglichen 
+gesetzlich verlangten Termin. 
+
+Nicht nur gewoehnliche Postkunden, sondern auch die Mitarbeiter der 
+Post sind schwer gefordert, alle neuen Bedingungen zu lesen, zu 
+verstehen und im Umgang mit den Kunden entsprechend zu verwirklichen. 
+
+Doch auch fuer Unternehmen ist die Lage schwierig. So koennte das 
+private Mobilfunknetz D2 zwar ab 1. Juli starten, doch was der Betrieb 
+des Netzes kostet, ist nicht kalkulierbar. Die Post hat bislang nur 
+ueberteuerte Tarife vorgelegt, die nicht genehmigungsfaehig sind. Auch 
+bei Tarifen fuer Leitungsmiete bei der Post gibt es Wuchergrenzen. 
+Immerhin muessen aus weiterhin bestehenden Monopolgruenden fuer das D2-
+Netz alle Kabelverbindungen zwischen den D2-Funkstationen von der Post 
+gemietet werden. 
+
+Noch schlimmer ist es fuer die fuenf neuen Laender. Fuer den TELEKOM-
+Bereich versaeumte der Minister die Rechtsangleichung zwischen alten 
+und neuen Laendern. Zumindest in den Bereichen Postdienst und Postbank 
+gilt in Ost und West nun gleiches Recht. 
+
+Bei der Umstellung auf privatrechtliche Bedingungen bei Briefdienst 
+und Postbank sind kaum Probleme zu erwarten, auch wenn die neuen 
+Rechtsverordnungen erst nach dem 1.7. vorliegen. Anders ist es beim 
+zukunftstraechtigen TELEKOM-Bereich. Dort werden die 
+Wettkampfbedingungen noch nach dem Startschusz zum Wettkampf im 
+Postministerium diskutiert. Eine "zeitgerechte Loesung", wie es das 
+Postverfassungsgesetz verlangt, ist das - nach zwei abgelaufenen 
+Jahren - wohl kaum. 
+
+Bei allem Bemuehen zu einer angemessenen Abwaegung zwischen den 
+Interessen der TELEKOM und ihrer Nutzern verweigerte sie den Kunden - 
+entgegen allen bisherigen Gepflogenheiten - die Moeglichkeit, den 
+beschluszfertigen Text der Telekommunikationsverordnung zu erhalten und 
+dazu Stellung zu nehmen. Dabei war es bisher ueblich, neue 
+Benutzungsverordnungen mindestens ein halbes Jahr vor Inkrafttreten zu 
+verkuenden. Das galt als rechtsstaatlich korrekt. Zum 1. Juli kommt nur 
+eine Postpressemitteilung ueber die Moeglichkeiten der Telekom "wie 
+frueher" zu "Leistungsunterbrechungen aus uebergeordneten 
+Gesichtspunkten". Den Wortlaut der so zitierten 
+Telekommunikationsverordnung (TKV) jedoch kann man erst in Kuerze 
+erhalten. 
+
+Diese Terminnoete sind derzeit Alltag im Postministerium. Auch die 
+Frist von drei Wochen - so das Postverfassungsgesetz, fuer die 
+Genehmigung bzw. Zurueckweisung gravierender Gebuehrenerhoehungen vom 7. 
+Mai 1991 fuer den Geschaeftsbereich TELEKOM - reichte dem Minister nicht 
+aus. Das nimmt sowohl der TELEKOM als auch den Postkunden jede 
+Planungsmoeglichkeit. 
+
+Eines jedoch kann sich jeder Postkunde merken: Die Haftung der Post 
+ist im Vergleich zum Zivilrecht eingeschraenkt mit der Begruendung, dasz 
+flaechendeckende Dienstleistung nur so zu erschwinglichen Preisen 
+geliefert werden koenne. 
+
+Insgesamt bleibt festzustellen, dasz alle Verordnungen zur 
+Privatisierung der Post, die - wie das Gesetz es verlangt - zwingend 
+zum 1.7.1991 in Kraft treten sollen, auch dann in Kraft treten, wenn 
+deren genauer Wortlaut noch nicht vorliegt. 
+
+Autor: Wau Holland, MIK_Magazin Nr. 27
+
+
+------------------------------------------------------------------------------
+NEXT OMK5
+
+        Parlakom: Einfache Recherche fuer einfaches Denken
+ 
+1. Juli 1991, Hamburg (mik) - Einfache Abgeordnete im deutschen 
+Bundestag werden langsam zu Mitarbeitern einer Textbaustein-Fabrik. 
+Den Buergern sind sie als computerisierte Buettel, die Serienbriefe 
+verschicken, bislang kaum bekannt. Waehrend der gewoehnliche Buerger 
+seine Informationen meist aus der Tageschau bezieht, werden die Bonner 
+Parlamentarier von ihren Fraktionspitzen her ueber ein Computernetzwerk 
+instruiert. Einfache Recherche fuer einfaches Denken? Eine Alternative 
+formulierte Prof. Eckard Raubold, Institutsleiter der Gesellschaft fuer 
+Mathematik und Datenverarbeitung (GMD). Nach Raubold schafft die 
+dezentrale Datenverarbeitung Kommunikationsanforderungen, durch die 
+bisherige Entscheidungshierarchien ihre Daseinsnotwendigkeit 
+verlieren. 
+
+So wurde das 1984 in Mainz neu eroeffnete Sendezentrum des ZDF auch als 
+"offenes Netz" und nicht hierarchisch konzipiert. Doch noch Mitte der 
+80er Jahre entschied die Verwaltung des deutschen Bundestages, die 
+Abgeordneten kuenftig mit hierarchisch vernetzter High-Tech 
+auszustatten. Unter der Ueberschrift "Das programmierte Parlament" 
+berichtet Norbert Mappes-Niediek im ZEIT-Dossier vom 27.6.91, wie sich 
+die Technik auf die politische Arbeit auswirken wird. Konsequenz: 
+Durch den Computereinsatz werden die Abgeordneten im Alltag 
+dequalifiziert. 
+
+Die Volksvertreter leben als Serienbriefe verschickende Datensammler. 
+Dabei muessen sie die jeweils schon elektronisch verschickten 
+Aeuszerungen der Vordenker in der jeweiligen Fraktion beachten. Am besten 
+ausgestattet ist weiterhin die CDU, die sich von der Firma Wang 
+bereits Anfang der 80er Jahre beraten liesz. Wang verfuegte ueber 
+Erfahrungen in den USA. Dort vermietete das Unternehmen mobile 
+Wahlkampfbueros mit Computer- und Telefonvernetzung inklusive Personal 
+an Politiker. 
+
+Entsprechend war der US-Kongresz bei der Textverarbeitung weit vorn. 
+Ausgestattet mit dem Privileg der Portofreiheit verschickten die 
+Abgeordneten dort schon seit Jahren intelligente Musterbriefe an ihr 
+Wahlvolk. Die Textbausteine wurden je nach den empfaengerbezogenen 
+Eintraegen im Datenarchiv zusammengefuegt. So bekamen beispielsweise 
+Kriegsgegner eine andere Komposition als Waffennarren. Der Computer 
+wurde zum Werkzeug einer Propaganda-Feinverteilung.
+
+Inzwischen ist hierzulande auch zeitlich genau geregelt, wem welche 
+Informationen im Sinne der Parteihierarchie mit der jeweiligen 
+Verzoegerung zugeteilt werden und wem nicht. Der Wettstreit um Minuten, 
+den sich Nachrichtenagenturen in ihrer Nachrichtengebung liefern, hat 
+sich auf das Informationsmanagement der Abgeordneten uebertragen. 
+
+Die Serienbrieffunktion und Textbaustein-Verarbeitung ist schon seit 
+laengerem bei der CDU im praktischen Einsatz. Die Leser im Wahlkreis 
+sollen durch Einfuehlsamkeit, Reflexionsniveau und Kompetenz 
+beeindruckt werden. Dagegen gab es bei der FDP waehrend des Golfkrieges 
+einen einfacheren Serienbrieftyp. Die computermaeszige Standardantwort 
+besagte, es seien "schon koerbeweise Stellungnahmen" eingegangen. 
+Gebeten wurde um "Verstaendnis" fuer Nichtstun im gehaeuften Einzelfalle. 
+Bei der SPD ist alles noch "im Aufbau" und die GRUeNEN/BUeNDNIS 90 
+werden geraetemaeszig mit als die Letzten im Bundestag versorgt. Die PDS 
+hat dagegen schon fast alle ihnen zustehende Geraete in Betrieb. 
+
+Das verwundert kaum, denn noch vor vier Jahren lehnte die damalige 
+Fraktion der GRUeNEN den Computereinsatz ab und war so kurzsichtig, 
+kreative Computernutzung zu verhindern und verzichtete freiwillig auf 
+die von der Bundestagsverwaltung zur Verfuegung gestellten Geraete. Eine 
+noch immer lesenswerte Studie zum sozialvertraeglichen Computereinsatz 
+wurde bislang ignoriert. (GRUeNE KRAFT, D-6941 Loehrbach, ca. 10 DM). 
+
+Schon damals war der Datenschutz und die Freiheit der Abgeordneten ein 
+heiszes Thema. Staendiges Mauern in den Aussschuessen fuehrte dazu, dasz 
+sich engagierte Datenschuetzer von dort zurueckzogen. Es ist ja auch 
+sinnlos, in derartigen Graemien staendig gute Vorschlaege zu liefern, 
+die ergebnislos versanden. Inzwischen feilt der 
+Geschaeftsordnungsausschusz am 7. Entwurf und der Datenschutzbeauftragte 
+haette seine Mahnungen gleich als Serienbrief mit Wiedervorlage 
+konzipieren koennen. 
+
+Auf einem Landtags-PC findet sich beispielsweise eine "Besucherdatei" 
+und den "Kontaktpersonen". Gespeichert werden Daten zu 
+Parteimitgliedschaften und Funktionen, Eigenschaften wie "nahestehend" 
+und Posten im oertlichen Fuszballclub. Weiter gibt der Computer dem 
+Abgeordneten aus, wann ein Besucher schon einmal da war und was er 
+gefragt hat. 
+
+Von der "maschinenlesbaren Regierung", wie sie in der vier Jahre alten 
+Studie gefordert wird, sind wir allerdings noch weit entfernt.
+
+Autor: Wau Holland, MIK-Magazin Nr. 27
+
+
+------------------------------------------------------------------------------
+NEXT ORC6
+
+                    BSI: Doch ein Schrecken ?
+
+Ein halbes Jahr existiert das neue Bundesamt fuer Sicherheit in der
+Informationstechnik schon. Im Augenblick noch in 3 Haeusern getrennt
+untergebracht, wird das neue alte Bundesamt im August in ihr Gebaeude 
+in Bonn-Bad Godesberg, gegenueber dem Hotel Maritim, einziehen.
+
+Interessant fuer uns sind aber weniger die neuen Gebaeude, als eher
+die Arbeit des Bundesamtes. Wie in der Chalisti 14 geschrieben, ist
+das BSI mit seinem Arbeitsbereich fuer den CCC ein Augenmerk wert.
+Die Frage, ob - und besonders wie - es seine Aufgaben wahrnimmt ist
+nicht nur fuer uns, sondern fuer die Gesellschaft im allgemeinen von
+besonderer Wichtigkeit. Wenigstens sollte es so sein, aber das Amt kann
+im Stillen seinem Aufbau nachgehen und bekommt von vielen Seiten - auch
+Journalisten - eine Schonfrist zugestanden. Wir halten im Hinblick auf
+die zukuenftige Entwicklung der Gesellschaft zur Informationsgesellschaft
+die Arbeit des Bundesamtes fuer zu wichtig, um es jetzt einer zu langen 
+Schonung zu gewaehren. 100 Tage sind lange vorbei, also machen wir uns 
+Gedanken ueber das BSI ...
+
+Am Anfang sehen wir unsere Aufgabe darin weitere Informationen ueber das
+BSI zu geben, so wie es uns bekannt und belegbar ist. Die wichtigsten 
+Informationen ueber eine zentrale staatliche Stelle sind Personen, 
+Struktur und Finanzen. Also beschaeftigen wir uns erstmal mit diesen 
+Punkten. Dabei wollen wir versuchen besonders Zusammenhaenge und Hinter-
+grundwissen zu vermitteln. Wir tragen damit u.A. auch Material zusammen, 
+welches schon im Spiegel oder anderen Publikationen veroeffentlicht wurde.
+
+Struktur
+--------
+An der Spitze des BSI steht als Praesident Dr. Otto Leiberich. Knapp
+ueber 60 Jahre alt, 1946 Abitur, 1947 Mathematik an der Uni Koeln
+studiert, 1953 Promotion mit einem Thema aus der hoeheren Algebra, danach
+wissenschaftliche Taetigkeit, dann Dienst in der Zentralstelle fuer
+Chiffrierwesen (ZfCh) und dem spaeteren ZSI. Davon zwischen 1962 und
+1974 Chefmathematiker und seit 1974 Leiter des ZSI und eben heute 
+Praesident des BSI. 
+Als Vizepraesident steht ihm Dr. Mertz beiseite. 
+
+Diesen beiden Personen sind die 6 Abteilungen des BSI unterstellt. Des
+weiteren sind diese Abteilungen in mehrere Referate unterteilt. Wir stellen 
+sie hier dar, wie der Stand am 25. Maerz 1991 war. Die Quelle sind die
+Informationen ueber 'Struktur, Ausstattung und Planungen des BSI vom 
+5.4.1991. Soweit wir hier feststellen konnten, hat sich weder an der
+Struktur noch an den Personen wesentliches veraendert. Insbesondere sind 
+die hier als N.N. angegebenen Posten bis heute noch nicht besetzt worden.
+
+Abteilung I 'Zentrale Aufgaben', Dr. Mertz, Durchwahl: -655
+
+        Referat I 1, RR Dickopf, -313
+                Grundsatz, Recht, Organisation, IT-Koordinierung, 
+                Zentrale Dokumentation, Bibliotkek, Oeffentlichkeitsarbeit
+        Referat I 2, RD'n Dr. Werthebach, 346599
+                Personal
+        Referat I 3, Wahrnehmung durch AL I
+                Haushalt, Beschaffung
+        Referat I 4, RR Samsel, -653
+                Innerer Dienst, Sicherheit
+
+Abteilung II, 'Wissenschaftliche Grundlagen und Zertifizierung', N.N.
+Zu dieser Abteilung gehoert unter anderem auch die Technologiefolgen-
+abschaetzung unter IT-Sicherheitsaspekten, wobei diese im Augenblick eher
+von Abteilung zu Abteilung geschoben wird. Es fuehlt sich de facto keiner
+zustaendig. Die Hoffnung auf eine eigene Abteilung dieses komplexen Themas
+und Forschunggebietes kann schon jetzt so gut wie aufgegeben werden.
+
+        Geplante Unterteilung: 
+                - Mathematische Grundlagen
+                - Technische Grundlagen
+                - Allgemeine Analyse des Gefaehrdungspotentials, 
+                  Grundlage der Systemsicherheit und Evaluierung
+                - Zertifizerung, Zulassung, Normung
+
+Abteilung III, 'Mathematische Sicherheit', RD Hange, -660
+Dieser Abteilung obliegt im Rahmen des Par. 3, Abs. 1, Nr. 6 BSIG bei 
+Bedarf auch der Entzifferung von Straftaetern entwickelter Verfahren zur 
+Verschluesselung, z.B. aus der Rauschgiftszene. 
+
+        Referat III 1, N.N.
+                Entwicklung mathematischer Sicherungsverfahren
+        Referat III 2, ORR Dr. Liebefrau, -658
+                Evaluierung mathematischer Sicherungsverfahren
+        Referat III 3, N.N. 
+                Sicherheitsanalyse
+        Referat III 4, RD Bahr, -659
+                Software-Realisierung mathematikscher Sicherungsverfahren
+
+Abteilung IV, 'Technische Sicherheit', VA Schwirkmann, -569
+Diese Abteilung begleitet die Entwicklung von neuen Produkten bezuegl.
+Sicherheitserkenntnissen und verfuegt ueber eine langjaehrige Erfahrungen
+mit den zustaendigen Stellen in den USA und bei der NATO.
+
+        Referat IV 1, BD Siedentop, -573
+                Technische Realisierung mathematischer Sicherungsverfahren
+        Referat IV 2, BOD Dr. Hembach, -641
+                Verschluesselungssysteme
+        Referat IV 3, BD Koos, -423
+                Schluesselmittel
+        Referat IV 4, BD Dr. Dorst, -546
+                Abstrahlsicherheit
+        Referat IV 5, BOR Sanne, (02254) 38-(1) 276 (ehemals BSG/BMI)
+                Lauschabwehr, Abstrahl- und Lauschabwehrpruefungen
+        Referat IV 6, RD Schnelder, (0221) 7924205
+                Materielle Sicherungstechnik
+
+Abteilung V, 'Sicherheit in Rechnersystemen', LRD Everts, -232
+Aus dieser Abteilung kommen die bekannten IT-Sicherheitskriterien, sowie
+das gerade in Vorbereitung befindliche IT-Sicherheitshandbuch, welches
+im Herbst erscheinen soll. Der von Dr. Leiberich geaeusserte Wunsch, dass
+sich das BSI vordringlich mit Verschluesselung und Lauschabwehr - gerade
+auch im Hinblick auf neue Gefahren von innen und aussen - schlaegt sich hier
+deutlich nieder. 
+
+        Referat V 1, ORR Felzmann, -234
+                Systembezogene Risikoanalyse
+        Referat V 2, ORR van Essen, -228
+                IT-Sicherheitstandards
+        Referat V 3, BD Dr. Kreutz, -229
+                Massnahmen zur Systemsicherheit
+        Referat V 4, ORR Dr. Kersten, -237
+                Evaluierung von IT-Systemen/-Komponenten
+        Referat V 5, ORR Dr. Ganser,  
+                Technik fuer Systemevaluierung und -entwicklung
+
+Abteilung VI, 'Beratung und Unterstuetzung', N.N.
+Die Planstellen in dieser Abteilung koennen fruehstens 1992 beantragt
+werden. Allein die Beratungseinheit fuer den materiellen Geheimschutz 
+existiert erstmal, weil diese vom Verfassungsschutz uebernommen wurden.
+
+        Referat VI 1, N.N.
+                Grundsatz, Schulung, Informationsdienst
+        Referat VI 2, RD Meissner, (0221) 7922508
+                Beratungsdienst I
+        Referat VI 3, N.N.
+                Beratungsdienst II
+        Referat VI 4, N.N.
+                Unterstuetzung der Polizeien, Strafverfolungs- und
+                Verfassungsschutzbehoerden, Auswertung der Sicherheits-
+                erkenntnisse. 
+
+
+Personal
+--------
+Fuer das Jahr 1991 verfuegt das BSI 278 Planstelle/Stelle. Davon wurden
+153 vom BND, 41 von BfV und 24 vom BGS uebernommen, sowie 60 neu geschaffen.
+In den naechsten Jahren soll fuer 1992 50, fuer 1993 10 und fuer 1994 15 
+weitere Planstellen/Stellen geschaffen werden. Innerhalb der Abteilungen
+besteht folgenes Verhaeltnis der Planstellen/Stellen: 
+
+                2.4.1991               1992    1993    1994
+Abteilung I  :  61 (besetzt: 39)         6       -       -
+Abteilung II :  18 (besetzt:  7)         -       -       -
+Abteilung III:  18 (besetzt:  6)         3       -       -
+Abteilung IV : 119 (besetzt: 89)         8       -       -
+Abteilung V  :  40 (besetzt: 18)        10       -       -
+Abteilung VI :  18 (besetzt: 15)        23      10      15
+
+Zum Teil wird das Personal uebergangsweise in seinen urspruenglichen 
+Dienststellen beim BfV und beim BGS unterkommen.
+Den Stellenwert der einzelnen Abteilungen kann jeder Anhand der Personal-
+zahlen und im Verhaeltnis zu den Aufgaben gemaess BSIG (siehe Chalisti 14)
+selbst ablesen. Aber auch die Finanzen koennen ueber das BSI eine Menge 
+aussagen. Besonders zu kritisieren ist der Punkt 'Beratung'. Die Abteilung IV 
+wird nur langsam erweitert und erreicht als einzige Abteilung ihre Ausbaustufe 
+erst 1994. 
+
+
+Finanzen
+--------
+Dem BSI stehen im Haushaltsjahr 57,1 Millionen DM zur Verfuegung. Davon
+22,6 Millionen DM fuer Forschung. In diesen 22,6 Millionen sind insgesamt
+15 Millionen fuer die ehemalige BND-Unterabteilung ZSI 'Chiffrierverfahren
+und Messverfahren fuer kompromittierende Abtrahlung' vorgesehen. Dazu hat
+der Bundesrechnungshof am 10.4.1991 fuer die Sitzung des Innenausschuss des
+Bundestages am 17.4. festgestellt: "Das BSI hat keine Forschungsarbeiten
+durchzufuehren. Diese urspruenglich im BSI-Errichtungsgesetz aufgenommene
+Aufgabe wurde bei den Ressortberatungen ausdruecklich gestrichen, um eine
+praxisbezogene Arbeitsweise des Bundesamtes sicherzustellen.". Es werden
+also Gelder nicht gesetzgemaess eingesetzt. Laut Auskunft eines Mitarbeiters
+des BSI soll aber der Bundesrechnungshof (BRH) dies inzwischen teilweise
+zurueckgenommen haben. Allerdings konnten wir in keiner unserer Unterlagen
+- bis hin zum Antrag auf eine entsprechende Gesetzesaenderung, die diese
+Haushaltsmittel betreffen - fuer diese Aussage einen Beleg finden. 
+
+Aber nicht nur die Tatsache ist interessant. Auch fuer was dieses Geld
+im Bereich der Forschung ausgegeben wird. Schon bestehende Vertraege ueber 
+Entwicklungen beim BSI regen zum denken an:
+
+- Entwicklung eines hochintegrierten Kryptomoduls fuer den universellen
+  Einsatz in IT-Sicherheitsprodukten: 1.000.000 DM
+- Entwicklung eines Schluesselgeraetes fuer packetvermittelte Netze (Datex-P).
+  Dieses Geraet kann auch fuer Verbindungen zwischen Rechnern verwendet werden,
+  die ueber das Breitband-ISDN verbunden sind: 500.000 DM 
+  (Anm. der Redaktion: Die Verschluesselung von DatexP und ISDN Inhaltsdaten
+   (vermutlich auf der Ebene des HDLC) ist eine Massnahme, die besonders fuer
+   Militaers und Behoerden interessant ist. Wirtschaft und noch mehr die
+   Gesellschaft muessen genauso an dem Schutz der Verkehrsdaten (Wer mit wem
+   wann was) interessiert sein. Entsprechende Mechanismen existieren in 
+   der Theorie, wie z.B. an der Uni Karlsruhe bei Dr. A. Pfitzmann, aber 
+   diesbezuegl. ist beim BSI nix zu sehen. Der Staat schuetzt sich, vergisst
+   aber die Buerger zu schuetzen. Dies ist auch ein kleiner Punkt, der auf-
+   zeigt WO das BSI SChwerpunkte setzt.)
+- Entwicklung von Kleinschluesselgeraeten fuer den Polizeibereich, um diesebn
+  weitgehend abhoersicher zu machen: 500.000 DM
+- Entwicklung von hochintegrierten Kryptochips, die bei vielen Anwendungen
+  in der IT verwendet werden: 1.600.000 DM
+- Entwicklungen auf dem Gebiet der Abstrahlmesstechnik und Lauschabwehr (z.B.
+  Entwicklung eines speziellen Messempfaengers und einen Roentgenmess-
+  platzes): 1.668.000 DM
+
+Diese sind exemplarisch fuer Gegenstaende im Haushaltsplan die auf Grund
+ihrer Techniken zentral fuer Geheimdienste oder das Militaer interessant sind. 
+Dem gegenueber stehen aber auch Mittel fuer Aufgaben, die eher fuer die
+Wirtschaft und Gesellschaft wichtig sein koennten:
+
+- Erprobungsmuster Schluesselmittelverteilung (KDC): 5.000.000 DM
+  (Anm. der Redaktion: Dies koennte fuer Verfahren der elektronischen
+   Unterschrift wie z.B. TeleTrust bei der GMD interessant sein)
+- Erstellung des IT-Sicherheitshandbuches: 40.000 DM
+  (Anm. der Redaktion: Soll im Herbst erscheinen und enthaellt z.B. auch
+   zwei Kapitel ueber Risikoabschaetzung und Technologiefolgenabschaetzung).
+- Entwicklung von asymetrischen Verfahren fuer die Verschluesselung von
+  Authentisierungs- und Signatureverfahren (elektronische Unterschrift).
+  (Anm. der Redaktion: Asymetrische Verfahren sind Public Key Kryptoverfahren,
+   wie z.B. RSA (dazu siehe Chalisti 6)). 
+
+Bedenklich sind dann aber schon wieder angegebene Sachmittel fuer die
+Evaluierung des Betriebssysteme von Siemens BS 2000 (450.000 DM) und 
+Sinix (40.000). Hier sind klar die Frage zu stellen, warum die 
+Betriebssysteme von Siemens auf Kosten des Steuerzahlers evaluiert werden.
+Bei einer Einstufung des Systemes in die IT-Sicherheitskriterien entstehen
+der Firma klare Wettbewerbsvorteile gegenueber anderen Mitbewerbern und
+ein solcher Eingriff in den Markt ist sicher nicht zulaessig. Natuerlich
+koennte angefuehrt werden, dass diese Betriebssysteme in der oeffentlichen
+Verwaltung eingesetzt werden und daher die Einstufung fuer den Bund 
+interessant ist. Fuer den Fall ist natuerlich zu fragen, ob die entstehenden
+Kosten der Evaluation bei Entscheidungen ueber neue Anschaffungen berueck-
+sichtigt werden und ob solche Firmen wie Siemens die Ergebnisse der
+Evaluation erfahren und damit dann auch wieder Werbung machen koennten. 
+Dabei existiert klar die Aussage aus dem BSI, dass die Zertifizierung vom 
+Antragssteller zu bezahlen ist und dafuer gibt es auch einen entsprechende
+Gebuehrentabelle. Auf Anfrage wurde uns mitgeteilt, daSS die im Haushalts-
+plan keine Evaluationskosten, sondern Forschungsmittel darstellen. Warum
+steht da aber explizit "Evaluation des Betriebssystemes BS2000" ???
+Eine andere Auskunft lautete, dass diese Evaluationen noch aus der Zeit
+des ZSI seien. Auf der einen Seite meint das BSI, dass es nicht fair waere
+immer an ihre Vergangenheit zu erinnen, da sie ja etwas neues seien. Auf
+der anderen Seite werden groessere Summen fuer Aufgaben aus dieser 
+Vergangenheit bereitgestellt. Schizophren ?
+
+Auf jeden Fall ist im Vergleich zu der Gesamtaufwendung, ist der Bereich 
+der potentiell wirklich beitragen koennte bestimmte Risiken fuer die 
+Gesellschaft zu vermindern recht laecherlich und wohl eher mit anderer 
+Intention in den Plan genommen worden. Dabei ist dies auch eine Aufgabe
+des BSI. 
+
+Natuerlich sind nicht nur die laufenden Vertraege - die zum Teil noch aus
+ZSI-Zeiten sind - interessant, weil sie wenig ueber die aktuelle Arbeit. 
+des BSI aussagen. Daher sind die demnaechst vorgesehenen Vergaben noch weit 
+aus interessanter. Geplant sind:
+
+- Sicherheitsuntersuchung des Secury Communication Processor SCOMP der
+  Firma Honeywell; Einsatz geplant bei NATO-Agenturen: 750.000 DM
+- Untersuchung des Betriebssystemes OS/2 mit Zusatzkomponenten (Vor-
+  untersuchungen schon 1990 durchgefuehrt): 650.000 DM. 
+- Entwicklung eines Prototyps fuer die Datensicherung in lokalen 
+  Netzwerken (geplant fuer AA): 900.000 DM
+- Weiterentwicklung (Anm. der Redaktion: !!!) von Protokollierungs-
+  Verfahren zur Erfassung sicherheitsrelevanter Ereignisse (Daten-
+  veraenderung, Manipulation, u.a.): 150.000 DM
+- Nutzung von Entwicklungen der kuenstlichen Intelligenz zur Sicherheits-
+  ueberwachung von Anwendenderhandlungen in IT-Systemen (Anm. der
+  Redaktion: Oder anders gesagt: Little Brother is watching you, on your
+  system): 150.000 DM
+- Entwicklung und Weiterfuehrung von "Anti-Viren"-Programmen und -Aktionen, 
+  besonders fuer den Bereich der Bundes- und Laenderbehoerden: 70.000 DM
+- Studie uebner eine Informationsbnk zur Beratung ueber den Einsatz von
+  IT-Sicherheitsprodukten: 178.000 DM
+- Marktstudie ueber PC's und Netzwerke als Grundlage fuer Beratung
+  und Entwicklung: 69.000 DM
+- Entwicklung eines Werkzeuges zur Spezifikation und Verifikation von
+  IT-sicherheitsrelevanter Software
+- Studie ueber die Sicherheit eines Buerokommunikationssystems im
+  Bundeskanzleramt: 100.000 DM
+- Entwicklung eines Ueberwachungszusatzes fuer Abstrahluntersuchungen an
+  IT-Sicherheitsprodukten: 200.000 DM
+- Entwicklung von Prototypen des Schluesselgeraetes ELCORVOX 1-5: 800.000 DM
+
+Bei diesen Zahlen verwundert das Resuemee des BRH nicht: "Wir haben den
+Eindruck, dass die neuen, durch das BSI-Gesetz festgelegten Aufgaben, die
+letztlich die Ursache fuer die Errichtung des BSI waren, ueber die Wahr-
+nehmung der alten, noch aus dem BND-Bereich stammenden Aufgaben nicht ihrer 
+Bedeutung entsprechend beruecksichtigt werden. [...] Erkenntnisse aus
+unseren Pruefungen auf dem Gebiet der Sicherheit der Informationstechnik
+zeigen, dass die festgestellten, schwerwiegenden Maengel nicht aus fehlenden
+Chiffrierverfahren und -geraeten resultieren, sondern wesentlich im fehler-
+haften Einsatz und der mangelnden Kontrolle der IT begruendet sind. 
+U.E. sollte die Errichtung des BSI nicht als Fortfuehrung der Arbeiten 
+der ehemaligen BND-Unterabteilung ZSI mit zusaetzlichen Aufgaben in einem
+anderen Geschaeftsbereich verstanden werden; die Aufgabenschwerpunkte 
+sollten sich vielmehr im gesetzlich festgelegten Rahmen am vordringlichen
+Bedarf der gesamten Bundesverwaltung orientieren."
+
+Ein Schnitt fuer das BSI ?
+--------------------------
+Als CCC'ler bin ich zusaetzlich der Meinung, dass genau diese Fortfuehrung
+der ZSI im BSI vielfach befuerchtet wurde, und nun anscheinend auch ein-
+treten. Die Warnungen an Oeffentlichkeit und Politik sind Jahre alt und
+wurden kaum gehoert. Egal ob diese von bekannten Professoren oder 
+verschiedenen gesellschaftlichen Gruppen vorgebracht wurden. Es ist 
+erfreulich, dass der Bundesrechnungshof von selbst die Erkenntnis gewonnen
+hat, dass diese Befuerchtungen evntl. doch der Wahrheit entsprechen koennten
+und von seiner Seite her auch Taten folgen laesst. So hat der BRH
+im Aenderungsantrag vom 21.5.1991 dem Bundestag vorgeschlagen, die Titel
+die sich auf 'Kosten fuer Forschungs- und Entwicklungsvorhaben' beziehen
+sowie den damit in Zusammenhang stehenden Erwerb von Geraeten, etc zu
+sperren. Dabei handelt es sich ingesamt um eine Summe von 12,45 Millionen DM. 
+
+Wie der BRH bin ich auch der Meinung, dass die Beratung gerade des normalen
+Betroffenen garnicht und die Beratung der Wirtschaft kaum beruecksichtigt  
+wurde. Leider hat das BRH sich garnicht zum Bereich der Forschung im Bereich
+der Technologiefolgenabschaetzung geaeussert. Hierfuer scheint es keinen
+einzigen Pfennig zu geben. Dabei sollte (und laut BSIG ist es das auch) 
+gerade dies eine Aufgabe des BSI sein. Es soll bei Gesetzen beratend taetig 
+werden und muss auf die moeglichen Risiken des Einsatzes der IT aufmerksam 
+machen. Dieser erst nachtraeglich aufgenommene Punkt im Artikel 2, Abs. 7
+BSIG sollte weit aus mehr in Personal und finanziellen Mitteln berueck-
+sichtigt werden. 
+
+Nun folgen noch einige Randbemerkungen ueber das BSI, die doch den
+ersten Eindruck weiter verstaerken.
+
+Was ist mit den 40 Ex-DDRlern ?
+-------------------------------
+Schon in der Chalisti 14 erwaehnten wir einen anderen Punkt im Bezug auf
+das BSI. Naemlich die Ausweisung von 40 Mitarbeitern des ehemaligen 
+zentralen Chiffrierorgan (ZCO) der DDR. Diese wurden - anders als viele 
+andere aus dem ehemaligen Ministerum des Innern der DDR - nicht zum 31.12.1990
+gekuendigt, sondern wurden erstmal uebernommen und dem BSI zugeteilt. Ihr
+Arbeitsverhaeltnis sollte auf Grund einer Kabinettsentscheidung, dass keine
+MdI-Mitarbeiter in Bundesbehoerden uebernommen werden sollen, am 31.3.1991
+erloeschen. Auf Anfrage der Bundestagsabgeordneten Frau Ingrid Koeppe
+von B90/Gruene aus Sachsen-Anhalt nach Verbleib dieser 30 Mitarbeiter wurde
+ihr mitgeteilt, dass im BSI nie Mitarbeiter des ZCO beschaeftigt wurden und
+werden. Die damals ausgewiesenen Mitarbeiter hatte die Aufgabe des ZCO 
+aufzuloesen. Warum nun allerdings gerade SekretaerInnen und Kryptgraphen
+(die stellen die Mehrheit dieser 40 Leute) besonders geeignet sind das
+ZCO aufzuloesen ist ebenfalls unklar. Was aus diesen Mitarbeitern geworden 
+ist, wird nicht deutlich. 
+
+Big BSI ist watching you ?
+--------------------------
+Das BSI nimmt natuerlich auch an Forschungs- und privaten Netzen teil. 
+Dabei wird es von den wenigstens wahrgenommen, dabei werden im BSI 
+explizit auch die Newsgruppen (Bretter) gelesen. Dabei werden das BSI
+betreffende Beitraege auch genommen, gedruckt und an die betreffenden
+Stellen In-House verteilt. Dabei ist unklar, in wie weit Beitraege raus-
+gefischt werden, die das BSI direkt oder nur in seiner Arbeit betreffen. 
+Ebenfalls unklar ist, wie diese Beitraege erfasst und archiviert werden,
+und vielleicht eines Tages dem Autor zum Nachteil gereichen. Dabei ist
+besonders zu bedenken, dass Schreiber von Beitraegen in den Netzen nicht
+durch das Presserecht geschuetzt werden. Ob hier einfach Gedankenlosigkeit
+oder nur die Nutzung und Freundlichkeit Einzeler gegenueber Mitarbeiter
+ im BSI herauskristalisiert, kann nicht gesagt werden.
+Um aber das richtige Verhaeltnis dazustellen sollte deutlich folgenes gesagt 
+werden: Es sieht nicht danach aus, als wuerden Nachrichten systematisch und 
+regelmaessig gelesen und weiterverteilt oder gar weiterverarbeitet. Es 
+sprechen fehlendes Personal beim BSI sowie Aeusserungen einzelner BSI'ler 
+dagegen.  Aber das Gefuehl, dass ein Bundesamt wie das BSI mitliesst, wird 
+sicher bei einzelnen dazu fuehren, dass sie ihr Netzgeflogenheiten aendern.
+Wer schweigend am Netz teilnimmt, ein Bundesamt mit einem gewissen Prozent-
+satz von ehemaligen Mitarbeitern von BKA, BND, BfV und BGS ist, sollte 
+sich nicht im geheimen, sondern oeffentlich im Netz darstellen. Wie in
+der BSI-Dokumentation geschrieben, ist das BSI auf Vertrauen angewissen. 
+Dieses muss geschaffen werden. 
+Leugnen der Vergangenheit gilt da recht wenig ...
+
+Das BSI raet
+------------
+Nach Vorbild der amerikanischen Computer Emergency Response Teams, sollen
+in Deutschland und Europa Anlaufstellen fuer Sicherheitsprobleme eingerichtet
+werden. Ein Ziel solcher Anlaufstellen in den USA ist es, dass eventuelle
+Angriffe und Sicherheitsloecher schnell an die betroffenen und verantwortlichen
+Stellen weitergeleitet werden koennen. In den USA wird das CERT von einer
+Gruppe Leute betrieben, die mit moeglichst wenig Formalien auskommen, 
+allerdings ein Zugriffsverfahren unterhalten, welches regelt wer welche
+Informationen bekommen kann. Das BSI ist natuerlich auch in den Verteilern 
+der amerikanischen CERT's und zwar mit der hoechsten Prioritaet. 
+
+In Deutschland ist noch unklar, welche rechtliche Grundlagen und welche
+Struktur das CERT in Deutschland schlussendlich besitzen soll. Diese Fragen
+werden im BSI gerade angegangen und sollen bis Ende des Jahres geklaert sein.
+Gewuenscht wird, dass dezentral Ansprechpartner als CERT vorhanden sind und
+dort in den verschiedenen Problembereichen helfen koennen. Allerdings gibt 
+es fuer denn spezielle Problematik " Viren" schon zwei Anlaufstelle: Das 
+Viren-Text Center in Hamburg von Prof. Brunnstein und das Mikrobitcenter 
+der Uni Karlsruhe. Auf weitere muessen wohl noch gewartet werden. 
+
+Im Augenblick existiert aber schon KITS. Dies steht fuer Kommunikations-
+plan IT-Sicherheit und soll auf Behoerdenebene die zuegige Verteilung von
+Information bezuegl. Angriffe und Sicherheitsproblemen gewaehrleisten. 
+Falls ein solcher Fall eintritt, dann gehen die Informationen an eine Stelle
+im Bundeskriminalamtes. Das BKA informiert dann das Bundesinnen-, das Bundes-
+verteidigungs- und das Bundeswirtschaftsministerium, die obersten Bundees-
+behoerden, denn Bundestag, den Bundesrat, die Bundesbank, das Bumdesamt
+fuer Verfassungsschutz, den Bundesbeauftragten fuer den Datenschutz, das
+Bundesverfassungsgericht, den Bundesrechnungshof, natuerlich das BSI, 
+das Bundesverwaltungsamt, sowie die Landeskriminalaemter. Bei Bedarf
+werden auch die Landesaemter fuer den Verfassungsschutz sowie die
+IT-Hersteller benachrichtigt. Letzteres geschieht ueber ausgewaehlte
+Verbaende, die entsprechend angeschrieben wurden.
+
+Quo vadis BSI
+-------------
+In und um dem BSI geht es weiter neblig zu. Die Befuerchtung, dass das
+BSI zu einem deutschen NIST bzw. NCSA oder gar NSA werden koennte, sind 
+auch auf Grund des heutigen Kenntnisstandes nicht auszuschliessen. 
+Natuerlich sind auch optimistische Toene aus dem BSI zu vernehmen. So
+ist geplant, dass ueber Mailarchive, und Textserver wichtige Informationen
+verfuegbar gemacht werden soll. Ausserdem wird das BSI, sobald seine
+Verbindungen ins EUnet stabil funktionieren, auch entsprechende Informationen
+ueber diesen Weg verbreiten. Im Augenblick haelt mensch sich damit noch
+bedeckt. Verwirrende Postings mit dem Absender zsi.uucp, verlorengegangene
+Mails an diese Adresse, nicht beantwortete Mails an bsi.de haengen alle
+damit zusammen, dass die Netzwerkverbindungen beim BSI erst sicher gestaltet
+werden sollen. Wie sagte jemand noch aus dem BSI ? "Was koennte sich ein 
+Hacker schoeneres vorstellen, als ins BSI reinzukommen". Auf jeden Fall
+denkt das BSI wohl an mehr Transparenz als im Augenblick realisiert scheint.
+
+Nachtrag: Workshop in Boppard
+-----------------------------
+Zum BSI-Workshop in Boppard (Chalisti 14) ist noch zu sagen, dass das
+Buch 'Boppart-Impuls' wohl nicht erscheinen wird. Dieses Buch sollte die
+Meinungen und Beitraege zum Thema BSI/Technologiefolgenabschaetzung 
+buendeln und veroeffentlich werden. Dies waere dann auch dem Buerger, der
+Wissenschaft und nicht nur den Referenten und Verwaltungen zugaenglich gemacht
+worden. Das dies Buch nicht erscheint, liegt aber nicht am BSI, sondern an
+den Referenten. Von denn sicher ueber 10 Referenten haben erst 4 ihren
+Beitrag abgegeben. Daher wird zusammen mit einem Vorwort die Beitraege und
+evntl. einem Pressespiegel rechtzeitig zu Boppard II (so es denn kommen
+soll im Rahmen von IT 2000) den neuen und alten Teilnehmern zugeleitet 
+werden. Damit bleibt die Gruppe, die sich um diesen Bereich bemueht, 
+weiter unter sich. Die also engagierten Teilnehmer sollten sich auch mal
+um ihre Verantwortung Gedanken machen. 
+
+Zusammen mit einem Freund an der Uni Oldenburg, der selbst nicht Mitglied
+im CCC ist, diesen aber in einigen Punkten nahesteht und sich selbst 
+intensiv mit BSI und besonders IT-Sicherheitskriterien beschaeftigt hat, 
+haben wir einen Beitrag fuer diesen Boppard-Impuls ausgearbeitet. 
+Insbesondere Teil I gibt weitgehend das wieder, was ich in der Podiums-
+diskussion gesagt habe. Teil II dient als Ergaenzung zu jenem Teil, welches
+aus Zeitgruenden in Boppard nicht mehr vorgetragen wurde. Dieser Beitrag
+wird ebenfalls in dieser Chalisti 15 als Dokumentation veroeffentlicht.
+
+Abschliessend noch die derzeitige Adresse des BSI, weil wir mehrfach danach
+gefragt wurden: 
+
+        BSI     , Postfach 200363  , 5300 Bonn 2 
+        Haus I  , Mainzer Str. 88  , 5300 Bonn 2, Tel. (0228) 346599
+        Haus II , Mainzer Str. 86  , 5300 Bonn 2, Tel. (0228) 345499
+        Haus III, Am Nippenkreuz 19, 5300 Bonn 2, Tel. (0228) 85510
+        Anfragen der Presse bitte an Dr. Dickopf in Haus III. 
+
+Autor: Terra (Frank Simon).
+
+
+------------------------------------------------------------------------------
+NEXT ORC7
+                           Was nun BSI ?
+
+Dirk Rode, Universitaet Oldenburg, FB Informatik
+Frank Simon, Chaos Computer Club, Vorstandsmitglied
+Erstellt als Beitrag fuer Boppard-Impuls und den BSI-Workshop in Boppard
+Ende April (siehe Chalisti 14)
+
+Die Errichtung eines Bundesamtes fuer Sicherheit in der Informationstechnik 
+ist sehr zu begruessen. Erstmals wurde damit in der Bundesrepublik Deutschland 
+eine oeffentliche Institution geschaffen,  die  fuer die gesamte Bevoelkerung 
+zugaenglich ist und die sich mit der Sicherheit in der Informationstechnik 
+befasst. Dies ist insofern zu begruessen, da laengst ueberfaellig, denn die 
+Vorgaengerinstitutionen  waren direkt dem BND  zugeordnet, geheim und damit 
+fuer die breite Bevoelkerung nicht zugaenglich.  Auch ist es sehr zu 
+befuerworten,  dass,  aehnlich wie in den USA mit dem Orange Book  und  seinem 
+Netzwerk Pendant (Trusted  Computer  Evaluation Criteria, Trusted Network 
+Evaluation Criteria) ein Kriterienkatalog entworfen wurde. Mit Hilfe dieses 
+Kriterienkataloges kann auf einer einheitlichen Basis beurteilt,  und damit 
+auch  verglichen, werden, welchern Sicherheitsgrad Computersysteme erreichen.
+
+Teil I
+
+Auf der Grundlage des BSI-Errichtungsgesetzes und einer gehoerigen Portion
+Optimismus soll nun an die Frage gegangen waeren, was denn als erster
+Schritt die weitere Entwicklung des BSI sein kann.
+
+Das BSI kann keine Aufgaben wahrnehmen, fuer die sie nicht gesetzlich 
+legitimiert ist. Aber sie kann natuerlich Schwerpunkte setzen und hat
+sogar die Aufgabe, das Gesetz mit Leben zu fuellen. 
+
+Zur Wahrnehmung der Aufgabe der BSI ist oeffentliches Problembewusstsein
+im Umgang mit Sicherheit erforderlich. Dazu gehoert, dass denn BSI ein
+Mindestmass am Vertrauen entgegengebracht wird. Trotz der etwas 
+ungluecklichen Gruendungsgeschichte des BSI, sollte das neue Bundesamt auf 
+Grund seiner konkreten Arbeit und - dies halten wir fuer wesentlich - auf 
+Grund seiner seiner Oeffentlichsarbeit bewertet werden. Ein Amt fuer 
+Sicherheit in der Informationstechnik wird wesentlich ueber seinen Umgang 
+mit Information beurteilt werden. 
+
+Eine weitverbreitete Befuerchtung in der interessierten Oeffentlichkeit
+(und die haben da eine Multiplikatorwirkung) ist, dass es sich bei dem BSI um 
+ein deutsches NSA bzw. NIST handelt bzw. handeln wird. Diese Befuerchtung muss 
+das BSI entgegentreten und zwar nicht nur mit Worten, sondern auch mit Taten. 
+Tut es das nicht, dann wird es nicht nur seine Glaubwuerdigkeit einbuessen, 
+sondern auch ueber kurz oder lang durch die pragmatische Arbeit in jene Ecke 
+gedraengt, in der es vermutlich selbst nicht will. 
+
+Eine Information der Oeffentlichkeit ueber Arbeit des BSI nach Vorbild 
+anderer Bundesbehoerden ist ueber die "allgemeine Beratung der Hersteller,
+Anwender und Betreiber" laut BSI-Errichtungsgesetz sicher abgedeckt. Eine 
+solche Form der Oeffentlichkeitsarbeit (z.B. regelmaessige Veroeffentlichungen
+aus dem Bundesamt) wird dem BSI und seiner Arbeit dienlich sein. 
+Auch freiwillige Arbeitsberichte fuer das Parlament koennten dem Eindruck 
+der "Geheimnistuerei" entgegenwirken. Ein solcher Bericht nur Ende 1992
+ist eindeutig zu wenig.
+
+Eine weitere positive Wirkung kann im Bereich der Unterstuetzung der
+Datenschutzbeauftragten als Schwerpunkt erreicht werden. Die doch weitgehend
+juristische und sozio-technische Ausbildung der DS-Beuftragten ist
+beispielsweise nicht dazu geeignet, im Einzelfall ganz konkrete Fragen zum
+Einsatz von Unix-Systemen im Betrieben und Behoerden bezuegl. ihrer 
+Unbedenklichkeit wg. Personueberwachungssystemen zu beantworten.
+Falsche Antworten bei Anfragen sind vorprogrammiert, wie ein diesbezueglicher
+Versuch beim Bundes-, Niedersaechsischen und Weser-Ems Datenschutzbeauftragten
+gezeigt hat. Eine intensive Kooperation ist dringend erforderlich um das
+BDSG auch in der Praxis weitgehend umzusetzen.
+
+  Damit kommt unserer Meinung nach dem BSI auch die  Aufgabe  zu, 
+Bevoelkerung    und   insbesondere    Datenschutzbeauftragte    in 
+regelmaessigen Abstaenden zu unterrichten, und nicht nur auf Anfrage 
+zu arbeiten,  so wie es aus dem Errichtungsgesetz hervorgeht. Das 
+BSI  sollte  weiterhin eine  Stelle  darstellen,  die  allgemeine 
+Beratung auch auf Grund des IT-Sicherheitshandbuches in Bezug auf 
+Datenschutz,  Urheberrechte und Wirtschaftsrecht erteilt. Das BSI 
+sollte  auch bei Gesetzgebungsverfahren die in  Zusammenhang  mit 
+Computersystemeinsatz  stehen beratend mitwirken.  Nur  Fachleute 
+aller  Sparten  koennen  in  Zusammenarbeit  optimale   Ergebnisse 
+erstellen.  
+
+Der Gesamtkomplex der Sicherheit in der Informationstechnik umfasst nicht
+nur Sicherheit (oder spitz formuliert) Schutz der Informationstechnik
+vor dem Buerger, sondern auch der umgekehrte Fall. Sicherheit ist immer
+auch die Sicherheit des Buergers bzw. der Gesellschaft. Daher sollte
+Boppard kein Einzelfall darstellen. Ein regelmaessiges Treffen mit dem
+Ziel der Diskussion und Weiterentwicklung des sozio-technischen Gedankens 
+im Hinblick auf die gesamte Gesellschaft waere wuenschenswert, wenn nicht 
+sogar drigend geboten. Dabei ist eine rege Beteiligung auch der 
+Mitarbeiter des BSI erforderlich. Diese muessen das schliesslich in der
+praktischen Arbeit umsetzen. 
+
+Ebenfalls sollte gelten, dass Sicherheitsprobleme nicht verschwiegen 
+werden. Vorwuerfe von Clifford Stoll und anderer Menschen die praktisch
+mit der Administration von Rechensystemen beschaeftigt sind in Richtung
+NSA sind wohlbekannt. Ebenfalls die Veroeffentlichung von kryptographische
+Verfahren gehoert dazu. Ein Verfahren, welches nicht veroeffentlicht werden
+kann - aus welchen Gruenden auch immer - ist fuer die Gesellschaft
+nicht tragbar. 
+
+Diese Massnahmen und Ideen koennen nur ein Anfang sein, sie werden aber durch
+die Verantwortung des Beamten, Politikers und Wissenschaftlers fuer die
+Gesellschaft gebeten. Der Weg zur Informationsgesellschaft und informierten
+Gesellschaft ist wesentlich. Heutige Entwicklungen und Entscheidungen
+bestimmen die Geschichte unserer und der globalen Gesellschaft direkt und 
+fuer alle Zeiten.
+
+
+Teil II
+
+ Die Kritikpunkte die wir oben aufgefuehrt haben,  sind in unseren 
+Augen Feinheiten,  die in der genauen Spezifikation der  Aufgaben 
+des  BSI eingefuegt werden muessen.  Leider muessen wir noch  einige 
+andere  Kritik  auffuehren,   denn  ein  wichtiger  Teil  in   der 
+Sicherheit  von Computersystemen wird nach unserer Meinung  nicht 
+bzw.  nur unzureichend beachtet worden. Dazu wollen wir in diesem 
+Teil Stellung beziehen.  Als Stichpunkt vorweg soll das Stichwort 
+Technologiefolgenabschaetzung dienen.  Unter  Technologiefolgenab-
+schaetzung wollen wir die Abschaetzung der Folgen des Einsatzes von 
+Computersystemen  und deren Gefahren durch unsachgemaessen  Einsatz 
+bzw. Fehlfunktionen verstehen.
+
+  Zu diesem Bereich der Abschaetzung der Folgen sollte  nicht  nur 
+die  rein  technische  Abschaetzung  gehoeren,   sondern  auch  die 
+Information der Bevoelkerung und der Ministerien.
+ 
+  In  diesem  Bereich geht es zunaechst  um  die  Abschaetzung  der 
+Gefahren  die  von Computeranlagen  ausgehen.  Dabei  handelt  es 
+einerseits  um  technische  Folgen,  andererseits  aber  auch  um 
+gesellschaftspolitische Folgen.
+
+  Technische  Folgen  des Einsatzes  von  Computeranlagen  werden 
+ersichtlich  im  Einsatz  von  Computeranlagen  in  Technik   und 
+Medizin.   So   wurden  durch  einen  Computerfehler   in   einem 
+Krankenhaus mindestens zwei Personen toedlich  verstrahlt.  Sollte 
+so   ein   Fehler  in   einem   Kernkraftwerk   passieren,   ohne 
+entsprechende Sicherungen kaeme es zu einer Katastrophe.  Insofern 
+muss untersucht werden, wie sicher ein System funktioniert, und in 
+sensiblen  Bereichen  muss  fuer  entsprechende   Ausfallsicherheit 
+gesorgt  werden.  So  muss ein als nicht  ausfallsicher  bekanntes 
+System erkannt werden,  und darf nicht in einem sensiblen Bereich 
+eingesetzt  werden.  Dies gilt sowohl fuer Hardware wie  auch  fuer 
+Software.  Somit muessen Einschraenkungen der Zulassung  bestimmter 
+Soft- und Hardware vorgenommen werden.  Eine Reihe von  Systemen, 
+zum Beispiel DOS PCs sind nicht zur Speicherung personenbezogener 
+Daten  geeignet,   da  sie  nur  ueber  unzureichende  Mittel  zum 
+Datenschutz    verfuegen.    Damit    sollte    die    Speicherung 
+personenbezogener  Daten  auf einem DOS PC nicht  zulaessig  sein. 
+Diese Forderung muss aber auch durchgesetzt werden.
+
+    Gesellschaftspolitische     Folgen    des    Einsatzes    von 
+Computersystemen sind in einer Reihe von Anwendungen zu erwarten. 
+Eine grosse Diskussion hat es zum Beispiel um die Speicherung  von 
+personenbezogenen Daten bei der Einfuehrung von ISDN gegeben. Doch 
+nicht  nur hier sind Probleme zu erwarten.  Auffallend  sind  zum 
+Beispiel  auch die Schreiben unterschiedlicher  Werbefirmen,  die 
+man erhaelt,  wenn man an einem Preisausschreiben teilnimmt. Diese 
+Weitergabe von Daten ist nur einem Teil der Bevoelkerung  bekannt, 
+der Grossteil der Bevoelkerung wundert sich lediglich.
+
+Bewertung
+
+  Mit  der  Errichtung  des BSI und  den  schon  vorhandenen  und 
+geplanten Kriterien ist schon ein grosser Schritt gemacht  worden. 
+Leider   sind  dabei  die  gesellschaftlichen  Aspekte  und   die 
+Abschaetzung  der Folgen des Computereinsatzes zu  kurz  gekommen. 
+Wie  wir  oben schon ausgefuehrt haben,  sollte das BSI  mit  mehr 
+Rechten  in  Richtung  gesellschaftlicher  Aspekte   ausgestattet 
+werden.  Dazu  gehoeren  insbesondere Abschaetzung der  Folgen  des 
+Computereinsatzes  und Information der Bevoelkerung ueber  Gefahren 
+und Moeglichkeiten des Missbrauches.  In dieser Richtung wuerden wir 
+gerne  das BSI weiter unterstuetzen indem wir mit Rat und Tat  zur 
+Seite stehen.
+
+Oldenburg im Mai 1991
+Dirk Rode            Frank Simon
+
+
+------------------------------------------------------------------------------
+NEXT OFA8
+
+      RMS ueber User Interface Copyrights und Software Patente
+
+Im Juni 1991 hielt RMS (Richard M. Stallmann) eine Serie von Vortraegen
+ueber User Interface Copyrights und Software Patente in einigen Staedten
+der FRG, darunter Berlin, Frankfurt und Muenchen. Sieben Stuttgarter waren
+auf dem Vortrag in Frankfurt am 25.06.91, hier folgt ein Bericht.
+
+Fuer jene, die nicht wissen, wer RMS ist, sei gesagt, dasz RMS der
+Initiator des GNU Projects war, dessen Ziel es ist, eine im Sourcecode
+freie Version des Unix-Betriebssystems zu erstellen. Im Buch "Hackers"
+von S. Levy wird er als der letzte Hacker am MIT beschrieben.
+
+Seine Vortragsreise in Europa zu den Problemen von User Interface
+Copyrights und Software Patenten ist nicht die erste. Schon 1989 warnte
+RMS im Rahmen eines Vortrags ueber die Plaene der GNU Foundation vor
+den Entwicklungen des Rechtsstatus von Software.
+
+Zwei Problemfelder
+------------------
+Die derzeitige Freiheit der ProgrammiererInnen in Bezug auf den
+Rechtsstatus ihrer Produkte, der Software wird durch zwei verschiedenartige
+Entwicklungen gefaehrdet.
+
+Die eine Entwicklung ist die forcierte Anwendung des Urheberrechts (engl.  
+Copyright oder Copyr8) in Verbindung mit dem Benutzerinterface von 
+Programmen. Bei Benutzerschnittstellen werden bei der Erstellung von 
+Software generell bekannte und von den Usern aktzeptierte Tastenkombina- 
+tionen und Bildschirmelemente verwendet. So liegt bei vielen Programmen 
+die Hilfe-Funktion auf Alternate-H oder es gibt einen Menuepunkt "File" 
+mit den Unteroperationen "Save", "Load" usw, die ueber sogenannte 
+Shortcuts als Alt-S oder Alt-L erreichbar sind. Weitergehende Konzepte 
+findet mensch dann bei grafischen Benutzeroberflaechen wie z.B. 
+Muelleimer, die Loeschoperationen ermoeglichen oder Schieber, die den 
+sichtbaren Fensterinhalt verschiebbar machen.
+
+Die andere Entwicklung ist die Vergabe von Patenten in Zusammenhang mit 
+algorithmischen Problemloesungen, sogenannte Software Patente. In jedem 
+auch nur wenige hundert Zeilen groszen Programm werden viele 
+unterschiedliche Algorithmen angewandt, so z.B. das Speichern von 
+Fensterinhalten im RAM oder auf Festplatte, solange das dazugehoerige 
+Fenster von anderen Fenstern ueberdeckt ist, die Kodierung von Dateien auf 
+eine platzsparende Weise (Komprimierung genannt) oder Copy-on-Write, ein 
+Mechanismus, der Dateien fuer mehrere Programme solange nur einmal im 
+Speicher haelt, solange alle gleichzeitig laufenden Programme nur lesend 
+darauf zugreifen.
+
+Obwohl diese Entwicklungen so aehnlich scheinen, ist es doch notwendig, 
+dazwischen zu unterscheiden, weil sie in den Rechtswissenschaften ganz 
+unterschiedliche Bereiche darstellen. Wenn mensch also nun mit 
+Rechtsverdreher-Profis redet und die beiden Gebiete (Copyr8s und Patente) 
+verwechselt, wird jener dies als unqualifiziert betrachten und nicht 
+weiter auf Argumente achten. Deshalb trennt RMS in seinem Vortrag beide 
+Gebiete deutlich.
+
+User Interface Copyrights
+-------------------------
+Fuer RMS ist es klar, dasz Programmcode durch Copyr8 geschuetzt wird.
+Seiner Meinung nach sollte sich dieser Schutz aber nicht auf das
+Aussehen und die Funktionen in der Benutzerschnittstelle ausdehnen.
+Er selbst ist als Programmierer in zwei Hinsichten betroffen; von seinem
+Programm EMACS gibt es 30 nachprogrammierte Kopien des Benutzerinterfaces
+und sein GNU Projekt hat eine Kopie des UNIX Betriebssystems zum Ziel.
+
+Copyr8s auf Benutzerschnittstellen haelt er nicht fuer sinnvoll.
+Die Qualitaet von Benutzerschnittstellen werden von Anwendern nur dann 
+beim SW Erwerb nach der Verwendbarkeit beurteilt, wenn eine 
+Auswahlmoeglichkeit besteht, d.h. wenn alle anderen Faktoren verschiedener 
+Produkte gleichwertig sind. Hat sich ein Standard aber einmal 
+durchgesetzt, dann wird nach dem Maszstab der Kompatibilitaet entschieden,
+so dasz durchaus auch ergonomisch schlechtere Software gekauft wird,
+weil Anwender die Kommandos und den Aufbau bereits kennen.
+
+Es ist fraglich, ob nicht eher die Anwender mit dem Erlernen einer
+Benutzeroberflaeche die groeszere und schuetzenswertere Investition
+getaetigt haben.
+
+Deswegen ist das Argument der Befuerworter von User Interface Copyr8s 
+seines Erachtens haltlos, dasz diese Art Copyr8s als Investitionsschutz 
+die Entwicklung besserer Benutzerschnittstellen ermoeglicht. So ist ja 
+auch nicht Unix oder die Programmiersprache C deswegen populaer, weil sie 
+die bestmoeglichen Auspraegungen ihrer Art (Betriebssystem, 
+Programmiersprache) darstellen, sondern weil sich die Leute an die 
+Handhabung dieser Software gewoehnt haben.
+
+Und warum setzt sich dann nicht auch die Dvorcak (sp?)-Tastatur durch,
+die deutlich ergonomischer waere als die derzeitigen Tastaturen ?
+
+Die Anwendung des Copyr8-Begriffs aus dem Berner Uebereinkommen ueber den
+Schutz von Werken der Literatur und der Kunst auf Software anzuwenden,
+zeigt auch eine gewisse Ironie. Waehrend in den althergebrachten
+Kuensten durch Copyr8 die Vielfalt der Auspraegungen von Literatur
+und Kunst erreicht werden sollte, sind die Beduerfnisse der Anwender
+bei Software eher umgekehrt, sie wollen Kompatibilitaet.
+
+Auch ein weiteres Argument der Copyr8-Befuerworter ist laut RMS nicht
+haltbar, dasz naemlich dieses Copyr8 den kleinen Hersteller vor
+den groszen Firmen schuetzt. Warum profitieren dann grosze Firmen
+am meisten von diesen Copyr8s ?
+
+Einer kleine Firma, die eine Software mit einer bestimmten
+Benutzerschnittstelle erstellt und verkauft, hilft ein Copyr8 darauf
+nicht viel, da sie sowieso nicht den groszen Bekanntheitsgrad, die
+Marktdurchdringung hat, den eine grosze Firma durch ein kompatibels
+Programm abfischen koennte. Also ist keine grosze Firma gezwungen,
+dieses User Interface nachzuprogrammieren. Umgekehrt allerdings
+wird ein Haken daraus, mit dem grosze Firmen gegen kleinere Firmen
+vorgehen koennen, wenn diese Programme mit demselben User Interface, aber
+billiger und schneller anbieten und dadurch unangenehm stoeren.
+Solch ein Copyr8 hilft also nur groszen Firmen.
+
+In den USA sind entsprechende Gerichtsentscheidungen schon gefallen,
+so z.B. im Falle Apple gegen Microsoft wg. einer Fensteroberflaeche oder
+Lotus gegen eine kleine Firma, die ein zu 1-2-3 kompatibles Programm
+verkauft haben. Selbst wegen der Definition einer Sprache, mit der
+mensch das bekannte DBase Datenbanksystem programmieren konnte,
+gibt es derzeit einen Rechtsstreit.
+
+Und nun ist im Mai 1991 im Europaparlament eine EG-Richtlinie
+verabschiedet worden [CW9127], die aehnliches und vielleicht noch
+mehr Unbill verspricht, indem nicht nur Benutzerschnittstellen
+als schuetzenswert betrachtet werden, sondern (bei geeigneter Auslegung
+der Richtlinie) auch Programmiersprachdefinitionen und Uebertragungs-
+protokolle. Diese Art des Copyr8 ist RMS' nach noch viel schlimmer
+als User Interface Copyr8s (1).
+
+Ursache ist eine Anfuegung in die Richtlinie, die wie folgt lautet:
+
+Artikel 1, Abs. (2):
+[...] Ideen und Grundsaetze, die irgendeinem Element eines 
+Computerprogramms zugrundeliegen, einschlieszlich der den Schnittstellen 
+zugrundeliegenden Ideen und Grundsaetze, sind nicht im Sinne dieser 
+Richtlinie urheberrechtlich geschuetzt.
+
+Einwaende gegen diese Richtlinie von ProgrammiererInnen wurden mit
+dem Hinweis darauf beruhigt, dasz durch diese Anfuegung das Problem
+geloest sei. Nunmehr sind Ideen und Grundsaetze bei der Programmierung
+von Benutzerschnittstellen (und anderen Schnittstellen) zwar
+frei verfuegbar, ABER die detaillierten Operationen einer Benutzer-
+schnittstelle unterliegen weiterhin dem Copyr8. Und da fragt sich
+natuerlich der Anwender, wo dann die Kompatibilitaet bleibt, wenn
+die Kommandosequenzen veraendert sind oder z.B. das Icon zum Starten
+einer Aktion gaenzlich anders aussieht und woanders liegt.
+
+Auch Programmiersprachen koennen von dieser Richtlinie betroffen sein,
+so dasz es unmoeglich sein wird, eigene Compiler fuer eine
+Sprache zu entwickeln oder u.U. sogar Programme, die in dieser
+Sprache geschrieben sind, rechtliche Probleme aufwerfen.
+Ein erstes Beispiel ist der Rechtsstreit der Datev mit Microdat,
+die ein zur Datev-SW kompatibles Programm fuer PCs geschrieben
+haben und sich damit Aerger eingehandelt haben [NBG910606].
+
+Bei der Einfuehrung der Richtlinie in Europa waren nur die Firmen IBM,
+DEC, Siemens und Apple fuer diese Interpretation des Copyr8, dagegen
+war z.B. das European Committee for Open Systems (ECOS, ist das
+das gleiche wie EWOS ?). Aber bei der Beratung der Richtlinie im 
+Rechtsausschusz des Europaparlaments wurde ein Aenderungsantrag, der gegen 
+dasz Problem gerichtet war, abgelehnt, weil einer der EG Direktoren sagte, 
+dasz alle europaeischen Softwarefirmen dafuer seien. Dieser Mensch hiesz 
+Martin Bangemann (Der ganze Saal stoehnte auf, ein Zuhoerer erklaerte 
+nachher RMS, dasz M.Bangemann sowas wie ein Dan Quayle der EG sei...). Und 
+seitdem erzaehlen PolitikerInnen, dasz diese Detail-Regel das Problem 
+geloest habe. Sie verstehen ja auch nichts vom Thema und beten das nach, 
+was ihnen ihre Rechtsexperten sagen.
+
+Der rechtliche Zustand der Richtlinie ist derzeit so, dasz die nationalen 
+Regierungen in der EG sie bis 1993 in nationales Recht umsetzen mueszen. 
+Und daher sieht RMS es als noetig an, dasz ProgrammiererInnen diese 
+Probleme den PolitikerInnen erlaeutern. Die Richtlinie selbst auf EG-Ebene 
+in Frage zu stellen, haelt er nicht fuer so aussichtsreich wie die breite 
+oeffentliche Diskussion bei der Umsetzung in den einzelnen Laendern und
+hofft, dasz durch grundlegend andere Auslegungen die Richtlinie auf
+EG-Ebene erneut auf die Tagesordnung kommt.
+
+Fuer eine ausfuehrlichere Diskussion ueber die generelle Problematik
+von User Interface Copyr8s sei auf ein Papier der League for
+Programming Freedom vom Februar 91 verwiesen [LPFUIC]. M.E.
+ist es sinnvoller, davon eine deutsche Uebersetzung zu schreiben,
+als wiedereinmal das Rad von neuem zu erfinden. Am Ende des
+Artikels finden sich Hinweise, wo mensch diese Files findet.
+
+Software Patente
+----------------
+Das zweite Problemfeld im rechtlichen Status von Software ist die
+verbreitete Erteilung von Patenten fuer Software. Rechtsverdreher werden 
+natuerlich abstreiten, dasz Software patentiert werden kann, da nur 
+technische Verfahren und Prozessinnovationen vom Patentrecht abgedeckt 
+seien. Dennoch ergab eine Zaehlung von Glen Slave (sp?) von EDS in den 
+Vereinigten Staaten von Amerika im Jahre 1989 die unerwartet hohe Zahl von 
+2000 Patenten auf Software-Verfahren. In der EG und in der BRD ist
+die Situation derzeit vermutlich nicht akut, aber auch hier wurde
+bekanntlich schon eine gentechnisch manipulierte Maus patentiert,
+obwohl solches eigentlich NICHT vorgesehen war.
+
+Patente auf Software wirken voellig anders als Copyr8. Man kann
+keine bestimmten Programme wie WORD oder UNIX patentieren, sondern
+nur kleine Bruchstuecke von Algorithmen. Dafuer garantiert ein
+Patent das absolute Monopol auf die Anwendung des patentierten
+Verfahrens (2).
+
+Hier einige Beispiele fuer patentierte Verfahren:
+- Wenn mensch den Bildschirminhalt an einer bestimmten Stelle mit
+  der Exklusiv-Oder-Operation invertiert, um damit einen Cursor
+  darzustellen, so verwendet er US Patent 4,197,590.
+- Bei der Uebertragung von Zahlen ueber Netze vereinbart mensch
+  meist eine feste Reihenfolge, in der die einzelnen Bytes von
+  Zahlen uebertragen werden, die laenger als ein Byte sind (z.B. int oder
+  long). Die eXternal Data Representation von SUN fuer ihre Implementierung
+  eines remote procedure calls (RPC), auf der z.B. NFS aufbaut, verwendet
+  solche Abmachungen. US Patent 4,956,809 deckt dieses Patent ab
+  und SUN musz sich wohl etwas neues ueberlegen.
+- Bei Window-Oberflaechen speichert mensch meistens die Fensterinhalte
+  dann ausserhalb des Bildschirmspeichers, wenn Fenster durch andere
+  ueberdeckt werden, um den Wiederaufbau zu umgehen. Dieses Vorgehen
+  nennt sich Backing Store und wird z.B. bei X11 verwendet. AT&T
+  moechte mit US Patent 4,555,775 bei der Verwendung dieses Verfahrens
+  mitreden.
+- Das bekannte Datenkompressionsverfahren compress, dessen Algorithmus
+  z.B. auch in PKZIP verwendet wird, unterliegt dem US Patent 4,558,302
+  der Firma Unisys.
+
+Wenn mensch diese Liste anschaut, stellt sich natuerlich bald die Frage, 
+ob ueberhaupt noch ohne Sorgen programmiert werden kann.
+
+Heutige Programme bestehen aus dem Zusammenfuegen vieler hundert
+kleiner Algorithmen, die  eine kleine Newcomer-Firma unmoeglich
+rechtlich alle beachten kann. Denn Patentrecherchen sind teuer und
+dank des Verfahrens und der komplizierten Materie unzuverlaessig.
+Mit einigen Kreidestrichen konnte RMS auch klarmachen, wo der
+Unterschied zwischen Patentkosten z.B. beim Automobilbau und bei
+der Softwareentwicklung ist:
+
+Entwicklungskosten eines neuen Autos:
+|             Technik usw.                             |Patente|
+
+Entwicklungskosten fuer Software:
+|SW|Patente|
+
+Denn Software kann bei bedeutend geringeren Entwicklungskosten
+eine dem Autobau vergleichbare Anzahl an Patenten und Verfahren
+beinhalten. EntwicklerInnen von Software begeben sich damit
+schon von Beginn an in ein Minenfeld an moeglichen Rechtsfolgen,
+die zumeist abschrecken.
+
+Wieder kommen die Propagandisten fuer die Einfuehrung von Software
+Patenten mit dem Argument, das "verhungernde Genie" braeuchte
+diese Patente, um sich vor der Ausbeutung seiner Entwicklungen
+durch grosze Unternehmen schuetzen zu koennen. Im Gegensatz dazu
+haben aber vor allem grosze Firmen Patente (z.B. allein IBM 9000 !).
+Und die Patente sind nicht direkt notwendig, um Zugriff auf das
+darin steckende Know-How zu haben, sondern geben groszen Firmen
+"das Recht, zu konkurrieren"; dies macht lt. [THINK] einen zehnfach
+groeszeren Effekt als die Patenteinnahmen selbst.
+
+Dann wird auch klar, warum nur grosze Firmen in den Club der
+Lizenzinhaber eintreten koennen, denn diese Patente sind wie
+Lotterielose: Nur wenige sind grosze Erfolge. Und nur die grosze
+Anzahl eigener Patente ermoeglicht es, mit anderen Firmen in
+einen Lizenzhandel einzutreten. Es ist so teuer, dasz selbst
+Lotus oder Microsoft gegen die Patentierung von Software & Algorithmen
+eintreten.
+
+Denselben Effekt sieht mensch, wenn die Kosten einer Patentanmeldung
+betrachtet werden. Sie liegen (auch in Europa) deutlich ueber
+10 000 DM, was noch billig ist, solange das Patent nicht umstritten ist.
+Kommt es zu Verhandlungen, so kann schnell 1 Mio DM auf dem Spiel stehen.
+Wo hier noch jemand den Schutz der kleinen Firmen und Erfinder sieht ?
+
+Daher ist die Forderung der League for Programming Freedom: Keine
+Patente auf Software !
+
+Selbst diejenigen, die dadurch geschuetzt werden sollen, die
+ProgrammiererInnen, haben in einer Umfrage der USENix Review
+eine deutliche Stellungnahme gegen Patente im Bereich Software
+abgegeben.
+
+Beobachtet mensch die Entwicklung in den Staaten, so kommt mensch
+vielleicht auch zu dem Schlusz, dasz die USA derzeit ueber
+globale Einrichtungen wie z.B. GATT oder die WIPO (World Intellectual
+Property Organisation) versuchen, ihre hausgemachten rechtlichen
+Probleme zu exportieren, um anderswo die gleichen Hemmnisse
+bei der Softwareentwicklung durchzusetzen. Vielleicht wachen
+die PolitikerInnen auf, wenn mensch ihnen sagt, dasz z.B. in den
+USA im Jahr 1989 fuenf der Top 10 Firmen in der Rangliste der
+Patentanmeldungen japanischen Ursprungs waren.
+
+Was tun ?
+---------
+Es gibt viele Methoden, wie versucht werden kann, diesen Trend umzukehren.
+Alle sind mit Arbeit verbunden :(
+
+Der erste Ansatzpunkt ist die EG Richtlinie vom 15.5. zum Thema Software
+Urheberrecht, die bis 1993 in den EG-Nationen in nationales Recht umgesetzt
+werden musz. Hier kann durch Lobbying versucht werden, eine so stark
+modifizierte Version der Richtlinie zu bekommen, dasz die Richtlinie
+selbst auf EG-Ebene erneut in die Diskussion kommt.
+
+RMS lies auf den Vortraegen in Berlin und Frankfurt Listen rumgehen,
+auf denen Adressen von interessierten Menschen gesammelt wurden.
+Daraufhin wurde eine elektronische Mailing Liste eingerichtet:
+
+            lpf-frg@helpdesk.rus.uni-stuttgart.de
+
+Kontaktwuensche & Subscribtions bitte an:
+
+        lpf-frg-request@helpdesk.rus.uni-stuttgart.de
+
+Ziel dieser Mailing Liste ist es, Informationen und Aktionen ueber
+die Umsetzung der Richtlinie in der FRG zu sammeln und zu koordinieren.
+
+Dazu gehoert, dasz ProgrammiererInnen mit ihren lokalen Abgeordneten
+reden und ihnen erlaeutern, was User Interface Copyrights und
+aehnliches bedeuten. Wer hat dazu Adress- & Telefonlisten der
+diversen Parlamente (Laender, Bund, Europa) online, so dasz
+jedeR seineN AnsprechpartnerIn finden kann ?
+
+Es scheint u.U. notwendig zu sein, einen Verein LPF-FRG zu gruenden,
+weil ProgrammiererInnen sonst kein Anhoerungsrecht bei den diversen
+Parlamenten erhalten, es werden wie schon bei der Verabschiedung der
+Richtlinie die Big Player mitreden. Wer kennt sich aus und moechte
+diese Aufgabe uebernehmen ?
+
+Die Stellungnahmen der LPF [LPFSWP,LPFUIC] aus den USA mueszen uebersetzt 
+und auf lokale Gegebenheiten angepaszt werden.
+
+Ein Archiv mit Veroeffentlichungen zum Thema musz aufgebaut werden,
+in dem alle Artikel (wenn moeglich online & mit Erlaubnis) gesammelt
+werden. Dieses musz per ano-ftp und via Modem erreichbar sein. Wer
+stellt etwas Entsprechendes zur Verfuegung ? Wer sammelt die
+Veroeffentlichungen ?
+
+Nicht nur in der BRD wird die Richtlinie umgesetzt werden. Daher mueszen
+Kontakte zu den anderen LPFs in Europa gehalten werden. Wer moechte
+dies durchfuehren (und dokumentieren !) ?
+
+Die LPF mueszte in Organisationen, die verwandte Probleme behandeln,
+mit Vortraegen und Artikeln praesent sein. Dazu gehoert z.B.
+die Gesellschaft fuer Informatik (GI), die German Unix Users Group (GUUG),
+das Forum fuer Informatik und gesellschaftliche Verantwortung (F!FF),
+der Chaos Computer Club (CCC), der Verein der Ingenieure (VDI),
+Rechtsanwaltsvereinigungen (Freund oder Feind :) ?).
+Wer hoert sich nach moeglichen Ansprechpartnern um, wer schreibt
+Artikel ?
+
+Natuerlich mueszen neben dezentralen Beackerungsversuchen der
+PolitikerInnen auch Parteien direkt angesprochen werden (so sehr mich
+das auch ankotzt !). Unterorganisationen wie meRCeDeS, Jusos, Julis
+oder was da so kreucht und fleucht mueszen informiert sein.
+
+Und schluszendlich gehoert zu Lobbying professionelle Pressearbeit.
+D.h. Kontakte zur Journaille knuepfen, Artikel fuer die Tagespresse
+und NOT-Fachblaetter schreiben usw. Wer will ?
+
+Meine Taetigkeit fuer die lpf-frg erschoepft sich allerdings fuers
+erste im Schreiben dieses Artikels und dem Unterhalt der Mailing Liste.
+Mir persoenlich ist es egal, ob es einen Verein gibt, wie er heiszt, usw.
+Stoeren wuerde es mich allerdings, wenn net.land wiedermal weiterpennt,
+"solange ja mein Bett nicht brennt". Wann, wenn nicht jetzt, will
+diese Infrastruktur genutzt werden ?
+
+Zusammenfassung
+---------------
+SNAFU.
+
+----------------------------------------------------------------
+Anmerkungen:
+(1) Copyr8s gelten im Allgemeinen fuer 50 Jahre !
+(2) Patente werden fuer ca. 17 Jahre vergeben.
+
+References:
+[CW9122] Software Copyright: Richtlinie laeszt einige Fragen offen; in:
+         Computerwoche Nr.22, 31.05.91, Thomas Heymann
+[CW9127] Richtlinie ueber den Rechtsschutz von Computerprogrammen; in
+         Computerwoche Nr.27, 05.07.91 (leider ohne Praeamble)
+[LPFSWP] Against Software Patents, League for Programming Freedom, Feb.1991
+[LPFUIC] Against User Interface Copyrights, League for Programming Freedom,
+         Feb. 1991
+[NBG910606] Datev unterliegt gegen Microdat; in: Fuerther / Nuernberger
+         Nachrichten 6.6.91
+[NEWSCI] Europe lays down the law on software; Debora MacKenzie; in:
+         New Scientist, 20 June 1991, pg.20
+[THINK] Why IBM needs more patents; in: Think Magazine, Issue No.5, 1991
+
+Autor: Pi, pi@helpdesk.rus.uni-stuttgart.de
+
+
+------------------------------------------------------------------------------
+NEXT OFA9
+                        Computernetze 
+   Die zweite industrielle Revolution kommt zu den Studierenden
+
+Im Jahre 1969 begann mit der Einrichtung des ARPANET der Einsatz von
+Computernetzen in der Forschung. In den darauf folgenden 10 Jahren
+wurden diese Netze fuer neue und besondere Arten der Zusammenarbeit
+zwischen weit voneinander entfernt arbeitenden Forschern in den USA 
+verwendet. Und in den 80er Jahren wurden Netze an Universitaeten ueberall 
+in der Welt eingesetzt, nicht mehr nur durch Forscher, sondern auch durch 
+Studierende, die an Computern arbeiteten. Die Verwendung von Computern und 
+Computernetzen und die Geschwindigkeit, mit der diese Werkzeuge in immer 
+kuerzeren Zyklen immer schneller wurden, haben einen Einflusz darauf, wie 
+geforscht und gelehrt wird.
+
+Dies eroeffnet einen neuen Verantwortungsbereich fuer Studierenden-
+vertretungen.
+
+Derzeit betrachtet man Computer und Netze nicht als Infrastruktur,
+die auch jedem Studierenden so zur Verfuegung stehen musz wie z.B. die
+Buecherei zur Verfuegung steht. Es ist jedoch durchaus plausibel, dasz
+in Kuerze Computer und Netze in jeder Wissenschaft eingesetzt werden,
+immer zur Textverarbeitung, meist auch um Daten zu verarbeiten und
+manchmal auch fuer grosze numerische Probleme (als der dritte Weg
+zu wissenschaftlicher Erkenntnis neben Theorie und Experiment -
+Simulation). Als naechster Schritt kommt die totale Abhaengigkeit
+von Computern bei der Durchfuehrung wissenschaftlicher Arbeiten.
+
+Und Computer und Netze werden nicht mehr nur fuer Datenverarbeitung
+und Rechenleistungen benoetigt. Das Netz ist auch ein voellig neues
+Medium, welches fuer die sogenannten computer-vermittelte Kommunikation
+(CMC) [JSQ90] verwendet wird. Die kurzlebigen Nachrichten der heutigen 
+Zeit sind direkte Folgen des breiten Einsatzes von Computernetzen, der 
+breiten Flut von wissenschaftlich-technischer Information in den 
+Stundenplan jedes Studierenden.
+
+Zum Beispiel bildeten sich am 16. Januar 1991 ca. 20 Minuten nach dem
+Beginn der alliierten Bombardements auf den Iraq eine weltweite
+direkte Konferenz mit Hilfe des Internet Relay Chat. Ca. 100 Menschen
+diskutierten und sammelten alle moeglichen Informationen der
+verschiedensten Medien (Fernsehen, Rundfunk uvam), darunter Teilnehmer aus
+Asien, Australien, Europa, Israel und besonders viele aus den USA.
+Die Konferenz dauerte ca. vier Wochen und war ein sehr gutes Forum
+fuer alle, die ueber den Golfkrieg informiert bleiben wollten.
+
+Studierendenvertretungen als die Verteidigerinnen der Rechte Studierender
+mueszen zu dieser neuen Technologie einen Standpunkt beziehen. Mensch
+koennte vorziehen, diese Situation mit dem Gedanken zu ignorieren,
+dasz mensch selbst noch davon kommen kann, ohne in Kontakt mit
+Computern und Netzen gekommen zu sein. Dies ist sicher nicht sehr
+hilfreich fuer Studierendenvertretungen, denn diese mueszen im Interesse
+derjenigen, die sie vertreten, vorrausdenken. Das Thema dieses
+Artikels ist nicht, festzustellen, ob Computer und Netze nun gut
+oder schlecht fuer Studierende ist (Ich weisz es ja gar nicht !).
+
+So kann es durchaus ein hehres und gutes Ziel sein, dem Einsatz von
+Computern und Netzen mit den entsprechenden Auswirkungen in der Forschung
+und damit auch in der Lehre einen Riegel vorzuschieben. Nur sieht
+es derzeit von meiner Perspektive so aus, dasz dieser Zug schon laengst
+abgefahren ist. So bezeichnet z.B. der Report [RARE91] der Europaeischen 
+Technischen Planungsgruppe an die Netzwerkorganisation der Europaeischen
+Gemeinschaft, RARE, Studierende als moegliche Nutzer eines zukuenftigen
+Hochgeschwindigkeitsnetzes. Studierende werden aber nicht gefragt, ob
+sie soetwas ueberhaupt wollen. Und Studierende sind nur eine von vielen
+Gruppen, die in diesem Papier als moegliche Nutzer erwaehnt werden.
+Also wird dieses Netz aufgebaut, selbst wenn Studis sich aktiv gegen
+die Einrichtung dieses Netzes stellen wuerden.
+
+Daher meine Schluszfolgerung: Studierendenvertretungen mueszen sich
+in die Gestaltung und den Aufbau von Computer- und Netzinfrastruktur
+einmischen.
+
+Der erste Schritt fuer Studierendenvertretungen ist es, gleiches Recht
+auf Zugriff zu Computer- und Netzwerkeinrichtungen fuer alle Studierende
+zu fordern, unabhaengig von deren Fachbereich und den Vorlesungen, die
+sie gerade besuchen. Der Zugriff und die Verwendung solcher Einrichtungen
+musz frei und ohne Einschraenkungen moeglich sein, so wie z.B. die
+Universitaetsbiblothek oder die Vorlesungen frei zugaenglich sind.
+Ist dies nicht erfuellt, so werden diese Einrichtungen von den
+Fakultaeten dazu verwendet, Studierende in bestimmte Arbeitsfelder zu
+draengen, so wie es derzeit mit Raeumen und Hiwi-Jobs gemacht wird.
+Natuerlich heiszt Recht auf Zugriff nicht, dasz jedeR unbeschraenkt
+Rechenzeit und Plattenplatz verschwenden darf, sondern dasz die Basisdienste
+wie Elektronische Post, Textverarbeitung, Zugriff auf Informationsdienste
+usw gewaehrleistet bleiben. Diese Grundrechte sollten an allen
+Universitaeten in gleichem Masze verwirklicht werden.
+
+Zweitens sollten Studierendenvertretungen selbst damit beginnen,
+auf dem Netz Informationsdienste fuer Studierende anzubieten sowie
+die Moeglichkeiten des Computereinsatzes und der Netzdienste
+fuer die taegliche Arbeit in einem positiven Sinn anzuwenden und
+dadurch moegliche Formen und Methoden der Nutzung mitzugestalten.
+Studierendenvertretungen koennen selbst dadurch demokratischer
+und besser erreichbar werden, indem man solche Technologien
+richtig und ausgewogen einsetzt. Die Beteiligung der Studierenden
+an Entscheidungen kann direkter werden und die Studierenden koennen
+detailgenauer informiert werden. Der Informationsaustausch zwischen 
+Studierendenvertretungen kann bei gemeinsamen Aktionen und Entscheidungen 
+gegen neue Gesetze, Verordnungen und selbst bei brutaler Gewalt der 
+Behoerden auf lokaler und ueberregionaler Ebene helfen (z.B. Chinas 
+Demokratiebewegung im Jahre 1989).  Studierendenvertretungen koennen sich 
+sogar auf globaler Ebene fuer das Recht auf Ausbildung und die 
+Verantwortung der Wissenschaft fuer ihre Ergebnisse organisieren. Studi-
+Organisationen koennen keine detailierten und ausgefeilten Broschueren auf 
+Papier herausbringen und europa- oder welt-weit verteilen, weil dies viel 
+zuviel Arbeit an lokaler Stelle bedeuten wuerde und zu hohe Kosten. Und 
+niemand organisiert Studi-Meetings auf europaeischer Ebene mit 6 Millionen 
+TeilnehmerInnen. Auf Computernetzen hingegen finden taeglich schon 
+Diskussionen und Entscheidungsprozesse solcher Art statt.
+
+Der letzter Punkt betrifft Studis und Studierendenvertretungen als die 
+ersten Nutzer dieses neuen Mediums, die damit mitverantwortlich werden 
+gegenueber den weitreichenden Auswirkungen, die diese Technologie 
+langfristig auf die gesamte Gesellschaft haben kann.  In einer 
+Veroeffentlichung [RAND85] der Rand Cooperation, einer Organisation, die 
+elektronische Post seit deren ersten Anfaengen nutzt, kann mensch die 
+folgende Beobachtung finden: "Traditionell haben Organisationen den 
+Informationsflusz entlang hierarchischer Organisationsstrukturen gefuehrt 
+und gefiltert. [...] Werden neue Informationsfluesze, die durch diese neue 
+Technik einfacher und manchmal anonymer flieszen koennen, diese 
+traditionellen hierachischen Strukturen aufbrechen ? Ist dies gut oder 
+schlecht ? Fuer wen ?" - Die Antwort zu dieser Frage kenne ich nicht, doch 
+zumindest fuer Studierendenvertretungen und andere "cooperate actors" 
+[GI90b] ist diese Aufloesung hierarchischer Strukturen ein mir 
+willkommener Effekt. Fuer Studierendenvertretungen waere es eine
+Herausforderung, solches zu versuchen und fuer viele andere
+Organisationen waere es notwendig.
+
+An dieser Stelle ist eine laute Warnung angebracht. Positive Auswirkungen 
+bei der Anwendung der Computer- und Netzwerktechnologie erscheinen nicht 
+automatisch, indem mensch anwendet. Die Anwendung kann im Gegenteil sogar 
+hierarchische und starre Stukturen unterstuetzen, auf die mensch dann 
+sogar Worte wie Oligarchie oder Diktatur anwenden koennte; in manchen 
+Faellen passiert das bereits [LPF91]. Im Gegensatz dazu mueszen wir daher 
+einen Weg finden, diese Technologie verantwortbar in groszem Rahmen 
+einzusetzen.
+
+[JSQ90] J.S.Quaterman, The Matrix, Computer Networks and Conferencing
+        Systems Worldwide, Digital Press 1990
+[GI90a] Neil Postman, Informing ourselves to death, Hauptvortrag, 20te
+        Jahrestagung der Gesellschaft fuer Informatik (GI)
+[GI90b] Prof. Cornell, im Workshop Gesellschaftliche Auswirkungen der
+        Informatik, 20te Jahrestagung der Gesellschaft fuer Informatik (GI)
+[RAND85] Shapiro, Anderson, Towards an Ethics and Etiquette for Electronic
+        Mail, Rand Corp., 1985
+[RARE91] European Engineering Planing Group, Final Report, 2 May 1991
+        via EEPG-List at SEARN.bitnet
+[LPF91] League for Programming Freedom, Monopolies on Writing Programs -
+        How to Protect Your Freedom to Write Software, Rede in Frankfurt
+        von Richard M.Stallman, Juni 1991
+
+Autor: Pi, pi@helpdesk.rus.uni-stuttgart.de
+
+
+------------------------------------------------------------------------------
+NEXT ORCA
+                          -----------------
+                          ! Kurzmeldungen !
+                          -----------------
+
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1
+
+                Buchtip zur Unixsystem Verwaltung
+
+Fuer all jene, die sich als Computeranwender mit dem Aufkommen der 
+Arbeitsplatzcomputer (auch bekannt unter dem Begriff Workstation) 
+ploetzlich mit dem Verwalten des doch recht groszen Unixsystems 
+konfrontiert sehen, gibt es Abhilfe: das Unix System Administration 
+Handbook.
+
+Zuviel waere es verlangt, hoffte man, OHNE Kenntnisse des Unix 
+Betriebssystems gleich an die Verwaltung einer Unix Workstation gehen zu 
+koennen. Also setzen die Autoren voraus, dasz der/die Verwalter/in in spe 
+schon mit Unix gearbeitet hat und somit die grundlegenden Verfahren kennt 
+(Directories anlegen, Texte editieren, kleine Shell-Programme schreiben).
+
+Stattdessen werden alle relevanten Aufgaben und Problembereiche bei der 
+Verwaltung eines Unixsystems detailliert beschrieben.  Zu jedem Gebiet 
+werden die Unterschiede zwischen den beiden Hauptvarianten BSD Unix und 
+System V Unix aufgezeigt, so dasz dadurch auch alle dazwischen oder 
+daneben liegenden Varianten verstaendlicher werden. In Ergaenzung zu den 
+Manuals, in denen steht, wie mensch etwas macht, versucht dieses Buch zu 
+erklaeren, WARUM etwas getan werden sollte und spricht dabei alle Regeln, 
+Konventionen und Tricks an.
+
+Abgedeckt werden die Themen Filesysteme, Prozesse, Booting und Shutdown 
+des Rechners, Hardwaremodifikationen (Drucker, Platten, Terminals, 
+Netzwerkanschlusz und anderes), Konfiguration von Netzwerk, Accounting und 
+Plattenquota und natuerlich das Sicherheitsproblem. Selbst das bei 
+Workstations so unbeliebte Backup wird besprochen.
+
+Meine Meinung ueber dieses Buch ist deswegen so hoch, weil alle Aufgaben, 
+die bei der Verwaltung der helpdesk.rus.uni-stuttgart.de bisher angefallen 
+sind, sehr gut abgedeckt wurden. Inbesondere lassen sich die Tips aus 
+diesem Buch nicht nur fuer einzelne Rechner anwenden, sondern sie beachten 
+schon vernetzte Rechnerumgebungen in kleiner bis mittlerer Groesze, wie 
+sie oft an Instituten zu finden sind.
+
+Allein fuer die fuenf Regeln zum "Attitude preadjustment" ist dieses Buch 
+wert, gelesen zu werden. Eine Regel sei hier verraten: Have fun.  Und so 
+schliesze ich mit den Worten von Dennis Ritchie: "Therefore, this book is 
+most welcome".
+
+Unix System Administration Handbook
+Evi Nemeth, Garth Snyder, Scott Seebass
+Prentice Hall, 1989, ca. 100 DM
+ISBN 0-13-933441-6
+
+Autor: Pi, pi@heldesk.rus.uni-stuttgart.de
+
+2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2
+
+                USA / Export / Golfkrieg
+
+USA verschaerfen Exportbestimmungen fuer Netzwerksofzwate als Folge des
+Golfkriegs
+
+Im Gefolge des Golfkrieges hat die USA ihre Bestimmungen zum Export von 
+Netzwerk-Management Software verschaerft, weil Militaers und Geheimdienste 
+erhebliche Schwierigkeiten hatten, die computergestuetzte irakischen 
+Kommando-, Kontroll- und Kommunikationsinfrastruktur auszuschalten.
+
+Die entsprechende Netzwerksoftware, die der Irak u.a. von amerikanischen aber 
+auch von anderen auslaendischen Herstellern bezogen hatte, war darauf 
+ausgelegt, die sog. C3I-Systeme (Command, Control, Communication and 
+Intelligence) gegen die Ausschaltung bestimmter Netzwerkknoten durch 
+entsprechende 'Rerouting-Routinen" abzusichern.
+
+Die amerikanische Softwareindustrie befuerchtet nunmehr, dass grenzueber-
+greifende Beschluesse ueber entsprechende Exportkontrollen fuer Netzwerk-
+software auch durch das "Coordination Committee for Multilateral Export 
+Controls" (COCOM) sanktioniert werden, dass seit gestern (23.5) in Paris tagt. 
+Derartige Beschluesse wuerden zumindest einige der juengsten Beschluesse
+zur Liberalisierung des technologiebezogenen Aussenhandels mit dem Ostblock 
+und China rueckgaengig machen, meinen Vertreter der amerikanischen 
+Softwareindustrie.
+
+3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3
+
+                Supercomputer-Fachleute tagen in Koeln
+
+Forscher aus der ganzen Welt, insbesondere aus den USA, Westeuropa
+und Japan, traffen sich vor paar Wochen in Koeln bei der "1991
+International Conference on Supercomputing", um die Ergebnisse ihrer
+Untersuchungen ueber Bau, Programmierung und Anwendung von
+Supercomputern auszutauschen.
+
+Was ein Supercomputer ist, erklaert Professor Friedel Hossfeld vom
+Forschungszentrum Juelich, einer der Organisatoren der
+Veranstaltung, so: "Es geht um Computer, die hohe Rechenleistungen
+erbringen, und Supercomputer bilden dabei die hoechste
+Leistungsklasse. Heute schaffen Rechner dieser Klasse bis zu zehn
+Milliarden Additionen oder Multiplikationen in der Sekunde. Es sind
+Entwicklungen im Gange, diese Leistungsgrenze auf hundert oder sogar
+tausend Milliarden Rechenoperationen pro Sekunde hinaufzutreiben."
+
+Wofuer man diese enorme Rechenleistung dringend benoetigt, wird auf
+der Konferenz in mehreren Vortraegen deutlich, z.B. um die
+Wettervorhersage genauer zu machen, Windkanalversuche bei Autos und
+Flugzeugen zu ersetzen, Schadstoffausbreitung in der Luft zu
+untersuchen oder die Mustererkennung beim Sehen zu simulieren.
+
+Der Einsatz von Computern beruht in all diesen Faellen darauf, dass
+Vorgaenge durch mathematische Modelle beschrieben werden, die
+ihrerseits nur mit Hilfe von aeusserst umfangreichen Rechnungen
+geloest werden koennen. Und je genauer die Loesung sein soll, um
+so mehr Operationen benoetigt man. Es gibt noch eine ganze Reihe von
+Problemen, die zwar mathematisch formuliert worden sind, aber wegen
+der begrenzten Rechenleistung selbst der heutigen Supercomputer noch
+nicht geloest werden koennen.
+
+Die anderen Hauptthemen der Konferenz sind die Architektur von
+Supercomputern und die zugehoerige Software. Um einen Rechner hoher
+Leistung zu bauen, setzt man ihn heute meist aus mehreren, manchmal
+aus einigen tausen Einzelprozessoren zusammen. Solche Parallelrechner
+stellen jedoch hohe Anforderungen an ihre Benutzer. Es ist noch sehr
+schwierig, diese komplizierten Rechner so zu programmieren, dass
+ihre Geschwindigkeit effektiv genutzt werden kann. Daher ist es eines
+der Ziele der Software-Entwickler, dem Anwender den Rechner so zu
+praesentieren, als bestehe er - wie ein traditioneller Rechner - nur
+aus einem Prozessor. Auf der Konferenz wird deutlich, dass man hier
+zwar Fortschritte macht, aber auch noch viel zu tun uebrig bleibt.
+
+Bei einem Empfang der Teilnehmer im Koelner Historischen Rathaus
+durch Buergermeisterin Renate Canisius wurde einhellig festgestellt,
+dass Koeln ein guter Platz fuer eine Tagung ueber Supercomputer
+ist. Im weiteren Umkreis sind naemlich ungewoehnlich viele solche
+Rechner installiert: an den Hochschulen in Aachen, Bochum und seit
+kurzem auch an der Universitaet zu Koeln sowie bei
+Grossforschungseinrichtungen in Juelich und St. Augustin.
+
+In der Bundesrepublik erkannte man schon zu Beginn der 80er Jahre,
+dass der Einsatz von Supercomputern entscheidend fuer den Erhalt
+der internationalen Wettbewerbsfaehigkeit in Naturwissenschaft und
+Technik ist. Insbesondere das Forschungszentrum Juelich wurde daher
+zu einem Schwerpunkt fuer Entwicklungen und Anwendungen im
+Supercomputerbereich ausgebaut. Auch in Anerkennung der hier
+geleisteten Arbeit wurde die Ausrichtung der diesjaehrigen
+Supercomputer-Konferenz dem Forschungszentrum Juelich uebertragen.
+
+
+Weitere Informationen: Forschungszentrum Juelich Oeffentlichkeitsarbeit
+                       Postfach 5170 Juelich
+                       Telefon (02461) 61-4661
+                       E-Mail WTA100@DJUKFA11.BITNET.DBP.DE
+
+4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4
+
+                Hardware-Ecke in der Chalisti
+
+Auf Grund der Initiative von Christian Kuhtz ist die Idee aufgekommen
+eine regelmaessige Hardware-Ecke in die Chalisti zu nehmen. 
+
+Dabei sollen regelmaessig Beitraege ueber Grundlagen und neue Entwicklungen
+im Bereich der Hardware und Elektrotechnik gebracht werden. Nun fragt
+Christian unter anderen an, was ihr davon haltet, ob jemand mitarbeiten
+moechte oder Quellen fuer Informationen kennt. 
+
+Falls ihr Euch dazu aeussern moechtet, tut dies bitte an:
+c.kuhtz@innotec1.zer bzw. c.kuhtz@innotec1.zer.sub.org
+
+
+------------------------------------------------------------------------------
+NEXT ORCB
+                             IMPRESSUM
+                             ---------
+
+  "Die gesamte Menschheit bleibt aufgefordert, in freier Selbstbestimmung
+   die Einheit und Freiheit des globalen Dorfes zu vollenden."
+
+   Herausgeber: Chaos Computer Club e.V./Redaktion Chalisti
+
+   Erscheinungsdatum:  24.7. 1991
+
+   V.i.S.d.P. : F.Simon
+
+   Redaktion:   Volker Eggeling, Frank Simon
+
+   Mitwirkende an dieser Ausgabe: Dirk, Pi, Martin Seeger, Wau, Jwi
+
+   Redaktionen: Chalisti,       c/o Frank Simon, Ammerlaender Heerstr. 389
+                                W2900 Oldenburg, Tel. 0441/76206
+                Datenschleuder, Schwenkestrasse 85, W2000 Hamburg 20
+                                Tel. 040/4903757, Fax: 040/4917689
+                MIK-Magazin,    c/o J. Wieckmann, W2000 Hamburg 60
+                                Barmbeker Str.22
+
+   Verbreitung: Zerberus   : /Z-NETZ/MAGAZINE/CHALISTI
+                UUCP(dnet) : dnet.general
+                UUCP(sub)  : sub.mag.chalisti
+                EARN/CREN  : CHAMAS@DOLUNI1, Brett chamas.chalisti
+                GeoNet     : mbk1: brett ccc-presse
+                MagicNet   : Artikel&News
+                Mausnet    : Chalisti
+                FidoNet    : ccc.ger
+                ChaosNet   : /C-NET/INFO/MAGAZINE/CHALISTI
+                BTX        : *CHAOS# / TELESOFT
+
+   Adressen:    EARN/CREN  : CHAMNT@DOLUNI1.bitnet
+                UUCP       : eggeling@uniol (eunet)
+                             terra@sol.north.de (subnet)
+                Zerberus   : terra@sol.zer
+                GeoNet     : mbk1: chaos-team
+                FidoNet    : Volkmar Wieners on 2:241/2.1205
+                MagicNet   : trendbox:gec
+                MausNet    : terra@sub  (temporaer)
+                AmNET II   : HENNE;SML
+                FidoNet    : 241/5800.5
+                DFN        : C=de;A=dbp;P=gmd;O=kmx;S=ext/simon
+
+                Teilnehmer aus diversen anderen Netzen benutzern am besten
+                die Adresse terra@sol.north.de
+
+    Mit Namen gekennzeichnete Artikel geben nicht unbedingt die Meinung der
+    Redaktion wieder. Alle Artikel und Beitraege koennen mit Quellenangabe
+    weiterverwendet werden. Artikel aus dem MIK-Magazin bitte mit Quelle:
+    (emp/mik) MIK Magazin, (c/o) J. Wieckmann, Barmbecker Str. 24, 2000 HH 60
+    angeben. 
+    Die Verbreitung der Chalisti auf anderen Netzen wird ausdruecklich er-
+    wuenscht. Bei Abdruck in Zeitungen oder Zeitschriften bitten wir um zwei
+    Belegexemplare.

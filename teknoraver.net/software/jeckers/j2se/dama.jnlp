@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://teknoraver.net/software/jeckers/j2se" href="dama.jnlp">
+	<information>
+		<title>Java Checkers</title>
+		<vendor>Matteo Croce</vendor>
+		<homepage href="."/>
+		<description>Java Checkers</description>
+		<description kind="short">Java Checkers</description>
+		<icon href="icon.png"/>
+		<offline-allowed/>
+	</information>
+	<resources>
+		<j2se version="1.6+"/>
+		<jar href="dama.jar"/>
+	</resources>
+	<application-desc main-class="dama.Dama"/>
+</jnlp>

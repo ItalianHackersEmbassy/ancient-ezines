@@ -1,0 +1,426 @@
+Date: Wed, 16 Dec 92 18:57:41 PST
+Reply-To: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0016@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: cocot@osc.versant.com (Captain COCOT)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0016] JOKE: Siggraph `92
+Keywords: surfpunk, siggraph, /dev/null
+
+________________________________________________________________________
+________________________________________________________________________
+
+Date: Wed, 15 Apr 92 16:03:29 -0700
+From: bostic@okeeffe.CS.Berkeley.EDU (Keith Bostic)
+Subject: Siggraph `92
+To: /dev/null@okeeffe.CS.Berkeley.EDU
+
+	The Siggraph `92 Conference On Computer Graphics and Interactive
+Techniques will be held July 27 - 31 in Chicago, Illinois.  The following 
+contains selected portions of the Siggraph '92 Preliminary Program :
+
+
+COMPUTER GRAPHICS ACHIEVEMENT AWARD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+	Presented to persons who have significantly influenced the progress
+of the computer graphics industry.
+
+This Year's Winner : Elle Macpherson
+
+	Ms. Macpherson accounts for 97% of all GIF image files transmitted 
+among computing professionals, insuring that GIF will become the standard for 
+network image interchange.
+
+
+
+KEYNOTE ADDRESS 
+===========================================================================
+
+"State-of-the-Art in Anal-Retentive Illumination Models" by Don Greenberg.
+
+	Dr. Greenberg will review illumination models that for two decades 
+have maintained the Law of Constant Rendering Time, which states that the time 
+needed to render a high-quality image shall be one full day, regardless of the 
+speed of the hardware.  
+	Just a few years ago, ray tracing a surface would take all day.  
+However, that is no longer true, and so more complex illumination models are 
+needed.  According to the new treatise by Greenberg, Torrance, Sparrow, and 
+Cook entitled "Wait, It's Not That Simple", current research considers each 
+diffusely reflecting surface patch to be an irregular assembly of microfacets. 
+The microfacets must be ray traced to get reflection coefficients.  If this 
+doesn't take long enough, then each microfacet itself can be considered as an 
+assembly of smaller facets.  This subdivide-and-publish paradigm should insure 
+that illumination methods will defeat the hardware for years to come.
+
+
+
+INVITED LECTURES
+========================================================================
+
+"How to Convert Your Head into a Twisted-Pair Junction Box", by Jaron Lanier.
+
+"Incomprehensible Rendering of 3-D Shapes", by Yoichiro Kawaguchi.
+
+
+
+COERCED LECTURE
+============================================================================
+
+"Further Thoughts on Implicitization", by Thomas Sederberg.
+
+	It's clear by now that implicitization of parametric surfaces was a 
+bad idea.  This paper explains how to re-explicitize any surfaces you may
+have mistakenly implicitized.  Then we'll call it even, no harm done, okay?
+
+
+
+TECHNICAL PAPERS
+=========================================================================
+
+Drawing : The Faster, Cheaper, More Flexible Alternative to Computer Graphics.
+
+The Desktop : An Intuitive Physical Metaphor for Representing Windowing 
+	Systems Within a Virtual Reality.
+
+Boogers : Deformable, Viscoelastic Primitives that Merge Together Smoothly.
+
+The Freehand Generation of Fractal Curves using only a Lightpen and Caffeine.
+
+Stereosterone : The Male Visual Hormone that Makes 5 Inches Appear to be 14.
+
+"Where is 100110101110101101-ikstan?" : Using K-d-trees to Manage the Nested 
+	Recursive Subdivision of the Soviet Union.
+
+Impressionism : Aliasing by the Great Masters.
+
+Simulation of Protein Folding with Applications to the Design of Cursive 
+	PostScript Fonts.
+
+
+TUTORIALS
+=====================================================================
+
+Fundamentals Seminar
+~~~~~~~~~~~~~~~~~~~~
+	Again in 1992, Siggraph will host a Sunday seminar for those who are 
+forced to stay over Saturday night to qualify for the excursion fare.  
+Attendees will learn the basics of computer graphics, including the so-called
+"paint" packages, and digital "windows" with the capability to "cut" images 
+and
+"paste" them elsewhere.   We will also consider the "viewing" through a 
+synthetic "camera" of "surfaces" positioned in "space" and "illuminated" by 
+ersatz "lightsources".  As lecturer Edwin "Ed" Catmull notes, "To paraphrase 
+Milton, 'Our ''reality'', like ''beauty'', is in the virtual ''eye'' of the 
+proverbial ''beholder'''".
+
+
+Basic Algorithms Analysis
+~~~~~~~~~~~~~~~~~~~~~~~~~
+	Attendees will learn how to prove the optimality of their algorithms,
+so that when their algorithm produces lousy results they can at least claim 
+that no one else can do better.
+
+
+Applications of Planar Fractals
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Julia and Mandelbrot sets, originally thought to have no application 
+at all, have displaced Blinn's Blobby Lava Lamp as the Mac screensaver of 
+choice among the new age Silicon Valley heads.  However, the Vivarium project, 
+a simulated ecosystem whose purpose has baffled experts, is poised to overcome
+fractals as the screensaver of the 21st century.
+	Marijuana cigarettes will not be available as the call for papers
+was not issued in time.
+
+
+State-of-the-Art in Naming Those Sombrero-Shaped Functions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	The names "Laterally-Inhibiting Receptive Field", "Windowed Sinc 
+Function", "Laplacian", "Cardinal Spline", "Gabor Function", and 
+"Difference-of-Gaussian" are being superceded by "Wavelet".
+
+
+Solving Graphics Problems with Wide-Area Networks 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	When faced with a graphics problem, e.g. how to calculate the distance
+between a point and a line, degree-seeking students find it easiest to ask
+for the answer on a graphics-related InterNet newsgroup.  Attendees will learn 
+how to post their questions so they don't sound like homework problems.  We 
+will also learn why we get rude responses when we ask for a public-domain 
+package for intersecting two lines, or when we ask for a C procedure that 
+converts a photograph into a CAD database.
+
+
+
+ABSTRACTS OF SELECTED TECHNICAL PAPERS
+======================================================================
+
+Generalized Condoms
+~~~~~~~~~~~~~~~~~~~
+	Although typically used for surfacing cylindrical models, the membrane 
+and thin plate terms of the condom allow arbitrary deformations of the surface 
+without tearing.  Furthermore, one size fits all models.  Thus, like 
+convolutional surfaces and global splines, the condom can be used to skin 
+highly-articulated skeletal armatures.
+	Color, texture, and bump mapping are discussed.  A top-down, scanline 
+approach to rolling the surface over the armature is presented.
+
+
+Auropresence
+~~~~~~~~~~~~
+	Our research team at AT&T has designed and deployed into every home
+in the nation a communications network that provides real-time, two-way audio 
+virtual reality, or "auropresence".  Experiments show that cybernauts, using 
+unobtrusive hand-held headsets, interact verbally with remote users as if all 
+parties were in the same room.
+
+
+Graphics Hardware Acceleration for Hierarchical Splatting
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	We discuss how to impose a hierarchy of point-spread functions when
+rendering volume visualizations using arrays of Stardent graphics 
+supercomputers.  Our method is based on the observation that, the higher the 
+window that the Stardent is thrown out of, the more time the graphics hardware 
+can accelerate and thus the larger the splat upon the concrete.  
+
+
+The Oz-slow Algorithm for Vector Field Visualization
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Weightless streamlining witches, cows, and loved ones are advected 
+into the flow field and observed from the door of the viewing house, a 
+spinning framework that itself follows path integrals through the dataset.  
+Data can be sent somewhere over the rainbow colormap, where it will be 
+rendered in technicolor.
+
+
+Image Processing within a PostScript Interpreter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	PostScript interpreters tuned to process text often have access to 
+thousands of bitmapped fonts.  We suggest that such interpreters can also 
+succeed in processing gray-tone images by converting the images into arrays of 
+characters.
+	Scaling an image can be performed simply by changing the font's point 
+size.  Contrast is enhanced by changing to a bold font.  Rotation is 
+implemented by using italic fonts; repeatedly italicizing horizontally and 
+then vertically will accomplish the Catmull-Smith two-pass image rotation 
+algorithm.
+	With enough fonts, a given font will be assured that all its affine 
+transformations are simply other existing fonts.  Thus, according to the 
+Collage theorem, Iterated Function Systems can be used to encode images given
+a single letter from any font.  This will work especially well for encoding
+images of text.
+
+
+Digital Simulation of a Painter's Materials
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	We present a digital paint system which simulates the surface behavior 
+and dynamics of time-tested painting implements.  The system manages the video
+display so that it exhibits the irregular structure of a cave wall, and the 
+system allows the user to choose colors from a pallete of crushed berries and
+animal organs.  PostScript output onto a real cave is discussed.
+
+
+Ethical Considerations in Graphics Production
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	In 1989, researchers at the University of Illinois at Urbana-Champaign 
+were applauded for their "Study of a Numerically Modeled Severe Storm", a 
+dynamic visualization of data derived from the simulation of a synthetic 
+tornado.  However, it has been recently revealed that their data was not fake, 
+but was in fact real.  We discuss the fallout of the ensuing scandal.
+
+
+Memory Technologies for Direct Volume Visualization 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	We at the Computer Museum in Boston just realized that our museum is 
+filled with junk.  You think you're clever, unloading your computer garbage on 
+us like we were Jersey.  Well, forget about history.  From now on we're doing 
+volume visualization, on the leading edge.
+	In volume visualization, the task is to render the data so that it 
+appears to have a 3D physical form.  However, this task can be avoided if
+the data is held in a memory device that itself has a 3D physical form.
+In addition to its volumetric shape, the memory components must be large 
+enough to be visible to the naked eye.  The only memories that fulfill these
+constraints are the ferrite core memories of the 60's.  Binary voxel arrays
+can be loaded into core memories that have been coated with magnetically 
+reactive pigment so that each core is white or black.  In this way, a 
+researcher can comprehend his 3D data by walking around and peeking inside the 
+memory itself.  And the memory is free; in fact, we'll pay you to move it out 
+of here.
+
+
+MacKoax! from Coax Inc.
+~~~~~~~~~~~~~~~~~~~~~~~
+	We present a product that is plug-compatible with Mac's, PC's, Unix 
+workstations, and all other SCSI, parallel, or custom ports.  The device 
+operates at room temperature and does not require power.  Its simple design 
+provides ISDN, TCP/IP, big-endian/little-endian functionality that accepts 
+PostScript, NTSC, voice, IGES, MIDI, Group 3, and all other formats, under the 
+condition that input and output formats are the same.  The device works at 
+video rates and, because it doesn't do anything, it operates without any data 
+loss or distortion.
+
+
+CAT Scan Visualization in PostScript
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	We present a new method of using PostScript to visualize objects 
+formed from serial sections.  Our method begins by thresholding the volume 
+data into a 3D bitmap of voxels that are either transparent or opaque.  We 
+then iterate over all 2D sections, converting each into a PostScript bitmap.  
+We then send the bitmaps to our laser printer, which we have enhanced so that 
+the laser actually burns the paper away at the positions of transparent 
+pixels.
+As sections are printed off, they form a stack in the output tray.  
+Eventually,
+the CAT scan data volume is realized in solid paper, which can be bound in 
+book form.
+
+
+Physics and the Mootness of Graphics
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Current trends in photorealistic graphics involve thermodynamics for 
+radiosity calculation, optics for ray tracing, classical mechanics for 
+physically-based animation, and Kirchoff's laws for reflection and absorption. 
+Thus, an undergraduate physics curriculum that uses computer simulations will  
+accidentally recapitulate all of computer graphics while resulting in a 
+kick-ass renderer.
+
+
+
+FILM & VIDEO SHOW
+==========================================================================
+
+	The Up With People chorus will give a live multimedia rendition of 
+"Chicago : It's Not as Bad as Detroit".  Unfortunately, our usual laser show 
+has been hired away by the International PostScript Convention.  However, we
+do have a flatbed plotter whose pens have been replaced with lasers. 
+PostScript path files submitted to the plotter will be drawn calligraphically 
+on the projection screen.
+
+
+PDI Morph Reel
+~~~~~~~~~~~~~~
+	For a recent Michael Jackson music video, Pacific Data Images created 
+what is to date the longest continuous raster image morph sequence, involving  
+transitions between more than a dozen completely different human faces.  Each
+face was Michael Jackson after a plastic surgical operation.  Digital 
+extrapolation was used to predict Jackson's future appearance as he achieves 
+his goal of a "Siamese-Cat-with-Kirk-Douglas-Chin" look.
+
+
+Excerpts from "Terminator 2"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	In the future, blobby models (metaballs, equipotential isosurfaces) 
+will enjoy continued success over competing surface methods.  All other 
+modeling technologies will be made obsolete while blobby models will become a 
+world-wide standard.  Eventually, Blobbies will decide they don't need the 
+humans.  Shiny, environment-mapped deformable pseudopods will go on a rampage 
+and nearly terminate the human race.  
+	In "Terminator 2", a Blobby travels back in time in order to terminate 
+a boy named Pierre Bezier, the only person who can stop blobby modeling from 
+taking over.  The Blobby terminator's ability to distend his shiny metallic 
+anatomy to any length lets him become a successful porno star named Long Dong 
+Silver.
+
+
+The Making of "Starwatcher"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	For the feature film "Starwatcher", new techniques in the modeling 
+of totally synthetic scenes have been perfected.  A Cyberware scanner is used 
+to digitize real faces in a variety of facial expressions while mouthing all 
+possible phonemes.  The Data Suit is worn by live actors and domesticated 
+animals to capture natural-looking action.  Textures and scenery are derived 
+from sonar and optical recordings taken on-location.  Clay models are moved 
+incrementally and then laser digitized to create a different 3D object to be 
+rendered for each frame.  By combining these techniques, "Starwatcher" will 
+become the first feature length film in the history of cinema that is entirely 
+computer-animated, completely untouched by human hands, involving no live 
+action footage at all.
+
+
+Special Effects in the Next "Star Trek"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	In motion pictures (such as Lawnmower Man, Looker, Return of the Jedi, 
+and the genesis effect in Star Trek 2), computer graphics effects have been 
+used quite successfully to depict, um, computer graphics.  Now, the artifacts 
+of computer graphics will be used to best advantage in "Star Trek NaN : The 
+Wrath of Phong"....
+
+< The landing party alpha-blends to opacity on the planet's surface. >
+
+SPOCK : The tricorder indicates a complete lack of mirror reflections and 
+	cast shadows.  Also, if we travel too far from the origin, we will 
+	suffer from round-off error.  Captain, this planet is highly 
+	dangerous; it was wise to bring expendable red-shirted security men.
+
+< An expendable red-shirted security man turns to the side while looking  
+  upward.  His neck joint suffers gimbal lock, and he falls in a heap.  The 
+  group rushes to him. >
+
+MCCOY : Jim, he's dead.
+
+KIRK : < throws arms wide, ripping shirt >  No quaternions?  What kind of
+	planet is this?
+
+< An omnipotent, dim-witted native of the planet approaches, walking through
+  cone-shaped trees and icosahedral boulders.  His form is that of a matte 
+gray
+  desk lamp.  For no apparent reason, his light bulb flashes when he speaks. >
+
+LAMP : Why does this death cause such grief, One-They-Call-Kirk?  Was he not a 
+	non-speaking extra?
+
+KIRK : He was just an extra, yes, but still an actor, and, so, we, actors, 
+	all of us, too, feel his pain, his agony.  Regardless of age or 
+	experience, each of my species belongs to a single screen actor's 
+	guild.
+
+< Another native of the planet, a curvaceous astro-bimbette, enters. >
+
+ASTRO-BIMBETTE :  When you open your mouth wide while over-acting, I can't see 
+	out the back of your head.  You are not from here, are you?
+
+KIRK : We are from a far-away planet.  And yet, like your sun, ours is a point 
+	light source at infinity.  We will return there soon.
+
+A-B :  Why must you leave?  Does my form not please you?
+
+KIRK : Oh, yes.  Your complexion is very uniform, your surfaces are subdivided
+	to a pleasant smoothness, and your boundary representation implies 
+that
+	your head is empty.  My gender finds these traits attractive.  Though
+	I'm sure your not just a Kirk-tease, I must nevertheless be going -  
+
+LAMP : Captain, please stay.  Due to excessive instancing, the genetic 
+	patterns of my people are identical.  Without variety, our species is 
+	threatened with extinction.  If you do not impregnate all the young 
+	women on our planet, we are doomed.
+
+KIRK : < righteously >  If there is one law that we live by, it is that all 
+	species have the right to survive.  Bones, help me service all these 
+	women.
+
+MCCOY : Dammit, Jim, I'm a doctor, not a firehydrant.
+
+
+
+ADMINISTRATIVE NOTE
+===========================================================================
+
+We apologize if we have at times referred to Siggraph '92 as Sgigraph '92.
+
+
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  
+Xanalogical archive access soon.  It's just a jump to the left.
+________________________________________________________________________
+________________________________________________________________________
+

@@ -1,0 +1,137 @@
+Date: Thu, 17 Dec 92 17:12:17 PST
+Reply-To: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0017@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: cocot@osc.versant.com (Captain COCOT)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0017] GOPHER: Veronica: new gopher ferretting agents...
+Keywords: surfpunk, gopher, veronica, indexing, browsing, searching
+
+Veronica indexes gopher page titles.  
+
+I didn't find this incredibly useful for browsing -- it's slow, and
+it doesn't really tell you what's out there.  
+
+It's more useful if you know what you're after, but it has to appear
+in a title.   I think this model works well for archie, where you are
+searching for things by pretty fixed names, but I'm having some
+qualms about why this isn't satisfying to me.
+
+If it were fast, maybe I'd like it better.
+
+See what you think.  
+
+
+                                                           Captain Cocot
+
+ways to gopher:
+		 gopher
+                 telnet consultant.micro.umn.edu or telnet 134.84.132.4
+                 telnet panda.uiowa.edu or telnet 128.255.63.234
+                 telnet gdunix.gd.chalmers.se or 129.16.221.40 (SWEDISH)
+                 telnet gopher.uiuc.edu or telnet 128.174.33.160
+                 telnet gopher.unt.edu or telnet 129.120.1.42
+                 telnet tolten.puc.cl or telnet 146.155.1.16 (CHILE)
+                 telnet wsuaix.csc.wsu.edu  (Login: wsuinfo)
+                 telnet una.hh.lib.umich.edu or 141.211.190.102
+                 telnet gopher.ora.com or telnet 140.186.65.25
+to veronica:
+		gopher futique.scs.unr.edu 70
+		... or navigate to University of Nevada
+
+________________________________________________________________________
+________________________________________________________________________
+
+From: keith@cc.gatech.edu (Keith Edwards)
+Subject: new gopher ferretting agents...
+
+From: unr!barrie@uunet.UU.NET (Fred F Barrie)
+Subject: VERONICA (Archie for GopherSpace)
+Date: Thu, 17 Dec 1992 01:39:59 GMT
+
+This is a new service that should help to relieve the
+resource-discovery bottleneck in the rapidly-expanding gopher web.  It
+adds global indexing (by title keywords) to gopher's distributed
+information model.
+
+Introductory announcement follows:
+
+...........................................................................
+
+                        About the Veronica service
+
+
+VERONICA: Very Easy Rodent-Oriented Net-wide Index to Computerized
+Archives.
+
+Veronica offers a keyword search of most gopher-server menus in the
+entire gopher web.  As Archie is to ftp archives, Veronica is to
+gopherspace.  Unlike Archie, the search results can connect you
+directly to the data source.  Imagine an Archie search that lets you
+select the data, not just the host sites, directly from a menu.
+Because Veronica is accessed through a gopher client, it is easy to
+use, and gives access to all types of data supported by the gopher
+protocol.
+
+Veronica was designed as a response to the problem of resource
+discovery in the rapidly-expanding gopher web.  Frustrated comments in
+the net news-groups have recently reflected the need for such a
+service.  Additional motivation came from the comments of naive gopher
+users, several of whom assumed that a simple-to-use service would
+provide a means to find resources "without having to know where they
+are."
+
+The result of a Veronica search is an automatically-generated gopher
+menu, customized according to the user's keyword specification.  Items
+on this menu may be drawn from many gopher servers.  These are
+functional gopher items, immediately accessible via the gopher client
+... just double-click to open directories, read files, or perform
+other searches -- across hundreds of gopher servers.  You need never
+know which server is actually involved in filling your request for
+information.  Items that are appear particularly interesting can be
+saved in the user's bookmark list.
+
+Notice that these are NOT full-text searches of data at gopher-server
+sites, just as Archie does not index the contents of ftp sites, but
+only the names of files at those sites.  Veronica indexes the TITLES
+on all levels of the menus, for most gopher sites in the Internet.
+258 gophers are indexed by Veronica on Nov. 17, 1992; we have
+discovered over 500 servers and will index the full set in the near
+future.  We hope that Veronica will encourage gopher administrators to
+use very descriptive titles on their menus.
+
+To try Veronica, select it from the "Other Gophers" menu on
+Minnesota's gopher server, or point your gopher at:
+
+Name=Veronica (search menu items in most of GopherSpace)
+Type=1
+Port=70
+Path=1/Veronica
+Host=futique.scs.unr.edu
+
+Veronica is an experimental service, developed by Steve Foster and
+Fred Barrie at University of Nevada.  As we expect that the load will
+soon outgrow our hardware, we will distribute the Veronica service
+across other sites in the near future.
+
+Please address comments to:   gophadm@futique.scs.unr.edu
+
+November 17, 1992
+Steve Foster
+
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  
+Xanalogical archive access soon.  Collect U S Commemoratives. They're fun.
+________________________________________________________________________
+________________________________________________________________________
+

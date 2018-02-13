@@ -1,0 +1,647 @@
+Date: Thu, 22 Apr 93 17:27:05 PDT
+Reply-To: <surfpunk@osc.versant.com> Return-Path: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0080@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: surfpunk@osc.versant.com (nepuvir ohooyrf)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0080] BUBBLES: talk radio; _A New Age_; clipper chip
+
+//					Subject: Archive Bubbles
+					From: gt1274b@prism.gate
+					ch.edu (Dan Puckett) To: 
+					surfpunk@osc.versant.com
+					Date: Thu, 22 Apr 93
+
+					Archive
+					Bubbles
+					Calendar
+					Door
+					EEPROM
+					Funding
+					Gateway
+					Hell
+					I
+					JMP
+					Kill
+					Local
+					Memory
+					Null
+					Object
+					Pulse
+					Quote
+					Revise
+					Stack
+					Telephone
+					User
+					Virtual
+					Wastebasket
+					XOFF
+					Yes
+					Zero
+
+					Now I know my ABC's.
+					Won't you come and play with me?
+
+________________________________________________________________________
+
+Date: Fri, 16 Apr 1993 13:13:19 -0700 (PDT)
+From: Kwan-Seng Low <kwan@osc.versant.com>
+
+Here's something I got from the net, did anyone play with this before?
+care to comment/discussion?
+
+Kwan
+
+.....
+.....
+.....
+Radio Free VAT is an experiment being run by the folks that are
+working on IP multicasting.  They have set up an IP multicast backbone
+that goes all over the place.  You can use programs to connect to
+various sessions that are transmitting audio or slow frame video
+across the multicast connections.  Radio Free VAT is one such session
+where people sign up for slots where they can broadcast whatever.  In
+the past, they've used this for broadcasting various meetings, such as
+the IETF meetings.
+.....
+.....
+Internet Talk Radio is a bunch of audio files that Carl Malamud has
+put together.  He's been interviewing folks and junk like that.  Its
+interesting.  I only know of it through the world wide web (www) - you
+can find a handy web page for it at
+http://www.ncsa.uiuc.edu/radio/radio.html, if you have access to the
+web.
+
+
+________________________________________________________________________
+
+From: surfpunk <strick>
+Subject: Internet Talk Radio
+
+Kwan, I meant to assemble more info on this, but didn't get
+around to it.  Perhaps someone can assemble us a precis on
+Internet Talk Radio.  Here's the page from the web.  If you don't
+have access to the web, notice how I telnet to port 80 and then
+type capital GET followed by the tail end of the path in order to
+get the page.  You should be able to read through this markup language.   
+
+Archie can find "vat", and the IP multicasting package.  
+On a sparcstation you should be able to play the .au files by
+catting into /dev/audio, right?
+
+This is something I haven't built/heard yet, either.        strick
+
+________________________________________________________________________
+
+
+Script started on Thu Apr 22 16:48:48 1993
+$ telnet www.ncsa.uiuc.edu 80
+Trying 141.142.4.5 ...
+Connected to rs5.ncsa.uiuc.edu.
+Escape character is '^]'.
+GET /radio/radio.html
+<TITLE>Internet Talk Radio</TITLE>
+<H1>Internet Talk Radio</H1>
+
+<H2>General Information</H2>
+
+<UL>
+<LI> <A NAME=9 HREF="ITRintro.readme.txt">Introduction</A> to Internet Talk Radio.
+<LI> <A NAME=10 HREF="ITRgeek.readme.txt">Overview</A> of Geek of the Week.
+</UL>
+
+<H2>April 21, 1993</H2>
+
+Here's the <A HREF="042193_geek_ITR.readme.txt">overview</A> of the
+April 21 edition of Internet Talk Radio.  <P>
+
+<UL>
+<LI> <A HREF="042193_geek_01_ITR.au">Steve Deering, Part 1</A> (5.6 megs)
+<LI> <A HREF="042193_geek_02_ITR.au">The Incidental Tourist</A> (1.6 megs)
+<LI> <A HREF="042193_geek_03_ITR.au">Steve Deering, Part 2</A> (6.0 megs)
+<LI> <A HREF="042193_geek_04_ITR.au">Book Byte</A> (0.7 megs)
+<LI> <A HREF="042193_geek_05_ITR.au">Steve Deering, Part 3</A> (5.4 megs)
+</UL>
+
+<H2>April 14, 1993</H2>
+
+Here's the <A HREF="041493_geek_ITR.readme.txt">overview</A> of the
+April 14 edition of Internet Talk Radio.  <P>
+
+<UL>
+<LI> <A HREF="041493_geek_01_ITR.au">Daniel Lynch, Part 1</A> (5.7 megs)
+<LI> <A HREF="041493_geek_02_ITR.au">The Incidental Tourist</A> (0.9 megs)
+<LI> <A HREF="041493_geek_03_ITR.au">Daniel Lynch, Part 2</A> (5.5 megs)
+<LI> <A HREF="041493_geek_04_ITR.au">Legal Stuff</A> (0.2 megs)
+<LI> <A HREF="041493_geek_05_ITR.au">Daniel Lynch, Part 3</A> (3.4 megs)
+</UL>
+
+<H2>April 7, 1993</H2>
+
+Here's the <A HREF="040793_geek_ITR.readme.txt">overview</A> of the
+April 7 edition of Internet Talk Radio.  <P>
+
+<UL>
+<LI> <A HREF="040793_geek_01_ITR.au">Dr. Erik Huizer, Part 1</A> (5.4 megs)
+<LI> <A HREF="040793_geek_02_ITR.au">The Incidental Tourist</A> (1.5 megs)
+<LI> <A HREF="040793_geek_03_ITR.au">Dr. Erik Huizer, Part 2</A> (4.8 megs)
+<LI> <A HREF="040793_geek_04_ITR.au">Book Byte</A> (0.7 megs)
+<LI> <A HREF="040793_geek_05_ITR.au">Dr. Erik Huizer, Part 3</A> (5.9 megs)
+<LI> <A HREF="040793_geek_06_ITR.au">Name That Acronym</A> (0.5 megs)
+<LI> <A HREF="040793_geek_07_ITR.au">Dr. Erik Huizer, Part 4</A> (5.2 megs)
+</UL>
+
+<H2>March 31, 1993</H2>
+
+Here's the <A NAME=8
+HREF="033193_geek_ITR.readme.txt">overview</A> of the March 31
+edition of Internet Talk Radio.  <P>
+
+<UL>
+<LI> <A NAME=1 HREF="033193_geek_01_ITR.au">Dr. Marshall Rose, Part 1</A> (5.6 megs)
+<LI> <A NAME=2 HREF="033193_geek_02_ITR.au">The Incidental Tourist</A> (1.5 megs)
+<LI> <A NAME=3 HREF="033193_geek_03_ITR.au">Dr. Marshall Rose, Part 2</A> (5.1 megs)
+<LI> <A NAME=4 HREF="033193_geek_04_ITR.au">Book Byte</A> (0.6 megs)
+<LI> <A NAME=5 HREF="033193_geek_05_ITR.au">Dr. Marshall Rose, Part 3</A> (5.6 megs)
+<LI> <A NAME=6 HREF="033193_geek_06_ITR.au">Name That Acronym</A> (0.5 megs)
+<LI> <A NAME=7 HREF="033193_geek_07_ITR.au">Dr. Marshall Rose, Part 4</A> (4.2 megs)
+</UL>
+
+<ADDRESS> <A NAME=29
+HREF="http://hoohoo.ncsa.uiuc.edu/ncsa-people.html#andreessen">marca@ncsa.uiuc.edu</A>
+</ADDRESS>
+Connection closed by foreign host.
+$ 
+script done on Thu Apr 22 16:49:17 1993
+
+
+________________________________________________________________________
+
+
+
+Date: Mon, 19 Apr 93 21:10 GMT
+From: Don Webb <0004200716@mcimail.com>
+To: ARCANA <ARCANA%UNCCVM.BITNET@pucc.princeton.edu>
+To: Fringeware <fringeware@wixer.cactus.org>
+To: surfpunk <surfpunk@osc.versant.com>
+Subject: _A New Age_
+
+Dear Folk,
+
+I don't know why I didn't think of this earlier.  Wayne Edwards
+runs a a wonderful series called _A New Age_ in which various
+members of differing faiths and philosophies each write up their
+own belief system.  The packets are 66 pages long, 8.5 x 11
+tri-punched and shrink wrapped.  They are currently two.  I
+strongly recommend both the packets,  (Why not send off for
+packet one today? -  it's $4.75). and the practice.
+
+Send to:
+
+Merrimack Books
+_A New Age_
+PO box 158
+Lynn, IN 57355-0158
+
+
+
+0004200716@mcimail.com
+Don Webb
+The Secret of magic is to transform the magician.
+
+________________________________________________________________________
+
+
+Date: Wed, 21 Apr 1993 22:57:41 -0400
+From: gt0269b@prism.gatech.edu (David D. Clark)
+To: surfpunk@osc.versant.com
+Subject: The Clipper Chip: Technical Info (From comp.risks)
+
+			[ "Fine with me.  Post anywhere." -- Dorothy ]
+
+I'm sure this will be all over everywhere on the net being discussed, but
+this seems like a pretty good summary.
+Original author: denning@cs.cosc.georgetown.edu (Dorothy Denning)
+
+
+                     THE CLIPPER CHIP: A TECHNICAL SUMMARY
+                               Dorothy Denning
+                           Revised, April 21, 1993
+
+INTRODUCTION
+
+On April 16, the President announced a new initiative that will bring
+together the Federal Government and industry in a voluntary program
+to provide secure communications while meeting the legitimate needs of
+law enforcement.  At the heart of the plan is a new tamper-proof encryption
+chip called the "Clipper Chip" together with a split-key approach to
+escrowing keys.  Two escrow agencies are used, and the key parts from
+both are needed to reconstruct a key.
+
+
+CHIP CONTENTS
+
+The Clipper Chip contains a classified single-key 64-bit block
+encryption algorithm called "Skipjack."  The algorithm uses 80 bit keys
+(compared with 56 for the DES) and has 32 rounds of scrambling
+(compared with 16 for the DES).  It supports all 4 DES modes of
+operation.  The algorithm takes 32 clock ticks, and in Electronic
+Codebook (ECB) mode runs at 12 Mbits per second.
+
+Each chip includes the following components:
+
+   the Skipjack encryption algorithm
+   F, an 80-bit family key that is common to all chips
+   N, a 30-bit serial number (this length is subject to change)
+   U, an 80-bit secret key that unlocks all messages encrypted with the chip
+
+The chips are programmed by Mykotronx, Inc., which calls them the
+"MYK-78."  The silicon is supplied by VLSI Technology Inc.  They are
+implemented in 1 micron technology and will initially sell for about
+$30 each in quantities of 10,000 or more.  The price should drop as the
+technology is shrunk to .8 micron.
+
+
+ENCRYPTING WITH THE CHIP
+
+To see how the chip is used, imagine that it is embedded in the AT&T
+telephone security device (as it will be).  Suppose I call someone and
+we both have such a device.  After pushing a button to start a secure
+conversation, my security device will negotiate an 80-bit session key K
+with the device at the other end.  This key negotiation takes place
+without the Clipper Chip.  In general, any method of key exchange can
+be used such as the Diffie-Hellman public-key distribution method.
+
+Once the session key K is established, the Clipper Chip is used to
+encrypt the conversation or message stream M (digitized voice).  The
+telephone security device feeds K and M into the chip to produce two
+values:
+
+   E[M; K], the encrypted message stream, and 
+   E[E[K; U] + N; F], a law enforcement field , 
+
+which are transmitted over the telephone line.  The law enforcement
+field thus contains the session key K encrypted under the unit key U
+concatenated with the serial number N, all encrypted under the family
+key F.  The law enforcement field is decrypted by law enforcement after
+an authorized wiretap has been installed.
+
+The ciphertext E[M; K] is decrypted by the receiver's device using the
+session key:
+
+   D[E[M; K]; K] = M .
+
+
+CHIP PROGRAMMING AND ESCROW
+
+All Clipper Chips are programmed inside a SCIF (Secure Compartmented
+Information Facility), which is essentially a vault.  The SCIF contains
+a laptop computer and equipment to program the chips.  About 300 chips
+are programmed during a single session.  The SCIF is located at
+Mykotronx.
+
+At the beginning of a session, a trusted agent from each of the two key
+escrow agencies enters the vault.  Agent 1 enters a secret, random
+80-bit value S1 into the laptop and agent 2 enters a secret, random
+80-bit value S2. These random values serve as seeds to generate unit
+keys for a sequence of serial numbers.  Thus, the unit keys are a
+function of 160 secret, random bits, where each agent knows only 80.
+  
+To generate the unit key for a serial number N, the 30-bit value N is
+first padded with a fixed 34-bit block to produce a 64-bit block N1.
+S1 and S2 are then used as keys to triple-encrypt N1, producing a
+64-bit block R1:
+
+        R1 = E[D[E[N1; S1]; S2]; S1] .
+
+Similarly, N is padded with two other 34-bit blocks to produce N2 and
+N3, and two additional 64-bit blocks R2 and R3 are computed:  
+
+        R2 = E[D[E[N2; S1]; S2]; S1] 
+        R3 = E[D[E[N3; S1]; S2]; S1] .
+
+R1, R2, and R3 are then concatenated together, giving 192 bits. The
+first 80 bits are assigned to U1 and the second 80 bits to U2.  The
+rest are discarded.  The unit key U is the XOR of U1 and U2.  U1 and U2
+are the key parts that are separately escrowed with the two escrow
+agencies.
+
+As a sequence of values for U1, U2, and U are generated, they are
+written onto three separate floppy disks.  The first disk contains a
+file for each serial number that contains the corresponding key part
+U1.  The second disk is similar but contains the U2 values.  The third
+disk contains the unit keys U.  Agent 1 takes the first disk and agent
+2 takes the second disk.  Thus each agent walks away knowing
+an 80-bit seed and the 80-bit key parts.  However, the agent does not
+know the other 80 bits used to generate the keys or the other 80-bit
+key parts.  
+
+The third disk is used to program the chips.  After the chips are
+programmed, all information is discarded from the vault and the agents
+leave.  The laptop may be destroyed for additional assurance that no
+information is left behind.
+ 
+The protocol may be changed slightly so that four people are in the
+room instead of two.  The first two would provide the seeds S1 and S2,
+and the second two (the escrow agents) would take the disks back to
+the escrow agencies. 
+
+The escrow agencies have as yet to be determined, but they will not
+be the NSA, CIA, FBI, or any other law enforcement agency.  One or
+both may be independent from the government.
+
+
+LAW ENFORCEMENT USE
+
+When law enforcement has been authorized to tap an encrypted line, they
+will first take the warrant to the service provider in order to get
+access to the communications line.  Let us assume that the tap is in
+place and that they have determined that the line is encrypted with the
+Clipper Chip.  The law enforcement field is first decrypted with the
+family key F, giving E[K; U] + N.  Documentation certifying that a tap
+has been authorized for the party associated with serial number N is
+then sent (e.g., via secure FAX) to each of the key escrow agents, who
+return (e.g., also via secure FAX) U1 and U2.  U1 and U2 are XORed
+together to produce the unit key U, and E[K; U] is decrypted to get the
+session key K.  Finally the message stream is decrypted.  All this will
+be accomplished through a special black box decoder.
+
+
+CAPSTONE: THE NEXT GENERATION
+
+A successor to the Clipper Chip, called "Capstone" by the government
+and "MYK-80" by Mykotronx, has already been developed.  It will include
+the Skipjack algorithm, the Digital Signature Standard (DSS), the
+Secure Hash Algorithm (SHA), a method of key exchange, a fast
+exponentiator, and a randomizer.  A prototoype will be available for
+testing on April 22, and the chips are expected to be ready for
+delivery in June or July.
+
+
+ACKNOWLEDGMENT AND DISTRIBUTION NOTICE.  This article is based on
+information provided by NSA, NIST, FBI, and Mykotronx.  Permission to
+distribute this document is granted.
+---
+David D. Clark: With a middle name like Darwin how can I not be an athiest?
+ "We only want a quiet place to finish working while God eats our brains."
+--Bruce Sterling              Fnord.               gt0269b@prism.gatech.edu
+
+________________________________________________________________________
+
+Date: Fri, 16 Apr 93 20:02:28 -0700
+From: Eric Hughes <hughes@soda.berkeley.edu>
+To: cypherpunks@toad.com
+Subject: a cypherpunk's clipper reaction
+
+
+Fellows:
+
+I will, in the coming weeks have much more to say on the matter of
+this Clipper chip proposal.  For now, however, I have only one thing
+to say.
+
+No compromises.
+
+Eric
+
+________________________________________________________________________
+
+Date: Sat, 17 Apr 93 23:05:23 PDT
+From: "Martin Hellman" <hellman@isl.stanford.edu>
+Message-Id: <9304180605.AA22827@ISL.Stanford.EDU>
+To: <bunches-o-net-people>
+Subject: Clipper Chip
+
+[ Notice the authors's request:
+	------- Forwarded Message
+
+	Date: Sun, 18 Apr 93 11:41:42 PDT
+	From: "Martin Hellman" <hellman@isl.stanford.edu>
+	To: smb@research.att.com
+	Subject: Re: Clipper Chip
+
+	It is fine to post my previous message to sci.crypt
+	if you also post this message with it in which:
+
+	1. I ask recipients to be sparse in their requesting further info
+	from me or asking for comments on specific questions. By
+	this posting I apologize for any messages I am unable to
+	respond to. (I already spend too much time answering too much
+	e-mail and am particularly overloaded this week with other
+	responsibilities.)
+
+	2. I note a probably correction sent to me by Dorothy Denning.
+	She met with the person from NSA that
+	I talked with by phone, so her understanding is likely to
+	better than mine on this point: Where I said the transmitted
+	info is  E{ E[M; K], E[K; UK], serial number;  SK}
+	she says the message is not double encrypted. The system
+	key (or family key as she was told it is called) only encrypts
+	the serial number or the serial number and the encrypted
+	unit key. This is not a major difference, but I thought it
+	should be mentioned and thank her for bringing it to
+	my attention. It makes more sense since it cuts down
+	on encryption computation overhead.
+
+	------- End of Forwarded Message
+
+]
+
+
+
+Most of you have seen the announcement in Friday's NY Times,
+etc. about NIST (National Institute of Standards & Technology)
+announcing the "Clipper Chip" crypto device. Several messges
+on the net have asked for more technical details, and some have
+been laboring under understandable misunderstandings given
+the lack of details in the news  articles. So here to help out
+is your friendly NSA link: me. I was somewhat surprised Friday
+to get a call from the Agency which supplied many of the missing
+details. I was told the info was public, so here it is (the cc of this
+to Dennis Branstad at NIST is mostly as a double check on my
+facts since I assume he is aware of all this; please let me know
+if I have anything wrong):
+
+The Clipper Chip will have a secret crypto algorithm embedded in
+Silicon. Each chip will have two secret, 80-bit keys. One will be the
+same for all chips (ie a system-wide key) and the other will be unit
+specific. I don't know what NIST and NSA will call them, but I will
+call them the system key SK and unit key UK in this message.
+The IC will be designed to be extremely difficult to reverse so
+that the system key can be kept secret. (Aside: It is clear that
+they also want to keep the algorithm secret and, in my opinion,
+it may be as much for that as this stated purpose.) The unit key
+will be generated as the XOR of two 80-bit random numbers K1
+and K2 (UK=K1+K2) which will be kept by the two escrow
+authorities. Who these escrow authorities will be is still to be
+decided by the Attorney General, but it was stressed to me that
+they will NOT be NSA or law enforcement agencies, that they
+must be parties acceptable to the users of the system as unbiased.
+When a law enforcement agency gets a court order, they will
+present it to these two escrow authorities and receive K1 and
+K2, thereby allowing access to the unit key UK.
+
+In addition to the system key, each user will get to choose his
+or her own key and change it as often as desired. Call this key
+plain old K. When a message is to be sent it will first be
+encrypted under K, then K will be encrypted under the unit key UK,
+and the serial number of the unit added to produce a three part
+message which will then be encrypted under the system key SK
+producing
+
+     E{ E[M; K], E[K; UK], serial number;  SK}
+
+When a court order obtains K1 and K2, and thence K, the law
+enforcement agency will use SK to decrypt all information
+flowing on the suspected link [Aside: It is my guess that
+they may do this constantly on all links, with or without a
+court order, since it is almost impossible to tell which links
+over which a message will flow.] This gives the agency access to
+
+     E[M; K], E[K; UK], serial number
+
+in the above message. They then check the serial number
+of the unit and see if it is on the "watch list" for which they
+have a court order. If so, they will decrypt E[K; UK] to obtain K,
+and then decrypt E[M; K] to obtain M.
+
+I am still in the process of assessing this scheme, so please do
+not take the above as any kind of endorsement of the proposed
+scheme. All I am trying to do is help all of us assess the scheme
+more knowledgably. But I will say that the need for just one court
+order worries me. I would feel more comfortable (though not
+necessarily comfortable!) if two separate court orders were
+needed, one per escrow authority. While no explanation is
+needed, the following story adds some color: In researching
+some ideas that Silvio Micali and I have been kicking around,
+I spoke with Gerald Gunther, the constitutional law expert
+here at Stanford and he related the following story: When
+Edward Levi became Pres. Ford's attorney general (right
+after Watergate), he was visited by an FBI agent asking
+for "the wiretap authorizations." When Levy asked for
+the details so he could review the cases as required by
+law, the agent told him that his predecessors just turned
+over 40-50 blank, signed forms every time. Levi did not
+comply and changed the system, but the lesson is clear:
+No single person or authority should have the power to
+authorize wiretaps (or worse yet, divulging of personal
+keys). Sometimes he or she will be an Edward Levi
+and sometimes a John Mitchell.
+
+Martin Hellman
+
+------- End of Forwarded Message
+
+
+________________________________________________________________________
+
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Explanation of Clipper Chip Name
+To: cypherpunks@toad.com
+
+In the days before Xerox machines, one provided copies of
+correspondence to others by using sheets of carbon paper to make
+duplicates when typing.
+
+This is the origin of "cc" or "cc:" on memos and correspondence.
+
+Henceforth, "cc" refers to the automatic carbon copy provided by the
+"cc" chip, the Clipper Chip. BB (Big Brother) gets a CC of everything.
+
+(I know, it's a voice encryption standard, and it's voluntary, but a
+quick look at the "Capstone" chip reveals it's a complete crypto
+package, containing the DSS government signature standard, and lots of
+other stuff. The Wiretap Chip will be used for more than just voice,
+I'll be willing to bet.)
+
+-Tim
+
+--
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets,
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+
+
+
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  
+Xanalogical archive access soon.  Received: by osc.versant.com (4.1/SMI-4.1)
+________________________________________________________________________
+________________________________________________________________________
+
+
+
+
+
+		# ) The Clipper Chip contains a classified single-key
+		# ) 64-bit block encryption algorithm called
+		# ) "Skipjack."  The algorithm uses 80 bit keys
+		# ) (compared with 56 for the DES) and has 32 rounds
+		# ) of scrambling (compared with 16 for the DES).  It
+		# ) supports all 4 DES modes of operation.  The
+		# ) algorithm takes 32 clock ticks, and in Electronic
+		# ) Codebook (ECB) mode runs at 12 Mbits per second.
+		# 
+		# What's it take to crack DES with keys twice as
+		# big?  [timeOfDES]^2, which is about ten minutes
+		# nowadays.  Worthless encryption, doubly so with
+		# the NSA backdoor.  It will provide a good
+		# platform for EE hackers to work off of to create
+		# truly secure crypt chips though.
+
+		You're going to have to argue a bit to convince
+		me that an 80-bit-key 32-round DES-like
+		encryption is crackable in 10 minutes.  Even
+		without chaining, which everyone uses anyway.
+
+		How do you figure that?
+
+		12 MBit/second ECB, div 64 bits/cypherblock, is
+		like 188,000 blocks/sec.  Say we're within a
+		magnitude, and call it 2^18 = 262000 per second.
+
+		Now you've got to attempt 2^80 keys.  So you need
+		2^(80-18) = s^62 = 4611686018427387904 seconds to
+		try all keys with one of these chips runing at
+		the above rate.  That converts to 3598381724740
+		years, a little more than 10 seconds.  Just for
+		one cypherblock.  Which is hardly enough to
+		determine *the* key, since the key is so many
+		more bits than the cypherblock, you'll find
+		billions of keys that all decypher it correctly,
+		and still won't be able to distingusih the
+		correct decyphtering from billions of other
+		equally plausible decypherings.  What were you
+		thinking?
+
+		Q.  Which brand of DES does PGP use for DEK,
+		anyways?  Probably 56-bit-key DES in either CBC
+		or PCBC mode, right?
+
+		 TAB
+		 TAB
+		 TAB
+		 TAB
+		s   LIKE
+		  t   OKAY
+		  r   LIKE
+		  i   OKAY
+		  c   LIKE
+		  k   OKAY
+		   BANG
+		 UMMM
+

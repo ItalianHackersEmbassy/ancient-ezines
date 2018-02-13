@@ -1,0 +1,1583 @@
+******************************************************************************
+***  Voici le code souce de fr.com, tracer par l'exellent Sourcer de chez  *** 
+***  V Communications.    Un desass que j'aprecis particulierement :))     ***
+***                                                                        ***
+***                                               PiXel4                   ***
+******************************************************************************
+
+
+
+				;ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+				;ÛÛ					                                 ÛÛ
+				;ÛÛ				RF	                                 ÛÛ
+				;ÛÛ					                                 ÛÛ
+				;ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+
+				; The following equates show data references outside the range of the program.
+
+     = 002C			data_1e		equ	2Ch			; (0000:002C=0EF6Fh)
+     = 046C			data_2e		equ	46Ch			; (0000:046C=0EFh)
+     = 0000			data_3e		equ	0			; (815C:0000=0)
+     = 0082			data_4e		equ	82h			; (815C:0082=0)
+     = 0000			data_92e	equ	0			; (B000:0000=0FFh)
+     = 067C			data_93e	equ	67Ch			; (B000:067C=0FFFFh)
+
+				seg_a		segment	byte public
+						assume	cs:seg_a, ds:seg_a
+
+
+						org	100h
+
+				rf		proc	far
+
+     0100			start:
+     0100  E9 0C1A				jmp	real_start		; (0D1D)
+     0103  90					db	90h
+     0104  BB0D			data_5		dw	0BB0Dh			;  xref 815C:0DC3
+     0106  41					db	41h
+     0107  43 4B 53 54 41 43			db	'CKSTACKSTACKSTACKSTACKSTACKSTACK'
+     010D  4B 53 54 41 43 4B
+     0113  53 54 41 43 4B 53
+     0119  54 41 43 4B 53 54
+     011F  41 43 4B 53 54 41
+     0125  43 4B
+     0127  53 54 41 43 4B 53			db	'STACKSTACKSTACK'
+     012D  54 41 43 4B 53 54
+     0133  41 43 4B
+     0136  00 00				db	0, 0
+     0138  0001			data_7		dw	1			;  xref 815C:026C, 02E9, 0562, 0574
+										;            0581, 05F7, 0E3F
+     013A  6F6E			data_8		dw	6F6Eh			;  xref 815C:03BF, 04B5, 0DDE, 0E7A
+     013C  736E			data_9		dw	736Eh			;  xref 815C:03CE, 04C2
+     013E  6E65			data_10		dw	6E65h			;  xref 815C:03DD, 04CF
+     0140  6573			data_11		dw	6573h			;  xref 815C:03EC, 04DC
+     0142  00			data_12		db	0			;  xref 815C:0595, 05CF
+     0143  0000			data_13		dw	0			;  xref 815C:0222, 0E88
+     0145  0000			data_14		dw	0			;  xref 815C:0641, 0648, 064D
+     0147  0000			data_15		dw	0			;  xref 815C:018C, 01A5, 05E6, 05FC
+     0149  0000			data_17		dw	0			;  xref 815C:0738, 0E4F, 0EC5
+     014B  0000			data_18		dw	0			;  xref 815C:025D, 0283, 02F3, 0395
+     014D ú0000			data_19		dw	0			; segment storage
+										;  xref 815C:034B, 038F
+     014F  0000			data_20		dw	0			;  xref 815C:0350, 038A
+     0151  0000			data_21		dw	0			;  xref 815C:0639, 0794, 07A2
+     0153  0000			data_22		dw	0			;  xref 815C:03A9, 0402
+     0155  0000			data_23		dw	0			;  xref 815C:036F, 03F8, 04E6, 0523
+										;            052B, 05A2
+     0157  0000			data_24		dw	0			;  xref 815C:03FD, 04EA, 0517, 051F
+										;            0535, 05DC, 0D7C, 0D9D
+										;            0DB6, 0DC0
+     0159  0000			data_25		dw	0			;  xref 815C:02BF, 052F, 0539
+     015B  0000			data_26		dw	0			;  xref 815C:0428, 046A, 04AA, 04EE
+     015D  0000			data_27		dw	0			;  xref 815C:0486, 04F2
+     015F  00			data_28		db	0			;  xref 815C:027E, 02A2, 043D, 0460
+										;            0658, 0685, 068F
+     0160  00			data_29		db	0			;  xref 815C:040C, 04F8, 0696
+     0161  0000			data_30		dw	0			;  xref 815C:0420, 044F
+     0163  0000			data_31		dw	0			;  xref 815C:0414, 048E, 0495
+     0165  0000			data_32		dw	0			;  xref 815C:0466, 04FE, 0508, 050F
+     0167  0000			data_33		dw	0			;  xref 815C:0373, 0474, 049D, 05A6
+										;            0662, 0ED5, 0F02
+     0169  00			data_34		db	0			; Data table (indexed access)
+										;  xref 815C:0290, 02AC, 0300, 031A
+										;            0621, 069A
+     016A  00 00 00				db	0, 0, 0
+     016D  00			data_35		db	0			; Data table (indexed access)
+										;  xref 815C:0325, 0446
+     016E  00			data_36		db	0			; Data table (indexed access)
+										;  xref 815C:032C, 0454
+     016F  00 00 00 00 00 00			db	0, 0, 0, 0, 0, 0
+     0175  0000			data_37		dw	0			;  xref 815C:01B3, 01E8, 0347, 035E
+
+				rf		endp
+
+				;ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+				;
+				;                       External Entry Point
+				;
+				;ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+     0177			int_13h_entry	proc	far			;  xref 815C:0EA0
+     0177  FB					sti				; Enable interrupts
+     0178  80 FA 7F				cmp	dl,7Fh
+     017B  77 1A				ja	loc_1			; Jump if above
+     017D  80 FC 02				cmp	ah,2
+     0180  74 23				je	loc_2			; Jump if equal
+     0182  80 FC 03				cmp	ah,3
+     0185  74 68				je	loc_7			; Jump if equal
+     0187  80 FC 05				cmp	ah,5
+     018A  75 0B				jne	loc_1			; Jump if not equal
+     018C  2E: 83 3E 0147 00			cmp	cs:data_15,0		; (815C:0147=0)
+     0192  74 03				je	loc_1			; Jump if equal
+     0194  E9 0044				jmp	loc_3			; (01DB)
+     0197			loc_1:						;  xref 815C:017B, 018A, 0192, 01AB
+										;            01F5, 0213, 0218
+     0197 úEA EF6F:0000		;*		jmp	far ptr loc_114		;*(EF6F:0000)
+     0197  EA					db	0EAh
+     0198  0000 EF6F				dw	0, 0EF6Fh
+				int_13h_entry	endp
+
+
+				;ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+				;                              SUBROUTINE
+				;
+				;         Called from:   815C:01AF
+				;ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+				sub_1		proc	near
+     019C  06					push	es
+     019D  9C					pushf				; Push flags
+     019E  9A 0000:0000				call	far ptr $-19Eh
+     01A3  07					pop	es
+     01A4  C3					retn
+				sub_1		endp
+
+     01A5			loc_2:						;  xref 815C:0180
+     01A5  2E: 80 3E 0147 00			cmp	byte ptr cs:data_15,0	; (815C:0147=0)
+     01AB  74 EA				je	loc_1			; Jump if equal
+     01AD  50					push	ax
+     01AE  06					push	es
+     01AF  E8 FFEA				call	sub_1			; (019C)
+     01B2  07					pop	es
+     01B3  2E: A3 0175				mov	cs:data_37,ax		; (815C:0175=0)
+     01B7  58					pop	ax
+     01B8  72 2E				jc	loc_6			; Jump if carry Set
+     01BA  83 F9 01				cmp	cx,1
+     01BD  75 25				jne	loc_4			; Jump if not equal
+     01BF  80 FE 00				cmp	dh,0
+     01C2  75 20				jne	loc_4			; Jump if not equal
+     01C4  3C 01				cmp	al,1
+     01C6  75 1C				jne	loc_4			; Jump if not equal
+     01C8  26: 81 BF 01FE 55AA			cmp	word ptr es:[1FEh][bx],55AAh	; (815C:01FE=7500h)
+     01CF  75 0A				jne	loc_3			; Jump if not equal
+     01D1  26: C7 87 01FE AA55			mov	word ptr es:[1FEh][bx],0AA55h	; (815C:01FE=7500h)
+     01D8  E9 000C				jmp	loc_5			; (01E7)
+     01DB			loc_3:						;  xref 815C:0194, 01CF
+     01DB  E8 04C3				call	sub_8			; (06A1)
+     01DE  B4 80				mov	ah,80h
+     01E0  F9					stc				; Set carry flag
+     01E1  CA 0002				retf	2			; Return far
+     01E4			loc_4:						;  xref 815C:01BD, 01C2, 01C6
+     01E4  E8 0034				call	sub_2			; (021B)
+     01E7			loc_5:						;  xref 815C:01D8
+     01E7  F8					clc				; Clear carry flag
+     01E8			loc_6:						;  xref 815C:01B8
+     01E8  2E: A1 0175				mov	ax,cs:data_37		; (815C:0175=0)
+     01EC  CA 0002				retf	2			; Return far
+     01EF			loc_7:						;  xref 815C:0185
+     01EF  2E: 80 3E 0148 00			cmp	byte ptr cs:data_15+1,0	; (815C:0148=0)
+     01F5  74 A0				je	loc_1			; Jump if equal
+     01F7  83 F9 01				cmp	cx,1
+     01FA  75 19				jne	loc_8			; Jump if not equal
+     01FC  80 FE 00				cmp	dh,0
+     01FF  75 14				jne	loc_8			; Jump if not equal
+     0201  3C 01				cmp	al,1
+     0203  75 10				jne	loc_8			; Jump if not equal
+     0205  50					push	ax
+     0206  26: 8B 87 01FE			mov	ax,word ptr es:[1FEh][bx]	; (815C:01FE=7500h)
+     020B  86 E0				xchg	ah,al
+     020D  26: 89 87 01FE			mov	word ptr es:[1FEh][bx],ax	; (815C:01FE=7500h)
+     0212  58					pop	ax
+     0213  EB 82				jmp	short loc_1		; (0197)
+     0215			loc_8:						;  xref 815C:01FA, 01FF, 0203
+     0215  E8 0003				call	sub_2			; (021B)
+     0218  E9 FF7C				jmp	loc_1			; (0197)
+
+				;ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+				;                              SUBROUTINE
+				;
+				;         Called from:   815C:01E4, 0215
+				;ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+				sub_2		proc	near
+     021B  51					push	cx
+     021C  50					push	ax
+     021D  53					push	bx
+     021E  52					push	dx
+     021F			loc_9:						;  xref 815C:023B
+     021F  B9 0100				mov	cx,100h
+     0222  2E: 8B 16 0143			mov	dx,cs:data_13		; (815C:0143=0)
+
+     0227			locloop_10:					;  xref 815C:0237
+     0227  26: 31 17				xor	es:[bx],dx
+     022A  81 C2 06DF				add	dx,6DFh
+     022E  D1 E2				shl	dx,1			; Shift w/zeros fill
+     0230  81 E2 253B				and	dx,253Bh
+     0234  83 C3 02				add	bx,2
+     0237  E2 EE				loop	locloop_10		; Loop if cx > 0
+
+     0239  FE C8				dec	al
+     023B  75 E2				jnz	loc_9			; Jump if not zero
+     023D  5A					pop	dx
+     023E  5B					pop	bx
+     023F  58					pop	ax
+     0240  59					pop	cx
+     0241  C3					retn
+				sub_2		endp
+
+
+				;ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+				;
+				;                       External Entry Point
+				;
+				;ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+     0242			int_13h_ent_1	proc	far			;  xref 815C:0EBD
+     0242  FB					sti				; Enable interrupts
+     0243  80 FC 02				cmp	ah,2
+
+     0246  74 1F				je	loc_13			; Jump if equal
+     0248  80 FC 03				cmp	ah,3
+     024B  75 03				jne	loc_11			; Jump if not equal
+     024D  E9 0092				jmp	loc_21			; (02E2)
+     0250			loc_11:						;  xref 815C:024B
+     0250  80 FC 30				cmp	ah,30h			; '0'
+     0253  75 03				jne	loc_12			; Jump if not equal
+     0255  E9 02F4				jmp	loc_39			; (054C)
+     0258			loc_12:						;  xref 815C:0253
+     0258  80 FC 05				cmp	ah,5
+     025B  75 3C				jne	loc_15			; Jump if not equal
+     025D  2E: C7 06 014B 0001			mov	cs:data_18,1		; (815C:014B=0)
+     0264  E9 0032				jmp	loc_15			; (0299)
+     0267			loc_13:						;  xref 815C:0246
+     0267  80 FA 7F				cmp	dl,7Fh
+     026A  77 2D				ja	loc_15			; Jump if above
+     026C  2E: 83 3E 0138 00			cmp	cs:data_7,0		; (815C:0138=1)
+     0272  74 25				je	loc_15			; Jump if equal
+     0274  80 FE 00				cmp	dh,0
+     0277  75 05				jne	loc_14			; Jump if not equal
+     0279  83 F9 01				cmp	cx,1
+     027C  74 24				je	loc_17			; Jump if equal
+     027E			loc_14:						;  xref 815C:0277
+     027E  2E: 88 16 015F			mov	cs:data_28,dl		; (815C:015F=0)
+     0283  2E: 83 3E 014B 00			cmp	cs:data_18,0		; (815C:014B=0)
+     0289  75 0E				jne	loc_15			; Jump if not equal
+     028B  53					push	bx
+     028C  89 D3				mov	bx,dx
+     028E  32 FF				xor	bh,bh			; Zero register
+     0290  2E: 80 BF 0169 00			cmp	cs:data_34[bx],0	; (815C:0169=0)
+     0296  74 06				je	loc_16			; Jump if equal
+     0298  5B					pop	bx
+     0299			loc_15:						;  xref 815C:025B, 0264, 026A, 0272
+										;            0289, 02E7, 02F1, 0310
+										;            0342, 0552, 055B
+     0299 úEA EF6F:0000		;*		jmp	far ptr loc_114		;*(EF6F:0000)
+     0299  EA					db	0EAh
+     029A  0000 EF6F				dw	0, 0EF6Fh
+     029E			loc_16:						;  xref 815C:0296
+     029E  5B					pop	bx
+     029F  E9 0037				jmp	loc_19			; (02D9)
+     02A2			loc_17:						;  xref 815C:027C
+     02A2  2E: 88 16 015F			mov	cs:data_28,dl		; (815C:015F=0)
+     02A7  53					push	bx
+     02A8  89 D3				mov	bx,dx
+     02AA  32 FF				xor	bh,bh			; Zero register
+     02AC  2E: C6 87 0169 00			mov	cs:data_34[bx],0	; (815C:0169=0)
+     02B2  5B					pop	bx
+     02B3  06					push	es
+     02B4  E8 028E				call	sub_4			; (0545)
+     02B7  07					pop	es
+     02B8  72 25				jc	loc_ret_20		; Jump if carry Set
+     02BA  50					push	ax
+     02BB  26: 8B 47 09				mov	ax,es:[bx+9]
+     02BF  2E: A3 0159				mov	cs:data_25,ax		; (815C:0159=0)
+     02C3  25 8000				and	ax,8000h
+     02C6  3D 0000				cmp	ax,0
+     02C9  58					pop	ax
+     02CA  74 0D				jz	loc_19			; Jump if zero
+     02CC  E8 00D0				call	sub_3			; (039F)
+     02CF  75 08				jnz	loc_19			; Jump if not zero
+     02D1			loc_18:						;  xref 815C:039C
+     02D1 ú50					push	ax
+     02D2  E8 03B9				call	sub_7			; (068E)
+     02D5  58					pop	ax
+     02D6  E9 0006				jmp	loc_ret_20		; (02DF)
+     02D9			loc_19:						;  xref 815C:029F, 02CA, 02CF, 0309
+     02D9 úE8 03C5				call	sub_8			; (06A1)
+     02DC  B4 80				mov	ah,80h
+     02DE  F9					stc				; Set carry flag
+
+     02DF			loc_ret_20:					;  xref 815C:02B8, 02D6
+     02DF  CA 0002				retf	2			; Return far
+				int_13h_ent_1	endp
+
+     02E2			loc_21:						;  xref 815C:024D
+     02E2  80 FA 7F				cmp	dl,7Fh
+     02E5  76 02				jbe	loc_22			; Jump if below or =
+     02E7  EB B0				jmp	short loc_15		; (0299)
+     02E9			loc_22:						;  xref 815C:02E5
+     02E9  2E: 83 3E 0138 00			cmp	cs:data_7,0		; (815C:0138=1)
+     02EF  75 02				jne	loc_23			; Jump if not equal
+     02F1  EB A6				jmp	short loc_15		; (0299)
+     02F3			loc_23:						;  xref 815C:02EF
+     02F3  2E: 83 3E 014B 01			cmp	cs:data_18,1		; (815C:014B=0)
+     02F9  74 4C				je	loc_29			; Jump if equal
+     02FB  53					push	bx
+     02FC  88 D3				mov	bl,dl
+     02FE  32 FF				xor	bh,bh			; Zero register
+     0300  2E: 80 BF 0169 00			cmp	cs:data_34[bx],0	; (815C:0169=0)
+     0306  5B					pop	bx
+     0307  75 02				jnz	loc_24			; Jump if not zero
+     0309  EB CE				jmp	short loc_19		; (02D9)
+     030B			loc_24:						;  xref 815C:0307
+     030B  80 FD 02				cmp	ch,2
+     030E  72 02				jb	loc_25			; Jump if below
+     0310  EB 87				jmp	short loc_15		; (0299)
+     0312			loc_25:						;  xref 815C:030E
+     0312  53					push	bx
+     0313  88 D3				mov	bl,dl
+     0315  32 FF				xor	bh,bh			; Zero register
+     0317  50					push	ax
+     0318  33 C0				xor	ax,ax			; Zero register
+     031A  2E: 8A 87 0169			mov	al,cs:data_34[bx]	; (815C:0169=0)
+     031F  F6 E6				mul	dh			; ax = reg * al
+     0321  02 C1				add	al,cl
+     0323  D1 E3				shl	bx,1			; Shift w/zeros fill
+     0325  2E: 3A 87 016D			cmp	al,cs:data_35[bx]	; (815C:016D=0)
+     032A  72 0A				jb	loc_26			; Jump if below
+     032C  2E: 3A 87 016E			cmp	al,cs:data_36[bx]	; (815C:016E=0)
+     0331  77 03				ja	loc_26			; Jump if above
+     0333  E9 000F				jmp	loc_28			; (0345)
+     0336			loc_26:						;  xref 815C:032A, 0331
+     0336  80 FE 00				cmp	dh,0
+     0339  75 05				jne	loc_27			; Jump if not equal
+     033B  83 F9 01				cmp	cx,1
+     033E  74 05				je	loc_28			; Jump if equal
+     0340			loc_27:						;  xref 815C:0339
+     0340  58					pop	ax
+     0341  5B					pop	bx
+     0342  E9 FF54				jmp	loc_15			; (0299)
+     0345			loc_28:						;  xref 815C:0333, 033E
+     0345  58					pop	ax
+     0346  5B					pop	bx
+     0347			loc_29:						;  xref 815C:02F9
+     0347  2E: A3 0175				mov	cs:data_37,ax		; (815C:0175=0)
+     034B  2E: 8C 16 014D			mov	cs:data_19,ss		; (815C:014D=89Eh)
+     0350  2E: 89 26 014F			mov	cs:data_20,sp		; (815C:014F=0)
+     0355  8C C8				mov	ax,cs
+     0357  FA					cli				; Disable interrupts
+     0358  8E D0				mov	ss,ax
+     035A  BC 0134				mov	sp,134h
+     035D  FB					sti				; Enable interrupts
+     035E  2E: A1 0175				mov	ax,cs:data_37		; (815C:0175=0)
+     0362  06					push	es
+     0363  E8 01DF				call	sub_4			; (0545)
+     0366  07					pop	es
+     0367  53					push	bx
+     0368  50					push	ax
+     0369  51					push	cx
+     036A  52					push	dx
+     036B  06					push	es
+     036C  E8 0306				call	sub_6			; (0675)
+     036F  2E: A1 0155				mov	ax,cs:data_23		; (815C:0155=0)
+     0373  2E: 8B 1E 0167			mov	bx,cs:data_33		; (815C:0167=0)
+     0378  2E: 89 47 09				mov	cs:[bx+9],ax
+     037C  B8 0301				mov	ax,301h
+     037F  0E					push	cs
+     0380  07					pop	es
+     0381  E8 01C1				call	sub_4			; (0545)
+     0384  07					pop	es
+     0385  5A					pop	dx
+     0386  59					pop	cx
+     0387  58					pop	ax
+     0388  5B					pop	bx
+     0389  FA					cli				; Disable interrupts
+     038A  2E: 8B 26 014F			mov	sp,cs:data_20		; (815C:014F=0)
+     038F  2E: 8E 16 014D			mov	ss,cs:data_19		; (815C:014D=89Eh)
+     0394  FB					sti				; Enable interrupts
+     0395  2E: C7 06 014B 0000			mov	cs:data_18,0		; (815C:014B=0)
+     039C  E9 FF32				jmp	loc_18			; (02D1)
+
+				;ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+				;                              SUBROUTINE
+				;
+				;         Called from:   815C:02CC, 0682
+				;ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+				sub_3		proc	near
+     039F  50					push	ax
+     03A0  53					push	bx
+     03A1  51					push	cx
+     03A2  52					push	dx
+     03A3  56					push	si
+     03A4  1E					push	ds
+     03A5  06					push	es
+     03A6  06					push	es
+     03A7  1F					pop	ds
+     03A8  FC					cld				; Clear direction
+     03A9  2E: 89 1E 0153			mov	cs:data_22,bx		; (815C:0153=0)
+     03AE  89 DE				mov	si,bx
+     03B0  83 C6 0E				add	si,0Eh
+     03B3  33 DB				xor	bx,bx			; Zero register
+     03B5  33 D2				xor	dx,dx			; Zero register
+     03B7  B9 001E				mov	cx,1Eh
+
+     03BA			locloop_30:					;  xref 815C:03F6
+     03BA  AD					lodsw				; String [si] to ax
+     03BB  01 C3				add	bx,ax
+     03BD  01 C2				add	dx,ax
+     03BF  2E: 33 1E 013A			xor	bx,cs:data_8		; (815C:013A=6F6Eh)
+     03C4  2E: 33 16 039F			xor	dx,word ptr cs:[39Fh]	; (815C:039F=5350h)
+     03C9  AD					lodsw				; String [si] to ax
+     03CA  01 C3				add	bx,ax
+     03CC  01 C2				add	dx,ax
+     03CE  2E: 33 1E 013C			xor	bx,cs:data_9		; (815C:013C=736Eh)
+     03D3  2E: 33 16 03A1			xor	dx,word ptr cs:[3A1h]	; (815C:03A1=5251h)
+     03D8  AD					lodsw				; String [si] to ax
+     03D9  01 C3				add	bx,ax
+     03DB  01 C2				add	dx,ax
+     03DD  2E: 33 1E 013E			xor	bx,cs:data_10		; (815C:013E=6E65h)
+     03E2  2E: 33 16 03A3			xor	dx,word ptr cs:[3A3h]	; (815C:03A3=1E56h)
+     03E7  AD					lodsw				; String [si] to ax
+     03E8  01 C3				add	bx,ax
+     03EA  01 C2				add	dx,ax
+     03EC  2E: 33 1E 0140			xor	bx,cs:data_11		; (815C:0140=6573h)
+     03F1  2E: 33 16 03A5			xor	dx,word ptr cs:[3A5h]	; (815C:03A5=606h)
+     03F6  E2 C2				loop	locloop_30		; Loop if cx > 0
+
+     03F8  2E: 89 1E 0155			mov	cs:data_23,bx		; (815C:0155=0)
+     03FD  2E: 89 16 0157			mov	cs:data_24,dx		; (815C:0157=0)
+     0402  2E: 8B 1E 0153			mov	bx,cs:data_22		; (815C:0153=0)
+     0407  26: 8B 47 18				mov	ax,es:[bx+18h]
+     040B  40					inc	ax
+     040C  2E: A2 0160				mov	cs:data_29,al		; (815C:0160=0)
+     0410  26: 8B 47 16				mov	ax,es:[bx+16h]
+     0414  2E: A3 0163				mov	cs:data_31,ax		; (815C:0163=0)
+     0418  26: 8B 47 11				mov	ax,es:[bx+11h]
+     041C  B1 04				mov	cl,4
+     041E  D3 E8				shr	ax,cl			; Shift w/zeros fill
+     0420  2E: A3 0161				mov	cs:data_30,ax		; (815C:0161=0)
+     0424  26: 03 47 16				add	ax,es:[bx+16h]
+     0428  2E: A3 015B				mov	cs:data_26,ax		; (815C:015B=0)
+     042C  26: 8B 47 0E				mov	ax,es:[bx+0Eh]
+     0430  26: 80 7F 10 02			cmp	byte ptr es:[bx+10h],2
+     0435  72 04				jb	loc_31			; Jump if below
+     0437  26: 03 47 16				add	ax,es:[bx+16h]
+     043B			loc_31:						;  xref 815C:0435
+     043B  40					inc	ax
+     043C  50					push	ax
+     043D  2E: 8A 1E 015F			mov	bl,cs:data_28		; (815C:015F=0)
+     0442  32 FF				xor	bh,bh			; Zero register
+     0444  D1 E3				shl	bx,1			; Shift w/zeros fill
+     0446  2E: 88 87 016D			mov	cs:data_35[bx],al	; (815C:016D=0)
+     044B  26: 03 47 16				add	ax,es:[bx+16h]
+     044F  2E: 03 06 0161			add	ax,cs:data_30		; (815C:0161=0)
+     0454  2E: 88 87 016E			mov	cs:data_36[bx],al	; (815C:016E=0)
+     0459  58					pop	ax
+     045A  0E					push	cs
+     045B  1F					pop	ds
+     045C  B5 00				mov	ch,0
+     045E  88 C1				mov	cl,al
+     0460  8A 16 015F				mov	dl,data_28		; (815C:015F=0)
+     0464  32 F6				xor	dh,dh			; Zero register
+     0466  89 16 0165				mov	data_32,dx		; (815C:0165=0)
+     046A			loc_32:						;  xref 815C:0503, 0514
+     046A ú83 3E 015B 00			cmp	data_26,0		; (815C:015B=0)
+     046F  75 03				jne	loc_33			; Jump if not equal
+     0471  E9 00A3				jmp	loc_37			; (0517)
+     0474			loc_33:						;  xref 815C:046F
+     0474  8B 1E 0167				mov	bx,data_33		; (815C:0167=0)
+     0478  B8 0201				mov	ax,201h
+     047B  0E					push	cs
+     047C  07					pop	es
+     047D  E8 00C5				call	sub_4			; (0545)
+     0480  89 DE				mov	si,bx
+     0482  33 DB				xor	bx,bx			; Zero register
+     0484  33 D2				xor	dx,dx			; Zero register
+     0486  89 0E 015D				mov	data_27,cx		; (815C:015D=0)
+     048A  B9 0020				mov	cx,20h
+     048D  FC					cld				; Clear direction
+     048E  83 3E 0163 00			cmp	data_31,0		; (815C:0163=0)
+     0493  74 07				je	loc_34			; Jump if equal
+     0495  FF 0E 0163				dec	data_31			; (815C:0163=0)
+     0499  E9 0014				jmp	locloop_35		; (04B0)
+     049C			loc_34:						;  xref 815C:0493
+     049C  53					push	bx
+     049D  8B 1E 0167				mov	bx,data_33		; (815C:0167=0)
+     04A1  26: 83 BF 01E0 00			cmp	word ptr es:[1E0h][bx],0	; (815C:01E0=0CAF9h)
+     04A7  5B					pop	bx
+     04A8  75 06				jnz	locloop_35		; Jump if not zero
+     04AA  C7 06 015B 0001			mov	data_26,1		; (815C:015B=0)
+
+     04B0			locloop_35:					;  xref 815C:0499, 04A8, 04E4
+     04B0  AD					lodsw				; String [si] to ax
+     04B1  01 C3				add	bx,ax
+     04B3  01 C2				add	dx,ax
+     04B5  33 1E 013A				xor	bx,data_8		; (815C:013A=6F6Eh)
+     04B9  33 16 039F				xor	dx,word ptr ds:[39Fh]	; (815C:039F=5350h)
+     04BD  AD					lodsw				; String [si] to ax
+     04BE  01 C3				add	bx,ax
+     04C0  01 C2				add	dx,ax
+     04C2  33 1E 013C				xor	bx,data_9		; (815C:013C=736Eh)
+     04C6  33 16 03A1				xor	dx,word ptr ds:[3A1h]	; (815C:03A1=5251h)
+     04CA  AD					lodsw				; String [si] to ax
+     04CB  01 C3				add	bx,ax
+     04CD  01 C2				add	dx,ax
+     04CF  33 1E 013E				xor	bx,data_10		; (815C:013E=6E65h)
+     04D3  33 16 03A3				xor	dx,word ptr ds:[3A3h]	; (815C:03A3=1E56h)
+     04D7  AD					lodsw				; String [si] to ax
+     04D8  01 C3				add	bx,ax
+     04DA  01 C2				add	dx,ax
+     04DC  33 1E 0140				xor	bx,data_11		; (815C:0140=6573h)
+     04E0  33 16 03A5				xor	dx,word ptr ds:[3A5h]	; (815C:03A5=606h)
+     04E4  E2 CA				loop	locloop_35		; Loop if cx > 0
+
+     04E6  01 1E 0155				add	data_23,bx		; (815C:0155=0)
+     04EA  01 16 0157				add	data_24,dx		; (815C:0157=0)
+     04EE  FF 0E 015B				dec	data_26			; (815C:015B=0)
+     04F2  8B 0E 015D				mov	cx,data_27		; (815C:015D=0)
+     04F6  FE C1				inc	cl
+     04F8  38 0E 0160				cmp	data_29,cl		; (815C:0160=0)
+     04FC  74 08				je	loc_36			; Jump if equal
+     04FE  2E: 8B 16 0165			mov	dx,cs:data_32		; (815C:0165=0)
+     0503  E9 FF64				jmp	loc_32			; (046A)
+     0506			loc_36:						;  xref 815C:04FC
+     0506  B1 01				mov	cl,1
+     0508  2E: 8B 16 0165			mov	dx,cs:data_32		; (815C:0165=0)
+     050D  FE C6				inc	dh
+     050F  2E: 89 16 0165			mov	cs:data_32,dx		; (815C:0165=0)
+     0514  E9 FF53				jmp	loc_32			; (046A)
+     0517			loc_37:						;  xref 815C:0471
+     0517  8B 1E 0157				mov	bx,data_24		; (815C:0157=0)
+     051B  81 CB 8000				or	bx,8000h
+     051F  89 1E 0157				mov	data_24,bx		; (815C:0157=0)
+     0523  8B 1E 0155				mov	bx,data_23		; (815C:0155=0)
+     0527  81 CB 8000				or	bx,8000h
+     052B  89 1E 0155				mov	data_23,bx		; (815C:0155=0)
+     052F  39 1E 0159				cmp	data_25,bx		; (815C:0159=0)
+     0533  74 08				je	loc_38			; Jump if equal
+     0535  8B 1E 0157				mov	bx,data_24		; (815C:0157=0)
+     0539  39 1E 0159				cmp	data_25,bx		; (815C:0159=0)
+     053D			loc_38:						;  xref 815C:0533
+     053D  07					pop	es
+     053E  1F					pop	ds
+     053F  5E					pop	si
+     0540  5A					pop	dx
+     0541  59					pop	cx
+     0542  5B					pop	bx
+     0543  58					pop	ax
+     0544  C3					retn
+				sub_3		endp
+
+
+				;ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+				;                              SUBROUTINE
+				;
+				;         Called from:   815C:02B4, 0363, 0381, 047D, 05B4, 0669
+				;ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+				sub_4		proc	near
+     0545  9C					pushf				; Push flags
+     0546  9A 0000:0000				call	far ptr $-546h
+     054B  C3					retn
+				sub_4		endp
+
+     054C			loc_39:						;  xref 815C:0255
+     054C  81 FF 5349				cmp	di,5349h
+     0550  74 03				je	loc_40			; Jump if equal
+     0552  E9 FD44				jmp	loc_15			; (0299)
+     0555			loc_40:						;  xref 815C:0550
+     0555  81 FE 4E47				cmp	si,4E47h
+     0559  74 03				je	loc_41			; Jump if equal
+     055B  E9 FD3B				jmp	loc_15			; (0299)
+     055E			loc_41:						;  xref 815C:0559
+     055E  3C 00				cmp	al,0
+     0560  75 0E				jne	loc_43			; Jump if not equal
+     0562  2E: C7 06 0138 0000			mov	cs:data_7,0		; (815C:0138=1)
+     0569			loc_42:						;  xref 815C:057B, 0588, 05C2, 05F0
+										;            0606, 0610, 0636, 063E
+     0569 úB8 00FF				mov	ax,0FFh
+     056C  F8					clc				; Clear carry flag
+     056D  CA 0002				retf	2			; Return far
+     0570			loc_43:						;  xref 815C:0560
+     0570  3C 01				cmp	al,1
+     0572  75 09				jne	loc_44			; Jump if not equal
+     0574  2E: C7 06 0138 0000			mov	cs:data_7,0		; (815C:0138=1)
+     057B  EB EC				jmp	short loc_42		; (0569)
+     057D			loc_44:						;  xref 815C:0572
+     057D  3C 02				cmp	al,2
+     057F  75 09				jne	loc_45			; Jump if not equal
+     0581  2E: C7 06 0138 0001			mov	cs:data_7,1		; (815C:0138=1)
+     0588  EB DF				jmp	short loc_42		; (0569)
+     058A			loc_45:						;  xref 815C:057F
+     058A  3C 03				cmp	al,3
+     058C  74 07				je	loc_46			; Jump if equal
+     058E  3C 09				cmp	al,9
+     0590  74 0B				je	loc_47			; Jump if equal
+     0592  E9 002F				jmp	loc_51			; (05C4)
+     0595			loc_46:						;  xref 815C:058C
+     0595  2E: 80 3E 0142 00			cmp	cs:data_12,0		; (815C:0142=0)
+     059B  75 27				jne	loc_51			; Jump if not equal
+     059D			loc_47:						;  xref 815C:0590
+     059D  E8 00D5				call	sub_6			; (0675)
+     05A0  72 17				jc	loc_49			; Jump if carry Set
+     05A2  2E: A1 0155				mov	ax,cs:data_23		; (815C:0155=0)
+     05A6			loc_48:						;  xref 815C:05E0, 062F
+     05A6 ú2E: 8B 1E 0167			mov	bx,cs:data_33		; (815C:0167=0)
+     05AB  2E: 89 47 09				mov	cs:[bx+9],ax
+     05AF  B8 0301				mov	ax,301h
+     05B2  0E					push	cs
+     05B3  07					pop	es
+     05B4  E8 FF8E				call	sub_4			; (0545)
+     05B7  73 06				jnc	loc_50			; Jump if carry=0
+     05B9			loc_49:						;  xref 815C:05A0, 05DA, 061A, 062B
+     05B9  B0 FF				mov	al,0FFh
+     05BB  F9					stc				; Set carry flag
+     05BC  CA 0002				retf	2			; Return far
+     05BF			loc_50:						;  xref 815C:05B7
+     05BF  E8 00CC				call	sub_7			; (068E)
+     05C2  EB A5				jmp	short loc_42		; (0569)
+     05C4			loc_51:						;  xref 815C:0592, 059B
+     05C4  3C 04				cmp	al,4
+     05C6  74 07				je	loc_52			; Jump if equal
+     05C8  3C 0A				cmp	al,0Ah
+     05CA  74 0B				je	loc_53			; Jump if equal
+     05CC  E9 0013				jmp	loc_54			; (05E2)
+     05CF			loc_52:						;  xref 815C:05C6
+     05CF  2E: 80 3E 0142 00			cmp	cs:data_12,0		; (815C:0142=0)
+     05D5  75 0B				jne	loc_54			; Jump if not equal
+     05D7			loc_53:						;  xref 815C:05CA
+     05D7  E8 009B				call	sub_6			; (0675)
+     05DA  72 DD				jc	loc_49			; Jump if carry Set
+     05DC  2E: A1 0157				mov	ax,cs:data_24		; (815C:0157=0)
+     05E0  EB C4				jmp	short loc_48		; (05A6)
+     05E2			loc_54:						;  xref 815C:05CC, 05D5
+     05E2  3C 05				cmp	al,5
+     05E4  75 0D				jne	loc_55			; Jump if not equal
+     05E6  2E: 88 36 0147			mov	byte ptr cs:data_15,dh	; (815C:0147=0)
+     05EB  2E: 88 16 0148			mov	byte ptr cs:data_15+1,dl	; (815C:0148=0)
+     05F0  E9 FF76				jmp	loc_42			; (0569)
+     05F3			loc_55:						;  xref 815C:05E4
+     05F3  3C 06				cmp	al,6
+     05F5  75 12				jne	loc_56			; Jump if not equal
+     05F7  2E: 8B 1E 0138			mov	bx,cs:data_7		; (815C:0138=1)
+     05FC  2E: 8A 36 0147			mov	dh,byte ptr cs:data_15	; (815C:0147=0)
+     0601  2E: 8A 16 0148			mov	dl,byte ptr cs:data_15+1	; (815C:0148=0)
+     0606  E9 FF60				jmp	loc_42			; (0569)
+     0609			loc_56:						;  xref 815C:05F5
+     0609  3C 07				cmp	al,7
+     060B  75 06				jne	loc_57			; Jump if not equal
+     060D  E8 0091				call	sub_8			; (06A1)
+     0610  E9 FF56				jmp	loc_42			; (0569)
+     0613			loc_57:						;  xref 815C:060B
+     0613  3C 08				cmp	al,8
+     0615  75 1B				jne	loc_58			; Jump if not equal
+     0617  80 FA 7F				cmp	dl,7Fh
+     061A  77 9D				ja	loc_49			; Jump if above
+     061C  53					push	bx
+     061D  88 D3				mov	bl,dl
+     061F  32 FF				xor	bh,bh			; Zero register
+     0621  2E: C6 87 0169 00			mov	cs:data_34[bx],0	; (815C:0169=0)
+     0627  5B					pop	bx
+     0628  E8 0016				call	sub_5			; (0641)
+     062B  72 8C				jc	loc_49			; Jump if carry Set
+     062D  33 C0				xor	ax,ax			; Zero register
+     062F  E9 FF74				jmp	loc_48			; (05A6)
+     0632			loc_58:						;  xref 815C:0615
+     0632  3C 10				cmp	al,10h
+     0634  74 03				je	loc_59			; Jump if equal
+     0636  E9 FF30				jmp	loc_42			; (0569)
+     0639			loc_59:						;  xref 815C:0634
+     0639  2E: 89 16 0151			mov	cs:data_21,dx		; (815C:0151=0)
+     063E  E9 FF28				jmp	loc_42			; (0569)
+
+				;ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+				;                              SUBROUTINE
+				;
+				;         Called from:   815C:0628, 067A
+				;ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+				sub_5		proc	near
+     0641			loc_60:						;  xref 815C:068A
+     0641 ú2E: C7 06 0145 0003			mov	cs:data_14,3		; (815C:0145=0)
+     0648			loc_61:						;  xref 815C:0671
+     0648  2E: FF 0E 0145			dec	cs:data_14		; (815C:0145=0)
+     064D  2E: 83 3E 0145 00			cmp	cs:data_14,0		; (815C:0145=0)
+     0653  74 1E				je	loc_62			; Jump if equal
+     0655  B8 0201				mov	ax,201h
+     0658  2E: 88 16 015F			mov	cs:data_28,dl		; (815C:015F=0)
+     065D  B9 0001				mov	cx,1
+     0660  B6 00				mov	dh,0
+     0662  2E: 8B 1E 0167			mov	bx,cs:data_33		; (815C:0167=0)
+     0667  0E					push	cs
+     0668  07					pop	es
+     0669  E8 FED9				call	sub_4			; (0545)
+     066C  73 06				jnc	loc_ret_63		; Jump if carry=0
+     066E  80 FC 06				cmp	ah,6
+     0671  74 D5				je	loc_61			; Jump if equal
+     0673			loc_62:						;  xref 815C:0653
+     0673  F9					stc				; Set carry flag
+
+     0674			loc_ret_63:					;  xref 815C:066C
+     0674  C3					retn
+				sub_5		endp
+
+
+				;ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+				;                              SUBROUTINE
+				;
+				;         Called from:   815C:036C, 059D, 05D7
+				;ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+				sub_6		proc	near
+     0675  80 FA 7F				cmp	dl,7Fh
+     0678  77 12				ja	loc_65			; Jump if above
+     067A  E8 FFC4				call	sub_5			; (0641)
+     067D  73 03				jnc	loc_64			; Jump if carry=0
+     067F  E9 000A				jmp	loc_65			; (068C)
+     0682			loc_64:						;  xref 815C:067D
+     0682  E8 FD1A				call	sub_3			; (039F)
+     0685  2E: 8A 16 015F			mov	dl,cs:data_28		; (815C:015F=0)
+     068A  EB B5				jmp	short loc_60		; (0641)
+     068C			loc_65:						;  xref 815C:0678, 067F
+     068C  F9					stc				; Set carry flag
+     068D  C3					retn
+				sub_6		endp
+
+
+				;ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+				;                              SUBROUTINE
+				;
+				;         Called from:   815C:02D2, 05BF
+				;ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+				sub_7		proc	near
+     068E  53					push	bx
+     068F  2E: 8A 1E 015F			mov	bl,cs:data_28		; (815C:015F=0)
+     0694  32 FF				xor	bh,bh			; Zero register
+     0696  2E: A0 0160				mov	al,cs:data_29		; (815C:0160=0)
+     069A  2E: 88 87 0169			mov	cs:data_34[bx],al	; (815C:0169=0)
+     069F  5B					pop	bx
+     06A0  C3					retn
+				sub_7		endp
+
+
+				;ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+				;                              SUBROUTINE
+				;
+				;         Called from:   815C:01DB, 02D9, 060D
+				;ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+				sub_8		proc	near
+     06A1  50					push	ax
+     06A2  51					push	cx
+     06A3  06					push	es
+     06A4  33 C9				xor	cx,cx			; Zero register
+     06A6  E8 008F				call	sub_11			; (0738)
+     06A9  33 C9				xor	cx,cx			; Zero register
+     06AB  8E C1				mov	es,cx
+     06AD  B9 0362				mov	cx,362h
+     06B0			loc_66:						;  xref 815C:06BA
+     06B0  E8 0013				call	sub_9			; (06C6)
+     06B3  83 E9 20				sub	cx,20h
+     06B6  81 F9 0200				cmp	cx,200h
+     06BA  77 F4				ja	loc_66			; Jump if above
+     06BC  B9 0001				mov	cx,1
+     06BF  E8 0076				call	sub_11			; (0738)
+     06C2  07					pop	es
+     06C3  59					pop	cx
+     06C4  58					pop	ax
+     06C5  C3					retn
+				sub_8		endp
+
+
+				;ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+				;                              SUBROUTINE
+				;
+				;         Called from:   815C:06B0
+				;ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+				sub_9		proc	near
+     06C6  51					push	cx
+     06C7  B0 B6				mov	al,0B6h
+     06C9  E6 43				out	43h,al			; port 43h, 8253 timer control
+     06CB  89 C8				mov	ax,cx
+     06CD  E6 42				out	42h,al			; port 42h, 8253 timer 2 spkr
+     06CF  88 E0				mov	al,ah
+     06D1  E6 42				out	42h,al			; port 42h, 8253 timer 2 spkr
+     06D3  E4 61				in	al,61h			; port 61h, 8255 port B, read
+     06D5  88 C4				mov	ah,al
+     06D7  0C 03				or	al,3
+     06D9  E6 61				out	61h,al			; port 61h, 8255 B - spkr, etc
+     06DB  E8 0006				call	sub_10			; (06E4)
+     06DE  88 E0				mov	al,ah
+     06E0  E6 61				out	61h,al			; port 61h, 8255 B - spkr, etc
+     06E2  59					pop	cx
+     06E3  C3					retn
+				sub_9		endp
+
+
+				;ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+				;                              SUBROUTINE
+				;
+				;         Called from:   815C:06DB
+				;ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+				sub_10		proc	near
+     06E4  26: A0 046C				mov	al,es:data_2e		; (0000:046C=0F2h)
+     06E8			loc_67:						;  xref 815C:06EE
+     06E8  FB					sti				; Enable interrupts
+     06E9  26: 3A 06 046C			cmp	al,es:data_2e		; (0000:046C=0F2h)
+     06EE  74 F8				je	loc_67			; Jump if equal
+     06F0  C3					retn
+				sub_10		endp
+
+     06F1  90					db	90h
+     06F2  00 00		data_52		db	0, 0			;  xref 815C:0719, 0723, 0EEF
+     06F4 ú0000			data_53		dw	0			; segment storage
+										;  xref 815C:0EF3
+     06F6  0000			data_54		dw	0			;  xref 815C:071E
+     06F8  0000			data_55		dw	0			;  xref 815C:0728
+     06FA ú0000			data_56		dw	0			; segment storage
+										;  xref 815C:072D
+     06FC  0008[00]				db	8 dup (0)
+     0704  08 07				db	8, 7
+     0706 ú00 00 00 00		data_57		db	 00h, 00h, 00h, 00h	; segment storage
+										;  xref 815C:0EE1
+     070A ú0000			data_58		dw	0			; segment storage
+										;  xref 815C:0EDD
+     070C  0000			data_59		dw	0			;  xref 815C:0EE5
+     070E  00 00 00 00				db	0, 0, 0, 0
+
+				;ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+				;
+				;                       External Entry Point
+				;
+				;ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+     0712			int_2Fh_entry	proc	far			;  xref 815C:0EFD
+     0712  9C					pushf				; Push flags
+     0713  3D 1605				cmp	ax,1605h
+     0716  74 06				je	loc_68			; Jump if equal
+     0718  9D					popf				; Pop flags
+     0719  2E: FF 2E 06F2			jmp	dword ptr cs:data_52	; (815C:06F2=0)
+     071E			loc_68:						;  xref 815C:0716
+     071E  2E: 89 3E 06F6			mov	cs:data_54,di		; (815C:06F6=0)
+     0723  2E: FF 1E 06F2			call	dword ptr cs:data_52	; (815C:06F2=0)
+     0728  2E: 89 1E 06F8			mov	cs:data_55,bx		; (815C:06F8=0)
+     072D  2E: 8C 06 06FA			mov	cs:data_56,es		; (815C:06FA=815Ch)
+     0732  BB 06F6				mov	bx,6F6h
+     0735  0E					push	cs
+     0736  07					pop	es
+     0737  CF					iret				; Interrupt return
+				int_2Fh_entry	endp
+
+
+				;ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+				;                              SUBROUTINE
+				;
+				;         Called from:   815C:06A6, 06BF
+				;ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+				sub_11		proc	near
+     0738  2E: 83 3E 0149 00			cmp	cs:data_17,0		; (815C:0149=0)
+     073E  74 03				je	loc_ret_69		; Jump if equal
+     0740  E9 0051				jmp	loc_70			; (0794)
+
+     0743			loc_ret_69:					;  xref 815C:073E
+     0743  C3					retn
+     0744  C9			data_60		db	0C9h			;  xref 815C:080A
+     0745  0012[CD]				db	18 dup (0CDh)
+     0757  BB BA 20 41				db	0BBh,0BAh, 20h, 41h
+     075B  6C 65 72 74 65 20	data_62		db	'lerte RingFence '	;  xref 815C:07A8
+     0761  52 69 6E 67 46 65
+     0767  6E 63 65 20
+     076B  BA BA				db	0BAh,0BAh
+     076D  20 44 49 53 51 55			db	' DISQUE ETRANGER  '
+     0773  45 20 45 54 52 41
+     0779  4E 47 45 52 20 20
+     077F  BA C8 CD				db	0BAh,0C8h,0CDh
+     0782  0011[CD]				db	17 dup (0CDh)
+     0793  BC					db	0BCh
+     0794			loc_70:						;  xref 815C:0740
+     0794  2E: 83 3E 0151 00			cmp	cs:data_21,0		; (815C:0151=0)
+     079A  74 19				je	loc_71			; Jump if equal
+     079C  57					push	di
+     079D  56					push	si
+     079E  06					push	es
+     079F  1E					push	ds
+     07A0  0E					push	cs
+     07A1  1F					pop	ds
+     07A2  8E 06 0151				mov	es,data_21		; (815C:0151=0)
+     07A6  33 FF				xor	di,di			; Zero register
+     07A8 úBE 075B				mov	si,offset data_62	; (815C:075B='lerte RingFence ')
+     07AB  B9 000A				mov	cx,0Ah
+     07AE  F3/ A5				rep	movsw			; Rep when cx >0 Mov [si] to es:[di]
+     07B0  1F					pop	ds
+     07B1  07					pop	es
+     07B2  5E					pop	si
+     07B3  5F					pop	di
+     07B4  C3					retn
+     07B5			loc_71:						;  xref 815C:079A
+     07B5  53					push	bx
+     07B6  B4 0F				mov	ah,0Fh
+     07B8  CD 10				int	10h			; Video display   ah=functn 0Fh
+										;  get state, al=mode, bh=page
+										;   ah=columns on screen
+     07BA  3C 07				cmp	al,7
+     07BC  74 06				je	loc_72			; Jump if equal
+     07BE  3C 04				cmp	al,4
+     07C0  72 02				jb	loc_72			; Jump if below
+     07C2  5B					pop	bx
+     07C3  C3					retn
+     07C4			loc_72:						;  xref 815C:07BC, 07C0
+     07C4  80 FC 28				cmp	ah,28h			; '('
+     07C7  75 02				jne	loc_73			; Jump if not equal
+     07C9  5B					pop	bx
+     07CA  C3					retn
+     07CB			loc_73:						;  xref 815C:07C7
+     07CB  57					push	di
+     07CC  83 F9 00				cmp	cx,0
+     07CF  75 5F				jne	loc_81			; Jump if not equal
+     07D1  BF B800				mov	di,0B800h
+     07D4  CD 11				int	11h			; Put equipment bits in ax
+     07D6  25 0030				and	ax,30h
+     07D9  3D 0030				cmp	ax,30h
+     07DC  75 03				jne	loc_74			; Jump if not equal
+     07DE  BF B000				mov	di,0B000h
+     07E1			loc_74:						;  xref 815C:07DC
+     07E1  8E C7				mov	es,di
+     07E3 úBB 0000				mov	bx,data_92e		; (B000:0000=0FFh)
+     07E6 úBF 0000				mov	di,data_3e		; (815C:0000=0)
+     07E9			loc_75:						;  xref 815C:0805
+     07E9 úB9 0014				mov	cx,14h
+
+     07EC			locloop_76:					;  xref 815C:07FA
+     07EC  26: 8B 87 067C			mov	ax,es:data_93e[bx]	; (B000:067C=0FFFFh)
+     07F1  2E: 89 05				mov	cs:[di],ax
+     07F4  83 C3 02				add	bx,2
+     07F7  83 C7 02				add	di,2
+     07FA  E2 F0				loop	locloop_76		; Loop if cx > 0
+
+     07FC  81 FF 009E				cmp	di,9Eh
+     0800  73 05				jae	loc_77			; Jump if above or =
+     0802  83 C3 78				add	bx,78h
+     0805  EB E2				jmp	short loc_75		; (07E9)
+     0807			loc_77:						;  xref 815C:0800
+     0807 úBB 0000				mov	bx,data_92e		; (B000:0000=0FFh)
+     080A úBF 0744				mov	di,offset data_60	; (815C:0744=0C9h)
+     080D			loc_78:						;  xref 815C:082B
+     080D úB9 0014				mov	cx,14h
+
+     0810			locloop_79:					;  xref 815C:0820
+     0810  2E: 8A 05				mov	al,cs:[di]
+     0813  B4 40				mov	ah,40h			; '@'
+     0815  D1 E3				shl	bx,1			; Shift w/zeros fill
+     0817  26: 89 87 067C			mov	es:data_93e[bx],ax	; (B000:067C=0FFFFh)
+     081C  D1 EB				shr	bx,1			; Shift w/zeros fill
+     081E  43					inc	bx
+     081F  47					inc	di
+     0820  E2 EE				loop	locloop_79		; Loop if cx > 0
+
+     0822  81 FB 0103				cmp	bx,103h
+     0826  73 05				jae	loc_80			; Jump if above or =
+     0828  83 C3 3C				add	bx,3Ch
+     082B  EB E0				jmp	short loc_78		; (080D)
+     082D			loc_80:						;  xref 815C:0826
+     082D  5F					pop	di
+     082E  5B					pop	bx
+     082F  C3					retn
+     0830			loc_81:						;  xref 815C:07CF
+     0830  BF B800				mov	di,0B800h
+     0833  CD 11				int	11h			; Put equipment bits in ax
+     0835  25 0030				and	ax,30h
+     0838  3D 0030				cmp	ax,30h
+     083B  75 03				jne	loc_82			; Jump if not equal
+     083D  BF B000				mov	di,0B000h
+     0840			loc_82:						;  xref 815C:083B
+     0840  8E C7				mov	es,di
+     0842 úBB 0000				mov	bx,data_92e		; (B000:0000=0FFh)
+     0845 úBF 0000				mov	di,data_3e		; (815C:0000=0)
+     0848			loc_83:						;  xref 815C:0864
+     0848 úB9 0014				mov	cx,14h
+
+     084B			locloop_84:					;  xref 815C:0859
+     084B  2E: 8B 05				mov	ax,cs:[di]
+     084E  26: 89 87 067C			mov	es:data_93e[bx],ax	; (B000:067C=0FFFFh)
+     0853  83 C3 02				add	bx,2
+     0856  83 C7 02				add	di,2
+     0859  E2 F0				loop	locloop_84		; Loop if cx > 0
+
+     085B  81 FF 009E				cmp	di,9Eh
+     085F  73 05				jae	loc_85			; Jump if above or =
+     0861  83 C3 78				add	bx,78h
+     0864  EB E2				jmp	short loc_83		; (0848)
+     0866			loc_85:						;  xref 815C:085F
+     0866  B9 FFFF				mov	cx,0FFFFh
+
+     0869			locloop_86:					;  xref 815C:0869
+     0869  E2 FE				loop	locloop_86		; Loop if cx > 0
+
+     086B  49					dec	cx
+
+     086C			locloop_87:					;  xref 815C:086C
+     086C  E2 FE				loop	locloop_87		; Loop if cx > 0
+
+     086E  49					dec	cx
+
+     086F			locloop_88:					;  xref 815C:086F
+     086F  E2 FE				loop	locloop_88		; Loop if cx > 0
+
+     0871  5F					pop	di
+     0872  5B					pop	bx
+     0873  C3					retn
+				sub_11		endp
+
+     0874  000F[2020]		data_64		dw	15 dup (2020h)		;  xref 815C:0D25, 0D8A, 0DA1
+     0892  C9					db	0C9h
+     0893  0011[CD]				db	17 dup (0CDh)
+     08A4  BB 0A 0D DA				db	0BBh, 0Ah, 0Dh,0DAh
+     08A8  001D[C4]				db	29 dup (0C4h)
+     08C5  B6					db	0B6h
+     08C6  20 20 52 69 6E 67			db	'  RingFence 1.04 '
+     08CC  46 65 6E 63 65 20
+     08D2  31 2E 30 34 20
+     08D7  C7					db	0C7h
+     08D8  001E[C4]				db	30 dup (0C4h)
+     08F6  BF B3 20				db	0BFh,0B3h, 20h
+     08F9  001C[20]				db	28 dup (20h)
+     0915  C8					db	0C8h
+     0916  0011[CD]				db	17 dup (0CDh)
+     0927  BC 20 20				db	0BCh, 20h, 20h
+     092A  001C[20]				db	28 dup (20h)
+     0946  B3 B3				db	0B3h,0B3h
+     0948  20 20 20 20 20 20			db	'                                '
+     094E  20 20 20 20 20 20
+     0954  20 20 20 20 20 20
+     095A  20 20 20 20 20 20
+     0960  20 20 20 20 20 20
+     0966  20 20
+     0968  20 20 20 20 20 20			db	'                                '
+     096E  20 20 20 20 20 20
+     0974  20 20 20 20 20 20
+     097A  20 20 20 20 20 20
+     0980  20 20 20 20 20 20
+     0986  20 20
+     0988  20 20 20 20 20 20			db	'              '
+     098E  20 20 20 20 20 20
+     0994  20 20
+     0996  B3 B3				db	0B3h,0B3h
+     0998  20 20 20 20 20 20			db	'                  Copyright (C) '
+     099E  20 20 20 20 20 20
+     09A4  20 20 20 20 20 20
+     09AA  43 6F 70 79 72 69
+     09B0  67 68 74 20 28 43
+     09B6  29 20
+     09B8  31 39 39 32 2D 31			db	'1992-1993 S&S International     '
+     09BE  39 39 33 20 53 26
+     09C4  53 20 49 6E 74 65
+     09CA  72 6E 61 74 69 6F
+     09D0  6E 61 6C 20 20 20
+     09D6  20 20
+     09D8  20 20 20 20 20 20			db	'              '
+     09DE  20 20 20 20 20 20
+     09E4  20 20
+     09E6  B3 B3				db	0B3h,0B3h
+     09E8  20 20 20 20 20 20			db	'                              TO'
+     09EE  20 20 20 20 20 20
+     09F4  20 20 20 20 20 20
+     09FA  20 20 20 20 20 20
+     0A00  20 20 20 20 20 20
+     0A06  54 4F
+     0A08  55 53 20 44 52 4F			db	'US DROITS RESERVES              '
+     0A0E  49 54 53 20 52 45
+     0A14  53 45 52 56 45 53
+     0A1A  20 20 20 20 20 20
+     0A20  20 20 20 20 20 20
+     0A26  20 20
+     0A28  20 20 20 20 20 20			db	'              '
+     0A2E  20 20 20 20 20 20
+     0A34  20 20
+     0A36  B3 B3				db	0B3h,0B3h
+     0A38  20 20 20 20 20 20			db	'                                '
+     0A3E  20 20 20 20 20 20
+     0A44  20 20 20 20 20 20
+     0A4A  20 20 20 20 20 20
+     0A50  20 20 20 20 20 20
+     0A56  20 20
+     0A58  20 20 20 20 20 20			db	'                                '
+     0A5E  20 20 20 20 20 20
+     0A64  20 20 20 20 20 20
+     0A6A  20 20 20 20 20 20
+     0A70  20 20 20 20 20 20
+     0A76  20 20
+     0A78  20 20 20 20 20 20			db	'              '
+     0A7E  20 20 20 20 20 20
+     0A84  20 20
+     0A86  B3 B3				db	0B3h,0B3h
+     0A88  20 20 20 20 20 20			db	'                                '
+     0A8E  20 20 20 20 20 20
+     0A94  20 20 20 20 20 20
+     0A9A  20 20 20 20 20 20
+     0AA0  20 20 20 20 20 20
+     0AA6  20 20
+     0AA8  20 20 20 20 20 20			db	'                                '
+     0AAE  20 20 20 20 20 20
+     0AB4  20 20 20 20 20 20
+     0ABA  20 20 20 20 20 20
+     0AC0  20 20 20 20 20 20
+     0AC6  20 20
+     0AC8  20 20 20 20 20 20			db	'              '
+     0ACE  20 20 20 20 20 20
+     0AD4  20 20
+     0AD6  B3 B3				db	0B3h,0B3h
+     0AD8  20 20 20 20 20 20			db	'                         Version'
+     0ADE  20 20 20 20 20 20
+     0AE4  20 20 20 20 20 20
+     0AEA  20 20 20 20 20 20
+     0AF0  20 56 65 72 73 69
+     0AF6  6F 6E
+     0AF8  20 46 72 61 6E			db	' Fran'
+     0AFD  87 61 69				db	 87h, 61h, 69h
+     0B00  73 65 20 41 42 20			db	'se AB Soft                      '
+     0B06  53 6F 66 74 20 20
+     0B0C  20 20 20 20 20 20
+     0B12  20 20 20 20 20 20
+     0B18  20 20 20 20 20 20
+     0B1E  20 20
+     0B20  20 20 20 20 20 20			db	'      '
+     0B26  B3 B3				db	0B3h,0B3h
+     0B28  20 20 20 20 20 20			db	'                                '
+     0B2E  20 20 20 20 20 20
+     0B34  20 20 20 20 20 20
+     0B3A  20 20 20 20 20 20
+     0B40  20 20 20 20 20 20
+     0B46  20 20
+     0B48  20 20 20 20 20 20			db	'                                '
+     0B4E  20 20 20 20 20 20
+     0B54  20 20 20 20 20 20
+     0B5A  20 20 20 20 20 20
+     0B60  20 20 20 20 20 20
+     0B66  20 20
+     0B68  20 20 20 20 20 20			db	'              '
+     0B6E  20 20 20 20 20 20
+     0B74  20 20
+     0B76  B3 B3				db	0B3h,0B3h
+     0B78  0013[20]				db	19 dup (20h)
+     0B8B  C9					db	0C9h
+     0B8C  0024[CD]				db	36 dup (0CDh)
+     0BB0  BB 20 20				db	0BBh, 20h, 20h
+     0BB3  0013[20]				db	19 dup (20h)
+     0BC6  B3 C0				db	0B3h,0C0h
+     0BC8  0013[C4]				db	19 dup (0C4h)
+     0BDB  B6 20 53 79 73 74			db	0B6h, 20h, 53h, 79h, 73h, 74h
+     0BE1  8A					db	 8Ah
+     0BE2  6D 65 20 64 65 20			db	'me de Contr'
+     0BE8  43 6F 6E 74 72
+     0BED  93					db	93h
+     0BEE  6C 65 20 64 65 73			db	'le des Disquettes '
+     0BF4  20 44 69 73 71 75
+     0BFA  65 74 74 65 73 20
+     0C00  C7 C4 C4 C4				db	0C7h,0C4h,0C4h,0C4h
+     0C04  0012[C4]				db	18 dup (0C4h)
+     0C16  D9					db	0D9h
+     0C17  0014[20]				db	20 dup (20h)
+     0C2B  C8					db	0C8h
+     0C2C  0024[CD]				db	36 dup (0CDh)
+     0C50  BC 0A 0D 24				db	0BCh, 0Ah, 0Dh, 24h
+     0C54  0A 0D 54 65 73 74	data_86		db	0Ah, 0Dh, 'Test d', 27h, 'Int‚gri'	;  xref 815C:0D6B
+     0C5A  20 64 27 49 6E 74
+     0C60  82 67 72 69
+     0C64  74 82 00				db	't‚', 0
+     0C67  00					db	0
+     0C68  00					db	0
+     0C69  00					db	0
+     0C6A  00					db	0
+     0C6B  00					db	0
+     0C6C  00					db	0
+     0C6D  00					db	0
+     0C6E  00					db	0
+     0C6F  00					db	0
+     0C70  00					db	0
+     0C71  00					db	0
+     0C72  00					db	0
+     0C73  00					db	0
+     0C74  00					db	0
+     0C75  00					db	0
+     0C76  00					db	0
+     0C77  00					db	0
+     0C78  00					db	0
+     0C79  00					db	0
+     0C7A  00					db	0
+     0C7B  00					db	0
+     0C7C  00					db	0
+     0C7D  00					db	0
+     0C7E  00					db	0
+     0C7F  00					db	0
+     0C80  00					db	0
+     0C81  00					db	0
+     0C82  00					db	0
+     0C83  00					db	0
+     0C84  00					db	0
+     0C85  00					db	0
+     0C86  00					db	0
+     0C87  00					db	0
+     0C88  00					db	0
+     0C89  00					db	0
+     0C8A  00					db	0
+     0C8B  00					db	0
+     0C8C  00					db	0
+     0C8D  00					db	0
+     0C8E  00					db	0
+     0C8F  00					db	0
+     0C90  00					db	0
+     0C91  00					db	0
+     0C92  00					db	0
+     0C93  00					db	0
+     0C94  00					db	0
+     0C95  00					db	0
+     0C96  00					db	0
+     0C97  00					db	0
+     0C98  00					db	0
+     0C99  00					db	0
+     0C9A  00					db	0
+     0C9B  00					db	0
+     0C9C  00					db	0
+     0C9D  00					db	0
+     0C9E  00					db	0
+     0C9F  00					db	0
+     0CA0  00					db	0
+     0CA1  00					db	0
+     0CA2  00					db	0
+     0CA3  00					db	0
+     0CA4  00					db	0
+     0CA5  00					db	0
+     0CA6  00					db	0
+     0CA7  00					db	0
+     0CA8  00					db	0
+     0CA9  00					db	0
+     0CAA  00					db	0
+     0CAB  00					db	0
+     0CAC  00					db	0
+     0CAD  00					db	0
+     0CAE  00					db	0
+     0CAF  00					db	0
+     0CB0  00					db	0
+     0CB1  00					db	0
+     0CB2  00					db	0
+     0CB3  00					db	0
+     0CB4  00					db	0
+     0CB5  00					db	0
+     0CB6  0A 0D 4C 65 20 70	data_88		db	0Ah, 0Dh, 'Le programme a ‚t‚ alt'	;  xref 815C:0DCC
+     0CBC  72 6F 67 72 61 6D
+     0CC2  6D 65 20 61 20 82
+     0CC8  74 82 20 61 6C 74
+     0CCE  82 72 82 20 3B 20			db	'‚r‚ ; utilisez une copie saine s'
+     0CD4  75 74 69 6C 69 73
+     0CDA  65 7A 20 75 6E 65
+     0CE0  20 63 6F 70 69 65
+     0CE6  20 73 61 69 6E 65
+     0CEC  20 73
+     0CEE  2E 76 2E 70 2E 0A			db	'.v.p.', 0Ah, 0Dh, '$'
+     0CF4  0D 24
+     0CF6  2D 20 4F 4B 0A 0D	data_90		db	'- OK', 0Ah, 0Dh, '$'	;  xref 815C:0DD7
+     0CFC  24
+     0CFD  0A 0D 52 69 6E 67	data_91		db	0Ah, 0Dh, 'RingFence est d‚j… ins'	;  xref 815C:0E6B
+     0D03  46 65 6E 63 65 20
+     0D09  65 73 74 20 64 82
+     0D0F  6A 85 20 69 6E 73
+     0D15  74 61 6C 6C 82 0A			db	'tall‚', 0Ah, 0Dh, '$'
+     0D1B  0D 24
+
+				;ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+				;
+				;                       External Entry Point
+				;
+				;ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+     0D1D			real_start:					;  xref 815C:0100
+     0D1D  0E					push	cs
+     0D1E  1F					pop	ds
+     0D1F  B4 0D				mov	ah,0Dh
+     0D21  CD 21				int	21h			; DOS Services  ah=function 0Dh
+										;  flush disk buffers to disk
+     0D23  B4 09				mov	ah,9
+     0D25 úBA 0874				mov	dx,offset data_64	; (815C:0874=20h)
+     0D28  CD 21				int	21h			; DOS Services  ah=function 09h
+										;  display char string at ds:dx
+     0D2A  B4 62				mov	ah,62h
+     0D2C  CD 21				int	21h			; DOS Services  ah=function 62h
+										;  get Program Segment Prefix bx
+     0D2E  8E C3				mov	es,bx
+     0D30  26: 8B 1E 002C			mov	bx,es:data_1e		; (0000:002C=0EF6Fh)
+     0D35  8E C3				mov	es,bx
+     0D37  33 DB				xor	bx,bx			; Zero register
+     0D39			loc_89:						;  xref 815C:0D40
+     0D39 ú26: 83 3F 00				cmp	word ptr es:[bx],0
+     0D3D  74 03				je	loc_90			; Jump if equal
+     0D3F  43					inc	bx
+     0D40  EB F7				jmp	short loc_89		; (0D39)
+     0D42			loc_90:						;  xref 815C:0D3D
+     0D42  83 C3 02				add	bx,2
+     0D45  26: 83 3F 01				cmp	word ptr es:[bx],1
+     0D49  74 03				je	loc_91			; Jump if equal
+     0D4B  E9 0085				jmp	loc_98			; (0DD3)
+     0D4E			loc_91:						;  xref 815C:0D49
+     0D4E  83 C3 02				add	bx,2
+     0D51  89 DE				mov	si,bx
+     0D53 úBB 0C66				mov	bx,0C66h		; (815C:0C66=0)
+     0D56			loc_92:						;  xref 815C:0D61
+     0D56 ú26: 8A 04				mov	al,es:[si]
+     0D59  3C 00				cmp	al,0
+     0D5B  74 06				je	loc_93			; Jump if equal
+     0D5D  88 07				mov	[bx],al
+     0D5F  43					inc	bx
+     0D60  46					inc	si
+     0D61  EB F3				jmp	short loc_92		; (0D56)
+     0D63			loc_93:						;  xref 815C:0D5B
+     0D63  C6 47 01 00				mov	byte ptr [bx+1],0
+     0D67  C6 47 02 24				mov	byte ptr [bx+2],24h	; '$'
+     0D6B úBA 0C54				mov	dx,offset data_86	; (815C:0C54='')
+     0D6E  B4 09				mov	ah,9
+     0D70  CD 21				int	21h			; DOS Services  ah=function 09h
+										;  display char string at ds:dx
+     0D72  B8 3D00				mov	ax,3D00h
+     0D75 úBA 0C66				mov	dx,0C66h		; (815C:0C66=0)
+     0D78  CD 21				int	21h			; DOS Services  ah=function 3Dh
+										;  open file, al=mode,name@ds:dx
+     0D7A  8B D8				mov	bx,ax
+     0D7C  C7 06 0157 0000			mov	data_24,0		; (815C:0157=0)
+     0D82  BF 0001				mov	di,1
+     0D85			loc_94:						;  xref 815C:0DBA
+     0D85 úB4 3F				mov	ah,3Fh			; '?'
+     0D87  B9 0200				mov	cx,200h
+     0D8A úBA 0874				mov	dx,offset data_64	; (815C:0874=20h)
+     0D8D  CD 21				int	21h			; DOS Services  ah=function 3Fh
+										;  read file, bx=file handle
+										;   cx=bytes to ds:dx buffer
+     0D8F  73 03				jnc	loc_95			; Jump if carry=0
+     0D91  E9 003F				jmp	loc_98			; (0DD3)
+     0D94			loc_95:						;  xref 815C:0D8F
+     0D94  3D 0000				cmp	ax,0
+     0D97  74 23				je	loc_97			; Jump if equal
+     0D99  D1 E8				shr	ax,1			; Shift w/zeros fill
+     0D9B  89 C1				mov	cx,ax
+     0D9D  8B 16 0157				mov	dx,data_24		; (815C:0157=0)
+     0DA1 úBE 0874				mov	si,offset data_64	; (815C:0874=20h)
+     0DA4  FC					cld				; Clear direction
+     0DA5  83 FF 01				cmp	di,1
+     0DA8  75 07				jne	locloop_96		; Jump if not equal
+     0DAA  83 E9 03				sub	cx,3
+     0DAD  83 C6 06				add	si,6
+     0DB0  4F					dec	di
+
+     0DB1			locloop_96:					;  xref 815C:0DA8, 0DB4
+     0DB1  AD					lodsw				; String [si] to ax
+     0DB2  01 C2				add	dx,ax
+     0DB4  E2 FB				loop	locloop_96		; Loop if cx > 0
+
+     0DB6  01 16 0157				add	data_24,dx		; (815C:0157=0)
+     0DBA  EB C9				jmp	short loc_94		; (0D85)
+     0DBC			loc_97:						;  xref 815C:0D97
+     0DBC  B4 3E				mov	ah,3Eh
+     0DBE  CD 21				int	21h			; DOS Services  ah=function 3Eh
+										;  close file, bx=file handle
+     0DC0  A1 0157				mov	ax,data_24		; (815C:0157=0)
+     0DC3  03 06 0104				add	ax,data_5		; (815C:0104=0BB0Dh)
+     0DC7  3D FFFF				cmp	ax,0FFFFh
+     0DCA  74 0B				je	loc_99			; Jump if equal
+     0DCC úBA 0CB6				mov	dx,offset data_88	; (815C:0CB6='')
+     0DCF  B4 09				mov	ah,9
+     0DD1  CD 21				int	21h			; DOS Services  ah=function 09h
+										;  display char string at ds:dx
+     0DD3			loc_98:						;  xref 815C:0D4B, 0D91
+     0DD3  B4 00				mov	ah,0
+     0DD5  CD 21				int	21h			; DOS Services  ah=function 00h
+										;  terminate, cs=progm seg prefx
+     0DD7			loc_99:						;  xref 815C:0DCA
+     0DD7 úBA 0CF6				mov	dx,offset data_90	; (815C:0CF6='- OK')
+     0DDA  B4 09				mov	ah,9
+     0DDC  CD 21				int	21h			; DOS Services  ah=function 09h
+										;  display char string at ds:dx
+     0DDE úBB 013A				mov	bx,offset data_8	; (815C:013A=6Eh)
+     0DE1  BA 0000				mov	dx,0
+     0DE4 úBE 0082				mov	si,data_4e		; (815C:0082=0)
+     0DE7			loc_100:					;  xref 815C:0DEE, 0E11, 0E3D, 0E45
+										;            0E4D, 0E55
+     0DE7 úAC					lodsb				; String [si] to al
+     0DE8  3C 0D				cmp	al,0Dh
+     0DEA  74 6B				je	loc_109			; Jump if equal
+     0DEC  3C 2F				cmp	al,2Fh			; '/'
+     0DEE  75 F7				jne	loc_100			; Jump if not equal
+     0DF0			loc_101:					;  xref 815C:0DF7
+     0DF0  AC					lodsb				; String [si] to al
+     0DF1  3C 0D				cmp	al,0Dh
+     0DF3  74 62				je	loc_109			; Jump if equal
+     0DF5  3C 20				cmp	al,20h			; ' '
+     0DF7  76 F7				jbe	loc_101			; Jump if below or =
+     0DF9  3C 52				cmp	al,52h			; 'R'
+     0DFB  74 04				je	loc_102			; Jump if equal
+     0DFD  3C 72				cmp	al,72h			; 'r'
+     0DFF  75 1D				jne	loc_104			; Jump if not equal
+     0E01			loc_102:					;  xref 815C:0DFB, 0E08, 0E16
+     0E01  AC					lodsb				; String [si] to al
+     0E02  3C 0D				cmp	al,0Dh
+     0E04  74 51				je	loc_109			; Jump if equal
+     0E06  3C 27				cmp	al,27h			; '''
+     0E08  75 F7				jne	loc_102			; Jump if not equal
+     0E0A			loc_103:					;  xref 815C:0E1C
+     0E0A úAC					lodsb				; String [si] to al
+     0E0B  3C 0D				cmp	al,0Dh
+     0E0D  74 48				je	loc_109			; Jump if equal
+     0E0F  3C 27				cmp	al,27h			; '''
+     0E11  74 D4				je	loc_100			; Jump if equal
+     0E13  83 FA 08				cmp	dx,8
+     0E16  74 E9				je	loc_102			; Jump if equal
+     0E18  88 07				mov	[bx],al
+     0E1A  42					inc	dx
+     0E1B  43					inc	bx
+     0E1C  EB EC				jmp	short loc_103		; (0E0A)
+     0E1E			loc_104:					;  xref 815C:0DFF
+     0E1E  3C 43				cmp	al,43h			; 'C'
+     0E20  74 04				je	loc_105			; Jump if equal
+     0E22  3C 63				cmp	al,63h			; 'c'
+     0E24  75 21				jne	loc_107			; Jump if not equal
+     0E26			loc_105:					;  xref 815C:0E20
+     0E26  C6 06 0147 01			mov	byte ptr data_15,1	; (815C:0147=0)
+     0E2B  C6 06 0148 01			mov	byte ptr data_15+1,1	; (815C:0148=0)
+     0E30  AC					lodsb				; String [si] to al
+     0E31  3C 4E				cmp	al,4Eh			; 'N'
+     0E33  74 0A				je	loc_106			; Jump if equal
+     0E35  3C 6E				cmp	al,6Eh			; 'n'
+     0E37  74 06				je	loc_106			; Jump if equal
+     0E39  3C 0D				cmp	al,0Dh
+     0E3B  74 1A				je	loc_109			; Jump if equal
+     0E3D  EB A8				jmp	short loc_100		; (0DE7)
+     0E3F			loc_106:					;  xref 815C:0E33, 0E37
+     0E3F  C7 06 0138 0000			mov	data_7,0		; (815C:0138=1)
+     0E45  EB A0				jmp	short loc_100		; (0DE7)
+     0E47			loc_107:					;  xref 815C:0E24
+     0E47  3C 56				cmp	al,56h			; 'V'
+     0E49  74 04				je	loc_108			; Jump if equal
+     0E4B  3C 76				cmp	al,76h			; 'v'
+     0E4D  75 98				jne	loc_100			; Jump if not equal
+     0E4F			loc_108:					;  xref 815C:0E49
+     0E4F  C7 06 0149 0001			mov	data_17,1		; (815C:0149=0)
+     0E55  EB 90				jmp	short loc_100		; (0DE7)
+     0E57			loc_109:					;  xref 815C:0DEA, 0DF3, 0E04, 0E0D
+										;            0E3B
+     0E57  B8 3080				mov	ax,3080h
+     0E5A  BF 5349				mov	di,5349h
+     0E5D  BE 4E47				mov	si,4E47h
+     0E60  CD 13				int	13h			; ??int non-standard interrupt
+     0E62  3C FF				cmp	al,0FFh
+     0E64  74 03				je	loc_110			; Jump if equal
+     0E66  E9 000C				jmp	loc_111			; (0E75)
+     0E69			loc_110:					;  xref 815C:0E64
+     0E69  B4 09				mov	ah,9
+     0E6B úBA 0CFD				mov	dx,offset data_91	; (815C:0CFD='')
+     0E6E  CD 21				int	21h			; DOS Services  ah=function 09h
+										;  display char string at ds:dx
+     0E70  B8 4C01				mov	ax,4C01h
+     0E73  CD 21				int	21h			; DOS Services  ah=function 4Ch
+										;  terminate with al=return code
+     0E75			loc_111:					;  xref 815C:0E66
+     0E75  B8 4BFD				mov	ax,4BFDh
+     0E78  CD 13				int	13h			; ??int non-standard interrupt
+     0E7A úBB 013A				mov	bx,offset data_8	; (815C:013A=6Eh)
+     0E7D  8B 07				mov	ax,[bx]
+     0E7F  33 47 02				xor	ax,[bx+2]
+     0E82  33 47 04				xor	ax,[bx+4]
+     0E85  33 47 06				xor	ax,[bx+6]
+     0E88  A3 0143				mov	data_13,ax		; (815C:0143=0)
+     0E8B  B8 3513				mov	ax,3513h
+     0E8E  CD 21				int	21h			; DOS Services  ah=function 35h
+										;  get intrpt vector al in es:bx
+     0E90  89 1E 0198				mov	word ptr ds:[198h],bx	; (815C:0198=0)
+     0E94  89 1E 019F				mov	word ptr ds:[19Fh],bx	; (815C:019F=0)
+     0E98  8C 06 019A				mov	word ptr ds:[19Ah],es	; (815C:019A=0EF6Fh)
+     0E9C  8C 06 01A1				mov	word ptr ds:[1A1h],es	; (815C:01A1=0EF6Fh)
+     0EA0 úBA 0177				mov	dx,offset int_13h_entry
+     0EA3  B8 2513				mov	ax,2513h
+     0EA6  CD 21				int	21h			; DOS Services  ah=function 25h
+										;  set intrpt vector al to ds:dx
+     0EA8  B8 3513				mov	ax,3513h
+     0EAB  CD 21				int	21h			; DOS Services  ah=function 35h
+										;  get intrpt vector al in es:bx
+     0EAD  89 1E 029A				mov	word ptr ds:[29Ah],bx	; (815C:029A=0)
+     0EB1  8C 06 029C				mov	word ptr ds:[29Ch],es	; (815C:029C=0EF6Fh)
+     0EB5  89 1E 0547				mov	word ptr ds:[547h],bx	; (815C:0547=0)
+     0EB9  8C 06 0549				mov	word ptr ds:[549h],es	; (815C:0549=0EF6Fh)
+     0EBD úBA 0242				mov	dx,offset int_13h_ent_1
+     0EC0  B8 2513				mov	ax,2513h
+     0EC3  CD 21				int	21h			; DOS Services  ah=function 25h
+										;  set intrpt vector al to ds:dx
+     0EC5  83 3E 0149 00			cmp	data_17,0		; (815C:0149=0)
+     0ECA  75 06				jne	loc_112			; Jump if not equal
+     0ECC  BA 0744				mov	dx,744h
+     0ECF  E9 0003				jmp	loc_113			; (0ED5)
+     0ED2			loc_112:					;  xref 815C:0ECA
+     0ED2  BA 0874				mov	dx,874h
+     0ED5			loc_113:					;  xref 815C:0ECF
+     0ED5  89 16 0167				mov	data_33,dx		; (815C:0167=0)
+     0ED9  81 C2 0210				add	dx,210h
+     0EDD  8C 1E 070A				mov	data_58,ds		; (815C:070A=815Ch)
+     0EE1  8C 1E 0706				mov	word ptr data_57,ds	; (815C:0706=815Ch)
+     0EE5  89 16 070C				mov	data_59,dx		; (815C:070C=0)
+     0EE9  B4 35				mov	ah,35h			; '5'
+     0EEB  B0 2F				mov	al,2Fh			; '/'
+     0EED  CD 21				int	21h			; DOS Services  ah=function 35h
+										;  get intrpt vector al in es:bx
+     0EEF  89 1E 06F2				mov	word ptr data_52,bx	; (815C:06F2=0)
+     0EF3  8C 06 06F4				mov	data_53,es		; (815C:06F4=0EF6Fh)
+     0EF7  0E					push	cs
+     0EF8  07					pop	es
+     0EF9  B4 25				mov	ah,25h			; '%'
+     0EFB  B0 2F				mov	al,2Fh			; '/'
+     0EFD úBA 0712				mov	dx,offset int_2Fh_entry
+     0F00  CD 21				int	21h			; DOS Services  ah=function 25h
+										;  set intrpt vector al to ds:dx
+     0F02  8B 16 0167				mov	dx,data_33		; (815C:0167=0)
+     0F06  81 C2 0210				add	dx,210h
+     0F0A  B1 04				mov	cl,4
+     0F0C  D3 EA				shr	dx,cl			; Shift w/zeros fill
+     0F0E  B8 3100				mov	ax,3100h
+     0F11  CD 21				int	21h			; DOS Services  ah=function 31h
+										;  terminate & stay resident
+										;   al=return code,dx=paragraphs
+     0F13  90 90 90				db	 90h, 90h, 90h
+
+				seg_a		ends
+
+
+
+						end	start
+
+				±±±±±±±±±±±±±±±±±±±± CROSS REFERENCE - KEY ENTRY POINTS ±±±±±±±±±±±±±±±±±±±
+
+				    seg:off    type	   label
+				   ---- ----   ----   --------------------------------
+				   815C:0100   far    start
+				   815C:0177   far    int_13h_entry
+				   815C:0242   far    int_13h_ent_1
+				   815C:0712   far    int_2Fh_entry
+				   815C:0D1D   extn   real_start
+
+				 ±±±±±±±±±±±±±±±±±± Interrupt Usage Synopsis ±±±±±±±±±±±±±±±±±±
+
+				        Interrupt 10h : Video display	ah=functn xxh
+				        Interrupt 10h :  ah=0Fh	 get state, al=mode, bh=page
+				        Interrupt 11h : Put equipment bits in ax
+				        Interrupt 13h : Disk  dl=drive #  ah=func xxh
+				        Interrupt 21h : DOS Services  ah=function xxh
+				        Interrupt 21h :  ah=00h	 terminate, cs=progm seg prefx
+				        Interrupt 21h :  ah=09h	 display char string at ds:dx
+				        Interrupt 21h :  ah=0Dh	 flush disk buffers to disk
+				        Interrupt 21h :  ah=25h	 set intrpt vector al to ds:dx
+				        Interrupt 21h :  ah=31h	 terminate & stay resident
+				        Interrupt 21h :  ah=35h	 get intrpt vector al in es:bx
+				        Interrupt 21h :  ah=3Dh	 open file, al=mode,name@ds:dx
+				        Interrupt 21h :  ah=3Eh	 close file, bx=file handle
+				        Interrupt 21h :  ah=3Fh	 read file, bx=file handle
+				        Interrupt 21h :  ah=4Ch	 terminate with al=return code
+				        Interrupt 21h :  ah=62h	 get Program Segment Prefix bx
+				            2 Ocurrences of non-standard interrupts used (search for ??).
+
+				 ±±±±±±±±±±±±±±±±±± I/O Port Usage Synopsis  ±±±±±±±±±±±±±±±±±±
+
+				        Port 42h   : 8253 timer	2 spkr
+				        Port 43h   : 8253 timer	control
+				        Port 61h   : 8255 port B, read
+				        Port 61h   : 8255 B - spkr, etc
+

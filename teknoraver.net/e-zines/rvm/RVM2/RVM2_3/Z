@@ -1,0 +1,36 @@
+
+PKUNZIP (R)    FAST!    Extract Utility    Version 2.04g  02-01-93
+Copr. 1989-1993 PKWARE Inc. All Rights Reserved. Shareware Version
+PKUNZIP Reg. U.S. Pat. and Tm. Off.
+
+Usage:  PKUNZIP [options] zipfile [@list] [files...]
+
+-c[m]             extract files to Console [with More]
+-d                restore/create Directory structure stored in .ZIP file
+-e[c|d|e|n|p|r|s] Extract files.  Sort by [CRC | Date | Extension | Name
+                   | Percentage | Reverse | Size]
+-f                Freshen files in destination directory
+-j|J<h,r,s>       mask|don't mask <Hidden/System/Readonly> files (def.=jhrs)
+-n                extract only Newer files
+-o                Overwrite previously existing files
+-p[a/b][c][#]     extract to Printer [Asc mode,Bin mode,Com port] [port #]
+-q                Enable ANSI comments
+-s[pwd]           Decrypt with password [If no pwd is given, prompt for pwd]
+-t                Test .ZIP file integrity
+-v[b][r][m][t]    View .ZIP [Brief][Reverse][More][Technical] sort by [CRC|
+  [c,d,e,n,o,p,s] Date|Extension|Name|natural Order(default)|Percentage|Size]
+-x<filespec>      eXclude file(s) from extraction
+-$                Restore volume label on destination drive
+-@listfile        Generate list file
+
+Press 2 for advanced/trouble shooting options.  
+Press any other key to quit help.
+
+If you use PKUNZIP on a regular basis you are strongly encouraged to register
+it.  With a full registration of US $47.00 you will receive a comprehensive
+printed manual, the latest version of PKZIP, PKUNZIP & PKSFX software, and
+when available, the next version of the software.  See the documentation for
+commercial and distribution licensing info.  Send check or money order to:
+		PKWARE, Inc.
+		9025 N. Deerwood Drive
+		Brown Deer, WI 53223

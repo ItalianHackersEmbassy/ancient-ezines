@@ -1,0 +1,19 @@
+#!/bin/csh
+
+gzip cdc303.txt
+mv cdc303.txt.gz cdc303.gz
+gzip cdc304.txt
+mv cdc304.txt.gz cdc304.gz
+gzip cdc305.txt
+mv cdc305.txt.gz cdc305.gz
+gzip cdc306.txt
+mv cdc306.txt.gz cdc306.gz
+gzip cdc307.txt
+mv cdc307.txt.gz cdc307.gz
+gzip cdc308.txt
+mv cdc308.txt.gz cdc308.gz
+gzip cdc309.txt
+mv cdc309.txt.gz cdc309.gz
+gzip cdc310.txt
+mv cdc310.txt.gz cdc310.gz
+

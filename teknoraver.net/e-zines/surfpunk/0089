@@ -1,0 +1,481 @@
+Date: Fri, 9 Jul 93 19:07:40 PDT
+Reply-To: <surfpunk@osc.versant.com>
+Return-Path: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0089@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: surfpunk@osc.versant.com (menya zavoot cmpuk)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0089] PROJECTS:  MIMEPNQ forming?
+
+/          //   From: Bruce Sterling <bruces@well.sf.ca.us>
+           //   To: surfpunk@versant.com
+           //
+           //   Nice to see your list back in operation, d00d.  
+           //   I missed it.
+
+Thx, bruce.   It's been sporadic lately.  That summer thing.  
+Is it better to have a life than a zine?
+
+I don't know how you authors do it.  I started to write a book (on C++
+and object databases) but I never wanted to work on it, so I told the
+publisher I would have to cancel it.  Maybe someday.
+
+I didn't finish my latest C++ Report article this week, (I do a 3x/yr
+column on Object Databases) so I'm gonna be carrying the PowerBook to
+Munich with me next week...
+
+           \\   From: gt0269b@prism.gatech.edu (David D. Clark)
+           \\   Subject: Smurfpunk?
+           \\   To: strick@versant.com (Strick)
+           \\ 
+           \\   I know, I know.  But you probably should put one 
+           \\   out before you leave.
+
+Yeah, I'm going to be traveling now for a month, so after this,
+no Smurfpunk until August.  Maybe I'll find a telnet port in Budapest.  
+Maybe I won't try.  When the article's done, I'm gonna stash the 
+PowerBook somewhere in Bavaria.
+
+           **   From: (a punk in .ch)
+           **  
+           **   I tried the code on surf86.
+           **   Took me an hour to debug the 'un-hex-dump' I wrote
+           **   especially for the occasion (bug was '<' instead of '<=' )
+           **   to find out the stuff needs another phrase.
+           **   I tried to guess, to search back issues,
+           **   even to finger you. Nothing.
+           **   Since I did 50% of the job. Could you tell me
+           **   your secret?
+
+That C code at the end of the article produced the mumbojumbo, 
+but unfortunately it won't unproduce it.
+
+The program takes a bunch of filenames as arguments,
+reads in the first 9999 characters of them, XORs all the
+files together, as "xor pads", and spits out the result.
+
+You could use it to implement a "one time pad" -- it will
+xor a file with a "one time pad" file.  If the pad is generated
+purely randomly, and is kept secret, you have a perfect encryption.
+
+The way I used it, I xored a whole directory full of junk
+together.  I have no way of decoding it.  However if you look at
+the mumbojumbo with cryptanalytic tools, histograms and bigraph
+frequencies, etc., you will surely find corralations, which
+would be a real tease.   But I doubt much anything is recoverable from it.
+
+Compile the program and name it "xor".
+
+Pick a source file text.txt.
+Pick a random file random.jnk
+
+If these files are less than M=9999 bytes,
+
+        xor text.txt random.jnk > text.xor
+        xor text.xor random.jnk > text.rec
+
+By XORING twice with the same file, you recover "text.rec",
+which will be the same as "text.txt" ( except that it is exactly
+9999 characters long, and has been padded with NUL characters (char 0). )
+
+
+
+
+The point of it is, sometime soon, I could be arrested for sending
+that, if encryption is outlawed.  Since I sent a garbled message, and
+couldn't possibly give anyone the key to unencrypt it, obviously I'm
+up to no good and should be in jail ...
+
+See also ... Tim May's joke in surfpunk-0088.
+
+See also ... "Use a random number, go to jail", by Dundee Friedman,
+Mondo 2000 #10, p42.
+
+
+
+That you expected to find a message in there, and spent time trying
+to decode it, that says something.  For a moment I thought I should
+have put something there for you to find.  But that would miss the point.
+If I had encrypted something, or if Tim May had posted a Mapplethorpe
+to a.b.p.e.c, it would not be nearly so interesting...
+
+
+           !!   WIRED, JulAug93, p88
+           !!
+           !!   Supergroup U2 has been using
+           !!   interactive media technology in its
+           !!   live performances, where giant
+           !!   screens depict synthetic drummers,
+           !!   replicas of band member Bono, and
+           !!   another band thousands of miles 
+           !!   away.  
+
+and I've personally answered over 500 email messages.
+
+
+  ##  Date:    Fri, 25 Jun 93 01:38:48 CDT
+  ##  To:      surfpunk@versant.com
+  ##  From:    Jason Asbahr <Asbahr@UH.EDU>
+  ##  Subject: Bathtub Computing
+  ##  
+  ##  Greets, surfpunks and striq...
+  ##  
+  ##  I'm back, computing from the bathtub, how else?  There are plenty of
+  ##  oranges and Calistoga (which is not an easy water to find in Houston,
+  ##  btw)...  Unfortunately, I am stuck using some random kludge of
+  ##  a terminal program "Pop-Modem", which was all I could scrape up from 
+  ##  the collection of dusty PC 3.5s...  I recently nuked my laptop
+  ##  hardrive with the base distribution of Linux, but never bothered to
+  ##  put anything on the five megs grudgingly left for MSDOG...  The
+  ##  result?  No decent term emulation, but I do get to practice emacs
+  ##  line-editing commands...  :-)  Now I need to install the REST of
+  ##  linux...
+
+I still haven't revived my sun3.  If it doesn't revive, I'll have to
+figure out linux, I reckon.    I totally like the idea of having the
+entire source code for our UNIX, like we did in the old days...
+
+Who is unix a trademark of, these days?
+
+  ##  Enough rambling, at least on that thread.  I have NeXTSTEP running
+  ##  on one of the psych lab's clone 486s...  The 486/33s are  s l o w
+  ##  anyway, but cramming NeXTSTEP into 8megs of PC ram does nothing to
+  ##  speed it up...  When not swapping, the speed is tolerable, good
+  ##  for a single user, perhaps a slow secretary, or a process control
+  ##  app that doesn't control much...  :-)  It's much nicer over in 
+  ##  engineering, with Gateway 486/66 machines with 16megs of ram and
+  ##  local bus video (16bit color, with nice Postscript dithering)...
+  ##  No fear, psychology is ordering a truckload (quite literally) of
+  ##  new, fast, heavily stacked PCs...   
+  ##
+  ##  "Desert Solitaire" soothes on the CD player...
+  ##  
+  ##  I made the mistake of wandering into a Bookstop today...  Escaped
+  ##  after purchasing only $20 worth of "must have" magazines...  Perhaps
+  ##  I'm a bit slow, but I only just now picked up the latest Mondo...
+  ##  The Crunch article is cute, with him in his favorite sweater...  
+
+you know it took me several weeks to happen across the new mondo.
+somehow it escaped me.
+
+  ##  Oh, damn...  :-)  He's talking about me!  I should have read this
+  ##  sooner...  "There's something I'm working on with a student at the
+  ##  University of Houston.  What we want to do is a virtual cyberspace.
+  ##  Where you have a machine on the Internet called a "virtual world
+  ##  server".  If you enter the server, you select which of the virtual
+  ##  worlds you want to go into.  After selecting one, you enter that
+  ##  virtual world and you have other people or entities in there you
+  ##  can play around with.  Your digital identity could be a knight
+  ##  in shining armor -- you render that with an artist.  It has
+  ##  a certain size and weight, certain characteristics." ...
+  ##  
+  ##  Cute...
+
+yeah, I think Crunch is on a roll.   I saw him at the 
+Survival Research Labs show on Howard St a few weeks go; 
+he had cut his hair.  We're going to see him everywhere...
+
+  ##  It's true, but it's on the backburner...  Too many other things 
+  ##  running at the same time...like setting up a corporation (unrelated),
+  ##  writing the object stuff at JSC (related), doing the laser show 
+  ##  (unrelated), and writing a "toy" VR using a NeXT, QuickRenderman,
+  ##  multiple kludges, and a $600,000 Evans and Sutherland Digistar
+  ##  high-rez (8000x8000 addressable points), ultra-bright fisheye lens
+  ##  planetarium dome vector graphics projection system...  :)
+  ##  
+  ##  Related.
+  ##  
+  ##  Think Mondo would be interested in the specs of the completed gizmo?
+  ##  It would be better than the silly "Slacker Factor" articles...
+
+Get some good pictures.  Tell a good story.
+
+  ##  If anyone wants to talk about "InterWorld" protocols, please speak
+  ##  up...  (Techwood viewers, this is your cue...:)
+
+I've got my latest Kudzu Protocols running, in a TCL interpreter I
+ported to the Macintosh under Think C ansi emulation, but I'm afraid 
+before I get a chance to email them to anyone,  I'm gonna be gone...
+
+  ##  What is it about design magazines that is so difficult to resist?
+  ##  Even if they cost outrageous amounts?  Check out "Design World",
+  ##  only $8.00 US, there is a nice non-vector non-monochrome Evans &
+  ##  Sutherland ad along with a good article on Computer Aided Industrial
+  ##  Design...  CAID is the true promise of CAD, if that makes sense at
+  ##  this hour...  
+  ##  
+  ##  Yay!  "Processed World 31" is here...  I always have a hard time
+  ##  believing in the American Way after reading my favorite anti-work
+  ##  mag...  Time to watch TV again, I guess...
+
+Don Webb writes about an upcoming Utopian Future issue of Processed
+World.  I'll nando it below...
+
+  ##  I think I'll put the "No Life" sign (pg 11) on my office door...  
+  ##  
+  ##  Finally, "MIT Tech Review", always enough interesting articles to 
+  ##  make it worth buying....  Great article by Seymour Papert on
+  ##  Kids and Computers...heretical!
+  ##  
+  ##  The UH Architecture profs want to get into VR.  Any advice?  
+  ##  
+  ##  Striq, when are you coming to visit?  It's looking like I may be
+  ##  going to Kansas soon, to check on the farm/harvest/legal weirdness.
+  ##  Maybe July-ish...  If something really strange happens, like I'm
+  ##  buried in an avalanche of money (or $100 courier opportunities pop up),
+  ##  I may be going with John to Amsterdam in August...unlikely, though...
+
+Get pictures of any strange circles you find in the crops...
+
+  ##  I was up last night designing business cards.  I'll fax you one,
+  ##  as soon as the details are settled, and I buy a fax modem for the
+  ##  NeXT.  :)  A month, tops, hopefully...
+  ##  
+  ##  
+  ##  Ok, enough rambling on all threads...  Time to sleep, or at least to
+  ##  dry off...
+  ##  
+  ##  Till later,
+  ##  
+  ##  
+  ##  Jason Asbahr                           116 E. Edgebrook #603
+  ##  asbahr@uh.edu                          Houston, Texas  77034
+  ##  asbahr@tree.egr.uh.edu (NeXTmail)      (713) 941-8294  voice
+  ##  asbahr@gothamcity.jsc.nasa.gov         UH NeXT Consultant
+
+Don't say sleep.  I'm gonna be up all night packing.  Especially
+if I don't finish this surfpunk.   7am flight from SFO tomorrow morning.
+
+ 
+
+
+
+Date:    Tue, 06 Jul 93 12:10:09 PDT
+To:      Justin Mason <jmason@iona.ie>
+cc:      menya zavoot cmpuk <strick@versant.com>,
+	 zzzen@pax.eunet.ch (Nimrod S. Kerrett), ian <iansmith@cc.gatech.edu>,
+	 keith <keith@cc.gatech.edu>, jason <asbahr@uh.edu>,
+	 joe germuska <j-germuska@nwu.edu>
+From:    menya zavoot cmpuk <strick@versant.com>
+Subject: MIMEPNQ forming......................................................!
+
+LIKE zzzen@pax.eunet.ch (Nimrod S. Kerrett) ONCE SAID:
+@ Funny papers:
+@ I was thinking of doing a MultiMedia comic-strip for
+@ an E-Mag (e.g. SurfPunk).
+
+LIKE Justin Mason <jmason@iona.ie> WRITES:
+# 
+# >If you'd like to help with it, I could probably find some other
+# >collaborators as well.  
+# 
+# Yeah, sign me up, definitely!
+
+I'm going off to Europe (Bavaria and eastward) this weekend, 
+and will be incommunicado for three weeks, till like 3 AUG.
+
+What I think I'll do is ask on SURFPUNK for people interested, 
+and create a temporary non-list of people, simply a CC:  chain of people 
+who would be interested, to let you be chatting while I'm gone.
+
+When I get back, I'd like to start a MIMEPNQ list for real.  
+SURFPUNK has already found a niche and a lot of readers (>300).
+We need a new list if we seriously go high-bandwith MIME now.
+We can experiment among ourselves at first, to get a "format" down, 
+then launch globally.
+
+[ If you're interested in this project, send a message with MIMEPNQ 
+  in the subject line, to <strick@versant.com>, and a human-readable
+  comment about what/why you're interested in doing.  Don't expect
+  a reply until the first week of August.  ]
+
+# >Actually I need to survey what's happening in the alt.binaries
+# >newsgroups, what others are doing; I don't like to start things
+# >in a vacuum.  Do you have these groups?  any other multimedia lists?
+# 
+# Yep, I do. They have so many non-hacker users that they're stuck with
+# the usual uuencode/split sort of file transmission technique, at least
+# until MIME becomes properly accepted and supported at the newsreader
+# level. newsreader development seems to be moving very slowly; very few
+# readers support MIME, and those that do only support the metamail
+# toolkit implementation, which has a pretty lousy user interface, and
+# isn't likely to be used much, if there's a choice. MIME tool
+# development is proceeding quite slowly too, but hopefully something
+# useful should be out soon enough.
+# 
+# The MHN tutorial paper is the one to read; mhn(1) really puts MIME to
+# work.
+
+Because MIME readers are not yet ubiquitous, what would be useful in
+the next month is to gather lists of resources, MIME freeware for unix,
+mac, pc, and create a prototype FAQ of sorts, for MIMEPNQ readers.
+Also collect in advance some material for use in the publication, to
+experiment with.
+
+Perhaps even someone fluent with macintosh and PC could at least build
+some "filters" from the MIME sources, such as the base64
+encoder/decoder, using ANSI/UNIX/POSIX support libraries -- just to get
+something up and running where there is currently nothing.
+
+I've been told that all the major vendors will be coming out with MIME
+products this year, so we'll have real support before too long...
+but by that time we should be using new media that they've never even
+heard of!(!)!
+
+BTW: joe germuska <j-germuska@nwu.edu> has some kind of magazine BLINK
+which I think uses multimedia.  Joe, can you give a status report?
+(subscribe me, too) I don't see BLINK in the WWW server 
+at "http://antioch.acns.nwu.edu/".
+
+
+
+                                               menya zavoot cmpuk
+                                               strick@versant.com
+
+
+LIKE germuska@antioch.acns.nwu.edu (Joe Germuska) WRITES:
+# menya zavoot cmpuk wrote:
+# It's true, we're there... (although http://www.acns.nwu.edu/ is the
+# preferred URL)  We're only a little bit Multimedia -- we have one GIF, a
+
+The Vatican exibit you can get to from the home page "http://www.acns.nwu.edu/"
+is REALLY cool.  Gifs of latin, aramaic, and other linguistic erotica.
+
+thx, joe!
+
+
+# but I'm always interested in doing more, and glad to be on this mailing
+# list, even if I don't know what the PNQ part of the MIMEPNQ acronym means!
+
+Just prounounce it "mime pnq", a pun on surfpunk.
+That's just a temporary name.  I'm open to suggestions...
+
+
+
+  @@  Date:    Tue, 06 Jul 93 21:53:52 +0200
+  @@  From:    zzzen@pax.eunet.ch (Nimrod S. Kerrett)
+  @@  
+  @@  > and will be incommunicado for three weeks, till like 3 AUG.
+  @@  You're back from Europe one day before the hacktic.nl HEU
+  @@  convention/rave starts? What a shame. Try to find an excuse
+  @@  to stay in Europe another week.
+  @@  
+  @@  > (subscribe me, too) I don't see BLINK in the WWW server
+  @@  Got #1 via ftp. Joe sez it might take a long time before
+  @@  #2's out since lots of staff graduated/turned-busy.
+  @@  BTW. He offered to put my CommX on FTP/WWW. Maybe he did.
+  @@  Currently I don't have time to check.
+  
+ 
+  @@  I'm sure that when I'm old I'll roam the Matrix via NeuroJack
+  @@  and find pleasures beyond our current imagination-capacity tagged
+  @@  with 8-letter names for DOS compatibility.
+  @@  
+  @@  Come to think of it, 8-letter words replaced 4-letter words.
+  @@  THAT'S progress.
+
+
+  %%  Date:    Thu, 08 Jul 93 10:12:06 EDT
+  %%  From:    keith@cc.gatech.edu (Keith Edwards)
+  %%  Subject: Re: MIMEPNQ forming..........................................
+  %%   
+  %%  
+  %%  Hey Strick,
+  %%  Just FYI about MIME.  For people on Suns running Solaris, there is
+  %%  already a supported MIME-compliant mail reader that comes on the
+  %%  system for free.  The Sun mailtool, as of OpenWindows 3.2 (the
+  %%  version that ships with Solaris 2.2), does MIME.
+  %%  
+  %%  It's probably the only MIME mailer available for OPEN LOOK junkies,
+  %%  and probably the only one that's actually supported by the hardware
+  %%  vendor.
+  %%  
+  %%  I never got Montage to speak MIME (wouldn't have been hard, just
+  %%  never found the time...sigh...)
+  %%  
+  %%  -keith
+  %%  
+  %%  
+  %%  PS - I've been running Solaris 2.2 for a while now and I'm *very*
+  %%  impressed.  It's snappy, very featureful, and pretty bug free (once I
+  %%  installed the 34 patches that are out :-)  And *most* of my SunOS
+  %%  4.1.x binaries just run on it (even big stuff, like my window manager
+  %%  and FrameMaker).  I can't wait for 2.3...
+
+
+
+  {}  Newsgroups: comp.mail.mime,comp.sys.mac.comm,comp.mail.multi-media,
+  {}		comp.protocols.appletalk
+  {}  From: Alberto Steindler <Steindle@gnbts.univ.trieste.it>
+  {}  Date: Tue Jun 22 11:02:55 PDT 1993
+  {}  Organization: DEEI - Universita' di Trieste
+  {}  
+  {}  Iride, an implementation of a MIME user agent for the Macintosh is
+  {}  now available via anonymous FTP from:
+  {}  
+  {}  GNBTS.Univ.Trieste.IT
+  {}  
+  {}  in the directory:
+  {}  
+  {}  /mime
+  {}  
+  {}  This is a beta version implementing a subset of  MIME (RFC1341).
+  {}  
+  {}  Comments and bug reports will be really appreciated!!
+  {}  
+  {}  This application was originally developed in a project of Gruppo
+  {}  Nazionale Bioingegneria of the Consiglio Nazionale delle Ricerche for
+  {}  the integration of multimedia messaging systems in the medical
+  {}  environment, in particular for the distribution of bioimages.
+  {}  
+  {}  For any comment and information please contact:
+  {}  
+  {}  Alberto Steindler
+  {}  Steindle@GNBTS.Univ.Trieste.IT
+  {}  
+  {}  
+
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  My fingers are too wired into vi.
+________________________________________________________________________
+________________________________________________________________________
+
+
+
+
+
+	Mani Varadarajan <mani@hpclbis.cup.hp.com> might own these words:
+	! 
+	! 4. After lunch on Wednesday I went to the main technical session for
+	! a bit (there was a talk from a Legato person on a file-motel-like
+	! tertiary storage system) but after a bit I switched to the alternate
+	! track, where there was a sort of panel discussion to compare various
+	! text editors.  Jim Blandy was arguing for emacs, Tom Christiansen
+	! for vi, and Rob Pike for a mouse-based editor he wrote called "sam".
+	! Rob of course had the most humorous insults, and Tom displayed an
+	! amazing ability to make vi do things I'd never have guessed it could
+	! do (I can't even understand half of the tricks he put up on his
+	! slides).  The most interesting part was when they asked for a show
+	! of hands to see who was using each editor.  About 55% were using
+	! vi (!!!), 40% emacs, and 5% other.  I was *very* surprised how many
+	! people were using vi.  My conclusion from the talks is that all 3
+	! editors are really obsolete these days.  It seems to me that there's
+	! an opportunity for someone to write a really good mouse-based code
+	! editor (not a word processor) for the 1990's.  I'm not sure what
+	! research there would be in such an activity, or even whether there's
+	! fortune to be had, but maybe there's at least fame to be had.  It
+	! sure seems like it's time for something new.  A few people tried the
+	! lame excuse "I'll never be able to change because my fingers are
+	! too wired into vi", but not many people bought it.
+	! 
+

@@ -1,0 +1,2184 @@
+
+
+  THE JOURNAL OF AMERICAN UNDERGROUND COMPUTING / Published Quarterly
+  ======================================================================
+  ISSN 1074-3111         Volume One, Issue Eight          April 21, 1995
+  ======================================================================
+
+   Editor-in-Chief:             Scott Davis      (dfox@fc.net)
+   Co-Editor/Technology:        Max Mednick      (kahuna@fc.net)
+   Conspiracy Editor:           Gordon Fagan     (flyer@io.com)
+   Information Systems:         Carl Guderian    (bjacques@usis.com)
+   Legal Editor                 Steve Ryan       (blivion@sccsi.com)
+   Computer Security:           George Phillips  (ice9@paranoia.com)
+   Graphics/WWW Design          Mario Martinez   (digital@comland.com)
+
+   ** ftp site: etext.archive.umich.edu    /pub/Zines/JAUC
+   ** ftp site: ftp.fc.net                 /pub/tjoauc
+   ** WWW page: http://www.fc.net/~dfox
+
+   U.S. Mail:
+   The Journal Of American Underground Computing
+   or Fennec Information Systems
+   10111 N. Lamar - Suite 25
+   Austin, Texas 78753-3601
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ IMPORTANT ADDRESSES -
+ ============================================================================
+ To Subscribe to "TJOAUC", send mail to:              sub@fennec.com
+ To UNsubscribe, send mail to:                        unsub@fennec.com
+ All questions/comments about this publication to:    comments@fennec.com
+ Send all articles/info that you want published to:   submit@fennec.com
+ Commercial Registration for Profitable Media:        form1@fennec.com
+ ============================================================================
+
+ "The underground press serves as the only effective counter to a growing
+ power, and more sophisticated techniques used by establishment mass media
+ to falsify, misrepresent, misquote, rule out of consideration as a priori
+ ridiculous, or simply ignore and blot out of existence: data, books,
+ discoveries that they consider prejudicial to establishment interest..."
+
+ (William S. Burroughs and Daniel Odier, "The Job", Viking, New York, 1989)
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ Contents Copyright (C) 1995 The Journal Of American Underground Computing
+ and/or the author of the articles presented herein. All rights reserved.
+ Nothing may be reproduced in whole or in part without written permission
+ of the Editor-In-Chief and/or the author of the article. This publication
+ is made available periodically to the amateur computer hobbyist free of
+ charge.  Any commercial usage (electronic or otherwise) is strictly
+ prohibited without prior consent of the Editor, and is in violation of
+ applicable US Copyright laws. To subscribe, send email to sub@fennec.com
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ DISCLAIMER AND NOTICE TO DISTRIBUTORS -
+
+ NOTE: This electronic publication is to be distributed free of charge
+ without modifications to anyone who wishes to have a copy. Under NO
+ circumstances is any issue of this publication, in part or in whole,
+ to be sold for money or services, nor is it to be packaged with other
+ computer software, including, but not limited to CD Rom disks, without
+ the express written or verbal consent of the author and/or editor.
+ To obtain permission to distribute this publication under any of the
+ certain circumstances stated above, please contact the editor at one of
+ the addresses above. If you have intentions of publishing this journal
+ in any of the ways described above, or you are in doubt about whether or
+ not your intentions conflict with the restrictions, please contact the
+ editor. FOR A COPY OF THE REGISTRATION FORM, MAIL - form1@fennec.com
+ This publication is provided without charge to anyone who wants it.
+ This includes, but is not limited to lawyers, government officials,
+ cops, feds, hackers, social deviants, and computer hobbyists. If anyone
+ asks for a copy, please provide them with one, or mail the subscription
+ list so that you may be added.
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                            TABLE OF CONTENTS
+
+ [File #1:]
+
+ Web Page Opens For Business                           Editors
+ Black Pluterday                                       Carl Guderian
+ MTV-Europe Donates to EFF-Austin                      Eff-Austin
+ City Connects People With Info on The Net             Jesus Garza
+ Kevin Mitnick Affidavit                               Unknown
+ Kevin Mitnick FAQ From The Well                       The Well
+ More Mitnick From AP                                  Unknown
+ Brain Dead In Cyberspace                              Jim Silvania
+
+ [File #2]
+
+ SummerCon Press Release                               Chris Goggans
+ Fringe Ware #7 - WeIrD Issue                          Jon Lebkowsky
+ Proposed FTC Rules To Cut Telemarket Abuse            Barry Fraser
+ Chaos Corner V5, #1                                   Dr. Chaos
+
+ [File #3]
+
+ The Final Breaths Of The American Dream               Kenneth Stahl
+ Wired War Tales                                       Carl Guderian
+
+ [File #4]
+
+ The Internet Addiction Support Group                  Ivan Goldberg
+ Interactive Img. Launches Riddler(tm)                 Honey Essman
+ USPS To Offer E-Mail Crypto                           USPS
+ First Internet TV Series Premiers                     Unknown
+ I-Com (Software) From Talent Comm.                    Talent Comm.
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+                          WEB PAGE OPEN FOR BUSINESS
+
+ By Scott Davis (dfox@fc.net)
+
+ We now (and FINALLY!) have somewhat of a WWW page for you to enjoy.  It
+ is not complete by any means.  As a matter of fact, no issues of the
+ journal are up as of yet...but you can still route you're browser there
+ and take a look at some stuff.  Please mail me and let me know what you
+ think of it.  You're input is appreciated.
+
+    http://www.fc.net/~dfox
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+          BLACK PLUTERDAY: IS ANYONE REALLY GUNNING FOR E-MONEY?
+
+ By Carl Guderian (Information Systems Editor) bjacques@usis.com
+
+ As the concept of digital money approaches reality, economists, players,
+ and armchair analysts have begun to scrutinize it more closely. Digital
+ money, or e-money, allows individuals--not just banks--to move money
+ around the world at near-lightspeed. It could be the biggest thing since
+ checking accounts and installment plans. Industry pundits are looking past
+ the "gee-whiz" stage of e-money and toward its dark side, spinning
+ scenarios of its collapse and subsequent disruption of the world financial
+ market. The most popular agent of this chaos seems to be hackers or
+ terrorists. History, however, suggests that Murphy, not Mitnick, will be
+ the likely culprit.
+
+ The histories of electronic commerce and computer networks, which converge
+ in e-money, provide three excellent examples of technological debacles,
+ of which only one is the work of a hacker. The New York Stock Exchange
+ and AT&T's long-distance network both crashed all by themselves (October
+ 1987 and January 15, 1990, respectively). The release by Robert Morris of
+ the Internet worm on November 2, 1988 was either an accident or a case of
+ willful sabotage, depending on who's telling the story. All three cases
+ highlight the growing pains of a complex emerging technology.
+
+ The Internet worm incident exemplifies the lowest level of vulnerability:
+ the completely open system. Morris' rogue program tied up 6000 computers
+ on the Internet within hours of its release. System administrators were
+ completely unprepared for it, but rallied in time to contain and kill the
+ worm. Leaving the front doors open cost millions of dollars in lost
+ computer time. At the time of the incident, the Internet was largely an
+ academic milieu, and sysadmins felt little need for security. Today,
+ however, hackers often bring down systems, either through sabotage or
+ ineptitude. Though the majority of hacking incidents result in more
+ embarrassment than actual damage, there is no excuse these days for not
+ securing one's system.
+
+ Yet a future crash of the e-money system engineered by hackers is not very
+ likely. Hackers have historically posed little danger to computer systems.
+ Computer security professionals ascribe over 90% of security breaches to
+ in-house mis- or malfeasance. Outside hackers account for the remnant.
+ Some pundits have played up the hacker threat, citing the lure of a fast
+ e-buck. But automatic teller machines and electronic funds transfer have
+ been in wide use since the seventies, and the most spectacular capers have
+ not been hacking raids, but plain old embezzlement. When a system is
+ cracked or crashed, hackers are seldom to blame. Human error is more often
+ at fault.
+
+ AT&T's long-distance nightmare was caused by a faulty system that crashed
+ itself. A few lines of bad code caused an electronic switch to shut itself
+ down during peak operating hours. Other switches, which shared this defect,
+ shut down also. As more switches shut down, many of those remaining simply
+ overloaded. In the ensuing avalanche, half of AT&T's long-distance
+ capability was lost for a few hours. Though a few opportunistic net.cops
+ initially (and publicly) suspected hackers, AT&T's engineers were able to
+ quickly put the kibosh on such speculation. Meanwhile, AT&T lost a few
+ million dollars and suffered a black eye because the same thing didn't
+ happen to MCI.
+
+ The e-money infrastructure, if it becomes as complex as the AT&T network,
+ will be equally at risk of failure. To prevent a fiasco, designers should
+ keep the system simple. Counting packets out of one account and into
+ another is trivial. Building in transaction tracing and other government-
+ and industry-friendly bells and whistles will only make the system more
+ complex and more likely to fail. Designers should also try to anticipate
+ possible conflicts with the various systems into which e-money will be
+ integrated. (As well, the committee now working on IPNG, the next-
+ generation Internet Protocol, could meet them halfway by not trying to
+ overdesign it for multimedia, metered billing, security, user
+ identification, and other user-onerous "features.")
+
+ Still, the best-designed systems can go awry when put into actual use.
+ Exhaustive testing seldom reveals the fact that technologies sometimes
+ function too well.
+
+ There's a story about the "Correction of '87" that bears repeating. A
+ friend of this writer, while at an overseas science fiction convention
+ that August, was warned that the New York Stock Exchange was headed for
+ trouble. The story went that computers in all major brokerages in the U.S.
+ used the same software for program trading and, therefore, used the same
+ parameters in gauging the market. As the summer's bull market reached
+ hitherto unknown heights, one of those computers was bound to decide that
+ the market was close to topping out. It would start selling off before the
+ other trading programs did. The others, seeing this as a sign of an
+ imminent downturn, would begin profit-taking as well. The market would
+ plummet and not recover, since the machines were probably programed not
+ to buy into a bear market. All of this was supposed to occur by autumn.
+ Which it did. Though not physically networked, the Exchange's trading
+ computers were as inextrically bound together by the mathematics of
+ avalanche and stampede. After a plunge of more 500 points, SEC officials
+ called a halt to the day's trading. Today, stock trading is forcibly
+ suspended if the Dow Jones drops a hundred points.
+
+ E-money, like many powerful technologies, can cause the biggest problems
+ when it is working perfectly. A few of its promises, such as the global
+ circulation of private currencies, should be throwing government bodies
+ and industry leaders into fits right now. Home shopping will quickly give
+ way to desktop currency speculation when Joe Pentium discovers he can
+ dump his weak dollars for yen during a bathroom break. Does the already
+ volatile currency market really need more players? Every hard drive a
+ bank! (Certainly the economic powers are eyeing e-money and similar
+ technologies. They've cooperated to curb international hacking and software
+ piracy; encryption and anonymous e-mail are now on the agenda. Government
+ and industry seem to share a vision of the Internet as a global virtual
+ shopping mall with a cover charge, so users can't look to official
+ guardians or hip, young, Wired-reading infotainment executives for
+ representation. The window for individual experimentation is closing fast.)
+
+ In drawing scenarios for the rise of E-money,  pundits should look to the
+ history of a similarly powerful technology: steam power. Lessons drawn
+ from the latter apply somewhat to the former. Steam proved extraordinarily
+ useful, despite headline-grabbing disasters, because it was very
+ manageable. Therefore, hysterical tales of sabotage by business rivals or
+ foreign agents did little to slow the adoption of steam. Sound thinking
+ minimized the risk of steam just as it will with e-money. At the high end
+ this means thoroughly exploring the dynamics of complex human and machine
+ systems and sharing knowledge gleaned therefrom. At the low end (e-money
+ is eminently scalable), this means keeping enough cash on hand to cover
+ one's potential liability. To the extent that pundits follow e-money
+ intelligently and leave the dime-novel speculations to tabloid TV shows,
+ they will help to ensure the best possible future for e-money and those
+ using it.
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ PRESS RELEASE
+
+ MTV-EUROPE DONATES 500 POUNDS TO AUSTIN CYBERSPACE CIVIL RIGHTS GROUP
+
+ Austin, March 21, 1995
+
+ EFF-Austin, an Austin, Texas civil rights group concerned with
+ electronic network access and free expression, gratefully acknowledges a
+ contribution of 500 pounds from the European branch of MTV Music
+ Television.  The donation came in response to an MTV publication titled
+ "Global Communication: Channel Your Experience," which was released in
+ conjunction with the 1994 First European Music Awards, held at the
+ Brandenburg Gate in Berlin.
+
+ Cyberpunk science fiction writers William Gibson and Bruce Sterling
+ created an original collaborative artwork for the "Global Communication"
+ project. MTV-Europe then contributed a cheque for 500 pounds to the two
+ authors' favorite charity -- EFF-Austin.
+
+ "We've seen some oddities in our five years on the electronic
+ frontier," said EFF-Austin President David Smith, "but this one takes the
+ cake.  Not only are we so hip that we get contributions from MTV-Europe,
+ but now we can describe ourselves as 'William Gibson's favorite charity.'"
+
+ For more information, contact Steve Jackson, EFF-Austin secretary
+ (sj@io.com)
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+         CITY CONNECTS PEOPLE WITH INFORMATION ON THE INTERNET
+
+ Contacts:
+
+ Jesus Garza, City Manager, (512)499-2200
+ Betty Dunkerley, Dir. of Finance & Administrative Services,(512)499-2450
+ Becky Gadell, Internet Task Force Co-Chair, (512)499-2402,
+
+ The City of Austin today introduced City information on the Internet.
+
+ Called the "Austin City Connection," the new City service provides
+ Internet users on-line access to over 300 files of information on a broad
+ range of topics, including agendas for City Council and Planning
+ Commission, the City Charter, profiles of the Mayor and City Council,
+ purchasing notices and job openings, directories of City and youth
+ services, Electric utility services and the Austin Area Visitor's Guide.
+
+ The Mayor, City Council Members and City Manager Jesus Garza cut an
+ electronic ribbon on the Austin City Connection Tuesday morning in a
+ ceremony at the Austin Convention Center. Internet users can access the
+ new City service on the World Wide Web at Universal Resource Locator (URL)
+  http://www.ci.austin.tx.us/
+
+ "Our purpose is to use emerging technologies, such as the Internet, to
+ connect people with information, services and people," said City Manager
+ Jesus Garza. "This is just the tip of the iceberg, the beginning of using
+ such technology to improve service delivery and bring government closer to
+ people."
+
+ Four week ago Garza appointed an employee team, the Internet Task Force,
+ to put basic information on the Internet. The group pooled equipment and
+ talent from all City departments to build the "Connection."
+
+ The Task Force's experience and citizen response to this initial use of
+ the Internet will help guide decisions about providing public access to
+ the Internet at libraries and other facilities, initiating on-line access
+ to the City Council and staff, and adding information and on-line services,
+ such as applying for City jobs through the "Connection."
+
+ "We've included a survey that people can fill out and send to us
+ electronically," said City Internet Task Force Co-Chair Becky Gadell. "We
+ particularly want to find out if the 'Connection' is easy to use and if
+ the information we have included in this first phase is useful. The survey
+ is an opportunity for people to tell us what they think and what they want
+ to see next."
+
+ Information offered through the "Connection" is grouped into
+ nine major categories.
+
+ 1.   Leadership and Community Involvement includes information about the
+      Mayor and City Council, City Boards and Commissions, meeting agendas
+      and minutes, and voter information.
+
+ 2.   Austin City Government includes the City Charter.
+
+ 3.   News offers City news releases, public notices and the program
+      schedule for the City's cable television access station, Channel 6.
+
+ 4.   Business contains listings of City job openings, purchasing notices,
+      and instructions for businesses seeking certification as minority and
+      women-owned businesses.
+
+ 5.   City Services includes a directory with phone numbers and in-depth
+      information about the gamut of City services, from airport to garbage
+      collection, recycling, environmental tips, parks, utilities, and
+      opportunities for youth.
+
+ 6.   Public Safety focuses on emergency and prevention information from
+      Police, Fire and Emergency Medical Services (EMS).
+
+ 7.   Library and Education encompasses services and information from the
+      Austin Public Library and City education programs, such as First Aid
+      and CPR classes, and environmental conservation programs.
+
+ 8.   Health offers a guide to City-County health clinics, Brackenridge
+      Hospital's HealthPLUS class schedule, a link to AIDS information on
+      the Internet, and tips about how to safely enjoy Austin's one and a
+      half million bats.
+
+ 9.   Around and About Austin includes visitor information, Austin
+      Convention Center services and activities, parks and recreation
+      guides, and the program schedule for the Austin Music Network.
+
+ Information about voter registration, health clinics and some library
+ services are provided in English and Spanish.
+
+ Former Council Member Smoot Carl-Mitchell, president of Texas Internet
+ Consultants (TIC), served as the project's consultant for system security.
+ Go Media Inc., an Austin-based graphic design firm consulted on the overall
+ on-line information architecture to ensure the most effective presentation
+ and easy access to information. Additionally, Go Media designed the Austin
+ City Connection logos and home page.
+
+ "The leading, or 'Home Page,' logo is a montage that includes a 1953
+ postcard of downtown Austin and a circuit board image connected by the
+ Congress Avenue bridge. We feel this image illustrates Austin's commitment
+ to the future and strong regard for tradition," said Julie Gomoll,
+ president of Go Media Inc.
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                 MAIN BODY OF THE MITNICK AFFIDAVIT
+
+ On 2/12/95, Tsutomu Shimomura, SDSC, arrived in Raleigh, NC, to
+ assist Jim Murphy Sprint Cellular, review and compare Sprint Cellular
+ CDR's with logging information obtained from Robert Hood, Senior Netcom
+ Administrator, Netcom. Review of call detail records (CDR) for MIN
+ 919-602-6523, determined that a call was initiated on February 11, 1995
+ at 16:37 Eastern Standard Time (EST). This call was place [sic] to Netcom's
+ POP in Minneapolis, Minnesota (612)-362-5400.  Netcom records verify
+ session login to Netcoms machine from Minneapolis POP at 13:39 Pacific
+ Standard Time (PST). CDR indicated that this call was terminated at 17:35
+ EST and verified by Netcom record of termination at 14:35 PST.
+
+ On 2/12/95, Joseph Orsak, Senior Maintenance Engineer, Sprint Cellular,
+ advised affiant that he had identified the particular cell site in the
+ Raleigh area associated with the cellular telephone calls to Netcom POP's.
+ Cell site #19, sector 3 & 4 which are at 60 degree angles, with areas of
+ coverage as follows: South East Bluestone Drive intersecting state highway
+ #70; South West State Road #1649 to William Omstead State Park; South
+ Duraleigh Road to State Road 1664 (see attached map). At 22:00 EST a
+ search was initiated to seek out the cellular location associated with
+ activity listed in paragraphs 9 & 10. Orsak informed affiant that he used
+ Sprint Cellular service equipment to determine that the call was
+ originating from the area of the Players Apartment complex, 4518
+ Tournament Drive, Raleigh, NC. Once the area of the cellular transmission
+ was determined Orsak terminated search at 04:00 EST. Orsak advised that
+ his equipment indicated that MIN 919-602-6523 which match Cellular One
+ CDR's for 2/12/95 conducted a series of calls from 02:00 to 04:00 EST.
+
+ Your affiant is familiar with the computers, software and other equipment
+ commonly used by hackers to modify or clone telephones. Hackers are able
+ to use cellular phones to conduct their activities by connecting their
+ computers to a cellular compatible modem. With such a modem, the hacker
+ uses the cellular phone to dial out to a targeted land - line phone
+ number - often a network remote or public dialup access line. Such an
+ access number allows the hacker to connect to and communicate with the
+ targeted computer system or network. The hacker will often launder his
+ illegal access attempts by routing calls through a public computer
+ access network - such as the Internet or by illegally accessing a PBX
+ telephone system. Once they access the targeted system, the hacker uses
+ his or her knowledge of computers to steal, erase or manipulate data and
+ computer programs. Hackers commonly use sophisticated computer programs
+ to break the password codes which protect computer systems form [sic]
+ unauthorized use.
+
+ Affiant believes that all referenced cellular calls in paragraphs 9 & 10
+ originated from the same individual located within the Players Apartment
+ Complex, Raleigh, NC. Records obtained from Robert Hood, Netcom, indicate
+ that computer hacking sessions took place as a direct result of the
+ cellular hacker activities referenced in paragraphs 9 & 10:
+
+ - On February 11, 21:40 - 22:25 PST, computer system listed as bi.fish.com
+   (belonging to Dan Farmer) is hacked into by gkremen@netcom.com and
+   computer programs are compressed and transferred to another machine.
+
+ - Files are later transferred to the Internet provider The Well. E-mail
+   is read and hacker backdoor tools allowing the intruder to obtain
+   root access are initiated. Programs to erase all accounting log files
+   of intruder are activated.
+
+ - Internex.net a [sic] Internet provider is accessed and backdoor programs
+   are activated. On this machine stolen files are placed in the lost+found
+   directory, a favorite place to hide information.
+
+ - Intruder changes directories into that of New York Times writer John
+   Markoff. Intruder reads E-mail and then deletes the mail from the system.
+
+ - On February 12, 12:40 - 12:53 PST, from Netcom the intruder hacks into
+   Mead Data Central (archive site for newspapers). Intruder then logs into
+   escape.com then csn.org and begins to read the E-mail of a user
+   named hank.
+
+ - On February 13, 15:45 - 15:58 PST, intruder logs into internex.net then
+   into escape.com where he changes the permissions and .rhost file of
+   writer John Markoff to make his account world accessible by anyone.
+   Proceeds to delete several files from the system. Activates backdoor
+   hacking tools to obtain root superuser status on machine.
+
+ Investigation conducted via electronic tracking measures has narrowed
+ the citus of the target's cellular phone operations into the computer
+ networks to Apartment No. 107 and Apartment No. 108, located in Players
+ Apartment Complex on 4640 Tournament Road, Raleigh, North Carolina.
+ Investigation of the leases on these apartments reveal that Apartment
+ No. 107 was leased on February 4, 1995, by a new lessee. This is the
+ precise date on which the target began operating out of the Raleigh,
+ North Carolina, area. The other apartment is leased by the girlfriend of
+ the apartment complex's manager, who is not a suspect.
+
+ Based upon the above stated facts, and upon my training and experience,
+ your affiant believes that a resident of the Players Apartment Complex,
+ is actively engaged in illegal use of cellular telephone to make
+ unauthorized access into the above listed computer systems and of as
+ yet, undetermined computer and business entities, a violation of Title
+ 18, United States Code, Section 1030, Computer Fraud and Abuse.
+
+ To the best of my knowledge and belief, the information contained in
+ the above affidavit is true and accurate.
+
+ LEVORD M. BURNS
+ Special Agent
+ Federal Bureau of Investigation
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                   THE MITNICK FAQ FROM 'THE WELL'
+
+
+ [mod's note: Kevin Mitnick's arrest was connected with the investigation
+ of intrusions on the WELL, a conferencing system in Sausalito, California.
+ The WELL has issued a press statement in the form of a FAQ]:
+
+ The WELL : FAQ (Frequently Asked Questions) Sheet for Press
+
+ Q.  When did The WELL first become aware of the unauthorized activity on
+ it's system?
+ A.  Friday, January 27th.
+
+ Q.  How did you  discover it?
+ A.  A routine system check.
+
+ Q.  What actions did the WELL take to help track the suspect?
+ A.  Our technical staff began monitoring and analyzing the situation over
+ that weekend.  By Monday, we had contacted Computer Emergency Response Team
+ (CERT), The FBI, Sun's Security Team, Tsutomo Shimomura of San Diego
+ Supercomputer Center, the Board of Directors of The WELL, representatives of
+ The WELL community and EFF to discuss our appropriate response. We also
+ contacted other Internet service sites who we believed were compromised.
+ Our main objective was to understand risks, options, and factors affecting
+ our system security and Net-wide responsibilities.
+
+ After discussing the situation with the above groups, and carefully
+ considering our options and responsibilities, we made the decision to
+ contact the U.S. Attorney's Office and to cooperate with Tsutomo Shimomura
+ in apprehending the intruder.  We did this in an effort to foster greater
+ security on the global net.
+
+ We initiated round-the-clock staffing to monitor the illegal activity.
+ WELL technical staff were joined by Mr. Shimomura and his associates to
+ help trace the suspect using sophisticated monitoring software that he
+ supplied.
+
+ At no time was the FBI onsite at The WELL or involved in monitoring at our
+ site.
+
+ Q.  What was the chronology of events at The WELL the day leading up to the
+ arrest of Kevin Mitnick?
+ A. Tuesday, February 14, 2:30 pm PST
+
+ WELL technical staff, which had been monitoring the activity for nearly 18
+ days, notices that the cracker has erased information on one transaction
+ file on The WELL.  The transaction file (there are dozens of accounting
+ files on The WELL) contained user log-on data, and was a file which is
+ stored elsewhere and backed up regularly.
+
+ WELL decides to bring the system down so we can re-build the damaged file
+ and do further investigation.  WELL staff shuts down WELL computers.
+
+ Tuesday, February 14, 3:00 pm PST
+
+ Technical staff positively determines that it is only one accounting file
+ that has been affected.  Approximately three hours after the incident the
+ damaged file is rebuilt.
+
+ Tuesday, February 14, 5:00 pm PST
+
+ Shimomura and assistants are contacted, and confirm with The WELL technology
+ team that the cracker appeared to have made a typing error when he zeroed
+ the one accounting file.  Shimomura reports that they are hours from
+ catching the suspect.
+
+ Tuesday, February 14, 8:30 pm PST
+
+ WELL puts system back up.  Monitoring continues in full gear.
+
+ Tuesday, February 14, 10:30 pm PST
+
+ Kevin Mitnick is arrested in Raleigh, North Carolina.
+
+ Q.  What other sites were affected?
+ A.  In the interest of their privacy, we will not say.  We believe that at
+ least a dozen sites were compromised.
+
+ Q.  What are The WELL's normal security procedures?
+ A.  The WELL follows normal UNIX and Internet system security procedures
+ including, but not limited to, implementing changes as recommended by CERT
+ advisories, security patches as available from vendors (e.g. SUN, Cisco),
+ regular use of system security diagnostic software, including "crack" and
+ other appropriate security related measures.  We feel it is inappropriate to
+ enumerate all our security measures in a public forum.
+
+ Q.  Did the cracker get WELL members' credit card information or personal
+ files?
+ A.  To the extent that we are able to determine, no credit card information
+ was accessed by the intruder.
+
+ We monitored nearly every keystroke of the cracker.  A total of 11 accounts
+ were compromised by the intruder, and we have contacted all of the account
+ holders.  In general, the cracker was not interested in information on The
+ WELL itself, but used the WELL for storing files from other sites.
+
+ Q.  Wouldn't have changing all members' passwords have secured the system?
+ A.  Fundamentally, it wouldn't have made any difference.  The tools used by
+ this cracker would not have been defeated by changing individual passwords.
+ Additionally, we have no information that would lead us to believe that
+ member's passwords had been cracked or distributed.
+
+ Q.  What exactly were you monitoring and who was doing this?
+ A.  We were tracking network transactions, e.g.. ftp, smtp, telnet etc. to
+ and from systems known and/or suspected by us to have been compromised.  We
+ added additional sites  as we learned about this.
+
+ Those monitoring our system included The WELL tech staff as well as Andrew
+ Gross, a consultant from Shimomura's office.
+
+ Q.  What are you doing to strengthen the security of The WELL?
+ A.  We've purchased a new main server, a Sparc 1000e.  We're re-installing
+ application software from binaries, implementing one-time (DES) password
+ protection for critical including root passwords, and requiring every user
+ on the system to select a new password (adhering to standards that make
+ password cracking more difficult).  We are  continuing close liaison with
+ Sun specialists and other system security specialists and advisors to
+ examine techniques used by the cracker to gain system access and addressing
+ these system weaknesses.
+
+ The WELL plans to install the new Sparc 1000e on Monday, February 20th.
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ This is from the AP wire for Thursday, February 16, 1995.
+
+ RALEIGH, N.C. (AP) - He was a notorious computer vandal, a fugitive
+ described by one official as "the most wanted hacker in the world."
+
+ In more than two years on the run, Kevin D. Mitnick allegedly pilfered
+ thousands of data files and at least 20,000 credit card numbers, worming
+ his way into even the most sophisticated systems.
+
+ But Mitnick, who once broke into a top-secret military defense system as a
+ teen-age prank, apparently infiltrated one computer too many.
+
+ One of his latest victims, a computer security expert, was so angered that
+ he made it his crusade to track Mitnick down.
+
+ Mitnick, 31, was charge with computer fraud, punishable by 20 years in
+ prison, and illegal use of a telephone access device, which carries a
+ maximum 15-year sentence. Both crimes also are punishable by $250,000
+ fines.
+
+ He already was wanted in California for violating probation on a previous
+ hacking conviction.
+
+ "He was clearly the most wanted computer hacker in the world," Kent
+ Walker, an assistant U.S. attorney in San Francisco who helped coordinate
+ the investigation, told The New York Times. "He allegedly had access to
+ corporate trade secrets worth billions of dollars. He was a very big
+ threat."
+
+ Mitnick had been on the run since 1992. Authorities say he broke into many
+ of the nation's telephone networks, and most recently he had become a
+ suspect in a rash of break-ins on the global Internet computer network.
+ "He's a computer terrorist," said John Russell, a U.S. Justice Department
+ spokesman.
+
+ Mitnick's downfall began Christmas Day, when he broke into the home
+ computer of Tsutomu Shimomura of the San Diego Supercomputer Center and
+ stole security programs he had written.
+
+ Incensed, Shimomura canceled a ski vacation and assembled a team of
+ computer experts to hunt down the intruder. They traced Mitnick to
+ Netcom, a nationwide Internet access provider, and with the help of
+ federally subpoenaed phone records determined that he was lacing calls
+ from a cellular phone near Raleigh-Durham International Airport, the
+ Times said.
+
+ Early Monday morning, Shimomura drove around Raleigh with a telephone
+ company technician. They used a cellular frequency direction-finding
+ antenna hooked to a laptop to narrow the search to an apartment complex.
+ The FBI arrested Mitnick after a 24-hour stakeout.
+
+ Shimomura, 30, attended Mitnick's prearraignment hearing Wednesday at the
+ federal courthouse in Raleigh. At the end of the hearing, a handcuffed
+ Mitnick turned to Shimomura, who he had never met, according to the Times.
+ "Hello, Tsutomu. I respect your skills." Shimomura nodded solemnly.
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                           BRAIN DEAD IN CYBERSPACE
+
+ By Jim Silvania
+
+ The demise of  America's number one cyperthief, Kevin Mitnick, The
+ Condor, has been widely reported.  Discussions among Internet users
+ regarding Mitnick's arrest have led to some interesting revelations.
+ There appears to be a growing fear by Internet computer users  that
+ Mitnick (sometimes referred to as the "Hannibal Lector of hacking"), or
+ other cyberpunks with modems, could somehow gain access to their
+ private computer system and reek havoc by stealing their secrets or
+ implanting an information consuming virus.  The possibility exists but
+ even more of a threat is someone surreptitiously entering your home or
+ business and walking off with your hard drive and thereby rendering
+ your business brain dead.
+
+ Medical shows (such as ER and Chicago Hope) have once again become
+ popular with TV viewers.  Would I be revealing my age if  I stated I
+ can remember watching Ben Casey, M.D. and Dr. Kildare?  In all of the
+ previous mentioned medical shows one scene always portrayed is that of
+ a patient lying in a hospital bed hooked up to a visual monitor.  One
+ soon learned that at some point during the show the lines on the
+ monitor went flat causing the monitor to sound an alarm and thereby
+ sending the staff into a controlled "Code Blue" panic.  In the older
+ television dramas, the doctor would rush to the rescue and save the
+ dying patient.  In the newer TV dramas, the viewers have learned that
+ if the lines on the monitor remain flat, the patient dies.  The patient
+ is labeled "brain dead" and all bodily functions cease.
+
+ I  am now involved in an investigation of another theft or a lobotomy
+ of a business entity.  Again an uncommon thief  has entered a business
+ and removed  or stolen the computer's hard drive. The hard drive
+ contained the business' customer list.  In one of the more recent
+ cases, not only did the perpetrator steal the hard drive, he/she also
+ stole the taped backup which was located next to the hard drive and, of
+ course, plainly marked "backup".
+
+ The thieves in these past instances did not gain access to the
+ business' secrets via the use of a modem or  the process of hacking.
+ The acts of these criminal s were committed as easily  as the
+ professional shoplifter who steals from the neighborhood discount
+ store.
+
+ The  investigation into the theft of a hard drive becomes a horse of a
+ different color.  The street cop who is dispatched to the business to
+ take the theft report views the whole affair as just a minor theft of
+ computer hardware that can be easily replaced by submitting an
+ insurance claim.  The investigating detective with a stack of 100
+ reports on his desk views the matter in the same light. What neither
+ law enforcement officer realizes is that the actions of the
+ perpetrators amount to more than just a theft.  Their actions amount to
+ murder. The lines on the monitor monitoring your business have gone
+ flat. The alarm should be sounding a "Code Blue" because your  company
+ is now "brain dead".
+
+ The motivations of such thievery can be inclusive of espionage,
+ subversion, competitor intelligence or just a disgruntled employee
+ seeking revenge.  Here are some tips on preventing your business from
+ becoming "brain dead":
+
+ 1.   Secure your hard drive, preferably with a lock and key.
+
+ 2.   Pass wording doesn't cut it. If your hard drive is stolen, it can
+ be booted by a floppy disk or simply mounting your hard drive into a
+ new computer.
+
+ 3.   Secure your backup.   It belongs someplace else other than next to
+ your computer.
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+                        1995 SUMMERCON INFORMATION
+
+ By Chris Goggans (phrack@well.sf.ca.us)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+  Phrack Magazine and Computer Security Technologies proudly present:
+
+                     The 1995 Summer Security Conference
+
+  SSSS  U    U  M     M  M     M   EEEEE   RRRR     CCCC   OOOO    N   N
+ S      U    U  MM   MM  MM   MM   E       R   R   C      O    O   NN  N
+  SSS   U    U  M M M M  M M M M   EEE     RRRR    C      O    O   N N N
+     S  U    U  M  M  M  M  M  M   E       R  R    C      O    O   N  NN
+ SSSS    UUUU   M     M  M     M   EEEEE   R   R    CCCC   OOOO    N   N
+
+                               "SUMMERCON"
+
+      June 2-4 1995 @ the Downtown Clarion Hotel in Atlanta, Georgia
+
+ This is the official announcement and open invitation to the 1995
+ incarnation of Summercon.  In the past, Summercon was an invite-only
+ hacker gathering held annually in St. Louis, Missouri.  Starting with this
+ incarnation, Summercon is open to any and all interested parties: Hackers,
+ Phreaks, Pirates, Virus Writers, System Administrators, Law Enforcement
+ Officials, Neo-Hippies, Secret Agents, Teachers, Disgruntled Employees,
+ Telco Flunkies, Journalists, New Yorkers, Programmers, Conspiracy Nuts,
+ Musicians and Nudists.
+
+ LOCATION:
+
+ The Clarion Hotel is located in downtown Atlanta, 9 miles from Hartsfield
+ International Airport and just a few blocks from the Peachtree Center MARTA
+ Station.
+
+
+ Considering the exorbitant expenses involved with attending other
+  conferences of this type, Rooms at Summercon are reduced to
+
+                 $65 per night for Single or Double Occupancy
+
+       The Clarion Hotel Downtown, Courtland at 70 Houston St., NE,
+                            Atlanta, GA 30303
+        (404) 659-2660 or (800) 241-3828   (404) 524-5390 (fax)
+
+
+ No one likes to pay a hundred dollars a night.  We don't expect you
+ to have to.  Spend your money on room service, drinks in the hotel bar,
+ or on k-rad hacker t-shirts.  Remember:  Mention that you are attending
+ Summercon in order to receive the discount.
+
+ DIRECTIONS
+
+ 75/85 Southbound - Exit 97 (Courtland).  Go 3 blocks south on Courtland
+           then turn left on Houston (John Wesley Dobbs Ave.)
+ 20 East - Exit 75/85 North at International.  Turn Left on Courtland at
+           Houston Ave. NE. (aka. John Wesley Dobbs Ave. NE.)
+ 20 West - Exit 75/85 North at International.  One block to Courtland
+           and right at Houston Ave. NE. (John Wesley Dobbs Ave. NE.)
+
+ Atlanta Airport Shuttle - The Express Bus that leaves from Atlanta's
+ International Airport will drop you off at many hotels in the downtown
+ area, including the Clarion.  The shuttle should be no more than 12
+ dollars.  Fares may be paid at the Airport Shuttle in the Ground
+ Transportation area of the Airport Terminal.
+
+ MARTA - The Metropolitan Atlanta Rapid Transit Authority (MARTA), is a
+ convenient and inexpensive way to negotiate most of the Atlanta area.
+ Take the MARTA train from the Airport to the Peach Tree Center Station.
+ Walk three blocks down Houston to the intersection of Houston and
+ Courtland.  The MARTA fare will be roughly 2 dollars.
+
+ Taxis - The average cab fare from Atlanta's Airport to the downtown area
+ is roughly 30 dollars.
+
+ CONFERENCE INFO
+
+ It has always been our contention that cons are for socializing.
+ "Seekret Hacker InPh0" is never really discussed except in private
+ circles, so the only way anyone is going to get any is to meet new people
+ and take the initiative to start interesting conversations.
+
+ Because of this, the formal speaking portion of Summercon will be held on
+ one day, not two or three, leaving plenty of time for people to explore
+ the city, compare hacking techniques, or go trashing and clubbing with
+ their heretofore unseen online companions.
+
+ The "Conference" will be held on June 3rd from roughly 11:00 am until
+ 6:00 pm with a 1 hour lunch break from 1:00 to 2:00.
+
+ NO VIDEO TAPING WILL BE ALLOWED IN THE CONFERENCE ROOM.  Audio Taping
+ and still photography will be permitted.
+
+
+ CURRENT LIST OF SPEAKERS:
+
+ Robert Steele   - Ex-Intelligence Agent, Founder and CEO of Open Source
+                   Solutions (a private sector intelligence firm)
+
+            Topic: Hackers from the Intelligence Perspective
+
+ Winn Schwartau  - Author of "Information Warfare" and "Terminal
+                   Compromise", Publisher of Security Insider Report, and
+                   noted security expert
+
+            Topic: Electromagnetic Weaponry
+
+ Bob Stratton    - Information Security Expert from one of America's largest
+                   Internet service providers
+
+            Topic: The Future of TCP/IP Security
+
+ Eric Hughes     - Cryptography Expert and founding member of the
+                   "Cypherpunks"
+
+            Topic: Cryptography, Banking, and Commerce
+
+ Annaliza Savage - London-based Director/Producer
+
+            Topic: Discussion of her documentary "Unauthorized Access"
+                   (Followed by a public screening of the film)
+
+ Chris Goggans   - Editor of Phrack Magazine and Summercon M.C.
+
+            Topic: introductions, incidentals and a topic which is sure
+                   to culminate in an international incident.
+
+
+ (Other Speakers May Be Added - Interested parties may contact scon@fc.net)
+
+ COSTS
+
+ Since other cons of this type have been charging from 25 to 40 dollars
+ entry fees, we are only charging 10 dollars.  Yes, that's correct,
+ TEN (10) dollars in US currency.  Money is far too scarce among the
+ hacker community to fleece everyone for money they will probably need
+ to eat with or pay for their hotel rooms.
+
+
+ WHAT TO DO IN ATLANTA:
+
+ To attempt to make everyone's stay in Atlanta more exciting, we are
+ contacting local establishments to arrange for special discounts and/or
+ price reductions for Summercon attendees.  Information will be handed
+ out regarding these arrangements at the conference.
+
+ Atlanta is a happening town.
+
+ Touristy Stuff                            Party Time
+
+   The World of Coca-Cola                  Buckhead
+   Underground Atlanta                     The Gold Club
+   Georgia Dome (Baseball?)                (Countless Other Clubs and Bars)
+   Six Flags
+
+ CONTACTING SUMMERCON SPONSORS
+
+ You can contact the Summercon sponsors by several means:
+
+     E-mail:     scon@fc.net
+
+        WWW:     http://www.fc.net/scon.html
+
+ Snail Mail:     Phrack Magazine
+                 603 W. 13th #1A-278
+                 Austin, TX 78701
+
+
+ If deemed severely urgent, you can PGP your email with the following PGP
+ key:
+
+ - -----BEGIN PGP PUBLIC KEY BLOCK-----
+ Version: 2.6
+
+ mQCNAizMHvgAAAEEAJuIW5snS6e567/34+nkSA9cn2BHFIJLfBm3m0EYHFLB0wEP
+ Y/CIJ5NfcP00R+7AteFgFIhu9NrKNJtrq0ZMAOmiqUWkSzSRLpwecFso8QvBB+yk
+ Dk9BF57GftqM5zesJHqO9hjUlVlnRqYFT49vcMFTvT7krR9Gj6R4oxgb1CldAAUR
+ tBRwaHJhY2tAd2VsbC5zZi5jYS51cw==
+ =evjv
+ - -----END PGP PUBLIC KEY BLOCK-----
+
+
+ See you in Atlanta!
+
+
+ -----BEGIN PGP SIGNATURE-----
+ Version: 2.6
+
+ iQCVAwUBL4mMEaR4oxgb1CldAQE5dQP+ItUraBw4D/3p6UxjY/V8CO807qXXH6U4
+ 46ITHnRJXWfEDRAp1jwl+lyavoo+d5AJPSVeeFt10yzVDEOb258oEZkIkciBnr7q
+ mUu563/Qq67gBsOWYP7sLdu3KEgedcggkzxtUzPxoVRVZYkHWKKjkG1t7LiT3gQ5
+ uRix2FrftCY=
+ =m/Yt
+ -----END PGP SIGNATURE-----
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                  FRINGE WARE REVIEW #7 - THE WeIrD ISSUE
+
+ By Jon Lebkowsky (jonl@io.com)
+
+ A while back ago, a friend of ours named Andy V. chatted with FWR
+ about doing a parody of Wired magazine. At the same time some of the
+ FWR editors were having a lively discussion with one of the Wired
+ editors about doing parodies of other zines...you get the picture.
+
+ Featured in FWR #7 you will find our idears about how that glossy,
+ six-color rag from SF should be produced--that is if they had our
+ limited budget and a good measure of self-humor. Check here for the
+ latest WeIrD news in our new departments: Electronic Weird, Gorgon
+ Watch, Fringe Product Fetish, Rants & Raves, etc... You'll also find a
+ second installment of the graphic novel Eight Hands by Glenn Israel,
+ our mailart showcase featuring an original by Tiffany Lee Brown & Bart
+ Nagel...photography and illustrations by Monte McCarter, BB Depew,
+ Caresse P-Orridge, nos4a2, Heath Bunting, and GAK-Art...plus a bright
+ (almost-six) color cover, the usual fun of our back cover PGP
+ message/contest, and an updated catalog of gizmos, widgets and memes.
+
+      -- Paco Xander Nathan
+      special issue editor, FWR #7
+
+
+                             TABLE OF CONTENTS
+
+ Wired Sonnet
+        Mary Denning: will she ever work again in this town?
+
+ Stuck in the MUD
+        grimoire @ telnet mud.stanford.edu 2010: why PXN's shrink
+        enjoys the Net so much
+
+ Gorgon Watch
+        Garnet Baldwyg: our friend and cohort explains what those funny
+        words in the FW email list headers mean..
+
+ Fringe Product Fetish
+        Scotto: stuff you really can't afford, but really can't afford
+        not to have read about here
+
+ R.U.Wired?
+        Baby Boy Depew & Monte McCarter: in a WiReD world, somebody's
+        nearly always yanking your strings
+
+ Tubed
+        Don Webb: noted author dares question about the future of a
+        brave new medium
+
+ Consciousness In A Box
+        Jon Lebkowsky: the scifi mythopoetic delusional
+        psychoelectronic "I"
+
+ McLuhan Center i/v
+        Spiro(s) Antonopoulos: FWR's newest contributing editor
+        actually calls up one of those adverts found in the back of
+        Wired magazine
+
+ Genesis P-Orridge i/v
+        Dissemination Network: Brother Gen talks openly about his
+        connection with Bill Gates and other people who control the
+        world
+
+ KNOW-THIS
+        Genesis P-Orridge: "Thee Frequency Ov Truth"
+
+ DIY Infobotics
+        Paco Xander Nathan: FWR dares advocate the heir of demons
+
+ nEurorAncid
+        Paco Xander Nathan: you've probably read Neuromancer...welcome
+        to bubbaspace
+
+ Pick Your Noise
+        Demandra: music you should listen to, now
+
+ Drugs We Used
+        Scotto: it takes a lot of personal sacrifice to produce an
+        issue of WeIrD magazine, but hey we're pros...
+
+ Techgnosis
+        Shelly Soma: speculations on technology, ritual and other such
+        matters
+
+
+                             HOW TO SUBSCRIBE
+
+ for more info, send the email message GET SUBSCRIBE to:
+ info@fringeware.com or call: +1 512 323 0039
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+          Proposed FTC Rules Could Reduce Telemarketing Abuses
+
+ By Barry D. Fraser (fraser@pwa.acusd.edu)
+ Online Legal Research Associate
+
+ The Federal Trade Commission (FTC) has proposed a set of rules which
+ would ban many deceptive or abusive telemarketing sales practices.
+ Although there has been very little publicity about this rulemaking, it
+ could severely restrict telemarketing activity and substantially cut
+ down on those annoying sales calls that always seem to come at the
+ wrong time.  It would also provide a strong deterrent to scam artists.
+
+ The FTC is seeking public comment over the next several weeks on the
+ proposed rules.  A copy of the proposal can be obtained by calling
+ 202.326.2222.  The actual text is very long (120 pages), so interested
+ persons might request a press release which explains the rules in some
+ detail.  I'm not aware of any online availability of these materials.
+
+ Under the proposed rules, telemarketers would have to tell consumers at
+ the beginning of each call that it is a sales call and provide the name
+ of the seller.  The rule would prohibit telemarketing calls before 8
+ a.m. or after 9 p.m.  Telemarketers offering credit or loans, credit
+ repair services, or assistance to consumers in recovering lost money
+ from prior telemarketing schemes, would be prohibited from seeking
+ payment until the services have been rendered.
+
+ Additionally, telemarketers would be required to disclose all material
+ information about any offer made to a consumer, and would be required
+ to obtain signed acknowledgment of written disclosure regarding all
+ prize-promotions and investment offerings before seeking any payment.
+ These disclosures must include information about the retail price of
+ all prizes, odds of winning, costs of obtaining any prize, and the "No
+ purchase necessary to win" statement.
+
+ The proposed rules also prohibit a variety of specific
+ misrepresentations, including that a person was selected to receive a
+ prize, that the telemarketer is affiliated with a government entity, or
+ that the telemarketer can improve credit records or obtain loans for
+ customers regardless of credit record.
+
+ Also, telemarketers would be prohibited from calling consumers more
+ than once every three months to sell the same thing, and calling
+ consumers who have stated that they do not want to be called by the
+ telemarketer.  Violations of the proposed rule could result in civil
+ penalties of up to $10,000 per violation.
+
+ There will likely be strong resistance from the telemarketing industry
+ to these regulations, and attempts to weaken the proposed rules.
+ Written comments in support of the rules may be submitted to the FTC,
+ Office of the Secretary, Room 159, Washington D.C. 20580, and should be
+ captioned "Proposed Telemarketing Sales Rule."  The FTC requests that
+ the comments also be submitted on disk, preferably in a DOS word
+ processor format, or as a text file.
+
+ BTW, the Privacy Rights Clearinghouse has a free publication entitled
+ "Telemarketing: Whatever Happened to a Quiet Evening at Home?" that
+ provides tips on cutting down on sales calls.  The document is
+ available via gopher at gopher.acusd.edu; ftp at teetot.acusd.edu  cd
+ pub/privacy; WWW at http://www.manymedia.com/prc/; or e-mail this
+ address for a copy.
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                   CHAOS CORNER V05 N01 27 (Feb '95)
+
+By Dr. Chaos (drchaos@pelican.cit.cornell.edu)
+
+ Copyright 1995 by Robert D. Cowles; Ithaca, NY 14850.  Permission is
+ hereby granted to republish complete issues in unaltered form.
+ Republication of partial issues must reference the source and state that
+ subscriptions to Chaos Corner are available (free) by sending electronic
+ mail to chaos-request@pelican.cit.cornell.edu.
+ --------------------------------------------------
+ Table of Contents for V05 N01
+
+ Book Reviews - *Internet After Hours* - *Your Internet Consultant*
+ Two months and a New Year
+ OS/2 Warp status report
+ Game information - FAQs and more FAQs
+ Files of Interest? in the Archives
+ Contribution from alt.humor.puns
+ MCI and Telephone Foolishness
+ Telling the World Who You Are
+ Voyager - It's on the Internet
+ A Few More Web Resources of Interest
+ Get your Free Subscription Here!
+
+ --------------------------------------------------
+ Book Reviews - *Internet After Hours* - *Your Internet Consultant*
+
+ One of the problems with writing a book about the Internet is the speed
+ at which the Internet changes relative to normal publishing cycles.
+ Many things that seem new and full of promise when book is first written
+ (like Apple's Newton) are battle scarred veterans by the time the books
+ sees print.  Although the books appeared fairly recently, there have
+ been many changes during the 9-12 month period from the time the text is
+ written.
+
+ As mentioned in V04 N06, we received a copy of *Internet After Hours* by
+ Andy Eddy.  The book describes itself as a " ... guide to finding games,
+ entertainment, and just plain weirdness on the Internet!"  The Internet
+ described in the book is one from 1993.  (While there is some mention of
+ personal computers connecting to the Internet via SLIP or PPP, the
+ connection method often assumed is to a Unix or VMS system via a command
+ line interface.  The World Wide Web is mentioned in the Glossary, in the
+ Big Fun list, and in a short section about Wired magazine.  The Internet
+ source of answers to Frequently Asked Questions was referred to by its
+ old name of pit-manager.mit.edu rather than rtfm.mit.edu.)  Nearly 40
+ pages are devoted to Internet Relay Chat (a development spinoff of
+ BITNET Relay) with all the detail of a reference book.  However, with
+ only a six page index the book can hardly qualify.  Fully 25% of the
+ book is occupied with reprints of Internet accessible lists that are 6-
+ 12 months old.  Editorially, some figures that were lists of commands
+ got moved to pages or sections where they not really relevant -- in the
+ interest of not splitting the figure -- making the use of the book for
+ reference more difficult.  On the plus side, we enjoyed the descriptions
+ of MUDs and NetTrek.  This book is most suitable for someone with almost
+ no net experience who is feeling the "need" to be online but hasn't
+ quiet found a good enough reason to invest the time and effort.
+
+ The book *Your Internet Consultant* (subtitled "The FAQs of Life
+ Online") is written by Kevin Savetz (maintainer of several lists that we
+ have referenced in Chaos Corner).  The format of this book is to provide
+ answers (sometimes contributed by topical experts) to certain questions
+ that have been asked over and over again by newcomers to the Internet.
+ Again, the book suffers from having material that is sometimes more than
+ 10 months old -- a long time on the Internet.  Savetz writes that the
+ Simtel20 archives are no longer being updated -- surely a surprise to
+ Keith Peterson, the maintainer of the archives.  (The archives are quite
+ alive and continue to set high standards for how to maintain and
+ organize the huge volume of DOS freeware and shareware.)  Savetz also
+ writes that PGP (Pretty Good Privacy) is contraband software (due to
+ legal maneuvering that was going on when the book was written).  We
+ won't claim to KNOW a status for PGP, but we're pretty sure that
+ licensing restrictions for private users have been substantially removed
+ (of course, we're not lawyers ...).  The method of sending faxes via the
+ Internet has been vastly improved since the book was written ... you are
+ no longer required to enter the destination fax number in reverse order.
+ On the plus side, the combination of a 25 page index and a nearly 20
+ page table of contents improve the ability to use this book as a
+ reference material.  The combination of the Questions (listed in the
+ Table of Contents) and the Index make it much easier to look up some
+ dimly remembered fact (Dr. Chaos likes to point out that I don't
+ remember ANY facts except dimly).  By organizing the book around answers
+ to specific questions, Savetz has done a good job of keeping up the flow
+ of information without having to back up and explain in each answer how
+ to use something like FTP or gopher.  Most of the topics mentioned in
+ *Internet After Hours* are also mentioned in *Your Internet Consultant*,
+ with less detail but pointers to get you to the current information.
+
+ --------------------------------------------------
+ Two months and a New Year
+
+ It's been nearly two months since the last Chaos Corner, and, as usual,
+ we have far too much saved up to possibly be able to tell you about.
+ The most popular file from last time was the Descent FAQ (I hope none of
+ you have had motion sickness while playing it.)  The current version is
+ now 1.0; if you want the "production" version of the FAQ describing this
+ great game, send e-mail to chaos-request@pelican.cit.cornell.edu.  We
+ appreciate the interest of our readers in other pursuits, since the file
+ on Physics was a close second.  We also welcome over 250 new readers to
+ with issue.
+
+ --------------------------------------------------
+ OS/2 Warp status report
+
+ Last week, IBM announced availability of OS/2 Warp ... the surprise was
+ that they actually got the upgrade offers out to registered OS/2 2.1
+ users in record time (USD 89, shipping included if ordered before March
+ 31).  Just in time, the FAQ for OS/2 Warp is now available via anonymous
+ ftp from ftp-os2.cdrom.com from the /pub/os2/incoming directory.  Look
+ for the file named faq3.zip.  It will probably be moved at some point,
+ but nothing has been moved from the incoming directory of that site for
+ over 2 months, so it's difficult to say when that might happen.  If you
+ have a web browser (like the Web Explorer for OS/2), a good place for
+ OS/2 tips and techniques is the Warp Pharmacy -- just point you browser
+ to http://www.zeta.org.au/~jon/WarpPharmacy.html.  Another source of
+ OS/2 information is: http://www.cen.uiuc.edu/~rs9678/raj.html at the
+ University of Illinois.
+
+ --------------------------------------------------
+ Game information - FAQs and more FAQs
+
+ A wonderful place for information on your favorite game is located in
+ the UK (my daughter is just returning from the UK after spending a
+ little more than a week there with her high school Global Studies
+ class).  The URL http://wcl-rs.bham.ac.uk/GamesDomain/games.html will
+ get you to the page that lists the FAQs that are available.  It's the
+ only place we know of to get the Sim City 2000 FAQ (for those of you who
+ keep building cities but can never get anyone to move in).
+
+ --------------------------------------------------
+ Files of Interest? in the Archives
+
+ As we look over the Chaos Corner archives, Dr. Chaos is only to happy to
+ point out the wonderful collection he has for this issue.  A guaranteed
+ favorite is "The Canonical Collection of Lightbulb Jokes" -- careful
+ when you ask for it -- it's over 4400 lines long (it IS the canonical
+ collection!).  Of course, there's always Scott Yanoff's wonderful
+ "Updated Internet Services List" and for those interested in German or
+ Germany, there's the FAQ from the soc.culture.german Usenet newsgroup
+ (if you just want to keep up with Deutsche Welle, take a look at ftp-
+ dw.gmd.de).  For the first time -- Dr. Chaos has a mini-FAQ on the Sony
+ CDU 55E CD-ROM drive (having acquired such a drive, we have developed
+ some interest in such information).  For those of you wanting to take a
+ break from the games, there is a file giving the location "Physics
+ Servers and Services Around the World".  If you would like any of these
+ files, just send your request to chaos-request@pelican.cit.cornell.edu.
+ Ever wonder what the real difference is between SLIP and PPP protocols
+ as ways of accessing the Internet?
+
+ --------------------------------------------------
+ Contribution from alt.humor.puns
+
+ There have been several versions of this pun posted to the Usenet
+ newsgroup alt.humor.puns recently and Dr. Chaos thought we should share
+ it with you all:
+
+ Israel police were looking for a man named Joseph, wanted
+ for looting in the port city of Haifa.
+
+ The suspect was described as the son of a Barcelona ex-nun
+ and a German father. He was a former flutist and worked
+ occasionally as a farmer.
+
+ In short, he was "A Haifa-lootin', flutin' Teuton, son-of-a-nun
+ from Barcelona, part-time plowboy Joe."
+
+
+ --------------------------------------------------
+ MCI and Telephone Foolishness
+
+ Are you suffering through the Winter?  If you call (sorry, North America
+ only) 1-800-969-4874 (also 1-800-WOW-ITSHOT) you get connected to their
+ seasonal hot line.  There are 9 different summer sounds you can listen
+ to like: someone playing golf; a baseball game; tropical birds; etc.
+ One other telephone trick -- have you gotten a check from AT&T that
+ switches your long distance carrier to them if you cash it?  If you want
+ to stay with MCI, just call them up and get the address where you can
+ send the AT&T check.  MCI will send back to you a certificate worth USD
+ 40 -- and the certificate grows in value by USD 5 / month until it
+ reaches a maximum of USD 100 after one year.  Isn't competition
+ wonderful?
+
+ A document that is on its way to Internet RFC status is something you
+ might be interested in taking a look at.  The document contains all US
+ and international area codes, telex codes, country codes, etc.  The name
+ of the document is /internet-draft/draft-robinson-newtelex-01.txt and it
+ can be obtained by anonymous ftp from the following sites:
+
+ Africa:        ftp.is.co.za    (196.4.160.2)
+ Europe:        nic.nordu.net   (192.36.148.17)
+ Pacific Rim:   munnari.oz.au   (128.250.1.21)
+ US East Coast: ds.internic.net (198.49.45.10)
+ US West Coast: ftp.isi.edu     (128.9.0.32)
+
+ --------------------------------------------------
+ Telling the World Who You Are
+
+ As we have stated in other issues, the most requested file we have in
+ our collection is one containing a large number of humorous signatures.
+ In what might be a close runner-up, we now are pleased to announce the
+ availability of the "Signature and Finger FAQ" -- all you ever wanted to
+ know about these distinctively different ways to let people know the
+ REAL you.  Request it from chaos-request@pelican.cit.cornell.edu,
+ supplies are limited so act quickly!
+
+ --------------------------------------------------
+ Voyager - It's on the Internet
+
+ Through the usual set of bureaucratic red tape and finger pointing,
+ Ithaca, NY seems to be blessed with about 60-70 cable television
+ channels -- none of which carry the new Star Trek series.  We are not
+ limited to watching re-runs of the former series -- because Star Trek
+ Voyager is On The Internet!  Paramount pictures has gotten into the act
+ with Web pages containing sound clips and QuickTime movies -- point your
+ Web browser to http://voyager.paramount.com and start with your visit to
+ the holographic doctor.  Other Star Trek information can be found on the
+ Internet at http://www.ftms.com/vidiot.
+
+ --------------------------------------------------
+ A Few More Web Resources of Interest
+
+ For you weather freaks out there, it's great to have someone prepare an
+ annotated list of weather-related resources on the Internet.   Check out
+ http://www.eskimo.com/~jgriffin/weather.html for everything you might
+ want to know about the weather.  Having driven used Volvo cars for the
+ past 21 years (drive'em until they rust away is our motto), we will
+ point out that the Volvo home page on the Web (for the US and Canada, in
+ any case) is located at http://organic.com/Ads/Volvo.  See pictures of
+ the 1995 models and options and locate the nearest dealer.  Dr. Chaos
+ points out that we won't have any of these cars for at least 5 years,
+ but who knows -- one of you out there may be the first owner of the car
+ we eventually buy.  Take good care of it, OK?
+
+ --------------------------------------------------
+ Get your Free Subscription Here!
+
+ Just send a message to Dr. Chaos - chaos-request@pelican.cit.cornell.edu
+ and ask to be put on the subscription list.  From CompuServe, use the
+ address INTERNET:chaos-request@pelican.cit.cornell.edu.  It's that easy.
+ Don't delay ---- act now!
+
+ Dr. Chaos
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+                THE FINAL BREATHS OF THE AMERICAN DREAM
+           The Agonizing Demise Of The American Way Of Life
+
+ By Kenneth C. Stahl (kstahl@nr.infi.net)
+
+ About the author:  Kenneth C Stahl is a Phi Beta Kappa graduate of
+ Colorado State University with a B.A. in Speech Communication. He served
+ in the U.S. Navy for seven years and later spent 11 years with the Central
+ Intelligence Agency as a Telecommunications Officer and as a Computer
+ Systems Analyst Programmer, serving in both domestic and foreign
+ assignments.  He is currently working as a software consultant and lives
+ in Greensboro, North Carolina.
+
+ Most people are short-sighted.  They know little about history and are so
+ consumed with the every day affairs of their own lives that they never
+ really question whether they will have a future.  Sadly, any honest
+ appraisal of current trends in our society will reveal that any hope for a
+ better future is rapidly fading.  The American people are beginning to
+ suffer daily at the hands of a minority who will eventually enslave the
+ general populace.
+
+ There is a story told of an goldfish who spent it's days swimming to and
+ fro in its fish tank.  One day the owner of this fish decided that it was
+ a shame to waste all that water just so the goldfish could live
+ comfortably, so the owner removed a cup of water and told the fish that it
+ was really for its own good and that he would never miss the water.  The
+ goldfish didn't mind.  He didn't even really notice that his environment
+ had shrunken slightly.  Over the next few weeks the owner would
+ occasionally remove another cup of water - each time with the remark that
+ the goldfish really didn't need all of that water anyhow.  As the
+ goldfish's world became smaller, he noticed that he wasn't as free as he
+ once was and the water was now a bit more cloudy then it used to be, but
+ he could still swim back and forth in his tank without experiencing any
+ genuine discomfort.  The rate at which the water was being withdrawn was
+ so gradual that the goldfish never saw his own doom approaching.  One day,
+ the goldfish noticed that he now seemed to be spending all of his time at
+ the bottom of the tank next to the gravel.  He could no longer swim up and
+ down in the tank, but since he could still swim forward and to the right
+ and the left, he merely frowned and tried to make the best of his
+ situation.  At least he was still being fed every day, and the water was
+ still the right temperature.  Finally, however, the day came when the
+ owner removed a cup of water and the goldfish noticed that his dorsal
+ fin was exposed unless he stayed in just one small area of the tank where
+ there was a small depression in the gravel. He began to worry, but had to
+ be careful about how he moved around now.  He also noticed that he was
+ feeling more lethargic - primarily because the water could not hold
+ sufficient oxygen.  That night the heater was turned off in the tank, but
+ since it was winter and the tank sat near a heat vent, the goldfish just
+ remained still to conserve energy.  When dawn came the next day, the owner
+ removed one more cup of water and finally the goldfish saw his own doom
+ approaching.  Barely able to think clearly due to oxygen deprivation, he
+ yearned for the old days when the tank was filled to the top with clear,
+ sparkling water, but the memory of those days was quickly fading.  That
+ evening, the owner saw the goldfish lying on its side, its fins barely
+ moving.  He shrugged and turned out the light as he left the room.  In the
+ morning the goldfish was dead. He had been dying for a long time and had
+ not realized it.
+
+ So it is with the society that we live in today.  We do not recognize that
+ every so gradually our freedoms are being taken from us.  We desperately
+ hope that those who have the power in this country will have compassion on
+ us and we are too frightened of what they might do to us if we anger
+ them by being ungrateful for the few remaining freedoms that we still
+ posses.
+
+ Over two hundred years ago, the individuals who fought so desperately for
+ freedom from tyranny sought to create a country which was grounded in
+ principles of freedom.  Freedom from being told what they must believe,
+ where they must live and how they must think and act.  They had a
+ fundamental belief that if people were given freedom, they would not use
+ that freedom to create anarchy.  For two hundred years, the people of this
+ country demonstrated that the founders had not been mistaken.  Then,
+ suddenly, without warning, the first cup of water was removed.  We were
+ starting to die and we didn't even know it.
+
+ The evidence is before us.
+
+ Do people really understand the news that is being reported by the media?
+ Or do they simply perceive it as just another form of nightly
+ entertainment? Can anyone really listen to the stories and not be alarmed
+ by what they hear?
+
+ There is a movement to pass a constitutional amendment to put prayer back
+ in our public schools.  This seems to assume that prayer is not permitted
+ in our public schools. Is there anyone who really believes this? For
+ students who have been raised in a religious family and who frequently use
+ prayer in their personal lives, offering a prayer to God is a natural part
+ of their everyday existence. I doubt that there are very many who sneak
+ into a lonely corner, carefully check to see whether they were followed and
+ then keep one eye open while they silently bow their head to place their
+ petitions before God. This movement isn't about religious freedom - it
+ concerns efforts to force everyone to accept a notion of God that is held
+ by a few in the power elite who believe that if God has not intervened to
+ make everyone pray, then they must act as agents for God and coerce
+ religion with legislative force. The concept of silent of prayer that they
+ desire is decidedly a Christian version.  They certainly do not want
+ Muslims to bring their prayer rugs to public schools and face Mecca at the
+ prescribed hours.  They don't want followers of eastern religions to burn
+ incense before statues.  They want to demand that all students conform to
+ an overt religious practice that is almost totally unique to Christianity.
+
+ I, myself, am a Christian and believe very firmly in the Christian faith.
+ I stand by my beliefs based on my own understanding of God.  When I offer
+ prayers, it is because I want to come before my Creator and express my
+ concerns and ask for His guidance.  If anyone were to tell me that I must
+ bow my head in prayer at precisely 8:45 Monday through Friday, I would
+ view that as an attempt to control my religious expression.  What if
+ I didn't bow my head properly?  What if I didn't close my eyes?  What if
+ I were really thinking about the girl next door who I saw through an open
+ window the night before? Would the thought police come and arrest me
+ because I was not exhibiting proper respect for the Christian faith.  This
+ amendment is a bad idea.  It flies in the face of every principle upon
+ which our nation was founded.  The individuals who left their homes to
+ come to an unexplored land far from their families and familiar surrounds
+ often did so because they had lost the freedom to worship God in their
+ own way.  A constitutional amendment to put prayer back in our public
+ schools may sound like something very noble and worthy, but are the
+ American people really willing to pay the price for the eventual lawsuits
+ which will result from such a frivolous use of the Constitution?
+ Inevitably, someone will not exhibit the proper level of respect and
+ deference towards someone who will claim that their Constitutional right
+ to pray was hindered. The resultant lawsuit will mark the end of religious
+ tolerance in the United States.
+
+ There is also a belief by some that we need a constitutional amendment to
+ ban flag burning. What problem will this solve? How will the common
+ citizen of this country benefit from such an amendment? This movement
+ displays a gross ignorance about the role of the U.S. Constitution in
+ the framework of our country's judiciary system.  Flag burning will become
+ a political crime and we will soon begin to populate our prisons with
+ political prisoners.  Did someone kill the innocent daughter of a lowly
+ rural craftsman?  Yes, but the murderer was a victim of poor parentage and
+ was successfully reformed. Did someone burn a flag?  He has insulted the
+ entire country.  Such a crime must be dealt with severely or else no one
+ will ever have respect for the symbols of our country.  Has anyone stopped
+ their ravings long enough to remember that symbols are only physical
+ representations of the underlying object?  Burning a flag does little more
+ then demonstrate that the individual is so frustrated with society that a
+ symbolic act is performed which will certainly generate attention by the
+ media.  If the media were able to just walk away in silent disgust from
+ such obscene displays, flag burnings would lose their power to attract
+ attention. If there is a perceived need to protect the symbols of our
+ country, enact a public law to that effect.  A constitutional amendment
+ would only be seen by the world at large as a desperate act.
+
+ Why do lawmakers want to enact legislation as constitutional amendments?
+ The explanation is very simple but seems to evade many. If an amendment is
+ made to the constitution, the judiciary cannot declare the provision to be
+ unconstitutional since that would violate the principle of
+ constitutionality.   In other words, there is no effective JUDICIAL
+ challenge to any part of the constitution since it is the ostensible basis
+ for all other laws in our country. All judges, elected officials and
+ federal workers take an oath to uphold and defend the Constitution of the
+ United States.  Failure to do so is treasonous and seditious.  Once enacted
+ as a constitutional amendment, the only way to counteract the new amendment
+ is to pass another amendment.
+
+ In recent years we seem to have forgotten the origins of our country lie
+ in freedom.  Freedom of religion.  Freedom of expression.  Freedom from
+ tyranny.  Yet, today we are there are those who believe that this freedom
+ thing is out of hand.  They believe that because they hold certain
+ religious beliefs that others should be forced to hold those same beliefs.
+ They believe that an individual's freedom to disagree with the government
+ should be curtailed because it is dangerous to entertain certain ideas.
+ They would like to force subservience on the American people - all under
+ the guise of their own personal agendas.
+
+ Whether we like it or not, the America that many of us were raised to
+ believe in has already passed from the scene.  Everyone is afraid to
+ question the reductions in our freedoms lest even more is taken from us.
+ The only recourse is for the American people to take back their government
+ by forcing members of Congress and the President to act according to the
+ will of the people rather then on their own personal beliefs.  This is not
+ an option.  It must be done or else we will live to see our nation crumble
+ slowly and irreversibly.  If we do not, then eventually our laws won't even
+ be made by Congress - they will come in the form of demands from other
+ countries.  This is already on the horizon in the form of the threat that
+ Japan holds over our economy.  There was once a day when the Japanese yen
+ was compared to the U.S. dollar to indicate its relative strength rather
+ then the U.S. dollar being compared to the Japanese yen.  How long will it
+ take before Japan can demand that the United States lift all current
+ restrictions on Japanese goods coming into the United States?
+
+ There is one final item that I wish to mention.  The "most favored nation"
+ trade status for the People's Republic of China.  The American public has
+ no idea of why China has been given such status.  For years now,
+politicians stumping for election swear
+ that they will do whatever it takes to rescind the status of China as "most
+ favored nation".  Yet, once elected, they only mumble about how it is a
+ complicated issue.  There are reasons for China's status that are not being
+ told to the American people.  There are very good reasons why the
+ American public should demand a full accountability for this policy despite
+ China's almost total disregard for human rights.  Believe me when I
+ say that the American people really NEED to demand answers on this issue
+ and that they should start a drive to recall every Congressman until we
+ can put those in place who will tell the American people the real reason
+ for this policy.  This is not another GATT or NAFTA type of issue.  There
+ is far more to it then that.
+
+ Do I see any hope at all?  Unfortunately, no.  Complacency is deeply rooted
+ in our society.  We simply do not speak out and we willingly re-elect
+ officials whom we cannot trust to represent the interests of the American
+ people.  The decline has started.  How many years it will be until the
+ world can hear the death rattle of the final breaths of the United States
+as an independent nation can only be
+ guessed. But, unless the American people once again take destiny into their
+ own hands, the demise of our nation is virtually guaranteed.  And the day
+ the American flag is lowered for the last time, will be a sad one indeed.
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+          WIRED WAR TALES: Scientology and the Scorched Internet
+
+ By Carl Guderian (bjacques@usis.com)
+
+ (WARNING! This piece does not even approach objective journalism. It is a
+ sarcastic essay on a skirmish on a particular usenet newsgroup)
+
+ Toss the TV, yank the cable and go online for a ringside seat at the Wired
+ Wars. Among the 6,000 or so usenet newsgroups, about a dozen skirmishes are
+ raging at any given time, fueled by the pent-up energies of shut-ins,
+ insomniac college students, and other disgruntled cybercitizens. Flame wars
+ are the perfect arena for quick-witted geeks who long ago despaired of
+ winning fistfights. They're a lot like the old Star Trek episode in which
+ wars were fought by computer, except you don't have to report for
+ disintegration when your side loses. For lurkers, they deliver more
+ vicarious thrills than a Sweeps Month of Melrose Place. Wars can erupt
+ anytime, anywhere, even on the supermajority of peaceful newsgroups.  Most
+ are low-intensity conflicts, verbal potshots desultorily hurled between
+ bored students. A few melt the screen, such as the ongoing battle between
+ Scientologists and everyone else. Some newsgroups promise a few thrills,
+ but the hottest of zones is alt.religion.scientology, where the prose
+ explodes like a Claymore in a Vietnam flashback. So, press "Enter" and let
+ slip the dogs of flame!
+
+ The easiest place to pick a fight is on any newsgroup whose name includes
+ guns, politics, religion, a Sunbelt state, or alt.fan.currently
+ (in)famous-politician. It's axiomatic that idiots have invaded the Internet,
+ shipped here in steerage by certain major carriers. If you can't get enough
+ of their noxious opinions on syndicated hate radio you can log on and see
+ them in text. Hommasexshuls, free luv, and liberal media get their
+ comeuppance here, while the rest of the world wonder aloud why Americans
+ are allowed to run loose. It's better than talk radio, since there's no
+ DJ dominating the forum. A lot of jokers "troll," pretending to hold
+ extreme opinions that drive some to apoplectic rage and others to agreement.
+ There is no position so stupid that it won't find support here. But after
+ a while, the nonsense all starts to sound the same and it's time to move
+ on to the harder stuff.
+
+ Closer to reality are the soc.culture.[any two countries at war] newsgroups.
+ A few months ago, Peru and Ecuador brought their little squabble online
+ with rival World Wide Web pages. Serbs and Croats, too, continually denounce
+ each other's outrages while denying or defending their own. When the
+ atrocities are well-documented and casualty figures available, the
+ partisans fight over where to put the commas. It's a nice reminder that
+ Americans are not history's only bastards. But after a few requests for the
+ whereabouts of ethnically-cleansed relatives, the fun quickly evaporates out
+ of lurking around, much less posting. And chances are, you haven't survived
+ enough carnage to earn the moral right to post. If, like Kurtz, you feel
+ a need to make a friend of horror, you can find plenty of horrible friends
+ here. If you can keep this kind of company (and can read other languages),
+ these newsgroups are for you. If not, mentally wish luck to the side you
+ dislike least, then take a shower and a quick exit.
+
+ The most enjoyable battles are those fought over things that matter not a
+ whit in the real world. Religious arguments, as mentioned above, are hugely
+ entertaining to those who consider blasphemy a victimless crime.
+ Skip alt.religion.[mainstream denomination] unless you went to parochial
+ school and still need to deal with unquiet holy ghosts. For that you can go
+ rent "The Boys of St. Vincent's." Take a sideways turn instead to
+ alt.religion.scientology, locus of a jihad declared against the Church of
+ Scientology by former members, adherents of the cheerfully wacky Church of
+ the Subgenius, and others who can't pass up a good brawl. Whatever fluid
+ leaks out of punctured egos, the virtual fields of a.r.s are awash in it.
+ Odd insults that provoke bemusement elsewhere slash deeply here. A little
+ background in Scientology history and lore may help the newcomer to
+ understand them.
+
+ The Church of Scientology is a global organization devoted to promulgating
+ the teachings of the late L. Ron Hubbard, a onetime pulp science fiction
+ writer. Scientology is a sort of human potential movement with
+ appropriately opaque jargon and science-fiction trappings. There is a
+ nautical flavor to it, as Hubbard made a lot of his short stint in the U.S.
+ Navy during World War II. The "Synthiotics" movement depicted in the 1993
+ TV miniseries "Wild Palms" owes a lot to latter-day Scientology. Many
+ prominent persons are proud to call themselves Scientologists, among them
+ actress Karen Black, eternally beloved of badfilm fans for her role in the
+ Rending Juju Doll segment of "Trilogy of Terror." So are Tom Cruise and
+ John Travolta. Musical Scientologists Chick Corea and Nicky Hopkins
+ contributed to "Space Jazz," a concept album produced as a soundtrack to
+ Hubbard's sci-fi novel "Battlefield Earth." The innocuous jazz-pop and
+ simple lyrics recall "The Ultimate Fantasy," a Seventies-era Star Trek
+ musical that helped die-hard Trekkies (Trekkers? Trekkists?) fill their
+ lives before the movies came out.
+
+ Beneath the dorky theology, however, there beats a sinister heart. Almost
+ since its inception in the 1950s, the Church has allegedly involved itself
+ in murky financial dealings, harassment, and general bad craziness.
+ Ex-members have successfully sued the organization for mental and financial
+ abuse. Much of this is documented in two books: Barefaced Messiah: The True
+ Story of L. Ron Hubbard, by Russell Miller and Religion, Inc., by Stewart
+ Lamont. These are not friendly accounts, but they are well-researched,
+ drawing from U.S. government documents released under the Freedom of
+ Information Act, and from Hubbard's own books and personal papers. CoS
+ tactics are directly responsible for its spotty reputation and for the
+ online imbroglio in which it finds itself today.
+
+ The war started last winter after the CoS sued a former member for posting
+ it's secrets to the Internet. Dennis Erlich was a high-ranking officer of
+ an "Org," a branch of the Church bureaucracy. His job was to memorize
+ Church policy and dogma and help members cram for examinations as they
+ climbed the ladder to Clearness. Erlich quit over CoS tactics and denounced
+ them on a.r.s, posting damning excerpts from Church documents to back
+ him up. The CoS responded by having Erlich's computer seized and making
+ Erlich travel hundreds of miles to defend himself against a copyright
+ lawsuit. Unable to afford a lawyer, Erlich is defending himself on grounds
+ of fair use and appears to be successful. If he wins, he will probably
+ countersue for harassment.
+
+ The Church of Scientology has employed other tactics perfectly suited for
+ making enemies on the Internet. It has sued Internet providers in attempts
+ to silence detractors. The Church got the government of Finland to
+ compromise anon.penet.fi, the world's largest anonymous remailer, forcing
+ the sysop to hand over the identity of an anonymous detractor.
+ Scientologists have allegedly used a program called CancelMoose (tm) to
+ delete unfriendly posts from a.r.s, possibly violating U.S. federal laws
+ against destruction of electronic data. The CoS threatens to sue everybody,
+ but mostly goes after Time Magazine and former members who have gone public.
+ At this rate, the CoS may soon become more unpopular than Canter & Siegel,
+ the "green card" lawyers who last year blanketed ("spammed") the Internet
+ with ads for immigration assistance.
+
+ In the other corner, the Rebel Alliance. Along with former members like
+ Mr. Erlich, a.r.s is home to many overeducated, underemployed, dangerously
+ bored college-age Internet surfers. It's no surprise that many belong to
+ the Church of the Subgenius or some Discordian cabal, and post regularly
+ to alt.slack, alt.usenet.kooks, or similar newsgroups. On those newsgroups,
+ the Subgenii and Discordians are often self-referential and precious, but
+ on a.r.s they shine like black opals in blancmange.
+
+ Pressing the counterattack, the RA (Hubbard would have approved of such
+ hastily-coined acronyms) posts strange insults, disturbing doctrinal
+ questions, and reports of the doings of various CoS officials. One group
+ is looking for David Miscavige, Hubbard's apparent heir to the CoS empire.
+ Miscavige has disappeared after allegedly shifting church funds around to
+ avoid paying off a court judgment. A group calling itself *Biased
+ Journalism*, reports on the progress of the CoS lawsuit against Erlich,
+ recounting a tale of Scientologists trying to cast the evil eye on the
+ defendant and his supporters, to the amusement of the latter. Still others
+ have posted CoS documents that are part of court records and thus no longer
+ subject to CoS copyright.
+
+ The two taunts most often seen on a.r.s are "Rice and Beans!!" and "Snap!
+ Snap! Poor little clams!" The former refers to punishment rations imposed
+ on errant Scientologists for sins like drug use and not raising enough
+ money for the Org. The latter is derived from CoS dogma, which holds that
+ people are descended from clams that had trouble opening and closing to
+ feed from the tide. Each action was a struggle between conflicting sets of
+ muscles, with the weaker set always losing to the stronger set and passing
+ along its frustration to us as genetic memory. In the present, one can
+ induce cramping of jaw muscles in another by saying the above phrase and
+ opening and closing one's hand like a flapping mouth. Since man didn't
+ evolve from clams, this theory doesn't hold much water, ha ha, but it might
+ work on a Scientologist.
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+                   THE INTERNET ADDICTION SUPPORT GROUP
+
+ By Ivan Goldberg (psydoc@netcom.com)
+
+  [This is not real...from what I understand from the author of this
+  message.  It was created for good fun.  However, I do know some people
+  who would benefit from such an organization...  -Editor]
+
+ As the incidence and prevalence of Internet Addiction Disorder (IAD) has
+ been increasing exponentially, a support group. The Internet Addiction
+ Support Group  (IASG) has been established.  Below are the official
+ criteria for the diagnosis of IAD and subscription information for the
+ IASG.
+
+
+          Internet Addiction Disorder (IAD) - Diagnostic Criteria
+
+ A maladaptive pattern of Internet use, leading to clinically significant
+ impairment or distress as manifested by three (or more) of the following,
+ occurring at any time in the same 12-month period:
+
+ (I) tolerance, as defined by either of the following:
+
+         (A) A need for markedly increased amounts of time
+             on Internet to achieve satisfaction
+
+         (B) markedly diminished effect with continued use
+             of the same amount of time on Internet
+
+ (II) withdrawal, as manifested by either of the following
+
+         (A) the characteristic withdrawal syndrome
+
+                 (1) Cessation of (or reduction) in Internet use
+                      that has been heavy and prolonged.
+
+                 (2) Two (or more) of the following, developing within
+                     several days to a month after Criterion 1:
+
+                         (a) psychomotor agitation
+                         (b) anxiety
+                         (c) obsessive thinking about what is happening
+                             on Internet
+                         (d) fantasies or dreams about Internet
+                         (e) voluntary or involuntary typing movements
+                             of the fingers
+
+                 (3) The symptoms in Criterion B cause distress or
+                     impairment in social, occupational or other important
+                     other area of functioning
+
+         (B) Use of Internet or a similar on-line service is engaged in
+             to relieve or avoid withdrawal symptoms
+
+ (III) Internet is often accessed more often or for longer periods of time
+       than was intended
+
+ (IV) There is a persistent desire or unsuccessful efforts to cut down
+      or control Internet use
+
+ (V) A great deal of time is spent in activities related to Internet
+     use (e.g., buying Internet books, trying out new WWW browsers,
+     researching Internet vendors, organizing files of downloaded materials
+
+ (VI) Important social, occupational, or recreational activities are
+      given up or reduced because of Internet use.
+
+ (VII) Internet use is continued despite knowledge of having a persistent
+       or recurrent physical, social, occupational, or psychological
+ problem
+       that is likely to been caused or exacerbated by Internet use (sleep
+       deprivation, marital difficulties, lateness for early morning
+       appointments, neglect of occupational duties, or  feelings of
+       abandonment in significant others)
+
+ Subscribe to the Internet Addiction Support Group by e-mail:
+
+                 Address: listserv@netcom.com
+                 Subject:  (leave blank)
+                 Message: Subscribe internet-addiction-support-group
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+             INTERACTIVE IMAGINATIONS LAUNCHES RIDDLER(tm)
+          World Wide Web Gaming Environment Offers Cash Prizes
+
+ By Honey Essman (stracom@ingress.com)
+
+ NEW YORK, April 5 -- Interactive Imaginations Inc.,  the New York-based
+ interactive entertainment company,  today launched  Riddler,  the first
+ interactive gaming environment on the Internet to offer cash prizes to
+ players. Riddler can be accessed on the World Wide Web at
+ http://www.riddler.com.
+
+ Riddler combines elements of trivia, scavenger hunts and an online road
+ rallye through the Web to present an interactive gaming format unique to
+ the medium.   Each game begins with the posting of a riddle and a prize of
+ $500 for the first to solve it.  Although players may attempt to solve the
+ riddle immediately,  it is likely that they will need the additional clues
+ that they can earn -- by playing trivia and finding secret keywords hidden
+ on other Web pages -- as they progress through the game.
+
+ The Riddler Home Page also provides players with the opportunity to
+ compete for cash prizes in two additional contests.  Crispy Challengeô is
+ a daily puzzle with a $100 prize.  The Tortoise and the Hare is an ongoing
+ contest, offering a $1,000 prize to the first player to accumulate 25,000
+ points.  Points are awarded both for winning games and for progress
+ through Riddler.
+
+ Although players must fill out a registration form and verify that they
+ are 18 years old,  Riddler is sponsor-supported and there are no
+ registration, membership or hourly charges.
+
+ Announcing the launch, Interactive Imaginations president Michael
+ Paolucci,  said, "Our vision is to become the preeminent entertainment
+ company programming for the World Wide Web.  That means providing the
+ consumer with more than just an entertaining page,  and a lot more than
+ the vicarious involvement they have with game show contestants on
+ television.
+
+ "Riddler is fun, challenging and very much in tune with the culture and
+ ethic of the Web.   And, every player has a real chance to win
+ considerable prize money."
+
+ Riddler's $500 opening prize is increased by $100 every day for the next
+ five days that the riddle remains unsolved.  On the seventh day,  the
+ prize is increased by an additional $500,  for a total of $1,500.  If the
+ riddle remains unsolved after a week,  a new riddle is posted and the
+ unclaimed prize money rolls over to become the opening prize in the new
+ game.
+
+ Players seeking clues to help them solve Riddler select a trivia category
+ -- such as music,  movies, science  or famous ad slogans -- which links
+ them to a sponsor's web page where a Riddler icon is located.  Clicking on
+ the icon takes the player to a round of four trivia questions in the
+ selected category.  For each correct answer,  the player will  receive a
+ hint  that points to a  page out on the Web where a keyword is hidden.
+ Keywords can be exchanged for clues to the riddle.  There are four rounds
+ of successively more difficult trivia questions -- and four keywords
+ hidden out on the Web -- in each game of Riddler.
+
+ "Feedback from our recent beta tests," said Paolucci, "told us that
+ players not only enjoyed the challenge,  but really liked the fact that
+ the game plays out on a variety of Web sites -- it gave them the
+ opportunity to explore the Web and search out  new and interesting sites
+ as they attempted to solve the riddles."
+
+ If Riddler is solved within a week,  the game continues for another
+ 24-hours so that players can continue to amass points towards the 25,000
+ point goal of The Tortoise and the Hare.
+
+ "With the convergence of entertainment technologies and the rapid
+ development of increasingly sophisticated interactive multimedia
+ capabilities on the Internet," said Paolucci,  "we believe that the
+ personal computer can emerge as the hardware choice for  consumer
+ entertainment.  The determining factor will be entertainment programming.
+ Interactive Imaginations'  goal is to create the kind of unique
+ programming on the Web that has real entertainment value for the
+ consumer."
+
+ FOR ADDITIONAL INFORMATION CONTACT:
+         Internet:       stracom@ingress.com
+         Voice:          Peggy Berk @ 212-779-7240
+
+                         #          #          #
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                     USPS TO OFFER EMAIL CRYPTO
+
+ INTRO
+
+ This is a "trip report" of sorts. Thursday (4/6/95) evening I attended
+ a Smart Valley sponsored talk at Rickey's Hyatt by the VP of Advanced
+ Technology at the US Postal Service, Bob Reissler (sp?) and by the
+ technical architect, Richard Rothwell. The purpose of the talk was to
+ give USPS an opportunity to present their plans for "electronic mail
+ and electronic commerce for the general population".
+
+ I was the only one from Sun there as far as I could tell. There was a
+ big contingent of people from HP, Apple and some IBMers, many
+ one-person companies and startups, some trainers and educators and many
+ unaffiliated individuals - a total of about 150 people attended,
+ standing room only.
+
+ OVERVIEW
+
+ Mr Rothwell's talk was the more substantive and interesting among the
+ two.  He presented USPS's plans for offering electronic access to their
+ email delivery system to the 80 million US households and businesses
+ that are currently not reached by online service providers or the
+ Internet. After his talk, Mr Rothwell presented a short video on how
+ they intend to educate their customers on the new product, and another
+ USPS employee demoed the client side of their system online. Their
+ client side system works under Windows 3.1 with MS Mail and Lotus
+ Notes.
+
+ Overall points to note: They are very concerned about privacy. They do
+ not want to be in the business of managing or issuing escrowed
+ key-pairs. They are very concerned about the new possibilities for
+ abuse of privacy that become available when public keys and identity
+ certificates are widely used (I didn't understand this part - what
+ would these oppties be?). They are interested in working with whoever
+ cares to make the US Govt and legislative branch relax the rules about
+ using crypto and the export controls. They are working on a system that
+ works globally, and active collaboration with other postal services is
+ high on their agenda.  Canada and European services were mentioned
+ several times.
+
+ TECHNICAL POINTS
+
+ The system they are building is based on a transliteration of the basic
+ principles that make hardcopy mail work today, into the electronic world:
+
+ Stamp                   -> Digital Signature+digital money
+ Privace (envelope)      -> Encryption
+ Dating+location         -> Per-client digital time stamp (dts)
+ Identity (signature)    -> Digital signature (ds)
+
+ In regular hardcopy mail, the stamp proves that you paid and provides a
+ guarantee that the postal service will deliver your hardcopy. The
+ envelope provides privacy and is protected by privacy laws from
+ tampering. The dating is provided by the cancellation on the stamp. The
+ location is provided by each post office having its own cancellation
+ label with its name and serial number listed. The identity is provided
+ by the signature of the sender on the hardcopy stored within the sealed
+ envelope carrying the cancelled stamp.
+
+ The postal service will offer:
+
+ - An electronic mechanism for stamping a message and adding a dts so that
+   it proves payment and dates the message
+ - Registered mail equivalent where the message gets signed by the USPS
+   private key and the signature is returned to sender
+ - Mechanisms for managing public keys (see below - no escrow)
+ - Certificate mechanisms (see below - no escrow)
+ - Archival services for both messages, certificates and message signatures
+
+ In their new system, the "stamp" will be replaced by a digital
+ signature on a receipt returned to the sender and archived by the
+ service. The receipt will contain "enough bits to track the message
+ through the system" (his words). The service replaces the traditional
+ envelope with encryption: it accepts messages that are already
+ encrypted and it will also offer RSA public key encryption as a
+ service. Dating is achieved by adding a dts plus a digital signature
+ identifying the client from which the message was received (if desire)
+ or a more generic signature. Finally the service offers extensive
+ mechanisms for corporate and individual public key management and
+ certification with various levels of identity checking, all the way
+ from biometrics based to a simple send-in-by-mail "under penalty of
+ perjury I hereby certify that I am Jacob Levy and this key is my public
+ key".  The service also offers a certificate and public key lookup
+ service based on an ISO 509 standard (?) without a publishing database,
+ i.e.  modelled after the "Moscow city phonebook" (his words). The idea
+ is you can get anyone's public key if you know who they are but you
+ cannot harvest the phone book for, e.g., all postal employees living in
+ San Mateo (apparently they are concerned about e-mail bombs :).
+
+ Some new services that he talked about:
+
+ - Receipt notification through the equivalent of "sign here to receive
+   your package" and delivery of the signed receipt back to the sender
+ - "Bonded mail" which as far as I could tell includes archival and
+   delivery upon the occurrence of an event specified by the sender.
+   He called this "Forever mail", i.e. you send something which is
+   potentially never delivered, and he noted that this is already a
+   service offered by the current USPS (many laughs..) and so it should
+   be offered in the new system, in the interest of preserving their
+   current product offerings (more laughs).
+ - Automatic tamper-proofing through the addition of a USPS generated
+   signature that notarizes the text of your message.
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+               FIRST INTERNET TV SERIES PREMIERES THIS WEEK
+    On-demand video arrives in the homes of 'Net Surfers around the globe
+
+ Experts have long agreed that the TV of the future will more
+ closely resemble the Internet than TV "as we know it." Specifically,
+ beyond 500 channels will be NO channels, just databases, from
+ which viewers may download and watch whatever they want,
+ whenever they want.
+
+      This week, the future arrives...on your desktop.
+
+ A public-access TV program based in Bloomington, Indiana,  will become
+ the world's first on-demand Internet TV series, beginning Tuesday. ROX,
+ "a nutty, bohemian blast of irreverence and imagination" (Indianapolis
+ Star), will be available to computer users around the world--twenty-four
+ hours a day, seven days a week, via the World Wide Web.
+
+ "We've been working toward this event for about a year and a half," says
+ ROX co-producer Joe Nickell. "When I found out we were gonna premiere this
+ month, I was so happy I nearly spilled my beer."
+
+ Over the course of three years on public access, ROX has earned regional
+ and national recognition for its wacky humor and cutting-edge style. The
+ program has been featured on MTV Music Television, the Howard Stern Show,
+ VideoMaker, the Gary Myers Show (Chicago), and in virtually every print
+ and broadcast medium in Indiana.
+
+ "ROX focuses on the trials and tribulations of a roving band of
+ mid-twenties hedonists," explains Nickell. "It's improvisational, reality
+ based...kind of like *Friends* in *MTV's Real World*, trying to avoid the
+ *Cops*."
+
+ On Tuesday, April 18, ROX episode 85, titled "Global Village Idiots," will
+ premiere on the ROX Quarry (http://www.rox.com/quarry/). Featuring
+ mixed-drink recipes, full-frontal nudity, neural digitizers and
+ frog-gigging, the thirty-minute episode of ROX will pioneer a new form of
+ entertainment: hyper-television.
+
+ ROX Editor Bart Everson explains: "most TV shows present you with a linear
+ stream of information. If you don't want to see the opening credits...too
+ bad. 'Global Village Idiots' will be different, because it will allow
+ people to download and view the different sections of the show in whatever
+ order they wish. It is non-linear, or hyper-textual."
+
+ After the premiere of "Global Village Idiots" on the Net, a new ROX episode
+ will become available on a weekly basis.  "The ROX Quarry will be a
+ multi-media cabaret of fun and information," says Nickell. "People will
+ find everything from still images and video, to interactive drinking
+ games. And there's something new every week."
+
+ For more information, or to join the RoxList e-mail list, contact ROX at
+ <rox@rox.com>.
+
+ ****FACTS on the ROX****
+
+ J, Joe Nickell, a native of Kentucky, came to Indiana in 1987 with high
+ hopes of becoming a classical timpanist. He lost the hopes very quickly,
+ but has remained high ever since. Joe graduated Phi Beta Kappa from
+ Indiana University in 1991, in Anthropology and English; upon graduation
+ his parents gave him his first video camera. Freshly inspired and
+ typically tipsy, Joe promptly dropped out of society and became the
+ blabbering Bartender and co-producer of Rox.
+
+ B, Bart Everson, 28, was raised in a shopping mall in Greenwood,
+ Indiana. While squandering his parents' money at Indiana University,
+ Everson was arrested twice, for Public Indecency and Conversion. After
+ completing his public restitution at the local cable access station,
+ Everson decided to pursue a career in television. Editing Rox is now his
+ full-time job.
+
+ ROX is a weekly cable access TV show which airs every Tuesday night
+ at 11 pm on Bloomington (IN) Community Access Television, and every
+ Wednesday at 4 pm and Thursday at 5 pm on the Indianapolis
+ Community Access Network.
+
+ ROX reaches computer users around the world via the ROX Quarry,
+ on the world-wide web (http://www.rox.com/quarry/). Rox is a
+ reality-based program which endeavors to hold up a mirror to the
+ community of Bloomington.
+
+  Number of Episodes produced to date: 85
+  First episode aired: July, 1992
+
+ *Awards & Honors*
+
+ In addition to the following awards, Rox has been honored by profiles and
+ features on MTV Music Television, The Howard Stern Show, NUVO
+ Newsweekly, Bloomington Confidential and virtually every central-
+ Indiana print publication, TV station and radio station.
+ *Citation Award, Indiana Film Society 1994 Film & Video Barbecue
+ *Finalist, 1994 Hometown Video Competition, sponsored by the Alliance for
+      Community Media
+ *Best Local Television Show, 1994, 1993 and 1992 Best of Bloomington
+      Reader Survey, Bloomington Voice
+ *Favorite Local Celebrities, 1993 Best of Bloomington Reader Survey,
+      Bloomington Voice
+ *Best of Show & Best Independent/Experimental production, Indiana Film
+      Society 1993 Film & Video Barbecue
+
+ *Hot off the presses*
+
+ "What Hunter S. Thompson did for--or to--journalism, these guys are doing
+ to television."
+  --The Ryder
+
+ "At once a revealing slacker diary and satiric tour-de-farce of the
+ Bohemian lifestyle...Their language is satire, subterfuge, subjectivity,
+ and a refreshing dose of self-deprecation."
+  -- NUVO Newsweekly
+
+ "These Funky Young Cyclops of the Small Screen steep into our
+ consciousness like a big jar of sun tea. Slowly, we have grown to
+ know these guys...Generally, television has usurped the fire we once
+ gathered around, supplanting tribal consciousness with fragments of
+ individuality...J&B are handing the fire back to us--or at least the
+ firewater."
+  -- Bloomington Voice
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+                      Talent Communications, Inc.
+                             ANNOUNCES:
+          I-Comm -- Full Feature WWW Browser Without SLIP/PPP
+
+ WHAT IS I-Comm ?
+
+   I-Comm is a full feature graphical World Wide Web browser
+   with full modem communication functionality. Designed
+   specially for modem computer users, I-Comm does NOT require
+   any kind of SLIP/PPP connections.
+
+   I-Comm is going to be released as a shareware.
+
+
+ HOW TO OBTAIN A COPY OF I-Comm ?
+
+   The current version of I-Comm is 1.00 Beta. Your
+   feedbacks are welcome.
+   You can download it from one of the following ftp sites:
+
+   Netcom ftp site:
+       ftp://ftp.netcom.com/pub/ic/icomm/icom100b.zip
+
+   Best Internet ftp site:
+       ftp://ftp.best.com/pub/icomm/icom100b.zip
+
+
+ KEY FEATURES:
+
+   * Does NOT require any kind of SLIP/PPP connections
+   * Support forms
+   * Smart agent to do batch file download
+   * Support HTTP, FTP and Gopher protocol
+   * Allow user to view HTML text while background
+     downloading image
+   * Multi-level smart local disk document and image caching
+   * Built-in modem communication capabilities
+   * Build-in sound player
+   * Web resource index which comes with the package makes
+     surfing easier
+   * Hot site facility allows user to save favorite WWW sites
+   * Phone book facility allows user to save Internet
+     dial-up numbers
+
+
+ MINIMUM SYSTEM REQUIREMENTS:
+
+   * 386dx running MS-Windows (tm) 3.1 or later
+   * 4MB Memory and 1MB Disk Space
+   * 9.6 KB Modem or faster
+   * An UNIX shell account with Internet access
+
+
+ INTERNET SHELL ACCOUNT SETUP REQUIREMENTS:
+
+   * Z-Modem transfer program "sz" installed in your search
+     path
+   * One of following program installed in your search path:
+       . icomhost program from Talent Communications, Inc.
+       . Lynx browser
+       . CERN WWW line mode browser
+
+
+ WHY I-Comm -- FOR INTERNET SERVICES PROVIDERS:
+
+   * Smart multi-level disk caching to save your bandwidth
+   * Easy to setup on Internet host machine (add Web surfing
+     to your shell account service in weeks)
+   * Easy to install on your customer's PC (only 3 minutes)
+   * Very small(~600K), can be easily distributed to your
+     potential customers
+   * Good internal design for extensibility and portability
+
+
+ HOW TO REACH US:
+
+   * Web: http://www.best.com/~icomm/icomm.htm
+   * E-Mail: icomm@best.com
+   * News: comp.infosystems.www.users
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

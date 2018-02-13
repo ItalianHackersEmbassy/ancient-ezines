@@ -1,0 +1,134 @@
+;------- ------  -----   ----   ------ --------  -- ---   -
+; RCN Theme Pack Vol. 2  -  RCN Black Theme (Pirate) 
+;------- ------  -----   ----   ------ --------  -- ---   -
+;
+;       er  zd$$$$L       zee$$                            
+;       $$$$$P" .$$     $$$$$$$  .$b.    .ed$$             
+;          'R$  z$$L    $$"   $$.  "$$b z$$$$P"            
+;           A$e$$$$$$  $$%    3$F   ^$$$$P"4$$             
+;           V$$P   $$  $$         .  $$$$b  $$             
+;           A$F    $$  $$        J$P $$F"$$b$$             
+;           N$F . J$P  $$.      d$$  4$L  "$$$             
+;           J$$$$$$$   '$$c  .e$$P   4$$                   
+;        .$$$P"  d$F   .^*$$$$$*     J$$$$$                
+;        ^*"    4$$.ee$$$          .$$$P"                  
+;               *$$$$$*"           '$"                     
+;
+;                 w w w . r c n . o r g                    
+;
+;------- ------  -----   ----   ------ --------  -- ---   -
+;  CREDIT - Ravan         Modified WallPaper
+;           Ravan         Treasure Chest Icons
+;------- ------  -----   ----   ------ --------  -- ---   -
+
+
+
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%ThemeDir%rcn-blk\icons\MyCpu.ico
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+full=%ThemeDir%rcn-blk\icons\Full.ico
+empty=%ThemeDir%rcn-blk\icons\Empty.ico
+
+
+[Control Panel\Cursors]
+Arrow=%ThemeDir%rcn-blk\cursors\Arrow.cur
+Help=%ThemeDir%rcn-blk\cursors\Help.cur
+AppStarting=%ThemeDir%rcn-blk\cursors\AppStarting.ani
+Wait=%ThemeDir%rcn-blk\cursors\wait.ani
+NWPen=%ThemeDir%rcn-blk\cursors\Pen.cur
+No=%ThemeDir%rcn-blk\cursors\no.ani
+SizeNS=%ThemeDir%rcn-blk\cursors\Size NS.cur
+SizeWE=%ThemeDir%rcn-blk\cursors\Size WE.cur
+Crosshair=%ThemeDir%rcn-blk\cursors\Cross.cur
+IBeam=%ThemeDir%rcn-blk\cursors\Beam.cur
+SizeNWSE=%ThemeDir%rcn-blk\cursors\Size NESW.cur
+SizeNESW=%ThemeDir%rcn-blk\cursors\Size NWSE.cur
+SizeAll=%ThemeDir%rcn-blk\cursors\Move.cur
+UpArrow=
+DefaultValue=Windows default
+
+
+[Control Panel\Desktop]
+Wallpaper=%ThemeDir%rcn-blk\wall.jpg
+Pattern=
+TileWallpaper=0
+WallpaperStyle=0
+ScreenSaveActive=1
+
+
+[Control Panel\Colors]
+ActiveTitle=0 0 0
+Background=0 0 0
+Hilight=0 0 0
+HilightText=255 255 255
+TitleText=255 255 255
+Window=255 255 255
+WindowText=0 0 0
+Scrollbar=192 192 192
+InactiveTitle=80 84 80
+Menu=128 128 128
+WindowFrame=0 0 0
+MenuText=0 0 0
+ActiveBorder=128 128 128
+InactiveBorder=128 128 128
+AppWorkspace=83 83 83
+ButtonFace=128 128 128
+ButtonShadow=80 84 80
+GrayText=80 84 80
+ButtonText=0 0 0
+InactiveTitleText=192 192 192
+ButtonHilight=192 192 192
+ButtonDkShadow=0 0 0
+ButtonLight=128 128 128
+InfoText=0 0 0
+InfoWindow=255 255 225
+
+
+[AppEvents\Schemes\Apps\.Default\.Default\.Current]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\AppGPFault\.Current]
+DefaultValue=%ThemeDir%rcn-blk\sounds\ProgErr.wav
+[AppEvents\Schemes\Apps\.Default\Maximize\.Current]
+DefaultValue=%ThemeDir%rcn-blk\sounds\Maximize.wav
+[AppEvents\Schemes\Apps\.Default\MenuCommand\.Current]
+DefaultValue=%ThemeDir%rcn-blk\sounds\MenuCnd.wav
+[AppEvents\Schemes\Apps\.Default\MenuPopup\.Current]
+DefaultValue=%ThemeDir%rcn-blk\sounds\MenuPup.wav
+[AppEvents\Schemes\Apps\.Default\Minimize\.Current]
+DefaultValue=%ThemeDir%rcn-blk\sounds\Minimize.wav
+[AppEvents\Schemes\Apps\.Default\Open\.Current]
+DefaultValue=%ThemeDir%rcn-blk\sounds\OpenProg.wav
+[AppEvents\Schemes\Apps\.Default\Close\.Current]
+DefaultValue= 
+[AppEvents\Schemes\Apps\.Default\RestoreDown\.Current]
+DefaultValue= 
+[AppEvents\Schemes\Apps\.Default\RestoreUp\.Current]
+DefaultValue= 
+[AppEvents\Schemes\Apps\.Default\RingIn\.Current]
+DefaultValue= 
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk\.Current]
+DefaultValue= 
+[AppEvents\Schemes\Apps\.Default\SystemDefault\.Current]
+DefaultValue= 
+[AppEvents\Schemes\Apps\.Default\SystemExclamation\.Current]
+DefaultValue=%ThemeDir%rcn-blk\sounds\Exclamation.wav
+[AppEvents\Schemes\Apps\.Default\SystemExit\.Current]
+DefaultValue=%ThemeDir%rcn-blk\sounds\ExitWin.wav
+[AppEvents\Schemes\Apps\.Default\SystemHand\.Current]
+DefaultValue=%ThemeDir%rcn-blk\sounds\Critical.wav
+[AppEvents\Schemes\Apps\.Default\SystemQuestion\.Current]
+DefaultValue=%ThemeDir%rcn-blk\sounds\Question.wav
+[AppEvents\Schemes\Apps\.Default\SystemStart\.Current]
+DefaultValue=%ThemeDir%rcn-blk\sounds\StartWin.wav
+[AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin\.Current]
+DefaultValue=%ThemeDir%rcn-blk\sounds\Empty.wav
+
+
+[Metrics]
+IconMetrics=76 0 0 0 94 0 0 0 94 0 0 0 1 0 0 0 246 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 77 83 32 83 97 110 115 32 83 101 114 105 102 0 111 119 115 32 83 116 97 114 116 46 87 65 86 0 97 114 116 46
+NonclientMetrics=84 1 0 0 1 0 0 0 23 0 0 0 23 0 0 0 20 0 0 0 20 0 0 0 243 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 188 2 0 0 0 0 0 0 0 0 0 0 77 83 32 83 97 110 115 32 83 101 114 105 102 0 39 115 32 68 101 102 97 117 108 116 46 84 104 101 109 101 0 0 19 0 0 0 19 0 0 0 249 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 77 83 32 83 97 110 115 32 83 101 114 105 102 0 39 115 32 68 101 102 97 117 108 116 46 84 104 101 109 101 0 0 23 0 0 0 23 0 0 0 243 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 77 83 32 83 97 110 115 32 83 101 114 105 102 0 39 115 32 68 101 102 97 117 108 116 46 84 104 101 109 101 0 0 243 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 77 83 32 83 97 110 115 32 83 101 114 105 102 0 39 115 32 68 101 102 97 117 108 116 46 84 104 101 109 101 0 0 243 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 77 83 32 83 97 110 115 32 83 101 114 105 102 0 39 115 32 68 101 102 97 117 108 116 46 84 104 101 109 101 0 0
+
+
+[MasterThemeSelector]
+MTSM = DABJDKT
+Stretch = 1

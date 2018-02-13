@@ -1,0 +1,184 @@
+          ___                ___
+         /   | Sovereigns   |   \     As the shovel speaks unto the ground,
+        /    |      of      |    \
+       /     |      Bell    |  |  \     Hands that cannot build must steal.
+      /  /|  |   __________ |  |   \
+     /  / |  |  /          \|      |_        With love to Ma Bell.
+    /  /  |__| /      |     \        \
+   /   ---------\     |      \  |\    \     Issue #16 By Author - 08/16/95
+  /__________    \    |       \ | \    \         The new and improved
+ /                \   |        ||__\    \         Beige Box
+/                  \           |         \
+\__________________/_________ /__________/
+
+-----------------------------------------------------------------------------
+
+REVISED EDITION AS OF 08/16/95
+
+                  *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-     
+                  *    THE NEW AND IMPROVED BEIGE BOX    *
+                  *           Idea by: REGEL             *
+                  *         Written by: Plaxion          *
+                  *       Schematics by: Plaxion         *
+                  *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-  
+                    
+<Intro by REGEL>        
+
+  Well, folks, the creator of the infrared box has another text phile for you.
+Well, you have seen beige boxes before, so you are probably wondering why I am
+doing another one. Well, it seems as though all of the other philes never 
+include the monitor mode and the polarity indicator that the linemans handset 
+has. If you are not familiar with those added features, the monitor mode allows 
+you to tap someone elses fone line and listen in on their calls, and the 
+polarity indicator shows if the line is canceled, or if you have the alligator 
+clips reversed. BY READING FURTHER ON INTO THIS TEXT FILE, YOU RELEAVE REGEL OR 
+ANYONE ELSE OF RESPONSIBILITY FOR YOUR ACTIONS. 
+                                               
+
+                Parts Required
+        (all available from Radio Shack)
+            --------------------        
+             1 - One piece phone
+             1 - Red LED 
+             1 - Green LED
+             1 - 1K (1000) ohm resister (color bands are brown, black, red)
+             1 - push button
+             1 - 1000 ohm to 8 ohm audio transformer
+             1 - .47uf(micro farad) 250 volt capacitor
+             1 - DPDT toggle switch
+             2 - alligator clips
+             X - some wire
+
+
+          ASSEMBLY OF UNIT
+          ----------------
+
+        First, the monitor feature:
+
+        1.  Disconnect the ring(red) line from the phone circuit board and
+            connect it to the center pole of one side of the switch.
+            (see diagram is confused)
+
+        2.  Run a wire from one leg of the same side as the center pole of
+            step #1 to the point on the phone circuitry where the ring used
+            to be.
+
+        3.  Connect one side of the capacitor to the remaining leg on that
+            same side.
+
+        4.  Connect the other lead of the capacitor to the blue wire of the
+            transformer.
+
+        5.  Connect the black wire of the transformer to the phone circuit 
+            board where the tip(green) connection is.
+
+        6.  Connect the white wire of the transformer to one of the earpiece
+            terminals.(it doesn't matter which one)
+
+        7.  Disconnect the other speaker wire from the phone circuit board 
+            and connect it to the free center pole on the switch.
+
+        8.  Connect the red transformer wire to the leg on the switch next 
+            to the leg where the capacitor joins.
+
+        9.  The last leg on the switch should be connected to where the 
+            speaker wire was removed from the phone circuit board.
+
+        10. Do the Polarity indicator instructions.
+
+
+        Second, the polarity indicator:
+
+        1.  Connect the anode(long wire) of the green LED to the cathode
+            (short wire) of the red LED.  Connect the cathode of the green
+            LED to the anode of the red LED.
+
+        2.  Connect one end of the resistor to the ring line on the phone,
+            and the other end to one leg of the pushbutton.
+
+        3.  Connect the other leg of the pushbutton to the anode of the green
+            LED.
+
+        4.  Connect the phone tip line to the cathode of the green LED.
+
+
+          USE OF UNIT
+          -----------
+
+        To use the unit connect the alligator clips to a red and black wire 
+        and then to the appropriate terminals on the phones ring and tip.
+        Then connect them to the terminals on a trunk and push the button.  
+        If the green LED lights up, then the clips are connected properly.  If
+        the red LED lights up, then the clips and reversed.  To use the monitor
+        mode, connect the beige box up properly and then flip the switch.  In
+        one position the phone works like a regular phone, but in the other
+        position, it monitors the line, in essance, a phone tap.  This means
+        that you hear what is going on exactly on the line.  You won't hear
+        a dialtone unless a person on the line you are tapping picks up their
+        phone.  In monitor mode you can hear all, but say nothing.  That about
+        convers it all.
+
+       -=<PlaXioN>=-
+
+
+                                -=<Diagram>=-
+           
+           
+           Cap                               transformer
+           +-+                        blue   +----+red
+           |X|      +------------------------|    |---------+
+           +-+      | +----------------------|    |-------------+
+           | +------+ |               black  +----+white    |   |
+           |          |   Switch      +---------------------+   |
+           |   +------+   +-----+     |         +---speaker-----+
+ P         +--------------|-I I-|-----+         |    -----
+ h             |   +------|-I I-|---------+     +---|  -  |
+ o  -Ring-----------------|-I I-|-+       +---------|  -  |
+ n             |   |      +-----+ |                  -----
+ e  -Tip-------+   |              |
+                   +----------------------R    T
+ B  -Speaker----------------------+        \  /
+ o                                          XX  phone line
+ a                                          ||
+ r
+ d                   
+                    
+                    
+                    -=<Switch Connections>=-
+
+                       +-----------------+
+                       |                 |
+       One end of  ----|----O       O----|----To red lead on transformer
+       capacitor       |                 |
+                       |                 |
+    Ring(Red) from ----|----O       O----|----To cut lead going to speaker
+    the phone line     |                 |
+                       |                 |
+    To ring(red)   ----|----O       O----|----To cut speaker wire going to 
+    connection on      |                 |    phone circuit board
+    phone circuit      +-----------------+
+    board
+
+
+                    -=<Polarity indicator>=-
+             
+                        _I_                Red LED
+              R <------o   o--/\/\/\--+-----+                   
+                       push  resistor_|_    |                          
+                       button        \ /   /_\    
+                                      |     |                          
+              T <---------------------+-----+                            
+                              Green LED                           
+                              
+        -=<PlaXioN>=-
+
+ ----------------------------------------------------------------------------
+|                         Sovereigns Of Bell Issue #10                       |
+| Change your disk label to 31337!                            Mail Us At :   |
+| The Truth Sayer's Domain - 210-493-9975 - SOB WHQ          lmb@tenet.edu   |
+| FTP-ftp.fc.net /pub/deadkat/phreaking/soveriegns_of_bell & /pub/defcon/SOB |
+| Or, Join our mailing list! Mail lmb@tenet.edu and just tell us you wanna   |
+| subscribe. We'll put you on our mailing list, and you'll recieve all the   |
+| new shit before anyone else!                                               |
+ ----------------------------------------------------------------------------
+EOF : XXXXX Bytes

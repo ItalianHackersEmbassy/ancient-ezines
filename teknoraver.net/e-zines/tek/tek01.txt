@@ -1,0 +1,210 @@
+
+           ‹‹‹‹‹ﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹‹‹‹‹‹‹‹‹           ‹‹‹‹‹‹‹‹‹    ‹‹‹‹‹‹
+           €                     €ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€      €   €     €
+           €                     €            €      €  €      €
+          €ﬂ                      €    €      €      € €      €
+          €                       €   € €     €      €‹€     €
+          €                  ‹   €    € €     €             €
+          €      ‹           €‹‹ﬂ     ﬂﬂﬂ     €           ‹€
+           ﬂﬂﬂ‹‹‹€           €€              €              €€
+                 €           €€      ‹‹‹     €       €ﬂ€      €‹
+                  €         € €         ﬂﬂﬂﬂﬂﬂ€      € €       €‹‹
+               ‹‹‹‹€       €‹‹€               €      €‹‹€         €‹‹‹
+              €    €       €  €               €‹‹‹‹‹‹€   €‹‹‹‹‹‹‹‹€   €
+              €    ﬂﬂﬂﬂﬂﬂﬂﬂﬂ  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ           Reprezentin €
+              €    THe        ELITe            KRUe       da 604!     €
+               ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+                    exist/mindflayer/elektrik/three/eleet/killaz
+
+
+
+                             ⁄ƒƒƒƒƒƒƒø  ⁄ƒø ⁄ƒø
+                             ¿ƒƒø ⁄ƒƒŸ  ≥ ≥⁄Ÿ⁄Ÿ
+                                ≥ √ƒƒƒƒƒ¥ ¿Ÿ⁄Ÿ
+                                ≥ ≥ ⁄ƒƒƒ¥  ⁄Ÿ
+                                ≥ ≥ ¿ƒø ≥  ¿ø
+                                ≥ ≥ ⁄ƒŸ ≥ ⁄ø¿ø
+                                ≥ ≥ ¿ƒƒƒ¥ ≥¿ø¿ø
+                                ¿ƒ¡ƒƒƒƒƒ¡ƒŸ ¿ƒŸ
+                                 Magazine Inc.
+                                   Issue #1
+
+                        The Complete Guide to the
+                               GTD5-EAX RLU
+                        --------------------------
+                              By MiND FLaYER
+
+Disclaimer
+----------
+This file was written for informational purposes only, it is in no
+way intended to be a tool for breaking the law, and I am in no way
+influencing others to commit crime. If you or anyone uses the
+information in this file to commit a crime, I am in no way
+Responsible and i cannot be held accountable. THIS FILE
+IS FOR INFORMATIONAL PURPOSES ONLY!!!!!!!!!!!!!!!!!!!!!!
+------------------------------------------------------------------
+As you all know, or should know by now, that Kamloops Swithing System is
+a GTD5-EAX system. I am not going to get into detail about the switch, just
+about its RLU's (Remote Line Units) The RLU is one of the tertiary agents
+in the GTD5-EAX family of GTD5 switches. If you dont know what an RLU
+looks like, it is one of the boxes you see around town, every neighborhood
+has one, it is beige in color, stands about 5 1/2 to 6 feet tall, and is
+about 2 feet wide. It has two latches on it to keep it closed, one at the
+top, one at the bottom. The top latch usually has one HeavyDuty padlock on
+it, and the bottom one always is without a lock. Now that you know what
+one looks like, lets get into more detail.
+---------------------------------------------------------------
+Technical Description of a RLU
+---------------------------------------------------------------
+The RLU is a pair-gain unit designed for unattended operation(In other words
+it doesnt need some over paid BCTel employee standing over it making sure
+it does its job) The RLU is to serve outlying communities(Such as Aberdeen)
+or metropolitan areas that require cable relief(To many phone lines to
+
+an area) The RLU is linked to and controlled by a Base Unit(BU) through
+24 channel T1-type digital span lines called Host-Remote(H-R)links.
+The connection to the BU may be direct or it may be indirect. In the
+indirect connection, the RLU is connected to a Host Remote Switching Unit
+(RSU(Those strange buildings around town such as in Aberdeen or Juniper that
+look like the should be a prison compound, as they are so highly protected))
+via H-R links, which is in turn connected to the BU by another set of H-R
+links.
+----------------------------------------------------------------
+What an RLU does
+----------------------------------------------------------------
+An RLU is just a convenient place for BCTel to stick about 700 pair(700 phone
+lines) It makes it easier to service lines, and makes it easier for
+the calls to get routed to where they need to go. The RLU provides
+no local switching, all calls are routed to the host office for switching.
+----------------------------------------------------------------
+RLU's Stats
+----------------------------------------------------------------
+The RLU has a typical startup size in the range of 100 to 400 lines,
+and expansion to its ultimate capacity of 1,536 lines is accomplished
+
+
+by adding printed wiring cards and frames(Not Explained here)
+----------------------------------------------------------------
+Ok, now that you know what an RLU is and what it does, the next question
+is "What good does it do a phreak?" Well, here comes the answer to that
+question.
+----------------------------------------------------------------
+Uses of an RLU to a phreak
+----------------------------------------------------------------
+Beige Boxing - Once you have gotten into the RLU, you look up in the
+               top right corner, and you will see TWO terminals with
+               a phone # written underneath it. Just attach your beige
+               box to the terminals and away you go. BUT! you cannot
+               make any long distance calls from those two terminals
+               because it is a restriced access line, you can only
+               make calls to 800 #'s or Local Calls. So beige boxing
+               from an RLU is basically only good for diverting your
+               calls and bypassing the ANI or call trace or *69 or
+               whatever. But of course there are roughly 700 phone lines
+               in the RLU, so you could strip the wires of a phone line
+               and beige box it like normal, but once you have seen
+               inside an RLU, you will realize that that would be a
+
+               Great PAIN in the ASS!
+Phone Tap    - If you have a working phone tap, you could install it
+
+               into an RLU on any one of the 700 or so lines, and it would
+               go undetected for QUITE a while, but you would need to
+               know what line of the 700 is the one that you want to tap
+               and that would be hard to do, considering that the lines
+               are divided into groups of 100 or so pair, and are listed
+               only by their pair #, not the actual PHONE #.
+3rd Party Billing
+               You could hook your beige box to the two terminals at the top,
+               get your buddy to run to the nearest payphone and dial
+               the operator. Get your buddy to tell the operator that
+               you want to charge the call to another #, and give the
+               # that was written underneath the two terminals in the RLU.
+               The operator will call that #, when your beige box rings,
+               pick it up and answer yes to the operators question. The
+               operator up with you, but your buddy will be connected
+               to wherever it was that he called. Sometimes that
+               trick dont work from payphones, but sometimes it does.
+               There are other interesting things like that to do, just
+               use your imagination.
+Being a Plain old PRICK! ;)
+               Open the RLU, take hold of about 200 wires, and rip them
+               out of the RLU. You have just shut down 100 phone lines!
+
+               (Who needs a Blotto Box eh? :) Light the RLU on fire etc..
+               You get the idea.
+
+Now that you know what to do with an RLU, you may ask, "Well how the fuck
+do i get into one?" Here it comes....
+Step 1 - Put a crowbar through the latch of the PADLOCK, put one end of
+         the crowbar under the latch that to padlock is attached too,
+         pull down with great force on the other end of the crowbar and
+         SNAP! the padlock has just broken off.
+Step 2 - Put the crowbar underneath the lockless latch and pry at it till
+         it pops open.
+Step 3 - Repeat Steps 1 and 2 with the bottom latch and waalaa! the RLU
+         is open.
+
+That is the about it for this file. Have phun kiddies
+
+                          -=MiND FLaYER=-
+                            T    e    K
+                           1   9   0   7
+
+                       Copyright 1996 TeK Inc.
+
+---------------------------------------------------------------------------
+                        A guide to Trashing in
+                               Kamloops
+                        -----------------------
+                            By MiND FLaYER
+
+
+Ok, you should all know that the term TRASHING refers to the art
+of stealing a buisness's trash in hopes that you find something
+usefull, such as important unlisted #'s, Dialup's, Logins, Passwords,
+Calling Cards, Credit Cards, etc.. Trashing is a pretty basic thing,
+no real crime is being commited, but it is a VERY usefull tool if
+you get something good. So far on my trashing trips to the BCTel dumpster,
+I have found PERSONAL AND CONFIDENTIAL information pertaining to BCTel
+employees, a shredded calling card that i was able to put back together
+and get the #(Which worked!), employee handbooks that contained special
+procedures and UNLISTED #'s that were very cool. So now you know what
+to expect when trashing.
+-------------------------------------------------------------------------
+What to look for when trashing
+-------------------------------------------------------------------------
+If you are trashing a regular buisness such as a resturant, look for
+carbon copies of credit card receipts, they contain full info credit card
+info, such as the persons name, address, credit card #, expiration date, zip
+or postal code, all the shit you need to do a successful carding.
+If you are trashing a TelCo such as BCTel, look for paper that has
+phone #'s, Computer Printouts, Calling Card info, employee handbooks,
+all that type of shit. BUT DO NOT TRASH BCTEL UNLESS YOU KNOW WHAT YOU
+WANT!! BECAUSE IF YOU MISS SOMETHING IMPORTANT BECAUSE YOU DONT KNOW WHAT
+IT IS, THEN THAT IS A WASTE!! SO DO NOT TRASH BCTEL unless you are an
+experienced phreak.
+--------------------------------------------------------------------------
+The Best way to Trash
+--------------------------------------------------------------------------
+Contrary to popular belief, the best way to trash is not to hop
+into the dumpster and root around through the garbage(Remember that
+scene from the movie HACKERS?) The best way to trash is to reach into
+the bin, grab a bag of garbage, throw it in your car and drive away.
+Go somewhere secluded and rip it open and then go through it looking for
+things. If the bags of garbage are at the bottom, do what EleKTriK does,
+remove your shades, lay them on top of the dumpster, take a look around,
+make sure no one is looking, then hop into the dumpster, grab the bag and
+throw it out to your buddy, then take off.
+--------------------------------------------------------------------------
+Remember Trashing can be a very USEFULL TOOL, do not abuse this tool,
+if you do it to much at one place, they will notice and they will
+stop throwing trash in the dumpster. DO NOT TRASH UNLESS YOU KNOW WHAT
+YOU ARE LOOKING FOR, AND UNLESS YOU ARE AN EXPERIENCED PHREAK!!!
+--------------------------------------------------------------------------
+
+                                MiND FLaYER
+                                T    e    K
+                                  1 9 0 7
+                           Copyright 1996 TeK Inc.   
+

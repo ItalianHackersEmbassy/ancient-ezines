@@ -1,0 +1,121 @@
+Date: Wed, 27 Jan 93 17:39:01 PST
+Reply-To: <surfpunk@osc.versant.com>
+Return-Path: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0037@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: surfpunk@osc.versant.com (pbyynobengvir zbqnyvgl genafvgvbaf)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0037] THESIS: meta-information sharing in collaboration support environments
+Keywords: surfpunk, computer-supported cooperative work, meta-information
+
++                        + a. Hydrogen cracking will be performed by
+                         +    trailing a large recepticle for containment
+                         +    of water behind the AUtopia, where the solar
+                         +    units will generate the electricity for
+                         +    separate the hydogen from the water by
+                         +    process of electrolosis.
+                         +                 -- AUtopia manifesto
+                         +                    wixer!autopia@cs.utexas.edu
+                         +++++++++++++++++++++++++++++++++++++++++++++++
+
+The body of this proposal passed "fmt" without the slightest change.
+The proposer obviously uses "vi"!                          -- strick
+________________________________________________________________________
+________________________________________________________________________
+
+
+     META-INFORMATION SHARING IN COLLABORATION SUPPORT ENVIRONMENTS
+
+                         Ph.D. Thesis Proposal
+                            W. Keith Edwards
+                         College of Computing
+               Graphics, Visualization & Usability Center
+                 [ Georgia Tech, Atlanta, Georgia, USA ]
+
+                             Committee:
+                       John Stasko (Advisor)
+                            James Foley
+            David Gedye (Sun Microsystems Laboratories, Inc.)
+                           Scott Hudson
+                           Daryl Lawton
+
+                    Tuesday, February 2, 1993
+                             5:00 PM
+                  College of Computing, Room 155
+
+
+
+ABSTRACT
+
+Computer-supported cooperative work, or CSCW, is an emerging area of
+both research and commercial interest which is concerned with the use
+of computers to support and enhance the work activities of groups.
+Collaborative applications are notoriously hard to build however.  As
+Grudin says, "the design process fails because [developers'] intuitions
+are poor for multi-user applications."
+
+A number of characteristics of collaborative applications contribute to
+their intractability.  These include the multi-user nature of such
+systems (requiring application developers to maintain serialization and
+synchronization among multiple event streams), the requirement for
+fine-grained access control, the need for flexible session management,
+and the potentially distributed nature of collaborative applications.
+
+The goal of this proposed research is create a framework to enable the
+easier creation of robust, flexible, multi-user collaborative
+applications.  I believe that it is possible to draw a distinction
+between two classes of information sharing in collaborative
+applications, and that by drawing such a distinction it is possible to
+gain insight into ways to support collaborative systems both at
+development time and run-time.  These two sharing classes are
+application information sharing and meta-information sharing.
+Application information sharing is the "classical" form of sharing and
+involves sharing application-internal data in a collaborative session.
+Meta-information sharing is the sharing of information used to
+facilitate the process of collaboration itself; it is the sharing of
+information used by the underlying collaboration support environment.
+
+I hypothesize that by drawing this distinction and focusing on various
+aspects of meta-information sharing, it will be possible to
+significantly enhance the development process and run-time flexibility
+of collaborative applications.  In this talk I shall discuss the
+distinction in types of sharing and explain why I have focused on this
+one type of information sharing.  I will specifically examine four
+specific objectives of this research which involve the sharing of
+meta-information:  session management, user representations in a
+collaborative system, policy expression, and modality transitions
+between synchronous and asynchronous collaboration.
+
+---
+keith edwards                                   keith.edwards@gvu.gatech.edu
+multimedia computing group / georgia tech       404.894.6266
+graphics, visualization, & usability center     atlanta, ga  30332-0280
+
+
+________________________________________________________________________
+________________________________________________________________________
+    
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  
+Xanalogical archive access soon.  Fatal IO errors to our enemies.  
+________________________________________________________________________
+________________________________________________________________________
+
+
+
+
+
+                      XIO:  fatal IO error 32 (Broken pipe) on X server
+                            "unix:0.0" after 38 requests (33 known
+                            processed) with 0 events remaining.  The
+                            connection was probably broken by a server
+                            shutdown or KillClient.
+
+

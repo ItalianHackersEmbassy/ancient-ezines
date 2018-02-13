@@ -1,0 +1,365 @@
+#######################################
+#                                     #
+#                                     #
+#     ========   =\    =   ======     #
+#        ==      = \   =   =          #
+#        ==      =  \  =   ======     #
+#        ==      =   \ =        =     #
+#        ==      =    \=   ======     #
+#                                     #
+#                                     #
+#         <Tolmes News Service>       #
+#         '''''''''''''''''''''       #
+#                                     #
+#                                     #
+#  > Written by Dr. Hugo P. Tolmes <  #
+#                                     #
+#                                     #
+#######################################
+
+
+Issue Number: 05
+Release Date: November 19, 1987
+
+
+This issue is made up of only one article (a very good one.) The article
+comes from the August/September issue of Technology Review. It is a very good
+article and deals with many aspects of computer security. This includes:
+encryption, early cryptography, modern cryptography, the development of
+security systems, and other information dealing with military/government
+security.
+
+This is not the entire article. Some uninteresting parts have been
+intentionally left out. I hope that the article will be helpful.
+
+
+
+              ><><> Dr. Hugo P. Tolmes <><><
+
+
+
+
+
+
+     Electronic cryptography can protect any digital message- any message
+communicated in a stream of binary digits, or "bits." A "key"- a series of
+bits -is fed to the encryption device to scramble the message. Only the holder
+of the right digital key can translate the message back into unencrypted
+"clear-text."
+     Destined to help shape our future, encryption technology has not itself
+been finally shaped. Competing lines of development exist, and they have very
+different social implications. Conventional encryption- the kind
+championed by the National Security Agency (NSA) -works much like a
+combination mailbox. Anyone who has the combination (the digital key) can lock
+and unlock the box (send messages and decode other messages sent with he same
+key). Since senders and receivers must exchange secret keys, conventional
+"ciphers," or cryptosystems, are best suited to a limited set of users.
+Systems of this type are common in military, diplomatic, and financial
+communications; they are widely known and in many ways define the public
+perception of encryption. Unfortunately, they couldn't serve as
+the basis for security in an extensive electronic communications system open
+to use by many individuals.
+     "Public-key" encryption systems, though less commonly understood, could
+serve this way. According to former NSA director Bobby Inman, the agency
+dscovered and classified public-key encryption in the early 1970s. In 1976
+cryptologist Whitfield Diffie and Stanford professor Martin Hellman
+rediscovered public key and published a paper describing the idea. Today,
+public key remains an idea in development, though RSA Data Security
+in Redwood City, Calif., is already marketing one system.
+     Public-key systems work like mailboxes with two different combinations,
+one for locking and one for unlocking. The locking combination (the "public"
+key used to encrypt messages) can be given out freely, so that anyone can,
+in effect, put a letter in your mailbox(the decryption key) secret, so only you
+can remove letters.
+Since senders and receivers never need to exchange secret keys, individuals
+could ask friends, businesses, or even strangers to encrypt messages to them.
+     The implications of the concept become clear only when we think of a
+system in widespread and routine use, with public keys in directories like
+phone books. Both individuals and institutions could use the keys to
+secure phone calls, electronic mail, and other telecommunications. The
+possibilities are enormous, and the main point is clear: this approach
+doesn't require citizens to trust institutions any more than institutions
+are required to trust citizens.
+     One recently proposed adaptation of public-key cryptography offers even
+more benefits. Civil libertarians are concerned about the increasing ease
+with which large organizations, whether governmental or private, can amass
+extensive electronic dossiers on individuals- records of who they
+telephone, where they've worked, how much money they spend, whether they've
+been arrested (even if later acquitted). In this adaptation,
+public-key systems would employ "digital pseudonyms" to short-circuit
+the collection of dossiers while still making it possible to conduct the
+bread-and-butter transactions of an information economy- electronic
+purchases, credit verification, and so on.
+
+Secret Cryptography
+
+     In conventional ciphers, the "algorithm," or matematical method by
+which signals are scrambled, is itself often classified. Proponents say this
+helps strengthen the cipher, but the matter is unclear. In any case,
+public-kay systems can be designed so that disclosure of their algorithms
+poses no security threat. Knowing the internal workings of the cipher doesn't
+help to break it; individual messages still can't be deciphered without the
+secret decryption key. Those who favor public key often assert that this kind
+of open approach is characteristic of modern cryptography.
+     How is such elegance achieved? By basing ciphers on mathematical problems
+that are, in the understated lexicon of theoretical mathematics "hard."
+Deciphering a message without the key would require solving one of these
+problems. There are many, and some have resisted solution for thousands of
+years. If mathematics make sudden progress on one of them tomorrow, it
+will be news. Anyone using a cipher based on the problem would immediately
+know.
+     Advocates of public-key cryptography fear that it is being squelched by NSA
+, the most powerful
+exponent of conventional ciphers. Though its budget is estimated to be
+five times greater than the CIA's, NSA is so secret that for many years the
+government denied that it even existed. Today, it's known that NSA has two
+primary functions. The first one- "signals intelligence" -consists
+primarily of intercepting messages deemed critical to national security.
+The agency routinely monitors phone calls to and from the United States,
+and a Senate intelligence committee report stated that between 1967 and 1973
+, NSA illegally spied on 1,200 Americansal
+activities. NSA's second role is "communications security"- protecting
+the United States from foreign spying. In this capacity the agency has set out
+to market a new family of encryption systems.
+     These ciphers are to be sold as pre-sealed and tamper-resistant
+integrated circuits: the encryption algorithm hidden within the chips will
+be classified. It will remain unknown even to the engineers who will
+incorporate the chips into security devices for computers or telephones.
+Critics fear that such secrecy offers NSA the chance to build a "trap door"
+through which it could decipher messages the senders think are secure.
+"With a hardware black box you can describe several schemes that would be
+almost impossible to test for from the outside and could, ineffect, constitute
+a hardware Trojan Horse [i.e., trap door]," says Herb Bright, an officer of
+the private data-security firm Computation Planning Associates. Bright
+is a member of the American National Standards Association/American Bankers
+Association committee that is evaluating NSA's new ciphers.
+     NSA proposes a strange way for users of new ciphers to obtain keys for
+encoding and decoding. The agency hopes to provide these keys itself. It will
+assign keys to all government agencies using the systems, while civilian users
+will have the choice of obtaining keys from NSA or generating their own.
+However, the second course will be discouraged. Last year Walter Deeley, then
+NSA deputy director for communications security, told Science magazine, "It's
+not a trivial thing to produce a good key." He went on to insist that NSA
+wouldn't keep copies of the keys it assigned.
+     Several factors will help NSA promote the ciphers. Starting in 1988,
+they will be mandated as the official U.S. civilian encryption standard. The
+current civilian standard, authorized by the National Bureau of Standards
+(NBS), and known as DES (for Data Encryption Standard), has come into
+widespread use among banks, financial services, and government agencies.
+Although such an encryption standard is officially the only advisory,practical
+considerations dictate its use. For example, if the Federal Reserve switches
+to a certain system, banks that deal with the Fed will have severe logistical
+problems if they don't follow suit. And the use of a standard is becoming a
+recognized measure of legal due care. Suppose a bank uses a non-standard
+system- one sold commercially but not certified by the government -and a
+thief alters electronic funds transfers. The bank is far more legally
+vulnerable than if it had stuck to the standard.
+     In 1984 the administration put out National Security Decision Directive
+145 (NSDD-145), which will help enforce NSA's standard. NSDD-145 gives a
+committee controlled by NSA authority to set policies concerning a wide range of
+
+communications-security issues. The directive specifically designates this
+committee to oversee "sensitive, but unclassified, government or
+government-derived information, the loss of which could adversely affect
+the national security."
+     The AUnion (ACLU) considers the very category of
+"unclassified" national security informaion dangerous- "a deliberate,
+calculated effort to expand the realm of what can be considered to be
+'national-security' information." Jerry Berman, head of the ACLU's Privacy and
+Technology Project, fears that no one really knows what's to be included in
+this vague realm. Large inter-bank funds transfers probably qualify, as do
+high-level communicatons of major federal contractors. But where does the
+government draw the line? Warren Reed, director of information management and
+technology at the General Accounting Office, observes that rulings like
+NSDD-145 could bring flight-safety information, financial and industrial
+forecasts, and even medical records under NSA control.
+     According to Electronics magazine, the NSA director is now, for all
+practical purposes, "setting standards for the entire U.S. data-processing
+industry." And the Institute of Electrical and Electronic Engineers has
+gone on record warning against the "dangers we see in implementing the
+directive's rules for unclassified, sensitive, non-governmental information
+and private-sector telecommunications." Whitfield Diffie, now at Bell Northern
+Research in Mountain View, Calif., has said, "I will not be pleased if NSA
+succeeds in capturing the market for domestic communications-security
+equipment." Like many other cryptographers, Diffie sees a "great need"
+for systems designed to protect individual privacy.
+
+A Peculiar History
+
+     NSA's history with civilian encryption technology enforces critics'
+concerns about the new ciphers. Problems began during the early 1970s,
+when the agency was involved in codifying DES. In 1973 the NBS called
+for a national civilian encryption system. IBM was in the final stages of
+developing its Lucifer system, and Lucifer won hands down. It was by all
+reports very good- so good that it upset NSA, which had considered itself
+comfortably ahead of the rest of the world in the still-arcane art of
+cryptography. Although at the time NSA had no formal role in setting the
+encryption standard, it was the preeminent government agency concerned
+with encryption, and NBS felt bound to honor its advice. Rather than approving
+Lucifer as it was, NSA modified it several strange ways to create DES.
+     While Lucifer's size was 128 bits, DES has a key of only 56 bits, so that
+it is far more vulnerable to "brute-force" attack. Such an attack is
+mounted by trying all possible keys- in this case all 56-digit binary numbers-
+to see which one works. There are 2(to the 56th)- about 7 X 10(to the 16th)-
+possibilities. Large as this number may seem, it is tens of millions of times
+smaller than the number of possible keys in ciphers approved for military
+use. The original 128-bit key would be much more secure, for it presents 2
+(to the 128th) possibilities- about 3 X 10 (to the 38th). Even with today's
+supercomputers, brute-force attacks would be out of the question.
+     NSA's weakening of Lucifer appears to have been deliberate. According to
+David Kahn, the noten who wrote The Codebreakers,
+Lucifer set off a debate within NSA. "The codebreaking side wanted to make
+sure that the cipher was weak enough for the NSA to solve it when used by
+foreign nations and companies," he wrote in Foreign Affairs. On the other
+hand, "the code-making side wanted any cipher it was certifying for use by
+Americans to be truly good." Kahn says the resulting "bureaucratic compromise"
+made the key shorter. Alan Konheim, former manager of IBM's Lucifer research
+project, recollects, "If they [NSA] had had their way, they would have had 32
+bits.... I was told at one time that they wanted 40 bits, and at IBM we
+agreed that 40 was not enough."
+     At the same time that NSA shortened Lucifer's key, it used
+classified criteria to redesign several numberical tables known as
+"substition boxes" or "S-boxes." When a bitstream (a stream of binary digits)
+comes into DES, it's broken into chunks. The bits in each chunk are
+repeatedly permuted (that is, rearanged) in a way that depends upon
+both the key and the numbers in the S-boxes. These boxes are thus crucial
+to the strength of DES, and NSA's critics feel that the changed in them
+make the system vulnerable to a "cryptoanalytic" attack. In other words,
+the boxes may now conceal a trap door- a secret numberical regularity that
+allows NSA to decipher any DES-encrypted text even without the key.
+NSA's refusal to publish the criteria under which it redesigned the S-boxes
+has reinforced the critics' fears.
+     Despite persistent rumors, a trap door has never been found. Years of
+analysis at institutions including Bell Labs; the Catholic University in
+Leuven, Belgium; and the Center for Mathematics and Computer Science in
+Amsterdam have failed to either vindicate or convict NSA. However,
+mathematicians have unearthed several peculiar properties in the S-boxes-
+for example, certain numerical irregularities that weren't present in
+IBM's original design. And they've demonstrated the possibility of
+introducing hidden regularities into the S-boxes that weaken the algorithm.
+Still, no one has managed to use these findings to mount a successful
+cryptoanalytic attack on DES. They may mean nothing. But since NSA has never
+declassified the criteria for redesigning the S-boxes, it's not
+certain. Because of lingering suspicions, the Swiss and Scandinavians
+have turned elsewhere for their civilian encryption systems.
+     The controversy over DES eventually subsided, but in late 1985
+NSA suddenly and gracelessly abandoned the system. Directly contradicting
+years of reassurances, Walter Deely, NSA's deputy director for communications
+security, told Science that he "wouldn't bet a plugged nickel on the
+Soviet Union not breaking [DES]." Said Barton O'Brien, sales manager for RSA
+Data Security, "People in the industry feel betrayed." And according to Herb
+Bright of Computation Planning Associates, quite an uproar ensued in
+the normally quiet halls of the American National Standards Institute
+when NSA announced its new ciphers. Bankers were particualarly upset, since
+they were comm of encrypting electronic funds
+transfers. NSA was later compelled to announce that DES would remain
+certified for such transfers.
+     NSA's new shift raises even more issues. The agency has still declined
+to declassify evidence that would settle the question of DES's strength.
+If an avenue of cryptoanalytic attack has been found, then isn't NSA wrong to
+let banks continue using DES? And if the problem is a brute-force attack,
+then isn't it a consequence of the reduced key length? Why not just make
+the key longer?
+     NSA officials say they don't want to trust the rising volume of sensitive
+data to DES, because all of its major elements except the criteria for S-box
+design have been widely published. Yet cryptologist are trained to be dubious,
+and they will never trust a classified cipher. They have more confidence in
+mathematical interactability. A cipher will be trusted if it is open to
+require solving a very difficult numerical problem. Such ciphers do in
+fact exist and they enjoy a freedom from suspicion that NSA's new ciphers
+can never hope to share.
+     Historical evidence suggests that intelligence agencies do promote flawed
+ciphers under cover. In the most famous case, British Intelligence
+secretly broke the German ENIGMA machines during World War II. "After
+World War II, Britain rounded up thousands of ENIGMA machines that
+Germany had used and sold them to some of the emerging nations," writes David
+Kahn. This allowed Britain to "keep tabs on what each country was planning."
+The fact that ENIGMA had been broken in the 1940s remained classified until
+1974.
+      In The Puzzle Palace, a study of NSA, investigative reporter James
+Bamford says that the agency has similarly attempted to exploit a secret
+cipher. In 1957 NSA covertly send William Friedman, a cryptologist, to
+meet his old friend Boris Hagelin, then a major supplier of cryptomachins.
+"Hagelin was asked to supply to NSA [with] details about various
+improvements and modifications... made to cipher machines his companies had
+supplied to other governments, including, especially, the member
+countries of NATO." Bamford was not able to learn whether Hagelin
+cooperated. But NSA's attempt to build a trap door into an encryption system
+can only abet suspicions about its new ciphers.
+
+Cryptography Goes Public
+
+     Over the last decade, NSA has had some success in its efforts to classify
+sensitive cryptographic research. Yet know-how has spread anyway.
+Mathematicians doing basic research with no thought of secrecy may find that
+their work has significant cryptographic implications. For
+instance, complexity theory examines problems not to solve them but to
+understand how hard they really are. Since truly hard problems provide the
+basis for strong ciphers whose inner workings are open to inspection,
+complexity theory is one conduit through which cryptology has "gone
+public," in Kahn's words.
+     Today, all but the poorest nations secure high-level dispatches behind
+ciphers that can be broken only with the greatest difficulty. Intelligence
+agencies are often  on unclassified
+communications- and to studying who calls rather than what they say.
+Intelligence agencies can also be foiled when their adversaries are
+low-tech: Iran sidesteps U.S. electronic espionage by sending sensitive
+information by hand.
+     But while governments are becoming more secure, individuals are becoming
+more vulnerable. The use of electronic mail and interactive cable TV is
+increasing, and the technology for tapping phone conversations is improving.
+In The Rise of the Computer State, New York Times reporter David Burnham
+writes that the high cost of paying people to listen to conversations may
+be as significant a deterrent to wiretaps as legal strictures. Wiretaps
+are more widespread in low-wage countries such as the Soviet Union and
+India. This bodes ill, for voice-recognition technology is making
+automated wiretapping much easier. Computers can now screen calls and notify
+human agents only upon encountering designated words.
+     If used to establish a decentralized cryptosystem in the
+telecommunications network, public-key cryptology could go a long way toward
+preventing wiretaps. Public-key systems also enable users to sign messages with
+unforgetable electronic signatures. As Hellman puts it, such signatures are
+"like written signatures in that they're easily produced by the legitimate
+signer, easily recognized by any recipient, and yet impossible, from a
+practical point of view, to forge." To send messages using such a signature,
+you publish the decryption half of a two-part key. Only if a message is
+"signed" with the secret encryption half will decryption yeld a meaningful
+cleartext.
+     Like conventional encryption systems, public-key systems can be
+based on a variety of algorithms. The best-known public-key algorithm is RSA
+(after Riverst, Shamir, and Adleman, the mathematicians who developed it).
+It is based on the difficulty of factoring prime numbers, a problem that
+mathematicians have been studying for thousands of years without fundamental
+progress. Factoring small numbers is simple: 40 can be factored into 10 and
+4 (since 10 X 4 = 40) or even into 20 and 2 (since 20 X 2 = 40). But factoring
+even slightly larger numbers is much harder. Factoring 5,893 (produced by
+multiplying 71 and 83) requires a number of trials. and because 71 and 83
+are both prime numbers (divisible only by themselves and by 1), there's only a
+single answer.
+     To break an RSA-based cipher, you have to factor an enormous number, which
+can be hundreds of digits long, into so-called "cryptographic primes"- primes
+that can themselves be hundreds of digits long. Factoring the product,
+which is embedded in the public key, into its component primes- a process
+necessary to break the cipher- is effectively impossible, even with
+supercomputers. And no conceivable breakthroughs in computer technology
+will make any difference: factoring will remain hard until there is a
+breakthrough in number theory, a breakthrough that may not even be in the
+cards.
+     However, once a user obtains cryptographic primes- a number of
+sourcmpany marketing a cryptosystem, could provide
+them- only limited computer power is necessary to multiply them together and
+perform the other operations necessary to generate keys. Users could do this
+provately on microcomputers- without the aid of a centralized authority such
+as NSA.
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+NOTA:
+
+This article has given vital information on cryptology. Some of the
+things pointed out were flaws in the DES, how encryption works, and how to
+decipher encryption.
+.

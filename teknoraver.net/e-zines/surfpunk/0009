@@ -1,0 +1,129 @@
+Date: Tue, 8 Dec 92 16:33:32 PST
+Reply-To: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0009@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: cocot@osc.versant.com (Doctor COCOT)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0009] X400: stupid mailer tricks
+Keywords: surfpunk, X400, sprint, sprintf, mailers, headers
+
+Darren and I have produced a piece of emailArt.  This is my first
+contact with X.400 email.  Of course this was not supposed to be art;
+it's supposed to be an industrial application.  Witness the state of 
+technology in corporate america.
+
+	To: /PN=GMP.M.ZELL/O=PAC.MAIL/ADMD=TELEMAIL/C=US/@sprint.com
+
+The /PN=/O=/ADMD=... stuff is really fascinating, but for some reason,
+as flexible and verbose as it seems,  they cannot seem to fit the
+recipient's email address in there.  I have to put an extra "To:" at
+the top of body of message if I really want to get mail to him.
+
+It has something to do with Sprint.  Notice there's a site named
+"sprintf".  I don't know if that's a C pun or a Sprint pun or something
+unintentional...
+
+Darren, notice the TIF & GIF stuff did not get interpolated.
+
+Taste and Enjoy!
+
+                                                             -- Dr Cocot
+________________________________________________________________________
+________________________________________________________________________
+
+From /PN=GMP.M.ZELL/O=PAC.MAIL/ADMD=TELEMAIL/C=US/@sprint.com Tue Dec  8 12:47:38 1992
+Return-Path: </PN=GMP.M.ZELL/O=PAC.MAIL/ADMD=TELEMAIL/C=US/@sprint.com>
+Received: from sprintf.merit.edu by osc.com (4.1/SMI-4.1)
+	id AA01586; Tue, 8 Dec 92 12:47:35 PST
+Received: by sprintf.merit.edu (5.64/1123-1.0-X.500)
+	id AA05994; Tue, 8 Dec 92 14:50:25 -0500
+From: /PN=GMP.M.ZELL/O=PAC.MAIL/ADMD=TELEMAIL/C=US/@sprint.com
+Received: by sprint.com (SXG 6.0/scanf.7) with X.400 
+        id 00f9Dlvua001; 8 Dec 92 19:50:01 UT
+Date: 8 Dec 92 15:40:23-0500
+To: strick@osc.osc.com
+Subject: Message not deliverable 
+Message-Id: 
+        <"BGJC-5477-1640/08"*/PN=GMP.M.ZELL/O=PAC.MAIL/ADMD=TELEMAIL/C=US/@sprint.com>
+Status: OR
+
+From: MCKEEMAN at MZ-Atlanta
+Date: 12/8/92 3:37PM
+
+Text item: 
+
+>RFC-822-Headers:
+>Received: from osc.VERSANT.COM by sprintf.merit.edu (5.64/1123-1.0-X.500) 
+>id AA26573; Tue, 8 Dec 92 11:56:18 -0500
+>Received: by osc.com (4.1/SMI-4.1)
+>id AA26673; Tue, 8 Dec 92 09:53:20 PST
+>In-Reply-To: <no.id>; from 
+>"/PN=GMP.M.ZELL/O=PAC.MAIL/ADMD=TELEMAIL/C=US/@amd.com"at Dec 8, 92 9:08 am
+>X-Mailer: ELM [version 2.3 PL11]
+>
+>Returning your bizarre mail.
+>
+>strick@osc.versant.com
+>
+># From uunet!sprint.com!/PN=GMP.M.ZELL/O=PAC.MAIL/ADMD=TELEMAIL/C=US/@amd.com 
+>Tu Dec  8 07:56:55 1992
+># Return-Path: 
+><uunet!sprint.com!/PN=GMP.M.ZELL/O=PAC.MAIL/ADMD=TELEMAIL/C=US/@amd.com>
+># Received: by osc.com (4.1/SMI-4.1)
+># id AA23680; Tue, 8 Dec 92 07:56:53 PST
+># Received: from uunet by amd.com with UUCP id AA09926
+>#   (5.65c/IDA1.4.4.1+AMD1 for osc!strick); Tue, 8 Dec 1992 06:44:20 
+>-0800 # Received: from sprintf.merit.edu by relay2.UU.NET with SMTP
+># (5.61/UUNET-internet-primary) id AA28924; Tue, 8 Dec 92 09:08:28 
+>-0500 # Received: by sprintf.merit.edu (5.64/1123-1.0-X.500)
+># id AA16785; Tue, 8 Dec 92 08:16:19 -0500
+># From: 
+>/PN=GMP.M.ZELL/O=PAC.MAIL/ADMD=TELEMAIL/C=US/@sprint.com # 
+>Received: by sprint.com (SXG 6.0/scanf.7) with X.400
+>#         id 00f9:0Sua001; 8 Dec 92 13:15:27 
+>UT # Date: 8 Dec 92 09:08:24-0500
+># To: strick@osc.com
+># Subject: Test 
+>message # Message-Id:
+>#         
+><"FGJC-5476-4950/08"*/PN=GMP.M.ZELL/O=PAC.MAIL/ADMD=TELEMAIL/C=US/@spr t.com>
+>#
+># From: MCKEEMAN at 
+>MZ-Atlanta # Date: 12/8/92 
+>9:04AM
+>#    This is a test of my cc:Mail internet connectivity. This is 
+>only #    a test. see if you can send me something back, Strick...
+>#
+>#    If this works, I'll be able to see MIME...
+>#
+>#
+        Hello again - For your notes, the "To:" field worked great. As for the 
+macro to "quote" another message, it needs work. I'm going to do a windows trick
+and do it in a roundabout way.
+
+        BTW, I'm gonna send you a tif file.
+
+File item: NOZZLE3D.GIF
+
+
+File item: NOZZLE3D.TIF
+
+
+
+
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  
+Xanalogical archive access soon.  Death to Microsoft.
+________________________________________________________________________
+________________________________________________________________________
+

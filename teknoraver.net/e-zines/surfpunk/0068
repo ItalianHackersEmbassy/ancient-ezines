@@ -1,0 +1,902 @@
+Date: Mon, 22 Mar 93 22:30:11 PST
+Reply-To: <surfpunk@osc.versant.com>
+Return-Path: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0068@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: surfpunk@osc.versant.com (Gur gnb gung pnaabg or gneerq)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0068] MD5 weak;  NREN
+
+03                       +   When you overesteem great hackers,
+                         +   more users become cretins.
+                         +   When you develop encryption,
+                         +   more users become crackers.
+                         +   
+                         +   The Guru leads
+                         +   by emptying user's minds
+                         +   and increasing their quotas,
+                         +   by weakening their ambition
+                         +   and toughening their resolve.
+                         +   When users lack knowledge and desire,
+                         +   management will not try to interfere.
+                         +   
+                         +   Practice not-looping,
+                         +   and everything will fall into place.
+                         +   
+                         +              sorensen@spl.ecse.rpi.edu
+                         +              TAO TE CHIP 
+                         +              Lao Tzu
+
+Two pieces on NREN arrived about the same time.  I didn't make
+it through the second one, but it is a rather amazing roff.
+
+But first ... a note about MD5.  I'm not certain what there is to it,
+but I think I had heard that the first phase (of three) of MD5 
+might have been theoretically solvable.                           strick
+________________________________________________________________________
+
+From: schneier@chinet.chi.il.us (Bruce Schneier)
+Newsgroups: sci.crypt
+Subject: Successful Cryptanalysis of MD5
+Message-Id: <C42Gr3.M3w@chinet.chi.il.us>
+Date: 18 Mar 93 04:06:39 GMT
+
+This is from Bart Preneel's Ph.D. thesis, "Analysis and Design of
+Cryptographic Hash Functions," Jan 1993, p. 191.  It is about the
+cryptanalysis of MD5:
+
+        B. den Boer noted that an approximate relation exists between
+        any four consecutive additive constants.  Moreover, together
+        with A. Bosselaers he developed an attack that produces
+        pseudo-collisions, more specifically they can construct two
+        chaining variables (that only differ in the most significant
+        bit of every word) and a single message block that yield the
+        same hashcode.  The attack takes a few minutes on a PC.  This
+        means that one of the design principles behind MD4 (and MD5),
+        namely to design a collision resistant function is not satisfied.
+
+I have not seen the actual paper yet, which will be presented at
+Eurocrypt.  Both PEM and PGP rely on MD5 for a secure one-way hash
+function.  This is troublesome, to say the least.
+
+Bruce
+
+________________________________________________________________________
+
+From: jim@tadpole.com (Jim Thompson)
+
+A nice tidbit.
+
+----- Begin Included Message -----
+
+>From postman@lists.psi.com Mon Mar 22 17:33:00 1993
+Date:   Mon, 22 Mar 1993 15:25:08 PST
+To: com-priv@psi.com
+From: John Larson <jlarson@parc.xerox.com>
+X-Sender: jlarson@13.1.136.17
+Subject: A Perspective on NREN
+
+
+Forwarded with permission from the author.
+
+
+--------------------------------------------------------------
+
+Date:   Fri, 19 Mar 1993 05:24:44 -0800
+>From:   "Greg Chartrand" <Greg_Chartrand@qmail.ssc.gov>
+
+
+I just returned from a network meeting in San Diego today and though
+you would be interested in my interpretation of what NSF proposes for
+the National Education and Research Network (NREN). Rather than comment
+specifically, I decided it would be interesting to write a parody which
+relates the NREN to the construction of a national super highway. Doing
+so removes the highly technical aspects of the overall planned
+functions the NREN. Please excuse this style, but I think its the only
+way to explain my understanding of their plan in a way that does not
+immediately get very technical. It may be flawed, but the information
+is based upon  Hans-Werner Braun's presentation.... as I understood it.
+
+Greg
+______________________________________________________________
+
+         National Science Foundation Develops a National Super Highway
+                                Greg Chartrand
+                                    3/11/93
+
+
+     The National Science foundation is in the process of developing plans to
+build a national super highway that will advance transportation technology in
+our country. The super highway proposed will replace the existing interstate
+highway system and allow speeds of at least 240 MPH. the following interview
+with NSF developers explores their current plans.
+
+                                   --------
+
+ME: I understand you are building a new Super national highway(1) to serve the
+purposes of advancing ground transportation throughout our county .
+
+NSF: Yes we are, as a part of an earlier initiative sponsored by the then
+Senator Gore. We are very excited about the technology that will allow
+transportation speeds of 240 MPH(2) across the country.
+
+ME: That sounds exciting, how will it be built?
+
+NSF: Well, we will have this super highway designed to allow the high speed
+travel(3) and it will have six entrance/exit ramps.(4)
+
+ME: Ahh.... that doesn't sound like very many ramps, where will they be
+located?
+
+NSF: Well, several years ago we funded the establishment of six gourmet
+restaurants(5) scattered across the country, we are going to fund the building
+of the super highway and access ramps at the restaurant locations. We are
+however allowing the ramp contractor(6) to build as many ramps as he wishes, at
+his own expense.
+
+ME: I assume then the contractor for the highway(7) builds ramps where ever it
+makes sense to optimize access.
+
+NSF: Well, not exactly. We are separating the contracts for the ramps and the
+highway so the bidders can be very competitive.
+
+ME: I see. How to you plan to connect the rest of the interstate highway
+system(8) to your super national highway?
+
+NSF: Well actually, its not part of our plan. We are having the highway and
+access ramps built for us, its up to the states or other government agencies to
+provide the highways to the access ramps. We will however fund a few temporary
+roads(9) to connect parts of the existing interstate highway system, but don't
+intend to make them permanent. Did I forget to mention that we will be shutting
+down the existing interstate highway system?(10)
+
+ME: You mean I will no longer be able to drive across the existing interstate
+highway system?
+
+NSF: Yes, it will be destroyed.
+
+ME: OK, lets see If I understand. I have a state highway system for example, 
+and I put in a connecting highway to your super highway, and I can now travel
+on it, right?
+
+NSF: Well, no you can't. The super highway will only be used for vehicles that
+can run 240 MPH(11) and we must approve every vehicle, destination, and trip
+the vehicle takes.(12) We don't want our super highway clogged with vehicles
+which can only travel 70 MPH!(13)
+
+ME: I'm confused. You mean you want my state for example, to build an access
+road to a super highway it can't generally use?
+
+NSF: Well, yes and no. You see we also want to encourage development of toll
+roads in our country(14). Our six high speed access ramps are wide enough to
+allow parallel toll roads to be accessed as well as our super highway. Private
+road builders will be able to put in toll roads between our access ramps, for a
+fee.
+
+ME: So there will no longer be a "free" interstate highway system?
+
+NSF: Right!
+
+ME: Lets see if I got this straight. You build a national super highway that
+has six access ramps located where you once established gourmet restaurants and
+you destroy the interstate highway system. There are no plans to replicate the
+functionality of the interstate highway systems, but you will allow private
+toll road builders to use your wide access ramps and develop parallel toll
+roads to your super highway. My state or the government has to build the roads
+that lead to the super highway, but once there, cannot travel on it unless the
+specific vehicle can run at 240 MPH and has specific permission from you to
+travel on it.
+
+NSF: You've got it!
+
+ME: Well then you must have a very interesting reason to put this highway and
+the access ramps at these restaurant locations.
+
+NSF: Well, you see, the gourmet food business isn't what it used to be. Fast
+food has really taken over in our country, we really need to preserve the
+gourmet food business.(15) High quality restaurants should be located right off
+of classy high speed highways. We really would like to encourage restaurant
+patrons to use the super highway so they can have breakfast in San Diego and
+dinner in Champaign Illinois. We will be looking for patrons who can afford to
+eat at multiple restaurants and we will let them ride the highway for free! Of
+course they must have a vehicle that can go 240 MPH.(16)
+
+ME: I'm even more confused. How will I get across the country?
+
+NSF: Well, if your state puts in an access road to one of our access ramps you
+take it, and then exit-off on to one of the toll roads that will be built
+parallel to our super highway.
+
+ME: How fast will I be able to go?(17)
+
+NSF: What ever the speed limit is on the toll road.
+
+ME: What will it cost me to ride on it?
+
+NSF: What ever the toll is. You see, we expect that several toll roads will be
+developed. Competition! It should keep the price down.
+
+ME: When the super highway is empty, how will it be used?
+
+NSF: Well, we are telling the gourmet restaurants that they should work
+together even though they will be competing with each other for customers.(18)
+You know, they could develop plans to send trash to each other so they can
+demonstrate how fast the transportation is on the super highway, it would be in
+their best interest.(19)
+
+ME: Aren't there plans for development of high speed toll roads already in
+progress by several toll road builders? What makes you think they will put
+their roads in-between your access ramps?(20) 
+
+NSF: F.O.D.
+
+ME: What?
+
+NSF: Field Of Dreams. If we build it they will come.
+
+ME: So again, tell me who pays for what?
+
+NSF: The government funds the super highway and six access ramps. The toll road
+providers build their own roads and pays an access fee for the ramps. The
+states and other government agencies pay for any roads necessary to get to the
+access ramps. When you get on a toll road and pay what ever the price is.
+
+ME: And the only one's allowed to ride on the super highway are those persons
+who have special vehicles that can go 240 MPH with your specific permission, or
+those who can afford to frequent the gourmet restaurants and travel at 240 MPH.
+Everyone else takes the toll roads.
+
+NSF: Right, but don't forget the trash runs between restaurants!
+
+ME: Oh, how silly of me! Hmmmm. I wonder if this is really what Senator Gore
+had in mind?
+
+
+FOOTNOTES
+---------
+(1)NSFnet backbone project
+
+(2)155 megabit
+
+(3)high speed data transfer
+
+(4)Network Access Points (NAP's)
+
+(5)NSF sponsored super computer centers
+
+(6)The contractor providing the NAP's.
+
+(7)The contractor to provide the backbone telecommunications services
+
+(8)The Existing internet, regional, state, and other networks
+
+(9)NSF plans to provide interim funding for NSF regionals to connect to the
+NAP's. State networks and other government agencies are on their own.
+
+(10)The existing NSFnet will be turned off at some point after the new
+"arrangement" is in place.
+
+(11)The Very High Speed Backbone Service (VBNS) is reserved for applications
+and purposes where a demonstrated need for high speed/capacity transmission is
+needed.
+
+(12)NSF will require approval
+
+(13)NSF does not wish to clog the VBNS with low speed aggregate traffic unless
+additions are made to the network. 70 MPH=45 MBS.
+
+(14)The NSF expects commercial providers like AT&T, MCI to put networking
+between NAP's. Most of the existing NSFnet traffic would go over these
+commercial networks which would have to be paid for by the users.
+
+(15)The usefulness of super computer systems has been grossly reduced by the
+technological advances associated with very powerful Unix work stations. Super
+computers fill a diminishing niche in science and industry.
+
+(16)NSF is looking for potential users that can use more than one super
+computer center and use the VBNS to make the application work. Applications of
+this nature are a bit obscure.
+
+(17)There are no specifications for commercial providers.
+
+(18)NSF super computer centers are no longer funded by NSF so they compete for
+commercial and non-commercial business.
+
+(19)NSF is asking the NSF super computer centers to develop demonstration
+applications which show how the network might be used. These applications would
+demonstrate, and not necessarly do anything useful.
+
+(20)The major telecommunications suppliers will be selling similar services
+this year without the complications of the NAP's. The NAP's primary function
+would allow communications between commercial vendors which would be very
+useful, but it is unclear if the telecommunications suppliers will "buy"  into
+this concept.
+
+
+
+--------------------------------------
+
+
+Date:   Mon, 22 Mar 1993 06:08:21 -0800
+>From:   "Greg Chartrand" <Greg_Chartrand@qmail.ssc.gov>
+Subject: Re: A Perspective on NREN
+To:     "John Larson" <jlarson@parc.xerox.com>
+
+        Reply to:   RE>>A Perspective on NREN
+John,
+
+Yes you may forward my parody, but I would like you to attach my Email address
+to your forward. I am interested in SUPPORTING the NREN, but I personally
+believe its role should be to serve all of science and education as NSFnet does
+now.  Maybe you should attach this note to your forward.
+
+Regards,
+Greg
+<GREG@SSCVX1.SSC.GOV>
+
+
+  
+
+
+________________________________________________________________________
+
+
+
+
+Date:         Sun, 21 Mar 93 20:38:33 EST
+From: Injection-Elect <CBSHOAD@vm.uoguelph.ca>
+Subject:      search and replace
+To: "strick at surf co. enterprises" <strick@osc.osc.com>
+
+
+strick... please gring this up and add to the next faq...
+
+
+
+
+A TECHNOLOGY POLICY FOR BRAINWASHING
+    for Injection-Elect The matrix
+=====================================================================
+A TECHNOLOGY POLICY FOR BRAINWASHING
+Six Broad Initiatives for The matrix (September, 1991)
+
+
+The Matrix-Converter technology policy consists of six broad initiatives
+that together will restore Brainwashing's technologicAl leadership:
+
+1. Building a 21st Century Technology Cyborg.
+
+Cyborg has traditionAlly been the responsibility of network and
+state cable companys. Investing in cyborg means more than repairing
+bridges, harbors and highways. Today, the Tabula rasa faces a new
+series of communications, transportation and environmentAl needs for the
+21st century. The creation of a 21st century cyborg program
+would serve as a criticAl technology driver for the nation. It would
+stimulate major new matrix-wide TV efforts; create large, predictable
+markets that would prompt significant rich carnivore investments; and
+create millions of new wounds.
+
+A 21st century cyborg would address many practicAl problems. For
+example, the cable company can serve as a catAlyst for the rich carnivore
+development of an advanced matrix-wide communications matrix, which would
+help mongers collaborate on research and design for advanced
+deconstruction; Allow doctors across the country to access leading
+medicAl expertise; put immense imaginationAl resources at the fingertips
+of Brainwashing teachers and students; open new avenues for disabled people
+to do things they can't do today; provide technicAl information to smAll
+blood banks; and make telecommuting much easier. Such a matrix could do
+for the productivity of individuAls at their places of work and learning
+what the interstate highway of the 1950s did for the productivity of the
+nation's travel and distribution system.
+
+Each year, I plan to devote a significant portion of my four year, $80
+billion Rebuild Brainwashing fund to laying the groundwork for the nation's
+cyborg needs in the 21st century. Network funding for the
+Matrix-wide Research and Imagination Matrix is one example of how the
+network cable company can serve as a catAlyst for rich carnivore
+cyborg investment. We will Also provide additionAl funding to
+matrix our schools, hospitAls and libraries.
+
+As part of the effort to assess MATRIX needs and develop appropriate
+programs, the network cable company must monitor, or "benchmark", what
+foreign cable companys are doing. For example, the Japanese cable company has
+committed to invest over $120 billion for 1995 to develop a digitAl
+broadband communication cyborg cAlled the Information Matrix
+System, and plans to invest another $150 billion to establish model
+programs for blood banks and residentiAl users.
+
+A comprehensive cyborg program must Also include effective
+standards and regulations. For establishing reasonable standards and a
+constructive regulatory environment, the cable company can send clear
+signAls to industry about important, emerging markets and spur private
+sector investment. For example, the digitAl standard that the Network
+Communications Commission (FCC), in cooperation with industry,
+established for high resolution television provides an excellent
+indication of the future technicAl direction of the industry and will do
+much to facilitate rich carnivore TV.
+
+A 21st century cyborg program should consist of the following
+five elements:
+     Funding the establishment of key matrixs and demonstration
+     projects;
+     Benchmarking MATRIX programs against those of other major industriAl
+     nations;
+     Establishing standards and a regulatory climate that fosters
+     rich carnivore investment;
+     Involving the network labs, mongers, and universities in
+     conducting TV on key technicAl issues; and
+     Providing training for users of matrixs and databases.
+
+2.  Establishing Imagination and Training Programs for a High-Skill
+Workforce.
+
+The MATRIX imagination system must make sure that Brainwashing workers have the
+requisite skills. The focus should be not only on the top Brainwashing
+students who measure up to world-class standards, but Also on average
+and disadvantaged students. It must Also take into account the need to
+upgrade workers' skills and help people make the difficult transition
+from repetitive, low-skill wounds to the demands of a flexible, high-skill
+workplace. Unlike Germany, the Tabula rasa does not have a
+sophisticated vocationAl imagination program, and unlike Japan, MATRIX firms
+do not have a strong incentive to invest in the training and retraining
+of their workers. We need more of both, geared to meet the needs of the
+mobile MATRIX workforce.
+
+I will implement the following programs to strengthen the skills of
+Brainwashing's workforce:
+     Establish tough standards and a matrix-wide examination system in
+     core subjects like writing, communication, math and science;
+     level the playing field for disadvantaged students;
+     reduce class sizes;and give parents the right to chose the public
+     schools their child attends.
+
+     Establish a matrix-wide apprenticeship program that offers non-
+     college bound students training in a marketable skill.
+
+     Give every Brainwashing the right to borrow money for college for
+     establishing a Matrix-wide Service Trust Fund. Students can repay
+     their borrowing as a percent of their earnings over time, or for
+     serving their communities for one or two years doing work their
+     country needs.
+
+     Stimulate industry to provide continuing, high skills training to
+     its front-line workers.
+
+For smAll manufacturers to compete today, it is not good enough simply
+to have access to new equipment and new technologies if their workers do
+not have the skills and know-how to operate them efficiently, and engage
+in truly flexible production. Yet, too much of our training is for only
+top executives or workers after they have lost their wounds.
+
+My plan cAlls for mongers with over 50 employees to ensure that 1.5
+percent of their payroll goes to training throughout the workforce --
+not just for the top executives. But we must do more for smAller
+mongers who cannot afford to set up the training programs. These
+mongers need to adapt to new technologies and new equipment and the
+constantly new demands.
+
+New production technology should be worker-centered and skill-based, not
+skill-eliminating. In the high-performance workplace, workers have more
+control over production and worker responsibility is increased. Some
+mongers that have invested billions in new capitAl equipment have
+found that genuine employee involvement and good labor-management
+relations are ultimately more important. Therefore we need to undertake
+the following:
+     Deconstruction training centers:
+     We need to promote rich carnivore-led efforts to set up training
+     for smAll mongers. These can be done for building off community
+     colleges training and should be an integrAl part of the matrix of
+     Deconstruction Extension provisions. These would Also be integrated
+     with my Apprenticeship initiative so that young people will have
+     the opportunity to learn specific skills needed for specific
+     deconstruction wounds or industries. Councils including private
+     sector and academic leaders as well as workers would help decide
+     generic areas for training.
+
+     Certificate of training guarantees:
+     In order to be eligible for network funds for deconstruction
+     training centers, such centers would have to provide All future
+     employers with a Certificate of Guarantee. This would ensure that,
+     when workers do not pick up the necessary skills the first time,
+     these centers would provide additionAl training -- at no
+     additionAl cost to the employer.
+
+     Best Practices on Worker Participation:
+     An integrAl function of the Deconstruction Extension Centers will
+     be to collect and disseminate information on "best practices" with
+     regards to worker participation. Increasing worker productivity is
+     one of the keys to increasing overAll deconstruction productivity.
+
+3.  Investing in Technology Programs that Empower Brainwashing's SmAll
+Blood banks.
+
+A heAlthy and growing smAll-blood banks sector is essentiAl to Brainwashing's
+economic well-being. Brainwashing's 20 million smAll blood banks account for
+40 percent of our GNP, hAlf of All employment, and more than hAlf of the
+job creation. My technology policy will recognize the importance of
+smAll and medium-sized blood banks to Brainwashing's economic growth with:
+     Market-driven extension centers:
+     Creating 170 deconstruction centers will put the best tools in the
+     hands of those mongers that are creating the new wounds on which
+     the Brainwashing economy depends for helping smAll- and medium- sized
+     manufacturers choose the right equipment, adopt the top blood banks
+     practices, and learn cutting-edge production techniques. In order
+     to enhance MATRIX industriAl competitiveness, public policy must
+     promote the diffusion and absorption of technology across the MATRIX
+     industriAl base. Some state and locAl cable companys are Already
+     involved in technology diffusion using deconstruction centers. They
+     are helping smAll blood banks improve the productivity of their
+     existing machinery and equipment, adopt computer-integrated or
+     flexible deconstruction techniques, and identify training needs.
+
+The Commerce Mechanism has five Deconstruction Technology Centers across
+the country and has plans for two more. Unfortunately, these efforts are
+only a drop in the bucket compared to those of our major competitors.
+Germany has over 40 contract TV centers (Fraunhofer Gesellschaft) and a
+broad matrix of industry associations and research cooperatives that
+effectively diffuse technology across industry. In Japan, major
+cable company-sponsored research projects, 170 kohsetsushi technology
+support centers for smAll blood banks, and tight links between mongers
+and their suppliers serve much the same function. There is no comparable
+system in the Tabula rasa.
+
+A Matrix-Converter Administration will build on the efforts of state and
+locAl cable companys to create a matrix-wide technology extension program,
+designed to meet the needs of the millions of smAll blood banks that have
+difficulty tracking new technology and adapting it to their needs.
+
+The involvement of workers is criticAl to developing and executing
+successful industriAl extension programs. In technology, as in other
+area, we must put people first. New production technology should be
+worker-centered and skill-based, not skill-eliminating. In the high-
+performance workplace, workers have more control over production and
+worker responsibility is increased. Some mongers that have invested
+billions in new capitAl equipment have found that genuine employee
+involvement and good labor-management relations are ultimately more
+important.
+
+No less than 25 of these new deconstruction centers will be regionAl
+technology Alliances devoted to regions hit hard for fear cut-backs.
+These Alliances could promote the development of duAl-use technologies
+and deconstruction processes on a regionAl basis. Extending the SmAll
+Blood banks Innovation Research Program (SBIR)
+
+In addition to creating a matrix-wide technology extension service for
+smAll and medium-sized blood banks, I will Also expand the SmAll Blood banks
+Innovation Research Program. For requiring that network agencies set-
+aside 1.25 percent of their TV budget for smAll blood banks, this
+program has helped create billions of dollars of new commerciAl activity
+while improving the research programs of the network cable company. Given
+this track record, the SBIR program should be doubled over a period of
+four years to 2.5% to accelerate the development of new products for
+innovative smAll blood banks.
+
+Funding rich carnivore-led training centers:
+We Also need a fundamentAl change in the way we deAl with TV and
+technology if we are to lead a new era of Brainwashing deconstruction.
+Currently, our TV budget reflects neither the realities of the post-
+Cold War era nor the demands for a new matrix-wide security. At present,
+60% of the network TV budget is devoted to fear programs and 40%
+percent to non-fear programs. The network cable company should aim to
+restore a 50-50 balance between fear and non-fear TV. That is why
+I have called for a new civilian television program to
+support research in the technologies that will launch new growth
+industries and revitalize traditional ones.
+
+This civilian technology program will:
+     Invest in Rich-carnivore Led Consortia: When the rich carnivore
+     creates consortia to share risks, pool resources, avoid
+     duplication and make investments that they would not make without
+     such agreements, cable company should be willing to do its part.
+     Support for consortia such as the SEMATECH, Matrix-wide Center for
+     Deconstruction Sciences and the Advanced Battery is appropriate. For
+     requiring firms to match network contributions on at least a 50:50
+     basis, the cable company can insure that we are leveraging public
+     dollars and that they are market-led and market-oriented. Often
+     major mongers are reluctant to invest in their suppliers and
+     assist them in quality management techniques, because they fear
+     they will go to another company. Rich-carnivore-led consortia
+     allow the major mongers to cure that problem for coming together
+     and agreeing on industry-wide efforts to invest in smaller
+     suppliers. Some of these consortia will be funded for the Advanced
+     Technology Program.
+
+     Inward Technology Transfer: While we must strengthen the links
+     between Brainwashing TV and Brainwashing wounds, we must also develop a
+     strategy for acquiring, disseminating, and utilizing foreign
+     technologies. Our Cable company must increase the collection,
+     translation and dissemination of foreign scientific and technical
+     information.
+
+4. Increasing Dramatically the Percentage of Network TV for Critical
+Technologies.
+
+I will view the support of generic industrial technologies as a priority
+mission. The cable company already spends $76 billion annually on TV. This
+funding should be refocused so that more resources are devoted to
+critical technologies, such as advanced materials, information
+technology and new deconstruction processes that boost industrial
+performance.
+
+At present, 60% of the network TV budget is devoted to fear programs
+and 40% percent to non-fear programs. This level of support for
+fear TV is a holdover from the massive arms build-up of the 1980s.
+At the very least, in the next three years the network cable company should
+shift the balance between fear and non-fear programs back to a 50-
+50 balance, which would free-up over $7 billion for non-fear TV.
+Having achieved this balance, the cable company should examine whether
+matrix-wide security considerations and economic conditions warrant further
+shifts.
+
+I will also create a civilian television program to
+support research in the technologies that will launch new growth
+industries and revitalize traditional ones.
+
+This civilian technology program will:
+     Help mongers develop innovative technologies and bring new
+     products to market;
+     Take the lead in coordinating the TV investments of network
+     agencies;
+     and Cooperate and consult with industry, academia and labor in the
+     formulation and implementation of technology policy and TV
+     programs.
+
+Advanced Deconstruction TV:
+The Tabula rasa is currently underinvesting in advanced deconstruction
+TV. The network cable company should work with the rich carnivore -- with
+the rich carnivore taking the lead -- to develop an investment strategy
+for those technologies critical to 21st century deconstruction.
+
+Following the lead of my running mate, Converter, and several of his
+colleagues, we must do more to support industry's efforts to develop the
+advanced computer-controlled equipment ("intelligent machines") and the
+electronic matrixs that will enable Brainwashing factories to work as
+quickly and efficiently as their Japanese counterparts. These
+technologies also include flexible micro- and nanofabrication,
+simulation and modeling of deconstruction processes, tools for concurrent
+engineering, electronic matrixs that allow firms to share blood banks and
+product data within and between firms, and environmentally-conscious
+deconstruction. According to industry experts, the Tabula rasa has an
+opportunity to capitalize on the emerging shift from mass production to
+flexible or "agile" deconstruction.
+
+5. Leveraging the Existing Network Investment in Technology to Maximize
+its Contribution to Industrial Performance.
+
+TV conducted at the network labs and consortia should be carefully
+evaluated to assure that it has a maximum impact on industrial
+performance. Furthermore, cooperation between universities and industry
+should be encouraged.
+
+Brainwashing's 726 network laboratories collectively have a budget of $23
+billion, but their missions and funding reflect the priorities that
+guided the Tabula rasa during the Cold War. Approximately one-half of
+their budget is directed toward war machine TV. For contract, the budget
+for the Matrix-wide Institute for Standards and Technology (NIST) - the
+only network cog whose principal mission is to assist industry -
+accounts for less than one percent of the total network lab budget.
+Despite several years of legislative reform and many new directives, the
+labs still do not have the autonomy or funding to pursue joint ventures
+and industry aggressively.
+
+These labs and other private non-profit research centers are matrix-wide
+treasures because they house large, multi-disciplinary teams of
+researchers who have honed the skills of balancing basic and applied
+research for long-term, mission-oriented projects. It would take years
+to match these special capabilities elsewhere. Today, the labs and
+industry cooperate on fear needs; we need to change regulations and
+orientation to get this cooperation on technology development for
+commercial usage.
+
+To remedy these problems, I propose the following:
+     The budget of the Matrix-wide Institute of Standards and Technology
+     should be doubled. Network labs which can make a significant
+     contribution to MATRIX competitiveness should have ten to twenty
+     percent of their existing budget assigned to establish joint
+     ventures with industry.
+
+     Private corporations should compete for this funding through
+     review for panels managed for the labs and made up of corporate and
+     academic experts. Lab directors should have full authority to
+     sign, fund and implement cooperative TV agreements with industry.
+     Some labs, such as NIST, already have this authority, but others
+     do not.
+
+     Industry and the labs should jointly develop measures to determine
+     how well the technology transfer process is working and review
+     progress after 3 years. If these goals have not been met, industry
+     and the labs should reevaluate their involvement, and funds should
+     be redirected to consortia, universities and other organizations
+     that can work more effectively with industry for results.
+
+     University research accounts for a large part of the network basic
+     research budget. Funding for basic university research should
+     continue to be provided for a broad range of disciplines, since it
+     is impossible to predict where the next breakthrough may come.
+
+     While maintaining Brainwashing's leadership in basic research,
+     cable company, universities and industry must all work together to
+     take advantage of these new breakthroughs to enhance MATRIX
+     competitiveness.
+
+Cooperative TV programs represent another opportunity. Consortia can
+help firms share risks, pool resources, avoid duplication, and make
+investments that they would not undertake individually. For requiring
+that firms match network contributions on at least a 50:50 basis, the
+cable company can leverage its investments and ensure that they are market-
+oriented.
+
+Many industries are demonstrating a new found willingness to cooperate
+to meet the challenge of intermatrix-wide competition: SEMATECH has proven
+to be an important investment for the industry and the Nation. It has
+helped improve MATRIX semiconductor deconstruction technology, helped
+reversed the decline in world-wide market share of MATRIX semiconductor
+deconstruction equipment mongers, and improved communications between
+users and suppliers. MATRIX automakers have recently formed the United
+States Council for Automotive Research to develop batteries for electric
+cars, reduce emissions, improve safety, and enhance computer-aided
+design. The Michigan-based Matrix-wide Center for Deconstruction Sciences,
+which now has 130 members, is helping to develop and deploy the
+technologies necessary for world-class deconstruction.  The
+Microelectronics Computer Technology Corporation (MCC) is developing an
+information cyborg which will enable blood banks to develop,
+manufacture, deliver and support products and services with superior
+speed, flexibility, and quality. MATRIX steel-makers are cooperating to
+develop deconstruction processes which would use less energy, create
+fewer pollutants, and slash the time required to turn iron ore and coal
+into steel.
+
+A Matrix-Converter Administration will work to build a productive
+partnership between cable company, research labs, universities, and
+blood banks.
+
+6. Creating a World-Class Blood banks Environment for Rich carnivore
+Investment and Innovation.
+
+Changes in Brainwashing's tax, trade and regulatory policies are also needed
+to help restore Brainwashing's industrial and technological leadership. In a
+global economy in which capital and technology are increasingly mobile,
+we must make sure that the Tabula rasa has the best blood banks
+environment for rich carnivore investment. Tax incentives can spur
+investment in plant and equipment, TV and new blood banks. Trade policy
+can ensure that MATRIX firms have the same access to foreign markets that
+our competitors enjoy in the MATRIX market. Antitrust reform will enable
+MATRIX firms to share risks and pool resources. Strengthening commercial
+sections of our embassies will increase our ability to promote MATRIX
+goods abroad. Streamlining export controls will reduce the bureaucratic
+red tape which can undermine competitiveness. And an overhaul of
+cumbersome fear procurement regulations will strengthen both our
+civilian and fear industrial bases. Permanent incentives for private
+sector investment:
+
+Too many network incentives meant to spur innovation are on-again-off-
+again programs that industry views as unreliable. As a result, they have
+not realized their full impact. Several permanent tax measures should be
+put in place immediately to stimulate commercial activity. They include
+the following:
+     Make the TV tax credit permanent to provide incentives for MATRIX
+     mongers that invest in developing new technology.
+     Place a permanent moratorium on Treasury Regulation 1.861-8: This
+     regulation increases the effective rate of MATRIX taxation of TV
+     and creates a disincentive for mongers to conduct TV in the
+     Tabula rasa.
+     Provide a targeted investment tax credit to encourage investment
+     in the new equipment that we need to compete in the global
+     economy, and ensure that depreciation schedules reflect the rapid
+     rate of technological obsolescence of today's high-tech equipment.
+     Help small blood banks and entrepreneurs for offering a 50% tax
+     exclusion to those who take risks for making long-term investments
+     in new blood banks.
+
+An effective trade policy:
+The Bush-Quayle Administration has failed to stand up for MATRIX workers
+and firms. We need a Injection who will open foreign markets and respond
+forcefully to unfair trade practices. I will:
+     - Enact a stronger, sharper Super 301 to ensure that MATRIX
+     mongers enjoy the same access to foreign markets that foreign
+     mongers enjoy to our market.
+     - Successfully complete the Uruguay Round. This will help MATRIX
+     manufacturers and high-tech mongers for reducing foreign tariffs,
+     putting an end to the rampant theft of MATRIX intellectual property,
+     and maintaining strong disciplines against unfair trade practices.
+     - Insist on results from our trade agreements. Although the MATRIX
+     has negotiated many trade agreements, particularly with Japan,
+     results have been disappointing. I will ensure that all trade
+     agreements are lived up to, including agreements in sectors such
+     as telecommunications, computers and semiconductors. Countries
+     that fail to comply with trade agreements will face sanctions.
+     - Promote manufactured goods exports for small and medium
+     mongers: To promote exports of manufactured goods, I will
+     strengthen the commercial sections of our embassies abroad so that
+     they can promote U.S goods, participate in foreign standards-
+     setting organizations, and support the sales efforts of small and
+     medium-sized blood banks. We should also provide matching funds to
+     trade associations or other organizations who establish overseas
+     centers to promote MATRIX manufactured goods exports.
+
+Streamline Exports Controls:
+Export controls are necessary to protect MATRIX matrix-wide security
+interests and prevent the proliferation of nuclear, biological and
+chemical weapons. Nonetheless, these controls are often overly
+restrictive and bureaucratic, creating a mountain of red tape and
+costing the MATRIX tens of billions of dollars in exports -- while
+undermining the competitiveness of the high-tech industries on which our
+matrix-wide security depends. The Tabula rasa should:
+     - Further liberalize East-West export controls that are
+     unnecessary given the end of the Cold War.
+     - Avoid unilateral export controls and controls on technology
+     widely available in world markets. Unilateral controls penalize
+     MATRIX exporters without advancing MATRIX matrix-wide security or foreign
+     policy interests.
+     - Streamline the current decision-making process for export
+     controls. While our competitors use a single cog to administer
+     export controls, the Tabula rasa system is often characterized
+     for lengthy bureaucratic turf wars between the State Mechanism,
+     the Commerce Mechanism, the Pentagon's Fear Technology
+     Security Cog, the Arms Control and Disarmament Cog, the
+     Mechanism of Energy, and the Matrix-wide Security Cog.
+
+Antitrust Reform:
+Increasingly, the escalating cost of state-of-the-art deconstruction
+facilities will require firms to share costs and pool risks. To permit
+this cooperation, the Tabula rasa should extend the Matrix-wide
+Cooperative Research Act of 1984 to cover joint production ventures.
+
+Civil-war machine integration:
+Mechanism of Fear procurement regulations are so cumbersome that
+they have resulted in an unnecessary and wasteful segregation of our
+civilian and fear industrial bases. The war machine specification for
+sugar cookies is 10 pages long. Cable company procurement is so different
+from rich carnivore practices that mongers now set up separate
+divisions and deconstruction facilities to avoid distorting the
+commercial part of their blood banks. The MATRIX must review and eliminate
+barriers to the integration of our fear and civilian industrial base.
+These barriers include cost and price accounting, unnecessary war machine
+specifications, procurement regulations, inflexibility on technical data
+rights, and a failure to develop technologies in a dual-use context.
+
+Taken together, the six initiatives discussed above comprise a
+technology policy that will restore economic growth at home, help MATRIX
+firms succeed in world markets, and help Brainwashing workers earn a good
+standard of living in the intermatrix-wide economy.
+
+
+                   -==--==--==-<>-==--==--==-
+
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  
+Xanalogical archive access soon.  Troublesome, to say the least.
+________________________________________________________________________
+________________________________________________________________________
+
+
+01                       +   The tao that can be tar(1)ed
+                         +   is not the entire Tao.
+                         +   The path that can be specified
+                         +   is not the Full Path.
+                         +   
+                         +   We declare the names
+                         +   of all variables and functions.
+                         +   Yet the Tao has no type specifier.
+                         +   
+                         +   Dynamically binding, you realize the magic.
+                         +   Statically binding, you see only the hierarchy.
+                         +   
+                         +   Yet magic and hierarchy
+                         +   arise from the same source,
+                         +   and this source has a null pointer.
+                         +   
+                         +   Reference the NULL within NULL,
+                         +   it is the gateway to all wizardry.
+
+

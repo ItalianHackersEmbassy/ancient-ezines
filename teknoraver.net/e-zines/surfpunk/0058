@@ -1,0 +1,503 @@
+Date: Thu, 18 Feb 93 18:42:56 PST
+Reply-To: <surfpunk@osc.versant.com>
+Return-Path: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0058@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: surfpunk@osc.versant.com (v jvyy abg vzznargvmr gur rfpungba)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0058] SOURCES: Virtual Zen; CuD; pHd in VR; Spunk; Oceania
+
+|                        My own opinion is that viruses are what will
+|                        finally put a stake through the heart of DOS.
+|                        It's a dirty job, but somebody has to do it.
+|                                             -- John Gilmore
+
+Someone sends me a copy of Computer underground Digest, to make
+sure we're aware of it.  I guess I assume most people on this list also
+read CuD -- if you only read one thing on the underground, CuD should
+be it.  For that reason, I seldom appropriate from CuD.  I'll
+include the headers from a recent CuD so you can subscribe, if
+you don't get it from the "comp.society.cu-digest" usenet group. --strick
+________________________________________________________________________
+________________________________________________________________________
+
+To: subgenius@mc.lcs.mit.edu
+Subject: Virtual Zen
+Date: Fri, 12 Feb 93 12:53:10 -0500
+From: Michael Travers <mt@media.mit.edu>
+
+% telnet cheshire.oxy.edu 7777
+Trying 134.69.1.253...
+Connected to cheshire.oxy.edu.
+Escape character is '^]'.
+
+Shhhhhhh......
+
+
+Amid the smell of incense and the sound of gongs and chanting, you have
+come upon the glorious Zen MOO.  Please be quiet, and enjoy your meditation.
+
+If you have performed meditation before, type:
+    connect <your meditation name> <your meditation password>
+
+If you wish to join the mediation and are new, type:
+    create <a meditation name> <a meditation password>
+
+But type softly!
+
+>> create sleepy yawn
+*** Created ***
+>> ?
+Your typing detracts from your enlightenment.
+A gong sounds quietly and a voice intones, "fenris leaves our meditation."
+>> who
+Meditate, or die.
+Name            Idle            Total Idle      Total Connect   Percent Idle
+- - ------------    ------------    ------------    ------------    ------------
+sleepy          0 seconds       0 seconds       16 seconds      0%
+Eriond          52 seconds      37 minutes      52 seconds      4311%
+Dream           40 seconds      a minute        a minute        76%
+>> look
+Enlightenment does not come from typing.
+>> look
+You are too restless to continue meditation.  Come back later.
+*** Disconnected ***
+Connection closed by foreign host.
+- - ---------------------------------------------------------------------
+
+From: t_pascal@oxy.edu. (C. Regis Wilson)
+Subject: New Mud
+Organization: Occidental College, Los Angeles, CA.  USA
+Date: Fri, 12 Feb 1993 03:24:44 GMT
+
+Hello fellow internetters.  There is a new MUD for meditation, called ZenMOO.   
+
+Everyone is invited.  It is free, and it is cool.  You simply telnet to the
+following address:
+    
+
+cheshire.oxy.edu 7777
+(134.69.1.253 7777)
+    
+
+Below are instructions!
+==============================
+(This file is available for anonymous ftp as follows:
+PC4.math.oxy.edu(134.69.1.134):/ftp/pub/zenmoo/zenguide.txt
+Use ascii transfer!!!)
+    
+
+Hello, and peace.
+        
+The internet is a holy thing, it is a sacred thing, and it is an internet
+thing.  Those who are less enlightened do not understand this.  Any intrepid
+internet citizen knows of the mystical nature of the internet.  However,
+there has been a lack of real spirituality on the internet.  There's Gopher
+(which is not very spiritual), Archie (a brutal, Diety-less barbarian), MUDs,
+MUCKs, MUSHes, and on and on.  Where is one to find mental tranquility and
+spiritual rest and relaxation?
+        
+You have found it, if you have found ZenMOO.  ZenMOO is dedicated to
+meditation for the weary internet wanderer.  Here is how to use ZenMOO:
+        
+        
+        
+        
+When you first connect (however you do so), you will need to create a
+meditation name.  Think of a good name, and a good password to go with it.
+Store both of these in a file for safe keeping.  You can use your meditation
+name and password whenever you feel weary and faint.  Enter the following,
+substituting the name and password you have chosen.
+        
+                create <name> <password>
+        
+You might want to make sure the name is capitalized properly.  Press return
+(as always).  You are now connected.  It will tell you so.  Your first
+reaction will be to look around, or see who is connected.  Do not do this.
+Do not type anything.  Simply take a deep breath, crack your knuckles (if you
+have any), and wait.  In a few seconds, your breathing will become regular,
+and you will feel very relaxed.  Perhaps a wise saying will appear for you to
+read and meditate upon.  (By the way, the next time you connect to the
+ZenMOO, type the following to use your meditation name:
+        
+                connect <name> <password>
+        
+You do not need to create a new name every time you connect.)
+        
+Continue to meditate.  When you are more relaxed, and able to move slowly and
+deliberately, you have several commands at your finger tips.  Be very careful
+not to type too much, however!  I would suggest typing only once a minute.
+You must be very still, and very peaceful, or you will disturb the other
+meditators.  If you are disruptive, you will be kicked off!  Here are your
+commands:
+        
+                who             (or @who)
+                inventory       (or simply "i")
+                look            (or simply "l")
+                go north        (or simply "north", or even more simply, "n")
+                go south
+                go east
+                go west
+                go up
+        
+Now, to make sure that you are really meditating, and not just in another
+shell, you will be asked a question or riddle from time to time.  You will
+want to answer as quickly as possible, in order to keep from appearing
+asleep.  Students have dozed off during meditation and been booted, loosing
+their vital idle statistics, and living in shame.  Let me explain the output
+from the "who" command.
+        
+The first column is the meditator's name.  The second column will tell you
+how long they have been meditating, that is, how long they have been idle.
+Long periods of idle time are very esteemed, and difficult to get.  The third
+column tells you how much total idle time a meditator has accrued, over the
+course of many sessions.  The fourth column tells you roughly how long the
+meditator has been using the ZenMOO facilities, across sessions.  The last
+column is very important.  It tells you the ratio of total idle time to total
+usage time.  High percentages mean a very restful, yet alert meditator.  Low
+percentages reflect poorly on a fidgety meditator.
+        
+>From time to time, to facilitate the meditation, wise sayings will be printed
+for your reading, meditating pleasure.  Some sayings will be wise statements,
+but others will be mantras, computationally formed to maximize the meditation
+relaxation and spiritual healing.  To get the full use of the mantras, try
+reading them as a chant, concentrating on the breathing and tempo to synch
+your spiritual energies.
+        
+Enjoy the ZenMOO.  Meditate well, and receive your favorite Deity's blessing.
+Thank you.
+- - ---------
+T. Pascal, King of Pascal          | "He travels fastest who travels alone,
+1600 Campus Road, Box 829          | but not when the frost drops below zero
+Los Angeles, CA 90041              | fifty degrees or more."
+
+------------------------------
+
+
+________________________________________________________________________
+
+[ Just the header, FYI.  You *must* read this journal.     --strick ]
+
+Computer underground Digest       ISSN  1004-042X
+
+       Editors: Jim Thomas and Gordon Meyer (TK0JUT2@NIU.BITNET)
+       Archivist: Brendan Kehoe
+       Shadow-Archivists: Dan Carosone / Paul Southworth
+                          Ralph Sims / Jyrki Kuoppala
+       Copy Editor: Etaion Shrdlu, Junoir
+
+Cu-Digest is a weekly electronic journal/newsletter. Subscriptions are
+available at no cost from tk0jut2@mvs.cso.niu.edu. The editors may be
+contacted by voice (815-753-6430), fax (815-753-6302) or U.S. mail at:
+Jim Thomas, Department of Sociology, NIU, DeKalb, IL 60115.
+
+Issues of CuD can also be found in the Usenet comp.society.cu-digest
+news group; on CompuServe in DL0 and DL4 of the IBMBBS SIG, DL1 of
+LAWSIG, and DL0 and DL12 of TELECOM; on GEnie in the PF*NPC RT
+libraries and in the VIRUS/SECURITY library; from America Online in
+the PC Telecom forum under "computing newsletters;" on the PC-EXEC BBS
+at (414) 789-4210; in Europe from the ComNet in Luxembourg BBS (++352)
+466893; and using anonymous FTP on the Internet from ftp.eff.org
+(192.88.144.4) in /pub/cud, red.css.itd.umich.edu (141.211.182.91) in
+/cud, halcyon.com (192.135.191.2) in /pub/mirror/cud, and
+ftp.ee.mu.oz.au (128.250.77.2) in /pub/text/CuD.
+European readers can access the ftp site at: nic.funet.fi pub/doc/cud.
+Back issues also may be obtained from the mail server at
+mailserv@batpad.lgb.ca.us.
+
+COMPUTER UNDERGROUND DIGEST is an open forum dedicated to sharing
+information among computerists and to the presentation and debate of
+diverse views.  CuD material may  be reprinted for non-profit as long
+as the source is cited.  Some authors do copyright their material, and
+they should be contacted for reprint permission.  It is assumed that
+non-personal mail to the moderators may be reprinted unless otherwise
+specified.  Readers are encouraged to submit reasoned articles
+relating to computer culture and communication.  Articles are
+preferred to short responses.  Please avoid quoting previous posts
+unless absolutely necessary.
+
+DISCLAIMER: The views represented herein do not necessarily represent
+            the views of the moderators. Digest contributors assume all
+            responsibility for ensuring that articles submitted do not
+            violate copyright protections.
+
+________________________________________________________________________
+
+From: wixer!wixer.cactus.org!loch@bigtex.cactus.org (Travis Zornes)
+Newsgroups: sci.virtual-worlds
+Subject: EDUC: List of Masters and PhD Programs in VR
+Date: 13 Feb 93 07:34:42 GMT
+
+
+   Before I list the compilation of what has been e-mailed to me about
+courses of study dealing with VR, I need to state a few things.
+
+   1. Due to being new to Internet and my mailreader, I am unable to
+figure out how to clip from more than one message, so any typos seen
+below are mine.
+
+   2. Although no one gave me direct permission to repost their
+e-mails, I did state that I would post a compilation of what I
+received. In other words I hope I am not offending anyone, or breaking
+any trusts.
+
+Ok so here is what I have gotten...
+----------------------------------------------------------------------------
+     From: joro@panix.com
+
+  I hold a master's degree from New University's Interactive
+Telecommunications Program -- part of the Tisch School of the Arts (Nyu's
+film, television, and drama dept.)...
+
+  The degree is a cross between art and new technology, stepping also
+into the realm of social issues associated with emerging digital
+technologies...
+
+                              [Stuff Deleted]
+
+  I can't say enough good things about the program and would suggest
+to anyone interested in areas such as VR that they find out more about
+the place and perhaps consider sending in an application...
+
+  No PhD offered -- just a two-year/60 credit M.P.S. degree ...
+-----------------------------------------------------------------------------
+     From mel@dcs.qmw.ac.uk
+
+  If you're interested in coming to the UK, we offer PhD places and a
+Masters course that includes Virtual Environments.
+
+Mel Slater
+Department of Computer Science
+QMW University of London,
+Mile End Road,
+London E1 4NS,
+UK
+----------------------------------------------------------------------------
+
+  Ok, now just a few more things... I would hope that you don't write
+to the people that were kind enough to respond to me, I only posted
+who it was from, so that I could give credit were credit was due.
+Please contact the respective universitys first and see what info you
+can find out first.
+
+  And second, I was rather disappointed with the amount of responses.
+I would still love any information about colleges with any programs in
+VR, and I know (well hope) that there are more than two ...:) So
+Please e-mail me any info or leads you may have, and I will once again
+compile it and repost.
+
+  Also any information from anyone about self-education concerning VR,
+such as what languages would be best to know, what books might be
+educational, companies that offer internships, etc, etc, will be
+appreciated, by not only me, but by any others trying to get into the
+field. Not to mention the VR field that will be boosted by all this
+new education.
+
+  Please respond and I will compile and repost.     Thank you,
+                                                       Travis Zornes
+
+
+
+________________________________________________________________________
+
+Date: Fri, 12 Feb 1993 19:34:13 +0100
+From: cardell@lysator.liu.se
+Subject: spunk press
+
+
+Spunk Press Manifesto Version 1.1                  January 10 1993
+
+                              @
+
+                     S P U N K  P R E S S
+
+The excuse for the existence of SPUNK PRESS is the desire of some
+individuals to see alternative literature continue to flourish, but
+this time online!
+
+The policy of SPUNK PRESS is to act as an independent publisher of
+works converted to, or produced in, electronic format and to spread
+them as far as possible on the Internet and in the BBS society free of
+charge. The work may not necessarily originate from someone with net
+access. The major interest of SPUNK PRESS is alternative literature
+and anarchist material, both old, converted, and newly produced.
+
+We want to help zine editors, flypost authors and others who desire a
+wider audience to convert or to produce their works in an electronic
+format and give them the opportunity to use our distribution channels,
+FTP sites, mailing lists and whatever other means we might have within
+our powers.
+
+We welcome fanzines, pamphlets, books and portions of books, articles,
+manifestos, quotations, interviews, bibliographies, reviews, posters,
+and other material, both in-print and out-of-print.
+
+You can snarf what we have published so far from:
+
+  red.css.itd.umich.edu 141.211.182.92
+  /poli/Spunk/texts
+
+This manifesto and other internal Spunk Press documents can be found in
+/poli/Spunk/info; in particular, there is an introduction to the archive
+in /poli/Spunk/info/Introduction.  To submit material, get the file
+/poli/Spunk/info/How.To.Submit from the FTP site mentioned above or contact
+the editorial collective.
+
+If you do not have ftp access, you can get documents by sending electronic
+mail requests to a mail server (such as ftpmail@decwrl.dec.com).  Type "help"
+in the body of the message for instructions to change and list directories,
+and retrieve files from the archive.
+
+To get on our mailing list send a note to
+
+  spunk-list-request@lysator.liu.se
+
+so you can be a part of the coordination of actions taken.
+
+The mailing list is the forum for decision making at SPUNK PRESS, but
+if there is no clear consensus, or the consensus is at variance with
+anarchist ideas, the collective decides.
+
+The collective is composed of people with a reasonable commitment to
+doing some aspect of the work at SPUNK PRESS, and will be extended to
+those who are like-minded.
+
+If you would like to reach the editorial collective of SPUNK PRESS,
+write to:
+
+  Mikael Cardell <cardell@lysator.liu.se>
+  Linkoping
+  SWEDEN
+
+  Ian Heavens <ian@spider.co.uk>
+  Edinburgh
+  SCOTLAND
+
+  Chuck Munson <ctmunson@macc.wisc.edu>
+  c/o Practical Anarchy
+  PO Box 173
+  Madison, WI 53701-0173
+  U.S.A
+
+  Jack Jansen <jack.jansen@cwi.nl>
+  Amsterdam
+  HOLLAND
+
+Spunk Press Manifesto Version 1.1                  January 10 1993
+________________________________________________________________________
+
+Date: Fri, 12 Feb 1993 19:36:09 +0100
+From: cardell@lysator.liu.se
+Subject: Call for submissions
+
+                          @
+
+                S P U N K   P R E S S
+
+CALL FOR MATERIALS!
+
+The Spunk Press archive is starting to collect material broadly
+relating to anarchism.  Got anything online?  Know someone with
+something interesting on disk or tape?  Do you have access to an OCR
+and are willing to scan material?  Send electronic mail to Ian Heavens
+<ian@spider.co.uk>.
+
+mikael cardell <cardell@lysator.liu.se>
+
+          S P U N K  P R E S S
+
+________________________________________________________________________
+
+Date: Sun, 14 Feb 1993 21:06:15 -0500
+From: rderek@world.std.com (robert derek)
+Subject: FLUX
+
+FLUX is a quarterly publication dealing with Implications and Applications of
+Changing Worlds.Topics include:
+cyber-culture
+cryonics
+anarchism
+better living through chemistry
+Computer Netting
+Liberation in all its forms.
+Future-tech
+etc.
+Contact: FLUX
+         200 Market St. A-21
+         Lowell,Ma. 01852
+e-mail:  rderek@world.std.com
+         fluxu8@well.sf.ca.us
+
+sample copy/$4.00
+subscript/$10.00
+
+Hope this helps.
+
+________________________________________________________________________
+
+Date: Tue, 16 Feb 93 16:03:28 PST
+From: Eric_S_Klien@cup.portal.com
+Subject: OCEANIA
+To: libernet@Dartmouth.EDU, 76216.2726@compuserve.com, sjackson@tic.com,
+
+I have created a constitution and set of laws for a new country.
+These documents are still in the rough draft stage.  Once the
+constitution is completed, I WILL be working with Mike Oliver to
+actually create the country of OCEANIA which will initially be a sea
+city.  I look forward to suggestions on how to improve the
+constitution and the laws for this country.
+
+Please note that my first ad in Reason will be running in only about
+two weeks.  This ad was created before I had met Mike Oliver so it
+doesn't mention Oceania, instead it mentions a country with the
+creative name of "Galt's Gulch".  Once this constitution is
+completed, a two page ad mainly featuring a picture of our sea city
+will be run in Reason.  Mike Oliver and I will be doing everything in
+our power to make sure that this project will be completed.
+
+If you would like to comment on this constitution, send me e-mail.
+
+Eric Klien
+
+
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  
+Xanalogical archive access soon.  Forwarding you the world.
+________________________________________________________________________
+________________________________________________________________________
+
+
+
+                                     >     auto accident;
+                                     >     register voters;
+                                     >     static electricity;
+                                     >     struct by_lightning;
+                                     >     void *where_prohibited;
+                                     >     char broiled;
+                                     >     short circuit;
+                                     >     short changed;
+                                     >     long johns;
+                                     >     unsigned long letter;
+                                     >     double entendre;
+                                     >     double trouble;
+                                     >		-- ?
+                                     
+                                             union organizer;
+                                             float valve;
+                                             short pants;
+                                             union station;
+                                             struct dumb by[sizeof member];
+                                             void check; unsigned check;
+                                     
+		                                     -- Peter da Silva  
+

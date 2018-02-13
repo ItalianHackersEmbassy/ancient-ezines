@@ -1,0 +1,574 @@
+Negative Creep Productions Presents:
+
+--------------------------------------- --  -
+          	NEGATiVE CREEP PRODUCTiONS - PULSE MAGAZiNE
+                            -  ----------------------------------------------
+
+
+Issue 1 Vol 1.
+Release Date: Apr 95
+
+
+This is a mag dedicated to grunge computing Net-Heds and Hard-Core
+Netsurfers, as well as the computer security industry and enthusists.
+
+This is the very first issue of what we hope will be a successful and
+informative magazine. Being the first issue, there was little free
+material about which we could publish. In the future however, we will
+gladly publish any original material which we find to be appropriate and
+helpful to our audience! ;)  
+
+Only time will tell.
+
+If you like this magazine, please send us some feedback, we'd love to hear
+from any of our readers out there. (lamer's send mail straight to: /dev/null).
+If you want to submit an article, please contact one of the editors
+addresses listed at the end of this intro.
+
+------------DiSCLAiMER--------------------------------------------------------
+
+In no event shall Pulse Magazine, or Negative Creep Productions be liable for
+consequential, incidental or indirect damages of any kind arising out of
+the delivery, performance or use of the information contained within the
+copy of this magazine, even if Pulse Magazine, or Negative Creep
+Productions has been advised of the possibility of such damages. 
+
+The contents of this magazine are for informational and educational
+purposes only. Pulse Magazine and/or Negative Creep Productions accept no
+responsiblity for any misuse of the information in this copy of this magazine.
+
+--------------------
+
+Basically folks, we write so you can learn, don't blame us if you get
+caught doing something illegal, we didn't make you do it.
+
+Enjoy.
+
+Contact addresses for NcP:
+
+TremorChrist	<an236012@anon.penet.fi>
+Etheroid	<an124651@anon.penet.fi>
+
+Send subissions.. comments, money, women, abuse and mail bombs to
+either of those anonymous addresses 
+__________________________________________________________________
+
+Band of the Month: Nirvana (anniversary of Kurt's death this month)
+Narc of the Month: Mind-9
+Lamer of the Year: Hellspawn
+Node of the Month: NcP home Node!!! (Not telling.....)
+Bust of the Month: Unique-1 & X-Cell
+___________________________________________________________________
+
+Contents:
+
+-1- "Your Unix Services" by the Etheroid 
+-2- "News Hack" by TremorChrist
+-3- "Mail Phraud" by the Etheroid
+-4- "IRChack" by TremorChrist
+
+-5- "NcP News" by TremorChrist
+
+Edited by: Tc, Etheroid
+
+--1-------------------
+
+
+"Your UNIX Services"
+
+Some people consider the etc directory to be the most important thing in thier
+lives. This can be very true if you haven't found out about women, drugs,
+alcohol, good music and buddism.(Well I haven't ever met a Buddist UNIX
+Maven). 
+
+However, nowadays, it's not just the passwd or opasswd files that we are 
+interested in. The file I'll discuss now is /etc/services. The services file is
+one of the most important files that a machine on the net has, unfortunately it
+is constantly overlooked by the casual browser.
+
+So, what's so good about the services file? huh?
+
+Well the services file contains the portmap for any UNIX system on the Net.
+
+Here is a heavily edited sample of an /etc/services file: (due to size and
+some other less significant reasons... ;) )
+
+tcpmux		1/tcp    			# TCP Port Service Multiplexer
+tcpmux		1/udp    			# TCP Port Service Multiplexer
+compressnet	2/tcp    			# Management Utility
+compressnet	2/udp    			# Management Utility
+compressnet	3/tcp    			# Compression Process
+compressnet	3/udp    			# Compression Process
+echo		7/tcp
+echo		7/udp
+discard		9/tcp		sink null
+discard		9/udp		sink null
+systat		11/tcp		users
+daytime		13/tcp
+daytime		13/udp
+netstat		15/tcp
+qotd		17/tcp		quote
+msp		18/tcp				# Message Send Protocol
+msp		18/udp				# Message Send Protocol
+chargen		19/tcp		ttytst source
+chargen		19/udp		ttytst source
+ftp-data	20/tcp
+ftp		21/tcp
+telnet		23/tcp
+smtp		25/tcp		mail
+nsw-fe		27/tcp				# NSW User System FE
+nsw-fe		27/udp				# NSW User System E
+msg-icp		29/tcp				# MSG ICP
+msg-icp		29/udp				# MSG ICP
+msg-auth	31/tcp				# MSG Authentication
+msg-auth	31/udp				# MSG Authentication
+dsp		33/tcp				# Display Support Protocol
+dsp		33/udp				# Display Support Protocol
+time		37/tcp		timserver
+time		37/udp		timserver
+rlp		39/udp		resource	# resource location
+graphics	41/tcp				# Graphics
+graphics	41/udp				# Graphics
+nameserver	42/udp		name		# IEN 116
+whois		43/tcp		nicname
+
+********
+
+gopher		70/tcp				# Gopher
+gopher		70/udp				# Gopher
+rje		77/tcp		netrjs
+vettcp		78/tcp				# vettcp
+vettcp		78/udp				# vettcp
+finger		79/tcp
+www		80/tcp				# World Wide Web HTTP
+www		80/udp				# World Wide Web HTTP
+hosts2-ns	81/tcp				# HOSTS2 Name Server
+hosts2-ns	81/udp				# HOSTS2 Name Server
+xfer		82/tcp				# XFER Utility
+xfer		82/udp				# XFER Utility
+
+******** (File shortened here.)
+
+nntp		119/tcp		readnews untp	# USENET News Transfer Protocol
+
+******** (File shortened here.)
+
+#
+# UNIX specific services
+#
+exec		512/tcp
+biff		512/udp		comsat
+login		513/tcp
+who		513/udp		whod
+shell		514/tcp		cmd		# no passwords used
+syslog		514/udp
+printer		515/tcp		spooler		# line printer spooler
+talk		517/udp
+ntalk		518/udp
+utime		519/tcp				# unixtime
+utime		519/udp				# unixtime
+efs		520/tcp				# for LucasFilm
+route		520/udp		router routed
+timed		525/udp		timeserver
+tempo		526/tcp		newdate
+courier		530/tcp		rpc
+
+It goes on and on
+
+Pretty ain't it!?! To explain what each and every one of these ports did would
+literally take for ever, luckily most of them are fairly self-explainitory. 
+
+Anywayz, to realise the potential of this document u must first understand that 
+in all cases here, for a port to be active, someone or something must be 
+running a daemon or process which will create the port. The /etc/services is 
+merely a map as to what number the port should be for which process.
+
+For example:
+
+The finger daemon uses p 79, unless the finger daemon (fingerd) is running
+(run by root), that port won't exist and the machine will refuse aby
+attempted connections to that port number. However it is still listed in
+the services folder in case it is run.
+
+(Many net nodes have shut down their fingerd, for sekurity reasons.
+However if you are on the machine, and have the right shell ax-s, you can
+still run the fingerd because it doesn't need to create an externally
+accessable port.) 
+ 
+How to use this info:
+To connect to a port on a machine is easy to initiate, u just telnet there, for
+example, this should give you the time:
+
+/>telnet 127.0.0.1 37
+
+
+Are there any /etc/services alternatives: 
+There used to be TCPMAP utilites, however they are mostly disabled these days,
+for "sekurity reasons". 
+
+Official NcP /etc/services Tour Of Duty:
+port 7			:echo
+port 9			:discard
+port 19			:chargen 
+port 21			:ftp
+port 23			:telnet
+port 25			:mail
+port 37			:time
+port 79			:finger 
+port 512		:exec
+port 513		:login
+port 514		:shell
+port 515		:printer
+port 6000		:X
+
+For more detailed information on the ports in this ToD, look out for more NcP 
+releases.
+
+"Kurdt, Ded?? Na man, he's eating pizza with Elvis"
+
+Etheroid/NcP
+
+
+
+--2---------------------
+
+
+"News Hack."
+
+    Okay here's how to post a news item without anyone being able to tell you
+posted it.. You can also make it appear someone else posted it too, that way the
+lamer will cop any flames your newspost causes.
+
+#    First step is to create a file in you home dir.
+
+touch kcahswen
+
+#    Then edit this file.
+
+vi kcahswen
+
+#    Put in the following headings
+
+From: Eddie Vedder
+Newsgroups: alt.binaries.warez.ibm-pc alt.test
+Subject: ALiVE
+Message-Id: <pearl.jam@your.domain.gov>
+
+#    Now leave a blank line and enter the body of your post.
+
+Oh she walks slowly, across a young man's room.
+She says "I'm ready... to fuck you"
+Now I can't remember anything to this very day.
+Except love..
+
+# Obviously after the From: heading you should stick in who you want the message
+# to have appeared to have been posted by.
+# In the Newsgroups area you put in the names of the newsgroups you wanna post 
+# to.
+# For the Subject: you simply stick in your subject..
+# and for message-id you put in the id for whoever you want.. the account DOES
+# NOT have to be a real account.. but it should be from your site... (ie if you
+# are doing this from netcom then stick in <user@netcom.com>
+
+# okay..  save that and then have to find the binary inews on your particular
+# machine... It's usually in the /usr/bin/news directory.. but it may be 
+# different on your site.. Once you've found it then from that path type.
+
+inews /home/username/kcahswen
+
+# Where /home/username is your home workspace. ($W)
+# And the message is away...
+# This method is much safer than simply tweaking your news configuration..
+# Happy hacking.. and be sure topost a binary on a.b.w.i..
+
+		'I'm not like them.. but I can pretend'
+                			- Nirvana
+
+				                    ~/Tc.NcP
+
+
+
+--3---------------------
+
+
+"Mail Phraud"
+
+SMTP spoken here
+
+Any external connections to a net.node require the use of a port. This file 
+explains a simple method by which almost any net.user can use the basic 
+functions of port 25 to their advantage. Port 25 is the mail port. (e-mail). 
+This is only a sample file, as to how this trick might be performed. This 
+information is not actually meant to be used.
+
+#type this:
+/> telnet
+telnet> open victim.com 25
+
+# Where victim.com is the victims machine (must be running sendmail daemon.)
+#This should appear:
+
+Trying......
+Connected to victim.com 
+Escape character is '^]'
+220 victim.com Sendmail AIX 4.1/UCB 5.64/4.03 ready at Wed,
+xx Mar 199x 12:08:36 -0x00
+
+#x's inserted by me! ;)
+#Then u type this:
+
+mail from:faker@faker.com
+
+#this will send the mail from: faker@faker.com (phunny that...) insert your own
+#version.
+#you should get this back:
+
+250 faker@faker.com... Sender is valid.
+
+#Next u define the recipient (person who gets the mail).
+#This has to be a real address, it checks. (not much point in sending it 
+#otherwise either)
+
+rcpt to:victim@victim.com
+
+#it replies:
+
+250 victim@victim.com... Recipient is valid.
+
+#Cool, now for the mail message, type 'data' , then press return. Now enter the
+#mail message, you can't go back up a line however, so be careful or you'll 
+#have to re-start:
+
+data
+354 Enter mail. End with the . character on a line by itself.
+This is only a Test.
+.
+
+#It'll say:
+
+250 Ok
+
+#Now, it's time to say goodbye.
+#You type:
+
+quit
+
+221 victim.com: closing the connection.
+Connection closed.
+
+telnet> 
+
+Other p25 functions:
+
+Of all the other SMTP functions, the two most useful are EXPN and VRFY, or
+expand and verify. These two commands simply enable you check on a users 
+existence and mail aliases:
+
+expn user1
+250 Mr_K-rad <user1>
+
+Also, always remember, if u get stuck, or want to try something else, type 
+HELP, most sendmail versions even have help on help:
+
+help help
+214-Usage: HELP [Topic]
+214-The HELP command gives help info.
+214 End of HELP information
+
+Hmmmmm.
+
+Q: How traceable is fake-mail?
+A: This is exactly how traceable fake-mail is: (where real.site.com is 
+the REAL machine used to send the mail ) 
+
+-------------------------------------------------------------------------------
+
+From Etheroid@test.com  Wed Mar 22 23:52:37 1995
+Return-Path: Etheroid@test.com
+Received: from real.site.com 
+(real.site.com [6.6.6.6]) by victim.com (8.6.9/8.6.9) with SMTP id 
+XAA19187 for
+ <victim@victim.com>; Wed, 22 Mar 1995 23:52:33 GMT
+From: Etheroid@test.com
+Received: from victim.com by real.site.com 
+(AIX 4.1/UCB 5.64/4.03) id AA06760; Wed, 22 Mar 1995 15:49:51 -0600
+Date: Wed, xx Mar 199x 15:49:51 -0x00
+Message-Id: <9503222149.AA06665@real.site.com>
+Apparently-To: victim@victim.com
+Status: RO
+X-Status: 
+ 
+This is a test, I hope you enjoyed it!
+regards,
+
+The Etheroid
+"Negative Creep Production's" 
+-------------------------------------------------------------------------------
+
+Things to notice here are that they have the actual sitename that u bounced 
+the mail off, so if u intend to send death threats to someone, u can actually 
+be traced back over numerous system logs to your mail alias and login times, 
+if u aren't careful (and if ESMTP isinvolved).
+
+"ESMTP spoken here"
+
+If you see this, then u have witnessed the end of an era. ESMTP is the new and
+improved SMTP, it sends your domain name regardless of whom you tell it the 
+mail is from. Look out for NcP solutions to this problem coming to a release 
+near you.
+
+
+"And remember folks, NcP does kiddies parties too!"
+
+
+Etheroid/NcP
+
+
+--4------------------
+---
+
+
+"IRC Hack"
+
+
+	This  hack allows you to enter irc as any user (either real or
+completely fabricated) from your domain. This is good if you know someone
+from your site is auto-oped by a bot.. or is on someone's friend-list.
+You just pretend to be them and get the opz... anyway.. here's how.
+
+	This is another application of telneting to selected ports.
+
+###
+# from your shell..
+
+telnet
+
+open irc.domain.com 6667
+
+# where irc.domain.com is the irc server you would like  to hack.. ie
+# jello.qabc.uq.edu.au ... then whenyou have connected to port 6667..
+
+USER dexter@offspring.com.au 0 0: Dexter BSc
+
+# depending on what sort of identd your machine and the irc server use
+# this will tell irc that either you are dexter@offspring.com.au or
+# dexter@your.domain. With Jello it is of the latter version.
+
+nick DeXTeR
+
+# The irc server will now talk to you.. giving you information about the
+# server  status. Youare now using  RAW irc.
+
+join #channel
+
+# with raw irc  you don'thave to /  before a command.. in fact you CAN'T
+# /command. If you wanna say something then you have to privmsg it to the
+# channel.
+
+privmsg #warez opz!?!
+
+# you can op others and use mostother commands normal irc uses..
+# youjusthave to get used to this  raw form.
+
+mode #warez +o NcP-BoT
+
+notice #warez ^B Packs Offered:^B
+
+kick #warez MiND-9 ^BNarc^B
+
+# etc.. enjoy.
+
+# This may not work on SOME servers.. there is this evil thing called an
+# identd which identifies you to the irc server. It can be hacked but it's a
+# long and slow process (see future editions) People with no identd get a ~
+# before their username (ie ~dexter@offspring.com.au) and this helps irc ops
+# and chops identify us hackers..  but windblows irc clients and amiga irc
+# clients are yet to support identd.. so this hack is still applicable.
+
+
+ 		'.. he put's his faith and love in... tremorchrist..'
+				- Pearl Jam
+
+
+					~/Tc.NcP
+
+
+
+--5---------------------
+
+
+"NcP News"
+Mar/Apr 95
+
+-----OXYGEN MEMBERS IN JAIL!!!-------------------------------------------
+
+	Yes, two of oxygen's former whq sysops are currently in jail on
+phone fraud charges along with other charges.. such as the possesion of
+illegal narcotics.
+
+	Unique-1 and X-Cell were arrested on the afternoon of Tuesday the
+28th of March on phone fraud charges.. the police also found trips and
+dope on them and these charges were added after the arrest.
+	
+	The trial is on the 18th of April.
+
+	Unique-1 (17) and X-Cell (18 - Formerly known as Refract) are
+charged with using $148,000 worth of phree phone calls by manipulating
+telephone exchanges and boxing tones.. Both were under 18 when the 'crime'
+was commited so they're pretty safe.. but it's a warning to phreakers.
+
+	X-Cell (refract) was the sysop of Digital Dreams BBS.. one of the
+fastest and most elite BBS's in the state.. he was also the guy who helped
+me out quite a bit when I was first starting out with the elite scene.. I
+did some favours for him.. plugged a few security leaks in his system..
+and he gave me a disabled ratio.. we smoked some drugs together.. we were
+mates... Good luck man... and remember to say "Sir, I have no clear
+recollection of those events" lots.
+
+	Unique-1 was a founding member of the super-elite OXYGEN and also
+the sysop of The Rave System. Another fast warez and hpavc board here..
+probably more exclusive than any other. I fondly remember phonecalls
+(phreaked of course) from him where he would offer me bulbz and threaten
+to come over and rape my cat if I didn't come down to Zone-3 and do some
+bulbz with him.
+
+	Good luck. And don't sell out.
+
+
+
+
+	'pay no mind, if your under 18 you won't be doin any time'
+				- Offspring
+	'better get a lawyer son.. you better get a REAL good one'
+				- The Cruel Sea
+
+						 ~/Tc.NcP
+--Narcs------------------------------------------------------------------
+---
+Yes it happened. Directly after our very first release (not this mag), the
+Narc's came a flocking. Thanks guys, we love u too! ;(
+
+
+----
+
+	Well that's issue one. 
+
+	Work has already begun on Issue #2 but things will go a whole
+lot more smoothly if we start getting submissions from all you super 
+'leet hackers. If we use an article you submit you and your affiliate groups
+will be givin full credit for the article and.. I dunno we'll set up a
+subscription or something..  just submit :)
+
+	the addresses are :
+
+	Tc | an236012@anon.penet.fi
+
+	Etheroid | an124651@anon.penet.fi
+
+	Comments  and suggestions will also be achnowledged. Crap will
+be redirected to /dev/null.
+
+	Thanks and see you next issue...
+
+			Etheroid & Tc / NcP
+

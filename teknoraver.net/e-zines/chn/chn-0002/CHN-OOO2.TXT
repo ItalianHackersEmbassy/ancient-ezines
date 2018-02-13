@@ -1,0 +1,131 @@
+                =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                *  (CHN) Connecticut Hacker Newsgroup (CHN) *
+                =              CHN News File #2             =
+                *           an I.I.R.G. affiliate           *
+                =               -=>Present<=-               =
+                *       LAN Viruses - Fatal Attractions     *
+                =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+
+
+LAN Viruses - Fatal Attractions?
+By: Randy Bradley
+
+
+Viruses and networks are extremely compatible.  So compatible in fact
+that viruses understood and took advantage of networks long before software
+applications did.  And while viruses that can be deadly to your network
+operating environment are a fact of life, they are also a manageable
+threat.
+Utilizing a holistic strategy of awareness, prevention techniques, and
+early detection, you can effectively protect your network from debilitating,
+expensive, and time-consuming viruses.  In a survey conducted during
+the summer of 1993 by Dataquest, 63% of respondents said they had battled
+a computer virus.  They also reported that the average virus attack
+affected over 140 PCs and that it took an average of 2.4 days to eradicate.
+ A quarter of the those responding said it took them over five days
+to correct the problem.
+A LAN virus is virtually indistinguishable from a PC virus except that
+it spreads faster and is harder to eradicate.  The networked systems
+as a whole have hundreds or thousands of entry points to increase the
+odds that it will catch a virus.  The very nature of networks makes
+them susceptible to sharing the entering unintended virus along with
+intended data and resources.
+
+
+
+Prognosis:  There are three assumptions that should be made when determining
+the best treatment in the fight against LAN-based viruses.  They are
+that complete prevention is not practical, changing users work habits
+is not reliable, and a maximum state of alertness is not maintainable.
+The first assumption comes from the fact that no anti-virus product
+or procedure is perfect.  The very best antivirus products are only
+95-97% effective, and procedures are rarely followed correctly 100%
+of the time unless they are fully automated and verifiable.  A "perfect
+shield" is too expensive to even attempt in all but the most extreme
+high security mission-critical environments, and even then can impart
+a false sense of security.  The only conclusion a LAN manager can make
+is that virus infections are going to happen, and because of this, early
+detection is the best strategy.
+The second assumption comes from the fact that people are not perfect.
+ Users should definitely be educated as to the sources, symptoms, and
+nature of a virus, but you can't count on everybody scanning every
+floppy, tape, CD-ROM, or email attachment that comes into their system.
+ The only safe screening process is a fully automated screening process.
+The third assumption is obvious to every general and doctor in the
+world, and yet many LAN managers require users to take the same maximum
+precautions every day even though the site has been clean of viruses
+for months.  A soldier cannot stay at attention for 24 hours, nor can
+the human body be constantly rushed with adrenaline.  And such unreasonable
+expectations unnecessarily impact productivity, actually cause laziness
+out of defiance, and can cause a general disrespect for reasonable
+security precautions.  The answer is to create a two-stage alert strategy
+where the first stage is "no known virus present" and the second is
+"virus present", and then to build your defenses appropriately around
+these stages.
+
+Treatment, Preparation, and Planning: The first step is to create or
+modify an existing disaster recovery plan to include virus preparedness.
+ The backup and recovery policy should take into account the possibility
+of infected backups.  If the two-stage policy is adopted, the two stages
+should be delineated to include what security functions are performed
+in each stage and who is performing them.  You should identify what
+triggers a change to the second stage from the first, and what triggers
+a return back to the first stage.
+Preparation and planning also includes identifying places a virus may
+hide such as a gateway, home PCs, or notebook PCs.  It is also a good
+idea to identify any applications that are likely to be spreaders of
+viruses.  The criteria and authority to disconnect subnets should also
+be clearly defined if needed to stop a rapidly spreading virus.
+
+Deterrence Although you can't depend on users to act as your first line
+of defense, educating them on what to do to minimize virus attacks,
+what to look for, and who to call is a prudent idea.  Deterrence is
+also accomplished by using the basic network operating system security
+features such as utilizing minimum access rights and separate administration
+accounts.  Some also prefer to use resident TSR or NLM antivirus products,
+although caution should be used as some of these are not as effective as 
+their scanning counterparts due to real-time processing constraints.
+Integrity checking products which claim to detect all known viruses can be
+helpful, but they can only tell you that something virus-like is present; 
+they cannot tell you what it is or how to clean it.
+
+Detection and Containment: The scanning of all PCs and servers should
+be completely automated.  The process should determine when scans are
+to be done, execute it, log the results, logout infected PCs, and
+notify LAN managers which virus was found, when and where.
+When a virus is detected, verify it, identify it, and learn its attributes
+before proceeding to eradicate it.  Verify it with a second anti-virus
+product, and use a product like VSUM, a shareware hypertext product
+with virus characteristics and anti-virus product ratings, to learn
+about that specific virus.  Some viruses are a minor annoyance and risk,
+others are extremely dangerous, Once you know what you have, assess
+your second stage criteria and implement it quickly across all or a
+portion of the network.  In extreme cases, you may need to isolate
+segments or nodes to prevent spreading, and you should be logistically
+ready to do this if necessary.
+
+Cleanup and Post Cleanup:  Cleaning up a virus is a straight-forward process
+most of the time.  If you contained it Well, you only have a few
+PCs to clean and you can be done in minutes.  If it has spread unchecked
+for some time, you are in for a longer haul.  In the latter case, you
+would proceed systematically down each PC, notebook, gateway, server,
+and segment of the network - In either case, the time you are most susceptible
+to a new virus is when you think you have just cleaned up the old one.
+ You should remain in stage two for 2-14 days to minimize the risk of
+reinfection.
+Once you're through a virus event, start preparing for the next one
+by analyzing your responsiveness and preparedness.  Where did it come
+from? Did you catch it carly? Did you contain it well and clean up 
+effectively?
+Was this a recurrence of a virus or a new one? This last question is
+the most important because it will tell you how you're doing in virus
+defense.  If you keep getting the same virus, you are not doing a
+good job of cleaning it up.  If you get a different virus every 4-6
+months with only a few stations affected, you are doing a good job of
+detecting, containing, and cleaning, but may need to work on education.
+LANs are especially susceptible to significant disruption from virus
+attacks, but they also provide the platform for centralized, automated
+procedures that can minimize the risk.  While a virus cannot be totally
+prevented, the risk of disruption of business activity can be sufficiently
+reduced using tools currently available and a well-managed virus defense
+strategy.

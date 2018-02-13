@@ -1,0 +1,2017 @@
+
+            CCCCC  H    H    AA    L       I   SSSSS  TTTTTT  I
+           C       H    H   A  A   L       I  S         TT    I
+           C       HHHHHH   AAAA   L       I   SSSS     TT    I
+           C       H    H  A    A  L       I       S    TT    I
+            CCCCC  H    H  A    A  LLLLLL  I  SSSSS     TT    I
+
+                       Ausgabe 14 - (1.6. 1991)
+
+          Editorial.............................RC..........NRC1
+          OSI-Modell............................FA..........NFA3
+          Studenten und Kommunikation...........FA..........NFA4
+          Andrew Filesystem.....................FA..........NFA5
+          Alan Turing und Intelligenz...........DS..........NDS6
+          BSI-Workshop Boppard..................RC..........NRC7
+          Indivudal Network (IN)................NE..........NNE8
+          Wir leben laengst im Cyberspace.......NE..........NNE9
+          Kurzmeldungen.........................WJ..........NWJ2
+                Microcomputer/Zentrum fuer Rostock...........1-1
+                Apple ueberholt IBM im PC-Markt..............2-2
+                Dapa wird neustrukturiert....................3-3
+                Anhoerung zu Virtuel Reality.................4-4
+                X11R5........................................5-5
+          Impressum.............................RC..........NRC3
+
+
+  Erlaeuterungen:    DS - Datenschleuder
+                     RC - Redaktion Chalisti
+                     BX - Redaktion BTX (Netzwerker)
+                     WJ - DFN-Projekt Wissenschaftsjournalisten
+                     NE - Uebernommen aus einem Netzwerk
+                     ST - Kurzgeschichte
+                     MK - MIK-Magazin
+                     FA - Freier Artikel (Autorenangabe am Anfang oder
+                                          Ende des Artikels)
+
+  Die Artikelkennung (NDS1,NBX2,etc) dient zum suchen der Artikel mit
+  Editoren und Textverarbeitungssystemen. Mit der Marke 'NEXT' kann gleich
+  zum naechsten Artikel gesprungen werden.
+------------------------------------------------------------------------------
+NEXT NRC1
+
+                        Auf ein neues ...
+
+Nach 2 Monaten Ferien ist die Chalisti nun wieder da. Viel zu erzaehlen gibt
+es diesmal eigentlich nicht. Die Chalisti lebt so vor sich hin, sucht
+krampfhaft Leute die was schreiben, der Redaktaeur ist zu grossen Teilen
+damit beschaeftigt auf seinen Mitredakteur zu warten und die naechste
+Ausgabe so zwischen 1.7. und 15.7 erscheinen.
+
+Vielleicht ist noch zu berichten, dass es tatsaechlich Leute gibt, die die
+Chalisti lesen. Beispielsweise hat ein Satz in der letzten Chalisti eine nette
+kleine flamige Diskussion im Zerberus gestartet, wo es (wiedermal) um das
+Selbstverstaendnix und Erscheinungsbild des Z-Netzes ging. Schade nur, dass
+einige NUR diesen Satz gelesen haben.
+
+Weiterhin ist zu berichten, dass demnaechst wohl das Medienzentrum Hamburg
+die Chalisti aufgearbeitet in Form einer Diskettenzeitung verbreiten wird.
+Dies wird allerdings nur in Hamburg und gegen Geld zu beziehen sein. Aber
+mal sehen, wie das ankommt.
+
+Sonst gibt es nix zu berichten. Die Welt ist mehr oder minder friedlich. Es
+sind 11 Grad ueber Null, dass Wetter dunkel und die Terminals ziemlich
+gefensternt ..
+
+                                                Redaktion Chalisti
+------------------------------------------------------------------------------
+NEXT NFA3
+                Die sieben OSI Schichten
+                ------------------------
+
+Grosse Programme zerlegt man i.A. in kleinere Module, zwischen denen
+man dann exakte Schnittstellen definiert. Das macht die Angelegenheit
+uebersichtlicher und man kann Module austauschen, ohne dass die
+anderen geaendert werden muessen.
+
+Bei den OSI Protokollen ist man genau diesen Weg gegangen um die
+sehr umfangreichen Protokolldefinitionen zu gliedern. Eine
+Verbindung zwischen zwei Programmen durchlaeuft 7 'Schichten',
+die die Datenpakete aufbauen, die schliesslich auf die
+Leitung gehen.
+
+Die Schichten liegen uebereinander und verstaendigen sich nur
+mit den direkt darueber und darunter liegenden Schichten.
+Jede Schicht stellt der ueber ihr gelegenen Schicht einen
+'Dienst' zur Verfuegung. Um diesen Dienst erbringen zu koennen,
+greift sie dabei auf die direkt unter ihr liegende Schicht zu
+und nutzt deren Dienste. Im Allgemeinen heisst das, dass eine
+Schicht von oben eine Anweisung oder ein Datenpacket bekommt.
+Dieses wird evtl. mit zusaetzlichen Informationen (Bytes) versehen
+und an die naechsttiefere Schicht zur Weiterbearbeitung
+durchgereicht.
+
+Die Kommunikation erfolgt abstrakt durch den Austausch von
+'service primitives'. Das koennen in einer realen Implementation
+Prozeduraufrufe, per message passing verschickte Datenstrukturen
+oder sonst was sein (OSI beschreibt nicht die Implementierung,
+sondern nur das abstrakte Zusammenspiel der Schichten).
+
+Betrachten wir z.B. das service primitive N-CONNECT.request:
+Es wird von der Transportschicht (Layer 4) mit einer Hand
+voll Parameter (Adressen, quality of service, ...) an die
+Netzwerkschicht (Layer 3) gesendet und fordert die Netzwerkschicht
+auf, fuer die Transportschicht eine Netzverbindung aufzubauen.
+Falls die Netzwerkschicht z.B. das X.25 Protokoll unterstuetzt,
+wird ein entsprechendes Call-Datenpacket (protocol data
+unit = PDU) zusammengestellt und zur Uebertragung an die
+Schicht 2 weitergereicht (mit einem DL-DATA.request).
+
+Auf dem Zielrechner wird nun von Schicht 3 an Schicht 4
+ein N-CONNECT.indication gemeldet -- beim Telefon wuerde
+man sagen, es klingelt. Nun muss diese Schicht 4 ein
+N-CONNECT.response loslassen um 'abzuheben', was dann der
+anrufenden Schicht 4 schliesslich als N-CONNECT.confirm bestaetigt
+wird. Nun ist z.B. eine Schicht 3 Verbindung aufgebaut.
+
+Es gibt im einzelnen folgende sieben Schichten:
+
+1) Physical Layer (PHY)
+-----------------------
+
+Diese Schicht erlaubt es ueber eine Leitung oder ein anderes
+Medium Bits zu uebertragen. Sie kuemmert sich um den Auf- und Abbau
+der Leitungsverbindung (carrier signal aktivieren, ...) und um ein
+eventuelles Umschalten der Senderichtung, falls ein halfduplex
+Medium benutzt wird.
+
+2) Datalink Layer (DL)
+----------------------
+
+Die Daten, die zwischen zwei Stationen ausgetauscht werden, werden
+von der Schicht 2 mit einen fehlerkorrigierenden Protokoll
+uebertragen. Sie stellt als Dienst also die fehlerfreie
+Uebertragung von Datenpaketen auf einen physikalisch
+an den Rechner angeschlossenen Zielrechner zur Verfuegung.
+Meistens wird dazu eine Version des ISO HDLC Protokolls
+eingesetzt (z.B. LAP-B bei X.25). Bei LANs wird diese Schicht
+noch in eine Medium Access Control Schicht (MAC) und in eine
+Logical Link Control Schicht (LLC) eingeteilt. Erstere regelt,
+wer wann senden darf, die LLC uebernimmt die Fehlerkorrektur.
+Fuer den Einsatz auf PCs wurde 1990 der HDLC Standard auch auf
+asynchrone Schnittstellen (start/stop mode) ausgedehnt.
+
+3) Network Layer (N)
+--------------------
+
+In einem Netz sind in der Regel nicht alle Knoten vollstaendig
+miteinander vernetzt, sondern die Daten muessen ueber Zwischenknoten
+(intermediate systems [IS], router, switches) weitergeleitet werden.
+Zwischensysteme haben nur die untersten 3 Schichten. Ein
+Datenpacket wird fehlerkorrigiert empfangen, es wird die
+Adresse analysiert, die die sendende Netzwerkschicht den
+Daten angehaengt hat und schliesslich an den naechsten Knoten
+weitergeleitet. Erst die Netzwerkschicht des Zielrechners gibt die
+Daten nach oben durch. Unter OSI sind derzeit zwei Netzwerkprotokolle
+definiert: Das X.25 (z.B. in WIN und DATEX-P verwendet) und
+das CLNP (connectionless network protocol), dass dem Internet IP
+sehr aehnlich ist und daher oft auch als OSI IP bezeichnet wird.
+Da die Netzwerkschicht selbst noch einmal gegliedert ist,
+kann man auch ein Protokoll ueber dem anderen benutzen.
+
+4) Transport Layer (T)
+----------------------
+
+Dieses Protokoll sichert die Verbindung zwischen zwei Endsystemen
+und wird von den intermediate systems nicht gelesen. Bei OSI
+ist ein Transportprotokoll definiert, das in 5 unterschiedlichen
+Leistungsstufen benutzt werden kann. Waehrend TP0 voll auf die
+Sicherheit des Netzdienstes vertraut (was bei DATEX-P ausreicht),
+fuehrt TP4 eine komplett fehlerkorrigierte Uebertragung durch
+(wie sie bei CLNP noetig ist). TP1 versucht beim Zusammenbrechen
+einer Verbindung, diese selbststaendig und ohne die hoeheren
+Schichten zu informieren, neu aufzubauen (das ist bei instabilen
+Netzen nuetzlich, bei denen hin und wieder ein disconnect auftritt),
+TP2 erlaubt das Multiplexen von mehreren Transportverbindungen ueber
+einen Netzanschluss und TP3 vereinigt TP1 und TP2. TP4 kann schliesslich
+alles zusammen und ist mit dem Internet TCP vergleichbar.
+
+5) Session Layer (S)
+--------------------
+
+Es ist oftmals notwendig, in einen Datenstrom Synchronisationsmarken
+einzufuegen, die dann eventuell erst von der Partnerstation
+bestaetigt werden muessen, bevor die Uebertragung weiter geht.
+Wenn etwas schief geht, kann sich ein Programm dann auch auf so
+eine Marke zurueckberufen und die Uebertragung neu starten.
+Damit man so etwas nicht in jede einzelne Anwendung einbauen
+muss, hat man bei OSI dieser Aufgabe eine eigene Schicht gewidmet.
+Ausserdem koennen sich zwei Programme ueber diese Schicht
+einigen, ob jeder staendig senden darf (duplex) oder ob
+abwechselnd immer nur ein Partner dieses Recht haben darf.
+
+6) Presentation Layer (P)
+-------------------------
+
+Fast jeder Rechner hat sein eigenes Datenformat. Mal kommt
+bei 32bit Zahlen das niederwertigste, mal das hoechstwertigste
+Byte zuerst, es gibt etliche Formate fuer Strings, REAL-Zahlen,
+Uhrzeiten, etc. Die Presentation Layer wandelt die Daten der
+Anwendungsschicht in ein netzeinheitliches Format um.
+
+Man hat eine eigene Sprache (ASN.1) definiert, um das Format
+der Datenpakete formal zu definieren. Genauso wie man mit
+Grammatiken (EBNF, etc.) z.B. die Menge aller syntaktisch korrekten
+C Programme sehr leicht festlegen kann, werden mit ASN.1
+Datenstrukturen beschrieben, die als Pakete versendet werden koennen.
+Dadurch werden die Normdokumente wesentlich uebersichtlicher,
+als wenn man die Datenstrukturen nur in englischer Sprache definieren
+wuerde. Es gibt inzwischen auch ASN.1 Compiler, die die formalen
+Definitionen in C-Funktionen umwandeln, aehnlich wie man sich
+mit dem bekannten YACC leicht Compilerskelette erzeugen lassen kann.
+In der Presentation Layer werden die zu sendenden Daten mit den Basic
+Encoding Rules (BER) in Bytesequencen umgewandelt. Zuvor werden
+noch mit der Partner-Presentationschicht die verwendete Grammatik
+und die Encoding Rules ausgemacht.
+
+7) Application Layer
+--------------------
+
+Hier gibt es eine ganze Reihe von verschiedenen Protokollen,
+die den darueberliegenden Anwendungsprogrammen (oder evtl.
+auch nur dem Betriebssystem) anwendungsspezifische Dienste
+zur Verfuegung stellen. Einige der bereits definierten
+Anwendungsprotokolle sind:
+
+- X.400: (auch MHS = message handling system genannt) Ein Protokoll
+  (eigentlich mehrere), dass es erlaubt, zwischen Rechnern
+  electronic mail auszutauschen.
+- FTAM: (file transfer, access and management) Es koennen einfach
+  nur Files uebertragen werden (wie bei Kermit) oder es kann auch
+  voll auf das Dateisystem des anderen Rechners zugegriffen werden
+  (create file, copy file, list directory, change directory,
+  auf einzelne Records zugreifen, einfuegen, loeschen, ...)
+- VT: (virtual terminal) Ein Rechner fungiert als Terminalemulatur,
+  ueber den dann der User mit einem Host arbeiten kann. Das
+  Protokoll unterstuetzt Dienste, mit denen der Hostrechner
+  den Bildschirm des Users steuern kann (Schriftarten, Farben,
+  Eingabemasken, Cursorsteuerung, Schirm loeschen, ...)
+- DS: (directory service) Eine Art globales ueber das Netz verteiltes
+  Telefonbuch. Man kann z.B. ueber meinen Namen und die Tatsache,
+  das ich an der Uni Erlangen in Deutschland bin (c=de;o=uni-erlangen),
+  meine e-mail Adresse heraussuchen (meine bevorzugte ist markiert),
+  ebenso wenn ich es eingetragen habe, meine Adresse, Telefonnummer,
+  Faxnummer, mein oeffentliches FTAM directory, eine kurze
+  Beschreibung meiner Taetigkeit/Stellung uvam.
+- CMIP: (common management information protocol) Grosse Netzwerke
+  mit vielen Knoten muessen oft von einem zentralen System
+  Administrator verwaltet werden. Mit CMIP kann er auf die
+  Resourcen der einzelnen Rechner zugreifen und z.B. Passwoerter
+  eintragen, neue Softwareversionen installieren/patchen,
+  Fehlermeldungen empfangen (Platte voll, Leitung weg,
+  Stromausfall, Einbrecheralarm, uvam.) und noch einige
+  tausend andere Sachen tun.
+
+Es gibt noch einige andere Protokolle (Spezialprotokolle fuer
+Bibliotheken, Banken, ...) und viele sind noch geplant
+(News Service, Multimedia, ...).
+
+Ausserhalb des Schichtenmodelles definiert OSI noch eine
+Management- und eine Security-Architektur, die alle Schichten
+umfasst.
+
+Einfuehrungsliteratur:
+----------------------
+
+- Uyless Black, OSI - A Model for Computer Communications Standards,
+  Prentice Hall 1991, ISBN 0-13-637133-7, 528 S., DM 96,-.
+- ISO 7489, OSI Reference Model, International Standards
+  Organisation, Genf 1984.
+
+
+Dieser Text darf nach Belieben fuer nichtkommerzielle Zwecke kopiert
+werden, wenn er in voller Laenge und ungeaendert uebernommen wird.
+Ich uebernehme fuer den Inhalt keine Gewaehr.
+
+Markus Kuhn, 16. Mai 1991,
+X.400  : G=Markus;S=Kuhn;OU1=rrze;OU2=cnve;P=uni-erlangen;A=dbp;C=de
+RFC822 : mskuhn@faui43.informatik.uni-erlangen.de
+------------------------------------------------------------------------------
+NEXT NFA4
+            Elektronische Kommunikation fuer Studenten
+
+Berich des DFN-Workshops am 23.04.91 in Muenster
+
+DFN ist die Abkuerzung fuer Deutsches Forschungsnetz und gleichzeitig
+der Name eines Vereins mit Sitz in Berlin, der sich um den Aufbau eines
+deutschen Forschungsnetzes bemueht.
+
+Im Maerz 1990 erfuhr ich von Terra, dasz auf der letzten DFN Betriebstagung
+die Problemstellung "Studierende und Netznutzung" aufgekommen sei, was
+dazu gefuehrt hat, dasz der DFN e.V. im April dazu eine gesonderte
+Veranstaltung durchfuehren wuerde. Ort der Veranstaltung werde Muenster
+sein. Als Studi-Vertreter der Fachschaftsvertreterversammlung, der
+unabhaengigen Studierenden-Vertretung der Universitaet Stuttgart, fuehlte
+ich mich sogleich berufen, da mitzumischen. Natuerlich braucht man dazu
+erst einmal eine Einladung. Also habe ich bei der DFN Geschaeftsstelle
+angerufen und mich nach Ort und Verfahren dieser Veranstaltung erkundigt.
+Man gab mir die Telefonnummer des Rechenzentrums der Westfaelischen
+Wilhelms-Universitaet in Muenster, welches mir sofort eine Einladung
+zuschickte. Diese wurde dann ins Netz gepostet, inkl. Ankuendigung eines
+"Vorgespraechs" mittels Internet Relay Chat. Ob wir das schon tun
+koennen sollten VOR diesem Workshop und trotz der segensreichen Arbeit
+des DFN ?
+
+In den folgenden Wochen wurde eifrigst auf diese Veranstaltung hin
+mobilisiert, damit auch eine ausreichende Vertretung der studentischen
+Interessen gewaehrleistet sei. Anrufe bei ASten oder nicht auf dem Netz
+vertretenen Menschen brachte leider meist nur Desinteresse oder totales
+Unverstaendnis hervor. Keiner der angesprochenen wuszte von der
+Veranstaltung. Selbst die Studi-Vertretung in Muenster war nicht
+informiert. Gluecklicherweise meldete sich jemand aus Muenster (allerdings
+keine Studi, hi, Daniel 8), so dasz man schon ahnte, welches dunkle
+Zeitalter man netz-technisch in Muenster zu erwarten hatte.
+
+Durch die Einladung konnte man ersehen, dasz dort Naegel mit Koepfen
+Gemacht werden sollten. Der Prorektor der WWU Muenster sollte die
+Veranstaltung eroeffnen, Hr. Haupt aus Aachen, der im Vorstand
+des DFN Verwaltungsrats ist, sollte in das Thema einfuehren. Einen
+Vortrag ueber das WIN wollte Hr. Maass aus Berlin von der Zentralen
+Projektleitung (DFN-ZPL) halten. Er ist Geschaeftsfuehrer des DFN-Vereins.
+
+Am 23.04.91 fuhren also zwei Delegierte der FaVeVe nach Muenster,
+natuerlich per Zug. Beim Aussteigen stolperten wir sogleich ueber
+die Studi-Vertreter der FS Informatik aus dem Saarland, sie hatten
+seit Mannheim einige Abteile von unserem entfernt genaechtigt.
+Es war natuerlich auch etwas frueh (bei der Bundesbahn hat man bei
+Reisen immer die Wahl zwischen "zu frueh" und "zu spaet"...), also
+blieb noch genug Zeit, um mal kurz im Rechenzentrum vorbeizuschauen.
+Wir waren nicht ueberrascht...
+
+Beim AStA-Buero, ca. 200m vom Veranstaltungsort, sah es nicht so aus,
+als ob sich jemand fuer solche technischen Dinge interessierte.
+
+Also liefen wir gegen 10 Uhr am Ort der Veranstaltung ein - sie
+sollte letzten net.rumors zufolge schon frueher als in der Einladung
+angekuendigt stattfinden - und fanden den Raum verschlossen.
+
+Waehrend der Warterei fanden sich dann langsam einige Leute ein, die
+man so aus dem Netz kennt. Z.B. Daniel Roedding, der in einem irgendwie
+per Netz an die Uni angeschlossenen Krankenhaus seinen Zivildienst
+abfeiert. Oder Heiko und Vera von der FU Berlin, sowie (natuerlich)
+Terra (Oldenburg) und Framstag (Ulm). Desweiteren traf auch ein Studi aus
+Muenster ein, der hier einen Vortrag halten sollten, sein Thema waren
+Mailboxnetze.  Ferry kam aus Hannover, er kannte das Problem mit dem
+Netzwerkzugang fuer Studierende aus eigener Erfahrung.
+
+Und endlich begann wie auf der Einladung angekuendigt, um 11:30 Uhr der
+Workshop. Die aelteren Krawatten muszten sich sogleich vom normalen
+Volk distanzieren, indem sie sich Tische passend zurechtrueckten.
+
+Sodann wurde das Programm kraeftig umgekrempelt. Die fuer den Nachmittag
+vorgesehenen Vortraege der Studierenden wurden direkt im Anschlusz
+gehalten, die Krawatten redeten erstmal kraefig drauf los, ohne dasz
+man wuszte, wer sie denn nun eigentlich seien. Schlieszlich kann man
+nicht immer vom Inhalt der Rede auf den Programmpunkt und damit auf
+den Redner schlieszen :)
+
+Der Prorektor sprach davon, dasz das RZ der WWU diese Veranstaltung
+durchfuehren wuerde, weil sie in naechster Zeit eine komplette
+Auswechselung der Computer-Infrastruktur vorhaben. Hier sei die
+Gelegenheit, die Wuensche der Studierenden einzubringen.
+
+Hr. Haupt definierte als Ziel, Verfahren zu entwickeln, die Studis
+Zugang zum Netz ermoeglichen sollten. "Natuerlich nicht unbegrenzt",
+schraenkte er ein, in Anspielung auf das 50GB/Monat Limit, welches
+im Vertrag zwischen Bundespost und DFN bein wissenschaftlichen
+Hochschulnetz (WiN) festgelegt wurde.
+
+Hernach begannen die 5 Vortraege der Studis. Der erste Vortrag war
+von einem Studi der TU Muenchen, der ueber das Projekt mit IBM berichtete,
+bei dem 100 Mod.70 unter AIX Studierenden der Informatik fuer ein Jahr
+nach Hause gestellt wurden, inkl. Modem. Dafuer muszten sie ca. 300 DM
+an Versicherungs- und Wartungsvertraegen bezahlen.
+Die Modems waren 1200 Baud schnell (schnell ? postzugelassen...), die Rechner
+mit 60 MB-Platten (fuer AIX !) und mit dieser Konfiguration sollten
+sich die Studis aktuelle Informationen, Arbeitsblaetter
+und anderer studienbezogener Daten von der Informatik-Fakultaet abrufen.
+Auf der Institutsseite war eine IBM 9370 unter VM/CMS (!) als Server
+gedacht. Daran waren insgesamt 8 Modem-Leitungen angeschlossen.
+Zwar war geplant, auch den Zentralrechner unter AIX laufen zu lassen,
+dies wurde aber waehrend der gesamten Laufzeit des Projekts nicht
+realisiert. Zwar war fuer die Studis die das Abrufen von Arbeitsblaettern
+und aehnlichem theoretisch arbeitssparend, nur wurden diese Texte als
+.dvi-Files bereitgestellt, doch den Studenten wurden keine Drucker
+beigegeben. Kurz und gut: Die Zusammenstellung der Komponenten
+(Zentralrechner, Modem, Platten usw) war Mist. Lt. Studi war auch die
+Nutzung insgesamt bescheiden. Dasz zu irgendeinem Zeitpunkt zwei Studis
+gleichzeitig auf dem Zentralrechner eingeloggt waren, kam praktisch
+nicht vor. Nutzer in der Fernzone 1 hatten monatliche Rechnungen von
+DM 30, was darauf schlieszen laeszt, dasz sie das ganze praktisch nicht
+verwendeten.
+Peinlich war, als am Nachmittag der mitreisende Wiss.Mitarb. der TU
+Muenchen zugab, dasz sie die Geraetschaften beim Auslaufen des Projekts
+von IBM gekauft hatten.
+
+Der zweite Vortrag beschrieb die derzeitige Nutzung von
+Telekommunikationseinrichtungen durch Studis, die keinen Netzzugang an
+der Uni haben. Meist wird dann ein Mailbox-Projekt gestartet. So auch
+hier, in Muenster hatten Studis eine Maus-Netz-Box aufgezogen. Fuer Ein-
+geweihte war daher die Aehnlichkeit des Vortrags zu einem Artikel eines
+gewissen Michael Keukert in einer der letzten Ausgaben des Computermagazins
+C't nicht verwunderlich. Schluszwort des Studis: Zusammenarbeit,
+Integration und Vernetzung von Privatnetzen mit den Forschungsnetzen,
+damit Studis auch von Zuhause auf die Dienste dieser Netze zugreifen
+koennen. Worauf Hr. Maasz vom DFN verwundert fragte: "Welche Privat-Netze
+denn ?".
+
+Der dritte Vortrag von Studierendenseite brachte Vorschlaege zur
+Gestaltung des Zugang und der Verwaltung von Netzzugaengen. Es wurde
+klar, dasz saemtliche vortragende Studis aus Muenster von der
+Jura-Fakultaet kamen und dort den CIP-Pool betreuen. Dementsprechend
+wurde auch der Bedarf bezueglich Netzzugang artikuliert. Z.B. ist
+derzeit ein direkter Zugriff auf Datenbankdienste fuer Studierende
+nicht moeglich. In Muenster wurden ueber Pauschalvertraege der
+Fakultaet mit Juris Moeglichkeiten geschaffen, dennoch intensive
+Recherchen durchzufuehren. Als Aufgabe fuer den DFN wurde es angesehen,
+ueber Verhandlungen mit den kommerziellen Datenbankanbietern guenstige,
+volumenunabhaengige Zugaenge bereitzustellen, die es Studis ermoeglichen,
+mit solchen Netz-Resourcen umzugehen.
+
+Ueber Zwischenfragen der Zuhoererschaft kam man aber schnell zu dem
+Punkt, dasz eigentlich nicht die Nutzung der Rechnernetze das
+Problem sei, sondern zuallererst der uneingeschraenkte und NICHT
+auf die Erledigung bestimmter Aufgaben (Semesterarbeiten, Praktika,
+Hiwi-Jobs) ausgerichtete Zugang zu Rechnern selbst der derzeit
+limitierende Faktor ist. Eine der Krawatten, ein hoher Vertreter des
+nordrheinwestfaelischen Wissenschaftsministeriums, war allerdings
+sofort bereit, dieses Recht Studierenden zuzugestehen. Auch Hr. Haupt
+sah darin keine prinzipiellen Probleme. Beide werden sich dennoch
+hueten, diese Meinung jemals zu veroeffentlichen, was wuerden denn
+die ganzen Kollegen in den Rechenzentren sagen ?
+
+Der vierte Vortrag ist mir entfallen. Seit fuenf (5!) Wochen
+warte ich auf den Block mit Notizen, der sich derzeit in Unido
+aufhaelt :)
+
+Der fuenfte Vortrag war nicht vorgesehen. Terra hielt es auf
+seinem Stuhl nicht mehr aus und erzaehlte, wie der Netzzugang an
+der Uni Oldenburg geregelt ist (wer Zugang zum Rechnernetz haben will,
+bekommt einen Account), was man gegen uebermaeszige Netzbelastung tut
+(man erklaert demjenigen, wie das Netz funktioniert, zeigt ihm, wie er
+sein Problem mit weniger net.load loesen koennte oder wo hier in
+Deutschland Software und Informationen zu finden sind) und wie man mit dem
+sogenannten Sicherheitsproblem umgeht (Wenn Probleme auftreten, sind die
+Studis ermutigt, sie zu berichten und Vorschlaege zu machen, wie man sie
+behebt - im Gegenzug gibt es keine Stelle im Netz, wo man ihnen den Zugriff
+ohne Erklaerungen verweigert).
+
+Die Vortraege der Studis waren somit vorbei und es wurde Zeit zum
+Mittagessen (Warum ich das hier schreibe ? Weil ich Kohldampf schiebe,
+es ist 19:27:41 und seit 10 Uhr habe ich nix mehr gegessen !).
+
+Danach begann der "professionelle" Teil.
+
+Ein Hr. Kaufmann von ZPL-DFN stellte in einem Vortrag X.400 als DIE
+Loesung fuer das Problem elektronic mail vor. Es stellt sich
+die Frage, ob der DFN dann in Kuerze weiterhin Statistiken
+ueber den Traffic ueber den X400-Gateway publiziert, wenn diese
+Mengen abnehmen. Es gibt ja Geruechte, dasz jene, die X400 zu Beginn
+verwendet haben, auf funktionierende Mailsysteme umsteigen. Und
+wer schonmal den cosine-mhs-server@nic.switch.ch verwendet hat,
+um Informationen ueber dieses X400-Projekt zu bekommen, der steht
+solchen Verkaufsvortraegen kritisch gegenueber.
+Interessant die Kosten fuer den 2-Mbit-X.25-Anschlusz ans WIN, sofern
+er jemals kommt. Eine Uni soll DM 250000 pro Jahr fuer diese
+Kapazitaet zahlen.
+
+Ein Mensch der Akademischen Software Kooperation stellte den
+Software-Server der ASK vor. Dieser soll dabei helfen, nuetzliche
+Software zu finden, indem man in einer Datenbank schluesselwort-
+orientiert sucht. Zusaetzlich werden textuelle Informationen und
+Mailing Lists zur Verfuegung gestellt. Das ganze soll ein beispiel-
+haftes Modell eines Informationsserver sein. Auch der DFN bietet so
+etwas ja an (telnet cadmus2.dfn.de, login infosys, passwd <RETURN>).
+Vorteilhaft an diesem System ist die Verbindung zu aehnlichen Diensten
+z.B. auf ZIB-Berlin.de und v.a. ins JANET, wovon dort allerdings nicht
+die Rede war.
+
+Und schluszendlich stellte die Studienberatung der Fern-Uni Hagen
+dar, was sie an Diensten fuer die Studis bereitstellt. Davon weisz
+ich leider nicht mehr viel.
+
+Und dann kam der auf der Einladung so vielsprechende Tagesordnungspunkt
+"Diskussion ueber das weitere Vorgehen". Maass vom DFN legte eine
+Folie auf, in der er seine Notizen der Diskussion zusammenfaszte.
+Dummerweise hat sich niemand diese Folie mitgeschrieben, d.h. kann
+auch niemand eine Zusammenfassung dieser Folie geben. Nur eins ist
+klar: Dienste, die ueber die Moeglichkeiten der OSI-Protokolle
+hinausgingen, waren umstritten. Eine starke Gruppe forderte
+Konferenzdienste a la USENet und die Krawatten wuszten nicht,
+was denn der grosze Unterschied zu Mailing Lists sein sollte und
+ob es d.h. nicht reicht, Mailing Lists anzubieten. Dasz solche
+Konferenzdienste verteilt ablaufen mueszten, verstehen die
+Herren nicht, aber dennoch musz solch ein System ja zig-tausend
+Nutzer vertragen und welcher einzelne Rechner tut das schon ?
+Gluecklicherweise existiert schon eine Arbeitsgruppe X.gc (group
+communications), so dasz die in OSI-Normen denkenden Krawatten
+die Hoffnung hatten, die Einfuehrung solcher Dienste bis auf
+die Verabschiedung dieser X.gc-Norm verschieben zu koennen.
+
+Umstrittener war daher interaktives Conferencing, welches sich z.B.
+als Bitnet Relay, Internet Relay Chat oder ICB steigender Beliebheit
+erfreut. Dafuer ist auch in ferner Zukunft kein OSI-Protokoll zu
+entdecken, ich weisz immer noch nicht, ob es jetzt auf der
+offiziellen Liste der von Studis benoetigten Dienste steht.
+
+Kaum war diese Liste soweit "vervollstaendigt", kam der naechste
+Vorschlag. Der DFN wolle ein Pilotprojekt "Studenten und Netzzugang"
+starten. Maass schlug vor, die Initiative hier in Muenster zu
+nutzen und es hier zu veranstalten, natuerlich in Zusammenarbeit
+mit einer Partner-Uni. Es wurde sofort Uni Oldenburg benannt, denn
+alle anderen Unis waren nicht durch Entscheidungstraeger vertreten.
+
+Bei den offiziellen Studierendenvertretern stiesz solch ein
+ueberhastetes Vorgehen auf Widerstand, schlieszlich koenne man nicht
+ohne Absprache irgendwelche Projekte starten, die u.U. bundes-
+weite Auswirkungen haben, ohne entsprechend Studierendenvertretungen
+zu beteiligen.  Zwar waren in dem Projekt durchaus noch die Ansprechpartner
+AStA und Fachschaft frei, doch fuer uns war abzusehen, dasz sich
+Studis aus diesen Gruppen aus Muenster nicht melden koennten, weil
+sie von der Veranstaltung (lt. Telefongespraech eine Woche spaeter mit
+dem dortigen AStA) nichts davon wuszten. Und die krawatten-tragenden
+Vorzeige-Studis der Fak. Jura wuerden sicher nichts verraten.
+
+Also zauberte Maass kurzerhand den Titel "Know-How-Partner" aus
+dem Sakko und "verlieh" ihn an Flynn von Ulm (Framstags Kollege
+aus der Fakultaet Ulm) und mir.
+Damit war die Opposition ruhiggestellt (wohl eher sprachlos) und
+Maass verkuendigte, dasz dieses Projekt damit stattfinden werde.
+Terra schlug vor, dasz fuer die Teilnehmer wegen der weiten raeumlichen
+Verteilung eine Mailing Liste eingerichtet werden solle, er koenne
+das uebernehmen und so wurde es beschlossen.
+
+Damit hatte die Veranstaltung ihren Hoehepunkt erreicht und wurde
+flugs beendet.
+
+
+Was geschah danach ?
+
+Die FaVeVe-Delegation ging ersteinmal Pizza essen (Es ist 21:30 und
+ich habe immer noch nichts zu essen...)
+
+Nachdem eine Woche ins Land gegangen war und immer noch keine
+Mailing Liste entstanden war, bekam ich von Terra die Information,
+dassi die muensterraner Jurastudenten am Schluss der Veranstaltung noch bei
+Maas gewesen sind und sich beschwerten, dass ihnen das "Heft aus der Hand
+genommnen wird". Die Maillinglist wollten die Muensterraner selbst
+einrichten.  Sie existiert somit immer noch nicht.
+
+Viele der Teilnehmer, die sich von den Netzen her kennen, waren verwundert,
+warum der DFN solch ein Projekt in dieser Art durchpeitscht, wobei
+er in der Diskussion jahrzehnte alte Bastionen der Unis wie
+"Restriktiver Zugang zu Rechnern und Netzen" so einfach aufgab.
+Kaum waren Forderungen, die sonst utopisch erschienen, wie die
+Verbindung zu privaten Netzen oder Indials in das Uni-Netz, genannt,
+schon beruhigten uns die Krawatten: "Klar, kein Problem".
+
+Das BMFT, welches lt. Hrn. Haupt bisher 100 Mio DM fuer die Errichtung
+und den Ausbau des Deutschen Forschungsnetzes ausgegeben hat, hatte
+im neuen Haushaltsjahr einen Etat-Rueckgang zu verzeichnen. Dennoch
+muszte der Raumfahrtanteil gesteigert werden. Also muszte woanders
+gespart werden. Selbst sichere Etatposten wie z.B. bei der GMD (einer der
+13 Groszforschungseinrichtungen der BRD) fielen, so scheint es mir nicht
+abwegig, dasz auch der DFN von seinen Foerderern in die Nacht geschickt
+wurde: "Geh, such Dir andere Toepfe"...
+
+Und dann stellte der DFN ploetzlich fest, dasz es sicher auch noch
+andere Ministerien geben wuerde, die etwas Geld haben, wie z.B. das
+Bundesmist. fuer Bildung und Wissenschaft und die Landesministerien
+fuer Wissenschaft, die die Unis wegen der Kultus-Hoheit der Laender
+verwalten. Wenn man denen das Netz als Infrastruktur fuer die
+gesamte Uni verkaufen koennte, dann wuerden die ja vielleicht
+auch was bezahlen.
+
+Und damit ist klar, was dieses Projekt ist: Ein Potemkinsches Dorf.
+
+Die Tatsache, dasz keine Studierendenvertretungen ueber diesen
+Workshop informiert wurden (selbst der AStA oder die Fachschaft Jura
+von Muenster nicht), und dasz die Vorzeige-Studis auch erst auf
+direkte Ansprache durch die Workshop-Organisatoren was zu sagen hatten,
+diskreditiert die ganze Show.
+
+Bis heute habe ich keine Wort mehr von irgendeinem der Projektteilnehmer
+gehoert.
+
+                                        PI (pi@complx.stgt.sub.org)
+
+------------------------------------------------------------------------------
+NEXT NFA5
+
+        Bericht ueber den Vortrag von Dr. John Howard:
+
+     "Managing Thousands of Workstations in a Distributed
+                  Computing Environment".
+
+Der Vortrag mit reger  Beteiligung  der  fachkundigen  Anwesenden
+fand  am  Mittwoch,  den  10.April  1991  am Rechenzentrum der TH
+Darmstadt statt.
+
+Dr. John Howard ist Direktor des "Information Technology Centers"
+kurz  ITC.   Dies  ist ein Forschungsinstitut der Carnegie Mellon
+Universitaet in  Pittsburgh.   Seit  acht  Jahren  wird  dort  in
+Zusammenarbeit  mit IBM das AFS entwickelt.  Das AFS (Andrew File
+System)  ist ein Unix-Dateisystem das die bisher noch vorhandenen
+zentralen  timesharing  Systeme  abloesen soll. Die Leute von OSF
+(Open Systems Foundation) haben das AFS zum zukuenftigen Standard
+erhoben.   Es beansprucht fuer sich sowohl Desk-Top-Computing wie
+auch zentrale Dienste zu integrieren. Im wesentlichen sind dies:
+
+        - Netzwerkanbindungen
+        - ein verteiltes Dateisystem
+        - elektronische Post und "Schwarze Bretter"
+        - Druckservice
+        - Workstation Support
+
+Zu Beginn des Vortrages stellte Dr.Howard die  Situation  an  der
+Carnegie  Mellon  Universitaet dar. Dort sind ca. 5500 Studis und
+ein Personalstamm von ca. 1500 Menschen. Diese  arbeiten  an  ca.
+2500  Workstations  und/oder  PCs.  Das Rechenzentrum bietet fuer
+alle  Universitaetsmitglieder   einen   zentralen   Service   und
+technischen  Support.  Der  Service  beinhaltet  die bereits oben
+aufgelisteten   Punkte  sowie  einen   auf   Wunsch   umfassenden
+Anwenderservice (fuer Hard- und Software).
+
+Das Rechenzentrum betreibt sogar einen eigenen Computer-Laden mit
+Werkstatt  in  dem  sowohl  gebrauchte  wie  auch  neue  Computer
+umgesetzt werden.  Dr. Howard erwaehnte, dass dies ca. 3000 Apple
+Macintoshs  und ca. 2000 ATs (Neugeraete) sind, die hier pro Jahr
+verkauft werden. Die  Universitaet  bietet  den  Studenten  einen
+Finanzierungsservice  ueber  den Zeitraum von vier Jahren an, der
+stark  genutzt  wird.   Die  Organisation   der   LANs   (lokalen
+Netzwerke)  folgt  einem sehr einheitlichen Prinzip: Workstations
+sind grundsatzlich nur an ein LAN anzuschliessen.  Jedes LAN muss
+ueber  einen  Router mit dem Backbone verbunden sein. Am Backbone
+sind Fileserver und Mainfraimes verfuegbar.  Eine  Cray  YMP  ist
+ueber  einen  weiteren Router am Backbone angeschlossen. Als LANs
+werden Ethernet und Token-Ring eingesetzt. Alle  TCP/IP  -Dienste
+werden  unterstuetzt.  Am Backbone ist FDDI im Einsatz. Bei allen
+groesseren Strecken sowie bei stark beanspruchten Leitungen  wird
+Glasfaser  als physikalisches Medium bevorzugt. Das Rechenzentrum
+macht auch die zentrale IP-Verwaltung. Innerhalb von  24  Stunden
+ist  kann  ein  interessierter Anwender seine IP-Nummer, Passwort
+und  seinen  Plattenplatz  im  AFS  erhalten.  Als  UserId   wird
+grundsaetzlich   der  Vor-  und  Nachname  des  Users  verwendet.
+Nameserver-Service  gehoert  zu  den   zentralen   Diensten   des
+Rechenzentrums.   Im Andrew-File-System erhaelt jeder Student bis
+zu  4MB  zentralen   Platten-   platz   um   am   internationalen
+Mailverkehr,  IP-Diensten  wie ftp, rlogin usw., und den Bulletin
+Boards incl. dem News -System teilehmen zu koennen !
+
+Im AFS wird ein zentraler Backup-Service angeboten. Dies betrifft
+genauso  wie  Plattenplatzkontingente  natuerlich nur die Dateien
+die auf den Fileservern abgelegt sind. Um  die  lokalen  Platten,
+die   das   Kontingent   auf   den   zentralen  Fileservern  weit
+uebersteigen kann, muss sich der User natuerlich selbst kuemmern.
+Das AFS bietet einen voll-transparenten Zugriff von den WS (Work-
+stations) auf die Fileserver und einen  etwas  eingeschraenkteren
+Zugriff  von kleinen Computern aus. Bei Dateizugriffen werden die
+jeweiligen Dateien vollstaendig lokal herkopiert und vollstaendig
+gecached  (das Wort habe ich zwar nicht aus dem Duden aber es ist
+eben einfacher als eine  deutsche  Umschreibung).  Probleme  sind
+(lt.  Dr.  Howard   dabei  kaum  aufgetreten), jedoch gab es eine
+Diskussion  in  der  Zuhoererschar   die   hier   einige   Faelle
+konstruierte  bei  denen  es zu unerwuenschten Ergebnissen kommen
+koennte.
+
+Das  AFS   beinhaltet   ebenfalls   die   Benutzeridentifikation,
+Kontrolle  der  Zugriffsrechte  einzelner  Gruppen  und Benutzer,
+logische  Laufwerke,  "Administrative  Zellen"  und  den  bereits
+erwaehnten   Backupservice.   Fuer  WS  ohne  Festplatten  stehen
+logische Platten im AFS transparent zur Verfuegung. Die  Security
+ist gewaehrleistet durch verschlusselte Tickets die auf einem (!)
+Rechner abgelegt sind. Hierzu gab  es  eine  laengere  Diskussion
+ueber den genauen Vorgang und den Ausschluss von "unerwuenschten"
+Usern.  Es wurde dabei  auf  das  in  allen  Systemen  bestehende
+Problem  trojanischer  Pferde aufmerksam gemacht. In seinem home-
+Verzeichnis hat jeder  Teilnehmer  im  AFS  ein  Unterverzeichnis
+Mailbox  und  ein  Unterverzeichnis Backup.  Im Unterverz. Backup
+findet jeder User die Dateien des  vorherigen  Tages  wieder.  Im
+Unterverzeichnis Mailbox besteht write-access (nicht read-access)
+fuer world! Zur Mailbox komme ich nochmal zurueck.
+
+ACLs  (Access-Control-List)  --  Masken  mit  Zugriffsrechten  --
+existieren fuer jedes Verzeichnis extra mit Eintragungen fuer die
+jeweilige  Gruppe.   Standard  Gruppen  sind  AnyUser,  AuthUser,
+Admins  und  Operators.   Die Gruppen koennen erheblich erweitert
+werden! Ein User kann in vielen Gruppen  eingetragen  sein,  ohne
+dass  dies  zu  irgendwelchen  Schwierigkeiten, Kollisionen o.ae.
+fuehren wuerde.
+
+Ein Problem, deren Loesung von jedem  Dateisystem  verlangt  wird
+sind  die  logischen  Laufwerke, da in der Regel viele Fileserver
+und viele User im Netz umherschwirren. Im AFS  kann  eine  grosse
+Anzahl  logischer  Platten  eingerichtet  werden.  Eine  logische
+Platte kann im AFS allerdings  n  i  c  h  t  ueber  verschiedene
+physikalische  Platten  verteilt  werden.  Dies  ist  in  anderen
+Filesystemen besser geloest. Ueber  diesen  Punkt  wurde  laenger
+diskutiert.  Dr.Howard  sah  hier  kein  grosses  Problem, jedoch
+einige der Anwesenden. Die logischen Platten  sind  untereinander
+verbunden  durch  "mount  points". Es ist moeglich, die logischen
+Platten   waehrend   des   normalen   Userbetriebs   auf   andere
+physikalische Platten zu verschieben. Auf sofortige Nachfrage aus
+dem Kreis der Zuhoerer meinte Dr. Howard:  "it is  n o t  easy to
+do  it  ---  but  we do it !" --allgemeines Grinsen.....  Das AFS
+nutzt logische Laufwerke u.a. fuer  space-quota,  assignments  of
+file-  servers  and  partitions,  migration on operator commands,
+replication  on  ReadOnly  data,  unit  of  backup  and   restore
+(Uebersetzung   spare   ich   mir   hier).    Das   AFS  kann  in
+"administrative Zellen" unterteilt  werden,  die  jeweils  eigene
+Fileserver,       Userlisten,      Systemadministratoren      und
+Systemkontrollen haben koennen. Server kennen  nur  ihre  eigenen
+Zellen! Dr.Howard gab hier noch Beispiele wie sie an der Carnegie
+Mellon Univeritaet existieren.
+
+Das ATK: Zum Andrew File System gehoert das Andrew Toolkit (kurz:
+ATK).   Fuer  den  Enduser  stehen  hier  u.a.  ein  Editor  (mit
+Einbindungsmoeglichkeit  von  Tabellen  und  Grafiken)  und   ein
+Hilfe-System  netzweit  zur  Verfuegung.  Ebenso  die Anwendungen
+eines multimedia Systems mit  verschiedenen  Programmiersprachen,
+Tabellenkalkulationsprogrammen,            Raster-            und
+Vektorgrafikverarbeitung, dynamischen Linkern usw.
+
+Wesentlicher Punkt des ATKs ist das  "Andrew  Messages  Program".
+Es  enthaelt  einen  E-Mail-Editor, der ausser dem ueblichen Text
+auch Rastergrafik mit einschliesst. Die Mails  koennen  auch  von
+anderen  Editoren  gelesen  werden  (enthaltene Rastergrafik kann
+man/frau dann eben nicht sehen).  Ein  weiterer  Bestandteil  ist
+das  Bulletin  Board  System,  bei  dem  sowohl  eigene  (lokale)
+Schwarze  Bretter  mit  verschiedenen  Hierarchiestufen  bis   zu
+internationalen  News, Digests usw. verwaltet werden koennen.  An
+der Carnegie Mellon Universitaet sind hiermit ca. 2000 Mails  pro
+Woche  und ca. 3000 folder im BBS zu verwalten.  Netzweit ist ein
+benutzerfreundliches Hilfesystem verfuegbar (vergleichbar mit dem
+von IBM verkauften INFO-System fuer X-Windows unter AIX).
+
+Weitere  Dinge  die  noch  erwaehnt  wurden,  sind  der  zentrale
+Update-Service  und  der  Druck-Service im AFS. Gedruckt wird auf
+kleinen Postscript-Druckern.  Dies ermoeglicht  es  an  der  CMU,
+dass  keinerlei Druckauftragskontrolle noetig ist, da die Drucker
+langsam genug sind und eine Abrechnung teurer als  das  insgesamt
+verbrauchte Papier waere !
+
+Vincent Steger ;  erreichbar unter: XBR1YD32@DDATHD21.BITNET
+
+------------------------------------------------------------------------------
+NEXT NDS6
+                Alan M. Turing und die Intelligenz
+
+"Sage mir exakt, was der Mensch der Maschine voraushat, und ich werde eine
+Maschine bauen, die Deine These widerlegt"
+
+Ein Versuch
+-----------
+Das obige Zitat stammt von einem der (Ueber-) Vaeter der Informatik, dem
+Englaender Alan Matheson Turing (1912--1953). Turing, Mathematiker,
+Kryptologe (er war massgeblich an der Entschluesselung des deutschen
+Enigma-Codes beteiligt), Computertheoretiker, bevor es ueberhaupt Computer
+gab, Schoepfer der Turingmaschine (primitives Denkmodell, das aber prinzipiell
+allen Computern gleichwertig ist) und des Turing-Tests. Sein beruehmtester
+Artikel stellt die provokante Frage "Can Machines Think?" -- und er erlaeutert
+dann eine praezise Methode, diese Frage fuer eine beliebige Maschine zu
+klaeren.
+
+Es soll also um kuenstliche Intelligenz gehen, diesen frustrierenden Zweig
+der Informatik, der immer wieder feststellen muss: it Das, was wir gerade
+geschafft haben, ist doch keine Intelligenz ?!
+
+In den 50er Jahren meinte man, dass das Schachspiel unbestreitbar eine
+Intelligenzleistung sei, und machte sich daran. Als man Erfolg hatte,
+zerstob die Hoffnung. Das Finden mathematischer Saetze und Beweise erwies
+sich als ebenso mechanisch loesbar wie das Verstehen (geschriebener, spaeter
+auch gesprochener) Sprache, das Erkennen von Schriften, das Loesen von
+angewandten Problemen.
+
+Um auf Turings Zitat zurueckzukommen: Sicher gibt es Dinge, die Maschinen
+noch (?) nicht gut koennen.
+
+Insbesondere das Erkennen von Gesichtern, auch wenn sie durch Alter,
+Krankheiten, Stimmung, Beleuchtung, Bewegung veraendert erscheinen. Es sieht
+so aus, als seien Menschen ohne weiteres in der Lage, Gesichter auf das
+Wesentliche zu reduzieren und daher wiederzuerkennen, ohne dass ihnen
+dieser komplexe Vorgang ueberhaupt bewusst wird.
+
+Ein weiteres, von den Verfechtern und Gegnern der kuenstlichen Intelligenz
+immer wieder beschworenes Bild ist die Faehigkeit, aeus dem System
+herauszuspringen", die ausgetretenen Pfade zu verlassen und zu neuen,
+unerwarteten Ideen zu kommen. "Die Maschine kann nur tun, was wir ihr zu
+befehlen wissen" (Augusta Ada Lovelace, geb. Byron, Mitarbeiterin von
+Charles Babbage).
+
+Ein Schachprogramm wird sich nie aus eigenem Antrieb die "Uberlegung
+anstellen, sich durch bewusstes Verlieren (wie offensichtlich darf das sein?)
+beim Gegenueber einzuschmeicheln, nach Verlusten sauer zu reagieren oder gar
+vorzuschlagen, doch lieber 17 und 4 zu spielen.
+
+Aber Schachprogramme schlagen ihre Programmierer -- ein Widerspruch?
+Nein, denn ein Haus schuetzt auch besser vor Regen als ein Maurer.
+Allerdings: "Der Mensch will betrogen sein", das zeigt der ungeheure (und
+auch nicht "er-wuen-sch-te") Erfolg von Programmen wie "DOCTOR" / "ELIZA"
+von Joseph Weizenbaum, einem der schaerfsten Kritiker der kuenst-lichen
+Intelligenz. Das Programm simuliert einen Psychiater ("nondirektive
+Therapie"), indem es auf definierte Schluessel-worte vorgegebene Textkonserven
+auswirft. Viele Benutzer, obwohl vorher ausdrueck-lich auf diesen Charakter
+des Programms hingewiesen, glaubten sich trotzdem it verstanden.
+
+Die in letzter Zeit eher als "Abfallprodukt" der Forschung entstandenen sog.
+"Expertensysteme" stellen eher eine Datenbank verknuepft mit einem Schluss-
+mechanismus dar und werden von ernsthaften Leuten auch lieber als
+"wissensbasierte Systeme" bezeichnet. Sie sind nicht besser als das ihnen
+eingegebene Wissen (bestehend aus Fakten und Regeln), haben aber den Vorteil,
+im Gegensatz zu echten Experten beliebig kopierbar zu sein, nicht krank zu
+werden und keine Gehalts-erhoehungen zu fordern. Ihre Lernfaehigkeit ist
+aber begrenzt, und ausserhalb ihres speziellen Gebietes sind sie bestenfalls
+als Ablageflaeche nutzbar.
+
+All dies beleuchtet aber nur verschiedene vordergruendige Facetten des
+Turing'schen Zitates aus heutiger Sicht. Was Turing eigentlich fordert, ist
+die exakte Definition, wo der Mensch ueberlegen sei: Eben hieran hapert es.
+
+Insofern ist die Forschung auf dem Gebiet der Kuenstlichen Intelligenz
+verschmolzen mit Psychologie, Neurologie und Philosophie (Erkenntnistheorie,
+Ontologie) zur Kognitionswissenschaft (Cognitive Science), ein Weg, unsere
+eigenen Denkprozesse besser zu verstehen -- tiefer, als die formale Logik und
+die Mathematik dies ueberhaupt vermag.
+
+Allmaehlich daemmert es auch den Hardlinern der Wissenschaft, dass die Welt
+nicht vollstaendig mit Differentialgleichungen und Zahlentheorie beschreibbar
+ist. Goedel, Church, Turing und andere haben dies bewiesen.
+
+Wahrlich, dies schrieb Pirx. Es folgt: Wau
+
+"Sage mir exakt, was der Mensch dem Tier voraushat, und ich werde dir einen
+Menschen zeigen, der dem zuwider handelt."
+
+Ein Versuch
+-----------
+
+Das obige Zitat modifiziert ein Zitat von Alan Turing, dem wohl ersten
+Praktiker maschinengestuetzter Entschluesselung im zweiten Weltkrieg. Die
+Maschinen mussten nicht nur hergestellt, sondern vorher erdacht werden.
+
+Turing, ein Homosexueller, starb trotz seines Einsatzes fuer das Vaterland
+als spaetes Opfer einer religioesen Frage.
+
+Der Sieg des Priestertums ueber die gesunde Sinnlichkeit des Volkes durch
+Veraechtlichmachung derselben ist wohl die nachhaltigste Folge des Christenums
+hier, waehrend die Idee der Naechstenliebe und der pazifistische Gedanke des
+Friedens auf Erden von der Kirche weit weniger unterstuetzt wurde.
+
+Auch heute spielt der Krieg eine wichtige Rolle. Wer gewinnt, ist die
+Frage.  Wenn die Amis in Bagdad den Zensor hinter der Satellitenschuessel
+von CNN dauerhaft auswechseln koennen, ohne den Reporter dabei umzubringen,
+haben sie gewonnen.
+
+Wenn ein Hund als Hausgenosse dir einen Ball so zuspielt, dass du ihn
+leicht halten kannst und du spielst mit und ihm den Ball zurueck, geht
+es so dreimal.  Dann haelt der Hund zwei zu eins fuer sich und du hast
+keine Lust mehr.  Und dann will der Hund Ball finden spielen.
+Er bringt dir genau deinen Ball aus den 19 anderen kleinen und wartet
+darauf, dass du ihn hinter dem Ruecken in eine Hand nimmst. In welcher
+ist der Ball? Das erste Mal laesst er dich stets gewinnen. Doch hinterher
+steht es zwei zu eins fuer seine Nase.
+
+Wie soll man so ein Problem loesen? Vielleicht ein kleines Tuch unter
+der geruchsintensiven Achsel tragen und es dann mal mit Ball und Tuch
+zusammen oder getrennt in den Haenden versuchen! Mal sehen, wie der
+Hund reagiert.
+
+Diese Idee als Loesungsansatz einer Maschine mit kuenstlicher Intelligenz
+zu betrachten, verdeutlich das Problem.
+
+Lemminge sollen angeblich schon mal alle gemeinsam eine Klippe runterspringen
+und ersaufen.  Der Fortschritt beim Menschen besteht darin, dass er die ganze
+Welt wegsprengen kann.  Und wenn dann als Entschuldigung benutzt werden
+koennte, der Oberboese solle nicht auch noch wissen, wie Atombomben gebaut
+werden, bevor man sich ueber die Verteilung oder Vernichtung der vorhandenen
+geeinigt hat, wird es kritisch.
+
+Wie ist es mit Monopolen zerstoererischen Wissens? Und wer bezahlt solche
+Entwicklungen, anstatt Wichtigeres zu erforschen? Als de Gaulle die
+franzoesische Atombombe wollte, verweigerten ihm die USA trotz ihres
+Grundrechts auf Waffen seit ihrem Unabhaengigkeitskrieg den Franzosen den
+dazu benoetigten Computer, der irgendwelche Gleichungen ausrechnen sollte.
+Modern formuliert, hatte der so etwa die Kapazitaet eines IBM PC XT. In der
+Konsequenz erhielten franzoesische Kolonien die Unabhaengigkeit, was
+mehrheitliche Auswirkungen auf UN-Abstimmungen hatte, weil so das Gewicht
+amerikanischer Kolonien mit Bananenmarketing sank.
+
+Angesichts der neuen Weltordnung mit mehr Selbstbestimmung fuer Laender mit
+bisher nicht so netten Regimes fragt sich, wann endlich im UN-Sicherheitsrat
+das Vetorecht abgeschafft wird.
+
+Auch wenn nur Mahatma Gandhi am roten Knopf fuer alle ABC-Waffen der Welt
+saesse, waere mir die Waffenabschaffung lieber.  Wir haben genug Probleme und
+brauchen mehr natuerliche Intelligenz statt kuenstlicher.
+
+Und wenn schon Blauhelme zu den brennenden "Oelquellen sollen, dann ist auch
+freie Information ueber den erreichten Demokratielevel und die oekologischen
+Daten dort notwendig.  Die FUCHS-Spuerpanzer als Umweltmesswagen, aber kein
+nacktes Datenmaterial, sondern genauso Lebensberichte etwa von Nomaden in der
+Wueste und ihr jahrtausendealtes kulturelles Verhaeltnis zu Grenzen.
+Information ueber Kultur und Wirklichkeit der less-developped-countries per
+Satellit auch fuer ganz Europa ueber einen Kanal, das UN-Fernsehen von einem
+anderen.  Eine tiefschuerfende Datenbank ueber die Lehensvertraege der
+Ressourcen fehlt noch.  Ach ja, zumindest technische Telekommunikation hat
+der Mensch dem Tier voraus, auch wenn schon Affen im Kaefig mit einer TV-
+Fernbedienung umgehen koennen.
+
+Wau
+
+Aus Datenschleuder 34
+------------------------------------------------------------------------------
+NEXT NRC7
+
+                BSI - Geheimdienst oder Notwendigkeit
+
+"Die gluecklichen Sklaven sind die erbittersten Feinde der Freiheit"
+                                                        Ebner-Eschenbach
+                        (Ausspruch eines Teilnehmers auf dem BSI-Workshop)
+
+In nur einer halben Stunde Diskussion wurde am 24. Oktober 1990 im deutschen
+Bundestag ein Gesetz besprochen, dessen Reichweite heute noch nicht zu
+ueberblicken ist. Nicht nur hat der Gesetzgeber dort ein neues Amt mit ueber
+200 Mitarbeitern geschaffen, sondern definierte auch den Begriff der Sicherheit
+in der Informationstechnik (IT) im Hinblick auf Wirtschaft und Gesellschaft.
+Es kann bekanntlich davon ausgegangen werden, dass die Produktionsgesellschaft
+sich endgueltig in eine Informationsgesellschaft wandelt und sich damit direkt
+und ursaechlich in Abhaengigkeit von der verwendeten Technik, insbesondere der
+Informationstechnik, begibt. Ein Bundesamt fuer Sicherheit in der
+Informationstechnik (BSI) kommt damit automatisch eine zentrale Rolle in der
+zukuenftigen Entwicklung zuteil.
+
+Die Vorgeschichte
+-----------------
+Wenn nun an dieser Stelle von einem neuen Bundesamt gesprochen wird, so ist
+erstmal zu erwaehnen, dass zwar der Status als Bundesamt neu ist, allerdings
+die Behoerde an sich schon aelter ist: Mitte der fuenfziger Jahre wurde schon
+die Zentralstelle fuer das Chiffrierwesen (ZfCh) gegruendet und dem
+Bundesnachrichtendienst (BND) zugeordnet. Die Existenz des ZfCh war lange Zeit
+unbekannt, da davon nur unter der Rubrik "vertraulich" neben der Regierung
+der Innenausschuss des Bundestages informiert war. Das ZfCh befasste sich
+insbesondere mit kryptographischen Verfahren zur Verschluesselung von
+Nachrichten und Verfahren zum "Brechen" von verschluesselten Nachrichten,
+sowie Koordination und Standardisierung solcher Verfahren im Rahmen der NATO.
+
+Am 1.6.1989 machte das ZfCh seine erste Wandlung durch und wurde in
+Zentralstelle fuer die Sicherheit in der Informationstechnik (ZSI) umbenannt.
+Damit anheim ging eine Erweiterung der Aufgaben auf den Bereich Sicherheit in
+der IT. Dies war die direkte Folge - des weit ueberschaetzten - Eindringen
+in Systeme der NASA, sowie der Folge des sogenannten KGB-Hacks.
+
+
+Mit Wirkung vom 1.1.1991 hat nun das ZSI erneut seinen Namen geaendert und
+heisst nun BSI. Gleichzeitig wurde das BSI aus der organisatorischen Anbindung
+an den BND entlassen und nun direkt dem Bundesministerium des Innern (BMI)
+zugeordnet. Damit lies das neue Bundesamt aber seine Entwicklung nicht am
+Nagel der Geschichte haengen. Die Aufgaben des Bundesamtes waren deutlich
+ueber den geheimdienstlichen Bereich erweitert worden, so z.B. die Beratung
+der Wirtschaft und Bundes- bzw. Landesbehoerden in Fragen der Sicherheit,
+der Unterstuetzung der Datenschutzberater, etc. Allerdings wurde das BSI
+der Abteilung Innere Sicherheit 4, zustaendig fuer Geheim- und Sabotage-
+schutz, als nationale Sicherheitsbehoerde zugeordnet. Leiter des BSI ist und
+bleibt Dr. Leiberich, der davor schon das ZSI und davor seit 1957 im ZfCh
+taetig war und seit 1974 deren Leiter war.
+
+In dem Gesetzgebungsverfahren ist dem BSI noch die Aufgabe der
+Technologiefolgenabschaetzung (TFA) in Par. 3, Absatz 1, Punkt 7 mit auf den
+Weg gegeben worden und der Bundesinnenminister machte dies in seiner Rede vor
+dem Bundestag nochmal deutlich. Allerdings hat die organisatorische Anbindung
+an das BMI schon im Vorfeld dem BSI die Moeglichkeit genommen, erstmal ohne
+Misstrauen betrachtet zu werden. Die Diskussion ueber die nationale
+Sicherheitsbehoerde der USA, der National Security Agency (NSA) war noch nicht
+vergessen und die Befuerchtung, dass endgueltig ein neuer Geheimdienst im
+Bereich der IT geschaffen wird, wurde immer haeufiger laut.
+
+
+Das BSI laedt ein ...
+---------------------
+Ende April traffen sich Experten aus dem Gebiet der Wissenschaft, Wirtschaft
+und der Behoerden zu einem Workshop in Boppard. Das BSI hatte unter der
+ueberschrift "IT-Sicherheit: moegliche Folgen fehlender oder unzureichender
+Sicherheitsvorkehrungen" an den idillischen Ort am Rhein in die Bundesakademie
+fuer oeffentliche Verwaltung der Naehe von Bonn geladen. Die Liste
+der geladenen Teilnehmer las sich wie ein "Who is Who" der IT-Sicherheit-
+Engagierten. Teilnehmer aus den diversen Universitaeten, dem Virus-Test-Labor
+Hamburg, Firmen wie Debis, Siemens und IABG, Landesdatenschutzbeauftragte aus
+Berlin und NRW, Projekttraeger, Ministerialraete aus den diversen Ministerien,
+sowie gesellschaftliche Gruppen wie DGB, Gesellschaft fuer Informatik (GI)
+oder Chaos Computer Club waren vertreten.
+Die zentralen Aussagen auf diesem Workshop sollen hier dargestellt werden.
+
+In der Begruessung wuerdigte der BSI-Praesident Dr. Leiberich das Erscheinen
+von ca. 50 Teilnehmern und lobte den Initiator der Veranstaltung Dr. Ulrich
+fuer sein Engagement. Dr. Ulrich hat sich in der Fachwelt schon einen Namen
+durch seine Publikationen im Bereich der TFA und der Restrisiken in der
+Informationssicherheit gemacht und arbeitete nun sein kurzen im BSI. Schon die
+Begruessung wurde von einigen Teilnehmern als Distanzierung zu Dr. Ulrich und
+der Veranstaltung aufgefasst und auch im weiteren Verlauf der Veranstaltung
+kam der unbefangene Teilnehmer nicht umhin zu vermuten, dass der Bereich TFA,
+im Bundesamt durch Dr. Ulrich vertreten, ein Novizendasein fuehrt.
+
+Als erster Referent ergriff Prof. Rossnagel von der FH Darmstadt das Wort.
+Er legte dar, dass die bisherigen Bemuehungen um IT-SIcherheit zu
+technikzentriert sei und die gesellschaftliche Einbettung des
+Sicherheitsproblems nur unzureichend beruecksichtigen. Informations- und
+Kommunikationssysteme seien Systeme mit Auswirkungen auf die Gesellschaft und
+seien daher als soziotechnisches System aufzufassen. Wie die meisten Teilnehmer
+war auch er der Meinung, dass die Verletzlichkeit der Gesellschaft nicht nur
+durch technische Massnahmen zur Verhinderung von Fehlern und Missbraeuchen
+veringert werden muss, sondern das auch die Abhaengigkeit der Gesellschaft von
+Informations- und Kommunikationstechnik und das dadurch bestehende Schadens-
+und Katastrophenpotential beeinflusst werden muss. Es gehoert eben nicht nur
+zur IT-Sicherheit die moeglichen Fehler eines Systems zu betrachten, sondern
+auch im Verhaeltnis das Risiko das allein durch den Rechnereinsatz entsteht.
+Als Beispiel wurde ein einfacher Lesefehler einer Festplatte bei der Pariser
+Justiz angefuehrt, der dazu fuehrte das aus mehrere Bescheiden wegen
+Vekehrssuenden ploetzlich Delikte wegen Drogenmissbrauch und Prostitution
+wurden. Diese eher harmlosen Folgen stehen aber auch katastrophe Fehler im
+Rechnereinsatz entgegen, wie ein Softwarefehler in einem Programm zur Steuerung
+einer Bestrahlungsapparatur in einem Krankenhaus. Weil ein bestimmte Zustand
+vom Programmierer nicht vorgesehen waren, wurden 2 Patienten mit erhoehter
+Strahlung behandelt was zum Tode der Betroffenen fuehrte.
+Ebenso machte Prof. Rossnagel darauf aufmerksam, dass ein Fehler in
+Rechensystemen weit aus staerkere Folgen haette als gemeinhin angenommen.
+Durch die Verkettung der Gesellschaft wuerde der Ausfall von zentralen
+Rechner in einigen Grossstaedten sich im gesamten System fortpflanzen und
+eine Gefahr fuer die Gesamtheit darstellen. Ein "Chaosmanagment" waere
+aber dann auch nicht mehr moeglich, weil die gesamte dafuer notwendige
+Infrastruktur ebenfalls ausgefallen waere. Eine schreckliche Vorstellung
+fuer jedem im Katastrophenschutz.
+
+Das BSI hat - aehnlich wie ihre Vorgaenger in anderen Staaten - den Weg des
+technokratischen Sicherheit gewaehlt und sich damit auf einen Wettlauf
+zwischen steigender Verletzlichkeit und Sicherungstechnik eingelassen, die
+letztere kaum gewinnen kann.
+
+Prof. Brunnstein vom Virentestlabor in Hamburg fuehrte in seinem Beitrag
+ebenfalls aus, dass er beim BSI eine Fehlentwicklung sieht, weil sich das BSI
+allein auf technische Massnahmen konzentriert. Da es aber keine sichere Systeme
+geben kann, muessen technisch und sozial beherrschbare Systeme gefordert
+werden. Unter beherrschbaren Systemen muessen aber Systeme verstanden werden,
+die von Menschen noch erfasst und damit kontrolliert werden koennen. Da aber
+die gesamte heutige Computertechnik auf die Ideen von Neumann aufbaut, ist
+dies faktisch unmoeglich. Von Neumann hatte den Rechner mit seinem Bus,
+Speicher, CPU, etc verglichen mit dem Aufbau des menschlichen Gehirn und ging
+dadurch von einer moeglichen Transparenz zwischen Mensch und Maschine aus.
+Heute wissen wir, dass diese aehnlichkeit nicht besteht, also der Rechner
+ansich dem Menschen immer fremd bleiben muss.
+
+Dr. Buellesbach von der Daimler Benz Informationssysteme (debis) und fruehrer
+Datenschutzbeuftrager Bremens ging das Sicherheitsproblem von der
+Entwicklungsseite an. Er kritisierte das nachtraegliche Aufspueren von
+Sicherheitsluecken mit Hilfe von Tiger-Teams, also professionel-angestellten
+Hackern, und legte dar, dass bei der Entwicklung von Software in
+Zusammenarbeit mit den Betroffenen (Betreiber, Benutzer, Anwender) die Basis
+fuer "Security Managment" gelegt werden muss. Gleichzeitig muss ueber
+Sicherheitsprobleme oeffentlich diskutiert werden, den diese Transparenz ist
+die Basis fuer den Fortschritt. Zwar stehen dem Sicherheitsbedenken der
+Hersteller oder Abwender entgegen, aber in der Regel sei Verheimlichung kein
+Sicherheitsgewinn.
+
+Eine ganze andere - eher pragmatische - Sichtweise wurde von Dr. Bunge,
+Ministerialrat beim Bundesrechnungshof, vorgestellt. Das BRH stellt haeufig
+Sicherheitsmaengel fest, die allerdings nicht bekannt werden. Dadurch werden
+aber aehnliche Maengel in anderen oeffentlichen Einrichtungen nicht beseitigt.
+Daher ist der Rechnungshof dazu uebergegangen, solche Maengel anonym zu
+veroeffentlichen. Dabei werden diese aber abstrakt dargestellt um
+Nachahmungstaeter zu vermeiden. Die Details gelten aus vertraulich. Sicherheit
+ist fuer den BRH ein wichtiger Punkt, da es ueber den angemessen und
+wirtschaftlichen Einsatz staatlicher Gelder wacht. Auf der einen Seite kostet
+Sicherheit aber Geld, ein evntl. Schaden kann auch grosse finanzielle
+Aufwendungen nachsichziehen. Inzwischen muss daher bei Antrag auf den Einsatz
+von Rechnern ein Nachweis ueber Angemessenheit und eine Risiokoabschaetzung
+eingereicht werden.
+Das BRH beschaeftigt sich darueber hinaus nicht nur mit der punktuellen
+Sicherheit einzelner Systeme, sondern auch im Gesamtkonzept
+Mensch-Organisation-Technik. Beispielsweise findet im Augenblick eine
+Diskussion ueber den Einsatz von Unix im Hinblick auf Sicherheit, Wirtschaft-
+lichkeit und Risiko statt.
+
+Am 2. Tag der Veranstaltung erlaeuterten Dr. Pfitzmann von der Uni Karlsruhe
+und Prof. von Henke von der Uni Ulm, die Anforderungen von IT-Systemen
+bezuegl. Funktionalitaet und Korrektheit. Dabei wurde erlaeutert, dass die
+Regel Fehler in der Software und seltener in der Hardware liegen. Kleine
+Fehler in Fortranprogrammen koennen Raumsonen um Hunderttausende von KM
+ihr Ziel verfehlen lassen (und Cruise Missiles um paar Meter). Ein
+Loesungsansatz wurde z.B. beim Airbus 320 verwendet. Zwei vollkommen
+eigenstaendig entwickelte Systeme, die ihre Ergebnisse vergleichen. Solange
+ihre Ergebnisse uebereinstimmen, kann davon ausgegangen werden, dass das
+Ergebnis richtig ist. Bei nicht uebereinstimmung koennen entsprechende
+Massnahmen eingeleitet werden. Allerdings hat das System auch seine schlechten
+Seiten, wie der Absturz bei einer Airbus-Vorfuehrung in Paris gezeigt hat.
+
+Als abschliessendes Referat brachte Herr Lau von der Uni Rostock noch einen
+Einblick in die Situation in der ehemaligen DDR. Eine Abteilung Daten-
+sicherheit war der Abt. Geheimnisschutz des Ministerrates in der DDR
+unterstellt. Datenschutz an sich gab es in der DDR nicht. Datensicherheit
+selbst wurde aber auch an den Universitaeten gelehrt. Fuer Informatiker waren
+da 30 SWS Pflicht. Ob das so bleiben wird, ist unklar. Geplant ist demnaechst
+ein Workshop von der Uni Rostok un der Uni Bremen zur Rechtsangleichung des
+Datenschutzes.
+
+
+Was nun BSI ?
+-------------
+Wo sieht das Bundesamt aber seine zukuenftige Aufgabe ?  Die Teilnehmer
+waren einer Meinung, dass die Arbeit des BSI auf Grundlage des
+Errichtungsgesetzes geschehen muesse, aber dieses genug Freiraeume zum
+setzen von Schwerpunkten und Prioritaeten lassen wuerde. Dabei wurden denn
+Punkten oeffentlichkeitsarbeit, Kooperation mit der Wissenschaft,
+Unterstuetzung der Datenschutzbeauftragten und der
+Technologiefolgenabschaetzung hohe Stellenwerte eingeraeumt. Es kam der Wunsch
+auf, dass die Technologiefolgenabschaetzung eine eigene Abteilung im BSI werden
+wuerde und nicht stiefmuetterlich am Rande zum Vorzeigen verwendet werden
+wuerde. Die parlamentarische und ausserparlamentarische Kontrolmechanismen
+werden einen besonderen Augenmerk auf die TFA werden, die ja erst im letzten
+Augenblick in das Gesetz aufgenommen wurde.
+
+Die Teilnehmer der abschliessenden Podiumsdiskussion sprachen sich durch-
+weg fuer die Verbindung zwischen Technik und Gesellschaftlicher Verantwortung.
+Sicherheit darf nicht nach dem olympischen Prinzip (hoeher, weiter, schneller),
+so Prof. Dierstein, betrachtet werden, sondern auch nach TFA und
+Verfassungskonformitaet. Auch wurde die Zusammenarbeit zwischen Juristen,
+Techniker, BSI und Betroffenen angemahnt, sowie regelmaessige Treffen zum
+Bereich der TFA vorgeschlagen.
+
+Die Abschlussrede blieb Dr. Leiberich vorenthalten. Es bedankte sich bei
+den Teilnehmern und lobte die Diskussion. Dann erlaeuterte, wo der die
+Schwerpunkte des BSI sehen wuerde, naemlich im Bereich der Verhinderung
+des Abhoerens kommerzieler und staatlicher Links. Diese Gefahr erlaeuterte
+er recht ausfuehrlich.
+Das in naechster Zeit wirklich nicht mit einer aenderung der Einstellung
+zu rechnen ist, zeigt die 2. Deutsche Konferenz ueber Computersicherheit
+die Mitte Juni vom BSI und BIFOA veranstaltet wird.
+Von ueber 30 Vortraegen beschaeftigt sich keiner mit TFA. Dafuer gibt es
+aber eine Podiumsdiskussion ueber "Techno-Terrorismus" und Kongressgebuehren
+von ueber 1000 DM. Ob damit der Gesellschaft geholfen ist ?
+Und in wie weit es sinnvoll ist, dass die von der ehemaligen ZSI entwickelten
+Sicherheitskriterien fuer Software kein Wort der TFA enthaelt und die
+ueberpruefung von Software nach diesen Kriterien - neben drei TueV-Anstalten -
+auch von der IABG in Muenchen vorgenommen werden, also einer Firma die zu
+grossen Teilen dem Bund gehoert und bis jetzt stark fuer die Geheimdienste und
+dem Verteidigungsministerium gearbeitet hat, spricht ebenfalls nicht dafuer,
+dass das BSI ernsthaft um eine Trennung seiner Vergangenheit bemueht ist.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Laut BSI-Errichtungsgesetz vom 17.12.1990 kommt dem neuen Bundesamt gemaess
+Par. 3, Absatz 1 folgene Aufgaben zu:
+
+1. Untersuchung der Sicherheitsrisiken bei Anwendung der Informationstechnik
+   sowie Entwicklung von Sicherheitsvorkehrungen, insbesondere von
+   informationstechnischen Verfahren und Geraeten fuer die Sicherheit in der
+   Informationstechnik, soweit dies zur Erfuellung von Aufgaben des Bundes
+   erforderlich ist,
+
+2. Entwicklung von Kriterien, Verfahren und Werkzeugen fuer die Pruefung und
+   Bewertung der Sicherheit von informationstechnischen Systemen und
+   Komponenten,
+
+3. Pruefung und Bewertung der Sicherheit von informationstechnischen Systemen
+   oder Komponenten und Erteilung von Sicherheitszertifikaten,
+
+4. Zulassung von informationstechnischen Systemen oder Komponenten, die fuer
+   die Verarbeitung oder uebertragung amtlich geheimgehaltener Information
+   (Verschlusssachen) im Bereich des Bundes oder bei Unternehmen im Rahmen von
+   Auftraegen des Bundes eingesetzt werden sollen, sowie Herstellung von
+   Schluesseldaten, die fuer den Betrieb zugelassener Verschluesselungsgeraete
+   benoetigt werden,
+
+5. Unterstuetzung der fuer die Sicherheit in der Informationstechnik
+   zustaendigen Stellen des Bundes, insbesondere soweit sie Beratungs- oder
+   Kontrollaufgaben wahrnehmen, dies gilt vorrangig fuer den Bundesbeuaftragten
+   fuer den Datenschutz, dessen Unterstuetzung im Rahmen der Unabhaengigkeit
+   erfolgt, die ihm bei der Erfuellung seiner Aufgaben nach dem Bundesdaten-
+   schutzgesetz zusteht,
+
+6. Unterstuetzung
+   a) der Polizeien und Strafverfolgungsbehoerden bei der Wahrnehmung ihrer
+      gesetzlichen Aufgaben,
+   b) der Verfassungsschutzbehoerden bei der Auswerttung und Bewertung von
+      Informationen, die bei der Beobachtung terroristischer Bestrebungen oder
+      nachrichtendienstlicher Taetigkeiten im Rahmen gesetzlicher Befugnisse
+      nach den Verfassungsschutzgesetzen des Bundes und der Laender anfallen.
+
+   Die Unterstuetzung darf nur gewaehrt werden, soweit sie erforderlich ist, um
+   Taetigkeiten zu verhindern oder zu erforschen, die gegen die Sicherheit in
+   der Informationstechnik gerichtet sind oder unter Nutzung der Informations-
+   technik erfolgen. Die Unterstuetzungsersuchen sind durch das Bundesamt
+   aktenkundig zu machen,
+
+7. Beratung der Hersteller, Vertreiber und Anwender in Fragen der Sicherheit
+   in der Informationstechnik unter Beruecksichtigung der moeglichen Folgen
+   fehlender oder unzureichender Sicherheitsvorkehrungen.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Terra
+------------------------------------------------------------------------------
+NEXT NNE8
+                Indvidual Network oder ein Geist wird geboren
+
+Was is'n das ?
+--------------
+Am 4. Mai 1991 fand in Berlin ein Treffen zwischen mehreren Leuten mit dem
+Ziel statt, eine weitere Verbesserung der Connectivity im Rahmen der
+internationalen Netze, die Erweiterung des Dienstangebot und eine Verringerung
+der Teilnahmekosten zu erreichen. Das Ergebnis dieses Treffens hat den
+Namen IN - Indivdual Network bekommen. IN ist kein neues Netz in herkoemmlichen
+Sinne, sondern eigentlich eher eine Idee, ein Geist, ein Dach fuer bestehende
+Netze, die mit dem deutschen EUnet ueber eine pauschale Privatpersonenregelung
+teilnehmen. IN soll nicht in Form eines Vereins, Clubs, einer Firma, Kirche
+oder etwas Aehnlichem institutionalisiert werden.
+Im Rahmen von IN soll versucht werden, bestehende technische Regelungen
+anzugleichen, sowie zu gewaehrleisten, dass nicht in jedem Netz das Rad neu
+erfunden werden muss. Die Zielgruppe ist primaer natuerlich Teilnehmer im
+UUCP, allerdings ist die Regelung auch fuer andere Netze interessant, die
+international erreichbar sein wollen und ueber pauschalisierte Gebuehren
+am weltweiten Verbund teilnehmen wollen.
+
+Es soll ein Dach geschaffen werden, das es auch Teilnehmern ausserhalb der
+Bereiche Berlin, Hanse und North ermoeglicht, einfach an den internationalen
+Verbuenden teilzunehmen, ohne sich auf ein Schlag selbst mit allen
+Problemen (Gebuehren, Abbrechnung, Domainverwaltung, etc.) beschaeftigen
+zu muessen.
+
+
+Also wieder ein neues Netz ?
+----------------------------
+Eigentlich nicht. Eher ein Verbund schon bestehender privater Netze. Diese
+Netze (HanseNet, NorthNet, In-Berlin, etc.) haben bereits eine pauschal-
+tarifierte Regelung mit Unido. Aus Gruenden der Vereinfachung und der
+Vereinheitlichung der Tarife, sowie des Leistungsangebotes auf privaten
+Sektor wollen diese Netze sich in einer Art "Dachverband" oder 'Interessens-
+verbund" zusammenschliessen.
+Ausserden glauben wir, durch IN eine alle Seiten zufriedenstellende Grund-
+lage fuer den Aufbau anderer regionaler Netze wie auch fuer absolute
+Neueinsteiger zu schaffen.
+
+
+Wie ist das Ganze den strukturiert ?
+------------------------------------
+Geplant sind zwei unterschiedliche "Qualitaeten" von Domains:
+
+        - serviceverwaltete Domains
+          (kleinere Domains, die zwar aufgrund ihrer geographischen
+           Einordnung einen eigenen Namen erhalten, ber technische
+           Aufgaben von einer anderen Domain mit uebernommen werden)
+        - Selbstverwaltete Domains
+          (groessere Domains, die eigenverantwortlich verwaltet werden)
+
+Die Zustaendigkeiten (Routing, Maps, Guidelines) sollen folgendermassen
+geregelt werden:
+
+        Routing
+                Das Routen innerhalb der Domain uebernimmt der
+                jeweilige Verwaltungsrechner. Handelt es sich um eine
+                serviceverwaltete Domain, so laufen die Mails aus Gruenden
+                der Verantwortlichkeit vorher ueber den Verwaltungsrechner
+                der zustaendigen Domain.
+
+        Maps
+                Das Sammeln, Verwalten und Weiterleiten der Mapschnipsel
+                wird von der zustaendigen Domain vorgenommen.
+
+1. Serviceverwaltete Domain
+        Beratung
+                Soweit moeglich sollen auftretende Fragen innerhalb der
+                Domain geklaert werden.
+
+        Nettiqette/Guidelines
+                Die Art, wie inhaltliche Probleme geloest werden, sollen
+                ebenfalls von den einzelnen Domains selbst geklaert werden.
+                Dies gilt soweit es nicht auch andere Domains betrifft.
+                Gemeinsam soll eine Empfehlung (Mini-Nettiqette) fuer
+                evntl. domainueberschreitende Probleme ausgearbeitet
+                werden.
+
+        Alle anderen Dinge werden von einer selbstverwalteten Domain
+        mit uebernommen. Eine neue Domain bekommt erstmal den Status
+        einer serviceverwalteten Domain, bis durch die Anzahl der Rechner
+        und die vorhandenen Moeglichkeiten, sowie auf Wunsch der lokalen
+        Domain diese sich selbst verwalten will.
+
+2. Selbstverwaltete Domain
+
+        Finanzen
+                Die selbstverwaltete Domain hat eine eigene Abbrechnung,
+                bezahlt ihren Anteil auf ein Konto, sorgt selbst fuer
+                das Verschicken von Mahnungen, etc. Die selbstv. Domain
+                ueberweisst ihren und den Gebuehren und der von ihr
+                serviceverwalteten Domains das IN-Konto.
+        Secondary Domain
+                Die Domain wird vollstaendig von der selbstv. Domain
+                uebernommen. Technisch bedeutet das, dass ein MX-Record
+                auf den Verwaltungsrechner der Domain eingerichtet wird.
+        Preispolitik
+                Wie der Anteil an den Gebuehren innerhalb der Domain
+                umgelegt wird, wird ebenfalls hier bestimmt. Dies gilt
+                bis zum 1.1.1992. Bis dahin sollen die Anschlussgebuehren
+                vereinheitlicht werden oder andere entsprechende Regelungen
+                gefunden werden.
+        Antragsbearbeitung
+                Die selbstv. Domains verschicken Antraege zur Teilnahme und
+                sammeln diese.
+        Beratung
+                Die selbstv. Domains beraten und informieren die service-
+                verwalteten Domains in Hinblick auf Wissenerweiterung
+                der lokalen Domains. (Damit diese von Know-How her die
+                Moeglichkeit erhalten, spaeter ihre Domain selbst zu ver-
+                walten.)
+
+3. Indivual Network (IN)
+
+        Das IN wird faktisch als Geist und nicht als Organisation gebildet.
+        Die meisten und wichtigen Verantwortungen liegen bei den Domains.
+        Ein Vertreter jedes Namensraums wird in eine IN-Mailinglist auf-
+        genommen, in der die Aufgaben des IN aufgeteilt und wahrgenommen
+        werden. IN ist also praktisch die Gemeinschaft der Domains.
+
+        Ueberweisung
+                Das IN sammelt das Geld der Namensraeume und bezahlt die
+                Rechnung bei Unido.
+        Maillinglist
+                Das IN betreibt eine Maillinglist aus den Vertretern der
+                Domains und besonders interessierten und aktiven
+                Teilnehmern.
+        Network Managment
+                Das IN (also die technischen Vertreter der Namensraeume)
+                stellen die Versorgung an News und die Maillinks sicher und
+                vermeidet sinnlose (ineffektive) Verbindungen oder die
+                Verwendung nicht zugelassener Links. Dazu gehoert auch der
+                Betrieb eines Primary Domainnameservers.
+        Oeffentlichkeitsarbeit
+                Im Rahmen der Arbeit des IN soll Informationsmaterial
+                zur Verfuegung gestellt werden, was das IN ist, was es
+                bedeutet, wie mensch eine Domain eroeffnet, etc. Diese
+                wird von Vera und Heiko aus der In-Berlin Domain ausge-
+                arbeitet. Die Domains erweitern diese Info um ihre lokalen
+                Besonderheiten.
+        Netzpolitik
+                Das IN vertritt seine Domains nach aussen. Durch den
+                groesseren Verbreitungsraum und die groesseren Teilnehmerzahl
+                sollen die Moeglichkeiten der Privatpersonen im Netz
+                verbessert werden.
+
+
+Was aendert sich fuer die privaten Netze ?
+------------------------------------------
+Im Augenblick garnix oder nicht viel. Einige der privaten Netze tragen ihre
+Teilnehmer auf Grund eines Anrufes oder einer Mail ein. Dies soll nur noch
+temporaer geschehen. Neue Teilnehmer (und natuerlich auch die alten) sollen
+schriftliche Antraege stellen, die im IN auch einheitlich sind. Insofern
+aendert sich was in der Verwaltung, aber das wird sich erstmal nur wenig
+auswirken. Auch an den Gebuehren aendert sich nix.
+Zum 1.1. 1992 sollen allerdings in den teilnehmenden Netzen die Gebuehren
+vereinheitlich werden. Im Augenblick werden Gebuehren zwischen 5 und 25 DM
+in den Netzen erhoben. Zum Teil mit unterschiedlichen Kriterien wie
+News: Ja/Nein oder Multiuser/Point. Wie das aussehen wird, ist noch unklar.
+Durch den gemeinsamen Abbrechnungsraum im Rahmen des IN werden diese
+zukuenftigen Gebuehren im Durchschnitt (das Wort bitte betont lesen) sicher
+geringer ausfallen, als heute. Auch rechnen wir mit deutlich mehr Teilnehmern
+und Diensten als heute. Das IN soll im Endeffekt ab 1.7. 1991 ihren Betrieb
+aufnehmen.
+
+
+Fuer welche Netze ist IN gedacht ?
+----------------------------------
+Fuer jedes. Es ist also nicht nur auf UUCP und Internetdienste beschraenkt.
+Im Augenblick gehoert auch noch das MausNet zum Verbund. Evntl. wollen
+Teile des Zerberus ebenfalls daran teilnehmen. Das IN betreibt aber keine
+Gateways. Diese Initiativen sollen und muessen weiter von einzelnen Personen
+oder Netzen kommen. Wir helfen nur bei dem Teil der Netzpolitik, der mit
+der internationalen Connectivity und damit entstehenden Problemen zusammen-
+haengt.
+Neu ist dabei allerdings, dass die Grundlage der Vereinbarung zwischen IN
+und Unido eine Internet-Regelung ist. Das heisst nicht nur, dass keine
+zusaetzlichen Mailkosten anfallen, sondern auch das prinzipiell nun
+fuer Privatpersonen die Teilnahme am Internet mit seinen Diensten (telnet,
+ftp, irc, etc) moeglich wird. Im Augenblick stehen eher technische Probleme
+entgegen, als netzpolitische. Daran wird aber gearbeitet, wie z.B. in
+Berlin bei der netmbx oder Hamburg bei der mcshh.
+
+
+Woher erfahre ich etwas zum IN ?
+--------------------------------
+Jede bestehende Domain im IN sollte Information (z.B. IN-Info) haben und
+sie bei Fragen zuschicken koennen. Weiterhin sollten die technischen
+Verwalter der selbstverwaltenen Domains darueberhinausgehende Fragen
+beantworten koennen. Im Augenblick waeren das:
+
+                heinau@methan.chemie.fu-berlin.de
+                heiko@methan.chemie.fu-berlin.de
+                thw@mcshh.hanse.de
+                juergen_conradi@hb.maus.de
+                terra@sol.north.de
+
+
+Welche weiteren Aufgaben hat das IN ?
+-------------------------------------
+Maximal zur Verwirrung der Netzwerklandschaft beitragen. :-)
+
+Vera, Heiko, Ralf, Thomas, Frank
+------------------------------------------------------------------------------
+NEXT NNE9
+                Wir leben laengst im Cyberspace
+
+Weshalb Kultur immer eine kuenstlich generierte Welt ist,
+und kommende Techniken nur graduelle Neuerungen bringen.
+
+     You are not wrong, who deem
+     That my days have been a dream;
+     (...)
+     In a vision, or in none,
+     Is it therefore the less  g o n e ?
+     A l l  that we see or seem
+     Is but a dream within a dream.
+
+                         Edgar Allan Poe,
+                         A DREAM WITHIN A DREAM
+
+
+     In allen Bereichen unseres Lebens scheinen sich deutliche
+Veraenderungen zu vollziehen. In meinem Text 'Leben in Turbulenz'
+habe ich ueber Trends berichtet, die aus dem Bereich der Computer-
+technologie in unsere Kultur draengen und einschneidende Umwaelzun-
+gen eingeleitet haben oder moeglicherweise einleiten werden. Hier
+nun moechte ich meiner Einschaetzung Ausdruck geben, dasz diese un-
+leugbar beschleunigt stattfindenden Umbrueche unser Verstaendnis
+von Kultur nicht werden mitreiszen koennen. Begreifen wir etwa die
+Aussicht auf die Realisierung und Verbreitung von Cyberspace als
+die Verabschiedung des Menschen aus der Realitaet, so zeigt dies,
+dasz wir das Wesen menschlicher Kultur miszverstanden haben. Was
+ich hier vertreten will ist die Ueberzeugung, dasz der Mensch sich
+wohl bereits mit der Nutzbarmachung des Feuers in einen kuenstlich
+geschaffenen Raum begeben hat.
+[Anm. der Red. - der erwaehnte Text wurde im Zerberusnetz veroeffentlicht,
+ nicht in einer frueheren Chalisti]
+
+Kunstwelten
+
+     Der Mensch war zunaechst Jaeger und Sammler, dann ein dem Vieh
+folgender Nomade, dann seszhafter Ackerbauer, Handwerker, Haendler,
+Industriearbeiter und schlieszlich Software-Anwender. All diese
+Schritte sind wohl als Revolutionen bezeichnet worden; und sie
+sind auf das Finden und Erfinden von Fertigkeiten und Techniken
+zurueckzufuehren. Dabei hat die Umwelt des Menschen sich in dem
+Sinne veraendert, als - wenn man so will - der Grad ihrer Kuenst-
+lichkeit immer weiter zugenommen hat. Somit kann die zukuenftig
+durchaus denkbare Verbreitung von Cyberspace keinesfalls als Ver-
+abschiedung von der Realitaet gesehen werden: vielmehr wird sich
+die Realitaet (einmal mehr) veraendern. In diesem Zusammenhang wer-
+den auch andere Technologien (etwa die Genmanipulation) eine
+auszerordentliche Rolle spielen.
+     Warum aber erzeugt schon die Nutzbarmachung des Feuers durch
+den Menschen eine Art Cyberspace? Die Antwort erwaechst aus fol-
+gender Ueberlegung. Begeben wir uns um rund 400 000 Jahre zurueck.
+Den lebenden Menschen ist es gleichgueltig, ob wir sie noch als
+Homo erectus oder bereits als als Homo sapiens bezeichnen. Sie
+muessen in einer rauhen Umgebung ueberleben. Staendig drohen Ueber-
+faelle durch Raubtiere, die es besonders auf Saeuglinge, Kinder und
+Schwache abgesehen haben. Die Faehigkeit, ein Feuer zu entzuenden,
+oder es zumindest am Brennen zu halten, ermoeglicht einen Lager-
+platz, der einen gewissen Sicherheitsradius schafft. (Der Leser
+moege sich diesen Platz als ein Feld auf einer Landkarte vorstel-
+len, dessen Farbintensitaet zum Rand hin abnimmt.) In diesem
+Bereich sind die Bedingungen des uebrigen Lebensraums aufgehoben.
+Eine Kunstwelt ist generiert, die fuer Raubtiere schlicht keine
+Schnittstelle hat! Als griffiges Beispiel kann man eine fiktive
+Geschichte aus dem Alaska der Jahrhundertwende lesen: den ersten
+Teil von Jack Londons 'White Fang' (Wolfsblut). Der jetzt noch
+immer feuer-unglaeubige Cyber-Freak moege sich vor Augen fuehren,
+dasz die Bilder hinter seiner Datenbrille der Hard- und Software
+beduerfen, also nicht 'von ungefaehr' kommen. Feuer braucht Holz,
+Cyberspace braucht MIPS. Die Lichterscheinungen des Feuers aber
+(wir brauchen uns hier nicht ueber Wellen oder Korpuskel strei-
+ten) - erscheinen sie uns nicht instinktiv als unstofflich, was
+doch wohl eigentlich und geradezu das Wesen des Cyberspace ist.
+     Mit einem weiteren Beispiel moechte ich die kostbare Zeit
+meiner Leser stehlen. Die zweite ueberragende Entdeckung nach dem
+Feuer war die Erfindung der Schrift. Betreten wir in unserer Vor-
+stellung also ein Wohnzimmer, dessen Waende gefuellte Buecherregale
+sind. Hier befindet sich Material fuer ein ganzes Leben geistiger
+Beschaeftigung. Der Leser schirmt seine Sinne gegen die Umwelt ab
+(klingt wie eine Cyberspace-Beschreibung), und es tun sich Welten
+auf, die gar nicht da sind. Das wird erst richtig deutlich, wenn
+uns die Vorstellung gelingt, wir koennten nicht lesen. Dann ist da
+nur noch ein Brennstofflager, aus dem bestenfalls noch ein Oster-
+feuer zu machen waere.
+
+Wie wir Heute leben
+
+     Im Gegensatz zum groeszeren Teil der Menschheit genieszen wir
+die Gnade der wissenschaftlich-technisch-industriellen Zivilisa-
+tion. Egal welchen Teil man aus ihr zur Betrachtung herausgreift,
+er ist kuenstlich erzeugt, ein Produkt des menschlichen Geistes.
+Das reicht von der Gehwegplatte bis zum Stealth-Bomber. Wie sehr
+diese Verkuenstlichung unsere Lebensweisen und -bedingungen seit
+einigen Jahrzehnten veraendert, ja geradezu verzerrt hat, moechte
+ich an vier wesentlichen Techniken erlaeutern: Telefon, Automobil,
+Fernsehen.
+     Das Telefon ist bereits seit vielen Generationen im Einsatz.
+Es verzerrt den Schallraum ungemein. Es entsteht ein Schlauch
+zwischen zwei beliebig weit entfernten Orten. Wer macht sich noch
+klar, wie weit und schnell wir damit greifen? Was macht uns so
+sicher, dasz die Laute in der Muschel von den Menschen kommen, die
+wir uns vorstellen? In diesem akustisch-kybernetischen Raum be-
+gegnen wir nur einem Teil des Menschen - auf den Rest koennen wir
+offensichtlich verzichten. Es laeszt sich also sagen, dasz wir den
+Menschen nicht mehr als Zweck, sondern lediglich noch als Mittel
+der Kommunikation betrachten. Nun wird der scharfsinnige Leser
+einwenden (Feministinnen muessen sich an derartigen Textstellen
+analoge Redundanzen selbst dazudenken), dasz er das Telefon doch
+nur dazu benutzt, sich mit der  g a n z e n  Freundin zu verabre-
+den. Das mag hier und da tatsaechlich der Fall sein, doch muessen
+wir klar sehen, dasz die meisten Telefongespraeche in unserem
+institutionalisierten Leben 'geschaeftlicher' Natur sind. Men-
+schen, die sich noch niemals gesehen haben und sich niemals sehen
+werden, koennen in ihrem Berufsleben miteinander Probleme loesen,
+die unser aller Leben sichern. Der Mensch bedarf des 'Zusammenle-
+bens' also ueberhaupt nicht mehr, die Telekommunikation reicht
+voellig aus.
+
+Sterben fuer sinnlose Kommunikation?
+
+     Bis auf einen Fernsehmoderator, der von einem Alptraum
+sprach, fanden es vor wenigen Wochen auf der CeBIT alle so toll,
+dasz in etwa zehn Jahren jedes Automobil serienmaeszig mit einem
+Autotelefon ausgeruestet sein wird. Jedem ist eigentlich klar, dasz
+noch mehr Radfahrer und Fuszgaenger sterben muessen, wenn es nicht
+mehr nur die Schickimicki-Studentinnen mit VW-Golf sind, die
+nicht auf den Verkehr vor ihrer Windschutzscheibe achten, sondern
+auf den Verkehr durch ihr Telefon - ihr Freund im Austin-Mini-
+Mayfair heizt gerade am anderen Ende der Stadt... Oder steckt er
+im Stau? (Ja, auch Computer-Freaks und Stubengelehrte werfen mal
+einen Blick in 'Cosmopolitan', die wahre Frauenzeitschrift, um
+die Geisteswelt gewisser Menschen zu erforschen.)
+
+     Mit der letzten Variante des Telefons sind wir auch schon
+bei meinem Lieblingsthema (ein gesonderter Artikel ist in Vorbe-
+reitung): das Automobil. Auch diese Technologie ist bereits seit
+Generationen im Einsatz und hat gewaltige Veraenderungen mit sich
+gebracht. Es verhaelt sich wie mit dem Feuer oder dem Telefon. Die
+vorher gegebenen Bedingungen sind auf Teilen der Weltkarte - dort
+wo es befestigte Straszen, Autos und Treibstoff gibt - voellig ver-
+aendert. Auch hier ist ein kuenstlich generierter Raum geschaffen,
+der Verzerrungen mit sich bringt. Anfangs brachte das Auto Frei-
+heit. Jeder, der ein Auto hatte, konnte nun zwar noch nicht sein,
+WAS er wollte, wie bei Timothy Learys LSD-Trips, zumindest aber
+konnte er sein, WO er wollte. In dem Masze aber, da das Auto zur
+alltaeglichen Selbstverstaendlichkeit wurde, und jeder das Fahren
+in sein Leben einbaute, entstanden die Zwaenge. Die Komponenten
+des Lebenszusammenhangs wie Wohnung, Arbeitsplatz, Verwandschaft,
+Freunde, Verein usw. liegen heute raeumlich bereits an den Grenzen
+der Leistungsfaehigkeit des Autos zumal der Verkehrsflusz immer
+haeufiger zum Stau wird. Wenn das Verkehrsmittel also versagt,
+funktioniert die Tagesplanung auf einmal nicht mehr, und man ist
+ploetzlich allein, weil man die anderen kaum noch erreichen
+kann, und man merkt endlich: wir leben laengst nicht mehr in der
+'wirklichen' Welt, sondern im Automobil-Cyberspace!
+
+Traum vom Ausbruch aus dem verbauten Leben
+
+     Wenn einem die Zeit nicht mehr reicht, die Freunde zu sehen,
+weil das Ueberbruecken des Raums zwar nicht unmoeglich, so aber doch
+mit Stresz verbunden ist, setzt man sich doch lieber vor den Fern-
+seher. Das es sich hier nun endgueltig um eine unwirkliche Welt
+handelt, brauche ich nicht mehr zu erlaeutern. Und da heute jeder
+Fernsehzuschauer allein vor seinem Geraet sitzt, die Fernbedienung
+nicht mehr aus der Hand legt und unzaehlige Programme zur Verfue-
+gung hat, ist er nichtmal der vielgescholtene passive Konsument,
+denn er sucht sich ja seinen Weg durch die Programme selbst. Was
+er nicht sehen will, braucht er nicht zu sehen, denn er findet
+auf einem anderen Kanal bestimmt etwas Reizenderes. Wenn ich mich
+mit meinen Mitmenschen ueber Dinge unterhalte, die ich im Fernse-
+hen gesehen habe, erhalte ich immer haeufiger zur Antwort: "Das
+habe ich nicht ganz gesehen", oder: "Da hatte ich gerade auf ein
+anderes Programm geschaltet".
+     Aber das sogenannte 'Zapping' (das Folgen des eigenen Im-
+pulses also), ist nicht die letzte Entwicklung. Man musz nicht von
+dem amerikanischen Nachrichtensender CNN sprechen, wenn man
+'Echtzeit' meint. Unsere 'wirkliche' Nachbarschaft etwa nehmen
+wir gar nicht mehr wahr. Ich selbst kenne durchaus nicht alle
+Mitbewohner meines Hauses, manche habe ich wohl noch nie gesehen.
+Aber ich koennte sie kennen, wenn ich regelmaeszig die 'Linden-
+strasze' einschalten wuerde. Meistens ist mir das Ansehen dieser
+erfolgreichen Serie unertraeglich, denn ich halte die laecherlichen
+Probleme dieser Menschen einfach nicht aus (Muecke-Elefanten-
+Effekt). Wenige Stunden vor Ausbruch des Golf-Krieges (Wessen
+Fernseher lief nicht rund um die Uhr?) sah ich zufaellig, wie eine
+Lindenstraszen-Nachbarin von den Ereignissen am Golf voellig mitge-
+nommen war (und keine Kinder haben wollte in dieser Welt oder
+sowas in der Richtung). Das haute mich als inzwischen abgebruehten
+Fern-Seher doch fast aus dem Sessel: Das ist ja alles echt. Wann
+haben die das denn gedreht? Die drehen gar nicht mehr, das ist
+'live'! Und ich war noch gewohnt, dasz der 'Tatort' im Winter
+spielt, wenn drauszen Sommer ist.
+     Die drei Beispiele Telefon, Automobil und Fernsehen zeigen,
+wie sehr wir unser Leben verbaut haben. Erst reiszen wir es mit
+komplizierter Technologie auseinander, um es dann mit noch aus-
+gefeilterer Technologie wieder zusammenzufuegen. Was dabei ent-
+steht, ist ein Flickenteppich von Wahrnehmungen, der uns (ich
+sage mal: ausgeglichene) Sinnlichkeit kaum noch erfahren laeszt.
+Diejenigen, die gegenwaertig an Cyberspace-Systemen aus Datenbril-
+len, -handschuhen und -anzuegen basteln, scheinen mir von der
+Sehnsucht nach einer harmonischen, riszlosen Welt getrieben zu
+sein. Zwar gibt der zottelige Jaron Lanier zu, dasz die Rueckkehr
+aus seinem Cyberspace ihm die Groszartigkeit der 'wirklichen' Welt
+erst wirklich bewuszt macht, doch ist das eher so zu verstehen,
+dasz eben noch viel Arbeit fuer einen besseren Cyberspace geleistet
+werden musz.
+     Noch ist Marilyn (oder wen auch immer man sich herbeitraeumt)
+eben ein mehr oder weniger verkrampftes Drahtkantenmodell. Und
+vielleicht noch bevor sich das aendern kann, wird sich der Cyber-
+space beleben. Die am Anfang von einem selbst bestimmbare und
+deshalb freie Baukastenwelt, die uns Begegnungen und Bekannt-
+schaften nach Wunsch ermoeglicht: sie wird die Beschraenkungen und
+Zwaenge unseres gemeinschaftlich orientierten und deshalb notwen-
+digerweise organisierten Lebens in sich aufsaugen. Und somit wird
+es sein, wie es immer war. Wir begegnen nur solchen Menschen, die
+uns die Lebenszeit stehlen, weil sie uns nicht ernst nehmen:
+Lehrer, Professoren, Chefs und die Schar der sonstigen Bekannten.
+Dazu kommen die (Frauen), welche unsere Liebe verbrauchen und
+danach ploetzlich entschwinden.
+     Dasz wir es im Cyberspace zum Teil mit Kunstwesen zu tun
+haben werden, mag fuer viele ein erschreckender Gedanke sein. Aber
+diejenigen, die Heute davor warnen, werden in der zukuenftigen
+Praxis des Cyberspace keinen Unterschied zwischen hineingezogenen
+und kuenstlichen Existenzen bemerken! (Ich denke da auch an 'Blade
+Runner'.) Und selbst ein John Searle musz funktionale Kriterien
+bemuehen, um Sinn von Unsinn, Nicht-KI von KI zu unterscheiden.
+Das ist wohl ein Beleg, dasz es keinen Sinn machen wird, zwischen
+'echt' und 'unecht' zu unterscheiden. Denn wie Edgar Allan Poe
+richtig sagt: Es ist gleichgueltig, ob das Erlebte eine Erschei-
+nung war oder nicht. Wichtig ist allein die Erfuellung, die man
+darin gefunden hat. Zum Funktionalismus sind wir eh verurteilt.
+
+Kuenstlichkeit haengt nicht vom Cyberspace ab!
+
+     Trotz aller Technik und der damit verbundenen Veraenderungen
+sind wir Menschen geblieben. Und an dem Punkte, wo ich kuerzlich
+eine Studentin sagen hoerte, sie werde immer zwischen einem Com-
+puter und einem Menschen unterscheiden koennen, naemlich anhand der
+Frage, ob sie mit ihm schlafen koenne oder nicht - genau da fuehrt
+sich das Menschsein selber vor und geraet vollends zur Laecherlich-
+keit! Nicht nur, dasz sie zur Verifikation der gesamten Menschheit
+nach dieser Methode bisexuell sein mueszte. Vielmehr waeren Schlusz-
+folgerungen aus einem solchen Test reine Induktion, denn ihr
+(hier als angenehm unterstelltes) Test-Erlebnis waere schon morgen
+vielleicht nicht wiederholbar, da jener Mann seine Meinung von
+ihr ueber Nacht geaendert hat. Doch das wuerde diese Frau gar nicht
+schocken, denn sie wuerde sich von neuem auf die Suche machen, um
+sich bei einem anderen von dessen Menschsein zu ueberzeugen.
+
+     Dieses weit verbreitete und gnadenlos oberflaechliche Men-
+schenbild der besagten Studentin fuehrt zur hier vertretenen These
+zurueck. Nicht die Computertechnologie wird uns den kuenstlichen
+Menschen bescheren, sondern es gibt viele Menschen, die sich auf-
+grund ihrer Flachheit und Bindungsunfaehigkeit selbst zu Kunst-
+Erscheinungen machen. Diese Eigenschaft entsteht aber sicher
+nicht in Folge technologischer Veraenderungen. Es ist eher wahr-
+scheinlich, dasz die Intensitaet menschlicher Bindung in staendigem
+Wechsel begriffen ist. Es verhaelt sich vielleicht wie mit den im
+Wirtschaftsgeschehen zu beobachtenden Konjunkturverlaeufen. Es
+gibt Perioden, in denen die Menschen aufeinander zugehen und
+andere, in denen sie es weniger tun. Allerdings sind solche Ver-
+mutungen mit Vorsicht zu genieszen. Glaubt man den Medien, so
+leben wir in einer Zeit zunehmender Vereinzelung und Isolation
+des Menschen. Nimmt man aber etwa den vom Statistischen Bundesamt
+herausgegebenen 'Datenreport' zur Hand, so zeigen die Erhebungen,
+dasz nichts dergleichen zu beobachten ist. Wenn wir also nichtmal
+die menschliche Befindlichkeit feststellen koennen, so ist es
+reine Ausweichtaktik, dann der Technik die Schuld zu geben. Das
+wird leider zu haeufig unwidersprochen getan. Technik schafft
+zwar, wie oben gezeigt wurde, kuenstliche Welten, die unsere
+Lebensumstaende bestimmen. Das darf aber nicht davon ablenken, dasz
+wir selbst es sind, die unsere Umgangsweise mit den Mitmenschen
+bestimmen und somit unser Menschenbild. In zehn oder fuenfzehn
+Jahren werden die Medien konstatieren, dasz die Menschen sich zu
+sehr auf die Pelle gerueckt sind, kein Individualismus mehr
+moeglich ist, und somit psychische Schaeden aufgrund mangelnder
+Selbstverwirklichung entstehen. Oberflaechlichkeit ist also nicht
+technikinduziert.
+
+Einstieg in die Wirklichkeit
+
+     Nun haette dieser unsaegliche Text hier in seinen letzten Ab-
+schnitt muenden koennen, wenn da nicht noch ein Gedanke bezueglich
+der 'Wirklichkeit' aufgetaucht waere. Vielleicht wird es so
+kommen, dasz uns erst die neuartige Technologie des Cyberspace die
+'eigentliche' Wirklichkeit eroeffnen wird. Wir koennten uns die
+Datenbrille ueberziehen und beim Durchwandern der Landschaft
+Radioaktivitaet, Dioxin und Schwermetalle direkt wahrnehmen, weil
+sie etwa als gruener Schleim oder gelber Staub dargestellt sein
+wuerden. Geringe Konzentrationen koennten beliebig verstaerkt wer-
+den. Wir haetten die uns bestimmende Realitaet wiedergewonnen.
+     Wer jedoch glaubt, diese Technik wuerde dazu fuehren, dasz ein
+Verlangen entstuende, etwas gegen die Vergiftung zu tun, der irrt
+sich allerdings. Beiszender Gestank und bruellender Laerm der Auto-
+mobile sind auch ohne Cyber-Hilfsmittel wahrnehmbar, aber es
+geschieht nichts. Das Klima veraendert sich, Waelder sterben weiter
+ab. Aber wir wollen auf das Verprassen von Energie eben nicht
+verzichten. (Was fuer eine Leistungsaufnahme haben mein Mega und
+sein SM124 eigentlich? Der Abluftstrom hat immerhin eine Tempera-
+tur von 33 Grad Celsius, was allerdings zur Raumheizung beitraegt
+und eine Art Waermerueckgewinnung darstellt. (Und so hat jeder eine
+Rechtfertigung fuer sein naerrisches Spielzeug. Das Selbstbeluegen
+reicht von der Hausfrau bis zum Reaktor-Toepfer (Letzterer wird in
+Schizophrenie enden.). )) Wer also Energie verschleudern will,
+weil Windenergieanlagen die Zugvoegel irritieren, und weil intel-
+ligente Energieausnutzung und -einsparung zuviel Fantasie erfor-
+dern, der musz eben mit kleinen Seiteneffekten wie Tschernobyl
+rechnen. Die Zahl der Menschen, die dadurch zu Siechtum und
+Traenen verurteilt sind, reicht wahrscheinlich in die Millionen.
+Vielleicht ist man angesichts dieses Elends auf dem Weg vom
+Fernseher zum Kuehlschrank ploetzlich in Traenen ausgebrochen, doch
+Minuten spaeter lebt man weiter wie immer. Das ist eben mensch-
+lich; so sind wir eben. Ich nehme mich da nicht aus.
+
+Verbauter Geist?
+
+     Feuer als Cyberspace? Menschen, die auch ohne technische
+Einfluesse als Kunstwesen erscheinen? Erschlieszung der Wirklich-
+keit durch neue Techniken? Und alle diese Gedanken geaeuszert auf
+der Basis einer Technik der virtuellen Realitaet, die eigentlich
+erst in mehr oder weniger miszratenen 'Demos' existiert, die ich
+selbst nur aus Presse und Fernsehen kenne. Wenn dieser Text als
+nicht schluessig empfunden wird, so ist dieser Eindruck nicht
+unrichtig. Vielleicht liegt das in eben dieser leichtfertigen
+Verquickung von gegenwaertigen Beobachtungen mit Zukunftsspekula-
+tion. Und deshalb mag jemand einwenden, meine Ausfuehrungen seien
+gefaehrlich, weil ich Funktionsweisen zukuenftiger Technologie
+verwende, um kulturelle, historische und soziale Phaenomene zu
+beschreiben. Damit tue ich, was Joseph Weizenbaum bezogen auf das
+menschliche Denken als ein Verstehen unter Zuhilfenahme computer-
+bezogener Begriffe kritisiert. Ich sehe das Problem. Doch wahr-
+scheinlich fordert unsere Zeit solche Paradigmen. Vielleicht sind
+die Problemfelder, die ich behandelt habe, nur auf diese Weise
+brauchbar zu verdeutlichen.
+     Zwar sehe ich der technischen Zukunft mit sehr gemischten
+Gefuehlen entgegen, doch steht zu vermuten, dasz viele Moeglichkei-
+ten, ueber die wir spekulieren, garnicht sobald verfuegbar sein
+werden. Zusaetzlich stellt sich die Frage ihrer Durchsetzung. Da
+sich Technik graduell entwickelt (qualitative Spruenge scheinen
+mir nachtraeglich hineininterpretiert zu sein), entstehen Struktu-
+ren langsam, und deshalb umso schleichender. Und was noch
+wichtiger ist: Jeder von uns traegt mit seiner eigenen Fantasie zu
+dem langsamen Prozesz bei. Kauft sich jemand ein Modem und laeszt
+seinen Computer also in Verbindung mit Mailboxen treten, so ist
+das ein witziges Hobby, dasz mindestens so harmlos sein mag wie
+ein Kleingartenverein. Doch traegt dieses Tun voellig unbeabsich-
+tigt zur Schaffung von Akzeptanz fuer eine allgemeine Vernetzung
+bei, die offensichtliche, doch haeufig verdraengte Gefahren birgt.
+Was wir also im Auge behalten muessen ist das, was sich in unseren
+Koepfen tut, und was sich daraus im Alltag ergibt und nicht in
+ferner Zukunft. Wie technische Entwicklungen so gestaltet werden
+koennten, dasz ungewollte und unangenehme Verbauungen unseres
+Lebens ausgeschlossen werden koennten - ich weisz es nicht.
+     Aber vielleicht liegt unsere Fahrlaessigkeit darin, dasz wir
+das 'Nachdenken' den emotionslosen und/oder unsensiblen Klug-
+scheiszern ueberlassen; diese besitzen die vorteilhafte Faehigkeit,
+auf jede Frage eine komplette Echtzeit-Antwort zu haben. Wenn sie
+dazu noch genug Eitelkeit besitzen, werden sie Politiker (Um ein
+Horror-Spektrum prominenter Widerlichkeit zu spannen: Ruehe,
+Scharping, Moellemann, Ditfurth, Gysi). Aber nur solche Figuren
+sind fuehrungskompatibel. Denn der reflektierende, vorsichtige und
+somit vielleicht weisere Mensch wird Grosz-Verantwortung meiden.
+Wir werden auch in Zukunft maches Unangenehme zu erdulden haben.
+     Trotz aller Technik, auch wenn es denn Cyberspace sein wird,
+werden wir immer Affen bleiben. Getraeumt haben wir immer. Und
+wenn die Technik das verstaerkt, sei es drum... Entscheidend ist,
+was uns die Erscheinungen geben. Wenn diese uns noch zur Zufrie-
+denheit gereichen, dann ist es gut genug, oder?
+
+von Frank Moeller                       Hamburg, Mai 1991
+<F.MOELLER@LINK-HH.ZER>
+------------------------------------------------------------------------------
+NEXT NWJ2
+                          -----------------
+                          ! Kurzmeldungen !
+                          -----------------
+
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1
+
+                Mikrocomputer-Zentrum fuer Rostock
+
+Orientierungshilfe und fachliche Beratung fuer Anwender von Mikrocomputern
+wird demnsschst auch in Rostock angeboten. Am 13. Mai 1991 wurde der
+Kooperationsvertrag zwischen der Industrie- und Handelskammer Rostock und
+der Gesellschaft fuer Mathematik und Datenverarbeitung mbH (GMD), der
+staatlichen Gro~forschungseinrichtung fuer Informatik und Informationstechnik
+in der Bundesrepublik Deutschland, zur Gruendung eines Mikrocomputer-Zentrums
+unterschrieben. Die offizielle Eroeffnung des Zentrums findet am 24. Mai
+1991 in der Rostocker Ernst-Barlach-Strasse 7 statt.
+
+Mit Unterstuetzung der GMD entsteht in Rostock das zweite Dienstleistungs- und
+Bera- tungszentrum fuer die neuen Bundeslssnder. Wie in Potsdam bringt die GMD
+neben dem Konzept des Mikrocomputer-Zentrums die Hard- und Software in die Koope
+ration ein. Traeger des neuen Mikrocomputer-Zentrums ist die Industrie- und
+Handelskammer Rostock.
+
+Kernstueck des Mikrocomputer-Zentrums ist eine staendige Ausstellung
+unterschiedlicher deutscher und internationaler Hersteller fuer Personal
+Computer-Systeme. Ein Seminar- und Schulungsprogramm zu verschiedenen
+aktuellen Themen der Datenverarbeitung und Informationstechnik rundet das
+Angebot ab.
+
+Zentrale Aufgabe des Mikrocomputer-Zentrums ist es, insbesondere kleine und
+mittelstaendische Unternehmen, Handwerker und Behoerden, aber auch die
+interessierte Oeffentlichkeit in Fragen des Einsatzes von Software-Loesungen
+auf der Basis von Personal Computern zu beraten.
+
+Das Konzept des Mikrocomputer-Zentrums wurde vor fuenf Jahren in der GMD
+entwickelt und erfolgreich umgesetzt. Seit dem sind eine Vielzahl solcher
+Zentren mit Unterstuetzung der GMD entstanden.
+
+2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2
+
+                Apple ueberholt IBM im PC-Markt
+
+IBM hat seine seit 1981 ununterbrochen gehaltene Spitzenposition
+im PC-Markt (gemessen an Marktanteilen) an Apple verloren. Laut
+einer Studie von "Audits & Surveys Inc." hielt Apple im Februar 1991
+27% und IBM 25%. Nur sechs Monate zuvor waren die Verhaeltnisse
+noch wesentlich anders: IBM mit 37% und Apple mit 17%.
+IBM fuehrt den Rueckgang auf die schwache Wirtschaft und den
+allgemeinen Rueckgang im PC-Markt zurueck. Laut dem "Wall Street
+Journal" meinen viele Beobachter jedoch, dass der PC-Markt auch
+noch weiter waechst und IBMs Probleme auf eigene (taktische)
+Fehler zurueck zu fuehren seien; insbesondere seien die Preise fuer
+IBM-PCs zu hoch, aber auch die Hardware sei z. T. veraltet und der
+Zwist mit Microsoft nicht geschickt.. Apple hatte denn auch mit
+seiner im Oktober 1990 durchgefuehrten, drastischen
+Preisreduzierung bei gaengigen Modellen vollen Erfolg und berichtete
+kuerzlich fuer 1990 einen um 20% gestiegenen Ertrag bei einer
+85%igen Steigerung der Anzahl verkaufter Geraete (Letzte Woche
+allerdings kam die Nachricht, dass die Profite fuer das erste Quartal
+1991 geringer sind als erwartet, weil insbesondere der "sales mix"
+zu schnell auf die preisguenstigen Maschinen mit geringeren Margen
+geschwenkt sei).
+IBM versucht jedenfalls nun zu kontern: Nachdem auch Compaq
+kuerzlich seine Preise  bis zu 34% gesenkt hat und Firmen wie Dell
+und AST Research sehr agressiv im Markt agieren, hat IBM neue
+Modelle und Preisreduzierungen bekanntgegeben: Das Einstiegsmodell
+PS/2-30 basiert immer noch auf dem 286 und kostet (mit groesserer
+Speicherkapazitaet) $2,495. Das Modell PS/2-90, auf der Basis des
+neuen 486SX, faengt bei $8,345 an und das Spitzenmodell PS/2-95,
+ausgeruestet mit dem 486, liegt zwischen $15,195 und $17,195.
+Jetzt bleibt abzuwarten, wie andere Unternehmen (u.a. Compaq und
+AST Research haben auch 486-Modelle angekuendigt) - und natuerlich
+auch die Kunden - darauf reagieren.
+
+Aus FITNUS, GMD Aussenstelle Washington
+
+3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3
+
+                        Darpa wird neustrukturiert
+
+Die "Defense Advanced Research Projects Agency" (DARPA) des
+Pentagons wird einer Reorganisation unterworfen, um - wie
+offizielle Stimmen berichten - eine integriertere Programmstruktur
+und mehr Effektivitaet zu erzielen.
+Der noch nicht genehmigte Vorschlag zur Neustrukturierung
+beinhaltet insbesondere die Streichung des "Defense Manufacturing
+Office" (DMO), welches fuer so bekannte Projekte wie SEMATECH, das
+200-Millionen-Dollar "Semiconductor Manufacturing Consortium" von
+Regierung und Industrie sowie fuer "High-Definition Display
+Research" zustaendig war. Laut DARPA-Leiter Vic Reis tendierte das
+DMO gegen das Ziel, Fertigungstechnologien innerhalb der Behoerde
+zu integrieren. DARPAs stellvertretender Leiter Gary Denman ist
+fuer die Reorganisation zustaendig. DMOs Leiter Mike Kelly wurde
+zum "special assistant for electronics manufacturing" benannt.
+
+U.a. soll es folgende Bereiche innerhalb DARPA geben
+(Verantwortliche in Klammern):
+        - Computer & Communication (Steve Squires),
+        - Information Science (Barry Boehm),
+        - Electronic Devices (Arati Prabhakar),
+        - Advanced Electronics (Lance Glasser).
+
+Aus FITNUS 19-2
+
+4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4-4
+
+                Anhoerung zu "Virtual Reality" im Senat
+
+Unter Vorsitz von Senator Al Gore fand am 8.5.1991 eine Anhoerung
+des "Science, Technology and Space Subcommittee" zum Thema
+"Virtual Reality: New Developments in Computer Technology" statt.
+
+Eingeladene Zeugen waren
+        - Mr. Jaron Lanier ("President" von VPL Research),
+        - Dr. Fred Brooks (Prof. an der Univ. of North Carolina at Chapel Hill),
+        - Dr. Thomas A. Furness III ("Director" des "Human Interface
+          Technology Laboratory" an der Univ. of Washiongton at Seattle),
+        - Dr. Charles Brownstein ("Director" des CISE-Direktorats der
+          National Science Foundation) und
+        - Dr. Lee B. Holcomb ("Director" der "Information Sciences and Human
+          Factors Division" bei dem "Office of Aeronautics and Space
+          Technology" der NASA).
+
+Es wurde die historische Entwicklung der Technologie, ihre
+Bedeutung fuer die Zukunft und heute bereits bekannte sowie
+zukuenftige Anwendungsmoeglichkeiten aufgezeigt. Mittels Filmen,
+Dias und Folien wurden Beispiele von heute bereits moeglichen
+Anwendungen gegeben und fuer die Mitglieder des Subkomitees wurde
+Ausruestung aus dem gesamten Land zusammengetragen, damit sie
+selbst diese neue Technik einmal erleben und erfahren koennen.
+Anwendungsgebiete wurden sehr viele genannt, darunter
+insbesondere Medizin, Ausbildung, Architektur und allgemein der
+Konstruktions- und Fertigungsbereich sowie die Simulation.
+Es wurde festgestellt, dass die amerikanische Forschung und
+insbesondere auch das "Department of Defense" sich schon seit Mitte
+der sechziger Jahre mit "Virtual Reality" befassen, aber wieder mal
+die Gefahr bestuende, diesen Bereich zum grossen Teil an Japan zu
+verlieren, das sich erst seit ein paar Jahren mit diesem Gebiet
+beschaeftigt. Dies sei aber keine Kritik an Japan, sondern wieder mal
+ein Ausdruck dessen, dass es den Amerikanern oft nicht gelaenge,
+vielversprechende Technologien in Produkte umzusetzen. Einzelne
+japanische Grossunternehmen wuerden auch - so eine Aussage von
+Gore - mehr in "Virtual Reality" investieren als die gesamte USA.
+Lanier berichtete auch mehrfach von der guten Ausruestung in
+Deutschland und Frankreich und zeigte unter anderem einen Film
+ueber eine geplante U-Bahn-Station in Berlin in "virtual reality".
+Weiter wurde aufgezeigt, dass das Gebiet durch das
+Zusammentreffen verschiedener Wissenschaftsbereiche und
+verschiedener Technologien sehr interdisziplinaer sei und es wurde
+in diesem Zusammenhang auf die Gefahr hingewiesen, dass die USA
+bezueglich bestimmter hochwertiger Technologien vom Import
+abhaengig sei; als Beispiele wurden die Sensortechnik und "High
+Resolution Display Systems" genannt.
+Fuer die weitere Zukunft des Gebiets und insbesondere fuer die
+raeumlich (weit) verteilte Anwendung von "Virtual Reality" wuerde
+die Schnelligkeit von Computern sowie die Verfuegbarkeit von
+schnellen Netzwerken eine grosse Rolle spielen (in diesem
+Zusammenhang wurde Bezug genommen auf Supercomputer und auf
+das geplante "National Research and Education Network NREN").
+
+Aus FITNUS 19-3, GMD Aussenstelle Washington
+
+5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5-5
+
+                        X 11 Release 5 aus Japan
+
+OMRON has developed "X Window Version 11 Release 5 (X11R5)," a
+next-generation "X Window" system, and will start OEM-supplying it to
+workstation makers worldwide within the year.  X11R5 features a
+multi-language processing function added to the Release 4 version that
+is supported by most workstation makers.  The new version, which has
+been approved by the X Consortium as a standard system, makes it
+unnecessary for software vendors to develop applications for each
+language.  (5/21/91: Nikkan Kogyo p.10)
+
+Aus JANEWS, GMD Aussenstelle Tokio
+------------------------------------------------------------------------------
+NEXT NRC3
+                             IMPRESSUM
+                             ---------
+
+  "Die gesamte Menschheit bleibt aufgefordert, in freier Selbstbestimmung
+   die Einheit und Freiheit des globalen Dorfes zu vollenden."
+
+   Herausgeber: Chaos Computer Club e.V./Redaktion Chalisti
+
+   Erscheinungsdatum:  1.6. 1991
+
+   V.i.S.d.P. : F.Simon
+
+   Redaktion:   Volker Eggeling, Frank Simon
+
+   Mitwirkende an dieser Ausgabe: Herwig, Carlo, Peter, Pirx, Wau,
+                Vincent Steger, Pi, Frank Moeller, etc
+
+   Redaktionen: Chalisti,       c/o Frank Simon, Strackerjanstr. 53
+                                W2900 Oldenburg, Tel. 0441/76206
+                Datenschleuder, Schwenkestrasse 85, W2000 Hamburg 20
+                                Tel. 040/4903757, Fax: 040/4917689
+                MIK-Magazin,    c/o J. Wieckmann, W2000 Hamburg 60
+                                Barmbeker Str.22
+
+   Verbreitung: Zerberus   : /Z-NETZ/MAGAZINE/CHALISTI
+                UUCP(dnet) : dnet.general
+                UUCP(sub)  : sub.mag.chalisti
+                EARN/CREN  : CHAMAS@DOLUNI1, Brett chamas.chalisti
+                GeoNet     : mbk1: brett ccc-presse
+                MagicNet   : Artikel&News
+                Mausnet    : Chalisti
+                FidoNet    : ccc.ger
+                BTX        : *CHAOS# / TELESOFT
+
+   Adressen:    EARN/CREN  : CHAMNT@DOLUNI1.bitnet
+                UUCP       : eggeling@uniol (eunet)
+                             terra@sol.north.de (subnet)
+                Zerberus   : terra@sol.zer
+                GeoNet     : mbk1: chaos-team
+                FidoNet    : Volkmar Wieners on 2:241/2.1205
+                MagicNet   : trendbox:gec
+                MausNet    : terra@sub  (temporaer)
+                AmNET II   : HENNE;SML
+                FidoNet    : 241/5800.5
+                DFN        : C=de;A=dbp;P=gmd;O=kmx;S=ext/simon
+
+                Teilnehmer aus diversen anderen Netzen benutzern am besten
+                die Adresse terra@sol.north.de
+
+    Mit Namen gekennzeichnete Artikel geben nicht unbedingt die Meinung der
+    Redaktion wieder. Alle Artikel und Beitraege koennen mit Quellenangabe
+    weiterverwendet werden. Artikel aus dem MIK-Magazin bitte mit Quelle:
+    (emp/mik) MIK Magazin, (c/o) J. Wieckmann, Barmbecker Str. 24, 2000 HH 60
+    angeben.
+    Die Verbreitung der Chalisti auf anderen Netzen wird ausdruecklich er-
+    wuenscht. Bei Abdruck in Zeitungen oder Zeitschriften bitten wir um zwei
+    Belegexemplare.
+
+
+
+

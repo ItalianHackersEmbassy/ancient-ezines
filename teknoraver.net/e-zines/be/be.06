@@ -1,0 +1,2274 @@
+ ____                  _          ______ _      _        _  
+|  _ \                | |        |  ____| |    | |      (_) 
+| |_) | __ _ _ __ __ _| |_ __ _  | |__  | | ___| |_ _ __ _  ___ __ _  
+|  _ < / _` | '__/ _` | __/ _` | |  __| | |/ _ \ __| '__| |/ __/ _` | 
+| |_) | (_| | | | (_| | || (_| | | |____| |  __/ |_| |  | | (_| (_| | 
+|____/ \__,_|_|  \__,_|\__\__,_| |______|_|\___|\__|_|  |_|\___\__,_| 
+                                                            
+          
+                                                            
+          
+                        BARATA ELETRICA, numero 6
+                        Sao Paulo, 30 de setembro, 1995 
+                        
+--------------------------------------------------------------------------- 
+     
+                        Creditos:
+                        --------
+
+Este jornal foi escrito por Derneval R. R. da Cunha 
+Com as devidas excecoes, toda a redacao e' minha. Esta' liberada a copia
+(obvio) em formato eletronico, mas se trechos forem usados em outras 
+publicacoes, por favor incluam de onde tiraram e quem escreveu. Aqueles
+interessados em receber futuras edicoes deste ou de outro jornal (nao sei
+se ira' continuar com esse titulo)
+
+Para  contatos (mas nao para receber o e-zine) escrevam para:
+  
+rodrigde@spider.usp.br (liberaram para divulgacao)
+informatica-jb da esquina-das-listas@dcc.unicamp.br ou:
+wu100@fim.uni-erlangen.de, derneval.cunha@launchpad.unc.edu  (BBS 
+internet accessivel via telnet://launchpad.unc.edu  login launch)
+
+Numeros anteriores:
+
+    ftp://ftp.eff.org/pub/Publications/CuD/Barata_Eletrica
+    gopher://gopher.eff.org/11/Publications/CuD/Barata_Eletrica
+    http://www.eff.org/pub/Publications/CuD/Barata_Eletrica
+
+                                NO BRASIL:
+
+http://www.inf.ufsc.br/ufsc/cultura/barata.html
+ftp://ftp.ufba.br/pub/barata_eletrica
+
+MIRRORS - da Electronic Frontier Foundation onde se pode achar o BE
+/pub/Publications/CuD.
+
+  UNITED STATES:  
+etext.archive.umich.edu in /pub/CuD/Barata_Eletrica
+ftp.eff.org in /pub/Publications/CuD/Barata_Eletrica
+aql.gatech.edu in /pub/eff/cud/Barata_Eletrica
+world.std.com in /src/wuarchive/doc/EFF/Publications/CuD/Barata_Eletrica
+uceng.uc.edu in /pub/wuarchive/doc/EFF/Publications/CuD/Barata_Eletrica
+wuarchive.wustl.edu in /doc/EFF/Publications/CuD/Barata_Eletrica
+  EUROPE:
+nic.funet.fi in /pub/doc/cud/Barata_Eletrica
+                  (Finland)
+(or /mirror/ftp.eff.org/pub/Publications/CuD/Barata_Eletrica)
+ftp.warwick.ac.uk in /pub/cud/Barata_Eletrica  (United Kingdom)
+  JAPAN:
+ ftp.glocom.ac.jp in /mirror/ftp.eff.org/Publications/CuD/Barata_Eletrica
+ www.rcac.tdi.co.jp in /pub/mirror/CuD/Barata_Eletrica
+                         
+                       
+
+
+OBS: Para quem nao esta' acostumado com arquivos de extensao .gz:
+Na hora de fazer o ftp, digite binary + enter, depois digite
+o nome do arquivo sem a  extensao .gz
+Existe um descompactador no ftp.unicamp.br, oak.oakland.edu ou em 
+qualquer mirror da Simtel, no subdiretorio:
+
+/SimTel/msdos/compress/gzip124.zip to expand it before you can use it.
+Uma vez descompactado o arquivo GZIP.EXE, a sintaxe seria:
+                           "A>gzip -d arquivo.gz
+
+No  caso,  voce  teria que trazer os  arquivos  be.??.gz  para  o 
+ambiente DOS com o nome alterado para algo parecido com  be??.gz, 
+para isso funcionar.
+
+
+
+
+                                NO BRASIL: 
+              http://www.inf.ufsc.br/ufsc/cultura/barata.html
+ 
+==========================================================================
+                         
+                       
+
+ULTIMO RECURSO, para quem nao conseguir acessar a Internet de forma direta, 
+mande carta (nao exagere, o pessoal e' gente fina, mas nao e' escravo,  nao 
+esquecam aqueles encantamentos como "please" , "por favor" e "obrigado"):
+
+drren@conex.com.br
+wjqs@di.ufpe.br
+aessilva@carpa.ciagri.usp.br
+
+CREDITOS II : 
+Sem  palavras  para  agradecer ao pessoal que se ofereceu  para  ajudar  na 
+distribuicao  do  E-zine, como os voluntarios acima citados, e  outros,  do 
+ftp.ufba.br,  www.inf.ufsc.br e do magma.ufrj.br, que sei la',  de  repente 
+estao  ate' arriscando a ira de seus superiores, ao disponibilizar  para  o 
+resto  dos  brasileiros  este material. Muito  obrigado.  Espero  continuar 
+agradando.  A propria existencia desse pessoal e' um sinal para mim de  que 
+vale a pena continuar escrevendo, enquanto puder fazer isso)
+
+OBSERVACAO: Alguns mails colocados eu coloquei sem o username (praticamente 
+a  maioria)  por  levar  em  conta que  nem  todo  mundo  quer  passar  por 
+colaborador  do  BE. Aqueles que quiserem assumir a carta, mandem  um  mail 
+para mim e na proxima edicao eu coloco.
+
+                                  INDICE
+                                  ======
+
+                         INTRODUCAO
+                         BBSES NA INTERNET/HACKING BBSES
+                         ENTREVISTA COM GOLDSTEIN
+                         COMO FAZER UM E-ZINE P. CPDMANIACOS
+                         BLUE BOX AND MA BELL - continuacao
+                         NADA DE AGORAFOBIA NA CIDADE DIGITAL
+                         SITIOS FTP INTERESSANTES
+                         BREAK-IN DA UNICAMP
+                         NEWS - DICAS - CARTAS
+                         BIBLIOGRAFIA
+
+--------------------------------------------------------------------------
+                                INTRODUCAO:
+                                ===========
+
+     "Mais  um  dia,  mais  um dolar" Antes fosse.  Depois  que  voltei  do 
+exterior, nao sei como estou conseguindo equilibrar-me na faculdade. Se  eu 
+fizesse  E.Politecnica,  talvez  perdesse o semestre  inteiro.  Tenho  dois 
+projetos para entregar, um sobre vida artificial, outro sobre a conferencia 
+internacional  de Hackers, a ser montada aqui em Sao Paulo. Estou  querendo 
+fazer  encontros regulares com uma turma que estiver interessada,  mas  ta' 
+dificil.  Uma que eu nao sei se o pessoal vai. Duas que eu nao  quero  usar 
+lugares onde estou acostumado a ir. E eu nao saio muito. Um amigo meu esta' 
+querendo  fazer a distribuicao do BE por snail-mail, vulgo carta comum,  to 
+ate' pensando na ideia, ja' que nem todo mundo tem acesso direto (com ftp e 
+telnet)  a  rede Internet. Cada edicao do BE sao umas dez  ou  doze  cartas 
+pedindo  envio via email. Esse problema, gracas aa Galera, ja' sanado.  Nem 
+acreditei. 
+     Porem legal mesmo foram algumas noticias que pintaram, na INBOX:
+Sinceramente,  foram  duas ou tres surpresas: Uma, que tenha  gente  tambem 
+fazendo e-zines como o Dr.Bytes, que ja' conta com tres numeros. To ficando 
+sentimental.  Foi  muita emocao ler que tem gente seguindo  meu  exemplo  e 
+melhor: incrementando a parte internet brasileira, fazendo um Talker la' no 
+Nordeste,  como o Wagner. Talvez o pessimista seja eu. Tem tambem  o  lance 
+mais  importante, pelo menos para o BE, que foi o aparecimento de  nao  um, 
+mas  dois sitios ftp  para armazena-lo, em terra brasilis. Mas nao  termina 
+ai' minha alegria. A rede Globo (Ahhhhhh!) vai fazer um documentario  sobre 
+o  pessoal que mexe sobre a Internet, e que surpresa, a rataiada do CCE  da 
+USP, gente que vejo todo dia, ta' considerando a ideia de aparecer, se  for 
+convidada.  Talvez com a cara coberta, mas ja' e' uma esperanca de  que  os 
+fucadores  do pais saiam das sombras. So' assim pode-se talvez  mostrar  ao 
+mundo que a gente pode se interessar por assuntos perigosos sem necessaria-
+mente  estar  interessado em entrar na NORAD e detonar  a  terceira  guerra 
+mundial e melhor que isso, que como uma verdadeira comunidade, podemos ate' 
+contribuir muito mais para o desenvolvimento da Internet brasileira do  que 
+grandes empresas, como a Microsoft. Para quem nao sabe, houve dois  grandes 
+bate-papos  na  convencao de Sysops de BBS em Atlanta. Li o  CuD  Digest  e 
+a coisa e' preocupante.
+     O  segundo  grande  papo  foi a  ameaca  representada  pelo  Microsoft 
+Network. Para quem nao sabe, isso e' um subproduto daquele virus que foi  o 
+Windows  95.  (Detona com todos os softwares anti-virus que  voce  tem,  os 
+programas, faz o seu micro ficar mais lento e consome tanto espaco em disco 
+que  obriga  a  renovar seu PC-AT. Isso e' uma piada, o Windows  95  e'  um 
+sistema  operacional  avancadissimo, mas fiz muita gente rir com  isso).  A 
+longo prazo, se isso der certo, esse Network, que vai funcionar com  cartao 
+de credito, podera' funcionar, nos moldes da Internet, a nivel mundial. Vai 
+tornar  um monte de BBSes obsoletas. O pessoal la' esta' doido para  entrar 
+logo como provedor de acesso a Internet, para poder competir com a  "M-adre 
+no-S-sa".   Gente,  a  Internet  nao  se  tornou  um  sucesso  porque   uma 
+multinacional investiu milhoes. Esse fenomeno aconteceu porque muita  gente 
+se organizou em comunidade, e trabalhou para que a coisa funcionasse. Se  o 
+Establishment, o Sistema, nosso Big Brother tomar conta, a Internet vai  se 
+tornar  que nem o telefone. Permite que todo mundo se ligue,  independe  da 
+distancia, ate' no Japao (com muita, muita paciencia), voce liga. Mas  quem 
+consegue  pagar os precos de uma ligacao telefonica dessas? E' preciso  que 
+as  grandes  empresas  nao sejam as unicas detentoras do   dito  ou  entao, 
+aproveitem  esses  anos  dourados da implantacao  para  poder  contar  pros 
+netinhos como era barato se conectar no milenio passado. Se a rataiada  nao 
+se mobilizar, com certeza isso vai acontecer.
+     Chocante tambem foi me convidarem para escrever um artigo para  aquela
+nova  revista, a "INTERNET WORLD", versao brasileira.  Escrevi.      Sob  o 
+pseudonimo  de "Mr. Goodhack". Uma b(*). Nao a revista, tem  ate'  materias 
+boas.  Mas o texto que escrevi, que era para ser uma coluna,(coisa que  nao 
+e' paga) tudo bem, foi colocado fora da secao  de colunas,  foi  editado  e 
+acrescentadas  frases no texto. Com as modificacoes, parte  do  significado 
+foi  perdido  e nesse caso, ainda bem que nao foi com o meu  nome.  Fica  o 
+aviso: quer aparecer no jornal, numa revista, se previne, malandro. Por que 
+alteram  o seu texto. Peca para ver a versao final. Meu interesse  era,  no 
+caso  divulgar meu nome, alem da mensagem. Ia facilitar muita coisa para  o 
+lance da conferencia que estou planejando. Fazer o que?
+     Lancado  o  desabafo,  vao ai alguns relatos  mostrando  o  que  gente 
+motivada  pode  fazer  para melhorar o mundo, como foi  o  caso  da  cidade 
+digital,  cujos fundadores tive o prazer de conhecer. Espero  que o pessoal
+compreenda  algo que e' o principal: descobrir sua propria formula e o  que 
+voce quer falar. E botar o coracao no teclado para transmitir suas  ideias. 
+Tem  muita  gente  que poderia estar contribuindo para o  BE.  Talvez  ate' 
+melhor  do  que no BE, poderiam criar os seus proprios e-zines e  usando  a 
+liberdade de expressao que foi tao cortada, durante a censura..
+
+
+-------------------------------------------------------------------------
+
+
+                             BBSES NA INTERNET
+                             =================
+
+Este  e'  um  assunto que merecia ser tratado em  profundidade.  Vou  ficar 
+devendo  uma  continuacao, porem. Aqui no terra brasilis, o que se  tem  e' 
+aquela  dificuldade  de se conseguir uma conta na Internet. O  cara  le  no 
+jornal, ouvi falar de gente que sabe ate' cada linha de cada livro ou  cada 
+artigo informativo sobre a rede das redes. So' nao conseguiu ainda  seu tao 
+sonhado  acesso (depois quando descobre, descobre tambem que em  portugues, 
+ainda nao existe muita coisa - que chato ... :-0 ). No exterior, o  pessoal 
+pensa  um  pouco mais adiante. Quem ja' leu o "Zen e a arte  da  Internet", 
+traduzido  pro portugues pela RNP ou a versao original em ingles,  sabe  da 
+existencia da Cleveland Freenet. Essa foi a primeira BBS de que ouvi  falar 
+e  foi  fundada  e  e' mantida atraves  de  doacoes,  seguindo  a  seguinte 
+filosofia, a de que na Idade media, so' quem se ligava a Igreja poderia ter 
+a chance de aprender a ler, pois os livros eram quase tao caros quanto  uma 
+casa  e eram copiados a mao, num processo que poderia durar meses. Leiam  o 
+"Nome  da  Rosa" do Humberto Eco, e voces estarao mais a par do que  era  a 
+coisa naquele tempo, ter que andar num lombo de burro, se sujeitando a  ser 
+assaltado,  morrer de fome, sede ou acidentes numa nevasca, toda uma  sorte 
+de  aventuras  para  chegar a uma biblioteca que  talvez  tivesse  o  livro 
+recomendado por algum amigo (isso se o livro - unico exemplar nao estivesse 
+comido  pelos  ratos, corroido pela acao do tempo ou coisa do  genero)  sem 
+falar  que  voce teria que ter autorizacao para ler o livro (a  Igreja  nem 
+sempre  liberava para o pessoal ler). Ai', para obter a autorizacao,  teria 
+que  trazer  cartas de recomendacao, esperar que o Abade estivesse  de  bom 
+humor,  etc. Algo muito facil, sem duvida alguma. Teria que copiar  a  mao, 
+ja' que naquele tempo nao havia xerox, eu ia esquecendo.
+     Hoje, se eu estiver afim de ler as obras completas de Edgar Allan Poe, 
+eu  conecto no ftp.books.com, entro no subdiretorio de ficcao, letra  E,  e 
+vou  clicando o teclado, ate' chegar no momento de dar um "mget *.*"  e  em 
+alguma meia hora ou uma hora tenho o suficiente para umas duas semanas numa 
+cama de hospital. Obvio, se eu nao quiser ler no micro, vou ficar um tempao 
+(talvez uma hora) aguardando impaciente minha impressora terminar a tarefa. 
+Uma coisa completamente desgastante para os nervos. Posso ate' aproveitar a 
+espera para escrever umas cartas para um carinha la' no Japao que ficou  de 
+me dar um toque sobre a ultima piada do Portugues.
+     Bom, feito esse parentese, a ideia da Freenet tem mais ou menos a  ver 
+com tudo isso. Se na Idade Media, so' os mais ricos podiam aprender a  ler, 
+hoje  so' os com um certo dinheiro poderao usufruir das  possibilidades  de 
+comunicacao oferecidas pela Internet. Ou a pessoa se liga, ou fica excluida 
+dessa  que podera', alias esta' sendo uma revolucao no  pensamento  humano. 
+Como  a prensa de Gutenberg e' que possibilitou o aparecimento  dos  livros 
+baratos e acessiveis a populacao geral, essas pessoas entenderam que o povo 
+comum  tem que ter acesso a Internet, a Usenet e o Email proporcionado  por 
+estes  instrumentos.  Foi ai' que surgiu a Cleveland Freenet.  A  ideia  e' 
+permitir que qualquer tenha uma conta de acesso gratuito, acessivel por uma 
+hora  de cada vez, sem necessidade de pagamento (hoje, algumas  Freenets  e 
+BBSes pedem uma taxa simbolica, em torno de 10 a 20 $). Mas nao se paga por 
+hora  de  conexao. Eu tive minha conta la' por um ano  e  podia  finalmente 
+acessar  IRC,  grupos Usenet como alt.2600, alt isso, etc estando  aqui  no 
+Brasil. Vale dizer que eu ja' tinha conta Internet e o acesso era feito via 
+Telnet. O que e' pior (ou melhor) eu podia (alias posso, porque ainda tenho 
+tal tipo de acesso), conectar atraves do IRC e do TALK local e praticar meu 
+ingles.  Gente  que  eu conhecia e que nao tinha essa  manha,  praticava  o 
+espanhol.  Ate' tive meu nome durante um tempo num grupo  chamado  soc.pen-
+pals, lista de discussao criada por um brasileiro residente na Florida.
+     Ha'  pelo  menos dois tipos de BBS internet: as que te dao  uma  conta 
+shell  (como  as  Freenets e a Launchpad), com  direito  a  enviar  correio 
+eletronico, usar Gopher e outros baratos, e as outras, que sao locais e tem 
+areas  de discussao, arquivos e chat (nao IRC) locais. Falando da  Freenet, 
+esta e' normalmente construida sob um conceito de comunidade virtual.  Voce 
+acessa a BBS, se registra e ai' aparece um subdiretorio. Para se  registrar 
+e portanto ter direito a privilegios de uma conta Internet, com endereco e-
+mail e tudo, voce tem que clicar o predio da administracao e la', clicar  a 
+opcao  de  registro, ler o arquivo, concordar com os  termos  do  contrato, 
+deixar nome, endereco, dados variados do genero, e depois enviar uma  carta 
+de acordo com o modelo que eles sugerem, com sua assinatura. Dependendo  da 
+BBS,  voce envia uma ordem de pagamento com X dolares junto. Caso voce  nao 
+se  submeta  (palavra horrivel) a esse procedimento,  so'  podera'  acessar 
+email  e grupos de discussao e IRC locais. O acesso e' de uma hora,  apesar 
+que  nada  impede  (algumas  BBSes nao deixam) de  voce  ter  duas  sessoes 
+simultaneas.
+     As  outras BBSes, de ambito mais local, permitem que voce se  registre 
+na hora, nao exigem que voce envie nenhum documento para eles e te permitem 
+so'  e somente so' o acesso a partes locais, as vezes com possibilidade  de 
+um  telnet para uma biblioteca mais distante. Um exemplo era a famosa  "Bad 
+Boy  BBS",  agora fora do ar. O que tinha de brasileiro la' nao  era  mole. 
+Apesar da lentidao, a area de chat era disputadissima. Uma pena que acabou. 
+Mas o exemplo que eu curto mais e' o que esta' descrito abaixo, o da cidade 
+digital  que  o Rop e Felipe da extinta revista Hack-Tic  construiram.  Uma 
+verdadeira  comunidade  digital, que se transformou em  utilidade  publica, 
+como o nosso antigo video-texto. Quem pode falar holandes tem chance de dar 
+uma olhada, tanto atraves do WWW (www.dds.nl) quanto atraves do telnet  (se 
+nao  me  engano,  dds.nl  - esqueci). A pessoa  pode  conseguir  conta  la' 
+gratuitamente,  mas  so' pode enviar correio eletronico para  dentro.  Pode 
+receber da Internet, mas nao responder.
+     No  Brasil,  ha'  pelo menos duas bbses internet, de  facil  acesso  e 
+gratuitas:  uma  e'  a  da "Escola do  Futuro",  cujo  endereco  eletronico 
+esqueci,  juro  (nem sei se esta' funcionando). Outra e'   a  Jacare'  BBS, 
+<bbs.ufpa.br  ou  secom.ufpa.br>, acessivel via telnet. O login  e'  bbs  e 
+password  e'  bbs.  "visitor" ou "guest", nao  me  lembro,  tambem  costuma 
+funcionar  nos enderecos abaixo. Se nao e' um, e' outro. Eu ia preparar  um 
+guia  bem  detalhado sobre isso, mas quem e' fucador, tem mais  e'  que  se 
+ferrar  ate'  descobrir como e' que se entra. So' vou dizer que o  menu  de 
+entrada  da Jacare' BBS (quando ela nao esta' lotada, de vez em quando  nao 
+tem conta "new" sobrando) e' quase que introdutorio. Em Freenets, voce  so' 
+da'  seus dados quando se registra para um acesso com privilegios de  conta 
+internet.  Tenho que acrescentar que hoje em dia (bons tempos  houveram  em 
+que isso era diferente) o acesso via telnet a qualquer coisa fora do  pais, 
+isso aqui na USP, e' dar cabelos brancos. Um acesso (muito bom, tinha  ate' 
+ftp e telnet aleatorio) que eu tinha na Finlandia, depois das dez da  noite 
+era quase tao rapido quanto meu acesso em Sampa. Hoje..
+     Tenho  que  digitar  a sequencia de comandos de  cabeca,  porque  pode 
+demorar  ate'  dois  minutos para ver a coisa se reproduzir  na  tela.  Sem 
+condicoes de usar tecla de backspace por exemplo e um bom dominio do odiado 
+editor VI e' obrigatorio. Mas ainda vale a pena. E' de graca e da' acesso a 
+listas  de  mais  de  20.000 newsgroups  diferentes,  no  caso  de  algumas 
+bbses.  Um  grande viva as Freenets! Que seu exemplo ainda chegue  aqui  no 
+Brasil. 
+
+Alguns enderecos de BBSes Internet, acessiveis via telnet:
+
+                          198.137.188.24-visitor
+                         144.174.128.43 badboybbs
+                                132.180.8.4  
+                               134.117.1.25  
+                               199.60.222.1  
+                                140.226.1.8  
+                              130.108.128.174  
+                               132.162.32.99  
+                                192.17.3.3  
+                              198.137.188.24
+                              129.137.100.10 
+                               192.55.234.50  
+
+Algumas  bbses internet de uma lista antiga (dois anos atras  era 
+nova ou quase. E' do tempo em que aprendi a fazer uuencode):
+
+test site - phred.pc.cc.cmu.edu - 128.2.111.111
+utbbs.civ.utwente.nl - login bbs - 130.89.1.219
+After five BBS - af.itd.com  999 - 128.160.2.249  9999
+APA BBS - atl.calstate.edu  - login apa - 130.150.102.33
+Auggie BBS - nic.augsburg.edu - login bbs - 141.224.128.3
+ou mail schwartz@aug1.augsburg.edu
+SpacelinkBBS - 192.149.89.61  
+Cimarron  (fechada por conta de crackers, talvez ja'esteja reaberta)
+bugs.mty.itesm.mx - login bbs
+131.178.17.60  (em espanhol)
+Endless Forest - 137.48.1.8  2001 -  forest.unomaha.edu 2001
+Halcyon.com  - 192.135.191.2  - login bbs
+Heartland Freenet - 136.176.10.10 - login guest
+Lorain County Freenet - freenet.lorain.oberlin.edu - login guest
+Heartland Peoria -  heartland.bradley.edu - 136.176.10.10
+Hewlet-Packard BBS - hpcubbs.cu.hp.com - 15.255.72.16
+IDS Word  Network  login guest - 155.212.1.2
+mail info@ids.net
+ISCA BBS (famosa e sacal de acessar, mas popular acima de tudo)
+bbs.isca.uiowa.edu - login iscabbs  - whip.isca.uiowa.edu
+Nyx BBS - nyx.cs.du.edu - 130.253.192.68 - login new 
+(Tem o menu de inscricao mais nojento que ja' vi. Mas os faqs e docs sao um  
+boa dica para quem pensa em montar a sua BBS internet)
+
+BBSES PAGAS (ou coisa do genero)
+
+Existe  uma lista, que pode ser conseguida nos enderecos abaixo. Nao  posso 
+escrever  nada  sobre  esta  lista, exceto  que  ate'  conheco  alguns  dos 
+enderecos,  mas  nao  recomendo  nenhum. Ter conta  Internet  numa  BBS  no 
+exterior hoje, com as linhas congestionadas, so' compensa se a pessoa puder 
+pagar o DDD para o pais. Mesmo assim, sei la'..
+
+       "QUICK" GUIDE TO SELECT BBS'S ON THE INTERNET  (SBI QUICK LIST)
+
+WWW:  http://dkeep.com/sbi.htm - Includes a Guided Tour of Internet
+                                 BBS's from around the world.
+
+FTP:       dkunix.dkeep.com (in /pub/sbi) - login:anonymous
+           gcomm.com (in /internet) - login: anonymous
+
+FINGER:    sbi@dkeep.com         (Information about the SBI List)
+           sbiq@dkeep.com        ("Quick" Guide to Select BBS's on Internet)
+           sbi-info@dkeep.com    (Revision Information for current list)
+           sbi-sysop@dkeep.com   (How to Become a Part of the SBI list)
+
+EMAIL:     info@dkmail.dkeep.com  - put the word "SBI" in the TITLE/SUBJECT
+                                     (Info will be sent within 24 hours)
+
+BBS:
+Dragon Keep - dkeep.com / (904) 375-3500 (signup, then type /GO SBI)
+Liberty Network HUB - libhub.liberty.com / (800) 474-1818 (signup, /GO SBI)
+
+
+No Brasil:
+
+A Jacare' BBS - bbs.ufpa.br ou secom.ufpa.br - telnet 192.147.210.1 (?)
+A Ururau BBS - bbs.uenf.br ou  telnet 200.9.135.65
+
+OBSERVACOES: Nao me escrevam pedindo maiores informacoes sobre nenhuma  das 
+BBSes  acima.  Se  forem  ratos de laboratorio que se  prezem,  vao  la'  e 
+descubram por si ou se associem a pessoas que estejam descobrindo isso.
+
+                    BBSES ARGENTINAS DE HACKING e VIRUS
+
+Gente, esta lista eu editei de uma parte do faq do newsgroup soc.culture.
+argentina.  Nao recomendo de o acesso a essas bbses a nao ser a  titulo  de 
+curiosidade.  A lista esta' disposta com fins educativos..
+
+Quem for la' ou tiver uma conta telefonica com um credito razoavel, pode
+colocar ele no vermelho pesquisando essas bbses.
+Observacao:
+Uma das referencias no jornal a uma bbs de Hackers aqui no estado  de  Sao 
+Paulo e' a TopNet BBS de Sao Carlos (016)2718795, com Hackernet e  Lusonet, 
+ver  FOLHA  DE INFORMATICA - jornal ESTADO DE SAO PAULO.  Existe  tambem  a 
+MEDUSA BBS que e' algo quente, mas quem sabe como acessar nao me liberou  o 
+numero de telefone ate' hoje. Reza a lenda que eles pedem o upload  absurdo 
+de 50 artigos para conseguir liberar download. Artigos que eles nao tenham, 
+bem entendido. Detalhe: o arquivo INDEX.ALL deles e' de 200 kbytes zipados. 
+Coisa para separar o joio do trigo mesmo, acho que so' entra quem realmente 
+manja do assunto, o resto fica babando. 
+Em Sao Paulo capital, parece que existe a Phoenix (9197379 - das 21hs as 7hs
+) e Action (8157674 - das 15hs as 24hs). Nenhuma das BBSes acima foi acessa-
+da por mim. Estas duas eu peguei a informacao na Folha de segunda feira.                    
+ 
+-----------------------------------------------
+                  Listado de BBS de la Rep#blica Argentina
+
+                  Esta lista tiene una validez de 60 dias, y se emite
+                        (28/04/95) todos los viernes
+
+Nombre            Horario           Orientacion del BBS    Telefono   Max S
+                                                                      BPS t
+----------------- ----------------- --------------------- ----------- --- -
+24_Horas          TLD_24hs          Assembler             01-903-8065 144
+Ale               TLD_23a06         Juegos_Cracks         01-683-5653 144
+ASM               TLD_22a11         Assembler             01-552-7110 144
+Bleach            TLD_23a06         Virus_Maker_etc       01-382-0691 144
+Brain_Door        TLD_00a07         Hacking_Gif_Mod       01-204-7466 144 +
+Bs.As.Virus_Exch  S_20a00           Virus_Maker_etc       01-374-9145 144
+Century_XXI       TLD_24hs          General_Phreak        01-632-7070 144
+Citrus            TLD_23a08         General_Warez         01-553-2337 144
+Clown             TLD_00a07         Hacking_crack_virus   01-799-0277 144
+Compendium_II     TLD_00a07         Virus_Clipper         041-25-0532 144
+Dionysios_1       TLD_23a09         Programaci"n_Virus    01-253-4389 144
+Jam!              TLD_00a05         Virus_Hack_Phreak     01-750-8957 144
+Life              TLD_23a08         General_Prog_Hack     01-485-1676 288
+Mordor            TLD_00a07         Hacking               01-551-3307 144
+O.V.N.I.          TLD_22a06         Asm_C/C++_Virus       01-622-4344 288
+Pro_Tech          TLD_20a08         Assembler             04-1-393942 144
+Satanic_Brain     TLD_24hs          Virus_Hacking         01-383-7480 144
+Scream            TLD_00a07         Cracks                01-832-6305 144
+The_Best_Trojan   TLD_23a05         Hacking_Virus         01-778-0562 144
+The_Dark_Half     TLD_24hs          Hacking               01-857-3888 144
+The_Hidden_Door   TLD_00a07         Virus                 01-659-2726 144
+The_Twilight_Zone TLD_00a07         Hacking               01-768-8639 144 +
+TruchoSoft_I      TLD_00a06         Virus_Hacking         01-299-2619 144
+Vanhalla_#1       TLD_24hs          Assembler             041-37-2606 144
+Vanhalla_#2       TLD_24hs          Assembler             041-30-8220 144
+Vanhalla_#3       TLD_24hs          Hacking               041-37-2344 144
+Warrior           TLD_22a07         Hacking_Virus         01-658-2845 288
+Warrior_II        DaV_00a08         Hacking_Virus         01-433-0681 144
+Wicked_Garden     TLD_22a07         Hacking_Virus         041-81-5011 144
+---------------------------------------------------------------------------
+
+
+Nao, eu nao  acessei nenhuma delas, nem tenho noticia de alguem que
+tenha acessado e que seja de nacionalidade brasileira. 
+
+--------------------------------------------------------------------------
+
+
+         ENTREVISTA COM GOLDSTEIN - EDITOR DA 2600 HACKER QUATERLY
+         =========================================================
+
+Marina Umaschi - Revista VIRUS REPORT numero 14 - Publicada com permissao 
+do Editor
+
+Todas as comunidades tem o seu guru. Os hackers, um subgrupo muito especial 
+entre os visitantes do universo cyber, tambem. Emmanuel Goldstein,(ou Eric 
+Corley)  e'  o cara. Nao curte ser lider de nada, por mais que  negue,  nao 
+se  pode negar que sua revista, 2600-Hacker Quaterly baixa linha e dita  um 
+codigo  de etica a todos os cowboys de monitor cansados de serem  rotulados 
+como criminosos. 
+     Emmanuel  e'  um dissidente, como todo aquele que  nao  somente  esta' 
+convencido  de  que a informacao deve ser livre. Nao e'  casual  que  tenha 
+elegido  o  seu pseudonimo copiando o "inimigo publico do  povo"  no  livro 
+"1984"  de George Orwell. Taopouco e' a toa que seja  considerado  perigoso 
+pelo Stablishmente (vulgo "o Sistema").
+
+COMO COMECOU A SER HACKER?
+Creio que comecei basicamente quando estava no seg grau e tive meu primeiro 
+contato com um micro. Nesse tempo so fazia as coisas que devia fazer. Seguia 
+as regras. So' no principio, depois comecei a testar com as coisas que nao 
+devia fazer e ver o que aontecia, se me metia em problemas. Entravamos em 
+sistemas de voice-mail e checavamos as mensagens etc, mais que hacker, eu era 
+um phreaker. Minha paixao eram os telefones publicos. Havia um grupo de gente 
+na Universidade quando fazia Letras com quem faziamos estas coisas. Nunca 
+tomei um curso de computacao porque tiraria a emocao. Em "Hacking" nao te 
+podem dizer o que fazer e como fazer-lo. Ta' certo tomar um curso quando se 
+precisa fazer algo concreto, mas eu mesmo pesquisar por minha conta. Nao 
+quero perder o prazer da coisa. 
+
+FALANDO DO FBI E DO GOVERNO: QUAL SUA OPINIAO SOBRE O PROJETO DA SUPER-DATA 
+HIGHWAY?
+Me  incomoda quando o governo se poe a regular este tipo de coisas. E'  uma 
+intencao  de  organizar  a  informacao  muito  diferente  da  liberdade  de 
+informacao  da  qual nos falamos. O projeto e'  ambicioso  e  provavelmente 
+sera'  uma  boa  ideia dar acesso a todo mundo .. mas antes  quero  ver  os 
+regulamentos,  depois  falamos.  Me assusta que gente que  nao  entenda  da 
+INTERNET se ponha a legislar sobre ela.
+E'   parte  de  um  processo  de  querer  regularizar  tudo,  as   chamadas 
+telefonicas, o uso dos computadores. Querem controlar todos os aspectos  da 
+informacao,  o Clipper Chip e' um bom exemplo disso. Toda a  Internet  e'um 
+bom  exemplo de que, quando as pessoas chegam primeiro e' muito  melhor  do 
+que depois que as grandes empresas ou companhias tomam conta. A INTERNET e' 
+descentralizada,  barata, um meio excelente para que a gente  faca  contato 
+uns  com  os  outros.  E tambem poderia ser  um  excelente  negocio...  mas 
+felizmente nao e'.
+
+PORQUE 2600 SO SAI EM PAPEL, NAO SAI NA INTERNET? 
+Muitos leitores da revista ainda nao estao na Rede. Estamos tratando de in-
+tegrar o pessoal a rede, mas isso nao e' o mais importante, o  mais impor-
+tante do mundo e' criatividade. Que as pessoas usem o seu cerebro e nao se 
+limitem aos regulamentos que sao impostos. Isso e' o que buscamos e uma boa 
+forma de fazer tal coisa, e' lograr difundir o acesso a maior quantidade de 
+informacao possivel. Nao e' necessario ser hacker para ter mentalidade de 
+hacker. Muitos jornalistas poderiam ser hackers se tivessem um computador
+a mao. Porque a mentalidade e' parecida: querer saber o que antes nao se 
+sabia. Inventando novos metodos, descobrindo as fontes, investigando. Por 
+isso nunca se pode deixar de ser hacker. Podem te tirar o computador, mas 
+jamais podem te impedir de fazer perguntas. Nem sequer vale a pena tentar. 
+O computador e' maravilhoso porque na maioria das vezes que se faz uma boa 
+perygunta, ele respondera'. E' o melhor dos entretenimentos. 
+
+
+
+QUAL A SUA RELACAO COM AS GRANDES COMPANHIAS, COM O STABLISHMENT?
+Estamos em paz com as grandes empresas.. por enquanto. As vezes nos dizemos 
+coisas  que  incomodam a elas e algumas vezes nos ameacam de  volta.  Porem 
+conhecemos  o  FIRST  AMENDMENT (artigo um da  constituicao),  sabemos  das 
+regras e nao temos medo.
+Talvez por esse motivo faco essa revista: e' uma maneira de expressar o que 
+sinto, de mudar alguma coisa. Nao digo mudar o mundo porque tentar-lo  pode 
+ser  muito frustrante. E' demasiado ambicioso, porem pode-se  fazer  outras 
+coisas e sem nos darmos conta, estaremos mudando  o mundo.
+O fundamental e' ter a mentalidade de Hacker, e' ser criativo, desfrutar  o 
+que  fazemos. Geralmente estamos forcados a nao ser criativos porque  temos 
+que  cumprir com tarefas para a Universidade, ou para o trabalho:  e  agora 
+nao  tenho  esse problema e ademais tampouco tenho que me preocupar  com  o 
+ganha-pao,  donde me esforco para ser criativo. O bom e' que  a  tecnologia 
+sempre esta' mudando e nos nunca nos aborrecemos, sempre encontramos  algum 
+jogo diferente.
+
+AO FINAL DAS CONTAS, PARECE QUE TODOS OS QUE FALARAM MAL DOS FALARAM MAL 
+DOS COMPUTADORES, QUE ESTAVAM HORRORIZADOS PORQUE IRIAM TORNAR AS PESSOAS 
+MAQUINAS INCOMUNICAVEIS  SE EQUIVOCARAM. O HACKING MOSTROU QUE ..    
+Os hackers sao uma comunidade. Cada pais tem seus hackers que fazem coisas 
+diferentes, mas com um espirito comum. O encontro em Amsterda foi incrivel 
+neste sentido. Nunca nos haviamos visto antes, mas nos sentiamos irmaos. 
+Nao ha duvida, o computador te unifica, te socializa. Isso e' o que esta' 
+acontecendo, goste ou nao goste. Estamos criando comunidades, so' que 
+seguimos o nosso instinto.
+
+--------------------------------------------------------------------------
+
+                   COMO FAZER UM E-ZINE PARA CPDMANIACOS
+                   =====================================
+
+Para se fazer um e-zine, existem alguns cuidados: e' preciso decidir o que, 
+qual sera' o norte do zine. Porque o leitor precisa saber o que esperar, 
+quando vai ler. O BE tem um cuidado nesse ponto: para nao confundir o lei-
+tor, o melhor e' nao diversificar muito. Como nao o assunto e' novo, resol-
+vi que adotar um tom introdutorio e' o melhor. Sofisticar, nem pensar. 
+Ainda mais trabalhando com um unco escritor: eu. Lutando para nao atra-
+palhar minhas materias na Faculdade. Outra coisa e' que o grosso do ma-
+terial, tem que sair em portugues, senao vira uma colagem. Nao adianta 
+tambem escrever so pra encher linguica. O pessoal vai falar que e' mais 
+facil ler em ingles. O brasileiro costuma escrever errado, mas nao aguen-
+ta ler texto mal escrito. E tambem ser tratado como ignorante, nao aceita.
+Tem que maneirar. Complicado? Pois e'. Voce tem que gostar de reler 
+o que escreve. Bom calculo umas dez horas no maximo, para um texto. Como 
+nao posso ficar esse tempo todo por conta disso, levo uns dias ate' che-
+gar  no final. Ja' houve textos que nao publiquei, por achar que nao  cabia 
+no  contexto. Como um so' autor, nao se pode misturar um texto falando  bem 
+de  uma coisa e outro falando mal da mesma. Como isso acontece:  voce  fala 
+sobre moralidade de Hacking e depois coloca um baita texto explicando  como 
+e' que se "pirateia" um disquete protegido. Nao fica legal.
+
+Sobre o titulo:
+
+     Tem que ter a ver com o conteudo que vai veicular no zine. No caso  do 
+BE, eu nem vou falar, por que ta' claro, ate' meu chefe pegou na mesma hora 
+o  espirito  da coisa. A PHRACK, traz o nome assim porque  trata  tanto  de 
+phreacking  quanto  de  hacking. A 40HEX (ou HEX40,  vivo  confundindo)  e' 
+porcausa  de  uma  trilha  "invisivel", muito usada  tanto  pra  travas  de 
+software  quanto  para  ocultamento de virus, em disquetes  de  360  kb.  A 
+Minotauro,  vem da lenda grega, do monstro que devorava todos que  entravam 
+no  seu  labirinto.  Vale notar que Barata Eletrica  e'  um  titulo  enorme 
+comparado a grande maioria dos que encontrei na EFF.
+
+Sobre alguns e-zines que serviram de exemplo...
+     O  assunto, alias, e' aquilo com o que voce quer lidar. Se voce tem  a 
+sorte de contar com colaboradores em numero suficiente, voce pode  escolher 
+o  que  publicar  ou  nao. Uma forma de olhar  isso  e'  olhar  os  numeros 
+anteriores  de um e-zine interessante. Tem varios, mais de 30, sendo  o  BE 
+brasileiro,  o  N0way frances, o Chalisti alemao e  o  Minotauro  argentino 
+alguns exemplos de outras linguas. O frances tem uma construcao  semelhante 
+ao BE (ou o contrario), misturando textos em ingles e frances. O  Chalisti, 
+pelo que entendi tem a tematica e enfoques quase ou mais brandos de todo  o 
+grupo   de   Zines  que  encontrei  no  ftp.eff.org.   O   Minotauro   lida 
+especificamente  com hacking/cracking e e' pesado como o NUKE ou  o  40hex. 
+Mas o norte do BE esta' na criacao de uma mentalidade de "eu sou  fucador", 
+nao  de "olha como voce pode (poderia, se estivesse afim) ferrar o  mundo". 
+Nos EUA, antes dos e-zines, haviam textos em que os cobras deste ou daquele 
+assunto davam as dicas para os iniciantes, textos sobre como fucar isto  ou 
+aquilo,  na  recem-criada Internet ou nos primeiros BBSes que  comecavam  a 
+pintar.  Aqui no Brasil eu nao sei muito sobre a existencia desse  tipo  de 
+material em portugues. O texto tem que ser de dominio publico, escrito  por 
+quem  sabe  e de preferencia nao copiado, no minimo re-elaborado  de  outro 
+existente.
+     Talvez fosse uma forma de evitar que newbies ou wanna-bes enchessem  o 
+saco  dos  veteranos (porque fucador que e' fucador e' persistente)  e  uma 
+forma   de  demonstrar  proeza,  ja'  que  o  "handler"  do   cara   ficava 
+famoso. Entao, ao inves de gastar conversa telefonica com isso ou aquilo, o 
+sujeito  escrevia  sobre o assunto e acredito, ate' usava  o  escrito  como 
+material  de  troca (troco um artigo sobre "ligar sem pagar" por  um  sobre 
+"como  fazer  napalm"). Tudo bem que muitos desses  artigos  eram  passados 
+adiante  sem serem usados, muitos eram incorretos e o sujeito que  tentasse 
+fazer uma bomba em casa, bom, como dizia um artigo.."tome cuidado para  nao 
+derramar agua nessa troco, senao voce vai ter dificuldade em fazer  algumas 
+coisas, como: ler livros, comer, beber agua, falar, etc".. Algo muito  mais 
+interessante  de se ler do que um romance de espionagem, o que alias era  o 
+grande  "hit"  da  epoca. Quem nao curtia os filmes de  James  Bond  quando 
+crianca?  Nao os de hoje, mas os primeiros. Nos livros do Ian  Fleming  ja' 
+tinham receitas de bombas e venenos. Mesmo durante a ditadura, esses livros 
+nao foram censurados. Basta ler "O dia do Chacal" para ver que aquilo que a 
+imprensa fala que a Internet coloca a disposicao do publico, ja' existe por 
+ai' a torto e a direito em romances, enciclopedias e filmes.
+     O  e-zine Phrack, nos primeiros numeros, mostra essa  tendencia.  Como 
+passou  por  serios  problemas juridicos, quase apreendido durante o Hacker 
+Crackdown,  entao  foi  abrandando um pouco as materias. O  estilo  "se  eu 
+quiser  entrar  no  teu computador eu vou entrar" foi  alterado  um  pouco. 
+Perdeu  agressividade.  Ja' o 40hex virou uma revista  comercial,  continua 
+agressivo,  ja'  amparado com o fato de ser impresso em  papel.  A  justica 
+norte-americana  saiu  algo desgastada com o "Hacker  Crackdown"  (vide  BE 
+numero  dois).  Seria  bom mencionar que um grande numero  de  pessoas  que 
+colaboram  com as revistas usa um codinome (handler), exatamente  para  nao 
+ficar  marcado  para  a lei. Que agora, la' fora, pode  por  em  cana  quem 
+"construir  um  mecanismo para forcar acesso em um computador  de  outrem". 
+Algo  bem  vago. Na Argentina, assim como no Brasil, nao  existe  tal  lei. 
+O "hacker" argentino se sente livre para fazer o que quiser, desde que isso 
+nao   signifique  prejuizo  contabilizavel  para   alguem.   Contabilizavel 
+significa grana. No Brasil, o mesmo acontece, mas como o brasileiro prefere 
+nao  mexer  com  a sorte, so' uns poucos se aventuram e  esses,  nao  ficam 
+contando  como fazem as coisas, com medo de todo mundo fazer e  estragar  a 
+"diversao".  Sim,  porque antes, os telefones publicos,  por  exemplo,  nao 
+tinham cabo blindado. Nao sou matusalem, mas me lembro desse tempo.  Alias, 
+nesse tempo telefone publico era raro, (so' para fazer um aparte) coisa  de 
+televisao ou cidade grande. Entao fica o medo de descrever o lance. Mais ou 
+menos como escrever sobre drogas (como e' que o cara sabe tanto assim sobre 
+o assunto?). O brasileiro atualmente tem a liberdade de opiniao e expressao 
+garantida  por  lei, mas nao se acostumou com isso.  Nao  acostumou  nem  a 
+reclamar que algo funciona errado, imagina falar com o vizinho como e'  que 
+pode  fazer  tal erro funcionar a favor dele? "Voce jura que nao  fala  pra 
+ninguem mesmo ..?"
+
+Mas, voltando a tecnica de fazer o e-zine..
+ 
+     O problema e'  que sou  o  primeiro. Obrigatorio caprichar. Alguns 
+nao tem essa preocupacao,  mas  em compensacao os editores tem materias 
+quentes e outros enfoques. E' preciso se virar com o que se tem. Do Ponto 
+de vista tecnico, e' preciso ter alguma  preocupacao com a forma de con-
+duzir o texto. Redacao e' introducao, desenvolvimento e conclusao, pode- 
+se deixar isso pra depois, desde que voce reordene os paragrafos para pare-
+cer que voce introduz o assunto, desenvolve e conclui.Paragrafo, so' tem 
+um jeito: voce expoe a ideia e desenvolve no resto, ate' chegar a hora de 
+colocar outra ideia ou outra informacao. O normal e' a pessoa ir encava-
+lando as ideias e misturar tudo. Leva tempo para se chegar a 1 boa redacao. 
+Uma ma' critica pode levar tudo a perder e a pessoa desiste de tudo. 
+Redacao e nao matematica e' o fantasma do vestibular. Normalmente e' muito 
+mais facil fazer do que escrever sobre o assunto. Dominada a materia, vem 
+o lance do vocabulario e norma tecnica. Pega bem colocar aspas em titulos 
+ou expressoes estrangeiras. Repetir eu o tempo todo, facilita mas e' ruim. 
+O ideal e' nao e' variar. Se usou "programa", use agora "codigo" (sentiu o 
+uso das aspas e parenteses?). Mas tambem nao adianta escrever travadao, 
+preocupado com isso. Nao se aprende do dia pra noite. Quem tem costume 
+de escrever cartas, pode ter mais facilidade. As vezes e' pura sorte.
+Existe tambem uma coisa que o pessoal chama de diagramacao. O dia em que 
+eu descobrir o que e', eu aviso. :-)
+     Sobre a questao da lingua portuguesa, existe um lance: as diferencas
+entre o portugues escrito, o brasileiro falado e o "computes" que usamos
+no dia-a-dia. Acentuacao, e' melhor esquecer, porque ja' foi alterada e a
+questao da acentuacao so' e' realmente importante nas materias do DIARIO
+OFICIAL, que  da'  noticias  de contratacoes para cargos publico e outros 
+baratos da legislacao. "Escrever claro nao e' certo, mas e' claro, certo?"
+Esta frase esta' errada gramaticalmente falando, mas transmite a mensagem.
+Nao e' bom perder a nocao do que e' escrever correto, para evitar chacota
+tambem. Uma recomendacao: se tiver um tempinho, assiste de novo (voce ja'
+passou, ne'?) os programas da Rede Cultura, tipo: "Nossa Lingua Portuguesa"
+"Telecurso" e o tao importante "Vestibulando". Tem uma super-morena de uns
+labios carnudos nesse ultimo, (ou tinha)  e se nao tomar cuidado, voce se
+esquece do assunto principal, que e' rememorar que sal nao e' com cedilha,
+por exemplo.  
+Por ultimo, a questao das margens: isso e' estilo, alinhado a esquerda ou
+fazer alinhado no modo justificado. Pode-se escrever em editores antigos, 
+tipo ascii, de forma a nao ter problemas quando jogar na Internet, que 
+todo mundo sabe, nao aceita cedilha nem acentuacao. Word for windows 
+funciona, se voce lembrar de salvar no modo "texto com quebra d linha". 
+Mas para mim nao da' porque nunca sei o tamanho da linha e mais de 75 
+comeca a ficar ruim de ler no monitor. Outra coisa importante: direitos 
+autorais. Se voce copia um artigo inteiro de uma revista, isso e' pira-
+taria. Exceto quando o artigo e' de dominio publico ou o autor ou editor 
+da revista deu permissao. Muitos textos na rede sao terra de ninguem, mas 
+e' bom se certificar.
+     Reportagem, pode-se copiar 40% da dita(fichamento da noticia) e ficar
+numa boa. Mas de preferencia, deixe uma referencia de onde tirou a coisa. 
+Dia, numero da revista e titulo da materia. Se voce re-escrever o material, 
+o copyright e' seu, fica mais difticil comprovar o plagio (acho). Revistas 
+de Computer Underground ja' foram na justica, como por exemplo a Phrack.
+So' nao foi condenada porque o material pirateado em questao tinha sido 
+bastante editado (cortado). Pode-se usar pseudonimos para tentar escapar 
+disso, mas nao sei se isso funciona. Por outro lado, se voce for se preo-
+cupar com isso voce tem que ficar virgem ate' os dezoito anos, ja' que a 
+lei proibe sexo consentido com menores de idade(sim, a mae pode, por exem-
+processar a "sirigaita" ou "marginal" que seduziu seu filho(a), corrupcao 
+de menores nao interessando se houve ou nao consentimiento). Se voce deci-
+dir profissionalizar a coisa, pode tambem colocar coisas como endereco e 
+telefone.  
+     Outra  coisa  e' a questao da materia ser "quente". Bom,  ai'  e' 
+coisa  de  auto-censura. Voce pode achar interessante a materia, mas nao 
+tem coragem nem gostaria de ve-la publicada. Acontece comigo o tempo todo
+ainda nao me acostumei a liberdade de opiniao e acho que a grande maioria 
+dos brasileiros  ainda nao. Os americanos tem a opiniao que descrever um 
+assassinato nos  minimos detalhes nao e' crime, cometer um e' que e'. Eu
+diria que, desde que voce possa ter seu anonimato, voce pode escrever  
+sobre tudo. Eu comecei sem anonimato, sem nenhum codinome. Ai', sou, como
+diz o cara que fez a pagina do html no www.inf.ufsc.br, responsavel por
+todo o conteudo do e-zine. Os colaboradores aparecem pingados, falam que
+vao e acabam nao entregando materias, quando pinta colaboracao, tem obvio
+que preservar o anonimato. Como tenho a consciencia limpa, continuo com
+os meus escritos. Ninguem reclama..acho que escrevo bem.
+     Porque voce vai se dar a esse trabalho todo? Bom, isso e' algo meio
+dificil de responder. Quando comecei, era pensando exclusivamente pensando
+na situacao dos hackers brasileiros, sem ter com quem conversar, sem ter
+ate' identidade. Ainda nao mudou, mas pelo menos eu criei uma lista que, 
+por enquanto, esta' funcionando. Se eu convencer, como parece que  esta'
+acontecendo, que ser rato de laboratorio ou hacker ou discutir sobre, por
+exemplo seguranca informatica, nao significa estar voltado so' para fazer
+besteiras, acho que sera' alguma coisa. O que vier de bom alem disso e'
+lucro.
+
+------------------------------------------------------------------------
+
+                    BLUE BOX AND MA BELL - continuacao
+                    ==================================
+
+
+VACUUM TUBES
+        Assembly plans for Blue Boxes were sold through classified
+
+designs was a two-tube poertable model that used a 1.5-volt "A" battery for the
+filaments and a 125-volt "B" battery for the high-voltage (B+) power supply.
+The portable Blue Box's functional circuit in shown in Fig. 2 [It's nothing you
+can't find in any good Blue Box g-file, so I won't try to draw it - Cardiac].
+
+the tones from both oscillators.  Switches S1 and S2 each represent 12
+switching circuits used to generate the tones. (No, we will not supply a
+working circuit, so please don't write in and ask--Editor)[That's the real
+editor, not me - Cardiac]  The user placed the speaker over the telephone
+handset's transmitter and simply pressed the buttons that corresponded to the
+disired CCITT tones.  It was just that simple.
+        Actually, it was even easier then it reads because Blue Boxers
+dicovered they did not need the operator.  If they dialed an active telephone
+located in certain nearby, but different, area codes, they could Blue Box just
+as if they had Blue Boxed through an information operator's circuit.  The
+subscriber whose line was blue Box conversatio was short, the "dead" phone
+suddenly came to life the next time it was picked up.  Using a list of
+"distant" numbers, a Blue Boxer would never hassle plain to the telephone
+company.  The difference between Blue Boxing off a subscriber rather
+than an informatio operator was that the Blue Boxer's AMA tape indicated a real
+long-distance telephone call--perhaps costing 15 or 25 cents--instead of a
+freebie.  Of course, that is the reason why when Ma Bell finally decided to go
+public with "assisted" newspaper articles about the Blue Box users they had
+apprehended, it was usually about some college kid or "phone phreak."  One
+never read of a mobster being caught.  Greed and stupidity were the reasons why
+the kid's were caught.  It was the transistor that led to Ma Bell going public
+with the Blue Box.  By using transistors and RC phase-shift networks for the
+oscillators, a portable Blue Box could be made inexpensively, and small enough
+to be used unobstrusively from a public telephone.  The college crowdin the
+many technical schools went crazy with the partable Blue Box; they could call
+the folks back home, their friends, or get a free network (the Alberta and
+Carolina connections--which could be a topic for a whole separate article) and
+never pay a dime to Ma Bell.  Unlike the mobsters who were willing to pay a
+small long-distance charge when Blue Boxing, the kids wanted it, wanted it all
+free, and so they used the information operator routing, and would often talk
+"free-of-charge" for hours on end.
+        Ma Bell finally realized that Blue Boxing was costing them big bucks,
+and decided a few articles on the criminal penalties might scare the Blue
+Boxers enough to cease and desist.  But who did Ma Bell catch?  The college
+kids and the greedies.  When Ma Bell decided to catch the Blue Boxers she
+simply examined the AMA tapes for calls to an information operator that were
+excessively long.  No one talked to an operator for 5, 10, 30 minutes, or
+several hours.  Once a long call to an operator appeared several times on an
+AMA tape, Ma Bell simply monitored the line and the Blue Boxer was caught.
+(Now do you understand why we opened with an explanation of the AMA machince?)
+
+booth.  Ma Bell might not have known who originated the call, but she did know
+who got the call, and getting that party to spill their guts was no problem.
+The mob and a few Blue Box hobbyists (maybe even thousands) knew of the AMA
+machine, and so they used a real telephone number for the KP skip.  Their AMA
+tapes looked perfectly legitimate.  Even if Ma Bell had told the authorities
+they could provide a list of direct-dialed calls made by local mobsters, the
+AMA tapes would never show who was called through a Blue Box.  For example, if
+a bookmaker in New York wanted to lay off some action in Chicago, he could make
+a legitimate call to a phone in New Jersey and then Blue Box to Chicago.  Of
+course, automatic tone monitoring, computerized billing, and ESS (Electronic
+Switchin Systems) now make that all virtually impossible. but that's the way it
+was.
+        You might wonder how Ma Bell discovered the tricks of the Blue Boxers.
+Simple, they hired the perpetrators as consultants.  While the initial
+newspaper articles detailed the potential jail penalties for apprehended Blue
+Boxers, except for Ma Bell employees who assisted a Blue Boxer, it is almost
+impossible to find an article on the resolution of the cases because most
+hobbyist Blue Boxers got suspended sentences and/or probation if they assisted
+Ma Bell in developing anti-Blue Box techniques.  It is asserted, although it
+can't be easily proven, that cooperating ex-Blue Boxers were paid as
+consultants.  (If you can't beat them, hire them to work for you.)
+        Should you get any ideas about Blue Boxing, keep in mind that modern
+switching equipment has the capacity to recognize unauthorized tones.  It's the
+reason why a local office can leave their subscriber Touch-Tone circuits
+actives, almost inviting you to use the Touch-Tone service.  A few days after
+you use an unauthorized Touch-Tone service, the business office will call and
+inquire whether you'd like to pay for the service or have it disconnected.  The
+very same central-office equipment that knows you're using Touch-Tone
+frequencies knows if your line is originating CCITT signals.
+
+THE RED BOX
+        The Red Box was primarily used by the college crowd to avoid charges
+and a student's home.  Unlike the somewhat complex circuitry of the Blue Box, a
+Red Box was nothing more than a modified telephone; in some instances nothing
+more than a capacitor, a momentary switch, and a battery.  As you recall from
+our discussion of the Blue Box, a telephone circuit is really
+established before the target phone ever rings, and the circuit is capable of
+carrying an AC signal in either direction.  When the caller hears the ringing
+in his or her handset, nothing is happening at the receiving end because the
+ringing signal he hears is really a tone generator at his local telephone
+office.  The target (called) telephone actually gets it 20 pulses-per-second
+ringing voltage when the person who dialed hears nothing--in the "dead" spaces
+between hearing the ringing tone.  When the called phone is answered and taken
+off hook, the telephone completes a local-office DC loop that is the signal to
+stop the ringing voltage.  About three seconds later the DC loop results in a
+signal being sent all the way back to the caller's AMA machine that the called
+telephone was answered.  Keep that three-second AMA delay in mind.  (By now you
+should have a pretty good idea of what's coming!) [I'm skipping a paragraph
+talking about how a telephone circuit works.  It is referring to a
+simple phone schematic that isn't worth drawing, so I ommited the whole
+paragraph - Cardiac] Now as we said earlier, the circuit can actually carry AC
+before the DC loop is closed.  The Red Box is simply a device that
+provides a telephone with a local battery so that the phone can generate an AC
+signal without having a DC connection to the telephone line.  The earliest of
+the Red Boxes was the surplus military field telephone, of which there were
+thousands upon thousands in the marketplace during the 1950's and 1960's.  The
+field telephone was a portable telephone unit having a manual ringer worked by
+a crank--just like the telephone Grandpa used on the farm--and two D-cells.  A
+selector switch set up the unit so that it could be connected to a combat
+switchboard, with the DC power supplied by the switchboard.  But if a combat
+unit wasn't connected to a switchboard, and the Lieutenant yelled "Take a
+wire," the signalman threw a switch on his field telephone that switched in the
+local batteries.  To prevent the possibility of having both ends of the
+circuit feeding battery current into the line in opposite polarity--thereby
+resulting in silence--the output from the field telephone when running from its
+internal batteries was only the AC representing the voice input, not modulated
+DC.  [I ommited the next two paragraphs, which talk about how to make one.  It
+too has a complicated schematic, so I wont draw it.  It's the same stuff you
+get from any Red Box g-file - Cardiac]
+        
+PRESS ONCE TO TALK
+        The Red Box was used at the receiving end; let's assume it's the old
+homestead.  The call was originated by Junior (or Sis) at their college 1000
+miles away from home.  Joe gave the family one ring and then hung up, which
+told them that he's calling.  Pop set up the Red Box.  Then Junior redialed the
+old homestead.  Pop lifted the handset when the phone rang.  Then Pop closed a
+momentary-switch for about a half-second, which caused the local telephone
+office to silence the ringing signal.  When Pop released the switch, the folks
+cantalk to Junior without Junior getting charged because his AMA tape did not
+show his call was answered--the DC loop must be closed for at least
+three-seconds for the AMA tape to show Junior's call was answered.  All the AMA
+tape showed is that Junior let the phone ring at the old homestead for almost
+30 minutes; a length of time that no Bell Operating Company is likely to
+believe twice!
+      A modern Red Box is simpy a conventional telephone that's been modified to
+emulate the vintage 1940 military field telephone.  Aside from the fact that
+the operating companies can now nail every Red Box user because all modern
+billing equipment shows the AMA information concerning the length of time a
+caller let the target phone ring, it's use has often put severe psychological
+strain on the users.
+        [I ommited another paragraph here.  It was just some closing stuff.
+        Nothing special - Cardiac]
+        There are no hard facts concerning how many Red Boxes were in use, or
+how much money Ma Bell lost, but one thing is known: she had little difficulty
+in closing down Red Boxes in virtually all instances where the old folks were
+involved because Mom and Pop usually would not tolerate what to them was
+stealing.  If you as a reader have any ideas about using a Red Box, bear in
+mind that the AMA machine (or it's equivilent) will get you every time, even if
+you use a phone booth, because the record will show the number being called,
+and as with the Blue Box, the people on the receiving end will spill their guts
+to the cops.
+        
+---------------------------------------------------------------------------       
+
+             NADA DE AGORAFOBIA NA CIDADE DIGITAL DE AMSTERDAM
+             =================================================
+
+Trechos de uma entrevista com Marleen Stikker
+por Shuschen Tan
+Publicada no diario "Trouw" (Amsterdam), Janeiro 7, 1995
+Traducao Patrice Riemens - versao p. Portugues Derneval Cunha
+
+Uma  cidade  digital  nao consiste de tijolos, concreto e  pedras,  mas  de 
+linhas  telefonicas  e conexoes eletronicas. Pode tal coisa  funcionar?  No 
+ano  passado, o centro cultural "Balie" comecou com tal experimento,  junto 
+com a fundacao "xs4all" (ex-hacktic). Qualquer um com um fone, um modem,  e 
+um  computador  pode  logar na cidade digital e andar  a  vontade  como  um 
+espirito  digital: Ele pode visitar a estacao central, o cafe digital, e  a 
+assembleia da cidade. Marlene Stikker e' o "prefeito" da Cidade Digital  de 
+Amsterdam  (DDS,  no original), e ela rememora o ano passado  de  promessas 
+cumpridas e nao cumpridas.
+
+"Bom, claro algumas vezes, o nivel de discussao em um newsgroup  especifico 
+nao e' mais alto do que nas sessoes de chat; e voce tem o pirado  ocasional 
+distribuindo  porcaria racista na rede. Mas falando geralmente, a  vida  na 
+DDS e'  bem legal. E' tal como numa cidade comum" diz Stikker, "tudo o  que 
+voce tem no seu dia-a-dia, tem aqui tambem."
+
+Faz  exatamente  um ano esta semana que a DDS abriu suas  portas.  Eleicoes 
+eletronicas  no Conselho estavam acontecendo e esta nova  midia  eletronica 
+parecia   exatamente o necessario para ligar a lacuna que existia entre  os 
+cidadaos  e as autoridades. A municipalidade de Amsterdam decidiu bancar  o 
+experimentar (subsidiar), junto com com os ministerio(nacional) de assuntos 
+economicos e o do Interior. Pela primeira vez, DDS permitiu aos cidadaos de 
+Amsterdam olhar nas minutas do Conselho, consultar os papeis da politica  e 
+requisitar  informacao  da Assembleia da Cidade Digital. Mas  havia  outras 
+atividades  tambem.  A  "Estacao Central" oferecia  acesso  a  Internet,  a 
+pessoa  poderia ser padrinha de um cafe eletronico, fucar atraves do  kiosk 
+digital, entrar na casa da cultura e artes, ou pagar uma visita a  sex-shop 
+digital, completa com sala escura no fundo (obs: Em Amsterdam, tal coisa e' 
+como  se fosse uma livraria, comparativamente falando).  "todas  as  ideias 
+que  voce  tinha ouvido tao frequentemente dos EUA  sobre  nova  sociedade, 
+tele-democracia, cidadania eletronica, subitamente viraram   uma  realidade 
+na  DDS  "Marlene  Stikker  e'  uma gerente de  projetos  no  "Balie"(?)  e 
+iniciadora da DDS, e ela concebeu o arranjo conhecido nos EUA como Freenet, 
+um  tipo  de  cidade virtual onde pessoas sem teto  conseguiam  oferta  por 
+computador,  e  obtinham na realidade das autoridades da  cidade  que  eles 
+podiam instalar choveiros publicos e vestiarios, de forma que eles poderiam 
+lavar  e  se vestir de forma decente quando fossem ser  entrevistados  para 
+emprego. 
+     Stikker, porem, nunca realmente concebeu o interesse pelo  experimento 
+de Amsterdam fosse subir desse jeito. Dentro de uma semana apos o inicio da 
+inauguracao  da DDS, nao se achava um modem a venda em Amsterdam,  nem  por 
+amor,  nem  por  dinheiro.  As  linhas  telefonicas  que  davam  acesso  ao 
+computador  da  DDS  estavam lotadas a qualquer hora do  dia  ou  da  noite 
+(comecaram  com  20).  Mas o rush se estabilizou mais ou  menos,  agora.  O 
+numero  de  usuarios esta em torno de 4000. Um milhao  de  "paginas"  estao 
+sendo  requisitadas ao mes. Uma nova configuracao foi instalada,  os  menus 
+primitivos foram substituidos por informacoes graficas (fotos, mapas,  etc) 
+e a DDS parece destinada a evoluir para uma verdadeira comunidade virtual.
+
+"No  inicio,  estavamos com medo de que a resposta fosse vir apenas  de  um 
+pequeno  grupo de  "hackers", e usuarios tipicos de BBSes que  voce  sempre 
+encontrar  nesse  tipo de projeto. Logo porem se viu que nao  era  o  caso. 
+"Gente  comum comprou um modem se 'ligou nessa'". Ainda tem chao ate' a DDS 
+se  tornar uma verdadeira representacao do publico. Um grupo  de  discussao 
+especifico  para mulheres foi invadido rapidinho por homens."Nao dava  para 
+acreditar, os caras estavam la' discutindo assuntos femininos, ate' que  um 
+cara chegou e disse: "Meu, se eu fosse mulher, nao acreditava numa  palavra 
+disso ai'".
+Alias  e' raro achar mulheres na cidade virtual e de acordo com Stikker,  a 
+raiz esta' no sistema educacional. Voce vai para uma universidade que nem a 
+U.  Tecnica  de  Eindhovem e encontra duas ou tres femeas  em  meio  a  400 
+usuarios.
+Stikker  nao quis intervir quando o newsgroup de assuntos  femininos  virou 
+territorio  masculino: "Nao e' nosso trabalho, nos provemos a plataforma  e 
+os meios. As pessoas e' que devem decidir o que elas querem fazer com eles, 
+nos nao interferimos. Algumas vezes as coisas vao ficando fora de controle, 
+coisas como direitistas reclamando contra estrangeiros. Na vida real,  isto 
+teria resultado em briga, mas isso nao e' possivel aqui na cidade  digital. 
+De  forma  que a discussao evolui em seus minimos detalhes,  completos  com 
+argumentacao  e referencias." E' outra forma de discussao. "Queremos que  a 
+populacao  da  DDS evoulua seu proprio codigo de  comportamento  para  tais 
+casos, tal como acontece na Internet. Nao podemos impedir a entrada de tais 
+tipos.
+     A ideia de cidade digital esta' pegando. Agora Rotterdam, seguindo  os 
+passos  de  Amsterdam, esta' tambem abrindo uma area de  network  local.  A 
+provincia  de  Utrecht  esta  abrindo  suas  portas  este  mes,  junto  com 
+Groningen, Haia e Eindhoven. O ministerio de assuntos economicos pediu para 
+a DDS juntar num livrinho a experiencia destes dois anos.
+     De acordo com Stikker, o motivo central da DDS e' o preenchimento  das 
+necessidades humanas. "Todo mundo e' igual na rede. As pessoas nunca deixam 
+suas  casas  porque  estao com medo de  multidoes,  agora  regularmente  se 
+encontram em BBSes. Voce encontra gente na rede que voce nunca  encontraria 
+na vida real. A necessidade de comunicar e' muito humana. O que as  pessoas 
+amam mais e' o bate-papo sem fim uns com os outros" E claro, e' o que a DDS 
+oferece de melhor.
+
+--------------------------------------------------------------------------
+
+                   SITIOS FTP  BRASILEIROS INTERESSANTES
+                   =====================================
+
+Esta  lista foi compilada nao usando o servicos.br, uma lista muito boa  de 
+sitios  ftp  e que pode ser conseguida no gopher.if.usp.br,  mas  usando  a 
+listagem de sitios ftp distribuida na rede internet. A data original e'  de 
+26-Julho-95. Quem se interessar pela dita cuja, prepare-se, e' um troco  de 
+alguns (quase dois) megabytes. Melhor nao pedir tudo de uma vez.
+
+
+
+Site   : asparagin.cenargen.embrapa.br
+Date   : 13-Sep-94
+Organ  : CNPq/RNP, , Embrapa/Cenargen, BMBBNet/Brazilian Bioinformatics
+         Resource Center (BBRC)
+Server : gopher
+System : Unix
+URL    : ftp://asparagin.cenargen.embrapa.br/
+Comment: BBRC is an EMBNet node
+Files  : empty [?]
+Comentario pessoal:  Nao conheco
+
+Site   : gopher.iqm.unicamp.br
+Date   : 13-Sep-94
+Source : Perry.Rovers@kub.nl
+Alias  : styx.iqm.unicamp.br
+Organ  : Universidad de Campinas (University of Campinas), Sao Paulo
+Server : gopher.iqm.unicamp.br, FSP, http://www.iqm.unicamp.br/iqm.html
+System : Unix
+URL    : ftp://gopher.iqm.unicamp.br/
+Comment:
+Files  : chemistry; Fortran; html-manuals; IBM-PC; parallel; PG-NET-archives;
+         Sun-Patches; text-tools; Unix
+Comentario pessoal:  Nao conheco
+
+Site   : gopher.rnp.br
+Date   : 13-Sep-94
+Alias  : rnp6.rnp.br
+Organ  : Rede Nacional de Pesquisa
+System : Unix (SunOS 4.1)
+URL    : ftp://gopher.rnp.br/
+Comment:
+Files  : docs; EDUPAGE; netinfo; packages [?]; RNP; systems [?]
+Comentario  pessoal:   O EDUPAGE vale sempre a pena consultar, a  parte  de  
+docs  e de RNP tem muita coisa relativo ao desenvolvimento da  Internet  no 
+Brasil. Acho que tem tambem uns arquivos sobre o tratado do Mercosul la' ..
+
+Site   : piaget.futuro.usp.br
+Date   : 19-Feb-95
+Source : harrier@piaget.futuro.usp.br {posting}
+Alias  :
+Admin  :
+Organ  : Universidade de Sao Paulo (University of Sao Paulo), Sao Paulo
+Server :
+System : Unix (Linux, PC)
+URL    : ftp://piaget.futuro.usp.br/
+Comment: slow connection
+Files  : cdrom; estereogramma; harrier (dicas, FAQ, fun); ibdccort; Linux (BBS, Linux, packages); Mac; McAfee; outros;
+         telematica (biogas, ecologia, energia, fastplant)
+Comentario  pessoal:  Evite. O sistema ainda esta' em fase de  implantacao, 
+significando que volta e meia esta' fora do ar.
+
+Site   : uspif.if.usp.br
+Date   : 13-Sep-94
+Source : Perry.Rovers@kub.nl
+Organ  : Universidade de Sao Paulo (University of Sao Paulo), Sao Paulo,
+         CS dept.
+System : VAX/VMS running MultiNet
+URL    : ftp://uspif.if.usp.br/
+Comment: default directory: UTIL_RT:[000000]
+Files  : ADUSP-L; aju; ansys50; archie; autoindent; BIG-LAN; bras-esportes;
+         bras-net; brasnot_gate; CENAR-L; cern; chmail; cmd; cmutek;
+         compress; concursos-br; cswing; dataplot; datebook; DECUS-L; demo;
+         E781MC-L; ECO92-L; emacs; EMULOC-L; exe; extract; f2c; fermi_mgr;
+         find; finger; FISICA-L; FISICOMP-L; fmt; games; GNU; gopher; grep;
+         hlb; hlp; HP; IBMPC-L; idl; import; imsl; imsl_v020; imu; imu_data;
+         INFO-UNIX; INFO-VAX; INFONETS; Internet Menu; ISIS; Kermit; Laser;
+         LEIBM; library; look; LZW; MACSYMA; MAKE2; MFTU; MGSD; MLSEARCH;
+         MMK; MODIFY; MOST; MULTINET; MX; NetLib; news; NEWSRDR; NOTICIAS-L;
+         NSQUERY; PACKASM; PC; PCX; PERF_METER; PHYS-L; PIPE; PLOT10; PREND;
+         PREPRINT; PROC; PSTAT; P_WINDOWS; recipes; REDUCE; REMOTE; SBF;
+         SCAN4; SCHEDULAR; SCUBA-L; SDFILTER; SEND; Servicios-BR; SETUP;
+         SHELP; SHRCOMMON; SPLOIN; STATUS; Sun; swim; switch; tar; TESTE-L;
+         TEX-L; TeX; Topdrawer; tpana; trim; txt; UFFEVENT-L; UGS; undelete;
+         Unix; uuencode; VAXNEWS; VAXPAK; verb; VIRUS-L; virus; vmail;
+         VMS_SHARE; VQM; VWSDEMO; Watcher; whois; WS_tools; WWW; X.29; XE;
+         XLAL; XPICK; XTERM; XV; ZIP
+Comentario  pessoal:  Nao tenho paciencia para  fazer o  download  via  ftp 
+nesse   site. Melhor negocio e' fazer via gopher ou www.  Muito  lento,  as 
+vezes.
+
+Site   : bdt.ftpt.br
+Date   : 13-Sep-94
+Source : Perry.Rovers@kub.nl
+Organ  : Base de Dados Tropica (Tropical Database), Campinas
+Server : gopher
+System : Unix (SunOS 4.1)
+URL    : ftp://bdt.ftpt.br/
+Comment:
+Files  : fita; kits; RIO92; software [?]; UNCED
+Comentario  pessoal:   O material RIO92 refere-se a famosa  conferencia,  a 
+ECO92. A UNCED trata-se de uma serie de documentos sobre o meio ambiente.
+
+Site   : fpspux.fapesp.br
+Date   : 22-May-94
+Source : fleming%snfma1@snfma1.if.usp.br (Henrique Fleming {F})
+Admin  : root@fpspux.fapesp.br
+Organ  : FAPE Sao Paolo, Sao Paolo
+System : Unix (DEC Station 3100)
+URL    : ftp://fpspux.fapesp.br/
+Comment: 600Mb disk space; directorylist in /pub3/fpspux_fapesp_br/ls-lR;
+         max. 100 users; FSP server available
+Files  : CCITT; docs; graphics; listserv; maps; mirror.inpe; NCSA; packing;
+         PC; RFCs; security; standards; Sun; TCP/IP; Unix; UnixTeX; Usenet;
+         viewers; X11
+Comentario pessoal:  Outro lugar que nao conheco, embora fosse o  preferido 
+da  Escola  Politecnica para  viewers, graficos e etcs.  Durante  um  tempo 
+desabilitaram o "anonymous ftp". O pessoal prefere agora o ftp.unicamp.br. 
+
+Site   : ftp.coe.ufrj.br
+Date   : 15-Dec-94
+Source : jonny@coe.ufrj.edu (Joao Carlos Mendes Luis)
+Alias  : alpha.coe.ufrj.br
+Admin  : postmaster@coe.ufrj.br
+Organ  : Universidade Federal do Rio de Janeiro (Rio Janeiro State
+         University), Rio de Janeiro, Postgraduate EE dept. (COE)
+System : Unix
+URL    : ftp://ftp.coe.ufrj.br/
+Comment: transfers are logged; max. 2 users
+Files  : Acmg; docs; jonny (KillDoom, Pentium test (p5test)); Linux; MBONE;
+         meteosat; MS-DOS; network; Novell; pictures; Sun; teleinfo; urantia;
+         vendor; Windows
+Comentario pessoal:  Nao conheco
+
+Site   : ftp.lsi.usp.br
+Country: Brazil
+Source : Perry.Rovers@kub.nl
+Alias  : lucia.lsi.usp.br
+Organ  : Universidade de Sao Paulo (University of Sao Paulo), Sao Paulo
+System : Unix (SunOS 4.0)
+URL    : ftp://ftp.lsi.usp.br/
+Comment:
+Files  : gcg; images; ixec; jscad; music; netman; pentium; siggraph94; WWW
+Comentario  pessoal:   Melhor  lugar para se pegar  browsers  ou  materiais 
+relacionados com WWW e utilidades Windows, do ponto de vista de um cara  na 
+USP (rapido p. xuxu).
+
+Site   : ftp.puc-rio.br
+Date   : 15-Dec-94
+Source : admin; Perry.Rovers@kub.nl
+Alias  : ftp.rdc.puc-rio.br, io.rdc.puc-rio.br
+Admin  : poyart@rdc.puc-rio.br (Eduardo Poyart)
+Organ  : Pontificia Universidade Catolica, Rio de Janeiro, RDC
+Server : http://www.puc-rio.br/ , gopher
+System : Unix
+URL    : http://www.rdc.puc-rio.br/
+Comment: ftp.cica.indiana.edu mirror planned
+Files  : Doom (FAQ); MIDI (X3-list); MS-DOS (BBS (RA 2.02), TCP/IP); music
+         (lyrics); Unix (ebbs, GNU, gopher, IRC, news, www); Windows
+Comentario  pessoal:   Ja' fizeram mirror do cica, mas e' uma  conexao  tao 
+lenta  que  da' para ir comprar o CDROM contendo o mesmo material la'  numa 
+loja da Avenida Paulista e voltar, antes que o download da ultima versao do  
+Scan se efetue. Pode ser que a noite seja  mais rapido..
+
+Site   : ftp.unicamp.br
+Date   : 29-Jun-95
+Source : wesleyer@dcc.unicamp.br (Wesley Elias Ribeiro);
+         fleming%snfma1@snfma1.if.usp.br (Henrique Fleming {F})
+Alias  : cesar.unicamp.br
+Organ  : Universidad de Campinas (University of Campinas), Sao Paulo
+Server : gopher
+System : Unix (SunOS 4.1)
+URL    : ftp://ftp.unicamp.br/
+Comment: successor of ccsun.unicamp.br, obelix.unicamp.br
+Files  : ahand; AIX; backup; ccuec; cdrom; communications; condor; cso;
+         databases; djgpp; docs; e-books; education; fapesp; ftpd; FreeBSD;
+         GNU (mirror of prep.ai.mit.edu); gopher; gzip; humor; iicm; images;
+         internet; irpf95; kerberos; kerberos-mit; khoros; languages; Linux;
+         listproc; lpf; Mac; mail; mathtools; medicine; multimedia; music;
+         news.software; Novell; OS/2; PC; postmodern; prlaser; ProTeM; RFCs;
+         security; shells; SimTel; simulation; Sun; systems (DOS, Windows,
+         OS/2, Macintosh, Unix software);; TCP/IP; TeX; Unix; UUNET; WAIS;
+         WWW browsers (lynx, mosaic, netscape); X11
+Comentario  pessoal:  Definitivamente, e' um point. Pena que  esta'  sempre 
+superlotado.  Mas uma vez conseguido o acesso, vale a pena.  
+
+Site   : ftp.usp.br
+Date   : 15-Dec-94
+Source : Perry.Rovers@kub.nl
+Alias  : bee08.cce.usp.br
+Admin  : consulta@fox.cce.usp.br
+Organ  : Universidade de Sao Paulo (University of Sao Paulo), Sao Paulo,
+         Centro de Computacao Eletronica (CCE)
+System : Unix
+URL    : ftp://ftp.usp.br/
+Files  : Cisco; GNU; PC (antivirus, MS-DOS, Windows3); Unix
+Comentario  pessoal:   Quebra  o galho com  varios  softwares  de  primeira 
+necessidade.
+
+Site   : ftp-sbi.if.usp.br
+Date   : 29-Jun-95
+Source : admin
+Alias  : sbi.if.usp.br, www-sbi.if.usp.br, pcsbi1.if.usp.br
+Admin  : afmoraes@if.usp.br (Antonio Fernando C. Moraes Filho)
+Organ  : Universidade de Sao Paulo (University of Sao Paulo), Sao Paulo,
+         Physics dept. (Instituto de Fisica), Servico de Biblioteca e
+         Informacao
+System : Unix (Linux, PC)
+URL    : ftp://ftp-sbi.if.usp.br/
+Comment: max. 10 users; transfers are logged; (de)compress, g(un)zip, tar
+         on the fly
+Files  : mirrors (Linux: Debian (debian.cps.cmich.edu), docs
+         (tsx-11.mit.edu), kernel (ftp.cs.helsinki.fi)), Minerva
+         (bond.edu.au), Netscape (ftp.mcom.com), Samba (nimbus.anu.edu.au),
+         security (ftp.win.tue.nl)
+Comentario pessoal:  Nao conheco
+
+ADENDOS:  Faltaram varios sitios do sul do Brasil, como  o  vortex.ufrgs.br 
+(143.54.1.17), o farofa.ime.usp.br (143.107.45.21), o magma.???.ufrj.br,  e 
+outros  com material muito bom, pelo menos em outras epocas (o  vortex  por 
+exemplo, tinha o antivirus contra o virus Brazil e o magma contem o BE,  em  
+algum obscuro lugar, talvez divulgado na proxima edicao). Mas nem todos  os  
+bons  sites (ou sitios) sao bons, devido ao problema da conexao,  que  pode 
+ser    ruim   para    alguns  e  boa  para  outros.  O   site   da   mandic 
+(mandic.ax.apc.org.br  ?) e' uma b(*) de acessar na parte da tarde,  talvez 
+pelo  excesso  de  gente, embora tenha material bom. Aconselho   o  uso  de 
+acessos fora do horario comercial.
+
+-------------------------------------------------------------------------
+
+                            BREAK-IN DA UNICAMP
+                            ===================
+
+De: Carlos F. A. Paniago <pan>
+Assunto: Zine:
+Para: wu100@fim.uni-erlangen.de
+
+caro Derneval:
+
+Parabens pelo seu zine. Estive lendo todos os numeros e concordo
+que voce esta fazendo um bom trabalho sobre HACKERS, e colocando os
+criminosos "CRACKERS" no seu devido lugar...
+        No numero 4 do seu zine, surgiram duvidas sobre o ataque que sofremos
+na pascoa, e como acho que o publico desse zine deve estar interessado,
+vou relatar o que aconteceu:
+        Na segunda depois da pascoa, nossa maquina que esta conectada na
+Internet estava "down". Tentamos carregar o sistema e nao conseguimos, usamos
+entao o CD e entramos na maquina, E qual a nossa surpresa de notar que o
+arquivo de "passwd" esta editado com a conta "root" sem password e muito
+lixo. Tivemos de refazer isso e perdemos uma prova. Avisei logo a seguir a
+UNICAMP (aonde estamos conectados) que tinhamos provavelmente sido invadidos
+e comecamos a agir com mais cautela. O diretorio /dev estava vazio e tivemos
+de recontrui-lo. Ao ligara a maquina, vi imediatamente que os principais
+file systems estavam com 0 bytes. Desmontamos entao os discos e comecamos a
+estudar o problema. So sobrou o / e o /usr dos nossos sistemas de arquivos.
+        Entrei em contato com especialistas em seguranca na UNICAMP e no meio
+da nossa conversa, ele recebeu o mail (que anexo abaixo para ver a ignorancia
+desses criminosos) que foi gerado na nossa maquina e mandado para dois sites
+(dois mails iguais - o sabido nao sabe nem usar CC (-; ). A partir dessa
+informacao e da constatacao que o sistema teria sido apagado com um simples
+"rm -rf /", e isso nao apaga a midia, so os arquivos, consegui recuperar
+parte do log da nossa maquina, que mostra o que aconteceu....
+----- log------
+Apr 17 02:45:28 ipe login: ROOT LOGIN ttyp1 FROM ???
+Apr 17 02:45:57 ipe login: ROOT LOGIN ttyp0 FROM ???.???.???.??
+
+Apr 17 02:48:16 ipe sendmail[12359]: AA12359: from=root, size=1395, class=0
+Apr 17 02:48:30 ipe sendmail[12361]: AA12359: to=root@?????.??.???.??, delay=00:00:14, stat=Sent
+Apr 17 02:49:14 ipe sendmail[12363]: AA12363: from=root, size=1389, class=0
+Apr 17 02:49:25 ipe sendmail[12365]: AA12363: to=root@???.???????.??, delay=00:00:11, stat=Sent
+-----fim do log--------
+Isso mostra a entrada do "cracker" vindo da maquina ???.???.???.?? (acho que
+seria melhor dar uma editada nisso e nao colocar o numero deles, nem o nome das
+maquinas que receberam o mail). Ele ja estava dentro do nosso sistema como
+root, e ele deve ter entrado da seguinte forma (aqui entra apenas suposicoes
+minhas, ja que os logs binarios nao foram recuperados). Os crcakers roubaram
+o arquivo de passwd daqui usando o NIS, e usando programs tipo Cracker,
+quebraram algumas senhas daqui (ok. eu fiz isso depois e quebrei uma porcao),
+ele entrou nessa conta e explorando problemas de seguranca do sistema entao
+em uso, conseguiu se transformar em Super usuario, e editou o arquivo de 
+passwd depois disso. O mail que ele enviou vai aqui
+------mail dos crackers-------
+Data: Mon, 17 Apr 95 02:49:14 EST
+De: op <root@???.???????.??>
+Para: root@???.???????.??
+Assunto: ola babacao!!!
+
+Ola Caro root!!
+ 
+ 
+        Ca' estou eu novamente espalhando o terror pela INTERNET! Ja destrui
+        a UNICAMP, USP e agora estou na EMBRAPA ! ! ! Muito interessante como
+        vcs ROOTS nao tem a minima ideia do que seja seguranca!!
+ 
+ 
+Bem, agora, alguns recados especiais:
+ 
+PARA o root da ?????.??.???.??:
+Foi muito Facil a USP!!! So' nao apaguei mais porque nao quis! Alias, vc leu
+minha msg: Mandem Esta para o Fantastico??? Pois e', eles adoram falar de 
+hacker e coisa e tal, pois e', mande pra la' esta!
+ 
+PARA o root da ??? ??? e ???.???????.??
+Minha historia com voces e' antiga!! Mas, podem ter certeza, nao acabei com
+tudo que quero ai na UNICAMP nao!!
+ 
+PARA o root do ???.???????.??
+De vcs eu tenho muita pena!! Ja' dei um shutdown uma vez ai pois fiquei com
+pena de apagar tudo, a mesma pena que tenho agora pois, usei voces para 
+entrar em todos os sistemas!!!
+De meus pesames para os roots da ??? e ??? e ???!!!!
+para o ROOT do ???.???????.??:
+Voce e' so' o comeco da minha saga pelas estatais!! avisem seus amigos!!!
+ 
+Bem amigos, e' isso, aproveitem bem o que vcs podem pois, eu estou vendo 
+cada passo de vcs e o que e' melhor, vcs nao sabem que sou, nao podem me ver,
+por isso, vou aproveitar , isso podem ter certeza, vou aproveitar!!!
+                 Adios amigos!!!!!!!!!
+ 
+                        Mr. Deleter
+------fim do mail dos crackers-------
+        Identificamos de onde veio esse telnet, e o pessoal cooperou tanto com
+a gente como com a Unicamp, apesar dessa instalacao tambem ter sido crackeada,
+os nossos amigos hackers (sera que so tem manual em ingles) nao sabiam nada da
+RENPAC e deixou os logs disponiveis, aonde esperamos, a justica (que abriu
+inquerito) consiga descobrir de que telefone partiu a ligacao, para poder
+achar os criminosos. Por outro lado, essa instituicao teve de mudar a
+sistematica de acesso dos usuarios legais desse sistemas, bem como trocar
+senhas (o que tivemos de fazer tambem).
+        O pior de tudo, e' que essa maquina vandalizada, so tinha dados
+publicos, e disponiveis para toda a sociedade atraves do nosso servidor WWW
+"http://www.nma.embrapa.br".
+        E' claro que continuamos alerta, e vigilantes, tentando descobrir
+esses criminosos. Se alguem tiver alguma pista, e' so mandar mail para mim
+(pan@nma.embrapa.br) que seremos gratos.
+        Discordando da secao de cartas, em que o culpado por invasoes sao os
+administradores que deixam suas maquinas desprotegidas, tenho a comentar: Os
+fabricantes de sistema operacional, escondem as informacoes sobre falhas no
+seu sistema (como o diabo da cruz). Esse tipo de trabalho e' super improdutivo
+(voce nao gera nada para a sociedade, a nao ser paranoia). Acho que na rede
+deveriamos ter uma vida de "cidade do interior" onde se deixa o carro aberto
+e ninguem leva (pois seria preso em seguida). E' claro que agora temos que
+ficar atentos a seguranca do nosso sistema, mas isso nos desvia de produzir
+coisas realmente uteis (poderia estar ajudando o projeto GNU no lugar de
+ficar brincando de Leao de Chacara (-; ).
+        Acho que temos de aprender a conviver com "loucos e paranoicos" na 
+rede. Temos de aprender a licao. Foi por isso que resolvemos fazer o "jogo"
+do cracker e soltar a informacao na imprensa, o que levou a uma conscientizacao
+da necessidade de mais seguranca (mas sem paranoia - por favor), e da 
+necessidade dos administradores prontamente ajudarem os colegas na caca desses
+piratas eletronicos. 
+        Outra coisa interessante, e' que podemos ir a televisao, ao jornal, ou
+mesmo nessa lista com nosso nome e nossa cara, o que nao pode acontecer com
+os "criminosos" que tem de ficar escondidos nos seus moquifos, esperando a
+hora de serem apanhados pela justica (que tarda mas espero que nao falhe)...
+
+
+        Paniago
+
+P.S. Derneval se quiser publique. so tire as referencias das outras maquinas
+no mail e no log para nao criar atritos com ninguem).
+-- 
+Carlos Fernando Assis Paniago - pan@nma.embrapa.br - Fone: (0192)52-5977
+NMA/EMBRAPA - Campinas, SP, Brasil - http://www.nma.embrapa.br/
+--
+--
+
+
+                           NEWS - DICAS - CARTAS
+                           =====================
+
+
+ 
+AMERICA ONLINE ATACADA POR HACKERS
+        A America Online esta' melhorando seu sistema de seguranca, depois
+que hackers penetraram no servico on-line com programas destinados a
+enganar o sistema de admissao e cobranca de novos usuarios; criar "bombas
+de mensagens" destinadas a abarrotar determinadas contas com mensagens nao
+solicitadas; e usar contas de usuarios legitimos, jogando suas contas nas
+alturas. O jornal San Francisco Chronicle informou que ate' mesmo a conta
+do presidente da America Online, Stephen Case, foi comprometida. A empresa
+nega que os numeros dos cartoes de credito dos usuarios tenham sido
+roubados, mas Case recomendou, em uma carta aberta aos usuarios, que os
+mesmos devem alterar suas senhas com frequencia. (Wall Street Journal,
+08/09/95, B12)
+
+Pirata rouba dados da Marinha Francesa - (FOLHA DE SAO PAULO 20/09/95)
+Paris: Informacoes secretas da Marinha francesa e de seus aliados (EUA e 
+Reino Unido, principalmente) foram roubadas por pirata eletronico. Os compu
+tadores militares da base de Toulon (litoral sul da Franca) continham infor
+macoes para reconhecimento de navios, submarinos, avioes e misseis, assim 
+como  codigos de identificacao de centenas de navios franceses e de  outros 
+paises  da  OTAN.  A  revelacao apareceu na edicao  de  hoje  do  semanario 
+satirico-investigativo frances "Le Canard Enchaine".
+
+
+Extradicao de Hacker russo sai esta semana 
+(ESTADO DE SAO PAULO   17-09-95)          Londres- O advogado de um hacker 
+russo, acusado   de usar seus conhecimentos de informatica para desviar do 
+banco americano  Citybank 12 milhoes, pediu que o seu cliente nao fosse ex-
+traditado para os EUA. Vladmir Levin, 28 anos, o russo que conseguiu entrar 
+no  sistema     do Citybank a partir de Sao Petesburgo e fazer milionarias 
+transferencias,  foi  detido no aeroporto de Heathrow, em 3 de marco. Supos-
+tamente Levin nao trabalhou sozinho, mas contou com a ajuda de outras pessoas
+em Israel, Suica e EUA.
+
+-------------------------------------------------------------------------------
+ Cia-INFO ### Cia-INFO ### Cia-INFO ### Cia-INFO ### Cia-INFO ### Cia-INFO ### 
+-------------------------------------------------------------------------------
+
+                       Como evitar os hackers e crackers
+   
+   Hackers, crackers e phone freakers sao nomes engracados de marginais
+   cada vez menos simpaticos ao mundo da informatica. A antiga admiracao
+   pela esperteza dos delinquentes ciberneticos virou panico diante da
+   virulencia dos ataques.
+   
+   Os hackers, mais "inteligentes", criam virus - que se acoplam a
+   programas, aos quais dao instrucoes diferentes das originais, fazendo
+   com que os computadores se comportem de maneira bizarra ou trazendo a
+   perdas na memoria.
+   
+   Os crackers sabem menos de informatica. Seguem "receitas de bolo",
+   instrucoes prontas, e seu objetivo e' apenas destruir dados. Os phone
+   freakers divertem-se descobrindo senhas por telefone - com programas
+   como o Satan - e entrando em redes tambem com objetivos destrutivos.
+   
+   Contra essa turma existem programas e equipamentos especificos. Na
+   parte de software, alem dos antivirus - como o Viruscan, Norton
+   Antivirus - ha' tecnicas como a criptografia, a arte de escrever de
+   forma ininteligivel para quem nao tenha o codigo.
+   
+   
+   Fonte:  NetClipping
+   Titulo: Como evitar os hackers e crackers 
+   Jornal/Revista: Correio Braziliense
+   Data Publicacao: 20/09/95
+------------
+OBSERVACAO:   Isto foi escrito no Correio Braziliense, um jornal a meu  ver 
+de baixa circulacao no pais, exceto pelo fato de ser de Brasilia, o  centro 
+de "decisoes" (entre terca e quinta, pelo menos) do nosso pais. Ou seja, um 
+jornal  que provavelmente e' lido pelos "cabecas" do nosso governo. E'  uma 
+pena  que desperdicem dinheiro com uma jornalista que a meu ver escreve  um 
+artigo  sem  conhecer  o  suficiente sobre  a  Internet.  Porque  se  ouviu 
+especialistas na area para escrever isto, deve ter ouvido de  especialistas 
+que  tem  o maior interesse em disseminar o panico, justamente  para  poder 
+cobrar mais caro. Nao que nao haja maus elementos. Mas ela colocou todos no 
+mesmo  barco!  Parece mais uma reportagem destinada a  desinformar  do  que 
+informar. Muito comum na imprensa norte-americana. Na imprensa  brasileira, 
+tanto  os jornais de maior circulacao como a Folha e o Estado de Sao  Paulo 
+nao  empregam  o  termo hacker, usam "criminoso  eletronico",  "pirata"  ou 
+"cracker".  A VEJA noticiou um break-in com o titulo  "pirata  eletronico". 
+Acho que essa reporter nao fez uma boa materia.   
+(nota do editor do Barata Eletrica)
+---------------
+
+                    Estudantes driblam codigos da Internet
+   
+   Dois estudantes da Universidade da California conseguiram driblar os
+   codigos secretos que permitem compras com cartao de credito na rede
+   Internet, pondo em risco um negocio de bilhoes de dolares. Cerca de 8
+   milhoes de pessoas usam o programa de compras por computador.
+   
+   /Revista: Folha de S. Paulo Secao/Caderno: Mundo
+   Data Publicacao: 21/09/95
+
+--------
+OBSERVACAO: Houve outras reportagens sobre o assunto. Nenhuma delas  chamou 
+estes  garotos de "crackers". E a intencao deles e' otima. Da  mesma  forma 
+que a Intel demorou a tornar publico o "bug" do seu chip Pentium, nao e' de 
+se  esperar  que uma empresa chegue a publico e fale que  seu  software  e' 
+ruim.  E'  ai'  que  se mostra a necessidade de  existir  gente  que  fique 
+"testando"  esses  equipamentos.  Porque  o  mal  existe.  E  existem  mais 
+"fucadores"  ou  "hackers" com boas intencoes do que as  vezes  a  imprensa 
+sensacionalista  quer  admitir. Fingir que ta' tudo bem porque  o  software 
+funciona e' querer empurrar a poeira pra debaixo do tapete.
+(Nota do editor do Barata Eletrica)
+---------
++----------------------------------------------------------------------------+ 
+! Copyright (c) 1995 Fabio Becherini.                                         !
+! Reproducao /distribuicao autorizada desde que mantido o "copyright".        !
++-----------------------------------------------------------------------------+
+
+
+                                  CARTAS
+                                  ------
+
+Waldemir Cambiucci <waldemir@caju.larc.usp.br>
+Subject: Barata Eletrica ! HACKER !!
+
+Fala Mestre  !!!!! HAU !!!!!
+Quem fala aqui eh Waldemir Cambiucci...enviado especial do jornal 
+DR.Byte, uma publicacao cibernetica que circula todos BBS de Santos e Sao 
+Paulo...( Hoje o Brasil...amanha o Mundo %)  )
+Mas o assunto e pouco serio...serio...Acho que o Jose Teijeiro ( o editor 
+chefe do Dr.Byte ) ja deve ter te procurado tambem...Eh que o pessoal 
+ficou interessado em saber algo mais sobre o "Barata Eletrica", algo 
+sobre sua historia e algumas publicacoes se for possivel.
+Sou engenheiro de Computacao, e faco mestrado na area de Cliente/Servidor 
+aqui mesmo na Poli/USP...no LARC. 
+Se voce tiver tempo...mande uma mensagem...dando sua posicao ! Falou !
+PS: O objetivo do DR.Byte eh a divulgacao de informacoes na regiao da 
+Baixada e Sao Paulo...a respeito do que acontece no mundo dos BBS's...
+PS2: Depois mando uma mensagem associada as tres edicoes do DR.Byte que 
+ja sairam...pra voce conhecer... Aqui onde estou o disco nao acessa ;(
+Por enquanto eh so !!!
+Inte !!!!
+------------------------------------------------------------------------
+
+Fala Mastre !!! HAU !!!!!
+PS> Esse cumprimento eh minha marca registrada !!! :)))))))
+E como vao as coisas...Recebi suas linhas e-mailisticas e estou respondendo:
+1. Pode expalhar pra mocada...o Dr.Byte tem o objetivo mesmo de ser um 
+veiculo de Cultura Informistica ( :) ) e tecnica, alem de divulgar as 
+informacoes sobre o mundo BBS da Baixada e Sao Paulo...
+2. Onde achar ??? Em todas as BBS da Baixada voce encontra...e agora esta 
+circulando em algumas BBS's aqui de Sao Paulo...Minas...Porto Alegre...( 
+hoje Santos...amanha a internet !!! :) )
+   Algumas BBS's onde voce encontra: VECTOR-BBS: 013-2225560
+                                     CULT-BBS: 013-2275598
+                                     IRON-BBS: 013-2225775
+   As de Sao Paulo...nao tenho os fones agora...depois eu passo ;)
+3. Quanto copiar os artigos...fique a vontade...a troca de informacoes 
+entre zines eh sempre bem vinda...!
+PS> Eu quero o proximo numero...!!! ;)
+
+Respondidas as mais faceis...Depois a gente agenda uma entrevista sobre 
+como eh escrever um zine como o BE...A maioria das perguntas que eu tinha 
+voce ja respondeu num dos BE que eu peguei...como surgiu...pra que 
+veio...etc...
+Por enquanto eh so...senao esse e-mail se transforma em mais um zine :)
+Falou Mestre !!! Inte !!!!!
+-------------------------------------------------------------------------
+Waldemir Cambiucci
+LARC-Laboratorio de Arquitetura e Redes de Computadores
+e-mail: waldemir@larc.usp.br
+        waldemir.cambiucci@iron.brasil.net
+"LARC doce LARC" 
+-------------------------------------------------------------------------
+
+
+Resposta: Estou sempre a disposicao para entrevistas. O duro atualmente  e' 
+ter  um  pouco de tempo para escrever. Ele me mandou o e-zine e  foi  super 
+legal.  Voce  ver que tem gente trilhando o mesmo caminho que voce  e'  uma 
+grande  alegria. Nao sei explicar. Faz valer cada uma das sei  la'  quantas 
+horas de tempo que eu gasto escrevendo o BE.
+
+ubject: Gente, preciso de ajuda...
+
+
+submeta hackers
+
+A cada novo numero do Barata Eletrica, surge um problema que para
+mim e' antigo. O que fazer com o pessoal que, por varias razoes, 
+nao pode ou nao consegue pegar o BE na rede, por so' dispor de 
+acesso via mail. Uma vez teve um cara de Mozambique, gente. Nao
+ta' dando para ignorar esse troco. So' que e' o problema:
+
+Se eu comecar a fazer isso usando minha conta internet na Alemanha,
+que esta' em vias de ser fechada, eu nao vou ter tempo para editar
+o zine. Cada carta que envio de la' pode demorar meia hora, para 
+ser escrita. As vezes eu uso um truque que ate' funciona, mas nao
+da' para usar minha conta la' para isso. 
+
+Tem alguem ai' na lista, que se disponha a fazer o papel de infobot,
+e enviar numeros do BE atraves do correio eletronico, para quem 
+estiver precisando? Eu poderia entao ate' reativar uma lista que 
+eu fazia manualmente e enviar alguns arquivos interessantes,
+nao so' eu, mas todo mundo que tivesse coisa realmente interessante
+para enviar e nao tivesse nem ftp site nem jeito de entregar 
+de outra forma.
+
+Bom, a ideia esta' lancada. Quem puder, as pessoas, respondam 
+atraves da lista (mais de uma pessoa significa menos peso e mais
+opcao) e se a coisa puder ser feita de um carater mais permanente,
+me enviem uma carta, ai' eu ou coloco no BE ou quando receber uma
+carta dessas, junto e depois envio para o endereco do voluntario.
+
+Mais uma coisa, estou para fazer uma mini-reuniao em Sampa, achar
+um boteco qualquer e fazer a primeira reuniao de (would-be) hackers
+em Sao Paulo. Quem quiser me mandar uma carta confirmando interesse
+para depois do feriado de 12 de outubro, provavelmente numa sexta
+feira ou sabado, me envie. O ideal seria fazer um encontro aberto
+para todo mundo, mas to pensando em abrir a coisa so' para quem 
+realmente e' capaz de perder casamento por conta de computador.
+Ai' ver como a coisa se desenvolve e depois fazer regularmente.
+A minha ideia e' essa. Se alguem quiser organizar por conta
+propria, tambem pode colocar o aviso na lista e me avisar, eu 
+agradeco a iniciativa. Para quem nao sabe, estou falando de um
+boteco em Sao Paulo, capital. Podem enviar as cartas p.
+wu100@fim.uni-erlangen.de ou dar um finger na minha conta e
+usar a chave publica de PGP.
+Tudo acima, sujeito a confirmacao.
+
+Inte', gente.
+sig. Derneval R. R. da Cunha
+
+ Internet: rodrigde@spider.usp.br     
+           wu100@fim.uni-erlangen.de  
+
+ubmeta hackers
+
+On Wed, Sep 20 1995, Derneval R. R. da Cunha wrote:
+
+>As duas ideias sao boas. O problema basico e' que :
+>
+>1)  A esquina das listas nao aceita email acima de 40 kbytes. Nao tenho 
+>certeza se o pessoal recebe quando eu mando arquivo zipado uuencodado.
+>
+>2)  Eu poderia ate' tentar fazer um proximo envio, usando varios 
+arquivos 
+>uuencodados. Nao tenho certeza se poderia fazer isso todas as vezes. E 
+>nao resolve o problema. E' preciso que alguem se *responsabilize* 
+>(palavra forte demais) melhor dizendo toma para si a tarefa. Ai eu 
+>acrescentaria o email do individuo no proximo numero do BE, que esta' 
+>para sair, por exemplo (posso tambem so' encaminhar pro o email pro cara 
+>que se dispuser).
+>
+>Eu nunca fiz ftp por email. Nao e' dificil, mas nao sei se funciona. Mas 
+>a ideia e' boa, vou mandar um texto que me mandaram, sobre o assunto, 
+>para a lista. Sempre tem alguem que pode usar.  
+>
+>Inte'.
+
+        Derneval:
+
+        Eu ja' fiz ftp por email e funciona. Nao e' dificil.
+        Mande email para alguns destes ftpmail servers da lista abaixo
+que eu consegui num texto "Tudo por EMail" de um tal "Dr. Bob".
+
+ftpmail@sunsite.unc.edu                 (USA)
+bitftp@pucc.princeton.edu               (USA)
+ftpmail@census.gov                      (USA)
+bitftp@vm.gmd.de                        (Germany)
+ftpmail@ftp.luth.se                     (Sweden)
+ftpmail@src.doc.ic.ac.uk                (UK)
+ftpmail@cs.uow.edu.au                   (Australia)
+
+        Mande sem subject e no corpo da mensagem seus comandos:
+
+open Algum@lugar.aqui.la
+get pub/misc/qualquer-coisa
+close
+
+        Entre os comandos open e close pode-se colocar varios co-
+mandos, como "dir", "cd", etc...
+        Se quiser mais informacao, mande email com o comando "info".
+
+        Espero ter lhe ajudado. Sou novo aqui e ainda estou meio
+deslocado. Abraco. :)
+
+{Nome e endereco eletronico editado}
+
+At 23:21 18/09/95 -0500, you wrote:
+>
+>submeta hackers
+>
+>A cada novo numero do Barata Eletrica, surge um problema que para
+>mim e' antigo. O que fazer com o pessoal que, por varias razoes, 
+>nao pode ou nao consegue pegar o BE na rede, por so' dispor de 
+>acesso via mail. Uma vez teve um cara de Mozambique, gente. Nao
+>da' para usar minha conta la' para isso. 
+{etc, etc, etc}
+>me enviem uma carta, ai' eu ou coloco no BE ou quando receber uma
+>carta dessas, junto e depois envio para o endereco do voluntario.
+
+  Bom, eu me dandidato a vitima, ops, quer dizer, voluntario :) 
+para fazer a redistribuicao do zine atraves de minha conta, sem
+problemas!
+
+  O acesso meu aqui e' commercial, mas acredito que nao seria muito
+peso gerar uns Blind CarbonCopies do zine pro pessoal que me fizesse
+o request.
+
+  E outra coisa, tenho um BBS aqui no Rio Grande do Sul, que passara'
+a operar 24hs em breve, e talvez essa seja mais uma opcao de distribuicao
+pra vc!   Que me diz?!   Eu poderia sem maiores problemas disponibilizar
+o BE em uma area especifica, inclusive como FREE DOWNLOAD para todos terem
+acesso livre.
+
+  E outra ainda, estou configurando um ListServer que funcionara' a 
+principio para o pessoal da rede MasterNET Brasil da qual sou ZC, mas
+possivelmente eu permitirei que outros usuarios facam Subscribe nas
+listas atraves da iNet direto.  Essa parte ainda esta em desenvolvimento,
+mas e' MAIS uma possibilidade!
+
+  Vamos talk'bout!
+
+  Qualquer coisa, mande reply!
+
+
+  CyA!
+-=> Renato Abel Abrahao (.
+-=> drren@conex.com.br    )
+-=> SysOp Future BbS      (.
+
+PGP Public Key avaliable (KeyID DA4233AD)                                  )
+FingerPrint: 75 9A C6 88 9F A8 9B 2E  45 8B 48 78 DF 33 19 E5             (.
+
+RESPOSTA:  Gente,  quando  eu  lancei  esse  apelo,  nao  esperava   tantas 
+respostas,  coloquei os enderecos do pessoal junto no inicio do e-zine.  E' 
+uma prova de que existe
+
+1) Uma comunidade de fucadores de micros, e preocupada em agir em conjunto.
+2) e construir o espaco Internet.
+
+E'  nessas horas que eu acho que brasileiros (como eu, inclusive)  precisam 
+acreditar mais no Brasil. Os enderecos dos voluntarios estarao listados  no 
+inicio do arquivo do Barata Eletrica.
+
+
+
+                                   DICAS
+                                   -----
+
+
+
+Subject: Minilinux.
+
+
+submeta informatica-jb
+
+Numa mensagem anterior, ????? disse para Wagner Ferreira...
+
+ JNCA> Ola a todos,
+ JNCA> Recentemente conversando com um amigo meu ele me falou sobre este
+ JNCA> programa o minilinux, ele converte a maquina epara o sistema
+ JNCA> operacional  linux e pode ser instalado sob o DOS. Gostaria de
+ JNCA> localizar algum repositorio onde eu possa pega-lo atraves de ftp
+ JNCA> anonymous. Agradeco a qualquer ajuda,
+
+        Oi ,
+
+            O minilinux nao eh apenas um progama.  Trata-se de uma
+        versao reduzida do Linux, sistema operacional de 32 bits
+        e multitarefa.  Foi "produzido" por um expert no assunto la
+        de Portugal, e como voce mesmo disse roda sob o DOS nao
+        sendo necessaria a criacao de particao especifica para ele.
+        O pacote do minilinux e composto por 5 arquivos (minilinx.exe,
+        minilin[1-4]) e tem como um dos seu objetivos de criacao
+        (confome explica o autor no texto que vem no arquivo
+        minilinx.exe) divulgar/popularizar o Linux mostrando suas
+        potencialidades.  Todas as intrucoes para a instalacao do
+        minilinux acompanham os aquivos em portugues (de portugual,
+        diga-se de passagem).  Sei que o pacote esta disponivel no
+        Rio na Inside BBS e em Sao Paulo no Mandic BBS (foi uploadeado
+        em SP pelo Wagner Silva)
+            Abraco.
+
+        Wagner.
+
+___ Blue Wave/QWK v2.12
+
+
+
+
+----------------------------Original message----------------------------
+
+Ricardo Ribeiro Gudwin <gudwin@dca.fee.unicamp.br>
+ubject: Re: Chave Publica de PGP.
+
+submeta informatica-jb, hackers, solucionatica-jb
+ 
+> Pessoal,
+> Gostaria de saber o que e' esta chave publica de PGP, para que serve e
+> como utiliza-lo, pois vejp que alguns usuarios destas listas a utilizam
+> com frequencia.
+> Obrigado,
+> 
+> 
+
+PGP significa Pretty Good Privacy, e e' um sistema de criptografia forte,
+como dizem os entendidos. Criptografia forte, e' um sistema de criptografia
+onde para quebrar a chave que encripta as mensagens, seria necessario um
+tempo de computacao incrivelmente estupido, de modo que para os computadores
+existentes hoje no mundo, e' impossivel quebrar o codigo. Esse metodo, criado
+por um pesquisador americano (nao me lembro o nome) foi colocado no dominio
+publico nos EUA, mas por um problema de legislacao americana, ele nao pode
+ser exportado para outros paises. Assim, foi criado um site na Noruega, onde
+nao existe a tal lei, onde o programa que realiza a encriptacao, desencriptacao
+pode ser obtido via ftp, para paises que nao os EUA. O sistema de chave
+publica funciona da seguinte maneira: cada usuario tem duas chaves, a chave
+publica e a chave secreta. A chave publica, ele distribui p/ quem quer se
+comunicar com ele. Essa segunda pessoa, encripta sua mensagem com a chave
+publica, e a unica maneira de ler a mensagem e' atraves do uso da chave secreta.
+Como v. nao vai distribuir a chave secreta p/ ninguem, so' v. pode ler as 
+mensagens. Outro uso do PGP e' para a assinatura de mensagens. Utilizando sua
+chave secreta, v. encripta um documento que v. quer assinar, gerando um PGP
+key signature p/ a mensagem. Neste caso, a mensagem nao vai encriptada, mas
+carrega no fim essa assinatura. Qualquer pessoa com o uso de sua chave publica,
+pode entao confirmar se foi v. mesmo que mandou a mensagem, e se a mesma nao
+foi alterada. Esse e' o uso mais frequente nas listas, para que se evite
+atribuir palavras a quem nao as disse, e do mesmo modo confirmar que foi
+exatamente isso que o autor da mensagem escreveu.
+Para maiores informacoes, veja:
+
+http://www.ifi.uio.no/~staalesc/PGP/
+
+que e' o home page oficial do PGP fora dos EUA, indicando inclusive onde
+v. pode obter o software do PGP, com fonte e tudo.
+Bye,
+
+Ricardo Ribeiro Gudwin
+
+-------------------------------------------------------------------------
+
+Subject: Re: Radio LIVRE!!!
+
+
+submeta hackers
+ 
+> Ola' PessoALL!
+> Alguem teria esquemas de Radio Pirata por ai para trocarmos?
+> Aguardo os Hacker's desta lista se pronunciarem. 
+> E olha que tem as pampas.
+> []s
+
+ 
+        Existe uma lista aqui na eaquina-das listas que e' utilizada pelo pessoal da radio muda (uma radio LIVRE - nao pirata - aqui da unicamp) se comunicar, o nome da lista e'
+ 
+                 radio-muda
+ 
+        Alem disso a radio muda tem uma home page no endereco
+ 
+                fee.unicamp.br/~muda
+ 
+        O endereco para E-mail da radio e' 
+ 
+                fee.unicamp.br@muda
+ 
+        Tanto a home page quanto a lista da radio estao um pouco parados,
+ (a home page ainda esta em construcao) devido ao roubo do transmisor
+ da radio, que esta fora do ar desde o comeco do semestre, mas eu espero
+ que ate' o final de outubro nos ja' possamos arrumar um novo transmissor
+ para voltar ao ar, e ai' tanto a lista quanto a home page devem ficar mais
+ movimentadas.
+        So' de curiosidade fale falar que a radio muda e' a maior radio
+ livre do pais, contando com cerca de cem pessoas que fazem programas e
+ gerenciao a radio. A radio e' gerida por um coletivo formado por todas
+ as pessoas que fazem programas na radio, sendo que todos os votos tem o
+ mesmo pessos, ou seja, nao existe um "dono" da radio.
+ 
+                Ate' mais 
+
+-----------------------------------------------------------------------
+ubject: Re: Quebrando Protecao contra software
+
+submeta hackers
+
+
+>       Alguem por ai ja tentou quebrar a protecao contra copia do GASPRO 
+>(Gerador Automatico de Sistemas)?
+
+Uma pergunta :
+
+       Esta e uma lista de hackers ou crackers ?
+
+Uma sugestao :
+
+       Porque voce nao instala o Linux e comeca a
+       trabalhar com ele ?
+         - Voce nao paga nada.
+         - Possui gigabytes de software gratuito, de
+           baixo custo e de boa qualidade a sua 
+           disposicao.
+         - Pode ganhar dinheiro com ele ( eu ganho).
+         - Pode ajudar no seu desenvolvimento - se
+           voce e um 'fucador', sera um 'fucador'
+           util. Eu estou montando diversos
+           pacotes para a distribuicao Debian, 
+           alguns ja disponiveis, e pretendo auxiliar
+           na criacao de um ambiente 'amigo do usuario'
+         - Voce nao rouba o trabalho de ninguem.
+           Se voce acha caro :
+              - Peca desconto.
+              - Compre do concorrente.
+              - Procure algum gratituo na grande Internet
+              - Desenvolva um.
+
+
+Ate
+{Editado o nome e endereco eletronico do autor}
+------------------------------------------------------------------------
+
+
+ubject: Excelente Tutorial WWW e HTML em portugues
+
+submeta informatica-jb
+
+A UERJ conta agora com um excelente tutorial sobre WWW e HTML
+em portugues. Experimentem ! 
+
+O endereco e': http://www.uerj.br/www_tutor/introduc.html
+
+Abracos,
+ 
+--
+{Nome e endereco do autor editados}
+  
+
+
+Subject: Chaves PGP
+
+submeta informatica-jb  solucionatica-jb  hackers
+
+> Gostaria de saber o que e' esta chave publica de PGP, para que serve e
+> como utiliza-la, pois vejo que alguns usuarios destas listas a utilizam
+> com frequencia.
+
+   Existem tres tipos de sistemas de codificacao : os que nao utilizam
+chaves (senhas), os que usam uma unica chave e os que usam duas.
+   Mensagens criptografadas por sistemas que se utilizam de chaves sao
+mais dificeis (tecnicamente impossiveis) de serem quebradas, pois o
+codigo responsavel pela criptografia e gerado em cima da chave dada.
+O que nao adianta para o Cracker saber apenas o algoritmo.
+   A desvantagem dos algoritmos de chave unica, e que e preciso que
+tanto o remetente, quanto o destinatario da mensagem criptografada,
+tenham a senha.
+   Para resolver esse problema, foram criados os sistemas de chave
+dupla : uma publica, usada para cifrar as mensagens e amplamente
+divulgada, e outra privada, usada para decifrar e mantida em segredo.
+Para mandar uma mensagem para mim, voce a criptografa com a minha chave
+publica. So eu conseguirei abri-la, com a minha chave privada.
+   O conceito de assinatura digital e implementado quando voce cripto-
+grafa usando, alem da minha chave publica, a sua chave privada. Para
+decifrar a mensagem eu terei, entao, que usar a minha chave privada e
+a sua publica. Desta forma, eu terei certeza de que a mensagem foi
+realmente enviada por voce.
+   O PGP utiliza o algoritmo de chave dupla mais famoso, o RSA.
+
+Para Maiores Esclarecimentos :
+
+* Ler o artigo do colega Ricardo Rangel, no caderno Informatica etc do
+  O GLOBO, de 13 de junho de 1994, e 03 de julho de 1995
+
+* Dar um download no manual do PGP 2.6 :
+
+           ftp wolverine.ibilce.unesp.br
+           /pub/pgp/pgp26-br.zip        (manual em portugues)
+           /pub/pgp/pgp26uix.zip        (original)
+
+------------------------------------------------------------------------
+
+Subject: Um pouco mais sobre FireWall.
+
+
+submeta hackers
+
+  FireWall ja' virou nome generico para designar arquiteturas (software
++ hardware) de seguranca na internet. O mecanismo fundamental e filtrar
+pacotes nao autorizados.
+  Um pacote pode nao ser autorizado por varios motivos: 1. por se ori-
+ginar de uma estacao nao autorizada; 2. por tentar acessar uma porta
+nao autorizada; 3. por trafegar num sentido nao autorizado (ex: da NET
+para a LAN da empresa); 4. ...
+  Existem diversas formas de implementar esta arquitetura: Atraves de
+bridges/routers; atraves de uma "estacao" (=workstation ou no da rede)
+que faca este filtro; ou atraves de qualquer outro mecanismo que voce
+possa imaginar que consiga analizar um "pacote" trafegando na rede e
+decidir se ele pode ou nao passar (=ser roteado para as estacoes pro-
+tegidas pelo firewall).
+  [].
+--
+Subject: Re: PGP
+
+submeta informatica-jb, hackers
+
+>PessoALL,
+>onde posso conseguir o manual do PGP ????
+>[]'s
+>Edson
+
+    Aqui no nosso site de ftp temos os binarios do PGP para DOS e
+tambem a documentacao toda em portugues.
+    ftp://wolverine.ibilce.unesp.br/pub/pgp
+
+    De uma olhada no index que voce vera que os documentos estao em
+diversos formatos (ASCII, WORD 6, WORD 2, etc...)
+    Voce vera que PGP e tao facil de se usar quanto PKZIP! :)
+
+
+Subject: Copias de Disquete de 1.8 Mb
+
+submeta hackers
+
+>       Alguem ja conseguiu fazer uma copia de seguranca dos
+> discos do Windows 95
+
+   Para copiar qualquer programa da MS, gravados em disquete de 1.8 Mb,
+utilize um software "bit copier", como o CopyQM 3.18 (ou superior) ou o
+VGA-Copy 4.5 (ou superior)
+
+   Dica publicada nas Ultimas, do caderno Informatica etc do O GLOBO, em
+14 de agosto de 1995.
+
+
+-------------------------------------------------------------------------
+From: Paul Ducklin <duck@sophos.com>
+ubject: Information on Winword virus (PC/Mac)
+
+As many of you will know, there's a Microsoft Word macro virus
+out there (variously known as "Winword.Concept", "WW6Macro" and
+"Prank Macro") that has apparently made it into the wild. The
+idea of macro-language viruses is not new -- indeed, AFAIR, Prof
+H. J. Highland, editor of Computers & Security, demonstrated the
+possiblity under Lotus 1-2-3 several years ago. What is new is
+that this Word macro virus seems to be in the wild, and that it
+seems to be driving people wild. Certainly, news wires are abuzz.
+If we believe what we're told, it's the End Of Computing As We
+Know It (again :-).
+
+The concept is obvious, and has been much discussed. Most
+products can read and write data files; some allow their data
+files to contain programmatic commands that would more typically
+be typed at the keyboard or issued with a mouse. The idea is that
+when you load a data file with a "command script" or "macro" in
+it, you can carry out a whole sequence of program functions
+automatically -- rather than having to type them in over and over
+again.
+
+Many programs with macro support allow their macros to access a
+substantial range of functions, such as opening, manipulating and
+closing files -- or even issuing direct operating system
+commands. Some macro systems go even further -- they allow macros
+to be mixed with regular data files, and they define special
+types of macro (typically identified by a predefined name, or
+position) which will automatically be fired up when a file is
+loaded or the system is started. DOS has such a system -- no
+prizes for guessing where the name AUTOEXEC.BAT comes from.
+
+No prizes, either, for working out that data-file +
+macro-language + autoexec-of-special-macros is a formula which
+works out to a security nightmare. Viruses, Trojan Horses,
+modification-of-service attacks -- all are remarkably possible in
+such an environment.
+
+MS Word 6.0 has a particularly rich macro language (WordBasic),
+and a number of "macro hooks" whereby an unsuspecting user can be
+lured into executing a hitherto unseen and unknown macro simply
+by loading a document. This is how Winword.Concept works -- we
+leave the actual details as an exercise to the reader, for
+safety's sake.
+
+Winword.Concept is obvious, and easy to handle. Most anti-virus
+software users should be able to contact their vendor for help on
+how to detect and clean it up (Sophos SWEEP clients certainly
+can: mail to technical@sophos.com if you're worried). There is a
+bigger issue, though, which you would do well to address *now*.
+Ask yourself if you are aware of any "automatic macro" facilities
+in the software your organisation uses. And ask yourself if you
+know how to control the operation and scope of these facilities.
+
+For example, if you're a WinWord user, did you know that:
+
+  * a document can contain an AutoOpen macro, which may be
+    executed transparently and automatically when that document
+    is opened?
+
+  * a macro, once running, can make changes to a set of global
+    macros that may end up being transparently included in many
+    or all documents created in the future?
+
+  * there are numerous "automatic" triggers in addition to
+    AutoOpen that malicious macro code might exploit?
+
+You can see the risk here. You may know, or be told, though, that:
+
+  * holding down <Shift> whilst opening a document will inhibit
+    the invocation of its AutoOpen macro.
+
+  * Tools/Options/Save includes an option ("Prompt to save
+    NORMAL.DOT") which will make transparent changes to your global
+    macros much less likely.
+
+  * that you can instruct WinWord, when you load it, to switch off
+    "automatic" macros altogether, by loading it with the command
+    "WINWORD.EXE /mDisableAutoMacros", or by holding down the <Shift>
+    key as you fire it up.
+
+You may also, like me, try out these fixes and discover that the
+first and last don't actually seem to work as suggested! There is
+a good trick for WinWord, however: create yourself a global
+AutoExec macro (this is run when Word starts up) that looks like
+this:
+
+   Sub MAIN
+      DisableAutoMacros
+      MsgBox "Auto Macros are turned off", "Safety First!", 64
+   End Sub
+
+WinWord.Concept -- and other malware based on AutoOpen -- will
+not work if you do this.
+
+Control is in your hands. Don't panic. Take the opportunity to
+learn more about features of the software you use, to test and
+verify any security features you plan to utilise, and then to
+configure accordingly. Don't treat this new Word virus as a
+nightmare; use it as an opportunity to take stock, and to learn.
+
+
+Paul
+
+
+
+                               BIBLIOGRAFIA
+                               ============
+
+Desta vez nao vai dar para fazer uma, de forma decente, mas ai' vai:
+
+Para conseguir a lista net-clippings:
+
+  Send a message to 'fileserv@if.usp.br' with the string 'send news.guide'
+  in the body for information about 'Cia-INFO (c) Companhia das Informacoes'.
+Observacao: se voce mandar para la' no corpo da carta escrito: 
+help
+volta   uma   carta  com  instrucoes  sobre  como   obter   mais   arquivos 
+interessantes,  como big_dummy guide, e o "Zen e a arte da Internet",  dois 
+arquivos "must-read" da Internet. Foi no Zen que li primeiro sobre bbses na 
+Internet.
+
+Metodos de obtencao da lista de ftp-sites:
+
+*  Mande  uma mensagem sem nada no subject e com os comandos  no  corpo  da 
+carta (email):
+
+     send usenet/news.answers/ftp-list/faq
+     send usenet/news.answers/ftp-list/sitelist/part1
+     send usenet/news.answers/ftp-list/sitelist/part2
+       "     "      "          "         "      part3
+              :                :               :
+                     {Repetindo ate' chegar no final}
+              :                :               :  
+     send usenet/news.answers/ftp-list/sitelist/part20
+     send usenet/news.answers/ftp-list/sitelist/part21
+
+  para o endereco: mail-server@rtfm.mit.edu 
+  ou para: mail-server@cs.ruu.nl 
+  com as mesmas linhas, alterando usenet/news.answers para NEWS.ANSWERS
+{exemplo: send NEWS.ANSWERS/ftp-list/sitelist/part??}
+
+* Anonymous FTP para rtfm.mit.edu e pegando todos os arquivos no subdir
+  /pub/usenet/new.answers/ftp-list/sitelist 
+  e /pub/usenet/news.answers/ftp-list/faq 
+
+* Anonymous FTP para garbo.uwasa.fi e pegando o arquivo
+  /pc/doc-net/ftp-list.zip
+  (PKZip 2.x archive: PKUnzip 2.x or Unzip 5.x or higher needed)
+
+* Anonymous FTP para ftp.coast.net e pegando o arquivo
+  /SimTel/msdos/info/ftp-list.zip
+  (PKZip 2.x archive: PKUnzip 2.x or Unzip 5.x or higher needed)
+
+* Anonymous FTP para ftp.edu.tw e escolhendo o formato ou extensao no sub-
+  diretorio /documents/networking/guides/ftp-list. 
+
+
+Ah, sim. A lista e' mantida por Perry Rovers (Perry.Rovers@kub.nl), e
+antes dele, Tom Czarnik e Jon Granrose (valeu!).
+---------------------------------------------------------------------------
+
+O artigo sobre fazer um e-zine veio da minha experiencia com o BE, so' hoje 
+que  lembrei  de  procurar  e descobri que existe  um   livros  da  colecao 
+"Primeiros  Passos"  sobre "O que e' Fanzine". Escrevi aquilo com  base  na 
+leitura de outros e-zines disponiveis na EFF e alhures.
+
+O  artigo  sobre  a  DDS esta' disponivel no  www.dds.nl,  em  ingles.  Nao 
+acredito  que  vou  ser processado la' da Holanda  por  conta  disso.  Pode 
+acontecer, mas editei muito para me prevenir. Quase re-escrevi na traducao.
+
+A entrevista com o Goldstein, eu ate' poderia ter feito, via rede,  conheco 
+a  figura  de  outros carnavais, mas resolvi usar  um  trabalho  que  esta' 
+disponivel num numero da extinta revista argentina Virus Report. O Fernando 
+me  deu permissao. Ta' editado um pouco, por falta de tempo p.  traduzir  e 
+digitar.  A entrevista da Marina Umaschi esta' otima e nao vejo porque  re-
+inventar a roda.
+
+
+****************************************************************************
+EDUPAGE EM PORTUGUES. Para assinar Edupage em portugues, envie mail para
+listproc@nc-rj.rnp.br, contendo o texto: SUB EDUPAGE-P Seu Primeiro Nome
+Seu Sobrenome. Para cancelar a assinatura, envie mensagem para
+listproc@nc-rj.rnp.br, com o texto: UNSUB EDUPAGE-P.
+****************************************************************************
+
++-------------------------------------------------------------------------+
+| I log in, therefore I am. Reality is for people without Internet access.|
+| Eu acesso, logo existo. Realidade e' para aqueles sem conta na Internet.|
+| Internet: rodrigde@spider.usp.br                                        |
+|           wu100@fim.uni-erlangen.de                                     |
++-------------------------------------------------------------------------+
+
++----------------------------------------------------------------------+
+|                             \                                        |
+|                               \                                      |
+|   \ /      @  \  |  /           \      /^\                           |
+|   @^@       <CLIPPER5.0>          \  /     \       @  \ | /          |
+|  \|W|/     @  /  |  \          ====^===             <DOS4.0>         |
+|  -|P|-                         /        \          @  / | \          |
+|  /|6|\                    ,adPPYb,     ,adPPYb,                      |
+|    V                     a8" WIN`Y88 a8" OS2`"88                     |
+|                       +  8b  95  488 8b  WARP"88 +           \ /     |
+|     \  \  /  /      /|   "8a,   ,d88 "8b,   ,aa   |\         @^@     |
+|       \ \/ /      //     /`"8bbdP"    `"Ybbd8"'\   \ \       |S|     |
+|    @@ ++++++      ||    |                       |   ||      /|I|\    |
+|    @(DBASE4.0)     *===========            =========**      /|M|\    |
+|    @@++++++             |  (BARATA ELETRICA)    |           /|D|\    |
+|     /  / \ \       *===========            =========**      /|O|\    |
+|    /  /   | |    //     |                       |     \\    /|S|\    |
+|                //  *===========            =========**  \\    V      |
+|                ||  ||   |---------------------- |   ||  ||           |
+|                ||  ||   \----------------------/    ||  ||           |
+|                ||  ||     \-------------------/     ||  ||           |
+|                ||  ||       \===============/       ||  ||           |
++----------------------------------------------------------------------+
+|                  _________             ______________________        |
+|   ( 0 ) KEY      |  / /  |         A:  |                    |        |
+|   (O) RESET      | ()()  |             ----------------------        |
+|   (O) POWER      +++++++++                                           |
+|                   TURBO                      (O) On/Off              |
+|                                                                      |
+|   CACAE'HARDWARE                                                     |
++----------------------------------------------------------------------+
+
+BARATA ELETRICA: MAIS UM BUG NA SUA TELA (OU MONITOR DE MICRO).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

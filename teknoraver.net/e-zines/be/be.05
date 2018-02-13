@@ -1,0 +1,2426 @@
+ ____                  _          ______ _      _        _  
+|  _ \                | |        |  ____| |    | |      (_) 
+| |_) | __ _ _ __ __ _| |_ __ _  | |__  | | ___| |_ _ __ _  ___ __ _  
+|  _ < / _` | '__/ _` | __/ _` | |  __| | |/ _ \ __| '__| |/ __/ _` | 
+| |_) | (_| | | | (_| | || (_| | | |____| |  __/ |_| |  | | (_| (_| | 
+|____/ \__,_|_|  \__,_|\__\__,_| |______|_|\___|\__|_|  |_|\___\__,_| 
+                                                            
+          
+                                                            
+          
+                        BARATA ELETRICA, numero 5
+                        Sao Paulo, 25 de agosto, 1995 
+                        
+--------------------------------------------------------------------------- 
+     
+                        Creditos:
+                        --------
+
+Este jornal foi escrito por Derneval R. R. da Cunha 
+Com as devidas excecoes, toda a redacao e' minha. Esta' liberada a copia
+(obvio) em formato eletronico, mas se trechos forem usados em outras 
+publicacoes, por favor incluam de onde tiraram e quem escreveu. Aqueles
+interessados em receber futuras edicoes deste ou de outro jornal (nao sei
+se ira' continuar com esse titulo)
+
+Para  contatos (mas nao para receber o e-zine) escrevam  para  um 
+dos  enderecos, ou mandem correspondencia para o grupo hackers  e 
+informatica-jb da esquina-das-listas@dcc.unicamp.br ou:
+wu100@fim.uni-erlangen.de, derneval.cunha@launchpad.unc.edu  (BBS 
+internet accessivel via telnet://launchpad.unc.edu  login launch)
+
+Numeros anteriores:
+
+    ftp://ftp.eff.org/pub/Publications/CuD/Barata_Eletrica
+    gopher://gopher.eff.org/11/Publications/CuD/Barata_Eletrica
+    http://www.eff.org/pub/Publications/CuD/Barata_Eletrica
+
+Existe um descompactador no ftp.unicamp.br, oak.oakland.edu ou em 
+qualquer mirror da Simtel, no subdiretorio:
+
+/SimTel/msdos/compress/gzip124.zip to expand it before you can use it.
+Uma vez descompactado o arquivo GZIP.EXE, a sintaxe seria:
+                           "A>gzip -d arquivo.gz
+
+No  caso,  voce  teria que trazer os  arquivos  be.??.gz  para  o 
+ambiente DOS com o nome alterado para algo parecido com  be??.gz, 
+para isso funcionar.
+
+
+                                NO BRASIL: 
+              http://www.inf.ufsc.br/ufsc/cultura/barata.html
+ 
+links a partir de http://.../ufsc/what-is-new.html e /ufsc/cultura/diversao.
+==========================================================================
+
+                                INTRODUCAO:
+                                ===========
+
+E'  gente, dessa vez eu tenho coisa para contar. Fiz uma  viagem para o 
+congresso Access All Areas, ocorrido nos dias 1 e 2 de ju#lho, na Inglaterra. 
+To endividado quase que ate' na alma. Mas valeu a pena. Ganhei algumas 
+dicas que irao servir para quando comvecar a organizar um desses aqui. 
+Primeiro, faltam reunioes mensais e segundo, conscientizar a imprensa para o 
+fato de que isso nao e' crime, nem um conspiracao para atos criminosos. Nos 
+primeiros tempos (epoca do filme WARGAMES) nao haviam possibilidades 
+como as que existem hoje. Voce compra um CDROM de jogos por um preco 
+minimo e ate sistema UNIX completo por correio eletronico (finger ou mande 
+carta para info@cdrom.com). O mais importante na Internet e' a capacidade de 
+se comunicar,capacidade de se comunicar com o mundo exterior. Mesmo que 
+todos tenham CDROMs com mirrors de todas as coisas armazenadas na 
+Internet, e' pouco provavel que haja tempo para examinar e entender tudo. E' 
+ai' que entra o conceito de comunidade eletronica. E' preciso haver 
+comunicacao. E o que acontece quando a comunicacao esta sendo vigiada? 
+Esse foi um dos topicos do congresso. Na verdade as pessoas so' se dao 
+conta de que sua conversa foi escutada por uma terceira pessoa, quando a lei 
+de murphy faz a sua aparicao (o assunto realmente deveria ser secreto, mas 
+acaba caindo na boca do povo). Para os hackers, nao interessa o assunto. 
+So' as pessoas que estao trocando dados deveria ter acesso a eles. E 
+por conta disso, recomendo a leitura do meu artigo sobre NSA. Assusta. 
+
+
+
+                                 CONTEUDO:
+                                 =========
+
+               ENCONTRO DE HACKERS - ACCESS ALL AREAS (*)
+               THE HILL - DOCUMENTARIO (*)
+               THE BLUE BOX AND MA BELL - parte um
+               O SYSOP parte um
+               KNOW YOUR SYSADMIN
+               SENHAS(*)
+               HACKING IN BRAZIL (*)
+               NOTICIAS-DICAS-CARTAS
+               CANCOES FAMOSAS DE PROGRAMACAO
+               BIBLIOGRAFIA
+
+
+Aviso:  Os  artigos marcados com asterisco sao de minha  autoria  (Derneval 
+Ribeiro Rodrigues da Cunha). As cartas aqui publicadas nao contem o nome do 
+autor, porem, em caso de pedido por mail, eu reconheco a origem no  proximo 
+numero.  Ate' hoje, nenhuma alma se  ofereceu ou pediu isso. 
+
+========================================================================
+
+                  ENCONTRO DE HACKERS - ACCESS ALL AREAS
+                  ======================================
+
+CYBERIA - Londres, 2 de julho de 1995
+
+Este e-mail esta' sendo sendo escrito de um cybercafe', um conceito novo de 
+boteco  que  surgiu  aqui em Londres. Voce tem uma  lista  de  lugares  com 
+computadores  ligados a rede Internet que tambem servem cafe'. E' algo  que 
+poderia  ser  adotado nas salas de computacao de Universidades,  onde  voce 
+fica  horas  e  horas e ninguem tem a bondade de ir buscar  algo  pra  voce 
+comer. Aqui em Londres, no CYBERIA CAFE' (Whitfield Street 39, London  W1), 
+voce  entra,  reserva  meia  hora de permanencia  num  excelente  486,  com 
+Soundblaster,  um  programa  Easynet  e  ..  voila'!  Pode  usar  todas  as 
+ferramentas da Internet em ambiente Windows. Pode enviar correio eletronico 
+para  alguem, mesmo sem ter caixa postal. Se a sua vontade e'  experimentar 
+aquele  ultimo endereco da musica underground que viu no jornal,  perfeito: 
+existe  um  programa Netscape Mosaic instalado, e se voce  quiser  fazer  a 
+retirada  de  arquivos de som, "be my guest", como dizem os  ingleses.  Tem 
+drives  externos,  de onde voce pode colocar ou tirar  arquivos  na/para  a 
+rede,  via  FTP, Gopher ou Mosaic. O incrivel e' que nao e'  exatamente  um 
+servico  novo. Ao meu lado tem uma garota linda, de nome Ana, que  responde 
+a minha pergunta: "Quanto tempo isso existe?" "Cerca de um ano",   pergunto 
+se ela faz alguma materia de computacao, ela me fala que so' vem aqui  para 
+se divertir. Eu comento que alguns me acham um "doido" por computadores,  o 
+namorado  dela me fala que isso vai mudar. Ninguem aparenta ser um  viciado 
+em  micros, aqui. Todos olham suas telas, uns estao com amigos  que  ajudam 
+amigos a conhecer os misterios da rede.
+     Claro que tudo isso tem um preco: 2.50 libras a  meia-hora.  Quando se 
+pensa que a menor passagem de onibus ou metro  por  aqui  esta' em torno de 
+uma  libra,  entao  nao  parece  muito  caro.  O  britanico  que  vem  aqui 
+provavelmente ganha mais que o brasileiro padrao. Alguns nao ganham  tanto, 
+mas  trabalham aqui.  E' a maneira que encontraram para  continuar  mexendo 
+com  isso.  Mas claro que existem outras maneiras. Nao e'  dificil  para  o 
+ingles  conseguir  acesso  internet.  O  rapaz  que  me  guiou  ate'  aqui, 
+responsavel  pela seguranca (contra acesso indevido) disse que toma o  trem 
+do  suburbio e um onibus para chegar no local.  Conhece toda uma  serie  de 
+truques sobre Hackers e outras coisas, mas obvio, usa isso para protecao do 
+seu ambiente de trabalho, nao para zonear a vida das pessoas.
+     Parece  uma  lanchonete,  com um monte de micros ligados  em  rede.  E 
+funciona  sob o sistema de franquia. Talvez um dia chegue ao  Brasil.  Quem 
+sabe..
+
+A CONFERENCIA: King's College
+
+A viagem saiu em cima da hora. Nem podia acreditar que estava  em  Londres. 
+Aquele ingles que soa nos ouvidos como o portugues de portugal soa para nos 
+brasileiros. De acostumado que estou com filme americano, entendo devagar a 
+diferenca. Mas e' legal a preocupacao, embutida como uma ROM na cabeca  dos 
+britanicos,  com a educacao. Quem nao esta' acostumado com isso,  estranha. 
+E' outra mentalidade.
+     Consegui  perder  o endereco do local no aeroporto, tenho  que  deixar 
+minha  bagagem  na estacao de metro Victoria, trocar  dinheiro  e  procurar 
+dentro  do King's College, lugar facil de encontrar. Sem lugar para  ficar, 
+tenho  a  sorte de encontrar um grupo de holandeses, encabecado por  Rop  e 
+Hanneke,  da  extinta revista Hack-Tic. Eles me brindam com a  vaga  de  um 
+colega  que  nao veio. Os holandeses sao outro pessoal, mais  solto  e  bem 
+menos estatico que os ingleses. Muito legais de se conversar. As vezes isso 
+engana e pode-se pisar na bola sem saber. Mas me trataram como um cara  que 
+esta'  passando pela mesma estrada. O pessoal da Hack-Tic comecou  com  uma 
+revista,  depois  montaram  um servico de BBS chamado  DDS  (ainda  existe, 
+subsidiado,  imitado  e controlado pelo governo, a Digital Stadt,  DDS,  no 
+http://www.dds.nl) que era para durar so' dez semanas. De hackers, eles  se 
+tornaram  os  fundadores  do primeiro provedor de acesso  internet  para  o 
+grande publico, o XS4ALL.NL (pronuncia-se access for all).
+     No dia seguinte, tendo chegado cedo, presencio a fila gigantesca  para 
+o  congresso.  Fico  logo  ao  lado  de  uns  eslovenos  (parte  da  antiga 
+Iugoslavia).  Um pessoal legal, nao conversei sobre a guerra, mas  sobre  o 
+avanco  da  Internet  no  antigo bloco  comunista,  e  tive  uma  surpresa. 
+Igualzinho ao que esta' acontecendo no Brasil. A imprensa comecou a  falar, 
+todo mundo queria ter sua conta e-mail e muitos que conseguiam,  partilham, 
+por  falta de provedores suficientes. Como a Alemanha e' ali do lado,  eles 
+podem comprar a ultima palavra em informatica, mas tem uma conexao Internet 
+muito lenta. Resolvi bancar o reporter e conversar com outros caras, vindos 
+da  Alemanha,  Russia e ate' encontrei o Fernando  Bomsembiante,  da  agora 
+extinta  revista argentina VIRUS REPORT. Tinha ate' um alemao que passou  a 
+juventude  no  Brasil e agora trabalha na area de comunicacoes, o  Nils  R. 
+Passei para ele o endereco onde pegar o BE e o da lista hackers.
+     A lista de topicos do Congresso era interessante:
+History of Computer Crime, Virus Technology, After Crack & Satan, Defending 
+Alleged Computer Criminals, The Political Responsability of Hackers on  the 
+Future  of  Information  Hypeway, Creating Online Communities, etc
+     Muita coisa interessante, algumas nem tanto. Houve uma ameaca de bomba 
+durante  a  palestra de escuta eletronica de pagers, talvez um  reflexo  da 
+legislacao  britanica  contra o assunto. O pessoal tem medo  e  tambem  nao 
+criou este congresso para ensinar o mau caminho,  mas   conscientizar  quem 
+esta'  trilhando qualquer caminho que seja. Mais ou menos o que eu  procuro 
+fazer com o BE e que planejo para quando conseguir fazer (voltaram a  pedir 
+para planejar) o Congresso aqui no Brasil. Coitado daqueles que pensam  que 
+o computador e' um caminho para o crime perfeito.
+     O  mais  legal foi conversar com o Chris Goggans,  Editor  da  revista 
+Phrack.  Ele gostou do meu artigo na 2600 e perguntou "Po^, meu porque  nao 
+mandou  para  mim publicar?" Tive que explicar que o  Goldstein  ja'  havia 
+pedido  para  nao  fazer esse tipo de coisa e o  cara  chegou  primeiro.  A 
+palestra dele foi legal. Explicou que atualmente e' loucura fazer  besteira 
+do  tipo  "WARGAMES" nos EUA. Ele, que ja' fez acessos  ilegais  (nada  que 
+possa ser provado pela lei) advertiu que e' muito dificil o cara se  safar. 
+Esse tempo ja' foi embora e nao volta mais.
+     O  interessante  para mim foi a palestra "The  Eavesdroppers",  com  a 
+exibicao  do  documentario  "The  Hill". Leiam abaixo  um  artigo  sobre  o 
+assunto.  Outro  foi  o  documentario  da  Annaliza  Savage,  "Unauthorized 
+Access",  mostrando  o  lado da comunidade hacker mundial  que  a  imprensa 
+prefere  nao  mostrar:  um  grupo culturalmente rico,  com  seus  credos  e 
+praticas, com preocupacoes sociais e averso a muita coisa atribuida a eles, 
+mas  curioso  ate' a alma e altamente fissurado em computadores.  Alias,  o 
+Peter  Sommer na sua palestra sobre  "Historia do Crime por Computador" ja' 
+havia mostrado que e' altamente erronea a ideia de que um adolescente genio 
+de  computacao  possa  enriquecer atraves desse tipo  de  crime.  A  grande 
+maioria  dos  crimes de computadores sao trabalhos internos,  de  gente  de 
+confianca,  que  subitamente  resolve  fazer o  computador  agir  de  forma 
+diferente.  E  nesse tipo de crime, existe pouca diferenca com  crimes  ja' 
+conhecidos da legislacao: o computador apenas substituiu o livro  contabil, 
+por exemplo. 
+     Emmanuel  Goldstein,  da  revista  2600 -  Hacker  Quaterly,  fez  uma 
+palestra colocando varios aspectos positivos dos Hackers que a imprensa nem 
+sempre reconhece. La' nos EUA, foram  Hackers  que  denunciaram  os  precos 
+abusivos  que  a  telefonica  estava  cobrando.  Sao  eles  que  apontam  a 
+facilidade  e  falta  de seguranca dos telefones  celulares,  obrigando  as 
+empresas a pensar melhor esse aspecto do produto que vendem. Rop e  Felipe, 
+na  sua  palestra sobre comunidades virtuais, tambem colocou esse  lado,  e 
+acrescentou  que a Internet, nas maos das grandes corporacoes,  a  Internet 
+vira uma maquina de ganhar de dinheiro. E' preciso prestigiar e procurar os 
+pequenos provedores ao inves dos grandes, que vao se preocupar com lucro  e 
+nao com a satisfacao pessoal daqueles que acessam. 
+     Em suma, muito material para pensar rolou. Talvez ainda escreva  sobre 
+isso mais tarde, aos poucos. Interessante foi a do pessoal do CCC,vulgoCaos 
+Computer  Club, uma das mais velhas associacoes de hackers da Europa.  Eles 
+tem um grupo de gente nas reunioes e sempre tinha um cara em cada uma  para 
+fazer um resumo para o e-zine deles, cujo nome esqueci, mas que tem dez ans
+de idade. 
+     Fiz  uma palestrinha muito rapida sobre o Brasil, no  intervalo,  para 
+algumas pessoas que ali estavam, mas morto de vergonha. Tanto assunto bom e 
+eu  ali,  com vergonha de comentar isso. Complexo de  terceiro  mundo.  Mas 
+falei  sobre o lugar onde trabalho e coisas do genero. Uma menina  veio  me 
+encher  a paciencia sobre o fato de ter saido numa das minhas fotos  e  eu, 
+para acabar logo com o papo, abri minha camera e inutilizei a foto onde ela 
+saiu  e  outras  onde eu palestrava. Uma das  poucas  lembrancas  ruins  da 
+reuniao, onde muita materia interessante rolou.
+     Dias  depois, terminado o encontro, fui na Holanda e na  Alemanha,  de 
+carona  e  praticamente passando fome para nao ficar sem grana.  Conheci  o 
+novo  endereco da turma do Xs4all em Amsterdam e participei de uma  reuniao 
+de  hackers em Berlin, com o pessoal do CCC. Em pleno periodo de  ferias  e 
+tinha  uns 15 caras la', debatendo "MTV or not MTV" e outros  baratos.  Mas 
+isso fica para outro numero do BE. Inte'.
+
+
+
+                                 THE HILL
+                                 ========
+
+"O  mundo  nao  e'  mais controlado por  armas,  energia  ou  dinheiro.  E' 
+controlado por zeros e uns. Eletronica. Ha' uma guerra la' fora, uma guerra 
+mundial,  que  nao  sera' ganha com municao, mas atrave's  do  controle  da 
+informacao."   (Cosmo - ator Ben Kingsley - filme "Quebra de Sigilo" -  The 
+Sneakers)
+
+
+Essas  palavras,  uma das frases mais antologicas da rede  Internet,  foram 
+finalmente   retratadas  na  pratica,  naquilo  que  o   Pentagono   define 
+atualmente,  como Cyberwar, materia da revista TIMES recentemente.  O  nome 
+"The Hill" e' de um documentario, produzido pela Dispatches, uma especie de 
+GLOBO REPORTER britanico, e retrata algo incrivel:
+
+O  GRANDE  IRMAO ESTA' ENTRE NOS. (em ingles provavelmente da'  para  fazer 
+trocadilho).
+
+Imagine-se crescendo numa cidadezinha britanica (oba, nao tem que ter aulas 
+de  ingles).  No periodo da guerra fria. Perto do seu sitio,  uma  area  de 
+cento  e  tantos acres cercada por arame farpado, com  uns  predios  ultra-
+modernos,  contendo antenas de rastreamento de satelites. Voce  acha  otimo 
+que isso e' para a defesa do mundo ocidental, mas seu pai te explica que se 
+a terceira guerra mundial estourar, provavelmente os russos vao chamar este 
+lugarejo de "alvo prioritario". Com certeza caira' alguns megatons ali.
+     Ai' tudo mal, voce cresce sabendo dessa historia, mas sem poder  fazer 
+nada  a respeito.  Depois vem a Perestroika, o fim do regime  comunista,  o 
+fim do muro de Berlim, e aquela base gigantesca, com um monte de  americano 
+dentro  fica la', quietinha, as vezes com um predio novo em  construcao.  E 
+isso incomoda. 
+     Bom,  foi  o que aconteceu com um grupo de  mulheres,  algumas  apenas 
+donas-de-casa,  outras  de  profissoes  diversas,  como  bibliotecarias  ou 
+outras  profissionais  que  resolveram "checar" a  razao  de  ser  daqueles 
+predios e descobriram que ninguem queria falar a respeito. Elas se  uniram, 
+e  comecaram  a fazer um movimento contra a permanencia da base  na  regiao 
+(detalhe:  o momento na Europa e' exatamente esse, desmobilizacao de  bases 
+estrangeiras  mantidas  com  o  objetivo de  defender  contra  uma  invasao 
+comunista).  So'  que a base era mantida pelo pessoal do  NSA,  a  National 
+Security  Agency, que tem um codigo de silencio bastante secreto.  Para  se 
+ter  uma ideia, qualquer coisa relacionada com criptografia e'  considerada 
+pela  legislacao  americana  como  municao e  quem  exporta  informacao  ou 
+software relativo ao assunto, pode ser condenado a prisao sob a acusacao de 
+"trafico de armas".
+     O  NSA nao esta' ligado a CIA nem ao FBI, mas e' um caso aparte. E'  a 
+empresa americana que mais investe em hardware e software de varios  tipos, 
+nos  EUA. Tambem e' a que mais contrata matematicos de todo o  tipo,  assim 
+como  especialistas  em linguas e o escambau. Existem boatos  de  que  eles 
+seriam  tecnicamente capazes de "crackear" (quebrar a senha)  de  programas 
+como  o  PGP,  embora isso nao tenha sido provado  (ainda).  Afora  o  PGP, 
+qualquer codigo de comunicacao, americano ou estrangeiro, criptografado  ou 
+nao,  e'  do  interesse deles. Seus membros sao mantidos  por  uma  vigilia 
+rigorosa e devem manter silencio sobre qualquer aspecto de seus trabalho no 
+NSA.  No  maximo,  pode  informar  que  trabalhou  la'.  No  passado,   sem 
+especificar datas.
+     Bom, esse pessoal tem alguns milhares de americanos, virtualmente  uma 
+colonia deles, trabalhando nessa base, obedecendo a um acordo secreto entre 
+a  Inglaterra e os EUA (o que talvez explique a ajuda americana  na  guerra 
+das Malvinas). E.. o fato e' que essa base de escuta esta' sendo  expandida 
+nao  so'  naquela cidade, mas em toda em Inglaterra  outros  centros  estao 
+sendo construidos. Aquele grupo de mulheres nao podia deixar de investigar 
+e investigaram. A fundo. Desenvolveram um esquema para pular a cerca (dita 
+como  eletrificada)  e  ficaram amigas dos caes  que  patrulhavam  a  area. 
+Algumas  delas apenas donas de casa, mas entraram nos predios para saber  o 
+que  havia la' dentro. E conseguiram folhetos informativos, do  tipo  "como 
+tratar os "estrangeiros nativos". No filme, eles vao detalhando os achados: 
+documentos  comprovando o uso dos predios para espionagem nao de paises  do 
+leste, mas para a escuta eletronica de comunicacoes do continente  europeu. 
+Em  outras  palavras,  as antenas eram direcionadas para  os  satelites  de 
+comunicacoes, que lidam com chamadas interurbanas de todos os paises.
+     O documentario tambem traz depoimentos de gente que trabalhava no  NSA 
+e que saiu por nao aguentar algo que traia as leis e a constituicao  norte-
+americana  (americano  leva  a lei a serio). De acordo com  eles,  por  uma 
+questao  etica  (se  e' que tal existe), estas antenas  nao  estavam  sendo 
+usadas  para  espionar as comunicacoes ocorrendo dentro da  Inglaterra.  E' 
+teoricamente   contra a politica da organizacao usar instalacoes dentro  de 
+um  pais  para espionar dentro daquele pais. Espionar para  que?  Porque  o 
+governo americano gastaria bilhoes de dolares com a expansao de uma rede de 
+espionagem  no reino unido e em coisas como  softwares  multi-linguisticos, 
+computadores e gente, pessoal treinado?
+     Ai' vem a resposta: uma agencia de escuta americana, num pais africano 
+descobriu  quais  eram  os lances de um leilao secreto,  onde  uma  empresa 
+americana  concorria com empresas estrangeiras. O agente perguntou  para  a 
+matriz que fazer com aquela informacao, valiosa para a empresa americana  e 
+o  chefe do cara descobriu que eles nao tinham uma politica que dissesse  o 
+que  fazer com esse tipo de informacao. Depois de algum tempo, abriu-se  um 
+escritorio do departamento de comercio la' na matriz. Presume-se que dentro 
+da   politica  atual  da  Casa  Branca de  arrumar  nova  ocupacao  para  o 
+gigantesco  aparato  desenvolvido  para  vigiar  a  antiga  URSS  inclui  a 
+vigilancia  de  paises  comercialmente  concorrentes.   Tudo  isso  nao  e' 
+imaginacao do cara, mas fundamentado em depoimentos de ex-agentes, discurso 
+do presidente Bill Clinton e . 
+     Para finalizar o documentario, as mulheres mostram um equipamento  que 
+nao custou nem o preco de um bom aparelho de som, apontado na mesma direcao 
+em  que  as  antenas do NSA estao apontadas. Resultado:  a  escuta  de  uma 
+ligacao  internacional de alguem. O incrivel e' quando elas mostram  planos 
+para instalacoes semelhantes e ate' maiores, no valor de varios bilhoes  de 
+dolares,  em  varios lugares da Inglaterra. Em uma delas, a  piada:  "lugar 
+tal, escritorio de filtragem de mensagens, escritorio tal (ilumina uma area 
+da planta que esta' disposta na tela) selecao de mensagens, escritorio  tal 
+(ilumina  outra area enorme na planta) computadores". Ai iluminam uma  area 
+minuscula, um quadrado pequeno, parecia ser o lugar do banheiro e falam:  a 
+area  iluminada  e'  privativa  do  oficial  britanico  de  ligacao  (tropa 
+estrangeira sempre tem que ter um elemento nativo de ligacao).
+     Quem se interessar mais por isso, veja as noticias de jornais, como  a 
+que  coloquei na secao de NEWS. Provavelmente isso e' a ponta  do iceberg.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+                        "The Blue Box And Ma Bell"
+                        ==========================
+
+                        Herb Friedman, Communications Editor
+                           Radio Electroncs Magazine
+                                November 1987
+        
+                                  Parte 1        
+                                  Typed By :
+                               Cardiac Arrest
+                                   06/89
+        
+Before the breakup of AT&T, Ma Bell was everyone's favorite enemy.  So it was
+not surprising that so many people worked so hard and so successfully at
+perfecting various means of making free and untracable telephone calls.
+Whether it was a "Red Box" used by Joe and Jane College to call home, or a
+"Blue Box" used by organized crime to lay off untracable bets, the technology
+that provided the finest telephone system in the world contained the seeds of
+it's own destruction.
+        The fact of the matter is that the Blue Box was so effective at making
+untracable calls that there is no estimate as to how many calls were made or
+who made them.  No one knows for certain whether Ma Bell lost revenues of $100,
+$100-million, or $1-billion on the Blue Box.  Blue Boxes were so effective at
+making free, untracable calls that Ma Bell didn't want anyone to know about
+them, and for many years denied their existence.  They even went as far as
+strong-arming a major consumer science magazine into killing an article that
+had already been prepared on the Blue and Red boxes.  Further, the police
+records of a major city contain a report concerning a break-in at the residence
+of the author of that article.  The only item missing following the break-in
+was the folder containing copies of the earliest Blue-Box designs and a
+Bell-System booklet that described how subscriber billing was done by the AMA
+machine--a booklet that Ma Bell denied ever existed [article includes picture
+proving otherwise - Cardiac].  Since the AMA (Automatic Message Accounting)
+machine was the means whereby Ma Bell eventually tracked down both the Blue
+and Red Boxes, we'll take time out to explain it.  Besides, knowing how the AMA
+machine works will help you to better understand "phone phreaking."
+        
+        WHO MADE THE CALL
+        Back in the early days of the telephone, a customer's billing was
+originated in a mechanical counting device, which was usually called a
+"register" or a "meter."  Each subscriber's line was connected to a meter that
+was part of a wall of meters.  The meter clicked off the message units, and
+nce a month someone simply wrote down the meter's reading, which was later
+interpolated into message-unit billing for those subscriber's who were charged
+by the message unit.  (Flat rate subscriber's could make unlimited calls only
+within a designated geographic area.  The meter clicked off message units for
+calls outside that area.)  Because eventually there were too many meters to
+read individually, and because more subscribers started questioning their
+monthly bills, the local telephone companies turned to photography.  A
+photograph of a large number of meters served as an incontestable record of
+their reading at a given date and time, and was much easier to convert to
+customer billing by the accounting department.
+        As you might imagine, even with photographs billing was cumbersome and
+did not reflect the latest technical developments.  A meter didn't provide any
+indication of what the subscriber was doing with the telephone, nor did it
+indicate how the average subscriber made calls or the efficiency of the
+information service (how fast the operators could handle requests).  So the
+meters were replaced by the AMA machine.  One machine handled up to 20,000
+subscribers.  It produced a punched tape for a 24-hour period that showed,
+among other things, the time a phone was picked up (went off-hook), the number
+dialed, the time the called party answered, and the time the originating phone
+was hung up (placed on-hook).
+One other point, which will answer some questions that you're certain
+to think of as we discuss the Red and Blue boxes: Ma Bell did not want persons
+outside their system to know about the AMA machine.  The reason?  Almost
+everyone had complaints--usually unjustified--about their billing.  Had the
+public been aware of the AMA machine they would have asked for a monthly list
+of their telephone calls.  It wasn't that Ma Bell feared errors in billing;
+rather, they were fearful of being buried under an avalanche of paperwork and
+customer complaints.  Also, the public beleived their telephone calls were
+personal and untraceable, and Ma Bell didn't want to admit that they knew about
+the who, when, and where of every call.  And so Ma Bellalways insisted that
+billing was based on a meter unit that simply "clicked" for each message unit;
+thatthere was no record, other than for long-distance calls, as to who called
+whom.  Long distance was handled by, and the billing information was done by
+and operator, so there was a written record Ma Bell could not deny.
+        The secrecy surrounding the AMA machine was so pervasive that local,
+state, and even federal police were told that local calls made by criminals
+were untraceable, and that people who made obscene telephone calls could not be
+tracked down unless the person receiving the cals could keep the caller on the
+line for some 30 to 50 minutes so the connections could be physically traced by
+technicians.  Imagine asking a woman or child to put up with almost an hours
+worth of the most horrendous obscenities in the hope someone could trace the
+line.  Yet in areas where the AMA machine had replaced meters, it would have
+been a simple, though perhaps time-consuming task, to track down the numbers
+called by any telephone during a 24-hour period.  But Ma Bell wanted the AMA
+machince kept as secret as possible, and so many a criminal was not caught, and
+many a woman was harried by the obscene calls of a potential rapist, because
+existence of the AMA machine was denied.
+        As a sidelight as to the secrecy surrounding the AMA machine, someone
+at Ma Bell or the local operating company decided to put the squeeze on the
+author of the article on Blue Boxes, and reported to the treasury Department
+that he was, in fact, manufacturing them for organized crime--the going rate in
+the mid 1960's was supposedly $20,000 a box.  (Perhaps Ma Bell figured the
+author would get the obvious message: Forget about the Blue Box and the AMA
+machine or you'll spend lots of time, and much money on lawyer's fees to get
+out of the hassles it will cause.)  The author was suddenly visited ay his
+place of employment by a Treasury agent.  Fortunately, it took just a few
+minutes to convince the agent that the author was really just that, and
+the a technical wizard working for the mob.  But one conversation led to
+another, and the Treasury agent was astounded to learn about the AMA machine.
+(Wow!  Can an author whose story is squelched spill his guts.)  According to
+the treasury agent, his department had been told that it was impossible to get
+a record of local calls made by gangsters: The Treasury department had never
+been informed of the existence of automatic message accounting.  Needless to
+say, the agent left with his own copy of the Bell System publication about the
+AMA machine, and the author had an appointment with the local Treasury-Bureau
+director to fill him in on the AMA Machine.  That information eventually ended
+up with Senator Dodd, who was conducting a congressional investigation into,
+among other things, telephone company surveillance of subscriber lines--which
+was a common practice for which there was detailed instructions, Ma Bell's own
+switching equipment ("crossbar") manual.
+        
+        THE BLUE BOX
+        The Blue Box permitted free telephone calls because it used Ma Bell's
+own internal frequency-sensitive circuits.  When direct long-distance dialing
+was introduced, the crossbar equipment knew a long-distance call was being
+dialed by the three-digit area code.  The crossbar then converted the dial
+pulses the the CCITT tone groups, shown in Table 1 [I'll put the table in at
+the end of the file - Cardiac], that are used for international and truckline
+signalling.  (Not that those do not correspond to Touch-Tone frequencies.)  As
+ou can see in that table, the tone groups represent more than just numbers;
+among other things there are tone groups indentified as KP (prime) and ST
+(start)--keep them in mind.  When a subscriber dialed an area code and a
+telephone number on a rotary-dial telephone, the crossbar automatically
+conneceted the subscriber's telephone to a long-distance truck, converted the
+dial pulses to CCITT tones sent out on the long-distance trunk that set up or
+selected the routing and caused electro-mechanical equipment in the target city
+to dial the called telephone.
+        Operator-assisted long-distance calls worked the same way.  The
+operator simply logged into a long-distance trunk and pushed the appropriate
+buttons, which generated the same tones as direct-dial equipment.  The button
+sequence was KP (which activated the long-distance equipment), then the
+complete area code and telephone number.  At the target city, the connection
+was made to the called number but ringing did not occur until the operator
+there pressed the ST button.  The sequence of events of early Blue Boxes went
+like this: The caller dialed information in a distant city, which
+caused his AMA machine to record a free call to information.  When the
+information operator answered, he pressed the KP key on the Blue Box, which
+disconnected the operator and gave him access to a long-distance trunk.  He
+then dialed the desired number and ended with an ST, which caused the target
+phone to ring.  For as long as the conversation took place, the AMA machine
+indicated a free call to an information operator.  The technique required a
+long-distance information operator because the local operator, not being on a
+ong-distance trunk, was accessed through local wire switching, not the CCITT
+tones.
+
+CALL ANYWHERE
+        Now imagine the possibilities.  Assume the Blue Box user was in
+Philadelphia.  He would call Chicago information, disconnect from the operator
+Angeles, Dallas, or anywhere in the world in the Blue Boxer could get the
+internatioal codes.
+        The legend often told of one Blue Boxer who, in the 1960's, lived in
+New York and had a girlfriend at a college near Boston.  Now back in the
+1960's, making a telephone call to a college town on the weekend was even more
+difficult than it is today to make a call from New York to Florida on a
+reduced-rate holiday using one of the cut-rate long-distance carriers.  So our
+Blue Boxer got on an international operator's circuit to Rome, Blue Boxed
+through to a Hamburg operator, and asked Hamburg to patch through to Boston.
+The Hamburg operator thought the call originated in Rome and inquired as to the
+"operator's" good English, to which the Blue Boxer replied that he was an
+expatriate hired to handle calls by American tourists back to their homeland.
+Every weekend, while the Northeast was strangled by reduced-rate long-distance
+calls, our Blue Boxer had no trouble sending his voice almost 7,000 miles for
+free.
+CONTINUA NO PROXIMO NUMERO, CASO  NAO HAJA PROBLEMAS
+
+(Observacao: este  texto foi pirateado de um e-zine chamado  Hack 
+Unlimited)
+
+
+                             O SYSOP
+                             =======
+ 
+                              PARTE I
+         
+         
+         ------------------------------------------------------------
+         
+         Prezado SysOp:
+         
+         
+              Eu sou um novo uzuario. Eu tenho oitho anus e eu acabei
+         de comprar meu primeiro modem. Eu quero dar download em um
+         monte de arqivos sem ter que dar upload.
+         Por favor, me de acesso no seu BBS.
+         
+                             Joe Blow
+         
+         ------------------------------------------------------------
+         
+         Prezado Joe:
+         
+              Eu te dei acesso minimo na a'rea das crianc,as e a'reas de
+         mensagem. Nos sugerimos que voce aprenda primeiro a escrever
+         direito e aprenda qual e' o seu lugar nessa comunidade antes
+         de querer niveis de acesso mais altos.
+         
+                         SysOp
+         
+         ------------------------------------------------------------
+         
+         Prezado SysOp:
+         
+              Eu gostaria de saber como D/L [Note que o usuario
+         descobriu as abreviacoes usadas nos BBS]. Eu tentei uzar
+         XMODEM mas nao consegi, e entao eu tentei ZMODEM e tudo deu
+         errado. Por favor me ajude para que eu poc,a dar download nos
+         seuz otimos arquivos.
+         
+                                 Joe Blow.
+         
+         ------------------------------------------------------------
+         
+         Prezado Joe:
+         
+             Voce e' um idiota, mas nos gostamos de voce. Nos
+         achamos que voce tem potencial. EU vou lhe falar o que eu
+         vou fazer. Eu vou ensinar voce como utilizar a a'rea de
+         arquivos, mas voce vai aprender a fazer isso dando UPLOAD.
+         Da proxima vez que voce se logar, me chame no CHAT e eu
+         vou te mostrar como dar upload.
+         
+                 O SysOp
+         
+         ------------------------------------------------------------
+         
+         Prezado SysOp:
+         
+              Okay.
+         
+                                 Joe Blow
+         
+         ------------------------------------------------------------
+         
+                [ Transcricao do primeiro CHAT entre os dois]
+         
+         Selecione [M, F, E, C, P, G]: P
+         
+         Paging your SysOp! . . . . . . .
+         
+         The SysOp is here!
+         
+         Oi, Joe!
+         
+         NO CARRIER
+         [ Joe deu HANG-UP, com medo de falar com o SysOp]
+         
+         ------------------------------------------------------------
+         
+                        [ Transcricao do segundo CHAT]
+         
+         Select [M, F, E, C, P, G]: P
+         
+         Paging your SysOp! . . . . . . .
+         
+         The SysOp is here!
+         
+         Oi, Joe!
+         
+         [ Longa pausa ]
+         
+         Ooi.
+         
+         Voce quer que eu te ensine como dar upload agora ?
+         
+         [ Outra pausa ]
+         
+         Sim...
+         
+         Okay, eu vou mostrar pra voce...
+         
+         Saindo do chat...
+         
+         Select [M, F, E, C, P, G]: F
+         
+         Select [U, D, C, L, F, S]: C
+         
+         Change to which area? 1
+         
+         Mundando para a area de UPLOAD (1).
+         
+         Select [U, D, C, L, F, S]: U
+         
+         Select a protocol
+         
+         <X> XModem
+         <Y> YModem
+         <Z> ZModem
+         
+         The SysOp is here!
+         
+         Okay, Joe. Avise seu programa que voce quer dar upload
+         pressionando PgUp quando voce quiser comecar a transmissao.
+         
+         Saindo do CHAT...
+         
+         Selecione [X, Y, Z]: X
+         
+         Entre com o nome do arquivo para UPLOAD: APROGRAM.ZIP
+         
+         Inicie seu UPLOAD...
+         
+         1 arquivo(s) transferido com sucesso!
+         
+         
+         The SysOp is here!
+         
+         Viu, nao foi tao dificil, foi ?
+         
+         Nnao.
+         
+         Bom, pra dar download, voce faz a mesma coisa ao contrario.
+         
+         Okay!  Grande!
+         
+         No entanto, do que voce deu upload ?
+         
+         Eu nao sei... Eu pegei o arquivo de algums amigos meus, e
+         um negocio chamado VIRUS.
+         
+         NO CARRIER
+         
+         ------------------------------------------------------------
+         
+         Prezado Joe:
+         
+              Eu olhei o programa que voce de upload. Se voce enviar
+         um virus de novo, eu vou matar voce bem devagar e o seu
+         cachorrinho tambe'm. Voce tem muito que aprender, filho.
+         
+                 [O mais ou menos bebado,] SysOp
+         
+         ------------------------------------------------------------
+         
+         
+                          PARTE II (um ano depois)
+         
+         
+         ------------------------------------------------------------
+         
+         Presado SysOp:
+         
+             Eu dei upload daqueles arquivo que voce me pediu. Minha
+         quantidade de UPLOAD esta maior que a de DOWNLOAD. Voce
+         poderia deixar eu acec,ar algumas outras areas de arquivos ?
+         
+                 Joe
+         
+         ------------------------------------------------------------
+         
+         Prezado Joe:
+         
+             Okay, eu acho que voce merece isso. Eu vou
+         liberar seu acesso a algumas outras a'reas de arquivo.
+         
+             No entanto, nunca mais de upload de nada com as
+         palavras "cracked by", ou eu poderei ficar com problemas.
+         
+         
+                         O SysOp
+         
+         ------------------------------------------------------------
+         
+         Prezado SysOp:
+         
+             Okay. Eu apenas pensei que voce ia gostar daquele jogo.
+         
+              Joe
+         
+         ------------------------------------------------------------
+         
+         Prezado Joe:
+         
+             Voce nao foi a escola pra ligar pra ca', nao e' ?
+         Voce nao poderia mudar um pouco e ligar pra outros
+         lugares ?
+         
+                 O SysOp
+         
+         ------------------------------------------------------------
+         
+         Presado SysOp:
+         
+             Voce quer dizer que tem outros BBS no mundo  ??
+         Porque voce nao me avisou disso antes ?
+         
+                 Joe Blow
+         
+         ------------------------------------------------------------
+         
+         Prezado Joe:
+         
+             Voce nunca me perturbou sobre isso antes. Tente a
+         "Weirdo's Hideaway", 555-6543.
+         
+                 O SysOp
+         
+         ------------------------------------------------------------
+         
+         [ O usua'rio nao ligou mais por 7 semanas depois que ele]
+         [ descobriu outros BBS Eventualmente, ele decidiu ligar]
+         [ de novo e dar upload de todos os arquivos que ele    ]
+         [ pegou na sua "festanc,a" de ligac,oees ]
+         
+         ------------------------------------------------------------
+         
+         Presado SysOp:
+         
+             Eu aprendi como usar BB  na ultima semana. E' muito
+         legal e voce nao tem que pagar pra pegar os arquivos. Entre
+         os arquivos que eu estou enviando pra voce esta' um programa
+         chamado Code Thief. De uma olhada nele !
+         
+                 Joe
+         
+         ------------------------------------------------------------
+         
+         Prezado Joe:
+         
+         
+              Usar BB nao e' um bom negocio. Voce sabia que eles
+         podem localizar da onde as chamadas vem ?. Eu sugiro que
+         voce pare de usar isso antes que voce se meta em problemas
+         e seus pais tambe'm.
+         
+                 Seu SysOp
+         
+         ------------------------------------------------------------
+         
+         Presado SysOp:
+         
+              O que tem de errado em usar BB ? Nao e' porque e'
+         ilegal, e' ?
+         
+                 Joe.
+         
+         ------------------------------------------------------------
+         
+         Prezado Joe:
+         
+              Voce e' uma carnic,a...
+         
+                         Seu SysOp
+         
+         ------------------------------------------------------------
+         
+         Presado SysOp:
+         
+             Um de meus amigos que eu encontrei nas BBSs da
+         California disse que uma coisa aconteceu com ele, acho
+         que ele disse que tinha "se ferrado". O que isso quer
+         dizer ?
+         
+                 Joe
+         
+         ------------------------------------------------------------
+         
+         Prezado Joe:
+         
+             Isso quer dizer que ele foi preso. Provavelmente
+         por usar BB... Ele com certeza vai falar pra policia que
+         voce tambe'm usa BB pra aliviar a sentenc,a dele. Voce esta'
+         ferrado, crianc,a. Eu vou provavelmente apagar voce do meu
+         BBS no caso dos tiras comec,arem a xeretar por aqui.
+         
+                 O SysOp.
+         
+         ------------------------------------------------------------
+         [Quando Joe se logou de novo ele viu a seguinte mensagem]
+         
+             Seu acesso foi baixado para SUB ZERO ABSOLUTO. Voce
+         e' um NADA. Voce nao pode fazer nada. Nem tente ligar aqui
+         de novo ou nos obrigaremos voce a assistir todos os
+         programas do BOZO desde 1979.
+         
+         NO CARRIER
+         
+         Apenas brincando.
+         
+         NO CARRIER <click!>
+         
+         ------------------------------------------------------------
+         
+         
+                                PARTE III
+         
+         
+         ------------------------------------------------------------
+         
+         [Depois de mais ou menos 1 mes, Joe ligou para o BBS    ]
+         [supostamente com outro nome. Digo supostamente porque o]
+         [SysOp nao pode fazer nada a nao ser supor que ele seja ]
+         [o maldito menino cadastrado com outro nome]
+         
+         ------------------------------------------------------------
+         
+         PreSado SysOp:
+         
+             Eu sou um novo uzua'rio e gostaria de ter bastante
+         niveu de acec,o para que eu possa dar upload e download.
+         Eu nao uso mensagens porque eu acho que elas sao muito
+         chatas.
+         
+                 Joe Blow
+         
+         [O menino percebeu seu engano em colocar seu verdadeiro  ]
+         [nome e tentou, em vao, usar o editor de mensagens para  ]
+         [apagar seu nome e colocar seu nome falso]
+         
+                                    ***
+         
+         ------------------------------------------------------------
+         
+         Prezado Joe:
+         
+             Voce nao aprendeu nada nos ultimos 2 anos, nao ?? Voce
+         e' um imbecil. Se voce tiver um cachorro, eu espero que ele
+         morra.
+         
+                 Fuck you.
+         
+         ------------------------------------------------------------
+         
+         Presado SysOp:
+         
+             O que voce quer dizer ? Eu sou um novo uzua'rio. Eu
+         nunca acecei um BBS antes.
+         
+              Ass : [Nome falso].
+         
+         ------------------------------------------------------------
+         
+         Prezado Nome falso/Joe/Ou seja la' qual for seu nome:
+         
+             Voce e' um mentiroso. Va' pro inferno e nunca mais ligue
+         aqui ou eu vou estuprar sua irma !
+         
+         
+         ------------------------------------------------------------
+         
+         Presado SysOp:
+         
+             Minha irma tem so 5 anos de idade.
+         
+         [ SysOp entra no chat ]
+         
+         The SysOp is here!
+         
+         Melhor ainda ! Eu vou trazer minha calc,adeira !!!
+         
+         [ Ruido de linha, SysOp grita no telefone]
+         
+         NO CARRIER
+         
+         ------------------------------------------------------------
+         
+         
+         PARTE IV, o menino pa'ra de ligar para o BBS por algum
+         tempo. Nesse meio tempo, a policia foi ate' a sua casa para
+         lhe fazer umas perguntas. Ele se perdeu completamente e
+         contou tudo. A pequena anta deu o nome da BBS que ele
+         estava acessando a 2 anos como a sua preferida. Que
+         estupido. Ele deve ser um repolho ou coisa parecida !!!
+         
+         Depois de ter cedido as pressoees do FBI, ele ligou para o
+         SysOp para avisa'-lo e pedir desculpas.
+         
+         NO CARRIER.
+         
+         ------------------------------------------------------------
+         
+         [Depois de va'rias tentativas de se logar com seu verdadeiro]
+         [nome (que foi cortado pelo sistema), ele usou o nome John ]
+         [e deixou uma mensagem para o SysOp]
+         
+         Presado SysOp:
+         
+             Eu so quero avisar voce que algue'm avisou a policia
+         sobre o seu BBS e eles estao indo prai questionar voce
+         sobre atividades ilegais. Talvez seja melhor voce se
+         esconder por uns tempos.
+         
+                 Joe Blow,
+         
+           [Saco... como se edita uma linha aqui...fuck fuck fuck.]
+         
+         ------------------------------------------------------------
+         
+         Prezado Joe:
+         
+             Seu pequeno maldito !!!! Que diabos voce disse pra eles?
+         Eu nao tenho nada ilegal no meu BBS. Eu acho que vou atirar
+         em voce E estuprar sua irma e matar seu cachorro tambe'm !
+         Epa, tem algue'm batendo na porta. Melhor que nao seja a
+         policia.
+         
+              Misera'vel... maldito... desgrac,ado...
+         
+         ------------------------------------------------------------
+         
+         PARTE  V, e a parte em que o SysOp e o menino se encontram
+         na sala do julgamento e trocam alguns "elogios"...
+         
+         ------------------------------------------------------------
+         
+             A sala estava forrada de cartoees de cre'dito
+         falsificados e BB's que fizeram com que o SysOp passasse mal
+         e quase desmaiasse.
+         
+             Ele gostaria de ter uma espingarda pra atirar no
+         menino. Bom, mas pelo menos ele tinha a sua calc,adeira.
+         
+         ------------------------------------------------------------
+         
+         PROMOTOR  :  Senhor SysOp, Voce tem um usua'rio no seu BBS
+                      chamado Joe Blow, isso esta' correto ?
+         
+         SYSOP     :  Nao, eu tinha, mas eu coloquei essa pequena
+                      peste pra fora.
+         
+         DEFESA    :  Objec,ao Excelencia, ele e' um pequenho repolho,
+                      nao uma pequena peste.
+         
+         JUIZ      :  Mantido. Senhor SysOp, Eu vou pedir para o
+                      que o senhor nao minta em suas respotas.
+         
+         JOE       :  Eu nao sou nenhum repolho. E nem uma peste...
+         
+         JUIZ,PROMOTOR,
+         DEFESA,
+         SYSOP,
+         juntos    :  SIM VOCE E' !!!!!!!!!!
+         
+         
+                              [ Joe se levanta ]
+         
+         
+         JOE       :  Ele vende cartoees de cre'dito roubados
+         
+         JUIZ      :  Isso e' verdade, Senhor SysOp ?
+         
+         SYSOP     :  De jeito nenhum ! O menino e' um mentiroso
+         
+         PROMOTOR  :  Excelencia, nos gostariamos de um recesso
+                      para abrir um novo caso contra o SysOp.
+         
+         SYSOP     :  OQUE ? Voces estao acreditando nessa anta ?
+         
+         DEFESA    :  OBJECAO!!
+         
+         JUIZ      :  Mantida ! A corte ja' estabeleceu que a anta
+                      e' um repolho e nao uma anta.
+         
+         DEFESA    :  Excelencia, nos estamos cometendo um
+                      engano !
+         
+         JUIZ      :  Dane-se, Essa corte esta' em recesso.
+         
+         
+         [ O julgamento prosseguiu e o SysOp foi preso por         ]
+         [ falsificac,ao de cartoees de cre'dito porque a crianc,a nao =
+    ]
+         [ pode pensar em mais nada pra salvar sua pele.           ]
+         
+         
+         ------------------------------------------------------------
+         
+                                  EPILOGO
+         
+         ------------------------------------------------------------
+         
+             Dois anos depois, o SysOp saiu da cadeia, mas voltou
+         logo pra la' por estuprar uma gatorinha de 7 anos, atirar
+         num menino e matar um cachorrinho. Ele foi condenado a
+         morrer na cadeira ele'trica, mas morreu com um grande
+         sorriso na cara.
+         
+             O menino foi pro inferno, onde todos os usua'rios
+         esponjas geralmente vao. Sua irma foi pro inferno tambe'm,
+         e vendeu calc,adeiras o resto da "vida".
+         
+         ------------------------------------------------------------
+         
+         
+                                 A MORAL
+         
+              SysOps:  ISSO PODE ACONTECER COM VOCE !
+                       Nao deixem que crianc,as de 9 anos de idade
+                       usem seus BBS...
+         
+                       Essa mensagem foi trazida ate' voce como um
+                       servic,o publico por algue'm que SABE...
+         
+         
+             Autor : Desconhecido
+                     Trazido da InterNet
+         
+OBSERVACAO: Esta historia foi postada na lista hackers por um cara
+muito bom em linux. Meus agradecimentos pela traducao.         
+    
+    
+   
+    
+ 
+       KNOW YOUR UNIX SYSTEM ADMINISTRATOR-- A FIELD GUIDE
+       ===================================================
+ 
+ 
+ There are four major species of Unix sysad:
+ 
+ 1) The TECHNICAL THUG.  Usually a systems programmer who has been
+ forced into system administration; writes scripts in a polyglot of the
+ Bourne shell, sed, C, awk, perl, and APL.
+ 
+ 2) The ADMINISTRATIVE FASCIST.  Usually a retentive drone (or rarely,
+ a harridan ex-secretary) who has been forced into system
+ administration.
+ 
+ 3) The MANIAC.  Usually an aging cracker who discovered that neither
+ the Mossad nor Cuba are willing to pay a living wage for computer
+ espionage.  Fell into system administration; occasionally approaches
+ major competitors with indesp schemes.
+ 
+ 4) The IDIOT.  Usually a cretin, morpohodite, or old COBOL programmer
+ selected to be the system administrator by a committee of cretins,
+ morphodites, and old COBOL programmers.
+ 
+ 
+ 
+ HOW TO IDENTIFY YOUR SYSTEM ADMINISTRATOR: 
+ 
+ 
+ ---------------- SITUATION: Low disk space. ----------------
+ 
+       TECHNICAL THUG: Writes a suite of scripts to monitor disk
+ usage, maintain a database of historic disk usage, predict future disk
+ usage via least squares regression analysis, identify users who are
+ more than a standard deviation over the mean, and send mail to the
+ offending parties.  Places script in cron.  Disk usage does not
+ change, since disk-hogs, by nature, either ignore script-generated
+ mail, or file it away in triplicate.
+ 
+       ADMINISTRATIVE FASCIST: Puts disk usage policy in motd.  Uses
+ disk quotas.  Allows no exceptions, thus crippling development work.
+ Locks accounts that go over quota.  
+ 
+       MANIAC:
+ # cd /home
+ # rm -rf `du -s * | sort -rn | head -1 | awk '{print $2}'`; 
+ 
+       IDIOT:
+ # cd /home
+ # cat `du -s * | sort -rn | head -1 | awk '{ printf "%s/*\n", $2}'` | compress
+ 
+ 
+ ---------------- SITUATION: Excessive CPU usage. ----------------
+ 
+       TECHNICAL THUG: Writes a suite of scripts to monitor
+ processes, maintain a database of CPU usage, identify processes more
+ than a standard deviation over the norm, and renice offending
+ processes.  Places script in cron.  Ends up renicing the production
+ database into oblivion, bringing operations to a grinding halt, much
+ to the delight of the xtrek freaks.
+ 
+       ADMINISTRATIVE FASCIST: Puts CPU usage policy in motd.  Uses
+ CPU quotas.  Locks accounts that go over quota.  Allows no exceptions,
+ thus crippling development work, much to the delight of the xtrek
+ freaks.
+  
+       MANIAC:
+ # kill -9 `ps -augxww | sort -rn +8 -9  | head -1 | awk '{print $2}'`
+ 
+       IDIOT:
+ # compress -f `ps -augxww | sort -rn +8 -9  | head -1 | awk '{print $2}'`
+ 
+ 
+ ---------------- SITUATION: New account creation. ----------------
+ 
+       TECHNICAL THUG: Writes perl script that creates home
+ directory, copies in incomprehensible default environment, and places
+ entries in /etc/passwd, /etc/shadow, and /etc/group.  (By hand, NOT
+ with passmgmt.) Slaps on setuid bit; tells a nearby secretary to
+ handle new accounts.  Usually, said secretary is still dithering over
+ the difference between 'enter' and 'return'; and so, no new accounts
+ are ever created.
+ 
+       ADMINISTRATIVE FASCIST: Puts new account policy in motd.
+ Since people without accounts cannot read the motd, nobody ever
+ fulfills the bureaucratic requirements; and so, no new accounts are
+ ever created.
+ 
+       MANIAC: "If you're too stupid to break in and create your own
+ account, I don't want you on the system.  We've got too many goddamn
+ sh*t-for-brains a**holes on this box anyway."
+ 
+       IDIOT: 
+ # cd /home; mkdir "Bob's home directory"
+ # echo "Bob Simon:gandalf:0:0::/dev/tty:compress -f" > /etc/passwd
+ 
+ 
+ ---------------- SITUATION: Root disk fails. ----------------
+ 
+       TECHNICAL THUG: Repairs drive.  Usually is able to repair
+ filesystem from boot monitor.  Failing that, front-panel toggles
+ microkernel in and starts script on neighboring machine to load binary
+ boot code into broken machine, reformat and reinstall OS.  Lets it run
+ over the weekend while he goes mountain climbing.  
+ 
+       ADMINISTRATIVE FASCIST: Begins investigation to determine who
+ broke the drive.  Refuses to fix system until culprit is identified
+ and charged for the equipment.  
+ 
+       MANIAC, LARGE SYSTEM: Rips drive from system, uses
+ sledgehammer to smash same to flinders.  Calls manufacturer, threatens
+ pets.  Abuses field engineer while they put in a new drive and
+ reinstall the OS.
+       MANIAC, SMALL SYSTEM: Rips drive from system, uses ball-peen
+ hammer to smash same to flinders.  Calls Requisitions, threatens pets.
+ Abuses bystanders while putting in new drive and reinstalling OS.
+ 
+       IDIOT: Doesn't notice anything wrong.
+ 
+ 
+ ---------------- SITUATION: Poor network response. ----------------
+ 
+       TECHNICAL THUG: Writes scripts to monitor network, then
+ rewires entire machine room, improving response time by 2%.  Shrugs
+ shoulders, says, "I've done all I can do," and goes mountain climbing.
+ 
+       ADMINISTRATIVE FASCIST: Puts network usage policy in motd.
+ Calls up Berkeley and AT&T, badgers whoever answers for network
+ quotas.  Tries to get xtrek freaks fired.
+ 
+       MANIAC: Every two hours, pulls ethernet cable from wall and
+ waits for connections to time out.
+ 
+       IDIOT:
+ # compress -f /dev/en0
+ 
+ 
+ ---------------- SITUATION: User questions. ----------------
+ 
+       TECHNICAL THUG: Hacks the code of emacs' doctor-mode to answer
+ new users questions.  Doesn't bother to tell people how to start the
+ new "guru-mode", or for that matter, emacs.
+ 
+       ADMINISTRATIVE FASCIST: Puts user support policy in motd.
+ Maintains queue of questions.  Answers them when he gets a chance,
+ often within two weeks of receipt of the proper form.
+ 
+       MANIAC: Screams at users until they go away.  Sometimes
+ barters knowledge for powerful drink and/or sycophantic adulation.
+ 
+       IDIOT: Answers all questions to best of his knowledge until
+ the user realizes few UNIX systems support punched cards or JCL.
+ 
+ 
+ ---------------- SITUATION: *Stupid* user questions. ----------------
+ 
+       TECHNICAL THUG: Answers question in hex, binary, postfix,
+ and/or French until user gives up and goes away.
+ 
+       ADMINISTRATIVE FASCIST: Locks user's account until user can
+ present documentation demonstrating their qualification to use the
+ machine.
+ 
+       MANIAC:
+ # cat >> ~luser/.cshrc
+ alias vi 'rm \!*;unalias vi;grep -v BoZo ~/.cshrc > ~/.z; mv -f ~/.z ~/.cshrc'
+ ^D
+ 
+       IDIOT: Answers all questions to best of his knowledge.
+ Recruits user to system administration team.
+ 
+ 
+ ---------------- SITUATION: Process accounting management. ----------------
+ 
+       TECHNICAL THUG: Ignores packaged accounting software; trusts
+ scripts to sniff out any problems & compute charges.
+ 
+       ADMINISTRATIVE FASCIST: Devotes 75% of disk space to
+ accounting records owned by root and chmod'ed 000.
+ 
+       MANIAC:  Laughs fool head off at very mention of accounting.
+ 
+       IDIOT:
+ # lpr /etc/wtmp /usr/adm/paact
+ 
+ 
+ ---------------- SITUATION: Religious war, BSD vs. System V. ----------------
+ 
+       TECHNICAL THUG:  BSD.  Crippled on System V boxes.
+ 
+       ADMINISTRATIVE FASCIST: System V.  Horrified by the people who
+ use BSD.  Places frequent calls to DEA.
+ 
+       MANIAC: Prefers BSD, but doesn't care as long as HIS processes
+ run quickly.
+ 
+       IDIOT:
+ # cd c:
+ 
+ 
+ ---------------- SITUATION: Religious war, System V vs. AIX ----------------
+ 
+       TECHNICAL THUG:  Weeps.
+ 
+       ADMINISTRATIVE FASCIST: AIX-- doesn't much care for the OS,
+ but loves the jackboots.
+ 
+       MANIAC: System V, but keeps AIX skills up, knowing full well
+ how much Big Financial Institutions love IBM...
+ 
+       IDIOT:  AIX.
+ 
+ 
+ ---------------- SITUATION: Balky printer daemons. ----------------
+ 
+       TECHNICAL THUG: Rewrites lpd in FORTH.
+ 
+       ADMINISTRATIVE FASCIST: Puts printer use policy in motd.
+ Calls customer support every time the printer freezes.  Tries to get
+ user who submitted the most recent job fired.
+ 
+       MANIAC: Writes script that kills all the daemons, clears all
+ the print queues, and maybe restarts the daemons.  Runs it once a hour
+ from cron.
+ 
+       IDIOT:
+ # kill -9 /dev/lp ; /dev/lp &
+ 
+ 
+ ---------------- SITUATION: OS upgrade. ----------------
+ 
+       TECHNICAL THUG: Reads source code of new release, takes only
+ what he likes.  
+ 
+       ADMINISTRATIVE FASCIST: Instigates lawsuit against the vendor
+ for having shipped a product with bugs in it in the first place.
+ 
+       MANIAC:  
+ # uptime
+ 1:33pm  up 19 days, 22:49,  167 users,  load average: 6.49, 6.45, 6.31
+ # wall
+ Well, it's upgrade time.  Should take a few hours.  And good luck on that
+ 5:00 deadline, guys!  We're all pulling for you!
+ ^D
+ 
+       IDIOT:
+ # dd if=/dev/rmt8 of=/vmunix
+ 
+ 
+ ---------------- SITUATION: Balky mail. ----------------
+ 
+       TECHNICAL THUG: Rewrites sendmail.cf from scratch.  Rewrites
+ sendmail in SNOBOL.  Hacks kernel to implement file locking.  Hacks
+ kernel to implement "better" semaphores.  Rewrites sendmail in
+ assembly.  Hacks kernel to . . .
+ 
+       ADMINISTRATIVE FASCIST: Puts mail use policy in motd.  Locks
+ accounts that go over mail use quota.  Keeps quota low enough that
+ people go back to interoffice mail, thus solving problem.
+ 
+       MANIAC:
+ # kill -9 `ps -augxww | grep sendmail | awk '{print $2}'`
+ # rm -f /usr/spool/mail/*
+ # wall
+ Mail is down.  Please use interoffice mail until we have it back up.
+ ^D
+ # write max
+ I've got my boots and backpack.  Ready to leave for Mount Tam?
+ ^D
+ 
+       IDIOT:
+ # echo "HELP!" | mail tech_support.AT.vendor.com%kremvax%bitnet!BIFF!!!
+ 
+ 
+ ---------------- SITUATION: Users want phone list application. ----------------
+ 
+       TECHNICAL THUG: Writes RDBMS in perl and Smalltalk.  Users
+ give up and go back to post-it notes.
+ 
+       ADMINISTRATIVE FASCIST: Oracle.  Users give up and go back to
+ post-it notes.
+ 
+       MANIAC: Tells the users to use flat files and grep, the way
+ God meant man to keep track of phone numbers.  Users give up and go
+ back to post-it notes.
+ 
+       IDIOT:
+ % dd ibs=80 if=/dev/rdisk001s7 | grep "Fred"
+ 
+ 
+ 
+ OTHER GUIDELINES:
+ 
+ 
+ ---------------- TYPICAL ROOT .cshrc FILE: ---------------- 
+ 
+       TECHNICAL THUG: Longer than eight kilobytes.  Sources the
+ output of a perl script, rewrites itself.
+ 
+       ADMINISTRATIVE FASCIST:  Typical lines include:
+ umask 777
+ alias cd 'cd \!*; rm -rf ching *hack mille omega rogue xtrek >& /dev/null &'
+ 
+       MANIAC:  Typical lines include:
+ alias rm 'rm -rf \!*'
+ alias hose kill -9 '`ps -augxww | grep \!* | awk \'{print $2}\'`'
+ alias kill 'kill -9 \!* ; kill -9 \!* ; kill -9 \!*'
+ alias renice 'echo Renice\?  You must mean kill -9.; kill -9 \!*'
+ 
+       IDIOT:  Typical lines include:
+ alias dir ls
+ alias era rm
+ alias kitty cat
+ alias process_table ps
+ setenv DISPLAY vt100
+ 
+ 
+ ---------------- HOBBIES, TECHNICAL: ---------------- 
+ 
+       TECHNICAL THUG: Writes entries for Obsfuscated C contest.
+ Optimizes INTERCAL scripts.  Maintains ENIAC emulator.  Virtual
+ reality .
+ 
+       ADMINISTRATIVE FASCIST: Bugs office. Audits card-key logs.
+ Modifies old TVs to listen in on cellular phone conversations.
+ Listens to police band.
+ 
+       MANIAC: Volunteers at Survival Research Labs. Bugs office.
+ Edits card-key logs.  Modifies old TVs to listen in on cellular phone
+ conversations.  Jams police band.
+ 
+       IDIOT: Ties shoes.  Maintains COBOL decimal to roman numeral
+ converter.  Rereads flowcharts from his salad days at Rand.
+ 
+ 
+ ---------------- HOBBIES, NONTECHNICAL: ---------------- 
+ 
+       TECHNICAL THUG: Drinks "Smart Drinks."  Attends raves. Hangs
+ out at poetry readings and Whole Earth Review events and tries to pick
+ up Birkenstock MOTAS.
+ 
+       ADMINISTRATIVE FASCIST: Reads _Readers Digest_ and _Mein
+ Kampf_.  Sometimes turns up car radio and sings along to John Denver.
+ Golfs.  Drinks gin martinis.  Hangs out in yuppie bars and tries to
+ pick up dominatrixes.
+ 
+       MANIAC: Reads _Utne Reader_ and _Mein Kampf_.  Faithfully
+ attends Dickies and Ramones concerts.  Punches out people who say
+ "virtual reality."  Drinks damn near anything, but favors Wild Turkey,
+ Black Bush, and grain alcohol.  Hangs out in neighborhood bars and
+ tries to pick up MOTAS by drinking longshoremen under the table .
+ 
+       IDIOT: Reads _Time_ and _Newsweek_-- and *believes* them.
+ Drinks Jagermeister.  Tries to pick up close blood relations-- often
+ succeeds, producting next generation of idiots.
+ 
+ 
+ ---------------- 1992 PRESIDENTIAL ELECTION: ---------------- 
+ 
+       TECHNICAL THUG: Clinton, but only because he liked Gore's
+ book.
+ 
+       ADMINISTRATIVE FASCIST: Bush. Possibly Clinton, but only
+ because he liked Tipper.
+ 
+       MANIAC: Frank Zappa.
+ 
+       IDIOT: Perot.
+ 
+ 
+ ---------------- 1996 PRESIDENTIAL ELECTION: ---------------- 
+ 
+       TECHNICAL THUG: Richard Stallman - Larry Wall.
+ 
+       ADMINISTRATIVE FASCIST: Nixon - Buchanan.
+ 
+       MANIAC: Frank Zappa.
+ 
+       IDIOT: Quayle.
+ 
+ 
+-----------------------------------------------------------------
+ 
+ COMPOUND SYSTEM ADMINISTRATORS:
+ 
+ 
+       TECHNICAL FASCIST: Hacks kernel & writes a horde of scripts to
+ prevent folk from ever using more than their fair share of system
+ resources.  Resulting overhead and load brings system to its knees.
+ 
+       TECHNICAL MANIAC: Writes scripts that SEEM to be monitoring
+ the system, but are actually encrypting large lists of passwords.
+ Uses nearby nodes as beta test sites for worms.
+ 
+       TECHNICAL IDIOT: Writes superuser-run scripts that sooner or
+ later do an "rm -rf /".
+ 
+       FASCISTIC MANIAC: At first hint of cracker incursions, whether
+ real or imagined, shuts down system by triggering water-on-the-brain
+ detectors and Halon system.
+ 
+       FASCISTIC IDIOT:  
+ # cp /dev/null /etc/passwd
+ 
+       MANIACAL IDIOT:  Napalms the CPU.
+                                                            -Stephan Zielinski
+ 
+ --
+ Selected by Maddi Hausmann.  MAIL your jokes (jokes ONLY) to funny@clarinet.com
+ Attribute the joke's source if at all possible.  A Daemon will auto-reply.
+ 
+
+ Jokes ABOUT major current events should be sent to topical@clarinet.com
+ (ie. jokes which won't be funny if not given immediate attention.)
+ Anything that is not a joke submission goes to funny-request@clarinet.com
+
+
+
+
+                                SENHA
+                                =====
+
+Todo mundo fala sobre a necessidade de se escolher uma senha segura para 
+sua conta Internet ou mesmo para sua conta no banco. Mas qual e' a magica 
+de se fazer uma senha dificil de acertar, porem facil de usar? Bom, vamos 
+comecar com os erros mais gritantes}: usar palavras, nomes, ou qualquer 
+coisa que possa ser encontrada em documentos de identidade. So' para dar 
+uma ideia, e' facil descobrir esse tipo de informacao, sem conhecer a pessoa, 
+atraves de engenharia social, por exemplo. Um truque pouco se#guro e' o de 
+acrescentar um ou mais unidades a uma data de nascimento ou aniversario. 
+Pode ser paranoico nao acreditar nisso, mazs nao funciona. Existem programas 
+que testam esse tipo de senhas. Eles trabalham com dicionarios de palavras e 
+numeros. 
+A pessoa constroi um arquivo-texto justamente com informacoes armazenadas 
+e faz um programa para testar esse tipo de variantes.  O melhor tipo de senha 
+e' composta de uma mistura de letras e numeros, como rc*!wkj. Detalhe: se 
+voce quer ser realmente inteligente, observe seu teclado antes de digitar a 
+dita. A senha 67@#xc foi feita de pares de letras de um teclado comum. 
+Manualmente, pode ate parecer dificil. Mas com computador e' facil, e se voce 
+ainda nao acredita,  bota um menino de dez ou doze anos atras do micro, para 
+ver se ele nao descobre a senha. Outra coisa: a senha precisa ser digitada o 
+mais rapido o possivel. ~Qualquer coisa digitada devagar pode ser 
+acompanhada com os olhos. Ha varios casos disso, acontecendo com cartoes 
+de banco 24 horas. E se a senha veio com o cartao, nada se pode fazer, alem 
+de praticar digitacao rapida. Tudo isso acima nao adianta nada se voce nao 
+da, no caso de micros PC, um boot depois de usar um programa em uma 
+maquina aberta a outros usuarios. Tambem nao adianta usar programas como 
+o pkzip v:1.1 ou Arj v:2.4 para guardar segredos. O diskreet do Norton Utilities 
+tambem nao e' legal. O Pkzip 204g tem boa reputacao e o PGP virou sinonimo 
+de seguranca. Quando posso, acho o ideal ter senhas de dez ou mais #letras. 
+E' isso. Prefiro inventar senhas antes de precisar delas, pois ai tenho empo de 
+praticar. Igualmente,o ideal e' trocar d_e senhas, sempre que tiver qualquer 
+duvida. Anotar as senhas num papel e' pouco inteligente.
+
+Y#2##sigQcomo trabalh o que pensamos, e tudo informacao - sneakers cosmo 
+(ben kingsley)\ 
+v#2##walnut#Walnut Creek CDROM#Suite D-899#4041 Pike Lane#Concord 
+CA 94520#USA#ftp.cdrom.com#pub/cdrom/catalog\ 
+##40 
+
+                           HACKING IN BRAZIL
+                           =================
+    
+Before talking about hacking here, it's good to describe the conditions of 
+living. Right now, the country is a mix of Belgium and India. It's possible to 
+find both standards of living without travelling long distances. The Southern 
+part of  the country concentrate most of the industry, while in the west one 
+can find Amazonia jungle. There are many Brazils, one could say.
+    
+        Begining with the hacking and pheaking. 
+    
+Hackers and computers enthusiasts have several different places for 
+meeting. When this thing started, by the time of that film "Wargames", the 
+real place  to meet hackers and  make contacts were the computer shops, 
+game-arcades and "Video-texto" terminals. The computer shops were a 
+meeting place because many of those "hackers" had no computers of their 
+own and the shop-owners  would let them play with them as part of a 
+advertising tool to  encourage people buying it for their kids. 
+Today that is no longer needed, since prices dropped down and people make 
+a team already at schools or sometimes just join a BBS (most people who buy 
+a modem, end up thinking about setting up a BBS). By the way, most schools 
+are advertising computer training as part of  their curricula, to charge more, 
+and like everywhere, i guess, people no longer learn typewriting, but 
+computer-writing, and many brazilian newspapers dedicate a section on 
+computer knowledge once a week, with advertising, hints, general info and 
+even lists of BBSes.
+A few years ago, the "Video-texto" terminals were also big meeting places. 
+That was part of  a effort to make popular the use of a  computer linked by 
+modem to  get services like msx-games, info on weather, check bank account 
+and so on. Just like the Net,  one could do e-mail, by some fancy tricks and 
+other  things that could be  called hacking. The difference was that it was 
+made by the state-owned telephone company and each time the trick was too 
+well know, it was changed. The only way to keep in touch was keeping in 
+touch with the people who used the system like hell. It's no different than 
+what it happens with the computer gurus. The protocol used for that, X-25 is 
+the same used for the banking money transfers, but don't think it was 
+possible to do anything more than checking how much money one had and a 
+few other classified data. People who used that at home (not too many, since 
+the company didn't think it would be such a hit,and didn't provide for it) could
+spend their fathers money discovering funny things about the system, like 
+messing with other people's phones and so.  One could also  use the 
+terminals at the Shopping Centers to make phone calls to their friends without 
+paying. The guy at the other end would be heard by the small speaker.
+        Phreaking here in Brazil is something secret. Apart from the trick 
+described in the section "Letters to read by" at the summer 1994 of the 2600 
+magazine, where one would call through locked rotatory telephone, little is 
+known about phreaking. One thing is that people who enrolled in 
+Telecommunications Engineering could call Europe and USA with ease, but 
+they would not tell you how. It must be said that all public phones have metal 
+cables  around the cables and that the phone machines are quite tough to 
+break down. I guess it wasn't for beauty.
+The phones use some sort of metal coins called fichas, which must be bought 
+somewhere. The trick is to use a coin with a string, so it would not be 
+collected. But if the police caught..The police doesn't follow rules about that.
+Either they put a fine on the guy for that, or arrest him for vandalism or
+anything else they think of at the moment. It is hassle, anyway. My friend who 
+was doing electrical Engineering told me that boxing in Brazil was impossible. 
+The system is just not good enough to be boxed. Other friend of mine told me 
+that in the Northeast part, where people are a little bit different and more 
+easy-going, the phone system can be boxed, because some top-brass asked 
+the company to let that  feature implemented. The Phone company doesn't 
+admit any knowledge about that.
+Internet access is something quite hard to get today. Until a few weeks ago, 
+the system would not let the creation of a internet site that was not part of 
+some research project. So, only Universities and like were capable of putting 
+people in the Net Universe. In the University of Sco Paulo, people in the 
+post-graduation courses could get it with ease, but graduating  students 
+would have to show some connection to a research project.
+That in theory, because the students found out that one could use the IBM 
+CDC 4360 to telnet without a internet account. Also, all the faculties that had 
+computer rooms full of AT 386 which where linked by optik fiber to this 
+computer.  Another one did the file transfers between the accounts and the  
+computer at the computer rooms  and that ftp was also possible without an 
+account, but only to a few sites, like oakland  and so. That lasted  for about a
+year, until that thing was fixed in the router, but only at the Politechnik 
+School. Says the legend that the guys  were downloading too much Gif and 
+JPG pictures of Top Models from a ftp site nearby. That spent so much 
+bandwidth that the site started to complain and both things happened: the 
+site stopped to store Gifs of wonderful women in swimsuit and the router was 
+fixed to prevent ftp without a Internet account. One can still today connect the
+outside world via telnet and many people have accounts in Internet BBS like 
+Isca BBS, Cleveland Freenet and like. The Bad Boy BBS was "in", until  it 
+went out of business. This kind of access is not good, though, for it is very 
+slow, sometimes. Also, it is hard to  download something  bigger than 60 
+kbyte.  The way I devised,  downloading the file inside the bbs and 
+uuencoding it. This way you could list the file and capture the screen listing, 
+uudecode it after some editing and have a working  .exe or .zip file.
+        By these means one could, inside the Campus, do all downloading  
+one wanted,  from anywhere in the world. Outside the campus, it is  possible 
+to do it by phone lines, but: the Modem will not go faster than 2400 without 
+character correction  (no Zmodem at all). Which makes quite hard to 
+download compressed files. One could  an account:  that  would be possible 
+by these means, but the amount of trash during the phone connection would 
+make it real hard to type in passwords and like. To try doing any kind of  thing
+but reading letters by modem is some kind of torture. The real thing is to do it
+by "linha dedicada", a special line for computer transmission. It's much more 
+expensive though, but if you have the money to spend with that...
+        Perhaps the best way to get access to an Internet account though is to 
+be part of the research project "Escola do Futuro"  that among other things 
+get schools linked by the Net. That's what I did and they pay me quite  well to 
+search for data in the Net, for  the students of those schools. The University 
+of Campinas is said to give all students a Internet account regardless of 
+knowledge of what-it-is, as soon as the guy(girl) gets in. Of course here 
+there's BITNET also. That's doomed for extinction, but this or  that reason 
+keeps people from closing it down. Most teachers use it, guess there's even 
+some post-graduation work written about that. It's easier to access via 
+modem, also. Old habits die hard.
+        Outside the Campus, for common people,  there are few  oportunities. 
+The only thing you can get, at least until the opening of comercial internet 
+sites, something about to happen one of these days, is access by mail. You 
+join one BBS with Internet access, and your mail is sent by a Internet account 
+later during the  day. This is not a direct access, as one can see,  but it's a
+easy way to access by modem. Problem is that you have to pay if you use it too 
+much. The BBSes that do it don't do it for free, also. Connection to the 
+Compuserve is also possible, but it also costs a lot of money, for my point of  
+view.
+        Because of the newspapers, the knowledge about Internet is 
+spreading fast and the number of sites is growing the same way everywhere 
+else in the world. Evn the military people are starting with it. There are plans
+to enhance it and make better connections, and some informative material is 
+being translated in portuguese, like "Zen and the Art of Internet" and made 
+available in the gopher.rnp.br. There are many mirrors from many famous 
+sites, like Simtel20 and at least one Internet BBS, the "Jacare BBS"   
+(Alligator bbs, available by telneting bbs.secom.ufpa.br - 192.147.210.1 - 
+login bbs. World Wide Web sites are becoming sort of popular also, but still 
+available only to a few people who are lucky enough to get the access. 
+Brazilian hackers are not very fond  of  sharing the knowledge of how to get 
+access and other things, sometimes because of fear of losing it, sometimes 
+because the greed of it would overcharge the system. There's no hacker 
+magazine here, yet, and very few people confess their curiosity about 
+hacking for knowledge  for fear of not finding jobs. Anyway most would-be 
+hackers either get a job nd stop hacking for fun or keep their activities secret
+in order to pursue their objectives. I'm starting to plan a big hacker 
+convention that who knows, will make people come out from the dark and 
+pass on the knowledge, in Sco Paulo, next february. See you guys there. 
+
+Publicado com a minha permissao na revista "2600 - hacker quaterly"
+Spring 1995. (Acho que e' o primeiro artigo do genero na imprensa mundial,
+to re-escrevendo ele para a revista Phrack. O editor dela gostou. Aguardem)
+
+
+
+
+                      NOTICIAS - DICAS - CARTAS
+                      =========================
+
+
+NEWS
+
+Jornal Estado de Sao Paulo - 20/08/95? - Secao de Economia
+Citybank nega a atuacao de piratas - Londres - O Citybank negou ontem ter 
+sido vitima de um pirata russo d informatica. Segundo o jornal ingles Financial 
+Times, matematico Vladmir Levin teria ingressado no sistema de seguranca 
+do banco e transferido US$ 2,8 milhoes das contas de algumas empresas. 
+Durante uma audiencia destinada a analisar o pedido de extradicao do pirata, 
+funcionarios do Departamento de Justica dos EUA  acusaram Levin de 
+desviar recursos, via computador, da agencia de Wall Street para contas na 
+Finlandia, Israel e San Francisco. Duas pessoas nos EUA, uma em Israel e 
+duas na Holanda tambem foram presas sob a acusacao de participarem na 
+fraude, segundo fontes do banco.
+
+Jornal Estado de Sao Paulo - ? - pg B13
+Estrategia lancada pelo novo diretor da CIA, de infiltrar agentes em firmas 
+estrangeiras para fortalecer a politica comercial americana, esta' causando 
+polemica entre os aliados dos EUA - James Adams - The Times
+O Ministerio das Relacoes Exteriores da Inglaterra esta' protestando diante 
+da  estrategia  adotada  pela CIA (central de  inteligencia  americana)  de 
+espionar  as empresas estrangeiras, inclusive as inglesas, na tentativa  de 
+fortalecer  a  politica comercial dos EUA. O esquema foi montado  por  John 
+Deutch,  o novo diretor da CIA, e pretende infiltrar  espioes  estrangeiros 
+nas  empresas  estrangeiras, alem de usar aparelhos de escuta  para  reunir 
+dados sobre operacoes empresariais.
+     O  projeto foi discutido no Congresso. Em seguida, o  presidente  Bill 
+Clinton mostrou-se a favor da ideia de fortalecer a espionagem economica  e 
+instruiu  a CIA a dar prioridade ao projeto. Com a implantacao do plano  de 
+Deutch,  as informacoes inevitavelmente acabariam nas maos  de  empresarios 
+americanos  de  maior  influencia.  Desde a  vergonhosa  revelacao  no  ano 
+passado,  de  que Aldrick Ames era um espiao russo trabalhando  na  CIA,  a 
+agencia  tem  procurado uma nova funcao para justificar sua  existencia.
+     A  Franca,  a  Russia e o Japao sao acusados de  incentivar  um  maior 
+numero  de  operacoes de espionagem economica. Segundo  os  americanos,  os 
+franceses chegaram ate' a instalar microfones de espionagem nos assentos de 
+primeira classe da Air France. A espionagem economica e' tao difundida  que
+ate' a Nigeria e' considerada uma ameaca.
+
+EDUPAGE 24-08-95  
+HACKER FRANCES QUEBRA CODIGO DE CRIPTOGRAFIA
+INTERNACIONAL DO NETSCAPE
+        Um estudante frances da Ecole Polytechnique conseguiu quebrar o
+codigo de criptografia, de quarenta bits, utilizado nas versoes do
+Netscape Navigator distribuidas para fora dos Estados Unidos, mas a
+empresa afirmou que nao esta' surpresa. "E' uma boa razao para que o
+governo dos E.U.A. permita que exportemos softwares mais seguros.",
+afirmou o vice-presidente de marketing da Netscape. "Essas leis sao
+arcaicas.". A Netscape utiliza o algoritmo de criptografia da RSA Data
+Security, que concorda que as rigorosas regras de exportacao dos Estados
+Unidos impedem o comercio internacional. "Avisamos o governo que o nivel
+de seguranca que permite que nossos clientes exportem e' muito baixo.
+Talvez nos oucam agora.", afirmou o presidente da RSA. (Wall Street
+Journal, 17/08/95, B3)
+
+
+Revista VEJA - 9/8/95 - pg 42
+COMPUTADORES - Pirata Digital - Garoto pernambucano invade arquivos do 
+governador
+Um  adolescente  pernambucano  de  17 anos deixou de cabelos em pe' os mais 
+experientes tecnicos brasileiros de computacao. Durante tres meses,  C.I.M. 
+usou  o  codigo de acesso a Internet de seu pai para fazer  uma  verdadeira 
+devassa nos computadores da Universidade Federal de Pernambuco, UFPF, e  do 
+Instituto  Tecnologico do Estado. Sua maior peripecia foi vasculhar  uma  a 
+uma  as mensagens eletronicas enviadas ao governador Miguel Arraes. Como um 
+Zorro  dos  tempos  modernos, o garoto deixava sua  marca  depois  de  cada 
+invasao. "Passei por aqui", escrevia. As aventuras do hacker (invasor)  so' 
+foram descobertas porque o garoto consultou informacoes a que apenas poucas 
+pessoas  tinham  passagem  livre.  
+     Nenhum  dos  arquivos  violados pelo garoto foi  apagado,  copiado  ou 
+danificado.  C.L.M.  poderia  ter  causado  constrangimentos  publicos   ao 
+governador Miguel Arraes se quisesse. Bastava enviar mensagem ao presidente 
+Fernando Henrique ou a qualquer outro usuario fingindo ser o governador.
+     Depois  de identificar os primeiros vestigios do invasor, os  tecnicos 
+da Rede Nacional de Pesquisa, a administradora da Internet brasileira deram 
+inicio a uma investigacao minuciosa. O garoto foi traido pela curiosidade e 
+acessou  o  arquivo inventado por seus captores. Um programa fez  o  resto: 
+decifrou o numero do telefone de onde partiam as ligacoes. C.L.M. pode  ser 
+processado por invasao de domicilio, dano ao patrimonio publico,  falsidade 
+ideologica  e  violacao  de correspondencia. Para  remediar  as  falhas  de 
+seguranca, os usuarios da Internet pernambucana vao receber novas senhas.
+
+OBS: Pela reportagem, da' pra sentir um caso classico: vontade de aparecer. 
+Da'  pra  sentir um pouco de etica hacker no meio, ja' que ele  nao  causou 
+dano a ninguem. Mandar carta falsa, isso e' algo que nao exige o acesso  da 
+conta  internet  da pessoa para acontecer. Mas e' muito  pouco  inteligente 
+zonear  com  a  conta Internet dos outros. A unica  coisa  que  ele  talvez 
+consiga  e' criar precedente para que seja baixada uma legislacao que  puna 
+rigorosamente pessoas que acessem contas alheias. 
+
+
+
+
+DICAS:
+
+Lista Hackers da esquina das listas
+
+Para  quem  nao sabe  como  se  inscrever  na  lista  hackers,
+escreva  para  
+
+esquina-das-listas@dcc.unicamp.br com o seguinte na carta:
+inscreva hackers seuemail@xxxx.xxx.xx
+Para se desinscrever, escreva outra carta pro mesmo endereco com:
+cancele hackers seuemail@xxx.xxx.xx
+Para enviar um artigo para a lista, carta pro mesmo endereco com:
+submeta hackers  <antes de comecar a escrever o texto>
+
+Netsurfer Digest   
+
+     Um  jornal  muito  interessante,  e que  aborda  o  tema  de 
+seguranca informatica.   
+   To subscribe to Netsurfer Digest or Netsurfer Tools:
+   
+   By WWW form: http://www.netsurf.com/subscribe.html 
+   By e-mail: nsdigest-request@netsurf.com
+   Body:
+              subscribe nsdigest-html
+              subscribe nsdigest-text
+   
+   
+
+Subject: Win News
+
+
+A Microsoft oferece uma lista chamada WINNEWS (Microsoft WinNews 
+Electronic Newsletter).
+Se quizer assinar mande um email para 
+
+majordomo@microsoft.nwnet.com
+
+no corpo da mensagem coloque:-
+
+subscribe WinNews seu_endereco@o_restante
+
+
+Bye, bye
+--------------------------------------------------------------------
+
+Subject: Re: Minilinux
+
+
+Dica para obter o MINILINUX via FTP:
+
+sunsite.unc.edu
+
+/pub/linux/distributions/mini-linux
+
+Arquivos: minilin*.*
+
+Sao quatro arquivos de de 1,4 e mais um quinto de uns 50k com as instrucoes
+para instalar.
+
+Boa Sorte!
+
+
+>>    Pouco tempo atras eu vi numa secao de Informatica de um determinado
+>> jornal o aviso de que os arquivos que constituem o minilinux (um clone
+>> do UNIX que pode ser rodado em cima do DOS e ate' emular o X WINDOW)
+>> poderia ser encontrado nos FTP sites da UFRJ e da USP.  Eu nao os encontrei.
+>> Alguem poderia me dar uma ajuda ?
+>
+>Tai' outro assunto no qual tenho profundo interesse. Se for algum reply 
+>pro , manda para mim tambem.
+------------------------------------------------------------------------
+
+ Recebi esta correspondencia sobre esse e-jornal abaixo e acho que deve 
+ ser uma boa, divulgar para quem estiver interessado.
+
+----------------------------------------------------------------------------
+ Send a message to 'fileserv@if.usp.br' with the string 'send news.guide'
+  in the body for information about 'Cia-INFO (c) Companhia das Informacoes'.
+
+        +--------------------------------------------------------+
+        ! INTERNET-BR (c) - INTERNET Brasil Noticias / 18-Aug-95 !
+        +--------------------------------------------------------+
+
+        INTERNET-BR, mais uma publicacao da Cia-INFO, e' um jornal
+        eletronico que visa divulgar (quase que) exclusivamente
+        noticias sobre a Rede INTERNET no Brasil.
+
+        Noticias sobre o mundo da informatica que tenham uma certa
+        "proximidade" com o mundo INTERNET sao tambem divulgadas.
+
+        A assinatura do INTERNET-BR, assim como de todos os servicos
+        da Cia-INFO, nao envolve custo algum, e pode ser feita apenas
+        enviando-se uma mensagem (e-mail) para:
+
+                        listserv@if.usp.br
+
+        No corpo da mensagem escreva:
+
+                        subscribe internet-br
+
+        Para "desassinar" o jornal utilize o mesmo endereco, porem
+        escreva:
+
+                        signoff internet-br
+
+        Edicoes recentes do INTERNET-BR podem ser acessadas em nosso
+        servidor WWW, no endereco:
+
+                        http://www.if.usp.br
+
+        Facam-nos uma visita no endereco acima e ajudem-nos a sempre
+        melhorar nossos servicos, enviando seus comentarios para:
+
+                        becherini@if.usp.br
+
+        Nosso "grupo de jornalistas" sempre tudo fara' ao seu alcance
+        para informa'-los do que "rola" no mundo INTERNET Brasil
+        e seus bastidores.
+
+-------------------------------------------------------------------------------
+ Cia-INFO ### Cia-INFO ### Cia-INFO ### Cia-INFO ### Cia-INFO ### Cia-INFO ### 
+-------------------------------------------------------------------------------
++-----------------------------------------------------------------------------+
+! Copyright (c) 1995 Fabio Becherini.                                         !
+! Proibidas alteracoes sem o consentimento por escrito do autor.              !
+! Reproducao /distribuicao autorizada desde que mantido o "copyright".        !
+! E' vedado o uso comercial sem previa autorizacao por escrito do autor.      !
++-----------------------------------------------------------------------------+
+
+==============================================================================
+
+Esta carta abaixo gerou uma certa polemica, como esse tipo de situacao pode se
+repetir, resolvi publica-la na sessao de cartas.
+
+    ================= Begin forwarded message =================
+
+    
+    > 
+    > ook ok ok luz, legal, entao voce agora vai me ensinar a usar anon beleza...
+    > claro que eu nunca tinha mexido com isso ne mocada? hahahahahaha ;-D
+    > beleza..
+    
+    So' uma sugestao, desculpe se minha humilde ideia - talvez surgida do meu 
+    escasso conhecimento sobre a Internet - ofendeu de alguma forma os 
+    menbros da lista. Tal fato nao vai mais se repetir.
+    
+    > seguinte a questao nao e' aenas usar o enet.fi
+    > (sorry o terminal que eu tou nao tem a letra entre o o e q
+    >  e eu nao tou afins de usar caracter ansi nem vem))
+    > o questao e ra quem se divulga a coisa.
+    > rimeiro temos que conversar com a mocada e ver se quem quer a tal 
+    > informacao nao vai usa-la de modo indevido e deois contar ra olicia
+    > bom, foi um talk de floyd que me ensinou a usar e eu nao sabia o que isso 
+    > auqi fazia...
+    
+    Agora vem a pergunta que nao quer calar. Voce descobre um metodo 
+    infalivel ou um algoritmo para qualquer coisa ( onde qualquer coisa vai 
+    desde um simples truque para fazer uma .gif transparente ate' a recente 
+    discussao sobre contrucao de BB's). Voce acha que a tal informacao vai 
+    ser util a outros mas pode ser que alguem faca utilizacao "indevida" da 
+    mesma, o que voce vai fazer ?
+    
+    a) Guardar para voce
+    
+    b) Reunir uns amigos, contar pra eles e rezar para que nenhum deles faca 
+    o tal "uso indevido" pra nao ser preso e te entregar.
+    
+    c) Posta uma mensagem e conta logo pra todo mundo, ficando depois 
+    esperando a policia ( caso alguem faca "uso indevido") bater na sua porta.
+    
+    d) Divulga a informacao anonimamente ?
+    
+    Ja' fiz uma explanacao anterior do que acho sobre tal tipo de coisa 
+    (divulgacao de informacao). 
+    Nao sou hacker nem pretendo me intitular como tal, apenas gosto muito de 
+    informatica (tanto que estou nela a 10 anos) e acho que se a informacao 
+    e' distribuida a possibilidade de algum espertinho ferrar seu sistema 
+    diminui. Agora, se postar anonimamente uma mensagem nao e' seguro (por 
+    falar nisto, qual o grau de seguranca do uso destes mailer's anonimos ?) 
+    eu gostaria de saber, tem gente na lista sexo e outras postando mensagens 
+    desta forma. Nada mais justo do que eles saberem o grau de anonimato que 
+    tem.
+    
+        SL - "verde" talvez, estupido de forma alguma.
+============================================================================
+   OPINIAO PESSOAL: 
+
+Ta na declaracao dos direitos humanos, artigo 23 ou 24 (sabia de cor, esqueci)
+
+"Todo homem tem direito a opiniao e expressao." 
+
+A lista nao e' moderada, mas uma vez ja' fui alertado para nao enviar muito
+material em ingles (eu sou muito paranoico, me perdoem). O ideal e' mandar
+amostras do material, quando possivel. Mas sempre, sempre contem com o fato 
+de que vai ter gente que nao vai compreender o que voce esta' fazendo.
+
+
+ 
+
+==========================================================================
+
+O individuo que enviou a carta abaixo, depois que fez esse flame, teve a
+ideia de me enviar outra carta pedindo desculpas. Bom, o pedido de desculpas
+eu entendi. Nao entendi porque ele chamou "grupo de criminosos" e colocou
+os hackers nesse grupo. Na pior das hipoteses, a carta foi redigida de tal
+forma que induz a pensar de forma negativa sobre um grupo que sempre foi mal 
+entendido pela imprensa. E eu sou contra esse tipo de divulgacao. Existe 
+uma preocupacao da imprensa em colocar genios de informatica como os futuros
+realizadores de "crimes perfeitos", e/ou anonimos. E' preciso ter cuidado,  
+pois primeiro se cria a ameaca, depois cacam-se pessoas que sirvam para 
+fazer o papel de ameaca. E no final das contas, o que acontece? Em terra de
+cego, quem tem olho, emigra. (Millor Fernandes)
+
+        As respostas estao abaixo:
+==========================================================================  
+
+ > >A data eagosto de 1993, aproximadamente 600 pessoas se reuniram em 
+ > >Lelystadt, na Holanda. A maioria originaria da belgica, alemanha, franca,
+ > >italia, inglaterra, suecia, eua e da propria holnada. Institucionalizou-se
+ > >entao, uma pratica nada segura.
+ > >Essa reuniao - seguida de uma confraternizacao chamada de galantic
+ > >hacking party, que nesse ano teve o titulo de hacking at the end of the
+ > >universe, contava com criminosos especializados em roubo de informacoes
+ > >atraves de computadores. Os ja conhecidos crackers, hackers e pheakers.
+ > >Para quem nao os conhece, vamos dar algumas de suas potencialidades :
+ > >hacker-pessoa com alto conhecimento tecnico em computacao, concentrada em 
+ > >destruir numeros de telefones importantes, nos de rede de telecomunicacoes
+ > >, e bypassar controle de acesso logico em sistemas de informacoes. Isso
+ > >envolve, persitencia, dedicacao, conhecimento tecnico.
+ > >pheaker - explora e derruba sistemas de telefonia para fazer uso de 
+ > >chamadas telefonicas gratuitas, principalmente para fora do pais de
+ > >origem.
+ > >cracker - tambem com alto nivel tecnico em computacao, e especializado
+ > >em quebrar sistemas de protecao de informacoes armazenadas em computadores.
+ > >Como agem, geralmente, se juntam em grupos bastante organizados, a fim 
+ > >de tentar criar anarquia nos sistemas alheios, e as vezes, roubar ou
+ > >apagar informacoes importantes nas corporacoes.
+ > >Grupos conhecidos : chaos computer club, esta baseado em hamburgo;
+ > >cccf-chaos computer club da franca; hacktic, grupo holandes baseado
+ > >em uma velha igraja de amsterda; 2660, grupo norte-americano e 8lgm, 
+ > >grupo ingles especializado em tecnica de informacoes roubadas via 
+ > >e-mail.
+
+RESPOSTA 1:
+
+  >         Ave ???????????!
+  >         O significado dos termos abaixo e' polemico.
+  >         Veja bem.  Agora mesmo estou aprendendo Linux, sistema operacional
+  > totalmente desenvolvido por hackers, incluindo seu criador o ilustre Linus
+  > Torvalds da U iversidade de Helsink na Finlbndia.  Eles se referem uns aos
+  > outros como hackers, com muito orgulho.  Inclusive assim o fazem os autores
+  > de diversos livros sobre esse assunto.
+  >         Sem querer definir coisa alguma, me parece que o hacker e' o
+  > aficcionado por informatica que realiza de graca um trabalho que exige alto
+  > conhecimento.  Naturalmente possuem todas as armas para praticar os crimes a
+  > que V. se refere, o que nao nos permite concluir que os facam.  Na categoria
+  > de genios do mal eu utilizaria o termoc craker.
+  >         Esse tipo de discussao me lembra o conceito de 'especulador' que
+  > para o publico em geral e' uma figura nefasta.  Para as bolsas de valores no
+  > mundo todo o especulador e' benefica e indispensavel - aquela pessoa que da
+  > liquidez ao mercado.
+  >         E vamos que vamos ...
+  >         Um abraco e nos encontramos em Lelystadt que deve ser do tamanho do
+  > Maracana!
+  >         
+  > 
+==============================================================================
+    
+RESPOSTA 2:
+
+    Sobre a polemica abaixo, so' vou contar uma historinha:
+    
+    Era uma vez um rapaz chamado Henry. Ele estudava numa escola Lakeside 
+    School, em 68, quando esta decidiu angariar fundos para alugar tempo de 
+    computacao num computador DEC PDP-10 da General Electric. A ideia da 
+    escola era colocar todos os alunos tendo cursos de computacao. O rapaz se 
+    apaixonou por computacao. Gracas a ela encontrou um outro amigo que 
+    tambem curtia pra caramba o lance, e que se chamava Paul. Quando um 
+    chegava p. usar o computador, o outro ja' estava la'. Eles usaram tanto 
+    tempo da maquina que a escola exigiu que os pais pagassem pelo tempo 
+    extra que esses dois estavam usando. O entusiasmo pelos computadores 
+    continuou.
+        Conseguir acesso a uma maquina era dificil. Um pessoal 
+    recem-formado da Universidade de Washington fundou uma empresa chamada 
+    Computer Center Corporation, que adiquiriu um PDP-10 e assinaram um 
+    acordo com a Digital (fabricante) segundo o qual os pagamentos da maquina 
+    ficariam adiados enquanto a CCC descobrisse os bugs da maquina.
+        O software tava cheio de bugs. A DEC (fabricante) estava p(*) da 
+    vida, pois nao podia cobrar, mas  recebia relatorios da CCC sobre os bugs 
+    que esta encontrava no programa. Henry e Paull se apresentaram e persua- 
+    diram o pessoal da empresa a procurar os bugs em troca de tempo de 
+    maquina. Depois das 6 da tarde, os programadores saiam, Henry, Paul e 
+    dois outros colegas entravam e ficavam altas horas da noite trabalhando 
+    com o software. Paul comentava que ficava altas horas da noite 
+    trabalhando com o dito e achava isto extremamente divertido.
+        Ao procurar cada vez mais bugs, acabaram entrando em dominios 
+    proibidos. Henry descobriu uma forma de burlar o sistema de seguranca do 
+    computador, de forma que nao tivesse de usar senha para entrar nele. Isso 
+    permitiu-lhe informacoes que nao estava autorizado a usar, o que na 
+    epoca, o deixou extremamente empolgado, ate' que seus truques causaram um 
+    crash no sistema.
+        Os engenheiros da firma ficaram meio p(*)s da vida e cortaram-lhe 
+    os privilegios no uso do computador. Henry ficou sabendo que o PDP-10 da 
+    U. de Washington estava conectado a Cybernet, uma rede nacional de 
+    computadores gerenciada pela Control Data Corporation (CDC). Apesar do 
+    probleminha com a CCC, ele sentiu-se desafiado a entrar clandestinamente 
+    nesta rede. Estudou a estrutura das maquinas da CDC e seu software. 
+    Fingindo estar estudando para uma prova, foi ate' a Universidade e 
+    conseguiu info detalhada sobre a organizacao da rede. Tinha 16 anos, o 
+    cara. 
+        O plano de Henry foi perfeito. Conseguiu acessar a Cybernet e 
+    instalou seu proprio programa no computador principal, que depois o 
+    distribuiu a todos os outros computadores da rede. Houve problemas depois 
+    e ele foi pego, repreendido a tal ponto que quase perdeu sua paixao por 
+    computadores.
+        Nesse interim, seus colegas, Paul Allen, Rick Weiland e Kent 
+    Evans continuaram a trabalhar no CCC, ate' q. a empresa pouco tempo 
+    depois decretou falencia. Ate' o ultimo dia, quando os moveis todos ja' 
+    haviam sido retirados, esses caras continuaram trabalhando no PDP-10.
+        Kent morreu fazendo alpinismo. Paul Allen mais tarde fez 
+    informatica na Washington State University. Willian Henry Gates III, 
+    depois de muita coisa, fundou a Microsoft.  E' mais conhecido por Bill 
+    Gates, atualmente. 
+        Esta historia eu estou lendo no livro "MICROSOFT" de Daniel 
+    Ichbiah e Susan Knepper, editora Campus, pags 5,6, 7 e 8. Eu acho que 
+    quem tiver mais interesse em historias semelhantes como essa e nao se 
+    deixar levar por babaquices que a imprensa fala (a americana, porque a 
+    brasileira ja' esta' fazendo distincao entre hackers (bons sujeitos) e 
+    crackers ou dark-side-hackers (mau sujeitos)), pode procura no Barata 
+    Eletrica, meu hacker zine, que esta' no ftp.eff.org, subdiretorio 
+    pub/Publications/CuD/Barata_Eletrica. Nao me escrevam cartas perguntando 
+    sobre o dito, tive varios problemas por conta desse zine justamente 
+    porque nao liam, se baseavam em preconceitos e me ameacaram cancelar meu 
+    acesso internet por conta desse tipo de lorota.
+    
+    
+===========================================================================    
+
+
+              CARTAS ENFOCANDO O TEMA DE BLUE BOXES
+
+    Subject: Re: Home brew Blue Boxes que funcionem (fwd)
+
+    
+    
+    olha cara, outro dia soltaram o boato de ujma tal GREEN box, que seria a 
+    nossa versao brasileira das BB (blue box e black box)
+    mas nao tenho certeza de quem tenha. mesmo porque era legal combinar um 
+    site de ftp pra trocar essas coisa, por aqui fica complicado, lembrem que 
+    o nome da nossa lista atrai muuuita atencao indevida. por isso mesmo os 
+    papos aqui teem sido meio de leve.
+    ate
+    
+    
+    > 
+    > People,
+    > 
+    > Existe em algum lugar aqui no Brasil um circuito de uma Blue Box que 
+    > funcione nas nossas centrais telefonicas?? Estou interessado em ver os 
+    > resultados, em vez de ficar lendo coisas dos Hermanos e Gringos... :)
+    > 
+    > De repente poderiamos projetar uma em conjunto...
+    > 
+    > Um abraco    
+   -----------------------------------------------------------------
+ 
+        Um amigo meu perguntou se eu conhecia o WaRez. So' entao me 
+    lembrei que nos nunca discutimos a respeito...
+        Warez e' na verdade um grupo de pessoas (anonymous) que brincam 
+    de trocar programas piratas pela rede. E' verdade que se pode conseguir 
+    tudo pelo WaReZ. Nem e' preciso dizer que o sistema deles de seguranca e' 
+    MUITO BOM. 
+        Tem muitas historinhas por ai de servidores WaReZ que desafiaram 
+    as empresas americanas de forma estraordinaria... Mas nao sei ate que 
+    ponto sao verdadeiras...
+        Sobre como conseguir coisas, e' preciso se conhecer um usuario 
+    que goste muito de coisas piratas, que tenha uma quota razoavel (10Mb) e 
+    esteja disposto a por coisas piratas na sua conta... Dai, tem muitos 
+    enderecos anon onde se trocam os sites(e seus respectivos diretorios). O 
+    negocio funciona assim, Vc da' um lugar legal e eles te mandam uma lista 
+    de + de 50 lugares...
+        Aos sysop, tomem cuidado. Existem pessoas (true cracks) que 
+    adoram montar um server warez debaixo do seu nariz... Eles entram no seu 
+    computador e montam diretorios "de dificil acesso" (ex.: 
+    ". unreadable^H^A^G") que so vam conseguir entrar, quem souber a 
+    combinacao correta... (ou usar o linx ou o ftp via netscape, e' claro). 
+    Portanto, se vcs acharem algo assim, tentem, antes de se desesperar, 
+    descobrir quem sao os usuarios que CRIARAM esse site.
+    
+    ATENCAO: NAO SE PODE CULPAR ALGUEM POR ACESSAR O DIRETORIO, POIS ELE PODE 
+    SER ALGUEM QUE NAO TEM NADA A HAVER COM A HISTORIA, SE LOGOU USANDO O 
+    NETSCAPE (OU OUTRO BROWSER) E PEGOU ALGUM ARQUIVO QUE JULGAVA SER 
+    SHARWARE. A UNICA COISA QUE SE PODE FAZER E' PEDIR PARA ELE DELETAR OS 
+    ARQUIVOS QUE PEGOU DO DITO DIRETORIO. 
+    
+        Isso eu so' estou dizendo, pois aconteceu com um amigo que sequer 
+    tem micro em casa. ele pegou uma dll para o windows e foi "julgado 
+    perigoso". (coitado, perdeu a conta por umas duas semanas, ate conseguir 
+    se explicar).
+        Se algum de voces quiser maiores informacoes, na BA tem algumas 
+    coisinhas legais sobre assuntos relacionados a pirateamento na rede...
+        Por hoje e' so'...
+        
+                           Inte' Mails ;)
+
+    
+    
+    [Sobre BB brasileiros]
+    
+    Boatos, boatos, boatos.... Com Green Box ou Blue Box, eu so' sei que vi
+    uma msg alertando todos os usuarios de _BLUE BOX_ do RJ que a interpol
+    ia pular no **** deles por iniciativa da AT&T que ja' tava abusada de ser
+    roubada por nao-americanos :) Se nao me engano essa msg saiu na SyNCNET
+    (que nem sequer e' underground <g>).
+    
+    As estatisticas na msg, supostamente enviada por um cara da UK, falavam
+    sobre raids na America do Sul e tinha coisa de 1000 suspeitos aqui no
+    Brasil (quase todos do RJ e alguns de SP), uns 200 na Argentina e mais
+    uns poucos nos outros paises vizinhos. O cara disse que seu irmao trabalhava
+    na British Telecom e tinha visto aquilo num dos comunicados internos.
+    
+    Mentira ou nao, ja' me disseram que o blue box funciona por aqui e essa
+    msg so' vem a tornar isso mais provavel. Agora, se e' seguro... tirem
+    suas proprias conclusoes. EU pessoalmente escolhi ficar longe do negocio
+    e continuar minha vida nao-tao-pacata de coder.
+    
+    PS:  Voces poderiam tentar perguntar com cara de pau pra um tecnico da
+         telebras se aqui no brasil eles seguem o CCITT-5 (ITU-T 5 agora, acho).
+    
+    PS2: Lamers se mutiplicam em progressao geometrica! Nao fornecam alimento
+         (aka conhecimentos perigosos sob forma lamer-compreensivel) aqui, senao
+         tchau lista... e' melhor ficar light e continuar tendo onde conversar.
+    
+    PS3: Pra quem nao sabe, o PGP-i ja' esta' disponivel em portugues (ficou
+         mais facil ensinar o seu irmaozinho mais novo a usa-lo :) ) 
+         http://www.ifi.uio.no/~staalesc/PGP/  (em algum lugar por la')
+    
+    ----    
+    
+
+    Subject: estrutura do GIF e BB
+
+    
+    
+    Oi Pessoal,
+    
+        Eu estou pensando em montar um editor de Web, os que eu consegui 
+    ateh agora sao horriveis, e estou com um pequeno problema.
+        Os servidores Web protam na tela o padrao GIF ou JPG, e a 
+    linguagem que eu estou usando para fazer isto (argh!! em windows) nao 
+    traz ferramentas para isto, e eu nao sei como e a estrutura destes 
+    arquivos. Uma outra solucao, alem da estrutura destes arquivos, seria 
+    um freeware que converta estes padroes de/para bitmap do windows. 
+    Qualquer ajuda eh bem vinda. Apos terminado o Editor, caso eu resolva 
+    este problema aviso ao pessoal.
+    
+        Outra coisa, acabo de ler algumas mesagens pendentes sobre black 
+    box e tenho alguma literatura e tambem alguma ideias sobre o assunto
+    mas acho correta a preocupacao de alguns membros da lista com esta 
+    discussao jah que como ja foi dito, realmente chamamos muita atencao.
+    Quem tiver o que passou na lista gravado em algum lugar, favor me 
+    enviar, e se alguem quiser tambem os textos que tenho, e so me 
+    contactar.
+    
+        Uma solucao para este nosso problema seria a criacao de uma lista 
+    moderada onde so as pessoas autorizadas poderiam se inscrever, e esta 
+    autorizacao poderia vir, porque nao, de um batismo previo nesta lista 
+    da unicamp, ou seja, depois de algum tempo na lista, o moderador 
+    poderia incluir esta pessoa, de acordo com o seu nivel, mas isto 
+    restringiria o accesso a informacao o que nao deve ser o espirito da 
+    lista. Alem de que o possivel moderador teria que ter um saco enorme 
+    para monitorar a lista. 
+        Bom a gente ainda acha a solucao.
+        Talvez a melhor fosse um congresso tupiniquim de Hackers, acho 
+    que nos deveriamos amadurecer essa ideia, me lembro do Denerval 
+    falando de algo assim mas as coisas parecem que micharam.
+        Vamos la galera, vamos montar esse congresso, tenho certeza que 
+    pessoalmente nos poderemos trocar mais informacao em uma semana que 
+    em 5 anos de mail!
+    
+    Inteh
+    
+
+    
+
+==========================================================================
+
+
+                 CANCOES FAMOSAS DE PROGRAMACAO:
+                 ===============================
+
+Write in C: {Plagio da Let it Be - Beatles}
+
+{Cantada como a musica dos Beatles: "Let it be"}
+When I find my code in tons of trouble,
+Friends and colleages come to me,
+Speaking words of wisdom:
+"Write in C."
+
+As the deadline fast approaches,
+And bugs are all that i can see, 
+Somewhere, someone whispers:
+"Write in C."
+
+Write in C, write in C,
+Write in C, write in C.
+LISP is dead and buried, 
+Write in C.
+
+I used to write a lot of FORTRAN,
+For science it worked flawlessly.
+Try using it for graphics!
+Write in C.
+
+If you've just spent nearly 30 hours
+Debugging some assembly,
+Soon you will be glad to 
+Write in C.
+
+Write in C, write in C,
+Write in C, write in C.
+Only wimps use BASIC. 
+Write in C.
+
+Write in C, write in C,
+Write in C, write in C.
+Pascal won't quite cut it. 
+Write in C.
+
+{
+          Guitar Solo 
+}
+
+Write in C, write in C,
+Write in C, write in C.
+Don't even mention COBOL, 
+Write in C.
+
+And when the screen is fuzzy,
+And the editor is bugging me.
+I'm sick of ones and zeros,
+Write in C.
+
+A Thousand people sware that T.P.
+Seven is the one for me.
+I hate the word PROCEDURE,
+Write in C.
+
+Write in C, write in C,
+Write in C, write in C.
+PLI is 80s, 
+Write in C.
+
+Write in C, write in C,
+Write in C, write in C.
+The government loves ADA, 
+Write in C.
+
+Musica - AULAS DE MARCO
+
+Musica: Tom Jobim
+Letra:[Luciano] Giordana,[Turtle] Wada & [Curly] Oliva
+
+(Engenharia de Computacao - Unicamp)
+
+E' pau, e' bug 
+E' o fim do programa
+E' um erro fatal
+O comeco do drama
+
+E o turbo pascal
+Diz que falta um "begin"
+Nao me mostra onde
+E capota no fim
+
+E' dois, e' tres
+E' quatro-oito-meia
+Intrucao ilegal
+QEMM bloqueia
+
+E' o erro no boot
+E' um disco mordido
+"Hard disk" estragado
+Ai meu Deus to perdido
+
+Sao as barras de espaco
+Exibindo um borrao
+E' a promessa de video
+Voando pro chao
+
+E' o computador 
+Me fazendo de otario
+Nao compila o programa
+Salva so' comentario
+
+E' ping, e' pong
+O meu micro "reboota"
+O scan nao retira
+Virus filho da [censurado]
+
+o windows nao entra
+Nem volta pro DOS
+Nao funciona reset
+Detona a CMOS
+
+Abort retry
+Disco mal-formatado
+PCTools nao resolve
+Norton trava o teclado
+
+E' a impressora sem fita
+Engolindo o papel
+Meu trabalho moido
+Cuspido pro ceu
+
+Sao as aulas de Marco
+Mostrando o que sao
+As promessas de micros
+Da computacao.
+
+
+                               BIBLIOGRAFIA:
+                               =============
+
+"THE HILL" o documentario. 
+        IPTV, 1 Meadowbank, Edinburgh, Scotland  EH8 8JE,  UK
+        Phone  +44 131 659 6566    
+  OBSERVACAO: Se alguem pedir, aproveite e peca para ele entregar  a  fita 
+gravada  em  padrao  NTSC  (americano)  ou  PAL-M  (brasileiro),  o  padrao 
+britanico so funciona em alguns videos muito sofisticados>
+    
+"UNAUTHORIZED  ACCESS"  -  Savage Productions, Suite One,  281  City  Road, 
+London, EC1V 1LA   - cerca de 15 libras (acho). Tem outro endereco nos  EUA 
+e tinha uma pagina WWW dela na rede, mas esqueci onde esta'.
+
+"THE SYSOP - PART ONE" - me foi enviado por um cara na rede, boa traducao
+
+"THE  BLUE  BOX & MA BELL, etc" veio da revista "Hack Unlimited",  nao  sei 
+onde se pode encontrar numeros dela
+
+"HACKING  IN  BRAZIL" - Eu mesmo digitei o artigo e enviei desse  jeito  p. 
+revista 2600. Eles publicaram, com algumas correcoes, mas bem menos do  que 
+eu esperava. :-)  
+
+"KNOW YOUR SYSADMIN" veio de uma lista de piadas 
+As  noticias  e  etc  vieram  de  varios  lugares  e  das  listas   www-jb, 
+informatica-jb, solucionatica-jb, hackers, todas da esquina das listas.
+
+
+MIRRORS - da Electronic Frontier Foundation
+/pub/Publications/CuD.  
+ 
+  UNITED STATES:  etext.archive.umich.edu in /pub/CuD/
+                  ftp.eff.org in /pub/Publications/CuD/
+                  aql.gatech.edu in /pub/eff/cud/
+                  world.std.com in /src/wuarchive/doc/EFF/Publications/CuD/
+                  uceng.uc.edu in /pub/wuarchive/doc/EFF/Publications/CuD/
+                  wuarchive.wustl.edu in /doc/EFF/Publications/CuD/
+  EUROPE:         nic.funet.fi in /pub/doc/cud/ (Finland)
+                              (or /mirror/ftp.eff.org/pub/Publications/CuD/)
+                  ftp.warwick.ac.uk in /pub/cud/ (United Kingdom)
+  JAPAN:          ftp.glocom.ac.jp in /mirror/ftp.eff.org/Publications/CuD
+                  www.rcac.tdi.co.jp in /pub/mirror/CuD
+ 

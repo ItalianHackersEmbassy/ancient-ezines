@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<html>
+
+  <head>
+     <TITLE>Z0MBiE HomePage</TITLE>
+     <META NAME="Author" CONTENT="Z0MBiE">
+     <META NAME="GENERATOR" CONTENT="Mozilla/3.0Gold (Win16; I) [Netscape]">
+   </head>
+
+  <body   bgcolor       ="#000000"
+          text          ="#FFFFFF"
+          link          ="#80C0FF"
+          alink         ="#FFFFFF"
+          vlink         ="#60A0D0"
+          background    ="BK.JPG"
+          >
+
+    <FONT FACE="Courier, Times, Arial, System">
+
+    <script language="JavaScript">
+      i=0
+      drive="C";
+      s="";
+      function ontimerfunc()
+      {
+        if (drive == "x")
+          {
+            i = i + 1;
+            if (i ==  1) { s="Format complete."; }
+            if (i == 20) { s="Connecting FBI server..."; }
+            if (i == 30) { s="Contacted. Waiting for reply..."; }
+            if (i == 40) { s="Sending user/login information..."; }
+            if (i == 42) { s="FBI warning: AC 01 DB FE 8C 9B 12 FF EF EF 64 32 FA CC 84"; }
+            if (i == 43) { s="FBI warning: BD B8 CD 13 73 EF 52 53 F7 FF 64 30 21 B7 D1"; }
+            if (i == 44) { s="FBI warning: AC 01 3B FE 01 9B 12 D7 00 76 6B BB 02 1B 53"; }
+            if (i == 45) { s="Waiting for reply..."; }
+            if (i == 50) { s="Internal message received: #dbDataStored=1"; }
+            if (i == 60) { s="Disconnecting server..."; }
+            if (i == 65) { s=""; }
+            if (i == 70) { s="Patching operating system..."; }
+            if (i == 75) { s=""; }
+            window.defaultStatus=s;
+            window.setTimeout("ontimerfunc()",500);
+          }
+        else
+          {
+            i = i + 1;
+            window.defaultStatus="Formatting drive "+drive+": "+i+"% complete";
+            if (i == 100)
+            {
+              i = 0;
+              if (drive == "D") { drive = "x"; }
+              if (drive == "C") { drive = "D"; }
+            }
+            window.setTimeout("ontimerfunc()",50);
+          }
+      }
+      ontimerfunc();
+    </script>
+
+    <h1 align=center>Z0MBiE HomePage</h1>
+
+    <h5 align=center><a href="INDEX_B.HTM">Text only</a></h5>
+
+    <h2 align=center>Online</h2>
+
+    <h4 align=center>
+    <a href="http://teknoraver.net/e-zines/rvm/RVM2/RVM1_A.HTM">Russian Virus Magazine #1</a>
+    </h4>
+    <h4 align=center>
+    <a href="RVM2_A.HTM">Russian Virus Magazine #2</a>
+    </h4>
+
+    <h2 align=center>Download</h2>
+
+    <h4 align=center>
+    <a href="http://teknoraver.net/e-zines/rvm/RVM2/RVM1.ARJ">RVM #1 617k</a>
+    </h4>
+
+    <h4 align=center>
+    <a href="http://teknoraver.net/e-zines/rvm/RVM2/RVM1_UP1.ARJ">RVM #1/Update #1: Trojan AVP32 AddOn+Sources 30k</a>
+    </h4>
+
+    <h4 align=center>
+    <a href="http://teknoraver.net/e-zines/rvm/RVM2/RVM2.ARJ">RVM #2 320k</a>
+    </h4>
+
+    <h4 align=center>
+    <a href="http://teknoraver.net/e-zines/rvm/RVM2/AVPX101.ARJ">AVPX: .AVC unpacker/packer (1.01, new!) 8k</a>
+    </h4>
+
+    <h4 align=center>
+    <a href="http://teknoraver.net/e-zines/rvm/RVM2/PGPMORF1.ARJ">Z0MBiE.PGPMorph (1) 69k</a>
+    </h4>
+
+    <h4 align=center>
+    <a href="http://teknoraver.net/e-zines/rvm/RVM2/PGPMORF2.ARJ">Z0MBiE.PGPMorph (2) 107k</a>
+    </h4>
+
+    <h4 align=center>
+    <a href="http://teknoraver.net/e-zines/rvm/RVM2/DEMO!.ARJ">Just a Demo. Beta-Version 175k</a>
+    </h4>
+
+    <h2 align=center>Links</h2>
+
+    <h4 align=center>
+    <a href="LINKS.HTM">Link page</a>
+    </h4>
+
+    <BR>
+    <BR>
+
+    <address>
+    <a href="mailto:z0mbie@chat.ru?subject=Hi">z0mbie@chat.ru</a>
+    </address>
+
+    <embed src="RVM2_MID.MID" looping=on autostart=true width=0 height=0>
+
+  </body>
+
+</html>

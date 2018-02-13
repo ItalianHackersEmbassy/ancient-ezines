@@ -1,0 +1,55 @@
+echo		7/udp
+discard		9/udp		sink null
+daytime		13/udp
+msp		18/udp		# message send protocol
+chargen		19/udp		ttytst source
+time		37/udp		timserver
+rlp		39/udp		resource	# resource location
+domain		53/udp		nameserver
+bootps		67/udp
+bootpc		68/udp
+tftp		69/udp
+gopher		70/udp
+www		80/udp			# HyperText Transfer Protocol
+kerberos	88/udp
+csnet-ns	105/udp		cso-ns
+rtelnet		107/udp
+pop2		109/udp
+pop3		110/udp
+sunrpc		111/udp
+ntp		123/udp				# Network Time Protocol
+netbios-ns	137/udp
+netbios-dgm	138/udp
+netbios-ssn	139/udp
+imap2		143/udp
+snmp		161/udp				# Simple Net Mgmt Proto
+snmp-trap	162/udp		snmptrap	# Traps for SNMP
+cmip-man	163/udp
+cmip-agent	164/udp
+xdmcp		177/udp
+nextstep	178/udp		NeXTStep NextStep	# server
+bgp		179/udp
+prospero	191/udp
+irc		194/udp
+smux		199/udp
+at-rtmp		201/udp
+at-nbp		202/udp
+at-echo		204/udp
+at-zis		206/udp
+z3950		210/udp		wais
+ipx		213/udp
+imap3		220/udp				# Protocol v3
+ulistserv	372/udp
+biff		512/udp		comsat
+who		513/udp		whod
+syslog		514/udp
+talk		517/udp
+ntalk		518/udp
+route		520/udp		router routed	# RIP
+timed		525/udp		timeserver
+netwall		533/udp				# -for emergency broadcasts
+kerberos	750/udp		kdc	# Kerberos (server) udp
+webster		765/udp
+ingreslock	1524/udp
+prospero-np	1525/udp
+rfe		5002/udp		# Actually uses UDP only

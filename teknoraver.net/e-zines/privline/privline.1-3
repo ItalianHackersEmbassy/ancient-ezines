@@ -1,0 +1,893 @@
+----------------------------------------------------
+
+VOLUME 1, NUMBER 3 --
+PRIVATE LINE: A JOURNAL OF INQUIRY INTO THE 
+TELEPHONE SYSTEM
+
+INFORMATION ON PRIVATE LINE
+I. EDITORIAL PAGE
+II. UPDATES AND CORRECTIONS
+III AN INTRODUCTION TO LOCAL SCANNING
+IV. DEF CON II REVIEW: FEAR AND HACKING IN LAS VEGAS
+V. ROAD TRIP TO VEGAS
+IV. A FEW THOUGHTS ON EMS AND 911
+
+----------------------------------------------------
+
+GENERAL INFORMATION ON PRIVATE LINE
+ ISSN No. 1077-3487
+
+A. private line  is published six times a year by Tom Farley. Copyright 
+(c) 1994 It runs 24 to 28 pages. It's done in black and white. 
+
+B. Subscriptions: $24 a year for subscriber's in the U.S. $31 to Canada 
+or Mexico. 
+$44 overseas. Mailed first class or equivalent. 
+1.  Make checks or money orders payable in US funds to private line.      
+2.  Back issues are five dollars apiece.
+3.  A sample is four dollars.
+4. The mailing list is not available to anyone but me.
+
+C. Mailing address: 5150 Fair Oaks Blvd. #101-348, Carmichael, CA 
+95608
+
+D. e-mail address: privateline@delphi.com
+
+E. Phone numbers: (916) 488-4231  Voice   (916) 978-0810  FAX 
+
+F. Submissions: Go for it! Anything semi-technical is strongly  
+encouraged. I pay with subscriptions.
+
+G. Ads: Yes, I'm taking electronic related ads. A full page is $75.00, a 
+half page $37.50 and a quarter $18.75. Subscribers get free classified 
+ads of 25 words or less.
+
+H. Feel free to post this file at any site or on any BBS you wish. I just 
+ask that you keep the file together and not sell any hardcopy version of it. 
+Fair enough?
+
+I. The fourth issue is now on sale. Send me four dollars or ask your 
+dealer to get it through Fine Print Distributors.
+
+------------------------------------------------------------------
+
+I. EDITORIAL PAGE
+
+Going National; War Footing
+
+Welcome to the third issue of private line. I hope you enjoy it. The look 
+and feel of this issue is different from the first two. Why? Well, it's an 
+effort to make the magazine more readable. The first two issues had a 
+great deal of information. I presented that information, however,  in a 
+dry, humorless form. Without enough pictures and photographs. I think 
+I can do better, in fact, I know that I must. private line is going national.
+
+I got a letter from Fine Print Distributors of Austin, Texas when I got 
+back from Def Con. Fine Print distributes FactSheet5  as well as several 
+hundred other periodicals. They wanted to distribute private line. I was 
+happy that I had found a way to put the magazine on newsstands. That's 
+where my readers are. But Fine Print wanted 250 copies to start. As in 
+starting now. And that's when the problems began.
+
+I had been producing private line cheaply by myself. I'd take the 
+originals to Kinkos and run off twenty-five or thirty copies at a time. It 
+was an affordable, part time hobby. Two hundred and fifty copies, 
+however, is quite a different thing. That would cost at least 300 dollars. 
+Plus shipping. I would prefer, however, to print 350 copies since I sell 
+back issues and because I need samples. That's at least four hundred and 
+fifty dollars. For the first issue. With five more needed for 1995. With 
+no guarantee that the magazine would sell. I could be down over three 
+thousand dollars in less than a year. What to do? I needed financing, a 
+small business plan and some advertisers. A scanner to add pictures. And 
+time to learn how to produce a more readable 
+magazine.
+
+So, I  punted. I put off the distributor. I explained the problems and they 
+were very nice about it. They would be ready when I was. I thought that 
+the first of the year would be a good idea. The first national edition, 
+therefore, comes out in January of 1995. private line is now on a war 
+footing. We're behind schedule but world domination will begin soon. 
+We will never put off a major decision again. Instead, every opportunity 
+will be exploited immediately. private line's staff has dispersed and gone 
+to ground. This assures the public that the national issue will not be 
+stopped. We'll come out swinging for the national edition. Speaking of 
+which, let me tell you about some new things scheduled for the January 
+issue.
+
+Chris Hall of Executive Protection Associates has agreed to write a 
+column. He's their Chief Operating Officer. This company deals with, 
+among other things,  industrial espionage and corporate spying. He 
+helped give a great talk at Def Con. His first column may be on telephone 
+bugs.
+
+John Higdon will write a column about telecom from a non-corporate 
+point of view. John keeps alt.dcom.telecom.tech together. It is the most 
+technically grounded newsgroup. John is a  good writer with common 
+sense. His posts are always informative and independent.
+
+I will add a small column on telephony and  the internet. I'll try to list 
+which resources feature information on communications. The internet is a 
+great help to learning. Books and magazines are wonderful but limited.  
+Try to find, for example,  a  recent American book on pay phones. There 
+aren't any. But you may find a coin line expert  in a newsgroup who is 
+willing to talk. Many people in these groups have worked their entire 
+lives in telecom. They have insights and answers that you will not find 
+anywhere else.
+
+In the meantime, this issue will concentrate less on technical issues and 
+more on observation and opinion. There is no other way to comment on 
+Def Con. The January issue will have more real information. There may 
+be less, however, than in the first two issues because of the space taken 
+up by the photographs. Still, the information that is presented will be 
+more understandable than in the past. I wish you all well and I hope you 
+contribute.
+
+73's
+	
+Tom  Farley
+
+II. UPDATES AND CORRECTIONS
+
+1.	I made a big mistake in the second issue. It's in the Coin First 
+Coin Line article. In paragraph 3.31 I wrote that ". . . coin first did 
+contribute something that it is used to this day by every dial tone first 
+telco pay phone. It's called ground start." Wrong, wrong, wrong.  Pay 
+phones actually use loop start, just  like ordinary phones. Pay phones do 
+use a ground to produce many signals but they do not depend on it for 
+making the original  connection. A pay phone may use groundstart for 
+origination as an option. Groundstart is the  rare exception and not the 
+rule. Let's go over my mistake. It says something about making 
+assumptions, the lack of good reference material and about how useful 
+the internet is.
+
+2.	Ground start first interested me because it is unusual. A telco coin 
+line is different in many ways than a normal subscriber line. That made it 
+easy for me to think that a coin phone originated a call in a different way. 
+Fike and Friend stated that  "Ground start lines are used on loops 
+connecting PBXs to the central office, and in other situations  where it is 
+desireable to detect a line that has been selected for use (seizure of the 
+line) instantaneously from either side of the line." (emphasis added) (1)
+
+3. 	What were these other situations? Pay phones. A table in 
+Engineering and Operations in The Bell System describes the various 
+kinds of loop signaling. It says that coin stations use "loop start or 
+ground start origination" and that loop signaling may involve "ground-
+start format similar to coin service for PBX-CO trunks. (2) Freeman 
+reprinted this table without comment in his weighty tome. (3) Seemed 
+like good enough authority to me. The language in the chart, however, 
+was conditional. It said may. I thought these three sources proved that 
+pay phones used ground start. All I proved, however, was that pay 
+phones might use ground start. I never went back to check my notes once 
+I made my conclusion.
+
+4.	There's more. I didn't know why ground start was used.  So  I 
+speculated. I thought it tied up switching equipment for less time than 
+loop start. After all, time was the chief reason why the Bell System chose 
+coin first instead of  post pay at the turn of the century.  I described their 
+decision in the Post Pay article in the first issue. In the second issue I 
+quoted Bell System literature that  detailed how concerned they were with 
+this problem when they re-introduced dial tone first in 1968. 
+
+5.	My speculative argument assumed that ground start is quicker 
+than loop start. Supporting this assumption was Fike's use of the word 
+"instantaneously" in the quotation previously mentioned. Instantaneously 
+seizing a line, however, seems to refer to PBX operation; not the "other 
+situations" that he also mentioned. Seizing the line instantaneously may 
+prevent an incoming call from displacing an outgoing call with a PBX. It 
+does not mean necessarily that ground start is faster. I myself alluded 
+to this in Telco Payphone Basics, Part II.  
+
+6.	In paragraph 1.71-2(2) I said that DC signals are quick. That's a 
+chief reason for their use. Ground start is a DC signal just like loop start.  
+I pointed out that a DC signal traveling at even 60% of the speed of light 
+would be moving at near a hundred thousand miles a second.  What 
+difference in time would there be, therefore, between ground start and 
+loop start? Most pay phones are within three to eight miles of a central 
+office.  All DC signals must act as if they are instantaneous. Any 
+difference in time between loop start or ground start is probably 
+minuscule or irrelevant or both.
+
+7.	That's not all. I used two other facts to bolster my argument that 
+pay phones used ground start. This part of the argument was also wrong. 
+The presence of a coin is detected by the presence of a ground. Dial tone 
+first, I thought, would then utilize ground start as part of its operating 
+system. Not so. One does not depend on the other. Loop start can be 
+used even if a ground is used for other things. Reeve clears up all this 
+confusion in his excellent chapter on Coin Line Services. He says that 
+"(M)ost prepay paystations are loop start, but many can be optioned for 
+ground start."(4)
+
+8.	I found out about my mistake from alt.dcom.telecom.tech. I got 
+involved in a discussion about ground start. People commented on why it 
+was used in PBX operation. No one, however, mentioned pay phones.  
+So I did. I asked why COCOTs used it and not telco pay phones. A coin 
+line expert named Jay replied in great detail that both kinds used loop 
+start. I was rather defensive at first since it went against what I had 
+written. His comments, however, forced me to go back to my notes. He 
+was right. He also gave details about coin phones that I have not found 
+elsewhere. This is what makes the newsgroups so compelling. A 
+question, though, remains: why would a pay phone use ground start? 
+Why would a coin line be optioned for this method? I'm still working on 
+finding this out. 
+
+NOTES:
+
+(1.) Rey, R.F., ed. Engineering and Operations in the Bell System. 2d 
+ed. Murray Hills, N.J. AT&T Bell Laboratories. 1983 
+
+(2.) Fike, John L. and George Friend.  Understanding Telephone 
+Electronics.  2d. ed. Carmel, SAMS 1990 191
+
+(3.) Freeman, Roger L.  Reference Manual for Telecommunications 
+Engineering  Wiley Interscience. New York 1985 74
+
+(4.) Reeve, Whitman D.  Subscriber Loop Signaling and Transmission 
+Handbook: Analog. New York: Institute of Electrical and Electronics 
+Engineers. IEEE Press. 1992 223
+
+III AN INTRODUCTION TO LOCAL SCANNING
+
+9.	Editor's Note: I hoped to make this article a complete guide to 
+local scanning but time ran out on me. I had to turn over the entire project 
+to a local hacker at the last moment. Biff was incensed that I dumped this 
+on him. He did agree, though, to write the following introduction.
+
+An Introduction	
+
+10.	Local scanning is a  systematic attempt to find interesting phone 
+numbers. It is a daunting task in many cases because of the number of 
+numbers. A prefix contains 10,000 possible numbers. A large city may 
+contain hundreds of prefixes. Even smaller cities have access to a huge 
+wealth of possibilities. The village of Fair Oaks, for example, uses only 
+11 prefixes. A local call, for them, however, goes out to a total of 149 
+prefixes. That's 160,000 possible numbers to investigate with a local 
+call. And, of course, that does not include unlisted prefixes, test numbers 
+or telco numbers. Let's start at the beginning.
+
+Some History
+
+11.	The first three digits in a phone number guide the call to the right 
+central office or exchange. The next four digits direct the call to the right 
+subscriber in that exchange. Why 10,000 numbers in a prefix?  Why not 
+a thousand? Or 3,425? It's because early switching equipment was 
+designed that way. Tradition continues it. Step by step equipment was 
+arranged in banks of one hundred contacts. Each bank or selector had 
+ten rows of ten contacts. Three banks produced 10,000 numbers. 
+Smaller communities used two banks. Bigger cities used four. It's easier 
+to study the old diagram below.
+
+The Big Picture
+
+12.	The prefix map on the next page represents a look at one city's 
+prefixes. It is the logical map to develop if you are interested in your city 
+as a whole. A better map would be color coded. Cell prefixes would be 
+printed in one color, pager prefixes another, governmental agencies 
+would occupy still another. Most prefixes are not dedicated to a single 
+use but you could note the ones that were. 
+
+Getting Started: Some Suggestions
+
+13.	This depends on what you want to do. What you're interested in. 
+If you are in a big city you have hundreds of thousands of possible 
+numbers to call. Here are some suggestions if you're not sure:
+
+14.	a.) The ANAC Angle: Absolutely critical to find. Your first 
+assignment. ANAC stands for automatic number announcement circuit. 
+It's a phone number that you call to get the number you are calling from. 
+Linemen use it to verify the line that they are working on. You can use it 
+to find the number of a pay phone that no longer has its number 
+displayed. Among other things.  ANAC's are central office specific.  
+They can vary from one city to another, or even from parts of one city to 
+another. ANAC lists are scattered about the internet and even on services 
+like Compuserve. These are lists built  on the definitive anac guide article 
+published in the Autumn 1990 issue of 2600. I did not reproduce it 
+because it is copyrighted. In any case, these lists do exist and they are 
+arranged by area codes. You may not find your number. I have not seen, 
+for example, an ANAC ever listed for 916. So you must search. Many 
+ANACS revolve around touch tone keys that are close together. There are 
+a great deal of "2's" and "1's" in the guides. This probably makes it easy 
+for the lineman to punch in a number quickly. 
+
+15.	I found the ANAC for my part of town in six tries. It's (916) 
+211-2222. It was a fantastic piece of luck but I did concentrate on "2's" 
+and "1's". I had a plan. I may, though, go to Davis and hunt for hours. 
+If you are really frustrated then get to a  2600 meeting. Post a message to 
+alt.2600. But try first. And then spread the wealth. I had my local ANAC 
+up on the net within five minutes of its discovery. There are 800 numbers 
+that do the same thing. A local ANAC is preferable since it keeps the 800 
+number from being abused. 
+
+16.	b.) The Payphone Angle: Telco payphones rely on specific 
+circuitry at specific central offices. Not all CO's have the hardware to 
+perform coin line functions. Telco payphones, therefore, have been tied 
+to certain CO's. Your mission, should you decide to accept it, is to map 
+out the locations and numbers of each payphone in an area near you. You 
+can investigate them further once your inventory is completed. Here are 
+some tips.
+
+17.	An old Thomas map book works great for noting the location of 
+each phone. The particulars ought to be logged in a notebook, with the 
+kind of information I have in my sample sheet on page 55. Do not ignore 
+the wiley COCOT. Many started out as telco payphones. Many still have 
+the same number they did when the telco owned them. They may not be 
+tied to the same circuitry but they do provide clues with their numbers. 
+Speaking of numbers, an 800 ANAC is sometimes essential to have if the 
+number is missing. Although ANAC calls are free with most telco 
+phones, a private phone may charge for the call if it can be completed. 
+Their automated coin toll service or ACTS may ask you for a substantial 
+sum. And then you might just get a long distance call and not the number 
+reading back to you.
+
+18.	c.) The Telco Angle: Scanning for telephone company numbers. 
+Always fascinating. Try the lower end of the biggest, oldest exchanges. 
+You'll note in your phone book that certain prefixes are tied together. For 
+example, 440-449 or 451-457. Start out at the bottom of 440. Numbers 
+like 440-0031, 0041, 0003 and so on. Try the first 100 numbers for that 
+exchange. Try the top 100 if nothing is there. You'll find tons of 
+interesting numbers if you are persistent. The bottom of 440, for 
+example, is like an announcement store. You get recordings like "Due to 
+telephone company facility trouble, your call cannot be completed at this 
+time." Or, "Due to heavy calling, your call cannot be completed at this 
+time." Even the ominous, "There is no charge for this call. This number 
+has been disconnected as a result of a recent federal court decision and 
+Pacific Bell's business policy." 
+
+19.	You'll also find test tones and telco modem numbers in places 
+like these. You might also pick up the telco name for each exchange. 
+Someone picks up the line at the bottom of 440 with just the words 
+"Main" Calling it that makes sense since it is the largest CO downtown. 
+But who would know what "Ivanhoe" means in the 481 exchange? Well, 
+I do. The 481 used to be dialed with IV when letters were used. IVanhoe 
+8349, for example. To this day, the only human you'll find at the bottom 
+of 481 still answers "Ivanhoe" when he answers the phone. It's still their 
+name for that exchange. Telco tradition dies slowly if at all. By the way, 
+you can find a list of these older names at a well stocked local libary. 
+Look in old newspapers or any locally produced magazine from before 
+1955 or so.  Ads in the back of old high school year books work well, 
+too.
+
+20.	d.) The Answering Service Angle: I've had good results with 
+this, although I'm not sure what I have. Older, smaller exchanges often 
+had answering services tied to a particular range. You can still find this in 
+most cities. Call numbers near existing services. No need to call a listed 
+number. You'll get answering machines that are actually voice mail 
+locations, weird tie lines and merchant credit numbers. It's all quite 
+strange. Perhaps the telcos grouped the answering services together in 
+order to deal with heavier loads. Maybe it says something about the 
+switch.
+
+21.	e.) The Governmental Telephone System Angle: Always 
+intriguing. I find it fascinating the way that certain counties arrange their 
+communications. You get a taste of this on page 63. Each little 
+community or district needs to communicate with the county seat. Many 
+times it is simply with ordinary dial up lines. Other times it is most 
+complex. Best approach is to poach the relevant county phone book in 
+order to get started.
+
+Logging Your Calls
+
+22.	The most difficult part of scanning is keeping your records 
+organized. It's just about impossible with paper.  It could be done with 
+the right software, but that is quite a project. Let's look at paper first. 
+Check out the experimental  worksheet on page 55.  It's nothing special, 
+just a table done in Word. The spacing, though, is correct. You need that 
+much room to make notes. And you need the numbers to be printed out 
+before you make a call. Don't write down each number as you go. It 
+doesn't work. Notice how one sheet only covers 100 numbers. One 
+prefix, however, needs 100 sheets. What's needed is the right equation 
+for EXCEL. You could then produce the pages needed for a  particular 
+range.
+
+23.	An electronic logging program might be the best thing but I'm not 
+sure it's worth it by itself. If you develop such a beast then you might as 
+well commit to a war dialer as well. A single program could help place 
+calls as well as log them. Quite a project. I am uneasy about any program 
+than scans an entire prefix. You might hassle as many people as a 
+telemarketer. I think the best scanning happens while disturbing the 
+fewest people. (As if you are calling to talk to anyone.) I'd like some 
+comments from anyone interested in local scanning. Hams have a great 
+deal of logging software that is in the public domain; possibly some of it 
+could be converted.
+
+Biff
+
+IV DEF CON II REVIEW: FEAR AND HACKING IN LOS VEGAS
+
+24.	We were somewhere around Barstow on the edge of the desert 
+when the cell coverage began to come in . . .  The second Def Con was 
+held at the Sahara Hotel in Las Vegas on the weekend of July 21, 1994. 
+Three hundred and seventy people attended. At times it was chaotic, 
+disorganized and anarchistic. I can't wait to go again. Where else can you 
+hear a discussion of UNIX, cryptography, industrial espionage, and the 
+Chaos Computer Club in one weekend? For fifteen dollars? There were 
+some problems. None of them, however, seemed serious enough for me 
+to be concerned with. Dark Tangent and his people deserve 
+congratulations for pulling off a great event for the second year in a row.
+
+25.	The con got off to a rocky start on Friday night. Mark Ludwig 
+was to have spoken on UNIX security. But no Ludwig appeared. He 
+was rumored to be either sick, jet lagged or drunk. No one knew. We did 
+know, however, that the Def Con people were in trouble. There was no 
+alternate speaker. One of Dark Tangent's friends tried to stall for time by 
+telling bad jokes on the stand. There was, however, nothing to stall for. 
+Audience members themselves arranged a discussion of UNIX after 
+about a half hour. The con had been hacked. Peter Shipley bravely 
+volunteered to answer general UNIX questions. 
+
+26.	You could tell by the audience questions than many in the crowd 
+knew a great deal about UNIX.  Few, though, got up to speak. Peter 
+did.  That deserves credit. Shipley's company is the Little Garden in San 
+Francisco. It provides internet connections to the greater San Francisco 
+bay area.  His remarks reminded me that I need to learn more about 
+UNIX. Much of the discussion went right over my head. Still,  that is 
+my fault. English may be the unofficial language of the internet but 
+UNIX seems to be the official one.
+
+27.	Saturday ran more smoothly. Philip Zimmerman introduced 
+himself by saying in a quiet voice that he had authored Pretty Good 
+Privacy. The crowd gave him a round of loud applause. Zimmeran talked 
+about electronic privacy, new developments with PGP and how he was 
+now the subject of a federal grand jury investigation. It was somewhat 
+eerie to listen to Zimmerman. An invisible whirlwind of current events 
+and history surrounds him as he speaks. Hearing him speak was enough 
+to justify the entire trip to Vegas. At least for me. I won't remember 
+much of this convention ten years from now. But I will remember that I 
+saw Zimmerman at Def Con.
+
+28.	He talked about designing simpler interfaces to make PGP easier 
+to use. True point and click routines with graphical interfaces. He also 
+went to great lengths to explain that the current release of PGP is as 
+robust as the older version. The new one is slightly different for patent 
+and legal reasons.  He also talked about how close he was to perfecting a 
+secure voice phone based on PGP routines. You wouldn't need a special 
+telephone, just your regular computer. Using conventional Sound Blaster 
+cards and 19,000 baud modems, one could finally talk on a telephone 
+line in complete privacy. Just so long as the party on the other end has 
+the same equipment. He also told a story that someone had told him. 
+AT&T engineers supposedly became depressed upon hearing of his 
+work. They should be. A cheaper, better system now threatens their 
+expensive Clipper based phones.
+
+29.	Gail Thackeray spoke next. She is now a deputy district attorney 
+for Maripoca County, Arizona.  Her points were poorly delivered and not 
+well received. Her first stumble came when she seized upon an innocent 
+example provided by Zimmerman. He said that privacy was simple in the 
+old days. You just went behind the barn to talk with someone in private. 
+PGP restored what people had before the days of electricity and 
+electronics. Thackeray attacked this. She maintained that privacy was 
+never assured because your comments could always be misinterpreted 
+and distorted later. What? Zimmerman's point was that privacy used to 
+be secure during transmission. Thackeray's point dealt with the 
+conversation after transmission. The two points are not related. Yet she 
+tried to say that they were.
+
+30.	She then trotted out the same tired arguments she related to  Bruce 
+Sterling in The Hacker Crackdown. One is that law enforcement needs 
+better tracing abilities. A telco once told her that a kidnapper's call 
+couldn't be traced. This still upsets her. She provided no details about the 
+incident. I have no idea, therefore, why the company couldn't. I suspect 
+it may be a problem beyond legislation. Tracing calls from  certain 
+remote places may be difficult or impossible. Arizona and the West in 
+general have dozens of small phone companies that use simple central 
+office equipment. These may not pass ANI or automatic number 
+identification to the toll office. What then? Many CO's support party line 
+service. How do you know, therefore,  if the call is coming from Ranch 
+A or Ranch B? There are also thousands of miles of open carrier wire and 
+aerial cable that can be clipped into without detection. Just you, your 
+lineman's handset and your jeep between, say, Jarbridge, Nevada and 
+Elko.  How does better call tracing help any of this? And why is she 
+talking about this to us? Talk to a telco, that's what I say. Or give us 
+some specific information. 
+
+31.	Thackeray also talked about how encryption works against 
+discovering the dreaded, mythical nuclear bomber, Her worst fear. The 
+scenario that she holds us hostage to. The reason that we have to accept 
+Clipper or some other government imposed encryption standard. Get 
+real. For better or worse, someone who has a nuclear bomb is already 
+using encryption, passing notes by hand or delivering plans in a 
+diplomatic pouch. The issue is moot unless the government makes their 
+form of encryption the only one that people can use.  And only then if 
+they are prepared to jail people for not going along. Listening to 
+Thackeray, I am convinced that law enforcement is ready to do that.
+
+32.	Her talk really broke down after the first audience question. One 
+audience member said that he didn't worry about the police reading his e-
+mail; the reason that he encrypted was to keep snoopy system 
+administrators from reading it. A reasonable solution to a common 
+problem. Thackeray's demeanor changed when she heard this question. 
+Her voice became strident. She said that she didn't have a problem with 
+him doing so, for now, but her tone was very condescending. "What" 
+she seemed to say, "e-mail? I have bigger problems to deal with."
+
+33.	Yeah. Sure you do. Until my e-mail interests you and you can't 
+read it. The audience kept up their questioning. She kept delivering fuzzy 
+answers. This is the woman who has talked to hackers for years? About 
+what? What useful information has she given us? Tell me what happens 
+when I'm arrested. What the process is. The difference between federal 
+law and state law.   What the fines are. The code sections we might be 
+arrested under. I heard nothing specific.  We got philosophy instead. 
+Great.
+
+34.	A central theme to her talk was that we may all have to abide by a 
+breakable encryption scheme. Why?  In order to fulfill  a social contract 
+that she maintains exists between all members of society. The greater 
+good, that sort of thing. Defined, of course, by her and law enforcement. 
+
+35.	Well, that's a big subject. One best discussed over many drinks. 
+In the end, however,  I'm not sure that anything useful will be 
+accomplished, no matter how much philosophizing and talking that you 
+do. Law enforcement types favor control. Hackers push control away. 
+No two groups could be farther apart before they start talking. No 
+amount of talking will bring them together. Communication does not 
+necessarily lead to acceptance or understanding. Both sides of the 
+abortion debate, for example, understand each other's position very well. 
+Neither side, however, will change. Endless arguing may appeal to the 
+contentiously inclined but I would rather participate in a debate with a fair 
+chance of winning. Thackeray gamely answered people's questions after 
+her talk. I got two back issues out of my back pack. "What the hell", I 
+thought. I'll give her two copies of private line. She did make the effort 
+to get here. Maybe she'll read my comments on California toll fraud in 
+those issues. Maybe she'll see that some people are interested in 
+specifics. As I waited to hand her the issues, though, I heard her say 
+something to an acquaintance. She said that many in the audience were 
+very naive and that many had never thought about some of the 
+issues that she raised. I stepped up and told her that my magazine 
+contained some naive ramblings about California Penal Code section 
+502.7 and 502.8. She looked a little lost at hearing Penal Code cites in 
+this strange setting but she did thank me. The Con raced on after this. 
+There were some canceled talks but other people stepped in. The 
+following is a loose collection of notes on some of the more interesting 
+speakers. In no particular order. 
+
+36.	Stephen Dunnifer of Free Berkeley Radio gave an interesting, 
+politically charged talk on micro-broadcasting. He's trying to bring radio 
+to the community and neighborhood level with low power transmitters. 
+His radios seem well built and designed. Most current circuits don't drift 
+enough, anyway, to cause interference. His people are currently fighting 
+the FCC to loosen restrictions on licensing. Starting a radio station today 
+means tens of thousands of dollars. And then what do you get? A 
+monolithic station that doesn't serve an area very well. KFBK in 
+Sacramento, "the flame-thrower of the Central Valley" seems to cover 
+Carmichael only when there is a murder. No local news. Dunnifer's 
+people will go to court to change things. As a ham I feel that the FCC 
+will never move away from the present system without that court order. 
+Dunnifer thinks that changing the system through legislation is 
+impossible. He's probably right.
+
+37.	Padgett Peterson talked about viruses and computer security. He 
+has been involved with computers since the 1950's. He's done quite a bit 
+of work for the military including all sorts cryptography projects. 
+Peterson spoke with a quiet authority. He seems to see the Big Picture. 
+He knows how things work. Most of us are trying to figure out bits and 
+pieces of the puzzle a little at a time. He has worked full time in computer 
+related fields for over 30 years.  He says, for example, that a DOS 
+computer gives him everything he needs. Doesn't need UNIX to do 
+anything. But that's because he knows UNIX already. He can make that 
+kind of decision because he knows both systems. As a beginner I don't 
+think that I can put off learning UNIX even though he says it isn't 
+necessary. I'll probably stick to basic commands, though, and let it go at 
+that. Peterson also talked about how viruses were changing. He said that 
+many people say they are developing viruses to learn more. If so, he 
+said, then viruses should become harder to find yet easy to remove once 
+discovered. The reverse is true. Today, he said, viruses are just as easy 
+to discover but they are much more difficult to get rid of. 
+
+38.	Winn Schwartu gave a fascinating talk on electronic security, 
+state sponsored corporate theft,  HERF guns  and EMP/T bombs. 
+Among other things. I might have thought he was a charlatan but I think 
+he is the real thing. I overheard him talking about electromagnetic pulse 
+weapons at lunch to his friends. He was trying to explain the technology 
+to his friends with the enthusiasm of a little kid. In other words, he really 
+enjoys his work. He's written a few books but he didn't push them on 
+anybody. He hardly mentioned them at all. I respect the discipline that 
+that takes. He also hung around the con for the entire weekend, unlike 
+some speakers who came in and left quickly. His just wrote Information 
+Warfare: Chaos on the Electronic Superhighway.
+
+39.	Dead Addict offered some home spun philosophy about the 
+electronic future. I think DA's real contribution to Def Con were his 
+frequent questions about better interfaces. He seemed to ask every 
+programmer about how they would develop a program that was easier to 
+use. I think we all assume that programmers are working on better 
+GUI's. It's not a bad idea to have someone make sure.
+
+40.	Dr. Mark Ludwig talked about viruses, file security and on being 
+a citizen of the world. He writes a quarterly on viruses. He sponsored a 
+virus contest just for the convention. Before he gave out the best virus 
+award he noted a contest rule. He said it prohibited a destructive virus. 
+"But" he added, "I don't consider the destruction of an anti-virus 
+program to be a destructive act." I thought that rather clever.
+
+41.	He talked about how important it was to encrypt files and to 
+encrypt them often. He also talked about  how we ought to become more 
+comfortable with travel and distant places. Take cheap flights when you 
+can to visit different countries. Get used to the idea that you can move 
+yourself and your work to another place if you need to. I thought this 
+was a liberating kind of talk. Most of us get used to our surroundings. 
+He seems comfortable traveling to, say, Nigeria at a moment's  notice. 
+He also mentioned a few books that give information on setting up 
+overseas bank accounts.
+
+42.	Chris Hall of Executive Protection Associates, Inc. helped give 
+an interesting talk on industrial espionage and corporate security. He's 
+their Chief Operating Officer. There were a lot of security types at the 
+con. They talked about bugging and wiretaps and showed some 
+photographs. They made the important point that you really can't do 
+much about law enforcement monitoring. If they are using a form of 
+REMOBS or remote observation, then they listen through the central 
+office and not in a location that you can access or control. Chris will soon 
+be writing a column for private line.
+
+43.	These were just some of the speakers. It seemed that on Saturday 
+and Sunday someone was always talking. Some people bailed out and 
+others filled in. I never did catch any talk on cell phones, despite a few 
+being listed in the program. Still, White Lightning brought along a 
+custom test set that he uses with his cell work. He patiently answered 
+questions and demonstrated how the equipment worked. This demo was 
+out in the lobby but improntu demonstrations happened here and there by 
+different people. Most were the result of pure curiosity and enthusiasm 
+for different kinds of technology.
+
+44.	I was surprised how socially connected people were. It dispels 
+the lone hacker myth. Only 30 to 40 people sat by themselves before each 
+talk. The conferees were young. Most seemed in their 20's with some 
+generation Y and a few thirty somethings thrown in. Everyone over 
+thirty, by the way, was deemed to be a Fed.
+
+45.	 I was also taken by the enormous creativity of the event. 
+Americans are a creative, driven lot. We are a nation of tinkers, 
+inventors, gadgeteers and fix it men. It has always been this way. 
+Thomas Edison, Samuel Morse, Eli Whitney and Elias Howe were all 
+represented in some small way by all of the people at the con. We push 
+toward a common goal: understanding. Figuring out how things work. 
+Motivated for different reasons, perhaps, but motivated none-the-less. 
+Infuriated when we don't have the information we want. Delighted when 
+we get that last piece of the puzzle. Only to find, of course, that there is 
+another puzzle to figure out. I can't think of a better life.
+
+Def Con Info:
+
+e-mail list: majordomo@fc.net with "subscribe dc-announce"  in the 
+body of the 
+message to join the announcement list.  "subscribe dc-stuff" for the 
+chat list.
+
+FTP : fc.net in /pub/defcon from cyberspace.com.
+
+DT's e-mail: dtangent@defcon.org
+ 
+Snail mail: DEF CON
+                   2709 E. Madison #102
+                   Seattle, WA, 98112
+
+(DT says that he has tapes of the whole convention for sale.  They 
+consist of (10) 90 minute tapes, $32.90 for a set.  He also has some 
+shirts left: 20 long sleeve white shirts, about 1/2 old style 1/2 new style.  
+They are three color  front, two color back and $22.90 (that extra 2.90 is 
+for postage))
+
+V. ROAD TRIP TO VEGAS
+
+46.	We took the road less traveled. Most people from Sacramento go 
+down the Central Valley to Bakersfield and then head east to Vegas. That 
+route looked fast and boring. We wanted slow and interesting. I just put 
+out the second issue and  I was tired. In no mood to rush. So, we took  a 
+criss crossing, zig-zagging route instead. We went over the Sierra 
+Nevada, down to Bishop and then over the White mountains to Nevada. 
+A two day trip. We started out by pointing the Jeep east along Highway 
+16, the old Jackson Highway. It runs into Highway 49, the only true 
+north south route of  the Sierra Nevada foothills. We headed south until 
+we caught Highway 88, which then strikes north-east over the Sierra.
+
+47.	We struck gold quickly on Highway 88 near the Bear River Lake 
+Resort. Right off the highway was a Northern Telecom pay phone that 
+ran on solar power. Cool. It even had a locking cabinet around it. The 
+number is (209 295-9801. A telco with perhaps the most distinctive name 
+in America operates this pay phone: The Volcano Telephone Company. 
+They serve a fairly large area in the central Sierra . Three exchanges. Six 
+thousand lines or so. Their trucks are white with bold blue lettering if 
+you are keeping a watch. I resisted the temptation to call Belize and took 
+photos instead. We kept on 88 until it ran into 395. We then headed 
+south.
+
+48.	The next stop was the slightly funky town of Markleeville. Tye 
+dye clothing. VW buses. CONTEL country. Continental Telephone 
+Company of  California, that is. Pay phone placards suggested that repair 
+and admin were out of Stateline at Lake Tahoe. CONTEL operated 
+dozens of step by step offices as late as 1987. One post to a newsgroup 
+stated that CONTEL installed 5ESS's in many Southern California cities 
+instead of the less expensive GTD-5's. Enlightened thinking, indeed. I 
+don't know, though, what kind of switch now serves Markleevile. It 
+may be a remote instead of a stand alone switch.
+
+49.	I do know, however, that 99XX numbers tie most pay phones 
+together from here to Bishop. Numbers like 694-9994, 9991, 9995 and 
+so on. Some run in consecutive order. For example, at the top of 
+Conway Summit on Highway 395 is a pay phone. Right at the 8,138 
+foot mark. It's number is (619) 647-9964. The next  stop is the Mono 
+Basin National Scenic Area about a dozen miles away The two pay 
+phones there are 9962 and 9961. What happened to 9963? Probably back 
+at the one phone I didn't stop at on the way. Might be pretty easy to find 
+test numbers in this country Stop at the Visitor Center if you drive by 
+Mono Lake. It's well done. You can learn about tufa. Rain and lightning 
+over the Sierra Nevada provided a dramatic background as we visited. A 
+tropical storm had pushed inland from the  Gulf Of Mexico. 100 percent 
+humidity and 85 degrees. Humidity in Las Vegas the next day would be 
+less than 10%.  Next stop was Bishop. The overnight destination. 
+
+50.	We stayed at the Frau Haus or the Krautz Haus motel I don't 
+remember. At four p.m. it  was hot and humid. Overweight people filled 
+the pool. The only way to cheer me up was to find a used bookstore.   
+Which we did. I found a three year old book on telecom for about seven 
+dollars.  This brings up an important point. Many used bookstores in 
+bigger cities are picked clean when it comes to telephony. Try book 
+stores in smaller towns as well as antique stores. You may be surprised
+
+51.	I passed out after dinner and then woke up around 10:30 p.m. 
+Time for a night op. I strolled over to CONTEL's corporation yard 
+downtown. They maintain a big presence in Bishop. You can't miss their 
+microwave tower as you drive through the city. My intel says that Bishop 
+is a toll center. This makes sense because Bishop is the largest city in the 
+southern Sierra Nevada. CONTEL's building may also house the central 
+office switch for the city. Their corporation yard was spotless and well 
+lit. Several company trucks were parked at weird angles near the back 
+door. The building looked occupied. I understand that most toll centers 
+are manned around the clock. In any case, the highlight of their yard was 
+a brand new, bright red Snow Cat on a trailer with the CONTEL logo 
+emblazoned across the side. Great stuff.  Made me wish I had some 
+private line bumper stickers to paste on it. I bet the linemen fight 
+over who gets to make service calls with this machine during the winter.
+
+52.	We took off the next morning to cross the southern end of the 
+White Mountains into Nevada. You cross these mountains by using 
+Highway 168. We gassed up in Big Pine first before heading toward the 
+summit. Count on all gas being 15 to 20 cents a gallon higher than in the 
+city. We didn't buy any food or drinks in Big Pine. That was a mistake. 
+The next supplies turned out to be 97 miles away in Scotty's Junction, 
+Nevada.  I'm taking extra water for the jeep as well. Next time. One 
+problem with these isolated roads is that having a AAA card doesn't help 
+much. They pay for the first five miles of towing only. Getting stuck 
+fifty miles up the road might bankrupt your vacation.
+
+53.	The road to the Westgard Pass was long and turning. This is the 
+way to the Bristlecone Pine grove. Some of these trees are over 4000 
+years old. We didn't look at them because they are twelve miles off the 
+road near the top of the grade. But we will see them next year when we 
+return to Def Con. Just takes more planning. This 80 miles of road had 
+few houses along it. No services. Some ranch houses had electric power 
+but I did not see telephone cable running out to them. It's odd to think 
+of people in 1994 who don't have telephone service available. Still, that 
+is also the situation in some northern California counties as well.
+
+54.	The scenery was beautiful, though, and we enjoyed the drive. 
+Wide vistas of bare mountains and the occasional soda lake. Five or six 
+falling down houses marked the town of Lida Junction. No stores. I was 
+confident, however, that there would be something at the junction of 
+Nevada Highway 95. There was. A cathouse. I told my friend that I 
+would check things out in the interest of finding her something to drink. 
+She told me to keep driving. The drive south to Las Vegas was boring 
+and uneventful. A fiber optic cable runs alongside it. At 7,000 feet the 
+temperature in the mountains was pleasant. It was now climbing past 100 
+degrees as we drove down Highway 95. We stopped in Beatty for lunch. 
+Beatty heralds itself as "The Gateway to Death Valley." Great. This little 
+town has a strange affinity for mules. Mule Days. Twenty Mule Team. 
+Borax mining and all that. Expensive mule related t-shirts,  sweaters and 
+key chains. A casino named for a mule. We had a pleasant lunch and then 
+got back on the road. It was your basic Death Drive until Las Vegas.
+
+55.	We got into Vegas after a total of 563 miles. We traveled through 
+North Vegas first. Many North Las Vegas residents think their town has 
+an image problem. I understand. Much of this area looks like Telegraph 
+Avenue South. Litter and street people and 1050 heat. Lovely. I read 
+now, though, that they are trying to clean things up. The town got 
+cleaner but busier as we drove. Traffic is very heavy around all the 
+hotels. We didn't have a detailed map of Las Vegas so we just motored 
+toward the hotel signs.  I'll have a map next year.
+
+56.	Next year we'll set aside an even longer block of time for the road 
+trip. I think that many people could only set aside a weekend for the Con. 
+That's unfortunate. It makes everything feel rushed. My suggestion is to 
+think about taking an entire week off next year. That's what I am doing 
+since I have so much time to plan ahead.  I hope to see you there.
+
+The Sahara  Hotel ---
+
+57.	Dark Tangent would like the Con to return to the Sahara next 
+year. They are, however, raising the costs dramatically.  Dark Tangent 
+says that they now want $3,000 for the space he needs next year. Here's 
+a few random notes on the hotel in case we all wind up back there in 
+1995.
+
+58.	 The parking lot is a mess. Ignore all signs, parking attendants 
+and wrong way arrows and drive into the parking garage first. Not the 
+temporary lot. Park the car but leave your luggage inside. Scope out 
+things first. The check in line can vary from a few people to an hour long 
+wait. Get a beer and relax. Jump into line if the wait is short. The 
+baggage handlers are union, by the way, so you may want to carry your 
+own luggage.
+
+59.	The Sahara is an old casino. It's kept up well but it's been used 
+hard. The rooms though, are much cleaner and brighter than the rest of 
+the motel.  We registered early and got a room on a top floor. I didn't 
+hear anything from adjacent rooms. They do check for hotel cards before 
+you get on the elevators. I think that's a nice touch. I understand, 
+though, that they won't issue room cards to people under 18 without an 
+"adult" present. So don't lose your card if you are under age. I thought 
+there would be more friction between the casino  and those under 21. I 
+really didn't see any incidents. Maybe security was low key but I did not 
+see anything overt.
+
+60.	Driving and parking are such a hassle that you may find yourself 
+staying at the hotel the whole weekend. If so, food is going to get 
+expensive. Still, there is a nice cafe near the pool where you can buy 
+fruit, pastries, milk and sandwiches. It's actually more pleasant than the 
+restaurants, especially in the morning when you can take your food 
+outside. Speaking of the pool, the hotel does not keep it open after 
+dark. That's a shame since the area is so well lit and because the weather 
+is so hot.
+
+61.	Pay per view movies in the hotel room are an overpriced joke. 
+Seven to eight dollars. The drink specials, though, are a godsend.  The 
+Sahara had Heinekens for a dollar all weekend. They were the savoir of 
+many, including me. just got an exciting document with a dull name. 
+
+VI. A FEW THOUGHTS ON EMS AND 911
+
+62.	I just got an exciting document with a dull name.  It's called The 
+Sacramento Regional Fire/EMS Communications Center: Computer 
+Aided Dispatch and Records Management System. Request for 
+Proposals. What is it? It's an invitation to bid.  The City and County of 
+Sacramento want to upgrade the communication system that 
+handles their fire and emergency medical response. The Warner Group 
+put together for the County a complete description of the existing system 
+as well as the requirements for a new one. This booklet gives all bidders 
+the same information. They use this Request for Proposal to develop 
+their bid. It gives a lot of fascinating, telecom related details.
+
+63.	The smaller cities of Sacramento county use Macintoshes and PC 
+clones to deal with the regional communication center. The larger districts 
+use mini-computers. The larger districts have dedicated tie lines to the 
+EMS center. The smaller ones, though, still use normal dial up phone 
+lines. Galt has a dedicated line but it is over microwave. Galt, in fact, 
+wins the hacker seal of approval for having their headquarters and their 
+three fire stations running Amigas! Where do you go, anyway, for fire 
+dispatch and EMS software for the Amiga? It poorly details callboxes. 
+Many still exist in downtown Sacramento.  Some still use open wire 
+strung on poles.  
+
+64.	Alas, these different setups will probably be made uniform with 
+the new system. Motorola will probably come stomping in with A 
+Solution. The public will benefit, of course, but I'll miss  the thought of 
+a life saving message racing through the CPU of an Amiga.
+
+65.	Speaking of different setups, the Sacramento area has one of the 
+most patched together 911 systems you can imagine. Cell calls are the big 
+problem. The 911 center for the county was at capacity when cell phones 
+came in around 1986. Most phones were then, of course, in cars.  It was 
+decided, therefore, to route 911 cell calls to the CHP headquarters in 
+Sacramento. The calls from five counties tumble into their dispatch center 
+with, at times, perhaps three people to answer them. 
+
+66.	A dispatcher then has to figure out where the person is, often 
+with a poor description and a panicked caller. There's no address on a  
+screen like a land line call. Indeed, the dispatchers don't have screens. 
+Just a phone with keys. The Sacramento Bee had a long article on all of 
+this on July 10, 1994. In that piece they described a call that actually 
+happened: 1) A kid got knocked out at a ball game in Placer County, 
+2) A spectator called 911, 3) The dispatcher determined after three 
+minutes that the ballpark was in Placer County, 4) The dispatcher notified 
+the Department of Forestry since they were the agency to pass an 
+emergency call  to, 5) CDF then called the Newcastle Fire Department, 6) 
+Newcastle Fire then dispatched their medical emergency response team.
+	
+67.	Normal land line 911 calls, by comparison, go directly to a main 
+dispatch center. They verify your address with ANI or automatic number 
+identification They can also send out the appropriate agency without 
+having to pass off the call. The coming years will streamline the process. 
+I will not be nostalgic for the days of CDF handling traffic. Write me if 
+you have some information about the system in your area.
+
+privateline@delphi.com
+
+
+

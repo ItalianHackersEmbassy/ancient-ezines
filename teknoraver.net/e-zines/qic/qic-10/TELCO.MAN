@@ -1,0 +1,515 @@
+The following is a revision of AM 953-111-950, Issue 1, April 1994..
+Sorry though.. This is just a revision so I couldn't come across the 
+first 6 pages of this..
+well.. I hope somone will find it usefull in some way
+----------------------------------------------------------------------------
+7. INTEREXCHANGE CARRIERS
+
+  The Interexchange Carriers utilize unique facilities and may require some
+  special designes as facilities are provisioned. Whenever Ameritech provides
+  feeder entrance cable or their hub offices with fiber or copper, it will
+  be in accordance with this DEMARCATION POINT Provisioning Practice
+
+  When designing a DEMARCATION POINT location, consiteration must be made
+  during the negotiations for allocating adequate space requirements
+  for the placement of hardware for both current and proposed Network
+  Services.
+
+  All cabling beyond the DEMARCATION POINT will be the responsibility of the
+  customer to probide. The customer may hire any vendor, including 
+  Ameritech, to preform this work on a non-regulated, detariffed basis.
+  When the customer chooses to hire Ameritech, the procedures esplained in 
+  AM 915-900-954 should be followed.
+
+  At the Carriers' end locations the DEMARCATION POINT will be the same as
+  it is for all customers as well asall other services. If an wxtention of
+  the service to an SI is requested, it will be designed using 
+  interpositioned wiring. See Exibit 36.
+
+8. DEMARCATION POINT POSTING ON OUTSIDE PLANT RECORDS
+
+  The information shown on Engineering Work Orders (EWO) must be in complete
+  and accurate since the work reported by the field forces must agree with
+  data shown on the work orders.
+
+  In addition, the accuracy of the plant location records and assignment
+  records depends on the information shown on the work prints.
+
+  OSP Enineering, when issuing work orders for new facilities, will identify
+  the DEMARCATION POINT or additional DEMARCATION POINTS on the work print
+  and the Plant Location Record (PLR) by the use of the new "generic coded"
+  terminals, like INWPN*100 or INWNN*100.
+
+  When existing facilities have been investigated and final solutions 
+  determined by the Team, the OSP Engineer will identify the newly designated
+  DEMARCATION POINT(s) as mentioned in section 6 on the previous page. at 
+  this time, all remaining regulated network cable should be identified. 
+  Also, the embedded cable sold to the customer shall be
+
+                                 -7-
+
+
+
+
+
+   removed from the PLRs upon completion of the EWO or cable sale. Prior
+   to pre-posting the removal of any plant, a copy of the PLR containing the
+   cables on the customer's side of the DEMARCATION POINT must be made then
+   probided to the customer upon completion of the EWO or cable sale.
+
+   SUGGESTION: it might be easier and simpler to just remove the remaining
+               network cabling from the existing record and re-draw on the
+               existing distribution record or a PLR. Then provide the old
+               PLR to the customer upon completion of the cable sale.
+
+   Highlight the placement of Network Interface Hardware and re-ternination 
+   of network cables on the work prints to show work to be performed. If 
+   physical work is not required, then Engineering should place a note with
+   this information on a copy of the EWO.
+
+   The Plant Location Record shall be updated to reflect "NEW" DEMARCATION
+   POINT(s) information via the "Generic Code" terminals.
+
+   In the rare case, for unique reasons, the network cable beyond the 
+   designated DEMARCATION POINT is not sold or physically removed, the 
+   symbol "DP" will be shownon the Plant Location Record by adding "(DP)"
+   as follows:
+
+   Caution: "(DP)" is not to be consedered as part of the terminal address. 
+   It is merely displayedafter the address to point out the fact that the 
+   terminalis the DEMARCATION POINT. LFACS will note the "(DP)"as a remark.
+
+   ARES users will input on the non-graphic record for CPR and non-CPR
+   terminals as follows: 
+
+        Terminal No.: Enter number (EX. 12398)
+        Street NO.: Enter the first alpha or the entire street name for 
+                    clarity. If the terminal is a DEMARCATION POINT enter
+                    a space after the first alpha and then (DP), ie. H (DP).
+        Street Name: Enter SAG valid street name. {Display: 12398 H (DP)}.
+
+   Cross connect terminals will follow these input rules:
+
+        Terninal No.: Enter number (Ex. 24567).
+        Address: Enter SAG valid street name.
+        Environ: Enter (DP)
+                {Display: Happy St.
+                          24567
+                          Genetic cross connection description (DP)}.
+
+   ARES users should reference the ARES sequence of Displayable Attributes
+   section of the Ameritech Standard Outside Plant Symbols Practice, 
+   AM 620-040-011, Issue 3, and the regional ARES Attribute Guide.
+
+
+                                   -8-
+
+
+
+
+
+   Manual PLR users should place "(DP)" after the address for all terminal 
+   types. Ex. 23456 U (DP) or 23456 Understand St. (DP).
+
+   This process will assist the WSPE to identify the DP location for future
+   work or proper coding of time and resources spent on the EWO.
+
+   This process will also be used when more than one terminal location exists
+   today for a single tenant, i.e., a copper terminal location and a fiber
+   terminal location; one location will be the DEMARCATION POINT and the
+   other MUST over time be removed.
+
+   The Engineering Work Order assigner for FACS/MACS or the cut group (LAC) 
+   will update the assignment records, change the wiring limits, etc., from
+   the Engineering Work Order of from information provided by the records
+   group and include DEMARCATION POINT in the remarks area.
+
+9. IDENTIFICATION AND MARKING OF THE DEMARCATION
+
+   Using approved SOE products and thoroughly discussing with the building
+   or property owner where each DEMARCATION POINT(s) will be established 
+   should eliminate the need to place any type of sticker.
+
+   A sticker has been developed for physically identifying the DEMARCATION
+   POINT at the customer's location in the field. It is to be placed at the
+   DEMARCATION POINT location to identify where time and material billing 
+   will begin. It is not designed to identify or mark specific pieces of
+   hardware but rather to identify a location. It is suggested that the
+   sticker should be placed in such a way as to be plainly visable.
+   See Exhibit 40.
+
+   The sticker can be placed on a per occasion basis or a programmed basis.
+   The determination of when the who would place the sticker will be left up
+   to each area. Whenever the DSDC engineer identifies a DEMARCATION POINT 
+   on a engineering work order, it would be the responsibility of the 
+   construction group to place them accordingly.
+
+   These stickers are available through ASI Purchasing as a non-stock item.
+   Normal ordering interval is two weeks. They are availavle in packs of 50
+   stickers.
+
+        DESCRIPTION                             PID#
+        sticker for DEMARCATION POINT           260514500
+
+10.BUILDING CABLE DESIGN 
+
+   Ameritech will fulfill the needs of its customers by remaining a supplier 
+   of telecommunications services on the customer's sede of the DEMARCATION
+   POINT and providing these services at a rate that will help assure a 
+   profit in this deregulated arena.
+
+   Within Ameritech there are a few engineers called Building Industry
+   Consultants (BICs). BICs engineers probide marketing and engineering with
+   new construction information adn expertise on building cable designs for
+   customer owned cable beyond the DEMARCATION POINT. They are also a point 
+   of contact between Ameritech and the customer for the
+
+                                  -9-
+
+
+
+
+  placement of new non-regulated cable and coordination for the sale of the 
+  embedded AOC owned cable beyond the DEMARCATION POINT.
+
+  The BICs engineer can assist with the following:
+
+  A. Respond to customer questions concerning DEMARCATION POINT provisioning.
+
+  B. Work with the market units for cable designs and embedded cable sales 
+     prices.
+
+  C. Provide contract services to building owners, archetects and consulting
+     engineers for new construction over 6000 sq. ft. BICs assist with the
+     disigning, negotiating and consulting for all building wiring beyond
+     the DEMARCATION POINT location on a non-regulated fee basis. The BICs
+     group may also be responsible for the special construction billing for
+     their services; see AM 915-900-954.
+
+  D. Provide technical support to DSDC Engineering on cabling designs and
+     costs in connection with cable work for additions, changes and 
+     re-arrangements resulting from customer requests on the existing 
+     facilities beyond the DEMARCATION POINT. The Outside Plant Design
+     Engineer is responsible for detailing and issuing work orders and the
+     billing found in AM 915-900-954.
+
+  E. Responding to the Market Unit requests for cabling beyond the 
+     DEMARCATION POINT involving various Cost Requests, Request for Quote 
+     (RFQ), Request for Information (RFI), and Request for Proposal (RFP).
+
+  F. Coordinate requests for copies of Plant Location Records (see paragraph
+     16).
+
+  G. Coordinate large customer requests for identification of DEMARCATION
+     POINTS and embedded cable available for sale.
+
+  Customers requesting work beyond the DEMARCATION POINT location should
+  be informed that this work has been detariffed since April, 1988, and any
+  vendor can perform this work, referrals shouldbe made as follows:
+
+  A. Existing buildings and new construction under 6000 sq. ft.
+     
+     1. Station wire work should be referred to the appropriate marketing 
+        representative. A service order should be issued and billing should
+        be done on a Customer Work Record by the provisioning personnel.
+
+     2. Additions to, changes and or re-arrangements of existing embedded 
+        cable and wire should be refered to the OSP DSDC Engineer. Billing
+        to be cared for using AM 915-900-954.
+
+  B. New construction over 6000 sq. ft., all cable and wire work should be
+     refered to the BICs engineer, if available in your area.
+
+  C. Vendors requesting costs associated with the installation of cable and 
+     wire bids should be referred to the BICs group. Provisioning and 
+     Maintenance Forces will perform non-
+
+
+                               -10-
+
+
+
+
+
+     regulated work with normal service order work and T&M orders will be
+     issued by the Vendor Service Center (VSC) or the Market Units in all
+     situations.
+
+  D. BICs reference practices can be found in the917-454-XXX series for 
+     basic layouts and generic guidelines. Contact your Design Support Staff
+     for help if required.
+
+   The Outside Plant Engineer currently is not expected to actively solicit
+   detariffed work on buildings under 6000 sq. ft. Therefore, it is 
+   importand, when dealing with an owner or builder, to have Ameritech's
+   DEMARCATION POINT requirements spelled out in addition to referring them
+   to the appropriate Marker Unit and explaining their ability to hire any
+   vendor to perform work on the customer's side of the DEMARCATION POINT.
+
+   If the owner of builder persists in having Ameritech perform the 
+   detariffed work (on buildings under 6000 sq. ft.) it should be explained
+   that this work will be performed on a cost basis only. The OSP Engineer
+   is not obligated to provide a cost estimate unless the customer is willing 
+   to pay for the engineering time to develop the estimate.
+
+11.ACCOUNTING CODES
+
+   As a result of USOAR changes, all work related to telecommunications 
+   provisining preformed on a customer's premises beyond the DEMARCATION
+   POINT shall be charged to the following codes:
+
+        CODE                    DESCRIPTION
+        8E                      New Instalation
+        8M                      Re-arrangements
+        8R                      Repair
+        8Y                      Removals
+
+   USORA updates also changed the account designation for some regulated
+   Interbuilding Network Cable (INC) codes. Regulated cables placed from 
+   the primary DP to or between buildings which have additional DEMARCATION
+   POINTS on the customer's same property (CAMPUS), shall be changed to the 
+   12C account. This would include underground, burried or aerial cable
+   between buildings on continuous property.
+
+   In retrofit situations where a seperate NID is installed, the wire 
+   connected the protector or terminating block to a NID is chargeable to the
+   same account as the NID (68E). However, if the initial (new) installation
+   of the entrance cable, protector, terminating bleck(s), and NID(s) is
+   within the same closure, i.e., the current SOE Terminal Hardware on the 
+   same backboard or equivalent area, then all equipment shall be charged
+   to the entrance cable code.
+
+
+                                -11-
+
+
+
+
+
+
+12.TYPICAL DEMARCATION POINT EXHIBITS
+
+   The attached exhibits probide illustrations of DEMARCATION POINT 
+   provisioning. These exhibits should be useed as a guide for designeng 
+   new facilities at new building locations and a guide on how to conbert 
+   existing embedded locations.
+
+   NOTE: There is a lot of teamwork required to convert an existing embedded 
+   location to resemble a new building; be sure to fully understand this 
+   practice and the ramifications, before working on an existing location, or
+   contact your design support staff; see paragraph 6.0 ff.
+
+   A DEMARCATION POINT will be estavlished at each single familly residence
+   in residential subdivcisions or permanent mobile home parks. The Network
+   Interface will be mounted at or near the protector and/or termination 
+   block at the residence. Typically the current Network Interface used 
+   by Provisioning is a combination unit (NID, Protector and terminal block) 
+   and fed bvy either aerial or buried service wires located on the outside 
+   of the dwelling, Exhibits 1,2,3 and 7.
+
+   The DEMARCATION POINT will be at the outside of each unit of Apartment
+   or Condominium building, if fed by service drops. If the unit is fed by
+   an OSP cable to a terminal, the DEMARCATION POINT will be at the terminal.
+   The use of the Ameritech SOE products are required for all new units and 
+   should be used to retrofit existing locations, Exhibits 4,5,6,and 16.
+
+   Single tenant commercial buildings of one or more floors will have
+   "ONE" DEMARCATION POINT provided, within 12 inches or "closest practical 
+   point" of entering the premises, for all services. The location of the 
+   DP will be jointly agreed to by the buliding owner and Ameritech. All 
+   other cabling will be offered under the non-regulated procedures, Exhibits
+   22,23,25,26,32,33,34,and 36.
+
+   A multi-tenant commercial building may have more than one DEMARCATION 
+   POINT. The location of these DPs will be jointly agreed to by the building 
+   owner and Ameritech. Charges for the additional DEMARCATION POINTS
+   over and beyond the first "MAY" be applicable either by direct billing or
+   included in the service contracts negotiated by the Market Units.
+
+   Each building in a single or multiple tenant campus development, may have
+   a DEMARCATION POINT. These DPs will be jointly agreed to by the building 
+   and Ameritech. The building owner is responsible for the route, path, 
+   structure, equipment, power and space to meet the needs of the proposed 
+   services for the building(s). Charges for the additional DEMARCATION
+   POINT(s) may be applicable. Once each building has its DEMARCATION POINT
+   the engineer must then check to see if the individual building is single
+   tenant or multi-tenant and follow the proper design.
+
+13.PROVISIONING AND MAINTENANCE
+
+   All installation and maintenance work on the customer's side of the 
+   DEMARCATION POINT may be performed at customer request by any vendor,
+   including Ameritechm, on
+
+
+                             -12-
+
+
+
+
+
+   a detariffed basis. If a dispatch to the DEMARCATION POINT is necessary 
+   to establish service, Ameritech will terminate network service for the 
+   customer, at the Network Interface, at no charge, as part of its 
+   networking service. Charges will apply for all other work beyont the 
+   Network Interface.
+
+   Provisioning and Maintenance procedures for billing beyond the Network 
+   Interface are spelled out in AM 953-111-951. Questions pertaining to 
+   Provisioning and Maintenance billing should be referred to the CP&M staff.
+
+14.SERVICE INTERFACE / A-NCTE
+
+   When required to terminate a specific type of service, for example a 
+   data line, the Service Interface or A-NCTE shall normally be located 
+   on the company side of the Network Interface (could just be the 
+   Network Interface). The A-NCTE shall be placed in the Network Facilities 
+   portion of the central office line and the maintenance responsability
+   belongs to Ameritech.
+
+   The customer or vendor may request that the A-NCTE or Service Interface
+   be located closerto where the customer's equipment is located. If they
+   are willing to pay appropriate charges, the A-NCTE or SI will be placed
+   at the customer/vendor desired location. See Exhibit 36. The wire from
+   the Network Interface to the A-NCTE or SI, if installed by Ameritech
+   becomes the customr's responsibility. Ameritech would be responsible 
+   a A-NCTE or SI hardware only.
+
+15.HARDWARE
+   
+   Per Part 68 of the FCC Rules and Regulations, existing hardware may 
+   continue to be used at DEMARCATION POINT locations that are in place 
+   today.
+
+   All new construction or retrofitting of existing locations must use the 
+   approved SOE hardware to eliminate current administration, record keeping
+   and maintenance problems.
+
+   Network Interface Devices are part of the SOE terminal equipment and have 
+   the RJ-11 wiring arrangement incorporated in the unit. Wther interface 
+   wiring arrangements requested by the customer may be substituted for the
+   Network Interface Device standard RJ-11 type, i.e., customer wishes RJ-21X
+   or RJ-45 type Network Interface connection. The building entrance frames 
+   have panels equipped with either Rj-11s or RJ-21s. These may be added 
+   under T&M rates and are reffered to as Service Interfaces (SIs).
+
+   Current SOE hardware is found in Tab7 of the Outside Plant Engineers 
+   Handbook and includes outdoor pedestal terminals, outdoor wall mount 
+   terminals, and indoor frame mount terminals. Design questions on the use 
+   of any of the above terminals should be directed to your Design Support 
+   Staff.
+
+16.CUSTOMER REQUEST FOR PLANT LOCATION RECORDS (PLRs)
+   
+   A customer or their authorized agent may request a copy of the PLRs for
+   their building(s).
+
+
+                                   -13-
+
+
+
+
+
+
+   Each BIC or engineering office will maintain a log of all PLR request.
+   Initial requests for PLRs at no charge. Subsequent customer requests 
+   will be handled by informing the customer that there is a printing 
+   charge. Also, if the customer's building is located in Illinois, 
+   inform the customer that the cable information has been rempved from the
+   records and is no longer available.
+
+   The BICs, ingineering office and or PLR group will process each request by
+   proforming the following steps:
+
+   A. Receive a log each customer's request for PLRs
+
+   B. Request two copies of the customer's PLRs from the PLR (record) 
+      group through the OSP Engineer.
+
+   C. The PLR group will provide to the requesting engineer two copies of 
+      all customer's cable information available and the related entrance 
+      cable information.
+
+   D. The BIC or OSP Engineer will send the PLRs to the customer with a 
+      cover letter. The cober letter should discuss and explain the issues 
+      surrounding this request. This would include what is available to be
+      sold and what cannot be sold.
+
+   E. If the PLR request included a quote for selling the embedded cable
+      and is accepted, the engineer, upon completion (moneys received) of
+      the sale, will notify the PLR group what was and wasn't sold.
+
+   F. The PLR group will post the new DEMARCATION POINT information on the 
+      PLRs to be maintained and rempved all customer information beyond the 
+      DEMARCATION POINT after the cables are sold to the customers or the 
+      customer may request the masters of their PLRs as part of the sale.
+
+   G. Return a co0py of the updated PLR to the BICs or OSP Engineer.
+
+17.MILITARY INSTILATIONS
+
+   Military installations have unique telecommunications requirements 
+   because of the sensitigity of official military services, from the 
+   standpoint of national security and emergency preparedness. Ameritech's
+   DEMARCATION POINT Provisioning practice was developed to provide network 
+   services to residential and commercial campusses, such as shopping centers
+   and office parks. It was not specifically designed to address the special
+   circumstances of military installations, such as official and non-official
+   government activities, single and multi-tenant residences and limited 
+   diverse commercial activity.
+
+   The design of network cabling on military installations should be 
+   negotiated between Ameritech and the military. These negotiations will 
+   normally be conducted between an Ameritech Marketing Unit and the 
+   specific government agencies, since the issues are usaully site-specific.
+
+   The basic design premise is that the military installation will be 
+   treated like its own small city.
+
+
+                                 -14-
+
+
+
+
+
+   DEMARCATION POINT(s) will be probided to residence areas on military bases
+   just as they are in subdivisions off base. Seperate commercial business
+   and agencies, called third parties, may have a DEMARCATION POINT 
+   provided for their buildings. The military will probide the necessary 
+   route, path and structure to the buildings and the third party
+   tenant will probide the required space within the building for the 
+   DEMARCATION POINT.
+
+   The military installation proper will receive a single DEMARCATION POINT
+   ror the complex if it is served by a PBX, stand alone switch or may have
+   DEMARCATION POINTS proviede to each building for network serviecs.
+
+   The military has a unique need for access to Ameritech's cable records
+   where Ameritech's cable supplies official services throughout the base 
+   and to commercial temant agencies on the installation. Ameriteh's on base
+   cable carries critical command and control circuits and the military
+   may need the records to restore priority circuits in an emergency.
+
+   Accordingly, Ameritecyh shall continue its practices regarding the 
+   establishment and maintenance of cable records for cable on its side 
+   of the DEMARCATION POINT(s) located on military installations. Ameritech
+   will provide access to its most current cable records pertaining to a 
+   military installation when requested by the specific Base Community
+   Agency. Access will be at no charge when such access imposed no
+   significant cost to Ameritech.
+
+   Ameritech will transfer the available master of the most up-to-date copy
+   of its cable records to the Base Communication Agency concurrently with
+   any transfer of ownership of such cable. Ameritech will at that time have
+   no further responsibility with respect to such records, after transfer
+   of ownershop, unless an agreement is made between both parties, 
+   including appropriate compensation.
+   
+
+
+                                 -15-
+
+
+

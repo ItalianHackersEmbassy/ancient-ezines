@@ -1,0 +1,114 @@
+
+
+
+
+
+			Quick Information Chronicles 
+			     Nifty ircII Bug!  
+
+			     Apothecary [QiC]
+
+
+  
+   ircII ... Hmm... Lets see... Its sorta new, kinda easier, and a little
+bit more buggy than regular IRC.  Welp, this is a nifty bug I found one day
+while on the IRC (Using an ircII server).  I was thinking "Hey.. Wait a
+minute.. when you do the '/help' command in ircII, then name of the help
+thingy is 'ircIIHelp'.. Hmm...." So, you know what? I figured, what the 
+hell, and changed my nickname on irc ('/nick <name>') to 'ircIIHelp'..
+And shazam! Whenever someone tried the '/help <topic>' command, this is what
+i saw:
+
+"* <username>* <what they put for <topic>>"
+
+  Example:
+
+"* _BoB_* COMMANDS"
+
+
+   Right then you could probably guess what im thinking. If not, delete this
+file now.  
+
+   Ah-ha! Alright! I tried thinking of some spiffy way to get info/passwords
+out of these people.. So.. I will explain:
+
+Some ircII commands:
+/nick <name>  -  Changes your handle/nickname to <name>
+/away <message>  - Puts you as "AWAY" .. While <message> is reason
+		   why you are away..
+/msg <username> <message>  - Sends a private message to <username> while
+		   <message> is the message you wish to send (Multiple words)
+/help <topic> - Sends  to either you (If your nickname is 'ircIIHelp')
+		or to the regular ircIIHelp server, on which user should
+		recieve help on <topic>.
+/who <username> - Finds out who <username> is, and what Internet server
+		  they are using... (Handy for telnetting!)
+
+ (There are many other commands, but these are ones you will prolly need
+  to do this.)
+
+
+1. First, change your handle to 'ircIIHelp' .. By using exact command
+   of: "/nick ircIIHelp" ... (No quotes!)
+
+2. Set yourself as away with "/away" .. Now, this is the fun part.. use your
+   imagination.. You can do: 
+a. "/away IRCIIHelp Security Required. Use '/HELP <TOPIC> <ACCOUNT PASSWORD>"
+   
+    With method 2a, this is what the user will see when he does "/help":
+    "IRCIIHelp is Away: IRCIIHelp Security Reqblah blah blah...."
+     
+    So, if the person is not smart, they will do something stupid, like they
+    really WILL give you their password..
+    You may see a shitload of messages like:
+    "*_STAR_* channels STRAWBERRY"
+    "*JeliHead* mode !!Joe!!"
+    and so on.. might get a LOT of these..
+
+b. You can think, use your imagination on what you could get.
+
+3. After you get the account passwords, for example.. Do a "/who <username>".
+   ie: say you wanted to hack the 'JeliHead' account.. Do "/who JeliHead"..
+   Something like this should appear:
+
+   "User: JeliHead (JeliHead@bobs.palace.com)
+   "Type: bleh blah etc."
+
+   and a lot of other bullshit.. what you want is the address server.. In 
+   otherwords, 'JeliHead@bobs.palace.com' .. Thats where he/she is irc'ing
+   from (Their internet server)..
+
+4. Welp, get the fuck out of IRC.. Go back to your internet server, and type
+   'TELNET bobs.palace.com' .. You should go to Bobs.Palace.Com, and when
+   you do, and you see:
+     Login:
+   type 'JeliHead'
+     Password:
+   type '!!Joe!!'
+
+   and hopefully you will be in .. If not, JeliHead is a halfway-smart
+   bastard and knew better.. But a LOT of people dont..
+
+
+  HEY!!! - - You might not want to do this with an account with your real
+	     information on it.. Remember, the other person can ALSO do a 
+	     '/who ircIIHelp' and find your ass.. And report you! ;[
+
+
+LEGAL STATEMENT - This file is for informational purposes only. It is to be
+   used only for information and awareness.  DO NOT TRY THE ABOVE ACT! It
+   is illegal and may have severe penalties!  Apothecary takes, but not
+   limited to, no responsibility regarding the use of this information,
+   or the information contained in any other Quick Information Chronicles
+   releases.
+
+
+
+
+ later... and watch your back..
+
+aP!
+   
+    
+    
+	   

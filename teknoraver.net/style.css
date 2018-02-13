@@ -1,0 +1,192 @@
+html{
+background:#f5f5f5;
+}
+
+body{
+margin:0;
+font-size:0.8em;
+font-family:monospace, arial, sans-serif;
+}
+
+
+
+table td, th{
+text-align:left;
+padding-left:0.3em;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+ul li{
+margin-left:0.5em;
+}
+
+img{
+border:0;
+}
+
+#wrap{}
+
+
+
+
+									/*good*/
+#goodside{
+float:left;
+width:50%;
+height:100%;
+background:#f5f5f5;
+color:#101010;
+}
+
+#goodtop{
+height:140px;
+background:url(images/black.png) top right no-repeat;
+}
+
+#goodtop p{
+float:left;
+margin:90px 0 0 0;
+padding-left:0.3em;
+}
+
+
+#goodside table{
+width:100%;
+background:#c4c4c4;
+}
+
+#goodside table th{
+background:#306060;
+font-family:calibri, arial, sans-serif;
+font-size:0.9em;
+padding:0.5em 0 0.5em 0.3em;
+}
+
+#goodside table tr{
+background:#f5f5f5;
+}
+
+#goodside table img{
+margin:0 1em 0 0.3em;
+float:left;
+}
+
+#legendaicone{
+margin-top:0;
+}
+
+#goodbottom{
+padding-left:0.3em;
+margin-top:20px;
+border-top:2px solid #c4c4c4;
+
+}
+
+#goodbottom p{
+line-height:1.8em;
+}
+
+#goodbottom ul li a{
+text-decoration:none;
+color:#c4c4c4;
+border-bottom:1px dotted #306060;
+}
+
+#goodbottom ul li a:hover{
+color:#306060;
+}
+
+#goodbottom p a{
+text-decoration:none;
+color:#c4c4c4;
+border-bottom:2px dotted #306060;
+}
+
+#goodbottom p a:hover{
+color:#306060;
+}
+
+#goodbottom #contatti a{
+border:0;
+}
+
+#goodbottom #contatti{
+
+-moz-border-radius:1em;
+border-radius:1em;
+-webkit-border-radius:1em;
+}						
+
+						/*bad*/
+
+
+#badside{
+float:left;
+width:50%;
+background:#101010;
+color:#888888;
+}
+
+#badtop{
+height:140px;
+background:url(images/white.png) top left no-repeat;
+}
+
+#badtop p{
+float:left;
+margin:90px 0 0 0;
+padding-left:0.3em;
+}
+
+#badtop a{
+text-decoration:none;
+color:#306060;
+border-bottom:2px dotted #0a0505;
+}
+
+#badtop a:hover{
+color:#0a0505;
+}
+
+
+#badside table{
+width:100%;
+background:#0d0d0d;
+}
+
+#badside table th{
+background:#030606;
+font-family:calibri, arial, sans-serif;
+font-size:0.9em;
+padding:0.5em 0 0.5em 0.3em;
+}
+
+#badside table td{
+background:#101010;
+padding:0.3em 0 0.3em 0.3em;
+}
+
+#badbottom{
+padding-left:0.3em;
+margin:20px 0 20px 0;
+}
+
+#badbottom a{
+text-decoration:none;
+color:#306060;
+border-bottom:2px dotted #0a0505;
+}
+
+#badbottom a:hover{
+color:#0a0505;
+}
+
+
+
+		#dado{float:left; width:100%; height:94px;}
+		#dadosinistra{width:50%; height:94px; float:left; background:url(images/metasinistra.png) center right no-repeat #f5f5f5;}
+		#dadodestra{width:50%; height:94px; float:left; background:url(images/metadestra.png) center left no-repeat #101010;}

@@ -1,0 +1,439 @@
+                           Masters of Technology
+                                  Present
+
+                            The MOT Newsletter!
+
+------------------------------------------------------------------------------
+
+                           Editor:  The Godfather
+
+------------------------------------------------------------------------------
+
+DISCLAIMER!!!
+
+This file is written for informational purposes only. I, The Godfather, 
+or MOT, do not take any responsibility for any actions taken by readers 
+of this magazine.
+
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+Contents:
+
+Introduction,         The Godfather,  Phile 1
+                    
+Blocking ANI,         The Godfather,  Phile 2
+
+The Truth on 950s,    The Godfather,  Phile 3
+
+1-800-COLLECT Fraud,  PBXPhreak,      Phile 4
+
+MOT BBS Update,       The Godfather,  Phile 5
+
+Distribution Info,    The Godfather,  Distro
+
+Editorial,            The Godfather,  Editorial
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                                Introduction 
+                                Phile 1 of 5
+                            By: The Godfather
+
+    Welcome to the Masters of Technology newsletter.  We aren't another lame
+group, just a publisher of information such as Phrack.  Anyone can write for
+MOT, just send me the article at "Gfather@cris.com", or at the L0pht BBS.
+    Hopefully we will have more articles for the next newsletter, but this
+issue does have some neat info.
+          
+Greetz to:  Cyber Link, Mind Rape (I'll call, I'll call, give me time),
+            Redboxchillipepper (You cool guy you), Mercenary, Mr. X (
+            where the hell are you?), Crawl, Dark Tangent
+
+Affilz:     You think this is a warez newsletter?  Jeez...  BTW, I want to
+            be in the PLA so I can be a cool d00d, and order Scott the 
+            Believer a calling card, because he is so kindhearted.  God bless
+            Scotty and Amanda. :)
+
+   For release information and other stuff, see very bottom of newsletter.
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                                Blocking ANI
+                                Phile 2 of 5
+                            By: The Godfather
+
+    If you have not heard of ANI, let me briefly explain.  ANI is what the
+phone company uses to automatically identify your number for billing.   It
+is LIKE caller ID, but caller ID is sent between the first and second ring.
+ANI is instant.  If you use an AT&T calling card/credit card, the number
+used to call from is on the bill.  If you use AT&T k0dEZ from your home,
+that is how they bust you.  No fancy-smancy traces like in Sneakers, they
+already have the number.  ANI is ONLY (currently) available to the phone
+company, or SACs (Special Area Codes, 800, 900, and such).
+    Anyway, this can pose a serious problem to your freedom.  If you can 
+find a divertor, by all means use it.  This technique does not work every-
+where.  It does work in my area, GTE with a DCO electronic switch.  
+A method similiar to this was described in SCAM! magazine, but their method
+does not work anymore.
+    To block ANI, dial 0 for the operator.  Have her connect you to 800-
+xxx-xxxx.  If she bitches, either say a key (besides 0) on your phone is
+broken, or get a handicapped flag on your line.  She will send an ANI of
+NPA-000-0000.  (Always test this on an ANI number like 1-800-MY-ANI-IS 
+first, it is better to be overly careful, than to be in a cell with Bruno,
+the cellmate that axed his family to death).  Notice that on MOST switches,
+multiple ANI failures are flagged.  Don't use this unless you HAVE to use
+your k0dEZ from home.  Always better to use a divertor.
+    The end result is the 800 number you had her dial will get an ANI 
+readout of NPA-000-0000.  If it is AT&T, they will ask you for your phone
+number.  Give them one of a person you hate, but IT HAS TO BE IN THE SAME
+AREA CODE (npa).  Feel free to use your hard earned k0dEZ.
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                             The Truth on 950s
+                                Phile 3 of 5
+                             By: The Godfather
+
+    Well, someone already stressed this to me, but I had to find out for 
+myself.  IF USED CAREFULLY, 950s ARE (MOST OF THE TIME) 100% SAFE!  Still,
+they CAN trace, they DO trace, so I don't recommend calling from home with-
+out SOME way of blocking your ANI, whichever it be my method, or a divertor,
+or such.
+    As a test, I abused a friends MCI calling card (with his permission),
+from a payphone, and a small call from his house.  We used 950-1022, not
+the 800# (1-800-950-1022).  We made several calls to different places, and
+when the bill came, instead of the originating phone number being on the 
+bill as with AT&T, all it that was there was a ridiculous Dallas, TX.  He he,
+and we did this down in Hillsboro, about 80 miles from Dallas.  After 
+telling MCI someone must have stolen his card (heh), we talked to one
+of their fraud reps.  They said "unless a specific trace is made, or the
+call record is examined, that call cannot be traced because they used our
+regional dialup".  Good, lets keep it that way.  Anyway, I did a run down
+of other cards with different friends, and this is how it went:
+
+AT&T Mastercard
+-------------------
+Number Called:  xxx-xxx-xxxx
+Number Originated from:  817-xxx-xxxx   (Payphone, exact number)
+
+MCI  Calling Card
+-------------------
+Number Called:  xxx-xxx-xxxx
+Number Originated from:  Dallas, TX
+
+Sprint FoneCard
+-------------------
+Number Called:  xxx-xxx-xxxx
+Number Originated from:  Cleburne, TX   (Exact city, but not phone number)
+
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-            
+
+
+            (i) //                                    \\ (i)
+     (*) (-) (*) \\      MCi - 1-800-COLLECT FRAUD     // (*) (-) (*)
+        (*) (-) \\                                    // (-) (*)
+            (*) \\        Written by PBXPhreak        // (*)
+
+                              Phile 4 of 5
+
+  .----------------------------------------------------------------.
+  |  If you have any comments or questions about this phile then   |
+  |  send PBXPhreak email at pbxpbx@netaccess.on.ca .. you can     |
+  |  also visit my www page at http://www.netaccess.on.ca/~pbxpbx  |
+  `----------------------------------------------------------------'
+
+  .----------------------------------------------------------------.
+  | Greets Go out to the Following DUDEZ!..                        |
+  |----------------------------------------------------------------|
+  | Evian, Sloppy, KatKiller, Optic, Ip, Fiasco, Telmnstr, Plant   |
+  | Darkagl, Lefty, Emmanuel, Terminal, Sinner, Snoninja, N0-D0Z3  |
+  | Dtmf, Plot, Rage, Ace, Dr-Freeze, Qsilver, Phractal, D-fens    |
+  | KC, Juliet, K-RaD, T3, Theejoker, Substance, Odd, Teklord      |
+  | CG, Doug, U4ea, Alpaca, Antix, Dip, Yuckfou, Macpass, Mdma     |
+  | Mother, Nitzerebb, Quagmire, Hitraject, T99, T-800, Paradin    |
+  | Digint, Seen, Dark Tangent, Dark Knight, Tek, Ajax, Black Flag |
+  | Motorola, XGIRL, Gweeds, Zeed, Phiber Optic, Kemo, Viciouz     |
+  |----------------------------------------------------------------|
+  |   - IF I MISSED YOU.. SORRY.. -  PBXPhreak                     |
+  `----------------------------------------------------------------'
+
+  .--------------------------------.                                  
+  |     Be sure to check out       |
+  |--------------------------------|
+  |    www.netaccess.on.ca/~pbxpbx |
+  |    #hack                       |
+  |    #phreak   (gpkbot=bot)      |
+  |    #cellular (dialtone=bot)    |
+  |    #2600                       |
+  |    #bluebox  (blueboss=bot)    |
+  |    #linux    (linbot=bot)      |
+  `--------------------------------'    
+
+.------------.
+| Disclaimer |
+`------------'
+This file is written for informational purposes only. I PBXPhreak don't 
+take any responsibility for any actions taken by readers of this text
+
+.--------------.
+| Introduction |
+`--------------'
+       MCI is one of the United States leading long distance providers 
+and one of my favourite telephone companies. With the method explained
+in this phile you can successfully call anywhere in the united states
+for phree!!.
+
+.---------------------------------------------------.
+| Important MCI Numbers:                            |
+|---------------------------------------------------|
+| 800-265-5328 (800 COLLECT)                        |
+| 800-444-1111 (Network MCI Services)               |
+| 800-444-2222 (Customer Service -> Proof Positive) |
+| 800-444-3333 (General Information)                |
+| 800-444-4444 (Service Express)                    |
+| 800-444-5555 (Proff Positive)                     |
+| 800-374-3637 (Friends and Family set up)          |
+| 800-799-7994 (Customer Service) <-- *NEW*         |
+| 800-888-8800 (MCI Long distance help)             |
+| 800-945-2799 (MCI Fraud Department)               |
+| 800-950-1022 Calling Card Dialup                  |
+| 800-888-8000 Calling Card DIalup                  |
+| 800-FRI-ENDS Friends and Family Setup             |
+`---------------------------------------------------'
+
+.-----------------------.
+| How the Magic is Done |
+`-----------------------'
+   I am warning you! if you are chicken shit and hate to speak to
+   operators then you wont like this method!! 
+
+   The first step is calling 1-800-265-5328 (800-COLLECT). You will
+   probably want to divert if you are calling from home.
+
+   Once you are connected to the 800 # it will say .. "Thank You
+   for calling 1-800-COLLECT.. Please Enter the number you wish
+   to call .. area code first" . You will hit "0". You will then
+   be transfered to a MCI operator. She will come on and say "May I
+   have the Area code and Number you are calling". This is when you 
+   tell the Operator how PBXPhreak defrauds MCI everyday of his life 
+   and tell the MCI fraud squad his info!! (just kidding). When she
+   asks for the # you wish to call, tell her a # you want to call.
+   You can tell her any number except some #'s it doesnt notice in
+   its database. Like Defcon voice bridge (801-855-3326) and the rest
+   of those silly 801 partylines (801-234-4444) (801-234-7448) . She
+   will then ask you for your name. You will tell the operator "I would
+   like to charge this call on my mastercard. (Use this dead card) 
+   She will ask for the card number. (5371-5990-0600-2787) . Now she
+   will ask for expiry date (01/98) . She will now ask for Zip code .. 
+   Here is the trick. You must say its an overseas card. (she will enter
+   00000 into the computer) .. (MCI only checks algorithm for overseas cards)
+   if you told her a zipcode for the USA , the computer would check the 
+   zipcode against the card and it would not be valid. The call should go
+   through. She will say. "Thankyou for using 1-800-COLLECT".
+
+   If you are using a payphone you can use the MCI Carrier Access K0DE
+   and it will be AUTOMATED!!.. DIAL like so. 
+
+     10222+0+718-123-4567 (Enter your Number you wish to kall!!)
+
+     After you enter that you will hear a voice "MCI". Then the automated
+     operator will say "For a Collect call press 11". When you hear that
+     enter the Credit Card #. Then it will ask for expiry. Then is will ask
+     for Mailing Zipcode. You will enter "00000" (5 if you cant count). then
+     it will say "Thankyou for using MCI".
+
+                      "Thankyou for ABUSiNG MCi" - PBXPhreak
+
+.-------------.
+| Final Words |
+`-------------'
+     Well there you have it. Easy as hacking root on 127.0.0.1!!!
+     if you have any comments, questions, or anything else you want
+     send me email. the address is at the top of the phile. Until
+     we meet again. CYA!! /mode #hack +o PBXPhreak (hehe)
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                               MOT BBS Update
+                                Phile 5 of 5
+                             By: The Godfather
+
+    Hackers and phreaks live and dwell by boards.  So, MOT will publish 
+names of boards that are worth a look.  If you want us to put your board
+here, give us a ring at the inet address, or find me on the L0pht board, 
+or somewhere...
+
+
+The L0pht BBS, Sysop: Big Brother
+---------------------------------------
+Phone Number:  n/a, telnet to:  bbs.l0pht.com
+
+Description:   Home of many excellent hacks/phreaks, this board is a Unix
+               based board.  Feel free to contribute to the community.  
+               Telephony (phreaking), hacking, mac, unix, security, and more
+               are discussed.
+
+Features:      File section, messages, chat (IRC like, meetings held online),
+               paging other users, etc...  Have phun!
+
+Additional 
+Information:   To get an account, login as BBS
+
+
+Artistic Illusions, Sysop: Mind Rape
+---------------------------------------
+
+Phone Number:  619-793-0471
+
+Description:   New board, I am cosysop, if the sysop hasn't forgotten me :)
+               Has promise, give it a call.
+
+Features:      Online games, files, messages, friendly sysop.
+
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+   Well, there is the first issue.  Not bad if I do say so myself.  If you
+think you can improve this newsletter, drop me a line.  I'll try to put this
+newsletter out every month or so, maybe sooner than that.  The more articles
+I get, the bigger the newsletter, the more information.  I'll put this
+newsletter up in "ftp.fc.net", "ftp.2600.com", and "ftp.eff.org", if they
+don't mind.  If you have/own an FTP site, and would welcome MOT, please drop
+me a line.
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                                  Editoral 
+                              By: The Godfather
+
+    I am going to try to put out an editoral every issue.  Unless I really
+think you have a good article, you can't put one here, its MY column :)
+    After seeing wars on wares, carding, and all the stuff you can get into,
+I decided to point out the "ethics", and "wrongs" of a lot of issues that
+everyone faces today in the scene.  I'll put my opinion below.
+
+Hacking:
+  
+[ Good Stuff ]
+
+   *  It's phun
+   *  You learn something
+   *  You get expierence in many OS' and computers
+
+[ Bad Stuff ]
+
+   *  It's illegal
+   *  People crash systems
+   *  Someone might get hurt
+
+[ My Opinion ]
+
+    I think hacking is fine... as long as you don't crash or delete any
+part of the system UNLESS it is tracking you or keeping you from gaining
+access.  RM /R from the root directory shows irresponsibility, you should
+get busted.  DON'T shit around in medical systems, killing people is NOT
+fun on your conscience (even if you don't have one).
+
+Phreaking:
+
+[ Good Stuff ]
+  
+    * You don't lose all your money paying Ma Bell
+    * No one pays but the 100 billion dollar net worth Bells
+
+[ Bad Stuff ]
+
+    * You can get busted
+    * It is stealing
+
+[ My Opinion ]
+
+    Do it.  Love it.  Watch your ass.  If you do it right, you don't get
+busted, and actually you aren't STEALING, you are (A) Redistributing wealth,
+or (B) Taking back what they (Bell) stole from your parents.
+
+Anarchy:
+
+[ Good Stuff ]
+ 
+    * You learn chemistry
+
+[ Bad Stuff ]
+
+    * You could hurt or kill yourself
+    * You could hurt or kill other people
+    * You could get MAJORLY busted
+    
+[ My Opinion ]
+
+    Besides the occasional smoke bomb diversion, anarchy is sick and wrong.
+(Unless as revenge, but no bombs and shit, I just mean REVENGE anarchy).  
+The chances of getting killed yourself are great, besides, it is actually
+pretty stupid.  Think about it, and go into another line of work.  This 
+doesn't mean I won't publish anarchy articles, but if they are highly 
+dangerous, NO NO NO NO NO!  If they are funny, I will probably publish
+them.
+
+Carding:
+
+[ Good Stuff ]
+
+     * You get phree equipment
+
+[ Bad Stuff ]
+   
+     * VERY easy to get busted
+     * hurts the CC companies, which drives up prices for us paying 
+       customers
+
+[ My Opinion ]
+
+    This one is pretty hard to have a straight-and-narrow opinion on.
+I don't think you should card anything but services.  No ordering stuff.
+There are other ways to get things without using a card.  I got a whole
+computer system for fixing it twice after the owners got a new one. 
+
+Virii:
+
+[ Good Stuff ]
+
+     * You exercise your programming skills
+     * You can defeat mighty powerful enemies
+
+[ Bad Stuff ]
+ 
+     * You can get yourself or your phriends
+     * You can get caught
+
+[ My Opinion ]
+
+    Revenge is a dish best served cold.  I don't have anything against
+virii writers, actually, I have done it before myself, I am fluent in 
+assembler.  But... meaningless virii are just digital junk.  Think about it,
+is it worth it, or do you want fame?
+
+Warez:
+
+[ Good Stuff ]
+  
+     * You get free software!
+
+[ Bad Stuff ]
+
+     * You are stealing, sometimes from small companies.
+
+[ My Opinion ]
+
+    If it is a game that is fairly cheap, go buy it.  But for those grosly
+inflated programming languages and comm programs, pirate them...  Generaly,
+I pirate if it is over $50 at a discount store.  See if anyone you know has
+a copy of the program they are NOT using, then, if they give it to you, you 
+aren't breaking the law.
+
+
+    If you disagree with me, send your flames to /dev/null.  You didn't have
+to read this, it is just my opinion after all.
+
+

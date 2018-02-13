@@ -1,0 +1,238 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                                     _                   _                  
+          __________               /    /´FTERSHOCK INC.   \                 
+         / |  |  |  |             |   "Misc. VAX/VMS Text"  |                
+        /  |  | _|__|_            |  Issue #3 * 04/22/1993  |                
+       /|  |  ||      \            \ _ .  by Nitro-187 . _ /                 
+       ||__|__||___   |                                                      
+       |              |                                                      
+        \            /        DISCLAIMER : Congress Shall make no law        
+         \          /         respecting an establishment of religion, or    
+         |         |          prohibiting the free excersize therof; or      
+         |         |          abriging the freedom of sppech, or of the      
+         |         |          press; or the right of the people peaceably    
+         /´FTERSHOCK          to assemble, and to petition the Government    
+                              for a redress of grievances..                  
+                                                                             
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ 
+ Hello All, well as you have probably not noticed, we have not been making                      
+ any files lately. Well this is for several reason. 1) The people in the
+ group have not gotten off their butts and written files. 2) There is a new
+ group that has been started called MoT (Not RoT!) who basically have alot 
+ of talent. I and the remaining members of /´FTERSHOCK INC. have joined them 
+ and will be more active there. I wrote a couple of tfiles that I have saved 
+ for them(Yes they're better than this shit). For a little sample download
+ MOTAD.001 from your friendly neighborhood BBS.. See ya' in an upcoming issue
+ of MoT! Although there may still be some /´FTERSHOCK files left... Just look
+ around for
+
+ This is a couple files of limited usefulness that I got from a VAX machine
+ that I hacked into. Try to get in by using one of these default accounts, it 
+ does have some things to do once you're inside.
+
+ A List of Default VMS Accounts to try..
+
+ User           Password
+ -----------------------------
+ SYSTEM         OPERATOR
+ OPERATOR       OPERATOR
+ SYSTEST        UETP
+ SYSMAINT       SYSMAINT
+ FIELD          FIELD or SERVICE
+ GUEST          GUEST
+ DEMO           DEMO
+ DECNET         DECNET
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+_I_n_t_r_o_d_u_c_t_i_o_n _t_o _t_h_e _U_A_C_N _V_A_X _N_e_t_w_o_r_k
+
+Updated Sat Oct 15 12:45:02 1988
+
+The UACN VAX Network consists of a number of Digital Equipment Corporation
+VAX minicomputers interconnected by means of DECnet, Digital's networking
+product.  The network consists of three UACN-owned VAX computer clusters,
+named ACAD1 (located in Juneau), ACAD2 (in Anchorage), and ACAD3 (in
+Fairbanks).  You may obtain a username and use any of these three computers
+by simply asking at your local UACN office.
+
+Incidentally, there are VAXen owned by other University departments that
+are connected to the network, so don't be surprised if you see references
+to VAXen other than ACAD1, ACAD2, and ACAD3.
+
+The UACN VAXen offer a command called "EXPLAIN" which will give you information
+about the computer network and its software.  Some introductory information is
+given in EXPLAIN INTRO.  A menu of this introductory material will follow.
+
+
+_T_y_p_i_n_g _T_r_i_c_k_s _f_o_r _V_A_X
+Updated Thu Jan 23 14:11:03 1986
+
+Your terminal keyboard looks a lot like a typewriter keyboard, but there are
+some important differences.  VAX uses some of the additional features and some
+other tricks to make typing a lot easier.  It may also save you some trouble
+when you are using VAX software.
+
+_C_o_n_t_r_o_l _K_e_y_s
+
+VAX uses control characters to perform various special jobs.  If you look on
+your terminal's keyboard, you'll find a key marked "CTRL" (or a similar
+abbreviation) in the lower left corner.  This key works like the SHIFT key:
+you hold down the CTRL key and press another key to get a control character.
+For example, the character called "control U" (abbreviated CTRL/U or ^U) is
+produced by holding down the CTRL key and pressing the U key.  The most common
+control characters and other special characters are summarized below.
+
+_C_h_a_r_a_c_t_e_r       _R_e_s_u_l_t
+DELETE          Erases the last character that you typed.  (On some terminals,
+
+                this key is marked "RUBOUT").  This is NOT the same as
+                BACKSPACE or the left arrow key.
+TAB             Moves the cursor to start of next column (default columns are
+                8 characters wide).  Same as ^I.
+^C              Stops the current activity; depending on the program, you may
+                remain in the program or be returned to the "$" prompt.
+^Y              Stops everything; returns you to the "$" prompt.
+^U              Cancels the line that you are typing and allows you to retype
+                it.
+^Z              Marks the end of input; used to tell programs that you are
+                finished entering data.
+^S              Freezes the display (gives you time to read the display).
+^Q              Unfreezes the display; resumes output.
+NO SCROLL       Alternately sends ^S and ^Q to make life a little simpler.
+
+_T_h_e _O_t_h_e_r _K_e_y_s
+
+Most terminals have keys with arrows on them (up, down, left, and right).
+These are called "cursor keys" because they can be used to move the cursor
+around on the screen.  They can be used to patch up the commands that you
+
+Press RETURN to continue...
+type (see EXPLAIN LINEEDIT).  They are also used for moving around
+within the screen editors (see EXPLAIN EDITORS).
+
+The last major feature is the "keypad", the group of numeric keys and
+function keys (PF1, PF2, PF3, PF4) at the right side of most keyboards.
+Most of the time, you can use the numeric keys to quickly type in numbers.
+Within the screen editors, all keypad keys perform special functions.  You
+can also use the DEFINE command to "program" these keys to simplify your
+work (see EXPLAIN DEFINE).
+
+_T_y_p_e _A_h_e_a_d
+
+The "type ahead" feature on VAX allows you to keep typing while VAX is busy
+processing your previous commands.  VAX will store away everything that you
+are typing in, and use it when the time comes.  VAX has a limited amount of
+storage, though - if it starts beeping every time you type a character, it is
+telling you to give it a chance to catch up.  As soon as it digests some of
+what you have typed, you can continue typing ahead.
+
+_P_o_s_s_i_b_l_e _P_r_o_b_l_e_m_s
+
+Press RETURN to continue...
+There are a number of simple-to-fix problems that you will probably run into
+eventually.  Here are some of them and their solutions:
+
+NOTHING SHOWS UP ON THE TERMINAL WHILE I TYPE.  Most often this is caused by
+pressing the ^S or NO SCROLL keys accidentally.  On CIT-101e terminals, the
+ONLINE light flashes if this is the case.  You can correct it by typing ^Q or
+pressing the NO SCROLL key again.
+On occasion, lack of response is due to a pause or failure in the network.
+If you cannot get a response within a couple of minutes, check with the
+nearest UACN consultant for assistance.
+
+I ACCIDENTALLY TYPED ^C OR ^Y AND KILLED WHAT I WAS DOING.  Don't panic...
+you can get back to what you were doing by typing "CONTINUE" after the
+"$" prompt:
+
+        $ continue
+
+However, this only works if you do it right after the accident.  If you do
+some other work before using CONTINUE, you may not be able to continue.
+
+
+
+
+_S_o_m_e _F_a_c_t_s _a_b_o_u_t _U_s_e_r_n_a_m_e_s
+Updated Thu Oct 13 13:36:53 1988
+
+In order to login to any of the UACN computers, you must have a
+username and a password.  The username (or userid - user identification)
+identifies you to the computer.  The username is public information,
+and you can tell anyone what your username is.
+
+On the other hand, your password is top secret - only you and the computer
+should know what it is.  Don't tell anyone what your password is, and make
+sure that nobody watches as you type it in.  This is especially important
+if you have personal or hard-to-replace data stored in your files.  The
+only exception to this secrecy is if one of the UACN consultants needs to
+know your password in order to help you with a problem.  As soon as the
+problem is fixed, you should change your password.  Even if you don't let
+anyone know your password, you should change your password regularly, once
+a month or so.  You can change your password with the SET PASSWORD command
+like this:
+
+        $ set password
+
+Press RETURN to continue...
+        Old password:
+        New password:
+        Verification:
+
+(For verification, type in the new password again.)
+
+_T_h_e _C_a_s_e _o_f _t_h_e _F_o_r_g_o_t_t_e_n _P_a_s_s_w_o_r_d
+
+When you apply for a username, you give an Account Identification number
+(AID) which is, in most cases, your social security number.  This number
+is your first password.
+
+If you forget what your password is at some point, you should drop by the
+local UACN office and tell the consultant.  You may be required to show
+some identification to prove that you are the owner of the username.
+The consultant will then reset your password to your AID, just as it was
+originally.  _N_o_b_o_d_y, including consultants, can look up your password
+on the computer and find out what it is.
+
+_M_u_l_t_i_p_l_e _C_o_m_p_u_t_e_r_s_, _M_u_l_t_i_p_l_e _U_s_e_r_n_a_m_e_s
+
+Just because you have a username on one of the UACN computers doesn't
+mean that you can login to any of the other computers.  However, you
+may discover that the software that you need to use is on one of the
+other computers, but not on yours.
+
+The solution is simple: just go to your local UACN office and request
+a username on the other computer or computers.  If you have a username,
+you shouldn't have any trouble getting a username on one of the other
+VAX computers.  All you have to do is ask.
+
+Your username will be the same on all VAX computers; if you are FTLSK3
+on ACAD3, you will be FTLSK3 on ACAD1 and ACAD2 as well.
+
+_W_h_o_'_s _W_h_o _o_n _V_A_X
+
+You will often want to know what somebody's username is.  If you know the
+person's last name, you can find the username with the WHO command:
+
+        $ who smith
+
+Press RETURN to continue...
+This command will find all usernames belonging to people with "smith" in
+their names, such as "Smith, John Q", "Smithson, Paul C", and so on.
+You can restrict the search if you know the person's first name:
+
+        $ who mary smith
+
+You can also find out who belongs to a username.  Just put the username
+in place of the person's name, such as:
+
+        $ who sxpl
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|
+Call These Systems.....              |  These BBSes will always have the   |
+                                     |  newest H/P Stuff.... It doesn't    |
+CUM         <708>961/0927            |  matter, They will have it!         |
+Room 101    <708>265/1984            |  Outlands is no longer with us.     |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|
+(C)1993 /´FTERSHOCK INC. What Rights? -EoF-

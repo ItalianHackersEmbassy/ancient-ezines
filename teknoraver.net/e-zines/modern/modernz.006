@@ -1,0 +1,525 @@
+ 
+Yup,you guessed it,this is yet another of what we hope will 
+be a long series of Modernz files,covering everything and anything 
+we feel would be worth sharing. 
+ 
+This file is going to concern itself with Outdials...you know,those 
+knifty little gems found from time to time on the networks and some 
+systems.I do not claim by any means to be the god of GOD's...but I am 
+a firm believer in spreading information around. 
+ 
+So you ask..what is an outdial? It is a system set up by some company 
+to allow their computers/personel to dial out via some # or network 
+address without having to shell out quarters to ma bell every 3 minutes. 
+I'm most familiar with outdials that can be reached via the two main 
+nets,namely Telenet & Tymnet.I am best familiar with three main types, 
+so will limit this phile to discussing them. 
+ 
+Blah.Anyway...among the cheeziest of the systems going are run off of 
+Datapac in Canada...reached on Tymnet via the prefix 3020.The system 
+looks pretty much like this: 
+ 
+************************************************************************** 
+(You log onto tymnet...tell it who you are,then hit) 
+ 
+;3020xxxxxxxx 
+ 
+Enter Destination Telephone Number (e.g. 5555555) / 
+Entrer le numero de telephone du destinataire (ex. 5555555) 
+12017485030 (Tell it where ya wanna call) 
+ 
+Dialing / Composition du numero 
+12017485030 
+Ringing / Sonnerie 
+ 
+Communication Established 
+************************************************************************** 
+ 
+And thats about it.I don't much care for these systems because 9 times 
+out of 10,they don't function properly.Or at least,they don't work from 
+where I am.Slightly more functional are what I like to call 
+"Happy Outdials"...which are actually PC Pursuit outdials located on telenet. 
+MOST of these systems are local outdialing only,which means you have to have 
+an outdial for the area code you wish to call in order for them to work. 
+ 
+The telenet format for these od's are fairly simple,looking like 
+ 
+@201 101 
+or(NOT a real OD..) 
+@201 101a 
+ 
+or whatever.From tymnet,the same outdilas would look like this... 
+ 
+;311020100101 
+or 
+;31102010010101 
+ 
+As you can see (you can see,right?) the only difference between them 
+is that tymnet requires a "3110" prefix to tell tymnet to call telenet, 
+a pair of zeroes where the space was for the telenet format,and ya gotta 
+change a character identifier to a numeric (i.e. a 101a becomes 10101, 
+a 101b would be 10102,etc.).You can sometimes reach things on telenet from 
+tymnet that you couldn't access directly from telenet.This is a boon when 
+your favorite telenet outdial suddenly begins refusing collect connections. 
+ 
+Anyway..the happy outdials don't seem too impressive when you first connect 
+wwith them...thats because they are waiting for you to wake them up by 
+hitting CONTROL E.Once you"ve done that,you'll be greeted by it like this... 
+ 
+************************************************************************** 
+;3110xxx00xxxx 
+HELLO:I'M READY 
+* 
+************************************************************************** 
+ 
+What you might not guess from this rather unassuming prompt is that it 
+hides a fairly extensive menu of commands that you may or may not be 
+able to access.I have fucked with the menus for hours,trying different 
+terminal emulators,to no avail.In any case,the menu structure is reached by 
+giving the '*' a '?' to contemplate,thusly... 
+ 
+************************************************************************** 
+;3110xxx00xxx 
+HELLO:I'M READY 
+*? 
+MENU: 
+D   DIAL 
+CNTL-H	 BACK SPACE 
+I   IDLE 
+K   PAUSE 
+O   OPTIONS 
+P,?   MENU 
+R   REDIAL 
+T   TABLE OF OPTIONS 
+G   MANUAL ORIGINATE 
+CNTL-A	 ALB TEST 
+CNTL-(C D) DISCONNECT 
+CNTL-S	 STOP SCROLLING 
+CNTL-Q	 START SCROLLING 
+CNTL-V	 SOFTWARE REVISION LEVEL 
+CNTL-RI    IRT 
+CNTL-E	 ACCESS KEYBOARD 
+************************************************************************** 
+ 
+So lets explore it a little...not hugely,as I don't wish to bore you 
+more than I will anyway.The options menus look like this when drawn out... 
+ 
+************************************************************************** 
+*o(Options looked like it would be interesting) 
+ 
+ 
+1.GROUP1 
+ 
+2.GROUP2 
+ 
+3.GROUP3 
+ 
+4.EXECUTE 
+ 
+1(Hmmm..new prompt...) 
+ 
+ 1 STD OPT 
+ 2 DSR CNTL 
+ 3 CXR CNTL 
+ 4 N/A 
+ 5 LOCAL COPY 
+ 6 DIAL MODE 
+ 7 BLIND DIAL 
+ 8 CALL PROG 
+ 9 RESPONSE MODE 
+10 CHR LENGTH 
+11 DISC CONTROL 
+12 DTR CNTL 
+13 CTS CNTL 
+14 XMIT CLOCK 
+15 DATA TYPE 
+ 
+2 
+ 
+16 N/A 
+17 FLOW TYPE 
+18 SPEED CONV 
+19 EC MODE 
+20 LINK REQ FROM 
+21 N/A 
+22 TERM ACCESS 
+23 N/A 
+24 MODE CNTL 
+25 NETWORK 
+26 SPD OF OPER 
+27 RATE SEL 
+28 SI ON EIA 
+29 DTR BUSYOUT 
+30 N/A 
+ 
+3 
+ 
+31 TEST CNTL 
+32 RTRT 
+33 EIA ALB 
+34 BSY OUT ST FL 
+35 ANSWER MODE 
+36 ENQ-ACK 
+37 SECURITY 
+38 N/A 
+39 N/A 
+40 FS IN NEC 
+41 N/A 
+42 N/A 
+43 N/A 
+44 N/A 
+45 N/A 
+ 
+*t(From here,a look at the table of 
+options seemed in order.) 
+ 1 STD OPT 
+   1-STD 
+  *2-USER'S 
+   3-USER'S=STD 
+   4-CUST OPT 
+ 
+ 2 DSR CNTL 
+   1-NORMAL 
+   2-CSI 
+  *3-FORCED ON 
+   4-PORT CON 
+ 
+ 3 CXR CNTL 
+  *1-NORMAL 
+   2-CSI 
+   3-FORCED ON 
+   4-PORT CON 
+ 
+ 4 N/A 
+ 
+ 5 LOCAL COPY 
+  *1-ENAB 
+   2-DISAB 
+ 
+ 6 DIAL MODE 
+  *1-AUTO DIAL 
+   2-TONE 
+   3-PULSE 
+ 
+ 7 BLIND DIAL 
+  *1-DISAB 
+   2-ENAB 
+ 
+ 8 CALL PROG 
+  *1-ENAB 
+   2-DISAB 
+ 
+ 9 RESPONSE MODE 
+  *1-FULL MSG 
+   2-SINGLE CHAR 
+   3-NO RES 
+ 
+10 CHR LENGTH 
+  *1-TEN 
+   2-ELEVEN 
+   3-NINE 
+   4-EIGHT 
+ 
+11 DISC CONTROL 
+  *1-ENAB 
+   2-DISAB 
+ 
+12 DTR CNTL 
+   1-EIA CNTL 
+   2-FORCED ON 
+  *3-RESET ON DTR 
+ 
+13 CTS CNTL 
+  *1-CTS = CXR 
+   2-CTS = RTS 
+ 
+14 XMIT CLOCK 
+  *1-INTERNAL 
+   2-EXTERNAL 
+   3-SLAVE 
+ 
+15 DATA TYPE 
+  *1-ASYN 
+   2-SYNC 
+ 
+16 N/A 
+ 
+17 FLOW TYPE 
+   1-XON/XOFF 
+   2-XON/XOF PSTH 
+   3-RTS 
+   4-PIN25/RI 
+  *5-DIS 
+ 
+18 SPEED CONV 
+  *1-DISAB 
+   2-1200 
+   3-2400 
+   4-9600 
+ 
+19 EC MODE 
+   1-AUTO MODE 
+  *2-NO EC 
+   3-FORCE EC 
+ 
+20 LINK REQ FROM 
+  *1-ORIG 
+   2-ORIG/ANS 
+   3-RESPOND ONLY 
+ 
+21 N/A 
+ 
+22 TERM ACCESS 
+   1-UNLIMITED 
+   2-NONE(Hmmm...I wonder..?) 
+   3-DIAL 
+  *4-LIMITED 
+ 
+23 N/A 
+ 
+24 MODE CNTL 
+  *1-ORIG/ANSWER 
+   2-ANSWER ONLY 
+   3-ORIG ONLY 
+ 
+25 NETWORK 
+  *1-SWITCHED NET 
+   2-LL 1200 
+   3-LL 2400 
+ 
+26 SPD OF OPER 
+  *1-V.22 BIS 
+   2-USER SELECTED 
+ 
+27 RATE SEL 
+  *1-DISAB 
+   2-SPD=2400/1200 
+   3-SPD=1200/300 
+ 
+28 SI ON EIA 
+  *1-DISAB 
+   2-ENAB 
+ 
+29 DTR BUSYOUT 
+  *1-DISAB 
+   2-ENAB 
+ 
+30 N/A 
+ 
+31 TEST CNTL 
+  *1-DISAB 
+   2-REMOTE DLB 
+   3-LOCAL DLB 
+ 
+32 RTRT 
+  *1-ENAB 
+   2-DISAB 
+ 
+33 EIA ALB 
+   1-DISAB 
+  *2-ALB W DTR 
+   3-ALB W/O DTR 
+ 
+34 BSY OUT ST FL 
+  *1-ENAB 
+   2-DISAB(Aha!) 
+ 
+35 ANSWER MODE 
+  *1-NORM CONN 
+   2-FAST CONN 
+ 
+36 ENQ-ACK 
+  *1-DISAB 
+   2-ENAB 
+ 
+37 SECURITY 
+  *1-DISAB 
+   2-ENAB(Could it be?!?) 
+ 
+38 N/A 
+ 
+39 N/A 
+ 
+40 FS IN NEC 
+   1-DISAB 
+  *2-ENAB 
+ 
+41 N/A 
+ 
+42 N/A 
+ 
+43 N/A 
+ 
+44 N/A 
+ 
+45 N/A 
+************************************************************************** 
+ 
+After having glanced over the list of available commands and settings, 
+I'm sure you had the same idea I did...just alter the settings and turn 
+a local only OD into a GLOBAL... 
+ 
+************************************************************************** 
+1 
+ 
+ 1 STD OPT 
+ 2 DSR CNTL 
+ 3 CXR CNTL 
+ 4 N/A 
+ 5 LOCAL COPY 
+ 6 DIAL MODE 
+ 7 BLIND DIAL 
+ 8 CALL PROG 
+ 9 RESPONSE MODE 
+10 CHR LENGTH 
+11 DISC CONTROL 
+12 DTR CNTL 
+13 CTS CNTL 
+14 XMIT CLOCK 
+15 DATA TYPE 
+ 
+OPTION NUMBER ?1 
+ 
+ 1 STD OPT 
+   1-STD 
+  *2-USER'S 
+   3-USER'S=STD 
+   4-CUST OPT 
+OPTION SETTING? 1 
+ 
+ 
+UNAUTHORIZED ACCESS(I was not amused) 
+ 
+ 
+ 1 STD OPT 
+ 2 DSR CNTL 
+ 3 CXR CNTL 
+ 4 N/A 
+ 5 LOCAL COPY 
+ 6 DIAL MODE 
+ 7 BLIND DIAL 
+ 8 CALL PROG 
+ 9 RESPONSE MODE 
+10 CHR LENGTH 
+11 DISC CONTROL 
+12 DTR CNTL 
+13 CTS CNTL 
+14 XMIT CLOCK 
+15 DATA TYPE 
+ 
+OPTION NUMBER ?5 
+ 
+ 5 LOCAL COPY 
+  *1-ENAB 
+   2-DISAB 
+OPTION SETTING? 1 
+ 
+ 5 LOCAL COPY 
+  *1-ENAB 
+   2-DISAB 
+OPTION SETTING? 2(MUCH better...useless,maybe,but better.) 
+ 
+ 5 LOCAL COPY 
+   1-ENAB 
+  *2-DISAB 
+OPTION SETTING? (Just to be sure it kept working.) 
+ 
+ 
+ 
+OPTION NUMBER ?34 
+34 BSY OUT ST FL 
+  *1-ENAB 
+   2-DISAB(Now if THIS works...) 
+OPTION SETTING? 2 
+ 
+ 
+UNAUTHORIZED ACCESS(Of course.) 
+************************************************************************** 
+ 
+So much for the PC Pusuit od's.One of these days I'll lay hands on a 
+PCP Console,amd throw open the network for a few days.In any case,there 
+one more variety of OD I'd like to cover here,one which haas been global 
+in format every time I've gone to use one,but which is usually inaccessable 
+by virtue of being perpetually busy. 
+These last ods are located on telenet,and are indistinguishable (nua-wise) 
+from the PCP outdials.These od's look like this... 
+ 
+************************************************************************** 
+;3110xxx00xxxxx 
+ 
+!(Doesn't offer much,does it?) 
+ 
+to use this thing,just tell it what you want. 
+ 
+!d12017485030(The 'd' tells it to dial) 
+ 
+CONNECT 1200 
+************************************************************************** 
+ 
+Thats about it.As more info comes in,I will no doubt add to what has been 
+presented here in some future phile.Outdials are an oasis in an 
+increasingly codeless and deadly enviroment.They are about 900% safer than 
+codes,and most can be accessed via **free** networks. 
+ 
+If you have any comments,suggestions (derisive or otherwise) or whatever, 
+I can be reached on the following boards... 
+ 
+The Villa Straylight (formerly Tessier-Ashpool) 908-830-7960 
+Cybernetik Limbo 908-269-7042 
+ 
+ 
+Modernz '90! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Downloaded From P-80 International Information Systems 304-744-2253 12yrs+ 

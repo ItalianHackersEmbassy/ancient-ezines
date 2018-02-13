@@ -1,0 +1,886 @@
+|CanceR|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=|CanceR|
+				     _                     _                  
+	  __________               /    /´FTERSHOCK INC.     \                 
+	 / |  |  |  |             |  General Info on Linux    |              
+	/  |  | _|__|_            |  Issue #8 * 05/08/1993    |                
+       /|  |  ||      \            \ _ .   by Nitro-187   ._ /                 
+       ||__|__||___   |                                                      
+       |              |                                                      
+	\            /        DISCLAIMER : Congress Shall make no law        
+	 \          /         respecting an establishment of religion, or    
+	 |         |          prohibiting the free excersize therof; or      
+	 |         |          abriging the freedom of speech, or of the      
+	 |         |          press; or the right of the people peaceably    
+	 /´FTERSHOCK          to assemble, and to petition the Government    
+			      for a redress of grievances..                  
+									     
+|CanceR|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=|CanceR|
+
+   Hello all.... Wow the releases have been much more frequent...
+   I am not feeling myself today so I am deciding to release a
+   FAQ on one of the best fucking O/Ss for the PC. So good and
+   it is FREE. Cool Huh? Anywayz I'll let you check it out
+   fer yourself.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+I. LINUX GENERAL INFORMATION 
+=============================
+*** This section is maintained by Matt Welsh (mdw@tc.cornell.edu). Mail
+*** him if you have corrections, additions, other questions, etc. 
+*** Last update November 1992.
+
+
+QUESTION: What is linux?
+
+ANSWER: Linux is a small unix for 386-AT computers, that has the added
+advantage of being free(*). It is still in beta-testing, but is slowly
+getting useful even for somewhat real developement.  The current
+version is CURRENT_VERSION, date: KERNEL_DATE. 
+
+(*) Free means that you may use it, change it , redistribute it, as
+long as you don't change the copyright. Free does not mean public
+domain.
+
+
+Linux is a freely distributable UNIX clone.  It implements a subset of
+System V and POSIX functionality, and contains a lot of BSD-isms.
+LINUX has been written from scratch, and therefore does not contain
+any AT&T or MINIX code--not in the kernel, the compiler, the
+utilities, or the libraries.  For this reason it can be made available
+with the complete source code via anonymous FTP.  LINUX runs only on
+386/486 AT-bus machines; porting to non-Intel architectures is likely
+to be difficult, as the kernel makes extensive use of 386 memory
+management and task primitives. 
+
+
+QUESTION: Does Linux support GCC, TCP/IP, X-Windows, MGR, etc.?
+
+ANSWER: Linux currently supports and uses a large amount of the GNU
+software (i.e. GCC, bison, groff, etc) so all of that functionality is
+there. X-Windows is also available, along with many client
+applications. MGR is there too. TCP/IP is in testing, and is available  
+for you to try out. 
+
+(Dirk Hohndel:) TCP/IP is available. I use Linux boxes as Xterminals
+and my "own" asterix has mounted half a Gig via NFS. Mitch DSuoza is
+running an anonymous FTP server on his Linux box. This is definitely
+more than testing. The newest SLS  has a TCP/IP kernel by default. 
+
+
+See section VIII of this FAQ ("Features")!
+
+In short, Linux supports many, many features and programs. One of the
+biggest questions is: 
+	"Does ***** work on Linux? Does Linux have *****?" 
+The answer, usually, is "yes". Just check out the rest of this FAQ,
+the newsgroup, as well as the files on the FTP sites. 
+
+
+QUESTION: What is the current state of Linux?
+
+ANSWER: read the comp.os.linux newsgroup, where the INFO-SHEET is
+periodically posted.
+
+
+QUESTION: I've just heard about linux, what should I do to get it?
+
+ANSWER: FIRST read this FAQ, and especially section III (installation).
+Choose a "release" of Linux (such as MCC, SLS, bootdisk/rootdisk, etc).
+Download from your nearest FTP site, use the "rawrite" program as needed
+to write the images to high-density floppies (5.25 or 3.5). Specific
+instructions are given in section III and in the README files for each
+release. 
+
+Note that some releases only give you the kernel and a few utilities, and
+others give you everything you need (including X11, GCC, and more) in
+that latter case the downloading is close to a douzen of SOFT. Just
+check out section III for more info. 
+
+
+QUESTION: Does it run on my computer?
+
+ANSWER: Linux has been written on a clone-386, with IDE drives and a VGA
+screen. It should work on most similar setups. The harddisk should be
+AT-standard, and the system must be ISA. (though *some* EISA success
+has been reported [T. Koenig], Linux doesn't take advantage of the EISA
+structure).  A high density floppy drive -- either 5.25" or 3.5"-- is
+required.  
+
+{Drew's information:
+Linux supports anything that's register compatable with a WD1003 MFM 
+disk controller (ie, the original PC-AT disk controller.)  Most AT
+MFM, RLL, ESDI, and IDE setups look like this.  
+
+XT compatable disk controllers won't work.
+
+Generally, the rule is if you have the disk configured into the 
+CMOS setup of your machine, it will work (because the BIOS is talking 
+to a WD 1003 compatable board), otherwise it won't.}
+
+IDE and MFM seem to work with no problem. It works, also, for some
+ESDI drive (you might have to comment out the "unexpected hd
+interrupt"-message from hd.c). There exists a high-level SCSI driver,
+under which low-level drivers are placed; a ST-01/ST-02 low driver has
+been completed see the FEATURES and the USEFUL ADDRESSES sections.
+
+
+Otherwise the requirements seem relatively small: a 386 (SX, DX or any
+486).  Any video card of the following: Hercules, CGA, EGA, (S)VGA.
+
+It needs at least 2M to run (with SWAP), and 4M is definitely a plus.
+It can happily use up to 16M (and more if you want).
+
+BTW There are problems with some MAXTOR drives on high speed machines
+(sometimes switching off "turbo" helps). There may also be a problem
+with "slow" memory (under 60ns) on fast  machines. Again, the solution
+is to turn off "turbo". Mixed SIMMs (3 and 9 chip versions) have also
+reported to be problematic. 
+
+NOTE1: It doesn't run (yet?) on a MCA machine
+NOTE2: There is a driver for XT but not tested by me (see below)
+NOTE3: There is also a support for 8514 and S3.
+
+  From: smackinla@cc.curtin.edu.au (Pat Mackinlay)
+  Subject: ANNOUNCE: New XT disk driver
+  Date: Tue, 15 Dec 1992 15:24:27 GMT
+
+  This is a short note to annouce the second release of the XT hard disk 
+  drivers for Linux. This set of patches is for Linux 0.99 (pl0) and
+  should be available on tsx-11 under
+  /pub/linux/ALPHA/xtdisk/xtdisk2.tar.Z and  
+  /pub/linux/ALPHA/xtdisk/README.xtdisk.
+
+  Just a brief introduction: this driver allows you to use XT-style (8
+  bit) hard drive controllers. The advantage of these is that you can
+  use them in conjunction with normal AT-style (16 bit) controllers,
+  IDE drives and SCSI drives. The major problem with them is the fact 
+  that they are very slow, so swapping to one of these
+  controllers/disks is not recomended <grin>. 
+
+QUESTION: Why the suggested 4Meg, for Linux?
+
+ANSWER: Linux uses the first 640k for kernel text, kernel data and
+buffercache. Your mother board may eat up 384K because of the chipset.
+Moreover there is: init/login, a shell, update possibly other daemons.
+Then, while compiling there is make and gcc (2.01 ~770k).
+So you don't have enough real memory and have to page.
+
+
+QUESTION: How would this operate in an OS/2 environment?
+
+ANSWER: Linux will coexist with *ANY* other operating system(s) which
+respects the "standard" PC partionning scheme - this includes Dos,
+Os/2, Minix etc. 
+
+WARNING: Linux and OS/2 *can* co-exist on the same machine. BUT, you
+cannot use Linux's fdisk to make Linux partitions! See the warnings in
+section III about Linux and OS/2.
+
+
+QUESTION: Will linux run on a PC or 286-AT? If not, why?
+
+ANSWER: Linux uses the 386 chip protected mode functions extensively,
+and is a true 32-bit operating system. Thus x86 chips, x<3, will
+simply not run it.
+
+
+QUESTION: Will Linux run on a 386 Laptop?
+
+ANSWER: It works, including X on most of them.
+
+
+QUESTION: (Dan) How long has Linux been publicly available?
+
+ANSWER (partial): Few months, v0.10 went out in Nov. 91, v0.11 in Dec.
+and the current version CURRENT_VERSION is available since KERNEL_DATE.
+But even it is pretty recent it is quite reliable. There are very few and
+small bugs and in its current state it is mostly useful for people who
+are willing to port code and write new code. As Linux is very close to a 
+reliable/stable system, Linus decided that v0.13 will be known as v0.95.
+Believe it or not: the whole story started (nearly) with two processes
+that printed AAAA... and BBBB... 
+BTW consult the digest#136 Vol2 for a complete story.
+
+
+QUESTION: What is the proper pronounciation for "Linux"?
+
+ANSWER: (Linus himself)
+'li' is pronounced with a short [ee] sound: compare prInt, mInImal etc. 
+'nux' is also short, non-diphtong, like in pUt.  It's partly due to
+minix: linux was just my working name for the thing, and as I wrote it
+to replace minix on my system, the result is what it is...  linus' minix
+became linux. 
+
+I originally intended it to be called freax (although buggix was one
+contender after I got fed up with some of the more persistent bugs :)
+and I think the kernel makefiles up to version 0.11 had something to
+that effect ("Makefile for the freax kernel" in a comment).  But arl
+called the linux directory at nic.funet.fi pub/OS/Linux, and the name
+stuck.  Maybe just as well: freax doesn't sound too good either (freax
+is obviosly free + freak + the obligatory -x). 
+
+(Rick's note for English speakers:  Linux - "LIH-nuhks".)
+
+
+QUESTION: What's about the copyright of linux?
+
+ANSWER: This is an except of the RELEASE Notes v.095a: Linux is
+NOT public domain software, but is copyrighted by Linus Torvalds. The
+copyright conditions are the same as those imposed by the GNU
+copyleft: The GNU GENERAL PUBLIC LICENSE Version 2, June 1991 is part
+of the source tree.
+
+
+QUESTION: Should I be a UNIX and/or a DOS wizard to install/use Linux?
+
+ANSWER: Not at all, just follow the install rules, of course it will be 
+easier for you if you know things about Unix. Right now Linux is used
+by more than BIGNUM persons, very few of them enhance the kernel, some
+adds/ports new soft, most of us are only (but USEFUL) beta testers.
+Last but not least, various Linuxers work on manpages, newuser_help,
+file-system organization. So join us and choose your "caste".
+
+It is even used in production environments (Dr. G.W. Wettstein)
+
+
+QUESTION: Does Linux use TSS segments to provide multitasking?
+
+ANSWER: Yes!
+
+
+QUESTION: If my PC runs under Linux, is it possible to ftp, rlogin,
+rsh etc.. to other Unix boxes?
+
+ANSWER: Kermit and ka9q have both been ported to Linux. Also, TCP/IP is
+quite reliable, only a few clients are missing.
+Read section XII. devoted to Ethernet and Linux.
+
+
+QUESTION: Does linux do paging? Can I have virtual memory on my small
+machine?
+
+ANSWER: Yes, it does. Generally you set up a swap file or partition, and
+enable it with the "swapon" command. Voila! Virtual memory.
+
+
+QUESTION: Can I have tasks spanning the full 4GB of addressable 386
+memory? No more 64kB limits like in coherent or standard minix?
+
+ANSWER: Since 0.97pl? it uses 4 GB Process Space, 3 for userspace and
+1 for the kernel space.
+
+
+QUESTION: Does the bigger program sizes mean I can run X?
+
+ANSWER: Yes! See section XI below for details on X11.
+
+
+QUESTION: What are the differences, pros and cons compared to Minix ?
+
+ANSWER (partial): 
+Cons: 
+- Linux only works on 386 and 486 processors.  
+- Linux needs 2M of memory just to run, 4M to be useful.  
+- Linux is a more traditional unix kernel, it doesn't use message
+passing. 
+
+Pros: 
+- Linux is free, and freely distributable, BUT copyrighted.  
+- Linux has some advanced features such as:
+  - Memory paging with copy-on-write
+  - Demand loading of executables
+  - Page sharing of executables
+  - Multi-threaded file system
+  - job control and virtual memory, virtual consoles and pseudo-ttys.
+- Linux is a more traditional unix kernel, it doesn't use message
+passing.
+
+
+QUESTION: What are the pros and cons compared to 386BSD ?
+
+ANSWER: Linux and 386BSD started out as completely different projects,
+with completely different goals and design criteria in mind. Personally,
+my experience with 386BSD has shown that :
+(a) its TCP/IP is more stable, and seems to work (on my NE2000 card,
+which Linux doesn't support yet), but 
+(b) the interface and "feel" just wern't the same as Linux (which I liked
+better :) ). You'll have to try it out for yourself. Here's information
+from comp.unix.bsd, September 1992:
+
+| This is a free BSD for the 386.  It does NFS and X.
+| Grab it from agate.berkeley.edu (128.32.136.1).  
+| Bill Jolitz is writing a book on it.
+| 
+| It has a neat, small kernel, and is stable enough to run for a week or
+| more without crashing/hanging. It works fine with 4MB RAM and 80MB
+| disk.  Running X however needs 8MB RAM, and supports only vanilla VGA.
+| The TCP/IP implementation in this is functional, but not optimised.
+| This means that FTP throughput is about 5KB/sec on Ethernet, when
+| almost anything else gives you about 70KB to 100KB per second.
+| 
+| Read comp.unix.bsd. That is almost entirely Jolitz's 386BSD now.
+|
+|    3. How much disk space for:
+|       *kernel
+|       *X
+|       *source to kernel
+|       *source to X
+|        Binary only:    49 M (30 disk, 5 swap, 14 extraction)
+|        Source:         125 M (49 bin, 37 disk, +6 extraction, 25 recompile)
+|        User software:  +51 M
+|
+|       X Binaries require about 61 Meg (?)
+|       I don't know about the sources.
+
+
+To conclude this Q/A wrt Linux vs 386BSD, you should read the Linux News
+Issue #5 of L. Wirzenius, where a true story of Mark W. Eichin is
+reported.
+
+
+QUESTION: How much space will Linux take up on my hard drive?
+
+ANSWER: It depends on which release you choose. See the section
+INSTALLATION below. Usually it's somewhere between 10 megs (for a
+nominal system+swap space) and 30-40 megs (for everything plus space
+for user directories, etc.). 
+
+BTW the full SLS needs around 60 MB (including TeX and other goodies).
+
+=================
+*** This section is co-written by Mark Komarinski, A. V. Le Blanc and
+*** MM. Corsini. The official maintainer is Mark, if you have *any*
+*** questions, critics \ldots, mail him at komarimf@craft.camp.clarkson.edu 
+*** Last Update 15.11.92
+
+
+QUESTION: Is is possible to access DOS from Linux?
+ 
+ANSWER: Yes.  
+(1) The mtools package allows you to access DOS files;
+it emulates the DOS commands CD, COPY, DEL, DIR, TYPE, and others.
+(2)  Since approximately version 0.97 of the kernel, you can mount
+DOS file systems as part of your Linux directory tree, providing you
+have an appropriate mount command.  
+(3)  A DOS emulator is in alpha test, which will allow some DOS programs
+and utilities to run under Linux. 
+
+
+QUESTION: Why use mtools if you can just mount a drive?
+
+ANSWER: Mtools is good if you want to do something quickly.  For
+example, if you want to get directories on a bunch of floppies.  The
+mount procedure requires you to mount the drive, get a directory, then
+umount it. Mtools lets you get the directory with one command.
+
+(Dirk Hohndel:) Mtools is really fast when copying disks. I mount the
+SLS directory of my SUN to my linux box and use mcopy to get the files
+on the disks. 3 times faster than using xcopy under DOS
+ 
+QUESTION: How do I get the mtools package set up correctly?
+ 
+ANSWER: The mtools package is available in source form on most Linux
+ftp sites.  The most recent version (As of Sept 1992) is mtools.n2,
+and there are linked binaries and library (.a) files available as
+well (for example, as part of MCC interim releases of Linux).
+In the n2 release of mtools, there is only one executable binary
+which works differently depending on its name: you can create hard
+or symbolic links to it named mcopy, mdel, mdir, mtype, etc; this
+is how the Makefile in version n2 of mtools does it, and it saves
+several hundred kilobytes of disk space.  Finally, you need the
+correct information in the file /etc/mtools, which is described below.
+ 
+QUESTION: What is the format of the file /etc/mtools?
+ 
+ANSWER: A complete entry in the file /etc/mtools contains the following
+fields: drive, device, fat, cylinders, heads, sectors, offset.  Two
+examples of entries from /etc/mtools are
+ 
+     A /dev/fd0 12 80 2 15
+     C /dev/hda1 16 0 0 0
+ 
+which defines the DOS disk A: as accessible through the device /dev/fd0,
+having a 12-bit FAT, 80 cylinders, 2 heads, and 15 sectors per track;
+DOS disk C: is accessible through the device /dev/hda1, has a 16-bit
+FAT, and its geometry is simply that of the hard disk where it lives.
+The last three numbers can be 0 if you wish; this allows mtools to
+try to figure out the disk's geometry itself, and perhaps to fail.
+A 12-bit FAT is common for floppies, but may occur in small hard
+disk partitions.  A 16-bit FAT is common for hard disks.
+This is an extract of my /etc/mtools file:
+A /dev/fd0 12 0 0 0     # 3.5  1.4 Meg (autodetect)
+B /dev/fd1 12 0 0 0     # 5.25 1.2 Meg (autodetect)
+C /dev/hda1 16 0 0 0    # 1st partition of my Disk
+
+QUESTION: Where can I find out more about mtools?
+ 
+ANSWER: There are two detailed README files in the mtools.n2 distribu-
+tion.  These files treat compiling and using mtools.  There is a file
+README.mtools which treats only using mtools, which is a part of the
+MCC interim version of Linux.
+ 
+
+QUESTION: How do I use the DOS file system?
+ 
+ANSWER: The DOS file system is part of the kernel.  If you have a
+kernel of level 97.1 or above, and an appropriate mount command, type
+ 
+     mount -t msdos [-o conv=text] /dev/hda1 /dos
+ 
+to mount the partition /dev/hda1 as an MS/DOS file system on the
+directory /dos.  You'll need a recent mount command, from at least
+release 97 or later of the root disk.  Recent mount commands also
+accept the options conv=binary|text|auto (default is binary) to
+specify that text end-of-lines in DOS files are to be converted to
+UNIX end-of-lines (by omitting carriage return characters) in no cases
+(binary) or in all cases (text) or in cases that don't have 'well-
+known binary extensions' (e.g., .EXE or .COM) (auto).
+ 
+
+QUESTION: I want to use the DOS file system with either conv=binary or
+conv=auto, but I want to convert text files from DOS to UNIX format,
+or from UNIX to DOS format.
+ 
+ANSWER: Use the utility todos/fromdos which comes as part of the
+dosfs package, currently (Sept 92) in released in version 8, or
+use the flip utility by Rahul Dhesi.
+ 
+QUESTION: Where can I find out more about the DOS file system?
+ 
+ANSWER: There is a README file included in dosfs.XX.tar.Z (the current
+value of XX is 8), and an abbreviated version of this in the MCC
+interim package. 
+ 
+
+QUESTION: Whenever I use mtools to read a 720K in an 1.44MB drive, I
+get a long sequence of reset-floppy-errors, why? 
+
+ANSWER: This is what happens if you use the /dev/PS0 device (b 2 28),
+to read a 720k floppy you have to use another device, for example
+/dev/fd0. Or you may use the setfdprm utility.
+
+
+QUESTION: This sounds me like a chicken and eggs problem, how can I
+install the mtools package at the very beginning.
+
+ANSWER: You have to use the rawrite stuff or the mount procedure.
+
+
+QUESTION: Could someone explain how to use rawrite?
+
+ANSWER: Well, rawrite is a DOS util, which write sequential sector of
+a formatted disk/floppy. When a floppy has been rawritten, you can
+(under Linux) untar it (use x, v, z and f flags). As an example:
+a) under Dos use rawrite
+rawrite
+	source: kermit.z
+	destination: a
+b) boot under Linux, and perform a tar
+tar zxvf /dev/fd0
+tar zxvp < /dev/fd0
+
+
+You DO NOT NEED TO MOUNT a rawritten disk
+
+
+QUESTION: What is as86.tar.Z ?
+
+ANSWER: It's the port of Bruce Evans' minix assembler, you need it to 
+be able to recompile Linux at your convenience. In fact this is ONLY
+used for boot/setup.S and boot/bootsect.S they create 80x86 REAL mode
+code. 
+
+
+QUESTION: Turbo (Microsoft) Assembler won't compile the Linux boot
+code.  In fact, some of the opcodes in these files look completely
+unfamiliar.  Why?
+
+ANSWER: The Linux boot codes are written in Bruce Evans' minix
+assembler, which has the same opcodes as the original minix assembler
+ported to linux get as86.tar.Z Anyway there are a few differences
+between these and normal DOS assemblers.
+
+QUESTION: What about the dos emulator (dosemu)?
+ 
+ANSWER: Dosemu is in alpha testing now, so it is very unstable and crashes
+easily.  Some programs (such as earlier versions of Turbo Pascal; TP
+5.5 too) seem to work fine, but other programs such as dir /p will
+crash the emulator. 
+Look in your favorite FTP site for the dosemu kit.
+
+
+V. SOME CLASSICAL PROBLEMS 
+==========================
+
+QUESTION: While running du I get "Kernel panic: free_inode: bit
+already cleared".  Also, du produces a ENOENT error for all the files
+in certain of my directories.  What's going on?
+
+ANSWER: These are both consistent with a bad file-system.  That's
+relatively easy to produce by not syncing before rebooting, as linux
+usually has 1.5MB of buffer space held in memory (unless you have <=4M
+RAM, in which case the buffers are only about 0.5MB). Also linux
+doesn't do anything special about the bit-map blocks, and as they are
+used often, those are the thing most likely to be in memory. If you
+reboot, and they haven't been written to disk ...
+
+Just do an fsck on the device, the -a flag might repair it otherwise,
+the only thing to do is to reinstall the filesystem from the Images.
+
+A sync is done only every 30 seconds normally (standard unix
+practice), so do one by hand (some people think you should do 3 syncs
+after each other, but that's superstition), or by logging out from the
+startup-shell, which automatically syncs the system. Unmounting a
+filesystem also syncs it (but of course you can never unmount root).
+
+Another (sad) possibility is that you have bad blocks on your disk.
+Not very probable, as they would have to be in the inode-tables, just
+a couple of blocks in size. Again there aren't programs available to
+read a disk for bad sectors and put them in some kind of
+"bad-sector-file".  On IDE drives this is no problem (bad sectors are
+automatically mapped away).
+
+
+QUESTION: How can I partition my hard-drive to use Linux?
+
+ANSWER: There are (at least) two ways to answer this. The easy way is
+probably to use a program which will do it for you, such as the MS-DOS
+fdisk, Minix fdisk, Xenix/Unix fdisk, or programs such as edpart.exe 
+or part.exe. With the 0.95a distribution, there is pfdisk. To use it
+have a look in the beginner's guide written by I. Reid, it's clear and
+it had worked for me like a charm. In the mcc-interim release ther is
+also fdisk, which runs under Linux and manages partition tables
+(it also creates extended partitions).
+
+On the other hand, you can use a disk editor and modify the contents
+of the partition table directly. This has been already done, and an
+extensive explanatory note can be found in the mailing-list archives 
+(25th Jan. 92). You must also edit the bpb on the Dos partition you
+are shrinking, otherwise Dos will step on Linux.
+
+BTW It might be useful to set three (3) separated partitions for
+Linux, one for the root, another one for the usr and a third one for
+swap, as an illustration, my root partition is 10Meg, the usr is 22Meg
+and instead of a swap partition I use a swap file. As an experience I
+have used MS-DOS fdisk to partition my two hd and got no peculiar
+difficulties. 
+You can, as long as you stay within the 64MB per filesystem limit
+(Minix-filesystem limitation), have swap, root, etc, ... all on there. 
+
+
+QUESTION: I heard something about repartition a hard disk without
+deleting everything on it, any clue?
+
+ANSWER: It's not a program but a partition procedure which requires
+a) a partitionning program
+b) a sector editor
+The procedure itself can be found (at least) in digest#132 Vol2.
+
+
+QUESTION: What must I do to mkfs a floppy?
+
+ANSWER: blocks are of size 1K so 1.44 floppy is 1440 blocks. The
+floppy has to be formatted before this will work (e.g., fdformat can
+do this from within Linux).
+
+
+QUESTION: I have some trouble with tar/untar; any clue ?
+
+ANSWER: The tar provided on .96 and latter is Pax (don't know for .98)
+which do not accept the z flag. You can download the GNU tar at tsx-11
+in /pub/linux/binaries/usr.bin 
+
+
+QUESTION: I can do this as root but not as non-root, is it a bug?
+
+ANSWER: Except for an early make utility, the problem is caused by an
+incorrect permission flag. The most common problems are about /tmp
+which should be 1777 and /dev/ttys? which might be 766. So as root do
+
+	chmod 1777 /tmp ; chmod 766 /dev/ttys?
+
+
+QUESTION: "du" reports twice the size showed with "ls -l", is it a
+bug?
+
+ANSWER: No it is not, the report is 512 bytes multiple (due to POSIX
+requirement), for KB you just add the -k flag. You can add a du
+function in your .profile which does this automatically, something
+like du(){ /usr/bin/du -k $* }
+	
+
+QUESTION: Sometimes, I get "mount can't open lock file"; what does this
+means? 
+
+ANSWER: This can happened for two reasons: 
+A) You try to mount something as non-root. In that case you can either
+retry as root, or set the setuid bit to mount as follows:
+- be sure that mount belongs to root, if not do 'chown root /bin/mount'
+- set the setuid bit with 'chmod u+s /bin/mount'
+BTW you have to do the same with umount (in order to be able to unmount) 
+Remark that it is NOT safe to allow anyone to perform mount/umount,
+you should rather write a small utility that will make any user able
+to mount/unmount a (and ONLY a) *floppy* 
+B) You are root. mount wants to open /etc/mtab and /etc/mtab~ - the
+first one for reading, the second as lock file. If there is already a
+mtab~ remove it. This can happen if you used once gnuemacs on mtab.
+
+To forbid that case, just add the following entry in your /etc/rc file:
+rm -f /etc/mtab
+
+
+QUESTION: When I try "mount /dev/hd?? /user", I get error 2.
+
+ANSWER: Be sure, that your mount point /user does exist; if not perform 
+a "mkdir /user". 
+BTW the error numbering is explained in /usr/include/errno.h
+
+
+QUESTION: Since I have upgrade my Linux kernel, ps won't work anymore,
+why? 
+
+ANSWER: Each time you upgrade (or re-compile the kernel), you should
+perform a 'ps -U' (-U is for update the /etc/psdatabase). 
+
+Every time you boot a new kernel you have to do a 'ps U' to update
+the psdatabase, after doing this you can remove the system file or
+do a make clean.
+
+The pathname to the system binary [/usr/src/linux/tools/system] is
+stored in the psdatabase, so you only have to specify it if you have
+moved your source tree or if you are creating the psdatabase for the
+first time. The psdatabase is always '/etc/psdatabase'. The system
+file is obtained in compiling the linux kernel (which I assume is
+rooted in /usr/src/linux).
+
+BTW: sometimes a patch makes recompiling ps necessary. Sometimes you
+even have to patch the ps-suite.
+
+
+BTW: there is also procfs in Linux. And one can find a BETA ps package
+(wrote by Michael K. Johnson) based on these filesystems. 
+
+MKJ wrote in c.o.l.a:
+
+tsx-11.mit.edu:/pub/linux/BETA/procps/procps.tar.Z is the latest
+version of procps.  Most of the reported bugs (i.e. all I can remember
+at the moment ;-) have been fixed, a man page for ps has been added,
+and several new programs have been added and/or fixed.  A list of the
+stuff provided:
+	ps
+	free (a real one, from Linus)
+	uptime (this needs work to be good, mine is a hack)
+	tload (a hack, but who cares?)
+	xload (from drew)
+	fuser (perl script prototype, hopefully the real thing in a
+	       later release)
+
+QUESTION: Since Linux 0.96b I have a lot of core file all over
+my disk. How can I sweep them away ?
+
+ANSWER: Use the following command
+		find / -name core -exec rm {} \;
+
+BTW: think twice before using this command, there might be a John Core
+user on your system; this command will erase his mail :)
+
+(Rick)  If you never want to see another core file, put this line into
+	your /etc/rc file:
+				ulimit -c 0
+
+provided you are a bash user :))
+ 
+
+QUESTION: I can only log-in as "root", is it normal ?
+
+ANSWER: No, add "rm -f /etc/nologin" in your /etc/rc.local file
+
+
+VI. MISCELLANEOUS HINTS 
+=======================
+*** This section is maintained by Matt Welsh (mdw@tc.cornell.edu). Please
+*** mail me if you have any changes/updates/questions. Thanks -mdw
+
+Special gcc information are located in section IX. A special section is
+devoted to it since it's *the* compiler of Linux. I have subsectionned
+this part in 3 subsections: Misc/Device Major-Minor/Serial Information.
+
+VI.A. Misc information
+~~~~~~~~~~~~~~~~~~~~~~
+
+QUESTION: It seems that $#@! ported on linux don't run correctly, what
+do I do about reporting bugs?
+
+ANSWER: (Matt Welsh) It's possible that either the program itself has a bug
+or that Linux has a problem that this program brings out. :) But first check
+that the size of the file(s) corresponds that of the files(s) on the FTP
+sites where it's available. If they're different, either you downloaded them
+incorrectly (i.e. you forgot to turn on "bin") or whoever put them on the
+FTP site uploaded them incorrectly. 
+
+If that's not the problem, then post to comp.os.linux asking about the 
+program, to verify that it is a bug. PLEASE: when posting possible "bug 
+reports" include all error and output information from running/compiling
+the program. Just saying "it doesn't work" isn't very helpful. Also mention
+your specific setup, Linux version, GCC version, etc. Some of these things
+depend on running under certain versions and you may have missed that
+information. 
+
+Note that my "ml-linux-bugs@dg-rtp.dg.com" bug reporting list has been
+phased out. It turns out that Linux has so few bugs, most of which are
+resolved on the newsgroup or through Linus before I can accumulate them
+and post. :) In short: if there's a bug in Linux or in Linux-ported
+software, it will usually be fixed in the next patchlevel or version.
+
+
+QUESTION: Has $#@! been ported to Linux?
+
+ANSWER: First check out the FTP sites and read the monthly INFO-SHEET,
+as well as the new "Linux News" and the META-FAQ's (all of which are 
+either available on the FTP sites and/or posted to the newsgroup as they're
+written). Also check out the "Linux Project Registry" (posted to the 
+newsgroup and on the FTP sites) which lists ongoing/current Linux projects.
+Also look in the "old" Linux digests and mailing-list archives, kept on
+tsx-11.mit.edu and nic.funet.fi. Also, see if there's a GNU(*) version
+of the program you're looking for (which are available everywhere).
+Since Linux uses GCC as its native compiler, most GNU software ports
+directly to Linux without problems. If all else fails, ask on the
+mailing list or newsgroup if the program is ported and where it's
+available. 
+
+
+(*) GNU stands for GNU's Not Unix, which (besides being a recursive
+acronym) is a project started by the Free Software Foundation (the FSF)
+to write a freely distributable version of Unix.  The GNU kernel is
+named HURD, and is based on Mach.  It is currently being written, and is
+not yet done.  Many of the GNU utilities, however, are completed and are
+much more functional than the original Unix utilities.  Since they are
+freely available, Linux is using them as well.
+
+
+
+QUESTION: I've ported $#@! to Linux, what should i do to add it in the 
+standard distribution?
+
+ANSWER: (Matt Welsh) First read the previous Q/A, then talk to the
+maintainers of the various releases (MCC interim, SLS, and so on)
+about including your program with those releases. The best way to make
+programs available to the rest of the world is to upload it to one of
+the Linux FTP sites (such as tsx-11.mit.edu:/pub/incoming or
+sunsite.unc.edu:/pub/Linux/Incoming). 
+
+BTW Whenever you submit binaries, please think that if you link them
+with shared libraries, this might cause problems for those who (gasp!)
+don't have the shared libraries installed. You can either link them
+using -static, and if someone wants to build a shared version on their
+own machine they can get the sources (which you should also make
+available) and build it themself. Or else provide the shared lib.
+
+
+QUESTION: I want to port $#@! to Linux, what are the flags?
+
+ANSWER: Recall that Linux implements subset of SYSV and POSIX, so
+-DUSG and -DPOSIX work in general. 
+
+NOTE1: SIGBUS is not there, and can be safely commented out in general.
+NOTE2: see section related to GCC, in the third part of this FAQ, for
+more details. 
+
+VI.B. Major/Minor device number
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*** This section is maintained by Rick Miller, any comments,
+*** suggestions, remarks should be mailed to him at <rick@ee.uwm.edu>
+*** Last Update: 17 Nov 1992 16:00:20 GMT
+
+QUESTION: What are the device minor/major numbers?
+
+ANSWER: Here's a preliminary listing from Rick Miller <rick@ee.uwm.edu>:
+  
+			The Linux Device List
+     published by rick@ee.uwm.edu (Rick Miller, Linux Device Registrar)
+ 
+	Many thanks to richard@stat.tamu.edu and Jim Winstead Jr.
+ 
+ Majors:
+  0.  Unnamed . (unknown) ....  for proc-fs, NFS clients, etc.
+  1.  Memory .. (character) ..  ram, mem, kmem, null, port, zero
+  2.  Floppy .. (block) ......  fd[01][dhDH]{360,720,1200,1440} or fd[01]
+  3.  Hard Disk (block) ......  hd[ab] or hd[ab][1-?] (Extended>4)
+  4.  Tty ..... (character) ..  tty{0,1-8,63,64-127,128-?} or ttys{0-3,1-4}
+  5.  tty ..... (character) ..  special tty: owner of its calling process.
+  6.  Lp ...... (character) ..  lp[0-2] or par[0-2]
+  7.  Tape .... (block) ......  t[0-?] (reserved for Non-SCSI tape drives)
+  8.  Scsi Disk (block) ......  sd[0-?] or sd[0-?][0-?]
+  9.  Scsi Tape (character) ..  st[0-?]
+ 10.  Bus Mouse (character) ..  bm, psaux (mouse)
+ 11.  CD-ROM .. (block) ......  scd
+ 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+ And where can you get this wonderful O/S....
+
+
+Well here we go again folks....
+
+Linux SLS V1 Entire release (28 1.44mb disks, 28,955,336 bytes)
+Self installing free UNIX for the PC
+
+FREE BY MAIL...............
+
+Here are the conditions:
+
+1.  You MUST be a member of MAC's Place BBS (in good standing)
+    MAC's Place is a free access BBS, so a simple logon and
+    registration will qualify you.
+    919-891-1111  at 16.8K USR Dual standards (two lines)
+
+2.  Only released on QIC-120 media (DC2120 tapes)
+
+3.  Send a FORMATTED DC2120 (QIC-120 tape) to:
+
+    MAC's Place BBS
+    P.O. Box 911
+    Dunn, NC 28335
+
+4.  The tape must be FORMATTED
+
+5.  Send return postage (in form of stamps NOT MONEY!)
+    and return labels
+
+6.  The tape must be FORMATTED (get the hint!)
+
+***************************************************************
+7.  If any of the above conditions are not met, it will be sent
+    back, "return to sender"
+***************************************************************
+
+MAC's Place will also offer the SLS V1 release via the BBS as
+as FREE/NO TIME download, to those at 9600 bps or better.  This
+means you can download the entire sls release in one shot and it
+doesn't count against you in time or downloads.  At 14.4 or 16.8
+it goes quicker than you'd think.
+
+The release will be 28 files on tape that you can put to disk 
+yourself.  It is compressed using LHARC (mostly for storage
+because internal files are unix compressed)
+
+Make sure you send return postage in the form of stamps, not money.
+I want nothing in return for this.  In this day and age were
+everyones has an angle, we'd like to prove not everyone
+is out for themselves.  We do this in the TRUE spirit of OPEN
+systems and maybe we'll give 'ol Bill Gates a small
+nightmare (doubtful!)
+
+Enjoy and if this is anything like the last time I did this 
+PLEASE be patient, I processed 100's of orders last time.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|
+Call These Systems.....            | Wanna Join /´FTERSHOCK or CanceR?     |
+				   | Call up a board and leave what you    |
+CUM          <708>961/0927         | can do what you wanna do and          |
+Room 101     <708>265/1984         | whatever else. Later..                |
+13th Avenue  <206>PRI/VATE         |                                       |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|
+(C)1993 /´FTERSHOCK/CanceR What Rights? -EoF-

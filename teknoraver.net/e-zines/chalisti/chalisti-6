@@ -1,0 +1,1934 @@
+
+            CCCCC  H    H    AA    L       I   SSSSS  TTTTTT  I
+           C       H    H   A  A   L       I  S         TT    I
+           C       HHHHHH   AAAA   L       I   SSSS     TT    I
+           C       H    H  A    A  L       I       S    TT    I
+            CCCCC  H    H  A    A  LLLLLL  I  SSSSS     TT    I
+ 
+                                Ausgabe 6
+ 
+          Editorial.............................RC..........FRC1
+          RSA - Verschluesselung................NE..........FNEA
+          Das deutsche Orange Book..............FA..........FFAE
+          CeBIT: DDR geWiNt.....................RC..........FRC3
+          CeBIT: Netze fuer die Publizistik.....MK..........FMK4
+          CeBIT: Sichere Betriebssysteme........RC..........FRC5
+          CeBIT: Low-Cost-Unix..................RC..........FRC6
+          CeBIT: Computer und Umwelt............MK..........FMK7
+          CeBIT: Der ST-Emulator................RC..........FRC9
+          CeBIT: Am Rande bemerkt...............RC..........FRC8
+          Der Alte Mann und das Mehr............FA..........FFAB
+          Internet Chat Relays..................FA..........FFAD
+          Kurzmeldungen.........................RC..........FRC2
+                Neues Virenbuch..............................1-1
+                Expertensystem auf Japan.....................2-2
+                Dokumentation zu Karl Koch...................3-3
+          Impressum.........................................FRCC
+ 
+ 
+  Erlaeuterungen:    DS - Datenschleuder
+                     RC - Redaktion Chalisti
+                     MK - Mik-Magazin
+                     NE - Uebernommen aus einem Netzwerk
+                     FA - Freier Artikel (Autorenangabe am Anfang oder
+                                          Ende des Artikels)
+ 
+  Die Artikelkennung (FDS1,FMK2,etc) dient zum suchen der Artikel mit
+  Editoren und Textverarbeitungssystemen. Mit der Marke 'NEXT' kann gleich
+  zum naechsten Artikel gesprungen werden.
+ 
+-----------------------------------------------------------------------------
+NEXT FRC1
+ 
+                    Das Editorial im CeBit-Wahn
+ 
+Dies ist sie nun, unsere CeBit-Ausgabe. Nach Zwei durchmachten Naechten
+(Frank war sogar Vier Tage da..!) meldete ich mich mich am Mittwoch abend
+wieder zurueck nach good Old Oldenburg.i Um hier gleich an dieser Ausgabe
+weiter zu arbeiten..:-)). Mir hat die Messe einiges an Erkenntnis gebracht,
+so z.B. jene, dass man als Presse-Mensch doch erheblich anders (besser)
+behandelt wird, als alle anderen Besucher. Es war kein Problem sich mit dem
+Pressechef Deutschland von Commodore zu unterhalten und mit iihm Kaffee zu
+trinken, was ich mir vorher nicht haette traeumen lassen.x. Aber von diesem
+und weiteren Gespraechen mehr in den entsprechenden Artikeln.
+ 
+Auch hoerte ich auf der Messe wieder das Geruecht von dem Nachfolger fuer
+MS-Dose. Es sind da ja allgemein Unix und OS/2 im Gespraech. Als kleinen
+Vorgeschmack zum Artikel ueber LOW-COST-Unix kann ich dazu nur sagen, das
+WENN Unix dieses Rennen gewinnen sollte, dann nur durch solche
+Implementierungen wie sie Apple auf seinen 68030-Rechnern mit A/UX 2.0
+vorstellte.
+ 
+Aus dem Bereich 'Geruechtekueche" der Messe kann man auch noch folgende
+kleine Meldung bezeichen : "Wordperfect 5.1 kann deutsche Kommasetzung
+(korrigieren)". Dies war natuerlich (natuerlich deshalb, wenn man die
+derzeitige Implementierung des spell-checker's kennt) nur eine Finte.
+ 
+Aber nun steht ja die Chalisti 6 ins Haus. Uns faellt auf der CeBit auch
+auf, dass die - doch recht junge - Chalisti ziemlich bekannt war. Sogar
+bei Firmen und Presseleuten. Auch an der - manchmal ziemlich nervigen -
+Post von Firmen und Softwarehaeusern kann man dies gut ablesen. Fuer
+die Chalisti hatte die CeBit auch noch andere Folgen. Ein Beispiel dafuer
+sicher, dass die Redaktion Chalisti am Projekt des Deutschen Forschungs-
+netzes (DFN) fuer Wissenschaftsjournalisten teilnimmt. Auf diese Weise
+erschliessen wir (nach vereinzelten sci.* Texten aus dem UseNet) nun
+eine weitere Informationsquelle im Wissenschaftsgebiet und hoffen schon in
+der naechsten Ausgabe die ersten Informationen aus Forschung und Uni-
+versitaet verarbeiten zu koennen.
+ 
+Jetzt kommt natuerlich wieder das leidige Thema Artikel. Wie immer
+wussten wir nicht mal zur Zeit als dieses Editorial getippert wurde, ob
+wir genug Beitraege haben werden. Ein mittelschweres Wunder bescherte uns
+heute noch Beitraege von Pi und Waldi, so dass wir frohen Mutes eine
+vollstaendige Chalisti und leere Archive haben. In dieser Ausgabe waren
+unter anderem die Texte vom KoKon '90 in Ost-Berlin geplant. Aber leider
+haben technische Probleme, chaotische Zustaende, zensuraehnliche Diskussionen
+und die Arbeit die auf Einzelnen im CCC liegt dies erfolgreich verhindert.
+Wir hoffen das diese Texte uns zur naechsten Ausgabe Mitte Mai, sowie auch
+neue Beitraege von Euch hier eintreffen und auch die Chalisti 7 - irgendwie -
+erscheinen wird.
+ 
+Als Randinformationen: Diese Ausgabe beinhaltet KEINEN Aprilscherz und
+ueberhaupt ist bald Ostern und wir wuenschen euch frohes Eiersuchen.
+ 
+                                                Volker Eggeling
+                                                Frank Simon
+ 
+-----------------------------------------------------------------------------
+NEXT FNEA
+ 
+    Datensicherheit. Verschluesselung mit dem RSA-Code. Theoretisches.
+ 
+Das "public key"- System von R. L. Riverest, A. Shamir, L. M. Adleman
+(1978) (RSA- Code).
+ 
+(Anm. der Redaktion):
+Nachdem wir schon einen Beitrag zum Thema DES hatten, wollen wir Euch
+diesmal noch mal mit Mathematik aergern. Bei den Publik Key Verfahren handelt
+es sich um Verschluesselungsprogramme, wo es zwei Schluessel gibt: Einen zum
+Verschluesseln und einen zum Entschluesseln. Der zum verschluesseln kann
+allgemein bekannt sein. Er ist zum Entschluesseln nutzlos. Diese Ver-
+fahren haben den Vorteil, dass ein Nachteil von anderen Cryptoverfahren
+(z.B. DES) wegfaellt. Dort muss naemlich der Schluessel ausgetaucht werden,
+damit die Gegenstelle den Text wieder entschluesseln kann. Fuer die meisten
+"praktischen" Anwendungen (z.B> in der Wirtschaft) sind die Public Key
+Verfahren besser einsetzbar (Gute Informationen zu dem Thema kann mensch
+von der GMD, Berlinghoven zum Projekt TeleTrust erhalten).
+(Ende der Anmerkung)
+ 
+Die Benutzer eines oeffentlichen Kommunikativsystems wollen verschluesselte
+Botschaften austauschen. Es wird ein Alphabet mit N Zeichen benutzt. Die
+Zeichen werden durchnumeriert. Seinen b(0), b(1), ... b(N-1) die Buch-
+staben in diesem Alphabet. Diese Reihenfolge wird beibehalten.
+Man waehlt natuerliche Zahlen k und l mit k < l, fuer die N^k (N hoch k) und
+N^l (N hoch l) ca. 200 Dezimalstellen haben. Das Alphabet, die Reihenfolge
+der Zeichen, die Zahl N, und die Zahlen k und l werden veroeffentlicht.
+ 
+(1) Erzeugung des Codes
+ 
+Es sei A ein Benutzer dieses Systems. A waehlt zwei verschiedene Primzahlen
+p(A) und q(A) mit jeweils etwa 100 Dezimalstellen, die folgende Bedingung
+erfuellen :
+                        Es ist  N^k < p(A) * q(A) < N^l
+ 
+Dann berechnet A die Zahlen   m(A) = p(A) * q(A)                 und
+                              phi(A) = (p(A) -1) * (q(A) - 1)
+und waehlt eine Zahl e(A) zwischen 1 und phi(A)-1, die mit phi(A)-1 keinen
+gemeinsamen Teiler hat. Anschlieend berechnet A die Zahl d(A) fuer die
+gilt:
+ 
+   Es gibt eine natuerliche Zahl k mit :  d(A) * e(A) = 1 + phi(A) * k
+ 
+   (Mathematisch: d(A) * e(A) ist kongruent zu 1 modulo phi(A))
+ 
+   (Fuer die Berechnung von d(A) gibt es schnelle Algorithmen. Eingabe
+   dieser Algorithmen ist e(A) und phi(A). Die Geheimhaltung von phi(A)
+   ist also dringend erforderlich, um die Sicherheit des Codes zu
+   garantieren.)
+ 
+Die Zahlen m(A) und e(A) werden veroeffentlicht, die Zahlen p(A), q(A),
+d(A) und phi(A)  muessen geheimgehalten werden. p(A), q(A) und phi(A)
+werden nicht mehr benoetigt.
+ 
+(2) Verschluesselung und Entschluesselung
+ 
+Der Benutzer B moechte an A eine verschluesselte Nachricht schicken. B teilt
+den Klartext in Bloecke aus k Zeichen und ersetzt jedes Zeichen durch sein
+"numerisches" quivalent (also jeweils b(i) durch i). So entstehen k-tupel
+aus Zahlen in {0, 1, ..., N-1}. Es sei (y(1), ..., y(k)) ein solches
+k-tupel. B berechnet
+ 
+   X := y(1) * N^(k-1) + y(2) * N^(k-2) + ... + y(k-1) * N + y(k)   und
+ 
+   X1 := (X ^ e(A)) MOD m(a)
+ 
+Es gilt 0 < X < N^k-1 < N^l-1. B berechnet die z(1), ..., z(l) mit
+ 
+   X1 = z(1) * N^(l-1) + z(2) * N^(l-2) + ... + z(l-1) * N + z(l).
+ 
+Das l-tupel (z(1), ..., z(l)) wird ueber das oeffentliche Kommunikations-
+system an A geschickt.
+ 
+A berechnet daraus wieder X1 = z(1) * N^(l-1) + ... + z(l), und dann
+ 
+   X2 := (X1 ^ d(A)) mod m(A). Es gilt: X2 = X.
+ 
+Aus X berechnet A die Zahlen y(1), ..., y(k) mit
+ 
+   X := y(1) * N^(k-1) + y(2) * N^(k-2) + ... + y(k-1) * N + y(k)
+ 
+und hat damit (y(1), ..., y(k)) zurueckgewonnen, und kann die Original-
+nachricht daraus zusammensetzen.
+ 
+Anmerkung:
+Die Gesamtnachricht setzt sich aus den Kodierungen aller k-tupel der
+Originalnachricht zusammen. Die Nachricht verlaengert sich beim kodieren
+also um das l/k-fache. Zum Kodieren ist die Kenntnis der Zahlen m(A),
+e(A), k, l, und N sowie die Kodierung der Zeichen im Alphabet notwendig.
+m(A) und e(A) haben jeweils ca. 200 Stellen und sind somit nur schweer zu
+merken, oder ueberall fuer jeweils alle Benutzer zu speichern.
+ 
+(3) Identifizierung von Nachrichten
+ 
+Jeder Teilnehmer erhaelt eine Signatur (g(1), ..., g(k)) aus Zeichen des
+Alphabets zugewiesen, die ihn eindeutig identifiziert (z. B. der
+Username), und die veroeffentlicht ist. B moechte mit seiner Botschaft an A
+einen Beweis dafuer mitschicken, da die Botschaft von ihm kommt. B
+berechnet mit seiner eigenen Signatur:
+ 
+   s := g(1) * N^(k-1) + g(2) * N^(k-2) + ... + g(k-1) * N + g(k) und
+ 
+   s1 := (s ^ d(B)) mod m(B) und ermittelt daraus die h(1),.. h(l) mit
+ 
+   s1 = h(1) * N^(l-1) + h(2) * N^(l-2) + ... + h(l-1) * N + h(l)
+ 
+und schickt (h(1),..., h(l)) mit seiner Botschaft an A. A dechiffriert,
+wie in (2) beschrieben die eingegangenen l-tupel. Alle ergeben sinnvollen
+Klartext auer h(1),..., h(l). Hiermit berechnet er wieder
+ 
+   s1 := h(1) * N^(l-1) + h(2) * N^(l-2) + ... + h(l-1) * N + h(l) und
+   s :=  (s1 ^ e(B)) mod m(B)
+ 
+A schreibt s als:
+ 
+   s = g(1) * N^(k-1) + g(2) * N^(k-2) + ... + g(k-1) * N + g(k)
+ 
+und hat damit (g(1), ..., g(k)) berechnet und vergleicht mit der
+veroeffentlichten Signatur im Telefonbuch.
+ 
+Anmerkung:
+Dieses Verfahren klappt nur dann, wenn man die Position der h(1), ...,
+h(l) in der verschluesselten Datei nicht im Vorraus ermitteln kann, und
+wenn B seine Identitaet bereits anderswo in der verschluesselten Datei
+andeutet. So bietet die hier beschriebene Methode eine Moeglichkeit, das
+Dokument zu "unterschreiben", so dass nicht jeder diese Unterschrift unter
+ein mit falschem Absender versehenen Brief schreiben kann. Wenn die Zahlen
+h(1), ..., h(l) jedoch einem dritten bekannt werden, so ist das Verfahren
+hinfaellig. Ausserdem muss B seine Identitaet anderswo im Dokument angeben,
+weil sonst der Empfaenger alle Moeglichkeiten fuer verschiedene Absender
+durchgehen muss.
+ 
+(4) Sicherheit
+ 
+Die Sicherheit des Systems beruht darauf, dass es (noch) keinen schnellen
+Algorithmus zur Faktorisierung grosser natuerlicher Zahlen gibt. Um eine an
+A gerichtete Nachricht zu entschluesseln benoetigt man d(A) und um d(A) zu
+berechnen benaetigt man die Faktorisierung von m(A) = p(A= * q(A).
+ 
+(5) Primzahlen
+ 
+Zur Herstellung von p(A) und q(A) und e(A) hat men einen Generator von
+Zufallszahlen zu verwenden (und einen schnellen Primzahltest)
+ 
+(6) Zum modernsten Stand
+ 
+- G. Brassard, Modern cryptology, 1988
+- E. Kranakis, Primality and cryptography
+- N. Knoblitz, A course in number theory and cryptogrphy
+ 
+Quelle:  Vorlesung ueber Lineare Algebra, Paderborn.
+         Aus dem Zerberus. Anfragen bitte an ZENTRALE@BIONIC, da ich
+         dem Namen des Autors verschlammt habe.
+ 
+-----------------------------------------------------------------------------
+NEXT FFAE
+		   Das deutsche Orange Book
+ 
+  In  der  Chalisti 5 hat Terra in  groben  Abrissen  aufgezeigt,
+worum  es in einem deutschen Orange Book geht.  Dazu moechte  ich
+hier  einige  Anmerkungen machen,  da mir  Terras  Meinung  lange
+nicht hart genug ausfaellt.
+ 
+  Dazu noch einmal eine kurze Einfuehrung.  Im Pentagon wurde  ab
+1978  an Kriterien gearbeitet,  um die Vertrauenswuerdigkeit  von
+EDV Systemen untersuchen und beurteilen zu koennen.  Als Ergebnis
+dieser Untersuchengen erschien die Schrift mit der  Kennzeichnung
+DoD 5200.28-STD / CSC-STD-001-83,  dtd 15. August 1983, die wegen
+ihres  orangefarbenen  Umschlages  fortan  als  Orange  Book  be-
+zeichnet  wurde.  Da  diese Schrift sich allerdings nur  mit  den
+Betriebssystemen  der  Rechner  an sich,  nicht  jedoch  mit  der
+Sicherheit von EDV-Netzwerken befasste,  wurde dann im Jahre 1987
+die  Trusted  Network Initiative (TNI) entworfen,  die  nun  auch
+Kriterien  zur Untersucheung der Sicherheit von  Netzwerken  ent-
+hielt.   Wie so oft in der Geschichte von Richtlinien und Politik
+versuchten  auch hier die Deutschen wieder einen eigenen  Weg  zu
+gehen,  indem  sie  ein deutsches Orange  Book  entwarfen  (siehe
+hierzu  Chalisti 5 und DFN Nachrichten Juli 1989 und  IT  Sicher-
+heitskriterien, Bundesanzeiger, Koeln 1989).
+  Ich  moechte hier nicht auf diese  Schriften  weiter  eingehen,
+dazu  moege mich der interessierte Leser direkt anschreiben  oder
+sich  die entsprechenden Quellen besorgen.  Mir geht es hier  nur
+darum, die Schwachstellen derartiger Werke aufzuzeigen.
+ 
+Zunaechst einmal, was bieten diese Werke?
+ 
+  Sowohl  die  deutsche wie auch die  amerikanische  Ausgabe  des
+Orange  Books  bzw.  des TNI versuchen  Entwicklern  und  Testern
+Kriterien an die Hand zu geben,  an Hand derer entschieden werden
+kann,  wie sicher ein System einzuschaetzen ist.  Dieser  Schritt
+ist  in  meinem Augen sehr zu  begruessen,  ein  Schatten  faellt
+jedoch ueber die Geschichte,  Deutsches und Amerikanisches Orange
+Book  sind  nur zum Teil deckungsgleich,  so  das  Hersteller  im
+Zweifelsfall  alle notwendigen Sicherheitspruefungen zweimal  ab-
+solvieren    muessen.    Doch   dies   ist   nur   ein    kleiner
+Schoenheitsfehler am Rande.
+ 
+Warum bin ich so kritisch eingestellt?
+ 
+ Wie schon Terra in der Chalisti 5 ausgefuehrt hat,  waegen diese
+Kriterien   und   die   Einordnung   von   Betriebssystemen    in
+unterschiedliche    Klassen   den   Endverbraucher    in    einer
+truegerischen Sicherheit.   Zunaechst einmal halte ich es mit den
+derzeitigen  Methoden  fuer schlicht  nicht  durchfuehrbar,  eine
+formale Analyse aller Sicherheitselemente eines  Betriebssystemes
+durchzufuehren,  da diese sehr aufwendig und zeitraubend ist  und
+fuer  jede neue Release eines BS neu durchgefuehrt  werden  muss.
+Damit  sind  wir beim zweiten Manko.  Die  Ueberpruefung  erfolgt
+fuer ein definiertes System,  fuer jede Verbesserung des Systemes
+muss   eine   Neubewertung   durchgefuehrt   werden.   Wir,   als
+Informatiker,  wissen,  wie schnell  BSe veralten.  Da  aber  ein
+Pruefung,  je nach Einordnung,  zwischen 2 und 6 Monaten  dauert,
+wuerden Verbesserungen stark behindert werden.  Einen  Lichtblick
+gibt  es jedoch: in der Regel ist die Bewertung  kostenlos,  und
+bei  einer  guten Beurteilung sicher  eine  gute  Werbung.  Jedem
+duerfte  klar  sein,   welche  Aussage  ich  hiermit  implizieren
+moechte.
+ 
+   Aber  alle bis hierher angesprochenen Punkte sind  nur  kleine
+Schaeden  in  der  Makulatur,   verglichen  mit  dem   wirklichen
+Schwachpunkt dieser Kriterien.
+Es  werden  hier explizit nur Systeme und Rechnernetze  bewertet,
+und hier liegt der grosse Haken.
+ 
+  Auf  der CeBIT 1989 sprach ich mit  diversen  Fachleuten  ueber
+dieses Thema.  Einhellige Meinung,  wie auch in der letzten  Zeit
+haeufig   festzustellen,   der  Faktor  Mensch  wird   zu   stark
+vernachlaessigt.  Nirgendwo  steht ein Hinweis,  das  der  Faktor
+Mensch   D E N  Fehler im System darstellt.   Warum  diese  harte
+Beurteilung?
+  Viele   Firmen  arbeiten  mit  Hilfe  von  Telefonmodems.  Eine
+Rechneranlage  gegen Eindringlinge via Modem  zu  schuetzen,  ist
+denkbar  einfach.  Wir  bauen lediglich  einen  Vorrechner  (z.B.
+einen  PC  fuer  ein  paar Mark  fuffzig)  ein,  der  nach  einem
+Passwort  und  der Telefonnummer des  Anrufers  fragt,  und  dann
+zurueckruft.  Schon  ist der Anrufer in der Regel sehr leicht  zu
+identifizieren.  Doch muss die entsprechende Firma  zurueckrufen,
+und  das  verursacht  Kosten,  darum  wird  haeufig  von  solchen
+Methoden abgesehen, obwohl die Hardware vorhanden ist.
+ 
+ Viele BSe bieten schon heute die Moeglichkeit, die Benutzung von
+Resourcen  und  Daten  zu  Protokollieren.   Doch  muessen  diese
+Protokolle  auch ausgewertet werden,  doch dafuer fehlen  in  der
+Regel  entsprechend ausgebildetes Personal,  denn  dieses  kostet
+Geld. Also wird lieber auf eine Protokollierung verzichtet.
+ 
+   Allen   Computernutzern  sollte   auch   bekannt   sein,   das
+herkoemmliche   Bildschirme   strahlen,   also  die   Daten   mit
+speziellen  Verstaerkern  abgehoert und wieder  sichtbar  gemacht
+werden  koennen.  Hier schuetzen nur spezielle  Bildschirme  oder
+abgeschirmte  Raeume,  doch  auch  dies  verursacht  zusaetzliche
+Kosten.
+ 
+  Damit  waeren wir bei dem Raeumen.  Und dann war  da  noch  der
+Kollege,  der sprach:"Kannst Du mich mal eben in den Raum lassen,
+habe  meine Karte vergessen ..." und schon war er in einem  Raum,
+von  dem  Zugriffe  auf geschuetzte  Daten  moeglich  sind.  Denn
+Zugriffe  auf  geschuetzte Daten kann  man  so  einrichten.  dass
+diese  nur  von  bestimmten Terminals  in  besonders  gschuetzten
+Raeumen moeglich sind.
+ 
+  Natuerlich  muessen erst einmal solche Raeume  vorhanden  sein,
+doch auch diese kosten leider viel Geld,  nicht zu vergessen sind
+dabei  auch Tuersicherungsanlagen,  die nicht nur Geld  fuer  die
+Hardware sondern auch Geld fuer die Verwaltung erfordern.
+ 
+ Und dann sind da noch die Passworter,  alle x Wochen zu aendern.
+Doch was nehme ich da??  Frauennamen oder Hobbybezeichnungen sind
+da gang und gebe.  So wie der Operator auf einem Grossrechner der
+Namen von grossen Schachspielern als Passwoerter gebrauchte,  bis
+er  eine Liste seiner Passwoerter der letzten 6  Monate  erhielt.
+Oder die Leute,  die sich ihr Passwort unter die Tastatur kleben,
+wie ein mir bekannter BTX Anwender.
+ 
+   Somit  koenne wir feststellen,  nicht jeder Anwender  der  ein
+vermeintlich  so sicheres System hat,  hat wirklich ein  sicheres
+System,    da   aus   oekonomischen   Ueberlegungen   Teile   des
+Sicherheitssystemes  ausser  Kraft  gesetzt  werden,  oder  nicht
+richtig  eingesetzt  werden,  teils aus mangelnder  Schulung  des
+Personals, teils aus Ueberlastung oder Unaufmerksamkeit.
+ 
+ Somit komme ich zu dem Resuemee,  dass die Kriterien des  Orange
+Book  sicher  dem  Endanwender  bei der  Auswahl  des  BS  helfen
+koennen,  es  sollte allerdings auch hinterfragt werden,  wie  es
+mit dem zusaetzlichem Aufwand an Hardware und Personal  aussieht,
+das gebraucht wird,  um die Anlage mit der optimalen Sicheheit zu
+betreiben.  Damit duerfte das Orange Book sicher ein guter Anfang
+sein,  aber  der Weissheit letzter Schluss ist es mit  Sicherheit
+noch nicht.
+ 
+Autor: Waldi (rode@uniol.uucp, 077481@doluni1.bitnet)
+-----------------------------------------------------------------------------
+NEXT FRC3
+ 
+                           DFN: DDR geWINt
+ 
+Das Deutsche Forschungsnetz war auch dieses Jahr auf der CeBit mit einem
+kleinen Stand vertreten. Allerdings sollte mensch sich von dem kleinen
+Stand nicht beeindrucken lassen. Dort gab es viel zu erfahren. Themen
+wie WiN, DDR, Wissenschaftsjournalisten und Kooperation wurden aufgegriffen.
+ 
+Das DFN hat - auch auf Druck der Universitaeten - mit der Deutschen Bundes-
+pest ein pauschaltarifiertes Datex-P Netz ausgehandelt. Die Universitaeten
+muessen in ihren Finanzplanungen mittelfristig planen koennen und brauchen
+daher ein Netz, wo die Kosten NICHT von von der Benutzungszeit oder den
+Datenmenge abhaengig sind. Daher wurde das Wissenschaftliche Hochschulnetz
+(WiN) aufgebaut. Dabei handelt es sich um ein Netz, welches technisch auf
+X.25 (also Datex-P) basiert, physikalisch aber vom Datex-P getrennt ist.
+Allerdings bestehen schon jetzt Dienstuebergaenge zwischen Datex-P und WiN,
+bei deren Benutzung aber wieder volumenabhaengige Gebuehren anfallen.
+Die Kosten fuer einen WiN Anschluss liegen fuer eine 9600 Bps Verbindung
+bei 1500 DM/Monat, fuer einen 64 KBitps Anschluss bei 5000 DM. Die
+Universitaeten koennen das WiN fuer die meisten logischen Netze wie UUCP,
+EARN, InterNet, X.400, etc benutzen und als solches wird es auch schon
+vielerorts eingesetzt.
+Wie Frau Roesler-Lass vom DFN berichtete haben sich die meisten Universitaet
+positiv ueber das X.25-Wissenschaftnetz geaeussert. Wenn mensch bedenkt, dass
+erst im Herbst 1989 mit den Installationsarbeiten begonnnen wurde, erstaunt
+es das schon in diesen Tagen das WiN voll eingesetzt werden kann und das
+schon jetzt 90 Rechner am Netz teilnehmen koennen. Probleme mit der benutzten
+Software, sowie mit der Post koennen in der Regel schnell geloesst werden.
+Ende April soll das WiN dann abgenommen werden und auf seine weitgehende
+Fehlerfreiheit fuer 30 Tage getestet werden.
+Mittelfristig wird das WiN wohl die derzeit gebraeuchlichen Datex-P
+Verbindungen und Standleitungen abloesen. Es bleibt natuerlich zu hoffen, dass
+durch die vereinfachte und pauschalisierte Kostenstruktur der Netzzugang an
+den Universitaeten auch fuer Studenten und Interessierte lockerer gehandhabt
+werden.
+ 
+DFN engagiert sich inzwischen auch in der DDR. Allerdings stellte sich wieder
+heraus, dass die Projekte zur Vernetzung innerhalb der DDR relativ un-
+koordiniert ab. Die Vertreterin der zentrale Projektleitung auf dem DFN-Stand
+war weder ueber die Entwicklungen zwischen UniWare und der EAG in der DDR
+zur Schaffung eines Netzes, noch ueber die Aktivitaeten der GMD/GI/EUnet und
+erst garnicht ueber das DDRnet Projekt des Chaos Computer Club informiert. Es
+wurde allerdings die Notwendigkeit der Koordinierung besprochen und es bleibt
+zu hoffen das in dieser Richtung etwas geschehen wird. Der DFN-Verein hat
+einen drei Stufen Plan zur Vernetzung der Universitaeten in der DDR ausge-
+arbeitet:
+In der ersten Stufe sollen 3 Standleitungen zwischen der DFN-Zentrale in
+West-Berlin und der Humbold Universtaet in Ost-Berlin geschaltet werden.
+Diese Standleitungen sind auch beantragt. Auf diesen Leitungen sollen
+verschiedene X.400 Anwendungen getestet werden und soll auch die X.25 und die
+X.400 Dienste der DDR naeher bringen. In kleinen Masse baut DFN damit ein dem
+Datex-P vergleichbares Netz auf, allerdings sind dies noch langfristige
+Hoffnungen wie mensch uns mitteilte. In der zweiten Stufe sollen Rechner in
+West-Berlin stehen. Durch Standleitungen sollen die Benutzer in Ost-Berlin an
+der Humbold-Universitaet und an der Charity an diese Rechner arbeiten koennen.
+Gleichzeitig sollen auch andere Universitaeten der DDR an dieses Netz
+angeschlossen werden. Dieses "komplizierte" Verfahren hat seinen Grund in der
+immer noch bestehenden Cocom-Bestimmungen. Allerdings soll es im Juni ein
+Treffen der Cocom-Mitglieder geben um diese Bestimmungen zu lockern.
+Der DFN-Verein hofft dann die 3.Stufe in Angriff nehmen zu koennen und die
+Rechner der DFN-Zentrale nach Ost-Berlin zu transportieren und damit das
+Netz endgueltig der DDR-Wissenschaft uebergeben zu koennen.
+ 
+DFN setzt diesmal auch wieder ein Zeichen der Kooperation. Am 23. Maerz
+wurde auf der CeBit ein Kooperationsvertrag zwischen dem Geschaeftsfuehrer
+der Apple Computer GmbH und der DFN-Verein geschlossen. Laut der Presse-
+information ist der Grundgedanke dieses Vertrages die Foerdung der OSI-
+gestuetzten Datenkommunikation in der europaeischen Wissenschaft. Auch im
+Bereich des X.25-Wissenschaftsnetzes wird die Institutionen zusammenarbeiten.
+Im Rahmen des Vertrages soll Software bereitgestellt werden, die auf
+MacIntosh Rechnern den Zugriff ueber WiN auf Datenbanken, Filetransfer und
+Bildschirmtext zugegriffen werden koennen. Apple entwickelt gerade X.25 und
+X.400 Karten fuer die Macinstosh Systeme die eine Uebertragungsrate bis zu
+64Kbitps erreichen koennen. Universitaeten werden in Zukunft beim Kauf
+von Macintosh Systemen standardmaessig die noetigen Karten und Software fuer
+Anschluesse an das WiN mitgeliefert bekommen.
+Der DFN-Verein rechnen fuer 1994 mit 100.000 Personal Computern die an das
+WiN angeschlossen sein werden. Also auch im Bereich Kommunikation beginnt
+der Hang zur "Persoenlichen Kommunikation".
+ 
+                                                                Terra
+ 
+-----------------------------------------------------------------------------
+NEXT FMK4
+ 
+                Netze fuer die Publizistik
+ 
+Fuer die Publizistik sind Nachrichtennetze auf E-Mail-Ebene eine
+der interessantesten Anwendungen. Freien Journalisten bieten sie
+im Prinzip eine Infrastruktur, die aus Kostengruenden bislang nur
+grossen Nachrichtenagenturen vorbehalten war. Allerdings haben
+die technischen Moeglichkeiten alleine keinen Gebrauchswert. Die
+Entscheidung fuer oder gegen ein Mailboxnetz haengt entscheidend
+von den im Netz angebotenen Gebrauchsinformationen ab. Ein
+Beispiel fuer die sinnvolle Verknuepfung von Technik und
+Gebrauchsinformation ist das seit September 1988 mit
+Unterstuetzung des Forschungsministeriums initiierte Netz fuer
+Wissenschaftsjournalisten des Deutschen Forschungsnetz (DFN),
+an dem federfuehrend auch die Deutsche Universitaetszeitung (DUZ)
+in Bonn beteiligt ist.
+ 
+Ziel des Projektes ist, den Informationsaustausch zwischen
+Wissenschaftsjournalisten einerseits und Wissenschaftlern,
+Pressestellen der Hochschulen, ausseruniversitaeren
+Forschungseinrichtungen und der Industrie zu verbessern. Im
+wesentlichen bieten diese Institutionen Pressemitteilungen an.
+Die Informationen werden allerdings nicht in einem oeffentlichen
+Brett bereitgestellt, sondern den Teilnehmern direkt in das
+persoenliche Mailbox-Fach gesendet. Beteiligt sind eine Reihe
+nahmhafter Verlage, Redaktionen und Publizisten. Zu den
+Informationsanbietern gehoeren die meisten deutschen
+Grossforschungseinrichtungen sowie bekannte Industrieunternehmen.
+ 
+Von Seiten der Industrie beteiligen sich unter anderem die
+Firmen Siemems, Nixdorf, Philips und IBM. Darueber hinaus
+Forschungsinstitutionen wie das Deutschen Elektronen-Synchroton
+(DESY) in Hamburg, die Deutsche Forschungs- und Versuchsanstalt
+fuer Luft- und Raumfahrt (DFVLR) in Koeln-Porz, das Deutsche
+Krebsforschungszentrum (DKFZ) in Heidelberg, die Gesellschaft
+fuer Biotechnologische Forschung (GBF) in Braunschweig-Stueckheim,
+die Gesellschaft fuer Mathematik und Datenverarbeitung (GMD) in
+St.  Augustin, das GKSS-Forschungszentrum in Geesthhacht, die
+Gesellschaft fuer Strahlen- und Umweltforschung (GSF) in
+Neuherberg bei Muenchen, die Gesellschaft fuer Schwerionen-
+forschung (GSI) in Darmstadt, die Kernforschungsanlage in Juelich
+und das Kernforschungszentrum in Karlsruhe. Das Deutche Studenten-
+werk, die Bundesministerien fuer Bildung und Wissenschaft, sowie
+Forschung und Technologie nehmen ebenfalls teil. Die Redaktion
+Chalisti und MIK-Magazin beteiligen sich inzwischen ebenfalls an
+diesem Projekt.
+ 
+Erklaertes Ziel ist zunaechst ein bundesweiter Informationspool,
+bzw. Kommunikationspunkt fuer die wissenschaftliche Publizistik.
+Die Projekterfahrung sollen dann in ein europaeisches oder gar
+internationalen Netz von miteinander kommunizierenden
+Wissenschaftsredaktionen und Informationsanbieter einflieaen.
+Dem Wunsch einiger Journalisten entsprechend, wurden Vertraege
+mit groaen Datenbankanbietern abgeschlossen. STN International
+(FIZ Karlsruhe) und GENIOS (Handelsblatt-Datenbank) koennen
+zu Pauschalbetraegen  genutzt werden.
+ 
+Die Mailbox des Projektes ist auf dem Komex-System der GMD
+installiert und setzt auf X.400 auf. Schon in der
+Konzeptionsphase zeigte sich, dass es viele Journalisten gibt,
+die Interesse an dem Netz hatten, zum Teil aber nur ueber eine
+unzureichende EDV-Ausstattung verfuegten und wenig Erfahrung mit
+Datenfernuebertragung mitbrachten. Trotzdem wies die Nutzergruppe
+nach kurzer Zeit eine beachtliche Zahl an Teilnehmern auf. Das
+Projekt ist erstmal bis Ende 1991 verlaengert worden und wir
+inzwischen von der EuroComm betreut.
+                                                Juergen Wieckmann
+ 
+-----------------------------------------------------------------------------
+NEXT FRC5
+ 
+                  Noch ein "sicherers" Betriebssystem
+ 
+Betriebssysteme gibt es ja eine Menge. In letzter Zeit machen aber immer
+wieder Erweiterungen zu bestehenden Implementationen von Unix von sich
+reden. Mach und Chorus sind vielleicht einigen bekannt.
+ 
+Die Ursache fuer diese Erweiterungen auf Kernel-Ebene liegen hauptsaechlich
+in den Wunsch von Rechnerbetreibern und wildgewordenen Informatikern ein
+Betriebsystem zu haben, welches verteilt arbeiten kann. Das heisst ein
+Rechner besteht aus mehreren Prozessoren bzw. in einem Rechnernetz sind
+verschiedene Rechner angeschlossen. Das Betriebssystem wird nun in
+funktionalle Komponenten aufgeteilt und auf die Rechner bzw. Prozessoren
+verteilt. Weitere Wuensche sind Datenschutz und Datensicherheit (insbesondere
+vor Viren), die sich in den verwendeten Konzepten von verteilten Betriebs-
+systemen leicht realisieren lassen sollen.
+ 
+Auf der diesjaehrigen CeBit war auf dem Stand der Gesellschaft fuer
+Mathematik und Datenverarbeitung paar Leute der Entwicklungsgruppe der
+GMD, die einen eigenen Betriebssystemkern geschrieben haben. Das entwickelte
+Betriebssystem hat den Namen Birlix bekommen.
+ 
+Birlix soll helfen die Ziele
+ 
+                - Fehlertoleranz
+                - Datensicherheit
+                - Verteilung
+                - Datenschutz
+ 
+zu erreichen. Dies geschieht durch eine konsequente Nutzung von abstrakten
+Datentypen. In Birlix werden Datenobjekte (z.B. eine Datei) und der
+dazugehoerige abtrakte Datentyp unterschieden. In diesem abstrakten Datentyp
+sind die Eigenschaften und Funktionen des Datenobjektes beschrieben.
+Bei Unix ist es ja so, dass eine Datei bsw. Rechte bekommt. Darf gelesen
+werden und ausgefuehrt, etc. Allerdings sind diese Eigenschaften im
+Datenobjekt enthalten. In Birlix und aehnlichen Systemen wird dies
+aber GETRENNT verwaltet. Mehrere Datenobjekte gehoeren dann zu einem
+abtrakten Datentyp. Dieser dient als Grundlage fuer Birlix zur
+Entscheidung, wo und wie welches Programm entgueltig zur Ausfuehrung kommt,
+um eine Gleichbelastung in einem verteilten System zu gewaehrleisten.
+Bei Birlix gibt es derzeit 15 abtrakte Datentypen wie z.B. File, Directory,
+Socket, etc.  Wie gehoeren zu diesen Datentypen die konkreten Inkarnationen
+wie Dateien, Directories, etc. In Birlix kann jeder Benutzer - in
+begrenzten Massen - auch eigene abtrakte Datentypen anmelden.
+ 
+Birlix ist jetzt dazu da die abstrakten Datentypen zu verwalten und die
+Identifikation von Typen und deren Kommunikation zu unterstuetzen. In
+Birlix gibt es dann noch den Begriff der Instanz. Diese stellen die kleinste
+Einheit fuer die Identifikation und Kommunikation dar. Alle Anwender-
+programme unter Birlix stellen eine Menge von Instanzen von abstrakten
+Datentypen dar (mind. an dieser Stelle schienen die Informatiker die
+Oberhand gewonnen zu haben) die zwischen den Rechnern im Netzwerk verteilt
+sind. Da also Programme sich innnerhalb einer Netzwerkes auf verschiedene
+Rechner verteilen (das Debuggen muss da irre viel Spass machen), muessen die
+einzelnen Teile des Programmes (eben die Instanzen) auch miteinander
+kommunizieren. Dies geschieht mit sogenannten remote procedure calls.
+ 
+Allerdings bekommt ein Benutzer von aussen davon nix mit. Nach aussen stellt
+sich das System als einziges grosses System dar, welches die Resourcen,
+unabhaengig von der Verteilung, verwaltet.
+ 
+Das fuer mich interessante waren die Mechanismen die das Betriebssytem vor
+Viren sicher machen soll. Bei Birlix soll der Schutz daran liegen, dass
+der Absender einer Nachricht (hier ist das im Objektorientierten Sinne
+gemeint: Also z.B. die Nachricht "schreibe ein file") eindeutig und sicher
+festzustellen ist. Das soll die Vortaeuschung FALSCHER Identitaet auf
+kernelebene verhindern bzw. diesen mindestens entdecken. Gleichzeitig
+wuerde das also auch bedeuten, dass es den setuserid-Mechanismus von Unix
+nicht mehr gibt.
+ 
+Jedes Datenobjekt (z.B. Datei) hat eine Zugriffssteuerliste verpasst bekommen,
+in der klar definiert wird, welches Subjekt (also Programm oder/und Benutzer)
+daraus zugreifen darf.  Gleichzeitig wird aber auch gewaehrleistet das
+es jedes Objekt zu ALLER Zeit nur einmal gibt.
+Praktisch kann mensch heute bei Unix erreichen, dass er vorhandenes Programm
+loescht, dieses neuschreibt und alle Randbedingung (Modification Time,
+INode) wieder so herstellt, wie vorher. Es ist praktisch nicht mehr fest-
+stellbar, ob sich die Datei geaendert hat. Es sei den, mensch hat selbst
+Programme die ueber alle Dateien Checksummen erstellen, allerdings wuerde
+dies auf der Anwendungsebene und nicht auf Kernelebene geschehen.
+ 
+Bei Birlix wuerde a) sicher sein, das bsw. nicht mehr die selbe Inode
+vergeben wird und b) wuerde das Datenobjekt und der dazugehoerife
+abstrakte Datentyp nicht mehr konnsistent sein. Also ist entweder das
+gezielte aendern von Dateien nur sehr schwer moeglich oder aber es ist
+auf jeden Fall feststellbar. Allerdings gibt es bei Birlix derzeit noch
+keine Software fuer den Administrator eines Systems, die Aenderungen
+meldet. Das Birlix ist aber ja auch noch in der Forschung. Dieser Artikel
+wurde von einer Mitarbeiterin der Uni Oldenburg, die sich im Bereich
+verteilte Betriebssysteme beschaeftigt kurz durchgelesen. In der an-
+schliessenden Diskussion kam die Aussage "Auf solchen Betriebssystemen
+sind keine erfolgreichen Virenangriffe moeglich" auf. Dies muss mit
+Vorsicht zu geniessen sein. Das Betriebssystem erschwert natuerlich Viren-
+angriffe. Aber es gibt natuerlich auch weiterhin die Moeglichkeit das
+solche von Erfolg gekroent sind. In diesem Fall ist sichergestellt, dass
+ein solcher Angriff ENTDECKT werden kann. Allerdings meldet ein solches
+Betriebssystem nur, DAS es zu einer Veraenderung gekommen ist, die nicht
+umbedingt mit rechten Dingen zugegangen sein muss. Allerdings ist damit
+nicht gesagt, dass es ein Virus war. Es kann auch "natuerliche" Ursachen
+gehabt haben. Bsw. wird ein Rechner von mehreren Administratoren verwalten.
+Einer spielt eine neue Version eines Programmes ein. Der andere bekommt
+ein potentiellen Virusangriff angezeigt. In diesem Fall war es aber keiner.
+Es sind alle Virenangriffe ENTDECKBAR, aber nicht alle VERHINDERBAR.
+Das diese entdeckt werden, haengt aber wieder letztendlich vom Menschen ab.
+Viele Betriebssysteme wie VMS oder aber auch schon Unix mit C2 Klassifizierung
+(nach Orange Book) sind sicher ... solange der Mensch tatsaechlich alle
+Sicherheitsmechanismen in Kraft setzt und regelmaessig kontrolliert.
+ 
+Auf jeden Fall scheint das Gebiet der verteilten Systeme nicht uninteressant
+zu sein, allerdings ist es auch ein guter Sport fuer Theoretiker bzw.
+Leute die an abstraktes Denken gewohnt sind. Der Herr auf dem GMD Stand
+hat 3 Versuche gebraucht bis er mir halbwegs klargemacht hatte, warum
+den diese Mechanismen ziemlich sicher sind, aber doch nicht den Benutzer
+in seinen Funktionen stoeren. Was mensch auch noch loben sollte, ist das
+MAterial was die GMD Interessierten zur Verfuegung stellte. Eine Mappe mit
+gut 30 Seiten fotokopierte Abhandlungen, Erlaeuterungen, Birlix-Manual-Pages
+und Beschreibung der abtrakten Datentypen in Modula-2.  Im Vergleich zu
+dem Hochglanzwerbematerial mit NULL Info gefiel mit das Teil richtig gut.
+ 
+Abschliessend moechte ich sagen, dass ich nur eine Vorlesung ueber
+Betriebssysteme gehoert habe und mich mit Objektorientiertheit und
+verteilte Systeme nur am Rande beschaeftigt habe. Wenn jemand also ganz
+konkrete und kompetente Infos will, sollte er sich an die GMD, Postfach 1240,
+5205 St. Augustin 1 wenden. Dort kann mensch auch Anfragen wg. einer Lizenz
+fuer Birlix richten. Im Bereich Forschungs und Lehre soll eine Birlix-
+Lizens ca. 500 DM kosten.
+ 
+                                                Terra
+ 
+Quelle: Einfuehrung in Birlix
+        On the Implementation of Abstract Data Types in Birlix
+        Informatik Spektrum 13, 1990, S. 38-39
+        Ein Mensch auf dem GMD-Stand (Name verlegt)
+ 
+-----------------------------------------------------------------------------
+NEXT FRC6
+ 
+             Low-Cost Unix, oder was kostet die Welt.
+ 
+Anlaesslich der CeBit hatten wir uns vorgenommen einen Bericht
+ueber Low-Cost Unix'e zu schreiben, deren Preise sich auch
+Privatpersonen noch (bei genuegend Verruecktheit) leisten
+koennen. Aber vielleicht sollte sich hieraus auch etwas ueber das
+als MS-DOS Nachfolger gehandelte Unix ergeben.
+ 
+Um es vorweg zu nehmen, ein richtiges Unix System fuer unter
+15.000 DM zu bekoemmen wird auf legalem Wege ohne Ausnutzung
+von (sehr selten gewaehrten Studenten/Universitaeten/oder sonst
+welchen Rabatten) nahezu ein Ding der Unmoeglichkeit sein.
+Aber mit dieser Praemisse sind wir bzw. bin ich an den Start
+gegangen um die Messe abzusuchen.
+ 
+Gefunden und betrachtet hab ich dabei allerdings nur ein paar
+sich lohnende Alternativen. Erstens die Anschaffung eines 386-AT's
+mit SCO- bzw. Interactive-Unix. Zweitens einen Apple Mac SE/30
+mit Apple A/UX 2.0. Drittens (als vergleich nach oben) eine Decstation
+2100 und eine SUN Sparcstation. Auch den Unix-Knecht ARCORN R-140,
+koennte man in betracht ziehen, obwohl ich diesen nicht auf der
+Messe gefunden habe. Ueber den Atari TT/X, der leider ja immernoch
+nicht lieferbar ist, kann man nur Vermutungen anstellen und Uesserungen
+von ATARI glauben schenken.
+ 
+Die Anlage von ATARI basiert auf dem (haeufig zitierten) TT von Atari
+mit 68030/16 Mhz und 68881. Der TT/X soll mit 6 MB Ram ausgestatet werden,
+sowie wahlweise mit einer 80, 120 oder 170 SCSI Festplatte. Dazu gehoert
+- ebenfalls wahlweise - ein VGA Farbmonitor oder ein 19'' Monochrom Monitor.
+Bei dem 19'' steht zwar Atari drauf ist aber Viking drin. An Hardware
+gehoert weiter ein VME-Bus, ein SCSI-Bus, ein LAN-Interface (u.a. fuer
+AtariNet) und ein Joystickport (vermutlich fuer Nethack).
+ 
+Bei dem Unix handelt es sich um ein System 5 V3.1. Allerdings sind noch
+BSD-Erweiterung dabei. Beispielsweise sind TCP/IP, sockets, NFS, etc.
+Ausserdem unterstuetzt TT/ATX wahlweise Sys5 Filesystem und BSD Fast
+Filesystem.
+ 
+Zusaetlich ist X-Windows in der Version 11R4 dabei, sowie eine Motif-
+aehnliche Applikation namens Wish. Mit dieser Oberflaeche SOLL mensch
+benutzerfreundlicher arbeiten koennen. Weiter ist noch X/Open XPG2.
+ 
+An Programmiersprachen sind der GNU C-Compiler, GNU Debugger, GNU C++
+und der GNU Assembler dabei.
+ 
+Die geschwindigkeit des TT/ATX wurde mit 4200 Drystones angegeben. Das
+ist natuerlich enttaeuschend. Allerdings war spaeter von jemand der
+Ahnung (und nicht bei Atari arbeitet) hat erklaert, warum der TT viel
+schneller ist. Der TT ist kompatibel zum alten ST. Daher sind 2 MB Ram
+im selben Speicherbereich wie auch beim ST. Die zusaetlichen 4 MB Ram
+beim TT/X sind Fast Ram und liegen ausserhalb des 16 MB Bereichs des ST.
+Fuer Unix wird dieser Speicherbereich genutzt, was zu einer Geschwindig-
+keit von 10.000-16.000 Drystones fuehren wird.
+ 
+Entwicklermaschinen sollen ab Mai 1990 ausgeliefert werden. Im Verkauf
+auf der Rechner ab Herbst 1990 sein. Auf die Frage, wie sicher dieser
+Aussage ist, meinte der zustaendige Atarianer nur "So sicher, wie ich
+auf diesen Stuhl sitze". Allerdings war bezeichnend, dass er anschliessend
+sich umsah und feststelle, dass er tatsaechlich noch auf den Stuhl sass.
+ 
+Wie fast alles war kaum ein Preis zu bekommen. Die einzige Aussagen von
+Atari war, dass er mit 80 MB Platte unter 10.000 DM liegen wird.
+ 
+Die 386-AT's unter einem der PC-Unixe zu betreiben ist vom Preis
+her gesehen sicherlich die interessanteste Variante. Einen
+entsprechenden 386-PC (Mindestanforderungen sind hierbei
+ein 20 Mhz getackteter 386, mit 4 MB Hauptspeicher, 80 MB (< 28ms)
+Festplatte) zu kaufen wuerde einen Aufwand von mindestens (hierbei
+ist wirklich die unterste Grenze gemeint) ca. DM 5000.- bedeuten.
+Hierbei ist aber noch keine VGA-Karte oder sonstiger Schnickschnack
+enthalten (der das Leben unter Unix natuerlich erheblich verschoenern
+wuerde). Dazu kaeme mindestens noch das entsprechende PC-Unix.
+ 
+Hierbei sind derzeit nur SCO-XENIX (welches gegenueber obiger
+Behauptung auch mit 2MB Hauptspeicher zufrieden ist, aber halt kein
+"echtes" Unix ist), SCO-UNIX und Interactive-IX/386.
+Fuer SCO-UNIX bezahlt man derzeit in kompletter Ausstattung ca.
+DM 4800.-- in der Multiuserversion. Hierbei sind das Betriebssystem
+und ein Entwicklersystem mit c-Compiler, etc. enthalten.
+ 
+SCO-Unix ist eine Mischung zwischen System V Rel.3 und einigen
+neuen Features des System 5 Rel.4, welches allerdings auch von AT&T
+erst fuer Ende diesen Jahres angekuendigt ist. SCO will moeglichst
+Anfang des naechsten Jahres dsie Release 4 auch im Programm haben.
+ 
+Interactive's 386/ix kostet in einer aehnlichen Ausstattung in etwa
+das gleiche naehmlich ca DM 5800.-. Hierbei sei dazubemerkt, das bei
+Interactive nicht daran gedacht wird in naechster Zeit die X-Window
+Version X11 Rel.4 zu unterstuetzen. Man setzt hier noch auf den
+derzeitigen defacto Standard X11 Rel.3. Auch Interactiv will versuchen
+Anfang des naechsten Jahres eine Unix Rel.4 kompatibles System
+herauszubringen.
+ 
+Als schon weitaus teurere Variante bietet sich das neue Apple A/UX
+in der Version 2.0 an. Hier hatte ich am Apple Stand wirklich den
+Eindruck, es koennte sich um das Unix handeln, welches die MS-Dose
+Rechner abloesen, und den Kampf mit OS/2 um die viel geruehmte Nachfolger
+Position gewinnen koennte. Apple's A/Ux 2.0 kommt einem zu beginn im
+Kleide, des vom Mac User her bekannten MultiFinders entgegen. Zuerst
+merkt man kaum, dass man sich ueberhaupt auf einem Unix-Rechner befindet.
+Tatsaechlich laeuft der Finder als ein Unix-Task direkt auf dem
+Unix-Kernel. Dabei handelt es sich hierbei nicht direkt um eine
+Emulation, sondern es werden die Finder Operationen direkt auf
+den Unix-Kern abgebildet, so dass kaum Geschwindigkeits einbussen
+hinzunehmen sind.
+ 
+Und nu sind wir auch schon bei einem der wichtigsten Seiten des Apple
+Unixes. Alles richtig bzw. ordentlich (nach den offiziellen Apple-
+Richtlinien) geschriebenen Programme koennen unter Apple a/UX 2.0
+behandelt werden, als ob der Rechner ohne Unix laufen wuerde.
+Das heisst, sie koennen gestartet werden oder direkt zwischen einer
+Unix Festplattenpartition und einer Mac-Partition bzw. Mac-Diskette
+hin und hergeschoben werden. Somit ist das unter Unix doch etwas komfort-
+lose benutzen des Diskettenlaufwerks fuer den A/UX User nicht mehr
+vorhanden. Natuerlich beherscht a/ux auch die unter Unix ueblichen
+Diskettenformate. Da der Multifinder in der Lage ist mehrere Programme
+gleichzeitig ablaufen zu lassen, kann man nun sogar simultan mehrere
+Mac-, Unix- und mit einem entsprechenden Zusatz (MacX) auch X-Window-
+Applikationen anwenden.
+ 
+Ein weiterer Vorteil von dem Apple Unix ist die komfortable Moeglichkeit,
+des vom Mac her bekannten ein- bzw. ausschaltens. Dies unterstuetzt
+die fuer den Anspruch als MS-DOS Nachfolger noetige Benutzerfreundlichkleit.
+Auch die vom Mac her bekannte "Copy und Paste"-Funktion ist uneingeschraenkt
+zwischen der Unix-Welt und dem Mac-Applikation nutzbar.
+ 
+Ausser dem oben erwaehnten Programm MacX, welches einen sehr schnellen
+X-Window-Server, darstellt, und in der Lage ist X-Window-Applikationen
+in einem Mac-Window ablaufen zu lassen, ist natuerlich auch ein "richtiges"
+X-Window vorhanden.
+ 
+Ein letztes Zeichen, das dieses Unix von anderen Unix Implementationen
+abhebt, ist, der neue Unix-Befehl, cmdo <unix-command>. Hierrauf erscheint
+eine Mac-typische Eingabe Maske, die es ermoeglicht per Mouse-Klick
+die entsprechenden Optionen anzusprechen. Dabei erhaelt man leicht
+auch ueberblick ueber die selten benutzen und deshalb auch nur eingeweihten
+bekannten Kommando-Optionen. Auch IO-Redirection kann hier in Mac
+bekannte Mannier angegeben werden. In einem Feld der Eingabe Maske
+wird simultan zum Klick der Mouse die Unix Zeile mit dem entsprechenden
+Kommando aufgebaut. Dieses Kommando ermoeglich aeusserst komfortabel mit
+den Unix-Befehlen umzugehen, und ermoeglicht eigentlich erst richtig
+mit der Maechtigkeit eines Unix-Systems richtig zu arbeiten.
+ 
+Ausserdem enthaellt A/UX 2.0 eine Auto-Recover Moeglichkeit. Hierrunter
+ist das Automatische anlegen einer Kopie des Root-Sector's des
+Unix-File-Systems zu verstehen, welches den Benutzer immer in die
+Lage versetzt sein Filesystem wieder zu benutzen, auch nach einem
+System-Crash.
+ 
+Nun genug der Lobesworte, nun auch noch die Nachteile die ich entdecken
+konnte. Erstens ist hirzu die Verwendung von Terminals anzufuehren.
+Dort hat man natuerlich keine Mac-Oberflaeche, sondern nur ein normales
+Unix-ASCII Terminal (es sei denn, man ist in der Lage sich X-Window-
+Terminals zu leisten) aber das ist im Vergleich zu anderen Unix
+Implementationen eigentlich kein Nachteil, da diese auch nur ueber eine
+solche verfuegen. Auch dies unterstreicht die Zielgruppe von Apple, naehmlich
+Universitaeten (und damit auch den Markt der Studenten) und die derzeitigen
+MS-DOS-Benutzer, die auf "ein Betriebssystem der Zukunft" umsteigen wollen.
+ 
+Das letzte grosse Plus von A/UX 2.0 duerfte der Preis sein. Der derzeit
+noch in den Katalogen und Preislisten stehende Preis von DM 2060.-
+(auf Tape-Streamer) bzw. DM 2520.- (auf Diskette) wird sich bis zur
+Auslieferung in diesem Sommer auf ca. DM 1800.- reduzieren. Darin
+enthalten ist (bis auf MacX, dies ist noch nicht ganz klar) alles
+oben aufgezaehlte, inclusive NFS, Yellow-Pages und den BSD Network
+Services. Das dies ein politischer Preis von Apple ist an dem sie
+nicht grossartig verdienen werden, wird wohl keiner bestreiten.
+ 
+Der einzige entscheidende Nachteil von Apple's Unix duerfte der
+Preis fuer die Hardware sein, die noetig ist um mit dem System
+arbeiten zu koennen. Das absolute Minimum stellt der Mac SE/30
+mit ca. 4MB Hauptspeicher und einer 80 Mb Festplatte dar. Dabei ist
+aber solche Unzulaenglichkeit, wie der Mac-typische "Kuckloch"-Monitor
+zu beachten. Die Moeglichkeit zur erweiterung mit einem Grossbildschirm
+besteht zwar, geht dann aber schon wieder sehr ins Geld. Fuer solch eine
+konfiguration ist alleine an Hardware-Kosten schon mit ca. 13.000 DM
+zu rechnen. Allerdiungs muss man die SCSI-Festplatte, die man bei Apple
+teuer bezahlt ja nicht dort kaufen. Es gibt ja auch noch andere Hersteller.
+ 
+Eine weitere interessante Moeglichkeit bietet Apple zur Ausslieferung
+des A/UX 2.0 an. Es ist ein CD-ROM-Laufwerk mit einer kompletten
+Unix-ausstattung fuer unter DM 3000.-. Dieses bietet die Moeglichkeit
+immer ein bootbares Filesystem zu haben, und ausserdem die Ausslagerung
+einiger unwichtiger Teile des Systems, wie z.B. den Manual-Pages.
+ 
+Einige eingefleischte Unix-Wizards hoere ich jetzt schon sagen :
+"das ist doch kein richtiges Unix", kann ich nur sagen, dass dieses
+Unix meiner Ansicht nach das Zeug hat "richtige" Unixe den Rang bei den
+bisherigen Personal-Computer-Usern abzulaufen. Ich meine damit, dass
+es wahrscheinlich nicht die anderen Unix-Systeme vom professionellen
+Markt der Multiusersysteme verdraengen wird, sondern stattdessen
+eher der Nachfolger von MS-DOS wird, sofern die Preise fuer die
+Hardware noch um einiges fallen.
+ 
+Fuer die oben weiter aufgefuehrten SUN und DEC Rechner gilt
+zuersteinmal folgendes: Alle sind weit ausserhalb der Preisgrenze
+von 10.000 DM anzusiedeln. Alleine die preiswerteste Sun, die derzeit
+noch ausgeliefert wird ist nicht, wie ich noch zur Messezeit dachte,
+eine 3/60 bzw. 3/50 fuer alles in allem DM 15.000.-, sondern eine
+SparcStation 1 fuer komplett derzeit ca. DM 35.000.- (dieser Preis wird
+sich aber demnaechst auf ca. DM 27.000.- reduzieren. Die Produktion der
+3/60 und 3/50 wird wohl bzw. ist schon eingestellt. Schade eigentlich,
+ich mochte die Maschinen.
+ 
+Die Preiswerteste DEC-Unix (Ultrix) ist die DECstation 2100 fuer etwas
+weniger als DM 20.000.-. Sie ist die kleine Schwester von der DECstation3100
+und soll auch nur ca 75% der Leistung ihrer grossen Schwester erbringen.
+ 
+Am naechsten unserer Preisgrenze kommt sicherlich der Arcorn R-140.
+Dies ist eine RISC-Workstation die zwar relativ komplet ausgestated
+geliefert wird, aber durch ihre Leistung doch nicht so furchtbar
+ueberzeugen kann. Sie liefert einen Drystonewert von 3330. Trotz
+der Unzulaenglichkeiten des Drystonetests, um Rechnerleistungen zu
+vergleichen, sagt dies etwas ueber die Maschine aus, wenn man sich vor
+Augen fuehrt, dass ein 386-PC gut auch das doppelte bis dreifache
+(mit 33Mhz soger nochmehr) an "Trockensteinen" schaffen kann. Die Arcorn
+R-140 kostet komplett mit BSD-Unix 4.3, X-Windows (V11 Rel.3), NFS 3.2,
+den Yellow Pages,usw. ca DM 16.000.-.
+ 
+Nachzutragen waehre vielleicht noch die Drystonewerte der anderen Maschinen
+(Soweit sie erhaeltlich waren, zur naechsten CeBit nehme ich ein
+Drystone-Programm zum testen mit :-)) ). Da waere noch die kleinste
+SparcStation 1 , sie liefert ca. 23.000 Trockensteine. Fuer die
+DECstation 2100 konnte ich leider keinen Wert bekommen, aber fuer
+die groessere 3100 soll der Drystonetest Werte von ca. 27.000 liefern.
+Dies wuerde fuer die kleine (mit ja angeblich 75% der Leistung) 2100
+etwa einen Wert von ca. 20.000 bedeuten.
+ 
+Fuer die uebrigen Rechner hab ich leider keine Werte bekommen, da Apple
+A/UX 2.0 erst in einer Beta-Version auf der Messe zu sehen war und,
+wie mir die Softwareentwickler unter euch auf jeden Fall glauben werden,
+gerade bei der letzten Entwicklerarbeit die Geschwindigkeit immer
+besondere Beachtung finden wird. Bei entsprechenden Informationen werden
+wir aber diesen Wert nachtragen.
+ 
+So, dass war's.
+ 
+              Und die Moral
+              von der Geschicht,
+              Unix gibt's so "preiswert"
+              nicht.
+ 
+                                                    Fly.
+
+NEXT FMK7
+ 
+           Computertechnik fuer Umweltgruppen auf der CeBIT
+ 
+Die Umweltbewegung entdeckt die Computertechnik. Erstmalig zeigen Buerger-
+initiativen und Umweltgruppen auf der diesjaehrigen Computermesse CeBIT in
+Hannover, wie Telekommunikation im Umweltschutz genutzt werden kann. Besonders
+beliebt sind sogenannte Mailboxnetze, sagt Wolfgang Schroeder,  Vorstands-
+mitglied des Vereins Mensch Umwelt Technik (M.U.T.) aus Hamburg. M.U.T.
+unterstuetzt im Umweltschutz aktive Gruppen, die mit Computertechnik arbeiten
+wollen. Die Technik soll jedoch Mittel zum Zweck bleiben, betont Schroeder.
+Man moechte die Vernetzung zwar foerdern, doch der "interdisziplinaere
+Erfahrungsaustausch" zwischen Personen sei die Grundlage fuer ein
+funktionierendes Netz - ueber zunehmend als zu eng empfundene Verbandsgrenzen
+hinaus.
+ 
+Der Computereinsatz kostet in der Anfangsphase viel Zeit, meint Schroeder.
+Ohne Hilfestellung und Beratung sind Umweltgruppen oft ueberfordert - auch
+deshalb, weil die Moeglichkeiten der Technik leicht ueberschaetzt werden.
+Bei allem Technikeinsatz darf es zudem nicht passieren, daa die Alltags-
+probleme den Umweltschutz als eigentliche Aufgabe in den Hintergrund draengen.
+M.U.T. setzt sich dafuer ein, daa pragmatische Hilfestellungen organisiert
+werden und "Hilfe zur Selbsthilfe" moeeglich wird.
+ 
+Was sich in den letzten Jahren bei Umweltgruppen in Sachen Computertechnik
+getan hat, kann sich sehen lassen. So stellt der Bund fuer Umwelt und
+Naturschutz ein Mailboxnetz vor, das vor allem fuer die Informationsbe-
+schaffung und den Nachrichtenaustausch genutzt wird. Das Mailboxnetz soll aber
+nicht nur die Kommunikation innerhalb des Verbandes verbessern.
+Das System ist oeffentlich und soll als demokratisches Informationsmedium
+genutzt werden. Im redaktionellen Teil werden unter anderem bundesweit
+Kurzmeldungen aus den verschiedenen Bereichen des Naturschutzes angeboten,
+auch Informationen aus dem Europaparlament, Nachrichten zur Wirtschafts-
+politik und eine Wochenbibliographie werden angeboten. Vorgesehen ist unter
+anderem eine dezentrale Bibliotheksverwaltung.
+ 
+Wenige Meter neben dem Messestand des BUND zeigt Global Challenge Network
+(GCN) aus Muenchen das Projekt "Messnetz". Im Rahmen einer Pilotphase werden
+derzeit Methoden zur Untersuchung von Trinkwasser und kleinen Flieagewaessern
+und Radioaktivitaetsmessungen getestet. Ein wissenschaftlicher Beirat
+hat inzwischen einfache Messmethoden standardisiert, die auch von Laien
+angewendbar sind. Ziel des bereits im Januar 1987 gegruendeten GCN ist,
+Bruecken zwischen Wissenschaft, Buergerinitiativen, Umweltschutzverbaenden,
+staatlichen Stellen und der Industrie zu schaffen. Mehr als 50 Initiativen
+in der Bundesrepublik haben inzwischen Meastationen aufgebaut und senden die
+Untersuchungsergebnisse via Mailbox zum GCN-Netzknoten in Muenchen. Doch es
+geht auch darum, Buergerinitiativen und anderen engagierten Gruppen ein
+gemeinsames Kommunikationsnetz zur Verfuegung zu stellen sowie den Zugang
+zu kritischer Sachkompetenz zu erleichtern.
+ 
+Daa sich immer mehr Umweltgruppen und private Computeranwender fuer die
+Computervernetzung interessieren, liegt unter anderem an einer Netzwerk-
+software, die sich unabhaengig von den kommerziellen Bedingungen der
+EDV-Branche entwickelt hat, das Zerberus-Netz. Computerfreaks und
+professionelle Programmierer haben gemeinsam ueber mehrere Jahre dieses
+Netzwerk fuer Jedermann entwickelt. Es kann auf jedem handelsueblichen PC
+auch von Laien betrieben werden, wobei jede dieser Stationen einen
+vollwertigen Netzknoten darstellt.
+ 
+Mittlerweile gibt es ueber hundert solcher Knoten in der Bundesrepublik.
+Auch in der DDR gibt es immer mehr Zerberus-Knoten, Oesterreich und die
+Schweiz sind schon seit laengerem dabei. Eine der gefragtesten Anlauf-
+stellen fuer sogenannte NGOs (Non Governmental Organisations) ist Udo
+Schacht-Wiegand aus Hannover. Er beschaeftigt sich bereits seit mehreren
+Jahren mit Computernetzen. Sein technisches Know How ist stark gefragt.
+Mit Gleichgesinnten hat er den Verein Oekoline aufgebaut, der sich unter
+anderem die Aufgabe gestellt hat, Wissen ueber Netze und Datenbanken zu
+vermitteln und im Rahmen der Moeglichkeiten technische Hilfestellungen
+zu leisten.
+Schacht-Wiegand vertritt fuer die Bundesrepublik auch das internationale
+Umweltnetz Greennet. Greennet gehoert zu den wichtigsten Informationsquellen
+im Umweltschutz. Rund 1000 internationale Umweltorganisationen mit rund
+5000 Teilnehmern tauschen ueber dieses Netz weltweit aktuelle Informationen
+aus. Schacht-Wiegand: "Wir wollen noch in diesem Jahr einen deutschen
+Greennet-Knoten aufbauen".
+ 
+Dass aber auch das Medium fast zum Nulltarif zum Versenden von Nachrichten
+'dienen kann, also im Gegensatz zu Zeitung, Rundfunk, Fernsehen alle
+AnwenderInnen vom Wohnzimmer aus Texte lesen und empfangen koennen, war
+auf der CeBIT '90 zu sehen. Ausgehend von Halle 22 breitete sich im kleinen
+ein Abbild des in Europa inzwischen mit 130 Mailboxen vernetzten
+Zerberus-Netzes aus. Zwoelf Mailboxen auf der CeBIT demonstrierten
+Aktualitaet.
+ 
+Brisante Themen aus Technikentwicklung, Medien, Umweltschutz und zum
+politischen Tagesgeschehen erreichten ueber Bildschirm, Modem und Drucker
+Tausende von Menschen. Eindruecke und Erfahrungen zum CeBIT-Geschehen
+wurden live kommentiert - nicht nur Fachjournalisten, sondern auch von
+CeBIT-BesucherInnen.
+ 
+Alle Mailboxen waren mit dem COMPOST- und LINKSYS-Verbund im Zerberus-Netz
+vernetzt. Diese Mailboxen haben sich die politische, soziale und oekologische
+Vernetzung vorgenommen. Ausgehend von den Koordinatoren der LINKSYS- und
+COMPOST- Mailboxen wird die Erfahrung dieser CeBIT der MesseAG und den
+Ausstellern vermittelt. Ins Auge gefasst sind mindestens eine Computer-
+mailbox pro CeBIT-Halle im kommenden Jahr. In einem CeBIT-Netz kann dann
+eine tagesaktuelle elektronische CeBIT-Zeitung erscheinen. Nachwuchs-
+journalistInnen, Schueler- und Jugendzeitungsredakteure und alle
+interessierten BesucherInnen geben an den Terminals ihre Beitraege ein.
+Ein Journalistenteam wird die verdichteten Nachrichten als Tagesdienst
+ins Pressezentrum uebermitteln.
+ 
+So wird Vernetzung von unten greifbar. Denn das Einklinken ins Netz ueber
+Telefon wird von jedem Heim- und Personalcomputer, jedem Stand und jedem Ort
+moeglich und erschwinglich sein.
+ 
+Quelle: MIK-Magazin
+        Informationen von Umweltgruppen
+ 
+-----------------------------------------------------------------------------
+NEXT FRC9
+ 
+                   Die wunderbare Wandlung
+ 
+Da geht mensch nix ahnend ueber die Cebit und landet dabei bei der
+Firma CombiTec in Halle 20. Dort faellt mir zwischen CAD-Programmen
+das Bild von einer Vorabversion von Tempus-Word in die Augen. Nix
+ahnend sehe ich mir das Treiben um die Demoversion an, bis mir ein
+Widerspruch auffaellt: Vom Bildschirm her arbeitet mensch eindeutig
+mit einem Atari ST. Dies laesst sich aber nicht mit der Aufschrift
+am Computer uebereinbringen. Dort steht naemlich Commodore Amiga
+dran. Die Loesung des Problem heisst Medusa: der erste ST-Emulator
+fuer den Amiga.
+ 
+Vor 6 Wochen hatten ein paar Programmierer von CombiTec angefangen
+sich an einen ST-Emulator zu versuchen. Derzeit liegt die Version
+0.3 vor, und innerhalb von 3-5 Wochen soll die Endversion
+ausgeliefert werden koennen. Schon in der derzeitigen Version ist
+die Emulation beeindruckend. Der QIndex behauptet, dass der
+Emulator in den Bereichen CPU-Geschwindigkeit, Bios Text, Bios
+Scroll, Gem Draw in der Regel zwischen 95 und 98% der
+Geschwindigkeit eines ST's liegt. DMA-Read betraegt 3450% und
+Gemdos I/O 1970%. Programme wie Signum 2, Calamus, GFA-Basic, Psion
+Chess, etc, TOS1.0 und TOS 1.4 laufen einwandfrei. Auch die
+Festplatte und Atari Diskettenformat wird unterstuetzt.
+Allerdings sind - wie beim ST - wohl zwei Monitore notwendig. Zwar
+kann mensch auf einen monochromen, sowie auf einen Farbbildschirm
+alle drei Aufloesungen benutzen, allerdings fehlt bei Monochrom
+logischerweise die Farbe, und wenn mensch auf Farbe im Monomodus
+arbeitet, sieht mensch das beruehmte Amiga-Flackern (nur viel
+staerker).
+ 
+Natuerlich hat der Emulator auch Nachteile. Der Bidlschirmaufbau
+scheint manchmal ziemlich unvollstaendig und langsam. Viele Spiele
+laufen nicht. Besonders wenn sie direkt auf die Diskette (z.B.
+Kopierschutz) oder auf die ST-Hardware zugreifen. Deswegen laufen
+auch alle Dritt-Emulatoren wie Aladin oder PC-Ditto nicht.
+ 
+Der Emulator besteht aus Soft- und Hardware und kostet im Handel
+598 DM. Fuer Amiganer die die gute Anwendungssoftware des ST's
+verwenden wollen, ist der Emulator eine echte Alternative. Fuer
+die Spielkids ist das aber eher Geldverschwendung.
+ 
+Ein Mitarbeiter von Atari meinte uebrigens zum ST-Emulator:
+"Endlich eine vernueftige Anwendung fuer den Amiga"
+ 
+                                            Terra
+ 
+-----------------------------------------------------------------------------
+NEXT FRC8
+ 
+                     Am Rande bemerkt
+ 
+Wie immer gab es auch in diesem Jahr einiges am Rande der CeBit
+zu sehen. Vielleicht koennten auch andere ueber "kleine"
+Leckerbissen von der Messe erzaehlen.
+ 
+Auf der Suche nach der viel zitierten neuen Unix Version von
+System 5 Release 4, blieb uns ein Erfolg versagt. AT&T teilte
+uns auf Anfrage mit, dass Release 4.0 fruehestens Ende des
+Jahres. Vermutlich eher Anfang 1991 erscheinen wird. Es wurden
+aber auf einer Pressekonferenz einiges zu Rel 4.0 erzaehlt. (Wir
+waren nicht dabei: Koennte dazu jemand mal was schreiben ?).
+ 
+Ein anderes Geruecht war das die neue Version von WordPerfect 5.1
+neben einem Woerterbuch und einer Rechtschreibkorrektur auch
+eine Kommakorrektur beherrschen soll. Dieses Geruecht hat sich
+so hartnaeckig gehalten, dass die Leute auf dem WordPerfect
+Stand bei Anfragen zu dem Thema kurz vor Tobsuchtsanfaellen
+standen.
+ 
+Bei dem Stand von DSM-Computersysteme fiel uns eine i860 Karte
+auf. Bei dem i860/64Bit-Prozessor handelt es sich um eine neue
+Entwicklung von Intel im RISC-Bereich. Die Karte bietet fuer
+unter 10.000 DM ca. 4 MB Speicher und bis zu 120 Mips. Noch
+mehr kann erreicht werden, wenn mensch diese Karte paralell
+schaltet. Mit bis zu 256 Karten ist dies moeglich. Als Drystone
+Wert wurden 89.500 pro Sekunde angegeben. Das i860-Entwicklungs-
+system ist fuer Unix V R3.2 und OS/2 erhaeltlich und enthaelt,
+die Programmiersprache C und Fortran. Mehrere Mathematik- und
+Vektorlibaries, einen Fortran-Vektorizer, Assembler, Linker und
+Simulator sind ebenfalls integriert. Allerdings wird dieses
+nicht zusammen mit der Karte ausgeliefert.
+ 
+Bei Schneider wurde ein sehr guenstiges Fax-Geraet vorgestellt.
+der SPF 101 soll 999 DM kosten und wird ab Ende April
+erhaeltlich sein. Interessant ist ein Satz in der Produktinfo:
+"Mit einer Uebertragungsdauer von nur ca. 25 Sekunden ist das
+SPF 101 gut geruestet fuer die Direktkommunikation von
+Arbeitsplatz zu Arbeitsplatz". Selbst langsame Geraete muss
+mensch nur gut verkaufen koennen.
+ 
+Richtiges Science Fiction Feeling kam auf dem Panasonic Stand
+auf. Wer kennt nicht die Stories wo sich der Held mit den
+kleinen gruenen Menschchen mit Hilfe eines Translators
+unterhaelt. Besonders gern denkt mensch an diese Stories in
+Englisch- oder Franzoesischpruefungen. Panasonic stellte nun ein
+Forschungsprojekt vor, welches von der Panasonic Tocher
+Matsushita und der Carnegie Mellon University entwickelt wurde.
+An einem Ende spricht mensch auf japanisch rein und auf der
+anderen Seite erscheint auf den Bildschirm die Uebersetzung,
+sowie ueber einen relativ schlechten Sprach-Synthesizer wird
+der Text in englischer Sprache wiedergegeben. Die Uebersetzung
+erfolgt relativ schnell (ca. 3 Sekunden fuer einen Satz).
+Allerdings ist die benoetigte Anlage noch ziemlich gross
+(Workstation mit Peripherie). Ausserdem darf mensch nicht
+vergessen, das Japanisch eine relativ einfache und insbesonders
+phonetisch eindeutige Sprache ist. Allerdings wird daran
+gearbeitet die Geraete zu verkleinern, damit sie auf Reisen
+mitgenommen werden koennen. Derzeit kann der Translator nur auf
+bestimmte Situationen reagieren (z.B: Sprachschatz der in einem
+Reisebuero notwendig ist). Dafuer aber muss der Rechner nicht
+erst die Stimme des Sprechers erlernen. Er reagiert allgemein
+auf jede Stimme, wobei dies vermutlich auch mit der japanischen
+Sprache zusammenhaengt.
+ 
+Bei Atari gab es auch einiges zu sehen. Der neue TT/ATX, der TT
+mit Unix wird im Unix Artikel naeher erwaehnt. Sonst waren z.B.
+von X/Software ein X-Window System da, welches dem Atari ST zu
+einem intelligenten X-Window-Terminal macht. Das Paket soll
+weniger kosten als ein Terminal. Das Paket besteht aus Hard- und
+Software (X-Windows, TCP/IP und ein zu TOS kompatibles
+Multitasking-System).
+Dann hat Atari neue Rechner namens ABC vorgestellt. dabei
+handelt es sich um Rechner mit einem 386SX Prozessor und 40 MB
+Festplatte. Fuer Atari Rechner der ST, TT und PC Linie gibt es
+jetzt auch (endlich) ein LAN. Preis konnte - wie bei fast allen
+Atariprodukten - nicht genannt werden. Auch andere Leistungsdaten
+waren nicht rauszufinden. Atari's PR Politik laesst auf jeden
+Fall einiges zu wuenschen uebrig.
+ 
+Die Firma Best kuendigte ein neues 9600 Bps Modem mit V.32 Norm
+an. Dieses soll vermutlich um die 1200 DM kosten und ist damit
+billiger als alle anderen V.32-Modems. Allerdings sollte mensch
+nicht vergessen, dass schon derzeit das Best 2400 MNP von der
+Qualitaet sehr zu wuenschen uebrig laesst (z.B. effektive Bps
+Rate von 3700).
+ 
+Laut CeBit-Geruechtekueche soll die neue Version 5.1 von Word-
+Perfect neben einer Rechtschreibkorrektur auch eine Kommakorrektur
+besitzen. Die Standmitarbeiter reagierten freundlich, aber
+leicht genervt wg. staendiger Anfragen. Das Geruecht erwiess
+sich auch als solches. Ansonsten bietet das Programm eine
+komfortable Einbindung von Formeln, die auch berechnet und
+aehnlich wie Grafik in den Text eingebaut werden koennen. Ein
+weiteres interessantes Feature (Bug?) des DOS-Directories,
+welches bekanntlich nur 8 Buchstaben zur Vergabe von Dateiname
+zulaesst, ist die Vergabe zusaetzlicher Stichworte zur Datei.
+ 
+Nach langen suchen fand mensch uebrigens endlich einen NeXT
+Computer auf der Messe. Die Firma A-Dope stellte ihren Display
+Postscript Interpreter vor. Damit wird der gesamte Bildschirm
+mit Hilfe von Postscript-Kommandos dargestellt. Viele
+Informationen zum NeXT waren nicht zu erhalten. Der NeXT wird in
+England ans Business verkauft. Preis liegt zwischen 20.000 und
+25.000 DM. Dabei sind allerdings eine groessere Palette an
+Software, wie bsw. Textverarbeitung, Grafikprogramme und E-Mail
+Software. Letztere hat mensch sich natuerlich intensiver
+angesehen. Die grosse Funktionalitaet von E-Mail wird dort
+relativ gut grafisch dargestellt. Allerdings scheint auch NeXT
+keine Loesung fuer integrierte Kommunikationssoftware auf
+grafischer Basis zu sein. Ein nettes Feature (sicher kein Bug)
+ist die Moeglichkeit eine Mail nicht nur mit Textinhalten,
+sondern auch mit Sprache zu verschicken. Digitalisierung und
+Mikrophon sind direkt beim NeXT dabei. Sprachdigitalisierung ist
+direkt vom E-Mail Programm aus aufrufbar.
+ 
+Es gab auch einige Treffen auf der CeBit. Beispielsweise trafen
+sich am Montag am Heise-Stand Unix Benutzer aus Hannover um einen
+Unix-Stammtisch zu initiieren. Dieser soll sich in Zukunft jeden
+Dienstag um 20 Uhr in der "Wiener Sophie", Koenigstr. 12 treffen.
+Ob daraus die geplante GUUG-Ortsgruppe wird, muss sich noch zeigen.
+ 
+Zum Abschluss bleibt noch zu sagen: Die CeBit 1991 findet vom
+13. Maerz bis 20. Maerz statt.
+ 
+                                                        Terra
+ 
+-----------------------------------------------------------------------------
+NEXT FFAB
+ 
+		   Der alte Mann und das -MEHR ?-
+ 
+Seit etwa sechs Jahren gibt es nun Mailboxen auch in diesem unseren Lande.
+Zwischenzeitlich sind Millionen von immer besseren und immer
+leistungsfaehigeren Computern verkauft werden, das Modem verdraengt allmaehlich
+den Akustikkoppler, alles wird schneller, groesser. Nur besser wird es nicht.
+ 
+Sieht man genau hin, hat sich in der Mailboxlandschaft seit 1984 nicht sehr
+viel bewegt. Gewiss, seit geraumer Zeit gibt es vernetzte Systeme, man kann
+heute durchaus eine Nachricht innerhalb von fuenf, sechs Tagen von einer
+Hamburger Box in die andere senden, wenn man einen Umweg ueber Wuppertal und
+andere Staedte fuer vertretbar haelt. Gewiss, es gibt Systeme, die halten -zig
+Megabyte an Daten fuer ihre Benutzer abrufbereit, hunderte von Programmen zum
+Herunterziehen, sowie all die netten kleinen Texte, die besagen: Ich war auch
+hier. Gewiss, es gibt inzwischen auch Systeme mit inhaltlichen Schwerpunkten,
+meist im Bereich linker und/oder alternativer und/oder umweltpolitischer
+Themen, deren groesste Freude es ist, darueber zu debattieren, innerhalb welchen
+Netzwerkes man sich angemessen verbreiten kann. Und das soll es dann schon
+gewesen sein ? Hier tut offenbar eine kritische Bestandsaufnahme not (Sie ,
+lieber Leser, sind selbstverstaendlich in den folgenden Zeile nicht gemeint,
+egal ob Sie nun User sind oder Sysop, Point, Terminal oder Node, Einzelperson
+oder Gruppe. Es sind immer nur die Anderen, die gemeint sind. Aber das sehen
+Sie ja ohnehin genauso).
+ 
+Beginnen wir auf der untersten Ebene, bei den Benutzern. Benutzer sind
+grundsaetzlich dumm, viele dazu noch dreist. Sie kommen aus den
+unterschiedlichsten Gruenden zur Mailbox, weil sie in einer selbsternannten
+Fachzeitschrift darueber gelesen haben, weil Hans-Bernhardt um die Ecke das
+auch geil findet, weil sie keinen Bock mehr auf noch zehn weitere
+Ballerspiele haben, weil der Computer sonst verstaubt, weil sie mal gehoert
+haben, dass Hacker sowas auch machen und und und...
+All diese User treffen dann bei ihren ersten Gehversuchen auf die zweite
+Gruppe, die Boxbetreiber oder Sysops. Sysops unterscheiden sich von den Usern
+dadurch, dass sie grundsaetzlich dreist sind, viele dazu noch dumm. Die meisten
+Sysops sind nicht in der Lage, ihr Mailboxprogramm selbst zu schreiben,
+geschweige denn, zu verstehen, wie es funktioniert. Sie kommen zur Mailbox,
+weil sie sich ueber die anderen Boxen geaergert haben, weil sie sich ueber die
+anderen User geaergert haben, und so weiter...
+Die Sysops treffen bei ihren Versuchen, eine eigene Mailbox zu eroeffnen, auf
+eine weitere Gruppe, die Mailboxautoren. Mailboxautoren sind grundsaetzlich
+dummdreist, viele dazu noch geldgierig. Sie kommen zum Programmieren, weil
+sie sich ueber die anderen Mailboxprogramme geaergert haben, weil sie sich ueber
+andere Sysops geaergert haben, etc. etc etc. ...
+Mailboxautoren treffen frueher oder spaeter auf Netzwerker. Netzwerker sind
+dummdreist und geldgierig, viel dazu noch groessenwahnsinnig. Sie kommen zum
+Netzwerk, weil sie sich ueber die bestehenden Netze geaergert haben, weil sie
+sich ueber lange Laufzeiten geaergert haben, weil sie sich ueber irrsinnige
+Routwege geaergert haben ...
+ 
+Fairerweise sei dazu gesagt, dass die Grenzen zwischen den Gruppen
+mittlerweile fliessend geworden sind. Im Zerberus-Netz gibt es beispielsweise
+User, die mehr dreist als dumm sind, das sind die Terminals. Und es gibt
+ueberall in den Netzen Sysops, die mehr dumm sind als dreist, ja sogar
+etliche, die nur dumm sind.
+ 
+Eine hochinteressante Erscheinung in den vom Zeitgeist heimgesuchten Boxen
+ist das inzwischen -Dank entsprechender Beispiele innerhalb gewisser Clubs-
+in Mode gekommene Ausgrenzspiel. Da streiten die User untereinander darueber,
+wer von ihnen nicht ins System passt, die Sysops streiten darueber, welche
+Bretter nicht in die Boxen passen und ueber die User, die Netzwerke streiten
+darueber, welche Boxen nicht in die Netzwerke passen, welche Netze nicht
+angeschlossen werden sollen und ueber Bretter und ueber User. Kaum haben die
+Netze begonnen, sich zu formen, werden sie durch dieses ewige Ausgrenzerei
+mit Laufmaschen versehen, was angesichts der wirren Strukturen toedlich sein
+muss.
+Woran liegt's ? Ein Grund, so merkwuerdig das auch angesichts der Gigabytes an
+Daten auf den Netzen scheint, ist mangelnde Information. Wobei deutlich
+darauf hingewiesen sei, dass falsche Information genauso mangelhaft ist, wie
+fehlende, ja, schlimmer als diese. Da werden von allen Seiten Erwartungen
+geweckt, die dann nicht oder nur unvollstaendig erfuellt werden. Jedes Jahr im
+Fruehjahr, also vor der entscheidenden Messe in Hannover, finden sich in den
+Fachzeitschriften sogenannte Schwerpunktbeitraege zum Thema
+Datenfernuebertragung, die von den Nicht-Usern gierig verschlungen werden, von
+den Usern mit einem Stirnrunzeln bedacht werden, von den Sysops mit einem
+Laecheln und von den Netzwerkern mit einem Kopfschuetteln. Natuerlich sollen
+diese Artikel, dafuer sind Fachzeitschriften ja da, in erster Linie den Kreis
+potentieller Kaeufer vergroessern. Dagegen ist nichts einzuwenden, Geschaeft ist
+Geschaeft. Nur darf man sich dann nicht wundern, geschweige denn aufregen,
+wenn die frischgebackenen User in Scharen ueber die Mailboxen herfallen und
+dort Bloedsinn verzapfen, weil sie noch nicht mit dem Medium umgehen koennen,
+oder weil sie veraergert sind, wenn ihre Erwartungen nicht erfuellt wurden.
+Diese Leute dann aus dem Kreis der User auszugrenzen, ist sicherlich der
+bequemste Weg. Unbequemer, aber sinnvoller, ist es, die User anhand
+einleuchtender Beispiele vorsichtig zu fuehren und ihnen eine Chance zum
+Begreifen zu geben. Begreifen kann man Computer und was damit zusammenhaengt
+aber nun einmal am Besten, wenn man das woertlich nimmt und begreift,
+Fehler zu machen, auch wenn dann Datenmuell entsteht, sinnlose Texte ueber die
+Netze schwirren oder Texte am falschen Ort landen. Ganz ohne diesen Muell geht
+es nicht, ja es muss sogar darauf geachtet werden, dass der Muell nicht ganz
+verschwindet, denn dann bliebe nur eine sterile Wueste der Seriositaet. Eine
+Mailbox, die in ihrem Kern gesund ist, verkraftet so etwas sehr gut.
+Womit wir bei den Mailboxen waeren. Das ist eine Medaille mit mindestens zwei
+Kehrseiten. Die meisten Sysops kommen zu ihrem Mailboxprogramm, wie
+Kuhscheisse aufs Dach: Keiner weiss so recht, wie und warum. Irgendwann wird
+der Entschluss gefasst, eine Mailbox zu eroeffnen und da man selber nicht
+programmieren kann, oder nicht weiss, wie man eine Mailbox programmiert,
+sucht man nach einem fertigen Programm. Damit ist man dann auf Gedeih und
+Verderb an die vorgelieferten Strukturen gebunden. Und diese sind
+erschreckend unklar.  Da gibt es mindestens drei verschiedene Systeme,
+Aehnlich wie bei den Videorecordern, das eine arbeitet mit Zahlen, das andere
+mit Mnemonics, das dritte mit Klartextbefehlen. Eigentlich sollte man
+annehmen, dass dieses am einfachsten bedienbar waere, aber interessanterweise
+tun sich die User damit zumindest Anfangs am schwersten. Warum das so ist,
+kann man ahnen, wenn man sieht, dass diese Gruppe Boxen sich frueher
+GeoNet-Kompatibel nannte, nach dem Beispiel der kommerziellen GeoNet-Systeme,
+bei denen das Befehlssystem abgeguckt war. Mittlerweile ist nur noch von
+Geo-Aehnlichkeit die Rede. Das liegt daran, dass jeder Mailboxautor seinen
+eigenen Dialekt hinzufuegt, aber dazu kommen wir spaeter. Der User kann sich
+also selbst innerhalb eines Typs von Mailboxprogramm nicht darauf verlassen,
+mit gleichen Eingaben gleiche Ergebnisse zu erzielen. Diese babylonische
+Verwirrung steigert sich spaeter auf der Netzebene noch dadurch, dass jedes
+Netz seine eigene Art der Empfaengeradressierung hat. Das geht dann bis zu
+einem Punkt, an dem klartextgesteuerten Boxen auf einmal Zahlenadresse a la
+BTX aufgezwungen werden. Und der User, der da verstaendlicherweise nicht mehr
+durchsteigt, wird als Dummuser abgekanzelt. Die Netze entstehen in den
+Wirrkoepfen.
+ 
+Fuer den Sysop ist es mit dem Kauf/der Beschaffung des Programms allerdings
+nicht getan. Auch wenn sich in letzter Zeit immer mehr die gegenteilige
+Ansicht durchsetzt: Eine Mailbox zu betreiben ist arbeitsintensiv. Man kann
+sie nicht einfach vorsichhinbrabbeln lassen, sondern muss sich um das System
+kuemmern. Bretter und User wollen betreut werden, wer das versaeumt, darf sich
+ueber ein Zuviel an Muell nicht beklagen. Aber es ist natuerlich einfacher, auf
+die User zu schimpfen, als etwas zu aendern. Auf diese Weise entstehen dann
+die Boxen, die von den anderen Systemen belaechelt und/oder beschimpft werden.
+ 
+Womit wir bei den Netzen waeren (keine Angst, die Mailboxautoren wurden nur
+aufgeschoben, nicht aufgehoben). Da gibt es Fido-, Magic-, Maus-, PC-,
+Zerberus-, BTX- und sonstige Netze. Nicht nur das jedes dieser Netze eine
+eigene Struktur fuer die Uebertragung der Nachrichten hat, nein, jedes Netz
+muss auch noch eine eigene Form der Adressierung haben. Um von einem Netz ins
+andere zu kommen, muessen muehsam die Formate gewandelt werden, Routen
+ausgerechnet und optimiert werden. Bei jedem Netzuebergang das gleiche Spiel
+und innerhalb der jeweiligen Netze wieder das Gleiche. Dazu kommen
+Animositaeten zwischen den einzelnen Netzen, sogar zwischen den einzelnen
+Boxen eines Netzes. Die einen sind zu links, die anderen zu rechts, die einen
+zu serioes, die anderen zu unserioes, wieder andere zu zu. Und jeder haelt
+seinen Weg fuer den richtigen und versucht, die anderen in diesem Sinne zu
+beeinflussen, wo das nicht klappt, wird halt gemeckert und geschimpft. Nur
+geaendert wird nichts.
+ 
+(Anm. der Redaktion: Geschichtlich gab es zwei Ansaetze der Vernetzung. Die
+ Vernetzung von Mailboxen (Bsp: Zerberus oder MagicNet) und die schon be-
+ stehenden Netze wie UUCP die einfach fuer den Normalbenutzer attraktiv
+ durch guenstige Unix-Anlagen und UUCP-Derivate fuer PC, ST und Amiga.
+ Die letzteren verwenden innternational gueltige Adressierungsformen wie
+ z.B. in der Domain- oder ISO-Domainn-Schreibweise, die Mailboxen verwenden
+ das was in gerade in die Finger viel. Praktischerweis sollte die Mailbox-
+ netze mit ihren insgesamt vielleicht 200 Maschinen sich an die Adressierung
+ der "grossen" Netze mit ueber 100.000 Rechner anpassen. Verweiss auf
+ BSMTP, RFC822, RFC987, etc).
+ 
+Dabei gibt es durchaus Leute, die zumindest an den technischen Gegebenheiten
+etwas aendern koennten (Jetzt kommen wir zu den Mailboxautoren). Doch daran
+scheint niemand ein Interesse zu haben. Wer ein neues Mailboxprogramm
+schreibt, oder ein vorhandenes neufasst, tut das auf eigene Faust, ohne sich
+um die vorhandenen Strukturen zu kuemmern. Nach mir die Bitflut. Wenn das
+Produkt halbwegs fertig ist, also die Absturzhaeufigkeit auf drei Ereignisse
+pro Woche gesunken ist, wird das Produkt in Umlauf gebracht, koste es was es
+wolle. Die Sysops werden sich schon damit zusammenraufen, dass sie viel zu
+viel Zeit mit den technischen Problemen verbringen muessen, statt sich um die
+Betreuung der User und der Inhalte zu kuemmern, ist unwichtig. Noch schlimmer
+wird es bei den netzwerkfaehigen Programmen. Wenn das Programm noch neu ist
+und nur zwei oder drei andere Systeme am Entwicklungssystem des Autors
+haengen, ist die Welt noch in Ordnung. Sobald weitere Systeme dazukommen,
+faengt das Netz an, wild zu wuchern, niemand kuemmert sich darum. So entstehen
+dann solche kleinen Katastrophen wie im Z-Netz, in dem Nachrichten zwischen
+zwei Hamburger Boxen ueber Wuppertal und Moers geroutet werden, koste es, was
+es wolle.
+ 
+Es ist zwar eigentlich nicht der Stil dieser Zeitschrift (Der Kluengel, Anm.
+der Redaktion), Kritik auch konstruktiv zu fassen, trotzdem sei der Versuch
+gemacht, einige Vorschlaege zu machen, wie es denn besser zu machen waere.
+Dabei wird allerdings Unmoegliches von allen Betroffenen verlangt, was wiederum
+den Herausgeber zu einem befriedigten Grinsen veranlasst.
+Die Situtation koennte nachhaltig verbessert werden, wenn es mehr Leute gaebe,
+die Ahnung davon haben, wie ein Mailboxprogramm wirklich arbeitet. Krass
+gesagt, wer nicht selber programmieren kann, duerfte nicht Sysop werden. Zu
+diesem Thema hat ein bekannter notorischer Notpressereferent einmal
+behauptet, man muesse schliesslich auch nicht die Zusammensetzung der diversen
+Lackschichten eines Autos kennen, um es fahren zu koennen. Recht hat er, nur
+muss man halt erst mal das Autofahren selbst lernen, und ohne einige
+Grundkenntnisse der technischen Funktionen geht das nunmal nicht. Diese
+Forderung bedingt eine weitere: Die Unsitte, Mailboxprogramme nur als
+ausfuehrbares Programm auszuliefern, muss verschwinden. Der Quelltext gehoert
+dazu, schon aus dem einfach ersichtlichen Grund, dass es jedem Sysop moeglich
+sein sollte, alle Systemausgaben nach seinem Geschmack zu aendern, ohne muehsam
+mit dem Debugger im Programm herumzupatchen. Patchen ist immer eine
+Notloesung, die leicht ins Auge geht. An dieser Stelle wird gewoehnlich
+Gemurmel und Protest von Seiten der Programmierer laut, da ist von geistigem
+Eigentum die Rede, von Sicherheitsbedenken, von Marktverschmutzung. Unsinn.
+Die Forderungen lauten: Ein Mailboxprogramm, das so schlampig programmiert
+ist, dass man nicht einmal oeffentlich ueber vorhandene Fehler reden kann, ohne
+zu riskieren, dass kreative User reihenweise Boxen stillegen, darf nicht
+verbreitet werden (Zerberus zum Beispiel). DIe Autoren sollten sich auch
+entscheiden, was sie wollen: Entweder, sie schreiben ein allgemein
+zugaengliches Programm, um die offene Kommunikation zu foerdern, oder sie
+schreiben es, um damit reich zu werden (was noch keiner geschafft hat).
+Beides geht nicht, ausserdem sind die meisten Programme derart schlecht
+geschrieben, dass man sie ohnehin nicht guten Gewissens verkaufen koennte. Die
+naechste Forderung ist, dass man ein Mailboxprogramm nicht einfach weitergibt
+und den neuen Sysop damit alleine laesst und waere das Handbuch auch noch so
+gut. Sicher, am besten lernt man aus eigenen Fehlern, aber es ist nun
+wirklich unnaetig, dass jeder aufs Neue ueber den Fehler in Zeile 4711 stolpert.
+Betreuung der Neulinge ist also angesagt, wobei sich das natuerlich nicht nur
+auf die technische Seite beschraenken darf, auch die Kunst der Userbetreuung
+will gelernt sein.
+ 
+Dann ist es allerhoechste Zeit (es waere schon vor Jahren faellig gewesen), dass
+sich alle Mailboxautoren mal zusammensetzen und miteinander arbeiten, statt
+gegeneinander. Was derzeit fehlt, ist ein einheitliches Verfahren,
+Nachrichten auszutauschen. Es reicht halt nicht aus, mit dem X.400-Sticker
+von der CeBit rumzulaufen und darauf zu warten, dass etwas passiert. Dabei
+koennen die Ziele durchaus niedriger gesteckt werden, als es die
+Postverwaltungen bei X.400 tun. (Anm. der Redaktion: Ob X.400 wirklich die
+Loesung des Problems ist, ist zweifelhaft, da der technische Aufwand gewaltig
+ist. "Gaengige" Verfahren sollten aber einfach auch mal in betracht gezogen
+werden und nicht mit dem Argument: "Wir machen alles, nur nicht nach vor-
+handenen Strukturen" abgetan werden) Es muessen ja im Wesentlichen nur zwei
+Dinge 'genormt' werden: Erstens eine Festlegung, welches Format die Netz-
+nachrichten und die jeweiligen Header haben muessen, zweitens muss ein Packver-
+fahren entwickelt. angepasst oder uebernommen werden, das fuer alle Systeme (und
+alle Rechnertypen) identisch ist. Wobei man Wert auf Einfachheit legen sollte.
+Die Angaben Absender,Empfaenger, Absendebox, Empfaengerbox, Absendenetz,
+Empfaengernetz, Betreff, eventuell eine globale NachrichtenID, mehr ist fuer
+einen Header nicht noetig. Routwege, Weiterleitungsvermerke und der ganze
+restliche Bloedsinn, auf den ausser den Sysops eh niemand Wert legt, koennen
+genausogut weggelassen, oder in den Nachrichtentext gepackt werden. Das
+Packverfahren sollte ohne Muehe in allen gaengigen Programmiersprachen
+umgesetzt werden koennen, das benutzte Uebertragungsprotokoll sollte variabel
+sein, um sich besser an die Gegebenheiten verschiedener Netze anpassen zu
+koennen. Was die einzelnen Netze und spaeter die einzelnen Boxen dann mit
+diesen Daten anfangen, ist Sache des Netzes und der Boxen.
+ 
+Spaetestens dann, wenn so ein globales Nachrichtenformat realisiert ist,
+besser schon frueher, muessen sich dann alle Sysops zusammensetzen und eine
+Grundstruktur fuer das Netz errichten. Es reicht nicht aus, zu sagen, ich
+haenge meine Box an den Server XY, der ist fuer mich am billigsten, es ist auch
+zu pruefen, ob der Server YZ nicht geeigneter ist, weil dann die Netzstruktur
+klarer wird und andere Kosten sparen. Bislang arbeiten die Netze ja eher auf
+der Basis, dass die meisten Systeme ihre eigenen Kosten zu Lasten der Systeme
+optimieren, die -aus was fuer Gruenden auch immer- nicht so sehr auf die Mark
+sehen. Sicher wird man da Kompromisse eingehen muessen, aber zumindest sollte
+es sich vermeiden lassen, dass lokale System ueber den Fernbereich gehen
+muessen, um einander zu erreichen. Wobei - vorausgesetzt, das globale
+Datenformat ist vorhanden - es ja auch durchaus denkbar ist, dass eine
+Nachricht  von Z-Netz nach Z-Netz ueber Fido laeuft, weil das fuer diesen
+speziellen Fall guenstiger ist. Das setzt natuerlich voraus, dass sich die
+Struktur der Netze grundlegend aendert, denn das Routen der Nachrichten kann
+nur noch von den Servern erledigt werden und als Gateways kommen auch nur
+noch Server in Frage. Alle anderen Systeme liefern stur und unbeteiligt ihre
+globalen Daten ab und pollen ihren eigenen Kram. Damit waere auch die
+finanzielle Seite wesentlich einfach durchschau- und regulierbarer.
+ 
+Nun nuetzt die ganze Technik, egal, wie sie funktioniert, ueberhaupt nichts,
+wenn es inhaltlich daneben geht. Das faengt bei den leidigen Diskussionen an,
+die innerhalb der Netze immer dann entstehen, wenn ein Brett eingerichtet
+oder aufgehoben werden soll. Die einen sind dafuer, dieses Brett zu errichten,
+andere wollen stattdessen noch zehn Unterbretter dazu, wieder andere halten
+das Brett sowieso fuer unnoetig. Und schon beginnen Diskussionen und
+Abstimmungen, die viel Zeit und Energie kosten, obwohl sie unnoetig sind.
+Mailboxen sind, auch wenn viele Sysops das anders sehen, in erster Linie fuer
+die User da. Also muessen die auch entscheiden, was sie lesen wollen. Das
+bedeutet: Es gibt keine ueberfluessigen Bretter, solange mindestens ein User
+sich dafuer interessiert. Das Konzept, dieses Problem in den Griff zu kriegen,
+koennte so aussehen, dass innerhalb des Netzes alle Bretter Unterbretter haben,
+deren Namen wie ueblich vereinbart werden. Systeme, deren User lieber alles in
+einem Brett haben wollen, pollen die Unterbretter und packen alles in ein
+Brett, Systeme, die das Brett gar nicht haben wollen, pollen es halt nicht.
+Das bedeutet, nicht der Server muss wissen, was die Boxen kriegen, sondern
+die Boxen fordern beim Pollen des Servers die entsprechenden Bretter ab. So
+entsteht lediglich fuer den Server die Verpflichtung, alle Bretter und
+Unterbretter zu fuehren, alle anderen Systeme sind frei in der Auswahl.
+Natuerlich wirft das neue Probleme beim Senden von Texten auf, die aber loesbar
+sind. Beispielsweise fuer eine Box, die vernnftigerweise nur ein
+Schwerpunktbrett Computer hat (das bei anderen Boxen und beim Server als
+Verzeichnis mit Unterbrettern gefuehrt wird): Der User gibt SENDEN COMPUTER
+ein und die Box fragt nach dem Bereich: ST C64 MSDOS ? und kriegt so die
+Information, fuer welches Unterbrett das Ganze gedacht ist.
+ 
+Womit wir bei den Inhalten angelangt waeren. Zu Beginn der Mailboxentwicklung
+waren die Hauptthemen computerspezifisch. In juengerer Zeit finden allerdings
+auch andere Themen dankenswerterweise ihre Berechtigung. Es wird also Zeit,
+dass sich die Betreiber Gedanken darueber machen, wo ihre inhaltlichen
+Schwerpunkte liegen. Das liegt, wie schon gesagt, in erster Linie am
+Userinteresse. Hier gilt es, anhand einleuchtender Beispiele zu zeigen, dass
+Mailboxen eben nicht nur eine Quelle fuer Software und CB-Rauschen sind,
+sondern dass mehr passiert, und noch mehr passieren kann, wenn man nur will.
+So gibt es mittlerweile etliche Gruppen, die ihre Texte auch auf die Netze
+blasen, die Gruenen und Greenpeace seien als Beispiele genannt. Wenn man sich
+allerdings ansieht, was da alles kommt und wie  es aufbereitet ist, fragt man
+sich, ob das so Sinn hat. Fast alle Texte dieser Gruppen sind lang (genau wie
+dieser Striemel hier, obwohl nicht von solchen Gruppen verfasst), so lang,
+dass meist die Konzentration fehlt, sie aufmerksam zu lesen. Gut, das ist
+ohnehin eine Eigenart dieser Gruppen, die in ihrem missionarischen Eifer fast
+immer zuviel des Guten tun. Verstaerkt wird dieser negative Effekt aber noch
+durch die medientypischen Eigenschaften der Box, die ueberlange Texte
+eigentlich nicht vertraegt. Die oft geuebte Methode, die Texte erst
+auszudrucken, und dann zu lesen, hilft auch nicht weiter, denn dann koennte
+man sich ja gleich die Pressemitteilungen schicken lassen. Ausserdem wird
+diese Methode angesichts der Informationsmengen in den Netzen schnell laestig,
+Texte, die man am Bildschirm innerhalb einer halben Stunde liest, brauchen
+nunmal noch laenger auf dem Drucker. Hier muss sich also noch viel tun, es
+muss fuer das Medium Mailbox eine geeignete Methode gefunden werden,
+Informationen artgerecht aufzubereiten. Das wird sich aber erst allmaehlich
+entwickeln koennen und haengt wesentlich von der Bereitschaft aller Beteiligten
+ab, etwas (gemeinsam) zu tun.
+ 
+Quelle: Kluengel Ausgabe 0, Autor: Wie immer: Eine gute Frage
+ 
+-----------------------------------------------------------------------------
+NEXT FFAD
+ 
+                        Der Internet Relay Chat
+ 
+Das Internet ist das weltgroeszte Computernetz. Man findet darauf ca.
+120000 Rechner, die zum groeszten Teil ueber Standleitungen miteinander
+verbunden sind.
+Speziell fuer dieses Netz wurde eine Software geschrieben, die ein ver-
+teiltes Chatsystem realisiert, den Internet Relay Chat. (Anm. der
+Redaktion: die Relays wie z.B. RELAY@DEARN auf dem EARN/Bitnet
+funktionieren praktisch genauso)
+ 
+ 
+Wie verwendet man IRC ?
+-----------------------
+ 
+Der IRC besteht aus zwei Teilen, dem Benutzerinterface irc und dem
+Steuerprogramm im Hintergrund, ircd. Der User ruft das Programm irc auf.
+Dies ist eine terminalorientierte Benutzeroberflaeche, die ungefaehr
+so aussieht wie der emacs, d.h. mit einer Kommando-
+zeile als unterste Zeile im Fenster und einer Statuszeile direkt darueber.
+In der Kommandozeile koennen Kommandos eingegeben werden, die mit einem
+definierten Zeichen beginnen (default "/") oder es kann auch nur einfach
+Text eingegeben werden. Dieser Text wird in dem Fall ausgesendet.
+ 
+Der irc verwendet wie die meisten Chat-Systeme Kanaele, d.h. man redet
+zu jeder Zeit nur mit den Usern auf einem Kanal, nicht mit allen, die
+den IRC gerade nutzen. Man wechselt mit dem Befehl /chan <channr> auf
+einen Kanal. Kanalnummern von -2^32-1 bis +2^32 sind moeglich, es gibt
+aber Unterschiede in der Funktion der Kanaele.
+- Auf Kanal 0 ist jeder Teilnehmer nach Start des Programms. Er kann
+  dort aber nur private Gespraeche mit anderen Teilnehmern fuehren,
+  nicht aber in den Kanal 0 reinschreiben.
+- Kanaele 1-9 sind oeffentliche Kanaele, die Anzahl der User auf diesen ist
+  unbeschraenkt.
+- Kanaele 10-999 sind auch oeffentlich, aber es koennen sich maximal 10 Leute
+  auf diese Kanaelen einschalten.
+- Kanaele 1000-2^32 sind privat (secret), d.h. die Teilnehmer auf diesen
+  Kanaelen koennen (wie bei denen auf den von 1-999) durch den Befehl /who
+  angezeigt werden, doch die Nummer des Kanals, auf dem sich der Teilnehmer
+  befindet, wird nicht angezeigt.
+- Alle Teilnehmer auf negativen Kanaelen werden nicht angezeigt (hidden).
+ 
+Wenn allerdings der /who-Befehl angewandt wird, wenn man sich in einem
+privaten Kanal aufhaelt, dann sieht man natuerlich alle Teilnehmer auf
+diesem Kanal.
+ 
+Damit kanns eigentlich schon losgehen. Denn wo was abgeht, sieht man ja
+an der Anzahl der Leute in den verschiedenen Kanaelen durch den /who-
+Befehl. Wenn man es allerdings uebersichtlicher haben moechte, gibt es
+den /list-Befehl, der die derzeitigen Kanaele anzeigt. Dabei erscheint
+dann auch das Thema (Topic) der Kanaele. Die Themen koennen von jedem,
+der sich auf dem Kanal aufhaelt, gesetzt werden.
+ 
+Fuer das Training on the Job empfiehlt sich das /help-Kommando. Es er-
+scheint eine Liste von moeglichen Kommandos. Deren Funktion bekommt
+man meist schon durch Probieren raus. Wem das nicht hilft, der verwende
+/help <command>.
+ 
+ 
+Wie kommt man an IRC ran ?
+--------------------------
+ 
+Das ist meist ein nicht zu unterschaetzendes Problem. Vorhanden sein
+sollte ein Rechner, der die TCP/IP-Protokolle berherrscht (kann fast
+jeder Unix-Rechner). Des weiteren sollte der mit dem weltweiten Internet
+verbunden sein (Internet verbindet ca. 120.000 Rechnern weltweit).
+Solche Moeglichkeiten findet man an den Universitaeten Baden-Wuerttem-
+Bergs und anderer Bundeslaender wie Bayern und NRW.
+ 
+Dann sollte man sich den Programmcode des IRC von einem der ano-ftp-server
+wie der sun1.ruf.uni-freiburg.de (132.230.1.1) oder
+fauni45.informatik.uni-erlangen.de (131.188.1.45) abholen und auf seinem
+Rechner auspacken. Jetzt ist man immerhin soweit, sich die Orginal-
+Dokumentation zum IRC durchlesen zu koennen, meist recht sinnvoll...
+ 
+In den meisten Faelle wird man darauf verzichten, einen IRC-Server den
+weltweit ca. 100 Servern hinzuzufuegen sondern wird sich umschauen, wo
+man sich denn mit einem Client dranhaengen kann. Denn fuer die Ein-
+richtung eines Servers benoetigt man root-Privilegien und die sind,
+wenn auch einfach zu bekommen, meist nur schwer zu erhalten. Nur in
+den seltenen Faellen, dasz der Verwalter eines Rechners diesen Service
+unterstuetzt oder man selber der Verwalter des Systems ist und weit
+und breit kein anderer Server zur Verfuegung steht, lohnt sich der
+administrative Aufwand.
+Einen IRC-Client allerdings kann man auch ohne jedes Privileg verwenden
+und erstellen, WENN, ja wenn ein freundlicher Server bereit ist,
+Verbindungsanfragen positiv zu bescheiden.
+In der BRDigung empfiehlt sich dazu noc.belwue.de (129.143.2.1) oder
+jener des Leipniz-Rechenzentrums Munich. Die Uni Erlangen ermoeglicht
+meines Wissens ebenfalls den Zugang an den IRC, wobei ich deren
+Adresse grad leider nicht weisz.
+ 
+ 
+Was geht auf dem IRC ab und was kann abgehen ?
+----------------------------------------------
+ 
+Der IRC wurde von einem Finnen programmiert, so dasz man sich nicht
+wundern sollte, dasz auf dem IRC folglich die ueberwiegende Mehrzahl
+Finnen sind. Dies haengt natuerlich auch mit dem Netzzugang zum
+amerikanischen Internet zusammen (die Finnen haben 64 KBit) und
+mit, was Wunder bei einem weltweiten System, dem Stand der Sonne.
+Mittags sind kaum Amerikaner auf dem IRC zu finden, die liegen
+da naemlich in den Federn. Und dafuer ists frueh morgens ganz
+schoen geschaeftig auf dem IRC, denn dann ists in USA spaet abends
+und viele kucken noch mal schnell rein. Die Japaner sind dann
+mitten im Tagesgeschaeft.
+ 
+Bisher habe ich auf dem IRC folgende Laender gefunden:
+USA, Finnland, Norwegen, Schweden, BRD, Daenemark, GB, Japan, Australien,
+Niederlande, Kanada
+Bald sollen erste IRC-Systeme in Frankreich erscheinen.
+ 
+Die Anzahl der Nutzer schwankt von einem bis 80. Der Fall mit einem User
+tritt auf, wenn Dein Server den Kontakt zu den anderen verloren hat.
+Achtzig Leute auf dem IRC ist dann schon recht viel. Meist ist die
+Anzahl der Server deutlich groeszer als die Anzahl der User...
+Allerdings ist das ganze System zeitweise recht instabil. So kann
+es vorkommen, dasz man gerade mal zu dritt ist und alle paar Sekunden
+tauchen weitere 30 user auf und wieder ab, weil die Verbindung so
+instabil ist.
+ 
+Man sucht sich dann den Kanal raus, dessen Topic am vielversprechendsten
+klingt oder in dem am meisten Leute drin sind. Nach einer Weile kennt
+man die Leute schon und weisz, wo etwas interessantes abgehen koennte.
+Der IRC ist halt wie jede Szene, ob tchh, qsd, qom oder eben IRC. Wenn einen
+die Leute kennen, gibts immer was zu quatschen, andererseits fuehlt
+man sich ausgeschlossen, wenn man nicht so schnell kapiert, wie
+der Hase laeuft.
+Viele Teilnehmer lassen auf ihrem Workstation-Fenster-Feuerwerk den
+IRC einfach so mitlaufen, man kann sie ja mit einem ctrl-g (Bell)
+kurz aufwecken... Also braucht man sich nicht wundern, dasz ab und an
+zwar zwanzig Leute anwesend sind, aber auf keinem Kanal was passiert.
+ 
+Im Groszen und Ganzen wird der IRC wohl mittelfristig den Bitnet
+Relay Chat abloesen.
+ 
+Leider wird der IRC zwar von vielen Leuten frequentiert, doch eine
+ernsthafte Anwendung existiert natuerlich noch nicht. Wie auch, wenn
+die meisten Server nur durch undurchsichtige Arrangements mit den
+Systembetreibern zustande kamen und die Rechenzentrumsleiter die
+Axt zuecken wurden, wenn sie dies Treiben mitbekommen wuerden.
+ 
+Was mir als Anwendung fuer diese Art von "Netzfunk" vorschwebt, waeren
+z.B. Kanaele mit speziellem Publikum oder Programm:
+- Auf einem festen Kanal im negativen Kanal findet man z.B. alle Be-
+  nutzerberater der diversen Rechenzentren. Benoetigt jemand einen
+  Tip, so ruft er IRC auf, wechselt auf diesen Kanal und kann losfragen.
+- Auf einem anderen Kanal koennte eine bestimmte Sprache verwendet
+  werden, so dasz man praktisch dort englisch, schwedisch oder
+  auch deutsch lernen koennte.
+- Ein Kanal kann speziell zu Anfragen bezueglich Software-Archiven
+  dienen.
+- Fuer interne Systeme kann man das IRC so verwenden, dasz alle Daten
+  ueber andere TCP/IP-Services gehen (Default: 6667).
+- Da der IRC in Source-Code vorliegt, kann man z.B. moderierte Kanaele
+  oder verschluesselte Kanaele einbauen.
+- Aktienhandel (Wahrscheinlich unmoeglich, da auf IRC nicht HAL drauf-
+  steht).
+- Nachrichtenfunk
+ 
+ 
+Wie funktioniert IRC ?
+----------------------
+ 
+Das Funktionsprinzip des IRC wird im File Comms der IRC V2.2 PL1
+Distribution erklaert. Ich fasse das hier mal eben zusammen.
+(Zeichnung aus dem File NETWORKING).
+ 
+Auf allen Server-Rechnern laeuft im Hintergrund das Programm ircd,
+welches mittels der Konfigurationsdatei so aufgesetzt wurde, dasz
+jeder ircd mit bestimmten anderen Servern Kontakt haelt, wobei
+einige auch als Sicherungslinks verwendet werden, falls einer
+der Links ausfaellt. Diese Daemons und ihre Rechner bilden im
+Internet einen aufgespannten Baum mit moeglichst kurzen
+Laufzeiten. Denn da das IRC die Resourcen des Internet ver-
+wendet, wird es vom deren Verwaltern wohl untersagt, wenn es
+zuviele Resourcen braucht:
+ 
+ 
+                    FINLAND            SURANET
+                      \       \ /       /
+        JVNCNET-BU----MIT     NWU     ODU
+                        \      |      /
+                         \     |     /
+                          \    |    /
+                           \   |   /
+                            \  |  /
+                             \ | /
+                              \|/
+      BARRNET--AMES-----------OSU---RPI-NYSERNET-------BELWUE
+             ORST/                   \-CANADA
+ 
+ 
+Die ircd verweigern den Kontakt zu anderen Servern, die sie nicht
+kennen. Genauso verweigert ein Server den Kontakt zu Clients, wenn
+der nicht bestimmte Einschraenkungen bezueglich des Hostname etc.
+einhaelt. So kann ein Server allen Clients in einer bestimmten
+Subdomain offen sein, andere aber ausschlieszen.
+ 
+Die ircd unterhalten sich ueber TCP-Verbindungen mit Hilfe von
+gewissen Code-Woertern, aehnlich wie z.B. SMTP oder NNTP.
+Sie erlauben es auch Usern, sich mittels eines Nickname/Passwort-
+Paares zu identifizieren und gewisse Verwaltungsaufgaben zu
+uebernehmen, z.B. Starten des Servers, Stoppen oder Entfernen
+von Teilnehmern, die sich unbotmaeszig verhalten.
+ 
+Die ircd tauschen laufend Informationen aus ueber neue Messages
+der User aneinander und ueber neue Kanaele, Topics und Server.
+ 
+pi@complx.uucp
+ 
+-----------------------------------------------------------------------------
+NEXT FRC2
+ 
+                    -----------------------------
+                    ! K u r z m e l d u n g e n !
+                    -----------------------------
+ 
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1
+ 
+			Computer Virus Handbook
+ 
+Soebenn habe ich mir das 'Computer Virus Handbook' von Harold Highland,
+(in englischer Sprache) herausgegeben von Elsevier Advanced Technology,
+Mayfield House, 256 Banbury Road, Oxford OX2 7DH, United Kingdom besorgt.
+ 
+Es umfasst etwa 370 Seiten bei einer Groesse von (8 1/2 x 11) ca DIN A4 [??]
+in Hardcover-bindung; ISBN 0-946395-46-2.
+ 
+ Es glaenzt mit einem Vorwort von Bill Caelli, Direktor des Information
+Security Research Centers an der Queensland University of Technology,
+Brisbane, Queensland, Australien,
+und zehn weiteren Kapiteln:
+ 
+     1. Basisdefinitionen und andere Grundlagen
+     2. Die Anwendung der Epidemiologie auf Computerviren (von William H.
+          Murray)
+     3. Eine Geschichte der Computerviren
+	  Einfuehrung
+	  Die Beruehmten Drei (Brain, Lehigh, Israeli)
+	  Ein weiteres Trio (Alameda, Ping Pong, Marijuana)
+	  Drei besondere Viren (Macro, Vienna, Batch)
+	  Andere bekannte und dokumentierte Viren (Datacrime, Icelandic,
+	  Autumn Leaves, Fu Manchu, Traceback und weitere)
+     4. Berichte von Virusjaegern
+	  U. [Uni ?] of Delaware und der Pakistani Computer Virus
+	     (von Anne E. Webster)
+	  Lehigh Virus (von Ken van Wyk)
+	  Israel PC Virus (von Yisrael Radai)
+     5. Bewertungsprotokoll und Untersuchungsmethoden
+	[Evaluation Protocol and Test Methodology]
+	  Virentestzentren, Auswertungsplaetze, Antiviruserzeugnisse
+	  [Virus Test Centers, Evaluation Sites, Anti-virus products]
+          ...
+     6. Bericht eines Anti-Virus Produkt Testes (von Jon David)
+     7. Produktbewertungen
+	  (enthaelt Berichte ueber Antidote, Data Physician, Disk Defender,
+          Disk Watcher, Dr. Panda Utilities, Flu Shot +, Immunize, Mace
+	  Vaccine, Ntivirus, Softsafe, Vaccinate, Vaccine (Certus), Vaccine
+          (Sophos Ltd.), Vaccine (Worldwide Software), VirAlarm 2000 PC,
+	  Virus-Free, Virusafe, Vir-X, V*Screen, XFICheck)
+	  (Die Adressen der Hersteller befinden sich im Anhang des Buches)
+     8. Viren - Konsequenzen fuer das Management (von Harry B. de Maio)
+     9. Handlungsweisen zur Reduzierung der Gefahr durch Computerviren
+     10. Konzeptionelle Grundlagen der Computerviren
+	  beinhaltet fuenf wiederaufgelegte Dokumentationen ( ? papers)
+	  von Computers & Security
+ 
+Ein Teil des Materials ist bereits in  Computers & Security ( der von
+Elsevier herausgegebenen Zeitschrift ) erschienen, aber ein guter Schwung
+ist neu. Speziell interessant sind die Testergebnisse der Antivirus=
+produktionen.
+ 
+Quelle: 	comp.virus (UUCP)
+		Lance J. Hoffman
+		The George Washington University
+Uebersetzung: 	Michael Schwuchow <michel@aragorn>
+ 
+2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2
+ 
+	Japaner zeigen neues Expertensystem in den USA
+ 
+  Tokio (gmd/mik) - Das japanische Handelsministerium hat sich
+bereit erklaert, den Prototypen eines japanischen Expertensystems
+in den USA vorzustellen und gemeinsam mit den Amerikanern
+Technologien im Anwendungsbereich zu entwickeln. Waehrend des
+zweiten japanisch-amerikanischen Symposiums ueber "Kuenstliche
+Intelligenz", das vom 11. bis 13. Oktober 1989 in Illinois/USA
+stattfinden wird, wollen die Japaner diesen Computer
+amerikanischen Forschern vorfuehren. Die amerikanische Seite hat
+bereits vorgeschlagen, beide Laender sollten den Computer im
+Rahmen der genetischen Forschung einsetzen.
+ 
+   Das sogenannte "Multi PSI System" ist eine Prototyp-
+Entwicklung in Japan, die als nationales Projekt angelegt wurde.
+Die Entwicklungskosten der letzen sieben Jahre belaufen sich
+nach japanischen Angaben auf rund 400 Millionen Mark. Das System
+verbindet 64 sogenannte "PSI"-Maschinen, von denen jede eine
+Arbeitsgeschwindigkeit von 145.000 Inferenz-Operationen pro
+Sekunde aufweist (inference = Schlussfolgerung).
+ 
+   Kernpunkt ist dabei eine neuartige Form der
+Datenverarbeitung, bei der nicht auf verknuepfbare Datensaetze
+zurueckgegriffen wird, wie etwa bei einer Datenbank.
+Expertensysteme basieren auf Wissensaussagen, die zu zu
+komplexen Ketten verknuepft und durch ein formales
+Schlussfolgerungssystem gesteuert werden. Letztlich basiert
+dieses Schlussfolgerungsystem auf schlichten Wenn-Dann-Formeln,
+die auch mit Wahrscheinlichkeitsaussagen verbunden werden
+koennen. Ziel dieser Entwicklungen ist, auch unerfahrenen
+Personen die Moeglichkeit zu geben, Expertenwissen anzuwenden.
+ 
+   Das Verfahren hat den Nachteil, dass nur einfache Wenn-Dann-
+Beziehungen eingegeben werden koennen. Hat eine Wissensaussage
+nicht diesen einfachen Wenn-Dann-Charakter, kann keine
+maschinell sichere Schlussfolgerungskette abgewickelt werden.
+Dieses Manko will man durch Systemschnelligkeit ausgleichen, so
+dass die Maschine mehrere moegliche Schlussfolgerungsketten
+durchlaufen und vergleichen kann. Dieses kann ein menschlicher
+Experte nicht leisten. Seine Entscheidungen basieren deshalb
+meist auf Berufserfahrung und Intuition. Bei 64 angeschlossenen
+PSI-Maschinen mit jeweils 145.000 Schlussfolgerungsoperationen
+pro Sekunde kann der japanische Prototyp rein rechnerisch rund
+9,2 Millionen Schlussfolgerungen pro Sekunde ablaufen lassen. Die
+Japaner habe bereits eine Verbesserung des Prototypen bis 1990
+angekuendigt. Die Maschine soll dann um den Faktor zehn schneller
+sein. Gleichzeitig bereitet das japanische Handelsministerium
+ein Nachfolgeprojekt vor, das die Entwicklung sogenannter
+Neurocomputern zum Ziel hat. Grundlage dafuer sind Erkenntnisse
+der biologischen Nachrichtenverarbeitung, die technisch
+nachgebildet werden soll.
+ 
+Quelle: emp: E-Mail-Press/MIK-Magazin
+ 
+3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3
+ 
+		       Dokumentation ueber Karl
+ 
+Die Freunde von Karl Koch haben eine Dokumentation ueber das Leben und
+den Tod von Karl Koch erstellt. Diese ist fuer den Preis von 5 DM bzw.
+5 Stueck fuer 20 DM bei Freke Over, Boettcherstr.4, 3000 Hannover 21
+erhaeltlich.
+ 
+Der Inhalt besteht aus Pressemeldungen, den Grabreden, Texte von Karl
+selber (z.B. sein Lebenslauf), Daten zum Prozess, sowie Meinungen und
+Kommentare div. Menschen die Karl kannten.
+ 
+-----------------------------------------------------------------------------
+NEXT FRCC
+ 
+			 	 IMPRESSUM
+                                 ---------
+ 
+  "Die gesamte Menschheit bleibt aufgefordert, in freier Selbstbestimmung
+   die Einheit und Freiheit des globalen Dorfes zu vollenden."
+ 
+   Herausgeber: Chaos Computer Club e.V./Redaktion Chalisti
+ 
+   Erscheinungsdatum:   6. April 1990
+ 
+   V.i.S.d.P. : F.Simon
+ 
+   Redaktion:   Volker Eggeling, Frank Simon
+ 
+   Mitwirkende an dieser Ausgabe:
+		Juergen Wieckmann, Michael Schwuchow, Marcus Humburg
+		Pi, Dirk Rode, u.a.
+ 
+   Redaktionen: Chalisti,       c/o Frank Simon, Strackerjanstr. 29
+                                2900 Oldenburg, Tel. 0441/73854
+                Datenschleuder, Lachswehrallee 31, 2400 Luebeck,
+                                Tel. 0451/865571
+                MIK-Magazin,    c/o J. Wieckmann, Barmbeker Str.22,
+                                2000 HH 60, Tel. 040/275186
+ 
+   Verbreitung: Zerberus   : /Z-NETZ/MAGAZINE/CHALISTI
+                UUCP(dnet) : dnet.general
+                UUCP(sub)  : sub.mag.chalisti
+                EARN/CREN  : CHAMAS@DOLUNI1, Brett chamas.chalisti
+                GeoNet     : mbk1: brett ccc-presse
+                FidoNet    : ccc.ger
+                MagicNet   : Artikel&News
+ 
+   Adressen:    EARN/CREN  : 151133@DOLUNI1
+                UUCP       : eggeling@uniol (eunet)
+                             terra@olis  (subnet)
+                Zerberus   : chalisti-redaktion@mafia
+                GeoNet     : mbk1: chaos-team
+                FidoNet    : Volkmar Wieners on 2:241/2.1205
+                MagicNet   : trendbox:gec
+                AmNET II   : HENNE;SML
+ 
+                Teilnehmer aus diversen anderen Netzen wie z.B. ArpaNet,
+                DFN, etc. nutzen bitte die Bitnet Adresse ueber das
+                entsprechende Gateway.
+ 
+    Mit Namen gekennzeichnete Artikel geben nicht unbedingt die Meinung der
+    Redaktion wieder. Alle Artikel und Beitraege koennen mit Quellenangabe
+    weiterverwendet werden. Artikel aus dem MIK-Magazin bitte mit Quelle:
+    (emp/mik) MIK Magazin, (c/o) J. Wieckmann, Barmbeker Str. 24, 2000 HH 60
+    angeben.
+    Die Verbreitung der Chalisti auf anderen Netzen wird ausdruecklich er-
+    wuenscht. Bei Abdruck in Zeitungen oder Zeitschriften bitten wir um zwei
+    Belegexemplare.
+ 

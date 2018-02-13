@@ -1,0 +1,552 @@
+# PHAT/2 v58i Delta IRC Script 
+# (c)1994 Apotheosis [acidflux on IRC]
+
+# Greets go out to my homies (you know who you are).
+
+echo *** PHAT/2 v58i Delta by Acidflux
+echo *** Hit /Phathelp for instructions 
+echo *** Hit /Phatnews for new features
+
+^set EXEC_PROTECTION OFF
+^set NOVICE OFF
+^set DCC_BLOCK_SIZE 1024
+
+^assign BeavisTalker Off.  
+^assign setaway :) C=m=3
+^assign signmsg I'm outta, heeeeeeeeeere
+^assign mkicknum 5
+^assign topicnum 5
+
+alias Phathelp {
+  ^set HOLD_MODE ON
+  ^echo *** PHAT/2 v58i Delta
+  ^echo *** (c) 1994 Acidflux
+  ^echo 
+  ^echo - Popular Stuff -
+  ^echo
+  ^echo [*] Join Talker Instructions
+  ^echo     Type /jointalk#, where # = a number between 1 and 22
+  ^echo     Type /jointalk0 to deactivate
+  ^echo [*] BeavisTalker 
+  ^echo     Type /BTalker ON, OFF or STATUS
+  ^echo [*] Join Faker
+  ^echo     Type /faker#, where # = a number between 1 and 4
+  ^echo 
+  ^echo - Kicks -
+  ^echo 
+  ^echo [*] PhatKicks Instructions
+  ^echo     Type /phatkick# nick, where # = a number between 1 and 7
+  ^echo [*] MiscKicks
+  ^echo     Type /mk nick
+  ^echo
+  ^echo - Miscellanea -
+  ^echo 
+  ^echo [*] Call Waiting
+  ^echo     Type /PutOnHold nick to put nick on hold.
+  ^echo [*] PhatOp
+  ^echo     Type /PhatOp nick
+  ^echo [*] Jesus Status
+  ^echo     Notifies you when Jesus has returned
+  ^echo     Type /JesusStat#, where # = a number between 1 and 3
+  ^echo [*] Satan Status
+  ^echo     Type /SatanStat to find out if Lucifer is online
+  ^echo [*] Joke Banner
+  ^echo     Type /jokebanner or /unjokebanner
+  ^echo [*] Misc Sayings
+  ^echo     PornTheme, DipBalls, DipBalls2, nosir, alrighty,
+  ^echo     Cheeze, Preppy, Buttah, SheSaid, y0!
+  ^echo [*] BirdFlipper 
+  ^echo     Type /SOT X, where X = a nick or channel
+  ^echo     Or /SOT2 for a more compact version
+  ^echo [*] Webster's Online Dictionary Faker 
+  ^echo     Type /Webster# nick, where # = a number between 1 and 5         
+  ^echo [*] User Examiner
+  ^echo     Type /look to get a personal description of someone
+  ^echo     Type /ExaminerHelp for more info
+  ^echo [*] QuickJoke
+  ^echo     Type /quickjoke nick to tell a quick joke about someone.
+  ^echo [*] ReqMail
+  ^echo     Type /ReqMail nick to see someone's anonymous or preferred 
+  ^echo     mailing address. Type /ReqMailHelp for more info.
+  ^echo [*] Lameness Detector
+  ^echo     Type /lamedetect nick (make sure they're on IRC!)
+  ^echo [*] Topic Generator
+  ^echo     Type /topicgen to change the channel's topic to a 
+  ^echo     needlessly cryptic phrase
+  ^echo
+  ^set HOLD_MODE OFF
+}
+
+alias ExaminerHelp {
+  ^set HOLD_MODE ON
+  ^echo =Examiner Help= 
+  ^echo 
+  ^echo User Examiner is a new feature that lets you get a
+  ^echo personal description of someone. Remember those old infocom
+  ^echo text adventures where you'd type "examine troll" and you'd
+  ^echo get a description? Same concept, different media. Original
+  ^echo eh?
+  ^echo
+  ^echo For someone to get a description of YOU, just edit a 
+  ^echo file in your home directory called ".ircdesc" and type in 
+  ^echo the description you'd like people to see.
+  ^echo
+  ^echo Example:
+  ^echo 
+  ^echo Joe Preppy is a white male wearing a NoPhear T-Shirt and pre-torn
+  ^echo jeans. 
+  ^echo 
+  ^echo Hair - Color/Brown : Length/Short : Style/Curly
+  ^echo Eyes - Green
+  ^echo Mailing Address: vanderhoff@anon.penet.fi
+  ^echo
+  ^echo This is a brief example but I'm sure you get the idea as to the
+  ^echo kind of stuff you can put there.
+  ^echo To get a description of someone else, just type /look JoePreppy,
+  ^echo and you'll recieve a description via notice. Since it's via notice
+  ^echo You won't be flooded off, however if you're running a script
+  ^echo with flood protection you might want to turn flood detection
+  ^echo off temporarily.
+  ^echo
+  ^echo Have fun!
+  ^echo
+  ^set HOLD_MODE OFF
+}
+
+alias ReqMailHelp {
+  ^set HOLD_MODE ON
+  ^echo =ReqMail=
+  ^echo
+  ^echo Displays other people's anonymous or preffered E-Mail address, and
+  ^echo vice versa.
+  ^echo 
+  ^echo To see other people's preset anonymous mail addresses type: 
+  ^echo /ReqMail Nick
+  ^echo 
+  ^echo To set up ReqMail so other people can see your
+  ^echo anonymous mailing address, just declare it in your 
+  ^echo .ircrc file.
+  ^echo
+  ^echo Example:
+  ^echo assign PHAT_EMAIL an119112@anon.penet.fi
+  ^echo
+  ^set HOLD_MODE OFF
+}
+
+alias ReqAffilsHelp {
+  ^set HOLD_MODE ON
+  ^echo =ReqAffils=
+  ^echo
+  ^echo Displays your affiliations with ansi and demo groups
+  ^echo (Yeah, right) or even companys.
+  ^echo 
+  ^echo To see other people's affiliations type: 
+  ^echo /ReqAffils Nick
+  ^echo
+  ^echo To set up ReqAffils so other people can see your 
+  ^echo affiliations, just declare it in your .ircrc file.
+  ^echo
+  ^echo Examples:
+  ^echo assign PHAT_AFFILS [DELiRiUM/DiE]
+  ^echo assign PHAT_AFFILS The Wired NetSurf Team
+  ^echo assign PHAT_AFFILS NONE
+  ^echo 
+  ^echo Etc, etc, etc. You get the picture.
+  ^echo 
+  ^set HOLD_MODE OFF
+}
+
+alias Phatnews {
+  ^set HOLD_MODE ON
+  ^echo
+  ^echo *** PHAT/2 v58i Broken
+  ^echo *** (c) 1994 Acidflux
+  ^echo *** New Features List
+  ^echo 
+  ^echo Since v54i Early Beta:
+  ^echo
+  ^echo [1] The jointalks were resorted.
+  ^echo [2] 3 new jointalks (18-20)
+  ^echo [2] LOTS of bigfixes and and renovations.
+  ^echo [3] Removed NotSoPhatkicks & most of the joinfakers 
+  ^echo [4] ReqMail - hit /ReqMailHelp for more info.
+  ^echo [5] ReqAffils - Type /ReqAffilsHelp for more info.
+  ^echo [6] Yo Momma Kicks removed. Get your own damn snaps!
+  ^echo [7] "PornoMusic" Macro abbreviated to "PornTheme"
+  ^echo [8] BeavisTalker now much more "professional".
+  ^echo     Type /BTalker ON, OFF or STATUS.
+  ^echo [9] And a pantload of other stuff.....
+  ^echo
+  ^echo Since 57i Delta:
+  ^echo 
+  ^echo [1] Framers removed. They got annoying.
+  ^echo [2] Bugfixes. 
+  ^echo [3] 2 New JoinTalks (21-22)
+  ^echo [4] BeavisTalker Updates
+  ^echo [5] Lameness Detector
+  ^echo     Type /lamedetect nick (make sure they're on IRC!)
+  ^echo [6] Topic Generator
+  ^echo     Type /topicgen to change the channel's topic to a 
+  ^echo     needlessly cryptic phrase
+  ^echo
+  ^set HOLD_MODE OFF
+}
+
+alias JOINTALK0 on join -"*"
+alias JOINTALK1 on join "*" {send Well needless to say, my dog didn't get pregnant so I went down to $0's house with a snubnose demanding my quarter back and OH HI $0!}
+alias JOINTALK2 on join "*" {send So I open the door and $0 is sitting in his bedroom naked with 5 stuffed animals, and oh hi $0! }
+alias JOINTALK3 on join "*" {send So I'm at this party right? Well, Bill got the playboy channel unscrambled, but a when a naked man came on the screen $0 went ballistic and ran out of the house screaming, and OH, hey $0!}
+alias JOINTALK4 on join "*" {send *$0* I'm 4'2"! So there!}
+alias JOINTALK5 on join "*" {send *$0* H3Y D00D CaN U SLiP M3 A \<-K00L SiT3??? 3y3 START3D THiS /<-RAD GNU GR0UP CALL3D PWGNP, PiRAT3S WH0 G3T N0 PUSSY, WANNA J0iN?}
+alias JOINTALK6 on join "*" {send So I walk into the office and $0 is standing there in leather thigh-boots dry raping the janitor in the anus and he errr HI $0!}
+alias JOINTALK7 on join "*" {send So then the police tell $0, "Who the hell told you this was a nude beach?!" and then... oh hi $0!}
+alias JOINTALK8 on join "*" {send *$0* Pave my hershey highway with the cement of love from your massive one-eyed trouser snake}
+alias JOINTALK9 on join "*" {send *$0* I want to lick the man mustard off your pulsating corndog of pleasure}
+alias JOINTALK10 on join "*" {send *$0* S0 TH3N EYE HACK3D IN-2 BURG3R KiNG AND CHANG3D TH3 PRiC3Z 0N THE HAPP-E M3ALZ 2 0NLY A QUART3R! iT WuZ 3L33T.}
+alias JOINTALK11 on join "*" {send I'm Michael Stevens of the Federal Bureau Of Investigation. We're looking for "$0" in connection to 7 child pornography FTP sites. If anyone sees him please contact me. There's a considerable reward.}
+alias JOINTALK12 on join "*" {send Hey $0! Tell us about your new job as janitor at that adult theatre!}
+alias JOINTALK13 on join "*" {send *$0* I likes 'em BIG.}
+alias JOINTALK14 on join "*" {send *$0* Hey girlfriend, there's a blue light special in my poop chute department!}
+alias JOINTALK15 on join "*" {send *$0* Hey, wanna talk voice? Call me up at 1-900-976-BLOW, I'll waive the charges.}
+alias JOINTALK16 on join "*" {send *$0* Yeah, I just don't get it. When I went in for surgery on my penis they only charged me half price. I wonder why?}
+alias JOINTALK17 on join "*" {send *$0* Get this man, I just got a promotion down at Hersheys.. I'm an executive fudge packer!}
+alias JOINTALK21 on join "*" {send *$0* If it's mostly made of sugar why does it taste so salty?}
+alias JOINTALK22 on join "*" {send *$0* I'm bleeding and I don't know why!}
+
+alias JOINTALK18 on join "*" {
+send ** PACKS OFFERED. /MSG $N XDCC SEND #N for autosend pack #N
+send #1 [GIF] $0's family reunion (XXX) (800x600x256) 
+send Frank - yeah man, it's 800x600 because I had to blow it up so you could see his.... oh hi $0!!
+}
+
+alias JOINTALK19 on join "*" {
+send ** PACKS OFFERED. /MSG $N XDCC SEND #N for autosend pack #N 
+send #1 [GIF] $0's family reunion 
+send Dan - no no no, that's him in the mini-skirt....
+}
+
+alias JOINTALK20 on join "*" {
+send *** Channel    Users  Topic
+send *** #netsex    1
+send *** Users on #netsex: $0
+send What the hell is he doing in there?! Oh, HEY $0!
+}
+
+# Misckick Declarations... er, declerations? Fuck it....
+
+alias mk {
+#@seed = [$srand($time())]
+@mktmp = [$rand($mkicknum)]
+^assign misckick $(mk$mktmp)
+kick * $0 $misckick
+}
+
+@mk1=[Tranquility only lies in the shade of the safe]
+@mk2=[Eenie Meenie Miney Moe, suck my dick and swallow slow]
+@mk3=[Silly faggot! Dicks are for chicks!]
+@mk4=[You fuck with the best, you die like the rest]
+@mk5=[(((Dolby Surround Sound)))]
+
+# Topic Generator
+
+alias topicgen {
+#@seed = [$srand($time())]
+@toptmp = [$rand($topicnum)]
+^assign topic $(top$toptmp)
+topic $C $topic
+}
+
+@top1=[Dontcha just hate it when you panic and kill a hooker?]
+@top2=[Why did CNN cancel that cool "Desert Storm" show?]
+@top3=[WWhhaatt  ddooeess  dduupplleexx  mmeeaann??]
+@top4=[Shareware author dies: .GIF at eleven!]
+@top5=[The slave thinks he is released from bondage only to find a stronger set of chains]
+
+
+alias phatop {
+send $0 is woken up from his nap on the front porch w/ a phone call..
+send "Hey man, let's kick some lamers!"
+send $0 replies, "How are we gonna kick any lamers??? We don't have no OPS!!"
+me , the magic man, comes out in a liesure suit and waves his cane and woo woo woo woo woo, $0 has a shiny new plus oh!
+mode * +o $0
+}
+
+# All respects to Billy Idol! Don't trip bro, just a joke =)
+
+alias faker1 {
+me (idol@well.sf.ca.us) has joined channel $C
+msg $C DANCING WITH MYSELF, OH OH
+}
+
+alias faker2 {
+me (cstoll@cva.harvard.edu) has joined channel $C
+msg $C FREEZE!
+}
+
+alias faker3 {
+me (cornholio@highland.edu) has joined channel $C
+send I AM THE GREAT CORNHOLIO! I NEED TEEPEE FOR MY BUNGHOLE!
+}
+
+alias faker4 {
+me (louie@state.mtv.com) has joined channel $C
+send I WANNA DIP MY BAWLLLLLLLS IN IT!
+}
+
+alias porntheme notice $C BOOMP CHICKA BOOMP BOWWWW!!
+alias dipballs send I WANNA DIP MY BALLS IN IT!
+alias dipballs2 send I WANNA DIP MY BALLLLLLS IN IT!
+alias cheeze send Cheeze wizorama, that's neat!
+alias mcman send Heh heh heh. You are correct, sir!
+alias nosir send No sir, I don't like it.
+alias barney send Sooper De Dooper!
+alias preppy send Ho ho ho, VERY funny Muffy!
+alias buttah send Like BUTTAH! Like a big stick of buttah!
+alias shesaid send That's what she said!
+alias y0! send y0y0y0y0y0y0y0!!1!!11!
+alias alrighty send Alllllllllllllllrighty then!
+
+alias jesusstat1 send [PHAT/2] [Jesus Status] Jesus Is Not Currently On Earth
+alias jesusstat2 {
+send [PHAT/2] [Jesus Status] JESUS HAS RETURNED!! 
+timer 4 send [PHAT/2] [Jesus Status] False Alarm. Please disregard the previous message.
+}
+alias jesusstat3 send [PHAT/2] [Jesus Status] Jesus Has Been Idle For 1,994 Years.
+
+alias satanstat send [PHAT/2] [Satan Status] The prince of darkness is not currently online.
+
+alias jokebanner {
+mode * +bbb beavis@mtv.com idol@well.sf.ca.us ronald@mcdonalds.com
+}
+
+alias unjokebanner {
+mode * -bbb beavis@mtv.com idol@well.sf.ca.us ronald@mcdonalds.com
+}
+
+alias phatkick1 {
+me waves an ancient druid sceptre over $0
+me chants "KLATU! BARATTA! NIKTU!"
+me waits as nothing happens
+me says "Fuck this" and busts the sceptre up $0's ass
+kick * $0 That's GOTTA hurt!
+}
+
+alias phatkick2 {
+me follows $0 to a party one night....
+me waits until $0 goes inside and then breaks into his car....
+me exchanges $0's MegaDeth CD with the new Enigma CD
+send Later that night, $0 decides to crank some tunes on his drive home...
+send $0 falls asleep at the wheel and plows into an Exxon Truck....
+kick * $0 BOOM!
+}
+
+alias phatkick3 {
+me kicks $0 through a time warp....
+send $0 lands at the Jim Jones incident....
+send Jim Jones says "Hey $0! How about some PurpleSaurus Rex Kool Aid?"
+send $0 thinks, "sure, why not?"
+send $0 chugs a pitcher and says "damn, why is this stuff so good?"
+send Jim Jones says, "Well $0, it's either the nutrasweet or the cynanide!"
+kick * $0 DOH!
+}
+
+alias phatkick4 {
+me shows $0 a broomstick and some vasseline.....
+send Suddenly some cheap 70's porno film music comes on [BOOMP-CHICKA-BOOMP-BOWWWWW!]
+send $0 decides he'd prefer not to take chances and runs like fuck....
+kick * $0 And don't let the door hit ya on the way out!
+}
+
+alias phatkick5 {
+send Hey $0! Let's go bungee jumping!
+send <$0> Okay! Sounds like fun!
+me straps $0's feet in right before he makes a jump off the bridge...
+send $0 is so heavy the cord breaks and he goes straight to hell...
+kick * $0 Say hi to Beezlebub for me!
+}
+
+alias phatkick6 {
+me gives $0 one of those natural-fiber hemp t-shirts
+send $0 runs out of chronics and starts smoking his t-shirt
+send The fire spreads and $0's entire body catches on fire...
+kick * $0 Excuse me sir, but this is a non-smoking channel
+}
+
+alias phatkick7 {
+me watches as the sun sets and a full moon rises...
+me watches as $0 starts transforming... not into a warewolf, but.. even worse!
+send <$0> Ho ho ho, VERY funny! Now is anyone up for a round of GOLF?
+send A PREPPY!!!
+kick * $0 ((Dolby Surround Sound))
+}
+
+alias sot {
+msg $0    n         /   
+msg $0    H     o     o  
+msg $0  nnHnn      (      Sit on this and rotate!   
+msg $0  VVVVV     ___/    
+}
+
+alias sot2 {
+msg $0    n     
+msg $0    H       
+msg $0  nnHnn    
+msg $0  VVVVV      
+}
+
+alias BTalker {
+if (match($0 ON OFF STATUS)) 
+{
+BTR$0
+}
+{
+^echo [PHAT/2] Type /BTalker ON, OFF or STATUS.
+}
+}
+
+alias BTRStatus ^eval ^echo [PHAT/2] BeavisTalker is currently $BEAVISTALKER
+
+alias BTROn {
+  ^on public "* come *" {send Ehehehehehehe. $0 said "come".}
+  ^on public "* load *" {send Ehehehehe m hehe. $0 said "load".}
+  ^on public "* hard *" {send Huhuhuhuhuh m heh, $0 said "hard".}
+  ^on public "* deep *" {send Huhuhuhuh, $0 said "deep".}
+  ^on public "* finger *" {send Ehehehe m hehehe, $0 said "finger".}
+  ^on public "* access *" {send Hehehehe m heh. $0 said "access".}
+  ^on public "* fit *" {send Hehehehe m hehe m heh. $0 said "fit".}
+  ^on public "* slip *" {send Hehehehehehe, $0 said "slip"!}
+  ^on public "* head *" {send Hehehehe, $0 said "head".}
+  ^on public "* stuff *" {send Hehhehehe m hehe, $0 said "stuff"!}
+  ^on public "* come on *" {send Ehehehehehehe. $0 said "come on".}
+  ^on public "* hard*" {send Huhuhuhuhuh m heh, $0 said "hard".}
+  ^on public "* beat *" {send Hehehehe! $0 said "beat".}
+  ^on public "* dump *" {send Huhuhuh, he said "dump", huhuh.}
+  ^on public "* merge *" {send Ehehehe, $0 said "merge".}
+  ^on public "* enter *" {send Ehehehe, $0 said "enter".}
+  ^on public "* member *" {send Ehehe, $0 said "member".}
+  ^on public "* #1 *" {send Ehehehe, $0 said "number 1".}
+  ^on public "* crack *" {send Ehehehe, $0 said "crack"."}
+  ^assign BeavisTalker On.
+  ^echo *** [PHAT/2] BeavisTalker Now Active  
+}
+
+alias BTROff {
+  ^on public -"* come *"
+  ^on public -"* load *"
+  ^on public -"* hard *"
+  ^on public -"* deep *"
+  ^on public -"* finger *"
+  ^on public -"* access *"            
+  ^on public -"* fit *"
+  ^on public -"* slip *"
+  ^on public -"* head *"
+  ^on public -"* stuff *"
+  ^on public -"* come on *"
+  ^on public -"* hard*"
+  ^on public -"* beat *"
+  ^on public -"* dump *"
+  ^on public -"* merge *"
+  ^on public -"* enter *"
+  ^on public -"* member *"
+  ^on public -"* #1 *"       
+  ^on public -"* crack *"
+  ^assign BeavisTalker Off.
+  ^echo *** [PHAT/2] BeavisTalker Now Disabled
+}
+
+
+alias putonhold {
+msg $0 [PHAT/2] I'm sorry, but I'm busy at the moment talking with 
+msg $0 [PHAT/2] someone else. Please msg me again in 5 minutes, or 
+msg $0 [PHAT/2] DCC a letter in a text file with the format 
+msg $0 [PHAT/2] yournick.irc.letter - Thanks for calling.... Bye Now!
+}
+
+alias webster1 {
+send [Webster Online Dictionary : Port 2251]
+send [Definition of homosexual]
+send   1. Ho-mo-sex-u-al (adjective)
+send      : oriented towards one's own sex
+send   2. Ho-mo-sex-u-al (noun)
+send      : $0
+}
+
+alias webster2 {
+send [Webster Online Dictionary : port 2251]
+send [Definition of "masturbate"]
+send   1. Mas-tur-ba-tion (noun)
+send      : stimulation of sex organs by hand
+send   2. Mas-tur-ba-tor (noun)
+send      : $0
+}
+
+alias webster3 {
+send [Webster Online Dictionary : port 2251]
+send [Definition of "anal sex"]
+send   1. An-al Sex (noun)
+send      : Copulation involving the anus
+send      : How $0 was concieved
+}
+
+alias webster4 {
+send [Webster Online Dictionary : port 2251]
+send [Definition of "oral sex"]
+send   1. Or-al Sex (noun)
+send      : Copulation involving the mouth
+send      : $0's favorite sport at family picnics
+}
+
+alias webster5 {
+send [Webster Online Dictionary : port 2251]
+send [Definition of "kindergarten"]
+send   1. kin-der-gar-ten (noun)
+send      : class for young children
+send      : location that has a restraining order against $0
+}
+
+alias quickjoke {
+send Alright, he's a quick joke for you.
+send Santa Claus, the Easter Bunny and $0's FRIENDS are walking down the street.
+send They all spot a quarter at the same time... who picks it up?
+send Let me know when you're stumped...
+}
+
+alias lamedetect {
+userhost $0 -cmd if ([$3] != [<UNKNOWN>])
+{eval send [E/X] EXTREME LAMENESS detected from $0 [$$strip(#> $3)@$$4]}
+}
+
+on ^ctcp "% % [PHAT/2] lookdesc" {
+^exec -notice $0 cat $HOME/.ircdesc
+^echo [PHAT/2] $0 has glimpsed at you.
+^log $0 glimpsed at you.
+}
+
+on ^ctcp "% % [PHAT/2] PHAT_EMAIL" {
+   if ([$PHAT_EMAIL]==[ANON]) {
+   ^notice $0 That's privledged information, jack.
+   ^log $0 tried to get your e-mail address.
+   }
+   {
+   ^notice $0 My E-Mail address is $PHAT_EMAIL
+   ^echo [PHAT/2] $0 requested your e-mail address.
+   ^log $0 requested your e-mail address.
+}
+}
+
+on ^ctcp "% % [PHAT/2] PHAT_AFFILS" {
+   if ([$PHAT_AFFILS]==[NONE]) {
+   ^notice $0 [PHAT/2] I'm currently not affiliated with anyone.
+   ^echo [PHAT/2] $0 requested your affiliations.
+   ^log $0 requested your affiliations.
+   }
+   {
+   ^notice $0 I am currently in $PHAT_AFFILS
+   ^echo [PHAT/2] $0 requested your affiliations.
+   ^log $0 requested your affiliations.
+}
+}
+
+alias reqmail {^ctcp $0 [PHAT/2] PHAT_EMAIL}
+alias reqaffils {^ctcp $0 [PHAT/2] PHAT_AFFILS}
+alias look {^ctcp $0 [PHAT/2] lookdesc}

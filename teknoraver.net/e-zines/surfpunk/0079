@@ -1,0 +1,836 @@
+Date: Wed, 14 Apr 93 15:51:29 PDT
+Reply-To: <surfpunk@osc.versant.com>
+Return-Path: <cocot@osc.versant.com>
+Message-ID: <surfpunk-0079@SURFPUNK.Technical.Journal>
+Mime-Version: 1.0
+Content-Type: text/plain
+From: surfpunk@osc.versant.com (Ernqvat guvf FHESCHAX vzcyvrf hfref pbafrag gb fhpu zbavgbevat)
+To: surfpunk@osc.versant.com (SURFPUNK Technical Journal)
+Subject: [surfpunk-0079] USCONGRESS: Vinton G. Cerf Speaks
+
+# You may have seen this already;  I don't know where it's been.  It seems
+# like this information shows up in comp.risks every once in a while, but
+# it's nice to have handy, anyway.
+# 
+# Mike Mitten - gnome@pd.org 
+
+________________________________________________________________________
+________________________________________________________________________
+
+ 
+ Written Testimony of
+ 
+ Dr. Vinton G. Cerf
+ Vice President 
+ Corporation for National Research Initiatives
+ 
+ and
+ 
+ President
+ Internet Society
+ 
+ 
+ US House of Representatives
+ 
+ Committee on Science, Space and Technology
+ 
+ Subcommittee on Technology, Environment and Aviation
+ 
+ 
+ March 23, 1993
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Corporation for National Research Initiatives
+ 1895 Preston White Drive, Suite 100
+ Reston, VA 22091
+ +1 703-620-8990
+ +1 703-620-0913
+ 
+ 
+ National Information Infrastructure 
+ 
+ 
+ INTRODUCTION
+ 
+ Mr. Chairman, distinguished members of the subcommittee 
+ and guests, my name is Vinton G. Cerf and I am Vice 
+ President of the non-profit Corporation for National Research 
+ Initiatives (CNRI). I also have the honor to serve as President of 
+ the Internet Society (ISOC), which is a professional society of 
+ individuals who are users, developers or operators of the 
+ Internet. My remarks today are personal in nature, but they 
+ are colored by my past and present professional experiences 
+ which form the backdrop against which my opinions and ob-
+ servations have evolved.
+ 
+ I worked on the ARPANET project while a graduate student at 
+ UCLA in the early 1970s, helping to develop the protocols used 
+ to support communication between the computers (hosts) on 
+ the network. The highly successful ARPANET experience with 
+ packet switching technology led to additional satellite, mobile 
+ radio and local area packet networks, developed under  
+ Advanced Research Projects Agency (ARPA) sponsorship and, 
+ in the case of Ethernet, at the Palo Alto Research Center of the 
+ Xerox Corporation. Dr. Robert Kahn, now the president of 
+ CNRI, initiated an ARPA internetting research program to ex-
+ plore techniques to connect different packet networks in such 
+ a way that the host computers did not have to know anything 
+ about the intermediate networks linking them together. Dr. 
+ Kahn and I developed the idea of gateways and wrote the first 
+ specification for the basic TCP/IP protocols now used in the 
+ Internet. 
+ 
+ The idea behind Internet was the seamless linking of many 
+ different kinds of packet switched networks. I came to ARPA in 
+ 1976 to manage the Internetting research program and by the 
+ time I left ARPA in 1982, the TCP/IP protocols were widely 
+ used and the Department of Defense had declared them stan-
+ dards for military use. The Internet has blossomed in the sub-
+ sequent 10 years, particularly after the National Science 
+ Foundation (NSF) introduced the NSFNet as part of the 
+ Internet in the mid-1980s. In 1982, there were about 100 
+ computers  on the ARPANET and a few score others were part 
+ of the NSF-sponsored CSNET which also used the Telenet  
+ public data network. In 1993 there are over 1.5 million of 
+ them. The system links over 10,000 networks in roughly 50 
+ countries. Although it is not known for certain how many 
+ users there are, we believe there are well over 5 million. The 
+ system is tied into most public and many private electronic 
+ messaging services and this expands the population able to 
+ exchange email to some 15 million. They include business 
+ people, academics, government workers, scientists, engineers, 
+ librarians, schoolteachers, astronomers, oceanographers, biol-
+ ogists, historians, reporters, attorneys, homemakers, and sec-
+ ondary school students . 
+ 
+ The system is doubling annually in users, networks, hosts and 
+ traffic. In some parts of the Internet, such as the NSFNet 
+ backbone, traffic growth rates as high as 15% per month have 
+ been measured. Internet is growing faster than any other 
+ telecommunications systems ever built, including the tele-
+ phone network. Today, over half of the networks registered are 
+ associated with business users. Of course, these rates of 
+ growth cannot continue indefinitely, but there is reason to ex-
+ pect that the user population will exceed 100M by 1998.
+ 
+ Perhaps even more important, this federal investment in re-
+ search has created new industries revolving at first around the 
+ hardware and software of Internet technology, and more re-
+ cently, around network and information services supported by 
+ the Internet. The new businesses (such as Sun Microsystems, 
+ 3COM and Cisco Systems) have highly positive international 
+ trade balances and phenomenal growth, commensurate with 
+ the rapid growth of the Internet itself.  The growth rate is ex-
+ tremely strong in Europe, South America and the Pacific Rim 
+ creating major export markets for the US firms offering 
+ Internet products and services.
+ 
+ In 1975, operational management of the ARPANET was trans-
+ ferred to the Defense Communication Agency (now the Defense 
+ Information Systems Agency  - DISA). In the mid-80s, the 
+ National Science Foundation (NSF), the Department of Energy 
+ (DOE),  and the National Aeronautics and Space 
+ Administration (NASA) joined in supporting the evolution of 
+ the Internet and developing and applying its technologies. In 
+ addition to developing their own networks (that became inte-
+ gral components of the Internet), these agencies participated 
+ in the development and standardization of the Internet proto-
+ cols (TCP/IP Protocol Suite) and provided  support to the sec-
+ retariats of the Internet Architecture Board (IAB) and Internet 
+ Engineering and Research Task Forces (IETF and IRTF). This 
+ included support for the Internet Assigned Number Authority  
+ (IANA), document editor (RFC Editor), and Network 
+ Information Centers which provide information and assistance 
+ to users and deal with Internet network address assignments. 
+ ARPA, NSF, DISA, DOE and NASA now make up part of the 
+ Federal Networking Council which continues to oversee the 
+ development of networks used in government-sponsored re-
+ search and education.
+ 
+ Formed at the beginning of 1992, the non-profit, professional 
+ membership Internet Society  provides an institutional frame-
+ work for carrying out a variety of activities intended to foster 
+ the continued growth, evolution and application of the 
+ Internet. Included in this undertaking is the responsibility for 
+ the technical standards used in the Internet. Along with mem-
+ bers of the Federal Networking Council, the Internet Society 
+ supports the IETF Secretariat. It sponsors conferences and 
+ workshops on the Internet and its technology, is establishing 
+ liaison relationships with the International Telecommunication 
+ Union (ITU) and Organization for International Standardization 
+ (ISO), works with various United Nations agencies (e.g. UN 
+ Development Program) to encourage the acquisition and use of 
+ Internet facilities in technologically-emerging countries, and 
+ participates in efforts to extend Internet services from univer-
+ sity and research library communities to secondary school 
+ systems. 
+ 
+ The Internet Society does not operate any of the thousands of 
+ networks that make up the Internet, but it assists service 
+ providers by providing information to prospective users and 
+ involves product developers and researchers in the evolution of 
+ Internet technical standards. Corporate and individual, pro-
+ fessional support for this organization is widespread and in-
+ ternational in scope.
+ 
+ 
+ High Performance Computing and Communication 
+ 
+ The High Performance Computing  Act was signed into law late 
+ in 1991. The original impetus for this legislation came from 
+ then-Senator and now-Vice President Gore whose vision of 
+ information superhighways limned the potential of a comput-
+ ing and communications infrastructure which would permeate 
+ and stimulate the government, business and private sectors of 
+ the US economy. The promise of a vast new economic engine 
+ equal to or larger than the engine sparked by the National 
+ Highway Act of 1956 was a powerful incentive for this bill and 
+ lies at the heart of the motivation for creating a new National 
+ Information Infrastructure.
+ 
+ One of the key elements of the HPC initiative is its National 
+ Research and Education Network (NREN) program. Designed 
+ to extend the performance envelope of networking into billion 
+ bit per second  (gigabit) territory and to extend the scope of 
+ access to a larger segment of the research and education 
+ communities, the effort spawned a major research program on 
+ gigabit networking. ARPA and NSF jointly funded an effort, or-
+ ganized by the Corporation for National Research Initiatives, to 
+ establish multiple gigabit testbeds across the United States. 
+ The program is highly leveraged, involving major contributions 
+ from the computing and communications industries as well as 
+ several of the national laboratories  and major research uni-
+ versities . 
+ 
+ An important focus of the gigabit testbed program is to dis-
+ cover by experimentation which technologies and applications 
+ are likely to form the core of the high performance communi-
+ cation systems of the future. The deep involvement of industry 
+ is intended, in part, to assure that the results take into ac-
+ count the plans and capabilities of the private sector. Such 
+ partnerships among government, industry and academic insti-
+ tutions form a bedrock upon which new national infrastruc-
+ ture can be founded.
+ 
+ The vision of the NREN component of the HPC effort begins 
+ with the existing US component of the global Internet. Under 
+ the NREN program, key parts of the US Internet have been 
+ extended to operate at 45 million bits per second (in particular 
+ the NSFNet) and procurement of higher speed services by DOE 
+ and NASA is in progress. The gigabit testbed program is en-
+ abling the early availability of very high speed network tech-
+ nology and the results of the program will help to determine 
+ the architecture and technology of even higher capacity ser-
+ vices. The NSFNet initiative, which began in 1986, has also led 
+ to the creation of dozens of new Internet service providers, in-
+ cluding a number of for-profit networks offering unrestricted 
+ Internet service to all who desire it. 
+ 
+ Another fundamental motivation for the high performance 
+ networking component of HPC is the intense investment by the 
+ principal interexchange and local exchange telecommunica-
+ tions carriers in the US in the use of optical fiber in their net-
+ works. Capable of supporting operation in the billions of bits 
+ per second, the optical networks form the strands from which 
+ a national gigabit fabric can be woven. Investments by local 
+ exchange carriers and cable companies to increase the capac-
+ ity of the lines reaching business and residential customers 
+ make it possible to envision a time when very high capacity 
+ services can be supported on an end-to-end basis.
+ 
+ The far-sighted vision of the HPC effort, together with the ex-
+ plosive growth of the Internet and basic communications fa-
+ cilities resulting from private sector initiatives, have set the 
+ stage for a dramatic new step in the evolution and convergence 
+ of computing and communication: the creation of a National 
+ Information Infrastructure.
+ 
+ INFRASTRUCTURE
+ 
+ Information Infrastructure is the Rcommon groundS on which 
+ computer-based products and services depend to achieve 
+ commonality and interoperability. Included in infrastructure 
+ are technical standards and the organizations and procedures 
+ through which they are developed; communication services 
+ and the physical, human and organizational resources needed 
+ to deploy, maintain and operate them; legal and regulatory 
+ frameworks which encourage cooperative development of pre-
+ competitive technology, foster the protection of computer-ac-
+ cessible intellectual property, the protection of privacy, and 
+ support the conduct of electronic commerce; widely available 
+ computer software for many hardware and operating system 
+ platforms establishing ubiquitous and interoperable comput-
+ ing environments in which applications can be embedded. 
+ Infrastructure supplies the raw material out of which limitless 
+ applications may be constructed. 
+ 
+ Some of the characteristics which mark elements of infrastruc-
+ ture include: ubiquity, expandable capacity, simplicity of use, 
+ applicability to many uses and broad affordability. A function-
+ ing information infrastructure will lower technical and eco-
+ nomic barriers to the introduction of computer-based products 
+ and services. It will simplify the discovery and ordering of 
+ products and services as well as billing for their use or acqui-
+ sition. It will also facilitate the day-to-day operation of busi-
+ nesses, government, education, health care and all the myriad 
+ activities that rely increasingly on the use of computer and 
+ communication technology to accomplish their objectives.
+ 
+ Infrastructure has an enabling character. The highway system 
+ enabled the suburban housing boom and convenient, door to 
+ door delivery of goods. Of course, it also stimulated the auto-
+ mobile industry and travel. The power generation and distri-
+ bution system enabled the facile application of fractional 
+ horsepower motors and a vast array of other electrical appli-
+ ances wherever they were needed. 
+ 
+ Infrastructure development is almost always preceded by criti-
+ cal inventions which motivate the need for the infrastructure. 
+ The light bulb preceded and motivated the need for power gen-
+ eration and distribution. The invention of the internal com-
+ bustion engine and its application in automobiles motivated 
+ the need for better roads, service stations, gasoline refining 
+ and distribution. Once the roads were in place, their ubiquity 
+ and easy accessibility stimulated the production of a vast ar-
+ ray of different vehicles, all designed to conform to certain 
+ common constraints (size, height, weight) so as to be usable on 
+ most of the roads in the system.
+ 
+ The computer is the automobile of the information infrastruc-
+ ture. Laptops are the sports cars; desktops are the sedans; 
+ supercomputers are the formula 1 racing engines; and gigantic 
+ mainframe data storagesystems are the 18 wheelers. The local 
+ access networks form the neighborhood streets; high capacity 
+ computer networks are the superhighways; and circuit, cell 
+ and packet switching systems form the complex interchanges.
+ 
+ Just as vehicles on the road can be filled with an endless 
+ variety of people and products performing a multitude of 
+ services, software applications fill the empty computing vessels 
+ to create the new products and services of the information 
+ infrastructure. Communication protocols and standards form 
+ the rules of the road. When traffic jams and accidents occur, 
+ we call on emergency services to assist. The same may prove 
+ true for the information infrastructure when viruses  infect the 
+ system or other software and/or hardware failures occur; we 
+ will need comparable emergency assistance to restore critical 
+ services and functions.
+ 
+ The Electronic Frontier Foundation speaks of computers and 
+ computer networking as a frontier in cyberspace. This is an 
+ interesting and apt analogy, given the relative immaturity of 
+ both technologies. Despite the apparent sophistication of to-
+ dayUs computers, networks and software, their application has 
+ barely scratched the surface of the latent possibilities. The no-
+ tion of frontier raises images of boundaries and limits. But cy-
+ berspace is a virtual place. It is created out of software, mak-
+ ing cyberspace an endlessly expandable environment. 
+ 
+ Information is, itself, an infinitely renewable resource to be 
+ harvested, shaped, applied and recycled. The products and 
+ services which can be built atop the computer and communi-
+ cation infrastructure simply have no logical limits. It is this 
+ ceaselessly changing, growing, transmuting information re-
+ source which will fuel the economic engine of the information 
+ infrastructure. 
+ 
+ INFORMATION INFRASTRUCTURE FORMATION
+ 
+ The technical challenges to be overcome in creating a national 
+ information infrastructure may only be overshadowed by some 
+ of the legal and policy problems. Taking the easier ones, first, 
+ it should be apparent that standards for the exchange of a va-
+ riety of types of information (data) are essential. The value of 
+ infrastructure is that providers of two services which must in-
+ terwork do not have to make bilateral agreements with every 
+ partner if appropriate technical standards are developed which 
+ enable such interworking. In the case of program (software) 
+ interworking, common representations of shared information 
+ must be agreed upon so that software developers can be 
+ reasonably assured that, if they follow the protocols, their 
+ application programs will interwork with each other.
+ 
+ A variety of high and low-level standards are needed for 
+ representation of digital documents; information retrieval 
+ queries and responses;remote program interactions; financial 
+ or other commercial transactions; privacy, integrity and 
+ authenticity preservation; and a plethora of application-
+ specific standards for information interchange. These 
+ representations need to include the capability for a wide range 
+ of media, including sound and pictures. There are a number of 
+ representations available for encoding these various media, 
+ but there is not yet widespread agreement on a common set. 
+ Consequently, we are still some distance away from a workable 
+ information infrastructure. 
+ 
+ The applications that can be supported on a suitable 
+ information infrastructure are limited only by imagination and 
+ creativity. Examples include health care support (e.g., patient 
+ information, prescription databases, digitized X-Rays and MRI 
+ scans), remote consultation); education (classrooms without 
+ walls, using the information infrastructure to receive 
+ instruction, explore digital libraries and work with distant 
+ partners), manufacturing, provision of government 
+ information, and support for electronic commerce (e.g., order 
+ entry, electronic or physical delivery of products, electronic 
+ payments, product specifications).
+ 
+ An important element of Internet growth is the typical pricing 
+ strategy of service providers: flat rates based on the bandwidth 
+ of the lines used to access the Internet. Unlike some 
+ commercial email and other public data network service 
+ providers, Internet service providers have not charged by the 
+ Rpacket.S Many believe that this policy has had a major, 
+ positive effect on the growth of the network because users had 
+ little uncertainty with respect to annual costs for use of the 
+ system. 
+ 
+ ANECDOTES FROM THE 21ST CENTURY
+ 
+ Those of us who have lived with the Internet since its inception 
+ have been living in what will be common in the next century. 
+ 
+ In preparation for this testimony, I sent a brief message out on 
+ the Internet to hundreds of thousands of people who make 
+ daily use of the network. I asked them to offer their thoughts 
+ on points they considered important to make. Within hours, I 
+ had thousands of responses, not just from domestic sources 
+ but from all over the world. Without the infrastructure of the 
+ Internet, such a question would not have been worth asking 
+ since the answers would have taken far too long to receive, 
+ and I could not have applied available computer cycles to sort 
+ and sift the resulting responses. My correspondents were al-
+ most uniformly enthusiastic about the prospects for national 
+ and global information infrastructure. The following were some 
+ of the points they made: 
+ 
+ o	The Internet Society newsletter is created by correspondents 
+ all over the globe who email their stories to the editors in 
+ Los Angeles, California and Reston, Virginia. The whole 
+ process takes places over a few days, with all the editing 
+ taking place on-line. Each issue is available on-line within 
+ minutes of completion through a variety of information 
+ services on the Internet.
+ 
+ o	A professor at the University of Southern Louisiana offered 
+ to teach a class on Internet use through email on the 
+ Internet. 15,000 people applied to take the class! This is 
+ distance-learning with clout!!
+ 
+ o	A blind student of Shakespeare asked on the net, where 
+ can I get on-line copies of the plays, itUs the only convenient 
+ way for me to read them. He uses a text-to-speech and 
+ text-to-Braille device. He got back many pointers to on-line 
+ archives around the world.
+ 
+ o	When President Clinton and Vice President Gore were visit-
+ ing Silicon Graphics in CaliforniaUs Silicon Valley, the audio 
+ and video of the speeches were  packetized and multicast
+ on the Internet to hundreds of participating sites. This is an 
+ example of the nascent potential in combining all forms of 
+ communication in computer-mediated form.
+ 
+ o	Internet Talk Radio recently made the front page of the New 
+ York Times - it is another example of the convergence of 
+ digital computer communications and mass media.
+ 
+ o	When I needed information about the Spratley Islands, I 
+ just turned to the CIA World Fact Book made available on 
+ the  Internet by the University of Minnesota.
+ 
+ o	A technical problem arose with an application running on 
+ an Apple Macintosh. The user sent an email message to 
+ several distribution lists and news groups and got back 
+ helpful responses, some in minutes, from France, Germany, 
+ Italy, Australia, India, Singapore, Canada, England, 
+ Norway, United States, Finland, ... well, you get the idea. 
+ Cyberspace has common interest groups that transcend 
+ national boundaries.
+ 
+ o	The city of Wellington, New Zealand, has a computer on the 
+ Internet. It has placed there a wide range of information of 
+ interest to potential visitors and tourists, local residents, 
+ and Internet explorers. There is strong historical evidence 
+ that the rich personal interactions that take place on the 
+ Internet contribute to a marked increase in face-to-face 
+ meetings requiring travel, so the local government is to be 
+ commended for its foresight.
+ 
+ 
+ IMPORTANT THINGS THE US GOVERNMENT CAN DO
+ 
+ Offered below is a representative set of comments and sugges-
+ tions received over the course of a few days from the Internet 
+ community. Because of its source, it has an obvious Internet 
+ bias to it, but despite that, I think these ideas are worthy of 
+ serious consideration.
+ 
+ 1. Invest in the development of pre-competitive software and 
+ technology which is made available to industry for competitive 
+ productizing. Historically, universities have developed sample 
+ implementations of new Internet software which is then used 
+ as the basis for product and service development in industry. 
+ Occasionally, industry will sponsor development of freely 
+ available software which can be readily distributed throughout 
+ the network, creating a kind of mini-infrastructure on which 
+ more elaborate, for-profit products and services may be based. 
+ In both cases, new businesses are often created to service the 
+ market created. 
+ 
+ 2. Foster and facilitate the development of technical informa-
+ tion standards through cooperative efforts among industry, 
+ academia and government. The procedures of the Internet 
+ Engineering Task Force are a model for expeditious and 
+ effective development because the standards must be im-
+ plemented by multiple parties and shown to interoperate be-
+ fore they are eligible for standardization.
+ 
+ 3. Revisit COCOM and US-specific policy on the application, 
+ use, and export of the RSA and DES cryptographic technology. 
+ Present policies inhibit the creation of particular aspects of 
+ global information infrastructure and, in some cases, US 
+ companies are placed at a severe disadvantage relative to 
+ competitors. These technologies are key elements [no pun 
+ intended] in solving problems of intellectual property protec-
+ tion and management and  electronic commerce in an on-line 
+ environment.
+ 
+ 4. Adopt the TCP/IP protocols as coequal with the OSI proto-
+ cols in the US GOSIP specifications (which describe the profile 
+ of protocols that are recommended for use in Government pro-
+ curements). The TCP/IP protocols are already in wide-spread 
+ use within the government, so this change would merely 
+ acknowledge reality.
+ 
+ 5. Move aggressively to support library access to Internet ser-
+ vices, with particular attention to rural community access.
+ 
+ 6. Institute training programs to educate the nationUs sec-
+ ondary school teachers and support staff on the use of com-
+ puter and communication technology in the classroom. 
+ Subsidize access where this is necessary. Involve state educa-
+ tional infrastructure in this effort. Review highly successful 
+ state-level programs as input to national policy development.
+ 
+ 7. Stimulate the development of quality software for use in 
+ curricula at all levels. Consider programs to develop pre-pro-
+ duction software and make it available at no charge, leveraging 
+ the creativity of national laboratories, universities and individ-
+ uals. 
+ 
+ 8. Mandate public, on-line availability of government-produced 
+ or sponsored information and allow the private sector to add 
+ value and resell it. For example, the White House is providing 
+ on-line access to unclassified executive orders and text of 
+ speeches by senior administration officials within hours  (and 
+ sometimes minutes) of their release.
+ 
+ 9. Foster programs to explore and experiment with the use of 
+ information infrastructure to support telecommuting. Not only 
+ as an energy-saving, pollution-reducing step, but a major tool 
+ for implementing the Americans with Disabilities Act provi-
+ sions. It was noted that home-employment and suburban 
+ satellite offices illustrate that electronic communication infras-
+ tructure is approaching the importance of the more concrete 
+ (pun intended) traffic highways.
+ 
+ 10. Make use of the Internet to harvest information from its 
+ tens of thousands of public databases as an adjunct to intelli-
+ gence gathering and analysis by various agencies of the federal 
+ government. Make available government unclassified 
+ information and analysis via the Internet as a contribution to 
+ the community (e.g. CIA World Fact Book).
+ 
+ 11. Get all branches of the government on electronic mail and 
+ support the ability to exchange email with the public.
+ 
+ 12. Encourage the deployment of ISDN services. 
+ 
+ 13 Foster the development of shared scientific databases  and 
+ collaboration tools which can be used to enhance the utility of 
+ research results and provide access to raw as well as analyzed 
+ data to support corroborating research. 
+ 
+ 14. Make use of the Internet to build bridges among the 
+ scientific, research, academic and educational communities.
+ 
+ 15. Link the museums of the world on the Internet.
+ 
+ 16. Avoid the unintentional creation of a gap between 
+ information rich and poor. The concern here is that private 
+ sector entrepreneurship may conflict with freedom of access to 
+ public information. Note that the potential gap problem applies 
+ equally as well to individuals and to large and small cor-
+ porations!
+ 
+  17. Position national policy so that the government need not 
+ subsidize network service providers. Rather, subsidize users, 
+ where this is appropriate. By this means, remove most of the 
+ Appropriate Use Policy dilemmas from consideration at the 
+ network level. It is not technically possible today, using exist-
+ ing capabilities, to distinguish different classes of traffic at the 
+ network level. [There were a few people who thought the gov-
+ ernment should build the National Information Infrastructure 
+ but the vast majority who commented on this preferred private 
+ sector service provision, albeit under government policies 
+ which assure ubiquity of service, full interconnection of all 
+ service providers and reasonable costs].
+ 
+ 18. Find a way to make advertising permissible and useful in 
+ the National Information Infrastructure.
+ 
+ 
+________________________________________________________________________
+
+
+Subject: Letter to Congress/RSA + DES
+Date: Tue, 13 Apr 93 20:26:01 -0400
+Sender: cprince
+From: "Vinton G. Cerf" <vcerf@CNRI.Reston.VA.US>
+Message-Id:  <9304132026.aa01197@IETF.CNRI.Reston.VA.US>
+
+
+
+Dr. Vinton G. Cerf
+3614 Camelot Drive
+Annandale, VA 22003-1302
+
+11 April 1993
+The Honorable Timothy Valentine
+Committee on Science, Space and Technology
+Subcommittee on Technology, Environment and Aviation
+House of Representatives
+Rayburn House Office Building
+
+Dear Chairman Valentine:
+
+I recently had the honor of testifying before the 
+Subcommittee on Technology, Environment and Aviation 
+during which time Representative Rohrabacher (R, 
+California) made the request that I prepare 
+correspondence to the committee concerning the 
+present US policy on the export of hardware and 
+software implementing the Data Encryption Standard 
+(DES) and the RSA Public Key encryption algorithm 
+(RSA).
+
+As you know, the DES was developed by the National 
+Institute for Standards and Technology (NIST) in the 
+mid-1970s, based on technology developed by 
+Internatonal Business Machines (IBM). The details of 
+the algorithm were made widely available to the 
+public and considerable opportunity for public 
+comment on the technology was offered. In the same 
+general time period, two researchers at Stanford 
+University (Martin Hellman and Whitfield Diffie) 
+published a paper describing the possible existence 
+of mathematical functions which, unlike the 
+symmetric DES algorithm, could act in a special, 
+pairwise fashion to support encryption and 
+decryption. These so-called "public key algorithms" 
+had the unusual property that one function would 
+encrypt and the other decrypt -- differing from the 
+symmetric DES in which a single function performs 
+both operations. The public key system uses a pair 
+of keys, one held private and the other made public. 
+DES uses one key which is kept secret by all parties 
+using it.
+
+Three researchers at MIT (Rivest, Shamir and 
+Adelman) discovered an algorithm which met Hellman 
+and Diffie's criteria. This algorithm is now called 
+"RSA" in reference to its inventors. The RSA 
+technology was patented by Stanford and MIT and a 
+company, Public Key Partners (PKP), created to 
+manage licensing of the RSA technology. A company 
+called RSA Data Security, Inc., was also formed, 
+which licensed the technology from PKP and markets 
+products to the public based on the technology.
+
+The current policy of the United States places DES 
+and RSA technology under export control. Because 
+cryptography falls into the category of munitions, 
+it is controlled not only by the Commerce Department 
+but also by the State Department under the terms of 
+the International Traffic in Arms regulations. 
+Despite the public development of both of these 
+technologies and their documented availability 
+outside the United States over the last 15 years, US 
+policy has been uniformly restrictive concerning 
+export licensing. 
+
+As the United States and the rest of the world enter 
+more fully into the Information Age in which digital 
+communications plays a critical role in the global 
+infrastructure, the "digital signature" capability 
+of public key cryptography is a critical necessity 
+for validating business transactions and for 
+identifying ownership of intellectual property 
+expressed in digital electronic forms.
+
+Registration and transfer of intellectual property 
+rights in works which can be represented in digital 
+form will be cenral factors in the national and 
+global information infrastructure. A number of 
+parties are exploring technical means for carrying 
+out rights registration and transfer, making use of 
+public key cryptography as a basic tool. 
+
+In addition, there is a great deal of current work 
+on electronic mail systems which support privacy by 
+means of encryption and support authenticity by 
+means of digital signatures. One of these systems, 
+developed in the Internet environment I mentioned in 
+my testimony, is called Privacy-enhanced Mail (PEM) 
+and makes use of DES, RSA and some other special 
+"hash" functions which are integral to the 
+production of digital signatures.
+
+For these various systems to be compatible on an 
+international basis, it would be very helpful for 
+the cryptographic components to be exportable on a 
+world-wide basis. A number of vendors make produces 
+relying on these technologies within the United 
+States but often find it very difficult to engage in 
+international commerce owing to the export licensing 
+required for these technologies. Ironically, the 
+technology appears to be widely available outside 
+the US and also outside the COCOM countries, so US 
+firms face both competition outside the US and 
+export inhibitions in their attempts to develop 
+worldwide markets.
+
+There are  many valid national security reasons for 
+limiting the export of cryptographic capabilities, 
+since these technologies may aid an opponent in time 
+of war or other conflict. Perhaps just as important, 
+US intelligence gathering capability can be eroded 
+by the availability of high grade cryptography on a 
+worldwide basis. Recently, it has also been alleged 
+that the world-wide availability of cryptography 
+would also seriously impede US drug enforcement and 
+anti-crime efforts. While these reasons seem 
+sufficient, many have pointed out that the 
+widespread accessibility to the detailed 
+specifications of DES and RSA and availability and 
+existence of software and hardware outside the US 
+have long since done whatever damage is going to be 
+done in respect of warfighting, crime or drug 
+potential. This line of reasoning leads to the 
+conclusion that our policies only inhibit legitimate 
+commerce, but have little impact on the other 
+concerns expressed.
+
+As in all such controversy, there is often some 
+truth on both sides. The National Institutes of 
+Standards and Technology (NIST), has offered 
+alternative digital signature capability. Technical 
+assessments of the alternative have turned up 
+weaknesses, in the opinions of some experts. There 
+is not yet an alternative to DES, unless it is to be 
+found in NSA's Commercial Crypto Evaluation Program 
+(CCEP) in which NSA proposes to provide algorithms 
+which are implemented in hardware by industry and 
+made available for civilian use. As I understand 
+this program, NSA does not intend to release any 
+details of the algorithms, leaving open questions 
+about the nature and strength of the technology. 
+Some experts will persist in the belief that such 
+offerings have weaknesses which are deliberately 
+built in and hidden (so-called "Trojan Horses") 
+which will allow the agency to "break" any messages 
+protected by this means.
+
+The critics complained loudly that the reasoning 
+behind the design of certain parts of the DES 
+algorithm (specifically the "S-boxes") was never 
+made public and therefore that the algorithm was 
+suspect. In fact, the DES has proven to be very 
+strong - indeed, it may be that very fact which 
+makes it so unpalatable in some quarters to permit 
+its unrestricted export. It may be that the CCEP 
+technology offered is satisfactory, but this is hard 
+to tell without knowing more about its provenance. 
+
+Presuming the wide availability of both DES and RSA 
+technology, it seems to me appropriate and timely to 
+re-examine US export control policy regarding these 
+two algorithms. In all probability, any such review 
+will require some classified testimony which will 
+have to be heard in confidence by cleared members of 
+your committee. I sincerely hope that the outcome 
+will be favorable to use by US industry in 
+international commerce, but even if the outcome 
+results in continuation of present policy, it is 
+timely to make such a review, in my opinion.
+
+Sincerely,
+
+
+Vinton G. Cerf
+
+
+
+
+
+
+
+
+________________________________________________________________________
+________________________________________________________________________
+
+The SURFPUNK Technical Journal is a dangerous multinational hacker zine
+originating near BARRNET in the fashionable western arm of the northern
+California matrix.  Quantum Californians appear in one of two states,
+spin surf or spin punk.  Undetected, we are both, or might be neither.
+________________________________________________________________________
+
+Send postings to <surfpunk@osc.versant.com>, subscription requests 
+to <surfpunk-request@osc.versant.com>.  MIME encouraged.  
+Xanalogical archive access soon.  Call the Helpdesk at 404-894-7173.
+________________________________________________________________________
+________________________________________________________________________
+
+
+
+
+
+
+	atdt 8942195
+	CONNECT 2400
+	
+	Checking authorization, Please wait...
+	Welcome to Georgia Tech's TCP Service.
+	
+	This network system is for the use of authorized users only.
+	Individuals using this network system without authority, or in
+	excess of their authority, are subject to having all of their
+	activities on this system monitored and recorded by system
+	personnel.
+	
+	In the course of monitoring individuals improperly using this
+	system, or during system maintenance, the activities of authorized
+	users may also be monitored.
+	
+	Usage of this network implies the user's consent to such monitoring,
+	The user hereby is advised that if such monitoring reveals possible
+	evidence of criminal activity, system personnel may provide the
+	evidence of the monitored activity to law enforcement officials.
+	
+	To get a menu type Help or ?
+	If you have any difficulty call the Helpdesk at 894-7173.
+	
+	

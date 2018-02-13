@@ -1,0 +1,55 @@
+							file ()4 out of ()6
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+[]	uNDERGR()UND tECHN()LOGIES  mAGAZINE			    []
+[]		volume 1, issue 1		jULY 1994			    []
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]]
+
+
+[start]
+10 'Mobile Identification Number (MIN) Generator for Cell PhonePhreaking
+20  'Outlaw Telecommandos 4-FEB-89	updated: 1994 to UK version [oPTICAL]
+30
+BH$ = "0000000100100011010001010110011110001001101010111100110111101111"
+40 DEF FNB$ (U) = MID$(BH$, 4 * U + 1, 4)
+100 'main routine
+105 CLS
+110 PRINT : LINE INPUT "phone number ####-###-###:", PN$
+115 IF PN$ = "" THEN STOP
+120 CLS : PRINT : PRINT "MoBiLe iDeNtIfIcAtIoN nUmBeR (MIN) "
+125 CLS : PRINT : PRINT "uK version MIN dECODER "
+130 PRINT : PRINT "PHONE = "; PN$
+135 A$ = LEFT$(PN$, 3)
+140 B$ = MID$(PN$, 5, 3)
+145 C$ = MID$(PN$, 9, 1)
+150 D$ = RIGHT$(PN$, 3)
+155 U$ = A$: GOSUB 300: MIN2$ = BN$
+160 U$ = B$: GOSUB 300: MIN1$ = BN$ + FNB$((VAL(C$)))
+165 U$ = D$: GOSUB 300: MIN1$ = MIN1$ + BN$
+170 PRINT
+175 PRINT "MIN1 = "; MIN1$
+180 PRINT "MIN2 = "; MIN2$
+185 PRINT "MIN  = "; MIN1$ + MIN2$
+190 GOTO 110
+199 STOP
+300 'convert 3-digit decimal to 10-digit binary
+305 UU = 0
+310 FOR K = 1 TO 3
+315 U = (VAL(MID$(U$, K, 1)) + 9) MOD 10
+320 UU = UU * 10 + U
+325 NEXT K
+330 H$ = RIGHT$("000" + HEX$(UU), 3)
+335 BN$ = ""
+340 FOR K = 1 TO LEN(H$)
+345 BN$ = BN$ + FNB$(VAL("&H" + MID$(H$, K, 1)))
+350 NEXT K
+355 BN$ = RIGHT$(BN$, 10)
+360 RETURN
+365 
+999 END
+[end of program]    	[in case you didn't notice, this program is written in basic]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+
+
+
+
+

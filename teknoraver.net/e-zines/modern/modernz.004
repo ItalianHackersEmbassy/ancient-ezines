@@ -1,0 +1,845 @@
+ 
+ 
+       A Beginner's Guide To Unix 
+       -------------------------- 
+ 
+The information contained in this file 
+is by no means new or original. I was 
+simply asked to compile some basic 
+commands and concepts for the access 
+and use of Unix systems. I would like 
+to give credit to the many other files 
+which I have gained this information 
+from, and to the people who have helped 
+me learn what I know today. 
+ 
+I will not cover any detailed or 
+complicated features of Unix. I am 
+merely going to provide the means to 
+access low-security systems and 
+navigate the shell. 
+ 
+Access: 
+------- 
+ 
+All Unix systems are provided with 
+default accounts. They are used for 
+system administration and such. Many 
+system operators are too lazy or naive 
+to remove them. You may find the 
+following accounts on a system, with no 
+passwords: 
+ 
+daemon 
+uucp 
+bin 
+adm 
+sysadm 
+admin 
+sysadmin 
+nuucp 
+sync 
+ 
+Others may have been added, such as: 
+ 
+user 
+guest 
+demo 
+test 
+public 
+help 
+field 
+system 
+operator 
+ 
+You can also try common first or last 
+names (john,fred,smith,etc...). Be sure 
+to use lowercase for the login name. If 
+you enter a capital letter as the first character, the system will assume that 
+you terminal is incapable of displaying 
+lowercase. From then on, in order to 
+enter capital letters you must precede 
+each by a "\". This can become quite 
+annoying, and you will probably never 
+see an account with a capital letter as 
+the first character. 
+ 
+Of the above defaults, the uucp or 
+nuucp accounts are often used for Unix 
+to Unix communications (uucp stands for 
+Unix to Unix CoPy). If this is the 
+case, the system will give send the 
+uucp identifier, "Shere". In this case, 
+the account is basically useless 
+unless you can call via another system 
+through the uucp command. 
+ 
+The sync account is a self-running Unix 
+management account. If present, it will 
+run a few housekeeping chores and log 
+off. The only reason I included this is 
+that many systems provide a greeting 
+message or something of the sort when 
+you log on as sync. Occasionally you 
+can obtain information which will help 
+you find an account. 
+ 
+If you cannot get in via the above 
+methods, try using "who". If present, 
+it will display a list of all accounts 
+currently online. You can try those 
+and hope they have no password. 
+ 
+If you are desperate, just hack 
+blindly. Often the login name and 
+password are the same. You can also 
+try initials (as in names...rlb,jhs, 
+etc...). 
+ 
+Once you are in: 
+---------------- 
+ 
+If you make it through the front door, 
+you do not necessarily have access to 
+the shell. Often accounts have programs 
+run automatically for specific users, 
+such as system administration programs 
+(useful), accounting programs, etc... 
+In this case, you can try to break out 
+of the program (either through a menu 
+option or a loophole). Try various 
+escape/break related control characters 
+(escape [ascii 27], ctrl-c [ascii 3], 
+etc...). 
+ 
+When you are in the shell, you will be 
+greeted by one of two prompts. Either 
+a "$", denoting basic access, or a "#", 
+denoting superuser access. If you have 
+superuser access, most of your work may 
+be done (depending on other security 
+measures that have been taken). 
+Either way, the following will help 
+you get higher access. 
+ 
+First, you'll need some basic commands 
+for moving around: 
+ 
+stty 
+   This command sets your terminal 
+   characteristics. Before you attempt 
+   anything else, you should set some 
+   important ones. First, your delete 
+   character. Many systems do not use 
+   the common ctrl-h [ascii 8]. Also, 
+   the delete on your computer may not 
+   be the standard ctrl-h. To set your 
+   delete character, type: 
+ 
+   stty erase (character) 
+ 
+   Do not use the parentheses. Spacing 
+   is important. You can replace 
+   (character) by hitting your own 
+   delete key, or typing a control key 
+   sequence. 
+ 
+   If you would like to enter something 
+   a bit more visual to reassure 
+   yourself, you can use: 
+ 
+   stty erase \^(character) 
+ 
+   To enter a control character without 
+   actually hitting control. Replace 
+   character with the desired control 
+   character. Ex: 
+ 
+   stty erase \^h 
+ 
+   Sets the erase character to ctrl-h. 
+ 
+   If you make a mistake doing this, 
+   hit return and start over 
+   (obviously if the system does not 
+   know your erase character, you 
+   cannot edit your mistakes). 
+ 
+   Once your control character is set, 
+   you will want to set your break 
+   character. This is vital for file 
+   editing, which we will cover 
+   shortly. To set the break character, 
+   type: 
+ 
+   stty intr (character) 
+ 
+   The same options as the delete 
+   character apply. 
+ 
+   To view the current setting, simply 
+   enter stty by itself. Often, the 
+   system will already be configured to 
+   your liking. Occasionally, the stty 
+   command will not display the erase 
+   or break (intr) characters, in which 
+   case you should enter them to be 
+   sure. All control characters will be 
+   displayed in the ^(character) 
+   format. 
+ 
+ls 
+   This is the list-files command. It 
+   will show the names of all non- 
+   hidden files in the current 
+   directory. The display will either 
+   be a single list or multi-column 
+   display. The command lc toggles 
+   between the two. In either case, the 
+   files will be sorted alphabetically 
+   (numbers first, followed by most 
+   punctuation symbols, then capital 
+   letters, and finally lowercase 
+   letters). 
+ 
+   ls has many options, which I will 
+   cover later. 
+ 
+pwd 
+   Displays the current directory path 
+   from the root directory (/). 
+ 
+cd 
+   Change directory. Those familiar 
+   with the MS-DOS environment will 
+   have no trouble with this command. 
+   To change directories, simply supply 
+   a path from the root directory. 
+   To go to the "lib" directory, within 
+   the "usr" directory, you would 
+   enter: 
+ 
+   cd /usr/lib 
+ 
+cat 
+   Displays a file. Often it is 
+   difficult to differentiate between 
+   text files and data files. If you 
+   wish to abort the display, type 
+   your break character. 
+ 
+   Cat requires the full pathname to 
+   access files outside the current 
+   directory, but for files within 
+   the current directory, the filename 
+   will suffice. 
+ 
+   Ex: 
+ 
+   cat /etc/passwd 
+ 
+   Will display the passwd file within 
+   the etc directory. This file is 
+   present on all systems. It is 
+   immensily useful in gaining higher 
+   access (basically, it is necessary 
+   to gain any access). 
+ 
+These commands will help you for now. 
+After setting your terminal options, 
+enter: 
+ 
+cd /etc 
+ 
+We will be doing most of our work in 
+there for the time being. You should 
+have had your buffer on long before 
+this on the system, but turn it before 
+executing the following command if you 
+haven't: 
+ 
+cat /etc/passwd 
+ 
+Often these files are quite large, so 
+after a while you may want to abort it. 
+Often what you are looking for will be 
+within the first few lines. 
+ 
+Each line of the passwd file represents 
+an individual user. There are seven 
+fields to each entry. A typical entry 
+looks like this: 
+ 
+user:x:100:100:Elmo:/usr/user:/bin/sh 
+ 
+The first field is the login ID. The 
+second is the password field. In newer 
+releases, it will contain an "x". Older 
+releases may contain the actual 
+encrypted password (a string of 
+seemingly random characters). On new 
+systems the encrypted password are 
+found in the /etc/shadow file. The 
+third field is the user ID number. 
+Fourth is the group ID number (more 
+on groups later). Fifth is merely a 
+comment about this user (often their 
+name, or in an administrative account, 
+its duties). Sixth is the home 
+directory. The system will place you 
+in your home directory when you log on. 
+The final field contains the path and 
+file names for the default shell or 
+program. If this field is empty, the 
+system defaults to /bin/sh. 
+ 
+You cannot gain a user's password via 
+this file. You may be able to obtain 
+access through a higher account, 
+however. When looking for high-level 
+accounts, you will want to examine the 
+fourth field. The lower numbers often 
+denote administrative accounts. The 
+group "root" belongs to is most likely 
+what you will want. 
+ 
+To discover more about the groups, view 
+the /etc/group file. This contains the 
+group names, the encrypted password 
+required to change into/out of this 
+group (almost always "NONE"), the group 
+ID number (to compare to the passwd 
+file), and a list of the group's 
+members. 
+ 
+You will want to scan the passwd and 
+group files to find any accounts that 
+belong to the same group as root, or 
+a group which root is in. Often root 
+will be the only member of its group, 
+so you will have to look for other 
+administrative account groups (those 
+containing such accounts as adm,admin, 
+sysadm,sysadmin and so on). 
+ 
+Once you have found these accounts, 
+you can attempt to gain their access. 
+The command: 
+ 
+su (login ID) 
+ 
+allows you to essentially "become" that 
+user. Replace (login ID), of course, 
+with the account you want to assume. 
+If the account has no password, the 
+process is automatic. Otherwise, you 
+will be prompted for a password. You 
+can try the login ID as a password, but 
+this may not work. If it does, make a 
+note of it. Otherwise, you can try 
+other methods, or go on to another 
+account. 
+ 
+Hopefully, you will find an account 
+with no password. If you have found 
+an older system, without the 
+/etc/shadow file, an empty password 
+field (::) will tell you immediately 
+which accounts do not have passwords. 
+If it is a newer system, it will 
+contain an "x" regardless of the 
+presence of the password status. 
+ 
+If you find yourself in this dilemna, 
+you may still be able to find an list 
+of those accounts without passwords. 
+ 
+If you have the superuser ("#") prompt, 
+you may be able to read the /etc/shadow 
+file. The format for this file is: 
+ 
+login ID:(encoded pw):6480:14:28 
+ 
+The first field is the same as the 
+login ID found in the /etc/passwd file. 
+Each entry in /etc/passwd should have 
+a corresponding one in /etc/shadow. The 
+second field will be blank, denoting 
+no password, or contain the 
+afformentioned "random" characters. 
+Third is a numeric code describing 
+when the password was last changed. 
+Fourth and fifth are the minimum and 
+maximum number of days between 
+mandatory password changes. Often the 
+last two fields are empty, which means 
+users are not required to change thier 
+passwords. 
+ 
+Here, again, you should look for any 
+accounts without passwords, and 
+examine the group file as mentioned. 
+ 
+Now, hopefully, you will have some 
+decent access. Many of the accounts 
+with no password are that way for a 
+reason - they do not allow shell 
+access; but that never stopped anyone. 
+ 
+If you discover an account that runs 
+a program and then logs off, or runs 
+a program which allows you to 
+interact in a boring way, you can use 
+this to your advantage. Look in the 
+seventh field of this account's passwd 
+information. It will contain the 
+path and filename of the program being 
+run. 
+ 
+At this point, security on most systems 
+is extremely low. Many system operators 
+are sure that by stopping you from 
+directly getting access, they have 
+stopped you totally. By "tricking" the 
+system, you can get access indirectly. 
+ 
+If you find a program being run, go 
+back to the account which gave you 
+shell access. Then enter the directory 
+where the program was (do not include 
+the file "/" and the filename). You 
+want to change the filename of the 
+program. To do this, type: 
+ 
+mv (filename) (backup filename) 
+ 
+To change /usr/prog to /usr/prog.b, you 
+would enter: 
+ 
+mv /usr/prog /usr/prog.b 
+ 
+Make sure you remember the filename 
+you give it. It is also a good idea 
+to keep it in the same directory. Now, 
+you have to create a dummy file to 
+replace it. We will have to use the 
+"ed" file editor to do this. MAKE SURE 
+YOU HAVE SET YOU BREAK CHARACTER. You 
+cannot use ed without having a break 
+character. To make the file, type: 
+ 
+ed (filename) 
+ 
+Where (filename) is the name of the 
+file you just renamed. Use the OLD name 
+(the one in the passwd file)! ed will 
+respond with: 
+ 
+?(filename) 
+ 
+meaning the file does not exist yet. 
+ 
+Some basic ed commands are: 
+ 
+q 
+   Quit. If you attempt to quit after 
+   making changes, ed will not quit 
+   until you hit "q" again (this is to 
+   remind you to save changes). 
+w 
+   Write file (saves all the changes 
+   you make). 
+,p 
+   Displays all lines. 
+/(string) 
+   Searches the buffer for (string), 
+   and displays that line. 
+a 
+   Add lines (starting at the current 
+   line). 
+i 
+   Insert lines at the current line. 
+d 
+   Delete the current line. 
+h 
+   Turns help on (shows verbose error 
+   messages). 
+ 
+Entering a line number will bring you 
+to that line. When editting a file 
+which already exists, ed will show you 
+the current number of bytes in the file 
+rather than "?(filename)". If you 
+attempt to write a file, and ed replies 
+with "?(filename)", you do not have 
+access to write that file. 
+ 
+Now, back to the dummy file. Type "a" 
+to add lines. Enter: 
+ 
+echo "Blah" 
+/bin/sh 
+ 
+Then, after pressing return on the 
+/bin/sh line, type your break 
+character. Write the file and quit the 
+editor. You now have your dummy program 
+set up. The command "echo" is a simple 
+print command. You can enter as many 
+as you like, or none at all. They are 
+merely to reassure you that your 
+program is running. The important part 
+of this is the "/bin/sh", which runs 
+the shell program. 
+ 
+You must now give all users access to 
+your program, so the account will be 
+able to use your newly created 
+program. Type: 
+ 
+chmod +rwx 
+ 
+This will give read, write, and execute 
+permissions to all users (more on 
+permissions some other day). 
+ 
+You should now logon again as the 
+account which uses this program. 
+If you did everything right, you should 
+now have control of the shell, 
+hopefully with superuser access ("#" 
+prompt). If you still do not have 
+superuser access, go back and try 
+something else. Be sure to do the next 
+few steps whether it works or not, to 
+insure your continued use of the 
+system. Delete your dummy program by 
+typing: 
+ 
+rm (filename) 
+ 
+Be sure to include the directory path 
+in the filename, as before. Now, 
+rename the old file back to its 
+original name (just reverse the 
+filenames in the previous rename 
+command). 
+ 
+Now everything is back to normal. If 
+you did not get access, you will have 
+to go back to your old account to set 
+the files back to normal. Make sure you 
+do this, or you may cause damage to the 
+system. This will result in higher 
+security. Also, real hackers never 
+damage systems for without cause. 
+Laziness is not an excuse. 
+ 
+If you are still without decent access, 
+you will have to consult another file. 
+I may write another soon on more ways 
+to gain access, but for now, this 
+should help enough people. From now on, 
+I will assume you have achieved 
+superuser access within an 
+administrative group. You will most 
+likely want an account of your own now. 
+Use the ed command to edit the 
+/etc/passwd file. Somewhere in the 
+mid-beginning section (within the first 
+4-12 lines), add an account using one 
+of the default account not already 
+present (from the first list, if 
+possible), or commandeer an unused (be 
+sure it is unused) default account 
+already there. 
+ 
+Set you ID number and group to those 
+of the root account (usually 0:3). 
+Set your directory wherever you like, 
+and set the shell filename to either 
+/bin/sh, or leave it blank. In the 
+password (second) field, what you 
+enter depends on the system. If it is 
+an older system where the encrypted 
+passwords are stored in the passwd 
+file, just enter whatever password you 
+like there. The system will encrypt it 
+for you when you save it. If it is the 
+newer "x" system, put an "x" there, and 
+do the following, otherwise skip this. 
+ 
+New system users will have to enter 
+the command: 
+ 
+/etc/pwconv 
+ 
+This command will recreate the 
+/etc/shadow file based on the 
+information in the passwd file. Just 
+to be sure, ed the shadow file, and 
+leave the password field blank for 
+your newly created account (use the 
+/(string) command within ed to jump 
+directly to your login ID). 
+ 
+Now, you can call back as your new 
+account. You should enter: 
+ 
+passwd 
+ 
+to create a password for your account 
+if it doesn't already have one. 
+ 
+If all has gone well, you now have an 
+account of your own. I will now give 
+a list of other commands which you can 
+play around with. 
+ 
+Unix commands: 
+-------------- 
+ 
+banner (string) 
+   This is a "fun" command, which will 
+   take (string) and expand it into 
+   block letters on your display. 
+ 
+write (user) 
+   Will send a message to another user. 
+   After entering the command, the 
+   system will wait for you to type a 
+   message and terminate it with your 
+   eof character. Change your eof 
+   character by entering: 
+ 
+   stty eof (character) 
+ 
+wall 
+   Like write, but sends to all users. 
+ 
+who 
+   Displays a list of everyone online. 
+ 
+mail (user) 
+   Send email to any user in the passwd 
+   file. To read your mail, just type 
+   mail. 
+ 
+exit 
+   Logout of the system. I should have 
+   mentioned this before, but I forgot. 
+   You can also use your eof 
+   character at the shell prompt to 
+   logout. 
+ 
+echo 
+   Prints text or variables, as shown 
+   before. 
+ 
+env 
+   Display all variables in your 
+   environment. More on shell 
+   variables soon. 
+ 
+rmdir (directory) 
+   Delete a directory. 
+ 
+mkdir (directory) 
+   Make a directory. 
+ 
+cp (original) (backup) 
+   Copy a file. 
+ 
+grep (string) (filename) 
+   Searches through (filename) until 
+   it finds (string), and then 
+   displays the entire line (string) 
+   was found on. 
+ 
+date (time & date) 
+   Alone, date displays the time and 
+   date. It can also be used to set 
+   it. 
+ 
+cal (date) 
+   Alone, cal displays a calendar of 
+   the current month. With optional 
+   month and year, it will display 
+   any year from 1 to 9999. 
+ 
+There are many more commands, but to 
+explain them all could take forever. 
+Most systems contain online help files 
+which you can access by typing either: 
+ 
+man (command) 
+ 
+or: 
+ 
+help (command) 
+ 
+For a list of commands, look in the 
+various "bin" directories. They 
+contain the actual programs. 
+ 
+Variables: 
+---------- 
+ 
+The shell allows the use of variables. 
+All variables are represented by 
+capital letters. You can create your 
+own, or view/change standard system 
+variables. Some standard variables are: 
+ 
+PATH 
+   This will show the order the shell 
+   searches in to find commands. You 
+   will most likely find a number of 
+   directories ending in "bin". An 
+   example could be: 
+ 
+   :/bin:/usr/bin:/usr/lib/bin:/etc 
+ 
+   This means that when you type a 
+   command, the system checks to 
+   directories in that order before 
+   finally giving up and reporting an 
+   error if the command is not found 
+   (All commands are files). 
+ 
+PS1 
+   This is the main shell prompt, 
+   usually "$" or "#", depending on 
+   your access. You can change this 
+   to whatever you like. 
+ 
+TERM 
+ 
+   Some systems keep track of what 
+   type of terminal you are using, for 
+   use in formatting output (usually 
+   through other programs). 
+ 
+LOGNAME 
+   The login ID you are using. 
+ 
+HOME 
+   Your home directory. 
+ 
+TZ 
+   Timezone. 
+ 
+MAIL 
+   The file your mail is sent to. 
+ 
+There are others, but they tend to vary 
+with the account. Enter the env command 
+to display the variables in use. 
+ 
+Variables you create within shell 
+programs (such as the dummy program 
+that was discussed before) retain thier 
+values for the life of the program 
+only (they do not affect the other 
+shell variables). 
+ 
+You can change a variable like this: 
+ 
+TERM=ansi 
+ 
+Whenever you want to view a variable, 
+or use it for another purpose, precede 
+it with a "$". Ex: 
+ 
+echo $LOGNAME 
+ 
+will display your login ID. 
+ 
+Misc: 
+----- 
+ 
+I seem to have run out of memory, so 
+forget it for now. Hopefully I'll write 
+so more soon... 
+ 
+		 - Midnite Raider 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Downloaded From P-80 International Information Systems 304-744-2253 12yrs+ 

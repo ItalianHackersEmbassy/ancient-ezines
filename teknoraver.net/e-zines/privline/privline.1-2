@@ -1,0 +1,1147 @@
+
+
+Volume 1, Number 2  -- private line -- a journal of inquiry into 
+the telephone system
+
+Table of Contents
+
+General Information
+
+I.  Editorial Page 	
+II. Update and Corrections
+III. Telco Payphone Basics, Part II
+IV. The Coin First Coin Line	
+V. The Dial Tone First Coin Line	
+VI. Tip, Ground and Ring Explained
+VII. California Cell Fraud Law	  	
+
+----------------------------------------------------
+
+1. General Info on private line: ISSN No. 1077-3487
+
+A. private line  is published six times a year by Tom Farley. 
+Copyright (c) 1994 It runs 24 to 28 pages. It's done in black and white. 
+
+B. Subscriptions: $24 a year for subscriber's in the U.S. $31 to 
+Canada or Mexico. $44 overseas. Mailed first class or equivalent. 
+(1)  Make checks or money orders payable in US funds to private                
+line.      
+(2)  Back issues are five dollars apiece.
+(3) A sample is four dollars.
+(4) The mailing list is not available to anyone but me.
+
+C. Mailing address: 5150 Fair Oaks Blvd. #101-348, Carmichael, CA 
+95608
+
+D. e-mail address: privateline@delphi.com
+
+E. Phone numbers: (916) 488-4231  Voice   (916) 978-0810  FAX 
+
+F. Submissions: Go for it! Anything semi-technical is strongly  
+encouraged. I don't run any personality pieces. I pay with 
+subscriptions.
+
+G. Ads: Yes, I'm taking electronic related ads. A full page is 
+$75.00, a half page $37.50 and a quarter $18.75. Subscribers get 
+free classified ads of 25 words or less.
+
+------------------------------------------------------------------
+
+The front cover illustration is of an line finder rack for a step 
+by step exchange. The photo is from a 1943 Popular Mechanics 
+Yearbook. The caption reads, "In an automatic telephone 
+exchange many sets of selectors are required, and when a call is 
+made a vacant line must be found automatically. This apparatus 
+finds one within a few seconds."
+
+----------------------------------------------------
+
+I.  EDITORIAL PAGE	
+
+Sing Ho For The Life of A Zine; On Explaining the Unexplainable; 
+Vegas Bound
+
+Welcome to the second issue of private line. I hope you enjoy it. 
+The first issue was well received and I am encouraged.  I am now 
+sending samples to magazine wholesalers. I may find a nation wide 
+distributor by the October issue.  That would lead to more 
+readers, more comments and more information. Until private line is 
+more reader driven, however, you are stuck with me. And that means 
+fundamentals.  I finish  the discussion of Telco pay phone 
+basics in this issue. The mystery of ground start is examined as 
+well as the different arrangements of tip, ground and ring.
+
+These explanations are my best attempt to make sense out of 
+seemingly nonsensical ideas. They are starting points for a 
+conversation to begin. They are not The Last Word.  I worry 
+terribly, however, about my writing. It seems that I have two poor 
+choices. I can provide a precise answer that is too complicated to 
+understand or a simple one that is too general to be accurate.   
+So, something in the middle is presented instead.  People have 
+been very forgiving. They appreciate the effort that it takes to 
+get a discussion going.   I appreciate that consideration.
+
+A local scanning  article will be featured in the next issue of 
+private line.  People always want interesting numbers to call. The 
+problem is that such numbers are often of regional interest only.  
+I  will, therefore,  describe some ways that everyone can use to 
+search for test numbers, voice mail boxes, governmental telephone 
+system numbers and so on. This article will be done with the help 
+of an Oakland hacker. It will use numbers from the 415, 510, 707 
+and 916 area codes as examples. People in the Bay Area will be 
+able to use the numbers given, but people everywhere will be able 
+to use the techniques. It will even have some worksheets to help 
+you systematically explore a prefix and an area code. 
+
+For now,  though, it's off to Def Con II in Las Vegas.  A 
+gathering of the clan is taking place in the burning hot desert. 
+It might be a hacker's Woodstock or a recreation of the last 
+scene in The Stand.  I don't know. But I'm going. I can't afford 
+the trip. But I'm going.  My car may not make it. But I'm going.  
+Next month and next month's finances will have to take care of 
+themselves.  For all the right and wrong reasons, people are now 
+going to Las Vegas. And so am I. I'll tell you what happens.
+
+Thank you, 
+
+Tom Farley
+Carmichael, California
+
+
+II.  UPDATES AND CORRECTIONS
+
+This update column will be a regular part of private line. 
+Material comes from the last year of Telephony.
+
+The local switch
+
+1. I didn't write much about central office switches in the last 
+issue.  I thought others had done a better, more complete job so I 
+spent time writing about CDO's and remotes. There are, however, 
+some new CO switches coming on line.
+
+An article in early 1994 stated that NEC was one of only two 
+vendors with a large,  ATM based central office switch that is 
+ready to be installed. Fujitsu is apparently the other vendor.  
+They did not state, however, the names of the switches. NYNEX was 
+reported in a later article to be installing Fujitsu's Fetex-150 
+broadband switch for a field trial. Broadband does means ATM. Bell 
+South is also playing with the Fetex-150. They are going 
+into North Carolina and soon to Atlanta. But Telephony doesn't 
+state whether the 150 is the switch that was referred to earlier.  
+If NEC or Fujitsu does deliver a CO then they may offer some sort 
+of coin line service. 
+
+As I understand it, ATM or asynchronous transmission is a way to 
+handle many kinds of information fairly quickly.  Video services, 
+in particular, benefit from ATM. The No. 5ESS, by comparison,  is 
+a time division switch. It handles most data files and voice 
+traffic in a faster way than ATM.  But it can't handle multi-media 
+or video as well.  Read more about ATM in the June IEEE Spectrum. 
+
+Latest upgrade to the  No. 5 , by the way, is apparently the 
+5E9(1), which went to customers in November, 1993. This now 
+provides the so-called National ISDN-2 capabilities. NYNEX 
+is now able to offer  services such as residential voice dialing 
+service and its phonesmart caller ID and call trace. Lovely.
+
+As of  April 11, 1994, 72% of NYNEX lines were served by digital 
+switches. Half of the remaining lines will eventually be served by 
+5ESS's or NT S/DMS SuperNode switches.  The company expects its 
+network to be 100% digital by 1998. 18% of its lines, therefore, 
+are still served by electronic or analog switches. That's fairly 
+large considering that NYNEX, the Darth Vader of the baby bells, 
+is so well financed. You can tell by this that smaller markets 
+will have a far higher percentage of older equipment.
+
+2. The Remote Switching System
+
+Current practice calls a digital remote switch a module. These 
+correspond to the CO switch. For example, when you buy a central 
+office switch you get a module to go along with it if you need a 
+remote. An example would be the No. 5A Remote Switching Module to 
+go along with the  No. 5ESS.   Remote switching modules are also 
+known as RSMs.  Siemens Stromberg Carlson also makes a module for 
+its central office EWSD switch. This switch and its attendant 
+remotes have been installed recently in Puerto Rico. An 
+independent Telco named Alltel  has also bought an EWSD switch and 
+one remote unit to serve rural Eclectic, Alabama. It might be 
+interesting to call Eclectic sometime to hear the new switch in 
+town, possibly the only one of its kind in America. 
+
+ I referred to Northern Telecom's DMS-10 as a remote switch and a 
+collection of components. Not exactly. The Digital Matrix Switch-
+10 is primarily a switch for rural use.  Any components that go 
+with it can be thought of as accessories and not a part of the 
+switch itself. I mentioned several times that a low volume of 
+calls makes rural service expensive, along with the higher costs 
+of building and maintaining the local loop. This low volume 
+works against upgrading since revenue is low.  A way around the 
+problem is by offering a switch like the DMS-10. It may  generate 
+greater revenue in rural areas by providing services that step by 
+step offices can not. Things such as call forwarding and call 
+waiting. Still, are there that many people that need call waiting 
+in Gabbs, Nevada? 
+
+The term Community Dial Office is falling out of favor.  CDO's  
+refer to older equipment rather than an operating method. Remotes 
+and modules, though, are still dependent on a larger switch. Even 
+basic terms are being redefined. Pac Bell doesn't refer to central 
+offices anymore. They are, instead, a dial tone producing end 
+office.
+
+3. The subscriber loop network 
+
+How expensive rural service can be  is demonstrated by a  US West 
+(the old Mountain Bell) field trial.  35 miles from Jackson, 
+Wyoming are 40 customers who live near the town of Bondurant. They 
+are now being supplied phone service by satellite. Subscriber 
+lines terminate at two small satellite earth stations which then 
+connects the customer to US West's switching center in Jackson. 
+U.S. West wants to  see if this is less expensive than installing 
+fiber or cable out to these homes,  many of which have party line 
+service  or no service at all. Now, that's expensive. 
+
+4. Coin deposit tones
+
+I doubted last issue that operators listened to tones anymore. I 
+speculated that the CO probably listens for the tones instead and 
+sends the amount on a data circuit to the TSPS console. Such 
+nonsense. An  attendee of the last San Francisco 2600 meeting 
+gently pointed out the obvious fact that a voice channel exists 
+when you are talking with the operator. Of course. Yes, the amount 
+of money does totalize on the console but you are talking with the 
+operator at the same time. If they hear a bogus tone then they'll 
+do something about it. I don't know what I was thinking of when I 
+wrote that.
+
+5. The GTE RTSS phone 
+
+ This phone interfaced with many other pieces of equipment. 
+Somewhere in Kansas wrote in the Summer issue of 2600 that KG and 
+KY prefixed machines were discussed in a Scientific American 
+article with photos a few years ago.  I looked in Carl, Uncover, 
+Inspec and Current Contents for it. Nothing. I then looked on the 
+shelves. The last index S.A. published was in 1978. Nothing. The 
+article probably lies, therefore,  between 1979 and  about 1988. 
+I'll keep looking. AT&T Technology, however, does have an article 
+on STU III. This article came out in 1989 in volume four. The page 
+numbers are 36 to 40. STU III is apparently a crypto product that 
+AT&T makes which can interface with the GTE RTSS. The magazine 
+was missing when I went to check it out. And so it goes.
+
+6. Interesting numbers
+
+The ANAC for parts of 415 has been submitted as 760-7760 and 760-
+7761. This agrees with the old ANAC list floating about the 
+Internet. 924--0036 may be a loop disconnect number for 415. In 
+916, 440-1212 gets you a second dial tone. If you dial additional 
+numbers you may get a long distance operator who doesn't identify 
+her company when she comes on the line. 484-0001 is a strange one. 
+No connection is made. I don't think this is a quiet termination 
+test number. I usually hear a connection and then silence with 
+those. This one never makes a connection. Some Pac Bell numbers to 
+modem into in the 916 are 481-0022 and 484-0022. Possibly 481-
+0078. The third issue of private line will be about local 
+scanning. There will be many, many more numbers.
+
+
+III.  TELCO PAYPHONE BASICS, PART 2
+
+The Subscriber Loop Network
+
+7. We looked at the subscriber loop network briefly in the June 
+issue. As you may recall, the network is made up of all those 
+elements which constitute the local loop. This includes 
+the twisted pairs that run to each phone, the local switch, 
+overhead cable, amplifiers, multiplexers and so on. In other 
+words, all the elements of switching and transmission. Let's look 
+at what I think is the most confusing part of the subscriber loop.
+
+Circuits and the subscriber loop
+
+8.  We know that a circuit is a connection with the central 
+office. It carries a call. A circuit exists through the twisted 
+pair or in a channel within a wire to the central office. A 
+circuit can also be a connection between offices, between 
+equipment or within the equipment itself.  These circuits may or 
+may not carry a conversation. The word circuit is also used to 
+describe a particular way that the local loop is arranged. I know 
+this sounds confusing. Let's look at three examples of circuits in 
+the subscriber loop. 
+
+The ringdown circuit
+
+9. For this example we must turn away from pay phones momentarily 
+to consider a semi-public phone. Some supermarkets in Sacramento 
+have taxi phones installed near their front entrances. Lifting the 
+handset rings the dispatcher at Yellow Cab  a few miles away. It  
+keeps ringing until it is answered. This is a ringdown circuit. It 
+is possible that Yellow Cab ran its own wire years ago from each 
+market to their headquarters. But not likely. They would then  
+need to power the line, rent space on  utility poles for the wires 
+and maintain the system.  That doesn't make sense. What does  
+makes sense is having the Telco engineer a solution. This means a 
+relay or circuit board at the central office for the supermarket. 
+The twisted pairs providing cab service are routed by the relay to the 
+headquarters' number. The Telco can probably program a switch to do 
+the same thing today without any hardware. 
+
+10. I've heard that some remote places use ringdown circuits. Like 
+isolated ranches. Perhaps. That means, however,  that an operator 
+would be signaled whenever someone wanted to make a call. Party line 
+service would be more likely. Party line service is not the same as 
+ringdown. There is no dial with ringdown. An emergency phone on the 
+street might use a ringdown circuit. It may even use a dedicated line that 
+goes directly to a dispatcher. An elevator phone is another example. It 
+also rings until it is answered.
+
+The field exchange circuit
+
+11. The field exchange circuit or foreign exchange circuit is 
+often used by businesses. It provides a local phone number for distant 
+customers. Let's say I'm a landscape contractor in Davis, California. 
+Half my work comes from Sacramento which is twenty five miles 
+away. My Davis number has a 752 prefix. My Sacramento number, 
+though, starts with a 371. That's an exchange in West Sacramento 
+which is the closest office to the Davis CO. The 371 a free call for most 
+Sacramento residents.   A local call for long distance. I doubt that Telcos 
+use these for pay phones. (1)
+
+Dial long line circuits
+
+12. A dial long line circuit or DLL is  often used by pay phones. 
+It enables a coin phone to be placed further from the central office than it 
+might otherwise be.  Most phones are located within three miles or so of 
+the CO or its connecting point. That's about the distance that pay 
+phoneproduced signals start to fade.  Picking them up beyond that point 
+is difficult for the central office. It's a matter of resistance. The 
+resistance of the twisted pair increases with length. At about 2.8 miles 
+the telephone circuit builds to around 1300 ohms.  That's  acceptable. 
+This figure includes the resistance of the phone, the central office 
+equipment and the twisted pair itself. A coin phone at the six or seven 
+mile mark might have to signal through as  much as 3500 ohms of 
+resistance. Amperage  falls from about 23 miliamperes to 14 
+milliampsor less. All signals from the payphone become weak. A 
+dial long line for coin service has special equipment which steps up or 
+amplifies these weak  signals. It then sends them to the switching 
+equipment at the central office. This is called repeated signaling. (2) 
+This central office solution  may be a cheaper than installing heavier 
+gauge cable or multiplexing equipment to reach distant customers. 
+
+Signaling
+
+13. The telephone system uses many kinds of signals. Direct 
+current signals, acoustical tones and digital signals are all employed. All 
+three kinds may be used to complete or conduct a call. This variety 
+makes signaling hard to understand. The central office controls Telco 
+pay phones with DC signals.  Acoustical tones address a call, signal 
+the coins deposited and perform a number of network functions. Digital 
+signals are indispensable for long distance working. Let's look at DC 
+signals first.
+
+DC signaling in the local loop
+
+14. The simplest form of DC signaling is performed when you take the 
+handset off the switch hook. It's called the off hook signal or the off 
+hook condition or more often just off hook. Lifting the handset causes 
+the switch hook buttons to rise. These cause  contacts in the phone to 
+close the circuit with the telephone line. They are normally open. This 
+simple act is a signal. It is electrically based. It tells the CO that a phone 
+has gone off hook and that a dial tone should be returned. Another 
+example is the operator attached signal. It disables a pay phone's key 
+pad by changing the polarity of the coin line from a negative charge to a 
+positive  one. 
+
+15.  A rotary dial also produces DC signals. Some refer to this 
+process as loop disconnect signaling. A rotary dial disconnects and 
+reconnects the current in the telephone line as it speeds in a circle. Five 
+interruptions means the number five. But why use  DC signals to begin 
+with? Why not control a pay phone with tones? Why not digital signals? 
+DC signals are used for many reasons:
+
+	(a) They're simple. Manipulating a coin line's electrical 
+status seems complicated. But it's easy to do. DC signaling depends on 
+relays to do the work. These are simple, bulletproof mechanisms that 
+work reliably for years;
+
+	(b) They're quick. Electricity travels near the speed of 
+light in a circuit without resistance. It's not that fast in the local loop. 
+But it's quick enough. An electrical signal at 60% of that speed is 
+traveling at over 100,000 miles per second. Most pay phones lie within 
+three miles or so of a central office or its connecting point. DC signals, 
+therefore, act almost instantaneously;
+
+	(c) They're cheap. DC signals don't require expensive 
+equipment. Tone signaling requires finely tuned oscillators to send tones 
+and complex circuits to decode them; 
+
+	(d) They're resistant to fraud. This is a side benefit of DC 
+signaling. It's more difficult to manipulate wires and to generate 
+different voltages than it is to produce tones. Never-the-less, such 
+manipulation is possible. The direct current initial rate signal is 
+simulated by punching a pay phone.  Black boxing was an early activity 
+in which physical control of the line was. (3)Direct current signals are 
+treated further later on in this issue.
+
+Tones in general
+
+16.  DC signals are used unless there is a good reason not to. Or if it is 
+impractical. Keypads are an example of the former reason. The simple 
+and sturdy method of rotary dialing was replaced by  the complicated 
+and expensive method of using touch tones.  (4) Touch tones are 
+produced and processed faster than rotary dial pulses. Switching 
+equipment is tied up for less time. Milliseconds are vital to the telephone 
+system because of the hundreds of millions of calls a day. They travel 
+more efficiently over microwave links and they make end to end 
+signaling easier. (5) So, touch tones are replacing DC signaling for 
+addressing a call.  
+
+17. Tones are also used where DC signals are impractical. DC signals 
+are not very loud by themselves. They might exist as a click for a 
+second or perhaps a soft hum. None would make, for example, a good 
+dial tone. A pleasant, clearly audible signal is needed. The dial tone, the 
+busy signal and ringback (the central office produced sound that 
+represents a ringing phone) are examples of network call progress 
+tones.  These are the common everyday tones that signify the current 
+status of the call. Feedback, in other words, for the calling party. 
+
+18. Similarly, an audible coin deposit tone is needed to represent a coin 
+when a call is in progress. A DC signal might interfere with the call 
+itself since it affects the electrical status of the line. A digital signal 
+requires a modem inside the phone.  Telcos don't favor that approach. A 
+deposit tone or a redbox tone is still a good approach even though it 
+interrupts conversation. Let's look briefly at some other  signals.
+
+Multi-frequency or MF tones
+
+19. I covered coin deposit tones in detail last issue. There are also some 
+specifics about them later in this issue. ACTS and operators control 
+other parts of coin operation through MF tones. Older offices that don't 
+receive digital signals for coin control use these. Again, the central 
+office controls the payphone with DC signals. The central office is 
+controlled in turn by ACTS or an operator. They use acoustical tones or 
+digital signals to do this. 
+
+20. Tones by themselves don't do very much. A dial tone or a busy  
+signal is rather passive. Tones that actually control equipment are 
+different. (6)  They are part of a coordinated signaling method or 
+system. You can guess that such signaling systems predated digital 
+working. That's why many analog offices such as step by step and 
+crossbar still use them. MF tones  provide automatic number 
+identification or ANI for long distance calls from some of these offices. 
+ANI is essential for billing. It accompanies a call. ANI is put into a 
+digital form at the first properly equipped toll office. Never-the-less, 
+ANI exists in an acoustical form until that time. Creative use of MF may 
+disrupt or alter ANI. In addition,  telephone companies use MF tones 
+extensively for internal use.  An operator, for example, may address a 
+call to another operator using these tones. Access to inward operators, 
+therefore, is another possibility with home grown MF.
+
+21.  Most MF tones in current use are founded on an international 
+agreement called C5. Tones are called codes. Code six stands for 
+the number six, code seven for the number seven and so on. Numbers  
+are represented by different frequencies than DTMF. Three special 
+control tones are used for different functions.  MF signaling  depends 
+on special receivers just like DTMF signals. MF, though, works 
+differently than DTMF.  Touch tones are sent at a pace that varies from 
+person to person.  MF tones are often sent in bursts by a machine. 10 
+tones may be sent in a little more than a second. DTMF signaling is 
+straightforward. MF, on the other hand, depends on a strict protocol.  
+The KP or key pulse code is sent first. It tells the decoder that tones will 
+follow. The ST or start code indicates that all digits have been sent. This 
+shuts the  decoder off.  The basic tones are shown on page 29.  The 
+chart on this page shows how  the same frequencies are used for pay 
+phone control once a call is in progress. Actual working of C5 is 
+beyond the scope of this introduction.(7) If there is enough interest, 
+however, I could devote an entire issue to multifrequency tones. A 
+good understanding of MF seems essential to traveling the world by 
+telephone.
+
+Digital signals
+
+22. Digital signals help the Telco route a call, trace a call and identify a 
+pay phone's location. Among other things. These signals are not 
+directly accessible to hackers like MF tones. That's because  digital 
+signals are produced at the switch and not at the pay phone. Access to 
+the switch itself is needed before any modification can begin.(8) In 
+addition, digital signals are put on a different channel than the voice path 
+on which most hacker signaling takes place. Simply blasting modem 
+tones down the line won't to do any good. It is this inaccessibility that 
+makes digital signals so frustrating.
+
+Trunks, Circuits and Links
+
+23. A trunk is a communication channel between switching offices or 
+between equipment at a switching office. It may be a single wire but 
+only rarely. It is most often a channel within a wire or cable. A trunk is 
+distinguished from a line which carries traffic between a customer and 
+an office. Trunks tie offices and equipment together. A subscriber line 
+and a trunk are both transmission lines. The phrase trunk line is correct 
+but redundant. It is always thought of as a trunk first. A line is always 
+thought of as carrying traffic to a local switch. A trunk always passes 
+traffic 
+
+24. A trunk may use different signals than a line. Most DC signals 
+can't be used in trunks, for example, because you can't vary the 
+voltage of a particular channel within a trunk. The same current 
+powers all of the channels within the cable. Think of a cable TV 
+line. It may carry fifty channels of programming but you can't 
+vary the voltage on channel 21 and not affect channel 22. The 
+cable has to carry about 60 volts to power the entire line. 
+Different kinds of signals, therefore,  may be used between 
+offices than the kinds used between a coin phone its end office. 
+
+25. A trunk forms a circuit. But not all circuits are trunks. A 
+trunk usually carries conversations. A circuit usually doesn't.  
+For example, a no test trunk is used to tell whether a line is 
+busy. It's what the operator uses to break into your call when 
+there is an emergency.(9) It may use a circuit or relay to work 
+but it has always been considered a trunk. By comparison, the 
+Automatic Number Announcement Circuit or ANAC  is a circuit 
+between switching equipment at the central office. But that 
+doesn't make it a trunk. It tells you the phone number you are 
+calling from. It does not carry, though, any real voice traffic.  
+I wrote about other circuits later. The field exchange circuit 
+would appear to be a trunk since it connects two switching 
+offices. Perhaps. I think it is best described as a hybrid. It has 
+always been called a circuit but it has all the attributes of a 
+trunk. You'll find people using the word trunk less and less these 
+days. 
+
+26.  A link has several meanings. A data link is fairly self-
+descriptive. It can be simple. A private, leased line might carry  
+company data from a field office to headquarters. It might 
+be complicated. Most of the telephone network uses data links to 
+carry control signals  and routing information for calls which run 
+on trunks. On the other hand, a link is also  a collection of 
+circuits. The first push-button long distance operator console 
+used a complex of four circuits. They were known collectively as a 
+position link. You'll also hear about A-links, B-links, off links 
+and so on. They are a collection of circuits. Connections by radio 
+to a switch are also called links. As in a microwave link. 
+
+Common channel signaling
+
+27.  A system that utilizes links, data circuits and trunks 
+together is called common channel signaling. CCS is poorly named. 
+Signaling and conversations are not placed on a common channel. 
+Putting the call on one path and the signals that control the call 
+on another is a part of C6 and C7, the signaling system currently 
+handles most calls. 
+
+28. C5 controls trunks with tones. These tones are different than 
+MF but the principle is the same: controlling equipment from a 
+distance with the right signal. C5 carries control codes and 
+conversations together. This was standard practice until the 
+digital age. C5 requires a tone decoder for each trunk. An analog 
+office with 100 trunks needs 100 decoders. They are not cheap. C6 
+and C7 doesn't need tones to control trunks. Most common channel 
+signaling uses something like a Signal Transfer Point or STPs 
+instead. These are routing computers distributed about the 
+network. STPs direct each call to a toll office. Hundreds and 
+hundreds of multiplexed calls are individually managed through 
+these computers. 
+
+29. Routing and other features are enabled by the digitally 
+encoded markers that are put on each call. Among other things, 
+these headers identify the origin of a call and its destination. 
+Data bases can be  queried automatically while a call is placed. 
+An operator knows that you are calling from a Telco payphone as 
+soon as you are connected to them. They may even know that you are 
+using an airport pay phone. Automated coin toll service or ACTS, 
+the automated operator you get with a 1+call, is also made 
+possible by accessing these line information data bases or LIBDs. 
+(10) 
+
+30. MF controlled trunks still exist for a great deal of operator 
+traffic and perhaps to as many as  twenty five per cent of America's 
+central offices. (11)  Many still use single frequency tones like 2600. 
+Such a tone might gain control of the trunk or seize it. Remember, 
+though, you are seizing a particular channel in a cable, not the entire 
+cable.  A sweep generator at one end may be one way to test for a MF 
+trunk from a pay phone.(12) These system 5 trunks have to interface 
+with system 6 and 7 at some point for long distance calling.  Don't think 
+that remote signaling is impossible because your area has gone digital 
+in the form of 6 and 7. Yes, your call to Ryde, California may be 
+split up when sent from your area but both voice and control signals 
+must reunited on one path when getting to the analog office. As long as 
+you have a voice path to an old crossbar or step by step you may 
+be in luck. Here is an example of how convoluted this can be. 
+
+31. Most common channel signaling methods give you a local busy 
+signal if a distant phone is busy. Let's say that you dial Gabbs, Nevada.  
+CCS races ahead to see if the line is busy before a voice connection is 
+set up. If it is busy then the data link is brought down and your 
+CO is told to generate a busy signal for you to hear. No need  to 
+provide a 600 mile path for you to hear a busy signal. The old Bell 
+System method was called CCIS or common channel interoffice 
+signaling. It used 2400 baud modems to pass information back and 
+forth. Specialized modems still send the routing information back and 
+forth. Let's say, though, that the central office in Gabbs isn't equipped 
+to handle system 6 or 7. Like much of the rural west. What then?
+
+32. It's my understanding that the nearest properly equipped toll 
+office would stand as the interface point. A pay phone call from  Gabbs 
+to Sacramento might go something like this: the pay phone would 
+communicate with the central office using DC signals, the CO might 
+communicate with the toll office by tones and the toll office would 
+communicate with the network by digital signals. The STP might send 
+the voice path from the toll office to Reno and then Sacramento. Or 
+maybe to Bakersfield and then back to Sacramento. Depends on the 
+traffic on the net. The STP might be in Fresno. Still, a home 
+brewed tone should be faithfully reproduced over the network to the 
+tone sensitive area you are investigating. To do whatever it may.
+
+References
+
+1. Might  it be possible for the skillful hacker to use such a 
+circuit? An older central office that still uses tone signaling for trunks 
+might provide a stepping stone for the telephone enthusiast. A call 
+placed here might attract  less attention than an 800 number. I invite 
+comments and speculation.
+
+2. Schillo, Robert F. "A Circuit That Stretches Coin Telephone 
+Service' "Bell Laboratories Record." 51:4 (April 1973) 123
+
+3. Billsf mentions black boxes in "True Colors" 2600, The Hacker 
+Quarterly. 10:3 (Autumn 1993) 11. Black boxing seems impossible 
+today but I am open to hearing about how it could done.  Still, what 
+would be gained if you were successful? A local call? Physical control 
+of a Telco pay phone is either complicated or impossible. They are 
+usually in public view and subject to surveillance by the Telco. It seems 
+that an ordinary subscriber line would be a better choice for reinventing. 
+I have read, though, of people using pay phone lines to carry their local 
+calls by wiring in part of a cordless phone. You would need to be fairly 
+close and willing to be dropped out whenever someone made a call. . .
+
+4. Touch Tones and DTMF stand for the same thing. They are both 
+dual tone multi-frequency signals. The phrase TOUCH TONES was a 
+trademark of the Bell System. They did pioneering work on tone 
+signaling through Bell Laboratories. Do not confuse them with MF 
+tones. Multi-frequency tones are also dual tones but they are mostly 
+used for internal Telco use.
+ 
+5. Fike, John L. and George E Friend. "Understanding Telephone 
+Electronics." 2d ed. Carmel, SAMS 1990
+
+6. Most tables describe tones in a confusing way. The dial tone, 
+for example, is a combination of 350 Hz and 440 Hz. Charts state it like 
+this: 350 + 440.  You might think that the resultant tone is 790 Hz. Not 
+so. Common sense tells us that two low tones put together will not 
+produce a higher tone. Yet every table I've seen makes it look like an 
+addition problem. I use the ampersand symbol instead. 350 "&" 440. 
+Two tones combined. This is not a minor, pedantic point. It goes to the  
+definition of what a tone is. A single tone is represented by a single sine 
+wave. Two sine waves put together produce a complex sine 
+wave. What then is the frequency? The baffling answer is that it  
+isn't any particular frequency. That's why tables use two tones to 
+describe MF or DTMF signals.  I find electroacoustics difficult. What  if 
+you combine two radio frequencies together? Couldn't  you get a 
+frequency counter to tell you the result? Why can't that be done with 
+audio tones?
+
+7. Billsf "hitchhikers guide to the phone system" 2600 The Hacker 
+Quarterly 9:2 (Summer 1992) 10. Everything written by Billsf is 
+fascinating. This article is about international signaling. It emphasizes 
+MF tones. see also Billsf "True Colors" 2600 The Hacker Quarterly 
+10:3 (Autumn 1993) 9.  More information on the actual working of 
+MF signals. NB: All 2600 back issues are for sale. See any copy of 
+2600 for details. Or, call their office at (516) 751-2600. Fax line (516) 
+474-2677.
+
+8. In "A Guide to The 5ESS" 2600, The Hacker Quarterly, Crisp 
+G.RA.S.P details the inner workings of a digital switch and describes 
+ways to program it. It is a very impressive and advanced article. I 
+understand little of it. Those with a good command of UNIX will fare 
+better.
+
+9. This procedure is called a busy line verification or BLV in the 
+trade. A skillful hacker may drop into conversations as well by using the 
+right tones. Read more about BLVs in Agent Steal's classic article 
+"Central Office Operations" in the Winter, 1990 issue of 2600. It's also 
+available through the Legion of Doom's Technical Journal gopher. 
+
+10. The trend is to store more and more information in these data 
+bases. This can enable a company maintaining the data base to provide 
+additional services  but it can also lead to more fights among the 
+different Telcos and private carriers over who should get that 
+information and who should pay for it. A completely digital network 
+might be operating in our lifetime but you can bet that it won't be 
+flawlessly implemented because of turf wars.  500 companies provide 
+long distance service according to the FCC report referenced 
+below; competition is a zoo. Local competition when implemented 
+will be like letting open the gates of the zoo. Even with call trace a  
+hacker should be able to get some breathing room by going through as 
+many companies as possible when placing  a call.
+
+11. "Semiannual Report on  Telephone Trends in Telephone Service,"  
+May, 1994. Industry Analysis Division, Federal Communications 
+Commission. Available on the Pac Bell gopher and I think Bell South's. 
+The gophers take out the 34 interesting tables. For them you have to 
+modem to the FCC itself, which maintains the world's worst 
+bulletin board at  (202) 632-1361. Good luck . . .
+
+12. Such as, perhaps, the one available through the Edlie 
+Electronics ('Always Something New') catalog for around seventy 
+dollars? The "pocket size" sweep generator perhaps? Model 125B? 
+Write for a catalog: 2700  Hempstead Turnpike, Levitown, L.I. NY 
+11756-1143. I'm sure your Telco will love you for it.
+
+ IV THE DIAL TONE FIRST COIN LINE
+
+33. I've made many references to the dial tone first coin line in this two 
+part series.  I think I have explained it enough by comparison and 
+contrast. Dial tone first is the operating method for at least 90% of the 
+coin telephones in the United States.  One thing I haven't done yet is to 
+explain some of the terms on the dial tone first table. 
+
+34.  TSPS stands for Traffic Service Position System. It is a grotesque 
+phrase the Bell System coined to describe their operator service. Before 
+1965 most operators worked at manual switchboards. A long distance 
+board might be called a toll board. The Bell System a push button 
+console in 1965 that eliminated the cords and jacks and automated some  
+parts of coin telephone service. It was quite an accomplishment. They 
+called the new console  a traffic service position. That made a little sense 
+because you could argue that an operator did indeed work at a position. 
+Years later the Bell System improved the console but not the name. It 
+was now a system or TSPS. I understand that Northern Telecom or 
+Northern Electric makes a similar product called TOPS for our Canadian 
+friends. These operators must then work at a traffic operator position 
+system? I understand that US West has their own kind of automated 
+console for their operators. In any case, all of these consoles have 
+dozens and  of buttons and lights to control calls. A display tells them 
+how much money you should deposit for a certain call and then they can 
+watch it ring up or totalize on another display. 
+
+35.  Wink or multi wink is an important part of computer signaling 
+as well as a method used in the telephone industry. Carefully timed 
+pauses turn a signal in a channel off and on. You can tell by the table 
+that coin phones may be first signaled with this method. It works great 
+for optic fiber trunks since no tones or voltage are required to operate it. 
+It is sort of like flashing the switch hook except that each wink must be 
+the same. And I doubt you can access this since it is triggered at the 
+TSPS position. That may be hundreds of miles from the central office.
+
+
+V. THE COIN FIRST COIN LINE
+
+An introduction
+
+36.  I wrote in the first issue that coin first pay phones was the 
+standard operating method from the 1920's. Do any remain?  I consider 
+coin first a defunct operating system, as dead as panel switching. 
+Deploying 911 throughout the country would be hindered by coin first.  
+There are some interesting details to coin first but I won't  describe 
+many because I think it's obsolete.
+
+37.  Coin first phones required a deposit before they would operate, 
+although not necessarily a dime. I remember flashing the switch hook 
+after putting in a nickel. That got you a few Pacific Bell numbers. The 
+grace period was also nice. If you dialed a wrong number you could 
+quickly hang up and the pay phone returned your dime. This 
+disappeared in the 916 after dial tone first was introduced. That may 
+have been related, however, to the installation of newer switches and 
+not to a special feature of coin first.
+
+38. There were some problems. The worst was that you needed a coin 
+to call an operator in an emergency. There was no 911 in the early to 
+mid 1970's. Call boxes existed but there was no centralized emergency 
+service. The operator called the right agency when you dialed 0 for help. 
+I remember worrying as a kid about always having change with me. 
+Otherwise, you might find yourself in real trouble and really alone. 
+Another problem was that you  couldn't tell if a pay phone was out of 
+order until it took your money. No soothing dial tone to confirm 
+operation. They were dead as a rock without a dime.
+
+39.  Some contend that coin first was more susceptible to fraud 
+than dial tone first. I'm not so sure. Blue boxing occurred during the era 
+of coin first. But  coin first did not give rise to blue boxing. Instead, 
+single frequency coin deposit tones, non armored handset cable and 
+less sophisticated totalizers all contributed to make coin first pay phones 
+more susceptible than the current models. Coin first operation is not 
+inherently suspect, even if the implementing hardware at the time was. 
+Single frequency trunks were not a part of coin 
+first but instead were accessed by them. 
+
+Ground Start
+
+40.  Memories aside, however, coin first did contribute something 
+that's used to this day by every dial tone first Telco pay phone. It's 
+called ground start.  Ground start did two things with coin first.  It 
+signaled that 1) the pay phone was off hook and 2) that a coin had been 
+deposited.  Dial tone first, by comparison, only uses ground start 
+to signal an off hook.  Coin first assumes a coin has been deposited 
+since the  phone won't operate without one. Dial tone first provides a 
+dial tone to begin with. It needs a related signal called the initial rate test
+to indicate that a coin has been put in. Let's look at the mysterious 
+sounding ground start.
+
+41.  We usually think of grounding as a way to keep people and 
+equipment safe from electrical shock. The issue of grounding for safety, 
+however, is a different matter than using grounding to get a telephone 
+connection going. Consider what happens when  a normal or a post pay 
+coin phone goes off hook. Removing the handset causes the switch 
+hook buttons to rise. This closes the tip and ring contacts in the 
+phone set. They are normally open.  Current flows into the loop from 
+the central office. The phone starts consuming power like any other 
+electrical appliance. Voltage drops from 48 volts DC to, say, 10  volts 
+DC. This current flow is detected by a line relay at the CO. It signals 
+other equipment to return a dial tone when  a strong enough voltage 
+drop is detected.  This is loop start. It's named after the twisted pair that 
+forms a loop connection with the CO. 
+
+42.  Ground start works differently.  With coin first, a relay in the 
+phone grounded the ring wire when a coin was deposited.  Current then 
+flowed to the pay phone over the tip wire and into the ground. A dial 
+tone followed shortly thereafter. A little later the ground was removed. 
+This might not make sense at first. We think of electricity as flowing in 
+a loop.  We associate circuits with circles. Yet here we have a 
+connection in the local loop in a straight line. No return wire to the CO. 
+But this is the way that telegraphs worked for decades. A conversation 
+can certainly work over one wire. The  ground provides the complete 
+path that defines an electrical circuit.  Electricity flows to a good ground  
+as easily as water flows downhill. The local loop uses two wires to 
+provides a better sounding call. Not necessarily to provide a complete 
+electrical circuit. A loop is more efficient as far as conducting electricity 
+but you can talk on one wire if you can tolerate some noise. Certainly 
+it is enough to get a connection. But why use this technique for pay 
+phones? 
+
+43. Fike and Friend say that "ground start lines are used on loops 
+connecting PBX's to the central office, and in other situations (pay 
+phones) where it is desirable to detect a line that has been selected for 
+use (seizure of the line) instantaneously from either side of the line."(1) 
+Unfortunately, they do not say why it is desirable to so seize a line. 
+
+44. I think that coin first used ground start for speed. (NOTE: I'M 
+INCORRECT ON THIS POINT -- SEE THE THIRD ISSUE) It's 
+about getting a dial tone as quickly as possible. That's why it is still 
+used. Ground start ties up equipment less than loop start. I wrote in the 
+first issue that the Bell System chose pre pay operation instead of post 
+pay because of the time it saved its operators. This decision can be 
+traced back to 1906.(2) The simpler post pay was discarded in favor of 
+coin first because an operator had to wait for a customer  to coins.  With 
+coin first an initial deposit was already placed by the time an operator 
+handled the call. Switching equipment can also be held up.  The Bell 
+System still worried about this 60 years later when they decided to go to 
+dial tone first nationwide. Dial tone first would return them to the kind 
+of delays that they feared at the turn of the century. Here's a cry of woe 
+from the Record in 1969: 
+
+"Making modifications to existing equipment is not the only problem. 
+Some additional equipment must also be provided in the central office to 
+convert to dial tone first operation. For example, holding time of 
+crossbar registers and subscriber senders can increase up to 60 percent 
+for each completed coin call with the new service. This is due to the time 
+taken by customers to deposit coins after the register or sender is 
+attached and furnishing dial tone. Moreover, some calls -- those without 
+the correct initial deposit -- will not be completed and will have to be 
+redialed. Registers and senders must therefore be added to compensate 
+for the increased holding time as the office is converted. Similarly, coin 
+calls handled by ESS offices are subject to a 5 to 15 percent increase 
+in processing time. This increase plus longer equipment holding time 
+will result in a decrease in call handling capacity and require more coin 
+control circuits." (3)
+
+45. Boo hoo. It's obvious  that holding time was the most important 
+thing to the Bell System. Ground start would continue to be used with 
+DTF since it  is the fastest way to set up a connection. Why is it faster? 
+It uses fewer steps. The central office does not have to power the entire 
+loop immediately to provide a dial tone. Let's say the CO is five miles 
+from a pay phone. Five miles of tip wire and five miles of ring wire. 
+Same 48 volts DC under a pressure of perhaps a hundred milliamps. 
+Pay phone goes off hook. CO supplies power on one wire. Current 
+runs to ground. Dial tone right behind it. No waiting for the rest of the 
+loop to power up. But it can't be that much quicker.  It does helps with 
+part of the problem. Not much can be done, though,  about someone 
+fumbling for a coin.  Or a telephone company drumming its fingers. 
+
+46.  Switches like the 5ESS return a dial tone before we can put 
+the handset to our ear. Ground start, though, was developed in the era 
+of crossbar, panel and step by step. It might have made a difference 
+then. COCOTS certainly aren't bothered with a wait for a dial tone. 
+But these milliseconds and microseconds are of concern to the Telco 
+since they are the local provider of phone service. Several thousand pay 
+phones in a large city could add up to the that the Bell article described.  
+A Telco pay phone now requires a good  ground to properly function. 
+Many signals have been developed which utilize grounding. I explain 
+these on page 39. 
+
+References
+
+1. Fike, John L. and George E. Friend. "Understanding Telephone 
+Electronics." 2d ed. Carmel, SAMS. 1990 191
+
+2. Fagen, M.D., ed. "A History of Engineering and Science in The 
+Bell System: The Early Years, 1875 -- 1925." New York: Bell 
+Telephone Laboratories, 1975. 156
+
+3. Ruppel, A.E. and G. Spiro 'No Dime Needed' "Bell Laboratories 
+Record"  October, 1969 293
+
+VI. TIP, GROUND AND RING EXPLAINED
+
+47. The central office controls Telco pay phones by direct current 
+signals. I discussed why in the basic signaling article. We now look at 
+how DC signals are produced, some terminology about them and a short 
+description of each one.
+
+48.  Changing the electrical status of the telephone line produces 
+DC signals. This is done by manipulating the ends, or leads, of the tip 
+and ring wires. That, in turn, is done by relays. These simple, remotely 
+controlled switches are located in the central office and in the pay 
+phone. A coin phone relay can fit on a circuit board. Central office 
+relays are much larger. They may be mounted in racks. 
+
+49. Relays work by  opening, closing or grounding the tip or ring 
+wire to produce a signal. Opening a circuit breaks the connection. 
+Closing a wire completes it. Grounding a wire shorts it out. Grounding 
+one wire, however, doesn't necessarily short out the entire circuit with 
+the central office. Current and conversations can still flow over the 
+remaining wire.
+
+50. Depending on the signal needed, tip or ring may be opened, 
+closed or grounded at either the central office or at the pay phone. There 
+are nine ways to manipulate tip, ground and ring. Just a few are used 
+for signaling. But we'll look at all of them for comparison. Here's the 
+list:
+
+     1. Tip open and ring open. 
+     2. Tip open and ring closed.
+     3. Tip open and ring grounded.
+     4. Tip closed and ring open.
+     5. Tip closed and ring closed.
+     6. Tip closed and ring grounded.
+     7. Tip grounded and ring open.
+     8. Tip grounded and ring closed.
+     9. Tip grounded and ring grounded.
+
+1.) Tip open and ring open. On hook. The circuit is open because the 
+handset is on the switch hook. This tells the central office that a 
+particular phone isn't being used.
+
+2.) Tip open and ring closed. -48V DC. Coin first idle. The normal 
+polarity of the now defunct coin first line. 
+
+3.) Tip open and ring ground. A dead line or an open circuit. No 
+current flows. Not used for coin line signaling. Automatic testing 
+equipment may remove the coin line from service. (1)
+
+4.) Tip closed and ring open. This common DC signal has many  
+variations: 
+
+     (a) The initial rate test signal. -48V DC. An important part 
+of dial tone first operation. Tells the CO that a coin has been put in. 
+Depositing a valid coin trips two pay phone relays. One adds a thousand 
+ohms of resistance to the circuit with the central office. The other 
+grounds the circuit itself.(2) Thus, a coin deposit is represented 
+by a grounded circuit with, supposedly, a certain amount of 
+resistance.(3) The CO, possibly tone, opens the ring lead on its own 
+end. Detecting the coin ground over the tip wire causes a central office 
+relay to close the ring side again. The initial rate signal, therefore, is the 
+action of opening the ring wire to detect the ground. I do not 
+know why it is necessary to disconnect the ring side and not the tip.  
+
+     (b) The stuck coin test signal. +48V DC. Positive current is applied 
+if a coin relay ground persists. That was described above. If successful, 
+the coin will fall into the coin box, resetting the relay and thus removing 
+the ground. The line returns to normal. Automatic equipment may take 
+the line out of service if the ground persists.
+
+     (c) The coin return signal. -130V DC. The coin relay directs 
+coins to the coin return hopper. Why 130 volts? Later crossbar switches 
+used this voltage. Bell Labs may have used it for coin line signaling 
+since many central offices could produce it.
+ 
+     (d) The coin collect signal. +130V DC. The coin relay senses 
+the change from negative to positive current. This directs coins to the 
+coin box. Why doesn't the stuck coin test signal use the same higher 
+voltage? They both use positive current. I don't know. This is difficult  
+to reconcile since the same relay, I think, is being used in both cases. 
+
+5.) Tip closed and ring closed. Off hook. Normal operation and dial 
+tone.
+
+6.) Tip closed and ring grounded. Reverse battery. -48V DC. Prompted 
+by the called party going off hook. The first issue discussed reverse 
+battery in detail. This signal may trip a pay phone relay which shorts out 
+the DTMF key pad.
+ 
+7.) Tip ground and ring open. A dead line. No path for electricity to 
+flow.
+
+8.) Tip ground and ring closed. Current flows on the ring side but 
+the tip side is shorted out. There are a number of variations:
+
+     (a) Post pay idle? -48V DC. Normal polarity of the post pay line, 
+according to Reeve, before a call is connected. I'm not sure anymore. 
+Few post pay phones should utilize a grounded circuit. 
+
+     (b) Dial tone first idle. -48V DC. Normal condition of the 
+line until a valid coin is deposited or a free call is placed. 
+
+     (c) The operator attached signal. +48 V DC. ACTS or the 
+operator applies positive voltage to the line. This puts the pay phone into 
+the toll mode. Coin deposits are then totaled automatically by ACTS or 
+they show up on the operator's console.
+
+     (d) The operator released signal in dial tone first. -48 V DC.  ACTS 
+or the operator removes positive voltage from the line; restores normal 
+negative voltage after a call. Pay phone goes back to local mode and the 
+totalizer resets itself to zero.
+    
+     (e) +48V DC. The key pad inhibit signal. A coin first signal, similar 
+to the operator attached signal. Disables key pad, perhaps, and resets the 
+pay phone totalizer.
+
+9.) Tip grounded and ring grounded. Dead line.
+
+References . . . .
+
+(1)  Martin, John T. "Chilton's Guide to Telephone Installation 
+and Repair." Radnor. Chilton Book Company. 1985 140
+
+(2) Detailed in Reeve, Whitman D. "Subscriber Loop Signaling and  
+Transmission Handbook: Analog." New York: Institute of Electrical and 
+Electronics Engineers. IEEE Press. 1992 221 
+
+(3)  Why such a complicated process? Preventing fraud, perhaps? 
+Adding resistance to the initial rate signal may prevent someone from 
+merely grounding the circuit to get a dial tone. Yet, there are many 
+stories of punching pay phones with a pin or nail to simulate the initial 
+rate test.* NYNEX, in fact, claims millions in damage from  
+punching.** That's why so many transmitters are now sealed. We may 
+conclude then that 1) grounding alone works, despite the resistance 
+that's theoretically required or 2) that the human body itself provides 
+the needed resistance, when the punch is held.
+ 
+* Micro Surgeon/West Coast Phreaks. "Punching Payphones". 2600, 
+The Hacker Quarterly. 6:3 (Autumn, 1989) 37
+
+** Zorpette, Glenn. "New pay phones hit the street". IEEE Spectrum 
+May, 1990. 30
+
+NB: This issue contains three informative tone tables. Send me a 
+#10 S.A.S.E if you would a like a copy of them.
+
+--------------------
+VI. CALIFORNIA CELL FRAUD LAW: PENAL CODE SECTION 
+502.8
+
+We looked at California Penal Code Section 502.7 in the June 
+issue. It covers conventional toll fraud and theft of phone service by 
+credit card fraud. Cell fraud occupies its own code section. This law 
+imposes much higher fines than Section 502.7.  Here is the complete 
+text of the bill along with my comments. 
+
+"Section 502.8 Use,  possession or manufacture of telecommunication 
+devices with intent to avoid payment; punishment
+
+(a) Any person who uses a telecommunications device is guilty of a 
+misdemeanor."
+
+The penalty for avoiding a charge by using a telecommunication device. 
+That device is broadly defined by subsection (f) below. Cell phones are 
+included. It might also include a wireless radio system (SMR or 
+equivalent) or possibly a personal communicator. A misdemeanor 
+means that you serve less than a year in county jail. This subsection is  
+for the first offense. 
+
+"(b) Any person found guilty of violating subdivision (a), who has 
+previously been convicted of the same offense, shall be guilty of a 
+felony, punishable by imprisonment in state prison, a fine of fifty 
+thousand dollars ($50,000), or both." 
+
+For those twice convicted of  violating Section 502.8. State prison.  
+And fifty thousand dollars! You'll be  broke already from legal fees. But 
+talk to a lawyer. Your  wages might be attached after serving a term, 
+forcing you to flee to someplace remote and primitive. Like Arkansas?
+
+"(c) Any person who possesses a telecommunications device with 
+intent to sell or offer to sell to another, intending to avoid the payment of 
+any lawful charge for service to the device, is guilty of a misdemeanor 
+punishable by one year in a county jail or imprisonment in state prison 
+or a fine of up to ten thousand dollars ($10,000), or both."
+
+The fine for selling said communication device. Targets the individual.  
+Oddly, there is no specific ban on selling plans for such a beast.  Talk to 
+a lawyer, though, before going into the publishing business in 
+California. 
+
+"(d) Any person who possesses 10 or more telecommunications 
+devices with intent to sell or offer to sell to another, intending to avoid 
+payment of any lawful charge for service to the device, is guilty of a 
+felony, punishable by imprisonment in state prison or a fine of up to  
+fifty  thousand  dollars ($50,000), or both."
+
+Targets the dealer. Having 10 sets off the dogs.
+
+"(e)  Any person who manufactures 10 or more telecommunications 
+devices and intends to sell or offer to sell to another, intending to avoid 
+payment of any lawful charge for service to the device, is guilty of a 
+felony, punishable by imprisonment in state prison or a fine of up to 
+fifty  thousand  dollars ($50,000), or both."
+
+Targets the manufacturer.  For comparison, let's consider some 
+other crimes. Your attack dog, Dial Tone, savages a mailman. You get a 
+jail term, perhaps, just like the hacker. But your fine is only a thousand 
+dollars. (C.P.C. Section 399.5) Or, you molest a child. Another 
+thousand dollar fine. (C.P.C. Section 647.6) Abandon your kids? 
+Sure, it's just a couple thousand. (C.P.C. 270). So,  Joe Hacker rides 
+the bus for years after his prison term while Lester the Molester  drives 
+his Cadillac to the school yard.
+
+"(f) For purposes of this section a telecommunications device is any 
+type of instrument, device, machine or equipment that is designed for or 
+capable of transmitting or receiving wireless communications within the 
+radio spectrum allocated to cellular radio telephony."
+
+Defines a telecommunications device. Bans transmitters and receivers. 
+Ridiculous on its face, except to Mr. DA Man. Makes scanners and even 
+frequency counters illegal. And although the police won't be conducting 
+raids to round up scanners, they could seize them as contraband if so 
+inclined. There is no reasonable expectation of privacy over the air, 
+anyway. Or on a land line. Cordless phone calls are fair game. Cell calls 
+aren't. 
+
+This whole section was muscled in by the cellular industry. Instead of 
+making it more difficult to listen, the industry chose to make receivers 
+illegal. But it is legal to listen to Air Force 1, embassy traffic or the 
+Secret Service if you can find the right frequencies.  Motorola and 
+others  produce  many kinds of secure systems for the military and the 
+police. Such technology, however, would raise the price of a cell phone 
+above consumer acceptance. Or so they thought.  I see that they are now 
+pitching the more expensive digital cell phones, in part,  for greater 
+privacy.
+
+The larger issue is about profits and the control of technology. A  
+possible fine of fifty thousand dollars is a terrible  threat. An imposed 
+fine of that amount is a merciless punishment. Monetary penalties for 
+violent crimes are ridiculously low and penalties for hacking are 
+extraordinarily high. I can be fined $10,000 for selling a pirated phone. 
+But if I molest a kid then my fine cannot exceed a thousand dollars. 
+Punishment should fit the crime. It doesn't.
+
+Tom Farley ---  privateline@delphi.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

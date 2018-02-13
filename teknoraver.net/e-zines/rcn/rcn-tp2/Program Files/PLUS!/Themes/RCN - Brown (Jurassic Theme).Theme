@@ -1,0 +1,134 @@
+;------- ------  -----   ----   ------ --------  -- ---   -
+; RCN Theme Pack Vol. 2  -  RCN Brown Theme (Jurassic) 
+;------- ------  -----   ----   ------ --------  -- ---   -
+;
+;       er  zd$$$$L       zee$$                            
+;       $$$$$P" .$$     $$$$$$$  .$b.    .ed$$             
+;          'R$  z$$L    $$"   $$.  "$$b z$$$$P"            
+;           A$e$$$$$$  $$%    3$F   ^$$$$P"4$$             
+;           V$$P   $$  $$         .  $$$$b  $$             
+;           A$F    $$  $$        J$P $$F"$$b$$             
+;           N$F . J$P  $$.      d$$  4$L  "$$$             
+;           J$$$$$$$   '$$c  .e$$P   4$$                   
+;        .$$$P"  d$F   .^*$$$$$*     J$$$$$                
+;        ^*"    4$$.ee$$$          .$$$P"                  
+;               *$$$$$*"           '$"                     
+;
+;                 w w w . r c n . o r g                    
+;
+;------- ------  -----   ----   ------ --------  -- ---   -
+;  CREDIT - [Sun]         WallPaper
+;
+;------- ------  -----   ----   ------ --------  -- ---   -
+
+
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%ThemeDir%rcn-brwn\icons\MyCpu.ico
+[CLSID\{208D2C60-3AEA-1069-A2D7-08002B30309D}\DefaultIcon]
+DefaultValue=%ThemeDir%rcn-brwn\icons\network.ico
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+full=%ThemeDir%rcn-brwn\icons\Full.ico
+empty=%ThemeDir%rcn-brwn\icons\Empty.ico
+
+
+[Control Panel\Cursors]
+Arrow=%ThemeDir%rcn-brwn\cursors\Arrow.cur
+Help=%ThemeDir%rcn-brwn\cursors\Help.cur
+AppStarting=%ThemeDir%rcn-brwn\cursors\busy.cur
+Wait=%ThemeDir%rcn-brwn\cursors\wait.cur
+NWPen=%ThemeDir%rcn-brwn\cursors\Pen.cur
+No=%ThemeDir%rcn-brwn\cursors\no.cur
+SizeNS=%ThemeDir%rcn-brwn\cursors\Size NS.cur
+SizeWE=%ThemeDir%rcn-brwn\cursors\Size WE.cur
+Crosshair=%ThemeDir%rcn-brwn\cursors\Cross.cur
+IBeam=%ThemeDir%rcn-brwn\cursors\Beam.cur
+SizeNWSE=%ThemeDir%rcn-brwn\cursors\Size NESW.cur
+SizeNESW=%ThemeDir%rcn-brwn\cursors\Size NWSE.cur
+SizeAll=%ThemeDir%rcn-brwn\cursors\Move.cur
+UpArrow=%ThemeDir%rcn-brwn\cursors\up.cur
+DefaultValue=Windows default
+
+
+[Control Panel\Desktop]
+Wallpaper=%ThemeDir%rcn-brwn\wall.jpg
+Pattern=
+TileWallpaper=0
+WallpaperStyle=0
+ScreenSaveActive=1
+
+[Control Panel\Colors]
+ActiveTitle=128 128 64
+Background=0 0 0
+Hilight=128 128 0
+HilightText=255 255 255
+TitleText=255 255 255
+Window=255 255 255
+WindowText=0 0 0
+Scrollbar=192 192 192
+InactiveTitle=96 96 0
+Menu=192 192 192
+WindowFrame=0 0 0
+MenuText=0 0 0
+ActiveBorder=192 192 192
+InactiveBorder=192 192 192
+AppWorkspace=128 128 128
+ButtonFace=192 192 192
+ButtonShadow=128 128 128
+GrayText=128 128 128
+ButtonText=0 0 0
+InactiveTitleText=192 192 192
+ButtonHilight=255 255 255
+ButtonDkShadow=0 0 0
+ButtonLight=224 224 224
+InfoText=0 0 0
+InfoWindow=255 255 225
+
+
+[AppEvents\Schemes\Apps\.Default\.Default\.Current]
+DefaultValue=%ThemeDir%rcn-brwn\sounds\default.wav
+[AppEvents\Schemes\Apps\.Default\AppGPFault\.Current]
+DefaultValue=%ThemeDir%rcn-brwn\sounds\ProgErr.wav
+[AppEvents\Schemes\Apps\.Default\Maximize\.Current]
+DefaultValue=%ThemeDir%rcn-brwn\sounds\Maximize.wav
+[AppEvents\Schemes\Apps\.Default\MenuCommand\.Current]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\MenuPopup\.Current]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Minimize\.Current]
+DefaultValue=%ThemeDir%rcn-brwn\sounds\Minimize.wav
+[AppEvents\Schemes\Apps\.Default\Open\.Current]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\Close\.Current]
+DefaultValue= 
+[AppEvents\Schemes\Apps\.Default\RestoreDown\.Current]
+DefaultValue= 
+[AppEvents\Schemes\Apps\.Default\RestoreUp\.Current]
+DefaultValue= 
+[AppEvents\Schemes\Apps\.Default\RingIn\.Current]
+DefaultValue= 
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk\.Current]
+DefaultValue=%ThemeDir%rcn-brwn\sounds\asterisk.wav
+[AppEvents\Schemes\Apps\.Default\SystemDefault\.Current]
+DefaultValue=%ThemeDir%rcn-brwn\sounds\default.wav
+[AppEvents\Schemes\Apps\.Default\SystemExclamation\.Current]
+DefaultValue=%ThemeDir%rcn-brwn\sounds\Exclamation.wav
+[AppEvents\Schemes\Apps\.Default\SystemExit\.Current]
+DefaultValue=%ThemeDir%rcn-brwn\sounds\ExitWin.wav
+[AppEvents\Schemes\Apps\.Default\SystemHand\.Current]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\SystemQuestion\.Current]
+DefaultValue=%ThemeDir%rcn-brwn\sounds\Question.wav
+[AppEvents\Schemes\Apps\.Default\SystemStart\.Current]
+DefaultValue=%ThemeDir%rcn-brwn\sounds\StartWin.wav
+[AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin\.Current]
+DefaultValue=%ThemeDir%rcn-brwn\sounds\Empty.wav
+
+
+[Metrics]
+IconMetrics=76 0 0 0 94 0 0 0 94 0 0 0 1 0 0 0 246 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 77 83 32 83 97 110 115 32 83 101 114 105 102 0 111 119 115 32 83 116 97 114 116 46 87 65 86 0 97 114 116 46
+NonclientMetrics=84 1 0 0 1 0 0 0 23 0 0 0 23 0 0 0 20 0 0 0 20 0 0 0 243 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 188 2 0 0 0 0 0 0 0 0 0 0 77 83 32 83 97 110 115 32 83 101 114 105 102 0 39 115 32 68 101 102 97 117 108 116 46 84 104 101 109 101 0 0 19 0 0 0 19 0 0 0 249 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 77 83 32 83 97 110 115 32 83 101 114 105 102 0 39 115 32 68 101 102 97 117 108 116 46 84 104 101 109 101 0 0 23 0 0 0 23 0 0 0 243 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 77 83 32 83 97 110 115 32 83 101 114 105 102 0 39 115 32 68 101 102 97 117 108 116 46 84 104 101 109 101 0 0 243 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 77 83 32 83 97 110 115 32 83 101 114 105 102 0 39 115 32 68 101 102 97 117 108 116 46 84 104 101 109 101 0 0 243 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 77 83 32 83 97 110 115 32 83 101 114 105 102 0 39 115 32 68 101 102 97 117 108 116 46 84 104 101 109 101 0 0
+
+
+[MasterThemeSelector]
+MTSM = DABJDKT
+Stretch = 1

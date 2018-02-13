@@ -1,0 +1,3851 @@
+ ____                  _          ______ _      _        _  
+|  _ \                | |        |  ____| |    | |      (_) 
+| |_) | __ _ _ __ __ _| |_ __ _  | |__  | | ___| |_ _ __ _  ___ __ _  
+|  _ < / _` | '__/ _` | __/ _` | |  __| | |/ _ \ __| '__| |/ __/ _` | 
+| |_) | (_| | | | (_| | || (_| | | |____| |  __/ |_| |  | | (_| (_| | 
+|____/ \__,_|_|  \__,_|\__\__,_| |______|_|\___|\__|_|  |_|\___\__,_| 
+                                                            
+          
+                                                            
+          
+                        BARATA ELETRICA, numero 13
+                        Sao Paulo, 11 de novembro, 1996 
+                        
+--------------------------------------------------------------------------- 
+     
+                        Creditos:
+                        --------
+
+Este jornal foi escrito por Derneval R. R. da Cunha 
+(barataeletrica@thepentagon.com http://www.geocities.com/SiliconValley/5620)
+Com as devidas excecoes, toda a redacao e' minha. Esta' liberada a copia
+(obvio) em formato eletronico, mas se trechos forem usados em outras 
+publicacoes, por favor incluam de onde tiraram e quem escreveu. 
+
+DISTRIBUICAO LIBERADA PARA TODOS, desde que mantido o copyright e a gratu- 
+idade. O E-zine e' gratis e nao pode ser vendido (senao vou querer minha
+parte). 
+
+Para  contatos (mas nao para receber o e-zine) escrevam para:
+  
+barataeletrica@ThePentagon.com  <-- provavelmente minha conta definitiva
+curupira@2600.com               <-- minha mais nova conta
+rodrigde@spider.usp.br 
+wu100@fim.uni-erlangen.de
+
+Correio comum:
+
+Caixa Postal 4502
+CEP 01061-970
+Sao Paulo - SP
+BRAZIL
+
+Numeros anteriores (ate' o numero 9):
+
+    ftp://ftp.eff.org/pub/Publications/CuD/Barata_Eletrica
+    gopher://gopher.eff.org/11/Publications/CuD/Barata_Eletrica
+    http://www.eff.org/pub/Publications/CuD/Barata_Eletrica
+
+ou  ftp://etext.archive.umich.edu/pub/Zines/BerataElectrica
+    gopher://gopher.etext.org/00/Zines/BerataElectrica
+    (contem ate' o numero 8 e e' assim mesmo que se escreve, erro deles)
+
+                        ATENCAO - ATENCAO - ATENCAO
+
+                   Web Page do Fanzine Barata Eletrica:
+                http://www.geocities.com/SiliconValley/5620
+                      Contem arquivos interessantes.
+                        ATENCAO - ATENCAO - ATENCAO
+
+                                NO BRASIL:
+
+http://www.inf.ufsc.br/ufsc/cultura/barata.html
+http://www.di.ufpe.br/~wjqs
+http://www.telecom.uff.br/~buick/fim.html
+http://tubarao.lsee.fee.unicamp.br/personal/barata.html
+ftp://ftp.ufba.br/pub/barata_eletrica
+
+(Normalmente, sao os primeiros a receber o zine)
+
+MIRRORS - da Electronic Frontier Foundation onde se pode achar o BE
+/pub/Publications/CuD.
+
+  UNITED STATES:  
+etext.archive.umich.edu in /pub/CuD/Barata_Eletrica
+ftp.eff.org in /pub/Publications/CuD/Barata_Eletrica
+aql.gatech.edu in /pub/eff/cud/Barata_Eletrica
+world.std.com in /src/wuarchive/doc/EFF/Publications/CuD/Barata_Eletrica
+uceng.uc.edu in /pub/wuarchive/doc/EFF/Publications/CuD/Barata_Eletrica
+wuarchive.wustl.edu in /doc/EFF/Publications/CuD/Barata_Eletrica
+  EUROPE:
+nic.funet.fi in /pub/doc/cud/Barata_Eletrica
+                  (Finland)
+(or /mirror/ftp.eff.org/pub/Publications/CuD/Barata_Eletrica)
+ftp.warwick.ac.uk in /pub/cud/Barata_Eletrica  (United Kingdom)
+  JAPAN:
+ ftp.glocom.ac.jp in /mirror/ftp.eff.org/Publications/CuD/Barata_Eletrica
+ www.rcac.tdi.co.jp in /pub/mirror/CuD/Barata_Eletrica
+                         
+                       
+
+
+OBS: Para quem nao esta' acostumado com arquivos de extensao .gz:
+Na hora de fazer o ftp, digite binary + enter, depois digite
+o nome do arquivo sem a  extensao .gz
+Existe um descompactador no ftp.unicamp.br, oak.oakland.edu ou em 
+qualquer mirror da Simtel, no subdiretorio:
+
+/SimTel/msdos/compress/gzip124.zip to expand it before you can use it.
+Uma vez descompactado o arquivo GZIP.EXE, a sintaxe seria:
+                           "A>gzip -d arquivo.gz
+
+No  caso,  voce  teria que trazer os  arquivos  be.??.gz  para  o 
+ambiente DOS com o nome alterado para algo parecido com  be??.gz, 
+para isso funcionar.
+
+ 
+==========================================================================
+                         
+                       
+
+ULTIMO RECURSO, para quem nao conseguir acessar a Internet de forma direta, 
+mande carta (nao exagere, o pessoal e' gente fina, mas nao e' escravo,  nao 
+esquecam aqueles encantamentos como "please" , "por favor" e "obrigado"):
+
+fb2net@netville.com.br    hoffmeister@conex.com.br
+drren@conex.com.br        wjqs@di.ufpe.br
+aessilva@carpa.ciagri.usp.br dms@embratel.net.br
+clevers@music.pucrs.br       rgurgel@eabdf.br
+patrick@summer.com.br
+
+#########################################################################
+        ASSINATURA DO BARATA ELETRICA VIA CORREIO ELETRONICO
+ Para receber o fanzine via email, mesmo quando podendo pegar ele na rede.
+ Estou montando um esquema no qual a pessoa envia email para:
+ 
+ rato.cpd@digicron.com
+
+ com os seguintes dizeres, no corpo da carta:
+
+ assinatura BE seu-email@fulano.xxxx.xx
+
+ entendendo claro que seu email e' seu e-mail, nao a string seu-email. Isso 
+ porque  nao  vou ler a correspondencia. Qualquer coisa  alem  disso  sera' 
+ ignorada.
+ Como  mesmo  assim vou precisar de gente para me ajudar a  distribuir,  as 
+pessoas  que tiverem boa vontade tambem podem participar,  enviando   email 
+para o mesmo endereco eletronico com o subject:
+
+ ajuda BE  seu-email@fulano.xxx.xx
+
+ Provavelmente nao havera' resposta, ja' que e' um acochambramento que
+ to planejando. A cada novo numero, vou sortear os voluntarios que irao
+ receber primeiro e depois vao distribuir para os preguicosos ou distrai-
+ dos ou super-ocupados que querem receber o lance sem fazer ftp ou usar
+ WWW. Mas aviso: sera' feita a distribuicao em formato uuencodado.
+ Aprendam a usar o uudecode. E nao ha' garantia que a coisa vai funcionar.
+ A assinatura comeca a partir do numero seguinte.
+ ########################################################################
+
+CREDITOS II : 
+Sem  palavras  para  agradecer ao pessoal que se ofereceu  para  ajudar  na 
+distribuicao   do   E-zine, como os voluntarios acima citados,  e   outros, 
+como o sluz@ufba.br (Sergio do ftp.ufba.br), e o delucca do www.inf.ufsc.br
+Igualmente para todos os que me fazem o favor de ajudar a divulgar o Barata
+em todas as BBSes pelo Brasil afora.
+
+OBSERVACAO: Alguns mails colocados eu coloquei sem o username (praticamente 
+a  maioria)  por  levar  em  conta que  nem  todo  mundo  quer  passar  por 
+colaborador  do  BE. Aqueles que quiserem assumir a carta, mandem  um  mail 
+para mim e numa proxima edicao eu coloco.
+
+###########################################################################  
+
+
+
+
+                                INTRODUCAO
+                                ----------
+
+Gente,  esses  sao tempos dificeis. Qualquer hora posso ter que  comecar  a 
+enviar  meu C.V. por ai'. Uma melda. Podia ja' ter enviado o BE faz  tempo, 
+tava cheio de arquivos prontinhos. Mas tava com muitas duvidas sobre quais. 
+Um amigo de Portugal mandou um excelente, menos num aspecto. E' meio  serio 
+demais. Escrevi para ele contando meus problemas com a auto-censura e  pelo 
+menos acho que entendeu. Parece que la' em Portugal o pessoal tambem  fuca. 
+Again:  este  artigo  e' excessao a regra e nao advogo  o  uso  de  metodos 
+ilegais  para o uso da rede. Qualquer pessoa que achar que estou  colocando 
+esse  tipo de informacao p. estimular break-in, que se enforque num pe'  de 
+couve.
+     Quanto  aos virus de computador, bem. Isso ja' e' outra  historia.  To 
+tentando desenvolver um projeto benigno relativo a inteligencia  artificial 
+e  outros lances, por isso, obvio que sei uma ou duas coisas. Falar o  que? 
+Se  nao  fascinasse, nao saia na imprensa. Mas sou  contra  destruir  dados 
+alheios. Vandalismo eletronico nao. 
+      Mas o projeto de lei que esta' vindo... esse ai' vai ser uma  bomba. 
+Se preparem. Hackers, crackers e etc.. no dia seguinte que essa lei  valer, 
+talvez o BE acabe. Quase certo. Isso, se o brasileiro nao se mobilizar para 
+defender seus direitos.
+     Falando  nisso, duas otimas contribuicoes, de dois fas. Espero  que  o 
+pessoal  curta.  Quem  estiver afim de mandar as suas,  a  vontade.  Talvez 
+demore  um pouco para publicar. To tao sem tempo... Uma coisa legal e'  que 
+dois artigos meus sairam na 2600 Hacker Quaterly. Bom: agora o pessoal  la' 
+fora sabe algo sobre o que e' que esta' acontecendo no Brasil em termos  de 
+hacking.  Ate' ganhei uma conta internet la', por conta dos meus  esforcos. 
+Gratuita.  Curupira@2600.com   Eu nao ia espalhar por ai', mas  depois  que 
+eles  colocaram,  e'  besteira esconder. No proximo  numero,  acho  q.  vou 
+colocar  um  deles,  em  portugues. E' exatamente  a  historia  das  minhas 
+desventuras  em  fazer uma cena de "computer underground" aqui. Se  eu  nao 
+estivesse  com  tanto  medo  do final  de  ano,  formatura(?),  mudanca  de 
+endereco, talvez desemprego, ate' podia dizer que estou feliz.
+
+
+                INTRODUCAO
+                VIRUS DE COMPUTADOR - PESQUISA E CONSTRUCAO
+                LEI-EMAIL
+                FUTURA LEI "GRANDE IRMAO"
+                GRANDE IRMAO, DOI-CODI A VISTA!
+                O IRC!!!
+                BBS x INTERNET: DEPENDENCIA OU MORTE?
+                HACKING IN PORTUGAL - (artigo portugues, leia introducao)
+                NEWS - HUMOR - DICAS
+                BIBLIOGRAFIA
+
+-------------------------------------------------------------------------
+
+                VIRUS DE COMPUTADOR - PESQUISA E CONSTRUCAO
+                ===========================================
+
+Obs: Este artigo pretende apenas ilustrar alguns dados sobre o assunto. Sou 
+contra  a  destruicao  de  dados por quaisquer meios e  quem  quer  que  se 
+interesse pelo assunto, procure por sua propria conta. Nao me envie cartas.
+  
+     Todo  mundo ja' se perguntou alguma vez na vida? Porque sao feitos  os 
+virus  de computador? Quem faz esse programa? Como?
+     E' facil explicar o interesse. A mecanica de um virus de computador e' 
+desafiante.  Visto  de outra forma, trata-se de  um  programa  sofisticado: 
+funciona  independente de qualquer comando, copia-se  automaticamente  para 
+outros  espacos, sobrevive a defeitos varios, auto-instalavel,  funcionando 
+em  varia  versoes de sistema operacional. Claro,  existem  os  cavalos-de-
+troia,  que  sao  pouco mais que "minas" esperando  q.  alguem  as  detone, 
+algumas  vezes  sao "bombas logicas", esperando condicoes  de  ativacao  p. 
+trazer   o   apocalipse.  Realmente,  esses  programinhas   sao   altamente 
+interessantes  e  durante muito tempo ocuparam um espaco enorme  na  midia, 
+mesmo  antes  de  se  tornarem comuns para o  cidadao  comum  (acredite  se 
+quiser).  Mas  quem le o Barata Eletrica, ja' tem uma otima  introducao  ao 
+assunto, que ainda nao esta' totalmente obsoleta, ver numero 01.
+     O  motivo que leva a alguem montar tal programa, nao interessa  muito. 
+Pode  ser  para pesquisar a vida artificial, pode ser por se tratar  de  um 
+desafio (nao e' qualquer um que faz isso), curiosidade, revolta ou  vontade 
+de  sacanear  com a vida de alguem. Mas pelo que pude  constatar  na  rede, 
+existe um  grupo enorme que cultiva interesse pela mecanica interna  desses 
+bichos. Quando se e' um fucador de virus, sabe-se exatamente o que se  faz. 
+Brinca-se de Dr. Frankenstein. Cria-se vida virtual.
+     A  coisa pode comecar com um passatempo. A pessoa comeca a  colecionar 
+arquivos  ou disquetes infectados, nem sabe direito porque. Quando  tem  um 
+pouco  mais  de  curiosidade,  aprende  linguagem  assembler.  Ai'  resolve 
+"dissecar"  e tenta entender o funcionamento de um bichinho. Pode  desistir 
+de  cara  (ja'  que ha' alguns que nao sao tao faceis  de  debugar,  contem 
+rotinas  e  estrategias  p. impedir isso) ou pode avancar  para  o  proximo 
+passo.  Usar um programa como o sourcer ou outro desassemblador  (as  vezes 
+ate'  o  debug)  pra conseguir o codigo fonte. Feito isso,  passar  para  a 
+modificacao  da  forma  de funcionamento do dito. Que apesar  de  todas  as 
+inovacoes nao passa muito de um basico:
+
+- Uma rotina de copia (para garantir a proliferacao)
+-  Outra  p.  checar p. existencia de infeccao  anterior  (impedir  que  um 
+arquivo seja infectado multiplas vezes)
+-  varios mecanismos p. assegurar o funcionamento do programa em  condicoes 
+adversas (outros programas nao podem ter seu funcionamento prejudicado pelo 
+funcionamento do virus ao nivel imediato)
+- mecanismos pra tomar conta do sistema durante o periodo de  funcionamento 
+do virus e posterior restauracao do estado original pre-ativacao.
+
+A colocacao de mecanismos para evitar a deteccao sao outros quinhentos. Nem 
+vale  a  pena  comentar aqui. O primeiro virus, a  "Worm"  que  infestou  a 
+internet  nos seus primeiros tempos tinha varios. Seu autor tinha  uma  boa 
+experiencia previa, conseguida atraves de um jogo, chamado "Core War", onde 
+os  jogadores  fazem programas cujo objetivo e' tomar conta de  um  sistema 
+ficticio. E' de se indagar se seu pai, especialista trabalhando para o  NSA 
+nao tinha teorias proprias sobre o assunto que o filho "Robert Morris"  fez 
+a besteira de colocar em pratica.
+     Os primeiros virus, escritos para o ambiente CPM sao pouco conhecidos. 
+Com o aparecimento do ambiente DOS, e sua arquitetura aberta a coisa  ficou 
+relativamente  facil  para  o desenvolvimento. Em  primeiro  lugar,  porque 
+trata-se  de um sistema operacional bastante simples. No inicio, nao  havia 
+nem  conhecimento da existencia desse tipo de programas. Reza a  lenda  que 
+Peter  Norton chegou a falar, numa entrevista que virus de  computador  era 
+uma  "lenda  urbana".  Entao qualquer tipo  de  programa  replicante  podia 
+facilmente conseguir uma disseminacao grande. Muita gente copiava disquetes 
+um  dos outros. O DOS no inicio nao era mais do que um sistema de  operacao 
+de disco. Uma sala podia funcionar com sei la' quantos computadores e um ou 
+dois disquetes para dar o "boot". Isso, sem falar na pirataria,  facilitava 
+muito.
+     Os  primeiros  Macs nao eram muito diferentes, mas  o  desenvolvimento 
+seguiu um caminho diferente do DOS, que permite ao virus alocar 1 pedaco da 
+memoria  como  esconderijo. O Mac, apesar de no principio ter  tido  varios 
+virus, tem um sistema operacional que controla melhor a memoria. O dito que 
+tentar se esgueirar, tem que fazer isso como parte de um programa, mesclada 
+nele.  Nos virus para DOS, essa mesclagem pode acontecer, mas  nao  precisa 
+ser  complicada. O virus funciona primeiro, depois passa o controle para  o 
+programa infectado. Sao dois programas funcionando em sequencia. 
+     Ha'  muita bibliografia sobre o assunto. A grande maioria e' uma  mera 
+reedicao de baboseira ja' escrita em varias fontes. A primeira, antologica, 
+foi   "Computer  Viruses:  a  High-Tec  Disease".  O  autor   dissecava   o 
+funcionamento de varios tipos de programas, dando inclusive o codigo  fonte 
+do  virus  Vienna, um dos primeiros a plaguear o mundo. No Brasil,  um  dos 
+primeiros  livros  "decentes" (meu ponto de vista) foi o "Virus -  Guia  de 
+referencia tecnica", que explicava o basico para entender o virus ping-pong 
+e o sexta-feira 13. Na verdade, era tambem um manual para o uso de software 
+criado  para "limpar" as pragas, que podia ser adquirido pelo  correio  por 
+preco modico. 
+     No exterior, a coisa ja' foi para o campo dos fanzines eletronicos.  O 
+mais antigo que consegui desencavar foi o C.P.I. ou "Corrupted  Programming 
+International",  dedicado a divulgar novas ideias de virus  de  computador. 
+Tinha  varios  codigos  fontes,  inclusive de  virus  em  Pascal,  Basic  e 
+programacao  Batch  (p. volta de 89, esses codigos  tambem  apareceram  num 
+livro brasileiro, cujo nome esqueci). Curioso que o zine tinha uma ficha de 
+inscricao  para quem quisesse participar da publicacao. Outras secoes  eram 
+de  cartas,  (interessante um e-mail teoricamente do John  Mcafee,  pedindo 
+exemplares  de  virus  de  computador para  analise  e  desenvolvimento  de 
+antidotos)  e  news-clippings.  Num  dos numeros havia  a  ideia  de  virus 
+futuros que o cara tinha imaginado. Tirando um virus especifico para Dbase, 
+nenhuma delas chegou a virar sucesso.
+     A   melhor  literatura  sobre  desenvolvimento  de  virus,   para   os 
+brasileiros,  durante um tempo foram os arquivos do software  Viruscan,  da 
+Mcafee. La' pelos idos de 90, 91, cada nova versao desse antivirus continha 
+uma  descricao  dos virus mais interessantes que combatia. Isso,  ate'  que 
+todo  mundo  pareceu ter a mesma ideia e alterar virus  ja'  existentes.  A 
+coisa  nao  era  mais de virus X ou virus Y, mas virus X.001  e  assim  por 
+diante. O michelangelo era baseado no stoned. E o sexta-feira 13 deu origem 
+a  trocentas variantes, em parte porque a simplicidade do codigo o  tornava 
+muito  bom  p.  ser des-assemblado e alterado. Isso prolongou  um  pouco  o 
+"sucesso"  de  tais  virus, ja' que o codigo era "otimizado"  a  cada  nova 
+variante.  Poucos virus sobreviveriam a atualizacao de sistema  operacional 
+(dos 2.0 p. 3.3, etc) sem isso. O grande exemplo e' o Ping-pong, que  fazia 
+o disquete dar problemas, quando rodava em computadores 286. 
+     Um grande salto no desenvolvimento (para o terror dos usuarios de todo 
+mundo),  aconteceu  com  a publicacao do livro "The Little  Black  Book  of 
+Computer  Viruses"  do  Mark  Ludwig.  Um  estudioso  do  virus  como "vida 
+artificial  produzida  pelo  homem" (Stephen Hawking), chegou  a  pagar  25 
+dolares por exemplar de virus, para aprender as tecnicas. Apesar de odiado, 
+o livro continha varios erros, mas trazia o codigo fonte de virus simples e 
+outros  sofisticados,  de  forma educativa e com bastante  aviso  quanto  a 
+periculosidade  dos  ditos.  Nao  elaborava muito  sobre  formas  de  fazer 
+prejuizo,  coisa  prometida para um terceiro livro. Seu segundo  livro  foi 
+"Computer  Viruses, Artificial Life e Evolution", onde elabora em  cima  de 
+como  comecou seu interesse e .. codigo fonte para a mais recente forma  de 
+escapar  deteccao,  a maquina de mutacao, uma macro-rotina  que  podia  ser 
+implementada  a  qualquer codigo fonte, tornando o  mutante.  Atualmente  o 
+autor  ja'  lancou  o  "The  Big  Black  Book  of  Computer  Viruses",  com 
+teoricamente todo o material que acumulou ao longo do tempo.
+     Para   explicar  melhor,  o  virus  nessa  altura  do  campeonato   e' 
+complicado.  Mas  para funcionar, precisa realizar  operacoes  basicas.  Um 
+programa anti-virus funciona como um programa como o FIND (comando do DOS), 
+que  localiza  um  pedaco  de texto (string de  caracteres)  dentro  de  um 
+arquivo. Na verdade, um programa como o DEBUG pode ser usado para vasculhar 
+um  arquivo para a existencia ou nao de virus, se ... um pedaco  do  codigo 
+desse virus for conhecido. Um disquete infectado com o virus stoned,  virus 
+antigo, podia ser identificado usando o DEBUG, PCTOOLS ou Norton  Utilities 
+para  procurar  um string de caractere como "Legalize  Marijuana"  no  Boot 
+Sector.  Agora, os virus tinham a maior parte do seu codigo  criptografado, 
+quando   nao  compactado.  As  maquinas  de  mutacao   (Mutation   Engines) 
+asseguravam  que  a  criptografacao  de cada  arquivo  fosse  diferente  da 
+anterior. O virus 4096 podia ser descoberto porque ele adiciona 4096  bytes 
+ao  arquivo  infectado.  O virus "Freddy" nao podia  ser  descoberto  dessa 
+forma, pois cada novo arquivo infectado tinha um numero de bytes  diferente 
+(sem falar em outras formas de evitar deteccao) e um codigo embaralhado  de 
+forma diferente.
+     Alem  de seus livros, Mark Ludwig criou sua propria editora  (ja'  que 
+nenhuma  revista  ou editora, ate' mesmo a Paladin Press,  especialista  em 
+livros   controversos  como oportunidades de emprego  para  mercenarios  na 
+Africa,  todas  recusaram qualquer tipo de associacao com o  assunto,  ate' 
+veicular  propaganda),  a  American  Eagle  Publications  e  um   periodico 
+especifico  sobre  avancos  tecnologicos  na  arte  de  escrever  virus  de 
+computador,  o "Computer Virus Developments Quaterly". Da mesma  forma  que 
+algumas  publicacoes escreviam sobre o outro lado da moeda, a  deteccao  de 
+virus. A constituicao norte-americana permite a edicao de qualquer material 
+impresso,  nao importa o conteudo (e' crimer matar alguem, mas nao  ensinar 
+isso  em  livro,  coisa que no Brasil cai numa  legislacao  que  regula  os 
+limites  do  uso da liberdade de expressao). Me falaram que a  revista  nao 
+funcionou muito bem, sendo substituida por outra publicacao sobre virus que 
+tambem fracassou. 
+     Existem publicacoes feitas para a comunidade anti-virus, como o "Virus 
+News  International" da S&S International, fabricante do Virus  Toolkit  do 
+Dr.  Solomon,  e  o  "Virus Bulletin" da  fabricante  do  antivirus  F-Prot 
+(disponivel no www.datafellows.com) fazem um excelente trabalho descrevendo 
+a  cada  novo  numero,  como sao as ultimas  pragas  que  assolam  o  mundo 
+informatico.  Normalmente  essas  publicacoes  carregam  mais  retorica   e 
+praticamente  nenhum codigo fonte. Mas sao de leitura interessante,  apesar 
+do  preco da assinatura da "Virus News International". Ate' um tempo  atras 
+falava-se  muito da vantagem que a comunidade de escritores de virus  tinha 
+em  relacao  a  comunidade  anti-virus, porque enquanto  uma  era  unida  e 
+partilhava  seus  achados "underground", a outra se recusava a  dar  alguma 
+vantagem  para alguma concorrente. Parece que atualmente as empresas  anti-
+virus mais famosas ja' comecaram a mudar essa atitude, mas sei la'...
+     A  assinatura mencionada acima custa 195 libras, nao sai em  banca  de 
+revista.  A  "Virus Bulletin" da F-Prot e' gratuita, pode-se  conseguir  na 
+rede.  Mas ambas falam por alto do assunto. Existe o trabalho  da  Patricia 
+Hoffman,  (dizem que e' patrocinado pela Mcafee) um gigantesco  arquivo  em 
+hipertexto  chamado V-SUM, detalhando tudo quanto e' tipo de virus  e  suas 
+variantes.  Tal  procedimento foi incorporado em alguns  pacotes  antivirus 
+como  o  Norton  Antivirus, o F-Prot e se nao me engano,  o  Central  Point 
+Antivirus. Quando algo estranho e' detectado, ja' sai uma descricao sobre o 
+pestinha,  a pessoa pode ate' imprimir a informacao. No pacote do  Viruscan 
+(vulgo SCAN) tem um arquivo listando os virus e metodo de infeccao, mas uma 
+descricao  sempre  a mais sumaria possivel. Uma critica e'  que  sempre  os 
+arquivos sao escritos num ingles tecnico que mesmo traduzido da' vontade de 
+dormir na leitura.
+     Ja' a comunidade de escritores de virus criam suas publicacoes dizendo 
+praticamente tudo o que ha' para a pessoa saber, passo a passo. So' para se 
+ter  uma ideia, existem textos como o Phalcon-Skism, que e' um curso  em  6 
+partes (textos) que detalham o basico para se construir um virus em  MSDOS. 
+Um australiano fez um programa para apresentacao desses textos, em forma de 
+tutorial.  Outro  grupo, a NUKE international, tem cerca de  nove  arquivos 
+detalhando  procedimentos  de  construcao de  virus,  codigos-fonte,  quais 
+alteracoes  fazem  o virus ficar invisivel ao Scan e Clean, tudo  isso  num 
+formato  quase  hipertexto,  com  listagem de  BBSes  onde  se  pode  tanto 
+encontrar  numeros  da  revista como mais informacoes de  virus,  lista  de 
+discussao  especifica  e etc.. Alem dessas, existe a 40hex,  disponivel  no 
+ftp.eff.org,  contendo entre outros o codigo completo do virus NATAS  e  um 
+laboratorio de construcao de virus. Alias, varios virus estao na revista em 
+formato uuencodado ou script do debug (a pessoa salva o script num arquivo, 
+digita  "debug <arquivo" e voila', tem um arquivo executavel com o  peste). 
+     No  artigo  "The bulgarian virus factory", Bontchev faz um  relato  de 
+como surgiram os primeiros virus de computador, fruto de programadores  com 
+altissima  experiencia  na  arte  de  "craquear"  protecoes  de  softwares. 
+Phalcon/Skism,  tambem  autor  de varios artigos sobre  escrita  de  virus, 
+igualmente  sugere  que foi essa tecnologia q. criou os  primeiros  truques 
+para  os  autores  de virus. Vai saber ... o fato e'  que  uma  geracao  de 
+hackers testou sua habilidade tirando trava de programas protegidos e outra 
+geracao se dedicou a fazer esses engenhos.
+     Na antiga U.R.S.S. tambem houve interesse nesse campo, fiquei  sabendo
+dum e-zine tambem so' de virus, denominado "Infected Voice", qe chega a ser 
+algo surpreendente, pois fez uma versao em ingles de seus melhores artigos. 
+     Na  Argentina,  entre outros lugares, a atividade se tornou  hobby  da 
+grande  maioria  dos  hackers,  como mostra   o  "Congresso  de  Hackers  e 
+Fabricantes  de Virus", ocorrido em outubro de 1994. Naquela epoca,  haviam 
+cerca de 4 fanzines eletronicos abrangendo hacking e .. fabricacao de virus 
+rolando  nas BBSes do pais. A talvez mais famosa, "MINOTAURO"  se  encontra 
+disponivel  no ftp.eff.org. Em papel, havia a revista "Virus  Report",  que 
+tinha um curso de assembler quase especifico p. a fabricacao, alem de dicas 
+sobre  novos perigos para os usuarios, calendarios de virus  e  reportagens 
+enfocando  o computer underground argentino e mundial. Nem sempre os  virus 
+feitos  por  esse pessoal sao distribuidos, como atesta o caso  do  "Xuxa", 
+cujo  autor  se encarregou de mandar uma copia para os  desenvolvedores  de 
+antivirus, tao logo terminou a fase de testes.
+     Atualmente,  o aparecimento de softwares de 32 bits tende de  um  lado 
+impedir  a expansao dessa arte. De um lado, porque o codigo ja'  se  tornou 
+muito  mais  complicado.  E' um verdadeiro  desafio,  escrever  virus  para 
+ambientes multitarefa como o win95 e OS/2. Um grupo, australiano, editor de 
+um fanzine sobre virus, o VLAD lancou o virus BOZA, o primeiro a  funcionar 
+nesse ambiente. Tanto o virus quanto o codigo fonte e descricoes do  metodo 
+de  infeccao  foram colocados a disposicao do publico no  sexto  numero  da 
+publicacao (tambem de nome VLAD).
+      Do  Brasil,  pouco se sabe sobre o assunto. O jornal  ESTADO  DE  SAO 
+PAULO  (31/10/94)  chegou  a publicar uma reportagem sobre  jovens  que  se 
+dedicavam  a  estudar  virus,  mas afora o aparecimento  de  virus  como  o 
+"Brazil" (denominado pela Mcafee de  "quick"), o"Freddy","Daniela  Mercury" 
+e  outros,  pouco existe sobre o assunto. A maioria dos  virus  encontrados 
+hoje  em  dia tende a ser os mesmos de quatro anos atras, salvo  surtos  de 
+algum virus novo.  Algumas   empresas   fazem  software  e   hardware   que 
+"teoricamente" protege contra virus. Quem conhece o assunto sabe que o pior 
+virus  e'  o usuario inexperiente. Contra ele nao existe  protecao.  Alguns 
+"experts"  de vez em quando ate' falam cobras e lagartos dos  virus-makers, 
+mas e' bom notar que nesse hobby, existem duas fases da moeda: a fabricacao 
+e a distribuicao. Como todo mundo hoje em dia tem acesso facil a antivirus, 
+e compra software, ao inves de xerocar, isso diminui muito o contagio. 
+     Comentar virus de computador e' algo para varios livros. E' uma  parte 
+do  hacker  underground. Vale a pena notar algo:  Nem todos  os  que  fazem  
+virus, cuidam de distribui-los. E alguns dos que cuidam da distribuicao, as 
+vezes  o fazem com consciencia do fato, as vezes querendo ajudar.  Um  caso 
+interessante e' a historia do virus NATAS, o mais poderoso virus do ano  de 
+1994. Seu autor divulgou o codigo fonte para qualquer um que quisesse.  Foi 
+contratado pelo Servico Secreto americano (o proprio) para depois descobrir 
+meios de detetar sua propria criacao. O mais interessante e' que no caso do 
+Mexico, por exemplo, um vendedor de antivirus, sem saber direito com o  que 
+lidava, usava esse virus como forma de divulgar os programas que vendia. Em 
+todo  lugar que chegava, acabava infectando ao inves de limpar  ("viu,  nao 
+falei que o virus desaparecia"). Ele nao sabia que era um daqueles  capazes 
+de enganar antivirus.
+    Varias  entrevistas  foram feitas com esses aprendizes  de  feiticeiro. 
+Dizem esses virusmakers, as vezes ilustres desconhecidos, que  muitas vezes 
+mantem  guardadas suas criacoes, respeitando o fato de que saber e' que  e' 
+poder. O ato da criacao de um engenho desses seria bem mais interessante do 
+que  ficar  distribuindo  por ai'. E e' muito  mais  interessante  aprender 
+computacao fazendo um virus do que aprendendo com uma planilha de  calculo. 
+Pode  ser que sim, pode ser que nao. Como diziam os chineses:  Uma  verdade 
+que  nao precisa ser provada para ser verdadeira. Muita gente  treina  toda 
+semana  com  armas  de fogo, usa facas dos mais variados  tipos,  lida  com 
+substancias  extremamente  perigosas, treina formas de aniquilacao  do  ser 
+humano,  e todo esse perigo nao gera tanta preocupacao quanto andar na  rua 
+de noite, num bairro pouco iluminado. 
+
+
+                                 LEI-EMAIL
+                                 =========
+                LEI No. 9.296 , DE 24 DE JULHO DE 1996.
+
+Regulamente o inciso XII, parte final, do art. 5o. da   
+Constituicao Federal.
+
+        O PRESIDENTE DA REPUBLICA
+         Faco  saber  que  o Congresso Nacional decreta  e  eu  sanciono  a 
+seguinte Lei:
+
+        Art.  1o A interceptacao de comunicacoes telefonicas,  de  qualquer 
+natureza,  para  prova em investigacao criminal e em  instrucao  processual 
+penal,  observara  o  disposto  nesta Lei e  dependera  de  ordem  do  juiz 
+competente da acao principal, sob segredo de justica.
+
+        Paragrafo unico. O disposto nesta Lei aplica-se oa interceptacao do 
+fluxo de comunicacoes em sistemas de informatica e telematica.
+
+        Art.   2o  Nao  sera  admitida  a  interceptacao  de   comunicacoes 
+telefonicas quando ocorrer qualquer das seguintes hipoteses:
+        
+        I  -  nao houver indicios razoaveis da autoria ou  participacao  em 
+infracao penal;
+        
+        II- a prova puder ser feita por outros meios disponiveis;
+
+        III-  o  fato  investigado constituir  infracao  penal  punida,  no 
+maximo, com pena de detencao.
+
+        Paragrafo unico. Em qualquer hipotese deve ser descrita com clareza 
+a situacao objeto da investigacao, inclusive com a indicacao e qualificacao 
+dos investigados, salvo impossibilidade manifesta, devidamente justificada.
+
+        Art.  3o  A interceptacao das comunicacoes telefonicas  podera  ser 
+determinada pelo juiz, de oficio ou a requerimento:
+
+        I - da autoridade policial, na investigacao criminal;
+
+        II  -  do  representante do  Ministerio  Publico,  na  investigacao 
+criminal e na instrucao processual penal.
+        
+        Art. 4o O pedido de interceptacao de comunicacao telefonica contera 
+a demonstracao de que a sua realizacao e necessaria oa apuracao de infracao 
+penal, com indicacao dos meios a serem empregados.
+        
+        Paragrafo  1o Excepcionalmente, o juiz podera admitir que o  pedido 
+seja formulado verbalmente, desde que estejam presentes os pressupostos que 
+autorizem a interceptacao, caso em que a concessao sera condicionada oa sua 
+reducao a termo.
+        
+        Paragrafo  2o  O  juiz, no prazo maximo de vinte  e  quatro  horas, 
+decidira sobre o pedido.
+
+        Art.  5o  A  decisao  sera  fundamentada,  sob  pena  de  nulidade, 
+indicando tambem a forma de execucao da diligencia, que nao podera  exceder 
+o  prazo  de quinze dias, renovavel por igual tempo uma  vez  comprovada  a 
+indispensabilidade do meio de prova.
+
+        Art.  6o  Deferido  o pedido, a autoridade  policial  conduzira  os 
+procedimentos  de interceptacao, dando ciencia ao Ministerio  Publico,  que 
+podera acompanhar a sua realizacao.
+
+        Paragrafo.  1o No caso de a diligencia possibilitar a  gravacao  da 
+comunicacao interceptada, sera determinada a sua transcricao.
+
+        Paragrafo   2o  Cumprida  a  diligencia,  a   autoridade   policial 
+encaminhara  o  resultado  da interceptacao ao juiz,  acompanhado  de  auto 
+circunstanciado, que devera conter o resumo das operacoes realizadas.
+
+        Paragrafo  3o  Recebidos  esses elementos, o   juiz  determinara  a 
+providencia do art. 8o, ciente o Ministerio Publico.
+        
+        Art.  7o Para os procedimentos de interceptacao de que  trata  esta 
+Lei,   a  autoridade  policial  podera  requisitar  servicos   e   tecnicos 
+especializados oas concessionarias de servico Publico.
+        
+        Art.  8o  A interceptacao de comunicacao  telefonica,  de  qualquer 
+natureza,  ocorrera  em autos apartados, apensados aos autos  do  inquerito 
+policial ou do processo criminal, preservando-se o sigilo das  diligencias, 
+gravacoes e transcricoes respectivas.
+
+        Paragrafo   unico.  A  apensacao  somente  podera   ser   realizada 
+imediatamente  antes  do  relatorio  da autoridade,  quando  se  tratar  de 
+inquerito policial (Codigo de Processo Penal, art. 10, paragrafo 1o) ou  na 
+conclusao  do processo ao juiz para o despacho decorrente do  disposto  nos 
+arts. 407, 502 ou 538 do Codigo de Processo Penal.
+
+        Art. 9o A gravacao que nao interessar oa prova sera inutilizada por 
+decisao judicial, durante o inquerito, a instrucao processual ou apos esta, 
+em virtude de requerimento do Ministerio Publico ou da parte interessada.
+        
+        Paragrafo  unico. O incidente de inutilizacao sera  assistido  pelo 
+Ministerio  Publico,  sendo  facultada  a presenca do  acusado  ou  de  seu 
+representante legal.
+        
+        Art.  10.  Constitui crime realizar interceptacao  de  comunicacoes 
+telefonicas,  de informatica ou telematica, ou quebrar segredo da  Justica, 
+sem autorizacao judicial ou com objetivos nao autorizados em lei.
+        
+Pena: reclusao, de dois a quatro anos, e multa.
+
+Art. 11. Esta Lei entra em vigor na data de sua publicacao.
+
+Art. 12. Revogam-se as disposicoes em contrario.
+
+Brasilia, 24 de julho de 1996; 175o da Independencia e 108o da Republica.
+
+                                                FERNANDO HENRIQUE CARDOSO
+                                                Nelson A. Jobim
+
+D.O.U. Quinta-Feira 25/07/1996. Pagina 13.757 (primeira pagina). Secao 1.
+
+
+                         FUTURA LEI "GRANDE IRMAO"   
+                         ========================
+   
+   Trechos do Projeto de Lei enviados ao MCT
+   
+  CAMARA DOS DEPUTADOS
+  
+   
+   
+   OfIcio 005-GAB.705
+   BrasIlia, 17 de janeiro de 1996
+   
+   PROJETO DE LEI No. ?? , DE 1995
+   (Do Sr. CASSIO CUNHA LIMA)
+   Dispoe sobre o acesso, a responsabilidade e os crimes cometidos nas
+   redes integradas de computadores, e da outras providencias.
+   
+   O Congresso Nacional decreta:
+   
+   CAPITULO I
+   
+   I - DOS PRINCIPIOS QUE REGULAM A PRESTACAO DE SERVICO POR REDES
+   INTEGRADAS DE COMPUTADORES
+   
+   Art. 1o. O acesso, o tratamento e a disseminacao de informacoes
+   atraves das redes integradas de computadores devem estar aa servico do
+   cidadao e da sociedade, respeitados os criterios de garantia dos
+   direitos individuais e coletivos, da privacidade das informacoes
+   pessoais e da garantia de acesso aas informacoes disseminadas pelos
+   servicos da rede.
+   
+   Art. 2o. Considera-se, para efeitos desta lei:
+   
+   a) Rede integrada de computadores - qualquer sistema destinado aa
+   interligacao de computadores ou demais equipamentos de tratamento
+   eletronico, opto-eletronico ou optico de dados, com o fim de oferecer,
+   em carater publico ou privado, informacoes e servico a usuarios que
+   conectem seus equipamentos ao sistema.
+   
+   b) Administrador de rede integrada de computadores - entidade
+   responsavel pelo funcionamento da rede de computadores e pela
+   continuidade dos servicos de rede.
+   
+   c) Infra-estrutura de rede - conjunto dos recursos ou servicos de
+   telecomunicacoes ou de conexao de outra natureza que viabilizem o
+   funcionamento da rede de computadores.
+   
+   d) Servicos de rede - servicos essenciais ao funcionamento da rede
+   integrada de computadores, providos pelo administrador de rede,
+   inclusive servicos de controle de acesso, seguranca das informacoes,
+   controle do trafego de informacoes e catalogacao de usuarios e
+   provedores de servicos de valor adicionado.
+   
+   e) Servicos de valor adicionado - servicos oferecidos aos usuarios da
+   rede integrada de computadores que criam novas utilidades especIficas,
+   ou novas atividades, relacionadas com o uso da rede.
+   
+   f) Servico de informacao - servico de valor adicionado caracterizado
+   pela disseminacao de informacoes, ilimitada ou nao, atraves de rede
+   integrada de computadores.
+   
+   g) Servico de acesso aa bases de dados - servico de valor adicionado
+   caracterizado pela coleta, armazenamento e disponibilidade para
+   consulta de informacoes em bases de dados.
+   
+   h) Transferencia eletronica de fundos (TEF) - servico de valor
+   adicionado caracterizado pelo intercambio de ordens de credito ou
+   debito entre usuarios de uma rede integrada de computadores, ou por
+   operacoes cuja finalidade e efeito sejam a transferencia de fundos de
+   um patrimonio a outro sem movimentacao efetiva de moeda, atraves de
+   instrucoes eletronicas.
+   
+   i) Base de dados - colecao de informacoes, armazenada em meio
+   eletronico, opto-eletronico ou optico, que permita a busca das mesmas
+   por procedimentos manuais ou automatizados de qualquer natureza.
+   
+   j) Provedor de servicos - entidade responsavel pela oferta de servicos
+   de valor adicionado.
+   
+   l) Provedor de informacoes - entidade responsavel pela oferta de
+   servicos de informacoes ou de acesso aa bases de dados.
+   
+   m) Usuario de rede - pessoa fIsica ou jurIdica que utiliza os servicos
+   oferecidos pela rede integrada de computadores ou pelos provedores de
+   servicos ou de informacoes atraves dessa rede, ou que possa,
+   legitimamente, receber ou ter acesso aas informacoes transportadas pela
+   rede de computadores.
+   
+   n) Controle de acesso aa rede - conjunto de procedimentos de seguranca,
+   estabelecidos pelo administrador da rede, a serem executados pelo
+   usuario para ter acesso aos servicos da rede.
+   
+   Art. 3o. E livre a estruturacao e o funcionamento de redes integradas
+   de computadores e seus servicos, nos termos desta Lei, ressalvadas as
+   disposicoes especIficas aplicaveis aa sua infra-estrutura.
+   
+   II - DO CONTROLE DE ACESSO AAS REDES DE COMPUTADORES
+   
+   Art. 4o. Toda rede de computadores cujo acesso e oferecido ao publico,
+   ou a uma comunidade restrita, mediante remuneracao de qualquer
+   natureza, devera ter um administrador de rede legalmente constituIdo.
+   
+   Art. 5o. O administrador de rede e responsavel pelos servicos de rede,
+   pela seguranca do controle de acesso e pela protecao do equipamento do
+   usuario contra operacoes invasivas de terceiros, intencionais ou nao,
+   nos termos contratuais estabelecidos com o usuario, respeitadas as
+   disposicoes da Lei No. 8.078, de 11 de setembro de 1990, que "dispoe
+   sobre a protecao do consumidor e da outras providencias".
+   
+   Art. 6o. O usuario devera empenhar-se em preservar, dentro dos limites
+   razoaveis, a seguranca e o segredo de senhas, cartoes, chaves ou
+   outras formas de acesso aa rede de computadores.
+   
+   Art. 7o. Os provedores de servicos de valor adicionado poderao
+   estabelecer procedimentos adicionais de controle de acesso a seus
+   servicos, bases de dados ou informacoes.
+   
+   III - DA SEGURANCA DOS SERVICOS E DAS INFORMACOES NAS REDE DE
+   COMPUTADORES
+   
+   Art. 8o. O administrador da rede e o provedor de cada servico sao
+   solidariamente responsaveis pela seguranca, integridade e sigilo das
+   informacoes armazenadas em bases de dados aa consulta ou manuseio por
+   usuarios da rede.
+   
+   Art. 9o. A disseminacao ou prestacao de informacoes aos usuarios de
+   uma rede de computadores atraves de servicos de informacao ou de
+   acesso aa bases de dados equipara-se, para os efeitos legais, aa
+   atividade de agencia de notIcias, estando sujeita aas disposicoes da
+   legislacao correspondente, sem prejuizo do disposto nesta Lei.
+   
+   Art. 10. O provedor de informacoes esta sujeito aas determinacoes e
+   limitacoes estabelecidas na legislacao vigente para a atividade de
+   agencia de notIcias.
+   
+   Art. 11. As disposicoes relativas aos servicos de transferencia
+   eletronica de fundos serao regulamentadas por disposicao especIfica,
+   atendidos os direitos e obrigacoes estabelecidos nesta Lei.
+   
+   IV - DO USO DE INFORMACOES DISPONIVEIS EM REDES DE COMPUTADORES OU
+   BASES DE DADOS
+   
+   Art. 12. Sao consideradas pessoais as informacoes que permitam, sob
+   qualquer forma, direta ou indiretamente, a identificacao de pessoas
+   fIsicas aas quais elas se refiram ou se apliquem.
+   
+   Art. 13. Ninguem sera obrigado a fornecer informacoes e dados sobre
+   sua pessoa ou a de terceiros, salvo nos casos previstos em lei.
+   
+   Art. 14. A coleta, o processamento e a distribuicao, com finalidades
+   comerciais, de informacoes pessoais ficam sujeitas aa previa
+   aquiescencia da pessoa a que se referem.
+   
+   Par. 1o. AA toda pessoa cadastada dar-se-a conhecimento das informacoes
+   pessoais armazenadas e das respectivas fontes.
+   
+   Par. 2o. E assegurado ao indivIduo o direito de retificar qualquer
+   informacao pessoal que julgar incorreta.
+   
+   Par. 3o. Salvo por disposicao legal ou determinacao judicial em
+   contrario, nenhuma informacao pessoal sera conservada aa revelia da
+   pessoa a que se refere ou alem do tempo previsto para a sua validade.
+   
+   Par. 4o. Qualquer pessoa, identificando-se, tem o direito de
+   interpretar o prestador de servico de informacao ou de acesso aa bases
+   de dados para saber se estes dispoem de informacoes pessoais a seu
+   respeito.
+   
+   Art. 15. E proibida a coleta de dados por meios fraudulentos, desleais
+   ou ilIcitos.
+   
+   Art. 16. Os servicos de informacao ou de acesso aa bases de dados nao
+   armazenarao ou distribuirao informacoes pessoais que revelem, direta
+   ou indiretamente, as origens raciais, as opinioes polIticas,
+   filosoficas, religiosas ou sexuais e a filiacao a qualquer entidade,
+   salvo com autorizacao expressa do interessado.
+   
+   Art. 17. Nenhuma decisao administrativa ou judicial podera basear-se,
+   para a definicao do perfil do acusado ou da parte, apenas em dados
+   obtidos mediante o cruzamento de informacoes automatizadas.
+   
+   Art. 18. Somente por ordem judicial e observado os procedimentos e a
+   legislacao cabIveis, podera haver cruzamento de informacoes
+   automatizadas com vistas aa obtencao de dados sigilosos.
+   
+   V - DOS CRIMES DE INFORMATICA COMETIDOS EM DECORRENCIA DA UTILIZACAO
+   DE COMPUTADOR OU EQUIPAMENTO DE INFORMATICA EM REDES INTEGRADAS
+   
+   Art. 19. Obter acesso, indevidamente, a um sistema de computador ou a
+   uma rede integrada de computadores:
+   
+   Pena - detencao, de 6 (seis) meses a 1 (um) ano, e multa.
+   
+   Par. 1o. Se o acesso se faz por uso indevido de senha ou de processo
+   de identificacao magnetica de terceiro:
+   
+   Pena - detencao, de 1 (um) a 2 (dois) anos, e multa.
+   
+   Par. 2o. Se, alem disso, resulta prejuizo economico para o titular:
+   
+   Pena - detencao, de 1 (um) a 3 (tres) anos, e multa.
+   
+   Par. 3o. Se o acesso tem por escopo causar dano aa outrem ou obter
+   vantagem indevida:
+   
+   Pena - detencao, de 2 (dois) a 4 (quatro) anos, e multa.
+   
+   Par. 4o. Se o sistema ou rede integrada de computadores pertence aa
+   pessoa jurIdica de direito publico interno, autarquias, empresas
+   publicas, sociedades de economia mista, fundacoes instituIdas ou
+   mantidas pelo Poder Publico e servicos sociais autonomos, a pena e
+   agravada em um terco.
+   
+   Art. 20. Adquirir segredos industriais, comerciais, empresariais ou
+   informacoes de carater confidencial em sistema ou em rede integrada de
+   computadores com o intuito de causar danos financeiros ou obter
+   vantagem economica para si ou para outrem:
+   
+   Pena - reclusao, de 1 (um) a 3 (tres) anos, e multa.
+   
+   Art. 21. Apropriar-se indevidamente de informacoes, de que tem a posse
+   ou a detencao em rede integrada de computadores:
+   
+   Pena - reclusao, de 1 (um) a 4 (quatro) anos, e multa.
+   
+   Art. 22. Apropriar-se indevidamente de valores, de que tem a posse ou
+   a detencao, atraves da manipulacao de qualquer sistema de
+   processamento de dados, obtendo assim vantagem economica para si ou
+   para outrem.
+   
+   Pena - reclusao, de 1 (um) a 5 (cinco) anos, e multa.
+   
+   Art. 23. Obstruir o funcionamento de rede integrada de computadores ou
+   provocar-lhe disturbios:
+   
+   Pena - detencao, de 1 (um) a 2 (dois) anos, e multa.
+   
+   Paragrafo unico. Se resulta obstrucao permanente ou disturbio grave:
+   
+   Pena - reclusao, de 4 (quatro) a 6 (seis) anos, e multa.
+   
+   Art. 24. Obter acesso a sistema ou a rede integrada de computadores,
+   com o intuito de disseminar informacoes fraudulentas:
+   
+   Pena - reclusao, de 1 (um) a 5 (cinco) anos, e multa.
+   
+   Art. 25. Falsificar, alterar ou apagar documentos atraves de sistema
+   ou rede integrada de computadores e seus perifericos:
+   
+   Pena - reclusao, de 1 (um) a 5 (cinco) anos, e multa. Par. 1o. Nas
+   mesmas penas incorre quem:
+   
+   I. usa documento falso;
+   
+   II. emite tItulo ou valor mobiliario que possa ser criado, aceito ou
+   garantido por instituicao financeira ou companhia aberta, sem a
+   observancia dos requisitos legais e regulamentaes, necessarios aa sua
+   criacao ou emissao;
+   
+   III. distribui, sem previo registro no orgao competente, valor
+   mobiliario de emissao publica;
+   
+   Par. 2o. Considera-se documento o dado constante no sistema de
+   computador em suporte fIsico como disquete, disco compacto, CD-ROM ou
+   qualquer outro aparelho usado para o armazenamento de informacao, por
+   meio mecanico, optico ou eletronico.
+   
+   Art. 26. Interceptar indevidamente a comunicacao entre computadores
+   durante a transmissao de dados, com o intuito de invadir a privacidade
+   do usuario:
+   
+   Pena - detencao, de 6 (seis) meses a 1 (um) ano, e multa.
+   
+   Art. 27. Obter informacoes confidenciais ou pessoais do indivIduo em
+   sistema ou rede integrada de computadores:
+   
+   Pena - detencao, de 6 (seis) meses a 1 (um) ano, e multa.
+   
+   Paragrafo unico. Se resulta prejuizo economico, a pena e aumentada ate
+   a metade.
+   
+   Art. 28. Deixar de informar ou de retificar dados pessoais contidos em
+   rede integrada de computadores, quando requerido pelo interessado:
+   
+   Pena - detencao de 3 (tres) a 9 (nove) meses, e multa.
+   
+   Paragrafo unico. Na mesma pena incorre quem:
+   
+   I. transfere dados pessoais contidos em um sistema de computador, sem
+   a permissao do interessado, a pessoa nao autorizada com finalidade
+   diversa daquela a qual a informacao foi obtida.
+   
+   II. transfere, sem a permissao do interessado, dados pessoais para
+   fora do paIs.
+   
+   Art. 29. Obter acesso aa sistemas de dados ou rede integrada de
+   computadores de instituicoes financeiras com o objetivo de transferir,
+   para si ou para outrem, dinheiro, fundos, creditos e aplicacoes de
+   terceiros:
+   
+   Pena - reclusao, de 2 (dois) a 6 (seis) anos, e multa.
+   
+   Art. 30. Obter acesso ilIcito aa sistema de computador ou a rede
+   integrada de computadores, com o intuito de apropriar-se de
+   informacoes confidenciais ligadas `a seguranca nacional:
+   
+   Pena - reclusao, de 2 (dois) a 6 (seis) anos, e multa.
+   
+   Paragrafo unico. Se, alem do acesso, as informacoes sao copiadas,
+   vendidas ou transferidas para outrem, a pena e agravada em um terco.
+   
+   VI - DAS DISPOSICOES FINAIS
+   
+   Art. 31. Se os crimes cometidos nesta Lei sao praticados como meio
+   para a realizacao de outros, a pena e aumentada de um sexto ate a
+   metade.
+   
+   Art. 32. Os administradores de redes integradas de computadores, os
+   provedores de servicos e de informacoes que, no exercIcio da funcao,
+   provocam desvio nas finalidades estabelecidas para o funcionamento da
+   rede, incorrem na pena de reclusao de 1 (um) a 2 (dois) anos, e multa.
+   
+   
+   Art. 33. Nos crimes definidos nesta Lei somente se procede mediante
+   apresentacao do ofendido, salvo nos casos do par. 4o., do art. 19 e do
+   art. 30, em que a acao e publica incondicionada.
+   
+   Art. 34. Este lei entra em vigor na data de sua publicacao.
+   
+   Art. 35. Revogam-se as disposicoes em contrario.
+     _________________________________________________________________
+   
+   
+                      GRANDE IRMAO, DOI-CODI A VISTA!
+                      ===============================
+
+"Oceis  pensou que nois fumo embora? Nois enganemo oceis.. Nois fingimo  q. 
+fumo  e  vortemos.. o'i no'is aqui traveis" (antiga propaganda,  esqueci  o 
+produto)
+
+A juventude brasileira atual, chegando em idade de voto, provavelmente  nao 
+sabe  o  que  foi  na realidade, o periodo negro  da  nossa  historia,  que 
+aconteceu  durante  o regime militar. Talvez saiba de ter estudado  para  o 
+Vestibular.  Teve aquela aula, com um professor falando que  naquele  tempo 
+todo  mundo  podia  ser  preso por qualquer coisinha,  tipo  falar  mal  do 
+governo.  Talvez um ou outro ainda se lembre daquela serie da Globo,  "anos 
+dourados",  em  que entre um namoro e outro, um dos  protagonistas  vai  se 
+juntar a guerrilha. Quem sabe ainda leu alguns livros, como  "Carbonarios", 
+"Roleta  Chilena",  "Que e' isso, Companheiro".  Ou assistiu  aquele  filme 
+sobre o Lamarca ou o sei la' qual. A maioria desse pessoal com menos de  40 
+anos  so' vai ter como informacao, alem do fato de que houve reacao  contra 
+um regime autoritario, o fato de que o Brasil era campeao.
+     Mas  o grande problema, quando se ve um seriado na TV e' o tamanho  da 
+tela.  Podem  falar que uma imagem vale mil palavras, mas mil  imagens  nao 
+sao  suficientes  para  resumir  a vida. O povo nao  se  rebelou  contra  a 
+ditadura  num  primeiro plano. Tudo o que via e'  que  algumas  autoridades 
+haviam  assumido  o  poder.  Alguns anos  depois,  com  o  aparecimento  da 
+guerrilha,  comecou-se a institucionalizar a tortura e outras  barbaridades 
+contra  a  pessoa  humana. As pessoas sabiam disso? Nao. Havia  a  Copa  do 
+mundo.  Todo  mundo  estava alegre porque o Brasil era  campeao  em  alguma 
+coisa. E havia o que as pessoas conhecem como censura, da qual vale a  pena 
+falar uma ou duas palavrinhas.
+     A  censura  e'  um assunto que entra na imprensa  sempre  que  se  tem 
+duvidas  sobre o conteudo de algum filme, tipo "Caligula", "Je  vous  salue 
+Marie"  ou "Trainspotting". A desculpa e' sempre a mesma: o filme  ou  peca 
+deve  ser cancelado porque induz a um tipo de comportamento. A coisa  morre 
+logo,  porque existe um codigo nao-escrito que a censura e'  ruim.  Pronto, 
+ponto  final. Mas as pessoas pensam na censura apenas quando veem um  filme 
+ou peca cujo conteudo escapa ao do cotidiano. 
+     O  que  acontecia  nos tempos da ditadura e' que  poderia  atingir  um 
+publico grande era passivel de ser censurado. Os pais de um amigo meu foram 
+dar  explicacoes  a diretoria de uma escola porque o  filho,  numa  redacao 
+altamente  imaginativa,  falou da "mumia do Geisel". A  mae,  que  entendia 
+alguma coisa, conseguiu explicar que a redacao era altamente metaforica.  O 
+pai  teve  que passar a segurar mais a lingua. Porque? Porque em  todos  os 
+lugares  havia a suspeita de alguem ser informante do SNI. Ou ter um  amigo 
+que  era  alguma  coisa.  Sabe o que isso  significava?  A  pessoa  poderia 
+escrever  uma  carta  sobre voce, falando algo.  Dai',  bastava  marcar  um 
+encontro onde esse informante estaria presente. Ou ele ou algum policial  a 
+paisano.  Dai,  era  so' provocar uma conversa. A pessoa  ia  ser  presa  e 
+torturada por conta de uma declaracao qualquer numa conversa?
+     Nao. Mas poderia, quem sabe, ser chamado a depor numa delegacia. E  se 
+tivesse  o  azar de ser um delegado corrupto, poderia ter  que  soltar  uma 
+grana para nao ir preso. Porque acontecia, naqueles anos de medo, a  pessoa 
+ser  torturada por motivos bem futeis. Em alguns casos, porque  tinha  pego 
+carona com um terrorista. Ou porque tinha voltado de uma viagem turistica a 
+Uniao Sovietica. Mas mesmo que nao fosse torturado ou fosse numa delegacia: 
+existia  um coisa chamado "atestado de bons antecedentes". Necessario  para 
+conseguir  um passaporte e sair do pais. Quem ja' saiu atras de um  sabe  o 
+suadouro  que era. Ir a uma delegacia para ter uma certidao esclarecendo  a 
+Policia  Federal que nada constava contra aquele individuo, no caso,  voce! 
+Ah sim. Tava esquecendo algo bem mais importante.
+     Se houvesse perdido o passaporte, era um ou dois anos, comparecendo na 
+Policia Federal para esclarecer que nao era comunista, nem tinha emprestado 
+sua  identidade para outra pessoa. O mais interessante e' que se  a  pessoa 
+tivesse alguma macula na sua ficha, do tipo "falou que o governo militar e' 
+ruim". Podia esquecer, conseguir qualquer carreira no governo. Concursos ou 
+cargos  de confianca, idem. Alias, no caso especifico daquele  "informante" 
+desconhecido  do  SNI (Servico Nacional de Informacoes),  sua  firma  podia 
+descobrir de uma hora para outra que nao conseguia mais nenhum contrato com 
+prefeituras ou mesmo outras empresas ligadas ao governo. 
+     Tudo  bem,  de repente a pessoa nao era jornalista,  nem  tinha  esses 
+vinculos  que precisassem de favores do governo.  Professor  universitario, 
+por exemplo. Tem uma universidade particular que ficou famosissima pelo seu 
+nivel,  exatamente porque dava chance de trabalho para o pessoal que  tinha 
+sido  expulso  de  Universidades Estaduais e Federais.  Expulso  porque?  O 
+governo tinha "alunos profissionais" que assistiam as aulas so' para vigiar 
+o  que  os  professores ensinavam. A coisa ia ate' o  ensino  primario.  Um 
+projeto de alfabetizacao excelente foi cancelado porque ensinava a pessoa a 
+repensar  a  situacao patrao-empregado. Na verdade, se a pessoa  era  lider 
+estudantil  ja'  corria  o risco de ser  vigiada,  interrogada,  torturada, 
+desaparecida. No meu tempo de crianca se falava, em Brasilia, que filho  de 
+militar tinha uma carteirinha de identidade especifica. Eu acredito, porque 
+numa visita aquela cidade, em uma semana, fui revistado duas vezes,  quando 
+passeava a noite. Minha idade, 12 anos.
+     Alias,  falando na minha infancia, havia uma aula,  chamada  "Educacao 
+Moral e Civica". Uma coisa interessante: a pessoa podia deixar de fazer  os 
+deveres de matematica, deixar de trazer esse ou aquele caderno, ate' fingir 
+que  estava prestando atencao. Mas nao podia deixar uma linha em branco  da 
+apostila   de  "Educacao  Moral  e  Civica".  Cuja  materia  era  unica   e 
+simplesmente  uma reedicao de coisas que voce via na TV, nos jornais e  nas 
+revistas:  como  morreu  Tiradentes (nenhum primario era  completo  sem  um 
+trabalho  sobre ele), porque o Brasil e' o pais do futuro, como o  petroleo 
+na  Amazonia ira' resolver os problemas de energia do pais. Mas falando  de 
+revistas,  o "melhor" de tudo era a censura. No bicentenario  da  revolucao 
+americana,  resolveram  nao editar os trechos iniciais  da  declaracao  dos 
+direitos do homem, parece que era muito subversivo, estas frases:
+
+    "Todo homem tem direito a vida, a liberdade e a busca da felicidade
+
+Um  americano notou a ausencia e me falou isso. Eu acreditei, porque  tinha 
+visto na sessao da tarde um filme da minha infancia, sobre um robson crusoe 
+dos anos 70. Tinha uma cena de passeata que eu nao me lembrava. E' uma cena 
+de  passeata,  com cartazes de igualdade e coisa do genero.  Porque  eu  me 
+lembrava  que nao tinha? Porque era o unico filme "censura  livre"  daquele 
+mes e todo fim de semana, na falta de programa melhor, assisti aquele troco 
+umas duas vezes. Filme de Walt Disney. Censurado.
+     Bom,  porque  comento  tudo  isso?  Saiu  a  legislacao  sobre  escuta 
+telefonica.  E',  como dizia aquela charge do menininho  frances  vendo  um 
+bando  de  feministas  com  cartazes querendo o fim  da  pornografia  e  da 
+prostituicao,  "L'avenir,  ca c'est dur!" (O amanha, esse  vai  ser  duro). 
+Manja so' o lance: 
+
+"observa  o disposto nesta lei e dependera' de ordem do juiz competente  da 
+acao principal, sob o segredo de justica"
+"nesta Lei aplica-se a interceptacao do fluxo de comunicacao em sistemas de 
+informatica e telematica"
+
+Em  suma,  o seu SYSOP nao pode te falar que voce esta' sendo  vigiado.  Se 
+falar  e  isso puder ser provado, o cara pega ate' quatro anos  de  prisao. 
+E' o segredo de justica. Toda comunicacao eletronica pode ser  interceptada 
+para  fins de prova, desde que nao haja outro meio de provar que fulano  e' 
+culpado,  haja  indicios de autoria ou participacao em infracao penal  e  o 
+fato tiver uma gravidade razoavel. Nesses casos a coisa pode ser feita. Com 
+o uso de funcionarios de "concessionarias do servico publico". Sera' que  o 
+governo  vai  comecar  a  fazer  concurso  para  cargo  de   "bisbilhoteiro 
+eletronico"?  Tudo  bem. O lance todo e' que essa  legislacao  coloca  umas 
+ideias interessantes...
+     Um  SYSOP pode fazer o que quiser com a conta internet de um  usuario, 
+inclusive interceptar ou falsificar o recebimento de correspondencia. O que 
+quiser. E ai', como e' que fica? Se ele vasculha a correspondencia do cara, 
+estara'  cometendo  um  crime. Legal. Mas se o sujeito ja'  tem  um  perfil 
+proximo  ou  beirando o de um criminoso? Entao o cara  comenta  que  estava 
+fumando  um  "baseado"  (para usar um exemplo simples) e  coloca  isso  num 
+correio  eletronico. Ou comenta isso numa lista de discussao ou mesmo  numa 
+sessao de CHAT ou IRC? Que dureza, heim? Olha so' a legislacao:
+
+    Lei 6.368 de 21 de outubro de 1976
+    artigo 16. Adquirir, guardar ou trazer consigo, para uso  proprio, 
+    substancia  entorpecente  ou que determine dependencia  fisica  ou 
+    psiquica,  sem autorizacao ou em desacordo com determinacao  legal 
+    ou regulamentar:
+
+    Pena- Detencao, de seis meses a dois anos, ou pagamento de vinte a 
+    cinquenta dias-multa.
+
+Uma  revista  outro dia publicou o dia-a-dia de um cara que dizia  que  foi 
+para o Carandiru por conta de posse de drogas. Tudo bem, um advogado vai me 
+dizer  (traduzindo  da terminologia juridica) "o buraco e'  mais  embaixo". 
+Nao  e'  pratica  juridica  fazer esse tipo de coisa.  Mas  e'  tao  facil, 
+falsificar  a  presenca  das pessoas na Internet.  E'  totalmente  possivel 
+imitar  ou  mesmo  personificar frases e atitudes. Eu  mesmo  ja'  fiz  uma 
+crianca de 10 anos acreditar que era um cachorro teclando com o focinho. Na 
+Internet  ninguem  sabe  quem  voce  e' ou como  voce  e'.  E  o  nivel  de 
+imbecilidade atual e' grande o bastante para enganos acontecerem. E  muitas 
+vezes, a diferenca entre a verdade e  a mentira e' questao de opiniao.  Uns 
+acreditam,  outros nao. E a correspondencia do cara, numa lista  eletronica 
+de  discussao  ou mesmo na sua caixa postal eletronica  podera'  ser  usada 
+contra ele. Tudo bem que a coisa pode ser destruida depois. Mas nada impede 
+de  um  policial resolver, ja' que esta' com a mao na  massa,  vasculhar  o 
+resto do arquivo de correspondencia do servidor em busca de outras pessoas, 
+que  podem  ser suspeitas. E' muito mais facil fazer  isso,  inclusive.  Ou 
+decidir  que  pode  pedir  pro  juiz  a  interceptacao  de  correspondencia 
+eletronica de outros que tem contato com o cara.
+     Nao   faz   a  minima  diferenca  se  a   correspondencia   eletronica 
+interceptada  e' destruida depois. E' muito mais facil de fazer  copias  do 
+que no caso de uma correspondencia comum. E ao que tudo indica, as  pessoas 
+se  abrem muito mais dentro do ciberespaco do que fora dele.  Talvez  hajam 
+repeticoes  daquele  caso  de processo por danos  morais,  quando  um  cara 
+criticou  numa BBS um livro recem-lancado sobre DOS como mera  reformulacao 
+de material da versao anterior com uma maquiada para parecer material  mais 
+atual e vender mais. O editor entrou com um processo por conta de um e-mail 
+numa lista de discussao de uma BBS que nem estava ligada na Internet,  para 
+um  publico  de  menos  de 1000 pessoas,  talvez.  Pelo  jeito,  agora  que 
+correspondencia eletronica passa a valer como prova, mais coisas desse tipo 
+vao acontecer.
+     O  que  nao  deixa de ser uma pena, pois sem um email  de  um  ilustre 
+desconhecido, nao se saberia do bug no Pentium, por exemplo. As revistas de 
+informatica  provavelmente  nao noticiariam sobre ele, com medo  de  perder 
+dinheiro  de anuncio da Intel. A maioria das revistas fazem isso.  Dependem 
+de  anuncios  para sobreviver, entao nao podem falar mal do  que  anunciam. 
+Mais ou menos como aquele "burburinho" sobre o que a Coca-cola fazia com  a 
+cocaina  que NAO extraia da folha de coca durante a fabricacao  do  extrato 
+que da' origem ao refrigerante. Isso ja' era comentado nos EUA uns dez anos 
+antes  de  ter saido na televisao aqui. E acho que muita  gente  nem  ouviu 
+falar da reportagem. 
+     O  que traz uma outra ameaca para o futuro. A lei de  informatica,  um 
+projeto  de lei que esta' em andamento. Recebi uma copia, nao sei ate'  que 
+ponto  e' veridica, mas trata todos os servicos pagos de acesso  eletronico 
+como tendo que ter um responsavel pela informacao contida nele. E todos  os 
+tais  servicos eletronicos sao, por essa lei (que ainda nao  foi  aprovada) 
+enquadrados como agencias de noticias. Nao e' legal? Deve ser interessante, 
+porque  esse  pessoal que cobra um ninharia para fornecer  um  servico   de 
+acesso a internet, de repente vai ter que ter responsabilidade sobre o  que 
+divulga  atraves  dela, da mesma forma que a agencia ESTADO  ou  a  agencia 
+FOLHA. Quer dizer, se antes a pessoa sem muita burocracia abria um  servico 
+desses,  agora nao so' vai ter uma papelada, como tera' que pagar  impostos 
+ou  multas. Sem falar que a colocacao de status de "agencias  de  noticias" 
+resolve qualquer problema, quando se precisar voltar com a censura.
+     Logico, por conta propria, os donos de BBS ligadas a internet, ja' que 
+tem essa espada sobre a cabeca, vao colocar talvez filtros, semelhantes aos 
+que a American On-line utiliza. Para quem nao sabe, a dita cuja nao  libera 
+nos  chats  ou  canais interativos nada que nao  possa  aparecer  na  secao 
+infantil de um jornal de domingo. Quer dizer, isso e' imaginacao minha, mas 
+se funcionar desse jeito, ok, ninguem vai poder ganhar muito dinheiro,  por 
+exemplo,  fazendo  um  servico de "encontros  anonimos"  via  internet.  Ou 
+inventar  uma "Net-gay". Para se prevenir contra "espertinhos", os  SYSOPS, 
+ja' que a lei (por enquanto projeto de lei) permite isso, podem ate'  fazer 
+filtros procurando por palavras chave na  correspondencia. 
+
+ "Nosso   sistema de filtragem detectou um uso excessivo dessa rede para  a 
+pesquisa  de assuntos ligados a contravencao, caso em que nos reservamos  o 
+direito de cancelar o seu acesso".
+
+Nossa,  agora me veio a cabeca a possibilidade de iscas como e'  feito  nos 
+EUA,  para  prender  gente,  nos  estados em  que  a  prostituicao  nao  e' 
+permitida.  Botam uma policial vestida de prostituta. Aceitou,  aparece  um 
+camburao. De  repente,  policiais "a paisana" vao se infiltrar na  rede  em 
+busca  de  gente idiota o bastante para se incriminar on-line.  Se  nao  me 
+engano,  os  "Anjos  da Lei" chegaram a fazer isso. Talvez  seja  uma  boa, 
+talvez  realmente hajam criminosos usando a rede para fins  malevolos.  Mas 
+se  for  por  ai',  ate'  uma faca de cozinha  pode  ser  usada  para  fins 
+malevolos.  A  rede e' uma forma de comunicacao que pode tornar  popular  o 
+contato com gente do outro lado do mundo de forma barata e...   
+Claro.  Talvez  seja lobby da telefonica, que quer um servico tao  besta  e 
+pouco interessante que as pessoas nao irao usa-lo, por conta do preco.  Tal 
+como  acontece com as ligacoes internacionais. A pessoa paga mais caro  por 
+uma  ligacao  DDD  feita com um celular do que com um  telefone  comum.  As 
+telefonicas fazem mais dinheiro, por isso tem celular para todo mundo. 
+     Nao existe dinheiro para o governo se a informacao for gratuita.  Essa 
+e'  a  grande verdade. Da forma que as coisa estao, a  opiniao  publica  e' 
+controlada por grandes empresas que pagam impostos e tem condicoes de  ate' 
+influenciar  a eleicao de politicos. Quem leu a biografia do  CHATEAUBRIAND 
+sabe que a imprensa e' o quarto poder. A constituicao, no art. 5, protege o 
+direito  a  liberdade  de opiniao. E a lei 5250 do codigo  penal  regula  a 
+liberdade de manifestacao de pensamento e de informacao. Quem sabe?  George 
+Orwell dizia no seu livro, "1984", que se voce quiser imaginar seu  futuro, 
+pensa  numa  bota te esmagando o rosto. Talvez nao seja algo  assim  negro. 
+Talvez seja algo comum, do tipo assim obrigando a todos os  q. fizerem  uma 
+home-page  na  Internet a comparecer num cartorio e  assinar  um  documento 
+esclarecendo  a "razao social" do seu URL. So' o futuro dira'.  Quem  sabe, 
+talvez so' os verdadeiros hackers tenham direito a privacidade. O preco  da 
+liberdade e' a eterna vigilancia...
+        -----------------------------//---------------------------
+
+                                 O IRC!!!
+                                 ========
+
+Pagina
+01-O que e
+02-Como funciona
+03-Nocoes gerais (canal, pvt, join, part, kick, ban, quit, op, topic, 
+bot, lag, flood, ircontros, ping, MOTD)
+04-Netica (Net + etica)
+05-Aprofundamento no funcionamento
+06-Comandos basicos
+07-Comandos especias
+08-Nocoes aprofundadas (clones, lag*, flood*, ircop, DCC, Chat fserver, 
+CTCP, kill, conta Shell, split, netsplit, uso de '|')
+09-O BOT
+10-Modos do canal
+11-Setando modos de um canal
+12-Modos do usuario
+13-Setando modos de um usuario
+14-O Hacker no IRC
+15-Take Over (Take Down)
+16-Emocticons
+17-Estudo dos softs disponiveis
+18-Pirch
+19-Mirc
+20-Scripts
+21-Scripts: o que sao, como fazer, quem faz, os tipos(funcoes),os 
+melhores disponiveis, como funciona
+22-DDE
+23-Lista de servidores
+24-Comentarios gerais/finais
+25-Paginas sobre o assunto
+26-Por motivos tecnicos esse campo nao foi achado na .DLL
+27-O OPerador no IRC (procedimentos)
+28-Bibliografia
+29-Agradecimentos
+30-Elogios
+31-Encerramento
+-----//-----
+
+1-O que e?
+
+O IRC (Internet Relay Chat) e a parte de conversacao na Internet, e onde  e 
+possivel  trocar ideias com pessoas de qualquer parte do planeta  e  possui 
+muitas  opcoes,  como por exemplo, durante uma conversa (chat),  enviar  ou 
+receber  arquivos atraves do DCC. No IRC, e claro, todo mundo tem  que  ser 
+indentificado, para isso, sao usados os nicks-names, ou, somente: Nick; e o 
+mais  comum  e  colocar um apelideo, o nome  real,  um  artista  preferido, 
+cantor, etc.
+
+2-Como funciona?
+
+Ao  colocar uma mensagem (msg) no seu programa de IRC, ela sera  enviada  a 
+todos  os  usuarios que estiverem com acesso a mesma. Isso porque  vc  pode 
+enviar  msgs privadas onde somente vc e a pessoa que esta em canal  privado 
+(pvt) com vc que ira le-las.
+
+3-Nocoes gerais:
+
+3.1-Canal: Se constitui em um canal, ou sala de conversacao onde as 
+pessoas conversam em grupos;
+
+3.2-Pvt: e um canal particular/exclusivo seu e da outra pessoa, 
+ninguem mais pode ler o que la foi escrito;
+
+3.3-Join: Se constitui na entrada em um canal, e seguido de aviso onde 
+consta seu nick, user-login, ip ou e-mail. Exemplo: se entrar uma pessoa 
+com o nick de Batman, cujo user e Carlos e o IP e 200.241.342.172:
+=JOIN #BRASIL -> Batman (carlos@200.241.342.172)
+
+3.4-Part: Se constitui da saida de um canal, e mostrado na tela da 
+mesma forma que o JOIN;
+
+3.5-Kick: Traduzindo: Chute; ocorre quando vc desrespeita um canal, 
+xinga alguem, faz flood... resumindo, quando perturba o canal. A pessoa 
+e kickada pelos Ops;
+
+3.6-Ban: Se constitui de um BANimento de um usuario de um determinado 
+canal, por tempo limitado ou ilimitado. Se constitui de tres formas de 
+ban:
+1-banimento por nick: onde vc nao podera entrar com o nick com cujo 
+qual foi banido;
+2-banimento por username: onde vc nao podera entrar com aquele 
+username que utilizava quando foi banido;
+3-banimento por IP: onde todos que estiverem com o IP igual ao do 
+banido, nao podera entrar.
+Os programas de IRC estao preparados a receber 4 (quatro) tipos de 
+banimento pre-programados:
+1-*!*user@endereco.ip
+2-*!*@endereco.ip
+3-*!*user@*.ip
+4-*!*@*.ip
+
+3.7-Quit: e a saida do IRC, pode acontecer por varios motivos, entre  eles, 
+a  opcao do usuario de deixar o IRC, um problema na rede manda  um  comando 
+para  desconexao dos usuarios conectados nele, tempo de resposta  esgotado, 
+ou por flood (?!?);
+
+3.8-OP: Sao os Operadores de um canal, eles que controlam o canal,  podendo 
+kickar  ou banir as pessoas, de acordo com a necessidade, sao somente  eles 
+que podem mudar o topico (se um canal estiver com modo +t);
+
+3.9-Topic: e a 'descricao' do canal, o topico dele, onde costumam ficar  as 
+informacoes sobre IRContros, descricoes do canal e etc.
+
+3.10-Away:  e  quando  um  usuario sai para mexer  em  outro  soft  no  seu 
+computador e nao vai prestar atencao no que sera dito no IRC, entao, vc  se 
+coloca no Status de Away que, para todo mundo que lhe comunicar algo, o seu 
+soft  automaticamente enviara a msg de away, que vc colocou, a  pessoa  que 
+havia lhe chamado;
+
+3.11-Bot: e um soft, ou script, que toma conta do canal, tem comandos  pre-
+estabelecidos,  do tipo: quem pode ser OP, com quantas repeticoes ocorre  o 
+FLOOD, quando banir, quando desbanir, comandos internos e etc;
+
+3.12-Lag:  Significa quando uma msg demora a chegar, quando vc  digita  uma 
+msg e a outra pessoa so recebe ele um bom tempo depois;
+
+3.13-Flood:  Se  constitui da repeticao de msgs em um canal ou  pvt,  se  a 
+repeticao  for pequenissima, o usuario costuma receber uma notificacao,  se 
+maior,  um  kick, persistindo no erro, um banimento temporario, mas,  se  o 
+flood for grande, podera receber um Kill;
+
+3.14-IRContro: Se constitue de encontros reais, normalmente mensais,  entre 
+os usuarios do IRC e da Net em geral;
+
+3.15-Ping: e um comando utilizado para testar se ha ou nao LAG, ele testa o 
+tempo de resposta de um usuario;
+
+3.16-MOTD: Message Of The Day; e a mensagem que o usuario recebe quando  se 
+conecta a um servidor, seria a 'tela de entrada'.
+
+4-Netica:
+  
+A  netica  se  consiste na etica da internet, ou seja, como  se  portar  na 
+mesma.  Vc  tem  que evitar exageros do tipo: escrever uma  frase  todo  em 
+maiuscula,  e como se vc estivesse gritando; usar de  palavroes;  ministrar 
+palavras  de baixo calao, insultar outras pessoas, fazer falso  testemunho, 
+nao  mentir, torna-se sociavel, nao custa nada usar de palavras  como:  por 
+favor,  obrigado, de nada, bom dia, boa tarde, boa noite, seja bem vindo  e 
+etc. :)
+
+5-Aprofundamento no funcionamento:
+
+Quando  vc  envia uma msg, ela seguira ao seu servidor de  Net,  depois  ao 
+servidor de irc em cujo qual vc esta conectado, deste, e enviada a todos os 
+servidores  de  irc  que estao conectados ao seu e entao,  cada  um  desses 
+servidores,  re-envia  a  msg aos seus usuarios que puderem  ter  acesso  a 
+mesma.
+
+6-Comandos basicos:
+
+6.1-Entrar em canal(join) ............. : /join #canal
+6.2-Sair de um canal(part) ............ : /part #canal
+6.3-Mandar uma msg privada ............ : /msg $nick $msg
+6.4-Sair do IRC deixando msg .......... : /quit $msg
+6.5-Conectar em um server de IRC ...... : /server $servidor
+6.6-Abrir pvt com a pessoa ............ : /query $nick
+6.7-Fazer um 'action' ................. : /me $msg
+6.8-Kickar um usuario ................. : /kick #canal $nick $msg
+6.9-Dar OP Status a alguem ............ : /mode #canal +o $nick
+6.10-Listar os canais de um servidor .. : /list
+6.11-Trocar seu nick .................. : /nick $new_nick
+6.12-Trocar o topico .................. : /topic #canal $topic
+6.13-Ver info dos usuarios ............ : /whois $nick
+6.14-Mandar msg = digitar normalmente . : /say $msg
+6.15-Gerar beep ....................... : /beep $numero $vezes
+6.16-Apagar texto de uma janela ....... : /clear
+6.17-Fechar pvt ....................... : /closemsg $nick
+6.18-Informacoes de um canal logado ... : /channel
+6.19-Fechar cliente (soft) ............ : /exit
+6.20-Help sobre cmd ................... : /help $cmd
+6.21-Pede horario ao servidor ......... : /time
+6.22-Sair de todos canais ............. : /join 0
+
+7-Comandos avancados:
+
+7.1-Banir por nick ................. : /mode #canal +b nick!*@*.*.*.*
+7.2-Banir por user ................. : /mode #canal +b *!user@*.*.*.*
+7.3-Banir por ip ................... : /mode #canal +b *!*@ip
+7.4-DeOP usuario ................... : /mode #canal -o $nick
+7.5-Dar KILL (so para IRCops) ...... : /kill $nick $msg
+7.6-Ver usuarios com mesmo IP ...... : /who $nick
+7.7-Ver info de usuario que saiu ... : /whowas $nick
+7.8-Ver todos os usuarios c/ acesso a +W : /who 0 w
+7.9-Ver todos os usuarios c/ acesso a +I : /who 0 i
+7.10-Ver todos os usuarios c/ acesso a +S : /who 0 s
+7.11-Ver todos os usuarios c/ acesso a +O : /who 0 o (ircops)
+7.12-Dar um Ping ................... : /ctcp $nick Ping
+7.13-Dar um Finger ................. : /ctcp $nick Finger
+7.14-Convidar alguem a um canal .... : /invite $nick #canal
+7.15-Ver todos os usuarios on-line . : /who
+7.16-Se tornar IRCop ............... : /oper $nick $password
+7.17-Enviar arquivo via DCC ........ : /dcc send $nick $file
+7.18-Abrir DCC Chat ................ : /dcc chat $nick
+7.19-Ver quem esta em um canal ..... : /names #canal
+7.20-Ficar away .................... : /away $msg
+7.21-Sair do away .................. : /away
+7.22-Trazer o ultimo cmd na janela . : /
+7.23-Ver a ultima linha digitada ... : /!
+7.24-Tocar .wav .................... : /wavplay $file
+7.25-Fazer um 'action' (= /me) ..... : /action $msg
+7.26-Mandar 'action' p/ todos canais : /ame $msg
+7.27-Mandar msg a todos canais ..... : /amsg $msg
+7.28-Mandar um ctcp ................ : /ctcp $nick 
+<ping|finger|version|time|userinfo|clientinfo>
+7.29-Carregar .ini ................. : /add -apuce $file
+Obs(7.29): opcoes: a (alias), p(popup), u(user), c(cmds), e(events)
+7.30-Liga/desliga auto op .......... : /auto [on|off]
+7.31-Auto-op a um usuario .......... : /auto $nick
+7.32-Auto-op a um IP ............... : /auto $ip
+7.33-Abilita grupo do 'remote' ..... : /enable #grupo
+7.34-Desabilita grupo do 'remote' .. : /disable #grupo
+7.35-Verifica se usuario esta na net : /finger email
+7.36-Liga/desliga 'fast-send' do DCC : /fsend [on|off]
+7.37-Trocar fonte de letra ......... : /font
+7.38-Liga/desliga gravacao canal/pvt : /log [on|off]
+7.39-Mandar msg (= /msg) ........... : /notice $nick $msg
+7.40-Liga/desliga ignore ........... : /ignore [on|off]
+7.41-Ignorar um nick ............... : /ignore $nick $tipo
+7.42-Ignorar um IP ................. : /ignore $ip $tipo
+Obs(7.41/42): tipo: ctcp, pvt, msg.
+7.43-Mandar msgs aos ops ........... : /omsg #canal $msg
+7.44-Mandar msgs aos ops (= /omsg) . : /onotice #canal $msg
+7.45-Liga/desliga 'protect mode' ... : /protect [on|off]
+7.46-Proteger usuario .............. : /protect $nick
+7.47-Proteger IP ................... : /protect $ip
+Obs(7.46/47): NaO usar protecao em canais registrados
+7.48-Liga/desliga 'events' ......... : /events [on|off]
+7.49-Liga/desliga 'remote' ......... : /remote [on|off]
+7.50-Executar soft ................. : /run $soft $parametros
+7.51-Enviar msg procedida de som ... : /sound #canal $file $msg
+7.52-Usar 'Monologue' para falar msg : /speak $msg
+7.53-Manda 'action' a canal ........ : /describe #canal $msg
+7.54-Controle interno de flood ..... : /flood $linhas $intervalo 
+$pausa
+7.55-Fazer um 'File SERVER' ........ : /fserver $nick $dir_inicial
+7.56-Responder DCC Chat ............ : /creq [ask|auto|ignore]
+Obs(7.56):Ask:ele pergunta, auto:aceita, ignore:ignora.
+7.57-Procurar DNS por nick ......... : /dns $nick
+7.58-Procurar DNS por IP ........... : /dns $ip
+7.59-Mostrar texto para usuario .... : /echo $nick $canal $msg
+7.60-Liga/desliga 'notify list' .... : /notify [on|off]
+7.61-Carregar um arquivo na tela ... : /play [#canal/$nick] $file
+Obs: O comando /play tem uma particularidade: ele tambem pode ser utilizado 
+para  carregar  um  arquivo formato texto e interpretar  suas  linhas  como 
+comandos, basta acrescentar -c e, para que uma linha somente seja utilizada 
+radomicamente, -r; exemplo: /play -c -r #canal/$nick $file
+7.62-Da OP se ninguem der .......... : /pop $tempo #canal $nick
+7.63-Enviar cmd RAW p/ o servidor .. : /raw $cmd
+7.64-Salvar arquivo .ini ........... : /save $file.ini
+7.65-Tipo de receber DCC ........... : /sreq [ask|auto|ignore]
+Obs(7.65):ask:pergunta se recebe, auto:recebe automaticamente, 
+ignore:ignora o DCC.
+7.66-Ligar o timer ................. : /timer $N_timer &repeticoes 
+$intervalo $comandos
+7.67-Abre U-Central (= /whois)...... : /uwho $nick
+7.68-Liga/desliga tela p/ ver URLs . : /url [on|off]
+7.69-Acrescenta usuario na lista ... : /auser -a $nivel $nick
+7.70-Acrescenta usuario por email .. : /auser -a $email
+7.71-Mudar nivel ................... : /dlevel $nivel $nick
+7.72-Remover nicks de um nivel ..... : /flush $nivel
+7.73-Remover nicks (= /flush) ...... : /rlevel $nivel
+7.74-Lista usuarios de um nivel .... : /ulis $nivel
+7.75-Obter info dos servidores ..... : /info
+7.76-Listar os IRCops .............. : /stats o $server
+7.77-Listar as K-lines ............. : /stats k $server
+7.78-Listar as portas .............. : /stats l
+7.79-Ver os administradores ........ : /admin
+7.80-Ver o numero de usuarios ...... : /lusers
+7.81-Ver quais servidores linkados . : /links
+7.82-Checar 'Timers' ligados ....... : /groups -e
+7.83-MOTD .......................... : /motd
+
+8-Nocoes aprofundadas:
+
+8.1-Hackers:  Utilizam  o  IRC para derrubar  pessoas  atraves  de  floods; 
+utilizam tb para trocar softs de interesse aos mesmos; Favor nao  confundir 
+hackers de verdade com hackers de IRC;
+
+8.2-Clones:  Sao usuarios falsos utilizados pelos hackers para dar  floods; 
+podem  ser  detectados pelo IP, pois, possuem o mesmo IP do  hacker  que  o 
+utiliza;
+
+8.3-LAG:  Pode  ocorrer  quando  um  hacker  coloca  muitos  clones  em  um 
+determinado canal, pois, o servidor tera que re-enviar as msgs a uma  maior 
+quantidade de usuarios;
+
+8.4-Flood:  Ocorre quando um hacker tenta derrubar uma pessoa,  se  procede 
+quando  o  hacker  usa  seus clones para mandar  repetidas  msgs  para  uma 
+determinada  pessoa, como os clones sao muitos (nomalmente mais de 5)  e  a 
+vitima,  somente  1, a vitima cai do servidor por flood, e os  clones  nao, 
+porque  cada  um  fez apenas um pouco de flood, a soma desse  flood  e  que 
+'floode' o usuario;
+
+8.5-IRCops:  Vc pode partir esse termo em 3: 1-IRC; 2-OP; 3-COP! Os  IRCops 
+sao os responsaveis pelo patrulhamento do IRC, sao eles que podem dar Kill, 
+entrar  em  canais com senha, se tornar op mesmo que alguem nao  lhe  passe 
+esse  status,  e o organizador, na hierarquia, encontra-se acima  dos  Ops, 
+Bots e ate mesmo de alguns masters;
+
+8.6-DCC:  e  por onde e possivel fazer a troca de  arquivos,  basta  apenas 
+enviar o arquivo e a pessoa aceitar (Get, Acept, etc) o envio do mesmo;
+
+8.7-Fserver:  e como se vc estivesse no DOS do outro usuario, e um  servico 
+que  lhe permite ver, copiar, transferir, executar, deletar os arquivos  do 
+outro usuario, dependendo do seu nivel de acesso ao mesmo;
+
+8.8-CTCP:   e   uma  parte  do  Client-To-Client-Protocol   (protocolo   de 
+transmissao  cliente-cliente).  Normalmente  e  utilizado  para   conseguir 
+informacoes  sobre  um usuario como nome real, email, soft cliente  que  vc 
+esta  utilizando. e utilizado para fazer flood: Quando o cliente recebe  um 
+CTCP  qualquer  ele ira enviar a informacao solicitada, se  for  solicitada 
+muita  informacao ao mesmo tempo, o servidor indicara que seu cliente  esta 
+fazendo flood e desconetara o mesmo;
+
+8.9-Kill: e um comando especial, que somente pode ser dado por um IRCop  ou 
+por um servidor de IRC. e aplicado quando um usuario comeca a usar  clones, 
+quando  um  usuario  esta pertubando o servidor, e, o  mais  comum:  quando 
+ocorre um netsplit e ocorre que dois usuarios utilizam o mesmo nick; Em  um 
+caso como o ultimo citado, quem estiver com o nick a mais tempo permanece e 
+o outro usuario levara Kill;
+
+8.10-Conta Shell: Se constitui de um espaco (sub-diretorio) em disco  no/do 
+servidor.  Costuma ser utilizada para a colocacao de bots no IRC.  A  conta 
+Shell permite o acesso ao sub-diretorio, mas, nao via acesso comum tipo DOS 
+ou Windows e sim pelo sistema Unix;
+
+8.11-Split:  Costuma  ocorrer em conjunto com o netsplit; e  quando  muitos 
+usuarios  saem  de  um determinado canal. Costuma-se dizer  que  o  usuario 
+'caiu' quando isso acontece;
+
+8.12-NetSplit: e a quebra de uma conexao entre dois servidores, quando isso 
+ocorre,  para  um  servidor,  e  como  se  todos  os  outros  usuarios   se 
+desconectassem  do IRC.e detectavel: O usuario tem que setar o seu  proprio 
+modo  para +s (/mode $me +s), comando que server para receber mensagens  do 
+servidor;  pronto,  agora e so ficar prestando atencao  no  status,  quando 
+chegar  uma  mensagem  do  servidor contendo o  seguinte:  'Net  Break'  ou 
+'Junction Break' ou mesmo uma mistura dessas duas mensagens, e a  indicacao 
+do rompimento de conexao de dois servidores, e o Netsplit ocorrendo;
+
+8.13-Utilizacao de '|': Essa 'barra' e utilizada para comandos 
+complexos  que teem que ser digitados de um so vez; a funcao dela seria  de 
+emular ao programa de IRC que um comando foi digitado, enviado e outro  foi 
+enviado  logo a seguir. Exemplo: O usuario gostaria de entrarem  um  canal, 
+tocar um arquivo .wav e sair do canal, entao, o comando deveria ser esse:
+/join #canal | /wavplay #canal exemplo.wav | /part #canal
+Ou seja, '|' serve para separar comandos.
+
+9-O Bot
+
+Feitos  pelos  entendidos  de IRC e por alguns hackers,  tem  a  funcao  de 
+espionar um canal, dar OP ao seu criador, proteger o criador e seus amigos, 
+proteger canais, evitar flood, tirar clones e etc...
+
+Um  bot tambem tem suas 'brincadeiras', exmeplo: vc pode criar no  bot  uma 
+info-line  cuja  qual  o bot colocara no canal toda vez que  vc  entrar  no 
+mesmo.
+
+Abaixo, uma relacao de comandos para bots:
+1./msg bot hello .................... : registra usuario em bot
+2./msg bot pass <senha> ............. : cria uma senha para o usuario
+3./msg bot ident <senha> ............ : faz o bot lhe reconhecer se 
+estiver conectado ao IRC de 
+forma diferente da cadastrada
+4./msg bot email <email> ............ : registra seu e-mail no bot
+5./msg bot info <info> .............. : cria uma info-line
+6./msg bot info none ................ : apaga info-line
+7./msg bot who <#canal_bot> ......... : o bot mostrara quem esta no 
+canal que ele organiza e suas 
+respectivas info-lines
+8./msg bot who <$nick> .............. : o bot enviara as informacoes 
+disponiveis sobre o usuario
+9./msg bot notes <senha> index ...... : mostra o indice das msgs 
+guardadas no bot para vc
+10./msg bot notes <senha> read # .... : o bot mostra a msg para vc de 
+numero #
+11./msg bot notes <senha> read all .. : mostra todas as msgs
+12./msg bot notes <senha> erase # ... : apaga msg de numero #
+13./msg bot notes <senha> erase all . : apaga todas as msgs
+14./msg bot notes <senha> TO <nick> <msg> .. : envia/deixa uma msg a 
+um usuario via bot
+15./msg bot help .................... : para obter ajuda do bot
+16./msg bot op <nick> <senha> ....... : para o bot dar op-status a um 
+usuario; o mesmo tem que estar 
+cadastrado como OP no bot, 
+coisa que so os masters podem 
+fazer
+
+Procedimentos: O indicado e que o usuario use dos comandos 1 ao 4, e 5,  se 
+quiser.  E  que  o usuario se cadastre em todos os  BOTs  de  um  servidor, 
+principalmente os Bots daqueles canais que o usuario sempre costuma estar.
+
+Master:  e o dono do Bot ou um usuario autorizado; e quem programa  e  quem 
+habilita/desabilita outros masters, ops, area de arquivos e outros.
+
+Linguagem:  Costumam  ser  feitos em R.A.W., que e a  programacao  do  IRC, 
+quando Bots caseiros. Os Eggegrops Bots sao feitos em Unix.
+
+Diferenca:  Caseiros: e um Bot de teste, feito em R.A.W. e colocado em  uso 
+quando o usuario se conecta ao IRC;
+
+Egge:  e um Bot trabalhado, feito em Unix, e colocado em uso pelo  servidor 
+ou usuario com conta Shell com autorizacao e apoio dos mesmos.
+
+DCC:  Constitui-se da via direta de comunicacao Master-Bot,  Usuario-Bot  e 
+Bot-Bot,  serve  para  pegar  arquivos  na  'area  de  arquivos',  e  para, 
+principalmente,  utilizar a 'parity-line' do bot para conversar (chat)  com 
+outros usuarios que tambem estejam conectados ao bot.
+
+10-Modos de um canal:
+
+Um  canal, ele tem que ter suas protecoes internas e automaticas, para  nao 
+depender  somente dos ops e ircops. Esses modos permitem ao canal, que  ele 
+seja  privado (+p), invisivel (secreto)(+s), somente os Ops podem  mudar  o 
+topico(+t),  nao  recebera  msgs  de usuarios de fora  do  canal  (+n),  so 
+entrarao  usuarios  chamados (invite) pelos ops (+i), podem ter  um  numero 
+limitado de usuarios (+l), ser um canal moderado, ou seja, so os Ops e quem 
+tiver VOICE pode falar (+m) e ate mesmo uma senha para vc entrar (+k)
+
+11-Setando os modos de um canal:
+
+1-Privado ........................... : /mode #canal +p
+2-Secreto ........................... : /mode #canal +s
+3-So OPs mudam o topico ............. : /mode #canal +t
+4-Nao receber msgs de fora .......... : /mode #canal +n
+5-So usuarios 'invitados' ........... : /mode #canal +i
+6-Numero limitado de usuarios ....... : /mode #canal +l $num
+7-Canal moderado .................... : /mode #canal +m
+8-Canal com senha ................... : /mode #canal +k $senha
+9-Tirar algum dos modos ............. : /mode #canal -modo_escolhido
+
+12-Modos do usuario:
+
+Esses modos do usuario sao mais para protecao; ele pode ficar invisivel  ao 
+servidor,  pode receber as msgs do servidor, cujas quais indicam quando  um 
+servidor  caiu  ou tentou reconctar, ver as 'Walls-OPs', ou seja,  as  msgs 
+enviadas de Ops e Ircops a outros Ops ou IRCops. E ate mesmo dar VOICE a um 
+usuario em um canal.
+
+13-Setando os modos de um usuario:
+
+12.1-Invisivel .................... : /mode $nick +i
+12.2-Server msgs .................. : /mode $nick +s
+12.3-Wall-ops ..................... : /mode $nick +w
+12.4-Voice ........................ : /mode #canal +v $nick
+
+14-O Hacker no IRC:
+
+Um  hacker  no  IRC,  costuma estar la  para  trocar  informacoes,  senhas, 
+programas,  dicas e etc. Costumam estar equipados com bons scripts e com  o 
+mirc.  Nao sao os responsaveis por clones e etc. Quem costuma  usar  clones 
+para  IRC sao os lamers que consiguiram um script e acham que por  isso  ja 
+sao hackers. Um hacker pode ate ter, mas e muito raro usar clones.
+
+15-Take Over:
+
+Tambem conhecido como 'Take Down'; e a tomada de um canal por um usuario.
+Como  proceder para tomar um canal: Deve-se setar os modos do usuario  para 
+receber as mensagens do servidor. Quando houver uma 'quebra' de conexao,  o 
+usuario devera se conectar ao servidor que desconectou-se e entrar no canal 
+desejado, que, provavelmente, nao tera um unico sequer usuario, tornando-se 
+assim, Operador. Quando o servidor reconectar-se a rede, o usuario  precisa 
+apenas tirar o OP-Status dos Operadores pela outra conexao.
+Como  evitar: Quando ocorrer uma 'quebra' de conexao, o Operador  de  canal 
+deve  estar  atento para retirar o OP-Status de todos os  Operadores  assim 
+logados no servidor que desconectou-se.
+
+16-Emocticons:
+
+Sao  os  simbolos  do  IRC,  atraves  dos  quais  vc  pode  expressar   sue 
+estado/sentimento  sobre  algo.  Sao  comumente  utilizados  em  mails.  Os 
+principais:
+
+:) ................................ : Alegre
+:( ................................ : Triste
+:~( ............................... : Chorando
+:`( ............................... : Chorando (2)
+:~) ............................... : Emocionado
+;) ................................ : Piscando
+:* ................................ : Beijo
+:*) ............................... : Cheiro
+}:-{ .............................. : P. da vida
+<:^) .............................. : Palhaco
+q:^P .............................. : Bone e com a lingua de fora
+:P ................................ : Sorrindo
+:O ................................ : Impressionado
+:| ................................ : Sem comentarios
+:X ................................ : Cala a boca; calado
+
+17-Estudo dos softs disponiveis:
+
+Os  softs  devem ser avaliados pela simplicidade,  capacidade  de  scripts, 
+visual.  Os  softs  atualmente  costumam trabalhar  com  janelas  onde  sao 
+dedicadas,  uma(s) para pvt(s), outra(s) para canal(is), uma  para  finger, 
+outra para a lista dos canais, outra(s) para DCC(s).
+
+18-Pirch
+
+Considerado  o  2o  melhor  soft  disponivel,  ele  possui  uma   interacao 
+soft/usuario  muito  boa, todos os comandos podem ser dados pelo  mouse,  o 
+menu de 'aliases', por onde e possivel editar novos comandos tb e simples e 
+facil, o menu 'events' trabalha com eventos de uma forma incrivelmente  boa 
+e facil, muito util para lazer.
+
+Peca apenas pela pouquissima dedicacao dos usuarios na producao de  scripts 
+para o mesmo. Possibilita a utilizacao de scripts, programacao com if-then-
+else,  pode  se conectar em varios servidores diferentes ao mesmo  tempo  e 
+manter uma quantidade enorme de servidores, canais e pvts abertos ao  mesmo 
+tempo.
+
+19-Mirc:
+
+O  Mirc e o soft mais famoso para IRC, tem essa caracteristica pois,  antes 
+de mais nada, e muito simples, uma vez que vc nao precisa soltar o mouse de 
+jeito nenhum, como no Pirch, tem icones para todo tipo de funcao, permite a 
+re-organizacao  de  janelas, beep quando alguem deixar uma msg para  vc  ou 
+quando  abrir  um  pvt. e escolhido principalmente pelos  script,  ja  que, 
+praticamente todos os scripts do mundo foram feitos para o mirc. Pq para  o 
+mirc? Pq ele possui uma interacao de linguagem bem facil, com utilizacao de 
+um  kit  a  parte, pode-se programar usando  if-then-else.  Tem  quantidade 
+limitada  de  canais e pvts a ser abertos. Suporta somente 1  servidor  por 
+vez.
+
+20-Scripts:
+
+Os  scripts sao um conjunto de comandos que disponibilam  alguns  recursos, 
+como  por  exemplo:  derrubar  os outros  por  flood,  controlar  um  canal 
+automaticamente como se fosse um bot ou um usuario dedicado ao mesmo, podem 
+servidor para derrubar, gerenciando os clones a fim de que eles executem  a 
+ordem  estabelecida  pelo script, pode ignorar automaticamente  alguem  que 
+esteja tentando lhe derrubar, pode usar o recurso de protecao do IRC,  pode 
+espionar  um canal, pode bisbilhotar um pvt. Enfim, pode tudo o que  existe 
+no  IRC. Depende apenas de como for feito e a necessidade dessa  pessoa  de 
+controle de IRC.
+
+21-Scripts(2):
+
+20.1-O  que sao: Sao um conjunto de comandos com funcoes especificas e  que 
+ganham pode trabalhando em conjunto;
+20.2-Como  fazer: Basta entender de IRC e ter paciencia de fazer  algo  que 
+lhe interesse a ponto suficiente de montar seu proprio script;
+20.3-Quem  faz:  Quem  tem  paciencia  e/ou  que  necessita  de  um  script 
+especifico ou com algum caracteristica nao encontrada em outro script;
+20.4-Os melhores disponiveis: Vai depender de cada um, eu  particularmente, 
+aprecio  o Dusk para protecao e para ataque/defesa em conjunto,  prefiro  o 
+Nahrck, o Dusk e bom, e tambem o Smart Nark.
+
+22-DDE:
+
+DDE e um sistema de intercomunicao:
+
+22.1-O que e?
+
+DDE e o Intercambio Dinamico dos Dados (Dynamic Data Exchange), e um dos  3 
+mecanismos de comunicacao entre processos suportados dentro do Windows.  Os 
+outros  dois  sao  a Area de Transferencia e a  memoria  compartilhada  nas 
+bibliotecas de ligacao dinamica.
+O  DDE  esta  baseado  no sistema de mensagem  embutido  no  Windows.  Dois 
+programas Windows 'dialogam'entre si enviando mensagens de um para o outro. 
+Esses dois programa sao conhecidos como 'servidor' e 'cliente'. O  Serdivor 
+de  DDE  e'  o programa que tem acesso aos dados que poderao  ser  uteis  a 
+outros  programas Windows. O Cliente do DDE e' o programa que  obtem  esses 
+dados do servidor.
+
+22.2-Qual a utilizacao de DDE?
+Resposta: muito usado com bots/clones... tipo: quando eu colocar um  frase, 
+os outros clones executariam o que estao programados para fazer.
+
+23-Lista de servidores
+
+Vale  lembrar que ai em baixo, so fiz copiar/colar minha lista  de  servers 
+para esse documento. Os que estiverem no grupo 'BrasIRC' sao os  servidores 
+nacionais conectados em rede.
+
+[Servers]
+sv0=Efnet: irc.eskimo.comSERVER:irc.eskimo.com:6667GROUP:1
+sv1=Undernet: us.undernet.org SERVER:us.undernet.org:6667GROUP:2
+sv2=DALnet: irc.dal.net SERVER:irc.dal.net:6667GROUP:3
+sv3=DALnet: groucho.dal.net (USA)SERVER:groucho.dal.net:6667GROUP:dalnet
+sv4=DALnet: igc.dal.net (USA)SERVER:igc.dal.net:6667GROUP:dalnet
+sv5=DALnet: liberator.dal.net 
+(UK)SERVER:liberator.dal.net:7000GROUP:dalnet
+sv6=DALnet: phoenix.dal.net (USA)SERVER:phoenix.dal.net:6667GROUP:dalnet
+sv7=DALnet: toronto.dal.net 
+(Canada)SERVER:toronto.dal.net:6667GROUP:dalnet
+sv8=DALnet: xgw.dal.net (Finland)SERVER:xgw.dal.net:6667GROUP:dalnet
+sv9=Efnet: cs-pub.bu.eduSERVER:cs-pub.bu.edu:6667GROUP:efnet
+sv10=Efnet: INSA de Lyon (France)SERVER:irc.univ-
+lyon1.fr:6667GROUP:efnet
+sv11=Efnet: irc.funet.fiSERVER:irc.funet.fi:6667GROUP:efnet
+sv12=Efnet: M.I.T. (USA)SERVER:irc-2.mit.edu:6667GROUP:efnet
+sv13=Efnet: stork.doc.ic.ac.ukSERVER:stork.doc.ic.ac.uk:6667GROUP:efnet
+sv14=Efnet: The E.F.F. (USA)SERVER:eff.org:6667GROUP:efnet
+sv15=Efnet: University of Aberdeen 
+(UK)SERVER:serv.eng.abdn.ac.uk:6667GROUP:efnet
+sv16=Efnet: University of Colorada 
+(USA)SERVER:irc.colorado.edu:6666GROUP:efnet
+sv17=Efnet: University of Newcastle 
+(UK)SERVER:coanwood.ncl.ac.uk:6667GROUP:efnet
+sv18=Undernet eu.undernet.orgSERVER:eu.undernet.org:6667GROUP:undernet
+sv19=Undernet uk.undernet.orgSERVER:uk.undernet.org:6667GROUP:undernet
+sv20=Undernet: Amsterdam.NL.EU.undernet.org 
+(NL)SERVER:Amsterdam.NL.EU.undernet.org:6667GROUP:undernet
+sv21=Undernet: 
+auckland.nz.undernet.orgSERVER:auckland.nz.undernet.org:6667GROUP:undern
+et
+sv22=Undernet: 
+austin.tx.us.undernet.orgSERVER:austin.tx.us.undernet.org:6667GROUP:unde
+rnet
+sv23=Undernet: 
+brisbane.qld.au.undernet.orgSERVER:brisbane.qld.au.undernet.org:6667GROU
+P:undernet
+sv24=Undernet: 
+davis.ca.us.undernet.orgSERVER:davis.ca.us.undernet.org:6667GROUP:undern
+et
+sv25=Undernet: 
+Diemen.NL.EU.Undernet.orgSERVER:Diemen.NL.EU.Undernet.org:6667GROUP:unde
+rnet
+sv26=Undernet: 
+joplin.mo.us.undernet.orgSERVER:joplin.mo.us.undernet.org:6665GROUP:unde
+rnet
+sv27=Undernet: 
+Ljubljana.Si.Eu.undernet.orgSERVER:Ljubljana.Si.Eu.undernet.org:6666GROU
+P:undernet
+sv28=Undernet: 
+lowell.ma.us.undernet.orgSERVER:lowell.ma.us.undernet.org:6667GROUP:unde
+rnet
+sv29=Undernet: 
+Oxford.UK.EU.Undernet.orgSERVER:Oxford.UK.EU.Undernet.org:6667GROUP:unde
+rnet
+sv30=Undernet: 
+phoenix.az.us.undernet.orgSERVER:phoenix.az.us.undernet.org:6667GROUP:un
+dernet
+sv31=Undernet: 
+sanjose.ca.us.undernet.orgSERVER:sanjose.ca.us.undernet.org:6667GROUP:un
+dernet
+sv32=Undernet: washington.dc.us.undernet.org 
+(USA)SERVER:washington.dc.us.undernet.org:6667GROUP:undernet
+sv33=ANOTHERNET: 
+dragon.ne.us.another.orgSERVER:dragon.ne.us.another.org:6667
+sv34=ANOTHERNET: hacker.another.orgSERVER:hacker.another.org:6667
+sv35=ANOTHERNET: irc.blackdown.orgSERVER:irc.blackdown.org:6667
+sv36=ANOTHERNET: 
+neato.ca.us.another.orgSERVER:neato.ca.us.another.org:6667
+sv37=ANOTHERNET: 
+netnation.bc.ca.another.orgSERVER:netnation.bc.ca.another.org:6667
+sv38=ANOTHERNET: 
+sunrise.ca.us.another.orgSERVER:sunrise.ca.us.another.org:6667
+sv39=BrasIRC: AlanetSERVER:irc.alanet.com.br:6667
+sv40=BrasIRC: AmericasnetSERVER:irc.americasnet.com:6667
+sv41=BrasIRC: ArtnetSERVER:irc.artnet.com.br:6667
+sv42=BrasIRC: BuritiSERVER:irc.buriti.com.br:6667
+sv43=BrasIRC: CnetSERVER:irc.cnet.com.br:6667
+sv44=BrasIRC: CorreioNetSERVER:irc.correionet.com.br:6667
+sv45=BrasIRC: DigiNetSERVER:irc.digi.com.br:6667
+sv46=BrasIRC: E-netSERVER:irc.e-net.com.br:6667
+sv47=BrasIRC: ElogicaSERVER:irc.elogica.com.br:6667
+sv48=BrasIRC: EtfrnSERVER:irc.etfrn.br:6667
+sv49=BrasIRC: FastlaneSERVER:brasirc.fastlane.com.br:6667
+sv50=BrasIRC: FTSERVER:irc.ft.com.br:6667
+sv51=BrasIRC: HexanetSERVER:brasirc.hexanet.com.br:6667
+sv52=BrasIRC: InfoServSERVER:irc.iserv.com.br:6667
+sv53=BrasIRC: InterligueSERVER:irc.interligue.com.br:6667
+sv54=BrasIRC: KanopusSERVER:irc.kanopus.com.br:6667
+sv55=BrasIRC: LinkwaySERVER:irc.linkway.com.br:6667
+sv56=BrasIRC: MagiclinkSERVER:irc.magiclink.com.br:6667
+sv57=BrasIRC: MkmSERVER:irc.mkm.net:6667
+sv58=BrasIRC: NetwaybbsSERVER:irc.netwaybbs.com.br:6667
+sv59=BrasIRC: OriginSERVER:kit.origin.com.br:6667
+sv60=BrasIRC: PontoComSERVER:irc.pontocom.com.br:6667
+sv61=BrasIRC: Rudah SERVER:irc.rudah.com.br:6667
+sv62=BrasIRC: SodrenetSERVER:irc2.sodre.net:6667
+sv63=BrasIRC: TransNetSERVER:irc.transnet.com.br:6667
+sv64=BrasIRC: TvfilmeSERVER:irc.tvfilme.com.br:6667
+sv65=BrasIRC: UltranetSERVER:irc.ultranet.com.br:6667
+sv66=BrasIRC: WidesoftSERVER:brasirc.widesoft.com.br:6667
+sv67=DALnet: cin.dal.netSERVER:cin.dal.net:6667
+sv68=DALnet: davis.ca.us.dal.netSERVER:davis.ca.us.dal.net:6667
+sv69=DALnet: glass.oh.us.dal.netSERVER:glass.oh.us.dal.net:6667
+sv70=DALnet: mystic.ky.us.dal.netSERVER:mystic.ky.us.dal.net:6667
+sv71=DALnet: skypoint.mn.us.dal.netSERVER:skypoint.mn.us.dal.net:6667
+sv72=DALnet: uncc.nc.us.DAL.netSERVER:uncc.nc.us.DAL.net:6667
+sv73=Efnet: cismhp.univ-lyon1.frSERVER:cismhp.univ-lyon1.fr:6667
+sv74=Efnet: irc-2.mit.eduSERVER:irc-2.mit.edu:6667
+sv75=Efnet: irc-2.stealth.netSERVER:irc-2.stealth.net:6667
+sv76=Efnet: irc-2.texas.netSERVER:irc-2.texas.net:6663
+sv77=Efnet: irc.ais.netSERVER:irc.ais.net:6667
+sv78=Efnet: irc.bridge.netSERVER:irc.bridge.net:6667
+sv79=Efnet: irc.cdc.netSERVER:irc.cdc.net:6667
+sv80=Efnet: irc.cerf.netSERVER:irc.cerf.net:6667
+sv81=Efnet: irc.cnde.iastate.eduSERVER:irc.cnde.iastate.edu:6667
+sv82=Efnet: irc.colorado.eduSERVER:irc.colorado.edu:5555
+sv83=Efnet: irc.cris.comSERVER:irc.cris.com:6670
+sv84=Efnet: irc.ecn.uoknor.eduSERVER:irc.ecn.uoknor.edu:6667
+sv85=Efnet: irc.epix.netSERVER:irc.epix.net:6667
+sv86=Efnet: irc.frontiernet.netSERVER:irc.frontiernet.net:6667
+sv87=Efnet: irc.gate.netSERVER:irc.gate.net:6667
+sv88=Efnet: irc.io.orgSERVER:irc.io.org:6667
+sv89=Efnet: irc.ionet.netSERVER:irc.ionet.net:6667
+sv90=Efnet: irc.law.emory.eduSERVER:irc.law.emory.edu:6667
+sv91=Efnet: irc.math.byu.eduSERVER:irc.math.byu.edu:6667
+sv92=Efnet: irc.mcs.netSERVER:irc.mcs.net:6667
+sv93=Efnet: irc.mo.netSERVER:irc.mo.net:6667
+sv94=Efnet: irc.phoenix.netSERVER:irc.phoenix.net:6667
+sv95=Efnet: irc.primenet.comSERVER:irc.primenet.com:6667
+sv96=Efnet: irc.spyder.orgSERVER:irc.spyder.org:6667
+sv97=Efnet: irc.stealth.netSERVER:irc.stealth.net:6667
+sv98=Efnet: irc.texas.netSERVER:irc.texas.net:6667
+sv99=Efnet: irc.umn.eduSERVER:irc.umn.edu:6667
+sv100=Efnet: irc.univ-lyon1.frSERVER:irc.univ-lyon1.fr:6667
+sv101=Efnet: irc.voicenet.comSERVER:irc.voicenet.com:6667
+sv102=Efnet: irc.winternet.comSERVER:irc.winternet.com:6667
+sv103=Efnet: irc.xmission.comSERVER:irc.xmission.com:6667
+sv104=Efnet: irc1.portal.comSERVER:irc1.portal.com:6667
+sv105=Efnet: irc2.ais.netSERVER:irc2.ais.net:6667
+sv106=Efnet: irc2.epix.netSERVER:irc2.epix.net:6667
+sv107=Efnet: irc2.portal.comSERVER:irc2.portal.com:6667
+sv108=Efnet: organ.ctr.columbia.eduSERVER:organ.ctr.columbia.edu:6667
+sv109=Efnet: sgi.texas.netSERVER:sgi.texas.net:6667
+sv110=Efnet: tramp.cc.utexas.eduSERVER:tramp.cc.utexas.edu:6667
+sv111=INNERNET: 
+Allen.TX.US.InnerNET.OrgSERVER:Allen.TX.US.InnerNET.Org:6667
+sv112=INNERNET: 
+Bergen.NO.EU.InnerNET.OrgSERVER:Bergen.NO.EU.InnerNET.Org:6667
+sv113=INNERNET: 
+Boston.MA.US.innernet.orgSERVER:Boston.MA.US.innernet.org:6667
+sv114=INNERNET: 
+Brno.CZ.EU.InnerNET.OrgSERVER:Brno.CZ.EU.InnerNET.Org:6667
+sv115=INNERNET: 
+Brookings.SD.US.InnerNET.OrgSERVER:Brookings.SD.US.InnerNET.Org:6667
+sv116=INNERNET: 
+indsor.UK.EU.InnerNet.orgSERVER:indsor.UK.EU.InnerNet.org:6667
+sv117=LAGGED: irc.xmission.comSERVER:irc.xmission.com:6667
+sv118=LAGGED: lincoln.ecn.uoknor.eduSERVER:lincoln.ecn.uoknor.edu:6667
+sv119=LAGGED: organ.ctr.columbia.eduSERVER:organ.ctr.columbia.edu:6667
+sv120=LAGGED: rc.dd.chalmers.seSERVER:rc.dd.chalmers.se:6667
+sv121=Nacional: ConexSERVER:irc.conex.com.br:6667
+sv122=Nacional: Nutecnet SERVER:irc.nutecnet.com.br:6667
+sv123=Undernet: ca.undernet.orgSERVER:ca.undernet.org:6667
+sv124=Undernet: ChicagoSERVER:Chicago.IL.US.Undernet.org:6665
+sv125=WASTELAND: frozen.wasteland.orgSERVER:frozen.wasteland.org:6667
+sv126=WASTELAND: inetw.wasteland.orgSERVER:inetw.wasteland.org:6667
+sv127=WASTELAND: logina.wasteland.orgSERVER:logina.wasteland.org:6667
+sv128=WASTELAND: sahara.wasteland.orgSERVER:sahara.wasteland.org:6667
+sv129=WASTELAND: stoned.wasteland.orgSERVER:stoned.wasteland.org:6667
+sv130=WASTELAND: tessi r.wasteland.orgSERVER:tessier.wasteland.org:7777
+
+24-Comentarios gerais/finais:
+
+Espero  que  esse  documento sobre IRC seja uma marca  em  todo  o  terreno 
+nacional e internacional. :)
+
+Esse  trabalho tem muito mais do que muita gente precisa. Espero que  venha 
+ajudar  aos que nao sabem e acrescer conhecimento aos que ja sabem sobre  o 
+assunto.
+
+25-Paginas sobre o assunto:
+
+Mirc ................... : http://www.mirc.co.uk
+Pirch .................. : http://www.bcpl.lib.md.us/~frappa/pirch.html
+Scripts ................ : http://www.cris.com/~Svengali/
+
+26-Por motivos tecnicos, esse campo nao foi achado na .dll
+
+27-O Operador no IRC (procedimentos)
+
+Normas Gerais para Operadores de Canal do #BRASIL da rede 
+BrasIRC
+de Servidores 
+
+
+
+
+A - Para os Operadores em exercicio efetivo 
+
+I - Das Normas Gerais
+
+Art  1o. "e terminantemente proibido aos OPeradores de Canal  no  exercicio 
+legal e efetivo de suas atribuicoes, passar o Status de OPerador para outro 
+usuario, que nao seja cadastrado com Status de OPerador no BOT";
+
+Art  2o.  "No  caso em que o BOT se encontre no canal,  e  esteja  com  LAG 
+maximo,  nao permitindo que este tenha a possibilidade de passar o  Auto-OP 
+aos OPeradores, sera permitido a um OPerador o comando /mode #canal +o ";
+
+Art  3o.  "Sera proibido aos OPeradores passar o Status  de  OPerador  para 
+outro usuario, se o BOT nao estiver em LAG";
+
+Art  4o.  "Toda  e  qualquer acao suspeita dos  OPeradores  de  Canal  sera 
+severamente punida, sem direito a recurso aos superiores hierarquicos";
+
+Art 5o. "Todo o processo de passar o Status de OPerador a um usuario devera 
+ser precedido de:
+I  -  Verificacao, por parte daquele que passara o Status,  se,  realmente, 
+aquele usuario e um OPerador de Canal, atraves de DCC com o BOT;
+II  - Devera ser observando o IP do respectivo usuario, para a  confirmacao 
+que o este se trata realmente um OPerador de Canal;
+
+Art 6o. "Sera obrigatorio aos OPeradores de Canal, manter em sua posse, uma 
+lista  com  o  maior numero possivel de OPeradores, a fim de  se  evitar  o 
+constrangimento  de nao ser passado o Status para um  verdadeiro  OPerador, 
+caso  nao haja BOT na area e caso o OPerador nao saiba o IP do  usuario  em 
+questao":
+
+Art 7o. "A respectiva lista de que trata o artigo anterior devera constar o 
+seguinte:
+I - O nick usual do OPerador;
+II - O nick alternativo do OPerador;
+III - O IP Address do OPerador;
+II - Do Comportamento dos OPeradores no Canal
+
+Art  8o. "Sera proibido aos OPeradores, em qualquer hora que  estiverem  no 
+Canal,  xingar usuarios, bem como kicka-los sem motivo bastante  para  tal. 
+Tambem nao sera permitida, por parte dos OPeradores, ministrar palavras  de 
+baixo calao no Canal";
+
+Art  9o.  "e permitido aos OPeradores elaborar uma "lista  negra"  daqueles 
+usuarios que, frequentemente, entram no canal com a finalidade de  derrubar 
+os  outros usuarios, principalmente os OPeradores. Estes  usuarios  deverao 
+ter   seu   IP   enviado   a   administracao   do   BrasIRC   pelo   e-mail 
+(ircadmin@kanopus.com.br),  devidamente seguido do relato do fato para  que 
+sejam tomadas as respectivas providencias por parte da administracao";
+
+Art  10. "e terminantemente proibido aos OPeradores retirar o Status de  OP 
+do BOT que estiver no canal, em proveito de um OPerador que esteja fora  de 
+sua lista de Auto-OP. Aos que se encontram nesta situacao, deverao procurar 
+a administracao para solucionar, da melhor forma possivel, seu problema  de 
+Status em conflito";
+
+Art 11. "Aos usuarios que vem ao Canal para falar palavras de baixo  calao, 
+devera  ser kickado imediatamente e, caso retorne repetindo a  mesma  acao, 
+devera  ser banido do canal sem poder ser desbanido por outro  OPerador.  A 
+definicao  de  palavra  de  baixo calao dependera  do  julgamento  de  cada 
+OPerador, respectivamente";
+
+Art  12.  "A  decisao tomada por um OPerador devera  ser  respeitada  pelos 
+demais,  a  fim de se evitar o conflito entre os proprios  OPeradores,  nao 
+devendo  ser  questionado  a  respeito  de  sua  decisao,  exceto  por  uma 
+autoridade superior a sua";
+
+Art 13. "Uma vez banido um usuario, e vedado a outro OPerador retirar  este 
+banimento, em virtude do versado no artigo anterior, salvo o caso em que  o 
+BOT, e somente o BOT o faca automaticamente";
+
+Art.  14.  "Os clones de usuarios e OPeradores so serao  permitidos  ate  o 
+numero maximo de 2 (dois), qualquer clone adicional por parte dos  usuarios 
+e  ate  dos proprios OPeradores devera ser banido imediatamente  do  canal, 
+caso seja observada tal conduta dos mesmos";
+
+Art.  15.  "Aos  usuarios que sao frequentes  desenvolvedores  de  "flood", 
+deverao  ser avisados da conduta ilegal que estao fazendo, caso  continuem, 
+deverao  ser kickados. Em possibilidade do retorno ao canal apos o kick,  e 
+persistam na conduta ilegal citada, deverao ser banidos";
+
+Art  16.  "Sera  considerado  flood  a  repeticao  continua  e  em   linhas 
+consecutivas acima de 3 (tres) de frases repetitivas e daquelas usadas  por 
+scripts  de programas. Nao importando se forem Action Flood ou Text  Flood, 
+este procedimento devera ser punido com kick, conforme artigo anterior";
+
+Art 17. "Aos OPeradores e obrigatorio fornecer ajuda aos novos usuarios que 
+frequentam o canal, a fim de se manter o canal funcionando bem. Uma vez que 
+a  quantidade  de novos usuarios na Internet  aumenta  assustadoramente  no 
+Brasil e no mundo todo";
+
+Art 18. "Aos OPeradores que se negarem a ajudar, cuja prova sera o  arquivo 
+LOG  que  possivelmente o usuario possa enviar a outro OPerador.  Lhe  sera 
+imputada  punicao  decorrente da adminstracao do servidor.  Os  respectivos 
+arquivos  deverao ser enviados a adminstracao pelo e-mail citado no  artigo 
+9o, devendo o outro OPerador que o enviar, relatar o fato";
+
+Art 19. "Aos OPeradores que se utlizam da ferramenta de programa denominada 
+de  "script",  so  lhe sera permitida a utilizacao  caso  este  esteja  bem 
+configurado,  nao devendo o script, por exemplo, retirar o Status de OP  do 
+BOT,  bem  como  de outros OPeradores. Esta utilizacao  ilegal  de  scripts 
+devera  ser  imediatamente  informada a administracao do  kanopus  para  as 
+devidas providencias";
+
+Art  20.  "Os  OPeradores novatos ou que nao  possuam  experiencia  para  a 
+utilizacao de scripts no canal, deverao criar uma area fora do canal em que 
+exista BOT, para os devidos testes a fazer as respectivas configuracoes, so 
+podendo executar seus scripts quando estiverem devidamente configurados";
+
+Art  21. "Os banimentos executados pelos OPeradores deverao ser feitos  com 
+cautela,  a  fim  de  nao se fazer por engano ou no caso  de  se  banir  um 
+provedor  em  sua  totalidade. Os erros e enganos  deverao  ser  corrigidos 
+imediatamente.  Apenas  o usuario devera ser banido por  seu  comportamento 
+duvidoso ou ilegal";
+
+Art 22. "Os casos omissos ou nao citados nos artigos anteriores deverao ser 
+resolvidos pela administracao do kanopus";
+
+
+B - Para os canditados ao cargo de Operador
+
+Art  23. "Aos novos candidatos a receber o Status de OPerador, lhes  devera 
+ser informado o seguinte:
+I - Que deverao ficar em periodo de observacao de, pelo menos, 30  (trinta) 
+dias  a contar da data em que se formalizar o pedido, que devera ser  feito 
+por  um OPerador de canal, que, no ato respectivo, se responsabilizara  por 
+aquele que, em seu nome, solicitou o pedido de Status de OPerador;
+II  - Que o usuario, de preferencia, seja uma pessoa de confianca de  outro 
+OPerador";
+III - Que o pedido formal sera feito a administracao via e-email, e que ele 
+devera  aguardar  a  resposta,  nao podendo ser  passado,  nem  em  carater 
+provisorio, o Status de OPerador em questao, em hipotese alguma;
+IV - Que para obter o Status de OPerador e necessario ter bastante tempo de 
+frequencia no Canal e ser um bom conhecedor dos comandos basicos de IRC;
+V  -  Que  para a liberacao do Status de Operador,  o  usuario  devera  ser 
+observado por, pelo menos, 3 (tres) OPeradores em exercicio. E que o pedido 
+devera ser feito a administracao por todos, apos o periodo citado no inciso 
+I deste artigo.
+VI - A nao aprovacao de qualquer um dos OPeradores que estiverem fazendo  a 
+fiscalizacao do candidato, implicara na nao concessao do respectivo  Status 
+ao  candidato. Devendo ser levado ao conhecimento da administracao  de  que 
+aquele  candidato fora reprovado inicialmente e o motivo pelo qual houve  a 
+reprovacao  por  parte do OPerador, devendo este, fundamentar  sua  decisao 
+atraves  de e-mail, que devera ser enviado a administracao para  julgamento 
+da decisao, devendo correr por conta da administracao, a decisao final para 
+a respectiva concessao;
+VII - A reprovacao unnime do candidato devera ser tambem informada;
+VIII  -  A aprovacao do candidato devera ser relatada  atraves  de  e-mail, 
+devendo os OPeradores que realizaram a fiscalizacao do candidato relatar um 
+"nada  consta"  em  favor do candidato, para que, este  seja  julgado  pela 
+administracao posteriormente"
+
+Art 24. "O pedido formal para a liberacao do Status de OPerador devera  ser 
+enviado a administracao do BrasIRC para julgamento do merito";
+
+Art  25.  "e  obrigatorio a todos os OPeradores  a  observacao  do  usuario 
+candidato  ao Status de OPerador, desde que lhe seja formalizado  o  pedido 
+para  tal, pelo outro OPerador via e-mail, para que fique  registrado  como 
+prova o respectivo pedido";
+
+Art  26. "Os casos omissos ou nao citados nos artigos 23 a 25  deverao  ser 
+resolvidos pela administracao do BrasIRC";
+
+Art  27.  "Estas normas estao sujeitas a alteracao em qualquer  tempo,  por 
+parte do legislador ou por parte da administracao do BrasIRC"
+
+NOTAS:
+
+Normas elaboradas pelo OPerador de Canal Andre Luiz de Araujo Cunha, Nick1: 
+SAPO, Nick2: Dredd, IP: 200.241.144.*, Sob a supervisao do IRCOPerator  Jan 
+Struiving, membro da Administracao do BrasIRC.
+
+Eu,  Andre  Luiz de Araujo Cunha, nao tendo nada mais  a  relatar,  declaro 
+Sancionada  a  presente  norma, a qual entrara em vigor  a  partir  de  sua 
+publicacao na Home-Page do BrasIRC.
+
+-----------------------------------
+
+28-Bibliografia:
+
+Nao existe.
+
+29-Agradecimentos:
+
+Nao  agradeco a ninguem pq ninguem me ajudou; enquanto todo mundo via  'Sai 
+de Baixo' e 'Casseta & Planeta' eu estava trabalhando nesse documento.
+
+30-Elogios:
+
+Aos otimos scripts/softs que pude testar e a seus criadores.
+
+31-Encerramento:
+
+Qualquer duvida sobre esse documento, que sejam enviadas a  Barata-Eletrica 
+e/ou a Fernando Jales <jales@br.homeshopping.com.br>.
+
+Bom Divertimento!!!
+
+-----------------------------//---------------------------
+
+                   BBS x INTERNET: DEPENDENCIA OU MORTE?
+                   -------------------------------------
+                   
+                   Por Fernando Manuel Costa Ribeiro (*)
+
+ Com o advento da Internet e a popularizacao de seu uso, os BBSs tem per  -
+ dido espaco. Os possuidores de computadores equipados com placas de   fax-
+ -modem ou modems externos preferem agora conectar-se a Internet do que aos
+ BBSs, que agora sao vistos pela maioria das pessoas com uma tecnologia ul-
+ trapassada.
+
+ A sorte dos usuarios de sistemas de networking e que isso nao e verdade.Os
+ BBSs estao vivos sim e estao tentando se adaptar a nova onda.Ja nao e mais
+ viavel o desenvolvimento de BBSs em padrao DOS      (mesmo com o protocolo 
+ RIP), ja que a maioria dos computadores dos usuarios habilitados a acessar
+ os BBSs estao totalmente ligados ao Windows ou a sistemas operacionais si-
+ milares pois os melhores programas para Internet so podem ser acessados a-
+ traves destes sistemas.
+
+ Os BBSs para Windows tem evoluido bastante nos ultimos tempos. Hoje      o
+ principal software de gerenciamento e o Excalibur, ja utilizado por muitos
+ BBSs brasileiros. Alem disso os BBSs tem procurado oferecer conexao via e-
+ mail a Internet (atraves de conexao UUCP) ou conectividade total a rede.
+
+ BBSs sem bibliotecas recheadas de arquivos tambem estao com seus dias con-
+ tados. Recentes pesquisas realizadas nos Estados Unidos e divulgadas   via
+ Internet, onde mais de 40% dos BBSs se extinguiram no ano passado, mostram
+ que os usuarios deste tipo de sistema estao insatisfeitos com a quantidade
+ e a qualidade dos arquivos disponibilizados pelos seus BBSs. Conforme eles
+ a maioria dos BBSs nao realiza constantes atualizados no seu banco de da -
+ dos, o que os prejudica muito. Uma solucao para este problema pode ser   a
+ realizacao de convenios com Grupos de BBS e pesquisadores que, em troca da
+ divulgacao de seus trabalhos, comprometeriam-se a enviar para o sistema u-
+ ma certa quantidade de material (programas, arquivos, imagens, etc).  Como
+ sabemos que os maiores problemas enfrentados pelos pesquisadores brasilei-
+ ros sao a falta de recursos e a falta de espaco para divulgacao de    seus 
+ trabalhos, esses convenios poderao, sem duvida nenhuma, ser muito provei -
+ tosos para os BBSs e seus SysOps, que nao mais receberao reclamacoes    de
+ usuarios descontentes.
+
+ E, ja que estamos falando em SysOps, vamos analisar a tendencia de mercado
+ para esses profissionais. Os SysOps, num futuro proximo, deverao     estar 
+ disponiveis durante todo o horario de funcionamento do BBS (poucos ofere -
+ cem suporte 24 horas). Afinal e a cada vez maior o numero de leigos    que
+ acessam os sistemas de networking. Uma demonstracao disso e o grande nume-
+ ro de FAQs (documentos que contem respostas as perguntas mais   frequentes
+ sobre um determinado assunto) produzidas. Os FAQs sao uma maneira encon  -
+ trada pelos SysOps, Webmasters e especialistas pra descongestionar a   sua
+ caixa postal, que recebem diariamente perguntas como "O que e um BBS"    e
+ outras similares.
+
+ Acredito que todos os que estao lendo este artigo tenham percebido quantas
+ modificacoes os BBSs deverao fazem em suas estruturas de funcionamento   e
+ organizacao para nao serem esmagados pela Internet, que evolui a    passos
+ largos e esta cada vez mais presente nas mesas de escritorios e nas  salas
+ de aula. Precisamos trabalhar inclusive para que os BBSs, que surgiram com
+ a proposta de serem "quadros eletronicos de avisos" em empresas e  escolas
+ nao sejam substituidos pelas Intranets, que sao uma tendencia evidente.  A
+ primeira atitude a ser tomada e muito drastica: os BBSs devem se render ao
+ inimigo. Isso nao significa que eles devem se extinguir, mas que eles de -
+ vem rapidamente sentir a necessidade de mudarem e comecarem o mais  rapido
+ possivel (ate mesmo os BBSs mais pequenos) a oferecem, pelo menos,  e-mail
+ Internet. Somente depois disso eles devem pensar nas outras mudancas   que
+ devem ser feitas.
+
+ Com certeza poderiam ser feitas dezenas de modificacoes para melhorar   os
+ BBSs, mas entre elas destacam-se:
+
+ * Os BBS ainda baseados em ANSI devem passar a utilizar o RIP -     Remote
+ Imaging Protocol pois esse protocolo permite o desenvolvimento de interfa-
+ ces mais faceis de usar e que podem ser controladas pelo mouse;
+
+ * Os menus devem ser aperfeicoados (leia-se "melhor trabalhados") e melho-
+ rados visualmente (no caso de BBSs baseados em RIP o que deve ser melhora-
+ do sao as imagens de fundo - backgrounds -, que sao sempre as mesmas);
+
+ * Os BBSs que oferecem conectividade total ou se tornaram provedores    de
+ acesso Internet devem passar a se preocupar tambem com as bibliotecas   de
+ arquivos. Afinal e bastante interessante para o usuario de um BBS-Provedor
+ de Acesso ter um banco de arquivos (manuais, tutoriais), softwares, etc. a
+ sua disposicao sem a necessidade de conexao a sites congestionados;
+
+ * As areas de conferencia (conference/chat rooms) devem ser totalmente li-
+ beradas para menores de 18 anos. O espirito da Internet e de qualquer ou -
+ tro sistema de networking deve ser de liberdade, e nao de censura. Nao   e
+ uma mentira dizer que so acessa material inadequado quem deseja      fazer
+ isso;
+
+ * As empresas e pessoas responsaveis por BBSs devem abrir espaco      para 
+ patrocinadores. Assim havera mais dinheiro para investir em melhorias   no
+ sistema. Com o dinheiro obtido atraves desse marketing as empresas pode  -
+ riam tambem realizar promocoes para atrair novos usuarios mais tranquilas,
+ pois, dessa maneira, o medo de perder dinheiro diminui.
+
+ O importante e dizer que os BBSs nao morreram e nem vao morrer    enquanto 
+ houverem boas ideias para aperfeicoa-los. Afinal quando Ward   Christensen 
+ criou o sistema de BBS ja existia a Internet. Com certeza ele, uma  pessoa
+ evidentemente inteligente, deve ter pensado nesse possivel confronto entre
+ as duas tecnologias. A conclusao a que ele deve ter chegado deve ter  sido 
+ essa: nao deve haver concorrencia. Afinal se os dois sistemas se unirem e-
+ les atingirao o objetivo de Christensen, do Departamento de Defesa dos Es-
+ tados Unidos (que criou a Internet) e de todos aqueles que ja contribuiram
+ de alguma maneira para o desenvolvimento de novos recursos de  networking:
+ unir o mundo atraves de uma rede indestrutivel com utilidades infinitas  e
+ inimaginaveis.
+
+
+ (*) Fernando Manuel Costa Ribeiro e coordenador do Grupo de BBS ??????  ??
+ ?????? Alcina/USP e Web Designer da ******************************** Ltda.
+ fribeiro@uninet.com.br   
+ http://www.geocities.com/SiliconValley/Park/5296.
+
+                 ----------------------------------------
+
+                            HACKING IN PORTUGAL (?)
+                            ===================
+
+(obs:  Como  foi dito na introducao, a publicacao desse  artigo  visa  mais 
+informar  e alertar do que qualquer estimulo a fazer o que  esta'  relatado 
+nessas  paginas. Eu substitui as passwords por ? onde foi possivel.  Se  eu 
+fosse  a favor de usar conta alheia, ia achar muito facil entregar  de  mao 
+beijada estas senhas. O mesmo vale p. numero de telefone. Se o cara ta'  em 
+Portugal,  com  vinte chamadas se descobre o bendito  do  numero.  Excecoes 
+existem,  mas para mim, iniciante em cracking tem mais e' que pastar.  Quer 
+queimar  os dedos, vai fundo, mas nao fala que e' minha culpa.  Dito  isso, 
+agradeco  ao amigo do alem-mar que me mandou o artigo. Lamento  os  cortes, 
+mas... quero ir em Portugal sem paranoia. Ah, sim. O artigo esta' ai'  para 
+fins  educacionais, nao havendo nenhum estimulo de minha parte de que  algo 
+deva ser seguido).
+ 
+                       HACKiNG TELEPAC BY BLACK DEAMON
+                        SIS-BBS    Versao 0.1 - 08/98
+
+
+                              FiLEZ iNDEZ STUFF
+
+                I   - INTRODUCAO - RAGE AGAiNST THE SiSTEM
+                II  - TELEPAC Z0NE
+                III - TELEPAC NUMBAS (JUN96)
+                IV  - iNSTALACAO - DNS's & STUFF  
+                V   - L0GiNS & PASSWORDS
+                VI  - EASY PASSWOiDS  (no proximo numero do BE)
+                VII - CREDiTS - THXS - CONTACTS - BYEZ
+
+
+______________________________________________________________________________
+
+I - INTRODUCAO - RAGE AGAiNST THE SiSTEM
+______________________________________________________________________________
+
+  Ok  tava na altura de  lancar  um filez  com cenas da telepac. Pah toda  a 
+  gente conhece a telepac... na vale a pena tar aqui a dar seca com cenas...
+  Ok este filez e' para todo o pessoal q ta' farto de pagar por uma coisa  q
+  devia ser  gratis 'a muito tempo (like in the US) & tb para o pessoal q na
+  tem acesso a net (devido as mais diversas razoes) ...
+  Para fazer esta cena eu escolhi a telepac por varias razoes: alem de ser a
+  mais  concorrida (ou seja a q  tem mais papel devido ao  elevado numba  de
+  users) e' tb  aquela onde se  tem mais  facilidade  em  arranjar  accounts
+  (netpac  gamados)  e lame  users q na sabem  o q se pode fazer com o  java
+  (hehehehehhe ES&D).
+  Yah ta' bom... qq cena deixem msg na SiS... Have Fun! OVER & OUT.
+
+______________________________________________________________________________
+
+II  - TELEPAC Z0NE   
+______________________________________________________________________________
+
+        SCE / Rede telePAC - Servi~os Comerciais
+
+        Sede
+        Tel.: (01) 7907??03/?20/?21/?23
+        Fax: (01)79070??
+
+        Delega~ao Norte
+        Tel: (02) 60?6868
+        Fax:(02) 60?6767
+        E-Mail Internet: ????@telepac.pt
+
+______________________________________________________________________________
+
+III - TELEPAC NUMBAS (JUN96)
+______________________________________________________________________________
+
+ -> Numbas Locais de Acesso 'a Internet (So' Estao Aqui Os De LiSBOA)
+
+ 47? 58 ?4          Nodes Da TelePac (LiSBOA) ALFRAGIDE - E' a melhor Linha
+ 273 0? 7?           " ALMADA
+ 957 ?8 ?7           " ALVERCA - Muito pessoal aqui - Lento - Linha Ma'
+ 492 6? ?9           " AMADORA
+ 9?3 59 ?9           " CACM - A Linha eh uma porcaria - Pendurado 10 m.
+ 29? 70 9?           " CAPARICA
+ 457 ?? 64           " CARCAVELOS
+ 416 ?? 27           " CARNAXIDE - Linha Porreira - Lentoooooo - Ehp 0on
+ 483 ?3 6?           " CASCAIS
+ 4?4 ?6 ?9           " LINDA-A-VELHA
+ 352 7? 9?           " LISBOA - Sucks Cheia De Pessoal - Ma' qualidade - 5 m.
+ 98? ?7 79           " LOURES - Muito Mau... Telekom no seu melhor
+ 43? ?4 05           " MASSAMA - Ta' Fixe
+ 92? ?7 20           " MEM MARTINS - Lento mas ta fixe
+ 41? 9? 22           " MIRAFLORES
+ 9?? 59 97           " ODIVELAS
+ 44? 3? 50           " OEIRAS - Muito Pessoal
+ 4?6 79 6?           " QUELUZ - Ta' Fixe
+ 496 ?8 ?7           " REBOLEIRA - Ugh onde e' esta cena ?
+ 9?4 2? 59           " SINTRA
+ 23? 25 ?4           " TELEPAC ALMADA. PRIVATE NODE. GOT BY CRAZY HiVEN (?)
+ 23? 3? 15/6         "    "       "       "    NODES. "  "     "   "    (?)
+
+ FR0M Phone Numbas V0.4 By The Avatar (SiS BBS)
+
+______________________________________________________________________________
+
+IV - iNSTALACAO - DNS's & STUFF  
+______________________________________________________________________________
+
+  WiNDOZE 95
+
+  My Computer -> Dial Up Network -> Make New Connection
+  Connection To TelePac
+  No Connection (Options) Mete Bring Up Terminal After Dialing
+  Server Type PPP: Windows 95
+  Enable Software Compression
+  TCP/IP
+  TCP/IP Settings Server Assigned IP Adress
+                    "        "    Name
+                    Use IP Connection
+                    Use Gateway
+
+
+  Start Menu -> Control Panel -> Network
+
+  TC/IP propreties
+  IP Adress: obatain an IP address automaticaly (0.0.0.0)
+  Wins Config: Use DHCP for wins
+  Gateway: Installed Gateways...194.65.3.20/21
+  DNS config: Enable dns host (1& Parte do Endere~o; Login) Domain Telepac.pt
+  advanced: none
+  brinding:  -
+
+______________________________________________________________________________
+
+V - L0GiNS & PASSWORDS
+______________________________________________________________________________
+
+   LOGIN        PSW          OBS
+   nop03???     ????????     Netpac Gamado (28/05/96) few hours Left
+   np?7?a       ????????     No Comments; JAVA RULEZ
+   is??c        ???????      Poiz este ja foi a vida... Arranjou-me o EDDIE
+   pm??buq      ????????     Another Passwoid
+   ?xpa?ric     ????????     PSW duma Empresa qq.
+
+-> LiGUEM TB A REDE BBS (ACESSO A NET VIA TELEPAC) - (01) 79??577
+   DNS 194.65.3.20 - LOGiN: L???????. - PSW: ????
+   Para apanhar linha liguem entre as 3 e as 7 da manha.
+
+   Ok Eu Tenho + PSW... Mas Ficam Para Versoes Posteriores Deste Filez.
+   Yah... Divirtam-se Primeiro Com Estas ;) Use & Abuse
+                         
+      --------------------------------------------------------------
+
+                       NEWS - HUMOR - DICAS - ETC..
+                       ============================
+
+Date: Sat, 26 Oct 1996 09:35:28 -0200 (EDT)
+        
+VANDALOS NA REDE
+
+Uma pessoa nao identificada ou pessoas utilizaram bogus, mensagems 
+eletronicas anonimas em meados de setembro para desarmar roteadores de 
+rede no noroeste dos EUA, impedindo que legitimas mensagens eletronicas 
+chegassem ao seu destino por aproximadamente seis horas.  O professor 
+Daniel Sleator da Carnegie Mellon diz que os perpetradores nao deveriam 
+ser chamados de hackers:  "Chame-os de vandalos.  'Hacker' implica em 
+alguem sofisticado".  O analista do Computer Security Institute 
+(instituto de seguranca para computadores), Richard Power, diz que os 
+provedores de servico Internet "os Microsofts, os Lotuses e os 
+Netscapes da vida" estao "jogando essa porcaria no mercado.  Estao 
+fazendo fortunas com seus softwares mas nao estao trabalhando em 
+dispositivos de seguranca apropriados para que se possa enfrentar a 
+ameaca la fora".
+
+
+Subject: Edupage em Portugues, 12/09/96
+
+________________________________________________________________________
+
+ATAQUE DE CRACKER PARALISA A PANIX
+
+Ataques repetidos vindos de um cracker virtualmente fechou a Public Access
+Networks Corp. de Nova York, mais conhecida como Panix.  O ataque
+sobrecarregou a capacidade dos computadores em responder aos pedidos de
+"electronic handshake" (reconhecimento eletronico) ao enviar ate 150
+pedidos falsos por segundo".  "Este foi o primeiro grande ataque do genero
+e que acredito seja o problema central de seguranca na Internet", diz um
+especialista em seguranca na Internet da Lucent Technologies que "ja
+esperava" por um evento dessa natureza.  Os computadores da Internet nao
+tem como rapidamente distinguir essas falsas solicitacoes das verdadeiras. 
+Mesmo quando se criarem solucoes para se minimizar esse problema, os
+crackers vao responder com ataques ainda mais intensos.  "Vai ocorrer a
+corrida armamentista de sempre", preve o especialista em seguranca da
+Lucent, entre o aprimoramento das medidas de seguranca e a habilidade dos
+crackers em neutraliza-las.
+
+Wall Street Journal 12 set B1
+
+
+------------------------------------------------------------------------
+
+Subject: Edupage em Portugues, 10/09/96
+
+OS BANCOS SE UNEM A IBM PARA OFERECER SERVICOS BANCARIOS
+
+A IBM e sete grandes bancos (o NationsBank, o Bank One, o Bank of America,
+o First Chicago NBD, o Fleet Financial, o Keycorp e o PNC) criaram um
+empreendimento chamado Integrion para competir com empresas de software
+como a Microsoft e a Intuit que prestam servicos bancarios
+eletronicamente.  O presidente do NationBank disse que se os bancos nao
+tivessem aderido ao projeto, "seriamos reduzidos a meros provedores de
+commodity, e nossas proprias marcas desapareceriam".  A Integrion vai
+desenvolver padroes para transacoes mas vao contratar terceiros para a
+maior parte do trabalho de processamento. 
+
+
+New York Times 10 set 96 C2
+
+
+________________________________________________________________________
+
+O PRESIDENTE DA ORACLE PREVE QUE AS COMPANHIAS TELEFONICAS VAO OFERECER
+NCS
+
+O lider empresarial da Oracle Larry Ellison preve que algumas companhias
+telefonicas vao comecar a testar os aparelhos para a Internet junto aos
+consumidores dentro dos proximos seis meses, sendo os aparelhos
+distribuidos aos usuarios de servico telefonico junto com servicos de
+comunicacao em troca de uma taxa mensal.  Entretanto, Ellison adverte que
+para que a tentativa tenha sucesso, as companhias telefonicas terao que
+fazer com que a navegacao na Web seja tao simples como usar um telefone
+comum. 
+
+Wall Street Journal 10 set 96 A7
+
+
+________________________________________________________________________
+
+ARQUIVO INTERNET
+
+Um grupo de surfistas da Web conscientes da importancia da historia,
+criaram uma organizacao de fins nao lucrativos para registrar e documentar
+informacao na Web e torna-la disponivel para os futuros historiadores. 
+"Nao temos conhecimento de como era a TV no passado porque ninguem se
+preocupou em registrar sua historia", diz o presidente da Internet
+Archive.  "Ninguem conhece de verdade como a Web era um ano atras".  O
+arquivo pode ser encontrado no < http://www.archive.org >. 
+
+St.Petersburg Times 9 set 96 p8
+    
+
+
+Subject: Edupage em Portugues, 20/10/96
+
+20 de outubro de 1996  |  Portugues
+________________________________________________________________________
+ 
+________________________________________________________________________
+
+A VULNERABILIDADE ENCONTRADA NOS "CARTOES INTELIGENTES"
+
+Os cientistas em computacao de Israel Adi Shamir e Eli Biham disseram
+que os "cartoes inteligentes", utilizados pelos bancos e pelas empresas
+de cartao de credito, podem ser descodificados, danificando-se um cartao
+pelo calor ou radiacao, de forma a causar um erro no chip de computador
+do cartao que serve para determinar a chave do codigo e gerar uma copia
+do cartao.
+
+New York Times 19 out 96 p20
+
+
+________________________________________________________________________
+
+
+TCHAU COOKIE
+
+Para os usuarios de computadores que se sentem desconfortaveis com o
+fato de operadores de sites na Web poderem acompanhar suas visitas
+repetidas atraves da tecnologia "cookie", existem muitas formas de se
+bloquear o software que coleta ou capta essa informacao.  O Internet
+Fast Forward da PrivNet  < http://www.privnet.com/ >  pode impedir que o
+browser envie cookies.  O programa pode tambem bloquear a entrada
+daqueles pequenos anuncios irritantes eliminando o tempo que se leva
+baixando-os.  O Anonymizer  < http://www.anonymizer.com/ > funciona mais
+como um servico de filtro - a informacao nao e' dada, o menos que o
+usuario permita.  "Acreditamos que navegar pela Rede deva ser uma
+atividade anonima como ler um jornal", diz o criador do Anonymizer, mas
+com o "cookie" voce nao fica anonimo.  O que a Netscape precisa e' uma
+funcao que diga, 'Escuta aqui, nunca mais quero ver outro cookie'"
+
+Scientific American out 96 p50
+
+
+________________________________________________________________________
+
+
+DEVE A REDE CRESCER?
+
+A revista The Economist diz que, tendo em vista "os choques em cadeia e
+a poluicao existente no prototipo da superestrada da informacao", parece
+que nao existe outra alternativa a nao ser aceitar a regulamentacao do
+governo e as formulas de tarifacao que cobram os usuarios com base na
+quantidade de dados que eles recebem e enviam.
+
+The Economist 19 out 96
+
+
+________________________________________________________________________
+22 de outubro de 1996  |  Portugues
+________________________________________________________________________
+ 
+O ACESSO A INTERNET PARTINDO DE CASA DOBROU NO ANO PASSADO
+
+O numero de residencias nos EUA conectadas a Internet duplicou durante o 
+ultimo ano para 14,7 milhoes, de acordo com o Find/SVP, que conduziu a 
+maioria das recentes pesquisas com a Jupiter Communications.  Enquanto 
+servicos comerciais on-line proporcionam acesso a uns 8,9 milhoes dessas 
+residencias (28% de aumento em relacao ao ultimo ano), as provedoras de 
+servico Internet convencionais estao aumentando sua presenca, 
+proporcionando acesso a 4,4 milhoes de residencias (em comparacao a 1,4 
+milhao no ano passado).  "O que realmente impressiona e' a aceitacao da 
+Internet nos lares", diz o Vice-Presidente da Find/SVP.  "Os 
+consumidores estao prontos para o acesso a informacao atraves da 
+Internet."
+
+Wall Street Journal 21 out 96 B11
+
+
+________________________________________________________________________
+
+AS AGENCIAS E ESCOLAS LUTAM PELA SUA PARTE DO FUNDO INTERNET II
+
+A agencias federais estao brigando pela sua parte dos US$ 100 milhoes em 
+fundos propostos pela Administracao Clinton para a Internet II.   A 
+National Science Foundation, o Departamento de Energia dos EUA, a NASA, 
+a Agencia de Projetos Avancados de Pesquisa e os Institutos Nacionais de 
+Saude, todos querem seu pedaco no bolo.  Estas mesmas agencias foram 
+envolvidas no programa de Computacao e Comunicacoes de Alto Desempenho 
+que comecou no final da Administracao Bush.  Ao mesmo tempo, mais oito 
+colegios e universidades se candidataram  a habilitacao como membros do 
+projeto, e os membros da coligacao estao comecando a se colocar em 
+posicao.  Ira Fuchs, presidente da Corporation for Research and 
+Educational Networking, diz que e' importante lembrar das necessidades 
+das escolas menores tambem: "No momento, e' um grupo de elite.  Mas 
+queremos ter certeza de que nao e'  um grupo elitista".
+
+Chronicle of Higher Education 25 out 96 A29
+
+
+________________________________________________________________________
+
+A TARIFA ECONOMICA PROPOSTA PELA ADMINISTRACAO CLINTON
+
+A administracao Clinton acaba de apresentar uma estrutura para servicos 
+de telecomunicacoes com desconto de "tarifa economica" a serem 
+oferecidos as instituicoes educacionais.  Pela proposta de preco 
+dividida em partes apresentada ao Conselho Estadual/Federal para Servico 
+Universal na semana passada, as escolas e bibliotecas receberiam 
+servicos considerados basicos (primeira parte) gratuitamente.  Isto 
+incluiria "conectividade basica ao acesso Internet a uma velocidade 
+adequada de transmissao".  Os servicos considerados adicionais (segunda 
+parte) seriam oferecidos com desconto.  Outros descontos estariam 
+disponiveis a escolas e bibliotecas localizados em "areas de custos 
+elevados ou de baixos recursos".
+
+Education Week on the Web 16 out 96
+
+
+________________________________________________________________________
+
+O ESFORCO DA "PLATFORM INDEPENDENT CRYTOGRAPHY APPLICATION" QUANTO AOS 
+PADROES DE CRIPTOGRAFIA
+
+A PICA (Platform Independent Cryptography Application Programming 
+Interface Alliance - alianca de interface de programacao para 
+aplicativos de criptografia independentes de plataformas) endossou um 
+conjunto de padroes de criptografia para ajudar desenvolvedores a 
+criarem funcoes de seguranca para novos softwares. Os membros da PICA 
+incluem a Apple, a IBM, a JavaSoft, a Motorola, a Netscape, a Nortel, a 
+Novell, a RSA Data Security Inc. e a Silicon Graphics.  Chama atencao a 
+ausencia da Microsoft que recentemente lancou seu proprio padrao de 
+criptografia, disponivel gratuitamente para os desenvolvedores.  
+"Ultimamente eles tem que fazer tudo juntos", diz um analista da Zona 
+Research Inc.  "Ao menos que voce inclua o mundo Microsoft nao existe 
+outra alternativa".
+
+Interactive Age Digital 18 out 96
+
+
+________________________________________________________________________
+
+O MECANISMO DE BUSCA PERSONALIZAVEL VAI ALEM DA REDE
+
+Gerd Meissner, que ajudou a personalizar a edicao alema do Edupage, 
+desenvolveu um servico de busca chamado BOB, The Human Search Engine (o 
+mecanismo de busca humano) que combina as buscas na rede com pesquisas 
+alem da Rede para ajuda-lo quando voce procura por coisas como: uma 
+expressao especial alema? Uma livraria na Bavaria? Ou o endereco de um 
+velho amigo em Paderborn? Entre os pedidos feitos por usuarios privados, 
+escolas e organizacoes sem fins lucrativos, o servico seleciona pelo 
+menos um semanalmente para pesquisar e responder atraves do correio 
+eletronico - de graca.  Os clientes residentes nos EUA sao bem-vindos.  
+O endereco e' info@adline.de ou   < http://www.adline.de > .
+
+
+________________________________________________________________________
+
+A FRONTIER E A QUEST ESTAO PARA CONSTRUIR UMA NOVA REDE DE VOZ/DADOS
+
+A Frontier Corporation, com sede em Rochester, Nova York, a quinta maior 
+provedora de servico telefonico de longa distancia do pais, acaba de 
+formar uma parceria com a Quest Communications, que se dedica ao negocio 
+de construcao de redes, para construir uma rede nacional de voz/dados de 
+US$ 2 bilhoes que ira se conectar a quase 100 cidades.  Essa parceria 
+proporcionara a Frontier a utilizacao de 1/3 da capacidade de rede por 
+25 anos atraves de aluguel.     
+
+New York Times 22 out 96 C4
+
+
+________________________________________________________________________
+29 de outubro de 1996  |  Portugues
+
+POUCOS PAGARIAM POR NOTICIAS ON-LINE
+
+Um levantamento da Radio-Television News Directors Foundation
+indica que, embora mais de metade dos consumidores de noticias
+consultados afirmem estar interessados em um servico eletronico de
+noticias mediante solicitacao, apenas cerca de 20% estariam dispostos
+a pagar ate mesmo uma taxa simbolica para recebe-lo. Os resultados
+da pesquisa indicam que "a grande maioria" dos interessados 
+preferiria que os servicos fossem financiados por publicidade
+comercial. O publico da pesquisa incluia tres amostras de 
+populacao: um grupo populacional geral, um grupo de jovens 
+de 18-29 anos e um grupo de usuarios on-line. Entre 6% e 7% da
+populacao consultada recebem noticias on-line regularmente.  
+
+Broadcasting & Cable 21 out 96 p36
+
+________________________________________________________________________
+
+BRITISH TELECOM PLANEJA QUIOSQUES PUBLICOS
+PARA ACESSO A NET
+
+A British Telecommunications planeja construir a maior rede 
+europeia de terminais com tela de toque provendo acesso a Internet, 
+que permitiriam aos usuarios reservar voos e ingressos de teatro, 
+encomendar produtos, e consultar mapas e noticias nas telas. Os 
+terminais "Touchpoint" terao um orificio de moeda para coleta da
+taxa de utilizacao, mas as principais receitas virao de publicidade e 
+comissoes de agenciamento das mercadorias vendidas atraves do 
+sistema. Embora nao suportem e-mail, os sistemas permitirao 
+que o usuario navegue pela World Wide Web tocando na tela
+sensivel, de forma semelhante a um caixa automatico.
+
+Financial Times 29 out 96
+
+
+________________________________________________________________________
+
+E-MAIL NA TV
+
+A Satellite SuperHighways esta lancando um servico Hypercast 
+que transmitira mensagens de e-mail atraves de ondas aereas, 
+utilizando o intervalo de inibicao da televisao -  parte do sinal
+de TV que atualmente e' utilizada para legendagem fechada.
+
+Investor's Business Daily 28 out 96 A6
+
+
+________________________________________________________________________
+
+BOATOS DIGITAIS
+
+A Wired, que acabou de retirar sua segunda tentativa de lancar uma
+oferta publica inicial, nao e' a unica empresa da Era Digital que 
+esta sendo vista com ceticismo por Wall Street;  a lista de empresas
+cujas acoes estao significativamente desvalorizadas em relacao
+ao inicio do ano incluem empresas envolvidas em todas as 
+atividades de negocio relacionadas a Internet: dispositivos e 
+diretorios de busca na Internet, comercio eletronico, telefonia da
+Internet, provedores de servicos Internet, servicos de informacao
+na Internet e servicos comerciais on-line. Motivo? Richard Shaffer,
+da Technologic Partners, empresa de pesquisa baseada em Nova York,
+afirma que os investidores "tornaram-se mais realistas sobre o tempo
+necessario para que muitas das empresas Internet possam apresentar
+lucros, e mais entusiasmados com as perspectivas de continuidade
+no crescimento das empresas de tecnologia tradicionais... O lucro
+esta ocorrendo nas empresas de base que possibilitam o 
+funcionamento da Internet".  
+
+New York Times 28 out 96 C10
+________________________________________________________________________
+     ****************************************************************
+
+"SUPPORT KEVIN" CAMPAIGN    
+    
+Apos 20 meses mofando na prisao o hacker Kevin David Mitnick foi finalmente
+indiciado dia 27 de setembro pelo governo americano em 25 acusacoes. Nota:
+Enquanto nao houver o indiciamento o tempo passado na prisao nao conta para
+o sistema penal americano. 
+    
+Kevin Mitnick, atravez de seu advogado Donald Randolph, declarou-se inocente
+das acusacoes que lhe foram imputadas. Juntamente com Kevin foi indiciado
+tambem Lewis De Payne ( o velho amigo de Kevin ) que vai aguardar o
+julgamento em liberdade apos ter pago os US$ 100.000,00 de fianca requeridos
+pela corte. De Payne mantem um site na rede -
+http://www.giveup.com/where.html - onde voce pode ler tudo - inclusive
+reportagens e depoimentos - sobre o caso Mitnick.
+    
+Kevin continua detido no Metropolitan Detention Center de Los Angeles
+aguardando julgamento.
+
+          ******************************************************
+
+              HACKER CRACKDOWN - A TRADUCAO: ULTIMAS NOTICIAS
+
+Um  amigo  se  ofereceu  para entrar nessa de traduzir  o  livro  do  Bruce 
+Sterling,  Hacker  Crackdown. Para quem nao sabe, leia os  BEs  anteriores. 
+A coisa e' mais ou menos o seguinte:
+
+Esta'  se formando uma lista de gente que pode dedicar parte do  seu  tempo 
+para traduzir cerca de 5 ou 10 paginas daquela obra. Eu comecei a organizar 
+essa lista de gente, mas a USP fez o favor de considerar que o arquivo onde 
+eu  guardava  as  paginas  (crack.gz) como um  software  de  cracking.  Nao 
+abriram para ver se tinha software de cracking la' dentro. Tava o livro e o 
+email  do pessoal. Durante os tres meses q fiquei sem conta, meu impeto  p. 
+mexer  com isso diminuiu. Agora o Top_quark@geocities.com  decidiu  dar  um 
+help.  Ele e' que vai administrar a coisa. A ideia e' fazer uma  versao  de 
+dominio  publico do livro. As paginas traduzidas vao ficar a disposicao  na 
+pagina  dele  e todo mundo vai poder copiar e ler. Para quem acha  q.  isso 
+fere a lei de direitos autorais, eu ja' escrevi pro autor, o Bruce Sterling 
+e  ele  disse  OK.  A versao em ingles do livro  ta'  disponivel  na  rede, 
+gratuita,  neste  esquema. Voce pode ler, copiar o arquivo  p.  voce,  seus 
+colegas, so' nao pode vender. O livro e' antologico. Nao tem outra  palavra 
+para definir. So' que esta' em ingles. Eu ja' li, mas acho q. a mocada toda 
+tinha que ler. Maiores detalhes, com o Top_quark@geocities.com
+
+   ********************************************************************
+
+                       LISTAS DA ESQUINA DAS LISTAS
+
+                 A MAIOR BESTEIRA E ENGANACAO DO SEMESTRE
+
+> > > > ********************************************************
+> > > > Realmente funciona, e recebi $ 682,00 na semana passada.
+> > > > ********************************************************
+> > > >
+> > > > Ola! Eu tenho otimas noticias que devem demorar uns tres
+> > > > minutos para ler. Voce alguma vez pensou "Como eu
+> > > > posso faturar alto em pouco tempo???" , ou esteve
+> > > > devendo muita grana, pronto a realizar quase qualquer
+> > > > coisa para conseguir grana para pagar as contas. Entao,
+> > > > pegue uma cerva, uns salgadinhos, se arrume em sua
+> > > > cadeira e leia este texto realmente interessante, um
+> > > > verdadeiro achado. (E foi achado por acaso na Internet).
+> > > > Vou comecar dizendo que EU FINALMENTE ACHEI A SOLUCAO
+> > > > !! E' isso mesmo, eu descobri! E EU ODEIO ESTES ESQUEMAS
+> > > > DE FICAR RICO EM POUCO TEMPO!! Eu tentei de tudo nos
+> > > > ultimos 12 anos. E de alguma forma acabei aparecendo em
+> > > > uma lista de pessoas procurando fazer dinheiro (mais
+> > > > certo dizer pessoas desesperadas e burras que tentam
+> > > > qualquer coisa por dinheiro (Como as do programa do
+> > > > Silvio Santos)!!).
+> > > > Bem, quando eu era adolescente, estes apelos de "Me
+> > > > fara rico rapidamente" pareciam irresistmveis! Eu pagava
+> > > > $14,95 aqui, $29,95 alm, outros $49.95 acula. Eu estava
+> > > > no limite dos meus cartoes de cridito... Eu estava
+> > > > desesperado por dinheiro!! Entao, eu dei uma chance para
+> > > > todos os sistemas, mas todos falharam! Talvez eles
+> > > > tenham funcionado para alguns, mas nao pra mim.
+> > > > Por acaso, eu estava dando uma vasculhada no meu lixo
+> > > > quando eu li uma mensagem. Reconheci logo. Podia
+> > > > farejar um esquema de grana facil furado a um quilometro
+> > > > devido a minha situagao financeira. Entao eu pensei...
+> > > > "Eu posso evitar de entrar num destes esquemas
+> > > > facilmente. Mas eu estava errado!!!EU ADORO A INTERNET!!
+> > > > Eu estava lendo umas mensagens na rede quando eu vm
+> > > > um artigo que comegava dizendo CONSIGA GRANA FACIL!! Eu
+> > > > pensei... "Aqui na Internet?? Que tipo de esquema de
+> > > > grana facil poderia haver na Internet? Eu tenho que ver"
+> > > >  . O artigo descrevia um modo que dizia MANDE UM DOLAR
+> > > > PARA APENAS CINCO PESSOAS E FAGA $50.000 EM DINHEIRO
+> > > > VIVO EM APENAS 4 SEMANAS! Bem, quanto mais eu pensava
+> > > > nisso, mais eu ficava curioso. Porque? Por causa do modo
+> > > > de funcionamento desse sistema e porque SO IRIA ME
+> > > > CUSTAR CINCO DOLARES (E CINCO SELOS), E ISSO SERIA TUDO
+> > > > A PAGAR... PRA SEMPRE!!!
+> > > > Tudo bem, os $50.000 em grana poderiam ser uma grana
+{ Editado - e' muita besteira}
+> > > > *** A LISTA DE NOMES ESTA NO FINAL DESTE ARTIGO. *** 
+> > > >
+> > > > Ok, leia tudo isso cuidadosamente. Imprima estas 
+> > > > informacoes, se quiser, para que voce possa facilmente 
+> > > > utilizada como referencia quando precisar. 
+> > > >
+> > > > INSTRUCOES: 
+> > > > 1.  Pegue um pedaco de papel e escreva nele o seguinte: 
+> > > > "Por favor me coloque na sua lista" (Please add me to 
+> > > > your list). Isto cria o servico a partir do sistema de 
+[ editado]
+> > > > ******************************************************** 
+> > > > LISTA DOS NOMES      LISTA DOS NOMES     LISTA DOS NOMES 
+> > > > ******************************************************** 
+> > > > * A HONESTIDADE E' O QUE TORNA FAZ ESTE PROGRAMA       *
+> > > > * FUNCIONAR!!!                                         * 
+> > > >  *******************************************************
+
+Opiniao  do Editor:  Gente, isto e' contra a lei. Alem disso, e' uma  forma 
+idiota  de tentar ganhar dinheiro. Em 83, era moda esse negocio  de  lista. 
+Havia ate' inovacoes, do tipo: computadorizar a lista. As pessoas que estao 
+colocando  seus enderecos pessoais nessa listinha e fazendo o upload  deste 
+arquivo  por ai', tao colocando um aviso de que sao burras o bastante  para 
+colocar o nome e endereco. Vi um cara q. colocou sua caixa postal, um passo 
+em direcao a inteligencia, mas pequeno. Sera' que ninguem q. caiu nessa  se
+deu  conta  que esta' avisando para o mundo que e' o  tipo  de  pessoa  que 
+acredita  em  papai  noel? Que podem chover cartas do  tipo:  "garanta  seu 
+terreno  na lua"? Se voce mora num bairro afastado do Rio de  Janeiro,  por 
+exemplo,  e  colocou seu endereco nesse troco, voce acabou  de  avisar  pro 
+mundo que tem computador. Qualquer ladrao pode ir atras de voce... 
+     Por  ultimo,  e'  crime enviar dinheiro  pelo  correio.  Entre  outras 
+coisas..
+
+
+                       ----------------------------
+
+Subject: [PIADAS-L] redes
+
+O Ceu e o Inferno decidiram fazer uma aposta para ver quem fazia o
+melhor backbone corporativo.
+
+Apos tres meses a rede do Inferno estava pronta : cabling checado
+e certificado, ATM no desktop, tudo gerenciavel, videoconferencia,
+tudo funcionando. Uma maravilha...
+
+A rede do Ceu nao tinha nem comecado... Deus ficou fulo da vida e
+mandou chamar o Anjo Gabriel :
+
+- Gabriel como e' que pode isso ? Como vai ficar a nossa imagem se a
+gente perder para o Inferno ? Va' verificar isso agora !
+
+Uma hora depois o Arcanjo Gabriel vem falar com Deus.
+
+- Senhor, descobri o que aconteceu : TODOS os fornecedores de rede
+estao no Inferno...
+                      ------------------------------
+
+From ramiro@pobox.com
+To: Multiple recipients of list <piadas-l@listas.ansp.br>
+Subject: [PIADAS-L] Taglines
+
+
+se tempo fosse dinheiro, meu relogio seria milionario.
+Nao confunda modem com modess; o slot e diferente (tagline roubada!)
+Por que o Super Man nao programa? Porque tem medo de Clippertonita. +-
+E claro que sou metido.  Senao o fosse, seria de proveta.
+Se o mundo for uma versao beta, nos devemos ser os bugs.
+Backup not found: (Q)uem mandou usar o Stacker?
+Hablos espanol? No so hablo como fecho tambien.
+Sera que vai chover ontem?
+No circo sente-se na ultima cadeira, porque o ultimo sempre ri melhor.
+Meu gato morreu em miados do ano passado.
+existe vida inteligente na Terra? Sim, mas estou so de passagem.
+O Ricardao morreu de AIDS.
+Mulher nao tira carteira de motorista, tira porte de arma.
+Crime nao compensa... entao meu emprego e um crime?
+Se uma loira lhe jogar uma granada, tire o pino e jogue de volta !
+A vagina e a uniao do utero ao agradavel.
+"Back in the USSR" musica dos Beatles, por John Lenin e Ringo Stalin.
+O castrado nao ta com essa bola toda.
+Em cada 10 pessoas, 6 sabem contar. As outras 3 sao ignorantes
+De repente me surgiu uma duvida: O que e MS-DOS???
+O MODESS nao e a melhor coisa do mundo, mas esta BEM proximo!
+De onde viemos? Para onde vamos? La tem BBS?
+Quem ri por ultimo e' tapado ou nao entendeu a piada.
+BBS ja e muito legal. Com um modem, entao, e demais !!
+Mario? Que Mario?
+Para adquirir esta Tagline, ligue para (011) 1406.
+BIOS = Bicho Ignorante Operando o Sistema
+Todo mundo tenta, mas so o Flamengo e penta!
+SEMPRE COCA-COLA!!    ...enjoa.
+43.5% das estatisticas nao servem para nada...
+Mulher e solida.  Se fosse liquida, eu beberia.
+A modestia e uma das minhas inumeras virtudes.
+Errar e HUMANO, arredondar e PENTIUM...
+Se o computador atrapalha os estudos, saia da escola!
+O chefe saiu: (T)etris, (P)rince of Persia, (F)1-GP
+Minha BBS acessa SyncNET, CotoNET, PatiNET, e QuitiNET
+/=*=\ Cuidado!!! Se voce tivesse um TK-85, isso seria uma nave inimiga
+Pode falar capitao, eu sou todo ouvidos - Dr. Spock
+NOKU. O refrigerante japones! Tome NOKU!
+LAPTOPSPIROSE:um virus transmitido pela urina do MOUSE!.
+Quem ri por ultimo e porque esta conectado a 2400 :)
+Redutor de velocidade _________ - favor reduzir para 2400 bps
+To steal this tagline press <CTL> <ALT> <DEL> now.
+++ -E- +&    ++ -E- +&    ++ -E- +&    ++ -E- +&     Grande boteco!
+E chato ser bonito. Mas e muito mais chato ser feio.
+O governador do Parana e paranoico!
+O Machado de Assis, afiado pelo Lima Duarte, Castro Alves...
+Vendo espingarda de dois canos para cacar dupla sertaneja.
+Existem 2 tipos de mulheres.As que me amam e as que nao me conhecem.
+Eu, o bom? Nao....o bom e voce...Eu sou o melhor!
+Desculpe, Sata queimou meu pacote de mensagens.
+Gemeo tenta se suicidar e mata o irmao por engano!
+Cumulo da sacanagem: Por tachinhas na cadeira eletrica!
+Se seu programa nao esta rodando e porque nao tem rodas.
+Usuarios nao existem. Sysops digitam todos os mails...
+Dize-me com quem andas e te direi se vou contigo...
+E dos carecas que elas gozam mais...
+Jesus Salva! ...Passa para Moises, que chuta e GOOOOOOOOOOOOOOLLLLL!
+A calcinha da Liliam Ramos foi projetada pelo Windows.
+Minha ta_line e tao copiad__que ja ta fic_ndo gast_..._
+Depois a gente se FLAla.
+Emagreca 10 quilos por mes sem fazer forca... pegue AIDS
+??????????????   - sempre tem um engracadinho querendo aparecer.
+"FORMAT 2.0" o mais eficiente anti-virus do mercado.
+"Voce nasceu em Pelotas???" - "NAO!!!! Eu nasci inteiro!!!"
+Nao posso corrigir meus erros. Porque estou sempre certo.
+Se a gula e um pecado, o inferno deve ser otimo pra fazer churrasco.
+Aos 18 anos perguntava com quem saiam garotas de 18. Descobri c/ 30!
+Aquilo ali e uma ratazana? (primeira vez que vi um scanner de mao)
+Ja que a primeira impressao e a que fica, use uma impressora laser!
+O cigarro disse ao fumante: Hoje voce me acende, amanha eu te apago!
+Na natureza nada se cria, nada se perde, tudo se formata...
+Voce ja recebeu sua continha telefonica este mes? eheheh
+Nao mato aulas; elas e que me matam ...
+"Va ver se estou na esquina", disse o magico. Ele estava.
+Eu, compactado?! Nao, eu sou baixinho mesmo...
+Ate um completo imbecil entende essa TAG. Voce entendeu?
+Detergente = Ato de prender individuos suspeitos.
+Nao roube! O governo detesta concorrencia...
+Ha mulheres que sao como estradas: tem curvas perigosas.
+Uma abobrinha chateia muita gente, duas abobrinhas cha...
+E castiga os pecadores com modens queimados
+Sanduiche preferido do micreiro: X-copy...
+Safe Sex- Sexo praticado por cofres.
+Hackers? Nao e um novo tipo de bolacha?
+Como dizia Beethoven: "Hein? O que? Da pra falar mais alto!?"
+H. Romeu Pinto - Eros optica BBS
+Esgotado: Pessoa que caiu no esgoto...
+Sou garoto de programa... Faco programa em Clipper e Pascal.
+A. Lizandro Pinto
+Pagamento a vista, e quando v. paga algo com os olhos da cara!
+/StO +-+oL\&s/\G//\/\ COL\&Pe+-+ L_&+-+ \/iR++s
+Ja que a aula e um dever, vamos dever mais uma aula.
+Aquela baiana vive de renda: e rendeira.
+Bife 007 -- E frio, duro, com nervos de aco, e tem licenca para matar.
+A Inteligencia artificial nao funciona por causa da Burrice Natural.
+A ligacao caiu. Sera que ela se machucou muito ??
+Pais, ame-os ou se vire para pagar suas contas!!!
+Saiu meu boletim: (E)scondo, (M)ostro com orgulho, (T) taco fogo
+Mulher reclama da dor do parto porque nunca levou chute no saco.
+Aguarde. Formatando unidade C: 63 % concluido.
+Rosane Collor: "Vamos passar uns dias no Egito depois vamos ao Cairo."
+Briga em Clube:(C)orre, (F)oge, (A)panha, (T)odas:
+"Tentei ser modesto mas a realidade nao permitiu..." - Garfield
+Se um desconhecido lhe oferecer flores, cuidado, ele e gay.
+Vampiros pegam AIDS?
+Coprocessador com fome. Insira um Cream-Craker no drive A.
+A fe' remove montanhas, mas eu prefiro dinamite...
+Amanha voce vai la hoje? Vai ser bom, nao foi?
+Como dizia Jack, o estripador: Vamos por partes...
+Masoquista: -Me bate! Me bate!    Sadico: - Nao!!!
+A trajetoria do penalti do Roberto Baggio foi controlada pelo Windows.
+"Meu mouse adora o Cheesemaster 3000!" - Xplorer
+Sou cobra em Informatica. Rastejo e ainda levo paulada
+Inicializar: ATZ - Discar: ATD - Finalizar: ATlogo
+Fui no acougue e pedi 5 Kilobytes? Nao tinha, sera porque?
+Usando Pascal meu 486 faz um loop infinito em 3.74 segundos!
+Tres tipos de pessoa: As que sabem, e as que nao sabem contar.
+"Brejarum vaca est" - A vaca foi pro brejo...
+###> Camisinhas de renda: para combinar com o lencol que esta embaixo.
+$/xV Y/mO!$ E6/+O V$ V&++V$...
+'boiei' de verdade nesta sua mensagem. Da pra explicar melhor?
+(((((((((((((TAGLINE)))))))))))))(((((((((((((HIPNOTICA)))))))))))))
+(A)bortar, (R)epetir, (F)ingir que nao aconteceu
+(A)bortar, (R)epetir, (I)nfluenciar com uma faca afiada
+,------4A______________&a----&  TAGLINE INJETAVEL !
+- - - - - - ]w-w> - - - - -____ - - Da-lhes Senna!
+- REDUZA A VELOCIDADE - Travessia de MODEMS de 2400 bps
+- Voce viu o meu disquete com a colecao de virus ?  - NAAAOOOOO...
+- (- --( (-(( (( -( (  -- --- (-( ((( (         <--- Tagline Morse
+-------> Nao corte aqui, ou vai destruir seu monitor. <--------
+--> Preserve o verde ... use monitor CGA <--
+--+=<--|||||&&&&&____        <---- Tagline Empire State
+/{- (((((        <---- Tagline parabolica
+2+2=5... TEM que ser, o computador esta dizendo.
+3x"_"
+\K.WAg\" Tagline encriptada. US$ 1000,00 de recompensa.
+5...4...3...2...1...0... e agora ??? o que vem ????
+667: Vizinho do diabo!!!
+93.42% das estatisticas sao calculadas. O resto sao falsas.
+:-) (-: :-)  Tag line Trigemea
+:...-:::..:....:.:.:::     <-- TAG em Braile ...
+<<    M E  R O U B E    >>      <---- Tagline isca para ladrao de tags
+<<< ATENCAO: EM CASO DE INCENDIO QUEBRE ESTE VIDRO >>>
+<<<<<<<<<<<<< COLE UM TAG AQUI >>>>>>>>>>>>>
+<>-<>       <---- Tagline de oculo
+<CTRL><ALT><DEL>... comando para limpar a tela.
+<Ctrl><Alt><Del> para continuar...
+=-=-=-=-=-=-=-  -> Tagline Corrente
+===/\/\-  Espingarda com cano ondulado - pra matar canguru!
+A Challenger tinha sistema de seguranca projetado pelo Windows
+A Inteligencia artificial nao funciona por causa da Burrice Natural.
+A Kaiser da dor de cabeca... ninguem pode negar!
+A bebida mata lentamente! E dai? Nao estou com pressa pra morrer...
+A beleza nao esta apenas nas curvas, esta tambem nas vias de acesso.
+A cal e virgem porque o pincel e brocha!
+A carne nao aumentou, o boi e que diminuiu.
+A chance dessa tag ser selecionada era de uma em 1040!
+A clara do ovo e o acucar, no forno, suspiravam...
+A coisa mais profunda em certas mulheres e o sono!
+A esperanca e a sogra sao sempre as ultimas a morrer...
+A esperanca e a ultima que morre.... MAS MORRE!!!
+A felicidade de cada Calouro esta na morte de cada Veterano!!!
+A fita e virgem porque o gravador e stereo
+A fortuna faz amigos. A desgraca prova se eles existem de fato.
+A historia se repete porque ninguem presta atencao.
+A ignorancia e temporaria, a estupidez nao.
+A imaginacao e mais importante que o conhecimento...
+A informacao mais necessaria e sempre a menos disponivel.
+A mata e virgem porque o vento e fresco
+A melhor defesa contra logica e estupidez.
+A mente, como os para-quedas, so funcionam quando abertas.
+A modestia morreu quando a falsa modestia nasceu.
+A mulher chora antes do casamento; o homem depois.
+A mulher do vizinho e sempre mais magra que a nossa...
+A namorada disse para o namorado: "Olha o guarda, guarda!"
+A pior coisa da censura e .
+A pior coisa do sexo oral e a vista...
+A pomba e o passarinho da Paz, e a mulher a paz do passarinho !
+A primeira amnesia a gente nunca esquece !
+A protecao anti-bomba do World Trade Center era feita por Windows
+A sensacao e boa, mas a posicao e ridicula!
+A sensibilidade de um homem esta na forca do seu punho.
+A tagline da mensagem anterior e ridicula.
+A tcla do mu tclado sta com um pquno problminha...
+A teimosia e a forca de vontade do chato.
+A terra esta 98% cheia. Delete quem voce puder.
+A verdade e fruto do tempo, e nao da autoridade...
+A vida comeca aos 14.4K
+A vida nao e um conto de fadas, mas um conto de fatos...
+A vida se vive para frente, mas se entende para tras.
+A vida e imprevisivel... Coma a sobremesa antes!
+A vida e uma doenca sexualmente transmissivel
+A vinganca tarda mas nao falha!!!
+A virgindade e curavel, se detectada cedo!
+A ultima palavra e sempre da mulher: SIM SENHOR !!!
+A: nao encontrado... B: nao encontrado... formatando C:...
+ATENCAO: Feche a DOOR quando sair! Ass: Sysop.
+ATENCAO, todos dados do disco rigido serao apagados. Continua (S/S)?
+ATROPELADO: Nu Artistico
+AVISO! E proibido por lei remover esta tagline!
+Abandone as esperancas aquele que posta mensagens aqui.
+Abismo? Que abiiiiiiiiiiiiiiiiiiiiiiiiiisssssssssssmmo...
+Acelere seu XT a 9.8 m/s2
+Acentua&@o % um problema que j$ foi superado.
+Acha seu 286 lento? Volte a usar um TK!
+Acho qUe miNHa TEclA CaPS loCk eSta COm dEfeIto...
+Acho que penso, logo acho que existo...
+Achoqueaminhabarradeespacosfudeu...
+Aconteca o que acontecer, nao babe no teclado!
+Acredita em reencarnacao? Me de U$5000 e te pago na proxima
+Adao foi sortudo mesmo... nao tinha sogra nem irmao...
+Adao desesperado dizia: "Nao fui eu! Nao fui eu!"
+Adao disse a Eva: "Eu tenho, voce nao tem!!!"
+Agir sem pensar e como atirar sem mirar.
+Agora sao 23:53. Voce sabe onde seu modem esta?
+Agua mole em pedra dura, tanto bate... ate que molha!
+Aha, agora voce vem cuspir no prato que te comeu...
+Ajoelhou, tem que dar reply !
+Algumas curas sao piores do que a doenca.
+Alguns dias sao tao lindos que e um crime sair da cama.
+Alguns espelhos deveriam pensar duas vezes antes de refletir algo.
+Ama teu proximo! Ainda mais se for uma loira de olhos azuis!
+Amante e o namorado que leva pijama...
+Amigo a gente escolhe, parente a gente tolera.
+Amigo: Alguem que tem os mesmos inimigos que voce.
+Amigos chegam e se vao, inimigos se acumulam.
+Amor -- uma grave doenca mental. - Platao
+Anatomia e destino!
+Anciao e multado por passar dos 80.
+Antarctica... Uma paixao nacional como a mulher dos outros
+Antes de ser martelo lembre-se que tb ja foi prego.
+Antes eu nao era perfeito, faltava-me a modestia...
+Antes a tarde do que nunca...
+Antigas tradicves tem a forca de uma lei.
+Antigos espiritos do mau, tranformem essa forma decadente em MUNRRAH
+Apaguei meu arquivo de TAG, e agora ?
+Aquela tag e VERDADEIRA ->   <- Aquela tag e FALSA.
+Aquele que nunca admite ser crianca, jamais sera adulto!
+Aqueles que bebem para esquecer, geralmente esquecem de pagar a conta.
+Aqueles que bebem pra esquecer. Favor pagar adiantado.
+Armando Nascimento de Jesus, vulgo presepio...
+As 7 maravilhas do mundo na verdade sao 2, mulher e pizza!
+As caras vemos, os coracves nao sabemos.
+As coisas podem piorar, voce e que nao tem imaginacao...
+As esferas sao os alicerces do homem .
+As melhores coisas da vida sao gratis. Caro e o motel.
+Atencao, o virus de bruco costuma atacar nas noites de sexta a domingo!
+Atencao pra essa TAGline........... Obrigado pela atencao
+Atencao! Nao molhe nem exponha essa tagline ao calor.
+Atencao: Mensagem proibida para menores de 14400 bps!
+Atirou no proprio estomago para matar a fome.
+Atlantida tinha um sistema de flutuacao controlado pelo Windows.
+Ate um imbecil passa por inteligente se ficar calado...
+Ate um leao tem que proteger-se contra moscas...
+Audaciosamente escrevendo o que ninguem jamais escreveu!!
+BASIC e como variola, a gente pega quando e crianca.
+BBS Mania - A alegria da Telesp, Telerj, Telegoias...
+BBS:O melhor metodo para triplicar sua conta telefonica!
+BBS? Ah, sim... BUSINESS BOARD SYSTEM!
+Barcos pequenos devem se manter proximos a praia.
+Barganhar: Receber um botequim como heranca
+Barracao: Proibir a entrada de cachorro
+Barulhento por fora, vazio por dentro.
+Basse: = cachorro de algura e 1 = de comprimento.
+Bebadho, eu? Hic! Eu echtou chobrio... Hic! Hic! Hic!
+Beleza multiplicada por inteligencia e igual a uma constante.
+Beleza nao e fundamental, ja dizia Esperidiao Amin...
+Bicha brasileira so pensa em mae e Nova Iorque...
+Bicha e igual carbono, faz ligacao para todos os lados.
+Bill Gates esta rico. Peter Norton tambem. Porque continuo pobre??!
+Bill Gates tornou-se um Deus. Windows e praga divina.
+Bingo no Iraque: B-52..F-16..A-10.. F-18..F-117..B-2
+Biscoito: Relacao sexual repetida
+BlueWave 6.66  : DEMO version...
+Bonita camisa-de-forca, Fernandinho...
+Boy nao erra porque errar e humano...
+Boy que e boy nao vira a fita, capota o carro...
+Bumba meu boi: Bovino invadindo a fabrica de fogos
+Buaaaaa... Minhas taglines acabaram... chuif!
+Bigamo: Um homem que cometeu o mesmo erro duas vezes.
+CD \ROM... Da acesso direto a BIOS...
+CHEGA! Nunca mais posto mensagens! Vou e ver a novela das 8!!!
+CHUCHU: o quarto estado fisico da agua.
+Cabeca grande, cerebro pequeno.
+Cada civilizacao cria seu Deus, que deixa de existir junto com ela...
+Cada mania tem seu doido de estimacao.
+Cada pessoa atinge os ceus de sua propria forma.
+Cada vez sobra mais mes no fim do dinheiro
+Caiu na rede e terminal!
+Casal feliz: Marido surdo e mulher cega.
+Casamento, um romance no qual o heroi morre no primeiro capitulo.
+Casar e a melhor maneira de se arrumar uma empregada.
+Cazuza escolhia suas parceiras pelo Windows.
+Cem mil lemmings nao podem estar errados.
+Cerveja faz mal... quando falta!
+Chato e aquele q vc fala:aparece la em casa. E ele aparece.
+
+
+                       ----------------------------
+
+                                  O SATAN
+
+(extraido de uma carta da lista hackers da unicamp)
+
+O  Satan i uma ferramenta de analise de seguranga para auditoria de  redes. 
+Eleexamina  a  disponibilidade de servigos do tipo rexc, login,  NIS,  NFS, 
+finger  entre  outros. 
+Esta  analise e baseada em regras de seguranga para redes de  computadores, 
+sendo assim, ele pode ser utilizado tanto para previnir possiveis  invasoes 
+quanto para coletar informagues necessarias para se invadir um sistema.
+
+Ele foi concebido por Dan Farmer, antigo funcionario da Sun Microsystems  e 
+por Wietse Venema, que trabalha na Eindhoven University of Technology..  Na 
+realidado  Satan  nco  faz nenhuma magica. Ele se  utiliza  de  fungues  do 
+Unixoude servigos de protocolo que devolvem informagues sobre o sistema  no 
+qual  estainstalado,  isto  i,  tudo  que  o  Satan  faz  pode  ser   feito 
+manualmente,  ele apenas facilita e muito este trabalho.Note que o que  ele 
+utiliza  para  colher informaguessco servigos permitidos .Ele  entco  i  um 
+produto  de  varredura e como qualquer servigo de  varredura  deixa  marcas 
+profundas nas log's dos sistemas.
+
+Para  se detectar este tipo de marca, i necessario que se passe  a  coletar 
+todos  os pacotes que passam pela rede e procurar um padrco  de  varredura. 
+Softwares  que  sao bastante utilizados para se coletar  estas  informagues 
+(como  os  tcp wrappers) se baseiam em checar os servigos que  estco  sendo 
+utilizados abaixo da porta 1024 e de servigos que sco acessados via inetd.
+
+Isto  e,  tentativas  em portas que nco estco na tabela do  inetd  nao  sao 
+registradas.  Assim torna-se mais difmcil se verificar uma varredura,  pois 
+nao se consegue registrar todas as acoes do software que esta executando  a 
+mesma.  Emtestes anteriores feitos em laboratsrio, foi confirmado que  este 
+tipo de log nco i eficiente para se detectar uma varredura.
+
+O Satan tem trjs msdulos de rastreamento: o light, o medium e o heavy.  Nss 
+experimentamos  os  trjs  msdulos, ss registrando  os  pacotes  rejeitados. 
+Nssexperimentamos  em  um  enderego  que nco  permite  nenhum  acesso  para 
+podermos ter uma log completa da agco do Satan.
+
+Varredura efetuada pelo software SATAN em modulo Light
+
+Nov 29 10:39:18 firewall kernel: R TCP 164.41.12.65 859 164.41.12.126 111
+
+Como  podemos  observar, o msdulo light apenas faz uma consulta ao  RCP  do 
+sistema.  Este tipo de agco i extremamente difmcil, ou impossmvel dizer  se 
+esta consulta foi ou nco de uma varredura. Em compensagco, este msdulo  nco 
+fornece muitas informagues sobre o sistema.
+
+Varredura efetuada pelo software SATAN em msdulo Medium
+
+Nov 29 10:42:58 firewall kernel: R TCP 164.41.12.65 891 164.41.12.126 111
+Nov 29 10:43:00 firewall kernel: R TCP 164.41.12.65 1333 164.41.12.126 79
+Nov 29 10:43:00 firewall kernel: R TCP 164.41.12.65 1334 164.41.12.126 79
+Nov 29 10:43:00 firewall kernel: R TCP 164.41.12.65 1335 164.41.12.126 79
+Nov 29 10:43:00 firewall kernel: R TCP 164.41.12.65 1336 164.41.12.126 79
+Nov 29 10:43:00 firewall kernel: R TCP 164.41.12.65 1337 164.41.12.126 79
+Nov 29 10:43:01 firewall kernel: R TCP 164.41.12.65 1338 164.41.12.126 79
+Nov 29 10:43:01 firewall kernel: R TCP 164.41.12.65 1339 164.41.12.126 70
+Nov 29 10:43:01 firewall kernel: R TCP 164.41.12.65 1340 164.41.12.126 80
+Nov 29 10:43:01 firewall kernel: R TCP 164.41.12.65 1341 164.41.12.126 21
+Nov 29 10:43:01 firewall kernel: R TCP 164.41.12.65 1342 164.41.12.126 23
+Nov 29 10:43:01 firewall kernel: R TCP 164.41.12.65 1343 164.41.12.126 25
+Nov 29 10:43:01 firewall kernel: R TCP 164.41.12.65 1344 164.41.12.126 119
+Nov 29 10:43:02 firewall kernel: R TCP 164.41.12.65 1345 164.41.12.126 540
+
+
+No  msdulo medium a varredura i bem mais completa. Ele procura servigos  do 
+tipo  RPC  (porta 111), finger (porta 79), gopher ( porta 70),  WWW  (porta 
+80),  ftp(porta  21), telnet (porta 23), sendmail (porta 25).  nntp  (porta 
+119) e uucp (porta 540).
+Note  que  se  a  varredura  fosse  feita  externamente  a  nossa  rede   a 
+antares.linf.unb.br as portas 70, 80, 21, 23, 25 nco apareceria cordo com a 
+configuragco,  mas  mesmo assim nss termamos informagues  suficientes  para 
+comprovar uma varredura.
+
+Varredura efetuada pelo software SATAN em msdulo Heavy
+
+Nov 21 14:43:27 firewall kernel: R TCP 164.41.12.65 3299 164.41.12.126 1
+Nov 21 14:43:27 firewall kernel: R TCP 164.41.12.65 3300 164.41.12.126 2
+Nov 21 14:43:27 firewall kernel: R TCP 164.41.12.65 3301 164.41.12.126 3
+Nov 21 14:43:27 firewall kernel: R TCP 164.41.12.65 3302 164.41.12.126 4
+Nov 21 14:43:27 firewall kernel: R TCP 164.41.12.65 3303 164.41.12.126 5
+Nov 21 14:43:27 firewall kernel: R TCP 164.41.12.65 3304 164.41.12.126 6
+Nov 21 14:43:27 firewall kernel: R TCP 164.41.12.65 3305 164.41.12.126 7
+Nov 21 14:43:29 firewall kernel: R TCP 164.41.12.65 3476 164.41.12.126 178
+Nov 21 14:43:29 firewall kernel: R TCP 164.41.12.65 3477 164.41.12.126 179
+Nov 21 14:43:29 firewall kernel: R TCP 164.41.12.65 4011 164.41.12.126 713
+Nov 21 14:43:29 firewall kernel: R TCP 164.41.12.65 4012 164.41.12.126 714
+Nov 21 14:43:29 firewall kernel: R TCP 164.41.12.65 4013 164.41.12.126 715
+Nov 21 14:43:29 firewall kernel: R TCP 164.41.12.65 4014 164.41.12.126 716
+Nov 21 14:43:29 firewall kernel: R TCP 164.41.12.65 4015 164.41.12.126 717
+Nov 21 14:43:29 firewall kernel: R TCP 164.41.12.65 4016 164.41.12.126 718
+Nov 21 14:43:29 firewall kernel: R TCP 164.41.12.65 4017 164.41.12.126 719
+Nov 21 14:43:29 firewall kernel: R TCP 164.41.12.65 4018 164.41.12.126 720
+Nov 21 14:43:31 firewall kernel: R TCP 164.41.12.65 4095 164.41.12.126 797
+Nov 21 14:43:31 firewall kernel: R TCP 164.41.12.65 4096 164.41.12.126 798
+Nov 21 14:43:31 firewall kernel: R TCP 164.41.12.65 4097 164.41.12.126 799
+Nov 21 14:43:31 firewall kernel: R TCP 164.41.12.65 4098 164.41.12.126 800
+Nov 21 14:43:31 firewall kernel: R TCP 164.41.12.65 4099 164.41.12.126 801
+Nov 21 14:43:31 firewall kernel: R TCP 164.41.12.65 4100 164.41.12.126 802
+Nov 21 14:43:31 firewall kernel: R TCP 164.41.12.65 4101 164.41.12.126 803
+Nov 21 14:43:32 firewall kernel: R TCP 164.41.12.65 4231 164.41.12.126 933
+Nov 21 14:43:32 firewall kernel: R TCP 164.41.12.65 4232 164.41.12.126 934
+Nov 21 14:43:32 firewall kernel: R TCP 164.41.12.65 4233 164.41.12.126 935
+Nov 21 14:43:32 firewall kernel: R TCP 164.41.12.65 4234 164.41.12.126 936
+Nov 21 14:43:34 firewall kernel: R TCP 164.41.12.65 4315 164.41.12.126 1017
+Nov 21 14:43:34 firewall kernel: R TCP 164.41.12.65 4316 164.41.12.126 1018
+Nov 21 14:43:34 firewall kernel: R TCP 164.41.12.65 4317 164.41.12.126 1019
+Nov 21 14:43:34 firewall kernel: R TCP 164.41.12.65 4318 164.41.12.126 1020
+Nov 21 14:43:34 firewall kernel: R TCP 164.41.12.65 4319 164.41.12.126 1021
+Nov 21 14:43:34 firewall kernel: R TCP 164.41.12.65 4320 164.41.12.126 1022
+Nov 21 14:43:35 firewall kernel: R TCP 164.41.12.65 4321 164.41.12.126 1023
+Nov 21 14:44:18 firewall kernel: R TCP 164.41.12.65 1378 164.41.12.126 79
+Nov 21 14:44:18 firewall kernel: R TCP 164.41.12.65 1379 164.41.12.126 79
+Nov 21 14:44:19 firewall kernel: R TCP 164.41.12.65 1380 164.41.12.126 79
+Nov 21 14:44:19 firewall kernel: R TCP 164.41.12.65 1381 164.41.12.126 79
+Nov 21 14:44:19 firewall kernel: R TCP 164.41.12.65 1382 164.41.12.126 79
+Nov 21 14:44:19 firewall kernel: R TCP 164.41.12.65 1383 164.41.12.126 79
+Nov 21 14:44:20 firewall kernel: R TCP 164.41.12.65 1384 164.41.12.126 70
+Nov 21 14:44:20 firewall kernel: R TCP 164.41.12.65 1385 164.41.12.126 80
+Nov 21 14:44:20 firewall kernel: R TCP 164.41.12.65 1386 164.41.12.126 21
+Nov 21 14:44:20 firewall kernel: R TCP 164.41.12.65 1387 164.41.12.126 23
+Nov 21 14:44:20 firewall kernel: R TCP 164.41.12.65 1388 164.41.12.126 25
+Nov 21 14:44:20 firewall kernel: R TCP 164.41.12.65 1389 164.41.12.126 119
+Nov 21 14:44:20 firewall kernel: R TCP 164.41.12.65 1390 164.41.12.126 540
+
+No  msdulo  heavy a varredura ficaria realmente comprovada. O  Satan  testa 
+eexistjncia  de varios servigos tentando encontrar servigos em  portas  nao 
+convencionais, como por exemplo telnet em porta 933.
+          ---------------------------------------------
+                               HACKER LINKS   
+
+Para  ser sincero, acho mais facil procurar hacker links entrando  no  Alta 
+Vista,  Yahoo  ou outro servico de busca e digitando  os  termos  "Computer 
+Security" ou "Hackers".  Mas um amigo me mandou esses links e ... sei  la', 
+nao  visitei, nem sei o que tem dentro. Alguns podem ja' ter saido  do  ar, 
+pelo  mesmo motivo que um dia esse zine pode deixar de ser  publicado. 
+ Ah, sim. 
+     Vale a pena lembrar que alguns deles estao monitorando quem acessa. Um 
+amigo  meu,  webmaster em algum lugar, me disse que recebeu email  mais  ou 
+menos  assim:  "fulano@site.xxx.br  tem feito  download  de  material  para 
+cracking. Fica a seu criterio tomar as providencias necessarias". Se alguem 
+nao sabe, quando voce faz o download de algo em algum site, fica seu  email 
+la'.  No caso do meu amigo, como ele era o proprio fulano@site.xxx.br,  nao 
+teve  consequencias.  Mas  como alguns softwares  sao  proibidos  de  serem 
+"exportados"  (traduzindo,  se voce ver numa pagina, nao  deveria  fazer  o 
+download  se nao fosse americano e nao estivesse nos EUA) e' melhor  pensar 
+legal..  
+
+ http://www.l0pht.com/~oblivion/hack.html" Hacking Files
+
+ http://www.l0pht.com/~oblivion/blackcrawlarch.html" Black Crawling Systems
+Archives
+
+ http://www.paranoia.com/" LAST_VISIT="832015490" La Paranoia Home Page
+(indecent? never!)
+
+ http://www.macnet.com/home/anderson/links.html" Shadow Master's H/P/C Hot Links
+
+ http://www.stack.urc.tue.nl:80/~galactus/remailers/index-crack.html"
+Encryption cracking
+
+ http://pages.prodigy.com/Depravity/main.html"  DePrAvItY'z Home Page
+
+ http://hardy.ocs.mq.edu.au/~dtsai/winsock/crack/" 403 Forbidden
+
+ http://www.hidesert.com/user/dave/bin/hk.htm" sHAdowCKlear's Homepage
+
+ http://www.brute.cl.cam.ac.uk/brute/" >brute page
+
+ http://www.cascade.net/dark.html" Dark Side of the Net Home Page
+
+ http://www.ifi.uio.no/pgp/"  ">The International PGP Home Page
+
+ http://www.rit.edu/~jmb8902/hacking.html" Silicon ToAd Hacking Resou
+
+ http://www.intergate.net/uhtml/tapcrak.html" Tapu's Crack & Hack
+
+ http://www.spatz.com/pecos/hack.html" The World of Hacking
+
+ http://www.sonic.net/hack.html" >Hacker's Paradise
+
+ http://www3.ios.com:80/~ehacker" >HACKer's
+
+ http://www.pegasus.esprit.ec.org/people/arne/pgp.html" The PGP
+
+ http://win.tue.nl/games/roguelike/nethack/index.html"  >NetHack
+
+ http://www.shore.net/~oz/welcome.html" Hack TV
+
+
+ http://207.69.136.226/index2.htm noware home page, JAVA related 
+ 
+ 
+ http://cuiwww.unige.ch/eao/www/Visual/Visual.Programming.biblio.html WWW
+Virtual Library: Visual Languages and Visual Programming 
+ 
+
+ http://falcon.jmu.edu/~schutzmd/gdp.html The Game Developer's
+Page 
+ 
+
+ http://happypuppy.com/games/devel/ Happy Puppy Game Developers
+Page 
+ 
+
+ http://home.netscape.com/eng/mozilla/2.0/handbook/javascript/index.html
+ JavaScript Authoring guide 
+ 
+
+ http://iceonline.com/home/alexad3/ The GameSmith Library! 
+ 
+
+ http://info.desy.de/user/projects/C++.html The C++ Virtual
+Library 
+ 
+
+ http://intranet.ca/~sshah/booklist.html The Programmers'
+Booklist 
+ 
+
+ http://java.sun.com/applets/applets.html Cool Java Applets
+We've Written 
+ 
+
+ http://mambo.ucsc.edu/psl/cg.html Computer Graphics 
+ 
+
+ http://moonbase.wwc.edu/Game.programming.html Moonbase Game
+Programming Resources 
+ 
+
+ http://northshore.shore.net/~ict/ict.html NTELLIGENT COMPRESSION
+TECHNOLOGIES! 
+ 
+
+ http://ourworld.compuserve.com/homepages/RHunterGordon/ Game
+Development Explorer 
+ 
+
+ http://ourworld.compuserve.com/homepages/TheProgrammersGuild/ The
+Programmers' Guild 
+ 
+
+ http://reality.sgi.com/employees/austern_mti/std-c++/faq.html comp.std.c++
+frequently asked questions 
+ 
+
+ http://www.cdrom-paradise.com/gamer.html Advanced and Game
+Programming Resources 
+ 
+
+ http://www.cgda.org/ The Computer Game Developers Association 
+ 
+
+ http://www.cs.cmu.edu/afs/cs.cmu.edu/user/ralf/pub/WWW/ralf-home.html Ralf
+Brown's Home Page 
+ 
+
+ http://www.ee.ucl.ac.uk/~phart/game/ games programming homepage! 
+ 
+
+ http://www.informant.com/ Technical Magazines for Serious
+Software Developers 
+ 
+
+ http://www.inquiry.com/ inquiry.com - Home Page, the premier
+developer resource on the WEB 
+ 
+
+ http://www.mind.net:80/jfs/devres.html Developers Resource
+Guide 
+ 
+
+ http://www.nauticom.net/users/future21/cgis.html CGI Script
+Archive 
+ 
+
+ http://www.owlnet.rice.edu/~jjf/gp/ Genetic Programming 
+ 
+
+ http://www.newtonlabs.com/ic/ Interactive C Home Page 
+ 
+
+ http://www.oslonett.no/home/oruud/ftpfiles.htm Programming:
+Useful Files and FTP-sites 
+ 
+
+ http://www.borland.com/delphi/delnet.html Other Delphi Internet
+Sites 
+ 
+
+ http://www.delphi32.com/ www.delphi32.com - Your Delphi Resource
+Center 
+ 
+
+ http://www.doit.com/delphi/ The Delphi Source 
+ 
+
+ http://www.fh-merseburg.de/~tietz/delphi.html Marko Tietz's
+BORLAND Delphi Homepage 
+ 
+
+ http://www.iinet.com/market/gmp/gmp.html Delphi 2.0 Game
+Development Tools 
+ 
+
+ http://www.informant.com/undu/index.htm The Unofficial Newsletter
+of Delphi Users 
+ 
+
+ http://www.mindspring.com/~cityzoo/buglist/buglist.html The
+Delphi Bug List 
+ 
+
+ http://www2.ecos.kharkov.ua/delphi/index.html Delphi Page 
+ 
+
+ http://www.cis.ufl.edu/~nemo/cen4500/coding.html Networks
+- Data Encoding 
+ 
+
+ http://www.epl.co.uk/app2ct.htm Glossary of Terms - Cellular
+Telephony 
+ 
+
+ http://www.ericsson.com/LME/articles/cordless_ct4.94.html Cordless
+or Mobile? - from Ericsson Contact no.4, 1994 
+ 
+
+ http://www.ericsson.se/Connexion/connexion1-93/techno.html Technology:
+Cordless 
+ 
+
+ http://www.ericsson.se/EPI/BR/1fixedce.html FIXED RADIO ACCESS
+- Fixed cellular technology 
+ 
+
+ http://www.ericsson.se/EPI/BZ/kap5.html#DECT NETWORK ENGINEERING
+AND CONSTRUCTION 
+ 
+
+ http://www.ericsson.se/LME/articles/cordless_ct4.94.html Cordless
+or Mobile? - from Ericsson Contact no.4, 1994 
+ 
+
+ http://www.gsnetworks.com/ezvu/ezvu500/TUTORIAL/PROTOCOL/genT1.txt T1
+TUTORIAL 
+ 
+
+ http://www.network-1.com/ Network-1 Software and Technology 
+ 
+ 
+
+ http://papa.indstate.edu:8888/ Winsock-L Web Page 
+ 
+
+ http://pcwin.com/ Randy's Windows 95 Resource Center - Home
+Page 
+ 
+
+ http://win95.daci.net/95links.htm Windows 95 central, over
+2000 links to Windows 95 software 
+ 
+
+ http://www.conitech.com/windows/ Frank Condron's Windows
+95 / Windows NT Page 
+ 
+
+ http://www.conitech.com/windows/links.html Frank's Windows
+Page - Windows Links 
+ 
+
+ http://www.creativelement.com/win95ann/ Windows95 Annoyances 
+ 
+
+ http://www.win95.com/dev.html Developement 
+ 
+
+ http://www.zdnet.com/wsources/ Windows Sources 
+ 
+
+ http://204.227.186.2:80/pgeyer/ Peter Geyer's UFO HOT PAGE 
+ 
+
+ http://epic.org/ Electronic Privacy Information Center Home
+Page 
+ 
+
+ http://pages.ripco.com:8080/~glr/fbi.html Get Your FBI File! 
+ 
+
+ http://www.cs.cmu.edu/Web/People/spok/banned-books.html Banned
+Books On-line 
+ 
+
+ http://www.iufog.org/ IUFOG-Home 
+ 
+
+ http://www.lightlink.com/morbius/bigbro.html Eye on Big Brother 
+ 
+
+ http://www.pair.com/spook/ Xenophobic Perecution in the U.K 
+ 
+
+ http://www.paranoia.com/ La Paranoia Home Page (Indecent?,
+never!) 
+ 
+
+ http://www.schmitzware.com/ufo.html SMITTY'S UFO PAGE 
+ 
+
+ http://www.ufomind.com/ Guide to Knowledge 
+ 
+
+ http://194.47.150.239/ Apollo 20 
+ 
+
+ http://consult.ncsa.uiuc.edu/~nbenami/ The Nethermost Pits
+of HTML! 
+ 
+
+ http://geneva.visi.net/~djack/ Awesome Internet Sitez! 
+ 
+
+ http://mix.hsv.no/~sting/ Gisle's World, lots of Stuff 
+ 
+
+ http://ourworld.compuserve.com/homepages/richard_billows/ WebCruiser 
+ 
+
+ http://www.cupidnet.com/ CUPID's Network, The World's Largest
+Network For Singles 
+ 
+
+ http://www.cythera.com/ Aphrodite's Web: Sex, Mythology,
+the internet and novel writing 
+ 
+
+ http://www.eskimo.com/~billb/ SCIENCE HOBBYIST 
+ 
+
+ http://www.eye.net/Food-drink/ Wines, beers and spirits of
+the net 
+ 
+
+ http://www.infomedia.net/scan/ The Scanning FAQ - Intro Page 
+ 
+
+ http://www.mainelink.net/mainelaw/virtuallawyer.html The
+Virtual Lawyer (R) 
+ 
+
+ http://www.mathsoft.com/links.html#special Math related links 
+ 
+
+ http://www.mathwizards.com/ he MathWizards 
+ 
+
+ http://www.netlib.org/ Netlib Repository, Netlib is a collection
+of mathematical software, papers, and databases. 
+ 
+
+ http://www.occ.riksmedia.se/ Online Career Center 
+ 
+
+ http://WWW.ODDITY.COM/directory.html List of Odd newsgroups 
+ 
+
+ http://www.soviet.com/ http://www.soviet.com/ 
+ 
+
+ http://www.synapse.net/~oracle/Contents/HumorArch.html Oracle
+Service Humor Archive 
+ 
+
+ http://www.telegraph.co.uk/et/access?ac=146338206420&pg=//96/9/1/ngrav01.html 'Anti-gravity'
+device gives science a lift 
+ 
+
+ http://www.text-tv.tv4.se/frame.htm TV4 text-TV 
+
+
+
+     _________________________________________________________________
+
+
+                               BIBLIOGRAFIA:
+                               =============
+
+O artigo "Biblia do IRC" foi uma otima colaboracao do:
+Fernando Lyra Hippolyto Jales    jales@br.homeshopping.com.br     
+
+Hacking in Portugal veio de um anonimo portugues, cujo pseudonimo ta' la'.
+
+O "BBSXINTERNET" e' de outro colaborador, ta' la' o nome. 
+
+As  duas,  o  projeto de lei e a lei do grande  irmao  foram  enviadas  por 
+voluntarios.
+ 
+Quanto  ao lance dos virus, putz... e' bastante facil encontrar  informacao 
+sobre  eles na rede, basta usar o yahoo e outros websearchers. Tem  ate'  a 
+pagina  de um portugues na geocities. So' esqueci o endereco, mas  fica  no 
+Silicon Valley, acho.
+ 
+Os links sao contribuicao de um amigo e tambem "chupados"  de alguns sites. 
+Nao queria deixar so' links de underground.
+
+A lista de taglines veio da lista de piadas que assino, ja' dei a dica  num 
+numero anterior
+
+As noticias vieram do Edupage, tambem ja'  dei a dica em numero anterior.
+
+-------------------------------######--------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

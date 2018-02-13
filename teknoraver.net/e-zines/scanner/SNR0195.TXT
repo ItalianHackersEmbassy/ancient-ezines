@@ -1,0 +1,1444 @@
+
+             The Scanner - The Anti-Virus Newsletter of Today
+                            January 1995
+                         Volume 1    Issue 1
+
+     The Scanner is a newsletter compiled by Howard Wood with the
+help of many people in the Anti-Virus community and Anti-Virus researchers 
+as well as users.  The information contained within the newsletter is public 
+domain.  Any article or part of an article is free to copy as long as the 
+proper credits go to the author of such article.
+
+     The Scanner is in no way liable for the accuracy of any or all 
+information it is passing along. The sole responsibility for the data 
+contained in the articles remain with the original author. While accuracy 
+and facts are the paramount goal of The Scanner, it is humanly impossible 
+to verify all information and guarantee its accuracy 100%.
+
+     The goal of The Scanner is to disseminate as much information to as 
+wide spread a group as possible. Researchers, developers and users alike need 
+various levels of information to deal with the viruses, Trojans and hacks 
+that are encountered daily.  The Scanner will *attempt* to pass along viable 
+information for all groups.
+       
+     Any and all constructive criticism and suggestions are welcomed
+and encouraged.  Send all responses to the addresses below.
+            
+     My PGP public key available upon request.  You can send any files you 
+suspect of viral infection or know to have viral infections, hacks or 
+suspect files to the same addresses.  Please include the name of the 
+program the file was discovered in and your name and address so the alert 
+notices can be a little more accurate than "there is a virus out there!!".                                
+
+     Most of all, The Scanner is *your* newsletter.  If you have encountered 
+any viruses, Trojans, or hacked programs let us know.  We need to all work 
+together to combat the problems out there.  Since the last issue there have 
+been some address changes.  Any correspondence with either The Scanner staff 
+or Howard Wood can be sent to the following addresses:
+
+               The Scanner     SCNR@aol.com
+               Howard Wood     HRRWood@aol.com
+
+============================================================================
+
+                             CONTENTS
+
+     Article                                Author
+-----------------------------------------------------------------
+
+The New Year .............................. Howard Wood
+Polymorphic Generators .................... Mikko Hypponen
+Tech Reports .............................. Bill Lambdin, Bill Hoover
+Trojan Alert ! ............................ Howard Wood
+The Bookshelf ............................. Robert Slade
+                     Reviews on:
+   "The Internet Business Book" - By Jill H. Ellsworth
+   "Your Internet Consultant"   - By Kevin M. Savatz
+Gold-Bug Companions ....................... Howard Wood
+In The News ............................... Howard Wood
+Hacks, Viruses and Trojans ................ Howard Wood
+Stoned.Empire.Monkey.A Removal ............ Howard Wood 
+                  Performance of:
+    F-PROT vs Monkey ...................... Mikko Hypponen
+    Integrity Master vs Monkey ............ Wolfgang Stiller
+The Monkey is on my back !! ............... Howard Wood
+From Woody's Desk ......................... Howard Wood
+============================================================================
+
+                            The New Year
+
+     Well, 1995 has started.  It is customary in many circles to
+reflect on the year past and look ahead to the new year present.  We
+can't look back too far but we can certainly look ahead.  
+
+     As I have been reading the Virus-L digest I see the ever
+increasing problem of the viruses, hacks and Trojans.  Basic
+precautions are needed but seem to be neglected.  Promise yourself
+that the new year will start new habits.
+
+     Backup your files.
+     
+     Set yourself up with a tool box to help you prevent being in the 
+position where that report that is due tomorrow isn't lost because you 
+can't get to it, or even worse, has been destroyed.  Take the few minutes 
+it takes to set up an Integrity program, and a scanner that meets your 
+requirements.  LEARN them and talk with others that use the same ones and 
+find out what works for them so you can establish a system of your own.
+
+     Backup your files
+     
+     Get yourself into a virus conference on one of the many
+conferences offered out there.  Keep you eyes open for warnings of
+virus infected programs, hacks or Trojans.
+
+     Backup your files
+     
+     Keep those files you just downloaded in a separate directory
+where you can uncompress them and scan them before you run them. 
+As sure as I am writing this article, the first time you say " I'm sure 
+this is safe" is when you will get hit.
+
+      And finally, BACKUP YOUR FILES !!!
+          
+          "The best defense is a good offense"
+
+     I hope 1995 is a good year for all.  Remember, keep those
+scanners going!! :-)
+
+                                      Woody
+
+============================================================================
+
+                            Polymorphic Generators
+
+EDITOR NOTE:     Mr. Mikko Hypponen, of Datafellows LTD, was kind enough to
+                 allow The Scanner to use articles from his FP-Bulletins
+                 in this issue and others to follow.  We thank him for his
+                 generosity and help in making The Scanner a more 
+                 professional newsletter.
+
+
+
+
+Polymorphic viruses
+-------------------
+The rise of polymorphic viruses can be seen as virus writers' response 
+to the increasing expertise of virus scanners. Since properly built 
+scanners can recognize viruses by their characteristic code, the 
+obvious way to try to beat scanners was to design viruses that change 
+their code, thus rendering recognition with search strings impossible.
+
+Polymorphic viruses employ code alteration and encryption to hide 
+themselves from scanners. Their usual tactic is to encrypt the main 
+part of their code with a variable key and leave only the decryption 
+executor unencrypted. The decryption code is altered during every 
+infection to prevent detection with a search string.
+
+However, it takes considerable skill to design a polymorphic virus. 
+This kept the number of true polymorphic viruses quite small for a 
+relatively long time. Of course, this couldn't last forever: At some 
+stage, the heavyweights of the virus trade took notice and came to 
+rescue their less skilled brethren by writing and distributing 
+polymorphic generators.
+
+Polymorphic generators
+----------------------
+Polymorphic generators are routines which can be linked to existing 
+viruses. The generators are not viruses per se; their purpose is to 
+hide actual viruses under the cloak of polymorphism.
+
+The first all-purpose polymorphic generator was the Mutation Engine, 
+or MtE. Published in 1991, capable of billions of different 
+permutations, linkable to any virus, it heralded the age of instant 
+polymorphism. Today, there are 33 different viruses which are known to 
+use the MtE.
+
+Other polymorphic generators followed in MtE's wake. The next two 
+appeared late in the year 1992. They were the TridenT Polymorphic 
+Engine (TPE) and NuKE Encryption Device (NED).
+
+TPE was written in the Netherlands. In principle it is capable of 
+producing smaller number of different permutations than the MtE. 
+However, it created detection problems for antivirus products because 
+the decryptors it creates are more generic than those produced by MtE. 
+NuKE's generator wasn't quite as advanced, but unlike most other 
+polymorphic generators, it was distributed as readable source code 
+instead of an object module.
+
+Other known polymorphic generators are Dark Angel's Multiple Encryptor 
+(DAME), Darwinian Genetic Mutation Engine (DGME), Dark Slayer Mutation
+Engine (DSME), MutaGen, Guns'n'Roses Polymorphic Engine (GPE) and Dark
+Slayer Confusion Engine (DSCE).
+
+These generators are typically distributed via underground networks, 
+virus exchange BBSs and private areas in the internet.
+
+Operating Principles
+--------------------
+Polymorphic generators are code modules which a programmer can 
+incorporate into a program. After this, the program can use the 
+functions the code module contains. This process is called linking. 
+Once a generator is linked to a virus, it becomes an intrinsic part of 
+the said virus. The virus will thereafter carry the engine along while 
+spreading itself.
+
+It should be noted that the generator itself does not care in which 
+kind of a program it is linked to. The known polymorphic generators 
+are clearly written to be linked to viruses, but in principle they 
+could be used in other kinds of programs as well.
+
+When a virus that employs a polymorphic generator is infecting a 
+program file (or some other object), it requests the generator to 
+create an encrypted copy of the virus code and the generator itself. 
+Besides performing the encryption, the generators also create a 
+decryptor - a routine which is able to undo the encryption applied to 
+the actual virus code.
+
+The generators often use relatively simple encryption techniques. 
+However, they do change the encryption key during every execution. 
+This alone makes the detection of such a virus difficult, but 
+encrypted viruses retain one Achilles heel: the decryption routine, 
+which must remain unencrypted if it is to be executable. Thus, the 
+true effectiveness of a polymorphic generator is measured by its 
+ability to mutate the decryption routine.
+
+All polymorphic generators need some kind of a randomization routine 
+in order to create different algorithms each time. Some of the 
+generators allow the virus programmer to substitute his own 
+randomization routines instead of the original one.
+
+Polymorphic generators are able to create completely different 
+encryption methods and a wide variety of different decryption routines 
+for them. They modify their decryption routines by such means as 
+shifting the commands inside the routine around, adding ineffectual 
+commands in random places and using different processor registers and 
+opcodes. 
+
+The basic idea is to make the binary image of the decryption routine 
+totally different between different infections. All this makes it 
+impossible to search for the decryption routine with fixed search 
+strings - there is no search string that could always be found in 
+infections made by a polymorphic virus.
+
+               <Polymorphic-infection.GIF>
+
+     How does a virus using a polymorphic generator infect a file?
+
+     1.  A clean file before the infection. We'll call this the
+         victim file.
+
+     2.  The virus starts the infection process by modifying the
+         victim file's first commands. It replaces them with a
+         command to jump to the end of the file. The original first
+         bytes of the file are stored in the virus's body.
+
+     3.  Next, the virus calls the polymorphic generator to create an
+         encrypted copy of the virus code and the generator itself.
+         The generator also creates a decryption routine, which is
+         added to the end of the victim file.
+
+     4.  The encrypted code is added to the end of the victim file.
+         This encrypted section contains three parts: a copy of the
+         actual virus code, the original first bytes of the victim
+         file, and the code of the polymorphic generator.
+
+
+Limitations
+-----------
+When the first polymorphic generators were found, it was feared that 
+there would be a huge rise in the number of polymorphic viruses. 
+However, these generators have not proved as popular as was originally 
+thought - only about one hundred viruses are known to use a generator.
+
+One of the reasons for this is that a generator must be linked to the 
+program to be encrypted, and since the operation requires changes to 
+the program itself, some programming experience is necessary. This 
+alone places the generators out of the reach of the run-of-the-mill 
+virus enthusiasts. Unfortunately, the generators usually come with 
+detailed instructions on their use, so that virus aficionados with 
+even limited experience of assembly programming can easily use them.
+
+Another limitation is the generators' size. Although the generators 
+are quite small in themselves, they do increase the size of viruses by 
+some amount. This makes it difficult to link them to boot sector 
+viruses, which have limited code space. No generator-masked boot 
+sector viruses have been found. With the exception of V-Sign (a mildly 
+polymorphic boot sector virus), polymorphic capabilities seem to be 
+the privilege of file viruses.
+
+Of course, the advantage that viruses get from polymorphic generators 
+is somewhat questionable. If an anti-virus program is able to 
+recognize the presence of a particular generator, it is usually able 
+to detect all viruses masked by it.
+
+Detection
+---------
+Despite the cunning nature of polymorphic generators, viruses masked 
+by them can be detected by using proper tools. Antivirus programs 
+often employ algorithmic means to recognize files infected by 
+polymorphically hidden viruses. Another way to find such viruses is to 
+use checksumming. It is also possible to try to solve the encryption 
+and search for the virus underneath the encryption layer.
+
+Algorithmic methods
+-------------------
+Algorithmic methods are based on the fact that however much a 
+generator mutates the decryption routine, it must still contain 
+certain programming structures which make the decryption possible. If 
+a program file contains such structures, the antivirus program can say 
+with sufficient certainty that the file is infected by a 
+polymorphically cloaked virus.
+
+As polymorphic generators vary a lot, a different algorithm is needed 
+for each generator - and in order to build such algorithm, the 
+generator will have to be studied closely.
+
+However, the algorithmic methods have a certain weakness: they are 
+prone to false positives. The program structures employed by 
+polymorphic generators can be very random. This means that similar 
+structures sometimes occur inside legitimate program code. False 
+alarms may crop up especially if data files are also included in the 
+search, because they typically contain data similar to the random 
+'garbage-code' which the generators produce. It is relatively easy to 
+create an algorithm that will find all infections created with a 
+polymorphic engine, but if the algorithm would also flag a large 
+amount of clean programs as infected, it is useless.
+
+Checksumming
+------------
+Checksums are comparison values calculated from the executables in a 
+system. These values are stored in a database. When a checksum search 
+is made, the checksums are re-calculated and compared with the 
+original values in the database. Since this method detects all changes 
+to a system, the mutability of polymorphically hidden viruses does 
+them no good; a change is a change, and thus detectable.
+
+Checksumming has its drawbacks, too: checksummers suspect all changes 
+that happen inside a system, and occasionally give warnings of 
+ordinary programs which alter their own code. Nowadays, checksummers 
+are usually equipped with an exclude-list and a heuristic faculty to 
+prevent this from happening.
+
+Although theoretically able to detect all changes to a system, 
+checksummers are vulnerable to stealth viruses. If such a virus is 
+active in a computer's memory, it is able to hide all the changes it 
+has made. When stealth viruses are involved, checksummers base their 
+calculations on false data, and will consequently find everything to 
+be in order. It should be noted that polymorphic viruses which also 
+stealth their presence are very rare, simply because they are 
+technically difficult to create.
+
+Decryption-based detection
+--------------------------
+The decryption-based detection of polymorphic viruses work by first 
+reasoning whether the examined object is encrypted. If the object 
+seems to warrant suspicion, generic decryption methods are applied to 
+it, and a string-based search is done to the code found underneath the 
+encryption. 
+
+This method works against some polymorphic generators with great 
+success, but is difficult to implement for others. 
+
+What is the best solution?
+--------------------------
+Checksumming is the strongest method against polymorphic viruses - as 
+long as the machine is clean when the checksummer is installed, and 
+the virus is not falsifying the information received by the 
+checksummer. Checksummers will also detect those polymorphic (and 
+normal) viruses that have not yet been analyzed. 
+
+The algorithm-based detection mechanisms against polymorphic viruses 
+tend to have problems with false alarms, but these can be overcome by 
+designing the detection engine carefully. One advantage of algorithm-
+based detection is that, once a detection engine is able to detect a 
+certain polymorphic generator, it will probably detect all viruses 
+utilizing it. 
+
+A decryption-based detection mechanism can only detect those 
+polymorphic viruses that have been analyzed by the creator of the 
+antivirus product, but it is very unlikely to produce false alarms. 
+Furthermore, such a mechanism is also able to detect the exact variant 
+of the virus in question - this is something that most algorithm-based 
+detection methods are unable to do.
+
+Thus far found...
+-----------------
+In the following are brief descriptions of the polymorphic generators 
+that have been found to this date. The generators usually come with 
+introductory notes which explain their use, and in which the authors 
+seek to justify themselves, for example by prohibiting the use of 
+their products in viruses, by trying to explain why polymorphic 
+generators are beneficial, necessary and generally morally uplifting, 
+or by giving the by now well-established lecture about free speech and 
+freedom of expression. Since many of the generators' authors are 
+members of well-known virus groups, these disclaimers can be seen as 
+simple hypocrisy.
+
+MtE (Mutation Engine)
+---------------------
+Mutation Engine was the first polymorphic generator, written by 
+the Dark Avenger. MtE was put into circulation in 1991. It is 
+the most widespread polymorphic generator, and has been 
+incorporated to 33 different viruses.
+
+Though revolutionary in its time, Mutation Engine is currently 
+somewhat outdated. Practically all anti-virus products can 
+detect MtE-hidden viruses. Nevertheless, MtE continues to be a 
+source of inspiration for people aspiring to write polymorphic 
+generators - for example, almost all generators written after 
+MtE mimic the documentation provided with MtE.
+
+MtE v0.91's size is 2048 bytes. 
+
+TPE (TridenT Polymorphic Engine), DGME (Darwinian Genetic Mutation Engine)
+--------------------------------------------------------------------------
+TPE was written in 1992 by Masud Khafir, a Dutch member of the 
+TridenT virus group. Before and after TPE, Masud Khafir has 
+created several advanced viruses. Among them are the first 
+Windows virus, Win_Vir, the Cruncher virus series, and one of 
+the most widespread viruses using MtE, the MtE.Pogue virus. TPE 
+itself is based on the encryption routine of Masud Kafir's 
+Coffeeshop 3 virus, currently known as TPE.1_0.Girafe.A.
+
+To date, four versions of TPE have come out. The author has 
+implied that he considers the product finished, and will not 
+write further versions. The later versions of TPE are highly 
+complex, making it one the most advanced polymorphic generators 
+in the world. 
+
+TPE version 1.1 was technically advanced, but it contained bugs 
+which made it incompatible with some processor types. Versions 
+1.2 and 1.3 corrected this problem. The last version, 1.4, 
+introduced an improved, highly complex encryption method, which 
+makes TPE-hidden viruses difficult to identify by using 
+decryption-based detection methods.
+
+A separate, modified version of TPE has also appeared. It is 
+known as the Darwinian Genetic Mutation Engine (DGME). DGME was
+published in Mark Ludwig's latest disputed book 'Computer 
+Viruses, Artificial Life and Evolution'.
+
+TPE takes up about 1.6 KB. Presently, it is known to be linked 
+to 10 different viruses.
+
+NED (NuKE Encryption Device)
+----------------------------
+NED, the first polymorphic generator from USA, appeared at 
+approximately the same time as TPE. According to the 
+generator's documentation, it was released in October, 1992. 
+Nowhere Man is credited as being the author of this generator, 
+but there have been suspicions that it is actually written by 
+some other programmer. Nowhere Man is the author of NuKE's 
+Virus Creation Laboratory, the VCL.
+
+Unlike most other polymorphic generators, NED was distributed 
+as source code. This, of course, makes it easier for other 
+virus creators to modify the generator, but so far only a 
+single version of NED has been found. The generator's 
+documentation expressly forbids its distribution outside NuKE 
+itself, but it has obviously been in wide distribution.
+
+NED version 0.90B takes up 1355 bytes. It is known to have been 
+linked to two different viruses.
+
+DAME (Dark Angel's Multiple Encryptor)
+--------------------------------------
+Naturally enough, Phalcon/SKISM didn't want to be upstaged by 
+NuKE. In 1993, this virus group, which originates from Canada, 
+joined the fray with Dark Angel's Multiple Encryptor, DAME. The 
+new generator's name may have been meant as a dig at some 
+members of the anti-virus community, who had been using the 
+name DAME for Dark Avenger's Mutation Engine, MtE.
+
+Dark Angel published his generator during the summer of 1993 in 
+issue 11 of Phalcon/SKISM's magazine, 40Hex. Dark Angel has 
+also written the two virus creation toolkits published by 
+Phalcon/SKISM, the PS-MPC and G2.
+
+Like NED, DAME was distributed as commented source code. Along 
+with the generator, Dark Angel published an article which dealt 
+with polymorphism and the writing of polymorphic generators in 
+general.
+
+Dark Angel was apparently not completely satisfied with his 
+initial product, because he introduced an improved version of 
+DAME in the next issue of 40Hex.
+
+The first version of DAME, 0.90, took up 1574 bytes. The 
+improved 0.91 version had grown to 1960 bytes. Dame is known to 
+have been linked to two different viruses.
+
+DSME (Dark Slayer Mutation Engine)
+----------------------------------
+DSME was the first polymorphic generator from Taiwan. It was 
+written by a person calling himself Dark Slayer. DSME was 
+published in the end of 1993.
+
+Interestingly, DSME contains documentation both in English and 
+Chinese. The author sends greetings to Dark Avenger and Nowhere 
+Man and thanks for the inspiration he received from earlier 
+polymorphic generators. 
+
+DSME is not as advanced as the generators produced before it. 
+Dark Slayer admits this in his notes. The actual size of the 
+generator is little over 2 kilobytes.
+
+At the moment, only one virus is known to use the DSME.
+
+MutaGen
+-------
+In the beginning of 1994, a new author entered the stage. 
+Calling himself MnemoniX, this American virus writer proudly 
+presented a new generator called MutaGen.
+
+At the moment, there are four different versions of MutaGen in 
+distribution. Each successive version is more complex than the 
+previous ones. Their sizes range from 1032 bytes to 1385 bytes. 
+In MutaGen's documentation, MnemoniX criticizes the other 
+polymorphic generators for being too unreliable and easy to 
+detect.
+
+MnemoniX himself has published two different viruses which 
+utilize the MutaGen generator, but otherwise the response of 
+the virus underground to this new generator is unknown.
+
+GPE (Guns'n'Roses Polymorphic Engine)
+-------------------------------------
+The Guns'n'Roses Polymorphic Engine is a newcomer, written by a 
+person calling himself Slash Wu. Like the Dark Slayer Mutation 
+Engine, this generator originates from Taiwan - and it only 
+comes with Chinese documentation.
+
+In the generator's documentation, the author prohibits the use 
+of the generator in viruses and other malicious software. He 
+claims to have developed GPE solely for the purpose of 
+protecting data and programs from unauthorized use. These 
+claims are lent some credence by the fact that the author has 
+included his apparently real name and phone number in the 
+introductory notes.
+
+Version 1.00 of the Guns'n'Roses Polymorphic Engine was 
+released in March 1994. So far, the generator is not known to 
+have been linked to any virus. It's size is about two 
+kilobytes.
+
+DSCE (Dark Slayer Confusion Engine)
+-----------------------------------
+There is at least one polymorphic generator which has so far 
+eluded the antivirus researchers. The one that we know of is 
+called DSCE, and it is written by the same author as DSME.
+
+A file that demonstrated DSCE's abilities was sent to F-PROT 
+Professional Support during April 1994. Deductions based on 
+this demo indicate that DSCE is a rewritten version of DSME, 
+and capable of creating far more complicated samples.
+
+[Source: F-PROT version bulletin 2.14. Copyright (c) 1994 Data Fellows Ltd.]
+============================================================================
+
+                              Tech Sheets
+
+
+     Mr. Bill Hoover of Virus Research and Statistics in Indianapolis, 
+Indiana is a new member of The Scanner's contributing authors and 
+researchers.  We welcome him aboard and look forward to working with him 
+more in the future.
+
+                             
+    EDITOR'S NOTE: At publication time The Scanner learned that Bill has 
+    just recently been hired as a programmer/analyst for a client server 
+    based company called Support Net in Indianapolis, Indiana. CONGRATS
+    Bill, and good luck.
+
+     TRON and HIDER are two viruses Bill has researched.  The following 
+are his reports on the two viruses:
+
+TRON:
+=====
+
+The Tron virus was submitted to Virus Research & Statistics on 12.03.94 
+from a local sysop who runs a board here in Indianapolis, Indiana USA.  
+
+Seems a user uploaded the infected file compressed with PKLite and 
+F-Prot 2.14 detected it.
+
+From taking a quick look at it and testing it on an isolated computer, it 
+seems to be a resident *.COM infector including COMMAND.COM and the 
+infected files increase by 754 bytes.
+
+Upon executing an infected program, the virus will go resident and hook 
+interrupts 8 (system timer), 16 (keyboard), 21 (Dos Functions) and 22 (Dos 
+Terminate address) and infect *.COMs when they are executed.  Seems to also 
+play around with the keyboard a bit, and adds 1 to the ANSI value of the 
+6th typed character.  For example, 'xxxxxx' becomes 'xxxxxy' and 'aaaaaa' 
+becomes 'aaaaab'.
+
+Although F-Prot 2.14 detects it, users can use the scan sig below to detect 
+it since it is present in all infected files (at least the ones I tested) :
+
+0E 1F BE 18 01 46 81 3C 54 52 75 F9 81 7C 02 4F 4E 75 F2 83 C6 04
+
+In addition, (not sure about the trigger yet since I've only looked at it 
+for a couple of secs) but a little graphic ball will appear at the top left 
+of the screen and continue across the screen left to right until it hits 
+the bottom right, erasing the screen contents.  I have a feeling that this 
+happens after a the virus has been resident for so long (reason for system 
+timer being hooked) but not exactly sure.
+
+
+In addition, the text 'TRON' can be found within infected programs, and the 
+infected program's name appears in the interrupt chain and as resident in 
+memory.
+
+                              ********
+
+HIDER:
+=====
+
+Possible Virus Name : Hider / Anston Rant
+
+The 'Hider / Anston Rant' virus was submitted to Virus Research & 
+Statistics on 10.08.94 via the Prodigy Service by a user of Prodigy.
+
+The virus is a non-resident direct action parasitic infector of *.COM / *.EXE 
+files using a standard method of appending the viral code to the end of the 
+infected program(s) and adding a JMP command to the beginning of the 
+infected *.COM files.
+
+The virus seems to use a very effective traversal scheme which will search 
+relentlessly until it infects 3 *.COM and 3 *.EXE files or until no more 
+candidate files are found.
+
+Infected files will increase by 1782 bytes with the virus being appended to 
+the end of the infected files and the original file's time and date stamps 
+will not be changed from their original state.
+
+Infected files will contain the following message :
+
+Anston Rant is back for more!
+Whoa, looks like you be missing some files there, Bud!
+
+The user who submitted a sample of this virus stated that on the 13th day 
+of any month, the virus would 'hide' all files and directories located 
+within the root directory and the files could be safely recovered by using 
+the ATTRIB -H *.* command.  However, during my tests, no files or 
+directories were 'hidden' and the virus merely continued to infect 
+non-infected files and displayed the message listed above.
+
+Generation 1 samples of the this virus can easily be detected using the 
+following scan sig :
+
+BF 03 02 06 1E 06 89 FE 81 EE 00 01 32 E4 B9 CB 06 BB 00 00
+
+
+In addition, infected *.COM / *.EXE files can be detected by :
+
+06 1E 06 89 FE 81 EE 00 01 32 E4 B9 CB 06 BB 00 00 2E 8A 04
+
+In the current form, this virus does not contain an encryption scheme and 
+will easily be detected by using the above scan sigs added to F-Prot 
+or any other AV product that supports external user defined scan sigs.
+
+Tron and Hider / Anston Rant virus tech-specs provided by :
+
+Mr. William E. Hoover
+Virus Research & Statistics
+1142 South Reisner Street
+Indianapolis, Indiana 46221
+U.S.A.
+
+                     ********************************
+
+     Bill Lambdin is a member of The Scanner staff. The following is 
+his preliminary report on the NYMPHO MITOSIS virus.
+
+NYMPHO MITOSIS 2.0
+==================
+
+Preliminary analysis of Nympho Mitosis virus by W.H. (Bill) Lambdin
+
+Name        ] Nympho Mitosis 2.0
+Size        ] 787 bytes
+Infects     ] .COM and .EXE files including COMMAND.COM.
+Scan string ] 33 FF 8C C0 48 8E D8 38 3D 75 44 88 1D 83 6D 03
+In the wild ] Unknown
+            ]
+A-V         ] This virus has been forwarded to the following; Vesselin
+            ] Bontchev, David M. Chess, Spencer Clark, Eugene V.
+            ] Kaspersky, FRISK, Dr. Alan Solomon, Wolfgang Stiller,
+            ] Frans Veldman, Tarkan Yetiser. Dmitry O. Gryaznov
+Armored     ] no
+Detected    ] Yes
+Encrypted   ] No
+Interrupts  ] Hooks interrupt 21h
+Load Address] 9FBDh
+Marker      ] The virus places an 8 in the last column of the seconds
+            ] field of the time stamp to mark infected files. When 
+            ] Nympho Mitosis disinfects a host file,  02 in placed in
+            ] the seconds field of the time stamp.
+Polymorphic ] No
+Resident    ] Yes
+Size in RAM ] 1088 bytes
+Stealthed   ] Fully stealthed, but very unusual, the virus removes
+            ] itself, when an infected file is opened, but does not re-
+            ] infect when the host file is closed.
+Text        ] [Nympho Mitosis] v2.0 Copyright (c) 1993 Memory Lapse
+            ] Phalcon/Skism Canada
+Type        ] Infects .COM & .EXE files, and the virus is appended to
+            ] the end of the infected host files.
+Unusual     ] Does not trap errors. So DOS reports a write protect error
+            ] when trying to run a file from a write protected diskette.
+
+============================================================================
+
+                         Hacks, Viruses and Trojans
+
+
+                       A Trojan alert from THE SCANNER !!!!
+
+The following message was taken off of the WildNet Virus conference 
+19 December 1994:
+
+------------------------------------------------------------------------
+Date: 12-16-94                         Msg # 98     
+  To: ALL                              Conf: (125) Virus'-WN
+From: ROBERT KEMPER                    Stat: Public
+Subj: WARNING WARNING WARNING          Read: Yes
+------------------------------------------------------------------------
+I discovered a Trojan on the Software Vault Gold Collection CD.
+Under the utilities section is a supposedly shareware virus scanner that
+will damage any disk you attempt to scan. The file name is SCCL100.zip
+DO NOT ATTEMPT TO RUN THIS PROGRAM ! I have notified American
+Databankers Corp and they have confirmed that this program is designed
+to damage disks and will be removed from future CD's.
+
+Copyright 1994 Robert L. Kemper Jr.
+---
+ þ TNet 3.60 ÷ WILDNET: The Right Note! - MUSIC ORIENTED BBS - 502-452-1453
+
+---------------------------------------------------------------------------
+
+Thanks Robert, great catch!!  The staff at The Scanner went into action and 
+went looking. We found this program on 8 CDs total in our area and made the 
+proper notifications to the sysops.  Here they are the CDs and the areas the 
+program was found in:
+
+   CD Title                               Area
+-------------------------------------------------------------------------
+
+Shareware Vault Gold               Virus Detection and Prevention
+Shareware Studio #4                Virus
+Tech Arsenal                       Anti-Virus Utilities
+Cream of the Crop II               Virus Prevention
+Hobbes OS/2                        MAC File Viewers
+Best of Bizzness '94               Virus Utilities
+Best of Shareware '94              MAC File Viewers
+Night Owl #9                       Virus
+Night Owl 10                       Virus
+
+EDITOR'S NOTE:  Thanks to Jerome Priest - SYSOP of THE Busy Body BBS, 
+                W. Branch, MI, we added Night Owl #10 to the list.
+                Thanks Jerome !
+
+     The file is 709180 Bytes with a  file date of  05-26-93.  This 
+program claims to be a *virus scanner*.
+
+     The program will start out asking you what drive you want to scan.  
+Upon entering a drive letter you are immediately taken to a screen where the 
+alleged scanning is taking place.  The unsuspecting victim will observe a 
+Scanning box and a Status box on the screen.  As the Scanning box fills 
+( Showing the percentage of the disk that is scanned ) the status box shows 
+the message : "Scanning Memory ...."  
+
+     Once the Scanning box reaches 100%, the status box then reports
+             "Memory appears to be clean ....".
+
+     Now the program performs the alleged disk check.  The Scanning box 
+once again will display the percentage of the disk being scanned and the 
+status box displays the following message:
+           " Now performing check on disk.... Please Wait ...."
+
+     Now the fun begins.  The Scanning box will go the screens width 
+several times and the then stop.  The Status box displays the following 
+message:
+               " Uh Oh....Virus Detected...."
+
+     Upon hitting the return button this message comes up:
+
+               " Trying to gain control of vital areas...."
+
+     After a few seconds the final message comes up as:
+
+                " Cannot destroy virus !!!!"          
+
+     The system is waiting for a RETURN from the user.  The light on the 
+A: drive goes on and the damage is now in progress.  After the drive stops, 
+the system is locked up.  The system needs to be rebooted again.  After 
+rebooting, the unsuspecting user then looks at the disk in the A: drive to 
+see if the "virus" has been removed only to find the disk rendered useless.
+
+     That, folks, is a TROJAN.  A program that claims to do something, but in 
+reality does something else unbeknownst to the user.
+                
+                            ***************
+
+Editor's Follow-up:                
+
+                I have personally verified each program off of each CD.
+I am doing more follow-up because the file sizes are not all the same, yet,
+the same action occurs in each program.  The EXE file is the same size in
+each program 5599 bytes.  The SCCL100.DAT file is always 702383 bytes.  Prior
+to doing a scan on a disk the following files are in the directory of the
+SCCL100 program:
+ 
+   SCCL100.DAT     702383  05/26/93   18:57
+   SCCL100.DOC       1497  05/26/93   19:27
+   SCCL100.EXE       5599  05/26/93   18:58
+
+    After executing the program the following files are added:
+
+    SCANNER.DAT   140392  <Date program was run>
+
+                                       - Woody -
+
+============================================================================ 
+
+                             The Bookshelf
+
+     Rob Slade is busy at work up in British Columbia, Canada, reading
+book after book after book.  He is kind enough to share his views on these
+"parcels of knowledge" with The Scanner and we appreciate it.
+
+
+"The Internet Business Book", Ellsworth/Ellsworth, 1994, 0-471-05809-0,
+U$22.95
+oakridge@world.std.com je@world.std.com
+%A   Jill H. Ellsworth
+%A   Matthew V. Ellsworth
+%C   605 Third Avenue, New York, NY   10158-0012
+%D   1994
+%G   0-471-05809-0
+%I   John Wiley & Sons, Inc.
+%O   U$22.95 800-CALL-WILEY Fax: 212-850-6799
+%O   aponnamm@jwiley.com jdemarra@jwiley.com
+%P   376
+%T   "The Internet Business Book"
+ 
+This is a reasonable guide to what the Internet is, and how it works.  It
+gives good advice on the best means to approach the net community.  The list
+of resources is aimed at, and appropriate to, business and professional
+users.  The specifics of how to conduct a business on the Internet could use
+some work.
+ 
+The Internet information provided is concise, and provides a good, if fairly
+standard, starting point.  Those new to the Internet should plan to spend
+some time practicing the various applications, or might want to look for
+more detailed guides in areas of interest.  The coverage is quite broadly
+based, though.  The email chapter, for example, goes into some detail on the
+use of UUENCODE to send binary files, an often neglected topic.
+ 
+While the advice to avoid troublesome items such as unsolicited mail and
+mass advertising mailing is good, there could be much more in the way of
+specific business advice.  The choice of Internet provider only asks whether
+they provide all the Internet services you require, without analyzing the
+need for an information provider to set up anonymous ftp, gopher or World
+Wide Web servers.  The chapter on an Internet business plan really only
+looks at a standard planning tool, with a few line items added for Internet
+service costs.
+ 
+This work should provide an adequate starting point for those interested in
+launching a business with support from Internet tools.  Those who do should,
+however, spend some time getting used to the net, before rushing in.
+ 
+copyright Robert M. Slade, 1994   BKINTBUS.RVW  940929
+
+
+                            ***************
+
+
+"Your Internet Consultant", Savetz, 1994, 0-672-30520-8, U$25.00/C$34.95
+savetz@rahul.net
+%A   Kevin M. Savetz
+%C   201 West 103rd St., Indianapolis, IN   46290
+%D   1994
+%G   0-672-30520-8
+%I   SAMS Publishing
+%O   U$25.00/C$34.95 317-581-3718 fax: 317-581-4669
+%O   75141.2102@compuserve.com 75141.2104@compuserve.com
+%P   550
+%T   "Your Internet Consultant"
+ 
+The subtitle of this book, "The FAQs of Life Online", refers to a common
+form of online documentation and reference.  A list of "Frequently Asked
+Questions" list basic and common questions that people have, along with
+(supposedly) expert answers.  FAQs are generally undergoing constant
+maintenance and updating.  They are periodically reposted to specific
+topical groups and discussion lists, and are often accessible by various
+other means.
+ 
+Savetz maintains a number of such lists, so it is natural that his Internet
+guide is written in this style.  Question 1.2, in the introduction, in fact,
+asks whether the world needs another Internet book.  He feels that his guide
+has a distinctive, and that the question and answer style makes a
+fundamental difference to the work.
+ 
+I'm not sure that the difference is fundamental, but I do think it was a
+valuable exercise, and produced a worthwhile book.  The need to answer the
+questions keeps sidetracks and diversions to a minimum,.  The "frequently"
+part also helps keep the book focussed on what most people want; the
+question, however, gives the book some added breadth.  I note some questions
+which I am certainly asked often, and which many Internet guides fail to
+answer.
+ 
+The questions are all listed at the beginning of the book, forming a type of
+expanded table of contents.  This is less helpful than one might suppose,
+since one needs to know the area that the question might appear in.
+ 
+Overall, a concise and informative starting guide, well worth consideration.
+ 
+copyright Robert M. Slade, 1994   BKYRINTC.RVW  940930
+============================================================================
+DECUS Canada Communications, Desktop, Education and Security group
+newsletters Editor and/or reviewer ROBERTS@decus.ca, RSlade@sfu.ca, Rob
+Slade at 1:153/733 Author "Robert Slade's Guide to Computer Viruses"
+0-387-94311-0/3-540-94311-0
+============================================================================
+
+     EDITORS NOTE:     I have recently purchased a copy of Rob's book
+                       "Robert Slade's Guide to Computer Viruses" and 
+                       highly recommend it to anyone wishing to take 
+                       serious steps in learning the basics of computer
+                       viruses and procedures to arm themselves against
+                       them.  It is well written and quite informative.
+                       Hopefully, I will have completed it by the next
+                       issue and look forward to giving you the "scoop"
+                       in detail.  :-)
+============================================================================
+                            
+                            GOLD-BUG Companions
+
+     In the last issue of The Scanner we featured the GOLD-BUG virus.  In 
+the "gouge" we included in the article, two companion viruses of GOLD-BUG
+were mentioned.  The DA'BOYS virus and the XYZ virus both, accompany the 
+GOLD-BUG virus.  All three of these viruses are written by an individual
+named "Q" the misanthrope.  Well, the "Q" library is growing.  I guess if
+we have to have virus writers that turn their creations loose on the world
+we might as well have one that will at least send the code and the removal 
+instructions as well !  :-)
+
+                            DA'BOYS VIRUS
+                            -------------
+Virus Name:  DA'BOYS
+Aliases:     DALLAS COWBOYS
+V Status:    New, Research
+Discovery:   January, 1994
+Symptoms:    Possible diskette access problems; BSC; Infected disks fail to
+             boot on 8088 or 8086 processors; No COM4.
+Origin:      USA
+Eff Length:  251 Bytes
+Type Code:   BORaX - Resident Overwriting Boot Sector and Master Boot Sector
+             Infector
+Detection Method:  None
+Removal Instructions:  DOS SYS
+
+General Comments:
+
+       The DA'BOYS virus will only work with DOS 5 or DOS 6+ with an 80186 or
+       better processor.  Unlike other boot sector infectors, the DA'BOYS
+       virus overwrites or rewrites the DOS boot sector.  It does not make a
+       copy or move the boot sector to another sector.  It will infect all
+       American DOS 5 or DOS 6 boot sectors.  It will infect disks in drive
+       A: or B:  It works with 360K, 720K, 1.2M, 1.44M or 2.88M disks.
+
+       When a disk is booted with the DA'BOYS virus, it will load itself into
+       a "hole" in lower DOS memory.  CHKDSK will not show a decrease in
+       available memory.  INT 12 will not be moved.  The DA'BOYS virus code
+       is written in the "Non-System disk or disk error  Replace and press
+       any key when ready" string.  But it will display the above message by
+       using the code found on the hard disk DOS boot sector.  It will then
+       infect the DOS boot sector (not the partition table) of the hard disk
+       and overwrite the "Non-System ... " text string with it's code.
+
+       The DA'BOYS virus does not damage any data.  It disables COM4.  The
+       text string "DA'BOYS" appears in the virus code but is not displayed.
+       The DA'BOYS virus has a companion virus that it works with.  The
+       GOLD-BUG virus is also a boot sector infector.  It is possible to have
+       a diskette with two boot sector viruses.  GOLD-BUG hides the presence
+       of the DA'BOYS virus from the Windows 3.1 startup routine.  GOLD-BUG
+       removes the DA'BOYS virus from the INT 13 chain at the start of
+       Windows and restores it when Windows ends.
+
+       It can be removed from diskettes and hard disks with the DOS SYS
+       command.
+
+                                *************
+
+                                  XYZ VIRUS
+                                  ---------
+
+Virus Name:  XYZ
+Aliases:     X-AMINE YOUR ZIPPER
+V Status:    New, Research Viron
+Discovery:   September, 1993
+Symptoms:    None - Pure Stealth
+Origin:      USA
+Eff Length:  440 Bytes
+Type Code:   OReE - Extended HMA Memory Resident Overwriting .EXE Infector
+Detection Method:  None
+Removal Instructions:  See Below
+
+General Comments:
+
+       The XYZ virus is a HMA memory resident overwriting direct action
+       infector. The virus is a pure 100% stealth virus with no detectable
+       symptoms.  No file length increase; overwritten .EXE files execute
+       properly; no interrupts are directly hooked; no change in file date or
+       time; no change in file attributes; no change in available memory;
+       INT 12 is not moved; no cross linked files from CHKDSK; when resident
+       the virus cleans programs on the fly; works with all 80?86 processors;
+       VSAFE.COM does not detect any changes; Thunder Byte's Heuristic virus
+       detection does not detect the virus; Windows 3.1's built in warning
+       about a possible virus does not detect XYZ.
+
+       The XYZ virus will only load if DOS=HIGH in the CONFIG.SYS file.  The
+       first time an infected .EXE file is executed, the virus goes memory
+       resident in the HMA (High Memory Area).  The hooking of INT 13 is
+       accomplished using a tunnelling technique, so memory mapping utilities
+       will not map it to the virus in memory.  It then reloads the infected
+       .EXE file, cleans it on the fly, then executes it.  After the program
+       has been executed, XYZ will attempt to infect 15 .EXE files in the
+       current directory.
+
+       If the XYZ virus is unable to install in the HMA or clean the infected
+       .EXE on the fly, the virus will reopen the infected .EXE file, remove
+       itself, and then write the cleaned code back to the .EXE file.  It
+       then reloads the clean .EXE file and executes it.  The virus can not
+       clean itself on the fly if the disk is compressed with DBLSPACE or
+       STACKER, so it will clean the infected .EXE file and write it back.
+       It will also clean itself on an 8086 or 8088 processor.
+
+       It will infect an .EXE if it is executed, opened for any reason or
+       even copied.  When an uninfected .EXE is copied, both the source and
+       destination .EXE file are infected.
+
+       The XYZ virus overwrites the .EXE header if it meets certain criteria.
+       The .EXE file must be less than 62K.  The file does not have an
+       extended .EXE header.  The file is not SETVER.EXE.  The .EXE header
+       must be all zeros from offset 72 to offset 512; this is where the XYZ
+       virus writes its code.  The XYZ virus then changes the .EXE header to
+       a .COM file.  Files that are READONLY can also be infected.
+
+       The text string "XYZ" and "ZYX" appear in the virus code but are not
+       displayed.
+
+       The XYZ virus has a companion virus that it works with.  The GOLD-BUG
+       virus also goes memory resident in the HMA and reserves space for the
+       XYZ virus.
+
+       To remove the virus from your system, change DOS=HIGH to DOS=LOW in
+       your CONFIG.SYS file.  Reboot the system.  Then run each .EXE file
+       less than 62k.  The virus will remove itself from each .EXE program
+       when it is executed.  Or, leave DOS=HIGH in you CONFIG.SYS; execute
+       an infected .EXE file, then use a tape backup unit to copy all your
+       files.  The files on the tape have had the virus removed from them.
+       Change DOS=HIGH to DOS=LOW in your CONFIG.SYS file.  Reboot the
+       system.  Restore from tape all the files back to your system.
+
+============================================================================
+
+                                  In The News
+
+     If you find any interesting or humorous articles related
+to computers, hackers, Trojans or even viruses, let us know.  China
+seems to be a topic of interest so far as hackers and hacks go.
+
+Death Penalty for a Computer Felony
+-----------------------------------
+Death penalty has been carried out in China on a person who hacked his 
+way into a bank's computer system. In 1991, Shi Bao embezzled 192.000 
+dollars from the Agricultural Bank of China by using a computer. Shi Bao 
+was executed as a warning to would-be computer criminals.
+  
+[Source: F-PROT version bulletin 2.09. Copyright (c) 1993 Data Fellows Ltd.]
+
+----------------------------------------------------------------------------
+
+Date:    Mon, 05 Dec 94 04:15:39 -0500
+From:    ANTHONY APPLEYARD <A.APPLEYARD@fs1.mt.umist.ac.uk>
+Subject: New virus reported in China: `Li Peng' (PC)
+
+  In 5 Dec 1994 issue of the Daily Telegraph (UK newspaper), p23:-
+  A new virus doing the rounds in China is perplexing the party faithful. When
+it strikes, a question appears on the screen: "Do you think Li Peng is a good
+prime minister?". If the operator answers "no", then the message disappears
+and the system is left untouched. On the answer "yes", however, the virus
+wipes the entire hard disk.
+
+        [ Source: Virus-L Digest Volume 7 Issue 100 ]
+
+============================================================================
+
+                         Hacks, Viruses and Trojans
+
+          LEGEND:
+               H = Hacked
+               P = Pirated
+               T = Trojan
+               V = Virus Infected
+               X = Hoax
+               * = Previous listing
+
+============================================================================
+
+* File: PKZ305.EXE      Problem: H
+
+Reported By:  Fido Virus_Info Conference.
+
+         A hacked version of PKzip, and reportedly infected with the
+         Proto-T virus.  Fridrik Skulason, Bill Lambdin, Wolfgang Stiller
+         and Tarkan Yetiser analyzed the file and found no virus.  This was
+         just a hacked program.
+- ---------------------------------
+* File: DOOM2CHE.ZIP      Problem: V     
+
+Reported By: Mike Karina of Biloxi, Ms.
+
+        The Mississippi Gulf Coast was hit with the Gold-Bug virus mid 
+        October. It was uploaded to a local BBS under the name DOOM2CHE.ZIP.  
+        The file had 2 files in it.  GOLD-BUG.ASM and GOLD-BUG.COM.  The .ASM 
+        file was the actual source code for the Gold-Bug virus.  The .COM 
+        file was the virus file itself.  
+
+- -------------------
+* File: SF2_UP.ZIP        Problem: V
+
+Reported By: Fido WARNING Conference. This is a renewal of the original
+             report in 1992.  It appears there are folks out there that 
+             didn't get the proper notification from the companies involved.
+
+        This file can be found on the Night Owl 10.0 CD.  It is infected with 
+        the Lapse_366 virus.  The staff of "The Scanner" found this file and
+        verified the virus is still present. Fridrik Skulason verifies 
+        the virus on this file in the FP virus information files.
+
+
+- ---------------------------------
+* File: SPORT21C.ZIP      Problem: V
+
+Reported By: Fido WARNING Conference.  This is a renewal of the original
+             report in 1992.  It appears there are folks out there that 
+             didn't get the proper notification from the companies involved.
+
+        This file can be found on the Night Owl 10.0 CD. It is infected with 
+        the Crusader variant of Butterfly.  The staff of "The Scanner" found
+        this file and verified the virus is still present. Fridrik Skulason 
+        verifies the virus on this file in the FP virus information files.
+-----------------------------------
+
+File: SCCL100.ZIP         Problem: T
+
+     See Trojan Alert ! above.
+============================================================================
+
+                     STONED.EMPIRE.MONKEY.A Removal
+
+     This seems to be one of the most active viruses at this time.  
+I am constantly seeing questions about it in the Virus-L Digest and on 
+the various virus conferences.  Rather than me trying to explain it, I
+felt it best the "experts" pass along their summations and techniques
+in its removal.
+
+
+Mr. Mikko Hypponen of Datafellows LTD, Finland on 
+Stoned Monkey Empire A virus and F-Prot: ( Latest version 2.15)
+
+
+STONED.EMPIRE.MONKEY.A
+----------------------
+
+The Monkey virus was first discovered in Edmonton, Canada, in 1991. 
+The virus quickly spread to USA, Australia and UK. Monkey is one of 
+the most common boot sector viruses.
+
+As the name indicates, Monkey is a distant relative of Stoned. Its 
+technical properties make it quite a remarkable virus, however. Like 
+Stoned, the virus infects Master Boot Records on hard disks and DOS 
+boot records on diskettes. Monkey spreads only through diskettes. 
+
+The original Stoned leaves the partition table in its proper place in the 
+hard disk's zero track, but Monkey does not . Instead, it copies the 
+whole Master Boot Record to the hard disk's third sector to make room 
+for its own code. The hard disk is inaccessible if the computer is booted 
+from a diskette, since the operating system cannot find valid partition 
+data in the boot sector - attempts to use the hard disk result in the 
+DOS error message "Invalid drive specification".
+
+When the computer is booted from the hard disk, the hard disk can be 
+used normally because the virus is executed first. The virus can, 
+therefore, escape notice, unless the computer is booted from a diskette. 
+
+As Monkey not only moves but also encrypts the Master Boot Record, 
+it is difficult to remove. The changes to Master Boot Record cannot be 
+detected while the virus is active, since it reroutes the BIOS-level disk 
+calls through its own code. Upon inspection, the hard disk seems to be 
+in its original shape.  
+
+There are two often-used procedures, either of which can disinfect most 
+boot sector viruses. One of these is the MS-DOS command FDISK /MBR,
+which rewrites the code in the Master Boot Record, and the 
+other is using a disk editor to restore the Master Boot Record back on 
+the zero track. In this case, the relocation and encryption of the 
+partition table render these methods unusable. Although both 
+procedures destroy the actual virus code, the computer cannot be 
+booted from the hard disk afterwards.
+
+There are five viable ways to remove the Monkey virus:
+
+o       The original Master Boot Record and partition table can be 
+     restored from a backup taken before the infection. Such a backup
+     can be made with the MIRROR /PARTN command of MS-DOS 5, for 
+     example.
+     
+o       The hard disk can be repartitioned by using the FDISK 
+     program, after which the logical disks must be formatted. The 
+     procedure will also destroy all data on the hard disk, however.
+
+o       The command FDISK/MBR can be used to overwrite the virus 
+     code, after which the partition table can be restored manually. In this 
+     case, the partition values of the hard disk must be calculated and 
+     inserted in the partition table by using a disk editor. The method 
+     requires expert knowledge on the disk structure. 
+
+o       It is possible to exploit Monkey's stealth capabilities by taking a 
+     copy of the zero track while the virus is active. Since the virus hides 
+     the changes it has made, this copy will actually contain the original 
+     Master Boot Record. This method is not recommendable, because the 
+     diskettes used in the copying may well get infected.    
+
+o       The original zero track can be located, decrypted and moved 
+     back to its proper place. As a result, the hard disk is restored to its 
+     exact original state. F-PROT uses this method to disinfect the Monkey 
+     virus.
+     
+The Monkey virus is quite compatible with different kinds of diskettes. 
+It has a built-in table containing structural data for the most common 
+diskette types. Using this table, the virus is able to move a diskette's 
+original boot record and a part of its own code to a safe area on the 
+diskette. If Monkey does not recognize a diskette, it moves the boot 
+record to the diskette's third physical sector. This is what happens also 
+to, for instance, 2.88 megabyte ED diskettes, with the consequence that 
+Monkey partly overwrites their File Allocation Tables.
+
+The virus is difficult to spot, since it does not activate in any way.  A 
+one-kilobyte reduction in DOS memory is the only obvious sign of its 
+presence. The memory can be checked with, for instance, DOS's 
+CHKDSK or MEM programs. However, even if MEM reports that the 
+computer has 639 kilobytes of available memory instead of the more 
+common 640, that does not necessarily mean that the computer is 
+infected. In many computers, BIOS allocates one kilobyte of DOS 
+memory for its own use.
+
+F-PROT recognizes and removes all known variants of the 
+Stoned.Empire.Monkey virus.
+
+                             ************
+
+Mr. Wolfgang Stiller of Stiller Research, and the Author of Integrity Master,
+on the Stoned.Empire.Monkey.A virus and Integrity Master: 
+(Latest version 2.31c)
+
+
+ Monkey:  (Description quoted from Integrity Master User's Guide)
+ Synopsis: Resident, stealth infector of floppy boot sectors and partition
+           sectors
+ Symptoms: Inaccessible hard disk after floppy boot, 1K less available memory
+
+ Details:
+     Monkey is unusual in that it completely replaces the partition
+     sector with its own code. If you boot from a floppy the hard
+     disk will be inaccessible since there is no valid partition
+     table in the partition sector.  If the virus is resident in
+     memory, it will use stealth techniques to return the original
+     unmodified partition sector.
+
+
+Once Integrity Master (AKA IM) is installed, removing Monkey is trivial. It
+will detect the virus in memory and ask you to boot from a diskette.  (The
+hard disk will of course seem inaccessible at this point but Integrity Master 
+can access it anyway.) After you boot, you just use the "ReLoad" menu to 
+restore the "missing partition sector" (AKA Master Boot Record or MBR). Other
+products call this the master boot record but we prefer to call it the 
+"partition sector" since it contains the hard disk's partitioning information 
+and to more clearly differentiate from the operating system boot sector 
+(usually a DOS boot sector).
+
+What if you get the Monkey virus but you don't have Integrity Master
+installed already?  You could remove Monkey, with an "FDISK /MBR" but then 
+you would lose access to your hard disk.  Not a good idea!  Removal with 
+Integrity Master is easy.  Running IM on your infected PC, you use the 
+Initialize menu to capture your partition sector. IM writes this to 
+part.srl. What IM manages to do at this point is to get you a copy of the 
+uninfected (clean) partition sector (Master Boot Record). You copy this to a 
+diskette (realizing that this diskette is now infected).  You now boot from a 
+clean write-protected DOS diskette and run IM from floppy.  You can now use 
+the "ReLoad" menu to reload the missing partition sector as before.  
+(You will need to insert the diskette with Part.srl in any one of the floppy 
+drives at the point you do the reload.)
+
+Don't forget to disinfect all your diskettes.  The best way to do this
+is to scan your diskettes  (use the scan Multiple diskettes menu option in 
+IM for this or the command IMSCAM a: where "a" is your drive letter.)  If the
+diskette is infected, copy all data to another diskette and trash or reformat
+the diskette. It's not safe to just remove the infected boot sector since
+Monkey will damage the file structure on the diskette causing possible
+data loss, if the diskette is not reformatted.
+
+-Wolfgang
+
+============================================================================
+                        
+                        The Monkey is on my back !!
+
+     After reading Wolfgang and Mikko's articles I went and infected 
+Albert ( my working platform :-) )
+
+     I started out with an infected floppy.  I put it in the drive and 
+turned the system off then back on.  I got the typical 
+
+                      " Non-Systems disk or disk error
+                        Replace and press any key when ready"
+
+ message.  I removed it from the system and continued with the boot-up.
+
+     Once the system was up I did a CHKDSK.  The system reported a total of 
+654336 total bytes free instead of the usual 655360.  MONKEY-A was there. 
+That is how easy it is to infect the system.  No whistles, whiz bangs or 
+gala,just Non-system disk....
+
+     I ran F-Prot first.
+
+     Clean boot the system ( turn the system off and put the disk in the 
+drive then turn it on again. DO NOT USE ALT-CTL-DEL, some viruses can trap 
+this and the infected memory will still be in control).  F-Prot will start to 
+come up then all of a sudden this appears in the upper right hand corner of 
+your screen:
+
+                         Invalid drive in search path
+                         Bad command or file name
+
+     Don't panic, wait a few seconds and F-Prot continues.  Go to the Scan 
+screen run Scan in the Report/Only mode.You will observe the following on
+your screen:
+
+             Scanning MBR of hard disk 1
+             Master Boot Sector infection: Stoned.Empire.Monkey.A
+
+                      ERROR: No hard disk found
+
+     Again, don't panic !  Go back to the Scan screen and go to the Action: 
+block.  You can enter either Disinfect/Query or Automatic Disinfection or 
+Automatic Delete.  Whatever you choose, enter it.  Run Scan again with this  
+and you will get rid of the problem in a flash.
+
+     That's it.  The system is ready to go.  No pain, no strain.
+
+
+     Next, I ran Integrity Master ( version 2.31b ).  
+     ( NOTE: Read the instructions * very carefully *.
+     Here is how to set up.)
+
+     The setup of Integrity Master is crucial to its proper use.  I speak 
+from experience. :-)  I had some problems at first because I did not set it 
+up properly. Thanks to Wolfgang Stiller and Bill Lambdin assisting me I now 
+have the proper set up.  So, let me go over the set up first with you so 
+those of you running Integrity Master have a proper set up.
+
+     1. Format a floppy disk and use the FORMAT/S ( or SYS A: to transfer the system files 
+to it. Substitute the proper drive label if A: is not your boot floppy).  
+Make a directory called IM_HOME.  Put it aside for the moment.  
+
+2.  Install Integrity Master on your hard drive.  Do the entire system setup 
+within Integrity Master.  Now, put that new floppy you just formatted and 
+made bootable into the drive.  Copy IM*.* to that drive.  Go into the IM_HOME 
+directory on the HD and copy all .SRL files to A:\IM_HOME.
+
+     Now you are ready for any situation that arises.  Be sure to copy any 
+new additions you make to the hard drive to the "emergency disk"
+
+     I booted the system up with an infected disk containing 
+     Stoned.Empire.Monkey.B this time.
+
+     I ran IM from the hard drive first.  The system stopped and informed me 
+that the virus was there and that I should perform a clean boot.  Again, turn 
+the system off and put the bootable, write protected disk with IM in the 
+drive and turn the system on.  Run IM.  At this point you will get a screen 
+asking you if you want to initialize the system. You can hit any key at this 
+point and it will get you into the menu.
+     
+     Go to ReLoad. Curser down to the Missing partition ( NOT the Partition 
+sector !!). Hit enter at this point.  You will see two screens come up.  The 
+one on the left explains everything on the screen on the right.  Go to the 
+Physical hard disk number (0 to 9).  Hit enter.  Go to the Physical Drive 
+option and hit 0.  ( Viruses only infect Drive zero, so no matter how many
+you have hit zero )
+
+     At this point you will be warned that you are about to over write your 
+partition sector with the version saved in file: A:\IM_HOME\PART.SRL.  This 
+is what we want to do.  Enter Yes.  You will get an error report saying there 
+is an error on C:\IM_HOME.  This is alright. Remember, the virus tried to 
+tell you there was no Hard drive, but IM got through it and fixed the missing 
+partition.  ( NOTE:  If you turn off the Report FIle you wont even see this 
+error ) Turn the system off and then back on and you should be ready to 
+go.  Do a chkdsk, if you come up with 655360 then that is confirmation you 
+are ready to go about your business.
+
+     Both of these products will remove both Monkey-A and Monkey-B in the 
+manner described above.
+
+     My thanks to Bill Lamdin and Wolfgang for coming to my rescue, thanks
+guys. :-)
+                                     Woody
+
+=============================================================================
+
+
+                            From Woody's Desk
+
+     Well, that's the second issue.  What do you think?  *Please* let
+me know.  You will notice the Hacks, Viruses and Trojan section is rather
+scant.  I could use some help from folks out there helping me pass the word 
+along.  Drop me a line and let me know what you want to see.
+
+     Next issue, I plan on running a treatise of Mikko Hypponen's on 
+Retroviruses.  A brilliant paper on the viruses of today and their 
+aggressive behavior.  You won't want to miss it !!
+
+     My heartfelt thanks to the folks that help make this issue:
+
+     - Mr. Rob Slade of British Columbia, Canada for his book reviews
+       and his council in matters of the internet and reviewing The
+       Scanner prior to publication.
+     
+     - Mr. Mikko Hypponen of Datafellows LTD, Finland for his contributions
+       of the FP-Bulletins as well as his words of wisdom on the Monkey
+       virus and taking the time to help a guy out.
+     
+     - Mr. Wolfgang Stiller of Stiller Research, Tallahassee, Florida for
+       his contribution in the Monkey virus article and helping when ever
+       asked for some advise and answers.
+
+      - Mr. Bill Hoover of Virus Research and Statistics, Indianapolis, 
+        Indiana, for his contributions and willingness to take the time
+        to research some code and for joining the "gang".
+
+      - Mr Bill Lambdin, for his council, time and efforts which have been
+        a big part of The Scanner since its conception.
+
+         Most of all thank you, the readers, for taking the time to read
+The Scanner and sending me your views and suggestions.  Keep them coming
+we have only just begun.
+
+                     Best to you all from Biloxi, Mississippi
+
+                                     Woody
+

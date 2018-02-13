@@ -1,0 +1,2633 @@
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ uXu ù ATi ù NiA ù Cha0s ù Abuse ù cDc ù CuD ù EFF ù Phrack ù Telec0m Dige ³
+³ st ù W0rldview ù 2600 ù Bad News ù B00tleg ù C0mputer Anarchist Undergr0u ³
+³ nd ù Chalisti ù Ch -=][][][][][][][][][][][][][][]][=- ip ù C0re ù Crimin ³
+³ al intent ù Digita -=]       A R R E S T E D       [=- lFree Press ù Digi ³
+³ tal Murder ù Death -=]    D E V E L 0 P M E N T    [=-  and Anarchy ù FBi ³
+³ ù Freed0m ù Fuct ù -=]      +31.(0)77.547477       [=- ù Future Culture ù ³
+³ Hack-Tic ù Hackers -=]                             [=-  Unlimited ù inf0r ³
+³ matik ù KCAH ù L0D -=] F0r All Y0ur H/P/A/V Files. [=- ù L0L ù Magik  ù M ³
+³ Ci ù Panther M0der -=]        Sys0p: 0mega         [=- nz ù NARC  ù NFX ù ³
+³ NSA ù PHA ù Phanta -=]      C0Sys0p: Syd Mead      [=- sy ù Phate ù PHUN  ³
+³ ù PPP ù SHA ù UPi  -=]                             [=- ùTridenT ù Vide0 V ³
+³ indicat0r ù Dr. Pf -=][][][][][][][][][][][][][][]][=- alken ù MPi ù NuKE ³
+³ ù Crypt Newsletter ù B0W ù ULTRA ù Mega-industries ù Phalc0n/Skism ù Dem0 ³
+³ ralized Y0uth ù AR *** N0T! F0R GENERAL DiSTRiBUTi0N *** CV ù 40Hex ù ins ³
+³ ane Reality ù Silic0n V0rtex ù BlaH ù iiRG ù CERT ù Ne0n Knights ù T0xiC  ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³úúúúúúúúúReleaseúInf0:úşúTHeúARReSTEDúDeVEL0PMENTúX-FiLESú#004úşúúúúúúúúúúú³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³úúúúúúúCommon Channel Signalling by S. Welch (Edited/OCRed by Omega)úúúúúúú³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+This TadXF File is split into two pieces. TADXF #004 which is just the ASCII
+text and TADXF #005 which are the digitized figures and tables in PCX format.
+
+Release Date: 26th of November 1994. The text was taken from a book from
+Samuel Welch called 'Signalling in Telecommunications Networks' The ISBN
+number is : 0 906048 46 X. The pages OCRed are page 259-321.
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+                               Table of contents
+
+                            Common channel signalling
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+11.1  Introduction
+11.2  Basic common channel signalling
+11.3  Association between c.c.s. and speech (or equivalent networks)
+11.4  Network centralised service signalling
+11.5  CCITT No. 6 signalling system
+      11.5.1 Basic concepts
+      11.5.2 Signal codings
+      11.5.3 Error control
+      11.5.4 Analysis of the system 6 error control method
+      11.5.5 Synchronisation
+      11.5.6 System 6 analogue and digital versions
+11.6  Common channel signalling loading
+11.7  Signalling link security and load sharing
+      11.7.1 Security
+      11.7.2 Load sharing
+11.8  Changeover, retrieval and changeback
+11.9  Continuity check of the speech path
+11.10 Signal Priority
+11.11 CCITT No. 7 optimised digital common channel signalling system
+      11.11.1 Basic concepts
+      11.11.2 Signalling bit rate
+      11.11.3 Error control
+      11.11.4 Message Structure
+References
+
+
+
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.1 Introduction
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  Conventional signalling on speech path systems (d.c., v.f., outband, m.f.)
+have a number of limitations:
+
+(a) Relatively slow signalling. This is usually tolerable for telephony pur-
+    poses in most networks in view of the acceptable postdialling delays, but
+    the application of computer-like techniques (stored program control) to
+    the control of switching introduces new factors.
+
+(b) Limited information capacity.
+
+(c) Limited capability to convey signalling information which is not call re-
+    lated and the inability of some systems to signal during the speech
+    period.
+
+(d) The signalling systems tend to be designed for specific application con-
+    ditions, which results in a relatively large number of different systems
+    in the one network with consequential economic and administrative
+    problems.
+
+(e) Expensive due to the per-speech circuit provision of most of the systems.
+
+
+  Conventional line-signalling systems incorporating decadic address signal-
+ling are slow and inflexible, but meet the needs of most directacting non-
+common control switching systems. Wired-logic common control switching systems
+demand more flexibility, more facilities and the application of interregister
+signalling systems as discussed, which systems are common provision, line-
+signalling systems being necessary to deal with the supervisory signals. Time-
+sharing of conventional analogue line-signalling systems is not usually
+practicable and they are invariably per-speech circuit provided, and expensive
+in total network signalling cost.
+
+  Stored program (processor) control (s.p.c.) of switching and networks has
+prompted a reappraisal of the signalling technique. Processor control makes
+possible the concentration of signalling logic for a large number of infor-
+mation circuits, e.g. speech, with consequent cost-reduction. Unless care is
+taken, however, an exchange processor may be given an excessive load in merely
+scanning speech circuits to detect the signalling condition, with a consequent
+loss of capacity for other functions, such as switching control, to be per-
+formed by the processor. It would also be necessary for the processor, or
+other suitable interface, to translate the various analogue conditions of
+speechpath signalling to digital, and vice versa. Thus with s.p.c., it is in-
+efficient for the processor which works in the digital mode, to deal with sig-
+nalling on the speech path. A much more efficient way of transferring infor-
+mation between s.p.c. exchanges is to provide a bidirectional high-speed data
+link between the two processors over which they transfer signals in digital
+form by means of coded-bit fields. A group of circuits (many hundreds) thus
+shares a common channel signalling (c.c.s.) link in the time-shared mode. In
+preferred c.c.s., all the signals between two exchanges are passed over a sig-
+nalling link which is separate from speech, c.c.s. thus replacing speech-path
+signalling systems such as d.c., v.f., outband and m.f. While c.c.s. could be
+applied to non-s.p.c. exchanges, the need to provide means of directing the
+information contained in the data link signals to or from the registers, and,
+in the case of tandem connections, to transfer such information across the
+exchange, would tend to make c.c.s. uneconomic; c.c.s. is thus mainly suited
+for s.p.c. exchanges.
+
+  Many administrations are at present programming c.c.s. application, but
+owing to the well known inertia of networks to change, it will require a
+number of years for c.c.s. to make significant application impact in a net-
+work, and conventional signalling systems will exist, and continue to be
+applied, for a long time to come.
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.2 Basic common channel signalling
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+General
+
+  With c.c.s., independent signalling is performed in the respective sig-
+nalling directions on the respective signalling channels, the two signal-
+ling channels comprising the c.c.s. link (Fig. 11.1). Modems are used
+to transmit and receive serial binary data over analogue transmission
+channels, the multiplex performing this function on digital transmission
+channels. C.C.S. has the following merits:
+
+(i)    signalling is completely separate from switching and speech
+       transmission and thus may evolve without the constraints normally
+       associated with such factors
+
+------------------------[See fig11-1.pcx in tadxf005]------------------------
+Fig. 11.1 Basic schematic common channel signalling
+-----------------------------------------------------------------------------
+
+(ii)   significantly faster signalling
+
+(iii)  potential for a large number of signals
+
+(iv)   freedom to handle signals during the speech period
+
+(v)    flexibility to change or add signals
+
+(vi)   potential for network centralised-service signalling (e.g. network
+       management, network maintenance, centralised call accounting, etc.)
+
+(vii)  is economic for large speech circuit groups
+
+(viii) can be economic for the smaller speech circuit groups owing to
+       the quasiassociated and dissociated signalling capabilities
+
+(ix)   unlike v.f. signalling, signalling line splits are not necessary;
+       this eliminates the problem arising on v.f. signalling systems where
+       a fast nonrepeated verbal answer response may be clipped, or lost,
+       owing to the speech path being split on electrical-answer signal
+       transmission.
+       It was the recognition by the CCITT of the signficance of this
+       problem in the international service which produced the initial
+       thoughts for a c.c.s. system of the type under discussion.
+
+(x)    allows possibility for signalling rationalisation in networks.
+
+
+C.C.S., however, gives rise to requirements which do not arise with
+signalling on speech-path systems such as:
+
+(a) high order error rate performance
+(b) signalling link security backup
+(c) assurance of speech-path continuity as, unlike speech-path sig-
+    nalling, c.c.s. does not establish speech path integrity.
+
+  A c.c.s. system serving many speech circuits must have a much
+greater signal dependability than signalling on speech-path systems, as
+random errors on the signalling link would disturb an appreciable
+number of signals, and therefore speech circuits. For this reason,
+provision must be made in c.c.s. to control errors, and as a generalisa-
+tion, an undetected error rate of the order of 1 in 10^8 to 1 in 10^10 is
+desired. Automatic diverting of signalling traffic to an alternative
+signalling facility occurs on excessive error rate, or on complete failure
+of a c.c.s. link.
+
+  Time-shared signalling requires each signal to have identification
+of the speech circuit to which it belongs, the identification being on
+a time basis when a speech circuit has exclusive use of a signalling
+facility, as in built-in p.c.m. signalling (Section 6). This time-assigned
+signalling cannot apply when, as in c.c.s., a speech circuit does not
+have exclusive use of a signalling facility in the time-shared signalling,
+and a signal is labelled to give the speech circuit identity. With circuit
+labelling, the coding of a bit-field in the signal itself gives the address
+of the speech circuit, the number of bits depending on the number
+of speech circuits to be identified. This depends on the maximum
+number of speech circuits per c.c s. link-loading adopted, which
+is influenced by the capacity of the c.c.s. link to transfer signals.
+This, in tum, depends on the signalling bit rate and the size of signal
+unit.
+
+  With c.c.s., the speech-path connection may be set up in parallel
+with the signalling connection set-up, or retrospectively. The
+former is adopted for simplicity and assurance of speech-path avail-
+ability. Speech-path availability could be assured with the retrospec-
+tive set-up by marking, but not switching, relevant speech circuits
+in the connection build up, but there appears to be little point in this.
+
+
+General features of c.c.s.
+--------------------------
+
+The following general features apply:
+
+(a) Information may be transferred as signal messages of varying bit
+    length, or by defined signal units. Signal units will be assumed for
+    the present.
+
+(b) Each signalling channel operates in the synchronous mode with
+    its continuous bit stream divided into contiguous signal units which
+    all contain the same number of bits for the same application or service.
+    The two signalling channels of a link need not necessarily be syn-
+    chronised to each other, and, if not, drift may arise between the signal
+    units in the respective directions, which, in certain implementations
+    of c.c s. (e.g. CCITT 6 system) may require compensation arrangements.
+
+(c) Synchronisation (idle) units are transmitted when message signals
+    are not being transmitted, to maintain signal unit synchronism on the
+    signalling channel.
+
+(d) The signal unit is divided into a number of constituent bit fields
+    each having its own function in the system, typically, heading, signal
+    information, circuit label, parity check, etc.
+
+(e) As the c.c.s. link is time-shared, each message signal requires
+    identification of the speech circuit (and thus the call) to which it be-
+    longs. This is by means of a circuit label bit-field of size depending on
+    the number of speech circuits to be identified.
+
+(f) Unlike time-assigned, channel-associated, time-shared p.c.m.
+    signalling (Sections 6.2 and 6.3), a speech circuit does not have the
+    exclusive use of a signalling facility in time-shared circuit-label ad-
+    dressed c.c.s. and queueing delays arise; message signals being placcd
+    in a queueing store and offered in turn for transfer over the signalling
+    channel. Thus the heavier the signal loading the greater the queue,
+    and the queueing delay, and the slower the speed of signal transfer.
+
+(g) As c.c s. signals do not prove the continuity of the speech path
+    selected, other arrangements (e.g. per-call continuity check, routine
+    testing of idle paths) must be made.
+
+(h) Errors are liable to occur in the signal-transfer process and some
+    form of error control is required as the uncorrected error-rate of
+    transmission plant is usually unacceptable for c.c s. Error detection is
+    based on redundant coding, the parity check bits being, typically,
+    part of each signal unit. Error correction can be, and usually is in
+    telephony c.c.s., by retransmission. Despite the incorporation of error
+    control, undetected errors may arise. Even with a high degree of error
+    correction a signalling link could be unusable for varying periods,
+    which requires signalling security backup.
+
+(i) For signalling security, signals may be directed, by automatic
+    procedures, from a regular signalling link to an alternative signalling
+    facility when an excessive error rate, or complete failure, of the
+    regular link is detected.
+
+(j) On multilink connections, signalling information is transmitted
+    on a link-by-link basis, the signals being transferred from one link to
+    the next only after processing. This is an inherent feature of c.c.s.
+
+(k) since the circuit label may require a substantial proportion of the
+    bits available in a signal unit, comparatively few bits may remain for
+    coding the information a message has to convey. It follows that when
+    the information is even moderately extensive, and particularly when it
+    has a data content which can vary from one message to another, it
+    cannot be transmitted efficiently by a succession of single signal unit
+    messages. Instead, the initial circuit label carrying signal unit may be
+    augmented by one or more subsequent signal units in which all the
+    available bits can be used for carrying the information, thus producing
+    an efficient multiunit message. Thus lone signal units (LSU) and multi-
+    unit messages (MUM) may apply with c.c.s., and in the latter case the
+    initial signal unit (ISU) carries the circuit label bit-field for the
+    whole MUM. Each SU in a MUM carries its own check bit-field.
+
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.3 Association between c.c.s. and speech (or equivalent) networks
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+
+  The signal messages relating to a given group of speech circuits between
+two switching centres using a c.c.s. system can be transferred in the
+following ways:
+
+(a) Associated mode of operation: The signal messages are trans-
+    ferred between the two switching centres over a c.c.s. Iink which
+    terminates at the same switching centres as the group of speech circuits
+    to which the signalling link is assigned (Fig. 11.2a). The term
+    'associated signalling' applied to c.c.s. should not be confused with
+    speech path, or channel, associated signalling used to describe sig-
+    nalling systems in which the signals are passed over the speech paths
+    comprising the connections to which they relate, or over paths which are
+    permanently and individually related to the speech paths.
+
+(b) Nonassociated mode of operation: The signal messages are
+    transferred between the two switching centres over two or more c.c.s.
+    links in tandem, and thus on a different routing from the relevant
+    speech-circuit group, the signal messages being processed and forwarded
+    through one or more intermediate signal-transfer points. It follows from
+    this definition that there may be a range of nonassociated modes of
+    operation which vary in the degree of rigidity imposed on the choice of
+    the path used by the signal messages. The extremes of this range can be
+    described as the fully dissociated mode and the quasiassociated mode.
+
+
+------------------------[See fig11-2.pcx in tadxf005]------------------------
+Fig. 11.2 Examples of associated and quasiassociated signalling
+          Associated signalling between A and B
+          b Quasiassociated signalling between A and B
+          c Quasiassociated signalling between A and B
+-----------------------------------------------------------------------------
+
+
+(c) Fully dissociated mode of operation: The signal messages are
+    transferred between the two switching centres via any available path
+    in the switching network according to the routing principles and
+    rules of that network. The great flexibility in the routing of signal
+    messages demands a more comprehensive message-addressing scheme
+    than is needed for associated signalling. This is the ultimate of the
+    principle of separate paths for signalling, and a completely separate
+    c.c.s. network has been suggested.
+
+(d) Quasiassociated mode of operation: The signal messages are
+    transferred between the two switching centres over two or more c.c.s.
+    links in tandem, but only over predetermined paths and through
+    predetermined signal transfer points. The predetermined routing
+    permits the same method of addressing (circuit labelling) the signal
+    messages as in the associated mode of operation.
+
+
+  The constituent signalling routes of a quasiassociated signalling
+relationship may be associated-signalling in their own right (Fig. 11.2b),
+in which case the constituent routes carry the quasiassociated signalling
+traffic in addition to the associated-signalling traffic. Alternatively,
+the constituent signalling routes need not be associated-signalling
+in their own right (Fig. 11.2c). When the constituent signalling routes
+(AC and CB) in the quasiassociated signalling relationship are associated-
+signalling in their own right (Fig. 11.2b), the circuit labels for the
+speech-circuit group AB must be different from those of speech-
+circuit groups AC and CB. Thus for the necessary signalling discrimi-
+nation, the circuit labelling of signalling routes AC and CB must be
+increased to accommodate for this. When the constituent signalling
+routes AC and CB in the quasiassociated signalling relationship are not
+associated-signalling in their own right (Fig. 11.2c), the circuit labelling
+concerns the speech circuit group AB only in the typical case shown.
+
+  Quasiassociated signalling may be adopted when a speech-circuit
+group is too small to justify economic application of associated-signalling
+The mode may also be used for signalling security backup for associated-
+signalling and for backup for another quasiassociated signalling relation-
+ship, but the circuit labelling tends to be complex in the latter case.
+
+  With quasiassociated signalling, the number of signal transfer points
+in the signalling path for a group of speech circuits between two switch-
+ing centres should be as few as practicable to minimise the signalling
+time of those circuits, and to minimise the total signal processing
+load of the network. Normally one or two signal transfer points should
+suffice in a quasiassociated signalling relationship.
+
+
+
+Signal transfer point
+---------------------
+
+In a nonassociated mode of operation, a signal transfer point is a
+signalling centre which forwards signal messages received on one c.c.s.
+link for onward transmission over another c.c.s. Iink. It follows from
+this that there is no need for a signal transfer point to have any con-
+nection with a switching centre (Fig. 11.2c). Alternatively, it may
+have (Fig. 11.2b).
+
+  The main functions of a signal transfer point are:
+
+(i)   to analyse the circuit label and the priority indication of every
+      received signal message to determine the routing and, hence, to offer
+      the message to the proper signalling link for onward transmission of
+      the message taking account of the appropriate priority
+
+(ii)  in doing so, it may be necessary to change (translate) the circuit
+      label of the message according to some preset rules
+
+(iii) if for some reason, a signal transfer point is unable to transfer
+      signal messages, a procedure is desired to notify the preceding
+      signalling centre(s) so that the signal messages may be sent via
+      an alternative route, if available.
+
+  While c.c.s. has the potential for the various signalling modes
+discussed, it is thought that a combination of associated and quasi-
+associated signalling would meet the needs of most networks. The
+predetermined signal routings possible with these modes would be
+attractive in facilitating an orderly and efficient traffic-dimensioned
+c.c.s. network.
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.4 Network centralised service signalling
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  Compared with wired-logic, processor (s.p.c.) control of switching
+has the potential for a far more sophisticated and greater degree of
+network-centralised services, and it is thought that this will be the
+undoubted trend. The combination of s.p.c. and c.c.s. will enable
+networks to be controlled and exploited to a greater extent than
+previously attainable. Many administrations are at present actively
+studying the extent and desired features of centralised services, typical
+services being:
+
+      Speech-network management. Typically to initiate temporary
+      changes of traffic routing patterns for reasons of congestion,
+      catastrophic failure, etc.
+      Signalling network management
+      Network maintenance
+      Centralised call accounting etc.
+
+Fig. 11.3 shows a possible basic arrangement in simplified form.
+
+  Various implementations are possible, e.g. the various services may
+or may not be combined in the one centre, and the centres could be
+hierarchical (local, regional, national). The processors (CC) at relevant
+exchanges could be connected to relevant centralised service centres
+by data-signalling links, the signalling not being concerned with call
+handling. Should a hierarchical service-centre structure apply, further
+data links would interconnect the hierarchical centres as appropriate.
+
+
+------------------------[See fig11-3.pcx in tadxf005]------------------------
+Fig. 11.3 General arrangements network centralised services
+-----------------------------------------------------------------------------
+
+The present interest is in the relevant signalling arrangements in
+the c.c.s. environment and it is thought that the switched-network
+c.c s. links should be capable of carrying centralised service in addition
+to the normal call-handling signalling to allow for the following pos-
+sibilities:
+
+(a) switched-network c.c.s. links used as security backup against
+    failure of the centralised-service data links, e.g. on failure of the data
+    link from exchange 1, the centralised service signalling passed on the
+    c.c.s. link between exchanges 1 and 2 and then on the data link from
+    exchange 2 (Fig. 11.3)
+
+(b) switched-network c.c.s. links utilised as data links to carry the
+    centralised-service signalling en route to the service centres
+
+(c) when an exchange does not have direct data-link access to the service
+    centres, access is obtained by means of a switched-network c.c s. link
+    via an exchange having direct data-link access.
+
+
+  It is clearly desirable that the switched-network c.c s. links should
+have adequate spare capacity to carry the centralised service in addition
+to the call-handling signalling, the centralised-service signalling con-
+forming to the switched-network c.c.s. signalling features (error control,
+signal unit size, etc.) in this situation. It would not be essential for the
+centralised service data links to be of same type as the switched network
+call handling c.c.s. links, but in certain circumstances there could be merit
+in uniformity if they were.
+
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.5 CCITT No. 6 signalling system
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.5.1 Basic concepts.
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  The CCITT 6 signalling system was the first c.c.s. system to be specified,
+designed and tested. While specified primarily for international use, it is
+equally suitable for national application and some administrations are
+presently programming its use in their national networks. Initially, system 6
+was specified for 2.4 kbit/s analogue application. Subsequently, digital
+versions 4 kbit/s and 56 kbit/s were included in the specification but without
+change to the initial basic signalling arrangements formulated for analogue.
+Other signalling bit rates may be adopted as desired (e.g. 4.8 kbit/s
+analogue).
+
+  It is convenient to present the pioneer system 6 solutions to the many
+problems arising in c.c.s. as a general basis before discussing improved
+solutions which may be adopted in some areas, improvements that arise from the
+greater knowledge now available in the c.c.s. art and from the natural evo-
+lution of the technique.
+
+  Each signalling channel is operated synchronously but the two channels are
+not synchronised with each other, and a continuous stream of data flows in
+both directions. The data stream is divided into signal units (SUs) of 28 bits
+each, of which the last 8 are check bits, all SUs being of the same length for
+ease of synchronisation in particular. The SUs in turn are grouped into blocks
+of 12, the 12th and last SU of each block being an acknowledgment SU coded to
+indicate the number of the block being transmitted and carrying the ack-
+nowledgment i.e., the number of the block in the other direction being acknow-
+ledged, and whether or not each of the 11 SUs of the block being acknowledged
+was received without detected errors. Blocks are sequenced numbered but indi-
+vidual message SUs in the block are not, being identified by their position in
+the block. The first 11 SUs of a block consist of message or synchronisation
+SUs; the latter, transmitted only in the absence of other signalling traffic,
+facilitate achieving or maintaining SU and block sychronisation, and are coded
+to indicate the number of the position they occupy within the block to facili-
+tate locating the acknowledgment SU.
+
+  A signalling bit-rate of 2.4kbit/s adopted for the analogue version is the
+maximum rate for transmission with acceptable error rate over a phase-
+equalised speech-band channel. At this bit-rate, one c.c.s. Iink can carry all
+the signals required by some 1500-2000 speech circuits in the telephony ser-
+vice without excessive delay to individual signals. Compared with the
+2.4kbit/s analogue version, the 4kbit/s and 56 kbit/s signalling bit-rate
+digital versions allow, in theory, more speech circuits to be served per
+c.c.s. link due to the reduced emission time of the signals. In practice, the
+same size circuit label bit-field applies for both the analogue and digital
+versions in the international specification. National network variants of the
+specification may, of course, extend or reduce the size of the circuit label
+bit field as required. Optional 4.8 kbit/s analogue is presently being con-
+sidered.
+
+  The signals, which may be LSUs or MUMs, are formatted in the processor func-
+tion and delivered to an output buffer, which delivers the highest-priority
+signal awaiting transmission to a coder in serial form in the next available
+time slot. Each SU is encoded by the coder by the addition of check bits in
+accordance with the check-bit polynomial. The signal is then modulated and
+transmitted over the link in serial form. At the receive end, serial data is
+delivered to a decoder where each SU is checked for error on the basis of the
+associated check bits, SUs received with detected errors being discarded.
+Message SUs which are error-free are transferred to an input buffer after de-
+letion of the check bits, the input buffer delivering the SUs to the processor
+function for appropriate action.
+
+  A transmission path error rate of 1 in 10^6 to 1 in 10^7 was assumed and as
+the requirement of system 6 was to achieve an undetected error rate of 1 in
+10^10 for significant signals and 1 in 10^8 for others, error control was
+adopted with error detection by redundant coding and error correction by
+retransmission. Message SUs are retransmitted on error detected, synchronisa-
+tion SUs are not. A data channel failure detector complements the decoder for
+the longer error bursts. On excessive error rate, or on complete failure,
+automatic procedures direct the signal traffic from a 'failed' link to an
+alternative signalling facility.
+
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.5.2 Signal Codings
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+Basic philosophy
+
+  The binary codings of bit fields in c.c.s. allows potential for a consider-
+able signal repertoire depending upon the bit field, and SU, size. Information
+is transferred in system 6 by means of one (LSU) or more (MUM) SUs, a SU being
+the smallest defined group of bits on the signal channel, and, in system 6,
+contains 28 bits (20 information, 8 check). A LSU may transmit either a single
+telephone signal, a system control signal (e.g. ACU) or a centralised service
+signal. Basically, a MUM, which conveys a number of related signals (e.g.
+address digit signals), may consist of any desired number of SUs, but in
+system 6 consists of 2, 3, 4, 5 or 6 SUs, the constituent SUs of a MUM being
+identified as ISU (the first) and SSU (the second and any following). In the
+c.c.s. art (but not 6) the FSU is the final SU of a MUM, the FSU being a SSU
+and is so called in system 6. The ISU, SSU (and FSU) facilitate MUM length
+indication in the signalling system. If the MUM is speech-circuit related, the
+circuit label is included in the ISU only.
+
+  Basically, a defined c.c.s. system can be regarded as being merely a means
+of transferring bit-coded messages, individual administrations being free to
+adopt their own codings as appropriate. It is logical, however, to adopt some 
+uniformity in the codings and constituent bit-field sizes, for ease of inter-
+working between national, regional and international applications of system 6, 
+the approach that has been adopted. The CCITT specification details the signal 
+codings for the international application, with adequate spare capacity allo-
+cated to cater for particular national network requirements not included in 
+the international specification. As there is a high degree of commonality in
+international and national signalling requirements, considerable uniformity 
+will apply which is the objective, but it must be accepted that national 
+network variants may well arise.
+
+
+(a) Telephone signals
+
+
+  LSU (lone signal unit): A number of bits within each SU must be allocated 
+to distinguish the specific message being transmitted and in the telephony
+LSU nine bits perform this function, divided into two fields; heading field 
+bits 1-5 and signal information bits 6-9 (Fig. 11.4a). The LSU Fig. 11.4a is 
+also the basic format of the ISU. The two bit-fields permit ease of admini-
+stration of the signals, a heading being allocated to a class of signals, e.g. 
+address digit signals, individual signals within each class being distin-
+guished by the relevant coding of the signal information field. These two bit-
+fields more than cover existing requirements (Table 11.1) and leave capacity 
+for new signals and classes of signals not yet defined.
+
+  Where appropriate, the coded bits 1-5 also give indication of the signalling
+direction (forward, backward) of the signal identified by the signal infor-
+mation bits 6-9 (e.g. heading code 11011 indicates that all the signals under 
+this heading are backward signals--Table 11.1). While the heading generally 
+consists of bits 1-5, there are two exceptions:
+
+------------------------[See fig11-4.pcx in tadxf005]------------------------
+Fig. 11.4 CCITT 6 system: typical message signal formats
+     a Basic format of LSU and ISU of MUM
+     b Format of SSU of MUM
+     c Example of 3-unit MUM
+-----------------------------------------------------------------------------
+
+(i)  all SSUs of a MUM are identified by the same 2-bit heading code 00 (bits
+     1-2), Fig. 11.4b.
+
+(ii) the acknowledgment signal unit ACU is identified by a 3-bit heading code
+     011 (bits 1-3), Fig. 11.5a.
+
+The heading codes (bits 1-5) are allocated:
+
+     00       SSU
+
+     01000   -|
+     01001    | Spare
+     01010    |
+     01011   -|
+
+
+     011      ACU
+     10000    ISU of IAM or of MUM
+
+     10001   -|
+     10010    |
+     10011    |  SAM (one-unit message or multiunit message)
+     10100    |
+     10101    |
+     10110    |
+     10111   -|
+
+     11000   -|
+     11001    | International telephone signals
+     11010    |
+     11011   -|
+
+     11100   Spare
+     11101   Signalling system control signals (Except ACU)
+             and management signals
+
+     11110   -| Spare
+     11111   -|
+
+The signal information codes (bits 6-9) are allocated as shown in Table 11.1.
+
+  MUM(multiunit message): A MUM, which may be address messages, centralised 
+service messages, or messages conveying other types of information, consists 
+of an ISU and a number of SSUs. The basic format of the ISU is the same as
+that of the LSU (Fig. 11.4a) the heading code identifying the ISU. SSUs are 
+identified by the heading code bits 1-2 and have a 2-bit field (bits 3-4) 
+coded to indicate the number of SSUs in the MUM (Fig. 11.4b), thus serving as 
+MUM length indication. In system 6, an IAM MUM may be 3-6 SUs and all other
+MUMs 2-5 SUs, and each SSU of a MUM carries the same relevant length indicator 
+coded as follows:
+
+
+                                             Length indication in SSU
+                                                    (bits 3-4) 
+      Number of SSUs            - - - - - - - - - - - - - - - - - - - - - -                      
+         in MUM                 IAM MUM                    Other MUMs
+  --------------------------------------------------------------------------
+            1                        -                          00
+            2                       01                          01
+            3                       10                          10
+            4                       11                          11
+            5                       00                          -
+
+This leaves 16 bits (bits 5-20) in each SSU to carry information (Fig. 11.4b).
+
+
+  The term MUM should not be confused with the term block in the block trans-
+mission of system 6. The block is simply a group of 12 consecutive SUs, which
+may be LSUs, a mixture of LSUs and SYUs, a mixture of MUM (or part MUM) and 
+LSUs, two MUMs, etc. 
+
+  IAM (initial address message): The IAM is the first message of a call 
+connection set-up. Unlike conventional speech path signalling systems, a dis-
+crete seizure signal is not required in c.c.s., the IAM performing this 
+function. As the IAM conveys information (e.g. routing) in addition to address 
+digits, more than one SU is always necessary and the IAM on any call is always 
+a MUM, consisting of an ISU (Fig. 11.4a) and SSUs (Fig. 11.4b). As in SSUs of 
+MUMs in general, bits 1-4 of SSUs of IAMs give SSU identification and MUM 
+length indication. The information bit-field (bits 5-20) of SSUs 2-5 of IAMs
+in the international system 6 is subdivided into four 4-bit parts so that four
+address-digit signals can be conveyed in each SSU. The information bit-field 
+(bits 5-20) of SSU 1 of IAMs is used for routing information required in the 
+setting up of connections in the international system 6. This field could be 
+used for other purposes in regional and/or national application of system 6 as
+required. Also as in SSUs of MUMs in general, SSUs of IAMs do not require the 
+5-bit heading or the circuit label bit-fields as these items of information 
+are already contained in the ISU.
+
+  In the detail, the codes used in the IAM are (Table 11.1):
+
+(i)   ISU: The 5-bitheading code 10000 (bits 1-5) in combination with the 
+      signal information code 0000 (bits 6-9) identify that the ISU is the
+      ISU of an IAM.
+
+(ii)  SSU 1: The heading code 00 (bits 1-2) identifies the SSU and bits 3-4 
+      are coded to give the appropriate length indication. In the interna-
+      tional application, the special routing information required in the 
+      setting up of connections is as follows:
+
+      Bit 5 Country code included or not in the IAM. This feature can be 
+      utilised to inform an incoming international exchange to function as 
+      terminal or as transit.
+
+      Bit 6 Nature of circuit indicator. In particular, this bit is used in
+      satellite routing restriction and records if a satellite link has been 
+      used.
+
+      Bit 7 Echo suppressor control. Whether or not an echo suppressor is
+      required.
+
+      Bit 8 Spare (reserved for international)
+
+      Bits 9-12 Spare (reserved for regional and/or national)
+
+      Bits 13-16 Calling party's category, such as operator, ordinary sub-
+      scriber, data service, etc.
+
+      Bits 17-20 Spare (reserved for regional and/or national)
+
+(iii) SSUs 2-5 - telephone call: As in SSU 1, the heading code 00 (bits 1-2) 
+      identifies the SSU and bits 3-4 give the appropriate length indication. 
+      The four 4-bit parts of the signal information field bits 5-20 contain 
+      address-digit signals in sequence, bits 5-8, 9-12, 13-16, and 17-20, 
+      respectively, being coded as follows (Table 11.1):
+
+      0000  filler (no information)
+      0001  digit I
+      0010  digit 2
+      0011  digit 3
+      0100  digit 4
+      0101  digit 5
+      0110  digit 6
+      0111  digit 7
+      1000  digit 8
+      1001  digit 9
+      1010  digit 0
+      1011  code 11 operator
+      1100  code 12 operator
+      1101  spare
+      1110  spare
+      1111  ST (end of pulsing)
+
+  The filler code 0000 is used where needed to complete the signalling infor-
+mation of the last SSU of the IAM if this SSU is partially used for carrying
+address digits.
+
+------------------------[See tabl11-1.pcx in tadxf005]-----------------------
+Table 11.1 CCITT System 6 allocation of heading and signal information codes
+-----------------------------------------------------------------------------
+
+Signal abbreviations, System 6:
+
+  ACU    Acknowledgment signal unit-error control
+  ADC    Address complete signal, charge
+  ADI    Address incomplete signal
+  ADN    Address complete signal, no charge
+  ADX    Address complete signal, coin box
+  AFC    Address complete signal, subscriber free, charge
+  AFN    Address complete signal, subscriber free, no charge
+  AFX    Address complete signal, subscriber free, coin box
+  ANC    Answer signal, charge
+  ANN    Answer signal, no charge
+  BLA    Blocking Acknowledgment Signal
+  BLO    Blocking Signal
+  CB1-3  Clear Back signal No. 1 - No. 3
+  CLF    Call Failure Signal
+  COF    Confusion signal
+  COT    Continuity signal
+  CSSN   Circuit state sequence number
+  FOT    Forward Transfer Signal
+  IAM    Initial Address Message
+  ISU    Initial Signal Unit
+  LOS    Line Out-of-service Signal
+  LSU    Lone Signal Unit
+  MBS    Multiblock Synchronisation Signal
+  MRF    Message-refusal Signal
+  MUM    Multiunit Message
+  NMM    Network Management and maintenance signal
+  NNC    National Network Congestion Signal
+  RA1-3  Reanswer Signal No. 1 - No. 3
+  RLG    Release guard signal
+  SAM1-7 Subsequent Adress Message No. 1 - No. 7
+  SCU    System Control Signal Unit
+  SEC    Switching Equipment Congestion Signal
+  SNM    Signalling Network Management Signal
+  SSB    Subscriber Busy Signal (Electrical)
+  SST    Subscriber Transferred Signal
+  SSU    Subsequent Signal Unit
+  SU     Signal Unit
+  SYU    Synchronisation Signal Unit
+  UBA    Unblocking Acknowledgment Signal
+  UBL    Unblocking Signal
+  VNN    Vacant National Number Signal
+
+
+Fig. 11.4c shows a typical three-unit IAM. 
+
+ In bothway operation of c.c.s., a double seizure is detected by an exchange 
+when it receives an IAM for a speech circuit for which it has sent an IAM.
+  At the analogue signalling bit-rate 2.4 kbit/s, each SU has an emission time 
+of approximately 11.7ms and with a three-unit IAM, four address digits can be
+transmitted in some 35ms. Typically, a ten-digit national number, if transmit-
+ted en bloc, would require a five-unit IAM and transmitted in some 58.5 ms at
+a rate of 170 digits per second. This is much faster than any speech-path 
+telephony-signalling system currently in use. Digital c.c.s. transfers address 
+information at still faster speeds.
+
+SAM (subsequent address message): A SAM, which may be a LSU or a MUM, is used 
+to transmit additional address information not available for transmission when 
+the IAM is formed, or (but not in international system 6) when the trans-
+mission of address information after the IAM is controlled by backward request 
+signals. The format of an LSU SAM and of the ISU of a MUM SAM, is the same as
+that of the normal LSU (Fig. 11.4a). The LSU SAM carries one address digit in 
+the signal-information field-bits 6-9. The ISU of a SAM does not carry an 
+address digit, bits 6-9 being coded 0000 filler (no information). The format 
+of an SSU of a MUM SAM is the same as that of the SSU of any MUM (Fig. 11.4b) 
+except that, unlike SSU 1 of an IAM (which does not carry address information 
+in international system 6), SSU 1 of a SAM may carry address information in 
+the information field bits 5-20. Thus all SSUs of SAMs may carry four address 
+digits each, bits 5-20 being subdivided into four 4-bit parts. The 4-bit 
+address digit fields are coded as for SSUs 2-5 of an IAM to transmit address
+information. The Code 11 and Code 12 operator codes are not used in SAMs, as
+this information will have been given by the IAM. The filler code 0000 is 
+used, where needed, to complete the signal information field of the last SSU 
+of a SAM.
+  Heading codes (bits 1-5) in the range 10001-10111 are used in LSU, or the 
+ISU of, SAMs, depending upon the sequence number of the SAM concerned 
+(Table 11.1), i.e.
+                    10001 first SAM
+                    10010 second SAM
+                    10011 third SAM, etc.
+
+This sequence numbering of SAMs is necessary in system 6 as messages can get 
+out of sequence at the processor function in the working of the c.c.s. system, 
+and the sequence numbering facilitates the restoration of SAMs to correct the 
+sequence at the processor. It is preferred to limit the number of SAMs on a 
+call connection set-up, but if more than seven are sent, the sequence is re-
+cycled so that the eighth SAM uses code 10001
+
+
+
+(b) Management signals
+
+
+In international system 6, management signalling may include network manage-
+ment, network maintenance and signalling network management, the signals being 
+transferred as LSUs or MUMs. The management signalling detail is not yet 
+resolved for international system 6 and specific formats are not yet 
+specified. The basic format of the normal LSU (Fig. 11.4a) will apply for 
+management LSUs and ISUs of management MUMs, and the heading code 11101 (bits 
+1-5) is assigned. Appropriate coding of the signal information field (bits 
+6-9) distinguish the various categories of management signalling, i.e. network
+management maintenance, etc. (Table 11.1).
+  Most management signals will require a band number (bits 10-16 Fig. 11.4a) 
+to route the signal information on the switched network via appropriate signal 
+transfer points. As management signals will not require a circuit number in 
+the band, bits 17-20 (Fig. 11.4a) are used for management information.
+
+
+
+(c) Signalling system control signals
+
+
+Control signals in system 6, always LSUs, are necessary for the proper func-
+tioning of c.c.s. systems. They are not related to telephone signalling 
+information and are thus not speech-circuit related. In system 6, the control 
+signalling comprises:
+
+(i)   acknowledgment ACU signals in the error control
+(ii)  synchronisation (idle) SYU signal units
+(iii) multiblock monitoring and acknowledgment signals MBS for multiblock 
+      synchronisation
+(iv)  system control signal units SCU, a group of signals concerned with 
+      signalling link failure and the various consequential procedures.
+
+  The heading field (bits 1-5 Fig. 11.4a) is coded 11101 for signalling system 
+control signals, except the ACU which is coded 011 in heading bits 1-3. Signal 
+information bits 6-9 are coded to distinguish the category:
+
+     1100  signalling link failure procedure signals (SCU)
+     1101  SYU
+     1011  MBS
+
+Bits 10-20 give further signalling information in each category, bits that 
+would otherwise be used for the circuit label in speech-circuit-related LSUs.
+
+  SYU (synchronisation signal units): This consists of a 16-bit fixed pattern 
+for bit (analogue c.c.s.) and SU synchronisation, and a 4-bit field for block 
+synchronisation, the latter identifying the location of the SYU within the 
+block (i.e. 1st, 2nd . . . or 11th unit). The SYU (Fig. 11.5b) completes with 
+the eight check bits. The particular 16-bit fixed pattern of the SYU presents 
+an easily recognisable pattern with a variation at the end to aid in its
+detection. It also provides six-bit transitions to aid the attainment of bit-
+synchronisation by the modems in analogue c.c.s. (Section 11.5.5(a)), bit-
+synchronisation being maintained by the transition between dibits.
+
+  MBS (Multiblock synchronisation signal unit): The original system 6 specifi-
+cation, limited to 2.4kbit/s analogue c.c.s., allowed for a maximum of eight 
+blocks in the error-control loop. This was adequate for a maximum delay of 740 
+ms (single-hop satellite) and accounted for the 3-bit (8 possibilities) block-
+completed and block-acknowledged fields in the ACU. The revision of the
+specification to include 4kbit/s and 56 kbit/s digital versions was coincident
+with a requirement to meet a maximum error-control loop delay of 1200ms 
+(double hop satellite), requiring more than eight blocks in the errorcontrol 
+loop at all the signalling bit rates specified i.e. 2.4, 4 and 56kbit/s. The 
+revised specification treats eight consecutive blocks as a multiblock and 
+allows for up to 32 multiblocks. Thus the maximum number of blocks in the
+error-control loop is 256 (3072 SUs), which is adequate for a 1200ms loop-
+delay signalling link at 56 kbit/s in the telephony service. The full 256-
+block capability need not be handled in all applications. Block memory may be 
+limited to that required for the expected range of loop delays and signalling 
+bit-rates at which the system is applied in particular situations.
+  The concept of the multiblock gives rise to the requirement for two signals 
+of a control nature (Fig. 11.5c) i.e. 
+
+(a) multiblock monitoring signal, required on links where the number of blocks 
+    in the error-control loop exceeds eight, and sent to check multiblock synchronism
+(b) multiblock acknowledgment signal, sent in response to the multiblock moni-
+    toring signal and used by the terminal receiving it to verify multiblock 
+    synchronism.
+
+Of the MBS as shown in Fig. 11.5c:
+
+Bits 10-12 are coded 000 for the monitoring signal and 100 for the acknow-
+           ledgment.
+Bits 13-17 are coded to indicate the sequence number of the multiblock in 
+           which the multiblock monitoring signal is sent.
+Bits 10-20 are coded to indicate the sequence number of the block in which the 
+           multiblock monitoring signal is sent (or placed into the output
+           buffer).
+
+------------------------[See fig11-5.pcx in tadxf005]------------------------
+Fig. 11.5  CCITT 6 system: typical control signal formats
+           a Format of ACU
+           b Format of SYU
+           c Format of MBS
+-----------------------------------------------------------------------------
+
+  The above covers the main signals of CCITT system 6, the international
+specification details the format and codings of other signals included in the
+specification. Fig. 11.6 shows a typical signalling sequence with system 6.
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.5.3 Errorcontrol
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+In system 6, provision is made in every SU to detect errors due to noise, line
+faults or transmission faults causing a mutilation of bits.
+
+------------------------[See fig11-6.pcx in tadxf005]------------------------
+Fig. 11.6; Typical signal sequence CCITT 6 system
+-----------------------------------------------------------------------------
+
+Error detection is by redundant coding, a number of check bits being generated
+in the form of a cyclic code, each SU having an 8-bit check field. The gene-
+rator polynomial selected for system 6 to generate the check-bit pattern
+provides maximum protection for short noise bursts affecting up to four
+consecutive bits. To detect for longer noise bursts, a data channel-failure
+detector supplements the error detection by the check bits. This detects, and
+takes effect after a delay of about 5 ms, the following:
+
+(a) failure of the data carrier or an excessive noise level relative to the 
+    carrier level in analogue c.c.s.
+
+(b) loss of frame alignment in digital c.c.s.
+
+Not all errors will be detected by the error control, undetected errors will
+arise.
+
+Error detection: Error detection is performed by check bits (bits 21-28) in
+each SU, with coders and decoders equipped at the transmit and receive 
+terminals, respectively, for the purpose. The principle of operation is that 
+the digital sequence constituting the message is treated as a polynomial and 
+is divided at the transmitter and at the receiver by a preagreed number. The 
+remainder is transmitted from the transmitter to the receiver as check bits. 
+The process is implemented using a modulo-2-division by a shift register with 
+a number of stages equal to the number of check bits. For a given number of 
+check bits C, there are 2^(C-1) different generating polynomials which can be 
+chosen for the divisor, these polynomials having different characteristics 
+which are indicated by their modulo-2 factors.
+
+  Error burst patterns can also be considered as polynomials. Any error burst 
+whose polynomial is the same as the generating polynomial is undetectable as 
+the division process will change the quotient by one bit, but not alter the
+remainder. If the length of the error polynomial is less than the generating 
+polynomial, the remainder will be changed and the error detected. When the 
+error-burst polynomial has more terms than the generating polynomial, the
+errors will only be undetected if the generating polynomial forms a factor in 
+the error-burst polynomial. In system 6, the coder generates eight check bits 
+based on the polynomial:
+
+  P(X) = (X+1)(X^7 + X^6 + X^5 + X^4 + X^3 + X^2 + 1) = X^8 + X^2 + X + 1
+
+A characteristic of cyclic codes is their inferior protection in the case of a 
+slip in frame synchronisation in p.c.m. Security is maintained by arranging 
+for the check bits C to be inverted before transmission and reinverted before 
+checking at the receiver. If there has been a slip, the reinversion is applied 
+on an incorrect sequence of bits. When the decoder at the receive terminal has 
+received all 28 bits of the SU after the check bits have been reinverted, it 
+will indicate whether or not the signal has been checked as correct. This
+information is stored for inclusion in the acknowledgment indicator field of 
+an ACU to be emitted in the return direction.
+
+  The cyclic code for error detection is supplemented by a datachannel failure
+detector (Section 11.8). Indication of data-channel failure owing to unsatis-
+factory transmission conditions causes rejection of SUs in the process of 
+reception, and during the alarm condition all SUs are rejected (i.e. acknow-
+ledged as corrupted) regardless of check.
+  
+  The system 6 specification requires that an undetected error rate of not
+more than one erroneous SU out of each 10^8 transmitted should result in a 
+false operation and not more than 1 in 10^10 should cause malfunction such as 
+false metering or false release. The specification is worded in this way as it 
+was anticipated that most signals with undetected errors would result from the 
+disturbance of idle units which predominate even during the busy hour. It was 
+also evident that many false signals would cause no trouble as they would be 
+addressed to nonassigned circuit labels, or would occur in conditions in which 
+they were meaningless.
+
+  Error correction: Error correction is by retransmission in system 6, which
+necessitates a retransmission store at the transmit end, correctly received 
+SUs being cleared from the store. On error-detected, the SU must be discarded 
+at the receive end and the information retransmitted. This requires a method 
+of acknowledging signals and a means of identifying SUs. The latter is
+achieved in system 6 by transmitting SUs in blocks and allocating identifying 
+numbers to the blocks, individual SUs can then be identified by position 
+within a block. Blocks are of a 12-unit fixed length, comprising 11 SUs (which
+may be message or synchronising) and an acknowledgment unit (ACU) in the 12th
+position (Fig. 11.7). Positive/negative block acknowledgment is employed. A 
+positive acknowledgment indicates that the relevant SU has been received
+error-free, a negative acknowledgment indicates error detected and is thus a 
+request for a retransmission.
+
+Each ACU (Fig. 11.5a) contains:
+
+(a) a 3-bit fixed pattern (011) to identify the unit as an ACU
+(b) a 3-bit code to identify the block of 12 units completed by this
+    ACU (providing for a count of 8)
+(c) a 3-bit code to identify the block being acknowledged by this ACU 
+    (providing for a count of 8)
+(d) the signal acknowledgment mechanism: eleven bits are allocated to identify 
+    the SUs of blocks received in the other direction on a one-to-one basis, 
+    zero (0) or (1) being written in the ACU depending on whether the corres-
+    ponding SU was received error-free or in error
+(e) 8 check bits.
+
+  As a MUM may spread over two blocks, break-in to a MUM may take place due to
+an ACU, whose position in the block is fixed.
+
+------------------------[See fig11-7.pcx in tadxf005]------------------------
+Fig. 11.7 CCITT 6 system: block signalling
+-----------------------------------------------------------------------------
+
+  With the block structure used, the block sequence numbers must repeat every
+1120 ms at 2.4 kbit/s. In the original specification this was sufficiently
+long at 2.4 kbit/s to ensure that under normal conditions, there could be no
+ambiguity as to what is being acknowledged even when a single-hop satellite is
+included in the signalling link in the telephony service (but see Section
+11.5.3 'Influence of digital versions system 6 on the error control').
+
+Retransmission procedures: The following procedures apply in error conditions:
+
+(i)   When a SU is corrupted, the appropriate acknowledgment indicator in an 
+      ACU is set negative. This procedure is also used if for any reason the
+      receive terminal cannot handle a SU.
+(ii)  When the corrupted SU is a LSU, that LSU is retransmitted (in another 
+      block).
+(iii) When a SU (or SUs) of a MUM is corrupted, the whole MUM is retrans-
+      mitted. This avoids associating SSUs with a corrupted ISU. 
+(iv)  Corrupted SYUs (idle units) are not retransmitted.
+(v)   It will be noted that a received ACU is not itself acknowledged.
+
+  If an ACU, always known as such by its 12th position in the block, is 
+corrupted, it is assumed that all its acknowledgment indicators are negative 
+and all message SUs in the block waiting to be acknowledged are retransmitted. 
+In the limit, a block of 11 message SUs could be retransmitted. This means 
+that on occasions the same SU may be received error-free more than once.
+
+ Processor reasonableness checks: The following irregularities on the same
+call may arise with system 6:
+
+(a) Unreasonable messages:
+
+   (i)  in incorrect sequence, as may arise on retransmission due to error
+        detected
+   (ii) an incorrect signal direction.
+
+(b) Duplicated (superfluous) messages, as may arise owing to corruption of an
+    ACU, or to drift compensation.
+
+  To resolve such irregularities, special processor procedures are defined and
+are included in reasonableness check tables which cover all possible stages in
+the signalling sequences. The reasonableness check tables for system 6 are
+based on the logical signal processes and sequences which should apply on a
+call. Typically, if two IAMs are received owing to corruption of an ACU or to
+drift compensation, the two are compared. If they are identical, one is
+discarded, and if they are different, a confusion signal can be sent.
+
+  The action taken by the processor on unreasonableness detected depends on
+the nature of the irregularity, the various actions being:
+
+(i)   Rejecting: Messages or SUs recognised to be unreasonable or superfluous are discarded.
+
+(ii)  Waiting: Unreasonable messages or SUs which may become meaningful at a
+      later stage of the signal sequence are provisionally held. The waiting
+      time should be longer than the retransmission delay of the delayed
+      message. The provisionally-held SUs are processed if the arrival of
+      retransmitted signals within the waiting period makes them meaningful.
+      Otherwise, if they are still meaningless at the end of the waiting
+      period, they are rejected with the exception of the cases where the
+      held signal is a clear forward. In this case, the release-guard signal
+      must be sent.
+
+(iii) Clearing If owing to an abnormal signal sequence an ambiguous situation
+      arises which would result in a circuit being held unduly for a prolonged
+      period, the circuit is cleared by the release sequence.
+
+(iv)  Confusion signal: If none of the above actions is suitable for resolving
+      the situation created by the irregularity, the confusion signal is
+      returned. On receipt of this, the distant exchange sends the clear-
+      forward signal to release the connection and on certain irregularities
+      an automatic repeat attempt is made to set up the call. The confusion
+      signal will not be sent subsequent to sending the address complete
+      signal or other signal causing the clearing from the store of address
+      and routing information at the preceding exchange.
+
+  The irregularities arise in the message-transfer process of the signalling
+system. Some reasonableness checking is always necessary at the processor
+regardless of the type of error control involved in the message-transfer
+control. It is a question of degree. Error-control methods which do not allow
+incorrect sequence and duplicated messages to be passed from the signalling
+terminal to the processor would permit relatively simple reasonableness-
+checking covering undetected errors in the main. The system 6 error-control
+method allows out-of-sequence and duplicated messages to be passed to the
+processor, resulting in significant irregularity in addition to that due to
+other causes, such as undetected errors. As a result, the reasonableness
+checks associated with system 6 are complex and load the processor.
+
+  Drift compensation: As the two signalling channels of a signalling link are
+not synchronised with each other, the usual condition for telephony c.c.s.,
+the two signalling terminals may get out of step. The following applies in
+system 6:
+
+(a) The faster terminal may be ready to send an ACU before it has a block to
+    acknowledge. In this case the ACU of the previous block is repeated.
+
+(b) The slower terminal may find it has two blocks to acknowledge when it is
+    ready to send an ACU. In this case it will omit to acknowledge one block
+    altogether, the 12th unit being sent to complete the block but will not
+    contain acknowledgment information. The far end then retransmits all
+    message SUs of the unacknowledged block.
+
+Influence of digital versions system 6 on the error control
+
+  The revision of the orignal analogue 2.4 kbit/s signalling specification to
+include 4 kbit/s and 56 kbit/s digital versions was coincident with a require-
+ment to meet a maximum error-control loop delay of some 1200 ms (double-hop
+satellite). This requires more than eight blocks in the error-control loop at
+all the signalling bit-rates specified (2.4, 4 and 56 kbit/s). With the
+retention of the 3-bit block-sequence number field in the ACU, an implicit
+approach was adopted, the block-completed and block-acknowledged indications
+being based on a so called 'dynamic indexing' plan.
+
+  The plan takes advantage of the fact that after a signalling link is in
+synchronism, much of the information transmitted in the block-sequence number
+fields of the ACU is redundant. Once block counts have been established in
+the initial synchronisation, and as long as synchronism is maintained, local
+block counts kept at each end are entirely adequate. Block acknowledgment
+only, without block-sequence numbering, would suffice. As, however, drift may
+arise due to the two signalling channels not being synchronised with each
+other, some redundancy in block-number information is necessary in each block
+to permit compensation for drift and for detection of loss of block synchro-
+nisation. The 3-bit block-sequence number fields in the ACU performs this
+function.
+
+  Each signalling terminal has two block counters, each of up to 8-bit
+capacity (256 possibilities):
+
+(i)  Block completed counter: This indicates the sequence number of the last
+     block transmitted by the terminal. The last 3 bits of this number are
+     also sent in the ACU of the block in the 3-bit block completed field of
+     the ACU.
+
+(ii) Block acknowledgment counter: This is updated by the 3-bit block-acknow-
+     ledgment sequence number in the incoming ACU and thus indicates the
+     sequence number of the block being acknowledged by the last received ACU.
+     To keep it updated even when the ACUs are corrupted, the block acknow-
+     ledgement counter is also incremented whenever the 12th unit of a block
+     is received corrupted.
+
+  Thus the signalling terminal and/or processor keeps track of the block
+numbers and identifies blocks in the error-control loop. The subsequent return
+in the block-acknowledged field of a received ACU of the last 3 bits of the
+maximum 8-bit block-completed number of the block-completed counter in the
+ACU in the opposite direction gives the block-acknowledgment indication to a
+transmit terminal. Should the 3-bit block acknowledged number in the received
+ACU be different from the last 3 bits of the block transmitted, drift or loss
+of block sychronism will have occurred.
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.5.4 Analysis of the system 6 error-control method
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+The following main areas are analysed, many points of less significance being
+omitted:
+
+(a) Correct sequence of messages: Messages can get out of correct sequence on
+    retransmission and would be passed in incorrect sequence from the signal-
+    ling terminal to the processor.
+
+(b) Duplicated messages: Messages may be received correctly more than once for
+    a number of reasons e.g.
+
+    (i)   corruption of ACU, resulting in all message SUs in the block being
+          retransmitted, could result in the retransmission of messages al-
+          ready received correctly
+    (ii)  drift compensation resulting in a block not being acknowledged
+    (iii) loss of an ACU during failure conditions.
+    Such duplicated messages would be passed from the signalling terminal to
+    the processor.
+
+(c) Reasonableness checks: The incorrect sequence and duplicated messages
+    passed to the processor require complex reasonableness checks at the
+    processor to deal with the situation. This complicates the processor and
+    increases the processor load.
+
+(d) Unnecessary retransmissions: These can occur owing to
+
+    (i)  complete MUMs being retransmitted on corruption of constituent
+         message SU(s) of MUMs.
+    (ii) Corruption of message SU(s) in unrequested retransmissions.
+    SYUs are known to be such at the transmit end by virtue of their
+    positions in the block and thus by their positions in the block store.
+    Corrupted SYUs, while returning negative acknowledgments in the relevant
+    indicator bits in the ACU, do not cause retransmission of SYUs, or any
+    other signals. Thus unnecessary retransmissions do not occur on corrupted
+    SYUs.
+
+(e) Unrequested retransmissions: These are said to arise when acknowledgments
+    are corrupted. All message SUs in a block are retransmitted on corrupted
+    ACU. Approximately 50% of all retransmissions will be unrequested due to
+    this cause.
+
+(f) Drift compensation: While drift is always liable to occur when the two
+    signalling channels of a link are not synchronised with each other,
+    complex compensation procedures are necessary when the ACU is in a fixed
+    position in a block.
+
+(g) Unique ACU signal unit. The use of a complete signal unit (ACU) for ack-
+    nowledgment reduces the traffic handling capacity of a link by some 8.5%.
+
+(h) Fixed position of ACU in block: While the unique ACU has significant dis-
+    advantage in regard to unrequested retransmissions on ACU corruption, it
+    has advantage when it is in a fixed position in a block. The SU will
+    always be known as being an ACU and thus corruption and undetected errors
+    can never be interpreted as being a nommal SU. On the other hand, the
+    fixed position of the ACU introduces complication when it splits up the
+    SUs of a MUM. If a retransmission is requested for any of the message SUs
+    comprising a MUM, then the whole MUM must be retransmitted. Thus even
+    though the correct receipt of the first part of a MUM in a particular
+    block may be acknowledged by the appropriate ACU, the possibility of a
+    retransmission cannot be rulcd out until the receipt of the subsequent
+    ACU in the next block which acknowledges the SUs forming the remainder
+    of the MUM.
+
+(i) Delays: These are relatively long and are
+
+    (i)  up to almost two blocks delay when requesting retransmission
+    (ii) up to one or two blocks delay in retransmitting.
+
+
+  It is concluded that the system 6 error-control method is complex, and that
+far too much requirement is placed on the processor to enable the error
+control to function. It will be understood of course that the system 6 error
+control was formulated on the basis that the processor would be involved.
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.5.5 Synchronisation
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  The transmit and receive terminals on a c.c.s. signalling channel must be in
+synchronism to enable transmitted information to be correctly received. It is
+not essential that the two signalling channels of a link be synchronised to
+each other and are usually not in telephony c.c.s. Four levels of synchronism
+are necessary in system 6: bit, unit, block and multiblock. The number of
+blocks (and multiblocks) in the error control loop at any one time will depend
+upon the signalling bit rate, the traffic load and the error control loop
+delay of the signalling link.
+
+(a) Initial synchronisation
+
+  In analogue 6, bit synchronisation is provided by the data modem (modulator
+and demodulator) which uses a 4-phase, synchronous, differentially-coherent
+modulation method. The four phases each represent two bits of information
+(00, 01, 10, 11) called dibits. The modem then presents a continuous serial
+bit stream to the signalling equipment which then must identify units, blocks
+and multiblocks. In digital 6, modems not being required, bit synchronism is
+assured by the synchronised digital transmission system.
+
+  The block completed and block acknowledgment counters are set to zero during
+the initial synchronisation procedure and are checked periodically using the
+multiblock monitoring procedure.
+
+  On start-up of a link, each signalling terminal transmits blocks consisting
+of 11 SYUs and an ACU. The SYU (Fig. 11.5b) includes a 16-bit fixed pattern
+(for bit - analogue - and unit synchronisation) and a 4-bit field (for block
+synchronisation). The coding of the 4-bit field identifies the location of the
+SYU within the block (i.e. 1st, 2nd....or 11th unit). The particular 16-bit
+pattern of the SYU presents an easily recognisable pattern with a variation
+at the end to aid in its detection, and because the pattern provides six dibit
+transitions, to aid the attainment of bit synchronisation by the modems in
+analogue c.c.s. Bit synchronisation is maintained by the transition between
+dibits.
+
+  The ACUs are transmitted initially with the 11 acknowledgment indicators set
+to 1, and the block-completed and block-acknowledged 3-bit sequence number
+fields set to 000.
+
+  After bit-synchronisation has been established (in the demodulator of the
+modem for analogue c.c.s. and by the transmission system in digital c.c.s.)
+the incoming bit stream is monitored to find an SYU pattern. When found, and
+thus an SYU verified, its position within the block is known and the ACU posi-
+tion located. In due course, the ACU on the incoming channel should be cor-
+rectly received with its block number. At this time, the acknowledgment indi-
+cators in the next ACU sent back are set to reflect any detected errors in the
+SYUs of the associated receive block. Both block-sequence number fields in the
+ACU sent back remain at 000.
+
+  The reception of at least two ACUs at the transmit terminal which check cor-
+rectly and acknowledge one (or more) SYU as having been received correct at
+the other end indicates that both terminals are in bit, unit and block syn-
+chronism.
+
+  Block-sequence numbering is initiated by the block-completed counter, and
+the block-completed sequence number in the next outgoing ACU from the trans-
+mit terminal being set to 1. Thereafter the blockcompleted counter and the
+block-completed sequence number are incremented by 1 each time an ACU is
+transmitted.
+
+  When the terminal receives an ACU having a block-acknowledged bit-field
+other than 000, the block-acknowledged counter at that terminal is set to this
+number received. Thereafter the counter is updated by the appropriate block-
+acknowledged number each time an ACU is received.
+
+  When the block-acknowledged counter is advanced for the first time, the
+number of blocks in the error-control loop may be determined by subtracting
+the contents of the block-acknowledged counter from the contents of the block-
+completed counter. This gives the maximum number of blocks which may apply in
+the error-control loop of the signalling link concerned at the signalling bit-
+rate used. If the initial synchronisation procedure has indicated more than
+eight blocks in the error-control loop, the multiblock monitoring procedure is
+used once every cycle of the block-completed counter. In this case, the multi-
+block procedure is used for block synchronisation. On receipt of a multiblock
+acknowledgment signal, the multiblock and block numbers are compared With the
+contents of the block-acknowledgment counter. Multiblock synchronism is
+assumed to exist if the received number is within -4 to + 3 of the contents of
+the block-acknowledgment counter.
+
+(b) Resynchronisation
+
+  Unit resynchronisation: Loss of unit synchronism results in continuous
+failure of SUs to check correctly, and when this occurs a signalling terminal
+takes unilateral action to resynchronise to the incoming bit stream. In any
+ACUs transmitted during this procedure, all the 11 acknowledgment-indicator
+bits are set to 1 and the block-acknowledged and block-completed numbers in-
+cremented as in normal operation. When synchronisation is re-established on
+the incoming channel, which is detected by SUs being checked correctly, the
+acknowledgment indicators are set according to the incoming SUs, i.e. normal
+operation is resumed. The SU error rate monitor continues to count SUs in
+error during this procedure, and changeover results if synchronisation is not
+re-established before the changeover criteria becomes operative.
+
+Block resynchronisation: Loss of block synchronism is recognised when
+
+(i)   a valid SU, which is not an ACU, is received in the 12th position in a
+      block
+(ii)  an ACU is received in other than the 12th position in a block
+(iii) the block-completed number is not the one expected.
+
+  On recognition of any one of the above, the terminal will stop sending
+message signals and send only SYUs and repeated ACUs, the latter meaning that
+the acknowledgment indicators and the block-acknowledged number from the
+previous blocks are repeated.
+
+  When the terminal has identified the unit position in a block, either by
+recognising the SYU number or by identifying an ACU in the 12th position, and
+has also received an ACU which checks correctly, resynchronisation has been
+achieved. After successful block resynchronisation, the block being trans-
+mitted is completed with SYUs and an ACU. At least one complete block of 11
+SYUs is sent before normal operation is resumed.
+
+The first ACU sent after resynchronisation has been achieved has:
+
+(i)   the 11 acknowledgment indicators all set to 1
+(ii)  the block completed number set to the next in sequence
+(iii) the block acknowledged number corresponding to the latest ACU received
+
+  After the completion of block resynchronisation, multiblock synchronism
+should be checked if the multiblock condition is applicable, i.e. more than
+eight blocks in the error-control loop.
+
+  Multiblock resynchronisation: If the multiblock numbers in a multiblock ack-
+nowledgment SU are not within -4 to +3 of the contents of the block-acknow-
+ledged counter, a new multiblock monitoring signal is sent. If the result of
+the second measurement is not within the above limit, multiblock synchronism
+has been lost, and can be regained by updating the contents of the block-
+acknowledged counter to the obtained result. When the second multiblock
+monitoring signal is sent, the terminal will send only SYUs and ACUs for three
+blocks. Normal operation is then resumed and all messages transmitted in the
+interval between the two multiblock monitoring signals are retransmitted. If
+multiblock sychronism cannot be regained, changeover is initiated.
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.5.6 System 6 analogue and digital versions
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  Signalling in the digital environment, either point-to-point p.c.m. or inte-
+grated digital-switching and transmission, can be achieved by the built-in,
+channel-associated, p.c.m. signalling technique (Sections 6.2 and 6.3). Such
+signalling is underutilised in the telephony service. Improved utilisation can
+be achieved by treating the signalling facility on speech-circuit group rather
+than on a per-p.c.m. system basis and c.c.s. is preferred when s.p.c. applies.
+
+  The c.c.s. technique has potential for rationalised signalling for analogue
+and digital application and this concept is adopted. The basic features of the
+c.c.s. system apply on a common basis, the analogue and digital differences
+being limited to the signalling bit-rates. Ideally, the common signalling
+features should be optimum for both analogue and digital, but as this is
+difficult to achieve in all the feature areas, some penalty may well arise in
+either application.
+
+  The pioneering CCITT system 6 was produced primarily for analogue applica-
+tion and its digital versions are far from optimum. The evolution of networks
+to integrated digital has shown the need for a new rationalised c.c.s. system
+optimised for digital rather than analogue, and this new system is currently
+being studied by the CCITT (Section 11.11).
+
+Derivation of signalling data-bit streams
+
+  2.4 kbit/s (analogue version) and 4 kbit/s and 56 kbit/s (digital versions)
+signalling bit-rates are presently specified for system 6. Optional 4.8 kbit/s
+analogue is presently being considered, The data-bit streams are derived from
+the modem (analogue) and from the multiplex (CCITT specified p.c.m. systems)
+for digital, as follows:
+
+(a) Analogue 2.4 kbit/s. A 2.4 kbit/s modem (modulator/demodulator) is used.
+    The modulation technique uses phase-shift-keying to transmit serial binary
+    data over the analogue signalling channel. The binary-data signal is
+    encoded by first grouping it into bit pairs (dibits), each dibit being
+    represented by one of four possible carrier phase shifts. Thus, the output
+    from the phase modulator consists of phase-shifted carrier pulses at half
+    the data bit-rate. The phase shift between two consecutive modulation
+    elements contains the information to be transmitted, The principal
+    requirements of the modem used for system 6 are:
+    (i)   use of differential 4-phase modulation
+    (ii)  use of differential coherent 4-phase demodulation
+    (iii) full duplex operation over a 4-wire signalling link
+    (iv)  a modulation rate of 1200 bauds
+    (v)   a bit rate of 2.4 kbit/s.
+
+(b) 1.544 Mbit/s digital transmission 4 kbit/s signalling bit rate. As now
+    specified, 24-channel p.c.m. systems (1.544 Mbit/s) do not permit a 64
+    kbit/s channel bearer for signalling purposes. Here, for signalling
+    purposes, a channel is derived over which a stream of pulses is trans-
+    mitted at 4kbit/s. The binary data from the signalling terminal is trans-
+    ferred serially at a data transmission rate of 4kbit/s to the primary
+    multiplex. Here, each bit of the data stream is successively inserted into
+    the S-position (Section 6.2.3).
+      In the receive direction, the primary multiplex extracts the bits from
+    the S-position and transfers them serially to the signalling terminal.
+
+(c) 2.048 Mbit/s digital transmission. A 64 kbit/s channel bearer is available
+    for signalling in 2.048 Mbit/s 30-channel p.c.m. systems (Section 6.3) and
+    signalling bit-rates of 4 kbit/s or 56 kbit/s may apply. A digital inter-
+    face-adapter is provided between the multiplex and the signalling
+    terminal.
+
+
+  4 kbit/s signalling bit rate: The binary data stream from the signalling
+terminal is transferred serially to the interface-adapter. Here, the 4 kbit/s
+data stream is modulated on a 64 kbit/s bearer channel such that 16 bits of
+bearer channel correspond to one bit of the 4 kbit/s channel. The 64 kbit/s
+data stream is transferred serially to the 2.048 Mbit/s primary multiplex in
+alignment with an 8kHz clock (octet timing). At the primary multiplex, the 16
+bits corresponding to one signalling information bit are inserted into the
+designated channel time slot of two successive frames.
+
+  In the receive direction, the primary multiplex extracts the bits from the
+designated time slot and transfers them serially at 64 kbit/s to the inter-
+face-adapter. Here, the 16 bits corresponding to one signalling information
+bit are extracted after detection and the binary data is transferred serially
+to the signalling terminal at 4 kbit/s.
+
+  56 kbit/s signalling bit rate: The system 6 signal unit is 28 bits. As this
+is not a multiple of the 8bit octet it has weaknesses in digital transmission.
+Four bits are added to the signal unit to increase its size from 28 to 32
+bits, for the reasons of:
+
+(a) octet timing The signal unit and padding bits together occupy exactly 4
+    octets. This simplifies the synchronisation and resynchronisation proce-
+    dures.
+
+(b) slip detection: With appropriate coding, the four padding bits may be used
+    to detect octet slips.
+
+  No signalling information is carried by the four padding bits. Thus with the
+system 6 28-bit signal unit, the signalling bit-rate is 56 kbit/s on the 64
+kbit/s bearer. The bit pattern for the padding bits is 1010...1010, which
+allows for detection of octet slips. As the pattern and location of the
+padding bits interfere with check-encoding, the padding bits are added after
+encoding and removed prior to decoding.
+
+  The binary data from the signalling terminal is transferred serially to the
+interface-adapter. Here, the 28 bits of the signal unit are placed in bit
+positions 1-7 of four 8-bit bytes. These four bytes are transferred serially
+at the data transmission rate of 64 kbit/s to the 2.048 Mbit/s primary multi-
+plex, in alignment with an 8kHz clock (byte timing). At the primary multiplex,
+the four bytes are inserted into the designated time slot of four successive
+frames.
+
+  In the receive direction, the primary multiplex extracts the bits from the
+designated channel-time slot and transfers them serially at the data trans-
+mission rate of 64 kbit/s to the interface-adapter, in alignment with an 8
+kHZ clock. In the interface-adapter, the bits 1-7 of each 8-bit byte are
+transferred serially to the signalling terminal at the 56 kbit/s rate.
+
+  The padding bits do not apply for the 4 kbit/s digital version. They would
+not be necessary in signalling systems having a signal unit size a multiple
+of the 8-bit octet.
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.6 Common channel signalling loading
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  With c.c.s., the signalling is time shared and a speech circuit does not
+have exclusive use of a signalling facility, thus a queue is built up from
+which signals are transmitted in order of their time of arrival and of their
+priority. Thus the loading in terms of number of speech circuits served per
+c.c.s. link must reflect acceptable queueing delays. This loading will be
+influenced by a number of factors, in particular:
+
+(a) the number of busy hour calls per speech circuit
+(b) the number of signals involved per call
+(c) the mix of LSUs and MUMs; the greater the number of MUMs for a given total
+    signal information transfer per call, the less the signalling load
+(d) the signalling bit rate: the faster the bit rate, the less the signal
+    emission time and the greater the permissible number of speech circuits
+    served.
+(e) the error-control method: typically, a noncompelled error control method
+    permits more speech circuits served per c.c.s. link than a compelled
+    method, other factors being equal.
+
+  It is thus not practicable to specify a general maximum limit of speech
+circuits served per c.c.s. link. An adopted limit must take account of the
+various conditions applying so that the total signalling load per link is held
+to a level which will maintain an acceptable queueing delay. It is generally
+accepted that the signalling load per link should not exceed of the order 0.4
+Erlang in normal operation. This allows temporary signalling overload in
+normal operation and for increased load in abnommal conditions such as
+security backup for a failed regular signalling link, when the load of the
+failed link is transferred to the backup link, the queueing delay increasing
+in the abnormal condition.
+
+  It is also generally accepted that the maximum number of circuits served per
+c.c.s. link adopted in practice for a particular network should reflect the
+probable size of the speech circuit groups applying, and the signalling
+network security philosophy adopted, for that network. Typically, one admi-
+nistration may adopt a maximum loading of, say, 1500 circuits per c.c.s. link
+in normal operation, whereas another may wish to adopt a smaller number, say
+500 circuits, which reflects the different network conditions.
+
+  Indications of the maximum number of speech circuits served per CCITT system
+6 c.c.s. link in the telephony service with acceptable queueing delays, assu-
+ming 15 busy hour calls per speech circuit, 0.4 Erlang signalling link
+loading, and representative conditions, are:
+
+     2.4 kbit/s signalling bit rate               1500 circuits served
+     4   kbit/s                                   2500
+    56   kbit/s                                  20000
+
+  It is stressed that these values must be regarded with some reserve in view
+of the various assumptions adopted, nevertheless the broad indication is
+reasonable and is of interest. The values for the new CCITT optimised digital
+c.c.s. system with signalling bit rates 2.4, 4 and 64 kbit/s (Section 11.11)
+will be different as much will depend upon the finally resolved method of
+transferring the signal information - by messages of variable bit length or by
+fixed bit length SUs. In either event however, there are indications that the
+number of signalling bits transferred per telephone call will be somewhat
+greater than in system 6, and with noncompelled error control the maximum
+number of speech circuits served per c.c.s. link may well be somewhat less
+than for system 6 at the same signalling bit rate and for the same assumed
+conditions. Nevertheless, at 64 kbit/s, it is thought that some 20000 speech
+circuits would apply. Compelled error control, should this apply, will signi-
+ficantly reduce the values relative to non compelled.
+
+  While in some circumstances some 2500 or 20000 speech circuits could be
+served per c.c.s. link in the telephony service in normal operation, it is
+extremely unlikely, particularly for signalling network security reasons, that
+such high values would be adopted in practice. It is thought that a more
+realistic maximum adopted would be of the order 1500 circuits in normal
+operation. This implies that a c.c.s. link would be very lightly loaded in the
+telephony service in normal operation at the higher signalling bit rates 56
+kbit/s and 64 kbit/s. The maximum number of circuits served per c.c.s. link
+for the switched circuit data service would very likely be significantly less
+than for the telephony service in view of the shorter call durations.
+
+Circuit label capacity
+  The size of the circuit label bit field should allow for greater possibili-
+ties than the requirement for the maximum number of circuits served per c.c.s.
+link in normal operation. This is to allow for the increased load in the ab-
+normal condition when a link functions as security backup for a failed link.
+The CCITT specification for system 6 provides for an 11-bit (7-bit band, 4-bit
+circuit number) circuit label bit field (potential to identify 2048 speech
+circuits). This may be varied in particular national applications of the
+system, typically, the Bell system national version of system 6 proposes a
+13-bit (9-bit band, 4-bit circuit number) circuit label field (potential to
+identify 8192 circuits), which reflects the large size speech circuit groups
+applying in the N. American network.
+
+  It is considered advisable that the circuit label bit field be of size
+giving flexibility to cater for possible future requirements not yet defined.
+Thus the potential for a larger field than that provided by the CCITT speci-
+fied system 6 is preferred, which approach is proposed for the new optimised
+digital c.c.s. system (Section 11.11). A national network not requiring the
+large number would have possibility to use spare circuit label bits for other
+suitable national purposes.
+
+  The circuit label bit field is divided into band number bits and circuit
+number bits. The band number identifies a group of circuits (typically a
+p.c.m. system), the circuit number identifies a particular circuit in a group.
+The banding concept minimises the memory required at a signal transfer point
+(s.t.p.) in the quasi- and dissociated-c.c.s. signalling modes. The s.t.p.
+processor translates on only the band number bit field and not on the complete
+circuit label field, as signalling routing only is required at s.t.ps. A dis-
+advantage of banding is the loss of some label capacity since all speech
+circuit group sizes are not an integer multiple of band size. Usually the
+circuit number field is 4 bits, which identifies a circuit within a group
+(band) of up to 16 circuits. Should spare bits from a large circuit label
+field be used for other national purposes, these should be spared from the
+band, and not from the circuit number, bit-field.
+
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.7 Signalling link security and load sharing
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  Various security and load-sharing arrangements are possible within a parti-
+cular c.c.s. system specification and in national application would be matters
+of individual administration's choice. Bilateral agreement on particular
+arrangements may apply in international application.
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.7.1 Security
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  The basic concept of securing a signalling route is to supplement its regu-
+lar signalling facility with a readily accessible alternative brought in by
+automatic procedures. This requires the provision of at least two signalling
+facilities, termed 'regular' and 'backup' respectively for convenience.
+
+The backup may be:
+
+(a) A standby nonsynchronised link switched into service when required. (e.g.
+    a speech circuit nominated as the signalling backup).
+(b) A synchronised signalling link in the same signalling relationship (e.g.
+    regular and backup signalling links on an associated signalling route).
+(c) A separate signalling relationship (e.g. quasi-associated signalling as a
+    backup for associated signalling).
+
+There are other possibilities.
+
+  Further signalling security can be achieved by fabricating a backup under
+the control of network management. As this would not be an automatic proce-
+dure, it would not be a function of the signalling system.
+
+  It is clearly preferable that the backup link(s) should have immediate
+signalling capability on failure of the regular link. Thus while (a) is a
+valid approach, the procedures required to prove the signal carrying capabi-
+lity of the backup takes time and adds to the complexity. Approaches (b) and
+(c) are preferred.
+
+  Inbuilt associated signalling security: This implies that an associated-
+signalling route has inbuilt features to achieve, by automatic procedures, the
+degree of signalling security required. The concept requires the provision of
+at least two signalling links in that associated signalling relationship,
+preferably diversely routed. The provision of more than one signalling link to
+achieve the security can be justified on the relative cost insensitivity of
+providing additional link(s) due to:
+
+(i)   the inherent 'common equipment' feature of c.c.s.
+(ii)  the application of such signalling to concentrated traffic
+(iii) in the digital environment, the low cost of signalling time slots in
+      digital transmission systems due to the cost sharing in multiplex trans-
+      mission.
+
+  Associated signalling module security: There is an interplay between the
+maximum number of speech circuits to be served per c.c s. link in normal ope-
+ration and the size of the circuit label bit field to determine the number of
+signalling links which may apply in an associated signalling relationship. The
+term 'signalling module' is adopted in this regard. Typically, with a 6000
+circuit label capacity, the maximum size signalling module would be four links
+for a maximum loading of 1500 speech circuits per c.c.s. link, and six links
+for 1000 circuits per link. In practice, not all modules in a network would be
+of maximum size, they would be of size dependent upon the sizes of the speech
+circuit groups served. Many associated signalling routes in many networks
+would consist of two signalling links only (1 + 1), which could be smaller
+than the maximum size signal module. The larger speech circuit groups would
+require more than two signalling links and the very large groups would require
+more than one signalling module.
+
+  Various security approaches may apply with the signalling module concept,
+but the following are thought logical:
+
+(a) Any one signalling link in the module should be capable of being a backup
+    for any other links in the module. This precludes a particular link being
+    the single nominated backup link.
+
+(b) When the module is bigger than 1 + 1, the potential to allow for more than
+    one failed link in the module should be admitted in the automatic security
+    procedures. In theory, failure could be allowed to the limit of one sig-
+    nalling link carrying the full load of the module, which approach could
+    result in significant increase in queueing delay. In practice, an admini-
+    stration may wish to limit the extent of permitted failure within a module
+    to be covered by the automatic security procedures. In a two-link module
+    of course, one link must carry the total signalling load on failure of one
+    link.
+
+(c) When a number of signalling modules are provided on a signalling route,
+    each module should be autonomous, being self-contained in the sense that
+    no traffic assigned to a module would ever be handled by another module.
+    Each module would be inbuilt secured and would not rely on another module
+    for signalling security.
+
+  The circuit label bit field of the international system 6 is of modest size
+(11 bits, 2048 circuits). This is mainly suitable for a 1 + 1 signalling
+concept and would restrict the module size in a module concept. If necessary
+of course, national variants of the international system 6 could arrange for
+additional circuit label bit(s) within the 6 SU size, as instanced by the
+13-bit circuit label field of the Bell system version of system 6 for
+application in N. America.
+
+
+  Quasiassociated signalling security: A number of possibilities arise,
+typically
+
+(a) Assuming the quasiassociated signalling route to have associated signal-
+   ling on the relevant constituent routes (Fig. 11.2b), and the associated
+   signalling modules to have inbuilt security, the quasiassociated signal-
+   ling route is then securcd in the inbuilt concept without the necessity
+   for further arrangements.
+
+(b) Quasiassociated signalling without associated signalling on the consti-
+    tuent routes (Fig. 11.2c). Assuming quasiassociated signalling to be the
+    principal signalling mode in a network, situations arise where it would
+    not be of the type having associated signalling on the constituent routes
+    of the quasisignalling relationship. A signalling module concept could
+    apply for quasiassociated signalling of this type. The module size would
+    be determined by the same considerations as apply for an associated
+    signalling module, the module would have inbuilt security and all the
+    considerations postulated for the associated signalling module would
+    apply. The smallest quasisignalling module would be two links 1 + 1.
+
+  Unlike the associated signalling module case, s.t.p. security considerations
+arise in quasiassociated signalling of the type being considered and the
+s.t.ps. may or may not be duplicated depending upon an administration's
+policy. If duplicated, the operation of the quasiassociated signalling module
+would need to take account of the duplicated s.t.ps., but the basic
+philosophy, and the basic working arrangements of the quasiassociated signal-
+ling module would not be disturbed with duplicated s.t.ps. An example of this
+type module is the proposed Bell system quasiassociated signalling in the
+N. American network (Fig. 11.8). Here it is proposed that the complete network
+comprises a number of signalling regions, quasiassociated signalling being
+applied between the regions and thus in an organised manner on a complete
+network basis, as distinct from quasiassociated signalling applied on parti-
+cular signalling route situations and thus not as the principal mode for the
+network. Quasiassociated signalling is proposed as the main c.c.s. mode in the
+N. American network. In some situations, associated signalling may apply on
+particular speech circuit groups and when applied, the basic capacity of an
+associated signalling link is 1500 speech circuits maximum in normal operation
+at the 2.4 kbit/s signalling. Under fault conditions, an associated signalling
+link may carry twice this load, but with an increase in signalling delay.
+
+  This same capacity, 1500 speech circuits maximum, applies to the quasi-
+associated A-links (Fig. 11.8). A toll office of 3000 speech circuits or less
+would connect with the quasiassociated signalling network by providing a
+single pair of A-links, one link to each regional s.t.p. An additional A-link
+pair would be provided for each increment of 3000 speech circuits terminated
+in the toll office. Each A-link pair functions as an autonomous pair, having
+no operational interaction (such as failure backup) with other A-link pairs.
+
+  The interregional quasisignalling quad (four-signalling link module fully
+inbuilt secured) forms a functional unit serving up to 6000 speech circuits
+between a pair of signalling regions. Additional autonomous quads would be
+provided for each increment of 6000 interregional speech circuits. As
+mentioned, this arrangement requires a 13-bit circuit label field (9 bit band,
+4-bit circuit number).
+
+
+  Exploitation of c.c.s. modes for signalling security: Signalling security
+can be achieved by employing a backup signalling mode of a different type, or
+another mode of the same type, from the regular signalling mode. Both inbuilt
+security and regular modes secured by backup modes can be applied in the one
+network. The following are possibilities:
+
+(a) When it is not possible, or not economic, to inbuilt secure an associated
+    signalling route (i.e. when a single associated signalling link applies),
+    such a route could rely on a quasiassociated signalling backup for its
+    security.
+
+(b) A quasiassociated signalling backup for a regular quasiassociated signal-
+    ling route, the associated signalling constituent routes of the regular
+    route not being inbuilt secured.
+
+------------------------[See fig11-8.pcx in tadxf005]------------------------
+Fig. 11.8 Bell system c.c.s network configuration
+-----------------------------------------------------------------------------
+
+(a) is liable to arise in practice. (b) introduces circuit labelling problems,
+and routing complexities could arise should the quasiassociated backup be a
+regular quasiassociated signalling route in anothcr relationship, with
+possible further quasiassociated backup. While not preferred, (b) could be
+applied under strictly controlled conditions within the circuit labelling
+capacity applying.
+
+  It is thought that the associated and quasiassociated signalling modes would
+be suitable for most national networks. Secured quasiassociated signalling
+could be applied in particular situations where associated signalling is not
+justified, or as in (a) above.
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.7.2 Load sharing
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  The technique of distributing the total module signalling traffic over the
+individual links is termed 'load sharing', it being understood that all the
+links, regular and backup, carry signalling traffic in normal operation.
+
+There are two main categories of load-sharing mode:
+
+(i) random mode
+    This may be either:
+    (a) messages distributed randomly on the links of the module
+    (b) all messages for a call transferred over the same signalling link,
+        which link is randomly selected from the links in the module.
+
+(ii) Predetermined mode
+     This may be either
+     (c) predetermined on a call basis. There are a number of variants of this
+         basic approach, but all aim in principle that all messages for a call
+         be transferred over the same signalling link. There is little dif-
+         ference between this and (b) above.
+     (d) predetermined on a speech circuit basis. All the speech circuits
+         served by a module are distributed over all the signalling links in
+         the module on a predetermined basis in normal operation. The circuit
+         labels of a number of speech circuits are allocated to a particular
+         link, and all messages for all calls carried by the allocated speech
+         circuits are transferred over the same signalling link.
+
+  With (a), SUs or messages may get out of correct sequence on message
+transfer. With (b)-(d), all messages for a particular call are transferred
+over the same signalling link, which has potential to avoid out of sequence
+due to the load-sharing technique. SUs or messages may get out of correct
+sequence with certain error-control methods (e.g. system 6). With such
+methods, there is no compelling reason to adopt load-sharing techniques which
+aim to avoid out of sequence. Thus any one of (a)-(d) could be applied. With
+error control methods purposely designed to avoid out of sequence on message
+transfer, which is preferred, it would be illogical to adopt load-sharing
+technique (a), and here it is considered that the choice rests between (b)
+and (d).
+
+Technique (b) has merits:
+
+(i)   The warking links in a module would automatically take the load on
+      signalling link(s) failure. Similarly when failed link(s) are restored
+      to service.
+(ii)  Would automatically achieve the limit of one signalling link taking the
+      whole load of a module.
+(iii) Avoids a predetermined nominated link for security.
+(iv)  Meets the preferred principles of module signalling link security as
+      discussed without requiring procedures beyond busying out failed link(s)
+      and automatically diverting traffic from these link(s).
+(v)   Avoids a set program to allocate speech circuits to signalling links on
+      a predetermined basis, which also avoids updating the allocation when
+      speech circuit groups are extended.
+(vi)  Has the possibility of equalised distribution of signalling load on the
+      working links in a module on signalling link(s) failure.
+
+On the other hand (b):
+
+(i)  Necessitates an arrangement to ensure that all messages for a call are
+     transferred over a randomly selected signalling link. This could be some-
+     what complex with certain approaches to processor system architecture.
+(ii) On signalling link failure, requires a link to be nominated for the
+     retrieval procedure if messages are to maintain correct sequence, with
+     consequent complexity. For practical arrangements, it is often preferred
+     to avoid nominated retrieval links, and retrieval on the link changed
+     over to is considered preferable.
+
+The features and merits of(d) are:
+
+(i)   Changeover to another link in a module on signalling link failure. The
+      circuit labels of a failed link are transferred in total to another link
+      (or alternatively, distributed over the remaining working links).
+(ii)  On restoration of a failed link back to service, all the circuit labels
+      allocated to the failed link prior to the failure are transferred back.
+(iii) Would automatically achieve, in potential, the limit of one signalling
+      link carrying the whole module load on multilink failure.
+(iv)  Avoids requiring a nominated link for retrieval.
+(v)   Meets the principles of module signalling link security as discussed
+      under the control of the changeover and changeback procedures.
+(vi)  Avoids any further arrangement in the processor to ensure that all
+      messages for a call are transferred over the same signalling link. This
+      feature is assured by the predetermined allocation of circuits labels
+      to signalling links, which arrangement may be more capable of accom-
+      modating various approaches to processor function system architecture.
+
+On the other hand (d):
+
+(i)  Necessitates an administrative procedure to allocate speech circuits to
+     particular signalling links and to update the allocation on speech
+     circuit group extension.
+(ii) Compared with random selection, could result in a signalling link in a
+     module carrying a significantly heavier load than others on signalling
+     link(s) failure when all the circuit labels of a failed link are trans-
+     ferred to one working link. Depending upon the signalling load in normal
+     operation, this could result in queueing delay problems in the abnormal
+     condition of signalling link(s) failure, particularly at slow signalling
+     bit rates.
+
+  On balanced assessment, there is probably little between load sharing
+techniques (b) and (d) and either could be applied when it is required to
+avoid out of sequence, which is preferred. Should simple arrangements be the
+main consideration, it is thought that this would be achieved by (d) in
+combination with the transfer of all the circuit labels of a failed link to
+one backup link. This could result in a significant increase in queueing
+delay in certain circumstances with certain size signalling modules depending
+upon the extent of multilink failure in a module permitted by the automatic
+security procedures.
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.8 Changeover, retrieval and changeback
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  The changeover, retrieval and changeback procedures consequent on signalling
+link failure are detailed and the principle only will be discussed. At this
+time, the procedures for international system 6 are the only ones available.
+These could form the basis for procedures required for any future c.c.s.
+system(s). Administrations are free to adopt the CCITT international proce-
+dures for national application of international c.c.s. system(s), or, if 
+desired, could adopt procedures more suited to the conditions of individual 
+national networks, which approach would not disturb the basic specification of
+international c.c.s system(s).
+
+Changeover
+
+  Signalling traffic is diverted from a regular link to an alternative signal-
+ling backup when the regular link is recognised as having failed. Failure may 
+be caused by (Section 11.5.3):
+
+(a) loss ot the analogue data carrier or loss of the digital frame alignment
+(b) continuous failure of SUs (or messages) to check correctly
+(c) unacceptable intermittent failure of SUs, or messages, to check correctly
+(d) loss of relevant synchronism for a certain duration.
+
+  Each signalling terminal in c.c.s. is equipped with appropriate monitoring
+equipment to recognise failure due to any one of the above causes. In system
+6, the error rate monitor initiates changeover when:
+
+(i) X consecutive SUs are received in error for 350ms,
+
+ or
+
+(ii) 2% of SUs are received in error out of Y SUs received.
+
+X and Y are assessed as follows for the telephony service:
+
+
+    Signalling bit rate                    Number of SUs
+       (kbit/s)                          X              Y
+  -----------------------------------------------------------
+         2.4                            31+/-1         2500
+         4                              50             4200
+        56                             700            60000
+        64                             800            68500
+
+  On detection of failure, each terminal starts sending 'faulty link infor-
+mation' of appropriate form on the link just failed. Typically, in system 6,
+this could consist of alternate blocks of 11 changeover and 11 SYU signals
+plus ACU. If the terminal has lost synchronism, the normal synchronising
+procedure is started. Where applicable, the synchronising procedure on the
+backup signalling link is initiated.
+
+
+retrieval
+
+  Messages and acknowledgments may be lost in the transfer process on signal-
+ling link failure. Thus a terminal would not be aware whether or not all or
+some of the messages in the retransmission store had been received correct at
+the receive terminal. Retrieval is the process of recovering from this situa-
+tion to avoid loss of messages on changeover. For simplicity, and also to
+avoid out of sequence messages, retrieval should be performed over one link,
+and for further simplicity, preferably over the backup link.
+
+There are a number of retrieval possibilities, typically:
+
+(a) Retransmission of all the contents of the retransmission store. This could
+    result in duplicated messages, as arises in system 6.
+
+(b) Retransmission only of messages known to have been received corrupted.
+    This requires the receive terminal to inform the transmit terminal, by
+    backward signalling over the retrieval link, as to the last message
+    received correct over the failed link should cyclic retransmission be used
+    (not in system 6).
+
+(c) With SU (or message) sequence numbering, the retrieval retransmission
+    carrying its original sequence numbering, (a) or (b) could apply and
+    retrieval start and stop indicators would be necessary if retrieval is on
+    a working link due to the differences in number sequences on the failed
+    and backup links.
+
+(d) With sequence numbering, the retrieval retransmission carrying the
+    sequence numbering of the working backup link over which retrieval is
+    performed. Assuming SU (or message) sequence numbering, (b) would apply
+    and retrieval start and stop indicators would not be essential if
+    retrieval is on a message, LSU, or MUM basis. A start retrieval indicator
+    could be of value if retrieval is on an SU basis to cover the situation of
+    a partial MUM having been received correct over the failed link.
+
+ There are other possibilities. The retrieval method adopted would depend upon
+preferences and circumstances.
+
+
+Changeback
+
+  Once the backup facility has been taken into service, the regular signalling
+link should not be brought back into service for signalling traffic until it
+has been checked to give satisfactory performance for a period of about one
+minute. The proving period begins when either terminal has regained synchro-
+nism on the failed link.
+
+  End-of-failure monitoring equipment is provided at each terminal. In system
+6, the failed link is not restored to service until a SU error rate of 0.2% or
+less has been achieved in the proving period. In the telephony service, the
+end-of-failure is assessed to have been achieved when not more than:
+
+         10 SUs at  2.4 kbit/s
+         16 SUs at  4 kbit/s
+        240 SUs at 56 kbit/s
+        266 SUs at 64 kbit/s
+
+are received in error in the one minute proving period.
+
+  On end-of-failure recognised, a terminal will cease sending faulty link
+information. In system 6:
+
+(a) The faulty link information is replaced by continuous blocks of SYUs
+    (plus ACUs).
+
+(b) To return to the regular link, an exchange, say A, initiating the change-
+    back sends two load transfer signals on the regular link. Exchange B
+    responds with a load transfer acknowledgment signal on the regular link
+    and transfers signalling traffic from the backup to the regular link.
+    Receipt of one load transfer acknowledgment causes A to transfer signal-
+    ling traffic from the backup to the regular link.
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.9 Continuity check of the speech path
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  Unlike speech path signalling, c.c.s. does not monitor the speech path and
+other arrangements must be made to assure speech path continuity (line plus
+switching), otherwise there could be possibility of a connection being set up
+on the signalling path but without the speech transmission facility. Speech
+path continuity assurance may be by:
+
+(a) a per-call continuity check, or alternatively
+
+(b) a statistical method of routine testing of idle transmission circuits and
+    idle switching paths (and no per-call continuity check).
+
+  The per-call continuity check is made prior to the conversation. It may be
+loop link-by-link or end-to-end and consists of the transmission and detec-
+tion of receipt of an audio frequency on the speech path. Typically, in
+system 6, the per-call check is line loop link-by-link with a 2000Hz check
+tone frequency. A separate cross-office check is made.
+
+  To admit the possibility of 2-wire circuits, which may arise in national
+networks, the per-call check could consist of different forward and backward
+check frequencies.
+
+  On 'check not OK' a repeat attempt is made to set up the call on an alter-
+native speech path. To cater for intermittent faults, the original speech
+path is rechecked and passed to maintenance attention if still found to be
+faulty.
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.10 Signal priority
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  Transmission (queueing) delays can arise with c.c.s. As c.c.s. may have a
+considerable signal transfer requirement, embracing a number of different
+services and signals within the different service categories, delay to time
+sensitive signals or to time sensitive service categories could give rise to
+system problems and complexity. For this reason, some signals and some
+categories may be given priority over others for transfer purposes and the
+processor function is so programmed. The priority program will depend upon
+the characteristics of the c.c.s. system, typically, with representative
+loadings a high speed 64 kbit/s c.c.s. system would transfer information at a
+faster rate and the queueing delay would tend to be less, relative to a slower
+speed system, and thus the extent of the priority requirement would tend to be
+less. As the arrangements for signal priority complicate c.c.s., it is logical
+that all efforts be made to minimise the priority requirement.
+
+  The following priority rules apply for international system 6:
+
+(a) ACUs (12th position signal unit of each block) have absolute priority for
+    emission at their fixed predetermined position.
+(b) Faulty link information has priority over all signals except ACUs.
+(c) The answer signal has priority over other waiting telephone signals and
+    signalling system control signals except those in (a) and (b).
+(d) All other telephone signals (LSUs and MUMs) and all other system control
+    signals, except synchronisation signal units, have priority over manage-
+    ment or other signals concerned with the bulk handling of information.
+(e) Any signal which is to be retransmitted will take precedence over other
+    waiting signals in the same priority category.
+(f) Management signals have priority over synchronisation signal units.
+(g) Synchronisation signal units have no priority.
+
+  It is the intention to minimise the priority requirement in the new opti-
+mised digital 64 kbit/s c.c.s. system. Typically, it could be reasoned with
+some logic that due to the high speed of information transfer, there would be
+no need to give priority to the answer signal. In slower systems, answer
+signal priority has been considered desirable to avoid speech clipping due to
+speech transmission path line splits on interworking v.f. signalling systems.
+Signal priority may be associated with the 'break-in' feature, which allows a
+priority message to break into the emission of a lower priority MUM to avoid
+delay in the emission of the higher priority message. The following break-in
+rules apply for international system 6:
+
+(a) Potential for a priority LSU to break into a MUM is provided for in the
+    specification of the system, but initially this will not apply except for
+    ACUs.
+
+(b) All telephone signals to have potential to break into a network management
+    MUM or other MUMs concerned with the handling of bulk information.
+
+  The break-in feature gives rise to significant complication in c.c.s.
+systems and it is not proposed to adopt it for the new optimised 64 kbit/s
+digital c.c.s. system. To facilitate this, the maximum bit length of messages
+in the new system may well require to be limited.
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.11 CCITT No. 7 optimised digital common channel signalling system
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.11.1 Basic concepts
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  The pioneer CCITT 6 c.c.s. system was produced primarily for analogue appli-
+cation, the digital versions included in the specification being produced by
+subsequent study, but retaining the basic features of the analogue system. In
+the result, system 6 has limitations in the digital environment. In the back-
+ground of experience gained in the production of system 6, and with recogni-
+tion of the evolution of many networks from analogue to digital (integrated
+switching and transmission), the CCITT is presently engaged on the specifi-
+cation of a new c.c.s. system. This system will be optimised for the 64 kbit/s
+digital environment, will include other digital signalling bit rate(s), and
+analogue bit rate(s). Particular regard is being paid to national network
+requirements, and as it is aimed to produce a simpler and more flexible system
+than 6, a main desire for national application, there is little doubt that
+many administrations, programming c.c.s. application, will adopt this new
+system for their national networks in the s.p.c. digital (or analogue)
+environment. This CCITT study is not yet concluded, but it is clear from the
+approaches emerging that many features of the new system will be different
+from those of system 6, which, in part, reflects further knowledge in the
+c.c.s. art since system 6 was specified.
+
+  The c.c.s. technique has significant potential for signalling rationalisa-
+tion and an objective of the new system is to use the same basic system for
+international, regional and national for a variety of services, digital and
+analogue. This would allow the potential, from the signalling aspect, for
+dedicated digital service networks (telephony, data, etc.) to evolve to a
+single multipurpose network, should this ever be a future requirement. While
+the new system will be optimised for digital, there is little doubt that it
+will be a superior system to 6 for analogue, as well as for digital. UK
+pioneered much of the new system (CCITT No. 7) and has adopted it for its
+System X digital network.
+
+  Rationalisation implies a flexible signalling system and it is proposed that
+the new system be based on a number of concepts to achieve this (Fig. 11.9).
+These concepts cater for various services and applications without mutual
+interaction, and give potential to cater for future requirements not yet
+defined.
+
+  Commonality concept: Options incorporated in the same signalling system
+would permit reasonably optimum arrangements for different services and appli-
+cations (international, regional and national) of the same service. A single
+c.c.s. system for various services within a particular network could also be
+realised by appropriate choice of options incorporated. Desired simplicity of
+national network c.c.s. is an example of the merit of the option approach, as
+here advantage could be taken of national network conditions, not present in,
+say, international, which could contribute to signalling simplicity. Typical
+options concern the signalling bit rate, the error control method, and message
+bit length, formats and codings for different services.
+
+  Functional concept: A functional concept embracing processor function, user
+function, and message transfer function, allows change to any one function
+without significant impact on the others. It involves, for example, flexible
+arrangements in the message transfer function to enable an error control
+option to be exercised without involving the processor. This implies that the
+error control should be associated with the signalling terminals, the
+processor never being involved.
+
+  User subsystem concept: This is part of the functional concept. User sub-
+systems (separated parts of the processor) are functional parts which control
+the message requirements for particular services, typically, telephony call
+processing, data call processing, network management, network maintenance,
+centralised call accounting, etc. Such subsystems (Fig. 11.9) may be regarded
+as being the service dependent parts of the signalling system. They define
+message, signalling and call control procedures, and the function and coding
+of the signalling information for different services. Each user subsystem
+module deals with a particular service, and the concept allows the system to
+evolve in that additional services may be catered for by the addition of
+appropriate subsystem modules.
+
+  The message transfer function (the c.c.s. system) allows user subsystem
+modules held on different processors to communicate with each other by means
+of addressed messages. This processor subsystem addressing (type of service)
+directs the message to the appropriate subsystem module, the subsystem
+addressing identifying the service for which the message is intended. Should
+corresponding user subsystems communicate with each other for the interchange
+of information not related to call handling, such messages will be conveyed
+by the message transfer function.
+
+------------------------[See fig11-9.pcx in tadxf005]------------------------
+fig 11.9 Generalised functional arrangements common channel signalling
+         A = Telephony call processing  ---|
+         B = Data call processing          |
+         C = Viewphone                     |->  Typical User Subsystems
+         D = Network Management            |
+         E = Network Maintenance           |
+         F = Call Accounting            ---|
+----------------------------------------------------------------------------
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.11.2 Signalling bit-rate
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  A 64 kbit/s bearer is conveniently available for c.c.s. in 30-channel digi-
+tal transmission, and with a message bit length a multiple of the 8-bit octet,
+the signalling bit rate can be this bearer bit rate. There is no reason to
+depart from this rate for telephony c.c.s., indeed, at this rate the message
+signalling activity will be very light with the speech circuits per c.c.s.
+link loading likely to apply. Commonality c.c.s. for data services introduces
+further considerations as such services wish a faster connection set-up time
+than that usually acceptable for telephony. Relative to telephony, the data
+service may require a greater signalling load in terms of calls per second
+handled per c.c.s. link, which could slow data call connection set-up. Study
+concluded however that signalling bit rates greater than 64 kbit/s would not
+significantly reduce queueing delay, nor connection set-up time in the data
+service, and the new c.c.s. system will be optimised for 64 kbit/s. Optional
+signalling rates 4 kbit/s (for 24-channel digital) and 24 kbit/s (for
+analogue) will be used. Other rates could apply as appropriate (typically
+optional 4.8 kbit/s analogue).
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.11.3 Error control
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  The combination of the error control method and the various consequential
+procedures constitute perhaps the most complex part of c.c.s., and as a simple
+system was desired, the error-control problem was reassessed.
+
+Forward error correction: Here, the receive end performs both error detection
+and correction, and error correcting codes ('Hamming' codes) used, sufficient
+check bits being required to enable the original message to be reconstituted
+on error detected. Retransmission of messages does not arise, and as the
+method has some potential for simple arrangements, the following analysis is
+made in regard to c.c.s.:
+
+(a) It is independent of the propagation time of signalling links.
+(b) The procedure is simple; acknowledgment signalling and sequence
+    numbering of messages not being required.
+(c) Messages cannot get out of correct sequence, nor be duplicated.
+(d) Error correction is reasonably rapid relative to correction by retrans-
+    mission, which has merit on long propagation time signalling links.
+(e) No retransmission store required.
+(f) The automatic changeover procedure is simple and retrieval not required.
+    This, however, is valid only when the possibility of loss of messages is
+    acceptable when diverting signal traffic to an alternative signalling
+    facility.
+
+On the other hand, forward error correction:
+
+(g) Requires far more redundancy in check bits relative to that required for
+    error detection only (or for a given number of check bits it is possible
+    to detect more errors than it is possible to correct). The coding and
+    decoding systems for the check bits are relatively complex.
+(h) Cannot request retransmission of a message which has been error detected
+    but not corrected.
+(j) Complicates the receiving terminal.
+
+The following points are made in the consideration of the above:
+
+(i)   As c.c.s. is error-free for most of the time, penalties (g) and (j) in
+      particular are not justified.
+(ii)  Error-free messages are slowed.
+(iii) In any c.c.s. system there is the need to safeguard against major break-
+      down of a signalling link. Correction by retransmission has a signi-
+      ficant merit relative to forward error correction in that it has an
+      inherent ability to direct signalling traffic to an altemative signal-
+      ling facility without loss of signal information.
+(iv)  With reasonable arrangements, correction by retransmission is superior
+      to forward error correction in both throughput and undetected error
+      rate.
+
+  It was concluded that forward error correction would have limitations in
+c.c.s. application and that correction by retransmission be adopted for the
+new c.c.s. system. This supported a previous conclusion in regard to system 6,
+but not the system 6 errorcontrol method, which would not be suitable for the
+various reasons discussed in Section 11.5.4.
+
+  Guidelines for a preferred error-control method: From the analysis Section
+11.5.4, it is considered that the main guidelines are:
+
+(a) Messages should not get out of correct sequence in any working situations
+    of the error control.
+(b) Duplicated messages should not arise, but if they do they should be detec-
+    ted and dealt with by simple means at the signalling terminal, the
+    processor function never being involved.
+(c) Unnecessary and unrequested retransmissions should not arise.
+(d) The processor function should not be involved in the error control
+    function.
+
+Guideline (d) requires all messages passed from the message transfer
+function to the processor function to be valid in all respects, except for
+errors undetected by the error control. Ideally, to achieve this, the error
+control method itself should be such that neither out of sequence nor dupli-
+cated messages occur, but this may not be conveniently realisable.
+
+  It would be illogical to require a signalling terminal to detect and correct
+for messages in incorrect sequence (a) as this would necessitate a measure of
+reasonableness checking and correction logic at the signalling terminal, to
+complicate the system. It is thought that the errorcontrol method itself
+should be such that out of sequence messages do not occur. With sequence
+numbering (or the equivalent) of messages, it would be a simple matter for a
+signalling terminal to detect for duplicated messages (b) and to discard
+messages already received. Thus, if necessary, duplicated messages could be
+admitted on the message transfer function.
+
+  A philosophy of 'ignoring corruptions' in the error control could eliminate
+both unnecessary and unrequested retransmissions (c). Here, no action is taken
+on error detected, the system merely awaits the receipt of the next error free
+SU (or message) before taking decision as to the appropriate action to be
+taken. With this philosophy:
+
+(a) corrupted SYUs (and corrupted messages which would have been unacceptable
+    if error free) would not cause unnecessary retransmissions.
+
+(b) to eliminate unrequested retransmissions, the acknowledgment indications
+    are required to be in a continuous stream.
+
+  An error-control method based on the above philosophy precludes adoption of
+the system 6 error-control method because of the block transmission and the
+single acknowledgment (ACU).
+
+
+  'Ignore corruptions' error-control method: The error-control method for the
+new CCITT No. 7 c.c.s. system is not yet finalised by the CCITT, but present
+indications are that it will be based on the ignore corruptions philosophy.
+The following is a possible realisation of the philosophy (Fig. 11.10), is
+presented to demonstrate the principle, and should not be regarded as being
+the final agreement in the detail. Basic features are:
+
+(a) Cyclic retransmission on error detected, meaning that the corrupted
+    message SU (or message) and all the message SUs (or messages) following
+    it in the retransmission store are retransmitted, Corrupted SYUs are not
+    corrected and do not cause retransmission.
+(b) Each SU (or message) contains both a forward sequence number (FSN) and a
+    backward sequence number (BSN).
+(c) SYUs transmitted between message SUs (or messages) all carry the same
+    forward sequence number of the next message SU (or message) to be trans-
+    mitted.
+(d) Each SU (or message) contains a forward indicator bit (FIB) and a backward
+    indicator bit (BIB), used to control retransmissions.
+
+  The philosophy may be applied with message SUs (LSUs and constituent SUs of
+MUMs) of fixed bit length or with messages of variable bit length. The FSN,
+BSN, FIB, BIB and check bits are 'housekeeping' bits, concerned with the con-
+trol of message transfer, and are not passed to the processor. Drift problems
+do not arise.
+
+------------------------[See fig11-10.pcx in tadxf005]-----------------------
+Fig. 11.10 Typical realisation ignore corruptions error control
+-----------------------------------------------------------------------------
+
+
+  FSN: Message SUs (or messages) are numbered sequentially to enable the
+correct sequence to be preserved during the message-transfer process, and to
+identify message SUs (or messages) when retransmission is required. The range
+of sequence numbers must be such that a retransmission store never contains
+two message SUs (or messages) bearing the same FSN and reflects the maximum
+number of message SUs (or messages) liable to exist in the error-control loop.
+
+  BSN. The BSN contained in a unit (or message) transmitted from a terminal
+indicates the FSN of the next message SU (or message) that terminal is pre-
+pared to accept. If a terminal has just accepted a message SU (or message)
+with a FSN of n, the next unit (or message) to be transmitted from that ter-
+minal will have a BSN of n + 1. When accompanied by a retransmission request
+(change in polarity of the BIB), the BSN indicates the point in the transmit-
+ted sequence at which the retransmission should start.
+
+  BIB: Is used by a receive terminal to signal back to the transmit terminal
+that a retransmission is required, the request being made by reversing the
+polarity of the next BIB to be transmitted. Once a receive terminal has
+requested a retransmission, no further reversals of polarity are made until
+a new retransmission is required. No action is taken by a terminal when a
+received unit (or message) is corrupted. The system waits (ignores corrupt-
+ions) until an error-free unit (or message) is received. The polarity of the
+BIB is reversed to request retransmission when the FSN of this error free
+received unit (or message) is not one greater (cyclically) than the last
+correctly received, and accepted, message SU (or message). After requesting
+a retransmission, a terminal takes no further action until a change in polari-
+ty of a received FIB indicates the retransmission, the terminal then rever-
+ting to normal operation.
+
+  FIB: The polarity of the FIB in any particular unit (or message) transmitted
+by a terminal is always the same as that of the BIB contained in the last unit
+(or message) correctly received by that terminal. Since a change of polarity
+of the BIB is used to request a retransmission, a change of polarity of the
+FIB will indicate that the retransmission is taking place. The polarity of the
+FIB is reversed when a retransmission is started, and after a reversal the
+polarity is unchanged until the next retransmission is started. The FIB and
+BIB thus perform a 'handshaking' procedure.
+
+Operation
+
+  Information is transferred in the two directions of a signalling link, but
+as the two directions are independent from the error-control point of view,
+it is only necessary to consider one of them (A-B).
+
+(a) Error-free: A message SU (or message) is accepted at B provided it has a
+    FSN which is one greater (cyclically) than the previous one accepted.
+    The BSNs returned to A signal the progress made in the process of accep-
+    ting correct message SUs (or messages). When received at A they enable the
+    message SUs (or message) to be cleared from the retransmission store.
+
+(b) Error: The corrupted unit (or message) is ignored. The system waits the
+    receipt of the next error free unit (or message), the FSN of which will
+    serve to indicate whether or not the corruption was a message SU (or
+    message) or a SYU. If the FSN is the next in the sequence expected by B,
+    the corruption must have been a SYU, in which case no further action is
+    necessary and normal operation applies. The receipt of any other FSN
+    serves to indicate that a message SU (or message) was corrupted and a
+    retransmission necessary. B requests this by reversing the polarity of
+    the BIBs sent back B to A and does not accept further message SUs (or
+    messages) until it has detected that a retransmission has taken place.
+
+  The retransmission takes place when the BlB polarity is reversed and the
+reversal recognised at A, the first message SU (or message) of the retrans-
+mission being identified by the latest BSN received at A.  The fact that the
+retransmission has taken place is indicated by reversed polarity of the FIBs
+transmitted A to B, commencing with the first message SU (or message) of the
+retransmission. B detects this FIB reversal to recognise the retransmission.
+If there are no further errors, the first message SU (or message) of the
+retransmission is accepted by B, which then reverts to normal operation.
+
+  If the first one (or more) message SU (or message) of the retransmission is
+corrupted, when B eventually receives an error free SU (or message) it will
+detect from the FIB reversal that a retransmission has taken place, but the
+FSN will be different from that B will accept. A second request for retrans-
+mission is made by again reversing the polarity of the BIBs sent back. B then
+rejects all further message SUs (or messages) until the next retransmission
+is detected by the reversals of the FIBs received.
+
+Noncompelled error-control mode
+
+  The ignore-corruptions error control as described above is an example of
+this mode, messages being transmitted in a continuous stream. A number of
+messages may be present on the signalling link at any one time and the error-
+control method is required to cater for this, which accounts for the sequence
+numbering in the example described. The mode is not dependent upon the magni-
+tude of the error control loop delay. With noncompelled, the c.c.s. link will
+be very lightly loaded at high signalling bit rates in the telephony service,
+which gives possibility of repeat transmission of the information (typically
+by consecutive multiple transmission of a message SU (or message), or by
+repeated transmissions of the contents of the retransmission store) to mini-
+mize, but not replace, correction by retransmission.
+
+Compelled error-control mode
+
+  Here, one message only is transmitted at a time, a following message not
+being transmitted until the previous message had been correctly received and
+the transmit end is aware of this, either implicitly or explicitly. The error
+control loop delay of the signalling link is occupied for the complete trans-
+mission of a single message, and relative to noncompelled, the c.c.s. link
+occupancy is significantly increased for a given signalling requirement.
+Compelled signalling is interleaved in the two directions. The mode reduces
+the number of speech circuits which may be served per c.c.s. link relative to
+noncompelled under otherwise equal conditions, the loading being dependent
+upon the error control loop delay and thus on the propagation time of the
+signalling link.
+
+  The compelled mode has potential for simplicity (one message only dealt with
+at a time, no sequence numbering, retransmission store limited to one
+message), and has possibility of being optional to noncompelled in the common-
+ality concept of the c.c.s. system. While the mode may be suitable for the
+telephony service in certain restricted national network conditions, it is not
+thought suitable for the switched circuit data service in any conditions due
+to the excessive queueing delays which would arise, the data service having a
+high proportion of short duration calls, with consequential high c.c.s. link
+signalling requirement. It is thought that the application flexibility merit
+of the noncompelled mode in any service may well outweigh any merit which may
+be realisable with the compelled mode in restricted application.
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+11.11.4 Message structure
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+  The message size, formatting and codings for the new No. 7 system are not
+yet finalised by the CCITT. As the system is to be optimised for 64 kbit/s,
+and thus a c.c.s. link very lightly loaded in the telephony service, the bit
+length of the constituent bit fields of a message, and the total message bit
+length, can be reasonably long, and significantly longer than those in system
+6, without penalty. The flexibility of the new c.c.s. system will permit,
+optionally, messages of fixed bit-length SUs, or messages of variable bit-
+length, as desired. For compatibility with the digital environment it is
+logical that the message length should be a multiple of the 8-bit Octet, and
+to simplify the processing procedures, a byte structure adopted.
+
+
+
+
+
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+References
+=ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ=
+
+1. LUCAS, P., LEGARE, R., and DONDOUX, J.: 'Principes nouveaux, pour la
+   signalisation telephonique', Commun. & Electron., 1967, 18, pp. 7-23
+2. CCITT: Green Book, 6, Pt. 3, Recommendations Q252-295 'Specification of
+   signalling system No. 6', ITU, Geneva, 1973, pp. 427-521
+3. CREW, G.L.: 'CCITT system No. 6 - a common channel signalling scheme',
+   Telecommun. J. Australia, 1968, 18, 3, pp. 251-256
+4. AKIMARU, H., TEKEDA, H., and ABU, M.: 'Common channel signalling system
+   for DEX2 electronic switching system', Rev. Electr. Commun. Lab. (Japan),
+   1969, 17, p. 11
+5. DAHLBOM, C.A.: 'Common channel signalling - a new flexible interoffice
+   signalling technique'. lEEE International Switching Symposium Record,
+   Boston, USA, 1972
+6. PETERSON, W.W., and BROWN, D.T.: 'Cyclic codes for error detection', Proc.
+   Inst. Radio Eng., 1961, 49, Pt. 1, pp. 228-235
+7. CCITT: Green Book, 6, Pt. 3, Recommendation Q277 'System No. 6 error
+   control', ITU, Geneva, 1973, pp. 497-499
+8. CCITT: Green Book, 6, Pt. 3, Recommendation Q267 'Unreasonable and super-
+   fluous messages', ITU, Geneva, 1973, pp, 477-480
+9. CCITT: Green Book, 6, Pt. 3, Recommendation Q274 'System No. 6 modulation
+   method and modem requrement~', ITU, Geneva, 1973, pp. 491-495
+10.CCITT: Green Book, 6, Pt. 3, Recommendations Q291 and Q293 'Security
+   arrangements', ITU, Geneva, 1973, pp. 508-510 and 512-518
+11.CCITT: Green Book,6, Pt. 3, Recommendation Q271 'System No. 6 continuity
+   check of the speech path', ITU, Geneva, 1973, pp. 484-487
+12.WELCH, S.: 'Common channel signalling - a flexible approach'. International
+   Switching Symposium Record, Kyoto, Japan, 1976
+13.HAMMING, R.W.: 'Error detecting and error correcting codes', Bell Syst.
+   Tech. J., 1950, 29, p. 147
+
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ Remember Where You Saw This Phile First ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÄÄÄÄÄÄÄÄ[=] ARRESTED DEVELOPMENT +31.77.547477 The Netherlands [=]ÄÄÄÄÄÄÄ
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ

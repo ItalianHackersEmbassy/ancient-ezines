@@ -1,0 +1,16 @@
+
+to unpack file:
+
+                lea     si, packed
+                lea     di, unpacked
+
+@@1:            lodsw
+                xchg    cx, ax
+                rep     movsb
+                lodsw
+                xchg    cx, ax
+                jcxz    @@2
+                lodsb
+                rep     stosb
+                jmp     @@1
+@@2:
