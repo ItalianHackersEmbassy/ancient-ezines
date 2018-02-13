@@ -1,0 +1,238 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Siamo o non siamo scannisti ?</title>
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF">
+
+<pre>                        SIAMO O NON SIAMO SCANNISTI
+                                 by NeGMaN</pre>
+
+<pre>      ________________________________________________________________
+     |                                                                |
+     |                                                                |
+     |  DISCLAIMER: Tutte le info descritte in questo articolo hanno  |
+     |               uno scopo puramente informativo.                 |
+     |               L'autore declina da ogni responsabilita' per     |
+     |               eventuali danni a cose o a persone causati       |
+     |               dall'utilizzo improprio di tali info.            |
+     |                                                                |
+     |                                                    NeGMaN      |
+     |________________________________________________________________|        
+   
+
+</pre>
+
+<pre>   PREMESSA:  Questo articolo e' stato scritto secondo l'etica che
+              UnDeR CoStRuCtIoN si e'prefissata di seguire, ossia
+              la possibilita' di far avvicinare all'underground
+              digitale tutti coloro che ne fossero interessati,
+              senza creare nessun tipo di barriera.</pre>
+
+<pre>                 REMEMBER: LA CONOSCENZA E' DI TUTTI
+</pre>
+
+<pre>   Hi boy, dopo lunghe ore di mIRCate, mi sono deciso a scrivere 
+   qualcosina sul WaRdIaLiNg.</pre>
+
+<pre>   La prima volta che ho sentito qualcosa del genere e' stato nel
+   1983, con l'uscita del film War Games. Il protagonista del film
+   non faceva altro che far chiamare al proprio computer una miriade
+   di numeri telefonici con la speranza di riuscire a beccare il numero
+   di una famosa software-house, per potersi scaricare dei demo.</pre>
+
+<pre>   Logicamente quello era solo un film, ma proprio grazie a quel film
+   che in Italia si inizio' a parlare di wardialing. Infatti ricordo che
+   proprio in quegli anni parti' in Italia la commercializzazione dei
+   computer da parte della Commodore (VIC20 e C64), e successivamente
+   la vendita dell' Adattore Telematico 6499 a 300 baud.</pre>
+
+<pre>   Cosi' anche in Italia si inizio' a fare del Wardialing con dei
+   programmini autoprodotti che si riuscivano a trovare in qualche
+   rarissima bbs. E' immininente pensare che a quei tempi il wardialing
+   era anche associato a qualche truffa che si compieva ai danni della SIP.
+   Mentre invece con la nascita dei green (167 per intenderci), le cose
+   sono un po' cambiate. Bisogna certo dire che come al solito l'Italia e'
+   un paese che dorme un po' troppo, in quanto negli USA i cosidetti numeri
+   non-charge fecero la comparsa circa 10 anni prima....:))
+</pre>
+
+<pre>  In Italia, con la diffusione dei gr33n, il wardialing ha trovato terreno
+  fertile e oggi si possono trovare in rete tantissimi programmi che
+  permettono ai nostri computer di scannare per interi giorni.
+  Io personalmente ho una predilizione per il ToneLoc, un prg molto
+  flessibile e facilmente adattabile a qualsiaisi situazione.
+  
+</pre>
+
+<pre>                                 TONELOC</pre>
+
+<pre>  La prima cosa da fare sarbbe quella di stampare (una volta scompattato il
+  file TL110.zip) i file tl-user.doc e tl-ref.doc , file importantissimi
+  per capire il perfetto funzionamento del ToneLoc.</pre>
+
+<pre>  Si passa poi alla configurazione del prg, attraverso il file tlcfg.exe
+  Tralasciando le configurazioni standard del programma (Modem, Init String,
+  Com, etc.), mi soffermerei soprattutto sul menu' ScanOptions il quale
+  presenta alcune voci importantissime:</pre>
+
+<pre>  - Between-call-Delay : si va ad inserire il tempo in millisecondi che il
+                         ToneLoc aspetta prima di effettuare un' altra
+                         chiamata.</pre>
+
+<pre>          Questo valore e' molto importante perche' permette di adattare
+          il ToneLoc ai diversi modem, anche quelli piu' datati. Infatti
+          con quest'ultimi un valore &gt;600 va piu' che bene.</pre>
+
+<pre>  - Wait Delay : Il valore che andremo a d inserire qui  ci permette di
+                stabilire per quanto tempo (in millisecondi) il Toneloc
+                aspettera', una volta ricevuto un carrier o un tone ,
+                prima di riagganciare e passare alla prossima chiamata.</pre>
+
+<pre>           Anche qui e' consigliabile immettere un valore &gt;30000 se si
+           vuole effettuare uno scanning approfondito, oppure per un
+           lavoro piu' veloce un 20000 andrebbe benissimo.
+</pre>
+
+<pre>  - Scan For : Se volete ciullare quello che vi interessa maggiormente
+               settate questo valore ad 1 :))</pre>
+
+<pre>  - Nudge String : Ci permette di stabilire la stringa che il ns computer
+                   mandera' al momento della connessione ad un computer
+                   remoto.</pre>
+
+<pre>           Questo forse e' il settaggio piu' importante del TonLoc
+           per ottenere i migliori risultati.</pre>
+
+<pre>           Ci sono alcuni computer che una volta chiamati, aspettano
+           l'invio di alcuni caratteri per poter poi rispondere.
+           Con questa stringa andremo a settare quei caratteri da sendare
+           al computer remoto, per poi avere una risposta.</pre>
+
+<pre>           Ricordate che se non viene sendato il carattere o i caratteri
+           esatti, il computer remoto non vi rispondera' mai, e nel file
+           di log trovere una situazione simile:</pre>
+
+<pre>              08-Mar-97 13:48:51 167xxxxxx C: CONNECT 57600
+               </pre>
+
+<pre>              &lt;*CARRIER LOST (11 sec.)*&gt;</pre>
+
+<pre>           Come si vede in questo esempio la connessione e' stata persa
+           dopo 11 secondi proprio perche' la stringa sendata dal ns
+           computer non e' stata accettata dal computer remoto.</pre>
+
+<pre>           In questo caso allora il lavoro diventa' piu' difficile poiche'
+           bisogna fare diversi tentativi per scoprire &quot;cosa&quot; attende il
+           computer remoto per attivare la connessione.
+</pre>
+
+<pre>  In quest'altro esempio si puo' notare invece come il computer remoto
+  ha attivato la connessione utilizzando questa stringa:</pre>
+
+<pre>            Nudge String: ~~|||~~</pre>
+
+<pre>                 ~   mezzo secondo di ritardo prima di sendare il
+                     resto della stringa
+                 |   senda un  [ENTER] al pc remoto
+
+</pre>
+
+<pre>               10-Mar-97 16:14:04 16701xxxx C: CONNECT 57600
+</pre>
+
+<pre>              _________________/\___ __  __     __  __  __
+             _________________/\___  /  /_  /  /_  /   / / /|/|
+            _________________/\___  /  /_  /_ /_  /_  /_/ /  /
+           _________________/\_________________________
+                                                     ITALIA</pre>
+
+<pre>              ----------------------------------------------
+             |                                              |\
+             |                   CISCO 2504                 | |
+             |        Cliente:  Christian Dior              | |
+             |           Sede:      PISA                    | |
+             |                                        by LT | |
+              ----------------------------------------------  |
+               \_____________________________________________\|
+         
+
+</pre>
+
+<pre>         !!!! ATTENZIONE: Ogni accesso non autorizzato e' proibito !!!!
+             !!!! WARNING: Unauthorized access is prohibited !!!!
+
+</pre>
+
+<pre>User Access Verification</pre>
+
+<pre>Username: 
+
+</pre>
+
+<pre>  C'e' pero' da considerare che non e' sempre cosi' facile, che un computer
+  ci risponda accettando un semplice [ENTER].
+  Nella maggior parte dei casi bisogna invece sendare diversi caratteri
+  prima che la connessione sia attivata. </pre>
+
+<pre>                      
+                        ALCUNI ESEMPI DI NUDGE STRING
+</pre>
+
+<pre>            Nudge String: ~~\\~~|</pre>
+
+<pre>            Nudge String: ~~~...~~~|</pre>
+
+<pre>            Nudge String: ~~^q~~
+
+</pre>
+
+<pre> Come si puo' notare ci vuole un po' di &quot;fantasia&quot; e il GIOCO e' fatto !!!!!</pre>
+
+<pre>-----------------------------------------------------------------------------</pre>
+
+<pre>              CONSIDERAZIONI SULLA LEGALITA' DEL WARDIALING</pre>
+
+<pre>  Sulla legalita' o meno del wardialing, ci sono da fare diverse
+  considerazioni:</pre>
+
+<pre>  - da un punto di vista tecnico, nessuna legge vieta la possibilita'
+    di poter chiamare 1000 numeri al giorno, ne tantomeno la telekom lo puo'
+    impedire. Questo quindi dovrebbe valere anche per i gr33n i quali sono
+    dei numeri che la telekozz pubblica annualmente, quindi niente
+    di riservato.
+    Un consiglio, andatevi a spulciare per bene quel manualetto che vi
+    arriva insieme agli elenchi telefonici su tutti i green attivati
+    dalle aziende......ci possono essere delle gradite sorprese...:)))</pre>
+
+<pre>  - Ricordiamoci che pero' l'azienda che gestisce la rete fissa telefonica
+    e' la TeleZozz, nota per la sua taccagine e per il suo motto:
+    &quot; Inculare il prossimo &quot;. Quindi penso che se da qualche tabulato esce
+    fuori un utente che abbia fatto circa 10.000 chiamate a numeri verdi
+    nell'arco di un mese, bene, PENSO che la TelePorc certamente non sta' li
+    a guardare. </pre>
+
+<pre>  - Si potrebbe pero' ANCHE pensare (forse per rincuorarci) che con tutti i
+    casini che TeleKorn ha in casa sua, non si va ad incasinare ancor di piu'
+    cercando di dare la caccia alle streghe. Tranne se pero' forse
+    non si va' ad &quot;attaccare&quot; qualche SUO gr33n.........quindi state molto
+    attenti !!!!
+</pre>
+
+<pre>        &quot; ragazzo non avevi mai capito, che si poteva essere un vero
+            fuorilegge senza neanche uscire dalla tua camera ? &quot;</pre>
+
+<pre>     [Bruce Sterling  &quot; Giro di vite contro gli hacker &quot;  1993 Shake]
+</pre>
+
+<pre>              Buon WaRdIaLiNg  !!!!!
+ 
+</pre>
+
+<pre>                                                           NeGMaN</pre>
+</body>
+</html>

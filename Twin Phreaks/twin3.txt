@@ -1,0 +1,843 @@
+ T w i n   P h r e a k s   I I I :  A l l a   r i c e r c a   d i   S C S I 
+  
+ ( W a r l a m e s )
+
+ ---------------------------------------------------------------------------
+ Testo originale e succesive modifiche: MFB   
+ ---------------------------------------------------------------------------
+ Prima edizione, Luglio 1991
+ Seconda edizione, Novembre 1991
+ TERZA EDIZIONE, Gennaio 1993  Release 3.3.4  File# 364.010.014 MFB
+ ---------------------------------------------------------------------------
+
+ 
+
+ NOTA e DEDICA per la seconda edizione
+
+ - Partorito durante le vacanze estive, il terzo episodio fu completato in
+ occasione di SMAU '91 e dedicato agli hackers  presenti a tale manifesta-
+ zione.  La release su disco fu affidata alle capacita' di coding di Time-
+ scape, ma l'individuo soffriva in quel periodo di una crisi di programma-
+ zione (non sapeva piu' da chi copiare le routines), cosi' il primo sprea-
+ ding ufficiale avvenne con due mesi di ritardo. In ricordo di questo fat-
+ to, la seconda edizione e' dedicata allo stesso  Timescape, mago  del vo-
+ lante e padrone indiscusso dell'autostrada.   (-1-)
+
+
+ DEDICA per la terza edizione
+
+ - Le recenti indagini (Gennaio 1993) hanno finalmente portato all'indivi-
+ duazione del vero male della societa' moderna: gli hackers.
+ Siamo grati agli pseudo-tecnici che finalmente ci hanno aperto gli occhi;
+ oggi  sappiamo che la  disoccupazione, la corruzione, lo spionaggio indu-
+ striale, i sequestri  di persona, la crisi nel Golfo, l'effetto serra, la
+ distrofia muscolare, sono  malesseri causati da un unico terribile  vizio
+ che mina le fondamenta della nostra civilta': il chat.
+ Nell'attesa della reintegrazione della pena di morte come unica possibile
+ arma per stroncare tale  devastante flagello, ci auguriamo che le carceri
+ vengano presto svuotate dei detenuti colpevoli di reati minori (es. stra-
+ ge, associazione mafiosa) per  rinchiudere gli evasori di VideoTel,  vera
+ minaccia al futuro del pianeta. 
+
+
+
+ -------------------------------------------------------------------------
+ CAPITOLO PRIMO
+
+ Le disgrazie non vengono mai sole, a parte Jettero che e' l'eccezione
+ che conferma la regola.
+ -------------------------------------------------------------------------
+
+ - Il  noto proverbio  "Meglio tardi che mai" era  decisamente  fuori  luogo.
+ Quell'animale classificato come  appartenente  alla specie umana solo perche'
+ deambulante in posizione piu' o meno  eretta ed avente  qualche pelo in meno
+ di una scimpanze', era di nuovo in ritardo.  Si trattava  ovviamente di Jet-
+ tero Heller, e nel suo caso  era di rigore  un  "Meglio MAI che TARDI", tut-
+ tavia se l'esserino aveva deciso di tirarci un bidone, perlomeno  che si de-
+ gnasse di giustificare telefonicamente la sua assenza.  Un minimo di rispet-
+ to per gli esseri superiori a lui.
+ Poteva fare  l'infame con le forme  viventi al suo stesso  livello evolutivo
+ (es. i funghi) ma mai con un gruppo di hackers/phreakers.
+ "Forse e'  solo  in casa e  non e' capace  di fare il  numero"  suggeri' The
+ Brain, ma contemporaneamente  alle sue parole  il veicolo di Jettero compar-
+ ve sulla strada.   Quella  mattina gli hackers avevano deciso di festeggiare 
+ il  ritorno  di Burglar  con un party  a casa di SCSI, noto phreaker.  Ormai
+ trasferito da tempo al paese natio, il ragazzo  aveva deciso  di trascorrere
+ qualche giorno a Twin Phreaks; con lui era tornata anche Bettina, famosa per
+ i  fatti legati  alla caduta  del Network e  soprattutto per le astronomiche
+ bollette  telefoniche: solo con le  comunicazioni effettuate dalla fanciulla
+ nell'arco di tre mesi, la Compagnia Telefonica che  aveva la  fortuna di in-
+ cluderla tra gli utenti si era finanziata due nuovi satelliti artificiali.
+ Avevamo discreti  contatti con SCSI (e  ottimi con la  sorella);  inoltre ci
+ eravamo incontrati 6 o 7 volte negli ultimi 12 mesi.
+ - Burglar  era stato  ricondotto a  casa dallo stesso Jettero Heller durante
+ le vacanze di quest'ultimo in Scozia.   Catturato  dal Peschereccio Azzurro,
+ lo  pseudo-hacker  era stato  classificato dalla  Capitaneria di Porto  come
+ unico esemplare  superstite di Balenosaurus Omnivorus, risalente  alla prima
+ meta'  dell'era  Mesozoica, e  venduto come  tale allo zoo  di Londra per la
+ gioia dei bambini che lo nutrivano ad aringhe avariate.
+ Per il  periodo estivo  infine, i  responsabili  del giardino  zoologico gli
+ avevano  garantito delle  tranquille ferie  scozzesi; in realta' si trattava
+ di uno sporco  tentativo per far  quattrini ai  danni dello sventurato, ver-
+ gognosamente spacciato ai turisti come mostro di Loch Ness.
+ Per fortuna Jettero  aveva visto  e provveduto: dietro  l'immane minaccia di
+ eseguire in  mezzo ai villeggianti il suo  ultimo demo, si  era fatto conse-
+ gnare Burglar  dalle autorita'  locali e lo aveva  ricondotto nella sua cit-
+ ta' per la felicita' dei negozianti di generi alimentari.
+ - L'omuncolo  (Jettero  Heller) scese imprecando  dall'auto e cerco' di giu-
+ stificare le  quattro ore  di ritardo:  "Non e' colpa mia se questo catorcio
+ non fa piu' di 40 km/h... il cambio  e' difettoso !  Entrano solo la prima e
+ la seconda, e guardate un po' se non e' vero !".
+ "Quello e' il freno a mano, idiota" sghignazzo' Hydra.
+ Jettero  schiocco' le dita  con l'aria di  chi, finalmente,  avesse scoperto
+ gli ultimi segreti  della guida: in realta' non  distingueva il  carburatore 
+ dalla ruota di scorta.
+ Eppure  quel giorno  erano tutti  allegri:  The Brain,  Timescape, Adventure
+ Seeker... ed  era  presente anche  AMF, fuggito  dal convento-carcere grazie
+ all'intervento di Hydra che l'aveva prelevato attraverso una tubatura.
+ Poveraccio... l'avevano  sorpreso con  una derivazione  abusiva  sulla linea
+ del vicino di casa e  condannato a 12 anni di istituto di rieducazione.   La
+ mattina, per avere la  colazione, doveva  scrivere 600 volte: "Chi ruba alla
+ SIP va punito" sulla tastiera del terminale della sua stanza.
+ Hydra, il boss dei sotterranei e delle cloache, sfoggiava un  vivace costume
+ da bagno color carne in putrefazione. Era reduce dai campionati nationali a-
+ tletico-fognari dove aveva trionfato nel nuoto tra i liquami (200 metri sti-
+ le libero e 100 metri stile topo sguazzante) e nel lancio del gatto morto.
+ Appese al collo, il fanciullo recava le medaglie  conquistate: due tranci di
+ palombo marcio.
+ Nessuno dei presenti avrebbe mai immaginato l'imminente inizio di una  nuova
+ e drammatica avventura.
+ - Jettero ci fece scendere ed inizio' la caccia al parcheggio.   Considerata 
+ la  sua particolare  abilita' di  manovra, non  l'avremmo piu'  rivisto  per
+ almeno tre ore: se  quel loozer  avesse  provato a  guidare l'auto  in pieno 
+ deserto, sarebbe riuscito a sbattere contro l'unico cactus nel raggio di ot-
+ tocento Km. 
+ SCSI apri' il portone e ci fisso' lungamente senza parlare.   Nessun saluto,
+ nessun invito ad entrare. Le sue parole giunsero pesanti come una coscia  di
+ Burglar: "Scusate, chi cercate ?".
+ "SCSI,  piantala di  fare il cretino!" esclamo' Hydra, confermando di essere
+ sempre quello, tra noi, piu' fine e distinto.
+ Bettina comparve sulla porta e rinnovo' l'insensata richiesta  del fratello,
+ poi aggiunse un'ancora piu' assurda frase: "Ma chi siete?".
+ "E piantatela... SCSI, alla tua eta' fai  ancora queste bambinate ?" sbotto'
+ The Brain  visibilmente nervoso, "e  poi tua sorella  mi ha  telefonato ieri
+ per avvertirmi che sareste venuti  qui a Twin Phreaks a  trascorrere un paio
+ di giorni".
+ "A parte  il fatto che io non  ti ho mai telefonato, e  neppure ti  conosco"
+ rispose Bettina "cosa significa 'venuti a Twin Phreaks' ?  Noi abitiamo  qui
+ da quindici anni".
+ La discussione prosegui' per alcuni minuti ed il clima si faceva sempre piu'
+ teso; ormai  era chiaro  che l'infame SCSI aveva un valido motivo per rinne-
+ garci, ma quale?    Solo due settimane prima ci eravamo incontrati a casa di
+ Timescape, ed egli non aveva accennato a problemi.   Una decisione improvvi-
+ sa ?   E poi, perche' cercare di prenderci per Jetteri (= idioti) ? 
+ La nostra  dignita' era sacra, cosi' decidemmo  di andarcene e di vendicarci
+ ferocemente  sui suoi  accounts aperti nelle Banche Dati controllate dal no-
+ stro gruppo (praticamente tutte). Ma una nuova terribile sorpresa ci  atten-
+ deva implacabile.
+ - "Niente... non c'e' niente su SCSI" dichiaro' Pier.
+ "Nessun account, neppure  una vecchia cartella deletata.   Nessuna registra-
+ zione di uploads o downloads !"  confermo'  allarmato  Alphabit "SCSI non e-
+ siste sui nostri sistemi".  La scomparsa  dell'account da  20 boards contem-
+ poraneamente  aveva dell'incredibile: di  centinaia di files  e messaggi non
+ esisteva piu' nulla a suo nome.
+ Chiamai  in aiuto il  mega-archivio di  Pier's Group  BBS, dove  gli  utenti
+ venivano implacabilmente schedati insieme alle  loro risposte al  questiona-
+ rio obbligatorio di ammissione, ma SCSI era  inspiegabilmente, scomparso an-
+ che da quei files  riservati: qualcuno era  riuscito a  violare informazioni
+ segretissime. Da quel momento, tra i SysOps, si scateno' il panico;   Pier's
+ Group ed Abnormal Brains BBS  chiusero le linee di  accesso con il  pretesto
+ di  effettuare un  "inventario files", e  presto altre boards seguirono l'e-
+ sempio: era troppo  pericoloso mantenersi in  attivita' sapendo che qualcuno
+ era impunemente in grado di penetrare nel cuore dei nostri sistemi.
+ Convocai una riunione  straordinaria allo  scopo di decidere il futuro delle
+ telecomunicazioni  private, e l'impressionante  verita'  venne  finalmente a
+ galla.
+ - The Brain  espose la situazione  con comprensibile  angoscia, e dopo pochi
+ minuti Jettero scoppio' in lacrime urlando: "Timescape, che abbiamo fatto!".
+ "Zitto, idiota !"  sibilo' Timescape  impallidendo... ma  ormai la frase era
+ stata recepita da tutti, e tutti ci voltammo verso i due.
+ Nonostante le pressanti richieste, i ragazzi non aprivano bocca.   Dopo aver
+ tentato ogni metodo civile di persuasione, The Brain  inizio' ad  ipotizzare
+ il  passaggio a mezzi  piu' violenti;  H.D. Case propose  all'assemblea  una
+ spaventosa  forma di tortura  per indurre i  due a collaborare, ed il gruppo
+ approvo' nonostante  la sola idea terrorizzasse  l'intera comunita' dei pre-
+ senti: era realmente un metodo disumano, degno del conflitto in Vietnam.
+ Non sapendo se le reazioni di Jettero fossero propriamente umane, la vittima
+ prescelta fu Timescape.   The Brain gli lego' ad una sedia caviglie e polsi,
+ poi ponemmo il  malcapitato in una stanza buia assicurandogli  con scotch da
+ pacchi le cuffie di un Walkman alle orecchie.  Rinchiusa la porta dello sga-
+ buzzino, H.D. Case stese il cavo sino  all'impianto stereo, indosso' un paio
+ di guanti sterili ed una mascherina ed inseri' in uno dei lettori di casset-
+ te un  terrificante nastro  pericoloso solo al  semplice contatto fisico: in
+ esso, Sirio  rivelava  le sue  personali  soluzioni ai piu' noti problemi di
+ phreaking. 
+ Dopo due minuti di trattamento, gli urli strazianti del povero Timescape sa-
+ lirono alle stelle.   Cedette in tre minuti e  venti secondi, sul filo di un
+ arresto cardiaco, racconto' brevemente  il suo segreto, poi fu ricoverato in
+ ospedale e sottoposto a lavanda gastrica, dialisi e  dose massiccia di seda-
+ tivi. 
+
+
+ 
+ ---------------------------------------------------------------------------
+ CAPITOLO SECONDO 
+
+ Il segreto di Lamescape
+ ---------------------------------------------------------------------------
+
+
+ - "Non riportera' lesioni permanenti al cervello?" fu la delicata preoccupa-
+ zione di Hydra "e' un infame, ma come hacker ci serve !".
+ "Se lo meriterebbe davvero con il casino che ha combinato!" sentenzio'  H.D.
+ Case  "e quest'altro non e' da meno..." disse indicando Jettero Heller  che,
+ seduto in disparte, si stava lentamente riprendendo dalla crisi di  angoscia
+ avuta mezz'ora prima.
+ Lo riportammo a casa e proseguimmo li' la nostra riunione.
+ - Burglar stava per entrare in coma da denutrizione.  Negli ultimi otto anni
+ si era fermamente autoconvinto che la sua morte sarebbe sopravvenuta per in-
+ sufficienza alimentare, di conseguenza non aveva smesso un attimo di  temere
+ per il suo futuro, che vedeva sempre appeso ad un filo (o meglio, ad una fi-
+ la di salamini).   Si era anche  iscritto all'AIDO, affinche' i  suoi organi
+ fossero utili alla societa', ma a chi poteva essere trapiantato un fegato di
+ quattordici chili ?  In compenso il cuore era stato destinato alla  SnamPro-
+ getti per essere utilizzato come pompa idrovora adatta al  prosciugamento di
+ paludi.
+ Il racconto di Timescape stava tra l'allucinante ed il fantascientifico,  ma
+ dati i noti precedenti dovevamo purtroppo ritenerlo autentico.
+ Qualche settimana prima dei fatti narrati, Jettero aveva cercato di applica-
+ re le sue  vaste cognizioni informatiche alla vita di tutti i giorni  inter-
+ facciando l'Amiga con la lavatrice. Scopo: ottimizzare i consumi dosando al-
+ la perfezione acqua, detersivo, anticalcare, ammorbidente in relazione a pe-
+ so, tipo e condizioni della biancheria in questione.
+ Risultato: tutto bene fino al primo risciacquo; poi, per ragioni mai chiari-
+ te, l'elettrodomestico aveva scaricato l'acqua sporca nella porta seriale.
+ Da questa  esperienza Jettero aveva ricavato: 1) Un Amiga in corto.    2) La
+ constatazione del  fatto che fabbricarsi le interfacce non era cosa per lui. 
+ Per nulla rassegnato  a chiedere l'intervento di un tecnico specializzato  e
+ terrorizzato dall'idea di una possibile diffusione della notizia nello spie-
+ tato ambiente degli hackers e dei pirati del software, Jettero si era  ripa-
+ rato l'Amiga da solo, dimostrando che le sue facolta' elettroniche (gia' di-
+ sastrosamente  note per i fatti di tanti anni prima) non si erano del  tutto
+ estinte.  
+ All'accensione dell'apparecchio, un fascio luminoso era fuoriuscito dal df1:
+ colpendo  e avvolgendo uno dei  trofei in bella mostra  sulla mensola  della 
+ stanza di Jettero: la targa del Guinnes dei Primati che ufficializzava l'in-
+ gresso  del ragazzo nel suddetto libro dei records, come colui che aveva ri-
+ petuto un anno scolastico per il maggior numero di volte.
+ Ebbene,  l'oggetto era  scomparso  nel nulla per  riapparire poco dopo nello
+ stesso preciso punto da dove sembrava essere svanito.  Un allucinazione ?
+ Jettero  aveva ripetuto piu' volte l'esperimento, sempre con il medesimo ri-
+ sultato.  Solo dopo svariate ore di tentativi con oggetti diversi,  compreso
+ il criceto di Silver Spring, la pazzesca conclusione: assemblando componenti
+ (smontati a casaccio dai vari apparecchi elettrici di casa)  secondo  la sua
+ logica elettronica, che si basava su criteri scientifici quali "il condensa-
+ tore azzurro sta bene collegato al diodo giallo perche' sono due  colori te-
+ neri e delicati", il quasi-cracker aveva trasformato l'Amiga in una macchina
+ in grado di provocare, attraverso il df1:, uno spostamento cronologico. 
+ L'oggetto viaggiava nel passato sino all'epoca in cui  non era  stato ancora
+ creato, e quindi la sua copia temporale nel presente svaniva.
+ Bisogna ricordare a questo punto che Silver Spring, non avendo avuto il  co-
+ raggio  di sfrattare Jettero dal suo appartamento dopo il crollo della Divi-
+ leader, si era rassegnato a convivere con il megalamer; Alla prima occasione
+ pero' si  assentava per un paio  di settimane  a scopo disintossicante,  la-
+ sciando al bimbo completa  liberta' di azione.  Questa volta, si  diceva, si
+ era recato  in India per intervistare i membri  della setta erede dei Thugs,
+ i quali  strangolavano i bambini con  cavetti per stampante per sacrificarli
+ al loro dio, Storm.
+ Jettero  d'altronde si  era ritrovato per le mani un affare troppo grande, e
+ aveva deciso di raccontare la faccenda a Timescape, a cui era rimasto  indi-
+ rettamente legato tramite l'Amiga avuto in prestito durante la lotta  contro
+ il Network e mai restituito. ("Ormai e' contaminato", aveva dichiarato Time-
+ scape).   L'hacker e coder dei Chronos aveva subito compreso che l'invenzio-
+ ne, se adeguatamente  modificata dalle sue  sapienti mani, poteva  rivelarsi
+ infinitamente utile, a patto pero' di mantenere il piu' assoluto segreto.
+ Cosi', in una  decina di  giorni, l'apparecchio nato per caso era stato stu-
+ diato e dotato di indispensabili mezzi di controllo (per scegliere  la  data
+ esatta a cui riferire il salto temporale, per esempio); ora lo strumento ga-
+ rantiva 24 ore esatte di permanenza nel passato.
+ Ce  n'era voluto di tempo usando il computer di Jettero Heller!  Il bimbo si 
+ era fatto  fare una tastiera con le  lettere in ordine  alfabetico, dato che
+ non riusciva a trovare i caratteri su quelle normali.   Adesso invece non li
+ trovava ugualmente  (in fondo sapeva l'alfabeto solo fino alla D) e in  com-
+ penso nessun altro riusciva ad usare quella dannata tastiera da lamer.
+ Poi, il primo  emozionante viaggio.  Jettero aveva insistito per partecipare
+ all'avventura e Timescape, seppur riluttante, aveva dovuto cedere.
+ "Ma non mi combinare casini" aveva ordinato. 
+ Timescape sapeva gia' per quale viscido scopo utilizzare la creatura di Hel-
+ ler: nel 1991 il  giovane SCSI era riuscito, unico nel Paese, ad  utilizzare
+ con successo il sistema di boxaggio di una linea telefonica. Negli anni suc-
+ cessivi, SCSI aveva perfezionato il procedimento riuscendo  ad applicarlo in
+ ogni punto del pianeta; con il suo metodo segreto,  gelosamente conservato e
+ mai rivelato  ad alcuno, SCSI era  divenuto un mito.  Certo, il futuro aveva
+ portato al positivo collaudo di altri sistemi di box-phreaking, ma per Time-
+ scape l'essenziale non era riuscire, ma riuscire per primo.
+ E a Twin Phreaks la storia recitava chiaramente come il primo blue-user fos-
+ se stato SCSI.   (-2-)
+ Timescape, divorato dall'invidia, aveva trascorso alcuni mesi in clinica  ed
+ era giunto a tentare il suicidio collegandosi piu' di una volta nella stessa
+ settimana a "The Final Frontier"  (secondo i limiti  fissati dall'Organizza-
+ zione Mondiale per la Sanita', un essere umano adulto di peso e  corporatura
+ medi puo' sopportare 20 minuti al mese di collegamento a tale board).
+ Solo per pochi mesi non era stato lui a ricevere la gloria ed il denaro  che
+ il  destino aveva  attribuito a SCSI...  pochi mesi infami, ma  quel dannato
+ crucco aveva boxato prima di lui.   Ora pero' il passato si poteva cambiare,
+ era l'ora della rivincita per un decennio di umiliazioni.
+ Egli sapeva che SCSI, diffidente per natura, non l'avrebbe mai in alcun modo
+ messo  al corrente del segreto della bluebox se fosse riuscito da solo ad e-
+ scogitare un sistema infallibile; inoltre non era possibile un incontro  di-
+ retto tra la  vittima  e  Timescape: si rischiava lo sconvolgimento del con-
+ tinuum spazio-temporale. 
+ La soluzione era venuta da Jettero.   Il  viscido essere aveva suggerito  di
+ spiare  ad opportuna distanza il progredire del lavoro del povero hacker te-
+ desco, onde  essere pronti al  momento opportuno  ad assumere la  paternita' 
+ della scoperta  ed a tornare nel  presente per godersi i frutti della gloria
+ conquistata nel mondo del phreaking (e il denaro).
+ - Il giallognolo  fascio di luce uscente  dal drive aveva  trasportato i due
+ avventurieri in un lontano passato.  Bettina aveva solo pochi mesi e giocava
+ tranquilla  nel suo box (blu) con il suo  gingillo preferito: manco a dirlo,
+ si trattava  di un finto telefono; inoltre  pronunciava alcune parole incom-
+ prensibili ai genitori, tipo "QSD", e piangeva  in un modo del tutto diverso
+ dagli altri bambini.  Anziche' "UAAAAAHHH !!!", lei urlava "NUAAAAAAAA !!!".
+ A cinque anni SCSI non era stato ancora contagiato dal bacillo delle teleco-
+ municazioni, ma gia' fabbricava (con la lana della madre) false code  uguali
+ a quella della scimmietta della giostra vicino a casa, allo scopo di  scroc-
+ care giri gratis.
+ A  dodici anni (secondo  balzo temporale) il primo computer.   Bettina aveva
+ preteso, minacciando  di non andare  piu' a scuola, un  telefono sul  banco,
+ in classe. A quell'eta' SCSI si dedicava ai videogames in sala giochi e sapeva
+ a memoria i  cheat modes di  tutti i giochi elettronici fino  ad allora pro-
+ dotti.   A quindici anni (terzo viaggio nel tempo) i tempi erano maturi per-
+ che' il fanciullo si dedicasse alle telecomunicazioni, e gia nel mondo si i-
+ niziava a parlare di phreaking e metodi di scrocco. 
+ Ma  ecco la sciagura: mentre SCSI stava cercando di lamerare un distributore
+ automatico  di profilattici, Jettero si era allontanato da Timescape sussur-
+ randogli: "Anch'io voglio un palloncino !".
+ Prima  che Timescape avesse potuto trattenerlo, Jettero  era passato  vicino 
+ alla vittima; i due  non si erano neppure notati, la  cosa non sarebbe stata
+ pericolosa... ma  dalle tasche del piu' grande  loozer della storia dell'in-
+ formatica  era caduto qualcosa, e SCSI l'aveva raccolto.   Si trattava della
+ tessera di  appartenenza alla VI Conference che Jettero aveva preteso a tut-
+ ti i costi: a sinistra vi era una fotografia dello squallido individuo, e in
+ alto la scritta "Pier's Group. H/P Elite". 
+ (C'era scritto anche "Fac-simile", ma questo Jet non l'aveva mai notato).
+ Lo choc  per il giovanissimo futuro mago  della bluebox era stato violentis-
+ simo, e nella  sua fragile  mente si era  imposta la  proposizione: "Se  gli
+ hackers diventano cosi', non saro' mai uno di loro".
+ Venduto cosi' precipitosamente l'elaboratore, SCSI aveva riflettuto sul pos-
+ sibile futuro della sua vita, prendendo la definitiva decisione di laurearsi
+ in Agraria.  L'essere piu' dannoso di tutte le epoche (Jettero Heller) aveva
+ creato un paradosso temporale. 
+
+
+
+ --------------------------------------------------------------------------
+ CAPITOLO TERZO
+
+ L'occasione fa l'uomo lamer !
+ --------------------------------------------------------------------------
+
+
+ - La narrazione di Timescape spiegava molte cose.  Se non altro ora sapevamo
+ che i nostri sistemi non avevano mai corso  un reale pericolo di violazione.
+ Gli accounts di  SCSI in BBS non erano spariti, semplicemente  non erano mai 
+ stati aperti; tuttavia si poneva un nuovo e piu' drammatico problema: se gli
+ accounts svanivano nel presente  dato che nessuno nel passato li aveva crea-
+ ti, perche' nelle nostre menti era ancora vivo il ricordo di SCSI hacker ?
+ Il dotto Adventure Seeker prese la parola e formulo' la sua teoria, forse la
+ piu' valida: il  paradosso  temporale avrebbe  lentamente ma inesorabilmente
+ cancellato anche dalla nostra  memoria tutto cio' che riguardava quel ragaz-
+ zo.  Insomma, SCSI era  destinato a sparire nel nulla senza possibilita'  di
+ appello; in quanto tempo, nessuno avrebbe potuto dirlo.
+ - The Brain lancio' un grido e si mise a balbettare frasi senza senso.
+ "Ma se  te ne ho appena  dato un grammo !" gli disse AMF.   Purtroppo questa
+ volta il problema sarebbe stato per lui molto, ma molto piu' grave, e non di
+ quel  genere.   Lo guardammo:  era lampante, aveva recitato la commedia  del
+ finto (?) tonto, ma lui gia' sapeva. E dalla sua sconvolgente reazione,  era
+ chiaro  che c'era dell'altro, qualcosa di ancor piu' terribile di quel  rac-
+ conto di Timescape.
+ E The Brain narro'.
+ - Il problema fondamentale di Jettero non era quello di sbagliare, e neppure
+ quello  di sbagliare sempre; il giovane amava  invece prendere coscienza dei
+ propri errori per poi farne di ancora piu' grossi  nel patetico tentativo di
+ correggere i primi.
+ Era difficile immaginare The Brain in societa' con Jettero, tutti ricordava-
+ no l'odio che li separava da tempo immemorabile. "Jettero a Carnevale si ve-
+ ste da spuria"  aveva dichiarato The Brain in un' Alliance  Conference di 12
+ persone, ma in questo  caso, come recita un noto  proverbio, "l'occasione fa
+ l'uomo lamer".
+ Cosi', nascostamente  da Timescape, Jettero Heller aveva escogitato un piano
+ per rimediare  alla fesseria  del viaggio temporale precedente.   Certamente
+ SCSI non avrebbe indugiato piu' di tanto intorno a quel dannato distributore
+ automatico (installato presso una farmacia) se negli immediati paraggi della
+ farmacia stessa vi fosse stato un magnifico esemplare di tossicomane in cri-
+ si.  E Jettero aveva di nuovo varcato le barriere del tempo in  compagnia di
+ The Brain, al quale aveva narrato la vicenda, che avrebbe dovuto interpreta-
+ re il ruolo del tossico (cosa che non gli creava troppe difficolta'); secon-
+ do le  aspettative  dell'iperloozer, il  piccolo SCSI non si sarebbe neppure
+ minimamente avvicinato all'edificio, vista la presenza di The Brain.  In tal
+ modo non solo non avrebbe avuto la possibilita' di  riconoscerlo, ma avrebbe
+ dato modo a Jettero di recuperare il tesserino smarrito nel precedente viag-
+ gio.
+ Effettivamente  l'idea non sarebbe  stata malvagia, ma era destinata a scon-
+ trarsi con due menti contorte.
+ - Jettero aveva coltivato  per tutta la vita il sogno di sentirsi finalmente
+ libero e normale.  E' vero, la massa di cellule cerebrali era quel poco  che
+ era, ma ora esisteva per lui la possibilita' di rivivere (e di correggere) i
+ grandi sbagli che avevano per sempre segnato in malo modo la sua inutile vi-
+ ta.  Quanto a The Brain, con la demolizione della discoteca Lizard, avvenuta
+ nel '95, se n'era andato un  pezzo del suo cuore.   Per rivedere quel locale
+ ancora una volta, avrebbe dato tutto,  anche la dose quotidiana.
+ Cosi' i  due avevano  lasciato per ultimo il viaggio riparatore e l'incontro
+ con SCSI quindicenne premettendo  i loro immondi interessi; primo tra tutti:
+ il ritorno al Lizard, nel Settembre 1991.
+ Come lo stesso  The Brain amava ricordare, non  c'era  Lizard senza rissa, e
+ rimanere coinvolti  era una questione d'immagine.    Ma questa volta non era
+ piu' un ragazzino, e quando la Polizia lo trattenne per  controlli si accor-
+ se di  non essere in grado di spiegare  la sua provenienza, e  di non  avere
+ documenti validi  in quell'epoca.    Inoltre il suo abbigliamento era quello
+ di sempre:  uno scandalo.    Il questore non  aveva avuto dubbi: "Finalmente
+ ne abbiamo  beccato uno di quei  bastardi albanesi  scappati dallo stadio di
+ Bari".    (-3-)
+ In poche ore, un ponte aereo aveva portato lo sventurato a  Tirana: conside-
+ rato  un disertore  dalla Polizia Politica  albanese, The Brain avrebbe tra-
+ scorso  i successivi dieci anni della sua vita ai lavori forzati nei  campi.
+ Inoltre, per  poter spacciare alla stampa estera l'immagine di un felice ri-
+ torno in famiglia, il Governo lo aveva costretto al matrimonio con un'ultra-
+ sessantenne contadina locale, teorica del Kama-Sutra. Si seppe che era dece-
+ duto pochi mesi piu' tardi, stroncato dalle pretese delle fanciulle del vil-
+ laggio (eta' media: 62) che l'avevano scambiato per un uomo valido.
+ Il  suo corpo  era stato riportato in patria grazie ad una sottoscrizione a-
+ perta dal  giornale a cui era abbonato  da anni (il "Corriere della Pera") e
+ sepolto al Parco Lambro.  Ogni giorno qualcuno depositava sulla sua tomba un
+ mazzo di siringhe fresche.
+ Cosi',  all'appuntamento nel punto prestabilito di ritorno nella nostra epo-
+ ca, Jettero si era ritrovato solo.  La sua missione in quel periodo era sta-
+ ta  piu' squallida:  travestito  da ragazza, aveva  sparso in giro falsi ap-
+ prezzamenti sessuali a Jettero Heller (quindi a se' stesso) cercando di cre-
+ arsi da solo una pseudo-fama, utile negli anni futuri.
+ - "Ma  se The Brain e' qui  tra noi"  lo interruppe AMF  "come e' riuscito a
+ sfuggire agli albanesi ?"
+ The Brain era perfettamente in grado di ricordare gli ultimi anni della  sua
+ vita, e poteva giurare sul suo hard disk di non essere mai stato in Albania;
+ tuttavia  la sua memoria era molto confusa riguardo al viaggio nel tempo  di
+ pochi giorni prima, quello della catastrofe.
+ Adventure  Seeker aveva  dato otto volte l'esame di fisica e letto vagoni di
+ libri al solo scopo di apparire piu' colto e di dare una migliore impressio-
+ ne.   Era stato nuovamente riprovato, per aver cercato di introdurre clande-
+ stinamente in aula d'esame una Workstation completa , nascondendo il monitor
+ nei boxer. Una volgare imitazione di una mia analoga impresa, con la  diffe-
+ renza che nel mio caso nessuno aveva notato la differenza di volume: in uni-
+ versita' mi ero gia' fatto una fama, inoltre mi ero da tempo laureato,  men-
+ tre Adventure Seeker aveva ormai perso il conto degli anni di Politecnico.
+ Tuttavia, con tutte le lezioni che si era sciroppato, egli ora conosceva al-
+ la perfezione ogni teoria spazio-temporale formulata nella storia della  fi-
+ sica. Soppesato il caso in questione, la sua sentenza era stata terribile ed
+ inappellabile: The Brain si era sdoppiato, e la sua immagine albanese sareb-
+ be stata quella definitiva. Questa copia era destinata a  svanire nel nulla,
+ come i nosti ricordi su SCSI.  
+ - Tornato a casa dopo la perdita temporale di The Brain, Jettero aveva avuto
+ un sonno popolato di incredibili incubi; ne racconto' uno atroce, in  cui il
+ loozer aveva sognato la sua morte.   Come i lettori  dei precedenti racconti
+ gia' sapranno, per Heller questa non era la prima permanenza nel nostro mon-
+ do, egli quindi non avrebbe dovuto temere minimamente un nuovo trapasso.  Ma
+ in quell'incubo il fanciullo aveva visto se' stesso destinato ad una ben piu'
+ severa dimora ultraterrena: le  porte infernali si erano spalancate per lui.
+ "Questo e' il tuo posto, lamer!"  aveva  indicato un  funzionario della Lago
+ Soft all'anima vagante di Jettero "qui languirai in eterni tormenti".
+ La folla di  tutti gli utenti  respinti dalla Banca Dati di Pier spingeva il
+ povero  ex-sysop verso un Amiga 3000T: per l'eternita', Jettero  avrebbe di-
+ segnato pics a 16 milioni di colori, ma collegati a quell'Amiga non vi erano
+ ne' drives ne' stampanti, ed ogni 10 ore veniva tolta la tensione al sistema
+ per alcuni secondi.
+ Svegliatosi da questo sonno intriso di sofferenza, Jettero si era reso conto
+ di quanto l'utilizzo per scopi personali e squallidi del traslatore tempora-
+ le fosse stato dannoso per tutti. Delirava, credeva di essere un hacker ! 
+ Chiedeva disperatamente il nostro  aiuto per rimediare ai disastri compiuti,
+ e sinceramente quel verme strisciante ci faceva compassione.
+ 
+
+ 
+ --------------------------------------------------------------------------
+ CAPITOLO QUARTO
+
+ L'ultimo viaggio
+ --------------------------------------------------------------------------
+
+
+ - Effettuare un nuovo e risolutivo viaggio nel tempo era un'impresa diffici-
+ le anche per noi, tali erano i danni creati da quei tre sciagurati. Purtrop-
+ po  Jettero, lamer per definizione, aveva la necessita' fisica di  combinare
+ una  boiata ogni 18 minuti; la fesseria definitiva l'aveva fatta nel  misero
+ tentativo di nasconderci la sua scoperta ,occultando il df1: modificato come
+ cronotraslatore nel frigorifero.
+ Ovviamente  cio' era  accaduto prima della riunione, quando ancora lui e The
+ Brain avevano sperato di poterci tenere all'oscuro dei fatti. Pazzi !
+ Avevano  forse dimenticato l'esistenza di Burglar ?  Burglar era il piu' at-
+ traente degli hackers, nel senso che data la sua massa attraeva gli oggetti. 
+ Forse nel  Grande Disegno dell'Universo, egli avrebbe dovuto essere un  pia-
+ neta e non un essere vivente, ma qualcosa era andato storto.  Per quel bimbo
+ veniva  prima il cibo, poi tutte le  cose di importanza  secondaria, come ad
+ esempio respirare. 
+ Cosi', dopo  meno di venti secondi  di riunione, il suo radar alimentare in-
+ corporato aveva captato la presenza del  frigorifero di Jettero; il saccheg-
+ gio era  stato immediato, la fogna vivente  non usava piu' nemmeno la bocca: 
+ si avvicinava al cibo e lo inglobava.
+ Rovina e lutto!  La nostra unica possibilita' di salvare gli amici era stata
+ fagocitata da quell'essere.
+ "Fateglielo sputare !" urlo' The Brain "mi hai rovinato, sciagurato !!".
+ Per  nostra fortuna intervenne Hydra, l'esperto in fatto di prodotti di sca-
+ rico organici o meno: Jettero il computer non lo sapeva usare, tuttavia come
+ grafico scarabocchiava in modo quasi decente; si era specializzato in  corpi
+ femminili, che realizzava ottimamente in ogni dettaglio eccetto quelli  nor-
+ malmente non esposti, per i quali mostrava spaventose lacune.  
+ Hydra  gli chiese dunque di disegnare in modo somigliante il volto di Sirio.
+ Sirio (Guile) era decisamente la nostra arma segreta, da tirare fuori  ogni-
+ qualvolta occorresse uno choc basato sul disgusto: era troppo loozer !
+ Neppure Jettero stesso era mai sceso a livelli cosi' bassi. Un giorno, preso
+ dallo sconforto, aveva chiesto a se' stesso: "Chi e' l'utente piu' cool del-
+ la board ?" indi aveva alzato il telefono per appagarsi sentendosi risponde-
+ re: "Tuuu...tuuu...tuuu...".   Ebbene, per la prima volta nella storia delle 
+ telecomunicazioni  si era udito il tono  di centrale: "Tunoperche'seilameee-
+ er...tunoperche'seilameeeer...".
+ In  tutti questi anni era stato  disprezzato dagli uomini, dalle  donne e da
+ Shock Waves.  Ragazze ?  Ma quando mai... persino Paula e Denise, all'inter-
+ no  del suo Amiga, in realta' erano  dei travestiti.  Perche' elaborassero i
+ dati, doveva pagarli.
+ All'inizio  Jettero si era rifiutato di insultare il suo monitor costringen-
+ dolo a visualizzare tale immagine, poi H.D. Case l'aveva convinto.
+ "Anche tu potrai  avere la magica Scatola Blu", gli  aveva spiegato Case sa-
+ pendo che Jettero Heller  non era mai riuscito in tutta  la vita a scroccare
+ una telefonata. Bisogna capire che ormai il quasi-forse-hacker non solo ave-
+ va  toccato il fondo, ma si  era messo a scavare  per cadere  ancora piu' in
+ basso.   Dopo aver chiamato At&T, non aveva neppure il tempo di dire "Please
+ dial...".  L'operatrice gli rispondeva in italiano: "Ma insomma,  Jettero... 
+ piantala con questi numeri di carta provati a caso!  Qui stiamo lavorando!".
+ Quanto al boxing, c'era poco di cui discutere quando una persona era  ferma-
+ mente convinta  di come il parametro  "lunghezza d'onda" fosse riferito alle
+ mareggiate. 
+ - L'ammasso  di pixel rappresentante il volto di Sirio aveva preso lentamen-
+ te forma, e  la luminanza  del monitor era  sufficiente a provocare malori a
+ sette metri di distanza. Ci allontanammo tutti  dalla stanza, tranne la vit-
+ tima (Burglar) e Jettero che risultava immune. 
+ Era fatta: la  sfera vivente restitui' alla  luce del giorno  il dispositivo
+ deglutito, insieme  ad altro materiale organico  che immediatamente riciclo'
+ re-immettendolo nel suo apparato digerente. Ora si poteva veramente iniziare
+ a lavorare sul viaggio risolutivo.
+ L'asteroide umano si autoproclamo' capo della spedizione ed inizio' la scel-
+ ta dei componenti l'equipaggio dei viaggiatori del tempo.  Sinceramente, era
+ forse lui stesso il meno indicato per un balzo cronologico. Avremmo preferi-
+ to qualcosa di meno ingombrante da trasportare, per esempio l'intera popola-
+ zione dell'Australia. 
+ Comunque, i prescelti furono (oltre a me, ovviamente): H.D. Case e Hydra.
+ Purtroppo, i liquami circolanti  nell'apparato digerente di Burglar  (sembra
+ che, al posto della bile, il fegato sintetizzasse acido nitrico) avevano av-
+ viato un irrimediabile processo di corrosione del diabolico df1: di Jettero.
+ Come tutti i presenti ben sapevano, le invenzioni helleriane risultavano in-
+ comprensibili al resto del genere umano, e lui non era assolutamente in gra-
+ do di ricordare lo  pseudo-criterio con il quale aveva  assemblato i  compo-
+ nenti: pare che  li buttasse in  aria a manciate per poi saldarli nel  punto 
+ della scheda dov'erano ricaduti.
+ Comprendevamo  tutti come il destino ci concedesse una sola ed ultima oppor-
+ tunita': l'ultimo viaggio a ritroso nel tempo avrebbe dovuto cancellare  gli
+ errori commessi da quei lamers, oppure confermarli per sempre.    
+ - La porta si spalanco' ed entro' Timescape, gia' dimesso dall'ospedale.
+ Aveva  hackerato il  reparto di terapia intensiva  rieditando i tracciati di
+ tutti i pazienti con DPaint 4, e facendo cosi' risultare 380 pulsazioni car-
+ diache al minuto al suo compagno di stanza: un novantenne in coma diabetico.
+ Cosi', avevano deciso di liberarsene al piu' presto.
+ "Fermi tutti" urlo'. "Nessuno dovra' piu' ricordarsi di SCSI. Io, solo io ho
+ creato la bluebox". Aveva lo sguardo fisso e allucinato, sembrava  The Brain
+ all'uscita della discoteca. "Non muovetevi, o vi leggo i Bulletins  del  BBS
+ di Shock Waves!". Nessuno fiato': da quando l'odiato ex-utente  aveva aperto
+ la sua miserabile board, giravano voci terrificanti. Si era fatto installare
+ due linee e due HST per potersi chiamare da se', indi si era  registrato con
+ 134 nomi diversi onde dare l'impressione di una board piena di utenti.  Come
+ risultato si mandava messaggi da solo, discuteva,litigava e si autodeletava;
+ si raccontava  inoltre che negli ultimi tempi saltasse da un terminale  all'
+ altro per riuscire a chattare con se' stesso. La schermata piu' intelligente
+ riportava la scritta: "Per riuscire a collegarvi, downloadate il software di
+ telecomunicazione", ma nessuno aveva mai avuto il coraggio di leggere i Bul-
+ letins. 
+ La minaccia di Timescape fu presa sul serio, e tutti restarono immobili  an-
+ che  quando quel maledetto strappo' dalle mani di Hydra il traslatore tempo-
+ rale.  Pochi secondi, ed era gia' fuggito. 
+ Impiegammo diversi minuti per riprenderci dallo choc, ora quell'infame pote-
+ va essere dovunque, e con lui le nostre speranze di salvare The Brain e  ri-
+ condurre SCSI sulla giusta strada del phreaking.   Avvisammo  immediatamente
+ per  via telematica ogni hacker disponibile, perche' ci segnalasse tempesti-
+ vamente eventuali notizie sul maledetto Lamescape.
+ Jettero rimase molto sorpreso vedendoci usare il suo modem: lui non riusciva
+ a collegarsi da mesi! Secondo le sue cognizioni, l'apparecchio non funziona-
+ va per problemi  di statica; in realta' teorizzammo che i delicati  circuiti
+ fossero allergici alla sua presenza fisica: non per nulla quando  era Heller
+ ad usarlo, lo speaker emetteva una pernacchia al posto della portante. (-4-) 
+ Pare inoltre che negli ultimi giorni il ribelle strumento avesse iniziato  a
+ sputare  diodi e condensatori  negli occhi del ragazzo, facendo allegramente
+ lampeggiare la fila di LED ogni volta che colpiva in pieno la pupilla.
+ Anche questa volta il loozer commise l'errore di avvicinarsi troppo a quello
+ che era stato un tempo il suo fedele modem: l'oggetto gli diede uno  schiaf-
+ fone  con il cavo di alimentazione, e Jettero fu costretto a ricorrere  all'
+ armadietto dei medicinali per curare i danni. 
+ Quel  gesto fu la nostra salvezza; nel  mobile, infatti, il bimbo conservava
+ anche i certificati medici che ufficializzavano i suoi malanni fisici e men-
+ tali, e  questo mi illumino' la mente... mi ero ricordato un particolare  d'
+ importanza vitale:  Timescape  non poteva saperlo ma si era  rovinato con le
+ sue stesse mani.
+ Saprete tutti che i componenti elettronici semplici vengono venduti con pins
+ lunghi 3-4 cm, che poi l'utente provvede a tagliare. Bene, il giovane Heller
+ (per poterli riciclare in 30 o 40 creazioni) lasciava sporgere dalla piastra
+ i piedini metallici e regolarmente si riempiva di buchi le dita.  Dov'era il
+ problema ?   Jettero era venti volte piu' pericoloso  di un sieropositivo !!
+ Era infatti  l'unico portatore sano (?) al mondo di una  pericolosa variante
+ della malaria, la lamaria, o malattia del lamer cronico: bastava un semplice
+ contatto con il sangue infetto per provocare un attacco del male. Sicuramen-
+ te Timescape si sarebbe punto con un componente della scheda, e sarebbe sta-
+ ta la sua fine.  (Nota: Burglar, che pure era entrato in contatto fisico con
+ l'oggetto, era immune da qualunque virus o batterio grazie ai suoi mega-lin-
+ fociti del peso di 90g cad.).
+ - Lo incontrammo in chat su QSD, era completamente andato: credeva di essere
+ un sippino.   "Bisogna tracciare la linea" suggeri' H.D. Case, e Jettero re-
+ plico': "serve un righello ?".   The Brain, mettendo in pratica un mio inse-
+ gnamento (vedi "Twin Phreaks II") disattivo' il lamer per qualche ora ponen-
+ dogli il quesito: "Jet, calcola la 7654esima potenza di 1".   Per fare tutte
+ le moltiplicazioni (1 x 1 x 1 x 1...)  egli avrebbe impiegato  come minimo 5
+ ore.
+ Per  fortuna  Timescape non era piu' in grado di intendere ne' di volere, fu
+ facile  capire da dove stava chiamando; in pochi  minuti fummo sul posto, il
+ bimbo  era  entrato con una scusa nell'appartamento di Pier, poi aveva preso 
+ in  ostaggio la famiglia di questi  minacciando in perfetto  stile  mafioso:
+ "Ora la board e' mia!   Non provate a reagire o telefonero' a tutti i vostri
+ parenti con le mie sicurissime carte ViaTel !".  (-5-)
+ Il formidabile deterrente aveva funzionato, ma ora Timescape non faceva piu'
+ paura a nessuno: ormai contaminato dal terribile morbo jetterino, stava rag-
+ gomitolato in un angolo urlando tra le lacrime: "SCSI, ti odio !"
+ Che triste spettacolo, che fine indegna!
+ 
+
+
+ --------------------------------------------------------------------------
+ CAPITOLO QUINTO
+
+ Fine di un incubo ?  
+ --------------------------------------------------------------------------
+
+ - Avevamo solo poche ore per programmare ed effettuare  l'ultimo salto  tem-
+ porale.  Jettero Heller si sedette alla tastiera dell' A4000 di Pier provan-
+ do a collegare il suo dispositivo. Nulla da fare, il computer visualizzo' la
+ guru meditation #4A45545445524F.424F4941 (chi conosce l'ASCII Hex traduca) e
+ si impallo' completamente.  (-6-)
+ Solo  l'elaboratore di  Jettero era  ormai immune  alle loozer-creazioni del 
+ proprietario, per cui fummo costretti a tornare nell'appartamento della  be-
+ stia.
+ - Sulla  scrivania Helleriana  spiccavano le  sue fenomenali invenzioni: non 
+ c'e' che dire, il  ragazzo era un  genio.   Persino il vecchio pallottoliere
+ della  sorellina era  stato collegato al bus di espansione con un cavo a na-
+ stro rosa sul quale spiccava la scritta: "Coprocessore matematico".
+ All'accensione, la macchina presentava una schermata speciale; al posto del-
+ la richiesta del disco di WB, uno scroll lampeggiante recitava: "Allora, la-
+ mer... hai studiato? Pronto per la domandina ?".
+ Solo dopo qualche minuto, Heller ci spiego' la novita'. Da tempo tra lui  ed
+ il suo computer i rapporti si erano deteriorati, causa l'eccessiva incapaci-
+ ta' di Jet; ebbene, un bel giorno l'Amiga aveva preso una decisione solenne:
+ non  si sarebbe  piu' fatto  utilizzare da  quel loozer se questi non avesse 
+ prima dimostrato il suo impegno per diventare un po' piu' cool. 
+ Cosi', Jettero  si era dovuto studiare a memoria le funzioni di 324 librerie
+ per essere  pronto a rispondere  alla domanda random  che il computer gli a-
+ vrebbe posto ogni 12 ore. Dopo tre risposte sbagliate, la macchina si sareb-
+ be resettata... potenza degli integrati della quarta generazione !   
+ La domanda del giorno era veramente complessa: si trattava di  un quesito di
+ sommo livello tecnico riservato a veri specialisti nel campo delle telecomu-
+ nicazioni ad alta velocita'. Ecco il testo del problema: "Hai cinque  modems
+ HST, se ne vendi tre quanti te ne rimangono ?".
+ Jettero  impallidi' alla vista della domanda, per fortuna intervenne Burglar
+ che al  terzo tentativo  azzecco' la risposta esatta, quindi ando' in cucina
+ per  ricaricare le sue cellule nervose dopo lo sforzo effettuato per il dif-
+ ficile ragionamento.  Terminato  il contenuto della  dispensa e  di svariati 
+ armadi, ingoio' persino una lampadina. 
+ "Criminale !" gli urlo' Jet "Le mie lampadine a 125 Volt... sono praticamen-
+ te introvabili in questo Paese e tu te le mangi ?".
+ "Perche' a 125 Volt ?" chiese ingenuamente The Brain.
+ Il  megalamer replico' tranquillamente: "Scusa, ma come fai tu a far funzio-
+ nare il modem ?"  (-7-)
+ Qualcuno gli spiego' l'esistenza di appositi trasformatori, solo allora sco-
+ primmo che il fanciullo aveva fatto uno speciale contratto con l'ENEL per la
+ fornitura di energia elettrica a tensione ridotta.
+ Eravamo abituati alle fesserie di Jettero, ma questa era stata veramente po-
+ tente. "Jettero, sei talmente loozer che se ti dicessi di dipingere di gial-
+ lo canarino  il computer per  aumentare i MHz, lo faresti subito" gli  disse
+ Hydra. 
+ "Jettero ?...Jetterooo ?... ma dove accidenti e' andato ?" chiese H.D. Case.
+ Lo ritrovammo nella stanza accanto mentre armeggiava con una  bomboletta  di
+ spray giallo. "Bastardi, ora ho scoperto perche' non riesco ad avere CPS al-
+ ti come i vostri !   Ridatemi la vernice !" grido' mentre gli strappavamo la
+ bombola dalle mani. Per farlo star buono, Hydra  gli racconto' una fiaba: la
+ rielaborazione  telematica  de  'Il brutto anatroccolo'  ovvero  'Il  brutto
+ sysoppolo'.
+ - Tornando alle cose serie, cominciai a  proporre il definitivo balzo tempo-
+ rale: "Abbiamo una sola possibilita'" dissi "e la logica ci dice che sarebbe
+ conveniente tornare al giorno stesso in cui Jettero realizzo' il dispositivo
+ per impedirglielo. Niente traslatore, niente casini".  Purtroppo il disastro
+ ambulante non  ricordava neppure la sua data di nascita,  figuriamoci  l'ora
+ esatta in cui aveva modificato il df1:.  Inoltre ragionava alla stessa velo-
+ cita'  di Itapac, con  la differenza che  il suo cervello  non prevedeva ARQ
+ e riceveva (O generava? Non si e' mai capito...) una spuria ogni 30 secondi.
+ Dopo anni ed anni di attivita' informatica, la sua  mente si era distorta ed
+ ora funzionava come un hard disk, con tempo di accesso di qualche ora circa.
+ Heller non aveva un cervello, aveva un sistema operativo.   E pieno di bugs!
+ A volte si bloccava completamente ripetendo meccanicamente  lo stesso reque-
+ ster : "Cannot find Brain-Validator".  A questo punto era obbligatorio sele-
+ zionare  l'opzione  "Cancel" sferrandogli  un cazzotto  nell'occhio  destro.
+ (In quello sinistro per l'opzione "Retry").   (-8-)
+ - Per nostra fortuna il  capo dei lamers ebbe l'idea di frugare nelle tasche
+ dei pantaloni alla ricerca di un appunto che gli riportasse alla memoria  la
+ fatidica data. "Eccolo, eccolo!" urlo' ad un tratto. Ci voltammo tutti verso
+ di lui, ma restammo subito delusi. "Ho ritrovato l'hardcopy del mio questio-
+ nario  di abilitazione  da Pier... sapevo di averla messa in qualche  tasca,
+ nove anni fa".  Si trattava del mitico foglio in cui il bimbo dichiarava che
+ "Baudrate" era una forma di pagamento dilazionato per l'acquisto dell'US Ro-
+ botics.   Da circa due lustri Jettero indossava lo stesso paio di pantaloni.
+ In realta' non  erano un capo  d'abbigliamento  ma  un'agenda: egli  infatti 
+ quando chattava vi scriveva sopra NUI, PW e menate varie.   Inoltre allevava
+ scarafaggi in una delle tasche posteriori.
+ - Decisi  improvvisamente per il salto nel tempo temporale; ora conoscevo la
+ destinazione.  Approdammo nei pressi dell'appartamento di Silver Spring, do-
+ ve  il vegetale umano aveva messo radici; rispetto alla data di partenza, e-
+ ravamo tornati indietro nel tempo di tre mesi esatti e Jettero non aveva an-
+ cora iniziato a progettare l'infernale strumento.  Era buio, ed il fanciullo
+ si apprestava a rincasare dopo ore ed ore perse fingendo di lavorare.  Ad un
+ segno  convenzionale, Hydra estrasse un acuminato oggetto d'acciaio scintil-
+ lante e lo punto' alla gola di Jettero prendendolo alle spalle.
+ Protetti  dall'oscurita' e dalla nebbia gli fummo addosso (che schifo!) e lo
+ immobilizzammo.  L'oggetto in questione era un lungo ago. Una siringa ?  
+ Macche', un ago da rammendo... con tanto di filo pronto! Da anni quell'esse-
+ re non ricuciva le tasche, aveva piu' buchi che stoffa!  Muniti di guanti le
+ svuotammo: all'interno  trovammo un ricco  campionario di aracnidi, 842  fo-
+ glietti di appunti, un cavo seriale lamerato, tre torsoli di mela e un turi-
+ sta tedesco nano prelevato per sbaglio durante l'ultimo campeggio. H.D. Case
+ comincio' a rappezzare i calzoni del loozer, poi lo spedimmo  nel mondo  dei
+ sogni. (Fu Hydra a mandare Jettero in stato di incoscienza  chiedendogli  di
+ effettuare l'operazione di NOT logico di 0000.  Il suo cervello alzo' subito
+ bandiera bianca).  
+ Tutto  il guaio in fondo era  successo solo per questo: la tessera di Confe-
+ rence 6 gli era  scivolata da  uno dei buchi  nelle tasche.  Ora di una cosa
+ eravamo sicuri: quest'inconveniente non si sarebbe mai piu' ripetuto. 
+ Con Jettero fuori uso, ispezionammo l'appartamento.  Il sistema nervoso  del
+ lamer aveva i suoi propri interrupts :  ogni sessantesimo di secondo  inven-
+ tava una nuova boiata e purtroppo per noi non crashava mai!   Per fortuna la
+ sua mente limitata riusciva ad elaborare un solo progetto per volta. 
+ Hydra dispose vicino al videoregistratore una serie  di copie dei suoi films
+ preferiti. Scartando il genere hard (li aveva tutti)  gli regalammo una ric-
+ ca collezione di pellicole di fantascienza. Guardarle  tutte  (e soprattutto 
+ capirle) l'avrebbe tenuto impegnato per i prossimi due anni e, cosa piu' im-
+ portante, gli avrebbe impedito di rispondere allo stimolo creativo dal quale
+ aveva tratto origine il traslatore temporale. 
+ - Jettero Heller  non creo' mai quel dispositivo, e da questo punto di vista
+ la missione ebbe pieno successo.   L'incontro con il giovane SCSI non ci fu,
+ e neppure la perdita di The Brain.  Con il passare del tempo, tutti gli ele-
+ menti disturbati dall'intrusione cronologica  sarebbero tornati  al loro po-
+ sto.  Sfortunatamente Case aeva incluso tra quelle dannate videocassette an-
+ che i noti "The fly" 1 e 2 e la serie completa di Star Trek.   Da allora Jet
+ dedica il suo tempo alla creazione di un'altra invenzione rivoluzionaria: il
+ teletrasporto.  Sara' l'inizio di una nuova avventura ?
+ Il drive  esterno modificato di Jettero  rimasto nelle nostre mani svani' in
+ un mucchietto  di cenere pochi secondi dopo il  nostro ritorno nel presente,
+ vittima del processo di corrosione innescato da Burglar.   Questa pericolosa
+ avventura giungeva al termine.
+ Fedele  alla parola data, H.D. Case  perdono' ancora una  volta Jettero come
+ incapace di intendere, di volere  e di hackerare.  Inoltre gli diede un pre-
+ zioso suggerimento per la magica scatoletta blu: "Il segreto e' nei tronchi.
+ Falli cadere!".   Da quel giorno  non si vide piu' un  albero in  tutta Twin
+ Phreaks: Heller, girando di notte armato di motosega, ne faceva strage. 
+ Hydra fu assorbito da un canale di scolo durante una giornata di pioggia; le
+ sue ultime parole furono "Dovunque ci sono lamers da castigare, Hydra e' con
+ voi". Quindi, imitando il celebre bat-segnale, ci rivelo' il segreto per ri-
+ chiamarlo dai labirinti del sottosuolo.   "Date tre brevi colpi e uno  lungo
+ allo sciacquone del vostro WC, appariro' subito".  
+ Adventure Seeker  chiese un colloquio al suo professore di fisica e gli rac-
+ conto' tutto  quanto era accaduto  negli ultimi due giorni, credendo  cosi',
+ per meriti speciali, di  essere esentato dal  malefico esame.   Raggiunse lo
+ scopo, ora non deve piu' sostenere test e non ha piu' preoccupazioni: allog-
+ gio gratis, cibo discreto.  Ogni tanto gli portiamo qualche dolce la domeni-
+ ca.   Ci fa un po' pena con la sua camicetta bianca e quelle  maniche legate
+ dietro la schiena, ma dicono tutti che e' per il suo bene. The Brain, final-
+ mente libero di  continuare a vivere, dimostro' ancora una volta la sua sen-
+ sibilita' verso  la natura ed il  verde  precipitandosi al  Parco di Trenno.
+ Nessuno di noi seppe  mai il contenuto  di quel saccone di plastica  formato
+ Nettezza Urbana  che si porto' a casa  quella sera stessa, tuttavia  per una
+ settimana lo  sentimmo correre di  notte per  le strade cittadine  urlando a
+ squarciagola: "Chi non boxa e' un Jetterino, ueh! ueh!".   Quanto a Pier, ci
+ invito' tutti quanti ad un mega-hacker party nella sua villa. Portammo anche
+ Burglar, grazie  al gancio della  roulotte montato  dietro l'auto di Pier ed
+ alle tre ruote attaccate sotto l'enorme ventre dell'"immenso" phreaker.
+ Alla prima curva la  forza centrifuga ebbe ragione del sistema di traino,  e
+ Burglar precipito' da una  rampa autostradale dritto nel fiume che  scorreva
+ placido ed azzurro a qualche chilometro dalla citta'.  Fu noleggiato all'AEM
+ come diga vivente ed oggi Twin Phreaks ha uno spendido  laghetto con annessa
+ centrale idroelettrica.  Grazie Burglar!
+ Timescape fu giudicato dal Tribunale degli Utenti di Conference 7  e condan-
+ nato, per  le sue meschine azioni, a sei mesi  di gestione di un chat VDT in
+ stretta collaborazione con Sirio;  la vicinanza di tale individuo avrebbe a-
+ vuto  per lo meno l'effetto  positivo di uccidere  i bacilli della  malattia 
+ contratta da Jettero.   In seguito, Mark Anders  si sarebbe incaricato della
+ sua rieducazione.
+ Era davvero finita! Potevamo dormire sonni tranquilli, a parte Jettero: l'u-
+ nico al mondo ad avere spurie nei sogni.  Questo almeno fino al prossimo ca-
+ sino.  Gia', perche' nessuno di noi si aspettava dal destino una vita norma-
+ le come quella  della gente comune, o forse  nessuno di noi la voleva... non
+ per nulla avevamo scelto di vivere in questo magico luogo non indicato nelle
+ carte  geografiche ma solo nelle aree H/P, di vivere da hackers e non da la-
+ mers, di vivere qui: a Twin Phreaks.
+
+
+ F I N E 
+ -------
+
+ 
+
+
+ ---------------------------------------------------------------------------
+ NOTE a "Twin Phreaks III"
+ ---------------------------------------------------------------------------
+
+ (-1-)    Timescape, per chi ancora non lo sapesse,  riusci' nell'autunno
+          del '92 a ribaltarsi con l'auto nuova in un tratto autostradale
+          piatto come l'elettroencefalogramma di Guile. 
+          La povera Uno fini' sparsa in un raggio di 700 metri, lui rima-
+          se illeso. 
+
+ (-2-)    Il  boxing, nella realta', esisteva  in Italia molto  prima del 
+          1991, tuttavia  in quel  periodo furono  effettuati  importanti 
+          studi, ed  il primo ad ottenere  nuovi risultati  fu il  mitico 
+          SCSI.
+
+ (-3-)    Nel luglio 1991 le coste pugliesi furono prese d'assalto da mi-
+          gliaia di profughi albanesi: cercavano l'Italia, ma per  errore
+          sbarcarono molti, molti Km piu' a Sud.
+
+ (-4-)    Effettivamente Jettero Heller, per un periodo purtroppo limita-
+          to, ebbe problemi con il modem ed imputo' per questo l'elettri-
+          cita' statica atmosferica dopo  aver colpevolizzato (nell'ordi-
+          ne) il gatto, il colore della moquette, i residui di Chernobyl,
+          il buco nell'ozono, il regime della  ex-Germania Est ed i raggi
+          cosmici.
+
+/ (-5-)    Timescape e' un vero benefattore: grazie al  legalissimo uso di
+          tali  carte di credito  particolarmente affidabili, egli ha ga-
+          rantito a tutti  i suoi amici alcuni anni di vitto ed  alloggio 
+          gratis, a spese dello Stato.
+
+ (-6-)    La traduzione, per gli ignoranti, e' "Jettero boia".
+
+ (-7-)    I prodotti importati dagli Stati Uniti, dei  quali i modems USR
+          sono un esempio tipico, necessitano di una tensione di rete tra
+          i 110 ed i 125 Volt.
+
+ (-8-)    I requester di Amiga contengono solitamente 2 opzioni, da clik-
+          kare con il  mouse: nella  parte destra  il "Cancel", in quella 
+          sinistra il "Retry".
+          Uno dei piu' odiati  tra questi  messaggi, e' il  "Cannot  find
+          disk-validator", da cui il vago riferimento nel testo; si trat-
+          ta di una simpatica finestrella con cui il sistema operativo vi
+          avverte gentilmente di come 300 Mb di dati sul  vostro HD siano
+          da buttare.
