@@ -4,7 +4,7 @@
 This repository exists only to preserve some tools and documents of historical importance. The material contained here shouldn't pose any threat nowadays, however any harmful use is discouraged and the repository contributors cannot be held liable for any misuse.
 
 ## contributors
-* teknoraver.net thanks to @Cia91
+* teknoraver.net thanks to @blackout314
 * LoD thanks to @mattosem
 * Spaghetti Phreakers thanks to @mattosem
 * underconstruction thanks to @mattosem
